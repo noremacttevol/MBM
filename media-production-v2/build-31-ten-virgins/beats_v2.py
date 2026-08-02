@@ -258,9 +258,7 @@ LOCKS = {
         "Judea, aged roughly sixteen to thirty, each a DIFFERENT individual human being "
         "with her own face, age, build, hair and colours — no two share a face, no face "
         "is cloned or repeated, and not one of them is a generic bystander. They are "
-        "spaced with a clear gap of dark ground between them so that all ten can be counted one by one. THE PICTURE IS TALL AND NARROW, SO THE TEN ARE ARRANGED IN DEPTH AND NOT IN A ROW: they are staggered at clearly different distances from the camera, some near and large, some further and smaller, some further still, spread from the lower part of the frame back into the middle distance, and they are NEVER strung out in one straight horizontal line across the narrow width of the picture. THE WHOLE GROUP FITS COMFORTABLY INSIDE THE FRAME WITH ROOM TO SPARE: there is clear empty ground visible beyond BOTH ends of the group, and NOT ONE WOMAN IS CUT, CLIPPED, SLICED OR RUN OFF BY ANY EDGE OF THE PICTURE — every one of the ten is whole and entirely inside the frame. NOW COUNT WHAT IS IN THE PICTURE: exactly TEN heads, TEN faces and TEN bodies and NO ELEVENTH head, shoulder, arm, hand or body anywhere, at any edge, in the background, behind another figure or out of focus; and exactly FIVE clay oil jars and NO SIXTH jar anywhere in the frame. "
-        "counted one by one. "
-        "EVERY ONE OF THE TEN CARRIES HER OWN SMALL CLAY OIL LAMP, and the ONE "
+        "spaced with a clear gap of dark ground between them so that all ten can be counted one by one. THE COUNT IS THE WHOLE POINT OF THIS PICTURE, SO IT IS BUILT AS FIVE PLUS FIVE AND NEVER AS ONE UNDIFFERENTIATED TEN. The women stand in TWO CLEARLY SEPARATE GROUPS OF FIVE with a band of empty dark ground between the two groups: FIVE women in one group, FIVE women in the other group, five and five, ten in all. Count the first group — one, two, three, four, five, and no sixth. Count the second group — one, two, three, four, five, and no sixth. Within each group of five the women are staggered at clearly different distances from the camera, some nearer and larger and some further and smaller, so each of the five is separated from her neighbours by visible dark ground and none overlaps or hides another. THE PICTURE IS TALL AND NARROW, so the two groups are placed one nearer the camera and one further away, up into the depth of the frame, and the ten are NEVER strung out in a single straight horizontal line across the narrow width. THE WHOLE GROUP FITS COMFORTABLY INSIDE THE FRAME WITH ROOM TO SPARE: there is clear empty ground beyond both ends of it, and NOT ONE WOMAN IS CUT, CLIPPED, SLICED OR RUN OFF BY ANY EDGE OF THE PICTURE. ALL TEN ARE GROWN YOUNG WOMEN between about sixteen and thirty — there is NO CHILD, no little girl, no boy, no man and no older woman anywhere in the frame, and no eleventh person of any kind at any edge, in the background, behind a figure or out of focus. EXACTLY TEN LIT LAMPS: every single one of the ten has her own clay lamp with its own flame, so there are ten separate flames in the picture and nobody is empty-handed. EXACTLY FIVE CLAY OIL JARS AND NO SIXTH — all five jars belong to the five wise, and not one jar appears anywhere near the other five women. EVERY ONE OF THE TEN CARRIES HER OWN SMALL CLAY OIL LAMP, and the ONE "
         "difference a viewer must be able to see at a glance is THE SECOND VESSEL: each "
         "of the FIVE WISE also carries a SMALL ROUND FIRED-CLAY OIL JAR, about the size "
         "of two fists, with a narrow neck and a stopper of rolled cloth, held in her "
@@ -859,7 +857,7 @@ BEATS = [
         "locks": ["FORECOURT"] + _NIGHT,
         "narration": "They all woke and reached for their lamps.",
         "must_show": "close and low on the ground — several hands coming down into frame to snatch small clay lamps up off the packed dust, caught mid-reach.",
-        "must_not_show": _NO_JESUS + _NO_DAY + _NO_HALO + _NO_MODERN_LAMP + "no face in this frame at all — hands, lamps and ground only; " + _NO_CREAM,
+        "must_not_show": _NO_JESUS + _NO_DAY + _NO_HALO + _NO_MODERN_LAMP + "no face, head, beard, chin or shoulder in this frame at all — women's hands, lamps and ground only; NO MAN AND NO MALE FIGURE anywhere in the picture, no male hand, no male forearm, no bare male leg, no trousers, breeches or leg wrapping of any kind; " + _NO_CREAM,
         "scene": (
             "One photograph, 50mm lens, THE CAMERA IS DOWN ON THE PACKED EARTH ITSELF, "
             "lens an inch or two above the dust and looking along it, very shallow depth "
@@ -871,7 +869,9 @@ BEATS = [
             "terracotta with a round filling hole and a pinched spout, each with one "
             "small soft yellow flame standing at the spout and guttering sideways in the "
             "movement of the air. Coming down into the frame from above are four or five "
-            "HANDS, brown and work-worn, caught MID-REACH at different distances: one has "
+            "YOUNG WOMEN'S HANDS — slim, brown and work-worn, with slender wrists and "
+            "short nails, each emerging from the straight woven sleeve of a woman's "
+            "ankle-length tunic — caught MID-REACH at different distances: one has "
             "already closed round the body of a lamp and is lifting it, tilting it a "
             "little so the flame leans; one is an inch from touching; one is splayed flat "
             "on the dust taking a woman's weight as she pushes herself up; one is just "
@@ -880,8 +880,9 @@ BEATS = [
             "ACROSS the dust so every grain, scuff and pebble throws a long shadow, "
             "climbing the undersides of the wrists and forearms and dying out completely "
             "a foot above the ground — the top of the frame is pure black. Dark saturated "
-            "wool sleeves, hems and one twisted cord sash pass through the edges of the "
-            "frame; no pale cloth appears anywhere. Fine film grain."
+            "wool sleeves and the long ankle-length SKIRT HEMS of women's tunics pass "
+            "through the edges of the frame, covering the legs completely so no bare leg "
+            "is visible anywhere; no pale cloth appears anywhere. Fine film grain."
         ),
     },
     # ---------------- ANCHOR: WISE-LEAD (generated in its own run) -------------
@@ -1246,7 +1247,15 @@ BEATS = [
             "nearest large and the furthest already small and half swallowed by the dark. "
             "Each is caught mid-stride, skirts lifted in one fist, head cloths blown "
             "back, and EACH CARRIES HER SMALL CLAY LAMP DARK AND UNLIT, swinging in her "
-            "hand with no flame on it at all. AHEAD OF THEM THERE IS NOTHING: the lane's "
+            "hand with no flame on it at all. ALL FIVE ARE GROWN YOUNG WOMEN, not "
+            "children, and EVERY SEPARATE PIECE OF CLOTH ON EVERY ONE OF THEM IS A DARK "
+            "SATURATED COLOUR: their five tunics are DEEP RUST-BROWN, DARK GREY-BROWN, "
+            "DARK OLIVE, DEEP TERRACOTTA-BROWN and DARK BRONZE-GREEN, and their head "
+            "cloths are DARK MOSS-GREEN, DEEP BURGUNDY, DARK SLATE-BLUE, DARK CHARCOAL "
+            "and DARK BROWN-PURPLE. NOT ONE OF THE FIVE WEARS ANY WHITE, CREAM, "
+            "OFF-WHITE, IVORY, BUFF, BEIGE, TAUPE, SAND, OATMEAL, STONE, PALE TAN OR "
+            "LIGHT-COLOURED GARMENT, TUNIC, SLEEVE, SASH, HEAD CLOTH OR HEM ANYWHERE — "
+            "every one of them reads as a dark shape against the pale dust. AHEAD OF THEM THERE IS NOTHING: the lane's "
             "packed dust runs on between the blank flat-roofed mud-brick walls, going "
             "grey, going dim, and ending in total black — no shop, no stall, no lit "
             "window, no lamp, no torch, no figure. THE ONLY LIGHT IN THE PICTURE COMES "
@@ -1598,12 +1607,15 @@ BEATS = [
             "One photograph, 100mm macro lens, extremely shallow depth of field, deep "
             "midnight with everything beyond the hands falling to pure black. THIS IS A "
             "PICTURE OF TWO HANDS AND TWO CLAY VESSELS and the faces are out of the frame "
-            "entirely, cut off above the wrists — no face appears anywhere in it. Entering "
-            "from the LEFT, a small thin brown hand holds a SMALL FIRED-CLAY OIL LAMP "
+            "entirely, cut off above the wrists — no face appears anywhere in it. BOTH HANDS IN THIS PICTURE ARE YOUNG WOMEN'S HANDS — slim and small with "
+            "narrow wrists, slender fingers and short nails, NOT a man's hand: no large "
+            "broad palm, no thick knuckle, no heavy or hairy forearm anywhere. Entering "
+            "from the LEFT, the foolish girl's small thin brown hand holds a SMALL "
+            "FIRED-CLAY OIL LAMP "
             "tipped up toward the camera so its shallow bowl is visible and DRY: bare "
             "unglazed terracotta, a dark ring of old oil stain inside, the charred wick "
             "lying dead in the spout with no flame on it at all. Entering from the RIGHT, "
-            "a second brown hand holds a SMALL ROUND FIRED-CLAY OIL JAR with a "
+            "the wise woman's second slim brown hand holds a SMALL ROUND FIRED-CLAY OIL JAR with a "
             "rolled-cloth stopper, drawn back and held close and steady. BETWEEN THE TWO "
             "VESSELS RUNS A CLEAR BAND OF DARK EMPTY AIR — they do not touch, nothing is "
             "being poured, nothing is passing across, and the gap is the subject of the "
