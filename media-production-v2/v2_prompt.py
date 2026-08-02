@@ -274,6 +274,66 @@ MARKET_TOWN_LOCK = (
     "modern person, garment, footwear or object among the crowd."
 )
 
+# NIGHT-LAMPLIGHT — promoted into the shared recipe 2026-08-02 (row 31, the ten virgins,
+# Matthew 25:1-13, the first V2 build whose WHOLE PARABLE happens in the dark and whose
+# ONLY light source is the thing the story is about). Rows 16/18 paid for interior
+# lighting, row 19 for boat fittings, row 22 for city skylines, row 26 for irrigation
+# hose, row 27 for knitted fabric, row 28 for the tool in the hand, row 29 for the road
+# and the market stall. A NIGHT scene's own anachronism is THE LIGHT ITSELF, and it
+# arrives in two distinct ways that nothing above reaches:
+#
+#   1. THE FIXTURE. PERIOD-MATERIALS already says every open flame is "a bare wick
+#      standing in a shallow clay oil lamp, a torch, or a fire of wood or charcoal" —
+#      but that sentence is one clause inside a 400-word block about materials, and when
+#      the lamp is the SUBJECT of the picture rather than set dressing the model reaches
+#      for the iconic thing instead: a glass hurricane lantern, a candle, a wick floating
+#      in a glass of oil, a metal ring handle. Stated at length and positively here.
+#   2. THE HALO. This is the one that breaks a STANDING LAW rather than a period rule.
+#      A flame carried near a face is the single most reliable way to get a bright ring
+#      of light around a head — hair lit from behind into a glowing outline — which is
+#      exactly the rim-light/halo the project forbids on every frame, and it arrives by
+#      PHYSICS, not by the prompt asking for it. A prohibition does not beat physics.
+#      What beats it is GEOMETRY, per the row-10/row-14 lesson: put the flame LOW and IN
+#      FRONT of the person, below the chin and nearer the camera than the head, so the
+#      light can only travel upward onto the front planes of the face and the top and
+#      back of every head stay unlit. A light source is never placed behind a head.
+#
+# Any build staged at night, before dawn, or in an unlit interior names "NIGHT-LAMPLIGHT".
+NIGHT_LAMPLIGHT_LOCK = (
+    "NIGHT-LAMPLIGHT LOCK: it is genuinely NIGHT and the darkness is real. The sky is "
+    "deep blue-black with stars in it, the land reads as shape and silhouette, and "
+    "colour survives only where a flame actually reaches. There is NO sun, no sun disc, "
+    "no sunrise, no sunset, no dawn, no dusk band, no orange or pink horizon, no warm "
+    "glow along any skyline, no blue-hour brightness, and no unexplained ambient fill "
+    "lighting the scene from nowhere. Away from the flames the picture falls to near "
+    "black and detail is lost, exactly as it does at night. "
+    "THE LAMPS ARE THE ONLY LIGHT AND THIS IS WHAT ONE IS: a SMALL HAND-HELD "
+    "FIRST-CENTURY CLAY OIL LAMP — a shallow closed oval of plain fired terracotta "
+    "small enough to sit in a cupped palm, with a round filling hole in its top and a "
+    "pinched spout at one end, and ONE single small soft yellow-orange flame standing "
+    "at that spout on a BARE FIBRE WICK, smoking faintly. It is carried in the hand or "
+    "cupped in both hands. THERE IS NO OTHER KIND OF LIGHT ANYWHERE IN THE FRAME: no "
+    "candle, wax, taper or candlestick; no glass of any kind, no chimney, globe, shade, "
+    "hurricane lamp, storm lantern, kerosene lamp or oil lantern; no metal lamp, no "
+    "hanging fixture, no bracket, no ring handle, no wick floating in a glass or bowl "
+    "of liquid; no electric light, bulb, filament, flashlight, string light or lit "
+    "window frame of modern glass; and no firelight or torch except where the scene "
+    "itself names one. "
+    "NO HEAD IS EVER HALOED, AND THE CURE IS WHERE THE FLAME STANDS: every lamp, torch "
+    "or fire in this picture is LOW AND IN FRONT OF the person it lights — below the "
+    "chin, at chest or waist height, and NEARER THE CAMERA THAN THAT PERSON'S HEAD — so "
+    "its light can only travel UPWARD AND FORWARD onto the front planes of the face, "
+    "catching the underside of the brow, the nose, the cheekbones and the chin, while "
+    "the crown, the back of the head, the hair and the shoulders stay UNLIT AND DARK "
+    "and simply merge into the night behind them. NO LIGHT SOURCE OF ANY KIND STANDS "
+    "BEHIND, ABOVE OR BEYOND ANYONE'S HEAD. There is NO bright rim, edge, outline, "
+    "contour line, ring, corona, aura, halo, nimbus or glowing separation around any "
+    "head, hair, shoulder or body anywhere in the frame; no hair lit from behind into a "
+    "bright fringe; no person outlined against a brighter background; and nobody emits, "
+    "radiates or is haloed by light. Skin near a flame is warmly lit, never luminous, "
+    "and never gives off light of its own."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
@@ -282,6 +342,7 @@ SHARED_SETTING_LOCKS = {
     "HAND-TOOLS": HAND_TOOLS_LOCK,
     "ANCIENT-ROAD": ANCIENT_ROAD_LOCK,
     "MARKET-TOWN": MARKET_TOWN_LOCK,
+    "NIGHT-LAMPLIGHT": NIGHT_LAMPLIGHT_LOCK,
 }
 
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
