@@ -591,12 +591,132 @@ ESTATE_ACCOUNTS_LOCK = (
     "even white machine-made sheet anywhere in the frame."
 )
 
+# SPIRIT-WORLD — added to the shared recipe 2026-08-02 (row 37, the rich man and
+# Lazarus, Luke 16:19-31, the ONE story in the 200 whose own narration takes the viewer
+# past death). Every other row in the wave was told "paint no heaven, hell, angel, soul,
+# death or torment, because the narration does not state it" — rows 30/32/33/34/35/36 all
+# held that line. Luke 16 states it outright, so the rule does not become "paint
+# anything": it becomes STAGE ONLY WHAT THE TEXT SAYS AND NOTHING IT DOES NOT.
+#
+# The danger here is not a modern object, it is a FOREIGN DOCTRINE. "Hell", "torment"
+# and "flame" pull medieval Christendom's Inferno straight out of the model — devils with
+# horns and pitchforks, chains, cauldrons, a lake of fire, a cave-mouth hellmouth, crowds
+# of screaming damned — and "Abraham's bosom" pulls the matching kitsch: clouds as a
+# floor, pearly gates, golden streets, harps, wings, haloes, a throne, a shaft of divine
+# light. Cameron is a Latter-day Saint and this app is his ministry: BOTH of those teach
+# a doctrine he does not hold and would sink the video. Nothing in PERIOD-MATERIALS,
+# BACKGROUND-CAST or any block above reaches a single one of them, because they are
+# THEOLOGY, not furniture.
+#
+# What the text actually says is smaller and far more filmable: two regions of one spirit
+# world (Greek *hades*, NOT the final state), a great gulf fixed between them, a man in
+# torments who can SEE across it, thirst, and a fingertip of water. So the place of
+# torment is SEPARATION AND THIRST — arid, lit, comfortless, and the man is ALONE; his
+# torment reads on his FACE, not in special effects. Abraham's bosom is NEARNESS AND
+# REST — shade, still water, a man cared for. The gulf is literal geological distance.
+# Stated POSITIVELY per the row-10 geometry lesson. Any build staged in the spirit world,
+# paradise or the place of departed spirits names "SPIRIT-WORLD".
+SPIRIT_WORLD_LOCK = (
+    "SPIRIT-WORLD LOCK: this is the world of departed spirits as Luke 16 actually "
+    "describes it, and it is a REAL PLACE WITH REAL GROUND, REAL AIR, REAL DISTANCE "
+    "AND REAL DIRECTIONAL SUNLIGHT CASTING REAL SHADOWS. It is photographed exactly "
+    "like the living world — it is not a void, not a dream, not a mist, not a symbol, "
+    "and it is NOT the final heaven or the final hell. It has TWO REGIONS separated by "
+    "one great fixed gulf, and each is stated positively below. "
+    "THE PLACE OF REST, WHERE ABRAHAM AND LAZARUS ARE: sheltered level ground under "
+    "the deep cool shade of real broad trees, green grass and low green plants growing, "
+    "one channel or pool of still clear water lying open on the ground, soft even "
+    "light, quiet and unhurried. The people there are whole, healthy, clean, calm and "
+    "FULLY CLOTHED in ordinary hand-woven wool and linen, sitting or reclining at ease "
+    "on the ground; they are cared for and near one another. Rest and nearness are the "
+    "whole of the idea. "
+    "THE PLACE OF TORMENT, WHERE THE RICH MAN IS: bare arid open ground of cracked "
+    "sun-baked clay, drifted grit and bleached broken stone, running away flat and "
+    "empty to a far horizon. The light is HARD, HOT, GLARING AND COLOURLESS, shadows "
+    "are short and black, the air shimmers with heat haze, and dust hangs in it. THERE "
+    "IS NO WATER, NO SHADE, NO SHELTER, NO PLANT AND NO OTHER PERSON ANYWHERE IN IT — "
+    "the man is ALONE, and his isolation and his thirst ARE the torment. HIS SUFFERING "
+    "IS SHOWN ENTIRELY ON HIS OWN FACE AND BODY: cracked lips, a dry mouth, sweat, "
+    "screwed-up eyes against the glare, a hand shielding them, a throat worked dry. "
+    "'THIS FLAME' IS HEAT AND GLARE AND PARCHED AIR — the burning white sky, the "
+    "scorching ground, the shimmer — and NEVER a bonfire, a burning body or a fire "
+    "anybody is standing in. "
+    "THE GREAT GULF is one enormous DRY CHASM of bare rock splitting the ground between "
+    "the two regions, far too wide to cross, dropping away into shadowed depth, with "
+    "the far side clearly visible but SMALL AND HAZY WITH SHEER DISTANCE. It is plain "
+    "geology — never a wall, a fence, a barrier, a bridge, a curtain, a veil or a "
+    "canyon full of fire. "
+    "THIS IS NOT MEDIEVAL CHRISTENDOM'S HELL AND NOT A PAINTED HEAVEN, AND NONE OF THE "
+    "FOLLOWING APPEARS ANYWHERE IN THE FRAME: no devil, demon, satyr, imp, monster or "
+    "beast; no horns, tail, claws, bat wings, red skin or pitchfork; no chain, shackle, "
+    "cage, rack, hook or instrument of punishment; no cauldron, furnace, forge, brazier, "
+    "lake of fire, river of fire, pit of fire, burning coals or flames licking around "
+    "any person; no crowd of naked, writhing, screaming, tortured or damned figures; no "
+    "cave mouth, jaws, arch or doorway standing for an entrance to hell; no skull, "
+    "skeleton, bone, corpse, decay or grinning death figure; and no carved or written "
+    "inscription, sign or motto anywhere. EQUALLY, NONE OF THIS APPEARS EITHER: no "
+    "cloud floor, cloudscape or sky city; no gate, gateway, arch, door or pearly gate; "
+    "no golden street, gold light, jewelled wall or shining architecture; no harp, "
+    "trumpet, crown, throne, seat of judgement, scales or book of judgement; no wing, "
+    "winged figure, cherub or feather; no halo, nimbus, aura, corona or glowing outline "
+    "around any head or body; no shaft, beam, column or burst of light coming down from "
+    "the sky; no stairway, ladder or path rising into the air; and NO DEPICTION OF GOD, "
+    "DEITY OR ANY DIVINE PERSON AS ANY FIGURE, FACE, FORM, LIGHT OR PRESENCE. "
+    "EVERY PERSON HERE IS A SOLID, OPAQUE, EMBODIED HUMAN BEING standing or lying on "
+    "real ground with real weight, fully dressed in ordinary woven cloth: nobody is a "
+    "ghost, wisp, vapour, mist, shade, silhouette, translucent or transparent figure, "
+    "nobody floats, hovers, drifts or dissolves, nobody glows or gives off light, and "
+    "no spirit is shown leaving, rising from or hovering over a body."
+)
+
+# COURTYARD-GATE — added to the shared recipe 2026-08-02 (row 37, whose whole parable
+# hangs on ONE object: "there was laid at his GATE a certain beggar"). Row 36 already
+# paid for the other half of this lesson — a timber gate leaf kept appearing in frames
+# that wanted no opening at all, and the cure there was to DELETE the gateway entirely.
+# Row 37 cannot delete it: the gate is the story. So the object has to be stated
+# positively instead, and nothing above reaches it. "Gate" is one of the most loaded
+# nouns in English and pulls a WROUGHT-IRON ESTATE GATE with scrollwork and finials, or
+# a five-bar farm gate, or a picket gate on a garden path — and PERIOD-MATERIALS bans
+# manufactured objects while a gateway is ARCHITECTURE, exactly the way a road surface,
+# a prison cell and a barn slip through. Gates and doorways recur constantly across the
+# 200 (the strait gate, the sheepfold door, the city gate, the door that is shut), so
+# this belongs here. Any build with a gate, gateway, doorway or boundary wall names
+# "COURTYARD-GATE".
+COURTYARD_GATE_LOCK = (
+    "COURTYARD-GATE LOCK: the gate of this first-century Judean house is a GAP IN A "
+    "WALL, built by hand from the stone and timber of that place, and this is what one "
+    "IS. The boundary wall is sun-dried mud brick over a footing of undressed field "
+    "stone, plastered with mud and straw and weathered pale tan, about the height of a "
+    "man and a half, its top finished flat with a course of rough stones. The gateway "
+    "itself is a PLAIN UPRIGHT RECTANGLE cut through that wall — two jambs of dressed "
+    "limestone blocks and ONE SINGLE FLAT LIMESTONE LINTEL laid straight across the "
+    "top, with a worn hollowed limestone threshold slab at ground level. Where a leaf "
+    "is shown at all it is ONE heavy slab of adzed timber planks set edge to edge and "
+    "pegged across the back with two wooden battens, unpainted, silvered and split by "
+    "weather, turning on a carved round STONE PIVOT SOCKET sunk into the threshold, and "
+    "it stands PUSHED BACK OPEN FLAT AGAINST THE INSIDE OF THE WALL. THIS IS NOT A "
+    "GARDEN, FARM OR ESTATE GATE OF ANY LATER CENTURY: there is no wrought iron, cast "
+    "iron, metal railing, bar, grille, lattice, picket, paling, spearhead, finial, "
+    "scroll, curl or ornamental metalwork of any kind; no five-bar or diagonal-braced "
+    "farm gate; no hinge, strap hinge, pintle, iron band, nail head, ring, knocker, "
+    "handle, latch, hasp, bolt, lock plate, keyhole or padlock; no arch, curved head or "
+    "ring of dressed voussoirs — THE OPENING IS SPANNED BY ONE FLAT BLOCK AND IS "
+    "SQUARE-TOPPED; no column, pilaster, carved capital, moulding, cornice, pediment or "
+    "carved heraldry; no house number, nameplate, plaque, sign, lettering or painted "
+    "mark; no lamp, lantern, bracket or light fitting mounted anywhere on it; and "
+    "outside it no paved drive, kerb, gravel, step of poured concrete, clipped lawn, "
+    "hedge, topiary or flower border — only bare packed earth and dust worn hollow by "
+    "feet."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
 SHARED_SETTING_LOCKS = {
     "ANCIENT-PRISON": ANCIENT_PRISON_LOCK,
     "BANQUET-HALL": BANQUET_HALL_LOCK,
+    "COURTYARD-GATE": COURTYARD_GATE_LOCK,
+    "SPIRIT-WORLD": SPIRIT_WORLD_LOCK,
     "ESTATE-ACCOUNTS": ESTATE_ACCOUNTS_LOCK,
     "GRANARY-BARN": GRANARY_BARN_LOCK,
     "BACKGROUND-CAST": BACKGROUND_CAST_LOCK,
