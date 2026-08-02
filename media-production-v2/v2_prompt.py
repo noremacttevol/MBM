@@ -405,11 +405,58 @@ ANCIENT_PRISON_LOCK = (
     "sign, scratch-mark tally or graffiti anywhere on the walls."
 )
 
+# GRANARY-BARN — promoted into the shared recipe 2026-08-02 (row 34, the rich fool,
+# Luke 12:16-21, the first V2 build whose STORY IS A BUILDING: "I will pull down my
+# barns, and build greater"). Rows 16/18 paid for interior lighting, row 19 for boat
+# fittings, row 22 for city skylines, row 26 for irrigation hose, row 27 for knitted
+# fabric, row 28 for the tool in the hand, row 29 for the road and the market stall,
+# row 31 for night lamplight, row 32 for the background crowd, row 33 for the prison
+# cell. A FARM STORE's own anachronism is THE BARN ITSELF, and nothing above reaches
+# it, for the same reason a road surface and a prison cell slip through: a barn is
+# ARCHITECTURE, not an object. "Barn" is also one of the most modern-loaded nouns in
+# English — the model reaches straight for an American red-boarded barn with a pitched
+# shingle roof and a hayloft door, or for a galvanised grain silo with a hopper and an
+# auger. PERIOD-MATERIALS bans manufactured objects but says nothing about a BUILDING'S
+# form, and its "wood is hewn, adzed and pegged" clause is satisfied perfectly by sawn
+# dimensional lumber that has merely been distressed. A first-century Judean farm stores
+# grain in squat mud-brick and field-stone bins, in rock-cut plastered pits, and in
+# baskets, sacks and jars. Stated POSITIVELY per the row-10 geometry lesson. Barns,
+# granaries, storehouses and threshing floors recur across the 200 (Joseph in Egypt, the
+# wheat and the tares, the barn of Matthew 6:26), so this belongs here rather than in an
+# eleventh build-local copy. Any build with a barn, granary, storehouse, silo, grain pit
+# or farmyard names "GRANARY-BARN".
+GRANARY_BARN_LOCK = (
+    "GRANARY-AND-BARN LOCK: on a first-century Judean farm a BARN is built by hand out "
+    "of the ground it stands on, and this is what one IS. A granary is a squat round or "
+    "rectangular bin of sun-dried MUD BRICK and undressed field stone, plastered over "
+    "with mud and chopped straw and weathered to a pale tan, standing about the height "
+    "of a man and a half, with a low domed or flat roof of poles, brushwood and packed "
+    "earth, ONE small square filling hatch in the top reached by a few mud steps, and "
+    "ONE low square drawing door near the ground closed by a slab of stone or a plank of "
+    "adzed timber. Bigger stores are PITS cut down into the bedrock, plastered and "
+    "stone-lined, closed with a flat stone lid. Where a roof is carried, it is carried on "
+    "ROUGH HEWN TIMBER BEAMS with the bark still on parts of them, adzed flat only where "
+    "they bear, pegged and lashed with twisted flax cord. Grain lies in loose HEAPS on a "
+    "plastered earth floor and is moved in HAND-WOVEN REED BASKETS, coarse dark "
+    "goat-hair sacks and fired-clay jars. THIS FARM IS NOT MODERN, NOT AMERICAN AND NOT "
+    "INDUSTRIAL: there is no metal or concrete silo, grain bin, hopper, chute, auger, "
+    "elevator, conveyor or ducting; no corrugated iron, tin, sheet metal, cladding, "
+    "guttering or downpipe; no sawn plank, board, batten, weatherboard, dimensional "
+    "lumber, plywood, pallet or nailed timber frame; no red-painted or boarded barn, no "
+    "pitched or gabled roof, no shingle, tile or thatch, no hayloft, loft door, gambrel, "
+    "cupola or weather vane; no glass window, hinged door, latch, hasp, bolt or padlock; "
+    "no concrete, cinder block, red fired brick, cement render or poured floor; no wire, "
+    "cable, chain, pipe, vent, fan, ladder of milled rungs or painted surface; no "
+    "printed sack, label, stencil, lettering or numeral anywhere on anything; and no "
+    "tractor, trailer, machine, engine or wheel of pneumatic rubber in the picture."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
 SHARED_SETTING_LOCKS = {
     "ANCIENT-PRISON": ANCIENT_PRISON_LOCK,
+    "GRANARY-BARN": GRANARY_BARN_LOCK,
     "BACKGROUND-CAST": BACKGROUND_CAST_LOCK,
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
     "HAND-TOOLS": HAND_TOOLS_LOCK,
