@@ -456,11 +456,72 @@ GRANARY_BARN_LOCK = (
     "tractor, trailer, machine, engine or wheel of pneumatic rubber in the picture."
 )
 
+# BANQUET-HALL — promoted into the shared recipe 2026-08-02 (row 35, the great banquet,
+# Luke 14:16-24, the first V2 build whose STORY IS A MEAL IN A HOUSE: "A certain man made
+# a great supper, and bade many"). Rows 16/18 paid for interior lighting, row 19 for boat
+# fittings, row 22 for city skylines, row 26 for irrigation hose, row 27 for knitted
+# fabric, row 28 for the tool in the hand, row 29 for the road and the market stall, row
+# 31 for night lamplight, row 32 for the background crowd, row 33 for the prison cell, row
+# 34 for the barn. A FEAST's own anachronism is THE FURNITURE AND THE TABLEWARE, and
+# nothing above reaches it, for the same reason a road surface, a prison cell and a barn
+# slip through: a dining room is ARCHITECTURE AND FURNISHING, not an object a household
+# "makes by hand" in the sense PERIOD-MATERIALS means.
+#
+# "Banquet", "feast", "supper" and "table" are among the most loaded nouns in English and
+# every one of them pulls a MEDIEVAL OR VICTORIAN HALL: a long high trestle table with
+# high-backed carved chairs down both sides, a white linen tablecloth, stemmed goblets,
+# knives and forks laid out, tiered candelabra or a hanging chandelier, a whole roast on a
+# silver charger. PERIOD-MATERIALS bans glass and machined metal, but it says nothing
+# about a table's HEIGHT, about CHAIRS, or about the SHAPE of the room — and a first-
+# century Judean supper has none of those things. Guests RECLINE on their left elbows on
+# low couches or floor mats around three sides of a low table, leaving the fourth side
+# open for serving; the food is flat bread, olives, lentils, figs, roast lamb and wine in
+# fired clay. Stated POSITIVELY per the row-10 geometry lesson. Meals recur constantly
+# across the 200 (Cana, Levi's feast, Simon's house, the prodigal's feast, the wedding
+# garment, the last supper), so this belongs here rather than in a twelfth build-local
+# copy. Any build with a supper, feast, banquet, dinner or table names "BANQUET-HALL".
+BANQUET_HALL_LOCK = (
+    "BANQUET-HALL LOCK: this is a well-off first-century JUDEAN household's dining "
+    "room and the meal is eaten RECLINING, not sitting. THE ROOM: a plain rectangular "
+    "chamber of dressed limestone and mud-plaster washed pale tan, its flat ceiling "
+    "carried on ROUGH HEWN TIMBER BEAMS with the adze marks still on them, its floor "
+    "worn flagstones or beaten plaster spread with hand-woven wool mats and rugs in "
+    "deep madder, indigo and umber, its walls bare or hung with ONE plain woven "
+    "hanging, and its openings plain rectangular gaps with NO GLASS, closed only by "
+    "panels of dark woven cloth. THE TABLE IS LOW — knee high at most — a slab or "
+    "several slabs of adzed timber on short hewn legs, arranged in a U with three "
+    "sides occupied and the FOURTH SIDE LEFT OPEN so servants can reach in. THE "
+    "DINERS RECLINE: each guest lies propped on his LEFT elbow on a low couch, "
+    "bolster, folded mat or cushion of plain hand-woven wool, his feet away from the "
+    "table and behind him, eating with the RIGHT HAND ONLY. THE FOOD AND VESSELS: "
+    "flat rounds of barley and wheat bread laid straight on the wood, shallow "
+    "fired-clay bowls and platters of olives, lentils, greens, figs, dates, almonds "
+    "and roast lamb or kid, coarse-ground salt in a small clay dish, and wine in "
+    "plain fired-clay jars, jugs and unstemmed clay cups. Hands are washed from a "
+    "clay ewer over a clay basin. THIS IS NOT A MEDIEVAL, VICTORIAN, EUROPEAN OR "
+    "MODERN DINING ROOM: there is NO chair, high-backed chair, carved chair, stool, "
+    "bench, settle, throne or seat with a back or legs of turned wood; no tall or "
+    "waist-high table, no trestle, no long refectory board, no head of the table; no "
+    "tablecloth, table runner, napkin, doily, placemat or embroidered linen of any "
+    "kind on the table; no glass, stemware, goblet, chalice, wine glass, decanter or "
+    "carafe; no silver, pewter, brass, gold or any polished metal plate, charger, "
+    "tureen, tray, ewer or serving dish; no knife, fork, spoon, cutlery, place "
+    "setting or carving set laid out for a diner; no candle, candlestick, candelabra, "
+    "chandelier, sconce or hanging lamp fixture of metal or glass — the only flame is "
+    "a bare wick in a shallow fired-clay oil lamp standing on the table or on a stone "
+    "ledge; no fireplace, mantel, hearth surround, wainscot, panelling, cornice, "
+    "moulding, arch of dressed voussoirs, column with a carved capital, tiled floor, "
+    "patterned mosaic border, curtain rail, tie-back, painted mural, framed picture, "
+    "mirror or hanging tapestry with a woven scene in it; and no printed, stencilled "
+    "or repeating-pattern cloth anywhere in the room."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
 SHARED_SETTING_LOCKS = {
     "ANCIENT-PRISON": ANCIENT_PRISON_LOCK,
+    "BANQUET-HALL": BANQUET_HALL_LOCK,
     "GRANARY-BARN": GRANARY_BARN_LOCK,
     "BACKGROUND-CAST": BACKGROUND_CAST_LOCK,
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
