@@ -1,3 +1,58 @@
+## 2026-08-02 — Row 35 continuity fix (host anchor drape) + ESTATE-ACCOUNTS shared lock — Claude worker 30, Machine A `Dev`
+
+Worker 29 shipped row 35 and logged one known defect as "accepted, not a law violation
+... left rather than spend a credit on it": the host anchor `s04` (on screen 7.947-11.370 s)
+predates that build's house-hanging cure and showed a **PALE GOLD, softly pleated doorway
+drape**, while every later frame of the same room shows the **DARK goat-hair hanging**. That
+judgement is reversed here. Cameron has rejected finished videos for exactly this class of
+defect ("the clothes keep changing", "he lost his beard in one of the pictures"), and a room
+that changes colour four seconds apart is the same failure. It was worth one image.
+
+- **Fixed composition-level, deliberately NOT with `--redo`.** `--redo` re-attaches the
+  defective frame itself as the rough reference, which preserves the very drape that has to
+  go. Instead: the beat's `must_not_show` gained the pale-gold / pleated-curtain clause; the
+  **scene text** gained a POSITIVE statement of what the hanging IS and where it sits (coarse
+  undyed goat-hair in near-black charcoal and deep umber, pushed hard against the FAR jamb and
+  knotted back on itself, hung from a hewn timber pole) per the row-10 geometry lesson; the
+  file was **deleted**, which also makes `_have()` withhold it from `REFS` so the anchor could
+  not reference its own defective self; then one fresh generation. **One image, no reroll.**
+- **Verified from the artefact, never the prose.** Real frames pulled from the finished MP4:
+  8.5 s and 10.5 s show the dark hanging in the cut itself; 60.0 s shows the host is visibly
+  the same man, so regenerating the anchor introduced **no face drift** into the rest of the
+  video; captions are drawn, bottom band only, never over the art; 139.0 s shows the closing
+  card carrying its words. `silencedetect` at -45 dB shows true silence windows (1.52 s,
+  1.76 s and more) — **no music bed**.
+- **AUDIO LOCK PASS**, audio still byte-identical to V1. 141.700 s, 21.2 MB. New blob
+  `c34f72cc0151` (was `d755198770cd`). Card updated with the new hash AND cache-buster,
+  `data-review-wave="realistic-v2"` retained, diffed to confirm only the row 35 card moved.
+  sync-reviews run, Firebase deployed (no 429 this time), live board verified serving the new
+  hash and the raw URL verified at 21,151,243 bytes.
+- **New shared lock: ESTATE-ACCOUNTS** in `v2_prompt.py`, landed ahead of row 36 (the unjust
+  steward), whose story turns on a written bill — "Take thy bill, and sit down quickly, and
+  write fifty." An accounts scene's own anachronism is **the document and the desk**, and
+  nothing in the shared recipe reaches it: PERIOD-MATERIALS' one relevant clause is the
+  *carve-out* that stands aside for hand-inked bills, so the single block that might have
+  protected the scene is the block that steps out of its way. "Bill", "ledger" and "steward"
+  pull a Victorian counting house — bound codex with ruled columns, sloped writing desk, quill
+  in a glass inkwell, wax seal, abacus. A first-century estate keeps **loose separate sheets**
+  (which is why Luke 16:6 can hand one man *his* bill and have him rewrite that one number —
+  the codex had not been invented), written with a cut reed pen and lamp-black ink from a clay
+  pot, sitting on the floor with the sheet across the knee. Stated positively per row 10.
+- **Row 36 NOT claimed and NOT started.** It needs ~40 images plus a full beat map on the
+  order of row 35's 1,900 lines, which does not fit the remaining session. Claiming it and
+  abandoning it mid-spend would block the row and strand partial spend, so it was left open
+  and clean per "STOP CLEANLY rather than start a story you cannot finish". The ESTATE-ACCOUNTS
+  lock is the durable, zero-spend part of that work, banked for whoever takes it.
+- **Lesson written into QC.md:** when a lock is strengthened part-way through a build, the
+  frames generated *before* that moment are not covered by it. A cure applied at beat 20
+  protects beats 20-40 and nothing behind it — re-inspect the earlier frames sharing that
+  setting in the same pass.
+- Spend: **1 image, ~$0.134** (meter $172.860 → ~$172.994).
+
+Commit: `99c627ad7` (fix + reship) — bookkeeping commit follows.
+
+---
+
 ## 2026-08-02 — Row 35 The Great Banquet (Luke 14) realistic V2 rebuild — Claude worker 29, Machine A `Dev`
 
 Claimed row 35 by push before any spend, then built and shipped the full realistic V2 cut.
