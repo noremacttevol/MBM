@@ -1,6 +1,6 @@
 ## 2026-08-02 — Video 21 (The Lost Sheep, Luke 15): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 15)
 
-Commit: 0e0a1cd (cut + reviewer card) · this entry (bookkeeping). Row 21 claimed by push
+Commit: 5214b41df (cut) · a42d5bcac (reviewer card) · 91c8e97c5 (bookkeeping). Row 21 claimed by push
 before a cent was spent, built end to end, deployed live, and the live card verified.
 
 33 pictures at native 2K against V1's SEVEN — V1 held one still on screen from 96.6 s to
