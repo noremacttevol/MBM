@@ -200,13 +200,13 @@ WIDE_DEFENSE = (
 # wide beat's scene never names the camera's position.
 WIDE_GEOMETRY_LOCK = (
     "WIDE-SHOT CAMERA-GEOMETRY LOCK: this group is not arranged for the camera. The "
-    "camera stands behind or beside the near figures and shoots PAST them: their "
-    "BACKS and the backs of their heads fill the near frame, large and out of focus, "
-    "so not one face is turned toward the lens and no eyes are visible at all on the "
-    "near side. The figures are never lined up shoulder to shoulder presenting "
-    "themselves to the viewer, and anyone walking or running is seen from the side or "
-    "from directly behind, moving across or away from the camera, never advancing "
-    "into it."
+    "camera stands behind or beside the near figures and shoots PAST them, so the "
+    "near figures are seen from behind, from the side, or in three-quarter from "
+    "behind — never squared up to the lens, and NOT ONE FACE IS TURNED TOWARD THE "
+    "LENS. The people are never lined up shoulder to shoulder presenting themselves "
+    "to the viewer, and anyone walking or running is seen from the side or from "
+    "directly behind, moving across the frame or away from it, never advancing into "
+    "the camera."
 )
 
 # POSITIVE-INVENTORY — promoted 2026-08-01 from row 14 b08, where a SECOND, UNLOCKED
