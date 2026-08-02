@@ -1360,3 +1360,11 @@ to V1 to the millisecond; AUDIO LOCK PASS (SHA256 25ee3f63…). Git blob 35c29eb
    had ALREADY been pruned, not because 429 is transient. **Do NOT conclude 429 clears on retry.**
    When the quota is genuinely full, retrying forever will not help: run the prune tool, then deploy.
    The prune is safe — hosting release versions are stale copies of a site fully reproducible from git.
+
+---
+
+## Row 24 — The Sower (Matthew 13) — realistic V2, 2026-08-02 — IN PROGRESS
+
+CLAIMED by Claude worker 18 (Machine A, `Dev`) 2026-08-02. Claim pushed before any spend.
+V1 `media-production/build-24-sower` ships 2:56 on SEVEN stills, so coverage is the headline
+defect. Audio is LOCKED and will not be re-voiced. Entry completed at ship.
