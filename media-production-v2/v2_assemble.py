@@ -208,6 +208,100 @@ def rebuild_audio_from_segments(v1dir, segs, data):
     return final
 
 
+def content_time(path):
+    """When this file's CONTENT was last changed, in epoch seconds.
+
+    Filesystem mtime alone is worthless here: this repo is cloned and pulled on
+    four machines, so a checkout stamps every file with the checkout time and a
+    2026-07-22 render ends up looking newer than the 2026-07-24 re-voice it
+    predates. For a tracked, clean file the honest answer is the commit that last
+    changed it. Only when the file is untracked or dirty in the working tree does
+    mtime carry information, and then it is the later of the two.
+    """
+    rel = os.path.relpath(path, ROOT)
+    def _git(args):
+        return subprocess.run(["git", "-C", ROOT] + args,
+                              capture_output=True, text=True)
+    try:
+        tracked = _git(["ls-files", "--error-unmatch", "--", rel]).returncode == 0
+    except OSError:
+        tracked = False
+    mtime = os.path.getmtime(path)
+    if not tracked:
+        return mtime
+    out = _git(["log", "-1", "--format=%ct", "--", rel]).stdout.strip()
+    if not out:
+        return mtime
+    committed = int(out)
+    dirty = _git(["diff", "--quiet", "--", rel]).returncode != 0
+    return max(committed, mtime) if dirty else committed
+
+
+def assert_v1_final_is_current(row, v1dir, locked_final, data, total,
+                               locked_duration):
+    """STALE-V1-FINAL GUARD — refuse the AUDIO LOCK on an out-of-date V1 MP4.
+
+    WHY THIS EXISTS (2026-08-02, audit after row 25). The AUDIO LOCK copies the
+    finished V1 MP4's AAC stream packet-for-packet. That is exactly right while
+    the MP4 is the current render of the current narration — and silently,
+    catastrophically wrong when it is not. Row 25's MP4 was rendered 2026-07-22;
+    the ElevenLabs re-voice landed 2026-07-24 and the echo-delete sweep then
+    removed `n1` and trimmed `n9`. Copying that stream would have shipped
+    pre-REDO-ALL voices, re-inserted deliberately deleted narrator echoes, and
+    thrown every caption 60+ s adrift — on a cut labelled done in the reviewer.
+
+    Two independent tripwires, because either can fire alone:
+
+      1. RECENCY. If any mp3 this build actually places was changed AFTER the
+         MP4 was rendered, the MP4 cannot contain it. This catches a re-voice or
+         a text trim that happens to leave the runtime nearly unchanged, which
+         no duration check would ever see.
+      2. RUNTIME. If the MP4's stream runs longer than the timeline summed from
+         the mp3s on disk, it is carrying audio that is no longer in the build —
+         deleted segments, an older longer take. A shortfall is treated more
+         loosely (V1 finals routinely land a few tenths under the recomputed
+         timeline because of trailing-silence trimming), but an EXCESS means
+         extra words.
+
+    The fix is never to re-render or edit V1 (hard protection #1): the build
+    declares AUDIO_FROM_V1_SEGMENTS = True and the track is rebuilt from that
+    build's own mp3s at the extract_beats offsets. The error says so.
+    """
+    fix = ("FIX: add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py. "
+           "The narration is then rendered from the V1 build's OWN mp3s at the "
+           "extract_beats offsets — nothing re-voiced, nothing re-timed, and V1 "
+           "stays read-only.")
+    final_t = content_time(locked_final)
+    placed = [b["seg"] for b in data["beats"] if b["speaker"] != "silence"]
+    placed.append(data["card"]["seg"])
+    newer = []
+    for seg in placed:
+        mp3 = os.path.join(v1dir, "audio", f"{seg}.mp3")
+        if not os.path.isfile(mp3):
+            continue
+        t = content_time(mp3)
+        if t > final_t + 1.0:
+            newer.append((seg, t))
+    if newer:
+        import datetime
+        stamp = lambda t: datetime.datetime.fromtimestamp(t).isoformat(" ", "seconds")
+        listed = ", ".join(f"{s} ({stamp(t)})" for s, t in sorted(
+            newer, key=lambda x: -x[1])[:6])
+        raise SystemExit(
+            f"STALE V1 FINAL: row {row}'s {os.path.basename(locked_final)} was "
+            f"rendered {stamp(final_t)}, but {len(newer)} of the {len(placed)} "
+            f"mp3s it would be locking to are NEWER than that: {listed}. "
+            f"Its audio stream predates the current narration, so copying it "
+            f"would ship stale voices and/or deleted segments. {fix}")
+    excess = locked_duration - total
+    if excess > 0.75:
+        raise SystemExit(
+            f"STALE V1 FINAL: row {row}'s {os.path.basename(locked_final)} runs "
+            f"{locked_duration:.3f}s but the timeline summed from the mp3s on "
+            f"disk is {total:.3f}s — {excess:.3f}s of audio in that stream is not "
+            f"in this build any more. {fix}")
+
+
 def mbm_speakers_names(v1dir):
     """The speaker constants this build's own mbm_speakers module knows."""
     spec = importlib.util.spec_from_file_location(
@@ -437,7 +531,11 @@ def main():
     if abs(total - locked_duration) > 1.0:
         raise SystemExit(
             f"AUDIO LOCK: extracted timeline is {total:.3f}s but the "
-            f"authoritative V1 final is {locked_duration:.3f}s")
+            f"authoritative V1 final is {locked_duration:.3f}s. If the V1 MP4 is "
+            f"simply out of date, set AUDIO_FROM_V1_SEGMENTS = True in this "
+            f"row's beats_v2.py and the track is rebuilt from the V1 mp3s.")
+    assert_v1_final_is_current(row, v1dir, locked_final, data, total,
+                               locked_duration)
     locked_hash = audio_stream_hash(locked_final)
     vcap = max(300, int(24.5 * 8000 / locked_duration) - 145)
     run([FF, "-y", "-i", os.path.join(segs, "video_silent.mp4"),
