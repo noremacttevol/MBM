@@ -83,10 +83,10 @@ REF = True
 # b27 (SERV1) — every one of them is a real placed picture on the timeline and a
 # daylight or lamplit face-showing shot, so the anchors cost nothing extra.
 REFS = {
-    "MASTER": "assets/s21-well-done-good-and-faithful.jpeg",
-    "SERV5": "assets/s11-went-straight-to-work.jpeg",
-    "SERV2": "assets/s13-the-servant-with-two-bags.jpeg",
-    "SERV1": "assets/s27-dug-up-his-one-buried-bag.jpeg",
+    "MASTER": "assets/ref-master.jpeg",
+    "SERV5": "assets/ref-serv5.jpeg",
+    "SERV2": "assets/ref-serv2.jpeg",
+    "SERV1": "assets/ref-serv1.jpeg",
 }
 
 _NO_JESUS = ("no Jesus in this frame; no olive-shaded hillside terrace and no "
@@ -194,10 +194,18 @@ LOCKS = {
         "twisted fibre cords, small stone weights, fired-clay bowls and "
         "hand-woven reed baskets. Behind the colonnade is an open caravan yard of "
         "packed dust where laden donkeys and roped bales of dyed wool stand "
-        "waiting. The traders and porters working here are MEN in SATURATED DARK "
-        "earth colours — deep indigo, dark umber, deep rust, dark olive, "
-        "charcoal, deep maroon — and no pale or light cloth appears on any of "
-        "them anywhere."
+        "waiting. THE BACKGROUND POPULATION OF THIS PLACE IS STATED POSITIVELY AND "
+        "IS CAPPED: at most THREE other people are ever visible behind the named "
+        "figures, all of them MEN, every one of them dressed head to foot in ONE "
+        "SOLID DARK SATURATED EARTH COLOUR — DARK UMBER, CHARCOAL, DEEP RUST, DARK "
+        "OLIVE, DEEP INDIGO or DEEP MAROON — so that every human shape in the "
+        "background of the picture, in focus or out of focus, near or far, is a "
+        "DARK MASS from edge to edge. NOT ONE PERSON IN THE BACKGROUND WEARS "
+        "CREAM, OFF-WHITE, IVORY, BUFF, BEIGE, TAUPE, SAND, KHAKI, WHITE, PALE "
+        "GREY OR ANY LIGHT-TONED CLOTH, DRAPE, MANTLE, SHAWL, TUNIC OR HEAD "
+        "COVERING, and no blurred pale figure stands among the animals or in any "
+        "doorway. The only light-toned things anywhere in the picture are stone, "
+        "dust, reed basketry and bare skin."
     ),
     "ORCHARD": (
         "OLIVE-ORCHARD LOCK: the orchard behind the estate is the SAME PLACE in "
