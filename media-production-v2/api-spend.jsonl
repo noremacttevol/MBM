@@ -826,3 +826,8 @@
 {"ts": "2026-08-02 05:46:00", "build": "build-24-sower", "beat": "v2-r024-b34", "out": "s34-rocky-soil-can-be-cleared.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-02 05:46:24", "build": "build-24-sower", "beat": "v2-r024-b35", "out": "s35-he-keeps-sowing.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-02 05:53:48", "build": "build-24-sower", "beat": "v2-r024-b24", "out": "s24-he-that-heareth-the-word.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-02 06:20:34", "build": "build-25-wheat-and-tares", "beat": "v2-r025-b03", "out": "s03-clean-good-seed.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-02 06:20:57", "build": "build-25-wheat-and-tares", "beat": "v2-r025-b05", "out": "s05-while-everyone-slept.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-02 06:21:20", "build": "build-25-wheat-and-tares", "beat": "v2-r025-b11", "out": "s11-didst-thou-not-sow-good-seed.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-02 06:22:47", "build": "build-25-wheat-and-tares", "beat": "v2-r025-b05", "out": "s05-while-everyone-slept.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-02 06:23:10", "build": "build-25-wheat-and-tares", "beat": "v2-r025-b11", "out": "s11-didst-thou-not-sow-good-seed.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
