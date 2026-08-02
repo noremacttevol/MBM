@@ -161,7 +161,18 @@ LOCKS = {
         "the other. There is no other building inside the garden, no roof, no post, "
         "no fence, no animal and no second gate, and the walls, the gateway, the "
         "cistern, the bed layout, the village roofs and the hills never move, never "
-        "change shape and never change season between frames."
+        "change shape and never change season between frames. "
+        "HAND-IRRIGATION LOCK: ALL the water in this garden moves by hand and by "
+        "gravity alone. The ONLY things that carry water are shallow open channels "
+        "scraped into the bare earth between the beds, the stone-lined cistern, and "
+        "fired-clay jars carried by hand. Along every bed and every path the ground "
+        "is BARE SOIL, unbroken, with nothing lying on it or running across it. There "
+        "is NO tube, hose, pipe, line, cord, wire, cable, tape, stake or fitting of "
+        "any kind lying along or across any bed, path or channel, in focus or out of "
+        "focus, in the foreground or the background; nothing black, dark grey or "
+        "glossy runs in a straight line anywhere on the ground; and there is no drip "
+        "irrigation, no sprinkler, no spigot, no valve and no pump anywhere in the "
+        "picture."
     ),
     "MUSTARD-SEED": (
         "MUSTARD-SEED LOCK: the seed is a black mustard grain — a hard, perfectly "
@@ -222,17 +233,27 @@ BEATS = [
         "scene": (
             "One photograph, 35mm lens, fast prime, clear bright high late-morning "
             "sunlight from the upper left, short hard shadows on the beaten earth "
-            "paths, fine film grain. THE CAMERA STANDS BEHIND THE NEAREST LISTENERS "
-            "AND SHOOTS PAST THEM ACROSS THE GARDEN: two seated backs fill the near "
-            "bottom corners, soft and out of focus, a DEEP INDIGO shoulder at the near "
-            "left and a DARK UMBER back and dark brown head cloth at the near right, "
-            "and NOT ONE FACE IS TURNED TOWARD THE LENS. Sharp in the middle distance "
-            "Jesus sits on the low fieldstone kerb of the stone-lined cistern, leaning "
+            "paths, fine film grain. THE CAMERA IS PLACED SIDE-ON TO THE WHOLE GROUP, "
+            "OUT ON THE FAR PATH AND WELL TO ONE SIDE, SHOOTING ACROSS THE GARDEN AT "
+            "RIGHT ANGLES TO EVERY EYELINE IN THE PICTURE. Jesus sits at the left of "
+            "the frame and the listeners are ranged to the right of him, so the whole "
+            "conversation runs HORIZONTALLY ACROSS THE FRAME from left to right: "
+            "Jesus's gaze travels rightward into the seated group, and every listener "
+            "is seen in profile or three-quarter from behind, each one's gaze "
+            "travelling leftward toward Jesus and out through the LEFT edge of the "
+            "picture. NOT ONE PERSON'S FACE IS SQUARED UP TO THE CAMERA AND NOT ONE "
+            "PAIR OF PUPILS IS CENTRED ON THE LENS. Two seated backs fill the near "
+            "bottom corners, soft and out of focus, a DEEP INDIGO shouldered back and "
+            "dark indigo head cloth at the near left and a DARK UMBER back and dark "
+            "brown head cloth at the near right, with nothing pale, grey, beige or "
+            "off-white on either of them. Sharp in the middle distance "
+            "Jesus sits on the low fieldstone kerb of the stone-lined cistern, seen "
+            "from his left side, leaning "
             "forward with his forearms on his knees and one hand open as he begins to "
-            "speak, his head turned to his right and his gaze travelling along the "
-            "seated row and out through the right-hand edge of the frame. Around him "
+            "speak. Around him "
             "villagers sit on the bed edges and squat on the paths in dark indigo, "
-            "russet and umber wool, all of them facing him. Two fired-clay water jars "
+            "russet and umber wool, all of them turned toward him in profile. Two "
+            "fired-clay water jars "
             "stand at the cistern kerb. In the far right corner bed the full-grown "
             "mustard shrub rises well above the mud-brick wall, its open crown of "
             "rough green leaves and small yellow flower sprays bright against the sky."
@@ -353,8 +374,10 @@ BEATS = [
         "scene": (
             "One photograph, 85mm lens, shallow depth of field, clear bright "
             "late-morning sunlight from the upper left, fine film grain. THE CAMERA "
-            "SHOOTS PAST THE SHOULDER OF A SEATED LISTENER, whose DEEP INDIGO shoulder "
-            "and dark head cloth fill the near left of the frame out of focus, SO THAT "
+            "SHOOTS PAST THE SHOULDER OF A SEATED LISTENER, whose ENTIRE back, "
+            "shoulder, sleeve and head cloth are DEEP INDIGO — a single dark navy mass "
+            "filling the near left of the frame out of focus, with NOTHING pale, grey, "
+            "beige, taupe, cream or off-white anywhere on him — SO THAT "
             "JESUS'S GAZE HAS A NAMED TARGET INSIDE THE PICTURE — he is looking "
             "directly at that seated man, his eyeline running horizontally across the "
             "frame to the left and never toward the lens. Sharp in the middle, Jesus "
@@ -474,8 +497,8 @@ BEATS = [
         "seg": "j1b", "window": "35.194-37.714",
         "locks": ["GARDEN", "MUSTARD-PLANT", "BIRDS"],
         "narration": "so that the birds of the air come",
-        "must_show": "small brown wild birds flying in low over the mud-brick garden wall toward the crown of the mustard shrub, wings open in mid-air.",
-        "must_not_show": "no person anywhere in the frame; no raptor, dove, crow, stork or brightly coloured bird and no bird larger than a man's hand; no night, no lamp, no sunset colouring; no cream or pale cloth anywhere.",
+        "must_show": "THE SUBJECT OF THIS PICTURE IS BIRDS IN FLIGHT: five small brown wild birds airborne with their wings open, crossing the sky just above the mud-brick garden wall and heading toward the crown of the tall mustard shrub. The birds and the sky fill most of the frame.",
+        "must_not_show": "no person, no hand, no arm, no finger and no face anywhere in the frame; no seed, no planting, no soil close-up and no ground-level macro shot of any kind — the camera is looking UP at the sky, not down at the earth; no raptor, dove, crow, stork or brightly coloured bird and no bird larger than a man's hand; no night, no lamp, no sunset colouring; no cream or pale cloth anywhere.",
         "scene": (
             "One photograph, 135mm lens, fast shutter, shallow depth of field, clear "
             "bright late-morning sun from behind the camera's left shoulder lighting "
