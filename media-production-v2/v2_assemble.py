@@ -307,7 +307,16 @@ def main():
         return
 
     # ---- final mux: pictures change; the finished V1 audio cannot ----
-    v1_mp4 = [f for f in os.listdir(v1dir) if f.endswith(".mp4")]
+    # BACKUP CUTS ARE NOT THE AUTHORITY (2026-08-02, row 22). Three V1 builds keep
+    # a pre-fix backup beside the shipped cut — build-22 has both
+    # `matthew-18_unmerciful-servant.mp4` (225.033 s, the cut extract_beats
+    # reproduces to the millisecond) and `...orig.mp4` (245.000 s, a stale earlier
+    # render). Globbing every .mp4 made the AUDIO LOCK refuse to run at all. A
+    # `.orig.mp4` / `.bak.mp4` / `.old.mp4` sibling is a backup by definition, so it
+    # is excluded here rather than deleted — V1 stays read-only.
+    _BACKUP_MARKERS = (".orig.mp4", ".bak.mp4", ".old.mp4", ".prev.mp4")
+    v1_mp4 = [f for f in os.listdir(v1dir)
+              if f.endswith(".mp4") and not f.endswith(_BACKUP_MARKERS)]
     if len(v1_mp4) != 1:
         raise SystemExit(
             f"AUDIO LOCK: row {row} needs exactly one authoritative V1 MP4, "
