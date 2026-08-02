@@ -112,8 +112,14 @@ BEATS = [
             "and staffs in hand. Low dry-stone walls run along the road, stony "
             "hillsides of thin grass and thorn scrub rise on both sides, and bare "
             "ridges roll away to the horizon. Hard bright morning light and pale dust. "
-            "The camera is back far enough to see them head to sandals on the open "
-            "road. Every figure has two arms, two hands and one head."
+            "THE CAMERA STANDS OFF THE SIDE OF THE ROAD, low and well to their "
+            "left, and they walk ACROSS the frame from right to left rather than "
+            "toward the lens — every man is seen in three-quarter or full profile, "
+            "chins turned along the road ahead of them, and every pair of eyes "
+            "travels out of the picture through the LEFT edge, far off the camera "
+            "axis. Nobody's face is squared to the lens and nobody looks back at "
+            "it. The camera is back far enough to see them head to sandals on the "
+            "open road. Every figure has two arms, two hands and one head."
         ),
     },
     {
@@ -162,11 +168,16 @@ BEATS = [
         "must_show": "⚠️ THE GAP ITSELF as the subject — a wide expanse of empty stony ground with the travellers on one side and the small distant ten on the other, nothing in between.",
         "must_not_show": "⚠️ HARD FAIL on leper scale. Nobody is crossing the gap; the emptiness must dominate the frame. No halo or rim-light.",
         "scene": (
-            "A wide view across a broad expanse of bare stony ground with nothing in "
-            "it at all. On the near side Jesus and the disciples stand at the road's "
-            "edge, large in the frame. On the far side, up on the rise, the ten stand "
-            "in their line, and the whole width of empty dust and stone lies between "
-            "them. "
+            "THE CAMERA STANDS BEHIND JESUS AND THE DISCIPLES AND SHOOTS PAST THEM: "
+            "their BACKS and the backs of their heads fill the near left and right "
+            "of the frame, large and out of focus, so not one face is turned toward "
+            "the lens and no eyes are visible at all on the near side. Beyond their "
+            "shoulders opens a broad expanse of bare stony ground with nothing in it "
+            "at all, and on the far side, up on the rise, the ten stand in their "
+            "line. The whole width of empty dust and stone lies between them. Every "
+            "garment on the near side is a saturated earth colour — rust, russet, "
+            "olive, blue-grey, indigo — and the only cream cloth anywhere in the "
+            "frame is on Jesus. "
             + FAR +
             " Nothing and nobody occupies the ground between. Hard bright daylight. "
             "Every figure has two arms, two hands and one head."
@@ -184,7 +195,11 @@ BEATS = [
             "them, seen from their own side now. Their hands and forearms are bound in "
             "worn grey linen and cloth is drawn across the lower half of every face, "
             "and above the wrappings their eyes are tired and watchful. Several lean "
-            "on rough staffs. They stand close in a loose knot, shoulder to shoulder — "
+            "on rough staffs. THE CAMERA IS OFF TO ONE SIDE OF THEM AT SHOULDER "
+            "HEIGHT and every one of them is turned away from it, looking out across "
+            "the empty ground toward the road, so their eyes leave the picture "
+            "through the RIGHT edge and nobody's face is squared to the lens. They "
+            "stand close in a loose knot, shoulder to shoulder — "
             "the only people any of them are allowed near. Empty ground falls away on "
             "every side. Hard bright daylight. Every figure has two arms, two hands and "
             "one head."
@@ -236,11 +251,18 @@ BEATS = [
         "must_show": "⚠️ SCALE + the gap preserved: Jesus stays exactly where he is, not one step taken; the ten still small and distant.",
         "must_not_show": "⚠️ HARD FAIL if he has moved toward them or if the gap has shrunk. No touching, no reaching. No halo or rim-light.",
         "scene": (
-            "Jesus stands still at the road's edge in the near foreground, feet "
-            "planted, having taken no step at all toward the rise. His hands are at "
-            "his sides and he is not reaching out. Across the same wide expanse of "
-            "empty stony ground the ten still stand in their line exactly where they "
-            "were. "
+            "THE CAMERA STANDS BEHIND AND BESIDE JESUS at shoulder height, so he is "
+            "seen from behind and in quarter profile at the near edge of the frame "
+            "and his eyes travel away up the picture toward the rise, never toward "
+            "the lens. He stands still at the road's edge, feet planted, having "
+            "taken no step at all toward the rise; his hands are at his sides and he "
+            "is not reaching out. HE IS THE ONLY MAN IN CREAM ANYWHERE IN THE FRAME "
+            "AND THE ONLY MAN WITH LONG LOOSE HAIR AND AN UNCOVERED FACE. Across the "
+            "wide expanse of empty stony ground the ten still stand in their line "
+            "exactly where they were: TEN men and no eleventh, every single one of "
+            "them in dust-grey rags with a strip of grey linen drawn across the "
+            "lower half of his face and a head-cloth over his hair, so not one face "
+            "in that far line is bare. "
             + FAR +
             " The distance between them is unchanged. Hard bright daylight. Every "
             "figure has two arms, two hands and one head."
@@ -306,8 +328,12 @@ BEATS = [
         "must_show": "⚠️ SCALE: Jesus watching from the near frame as the small distant ten stand on their rise working out what the instruction implies.",
         "must_not_show": "⚠️ HARD FAIL on leper scale. Nothing supernatural; no halo or rim-light.",
         "scene": (
-            "Jesus stands large in the near foreground watching across the ground, his "
-            "arm lowered now, his expression quiet and waiting. Far off on the rise "
+            "THE CAMERA STANDS BEHIND JESUS'S RIGHT SHOULDER, close, so he is seen "
+            "from behind in quarter profile at the near left of the frame — the back "
+            "of his head and one cheekbone — and his gaze goes away from the camera, "
+            "out across the ground and off through the TOP RIGHT of the picture. His "
+            "face is never squared to the lens and his eyes are never on it. His arm "
+            "is lowered now and his stance is quiet and waiting. Far off on the rise "
             "the ten are standing very still in a knot, plainly working something out "
             "— heads turned to each other, one gesturing off toward the city road, "
             "another looking down at his own bound hands. "
@@ -430,26 +456,39 @@ BEATS = [
         "must_show": "nine men running hard up the road away from the camera toward the distant city, bare-handed and unwrapped, fallen linen scattered on the road behind them.",
         "must_not_show": "they are not doing anything wrong — this is joy; do not put Jesus in this frame.",
         "scene": (
-            "Nine men are running flat out up the dusty road away from the camera "
-            "toward the distant walled city, arms pumping, robes flying, a couple of "
-            "them shouting to each other as they go. Their hands and faces are bare "
-            "and clean and their discarded grey linen strips lie scattered in the dust "
-            "of the road behind them. Their faces, half-turned, are wild with joy. "
-            "Hard bright daylight. Every figure has two arms, two hands and one head."
+            "THE CAMERA STANDS ON THE ROAD BEHIND THEM AND THEY ARE ALL RUNNING "
+            "DIRECTLY AWAY FROM IT: the viewer sees NINE BACKS — nine sets of "
+            "shoulders, nine heads of hair, the soles of lifted feet kicking up "
+            "toward the lens — and NOT ONE FACE, because not one man has turned "
+            "round. They are running flat out up the dusty road toward the distant "
+            "walled city ahead of them, which stands small on its hill at the top of "
+            "the frame. Count them: exactly nine men, separated on the open road so "
+            "each one can be counted, and nobody else. Their hands are bare and "
+            "clean, and their discarded grey linen strips lie scattered in the dust "
+            "in the near foreground between the camera and their heels. Hard bright "
+            "daylight. Every figure has two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r014-b20", "out": "s20-but-one-of-them-stopped.jpeg", "seg": "n7 p4",
         "window": "112.03-116.72", "wide": True, "jesus": False, "ref": False,
         "locks": ["SAMARITAN", "BORDERLAND"],
+        # image anchor: b21 came back as the right man, b20 as a different,
+        # younger, black-bearded one. Text alone did not hold him.
+        "char_refs": ["assets-realistic/s21-he-turned-around.jpeg"],
         "narration": ("But one of them, when he saw what had happened to him, stopped "
                       "in the road."),
         "must_show": "the one man standing motionless in the middle of the road staring at his own bare hands, with the nine already small in the distance ahead of him.",
         "must_not_show": "do not put Jesus in this frame; the distance between him and the nine must be visible and growing.",
         "scene": (
             "One man stands completely motionless in the middle of the empty dusty "
-            "road, both bare hands held up open in front of his face, staring at them. "
-            "The faded deep-teal cloth is knotted at his shoulder. Far up the road "
+            "road, both bare hands held up open in front of his face, staring down at "
+            "them so his eyes leave the picture through the BOTTOM edge, well below "
+            "the camera. HE IS THE MAN IN THE ATTACHED REFERENCE PHOTOGRAPH — the "
+            "same weather-beaten face about forty, the same strong bony features and "
+            "deep-set dark eyes under heavy black brows, the same rough black beard "
+            "gone grey at the chin, the same thinning dark hair, the same faded "
+            "deep-teal cloth knotted at his shoulder. Far up the road "
             "ahead of him the nine are already small with distance, still running "
             "away toward the city and not looking back. Discarded grey linen lies in "
             "the dust around his feet. Hard daylight. He has two arms, two hands and "
@@ -580,12 +619,16 @@ BEATS = [
         "must_show": "⚠️ close on Jesus asking — the question is GRIEF, not anger. Puzzled, sad, wanting them there.",
         "must_not_show": "NOT indignant, NOT wounded pride, NOT a rebuke. The narration says outright it is grief and the nine did nothing wrong. If this face reads as offended, regenerate. No halo or rim-light.",
         "scene": (
-            "Close on Jesus's face in the hard daylight as he asks. His brows are "
-            "drawn up in the middle rather than down, his eyes are soft and searching "
-            "the empty distance, and his mouth is open on the question with nothing "
-            "hard in it at all. It is the face of someone who wanted the others there "
-            "and is sorry they are not — plain grief, no offence anywhere in it. The "
-            "empty road is soft behind him."
+            "Close on Jesus in the hard daylight as he asks. THE CAMERA IS SET WELL "
+            "OFF HIS EYELINE — low and to his right — and his head is turned three "
+            "quarters away from it, so his eyes are searching far up the empty road "
+            "and travel out of the picture through the UPPER LEFT edge, passing well "
+            "clear of the lens; his pupils are never centred on the camera and he "
+            "never acknowledges it. His brows are drawn up in the middle rather than "
+            "down, his eyes are soft, and his mouth is open on the question with "
+            "nothing hard in it at all. It is the face of someone who wanted the "
+            "others there and is sorry they are not — plain grief, no offence "
+            "anywhere in it. The empty road is soft behind him."
         ),
     },
     {
@@ -630,13 +673,17 @@ BEATS = [
         "must_show": "the nine far away arriving at the city gate — happy, obedient, doing exactly what they were told; they are not villains.",
         "must_not_show": "nothing sinister about them at all; they must look glad and innocent. Do not put Jesus in this frame.",
         "scene": (
-            "Far away at the gate of the walled city, the nine men are arriving — "
-            "clean-handed and unwrapped, hurrying in through the stone gateway, one "
-            "with his arms up, another clapping a companion on the back, all of them "
-            "plainly delighted and doing exactly what they were told to do. They look "
-            "innocent and happy. Hard afternoon light on the pale walls. The camera is "
-            "back far enough to see the gate and the men. Every figure has two arms, "
-            "two hands and one head."
+            "THE CAMERA STANDS ON THE ROAD OUTSIDE THE CITY, WELL BACK, AND THE NINE "
+            "ARE BETWEEN IT AND THE GATE, MOVING AWAY FROM IT AND IN THROUGH THE "
+            "ARCHWAY: the viewer sees them from behind, backs and shoulders and the "
+            "soles of their sandals, the leading two already under the shadow of the "
+            "stone arch and the last still in the sunlight on the road. Not one of "
+            "them has turned round, so no face is toward the lens. They are "
+            "clean-handed and unwrapped and plainly delighted — one has his arms up, "
+            "another has a hand on a companion's back — doing exactly what they were "
+            "told to do. The great pale wall and the open gateway fill the top of the "
+            "frame above them. Hard afternoon light on the stone. Every figure has "
+            "two arms, two hands and one head."
         ),
     },
     {
