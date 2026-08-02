@@ -758,6 +758,45 @@ three-quarter angle with his head turned away from the lens" fixed it.
 
 ---
 
+### Session 13 — 2026-08-01 (Claude worker 11, Machine A / `Dev`) — ROW 15 SHIPPED + LIBRARY-WIDE AUDIO AUDIT
+
+Row 15 was handed over "blocked on audio, needs a re-voice". **Neither defect was
+real, and the fix cost nothing.** Both were the same root cause, one level below
+where the previous session looked.
+
+| step | result |
+|---|---|
+| defect 1 — "never re-voiced" | **FALSE.** The mp3s on disk are 44.1 kHz / 128 kbps = ElevenLabs `mp3_44100_128`; edge-tts writes 24 kHz mono / 48 kbps. `JESUS-VOICE.json` independently records all four Jesus lines as Alexander. The only thing still naming `en-US-ChristopherNeural` was `make_narration.py`'s docstring, which was never updated after the migration. Nothing was re-voiced; REDO-ALL was already satisfied. |
+| defect 2 — "V1 truncated at 256.000 s" | **FALSE — the 265.451 s timeline was wrong, not the video.** `extract_beats.py` decides the per-beat pad with `speaker != "narrator"`. This build predates SPEAKER-LAW, so its SEGMENTS carry the raw edge-tts voice name where the speaker constant goes; the test was true for all 26 beats, every one got the 1.15 s reverent KJV pad instead of 0.72 s, and the extracted timeline inflated by +0.43 s per narrator beat = **+9.45 s**. Rebuilding the V1 with its own `build.py` reproduced 256.0 s exactly, and `build.py`'s printed `j2 at 147.1 s` matches the fixed extractor's 147.106 s. |
+| defect 3 — found while eyeballing frames | The same tuple-shape confusion put the TTS **rate** string in the caption slot (`SEGMENTS` here is `(id, voice, rate, pitch, text)`, so slot 2 is `"-15%"`). ffmpeg's `drawtext` failed with `Stray %` and **silently drew nothing** — the first assembly came out with caption BANDS and no words, and the closing card was blank too. `extract_beats` now uses V1 `build.py`'s own rule, `s[4] if len(s) >= 5 else s[2]`. |
+| knock-on | the 42 windows the previous session re-derived off the inflated timeline were up to **9.03 s late**; all 42 shifted back and verified beat-by-beat against `silencedetect` on the real mix (n2 13.819 vs 13.823 measured, j1 76.12 vs 76.17, n13 124.60 vs 124.68, …) |
+| delivered | 256.0 s · 21.7 MB · **AUDIO LOCK PASS** (packet-identical to the authoritative V1) · `verify-mp4` OK · captions white-narrator / red-Jesus in the bottom band · closing card whole and inside frame |
+| spend | **$0.00** — no generation, no TTS. The V1 mp4 was rebuilt to prove the timeline, then reverted once its audio hash proved identical, so the repo carries no 21 MB of churn. |
+
+**Library-wide sweep** — `media-production-v2/audio_audit.py` → `AUDIO-AUDIT.md`
+(210 builds, header reads and source parsing only, no re-listening):
+
+- **A — old-voice audio in a shipped video: ZERO rows.** Every take any build
+  actually places on screen is ElevenLabs. Nothing on the reviewer is on an old
+  voice. Rows 105 and 139 have leftover 24 kHz mp3s in `audio/` that no BEATS row
+  references — dead files, called out explicitly so nobody re-raises the alarm.
+- **B — V1 final short of its own timeline: 8 rows outstanding** (10 and 13 already
+  fixed by a longer V2 cut). Only **17** and **99** carry row 06's real signature —
+  a large delta *and* paid takes sitting in `audio/` that no beat places. The 3-5 s
+  rows have no orphan takes and sit inside the audit's own arithmetic.
+- **C — pre-speaker-law build with a V2 cut: zero outstanding.** Row 15 was the only
+  one. Eleven more builds carry that SEGMENTS shape and are safe to rebuild now that
+  the tool is fixed.
+
+**The lesson worth carrying, and it is the second time this month:** when a build
+looks broken, read what the FILES say, not what the SCRIPT'S PROSE says. Row 06's
+complaint was "words are missing" and the audio was already there. Row 15's handoff
+said "never re-voiced" and the ElevenLabs audio was already there — the claim came
+from a docstring nobody had updated. Row 15's "truncated final" came from trusting a
+derived number over the artefact it was derived from. Measure the artefact.
+
+---
+
 ### Session 12 CLOSE — 2026-08-01 (Claude worker 10, Machine A / `Dev`) — PICTURES DONE, SHIP BLOCKED ON AUDIO
 
 | step | result |

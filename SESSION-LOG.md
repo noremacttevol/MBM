@@ -1,3 +1,49 @@
+## 2026-08-01 — Video 15 (The Centurion's Servant): shipped; two "blocking" audio defects were misdiagnoses (Machine A / `Dev`, Claude worker 11)
+
+Commit: 846cd540a (ship) · e64cad10f (reviewer) · b5cf0418e (audit). Row 15 was
+handed over blocked, needing "a re-voice and a truncation fix." Neither was real,
+and the whole thing cost nothing.
+
+The row had NOT missed the voice migration. Its make_narration.py docstring still
+says en-US-ChristopherNeural, but that docstring was never updated after the
+ElevenLabs sweep. The mp3s on disk are 44.1 kHz / 128 kbps — ElevenLabs' format —
+while edge-tts writes 24 kHz mono / 48 kbps, and JESUS-VOICE.json separately records
+all four Jesus lines as Alexander. The claim came from reading prose instead of the
+files.
+
+The "truncated" V1 was not truncated either — the 265.451 s timeline it was measured
+against was wrong. extract_beats.py picks the per-beat pause with `speaker !=
+narrator`. This build predates the speaker system, so the raw voice name sits where
+the speaker constant goes, every one of the 26 beats read as non-narrator, and each
+got the 1.15 s reverent pause meant for Jesus's lines instead of the normal 0.72 s.
+That is +0.43 s a beat, +9.45 s across the video. Rebuilding the V1 with its own
+build.py reproduced 256.0 s to the frame. The picture windows that had been
+re-derived off the inflated number were up to 9 s late; all 42 are back on the real
+timeline and checked against the actual mix with silencedetect.
+
+Then eyeballing the frames caught a third one, worse than either reported defect and
+caused by the same confusion: the caption slot was resolving to the TTS RATE string,
+"-15%". ffmpeg's drawtext choked on the stray percent sign and drew NOTHING, without
+erroring. The first assembly came out with caption bands and no words in them, and a
+blank closing card. It would have gone to Cameron that way if the frames had not been
+opened and looked at. Both bugs are fixed in the shared extract_beats.py, so no other
+pre-speaker-law build can hit them.
+
+Shipped: 256.0 s, 21.7 MB, AUDIO LOCK PASS, verify-mp4 OK, card repointed and
+verified live on the reviewer. Zero spend — no generation, no TTS.
+
+Then swept all 210 builds for the same defect classes (media-production-v2/
+AUDIO-AUDIT.md, produced by a new audio_audit.py). ZERO rows carry old-voice audio in
+a shipped video, so REDO-ALL is satisfied library-wide and nothing sitting on the
+reviewer is on an old voice. Eight rows have a V1 final shorter than their own
+timeline, but only 17 and 99 show row 06's real signature — a big gap plus takes in
+audio/ that no beat ever places. No other pre-speaker-law build has a V2 cut, so
+nothing else is carrying blank captions.
+
+The lesson, twice this month now: read the artefact, not the prose about it.
+
+---
+
 ## 2026-08-01 — Video 14 (The Ten Lepers): realistic V2 shipped, giants complaint fixed (Machine A / `Dev`, Claude worker 9)
 
 Commit: 0ff45a9b0 (ship) · c8ca (claim). Claimed row 14 by push before any
