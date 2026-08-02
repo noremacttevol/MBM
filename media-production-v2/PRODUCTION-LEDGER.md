@@ -685,6 +685,57 @@ generated under recomputed ceilings.
 - Board card v9 → new hash `e8cb3734…` (returns to Unwatched); sync-reviews
   run; board deployed to Firebase. App-feed V1 untouched.
 
+## Session 11 — 2026-08-01 — RECLAIM + SHIP: story 04 (Nicodemus at night) realistic rebuild (Claude worker 8, Machine A / `Dev`)
+
+- **Reclaimed from Codex**, which claimed the row (`9fc3eeb05`) and ran out of
+  credits. That claim commit is the last commit touching `build-04-nicodemus`;
+  no progress was ever committed. Reclaim pushed (`47e461f7e`) before any spend.
+- **30 uncommitted native-2K stills were found on disk and AUDITED, not
+  regenerated** — re-rolling work already paid for would have cost ~$4 for
+  nothing. 27 kept. 3 rerolled: two Jesus close-ups with CAMERA-GAZE, and s26,
+  which failed its own beat (the whole point is the lamplight full and warm on
+  Nicodemus's face for the first time; the frame had it cold and shadowed).
+- **The windows were badly drifted: 23 of 30, several by a WHOLE BEAT** — s22
+  "For God so loved the world" started 12.7 s after the line, and s21 sat on top
+  of "For God sent not his Son". All recomputed from the fixed `extract_beats.py`.
+- Re-timing exposed **four stretches of narration with no picture at all**,
+  including a 16 s hole over "the darkest day". Four beats were authored and
+  generated (b25b the words landing on the man who came in the dark, b29b the
+  council turning on him, b29c the barred door with the apostles hiding — no
+  crucifixion, no body — and b30b the hundred pounds of spices). Final timeline
+  34 beats, continuous, nothing held longer than ~14 s.
+- **Reroll rate 12% (4 passes / 34 keeps)** against the ~30% that had held on
+  every previous row. Every reroll generated after the shared `DEFECT_LOCK`
+  landed passed on the next attempt, and 3 of the 4 new beats were right on
+  take 1. Spend this row: $1.07.
+- Shipped: `build-04-nicodemus/john-3_nicodemus-realistic-v2.mp4`. AUDIO LOCK
+  PASS (`5e23f1c7…`, byte-identical to the approved V1 final); verify-mp4 OK
+  307.23 s / 19.3 MB. Reviewer card repointed, `sync-reviews.mjs` run, hosting
+  deployed. App feed untouched.
+
+### SHARED-RECIPE CHANGE (applies to every future row)
+
+`v2_prompt.py` now prepends a `DEFECT_LOCK` block to EVERY prompt, alongside
+STYLE-V2 and QUALITY_LOCK. It was added because the reroll rate had held at
+~30% across builds 05/06/07/08/09/10 at a flat $0.134/image — $2-3 of pure waste
+per video — and the same four defect families caused nearly all of it: lens
+gaze, a stray unlocked figure (usually in CREAM) at a frame edge, uncountable
+quantities, and recurring cast drifting off their sheets. The wording is PORTED
+from the phrasings that measurably fixed each defect in the QC.md files of
+rows 8, 9 and 10, not invented.
+
+**The load-bearing lesson, learned the expensive way on row 10 s22 (a bare
+prohibition failed TWICE; the geometry fixed it in one pass): state the
+GEOMETRY, not the prohibition.** Say where the camera sits relative to the
+eyeline and which frame edge the gaze exits through — "the camera sits BELOW his
+eyeline… his eyes are aimed clearly ABOVE and to the left of the lens… his
+pupils are never centred on the lens" — instead of only forbidding "looking at
+the camera". The same held on row 4 s29b: "nobody faces the camera" failed, and
+"the camera is well off to one side, not square to the room, so he is seen at a
+three-quarter angle with his head turned away from the lens" fixed it.
+
+---
+
 ## Session 10 — 2026-08-01 — CLAIM: story 10 (woman at the well) realistic rebuild (Claude worker 7, Machine A / `Dev`)
 
 - **Model:** Fable 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`

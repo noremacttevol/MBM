@@ -308,3 +308,11 @@
 {"ts": "2026-08-01 19:33:50", "build": "build-10-well", "beat": "v2-r010-b38", "out": "s38-i-that-speak-unto-thee.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-01 19:34:49", "build": "build-10-well", "beat": "v2-r010-b22", "out": "s22-shall-never-thirst.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-01 19:35:11", "build": "build-10-well", "beat": "v2-r010-b31", "out": "s31-he-did-not-turn-away.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 19:50:50", "build": "build-04-nicodemus", "beat": "v2-r004-b21", "out": "s21-and-then-jesus-said.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 19:51:14", "build": "build-04-nicodemus", "beat": "v2-r004-b23", "out": "s23-not-to-condemn.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 19:51:33", "build": "build-04-nicodemus", "beat": "v2-r004-b26", "out": "s26-an-invitation.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 19:54:33", "build": "build-04-nicodemus", "beat": "v2-r004-b25b", "out": "s25b-who-he-was-saying-it-to.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 19:54:55", "build": "build-04-nicodemus", "beat": "v2-r004-b29b", "out": "s29b-they-turned-on-him.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 19:55:17", "build": "build-04-nicodemus", "beat": "v2-r004-b29c", "out": "s29c-the-darkest-day.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 19:55:37", "build": "build-04-nicodemus", "beat": "v2-r004-b30b", "out": "s30b-a-hundred-pounds.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-01 19:56:37", "build": "build-04-nicodemus", "beat": "v2-r004-b29b", "out": "s29b-they-turned-on-him.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}

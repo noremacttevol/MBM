@@ -84,10 +84,15 @@ LOCKS = {
 
 REF = True
 
+# The realistic rebuild generates into and assembles from its own folder, so the
+# old rejected `assets/` set stays untouched as rough-draft reference only.
+OUTPUT_ASSET_DIR = "assets-realistic-v3"
+OUTPUT_VIDEO_NAME = "john-3_nicodemus-realistic-v2.mp4"
+
 BEATS = [
     {
         "id": "v2-r004-b01", "out": "s01-a-ruler-of-the-jews.jpeg", "seg": "n0 p1",
-        "window": "0.28-9.0", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-10.64", "wide": True, "jesus": False, "ref": False,
         "locks": ["NICO", "COUNCIL"],
         "narration": ("In Jerusalem there was a man named Nicodemus. He was a "
                       "Pharisee, and more than that — a ruler of the Jews,"),
@@ -104,7 +109,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b02", "out": "s02-educated-respected.jpeg", "seg": "n0 p2",
-        "window": "9.0-16.0", "wide": True, "jesus": False, "ref": False,
+        "window": "10.64-14.43", "wide": True, "jesus": False, "ref": False,
         "locks": ["NICO", "COUNCIL"],
         "narration": "a member of the great council that governed the nation's faith. Educated. Respected. Listened to.",
         "must_show": "the room deferring to him — he speaks and the others attend.",
@@ -119,7 +124,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b03", "out": "s03-everything-to-lose.jpeg", "seg": "n0 p3",
-        "window": "16.0-23.18", "wide": False, "jesus": False, "ref": False,
+        "window": "14.43-23.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["NICO", "JERUSALEM"],
         "narration": ("A man like that had everything to lose by being seen with a "
                       "controversial teacher from Galilee. His seat, his standing, "
@@ -136,7 +141,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b04", "out": "s04-so-he-came-at-night.jpeg", "seg": "n1",
-        "window": "24.18-25.25", "wide": True, "jesus": False, "ref": False,
+        "window": "23.85-25.91", "wide": True, "jesus": False, "ref": False,
         "locks": ["NICO", "JERUSALEM"],
         "narration": "So he came at night.",
         "must_show": "3:2 — a lone hooded figure moving through the dark city; the whole point is the dark.",
@@ -153,7 +158,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b05", "out": "s05-knocked-in-the-dark.jpeg", "seg": "n2",
-        "window": "26.25-30.14", "wide": False, "jesus": False, "ref": False,
+        "window": "25.91-29.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["NICO", "JERUSALEM"],
         "narration": "He knocked on the door in the dark, and the first thing he said was this.",
         "must_show": "the knock — his hand on a heavy door at night, hood back just enough to show the old face.",
@@ -171,7 +176,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b06", "out": "s06-rabbi-we-know.jpeg", "seg": "s2",
-        "window": "31.14-38.50", "wide": True, "jesus": True, "ref": REF,
+        "window": "29.98-38.52", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("Rabbi, we know that thou art a teacher come from God: for no "
                       "man can do these miracles that thou doest, except God be with "
@@ -190,7 +195,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b07", "out": "s07-we-not-i.jpeg", "seg": "n2b p1",
-        "window": "39.98-49.0", "wide": True, "jesus": False, "ref": False,
+        "window": "38.52-48.49", "wide": True, "jesus": False, "ref": False,
         "locks": ["COUNCIL"],
         "narration": ("Bible students notice one small word there — we. Not I. We "
                       "know. Nicodemus had been talking with other rulers, quietly, "
@@ -209,7 +214,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b08", "out": "s08-not-in-daylight.jpeg", "seg": "n2b p2",
-        "window": "49.0-58.88", "wide": False, "jesus": False, "ref": False,
+        "window": "48.49-55.5", "wide": False, "jesus": False, "ref": False,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("Some of the very men who opposed Jesus in public already "
                       "believed it in private. He just couldn't say it in daylight."),
@@ -226,7 +231,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b09", "out": "s09-he-didnt-turn-him-away.jpeg", "seg": "n3a",
-        "window": "59.88-71.63", "wide": True, "jesus": True, "ref": REF,
+        "window": "55.5-67.88", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("And Jesus didn't turn him away for coming at night. He didn't "
                       "point out the fear."),
@@ -244,7 +249,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b10", "out": "s10-born-again.jpeg", "seg": "j1",
-        "window": "72.63-78.98", "wide": False, "jesus": True, "ref": REF,
+        "window": "67.88-78.65", "wide": False, "jesus": True, "ref": REF,
         "locks": ["NIGHTROOM"],
         "narration": ("Verily, verily, I say unto thee, Except a man be born again, "
                       "he cannot see the kingdom of God. (John 3:3)"),
@@ -261,7 +266,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b11", "out": "s11-the-words-land.jpeg", "seg": "n3b p1",
-        "window": "80.46-91.0", "wide": False, "jesus": False, "ref": False,
+        "window": "78.65-84.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("And notice who heard it first. Not a hardened sinner. The "
                       "most religious man in the country."),
@@ -277,7 +282,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b12", "out": "s12-everyone-starts-over.jpeg", "seg": "n3b p2",
-        "window": "91.0-101.18", "wide": True, "jesus": True, "ref": REF,
+        "window": "84.77-94.48", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("Jesus was telling him that all his learning and all his "
                       "rule-keeping could not do it. Everyone has to start over. "
@@ -296,7 +301,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b13", "out": "s13-took-it-literally.jpeg", "seg": "n4",
-        "window": "102.18-103.45", "wide": False, "jesus": False, "ref": False,
+        "window": "94.48-96.75", "wide": False, "jesus": False, "ref": False,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": "Nicodemus took it literally.",
         "must_show": "the moment of literal-minded confusion on an old scholar's face.",
@@ -311,7 +316,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b14", "out": "s14-when-he-is-old.jpeg", "seg": "s4",
-        "window": "104.45-110.83", "wide": True, "jesus": False, "ref": False,
+        "window": "96.75-107.11", "wide": True, "jesus": False, "ref": False,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("How can a man be born when he is old? can he enter the second "
                       "time into his mother's womb, and be born? (John 3:4)"),
@@ -328,7 +333,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b15", "out": "s15-he-didnt-shame-him.jpeg", "seg": "n4b",
-        "window": "112.31-124.86", "wide": True, "jesus": True, "ref": REF,
+        "window": "107.11-116.73", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("And Jesus didn't laugh at him. He didn't shame him for not "
                       "getting it. He reached for something Nicodemus could feel — "
@@ -346,7 +351,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b16", "out": "s16-the-wind-bloweth.jpeg", "seg": "j2",
-        "window": "125.86-136.88", "wide": False, "jesus": False, "ref": False,
+        "window": "116.73-128.66", "wide": False, "jesus": False, "ref": False,
         "locks": ["NIGHTROOM"],
         "narration": ("The wind bloweth where it listeth, and thou hearest the sound "
                       "thereof, but canst not tell whence it cometh, and whither it "
@@ -364,7 +369,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b17", "out": "s17-you-can-watch-a-life-bend.jpeg", "seg": "n5",
-        "window": "138.35-152.62", "wide": True, "jesus": True, "ref": REF,
+        "window": "128.66-142.88", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("You can't see the wind. You only see what it moves. That, "
                       "Jesus said, is how God changes a person. But you can watch a "
@@ -382,7 +387,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b18", "out": "s18-something-gave-way.jpeg", "seg": "n6",
-        "window": "153.62-167.50", "wide": False, "jesus": False, "ref": False,
+        "window": "142.88-156.81", "wide": False, "jesus": False, "ref": False,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("And something in Nicodemus gave way. The formal questions of "
                       "a scholar were falling away — until what was left was just a "
@@ -399,7 +404,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b19", "out": "s19-how-can-these-things-be.jpeg", "seg": "s9",
-        "window": "168.50-169.80", "wide": False, "jesus": False, "ref": False,
+        "window": "156.81-159.47", "wide": False, "jesus": False, "ref": False,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": "How can these things be? (John 3:9)",
         "must_show": "3:9 — the shortest, most honest question in the conversation.",
@@ -414,7 +419,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b20", "out": "s20-a-tired-honest-man.jpeg", "seg": "n6b",
-        "window": "171.28-178.13", "wide": True, "jesus": True, "ref": REF,
+        "window": "159.47-166.86", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("No title on it. No argument behind it. Just a tired, honest "
                       "man finally asking what he actually wanted to know."),
@@ -431,7 +436,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b21", "out": "s21-and-then-jesus-said.jpeg", "seg": "n7a",
-        "window": "179.13-183.58", "wide": False, "jesus": True, "ref": REF,
+        "window": "166.86-171.92", "wide": False, "jesus": True, "ref": REF,
         "locks": ["NIGHTROOM"],
         "narration": "And then Jesus said the words. The ones the whole world would come to know.",
         "must_show": "the breath before the most quoted sentence in the Bible.",
@@ -445,7 +450,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b22", "out": "s22-for-god-so-loved.jpeg", "seg": "j3 p1",
-        "window": "184.58-194.0", "wide": True, "jesus": True, "ref": REF,
+        "window": "171.92-181.11", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("For God so loved the world, that he gave his only begotten "
                       "Son, that whosoever believeth in him should not perish, but "
@@ -463,7 +468,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b23", "out": "s23-not-to-condemn.jpeg", "seg": "j3 p2",
-        "window": "194.0-203.62", "wide": False, "jesus": True, "ref": REF,
+        "window": "181.11-188.57", "wide": False, "jesus": True, "ref": REF,
         "locks": ["NIGHTROOM"],
         "narration": ("For God sent not his Son into the world to condemn the world; "
                       "but that the world through him might be saved. (John 3:17)"),
@@ -480,7 +485,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b24", "out": "s24-one-scared-man.jpeg", "seg": "n7b",
-        "window": "205.10-211.30", "wide": True, "jesus": True, "ref": REF,
+        "window": "188.57-195.82", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("Those words weren't preached to a stadium. They were said "
                       "quietly, at night, to one scared man who came with questions."),
@@ -497,7 +502,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b25", "out": "s25-light-and-darkness.jpeg", "seg": "n8 p1",
-        "window": "212.30-223.0", "wide": True, "jesus": True, "ref": REF,
+        "window": "195.82-206.09", "wide": True, "jesus": True, "ref": REF,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("Then Jesus spoke about light and darkness — how people hide "
                       "in the dark when they're afraid of what the light will show."),
@@ -514,7 +519,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b26", "out": "s26-an-invitation.jpeg", "seg": "n8 p2",
-        "window": "223.0-233.21", "wide": False, "jesus": False, "ref": False,
+        "window": "211.89-219.75", "wide": False, "jesus": False, "ref": False,
         "locks": ["NICO", "NIGHTROOM"],
         "narration": ("It wasn't a jab. It was an invitation: you won't always have "
                       "to come at night."),
@@ -525,13 +530,19 @@ BEATS = [
             "first time in the whole conversation — no hood, no shadow across his "
             "eyes, his head lifted and his expression caught somewhere between "
             "disbelief and hope as he understands what has just been offered to him. "
+            "LIGHTING IS THE POINT OF THIS FRAME: the oil lamp is close to him and "
+            "slightly in front, so its warm orange light falls FULLY and evenly across "
+            "his forehead, eyes, cheeks and beard — his whole face is plainly lit and "
+            "warm-toned, with no cold blue cast on it, no shadow band over his eyes "
+            "and no part of his face left dark. The cold night stays outside the "
+            "window behind him. "
             "Exactly one person is in the frame, with two arms, two hands and one "
             "head."
         ),
     },
     {
         "id": "v2-r004-b27", "out": "s27-came-by-night.jpeg", "seg": "n9",
-        "window": "234.21-249.97", "wide": True, "jesus": False, "ref": False,
+        "window": "219.75-233.06", "wide": True, "jesus": False, "ref": False,
         "locks": ["NICO", "JERUSALEM"],
         "narration": ("Every time John's gospel mentions Nicodemus again, it adds "
                       "the same tag — the one who came to Jesus by night. John wants "
@@ -549,7 +560,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b28", "out": "s28-one-voice-rose.jpeg", "seg": "n10",
-        "window": "250.97-261.65", "wide": True, "jesus": False, "ref": False,
+        "window": "233.06-243.27", "wide": True, "jesus": False, "ref": False,
         "locks": ["NICO", "COUNCIL"],
         "narration": ("Months later, the council met in broad daylight, furious, "
                       "ready to condemn Jesus without a hearing. And one voice rose "
@@ -567,7 +578,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b29", "out": "s29-doth-our-law-judge.jpeg", "seg": "s51",
-        "window": "262.65-266.50", "wide": True, "jesus": False, "ref": False,
+        "window": "243.27-252.82", "wide": True, "jesus": False, "ref": False,
         "locks": ["NICO", "COUNCIL"],
         "narration": ("Doth our law judge any man, before it hear him, and know what "
                       "he doeth? (John 7:51)"),
@@ -584,7 +595,7 @@ BEATS = [
     },
     {
         "id": "v2-r004-b30", "out": "s30-a-kings-burial-in-the-open.jpeg", "seg": "n11",
-        "window": "282.94-311.64", "wide": True, "jesus": False, "ref": False,
+        "window": "272.9-283.27", "wide": True, "jesus": False, "ref": False,
         "locks": ["NICO", "JERUSALEM"],
         "narration": ("And Nicodemus came — openly, in the daylight — carrying a "
                       "hundred pounds of myrrh and aloes for the burial. The man who "
@@ -602,6 +613,93 @@ BEATS = [
             "clean white burial linen are carried folded in his own arms. Exactly "
             "three people are in the frame; each has two arms, two hands and one "
             "head."
+        ),
+    },
+    {
+        "id": "v2-r004-b25b", "out": "s25b-who-he-was-saying-it-to.jpeg", "seg": "n8 p2-p3",
+        "window": "206.09-211.89", "wide": False, "jesus": False, "ref": False,
+        "locks": ["NICO", "NIGHTROOM"],
+        "narration": ("Think about who he was saying that to. A man who had crept to "
+                      "his door under cover of darkness."),
+        "must_show": "Nicodemus realising the words are about HIM — recognition landing, not rebuke received.",
+        "must_not_show": "no shame, no cringing, no guilt — this is a man seeing himself described accurately and knowing it is true. Do not put Jesus in this frame; Nicodemus is the only person visible. No daylight of any kind.",
+        "scene": (
+            "Close on Nicodemus in the lamplight, gone completely still as he hears "
+            "himself described. His eyes have dropped to the small flame on the table "
+            "in front of him and stayed there, his mouth pressed shut, one hand come "
+            "up slowly to the collar of his dark cloak — the face of a man who has "
+            "just recognised himself in another man's sentence and cannot argue with "
+            "it. Warm lamplight from below on his beard and cheeks, the night room "
+            "black behind him and the dark blue window far off to one side. Exactly "
+            "one person is in the frame, with two arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r004-b29b", "out": "s29b-they-turned-on-him.jpeg", "seg": "n10b p4-p5",
+        "window": "252.82-265.05", "wide": True, "jesus": False, "ref": False,
+        "locks": ["NICO", "COUNCIL"],
+        "narration": ("He was defending Jesus to the most powerful men in the nation "
+                      "— the very room he had everything to lose in. They turned on "
+                      "him for it."),
+        "must_show": "the council rounding on Nicodemus in full daylight — hostile faces, bodies leaning in at him, while he stands his ground alone.",
+        "must_not_show": "no violence and nobody laying hands on him; no lamps, no night, no shadow — the whole point is that this happens in the open. Nobody looks at the camera.",
+        "scene": (
+            "In the sunlit council chamber, Nicodemus stands alone on the open floor "
+            "in his fine deep indigo robe while the councillors on the benches around "
+            "him have turned on him — several half-risen with their hands out in "
+            "protest, one jabbing a finger toward him, faces set hard and mouths open "
+            "in argument, others turning to each other in disgust. Every one of their "
+            "gazes is on Nicodemus and nobody faces the camera. He has not stepped "
+            "back; his chin is level and his hands are at his sides. THE CAMERA IS "
+            "WELL OFF TO ONE SIDE of the chamber, not square to the room and not on "
+            "Nicodemus's axis, so he is seen at a three-quarter angle with his head "
+            "turned away from the lens toward the councillors — his eyes never meet "
+            "the camera and the composition is not symmetrical. No councillor wears "
+            "cream, ivory, off-white or any pale near-white cloak, scarf or shawl. "
+            "Hard bright "
+            "daylight from the tall windows, no lamp anywhere. The camera is back far "
+            "enough to hold him and the benches in one frame. Every figure has two "
+            "arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r004-b29c", "out": "s29c-the-darkest-day.jpeg", "seg": "n11",
+        "window": "265.05-272.9", "wide": False, "jesus": False, "ref": False,
+        "locks": ["JERUSALEM"],
+        "narration": ("And then came the darkest day. Jesus was dead. His own "
+                      "apostles were hiding behind locked doors."),
+        "must_show": "a heavy barred door in a dim room, with frightened men drawn back from it in the shadow behind — hiding, listening, waiting.",
+        "must_not_show": "no crucifixion, no body, no wounds and no blood anywhere; nobody dead is shown. Do not put Jesus or Nicodemus in this frame. No cream or off-white robe on anyone. Nobody looks at the camera.",
+        "scene": (
+            "The inside of a shuttered upper room in the middle of the day, seen from "
+            "the shadowed side: a heavy wooden door barred shut with a timber across "
+            "it fills the left of the frame, thin hard blades of daylight coming "
+            "through the shutter slats and falling across the floor. Three or four "
+            "grown men in dark travel-worn tunics have drawn back from the door into "
+            "the shadow — one with his back flat against the wall beside it and his "
+            "head turned to listen, another sitting on the floor with his face in his "
+            "hands, another standing frozen mid-room looking at the door. Their faces "
+            "are grief-struck and afraid. Nobody looks toward the camera. Every "
+            "figure has two arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r004-b30b", "out": "s30b-a-hundred-pounds.jpeg", "seg": "n11b p2-p3",
+        "window": "283.27-292.21", "wide": False, "jesus": False, "ref": False,
+        "locks": ["NICO"],
+        "narration": ("A hundred pounds. That was a quantity fit for royalty."),
+        "must_show": "the sheer WEIGHT and BULK of the spices — an enormous quantity, obviously far more than anyone would bring, and obviously heavy to carry.",
+        "must_not_show": "no body, no tomb interior, no wounds, no linen-wrapped figure; this frame is the spices and the cost of them. Nobody looks at the camera. No night and no lamp — it is full daylight.",
+        "scene": (
+            "In hard open daylight, Nicodemus's hands and forearms in his fine deep "
+            "indigo sleeves lower a great heavy bundle of burial spices onto stone — "
+            "several large cloth-wrapped parcels and a wide-mouthed jar of dark "
+            "resinous myrrh and pale green aloes, the cloth straining and his knuckles "
+            "white with the weight of it, far more than one man would normally carry. "
+            "A little of the resin has spilled onto the stone. His face is out of the "
+            "top of the frame; only his hands, sleeves and the spices are in it. Full "
+            "flat daylight and clean shadow, no lamp anywhere. Each hand has five "
+            "fingers."
         ),
     },
 ]
