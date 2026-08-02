@@ -1585,3 +1585,84 @@ have caught row 25, because it never looked at the MP4 the V2 cut was locked to.
 own table listed row 25 with a `+64.37` delta and the word "clean" on the same line.
 That file now carries a banner at the top saying exactly what it does and does not
 prove. Write that banner on your own audits too.
+
+---
+
+## Row 26 — The Mustard Seed (Matthew 13:31-32 / Luke 13:19) — realistic V2, 2026-08-02
+**Claude worker 21, Machine A `Dev`.** Commit `5cd6564105a4` (cut), card repointed in the
+following commit. 24 pictures, 87.0 s, 20.3 MB. Spend **$4.15** (31 images at $0.134),
+meter $115.642 → $119.80. Reroll rate **7/31 = 23%**.
+
+### The inherited beat map was wrong, and this is how it was proved
+`beats_v2.py` arrived with fourteen beats whose windows ran `audio_start` → `spoken_end`
+instead of segment boundary to segment boundary. That leaves a DEAD GAP at every segment
+join — 3.44→4.01, 8.93→9.47, 12.91→13.45, 17.91→18.47, 27.85→29.39, 40.07→41.52,
+46.53→47.11, 54.31→54.84, 59.44→60.00, 63.16→63.65, 71.96→72.51, 79.15→79.42, twelve gaps
+totalling ~5.9 s with no picture assigned at all. It also gave the whole of `j1` (9.4 s)
+and the whole of `j1b` (10.7 s) one picture each, and staged the frame at the seaside,
+which would have been the third row running on rows 24/25's beach and boat.
+
+### WORD TIMINGS, not the timing sidecars — new, and it will recur
+The row-25 rule was "split inside a segment on that segment's own `.timing.json` phrase
+boundaries." On this row that rule cannot be followed: NINE of the twelve sidecars contain
+exactly ONE phrase spanning the entire segment, so there is no interior boundary to split
+on. Word-level timings from `faster_whisper` with `word_timestamps=True` are free, take
+under a minute for a 87 s video, and put every split on a real comma or clause head.
+**When a sidecar has one phrase and the segment is longer than ~5 s, transcribe for word
+timings — do not fall back to splitting blind.**
+
+### Audio
+Clean. `matthew-13_mustard-seed.mp4` and every `audio/*.mp3` last changed bytes in the
+SAME commit (git content date 2026-07-28 16:30:55), and the MP4 runs 87.067 s against the
+summed timeline's 87.015 s — 0.052 s, far inside the 0.75 s tripwire. `n0 j1 j1b n5 n8 n9
+card` were all transcribed and match the live `make_narration.py` word for word, so no
+`TEXT_OVERRIDES` and `AUDIO_FROM_V1_SEGMENTS = False`. Normal packet-copy AUDIO LOCK PASS,
+SHA256 `40826b7a8052…`.
+
+### NEW SHARED LESSON — every new setting invents its own anachronism, and a garden's is IRRIGATION
+Rows 16/18 paid for interior lighting, row 19 for boat fittings, row 22 for city skylines.
+A walled kitchen garden's version is **modern black drip-irrigation hose**: thin dark
+tubing lying along the beds, present in **4 of the first 24 frames** (b10, b11, b17, b21)
+and invisible until you crop in. Nothing in the existing PERIOD-MATERIALS lock covers it,
+because it is not a lamp, a fitting or a garment — it is a LINE ON THE GROUND.
+The cure, stated POSITIVELY per the row-10 geometry lesson, went into this build's GARDEN
+lock and killed it in ONE pass on all four:
+
+> HAND-IRRIGATION LOCK: ALL the water in this garden moves by hand and by gravity alone.
+> The ONLY things that carry water are shallow open channels scraped into the bare earth
+> between the beds, the stone-lined cistern, and fired-clay jars carried by hand. Along
+> every bed and every path the ground is BARE SOIL, unbroken, with nothing lying on it or
+> running across it. There is NO tube, hose, pipe, line, cord, wire, cable, tape, stake or
+> fitting of any kind lying along or across any bed, path or channel, in focus or out of
+> focus, in the foreground or the background; nothing black, dark grey or glossy runs in a
+> straight line anywhere on the ground; and there is no drip irrigation, no sprinkler, no
+> spigot, no valve and no pump anywhere in the picture.
+
+**Whoever stages the next garden, orchard, vineyard or irrigated field: paste that block
+in before the first paid image.** It generalises to any cultivated ground.
+
+### The other three rerolls
+* **b01** — lens gaze, the classic. Jesus AND four listeners had their pupils on the lens.
+  Fixed by the eight-for-eight cure: put the camera SIDE-ON to the whole group so the
+  entire conversation runs horizontally across frame, Jesus at one edge and the listeners
+  at the other, every eyeline exiting through a named side edge.
+* **b06** — the row-24/row-25 defect again: the out-of-focus near-foreground listener came
+  back in pale grey-taupe. Naming the head cloth indigo was not enough; what worked was
+  "his ENTIRE back, shoulder, sleeve and head cloth are DEEP INDIGO — a single dark navy
+  mass … with NOTHING pale, grey, beige, taupe, cream or off-white anywhere on him."
+* **b11** — the model ignored the beat entirely and returned a hand pressing a seed into
+  soil (a composition from earlier in the same build). Fixed by leading `must_show` with
+  "THE SUBJECT OF THIS PICTURE IS BIRDS IN FLIGHT" and adding to `must_not_show`: "no
+  seed, no planting, no ground-level macro of any kind — the camera is looking UP at the
+  sky, not down at the earth." **When a render comes back as a DIFFERENT beat from the
+  same build, the fix is to name the subject first and forbid the other beat's geometry.**
+
+### Staging
+A small walled kitchen garden on the edge of a village — mud-brick walls just above head
+height, narrow raised beds, hand-cut watering channels, a stone-lined cistern, a plank
+gate. Luke 13:19 ("cast into his garden") is the warrant and V1's own narration says "the
+largest plant in the whole garden," so the audio itself asks for it. Enclosed and
+human-scale, the visual opposite of row 25's grain plain and row 24's beach. **The mustard
+grows in the SAME corner bed in every frame**, so the teaching and the parable share one
+continuous place and the closing wide shot puts Jesus and the grown plant in one picture
+without inventing anything. Terrain is the invariant; only growth stage and light move.
