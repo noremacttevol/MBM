@@ -84,7 +84,7 @@ BEATS = [
     # ---------------------------------------------------- n1 — the welcome ----
     {
         "id": "v2-r016-b01", "out": "s01-bethany-at-evening.jpeg", "seg": "n1 p1",
-        "window": "0.28-3.55", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-3.63", "wide": True, "jesus": False, "ref": False,
         "locks": ["HOUSE"],
         "narration": "This is the little village of Bethany, just outside Jerusalem.",
         "must_show": "the small village on its hillside at dusk, lamps beginning to show in doorways, Jerusalem's walls distant beyond.",
@@ -96,11 +96,12 @@ BEATS = [
             "beginning to show in one or two low doorways. Far off across the valley "
             "the walls and rooftops of Jerusalem stand dark against the last of the "
             "light. Quiet and settling into night."
+            " The camera looks down over the terraces from the hillside above and behind the village, so the houses are seen from their backs and roofs and the valley falls away past them; nobody stands near the lens. "
         ),
     },
     {
         "id": "v2-r016-b02", "out": "s02-martha-welcomed-him-in.jpeg", "seg": "n1 p2",
-        "window": "3.55-10.54", "wide": True, "jesus": True, "ref": REF,
+        "window": "3.63-11.76", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "GUESTS", "HOUSE"],
         "narration": ("One evening, Jesus came here to the home of two sisters, Martha "
                       "and Mary, and Martha gladly welcomed him in."),
@@ -114,12 +115,13 @@ BEATS = [
             "already turning to usher the next one through. There is nothing strained "
             "about her at all. The camera is back far enough to hold the doorway and "
             "the arriving group. Every figure has two arms, two hands and one head."
+            " THE CAMERA STANDS BEHIND THE ARRIVING TRAVELLERS ON THE PATH AND SHOOTS PAST THEM toward the doorway: their backs and shoulders fill the near frame, dark against the lamplight, and not one of their faces is turned toward the lens; Martha in the doorway is in three-quarter and her eyes go to the men in front of her, exiting the frame past the camera's left. "
         ),
     },
     # -------------------------------------------------- n2 — the honour of it ----
     {
         "id": "v2-r016-b03", "out": "s03-an-honor-and-a-great-deal-of-work.jpeg", "seg": "n2",
-        "window": "11.24-23.59", "wide": True, "jesus": False, "ref": False,
+        "window": "11.76-20.97", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "HOUSE"],
         "narration": ("In that day, hosting a guest like this was a real honor, and a "
                       "great deal of work. There was a meal to cook, water to carry, and "
@@ -135,12 +137,33 @@ BEATS = [
             "chin set — sizing up the work and taking it on. Firelight and lamplight "
             "across her. The camera is back far enough to hold her and the whole task. "
             "She has two arms, two hands and one head."
+            " The camera stands behind Martha's shoulder and a little to the side, so her back and three-quarter profile are in the near frame and the whole task lies out beyond her; her gaze travels down and left across the work, well past the lens. "
+        ),
+    },
+    {
+        "id": "v2-r016-b03b", "out": "s03b-she-took-it-all-on-herself.jpeg", "seg": "n2 p3",
+        "window": "20.97-25.14", "wide": False, "jesus": False, "ref": False,
+        "locks": ["MARTHA", "HOUSE"],
+        "narration": "Martha took all of it onto herself.",
+        "must_show": "Martha alone with the weight of the whole evening on her — both water jars hoisted, nobody helping her, the doorway to the crowded main room behind her.",
+        "must_not_show": "no other worker, servant, child or helper anywhere in the frame; no resentment yet, only resolve; do not put Jesus in this frame.",
+        "scene": (
+            "A waist-up shot of Martha in the lamplit kitchen end of the room, "
+            "photographed from her side so her face is in three-quarter profile and her "
+            "eyes travel down and past the camera to the load in her arms. She carries a "
+            "heavy clay water jar braced against her hip with one arm and steadies a "
+            "second on the shelf with the other, shoulders taking the weight, jaw set, "
+            "damp strands stuck to her forehead. Behind her, softly out of focus through "
+            "the doorway, the warm light of the main room where the guests are. Nobody "
+            "else is in the kitchen with her — she is doing all of it alone. Low warm "
+            "firelight from below and one small oil lamp above. She has two arms, two "
+            "hands and one head."
         ),
     },
     # ------------------------------------------------- n3 — she threw herself in ----
     {
         "id": "v2-r016-b04", "out": "s04-she-threw-herself-in.jpeg", "seg": "n3 p1",
-        "window": "24.21-26.15", "wide": False, "jesus": False, "ref": False,
+        "window": "25.14-27.17", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
         "narration": "So Martha threw herself into the serving.",
         "must_show": "her hands working fast and well — competent, practised, good at this.",
@@ -155,7 +178,7 @@ BEATS = [
     },
     {
         "id": "v2-r016-b05", "out": "s05-moving-without-a-pause.jpeg", "seg": "n3 p2",
-        "window": "26.15-33.73", "wide": True, "jesus": False, "ref": False,
+        "window": "27.17-36.12", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "GUESTS", "HOUSE"],
         "narration": ("Stirring, carrying, cleaning, fixing, moving without a pause, "
                       "giving this guest everything she thought he deserved."),
@@ -169,12 +192,13 @@ BEATS = [
             "table, cushions part laid. The seated travellers are visible in the warm "
             "background listening to someone out of frame. She is the only thing "
             "moving. Every figure has two arms, two hands and one head."
+            " The camera stands beside and slightly behind her line of travel, so she crosses the frame in profile moving away from the lens; the seated travellers behind her are seen from behind, and not one face is turned toward the camera. "
         ),
     },
     # ------------------------------------------- n4 — the joy gets buried ----
     {
         "id": "v2-r016-b06", "out": "s06-the-joy-got-buried.jpeg", "seg": "n4 p1",
-        "window": "34.33-39.26", "wide": False, "jesus": False, "ref": False,
+        "window": "36.12-41.52", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
         "narration": ("But little by little, the joy of having him there got buried under "
                       "the weight of getting it all just right."),
@@ -191,7 +215,7 @@ BEATS = [
     },
     {
         "id": "v2-r016-b07", "out": "s07-winding-tighter.jpeg", "seg": "n4 p2",
-        "window": "39.26-43.53", "wide": True, "jesus": False, "ref": False,
+        "window": "41.52-47.51", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "HOUSE"],
         "narration": ("Her hands stayed busy while, inside, she wound tighter and "
                       "tighter."),
@@ -204,12 +228,13 @@ BEATS = [
             "tightened and her chin is slightly lowered. It is one short look, and her "
             "hands have not stopped. The warm room, the fire and the seated shapes are "
             "between them. Every figure has two arms, two hands and one head."
+            " The camera stands behind Martha's shoulder at the table and shoots past her back across the room toward her sister, so we follow her look; the seated men between them are seen from behind, and not one face is turned toward the lens. "
         ),
     },
     # -------------------------------------------------- n5/n6 — Mary's choice ----
     {
         "id": "v2-r016-b08", "out": "s08-a-different-choice.jpeg", "seg": "n5 p1",
-        "window": "44.21-46.90", "wide": True, "jesus": False, "ref": False,
+        "window": "47.51-50.23", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARY", "HOUSE"],
         "narration": "Her sister Mary had made a completely different choice.",
         "must_show": "Mary on the floor amid the room's unfinished work — sitting still while everything around her waits to be done.",
@@ -222,11 +247,12 @@ BEATS = [
             "Her stillness is the only stillness in the room. The camera is back far "
             "enough to hold her and the waiting work. She has two arms, two hands and "
             "one head."
+            " The camera stands behind and to the side of the seated men and shoots past their backs toward Mary; she is in three-quarter with her gaze up and off past the left edge, and not one face is turned toward the lens. "
         ),
     },
     {
         "id": "v2-r016-b09", "out": "s09-at-his-feet-listening.jpeg", "seg": "n5 p2",
-        "window": "46.90-52.75", "wide": True, "jesus": True, "ref": REF,
+        "window": "50.23-57.32", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARY", "GUESTS", "HOUSE"],
         "narration": ("She sat down on the floor at Jesus's feet, and she simply "
                       "listened to every word he said."),
@@ -240,11 +266,12 @@ BEATS = [
             "listening. Warm lamplight and firelight across all of them, deep shadow "
             "behind. The camera is back far enough to hold Jesus, Mary and the seated "
             "group. Every figure has two arms, two hands and one head."
+            " The camera stands behind the outer ring of seated travellers and shoots past their backs and shoulders toward Jesus and Mary; Mary is seen from behind and to the side, Jesus is in three-quarter with his eyes on the men he is speaking to, and not one face is turned toward the lens. "
         ),
     },
     {
         "id": "v2-r016-b10", "out": "s10-the-place-a-student-sat.jpeg", "seg": "n6 p1-p2",
-        "window": "53.40-61.89", "wide": True, "jesus": True, "ref": REF,
+        "window": "57.32-66.06", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARY", "GUESTS"],
         "narration": ("Back then, sitting at a teacher's feet was the place a student "
                       "sat, and it was not a place people expected a woman to take. Mary "
@@ -259,11 +286,12 @@ BEATS = [
             "but nobody has moved and nobody is objecting. She is not looking at any "
             "of them. Warm firelight, deep shadows. Every figure has two arms, two "
             "hands and one head."
+            " The camera stands behind the circle of seated men and shoots past their backs toward Jesus; the men are seen from behind or in profile, Mary from behind in three-quarter, and not one face is turned toward the lens. "
         ),
     },
     {
         "id": "v2-r016-b11", "out": "s11-nearer-than-anything.jpeg", "seg": "n6 p3",
-        "window": "61.89-65.66", "wide": False, "jesus": False, "ref": False,
+        "window": "66.06-71.27", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARY"],
         "narration": "She wanted to be near him more than anything else that night.",
         "must_show": "close on Mary's face — lit warm, utterly still, everything else in the world switched off.",
@@ -280,7 +308,7 @@ BEATS = [
     # ---------------------------------------------- n7/n8 — the breaking point ----
     {
         "id": "v2-r016-b12", "out": "s12-worn-thin.jpeg", "seg": "n7 p1",
-        "window": "66.30-69.82", "wide": False, "jesus": False, "ref": False,
+        "window": "71.27-75.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
         "narration": "Meanwhile Martha, worn thin, finally reached her breaking point.",
         "must_show": "close on Martha stopped for the first time — both hands braced on the table, head down, exhausted.",
@@ -296,7 +324,7 @@ BEATS = [
     },
     {
         "id": "v2-r016-b13", "out": "s13-in-front-of-everyone.jpeg", "seg": "n7 p2",
-        "window": "69.82-77.17", "wide": True, "jesus": True, "ref": REF,
+        "window": "75.23-83.50", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "GUESTS", "HOUSE"],
         "narration": ("She stopped, looked at her sister just sitting there, and said out "
                       "loud, in front of everyone, exactly what she was feeling."),
@@ -309,13 +337,14 @@ BEATS = [
             "tight with exhaustion rather than rage. All around the low table the "
             "seated men have turned toward her, conversation stopped. Jesus has turned "
             "his head to her too. Mary is looking up. Warm firelight, deep shadows. "
-            "The camera is back far enough to hold the whole room. Every figure has "
+            " The camera is back far enough to hold the whole room. Every figure has "
             "two arms, two hands and one head."
+            " The camera stands behind and beside the seated men and shoots past their backs and turned heads toward Martha; she is in three-quarter, her gaze going down to her sister and out past the lower left of the frame, and not one face is turned toward the lens. "
         ),
     },
     {
         "id": "v2-r016-b14", "out": "s14-dont-you-care.jpeg", "seg": "n8 p1",
-        "window": "77.83-81.87", "wide": False, "jesus": False, "ref": False,
+        "window": "83.50-87.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
         "narration": ("Lord, don't you care that my sister has left me to do all of this "
                       "work by myself?"),
@@ -331,7 +360,7 @@ BEATS = [
     },
     {
         "id": "v2-r016-b15", "out": "s15-tell-her-to-help-me.jpeg", "seg": "n8 p2",
-        "window": "81.87-83.96", "wide": True, "jesus": False, "ref": False,
+        "window": "87.98-91.32", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "GUESTS"],
         "narration": "Tell her to get up and help me.",
         "must_show": "her hand pointing at her sister and the room caught in it — Mary looking up from the floor, the guests frozen and awkward.",
@@ -344,12 +373,13 @@ BEATS = [
             "has become very interested in his cup, a third is glancing sideways at "
             "his neighbour. Nobody knows where to look. Warm lamplight. Every figure "
             "has two arms, two hands and one head."
+            " The camera stands behind Martha's shoulder and shoots past her back and her pointing arm down toward Mary; the travellers are seen in profile and from behind, and not one face is turned toward the lens. "
         ),
     },
     # ---------------------------------------------------- n9 / j1 — her name ----
     {
         "id": "v2-r016-b16", "out": "s16-the-room-went-quiet.jpeg", "seg": "n9 p1",
-        "window": "84.60-85.92", "wide": True, "jesus": True, "ref": REF,
+        "window": "91.32-92.76", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "GUESTS", "HOUSE"],
         "narration": "The whole room went quiet.",
         "must_show": "total stillness in the lamplit room — nobody moving, the fire the only thing alive in the frame.",
@@ -362,11 +392,12 @@ BEATS = [
             "Jesus is turned toward Martha. Deep shadow in the corners, warm uneven "
             "light. The camera holds the whole room. Every figure has two arms, two "
             "hands and one head."
+            " The camera stands well back behind the seated travellers and shoots past their backs across the still room; every person is seen from behind, in profile or in three-quarter, and not one face is turned toward the lens. "
         ),
     },
     {
         "id": "v2-r016-b17", "out": "s17-not-a-scolding.jpeg", "seg": "n9 p2",
-        "window": "85.92-91.98", "wide": False, "jesus": True, "ref": REF,
+        "window": "92.76-100.53", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("And Jesus answered her, not with a scolding, but with her own "
                       "name, said twice, and said gently."),
@@ -384,7 +415,7 @@ BEATS = [
     },
     {
         "id": "v2-r016-b18", "out": "s18-martha-martha.jpeg", "seg": "j1 a",
-        "window": "92.67-97.0", "wide": True, "jesus": True, "ref": REF,
+        "window": "100.53-106.13", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA"],
         "narration": ("Martha, Martha, thou art careful and troubled about many things: "
                       "(Luke 10:41)"),
@@ -398,11 +429,12 @@ BEATS = [
             "widening slightly. She looks disarmed rather than corrected. Warm "
             "lamplight between them. The camera is back far enough to hold both. Every "
             "figure has two arms, two hands and one head."
+            " The camera stands low behind and beside Martha, shooting past her back and hip toward Jesus seated below her; his face is in three-quarter with his eyes up on her and travelling out past the camera's right, and not one face is turned toward the lens. "
         ),
     },
     {
         "id": "v2-r016-b19", "out": "s19-that-good-part.jpeg", "seg": "j1 b",
-        "window": "97.0-101.64", "wide": True, "jesus": True, "ref": REF,
+        "window": "106.13-115.04", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY"],
         "narration": ("But one thing is needful: and Mary hath chosen that good part, "
                       "which shall not be taken away from her. (Luke 10:42)"),
@@ -415,12 +447,13 @@ BEATS = [
             "uncomfortable at being named. Martha's face is working as she takes it "
             "in. Warm firelight, the quiet room behind. The camera holds all three. "
             "Every figure has two arms, two hands and one head."
+            " The camera stands behind Mary's shoulder and shoots past her back toward Jesus and, beyond him, Martha; the faces are in three-quarter and every gaze travels between the people or past the lens, never into it. "
         ),
     },
     # ---------------------------------------------- n10 — what troubled him ----
     {
         "id": "v2-r016-b20", "out": "s20-he-never-scolded-the-serving.jpeg", "seg": "n10 p1",
-        "window": "102.76-107.00", "wide": False, "jesus": False, "ref": False,
+        "window": "115.04-119.53", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
         "narration": ("He did not scold her for serving, and he was never upset that she "
                       "worked so hard."),
@@ -435,7 +468,7 @@ BEATS = [
     },
     {
         "id": "v2-r016-b21", "out": "s21-the-worry-underneath.jpeg", "seg": "n10 p2",
-        "window": "107.00-112.01", "wide": False, "jesus": False, "ref": False,
+        "window": "119.53-125.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
         "narration": ("What troubled him was the worry underneath it, the anxiety that "
                       "was pulling her apart."),
@@ -452,7 +485,7 @@ BEATS = [
     },
     {
         "id": "v2-r016-b22", "out": "s22-not-taken-away.jpeg", "seg": "n10 p3",
-        "window": "112.01-118.60", "wide": True, "jesus": True, "ref": REF,
+        "window": "125.11-132.94", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARY"],
         "narration": ("And the quiet thing Mary had chosen, just being with him, he "
                       "promised no one would ever take away from her."),
@@ -465,12 +498,13 @@ BEATS = [
             "warm lamplight holds the two of them in a small quiet pocket of the room. "
             "Nothing has been taken from her. The camera is back far enough to hold "
             "both. Every figure has two arms, two hands and one head."
+            " The camera stands behind and to the side of the seated travellers and shoots past their backs toward the two of them; Mary is seen from behind in three-quarter, Jesus in profile, and not one face is turned toward the lens. "
         ),
     },
     # ------------------------------------------------- n11/n12 — the point ----
     {
         "id": "v2-r016-b23", "out": "s23-not-picking-one-sister.jpeg", "seg": "n11 p1-p2",
-        "window": "119.25-127.86", "wide": True, "jesus": True, "ref": REF,
+        "window": "132.94-141.66", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY"],
         "narration": ("He was not picking one sister over the other. He was telling a "
                       "woman he loved that she did not have to earn her place near him "
@@ -485,11 +519,12 @@ BEATS = [
             "Neither sister is favoured in the framing; both are held equally in the "
             "warm light. The camera is back far enough for all three. Every figure has "
             "two arms, two hands and one head."
+            " The camera stands behind and beside Martha, shooting past her back and her lowered arm toward Jesus and Mary below her; the faces are three-quarter and every gaze exits the frame past the lens. "
         ),
     },
     {
         "id": "v2-r016-b24", "out": "s24-she-was-allowed-to-stop.jpeg", "seg": "n11 p3",
-        "window": "127.86-133.18", "wide": True, "jesus": True, "ref": REF,
+        "window": "141.66-148.93", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "HOUSE"],
         "narration": ("She was allowed to stop, and sit, and simply be with him, the "
                       "same as her sister."),
@@ -503,11 +538,12 @@ BEATS = [
             "the unfinished work sits on the table in the shadows and nobody is doing "
             "anything about it. Jesus sits above them talking on. Warm firelight. "
             "Every figure has two arms, two hands and one head."
+            " The camera sits low behind Mary's shoulder and shoots past her back toward Martha's three-quarter profile and Jesus beyond them; every gaze travels between the three of them and past the lens, never into it. "
         ),
     },
     {
         "id": "v2-r016-b25", "out": "s25-he-worried-about-the-worry.jpeg", "seg": "n12",
-        "window": "133.84-139.41", "wide": True, "jesus": True, "ref": REF,
+        "window": "148.93-155.79", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "GUESTS", "HOUSE"],
         "narration": ("He never scolded the serving. He worried about the worry. That is "
                       "the kind of God he is."),
@@ -522,6 +558,7 @@ BEATS = [
             "left, and nobody is looking at them. The fire burns low and the blue "
             "night stands in the open doorway. Every figure has two arms, two hands "
             "and one head."
+            " The camera stands behind the seated travellers at the back of the room and shoots past their backs and shoulders toward Jesus; the near figures are seen from behind, and because every face in the room is turned to him, not one is turned toward the lens. "
         ),
     },
 ]
