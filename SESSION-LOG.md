@@ -1,3 +1,23 @@
+## 2026-08-02 — Video 23 (The Workers in the Vineyard, Matt 20): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 17)
+
+Commit: ee61af0a4 (claim) · c58003072 (40 pictures) · this entry (cut + board). Row 23 rebuilt
+end to end at native 2K: **40 pictures against V1's EIGHT**, where one still had held the screen
+for FORTY-ONE SECONDS across six segments and swallowed the whole "no man hath hired us" exchange
+the parable turns on. The sourcing trap was checked and cleared — the `.pre-speaker` sibling is the
+entire pre-SPEAKER-LAW script and lacks six segments whose mp3s exist, so eight files were
+transcribed with faster-whisper and all match the LIVE script exactly; no TEXT_OVERRIDES needed.
+The inherited 30-beat map was discarded (171.6 s timeline vs the real 202.9 s) and every window
+recomputed from the fixed extract_beats and split on each segment's own phrase timings: contiguous
+0.28 s → 196.518 s, zero gaps, 4.91 s/picture, all 22 speech-starts verified inside their windows.
+The parable now runs on its own clock — first light, third hour, hard noon, mid-afternoon, the
+eleventh hour, then evening by one clay lamp — and the frame story is staged on a terraced hillside
+above the vineyard itself so it repeats no other row's setting. Anchor-first casting held the reroll
+rate to **15% (6 of 40)**; the new shared lesson is a SEASON clause in the setting lock (one frame
+came back with bare winter vines while the rest were in full leaf). AUDIO LOCK PASS, 202.967 s /
+20.3 MB — identical to V1 to the millisecond; captions and the closing card confirmed on rendered
+frames. ≈$6.16 spend. **The Firebase deploy also succeeded, which brought ROW 22 live on the board
+as well** — worker 16's HTTP 429 cleared on retry and the prune tool was not needed.
+
 ## 2026-08-02 — Video 22 (The Unmerciful Servant, Matt 18): realistic V2 built and committed, deploy blocked (Machine A / `Dev`, Claude worker 16)
 
 Commit: 530018dd3 (claim) · b8f9bfa76 (pictures) · cd64c74a6 (cut + assembler fix). Row 22

@@ -1288,3 +1288,71 @@ Cameron's Hosting release history or moving the project to the Blaze plan — bo
 call, and the CLI exposes no `hosting:versions:delete`, so the next worker should NOT try to
 brute-force it. Everything else for row 22 is committed and verified; the board will show
 the new cut the moment a deploy succeeds.
+
+---
+
+## Row 23 — The Workers in the Vineyard (Matthew 20) — realistic V2, 2026-08-02
+
+**Spend ≈$6.16** (4 anchors $0.54 + 36 beats $4.82 + 6 rerolls $0.80). Meter after: $106.13.
+**Reroll rate 15% (6 of 40).** 40 pictures against V1's EIGHT; 202.967 s delivered, identical
+to V1 to the millisecond; AUDIO LOCK PASS (SHA256 25ee3f63…). Git blob 35c29eba…
+
+1. **V1's real defect was coverage, and it was the worst yet on the rows I have seen.**
+   `s3-eleventh-hour.jpeg` held the screen from 32.83 s to 73.79 s — FORTY-ONE SECONDS across
+   six separate segments (n5, j6, j7a, n5b, j7b, n6). That single still covered the entire
+   turn of the parable: the owner's question, the labourers' answer "no man hath hired us,"
+   and the retelling of both. `s7-friend-reply.jpeg` held another 34 s across n11/j1/n12.
+
+2. **SOURCING TRAP checked and CLEARED.** The `.pre-speaker` sibling is the whole
+   pre-SPEAKER-LAW script and contains none of j6/j7a/j7b/j12/n5b/n10b, yet all six mp3s
+   exist in `audio/`. Eight segments (n1, n5, n5b, n6, n10, n10b, n14, card) were transcribed
+   with faster-whisper and every one matches the LIVE script word for word — including the two
+   the SPEAKER-LAW rebuild trimmed. No `TEXT_OVERRIDES` needed on this row.
+
+3. **The inherited 30-beat map was DISCARDED, not re-timed** — it ran on a 171.6 s timeline
+   against the real 202.9 s. Every window recomputed from the fixed `extract_beats.py` and
+   split on each segment's own `timing.json` phrase boundaries: contiguous 0.28 s → 196.518 s,
+   zero gaps, 4.91 s/picture, and all 22 segment speech-starts verified to fall inside the
+   window written for them.
+
+4. **THE CLOCK IS THE PLOT on this row**, so the time of day carries the story without a word:
+   first light (blue-grey, gold only on the ridge) → third hour → hard white overhead noon →
+   warm mid-afternoon → the eleventh hour with shadows stretched the length of the square →
+   evening lit by one clay oil lamp. No orange sunset palette anywhere; evening arrives blue.
+
+5. **Anchor-first casting held the rate to 15%** (4 face-showing anchors — landowner, last-hired
+   man, foreman, first-hired man — generated in their OWN run, then wired into REFS).
+
+6. **NEW SHARED LOCK — SEASON.** One frame came back with bare, winter-pruned vine stumps while
+   every other frame in the row was in full leaf and fruit. Fixed by a SEASON clause written into
+   this build's shared `VINEYARD` lock ("every vine stands in FULL GREEN LEAF and carries heavy
+   clusters of dusty dark ripe grapes … no vine anywhere is a bare pruned-back winter stump").
+   **Generalisable lesson for the library: any story that revisits one outdoor location across
+   several hours needs the SEASON pinned in the setting lock, not just the light.** A setting
+   lock that fixes time-of-day but not season will still produce a continuity break.
+
+7. **Reroll causes, each fixed at the level that prevents recurrence:**
+   - b04 came back as a posed line of men squared up to the lens (the camera sat directly behind
+     the landowner, so their converging eyelines read as looking at the viewer). Cured by moving
+     the camera SIDE-ON to the whole scene so every eyeline runs horizontally ACROSS the frame.
+     This is the geometry lesson again: the fix was where the camera stands, not a prohibition.
+   - b14 and b24 lost their locked man when he was mid-frame — the last-hired man drifted into a
+     different, heavier man in a PALE TAN tunic, and the first-hired man lost his headband and
+     face. Both fixed by restating the locked identity POSITIVELY inside that beat's own scene
+     text (the row-22 lesson). A face sheet in REFS still does not hold a character on its own.
+   - b32, the sentence the whole video is built to land ("Is thine eye evil, because I am good?"),
+     came back with the man looking out at the viewer. The row-19/20 lens-gaze cure worked in one
+     pass for the sixth row running: give the gaze a NAMED TARGET INSIDE THE FRAME — the
+     landowner was moved to the left edge, softly out of focus but plainly there.
+   - b36 had the dawn crew walking INTO the camera with faces to the lens. Fixed by moving the
+     camera inside the yard to shoot at their backs as they leave through the gate.
+
+8. **STAGING checked across the library:** rows 2, 8 and 21 stage Luke 15 teaching scenes, row 16
+   a lamplit interior and row 22 a black basalt Capernaum doorstep, so this frame story sits on a
+   TERRACED HILLSIDE ABOVE THE VINEYARD ITSELF — the parable's own landscape behind the man
+   telling it, which no other row uses.
+
+9. **Firebase note for future workers:** worker 16 reported row 22 blocked on an HTTP 429 Hosting
+   storage quota and warned the CLI had no way out. The next deploy simply succeeded, and it
+   published row 22's card as well as row 23's. `media-production/prune_hosting_versions.py` is
+   the sanctioned tool if it recurs — it was not needed here. Retry before treating 429 as a blocker.
