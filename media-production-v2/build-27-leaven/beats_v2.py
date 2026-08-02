@@ -1,375 +1,1011 @@
 #!/usr/bin/env python3
-"""V2 beat map — row 27, build-27-leaven (Matthew 13:33).
+"""V2 beat map — row 27, build-27-leaven (Matthew 13:33), realistic.
 
-COVERAGE: 16 pictures over 91.6 s = 5.7 s/picture (matches the library density).
+COVERAGE: 29 pictures against V1's EIGHT, over 95.22 s of story = 3.28 s/picture.
+V1 reused `s1-takes-leaven.jpeg` across n1 AND s33 and `s1b-the-leaven-itself.jpeg`
+across j1 AND n2, and gave every remaining segment exactly one still — so n7, the
+fourteen-second stretch where Jesus's whole point lands ("Not by force. Not by
+noise. It starts small and hidden…"), sat on ONE picture of baked bread, and n8's
+thirteen seconds sat on one picture of bread on a table.
 
-SCRIPTURE FACTS (Matthew 13:33 KJV):
-  v33   "Another parable spake he unto them; The kingdom of heaven is like
-        unto LEAVEN, which a WOMAN took, and HID in THREE MEASURES of meal,
-        till THE WHOLE was leavened."
-        — the same seaside teaching day as rows 24-26 (Matthew 13:1-2).
-          Those rows staged the boat from the hillside, the waterline,
-          inside the boat, among the crowd, and in profile — so THIS
-          build's single frame beat (b02) frames the distant boat BETWEEN
-          two foreground listeners' shoulders. Sixth composition, no
-          repeat.
-        — the leaven is HID: worked deep in until invisible. The hiding
-          and the waiting are the parable.
-        — three measures (about an ephah) is an ENORMOUS batch — bread for
-          a whole village gathering, kneaded in a large trough, not a bowl.
-        — "till the whole was leavened" — total, quiet, inside-out change.
+⚠️ THE INHERITED beats_v2.py WAS DISCARDED, and this is why (measured, not assumed).
+Its 16 windows ran on a 91.6 s timeline against the real 95.5 s of pictures, and its
+staging premise was wrong for the library: it framed the single frame beat on the
+SEASIDE BOAT of Matthew 13:1-2, calling it "the sixth composition" of that boat —
+but row 24 already owns the moored boat and rows 25 and 26 moved off it precisely so
+the library would stop repeating. A fourth seaside frame in four consecutive rows is
+the repeat, not the cure.
 
-TIME OF DAY: the frame beat is bright morning at the sea. The kitchen arc
-runs a real baker's clock: LATE AFTERNOON for mixing and kneading, warm
-LAMPLIT EVENING for covering the trough, deep NIGHT for the quiet waiting
-beat (correct, not a defect — 'she covers it and waits'), and clean MORNING
-for the risen dough, the baking and the sharing.
+AUDIO IS CLEAN AND LOCKED (checked from the FILES, not from prose):
+  * `matthew-13_leaven.mp4` last changed bytes 2026-07-29T19:28:51; every
+    `audio/*.mp3` last changed 2026-07-28T16:31:05 (git CONTENT dates — mtimes are
+    worthless in this repo). No mp3 is newer than the MP4, so
+    `assert_v1_final_is_current()` has nothing to refuse.
+  * V1 MP4 runs 104.466 s against the summed timeline's 104.408 s — a 0.058 s tail,
+    far inside the 0.75 s tripwire.
+  * SOURCING TRAP CHECKED AND CLEARED. All ELEVEN segments (n1 s33 j1 n2 n3 n4 n5 n6
+    n7 n8 card) were transcribed with faster-whisper and every one matches the LIVE
+    `make_narration.py` word for word (whisper's own misspellings aside: "spay key"
+    for "spake he", "Levin" for "Leaven", "by mourning" for "by morning", "100" for
+    "a hundred"). NO `TEXT_OVERRIDES` are needed on this row and
+    `AUDIO_FROM_V1_SEGMENTS` stays off.
 
-CONTENT-CARE: row 27 has no flag in §3. Nothing sensitive.
+⚠️ WINDOWS COMPUTED FROM SCRATCH 2026-08-02 with the fixed `extract_beats.py` reading
+the V1 build, then split inside each segment on WORD timings measured from that
+segment's own mp3 with faster-whisper `word_timestamps=True`. THE `.timing.json`
+SIDECARS ON THIS ROW ARE USELESS FOR SPLITTING — n1, s33, j1 and n4 each carry only
+ONE phrase spanning the whole segment, so they cannot supply an interior split at
+all. The `.mp3.words.json` files already sitting in the V1 audio folder are ALSO
+wrong and were not used: n1's last word ends at 8.52 s inside a 6.30 s file and j1's
+at 8.92 s inside an 8.07 s file, at different ratios, so they are not a rescalable
+artefact of the real audio. Windows are SEGMENT-BOUNDARY CONTIGUOUS (`seg_start` →
+`seg_end`, never `audio_start` → `spoken_end`), so there is no dead gap at any
+segment join: contiguous 0.280 s → 95.497 s (the card start), zero gaps, zero
+overlaps, shortest window 2.00 s, longest 4.92 s. Every split lands on a clause head
+or a sentence boundary and none falls inside a word.
 
-CHANGING CONDITION (kept OUT of the locks): the dough — dry flour, shaggy
-mass, smooth kneaded mound, covered trough, risen overflow, baked loaves —
-changes beat to beat and is never locked. The woman's flour-dusted forearms
-come and go with the work.
+SCRIPTURE FACTS (Matthew 13:33 KJV — the whole parable is ONE VERSE):
+  "Another parable spake he unto them; The kingdom of heaven is like unto LEAVEN,
+   which a WOMAN took, and HID in THREE MEASURES OF MEAL, till the WHOLE was
+   leavened."
+Three things have to be readable in the pictures or the parable does not land:
+  1. the leaven is TINY and unremarkable — a torn lump of old sour dough;
+  2. three measures of meal is ENORMOUS — roughly three seahs, about twenty-two
+     litres of coarse meal, bread for a hundred people, not a household bowl;
+  3. it is HIDDEN — worked so far down into the mass that no eye can find it, and
+     then nothing visible happens for hours.
+So the size of the leaven is always shown against something whose size a viewer
+already knows (a fingertip, a palm, the rim of the trough), and the meal is always
+shown against the woman's own body and the yard around her.
+
+BAKING FACT THE STORY TURNS ON: a first-century village woman leavened bread with a
+lump of yesterday's soured dough kept in a small covered clay jar. She mixed it into
+the meal in a hollowed olive-wood trough, covered the trough with a heavy woven wool
+cloth, and left it overnight; by morning it had risen, and she baked it in a
+beehive-shaped clay oven built of mud and chopped straw, laying the flattened loaves
+on the hot floor stones. There is no yeast packet, no bread tin, no baking tray, no
+rolling pin and no metal anything.
+
+STAGING ACROSS THE LIBRARY — this row must not repeat a composition already used:
+  rows 2, 8, 21 (Luke 15)      courtyard table / low wall under a fig / house meal
+  row 11 (the storm)           an open boat at NIGHT in a gale
+  row 16 (Mary & Martha)       a lamplit evening interior
+  row 19 (breakfast on shore)  a Galilee beach at FIRST LIGHT with a charcoal fire
+  row 22 (unmerciful servant)  a black basalt Capernaum doorstep and street
+  row 23 (vineyard workers)    a terraced hillside above a vineyard
+  row 24 (the sower)           a moored fishing boat off a daylit shingle beach
+  row 25 (wheat and tares)     an open grain plain and a round threshing floor
+  row 26 (mustard seed)        a small walled kitchen garden
+So this row is staged in TWO places, neither of them used anywhere above:
+  * THE FRAME — Jesus teaching from the long stone bench built along the sunlit
+    outer wall of a village SYNAGOGUE, listeners on the bench and the worn steps,
+    in flat bright mid-afternoon light. Matthew 13:33 opens "ANOTHER parable spake
+    he unto them", so he is mid-sequence with a settled audience, which the bench
+    gives without borrowing row 24's boat for a fourth consecutive row.
+  * THE STORY — a small enclosed BAKING YARD behind a village house: a beehive
+    clay oven, a hollowed olive-wood kneading trough on a low stone stand, goat-hair
+    sacks of coarse meal, a covered clay starter jar in the shaded corner.
+No other row has an oven, a trough or a baking yard in it.
+
+THE CLOCK IS THE PLOT ON THIS ROW AND IT IS ON THE SCREEN. The parable is about
+hidden time passing, so the light does the storytelling and it only ever moves
+FORWARD across the story beats:
+  b02, b05, b07-b14      warm low late-afternoon sun in the yard (she mixes)
+  b15-b17                dusk into FULL NIGHT, ONE small clay lamp (she covers, waits)
+  b18                    night, lamplight only (the working going on out of sight)
+  b19-b20, b23-b25       first grey dawn into low early-morning sun (it has risen)
+  b27-b29                clear bright early-morning sun (she bakes and shares)
+The FRAME beats (b01, b03, b04, b06, b21, b22, b26) are ALL flat bright
+mid-afternoon at the synagogue wall and never change, because the frame is one
+continuous conversation.
+
+TERRAIN IS THE INVARIANT (the rule rows 24/25/26 established). The yard, the oven,
+the trough, the sacks, the starter jar, the wall and the doorway are described
+identically in every frame; only the light and the state of the dough ever change.
+
+CAST NOTE — ANCHOR-FIRST (the rows 20-26 lesson that has held the reroll rate at
+3-15%). This row needs exactly ONE new face, so exactly ONE beat is an anchor and it
+is generated in its OWN run before anything else, composed so the face is large, lit
+and alone in the frame:
+  b13  the WOMAN, alone in her yard, both arms buried in the dough
+`v2_gen_api` builds its REFS cache ONCE per run, so an anchor generated in the same
+run as its dependants does not exist yet when they are built — it MUST be a separate
+invocation. Jesus is held by JESUS-V2-REF as always.
+
+A FACE SHEET ALONE DOES NOT HOLD A CHARACTER WHO IS SMALL IN FRAME (rows 19, 22-26).
+So the WOMAN lock states age, build, hair and dress as explicit invariants, and every
+beat that names her RESTATES her positively in its own scene text.
+
+CREAM: only Jesus. THE TRAP ON THIS ROW IS THAT THE SUBJECT IS FLOUR. Pale meal, pale
+dough and flour dust are lawful and necessary — they are not CLOTH. But a woman
+baking is exactly the figure a model dresses in pale undyed linen with a white apron
+and a white head cloth, which reads as a second unlocked Jesus, so she is pinned
+ENTIRELY to DEEP INDIGO with a DARK MADDER-BROWN head cloth, there is no apron
+anywhere in this build, and the dough cover is DARK BROWN wool. The phrase "undyed
+grey-brown wool" is deliberately NOT used anywhere in this file — on row 21 it
+rendered near-white every single time. Every near foreground is stated POSITIVELY and
+DARK, because the single reroll on row 24 and one on row 25 were both an out-of-focus
+CREAM shoulder filling the near foreground beside Jesus.
 """
 
-# LOCKS: one entry per recurring person and per setting. Setting locks must
-# NEVER name a character. Clothing colours stated POSITIVELY and dark — only
-# Jesus wears cream.
+# LOCKS: one entry per recurring person and per setting. Setting locks NEVER name a
+# character. Clothing colours are stated POSITIVELY and DARK.
 LOCKS = {
-    "BAKER": (
-        "BAKER LOCK: the woman is the same woman in every shot — about "
-        "fifty, sturdy and capable, with strong forearms, a broad kind "
-        "deeply lined face, dark eyes and grey-streaked black hair bound "
-        "back under a DARK RUST-RED head-cloth. She wears a DEEP "
-        "INDIGO-BLUE wool dress with the sleeves rolled, a DARK UMBER apron "
-        "and a woven belt (never cream, never white). Her face is shown "
-        "clearly."
+    # ------------------------------------------------------------- people ----
+    "WOMAN": (
+        "WOMAN LOCK: the woman who took the leaven and hid it in the meal is the "
+        "SAME woman in every shot, and these are invariants that hold even when she "
+        "is small, distant, in shadow or out of focus: a village woman of about "
+        "thirty-five, strongly built through the shoulders and forearms from daily "
+        "work, with warm sun-browned olive skin, a broad open face with high round "
+        "cheeks, a short straight nose, a small dark mole below the outer corner of "
+        "her left eye, and steady dark brown eyes set under level brows. Her hair is "
+        "DARK BROWN, long and wound into a low coil at the nape, and it is always "
+        "covered by a DARK MADDER-BROWN woven head cloth wrapped over the crown and "
+        "tucked behind one shoulder, with a few loose strands escaping at the temple. "
+        "She wears a DEEP INDIGO coarse wool tunic to the ankle with straight "
+        "unshaped sleeves pushed up above the elbow, and a DARK MADDER-RED "
+        "folded-cloth sash knotted at the waist, with plain dark leather sandals. "
+        "Her hands and forearms are strong and reddened, and flour dust on her dark "
+        "sleeves and cheek is correct and expected. She is NEVER dressed in cream, "
+        "off-white, white or pale linen and never in any light-coloured garment; she "
+        "NEVER wears an apron, a pinafore, a smock or a white head covering of any "
+        "kind; and she is never young, never a girl, never elderly."
     ),
-    "KITCHEN": (
-        "KITCHEN LOCK: the courtyard kitchen of a village house — a low "
-        "stone room open on one side to a small courtyard, a big scarred "
-        "wooden kneading trough on a stout table, a domed clay bread oven "
-        "in the courtyard corner, shelves of clay jars, hanging bunches of "
-        "herbs, sacks of flour against the wall and a small deep-set window. "
-        "The same trough, oven, shelves and window appear in every kitchen "
-        "beat."
+    "LISTENERS": (
+        "LISTENERS LOCK: the people gathered along the synagogue wall to hear him "
+        "are ordinary Galilean villagers of mixed age — men, women and a few "
+        "children — each with a distinct face and none repeated. The men wear DEEP "
+        "INDIGO, DARK UMBER and DARK OLIVE-DRAB wool; the women wear RUSSET-RED and "
+        "dark madder-brown with head cloths of the same dark cloth; children are in "
+        "plain dark brown. NOT ONE of them wears cream, off-white, white or pale "
+        "linen or any light-coloured garment anywhere in the frame, including blurred "
+        "figures at the edges, because a pale garment on anyone but Jesus reads as a "
+        "second, unlocked Jesus and fails the picture."
     ),
-    "SHORE-PAIR": (
-        "SHORE FRAME LOCK: the pebble beach of the Sea of Galilee seen from "
-        "just behind two standing listeners — dressed in SATURATED DEEP "
-        "earth colours: dark chocolate brown and dusty indigo wool (never "
-        "cream, never white; only Jesus wears cream) — with the bright "
-        "green-blue water beyond them and a small weathered wooden fishing "
-        "boat floating a few boat-lengths off the beach. Bright morning "
-        "light."
+    "NEIGHBOURS": (
+        "NEIGHBOURS LOCK: the people who come for the bread are villagers of this "
+        "same small place — working men, women with children on the hip, two barefoot "
+        "children and one bent old man — each with a distinct face and none repeated, "
+        "all of them at believable human scale beside the woman. They wear DEEP "
+        "INDIGO, DARK UMBER, RUSSET-RED and dark olive-drab coarse wool with dark "
+        "head cloths. NOT ONE of them wears cream, off-white, white or pale linen or "
+        "any light-coloured garment anywhere in the frame, including blurred figures "
+        "at the edges."
+    ),
+    # ------------------------------------------------------------ settings ----
+    "SYNAGOGUE": (
+        "SYNAGOGUE-WALL LOCK — this place is IDENTICAL in every frame it appears in "
+        "and nothing about it ever changes: the sunlit OUTER wall of a small village "
+        "synagogue of dressed honey-coloured limestone blocks, weathered and "
+        "pale-golden, with a LONG LOW STONE BENCH built out from the foot of the wall "
+        "and running its whole length, worn smooth and hollowed by use. Three broad "
+        "shallow stone steps lead up to a plain square doorway at one end, its lintel "
+        "a single carved stone with a simple rosette. One old olive tree stands out "
+        "from the wall with a dry beaten-earth square in front of it. Beyond, the "
+        "flat mud roofs of the village step away and low tawny bare hills close the "
+        "horizon. The light in every frame here is FLAT BRIGHT MID-AFTERNOON SUN. "
+        "Every building surface is mud brick, mud plaster or dressed limestone with a "
+        "FLAT roof; there is no dome, no tower, no minaret, no bell tower, no arch of "
+        "dressed voussoirs, no tiled or pitched roof, no column of any classical "
+        "order, no glass, no shutter, no pipe, no wire and no cable anywhere on any "
+        "building or against the sky."
+    ),
+    "YARD": (
+        "BAKING-YARD LOCK — this place is IDENTICAL in every frame it appears in and "
+        "only the light and the state of the dough ever change: ONE small enclosed "
+        "baking yard behind a village house, roughly six paces by eight, floored with "
+        "hard-swept beaten earth and enclosed by MUD-BRICK WALLS of tan sun-dried "
+        "brick a little above head height, plastered rough and rounded at the top by "
+        "weather. Against the far wall stands a BEEHIVE-SHAPED CLAY OVEN about "
+        "waist-and-a-half high, built up by hand from mud and chopped straw, "
+        "grey-brown, cracked and smoke-blackened around its single low arched mouth, "
+        "with a flat clay apron in front of it and a heap of brushwood and dried dung "
+        "cakes stacked beside it. In the middle of the yard stands the KNEADING "
+        "TROUGH: one long block of olive wood hollowed out by adze into a deep basin "
+        "about an arm-span long, set on a low stone stand at hip height, its rim worn "
+        "smooth and pale with use. Two bulging sacks of coarse dark goat-hair cloth "
+        "lean against the trough stand and a large fired-clay storage jar stands "
+        "beside them. In the shaded near corner a small round covered fired-clay "
+        "starter jar the size of two fists sits on a flat stone. A flat stone ledge "
+        "runs along the wall beside the oven. One plain doorway of hewn planks leads "
+        "into the house. There is no second oven, no table, no chair, no shelf, no "
+        "animal and no window; nothing in the yard is metal, painted or manufactured; "
+        "and the walls, the oven, the trough, the sacks, the jar, the ledge and the "
+        "doorway never move and never change shape between frames."
+    ),
+    "BAKING": (
+        "PERIOD-BAKING LOCK: everything to do with this bread is made the way a "
+        "first-century village makes it. THE FLOUR is coarse stone-ground barley and "
+        "wheat meal, warm buff-grey and gritty, never bleached snow-white powder. THE "
+        "LEAVEN is a torn lump of old sour dough, grey-tan, slack and faintly "
+        "bubbled, kept in the small covered clay starter jar. THE DOUGH is mixed and "
+        "kneaded BY BARE HANDS AND FOREARMS in the hollowed olive-wood trough and "
+        "nowhere else. THE COVER laid over the trough is one heavy DARK BROWN woven "
+        "wool cloth. WATER comes from a fired-clay jar poured by hand. THE LOAVES are "
+        "hand-flattened rounds a hand-span across, laid on the hot floor stones "
+        "inside the clay oven and lifted out with a flat wooden paddle onto a "
+        "hand-woven reed mat on the stone ledge. THERE IS NO metal bowl, pot, tin, "
+        "tray, rack, pan, whisk, spoon, sieve, tongs or scale; no rolling pin, no "
+        "pastry board, no proving basket, no dough scraper; no cotton towel, tea "
+        "towel, muslin, cheesecloth or white cloth of any kind; no packet, sachet, "
+        "paper, label, printing, writing or numerals on anything; no cast iron, no "
+        "enamel, no glass, no plastic; and no oven with a door, a hinge, a grate, a "
+        "chimney or a flue."
+    ),
+    "STARTER": (
+        "LEAVEN LOCK: the leaven itself is a single torn lump of old sour dough about "
+        "the size of a walnut — grey-tan, dull and slightly shiny where it was torn, "
+        "slack enough to sag, its cut face open with small irregular bubbles. It is "
+        "matte and ordinary and completely unremarkable to look at. Its smallness is "
+        "only readable against something whose size a viewer already knows, so "
+        "wherever the leaven is shown it is shown against a human fingertip, the "
+        "lines and callouses of a palm, or the broad worn rim of the kneading trough "
+        "in the same sharp focus. It is never white, never a powder, never a granule, "
+        "never a packet, never foaming and never glowing."
     ),
 }
 
+OUTPUT_ASSET_DIR = "assets"
+
+# The V1 MP4 last changed bytes AFTER every V1 mp3 and runs 0.058 s past the summed
+# timeline, so the finished V1 audio stream is current and the normal packet-copy
+# AUDIO LOCK applies. Nothing is re-voiced; V1 is never written to.
+AUDIO_FROM_V1_SEGMENTS = False
+
 REF = True
 
+REFS = {
+    "WOMAN": "assets/s13-works-it-down-deep.jpeg",
+}
+
 BEATS = [
+    # ============ FRAME — the synagogue wall, flat bright mid-afternoon =========
     {
-        "id": "v2-r027-b01", "out": "s01-jesus-said-the-kingdom-of.jpeg", "seg": "n1",
-        "window": "0.28-6.55", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
-        "narration": (
-            "Jesus said the kingdom of God is like something a woman does every "
-            "week, in her own kitchen, with her own hands."
-        ),
-        "must_show": "the ordinary holy scene the parable lives in — the woman at her kneading trough in warm afternoon light, sleeves rolled, hands in the work.",
-        "must_not_show": "no halo, glare or rim-light; utterly everyday — nothing staged or grand about the kitchen.",
+        "id": "v2-r027-b01", "out": "s01-like-something-a-woman-does.jpeg",
+        "seg": "n1", "window": "0.280-3.580", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["SYNAGOGUE", "LISTENERS"],
+        "narration": "Jesus said the kingdom of God is like something a woman does every week,",
+        "must_show": "Jesus seated on the long low stone bench built along the sunlit outer wall of a village synagogue in flat bright mid-afternoon light, beginning to speak, with village listeners settled along the bench and on the worn stone steps around him.",
+        "must_not_show": "no halo, no glow, no rim-light and no light coming off Jesus; no night, no lamp, no sunset or sunrise colouring, no interior; no oven, no kneading trough, no dough and no baking yard anywhere in this frame; no cream or off-white cloth on anybody but Jesus anywhere in the frame including the blurred edges; nobody looking into the lens.",
         "scene": (
-            "Warm late-afternoon light slants into the low courtyard "
-            "kitchen: the sturdy woman stands at the big scarred kneading "
-            "trough with her sleeves rolled to the elbow and both hands "
-            "deep in the work, flour dusting her dark apron and forearms, "
-            "her lined face easy with the familiarity of a task done every "
-            "week of her life. Clay jars, hanging herbs and flour sacks "
-            "stand about her, the domed oven waiting in the courtyard "
-            "corner. Every figure has two arms, two hands and one head."
+            "One photograph, 35mm lens, fast prime, flat bright mid-afternoon "
+            "sunlight from high on the left, short hard shadows on the beaten earth "
+            "square, fine film grain. THE CAMERA IS PLACED SIDE-ON TO THE WHOLE GROUP, "
+            "OUT ON THE EARTH SQUARE AND WELL TO ONE SIDE, SHOOTING ALONG THE FACE OF "
+            "THE WALL AT RIGHT ANGLES TO EVERY EYELINE IN THE PICTURE. Jesus sits at "
+            "the left of the frame and the listeners are ranged along the bench to the "
+            "right of him, so the whole conversation runs HORIZONTALLY ACROSS THE FRAME "
+            "from left to right: Jesus's gaze travels rightward into the seated group, "
+            "and every listener is seen in profile or three-quarter from behind, each "
+            "one's gaze travelling leftward toward Jesus and out through the LEFT edge "
+            "of the picture. NOT ONE PERSON'S FACE IS SQUARED UP TO THE CAMERA AND NOT "
+            "ONE PAIR OF PUPILS IS CENTRED ON THE LENS. Two seated backs fill the near "
+            "bottom corners, soft and out of focus, a DEEP INDIGO shouldered back and "
+            "dark indigo head cloth at the near left and a DARK UMBER back and dark "
+            "brown head cloth at the near right, with nothing pale, grey, beige, taupe "
+            "or off-white on either of them. Sharp in the middle distance Jesus sits on "
+            "the worn stone bench with his back to the honey-coloured limestone wall, "
+            "seen from his left side, leaning forward with his forearms on his knees "
+            "and one hand open as he begins to speak. Around him villagers sit along "
+            "the bench and on the three broad stone steps in dark indigo, russet and "
+            "umber wool, all of them turned toward him in profile. The old olive tree "
+            "stands out from the wall at the right and the flat mud roofs of the "
+            "village step away beyond it under low tawny hills."
         ),
     },
     {
-        "id": "v2-r027-b02", "out": "s02-another-parable-spake-he-unto.jpeg", "seg": "s33",
-        "window": "7.20-9.57", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["SHORE-PAIR"],
+        "id": "v2-r027-b02", "out": "s02-in-her-own-kitchen-with-her-own-hands.jpeg",
+        "seg": "n1", "window": "3.580-7.296",
+        "locks": ["WOMAN", "YARD", "BAKING"],
+        "narration": "in her own kitchen, with her own hands.",
+        "must_show": "a close photograph of the woman's own bare hands and forearms working coarse buff-grey meal in the hollowed olive-wood trough of her baking yard, warm low late-afternoon sun across them, her face turned down to the work.",
+        "must_not_show": "no Jesus in this frame; no synagogue, no stone bench, no steps; no other person anywhere in the frame; no night, no lamp; no metal bowl, tin, tray, spoon or rolling pin; no white cloth, towel or apron anywhere; no cream or pale garment on her; her pupils never centred on the lens.",
+        "scene": (
+            "One photograph, 50mm lens, shallow depth of field, warm low "
+            "late-afternoon sun coming over the yard wall from the right and raking "
+            "across her forearms and the meal so every grain and every knuckle throws "
+            "its own shadow, fine film grain. THE CAMERA IS SET AT TROUGH HEIGHT AND "
+            "WELL TO HER LEFT, LOOKING ACROSS AND SLIGHTLY DOWN INTO THE TROUGH. HER "
+            "GAZE HAS A NAMED TARGET INSIDE THE PICTURE: her own hands in the meal at "
+            "the centre of the frame, so her head is bowed and turned down and her "
+            "eyeline leaves the picture through the bottom edge, nowhere near the lens; "
+            "her face is partly cut by the top of the frame and she is the only person "
+            "in the picture. Filling the frame are two strong reddened sun-browned "
+            "forearms with the DEEP INDIGO sleeves pushed up above the elbow, both "
+            "hands sunk to the wrist in a mass of coarse buff-grey stone-ground meal "
+            "heaped in the deep basin of the hollowed olive-wood trough, meal dust "
+            "hanging in the low sunlight above it and dusting her dark sleeves. The "
+            "near foreground is the smooth pale worn rim of the olive-wood trough "
+            "itself across the bottom edge. Behind her the rough tan mud-brick yard "
+            "wall and the grey-brown clay oven fall completely out of focus."
+        ),
+    },
+    {
+        "id": "v2-r027-b03", "out": "s03-another-parable-spake-he.jpeg",
+        "seg": "s33", "window": "7.296-11.129", "jesus": True, "ref": REF,
+        "locks": ["SYNAGOGUE", "LISTENERS"],
         "narration": "Another parable spake he unto them;",
-        "must_show": "SCRIPTURE-EXACT: the teaching frame — the distant boat with the seated Jesus framed in the gap BETWEEN two foreground listeners' shoulders at the water's edge.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; he is seated in the boat; nobody stands on the water.",
+        "must_show": "a closer photograph of Jesus on the stone bench turning to a new thought, drawing breath to begin again, one hand lifting from his knee, with a seated listener close in front of him.",
+        "must_not_show": "no halo, no glow, no rim-light and no light coming off Jesus; no night, no lamp, no sunset colouring; no oven, no trough, no dough and no baking yard in this frame; no cream or off-white cloth on anybody but Jesus anywhere in the frame including the blurred edges; his pupils never centred on the lens.",
         "scene": (
-            "At the water's edge two listeners stand close in the near "
-            "foreground, seen from behind at shoulder height, soft and "
-            "dark at the frame's edges — and in the bright gap between "
-            "their shoulders, sharp and small across the green-blue water, "
-            "the little wooden boat rides with Jesus seated in it, hand "
-            "lifted mid-word, the one bright point both silhouetted "
-            "shoulders lean toward. Morning sun on the water. Every figure "
-            "has two arms, two hands and one head."
+            "One photograph, 85mm lens, shallow depth of field, flat bright "
+            "mid-afternoon sunlight from high on the left, fine film grain. THE CAMERA "
+            "SHOOTS PAST THE SHOULDER OF A SEATED LISTENER, whose ENTIRE back, "
+            "shoulder, sleeve and head cloth are DEEP INDIGO — a single dark navy mass "
+            "filling the near left of the frame out of focus, with NOTHING pale, grey, "
+            "beige, taupe, cream or off-white anywhere on him — SO THAT JESUS'S GAZE "
+            "HAS A NAMED TARGET INSIDE THE PICTURE: he is looking directly at that "
+            "seated man, his eyeline running horizontally across the frame to the left "
+            "and never toward the lens. Sharp in the middle, Jesus is framed from the "
+            "waist up, seated on the worn stone bench with his back against the "
+            "honey-coloured limestone wall and his body turned three-quarters toward "
+            "that listener, his chin lifting a little as a new thought begins, his "
+            "right hand rising off his knee, his lips just parting. The dressed "
+            "limestone blocks and the plain square doorway with its carved stone lintel "
+            "fall away behind him into soft blur under a clear bright sky."
+        ),
+    },
+    # ==================== KJV — Matthew 13:33, Jesus speaking ==================
+    {
+        "id": "v2-r027-b04", "out": "s04-the-kingdom-is-like-unto-leaven.jpeg",
+        "seg": "j1", "window": "11.129-13.950", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["SYNAGOGUE", "LISTENERS"],
+        "narration": "The kingdom of heaven is like unto leaven,",
+        "must_show": "a wider photograph along the synagogue wall as Jesus speaks the parable, one hand turned palm-up in front of him, the listeners along the bench and steps leaning in to him.",
+        "must_not_show": "no halo, no glow, no rim-light and no light coming off Jesus; no night, no lamp, no sunset colouring; no oven, no trough, no dough and no baking yard in this frame; no cream or off-white cloth on anybody but Jesus anywhere in the frame including the blurred edges; not one face turned toward the lens.",
+        "scene": (
+            "One photograph, 35mm lens, flat bright mid-afternoon sunlight from high "
+            "on the left, fine film grain. THE CAMERA STANDS BEHIND THE FAR END OF THE "
+            "BENCH AND SHOOTS ALONG THE WALL PAST THE SEATED LISTENERS toward Jesus: "
+            "their BACKS and dark head cloths fill the near right of the frame, soft "
+            "and out of focus, a DEEP INDIGO back nearest the camera and a DARK UMBER "
+            "back behind it, and NOT ONE FACE IS TURNED TOWARD THE LENS. Beyond them, "
+            "sharp in the middle distance, Jesus sits on the worn stone bench against "
+            "the honey-coloured limestone wall, seen in three-quarter, his right hand "
+            "lifted and turned palm-up in the explaining gesture, his lips parted "
+            "mid-word, his gaze running down the line of listeners to his right and "
+            "well away from the camera. More villagers sit on the three broad stone "
+            "steps beyond him in dark indigo, russet and umber wool. The old olive "
+            "tree, the plain square doorway with its carved lintel, the flat mud "
+            "village roofs and the low tawny hills close the view."
         ),
     },
     {
-        "id": "v2-r027-b03", "out": "s03-the-kingdom-of-heaven-is.jpeg", "seg": "j1",
-        "window": "10.73-18.77", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
-        "narration": (
-            "The kingdom of heaven is like unto leaven, which a woman took, and "
-            "hid in three measures of meal, till the whole was leavened."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the taking — the woman lifting the small lump of leaven from its clay keeping-jar, the great trough of flour waiting behind it.",
-        "must_not_show": "no halo, glare or rim-light; the leaven is one small dull lump — modest in her strong hand against the huge waiting batch.",
+        "id": "v2-r027-b05", "out": "s05-which-a-woman-took-and-hid.jpeg",
+        "seg": "j1", "window": "13.950-17.510",
+        "locks": ["WOMAN", "YARD", "BAKING", "STARTER"],
+        "narration": "which a woman took, and hid in three measures of meal,",
+        "must_show": "the woman in her yard in warm late-afternoon light pressing the small grey-tan lump of leaven down into the great heap of coarse meal in the olive-wood trough, burying it out of sight with her fingers.",
+        "must_not_show": "no Jesus in this frame; no synagogue, no stone bench, no steps; no other person anywhere in the frame; no night, no lamp; no metal bowl, tin, tray, spoon or rolling pin; no white cloth, towel or apron anywhere; no cream or pale garment on her; her pupils never centred on the lens.",
         "scene": (
-            "At the kitchen table the woman lifts a small pale lump of old "
-            "dough from a squat clay keeping-jar with two fingers and a "
-            "thumb, holding it up briefly to the warm afternoon light — "
-            "and behind her hand, filling the rest of the frame, the big "
-            "wooden trough stands heaped with pale flour, absurdly large "
-            "against the little lump. Her eyes are on the leaven with a "
-            "baker's plain confidence. Every figure has two arms, two "
-            "hands and one head."
+            "One photograph, 50mm lens, shallow depth of field, warm low "
+            "late-afternoon sun from the right laying long light across the yard, fine "
+            "film grain. THE CAMERA IS SET AT TROUGH HEIGHT AND WELL TO HER RIGHT, "
+            "SHOOTING HER IN THREE-QUARTER FROM THE SIDE. HER GAZE HAS A NAMED TARGET "
+            "INSIDE THE PICTURE: the lump of leaven under her own fingers at the lower "
+            "left of the frame, so her head is bowed and turned down and to her left "
+            "and her eyeline leaves the picture through the bottom left corner, far "
+            "below and to the side of the lens. She stands at the hollowed olive-wood "
+            "trough framed from the hips up — a strongly built village woman of about "
+            "thirty-five with warm sun-browned olive skin, a broad open face, a DARK "
+            "MADDER-BROWN head cloth wrapped over the crown, a DEEP INDIGO wool tunic "
+            "with the sleeves pushed above the elbow and a dark madder-red sash — both "
+            "hands down in the coarse buff-grey meal, the fingers of her right hand "
+            "pressing a single walnut-sized lump of grey-tan sour dough down out of "
+            "sight into the mass. She is the only person in the picture. The near "
+            "foreground is the smooth pale worn rim of the trough across the bottom "
+            "edge. Behind her the grey-brown clay oven and the rough tan mud-brick "
+            "yard wall fall out of focus."
         ),
     },
     {
-        "id": "v2-r027-b04", "out": "s04-leaven-is-just-a-little.jpeg", "seg": "n2",
-        "window": "19.82-25.10", "wide": False, "jesus": False, "ref": False,
-        "locks": ["BAKER"],
-        "narration": (
-            "Leaven is just a little piece of old, living dough, what we would "
-            "call a sourdough starter."
-        ),
-        "must_show": "a close shot of the leaven itself in her open palm — a small dull cream-grey lump, pocked with tiny bubbles, unmistakably alive but utterly plain.",
-        "must_not_show": "no halo, glare or rim-light; nothing beautiful about it — plain, slightly sticky, ordinary.",
+        "id": "v2-r027-b06", "out": "s06-till-the-whole-was-leavened.jpeg",
+        "seg": "j1", "window": "17.510-20.631", "jesus": True, "ref": REF,
+        "locks": ["SYNAGOGUE", "LISTENERS"],
+        "narration": "till the whole was leavened.",
+        "must_show": "a close photograph of Jesus finishing the sentence on the stone bench, his hand closing quietly back onto his knee, his eyes on a listener in front of him, the parable complete.",
+        "must_not_show": "no halo, no glow, no rim-light and no light coming off Jesus; no night, no lamp, no sunset colouring; no oven, no trough, no dough and no baking yard in this frame; no cream or off-white cloth on anybody but Jesus anywhere in the frame including the blurred edges; his pupils never centred on the lens.",
         "scene": (
-            "A close shot of the woman's strong flour-dusted palm holding "
-            "the small lump of old dough up in the window light: a dull "
-            "grey-tan knob no bigger than a walnut, its surface pocked "
-            "with tiny holes and one slow bubble, faintly glistening and "
-            "sticky at its base — plain as a stone, and alive. Every "
-            "figure has two arms, two hands and one head."
+            "One photograph, 85mm lens, shallow depth of field, flat bright "
+            "mid-afternoon sunlight from high on the left modelling one side of his "
+            "face while the shaded side stays open and readable, fine film grain. THE "
+            "CAMERA SITS LEVEL AND WELL TO HIS RIGHT SIDE, SO HIS EYELINE RUNS "
+            "HORIZONTALLY ACROSS THE FRAME AND OUT THROUGH THE RIGHT EDGE toward a "
+            "NAMED TARGET INSIDE THE PICTURE — the shoulder and DARK UMBER head cloth "
+            "of a listener seated on the steps at the right of the frame, soft and out "
+            "of focus, with nothing pale, grey, beige or off-white on him — and his "
+            "pupils are never centred on the lens. Jesus is framed from the chest up, "
+            "seated on the worn stone bench with his back to the honey-coloured "
+            "limestone wall, his lifted hand now lowered and closing quietly on his "
+            "knee, his mouth just closing on the last word, his expression settled and "
+            "warm. The near foreground between the camera and him is nothing but the "
+            "empty sunlit stone of the bench, with nobody standing, sitting or passing "
+            "between the camera and him. The dressed limestone blocks behind him fall "
+            "away into soft blur."
+        ),
+    },
+    # ==================== WHAT LEAVEN IS — the yard, late afternoon ============
+    {
+        "id": "v2-r027-b07", "out": "s07-a-little-piece-of-old-living-dough.jpeg",
+        "seg": "n2", "window": "20.631-24.290",
+        "locks": ["YARD", "BAKING", "STARTER"],
+        "narration": "Leaven is just a little piece of old, living dough,",
+        "must_show": "an extreme close photograph of one small torn lump of grey-tan sour dough lying alone on the pale worn wooden rim of the kneading trough, its torn face open with small irregular bubbles, unmistakably alive and unmistakably ordinary.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no night, no lamp; no cream, white or pale cloth at any edge; no packet, sachet, granule, powder or writing of any kind; the lump never glows and is never white.",
+        "scene": (
+            "One photograph, 100mm macro lens, very shallow depth of field, warm low "
+            "late-afternoon sun raking from the right so the torn surface throws its "
+            "own small shadows and the wood grain stands up, fine film grain. THE "
+            "CAMERA LOOKS ALONG THE RIM OF THE TROUGH FROM A HAND'S WIDTH AWAY and "
+            "there is no person in the picture at all. Filling the centre of the frame, "
+            "sharp and alone, is ONE torn lump of old sour dough about the size of a "
+            "walnut — grey-tan, matte, slack enough to sag against the wood, its torn "
+            "face open with small irregular bubbles and a faint shine where it was "
+            "pulled apart. It sits on the smooth pale worn olive-wood rim of the "
+            "kneading trough, whose grain and old knife scars run away out of focus to "
+            "both sides. The near foreground is the out-of-focus pale wood of the rim "
+            "itself along the bottom edge. Behind it the dark hollow of the trough and "
+            "the rough tan mud-brick wall of the yard fall completely out of focus."
         ),
     },
     {
-        "id": "v2-r027-b05", "out": "s05-small-plain.jpeg", "seg": "n2",
-        "window": "25.10-27.27", "wide": False, "jesus": False, "ref": False,
-        "locks": ["KITCHEN"],
-        "narration": "Small. Plain.",
-        "must_show": "the lump set alone on the wide wooden table edge — a speck of dull dough on a great expanse of scarred wood.",
-        "must_not_show": "no halo, glare or rim-light; emptiness around it — the frame is mostly bare table on purpose.",
+        "id": "v2-r027-b08", "out": "s08-a-sourdough-starter.jpeg",
+        "seg": "n2", "window": "24.290-26.610",
+        "locks": ["WOMAN", "YARD", "BAKING", "STARTER"],
+        "narration": "what we would call a sourdough starter.",
+        "must_show": "the woman crouched in the shaded corner of her yard lifting the lid off the small round covered clay starter jar on its flat stone, looking down into it.",
+        "must_not_show": "no Jesus in this frame; no synagogue, no stone bench, no steps; no other person anywhere in the frame; no night, no lamp; no metal, glass or modern container of any kind; no white cloth, towel or apron anywhere; no cream or pale garment on her; her pupils never centred on the lens.",
         "scene": (
-            "The small dull lump of leaven sits alone near the edge of the "
-            "wide scarred wooden table, the worn grain of the empty wood "
-            "stretching away around it in the soft window light, a knife "
-            "mark and an old flour ring the only company in the frame. "
-            "Small, plain, easy to miss. Every figure has two arms, two "
-            "hands and one head."
+            "One photograph, 50mm lens, shallow depth of field, warm low "
+            "late-afternoon sun striking the yard wall above her and dropping soft "
+            "reflected light into the shaded corner where she crouches, fine film "
+            "grain. THE CAMERA IS DOWN AT KNEE HEIGHT AND WELL TO HER LEFT, SHOOTING "
+            "HER IN THREE-QUARTER FROM THE SIDE. HER GAZE HAS A NAMED TARGET INSIDE THE "
+            "PICTURE: the open mouth of the little jar under her own hands at the lower "
+            "right of the frame, so her head is bowed and turned down and her eyeline "
+            "leaves the picture through the bottom right corner, nowhere near the lens. "
+            "She crouches on her heels — the strongly built village woman of about "
+            "thirty-five with warm sun-browned olive skin, a broad open face, a DARK "
+            "MADDER-BROWN head cloth and a DEEP INDIGO wool tunic with the sleeves "
+            "pushed above the elbow — one hand lifting the small fired-clay lid clear "
+            "and the other steadying the round covered starter jar the size of two "
+            "fists on its flat stone, the slack grey-tan dough inside just catching the "
+            "light. She is the only person in the picture. The near foreground is the "
+            "swept beaten earth of the yard floor across the bottom edge. Behind her "
+            "the rough tan mud-brick wall runs out of focus."
         ),
     },
     {
-        "id": "v2-r027-b06", "out": "s06-and-three-measures-of-meal.jpeg", "seg": "n3",
-        "window": "29.29-36.07", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
-        "narration": (
-            "And three measures of meal is not a small bowl. It is an enormous "
-            "amount of flour, enough bread to feed a hundred people."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the scale — the woman pouring the third great sackful of flour into the brimming trough, flour dust in the air, the batch plainly enormous.",
-        "must_not_show": "no halo, glare or rim-light; the trough must read as HUGE — arm-span long, heaped high; never a mixing bowl.",
+        "id": "v2-r027-b09", "out": "s09-small-plain-easy-to-overlook.jpeg",
+        "seg": "n2", "window": "26.610-30.538", "wide": True,
+        "locks": ["YARD", "BAKING", "STARTER"],
+        "narration": "Small. Plain. Easy to overlook.",
+        "must_show": "a wide photograph of the whole baking yard in late-afternoon light with the great trough, the oven and the sacks of meal filling it, and the tiny lump of leaven sitting almost invisibly on the corner of the trough rim — the smallest thing in the picture by far.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no night, no lamp; no cream, white or pale cloth anywhere; no metal, tin, tray or modern object of any kind; the lump is never large and never glowing.",
         "scene": (
-            "The woman up-ends a heavy flour sack over the great wooden "
-            "trough with both arms, the third of three — two emptied sacks "
-            "already slumped against the table leg — and the pale flour "
-            "mounds up over the trough's full arm-span length, a fine haze "
-            "of flour dust hanging in the slanted afternoon light around "
-            "her shoulders. The batch is plainly enough for a village. "
-            "Every figure has two arms, two hands and one head."
+            "One photograph, 35mm lens, warm low late-afternoon sun from the right "
+            "throwing the long shadow of the trough stand across the swept earth, fine "
+            "film grain. THE CAMERA STANDS BACK BY THE HOUSE DOORWAY AND SHOOTS ACROSS "
+            "THE YARD from chest height, seeing the trough from the side; there is no "
+            "person in the picture at all and no face anywhere, so nothing is squared "
+            "up to the lens. The whole small yard is in view: the long hollowed "
+            "olive-wood kneading trough on its low stone stand in the middle heaped "
+            "with coarse buff-grey meal, the beehive-shaped grey-brown clay oven "
+            "cracked and smoke-blackened against the far wall with its heap of "
+            "brushwood and dung cakes, the two bulging dark goat-hair sacks and the big "
+            "fired-clay storage jar leaning at the trough stand, all of them large and "
+            "solid. Sharp on the near corner of the trough rim, tiny against everything "
+            "else, lies the single walnut-sized grey-tan lump of sour dough, so small "
+            "in the frame that a viewer has to look for it. The near foreground is the "
+            "swept beaten earth of the yard floor with nothing pale on it. The rough "
+            "tan mud-brick walls close the yard on every side under a clear bright sky."
+        ),
+    },
+    # ==================== THREE MEASURES — the scale of it ====================
+    {
+        "id": "v2-r027-b10", "out": "s10-not-a-small-bowl.jpeg",
+        "seg": "n3", "window": "30.538-33.440",
+        "locks": ["YARD", "BAKING"],
+        "narration": "And three measures of meal is not a small bowl.",
+        "must_show": "a close photograph of one small everyday fired-clay eating bowl set down on the rim of the enormous olive-wood kneading trough, dwarfed by the trough and by the mass of meal heaped in it, so the difference in size is the whole point of the picture.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no night, no lamp; no cream, white or pale cloth anywhere; no metal, tin, tray, scale or measuring vessel with markings; no writing, numeral or label on anything.",
+        "scene": (
+            "One photograph, 50mm lens, shallow depth of field, warm low "
+            "late-afternoon sun from the right, fine film grain. THE CAMERA IS SET AT "
+            "TROUGH HEIGHT LOOKING ALONG THE LENGTH OF THE TROUGH and there is no "
+            "person in the picture at all. Sharp in the near middle, ONE small "
+            "everyday fired-clay eating bowl, plain red-brown and no wider than a "
+            "hand-span, stands on the smooth pale worn rim of the hollowed olive-wood "
+            "kneading trough, looking like a toy against it. The trough itself runs "
+            "away from the bowl down the frame, an arm-span long and deep as a basin, "
+            "brimming with a great heaped mass of coarse buff-grey stone-ground meal "
+            "that fills it corner to corner. The near foreground is the out-of-focus "
+            "pale wood of the trough rim across the bottom edge. Behind, the grey-brown "
+            "clay oven and the rough tan mud-brick yard wall fall completely out of "
+            "focus."
         ),
     },
     {
-        "id": "v2-r027-b07", "out": "s07-easy-to-overlook.jpeg", "seg": "n2",
-        "window": "27.27-28.69", "wide": False, "jesus": False, "ref": False,
-        "locks": ["KITCHEN"],
-        "narration": "Easy to overlook.",
-        "must_show": "the lump nearly lost among the kitchen's clutter — jars, herbs, a cloth — the eye having to hunt for it.",
-        "must_not_show": "no halo, glare or rim-light; genuinely easy to miss in the frame — but findable.",
+        "id": "v2-r027-b11", "out": "s11-enough-bread-for-a-hundred.jpeg",
+        "seg": "n3", "window": "33.440-38.356", "wide": True,
+        "locks": ["WOMAN", "YARD", "BAKING"],
+        "narration": "It is an enormous amount of flour, enough bread to feed a hundred people.",
+        "must_show": "a wide photograph of the woman standing at the huge kneading trough with both arms spread along its rim, the mass of coarse meal heaped higher than the trough sides and two more bulging sacks of meal spilling open at her feet — an amount of flour plainly far beyond one household's meal.",
+        "must_not_show": "no Jesus in this frame; no synagogue, no stone bench, no steps; no other person anywhere in the frame; no night, no lamp; no metal, tin, tray, scale or modern object of any kind; no white cloth, towel or apron anywhere; no cream or pale garment on her; not one face turned toward the lens.",
         "scene": (
-            "A still shot along the kitchen shelf in soft light: clay jars "
-            "shoulder to shoulder, a folded cloth, a hanging bunch of dry "
-            "herbs, a wooden scoop — and tucked at the shelf's edge among "
-            "them, small and dull and almost invisible until the eye finds "
-            "it, the little lump of leaven on its scrap of cloth. Every "
-            "figure has two arms, two hands and one head."
+            "One photograph, 28mm lens, warm low late-afternoon sun from the right "
+            "throwing long shadows across the swept earth, fine film grain. THE CAMERA "
+            "STANDS BEHIND HER AND SHOOTS PAST HER ACROSS THE TROUGH: her BACK and one "
+            "shoulder fill the near left of the frame, seen from behind and "
+            "three-quarters, HER FACE TURNED AWAY FROM THE CAMERA down toward the meal, "
+            "and NOT ONE FACE IS TURNED TOWARD THE LENS. She is the strongly built "
+            "village woman of about thirty-five in the DEEP INDIGO wool tunic with the "
+            "sleeves pushed above the elbow, the dark madder-red sash and the DARK "
+            "MADDER-BROWN head cloth wrapped over her crown, standing at the hollowed "
+            "olive-wood trough with both arms spread wide along its rim, the span of "
+            "her own arms showing how long it is. The trough is heaped with a great "
+            "mounded mass of coarse buff-grey stone-ground meal standing proud above "
+            "its sides, meal dust drifting in the low sun above it. Two more bulging "
+            "dark goat-hair sacks lean open at her feet with meal spilling from their "
+            "mouths, and the big fired-clay storage jar stands beside them. The near "
+            "foreground is the swept beaten earth of the yard floor, with nothing pale "
+            "on it. Behind her the grey-brown clay oven, the heap of brushwood and the "
+            "rough tan mud-brick walls close the yard."
+        ),
+    },
+    # ==================== HIDING IT — the yard, late afternoon =================
+    {
+        "id": "v2-r027-b12", "out": "s12-that-tiny-bit-of-leaven.jpeg",
+        "seg": "n4", "window": "38.356-40.680",
+        "locks": ["BAKING", "STARTER"],
+        "narration": "She takes that tiny bit of leaven",
+        "must_show": "an extreme close photograph of a woman's sun-browned thumb and forefinger pinching off a walnut-sized piece of grey-tan sour dough from the larger mass in the small clay jar, the piece dwarfed by her own fingertips.",
+        "must_not_show": "no face and no second person anywhere in the frame; no night, no lamp; no cream, white or pale cloth at any edge; no metal, glass or modern container; the dough is never white, never a powder and never glowing.",
+        "scene": (
+            "One photograph, 100mm macro lens, very shallow depth of field, warm low "
+            "late-afternoon sun raking from the right so the strands of pulled dough "
+            "catch the light, fine film grain. THE CAMERA IS DOWN LEVEL WITH THE HAND A "
+            "HAND'S WIDTH AWAY AND NO FACE IS IN THE PICTURE AT ALL. Filling the frame, "
+            "sharp and alone, are the strong reddened sun-browned thumb and forefinger "
+            "of a working woman's right hand, with the DEEP INDIGO wool of a sleeve "
+            "pushed up out of focus behind the wrist. Between the very tips of the "
+            "thumb and forefinger hangs a single walnut-sized piece of grey-tan sour "
+            "dough, just pulled clear of the slack mass below it in the small round "
+            "fired-clay jar, one thin strand still stretching between the piece and the "
+            "mass. The near foreground is the out-of-focus red-brown clay rim of the "
+            "jar across the bottom edge. Everything behind the hand falls completely "
+            "out of focus."
         ),
     },
     {
-        "id": "v2-r027-b08", "out": "s08-she-takes-that-tiny-bit.jpeg", "seg": "n4",
-        "window": "36.72-44.66", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
-        "narration": (
-            "She takes that tiny bit of leaven and works it down deep into the "
-            "whole mass, hiding it, until you cannot even see where it went."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the hiding — both her fists buried to the wrist in the great shaggy mass of dough, working the leaven down in; the lump itself already gone from sight.",
-        "must_not_show": "no halo, glare or rim-light; the leaven is INVISIBLE in this frame — swallowed by the batch; her effort is real, shoulders in it.",
+        # ANCHOR — the WOMAN's face sheet. Generated in its OWN run.
+        "id": "v2-r027-b13", "out": "s13-works-it-down-deep.jpeg",
+        "seg": "n4", "window": "40.680-44.040",
+        "locks": ["WOMAN", "YARD", "BAKING"],
+        "narration": "and works it down deep into the whole mass, hiding it,",
+        "must_show": "the woman alone in her yard in warm late-afternoon light with both arms buried past the elbow in the great mass of dough in the olive-wood trough, leaning her weight down into the work, her face large and fully lit.",
+        "must_not_show": "no Jesus in this frame; no synagogue, no stone bench, no steps; no other person anywhere in the frame; no night, no lamp; no metal bowl, tin, tray, spoon or rolling pin; no white cloth, towel or apron anywhere; no cream or pale garment on her; her pupils never centred on the lens.",
         "scene": (
-            "The woman leans her whole weight over the great trough, both "
-            "fists buried past the wrist in the shaggy pale mass of dough, "
-            "shoulders rolling into the work, flour to her elbows and a "
-            "strand of grey hair loose across her brow — and nowhere in "
-            "the folded, turning mass is there any sign of the little lump "
-            "she has already worked down deep. Warm late light through the "
-            "window. Every figure has two arms, two hands and one head."
+            "One photograph, 85mm lens, shallow depth of field, warm low "
+            "late-afternoon sun from the right laying warm light straight across her "
+            "face and her working forearms, fine film grain. THE CAMERA IS SET AT CHEST "
+            "HEIGHT AND WELL TO HER RIGHT, SHOOTING HER FACE IN THREE-QUARTER FROM THE "
+            "SIDE. HER GAZE HAS A NAMED TARGET INSIDE THE PICTURE: the dough under her "
+            "own buried forearms at the bottom of the frame, so her head is bowed and "
+            "turned down and to her left and her eyeline leaves the picture through the "
+            "bottom left corner, far below and to the side of the lens. She fills the "
+            "frame from the hips up — a strongly built village woman of about "
+            "thirty-five, warm sun-browned olive skin, a broad open face with high "
+            "round cheeks and a small dark mole below the outer corner of her left eye, "
+            "dark brown hair wound low at the nape under a DARK MADDER-BROWN woven head "
+            "cloth with a few loose strands at the temple, a DEEP INDIGO coarse wool "
+            "tunic with the sleeves pushed up above the elbow and a dark madder-red "
+            "sash. Both her arms are sunk past the elbow into the heavy pale mass of "
+            "dough in the hollowed olive-wood trough, her shoulders dropped and her "
+            "weight leaning down into it, flour dust on her dark sleeve and one cheek, "
+            "a loose strand of hair stuck to her damp forehead, her mouth set with "
+            "effort. She is the only person in the picture. The near foreground is the "
+            "smooth pale worn rim of the trough across the bottom edge. Behind her the "
+            "grey-brown clay oven and the rough tan mud-brick yard wall fall completely "
+            "out of focus."
         ),
     },
     {
-        "id": "v2-r027-b09", "out": "s09-then-she-covers-it-and.jpeg", "seg": "n5",
-        "window": "45.25-51.79", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
-        "narration": (
-            "Then she covers it and waits. Nothing looks like it is happening. "
-            "No noise, no show, no spectacle."
-        ),
-        "must_show": "the covering — a heavy cloth spread over the trough by lamplight, the woman's day ending, the kitchen going quiet.",
-        "must_not_show": "no halo, glare or rim-light; evening lamplight is correct here — the day is done; the covered trough is just a still shape.",
+        "id": "v2-r027-b14", "out": "s14-cannot-see-where-it-went.jpeg",
+        "seg": "n4", "window": "44.040-47.324",
+        "locks": ["YARD", "BAKING"],
+        "narration": "until you cannot even see where it went.",
+        "must_show": "a close photograph looking straight down at the smooth unbroken surface of the finished dough filling the olive-wood trough, uniform buff-grey from edge to edge with no seam, no lump and no trace of anything hidden inside it.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no night, no lamp; no cream, white or pale cloth anywhere; no metal, tin, tray or modern object; no visible lump, seam or marked spot on the dough — the surface is uniform.",
         "scene": (
-            "Evening has come down on the kitchen and one clay lamp burns "
-            "on the shelf: the woman spreads a heavy dark woollen cloth "
-            "over the full length of the trough, smoothing it down at the "
-            "corners with both hands, her work finished — the covered "
-            "trough now just a long quiet shape on the table in the "
-            "lamplight, promising nothing. The courtyard beyond the open "
-            "side stands dusk-blue. Every figure has two arms, two hands "
-            "and one head."
+            "One photograph, 50mm lens, shallow depth of field, warm low "
+            "late-afternoon sun from the right raking almost flat across the dough so "
+            "the faint hollows left by knuckles read as shallow ripples, fine film "
+            "grain. THE CAMERA LOOKS STRAIGHT DOWN FROM ABOVE INTO THE TROUGH and there "
+            "is no person in the picture at all. The frame is filled almost entirely by "
+            "one smooth unbroken mass of pale buff-grey dough, soft and slightly "
+            "slumped, filling the deep basin of the hollowed olive-wood trough from "
+            "side to side, its surface uniform and continuous with no seam, no crack, "
+            "no darker patch and nothing showing where anything was pressed into it. "
+            "Around the edges of the frame the smooth pale worn olive-wood rim of the "
+            "trough and a scattering of loose coarse meal on the wood. The near "
+            "foreground is that same wooden rim, out of focus along the bottom edge."
+        ),
+    },
+    # ==================== COVERED AND WAITING — dusk into night ================
+    {
+        "id": "v2-r027-b15", "out": "s15-then-she-covers-it-and-waits.jpeg",
+        "seg": "n5", "window": "47.324-52.000",
+        "locks": ["WOMAN", "YARD", "BAKING"],
+        "narration": "Then she covers it and waits. Nothing looks like it is happening.",
+        "must_show": "the woman drawing a heavy dark brown woven wool cloth across the whole trough in the last dim light of the day, her face quiet, the work finished and nothing left to do.",
+        "must_not_show": "no Jesus in this frame; no synagogue, no stone bench, no steps; no other person anywhere in the frame; no white, cream, pale or light-coloured cloth of any kind — the cover is DARK BROWN wool; no metal, tin or modern object; her pupils never centred on the lens.",
+        "scene": (
+            "One photograph, 50mm lens, shallow depth of field, the last low sun of "
+            "the day already gone behind the yard wall so the light is dim, level and "
+            "shadowless, a deep blue evening sky above the wall, fine film grain. THE "
+            "CAMERA IS SET AT TROUGH HEIGHT AND WELL TO HER LEFT, SHOOTING HER IN "
+            "THREE-QUARTER FROM THE SIDE. HER GAZE HAS A NAMED TARGET INSIDE THE "
+            "PICTURE: the far edge of the cloth she is drawing across the trough at the "
+            "right of the frame, so her head is turned away to her own right and her "
+            "eyeline runs horizontally out through the RIGHT edge of the picture, never "
+            "toward the lens. She stands at the trough framed from the hips up — the "
+            "strongly built village woman of about thirty-five with warm sun-browned "
+            "olive skin, a broad open face, a DARK MADDER-BROWN head cloth and a DEEP "
+            "INDIGO wool tunic with the sleeves pushed above the elbow — both hands "
+            "lifting and drawing one heavy DARK BROWN woven wool cloth out across the "
+            "mass of dough, half the trough already covered and half still showing pale "
+            "beneath. She is the only person in the picture. The near foreground is the "
+            "smooth pale worn rim of the trough across the bottom edge. Behind her the "
+            "grey-brown clay oven, unlit and cold, and the rough tan mud-brick yard "
+            "wall fall out of focus."
         ),
     },
     {
-        "id": "v2-r027-b10", "out": "s10-just-quiet-hidden-time-but.jpeg", "seg": "n5 + n6",
-        "window": "51.79-58.32", "wide": True, "jesus": False, "ref": False,
-        "locks": ["KITCHEN"],
-        "narration": (
-            "Just quiet, hidden time. But inside, the leaven is spreading "
-            "through every part of the dough."
-        ),
-        "must_show": "deep night — the empty kitchen, the covered trough alone in moonlight from the small window, nobody there; the working is all invisible.",
-        "must_not_show": "no halo, glare or rim-light; NO person in frame; night lighting is correct — stillness is the whole picture.",
+        "id": "v2-r027-b16", "out": "s16-no-noise-no-show-no-spectacle.jpeg",
+        "seg": "n5", "window": "52.000-54.720",
+        "locks": ["YARD", "BAKING"],
+        "narration": "No noise, no show, no spectacle.",
+        "must_show": "the covered trough alone in the empty dark yard at night, lit only by one small bare wick burning in a shallow clay oil lamp set on the trough stand — absolutely nothing happening.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no daylight, no sunset or sunrise colouring; no glass lamp, chimney, globe, lantern, kerosene lamp, candle or candlestick of any kind; no white, cream or pale cloth anywhere; no fire in the oven.",
         "scene": (
-            "Deep night in the empty kitchen: cool moonlight falls through "
-            "the small deep-set window and lies in one pale square across "
-            "the covered trough on its table, the dark cloth utterly "
-            "still, the lamp out, the jars and hanging herbs gone to "
-            "shadow along the walls. Nothing moves and no one is there — "
-            "and under the cloth, unseen, everything is changing. Every "
-            "figure has two arms, two hands and one head."
+            "One photograph, 35mm lens, shallow depth of field, FULL NIGHT: the only "
+            "light in the picture is ONE small bare wick burning in a shallow "
+            "red-brown fired-clay oil lamp standing on the low stone trough stand, its "
+            "small warm flame throwing a short pool of light up the side of the trough "
+            "and dying away into darkness a pace beyond, with cool starlight barely "
+            "picking out the top of the yard wall against a deep blue-black sky. THE "
+            "CAMERA STANDS BACK BY THE HOUSE DOORWAY AND SHOOTS ACROSS THE YARD from "
+            "chest height, seeing the trough from the side, and there is no person in "
+            "the picture at all. In the middle of the yard the hollowed olive-wood "
+            "trough stands on its low stone stand with the heavy DARK BROWN woven wool "
+            "cloth lying flat and still across it, not moving, nothing showing. The "
+            "beehive-shaped clay oven is a dark cold shape against the far wall with no "
+            "fire in it. The near foreground is the swept beaten earth of the yard "
+            "floor in shadow, with nothing pale on it. The yard is completely empty and "
+            "completely still."
         ),
     },
     {
-        "id": "v2-r027-b11", "out": "s11-and-by-morning-the-whole.jpeg", "seg": "n6",
-        "window": "58.32-64.95", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
-        "narration": (
-            "And by morning the whole heavy mass has risen, alive, changed all "
-            "the way through."
-        ),
-        "must_show": "SCRIPTURE-EXACT: the reveal — morning light, the cloth drawn back, the dough risen high over the trough's rim, and the woman's glad unsurprised face over it.",
-        "must_not_show": "no halo, glare or rim-light; the dough visibly OVERFILLS the trough — domed above the rim, pressing at the cloth's edges.",
+        "id": "v2-r027-b17", "out": "s17-just-quiet-hidden-time.jpeg",
+        "seg": "n5", "window": "54.720-57.754",
+        "locks": ["YARD"],
+        "narration": "Just quiet, hidden time.",
+        "must_show": "a quiet photograph looking up out of the dark yard at the night sky over the mud-brick wall, the rooftops of the sleeping village black against the stars, deep in the night.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no daylight, no sunset or sunrise colouring; no glass lamp, lantern, candle, kerosene lamp or any electric light; no cream or pale cloth anywhere; no dome, tower, minaret, bell tower, tiled roof, wire, pipe or cable against the sky.",
         "scene": (
-            "Clean morning light fills the kitchen as the woman draws the "
-            "dark cloth back off the trough with both hands — and the "
-            "dough beneath has risen into a great smooth living dome, "
-            "swelled high above the wooden rim along its whole length, "
-            "soft and full where last night lay a heavy flat mass. Her "
-            "lined face above it is glad and entirely unsurprised — she "
-            "has seen this every week of her life. Every figure has two "
-            "arms, two hands and one head."
+            "One photograph, 35mm lens, long exposure, FULL NIGHT lit only by "
+            "starlight and a low moon out of frame, so everything is cool blue-grey "
+            "and nearly monochrome, fine film grain. THE CAMERA STANDS IN THE DARK YARD "
+            "AND LOOKS UP AND OUT OVER THE WALL and there is no person in the picture "
+            "at all. The rounded top of the rough tan mud-brick yard wall runs across "
+            "the lower third of the frame as a dark silhouette, and beyond it the flat "
+            "mud roofs and low parapets of the sleeping village step away in black "
+            "against a clear night sky thick with stars. One faint warm point of "
+            "lamplight shows in a distant doorway far off among the roofs. The near "
+            "foreground is the dark out-of-focus edge of the yard wall along the bottom "
+            "of the frame. Nothing moves anywhere in the picture."
+        ),
+    },
+    # ==================== INSIDE, AND RISEN — night into dawn ==================
+    {
+        "id": "v2-r027-b18", "out": "s18-spreading-through-every-part.jpeg",
+        "seg": "n6", "window": "57.754-61.610",
+        "locks": ["BAKING"],
+        "narration": "But inside, the leaven is spreading through every part of the dough.",
+        "must_show": "an extreme close photograph of the inside of the dough by lamplight, the mass torn open to show the whole body of it shot through with countless small bubbles and stretching threads, the working going on out of sight.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no daylight, no sunset or sunrise colouring; no glass lamp, chimney, lantern, candle or kerosene lamp; no white, cream or pale cloth anywhere; no writing, numeral or measurement mark.",
+        "scene": (
+            "One photograph, 100mm macro lens, very shallow depth of field, NIGHT, lit "
+            "only by the small warm flame of a bare wick in a shallow clay oil lamp "
+            "just out of frame to the left, so the light is low, warm and directional "
+            "and falls away fast into darkness, fine film grain. THE CAMERA IS A "
+            "HAND'S WIDTH FROM THE TORN FACE OF THE DOUGH and there is no person in the "
+            "picture at all. The whole frame is the opened body of the dough itself: a "
+            "soft pale buff-grey mass pulled apart to show its inside honeycombed all "
+            "the way through with countless small irregular bubbles, fine threads of "
+            "dough stretching across the gap between the two halves and catching the "
+            "lamplight, the surfaces damp and faintly shining. The near foreground is "
+            "an out-of-focus lobe of the same dough across the bottom edge. Everything "
+            "beyond the dough is darkness."
         ),
     },
     {
-        "id": "v2-r027-b12", "out": "s12-that-jesus-said-is-how.jpeg", "seg": "n7",
-        "window": "65.62-68.97", "wide": False, "jesus": False, "ref": False,
-        "locks": ["BAKER"],
+        "id": "v2-r027-b19", "out": "s19-by-morning-it-had-risen.jpeg",
+        "seg": "n6", "window": "61.610-64.630",
+        "locks": ["YARD", "BAKING"],
+        "narration": "And by morning the whole heavy mass has risen,",
+        "must_show": "the covered trough in the first grey light of dawn with the heavy dark brown cloth now domed and pushed up from below by the risen mass beneath it, its edges lifted clear of the trough rim.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no night and no lamp; no midday sun and no sunset colouring; no white, cream or pale cloth — the cover is DARK BROWN wool; no metal, tin or modern object.",
+        "scene": (
+            "One photograph, 50mm lens, shallow depth of field, FIRST GREY LIGHT OF "
+            "DAWN — cool, soft, shadowless light with a faint warm band low in the sky "
+            "behind the yard wall and no sun yet risen, fine film grain. THE CAMERA IS "
+            "SET LOW AT TROUGH HEIGHT LOOKING ALONG THE LENGTH OF THE TROUGH and there "
+            "is no person in the picture at all. The heavy DARK BROWN woven wool cloth "
+            "lies over the hollowed olive-wood trough but is no longer flat: it is "
+            "swelled up into a smooth dome from beneath, its folds pulled taut over the "
+            "curve and its lower edges lifted clear of the pale worn rim on both sides, "
+            "with a hand's width of pale risen dough bulging out into the gap. The near "
+            "foreground is the smooth pale worn rim of the trough across the bottom "
+            "edge. Behind, the grey-brown clay oven and the rough tan mud-brick yard "
+            "wall stand soft and out of focus against a pale dawn sky."
+        ),
+    },
+    {
+        "id": "v2-r027-b20", "out": "s20-alive-changed-all-the-way-through.jpeg",
+        "seg": "n6", "window": "64.630-68.498",
+        "locks": ["YARD", "BAKING"],
+        "narration": "alive, changed all the way through.",
+        "must_show": "the dark cloth pulled back and the risen dough itself standing high and swollen far above the rim of the olive-wood trough in low early-morning sun, its surface taut and domed and spilling over one side.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no night and no lamp; no sunset colouring; no white, cream or pale cloth anywhere; no metal, tin, tray or modern object; the dough is never flat and never sunken.",
+        "scene": (
+            "One photograph, 50mm lens, shallow depth of field, clear LOW "
+            "EARLY-MORNING SUN from the left just clearing the yard wall and raking "
+            "warm light across the top of the dough so its taut curve and fine surface "
+            "blisters read, fine film grain. THE CAMERA IS SET AT TROUGH HEIGHT AND "
+            "SLIGHTLY TO ONE SIDE, LOOKING ACROSS THE TROUGH, and there is no person in "
+            "the picture at all. The heavy DARK BROWN woven wool cloth is folded back "
+            "and lying in a dark heap at the far end of the trough. The dough now "
+            "stands high above the smooth pale worn rim of the hollowed olive-wood "
+            "trough — a great swollen dome of soft pale buff-grey, taut, faintly shiny, "
+            "webbed with tiny surface bubbles, slumping over the near side of the rim "
+            "in a slow heavy fold. The near foreground is that same wooden rim, out of "
+            "focus along the bottom edge. Behind it the grey-brown clay oven and the "
+            "rough tan mud-brick yard wall fall out of focus under a clear bright "
+            "morning sky."
+        ),
+    },
+    # ==================== JESUS'S POINT — back at the synagogue wall ===========
+    {
+        "id": "v2-r027-b21", "out": "s21-that-is-how-the-kingdom-works.jpeg",
+        "seg": "n7", "window": "68.498-72.440", "jesus": True, "ref": REF,
+        "locks": ["SYNAGOGUE", "LISTENERS"],
         "narration": "That, Jesus said, is how the kingdom of God works.",
-        "must_show": "a close shot of the risen dough with the woman's hand pressed gently into it — the springing life of it under her fingers.",
-        "must_not_show": "no halo, glare or rim-light; the finger-press must read — soft dough yielding and springing, alive.",
+        "must_show": "a close photograph of Jesus on the stone bench looking steadily at the listeners in front of him, one hand open on his knee, the point made and left with them.",
+        "must_not_show": "no halo, no glow, no rim-light and no light coming off Jesus; no night, no lamp, no sunset colouring; no oven, no trough, no dough and no baking yard in this frame; no cream or off-white cloth on anybody but Jesus anywhere in the frame including the blurred edges; his pupils never centred on the lens.",
         "scene": (
-            "A close shot in morning light: the woman's strong hand pressed "
-            "gently into the top of the risen dome of dough, her fingers "
-            "sunk to the first knuckle in its soft swell, the surface "
-            "around them tight and full of held air — the quiet, living "
-            "spring of the whole batch answering her touch. Every figure "
-            "has two arms, two hands and one head."
+            "One photograph, 85mm lens, shallow depth of field, flat bright "
+            "mid-afternoon sunlight from high on the left modelling one side of his "
+            "face, fine film grain. THE CAMERA SHOOTS OVER THE SHOULDER OF A SEATED "
+            "LISTENER, whose ENTIRE back, shoulder, sleeve and head cloth are DARK "
+            "UMBER — a single dark brown mass filling the near right of the frame out "
+            "of focus, with NOTHING pale, grey, beige, taupe, cream or off-white "
+            "anywhere on him — SO THAT JESUS'S GAZE HAS A NAMED TARGET INSIDE THE "
+            "PICTURE: he is looking directly at that seated man, his eyeline running "
+            "horizontally across the frame to the right and never toward the lens. "
+            "Sharp in the middle, Jesus is framed from the chest up, seated on the worn "
+            "stone bench with his back to the honey-coloured limestone wall, one hand "
+            "resting open on his knee, his head slightly inclined toward the man, his "
+            "mouth closed and his expression quiet, warm and certain. Behind him the "
+            "dressed limestone blocks and the plain square doorway with its carved "
+            "lintel fall away into soft blur under a bright sky."
         ),
     },
     {
-        "id": "v2-r027-b13", "out": "s13-not-by-force-not-by.jpeg", "seg": "n7",
-        "window": "68.97-71.62", "wide": False, "jesus": False, "ref": False,
-        "locks": ["KITCHEN"],
+        "id": "v2-r027-b22", "out": "s22-not-by-force-not-by-noise.jpeg",
+        "seg": "n7", "window": "72.440-75.360",
+        "locks": ["SYNAGOGUE", "LISTENERS"],
         "narration": "Not by force. Not by noise.",
-        "must_show": "the gentleness of the means — the little clay keeping-jar of leaven back on its shelf in soft light, lid ajar, its work done without a sound.",
-        "must_not_show": "no halo, glare or rim-light; a still, quiet frame — no motion anywhere.",
+        "must_show": "a close photograph of two listeners sitting side by side on the worn stone steps, completely still and absorbed, their hands quiet in their laps, nobody speaking.",
+        "must_not_show": "no Jesus in this frame; no halo, glow or rim-light anywhere; no night, no lamp, no sunset colouring; no oven, no trough, no dough and no baking yard; no cream, off-white or pale cloth on either of them or anywhere at the edges of the frame; neither of their pupils centred on the lens.",
         "scene": (
-            "A quiet still shot of the squat clay keeping-jar back in its "
-            "place on the shelf in soft morning light, its lid set ajar, a "
-            "faint dusting of flour on the wood around it, the hanging "
-            "herbs motionless above — the small plain thing that changed "
-            "the whole batch, sitting silent as if nothing had happened. "
-            "Every figure has two arms, two hands and one head."
+            "One photograph, 85mm lens, very shallow depth of field, flat bright "
+            "mid-afternoon sunlight from high on the left, fine film grain. THE CAMERA "
+            "IS LEVEL AND WELL TO THEIR RIGHT SIDE, SHOOTING BOTH OF THEM IN PROFILE SO "
+            "THEIR EYELINES RUN HORIZONTALLY ACROSS THE FRAME AND OUT THROUGH THE LEFT "
+            "EDGE toward a NAMED TARGET INSIDE THE PICTURE — the far end of the stone "
+            "bench at the left of the frame, seen only as a soft out-of-focus shape — "
+            "and neither pair of pupils is anywhere near the lens. Two Galilean "
+            "villagers sit side by side on the middle of the three broad worn stone "
+            "steps: nearer the camera a working man of about fifty with a deeply lined "
+            "sun-browned face, a grey-streaked dark beard and a DEEP INDIGO wool mantle "
+            "over a DARK UMBER tunic, his big hands loose and still on his knees; "
+            "beyond him a woman of about thirty in a RUSSET-RED mantle with a dark "
+            "madder-brown head cloth, her hands folded in her lap. Both are completely "
+            "still, lips closed, listening. The near foreground is the sunlit worn "
+            "stone of the lowest step across the bottom edge, with nothing pale lying "
+            "on it. Behind them the honey-coloured limestone wall of the synagogue "
+            "falls out of focus."
         ),
     },
     {
-        "id": "v2-r027-b14", "out": "s14-it-starts-small-and-hidden.jpeg", "seg": "n7",
-        "window": "71.62-78.57", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
-        "narration": (
-            "It starts small and hidden, and it quietly changes everything it "
-            "touches, from the inside out."
-        ),
-        "must_show": "the change made whole — the woman shaping the risen dough into many round loaves down the table, the one batch becoming bread for many.",
-        "must_not_show": "no halo, glare or rim-light; MANY loaves forming — the multiplication visible down the table's length.",
+        "id": "v2-r027-b23", "out": "s23-it-starts-small-and-hidden.jpeg",
+        "seg": "n7", "window": "75.360-77.360",
+        "locks": ["BAKING", "STARTER"],
+        "narration": "It starts small and hidden,",
+        "must_show": "an extreme close photograph looking straight down at one open sun-browned working palm in low early-morning light with a single small lump of grey-tan sour dough sitting alone in the creases of it, nearly lost among the lines and callouses.",
+        "must_not_show": "no face and no second person anywhere in the frame; no night, no lamp; no sunset colouring; no cream, white or pale cloth at any edge; no packet, granule, powder, writing or measurement mark; the lump never glows and is never white.",
         "scene": (
-            "Down the full length of the floured table the woman works in "
-            "the bright morning light, shaping the risen dough into round "
-            "loaves — a long row of them already formed and resting under "
-            "her quick hands, eight, ten, more, with the great trough "
-            "standing nearly emptied behind her. Flour hangs faint in the "
-            "sunlit air of the doorway. Every figure has two arms, two "
-            "hands and one head."
+            "One photograph, 100mm macro lens, very shallow depth of field, clear low "
+            "EARLY-MORNING sun raking from the right so every crease, callous and speck "
+            "of flour on the skin throws its own tiny shadow, fine film grain. THE "
+            "CAMERA LOOKS STRAIGHT DOWN FROM ABOVE ONTO THE OPEN PALM and no face is in "
+            "the picture at all. One broad sun-browned working hand fills the frame, "
+            "palm up and flat, the fingers slightly curled, the skin cracked at the "
+            "base of the fingers and dusted with flour, the DEEP INDIGO wool of a "
+            "sleeve pushed up out of focus at the wrist. In the hollow of the palm, "
+            "sharp and alone, sits ONE walnut-sized lump of grey-tan sour dough, matte "
+            "and slack and quite small against the deep lines of the hand. The near "
+            "foreground is the sunlit skin of the hand itself. Everything behind and "
+            "below the hand falls completely out of focus."
         ),
     },
     {
-        "id": "v2-r027-b15", "out": "s15-that-is-how-good-he.jpeg", "seg": "n8",
-        "window": "79.20-82.59", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
+        "id": "v2-r027-b24", "out": "s24-changes-everything-it-touches.jpeg",
+        "seg": "n7", "window": "77.360-79.680",
+        "locks": ["YARD", "BAKING"],
+        "narration": "and it quietly changes everything it touches,",
+        "must_show": "a close photograph of the woman's hands lifting a great fold of the risen dough clear of the trough in low early-morning sun, the whole mass soft, alive and airy where it was heavy and dead before.",
+        "must_not_show": "no face and no second person anywhere in the frame; no Jesus, no synagogue, no stone bench; no night, no lamp; no sunset colouring; no metal bowl, tin, tray or rolling pin; no white cloth, towel or apron anywhere; no cream or pale garment at any edge.",
+        "scene": (
+            "One photograph, 85mm lens, shallow depth of field, clear low "
+            "EARLY-MORNING sun from the left raking across the dough so its stretched "
+            "webbing and fine bubbles read against the light, fine film grain. THE "
+            "CAMERA IS SET AT TROUGH HEIGHT A PACE AWAY AND NO FACE IS IN THE PICTURE "
+            "AT ALL. Two strong reddened sun-browned forearms with DEEP INDIGO sleeves "
+            "pushed above the elbow come in from the right of the frame, both hands "
+            "lifting a great soft fold of the risen dough up and clear of the smooth "
+            "pale worn rim of the hollowed olive-wood trough, the lifted mass "
+            "stretching and sagging under its own weight, its underside webbed with "
+            "open bubbles and fine strands. The near foreground is the out-of-focus "
+            "pale wood of the trough rim across the bottom edge. Behind, the grey-brown "
+            "clay oven and the rough tan mud-brick yard wall fall completely out of "
+            "focus."
+        ),
+    },
+    {
+        "id": "v2-r027-b25", "out": "s25-from-the-inside-out.jpeg",
+        "seg": "n7", "window": "79.680-82.480",
+        "locks": ["BAKING"],
+        "narration": "from the inside out.",
+        "must_show": "an extreme close photograph of a warm baked loaf torn open in two hands, showing an open airy honeycombed crumb inside under a rough browned crust, steam still coming off it.",
+        "must_not_show": "no face and no second person anywhere in the frame; no night, no lamp; no sunset colouring; no metal tray, rack, tin, knife or board; no white cloth, towel, napkin or paper anywhere; no cream or pale garment at any edge; no writing or label of any kind.",
+        "scene": (
+            "One photograph, 100mm macro lens, very shallow depth of field, clear "
+            "bright EARLY-MORNING sun from the left raking across the torn face so "
+            "every open bubble in the crumb throws its own shadow and the rising steam "
+            "catches the light, fine film grain. THE CAMERA IS A HAND'S WIDTH FROM THE "
+            "TORN LOAF AND NO FACE IS IN THE PICTURE AT ALL. Filling the frame, sharp "
+            "and alone, is one round hand-flattened barley loaf a hand-span across, "
+            "just torn in two, held one half in each strong sun-browned hand with DEEP "
+            "INDIGO sleeves pushed up out of focus at the wrists. The crust is rough, "
+            "blistered and unevenly browned from the hot oven stones; the crumb inside "
+            "is open, airy and honeycombed all the way through with irregular holes, "
+            "pale gold and soft, with fine threads still bridging the tear and a thin "
+            "curl of steam rising off it. The near foreground is the out-of-focus curve "
+            "of the lower half of the loaf along the bottom edge. Everything behind "
+            "falls completely out of focus."
+        ),
+    },
+    # ==================== THE CLOSE — how good he is ===========================
+    {
+        "id": "v2-r027-b26", "out": "s26-he-does-not-overpower-you.jpeg",
+        "seg": "n8", "window": "82.480-86.440", "jesus": True, "ref": REF,
+        "locks": ["SYNAGOGUE", "LISTENERS"],
         "narration": "That is how good he is. He does not overpower you.",
-        "must_show": "warmth without force — the woman sliding loaves into the domed clay oven in the courtyard, the oven's soft firelight on her face and apron.",
-        "must_not_show": "no halo, glare or rim-light; the oven's fire stays INSIDE the oven mouth — warm light, no flame spectacle.",
+        "must_show": "a close photograph of Jesus on the stone bench sitting back, unhurried and gentle, giving the people time, his hands open and still.",
+        "must_not_show": "no halo, no glow, no rim-light and no light coming off Jesus; no night, no lamp, no sunset colouring; no oven, no trough, no dough and no baking yard in this frame; no cream or off-white cloth on anybody but Jesus anywhere in the frame including the blurred edges; his pupils never centred on the lens.",
         "scene": (
-            "In the courtyard corner the woman kneels at the domed clay "
-            "oven, sliding a round loaf off a flat wooden peel into its "
-            "warm-lit mouth, two loaves already baking within, the soft "
-            "orange warmth from the oven door touching her forearms and "
-            "the front of her dark apron. Morning light fills the rest of "
-            "the little courtyard. Every figure has two arms, two hands "
-            "and one head."
+            "One photograph, 85mm lens, shallow depth of field, flat bright "
+            "mid-afternoon sunlight from high on the left, fine film grain. THE CAMERA "
+            "SITS LEVEL AND WELL TO HIS LEFT SIDE, SO HIS EYELINE RUNS HORIZONTALLY "
+            "ACROSS THE FRAME AND OUT THROUGH THE RIGHT EDGE toward a NAMED TARGET "
+            "INSIDE THE PICTURE — a child seated on the lowest stone step at the right "
+            "of the frame in a plain DARK BROWN tunic, soft and out of focus, with "
+            "nothing pale on her — and his pupils are never centred on the lens. Jesus "
+            "is framed from the chest up, seated on the worn stone bench with his back "
+            "against the honey-coloured limestone wall and his shoulders easy, both "
+            "hands open and still on his knees, his head turned unhurriedly toward the "
+            "child, his mouth closed and his expression gentle and completely "
+            "unhurried. The near foreground between the camera and him is nothing but "
+            "the empty sunlit stone of the bench, with nobody standing, sitting or "
+            "passing between the camera and him. Behind him the dressed limestone "
+            "blocks fall away into soft blur."
         ),
     },
     {
-        "id": "v2-r027-b16", "out": "s16-he-works-gently-patiently-from.jpeg", "seg": "n8",
-        "window": "82.59-91.18", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BAKER", "KITCHEN"],
-        "narration": (
-            "He works gently, patiently, from within, until the whole of you is "
-            "warmed and changed and made into something that can feed other "
-            "people."
-        ),
-        "must_show": "the closing image — the woman at her courtyard gate handing warm loaves into the hands of neighbours and children, the bread going out to feed others.",
-        "must_not_show": "no halo, glare or rim-light; generosity in motion — the loaves passing from her hands into theirs is the visible action.",
+        "id": "v2-r027-b27", "out": "s27-he-works-gently-patiently.jpeg",
+        "seg": "n8", "window": "86.440-89.440",
+        "locks": ["WOMAN", "YARD", "BAKING"],
+        "narration": "He works gently, patiently, from within,",
+        "must_show": "the woman crouched at the low arched mouth of the fire-lit clay oven in bright early-morning light, laying a flattened round loaf onto the hot floor stones with a flat wooden paddle, careful and unhurried.",
+        "must_not_show": "no Jesus in this frame; no synagogue, no stone bench, no steps; no other person anywhere in the frame; no night; no sunset colouring; no oven door, hinge, grate, chimney or flue; no metal tray, rack, tin or tongs; no white cloth, towel or apron anywhere; no cream or pale garment on her; her pupils never centred on the lens.",
         "scene": (
-            "At the low courtyard gate in warm mid-morning light the woman "
-            "hands a round loaf, still steaming faintly, into the cupped "
-            "hands of a young neighbour woman with a baby on her hip, "
-            "while a small boy beside them already hugs his loaf to his "
-            "chest and an old man waits smiling behind — a basket of warm "
-            "loaves riding on the baker's arm, enough for all of them. "
-            "Every figure has two arms, two hands and one head."
+            "One photograph, 50mm lens, shallow depth of field, clear bright "
+            "EARLY-MORNING sun from the left across the yard, with the deep orange light "
+            "of the fire inside the oven throwing warm light up onto her hands and the "
+            "underside of her face, fine film grain. THE CAMERA IS DOWN AT KNEE HEIGHT "
+            "AND WELL TO HER LEFT, SHOOTING HER IN THREE-QUARTER FROM THE SIDE. HER "
+            "GAZE HAS A NAMED TARGET INSIDE THE PICTURE: the loaf on the paddle going "
+            "in through the low arched mouth of the oven at the right of the frame, so "
+            "her head is turned away to her own right and her eyeline runs horizontally "
+            "out through the RIGHT edge of the picture, never toward the lens. She "
+            "crouches on her heels before the beehive-shaped grey-brown clay oven — the "
+            "strongly built village woman of about thirty-five with warm sun-browned "
+            "olive skin, a broad open face, a DARK MADDER-BROWN head cloth and a DEEP "
+            "INDIGO wool tunic with the sleeves pushed above the elbow — both hands on "
+            "the long handle of a flat wooden paddle, sliding one round hand-flattened "
+            "barley loaf in through the low arched mouth onto the fire-blackened floor "
+            "stones inside, where embers burn red. She is the only person in the "
+            "picture. The near foreground is the flat clay apron of the oven and the "
+            "swept beaten earth across the bottom edge, with nothing pale on it. Behind "
+            "her the rough tan mud-brick yard wall and the hollowed olive-wood trough "
+            "fall out of focus."
+        ),
+    },
+    {
+        "id": "v2-r027-b28", "out": "s28-warmed-and-changed.jpeg",
+        "seg": "n8", "window": "89.440-91.840",
+        "locks": ["YARD", "BAKING"],
+        "narration": "until the whole of you is warmed and changed",
+        "must_show": "a close photograph of a row of finished round barley loaves cooling on a hand-woven reed mat on the stone ledge beside the oven in bright early-morning sun, their crusts rough, blistered and warmly browned, steam still lifting off them.",
+        "must_not_show": "no person, no hand, no face anywhere in the frame; no night, no lamp; no sunset colouring; no metal tray, rack, tin, wire or knife; no white cloth, towel, napkin or paper anywhere; no writing, label or numeral on anything.",
+        "scene": (
+            "One photograph, 85mm lens, shallow depth of field, clear bright "
+            "EARLY-MORNING sun from the left raking low across the loaves so every "
+            "blister and scorch mark on the crust throws its own shadow and the thin "
+            "steam lifting off them catches the light, fine film grain. THE CAMERA IS "
+            "SET AT LEDGE HEIGHT LOOKING ALONG THE ROW and there is no person in the "
+            "picture at all. FIVE round hand-flattened barley loaves, each a hand-span "
+            "across and clearly separated so every one can be counted, lie in a row on "
+            "a hand-woven reed mat on the flat stone ledge beside the oven, their "
+            "crusts rough, unevenly browned and blistered from the hot floor stones, "
+            "some dusted with scorched flour. The near foreground is the out-of-focus "
+            "woven reed of the mat across the bottom edge. Behind them the "
+            "smoke-blackened mouth of the grey-brown clay oven and the rough tan "
+            "mud-brick yard wall fall completely out of focus."
+        ),
+    },
+    {
+        "id": "v2-r027-b29", "out": "s29-something-that-can-feed-other-people.jpeg",
+        "seg": "n8", "window": "91.840-95.497", "wide": True,
+        "locks": ["WOMAN", "NEIGHBOURS", "YARD", "BAKING"],
+        "narration": "and made into something that can feed other people.",
+        "must_show": "a wide photograph of the woman in her yard doorway in bright early-morning sun handing warm round loaves out into the hands of a small group of village neighbours and children gathered in front of her, the basket on her hip still heaped full.",
+        "must_not_show": "no Jesus in this frame; no synagogue, no stone bench, no steps; no night, no lamp, no sunset colouring; no metal tray, rack, tin or modern object; no white cloth, towel, apron, napkin or paper anywhere; no cream, off-white or pale garment on anybody in the frame including the blurred edges; not one face turned toward the lens.",
+        "scene": (
+            "One photograph, 28mm lens, clear bright EARLY-MORNING sun from the left, "
+            "long soft shadows reaching across the swept beaten earth, fine film grain. "
+            "THE CAMERA STANDS BEHIND THE VILLAGERS AND SHOOTS PAST THEM TOWARD THE "
+            "DOORWAY: their BACKS, shoulders and dark head cloths fill the near bottom "
+            "third of the frame, soft and out of focus, a DEEP INDIGO back at the near "
+            "left and a DARK UMBER back at the near right, and NOT ONE FACE IS TURNED "
+            "TOWARD THE LENS. Beyond them, sharp in the middle distance, the strongly "
+            "built village woman of about thirty-five in the DEEP INDIGO wool tunic "
+            "with the sleeves pushed above the elbow, the dark madder-red sash and the "
+            "DARK MADDER-BROWN head cloth stands in the plank doorway of her baking "
+            "yard, seen in three-quarter, a large hand-woven reed basket of warm round "
+            "barley loaves braced on her hip, leaning down to press one loaf into the "
+            "reaching hands of a barefoot child in a plain dark brown tunic while three "
+            "more villagers in dark indigo, russet and dark olive-drab wool wait beside "
+            "her, all of them turned toward her and away from the camera. The basket is "
+            "still heaped with loaves. The near foreground is the swept beaten earth of "
+            "the yard floor, with nothing pale on it. Behind her the grey-brown clay "
+            "oven with thin smoke lifting from its mouth, the hollowed olive-wood "
+            "trough and the rough tan mud-brick walls of the yard, and above the wall "
+            "the flat mud roofs of the village under a clear bright morning sky."
         ),
     },
 ]
