@@ -1076,3 +1076,62 @@ Reroll rate 32% (12 of 37). Full detail in `build-19-shore/QC.md`.
    changed, all inside v19, and the v12, v17, v18, v20 and v21 cards verified byte-identical
    by SHA-256 before commit.
 
+
+---
+
+## Session — 2026-08-02 · Row 20 (The Good Samaritan, Luke 10) — DONE
+
+- **Worker:** Claude worker 14 · Machine A `Dev` · Fable 5
+- **Shipped:** `build-20-samaritan/luke-10_good-samaritan-realistic-v2.mp4`
+  186.665 s / 21.5 MB · AUDIO LOCK PASS `d3fe79df…` · blob `ae1a417e2096`
+- **Pictures:** 42 at native 2K (V1 had 8) · reroll rate **12 % (5 of 42)** · **$6.30**
+  (meter $81.07 → $87.37, one generator process at a time, hard ceiling every run)
+- **QC:** `build-20-samaritan/QC.md`
+
+### Lessons this row paid for
+
+1. **THE SCRIPT CAN BE STALE EVEN INSIDE THE V1 FOLDER.** Session 19 concluded "never read
+   a build's script from the V2 folder" — row 20 shows the V1 folder's own
+   `make_narration.py` can also be wrong. It was rewritten programmatically AFTER the voices
+   were cut (string quoting flipped `"` → `'` throughout) and the rewrite STRIPPED the
+   plain-English retellings out of n1b / n12 / n14 / n15. All four are audibly in the shipped
+   mp3s. `make_narration.py.pre-echo` is the file that matches the audio.
+   **Rule: when a build has a `.pre-echo` / `.pre-speaker` sibling that DISAGREES with the
+   live script, transcribe the mp3s before trusting either file.** The tell is cheap — the
+   `timing.json` sidecar lists the phrases that were actually synthesised, so if it has three
+   entries and the script has two sentences, the script lost something.
+
+2. **Stale caption text is not only wrong words, it is wrong TIMING.** `timed_windows` matches
+   the caption text character-by-character against the timing sidecar, so a segment whose text
+   no longer matches its audio gets both the wrong words *and* the wrong `enable=` windows.
+
+3. **New shared hook: `TEXT_OVERRIDES` in `v2_assemble.py`.** A build may declare
+   `TEXT_OVERRIDES = {seg: text}` with the words genuinely spoken; the assembler logs each
+   one as it applies it. Opt-in, so no existing row changes behaviour, and V1 is never edited
+   (hard protection #1). This is the shared-lock discipline applied to the audio side.
+
+4. **ANCHOR-FIRST ORDER CUT THE REROLL RATE FROM ~32 % TO 12 %.** Six face-showing beats were
+   generated as their own run, inspected, and wired into `REFS`; the other 36 then ran with
+   every recurring face attached. Rows 16/19 generated everything in one pass and paid 49 %
+   and 32 %.
+   **But `v2_gen_api` builds its REFS cache ONCE at the start of a run**, so any anchor that
+   lands mid-run is invisible to the rest of that run — b29's Samaritan came back as a
+   grey-haired old man for exactly this reason. Anchors must be a SEPARATE process invocation.
+
+5. **The row-19 lens-gaze cure generalises and works first time.** b38 was a tight 135 mm
+   portrait of Jesus with his pupils effectively on the lens; rebuilding it as an
+   over-the-shoulder two-shot fixed it in one pass. Do not spend a second roll on a lone
+   tight portrait — put the other person in the frame immediately.
+
+6. **New settings invented their own anachronisms again, as predicted:** a metal pin buckle on
+   a sandal and pale moulded shoe soles (footwear is a fresh surface every row), and a cream
+   head-cloth in a crowd foreground. All three were cured by stating the object POSITIVELY —
+   what the sandal IS made of, what colour every piece of cloth IS — never by prohibition.
+
+7. **`site/review.html` card edit, done safely:** each of the three edits was anchored on
+   something unique to row 20 (its old `data-hash`, its V1 mp4 path, and a flag line located
+   strictly between the v20 card tag and `id="v21"`), then diffed — exactly 3 lines changed,
+   all on the v20 card. Rows 12 and 17 untouched. The row-20 card was also given the
+   `data-review-wave="realistic-v2"` attribute that `admin/sync-reviews.mjs` requires for the
+   version lock; **note that row 19's card is still missing it**, so row 19's hash is not being
+   overridden in the sync and someone should fix that card.
