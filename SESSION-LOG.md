@@ -1,3 +1,47 @@
+## 2026-08-02 — Row 30 (The Net / Dragnet, Matthew 13:47-50) realistic V2 rebuild — Claude worker 24, Machine A `Dev`
+
+**Commit:** fa61edcfa (build) · ccda3433d (reviewer card)
+
+Shipped the realistic V2 cut of Story 30 to the reviewer: **40 pictures at native 2K
+against V1's SIX placed stills**, 154.9 s / 21,515,856 bytes, **AUDIO LOCK PASS
+byte-identical** (SHA256 9c6b79ce…). Nothing was re-voiced and V1 was never written to.
+
+* **Why it needed rebuilding.** V1's `s5-cast-bad.jpeg` covered n7, j2, j50 AND n8 —
+  79.991 s → 115.780 s, **thirty-five and three quarter seconds on one picture**, the whole
+  end-of-the-world turn including both red-letter verses and the "the angels do it, God does
+  it, it was never handed to us" line the passage aims at. `s6-shore-close.jpeg` covered n9,
+  n10 and n11 — **thirty-one and nine-tenths seconds**, the entire closing application.
+  `s5b-cast-away.jpeg` sat in `assets/` and was never on the timeline at all.
+* **The inherited scaffold was discarded**, measured not assumed: 25 pictures at 5.7 s each
+  (rows 24-29 shipped at 3.1-4.9), and a HOUSE INTERIOR frame that rows 16, 28 and 29
+  already settled.
+* **Audio and sourcing both checked from the files.** V1 MP4 and all sixteen mp3s share one
+  git content date, so neither staleness tripwire fired. All sixteen segments transcribed
+  with faster-whisper match the live `make_narration.py` word for word — three apparent
+  differences are whisper's and all one family, a dropped final consonant. No TEXT_OVERRIDES.
+* **Windows rebuilt from scratch.** Every one of the sixteen `.timing.json` sidecars holds
+  exactly ONE phrase spanning its whole segment, so none could supply an interior split;
+  splits came from measured word timings. Contiguous 0.280 → 147.672 s, zero gaps, zero
+  overlaps, 3.68 s/picture, every speech onset re-measured with silencedetect inside its
+  own window.
+* **Staging checked against rows 11 and 24** (the wave's other water stories): a boulder
+  breakwater with water on three sides for the frame, open deep water with two boats and a
+  dragnet between them, and a sand-and-mud strand at a stream mouth. None used before.
+* **Restraint held on v49/v50** per the row-21 precedent — no angels, no heaven, no hell
+  painted; the furnace is the set-aside catch carried away at dusk toward one small distant
+  shore fire, no close flames and nothing in fire.
+* **Reroll rate 1 of 41 = 2.4%, the lowest in the wave.** The one defect was Jesus looking
+  into the lens (s23), and the cure was NOT restating the prohibition — it was RE-STAGING the
+  beat as a strict side-on profile with the far cheek and far eye hidden behind his own head,
+  which makes a lens gaze geometrically impossible. Right in one pass.
+* **Spend ≈$5.36** (41 images); shared meter now $141.24.
+* No new shared lock was needed — PERIOD-MATERIALS already reaches nets and boats (row 19).
+
+Prior approval is VOID under REDO-ALL. Live on the reviewer, verified with
+`data-review-wave="realistic-v2"` and the raw URL serving 21,515,856 bytes.
+
+---
+
 ## 2026-08-02 — Row 26 (The Mustard Seed, Matt 13) rebuilt realistic V2 and shipped to the reviewer
 
 Commit: 4d22e0f3f
