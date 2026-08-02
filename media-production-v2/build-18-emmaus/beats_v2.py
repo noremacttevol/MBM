@@ -78,8 +78,12 @@ LOCKS = {
         "thirty, shorter and stockier than Cleopas, a thick dark beard, broad "
         "cheekbones, warm tan skin, and quick expressive eyes. He wears a "
         "road-dusted DARK OLIVE-GREEN wool tunic with a leather belt and a rolled "
-        "blanket over his shoulder (never cream, never white). His face is shown "
-        "clearly."
+        "blanket over his shoulder (never cream, never white). HE IS A GROWN MAN OF "
+        "ABOUT THIRTY WITH A FULL, THICK, DARK BEARD COVERING HIS JAW AND CHIN AND A "
+        "MOUSTACHE — he is never a beardless youth, never clean-shaven, never a "
+        "teenager or a boy, and never smooth-cheeked. His dark hair is short and "
+        "thick. He is visibly younger than Cleopas but plainly a grown working man of "
+        "the same generation of adults. His face is shown clearly."
     ),
     "ROAD": (
         "EMMAUS ROAD LOCK: the country road running west from Jerusalem — packed "
@@ -118,9 +122,18 @@ LOCKS = {
         "single low room with a beaten earth floor, a small wooden table with three "
         "stools, a stone lamp niche, a water jar, a rolled sleeping mat against the "
         "wall, and a low doorway open to the deep blue of evening. Lit warmly and "
-        "unevenly by two small clay oil lamps, with deep shadow in the corners."
+        "unevenly by two small clay oil lamps, with deep shadow in the corners. "
+        "EVERY LIGHT IN THE FRAME, near or far, sharp or blurred, is a small hand-sized "
+        "CLAY SAUCER LAMP — a shallow pinched clay dish of olive oil with one bare wick "
+        "flame standing open on the table, a shelf or a wall niche. THERE IS NO GLASS "
+        "ANYWHERE IN THE ROOM: no glass chimney, no glass globe or bowl, no hurricane or "
+        "kerosene lamp, no metal lantern, no candle, no candlestick, no hanging fixture, "
+        "no candelabra, no bracket of lamps, and nothing manufactured, moulded or piped. "
+        "Every flame is directly open to the air."
     ),
 }
+
+OUTPUT_VIDEO_NAME = "luke-24_emmaus-realistic-v2.mp4"
 
 REF = True
 
@@ -149,7 +162,7 @@ BEATS = [
         "id": "v2-r018-b02", "out": "s02-going-over-it-again.jpeg", "seg": "n0 p3a",
         "window": "8.01-14.19", "wide": True, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("They were walking the seven miles from Jerusalem to a village "
                       "called Emmaus, heads down, going over it all again — the arrest, "
                       "the cross, the end of everything they had hoped for."),
@@ -164,14 +177,14 @@ BEATS = [
             "stretch away around them in the afternoon light. The camera is back far "
             "enough to see both head to sandals. Every figure has two arms, two hands "
             "and one head."
-            " THE CAMERA TRACKS ALONGSIDE AND SLIGHTLY BEHIND THE TWO MEN, level with their shoulders, so both are seen in three-quarter from behind and their eyes travel across the frame to each other and down to the dust, never past the camera. NOT ONE FACE IS TURNED TOWARD THE LENS. Shot on a 50mm prime, shallow depth of field, real film grain, one photograph."
+            " THE CAMERA TRACKS ON THE ROAD BEHIND THE TWO MEN AND SLIGHTLY TO THEIR LEFT AND SHOOTS PAST THEM: their BACKS and shoulders fill the near frame and they are walking AWAY from the camera down the road, seen from three-quarter behind, Cleopas's head turned inward to his companion so his face shows only in lost profile over his own shoulder. NEITHER MAN WALKS TOWARD THE CAMERA and NOT ONE FACE IS TURNED TOWARD THE LENS. Shot on a 50mm prime, shallow depth of field, real film grain, one photograph."
         ),
     },
     {
         "id": "v2-r018-b02b", "out": "s02b-the-end-of-everything.jpeg", "seg": "n0 p3b",
         "window": "14.19-20.39", "wide": True, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("going over it all again \u2014 the arrest, the cross, the end of "
                       "everything they had hoped for."),
         "must_show": "the two very small and far away on a long empty road, walked out of words \u2014 the scale of the frame carrying how finished they feel.",
@@ -212,7 +225,7 @@ BEATS = [
         "id": "v2-r018-b04", "out": "s04-their-eyes-were-held.jpeg", "seg": "n1 p2",
         "window": "25.44-32.16", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s03-fell-into-step.jpeg"],
         "narration": ("And Luke tells us something strange and deliberate: their eyes "
                       "were held, so that they did not recognize him."),
         "must_show": "⚠️ THE CENTRAL IDEA: both men looking DIRECTLY at his clearly visible face — and nothing registering. Blank, polite, unrecognising.",
@@ -231,7 +244,7 @@ BEATS = [
         "id": "v2-r018-b05", "out": "s05-they-had-no-idea.jpeg", "seg": "n1 p3",
         "window": "32.16-38.59", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("It was Jesus himself — walking right beside them — and they had "
                       "no idea."),
         "must_show": "the three walking together down the open road, entirely ordinary, the two talking across him as if he were nobody.",
@@ -252,7 +265,7 @@ BEATS = [
         "id": "v2-r018-b06", "out": "s06-what-are-you-talking-about.jpeg", "seg": "n2 p1-p2",
         "window": "38.59-44.44", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("He asked them what they were talking about that had them so "
                       "heavy. They stopped in the road, faces stricken."),
         "must_show": "all three halted dead in the road — the two men stopped mid-step, faces gone raw at being asked.",
@@ -272,7 +285,7 @@ BEATS = [
         "id": "v2-r018-b07", "out": "s07-are-you-the-only-one.jpeg", "seg": "n2 p3",
         "window": "44.44-52.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLEOPAS"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("One of them, Cleopas, said: are you the only visitor to Jerusalem "
                       "who doesn't know what has happened these last few days?"),
         "must_show": "close on Cleopas, incredulous — a man who cannot believe anyone alive has missed it.",
@@ -289,7 +302,7 @@ BEATS = [
         "id": "v2-r018-b08", "out": "s08-art-thou-only-a-stranger.jpeg", "seg": "s18",
         "window": "52.76-60.46", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "JERUSALEM", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("Art thou only a stranger in Jerusalem, and hast not known the "
                       "things which are come to pass there in these days? (Luke 24:18)"),
         "must_show": "Cleopas gesturing back down the road toward Jerusalem as he says it, the city small on its hill in the distance behind them.",
@@ -311,7 +324,7 @@ BEATS = [
         "id": "v2-r018-b09", "out": "s09-it-all-poured-out.jpeg", "seg": "n3 p1-p2",
         "window": "60.46-68.88", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("And it all poured out. Jesus of Nazareth — a prophet mighty in "
                       "word and deed — handed over and crucified."),
         "must_show": "both men talking at once, hands moving, the story spilling out of them on the road.",
@@ -330,7 +343,7 @@ BEATS = [
         "id": "v2-r018-b10", "out": "s10-we-had-hoped.jpeg", "seg": "n3 p3",
         "window": "68.88-75.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("And then the line that holds all their heartbreak: we had hoped "
                       "that he was the one who would rescue Israel."),
         "must_show": "⚠️ THE EMOTIONAL CENTRE OF THE FIRST HALF: close on the two faces as the sentence comes out — the fight going out of them, past tense on their faces.",
@@ -348,7 +361,7 @@ BEATS = [
         "id": "v2-r018-b11", "out": "s11-but-nobody-had-seen-him.jpeg", "seg": "n3 p4-p5",
         "window": "75.97-83.87", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("Now some women were saying the tomb was empty and angels said he "
                       "was alive. But nobody had seen him."),
         "must_show": "⚠️ THE IRONY: one of them shrugging off the rumour with a hopeless gesture — while saying nobody has seen him, straight at the man he is looking at.",
@@ -368,7 +381,7 @@ BEATS = [
         "id": "v2-r018-b12", "out": "s12-we-trusted.jpeg", "seg": "s21",
         "window": "83.87-89.30", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLEOPAS"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("But we trusted that it had been he which should have redeemed "
                       "Israel. (Luke 24:21)"),
         "must_show": "very close on Cleopas saying the line — the whole loss of it in one face.",
@@ -395,13 +408,14 @@ BEATS = [
             "for them, and something enormous being held just behind his eyes. His "
             "mouth is opening to answer. There is nothing smug or superior in it. The "
             "blurred road and olive terraces behind him."
+            " HE IS LOOKING AT THE TWO MEN, WHO STAND OFF TO HIS LEFT BESIDE THE ROAD AND OUTSIDE THE FRAME: his head is turned about thirty degrees off the camera axis and his eyes travel clearly past the lens and out through the LEFT EDGE of the picture. HIS PUPILS ARE NEVER CENTRED ON THE LENS and he never addresses the viewer. Shot on an 85mm prime, shallow depth of field, real film grain, one photograph."
         ),
     },
     {
         "id": "v2-r018-b14", "out": "s14-slow-of-heart.jpeg", "seg": "j1 a",
         "window": "93.20-98.04", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("O fools, and slow of heart to believe all that the prophets have "
                       "spoken: (Luke 24:25)"),
         "must_show": "⚠️ TONE: warm exasperation, not contempt. He has walked seven miles to say this — head shaking, a rueful half-smile, affection under the bluntness.",
@@ -438,7 +452,7 @@ BEATS = [
         "id": "v2-r018-b16", "out": "s16-beginning-at-moses.jpeg", "seg": "n4b p1a",
         "window": "104.65-112.16", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("And then, starting all the way back at Moses, walking through "
                       "prophet after prophet, he opened the scriptures to them —"),
         "must_show": "the three walking on together while he teaches — his hands working as he explains, the two men now watching him instead of the road.",
@@ -452,14 +466,14 @@ BEATS = [
             "book or scroll anywhere. Long shadows stretch ahead. The camera is back "
             "far enough to see all three head to sandals. Every figure has two arms, "
             "two hands and one head."
-            " THE CAMERA WALKS BACKWARD DOWN THE ROAD AHEAD OF THE THREE BUT OFF TO ONE SIDE, shooting them in three-quarter profile so their heads are turned to each other across the frame and every eyeline exits past the camera's right without one of them squaring up to the lens. NOT ONE FACE IS TURNED TOWARD THE LENS. Shot on a 35mm prime, deep focus, real film grain, one photograph."
+            " THE CAMERA WALKS ON THE ROAD BEHIND THE THREE AND SLIGHTLY TO THEIR RIGHT AND SHOOTS PAST THEM: their BACKS and shoulders are toward the lens and they are walking AWAY from the camera down the road, seen from three-quarter behind, with their heads turned inward to each other so their faces are visible only in lost profile from behind. NOBODY WALKS TOWARD THE CAMERA and NOT ONE FACE IS TURNED TOWARD THE LENS. Shot on a 35mm prime, deep focus, real film grain, one photograph."
         ),
     },
     {
         "id": "v2-r018-b17", "out": "s17-broken-before-crowned.jpeg", "seg": "n4b p1b",
         "window": "112.16-119.66", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("showing them every place the whole story had been pointing to a "
                       "rescuer who had to be broken before he could be crowned."),
         "must_show": "the two men's faces as it goes in — concentration, then the first flicker of something rearranging behind their eyes.",
@@ -477,7 +491,7 @@ BEATS = [
         "id": "v2-r018-b18", "out": "s18-it-was-the-plan.jpeg", "seg": "n4b p2-p3",
         "window": "119.66-124.51", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": "The cross was not the collapse of the plan. It was the plan.",
         "must_show": "the three small on the long road under a wide evening sky — a lesson still going as the sun drops.",
         "must_not_show": "no cross imagery; no halo or rim-light.",
@@ -496,7 +510,7 @@ BEATS = [
         "id": "v2-r018-b19", "out": "s19-they-reached-emmaus.jpeg", "seg": "n5 p1",
         "window": "124.51-130.76", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "HOUSE", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("They reached Emmaus as the sun was going down, and the stranger "
                       "acted as if he would keep walking on into the night."),
         "must_show": "SCRIPTURE-EXACT (v28): at the village edge the two are turning off toward a doorway while Jesus keeps walking on down the road — he does not invite himself in.",
@@ -517,7 +531,7 @@ BEATS = [
         "id": "v2-r018-b20", "out": "s20-they-couldnt-let-him-go.jpeg", "seg": "n5 p2-p3",
         "window": "130.76-138.68", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("But they couldn't let him go. Stay with us, they said — it's "
                       "nearly evening, the day is almost gone."),
         "must_show": "a hand actually catching his arm to stop him — them pressing him to stay, physically.",
@@ -536,7 +550,7 @@ BEATS = [
         "id": "v2-r018-b21", "out": "s21-abide-with-us.jpeg", "seg": "s29 + n5 p4",
         "window": "138.68-146.55", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "HOUSE"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("So he went in to stay. — Abide with us: for it is toward evening, "
                       "and the day is far spent. (Luke 24:29)"),
         "must_show": "him stepping in through the low doorway with the two ushering him, warm lamplight inside and deep blue dusk outside.",
@@ -556,7 +570,7 @@ BEATS = [
         "id": "v2-r018-b22", "out": "s22-they-sat-down-to-the-table.jpeg", "seg": "n6 p1-p2",
         "window": "146.55-151.77", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "HOUSE"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("They sat down to the table. And then their guest did the one thing "
                       "only the host of the house should do."),
         "must_show": "the three at the small table by lamplight — and Jesus, the guest, reaching for the loaf that is not his to take.",
@@ -620,7 +634,7 @@ BEATS = [
         "id": "v2-r018-b26", "out": "s26-he-held-it-out.jpeg", "seg": "n6 p6",
         "window": "155.12-157.52", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": "And he held it out to them.",
         "must_show": "his hands extending the broken halves across the table toward the two men — and their heads beginning to come round.",
         "must_not_show": "no halo, glare or rim-light; recognition has not landed yet, it is arriving.",
@@ -639,7 +653,7 @@ BEATS = [
         "id": "v2-r018-b27", "out": "s27-their-eyes-were-opened.jpeg", "seg": "n7 p1",
         "window": "157.52-165.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("And in that motion — the taking, the blessing, the breaking of the "
                       "bread — their eyes were opened, and they knew him."),
         "must_show": "⚠️ THE PAYOFF OF b04: the same two faces, and now recognition detonating across both of them at once.",
@@ -657,7 +671,7 @@ BEATS = [
         "id": "v2-r018-b28", "out": "s28-it-was-jesus.jpeg", "seg": "n7 p2",
         "window": "165.23-167.28", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "HOUSE"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": "It was Jesus.",
         "must_show": "the last frame he is in — sitting at the table, entirely himself, looking back at them with the bread still held out.",
         "must_not_show": "no halo, glare or rim-light and NO fading or transparency — he is completely solid and present in this frame.",
@@ -668,14 +682,14 @@ BEATS = [
             "expression. Both disciples are frozen staring at him. Nothing about him "
             "is faded, transparent or altered in any way. Warm uneven lamplight. The "
             "camera holds all three. Every figure has two arms, two hands and one head."
-            " THE CAMERA SITS BEHIND THE TWO DISCIPLES AND SHOOTS PAST THEIR SHOULDERS across the table at Jesus: their backs and heads are the dark near frame, and Jesus's eyes go to them and exit the picture below the camera, never into the lens. NOT ONE FACE IS TURNED TOWARD THE LENS. Shot on a 50mm prime, shallow depth of field, real film grain, one photograph."
+            " HIS FACE IS THE SAME MAN AS THE ATTACHED REFERENCE IMAGE — the same long thick tousled dark brown wavy hair falling well below his shoulders, the same full dark beard, the same warm olive-brown skin and the same deep-set luminous eyes. He is not younger, not smoother, not shorter-haired and not thinner-bearded than the reference. THE CAMERA STANDS BEHIND THE FARTHER DISCIPLE AND SHOOTS PAST HIS SHOULDER at Jesus across the table: that disciple's dark shoulder and the back of his head fill one near edge of the frame, and Jesus sits beyond the table in THREE-QUARTER view with his face clearly lit and clearly visible, his head turned about forty degrees off the camera axis toward the two men, so his eyes travel across the picture and exit past the camera's left. HIS PUPILS ARE NEVER CENTRED ON THE LENS and the three men are never lined up side by side facing the viewer. NOT ONE FACE IS TURNED TOWARD THE LENS. Shot on a 50mm prime, shallow depth of field, real film grain, one photograph."
         ),
     },
     {
         "id": "v2-r018-b29", "out": "s29-the-empty-place.jpeg", "seg": "n7 p3",
         "window": "167.28-176.19", "wide": True, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION", "HOUSE"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("And in the very instant they recognized him, he was gone — "
                       "vanished from the table, the bread still warm in their hands."),
         "must_show": "⚠️ THE VANISHING AS AFTERMATH ONLY: the empty stool, his untouched cup, the broken bread now in THEIR hands, and the two staring at nothing.",
@@ -696,7 +710,7 @@ BEATS = [
         "id": "v2-r018-b30", "out": "s30-they-turned-to-each-other.jpeg", "seg": "n8 p1",
         "window": "176.19-177.75", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": "They turned to each other, stunned.",
         "must_show": "the two grabbing at each other across the table — hands on arms, faces inches apart, both talking at once.",
         "must_not_show": "do not put Jesus in this frame.",
@@ -705,7 +719,11 @@ BEATS = [
             "Cleopas's hand clamped on the younger man's forearm and the younger man's "
             "hand gripping his shoulder, their faces inches apart, both of them "
             "talking at once with their eyes enormous and their mouths going. The "
-            "bread is still in their other hands. Warm lamplight. Every figure has two "
+            "bread is still in their other hands. Warm lamplight. THERE ARE EXACTLY TWO "
+            "PEOPLE IN THE ROOM AND IN THE PICTURE — these two men and nobody else; no "
+            "third figure, shoulder, head, arm or seated body appears behind them, beside "
+            "them or anywhere in the blurred background, and the third stool is EMPTY. "
+            "Every figure has two "
             "arms, two hands and one head."
         ),
     },
@@ -713,7 +731,7 @@ BEATS = [
         "id": "v2-r018-b31", "out": "s31-he-was-with-us-the-whole-way.jpeg", "seg": "n8 p2",
         "window": "177.75-185.61", "wide": True, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION", "HOUSE"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("Weren't our hearts burning inside us, they said, the whole time he "
                       "was talking to us on the road, while he opened the scriptures to "
                       "us? He had been with them the entire way, and they had almost "
@@ -735,7 +753,7 @@ BEATS = [
         "id": "v2-r018-b31b", "out": "s31b-they-had-almost-missed-him.jpeg", "seg": "n8 p3",
         "window": "185.61-190.77", "wide": True, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION", "HOUSE"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("He had been with them the entire way, and they had almost missed "
                       "him."),
         "must_show": "the two gone quiet at the realisation \u2014 the noise has dropped out of them and they are simply looking at each other, winded by how close they came to missing it.",
@@ -759,7 +777,7 @@ BEATS = [
         "id": "v2-r018-b32", "out": "s32-did-not-our-heart-burn.jpeg", "seg": "s32",
         "window": "190.77-197.81", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLEOPAS"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("Did not our heart burn within us, while he talked with us by the "
                       "way, and while he opened to us the scriptures? (Luke 24:32)"),
         "must_show": "close on Cleopas with his hand pressed flat to his own chest as he says it — naming what he felt and did not understand.",
@@ -777,7 +795,7 @@ BEATS = [
         "id": "v2-r018-b33", "out": "s33-they-did-not-wait-for-morning.jpeg", "seg": "n9 p1",
         "window": "197.81-199.22", "wide": True, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION", "HOUSE"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": "They did not wait for morning.",
         "must_show": "the two bolting out through the doorway into the dark — the meal abandoned mid-table behind them.",
         "must_not_show": "do not put Jesus in this frame; the abandoned table must be visible.",
@@ -795,7 +813,7 @@ BEATS = [
         "id": "v2-r018-b34", "out": "s34-seven-dark-miles.jpeg", "seg": "n9 p2a",
         "window": "199.22-203.91", "wide": True, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "JERUSALEM"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("That same hour they got up and ran the seven dark miles back to "
                       "Jerusalem,"),
         "must_show": "⚠️ THE INVERSE OF b01: the two running BACK toward Jerusalem, at night, under stars — the same road, the opposite direction.",
@@ -816,27 +834,46 @@ BEATS = [
         "id": "v2-r018-b35", "out": "s35-they-found-the-eleven.jpeg", "seg": "n9 p2b",
         "window": "203.91-209.94", "wide": True, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("found the eleven, and said the words the whole world had been "
                       "aching to hear: the Lord is risen."),
         "must_show": "the two bursting into a shuttered lamplit upper room full of grieving disciples — every head snapping toward the door.",
         "must_not_show": "do not put Jesus in this frame; the room must have been in mourning before they came in.",
         "scene": (
-            "A shuttered upper room at night, lit by two lamps, with a dozen men and "
-            "women sitting slumped and silent in their grief around the walls — and "
-            "the door has just been flung open. Cleopas and his companion have burst "
-            "in, filthy with dust and gasping, both talking at once with their arms up. "
-            "Every head in the room has snapped toward them and people are starting up "
-            "off the floor. Warm lamplight, black night in the doorway. The camera "
-            "holds the room. Every figure has two arms, two hands and one head."
-            " THE CAMERA STANDS IN THE FAR CORNER OF THE UPPER ROOM BEHIND THE SEATED MOURNERS AND SHOOTS PAST THEIR BACKS toward the flung-open door: the near figures are seen from behind, and every head in the room is turned away from the lens toward the two men in the doorway. NOT ONE FACE IS TURNED TOWARD THE LENS. Shot on a 35mm prime, real film grain, one photograph."
+            "A low upper room at night with plastered stone walls and a beamed "
+            "ceiling. Ten or eleven men and women sit slumped along the walls on mats "
+            "and low benches in their grief, and the plank door in the far wall has "
+            "just been flung open on the black night. Cleopas and his companion have "
+            "burst in through it, filthy with dust and gasping, both talking at once "
+            "with their arms up. Every head in the room has snapped round toward the "
+            "door and two or three people are starting up off the floor. The room is "
+            "lit only by small clay saucer lamps with single open wick flames standing "
+            "on a low table and in two wall niches; there is no glass, no lantern and "
+            "no hanging fixture anywhere. Every person stands or sits UPRIGHT on the "
+            "floor with their feet on it, all at the same believable human scale, in "
+            "one ordinary rectangular room with a level floor, straight upright walls "
+            "and a flat ceiling. Nobody is on the ceiling, on a wall, floating, "
+            "tilted, upside down or duplicated, and the room's perspective is simple "
+            "and correct. Every figure has two arms, two hands, two legs and one head."
+            " THE CAMERA STANDS ON THE FLOOR INSIDE THE ROOM AT HEAD HEIGHT, BEHIND THE "
+            "SEATED MOURNERS ALONG THE NEAR WALL, AND SHOOTS PAST THEIR BACKS toward the "
+            "open door: the near figures are seen from behind as dark shoulders and "
+            "heads, and every face in the room is turned away from the lens toward the "
+            "two men in the doorway. NOT ONE FACE IS TURNED TOWARD THE LENS. It is a "
+            "single eye-level photograph on a 35mm prime with real film grain — never "
+            "an overhead or bird's-eye view, never a tilted or warped room. IT IS ONE "
+            "SINGLE PHOTOGRAPH FILLING THE WHOLE TALL 9:16 FRAME EDGE TO EDGE, TOP TO "
+            "BOTTOM: not two, three or more stacked horizontal panels, not a strip, not a "
+            "grid, not a triptych, not a contact sheet, and with no dividing bands, black "
+            "bars, borders or letterboxing anywhere. One room, one camera, one moment, "
+            "one picture."
         ),
     },
     {
         "id": "v2-r018-b36", "out": "s36-we-have-seen-him.jpeg", "seg": "n9 p3-p4",
         "window": "209.94-213.05", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLEOPAS", "COMPANION"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": "It's true. We have seen him.",
         "must_show": "close on the two of them saying it — filthy, gasping, faces blazing with certainty.",
         "must_not_show": "do not put Jesus in this frame.",
@@ -870,7 +907,7 @@ BEATS = [
         "id": "v2-r018-b38", "out": "s38-walking-with-the-ones-who-lost-hope.jpeg", "seg": "n10 p4",
         "window": "218.66-228.25", "wide": True, "jesus": True, "ref": REF,
         "locks": ["CLEOPAS", "COMPANION", "ROAD", "OUTBOUND"],
-        "char_refs": ["assets/s01-the-same-sunday.jpeg", "assets/s03-fell-into-step.jpeg"],
+        "char_refs": ["assets/s04-their-eyes-were-held.jpeg", "assets/s03-fell-into-step.jpeg"],
         "narration": ("On a dusty road, with two heartbroken people who had already quit "
                       "— walking at their pace, patiently opening the scriptures, until "
                       "the moment they could see. He is still in the habit of walking "
