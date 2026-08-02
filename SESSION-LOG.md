@@ -1,3 +1,54 @@
+## 2026-08-02 — Row 32 (The Talents, Matthew 25:14-30) realistic V2 rebuild — Claude worker 26, Machine A `Dev`
+
+**Commit: d7c43fbbd** (the MP4) · card repoint 6abfa3ca3 · claim da2b6f23f
+
+Shipped the realistic V2 cut of story 32 to the reviewer. 46 pictures rebuilt at native
+2K against V1's SEVEN. V1's holds were severe: one still covered n8, j24, j2 AND n9 —
+FORTY SECONDS on a single picture carrying BOTH closing red-letter verses (25:24, 25:25)
+plus the retelling the parable turns on; another covered j14, n1 and n2 (thirty-one and a
+half seconds); and the still used for "Well done" was REUSED for the nineteen-second
+closing application, so the reason the video exists had no picture of its own.
+
+The inherited scaffold was discarded — 25 pictures at 5.8 s each against the wave's
+measured 3.1-4.9, and it still carried V1's Jerusalem skyline in the OLIVET lock, the
+exact object row 31 had to delete after the model twice returned the modern tourist
+photograph. Jerusalem was deleted here BEFORE the first paid image instead of after.
+
+AUDIO LOCK PASS byte-identical (audio stream MD5 b5c59e94… matches the V1 MP4 exactly),
+157.268 s / 21,584,159 bytes. All 15 segments transcribed with faster-whisper against the
+live make_narration.py; four apparent differences were all whisper's, so no TEXT_OVERRIDES.
+Windows rebuilt from scratch from extract_beats and measured word timings — all fifteen
+`.timing.json` sidecars hold one phrase spanning their whole segment. Contiguous
+0.280 → 149.900, zero gaps, 2.00-4.76 s, 3.25 s/picture, every spoken segment covered.
+24 windows of true digital silence below -60 dB prove no music bed. Frames extracted and
+inspected: captions bottom-band only, white narrator / red Jesus KJV, card carries its words.
+
+REROLL RATE 6 of 52 = 11.5%, the wave's lowest so far. Every cure was a RE-STAGE, not a
+re-prohibition: the "five bags" frame rendered SIX because the prompt itself asked the
+nearest bag to stand open, so the open bag and all loose coins were DELETED and the count
+restated as a total; the master's DEPARTURE rendered as an ARRIVAL identical to the
+homecoming three pictures later, cured by geometry (already out on the road, seen from
+directly behind, dust hanging between camera and animals); and the third servant came back
+with a SHAVEN HEAD in both back-view beats, because a character reference cannot hold a
+head the camera is behind — cured by positive identity restatement of the HAIR itself and
+applied preventively to the third back view in the same pass.
+
+NEW SHARED CURE, in this build's TRADE lock and ready to promote: a pale-robed background
+figure in the trading yard was fixed not by another prohibition but by stating the
+background population POSITIVELY AND CAPPED — at most three men, every one of them solid
+dark saturated cloth head to foot, so every human shape behind the named figures is a dark
+mass. This is the same class of failure as row 31's white cloth on unlocked background
+figures and the geometry-beats-prohibition lesson from rows 10 and 14.
+
+Content care held: Matthew 25:30's outer darkness is not in this narration and no
+punishment is painted. The third servant walks out into the evening past a door left
+standing open, and the row ends on the master's laid table with one place still empty.
+
+Spend ≈$6.97 (52 images); shared meter $147.936 → $154.90. Live on the reviewer with
+`data-review-wave="realistic-v2"`; the raw URL serves 21,584,159 bytes.
+
+---
+
 ## 2026-08-02 — Row 31 (The Ten Virgins, Matthew 25:1-13) realistic V2 rebuild — Claude worker 25, Machine A `Dev`
 
 **Commit: 1ab42c698** (the MP4) · card repoint 8f38c12b2 · meter 132a465dc
