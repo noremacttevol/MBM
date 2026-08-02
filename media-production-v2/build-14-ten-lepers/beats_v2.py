@@ -86,6 +86,7 @@ LOCKS = {
 }
 
 OUTPUT_ASSET_DIR = "assets-realistic"
+OUTPUT_VIDEO_NAME = "luke-17_ten-lepers-realistic-v2.mp4"
 
 REF = True
 # The relational scale sentence, used verbatim in every frame that holds both the
