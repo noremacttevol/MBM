@@ -147,7 +147,15 @@ PERIOD_MATERIALS_LOCK = (
     "BATHROBE: no shawl collar, no lapel, no revers, no front placket, no buttons, "
     "hooks or fastenings, no set-in tailored shoulder, no cuffed sleeve, no patch "
     "pocket, no wide flat sash tied in a bow at the front, and no towelling, terry, "
-    "fleece, velour or quilted fabric anywhere."
+    "fleece, velour or quilted fabric anywhere. "
+    "WOVEN-CLOTH LOCK: every piece of cloth in the frame is WOVEN ON A LOOM and "
+    "shows it — a visible over-and-under grid of warp and weft threads, slightly "
+    "irregular, with a flat matte surface. NO CLOTH IS KNITTED OR MACHINE-MADE: no "
+    "knit stitch, no purl, no rib, no cable, no jersey, no seed stitch, no stretchy "
+    "cuff or collar band, no felted, fleeced, brushed, napped or looped pile, and no "
+    "sweater, jumper or sweatshirt texture anywhere, including at a rolled sleeve, a "
+    "wrist, a hem or a blurred edge. A close macro shot of a sleeve must still read "
+    "as coarse hand-woven wool or linen, never as knitwear."
 )
 
 # HAND-IRRIGATION — promoted into the shared recipe 2026-08-02 (row 26, the mustard
