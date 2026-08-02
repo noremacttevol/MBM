@@ -183,6 +183,53 @@ WIDE_DEFENSE = (
     "to sandals."
 )
 
+# WIDE-SHOT CAMERA GEOMETRY — promoted into the shared recipe 2026-08-01 from row 14
+# (ten lepers), where 5 of 9 rerolls were this ONE failure: b01 b04 b05 b12 b26 all
+# came back as a posed line of men facing the lens. The DEFECT_LOCK does NOT beat it,
+# because the scene text says the figures "stand large in the near foreground" and the
+# model resolves that phrasing as a group portrait. What fixed it in ONE pass every
+# time was naming where the camera sits relative to the subjects' BACKS. The sentences
+# below are PORTED byte-for-byte from the accepted row 14 prompts (b04, b19, b29) —
+# nothing here is newly invented wording.
+#
+# Beat authors: this block is the floor, not a substitute. On any wide multi-figure
+# beat you STILL state the camera-to-back geometry in the scene text itself
+# ("THE CAMERA STANDS BEHIND <them> AND SHOOTS PAST THEM: their BACKS fill the near
+# frame ... not one face is turned toward the lens"), and for travel beats name which
+# way the backs face so the direction of travel cannot reverse. `--check` warns when a
+# wide beat's scene never names the camera's position.
+WIDE_GEOMETRY_LOCK = (
+    "WIDE-SHOT CAMERA-GEOMETRY LOCK: this group is not arranged for the camera. The "
+    "camera stands behind or beside the near figures and shoots PAST them: their "
+    "BACKS and the backs of their heads fill the near frame, large and out of focus, "
+    "so not one face is turned toward the lens and no eyes are visible at all on the "
+    "near side. The figures are never lined up shoulder to shoulder presenting "
+    "themselves to the viewer, and anyone walking or running is seen from the side or "
+    "from directly behind, moving across or away from the camera, never advancing "
+    "into it."
+)
+
+# POSITIVE-INVENTORY — promoted 2026-08-01 from row 14 b08, where a SECOND, UNLOCKED
+# JESUS (long loose hair, bare face, pale robe) appeared standing inside the line of
+# ten lepers. Prohibitions had not stopped it; stating identity and headcount as an
+# inventory of what IS in the frame fixed it in one pass. Ported from that prompt.
+POSITIVE_INVENTORY_LOCK = (
+    "POSITIVE-INVENTORY LOCK: identity and headcount are stated as what IS in the "
+    "frame, not as what is forbidden. Every figure carries the garment colour, head "
+    "covering and hair locked to him. When the narration names a number, exactly that "
+    "many people stand in the frame and no additional one — ten men and no eleventh — "
+    "each separated far enough to be counted individually."
+)
+
+# The identity half of the same lesson. Only added where Jesus is actually in the
+# beat, so it can never pull him into a frame he does not belong in. Kept to the
+# clause that is true in EVERY story — row 14 also added "the only man with long
+# loose hair and an uncovered face", which was true there because the ten had their
+# faces wrapped; that half stays a per-beat line, not a shared one.
+JESUS_INVENTORY_LOCK = (
+    "HE IS THE ONLY MAN IN CREAM ANYWHERE IN THE FRAME."
+)
+
 # Anti-panel clause — mandatory on every wide multi-figure still (Standing Law e).
 # V1's wording said "ILLUSTRATION"; V2 is photographic, so the noun changes and
 # nothing else does.
@@ -253,9 +300,10 @@ def load_beats(build_dir):
 
 def assemble(beat, local_locks):
     """Build the full prompt string for one beat."""
-    parts = [STYLE_V2, QUALITY_LOCK, DEFECT_LOCK]
+    parts = [STYLE_V2, QUALITY_LOCK, DEFECT_LOCK, POSITIVE_INVENTORY_LOCK]
     if beat.get("wide"):
         parts.append(WIDE_DEFENSE)
+        parts.append(WIDE_GEOMETRY_LOCK)
     # ANTI-PANEL ON EVERY BEAT, not just wide ones (row 2, b18). It used to ride
     # along with the wide defense line, so tight shots got no panel protection —
     # and b18, a tight shot, came back with a landscape pasted in above the wall
@@ -271,6 +319,7 @@ def assemble(beat, local_locks):
         # This line said V4 while v5 sat unused above it, so every prompt
         # kept describing the OLD face and fought the new reference image.
         parts.append(JESUS_LOCK_V5)
+        parts.append(JESUS_INVENTORY_LOCK)
     if beat.get("must_show"):
         parts.append("STORY MUST SHOW: " + beat["must_show"])
     if beat.get("must_not_show"):
@@ -312,6 +361,18 @@ def check(build_dir, mod):
             fails.append(f"{beat['id']}: NEGATIVE-PROMPT list is banned in V2")
         if beat.get("wide") and ANTI_PANEL not in p:
             fails.append(f"{beat['id']}: wide shot missing the anti-panel clause")
+        # Row 14 lesson: on a wide multi-figure beat the shared blocks are not enough —
+        # the SCENE text itself has to say where the camera stands relative to the
+        # subjects' backs, or the model composes a posed line facing the lens.
+        if beat.get("wide"):
+            scene_low = beat["scene"].lower()
+            if "camera" not in scene_low or not any(
+                k in scene_low for k in ("behind", "past them", "backs", "from the side")
+            ):
+                warns.append(
+                    f"{beat['id']}: wide beat does not state camera-to-back geometry "
+                    "in its own scene text (row 14: 5 of 9 rerolls were this)"
+                )
         # A char_ref that does not exist must fail HERE, not after a credit is spent.
         for cref in beat.get("char_refs", []):
             path = cref if os.path.isabs(cref) else os.path.join(build_dir, cref)
