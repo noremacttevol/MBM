@@ -202,6 +202,7 @@ BEATS = [
             "other sweeps flour aside, quick and practised and completely assured. "
             "Flour on her forearms and the edge of her russet sleeve. The firelight "
             "moves across her knuckles. Each hand has five fingers."
+            " Martha's own hands and forearms are in the frame: a woman's working hands, WARM OLIVE-BROWN skin, and the deep russet-brown wool sleeve of her dress pushed back on her forearm. This is a PHOTOGRAPH taken on a fast prime lens with shallow depth of field and real film grain — no illustration, no painting, no render."
         ),
     },
     {
@@ -320,6 +321,7 @@ BEATS = [
             "of them. Warm firelight, deep shadows. Every figure has two arms, two "
             "hands and one head."
             " The camera stands behind the circle of seated men and shoots past their backs toward Jesus; the men are seen from behind or in profile, Mary from behind in three-quarter, and not one face is turned toward the lens. "
+            " The only lights in the frame are open hearth fire and small clay saucer lamps with a single wick flame; no glass chimney lamp, metal lantern, candle-stand or hanging fixture appears on any shelf or wall, in focus or blurred."
         ),
     },
     {
@@ -376,6 +378,7 @@ BEATS = [
             " The camera is back far enough to hold the whole room. Every figure has "
             "two arms, two hands and one head."
             " The camera stands behind and beside the seated men and shoots past their backs and turned heads toward Martha; she is in three-quarter, her gaze going down to her sister and out past the lower left of the frame, and not one face is turned toward the lens. "
+            " ONE SINGLE PHOTOGRAPH of one continuous room, edge to edge — no strip, no stacked panels, no divided frame. It is a photograph on a fast prime lens with shallow depth of field and real film grain, not an illustration, painting or render."
         ),
     },
     {
@@ -432,6 +435,7 @@ BEATS = [
             "light. The camera holds the whole room. Every figure has two arms, two "
             "hands and one head."
             " The camera stands well back behind the seated travellers and shoots past their backs across the still room; every person is seen from behind, in profile or in three-quarter, and not one face is turned toward the lens. "
+            " ONE SINGLE PHOTOGRAPH of one continuous room, edge to edge — the frame is NOT split into strips, bands, stacked panels or a sequence of shots, and there is only ONE image with one horizon and one set of walls. It is a photograph on a fast prime lens with shallow depth of field and real film grain, not an illustration, painting or render."
         ),
     },
     {
@@ -506,6 +510,7 @@ BEATS = [
             "of her now, the cloth slipped between her fingers, flour still on the "
             "knuckles and along one forearm. They are good hands and they have worked "
             "hard all evening. Warm firelight across them. Each hand has five fingers."
+            " These are A WOMAN'S hands — Martha's — with WARM OLIVE-BROWN sun-worked skin, and the sleeve above them is her DEEP RUSSET-BROWN wool dress pushed back to the forearm. No man's hands and no pale European skin appear. It is a photograph on a fast prime lens with shallow depth of field and real film grain, not an illustration or render."
         ),
     },
     {
@@ -565,6 +570,7 @@ BEATS = [
             "warm light. The camera is back far enough for all three. Every figure has "
             "two arms, two hands and one head."
             " The camera stands behind and beside Martha, shooting past her back and her lowered arm toward Jesus and Mary below her; the faces are three-quarter and every gaze exits the frame past the lens. "
+            " IT IS NIGHT INSIDE THE HOUSE: the only light in the frame is the low hearth fire and two or three small clay oil lamps, so the room is warm, uneven and deeply shadowed, and any window or doorway shows DARK BLUE NIGHT beyond it. No daylight, no sunbeam, no bright window, no sunlit wall appears anywhere in the picture."
         ),
     },
     {
@@ -585,6 +591,7 @@ BEATS = [
             "anything about it. Jesus sits above them talking on. Warm firelight. "
             "Every figure has two arms, two hands and one head."
             " The camera sits low behind Mary's shoulder and shoots past her back toward Martha's three-quarter profile and Jesus beyond them; every gaze travels between the three of them and past the lens, never into it. "
+            " EXACTLY THREE PEOPLE ARE IN THE FRAME and no fourth: Martha, Mary and Jesus. No other woman, man, child or seated body appears in the foreground, background or at any edge. The only light is the hearth fire and small clay saucer lamps; no glass chimney lamp, metal lantern or hanging fixture appears anywhere."
         ),
     },
     {
