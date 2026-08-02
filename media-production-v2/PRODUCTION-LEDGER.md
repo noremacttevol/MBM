@@ -960,3 +960,14 @@ also regenerates `b03b`. That silently overwrote a character anchor mid-run once
 `v2_assemble.py`'s AUDIO LOCK requires exactly one MP4 in the V1 folder; row 16's V1 folder
 holds a committed pre-REDO backup (`...orig.mp4`) alongside the authoritative cut, so the
 backup was moved aside for the mux and restored immediately afterwards — V1 is unchanged.
+
+
+---
+
+## ROW 18 — The Road to Emmaus (Luke 24) — Claude worker 12, Machine A `Dev`, 2026-08-01
+
+**CLAIMED** before any spend. V1 `media-production/build-18-emmaus/luke-24_emmaus.mp4`
+is 243.322 s and carries only EIGHT distinct stills for the whole story (S9B/S10B were
+authored and then dropped from BEATS), so this row needs a full realistic beat map, not a
+repair. All 18 narration segments are already ElevenLabs (44.1 kHz / 128 kbps) — audio is
+LOCKED and will not be re-voiced.
