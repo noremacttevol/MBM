@@ -933,3 +933,30 @@ failed on depleted credits, which is what led to the FLOW-ONLY law.
 narration — nothing re-voiced. Plan: `v2_prompt.py --check` PASS, generate at native
 2K under a hard ceiling, QC every image by eye, re-time all windows from the fixed
 `extract_beats.py`, assemble, verify rendered frames, ship to the Reviewer only.
+
+**Shipped 2026-08-01 (43c9d5716 / 48e970c0a).** 26 pictures at native 2K; 51 paid
+generations for 26 finals (49% reroll), ≈$4.98, meter $61.37. Every reroll was a law
+violation, and the same four families accounted for nearly all of them:
+
+1. **Period-wrong light.** Glass kerosene hurricane lamps, a modern hanging fixture and
+   a wrought-iron candelabra kept appearing. Root cause: the HOUSE lock (which names the
+   clay saucer lamps) was only attached to the wide beats, so the 14 tight shots invented
+   their own lighting. Fix: HOUSE now rides every beat in the build.
+2. **Establishing-shot anachronism.** An aerial Bethany-over-Jerusalem came back twice
+   with the Dome of the Rock, satellite dishes, tiled roofs and street lights, and once
+   letterboxed. Naming the period did not beat it; replacing the aerial panorama with a
+   GROUND-LEVEL village lane did, first try. Lesson: when a shot's subject is a skyline,
+   the model fills it from photographs of the modern city — remove the skyline.
+3. **Identity drift on the two sisters.** Martha's hair came loose, Mary grew a
+   headscarf, aprons turned into modern bib aprons and skin went pale. Fixed by writing
+   the invariants INTO the character locks (hair always bound/always bare, olive-brown
+   skin, no buttons or closed shoes) plus a second image anchor for Martha.
+4. **Style/format breaks.** Two beats returned as painted illustrations and one as a
+   three-panel strip. Both were cured by one sentence in the beat's own scene text
+   naming it as ONE photograph on a fast prime lens with grain.
+
+Also worth recording: `v2_gen_api.py --only` matches beat ids by SUBSTRING, so `--only b03`
+also regenerates `b03b`. That silently overwrote a character anchor mid-run once. And
+`v2_assemble.py`'s AUDIO LOCK requires exactly one MP4 in the V1 folder; row 16's V1 folder
+holds a committed pre-REDO backup (`...orig.mp4`) alongside the authoritative cut, so the
+backup was moved aside for the mux and restored immediately afterwards — V1 is unchanged.

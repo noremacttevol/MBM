@@ -44,6 +44,25 @@ The lesson, twice this month now: read the artefact, not the prose about it.
 
 ---
 
+## 2026-08-01 — Row 16 (Mary and Martha) realistic V2 rebuild — Claude worker 11, Machine A (`Dev`)
+
+**Commit:** 48e970c0a (card repoint) / 43c9d5716 (the cut)
+
+Built and shipped the realistic V2 rebuild of Story 16 (Luke 10:38-42). 26 pictures at
+native 2K, including one new beat closing a 4.2 s stretch of narration that had no
+picture. The inherited beat map's windows were written against a 139.4 s timeline while
+the real audio is 166.8 s, so every window was re-derived from the fixed extract_beats
+and split on each segment's own phrase timing. Audio was never touched: AUDIO LOCK PASS,
+SHA256 d380ba61…, 166.8 s / 20.3 MB. Captions verified white for the narrator and red for
+Jesus's KJV in the bottom band on rendered frames, and the closing question card carries
+its words.
+
+Reroll rate 49% (51 paid generations for 26 finals, ≈$4.98). Every reroll was a real law
+violation, and the fixes went into the SHARED locks rather than single prompts — see
+media-production-v2/PRODUCTION-LEDGER.md for the four failure families and the two tool
+gotchas found (`--only` matches beat ids by substring; the AUDIO LOCK needs exactly one
+MP4 in the V1 folder, and this row keeps a committed pre-REDO backup there).
+
 ## 2026-08-01 — Video 14 (The Ten Lepers): realistic V2 shipped, giants complaint fixed (Machine A / `Dev`, Claude worker 9)
 
 Commit: 0ff45a9b0 (ship) · c8ca (claim). Claimed row 14 by push before any
