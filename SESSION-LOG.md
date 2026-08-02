@@ -32,6 +32,33 @@ frame, so the teaching and the parable share one place and only the plant change
 frames extracted and viewed, raw GitHub URL verified at 20,288,189 bytes, live card carries
 `data-review-wave="realistic-v2"`. Awaiting Cameron.
 
+## 2026-08-02 — Row 27 (The Leaven) realistic V2 shipped + two shared locks promoted
+**Machine:** A (Dev) · **Worker:** Claude worker 19 · **Commit:** dacfcc37e
+
+* Promoted the **HAND-IRRIGATION LOCK** row 26 left "ready to paste" in the ledger into
+  `media-production-v2/v2_prompt.py` as a named shared SETTING lock (`SHARED_SETTING_LOCKS`),
+  opted into by name so it protects any garden, orchard, vineyard or irrigated field without
+  riding along on every unrelated prompt. Commit `fcb179e1a`.
+* Claimed and shipped **row 27, The Leaven (Matthew 13:33)** — 29 pictures rebuilt at native 2K
+  against V1's EIGHT, 104.47 s / 20.3 MB, AUDIO LOCK PASS (SHA256 `3c20c13a…`), reroll rate
+  27.6 %, ≈$5.09 spend. Live on the reviewer with `data-review-wave="realistic-v2"`; the raw URL
+  serves 20,297,584 bytes, matching the committed blob.
+* Windows recomputed from the fixed `extract_beats` and split on WORD timings transcribed from the
+  mp3s. **Both sidecar sources on this row are unusable** — four of ten `.timing.json` files carry
+  one phrase spanning the whole segment, and the `.mp3.words.json` files in the V1 audio folder are
+  simply wrong (n1's last word ends at 8.52 s inside a 6.295 s file). Sourcing trap checked and
+  cleared: all eleven segments transcribe to the live script word for word, no `TEXT_OVERRIDES`.
+* **New shared lock out of this row: `WOVEN-CLOTH LOCK`** — every cloth is woven on a loom with a
+  visible warp-and-weft grid, never knitted, ribbed, cabled, fleeced or napped, including at a
+  rolled sleeve or a blurred edge. Two sleeves had come back as sweater ribbing and polar fleece:
+  `GARMENT-CONSTRUCTION` policed modern *shapes* and said nothing about how the cloth is *made*.
+* Second lesson, in the ledger: **an object lock protects the object, not the room.** Two macro food
+  shots came back as present-day photography (a garden deck, a bamboo mat, a white kitchen). The
+  cure is to state where the camera is standing in the world and tilt so a band of that world is in
+  frame.
+
+**Next:** rows 28+ are open. Rows 12 and 17 remain off-limits.
+
 ## 2026-08-02 — URGENT AUDIT: stale V1 audio in shipped V2 cuts — all 23 rows CLEAN; AUDIO LOCK now guarded
 
 Commit: a5d3488dc
