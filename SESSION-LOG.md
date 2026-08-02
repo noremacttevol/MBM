@@ -1,3 +1,29 @@
+## 2026-08-02 — Video 22 (The Unmerciful Servant, Matt 18): realistic V2 built and committed, deploy blocked (Machine A / `Dev`, Claude worker 16)
+
+Commit: 530018dd3 (claim) · b8f9bfa76 (pictures) · cd64c74a6 (cut + assembler fix). Row 22
+claimed by push before any spend. 48 pictures rebuilt at native 2K against V1's EIGHT — V1
+held one still from 0.28 s to 35.4 s across five segments and gave Jesus's "seventy times
+seven" no picture at all. The inherited 38-beat map was discarded (three windows were
+copy-paste wrecks pointing back into the first 30 s from the end of the story); every window
+was recomputed from the fixed extract_beats and split on each segment's own phrase timings —
+contiguous 0.28 s → 216.10 s, zero gaps, all 24 speech-starts verified inside their windows.
+
+The sourcing trap bit and BOTH narration siblings were wrong: whisper transcription proved
+n14 matches the live script but n1 matches NEITHER (the mp3 is 2.534 s and says only "Peter
+must have thought he was being generous."), so n1 is corrected through the shared
+TEXT_OVERRIDES hook with V1 untouched. Also fixed a shared tool bug — v2_assemble globbed
+every .mp4 in the V1 folder and this build keeps a stale 245 s .orig.mp4 beside the real
+225.033 s cut, so the AUDIO LOCK could not run; backup suffixes are now excluded.
+
+AUDIO LOCK PASS (SHA256 9ce3eb99…), 225.0 s / 21.7 MB, captions confirmed on rendered frames
+(white narrator, light-blue Peter scripture, red Jesus KJV, bottom band only) and the closing
+card carries its words. Reroll rate 10%, ≈$6.71 spend, meter $92.73 → $99.96.
+
+⚠️ NOT LIVE YET: `firebase deploy --only hosting` returns HTTP 429 "exceeded the Hosting
+storage quota". The review card is repointed, carries data-review-wave="realistic-v2" and is
+committed, but Cameron needs to free Hosting storage or upgrade the plan before the board
+shows it. Nothing else is outstanding on row 22.
+
 ## 2026-08-02 — Video 21 (The Lost Sheep, Luke 15): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 15)
 
 Commit: 5214b41df (cut) · a42d5bcac (reviewer card) · 91c8e97c5 (bookkeeping). Row 21 claimed by push

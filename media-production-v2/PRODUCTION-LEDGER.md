@@ -1204,3 +1204,87 @@ reviewer. **≈$5.36** (meter $87.37 → $92.73): 3 anchors $0.40, 2 anchor rero
    deploy. Note for the next worker: `media-production-v2/.gitignore` ignores `*.mp4`,
    so the delivered cut needs `git add -f` — a plain `git add` of the build folder
    silently commits nothing.
+
+---
+
+## Session — 2026-08-02 · Row 22 (The Unmerciful Servant, Matt 18) · Claude worker 16
+
+- **Machine:** Machine A — hostname `Dev`
+- **Status:** `BLOCKED(firebase hosting storage quota)` — the cut, the beat map and the
+  repointed review card are all built, verified and committed; only the deploy is blocked.
+- **Spend:** ≈$6.71 (50 paid images at $0.134: 48 delivered + 2 extra passes on the king
+  anchor). Meter $92.73 → $99.96. No duplicate billing; one generator process throughout.
+- **Reroll rate:** 10% (5 of 48 delivered beats needed a second pass).
+- **Cut:** `media-production-v2/build-22-unmerciful-servant/matthew-18_unmerciful-servant.mp4`
+  — 225.033 s / 21,676,069 bytes, AUDIO LOCK PASS (SHA256 9ce3eb99…), identical duration to V1.
+
+### What this row cost, and what it taught
+
+1. **THE SOURCING TRAP BIT, AND BOTH SIBLINGS WERE WRONG.** This build carries a
+   `.pre-echo` and a `.pre-speaker` narration sibling, and the live script disagrees with
+   `.pre-echo` on TWO segments. Transcribing the shipped mp3s with faster-whisper split the
+   verdict: on **n14** the LIVE script is right, but on **n1 NEITHER file is** — the mp3 is
+   2.534 s long and contains only "Peter must have thought he was being generous.", while
+   both scripts open it with a retelling nobody says. Printing either would have drawn words
+   Cameron never hears AND mistimed the segment, because `timed_windows` matches caption text
+   against the timing sidecar character by character. Fixed with the shared `TEXT_OVERRIDES`
+   hook; V1 was never edited. **Lesson: "the live script is authoritative" is not a rule —
+   transcribe when the siblings disagree, and be ready for the answer to be "neither".**
+
+2. **An inherited beat map can be worse than no map.** The 38-beat map dated 2026-07-29 had
+   THREE windows that were copy-paste wrecks (b29 122.03-123.52, b31 13.45-15.09, b34
+   19.62-25.38) — all sitting at the END of the story while pointing back into its first
+   thirty seconds — plus a 7.79 s hole where Jesus's "until seventy times seven", the single
+   most important line in the row, had NO PICTURE AT ALL. It was discarded, not re-timed.
+
+3. **A SHARED TOOL BUG that would have hit future rows: `v2_assemble` globbed every `.mp4`
+   in the V1 folder** and demanded exactly one. Three V1 builds keep a pre-fix backup beside
+   the shipped cut; build-22 has a stale 245.000 s `.orig.mp4` next to the real 225.033 s
+   cut, so the AUDIO LOCK refused to run at all. Backup suffixes (`.orig/.bak/.old/.prev`)
+   are now excluded in `v2_assemble.py`, with V1 left read-only.
+
+4. **New settings invent new anachronisms — the palace hall proved it twice.** The king's
+   identity anchor came back with a GOTHIC-TRACERY chair and a HALF-TIMBERED European wall,
+   and a later hall wide had a MODERN LIGHT FIXTURE mounted above the doorway. Both fixes
+   went into the SHARED `HALL` lock stated positively (the seat is plain squared cedar with
+   straight incised banding; every wall is smooth lime plaster over dressed stone with no
+   exposed timber framing; the clerestory slots are the only light and nothing else emits).
+
+5. **`--redo` INHERITS THE DEFECT IT IS MEANT TO FIX.** The first king reroll used `--redo`,
+   which attaches the defective frame as the rough-draft ref, and the ROUGH-DRAFT CONTINUITY
+   LAW then told the model to preserve the very wall and chair being rejected — so the
+   anachronism survived a paid pass. **To fix a composition-level defect: delete the file,
+   withhold that character's own REFS entry, and generate fresh with no reference.** That
+   cost one image to learn.
+
+6. **A face sheet does not hold a character who is small in frame — again.** The debtor
+   drifted into a fair-skinned, short-brown-haired, near-clean-shaven man in the one wide
+   where he is the near figure seen from behind. Restating his locked identity POSITIVELY
+   inside that beat's own scene text ("weathered olive-brown skin, cropped black hair
+   receding at the temples, thin black beard … never a different man from the one who lay
+   on the hall floor") fixed it in one pass.
+
+7. **The lens-gaze cure worked first time for the fourth row running.** Both Peter beats
+   came back with his pupils on the lens; giving the gaze a NAMED TARGET INSIDE THE FRAME
+   (Jesus's face on the step) and putting the camera behind his shoulder fixed both at once.
+
+8. **Staging checked across the library:** rows 2, 8 and 21 already stage Luke 15 teaching
+   scenes and row 16 a lamplit interior, so this frame story sits OUTSIDE on a BLACK BASALT
+   Capernaum doorstep. Basalt rather than the honey limestone every other row uses makes the
+   row instantly distinguishable. Matthew 18:26 and 18:29 are shot as a deliberate mirror —
+   same camera height, same seen-from-behind stretched-out posture — so the two beggings
+   rhyme and the forgiven man is standing exactly where the king stood.
+
+9. **Review-board edit, done safely:** anchored on the v22 card's own `id` + old `data-hash`,
+   its old V1 mp4 URL and its own flag line; diffed afterwards — 6 lines changed, all on the
+   v22 card, rows 12 and 17 byte-identical. The card carries `data-review-wave="realistic-v2"`.
+
+### ⚠️ HANDOFF — the one thing not finished
+
+`npx firebase-tools deploy --only hosting` fails with **HTTP 429: "You have exceeded the
+Hosting storage quota for your Firebase project."** Only the `live` channel exists, so the
+storage is accumulated release versions of that channel. Clearing it means either deleting
+Cameron's Hosting release history or moving the project to the Blaze plan — both are his
+call, and the CLI exposes no `hosting:versions:delete`, so the next worker should NOT try to
+brute-force it. Everything else for row 22 is committed and verified; the board will show
+the new cut the moment a deploy succeeds.
