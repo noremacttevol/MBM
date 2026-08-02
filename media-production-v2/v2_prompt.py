@@ -368,10 +368,48 @@ BACKGROUND_CAST_LOCK = (
     "Jesus's own wool robe."
 )
 
+# ANCIENT-PRISON — promoted into the shared recipe 2026-08-02 (row 33, the sheep and the
+# goats, whose sixth work of mercy is "I was in prison, and ye came unto me"). Rows 16/18
+# paid for interior lighting, row 19 for boat fittings, row 22 for city skylines, row 26
+# for irrigation hose, row 27 for knitted fabric, row 28 for the tool in the hand, row 29
+# for the road and the market stall, row 31 for night lamplight, row 32 for the background
+# crowd. A PRISON's own anachronism is THE CELL ITSELF, and nothing above reaches it: the
+# word "prison" is one of the most modern-loaded nouns in English and the model reaches
+# straight for a Victorian or American jail — round machined steel bars in a welded grid,
+# a hinged barred door with a lock plate, a bunk, a concrete floor, a corridor of cells.
+# PERIOD-MATERIALS bans manufactured OBJECTS but a cell is ARCHITECTURE, which is exactly
+# why it slips through, the same way a road surface does. A first-century holding place is
+# a pit, a cistern or a vaulted undercroft below a house or fortress, closed by a heavy
+# timber grille or a stone slab, and the prisoner is held by hand-forged iron on his own
+# limbs rather than by an engineered cage. Stated POSITIVELY per the row-10 geometry
+# lesson. Prison recurs across the 200 (John the Baptist, Peter, Paul, Barabbas), so it
+# belongs here rather than in a tenth build-local copy. Any build with a prison, cell,
+# dungeon, pit or a person in chains names "ANCIENT-PRISON".
+ANCIENT_PRISON_LOCK = (
+    "ANCIENT-PRISON LOCK: this holding place is first-century and it is CUT AND BUILT, "
+    "not manufactured. It is a low vaulted undercroft of rough dressed limestone blocks "
+    "and packed earth beneath a larger building, its walls damp, stained and hand-chiselled, "
+    "its floor bare trodden earth and worn stone with a little dirty straw in one corner. "
+    "The ONLY opening is a small squat rectangle in the stone closed by a grille of THICK "
+    "SQUARE-CUT TIMBER BARS — split beams the thickness of a man's forearm, adzed flat, "
+    "unpainted, set upright into hand-cut sockets in the stone and lashed across with "
+    "twisted flax cord — with a heavy hand-forged iron ring and staple pinned into the "
+    "stone beside it, the iron dark grey, uneven, pitted and showing hammer marks. A "
+    "prisoner is held by a hand-forged iron shackle closed round one ankle or wrist and "
+    "a few heavy hand-forged links pinned to the wall. THIS IS NOT A MODERN JAIL: there "
+    "are no round machined steel bars, no welded or riveted grid, no bar spacing of "
+    "identical milled rods, no hinged barred door, no lock plate, keyhole, padlock, bolt "
+    "or latch of manufactured metal, no cell block, corridor or row of cells, no bench, "
+    "bunk, cot, mattress or blanket, no concrete, brick, plaster render, tile or poured "
+    "floor, no drain, grating or pipe, no window glass or shutter, and no number, letter, "
+    "sign, scratch-mark tally or graffiti anywhere on the walls."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
 SHARED_SETTING_LOCKS = {
+    "ANCIENT-PRISON": ANCIENT_PRISON_LOCK,
     "BACKGROUND-CAST": BACKGROUND_CAST_LOCK,
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
     "HAND-TOOLS": HAND_TOOLS_LOCK,
