@@ -75,6 +75,21 @@ grief — no violence, no trial, no cross anywhere in this build.
 """
 
 LOCKS = {
+    # Added 2026-08-02 after the first pass. Peter came back as a GREY-HAIRED OLD MAN
+    # in b28 and b31 and as a different man entirely in b14 — always in the wide or
+    # middle-distance frames, where the attached CAST-V2 sheet carries least weight.
+    # The canonical PETER lock names his hair as "thick dark curly" but never rules out
+    # age drift, so the age invariant is stated here and attached to every Peter beat.
+    "PETER-HOLD": (
+        "PETER AGE-AND-HAIR INVARIANT: Peter is a man in his MID-THIRTIES in every "
+        "frame of this story, near, far, sharp or blurred. His hair is thick, dark "
+        "brown-black and curly and his full beard is the same dark brown-black. HE IS "
+        "NEVER GREY-HAIRED, never white-haired, never grey- or white-bearded, never "
+        "balding or thinning, never an old man, and never a different man from the "
+        "attached reference photographs — same face, same hairline, same beard, same "
+        "heavy build and broad shoulders. He wears his blue-grey wool tunic with a "
+        "rope belt and never anything cream or off-white."
+    ),
     "SEA-NIGHT": (
         "SEA-OF-GALILEE-NIGHT LOCK: the open lake in the dark hours before dawn — "
         "flat black water moving in long slow swells with faint starlight broken on "
@@ -121,7 +136,10 @@ LOCKS = {
         "along the other with pieces of shaped cork bark and hollow gourd. Soaked "
         "sections are dark and heavy and drip; dry sections are pale and stiff. The "
         "net is never fine transparent monofilament, never bright synthetic mesh, and "
-        "carries no moulded, coloured or manufactured float of any kind."
+        "carries no moulded, coloured or manufactured float of any kind. IT IS A LARGE "
+        "WORKING DRAG NET the length of the boat, handled by several men together — "
+        "never a small circular one-man cast net with a ring of identical weights "
+        "spaced evenly around a perfectly round rim."
     ),
     "CREW": (
         "CREW LOCK: exactly SEVEN men are aboard this boat and no eighth — Peter, "
@@ -156,7 +174,11 @@ LOCKS = {
         "FROM BELOW by the coals, and everything beyond the reach of that small red "
         "light is black. THE COALS ARE THE ONLY LIGHT SOURCE IN THE FRAME: no torch "
         "flame, no lamp on a wall, no lantern, no glass, no moonlight, no fill light "
-        "from anywhere, and no lit window behind them."
+        "from anywhere, and no lit window behind them. EVERY PERSON'S FACE IS ORDINARY "
+        "HUMAN SKIN THAT RECEIVES LIGHT AND NEVER EMITS IT — a face may be lit warm "
+        "orange by the coals or lost in darkness, but no face, head or hood is itself "
+        "a source of light, a lit shape, a burning mask or a pair of shining points in "
+        "the dark, near or far, sharp or blurred."
     ),
 }
 
@@ -169,28 +191,31 @@ BEATS = [
     {
         "id": "v2-r019-b01", "out": "s01-he-swore-he-never-would.jpeg", "seg": "n1",
         "window": "0.28-4.66", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER"],
+        "locks": ["PETER", "PETER-HOLD"],
         "narration": "Peter had sworn he would die before he would ever deny Jesus.",
         "must_show": "Peter mid-vow, one fist against his own chest, absolutely certain, in warm indoor lamplight before any of it happened.",
         "must_not_show": "no courtyard, no fire of coals, no boat, no shore, no night sky. Jesus is not in this frame.",
         "scene": (
             "One photograph, 85mm prime lens wide open, shallow depth of field, fine "
             "film grain. Close on Peter indoors at night, lit only by one clay saucer "
-            "lamp standing on a table just out of frame at his right, its small warm "
-            "flame raking across his cheek and leaving the room behind him in soft "
-            "brown darkness. He is mid-vow: his own big fist pressed hard against his "
-            "chest, his chin lifted, his brows drawn, his eyes fierce and shining with "
-            "total conviction, mouth open on the word. He is speaking to someone "
-            "seated below and to his left, and his eyes travel down and out of the "
-            "left edge of the frame, well off the camera axis. He has one head, two "
-            "arms and two complete hands."
+            "lamp that stands by itself on a low wooden table inside the frame at his "
+            "right, resting on the table top with nobody holding it and no hand, arm or "
+            "shoulder anywhere near it; its small warm flame rakes across his cheek and "
+            "leaves the room behind him in soft brown darkness. PETER IS THE ONLY "
+            "PERSON IN THE PICTURE and no second body, hand, arm or shoulder enters the "
+            "frame from any edge. He is mid-vow: his own big fist pressed hard against "
+            "his chest, his chin lifted, his brows drawn, his eyes fierce and shining "
+            "with total conviction, mouth open on the word. He is speaking to someone "
+            "seated below and to his left, and his eyes travel down and out of the left "
+            "edge of the frame, well off the camera axis. He has one head, two arms and "
+            "two complete hands."
         ),
     },
     # ---------------------------------------- n2 — the denial and the grief ----
     {
         "id": "v2-r019-b02", "out": "s02-he-denied-him-three-times.jpeg", "seg": "n2 p1",
         "window": "4.66-7.79", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "COURTYARD"],
+        "locks": ["PETER", "PETER-HOLD", "COURTYARD"],
         "narration": "Then, in one terrible night, he denied him three times.",
         "must_show": "Peter at the courtyard coals denying it — his palm up and out, pushing the accusation away, half turned from the servant girl who is pointing at him.",
         "must_not_show": "no violence, no soldiers striking anyone, no trial, no cross, no rooster. Jesus is not in this frame.",
@@ -198,44 +223,53 @@ BEATS = [
             "One photograph, 35mm lens, handheld, high ISO grain. THE CAMERA STANDS "
             "BEHIND AND JUST BEYOND THE CIRCLE OF SERVANTS AND SHOOTS PAST THEIR BACKS "
             "ACROSS THE BRAZIER: two dark cloaked backs fill the near left of the "
-            "frame, out of focus and lit red along their edges, and Peter is beyond "
-            "the coals on the far side, half turned away, caught in the act of "
-            "denying. His right palm is up and out, pushing the accusation away, his "
-            "head is turned sharply to his own left toward a young servant girl whose "
-            "arm is raised pointing at him, and his eyeline exits the left edge of the "
-            "frame. NOT ONE FACE IS TURNED TOWARD THE LENS. His face is lit orange "
-            "from below by the coals and his eyes are wide and frightened under it. "
-            "Black night above and behind everyone."
+            "frame, out of focus and lit red along their edges, and Peter is beyond the "
+            "coals on the far side, half turned away, caught in the act of denying. His "
+            "right palm is up and out, pushing the accusation away, his head and his "
+            "whole face are turned sharply AWAY from the camera to his own left, toward "
+            "a young servant girl at the left edge whose arm is raised pointing at him, "
+            "so he is seen in three-quarter profile and his eyeline runs across the "
+            "frame and exits its LEFT edge, far off the camera axis. HIS PUPILS ARE NOT "
+            "ON THE LENS AND NOT ONE FACE IN THE PICTURE IS TURNED TOWARD THE LENS. The "
+            "frame holds only the servant girl, the ring of dark cloaked servants "
+            "around the brazier and Peter beyond it: no additional body, shoulder, arm "
+            "or pale sleeve intrudes at the right edge or any other edge, and every "
+            "garment in the picture is a dark or earth-toned wool. His face is lit "
+            "orange from below by the coals and his eyes are wide and frightened under "
+            "it. Black night above and behind everyone."
         ),
     },
     {
         "id": "v2-r019-b03", "out": "s03-he-wept-bitterly.jpeg", "seg": "n2 p2",
         "window": "7.79-14.25", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "COURTYARD"],
+        "locks": ["PETER", "PETER-HOLD", "COURTYARD"],
         "narration": ("The rooster crowed, Jesus turned and looked at him, and Peter "
                       "went out and wept bitterly."),
         "must_show": "Peter alone outside in the dark, doubled over against a black stone wall, wrecked — the courtyard coals small and red far behind him.",
         "must_not_show": "do NOT show Jesus or the look itself. No trial scene, no soldiers, no rooster on a wall, no dawn light yet.",
         "scene": (
             "One photograph, 40mm lens, very high ISO, heavy grain, almost no light. "
-            "THE CAMERA IS OUT IN THE DARK ALLEY BESIDE PETER AND SHOOTS ALONG THE "
-            "WALL PAST HIS SHOULDER, so he is seen from behind and in three-quarter "
-            "from behind and no part of his face is turned to the lens. He has got out "
-            "of the courtyard and is alone against a black stone wall, doubled over, "
-            "one forearm braced flat on the stone with his forehead pressed against "
-            "it, his other hand clamped over his face, his whole back and shoulders "
-            "shaking. Far behind him through the gateway the bed of coals still burns "
-            "small and red with two dark figures standing around it, neither of them "
-            "looking his way. Deep night and hard black shadow; the only light is the "
-            "distant red of the coals and a faint cold blue along the top of the wall. "
-            "He has one head, two arms and two complete hands."
+            "THE CAMERA IS OUT IN THE DARK ALLEY BESIDE PETER AND SHOOTS ALONG THE WALL "
+            "PAST HIS SHOULDER, so he is seen from behind and in three-quarter from "
+            "behind and no part of his face is turned to the lens. He has got out of "
+            "the courtyard and is alone against a black stone wall, doubled over, one "
+            "forearm braced flat on the stone with his forehead pressed against it, his "
+            "other hand clamped over his face, his whole back and shoulders shaking. "
+            "Far behind him through the gateway the bed of coals still burns small and "
+            "red, with two men standing around it seen only as dark silhouettes from "
+            "behind; their faces are turned away and are simply dark, ordinary and "
+            "unlit, and no face, head or hood anywhere in the distance is bright, "
+            "burning, masked or itself a source of light. Deep night and hard black "
+            "shadow; the only light is the distant red of the coals and a faint cold "
+            "blue along the top of the wall. He has one head, two arms and two complete "
+            "hands."
         ),
     },
     # --------------------------------- n3 / n4 — back to the old life, at sea ----
     {
         "id": "v2-r019-b04", "out": "s04-back-to-the-old-life.jpeg", "seg": "n3",
         "window": "14.25-19.80", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "CREW", "BOAT", "NET", "SEA-NIGHT"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "BOAT", "NET", "SEA-NIGHT"],
         "narration": ("After the resurrection, Peter went back to fishing. Back to the "
                       "old life."),
         "must_show": "the seven men putting out from an empty beach in the dark, Peter shoving the boat off the shingle, going back to the work he knew.",
@@ -257,7 +291,7 @@ BEATS = [
     {
         "id": "v2-r019-b05", "out": "s05-they-worked-all-night.jpeg", "seg": "n4 p1-p2",
         "window": "19.80-25.28", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "CREW", "BOAT", "NET", "SEA-NIGHT"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "BOAT", "NET", "SEA-NIGHT"],
         "narration": ("It is what people do with a failure they cannot carry. They go "
                       "back to what they knew before it happened."),
         "must_show": "the middle of the night out on the black water — the men hauling the wet net back aboard hand over hand, working the way men work when they are trying not to think.",
@@ -278,7 +312,7 @@ BEATS = [
     {
         "id": "v2-r019-b06", "out": "s06-they-caught-nothing.jpeg", "seg": "n4 p3",
         "window": "25.28-28.27", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "NET", "BOAT"],
+        "locks": ["PETER", "PETER-HOLD", "NET", "BOAT"],
         "narration": "And that night they caught nothing.",
         "must_show": "the empty net — a heap of soaked hand-knotted cord in Peter's hands with nothing in it at all, and his face above it, beaten.",
         "must_not_show": "not one fish anywhere in the frame, not even a small one. No dawn light, no shore. Jesus is not in this frame.",
@@ -326,24 +360,28 @@ BEATS = [
         "must_not_show": "no halo, no glow, no rim-light, no beam of light. Not a solemn posed portrait — he is in the middle of shouting. No sunset colour, no midday sun.",
         "scene": (
             "One photograph, 135mm lens from far out on the water, compressed "
-            "perspective, shallow focus, grain. A medium shot of Jesus standing "
-            "ankle-deep at the waterline on the wet sand, caught mid-call: his weight "
-            "on his front foot, his chest open, his head lifted and turned out across "
-            "the lake to his left, his mouth open on the word and one hand raised "
-            "loosely beside his mouth. His whole face is clear and unshadowed and "
-            "there is warmth and humour in it, as though he already knows the answer. "
-            "His eyeline runs far out over the water and exits the LEFT edge of the "
-            "frame, nowhere near the lens. Flat cool grey-gold first light from the "
-            "east across the water; the far hills and the sky behind him are soft and "
-            "out of focus. Thin smoke from something low behind him drifts at the "
-            "right edge of the frame."
+            "perspective, shallow focus, grain. A medium shot of Jesus standing ankle- "
+            "deep at the waterline on the wet sand, caught mid-call. He wears one plain "
+            "cream tunic woven as a single straight rectangle with a small round neck "
+            "opening and straight sleeves, a narrow cloth sash knotted at the waist, "
+            "and a separate loose rectangle of cream cloth draped over one shoulder as "
+            "a mantle: no collar of any kind, no lapel, no front opening, no buttons "
+            "and no wide sash tied in a bow. His weight on his front foot, his chest "
+            "open, his head lifted and turned out across the lake to his left, his "
+            "mouth open on the word and one hand raised loosely beside his mouth. His "
+            "whole face is clear and unshadowed and there is warmth and humour in it, "
+            "as though he already knows the answer. His eyeline runs far out over the "
+            "water and exits the LEFT edge of the frame, nowhere near the lens. Flat "
+            "cool grey-gold first light from the east across the water; the far hills "
+            "and the sky behind him are soft and out of focus. Thin smoke from "
+            "something low behind him drifts at the right edge of the frame."
         ),
     },
     # ----------------------------------------- n5b — the one-word answer ----
     {
         "id": "v2-r019-b09", "out": "s09-they-had-to-say-it-out-loud.jpeg", "seg": "n5b p1-p2",
         "window": "35.50-40.65", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "CREW", "BOAT", "NET", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "BOAT", "NET", "SHORE-DAWN"],
         "narration": ("Have you caught anything, he called. And they had to say it out "
                       "loud to a stranger — no."),
         "must_show": "the men in the boat calling one word back across the water to a stranger they cannot place — the small humiliation of having to say it out loud.",
@@ -366,7 +404,7 @@ BEATS = [
     {
         "id": "v2-r019-b10", "out": "s10-nothing-all-night-nothing.jpeg", "seg": "n5b p3-p4",
         "window": "40.65-44.05", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "NET", "BOAT"],
+        "locks": ["PETER", "PETER-HOLD", "NET", "BOAT"],
         "narration": "Nothing. All night, nothing.",
         "must_show": "close on Peter's face in the grey first light — a whole night's work for nothing, on top of everything else he is already carrying.",
         "must_not_show": "no fish, no shore, no warm gold light. Not a posed portrait. Jesus is not in this frame.",
@@ -407,7 +445,7 @@ BEATS = [
     {
         "id": "v2-r019-b12", "out": "s12-over-the-right-side.jpeg", "seg": "n5c p1",
         "window": "48.12-51.83", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "CREW", "BOAT", "NET", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "BOAT", "NET", "SHORE-DAWN"],
         "narration": ("Put the net over the right side, he told them, and you will find "
                       "some."),
         "must_show": "the men doing it — the heavy hand-knotted net swinging out and away over the RIGHT-HAND rail of the boat, mid-throw, the water not yet broken.",
@@ -416,21 +454,25 @@ BEATS = [
             "One photograph, 24mm lens close in, deep focus, grain, a fast shutter "
             "freezing the water drops. THE CAMERA IS INSIDE THE BOAT AT THE MAST, "
             "BEHIND THE MEN, SHOOTING ACROSS THE DECK AND OUT OVER THE RIGHT-HAND "
-            "GUNWALE: two backs are large in the near frame, seen entirely from "
-            "behind, and NOT ONE FACE IS TURNED TOWARD THE LENS. The net is in the "
-            "air, mid-throw, thrown open in a wide arc out over the starboard rail "
-            "with its stone weights swinging below the spread edge and drops flying "
-            "off the wet cord; the far edge of it is just about to touch the flat pale "
+            "GUNWALE: two backs are large in the near frame, seen entirely from behind, "
+            "and NOT ONE FACE IS TURNED TOWARD THE LENS. The big working drag net is in "
+            "the air, mid-throw, its coarse straw-coloured hand-knotted mesh opening in "
+            "an irregular arc out over the starboard rail as the men swing it together, "
+            "with rough pierced grey beach stones knotted unevenly along its lower edge "
+            "and drops flying off the wet cord; it is not a small round one-man cast "
+            "net and there is no ring of identical dark weights spaced evenly around a "
+            "circular rim; the far edge of it is just about to touch the flat pale "
             "water. Peter is at the rail in profile with his arms still following the "
             "throw through, his eyes down on the water where the net will land. Deck "
             "planking under everyone's bare feet, the gunwale running unbroken past "
-            "them. Cool grey-gold first light from the east."
+            "them, and nothing anywhere on the deck but wooden gear, clay jars, flax "
+            "rope and net. Cool grey-gold first light from the east."
         ),
     },
     {
         "id": "v2-r019-b13", "out": "s13-so-full-they-could-not-haul-it.jpeg", "seg": "n5c p2",
         "window": "51.83-56.88", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "CREW", "BOAT", "NET", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "BOAT", "NET", "SHORE-DAWN"],
         "narration": "They did — and it came up so full they could not haul it in.",
         "must_show": "the net so packed with fish that grown men leaning back on it cannot lift it — the water boiling with silver, the boat heeling toward the load.",
         "must_not_show": "the net is not in the boat and is not emptied out on the deck; it is still in the water and still winning. Jesus is not in this frame.",
@@ -454,27 +496,30 @@ BEATS = [
     {
         "id": "v2-r019-b14", "out": "s14-it-is-the-lord.jpeg", "seg": "n6 p1",
         "window": "56.88-60.10", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JOHN", "PETER", "BOAT", "SHORE-DAWN"],
+        "locks": ["JOHN", "PETER", "PETER-HOLD", "BOAT", "SHORE-DAWN"],
         "narration": "Then one of them went very still and said, it is the Lord.",
         "must_show": "John gone completely still in the middle of all that work, staring at the far shore, saying the words quietly — and Peter beside him beginning to turn.",
         "must_not_show": "John is clean-shaven and about twenty; he is never given a beard. Nobody is shouting or excited yet — the stillness is the point. Jesus is not in this frame.",
         "scene": (
             "One photograph, 85mm prime wide open, very shallow depth of field, grain. "
-            "A tight two-shot in the boat. John is sharp in the near frame in "
-            "three-quarter profile, the rope forgotten and slack in his hands, "
-            "absolutely motionless, his young clean-shaven face lifted toward the "
-            "distant shore with his lips just parted on the words; his eyeline runs "
-            "far out past the left edge of the frame, nothing near the lens. Behind "
-            "him and softly out of focus, Peter has heard it and is beginning to turn "
-            "his head the same way, his hands still on the wet net. Cool first light "
-            "on both their faces from the east; the water and the far shore behind "
-            "them are a pale grey-gold blur."
+            "A tight two-shot in the boat. John is sharp in the near frame in three- "
+            "quarter profile, the rope forgotten and slack in his hands, absolutely "
+            "motionless, his lips just parted on the words. He is a young GALILEAN "
+            "JEWISH fisherman of about twenty with warm olive-brown sun-weathered skin "
+            "and dark wavy hair falling to his jaw, long enough to move in the wind: "
+            "never a short modern barbered haircut, never cropped, never fair-skinned "
+            "or European-looking. His clean-shaven face is lifted toward the distant "
+            "shore and his eyeline runs far out past the left edge of the frame, "
+            "nothing near the lens. Behind him and softly out of focus, Peter has heard "
+            "it and is beginning to turn his head the same way, his hands still on the "
+            "wet net. Cool first light on both their faces from the east; the water and "
+            "the far shore behind them are a pale grey-gold blur."
         ),
     },
     {
         "id": "v2-r019-b15", "out": "s15-it-hits-peter.jpeg", "seg": "n6 p2a",
         "window": "60.10-62.08", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER"],
+        "locks": ["PETER", "PETER-HOLD"],
         "narration": "And Peter did not wait for the boat.",
         "must_show": "the instant it lands on Peter — recognition and terror and longing all at once, already coming up off his heels.",
         "must_not_show": "no smile, no calm. Not a posed portrait. Jesus is not in this frame.",
@@ -493,28 +538,32 @@ BEATS = [
     {
         "id": "v2-r019-b16", "out": "s16-he-threw-himself-in.jpeg", "seg": "n6 p2b",
         "window": "62.08-64.80", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "CREW", "BOAT", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "BOAT", "SHORE-DAWN"],
         "narration": "He threw himself into the sea",
         "must_show": "Peter going over the gunwale into the water, still pulling his fisher's coat on as he goes — the coat half over one shoulder, mid-air, the crew left holding the net.",
         "must_not_show": "nothing exposed and nothing dwelt on: he wears a plain knee-length working loincloth and is PUTTING CLOTHES ON, not taking them off. No nudity. Jesus is not in this frame.",
         "scene": (
             "One photograph, 24mm lens, fast shutter freezing the spray, deep focus, "
             "grain. THE CAMERA IS IN THE BOAT BEHIND PETER SHOOTING PAST HIM OVER THE "
-            "SIDE, so he is seen entirely from behind and above: his broad back, the "
-            "rough dun fisher's coat dragged half on over one shoulder with the other "
-            "arm still finding its sleeve, a plain knee-length working loincloth "
-            "belted at his waist, both bare legs already out over the low gunwale and "
-            "off the deck, his body committed to the air above the water. His face is "
-            "away from us toward the distant shore. In the near frame the other men "
-            "are still braced against the loaded net, seen from behind, one head "
-            "turning after him; NOT ONE FACE IS TURNED TOWARD THE LENS. Below him the "
-            "flat pale water waits, unbroken. Cool low gold first light from the east."
+            "SIDE, so he is seen entirely from behind and above: his broad back, HIS "
+            "FISHER'S COAT IS ALREADY ON HIM AND HE IS PULLING IT CLOSED, NOT TAKING IT "
+            "OFF AND NOT THROWING IT AWAY: the rough dun wool coat covers his back and "
+            "both shoulders, one arm is fully through its sleeve and his other hand "
+            "drags the free edge across his chest as he goes, the belt cord gripped in "
+            "his fist. Under it he wears a plain knee-length working tunic belted at "
+            "the waist, so his back and torso are covered. Both bare legs are already "
+            "out over the low gunwale and off the deck and his body is committed to the "
+            "air above the water. His face is away from us toward the distant shore. In "
+            "the near frame the other men are still braced against the loaded net, seen "
+            "from behind, one head turning after him; NOT ONE FACE IS TURNED TOWARD THE "
+            "LENS. Below him the flat pale water waits, unbroken. Cool low gold first "
+            "light from the east."
         ),
     },
     {
         "id": "v2-r019-b17", "out": "s17-and-swam-for-shore.jpeg", "seg": "n6 p3",
         "window": "64.80-67.86", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "BOAT", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "BOAT", "SHORE-DAWN"],
         "narration": "and swam for shore, leaving everything behind.",
         "must_show": "Peter swimming hard for the beach with the loaded boat and the whole catch left behind him — the biggest catch of his life abandoned without a thought.",
         "must_not_show": "he is not walking on the water and not standing on it — he is swimming in it. Jesus is not in this frame.",
@@ -535,7 +584,7 @@ BEATS = [
     {
         "id": "v2-r019-b18", "out": "s18-he-stopped-cold.jpeg", "seg": "n7 p1",
         "window": "67.86-70.31", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "SHORE-DAWN"],
         "narration": "When he waded out of the water, he stopped cold.",
         "must_show": "Peter stopped dead in the shallows, streaming wet, halfway out of the water, staring at something up the beach.",
         "must_not_show": "he is not running any more and not smiling. Jesus is not in this frame yet.",
@@ -602,7 +651,7 @@ BEATS = [
     {
         "id": "v2-r019-b21", "out": "s21-the-whole-night-came-back.jpeg", "seg": "n8 p3",
         "window": "82.73-86.89", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "FIRE"],
+        "locks": ["PETER", "PETER-HOLD", "FIRE"],
         "narration": "The smell alone would have brought the whole night back.",
         "must_show": "Peter's face over those coals — the smell of charcoal putting him straight back in the courtyard, shame surfacing before a word has been said.",
         "must_not_show": "no courtyard flashback in the frame, no second panel, no vignette or inset. Jesus is not in this frame.",
@@ -643,7 +692,7 @@ BEATS = [
     {
         "id": "v2-r019-b23", "out": "s23-they-ate-together.jpeg", "seg": "n9 p2",
         "window": "89.06-94.47", "wide": True, "jesus": True, "ref": True,
-        "locks": ["PETER", "CREW", "FIRE", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "FIRE", "SHORE-DAWN"],
         "narration": ("He simply had breakfast waiting, and they ate together on the "
                       "shore in the first gold light."),
         "must_show": "the seven of them and Jesus sitting around the coals on the sand eating fish and bread with their hands, wet and tired and quiet, the boat drawn up behind them.",
@@ -669,27 +718,30 @@ BEATS = [
     {
         "id": "v2-r019-b24", "out": "s24-he-turned-to-peter.jpeg", "seg": "n10 p1",
         "window": "94.47-97.54", "wide": False, "jesus": True, "ref": True,
-        "locks": ["PETER", "FIRE"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "FIRE"],
         "narration": "When breakfast was over, Jesus turned to Peter.",
         "must_show": "the moment the conversation narrows to two — Jesus turning his head to Peter across the dying fire while the others are still eating.",
         "must_not_show": "no anger, no severity, no pointing. No halo, glow or rim-light.",
         "scene": (
             "One photograph, 50mm lens, shallow depth of field, grain. A two-shot "
-            "across the low coals from one side: Jesus is in the near left of the "
-            "frame in three-quarter from behind, his head just turning toward Peter so "
-            "we see the line of his cheek and his beard and the beginning of his "
-            "expression, his eyeline crossing the frame to Peter and out of the right "
-            "edge. Peter is beyond the coals, sharp, sitting back on his heels in the "
-            "sand with a piece of bread still in his hand, looking down and to one "
-            "side, not yet aware he is being looked at. Out of focus behind them the "
-            "other men are still eating. Low gold morning light from the east rakes "
-            "across the sand between them and thin smoke rises between their faces."
+            "across the low coals from one side: Jesus is in the near left of the frame "
+            "in three-quarter from behind, his head just turning toward Peter so we see "
+            "the line of his cheek and his beard and the beginning of his expression, "
+            "his eyeline crossing the frame to Peter and out of the right edge. Peter "
+            "is beyond the coals, sharp, sitting back on his heels in the sand with a "
+            "piece of bread still in his hand, looking down and to one side, not yet "
+            "aware he is being looked at. Out of focus behind them two of the crew are "
+            "still eating, one in rust-brown wool and one in dark olive. JESUS IS THE "
+            "ONLY PERSON IN THE FRAME WEARING CREAM OR ANY PALE OFF-WHITE CLOTH; every "
+            "other garment, sharp or blurred, near or far, is a deep saturated earth "
+            "colour. Low gold morning light from the east rakes across the sand between "
+            "them and thin smoke rises between their faces."
         ),
     },
     {
         "id": "v2-r019-b25", "out": "s25-the-same-question-three-times.jpeg", "seg": "n10 p2a",
         "window": "97.54-101.60", "wide": True, "jesus": True, "ref": True,
-        "locks": ["PETER", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "SHORE-DAWN"],
         "narration": ("Three times, once it seems for each denial, he asked him the "
                       "same question,"),
         "must_show": "the two of them a little apart from the others now, walking slowly at the waterline, the question being asked and asked again.",
@@ -710,7 +762,7 @@ BEATS = [
     {
         "id": "v2-r019-b26", "out": "s26-his-old-name.jpeg", "seg": "n10 p2b",
         "window": "101.60-106.00", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "SHORE-DAWN"],
         "narration": "using Peter's old name, the name he had before any of it:",
         "must_show": "Peter's face at the sound of his old name — Simon, the fisherman's name he had before he was ever called the rock.",
         "must_not_show": "no smiling, no relief yet. Jesus is not in this frame.",
@@ -735,22 +787,26 @@ BEATS = [
         "must_not_show": "no severity, no accusation, no raised hand. No halo, glow or rim-light. Not a posed portrait down the lens.",
         "scene": (
             "One photograph, 85mm prime wide open, extremely shallow depth of field, "
-            "grain. Close on Jesus at the waterline in three-quarter view, caught "
-            "mid-question: his head inclined slightly toward Peter, his lips parted on "
-            "the words, his brows raised in a real question and not a judgement, his "
-            "eyes steady and warm and utterly attentive. His eyeline crosses the frame "
-            "to Peter and exits through the LEFT edge, clearly past the camera. Low "
-            "level gold morning light from the east across his cheek and through the "
-            "loose ends of his hair; the bright water behind him is an out-of-focus "
-            "wash of gold and pale grey. One plain cream wool robe, and no other cream "
-            "in the frame."
+            "grain. Close on Jesus at the waterline in three-quarter view, caught mid- "
+            "question: his head inclined slightly toward Peter, his lips parted on the "
+            "words, his brows raised in a real question and not a judgement, his eyes "
+            "steady and warm and utterly attentive. THE CAMERA IS NOT WHERE PETER IS: "
+            "it stands well to Jesus's right and slightly behind his shoulder, so his "
+            "head is turned a clear quarter-turn off the camera axis and his gaze "
+            "travels across the frame to Peter standing off-camera to the LEFT, leaving "
+            "the picture through its left edge. His pupils sit visibly to one side of "
+            "his eyes and are never centred on the lens, and he never acknowledges the "
+            "camera. Low level gold morning light from the east across his cheek and "
+            "through the loose ends of his hair; the bright water behind him is an out- "
+            "of-focus wash of gold and pale grey. One plain cream wool robe, and no "
+            "other cream in the frame."
         ),
     },
     # ------------------------------- n11 — no word thrown back ----
     {
         "id": "v2-r019-b28", "out": "s28-not-one-word-thrown-back.jpeg", "seg": "n11 p1-p3",
         "window": "109.47-114.93", "wide": True, "jesus": True, "ref": True,
-        "locks": ["PETER", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "SHORE-DAWN"],
         "narration": ("Not, how could you. Not, prove it. Not one word thrown back at "
                       "him about the denial."),
         "must_show": "the two of them stopped at the waterline facing each other, Jesus's posture open and unhurried — a man who is not going to bring up the worst thing you ever did.",
@@ -762,17 +818,18 @@ BEATS = [
             "against the pale beach and NEITHER FACE IS TURNED TOWARD THE LENS. They "
             "stand a pace apart at the edge of the water, facing each other, ankle "
             "deep. Jesus's hands hang open and easy at his sides and his weight is "
-            "settled; there is nothing braced or accusing in him. Peter is half turned "
-            "away with his head down, unable to hold the look. Their reflections lie "
-            "in the wet sand between them. Long shadows run inland from the low "
-            "eastern sun. Far up the beach the fire smokes and the boat sits on the "
-            "shingle."
+            "settled; there is nothing braced or accusing in him. Peter, the same heavy "
+            "dark-haired dark-bearded man of about thirty-five as in every other frame "
+            "with no grey in his hair or beard, is half turned away with his head down, "
+            "unable to hold the look. Their reflections lie in the wet sand between "
+            "them. Long shadows run inland from the low eastern sun. Far up the beach "
+            "the fire smokes and the boat sits on the shingle."
         ),
     },
     {
         "id": "v2-r019-b29", "out": "s29-only-do-you-love-me.jpeg", "seg": "n11 p4",
         "window": "114.93-117.47", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER"],
+        "locks": ["PETER", "PETER-HOLD"],
         "narration": "Only: do you love me.",
         "must_show": "Peter listening — the question landing on a man who expected to be destroyed by it and is being asked something else entirely.",
         "must_not_show": "no smile yet, no relief yet. Jesus is not in this frame.",
@@ -791,7 +848,7 @@ BEATS = [
     {
         "id": "v2-r019-b30", "out": "s30-thou-knowest-that-i-love-thee.jpeg", "seg": "s16",
         "window": "117.47-121.07", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER"],
+        "locks": ["PETER", "PETER-HOLD"],
         "narration": "Yea, Lord; thou knowest that I love thee.",
         "must_show": "Peter saying it out loud — plainly, without defending himself, the first honest thing he has been able to say since that night.",
         "must_not_show": "no dramatic gesture, no kneeling yet, no theatrics. Jesus is not in this frame.",
@@ -810,7 +867,7 @@ BEATS = [
     {
         "id": "v2-r019-b31", "out": "s31-three-times-peter-answered.jpeg", "seg": "n12 p1",
         "window": "121.07-124.68", "wide": True, "jesus": True, "ref": True,
-        "locks": ["PETER", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "SHORE-DAWN"],
         "narration": ("Three times Peter answered him, yes, Lord, you know that I love "
                       "you."),
         "must_show": "the exchange going round again — the same two men, the same waterline, the same question and the same answer, for the third time.",
@@ -819,19 +876,22 @@ BEATS = [
             "One photograph, 50mm lens, deep focus, grain, shot from a distance. THE "
             "CAMERA IS FAR UP THE BEACH BEHIND THEM AND SHOOTS DOWN PAST THEM TOWARD "
             "THE BRIGHT WATER, so the two men are small in the middle of a wide empty "
-            "shore and both are seen from behind and in three-quarter from behind, "
-            "with NEITHER FACE TURNED TOWARD THE LENS. Jesus stands at the water's "
-            "edge with his head turned to Peter; Peter faces him with both hands "
-            "opened outward from his chest, in the middle of answering. Their two long "
-            "shadows stretch back up the sand toward the camera from the low eastern "
-            "sun. Wet sand, dark stones, the flat gold water beyond them and the far "
-            "hills, and nothing else on the whole beach but their two figures."
+            "shore and both are seen from behind and in three-quarter from behind, with "
+            "NEITHER FACE TURNED TOWARD THE LENS. Jesus stands at the water's edge with "
+            "his head turned to Peter; Peter faces him with both hands opened outward "
+            "from his chest, in the middle of answering, and even at this distance he "
+            "reads as the same dark-haired, dark-bearded man of about thirty-five as in "
+            "the close frames, with no grey in his hair or beard and no stoop of age. "
+            "Their two long shadows stretch back up the sand toward the camera from the "
+            "low eastern sun. Wet sand, dark stones, the flat gold water beyond them "
+            "and the far hills, and nothing else on the whole beach but their two "
+            "figures."
         ),
     },
     {
         "id": "v2-r019-b32", "out": "s32-every-answer-cost-him-more.jpeg", "seg": "n12 p2",
         "window": "124.68-129.41", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER"],
+        "locks": ["PETER", "PETER-HOLD"],
         "narration": "Each time it cost him more, and each time he meant it more.",
         "must_show": "the third time — Peter grieved, his face coming apart, one fist against his own chest exactly as he held it the night he swore he never would.",
         "must_not_show": "not despair and not shame — this is grief with the truth in it. Jesus is not in this frame.",
@@ -871,7 +931,7 @@ BEATS = [
     {
         "id": "v2-r019-b34", "out": "s34-the-biggest-job-of-all.jpeg", "seg": "n13 p1",
         "window": "131.91-135.65", "wide": False, "jesus": True, "ref": True,
-        "locks": ["PETER", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "SHORE-DAWN"],
         "narration": ("To the man who had failed him worst, Jesus handed the biggest "
                       "job of all."),
         "must_show": "Jesus's hand closing on Peter's shoulder — the failure handed the work anyway, contact made first by the one who was denied.",
@@ -892,7 +952,7 @@ BEATS = [
     {
         "id": "v2-r019-b35", "out": "s35-he-trusted-him-again.jpeg", "seg": "n13 p2-p3",
         "window": "135.65-140.15", "wide": True, "jesus": True, "ref": True,
-        "locks": ["PETER", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "SHORE-DAWN"],
         "narration": "He did not only forgive Peter. He trusted him again.",
         "must_show": "Peter straightened up and steady on his feet in front of Jesus — the shape of a man who has just been given something back.",
         "must_not_show": "no halo, glow or rim-light. Nobody but Jesus in cream. Not a posed pair facing the camera.",
@@ -912,7 +972,7 @@ BEATS = [
     {
         "id": "v2-r019-b36", "out": "s36-that-is-how-good-he-is.jpeg", "seg": "n14 p1",
         "window": "140.15-145.00", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "SHORE-DAWN"],
         "narration": "That is how good he is.",
         "must_show": "Peter's face in the full morning — the grief gone through and out the other side, a man who has been forgiven and knows it.",
         "must_not_show": "no grin, no triumph — this is quiet. Jesus is not in this frame.",
@@ -930,7 +990,7 @@ BEATS = [
     {
         "id": "v2-r019-b37", "out": "s37-hands-you-back-your-life.jpeg", "seg": "n14 p2",
         "window": "145.00-149.583", "wide": True, "jesus": True, "ref": True,
-        "locks": ["PETER", "CREW", "BOAT", "FIRE", "SHORE-DAWN"],
+        "locks": ["PETER", "PETER-HOLD", "CREW", "BOAT", "FIRE", "SHORE-DAWN"],
         "narration": ("He takes your worst night and hands you back your life, with a "
                       "purpose bigger than the one you thought you had thrown away."),
         "must_show": "the whole shore in full morning light — the boat, the dying fire, the men, and the two figures walking up the beach together away from the water.",

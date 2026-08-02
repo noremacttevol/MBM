@@ -138,7 +138,16 @@ PERIOD_MATERIALS_LOCK = (
     "varnished, fibreglass or white-hulled boat; no engine, motor or propeller; no "
     "cooking grill, grate, tripod or pan; no printed, stencilled or repeating-pattern "
     "fabric; no rubber, no cardboard, no paper label, and no writing, lettering or "
-    "numerals on any object."
+    "numerals on any object. "
+    "GARMENT-CONSTRUCTION LOCK: every garment is built the way a first-century loom "
+    "builds one — a straight woven rectangle of cloth with a plain slit or round neck "
+    "opening, straight unshaped sleeves, a selvedge or frayed hem, and a rope, cord or "
+    "folded-cloth sash knotted at the waist. A mantle or shawl is one loose rectangle "
+    "of cloth draped over the shoulders. NO GARMENT IS A MODERN DRESSING GOWN OR "
+    "BATHROBE: no shawl collar, no lapel, no revers, no front placket, no buttons, "
+    "hooks or fastenings, no set-in tailored shoulder, no cuffed sleeve, no patch "
+    "pocket, no wide flat sash tied in a bow at the front, and no towelling, terry, "
+    "fleece, velour or quilted fabric anywhere."
 )
 
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
