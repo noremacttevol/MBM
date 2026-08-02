@@ -286,7 +286,15 @@ LOCKS = {
         "PIECES OF CLOTH AND NOTHING ELSE: (1) ONE ankle-length hand-woven wool "
         "tunic in DARK OLIVE with straight unshaped sleeves to the wrist; "
         "(2) ONE rectangular hand-woven wool mantle in CHARCOAL thrown over the "
-        "left shoulder; and (3) ONE folded cloth sash of DEEP RUST knotted at "
+        "left shoulder — and THAT MANTLE IS THE LARGEST PIECE OF CLOTH IN "
+        "MOST OF HIS FRAMES, SO ITS WEAVE IS STATED HERE: it is a FLAT, THIN, "
+        "MATTE LOOM-WOVEN rectangle showing a clear slightly irregular "
+        "over-and-under grid of warp and weft threads and a frayed selvedge "
+        "edge, exactly like coarse hand-woven wool sacking, and it is NEVER "
+        "thick, fluffy, furry, felted, fleeced, brushed, napped, looped, "
+        "tufted, blanket-like or sheepskin-like, never knitted, and never has "
+        "a raised pile or a soft mottled grey woolly surface; and (3) ONE "
+        "folded cloth sash of DEEP RUST knotted at "
         "his waist. On his feet, good plain leather sandals. HE NEVER WEARS "
         "CREAM, OFF-WHITE, IVORY, BUFF, BEIGE, SAND, KHAKI, WHITE OR ANY PALE "
         "CLOTH, and he wears no head covering, no turban, no cap, no jewellery, "
@@ -878,7 +886,7 @@ BEATS += [
         "narration": "What shall I do? for my lord taketh away from me the stewardship:",
         "must_show": "The steward alone with his back against the estate wall, working out what to do, his face clearly visible in strict side-on profile, one hand pressed against his own mouth.",
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_HEIST + _NO_CREAM + _NO_NIGHT
-        + "no other person, figure, hand, arm, shoulder or face anywhere in this frame; nobody weeps, kneels, prays, raises the eyes to the sky or lifts the hands; " + _GAZE,
+        + "no other person, figure, hand, arm, shoulder or face anywhere in this frame; nobody weeps, kneels, prays, raises the eyes to the sky or lifts the hands; no thick fluffy furry felted fleeced brushed napped tufted looped or blanket-like cloth on his shoulder or anywhere in the frame, and no raised pile, sheepskin, shearling or knitted texture on any garment; " + _GAZE,
         "scene": (
             "One photograph, 85mm lens, hard clear midday daylight coming in "
             "almost level from the LEFT and modelling the face from the front, "
@@ -904,8 +912,10 @@ BEATS += [
             "hair is pushed back off the forehead and cut to just below the "
             "ear. HE IS THE ONLY PERSON IN THE PICTURE. Across the bottom "
             "third, close to the camera and softly out of focus, runs the "
-            "coarse woven warp and weft of his own charcoal mantle where it has "
-            "slipped off the shoulder."
+            "charcoal mantle where it has slipped off the shoulder — FLAT, "
+            "THIN and MATTE with a plainly visible over-and-under grid of warp "
+            "and weft threads and a frayed selvedge, never fluffy, felted, "
+            "fleeced, brushed, napped, tufted or blanket-like."
         ),
     },
     {
