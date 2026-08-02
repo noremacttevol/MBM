@@ -642,9 +642,20 @@ BEATS = [
         "seg": "n1", "window": "7.947-11.370", "wide": False, "jesus": False,
         "locks": ["BANQUET-HALL", "HOUSE", "HOST"],
         "narration": "A man threw a great feast. He prepared everything,",
-        "must_show": "The host standing alone in his own dining hall looking over the low U-shaped table he has had laid for a great supper, his face clearly visible in strict side-on profile.",
+        "must_show": "The host standing alone in his own dining hall looking over the low U-shaped table he has had laid for a great supper, his face clearly visible in strict side-on profile, and the doorway hanging beside him a DARK near-black goat-hair panel matching every other opening in this house.",
+        # HANGING-CONTINUITY (2026-08-02): the first version of this frame was
+        # generated BEFORE the HOUSE lock's dark-hanging clause existed and came
+        # back with a PALE GOLD pleated modern curtain in the doorway, while every
+        # later frame of the same room shows the dark goat-hair panel. Cameron has
+        # rejected finished videos for exactly this class of slip. The cure is
+        # stated POSITIVELY in the scene text below (what the hanging IS and where
+        # it is knotted back to), not only as a prohibition.
         "must_not_show": _NO_HALO + _NO_HEAVEN + _NO_MODERN_DINE + _NO_CREAM + _NO_NIGHT
-        + "no other person, figure, hand, arm, shoulder or face anywhere in this frame; " + _GAZE,
+        + "no other person, figure, hand, arm, shoulder or face anywhere in this frame; "
+        + "no pale gold, honey, straw, cream, off-white, ivory, buff, beige or "
+          "linen-coloured curtain, drape, hanging or panel in any opening, and no "
+          "sheer, gathered, softly pleated, floor-pooling or rail-hung curtain "
+          "anywhere in this room; " + _GAZE,
         "scene": (
             "One photograph, 85mm lens, warm low late-afternoon sun coming in "
             "almost level from the LEFT through a broad open doorway and modelling "
@@ -669,7 +680,19 @@ BEATS = [
             "fired-clay bowls of olives and figs, a plain fired-clay wine jar and "
             "unstemmed clay cups, with low dark bolsters and folded wool mats on "
             "the floor beside it. There is no cloth on the table and no chair "
-            "anywhere in the room."
+            "anywhere in the room. THE BROAD OPENING ON THE LEFT THAT THE SUN "
+            "COMES THROUGH IS A PLAIN RECTANGULAR GAP UNDER ONE FLAT STONE "
+            "LINTEL, AND THE ONE HANGING THAT BELONGS TO IT IS A HEAVY PANEL OF "
+            "COARSE UNDYED GOAT-HAIR CLOTH IN NEAR-BLACK CHARCOAL AND DEEP "
+            "UMBER — matte, stiff, roughly woven and clearly DARK against the "
+            "bright lane outside — pushed hard against the FAR jamb and knotted "
+            "back on itself in a thick dark bundle so the opening stands clear "
+            "for the light. THAT DARK PANEL IS THE ONLY HANGING CLOTH ANYWHERE "
+            "IN THIS ROOM, it hangs straight and heavy from a hewn timber pole "
+            "laid across the opening, and it is never pale, never gold, never "
+            "honey, never linen-coloured, never sheer, never gathered into soft "
+            "vertical pleats and never pooling on the floor. Every wall around "
+            "it is bare pale plaster."
         ),
     },
     {

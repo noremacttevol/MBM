@@ -532,12 +532,72 @@ BANQUET_HALL_LOCK = (
     "or repeating-pattern cloth anywhere in the room."
 )
 
+# ESTATE-ACCOUNTS — added to the shared recipe 2026-08-02, ahead of row 36 (the unjust
+# steward, Luke 16:1-13, the first V2 build whose STORY IS A WRITTEN DOCUMENT: "Take thy
+# bill, and sit down quickly, and write fifty"). Rows 16/18 paid for interior lighting,
+# row 19 for boat fittings, row 22 for city skylines, row 26 for irrigation hose, row 27
+# for knitted fabric, row 28 for the tool in the hand, row 29 for the road and the market
+# stall, row 31 for night lamplight, row 32 for the background crowd, row 33 for the
+# prison cell, row 34 for the barn, row 35 for the dining room. An ACCOUNTS SCENE's own
+# anachronism is THE DOCUMENT AND THE DESK, and nothing above reaches it.
+#
+# PERIOD-MATERIALS does say "no writing, lettering or numerals on any object" and then
+# carves out a hand-inked scroll or written bill — which is exactly the carve-out this
+# story lives inside, so the one block that might have protected this scene is the one
+# block that stands aside for it. Everything else about an office slips straight through:
+# "bill", "account", "ledger", "書 write" and "steward" all pull a MEDIEVAL OR VICTORIAN
+# COUNTING HOUSE — a bound codex ledger with ruled columns and a spine, a sloped writing
+# desk or escritoire, a quill in a glass inkwell, a wax-sealed folded letter, a stool at
+# a table, printed or copperplate type, arabic numerals in neat rows, an abacus of
+# threaded beads on a wooden frame.
+#
+# A first-century estate's accounts are SEPARATE SHEETS, not a book: single leaves of
+# papyrus or thin scraped parchment, each debtor's obligation on its own sheet, rolled or
+# folded and kept in a basket or a clay jar — which is why Luke 16:6 can say "take THY
+# bill", hand one man his own document, and have him rewrite that one number. The codex
+# had not been invented. Writing is done with a cut REED PEN and lamp-black ink from a
+# small clay pot, sitting cross-legged on the floor or on a low mat with the sheet across
+# the knee or on a low board. Stated POSITIVELY per the row-10 geometry lesson. Written
+# documents recur across the 200 (the certificate of divorce, the tribute money, the
+# genealogies, Pilate's title, the books of the synagogue), so this belongs here rather
+# than in a thirteenth build-local copy. Any build with a bill, account, ledger, letter,
+# scroll, writing or a scribe names "ESTATE-ACCOUNTS".
+ESTATE_ACCOUNTS_LOCK = (
+    "ESTATE-ACCOUNTS LOCK: the accounts of this first-century estate are LOOSE "
+    "SEPARATE SHEETS, never a book, and this is what one IS. Each debtor's bill is "
+    "ONE single leaf of PAPYRUS or thin scraped PARCHMENT about the size of two "
+    "hands, its surface fibrous, uneven, cream-brown and slightly cockled, its "
+    "edges cut rough or torn, kept ROLLED into a loose tube or FOLDED in three and "
+    "stored standing in a hand-woven reed basket or a plain fired-clay jar. THE "
+    "WRITING ON IT IS HAND-DRAWN: a few short lines of dark brown-black brush and "
+    "reed-pen strokes in Hebrew, Aramaic or Greek letters, irregular in size and "
+    "spacing, the ink faded and uneven, sitting crooked on the sheet — never "
+    "printed, never typeset, never in even mechanical rows, and never in modern "
+    "arabic numerals or any recognisable modern word. THE WRITING KIT IS: one cut "
+    "REED PEN with a split nib, a small shallow fired-clay pot of lamp-black ink, "
+    "and a scrap of cloth to wipe it. A MAN WRITES SITTING ON THE FLOOR OR ON A LOW "
+    "MAT with the sheet spread across his own knee or on a low flat board of adzed "
+    "timber laid on the ground, leaning over it. THIS IS NOT A COUNTING HOUSE, AN "
+    "OFFICE OR A SCRIPTORIUM: there is NO bound book, codex, volume, ledger, "
+    "account book, spine, sewn binding, stacked leaves, cover board or clasp; no "
+    "ruled lines, columns, grid, margin rule, page number or tabulated figures; no "
+    "sloped writing desk, escritoire, lectern, bureau, writing slope, table with "
+    "legs, chair, stool or bench with a back; no quill or feather pen, no glass "
+    "inkwell, no metal nib, no pencil, no chalk, no slate, no wax tablet with a "
+    "hinged frame, no stylus of turned metal; no wax seal, seal ring, ribbon, "
+    "string tie, envelope or folded sealed letter; no abacus, counting frame, "
+    "beads on rods, tally board or scales of machined brass; no shelf of books, "
+    "pigeonhole rack, chest of drawers, cupboard or filing case; and no paper of "
+    "even white machine-made sheet anywhere in the frame."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
 SHARED_SETTING_LOCKS = {
     "ANCIENT-PRISON": ANCIENT_PRISON_LOCK,
     "BANQUET-HALL": BANQUET_HALL_LOCK,
+    "ESTATE-ACCOUNTS": ESTATE_ACCOUNTS_LOCK,
     "GRANARY-BARN": GRANARY_BARN_LOCK,
     "BACKGROUND-CAST": BACKGROUND_CAST_LOCK,
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
