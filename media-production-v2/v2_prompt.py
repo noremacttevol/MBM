@@ -334,10 +334,45 @@ NIGHT_LAMPLIGHT_LOCK = (
     "and never gives off light of its own."
 )
 
+# BACKGROUND-CAST — promoted into the shared recipe 2026-08-02 (row 32, the talents, whose
+# trading beats are staged in a working town full of extras). The DEFECT_LOCK's
+# CAST-CLOSURE clause already forbids cream or off-white cloth on anyone but Jesus "including
+# out-of-focus edges", and row 31 paid for the same lesson again in its own locks — and BOTH
+# times it was written as a PROHIBITION, which is exactly the shape of wording rows 10 and 14
+# proved does not hold. Row 32's very first trading frame came back with a pale-robed man
+# standing among the donkeys in the blurred background: not at an edge, not a stray shoulder,
+# just an ordinary extra the model dressed in the first colour it reached for.
+#
+# The failure is not "cream" — it is that the background population is UNSPECIFIED. When a
+# prompt describes only the named figures, every other body in the frame is invented free-hand,
+# and pale linen is the default costume for a biblical crowd. What fixed it in ONE pass was
+# stating the background POSITIVELY AND CAPPED: how many people may be back there, that they
+# are a dark mass head to foot, and which light-toned things in the picture are legitimate
+# (stone, dust, basketry, bare skin) so the model has somewhere lawful to put brightness.
+# Ported byte-for-byte from the row 32 TRADE lock. Any build with populated background —
+# a town, market, quay, road, courtyard, crowd or working yard — names "BACKGROUND-CAST".
+BACKGROUND_CAST_LOCK = (
+    "BACKGROUND-CAST LOCK: the background population of this picture is stated "
+    "POSITIVELY AND IS CAPPED. At most THREE other people are ever visible behind "
+    "the named figures of the scene, and every one of them is dressed head to foot "
+    "in ONE SOLID DARK SATURATED EARTH COLOUR — DARK UMBER, CHARCOAL, DEEP RUST, "
+    "DARK OLIVE, DEEP INDIGO or DEEP MAROON — so that every human shape in the "
+    "background, in focus or out of focus, near or far, sharp or blurred, is a DARK "
+    "MASS from edge to edge. NOT ONE PERSON IN THE BACKGROUND WEARS CREAM, "
+    "OFF-WHITE, IVORY, BUFF, BEIGE, TAUPE, SAND, KHAKI, WHITE, PALE GREY OR ANY "
+    "LIGHT-TONED CLOTH, DRAPE, MANTLE, SHAWL, TUNIC, SASH OR HEAD COVERING; no pale "
+    "figure stands in any doorway, among any animals, along any wall or at any edge "
+    "of the frame; and no blurred stranger passes through the picture. THE ONLY "
+    "LIGHT-TONED THINGS ANYWHERE IN THE FRAME ARE STONE, DUST, PLASTER, REED "
+    "BASKETRY, RAW TIMBER AND BARE SKIN — and, where the scene itself places him, "
+    "Jesus's own wool robe."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
 SHARED_SETTING_LOCKS = {
+    "BACKGROUND-CAST": BACKGROUND_CAST_LOCK,
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
     "HAND-TOOLS": HAND_TOOLS_LOCK,
     "ANCIENT-ROAD": ANCIENT_ROAD_LOCK,
