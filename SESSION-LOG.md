@@ -1,4 +1,23 @@
+## 2026-08-02 — Row 25 (Wheat and Tares) realistic V2 shipped; assembler learns the stale-V1-final audio path
+
+Commit: 773f74f82 (card) / 98e2604ad (cut)
+
+Built and shipped the realistic V2 rebuild of story 25, Matthew 13:24-30 and 43 — 33 native-2K
+pictures against V1's eight, reroll rate 5.7% (2 of 35), ≈$4.69, live on the reviewer.
+
+The row turned up a trap no earlier row had hit: **the finished V1 MP4 can be stale, and the AUDIO
+LOCK copies its AAC stream blind.** Row 25's MP4 was rendered the day BEFORE the ElevenLabs
+re-voice, so it carries pre-REDO-ALL voices, and the echo-delete sweep later cut `n1` and part of
+`n9` out of the mp3s without the video ever being re-rendered — 229.033 s of video against a
+166.818 s narration. `v2_assemble.py` now honours a build-declared `AUDIO_FROM_V1_SEGMENTS = True`,
+which renders the track from the V1 build's own mp3s at the extract_beats offsets with zero
+re-voicing and without writing anything into the read-only V1 folder. `AUDIO-AUDIT.md` already
+flags seven other rows with the same kind of V1-vs-expected delta; that delta column, not the
+"clean" voice column, is the signal to act on.
+
 ## 2026-08-02 — Video 24 (The Sower, Matt 13): realistic V2 shipped to the reviewer (Machine A / `Dev`, Claude worker 18)
+
+
 
 Commit: 9e728364c (claim) · fdd30fef1 (cut) · c2161ca6e (board) · this entry. Row 24 rebuilt end
 to end at native 2K: **35 pictures against V1's EIGHT**, where `s6-good-harvest.jpeg` had held the

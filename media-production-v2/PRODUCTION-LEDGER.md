@@ -1430,4 +1430,79 @@ Git blob f3fc5125…
 
 ## Row 25 — Wheat and Tares (Matthew 13) — realistic V2 rebuild
 
-**Claimed 2026-08-02 (Machine A, Dev — Claude worker 19).** Claim pushed before any spend.
+**Shipped 2026-08-02 (Machine A, Dev — Claude worker 19).** 33 pictures, ≈$4.69, reroll rate 5.7% (2 of 35).
+Cut: `media-production-v2/build-25-wheat-and-tares/matthew-13_wheat-and-tares.mp4` (166.833 s / 21,494,181 bytes).
+
+1. **THE NEW TRAP: A STALE V1 FINAL MP4, AND THE AUDIO LOCK COPIES IT BLIND.** Every prior row's
+   sourcing trap was about the SCRIPT disagreeing with the audio. This one is about the finished
+   V1 VIDEO disagreeing with the audio, which no earlier row had hit. Established from file
+   metadata and transcripts, never from prose:
+   - `matthew-13_wheat-and-tares.mp4` — rendered 2026-07-22 02:03, runs 229.033 s.
+   - `audio-eleven.log` — the ElevenLabs re-voice ran 2026-07-23 04:26, i.e. AFTER the MP4. That
+     MP4 therefore carries PRE-REDO-ALL voices and must never be shipped.
+   - The echo-delete sweep re-cut the mp3s again 2026-07-29 09:47, DELETING `n1` and trimming one
+     sentence out of `n9`. Both were genuine echoes: n1 repeats j24's own KJV line, and n9's
+     "So let them both grow." repeats j1's "Let both grow together until the harvest."
+   - faster-whisper on the MP4 puts n1 back on screen at 14-23 s. `n1.mp3` does not exist; only an
+     orphan `n1.mp3.words.json` does. extract_beats already skips it as an echo-delete orphan.
+   So the mp3 set is the current narration at 166.818 s and the MP4 is an older render at 229.033 s.
+   `v2_assemble`'s ±1.0 s guard would have refused to build at all, and forcing it would have shipped
+   the old voice, restored the deleted echoes and mistimed every caption by 60+ s.
+
+2. **The fix is a SHARED opt-in, and V1 stays read-only.** `v2_assemble.py` now honours a
+   build-declared `AUDIO_FROM_V1_SEGMENTS = True`. When set, the finished narration track is rendered
+   from the V1 build's OWN mp3s, each delayed to exactly the `audio_start` extract_beats computes from
+   that build's own constants, summed with `amix(normalize=0)`, padded to the full runtime and
+   loudness-trimmed toward -15 LUFS — the same stage V1's `build.py` performs. Nothing is re-voiced,
+   re-timed or gained per segment, and nothing is ever written into the V1 folder (hard protection #1).
+   Rebuilding the V1 video instead was rejected: its `build.py` still lists the deleted `n1` in BEATS,
+   so running it would have meant editing V1.
+   **Whoever sweeps this next:** `AUDIO-AUDIT.md` already lists row 25 with a +64.37 s delta between
+   the V1 final and the expected timeline and still marks it "clean" — "clean" there only means the
+   mp3s are ElevenLabs. THE DELTA COLUMN IS THE REAL SIGNAL, and seven other rows carry one.
+
+3. **Sourcing trap checked and cleared on the script side.** `make_narration.py.pre-echo` and
+   `.pre-speaker` both disagree with the live script. `n9`, `s24`, `n2`, `n14` and `card` were
+   transcribed with faster-whisper and every one matches the LIVE script word for word;
+   `n9.timing.json` agrees. No `TEXT_OVERRIDES` were needed.
+
+4. **Windows rebuilt from scratch.** The inherited 2026-07-29 map was discarded. Every window
+   recomputed from the fixed extract_beats and split on each segment's own phrase timings, with no
+   split falling mid-phrase: contiguous 0.280 s → 160.858 s, zero gaps, zero overlaps, 4.87 s/picture,
+   longest hold 8.44 s. All 20 segment speech ONSETS were re-measured with silencedetect — leading
+   silence included, not just the nominal `audio_start` — and every one lands inside the window written
+   for it. No segment is left without a picture. This build computes `vdur = LEAD + audio_dur + gap`
+   from the RAW mp3 duration and its `PEAK = {"j1"}` is already a Jesus segment, so extract's speaker
+   test reproduces V1's `is_scripture(...) or name in PEAK` exactly.
+
+5. **Anchor-first casting held the rate to 5.7% (2 of 35)** — three face-showing anchors (the farmer,
+   the enemy, the head servant) generated in their own run, then wired into REFS. BOTH rerolls were on
+   the anchors themselves and both were COMPOSITION-level, so both were fixed by delete-file + fresh
+   generation, never `--redo`:
+   - the ENEMY looked straight into the lens. Cured by the standing lens-gaze fix that has now held on
+     eight rows: give the gaze a NAMED TARGET INSIDE THE FRAME (the seed falling from his own hand at
+     the lower left) and move the camera side-on for a three-quarter profile.
+   - the SERVANT had a large out-of-focus PALE shoulder filling the near left foreground — the exact
+     row-24 defect, a second unlocked figure in cream. Cured by stating the near foreground POSITIVELY
+     (standing crop and the top of the low wall, nobody between camera and subject).
+   Both cures were then applied preventively to the other close beats, which is why the remaining 30
+   came back clean in one pass.
+
+6. **Continuity rule applied, not re-derived.** This parable spans a growing season, so the row-24 rule
+   governs: pin the TERRAIN as the invariant (one dry-laid wall, one gap for the cart track, one lone
+   carob tree, one limestone rise) and let each beat state only its own GROWTH STAGE. A DARNEL lock was
+   added so the weed is genuinely indistinguishable before heading and unmistakable after — that
+   distinction is the parable, and without it the servants' question makes no sense.
+
+7. **STAGING checked across the library.** The frame story sits on a THRESHING FLOOR at the head of the
+   grain plain in warm late-afternoon light — the one place in the story world that exists only because
+   of harvest, which is what this parable is about. It repeats none of rows 2/8/21 (Luke 15), 16
+   (lamplit interior), 22 (basalt doorstep), 23 (terraced hillside), 24 (moored boat off a beach), 11
+   (night gale) or 19 (dawn shore with the charcoal fire).
+
+8. **Delivered and verified.** verify-mp4 OK 166.833 s / 21,494,181 bytes; captions checked on 20
+   rendered frames (white narrator, light-blue scripture on s24, red Jesus KJV, bottom band only, never
+   over the art) and the closing card carries its words. Reviewer card repointed on a unique anchor and
+   diffed to a three-line change proving only row 25 moved (rows 12 and 17 byte-identical), carries
+   `data-review-wave="realistic-v2"`, deployed first try (no 429), and confirmed live with the raw
+   GitHub URL serving the matching byte size.
