@@ -19,7 +19,7 @@ touching anything else. Do NOT edit by hand.
 | 12 | newer cut shipped — VERIFY fixed | Captions are off at 1 minute |
 | 13 | newer cut shipped — VERIFY fixed | Some of the pictures need to be redone. I hope you can figure out which ones if not i will get.you to design a bot or find a better ai |
 | 14 | newer cut shipped — VERIFY fixed | The first half needs better pictures |
-| 15 | UNFIXED | Old voice still this isn't the newest one i picked |
+| 15 | newer cut shipped — VERIFY fixed | Old voice still this isn't the newest one i picked |
 | 16 | newer cut shipped — VERIFY fixed | That's not how you pronounce wound |
 | 17 | UNFIXED | At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions |
 | 18 | newer cut shipped — VERIFY fixed | Not real new voice |
