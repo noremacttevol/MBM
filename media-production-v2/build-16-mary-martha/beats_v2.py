@@ -49,7 +49,14 @@ LOCKS = {
         "dark brows and a direct, intelligent face. She wears a hard-wearing DEEP "
         "RUSSET-BROWN wool dress with the sleeves pushed back and a work-stained "
         "apron-cloth at her waist (never cream, never white). Her hands are strong "
-        "and red from work. Her face is shown clearly and is never shrewish."
+        "and red from work. Her face is shown clearly and is never shrewish. HER HAIR IS "
+        "ALWAYS BOUND UP AND COVERED BY THE DARK-OCHRE HEADCLOTH — it never hangs "
+        "loose or flows over her shoulders. Her skin is WARM OLIVE-BROWN and "
+        "sun-worked, the same tone in every shot. Her clothing is first-century "
+        "hand-woven wool: a simple pull-over dress with no buttons, no fastenings "
+        "and no tailoring, a plain rectangle of coarse cloth tied at the waist as an "
+        "apron, and plain leather sandals or bare feet — never a bib apron, never "
+        "closed shoes or boots."
     ),
     "MARY": (
         "MARY LOCK: Mary is the same woman in every shot — about twenty-eight, the "
@@ -57,7 +64,10 @@ LOCKS = {
         "skin and the same dark brows, but slighter, narrower-featured and quieter. "
         "Her dark hair is loosely gathered and falling over one shoulder, uncovered. "
         "She wears a soft DUSTY-INDIGO wool dress with a plain sash (never cream, "
-        "never white). Her face is shown clearly and is calm and absorbed."
+        "never white). HER HEAD IS ALWAYS UNCOVERED — she wears no headscarf, veil, "
+        "hood or head covering of any kind in any shot, and her dark hair is plainly "
+        "visible. Her skin is the same WARM OLIVE-BROWN as her sister's in every "
+        "shot. Her face is shown clearly and is calm and absorbed."
     ),
     "HOUSE": (
         "BETHANY HOUSE LOCK: a comfortable village house of warm honey-coloured "
@@ -66,15 +76,23 @@ LOCKS = {
         "shelves of clay jars and bowls, a low table with cushions around it, a "
         "doorway open to the blue dusk outside. IT IS EVENING: the room is lit "
         "warmly and unevenly by small clay oil lamps and the low fire, with deep "
-        "shadow in the corners and the last blue light in the doorway."
+        "shadow in the corners and the last blue light in the doorway. EVERY LIGHT IN "
+        "THE FRAME, near or far, sharp or blurred, is either an open hearth fire or "
+        "a small hand-sized clay saucer lamp with a single wick flame standing on a "
+        "shelf, ledge or niche. There is no glass chimney, no metal lantern, no "
+        "hanging fixture, no candelabra, no bracket of lamps and nothing "
+        "manufactured or piped anywhere in the room."
     ),
     "GUESTS": (
         "GUESTS LOCK: the travellers with him are the same six or seven men "
         "throughout — working Galileans between twenty and forty, dusty from the "
         "road, sitting on mats and cushions around the low table. They wear wool "
         "tunics in SATURATED DEEP colours: rust-brown, deep russet, dark olive, "
-        "blue-grey and dusty indigo. None wears off-white, ivory or any near-white "
-        "cloth. Their faces are shown clearly."
+        "blue-grey and dusty indigo. NOT ONE OF THEM wears off-white, ivory, cream, "
+        "bone, oatmeal or any pale near-white cloth on any part of him — no pale "
+        "shawl, mantle, wrap, sash, headcloth or undertunic, in focus or out of "
+        "focus, because a pale garment on any of them reads as a second Jesus and "
+        "fails the picture. Their faces are shown clearly."
     ),
 }
 
@@ -94,7 +112,14 @@ BEATS = [
             "hillside at dusk, olive trees and terraces around it, the sky gone deep "
             "blue with the last light low behind the ridge. Warm orange lamplight is "
             "beginning to show in one or two low doorways. Far off across the valley "
-            "the walls and rooftops of Jerusalem stand dark against the last of the "
+            "FIRST-CENTURY JERUSALEM OF ABOUT AD 30 AND NOTHING LATER stands dark "
+            "against the last of the light: long Herodian ashlar walls, flat "
+            "mud-and-timber roofs, and the white-and-gold Second Temple platform above "
+            "the city. The village too is flat-roofed mud-plastered stone. The only "
+            "lights in the whole picture are firelight and oil-lamp glimmers in a few "
+            "doorways. No domes, no minarets, no pitched or tiled roofs, no poles, "
+            "wires, aerials, dishes, water tanks, vehicles, paved roads or electric "
+            "lamps appear anywhere in the frame, near or far. The last of the "
             "light. Quiet and settling into night."
             " The camera looks down over the terraces from the hillside above and behind the village, so the houses are seen from their backs and roofs and the valley falls away past them; nobody stands near the lens. "
         ),
@@ -103,6 +128,7 @@ BEATS = [
         "id": "v2-r016-b02", "out": "s02-martha-welcomed-him-in.jpeg", "seg": "n1 p2",
         "window": "3.63-11.76", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "GUESTS", "HOUSE"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("One evening, Jesus came here to the home of two sisters, Martha "
                       "and Mary, and Martha gladly welcomed him in."),
         "must_show": "⚠️ MARTHA GLAD: her in the lamplit doorway with both arms out in welcome, genuinely delighted, ushering him and the travellers in.",
@@ -123,6 +149,7 @@ BEATS = [
         "id": "v2-r016-b03", "out": "s03-an-honor-and-a-great-deal-of-work.jpeg", "seg": "n2",
         "window": "11.76-20.97", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "HOUSE"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("In that day, hosting a guest like this was a real honor, and a "
                       "great deal of work. There was a meal to cook, water to carry, and "
                       "a whole house to ready. Martha took all of it onto herself."),
@@ -165,6 +192,7 @@ BEATS = [
         "id": "v2-r016-b04", "out": "s04-she-threw-herself-in.jpeg", "seg": "n3 p1",
         "window": "25.14-27.17", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": "So Martha threw herself into the serving.",
         "must_show": "her hands working fast and well — competent, practised, good at this.",
         "must_not_show": "no faces needed; the competence is the point.",
@@ -180,6 +208,7 @@ BEATS = [
         "id": "v2-r016-b05", "out": "s05-moving-without-a-pause.jpeg", "seg": "n3 p2",
         "window": "27.17-36.12", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "GUESTS", "HOUSE"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("Stirring, carrying, cleaning, fixing, moving without a pause, "
                       "giving this guest everything she thought he deserved."),
         "must_show": "Martha in motion across the room — mid-stride with a full water jar on her hip, the room full of half-done tasks around her.",
@@ -200,6 +229,7 @@ BEATS = [
         "id": "v2-r016-b06", "out": "s06-the-joy-got-buried.jpeg", "seg": "n4 p1",
         "window": "36.12-41.52", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("But little by little, the joy of having him there got buried under "
                       "the weight of getting it all just right."),
         "must_show": "the change in her face — the delight from the doorway gone, replaced by tight concentration and a small frown.",
@@ -217,6 +247,7 @@ BEATS = [
         "id": "v2-r016-b07", "out": "s07-winding-tighter.jpeg", "seg": "n4 p2",
         "window": "41.52-47.51", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "HOUSE"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": ("Her hands stayed busy while, inside, she wound tighter and "
                       "tighter."),
         "must_show": "her hands still working while her head is turned — a glance thrown across the room toward her sister, the first crack.",
@@ -254,6 +285,7 @@ BEATS = [
         "id": "v2-r016-b09", "out": "s09-at-his-feet-listening.jpeg", "seg": "n5 p2",
         "window": "50.23-57.32", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARY", "GUESTS", "HOUSE"],
+        "char_refs": ["assets/s08-a-different-choice.jpeg"],
         "narration": ("She sat down on the floor at Jesus's feet, and she simply "
                       "listened to every word he said."),
         "must_show": "SCRIPTURE-EXACT (v39): Mary seated on the floor AT HIS FEET, closer than anyone, face turned up and completely absorbed.",
@@ -273,6 +305,7 @@ BEATS = [
         "id": "v2-r016-b10", "out": "s10-the-place-a-student-sat.jpeg", "seg": "n6 p1-p2",
         "window": "57.32-66.06", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARY", "GUESTS"],
+        "char_refs": ["assets/s08-a-different-choice.jpeg"],
         "narration": ("Back then, sitting at a teacher's feet was the place a student "
                       "sat, and it was not a place people expected a woman to take. Mary "
                       "took it anyway."),
@@ -293,6 +326,7 @@ BEATS = [
         "id": "v2-r016-b11", "out": "s11-nearer-than-anything.jpeg", "seg": "n6 p3",
         "window": "66.06-71.27", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARY"],
+        "char_refs": ["assets/s08-a-different-choice.jpeg"],
         "narration": "She wanted to be near him more than anything else that night.",
         "must_show": "close on Mary's face — lit warm, utterly still, everything else in the world switched off.",
         "must_not_show": "no piety-performance; simple absorbed attention. Do not put Jesus in this frame.",
@@ -310,6 +344,7 @@ BEATS = [
         "id": "v2-r016-b12", "out": "s12-worn-thin.jpeg", "seg": "n7 p1",
         "window": "71.27-75.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": "Meanwhile Martha, worn thin, finally reached her breaking point.",
         "must_show": "close on Martha stopped for the first time — both hands braced on the table, head down, exhausted.",
         "must_not_show": "⚠️ sympathy, not shrewishness — this is a woman at the end of her strength; do not put Jesus in this frame.",
@@ -326,6 +361,7 @@ BEATS = [
         "id": "v2-r016-b13", "out": "s13-in-front-of-everyone.jpeg", "seg": "n7 p2",
         "window": "75.23-83.50", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "GUESTS", "HOUSE"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": ("She stopped, looked at her sister just sitting there, and said out "
                       "loud, in front of everyone, exactly what she was feeling."),
         "must_show": "Martha crossing the room and speaking into the middle of the gathering — the whole seated circle turning to her.",
@@ -346,6 +382,7 @@ BEATS = [
         "id": "v2-r016-b14", "out": "s14-dont-you-care.jpeg", "seg": "n8 p1",
         "window": "83.50-87.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("Lord, don't you care that my sister has left me to do all of this "
                       "work by myself?"),
         "must_show": "close on Martha's face asking it — hurt showing through the anger, eyes bright, on the edge of tears.",
@@ -362,6 +399,7 @@ BEATS = [
         "id": "v2-r016-b15", "out": "s15-tell-her-to-help-me.jpeg", "seg": "n8 p2",
         "window": "87.98-91.32", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "GUESTS"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": "Tell her to get up and help me.",
         "must_show": "her hand pointing at her sister and the room caught in it — Mary looking up from the floor, the guests frozen and awkward.",
         "must_not_show": "do not put Jesus in this frame; nobody knows where to look, which is the truth of the moment.",
@@ -381,6 +419,7 @@ BEATS = [
         "id": "v2-r016-b16", "out": "s16-the-room-went-quiet.jpeg", "seg": "n9 p1",
         "window": "91.32-92.76", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "GUESTS", "HOUSE"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": "The whole room went quiet.",
         "must_show": "total stillness in the lamplit room — nobody moving, the fire the only thing alive in the frame.",
         "must_not_show": "no halo, glare or rim-light; nobody has spoken yet.",
@@ -417,6 +456,7 @@ BEATS = [
         "id": "v2-r016-b18", "out": "s18-martha-martha.jpeg", "seg": "j1 a",
         "window": "100.53-106.13", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("Martha, Martha, thou art careful and troubled about many things: "
                       "(Luke 10:41)"),
         "must_show": "the two of them — him speaking her name up at her, and the tightness beginning to come out of her face as she hears it.",
@@ -436,6 +476,7 @@ BEATS = [
         "id": "v2-r016-b19", "out": "s19-that-good-part.jpeg", "seg": "j1 b",
         "window": "106.13-115.04", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": ("But one thing is needful: and Mary hath chosen that good part, "
                       "which shall not be taken away from her. (Luke 10:42)"),
         "must_show": "his open hand indicating Mary at his feet while his eyes stay on Martha — naming one sister while looking at the other.",
@@ -455,6 +496,7 @@ BEATS = [
         "id": "v2-r016-b20", "out": "s20-he-never-scolded-the-serving.jpeg", "seg": "n10 p1",
         "window": "115.04-119.53", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("He did not scold her for serving, and he was never upset that she "
                       "worked so hard."),
         "must_show": "close on Martha's working hands, still floury, held loosely now — the work itself is honoured, not criticised.",
@@ -470,6 +512,7 @@ BEATS = [
         "id": "v2-r016-b21", "out": "s21-the-worry-underneath.jpeg", "seg": "n10 p2",
         "window": "119.53-125.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("What troubled him was the worry underneath it, the anxiety that "
                       "was pulling her apart."),
         "must_show": "close on Martha's face as the defence gives way — the exhaustion and the fear of not being enough coming to the surface.",
@@ -487,6 +530,7 @@ BEATS = [
         "id": "v2-r016-b22", "out": "s22-not-taken-away.jpeg", "seg": "n10 p3",
         "window": "125.11-132.94", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARY"],
+        "char_refs": ["assets/s08-a-different-choice.jpeg"],
         "narration": ("And the quiet thing Mary had chosen, just being with him, he "
                       "promised no one would ever take away from her."),
         "must_show": "Mary back in her place at his feet, unmoved and unmoved-on — the thing she chose left exactly where it was.",
@@ -506,6 +550,7 @@ BEATS = [
         "id": "v2-r016-b23", "out": "s23-not-picking-one-sister.jpeg", "seg": "n11 p1-p2",
         "window": "132.94-141.66", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": ("He was not picking one sister over the other. He was telling a "
                       "woman he loved that she did not have to earn her place near him "
                       "by working herself ragged."),
@@ -526,6 +571,7 @@ BEATS = [
         "id": "v2-r016-b24", "out": "s24-she-was-allowed-to-stop.jpeg", "seg": "n11 p3",
         "window": "141.66-148.93", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "HOUSE"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": ("She was allowed to stop, and sit, and simply be with him, the "
                       "same as her sister."),
         "must_show": "⚠️ THE RESOLUTION: Martha sitting down on the floor beside Mary — the cloth set aside, the work left, both sisters together at his feet.",
@@ -545,6 +591,7 @@ BEATS = [
         "id": "v2-r016-b25", "out": "s25-he-worried-about-the-worry.jpeg", "seg": "n12",
         "window": "148.93-155.79", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "GUESTS", "HOUSE"],
+        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": ("He never scolded the serving. He worried about the worry. That is "
                       "the kind of God he is."),
         "must_show": "the closing frame: the whole warm room settled — both sisters on the floor, the guests listening, the half-done work forgotten in the shadows.",
