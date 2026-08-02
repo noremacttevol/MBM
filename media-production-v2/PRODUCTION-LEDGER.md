@@ -1022,3 +1022,11 @@ WHAT THIS ROW COST AND WHY — read this before the next one:
    hair and beard explicitly in the beat) and b35 (the upper room returned as a stacked
    three-panel strip — cured by the recorded "ONE SINGLE PHOTOGRAPH FILLING THE WHOLE 9:16
    FRAME, not two or three stacked horizontal panels" sentence in the beat's own text).
+
+---
+
+## Row 19 — Breakfast on the Shore (John 21) — Claude worker 13, Machine A `Dev`, 2026-08-01
+
+Claimed before any spend. Audio LOCKED (reused unchanged, never re-voiced). Every
+picture rebuilt at native 2K to the realistic standard; every window re-timed from
+the fixed `extract_beats.py`. Spend and lessons appended below as the row proceeds.
