@@ -123,15 +123,28 @@ WATER — weather, spray and a boat. Row 16 is an INTERIOR, indoors, walls on fo
 This row is staged in FOUR places, none of them used above and none of them either of
 those:
   * THE FRAME — a bare rocky shoulder of the MOUNT OF OLIVES, in CLEAR LATE AFTERNOON,
-    with the Kidron valley falling away below and the great dressed-stone wall and
-    temple platform of Jerusalem lying across it in the far distance. This is
+    with a deep dry valley falling away below and bare tawny hillside rising beyond
+    it. NO CITY IS SHOWN (see the re-stage note below). This is
     scripturally exact rather than decorative: Matthew 24:3 seats him on that mountain
     privately with the disciples, and chapter 25 runs straight on from it. It is
-    distinguished from row 23's terraced hillside (which is defined by cultivation and
-    vine terraces) and from row 29's limestone shelf (defined by an empty dry wadi) by
-    the one thing neither has and nothing else in the library has: THE CITY ACROSS THE
-    VALLEY. It is bare rock and dry grass — deliberately no grove, because row 28 owns
+    distinguished from row 23's terraced hillside (defined by cultivation and vine
+    terraces) and from row 29's limestone shelf (defined by an empty dry wadi) by being
+    a HIGH OPEN SHOULDER above a deep dry valley with bare tawny hill rising beyond it —
+    no vines, no terraces, no wadi floor, and deliberately no grove, because row 28 owns
     the olive canopy.
+    ⚠️ NO CITY IS SHOWN, AND THAT IS A DELIBERATE RE-STAGE, NOT AN OVERSIGHT. The frame
+    was first written with Jerusalem hazed across the valley, which is scripturally
+    exact (Matthew 24:3) and was the thing that made this staging unique. It had to go.
+    Naming "Jerusalem", "city wall" and "temple platform" while standing on the Mount of
+    Olives reproduces the modern tourist photograph taken from that exact viewpoint, and
+    the model rendered PRESENT-DAY Jerusalem twice: the Al-Aqsa dome, a minaret, Ottoman
+    crenellated battlements and modern multi-storey blocks along the ridge. The lock had
+    already forbidden every one of those BY NAME and lost, and a second attempt that
+    beat it with geometry (pushing the ridge so far off that no building could be
+    resolved) still came back with the dome, the minaret and the crenellations. Two
+    failures is the stop rule: the object was DELETED from the lock and from every frame
+    beat's prose rather than described a third time, and the far side of the valley is
+    now bare hillside with nothing built on it anywhere.
   * THE FORECOURT — a wide open packed-earth forecourt outside the bridegroom's house,
     a low dry-laid limestone wall down one side and the blank windowless mud-brick
     backs of village houses closing the other, at DUSK and then in FULL NIGHT. It is
@@ -180,15 +193,15 @@ LOCKS = {
         "smooth enough to sit on. There is NO tree, NO grove, NO canopy, NO vine, NO "
         "terrace wall and NO building anywhere on this slope — it is open bare rock and "
         "dry grass, and the sky is wide above it. The ground falls away steeply beyond "
-        "the ledge into the deep Kidron valley, and ACROSS that valley in the FAR "
-        "distance, small and hazed with heat, lies the city: a long massive wall of "
-        "dressed honey-coloured limestone blocks following the ridge, and above it the "
-        "broad FLAT platform and low flat-roofed courts of the temple. THE CITY IS "
-        "ALWAYS DISTANT AND ALWAYS SMALL, a band low in the picture, never close and "
-        "never detailed. AGAINST THE SKY THERE IS ONLY FLAT ROOFLINE AND BARE RIDGE: "
-        "no dome, no minaret, no bell tower, no spire, no clock, no pitched roof, no "
-        "roof tile, no chimney, no crenellated fantasy castle, no aerial, no wire, no "
-        "cable and no pole. THE LIGHT IS CLEAR LATE AFTERNOON: the sun is well up and "
+        "the ledge into a deep dry valley, and the far side of that valley rises again "
+        "as BARE OPEN HILLSIDE: pale tawny rock, thin dry summer grass, scattered low "
+        "scrub and loose stone, hazed with distance. THERE IS NO CITY IN THIS PICTURE "
+        "AND NO BUILT THING OF ANY KIND ANYWHERE IN IT. Across the valley and along "
+        "every ridge there is only bare hill and empty sky: no town, no village, no "
+        "city, no wall, no rampart, no battlement, no crenellation, no gate, no tower, "
+        "no temple, no dome, no minaret, no spire, no roof, no house, no ruin, no road, "
+        "no terrace, no wire and no pole — the horizon is an unbroken line of empty "
+        "hillside against an empty sky. "
         "always OUT OF FRAME, the light warm and directional from the low right, "
         "shadows long but not raking, the far city and hills slightly hazed. IT IS "
         "NEVER SUNSET AND NEVER SUNRISE — there is no sun disc, no orange or pink or "
@@ -245,7 +258,7 @@ LOCKS = {
         "Judea, aged roughly sixteen to thirty, each a DIFFERENT individual human being "
         "with her own face, age, build, hair and colours — no two share a face, no face "
         "is cloned or repeated, and not one of them is a generic bystander. They are "
-        "spaced with a clear gap of dark ground between them so that all ten can be "
+        "spaced with a clear gap of dark ground between them so that all ten can be counted one by one. THE PICTURE IS TALL AND NARROW, SO THE TEN ARE ARRANGED IN DEPTH AND NOT IN A ROW: they are staggered at clearly different distances from the camera, some near and large, some further and smaller, some further still, spread from the lower part of the frame back into the middle distance, and they are NEVER strung out in one straight horizontal line across the narrow width of the picture. THE WHOLE GROUP FITS COMFORTABLY INSIDE THE FRAME WITH ROOM TO SPARE: there is clear empty ground visible beyond BOTH ends of the group, and NOT ONE WOMAN IS CUT, CLIPPED, SLICED OR RUN OFF BY ANY EDGE OF THE PICTURE — every one of the ten is whole and entirely inside the frame. NOW COUNT WHAT IS IN THE PICTURE: exactly TEN heads, TEN faces and TEN bodies and NO ELEVENTH head, shoulder, arm, hand or body anywhere, at any edge, in the background, behind another figure or out of focus; and exactly FIVE clay oil jars and NO SIXTH jar anywhere in the frame. "
         "counted one by one. "
         "EVERY ONE OF THE TEN CARRIES HER OWN SMALL CLAY OIL LAMP, and the ONE "
         "difference a viewer must be able to see at a glance is THE SECOND VESSEL: each "
@@ -305,13 +318,13 @@ LOCKS = {
         "FORWARD over her LEFT shoulder to below the collarbone, with a few loose "
         "strands at the temple. Her hands are small, brown and work-roughened, the "
         "nails short. EVERY SEPARATE PIECE OF CLOTH ON HER IS DARK AND SATURATED: an "
-        "ankle-length DARK OLIVE-GREEN coarse hand-woven wool tunic with straight "
+        "ankle-length DARK OLIVE-GREEN smooth flat close-woven wool tunic with straight "
         "sleeves to the wrist, a twisted DARK BROWN cord sash at the waist, and a DEEP "
         "RUST-RED head cloth whose LOOSE END IS THROWN BACK OVER HER RIGHT SHOULDER and "
         "hangs down her back. She wears no scarf, stole, shawl, wrap or mantle of any "
         "other colour, and nothing she wears is cream, off-white, ivory, buff, beige, "
         "taupe, sand, khaki, white or pale. She carries a small clay oil lamp, and a "
-        "small round clay oil jar with a rolled-cloth stopper."
+        "small round clay oil jar with a rolled-cloth stopper. HER CLOTH IS THIN, FLAT AND SMOOTH-SURFACED, a fine close plain weave that hangs in soft limp folds and shows only a faint over-and-under thread grid at very close range. IT IS NOT A KNITTED OR CHUNKY FABRIC: no knit or purl stitch, no rib, no cable, no bouclé, no nubbly or bumpy surface, no thick spongy pile, no ribbed or banded collar, cuff or neckline, and nothing on her anywhere resembles a sweater, jumper or hand-knitted garment. Her neck opening is a plain cut slit in the cloth with no band, binding or collar of any kind. "
     ),
     "FOOLISH-LEAD": (
         "FOOLISH-LEAD LOCK: she is the SAME young woman as the attached reference "
@@ -324,12 +337,12 @@ LOCKS = {
         "jaw. Her hair is black and tightly curling and escapes her head cloth in loose "
         "coils at both temples and at the nape. Her hands are small and thin. EVERY "
         "SEPARATE PIECE OF CLOTH ON HER IS DARK AND SATURATED: an ankle-length DEEP "
-        "RUST-BROWN coarse hand-woven wool tunic with straight sleeves, a folded DARK "
+        "RUST-BROWN smooth flat close-woven wool tunic with straight sleeves, a folded DARK "
         "BROWN cloth sash at the waist, and a DARK MOSS-GREEN head cloth that has "
         "SLIPPED BACK OFF THE CROWN OF HER HEAD, its loose end lying over her LEFT "
         "FOREARM. She wears no scarf, stole, shawl, wrap or mantle of any other colour, "
         "and nothing she wears is cream, off-white, ivory, buff, beige, taupe, sand, "
-        "khaki, white or pale. She carries a small clay oil lamp and NOTHING ELSE — her "
+        "khaki, white or pale. HER CLOTH IS THIN, FLAT AND SMOOTH-SURFACED, a fine close plain weave that hangs in soft limp folds and shows only a faint over-and-under thread grid at very close range. IT IS NOT A KNITTED OR CHUNKY FABRIC: no knit or purl stitch, no rib, no cable, no bouclé, no nubbly or bumpy surface, no thick spongy pile, no ribbed or banded collar, cuff or neckline, and nothing on her anywhere resembles a sweater, jumper or hand-knitted garment. Her neck opening is a plain cut slit in the cloth with no band, binding or collar of any kind. She carries a small clay oil lamp and NOTHING ELSE — her "
         "other hand is EMPTY and there is no jar, flask, skin or second vessel anywhere "
         "on her or at her feet."
     ),
@@ -347,7 +360,7 @@ LOCKS = {
         "hand-woven wool tunic with straight sleeves, a broad folded DARK BROWN cloth "
         "sash wound twice at the waist, and a DARK INDIGO mantle over ONE shoulder "
         "whose loose end is caught up under the sash. On his head is a plain woven "
-        "circlet of dry myrtle and olive leaves, dark green and unshowy. NOTHING HE "
+        "DARK INDIGO head cloth wound close over his short black hair with its loose end falling over his left shoulder. HIS HEAD CARRIES NO WREATH, GARLAND, CIRCLET, DIADEM, BAND, CROWN OR HEADPIECE OF ANY KIND, and nothing of leaves, twigs, branches, briar or thorn is on or near his head anywhere. NOTHING HE "
         "WEARS IS CREAM, OFF-WHITE, IVORY, BUFF, BEIGE, TAUPE, SAND, KHAKI, WHITE OR "
         "PALE, and he has no halo, no glow, no rim-light and no light coming off him."
     ),
@@ -357,7 +370,7 @@ LOCKS = {
         "different face. EVERY SEPARATE PIECE OF CLOTH ON EVERY ONE OF THEM — tunic, "
         "sleeves, sash, head cloth, mantle, wrap or shawl — IS A DARK SATURATED COLOUR "
         "drawn from deep indigo, dark brown, deep rust, dark olive, charcoal, deep "
-        "maroon and dark teal, and NOT ONE PERSON IN THE PARTY WEARS CREAM, OFF-WHITE, "
+        "maroon and dark teal. EVERY SCARF, WRAP, STOLE AND HEAD CLOTH IS AS DARK AS THE TUNIC UNDER IT — there is no light olive, sage, pale grey, grey-green, oatmeal, stone or bleached scarf, wrap, stole or head cloth on anybody. NOT ONE PERSON IN THE PARTY WEARS CREAM, OFF-WHITE, "
         "IVORY, BUFF, BEIGE, TAUPE, SAND, KHAKI, WHITE OR ANY PALE CLOTH, including at "
         "the blurred edges of the frame and on figures out of focus. Two or three of "
         "them carry PITCH TORCHES: a rough wooden stave bound at the head with resinous "
@@ -401,7 +414,7 @@ REFS = {
     "BRIDEGROOM": "assets/s26-the-bridegroom-arrived.jpeg",
 }
 
-_NO_JESUS = ("no Jesus in this frame; no bare rocky hillside, no distant city wall and "
+_NO_JESUS = ("no Jesus in this frame; no bare rocky hillside, no open dry valley and "
              "no late-afternoon daylight; ")
 _NO_CREAM = ("no cream, off-white, ivory, buff, beige, taupe, sand, khaki, white or "
              "pale garment, cloth, shawl, wrap, stole or head covering on anybody "
@@ -426,12 +439,12 @@ BEATS = [
         "seg": "n0", "window": "0.280-3.853", "wide": True, "jesus": True, "ref": REF,
         "locks": ["OLIVET", "DISCIPLES"],
         "narration": "Jesus told a story about ten young women waiting for a wedding.",
-        "must_show": "Jesus seated on a low limestone boulder on the bare Olivet shoulder with his small closed circle of disciples sitting low on the rock around him, the Kidron valley falling away behind and the distant city wall and temple platform a small hazed band low in the far distance, in clear late-afternoon light.",
+        "must_show": "Jesus seated on a low limestone boulder on the bare Olivet shoulder with his small closed circle of disciples sitting low on the rock around him, the dry valley falling away behind and the bare tawny far hillside rising beyond it, with no town or building anywhere in the picture, in clear late-afternoon light.",
         "must_not_show": _NO_HALO + "no night, no lamp, no flame, no fire, no sunset, no sunrise and no golden low sun; no tree, no grove, no canopy, no vine, no terrace and no building on the slope; no woman, no lamp and no wedding anywhere in this frame; " + _NO_CREAM + _GAZE,
         "scene": (
             "One photograph, 35mm lens, clear late-afternoon light warm and directional "
             "from the low right, the sun well up and OUT OF FRAME, long soft shadows "
-            "reaching left across the pale rock, the far valley and city slightly hazed, "
+            "reaching left across the pale rock, the far valley and hills slightly hazed, "
             "fine film grain. THE CAMERA IS PLACED COMPLETELY SIDE-ON TO THE WHOLE "
             "CIRCLE, STANDING OUT ON THE ROCK WELL TO ONE SIDE AND SHOOTING ACROSS THE "
             "GROUP AT RIGHT ANGLES TO EVERY EYELINE IN THE PICTURE. Jesus sits at the "
@@ -444,7 +457,7 @@ BEATS = [
             "PAIR OF PUPILS IS CENTRED ON THE LENS. THIS IS A WIDE FULL-LENGTH GROUP "
             "PHOTOGRAPH AND NOT A PORTRAIT: the camera is far enough back that Jesus AND "
             "at least six seated disciples are in frame together, head to feet, with the "
-            "valley and the small distant city band behind them; Jesus occupies only a "
+            "valley and the bare far hillside behind them; Jesus occupies only a "
             "modest part of the picture and is never framed from the chest up. EXACTLY "
             "TWO out-of-focus seated BACKS fill the near bottom corners and they are the "
             "only foreground objects: a DEEP INDIGO shouldered back with a dark indigo "
@@ -618,7 +631,7 @@ BEATS = [
             "shoulder and showing the faint throwing rings in the clay and a smear of "
             "old oil down one side. Her thick dark brown plait falls forward over her "
             "left shoulder into the frame, dark against dark. Her dark olive-green wool "
-            "sleeve and deep rust-red head cloth read as coarse hand-woven cloth in the "
+            "sleeve and deep rust-red head cloth read as smooth flat close-woven cloth in the "
             "raking light. Everything behind her is unlit black night with two or three "
             "small far lamp flames as tiny soft out-of-focus points."
         ),
@@ -680,7 +693,7 @@ BEATS = [
             "moss-green head cloth has slipped back off the crown of her head and its "
             "loose end lies over her left forearm. Her expression is easy and "
             "untroubled, a young woman with no idea anything is wrong. Her deep "
-            "rust-brown wool sleeve reads as coarse hand-woven cloth in the raking "
+            "rust-brown wool sleeve reads as smooth flat close-woven cloth in the raking "
             "upward light."
         ),
     },
@@ -904,7 +917,7 @@ BEATS = [
             "anywhere around her head, hair or shoulders. Her thick dark brown plait "
             "falls forward over her LEFT shoulder. Her expression is calm, absorbed and "
             "practical. Her dark olive-green wool sleeve and deep rust-red head cloth "
-            "read as coarse hand-woven cloth. The background is pure unlit black with one "
+            "read as smooth flat close-woven cloth. The background is pure unlit black with one "
             "tiny distant out-of-focus flame."
         ),
     },
@@ -976,7 +989,7 @@ BEATS = [
             "light anywhere around her head, hair or shoulders. Her mouth has come open a "
             "little and her brows have drawn together — the exact moment the easy face "
             "from earlier falls. Her dark moss-green head cloth is slipped back off the "
-            "crown of her head. Deep rust-brown coarse hand-woven wool at her shoulder. "
+            "crown of her head. Deep rust-brown smooth flat close-woven wool at her shoulder. "
             "The background is pure unlit black."
         ),
     },
@@ -1254,7 +1267,7 @@ BEATS = [
         "locks": ["BRIDEGROOM", "PARTY", "LANE"] + _NIGHT,
         "narration": "oil, the bridegroom arrived.",
         "must_show": "the bridegroom coming up the lane at the head of his party, his face visible and lit warm from below by a companion's torch carried low beside him, the party's dark figures crowding behind.",
-        "must_not_show": _NO_JESUS + _NO_DAY + _NO_HALO + _NO_MODERN_LAMP + "no cream, white or pale garment on the bridegroom or anyone in the party; no crown, no jewels, no gold, no rich embroidery and no royal or priestly costume — he is a village bridegroom; no torch raised above anyone's head; " + _NO_CREAM + _GAZE,
+        "must_not_show": _NO_JESUS + _NO_DAY + _NO_HALO + _NO_MODERN_LAMP + "no cream, white or pale garment on the bridegroom or anyone in the party; no crown, no wreath, no garland, no circlet, no diadem and NOTHING OF LEAVES, TWIGS, BRANCHES, BRIAR OR THORN on or near his head — absolutely no crown of thorns and nothing that resembles one; no jewels, no gold, no rich embroidery and no royal or priestly costume — he is a village bridegroom; no torch raised above anyone's head; " + _NO_CREAM + _GAZE,
         "scene": (
             "One photograph, 50mm lens, deep midnight, shallow depth of field with the "
             "party behind him soft. THE CAMERA STANDS IN THE LANE OFF TO THE BRIDEGROOM'S "
@@ -1265,7 +1278,7 @@ BEATS = [
             "the lens. He is sharp in the middle of the frame from the knees up, walking "
             "at an easy unhurried pace, his weight on the forward foot, the deep "
             "burgundy-red wool of his tunic and the dark indigo mantle over one shoulder "
-            "moving with the stride, the plain dry myrtle-and-olive circlet dark on his "
+            "moving with the stride, his dark indigo head cloth wound close over his short black hair with its loose end down his left shoulder. "
             "short black hair. His face is broad and square-jawed with a close-cropped "
             "black beard, and his expression is warm and glad. Walking a half pace ahead "
             "of him and NEARER THE CAMERA, a companion carries a PITCH TORCH — a rough "
@@ -1409,7 +1422,7 @@ BEATS = [
             "out of the frame — no part of her gaze comes near the lens, and the crown "
             "and back of her head and her dark moss-green head cloth are unlit and merge "
             "into the black, with no bright rim, edge or outline around them. Her deep "
-            "rust-brown wool sleeve reads as coarse hand-woven cloth. The rest of the "
+            "rust-brown wool sleeve reads as smooth flat close-woven cloth. The rest of the "
             "picture is unlit black timber and night."
         ),
     },
@@ -1482,12 +1495,12 @@ BEATS = [
         "seg": "n14", "window": "111.663-114.886", "wide": True, "jesus": True, "ref": REF,
         "locks": ["OLIVET", "DISCIPLES"],
         "narration": "Then Jesus told them why he had shared this story.",
-        "must_show": "Jesus on the Olivet ledge turning back to the disciples as the parable ends, in clear late-afternoon light, the distant city small across the valley behind.",
+        "must_show": "Jesus on the Olivet ledge turning back to the disciples as the parable ends, in clear late-afternoon light, the bare far hillside across the valley behind him.",
         "must_not_show": _NO_HALO + "no night, no lamp, no flame, no fire, no sunset, no sunrise and no golden low sun; no tree, no grove, no canopy and no building on the slope; no woman, no lamp and no door anywhere in this frame; " + _NO_CREAM + _GAZE,
         "scene": (
             "One photograph, 40mm lens, clear late-afternoon light warm and directional "
             "from the low right, the sun well up and OUT OF FRAME, long soft shadows on "
-            "the pale limestone, the far valley and small distant city hazed, fine film "
+            "the pale limestone, the far valley and the bare far hills hazed, fine film "
             "grain. THE CAMERA IS PLACED SIDE-ON TO THE CIRCLE, STANDING OUT ON THE ROCK "
             "TO ONE SIDE AND SHOOTING ACROSS THE GROUP AT RIGHT ANGLES TO EVERY EYELINE. "
             "Jesus is at the RIGHT of the frame, still seated on the low boulder but "
@@ -1500,7 +1513,7 @@ BEATS = [
             "CENTRED ON THE LENS. THIS IS A WIDE FULL-LENGTH GROUP PHOTOGRAPH AND NOT A "
             "PORTRAIT: the camera is far enough back that Jesus AND at least five seated "
             "disciples are in frame together head to feet, with the valley and the small "
-            "hazed city band low behind them. The men have come forward on the rock — one "
+            "hazed bare hillside low behind them. The men have come forward on the rock — one "
             "has shifted up onto his knees, one has leaned in with his forearms on his "
             "thighs, one has turned his whole body round — the whole circle tightened by "
             "the end of the story. Jesus's near hand rests open on his knee. EXACTLY ONE "
@@ -1530,12 +1543,12 @@ BEATS = [
             "GAZE IS GEOMETRICALLY IMPOSSIBLE IN THIS COMPOSITION. He is speaking: the "
             "jaw open a little on the word, the near brow level, the whole face grave and "
             "warm rather than stern. His one plain undyed off-white cream wool robe and "
-            "mantle read as coarse hand-woven cloth in the clear side light, the weave "
+            "mantle read as smooth flat close-woven cloth in the clear side light, the weave "
             "visible at the shoulder. He is the only person in the frame. Behind him, "
             "thrown well out of focus, are the pale grey weathered limestone of the ledge, "
             "the dry bleached grass, and low in the background the hazed far side of the "
-            "valley with the small distant band of honey-coloured city wall and flat "
-            "temple platform. The daylight falls on him from the front right, modelling "
+            "valley, bare tawny rock and dry grass with no building anywhere in it. The "
+            "daylight falls on him from the front right, modelling "
             "the near cheek and brow; NOTHING stands behind his head, there is no bright "
             "rim, edge, ring, corona, aura or outline of light around his head, hair, "
             "beard or shoulders, and no light comes off him. Fine film grain."
@@ -1546,7 +1559,7 @@ BEATS = [
         "seg": "j1", "window": "119.386-122.902", "wide": True, "jesus": True, "ref": REF,
         "locks": ["OLIVET", "DISCIPLES"],
         "narration": "wherein the Son of Man cometh.",
-        "must_show": "Jesus and the disciples on the ledge with the whole wide valley and the small distant city open beyond them, the words landing in the silence — a wide, quiet, spacious frame.",
+        "must_show": "Jesus and the disciples on the ledge with the whole wide empty valley and the bare far hills open beyond them, the words landing in the silence — a wide, quiet, spacious frame.",
         "must_not_show": _NO_HALO + "no night, no lamp, no flame, no sunset, no sunrise and no golden low sun; no tree, no grove, no canopy and no building on the slope; " + _NO_CREAM + _GAZE,
         "scene": (
             "One photograph, 24mm lens, clear late-afternoon light from the low right, the "
@@ -1562,12 +1575,12 @@ BEATS = [
             "edge of the frame; five or six disciples sit lower and nearer, all facing "
             "the same way. THE SUBJECT IS THE SPACE: the bare grey limestone ledge and "
             "dry bleached grass run out to the lip, the ground drops away into the deep "
-            "Kidron valley, and beyond it the long massive wall of honey-coloured dressed "
-            "stone and the broad flat temple platform lie SMALL and hazed along the far "
-            "ridge, with the wide clear sky above taking the whole upper half of the "
-            "picture. AGAINST THAT SKY THERE IS ONLY FLAT ROOFLINE AND BARE RIDGE — no "
-            "dome, no minaret, no bell tower, no spire, no pitched roof, no tile, no "
-            "chimney, no aerial, no wire, no cable and no pole. Everything the disciples "
+            "dry valley, and beyond it the far side rises again as BARE TAWNY HILLSIDE, pale "
+            "rock and thin dry grass, hazed along the far ridge, with the wide clear sky "
+            "above taking the whole upper half of the picture. AGAINST THAT SKY THERE IS "
+            "ONLY BARE EMPTY RIDGE AND NOTHING ELSE — no town, no city, no wall, no "
+            "battlement, no tower, no temple, no dome, no minaret, no spire, no roof, no "
+            "house, no ruin, no aerial, no wire, no cable and no pole. Everything the disciples "
             "wear is dark saturated wool; the only pale thing in the frame is the wool of "
             "Jesus's own robe. Nobody is edge-lit or outlined in light, and nothing "
             "stands behind any head."
@@ -1703,7 +1716,7 @@ BEATS = [
         "scene": (
             "One photograph, 50mm lens, clear late-afternoon light warm and directional "
             "from the low right, the sun well up and OUT OF FRAME, the far valley and the "
-            "small distant city hazed, fine film grain. THE CAMERA STANDS OUT ON THE ROCK "
+            "bare far hills hazed, fine film grain. THE CAMERA STANDS OUT ON THE ROCK "
             "TO ONE SIDE AND SHOOTS ACROSS THE GROUP AT RIGHT ANGLES TO EVERY EYELINE, "
             "the same side-on geometry the video opened with. Jesus is seated on the low "
             "grey boulder at the RIGHT of the frame, seen from his left in three-quarter "
@@ -1712,7 +1725,7 @@ BEATS = [
             "that LEFT EDGE — his pupils never come near the lens. THIS IS A WIDE "
             "FULL-LENGTH PHOTOGRAPH AND NOT A PORTRAIT: the camera is far enough back "
             "that Jesus AND at least four seated disciples are in frame together head to "
-            "feet, with the ledge, the valley and the small hazed city band behind them; "
+            "feet, with the ledge, the valley and the bare hazed far hillside behind them; "
             "he is never framed from the chest up. The story is finished: his hands have "
             "come to rest open on his knees, his shoulders have eased, and his face is "
             "open, warm and unhurried toward the men in front of him. The disciples are "
