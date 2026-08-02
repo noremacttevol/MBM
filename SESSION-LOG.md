@@ -1,3 +1,45 @@
+## 2026-08-02 — Row 33 The Sheep and the Goats rebuilt realistic and shipped (Machine A `Dev`, Claude worker 27)
+
+Commit: (this entry's own commit)
+
+Claimed row 33 by push before any spend, then built the whole realistic V2 cut end to end
+and put it live on the reviewer. 45 pictures at native 2K against V1's SEVEN. The defect
+being fixed was structural: V1 held ONE picture for the entire list of the six works of
+mercy — twenty-nine and a half seconds of the longest red-letter passage in the video —
+and another single picture for the whole thirty-one-second closing. Every one of the six
+now has its own frame: hungry, thirsty, stranger, naked, sick, prisoner.
+
+The inherited scaffold was discarded before spending anything: it planned 29 pictures at
+5.8 s each (the wave ships at 3.1-4.9) and it staged Matthew 25:31 as Jesus enthroned on
+a raised stone seat. Nothing of the last day is painted in this build — no throne, crown,
+sceptre, angel, cloud of glory, fire or punished person. Jesus speaks his own red-letter
+lines sitting on the mount with his men, the parable's imagery is the parable's own (a
+real shepherd dividing a real flock at a real fold at dusk), and the six mercies are six
+real acts of ordinary kindness. No poor or suffering figure carries a wound, scar, blood,
+glow or cream cloth, so none of them reads as the crucified Christ.
+
+Audio LOCKED and byte-identical to V1 (audio-stream MD5 80ff3c68… matches exactly); the
+V1 MP4 and all fourteen mp3s share one git content date, so neither staleness tripwire
+fired. Windows rebuilt from extract_beats plus measured faster-whisper word timings,
+contiguous 0.280 → 173.179 with zero gaps.
+
+Reroll rate 9 of 54 = 16.7%, ≈$7.24, meter $154.904 → $162.14. New shared lock added to
+`v2_prompt.py`: **ANCIENT-PRISON**, because "prison" is a modern-loaded noun that pulls a
+Victorian jail with machined steel bars, and a cell is architecture so PERIOD-MATERIALS
+cannot reach it. It held all four prison frames with zero rerolls. The other cures were
+all re-stagings rather than re-prohibitions: a green British moor and a fair-skinned
+shepherd fixed by stating the Judean land and his identity positively; a pale corner
+shoulder that beat two prohibitions fixed by filling the corner with the woman's own
+cloth; bread lying in the dirt fixed by holding it in the air with the ground out of
+frame; knitted sleeves fixed by stating the weave positively in the beat; and Jesus
+looking down the lens beside a second cream-robed man fixed by moving the camera behind
+and above the whole group so no eyes face the camera at all.
+
+Live on the reviewer with `data-review-wave="realistic-v2"`, raw URL serving 21,892,946
+bytes. Prior approval is void under REDO-ALL; awaiting Cameron.
+
+---
+
 ## 2026-08-02 — Row 32 (The Talents, Matthew 25:14-30) realistic V2 rebuild — Claude worker 26, Machine A `Dev`
 
 **Commit: d7c43fbbd** (the MP4) · card repoint 6abfa3ca3 · claim da2b6f23f
