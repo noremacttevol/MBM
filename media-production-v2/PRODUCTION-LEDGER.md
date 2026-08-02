@@ -922,3 +922,14 @@ Flow gens over two QC passes), row 3 zacchaeus (26), and 178 via the runner as o
 sessions authored rows 4-11. The 3 Gemini API calls at the start saved nothing — all
 failed on depleted credits, which is what led to the FLOW-ONLY law.
 
+
+
+---
+
+## Row 16 — Mary and Martha (Luke 10) — realistic V2 rebuild
+
+**Claimed 2026-08-01, Claude worker 11, Machine A (`Dev`).** Beats already authored
+(25 pictures, evening interior at Bethany). Audio is LOCKED to the authoritative
+narration — nothing re-voiced. Plan: `v2_prompt.py --check` PASS, generate at native
+2K under a hard ceiling, QC every image by eye, re-time all windows from the fixed
+`extract_beats.py`, assemble, verify rendered frames, ship to the Reviewer only.
