@@ -33,6 +33,55 @@ after "The sun went down"; clean card). Board card v9 → hash e8cb3734…
 (Unwatched), sync-reviews run, Firebase deployed, live card + raw mp4 (206,
 range OK) verified. STATUS/QUEUE/ledger updated. App-feed V1 untouched.
 
+## 2026-08-01 — Claude worker 8, Machine A (`Dev`) — shipped stories 10 and 04, and hardened the shared prompt recipe
+
+**Commit:** db679cfbf (story 04 ship) · 571182a90 (story 10 ship) · 0d4f3582a (shared DEFECT_LOCK)
+
+Two realistic V2 cuts shipped to the reviewer and verified live at
+`https://milk-b4-meat.web.app/review.html`.
+
+**Story 10 — Woman at the Well (John 4).** Finished the run that Claude worker 7
+died in the middle of. True state read from disk, not from the commit message:
+38 of 49 images present, 11 beats with nothing (their take-1 files already in
+`_rejected/`). Generated the 11, rerolled 3 for law violations (a second bearded
+man IN CREAM at a frame edge, plus two camera-gaze close-ups). All 49 accepted.
+**Also found: row 10's V1 "final" MP4 is a truncated 67.70 s render — V1 never
+actually finished this row, though the reviewer card had been pointing at it
+since July.** Fixed without re-voicing anything, by rebuilding the 294.294 s
+master audio from the authoritative per-segment mp3s at their own `seg_start`
+times. Spend $1.87.
+
+**Story 04 — Nicodemus at Night (John 3).** Reclaimed from Codex, which claimed
+it (`9fc3eeb05`) and ran out of credits without committing any progress. It had
+left 30 uncommitted native-2K stills on disk; those were **audited rather than
+regenerated** (27 kept — re-rolling paid-for work would have cost ~$4 for
+nothing). **The windows were drifted on 23 of 30 beats, several by a whole
+beat**, and re-timing exposed four stretches of narration with no picture at
+all, including a 16 s hole over "the darkest day". All windows recomputed and
+four new beats authored and generated. Spend $1.07.
+
+**Shared-recipe change that outlives both rows:** `v2_prompt.py` now prepends a
+`DEFECT_LOCK` to EVERY V2 prompt. The reroll rate had held at ~30% across six
+builds at a flat $0.134/image — $2-3 of waste per video — from four repeating
+defect families (lens gaze, stray unlocked/cream figure at a frame edge,
+uncountable quantities, cast drift). The wording is ported from the phrasings
+that measurably fixed each one in the QC files of rows 8/9/10, not invented.
+The load-bearing lesson: **state the GEOMETRY, not the prohibition** — where the
+camera sits relative to the eyeline and which frame edge the gaze exits through.
+A bare "don't look at the camera" failed twice on row 10 s22 and once on row 4
+s29b; the geometric version fixed each in one pass.
+
+**It measurably worked: story 04's reroll rate was 12% (4 passes / 34 keeps)**,
+against the ~30% that had held on every previous row.
+
+Total spend this session $2.94 (meter $39.40 → $42.61). Stopped before claiming
+row 14 (a from-scratch 35-beat rebuild) rather than claim a row and strand it
+half-done — the exact failure this session existed to clean up. Row 12
+(Bartimaeus) has another worker's in-flight edits on this machine and was left
+alone.
+
+---
+
 ## 2026-08-01 — Video 8 (The Lost Coin): full realistic rebuild shipped to the board (Machine A / `Dev`, Claude worker 5)
 
 Commit: ef4ab787b (ship) · c035f59f2 (claim). Claimed row 8 by push BEFORE
