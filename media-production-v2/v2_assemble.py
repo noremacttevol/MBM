@@ -102,6 +102,25 @@ def load_beats_v2(v2dir):
     )
 
 
+
+def _speaker_overrides(v2dir):
+    """SPEAKER_OVERRIDES from a build's beats_v2.py, if it declares any."""
+    spec = importlib.util.spec_from_file_location(
+        "beats_v2_spk", os.path.join(v2dir, "beats_v2.py"))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return dict(getattr(mod, "SPEAKER_OVERRIDES", {}))
+
+
+def mbm_speakers_names(v1dir):
+    """The speaker constants this build's own mbm_speakers module knows."""
+    spec = importlib.util.spec_from_file_location(
+        "mbm_speakers_probe", os.path.join(v1dir, "mbm_speakers.py"))
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return tuple(mod.ALL)
+
+
 def build_chunk(v2dir, assets_dir, idx, src, dur, zdir, first, last, segs):
     frames = max(1, int(round(dur * FPS)))
     if zdir == "in":
@@ -169,6 +188,21 @@ def main():
     segs = "segs"
 
     beats, assets_dir, configured_output_name = load_beats_v2(v2dir)
+
+    # LEGACY SPEAKER MAP (2026-08-01). Builds made before the SPEAKER SYSTEM
+    # (mbm_speakers) put the raw edge-tts VOICE NAME in SEGMENTS instead of a
+    # speaker constant, so caption_filter's colour lookup raises KeyError on
+    # them (row 15 died on 'en-US-AndrewNeural'). A V2 beat map may declare
+    # SPEAKER_OVERRIDES = {"j1": "jesus", ...} to say who is actually talking;
+    # anything else that is not already a known speaker falls back to narrator.
+    overrides = _speaker_overrides(v2dir)
+    known = set(mbm_speakers_names(v1dir))
+    for b in data["beats"] + [data["card"]]:
+        spk = b.get("speaker")
+        if b["seg"] in overrides:
+            b["speaker"] = overrides[b["seg"]]
+        elif spk not in known and spk != "silence":
+            b["speaker"] = "narrator"
     for b in beats:
         p = os.path.join(assets_dir, b["out"])
         if not os.path.isfile(p):

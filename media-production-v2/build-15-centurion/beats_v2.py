@@ -44,6 +44,14 @@ grey exhaustion and pain on a face — no convulsions, no medical detail.
 TIME OF DAY: one bright day throughout. No night, no sunset.
 """
 
+# WHO IS TALKING (2026-08-01). This row's V1 predates the SPEAKER SYSTEM, so its
+# SEGMENTS carry raw edge-tts voice names instead of speaker constants. The four
+# j-segments are Jesus's own KJV words and must caption in the red-letter red;
+# everything else is the narrator. NOTE: the AUDIO for those four lines is still
+# the old en-US-ChristopherNeural take, NOT the current Jesus voice — under the
+# REDO-ALL law this row cannot go to the reviewer until it is re-voiced.
+SPEAKER_OVERRIDES = {"j1": "jesus", "j2": "jesus", "j2b": "jesus", "j3": "jesus"}
+
 OUTPUT_ASSET_DIR = "assets-realistic"
 OUTPUT_VIDEO_NAME = "matthew-8_centurion-realistic-v2.mp4"
 

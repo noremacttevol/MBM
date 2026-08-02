@@ -758,6 +758,30 @@ three-quarter angle with his head turned away from the lens" fixed it.
 
 ---
 
+### Session 12 CLOSE — 2026-08-01 (Claude worker 10, Machine A / `Dev`) — PICTURES DONE, SHIP BLOCKED ON AUDIO
+
+| step | result |
+|---|---|
+| recipe promotion | `e2504586a` + `5189766df` — WIDE_GEOMETRY_LOCK on every wide beat, POSITIVE_INVENTORY_LOCK on every beat, JESUS_INVENTORY_LOCK on Jesus beats, and a `--check` WARN when a wide beat's scene never states camera-to-back geometry |
+| claim | pushed before any spend (`c0e8431f8`) |
+| timeline | **V1 IS TRUNCATED.** The authoritative timeline is 265.451 s; `matthew-8_centurion.mp4` is exactly 256.000 s and its AUDIO STREAM is 256.000 s too, so the closing question card (narration 251.38 → 261.25 s) is cut off mid-sentence in the finished V1. |
+| windows | all 42 re-derived as `audio_start + raw phrase start` from the fixed extract_beats. The inherited map drifted progressively to **+9.92 s** by n22 (j3 sat at 193.95 when the line starts at 202.25). |
+| coverage hole | n1 held ONE picture for 12.49 s; authored `b01b` (the occupation arriving in the same lane) so the picture turns where the narration turns |
+| beats | every one of the 42 upgraded to the realistic rubric: a real lens and aperture, a named light direction, and camera-to-back geometry on the wide multi-figure beats. b21's soldier no longer steps "toward the camera". |
+| pictures | 42 at native 2K (1536×2752), `gemini-3-pro-image`, ceilings $49.35 / $55.20 / $55.70 recomputed from the live meter each run |
+| reroll rate | **7 of 42 = 17%** (49 paid images, ≈$6.57) |
+| defects found | a SECOND officer invented in the sickroom (b06); the centurion marching straight INTO the lens down a posed corridor (b08); camera gaze on a close (b09); the locked cuirass missing entirely, tunic only (b10); a cream-coloured foreground shoulder that reads as a second Jesus (b17); Jesus staring into the lens on the marvel frame (b24); the servant redrawn as a different young man (b38) |
+| what fixed them | the same lesson, per beat: state the geometry / the positive inventory. All 7 came back correct in ONE pass. |
+| **did the promotion work?** | **yes.** Row 14: 5 of 9 rerolls were wide-shot camera gaze. Row 15 with the lock in the shared recipe: **1 of 28 wide beats** failed that way (b08), and it was a beat whose own scene text still said the figures were "in the near frame" — the shared block alone caught the other 27. |
+| tooling | `v2_assemble.py` now takes a `SPEAKER_OVERRIDES` map from a build's beats_v2 and falls back to `narrator` for unknown speakers. Pre-speaker-law builds store the raw edge-tts voice name in SEGMENTS, which crashed the caption colour lookup (`KeyError: 'en-US-AndrewNeural'`). |
+| **SHIP BLOCKED — needs an audio pass, NOT pictures** | two coupled problems, both in the audio, both outside a picture worker's remit: (1) **the row was never re-voiced.** Its four Jesus lines (j1/j2/j2b/j3) are the old `en-US-ChristopherNeural` take — under the REDO-ALL law a cut carrying the old voice must not sit on the reviewer. (2) **the V1 audio itself is truncated** at 256.000 s, so locking V2 to it would ship a video whose closing question is cut off. Fixing (2) is assembly-only (the per-segment mp3s are all present and total 265.451 s) exactly like row 06's fix; fixing (1) is a re-voice. Both must happen before this row goes to the Reviewer. **The reviewer card was deliberately NOT repointed.** |
+
+**Everything except the audio is finished and pushed:** 42 accepted 2K pictures in
+`assets-realistic/`, the corrected 42-window beat map, and the rejected first
+takes kept in `rejected/` for comparison.
+
+---
+
 ## Session 11 — 2026-08-01 — CLAIM: story 14 (ten lepers) realistic rebuild (Claude worker 9, Machine A / `Dev`)
 
 - **Model:** Opus 5 (Claude Code) · **Machine:** Machine A — hostname `Dev`
