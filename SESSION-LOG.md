@@ -1,3 +1,20 @@
+## 2026-08-02 — Row 35 The Great Banquet (Luke 14) realistic V2 rebuild — Claude worker 29, Machine A `Dev`
+
+Claimed row 35 by push before any spend, then built and shipped the full realistic V2 cut.
+
+- **40 pictures at native 2K** against V1's SEVEN. V1 held ONE picture for TWENTY-SEVEN SECONDS across all three excuses — the man with the field, the man with the oxen and the man just married, three different men in three different places on one image — and another for THIRTY-ONE AND A HALF SECONDS across Luke 14:23 and the entire closing application. Every line now has its own picture. The inherited scaffold (22 pictures at 5.8 s each) was discarded for that measured reason and kept as `beats_v2.py.inherited-scaffold`.
+- **AUDIO LOCK PASS, byte-identical to V1** (audio stream MD5 558261f0…, 141.700 s / 21,159,295 bytes). Nothing re-voiced, V1 never written to. All 17 segments transcribed with faster-whisper match the live `make_narration.py` word for word — no mishearing to chase and no TEXT_OVERRIDES.
+- **Windows rebuilt from scratch** from extract_beats + measured word timings. ALL SEVENTEEN `.timing.json` sidecars were unusable, each holding one phrase spanning its whole segment. Contiguous 0.000 → 134.190, zero gaps, 3.35 s/picture, all sixteen speech onsets inside their windows. 29 windows of true digital silence below -60 dB confirm no music bed.
+- **Content care:** the remark that provokes the parable, "eat bread in the kingdom of God" (14:15), is not in the narration, so nothing here paints it — no heaven, throne, gate, crown, cloud or shaft of light, and God is never depicted as any figure or light. It is a real supper in a real house. "Compel them to come in" is staged as open-handed welcome throughout, never as force, which would invert the verse. Jesus carries only the frames he actually speaks in; the four other red-letter lines are the guest, the host and the servant talking inside the parable, so they are staged inside it.
+- **Reroll rate 4 of 44 = 9.1%.** Every cure was ported forward preventively in the same pass: the servant anchor's brass sandal buckles (PERIOD-MATERIALS banned "buckle" as one word in a prohibition list and lost — cured by stating how a first-century strap actually fastens); a matched pair of modern-reading underarm crutches plus two men squared up to the lens (re-staged side-on and the object deleted down to ONE hewn staff); a pale buff headscarf and a doorway arch of dressed voussoirs (both cured positively — her own dark mantle fold, and every opening spanned by one flat lintel); and three newcomers staring down the lens (re-staged with the camera out in the dark behind them so a lens gaze is geometrically impossible).
+- **New shared locks: BANQUET-HALL and SANDAL-CONSTRUCTION** in `v2_prompt.py`. "Banquet", "feast", "supper" and "table" pull a medieval or Victorian hall — high trestle, high-backed chairs, white cloth, goblets, cutlery, chandelier — and PERIOD-MATERIALS cannot reach any of it, because a dining room is architecture and furnishing, not an object, the same way a road surface (row 29), a prison cell (row 33) and a barn (row 34) slip through. Nothing in the shared recipe said a word about a table's height or about chairs. Meals recur constantly across the 200, so it belongs in the shared file.
+- Known and accepted, not a law violation: the host anchor (s04, 7.9-11.4 s) predates the house-hanging cure and shows a pale gold doorway drape where every later frame of that room shows the dark hanging; left rather than spend a credit on it.
+- ≈$5.90 spend (44 images), meter $166.964 → $172.860. Live on the reviewer with `data-review-wave="realistic-v2"`; raw URL verified serving 21,159,295 bytes. Firebase 429'd on storage quota, pruned 7 old versions, redeployed clean.
+
+Commit: `d755198770cd` (cut) — board/bookkeeping commit follows.
+
+---
+
 ## 2026-08-02 — Row 34 The Rich Fool (Luke 12) realistic V2 rebuild — Claude worker 28, Machine A `Dev`
 
 Claimed row 34 by push before any spend, then built and shipped the full realistic V2 cut.
