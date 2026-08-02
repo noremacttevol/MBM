@@ -216,12 +216,72 @@ HAND_TOOLS_LOCK = (
     "anywhere in the picture."
 )
 
+# ANCIENT-ROAD — promoted into the shared recipe 2026-08-02 (row 29, the pearl of great
+# price, whose merchant "spent his whole life traveling"). Rows 16/18 paid for interior
+# lighting, row 19 for boat fittings, row 22 for city skylines, row 26 for irrigation
+# hose, row 27 for knitted fabric, row 28 for the tool in the hand. A ROAD's own
+# anachronism is THE SURFACE AND THE THINGS THAT LINE IT, and nothing above reaches it:
+# a metalled surface, a kerb, a painted line, a tyre rut, a telegraph or power pole, a
+# wire strung between poles, a guardrail, a culvert, a signpost. PERIOD-MATERIALS bans
+# manufactured OBJECTS, but a road surface is not an object — it is the ground, which is
+# exactly why it slips through. Roads recur constantly across the 200 stories (row 09
+# and row 20 both live on one), so this belongs in the shared file rather than in a
+# ninth build-local copy. Stated POSITIVELY (what the way IS) per the row-10 geometry
+# lesson. Any build with a road, track, way or caravan route names "ANCIENT-ROAD".
+ANCIENT_ROAD_LOCK = (
+    "ANCIENT-ROAD LOCK: the way underfoot is a first-century road and it is nothing but "
+    "GROUND. Its surface is bare packed earth and pale dust worn hollow by feet and "
+    "hooves, with bedrock breaking through in places, loose stones kicked to the sides, "
+    "and at most rough irregular field stones laid unevenly by hand where it crosses "
+    "wet ground. The road has NO built edge and NOTHING LINING IT: no asphalt, tarmac, "
+    "concrete, gravel bed, cobbled setts or any laid regular paving; no kerb, gutter, "
+    "verge strip, drain, grating or culvert pipe; no painted line, marking, arrow or "
+    "lettering of any kind on the ground; no wheel rut of a pneumatic tyre and no tread "
+    "pattern anywhere in the dust; no post, pole, mast, pylon, telegraph pole or power "
+    "pole standing beside it; no wire, cable or line strung anywhere across or along it "
+    "or against the sky; no fence, railing, guardrail, barrier, chain or gatepost of "
+    "manufactured metal; no signpost, milestone board, notice or painted sign; and no "
+    "vehicle of any kind but a hand-built wooden cart on hewn spoked wheels. The only "
+    "things travelling it are people on foot, laden donkeys, and camels in a string."
+)
+
+# MARKET-TOWN — promoted into the shared recipe 2026-08-02 (row 29, whose merchant works
+# a trading town's market). Row 22 paid for the CITY SKYLINE half of this lesson (minaret,
+# bell tower, tiled roof) inside one build's own lock, so the next town had no protection.
+# A MARKET's own anachronism is the STALL: a modern market renders folding trestle tables,
+# steel or aluminium poles, striped or printed awning fabric, plastic crates and trays,
+# and painted price boards — none of which PERIOD-MATERIALS names, because it is written
+# about objects a household makes, not about market furniture. The SKYLINE half is folded
+# in here too so a town never has to re-learn it. Stated POSITIVELY per the row-10 lesson.
+# Any build staged in a town, market, street or quay names "MARKET-TOWN".
+MARKET_TOWN_LOCK = (
+    "MARKET-TOWN LOCK: this is a first-century Levantine trading town and every built "
+    "thing in it is hand-made from the stone, mud brick, timber and cloth of that place. "
+    "BUILDINGS are dressed limestone blocks or tan mud brick with FLAT roofs of poles and "
+    "packed earth, plain rectangular door and window openings with no glass, and outside "
+    "stone stairs climbing to the roofs. A STALL is a low bench of dry-laid stone or a "
+    "plank of hewn wood on stone blocks, shaded by ONE rectangle of undyed dark goat-hair "
+    "cloth slung from rough wooden poles lashed with twisted fibre cord; goods sit in "
+    "hand-woven reed baskets, fired-clay bowls and jars, and folded squares of plain "
+    "hand-woven wool. AGAINST THE SKY THERE IS ONLY FLAT ROOFLINE AND BARE HILL: no dome, "
+    "no minaret, no bell tower, no spire, no campanile, no clock, no crenellated parapet, "
+    "no pitched roof, no roof tile, no shingle, no chimney, no gable, no half-timbering, "
+    "no Gothic arch or tracery, no column with a carved capital, no corrugated or sheet "
+    "metal, no aerial, no wire and no cable. IN THE MARKET THERE IS no folding table, no "
+    "trestle, no metal pole, tube or scaffold, no umbrella, no striped, printed, dyed-"
+    "pattern or synthetic awning, no plastic sheet, crate, tray, bag or bottle, no "
+    "cardboard, no painted board, price sign, placard or lettering anywhere, and no "
+    "modern person, garment, footwear or object among the crowd."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
 SHARED_SETTING_LOCKS = {
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
     "HAND-TOOLS": HAND_TOOLS_LOCK,
+    "ANCIENT-ROAD": ANCIENT_ROAD_LOCK,
+    "MARKET-TOWN": MARKET_TOWN_LOCK,
 }
 
 # JESUS LOCK v4 — byte-identical in every prompt where Jesus appears.
