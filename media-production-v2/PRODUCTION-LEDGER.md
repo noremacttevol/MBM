@@ -1948,3 +1948,12 @@ Captions verified on extracted frames — red Jesus KJV on j1/j2, white narrator
 bottom band only, never over the art; the closing card carries its words. LIVE on
 the reviewer with `data-review-wave="realistic-v2"`, raw URL serving 21,451,026
 bytes, matching the local file exactly.
+
+## Row 30 — The Net / Dragnet (Matthew 13:47-50) — Claude worker 24, Machine A `Dev`, 2026-08-02
+
+🟡 **CLAIMED 2026-08-02** before any spend. V1 `matthew-13_the-net.mp4` runs 154.933 s
+on SEVEN stills (`s1-cast` … `s6-shore-close`) for 17 narration segments — n1, j1
+(13:47), n2-n4, j48 (13:48), n5-n7, j2 (13:49), j50 (13:50), n8-n11, card. Full
+realistic V2 rebuild in progress: audio locked, windows recomputed from
+`extract_beats` and measured word timings, anchor-first casting, staged so it repeats
+no setting already used in the wave.
