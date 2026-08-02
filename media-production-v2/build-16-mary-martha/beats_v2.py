@@ -191,7 +191,7 @@ BEATS = [
     {
         "id": "v2-r016-b04", "out": "s04-she-threw-herself-in.jpeg", "seg": "n3 p1",
         "window": "25.14-27.17", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MARTHA"],
+        "locks": ["MARTHA", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": "So Martha threw herself into the serving.",
         "must_show": "her hands working fast and well — competent, practised, good at this.",
@@ -228,7 +228,7 @@ BEATS = [
     {
         "id": "v2-r016-b06", "out": "s06-the-joy-got-buried.jpeg", "seg": "n4 p1",
         "window": "36.12-41.52", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MARTHA"],
+        "locks": ["MARTHA", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("But little by little, the joy of having him there got buried under "
                       "the weight of getting it all just right."),
@@ -304,7 +304,7 @@ BEATS = [
     {
         "id": "v2-r016-b10", "out": "s10-the-place-a-student-sat.jpeg", "seg": "n6 p1-p2",
         "window": "57.32-66.06", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["MARY", "GUESTS"],
+        "locks": ["MARY", "GUESTS", "HOUSE"],
         "char_refs": ["assets/s08-a-different-choice.jpeg"],
         "narration": ("Back then, sitting at a teacher's feet was the place a student "
                       "sat, and it was not a place people expected a woman to take. Mary "
@@ -325,7 +325,7 @@ BEATS = [
     {
         "id": "v2-r016-b11", "out": "s11-nearer-than-anything.jpeg", "seg": "n6 p3",
         "window": "66.06-71.27", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MARY"],
+        "locks": ["MARY", "HOUSE"],
         "char_refs": ["assets/s08-a-different-choice.jpeg"],
         "narration": "She wanted to be near him more than anything else that night.",
         "must_show": "close on Mary's face — lit warm, utterly still, everything else in the world switched off.",
@@ -343,7 +343,7 @@ BEATS = [
     {
         "id": "v2-r016-b12", "out": "s12-worn-thin.jpeg", "seg": "n7 p1",
         "window": "71.27-75.23", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MARTHA"],
+        "locks": ["MARTHA", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": "Meanwhile Martha, worn thin, finally reached her breaking point.",
         "must_show": "close on Martha stopped for the first time — both hands braced on the table, head down, exhausted.",
@@ -381,7 +381,7 @@ BEATS = [
     {
         "id": "v2-r016-b14", "out": "s14-dont-you-care.jpeg", "seg": "n8 p1",
         "window": "83.50-87.98", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MARTHA"],
+        "locks": ["MARTHA", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("Lord, don't you care that my sister has left me to do all of this "
                       "work by myself?"),
@@ -398,7 +398,7 @@ BEATS = [
     {
         "id": "v2-r016-b15", "out": "s15-tell-her-to-help-me.jpeg", "seg": "n8 p2",
         "window": "87.98-91.32", "wide": True, "jesus": False, "ref": False,
-        "locks": ["MARTHA", "MARY", "GUESTS"],
+        "locks": ["MARTHA", "MARY", "GUESTS", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": "Tell her to get up and help me.",
         "must_show": "her hand pointing at her sister and the room caught in it — Mary looking up from the floor, the guests frozen and awkward.",
@@ -437,7 +437,7 @@ BEATS = [
     {
         "id": "v2-r016-b17", "out": "s17-not-a-scolding.jpeg", "seg": "n9 p2",
         "window": "92.76-100.53", "wide": False, "jesus": True, "ref": REF,
-        "locks": [],
+        "locks": ["HOUSE"],
         "narration": ("And Jesus answered her, not with a scolding, but with her own "
                       "name, said twice, and said gently."),
         "must_show": "⚠️ HARD FAIL IF WRONG. Close on Jesus's face: warm, fond, unhurried, looking up at her with real affection. This is tenderness, not correction.",
@@ -455,7 +455,7 @@ BEATS = [
     {
         "id": "v2-r016-b18", "out": "s18-martha-martha.jpeg", "seg": "j1 a",
         "window": "100.53-106.13", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["MARTHA"],
+        "locks": ["MARTHA", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("Martha, Martha, thou art careful and troubled about many things: "
                       "(Luke 10:41)"),
@@ -475,7 +475,7 @@ BEATS = [
     {
         "id": "v2-r016-b19", "out": "s19-that-good-part.jpeg", "seg": "j1 b",
         "window": "106.13-115.04", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["MARTHA", "MARY"],
+        "locks": ["MARTHA", "MARY", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": ("But one thing is needful: and Mary hath chosen that good part, "
                       "which shall not be taken away from her. (Luke 10:42)"),
@@ -495,7 +495,7 @@ BEATS = [
     {
         "id": "v2-r016-b20", "out": "s20-he-never-scolded-the-serving.jpeg", "seg": "n10 p1",
         "window": "115.04-119.53", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MARTHA"],
+        "locks": ["MARTHA", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("He did not scold her for serving, and he was never upset that she "
                       "worked so hard."),
@@ -511,7 +511,7 @@ BEATS = [
     {
         "id": "v2-r016-b21", "out": "s21-the-worry-underneath.jpeg", "seg": "n10 p2",
         "window": "119.53-125.11", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MARTHA"],
+        "locks": ["MARTHA", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg"],
         "narration": ("What troubled him was the worry underneath it, the anxiety that "
                       "was pulling her apart."),
@@ -529,7 +529,7 @@ BEATS = [
     {
         "id": "v2-r016-b22", "out": "s22-not-taken-away.jpeg", "seg": "n10 p3",
         "window": "125.11-132.94", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["MARY"],
+        "locks": ["MARY", "HOUSE"],
         "char_refs": ["assets/s08-a-different-choice.jpeg"],
         "narration": ("And the quiet thing Mary had chosen, just being with him, he "
                       "promised no one would ever take away from her."),
@@ -549,7 +549,7 @@ BEATS = [
     {
         "id": "v2-r016-b23", "out": "s23-not-picking-one-sister.jpeg", "seg": "n11 p1-p2",
         "window": "132.94-141.66", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["MARTHA", "MARY"],
+        "locks": ["MARTHA", "MARY", "HOUSE"],
         "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
         "narration": ("He was not picking one sister over the other. He was telling a "
                       "woman he loved that she did not have to earn her place near him "
