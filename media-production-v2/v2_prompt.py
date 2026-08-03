@@ -709,6 +709,66 @@ COURTYARD_GATE_LOCK = (
     "feet."
 )
 
+# JUDGMENT-SEAT — added to the shared recipe 2026-08-02 (row 38, the persistent widow,
+# Luke 18:1-8, the first V2 build whose WHOLE STORY HAPPENS IN A COURT: "There was in a
+# city a judge, which feared not God... and she came unto him"). Rows 16/18 paid for
+# interior lighting, row 19 for boat fittings, row 22 for city skylines, row 26 for
+# irrigation hose, row 27 for knitted fabric, row 28 for the tool in the hand, row 29 for
+# the road and the market stall, row 31 for night lamplight, row 32 for the background
+# crowd, row 33 for the prison cell, row 34 for the barn, row 35 for the dining room, row
+# 36 for the written account, row 37 for the gateway. A COURT's own anachronism is THE
+# COURTROOM ITSELF, and nothing above reaches it, for the same reason a road surface, a
+# prison cell and a barn slip through: a court is ARCHITECTURE AND FURNITURE, not an
+# object a household makes by hand.
+#
+# "Judge", "court", "courtroom", "justice", "case" and "hearing" are among the most
+# modern-loaded nouns in English and every one of them pulls an ENGLISH OR AMERICAN
+# COURTROOM: a high panelled bench with a judge sitting behind it, a gavel and block, a
+# wig and black gown, a dock, a witness box, a jury bench, rows of pews, a clerk's desk,
+# a flag, a blindfolded statue of Justice holding scales, a coat of arms. PERIOD-MATERIALS
+# bans manufactured objects and says nothing about a ROOM'S FORM or about SEATING, and
+# ANCIENT-PRISON covers where a man is HELD, not where he is HEARD.
+#
+# A first-century Judean judge hears cases in the open — in the chamber of the city gate
+# or under a colonnaded portico off the square — SITTING on a plain stone seat or a low
+# dais of dry-laid blocks while everyone else STANDS. That posture is the whole social
+# picture the parable turns on, and it is also why a widow can simply walk up and be seen.
+# Stated POSITIVELY per the row-10 geometry lesson. Judgment recurs across the 200 (the
+# woman taken in adultery, Pilate's judgment seat, Gallio, the Sanhedrin, "agree with
+# thine adversary quickly"), so this belongs here rather than in a fifteenth build-local
+# copy. Any build with a judge, court, hearing, magistrate, elders or a judgment seat
+# names "JUDGMENT-SEAT".
+JUDGMENT_SEAT_LOCK = (
+    "JUDGMENT-SEAT LOCK: this is where a first-century Judean city judge hears a case, "
+    "and it is an OPEN STONE PLACE, not a room of furniture. THE PLACE is the deep "
+    "chamber of the city gate or a shaded colonnade-free portico opening straight off a "
+    "sunlit square: walls and piers of large dressed pale limestone blocks laid without "
+    "mortar, a floor of worn limestone flags and packed dust, a flat ceiling carried on "
+    "ROUGH HEWN TIMBER BEAMS with the adze marks still on them, and PLAIN "
+    "SQUARE-TOPPED RECTANGULAR OPENINGS with NO GLASS AND NOTHING IN THEM, through "
+    "which hard daylight falls in flat slabs across the floor. THE SEAT IS THE WHOLE "
+    "FURNITURE: ONE plain rectangular block of dressed limestone, or a low dais of two "
+    "or three dry-laid stone courses, set against the back wall with a folded wool "
+    "cushion or a plain woven rug thrown over it — knee-high to mid-thigh, with no "
+    "back, no arms, no carving and no ornament. THE JUDGE SITS AND EVERYONE ELSE "
+    "STANDS on the same floor in front of him, close enough to touch, with nothing "
+    "between them; petitioners wait along the walls or out in the sunlight beyond the "
+    "opening. The only other things present are hand-woven reed baskets holding rolled "
+    "loose sheets, a plain fired-clay jar, and a folded wool mat on the floor. THIS IS "
+    "NOT A COURTROOM OF ANY LATER CENTURY AND NOT A THRONE ROOM: there is NO raised "
+    "panelled bench, desk, counter, rail, balustrade, screen or barrier of any kind; no "
+    "dock, witness box, jury bench, pew, row of seating, gallery, chair, stool with "
+    "legs, throne, canopy or high-backed seat; no gavel, mallet, block, gong, bell, "
+    "staff of office, mace, sceptre, sword or set of balance scales; no wig, black gown, "
+    "academic robe, ermine, chain of office, medallion, sash, badge or uniform on "
+    "anybody; no blindfolded figure of Justice, statue, bust, carved relief, coat of "
+    "arms, heraldry, banner, flag or standard; no bound book, ledger, law code, tablet "
+    "of law or framed document; no marble, plaster cornice, moulding, panelling, "
+    "wainscot, tiled or mosaic floor, arch of dressed voussoirs, fluted column or carved "
+    "capital; and no lettering, numeral, inscription, plaque or sign anywhere in the "
+    "picture."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
@@ -718,6 +778,7 @@ SHARED_SETTING_LOCKS = {
     "COURTYARD-GATE": COURTYARD_GATE_LOCK,
     "SPIRIT-WORLD": SPIRIT_WORLD_LOCK,
     "ESTATE-ACCOUNTS": ESTATE_ACCOUNTS_LOCK,
+    "JUDGMENT-SEAT": JUDGMENT_SEAT_LOCK,
     "GRANARY-BARN": GRANARY_BARN_LOCK,
     "BACKGROUND-CAST": BACKGROUND_CAST_LOCK,
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
