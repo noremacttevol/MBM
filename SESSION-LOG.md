@@ -55,7 +55,7 @@ a knitted ribbed cuff; the ten-herbs count pinned as nine-in-a-row-plus-one afte
 Reroll rate **20 of 72 generations = 27.8%**. Spend this row **$10.05** (meter $194.57 → $204.62),
 every run under a recomputed hard `--ceiling`.
 
-Commit: see below.
+Commit: `94d563e7b`.
 
 ## 2026-08-02 — Row 38 The Persistent Widow: full realistic V2 rebuild shipped — Claude worker 33, Machine A `Dev`
 
