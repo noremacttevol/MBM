@@ -306,7 +306,7 @@ LOCKS = {
         "small plain first-century phylactery: ONE little cube of plain dark "
         "brown leather about the size of a thumb joint, bound in place by ONE "
         "narrow plain leather strap wound and knotted, with no buckle, no metal "
-        "and no ornament of any kind. Plain flat worn leather sandals. HE NEVER "
+        "and no ornament of any kind. ON HIS FEET, STATED POSITIVELY: PLAIN FLAT OPEN LEATHER THONG SANDALS — a flat rawhide sole cut to the shape of the foot with no heel, plain undyed leather straps knotted and tucked back through themselves, and HIS BARE BROWN TOES, INSTEP, HEEL AND ANKLE PLAINLY VISIBLE. HE NEVER WEARS A BOOT, SHOE, SLIPPER, CLOG OR ANY FOOT COVERING WITH AN UPPER THAT ENCLOSES THE FOOT, no lace, no buckle, no metal fitting, no moulded or rubber sole and no tread. HE NEVER "
         "WEARS CREAM, OFF-WHITE, IVORY, BUFF, BEIGE, SAND, KHAKI, WHITE OR ANY "
         "PALE CLOTH, and he wears no jewellery, ring, chain, brooch, medallion "
         "or metal ornament anywhere. What is on his face is CALM, SETTLED, "
@@ -641,7 +641,7 @@ BEATS = [
         "locks": _T_BOTH, "char_refs": _BOTH,
         "narration": "Two men went up into the temple to pray; the one",
         "must_show": "The two men climbing the temple's great outer stair, far apart, both seen from behind and below — the Pharisee upright and well ahead, the tax collector a long way below and to one side, climbing slowly.",
-        "must_not_show": _NO_HALO + _NO_DEITY + _NO_CREAM_STRICT + _NO_CHURCH + _NO_BLOOD + _NO_MODERN_TOWN + _NO_GREEN + _GAZE,
+        "must_not_show": _NO_HALO + _NO_DEITY + _NO_CREAM_STRICT + _NO_CHURCH + _NO_BLOOD + _NO_MODERN_TOWN + _NO_GREEN + "no round column, cylindrical shaft, colonnade, peristyle, portico, porch, stoa, temple front, entablature, architrave, frieze, cornice, pediment, gable or coffered ceiling anywhere in the frame or against the sky; no boot, shoe, clog or any foot covering with an upper enclosing the foot on anybody; " + _GAZE,
         "scene": (
             "One photograph, 35mm lens, hard bright mid-morning sun coming from "
             "the upper LEFT, the enormous pale limestone stair climbing away "
@@ -661,9 +661,15 @@ BEATS = [
             "BLACK HAIR cut at the neck — is far below him and off to the LEFT "
             "edge, much smaller in the frame, one hand on his own knee, "
             "climbing slowly. THE ENORMOUS DISTANCE BETWEEN THE TWO MEN ON THE "
-            "STAIR IS THE WHOLE COMPOSITION. Above and beyond the top of the "
-            "stair, the plain square-cut limestone piers of the portico and the "
-            "high blank block wall stand against a high dry pale blue sky. At "
+            "STAIR IS THE WHOLE COMPOSITION. WHAT IS AT THE TOP OF THE STAIR, STATED AS A DELETION BECAUSE A "
+            "COLONNADE HAS ARRIVED THERE TWICE: the stair simply ENDS at ONE "
+            "HIGH BLANK WALL of very large square-cut pale limestone blocks laid "
+            "in level courses, pierced by ONE plain SQUARE-TOPPED rectangular "
+            "gateway with a single flat lintel, and ABOVE THE TOP OF THAT WALL "
+            "THERE IS NOTHING WHATEVER BUT EMPTY SKY. NO BUILDING, ROOF, COLUMN, "
+            "PILLAR, COLONNADE, PORTICO, PORCH, PEDIMENT, GABLE, ENTABLATURE OR "
+            "STRUCTURE OF ANY KIND RISES ABOVE THAT WALL LINE OR APPEARS "
+            "ANYWHERE AGAINST THE SKY. At "
             "most three other people are anywhere on the stair, all of them "
             "small, far off and dressed head to foot in solid dark umber, "
             "charcoal, deep rust or deep indigo."
