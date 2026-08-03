@@ -2490,3 +2490,49 @@ BEATS += [
         ),
     },
 ]
+
+
+# ---------------------------------------------------------------------------
+# COURT-BOUNDARY INJECTION (2026-08-02). A classical colonnade of ROUND COLUMNS
+# arrived in the temple court FOUR separate times: through the shared
+# TEMPLE-COURT lock's own "PLAIN SQUARE-SECTION STONE PIERS" (b05, b06); again
+# after that lock was hardened with an explicit prohibition list (b17); again
+# after the covered walk was DELETED from the lock outright (b17 second pass);
+# and again at extreme distance along the horizon (b26, b52, b53, b55). Rows 10
+# and 14 already proved a prohibition loses to a strong noun, and "temple court"
+# is one of the strongest -- while the shared lock sits ~1500 words before the
+# scene text where the model's attention actually lands.
+#
+# So the cure is moved to the FRONT OF THE BEAT'S OWN SCENE -- the nearest text
+# -- and stated as GEOMETRY (what the eye meets at each edge) plus an INVENTORY
+# of everything allowed to stand up off the pavement, rather than as another
+# list of forbidden orders. Injected mechanically into every WIDE beat staged in
+# the temple so no beat can be missed and the wording cannot drift between them.
+_COURT_BOUND = (
+    "WHAT BOUNDS THIS COURT, STATED FIRST BECAUSE IT GOVERNS THE WHOLE FRAME: "
+    "to the left, to the right and across the far side this court is bounded by "
+    "ONE PLAIN UNBROKEN CLIFF OF STONE -- a high blank wall of very large "
+    "square-cut pale limestone blocks in level mortarless courses, rising "
+    "straight up from the pavement to a flat top edge against open sky. THAT "
+    "WALL HAS NOTHING STANDING IN FRONT OF IT AND NOTHING SET INTO IT: no row "
+    "of columns, pillars, piers, posts, uprights or shafts of any kind; no "
+    "arcade, colonnade, cloister, covered walk, roofed aisle, portico, porch or "
+    "stoa; no repeating openings, arches, recesses, niches, bays or shadowed "
+    "gaps running along it; and no roof, canopy or overhang projecting from it. "
+    "FROM ONE END OF THE PICTURE TO THE OTHER IT IS BLANK STONE AND NOTHING "
+    "ELSE. "
+    "THE FAR DISTANCE, STATED AS AN INVENTORY BECAUSE THAT IS WHERE A COLONNADE "
+    "KEEPS REAPPEARING: counting everything that stands up off the pavement "
+    "anywhere in this picture, there are EXACTLY TWO BUILT OBJECTS AND NO THIRD "
+    "-- the ONE tall plain rectangular sanctuary block, and the ONE square mass "
+    "of the altar with its ramp. Everything else in the frame is flat pavement "
+    "below and blank bounding wall behind. BETWEEN THE TOP EDGE OF THAT WALL "
+    "AND THE OPEN SKY THERE IS NOTHING AT ALL: no roofline, no parapet, no "
+    "crenellation, no battlement, no cornice, no colonnade, no row of columns "
+    "or piers, no second building, no tower, no gate house and no structure of "
+    "any kind, near or far, sharp or blurred, at any point along the horizon. "
+)
+
+for _b in BEATS:
+    if _b.get("wide") and "TEMPLE-COURT" in _b.get("locks", []):
+        _b["scene"] = _COURT_BOUND + _b["scene"]
