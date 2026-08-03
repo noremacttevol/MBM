@@ -1,3 +1,62 @@
+## 2026-08-02 — Row 39 The Pharisee and the Publican: realistic V2 built to 52/58, BLOCKED ON API BILLING — Claude worker 34, Machine A `Dev`
+
+Luke 18:9-14. **NOT SHIPPED and deliberately NOT on the review board.** 52 of the 58
+pictures are generated at native 2K; the final six rerolls died on
+`429 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted"`. **Cameron has to top up
+Google AI Studio billing.** After that, `v2_gen_api.py media-production-v2/build-39-pharisee-publican
+--ceiling <meter+1>` resumes exactly where it stopped, then `v2_assemble.py 39`. The finish
+checklist is at the top of `build-39-pharisee-publican/QC.md`.
+
+**V1 was fourteen stills for 247.267 s — 17.7 s a picture.** `s9-the-verdict.jpeg` alone held
+**29.5 s**, carrying the red-letter verdict of Luke 18:14 *and* the narrator's entire unpacking
+of it — the sentence the video exists to deliver — on one frame. `s6` held 26.7 s over the
+publican's whole introduction and `s5` held 24.0 s over the whole red-letter prayer. V2 gives
+all twenty-one spoken segments their own pictures: **4.09 s/picture**, shortest 3.16 s, longest
+4.86 s.
+
+**Windows verified mechanically:** contiguous 0.000 → 236.952 (the card's own start), zero
+gaps, and all 20 speech onsets land inside their own window. Rebuilt from `extract_beats` plus
+measured faster-whisper word timings, never from the `.timing.json` sidecars.
+
+**Audio LOCKED, sourcing trap checked and clear.** By git content date `make_narration.py`
+(2026-07-24) pre-dates its own audio and the MP4 (both 2026-07-27) — the safe direction. All
+twenty-one segments were transcribed anyway; four apparent differences were chased and every
+one proved to be whisper's, not the audio's, including `card` "stopped"/"stop", settled by a
+5 ms-frame energy trace showing one stop closure and one release rather than two.
+**No TEXT_OVERRIDES, no SPEAKER_OVERRIDES.** The independent audio-stream MD5 comparison against
+the V1 MP4 is still to be run, because nothing has been assembled yet.
+
+**The sharpest content call on this row:** five red-letter segments and only ONE belongs on
+Jesus's face. j1 (18:11-12) is *the Pharisee* praying and j2 (18:13) is *the publican* praying —
+a red-letter Bible inks both, but putting Jesus's face under "God, I thank thee, that I am not
+as other men are" would invert the line completely. Only j3 (18:14) is Jesus speaking as himself.
+He appears in eight frames and never inside the parable.
+
+**Two new shared locks in `v2_prompt.py`: TEMPLE-COURT and TOLL-STATION.** The temple lock also
+had to state that the building is *newly built and standing whole* — a frame came back as the
+modern Western Wall, weathered mismatched blocks with vegetation in the joints over a plaza,
+which for an LDS outreach video is the worst possible miss.
+
+**The row's hardest defect was a classical colonnade, which survived FOUR cures** — the shared
+lock's own square piers, an explicit prohibition list, deleting the covered walk from the lock
+outright, and then reappearing on the far horizon. The cure that holds states the court boundary
+at the **front of each beat's own scene** as geometry plus an inventory: exactly two built objects
+stand up off the pavement anywhere in the picture, the sanctuary block and the altar, and between
+the top of the wall and the sky there is nothing at all. Injected mechanically into all 19 wide
+temple beats. **An earlier attempt to append that injection silently failed to write and was
+caught by grepping the file** — which is why six frames still need the reroll.
+
+Other cures ported: mantle stated as back-draped geometry (a shawl-collar dressing gown
+rendered); light geometry into both character locks (a hair rim-light); listeners' head/neck
+covering re-staged as same-colour-as-tunic (pale scarves survived a ban twice); the money box
+**deleted** from TOLL-STATION after a metal hasp rendered on it; a close-range weave clause after
+a knitted ribbed cuff; the ten-herbs count pinned as nine-in-a-row-plus-one after nine rendered.
+
+Reroll rate **20 of 72 generations = 27.8%**. Spend this row **$10.05** (meter $194.57 → $204.62),
+every run under a recomputed hard `--ceiling`.
+
+Commit: see below.
+
 ## 2026-08-02 — Row 38 The Persistent Widow: full realistic V2 rebuild shipped — Claude worker 33, Machine A `Dev`
 
 Luke 18:1-8. **46 pictures at native 2K against V1's SEVEN** — and an eighth,
