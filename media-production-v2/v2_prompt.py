@@ -769,6 +769,122 @@ JUDGMENT_SEAT_LOCK = (
     "picture."
 )
 
+# TEMPLE-COURT — added to the shared recipe 2026-08-02 (row 39, the Pharisee and the
+# publican, Luke 18:9-14, the first V2 build staged INSIDE THE TEMPLE: "Two men went up
+# into the temple to pray"). Rows 16/18 paid for interior lighting, row 19 for boat
+# fittings, row 22 for city skylines, row 26 for irrigation hose, row 27 for knitted
+# fabric, row 28 for the tool in the hand, row 29 for the road and the market stall, row
+# 31 for night lamplight, row 32 for the background crowd, row 33 for the prison cell, row
+# 34 for the barn, row 35 for the dining room, row 36 for the written account, row 37 for
+# the gateway, row 38 for the judgment seat. THE TEMPLE's own anachronism is THE BUILDING
+# AND ITS FURNITURE, and nothing above reaches it, for exactly the reason a road surface,
+# a prison cell, a barn and a courtroom slip through: it is ARCHITECTURE AND FURNISHING.
+#
+# "Temple", "altar", "priest", "pray", "worship" and "sanctuary" are among the most loaded
+# religious nouns in English and each pulls a DIFFERENT wrong building, all of them at
+# once: a Greek or Roman temple with fluted columns, carved capitals and a triangular
+# pediment; a Gothic or Baroque church with pointed arches, stained glass, pews, an organ,
+# candles and a crucifix; a golden-domed mosque; a modern synagogue with a Torah ark behind
+# a velvet curtain, a silver-crowned scroll, a six-pointed star and men in black-striped
+# prayer shawls and skullcaps — every one of those is CENTURIES LATER than this story, and
+# the last group is the one an LDS outreach video can least afford to get wrong.
+#
+# What Herod's Second Temple actually was is enormous, plain and STONE: vast open
+# unroofed courts of huge dressed limestone paving, ringed by porticoes of plain
+# square-cut piers carrying flat timber roofs, with the sanctuary standing as a tall
+# rectangular block at the far end and one great square altar of UNCUT stone in the open
+# air before it. Nobody sits; everybody stands. Stated POSITIVELY per the row-10 geometry
+# lesson. The temple recurs constantly across the 200 (the boy in the temple, Zacharias,
+# the presentation, the cleansing, the widow's mite, "not one stone upon another"), so
+# this belongs here rather than in a sixteenth build-local copy. Any build staged in the
+# temple, its courts, its steps or its porches names "TEMPLE-COURT".
+TEMPLE_COURT_LOCK = (
+    "TEMPLE-COURT LOCK: this is the first-century JEWISH temple in Jerusalem as it "
+    "actually stood, and it is VAST, PLAIN AND MADE OF STONE. THE GROUND is an "
+    "enormous OPEN-AIR court paved with huge rectangular slabs of pale dressed "
+    "limestone, worn smooth and hollowed by feet, running away far enough that people "
+    "at the other side are small. THE ENCLOSURE is a high wall of very large "
+    "square-cut pale limestone blocks laid in level courses without mortar, and along "
+    "its inside runs a covered portico of PLAIN SQUARE-SECTION STONE PIERS — flat "
+    "faces, sharp arrises, NO fluting, NO base moulding and NO carved capital — "
+    "carrying a FLAT roof of rough hewn timber beams and packed plaster. THE "
+    "SANCTUARY at the far end is one TALL PLAIN RECTANGULAR BLOCK of the same pale "
+    "limestone, higher than it is wide, its front face plated with dull hammered gold "
+    "sheet, pierced by ONE tall SQUARE-TOPPED doorway closed by ONE heavy hanging "
+    "curtain of thick woven wool in deep blue, purple and crimson. THE ALTAR standing "
+    "in the open court before it is a single SQUARE MASS of UNCUT UNDRESSED FIELD "
+    "STONES packed with mortar, wider than a room and about the height of two men, "
+    "with a long unbroken RAMP of the same rough stone rising to its top on one side, "
+    "and ONE column of pale grey-white smoke going straight up from it into the sky. "
+    "THE PEOPLE: laymen STAND on the open pavement in ordinary hand-woven wool and "
+    "linen in dark earth colours, some with hands raised and open, some with heads "
+    "bowed; priests move on the higher pavement in PLAIN UNDYED WHITE LINEN — a plain "
+    "straight tunic to the ankle, a plain woven sash, a plain wound linen head "
+    "wrapping — and are BAREFOOT. THERE IS NOWHERE TO SIT ANYWHERE IN THE PICTURE. "
+    "THIS IS NOT A CHURCH, A CATHEDRAL, A MOSQUE, A GREEK OR ROMAN TEMPLE OR A LATER "
+    "SYNAGOGUE, AND NONE OF THE FOLLOWING APPEARS ANYWHERE IN THE FRAME: no cross, "
+    "crucifix, altar cross, steeple, spire, bell, bell tower, dome, half-dome, apse, "
+    "minaret or onion dome; no pointed, round, horseshoe or scalloped arch, no ring of "
+    "dressed voussoirs, no vault, no rose window, no stained, coloured or leaded "
+    "glass, and no glass of any kind in any opening; no fluted column, engaged column, "
+    "pilaster, carved capital, entablature, frieze, cornice, architrave, triangular "
+    "pediment, dentil course or statue in a niche; no pew, bench, chair, stall, throne, "
+    "seat, kneeler, pulpit, lectern, reading desk, communion rail or barrier of turned "
+    "wood; no candle, candlestick, candelabra, chandelier, sconce, hanging metal lamp "
+    "or swinging censer on chains; no organ, no painting, icon, mosaic image, fresco, "
+    "framed picture, banner or tapestry with a scene woven into it; no six-pointed "
+    "star, hexagram, Star of David, menorah, seven-branched lampstand, ark, cabinet, "
+    "cupboard or curtained shrine holding scrolls, no scroll with silver crowns, "
+    "finials, mantle or breastplate, no velvet, brocade, satin, fringe, tassel or "
+    "gold-embroidered hanging; and on nobody in the picture is there a skullcap, "
+    "kippah, yarmulke, black hat, black coat, fur hat, side-curls, a white prayer "
+    "shawl with black or blue stripes and knotted corner fringes of a later century, "
+    "a bishop's mitre, a chasuble, a stole, a cassock, a surplice, a clerical collar "
+    "or any vestment of any Christian church. THE SACRIFICE IS SHOWN ONLY AS STONE, "
+    "SMOKE AND STANDING PRIESTS: there is no blood, no carcass, no cut, no wound, no "
+    "knife, no cleaver, no hook, no flayed or dismembered animal, no dying or "
+    "struggling beast and no killing of any kind visible anywhere in the picture."
+)
+
+# TOLL-STATION — added to the shared recipe 2026-08-02 (row 39, whose second man IS one:
+# "the other a publican", a tax farmer working for Rome). A TOLL POINT's own anachronism
+# is THE FURNITURE OF COLLECTING MONEY, and nothing above reaches it: ESTATE-ACCOUNTS
+# covers the written sheet and the reed pen but says nothing about where a man SITS to
+# take money on a public road, and MARKET-TOWN covers a stall selling goods, not a booth
+# taking a levy. "Tax office", "toll booth", "customs" and "collector" pull a Victorian
+# counting window or a modern highway kiosk: a boarded booth with a serving hatch, a
+# counter with a grille, a barrier arm, a cash box of stamped metal, a bound ledger, a
+# uniform. Tax collectors recur across the 200 (Matthew at the receipt of custom,
+# Zacchaeus, "publicans and sinners", the tribute money), so this belongs here. Stated
+# POSITIVELY per the row-10 geometry lesson. Any build with a tax collector, toll, custom
+# house or money table names "TOLL-STATION".
+TOLL_STATION_LOCK = (
+    "TOLL-STATION LOCK: a first-century tax collector works IN THE OPEN AIR beside "
+    "the road, and this is the whole of his station. He sits LOW — cross-legged on a "
+    "folded wool mat, or on one squat block of undressed limestone — behind a SINGLE "
+    "LOW TABLE that is one slab of adzed unpainted timber, silvered and split by "
+    "weather, laid across two stone blocks about knee high, set in the dust in the "
+    "shade of a plain square-topped gateway or one rectangle of undyed dark goat-hair "
+    "cloth slung from rough poles. ON THE TABLE, and nothing else: loose STRUCK COINS "
+    "of dull silver and dark bronze pushed into small separate counted heaps, each "
+    "coin correctly bearing a ruler's head in profile and a worn rim legend; ONE plain "
+    "open box of pegged adzed planks with no lid, no hinge and no lock, or one plain "
+    "fired-clay bowl, holding more of them; ONE hand-woven reed basket of loose rolled "
+    "sheets of papyrus; and ONE small shallow fired-clay pot of lamp-black ink with a "
+    "cut reed pen laid beside it. Travellers, laden donkeys and men with bundles wait "
+    "and pass in the dust beyond him. THIS IS NOT AN OFFICE, A BOOTH, A COUNTER OR A "
+    "CHECKPOINT: there is no built booth, hut, kiosk, cabin, shed or window; no "
+    "serving hatch, counter, grille, screen, bars, turnstile, gate arm, barrier, chain "
+    "or rope across the road; no table with legs, no desk, no chair, no stool with "
+    "legs, no bench with a back; no metal cash box, strongbox, chest with bands, lock, "
+    "hasp, padlock or key; no bound book, ledger, account book, spine or stacked "
+    "leaves; no scales, balance, weights, abacus, counting frame or tally board; no "
+    "banknote, paper money, printed paper, receipt, label, price board, notice, sign, "
+    "placard, lettering or numeral anywhere on anything; and no soldier, armour, "
+    "helmet, shield, spear, sword, standard, banner or uniform of any kind in the "
+    "picture."
+)
+
 # Shared SETTING locks a build opts into by name in a beat's `locks` list. Unlike the
 # blocks above they are NOT appended to every prompt — a boat scene has no irrigation —
 # but they live here so the next garden does not have to re-learn the lesson.
@@ -779,6 +895,8 @@ SHARED_SETTING_LOCKS = {
     "SPIRIT-WORLD": SPIRIT_WORLD_LOCK,
     "ESTATE-ACCOUNTS": ESTATE_ACCOUNTS_LOCK,
     "JUDGMENT-SEAT": JUDGMENT_SEAT_LOCK,
+    "TEMPLE-COURT": TEMPLE_COURT_LOCK,
+    "TOLL-STATION": TOLL_STATION_LOCK,
     "GRANARY-BARN": GRANARY_BARN_LOCK,
     "BACKGROUND-CAST": BACKGROUND_CAST_LOCK,
     "HAND-IRRIGATION": HAND_IRRIGATION_LOCK,
