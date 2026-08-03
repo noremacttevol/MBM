@@ -1,3 +1,69 @@
+## 2026-08-02 — Row 38 The Persistent Widow: full realistic V2 rebuild shipped — Claude worker 33, Machine A `Dev`
+
+Luke 18:1-8. **46 pictures at native 2K against V1's SEVEN** — and an eighth,
+`s7b-heard-at-once.jpeg`, was generated and never placed in the cut at all. V1's worst hold
+is the worst in the wave so far: **`s7-the-good-father.jpeg` held FIFTY SECONDS**, from
+121.781 s to the card, carrying the whole of the red-letter Luke 18:8 ("I tell you that he
+will avenge them speedily… shall he find faith on the earth?"), the quiet closing question,
+**and the entire two-segment closing application the video exists to deliver** — nearly a
+third of the running time on one frame. `s1` held 29.4 s over the widow's whole
+introduction and `s6` held 25.2 s over the "how much more will your Father" contrast the
+parable turns on. V2 gives all fifteen spoken segments their own pictures: 3.73 s/picture,
+shortest 2.72 s, longest 4.85 s.
+
+- **AUDIO LOCK PASS, verified independently of the assembler's own report.** The finished
+  cut's audio stream MD5 (`342818e9f3a8bede951e5d6b3121cd38`) is byte-identical to the V1
+  MP4's. 180.100 s / 21,859,309 bytes. Nothing re-voiced; V1 never written to.
+- **Sourcing trap checked and clear.** By git content date `make_narration.py`
+  (2026-07-23) PRE-dates its own audio and the MP4, which share one commit
+  (2026-07-27T23:15:18) — the safe direction. All sixteen segments were transcribed with
+  faster-whisper anyway and match the live script; the single apparent difference
+  ("Here is" → "Here's") is whisper's own contraction family from rows 29 and 31. No
+  TEXT_OVERRIDES.
+- **The inherited scaffold was discarded** (kept for provenance): 29 pictures at 5.7 s
+  each, windows not contiguous and **not even in time order** — its sixth entry declared
+  58.13–59.46 between windows ending 27.80 and starting 28.41 — and it covered only to
+  164.94 s of the 171.743 s that need pictures.
+- **Windows rebuilt from scratch** from `extract_beats` plus measured whisper word timings:
+  contiguous 0.000 → 171.743, zero gaps, every one of the fifteen speech onsets inside its
+  own window. **30 windows of true digital silence below −60 dB** (a measured inter-segment
+  gap reads mean −90.3 dB against −16.8 dB during speech) prove narration plus intentional
+  silence with no music bed.
+- **The sharpest content call was red-letter placement.** Luke 18:4-5 is **the unjust judge
+  talking to himself** — putting Jesus's face under a caption of a godless man admitting he
+  fears no God would invert the line completely, so all three of its pictures are the judge
+  alone in his chamber. "Avenge me of mine adversary" is **the widow's own sentence** and is
+  on her. Only 18:6-8, where Jesus speaks as himself, is on Jesus. **God is never depicted**;
+  the contrast the narration draws is an ordinary village father in his own doorway, locked
+  with short hair so he can never read as Jesus either.
+- **The row's visual engine:** the four "she came back, and again" beats are ONE composition
+  at FOUR HOURS of the same day — first light, hard midday, a dust-wind afternoon, and the
+  last of the light going all the way down to the threshold stone her feet have worn hollow.
+  The camera never moves; only the light and the dust change.
+- **Staging — four places, none repeating the wave:** an olive-press *working* yard where
+  Jesus tells it, the city-gate judgment chamber, the widow's one bare room, the good
+  father's doorway.
+- **Reroll rate 7 of 53 = 13.2%**, all composition-level (delete + fresh generation, never
+  `--redo`). The expensive one: b10 came back with the widow as a *different, pale, young*
+  woman in a tailored cloak, **looking down the lens**, under an **arch of dressed
+  voussoirs**, with a modern rendered building beyond — four violations at once, and the
+  char_ref alone had not held her at that distance. Cured by **geometry**: the camera moved
+  to right angles to the judge–widow axis so both face each other in profile, which kills
+  the lens gaze structurally. Two more were cured by **deleting the object** rather than
+  describing it again — a brass sandal buckle (the row-35 defect, invisible until cropped
+  in) and the closing image's door, which rendered *shut* under the line "he has been
+  waiting to hear from you all along" and inverted it.
+- **New shared lock: `JUDGMENT-SEAT`.** "Judge" and "court" pull an English or American
+  courtroom — panelled bench, gavel, wig and gown, dock, jury box, blindfolded Justice — and
+  nothing in the shared recipe reached it, because a courtroom is *architecture and
+  furniture*, and ANCIENT-PRISON covers where a man is *held*, not where he is *heard*.
+- ≈$6.70 spend (53 images). Live on the reviewer, verified with
+  `data-review-wave="realistic-v2"` and the raw URL serving 21,859,309 bytes.
+
+**Commits:** `041ac745` (the cut) · card repoint and boards follow.
+
+---
+
 ## 2026-08-02 — Row 37 The Rich Man and Lazarus: full realistic V2 rebuild shipped — Claude worker 32, Machine A `Dev`
 
 Luke 16:19-31 — **the one story in the 200 whose narration goes past death**, which made

@@ -2082,3 +2082,27 @@ all five red-letter lines are the rich man and Abraham speaking within it.
 **New shared locks:** `SPIRIT-WORLD` and `COURTYARD-GATE` in `v2_prompt.py`.
 
 STATUS: **DONE** — shipped to the reviewer 2026-08-02, awaiting Cameron.
+
+---
+
+## Row 38 — The Persistent Widow (Luke 18:1-8) — DONE 2026-08-02
+
+- **Worker:** Claude worker 33, Machine A `Dev`. Claimed by push before any spend.
+- **46 pictures** at native 2K against V1's SEVEN (an eighth generated and never placed).
+  V1 held ONE picture for **50.0 s** across the whole of the red-letter Luke 18:8, the
+  closing question and the entire two-segment application; another for 29.4 s over the
+  widow's introduction. 3.73 s/picture, shortest 2.72 s, longest 4.85 s.
+- **AUDIO LOCK PASS, verified independently:** finished audio stream MD5
+  `342818e9f3a8bede951e5d6b3121cd38` byte-identical to the V1 MP4's. 180.100 s /
+  21,859,309 bytes. 30 silence windows below −60 dB; no music bed.
+- **Sourcing trap clear:** script pre-dates its own audio by git content date; all sixteen
+  segments whisper-transcribed and matching. No TEXT_OVERRIDES.
+- **Inherited scaffold discarded:** 29 pictures at 5.7 s, non-contiguous and out of time
+  order, 7 s short of the timeline.
+- **Reroll rate 7/53 = 13.2%**, all composition-level. Cures: light geometry for a backlit
+  hair fringe on Jesus; camera at right angles to the judge–widow axis for a wrong-identity
+  lens-gaze frame; positive chamber statement for setting drift; a single stated doorway
+  material for the four-hour montage; and *deletion* of a buckled sandal and of a door leaf
+  that rendered shut and inverted its own line.
+- **New shared lock:** `JUDGMENT-SEAT` in `v2_prompt.py`.
+- **Shipped:** commit `041ac745`; live on the reviewer with `data-review-wave="realistic-v2"`.
