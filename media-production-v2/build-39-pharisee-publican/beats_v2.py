@@ -888,24 +888,31 @@ BEATS += [
         "seg": "n3", "window": "39.942-44.202", "wide": False, "jesus": False,
         "locks": ["PHARISEE-HOUSE", "PHARISEE", "JUDEAN-LAND"],
         "narration": "everything he owned, down to the herbs in his garden. Ask that city who",
-        "must_show": "TEN small separated bundles of freshly cut grey-green kitchen herbs laid out countable on a stone ledge, with the Pharisee's hand sliding exactly ONE of them apart from the rest.",
-        "must_not_show": _NO_HALO + _NO_DEITY + _NO_CREAM_STRICT + _NO_CHURCH + _GAZE + "no vague heap, pile, handful, bunch, basketful or uncountable mass of herbs, no eleventh bundle, and no pot, tray, punnet, string, tie, label, tag or lettering on anything; ",
+        "must_show": "EXACTLY TEN bundles of freshly cut grey-green kitchen herbs on ONE stone ledge — nine in one straight countable row and the tenth pushed a hand's width apart — with a BARE forearm reaching in and no sleeve or cloth anywhere in frame.",
+        "must_not_show": _NO_HALO + _NO_DEITY + _NO_CREAM_STRICT + _NO_CHURCH + _GAZE + "no vague heap, pile, handful, bunch, basketful or uncountable mass of herbs, no eleventh bundle, no ninth-and-no-more, no bundle on any second surface, lower step or the ground; no sleeve, cuff, wrist band, hem or any cloth in the frame; no knitted, ribbed, jersey, fleece or sweater texture anywhere; and no pot, tray, punnet, label, tag or lettering on anything; ",
         "scene": (
             "One photograph, 100mm macro lens at f/4 so the whole ledge stays "
             "sharp, looking steeply DOWN onto a low stone ledge from just above "
             "and to the SIDE, so no face and no head is anywhere in the "
             "picture. " + _GRAIN +
-            "COUNT AS GEOMETRY: laid out on the pale worn limestone in a single "
-            "even row, separated by a clear finger's width of bare stone "
-            "between each one, are EXACTLY TEN small bundles of freshly cut "
-            "kitchen herb — low grey-green mint and rue, stems together, leaves "
-            "fanned — each bundle about the size of two fingers, every one of "
-            "them individually visible and countable, and THERE IS NO ELEVENTH "
-            "BUNDLE AND NO LOOSE HEAP ANYWHERE. A man's hand — long, brown, "
-            "clean, broad-knuckled, warm olive-brown, the sleeve of a DEEP "
-            "INDIGO BLUE hand-woven wool tunic at the wrist — has slid ONE "
-            "single bundle at the near end a clear hand's width apart from the "
-            "other nine, and two fingertips still rest on it. Low horizontal "
+            "COUNT AS GEOMETRY, AND THE ARITHMETIC IS EXACT: there are TEN "
+            "BUNDLES IN THIS PICTURE AND TEN ONLY — NINE of them lie in ONE "
+            "SINGLE STRAIGHT EVEN ROW along the flat top of ONE stone ledge, "
+            "all nine on THAT SAME ONE SURFACE, evenly spaced with a clear "
+            "finger's width of bare stone between each, and THE TENTH lies a "
+            "clear hand's width apart from the end of that row ON THE SAME "
+            "LEDGE. NINE PLUS ONE MAKES TEN AND THE VIEWER CAN COUNT THEM. "
+            "There is no eleventh bundle, no eighth-and-no-more, no bundle on "
+            "any lower step, any second ledge, any other surface or the ground, "
+            "and no loose heap, pile, handful or scatter of stems anywhere. "
+            "Each bundle is low grey-green mint and rue, stems together and "
+            "tied once with plain undyed flax thread, leaves fanned, about the "
+            "size of two fingers. A BARE MAN'S ARM reaches into the frame from "
+            "the near edge — long, brown, clean, broad-knuckled, warm "
+            "olive-brown, the forearm BARE SKIN ALL THE WAY OUT OF THE FRAME "
+            "WITH NO SLEEVE, CUFF, WRIST BAND, HEM OR CLOTH OF ANY KIND "
+            "ANYWHERE IN THE PICTURE — and two fingertips rest on the tenth, "
+            "separated bundle. Low horizontal "
             "first light from the LEFT rakes across the stone and throws each "
             "of the ten small shadows in the same direction. Nothing else is in "
             "the frame."
