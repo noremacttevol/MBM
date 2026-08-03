@@ -1000,7 +1000,7 @@ BEATS += [
         "locks": ["TOLL-STATION", "PUBLICAN", "JUDEAN-LAND"],
         "narration": "He worked for Rome, the empire occupying his own country,",
         "must_show": "A macro of one struck silver coin held up between the tax collector's thumb and forefinger, the ruler's head in profile and the worn rim legend clearly readable as a struck coin.",
-        "must_not_show": _NO_HALO + _NO_DEITY + _NO_CREAM_STRICT + _NO_CHURCH + _NO_OFFICE + _GAZE + "no modern coin, milled edge, machine-perfect rim, arabic numeral, date, banknote or paper money; ",
+        "must_not_show": _NO_HALO + _NO_DEITY + _NO_CREAM_STRICT + _NO_CHURCH + _NO_OFFICE + _GAZE + "no modern coin, milled edge, machine-perfect rim, arabic numeral, date, banknote or paper money; no sleeve, cuff, wrist band, hem or any cloth in the frame; no knitted, ribbed, jersey, cabled, fleece or sweater texture anywhere; ",
         "scene": (
             "One photograph, 100mm macro lens at f/2.8, filling the frame with "
             "one hand and one coin and nothing else. " + _GRAIN +
@@ -1008,8 +1008,9 @@ BEATS += [
             "above, so no face and no head is anywhere in the picture. A MAN'S "
             "HAND — broad, thick-fingered, warm sun-darkened olive-brown, "
             "soft-palmed, ink-stained along the first two fingers, the nails "
-            "short, the sleeve of a DEEP RUST-BROWN hand-woven wool tunic at "
-            "the wrist showing its coarse over-and-under weave — holds ONE "
+            "short, THE FOREARM BARE SKIN ALL THE WAY OUT OF THE FRAME WITH NO "
+            "SLEEVE, CUFF, WRIST BAND, HEM OR CLOTH OF ANY KIND ANYWHERE IN "
+            "THE PICTURE — holds ONE "
             "single small STRUCK SILVER COIN edge-on between thumb and "
             "forefinger, turned up toward the light. The coin is hand-struck "
             "and imperfect: slightly oval, its edge irregular and unmilled, its "
