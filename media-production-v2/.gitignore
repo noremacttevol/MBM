@@ -14,3 +14,4 @@
 # leftover from the retired 1K-fallback era; nothing reads it anymore.
 *.size
 *.FAILED.txt
+STASH-INDEX.json

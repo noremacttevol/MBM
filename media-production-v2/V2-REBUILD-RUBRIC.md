@@ -65,6 +65,15 @@ direction, but V4 is rejected as a final because its copied audio was shortened.
     that person's face/hair, then recheck the entire edited frame for changed crop,
     pose, anatomy, people, props, lighting, and scene geometry. A face fix that
     damages the scene is still a failure.
+11. **Copy the good pictures — places are locked by IMAGE, like faces (Cameron,
+    2026-08-04).** A recurring setting keeps one look within a story and across
+    all 200 videos. `v2_stash.py --wire <build>` attaches an approved plate from
+    the stash of shipped stills to every beat of that place; a NEW place gets its
+    first good frame promoted (`--promote`) so the rest of the build copies it.
+    Text alone re-invents architecture — row 39's colonnade survived four text
+    cures; a plate carries the place the way the face reference carries Jesus.
+    A place with a plate does not need a new 400-word prose lock, so the shared
+    lock tower stops growing. Never hand a Jesus-bearing frame to auto-wiring.
 
 ## Per-story workflow
 
@@ -77,15 +86,21 @@ direction, but V4 is rejected as a final because its copied audio was shortened.
    one vague picture for several different events.
 4. Add stable person/setting locks and the right image references. State
    `must_show` and `must_not_show` for every beat.
-5. Run `v2_prompt.py --check` before generation. Generate at native 2K.
-6. Reject any source that misses the beat or violates this rubric. Do not repair a
+5. Run `python3 media-production-v2/v2_story_cast.py <build>` (per-story faces)
+   and `python3 media-production-v2/v2_stash.py --wire <build>` (place plates
+   from the stash of shipped stills). Wire suggested/story-specific plates with
+   `--take`; note the reported NEW places — after each one's first good frame
+   passes QC, `--promote` it and generate that place's remaining beats with the
+   plate attached.
+6. Run `v2_prompt.py --check` before generation. Generate at native 2K.
+7. Reject any source that misses the beat or violates this rubric. Do not repair a
    visibly wrong idea with crop or captions.
-7. Build and inspect the per-character face board. Identity-edit every drifted
+8. Build and inspect the per-character face board. Identity-edit every drifted
    frame against one non-conflicting canonical anchor, and repeat the face-board
    plus full-frame geometry checks until all recurring characters pass.
-8. Assemble with `v2_assemble.py`, which reads the canonical V1 audio without
+9. Assemble with `v2_assemble.py`, which reads the canonical V1 audio without
    altering it.
-9. Review every rendered beat and run the technical gates.
-10. Publish only the candidate to `site/review.html`. Do not replace the app video.
-11. Cameron's exact-version approval is the only release decision. A complaint
+10. Review every rendered beat and run the technical gates.
+11. Publish only the candidate to `site/review.html`. Do not replace the app video.
+12. Cameron's exact-version approval is the only release decision. A complaint
     remains attached through every replacement cut until he approves the fixed one.

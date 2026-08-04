@@ -1207,6 +1207,18 @@ def check(build_dir, mod):
                 else os.path.join(build_dir, rough_ref)
             if not os.path.isfile(path):
                 fails.append(f"{beat['id']}: rough_ref missing on disk: {rough_ref}")
+    # Place plates (v2_stash.py): a wired plate must exist BEFORE a credit is
+    # spent, and a plate no beat names is stale wiring worth a look.
+    all_tokens = set()
+    for beat in mod.BEATS:
+        all_tokens.update(beat.get("locks", []))
+    for tok, rel in (getattr(mod, "PLACE_REFS", {}) or {}).items():
+        path = rel if os.path.isabs(rel) else os.path.join(build_dir, rel)
+        if not os.path.isfile(path):
+            fails.append(f"PLACE_REFS[{tok}]: plate missing on disk: {rel} "
+                         f"(run v2_stash.py --wire {os.path.basename(build_dir)})")
+        if tok not in all_tokens:
+            warns.append(f"PLACE_REFS[{tok}]: no beat names this lock token (stale wiring?)")
     print(f"checked {len(mod.BEATS)} beats in {os.path.basename(build_dir)}")
     for w in warns:
         print(f"  WARN  {w}")
@@ -1221,12 +1233,14 @@ def dump(build_dir, mod):
     out = os.path.join(build_dir, "ASSEMBLED-PROMPTS.txt")
     with open(out, "w") as f:
         for beat in mod.BEATS:
+            plates = getattr(mod, "PLACE_REFS", {}) or {}
             f.write(f"### {beat['id']}  ->  {beat['out']}\n")
             f.write(f"# window {beat['window']}  seg {beat['seg']}  "
                     f"model {beat.get('model', 'Nano Banana Pro')}"
                     f"{'  REF ' + JESUS_REF if beat.get('ref') else ''}"
                     f"{'  ROUGH-REF ' + beat['rough_ref'] if beat.get('rough_ref') else ''}"
-                    f"{''.join('  CHAR-REF ' + c for c in beat.get('char_refs', []))}\n")
+                    f"{''.join('  CHAR-REF ' + c for c in beat.get('char_refs', []))}"
+                    f"{''.join('  PLACE-REF ' + plates[t] for t in beat.get('locks', []) if t in plates)}\n")
             f.write(assemble(beat, mod.LOCKS) + "\n\n")
     print(f"wrote {out} ({len(mod.BEATS)} prompts)")
 

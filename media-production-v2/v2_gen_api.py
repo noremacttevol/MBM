@@ -29,6 +29,10 @@ Character consistency is held by IMAGE, not wording (the CAST-BIBLE lesson):
   (PETER, JOHN, MARY-MAGDALENE, ...) and the approved sheet exists in CAST-V2-REF/,
   both angles are attached automatically. Per-build REFS = {"NAME": path-or-[paths]}
   still works for one-off characters and overrides the library on a name clash.
+- PLACES too (Cameron 2026-08-04, v2_stash.py): a build's PLACE_REFS dict maps a
+  lock token to an approved plate in PLACE-REF/, and the plate is attached to every
+  beat whose `locks` name that token. Wire with `v2_stash.py --wire <build>`; a
+  wired-but-missing plate stops the run before any credit (--no-plates overrides).
 """
 import argparse
 import base64
@@ -55,6 +59,7 @@ MODEL = "gemini-3-pro-image"
 IMAGE_SIZE = "2K"          # 1536 x 2752 at 9:16
 COST_PER_IMAGE = 0.134     # USD (measured 2026-07-28; first paid batch re-verifies vs billing)
 MAX_CHAR_REF_IMAGES = 6    # keep request size sane on crowded beats
+MAX_PAYLOAD_B64 = 18_000_000   # chars; the API rejects requests near 20 MB
 
 # The CAST-V2 library: lock token -> file stems in CAST-V2-REF/ (front + quarter).
 # Only tokens listed here auto-attach; a build's own REFS dict wins on a name clash.
@@ -76,11 +81,24 @@ FACE_LOCK_TEXT = (
     "photograph."
 )
 CHAR_LOCK_TEXT = (
-    "The remaining attached photograph(s) are CHARACTER LOCKS for the other named "
+    "Attached photograph(s) {idx} are CHARACTER LOCKS for the other named "
     "people in this scene. Each of them must appear here as the SAME person: identical "
     "face, identical hair, identical garment in the identical colours. Do not restyle, "
     "recolour or re-age them. Only their pose, action and surroundings may change, and "
     "the framing and background of the attached photographs must NOT be copied."
+)
+# PLACE plates (v2_stash.py, Cameron 2026-08-04: "use the stash ... copy the
+# pictures it already has"). A plate carries PLACE IDENTITY only — the prompt
+# text keeps authority over light, weather, time of day and who is present.
+PLACE_LOCK_TEXT = (
+    "Attached photograph(s) {idx} are PLACE LOCKS for the setting of this scene. The "
+    "scene described below happens in the SAME PLACE shown in those photograph(s): "
+    "keep its architecture, built structures, terrain, materials, colours and physical "
+    "scale exactly, so a viewer recognises the same location from picture to picture. "
+    "Do NOT copy a place photograph's framing, crop or camera angle; any people or "
+    "animals visible in a place photograph are NOT part of this scene unless the text "
+    "below names them; and the time of day, light and weather come ONLY from the text "
+    "below, never from the photograph."
 )
 ROUGH_DRAFT_TEXT = (
     "The LAST attached photograph is a ROUGH COMPOSITION DRAFT of this exact shot. "
@@ -130,18 +148,31 @@ def b64_file(path):
     return base64.b64encode(open(path, "rb").read()).decode()
 
 
-def generate(key, prompt, face_b64=None, char_b64=None, rough_b64=None, retries=4):
+def _idx_range(start, n):
+    return str(start) if n == 1 else f"{start}-{start + n - 1}"
+
+
+def generate(key, prompt, face_b64=None, char_b64=None, place_b64=None,
+             rough_b64=None, retries=4):
     parts = []
     preamble = []
+    pos = 1
     if face_b64:
         parts.append({"inline_data": {"mime_type": "image/jpeg", "data": face_b64}})
         preamble.append(FACE_LOCK_TEXT)
+        pos += 1
     for c in (char_b64 or []):
         parts.append({"inline_data": {"mime_type": "image/jpeg", "data": c}})
     if char_b64:
-        preamble.append(CHAR_LOCK_TEXT)
+        preamble.append(CHAR_LOCK_TEXT.format(idx=_idx_range(pos, len(char_b64))))
+        pos += len(char_b64)
+    for p in (place_b64 or []):
+        parts.append({"inline_data": {"mime_type": "image/jpeg", "data": p}})
+    if place_b64:
+        preamble.append(PLACE_LOCK_TEXT.format(idx=_idx_range(pos, len(place_b64))))
+        pos += len(place_b64)
     if rough_b64:
-        # Attached LAST so the face/character locks keep their stated positions.
+        # Attached LAST so the face/character/place locks keep their stated positions.
         parts.append({"inline_data": {"mime_type": "image/jpeg", "data": rough_b64}})
         preamble.append(ROUGH_DRAFT_TEXT)
     text = ("\n\n".join(preamble) + "\n\n" + prompt) if preamble else prompt
@@ -232,7 +263,26 @@ def build_todo(bdir, only, redo):
     return todo
 
 
-def run(todo, ceiling, dry_run):
+def place_plates_for(mod, no_plates):
+    """token -> b64 plate for a build's PLACE_REFS (wired by v2_stash.py).
+    A wired-but-missing plate stops the run BEFORE any credit: silently
+    generating without it is exactly the drift the plate exists to prevent."""
+    if no_plates:
+        return {}
+    plates = {}
+    for tok, rel in (getattr(mod, "PLACE_REFS", {}) or {}).items():
+        full = rel if os.path.isabs(rel) else os.path.join(mod.__bdir__, rel)
+        if not os.path.isfile(full):
+            raise SystemExit(
+                f"place plate MISSING: {tok} -> {rel}\n"
+                f"Run: python3 media-production-v2/v2_stash.py --wire "
+                f"{os.path.basename(mod.__bdir__)}\n"
+                "(or pass --no-plates to knowingly generate without place locks)")
+        plates[tok] = b64_file(full)
+    return plates
+
+
+def run(todo, ceiling, dry_run, no_plates=False):
     est = len(todo) * COST_PER_IMAGE
     already = spent_so_far()
     print(f"{len(todo)} shot(s) · {MODEL} · {IMAGE_SIZE} · est ${est:.2f} this run · "
@@ -240,10 +290,13 @@ def run(todo, ceiling, dry_run):
           + (f" · ceiling ${ceiling:.2f}" if ceiling else ""))
     if dry_run:
         for mod, beat, _d in todo:
+            wired = getattr(mod, "PLACE_REFS", {}) or {}
+            ptoks = [t for t in beat.get("locks", []) if t in wired]
             marks = ("[face]" if beat.get("ref") else "") + (
                 "[" + ",".join(n for n in beat.get("locks", [])
                                if n in GLOBAL_CAST) + "]"
-                if any(n in GLOBAL_CAST for n in beat.get("locks", [])) else "")
+                if any(n in GLOBAL_CAST for n in beat.get("locks", [])) else "") + (
+                "[place:" + ",".join(ptoks) + "]" if ptoks else "")
             print(f"  {os.path.basename(os.path.dirname(os.path.dirname(_d)))}"
                   f" {beat['id']} -> {beat['out']} {marks}")
         print("(dry run — nothing generated, nothing spent)")
@@ -253,6 +306,10 @@ def run(todo, ceiling, dry_run):
     face_b64 = b64_file(os.path.join(ROOT, JESUS_REF))
     made = 0
     refs_cache_by_mod = {}
+    plates_by_mod = {}
+    for mod, _beat, _dest in todo:
+        if id(mod) not in plates_by_mod:
+            plates_by_mod[id(mod)] = place_plates_for(mod, no_plates)
     for mod, beat, dest in todo:
         if ceiling and spent_so_far() + COST_PER_IMAGE > ceiling:
             print(f"CEILING ${ceiling:.2f} reached (meter ${spent_so_far():.2f}). "
@@ -273,21 +330,36 @@ def run(todo, ceiling, dry_run):
                     cache[name] = blobs
             refs_cache_by_mod[id(mod)] = cache
         chars, labels = cast_refs_for(beat, refs_cache_by_mod[id(mod)])
+        plates = plates_by_mod[id(mod)]
+        ptoks = [t for t in beat.get("locks", []) if t in plates]
+        places = [plates[t] for t in ptoks]
         rough_b64 = None
         rough = beat.get("rough_ref")
         if rough:
             rpath = rough if os.path.isabs(rough) else os.path.join(mod.__bdir__, rough)
             if os.path.isfile(rpath):
                 rough_b64 = b64_file(rpath)
+        # Request-size guard: drop plates first (they help, the others are law),
+        # then surplus character angles. Never silently — every drop is printed.
+        used = (len(face_b64) if beat.get("ref") else 0) + sum(map(len, chars)) \
+            + sum(map(len, places)) + (len(rough_b64) if rough_b64 else 0)
+        while used > MAX_PAYLOAD_B64 and places:
+            used -= len(places.pop())
+            print(f"      (payload cap: dropping place plate {ptoks.pop()})")
+        while used > MAX_PAYLOAD_B64 and len(chars) > 2:
+            used -= len(chars.pop())
+            print(f"      (payload cap: dropping char ref {labels.pop()})")
         bname = os.path.basename(os.path.dirname(os.path.dirname(dest)))
         print(f"=== {bname} {beat['id']} -> {beat['out']} ==="
               + (f"  [face lock]" if beat.get("ref") else "")
               + (f"  [+{len(labels)} char ref: {', '.join(labels)}]" if labels else "")
+              + (f"  [+{len(ptoks)} place: {', '.join(ptoks)}]" if ptoks else "")
               + ("  [rough draft]" if rough_b64 else ""),
               flush=True)
         try:
             img = generate(key, assemble(beat, mod.LOCKS),
-                           face_b64 if beat.get("ref") else None, chars, rough_b64)
+                           face_b64 if beat.get("ref") else None, chars, places,
+                           rough_b64)
         except SystemExit:
             raise
         except Exception as e:
@@ -314,6 +386,9 @@ def main():
     ap.add_argument("--ceiling", type=float, default=None,
                     help="hard dollar cap on the cross-session meter (api-spend.jsonl)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--no-plates", action="store_true",
+                    help="generate WITHOUT wired place plates (loud, deliberate — "
+                         "for a machine that lacks the source stills)")
     a = ap.parse_args()
 
     if bool(a.build_dir) == a.all:
@@ -344,7 +419,7 @@ def main():
                 todo.append((mod, beat, dest))
         except Exception as e:
             print(f"SKIP {os.path.basename(d)}: beats load failed: {e}")
-    run(todo, a.ceiling, a.dry_run)
+    run(todo, a.ceiling, a.dry_run, a.no_plates)
 
 
 if __name__ == "__main__":
