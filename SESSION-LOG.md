@@ -1,3 +1,51 @@
+## 2026-08-04 — PLACE PLATES: the picture pipeline now COPIES its own good pictures — Claude worker 35, Machine A `Dev`
+
+Cameron's order this session: *"it should be using the old pictures ... use the stash
+that stills from the previous videos ... to make the new pictures it's prompting ...
+cheaper better and faster with less mistakes."* He is right and the numbers agreed:
+faces stopped drifting only when carried by IMAGE (CAST-BIBLE, v2_story_cast), yet
+every PLACE was still re-invented from prose on every frame — that is where the
+~28-30% reroll rate lives (row 39's colonnade survived FOUR text cures), and why
+v2_prompt.py grew to a 1,350-line lock tower.
+
+**Built and tested (spent $0 — billing is still empty from row 39):**
+- **`v2_stash.py` (new).** `--scan` indexes every still that shipped inside an
+  assembled mp4 — **1,307 stills across 37 finished builds**; each entry carries its
+  beat's own lock tokens, wide/night/jesus flags, and its scene text as description.
+  `--find` searches it. `--wire <build>` matches a new build's place tokens against
+  a curated family table (TEMPLE, SYNAGOGUE, TOWN/LANE, ROAD, SHORE, BOAT, FIELD...),
+  picks the best plate (never a Jesus-bearing frame — early rows carry the retired
+  face), downscales it into `<build>/PLACE-REF/` (gitignored art) and records the
+  decision in committed `PLACE-WIRING.json` + a generated `PLACE_REFS` block in
+  beats_v2.py. Story-specific tokens are SUGGESTED (`--take`), never auto-wired.
+  `--promote` turns a new place's first QC-passed frame into the plate for the rest
+  of the build — in-story consistency by copying, exactly as Cameron asked.
+- **`v2_gen_api.py`** attaches plates as PLACE LOCK reference images (explicitly
+  numbered preambles: face, characters, places, rough draft last). The plate carries
+  PLACE IDENTITY ONLY — the text keeps authority over light/time/people, so one
+  plate serves day and night beats. A wired-but-missing plate STOPS the run before
+  any credit (`--no-plates` is the loud override for a machine without the source
+  stills); an 18 MB payload guard drops plates first, printed, never silent.
+- **`v2_prompt.py --check`** fails on missing plates pre-credit and warns on stale
+  wiring; dump shows PLACE-REF lines. Rubric: new lesson 11 + workflow step 5 —
+  **a place with a plate does not need a new 400-word prose lock; the tower stops
+  growing.**
+- **Proven on build-40 (friend at midnight):** LANE auto-wired from the ten-virgins
+  midnight lane (night detection reads scene/lock prose too — build-40 names night
+  in its own words, zero NIGHT-LAMPLIGHT tokens); GROVE correctly REFUSED (all stash
+  groves contain Jesus) and reported as promote-first; both houses reported NEW.
+  Wire is idempotent; checklist PASS; dry-run shows [place:LANE] on all 16 lane
+  beats. First eyeball also caught GROVE≠GARDEN (olive grove vs walled beds) — the
+  family was split before anything shipped.
+
+**Blockers/loose ends:** (1) API billing still depleted — row 39's six rerolls then
+`v2_assemble.py 39` remain the next paid work (checklist top of build-39 QC.md);
+build-40 is wired and ready after that. (2) Pre-existing UNCOMMITTED edits to
+build-12-bartimaeus beats_v2.py + ASSEMBLED-PROMPTS.txt from an earlier session sit
+on this machine, left untouched — that session should finish its chain.
+
+Commit: `08d2803ff`.
+
 ## 2026-08-02 — Row 39 The Pharisee and the Publican: realistic V2 built to 52/58, BLOCKED ON API BILLING — Claude worker 34, Machine A `Dev`
 
 Luke 18:9-14. **NOT SHIPPED and deliberately NOT on the review board.** 52 of the 58
