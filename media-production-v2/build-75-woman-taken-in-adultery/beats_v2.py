@@ -94,7 +94,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the interruption — the seated morning teaching split open by the accusers' knot pushing through, the woman gripped by the arms between them, stumbling, mantle clutched closed.",
         "must_not_show": "⚑ NOTHING rough beyond gripped arms and her stumble; fully clothed, mantle held shut; the crowd parting in dismay, not appetite.",
         "scene": (
-            "The long low morning light rakes the "
+            "The long low morning light rakes the court, the "
+            "camera behind the seated listeners' shoulders as the "
             "temple court where Jesus sits teaching on "
             "the low step — and the lesson splits open: "
             "a dense knot of fine-robed men shoves "
@@ -120,7 +121,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: set in the midst — the woman placed alone at the circle's centre, the staring ring closed around her; exposure as geometry, her body huddled and covered.",
         "must_not_show": "⚑ the exposure SOCIAL only — the circle of eyes the whole violence; she covered, hunched, dignity intact under shame's posture.",
         "scene": (
-            "In the court's centre the circle closes: "
+            "In the court's centre, the camera outside the ring "
+            "behind the accusers' dark backs, the circle closes: "
             "the woman placed alone on the pale "
             "flagstones with the staring ring shutting "
             "around her — accusers at the front with "
@@ -157,7 +159,7 @@ BEATS = [
     },
     {
         "id": "v2-r075-b04", "out": "s04-and-then-they-turned-to.jpeg", "seg": "n1",
-        "window": "17.33-23.65", "wide": True, "jesus": True, "ref": REF,
+        "window": "17.33-23.65", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "ACCUSERS", "COURT"],
         "narration": (
             "And then they turned to Jesus, put the law of Moses on the table "
@@ -272,7 +274,7 @@ BEATS = [
     },
     {
         "id": "v2-r075-b09", "out": "s09-he-bent-down-and-wrote.jpeg", "seg": "n3",
-        "window": "45.15-49.32", "wide": True, "jesus": True, "ref": REF,
+        "window": "45.15-49.32", "wide": False, "jesus": True, "ref": REF,
         "locks": ["COURT"],
         "narration": (
             "He bent down and wrote in the dust with his finger. Then he "
@@ -297,7 +299,7 @@ BEATS = [
     },
     {
         "id": "v2-r075-b10", "out": "s10-he-that-is-without-sin.jpeg", "seg": "j1",
-        "window": "49.90-54.68", "wide": True, "jesus": True, "ref": REF,
+        "window": "49.90-54.68", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "ACCUSERS", "COURT"],
         "narration": (
             "He that is without sin among you, let him first cast a stone at "
@@ -403,7 +405,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the exodus — the WHITE-BEARDED ELDEST turning away FIRST, his stone left on the pavement; behind him the one-by-one departure beginning; conscience as procession.",
         "must_not_show": "no halo, glare or rim-light; the departure conscience, not rout — heads bowed, stones set down not flung; eldest first exactly.",
         "scene": (
-            "The exodus begins where scripture says: "
+            "The exodus begins where scripture says, the camera "
+            "at the court's side so every departure crosses in "
+            "profile: "
             "the tall white-bearded eldest turns away "
             "first — his stone set down on the "
             "flagstones with an old man's care, his "
@@ -442,7 +446,7 @@ BEATS = [
     },
     {
         "id": "v2-r075-b16", "out": "s16-they-dropped-their-stones-and.jpeg", "seg": "n4",
-        "window": "83.14-90.29", "wide": True, "jesus": False, "ref": False,
+        "window": "83.14-90.29", "wide": False, "jesus": False, "ref": False,
         "locks": ["COURT"],
         "narration": (
             "They dropped their stones and walked away, one by one — the oldest "
@@ -472,7 +476,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the two alone — Jesus risen, addressing her across the emptied court with the morning's first gentle question; the vast cleared space around the two of them.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the emptiness the miracle's stage — acres of vacated judgment around one question.",
         "scene": (
-            "In the emptied court the two stand in "
+            "In the emptied court, the camera low from the side "
+            "so the space between them reads whole, the two stand in "
             "acres of morning light: the woman still "
             "at the midst where they set her, mantle "
             "fisted, hardly believing the silence — "
@@ -530,7 +535,7 @@ BEATS = [
     },
     {
         "id": "v2-r075-b20", "out": "s20-three-words-the-only-three.jpeg", "seg": "n5",
-        "window": "103.32-113.66", "wide": True, "jesus": True, "ref": REF,
+        "window": "103.32-113.66", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "COURT"],
         "narration": (
             "Three words — the only three the Bible gives her, and she got to "
@@ -555,7 +560,7 @@ BEATS = [
     },
     {
         "id": "v2-r075-b21", "out": "s21-neither-do-i-condemn-thee.jpeg", "seg": "j3 + HUSH",
-        "window": "114.27-118.47", "wide": True, "jesus": True, "ref": REF,
+        "window": "114.27-118.47", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "COURT"],
         "narration": "Neither do I condemn thee: go, and sin no more.",
         "must_show": "SCRIPTURE-EXACT + the HUSH: the release — the words given, the woman turning free toward the colonnade's morning; and the held silent breath after: the dropped stones scattered on the empty sunlit pavement.",
@@ -577,3 +582,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "COURT": "PLACE-REF/court.jpeg",  # build-06-two-sons v2-r006-b21 (manual)
+}
+# === end PLACE-PLATES ===
