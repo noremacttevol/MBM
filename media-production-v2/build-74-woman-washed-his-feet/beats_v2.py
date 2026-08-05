@@ -94,7 +94,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the invitation kept — Jesus reclining at Simon's careful table, the host presiding with precise courtesy; a correct dinner, correctly begun.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the room's carefulness visible — everything measured, including the welcome.",
         "scene": (
-            "In the spotless lamplit dining room the "
+            "In the spotless lamplit dining room, the camera at the "
+            "side wall taking couches and host from the side, the "
             "dinner proceeds correctly: Jesus reclining "
             "at the low table among Simon's chosen "
             "guests, feet stretched away on the couch, "
@@ -142,7 +143,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the entrance — the woman stepping through the courtyard door into the lamplight, braced and resolved; the ROOM's faces carrying her reputation, her own carrying only grief and courage.",
         "must_not_show": "NOTHING lurid on her, ever — modest dark dress, bound hair; the recognition happens entirely in the guests' stiffening faces.",
         "scene": (
-            "Through the courtyard door the woman "
+            "Through the courtyard door, the camera at the room's "
+            "far corner taking door and table from the side, the woman "
             "steps into the lamplight — modest in her "
             "wine-dark dress and grey shawl, hair "
             "bound, the alabaster flask held against "
@@ -188,7 +190,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the position — the reclining geometry plain: Jesus's feet stretched away from the table, and the woman standing behind at them, weeping; the scene's whole mechanics visible.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the geography taught by the frame — couch, feet, her place behind; her weeping silent and shaking.",
         "scene": (
-            "The reclining geometry holds the moment: "
+            "The reclining geometry holds the moment, the camera in "
+            "profile along the couch: "
             "Jesus stretched on the couch with his "
             "feet away from the table's edge — and "
             "behind them, at the couch's foot, the "
@@ -304,7 +307,8 @@ BEATS = [
         "must_show": "the triangle — the room's three points in one frame: the kneeling woman at the feet, the untroubled Jesus, and Simon's silent judgment watching both; the scene's whole logic in geometry.",
         "must_not_show": "no halo, glare or rim-light; the three attentions distinct — devotion down, peace level, judgment across.",
         "scene": (
-            "One frame holds the room's triangle: at "
+            "One frame holds the room's triangle, the camera at the "
+            "side wall so all three points read in profile: at "
             "the couch's foot the woman bent over her "
             "anointing, hair loosed, wholly given — "
             "on the couch Jesus at perfect peace "
@@ -530,7 +534,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b21", "out": "s21-and-he-was-right-he.jpeg", "seg": "n4",
-        "window": "116.96-122.42", "wide": True, "jesus": False, "ref": False,
+        "window": "116.96-122.42", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "And he was right — he just had not noticed he was talking about "
@@ -555,7 +559,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b22", "out": "s22-seest-thou-this-woman.jpeg", "seg": "j44",
-        "window": "123.13-125.97", "wide": True, "jesus": True, "ref": REF,
+        "window": "123.13-125.97", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": "Seest thou this woman?",
         "must_show": "SCRIPTURE-EXACT: the turn — Jesus turned bodily TOWARD the woman while his words go to Simon: the geometry of the verse exact; Simon made to look.",
@@ -586,7 +590,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the audit — the itemized contrast in one frame: the dry unused foot-basin by the door, and the woman's tear-washed work at the couch; omission and devotion side by side.",
         "must_not_show": "no halo, glare or rim-light; the empty basin the evidence — hospitality's checklist, graded in view of the whole table.",
         "scene": (
-            "The audit hangs visible in the room: by "
+            "The audit hangs visible in the room, the camera from "
+            "the side holding both its poles: by "
             "the entrance the guest-basin stands dry "
             "and unused where no servant brought "
             "water, the folded towel still squared "
@@ -646,7 +651,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b26", "out": "s26-look-at-her-he-said.jpeg", "seg": "n5",
-        "window": "142.56-144.25", "wide": True, "jesus": True, "ref": REF,
+        "window": "142.56-144.25", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": "Look at her, he said.",
         "must_show": "the command to see — the whole table's eyes redirected onto the woman by his word: she at the centre of attention for the first time as an honour, not a scandal.",
@@ -687,7 +692,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b28", "out": "s28-her-sins-which-are-many.jpeg", "seg": "j1",
-        "window": "155.23-165.44", "wide": True, "jesus": True, "ref": REF,
+        "window": "155.23-165.44", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "Her sins, which are many, are forgiven; for she loved much: but to "
@@ -782,7 +787,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b32", "out": "s32-simon-had-been-sitting-there.jpeg", "seg": "n5b",
-        "window": "178.03-183.05", "wide": True, "jesus": False, "ref": False,
+        "window": "178.03-183.05", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "Simon had been sitting there the whole meal, certain he was the "
@@ -827,7 +832,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b34", "out": "s34-who-is-this-that-forgiveth.jpeg", "seg": "s49 + n6",
-        "window": "187.45-197.48", "wide": True, "jesus": False, "ref": False,
+        "window": "187.45-197.48", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM"],
         "narration": (
             "Who is this that forgiveth sins also? The table stirred — who is "
@@ -873,7 +878,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b36", "out": "s36-thy-faith-hath-saved-thee.jpeg", "seg": "j3 + HUSH",
-        "window": "201.51-206.32", "wide": True, "jesus": True, "ref": REF,
+        "window": "201.51-206.32", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "ROOM", "JAR"],
         "narration": "Thy faith hath saved thee; go in peace.",
         "must_show": "SCRIPTURE-EXACT + the HUSH: the sending — the woman risen and turning to go through the courtyard door, straighter than she entered; and the held silent breath after: the EMPTY jar on the floor, the open door to the night.",
@@ -896,3 +901,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
