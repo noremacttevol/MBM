@@ -89,7 +89,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the scene at work — John waist-deep at the bend, a penitent going under his hands, the bank lined with waiting people; the ministry mid-stroke.",
         "must_not_show": "no halo, glare or rim-light; the baptizing practical and powerful — a working prophet in a working river.",
         "scene": (
-            "At the green bend of the Jordan the work is "
+            "At the green bend of the Jordan, the camera on the "
+            "far bank taking bend and line from the side, the work is "
             "mid-stroke: John waist-deep in the slow "
             "water, his camel-hair coat dark to the "
             "chest, both hands lowering a penitent "
@@ -114,7 +115,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the man and his magnetism — John preaching from a rock at the water's edge, mane flying, and the roads behind the bank alive with more people walking out.",
         "must_not_show": "no halo, glare or rim-light; the roughness exact — camel hair, leather, desert burn; the walking-out visible on the roads.",
         "scene": (
-            "From a rock at the water's edge John "
+            "From a rock at the water's edge, the camera behind "
+            "the listening crowd's shoulders, John "
             "preaches with his whole body — black mane "
             "flying, burned arm flung toward the hills, "
             "the trumpet of his voice visible in every "
@@ -158,7 +160,8 @@ BEATS = [
         "must_show": "SCRIPTURE-DOCTRINE: the joining — Jesus taking his place at the END of the penitents' line, unannounced, road-dusty; the sinless one queueing with sinners.",
         "must_not_show": "no halo, glare or rim-light on Jesus; NOTHING distinguishes him but the viewer's knowledge — same line, same dust, same waiting.",
         "scene": (
-            "At the line's end, unannounced, a new "
+            "At the line's end, the camera along the queue so the "
+            "waiting backs recede in profile, unannounced, a new "
             "arrival takes his place — road-dusty from "
             "Galilee, cream robe travel-stained, "
             "waiting behind the old praying woman like "
@@ -173,7 +176,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b05", "out": "s05-jesus-walked-from-galilee-days.jpeg", "seg": "n1",
-        "window": "23.12-28.34", "wide": True, "jesus": True, "ref": REF,
+        "window": "23.12-28.34", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JORDAN"],
         "narration": (
             "Jesus walked from Galilee — days on foot — specifically to be "
@@ -197,7 +200,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b06", "out": "s06-and-john-the-wild-man.jpeg", "seg": "n1",
-        "window": "28.69-33.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "28.69-33.24", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BAPTIST", "JORDAN"],
         "narration": (
             "And John, the wild man who was afraid of nobody, took one look and "
@@ -379,7 +382,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b14", "out": "s14-he-was-stepping-into-line.jpeg", "seg": "n3",
-        "window": "75.04-77.11", "wide": True, "jesus": True, "ref": REF,
+        "window": "75.04-77.11", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CROWD", "JORDAN"],
         "narration": "He was stepping into line with us.",
         "must_show": "the solidarity wide — Jesus in the water WITH the day's penitents visible up the bank behind him: the line he joined, kept in frame at his baptism.",
@@ -445,7 +448,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b17", "out": "s17-he-never-leads-from-behind.jpeg", "seg": "n3 + n4",
-        "window": "90.95-99.19", "wide": True, "jesus": True, "ref": REF,
+        "window": "90.95-99.19", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BAPTIST", "JORDAN"],
         "narration": (
             "He never leads from behind. So John baptized him — lowered him "
@@ -469,7 +472,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b18", "out": "s18-and-as-jesus-came-straight.jpeg", "seg": "n4",
-        "window": "99.19-104.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "99.19-104.24", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JORDAN"],
         "narration": (
             "And as Jesus came straight up out of the water, the sky itself "
@@ -514,7 +517,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b20", "out": "s20-the-spirit-of-god-came.jpeg", "seg": "n5",
-        "window": "104.84-111.52", "wide": True, "jesus": True, "ref": REF,
+        "window": "104.84-111.52", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DOVE", "JORDAN"],
         "narration": (
             "The Spirit of God came down through the opened heavens like a "
@@ -538,7 +541,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b21", "out": "s21-and-then-from-above-not.jpeg", "seg": "n5",
-        "window": "111.52-118.63", "wide": True, "jesus": True, "ref": REF,
+        "window": "111.52-118.63", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DOVE", "BAPTIST", "JORDAN", "CROWD"],
         "narration": (
             "And then, from above — not John, not anyone on the riverbank — the "
@@ -597,7 +600,8 @@ BEATS = [
         "must_show": "the first Person located — the wide riverbank view a witness would have had: the Son plainly IN THE WATER, distinct, real, wet; the viewer placed on the bank.",
         "must_not_show": "no halo, glare or rim-light; the theology geographic — where each Person IS, beginning with the Son's river.",
         "scene": (
-            "From the trodden bank, the witness's own "
+            "From the trodden bank the camera stands among the "
+            "witnesses, behind their shoulders — the witness's own "
             "view: the river's green breadth, and "
             "standing in it — wet, real, distinct — "
             "the Son, cream robe dark with Jordan "
@@ -665,7 +669,8 @@ BEATS = [
         "must_show": "SCRIPTURE-DOCTRINE: the whole moment in one frame — Son in the water, dove upon him, the bright opened sky above, the hearing bank around: three distinct Persons' evidence in a single true scene.",
         "must_not_show": "NO triangle symbols, no rays linking sky-bird-man, no merging — the scene painted as the witnesses saw it: a man, a bird, a heard sky.",
         "scene": (
-            "One frame holds the whole moment as the "
+            "One frame holds the whole moment, the camera at the "
+            "bank's side taking water and watchers in profile, as the "
             "bank saw it: the Son standing wet and "
             "real in the green river, the white dove "
             "at rest upon his shoulder, the great "
@@ -702,7 +707,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b28", "out": "s28-jesus-began-everything-from-that.jpeg", "seg": "n7",
-        "window": "154.00-159.62", "wide": True, "jesus": True, "ref": REF,
+        "window": "154.00-159.62", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JORDAN"],
         "narration": (
             "Jesus began everything from that sentence. Not working TOWARD "
@@ -725,7 +730,7 @@ BEATS = [
     },
     {
         "id": "v2-r069-b29", "out": "s29-and-the-doorway-he-walked.jpeg", "seg": "n7",
-        "window": "159.62-164.78", "wide": True, "jesus": False, "ref": False,
+        "window": "159.62-164.78", "wide": False, "jesus": False, "ref": False,
         "locks": ["BAPTIST", "JORDAN", "CROWD"],
         "narration": (
             "And the doorway he walked through that day, he left standing open "
@@ -749,3 +754,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
