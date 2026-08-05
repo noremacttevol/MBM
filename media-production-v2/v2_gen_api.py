@@ -225,6 +225,29 @@ def generate(key, prompt, face_b64=None, char_b64=None, place_b64=None,
     raise RuntimeError("exhausted retries")
 
 
+def generate_one(prompt, dest, refs=None):
+    """Generate ONE standalone image (a character face sheet) and save it at 2K.
+
+    v2_story_cast.py delegates portrait generation here so the spend meter,
+    retries, 2K aspect and API key all stay in this one engine (a second
+    generation path is exactly how the 1K-fallback bug happened). `refs` is an
+    optional list of image file paths attached as character references. Missing
+    ref paths are skipped, not fatal — a portrait is a face definition, not a
+    scene that depends on a place plate.
+    """
+    key = load_key()
+    ref_b64 = [b64_file(p) for p in (refs or []) if os.path.isfile(p)]
+    img = generate(key, prompt, char_b64=ref_b64 or None)
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    with open(dest, "wb") as f:
+        f.write(img)
+    build = os.path.basename(os.path.dirname(os.path.dirname(dest)))
+    record_spend(build, "portrait", os.path.basename(dest))
+    print(f"    saved portrait {os.path.basename(dest)} "
+          f"({os.path.getsize(dest)//1024} KB)", flush=True)
+    return dest
+
+
 def cast_refs_for(beat, build_refs_cache):
     """Reference b64 images for this beat: build-local REFS first, then the
     CAST-V2 library for any lock token it names. Returns (list_of_b64, labels)."""
