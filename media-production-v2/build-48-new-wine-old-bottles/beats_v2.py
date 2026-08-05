@@ -98,7 +98,8 @@ BEATS = [
         "must_show": "the frame — the three earnest fasting men approaching Jesus in the bright courtyard, their manner respectful, the feast's warmth audible through the doorway behind him.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the askers HONOURED — earnest bearing, careful approach; no confrontation in the geometry.",
         "scene": (
-            "In the bright morning courtyard the three "
+            "In the bright morning courtyard, the camera at the "
+            "wall's side taking the approach in profile, the three "
             "fasting men approach Jesus with the careful "
             "respect of serious people — the old ascetic "
             "leading with both hands folded, the earnest "
@@ -172,7 +173,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b05", "out": "s05-and-here-were-his-disciples.jpeg", "seg": "n2",
-        "window": "21.35-26.20", "wide": True, "jesus": False, "ref": False,
+        "window": "21.35-26.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["COURTYARD"],
         "narration": (
             "And here were his disciples, not fasting at all. It looked "
@@ -204,7 +205,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the wedding invoked — the lamplit village wedding at full joy: the wine-red groom laughing at the centre, guests dancing, the laden table; fasting unthinkable in the frame.",
         "must_not_show": "no halo, glare or rim-light; total celebration — the question answers itself in lamplight.",
         "scene": (
-            "The village wedding fills the night courtyard "
+            "The village wedding fills the night courtyard, the "
+            "camera at its corner behind the nearest dancers' "
+            "shoulders, "
             "with light and noise: little oil lamps strung "
             "on cords overhead, the pipe and drum driving a "
             "ring of dancers, the long table laden and "
@@ -236,7 +239,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b08", "out": "s08-he-points-them-at-a.jpeg", "seg": "n3",
-        "window": "40.49-44.94", "wide": True, "jesus": True, "ref": REF,
+        "window": "40.49-44.94", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ASKERS", "COURTYARD"],
         "narration": (
             "He points them at a wedding. Nobody starves themselves at a "
@@ -259,7 +262,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b09", "out": "s09-while-the-groom-is-right.jpeg", "seg": "n3",
-        "window": "44.94-49.98", "wide": True, "jesus": False, "ref": False,
+        "window": "44.94-49.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["WEDDING"],
         "narration": (
             "While the groom is right there in the room, the only fitting thing "
@@ -303,7 +306,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b11", "out": "s11-but-the-days-will-come.jpeg", "seg": "jv20",
-        "window": "57.44-64.82", "wide": True, "jesus": True, "ref": REF,
+        "window": "57.44-64.82", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ASKERS", "COURTYARD"],
         "narration": (
             "But the days will come, when the bridegroom shall be taken away "
@@ -388,7 +391,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b15", "out": "s15-but-not-now-not-while.jpeg", "seg": "n4 + n5",
-        "window": "78.38-85.85", "wide": True, "jesus": True, "ref": REF,
+        "window": "78.38-85.85", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ASKERS", "COURTYARD"],
         "narration": (
             "But not now, not while he is standing in front of them. Then he "
@@ -453,7 +456,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b18", "out": "s18-no-man-also-seweth-a.jpeg", "seg": "jv21",
-        "window": "94.97-105.23", "wide": True, "jesus": False, "ref": False,
+        "window": "94.97-105.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["WORKSHOP"],
         "narration": (
             "No man also seweth a piece of new cloth on an old garment: else "
@@ -624,7 +627,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b26", "out": "s26-and-no-man-putteth-new.jpeg", "seg": "jv22",
-        "window": "138.22-151.40", "wide": True, "jesus": False, "ref": False,
+        "window": "138.22-151.40", "wide": False, "jesus": False, "ref": False,
         "locks": ["CELLAR"],
         "narration": (
             "And no man putteth new wine into old bottles: else the new wine "
@@ -732,7 +735,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b31", "out": "s31-that-is-what-he-is.jpeg", "seg": "n7",
-        "window": "169.12-176.91", "wide": True, "jesus": True, "ref": REF,
+        "window": "169.12-176.91", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ASKERS", "COURTYARD"],
         "narration": (
             "That is what he is telling them. God is doing something so new and "
@@ -799,7 +802,7 @@ BEATS = [
     },
     {
         "id": "v2-r048-b34", "out": "s34-he-was-pouring-out-something.jpeg", "seg": "n8",
-        "window": "187.31-193.46", "wide": True, "jesus": True, "ref": REF,
+        "window": "187.31-193.46", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ASKERS", "COURTYARD"],
         "narration": (
             "He was pouring out something brand new, full of life and joy, and "
@@ -841,3 +844,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
