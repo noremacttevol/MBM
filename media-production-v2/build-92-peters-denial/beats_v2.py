@@ -66,7 +66,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the fire in the midst — the night courtyard: servants and guards ringed at the flames, and Peter among them with his mantle pulled high, angled away, hiding in plain sight.",
         "must_not_show": "no halo, glare or rim-light; Peter VISIBLY hiding — hood up, shoulders in, face angled from the light.",
         "scene": (
-            "The high walls hold the cold "
+            "The high walls hold the cold night, the camera at "
+            "the yard's wall behind the fire-ring's near backs, "
             "night in and one fire against "
             "it: servants and off-watch "
             "guards ringed close at the "
@@ -139,7 +140,7 @@ BEATS = [
     },
     {
         "id": "v2-r092-b04", "out": "s04-a-little-later-someone-else.jpeg", "seg": "n2",
-        "window": "14.80-17.37", "wide": True, "jesus": False, "ref": False,
+        "window": "14.80-17.37", "wide": False, "jesus": False, "ref": False,
         "locks": ["YARD", "PETER"],
         "narration": "A little later, someone else. Then a third.",
         "must_show": "the accusations multiplying — the fire-ring: a guard pointing at Peter from one side, another man leaning in from the other; the net visibly tightening.",
@@ -193,7 +194,7 @@ BEATS = [
     },
     {
         "id": "v2-r092-b06", "out": "s06-and-right-then-while-the.jpeg", "seg": "n3",
-        "window": "22.25-26.15", "wide": True, "jesus": False, "ref": False,
+        "window": "22.25-26.15", "wide": False, "jesus": False, "ref": False,
         "locks": ["YARD", "PETER"],
         "narration": (
             "And right then, while the words were still in his mouth, a "
@@ -231,7 +232,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the Lord turned and looked — across the yard: Jesus under guard on the porch, hands bound with rope, turning his head; the look crossing the whole firelit space to Peter.",
         "must_not_show": "ABSOLUTE: no wounds, bruises or beating on Jesus — custody by rope and escort only; the look GENTLE, never accusing.",
         "scene": (
-            "Across the whole firelit yard "
+            "Across the whole firelit yard, the camera at the "
+            "side so both poles of the look read in one profile, "
             "the moment happens in "
             "silence: on the far porch, "
             "between his guards, Jesus — "
@@ -276,7 +278,7 @@ BEATS = [
     },
     {
         "id": "v2-r092-b09", "out": "s09-he-went-outside-and-wept.jpeg", "seg": "n5b + n5c",
-        "window": "35.85-39.79", "wide": True, "jesus": False, "ref": False,
+        "window": "35.85-39.79", "wide": False, "jesus": False, "ref": False,
         "locks": ["YARD", "PETER"],
         "narration": "He went outside and wept bitterly. But the look wasn't scorn.",
         "must_show": "SCRIPTURE-EXACT: went out and wept — Peter stumbling out through the arched gate into the grey street, breaking as he goes; the fire and the yard left behind.",
