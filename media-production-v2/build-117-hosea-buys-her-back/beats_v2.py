@@ -81,7 +81,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r117-b01", "out": "s01-love-is-easy-to-picture.jpeg", "seg": "n1",
-        "window": "0.28-2.33", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-2.33", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOME"],
         "narration": "Love is easy to picture at the beginning.",
         "must_show": "the easy beginning — the little home golden in evening light: blue door open, lamp warm in the window, fig tree heavy; love's postcard.",
@@ -116,7 +116,8 @@ BEATS = [
         "must_show": "the covenant — the wedding evening at the home: their hands joined at the blue door, her wine-red bright, his face lit with the vow; the road beyond warm gold.",
         "must_not_show": "no halo; the joy REAL on both — the marriage begun in genuine love.",
         "scene": (
-            "At the blue door the "
+            "At the blue door, the camera looking past the "
+            "family's backs at the low wall, the "
             "covenant is made with "
             "joined hands: her wine-red "
             "dress bright as new "
@@ -201,7 +202,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b05", "out": "s05-i-will-go-after-my.jpeg", "seg": "w1",
-        "window": "24.78-31.47", "wide": True, "jesus": False, "ref": False,
+        "window": "24.78-31.47", "wide": False, "jesus": False, "ref": False,
         "locks": ["GOMER"],
         "narration": (
             "I will go after my lovers, that give me my bread and my water, "
@@ -234,7 +235,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b06", "out": "s06-but-she-wandered.jpeg", "seg": "n2",
-        "window": "13.98-14.95", "wide": True, "jesus": False, "ref": False,
+        "window": "13.98-14.95", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOME", "GOMER"],
         "narration": "But she wandered.",
         "must_show": "the wander begun — from the home's threshold: her small figure already down the road in early light, the blue door open behind her; the two-word tragedy.",
@@ -321,7 +322,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b09", "out": "s09-she-thought-she-was-walking.jpeg", "seg": "n2b",
-        "window": "42.95-49.01", "wide": True, "jesus": False, "ref": False,
+        "window": "42.95-49.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["GOMER"],
         "narration": (
             "She thought she was walking toward it — down the long road "
@@ -447,7 +448,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b13", "out": "s13-go-and-love-her-still.jpeg", "seg": "n3",
-        "window": "67.47-73.57", "wide": True, "jesus": False, "ref": False,
+        "window": "67.47-73.57", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOSEA"],
         "narration": (
             "Go and love her still, he said — love her the very way I love "
@@ -521,7 +522,8 @@ BEATS = [
         "must_show": "the ended-up place — the far market under flat cold noon: crowded indifferent commerce, and the worn edge-step where the unseen sit; the destination the cold lights turned out to be.",
         "must_not_show": "nothing degrading depicted — poverty and indifference only; the market ordinary and cold.",
         "scene": (
-            "This is what the cold "
+            "This is what, the camera high over the stalls "
+            "taking the crowd from the side, the cold "
             "lights were up close: a "
             "market under flat noon "
             "in a city that never "
@@ -609,7 +611,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b18", "out": "s18-he-walked-all-that-way.jpeg", "seg": "n5",
-        "window": "95.76-103.01", "wide": True, "jesus": False, "ref": False,
+        "window": "95.76-103.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARKET", "HOSEA"],
         "narration": (
             "He walked all that way into a place that was not his own, "
@@ -784,7 +786,8 @@ BEATS = [
         "must_show": "the walk out — the two leaving the market together, her wrapped in his mantle at his side, the crowd parting indifferent; grace exiting with its person.",
         "must_not_show": "no triumph-parade — quiet, close, homeward; her steps still uncertain, his sure enough for both.",
         "scene": (
-            "Out through the parting "
+            "Out through, the camera following behind them, "
+            "the parting "
             "indifferent crowd they "
             "go together: she wrapped "
             "small in his charcoal "
@@ -837,7 +840,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b25", "out": "s25-i-will-allure-her-and.jpeg", "seg": "jvA",
-        "window": "133.41-140.01", "wide": True, "jesus": False, "ref": False,
+        "window": "133.41-140.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["WILD"],
         "narration": (
             "I will allure her, and bring her into the wilderness, and "
@@ -871,7 +874,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b26", "out": "s26-i-will-win-her-back.jpeg", "seg": "n7b",
-        "window": "141.55-148.77", "wide": True, "jesus": False, "ref": False,
+        "window": "141.55-148.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["WILD", "GOMER"],
         "narration": (
             "I will win her back, God says. I will take her out where it is "
@@ -1001,7 +1004,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b30", "out": "s30-that-is-the-whole-of.jpeg", "seg": "n8w",
-        "window": "163.22-168.75", "wide": True, "jesus": False, "ref": False,
+        "window": "163.22-168.75", "wide": False, "jesus": False, "ref": False,
         "locks": ["WILD", "GOMER"],
         "narration": (
             "That is the whole of repentance in one honest sentence. "
@@ -1065,7 +1068,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b32", "out": "s32-and-i-will-betroth-thee.jpeg", "seg": "jvB",
-        "window": "169.30-183.07", "wide": True, "jesus": False, "ref": False,
+        "window": "169.30-183.07", "wide": False, "jesus": False, "ref": False,
         "locks": ["WILD", "HOSEA", "GOMER"],
         "narration": (
             "And I will betroth thee unto me forever; yea, I will betroth "
@@ -1100,7 +1103,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b33", "out": "s33-instead-he-came-looking.jpeg", "seg": "n5",
-        "window": "93.86-95.76", "wide": True, "jesus": False, "ref": False,
+        "window": "93.86-95.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOSEA"],
         "narration": "Instead he came looking.",
         "must_show": "the looking — Hosea small on the long road under big grey sky, miles into the search; persistence as landscape.",
@@ -1191,7 +1194,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b36", "out": "s36-not-taken-back-on-probation.jpeg", "seg": "n8",
-        "window": "193.70-202.16", "wide": True, "jesus": False, "ref": False,
+        "window": "193.70-202.16", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOME", "HOSEA", "GOMER"],
         "narration": (
             "Not taken back on probation — married again, in righteousness "
@@ -1260,7 +1263,7 @@ BEATS = [
     },
     {
         "id": "v2-r117-b38", "out": "s38-he-comes-looking-he-pays.jpeg", "seg": "n8",
-        "window": "210.72-214.82", "wide": True, "jesus": False, "ref": False,
+        "window": "210.72-214.82", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOME", "HOSEA", "GOMER"],
         "narration": (
             "He comes looking, he pays the price himself, and he calls you "
@@ -1292,3 +1295,15 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    # MARKET: build-38 auto-match REJECTED (quiet golden village doorway,
+    # not this row's cold noon city market) — promote-first from b15.
+}
+# === end PLACE-PLATES ===
