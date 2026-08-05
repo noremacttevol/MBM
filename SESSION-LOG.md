@@ -1,3 +1,24 @@
+## 2026-08-05 (continued 3) — Rows 51-53 Ready: FIFTEEN on the board; the cast-pinning pattern is now standard — Machine A `Dev`
+
+- 51 first-catch: SIMON pinned to the global PETER sheets via build-local
+  REFS (token names never auto-attach — the Lazarus trap, now fixed
+  proactively instead of found by a blocked runner). Row-11 boat-family
+  laws written (one boat design, constant headcounts, action logic,
+  waterline). 52 demoniac-synagogue: SYNAGOGUE plate shared with
+  build-05 (one hall across the library); the question-card-squares
+  complaint written as a FIX-THE-CLASS-ONCE order; adversary content-care
+  absolute. 53 peters-mother-in-law: Simon/Andrew/JamesJohn pinned; 12 of
+  15 beats were phantom-people wides in a one-house story; row-15
+  flushed-not-grey + locked-age laws.
+- STANDING PATTERN FOR ALL FUTURE AUTHOR ROWS: any beat-map token naming
+  one of the Twelve (SIMON, ANDREW, JAMESJOHN, THOMAS...) MUST get a
+  build-local REFS entry pointing at CAST-V2-REF sheets — grep the LOCKS
+  first thing. The Bethany-lane HOUSE suggestion has now been declined
+  four times (16→46/50/53) — it matches on token name only; always read
+  the source frame's description before --take.
+
+Board: 17, 40-53 Ready ✅ (fifteen). Next: 54+.
+
 ## 2026-08-05 (continued 2) — Rows 46-50 Ready: TWELVE rows on the board — Machine A `Dev`
 
 Five more upgrade rows shipped in one continuous run (claim-by-push,
