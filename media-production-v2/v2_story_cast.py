@@ -69,7 +69,20 @@ BODY = re.compile(
 PLACE = re.compile(
     r"\b(street|room|hall|house|courtyard|village|town|city|field|hill|lake|sea|shore|"
     r"synagogue|temple|chamber|tomb|garden|road|well|tree|wall|farm|estate|vineyard|"
-    r"boat|stall|market|doorway|landscape)\b", re.I)
+    r"boat|stall|market|doorway|landscape|"
+    # Added 2026-08-05 (row 41): WARTENT — "the king's council tent ... dark
+    # goat-HAIR walls" — matched the BODY regex on `hair` and was queued for a
+    # PERSON portrait, even though the build's own QC.md lists it as a
+    # promote-first PLACE. A place wired into REFS is attached with the CHARACTER
+    # lock text ("must appear here as the SAME person"), which is worse than a
+    # wasted $0.13. Settings that are structures/encampments belong here.
+    # NOTE: `inn` is deliberately ABSENT. It vetoed build-20's INNKEEPER ("one
+    # heavy-set man about fifty who keeps the roadside inn") — a real person.
+    # A place word that commonly appears in a PERSON's description does not
+    # belong here; the veto only fires when there is no explicit "is the same
+    # man/woman" phrase to protect them.
+    r"tent|pavilion|camp|encampment|tower|barn|granary|storehouse|quay|harbour|"
+    r"harbor|gate|threshing|winepress|sheepfold|fold|cave|upper ?room)\b", re.I)
 
 
 # ONE person, singular. A group lock ("the religious men ARE the same three") must be
