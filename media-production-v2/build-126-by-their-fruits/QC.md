@@ -1,0 +1,55 @@
+# QC / RUNNER HANDOFF — build-126-by-their-fruits (Matthew 7:15-20)
+
+AUTHORED FROM SCRATCH (scaffolded + written this session), 2026-08-05
+(Machine A). `--check` PASSES, zero WARNs. 17 beats, ~97 s.
+
+## The wolf frames (b02/b04) — unease, never violence
+
+- b02: the fleece-draped wolf stands STILL among unharmed grazing
+  sheep at dusk — the wrongness is the disguise (draped, not grown;
+  amber eyes level). NO attack, NO blood, NO bared-fang lunge, ever
+  — automatic reject.
+- b04: the human version — a stranger dressed almost-right as a
+  shepherd; the tell is the SHEEP (edged to the far wall, moat of
+  empty ground) and his too-still watching stance. He must look
+  almost right — a menace-pose render misses the verse.
+
+## The fire (b14) is orchard work, not judgment imagery
+
+Daylight, a farmer's small workmanlike branch-fire at DISTANCE, the
+axe swinging at the BARREN trunk only. Any hellfire framing is a
+reject. b15's aftermath is tidy and unmournful (stump + stacked
+wood + flourishing fig tree).
+
+## The two trees are characters (prop-board them)
+
+ONE laden fig tree (deep green, heavy, bees) and ONE blighted tree
+(gaunt, grey leaves, shriveled dark fruit) — the same two trees in
+b05, b07, b10, b11, b13, b14, b15. b11's absoluteness law: not one
+good fruit on the bad tree, not one bad on the good — the CANNOT is
+the verse. b13: the split-bark seam shows grey heartwood — honest
+decay, not grotesque.
+
+## The basket rhyme
+
+The SAME harvest basket: empty at the thorns (b06/b08), heaped full
+under the fig (b09). b08's scratches are light — no gore.
+
+## Coverage shape
+
+One true wide with stated geometry: b01 (camera past the seated
+crowd's backs, gesture toward the orchards). Three Jesus beats (b01,
+b03, b17) — locked face, no halo; b03 protective-watchful, b17
+holding one ripe fig up (the whole test in a fruit). Intentional
+dusk on the fold frames only; orchard frames bright day. File order
+≈ story order except b10 (62s) before b11 (54s) — build by WINDOW.
+
+- Plates: FOLD auto-match from build-21 REJECTED for a NEW reason
+  worth remembering — the place matched, but the frame contains
+  build-21's shepherd, and a person inside a place plate injects the
+  wrong man into this row's fold beats. ORCHARD --take from build-32
+  rejected (dusk estate frame ≠ bright two-tree orchard). FOLD
+  promote-first from b02, ORCHARD from b07, HILLSIDE shared with
+  121-125.
+- b16 market test: the fine-robed seller is not a cartoon; the
+  buyer's gaze on the short measure IS the picture.
