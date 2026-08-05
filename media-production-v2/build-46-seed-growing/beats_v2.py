@@ -98,7 +98,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b02", "out": "s02-it-is-about-a-farmer.jpeg", "seg": "n1",
-        "window": "2.92-11.70", "wide": True, "jesus": False, "ref": False,
+        "window": "2.92-11.70", "wide": False, "jesus": False, "ref": False,
         "locks": ["FARMER", "FIELD", "HOUSE"],
         "narration": (
             "It is about a farmer, and a field, and the one part of the whole "
@@ -121,7 +121,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b03", "out": "s03-so-is-the-kingdom-of.jpeg", "seg": "jv26",
-        "window": "12.26-17.46", "wide": True, "jesus": False, "ref": False,
+        "window": "12.26-17.46", "wide": False, "jesus": False, "ref": False,
         "locks": ["FARMER", "FIELD"],
         "narration": (
             "So is the kingdom of God, as if a man should cast seed into the "
@@ -164,7 +164,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b05", "out": "s05-he-does-it-well-he.jpeg", "seg": "n2",
-        "window": "23.66-30.41", "wide": True, "jesus": False, "ref": False,
+        "window": "23.66-30.41", "wide": False, "jesus": False, "ref": False,
         "locks": ["FARMER", "FIELD", "HOUSE"],
         "narration": (
             "He does it well, he does it by hand, and then, and this is the "
@@ -207,7 +207,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b07", "out": "s07-and-should-sleep-and-rise.jpeg", "seg": "jv27",
-        "window": "31.00-38.06", "wide": True, "jesus": False, "ref": False,
+        "window": "31.00-38.06", "wide": False, "jesus": False, "ref": False,
         "locks": ["FARMER", "HOUSE", "FIELD"],
         "narration": (
             "And should sleep, and rise night and day, and the seed should "
@@ -229,7 +229,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b08", "out": "s08-he-sleeps-at-night-and.jpeg", "seg": "n3",
-        "window": "41.20-46.09", "wide": True, "jesus": False, "ref": False,
+        "window": "41.20-46.09", "wide": False, "jesus": False, "ref": False,
         "locks": ["FARMER", "HOUSE"],
         "narration": (
             "He sleeps at night and gets up in the morning. Ordinary weeks go "
@@ -294,7 +294,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b11", "out": "s11-notice-what-he-is-not.jpeg", "seg": "n4",
-        "window": "57.41-62.82", "wide": True, "jesus": False, "ref": False,
+        "window": "57.41-62.82", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD", "HOUSE"],
         "narration": (
             "Notice what he is not doing. He is not out there at midnight "
@@ -379,7 +379,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b15", "out": "s15-he-does-not-have-to.jpeg", "seg": "n5",
-        "window": "78.69-83.19", "wide": True, "jesus": False, "ref": False,
+        "window": "78.69-83.19", "wide": False, "jesus": False, "ref": False,
         "locks": ["FARMER", "FIELD"],
         "narration": "He does not have to. It works whether he understands it or not.",
         "must_show": "the working proof — the field visibly further on: ankle-high green over the whole slope, the farmer replanting his seedling at its edge with a pat.",
@@ -398,7 +398,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b16", "out": "s16-for-the-earth-bringeth-forth.jpeg", "seg": "jv28",
-        "window": "83.74-92.29", "wide": True, "jesus": False, "ref": False,
+        "window": "83.74-92.29", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD"],
         "narration": (
             "For the earth bringeth forth fruit of herself; first the blade, "
@@ -459,7 +459,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b19", "out": "s19-then-the-whole-field-heavy.jpeg", "seg": "n6",
-        "window": "100.49-107.92", "wide": True, "jesus": False, "ref": False,
+        "window": "100.49-107.92", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD", "HOUSE"],
         "narration": (
             "Then the whole field heavy and golden and ready, all in its time, "
@@ -504,7 +504,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b21", "out": "s21-everything-good-that-has-ever.jpeg", "seg": "n7",
-        "window": "112.83-120.17", "wide": True, "jesus": False, "ref": False,
+        "window": "112.83-120.17", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "Everything good that has ever grown in your life grew like this, "
@@ -589,7 +589,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b25", "out": "s25-but-when-the-fruit-is.jpeg", "seg": "jv29",
-        "window": "135.88-142.20", "wide": True, "jesus": False, "ref": False,
+        "window": "135.88-142.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["FARMER", "FIELD"],
         "narration": (
             "But when the fruit is brought forth, immediately he putteth in the "
@@ -640,7 +640,9 @@ BEATS = [
         "must_show": "the joy general — the harvest in full swing: the farmer and neighbours binding sheaves, children carrying gleanings, the wagon filling by the hedge; gladness at field scale.",
         "must_not_show": "no halo, glare or rim-light; community joy — the harvest as festival; the long waiting visibly repaid.",
         "scene": (
-            "The field rings with harvest: the farmer and "
+            "The field rings with harvest, the camera down the "
+            "slope taking the rows from the side so every swing "
+            "and binding crosses in profile: the farmer and "
             "two neighbours swinging and binding down the "
             "rows, sheaves standing stooked behind them, a "
             "boy staggering happily under gleanings bigger "
@@ -677,7 +679,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b29", "out": "s29-the-kingdom-of-god-is.jpeg", "seg": "n10",
-        "window": "158.00-162.89", "wide": True, "jesus": False, "ref": False,
+        "window": "158.00-162.89", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD"],
         "narration": (
             "The kingdom of God is not a thing you have to force into the world "
@@ -721,7 +723,7 @@ BEATS = [
     },
     {
         "id": "v2-r046-b31", "out": "s31-he-makes-it-grow-so.jpeg", "seg": "n10 + n11",
-        "window": "170.05-173.84", "wide": True, "jesus": False, "ref": False,
+        "window": "170.05-173.84", "wide": False, "jesus": False, "ref": False,
         "locks": ["FARMER", "HOUSE"],
         "narration": "He makes it grow. So you can actually sleep tonight.",
         "must_show": "the applied gospel — night again: the farmer asleep in deep peace past the low window, the harvest stooks standing outside under the moon; rest earned by trust, not effort.",
@@ -761,3 +763,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "FIELD": "PLACE-REF/field.jpeg",  # build-28-hidden-treasure v2-r028-b02
+}
+# === end PLACE-PLATES ===
