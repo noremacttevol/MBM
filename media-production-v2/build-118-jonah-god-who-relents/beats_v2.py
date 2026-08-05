@@ -109,7 +109,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b02", "out": "s02-he-was-to-go-to.jpeg", "seg": "n1",
-        "window": "3.13-10.65", "wide": True, "jesus": False, "ref": False,
+        "window": "3.13-10.65", "wide": False, "jesus": False, "ref": False,
         "locks": ["NINEVEH"],
         "narration": (
             "He was to go to Nineveh — a huge, violent, foreign city, the "
@@ -167,7 +167,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b04", "out": "s04-arise-go-to-nineveh-that.jpeg", "seg": "gv1",
-        "window": "13.62-22.30", "wide": True, "jesus": False, "ref": False,
+        "window": "13.62-22.30", "wide": False, "jesus": False, "ref": False,
         "locks": ["JONAH", "NINEVEH"],
         "narration": (
             "Arise, go to Nineveh, that great city, and cry against it; for "
@@ -285,7 +285,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b08", "out": "s08-he-found-a-ship-going.jpeg", "seg": "n2",
-        "window": "40.14-48.77", "wide": True, "jesus": False, "ref": False,
+        "window": "40.14-48.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["JONAH", "SHIP"],
         "narration": (
             "He found a ship going the exact opposite way and sailed off, "
@@ -325,7 +325,8 @@ BEATS = [
         "must_show": "the preference — Nineveh's gates at evening with its crowds streaming home: the city as PEOPLE, worth warning; the mercy's arithmetic in one view.",
         "must_not_show": "no destruction; the crowds HUMAN — families, children, workers at the gates.",
         "scene": (
-            "The city resolves into "
+            "The city resolves, the camera low in the gate's "
+            "shadow taking the homeward stream from the side, into "
             "its true contents at "
             "evening: through the "
             "winged-bull gates the "
@@ -359,7 +360,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the tempest — the ship overwhelmed in green-black seas: sail shredding, crew hauling and bailing, water bursting over the prow; terror at full sea-scale.",
         "must_not_show": "action-logic law — bailing OUT over the gunwale, ropes to real rigging; no one in the water yet.",
         "scene": (
-            "The sea stands up against "
+            "The sea stands up, the camera braced at the stern "
+            "behind the sailors' backs, against "
             "the runaway's road: green-"
             "black walls of water "
             "bursting over the high "
@@ -450,7 +452,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the offer — Jonah shouting his own sentence over the storm to the stunned crew, arms open, pointing to the sea and himself; sacrifice proposed by its subject.",
         "must_not_show": "the crew's HORROR at the idea visible — no eagerness anywhere; his offer steady.",
         "scene": (
-            "Over the storm's roar the "
+            "Over the storm's roar, the camera looking past "
+            "the ringed sailors' backs, the "
             "passenger sentences "
             "himself: Jonah with his "
             "arms open to the stunned "
@@ -540,7 +543,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b16", "out": "s16-so-at-last-they-did.jpeg", "seg": "n3b",
-        "window": "87.12-91.90", "wide": True, "jesus": False, "ref": False,
+        "window": "87.12-91.90", "wide": False, "jesus": False, "ref": False,
         "locks": ["JONAH", "SHIP"],
         "narration": (
             "So at last they did the only thing left, and cast him into "
@@ -584,7 +587,8 @@ BEATS = [
         "must_show": "the sea gone flat — the aftermath: the ship riding easy on water flattening to glassy calm, crew at the rail staring at the quiet; the storm's instant death.",
         "must_not_show": "Jonah not visible in the water — the CALM the subject; awe on the crew.",
         "scene": (
-            "The instant he is taken, "
+            "The instant he is taken — the camera behind the "
+            "spared crew at the rail — "
             "the argument ends: the "
             "green-black fury "
             "flattening around the "
@@ -609,7 +613,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b18", "out": "s18-instead-god-sent-a-great.jpeg", "seg": "n4",
-        "window": "98.05-105.76", "wide": True, "jesus": False, "ref": False,
+        "window": "98.05-105.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["FISH"],
         "narration": (
             "Instead, God sent a great fish — not to punish Jonah, but to "
@@ -642,7 +646,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b19", "out": "s19-the-judgment-never-fell.jpeg", "seg": "n8",
-        "window": "204.38-205.92", "wide": True, "jesus": False, "ref": False,
+        "window": "204.38-205.92", "wide": False, "jesus": False, "ref": False,
         "locks": ["NINEVEH"],
         "narration": "The judgment never fell.",
         "must_show": "the unfallen — Nineveh whole under a clearing bright sky: walls intact, gates busy, the fortieth day arrived and nothing but morning; the never in one view.",
@@ -767,7 +771,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b23", "out": "s23-that-is-the-whole-lesson.jpeg", "seg": "n5b",
-        "window": "125.92-134.53", "wide": True, "jesus": False, "ref": False,
+        "window": "125.92-134.53", "wide": False, "jesus": False, "ref": False,
         "locks": ["FISH"],
         "narration": (
             "That is the whole lesson of the fish, and Jonah says it from "
@@ -832,7 +836,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b25", "out": "s25-arise-go-unto-nineveh-that.jpeg", "seg": "jvA",
-        "window": "134.99-142.88", "wide": True, "jesus": False, "ref": False,
+        "window": "134.99-142.88", "wide": False, "jesus": False, "ref": False,
         "locks": ["JONAH"],
         "narration": (
             "Arise, go unto Nineveh, that great city, and preach unto it "
@@ -867,7 +871,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b26", "out": "s26-so-he-ran.jpeg", "seg": "n2",
-        "window": "39.53-40.14", "wide": True, "jesus": False, "ref": False,
+        "window": "39.53-40.14", "wide": False, "jesus": False, "ref": False,
         "locks": ["JONAH"],
         "narration": "So he ran.",
         "must_show": "the run — Jonah striding hard down the westward road away from the rising sun, bundle over shoulder; flight in two words.",
@@ -896,7 +900,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b27", "out": "s27-the-fish-set-him-safe.jpeg", "seg": "n6",
-        "window": "144.34-153.56", "wide": True, "jesus": False, "ref": False,
+        "window": "144.34-153.56", "wide": False, "jesus": False, "ref": False,
         "locks": ["JONAH", "FISH"],
         "narration": (
             "The fish set him safe on dry land, and God gave him the exact "
@@ -939,7 +943,8 @@ BEATS = [
         "must_show": "the obedience — small Jonah walking in through the colossal winged-bull gate into the city's vastness; one man, one message, the great streets receiving him.",
         "must_not_show": "the scale honest — one stocky figure against imperial enormity.",
         "scene": (
-            "This time the feet obey: "
+            "This time the feet obey, the camera high behind "
+            "him as he walks in: "
             "one stocky sea-green "
             "figure walking in under "
             "the five-man-high carved "
@@ -1039,7 +1044,8 @@ BEATS = [
         "must_show": "the countdown spreading — the sermon's wake through the streets: the words being repeated mouth to mouth down lanes and stalls, unease rippling outward.",
         "must_not_show": "no panic-riot — sober spreading dread; the city LISTENING against all odds.",
         "scene": (
-            "The eight words outrun "
+            "The eight words, the camera down the great street "
+            "taking the passing crowd from the side, outrun "
             "their preacher: down the "
             "great streets the sermon "
             "travels mouth to mouth — "
@@ -1106,7 +1112,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the city-wide turning — the great square at dusk: the king down off his throne-litter in sackcloth among his people, rich and poor alike in rough cloth and ashes, honest sorrow everywhere.",
         "must_not_show": "the repentance DIGNIFIED — bowed heads and sackcloth, no groveling spectacle; king and beggar leveled.",
         "scene": (
-            "The whole empire's capital "
+            "The whole empire's capital — the camera high past "
+            "a thousand kneeling backs — "
             "kneels in rough cloth: "
             "the great square at dusk "
             "filled edge to edge — and "
@@ -1174,7 +1181,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the relenting — over the sackclothed city, the heavy sky breaking OPEN into clean evening gold; mercy as weather, the turning seen and answered.",
         "must_not_show": "ABSOLUTE: no figure in the sky — the relenting rendered entirely as the light's change over the kneeling city.",
         "scene": (
-            "Over the kneeling city the "
+            "Over the kneeling city — the camera higher than "
+            "the walls, the crowd all bowed backs below — the "
             "verdict changes in the "
             "sky: the heavy waiting "
             "grey that hung the "
@@ -1232,7 +1240,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b37", "out": "s37-and-jonah-watching-from-a.jpeg", "seg": "n8",
-        "window": "205.92-210.87", "wide": True, "jesus": False, "ref": False,
+        "window": "205.92-210.87", "wide": False, "jesus": False, "ref": False,
         "locks": ["HILL", "JONAH", "NINEVEH"],
         "narration": (
             "And Jonah, watching from a hill outside the walls, was "
@@ -1328,7 +1336,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b40", "out": "s40-that-is-the-confession-at.jpeg", "seg": "n8b",
-        "window": "222.54-228.49", "wide": True, "jesus": False, "ref": False,
+        "window": "222.54-228.49", "wide": False, "jesus": False, "ref": False,
         "locks": ["HILL", "JONAH", "NINEVEH"],
         "narration": (
             "That is the confession at the bottom of the book. Jonah never "
@@ -1393,7 +1401,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b42", "out": "s42-and-should-not-i-spare.jpeg", "seg": "jvB",
-        "window": "231.80-244.34", "wide": True, "jesus": False, "ref": False,
+        "window": "231.80-244.34", "wide": False, "jesus": False, "ref": False,
         "locks": ["HILL", "JONAH", "NINEVEH"],
         "narration": (
             "And should not I spare Nineveh, that great city, wherein are "
@@ -1475,8 +1483,8 @@ BEATS = [
         "must_show": "the sixscore thousand — inside the spared city at morning: children thick in a lane's play, the confused and the simple among them, cattle at a trough; the ones the question was about.",
         "must_not_show": "the tenderness TOTAL — the least-knowing of the city, beloved and shown so.",
         "scene": (
-            "The question's whole "
-            "constituency fills a "
+            "The question's whole constituency — the camera low "
+            "in the lane taking the games from the side — fills a "
             "morning lane: children "
             "thick underfoot at their "
             "games — the exact ones "
@@ -1532,7 +1540,7 @@ BEATS = [
     },
     {
         "id": "v2-r118-b46", "out": "s46-not-with-jonah-answering-but.jpeg", "seg": "n9",
-        "window": "255.22-261.88", "wide": True, "jesus": False, "ref": False,
+        "window": "255.22-261.88", "wide": False, "jesus": False, "ref": False,
         "locks": ["HILL", "NINEVEH"],
         "narration": (
             "Not with Jonah answering, but with God still arguing for "
@@ -1566,3 +1574,17 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    # HILL: build-38 auto-match REJECTED (village doorway frame, not a dry
+    # rise overlooking Nineveh's walls) — promote-first from b37.
+    # FISH --take from build-30 also REJECTED (netted beach fish, not the
+    # whale-vast great fish) — promote-first from b18.
+}
+# === end PLACE-PLATES ===
