@@ -96,7 +96,9 @@ BEATS = [
         "scene": (
             "In the bright morning square Jesus stands by the "
             "great stone olive press with the villagers gathered "
-            "in close — a grey farmer with his arms folded tight, "
+            "in close, the camera at the circle's edge taking "
+            "the gathering from the side, the nearest listeners "
+            "in three-quarter — a grey farmer with his arms folded tight, "
             "a woman gone still over her basket, two young men "
             "trading a wary glance — every face set the way "
             "faces set for bad news, while he begins the story "
@@ -127,7 +129,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b03", "out": "s03-he-spake-also-this-parable.jpeg", "seg": "s6a",
-        "window": "12.52-14.56", "wide": True, "jesus": True, "ref": REF,
+        "window": "12.52-14.56", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": "He spake also this parable;",
         "must_show": "the telling begun — Jesus seated now on the press's stone base, the circle settling, a story taking the square.",
@@ -145,7 +147,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b04", "out": "s04-a-certain-man-had-a.jpeg", "seg": "jv6",
-        "window": "16.09-23.20", "wide": True, "jesus": False, "ref": False,
+        "window": "16.09-23.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "FIGTREE"],
         "narration": (
             "A certain man had a fig tree planted in his vineyard; and he came "
@@ -167,7 +169,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b05", "out": "s05-a-fig-tree-in-a.jpeg", "seg": "n2",
-        "window": "24.75-27.87", "wide": True, "jesus": False, "ref": False,
+        "window": "24.75-27.87", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": "A fig tree in a vineyard had the best spot on the whole property.",
         "must_show": "the privilege mapped — the tree in its prime corner: full sun, the wall's shelter, the vine rows' watered slope below it; real estate any tree would envy.",
@@ -269,7 +271,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b10", "out": "s10-and-this-was-not-the.jpeg", "seg": "n4",
-        "window": "51.73-53.40", "wide": True, "jesus": False, "ref": False,
+        "window": "51.73-53.40", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "FIGTREE"],
         "narration": "And this was not the first time.",
         "must_show": "the pattern — the owner walking AWAY from the tree with the empty basket, seen from behind, in a light subtly different from the arrival: another year, same walk.",
@@ -287,7 +289,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b11", "out": "s11-coming-up-on-three-seasons.jpeg", "seg": "n4",
-        "window": "53.40-61.30", "wide": True, "jesus": False, "ref": False,
+        "window": "53.40-61.30", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "FIGTREE"],
         "narration": (
             "Coming up on three seasons now he had walked out to that same tree "
@@ -338,7 +340,10 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light; the axe LEANS, unlifted — present as verdict, never in motion.",
         "scene": (
             "At the tree's foot the owner faces his lean "
-            "moss-green-clad gardener, one heavy hand chopping "
+            "moss-green-clad gardener, the camera holding all "
+            "three — owner, gardener, tree — from the side so "
+            "both men stand in profile and the order's gesture "
+            "crosses the frame toward the canopy, one heavy hand chopping "
             "flat through the air toward the fruitless canopy "
             "as he gives the order — and against the dry-stone "
             "wall behind them a long-handled axe stands leaned "
@@ -391,7 +396,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b16", "out": "s16-the-tree-is-holding-a.jpeg", "seg": "n5",
-        "window": "86.35-92.84", "wide": True, "jesus": False, "ref": False,
+        "window": "86.35-92.84", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": (
             "The tree is holding a place a fruitful one could be using, and any "
@@ -442,7 +447,10 @@ BEATS = [
         "scene": (
             "In the hard noon light the lean gardener has "
             "stepped quietly into the space between his master "
-            "and the condemned tree — his back almost brushing "
+            "and the condemned tree, the camera off the path's "
+            "side holding the whole line in profile — owner, "
+            "then gardener, then trunk, unmistakably in that "
+            "order — his back almost brushing "
             "the grey trunk, his soil-dark hand raised gently "
             "palm-out toward the owner, his patient deep-set "
             "eyes making the request his low voice carries — a "
@@ -474,7 +482,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b20", "out": "s20-and-look-at-what-he.jpeg", "seg": "n7",
-        "window": "110.95-113.23", "wide": True, "jesus": False, "ref": False,
+        "window": "110.95-113.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": "And look at what he offers to do with that year.",
         "must_show": "the year's plan begun — the gardener down on his knees at the tree's foot with his mattock laid ready, rolling up his sleeves; the work about to start.",
@@ -492,7 +500,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b21", "out": "s21-get-down-and-break-up.jpeg", "seg": "n7",
-        "window": "113.23-120.95", "wide": True, "jesus": False, "ref": False,
+        "window": "113.23-120.95", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": (
             "Get down and break up the hard, packed earth around the roots, so "
@@ -554,7 +562,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b24", "out": "s24-he-is-not-asking-for.jpeg", "seg": "n8",
-        "window": "131.24-137.72", "wide": True, "jesus": False, "ref": False,
+        "window": "131.24-137.72", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": (
             "He is not asking for time so he can wait and watch. He is asking "
@@ -577,7 +585,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b25", "out": "s25-and-if-it-bear-fruit.jpeg", "seg": "jv9",
-        "window": "138.24-143.81", "wide": True, "jesus": False, "ref": False,
+        "window": "138.24-143.81", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "GARDENER", "FIGTREE"],
         "narration": (
             "And if it bear fruit, well: and if not, then after that thou shalt "
@@ -618,7 +626,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b27", "out": "s27-jesus-leaves-his-listeners-inside.jpeg", "seg": "n9 + n10",
-        "window": "147.34-154.65", "wide": True, "jesus": True, "ref": REF,
+        "window": "147.34-154.65", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": (
             "Jesus leaves his listeners inside that extra year, while mercy is "
@@ -663,7 +671,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b29", "out": "s29-it-got-its-extra-year.jpeg", "seg": "n10",
-        "window": "160.35-167.44", "wide": True, "jesus": False, "ref": False,
+        "window": "160.35-167.44", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": (
             "It got its extra year for one reason only. Someone who cared for "
@@ -725,7 +733,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b32", "out": "s32-he-does-not-have-to.jpeg", "seg": "n11",
-        "window": "178.00-182.92", "wide": True, "jesus": False, "ref": False,
+        "window": "178.00-182.92", "wide": False, "jesus": False, "ref": False,
         "locks": ["SQUARE"],
         "narration": (
             "He does not have to. Everyone listening knew what it felt like to "
@@ -747,7 +755,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b33", "out": "s33-and-every-one-of-them.jpeg", "seg": "n11",
-        "window": "182.92-189.85", "wide": True, "jesus": True, "ref": REF,
+        "window": "182.92-189.85", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": (
             "And every one of them just heard that there is Someone in the "
@@ -790,7 +798,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b35", "out": "s35-the-owner-had-every-right.jpeg", "seg": "n12",
-        "window": "193.74-200.00", "wide": True, "jesus": False, "ref": False,
+        "window": "193.74-200.00", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": (
             "The owner had every right to the axe. The gardener asked for the "
@@ -812,3 +820,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
