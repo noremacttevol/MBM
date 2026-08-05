@@ -1,3 +1,15 @@
+## 2026-08-05 (continued 13) — Rows 84-86 Ready: FORTY-EIGHT on the board — Machine A `Dev`
+
+The nativity block: 84 no-room-manger (YOUNG-Mary canon distinct from
+row 49's mother; newborn never carries the adult face; no angels here),
+85 shepherds-and-angels (the ANGEL CANON set: wingless real figures,
+glory as light from above, feet on ground — seeds 97/98/100; flock
+stays when they run), 86 wise-men (his 13-seconds tail complaint = the
+trailing-dead-air gate; another-way direction doctrine; Herod's hall
+kept distinct from parable halls).
+
+Board: 17, 40-86 Ready ✅ (forty-eight). Next: 87+.
+
 ## 2026-08-05 (continued 12) — Rows 81-83 Ready: FORTY-FIVE on the board — Machine A `Dev`
 
 81 render-unto-caesar (the coin's lawful lettering; they-produce-it
