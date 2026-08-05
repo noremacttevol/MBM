@@ -57,3 +57,11 @@ Final candidate: `mark-2_man-through-the-roof-realistic-v3.mp4`
 The reviewer replacement hash returns Story 13 to **Unwatched** while retaining
 the prior picture complaint for comparison. The mobile app and app-feed video
 remain unchanged.
+
+## OPEN CAMERON COMPLAINT — gate before rebuild
+
+"1:37 picture is missing the man on the mat" → beat v2-r013-b18
+rewritten: shot from low inside the room so the man on his mat lies
+soft in the near foreground UNDER the hole while the four faces ring
+it above. The mat man must be PRESENT in the frame — his absence is
+an automatic reject.

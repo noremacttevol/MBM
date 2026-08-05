@@ -77,3 +77,13 @@ rate **32 % (12 of 37**, one beat twice**)**:
 $4.96 first pass (37) + $1.47 rerolls (11) + $0.13 second reroll of b27 = **$6.56**.
 One generator process at a time, every run under a hard `--ceiling` recomputed from
 the live meter; meter went $74.50 → $81.07 with zero duplicate billing.
+
+## OPEN CAMERON COMPLAINT — gate before rebuild (visual half)
+
+"1:05 picture he is swimming the wrong way" → beat v2-r019-b17.
+Peter's face, leading arm and wake all drive TOWARD the beach; the
+boat is BEHIND his kick. If his stroke reads as aiming at the boat
+or parallel to shore, reject. (The same complaint's audio half —
+Jesus reading the Feed-my-sheep questions too fast through commas —
+is an AUDIO-pipeline item, logged for the audio pass; do not
+assemble a new cut that keeps the rushed line unfixed.)

@@ -92,6 +92,30 @@ direction, but V4 is rejected as a final because its copied audio was shortened.
     every segment: which single moment is this, whose moment is it, and does any
     verb in the narration deserve its own frame?
 
+13. **BEARD BOARD (Cameron, 2026-08-05 — row 102: "We need to make a qc
+    just for beards dissapeaering or appearing it throws people off the
+    story").** Before assembly, run a dedicated beard pass separate from
+    the face board: for EVERY recurring person, list their locked beard
+    state (full / short / none, and colour) and step through every frame
+    they appear in checking ONLY the beard. A beard that appears,
+    disappears, changes length or changes colour between frames fails
+    the still — even when the face otherwise matches. Complaints of
+    record: row 9 (rich man lost his beard at 0:52), row 62 (lost his
+    beard in one picture), row 91 (a disciple grew a beard within
+    seconds), row 102 (Jacob beardless, then bearded). Fix with the
+    lesson-10 identity-edit method, then recheck the full frame.
+
+14. **SCALE GATE (Cameron — rows 56/69/107/112: "Jesus was realy big in
+    one of the photos", "John is way too big", "Jesus and John the
+    baptist are bigger than the rest", "Jesus was a giant compared to
+    the other people").** In every multi-figure frame, compare each
+    figure's height against a shared reference (door, boat, the person
+    beside them). All adults within natural variation of one another;
+    Jesus is an ordinary-sized man — NEVER a giant, NEVER enlarged for
+    emphasis. Children are child-sized and STAY the same size across
+    frames. Any giant/shrunken figure fails the still even if the face
+    and beard pass.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.

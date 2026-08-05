@@ -327,8 +327,8 @@ BEATS = [
         "narration": ("Thou seest the multitude thronging thee, and sayest thou, Who "
                       "touched me? / His disciples thought the question made no sense. "
                       "The whole crowd was pressing against him — who hadn't touched him?"),
-        "must_show": "the disciples gesturing at the packed crowd, honestly baffled.",
-        "must_not_show": "no mockery or disrespect; nobody but Jesus in cream.",
+        "must_show": "the disciples gesturing at the packed crowd, honestly baffled. Jesus's EYES natural and correct: both eyes open, symmetrical, aligned on the same point in the crowd, natural warm brown — inspect them at full resolution before accepting.",
+        "must_not_show": "no mockery or disrespect; nobody but Jesus in cream. CAMERON GATE (open complaint at 1:10): NO weird eyes on Jesus — no wall-eye, cross-eye, mismatched pupils, dead stare, or misaligned gaze; if his eyes read wrong at a glance the frame fails.",
         "scene": (
             "Peter stands at Jesus's shoulder with both arms opened wide toward the "
             "packed crowd in honest exasperated puzzlement — the whole street is "

@@ -187,3 +187,13 @@ carried from their committed plates.
 - s47 (designated person-free insert): two distant mourners linger in frame.
 - s58: the raised Lazarus is redressed in rust-brown vs his living
   olive-green; face holds via the portrait REF.
+
+## OPEN CAMERON COMPLAINT — gates before rebuild
+
+"At 12 seconds the picture has shoes removed but still showing toes
+inside and lamps that burn from the middle" → beat v2-r017-b03.
+1. The set-aside sandals are EMPTY leather — no toes, feet or
+   foot-shapes inside them.
+2. Every clay oil lamp burns ONLY at its wick/spout — never a flame
+   rising from the middle of the bowl. Check every lamp in every
+   lamplit frame of the build, not just b03.

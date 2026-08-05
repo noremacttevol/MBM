@@ -427,15 +427,18 @@ BEATS = [
         "window": "93.98-98.73", "wide": True, "jesus": False, "ref": False,
         "locks": ["FRIENDS", "HOUSE"],
         "narration": "The friends'. The four sweat-streaked faces ringing the hole in the roof.",
-        "must_show": "close on the four dust-caked faces around the hole, looking down, sweat cutting clean lines through the filth.",
-        "must_not_show": "do not put Jesus in this frame; this beat belongs entirely to the four.",
+        "must_show": "CAMERON GATE (open complaint: 'the 1:37 picture is missing the man on the mat'): the four dust-caked faces ringing the hole AND the man on his mat present in the same frame — shot from low inside the room so the paralyzed man on his mat lies soft in the near foreground and the four sweat-streaked faces look down through the ragged hole above him.",
+        "must_not_show": "do not put Jesus in this frame; the four faces stay the subject — the mat man is PRESENT but soft-focus foreground, never absent; the ropes still run from the hole down to his mat.",
         "scene": (
-            "Close on the four friends' faces crowded around the ragged edge of the "
-            "hole, looking down into the room. All four are caked pale with clay dust "
-            "and sweat has run clean dark lines down through it on every face. Their "
-            "eyes are wide and fixed on something below, their mouths open, hands "
-            "gripping the broken clay edge and the slack ropes. Bright sky behind "
-            "their heads. Every figure has two arms, two hands and one head."
+            "From low inside the room, past the man on his mat: his still form and "
+            "the mat's edge lie soft and near in the lamplit foreground with the "
+            "slack ropes still trailing from its corners, and above him, up through "
+            "the ragged broken edge of the roof, the four friends' faces crowd the "
+            "hole looking down at him — all four caked pale with clay dust, sweat "
+            "run in clean dark lines through it, eyes wide and fixed on the man "
+            "they carried, mouths open, hands gripping the broken clay edge. Bright "
+            "sky behind their heads. Every figure has two arms, two hands and one "
+            "head."
         ),
     },
     {

@@ -252,7 +252,7 @@ BEATS = [
         "narration": ("Her hands stayed busy while, inside, she wound tighter and "
                       "tighter."),
         "must_show": "her hands still working while her head is turned — a glance thrown across the room toward her sister, the first crack.",
-        "must_not_show": "no glare or venom yet; one short look, and back to the work. Do not put Jesus in this frame.",
+        "must_not_show": "no glare or venom yet; one short look, and back to the work. Do not put Jesus in this frame. CAMERON GATE (open complaint at 0:42 — 'there is a headless person'): EVERY figure in the frame, foreground and background, seated or standing, sharp or soft, must have a complete visible head on its shoulders — inspect every seated back-view shape at full resolution; one missing or cropped-away head fails the frame.",
         "scene": (
             "Martha stands at the table with her hands still moving over the food, but "
             "her head has turned and she is looking away across the lamplit room "

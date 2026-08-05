@@ -330,8 +330,8 @@ BEATS = [
         "narration": ("And here is the thing. He meant it. This was not a proud man "
                       "showing off. This was a student who had done all the homework, "
                       "kneeling in the dirt, asking if it was enough."),
-        "must_show": "the whole picture of him: a rich man on his knees in the dust of a public road in a purple robe, humble and hopeful, with Jesus standing over him and the disciples around.",
-        "must_not_show": "no halo, glare or rim-light; nobody is mocking him; he must look sympathetic and serious.",
+        "must_show": "the whole picture of him: a rich man on his knees in the dust of a public road in a purple robe, humble and hopeful, with Jesus standing over him and the disciples around. The young man's SHORT DARK BEARD present and identical to every other frame of him.",
+        "must_not_show": "no halo, glare or rim-light; nobody is mocking him; he must look sympathetic and serious. CAMERON GATE (open complaint at 0:52): his beard NEVER disappears, thins or changes — beard-board him across every beat before assembly (rubric lesson 13).",
         "scene": (
             "A wide view of the scene on the road. The wealthy young man kneels in the "
             "dust in the middle of the public way, his fine purple robe dirty at the "
@@ -385,16 +385,17 @@ BEATS = [
         "rough_ref": "assets/s13-the-two-of-them.jpeg",
         "narration": ("Of all the people in Mark's story, this is the one he says it "
                       "about, straight out."),
-        "must_show": "the two of them together and held — Jesus looking down with that same love, the young man looking up, the road and everyone else forgotten.",
-        "must_not_show": "no halo, glare or rim-light; nobody else's face in focus — this moment belongs to the two of them.",
+        "must_show": "CAMERON GATE (he rejected the old 1:14 frame as pointless — this is its REPLACEMENT, the counter-shot to b12): close on the YOUNG MAN'S upturned face alone, caught in the moment of being loved — eyes lifted, face open, the look landing on him; his short dark beard present and identical to every other frame.",
+        "must_not_show": "no halo, glare or rim-light; Jesus NOT in this frame (b12 was his face — this is the answer-face); not a repeat of any earlier composition; no tears yet, no grief yet — this is still the loved moment.",
         "scene": (
-            "The two of them close together, Jesus standing and the young man kneeling, "
-            "framed tight so that the road and the watching disciples are only soft "
-            "shapes behind. Jesus is looking down into his face with that same warm "
-            "steady tenderness, and the young man is looking up at him, held, his "
-            "own face open and hopeful. Neither of them is moving. Bright daylight, "
-            "dust hanging in the air between them. Every figure has two arms, two "
-            "hands and one head."
+            "The counter-shot to the most important frame: very close on the kneeling "
+            "young man's upturned face, filling the frame, at the instant the look "
+            "lands on him — eyes lifted to someone just above the camera, lips "
+            "slightly parted, the guarded correctness of a rich ruler gone from his "
+            "face and something younger underneath it, a man realizing he is not "
+            "being examined but loved. Dust in the bright air around him, his short "
+            "dark beard exactly as in every other frame. Every figure has two arms, "
+            "two hands and one head."
         ),
     },
     {

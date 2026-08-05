@@ -246,11 +246,12 @@ BEATS = [
             "being a public figure and simply be a friend."
         ),
         "must_show": "the refuge — inside the main room: Jesus at ease on the cushions, sandals off, Lazarus pouring for him, Martha setting down a dish, Mary seated near listening; a friend, not a public figure.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no crowd, no strangers — only the four of them; ease visible in his shoulders.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; no crowd, no strangers — only the four of them; ease visible in his shoulders. CAMERON GATES (open complaint at 0:12): (1) the set-aside sandals are EMPTY — no toes, feet or foot-shapes inside them, plain empty leather; (2) every clay oil lamp burns ONLY at its wick/spout — a small flame at the spout, NEVER fire rising from the middle of the lamp's body or bowl.",
         "scene": (
             "Inside the main room's warm lamplike daylight: "
             "Jesus reclines at ease against the cushions at the "
-            "low table with his sandals set by the mat, mid-"
+            "low table with his sandals set EMPTY by the mat — "
+            "plain empty leather, nothing inside them — mid-"
             "sentence in some unhurried story — Lazarus pouring "
             "water into his cup, Martha leaning in to set a "
             "dish of olives down, Mary settled on her heels "

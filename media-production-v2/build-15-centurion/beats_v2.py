@@ -73,13 +73,17 @@ LOCKS = {
         "worried and entirely without arrogance, and is shown clearly."
     ),
     "SERVANT": (
-        "SERVANT LOCK: the sick young man is the same person in every shot — about "
-        "eighteen, slight and thin, warm olive-brown skin gone grey and waxy with "
-        "illness, short dark hair damp and pushed off the forehead, a smooth young "
-        "face with "
-        "dark shadows under the eyes. He wears a simple undyed sand-brown wool "
-        "servant's tunic (never cream, never white). His face is shown clearly. No "
-        "wounds, sores or medical detail are ever visible."
+        "SERVANT LOCK: the sick young man is the same person in every shot — EXACTLY "
+        "EIGHTEEN in apparent age in every frame, never older, never younger, never a "
+        "boy in one frame and a man in another. Slight and thin, with warm olive-brown "
+        "skin gone PALE AND DRAWN with illness but UNMISTAKABLY ALIVE — the warm "
+        "living undertone always present, NEVER grey, NEVER ashen-corpse, NEVER waxy, "
+        "never any death-pallor (Cameron rejected the grey look: he must read as a "
+        "sick living person, not partially dead). Short dark hair damp and pushed off "
+        "the forehead, a smooth young face with dark shadows under the eyes. He wears "
+        "a simple undyed sand-brown wool servant's tunic (never cream, never white). "
+        "His face is shown clearly. No wounds, sores or medical detail are ever "
+        "visible."
     ),
     "CAPERNAUM": (
         "CAPERNAUM LOCK: the fishing town on the Sea of Galilee — narrow lanes and "

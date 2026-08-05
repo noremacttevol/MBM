@@ -565,8 +565,8 @@ BEATS = [
         "window": "64.80-67.86", "wide": True, "jesus": False, "ref": False,
         "locks": ["PETER", "PETER-HOLD", "BOAT", "SHORE-DAWN"],
         "narration": "and swam for shore, leaving everything behind.",
-        "must_show": "Peter swimming hard for the beach with the loaded boat and the whole catch left behind him — the biggest catch of his life abandoned without a thought.",
-        "must_not_show": "he is not walking on the water and not standing on it — he is swimming in it. Jesus is not in this frame.",
+        "must_show": "Peter swimming hard for the beach with the loaded boat and the whole catch left behind him — the biggest catch of his life abandoned without a thought. DIRECTION EXACT: his face, leading arm and wake all drive TOWARD the beach; the boat is BEHIND his kick, the shore AHEAD of his stroke.",
+        "must_not_show": "he is not walking on the water and not standing on it — he is swimming in it. Jesus is not in this frame. CAMERON GATE (open complaint at 1:05 — 'he is swimming the wrong way'): Peter must NEVER appear to swim toward the boat or parallel to shore; if his stroke does not visibly aim at the beach, the frame fails.",
         "scene": (
             "One photograph, 35mm lens low to the surface, deep focus, water drops on "
             "the front element, grain. THE CAMERA IS DOWN AT WATER LEVEL BEHIND AND TO "

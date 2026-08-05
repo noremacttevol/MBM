@@ -926,7 +926,7 @@ BEATS = [
         "locks": ["CLEAR-EDGES", "ANCIENT-PRISON"] + _NIGHT,
         "narration": "with me when I was sick. You came to me when I was locked away.",
         "must_show": "An extreme close view of one male prisoner's hand gripped through the gap between two thick timber bars by a woman's hand, the hand-forged iron shackle and a little straw just visible, lit low from the front by a clay lamp.",
-        "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no face, head or full figure of any person in the frame; no round machined steel bars, welded grid, lock plate, padlock or keyhole; " + _NO_MODERN_LAMP + "no light source behind or above the hands; no wound, scar, nail mark or blood on either hand; " + _NO_CREAM + _GAZE,
+        "must_not_show": _NO_HALO + _NO_JUDGEMENT + "no face, head or full figure of any person in the frame; no round machined steel bars, welded grid, lock plate, padlock or keyhole; " + _NO_MODERN_LAMP + "no light source behind or above the hands; no wound, scar, nail mark or blood on either hand; CAMERON GATE (open complaint at 1:10 — 'why is the prisoner's nails painted black'): BOTH hands have natural, unpainted fingernails — never black, dark, painted or polished nails; ordinary clean-enough working nails only; " + _NO_CREAM + _GAZE,
         "scene": (
             "One photograph, 100mm macro lens at a wide aperture, deep night, the ONLY "
             "light the single small soft yellow flame of a shallow fired-clay oil lamp "

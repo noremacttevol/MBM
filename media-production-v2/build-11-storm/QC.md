@@ -68,3 +68,16 @@ Final candidate: `mark-4_calming-the-storm-realistic-v4.mp4`
 
 The visual storyboard and extracted review frames are rebuildable scratch under
 `qc-v2/`; the mobile app and its live story video were not changed.
+
+## OPEN CAMERON COMPLAINT — gates before rebuild
+
+"too many pictures that are different from each other... 10 pictures
+of 4 people in one kind of boat and 10 pictures of 5 people in a
+different boat."
+BOAT BOARD: before assembly, line up EVERY boat-bearing still
+side-by-side and verify it is the SAME boat (plank pattern, mast,
+stern platform, gunwale line) in every frame — treat the boat like a
+locked face. CREW COUNT: any frame showing the whole company shows
+the SAME EIGHT men; a cropped subset must read as a CROP (bodies
+exiting frame edges), never as a smaller crew in an emptier boat.
+Two boats or a changing headcount = the complaint repeated.

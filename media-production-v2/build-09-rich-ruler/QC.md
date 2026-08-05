@@ -83,3 +83,15 @@ are the `build-09-rich-ruler` entries in `api-spend.jsonl`.
 | AUDIO LOCK | PASS — encoded stream SHA256 `925aaf90…` equals the V1 final `mark-10_rich-ruler.mp4` packet-for-packet |
 | verify-mp4 | OK — video 196.87 s / audio 196.84 s / 21.9 MB |
 | rendered frames | 14 frames extracted and eyeballed across the cut: captions bottom-band only, narrator white, scripture-voice blue on "Good Master…", Jesus's KJV red across j1 (the "give to the poor" clause lands ON the picture of the poor), card margins clean, sunset only after "The sun went down" |
+
+## OPEN CAMERON COMPLAINT — gates before rebuild
+
+"The young rich man lost his beard at 52 seconds. The picture at
+1:14 is dumb and not needed."
+1. BEARD BOARD (rubric lesson 13): the RULER's short dark beard is
+   present and identical in EVERY beat he appears in — step through
+   all his frames checking only the beard. Hardest at b10 (0:52).
+2. b13 (1:14) was REPLACED with the counter-shot to b12: the young
+   man's face alone, being loved. It must NOT read as a repeat of
+   b10/b12 — a genuinely different composition or the complaint
+   stands.

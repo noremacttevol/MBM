@@ -61,3 +61,11 @@ Final candidate: `mark-5_woman-touches-his-cloak-realistic-v3.mp4`
 Publishing this new hash returns Story 1 to **Unwatched** while retaining the
 old background-noise complaint for comparison. The mobile app and app-feed
 video remain unchanged.
+
+## OPEN CAMERON COMPLAINT (2026-08-01) — gate before rebuild
+
+"1:10 picture has Jesus's eyes looking weird" → beat v2-r001-b15
+(64.73-77.21). Jesus's eyes must be natural, symmetrical, both open
+and aligned on the same point; inspect at full resolution. Any
+wall-eye / cross-eye / mismatched-pupil / dead-stare read = reject
+and reroll. Face-board Jesus hardest at this beat.
