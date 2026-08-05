@@ -1,3 +1,39 @@
+## 2026-08-05 (Opus runner) — Row 17 (lazarus) is the FIRST two-model runner cut on the reviewer — Machine A `Dev`
+
+Ran PROMPT-OPUS-RUNNER.md. Row 17 shipped realistic-V2 to the reviewer:
+61 stills at native 2K, AUDIO REBUILD PASS, 313.97s, ~$8.3 (meter
+206.36 → 214.67, under the $218.82 ceiling). Card version-locked to
+commit `347597f0560c`.
+
+Three real gaps were hit and resolved on the way (this is the first time
+a runner drove one of the six author-prepped rows end to end, so these
+had never surfaced):
+
+1. **MARTHA/MARY had no reference sheets.** They sit in `GLOBAL_CAST` but
+   their stems are `None` and no sheet exists — they'd have rendered
+   text-only across 40 lead beats (guaranteed face-board failure). I
+   blocked the row (`e5f3b6770`) with the exact author-domain fix; an
+   author wired the sisters to build-16 stills (`359601a14`) and handed
+   it back. The blocker→fix→build handshake worked as designed.
+2. **`v2_story_cast` imported `generate_one` from `v2_gen_api`, which did
+   not exist** — every runner row would die at the portrait step with
+   ImportError. Added the helper (`340e1278a`); portraits now work for all
+   rows. The pre-existing manual sister REFS also blocked story_cast's
+   auto-append of the LAZARUS portrait, so I merged that one line by hand.
+3. **The V1 mp4 was a stale 3:04 render** (pre re-voice) vs the authored
+   5:14; the AUDIO LOCK stale-guard fired. Set
+   `AUDIO_FROM_V1_SEGMENTS = True` (the tool's prescribed fix, row-25
+   pattern) → audio rebuilt from the 24 verified new-voice segments.
+
+QC: all stated traps pass (sealed stone, true-black tomb, the tear beats,
+the frame-per-action raising ladder, the alive/warm reveal, cream=Jesus
+only). Open caption-flash complaint verified cured on the rendered frames.
+Fix-wave notes (kept per the runner bar, not rerolled) in the build QC.md.
+
+Commits: `e5f3b6770` (blocker) → `359601a14` (author unblock, not mine) →
+claim → `340e1278a` (generate_one fix) → `347597f0560c` (build A) → this
+log + review card (B).
+
 ## 2026-08-05 (continued 10) — Rows 74-76 Ready: THIRTY-EIGHT on the board — Machine A `Dev`
 
 74 woman-washed-his-feet (locks verified byte-identical with build-44 —
