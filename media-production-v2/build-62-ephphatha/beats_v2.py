@@ -91,6 +91,7 @@ BEATS = [
         "must_show": "v31 — the return route: Jesus on the high road into the ten-cities country, a columned Gentile town ahead, the lake below.",
         "must_not_show": "no crowd yet — the road is the subject; the welcome comes two beats later.",
         "scene": (
+            "The camera off the road takes the walk in profile: "
             "Jesus walks the high dusty road down into the lake "
             "country of the ten cities, a few disciples strung "
             "behind him — ahead, a columned Gentile town stands on "
@@ -105,7 +106,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b02", "out": "s02-one-man-still-telling-it.jpeg", "seg": "n0 p3",
-        "window": "8.79-14.59", "wide": True, "jesus": False, "ref": False,
+        "window": "8.79-14.59", "wide": False, "jesus": False, "ref": False,
         "locks": ["DECAPOLIS"],
         "narration": ("It is the same region where the man from the tombs "
                       "had been telling his story to anyone who would "
@@ -134,7 +135,9 @@ BEATS = [
         "must_show": "the reversal — people streaming TOWARD Jesus on the road from every direction, carrying and leading their sick.",
         "must_not_show": "the bringing is the point: litters, led elders, carried children — a region's broken, in motion toward him.",
         "scene": (
-            "Down every path to the road they come toward Jesus — "
+            "Down every path to the road, the camera behind his "
+            "shoulder so the streams converge into the frame, they "
+            "come toward Jesus — "
             "two men jogging with a litter between them, a woman "
             "leading her blind father by the wrist, a boy carried "
             "high on a shoulder, whole family knots hurrying "
@@ -146,7 +149,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b04", "out": "s04-one-testimony-changed-it.jpeg", "seg": "n0 p6",
-        "window": "22.76-27.30", "wide": True, "jesus": True, "ref": REF,
+        "window": "22.76-27.30", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DECAPOLIS"],
         "narration": ("One man's testimony had changed the whole "
                       "neighborhood."),
@@ -165,7 +168,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b05", "out": "s05-they-brought-him-a-man.jpeg", "seg": "n1 p1",
-        "window": "27.30-31.75", "wide": True, "jesus": True, "ref": REF,
+        "window": "27.30-31.75", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DEAFMAN", "DECAPOLIS"],
         "narration": ("And they brought him a man who was deaf, and whose "
                       "speech was tangled because of it."),
@@ -185,7 +188,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b06", "out": "s06-no-way-in.jpeg", "seg": "n1 p2-p3",
-        "window": "31.75-39.39", "wide": True, "jesus": False, "ref": False,
+        "window": "31.75-39.39", "wide": False, "jesus": False, "ref": False,
         "locks": ["DEAFMAN", "DECAPOLIS"],
         "narration": ("Think about what deafness meant in that world. No "
                       "writing tablets for the poor, no signing schools, "
@@ -206,7 +209,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b07", "out": "s07-outside-the-joke.jpeg", "seg": "n1 p4a",
-        "window": "39.39-44.50", "wide": True, "jesus": False, "ref": False,
+        "window": "39.39-44.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["DEAFMAN"],
         "narration": ("Every conversation, every joke, every warning, "
                       "every kind word —"),
@@ -226,7 +229,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b08", "out": "s08-the-warning-he-never-heard.jpeg", "seg": "n1 p4b",
-        "window": "44.50-48.98", "wide": True, "jesus": False, "ref": False,
+        "window": "44.50-48.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["DEAFMAN", "DECAPOLIS"],
         "narration": "all of it happened on the other side of a wall he could not cross.",
         "must_show": "the danger of the wall — a loaded cart bearing down; shouted warnings he cannot hear; a friend's arm yanking him back.",
@@ -263,7 +266,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b10", "out": "s10-they-begged-a-touch.jpeg", "seg": "n2 p1-p2",
-        "window": "53.84-58.46", "wide": True, "jesus": True, "ref": REF,
+        "window": "53.84-58.46", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DEAFMAN", "DECAPOLIS"],
         "narration": ("His friends begged Jesus just to touch him. Jesus "
                       "did something better."),
@@ -290,7 +293,8 @@ BEATS = [
         "must_show": "v33 — the leading away: hand in hand, Jesus walking the man out of the crowd toward the olive shade; the multitude left at the wall.",
         "must_not_show": "the crowd does not follow — it stays banked behind the low wall; the two walk into quiet.",
         "scene": (
-            "Jesus leads the man away by the hand — a plain firm "
+            "The camera holds the withdrawal from the side, both "
+            "figures in profile: Jesus leads the man away by the hand — a plain firm "
             "grip, the man following with his eyes fixed on the "
             "back of this stranger who communicates in the one "
             "channel he has, touch — the two of them passing "
@@ -302,7 +306,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b12", "out": "s12-no-audience.jpeg", "seg": "n2 p4-p6",
-        "window": "64.04-70.85", "wide": True, "jesus": True, "ref": REF,
+        "window": "64.04-70.85", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DEAFMAN", "ASIDE"],
         "narration": ("No audience. No spectacle. This healing was going "
                       "to be private, personal, his."),
@@ -400,7 +404,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b17", "out": "s17-he-looked-up-to-heaven.jpeg", "seg": "n3 p6-p7",
-        "window": "88.62-98.32", "wide": True, "jesus": True, "ref": REF,
+        "window": "88.62-98.32", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DEAFMAN", "ASIDE"],
         "narration": ("Then he looked up to heaven: what happens next "
                       "comes from God. Sign language, from the Son of "
@@ -538,7 +542,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b24", "out": "s24-sound-rushed-in.jpeg", "seg": "n5 p8a",
-        "window": "134.64-139.00", "wide": True, "jesus": True, "ref": REF,
+        "window": "134.64-139.00", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DEAFMAN", "ASIDE"],
         "narration": ("Sound rushed in where there had been a lifetime of "
                       "nothing — birdsong, footsteps, voices,"),
@@ -558,7 +562,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b25", "out": "s25-his-own-name.jpeg", "seg": "n5 p8b",
-        "window": "139.00-143.19", "wide": True, "jesus": False, "ref": False,
+        "window": "139.00-143.19", "wide": False, "jesus": False, "ref": False,
         "locks": ["DEAFMAN", "ASIDE"],
         "narration": "his own name.",
         "must_show": "the name — a friend at the wall's gap calling to him; the man wheeling toward the call, struck through.",
@@ -597,7 +601,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b27", "out": "s27-keep-it-quiet.jpeg", "seg": "n6 p1-p2",
-        "window": "149.45-152.38", "wide": True, "jesus": True, "ref": REF,
+        "window": "149.45-152.38", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DEAFMAN", "DECAPOLIS"],
         "narration": "Jesus asked them to keep it quiet. They could not.",
         "must_show": "v36 — the charge: Jesus's quieting gesture to the arriving friends; their faces already bursting past any possibility of obeying.",
@@ -615,7 +619,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b28", "out": "s28-how-do-you-keep-it-secret.jpeg", "seg": "n6 p3",
-        "window": "152.38-159.26", "wide": True, "jesus": False, "ref": False,
+        "window": "152.38-159.26", "wide": False, "jesus": False, "ref": False,
         "locks": ["DEAFMAN", "DECAPOLIS"],
         "narration": ("The more he asked, the more they told everyone — "
                       "and honestly, how do you keep a man's first words "
@@ -661,7 +665,8 @@ BEATS = [
         "must_show": "v37 — the acclamation: the crowd's praise breaking over Jesus from every side; he stands quiet in it.",
         "must_not_show": "no halo/glow; astonishment 'beyond measure' carried by faces and lifted hands converging on him.",
         "scene": (
-            "The crowd's verdict breaks over Jesus like surf — "
+            "The crowd's verdict breaks over Jesus like surf, the "
+            "camera behind the nearest lifted arms — "
             "hands lifted all around him, faces shining, an old "
             "woman reaching just to touch his sleeve, the healed "
             "man's voice still ringing somewhere in the middle of "
@@ -675,7 +680,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b31", "out": "s31-his-friends-embrace.jpeg", "seg": "n6b p1-p2",
-        "window": "168.98-175.36", "wide": True, "jesus": False, "ref": False,
+        "window": "168.98-175.36", "wide": False, "jesus": False, "ref": False,
         "locks": ["DEAFMAN", "DECAPOLIS"],
         "narration": ("He has done everything well, they said. He makes "
                       "the deaf hear, and he gives the speechless their "
@@ -702,7 +707,8 @@ BEATS = [
         "must_show": "the callback wide — the same eastern-shore country, now thronged around Jesus instead of pointing him to his boat.",
         "must_not_show": "the lake visible — the geography of the expulsion, hosting the embrace.",
         "scene": (
-            "A wide golden frame of the eastern shore country: "
+            "A wide golden frame of the eastern shore country, the "
+            "camera high on the ridge behind the thronged road: "
             "the crowd spread thick around Jesus on the road "
             "above the blue lake — the same water his boat was "
             "once asked to take away, glittering below a hillside "
@@ -735,7 +741,7 @@ BEATS = [
     },
     {
         "id": "v2-r062-b34", "out": "s34-he-gave-him-back-the-world.jpeg", "seg": "n7 p3",
-        "window": "184.51-193.96", "wide": True, "jesus": True, "ref": REF,
+        "window": "184.51-193.96", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DEAFMAN", "ASIDE"],
         "narration": ("He took one man aside, met him inside his silence, "
                       "explained everything in the man's own language "
@@ -757,3 +763,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
