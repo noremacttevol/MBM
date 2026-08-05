@@ -1,3 +1,54 @@
+## 2026-08-05 (later) — First Fable 5 author session: rows 40, 17, 41 authored and Ready ✅ — the runner line is UNBLOCKED — Machine A `Dev`
+
+First session run from PROMPT-FABLE5-AUTHOR.md. Three rows shipped Ready
+(claim-by-push each time, --check PASS 0 warns each time, $0 spent):
+
+- **Row 40 (friend-at-midnight)** — the lesson-12 pass: the checker showed
+  26 wide WARNs (the log's "4 WARNs" note was stale — trust the checker,
+  not the log). Kept 6 purposeful wides with stated camera-to-back
+  geometry; re-covered 20 group-portraits as singles/two-shots/inserts;
+  added b56 so the payoff's RISE has its own frame (56 beats now); split
+  NEIGHBOR-DOOR (street face, carries the worn knocking-spot) from
+  NEIGHBOR-HOUSE (interior), added COURTYARD + LIT-HOUSE. DECLINED the
+  stash's courtyard suggestion from build-34 — that plate is the rich
+  fool's flagstoned estate, wrong world for a modest family courtyard.
+- **Row 17 (lazarus)** — authored from scratch, 61 beats / 316.5 s. Five
+  stated-geometry wides; the raising is a strict frame-per-action ladder
+  (call → shout → first sight → emergence → standing bound → wrapped face
+  → frozen crowd → "loose him" → unwrapping). MARTHA + MARY locks are
+  byte-identical copies from build-16 and QC.md orders a face-match against
+  build-16's approved stills before assembly. TOMB plate wired from
+  build-37 (same rolling-stone architecture; QC flags that the plate shows
+  the stone OPEN while beats b15-b45 need it SEALED). The row's open
+  reviewer complaint (stray old-version caption flashing at ~23 s) is
+  written into QC.md as a rendered-product frame-check the runner must do.
+- **Row 41 (counting-the-cost)** — crowd/landscape epic: 15 wides kept
+  WITH geometry (the crowd's scale and thinning ARE the story), 9
+  re-covered tighter. Found and fixed a lock-conflict class: b57/b58's old
+  text ordered Jesus to look INTO the lens, which the shared CANDID-FRAME
+  lock forbids on every beat — prompts fighting themselves. ROAD +
+  VINEYARD plates wired (VINEYARD = cross-video match with build-23).
+
+**Lessons for the next author session (rows 42+ are open):**
+1. `wide: True` injects the MULTIPLE-PEOPLE wide defense — it is WRONG on
+   lone-figure landscapes and person-free frames (row 40's b53 empty door
+   would have had people injected). Re-flag those False, don't just add
+   camera text.
+2. The stash misclassifies CAST tokens (MOURNERS, FAMILY) as "new places"
+   — never promote a people-plate; note it in QC.md instead.
+3. Scan every inherited scene text for orders that fight the shared locks
+   (lens-gaze, arranged-for-camera lines) — the checker does not catch
+   these; they surface as reroll storms at generation time.
+4. AUTHORED-row upgrades run ~30-45 min; a from-scratch epic (lazarus) is
+   a full multi-hour job — plan session pacing accordingly.
+
+Board state after this session: 38 BUILT / rows 17, 40, 41 Ready ✅ /
+next open row is 42 (barren-fig-tree, AUTHORED). Opus runners can start
+on any machine per PROMPT-OPUS-RUNNER.md — lowest Ready row first.
+
+Commit: `ca1171adf` (row 40) + `cc976be87` (row 17) + `be271871f`
+(row 41) + this entry.
+
 ## 2026-08-05 — The two-model production line: Fable 5 authors once, Opus runners burn the queue — Claude worker 35, Machine A `Dev`
 
 Cameron's design, to keep his Claude limits low: a Fable 5 session does ALL the
