@@ -1,0 +1,20 @@
+{
+ "HALL": {
+  "manual": true,
+  "src_beat": "v2-r022-b16",
+  "src_build": "build-22-unmerciful-servant",
+  "src_file": "build-22-unmerciful-servant/assets/s16-his-wife-his-children.jpeg"
+ },
+ "ROADS": {
+  "manual": false,
+  "src_beat": "v2-r031-b11",
+  "src_build": "build-31-ten-virgins",
+  "src_file": "build-31-ten-virgins/assets/s11-behold-the-bridegroom-cometh.jpeg"
+ },
+ "TEMPLE": {
+  "manual": false,
+  "src_beat": "v2-r006-b21",
+  "src_build": "build-06-two-sons",
+  "src_file": "build-06-two-sons/assets-realistic/s21-the-ones-he-meant.jpeg"
+ }
+}

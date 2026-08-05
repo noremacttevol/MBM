@@ -124,7 +124,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the frame — Jesus in the temple court facing the front rank of hostile robed men, ordinary listeners banked behind them; a story told into enemy faces.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the hostility in the front rank visible but controlled — men taking notes with their eyes.",
         "scene": (
-            "In the bright columned court Jesus stands facing a "
+            "In the bright columned court, the camera just behind "
+            "Jesus's shoulder so the confrontation opens away "
+            "from the lens, Jesus stands facing a "
             "front rank of fine-robed men whose stillness is "
             "the stillness of hunters — arms folded into "
             "fringed shawls, eyes flat and gathering evidence — "
@@ -159,7 +161,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b03", "out": "s03-so-he-told-them-a.jpeg", "seg": "n1",
-        "window": "11.53-19.27", "wide": True, "jesus": True, "ref": REF,
+        "window": "11.53-19.27", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TEMPLE"],
         "narration": (
             "So he told them a story: about a king, a wedding, and an "
@@ -181,7 +183,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b04", "out": "s04-the-kingdom-of-heaven-is.jpeg", "seg": "jv2",
-        "window": "19.84-25.13", "wide": True, "jesus": False, "ref": False,
+        "window": "19.84-25.13", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING", "HALL"],
         "narration": (
             "The kingdom of heaven is like unto a certain king, which made a "
@@ -231,7 +233,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: all things ready — the hall at full readiness: lamps all lit, tables laden end to end, roast oxen carried steaming from the kitchens, no guest yet arrived.",
         "must_not_show": "no halo, glare or rim-light; lavish readiness AND emptiness — every place set, every seat vacant.",
         "scene": (
-            "The wedding hall stands at the summit of readiness: "
+            "The wedding hall stands at the summit of readiness, "
+            "the camera at the great door looking down its "
+            "length, the kitchen men crossing in profile: "
             "every hanging lamp lit down the long ceiling, the "
             "tables laden end to end with bread towers and "
             "fruit and wine, two kitchen men carrying in a "
@@ -266,7 +270,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b08", "out": "s08-and-sent-forth-his-servants.jpeg", "seg": "jv3",
-        "window": "39.90-45.70", "wide": True, "jesus": False, "ref": False,
+        "window": "39.90-45.70", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING", "HALL"],
         "narration": (
             "And sent forth his servants to call them that were bidden to the "
@@ -309,7 +313,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b10", "out": "s10-behold-i-have-prepared-my.jpeg", "seg": "jv4",
-        "window": "51.57-59.98", "wide": True, "jesus": False, "ref": False,
+        "window": "51.57-59.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["HALL"],
         "narration": (
             "Behold, I have prepared my dinner: my oxen and my fatlings are "
@@ -360,7 +364,9 @@ BEATS = [
         "must_show": "the refusals compounding — a street of fine houses at evening, three royal servants at three doors, every door shut or shutting; a whole class declining at once.",
         "must_not_show": "no halo, glare or rim-light; the pattern visible in one street — synchronized, casual, complete.",
         "scene": (
-            "Down a handsome evening street of fine houses the "
+            "Down a handsome evening street of fine houses, the "
+            "camera behind the servants so all three doors face "
+            "away from the lens, the "
             "pattern shows itself whole: three royal servants "
             "at three separate doors, and every door failing "
             "them at once — one already shut, one closing on a "
@@ -379,7 +385,9 @@ BEATS = [
         "must_show": "the new direction — the crossroads at dusk: three highways meeting at the boundary stone, the travelling poor upon them; the feast's next guest list.",
         "must_not_show": "no halo, glare or rim-light; the roads as they are — worn people, real dusk, the whole unlisted world.",
         "scene": (
-            "At the crossroads outside the walls the dusk "
+            "At the crossroads outside the walls, the camera beside "
+            "the boundary stone taking the junction from the side, "
+            "the dusk "
             "gathers over three meeting highways: a footsore "
             "family resting against the boundary stone, two "
             "day labourers walking home with their tools, an "
@@ -403,7 +411,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT, RESTRAINED: the making light and the violence off-screen — one invited man riding to his farm laughing over his shoulder, another turning to his shop ledgers; and at the frame's far edge a royal servant being SHOVED from a doorway, his lantern falling — nothing worse shown.",
         "must_not_show": "no halo, glare or rim-light; NO killing depicted — the shove and the falling lantern are the utmost; the words carry the rest.",
         "scene": (
-            "The refusals go their ways in the last light: in "
+            "The refusals go their ways in the last light, the "
+            "camera holding the street from the side so every "
+            "travel crosses the frame in profile: in "
             "the near frame a prosperous man rides out his "
             "gate toward his farm, waving the summons off "
             "over his shoulder with a laugh, while through a "
@@ -476,7 +486,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b18", "out": "s18-they-turned-on-the-servants.jpeg", "seg": "n6",
-        "window": "95.87-104.51", "wide": True, "jesus": False, "ref": False,
+        "window": "95.87-104.51", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING", "HALL"],
         "narration": (
             "They turned on the servants who came to invite them. It was the "
@@ -519,7 +529,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b20", "out": "s20-and-a-hall-built-for.jpeg", "seg": "n7",
-        "window": "108.27-113.25", "wide": True, "jesus": False, "ref": False,
+        "window": "108.27-113.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING", "HALL"],
         "narration": (
             "And a hall built for a wedding was standing empty. So the king "
@@ -569,7 +579,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT and ⚑ Flag J,L: THE great command — the king at the door sending every servant out at once toward the dark roads, both arms flung wide: as many as ye shall find.",
         "must_not_show": "no halo, glare or rim-light; the widest gesture in the row — a guest list torn up and replaced with everyone.",
         "scene": (
-            "At the hall's wide doorway the king sends his "
+            "At the hall's wide doorway, the camera off to the side "
+            "of the steps with the king in three-quarter, he sends his "
             "whole household out at once — both great arms "
             "flung open toward the dark highways beyond the "
             "city, servants already running past him down the "
@@ -634,7 +645,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the gathering — the lamplit road TO the hall filling with the walking poor, servants shepherding them toward the great lit doorway on the hill.",
         "must_not_show": "no halo, glare or rim-light; a river of the unlisted flowing toward the light — wonder and hesitation mixed in the walkers.",
         "scene": (
-            "Up the dark road toward the hall's great lit "
+            "Up the dark road toward the hall's great lit doorway, "
+            "the camera beside the road so the climb passes in "
+            "profile toward the light, "
             "doorway a new procession climbs — the crossroads' "
             "whole population walking in the servants' "
             "lantern-light: the labourers still carrying "
@@ -667,7 +680,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b27", "out": "s27-they-brought-in-everyone-they.jpeg", "seg": "n9",
-        "window": "147.74-151.85", "wide": True, "jesus": False, "ref": False,
+        "window": "147.74-151.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["STEWARD", "HALL"],
         "narration": (
             "They brought in everyone they could find. The story does not clean "
@@ -698,7 +711,9 @@ BEATS = [
         "must_show": "the hall FULL — the tables lined end to end with the roads' people in golden robes, the feast finally doing what it was built for.",
         "must_not_show": "no halo, glare or rim-light; the full hall in festival gold — the transformation visible: road faces above royal robes.",
         "scene": (
-            "The wedding hall runs full at last from door to "
+            "The wedding hall runs full at last, the camera at the "
+            "musicians' corner looking back down the length, the "
+            "near guests in three-quarter from behind — full from door to "
             "musicians' corner: the roads' people seated "
             "shoulder to shoulder down the laden tables, "
             "every one of them wrapped in a deep gold "
@@ -731,7 +746,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b30", "out": "s30-at-a-feast-the-clean.jpeg", "seg": "n10",
-        "window": "162.55-169.53", "wide": True, "jesus": False, "ref": False,
+        "window": "162.55-169.53", "wide": False, "jesus": False, "ref": False,
         "locks": ["STEWARD", "HALL"],
         "narration": (
             "At a king's feast, the clean festival robe was the king's to give, "
@@ -763,7 +778,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the king entering — the hall rising to its feet in a golden wave as the king comes in among his roads-born guests, delight restored to his face.",
         "must_not_show": "no halo, glare or rim-light; the rising wave of gold — a hall of the poor standing dressed like princes as the giver walks in.",
         "scene": (
-            "The hall rises as the king enters — a wave of "
+            "The hall rises as the king enters, the camera mid-hall "
+            "behind the standing guests' shoulders — a wave of "
             "deep gold robes standing up table by table down "
             "the lamplit length — and he walks in among them "
             "with his arms half-open, his great bearded face "
@@ -777,7 +793,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b32", "out": "s32-and-he-found-one-man.jpeg", "seg": "n11",
-        "window": "176.04-181.49", "wide": True, "jesus": False, "ref": False,
+        "window": "176.04-181.49", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING", "GUEST", "HALL"],
         "narration": (
             "And he found one man still in his own dusty road clothes. Not "
@@ -921,7 +937,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b39", "out": "s39-back-outside-in-the-dark.jpeg", "seg": "n13",
-        "window": "214.97-220.91", "wide": True, "jesus": False, "ref": False,
+        "window": "214.97-220.91", "wide": False, "jesus": False, "ref": False,
         "locks": ["GUEST", "HALL"],
         "narration": (
             "Back outside, in the dark, away from a light that had been "
@@ -944,7 +960,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b40", "out": "s40-bind-him-hand-and-foot.jpeg", "seg": "jv13",
-        "window": "221.48-226.87", "wide": True, "jesus": False, "ref": False,
+        "window": "221.48-226.87", "wide": False, "jesus": False, "ref": False,
         "locks": ["GUEST", "HALL"],
         "narration": (
             "Bind him hand and foot, and take him away, and cast him into outer "
@@ -985,7 +1001,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b42", "out": "s42-they-were-the-invited-guests.jpeg", "seg": "n14",
-        "window": "231.19-238.26", "wide": True, "jesus": True, "ref": REF,
+        "window": "231.19-238.26", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TEMPLE"],
         "narration": (
             "They were the invited guests, the ones who had said yes for a "
@@ -1035,7 +1051,9 @@ BEATS = [
         "must_show": "⚑ Flag J,L: the universal call — the widest frame: lantern-bearing servants spreading out along ALL THREE highways into the night, lights strung to the horizon.",
         "must_not_show": "no halo, glare or rim-light; the lights going EVERYWHERE — invitation as geography.",
         "scene": (
-            "From above the crossroads at night the whole "
+            "From above the crossroads at night the camera takes in "
+            "the whole errand, lantern strings moving away from "
+            "the junction: the whole "
             "errand shows itself: strings of servants' "
             "lanterns moving out along all three dark "
             "highways at once, warm points spreading toward "
@@ -1048,7 +1066,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b45", "out": "s45-the-ones-who-end-up.jpeg", "seg": "n15",
-        "window": "248.49-255.34", "wide": True, "jesus": False, "ref": False,
+        "window": "248.49-255.34", "wide": False, "jesus": False, "ref": False,
         "locks": ["STEWARD", "HALL"],
         "narration": (
             "The ones who end up at the table are simply the ones who came, and "
@@ -1092,7 +1110,7 @@ BEATS = [
     },
     {
         "id": "v2-r043-b47", "out": "s47-the-invitation-is-free-the.jpeg", "seg": "n16",
-        "window": "261.73-269.22", "wide": True, "jesus": False, "ref": False,
+        "window": "261.73-269.22", "wide": False, "jesus": False, "ref": False,
         "locks": ["STEWARD", "HALL"],
         "narration": (
             "The invitation is free, the door is open, and the clean clothes "
@@ -1134,3 +1152,16 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "HALL": "PLACE-REF/hall.jpeg",  # build-22-unmerciful-servant v2-r022-b16 (manual)
+    "ROADS": "PLACE-REF/roads.jpeg",  # build-31-ten-virgins v2-r031-b11
+    "TEMPLE": "PLACE-REF/temple.jpeg",  # build-06-two-sons v2-r006-b21
+}
+# === end PLACE-PLATES ===
