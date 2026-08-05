@@ -64,7 +64,8 @@ BEATS = [
         "must_show": "the climb with the old expectation — the multitude streaming up the green hillside in morning light; the poor and worn climbing to hear who God prefers.",
         "must_not_show": "no halo; the crowd's WEAR visible — patched robes, tired backs, hope anyway.",
         "scene": (
-            "Up the broad green hillside "
+            "Up the broad green hillside, the camera on the "
+            "slope's flank taking the climbing streams in profile, "
             "the multitude climbs in the "
             "morning light — patched "
             "robes and work-bent backs, "
@@ -154,7 +155,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the whole verse staged — Jesus SEATED on the shelf, disciples come close, the multitude banked; the teaching's first breath.",
         "must_not_show": "no halo, glare or rim-light; Jesus SEATED (the rabbi's posture), never standing to declaim.",
         "scene": (
-            "The verse composes itself "
+            "The verse composes itself, the camera behind the "
+            "banked crowd's shoulders toward the seated shelf, "
             "on the hillside: the "
             "multitude seen and "
             "received, the teacher gone "
@@ -178,7 +180,7 @@ BEATS = [
     },
     {
         "id": "v2-r112-b05", "out": "s05-he-saw-the-crowd-coming.jpeg", "seg": "n1b",
-        "window": "24.89-28.38", "wide": True, "jesus": True, "ref": REF,
+        "window": "24.89-28.38", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "CROWD"],
         "narration": "He saw the crowd coming, climbed the hillside, and sat down.",
         "must_show": "the seeing and seating — Jesus partway up, turning to SEE the climbing multitude, then taking his seat on the shelf; the teacher moved by the sight of them.",
@@ -237,7 +239,7 @@ BEATS = [
     },
     {
         "id": "v2-r112-b07", "out": "s07-blessed-are-the-poor-in.jpeg", "seg": "jv3",
-        "window": "36.64-41.28", "wide": True, "jesus": True, "ref": REF,
+        "window": "36.64-41.28", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "CROWD"],
         "narration": (
             "Blessed are the poor in spirit: for theirs is the kingdom of "
@@ -330,7 +332,7 @@ BEATS = [
     },
     {
         "id": "v2-r112-b10", "out": "s10-the-kingdom-he-says-belongs.jpeg", "seg": "n2",
-        "window": "52.58-55.85", "wide": True, "jesus": True, "ref": REF,
+        "window": "52.58-55.85", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "CROWD"],
         "narration": "The kingdom, he says, belongs to them first.",
         "must_show": "the first-ness — the wide slope: Jesus's gesture sweeping the humblest section of the crowd to the FRONT of the blessing; precedence reversed in composition.",
@@ -493,7 +495,8 @@ BEATS = [
         "must_show": "the upside-down roster — the wide slope: Jesus's blessing hand moving across the crowd's humblest faces one after another; the world's losers, collected as heirs.",
         "must_not_show": "no halo, glare or rim-light; the roster's DIGNITY absolute — the word loser refuted by every face it lands on.",
         "scene": (
-            "The roster reads out across "
+            "The roster reads out, the camera at the slope's side "
+            "so the moving blessing-hand crosses in profile, across "
             "the slope: the teacher's "
             "hand moving face to face "
             "over exactly the people "
@@ -669,7 +672,7 @@ BEATS = [
     },
     {
         "id": "v2-r112-b21", "out": "s21-blessed-are-they-which-are.jpeg", "seg": "jv910",
-        "window": "109.94-117.97", "wide": True, "jesus": False, "ref": False,
+        "window": "109.94-117.97", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "Blessed are they which are persecuted for righteousness' sake: "
@@ -734,7 +737,7 @@ BEATS = [
     },
     {
         "id": "v2-r112-b23", "out": "s23-and-even-those-pushed-aside.jpeg", "seg": "n5",
-        "window": "122.91-128.77", "wide": True, "jesus": False, "ref": False,
+        "window": "122.91-128.77", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "And even those pushed aside for doing right are not forgotten — "
@@ -772,7 +775,8 @@ BEATS = [
         "must_show": "the reach — the wide hillside: Jesus's open arms taking in the ENTIRE multitude at once; nobody outside the gesture, the overlooked gathered whole.",
         "must_not_show": "no halo, glare or rim-light; the reach TOTAL — edges of the crowd included in the arms' line.",
         "scene": (
-            "The sermon opens its arms "
+            "The sermon opens its arms, the camera far back "
+            "behind the whole multitude's heads, "
             "all the way: Jesus on the "
             "stone shelf with both "
             "arms spread wide enough "
@@ -826,7 +830,7 @@ BEATS = [
     },
     {
         "id": "v2-r112-b26", "out": "s26-in-his-kingdom-you-are.jpeg", "seg": "n6",
-        "window": "141.38-147.93", "wide": True, "jesus": True, "ref": REF,
+        "window": "141.38-147.93", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "CROWD"],
         "narration": (
             "In his kingdom, you are not at the back of the line. You are "
@@ -859,7 +863,7 @@ BEATS = [
     },
     {
         "id": "v2-r112-b27", "out": "s27-that-is-how-upside-down.jpeg", "seg": "n6",
-        "window": "147.93-152.90", "wide": True, "jesus": True, "ref": REF,
+        "window": "147.93-152.90", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "CROWD"],
         "narration": "That is how upside down, and how good, his kingdom really is.",
         "must_show": "the closing image — the whole blessed hillside in full gold: teacher seated, multitude at peace, the lake shining below; the upside-down kingdom at rest, and good.",
@@ -888,3 +892,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
