@@ -142,7 +142,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 128 | build-128-heart-far-from-me | AUTHORED | 0 | OK |  | ✅ |
 | 129 | build-129-nazareth-only-a-few | AUTHORED | 0 | OK |  | ✅ |
 | 130 | build-130-what-manner-of-spirit | AUTHORED | 0 | OK |  | ✅ |
-| 131 | build-131-scribe-near-the-kingdom | NEEDS-BEATS | 0 | OK |  |  |
+| 131 | build-131-scribe-near-the-kingdom | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 132 | build-132-forbid-him-not | NEEDS-BEATS | 0 | OK |  |  |
 | 133 | build-133-many-mansions | NEEDS-BEATS | 0 | OK |  |  |
 | 134 | build-134-other-sheep-i-have | NEEDS-BEATS | 0 | OK |  |  |
