@@ -1,3 +1,20 @@
+## 2026-08-05 (continued 16) — Rows 94-98 Ready: SIXTY on the board — Machine A `Dev`
+
+The passion core: 94 father-forgive-them (merciful-distance law; 4th
+wrong-plate catch — golden village unwired from Golgotha; --wire re-add
+tool trap documented; Roman soldiers group ref from build-15), 95 thief
+(sides-never-swap; the gap-crossing eye-line), 96 it-is-finished
+(darkness-at-midday; top-down veil tear; empty Holy-of-Holies), 97
+empty-tomb (Jesus's-own-tomb law; absence-is-the-message — no risen
+figure; folded grave clothes), 98 mary-her-name (5th wrong-plate catch;
+Magdalene canon; gardener-mistakable risen Jesus; recognition mid-turn).
+
+ONE SKULL and ONE GARDEN TOMB now bind rows 71/94/95/96/97/98 — the
+passion block is a single connected place-family with the wrong
+auto-wires stripped out five times.
+
+Board: 17, 40-98 Ready ✅ (sixty). Next: 99, 100, then 101-120.
+
 ## 2026-08-05 (continued 15) — Rows 90-93 Ready: FIFTY-FIVE on the board; the runner is promoting cast sheets — Machine A `Dev`
 
 90 washing-feet (his every-disciple-looks-the-same complaint = the hard
