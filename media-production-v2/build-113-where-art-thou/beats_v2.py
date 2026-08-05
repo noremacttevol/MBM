@@ -62,6 +62,16 @@ LOCKS = {
         "past her waist; always framed with complete modesty "
         "(her hair, foliage, distance, shadow, or clothing)."
     ),
+    "GOD": (
+        "GOD THE FATHER LOCK (Cameron's standing order: God has a body "
+        "and one locked look, like Jesus): the Father is the same "
+        "glorified embodied man in every shot — majestic and ageless-"
+        "strong, flowing white hair and a full white beard, a warm "
+        "noble deeply kind face, in a robe of BRILLIANT PURE WHITE (he "
+        "alone wears pure white; only Jesus wears cream). Real weight, "
+        "real footsteps, radiant dignity WITHOUT any halo or light "
+        "effects. His face is shown clearly and is never stern."
+    ),
 }
 
 REF = True
@@ -75,7 +85,8 @@ BEATS = [
         "must_show": "the garden at peace — Eden wide in golden evening light: great trees, the stream, fruit heavy, no person in frame yet; peace as a place.",
         "must_not_show": "no figures yet; no halo; the peace TOTAL — nothing in the frame afraid of anything.",
         "scene": (
-            "Before everything else, the "
+            "Before everything else, the camera drifting high "
+            "along the stream from the side, the "
             "place: a garden deep in "
             "golden evening light — "
             "great trees sweeping their "
@@ -98,7 +109,7 @@ BEATS = [
     },
     {
         "id": "v2-r113-b02", "out": "s02-people-and-god-walking-together.jpeg", "seg": "n1",
-        "window": "3.96-9.71", "wide": True, "jesus": False, "ref": False,
+        "window": "3.96-9.71", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN", "ADAM", "EVE"],
         "narration": (
             "People and God walking together in the cool of the day, with "
@@ -253,8 +264,8 @@ BEATS = [
     },
     {
         "id": "v2-r113-b07", "out": "s07-and-then-they-heard-him.jpeg", "seg": "n4",
-        "window": "32.38-39.89", "wide": True, "jesus": False, "ref": False,
-        "locks": ["GARDEN"],
+        "window": "32.38-39.89", "wide": False, "jesus": False, "ref": False,
+        "locks": ["GARDEN", "GOD"],
         "narration": (
             "And then they heard him coming — the warm presence of God "
             "moving through the garden in the cool of the evening, the way "
@@ -263,30 +274,21 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the voice walking — the garden path filling with moving golden light, leaves stirring along its way, the evening warmth approaching as it always had; NO figure.",
         "must_not_show": "ABSOLUTE: no figure, shape or silhouette in the light — presence as light and stirred leaves only.",
         "scene": (
-            "Down the evening path comes "
-            "the sound they know best "
-            "in the world: the warm "
-            "golden light moving "
-            "through the trees the way "
-            "it has moved every "
-            "evening of their lives — "
-            "leaves stirring along its "
-            "way, the stream "
-            "brightening as it passes, "
-            "the whole garden turning "
-            "toward it like a face — "
-            "the presence arriving for "
-            "the usual walk, in the "
-            "usual cool, unaware of "
-            "nothing, coming anyway. "
+            "Down the evening path he comes himself, as he has "
+            "come every evening of their lives: the Father "
+            "walking the garden in the cool of the day, white-"
+            "robed and unhurried among his trees, leaves "
+            "stirring at his passing, the low gold light warm "
+            "on the noble face that has never once been "
+            "something to hide from — until tonight. "
             "Every figure has two arms, "
             "two hands and one head."
         ),
     },
     {
         "id": "v2-r113-b08", "out": "s08-and-this-time-they-ran.jpeg", "seg": "n4 + jv9",
-        "window": "39.89-45.07", "wide": True, "jesus": False, "ref": False,
-        "locks": ["GARDEN", "ADAM", "EVE"],
+        "window": "39.89-45.07", "wide": False, "jesus": False, "ref": False,
+        "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": (
             "And this time, they ran and hid themselves among the trees. "
             "Where art thou?"
@@ -353,7 +355,8 @@ BEATS = [
         "must_show": "the Father-and-hiding-child shape — the wide garden: the small hidden two behind their tree, the great patient light in the clearing; the geometry of every parent's evening search.",
         "must_not_show": "ABSOLUTE: no figure of God; the composition TENDER — hide-and-seek gone wrong, love still seeking.",
         "scene": (
-            "The wide frame holds the "
+            "The wide frame holds, the camera at the clearing's "
+            "side so hider and seeker share one profile, the "
             "oldest family scene there "
             "is: somewhere in the "
             "darkening green, two "
@@ -470,7 +473,7 @@ BEATS = [
     },
     {
         "id": "v2-r113-b14", "out": "s14-shame-has-never-once-made.jpeg", "seg": "n5b",
-        "window": "73.64-80.07", "wide": True, "jesus": False, "ref": False,
+        "window": "73.64-80.07", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN"],
         "narration": (
             "Shame has never once made a person run toward God. It makes "
@@ -564,8 +567,8 @@ BEATS = [
     },
     {
         "id": "v2-r113-b17", "out": "s17-no-excuses-left-just-the.jpeg", "seg": "n6",
-        "window": "90.69-95.07", "wide": True, "jesus": False, "ref": False,
-        "locks": ["GARDEN", "ADAM", "EVE"],
+        "window": "90.69-95.07", "wide": False, "jesus": False, "ref": False,
+        "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": "No excuses left — just the truth, spoken out loud at last.",
         "must_show": "the emptied-out honesty — the two standing plainly in the clearing's light, everything told; the strange relief of no more hiding visible in their loosened postures.",
         "must_not_show": "ABSOLUTE: no figure of God; the relief SUBTLE — spent, honest, lighter.",
@@ -602,7 +605,8 @@ BEATS = [
         "must_show": "the two worlds — from the garden's edge: behind, the deep green ease; ahead through the gap, the harder dusk country of thorn and stone; the couple between them.",
         "must_not_show": "ABSOLUTE: no figure of God, no flaming sword — the hard world stated by landscape alone.",
         "scene": (
-            "From the garden's edge the "
+            "From the garden's edge, the camera behind the two "
+            "standing figures at the gap, the "
             "two geographies of the "
             "sentence face each other: "
             "at their backs the deep "
@@ -751,8 +755,8 @@ BEATS = [
     },
     {
         "id": "v2-r113-b23", "out": "s23-then-he-sent-them-out.jpeg", "seg": "n8",
-        "window": "123.69-129.83", "wide": True, "jesus": False, "ref": False,
-        "locks": ["GARDEN", "ADAM", "EVE"],
+        "window": "123.69-129.83", "wide": False, "jesus": False, "ref": False,
+        "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": (
             "Then he sent them out into the wide world — but not naked, and "
             "not alone, and not without a promise."
@@ -845,7 +849,7 @@ BEATS = [
     {
         "id": "v2-r113-b26", "out": "s26-one-who-comes-walking-through.jpeg", "seg": "n9",
         "window": "139.24-147.40", "wide": True, "jesus": False, "ref": False,
-        "locks": ["GARDEN"],
+        "locks": ["GARDEN", "GOD"],
         "narration": (
             "One who comes walking through the garden in the cool of the "
             "evening, calling, still calling — where are you? — because he "
@@ -854,27 +858,30 @@ BEATS = [
         "must_show": "the closing image — the garden in the cool of evening with the golden presence moving down the path toward the viewer's side of the frame, leaves stirring; the question still going out; NO figure ever.",
         "must_not_show": "ABSOLUTE: no figure, shape or silhouette — moving light and stirred leaves to the last frame; the call aimed OUT of the picture.",
         "scene": (
-            "The closing frame is still "
-            "happening: the garden in "
-            "the cool of the evening, "
-            "and down its path toward "
-            "the near edge of the "
-            "picture the warm golden "
-            "light comes walking — "
-            "leaves stirring along its "
-            "way, the stream "
-            "brightening as it "
-            "passes — moving toward "
-            "whoever is watching, "
-            "with the first question "
-            "still going out ahead of "
-            "it into every hiding "
-            "place there has ever "
-            "been: WHERE ART THOU — "
-            "asked because he wants "
+            "The closing frame is still happening, the camera at "
+            "the path's side taking his walk in profile: the garden "
+            "in the cool of the evening, and down its path the "
+            "white-robed Father comes walking as he always "
+            "has, leaves stirring at his passing, his kind "
+            "face turned along the way ahead — still walking, "
+            "still asking the oldest question in love: WHERE "
+            "ART THOU. "
             "you back. Every figure "
             "has two arms, two hands "
             "and one head."
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    # GARDEN deliberately UNWIRED: build-26 is a sunlit HERB garden —
+    # this is EDEN (sixth wrong-plate catch; same trap as row 66).
+    # Promote-first from b01.
+}
+# === end PLACE-PLATES ===
