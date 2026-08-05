@@ -120,7 +120,9 @@ BEATS = [
         "must_show": "Jesus arriving into Cana's lane on foot; villagers turning, recognizing him.",
         "must_not_show": "no halo/glow; he is among them, not detached at the frame edge.",
         "scene": (
-            "Jesus walks up a narrow sunlit lane into the hill village, "
+            "Jesus walks up a narrow sunlit lane into the hill "
+            "village, the camera at the lane's side taking his "
+            "walk in profile, "
             "travel-dusty and at ease, and the village is already turning "
             "toward him — a woman setting down her water jar mid-step, two men "
             "rising from a doorway bench, children pausing their game — every "
@@ -132,7 +134,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b02", "out": "s02-word-spreading.jpeg", "seg": "n1 p2",
-        "window": "4.70-7.65", "wide": True, "jesus": False, "ref": False,
+        "window": "4.70-7.65", "wide": False, "jesus": False, "ref": False,
         "locks": ["CANA"],
         "narration": "And word of it was spreading fast.",
         "must_show": "the news in motion — villagers passing it mouth to mouth, someone already hurrying out of the village with it.",
@@ -150,7 +152,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b03", "out": "s03-the-sick-son.jpeg", "seg": "n2 p1",
-        "window": "7.65-12.01", "wide": True, "jesus": False, "ref": False,
+        "window": "7.65-12.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "BOY", "HOUSE"],
         "narration": ("About twenty miles away, in Capernaum, a royal official "
                       "sat by his son's bed."),
@@ -203,7 +205,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b06", "out": "s06-out-of-answers.jpeg", "seg": "n2 p4",
-        "window": "17.59-22.34", "wide": True, "jesus": False, "ref": False,
+        "window": "17.59-22.34", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "BOY", "HOUSE"],
         "narration": ("His boy was burning with fever, and the doctors had run "
                       "out of answers."),
@@ -223,7 +225,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b07", "out": "s07-he-heard.jpeg", "seg": "n3 p1",
-        "window": "22.34-26.60", "wide": True, "jesus": False, "ref": False,
+        "window": "22.34-26.60", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "HOUSE", "SERVANTS"],
         "narration": ("Then he heard the healer was in Cana, a full day's walk "
                       "uphill."),
@@ -242,7 +244,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b08", "out": "s08-dropped-everything.jpeg", "seg": "n3 p2a",
-        "window": "26.60-31.00", "wide": True, "jesus": False, "ref": False,
+        "window": "26.60-31.00", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "HOUSE", "SERVANTS"],
         "narration": ("So this powerful man dropped everything and went, "
                       "hurrying on foot"),
@@ -261,7 +263,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b09", "out": "s09-uphill-road.jpeg", "seg": "n3 p2b",
-        "window": "31.00-35.89", "wide": True, "jesus": False, "ref": False,
+        "window": "31.00-35.89", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "ROAD"],
         "narration": ("to find a village carpenter's son, because he had "
                       "nowhere else left to turn."),
@@ -284,7 +286,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b10", "out": "s10-he-found-jesus.jpeg", "seg": "n4 p1",
-        "window": "35.89-40.89", "wide": True, "jesus": True, "ref": REF,
+        "window": "35.89-40.89", "wide": False, "jesus": True, "ref": REF,
         "locks": ["NOBLEMAN", "CANA"],
         "narration": ("He found Jesus and begged him to come down to Capernaum "
                       "and heal his boy before it was too late."),
@@ -320,7 +322,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b12", "out": "s12-signs-and-wonders.jpeg", "seg": "jv48",
-        "window": "44.93-49.61", "wide": True, "jesus": True, "ref": REF,
+        "window": "44.93-49.61", "wide": False, "jesus": True, "ref": REF,
         "locks": ["NOBLEMAN", "CANA"],
         "narration": ("Except ye see signs and wonders, ye will not believe. "
                       "(John 4:48)"),
@@ -451,7 +453,8 @@ BEATS = [
         "must_show": "the distance the word must cross — the two men in Cana high up, and far country falling away below toward the unseen lake.",
         "must_not_show": "no light-beam, no visual effect travelling; the land between them is the picture.",
         "scene": (
-            "A wide shot from the edge of Cana's square where the village "
+            "A wide shot, the camera at the edge of Cana's square "
+            "behind the two men's shoulders, where the village "
             "brow drops away: Jesus and the dust-streaked official stand "
             "facing each other in the near frame, the word just spoken "
             "between them — and past them the terraced hills fall away fold "
@@ -463,7 +466,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b20", "out": "s20-he-turned-home.jpeg", "seg": "n7 p4",
-        "window": "90.85-95.29", "wide": True, "jesus": True, "ref": REF,
+        "window": "90.85-95.29", "wide": False, "jesus": True, "ref": REF,
         "locks": ["NOBLEMAN", "CANA", "ROAD"],
         "narration": "And the man believed him, turned, and started home.",
         "must_show": "the belief made visible — the man mid-turn AWAY from Jesus, first step onto the downhill road, no proof in his hands.",
@@ -483,7 +486,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b21", "out": "s21-the-long-walk.jpeg", "seg": "n8",
-        "window": "95.29-104.08", "wide": True, "jesus": False, "ref": False,
+        "window": "95.29-104.08", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "ROAD"],
         "narration": ("Think about that walk. A whole day on the road with no "
                       "proof in his hands, nothing to hold but a stranger's "
@@ -513,7 +516,8 @@ BEATS = [
         "must_show": "v51 — the two servants at a full run UP the road toward him; him stopped dead at the sight of them.",
         "must_not_show": "their faces at this distance not yet readable — he cannot tell yet if they bring good news or the worst.",
         "scene": (
-            "SHOT FROM BESIDE AND SLIGHTLY BEHIND THE OFFICIAL on the morning "
+            "THE CAMERA STANDS BESIDE AND SLIGHTLY BEHIND THE "
+            "OFFICIAL on the morning "
             "road, his travel-worn profile in the near frame stopped dead "
             "mid-stride, staff frozen against the ground — and far DOWN the "
             "road ahead of him, directly along his line of sight, two small "
@@ -527,7 +531,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b23", "out": "s23-thy-son-liveth-again.jpeg", "seg": "s51",
-        "window": "108.59-111.42", "wide": True, "jesus": False, "ref": False,
+        "window": "108.59-111.42", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "SERVANTS", "ROAD"],
         "narration": "Thy son liveth. (John 4:51)",
         "must_show": "the arrival of the news — the servants reaching him, faces alight, the words bursting out of them.",
@@ -567,7 +571,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b25", "out": "s25-what-hour.jpeg", "seg": "n10 + s52",
-        "window": "123.34-131.61", "wide": True, "jesus": False, "ref": False,
+        "window": "123.34-131.61", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "SERVANTS", "ROAD"],
         "narration": ("So he asked them exactly when the boy had started to "
                       "mend. / Yesterday at the seventh hour the fever left "
@@ -587,7 +591,7 @@ BEATS = [
     },
     {
         "id": "v2-r050-b26", "out": "s26-the-same-hour.jpeg", "seg": "n10b",
-        "window": "131.61-141.39", "wide": True, "jesus": False, "ref": False,
+        "window": "131.61-141.39", "wide": False, "jesus": False, "ref": False,
         "locks": ["NOBLEMAN", "SERVANTS", "ROAD"],
         "narration": ("And he knew that hour. It was the exact hour Jesus had "
                       "stood in front of him and said, thy son liveth. It had "
@@ -617,7 +621,9 @@ BEATS = [
         "must_show": "v53 — the homecoming: the boy WELL, up on his feet in his father's arms, the whole household around them.",
         "must_not_show": "no sickbed in frame; the fever is over; nobody in cream.",
         "scene": (
-            "In the colonnaded court of the Capernaum house in warm late-day "
+            "In the colonnaded court of the Capernaum house in warm "
+            "late-day light, the camera behind the gathered "
+            "household's shoulders, in "
             "light, the official has dropped to one knee with his small son "
             "caught up whole and laughing in his arms — the boy bright-eyed "
             "and well in a dark ochre tunic, his arms around his father's "
@@ -629,3 +635,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "ROAD": "PLACE-REF/road.jpeg",  # build-38-persistent-widow v2-r038-b39
+}
+# === end PLACE-PLATES ===
