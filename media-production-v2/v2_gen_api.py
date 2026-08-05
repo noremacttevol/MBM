@@ -63,12 +63,27 @@ MAX_PAYLOAD_B64 = 18_000_000   # chars; the API rejects requests near 20 MB
 
 # The CAST-V2 library: lock token -> file stems in CAST-V2-REF/ (front + quarter).
 # Only tokens listed here auto-attach; a build's own REFS dict wins on a name clash.
+# A token auto-attaches ONLY when its <stem>-front.jpeg / <stem>-quarter.jpeg actually
+# exist in CAST-V2-REF/ (>50 KB). A token listed here with NO sheet on disk renders
+# the character TEXT-ONLY — cast_refs_for() now prints a loud warning so that never
+# passes silently again (the row-17 Martha/Mary face-board miss, 2026-08-05).
+#
+# THE THREE MARYS — never add a bare "MARY" token here. In the beats, "MARY" names
+# THREE different women (each build carries its own MARY LOCK prose saying which):
+#   * Mary of Bethany (Lazarus' sister)  -> token MARY-BETHANY    (sheet ✓, from build-16)
+#   * Mary the mother of Jesus           -> token MARY-MOTHER     (sheet pending a v2 render)
+#   * Mary Magdalene                     -> token MARY-MAGDALENE  (sheet pending; build-98 unbuilt)
+# A global "MARY" would stamp ONE face onto all three (nativity + tomb + Bethany) —
+# a guaranteed face-board failure. Future authors: lock the DISAMBIGUATED token, never
+# bare "MARY", and the correct sheet attaches by itself.
 GLOBAL_CAST = {
     "PETER": "peter", "ANDREW": "andrew", "JAMES-Z": "james-z", "JOHN": "john",
     "PHILIP": "philip", "BARTHOLOMEW": "bartholomew", "THOMAS": "thomas",
     "MATTHEW": "matthew", "JAMES-A": "james-a", "THADDAEUS": "thaddaeus",
-    "SIMON-Z": "simon-z", "JUDAS": "judas", "MARY-MOTHER": "mary-mother",
-    "MARY-MAGDALENE": "mary-magdalene", "JOHN-BAPTIST": "john-baptist",
+    "SIMON-Z": "simon-z", "JUDAS": "judas",
+    "MARTHA": "martha", "MARY-BETHANY": "mary-bethany",
+    "MARY-MOTHER": "mary-mother", "MARY-MAGDALENE": "mary-magdalene",
+    "JOHN-BAPTIST": "john-baptist",
 }
 
 FACE_LOCK_TEXT = (
@@ -259,11 +274,19 @@ def cast_refs_for(beat, build_refs_cache):
                 labels.append(name)
         elif name in GLOBAL_CAST:
             stem = GLOBAL_CAST[name]
+            before = len(out)
             for angle in ("front", "quarter"):
                 p = os.path.join(CAST_DIR, f"{stem}-{angle}.jpeg")
                 if os.path.exists(p) and os.path.getsize(p) > 50000:
                     out.append(b64_file(p))
                     labels.append(f"{name}:{angle}")
+            if len(out) == before:
+                # Token is in the library but its sheet is missing — the exact
+                # silent path that rendered row-17's sisters text-only. Say so loudly.
+                print(f"      WARNING: {name} is in GLOBAL_CAST but no sheet "
+                      f"({stem}-front/quarter.jpeg) exists in CAST-V2-REF/ — it will "
+                      f"render TEXT-ONLY (face-board risk). Add the sheet or wire a "
+                      f"build-local REFS[{name!r}].")
     if len(out) > MAX_CHAR_REF_IMAGES:
         print(f"      (capping character refs {len(out)} -> {MAX_CHAR_REF_IMAGES})")
         out = out[:MAX_CHAR_REF_IMAGES]
