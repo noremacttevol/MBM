@@ -1,3 +1,14 @@
+## 2026-08-05 (continued 12) — Rows 81-83 Ready: FORTY-FIVE on the board — Machine A `Dev`
+
+81 render-unto-caesar (the coin's lawful lettering; they-produce-it
+choreography; mirrored trap/reversal wides), 82 anointing-at-bethany
+(THREE-WOMEN law — never cross the anointings; broken-at-the-neck,
+on-the-head exactness; oil persists), 83 weeping-over-jerusalem (THE
+complaint row: toward-the-city direction law, no-giant gates, end-card
+truncation check; overlook seeds row 88).
+
+Board: 17, 40-83 Ready ✅ (forty-five). Next: 84+ (nativity block).
+
 ## 2026-08-05 (continued 11) — Rows 77-80 Ready: FORTY-TWO on the board — Machine A `Dev`
 
 77 widows-mite (two-mites count; pointing line lands on her; TREASURY
