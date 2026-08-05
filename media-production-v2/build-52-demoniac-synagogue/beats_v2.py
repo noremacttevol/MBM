@@ -96,7 +96,9 @@ BEATS = [
         "must_show": "v21 — Jesus rising to teach in the crowded sabbath hall; the room still settling, unaware of what is coming.",
         "must_not_show": "no halo/glow; he stands as a guest teacher among them, not enthroned.",
         "scene": (
-            "In the bright shafted morning light of the crowded stone hall, "
+            "In the bright shafted morning light of the crowded "
+            "stone hall, the camera at the side aisle taking the "
+            "room from the side, "
             "Jesus has risen to his feet near the scroll chest to teach, "
             "calm and plain among them, while the sabbath congregation "
             "settles along the stepped stone benches and the rush mats — "
@@ -107,7 +109,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b02", "out": "s02-as-they-always-did.jpeg", "seg": "n1 p2",
-        "window": "5.84-12.80", "wide": True, "jesus": False, "ref": False,
+        "window": "5.84-12.80", "wide": False, "jesus": False, "ref": False,
         "locks": ["SYNAGOGUE", "ELDERS"],
         "narration": ("The people had gathered as they always did, to hear "
                       "the scriptures taught and explained by the teachers "
@@ -127,7 +129,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b03", "out": "s03-taught-with-authority.jpeg", "seg": "n2 p1-p2",
-        "window": "12.80-20.34", "wide": True, "jesus": True, "ref": REF,
+        "window": "12.80-20.34", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SYNAGOGUE", "ELDERS"],
         "narration": ("But this was different. He taught them as one who had "
                       "authority of his own, not leaning on teacher after "
@@ -147,7 +149,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b04", "out": "s04-the-room-astonished.jpeg", "seg": "n2 p3",
-        "window": "20.34-26.35", "wide": True, "jesus": False, "ref": False,
+        "window": "20.34-26.35", "wide": False, "jesus": False, "ref": False,
         "locks": ["SYNAGOGUE"],
         "narration": ("His words carried a quiet weight, and the whole room "
                       "felt it, and was astonished."),
@@ -172,7 +174,8 @@ BEATS = [
         "must_show": "v23 — the man IN the congregation, one of them, but alone in the middle of everyone; the wrongness only in him.",
         "must_not_show": "FLAG A: no shadow, no dark shape, no visual of the spirit — only a hunched man; nobody looks at him yet.",
         "scene": (
-            "Among the seated congregation, half in the shadow between "
+            "Among the seated congregation, the camera low behind "
+            "the back rows' shoulders, half in the shadow between "
             "two light shafts, the gaunt man sits hunched over his own "
             "knees, his ragged grey-brown tunic pulled tight around him, "
             "arms wrapped across his chest, staring at the floor — an "
@@ -203,7 +206,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b07", "out": "s07-he-rose-up.jpeg", "seg": "n3 p3",
-        "window": "35.51-40.44", "wide": True, "jesus": False, "ref": False,
+        "window": "35.51-40.44", "wide": False, "jesus": False, "ref": False,
         "locks": ["FREEDMAN", "SYNAGOGUE"],
         "narration": "Unable to stay silent any longer, he suddenly cried out.",
         "must_show": "the eruption beginning — the man surging to his feet mid-congregation, the first heads snapping around.",
@@ -245,7 +248,8 @@ BEATS = [
         "must_show": "the confrontation opens — the crying man and, across the hall, Jesus turned calmly to face him; the room between them emptying.",
         "must_not_show": "Jesus unmoved, unhurried — no defensive posture, no raised hands.",
         "scene": (
-            "Down the length of the pillared hall the two of them now "
+            "Down the length of the pillared hall, the camera at the "
+            "side wall holding the whole axis in profile, the two of them now "
             "face each other: the rigid man mid-cry with the congregation "
             "shrinking back off the benches around him, and Jesus standing "
             "quite still in the morning light at the teaching place, "
@@ -257,7 +261,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b10", "out": "s10-i-know-thee.jpeg", "seg": "s24 p2-p3",
-        "window": "48.28-56.11", "wide": True, "jesus": True, "ref": REF,
+        "window": "48.28-56.11", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FREEDMAN", "SYNAGOGUE"],
         "narration": ("art thou come to destroy us? I know thee who thou "
                       "art, the Holy One of God. (Mark 1:24)"),
@@ -276,7 +280,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b11", "out": "s11-the-room-frozen.jpeg", "seg": "n4b p1-p2",
-        "window": "56.11-61.65", "wide": True, "jesus": False, "ref": False,
+        "window": "56.11-61.65", "wide": False, "jesus": False, "ref": False,
         "locks": ["FREEDMAN", "SYNAGOGUE", "ELDERS"],
         "narration": ("Leave us alone. And then, almost trembling: Sit with "
                       "that for a second."),
@@ -296,7 +300,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b12", "out": "s12-the-darkness-said-it-first.jpeg", "seg": "n4b p3",
-        "window": "61.65-69.73", "wide": True, "jesus": True, "ref": REF,
+        "window": "61.65-69.73", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FREEDMAN", "SYNAGOGUE"],
         "narration": ("In a room full of religious people, the first one to "
                       "say out loud exactly who he was, was the darkness."),
@@ -333,7 +337,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b14", "out": "s14-no-battle.jpeg", "seg": "n5 p1-p3",
-        "window": "73.25-80.36", "wide": True, "jesus": True, "ref": REF,
+        "window": "73.25-80.36", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FREEDMAN", "SYNAGOGUE"],
         "narration": ("Be quiet, and come out of him. Just a few short "
                       "words. There was no long battle, no struggle of "
@@ -353,7 +357,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b15", "out": "s15-it-tore-him-and-left.jpeg", "seg": "n5 p4",
-        "window": "80.36-87.48", "wide": True, "jesus": False, "ref": False,
+        "window": "80.36-87.48", "wide": False, "jesus": False, "ref": False,
         "locks": ["FREEDMAN", "SYNAGOGUE"],
         "narration": ("At his word the spirit shook the man one last time, "
                       "cried out with a loud voice, and came out of him."),
@@ -408,7 +412,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b18", "out": "s18-himself-again.jpeg", "seg": "n6 p2a",
-        "window": "93.40-98.50", "wide": True, "jesus": False, "ref": False,
+        "window": "93.40-98.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["FREEDMAN", "SYNAGOGUE"],
         "narration": ("The torment had drained from his face, and he stood "
                       "there quiet and whole,"),
@@ -427,7 +431,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b19", "out": "s19-like-waking-from-a-dream.jpeg", "seg": "n6 p2b",
-        "window": "98.50-103.84", "wide": True, "jesus": False, "ref": False,
+        "window": "98.50-103.84", "wide": False, "jesus": False, "ref": False,
         "locks": ["FREEDMAN", "SYNAGOGUE"],
         "narration": ("himself again, like someone waking gently from a "
                       "long and terrible dream."),
@@ -445,7 +449,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b20", "out": "s20-they-turned-to-each-other.jpeg", "seg": "n7 p1",
-        "window": "103.84-107.69", "wide": True, "jesus": False, "ref": False,
+        "window": "103.84-107.69", "wide": False, "jesus": False, "ref": False,
         "locks": ["SYNAGOGUE", "ELDERS"],
         "narration": ("The people were amazed, and they turned to one "
                       "another asking:"),
@@ -464,7 +468,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b21", "out": "s21-what-thing-is-this.jpeg", "seg": "s27",
-        "window": "107.69-118.33", "wide": True, "jesus": True, "ref": REF,
+        "window": "107.69-118.33", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SYNAGOGUE", "ELDERS"],
         "narration": ("What thing is this? what new doctrine is this? for "
                       "with authority commandeth he even the unclean "
@@ -484,7 +488,7 @@ BEATS = [
     },
     {
         "id": "v2-r052-b22", "out": "s22-an-ordinary-sabbath.jpeg", "seg": "n7b",
-        "window": "118.33-127.34", "wide": True, "jesus": True, "ref": REF,
+        "window": "118.33-127.34", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FREEDMAN", "SYNAGOGUE", "ELDERS"],
         "narration": ("What is this? A new teaching, and it comes with "
                       "authority behind it. They had come to synagogue that "
@@ -512,7 +516,9 @@ BEATS = [
         "must_show": "v28 — the news leaving the building: worshippers spilling from the synagogue door into the street, already telling it.",
         "must_not_show": "midday now; the sabbath crowd disperses in every direction with the story.",
         "scene": (
-            "Outside the synagogue's basalt doorway in full midday light, "
+            "Outside the synagogue's basalt doorway in full midday "
+            "light, the camera across the street watching the "
+            "spill from the side, "
             "the congregation spills down the steps into the Capernaum "
             "street in knots of animated talk — a young man already "
             "trotting away up the lane, a woman calling the story across "
@@ -532,7 +538,9 @@ BEATS = [
         "must_show": "the story travelling the region — a road between villages, the telling in motion, Galilee wide beyond.",
         "must_not_show": "no map graphics, no montage tricks — one real road doing the work.",
         "scene": (
-            "On a pale road winding between terraced Galilean hills in "
+            "On a pale road winding between terraced Galilean hills, "
+            "the camera above the verge taking the walkers in "
+            "profile, in "
             "the afternoon light, a traveller has stopped a family coming "
             "the other way and is telling it — arms wide in the middle of "
             "the story — while beyond them the road runs on past olive "
@@ -545,3 +553,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "SYNAGOGUE": "PLACE-REF/synagogue.jpeg",  # build-05-bent-woman v2-r005-b28
+}
+# === end PLACE-PLATES ===
