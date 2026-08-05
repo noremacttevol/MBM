@@ -100,6 +100,7 @@ BEATS = [
         "must_not_show": "no halo/glow; an ordinary good-spirited road crowd — nobody knows what is at the gate.",
         "scene": (
             "On the dusty uphill road in bright late-morning light, "
+            "the camera off the verge taking the column from the side, "
             "Jesus walks in the midst of a large travelling crowd — "
             "disciples close around him, families with bundles, talk "
             "and easy movement all through the column — while ahead of "
@@ -118,7 +119,7 @@ BEATS = [
         "must_show": "the collision course — from behind the travellers: the dark funeral procession just emerging from the arched gate ahead.",
         "must_not_show": "the two crowds have not met yet — the gap between them is closing and is the frame's subject.",
         "scene": (
-            "SHOT FROM BEHIND THE TRAVELLING CROWD, over their heads up "
+            "THE CAMERA STANDS BEHIND THE TRAVELLING CROWD, over their heads up "
             "the road: the arched stone gate of Nain stands open ahead "
             "of them, and out of its shadow a second procession is "
             "emerging — dark-clothed, slow, close-packed — spilling "
@@ -130,7 +131,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b03", "out": "s03-out-came-a-funeral.jpeg", "seg": "n2 p1",
-        "window": "12.21-13.81", "wide": True, "jesus": False, "ref": False,
+        "window": "12.21-13.81", "wide": False, "jesus": False, "ref": False,
         "locks": ["SON", "BIER", "NAIN"],
         "narration": "Out of the gate came a funeral.",
         "must_show": "v12 — the bier in the gateway: four bearers, the open pallet shoulder-high, the still form on it.",
@@ -149,7 +150,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b04", "out": "s04-behind-him-his-mother.jpeg", "seg": "n2 p2",
-        "window": "13.81-21.27", "wide": True, "jesus": False, "ref": False,
+        "window": "13.81-21.27", "wide": False, "jesus": False, "ref": False,
         "locks": ["WIDOW", "SON", "BIER", "NAIN"],
         "narration": ("A young man had died, carried out on an open bier, "
                       "and behind him walked his mother, a widow, "
@@ -187,7 +188,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b06", "out": "s06-the-town-walked-with-her.jpeg", "seg": "n2 p4",
-        "window": "24.98-29.73", "wide": True, "jesus": False, "ref": False,
+        "window": "24.98-29.73", "wide": False, "jesus": False, "ref": False,
         "locks": ["WIDOW", "NAIN"],
         "narration": ("A large crowd from the town walked with her in her "
                       "sorrow."),
@@ -233,7 +234,8 @@ BEATS = [
         "must_not_show": "nobody has spoken yet; the halt itself is the drama.",
         "scene": (
             "The wide frame holds both processions stopped face to "
-            "face on the sunlit road outside the gate: on one side the "
+            "face, the camera off to the side so the meeting reads "
+            "in profile, on the sunlit road outside the gate: on one side the "
             "travelling crowd gone quiet around Jesus at its front, on "
             "the other the dark funeral bunched behind the bier and "
             "the lone veiled woman — a few paces of empty dust between "
@@ -302,7 +304,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b12", "out": "s12-he-could-not-walk-past.jpeg", "seg": "n3b p3-p4",
-        "window": "54.27-60.53", "wide": True, "jesus": True, "ref": REF,
+        "window": "54.27-60.53", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WIDOW", "SON", "BIER", "NAIN"],
         "narration": ("No one there had asked him to do a single thing. "
                       "He simply could not walk past her sorrow."),
@@ -322,7 +324,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b13", "out": "s13-what-no-one-does.jpeg", "seg": "n4 p1",
-        "window": "60.53-63.53", "wide": True, "jesus": True, "ref": REF,
+        "window": "60.53-63.53", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SON", "BIER"],
         "narration": "Then he did something no one does at a funeral.",
         "must_show": "the turn toward the bier — Jesus stepping from the widow toward the pallet, hand rising; the bearers' alarm beginning.",
@@ -341,7 +343,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b14", "out": "s14-he-touched-the-bier.jpeg", "seg": "s14a",
-        "window": "63.53-70.28", "wide": True, "jesus": True, "ref": REF,
+        "window": "63.53-70.28", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SON", "BIER"],
         "narration": ("And he came and touched the bier: and they that "
                       "bare him stood still. And he said, (Luke 7:14)"),
@@ -395,7 +397,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b17", "out": "s17-he-sat-up.jpeg", "seg": "n5 p1",
-        "window": "77.96-81.61", "wide": True, "jesus": True, "ref": REF,
+        "window": "77.96-81.61", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SON", "BIER", "NAIN"],
         "narration": ("And the young man who had been dead sat up, and "
                       "began to speak."),
@@ -415,7 +417,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b18", "out": "s18-life-poured-back.jpeg", "seg": "n5 p2-p3",
-        "window": "81.61-91.59", "wide": True, "jesus": True, "ref": REF,
+        "window": "81.61-91.59", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SON", "BIER", "NAIN"],
         "narration": ("Life poured back into him at the sound of that "
                       "voice, as simply as morning comes. Death let go of "
@@ -435,7 +437,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b19", "out": "s19-gave-him-to-his-mother.jpeg", "seg": "n6 p1",
-        "window": "91.59-94.38", "wide": True, "jesus": True, "ref": REF,
+        "window": "91.59-94.38", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WIDOW", "SON"],
         "narration": ("And Jesus took him by the hand and gave him back "
                       "to his mother."),
@@ -455,7 +457,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b20", "out": "s20-back-in-her-arms.jpeg", "seg": "n6 p2",
-        "window": "94.38-102.70", "wide": True, "jesus": True, "ref": REF,
+        "window": "94.38-102.70", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WIDOW", "SON", "NAIN"],
         "narration": ("He did not keep him or make a spectacle of him; he "
                       "simply returned a son to the arms of the woman who "
@@ -484,7 +486,8 @@ BEATS = [
         "must_show": "v16 — the two crowds become one congregation at the gate: hands lifted, faces awed, praise breaking out around the reunited pair.",
         "must_not_show": "fear AND praise together — awe with joy in it, not terror.",
         "scene": (
-            "Outside the gate of Nain the two processions have "
+            "Outside the gate of Nain, the camera behind the mingled "
+            "crowd's near shoulders, the two processions have "
             "dissolved into one rejoicing crowd: hands lifted to "
             "heaven all across the frame, an old mourner on his "
             "knees, women praising through tears, the empty bier "
@@ -497,7 +500,7 @@ BEATS = [
     },
     {
         "id": "v2-r056-b22", "out": "s22-the-news-went-out.jpeg", "seg": "n7b",
-        "window": "112.85-117.41", "wide": True, "jesus": False, "ref": False,
+        "window": "112.85-117.41", "wide": False, "jesus": False, "ref": False,
         "locks": ["NAIN"],
         "narration": ("And the news of it went out through all the "
                       "country round about."),
@@ -518,3 +521,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
