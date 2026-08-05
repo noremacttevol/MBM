@@ -1,3 +1,46 @@
+## 2026-08-04 (later) — Row 39 FINISHED + SHIPPED; the plate system fixed its first real defects — Claude worker 35, Machine A `Dev`
+
+Cameron pushed back on the previous entry, correctly, on all three counts: (1) Google
+billing auto-reloads — "go top up" was a dumb answer; the API generated the moment it
+was asked. (2) "1,307 approved stills / 37 finished builds" overstated reality —
+ASSEMBLED IS NOT APPROVED: under REDO-ALL nothing is approved until Cameron
+re-approves it, and **66 of 77 complaint-bearing rows have OPEN complaints** (list
+printed from REVIEW-LESSONS.json this session: wrong/old voices, mispronunciations,
+face/size drift, caption bugs, question-card encoding squares, row 140's story itself).
+(3) A tool nobody has used is not progress on the 200 — so the tool was put to work
+the same hour.
+
+**Row 39 The Pharisee and the Publican: DONE and on the reviewer.**
+`luke-18_pharisee-and-publican.mp4`, 58/58 native-2K, 247.3 s, 22.0 MB, AUDIO LOCK
+PASS SHA256 `2693bcca…`, captions checked on frames extracted from the RENDERED mp4,
+card on `site/review.html` version-locked to `b9c5c44b4` (wave `realistic-v2`).
+Awaiting Cameron. Prior approval VOID under REDO-ALL.
+
+**The instructive part — the six billing-blocked rerolls, generated the OLD way
+(text-only cures), came back with THREE new court defects:** b26 regrew the exact
+crenellated parapet its own scene text bans by name; b53 painted a colonnaded portico
+plus a second figure into a court its text calls empty; b55 added battlements and a
+classical facade. The cures that held were the new tools: an approved KEPT frame
+promoted as the TEMPLE-COURT **place plate** fixed b26 in ONE roll and pulled b53/b55
+onto the right court (gold-front sanctuary per the lock, rough ramp altar); the
+PLACE preamble gained a wall-top clause; and the final sliver — battlement teeth on
+one wall crest that survived FOUR renders — died to a **geometry edit pass** (attach
+the finished frame, change only the named wall top, recheck everything at zoom),
+now written into rubric lesson 11. Fix cycle for all six: **$1.47** (meter $206.36).
+One trap re-hit: a scripted scene-text insert failed to find its anchor and reported
+it, but the roll had already been queued — same class as the row-39 silent-append
+lesson; the engine-level preamble carried the fix anyway.
+
+Also: duplicate scaffold `build-39-the-pharisee-and-the-publican` (42-beat map from
+Jul 29, no art) quarantined to `media-production-v2/_stale-dupes/` — it was blocking
+`v2_assemble.py 39`.
+
+**Next work, in order:** the 66 open complaints (voice/audio redos and pronunciation
+fixes cluster into batchable families) and rows 40+ (~161 rows with no V2 build);
+build-40 is already plate-wired and dry-run-verified from the earlier session.
+
+Commit: `b9c5c44b4` (ship) + this entry.
+
 ## 2026-08-04 — PLACE PLATES: the picture pipeline now COPIES its own good pictures — Claude worker 35, Machine A `Dev`
 
 Cameron's order this session: *"it should be using the old pictures ... use the stash
