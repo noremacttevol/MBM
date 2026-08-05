@@ -128,7 +128,9 @@ BEATS = [
         "must_show": "the actual stage — the Cana courtyard dressed for the wedding in golden afternoon: lamps strung, tables laid, garlands up; joy's venue introduced.",
         "must_not_show": "no halo, glare or rim-light; festivity in preparation — the least miraculous-looking setting in scripture.",
         "scene": (
-            "The vine-shaded courtyard stands dressed for "
+            "The vine-shaded courtyard stands dressed for its "
+            "wedding, the camera at the gate taking the whole "
+            "court from the side, ready for "
             "its wedding in the golden afternoon — little "
             "oil lamps strung on cords between the posts, "
             "the long tables laid down both sides, myrtle "
@@ -141,7 +143,7 @@ BEATS = [
     },
     {
         "id": "v2-r049-b03", "out": "s03-he-was-there-as-a.jpeg", "seg": "n2",
-        "window": "10.75-17.96", "wide": True, "jesus": True, "ref": REF,
+        "window": "10.75-17.96", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARY", "COURT"],
         "narration": (
             "He was there as a guest, with his mother and his friends. A "
@@ -170,7 +172,9 @@ BEATS = [
         "must_show": "the joy at height — the courtyard dancing as evening comes: the ring of dancers, the lamps taking over from the sky, Jesus clapping the rhythm from the bench.",
         "must_not_show": "no halo, glare or rim-light on Jesus; his participation ordinary — clapping, delighting; joy needs no miracle yet.",
         "scene": (
-            "Evening arrives and the courtyard dances — the "
+            "Evening arrives and the courtyard dances, the camera "
+            "low behind the seated clappers so the ring turns "
+            "past them — the "
             "ring of dancers turning to the pipe and drum "
             "as the strung lamps take over from the "
             "fading sky, children weaving between the "
@@ -248,7 +252,7 @@ BEATS = [
     },
     {
         "id": "v2-r049-b08", "out": "s08-and-she-did-not-go.jpeg", "seg": "n4",
-        "window": "40.26-46.88", "wide": True, "jesus": True, "ref": REF,
+        "window": "40.26-46.88", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARY", "COURT"],
         "narration": (
             "And she did not go to the host, or the kitchen. She went straight "
@@ -450,7 +454,7 @@ BEATS = [
     },
     {
         "id": "v2-r049-b17", "out": "s17-she-just-turned-to-the.jpeg", "seg": "n6 + w5",
-        "window": "91.24-98.23", "wide": True, "jesus": False, "ref": False,
+        "window": "91.24-98.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARY", "SERVANTS", "COURT"],
         "narration": (
             "She just turned to the servants and gave them the best advice in "
@@ -490,7 +494,7 @@ BEATS = [
     },
     {
         "id": "v2-r049-b19", "out": "s19-she-did-not-explain-and.jpeg", "seg": "n6b",
-        "window": "102.73-111.33", "wide": True, "jesus": False, "ref": False,
+        "window": "102.73-111.33", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARY", "SERVANTS", "COURT"],
         "narration": (
             "She did not explain, and she did not stay to supervise. She handed "
@@ -532,7 +536,7 @@ BEATS = [
     },
     {
         "id": "v2-r049-b21", "out": "s21-standing-nearby-were-six-big.jpeg", "seg": "n7",
-        "window": "111.89-120.49", "wide": True, "jesus": False, "ref": False,
+        "window": "111.89-120.49", "wide": False, "jesus": False, "ref": False,
         "locks": ["JARS", "COURT"],
         "narration": (
             "Standing nearby were six big stone jars, the kind kept for the "
@@ -574,7 +578,7 @@ BEATS = [
     },
     {
         "id": "v2-r049-b23", "out": "s23-fill-the-waterpots-with-water.jpeg", "seg": "jv7 + n8",
-        "window": "127.17-131.62", "wide": True, "jesus": True, "ref": REF,
+        "window": "127.17-131.62", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SERVANTS", "JARS", "COURT"],
         "narration": "Fill the waterpots with water. Not wine.",
         "must_show": "SCRIPTURE-EXACT: the order given — Jesus by the jars speaking quietly to the three servants, one hand indicating the row; their faces taking the anticlimax.",
@@ -625,7 +629,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: to the brim — the bucket brigade in full labour: all three servants hauling and pouring, the last jar's surface trembling AT the rim.",
         "must_not_show": "no halo, glare or rim-light; the brim exact — water standing level with the stone lip; sweat and wondering on the faces.",
         "scene": (
-            "The alcove has become a bucket brigade: the "
+            "The alcove has become a bucket brigade, the camera at "
+            "its side so every haul and pour crosses in profile: "
+            "the "
             "boy jogging in from the lane with two more "
             "pails, the tall man pouring careful and "
             "steady, the stout woman steadying the last "
@@ -678,7 +684,7 @@ BEATS = [
     },
     {
         "id": "v2-r049-b28", "out": "s28-no-show-at-all-he.jpeg", "seg": "n9",
-        "window": "154.79-161.34", "wide": True, "jesus": False, "ref": False,
+        "window": "154.79-161.34", "wide": False, "jesus": False, "ref": False,
         "locks": ["SERVANTS", "COURT"],
         "narration": (
             "No show at all. He simply told them to dip a cup and carry it to "
@@ -774,7 +780,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the toast — the steward with his arm around the baffled bridegroom, cup raised to the feast, publicly crediting the boy for the impossible.",
         "must_not_show": "no halo, glare or rim-light; the bridegroom's bafflement under the praise — credited for a miracle he knows nothing about.",
         "scene": (
-            "Before the whole lamplit feast the steward "
+            "Before the whole lamplit feast, the camera behind the "
+            "nearest table's shoulders, the steward "
             "stands with one expansive arm around the "
             "young bridegroom's shoulders and the cup "
             "raised high in his other hand, proclaiming "
@@ -879,7 +886,9 @@ BEATS = [
         "must_show": "the gift landing wide — the feast restored and doubled: cups filled down the long tables, the dance renewed, ordinary faces bright with wine they will never trace.",
         "must_not_show": "no halo, glare or rim-light; joy general and unknowing — the whole courtyard drinking anonymously given glory.",
         "scene": (
-            "The courtyard runs at full joy again — cups "
+            "The courtyard runs at full joy again, the camera high "
+            "at the gate corner looking down the length from "
+            "behind the last table — cups "
             "refilled down both long tables, the dance "
             "ring doubled, the musicians sweating happily "
             "through their best set, old women laughing "
@@ -916,7 +925,7 @@ BEATS = [
     },
     {
         "id": "v2-r049-b39", "out": "s39-it-was-to-walk-into.jpeg", "seg": "n12",
-        "window": "220.21-227.23", "wide": True, "jesus": False, "ref": False,
+        "window": "220.21-227.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["BRIDEGROOM", "COURT"],
         "narration": (
             "It was to walk into a family's worst moment of the day and quietly "
@@ -959,3 +968,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
