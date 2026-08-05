@@ -167,7 +167,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 153 | build-153-restitution | AUTHORED | 0 | OK |  | ✅ |
 | 154 | build-154-everlasting-gospel | AUTHORED | 0 | OK |  | ✅ |
 | 155 | build-155-falling-away | AUTHORED | 0 | OK |  | ✅ |
-| 156 | build-156-famine-of-hearing | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 156 | build-156-famine-of-hearing | AUTHORED | 0 | OK |  | ✅ |
 | 157 | build-157-marvellous-work | NEEDS-BEATS | 0 | OK |  |  |
 | 158 | build-158-two-sticks | NEEDS-BEATS | 0 | OK |  |  |
 | 159 | build-159-other-sheep | NEEDS-BEATS | 0 | OK |  |  |
