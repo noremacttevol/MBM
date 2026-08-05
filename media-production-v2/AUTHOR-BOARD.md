@@ -156,7 +156,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 142 | build-142-light-of-the-world | AUTHORED | 0 | OK |  | ✅ |
 | 143 | build-143-i-am-the-door | AUTHORED | 0 | OK |  | ✅ |
 | 144 | build-144-resurrection-and-the-life | AUTHORED | 0 | OK |  | ✅ |
-| 145 | build-145-way-truth-life | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 145 | build-145-way-truth-life | AUTHORED | 0 | OK |  | ✅ |
 | 146 | build-146-vine-and-branches | NEEDS-BEATS | 0 | OK |  |  |
 | 147 | build-147-joseph-forgives | NEEDS-BEATS | 0 | OK |  |  |
 | 148 | build-148-ruth-and-the-redeemer | NEEDS-BEATS | 0 | OK |  |  |
