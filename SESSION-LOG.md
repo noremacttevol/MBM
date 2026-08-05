@@ -1,3 +1,20 @@
+## 2026-08-05 (continued 2) — Rows 46-50 Ready: TWELVE rows on the board — Machine A `Dev`
+
+Five more upgrade rows shipped in one continuous run (claim-by-push,
+--check PASS 0 WARNs each, $0): 46 seed-growing (13 phantom-people flips
+on the one-farmer story), 47 rock-and-sand (storm/collapse frames locked
+person-free; builders' tunic-swap trap flagged), 48 new-wine (goatskin-
+not-glass row-7 law; wine-not-blood framing), 49 water-to-wine (THREE-
+MARYS law — the mother is her own actor, future rows anchor to her
+canonical frame; six-jars count law), 50 nobleman's son (his two open
+complaints written as rendered-product gates: question-card squares +
+KANE-a; row-15 grey-sick-boy class top risk; up/down geography on every
+road leg). Plate discipline: FIELD←28, PLAIN←38, ROAD←38 wired; the
+build-34 rich-courtyard and build-16 Bethany-lane suggestions declined
+three times each (wrong world) — decline reasons recorded per-row.
+
+Board: 17, 40-50 all Ready ✅ (twelve). Next: 51+.
+
 ## 2026-08-05 (continued) — Row 44 authored + the runner's Lazarus blocker cleared by author face-picks — Machine A `Dev`
 
 - **Row 17 UNBLOCKED.** The Opus runner correctly refused to build Lazarus:
