@@ -1,3 +1,10 @@
+## 2026-08-05 — Machine A (Fable 5 author, continued): rows 153-156 Ready — the Restoration-arc block underway, 41 rows this session
+- **Rows 153-156 authored from scratch**: 153 restitution (Acts 3 — right-hand lift exactness, one-scroll prophets relay with no named prophet, heaven-holds sky), 154 everlasting-gospel (Rev 14 — wingless angel canon adapted for mid-heaven flight, dignified dark ages, lamp-to-lamp relighting, held-out-lamp close), 155 falling-away (2 Thess 2 — the great lampstand dimming/relighting engine, man-of-sin NEVER depicted, no villains among the drifters, TAKEN-flame close contrasting 154), 156 famine-of-hearing (Amos 8 — full-tables famine law, 152's Amos byte-identical, lamp-shaped-niche proof, open-book table close).
+- The four rows form a deliberate arc with shared registers: 152's watchman/storm-warning mercy → 155's foretold dimming → 154's re-sending → 156's meal set again; the relighting rhyme runs through 154/155, and the closes escalate: offered (154) → taken (155) → seat drawn back for the viewer (156).
+- Cross-row locks kept byte-identical: PAUL (138→155), AMOS+GATE (152→156), TEMPLE family (→153).
+- Board Ready through 156. 157 (marvellous-work) and 158 (two-sticks) next.
+- Commit: (this commit)
+
 ## 2026-08-05 — Machine A (Fable 5 author, continued): rows 151-152 Ready — 37 rows this session; the doctrine-frontier rows are underway
 - **Row 151 (ask-of-god, James 1:5)** — the honest-asking row, kept strictly universal: a timeless young seeker kneels in his own young grove and asks out loud; NO vision, appearance or figure-in-light ever (the BOM/Restoration laws hold — the row plants the question only); the grove's strengthening morning light is the whole answer-engine; closes on the empty kneeling-place offered to the viewer.
 - **Row 152 (revealeth-his-secret, Amos 3:7)** — the living-prophets pattern row: wind-arrival word (God never embodied), the herdsman's ordinariness as doctrine, distant-lion law, mercy register on all warning imagery, and the pattern carried forward by a succession-watchman in timeless period (never modern).
