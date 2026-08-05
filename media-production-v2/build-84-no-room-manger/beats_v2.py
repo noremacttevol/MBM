@@ -88,7 +88,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the decree — a Roman clerk's hall in hard daylight: officials sealing and stacking scrolls, couriers taking them out; an empire's paperwork setting the world in motion.",
         "must_not_show": "no halo, glare or rim-light; no emperor's face needed — the DECREE itself is the actor: scrolls, seals, couriers.",
         "scene": (
-            "In a marble-cool imperial hall the "
+            "In a marble-cool imperial hall, the camera behind the "
+            "waiting petitioners' shoulders, the "
             "decree goes out into the world: "
             "clerks at long tables pressing "
             "seals into wax, scroll after "
@@ -133,7 +134,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b03", "out": "s03-a-command-issued-in-a.jpeg", "seg": "n1",
-        "window": "8.96-14.48", "wide": True, "jesus": False, "ref": False,
+        "window": "8.96-14.48", "wide": False, "jesus": False, "ref": False,
         "locks": ["JOSEPH", "MARY"],
         "narration": (
             "A command issued in a distant palace reached all the way into "
@@ -160,7 +161,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b04", "out": "s04-for-a-young-woman-named.jpeg", "seg": "n2",
-        "window": "14.99-21.26", "wide": True, "jesus": False, "ref": False,
+        "window": "14.99-21.26", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARY", "JOSEPH"],
         "narration": (
             "For a young woman named Mary and a carpenter named Joseph, that "
@@ -195,7 +196,9 @@ BEATS = [
         "must_show": "the distance — the tiny travelling pair on a switchback road through big empty hill country; scale doing the talking: two small figures, ninety long miles.",
         "must_not_show": "no halo, glare or rim-light; the country VAST and the figures small — effort measured in landscape.",
         "scene": (
-            "The wide frame gives the journey "
+            "The wide frame gives the journey its true size, the "
+            "camera far across the valley taking the switchback in "
+            "profile: "
             "its true size: dry Judean hill "
             "country ridged to the horizon "
             "under the travelling sun, the "
@@ -236,7 +239,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b07", "out": "s07-when-they-finally-reached-bethlehem.jpeg", "seg": "n3",
-        "window": "34.73-38.19", "wide": True, "jesus": False, "ref": False,
+        "window": "34.73-38.19", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOWN", "MARY", "JOSEPH"],
         "narration": "When they finally reached Bethlehem, the little town was bursting.",
         "must_show": "the arrival at dusk — the couple and donkey at the town's edge: lanes jammed with census travellers, loaded animals, luggage in doorways; a small town over capacity.",
@@ -270,7 +273,9 @@ BEATS = [
         "must_show": "the fullness itemised — down a lamplit lane: bedrolls on a roof, a family camped under a stair, guests packed visible through a window; every corner spoken for.",
         "must_not_show": "no halo, glare or rim-light; the occupancy TOTAL — no visible empty space anywhere the eye lands.",
         "scene": (
-            "The lamplit lane itemises its own "
+            "The lamplit lane itemises its own fullness, the "
+            "camera at the lane's side so the campers read in "
+            "profile: "
             "fullness: bedrolls laid out along "
             "a flat roof's parapet, a family "
             "of five camped in the triangle "
@@ -336,7 +341,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b11", "out": "s11-and-somewhere-in-that-search.jpeg", "seg": "n4",
-        "window": "55.19-65.30", "wide": True, "jesus": False, "ref": False,
+        "window": "55.19-65.30", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOWN", "MARY", "JOSEPH"],
         "narration": (
             "And somewhere in that search, a tired householder, sorry that he "
@@ -364,7 +369,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b12", "out": "s12-so-the-king-of-all.jpeg", "seg": "n5",
-        "window": "65.88-68.39", "wide": True, "jesus": False, "ref": False,
+        "window": "65.88-68.39", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE", "MARY", "JOSEPH"],
         "narration": "So the King of all creation was born in a stable.",
         "must_show": "the arrival at the cave — Joseph leading Mary and the donkey in through the stable's mouth under the deep starry sky; the lowly shelter received.",
@@ -388,7 +393,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b13", "out": "s13-a-cave-of-rough-stone.jpeg", "seg": "n5",
-        "window": "68.39-76.52", "wide": True, "jesus": False, "ref": False,
+        "window": "68.39-76.52", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE"],
         "narration": (
             "A cave of rough stone, straw on the floor, an ox and a donkey "
@@ -491,7 +496,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b17", "out": "s17-and-she-brought-forth-her.jpeg", "seg": "v7",
-        "window": "87.58-96.21", "wide": True, "jesus": False, "ref": False,
+        "window": "87.58-96.21", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE", "MARY"],
         "narration": (
             "And she brought forth her firstborn son, and wrapped him in "
@@ -596,7 +601,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b21", "out": "s21-he-came-all-the-way.jpeg", "seg": "n7",
-        "window": "110.47-115.94", "wide": True, "jesus": False, "ref": False,
+        "window": "110.47-115.94", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE", "MARY", "JOSEPH"],
         "narration": (
             "He came all the way down, to the bottom, to the people the world "
@@ -647,7 +652,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b23", "out": "s23-just-two-ordinary-exhausted-overjoyed.jpeg", "seg": "n8",
-        "window": "123.28-133.60", "wide": True, "jesus": False, "ref": False,
+        "window": "123.28-133.60", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE", "MARY", "JOSEPH"],
         "narration": (
             "Just two ordinary, exhausted, overjoyed people, and a baby, and "
@@ -700,7 +705,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b25", "out": "s25-that-is-the-scandal-and.jpeg", "seg": "n9",
-        "window": "134.19-140.93", "wide": True, "jesus": False, "ref": False,
+        "window": "134.19-140.93", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE", "TOWN"],
         "narration": (
             "That is the scandal and the sweetness of it. The King everyone "
@@ -755,7 +760,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b27", "out": "s27-and-the-town-slept-on.jpeg", "seg": "n10",
-        "window": "150.05-152.32", "wide": True, "jesus": False, "ref": False,
+        "window": "150.05-152.32", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOWN"],
         "narration": "And the town slept on, not knowing.",
         "must_show": "the sleeping town — Bethlehem's rooftops dark and still under the stars, windows gone black one by one; a whole town asleep beside history.",
@@ -779,7 +784,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b28", "out": "s28-door-after-door-the-answer.jpeg", "seg": "n4",
-        "window": "49.04-51.74", "wide": True, "jesus": False, "ref": False,
+        "window": "49.04-51.74", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOWN", "MARY", "JOSEPH"],
         "narration": "Door after door, the answer was the same.",
         "must_show": "the search — the couple working down the lamplit lane doorway to doorway: one door mid-apology, one already closing, the next waiting; repetition made visible.",
@@ -813,7 +818,8 @@ BEATS = [
         "must_show": "the two facts in one frame — the dark sleeping town above, and at its edge the one small warm-lit cave mouth; history's address, marked by a single humble light.",
         "must_not_show": "no halo, glare or rim-light effects — the cave's light is one honest lamp through a door, the only lit thing in the night.",
         "scene": (
-            "One frame holds both facts of "
+            "One frame holds both facts, the camera on the far "
+            "slope taking hill and cave from the side, of "
             "the night: the hill of dark "
             "crowded houses stacked asleep "
             "under the stars, window after "
@@ -856,7 +862,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b31", "out": "s31-the-room-the-world-would.jpeg", "seg": "n11",
-        "window": "166.56-175.97", "wide": True, "jesus": False, "ref": False,
+        "window": "166.56-175.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE"],
         "narration": (
             "The room the world would not give him, heaven filled with "
@@ -936,7 +942,7 @@ BEATS = [
     },
     {
         "id": "v2-r084-b34", "out": "s34-the-door-of-that-stable.jpeg", "seg": "n12",
-        "window": "184.75-190.68", "wide": True, "jesus": False, "ref": False,
+        "window": "184.75-190.68", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE"],
         "narration": (
             "The door of that stable is still open. He is still the easiest "
@@ -963,3 +969,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "TOWN": "PLACE-REF/town.jpeg",  # build-38-persistent-widow v2-r038-b46
+}
+# === end PLACE-PLATES ===
