@@ -93,6 +93,13 @@ LOCKS = {
 
 REF = True
 
+# Identity law: pin the named disciples to the global sheets (token
+# names never auto-attach — the Lazarus trap).
+REFS = {
+    "ANDREW": ["../CAST-V2-REF/andrew-front.jpeg", "../CAST-V2-REF/andrew-quarter.jpeg"],
+    "PHILIP": ["../CAST-V2-REF/philip-front.jpeg", "../CAST-V2-REF/philip-quarter.jpeg"],
+}
+
 BEATS = [
     {
         "id": "v2-r058-b01", "out": "s01-the-crowd-followed.jpeg", "seg": "n1 p1",
@@ -104,7 +111,9 @@ BEATS = [
         "must_show": "v2-v3 — the scale: the multitude streaming up the green slope from every side toward Jesus.",
         "must_not_show": "no halo/glow; the crowd's convergence on him is the composition.",
         "scene": (
-            "Across the broad green hillside above the blue lake, "
+            "Across the broad green hillside above the blue lake, the "
+            "camera high on the shoulder of the slope behind the "
+            "climbing streams, "
             "the multitude comes streaming up the slope in long "
             "moving lines — families with bundles, men carrying "
             "their sick on litters, children running ahead through "
@@ -117,7 +126,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b02", "out": "s02-he-cared-for-them-all-day.jpeg", "seg": "n1 p2a",
-        "window": "7.32-11.00", "wide": True, "jesus": True, "ref": REF,
+        "window": "7.32-11.00", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILLSIDE"],
         "narration": "He taught them and cared for them all day,",
         "must_show": "the long day's work — Jesus teaching seated among the packed hillside, a healed child on a father's shoulders nearby.",
@@ -144,6 +153,7 @@ BEATS = [
         "must_not_show": "the emptiness of the horizon matters — no roofs, no smoke, nothing to eat for miles.",
         "scene": (
             "The sun stands low and golden over the Sea of Galilee, "
+            "the camera taking the shadowed slope from the side, "
             "and the whole vast seated multitude throws long shadows "
             "up the green slope — thousands of small dark figures "
             "spread across the hillside in the honeyed light — and "
@@ -176,7 +186,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b05", "out": "s05-he-turned-it-back-on-them.jpeg", "seg": "n2 p2-p3",
-        "window": "17.99-24.01", "wide": True, "jesus": True, "ref": REF,
+        "window": "17.99-24.01", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PHILIP", "HILLSIDE"],
         "narration": ("But Jesus turned it back on them. He looked up at "
                       "the crowd coming toward him and asked Philip:"),
@@ -252,7 +262,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b09", "out": "s09-andrew-brought-him.jpeg", "seg": "n3 p2",
-        "window": "38.79-45.27", "wide": True, "jesus": True, "ref": REF,
+        "window": "38.79-45.27", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ANDREW", "LAD", "HILLSIDE"],
         "narration": ("Andrew, Simon Peter's brother, brought a boy to "
                       "Jesus, almost embarrassed to mention it."),
@@ -272,7 +282,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b10", "out": "s10-five-loaves-two-fishes.jpeg", "seg": "s9",
-        "window": "45.27-53.27", "wide": True, "jesus": True, "ref": REF,
+        "window": "45.27-53.27", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ANDREW", "LAD"],
         "narration": ("There is a lad here, which hath five barley "
                       "loaves, and two small fishes: but what are they "
@@ -332,7 +342,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b13", "out": "s13-make-the-men-sit-down.jpeg", "seg": "j10",
-        "window": "66.27-69.52", "wide": True, "jesus": True, "ref": REF,
+        "window": "66.27-69.52", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "HILLSIDE"],
         "narration": "Make the men sit down. (John 6:10)",
         "must_show": "the order going out — Jesus with the basket, disciples turning to fan out across the slope with the instruction.",
@@ -359,7 +369,8 @@ BEATS = [
         "must_show": "v10 / Mark 6:40 — the ordering of the multitude: distinct settled groups patterning the green slope in the low gold light.",
         "must_not_show": "groups, not one mass — the crowd resolves into ordered companies; expectant faces toward one point.",
         "scene": (
-            "The whole hillside settles: the multitude arranges "
+            "The whole hillside settles, the camera above the slope "
+            "behind the nearest seated ranks: the multitude arranges "
             "itself into distinct seated companies across the deep "
             "green grass — group after group after group, patterned "
             "up the slope like beds in a vast garden, russet and "
@@ -413,7 +424,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b17", "out": "s17-carried-through-the-crowd.jpeg", "seg": "n5 p2a",
-        "window": "85.83-91.00", "wide": True, "jesus": False, "ref": False,
+        "window": "85.83-91.00", "wide": False, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "HILLSIDE"],
         "narration": ("The disciples carried it through the crowd, and "
                       "it kept coming, bread and fish, more and more,"),
@@ -432,7 +443,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b18", "out": "s18-all-were-filled.jpeg", "seg": "n5 p2b",
-        "window": "91.00-97.63", "wide": True, "jesus": False, "ref": False,
+        "window": "91.00-97.63", "wide": False, "jesus": False, "ref": False,
         "locks": ["HILLSIDE"],
         "narration": ("until every single person there had eaten as much "
                       "as they wanted, and was full."),
@@ -451,7 +462,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b19", "out": "s19-gather-the-fragments.jpeg", "seg": "jv12",
-        "window": "97.63-102.94", "wide": True, "jesus": True, "ref": REF,
+        "window": "97.63-102.94", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "HILLSIDE"],
         "narration": ("Gather up the fragments that remain, that nothing "
                       "be lost. (John 6:12)"),
@@ -470,7 +481,7 @@ BEATS = [
     },
     {
         "id": "v2-r058-b20", "out": "s20-every-scrap.jpeg", "seg": "n6 p1-p2",
-        "window": "102.94-107.92", "wide": True, "jesus": False, "ref": False,
+        "window": "102.94-107.92", "wide": False, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "HILLSIDE"],
         "narration": ("Pick up every scrap that's left, he said. Let "
                       "nothing go to waste."),
@@ -497,7 +508,8 @@ BEATS = [
         "must_show": "v13 — the count made visible: EXACTLY TWELVE baskets, heaped full, set in a line on the grass in the dusk.",
         "must_not_show": "count discipline: twelve baskets, no more, no fewer — the row must be countable at a glance.",
         "scene": (
-            "On the trampled grass in the deep-gold dusk the "
+            "On the trampled grass in the deep-gold dusk, the camera "
+            "low along the line so all twelve read in profile, the "
             "harvest stands in a line: EXACTLY TWELVE woven baskets "
             "set side by side, every one heaped over its brim with "
             "broken barley bread — and behind the row the disciples "
@@ -539,7 +551,8 @@ BEATS = [
         "must_show": "v14 — the recognition rippling: the crowd rising to its feet in waves, faces and gestures turning toward Jesus.",
         "must_not_show": "awe cresting toward something hungrier — they will try to make him king; the energy is real and slightly too much.",
         "scene": (
-            "Across the dusk hillside the multitude is rising to "
+            "Across the dusk hillside, the camera behind the nearest "
+            "rising backs, the multitude is rising to "
             "its feet in spreading waves — arms lifting, neighbours "
             "gripping each other, faces alight and hungry with "
             "recognition, the word passing visibly from group to "
@@ -559,7 +572,9 @@ BEATS = [
         "must_show": "the closing frame — Jesus small against the last light and the fed thousands scattered across the whole dusky slope; quiet after abundance.",
         "must_not_show": "no halo/glow; the composition alone says who did this.",
         "scene": (
-            "A last wide frame in the blue-and-ember dusk: the "
+            "A last wide frame in the blue-and-ember dusk, the "
+            "camera far down the slope behind the scattered "
+            "groups: the "
             "hillside falls away covered with the fed multitude — "
             "thousands settled and murmuring in the failing light, "
             "small fires beginning here and there — and on the "
@@ -572,3 +587,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===

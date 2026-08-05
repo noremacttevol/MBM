@@ -69,7 +69,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 55 | build-55-withered-hand | AUTHORED | 0 | OK |  | ✅ |
 | 56 | build-56-widow-of-nain | AUTHORED | 0 | OK |  | ✅ |
 | 57 | build-57-jairus-daughter | AUTHORED | 0 | OK |  | ✅ |
-| 58 | build-58-feeding-5000 | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 58 | build-58-feeding-5000 | AUTHORED | 0 | OK |  | ✅ |
 | 59 | build-59-feeding-4000 | AUTHORED | 0 | OK |  |  |
 | 60 | build-60-gerasene-demoniac | AUTHORED | 0 | OK |  |  |
 | 61 | build-61-syrophoenician-woman | AUTHORED | 0 | OK |  |  |
