@@ -126,7 +126,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 112 | build-112-beatitudes | AUTHORED | 0 | OK |  | ✅ |
 | 113 | build-113-where-art-thou | AUTHORED | 0 | OK |  | ✅ |
 | 114 | build-114-abraham-sodom | AUTHORED | 0 | OK |  | ✅ |
-| 115 | build-115-ram-in-the-thicket | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 115 | build-115-ram-in-the-thicket | AUTHORED | 0 | OK |  | ✅ |
 | 116 | build-116-graven-on-his-palms | AUTHORED | 0 | OK |  |  |
 | 117 | build-117-hosea-buys-her-back | AUTHORED | 0 | OK |  |  |
 | 118 | build-118-jonah-god-who-relents | AUTHORED | 0 | OK |  |  |

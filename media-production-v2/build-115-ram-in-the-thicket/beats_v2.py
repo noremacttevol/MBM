@@ -69,7 +69,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r115-b01", "out": "s01-it-is-one-of-the.jpeg", "seg": "n1",
-        "window": "0.28-3.97", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-3.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["MORIAH"],
         "narration": (
             "It is one of the hardest stories in the Bible, and one of the "
@@ -202,8 +202,9 @@ BEATS = [
         "must_show": "the walking trust — father and son small on the long track toward the far mountain in morning light; the walk itself as the faith.",
         "must_not_show": "no figure of God; the pair TOGETHER and unhurried — dread carried, not shown to the boy.",
         "scene": (
-            "The faith takes the form "
-            "of footsteps: the old man "
+            "The faith takes the form of footsteps, the camera "
+            "far off the track taking the small pair in profile — "
+            "the old man "
             "and the boy small on the "
             "long track through the "
             "scrubland, the far pale "
@@ -235,7 +236,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the climb (v6) — the boy with the wood bundle on his back, Abraham with the fire-pot; BOTH OF THEM TOGETHER up the pale slope; the knife NOT featured.",
         "must_not_show": "the knife never prominent — at most an unremarked shape at the belt; the boy's load willing, the pair together.",
         "scene": (
-            "Up the pale slope the two "
+            "Up the pale slope, the camera beside the path so "
+            "both loads read in profile, the two "
             "climb exactly as the verse "
             "carries them: the boy "
             "under his bundle of wood, "
@@ -417,7 +419,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b12", "out": "s12-god-will-provide-abraham-did.jpeg", "seg": "n5",
-        "window": "63.51-67.48", "wide": True, "jesus": False, "ref": False,
+        "window": "63.51-67.48", "wide": False, "jesus": False, "ref": False,
         "locks": ["MORIAH", "ABRAHAM", "ISAAC"],
         "narration": "God will provide. Abraham did not fully understand how.",
         "must_show": "the not-knowing walk — the two nearing the summit in white light, the altar-flat visible ahead; trust outpacing understanding in the old man's set face.",
@@ -481,7 +483,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b14", "out": "s14-and-at-the-very-last.jpeg", "seg": "n5",
-        "window": "72.78-77.44", "wide": True, "jesus": False, "ref": False,
+        "window": "72.78-77.44", "wide": False, "jesus": False, "ref": False,
         "locks": ["MORIAH"],
         "narration": (
             "And at the very last moment, at the edge of everything, heaven "
@@ -544,7 +546,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b16", "out": "s16-his-name-twice-out-of.jpeg", "seg": "n5b",
-        "window": "83.83-89.75", "wide": True, "jesus": False, "ref": False,
+        "window": "83.83-89.75", "wide": False, "jesus": False, "ref": False,
         "locks": ["MORIAH", "ABRAHAM"],
         "narration": (
             "His name, twice, out of the sky. And the old man answered the "
@@ -605,7 +607,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b18", "out": "s18-lay-not-thine-hand-upon.jpeg", "seg": "jv12",
-        "window": "92.99-101.86", "wide": True, "jesus": False, "ref": False,
+        "window": "92.99-101.86", "wide": False, "jesus": False, "ref": False,
         "locks": ["MORIAH", "ABRAHAM", "ISAAC"],
         "narration": (
             "Lay not thine hand upon the lad, neither do thou anything unto "
@@ -709,7 +711,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the ram revealed (v13) — Abraham turning to see the great ram caught by its horns in the thicket, gold light on the fleece; provision, discovered.",
         "must_not_show": "the ram ALIVE and dignified in the thorns; no sacrifice shown; Abraham's turn one of wonder.",
         "scene": (
-            "And then he turns, and "
+            "And then he turns, the camera behind his turning "
+            "shoulder toward the thorn thicket, and "
             "there it is: in the "
             "thorn thicket at the "
             "clearing's edge, a great "
@@ -800,7 +803,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b24", "out": "s24-abraham-named-that-place-the.jpeg", "seg": "n7",
-        "window": "129.32-135.60", "wide": True, "jesus": False, "ref": False,
+        "window": "129.32-135.60", "wide": False, "jesus": False, "ref": False,
         "locks": ["MORIAH", "ABRAHAM", "ISAAC"],
         "narration": (
             "Abraham named that place The Lord Will Provide, and the name "
@@ -836,7 +839,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b25", "out": "s25-and-abraham-trusting-god-completely.jpeg", "seg": "n1",
-        "window": "8.85-12.31", "wide": True, "jesus": False, "ref": False,
+        "window": "8.85-12.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["ABRAHAM", "ISAAC"],
         "narration": "And Abraham, trusting God completely, sets out.",
         "must_show": "SCRIPTURE-EXACT: early in the morning (v3) — the grey dawn departure: the loaded donkey, the boy still sleep-tousled, Abraham leading out from the camp; obedience at first light.",
@@ -866,7 +869,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b26", "out": "s26-in-blessing-i-will-bless.jpeg", "seg": "jv17",
-        "window": "136.16-146.19", "wide": True, "jesus": False, "ref": False,
+        "window": "136.16-146.19", "wide": False, "jesus": False, "ref": False,
         "locks": ["MORIAH", "ABRAHAM", "ISAAC"],
         "narration": (
             "In blessing I will bless thee, and in multiplying I will "
@@ -943,7 +946,8 @@ BEATS = [
         "must_show": "the two counts — the star-thick sky above, and the boy's hand in his father's below: the uncountable promise, and its first entry walking beside him.",
         "must_not_show": "ABSOLUTE: no figure; the boy's HAND IN HIS — the promise's seed, present tense.",
         "scene": (
-            "The two counts of the "
+            "The two counts, the camera low behind the two "
+            "seated figures under the sky, of the "
             "promise share one frame: "
             "above, the sky gone "
             "thick with stars past "
@@ -1032,7 +1036,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b31", "out": "s31-centuries-later-on-another-hill.jpeg", "seg": "n8",
-        "window": "169.01-176.04", "wide": True, "jesus": False, "ref": False,
+        "window": "169.01-176.04", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "Centuries later, on another hill nearby, God would provide a "
@@ -1066,7 +1070,7 @@ BEATS = [
     },
     {
         "id": "v2-r115-b32", "out": "s32-the-lord-will-provide-he.jpeg", "seg": "n8",
-        "window": "176.04-179.74", "wide": True, "jesus": False, "ref": False,
+        "window": "176.04-179.74", "wide": False, "jesus": False, "ref": False,
         "locks": ["MORIAH", "ABRAHAM", "ISAAC"],
         "narration": "The Lord will provide. He always has.",
         "must_show": "the closing image — father and son descending the starlit mountain together, hand in hand, the summit's named stones above them; provision walking home.",
@@ -1097,3 +1101,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
