@@ -120,6 +120,12 @@ LOCKS = {
 
 REF = True
 
+# Identity law: THREE = Peter, James and John — pin the global sheets
+# (token names never auto-attach; the Lazarus trap).
+REFS = {
+    "THREE": ["../CAST-V2-REF/peter-front.jpeg", "../CAST-V2-REF/james-z-front.jpeg", "../CAST-V2-REF/john-front.jpeg"],
+}
+
 BEATS = [
     {
         "id": "v2-r057-b01", "out": "s01-jairus-fell-at-his-feet.jpeg", "seg": "n1 p1",
@@ -131,7 +137,8 @@ BEATS = [
         "must_show": "v22 — the dignitary DOWN in the road dust at Jesus's feet, fine robes and all; the crowd's shock at seeing him there.",
         "must_not_show": "no halo/glow; the crowd parts around the fallen ruler — everyone knows who this man is.",
         "scene": (
-            "In the thronged afternoon road the fine-robed synagogue "
+            "In the thronged afternoon road, the camera at the crowd's "
+            "edge taking the fall in profile, the fine-robed synagogue "
             "ruler has thrown himself down at Jesus's feet — knees in "
             "the dust, his wine-brown robe pooled around him, his "
             "hands gripping toward Jesus's ankles — while the packed "
@@ -199,16 +206,16 @@ BEATS = [
     },
     {
         "id": "v2-r057-b05", "out": "s05-slipping-away-at-home.jpeg", "seg": "n1b p3",
-        "window": "23.45-29.42", "wide": True, "jesus": False, "ref": False,
+        "window": "23.45-29.42", "wide": False, "jesus": False, "ref": False,
         "locks": ["GIRL", "MOTHER", "HOUSE"],
         "narration": ("His only daughter, twelve years old, slipping away "
                       "at home while he stood in the road begging."),
-        "must_show": "meanwhile — the shuttered room: the small girl grey-pale and shallow-breathing in the bed, her mother keeping the vigil.",
+        "must_show": "meanwhile — the shuttered room: the small girl fever-flushed and shallow-breathing in the bed, her mother keeping the vigil.",
         "must_not_show": "G-law: she is gravely ill, never corpse-like here — she still breathes; the mother's face carries the danger.",
         "scene": (
             "In the shuttered dim of the small sleeping room the girl "
             "lies under the dark olive-brown blanket, her small face "
-            "waxen and damp among her loose dark hair, breath coming "
+            "fever-flushed and damp among her loose dark hair, breath coming "
             "shallow — and her mother kneels against the bed with her "
             "daughter's limp hand pressed to her own mouth, eyes "
             "closed, rocking almost imperceptibly, a woman bargaining "
@@ -219,7 +226,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b06", "out": "s06-jesus-went-with-him.jpeg", "seg": "n2 p1",
-        "window": "29.42-31.15", "wide": True, "jesus": True, "ref": REF,
+        "window": "29.42-31.15", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JAIRUS", "ROAD"],
         "narration": "So Jesus went with him.",
         "must_show": "v24 — the setting out: the two men striding off together, the crowd wheeling to follow.",
@@ -244,7 +251,8 @@ BEATS = [
         "must_show": "v24 — the throng: bodies pressing from every side, progress fought for; Jairus dragging the pace forward.",
         "must_not_show": "the crowd is friendly but SLOW — every body in the way is a stolen minute, and Jairus's face knows it.",
         "scene": (
-            "The narrow lane is choked wall to wall: the crowd "
+            "The narrow lane is choked wall to wall, the camera low "
+            "behind the pressing shoulders: the crowd "
             "presses in on every side of Jesus, hands reaching, "
             "neighbours calling, bodies wedged shoulder to shoulder — "
             "and at the front Jairus hauls the way open with both "
@@ -257,7 +265,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b08", "out": "s08-messengers-from-the-house.jpeg", "seg": "n3 p1",
-        "window": "40.24-45.31", "wide": True, "jesus": False, "ref": False,
+        "window": "40.24-45.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["JAIRUS", "ROAD"],
         "narration": ("But before they arrived, messengers came from the "
                       "house with the worst news a father can hear."),
@@ -295,7 +303,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b10", "out": "s10-broke-in-the-road.jpeg", "seg": "n3b p1-p2",
-        "window": "51.12-55.64", "wide": True, "jesus": False, "ref": False,
+        "window": "51.12-55.64", "wide": False, "jesus": False, "ref": False,
         "locks": ["JAIRUS", "ROAD"],
         "narration": ("Why bother the Teacher any further? And Jairus' "
                       "heart broke in the middle of the road."),
@@ -398,7 +406,8 @@ BEATS = [
         "must_show": "v38 — the tumult: the courtyard full of loud mourners, wailing women, the din of formal grief.",
         "must_not_show": "loud communal mourning, real in its way — but its LOUDNESS contrasts the quiet room to come.",
         "scene": (
-            "The walled courtyard of the fine house is a storm of "
+            "The walled courtyard of the fine house, the camera at "
+            "the gate taking it from the side, is a storm of "
             "grief: dark-clothed mourning women wail with arms "
             "thrown up, a circle of neighbours weep and sway, a "
             "grey-bearded man cries the lament with both hands at "
@@ -410,7 +419,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b16", "out": "s16-not-dead-but-sleepeth.jpeg", "seg": "n4 p2 + j39",
-        "window": "83.67-92.83", "wide": True, "jesus": True, "ref": REF,
+        "window": "83.67-92.83", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HOUSE"],
         "narration": ("And Jesus said to them: Why make ye this ado, and "
                       "weep? the damsel is not dead, but sleepeth. "
@@ -430,7 +439,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b17", "out": "s17-they-laughed-at-him.jpeg", "seg": "n4b",
-        "window": "92.83-101.84", "wide": True, "jesus": True, "ref": REF,
+        "window": "92.83-101.84", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HOUSE"],
         "narration": ("Why all this noise and crying, he asked. The child "
                       "is not dead. She's asleep. And they laughed at "
@@ -451,7 +460,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b18", "out": "s18-he-put-them-all-out.jpeg", "seg": "n5 p1",
-        "window": "101.84-103.28", "wide": True, "jesus": True, "ref": REF,
+        "window": "101.84-103.28", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HOUSE"],
         "narration": "He put them all outside.",
         "must_show": "v40 — the clearing: Jesus's arm extended, moving the whole scornful crowd out through the gate; the courtyard emptying.",
@@ -469,7 +478,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b19", "out": "s19-five-went-in-quietly.jpeg", "seg": "n5 p2a",
-        "window": "103.28-107.50", "wide": True, "jesus": True, "ref": REF,
+        "window": "103.28-107.50", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JAIRUS", "MOTHER", "THREE", "HOUSE"],
         "narration": ("Then he took the girl's father and mother, and "
                       "three of his closest friends,"),
@@ -489,7 +498,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b20", "out": "s20-small-and-still.jpeg", "seg": "n5 p2b",
-        "window": "107.50-111.73", "wide": True, "jesus": True, "ref": REF,
+        "window": "107.50-111.73", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GIRL", "JAIRUS", "MOTHER", "HOUSE"],
         "narration": ("and went in quietly to where the child was lying, "
                       "small and still."),
@@ -565,7 +574,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b24", "out": "s24-she-got-up-and-walked.jpeg", "seg": "n6 p3",
-        "window": "130.58-134.91", "wide": True, "jesus": True, "ref": REF,
+        "window": "130.58-134.91", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GIRL", "JAIRUS", "MOTHER", "THREE", "HOUSE"],
         "narration": ("He took her by the hand, and immediately she got "
                       "up, and began to walk."),
@@ -586,7 +595,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b25", "out": "s25-beside-themselves.jpeg", "seg": "n6 p4-p5",
-        "window": "134.91-143.25", "wide": True, "jesus": True, "ref": REF,
+        "window": "134.91-143.25", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GIRL", "JAIRUS", "MOTHER", "HOUSE"],
         "narration": ("She was twelve years old. Her parents were beside "
                       "themselves with wonder, holding the daughter they "
@@ -607,7 +616,7 @@ BEATS = [
     },
     {
         "id": "v2-r057-b26", "out": "s26-give-her-to-eat.jpeg", "seg": "n7 p1",
-        "window": "143.25-148.12", "wide": True, "jesus": True, "ref": REF,
+        "window": "143.25-148.12", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GIRL", "MOTHER", "HOUSE"],
         "narration": ("And then Jesus said the most tender, ordinary "
                       "thing: give her something to eat."),
@@ -634,7 +643,8 @@ BEATS = [
         "must_show": "the closing frame — the girl eating hungrily at the low table, family around her, Jesus watching with plain warmth; supper as doxology.",
         "must_not_show": "warm, low, domestic — no crowd, no spectacle; the miracle ends in a kitchen.",
         "scene": (
-            "At the low table in warm lamplight the girl eats like a "
+            "At the low table in warm lamplight, the camera behind "
+            "Jesus's quiet shoulder at the room's edge, the girl eats like a "
             "healthy twelve-year-old — tearing bread, cheeks full, "
             "reaching for the dish of stew — while her mother hovers "
             "unable to stop touching her hair and Jairus sits close "
@@ -646,3 +656,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "ROAD": "PLACE-REF/road.jpeg",  # build-38-persistent-widow v2-r038-b39
+}
+# === end PLACE-PLATES ===
