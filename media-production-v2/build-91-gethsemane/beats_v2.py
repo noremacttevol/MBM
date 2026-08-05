@@ -81,7 +81,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r091-b01", "out": "s01-it-was-late-on-the.jpeg", "seg": "n1",
-        "window": "0.28-2.14", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-2.14", "wide": False, "jesus": False, "ref": False,
         "locks": ["GROVE"],
         "narration": "It was late on the night before he died.",
         "must_show": "the hour — the moonlit grove empty and still, the dark valley and the city's few lamps beyond; the night itself, waiting.",
@@ -115,7 +115,8 @@ BEATS = [
         "must_show": "the walk in — the file of eleven following Jesus up the moonlit slope into the grove, the city's wall and lamps behind them across the valley.",
         "must_not_show": "no halo, glare or rim-light; the file QUIET — supper's song faded, night settling on the shoulders.",
         "scene": (
-            "Up from the valley floor the "
+            "Up from the valley floor, the camera on the slope's "
+            "side taking the climbing file in profile, the "
             "little company climbs in "
             "moonlight — Jesus first through "
             "the terrace gap, the eleven "
@@ -167,7 +168,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: sit ye here — Jesus turning at the grove's edge, hand gesturing the eight down among the roots; the parting of the company beginning.",
         "must_not_show": "no halo, glare or rim-light; the eight SETTLING — cloaks spreading, backs finding trunks; obedient and tired.",
         "scene": (
-            "At the terrace wall Jesus turns "
+            "At the terrace wall, the camera behind the eight's "
+            "halting shoulders, Jesus turns "
             "and his quiet hand settles the "
             "company: the eight folding down "
             "among the moonlit roots — one "
@@ -211,7 +213,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b06", "out": "s06-then-he-went-deeper-into.jpeg", "seg": "n2",
-        "window": "29.00-31.54", "wide": True, "jesus": True, "ref": REF,
+        "window": "29.00-31.54", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": "Then he went deeper into the trees.",
         "must_show": "the going deeper — Jesus's cream-robed figure moving away up the slope into the older darker trees, the moonlight taking him in and out of shadow.",
@@ -236,7 +238,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b07", "out": "s07-he-took-only-three-with.jpeg", "seg": "n3",
-        "window": "32.16-37.53", "wide": True, "jesus": True, "ref": REF,
+        "window": "32.16-37.53", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE", "PETER", "JAMES-Z", "JOHN"],
         "narration": (
             "He took only three with him — Peter, James, and John, the ones "
@@ -340,7 +342,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b11", "out": "s11-he-told-them-plainly-how.jpeg", "seg": "n4",
-        "window": "56.12-66.29", "wide": True, "jesus": True, "ref": REF,
+        "window": "56.12-66.29", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE", "PETER", "JAMES-Z", "JOHN"],
         "narration": (
             "He told them plainly how heavy his heart was — heavy enough, he "
@@ -392,7 +394,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b13", "out": "s13-everything-he-had-just-wrestled.jpeg", "seg": "n12",
-        "window": "217.10-222.04", "wide": True, "jesus": True, "ref": REF,
+        "window": "217.10-222.04", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE", "PETER", "JAMES-Z", "JOHN"],
         "narration": (
             "Everything he had just wrestled with in the dark, he now "
@@ -421,7 +423,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b14", "out": "s14-then-he-went-on-a.jpeg", "seg": "n5",
-        "window": "69.34-77.46", "wide": True, "jesus": True, "ref": REF,
+        "window": "69.34-77.46", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "Then he went on a little further by himself, about as far as a "
@@ -506,7 +508,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b17", "out": "s17-but-this-night-was-not.jpeg", "seg": "n1",
-        "window": "15.12-17.79", "wide": True, "jesus": True, "ref": REF,
+        "window": "15.12-17.79", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE", "EIGHT"],
         "narration": "But this night was not like the others.",
         "must_show": "the difference — the company entering the familiar grove, but the mood changed: Jesus's face graver than the place has ever seen it, the men subdued.",
@@ -582,7 +584,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b20", "out": "s20-not-his-own-will-he.jpeg", "seg": "n6 + n7",
-        "window": "106.43-112.83", "wide": True, "jesus": True, "ref": REF,
+        "window": "106.43-112.83", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "Not his own will, he prayed, but his Father's. This was no "
@@ -665,7 +667,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b23", "out": "s23-and-still-he-stayed-and.jpeg", "seg": "n7",
-        "window": "124.63-128.19", "wide": True, "jesus": True, "ref": REF,
+        "window": "124.63-128.19", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": "And still he stayed, and still he prayed.",
         "must_show": "the staying — the kneeling figure holding his ground among the roots, unmoved from the place of prayer; endurance as the whole picture.",
@@ -691,7 +693,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b24", "out": "s24-and-heaven-did-not-leave.jpeg", "seg": "n8",
-        "window": "128.74-133.93", "wide": True, "jesus": True, "ref": REF,
+        "window": "128.74-133.93", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE", "ANGEL"],
         "narration": (
             "And heaven did not leave him there alone. An angel came to him "
@@ -785,7 +787,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: sleeping for sorrow — Jesus standing over the three collapsed sleepers among the roots: grief-worn faces slack, bodies fallen rather than settled.",
         "must_not_show": "no halo, glare or rim-light; the sleep GRIEF'S — tear-tracked, fallen-where-they-sat; no comic snoring.",
         "scene": (
-            "He comes back to find sorrow "
+            "He comes back, the camera low behind the sleepers' "
+            "curled forms, to find sorrow "
             "has done what watchfulness "
             "could not fight: the three "
             "fallen asleep where grief "
@@ -891,7 +894,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b31", "out": "s31-he-woke-them-but-he.jpeg", "seg": "n10",
-        "window": "167.87-172.46", "wide": True, "jesus": True, "ref": REF,
+        "window": "167.87-172.46", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE", "PETER", "JAMES-Z", "JOHN"],
         "narration": (
             "He woke them, but he did not scold them. He understood exactly "
@@ -975,7 +978,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b34", "out": "s34-he-went-back-and-prayed.jpeg", "seg": "n11",
-        "window": "183.49-191.37", "wide": True, "jesus": True, "ref": REF,
+        "window": "183.49-191.37", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "He went back and prayed again, and a third time, the very same "
@@ -1033,7 +1036,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b36", "out": "s36-he-rose-from-that-place.jpeg", "seg": "n11 + jv46",
-        "window": "196.52-204.36", "wide": True, "jesus": True, "ref": REF,
+        "window": "196.52-204.36", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE", "PETER", "JAMES-Z", "JOHN"],
         "narration": (
             "He rose from that place resolved. Rise, let us be going: "
@@ -1096,7 +1099,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the torches — the black valley threaded with a distant winding line of torch-points climbing toward the grove; Jesus watching it come, planted.",
         "must_not_show": "ABSOLUTE: the party DISTANT — points of firelight only, no faces, no weapons detailed; Jesus's stance unmoving.",
         "scene": (
-            "From the grove's edge the "
+            "From the grove's edge, the camera behind his still "
+            "shoulder, the "
             "night shows him what is "
             "coming for him: down across "
             "the black valley a thin "
@@ -1117,7 +1121,7 @@ BEATS = [
     },
     {
         "id": "v2-r091-b39", "out": "s39-he-woke-his-friends-and.jpeg", "seg": "n12",
-        "window": "213.98-217.10", "wide": True, "jesus": True, "ref": REF,
+        "window": "213.98-217.10", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE", "PETER", "JAMES-Z", "JOHN"],
         "narration": "He woke his friends, and he walked out to meet it.",
         "must_show": "the walking-to-meet — Jesus striding down toward the grove's gate ahead of the scrambling three, toward the far torchlight; the meeting chosen.",
@@ -1167,3 +1171,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
