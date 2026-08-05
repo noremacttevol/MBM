@@ -1,7 +1,17 @@
 #!/usr/bin/env python3
 """V2 beat map — row 40, build-40-the-friend-at-midnight (Luke 11:1-13).
 
-COVERAGE: 55 pictures over 312.3 s = 5.7 s/picture (matches the library density).
+COVERAGE: 56 pictures over 312.3 s = 5.6 s/picture (matches the library density).
+
+LESSON-12 PASS (2026-08-05): movie coverage, not group portraits. Six true
+wides remain, each stating camera-to-back geometry in its own scene text:
+b01 (grove establish), b03 (the watchers' reverse), b19 (neighbour-house
+establish), b22 (the refusal), b25 (the lane waking), b38 (rooftop scale).
+Every other beat is a single, two-shot, over-shoulder or insert containing
+only the people its moment is about. b56 was added so the payoff's RISE has
+its own frame before the giving (a frame per verb — the John 21 standard).
+Token split: NEIGHBOR-DOOR (street face) vs NEIGHBOR-HOUSE (interior), plus
+COURTYARD and LIT-HOUSE, so each recurring place can carry one plate.
 
 SCRIPTURE FACTS (Luke 11:1-13 KJV):
   v1    "as he was PRAYING in a certain place, when he CEASED, one of his
@@ -94,6 +104,14 @@ LOCKS = {
         "parents, and on the wall shelf a row of round loaves under a "
         "cloth. The same door, bar, platform and shelf throughout."
     ),
+    "NEIGHBOR-DOOR": (
+        "NEIGHBOUR'S DOOR LOCK: the neighbour's street door is the same in "
+        "every shot — heavy vertical planks of dark old wood, a thick wooden "
+        "bar seated in black iron staples visible through any gap, a worn "
+        "stone step below, and at hand height a patch of the planks worn "
+        "smooth and pale by long knocking. The same planks, staples, step "
+        "and worn patch throughout."
+    ),
     "FATHER-SON": (
         "FATHER AND SON LOCK: the father of the comparison beats is the "
         "same man in every shot — broad and gentle, about forty, with a "
@@ -109,6 +127,21 @@ LOCKS = {
         "slope. The disciples wear SATURATED DEEP earth colours (never "
         "cream, never white; only Jesus wears cream). Faces shown "
         "clearly."
+    ),
+    "COURTYARD": (
+        "FAMILY COURTYARD LOCK: the father-and-son beats share one sunlit "
+        "family courtyard — low honey-stone walls, a worn timber house "
+        "door, a small fig tree in one corner, a stone bench and a water "
+        "jar by the wall, a packed-earth floor. The same walls, door, "
+        "tree, bench and jar in every courtyard beat."
+    ),
+    "LIT-HOUSE": (
+        "THE WAKEFUL HOUSE LOCK: the one lit house is the same in every "
+        "shot — a modest honey-stone house at the lane's turning, one "
+        "warm-lit leaded window beside a timber door with NO bar and no "
+        "staples, a worn stone step, and lamplight laid in a long "
+        "rectangle on the packed earth outside. The same window, door and "
+        "step throughout."
     ),
 }
 
@@ -133,14 +166,20 @@ BEATS = [
             "from the little knot of waiting disciples one man has "
             "come forward ahead of the rest, hands open, the "
             "request already forming on his earnest face while his "
-            "brothers watch from below among the old trunks. Every "
-            "figure has two arms, two hands and one head."
+            "brothers watch from below among the old trunks. The "
+            "camera stands level on the slope's flank and holds "
+            "the whole ask in profile — Jesus high at the stone, "
+            "the climbing man mid-slope, the waiting group low — "
+            "every gaze in the group running one way, up the hill "
+            "to Jesus, the path falling away out of the frame's "
+            "lower corner. Every figure has two arms, two hands "
+            "and one head."
         ),
     },
     {
         "id": "v2-r040-b02", "out": "s02-he-knocks-again.jpeg", "seg": "n10",
         "window": "136.01-137.46", "wide": False, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR-HOUSE", "LANE"],
+        "locks": ["ASKER", "NEIGHBOR-DOOR"],
         "narration": "He knocks again.",
         "must_show": "the second knock — a close shot of the asker's knuckles against the heavy plank door in the lamplit dark, jaw set.",
         "must_not_show": "no halo, glare or rim-light; one small lamp's light only; determination hardening on his face.",
@@ -167,14 +206,17 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light on Jesus; the difference they see is stillness and bearing — nothing visual beyond posture and light of dawn.",
         "scene": (
             "From the waiting place lower on the slope: the "
-            "disciples sit among the olive trunks with their "
-            "cloaks pulled against the dawn chill, and every face "
-            "is turned up the hill to where Jesus kneels apart at "
-            "the flat stone, a still cream-clad figure in the "
-            "grey-gold light — watched by men whose expressions "
-            "hold the particular longing of people looking at "
-            "something they want and do not know how to reach. "
-            "Every figure has two arms, two hands and one head."
+            "camera sits low behind the nearest disciple's "
+            "shoulder, the two men beside him in three-quarter "
+            "with their cloaks pulled against the dawn chill, and "
+            "every visible face is turned up the hill to where Jesus "
+            "kneels apart at the flat stone, a still cream-clad "
+            "figure small in the grey-gold light — the watchers' "
+            "faces holding the particular longing of men looking "
+            "at something they want and do not know how to reach, "
+            "the slope climbing out of the frame's top edge toward "
+            "him. Every figure has two arms, two hands and one "
+            "head."
         ),
     },
     {
@@ -197,26 +239,26 @@ BEATS = [
     },
     {
         "id": "v2-r040-b05", "out": "s05-so-he-gave-them-a.jpeg", "seg": "n2",
-        "window": "23.26-24.81", "wide": True, "jesus": True, "ref": REF,
+        "window": "23.26-24.81", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
+        "must_show": "the giving — an over-shoulder shot: Jesus leaning in with his forearms on his knees, handing the words over; the nearest listener's profile mouthing each phrase after him.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; a gift being handed over, intimate and unhurried — not a staged class.",
         "narration": "So he gave them a prayer.",
-        "must_show": "the giving — Jesus seated now among the gathered disciples on the dawn grass, the teaching begun, their faces bent in to receive it.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; a gift being handed over — the circle drawn close.",
         "scene": (
-            "On the dew-grey grass among the olive trunks the "
-            "disciples have gathered close around Jesus, seated "
-            "in a tight ring in the strengthening light — and he "
-            "leans in with his forearms on his knees, giving them "
-            "the words slowly, one man mouthing each phrase after "
-            "him, another with his eyes shut to hold them — a "
-            "treasure changing hands in the early morning. Every "
-            "figure has two arms, two hands and one head."
+            "Over the shoulder of one seated disciple in the "
+            "strengthening light: Jesus leans in close with his "
+            "forearms on his knees, giving them the words slowly, "
+            "and at the frame's near edge the listener's profile "
+            "mouths each phrase after him, eyes shut to hold "
+            "them — a treasure changing hands in the early "
+            "morning under the olive trunks. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r040-b06", "out": "s06-it-was-the-word-a.jpeg", "seg": "n2",
         "window": "28.62-31.43", "wide": False, "jesus": False, "ref": False,
-        "locks": [],
+        "locks": ["FATHER-SON", "COURTYARD"],
         "narration": "It was the word a small child uses.",
         "must_show": "the word itself pictured — a small child running with lifted arms to a father who is already crouching to catch him; 'Abba' in one image.",
         "must_not_show": "no halo, glare or rim-light; pure domestic instinct — the run and the crouch, both already happening.",
@@ -233,29 +275,30 @@ BEATS = [
     },
     {
         "id": "v2-r040-b07", "out": "s07-when-ye-pray-say-our.jpeg", "seg": "j0",
-        "window": "32.02-37.04", "wide": True, "jesus": True, "ref": REF,
+        "window": "32.02-37.04", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "When ye pray, say, Our Father which art in heaven, Hallowed be thy "
             "name."
         ),
-        "must_show": "SCRIPTURE-EXACT: the first words given — Jesus speaking them with his eyes lifted, the disciples' heads bowing around him as the prayer begins to exist in the world.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the moment's weight carried by the bowed heads — the world's most-prayed words at their first hearing.",
+        "must_show": "SCRIPTURE-EXACT: the first words given — a medium shot of Jesus speaking them with his eyes lifted; one bowed head soft at the frame's lower edge as the prayer begins to exist in the world.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the moment's weight carried in his unhurried face — the world's most-prayed words at their first hearing.",
         "scene": (
-            "In the full gold of risen dawn Jesus speaks with his "
-            "face lifted toward the light between the olive "
-            "branches, unhurried, giving each word its own room — "
-            "and around him the ring of disciples has bowed, one "
-            "by one, heads down over folded hands as the first "
-            "prayer any of them will teach their own children "
-            "enters the world in a grove before breakfast. Every "
-            "figure has two arms, two hands and one head."
+            "A medium shot in the full gold of risen dawn: Jesus "
+            "speaks with his face lifted toward the light between "
+            "the olive branches, unhurried, giving each word its "
+            "own room — and soft at the frame's lower edge one "
+            "disciple's head has bowed over folded hands as the "
+            "first prayer any of them will teach their own "
+            "children enters the world in a grove before "
+            "breakfast. Every figure has two arms, two hands and "
+            "one head."
         ),
     },
     {
         "id": "v2-r040-b08", "out": "s08-he-taught-them-to-walk.jpeg", "seg": "n3",
         "window": "38.56-41.38", "wide": False, "jesus": False, "ref": False,
-        "locks": [],
+        "locks": ["FATHER-SON", "COURTYARD"],
         "narration": "He taught them to walk up to God and call him Father.",
         "must_show": "the audacity pictured — the courtyard child now standing at his father's knee mid-conversation, one small hand flat on the big forearm, utterly unafraid.",
         "must_not_show": "no halo, glare or rim-light; access without ceremony — the child interrupts and is welcome.",
@@ -273,7 +316,7 @@ BEATS = [
     },
     {
         "id": "v2-r040-b09", "out": "s09-people-travelled-at-night-there.jpeg", "seg": "n4",
-        "window": "49.16-53.34", "wide": True, "jesus": False, "ref": False,
+        "window": "49.16-53.34", "wide": False, "jesus": False, "ref": False,
         "locks": ["TRAVELER"],
         "narration": (
             "People travelled at night there, because the daytime heat could "
@@ -284,7 +327,8 @@ BEATS = [
         "scene": (
             "Under a moonless sky thick with stars the lone "
             "traveller walks the pale ribbon of road through dark "
-            "country, his indigo cloak grey with dust, the flat "
+            "country, small and full-length in the wide black "
+            "land, his indigo cloak grey with dust, the flat "
             "provision bag hanging empty at his side — the hills "
             "black around him and the night air still shimmering "
             "faintly with the day's stored heat off the stones. "
@@ -293,7 +337,7 @@ BEATS = [
     },
     {
         "id": "v2-r040-b10", "out": "s10-so-a-friend-really-could.jpeg", "seg": "n4",
-        "window": "53.34-59.41", "wide": True, "jesus": False, "ref": False,
+        "window": "53.34-59.41", "wide": False, "jesus": False, "ref": False,
         "locks": ["ASKER", "TRAVELER", "ASKER-HOUSE", "LANE"],
         "narration": (
             "So a friend really could turn up at midnight, starving — and you "
@@ -302,8 +346,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the arrival — the traveller swaying in the asker's low doorway at midnight, and the asker already pulling him inside by both arms.",
         "must_not_show": "no halo, glare or rim-light; the welcome instant and total — no hesitation at the threshold.",
         "scene": (
-            "At the low doorway in the deep night the dust-caked "
-            "traveller stands swaying with exhaustion, one hand "
+            "A tight two-shot at the low doorway in the deep "
+            "night: the dust-caked traveller stands swaying with "
+            "exhaustion, one hand "
             "braced on the jamb — and the asker, night tunic "
             "half-tied, is already pulling him in over the "
             "threshold by both forearms, his lean face all "
@@ -373,7 +418,7 @@ BEATS = [
     },
     {
         "id": "v2-r040-b14", "out": "s14-so-he-picks-up-his.jpeg", "seg": "n6",
-        "window": "72.51-79.89", "wide": True, "jesus": False, "ref": False,
+        "window": "72.51-79.89", "wide": False, "jesus": False, "ref": False,
         "locks": ["ASKER", "LANE"],
         "narration": (
             "So he picks up his little clay lamp and walks out into a sleeping "
@@ -395,29 +440,30 @@ BEATS = [
     },
     {
         "id": "v2-r040-b15", "out": "s15-which-of-you-shall-have.jpeg", "seg": "jv5",
-        "window": "80.40-85.88", "wide": True, "jesus": True, "ref": REF,
+        "window": "80.40-85.88", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "Which of you shall have a friend, and shall go unto him at "
             "midnight, and say unto him,"
         ),
-        "must_show": "the teller mid-tale — Jesus in the morning grove with a storyteller's raised hand, the disciples grinning already at 'which of you'; the question aimed at them.",
+        "must_show": "the teller mid-tale — Jesus with a storyteller's raised hand and one eyebrow up on 'which of you'; the two nearest listeners grinning at the frame's edge; the question aimed at them.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the humour of the setup visible — this parable begins as a joke on the listeners.",
         "scene": (
-            "In the bright morning grove Jesus tells it with a "
+            "Past the shoulders of two grinning disciples in the "
+            "bright morning grove: Jesus tells it with a "
             "storyteller's lifted hand and one eyebrow raised on "
-            "'which of you' — and around the circle the "
-            "disciples are already trading grins, one pointing "
-            "at his neighbour, another shaking his head in "
-            "protest, the whole ring warming to a story that "
-            "has clearly happened to somebody here. Every figure "
-            "has two arms, two hands and one head."
+            "'which of you' — and the two listeners at the "
+            "frame's near edge are already trading looks, one "
+            "jabbing a thumb at his neighbour in mock accusation "
+            "— a story that has clearly happened to somebody "
+            "here, landing exactly where he aimed it. Every "
+            "figure has two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r040-b16", "out": "s16-louder.jpeg", "seg": "n10",
         "window": "137.46-138.26", "wide": False, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR-HOUSE", "LANE"],
+        "locks": ["ASKER", "NEIGHBOR-DOOR"],
         "narration": "Louder.",
         "must_show": "the escalation — the asker's whole flat hand now banging the door, lamp set down on the step, both hands committed.",
         "must_not_show": "no halo, glare or rim-light; the lamp on the step frees both hands — shamelessness beginning in earnest.",
@@ -434,8 +480,8 @@ BEATS = [
     },
     {
         "id": "v2-r040-b17", "out": "s17-friend-lend-me-three-loaves.jpeg", "seg": "j1",
-        "window": "87.41-95.40", "wide": True, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR-HOUSE", "LANE"],
+        "window": "87.41-95.40", "wide": False, "jesus": False, "ref": False,
+        "locks": ["ASKER", "NEIGHBOR-DOOR", "LANE"],
         "narration": (
             "Friend, lend me three loaves; for a friend of mine in his journey "
             "is come to me, and I have nothing to set before him."
@@ -443,8 +489,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the first ask — the asker at the barred door, face close to the wood, calling low and holding up three fingers to the night; polite still, hopeful still.",
         "must_not_show": "no halo, glare or rim-light; three fingers ARE the count and are wanted here; the first ask is quiet — courtesy not yet spent.",
         "scene": (
-            "At the neighbour's door in the small lamplight the "
-            "asker leans his face close to the plank seam, "
+            "A medium close single at the neighbour's door in the "
+            "small lamplight: the asker leans his face close to "
+            "the plank seam, "
             "calling low and courteous through the wood, three "
             "fingers of one hand held up against the dark as if "
             "the door could see the number — his other palm flat "
@@ -484,13 +531,16 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light; the bar across its staples prominent — the architecture of the refusal.",
         "scene": (
             "Inside the neighbour's house the darkness is nearly "
-            "total: faint starlight from one high slit window "
-            "shows the heavy bar seated across the door's iron "
-            "staples, and beyond it the raised sleeping platform "
-            "where the whole family lies as one shape under one "
-            "broad dark blanket — a small child's arm flung out, "
-            "the father's heavy form at the edge — one room, one "
-            "bed, one bar, one knock away from chaos. Every "
+            "total: the camera holds the whole room from the side "
+            "wall, so the barred door and the sleeping platform "
+            "face each other across the frame — faint starlight "
+            "from one high slit window shows the heavy bar seated "
+            "across the door's iron staples, and the raised "
+            "sleeping platform where the whole family lies as one "
+            "shape under one broad dark blanket, a small child's "
+            "arm flung out, the father's heavy form at the edge, "
+            "every sleeper turned away from the door — one room, "
+            "one bed, one bar, one knock away from chaos. Every "
             "figure has two arms, two hands and one head."
         ),
     },
@@ -519,7 +569,7 @@ BEATS = [
     {
         "id": "v2-r040-b21", "out": "s21-people-hear-it-and-think.jpeg", "seg": "n14a",
         "window": "193.13-196.26", "wide": False, "jesus": False, "ref": False,
-        "locks": ["NEIGHBOR", "NEIGHBOR-HOUSE"],
+        "locks": ["NEIGHBOR", "NEIGHBOR-DOOR"],
         "narration": "People hear it and think God is the man behind the door.",
         "must_show": "the misreading pictured — the neighbour's sleep-crumpled face at the cracked door, lit by the asker's lamp; the false portrait people carry.",
         "must_not_show": "no halo, glare or rim-light; the face is grumpy and human — the point is that this is what people wrongly think prayer is knocking against.",
@@ -537,7 +587,7 @@ BEATS = [
     {
         "id": "v2-r040-b22", "out": "s22-trouble-me-not-the-door.jpeg", "seg": "j2",
         "window": "115.91-124.31", "wide": True, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR", "NEIGHBOR-HOUSE", "LANE"],
+        "locks": ["ASKER", "NEIGHBOR", "NEIGHBOR-HOUSE"],
         "narration": (
             "Trouble me not: the door is now shut, and my children are with me "
             "in bed; I cannot rise and give thee."
@@ -545,8 +595,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the refusal — both sides of the door in one frame: the neighbour turned away inside with the bar still seated, the asker's lamplit shape waiting beyond the plank wall.",
         "must_not_show": "no halo, glare or rim-light; a REAL and reasonable no — the sleeping children visible as the reason; no villainy.",
         "scene": (
-            "One frame holds the door's two worlds: inside, the "
-            "heavy neighbour stands turned half away from the "
+            "One frame holds the door's two worlds, the camera at "
+            "the room's side wall catching the heavy neighbour in "
+            "three-quarter: he stands turned half away from the "
             "barred door with one hand still on the bar he has "
             "decided not to lift, his eyes going back to the "
             "platform where his children sleep tangled in the "
@@ -577,8 +628,8 @@ BEATS = [
     },
     {
         "id": "v2-r040-b24", "out": "s24-that-is-a-tired-man.jpeg", "seg": "n9 + n10",
-        "window": "129.10-136.01", "wide": True, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR-HOUSE", "LANE"],
+        "window": "129.10-136.01", "wide": False, "jesus": False, "ref": False,
+        "locks": ["ASKER", "NEIGHBOR-DOOR", "LANE"],
         "narration": (
             "That is a tired man with sleeping children and a real reason. So "
             "the man outside does the thing nobody expected."
@@ -605,20 +656,22 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light; comedy and scandal together — the whole street entering the story against its will.",
         "scene": (
             "Up and down the narrow lane the night is coming "
-            "apart: two sets of shutters banged open with "
-            "tousled heads thrust out, an old woman's voice "
-            "visibly scolding from a doorway, a rangy dog "
-            "barking at a gate with its hackles up — and at the "
-            "centre of the scandal the asker keeps his place at "
-            "the barred door, still knocking, lit small and "
-            "stubborn by his lamp on the step. Every figure has "
-            "two arms, two hands and one head."
+            "apart, the camera looking along the street from "
+            "behind the asker's stubborn figure at the barred "
+            "door: two sets of shutters banged open with tousled "
+            "heads thrust out and every face turned down the lane "
+            "toward him, an old woman's voice visibly scolding "
+            "from a doorway, a rangy dog barking at a gate with "
+            "its hackles up — the whole waking street converging "
+            "on the small lamplit man who keeps his place at the "
+            "door, still knocking. Every figure has two arms, two "
+            "hands and one head."
         ),
     },
     {
         "id": "v2-r040-b26", "out": "s26-and-he-keeps-knocking-the.jpeg", "seg": "n10 + n11",
         "window": "141.89-147.86", "wide": False, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR-HOUSE"],
+        "locks": ["ASKER", "NEIGHBOR-DOOR"],
         "narration": (
             "And he keeps knocking. The word Luke uses here shows up nowhere "
             "else in the whole New Testament."
@@ -660,7 +713,7 @@ BEATS = [
     {
         "id": "v2-r040-b28", "out": "s28-it-means-shamelessness-he-was.jpeg", "seg": "n11",
         "window": "153.37-158.08", "wide": False, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR-HOUSE"],
+        "locks": ["ASKER", "NEIGHBOR-DOOR", "LANE"],
         "narration": "It means shamelessness. He was not too proud to look like a fool.",
         "must_show": "shamelessness embodied — the asker now CALLING UP at the house's high window, arms wide, lamp at his feet, dignity entirely spent and entirely unmissed.",
         "must_not_show": "no halo, glare or rim-light; foolishness embraced — arms open to the whole street's opinion.",
@@ -676,18 +729,38 @@ BEATS = [
         ),
     },
     {
-        "id": "v2-r040-b29", "out": "s29-i-say-unto-you-though.jpeg", "seg": "j3",
-        "window": "158.65-169.79", "wide": True, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR", "NEIGHBOR-HOUSE", "LANE"],
+        "id": "v2-r040-b56", "out": "s56-he-will-rise.jpeg", "seg": "j3",
+        "window": "158.65-165.30", "wide": False, "jesus": False, "ref": False,
+        "locks": ["NEIGHBOR", "NEIGHBOR-HOUSE"],
         "narration": (
             "I say unto you, Though he will not rise and give him, because he "
-            "is his friend, yet because of his importunity he will rise and "
-            "give him as many as he needeth."
+            "is his friend, yet because of his importunity he will rise"
         ),
+        "must_show": "SCRIPTURE-EXACT: the give-in — the neighbour up off the platform mid-rise, his side of the blanket thrown back, one hand already reaching toward the bar; the children undisturbed.",
+        "must_not_show": "no halo, glare or rim-light; no anger — a worn-down decent man surrendering; the children stay asleep.",
+        "scene": (
+            "Inside the dark house the refusal breaks: the heavy "
+            "neighbour is up off the platform's edge mid-rise, "
+            "his side of the blanket thrown back, one bare foot "
+            "planted on the floor and one hand already reaching "
+            "toward the barred door, his sleep-creased face "
+            "folded into rueful surrender — while behind him the "
+            "children sleep on undisturbed in the one blanket's "
+            "warmth, the knocking's steady rhythm all but "
+            "sounding through the wood. Every figure has two "
+            "arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r040-b29", "out": "s29-i-say-unto-you-though.jpeg", "seg": "j3",
+        "window": "165.30-169.79", "wide": False, "jesus": False, "ref": False,
+        "locks": ["ASKER", "NEIGHBOR", "NEIGHBOR-DOOR", "NEIGHBOR-HOUSE"],
+        "narration": "and give him as many as he needeth.",
         "must_show": "SCRIPTURE-EXACT: the door opens — the bar lifted, the door swung wide, the rumpled neighbour loading loaves into the asker's arms; MORE than three.",
         "must_not_show": "no halo, glare or rim-light; 'as many as he needeth' — the count visibly exceeds the ask; the neighbour gives grudgingly and generously at once.",
         "scene": (
-            "The heavy door stands wide at last, the bar hanging "
+            "A tight two-shot in the doorway at last: the heavy "
+            "door stands wide, the bar hanging "
             "from the neighbour's fist — and in the doorway's "
             "lamplight the rumpled big man stacks round loaves "
             "into the asker's outstretched arms, three, four, "
@@ -719,7 +792,7 @@ BEATS = [
     },
     {
         "id": "v2-r040-b31", "out": "s31-he-went-for-enough-bread.jpeg", "seg": "n12",
-        "window": "171.34-175.39", "wide": True, "jesus": False, "ref": False,
+        "window": "171.34-175.39", "wide": False, "jesus": False, "ref": False,
         "locks": ["ASKER", "LANE"],
         "narration": (
             "He went for enough bread to feed one man. He came home with an "
@@ -742,7 +815,7 @@ BEATS = [
     {
         "id": "v2-r040-b32", "out": "s32-and-notice-why-the-neighbour.jpeg", "seg": "n12",
         "window": "175.39-179.93", "wide": False, "jesus": False, "ref": False,
-        "locks": ["NEIGHBOR", "NEIGHBOR-HOUSE"],
+        "locks": ["NEIGHBOR", "NEIGHBOR-DOOR", "LANE"],
         "narration": (
             "And notice why. The neighbour did not get up because they were "
             "friends."
@@ -762,7 +835,7 @@ BEATS = [
     },
     {
         "id": "v2-r040-b33", "out": "s33-he-got-up-because-the.jpeg", "seg": "n12 + n13",
-        "window": "179.93-189.76", "wide": True, "jesus": False, "ref": False,
+        "window": "179.93-189.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["ASKER", "TRAVELER", "ASKER-HOUSE"],
         "narration": (
             "He got up because the man outside would not stop asking. And in a "
@@ -805,7 +878,7 @@ BEATS = [
     {
         "id": "v2-r040-b35", "out": "s35-annoyed-asleep.jpeg", "seg": "n14a",
         "window": "196.26-198.15", "wide": False, "jesus": False, "ref": False,
-        "locks": ["NEIGHBOR", "NEIGHBOR-HOUSE"],
+        "locks": ["NEIGHBOR", "NEIGHBOR-DOOR"],
         "narration": "Annoyed. Asleep.",
         "must_show": "the false picture, itemized — the neighbour's sleep-crushed annoyed face at the door crack once more, the two wrong adjectives in one image.",
         "must_not_show": "no halo, glare or rim-light; a reprise of the misreading — grumpy and groggy, the portrait to be torn up.",
@@ -823,7 +896,7 @@ BEATS = [
     {
         "id": "v2-r040-b36", "out": "s36-somebody-you-have-to-wear.jpeg", "seg": "n14a + n14b",
         "window": "198.15-203.06", "wide": False, "jesus": False, "ref": False,
-        "locks": ["NEIGHBOR-HOUSE"],
+        "locks": ["NEIGHBOR-DOOR"],
         "narration": (
             "Somebody you have to wear down. That is the opposite of what he "
             "said."
@@ -843,27 +916,26 @@ BEATS = [
     },
     {
         "id": "v2-r040-b37", "out": "s37-the-neighbour-is-not-a.jpeg", "seg": "n14b",
-        "window": "203.06-207.41", "wide": True, "jesus": True, "ref": REF,
+        "window": "203.06-207.41", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": "The neighbour is not a picture of God — he is the contrast.",
-        "must_show": "the correction landed — Jesus in the grove sweeping one hand aside (clearing the wrong picture), the disciples' faces catching the reversal.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the sweeping-aside gesture reads plainly; understanding kindling around the ring.",
+        "must_show": "the correction landed — over the eldest disciple's shoulder: Jesus sweeping one hand aside (clearing the wrong picture); the old man's profile catching the reversal as it lands.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the sweeping-aside gesture reads plainly; understanding kindling on the near face.",
         "scene": (
-            "In the bright grove Jesus sweeps one hand flat and "
-            "sideways through the air — the gesture of clearing "
-            "a table — and around the ring the reversal lands "
-            "visibly: the eldest disciple's brows flying up, the "
-            "youngest breaking into a slow grin, a third "
-            "actually laughing aloud at the flip of it, the "
-            "whole story turning over in their faces like a "
-            "coin. Every figure has two arms, two hands and one "
-            "head."
+            "Over the eldest disciple's shoulder in the bright "
+            "grove: Jesus sweeps one hand flat and sideways "
+            "through the air — the gesture of clearing a table — "
+            "and at the frame's near edge the old man's profile "
+            "catches the reversal as it lands, brows flying up, "
+            "a slow grin starting — the whole story turning over "
+            "in front of him like a coin. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r040-b38", "out": "s38-if-even-a-man-behind.jpeg", "seg": "n14b",
         "window": "207.41-216.77", "wide": True, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR", "NEIGHBOR-HOUSE", "LANE"],
+        "locks": ["ASKER", "NEIGHBOR", "NEIGHBOR-DOOR", "LANE"],
         "narration": (
             "If even a worn-out man behind a barred door will get up for you in "
             "the end, what will your Father do, when he was never asleep at "
@@ -872,37 +944,38 @@ BEATS = [
         "must_show": "the how-much-more — the open door and given loaves once more, but framed small; and above the lane, the wide waiting night sky suggesting the greater Giver the story points past.",
         "must_not_show": "no halo, glare or rim-light; no figure in the sky, no face in the stars — the 'how much more' is carried by scale alone.",
         "scene": (
-            "From above the lane's rooftops: small below, the "
+            "From high above the lane's rooftops the camera "
+            "looks down the street's length: small below, the "
             "lamplit doorway where the loaves pass from the "
-            "rumpled neighbour's hands into the asker's arms — "
-            "and around and over that little warm transaction, "
-            "the enormous clear night sky standing wide awake "
-            "over the sleeping village, thick with stars from "
-            "roofline to roofline, the story's small kindness "
-            "set inside something immeasurably larger and "
-            "already listening. Every figure has two arms, two "
-            "hands and one head."
+            "rumpled neighbour's hands into the asker's arms, "
+            "both tiny figures in profile over the little warm "
+            "transaction — and around and over it, the enormous "
+            "clear night sky standing wide awake over the "
+            "sleeping village, thick with stars from roofline to "
+            "roofline, the story's small kindness set inside "
+            "something immeasurably larger and already "
+            "listening. Every figure has two arms, two hands "
+            "and one head."
         ),
     },
     {
         "id": "v2-r040-b39", "out": "s39-ask-and-it-shall-be.jpeg", "seg": "j4",
-        "window": "217.30-224.87", "wide": True, "jesus": True, "ref": REF,
+        "window": "217.30-224.87", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "Ask, and it shall be given you; seek, and ye shall find; knock, "
             "and it shall be opened unto you."
         ),
-        "must_show": "SCRIPTURE-EXACT: the triple promise — Jesus giving the three verbs on three raised fingers, the disciples' faces open; the grove's morning at its brightest.",
+        "must_show": "SCRIPTURE-EXACT: the triple promise — close on Jesus giving the three verbs on three raised fingers; the asking disciple's lips moving at the frame's edge, memorizing.",
         "must_not_show": "no halo, glare or rim-light on Jesus; three fingers for three verbs — wanted here; the brightest frame of the grove sequence.",
         "scene": (
-            "In the grove's fullest morning light Jesus counts "
-            "the promise onto three raised fingers, one verb at "
-            "a time, his face open and certain — and the "
-            "disciples around him have the look of men being "
-            "handed keys: the asker of the first question with "
-            "his lips moving, memorizing, the youngest already "
-            "looking away down the hill as if there were a door "
-            "he suddenly wants to try. Every figure has two "
+            "Close on Jesus in the grove's fullest morning "
+            "light: he counts the promise onto three raised "
+            "fingers, one verb at a time, his face open and "
+            "certain, the hand held where every listener can "
+            "see it — and just past his shoulder at the frame's "
+            "edge the first questioner's lips move, memorizing, "
+            "a man being handed keys. Every figure has two "
             "arms, two hands and one head."
         ),
     },
@@ -928,7 +1001,7 @@ BEATS = [
     {
         "id": "v2-r040-b41", "out": "s41-in-the-greek-none-of.jpeg", "seg": "n15",
         "window": "226.38-231.62", "wide": False, "jesus": False, "ref": False,
-        "locks": ["ASKER", "NEIGHBOR-HOUSE"],
+        "locks": ["ASKER", "NEIGHBOR-DOOR"],
         "narration": (
             "In the Greek, none of those is a one-time act. Every one of them "
             "means keep coming back."
@@ -948,8 +1021,8 @@ BEATS = [
     },
     {
         "id": "v2-r040-b42", "out": "s42-if-a-son-shall-ask.jpeg", "seg": "jv11",
-        "window": "232.06-237.45", "wide": True, "jesus": False, "ref": False,
-        "locks": ["FATHER-SON"],
+        "window": "232.06-237.45", "wide": False, "jesus": False, "ref": False,
+        "locks": ["FATHER-SON", "COURTYARD"],
         "narration": (
             "If a son shall ask bread of any of you that is a father, will he "
             "give him a stone?"
@@ -957,7 +1030,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: bread or stone — the small son asking up at his father, and in the father's two hands the choice visible: a round loaf in one, a flat river stone in the other — the stone already tipping away.",
         "must_not_show": "no halo, glare or rim-light; the lookalike matters — the stone is genuinely loaf-like; and the father's face makes the question absurd.",
         "scene": (
-            "In the warm courtyard light the small boy stands "
+            "A medium two-shot in the warm courtyard light: the "
+            "small boy stands "
             "with both hands cupped up at his father's waist, "
             "asking — and the broad father holds the two "
             "lookalikes at his sides: a round crusted loaf in "
@@ -971,7 +1045,7 @@ BEATS = [
     {
         "id": "v2-r040-b43", "out": "s43-or-if-he-ask-a.jpeg", "seg": "jv11",
         "window": "237.45-242.43", "wide": False, "jesus": False, "ref": False,
-        "locks": ["FATHER-SON"],
+        "locks": ["FATHER-SON", "COURTYARD"],
         "narration": "or if he ask a fish, will he for a fish give him a serpent?",
         "must_show": "SCRIPTURE-EXACT: fish or serpent — close at the father's hands: a fresh fish passing down into the boy's grip while a grey eel-like snake shape lies rejected on the cleaning board, well apart.",
         "must_not_show": "no halo, glare or rim-light; the serpent NEVER near the child — inert on the board, plainly not chosen; no menace.",
@@ -990,7 +1064,7 @@ BEATS = [
     {
         "id": "v2-r040-b44", "out": "s44-or-if-he-shall-ask.jpeg", "seg": "jv11",
         "window": "242.43-246.87", "wide": False, "jesus": False, "ref": False,
-        "locks": ["FATHER-SON"],
+        "locks": ["FATHER-SON", "COURTYARD"],
         "narration": "Or if he shall ask an egg, will he offer him a scorpion?",
         "must_show": "SCRIPTURE-EXACT: egg or scorpion — the boy's cupped hands receiving a brown egg, while nearby on the wall-top a pale scorpion curled egg-round sits ignored; the lookalike pair complete.",
         "must_not_show": "no halo, glare or rim-light; the scorpion distant, curled and still — a comparison, never a threat to the child.",
@@ -1008,47 +1082,46 @@ BEATS = [
     },
     {
         "id": "v2-r040-b45", "out": "s45-then-he-asked-them-if.jpeg", "seg": "n16a",
-        "window": "248.39-257.17", "wide": True, "jesus": True, "ref": REF,
+        "window": "248.39-257.17", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "Then he asked them: if your son asked for bread, would you put a "
             "rock in his hand? If he asked for a fish, would you hand him a "
             "snake?"
         ),
-        "must_show": "the absurdity offered — Jesus in the grove asking it with open comic disbelief, the disciples laughing outright; fathers among them shaking their heads.",
+        "must_show": "the absurdity offered — past two laughing listeners: Jesus spreading both hands in open comic disbelief; fathers being won by the ridiculous.",
         "must_not_show": "no halo, glare or rim-light on Jesus; laughter is correct here — the argument works BY being ridiculous.",
         "scene": (
-            "In the bright grove Jesus spreads both hands in "
-            "open comic disbelief as he puts the question — and "
-            "the ring of disciples is laughing: the grey-bearded "
-            "one who has raised five children waving the very "
-            "idea away, the big fisherman snorting, the youngest "
-            "rocking back on the grass — a circle of sons and "
-            "fathers being won by the sheer absurdity of the "
-            "alternative. Every figure has two arms, two hands "
-            "and one head."
+            "Past the shoulders of two laughing disciples in the "
+            "bright grove: Jesus spreads both hands in open "
+            "comic disbelief as he puts the question — and at "
+            "the frame's near edges the grey-bearded father of "
+            "five waves the very idea away while the big "
+            "fisherman snorts — grown men being won by the "
+            "sheer absurdity of the alternative. Every figure "
+            "has two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r040-b46", "out": "s46-and-then-to-show-them.jpeg", "seg": "n3",
-        "window": "41.38-48.69", "wide": True, "jesus": True, "ref": REF,
+        "window": "41.38-48.69", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "And then, to show them what kind of Father he meant, he told a "
             "story about a man banging on a door in the middle of the night."
         ),
-        "must_show": "the parable launched — Jesus miming a knock on the air with one fist, the disciples settling in with the pleasure of a story beginning.",
+        "must_show": "the parable launched — a medium shot of Jesus miming a knock on the air with one fist; one listener settling in at the frame's edge with the pleasure of a story beginning.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the mimed knock is the hinge from prayer-lesson to story.",
         "scene": (
-            "In the morning grove Jesus raps his fist twice on "
-            "the empty air before him — the universal mime of a "
-            "knock — one eyebrow up, the story's door already "
-            "standing in everyone's imagination — and the "
-            "disciples settle themselves on the grass with the "
-            "unhurried pleasure of men at the start of a good "
-            "tale, one stretching out on an elbow, another "
-            "drawing his knees up to listen. Every figure has "
-            "two arms, two hands and one head."
+            "A medium shot in the morning grove: Jesus raps his "
+            "fist twice on the empty air before him — the "
+            "universal mime of a knock — one eyebrow up, the "
+            "story's door already standing in everyone's "
+            "imagination — while soft at the frame's lower edge "
+            "one listener settles himself on the grass, drawing "
+            "his knees up with the unhurried pleasure of a man "
+            "at the start of a good tale. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
@@ -1078,7 +1151,7 @@ BEATS = [
     {
         "id": "v2-r040-b48", "out": "s48-not-one-of-you-he.jpeg", "seg": "n16b",
         "window": "267.27-270.57", "wide": False, "jesus": False, "ref": False,
-        "locks": ["FATHER-SON"],
+        "locks": ["FATHER-SON", "COURTYARD"],
         "narration": "Not one of you, he said, would ever do it.",
         "must_show": "the verdict of instinct — the father's hand closed protectively over his son's small hands around the bread; the counterfeit unthinkable.",
         "must_not_show": "no halo, glare or rim-light; protection as reflex — the enclosing hand says it without a face needed.",
@@ -1095,25 +1168,25 @@ BEATS = [
     },
     {
         "id": "v2-r040-b49", "out": "s49-if-ye-then-being-evil.jpeg", "seg": "j5",
-        "window": "271.08-280.83", "wide": True, "jesus": True, "ref": REF,
+        "window": "271.08-280.83", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "If ye then, being evil, know how to give good gifts unto your "
             "children: how much more shall your heavenly Father give the Holy "
             "Spirit to them that ask him?"
         ),
-        "must_show": "SCRIPTURE-EXACT: the summit of the argument — Jesus with both hands lifted open and rising through the sentence, the grove's light full, the 'how much more' carried in the opening arms.",
+        "must_show": "SCRIPTURE-EXACT: the summit of the argument — close on Jesus, both hands lifted open and rising through the sentence, the 'how much more' carried in the opening arms.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the rising open hands are the whole crescendo — no sky effects.",
         "scene": (
-            "At the teaching's summit Jesus's two hands rise "
-            "open through the sentence, lifting from the level "
-            "of a father's gift to the width of the morning sky "
-            "between the olive branches — and the disciples' "
-            "faces rise with them, the laughter of the last "
-            "question stilled into something wide-eyed, the "
-            "arithmetic of 'how much more' outrunning what any "
-            "of them can count. Every figure has two arms, two "
-            "hands and one head."
+            "Close on Jesus at the teaching's summit: his two "
+            "hands rise open through the sentence, lifting from "
+            "the level of a father's gift to the width of the "
+            "morning sky between the olive branches, his face "
+            "going up with them — the laughter of the last "
+            "question stilled out of his voice into something "
+            "wide and certain, the arithmetic of 'how much "
+            "more' outrunning anything a man can count. Every "
+            "figure has two arms, two hands and one head."
         ),
     },
     {
@@ -1136,7 +1209,7 @@ BEATS = [
     },
     {
         "id": "v2-r040-b51", "out": "s51-you-already-know-how-to.jpeg", "seg": "n17",
-        "window": "282.32-291.16", "wide": True, "jesus": False, "ref": False,
+        "window": "282.32-291.16", "wide": False, "jesus": False, "ref": False,
         "locks": ["FATHER-SON"],
         "narration": (
             "You already know how to be good to your kids — and you are not "
@@ -1147,7 +1220,8 @@ BEATS = [
         "must_show": "the best day pictured — the father at evening carrying his sleeping son home on his shoulder, the boy's loaf still crumbed in his slack hand; ordinary paternal goodness at full height.",
         "must_not_show": "no halo, glare or rim-light; the tenderness is the argument — and the narration says even this is the LESSER goodness.",
         "scene": (
-            "In the deep warm gold of evening the broad father "
+            "Seen from the side in medium-full: in the deep warm "
+            "gold of evening the broad father "
             "walks the lane home with his son asleep over one "
             "shoulder, the small head heavy against his neck, "
             "one big hand spread across the boy's back — and in "
@@ -1161,7 +1235,7 @@ BEATS = [
     {
         "id": "v2-r040-b52", "out": "s52-he-was-never-asleep.jpeg", "seg": "n17",
         "window": "291.16-292.86", "wide": False, "jesus": False, "ref": False,
-        "locks": ["LANE"],
+        "locks": ["LANE", "LIT-HOUSE"],
         "narration": "He was never asleep.",
         "must_show": "the contrast's collapse — in the sleeping midnight lane, ONE window burning steady and bright while every other house lies dark; the light that was on the whole time.",
         "must_not_show": "no halo, glare or rim-light; one lit window in a dark street — lamplight through a window, nothing supernatural.",
@@ -1178,8 +1252,8 @@ BEATS = [
     },
     {
         "id": "v2-r040-b53", "out": "s53-the-man-in-the-story.jpeg", "seg": "n18",
-        "window": "293.31-298.30", "wide": True, "jesus": False, "ref": False,
-        "locks": ["LANE"],
+        "window": "293.31-298.30", "wide": False, "jesus": False, "ref": False,
+        "locks": ["LANE", "LIT-HOUSE"],
         "narration": (
             "The man in the story was knocking on a door with somebody asleep "
             "behind it. You are not."
@@ -1200,7 +1274,7 @@ BEATS = [
     {
         "id": "v2-r040-b54", "out": "s54-whatever-you-quit-asking-for.jpeg", "seg": "n18",
         "window": "298.30-306.95", "wide": False, "jesus": False, "ref": False,
-        "locks": ["LANE"],
+        "locks": ["LANE", "LIT-HOUSE"],
         "narration": (
             "Whatever you quit asking for — too small, too late, too much — the "
             "light in that house is already on."
@@ -1221,22 +1295,21 @@ BEATS = [
     },
     {
         "id": "v2-r040-b55", "out": "s55-and-the-best-thing-he.jpeg", "seg": "n18",
-        "window": "306.95-312.02", "wide": True, "jesus": True, "ref": REF,
+        "window": "306.95-312.02", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GROVE"],
         "narration": (
             "And the best thing he has to give was never bread. It is himself."
         ),
-        "must_show": "the closing image — the grove at full morning: Jesus among his friends with his arms open to them, the giver himself the gift; warmth without spectacle.",
+        "must_show": "the closing image — a warm medium shot: Jesus with his arms open and the two nearest friends already moving in; the giver himself the gift; warmth without spectacle.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the gift is presence — open arms among friends in ordinary morning light.",
         "scene": (
-            "Full morning stands in the olive grove: Jesus rises "
-            "among his gathered friends with both arms opening "
-            "toward them, and they are already moving — the "
-            "first questioner reaching to grip his forearm, the "
-            "youngest ducking in under one arm, the old "
-            "fisherman's hand landing on his shoulder — the "
-            "prayer taught, the story told, and the answer to "
-            "both of them standing in the middle of them in the "
+            "A warm medium shot in the grove's full morning: "
+            "Jesus rises with both arms opening, and the two "
+            "nearest friends are already inside them — the first "
+            "questioner reaching to grip his forearm, the "
+            "youngest ducking in under one arm — the prayer "
+            "taught, the story told, and the answer to both of "
+            "them standing with his friends in his arms in the "
             "plain light of day. Every figure has two arms, two "
             "hands and one head."
         ),
