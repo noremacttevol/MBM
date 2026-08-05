@@ -134,7 +134,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 120 | build-120-job-from-whirlwind | AUTHORED | 0 | OK |  | ✅ |
 | 121 | build-121-salt-and-light | AUTHORED | 0 | OK |  | ✅ |
 | 122 | build-122-mote-and-beam | AUTHORED | 0 | OK |  | ✅ |
-| 123 | build-123-golden-rule | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 123 | build-123-golden-rule | AUTHORED | 0 | OK |  | ✅ |
 | 124 | build-124-love-your-enemies | NEEDS-BEATS | 0 | OK |  |  |
 | 125 | build-125-i-never-knew-you | NEEDS-BEATS | 0 | OK |  |  |
 | 126 | build-126-by-their-fruits | NEEDS-BEATS | 0 | OK |  |  |
