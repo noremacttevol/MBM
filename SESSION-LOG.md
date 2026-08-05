@@ -204,6 +204,33 @@ Board: 17, 40-80 ALL Ready ✅ (forty-two rows). The entire authored
 backlog from 40 to 80 is now runner-buildable. Next: 81+ (authored
 rows continue to 120; the from-scratch frontier starts at 121).
 
+## 2026-08-05 (Opus runner, cont.) — Row 40 (friend-at-midnight) shipped: TWO runner cuts this session — Machine A `Dev`
+
+Second row of the same runner session, clean end to end with no
+blockers — the row-17 fixes paid off immediately.
+
+- **56 stills at native 2K** (V1 had 17 on the same narration), 5.78
+  s/picture. The midnight knock ladders shot by shot; b56 gives the
+  neighbour's RISE its own frame.
+- **`generate_one` (added for row 17) worked first time**: 4 story-cast
+  portraits generated AND auto-wired into REFS by the tool itself — no
+  hand-merging needed, because this build had no pre-existing manual REFS.
+- 7 place plates, 6 promote-first. Declined build-34 estate courtyard
+  stayed declined.
+- **One reroll: b53 LIT-HOUSE** came back with a ~15-person candle crowd
+  on a beat whose must_show is an EMPTY ajar door — caught before it
+  became the plate for b52/b54.
+- **AUDIO LOCK PASS first try** (no stale-V1 problem on this row), SHA256
+  `30326c6c…`, 323.5 s.
+- QC: knock escalation, content-care (serpent/scorpion inert, never near
+  the child), all four time-of-day registers, person-free inserts,
+  cream=Jesus only, caption colour law correct, end card inside frame.
+
+Session totals: rows 17 + 40 both on the reviewer, ~$16.5 of API
+(meter 206.36 → 222.84), one tooling bug fixed for every future row.
+Commits: `4e23a322a` (prep) → `69cff050d982` (build A) → this log +
+review card (B).
+
 ## 2026-08-05 (Opus runner) — Row 17 (lazarus) is the FIRST two-model runner cut on the reviewer — Machine A `Dev`
 
 Ran PROMPT-OPUS-RUNNER.md. Row 17 shipped realistic-V2 to the reviewer:
