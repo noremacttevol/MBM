@@ -427,6 +427,9 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    "TOMB": "PLACE-REF/tomb.jpeg",  # build-37-rich-man-lazarus v2-r037-b45
+    # TOMB: build-37 wire REMOVED 2026-08-05 — build-95's authored law says
+    # never the build-37 PARABLE tomb for Jesus's garden tomb (no garden, no
+    # olives in that frame). Promote this build's own first approved garden
+    # frame instead.
 }
 # === end PLACE-PLATES ===

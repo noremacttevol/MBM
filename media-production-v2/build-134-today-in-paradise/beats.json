@@ -1,0 +1,280 @@
+{
+ "row": 134,
+ "slug": "build-134-today-in-paradise",
+ "v1_dir": "media-production/build-134-today-in-paradise",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 0.72,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-two-doors.png",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You may have been told there are only two doors when you die \u2014 one heaven, one hell \u2014 and the moment your heart stops, one of them slams shut forever. Two sentences from Jesus quietly open that picture wider.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 14.054,
+   "seg_end": 14.774,
+   "audio_dur": 14.211,
+   "spoken_dur": 13.774,
+   "seg_dur": 14.774,
+   "timing": [
+    {
+     "text": "You may have been told there are only two doors when you die \u2014 one heaven, one hell \u2014 and the moment your heart stops, one of them slams shut forever.",
+     "start": 0.0,
+     "end": 9.694
+    },
+    {
+     "text": "Two sentences from Jesus quietly open that picture wider.",
+     "start": 9.694,
+     "end": 14.164
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-three-crosses.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The first he said while he was dying. Next to him hung a criminal, a man who had earned his cross and knew it. And in his last hour, that man turned his head and asked Jesus to remember him.",
+   "seg_start": 14.774,
+   "audio_start": 15.054,
+   "spoken_end": 26.936,
+   "seg_end": 27.656,
+   "audio_dur": 12.304,
+   "spoken_dur": 11.883,
+   "seg_dur": 12.883,
+   "timing": [
+    {
+     "text": "The first he said while he was dying.",
+     "start": 0.0,
+     "end": 1.985
+    },
+    {
+     "text": "Next to him hung a criminal, a man who had earned his cross and knew it.",
+     "start": 1.985,
+     "end": 6.885
+    },
+    {
+     "text": "And in his last hour, that man turned his head and asked Jesus to remember him.",
+     "start": 6.885,
+     "end": 12.26
+    }
+   ]
+  },
+  {
+   "seg": "s1",
+   "v1_still": "s3-thief-hope.jpeg",
+   "zoom": "in",
+   "speaker": "scripture",
+   "text": "Lord, remember me when thou comest into thy kingdom.",
+   "seg_start": 27.656,
+   "audio_start": 27.936,
+   "spoken_end": 30.818,
+   "seg_end": 31.538,
+   "audio_dur": 3.187,
+   "spoken_dur": 2.882,
+   "seg_dur": 3.882,
+   "timing": [
+    {
+     "text": "Lord, remember me when thou comest into thy kingdom.",
+     "start": 0.0,
+     "end": 3.158
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-promise.png",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Verily I say unto thee, To day shalt thou be with me in paradise.",
+   "seg_start": 31.538,
+   "audio_start": 31.818,
+   "spoken_end": 35.467,
+   "seg_end": 36.187,
+   "audio_dur": 4.023,
+   "spoken_dur": 3.648,
+   "seg_dur": 4.648,
+   "timing": [
+    {
+     "text": "Verily I say unto thee, today shalt thou be with me in paradise.",
+     "start": 0.0,
+     "end": 3.994
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s4-promise.png",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Today. Not after a lifetime of good behavior, not after religion had its say \u2014 today. Mercy reached a dying thief at the very last minute. Most people know that verse. Here is the one almost nobody sets beside it.",
+   "seg_start": 36.187,
+   "audio_start": 36.467,
+   "spoken_end": 50.924,
+   "seg_end": 51.644,
+   "audio_dur": 14.864,
+   "spoken_dur": 14.457,
+   "seg_dur": 15.457,
+   "timing": [
+    {
+     "text": "Today.",
+     "start": 0.0,
+     "end": 0.72
+    },
+    {
+     "text": "Not after a lifetime of good behavior, not after religion had its say \u2014 today.",
+     "start": 0.72,
+     "end": 6.618
+    },
+    {
+     "text": "Mercy reached a dying thief at the very last minute.",
+     "start": 6.618,
+     "end": 9.95
+    },
+    {
+     "text": "Most people know that verse.",
+     "start": 9.95,
+     "end": 11.958
+    },
+    {
+     "text": "Here is the one almost nobody sets beside it.",
+     "start": 11.958,
+     "end": 14.814
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s6-mary-tomb.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Three days later, on Easter morning, Mary reaches for the risen Jesus, and he stops her with something strange:",
+   "seg_start": 51.644,
+   "audio_start": 51.924,
+   "spoken_end": 57.994,
+   "seg_end": 58.714,
+   "audio_dur": 6.531,
+   "spoken_dur": 6.07,
+   "seg_dur": 7.07,
+   "timing": [
+    {
+     "text": "Three days later, on Easter morning, Mary reaches for the risen Jesus, and he stops her with something strange:",
+     "start": 0.0,
+     "end": 6.502
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s7-not-yet-ascended.png",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Touch me not; for I am not yet ascended to my Father:",
+   "seg_start": 58.714,
+   "audio_start": 58.994,
+   "spoken_end": 62.521,
+   "seg_end": 63.241,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.527,
+   "seg_dur": 4.527,
+   "timing": [
+    {
+     "text": "Touch me not; for I am not yet ascended to my Father:",
+     "start": 0.0,
+     "end": 3.901
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s7-not-yet-ascended.png",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "Read those two slowly, side by side. On Friday he told the thief they would be together in paradise that same day. On Sunday he says he has not yet gone up to his Father. Which means the paradise he promised the thief was not yet the final home with the Father. It was somewhere in between \u2014 real, and good, and not the end of the road.",
+   "seg_start": 63.241,
+   "audio_start": 63.521,
+   "spoken_end": 84.95,
+   "seg_end": 85.67,
+   "audio_dur": 21.812,
+   "spoken_dur": 21.429,
+   "seg_dur": 22.429,
+   "timing": [
+    {
+     "text": "Read those two slowly, side by side.",
+     "start": 0.0,
+     "end": 2.752
+    },
+    {
+     "text": "On Friday he told the thief they would be together in paradise that same day.",
+     "start": 2.752,
+     "end": 7.628
+    },
+    {
+     "text": "On Sunday he says he has not yet gone up to his Father.",
+     "start": 7.628,
+     "end": 11.401
+    },
+    {
+     "text": "Which means the paradise he promised the thief was not yet the final home with the Father.",
+     "start": 11.401,
+     "end": 16.602
+    },
+    {
+     "text": "It was somewhere in between \u2014 real, and good, and not the end of the road.",
+     "start": 16.602,
+     "end": 21.78
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s9-paradise.png",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "That should change how you grieve. The people you love who died without every box checked did not fall through a trapdoor. Mercy has more room than you were told, and more time. There is a place still called paradise, a place of waiting, and the Shepherd is there too.",
+   "seg_start": 85.67,
+   "audio_start": 85.95,
+   "spoken_end": 102.655,
+   "seg_end": 103.375,
+   "audio_dur": 17.084,
+   "spoken_dur": 16.705,
+   "seg_dur": 17.705,
+   "timing": [
+    {
+     "text": "That should change how you grieve.",
+     "start": 0.0,
+     "end": 1.614
+    },
+    {
+     "text": "The people you love who died without every box checked did not fall through a trapdoor.",
+     "start": 1.614,
+     "end": 6.908
+    },
+    {
+     "text": "Mercy has more room than you were told, and more time.",
+     "start": 6.908,
+     "end": 10.762
+    },
+    {
+     "text": "There is a place still called paradise, a place of waiting, and the Shepherd is there too.",
+     "start": 10.762,
+     "end": 17.043
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "If mercy could reach a thief in his last sixty seconds, and if the road past death is longer and kinder than you were taught \u2014 who have you already given up on that God has not?",
+  "seg_start": 103.375,
+  "audio_start": 103.655,
+  "seg_dur": 13.196
+ },
+ "total": 116.57
+}
