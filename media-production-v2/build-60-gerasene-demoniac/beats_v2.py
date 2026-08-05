@@ -124,7 +124,9 @@ BEATS = [
         "must_show": "v1 — the landfall: the boat grounding on the stony beach in grey-gold dawn; storm-wrung disciples; Jesus composed.",
         "must_not_show": "the sea behind is calm NOW — the storm is over; its cost shows only in the men.",
         "scene": (
-            "The dark fishing boat grinds up onto the stony beach in "
+            "The dark fishing boat grinds up onto the stony beach, "
+            "the camera along the waterline taking hull and shore "
+            "in profile, in "
             "the grey-gold of first light — the disciples inside it "
             "drenched, hollow-eyed and storm-wrung, one still gripping "
             "the mast, another slumped over an oar — while Jesus "
@@ -137,7 +139,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b02", "out": "s02-gentile-country.jpeg", "seg": "n0 p2-p4",
-        "window": "8.08-15.80", "wide": True, "jesus": False, "ref": False,
+        "window": "8.08-15.80", "wide": False, "jesus": False, "ref": False,
         "locks": ["SHORE", "HERD"],
         "narration": ("This was the other side. Gentile country. Foreign "
                       "gods, foreign food, herds of pigs on the hills."),
@@ -176,7 +178,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b04", "out": "s04-he-crossed-a-storm-for-this.jpeg", "seg": "n0 p6",
-        "window": "18.87-22.94", "wide": True, "jesus": True, "ref": REF,
+        "window": "18.87-22.94", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SHORE"],
         "narration": "Jesus had crossed the whole sea in a storm to reach it.",
         "must_show": "the purpose — Jesus stepping over the bow onto the foreign stones, first ashore, unhesitating; the deliberate arrival.",
@@ -204,7 +206,9 @@ BEATS = [
         "must_show": "the dwelling — the honeycombed tomb slope, and one small ragged human figure among the black cave mouths.",
         "must_not_show": "FLAG A: nothing inhuman anywhere — one man, alone, housed with the dead; the loneliness is the horror allowed.",
         "scene": (
-            "The pale limestone slope rises out of the dawn shadow "
+            "The pale limestone slope rises out of the dawn shadow, "
+            "the camera far off, taking the slope from the side so the one small "
+            "figure reads against the whole honeycombed face, "
             "pocked with black cave-tomb mouths and broken "
             "grave-markers — and in the middle of them, small "
             "against a sealed tomb's rolling stone, the ragged "
@@ -255,7 +259,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b08", "out": "s08-crying-among-the-graves.jpeg", "seg": "n1 p6",
-        "window": "40.06-43.13", "wide": True, "jesus": False, "ref": False,
+        "window": "40.06-43.13", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAN", "TOMBS"],
         "narration": "Night and day he cried out among the graves.",
         "must_show": "v5 — the night memory: the lone figure crying out on the tomb slope under the moon; misery, not menace.",
@@ -273,7 +277,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b09", "out": "s09-he-was-a-warning.jpeg", "seg": "n1 p7-p8",
-        "window": "43.13-48.21", "wide": True, "jesus": False, "ref": False,
+        "window": "43.13-48.21", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAN", "TOMBS", "TOWN"],
         "narration": ("To his town he was no longer a name. He was a "
                       "warning."),
@@ -299,7 +303,7 @@ BEATS = [
         "must_show": "v6 — the run: the ragged man tearing DOWN the slope TOWARD the tiny figures at the boat; direction unmistakable.",
         "must_not_show": "SHOT FROM BEHIND AND ABOVE him — his back to us, the beach and Jesus far below IN THE DIRECTION HE RUNS.",
         "scene": (
-            "SHOT FROM BEHIND AND ABOVE THE MAN, his back to the "
+            "THE CAMERA IS BEHIND AND ABOVE THE MAN, his back to the "
             "camera as he plunges AWAY from us down the steep tomb "
             "slope at a headlong run — rags streaming, arms wide "
             "for balance on the scree — and far below him, small "
@@ -311,7 +315,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b11", "out": "s11-he-fell-at-his-feet.jpeg", "seg": "n2 p2-p4",
-        "window": "53.34-60.27", "wide": True, "jesus": True, "ref": REF,
+        "window": "53.34-60.27", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SHORE"],
         "narration": ("Not to attack him. He ran and fell down at his "
                       "feet. And the thing inside him cried out:"),
@@ -397,7 +401,8 @@ BEATS = [
         "must_show": "the geometry of fearlessness — everyone else at maximum distance, Jesus a pace from the kneeling man; the address beginning.",
         "must_not_show": "the disciples' distance measures the courage; Jesus's feet are planted close.",
         "scene": (
-            "A wide beach frame that tells it in distances: the "
+            "A wide beach frame that tells it in distances, the "
+            "camera off to the side so every gap reads in profile: the "
             "disciples pressed far back along the boat's hull, "
             "half-shielded behind it — and in the open middle of "
             "the stones Jesus stands one single pace from the "
@@ -506,7 +511,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b21", "out": "s21-the-thousands-were-begging.jpeg", "seg": "n5 p3",
-        "window": "117.41-122.71", "wide": True, "jesus": True, "ref": REF,
+        "window": "117.41-122.71", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SHORE"],
         "narration": ("And standing in front of Jesus, the thousands "
                       "were the ones begging."),
@@ -534,7 +539,9 @@ BEATS = [
         "must_show": "v11 — the herd itself: the vast spread of swine across the steep pasture above the sea; herdsmen small among them.",
         "must_not_show": "the steep bank down to the water must be visible in this frame — the geography the next beats need.",
         "scene": (
-            "The great herd fills the steep morning hillside — "
+            "The great herd fills the steep morning hillside, the "
+            "camera below the pasture behind a herdsman's distant "
+            "figure — "
             "about two thousand dark and pink-grey pigs rooting "
             "and feeding across the high pasture in loose "
             "rivers, a few herdsmen with staffs small among "
@@ -548,7 +555,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b23", "out": "s23-send-us-into-the-swine.jpeg", "seg": "n6 p2 + s12",
-        "window": "132.46-139.03", "wide": True, "jesus": True, "ref": REF,
+        "window": "132.46-139.03", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SHORE", "HERD"],
         "narration": ("And the spirits begged him: Send us into the "
                       "swine, that we may enter into them. (Mark 5:12)"),
@@ -592,7 +599,8 @@ BEATS = [
         "must_show": "v13, ONE WIDE beat — the stampede: the herd pouring over the steep bank toward the water in a single dark torrent; distance keeps it restrained.",
         "must_not_show": "R-law: WIDE only — no animal suffering close-up, no carcasses; the far white churn of water is as near as the frame goes.",
         "scene": (
-            "From well down the shore, wide: the whole vast herd "
+            "From well down the shore the camera takes the bank in "
+            "profile: the whole vast herd "
             "pours over the lip of the steep bank in one dark "
             "living torrent — a river of pigs plunging down the "
             "scree in full stampede, dust boiling up behind "
@@ -607,7 +615,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b26", "out": "s26-they-ran-for-town.jpeg", "seg": "n6b p5",
-        "window": "150.64-155.35", "wide": True, "jesus": False, "ref": False,
+        "window": "150.64-155.35", "wide": False, "jesus": False, "ref": False,
         "locks": ["HERD", "TOWN"],
         "narration": ("The men tending the pigs ran for town with the "
                       "story of their lives."),
@@ -633,7 +641,8 @@ BEATS = [
         "must_show": "v14 — the outpouring: the town's people streaming down the road toward the shore in numbers.",
         "must_not_show": "curiosity and dread mixed — they come fast, but not gladly.",
         "scene": (
-            "Down the road from the town the people pour toward "
+            "Down the road from the town, the camera at the road's "
+            "side so the stream crosses in profile, the people pour toward "
             "the shore in a long hurrying stream — men striding "
             "grim, women with shawls clutched, elders hobbling "
             "to keep up, boys running ahead — a whole town "
@@ -644,7 +653,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b28", "out": "s28-sitting-at-his-feet.jpeg", "seg": "n7 p2",
-        "window": "157.02-164.45", "wide": True, "jesus": True, "ref": REF,
+        "window": "157.02-164.45", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SHORE", "TOWN"],
         "narration": ("And what they found was the man they had chained "
                       "and lost and buried in their memory — sitting "
@@ -683,7 +692,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b30", "out": "s30-and-they-were-afraid.jpeg", "seg": "n7 p6-p7",
-        "window": "167.96-176.67", "wide": True, "jesus": True, "ref": REF,
+        "window": "167.96-176.67", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "TOWN", "SHORE"],
         "narration": ("And the scripture says a strange thing: they were "
                       "afraid. Power like that, standing on their beach, "
@@ -704,7 +713,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b31", "out": "s31-they-asked-him-to-leave.jpeg", "seg": "n7 p8",
-        "window": "176.67-179.64", "wide": True, "jesus": True, "ref": REF,
+        "window": "176.67-179.64", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOWN", "SHORE"],
         "narration": "So they asked Jesus to leave.",
         "must_show": "v17 — the request: a town elder's outstretched arm pointing back at the boat; regret and resolve mixed in the crowd.",
@@ -723,7 +732,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b32", "out": "s32-he-never-argues-his-way-in.jpeg", "seg": "n8 p1-p2",
-        "window": "179.64-183.73", "wide": True, "jesus": True, "ref": REF,
+        "window": "179.64-183.73", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SHORE", "TOWN"],
         "narration": ("And he did. He never argues his way in where he "
                       "is not wanted."),
@@ -743,7 +752,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b33", "out": "s33-let-me-come-with-you.jpeg", "seg": "n8 p3",
-        "window": "183.73-187.93", "wide": True, "jesus": True, "ref": REF,
+        "window": "183.73-187.93", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SHORE"],
         "narration": ("But as he climbed into the boat, the healed man "
                       "begged to come with him."),
@@ -782,7 +791,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b35", "out": "s35-go-home-to-thy-friends.jpeg", "seg": "j3",
-        "window": "196.06-204.10", "wide": True, "jesus": True, "ref": REF,
+        "window": "196.06-204.10", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SHORE", "TOWN"],
         "narration": ("Go home to thy friends, and tell them how great "
                       "things the Lord hath done for thee, and hath had "
@@ -803,7 +812,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b36", "out": "s36-to-the-town-that-chained-you.jpeg", "seg": "n9 p1-p3",
-        "window": "204.10-212.57", "wide": True, "jesus": False, "ref": False,
+        "window": "204.10-212.57", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAN", "TOWN"],
         "narration": ("To the town that chained you. To the people who "
                       "gave up on you. Tell them what God did for you, "
@@ -825,7 +834,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b37", "out": "s37-the-first-one-sent.jpeg", "seg": "n9 p4a",
-        "window": "212.57-218.00", "wide": True, "jesus": False, "ref": False,
+        "window": "212.57-218.00", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAN", "TOWN"],
         "narration": ("The man everyone had written off became the "
                       "first person Jesus ever sent out with his story —"),
@@ -845,7 +854,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b38", "out": "s38-a-one-man-mission.jpeg", "seg": "n9 p4b",
-        "window": "218.00-222.57", "wide": True, "jesus": False, "ref": False,
+        "window": "218.00-222.57", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAN"],
         "narration": ("a one-man mission to the ten Gentile cities of "
                       "the Decapolis."),
@@ -868,7 +877,7 @@ BEATS = [
     },
     {
         "id": "v2-r060-b39", "out": "s39-all-men-did-marvel.jpeg", "seg": "n9 p5",
-        "window": "222.57-225.65", "wide": True, "jesus": False, "ref": False,
+        "window": "222.57-225.65", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAN"],
         "narration": "And everywhere he went, people were amazed.",
         "must_show": "v20 — the closing frame: the man mid-story in a city square, a big Gentile crowd caught in open amazement around him.",
@@ -886,3 +895,15 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "TOMBS": "PLACE-REF/tombs.jpeg",  # build-37-rich-man-lazarus v2-r037-b45
+    "TOWN": "PLACE-REF/town.jpeg",  # build-38-persistent-widow v2-r038-b46
+}
+# === end PLACE-PLATES ===
