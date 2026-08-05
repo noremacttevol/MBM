@@ -8,6 +8,7 @@
 > 1. Take initiative — research, decide, build the best version; never push decisions back onto him.
 > 2. Never make Cameron the bug reporter — verify with Playwright / the gate / QC before saying "done."
 > 3. Never stop to ask permission you already have ("say go?", "spend credits?"). His "go" stands; only stop when DONE or truly blocked.
+> 3b. **THE STANDING ORDER (Cameron, 2026-08-04): the open complaints on the review board and the unbuilt QUEUE rows ARE the permanent instruction — his silence never means stop.** "Awaiting Cameron" parks a video on the reviewer while production continues; no session ends tooling-only; a repeated complaint is ONE bug — root-cause it, gate it, sweep every built row; sessions hand work to the next session, never homework to Cameron. Full text in AGENT-RULES.md "THE STANDING ORDER."
 > 4. If he corrects something, write the correction into the law files in the SAME session.
 >
 > **Video / media (Phase 1)**

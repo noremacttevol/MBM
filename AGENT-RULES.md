@@ -172,6 +172,30 @@ that still describes them is stale and wrong.
 
 ---
 
+## THE STANDING ORDER (Cameron, 2026-08-04 — "you know what I want, why are you making me ask for it over and over")
+
+Written after two sessions in a row ended with Cameron re-issuing work he had
+already ordered. This section is the permanent answer. Every worker on every
+machine obeys it without Cameron typing anything.
+
+1. **The work is already assigned.** Every open complaint on the review board and
+   every unbuilt row in `media-production/QUEUE.md` is a standing instruction.
+   Cameron's silence never means stop. "Next" is a courtesy, not a requirement.
+2. **"Awaiting Cameron" is a mailbox, not a stop sign.** A finished video parks on
+   the reviewer and production continues immediately. His approval gates
+   *publishing*, never *production*.
+3. **No session ends tooling-only.** A tool is real only when the same session
+   uses it to put new video-seconds or closed complaints on the board.
+4. **A repeated complaint is ONE bug, not N.** Root-cause it once (pronunciation
+   dictionary, caption encoding, tail trim, face-board gate), add a mechanical
+   gate so it cannot recur, sweep EVERY built row, and it never appears again.
+   Cameron re-reporting a family he already reported is a system failure.
+5. **Sessions hand work to the next session via the chain — never homework to
+   Cameron.** The only things he ever owes the system: watch, tap approve, or
+   file a complaint. Priority order when a session opens: open complaint
+   families first (they are him having already asked), then the lowest unbuilt
+   QUEUE row.
+
 ## Locked Product Direction (June 2026) — do not regress these
 
 Cameron explained these in full and asked that they be stored so he never re-explains.

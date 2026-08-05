@@ -1,3 +1,29 @@
+## 2026-08-04 (latest) — THE STANDING ORDER written into law after Cameron's "why are you making me ask over and over" — Claude worker 35, Machine A `Dev`
+
+Cameron asked to air out where the confusion is about what he wants. The honest
+answer, now written into AGENT-RULES.md ("THE STANDING ORDER") and CLAUDE.md law 3b
+so it binds every machine: (1) sessions kept treating "build a factory" as "show a
+factory" — tooling presented, zero video-seconds; (2) "awaiting Cameron" was treated
+as a stop sign when it is a mailbox — production never pauses behind his tap; (3) the
+66 open complaints ARE Cameron asking over and over — the board is his standing
+voice, not history, and voice-redo rows still violating REDO-ALL are the worst of it;
+(4) repeated complaints are ONE bug each, not N — pronunciation (~16 rows) needs a
+dictionary + test gate + one sweep, question-card squares (50/52) one encoding fix,
+trailing dead air one assembler check, beard/face drift the face-board gate — fix the
+class, sweep all built rows, never see it again; (5) sessions must hand work to the
+NEXT session, never homework ("say next", "top up") to Cameron. Priority when any
+session opens: complaint families first, then lowest unbuilt row. The plate system's
+honest status was also stated to him: proved itself on three frames for $1.47 against
+four failed prose cures; the real test is build-40's reroll rate and his rejection
+rate — if those don't drop, it comes out.
+
+One genuine fork parked for Cameron (per his own law, asked at the end, everything
+else proceeding): row 140's complaint rejects the STORY itself ("did we just run out
+of stories…") — that is a which-story-to-cut call only he can make, to be raised when
+row 140 comes up in the sweep.
+
+Commit: this entry.
+
 ## 2026-08-04 (later) — Row 39 FINISHED + SHIPPED; the plate system fixed its first real defects — Claude worker 35, Machine A `Dev`
 
 Cameron pushed back on the previous entry, correctly, on all three counts: (1) Google
