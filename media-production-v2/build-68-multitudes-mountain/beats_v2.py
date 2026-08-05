@@ -81,7 +81,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r068-b01", "out": "s01-after-the-coast-jesus-came.jpeg", "seg": "n0",
-        "window": "0.28-6.48", "wide": True, "jesus": True, "ref": REF,
+        "window": "0.28-6.48", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNTAIN"],
         "narration": (
             "After the coast, Jesus came back toward the Sea of Galilee, "
@@ -131,7 +131,8 @@ BEATS = [
         "must_show": "the emptying — from high on the slope: the paths below alive with converging streams of people from every direction, villages visibly draining toward the mountain.",
         "must_not_show": "no halo, glare or rim-light; the convergence the picture — many small streams becoming one climb.",
         "scene": (
-            "From high on the mountainside the whole "
+            "From high on the mountainside, the camera behind the "
+            "seated teacher's shoulder looking down, the whole "
             "region's answer is visible: down on the "
             "shore plain the paths run alive with "
             "people — streams converging from lakeside "
@@ -145,7 +146,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b04", "out": "s04-matthew-says-great-multitudes-came.jpeg", "seg": "n1",
-        "window": "14.93-19.45", "wide": True, "jesus": False, "ref": False,
+        "window": "14.93-19.45", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNTAIN", "CROWD"],
         "narration": (
             "Matthew says great multitudes came — and they did not come "
@@ -169,7 +170,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b05", "out": "s05-somebody-hauled-their-father-up.jpeg", "seg": "n1",
-        "window": "24.12-27.72", "wide": True, "jesus": False, "ref": False,
+        "window": "24.12-27.72", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLANKMAN", "MOUNTAIN"],
         "narration": "Somebody hauled their father up a rocky slope on a plank.",
         "must_show": "SCRIPTURE-EXACT in spirit: the plank — the two sons working their father's board litter up a steep rocky pitch, sweat-dark, careful; the old man's patient face riding between them.",
@@ -254,7 +255,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b09", "out": "s09-and-great-multitudes-came-unto.jpeg", "seg": "s30",
-        "window": "44.99-54.79", "wide": True, "jesus": True, "ref": REF,
+        "window": "44.99-54.79", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNTAIN", "CROWD", "PLANKMAN"],
         "narration": (
             "And great multitudes came unto him, having with them those that "
@@ -286,7 +287,8 @@ BEATS = [
         "must_show": "the mountain's argument — the slope's whole steep length from below: the climbing path switchbacking up; what carrying a person up THIS means.",
         "must_not_show": "no halo, glare or rim-light; the gradient the subject — the mountain shown as the price of bringing anyone.",
         "scene": (
-            "From the shore plain the mountain states "
+            "From the shore plain, the camera behind the climbing "
+            "path's first bearers, the mountain states "
             "its terms: the grassy slope climbing "
             "steep and long, the path switchbacking "
             "up through the boulder-fields, the "
@@ -330,7 +332,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the one man moving — the wide ledge dense with the laid-down and their families, and Jesus moving THROUGH them: kneeling at one litter while hands reach from the next.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the region's pain dignified — a field hospital of love, one healer walking its rows.",
         "scene": (
-            "Across the wide golden ledge the "
+            "Across the wide golden ledge, the camera at its rim "
+            "taking the gathered rows from the side, the "
             "region's pain lies gathered in its rows — "
             "planks and litters, led elders seated on "
             "stones, children held on laps — and one "
@@ -412,7 +415,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b16", "out": "s16-he-sat-down-where-he.jpeg", "seg": "n0",
-        "window": "7.77-10.01", "wide": True, "jesus": True, "ref": REF,
+        "window": "7.77-10.01", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNTAIN"],
         "narration": "He sat down where he could be found.",
         "must_show": "findability — the seated figure on his ledge seen from the path below: visible, reachable, positioned for discovery; accessibility as location.",
@@ -456,7 +459,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b18", "out": "s18-somewhere-legs-that-had-been.jpeg", "seg": "n4",
-        "window": "97.78-102.10", "wide": True, "jesus": False, "ref": False,
+        "window": "97.78-102.10", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLANKMAN", "MOUNTAIN"],
         "narration": (
             "Somewhere legs that had been carried up the mountain carried their "
@@ -479,7 +482,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b19", "out": "s19-multiply-that-by-a-hillside.jpeg", "seg": "n4",
-        "window": "102.10-105.76", "wide": True, "jesus": False, "ref": False,
+        "window": "102.10-105.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNTAIN", "CROWD"],
         "narration": "Multiply that by a hillside. That was the afternoon.",
         "must_show": "the multiplication — the whole slope in late gold: risings, first steps, embraces and astonishments scattered across every ledge; the afternoon at full scale.",
@@ -530,7 +533,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the glorifying — the hillside crowd with arms and faces lifted in open praise, the healed among them as the evidence; worship at landscape scale.",
         "must_not_show": "no halo, glare or rim-light; no heaven imagery — praise as raised human arms and lifted faces on a real hill.",
         "scene": (
-            "The mountainside praises: across the "
+            "The mountainside praises, the camera behind the "
+            "nearest lifted arms: across the "
             "ledges the multitude stands with arms "
             "and faces lifted — the healed themselves "
             "raised highest, the old father's arms up "
@@ -564,7 +568,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b23", "out": "s23-they-could-not-believe-their.jpeg", "seg": "n5b",
-        "window": "121.54-134.02", "wide": True, "jesus": False, "ref": False,
+        "window": "121.54-134.02", "wide": False, "jesus": False, "ref": False,
         "locks": ["CROWD", "MUTEWOMAN", "PLANKMAN"],
         "narration": (
             "They could not believe their eyes — people who had never spoken "
@@ -637,7 +641,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b26", "out": "s26-and-here-is-the-detail.jpeg", "seg": "n6",
-        "window": "141.93-144.95", "wide": True, "jesus": False, "ref": False,
+        "window": "141.93-144.95", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNTAIN", "CROWD"],
         "narration": "And here is the detail people miss: they stayed.",
         "must_show": "the staying — the hillside at dusk with the crowd SETTLING, not leaving: cloaks spread, small fires kindling, families bedding down on the ledges.",
@@ -658,7 +662,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b27", "out": "s27-three-days-on-a-mountainside.jpeg", "seg": "n6",
-        "window": "144.95-150.23", "wide": True, "jesus": False, "ref": False,
+        "window": "144.95-150.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNTAIN", "CROWD"],
         "narration": (
             "Three days, on a mountainside, until the food ran out — and nobody "
@@ -772,7 +776,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b32", "out": "s32-they-have-been-with-me.jpeg", "seg": "n6b",
-        "window": "171.42-179.75", "wide": True, "jesus": True, "ref": REF,
+        "window": "171.42-179.75", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNTAIN", "CROWD"],
         "narration": (
             "They have been with me three days now and they have nothing to "
@@ -820,7 +824,7 @@ BEATS = [
     },
     {
         "id": "v2-r068-b34", "out": "s34-that-is-who-sat-down.jpeg", "seg": "n7",
-        "window": "185.45-197.26", "wide": True, "jesus": True, "ref": REF,
+        "window": "185.45-197.26", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNTAIN", "CROWD"],
         "narration": (
             "That is who sat down on that mountain: not a distant power taking "
@@ -855,7 +859,8 @@ BEATS = [
         "must_show": "the closing image — the mountainside at golden hour, the whole healed multitude spread across it, and the lake's gold below: the quiet sentence's entire hidden cargo, in one frame.",
         "must_not_show": "no halo, glare or rim-light; the vastness tender — thousands of stories, one hillside, one light.",
         "scene": (
-            "The mountainside at golden hour holds "
+            "The mountainside at golden hour, the camera far off "
+            "taking the whole slope from the side, holds "
             "everything the sentence hides: the "
             "healed multitude spread across every "
             "ledge and grass shelf — walkers and "
@@ -871,3 +876,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
