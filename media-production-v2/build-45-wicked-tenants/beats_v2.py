@@ -114,7 +114,9 @@ BEATS = [
         "must_show": "the frame — Jesus seated on the portico's stone bench, listeners banked on the steps, the hostile knot at the edge; a story opening under columns.",
         "must_not_show": "no halo, glare or rim-light on Jesus; seated teaching — a different temple geometry from any earlier row.",
         "scene": (
-            "In the portico's striped shade Jesus sits on the "
+            "In the portico's striped shade, the camera off at the "
+            "colonnade's side taking the gathering in three-quarter, "
+            "Jesus sits on the "
             "stone bench platform with the listeners banked "
             "down the steps below him — a stonemason still "
             "dusted from work, two women with market baskets, "
@@ -170,7 +172,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b04", "out": "s04-then-he-handed-the-whole.jpeg", "seg": "n2",
-        "window": "44.81-48.48", "wide": True, "jesus": False, "ref": False,
+        "window": "44.81-48.48", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "TENANTS", "VINEYARD"],
         "narration": (
             "Then he handed the whole place to the workers and trusted them "
@@ -202,7 +204,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the investment itemized — the owner at work on his hillside: vines set, the wall rising, the press being hewn, the tower half-built; all four works visible in one industrious frame.",
         "must_not_show": "no halo, glare or rim-light; the owner works WITH his own hands — planter, not financier.",
         "scene": (
-            "Across the spring hillside the vineyard is being "
+            "Across the spring hillside, the camera standing off on "
+            "the slope so every worker is seen from the side or "
+            "behind at his task, the vineyard is being "
             "born in one frame: the owner himself on his "
             "knees setting a young vine with both hands, the "
             "dry-stone wall rising course by course behind "
@@ -235,7 +239,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b07", "out": "s07-he-broke-the-ground-and.jpeg", "seg": "n2",
-        "window": "34.11-42.91", "wide": True, "jesus": False, "ref": False,
+        "window": "34.11-42.91", "wide": False, "jesus": False, "ref": False,
         "locks": ["VINEYARD"],
         "narration": (
             "He broke the ground and set in the young vines, ringed it with a "
@@ -278,7 +282,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b09", "out": "s09-and-he-left.jpeg", "seg": "n3",
-        "window": "48.98-49.78", "wide": True, "jesus": False, "ref": False,
+        "window": "48.98-49.78", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "ROAD", "VINEYARD"],
         "narration": "And he left.",
         "must_show": "SCRIPTURE-EXACT: the departure — the owner walking away down the pale road past the carob tree, the vineyard whole behind him; trust walking out of sight of its object.",
@@ -306,7 +310,9 @@ BEATS = [
         "must_show": "the arrangement running — the tenants working the maturing vineyard through a good season: pruning, tying, treading room swept; the lease honest-looking from outside.",
         "must_not_show": "no halo, glare or rim-light; the work REAL — these are able men; their competence makes their choice worse.",
         "scene": (
-            "Through a ripening summer the four tenants work "
+            "Through a ripening summer, the camera in the vine rows "
+            "catching each man from the side or from behind at his "
+            "work, the four tenants work "
             "the vineyard with real skill — the leader tying "
             "canes along the terrace wire, the lean older man "
             "pruning with quick sure cuts, the two silent "
@@ -339,7 +345,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b12", "out": "s12-and-at-the-season-he.jpeg", "seg": "jv2",
-        "window": "62.04-69.47", "wide": True, "jesus": False, "ref": False,
+        "window": "62.04-69.47", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD", "VINEYARD"],
         "narration": (
             "And at the season he sent to the husbandmen a servant, that he "
@@ -409,7 +415,8 @@ BEATS = [
         "must_show": "the innocence and the watchers — the servant nearing the gate, and above him on the tower platform two tenants watching his approach with unreadable stillness.",
         "must_not_show": "no halo, glare or rim-light; menace ONLY as stillness — the watchers unmoving; nothing yet done.",
         "scene": (
-            "The servant is nearly at the arched gate now, "
+            "The camera holds the gate and tower from the side, both "
+            "planes in profile: the servant is nearly at the arched gate now, "
             "basket swinging, one hand already lifting to "
             "knock — and above him on the watchtower's "
             "platform the two silent brothers stand looking "
@@ -422,7 +429,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b16", "out": "s16-and-they-caught-him-and.jpeg", "seg": "jv3",
-        "window": "83.77-86.84", "wide": True, "jesus": False, "ref": False,
+        "window": "83.77-86.84", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD", "VINEYARD"],
         "narration": "And they caught him, and beat him, and sent him away empty.",
         "must_show": "⚑ Flag R OFF-SCREEN: the aftermath ONLY — the gate shut, and the servant already down the road walking away unsteadily, basket gone, one hand pressed to his side; the violence entirely behind the wall and behind the moment.",
@@ -482,7 +489,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b19", "out": "s19-this-owner-sent-another-messenger.jpeg", "seg": "n5",
-        "window": "102.24-104.61", "wide": True, "jesus": False, "ref": False,
+        "window": "102.24-104.61", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD", "VINEYARD"],
         "narration": "This owner sent another messenger.",
         "must_show": "the road again — a SECOND, different servant climbing the same road past the carob tree toward the same gate; the pattern's second stroke.",
@@ -525,7 +532,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b21", "out": "s21-and-again-he-sent-another.jpeg", "seg": "jv4_5",
-        "window": "114.16-121.90", "wide": True, "jesus": False, "ref": False,
+        "window": "114.16-121.90", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD", "VINEYARD"],
         "narration": (
             "And again he sent another; and him they killed, and many others; "
@@ -566,7 +573,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b23", "out": "s23-and-another-after-that.jpeg", "seg": "n6",
-        "window": "125.24-126.99", "wide": True, "jesus": False, "ref": False,
+        "window": "125.24-126.99", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD"],
         "narration": "And another after that.",
         "must_show": "the pattern relentless — yet another servant on the same road in yet another season's light: winter-grey this time, cloak drawn, walking up anyway.",
@@ -674,7 +681,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b28", "out": "s28-having-yet-therefore-one-son.jpeg", "seg": "jv6",
-        "window": "153.23-161.64", "wide": True, "jesus": False, "ref": False,
+        "window": "153.23-161.64", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "SON"],
         "narration": (
             "Having yet therefore one son, his wellbeloved, he sent him also "
@@ -698,7 +705,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b29", "out": "s29-the-trust-does-not-vanish.jpeg", "seg": "n11",
-        "window": "248.04-250.01", "wide": True, "jesus": False, "ref": False,
+        "window": "248.04-250.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["VINEYARD"],
         "narration": "The trust does not vanish.",
         "must_show": "trust's persistence — the vineyard in new spring light, gate standing OPEN, fresh workers' tools leaned ready at the wall; the arrangement itself alive and continuing.",
@@ -736,7 +743,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b31", "out": "s31-and-he-sent-him-too.jpeg", "seg": "n8",
-        "window": "168.11-176.01", "wide": True, "jesus": False, "ref": False,
+        "window": "168.11-176.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["SON", "ROAD", "VINEYARD"],
         "narration": (
             "And he sent him too, holding on to a hope you can hear him say out "
@@ -768,7 +775,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the conspiracy — the four tenants clustered on the tower platform watching the son's approach below, heads bent together, the leader's flat eyes doing the arithmetic.",
         "must_not_show": "no halo, glare or rim-light; cold counsel only — no weapons brandished; the plot is a conversation and a shared look.",
         "scene": (
-            "On the watchtower platform the four tenants "
+            "On the watchtower platform, the camera at the parapet's "
+            "far end so the four are in three-quarter over their "
+            "watching, the tenants "
             "cluster close, heads bent together over the "
             "parapet — below and beyond them the small "
             "figure of the son climbing the last of the road "
@@ -855,7 +864,8 @@ BEATS = [
         "must_show": "⚑ Flag R OFF-SCREEN absolutely: the LAST SIGHT — the son reaching the gate as it opens to admit him, the tenants' shapes inside the shadow; the frame ends BEFORE anything happens.",
         "must_not_show": "no halo, glare or rim-light; NOTHING of the act — the opened gate swallowing the son's welcome is the final image; the verse's words carry all the rest.",
         "scene": (
-            "At the top of the pale road the arched gate has "
+            "From the road behind the son the camera watches the last "
+            "sight: at the top of the pale road the arched gate has "
             "swung open at the son's knock — and he steps "
             "toward the opening with his open unguarded "
             "face, one hand raised in greeting to the "
@@ -951,7 +961,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b41", "out": "s41-what-shall-therefore-the-lord.jpeg", "seg": "jv9",
-        "window": "224.67-232.98", "wide": True, "jesus": True, "ref": REF,
+        "window": "224.67-232.98", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PORTICO"],
         "narration": (
             "What shall therefore the lord of the vineyard do? he will come and "
@@ -1013,7 +1023,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b44", "out": "s44-it-is-that-the-vineyard.jpeg", "seg": "n11",
-        "window": "241.78-248.04", "wide": True, "jesus": False, "ref": False,
+        "window": "241.78-248.04", "wide": False, "jesus": False, "ref": False,
         "locks": ["VINEYARD"],
         "narration": (
             "It is that the vineyard finally passes to people who will actually "
@@ -1077,7 +1087,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b47", "out": "s47-and-have-ye-not-read.jpeg", "seg": "jv10",
-        "window": "256.11-267.86", "wide": True, "jesus": False, "ref": False,
+        "window": "256.11-267.86", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "And have ye not read this scripture; The stone which the builders "
@@ -1172,7 +1182,9 @@ BEATS = [
         "must_show": "the reversal wide — the whole new building rising busy and alive on its corner in morning light: scaffolds, workers, life; everything built on what was thrown away.",
         "must_not_show": "no halo, glare or rim-light; the building ALIVE with work — an ending repurposed as a foundation, at full construction pace.",
         "scene": (
-            "In bright working morning the whole building "
+            "In bright working morning, the camera across the yard "
+            "with every mason turned to his wall, faces away from "
+            "the lens, the whole building "
             "rises alive on its corner — scaffold poles "
             "walking up the walls, masons calling measures, "
             "a boy hauling the water bucket, mortar smoking "
@@ -1185,7 +1197,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b52", "out": "s52-the-men-he-told-it.jpeg", "seg": "n13",
-        "window": "286.24-295.01", "wide": True, "jesus": True, "ref": REF,
+        "window": "286.24-295.01", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PORTICO"],
         "narration": (
             "The men he told it to heard themselves in it, and it made them "
@@ -1209,7 +1221,7 @@ BEATS = [
     },
     {
         "id": "v2-r045-b53", "out": "s53-the-owner-never-stopped-sending.jpeg", "seg": "n13",
-        "window": "295.01-297.41", "wide": True, "jesus": False, "ref": False,
+        "window": "295.01-297.41", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD"],
         "narration": "The owner never stopped sending.",
         "must_show": "the road, used again — one more figure setting out up the pale road in new morning light; the sending that outlives every refusal.",
@@ -1249,3 +1261,15 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "ROAD": "PLACE-REF/road.jpeg",  # build-38-persistent-widow v2-r038-b39
+    "VINEYARD": "PLACE-REF/vineyard.jpeg",  # build-23-vineyard v2-r023-b03
+}
+# === end PLACE-PLATES ===
