@@ -68,6 +68,18 @@ no obvious garbage."
       "The narration, voices and timing are untouched — the audio is
       byte-identical to the cut you already have." Add a SESSION-LOG entry,
       commit, push both commits.
+   c. **DEPLOY — a push is NOT a delivery (Cameron, 2026-08-05: "i still
+      dont have any of that on my reviewer").** The reviewer is Firebase
+      hosting, project `milk-b4-meat`, serving `site/`. Git is only the
+      warehouse; until you deploy, Cameron sees the OLD page and your row
+      does not exist to him. Run:
+      `firebase deploy --only hosting`
+      (if it 429s on the storage quota, run
+      `python3 media-production/prune_hosting_versions.py` and deploy again).
+      Then VERIFY on the live URL, never assume:
+      `curl -s https://milk-b4-meat.web.app/review.html | grep -o 'id="vNN"[^>]*data-hash="[^"]*"'`
+      and confirm the mp4 URL returns HTTP 200 with a real content-length.
+      A row is not shipped until the live page carries the new hash.
 8. Tick `Built` on the QUEUE row. Clear nothing else. Next row.
 
 ## Session pacing
