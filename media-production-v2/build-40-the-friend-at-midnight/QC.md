@@ -60,3 +60,41 @@ family courtyard (packed earth, water jar, fig tree). Do not --take it.
   traveller dusty indigo, father chestnut, boy dusty-blue.
 - b53 has NO people in frame (an ajar door with light spill); b36, b40, b47,
   b50, b54 are also person-free inserts — do not let the model add figures.
+
+## RUNNER QC LOG — first-attempt V2 cut (Machine A, 2026-08-05)
+
+56/56 at native 2K via the Gemini API. 4 story-cast portraits (ASKER,
+NEIGHBOR, TRAVELER, FATHER-SON) generated and auto-wired into REFS; the 6
+promote-first plates generated, eyeballed, promoted (GROVE b01,
+NEIGHBOR-DOOR b02, COURTYARD b06, ASKER-HOUSE b11, NEIGHBOR-HOUSE b19,
+LIT-HOUSE b53); LANE carried from build-31. Row ~$8.2, meter 214.67 →
+222.84, under the $226.73 ceiling.
+
+**REROLLED (1):** b53 LIT-HOUSE. The first take put a ~15-person candle
+crowd into a beat whose must_show is an EMPTY ajar door spilling light
+onto a dark lane — an obvious miss on a designated person-free beat, and
+it would have become the plate for b52/b54. The reroll is exactly the
+brief: empty lane, door ajar, warm spill down the step, no bar/staples,
+no halo. Promoted that take.
+
+**PASSED (the stated traps):**
+- KNOCK ESCALATION ladders: b17 polite three-finger ask → b02 knock →
+  b16 both hands → b25 the lane waking (neighbours at windows) → b26
+  relentless → b27 seen-and-unstopped → b28 arms-wide shameless. No two
+  adjacent frames read at the same intensity.
+- CONTENT-CARE: the serpent (b43) and scorpion (b44) are inert compared
+  objects on/near the table, never close to or threatening the child.
+- TIME OF DAY holds all four registers: grove dawn→morning, parable full
+  moonless midnight (lamp/window light only), father-son warm daylight,
+  b51 golden evening, b52-b54 night with one lit door.
+- PERSON-FREE inserts stayed empty: b53 (after reroll), b36, b40, b47, b50.
+- Costume law: only Jesus in cream; asker rust-brown, neighbour olive-grey,
+  traveller dusty indigo, father chestnut, boy dusty-blue — all held by
+  their portraits across every appearance.
+- b56 (the neighbour's RISE) has its own frame, the payoff verse's verb.
+- The COURTYARD plate is the modest family courtyard (packed earth, water
+  jar, fig tree) — the declined build-34 estate plate was correctly not used.
+
+**FIX-WAVE (kept, not rerolled):** none rising above the runner bar on this
+row; the sheets show no giant figures, no wrong-direction travel, no modern
+objects, no lens-staring, no phantom people in the wides.
