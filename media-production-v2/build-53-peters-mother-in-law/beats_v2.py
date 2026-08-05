@@ -100,6 +100,14 @@ LOCKS = {
 
 REF = True
 
+# Identity law: SIMON is Peter; the token names do not auto-attach the
+# global cast sheets (the Lazarus trap) — pin them here.
+REFS = {
+    "SIMON": ["../CAST-V2-REF/peter-front.jpeg", "../CAST-V2-REF/peter-quarter.jpeg"],
+    "ANDREW": ["../CAST-V2-REF/andrew-front.jpeg", "../CAST-V2-REF/andrew-quarter.jpeg"],
+    "JAMESJOHN": ["../CAST-V2-REF/james-z-front.jpeg", "../CAST-V2-REF/john-front.jpeg"],
+}
+
 BEATS = [
     {
         "id": "v2-r053-b01", "out": "s01-out-of-the-synagogue.jpeg", "seg": "n1 p1",
@@ -110,7 +118,8 @@ BEATS = [
         "must_show": "v29 — Jesus coming down the synagogue steps INTO the group of four friends waiting for him; togetherness is the point.",
         "must_not_show": "no crowd mobbing him here — the sabbath crowd has dispersed; this is the small circle.",
         "scene": (
-            "Jesus comes down the worn basalt steps of the Capernaum "
+            "The camera off at the street's side takes the meeting "
+            "in profile: Jesus comes down the worn basalt steps of the Capernaum "
             "synagogue into the bright sabbath midday, and the four "
             "fishermen close around him easily as he reaches the street — "
             "Simon already talking, a hand half-raised, Andrew grinning at "
@@ -122,7 +131,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b02", "out": "s02-home-with-his-friends.jpeg", "seg": "n1 p2",
-        "window": "4.53-11.36", "wide": True, "jesus": True, "ref": REF,
+        "window": "4.53-11.36", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "ANDREW", "JAMESJOHN", "HOUSE"],
         "narration": ("He went home with his friends, into the house of "
                       "Simon and Andrew, and James and John went in with "
@@ -142,7 +151,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b03", "out": "s03-an-ordinary-house.jpeg", "seg": "n2 p1",
-        "window": "11.36-14.44", "wide": True, "jesus": False, "ref": False,
+        "window": "11.36-14.44", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE"],
         "narration": ("It was an ordinary house, the kind of place where "
                       "real life happens."),
@@ -160,7 +169,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b04", "out": "s04-the-house-was-heavy.jpeg", "seg": "n2 p2",
-        "window": "14.44-19.72", "wide": True, "jesus": False, "ref": False,
+        "window": "14.44-19.72", "wide": False, "jesus": False, "ref": False,
         "locks": ["WIFE", "HOUSE"],
         "narration": ("But that day the house was heavy, because someone "
                       "they loved was ill."),
@@ -179,7 +188,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b05", "out": "s05-sick-with-a-fever.jpeg", "seg": "n3 p1",
-        "window": "19.72-22.91", "wide": True, "jesus": False, "ref": False,
+        "window": "19.72-22.91", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOTHER", "HOUSE"],
         "narration": ("Simon's wife's mother lay in a back room, sick with "
                       "a fever."),
@@ -199,7 +208,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b06", "out": "s06-little-anyone-could-do.jpeg", "seg": "n3 p2",
-        "window": "22.91-30.28", "wide": True, "jesus": False, "ref": False,
+        "window": "22.91-30.28", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOTHER", "WIFE", "HOUSE"],
         "narration": ("In those days a fever like that could take a life, "
                       "and there was little anyone could do but sit beside "
@@ -220,7 +229,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b07", "out": "s07-they-told-him.jpeg", "seg": "n4 p1",
-        "window": "30.28-31.96", "wide": True, "jesus": True, "ref": REF,
+        "window": "30.28-31.96", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "HOUSE"],
         "narration": "So they told Jesus about her.",
         "must_show": "v30 — the telling: Simon speaking low to Jesus just inside the courtyard, a thumb toward the back room.",
@@ -257,7 +266,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b09", "out": "s09-he-went-in.jpeg", "seg": "n5 p1",
-        "window": "40.01-41.55", "wide": True, "jesus": True, "ref": REF,
+        "window": "40.01-41.55", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HOUSE"],
         "narration": "And he went in to where she was lying.",
         "must_show": "v31 — Jesus stooping under the low lintel through the curtain into the dim room; the light following him in.",
@@ -274,7 +283,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b10", "out": "s10-beside-her.jpeg", "seg": "n5 p2",
-        "window": "41.55-45.33", "wide": True, "jesus": True, "ref": REF,
+        "window": "41.55-45.33", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOTHER", "HOUSE"],
         "narration": "What happened next, Mark tells in a single sentence.",
         "must_show": "the stillness before — Jesus kneeling down beside the mat, looking at her face; nothing has happened yet.",
@@ -291,7 +300,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b11", "out": "s11-took-her-by-the-hand.jpeg", "seg": "s31",
-        "window": "45.33-53.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "45.33-53.24", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOTHER", "HOUSE"],
         "narration": ("And he came and took her by the hand, and lifted her "
                       "up; and immediately the fever left her, and she "
@@ -312,7 +321,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b12", "out": "s12-the-fever-left-her.jpeg", "seg": "n6",
-        "window": "53.24-62.53", "wide": True, "jesus": True, "ref": REF,
+        "window": "53.24-62.53", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOTHER", "WIFE", "SIMON", "HOUSE"],
         "narration": ("No slow recovery, no days of weakness; the heat and "
                       "the sickness were gone, and she was herself once "
@@ -333,7 +342,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b13", "out": "s13-she-rose-to-serve.jpeg", "seg": "n7 p1",
-        "window": "62.53-65.16", "wide": True, "jesus": False, "ref": False,
+        "window": "62.53-65.16", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOTHER", "HOUSE"],
         "narration": "And the first thing she did was rise and serve them.",
         "must_show": "her choice — striding into HER courtyard, taking her kitchen back, already reaching for the work.",
@@ -351,7 +360,7 @@ BEATS = [
     },
     {
         "id": "v2-r053-b14", "out": "s14-she-ministered-unto-them.jpeg", "seg": "n7 p2",
-        "window": "65.16-73.03", "wide": True, "jesus": True, "ref": REF,
+        "window": "65.16-73.03", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOTHER", "SIMON", "ANDREW", "JAMESJOHN", "HOUSE"],
         "narration": ("With her strength fully back, she cared for the very "
                       "ones who had carried her trouble to Jesus, glad to "
@@ -380,7 +389,9 @@ BEATS = [
         "must_show": "the closing frame — the whole household at the meal in the golden hour, whole and at peace; the healed woman seated among them now.",
         "must_not_show": "no crowd at the gate yet (that is the next story); the frame stays private, warm, complete.",
         "scene": (
-            "The whole household gathered in the small courtyard as the "
+            "The whole household gathered in the small courtyard, "
+            "the camera at the courtyard wall behind the near "
+            "shoulders, as the "
             "light goes golden: Jesus and the four fishermen around the "
             "shared food, Simon's wife pouring water, and the old woman "
             "seated now in the midst of them — her work done, her hands "
@@ -392,3 +403,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
