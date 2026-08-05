@@ -74,6 +74,10 @@ direction, but V4 is rejected as a final because its copied audio was shortened.
     cures; a plate carries the place the way the face reference carries Jesus.
     A place with a plate does not need a new 400-word prose lock, so the shared
     lock tower stops growing. Never hand a Jesus-bearing frame to auto-wiring.
+    When one sub-region keeps regrowing a defect through plate + text (row 39:
+    battlement teeth on one wall crest survived four renders), stop rerolling —
+    use the lesson-10 EDIT method on the otherwise-approved frame: attach it,
+    name the one region and the one change, then recheck the complete frame.
 
 ## Per-story workflow
 

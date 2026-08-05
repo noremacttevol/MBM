@@ -1,20 +1,22 @@
 # Story 39 Realistic V2 QC — The Pharisee and the Publican (Luke 18:9-14)
 
-**STATUS: NOT SHIPPED. BLOCKED ON API BILLING — 52 of 58 pictures are on disk and
-six remain to be generated.** The Gemini API returned `429 RESOURCE_EXHAUSTED —
-"Your prepayment credits are depleted"` partway through the final reroll batch.
-Topping up is Cameron's action in Google AI Studio billing; it is not something a
-worker can or should do. The runner resumes exactly where it stopped.
+**STATUS: SHIPPED TO REVIEWER 2026-08-04 (worker 35, Machine A `Dev`) — 58/58 at
+native 2K, assembled `luke-18_pharisee-and-publican.mp4` 247.3 s / 22.0 MB, AUDIO
+LOCK PASS SHA256 `2693bcca035a…`, captions checked on frames extracted from the
+rendered MP4 (bottom band only; question card clean, no encoding squares).
+Awaiting Cameron's approval — prior approval VOID under REDO-ALL.**
 
-**To finish, after the top-up, in this order:**
-
-```
-python3 media-production-v2/v2_gen_api.py media-production-v2/build-39-pharisee-publican --ceiling <meter+1.00>
-python3 media-production-v2/v2_assemble.py 39
-```
-
-then QC the six new frames, verify the audio-stream MD5 against the V1 MP4, extract
-frames for the caption check, and ship.
+How the last six finished (the billing blocker cleared itself — auto-reload):
+the six text-cured rerolls came back with THREE new court defects (b26 regrew the
+crenellated parapet its own scene text bans; b53 a colonnaded portico plus a
+second figure in a court its text says is empty; b55 battlements plus a classical
+facade). The cures that held were the NEW tools, not more prose: an approved kept
+frame promoted as the TEMPLE-COURT **place plate** (`v2_stash.py --promote`)
+fixed b26 in one roll and pulled b53/b55 onto the right court; the last stubborn
+sliver — battlement teeth regrowing on the wall crest right of the sanctuary,
+four renders in a row — was removed by a **geometry edit pass** on the finished
+frames (attach the frame, change only the named wall top, recheck everything),
+verified clean at zoom afterward. Six-frame fix cycle $1.47 total.
 
 The six outstanding beats — all of them deliberate rerolls whose old files were
 deleted, so no stale picture can survive into the cut:
