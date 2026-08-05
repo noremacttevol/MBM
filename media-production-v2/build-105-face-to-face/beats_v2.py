@@ -77,7 +77,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r105-b01", "out": "s01-moses-pitched-a-tent-a.jpeg", "seg": "n1",
-        "window": "0.28-5.81", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-5.81", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOSES", "CAMP", "TENT"],
         "narration": (
             "Moses pitched a tent a little way outside the camp and called "
@@ -135,7 +135,7 @@ BEATS = [
     },
     {
         "id": "v2-r105-b03", "out": "s03-whenever-moses-walked-out-to.jpeg", "seg": "n2",
-        "window": "11.97-17.25", "wide": True, "jesus": False, "ref": False,
+        "window": "11.97-17.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOSES", "CAMP", "TENT"],
         "narration": (
             "Whenever Moses walked out to that tent, something happened "
@@ -176,7 +176,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: every man at his tent door — the camp's rows lined with standing figures at their own doors, all facing the small walking man; a nation on its feet in reverence.",
         "must_not_show": "no figure of God, no halo; the standing UNIVERSAL — every visible tent door filled with its watcher.",
         "scene": (
-            "A nation stands up at its "
+            "A nation stands up at its doors, the camera down a "
+            "tent-row behind the standing watchers' backs: "
             "doors: down every visible "
             "row of the great camp, "
             "figures rising at their own "
@@ -237,7 +238,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the pillar descending — the great column of cloud coming down out of clear sky to STAND at the tent door as Moses arrives; the meeting's two parties at one threshold.",
         "must_not_show": "ABSOLUTE: no figure, face or form in or of the cloud — cloud only, standing impossibly; no halo.",
         "scene": (
-            "As his hand reaches the "
+            "As his hand reaches, the camera far back behind the "
+            "watching camp so pillar and tent read from the side, the "
             "flap, the sky keeps the "
             "appointment: a great column "
             "of cloud coming down out of "
@@ -376,7 +378,7 @@ BEATS = [
     },
     {
         "id": "v2-r105-b11", "out": "s11-my-presence-shall-go-with.jpeg", "seg": "jv14 + n5b",
-        "window": "55.63-62.87", "wide": True, "jesus": False, "ref": False,
+        "window": "55.63-62.87", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOSES", "TENT", "CAMP"],
         "narration": (
             "My presence shall go with thee, and I will give thee rest. Not "
@@ -557,7 +559,7 @@ BEATS = [
     },
     {
         "id": "v2-r105-b17", "out": "s17-not-his-greatness-his-goodness.jpeg", "seg": "n6b",
-        "window": "92.09-98.90", "wide": True, "jesus": False, "ref": False,
+        "window": "92.09-98.90", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOSES", "TENT"],
         "narration": (
             "Not his greatness. His goodness. Of everything he could have "
@@ -676,7 +678,7 @@ BEATS = [
     },
     {
         "id": "v2-r105-b21", "out": "s21-so-god-did-the-gentlest.jpeg", "seg": "n7",
-        "window": "114.00-116.11", "wide": True, "jesus": False, "ref": False,
+        "window": "114.00-116.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOSES", "CLEFT"],
         "narration": "So God did the gentlest thing.",
         "must_show": "the gentlest thing begun — high on the mountain: Moses being led to the man-sized cleft in the sheer granite, the sky already changing with what approaches.",
@@ -703,7 +705,7 @@ BEATS = [
     },
     {
         "id": "v2-r105-b22", "out": "s22-he-tucked-moses-into-a.jpeg", "seg": "n7",
-        "window": "116.11-126.82", "wide": True, "jesus": False, "ref": False,
+        "window": "116.11-126.82", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOSES", "CLEFT"],
         "narration": (
             "He tucked Moses into a cleft in the rock, and covered him with "
@@ -766,7 +768,7 @@ BEATS = [
     },
     {
         "id": "v2-r105-b24", "out": "s24-and-when-moses-came-back.jpeg", "seg": "n8",
-        "window": "131.73-136.17", "wide": True, "jesus": False, "ref": False,
+        "window": "131.73-136.17", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOSES", "CAMP"],
         "narration": (
             "And when Moses came back down, his face was shining. He did "
@@ -828,7 +830,7 @@ BEATS = [
     },
     {
         "id": "v2-r105-b26", "out": "s26-it-began-with-a-friendship.jpeg", "seg": "n9",
-        "window": "144.30-148.11", "wide": True, "jesus": False, "ref": False,
+        "window": "144.30-148.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["TENT", "CAMP"],
         "narration": "It began with a friendship, at a tent, outside the camp.",
         "must_show": "the closing image — the lone tent on the open ground in evening light, the camp's fires far behind; the meeting place itself, humble and world-changing.",
@@ -855,3 +857,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
