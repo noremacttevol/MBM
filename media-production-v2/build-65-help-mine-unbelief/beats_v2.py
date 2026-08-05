@@ -96,7 +96,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the descent into the argument — Jesus coming down the last of the mountain path toward a knotted, gesturing crowd at the hill's foot; calm walking into noise.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the mountain's grey shoulder behind him; the crowd's agitation legible at distance.",
         "scene": (
-            "Down the last turns of the stony mountain "
+            "Down the last turns of the stony mountain path, the "
+            "camera on the slope's side taking the descent in "
+            "profile toward the arguing knot below, "
             "path Jesus descends into the bright late "
             "morning — and below him at the hill's foot "
             "the mess is visible from fifty paces: a "
@@ -121,7 +123,8 @@ BEATS = [
         "must_show": "the cornering — two disciples backed against a boulder under the scribes' pressing questions, while at the crowd's edge the father stands with his boy gathered under one arm; failure with its audience.",
         "must_not_show": "no halo, glare or rim-light; the disciples' embarrassment human — good men out of their depth; the boy safe under the father's arm.",
         "scene": (
-            "Against a big boulder two disciples stand "
+            "Against a big boulder, the camera outside the ring "
+            "behind the scribes' dark shoulders, two disciples stand "
             "cornered — one with his palms up in "
             "defence, the other's jaw set on nothing to "
             "say — while the three fine-robed scribes "
@@ -158,7 +161,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b04", "out": "s04-and-everyone-was-watching-them.jpeg", "seg": "n0 + n1",
-        "window": "16.66-22.64", "wide": True, "jesus": True, "ref": REF,
+        "window": "16.66-22.64", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FATHER", "HILLFOOT"],
         "narration": (
             "And everyone was watching them fail. The father pushed through to "
@@ -182,7 +185,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b05", "out": "s05-his-only-son-had-been.jpeg", "seg": "n1",
-        "window": "22.64-32.77", "wide": True, "jesus": False, "ref": False,
+        "window": "22.64-32.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["FATHER", "BOY"],
         "narration": (
             "His only son had been tormented since he was little — thrown down, "
@@ -274,7 +277,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b09", "out": "s09-if-thou-canst-do-anything.jpeg", "seg": "s22",
-        "window": "48.57-52.38", "wide": True, "jesus": True, "ref": REF,
+        "window": "48.57-52.38", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FATHER", "BOY", "HILLFOOT"],
         "narration": "If thou canst do anything, have compassion on us, and help us.",
         "must_show": "SCRIPTURE-EXACT: the plea — the father before Jesus with one arm around his boy and one hand open toward the healer: the 'us' visible, the 'if' audible in his braced face.",
@@ -416,7 +419,8 @@ BEATS = [
         "must_show": "the watching stakes — the crowd's expectant faces ringed around the father: the audience before whom pretending would be easy and truth costs.",
         "must_not_show": "no halo, glare or rim-light; the crowd not hostile — just MANY; publicity as the price of honesty.",
         "scene": (
-            "Around the father the crowd's faces bank "
+            "Around the father, the camera low behind the ring's "
+            "near backs, the crowd's faces bank "
             "close and expectant in the bright light — "
             "scribes with their forensic attention, "
             "neighbours who know his story, strangers "
@@ -453,7 +457,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b17", "out": "s17-lord-i-believe-help-thou.jpeg", "seg": "fv1",
-        "window": "95.27-98.10", "wide": True, "jesus": True, "ref": REF,
+        "window": "95.27-98.10", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FATHER", "BOY", "HILLFOOT"],
         "narration": "Lord, I believe; help thou mine unbelief.",
         "must_show": "SCRIPTURE-EXACT: THE prayer — the father crying it full-voiced before Jesus, tears free, one hand on his son and one open to the healer; the whole Bible's honest prayer at full volume.",
@@ -593,7 +597,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the crowd converging — people running in from the paths at the news, and Jesus turning to act BEFORE the audience assembles; mercy outrunning spectacle.",
         "must_not_show": "no halo, glare or rim-light on Jesus; his turn already toward the boy — the healing refusing to be a show.",
         "scene": (
-            "From the meeting paths the crowd comes "
+            "From the meeting paths, the camera beside the trail "
+            "so every runner crosses in profile, the crowd comes "
             "running — figures converging at a jog "
             "from three directions, drawn by the "
             "argument's rumour — and at the centre "
@@ -607,7 +612,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b24", "out": "s24-he-spoke-directly-to-the.jpeg", "seg": "n5",
-        "window": "133.21-139.70", "wide": True, "jesus": True, "ref": REF,
+        "window": "133.21-139.70", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FATHER", "BOY", "HILLFOOT"],
         "narration": (
             "He spoke directly to the thing that had stolen this boy's whole "
@@ -673,7 +678,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b27", "out": "s27-you-spirit-that-has-kept.jpeg", "seg": "n5b",
-        "window": "146.53-155.85", "wide": True, "jesus": True, "ref": REF,
+        "window": "146.53-155.85", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FATHER", "BOY", "HILLFOOT"],
         "narration": (
             "You spirit that has kept him silent and shut his ears — I command "
@@ -698,7 +703,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b28", "out": "s28-it-left-the-boy-went.jpeg", "seg": "n6a",
-        "window": "157.95-162.40", "wide": True, "jesus": False, "ref": False,
+        "window": "157.95-162.40", "wide": False, "jesus": False, "ref": False,
         "locks": ["FATHER", "BOY", "HILLFOOT"],
         "narration": "It left. The boy went so still that people whispered he was dead.",
         "must_show": "SCRIPTURE-EXACT, RESTRAINED: the stillness — the boy lying utterly quiet on the ground on his father's spread mantle, the crowd's ring leaning in, hands over mouths; stillness read two ways.",
@@ -719,7 +724,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b29", "out": "s29-but-jesus-reached-down-took.jpeg", "seg": "n6a",
-        "window": "162.40-169.33", "wide": True, "jesus": True, "ref": REF,
+        "window": "162.40-169.33", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BOY", "HILLFOOT"],
         "narration": (
             "But Jesus reached down, took him by the hand, and lifted him up — "
@@ -743,7 +748,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b30", "out": "s30-and-he-gave-him-back.jpeg", "seg": "n6b",
-        "window": "169.96-173.95", "wide": True, "jesus": True, "ref": REF,
+        "window": "169.96-173.95", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FATHER", "BOY", "HILLFOOT"],
         "narration": (
             "And he gave him back to his father. The tormented childhood was "
@@ -790,7 +795,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b32", "out": "s32-later-alone-in-the-house.jpeg", "seg": "n7",
-        "window": "179.01-185.00", "wide": True, "jesus": True, "ref": REF,
+        "window": "179.01-185.00", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HOUSE"],
         "narration": (
             "Later, alone in the house, the disciples asked him why they had "
@@ -875,7 +880,7 @@ BEATS = [
     },
     {
         "id": "v2-r065-b36", "out": "s36-the-father-got-it-right.jpeg", "seg": "n7b",
-        "window": "199.18-207.40", "wide": True, "jesus": False, "ref": False,
+        "window": "199.18-207.40", "wide": False, "jesus": False, "ref": False,
         "locks": ["FATHER", "BOY"],
         "narration": (
             "The father got it right without knowing the rules: he stopped "
@@ -899,3 +904,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
