@@ -104,7 +104,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r063-b01", "out": "s01-in-jerusalem-there-was-a.jpeg", "seg": "n0",
-        "window": "0.28-6.42", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-6.42", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SPOT"],
         "narration": (
             "In Jerusalem there was a man who begged at his same spot every "
@@ -153,7 +153,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the passing — Jesus and the disciples coming along the street, the disciples' heads already turning toward the seated beggar as the question forms.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the man IN EARSHOT — the geometry that makes the question cruel.",
         "scene": (
-            "Along the bright approach street Jesus walks "
+            "Along the bright approach street, the camera at the "
+            "wall's side taking the walk in profile, Jesus walks "
             "with four disciples — and their heads are "
             "already turned toward the seated blind man "
             "as they come, one leaning to another with "
@@ -222,7 +223,9 @@ BEATS = [
         "must_show": "the equation at street scale — passers-by giving the beggar the whole spectrum of the doctrine: averted eyes, a coin dropped at arm's length, a pitying head-shake.",
         "must_not_show": "no halo, glare or rim-light; the doctrine in body language — distance, judgment, charity with tongs.",
         "scene": (
-            "The street passes its verdicts in the bright "
+            "The street passes its verdicts in the bright light, "
+            "the camera low at the wall behind the beggar's "
+            "shoulder so every passer crosses the "
             "light: a robed man giving the begging spot a "
             "careful wide berth, a woman dropping her "
             "coin into the bowl at the fullest stretch "
@@ -276,7 +279,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b09", "out": "s09-neither-hath-this-man-sinned.jpeg", "seg": "j1",
-        "window": "43.00-49.69", "wide": True, "jesus": True, "ref": REF,
+        "window": "43.00-49.69", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "SPOT"],
         "narration": (
             "Neither hath this man sinned, nor his parents: but that the works "
@@ -343,7 +346,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b12", "out": "s12-then-he-knelt-down-made.jpeg", "seg": "n2",
-        "window": "62.18-70.67", "wide": True, "jesus": True, "ref": REF,
+        "window": "62.18-70.67", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "SPOT"],
         "narration": (
             "Then he knelt down, made soft clay with the dust of the ground, "
@@ -455,7 +458,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b17", "out": "s17-go-wash-in-the-pool.jpeg", "seg": "j2 + n4",
-        "window": "90.94-96.22", "wide": True, "jesus": True, "ref": REF,
+        "window": "90.94-96.22", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "SPOT", "STREETS"],
         "narration": "Go, wash in the pool of Siloam. Understand what was asked of him.",
         "must_show": "SCRIPTURE-EXACT: the rising — the clay-eyed man getting to his feet at the wall, staff found, orienting himself toward the descending streets; the ask's size standing up with him.",
@@ -495,7 +498,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b19", "out": "s19-a-blind-man-eyes-packed.jpeg", "seg": "n4",
-        "window": "96.22-108.11", "wide": True, "jesus": False, "ref": False,
+        "window": "96.22-108.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": (
             "A blind man, eyes packed with mud, feeling his way across "
@@ -540,7 +543,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b21", "out": "s21-he-knelt-at-the-pool.jpeg", "seg": "n5",
-        "window": "111.74-114.96", "wide": True, "jesus": False, "ref": False,
+        "window": "111.74-114.96", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SILOAM"],
         "narration": "He knelt at the pool of Siloam and washed the clay away.",
         "must_show": "SCRIPTURE-EXACT: the washing — the man kneeling on the lowest step, both hands bringing pool water up to his clay-sealed eyes, the water running dark with washed clay.",
@@ -560,7 +563,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b22", "out": "s22-and-light-came-pouring-in.jpeg", "seg": "n5",
-        "window": "114.96-123.30", "wide": True, "jesus": False, "ref": False,
+        "window": "114.96-123.30", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SILOAM"],
         "narration": (
             "And light came pouring in where there had never been light — "
@@ -585,7 +588,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b23", "out": "s23-the-first-things-he-ever.jpeg", "seg": "n5",
-        "window": "123.30-127.80", "wide": True, "jesus": False, "ref": False,
+        "window": "123.30-127.80", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": "The first things he ever saw. He came back seeing.",
         "must_show": "the return — the man climbing BACK up the stepped lanes at a half-run, staff forgotten in his hand, head swinging at everything: doorways, faces, sky; drunk on the visible.",
@@ -611,7 +614,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the dispute — the man at his old spot surrounded by arguing neighbours: pointing at his eyes, at the empty begging hollow, at each other; identity on trial in the street.",
         "must_not_show": "no halo, glare or rim-light; the comedy of it — a man having to prove he is himself, standing next to his own begging bowl.",
         "scene": (
-            "At the old wall the neighbours have him "
+            "At the old wall, the camera outside the arguing ring "
+            "so the near backs frame the man, the neighbours have him "
             "surrounded and are arguing across him — one "
             "pointing at his clear eyes, another "
             "gesturing at the worn begging hollow and "
@@ -636,7 +640,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the examination — the man standing alone before the three seated examiners in the council room, the scribe recording; one healed beggar against a bench of authority.",
         "must_not_show": "no halo, glare or rim-light; the leaders hard and correct, not grotesque — procedure as weapon.",
         "scene": (
-            "In the stone council room the man stands "
+            "In the stone council room, the camera at the side "
+            "wall holding accused and examiners in one profile, the man stands "
             "alone on the floor before the examiners' "
             "bench — the tall cold senior at its centre, "
             "the stocky one squinting over a tablet, "
@@ -761,7 +766,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b31", "out": "s31-they-could-not-shake-him.jpeg", "seg": "n7",
-        "window": "165.78-173.89", "wide": True, "jesus": False, "ref": False,
+        "window": "165.78-173.89", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "LEADERS", "HALL"],
         "narration": (
             "They could not shake him, so they threw him out — cast out of the "
@@ -785,7 +790,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b32", "out": "s32-healed-and-homeless-in-the.jpeg", "seg": "n7",
-        "window": "173.89-183.42", "wide": True, "jesus": True, "ref": REF,
+        "window": "173.89-183.42", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": (
             "Healed, and homeless in the same week. And here is the part to "
@@ -1000,7 +1005,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b42", "out": "s42-and-he-worshipped-him-right.jpeg", "seg": "n9b",
-        "window": "229.62-234.52", "wide": True, "jesus": True, "ref": REF,
+        "window": "229.62-234.52", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": (
             "And he worshipped him, right there in the street the religious "
@@ -1025,7 +1030,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b43", "out": "s43-the-question-of-whose-fault.jpeg", "seg": "n9b",
-        "window": "234.52-242.16", "wide": True, "jesus": True, "ref": REF,
+        "window": "234.52-242.16", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": (
             "The question of whose fault it was never got an answer that day. "
@@ -1050,3 +1055,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
