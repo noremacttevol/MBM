@@ -48,7 +48,8 @@ BEATS = [
         "must_show": "the long speaking — a deep-time image: an ancient starlit landscape with one small campfire of listeners in its vastness; the ages as sky.",
         "must_not_show": "no figure of God, no halo; the vastness TEMPORAL — old stars, old stone, small human listening.",
         "scene": (
-            "Under a sky thick with the "
+            "Under a sky thick, the camera far off taking fire "
+            "and figures from the side, with the "
             "same stars every century "
             "got, the long conversation "
             "shows its scale: an ancient "
@@ -108,7 +109,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: sundry times, divers manners — a gallery-wide frame: several small vignettes of listening figures across different lights and lands in one composition; the modes many.",
         "must_not_show": "no figure of God, no halo; NO panel-borders — one continuous landscape holding several distinct listening moments naturally at different depths.",
         "scene": (
-            "One sweeping landscape holds "
+            "One sweeping landscape, the camera high on its "
+            "shoulder with every figure turned away from the lens into his own "
+            "moment, holds "
             "the divers manners at its "
             "different depths: near, an "
             "old shepherd stopped "
@@ -157,7 +160,7 @@ BEATS = [
     },
     {
         "id": "v2-r106-b05", "out": "s05-to-one-he-spoke-from.jpeg", "seg": "n2",
-        "window": "21.96-29.07", "wide": True, "jesus": False, "ref": False,
+        "window": "21.96-29.07", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "To one he spoke from a bush that burned but would not burn up. "
@@ -216,7 +219,7 @@ BEATS = [
     },
     {
         "id": "v2-r106-b07", "out": "s07-another-he-sent-to-cry.jpeg", "seg": "n3",
-        "window": "32.94-37.89", "wide": True, "jesus": False, "ref": False,
+        "window": "32.94-37.89", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "Another he sent to cry out in the city gate to people who "
@@ -285,7 +288,8 @@ BEATS = [
         "must_show": "the relay of messengers — a long road through changing country: a file of prophets walking it at great intervals, each a different era's silhouette, each with scroll or staff.",
         "must_not_show": "no figure of God, no halo; the INTERVALS the point — lonely spacing, one road, many centuries.",
         "scene": (
-            "One road carries all the "
+            "One road, the camera at its verge taking the walking "
+            "file in profile, carries all the "
             "centuries: a long track "
             "threading hills that "
             "change from green to stone "
@@ -352,7 +356,8 @@ BEATS = [
         "must_show": "the in-person arrival — warm golden day: Jesus walking an ordinary village road among ordinary people, greeting, touchable, REAL; the mode changed forever.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the ordinariness the MIRACLE — dust on his feet, people at his elbows.",
         "scene": (
-            "And then the mode changes "
+            "And then the mode changes forever, the camera at "
+            "the lane's side taking the arrival in profile: "
             "forever: down an ordinary "
             "village road in warm "
             "golden light comes a man — "
@@ -400,7 +405,7 @@ BEATS = [
     },
     {
         "id": "v2-r106-b13", "out": "s13-for-unto-which-of-the.jpeg", "seg": "sv5",
-        "window": "69.92-72.98", "wide": True, "jesus": False, "ref": False,
+        "window": "69.92-72.98", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": "For unto which of the angels said he at any time,",
         "must_show": "the rhetorical question staged — the vast night sky over dark hills: grand, high, and EMPTY of any figure; the never-said hanging in starlight.",
@@ -511,20 +516,20 @@ BEATS = [
     },
     {
         "id": "v2-r106-b17", "out": "s17-god-never-said-that-to.jpeg", "seg": "nA",
-        "window": "90.69-96.38", "wide": True, "jesus": True, "ref": REF,
+        "window": "90.69-96.38", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": (
             "God never said that to an angel. He said it to one person, and "
             "that is the person he sent."
         ),
-        "must_show": "the one person sent — Jesus walking forward out of morning light toward the viewer's world, purposeful and warm; the sent One, singular.",
+        "must_show": "the one person sent — Jesus walking out of morning light down the road toward the waking villages, purposeful and warm; the sent One, singular.",
         "must_not_show": "no halo, glare or rim-light; NO angel figures; the singularity the composition — one figure, one road, sent.",
         "scene": (
             "The argument arrives at its "
             "person: one figure walking "
-            "forward out of the morning "
-            "light down the road toward "
-            "everything that needs him — "
+            "out of the morning light "
+            "down the road toward the "
+            "waking villages at its far end — "
             "unhurried, warm, entirely "
             "singular — not one "
             "messenger of thousands "
@@ -570,7 +575,7 @@ BEATS = [
     },
     {
         "id": "v2-r106-b19", "out": "s19-own-last-and-clearest-word.jpeg", "seg": "n6",
-        "window": "100.19-108.66", "wide": True, "jesus": True, "ref": REF,
+        "window": "100.19-108.66", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": (
             "God's own last and clearest word, spoken not in fire on a "
@@ -602,7 +607,7 @@ BEATS = [
     },
     {
         "id": "v2-r106-b20", "out": "s20-who-being-the-brightness-of.jpeg", "seg": "jv3",
-        "window": "109.19-117.41", "wide": True, "jesus": True, "ref": REF,
+        "window": "109.19-117.41", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": (
             "Who being the brightness of his glory, and the express image "
@@ -690,7 +695,7 @@ BEATS = [
     },
     {
         "id": "v2-r106-b23", "out": "s23-if-you-have-ever-wondered.jpeg", "seg": "n7",
-        "window": "122.63-131.13", "wide": True, "jesus": True, "ref": REF,
+        "window": "122.63-131.13", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": (
             "If you have ever wondered what God is really like — whether he "
@@ -699,21 +704,25 @@ BEATS = [
         "must_show": "the answer in action — a montage-warm frame of Jesus being exactly what God is like: bent to a child, hand on a sick man's shoulder, laughing with the poor at a table.",
         "must_not_show": "no halo, glare or rim-light; NOTHING angry, distant or cold anywhere in frame — the disproof total.",
         "scene": (
-            "The answer does three "
-            "things at once in one warm "
-            "frame: near, Jesus down on "
-            "one knee to hear a small "
-            "girl's long story with "
-            "complete attention; past "
-            "her, his hand steady on a "
-            "trembling sick man's "
-            "shoulder; beyond, a poor "
-            "family's table where he "
-            "is laughing at the "
-            "grandmother's joke with "
-            "his whole chest — angry, "
+            "The answer does its three "
+            "things in ONE continuous "
+            "moment: Jesus down on one "
+            "knee in a poor family's "
+            "warm doorway, giving a "
+            "small girl's long story "
+            "his complete attention "
+            "while his free hand rests "
+            "steady on the trembling "
+            "shoulder of the sick "
+            "grandfather seated beside "
+            "her — the supper table "
+            "warm-lit behind them, the "
+            "grandmother mid-joke, the "
+            "laugh arriving on his "
+            "listening face — angry, "
             "distant, cold, disproven "
-            "three ways before the "
+            "in one unbroken scene "
+            "with one Jesus in it "
             "sentence ends. Every "
             "figure has two arms, two "
             "hands and one head."
@@ -747,3 +756,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
