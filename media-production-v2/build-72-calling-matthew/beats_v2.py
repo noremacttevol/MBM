@@ -85,7 +85,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r072-b01", "out": "s01-there-was-one-job-in.jpeg", "seg": "n1",
-        "window": "0.28-5.70", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-5.70", "wide": False, "jesus": False, "ref": False,
         "locks": ["MATTHEW", "BOOTH"],
         "narration": (
             "There was one job in every Galilee town that made you a traitor to "
@@ -109,7 +109,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b02", "out": "s02-you-worked-for-rome-the.jpeg", "seg": "n1",
-        "window": "5.70-14.99", "wide": True, "jesus": False, "ref": False,
+        "window": "5.70-14.99", "wide": False, "jesus": False, "ref": False,
         "locks": ["MATTHEW", "BOOTH"],
         "narration": (
             "You worked for Rome, the empire occupying your homeland, and you "
@@ -188,7 +188,8 @@ BEATS = [
         "must_show": "the daily exile — the booth at busy midday: the road full, the town's traffic curving wide, and Matthew counting alone at the still centre of the avoidance.",
         "must_not_show": "no halo, glare or rim-light; the width of the berth the measure — a man islanded by his own table.",
         "scene": (
-            "At busy midday the road runs full past "
+            "At busy midday, the camera across the road taking "
+            "booth and traffic from the side, the road runs full past "
             "the booth — carts, herds, market baskets, "
             "the town's whole traffic — and all of it "
             "bending in the same wide practised curve "
@@ -230,7 +231,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the approach — Jesus walking STRAIGHT at the booth against the traffic's curve: the first trajectory in years aimed AT the table.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the geometry the beat — one straight line through a town of curves.",
         "scene": (
-            "Against the road's practised curve one "
+            "Against the road's practised curve, the camera behind "
+            "the passing walkers' shoulders, one "
             "trajectory runs straight: Jesus walking "
             "directly at the toll booth through the "
             "midday traffic — not drifting wide, not "
@@ -245,7 +247,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b08", "out": "s08-past-everyone-who-would-have.jpeg", "seg": "n3",
-        "window": "38.05-46.12", "wide": True, "jesus": True, "ref": REF,
+        "window": "38.05-46.12", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MATTHEW", "BOOTH"],
         "narration": (
             "Past everyone who would have been a safer, more respectable "
@@ -333,7 +335,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b12", "out": "s12-and-he-arose-and-followed.jpeg", "seg": "s9 + n5",
-        "window": "61.33-66.50", "wide": True, "jesus": True, "ref": REF,
+        "window": "61.33-66.50", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MATTHEW", "BOOTH"],
         "narration": "And he arose, and followed him. He got up, and he left it.",
         "must_show": "SCRIPTURE-EXACT: the rising — Matthew on his feet, the stool tipping back, already stepping around the table toward Jesus; the arising mid-motion.",
@@ -402,7 +404,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b15", "out": "s15-he-walked-away-from-all.jpeg", "seg": "n5",
-        "window": "81.26-84.79", "wide": True, "jesus": True, "ref": REF,
+        "window": "81.26-84.79", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MATTHEW", "BOOTH"],
         "narration": "He walked away from all of it that afternoon, and followed him.",
         "must_show": "the walk — the two figures going down the road together, the abandoned booth shrinking behind under its awning; the following begun in daylight.",
@@ -423,7 +425,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b16", "out": "s16-and-then-something-even-stranger.jpeg", "seg": "n6",
-        "window": "85.37-89.97", "wide": True, "jesus": True, "ref": REF,
+        "window": "85.37-89.97", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MATTHEW", "HOUSE"],
         "narration": (
             "And then something even stranger. Jesus went to Matthew's house "
@@ -448,7 +450,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b17", "out": "s17-and-the-room-filled-up.jpeg", "seg": "n6",
-        "window": "89.97-95.83", "wide": True, "jesus": False, "ref": False,
+        "window": "89.97-95.83", "wide": False, "jesus": False, "ref": False,
         "locks": ["MATTHEW", "GUESTS", "HOUSE"],
         "narration": (
             "And the room filled up with Matthew's kind of people. Other tax "
@@ -484,7 +486,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the sitting among — Jesus at the table's MIDDLE, not its head: bread in hand, shoulder to shoulder with tax men and outcasts, eating.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the middle seat the doctrine — no space around him, the eating real.",
         "scene": (
-            "At the long table's exact middle Jesus "
+            "At the long table's exact middle, the camera down the "
+            "table's length with the near guests in three-quarter, "
+            "Jesus "
             "sits shoulder to shoulder in the crowd "
             "of the given-up-on — bread torn in his "
             "hand, listening to the scarred "
@@ -547,7 +551,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b21", "out": "s21-you-can-see-it-on.jpeg", "seg": "n7",
-        "window": "114.92-117.30", "wide": True, "jesus": True, "ref": REF,
+        "window": "114.92-117.30", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MATTHEW", "GUESTS", "HOUSE"],
         "narration": "You can see it on their faces.",
         "must_show": "the room's weather — the whole table wide in the lamplight: belonging visible on every face at once, the host's most of all.",
@@ -579,7 +583,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the door-standers — the three dark-robed men at the threshold, inside visible and warm past them, their feet planted exactly at the line they will not cross.",
         "must_not_show": "no halo, glare or rim-light; the threshold their whole geography — cleanliness as a wall of their own masonry.",
         "scene": (
-            "At the wide doorway the three fine-"
+            "At the wide doorway, the camera inside the room "
+            "behind the lamplit guests, the three fine-"
             "robed men stand planted exactly at the "
             "threshold line — the lamplit feast "
             "warm and loud a single step past "
@@ -683,7 +688,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b27", "out": "s27-but-go-ye-and-learn.jpeg", "seg": "j2",
-        "window": "146.51-157.42", "wide": True, "jesus": True, "ref": REF,
+        "window": "146.51-157.42", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PHARISEES", "HOUSE"],
         "narration": (
             "But go ye and learn what that meaneth, I will have mercy, and not "
@@ -855,7 +860,8 @@ BEATS = [
         "must_show": "distance as diagnosis — the street view: the lit house warm behind, and the three at their remove in the dark, arms folded; certainty measured in paces from the door.",
         "must_not_show": "no halo, glare or rim-light; their exile self-administered — the door open behind their turned backs.",
         "scene": (
-            "In the dark street the three stand at "
+            "In the dark street, the camera behind the three "
+            "watchers' dark shoulders toward the lit house, they stand at "
             "their chosen remove — arms folded into "
             "fringed shawls, backs half-turned to "
             "the lit doorway that never closed "
@@ -962,7 +968,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b39", "out": "s39-and-the-table-he-sat.jpeg", "seg": "n12",
-        "window": "214.62-217.28", "wide": True, "jesus": False, "ref": False,
+        "window": "214.62-217.28", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE"],
         "narration": "And the table he sat at is still set.",
         "must_show": "the standing feast — the long table set and lamplit, places laid, cushions ready; the dinner as permanent institution.",
@@ -1007,7 +1013,7 @@ BEATS = [
     },
     {
         "id": "v2-r072-b41", "out": "s41-he-is-not-waiting-for.jpeg", "seg": "n12",
-        "window": "225.71-230.97", "wide": True, "jesus": True, "ref": REF,
+        "window": "225.71-230.97", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HOUSE"],
         "narration": (
             "He is not waiting for you to qualify. He is asking you to come and "
@@ -1032,3 +1038,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
