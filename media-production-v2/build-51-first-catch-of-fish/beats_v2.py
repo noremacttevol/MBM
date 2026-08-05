@@ -100,6 +100,15 @@ LOCKS = {
 
 REF = True
 
+# Identity law: SIMON in this row IS Peter — the same actor as the global
+# PETER sheet in every video. The token "SIMON" does not auto-attach the
+# global cast (it matches by token name), so pin it here. JAMESJOHN is a
+# combined token for the partner boat's brothers — both sheets attached.
+REFS = {
+    "SIMON": ["../CAST-V2-REF/peter-front.jpeg", "../CAST-V2-REF/peter-quarter.jpeg"],
+    "JAMESJOHN": ["../CAST-V2-REF/james-z-front.jpeg", "../CAST-V2-REF/john-front.jpeg"],
+}
+
 BEATS = [
     {
         "id": "v2-r051-b01", "out": "s01-the-crowd-pressed.jpeg", "seg": "n1 p1",
@@ -110,7 +119,9 @@ BEATS = [
         "must_show": "v1 — the press of the crowd at the water's edge, every gaze converging on Jesus.",
         "must_not_show": "no halo/glow; he is being crowded toward the waterline, not enthroned.",
         "scene": (
-            "On the pebble shore in soft early-morning light, Jesus stands "
+            "On the pebble shore in soft early-morning light, the "
+            "camera at the water's edge taking shore and crowd "
+            "from the side, Jesus stands "
             "almost at the waterline with the crowd pressing close around "
             "him in a tightening half-ring — working men, mothers with "
             "children on their hips, old men leaning in — every face turned "
@@ -121,7 +132,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b02", "out": "s02-two-empty-boats.jpeg", "seg": "n1 p2a",
-        "window": "5.20-9.50", "wide": True, "jesus": False, "ref": False,
+        "window": "5.20-9.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["LAKE", "BOATS"],
         "narration": "Two empty boats sat at the water's edge,",
         "must_show": "v2 — the two boats drawn up and empty, nets draped, the night's failure written in their emptiness.",
@@ -137,7 +148,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b03", "out": "s03-washing-empty-nets.jpeg", "seg": "n1 p2b",
-        "window": "9.50-14.52", "wide": True, "jesus": False, "ref": False,
+        "window": "9.50-14.52", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON", "CREWMAN", "LAKE"],
         "narration": ("and beside them tired fishermen were washing out their "
                       "nets after a long night that had given them nothing."),
@@ -157,7 +168,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b04", "out": "s04-he-stepped-aboard.jpeg", "seg": "n2 p1-p2",
-        "window": "14.52-18.18", "wide": True, "jesus": True, "ref": REF,
+        "window": "14.52-18.18", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "LAKE", "BOATS"],
         "narration": ("He stepped into one of the boats. It belonged to a "
                       "fisherman named Simon."),
@@ -184,7 +195,9 @@ BEATS = [
         "must_show": "v3 — Jesus SEATED in the floating boat a little off shore, teaching; the crowd banked along the waterline listening; Simon at the oars.",
         "must_not_show": "the boat is only a LITTLE way out — voices carry; not the deep yet.",
         "scene": (
-            "The boat floats a stone's throw off the beach on flat bright "
+            "The boat floats a stone's throw off the beach on flat "
+            "bright water, the camera on the beach behind the "
+            "banked crowd's shoulders looking out to it, on "
             "water, and Jesus SITS in the stern teaching, one hand moving "
             "with the words, fully inside the hull — Simon rests on the "
             "oars amidships, holding her steady, watching this stranger "
@@ -288,7 +301,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b11", "out": "s11-out-to-the-deep.jpeg", "seg": "n3b p1-p2",
-        "window": "50.34-56.65", "wide": True, "jesus": True, "ref": REF,
+        "window": "50.34-56.65", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "CREWMAN", "LAKE", "BOATS"],
         "narration": ("Master, we worked that lake all night and caught "
                       "nothing. But because you say so, I will put the net "
@@ -308,7 +321,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b12", "out": "s12-the-net-goes-down.jpeg", "seg": "n3b p3-p4",
-        "window": "56.65-63.44", "wide": True, "jesus": True, "ref": REF,
+        "window": "56.65-63.44", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "CREWMAN", "LAKE", "BOATS"],
         "narration": ("Hear the word in the middle of that sentence. He had "
                       "every reason to say no, and he did it anyway."),
@@ -328,7 +341,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b13", "out": "s13-the-nets-filled.jpeg", "seg": "n4 p1",
-        "window": "63.44-65.63", "wide": True, "jesus": False, "ref": False,
+        "window": "63.44-65.63", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON", "CREWMAN", "LAKE", "BOATS"],
         "narration": "The moment the nets went down, they filled.",
         "must_show": "v6 — the instant of the miracle: the ropes snapping taut, the water beginning to boil silver alongside.",
@@ -347,7 +360,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b14", "out": "s14-the-net-began-to-tear.jpeg", "seg": "n4 p2",
-        "window": "65.63-74.20", "wide": True, "jesus": False, "ref": False,
+        "window": "65.63-74.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON", "CREWMAN", "LAKE", "BOATS"],
         "narration": ("A great shining mass of fish, far more than the ropes "
                       "were made to hold, and the net began to tear under "
@@ -368,7 +381,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b15", "out": "s15-too-many-for-one-boat.jpeg", "seg": "n5 p1",
-        "window": "74.20-75.85", "wide": True, "jesus": False, "ref": False,
+        "window": "74.20-75.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON", "CREWMAN", "LAKE", "BOATS"],
         "narration": "There were too many for one boat.",
         "must_show": "the problem of abundance — fish coming over the gunwale in a silver spill, the boat already listing.",
@@ -393,7 +406,9 @@ BEATS = [
         "must_show": "v7 — the beckoning: arms up signalling across the water; the far boat already pulling toward them.",
         "must_not_show": "shouting distance is too far — the SIGNAL is the communication.",
         "scene": (
-            "The young crewman stands braced on the fish-slicked deck with "
+            "The young crewman stands braced on the fish-slicked "
+            "deck, the camera off the beam holding both boats in "
+            "profile across the water, with "
             "both arms swinging high over his head in great urgent arcs, "
             "signalling across the bright water — and in the middle "
             "distance the second dark boat has already answered, bow "
@@ -412,7 +427,9 @@ BEATS = [
         "must_show": "v7 — the two boats side by side heaped with silver, gunwales riding at a hand's breadth from the waterline.",
         "must_not_show": "low and dangerous, but nobody bailing, nobody in the water — awed, not drowning.",
         "scene": (
-            "The two boats lie lashed side by side on the bright water, "
+            "The two boats lie lashed side by side on the bright "
+            "water, the camera low off their beam so both hulls "
+            "and the waterline read in profile, "
             "both heaped to the thwarts with glittering silver fish, both "
             "hulls pressed so deep that the water stands within a hand's "
             "breadth of the gunwales — Simon, the crewman, and the two "
@@ -425,7 +442,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b18", "out": "s18-at-his-knees.jpeg", "seg": "n6 p1",
-        "window": "85.60-88.30", "wide": True, "jesus": True, "ref": REF,
+        "window": "85.60-88.30", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "LAKE", "BOATS"],
         "narration": "When Simon saw it, he fell down at Jesus' knees.",
         "must_show": "v8 — Simon DOWN, knees among the fish, gripping at Jesus's knees; the boat's silver hoard all around them.",
@@ -478,7 +495,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b21", "out": "s21-kneeling-in-fish.jpeg", "seg": "n6b p1-p2",
-        "window": "98.50-106.73", "wide": True, "jesus": True, "ref": REF,
+        "window": "98.50-106.73", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "CREWMAN", "JAMESJOHN", "LAKE", "BOATS"],
         "narration": ("Go away from me, Lord. On the best morning of his "
                       "working life, kneeling in fish, the first thing he "
@@ -537,7 +554,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b24", "out": "s24-he-calls-him.jpeg", "seg": "n7",
-        "window": "118.18-130.22", "wide": True, "jesus": True, "ref": REF,
+        "window": "118.18-130.22", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "LAKE", "BOATS"],
         "narration": ("He does not send Simon away. He calls him. The "
                       "trembling fisherman who begged him to leave is the "
@@ -567,7 +584,9 @@ BEATS = [
         "must_show": "v11 — the beached boats and the mountain of silver fish ABANDONED on the shingle; the men already walking away from it.",
         "must_not_show": "nobody looks back at the fish; the fortune is behind them and staying there.",
         "scene": (
-            "The two boats stand beached and heeled on the shingle, and "
+            "The two boats stand beached and heeled on the shingle, "
+            "the camera behind the abandoned catch looking down "
+            "the shore after the leaving men, and "
             "spilling from them across the wet stones lies the greatest "
             "catch four fishermen ever landed — a long shining silver "
             "drift of fish glittering unattended in the sun, gulls "
@@ -579,7 +598,7 @@ BEATS = [
     },
     {
         "id": "v2-r051-b26", "out": "s26-they-followed-him.jpeg", "seg": "n8 p3",
-        "window": "137.97-144.10", "wide": True, "jesus": True, "ref": REF,
+        "window": "137.97-144.10", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON", "CREWMAN", "JAMESJOHN", "LAKE"],
         "narration": ("They forsook all, the nets, the boats, the best day "
                       "they had ever had, and went with him."),
@@ -603,3 +622,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
