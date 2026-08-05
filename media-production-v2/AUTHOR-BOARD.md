@@ -136,7 +136,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 122 | build-122-mote-and-beam | AUTHORED | 0 | OK |  | ✅ |
 | 123 | build-123-golden-rule | AUTHORED | 0 | OK |  | ✅ |
 | 124 | build-124-love-your-enemies | AUTHORED | 0 | OK |  | ✅ |
-| 125 | build-125-i-never-knew-you | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 125 | build-125-i-never-knew-you | AUTHORED | 0 | OK |  | ✅ |
 | 126 | build-126-by-their-fruits | NEEDS-BEATS | 0 | OK |  |  |
 | 127 | build-127-the-strait-gate | NEEDS-BEATS | 0 | OK |  |  |
 | 128 | build-128-famine-of-hearing | NEEDS-BEATS | 0 | OK |  |  |
