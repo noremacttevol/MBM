@@ -170,7 +170,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 156 | build-156-famine-of-hearing | AUTHORED | 0 | OK |  | ✅ |
 | 157 | build-157-marvellous-work | AUTHORED | 0 | OK |  | ✅ |
 | 158 | build-158-two-sticks | AUTHORED | 0 | OK |  | ✅ |
-| 159 | build-159-other-sheep | NEEDS-BEATS | 0 | OK |  |  |
+| 159 | build-159-other-sheep | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 160 | build-160-stone-cut | NEEDS-BEATS | 0 | OK |  |  |
 | 161 | build-161-called-of-god | NEEDS-BEATS | 0 | OK |  |  |
 | 162 | build-162-keys-of-kingdom | NEEDS-BEATS | 0 | OK |  |  |
