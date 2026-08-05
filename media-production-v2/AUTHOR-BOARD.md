@@ -28,7 +28,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 14 | build-14-ten-lepers | BUILT | 68 | OK |  |  |
 | 15 | build-15-centurion | BUILT | 71 | OK |  |  |
 | 16 | build-16-mary-martha | BUILT | 26 | OK |  |  |
-| 17 | build-17-lazarus | AUTHORED | 0 | OK | ⛔ RUNNER-BLOCKED: MARTHA/MARY (leads, 40 beats) have no ref sheets → text-only drift. Author must wire REFS from build-16 (see QC.md). | ✅ |
+| 17 | build-17-lazarus | AUTHORED | 0 | OK |  | ✅ |
 | 18 | build-18-emmaus | BUILT | 41 | OK |  |  |
 | 19 | build-19-shore | BUILT | 37 | OK |  |  |
 | 20 | build-20-samaritan | BUILT | 42 | OK |  |  |

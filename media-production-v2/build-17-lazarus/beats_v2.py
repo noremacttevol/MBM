@@ -164,6 +164,19 @@ LOCKS = {
 
 REF = True
 
+# Canonical face anchors (face-board law). MARTHA/MARY have no CAST-V2-REF
+# sheets (their GLOBAL_CAST stems are None), so without these the sisters
+# would render from text only — guaranteed identity drift across 40 beats.
+# Author's canonical picks from build-16's approved stills (2026-08-05):
+# s18 for Martha (largest sharpest face, dark-ochre headcloth matches her
+# lock exactly); s10 for Mary (the only front-facing open-eyed view — the
+# frontal geometry is what carries identity). These two frames ARE the
+# sisters from now on.
+REFS = {
+    "MARTHA": "../build-16-mary-martha/assets/s18-martha-martha.jpeg",
+    "MARY": "../build-16-mary-martha/assets/s10-the-place-a-student-sat.jpeg",
+}
+
 BEATS = [
     {
         "id": "v2-r017-b01", "out": "s01-in-a-village-called-bethany.jpeg", "seg": "n0",

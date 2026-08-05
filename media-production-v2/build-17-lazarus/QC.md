@@ -4,7 +4,17 @@ Authored from scratch to lessons 11–12 on 2026-08-05 (Machine A).
 `v2_prompt.py --check` PASSES with zero WARNs at handoff. 61 beats,
 316.5 s. Audio column OK on AUTHOR-BOARD (new-voice verified).
 
-## ⛔ RUNNER BLOCKER — do NOT burn credits on this row until an author wires the sisters (found by Opus runner, Machine A, 2026-08-05)
+## ✅ RESOLVED by the author 2026-08-05 — sisters wired, row is buildable
+
+The blocker below is FIXED: `beats_v2.py` now carries a build-local
+`REFS` dict anchoring MARTHA to build-16's `s18-martha-martha.jpeg`
+(largest sharpest face; dark-ochre headcloth matches her lock) and MARY
+to `s10-the-place-a-student-sat.jpeg` (the only front-facing open-eyed
+view — frontal geometry carries identity). `v2_gen_api.py` confirms a
+build-local REFS wins over GLOBAL_CAST. `--check` PASSES. Runners may
+build this row. Original blocker kept below for the record.
+
+## ⛔ RUNNER BLOCKER (historical) — found by Opus runner, Machine A, 2026-08-05
 
 The face-board law CANNOT be met as this package stands, and it fails on
 the story's two LEADS, so a first-attempt cut here would be a guaranteed
