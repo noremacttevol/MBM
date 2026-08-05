@@ -1,3 +1,21 @@
+## 2026-08-05 (continued 15) — Rows 90-93 Ready: FIFTY-FIVE on the board; the runner is promoting cast sheets — Machine A `Dev`
+
+90 washing-feet (his every-disciple-looks-the-same complaint = the hard
+gate; servant-sequence dress continuity — the one lawful cream-off
+state), 91 gethsemane (one-garden law with row 66; agony dignity;
+fourteen protected solo frames), 92 peters-denial (old-voice complaint =
+rendered-audio gate; THE LOOK's eye-line law), 93 barabbas (the swap's
+opposing vectors; chief-priests group ref taken — documented exception:
+a NAMED RECURRING GROUP is an identity goal, unlike crowd plates).
+
+Mid-session the Opus runner pushed CAST-V2 sheets for Martha +
+Mary-of-Bethany built from this session's canonical picks — the
+author/runner loop is feeding itself. One push race resolved by
+pull-rebase per the claim law.
+
+Board: 17, 40-93 Ready ✅ (fifty-five). Passion block continues: 94-100,
+then 101-120.
+
 ## 2026-08-05 (continued 15) — Library fix: Martha/Mary of Bethany CAST-V2 sheets + three-Marys disambiguation — Machine A `Dev`
 
 Closed the row-17 gap #1 library-wide so future rows never render the Bethany
