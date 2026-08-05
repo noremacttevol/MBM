@@ -1,0 +1,56 @@
+# QC / RUNNER HANDOFF — build-128-heart-far-from-me (Matt 15:1-9; Mark 7:1-13)
+
+AUTHORED FROM SCRATCH (prepped + scaffolded + written this session),
+2026-08-05 (Machine A). `--check` PASSES, zero WARNs. 16 beats, ~91 s.
+
+## ⚠ ROW-IDENTITY FIX MADE THIS SESSION (read before touching)
+
+The AUTHOR-BOARD listed row 128 as build-128-famine-of-hearing — the
+RETIRED story (QUEUE.md retired it in favor of heart-far-from-me).
+Board slug corrected; the wrongly-prepped famine V2 dir was deleted.
+TWO SHARED TOOLS were also fixed: extract_beats.py now handles
+SILENT-CARD builds (this build has CARD_TEXT/CARD_DUR and no
+card.mp3 by design), and v2_prep_row.py now honors
+CANONICAL_BUILD_SLUGS for dup-numbered rows instead of sorted()[0].
+
+## The silent card
+
+The closing card is SILENT by design — no card.mp3 exists or should
+exist. Do NOT flag it as missing audio; nothing to ear-check there.
+
+## Villain law (complaint-corpus standing rule)
+
+The five LEADERS are earnest, dignified, sincere — scandalized
+guardians of a fence they love. b03's shock is honest hurt; b12's
+"not impressed" on Jesus is level stillness, NEVER a sneer on either
+side. Exactly FIVE leaders every appearance (counts law).
+
+## The corban pair (b11/b14 — the row's moral weight)
+
+- b11: the tag knotted onto the pouch must read instantly (action-
+  logic); the parents at FAR ground, outside his attention.
+- b14: parents close — dignity total, need real, never abject
+  (rows 44/74/75 class). Same couple as b10 (face-board).
+
+## Composition-argument frames (check as a set)
+
+- b05/b07: the SAME worshiper (face continuity) — correct lips,
+  absent eyes; b07 adds the thousand-mile horizon behind him.
+- b09/b13: the scroll swap then the scroll covering — old scroll
+  dignified, all script indistinct, b13's under-scroll completely
+  covered.
+- b15: loud vessels front, quiet father-helped-over-threshold small
+  through the doorway.
+
+## Coverage shape
+
+One true wide with stated geometry: b01 (camera past the
+delegation's robed backs). Five Jesus beats (b01, b04, b08, b12,
+b16) — locked face, no halo; b08's focus visibly PAST the ritual
+hands; b16 ends on the dusty ordinary man welcomed. File order ≠
+story order (b12 at 14.4s) — build by WINDOW.
+
+- Plates: none auto-matched. COURT promote-first from b01; LEADERS
+  is a recurring-group token (the build-06 chief-priests family may
+  fit — compare before wiring); MEAL from b02; PARENTS face-board
+  across b10/b11/b14.

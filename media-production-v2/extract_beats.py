@@ -282,6 +282,21 @@ def extract(row):
             card_id = m.group(1) if m else "card"
         card_mp3 = os.path.join(bdir, "audio", f"{card_id}.mp3")
         if not os.path.exists(card_mp3):
+            # SILENT-CARD builds (e.g. build-128-heart-far-from-me): no card
+            # narration exists ON PURPOSE — build.py declares CARD_TEXT and a
+            # fixed CARD_DUR instead of an mp3. Use those; only fail when the
+            # build declares neither an mp3 nor a silent-card duration.
+            if bconsts.get("CARD_DUR") is not None:
+                card_dur = float(bconsts["CARD_DUR"])
+                out["card"] = {
+                    "seg": None, "silent": True,
+                    "text": str(bconsts.get("CARD_TEXT", "")),
+                    "seg_start": round(t, 3),
+                    "audio_start": None,
+                    "seg_dur": round(lead + card_dur + tail, 3),
+                }
+                out["total"] = round(t + lead + card_dur + tail, 3)
+                return out
             raise SystemExit(
                 f"card segment {card_id!r} has no mp3 in {bdir}/audio — "
                 f"read that build's build.py and pass the right id")
@@ -313,7 +328,10 @@ def main():
               f" → {b['spoken_end']:7.2f}  ({b['spoken_dur']:5.2f}s spoken)"
               f"  still={b['v1_still']}")
         print(f"        {b['text'][:110]}")
-    print(f"  card  {data['card']['audio_start']:7.2f}  {data['card']['text'][:90]}")
+    if data["card"].get("audio_start") is None:
+        print(f"  card  SILENT ({data['card']['seg_dur']:.1f}s)  {data['card']['text'][:90]}")
+    else:
+        print(f"  card  {data['card']['audio_start']:7.2f}  {data['card']['text'][:90]}")
 
 
 if __name__ == "__main__":

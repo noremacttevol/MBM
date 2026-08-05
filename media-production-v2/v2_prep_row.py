@@ -34,10 +34,19 @@ SCRIPTS = ("make_narration.py", "mbm_caption_timing.py", "mbm_speakers.py",
 
 
 def v1_dir_for(row):
-    """The V1 build folder for a row number, by its NN- prefix."""
+    """The V1 build folder for a row number, by its NN- prefix.
+
+    Dup-numbered rows (128 famine/heart etc.) must resolve to the CANONICAL
+    build, same as extract_beats.py — sorted()[0] silently picked the RETIRED
+    story for row 128 (caught 2026-08-05)."""
     pre = f"build-{row:02d}-"
     hits = sorted(d for d in os.listdir(V1)
                   if d.startswith(pre) and os.path.isdir(os.path.join(V1, d)))
+    if len(hits) > 1:
+        from extract_beats import CANONICAL_BUILD_SLUGS
+        want = CANONICAL_BUILD_SLUGS.get(row)
+        if want:
+            hits = [h for h in hits if h == f"{pre}{want}"] or hits
     return os.path.join(V1, hits[0]) if hits else None
 
 

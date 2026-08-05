@@ -1,0 +1,289 @@
+{
+ "row": 128,
+ "slug": "build-128-heart-far-from-me",
+ "v1_dir": "media-production/build-128-heart-far-from-me",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.65,
+  "KJV_GAP": 1.6,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n1",
+   "v1_still": [
+    [
+     "s1-the-complaint.jpeg",
+     "in"
+    ],
+    [
+     "s2-the-simple-meal.jpeg",
+     "They had seen his disciples"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Some of the religious leaders came to Jesus with a complaint. They had seen his disciples eating with unwashed hands \u2014 breaking not God's law, but a tradition the elders had added on top of it. To them, that was a scandal.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 13.478,
+   "seg_end": 14.128,
+   "audio_dur": 13.61,
+   "spoken_dur": 13.198,
+   "seg_dur": 14.128,
+   "timing": [
+    {
+     "text": "Some of the religious leaders came to Jesus with a complaint.",
+     "start": 0.0,
+     "end": 2.624
+    },
+    {
+     "text": "They had seen his disciples eating with unwashed hands \u2014 breaking not God's law, but a tradition the elders had added on top of it.",
+     "start": 2.624,
+     "end": 11.088
+    },
+    {
+     "text": "To them, that was a scandal.",
+     "start": 11.088,
+     "end": 13.56
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": [
+    [
+     "s3-he-answers.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Jesus was not impressed by the show. He answered them with words the prophet Isaiah had written long before.",
+   "seg_start": 14.128,
+   "audio_start": 14.408,
+   "spoken_end": 20.422,
+   "seg_end": 21.072,
+   "audio_dur": 6.4,
+   "spoken_dur": 6.015,
+   "seg_dur": 6.945,
+   "timing": [
+    {
+     "text": "Jesus was not impressed by the show.",
+     "start": 0.0,
+     "end": 2.067
+    },
+    {
+     "text": "He answered them with words the prophet Isaiah had written long before.",
+     "start": 2.067,
+     "end": 6.362
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": [
+    [
+     "s4-lips-near-heart-far.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "This people honoureth me with their lips, but their heart is far from me. Howbeit in vain do they worship me, teaching for doctrines the commandments of men.",
+   "seg_start": 21.072,
+   "audio_start": 21.352,
+   "spoken_end": 31.494,
+   "seg_end": 33.094,
+   "audio_dur": 10.527,
+   "spoken_dur": 10.141,
+   "seg_dur": 12.021,
+   "timing": [
+    {
+     "text": "This people honoureth me with their lips, but their heart is far from me.",
+     "start": 0.0,
+     "end": 4.296
+    },
+    {
+     "text": "Howbeit in vain do they worship me, teaching for doctrines the commandments of men.",
+     "start": 4.296,
+     "end": 10.495
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": [
+    [
+     "s4-lips-near-heart-far.jpeg",
+     "out"
+    ]
+   ],
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "You can say every right word and keep every custom and still be a thousand miles away on the inside. He was never counting the handwashing. He was looking for what stood behind it.",
+   "seg_start": 33.094,
+   "audio_start": 33.374,
+   "spoken_end": 43.519,
+   "seg_end": 44.169,
+   "audio_dur": 10.632,
+   "spoken_dur": 10.145,
+   "seg_dur": 11.075,
+   "timing": [
+    {
+     "text": "You can say every right word and keep every custom and still be a thousand miles away on the inside.",
+     "start": 0.0,
+     "end": 5.457
+    },
+    {
+     "text": "He was never counting the handwashing.",
+     "start": 5.457,
+     "end": 8.022
+    },
+    {
+     "text": "He was looking for what stood behind it.",
+     "start": 8.022,
+     "end": 10.588
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": [
+    [
+     "s4b-laying-aside-the-commandment.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "For laying aside the commandment of God, ye hold the tradition of men.",
+   "seg_start": 44.169,
+   "audio_start": 44.449,
+   "spoken_end": 48.968,
+   "seg_end": 50.568,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.519,
+   "seg_dur": 6.399,
+   "timing": [
+    {
+     "text": "For laying aside the commandment of God, ye hold the tradition of men.",
+     "start": 0.0,
+     "end": 4.876
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": [
+    [
+     "s5-the-corban-excuse.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "Then he gave them an example that exposed the whole game. God had said, Honour thy father and thy mother. But their custom let a man label his money a gift promised to the temple \u2014 and use that label as an excuse to give nothing to his own aging parents.",
+   "seg_start": 50.568,
+   "audio_start": 50.848,
+   "spoken_end": 66.012,
+   "seg_end": 66.662,
+   "audio_dur": 15.595,
+   "spoken_dur": 15.164,
+   "seg_dur": 16.094,
+   "timing": [
+    {
+     "text": "Then he gave them an example that exposed the whole game.",
+     "start": 0.0,
+     "end": 2.694
+    },
+    {
+     "text": "God had said, Honour thy father and thy mother.",
+     "start": 2.694,
+     "end": 6.084
+    },
+    {
+     "text": "But their custom let a man label his money a gift promised to the temple \u2014 and use that label as an excuse to give nothing to his own aging parents.",
+     "start": 6.084,
+     "end": 15.557
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": [
+    [
+     "s6-he-names-it.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "Making the word of God of none effect through your tradition, which ye have delivered.",
+   "seg_start": 66.662,
+   "audio_start": 66.942,
+   "spoken_end": 71.161,
+   "seg_end": 72.761,
+   "audio_dur": 4.624,
+   "spoken_dur": 4.219,
+   "seg_dur": 6.099,
+   "timing": [
+    {
+     "text": "Making the word of God of none effect through your tradition, which ye have delivered.",
+     "start": 0.0,
+     "end": 4.598
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": [
+    [
+     "s7-the-honest-heart.jpeg",
+     "in"
+    ]
+   ],
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "They had used a rule about God to cancel a command from God \u2014 turning devotion into a loophole. That was his warning: never let the outside of religion grow so loud that it drowns out the heart of it. He would always rather have an honest heart than a flawless performance. Come to him with the real one.",
+   "seg_start": 72.761,
+   "audio_start": 73.041,
+   "spoken_end": 90.015,
+   "seg_end": 90.665,
+   "audio_dur": 17.371,
+   "spoken_dur": 16.973,
+   "seg_dur": 17.903,
+   "timing": [
+    {
+     "text": "They had used a rule about God to cancel a command from God \u2014 turning devotion into a loophole.",
+     "start": 0.0,
+     "end": 5.642
+    },
+    {
+     "text": "That was his warning: never let the outside of religion grow so loud that it drowns out the heart of it.",
+     "start": 5.642,
+     "end": 11.517
+    },
+    {
+     "text": "He would always rather have an honest heart than a flawless performance.",
+     "start": 11.517,
+     "end": 15.14
+    },
+    {
+     "text": "Come to him with the real one.",
+     "start": 15.14,
+     "end": 17.322
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": null,
+  "silent": true,
+  "text": "Is your heart near him,\nor only your lips?",
+  "seg_start": 90.665,
+  "audio_start": null,
+  "seg_dur": 6.78
+ },
+ "total": 97.445
+}
