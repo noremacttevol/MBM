@@ -110,7 +110,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 96 | build-96-it-is-finished | AUTHORED | 0 | OK |  | ✅ |
 | 97 | build-97-the-empty-tomb | AUTHORED | 0 | OK |  | ✅ |
 | 98 | build-98-mary-her-name | AUTHORED | 0 | OK |  | ✅ |
-| 99 | build-99-flesh-and-bone-thomas | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 99 | build-99-flesh-and-bone-thomas | AUTHORED | 0 | OK |  | ✅ |
 | 100 | build-100-the-ascension | AUTHORED | 0 | OK |  |  |
 | 101 | build-101-still-small-voice | AUTHORED | 0 | OK |  |  |
 | 102 | build-102-jacobs-ladder | AUTHORED | 0 | OK |  |  |
