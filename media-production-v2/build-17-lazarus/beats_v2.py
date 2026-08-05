@@ -175,7 +175,23 @@ REF = True
 REFS = {
     "MARTHA": "../build-16-mary-martha/assets/s18-martha-martha.jpeg",
     "MARY": "../build-16-mary-martha/assets/s10-the-place-a-student-sat.jpeg",
+    # Runner-merged 2026-08-05: v2_story_cast generated CAST-REF-V2/lazarus.jpeg
+    # from the LAZARUS lock but could not auto-append it (the manual MARTHA/MARY
+    # REFS above already existed, so its append-if-absent write was skipped).
+    # Wiring it here completes the author's stated intent ("story_cast handles
+    # LAZARUS"). Holds Lazarus's face across b01-b04 (alive) and b57-b60 (raised).
+    "LAZARUS": "CAST-REF-V2/lazarus.jpeg",
 }
+
+# Runner-set 2026-08-05 (Machine A), same pattern as build-25. The AUDIO LOCK
+# stale-V1 guard fired: the V1 render john-11_lazarus.mp4 on disk is 184.5s, but
+# the authoritative narration (the re-voiced V1 segment mp3s that these 61 beats
+# were authored to) is ~314s — and the reviewer card already lists this row as
+# 5:14. The V1 MP4 is simply an out-of-date render from before the re-voice; the
+# assembler rebuilds the audio track from the V1 mp3 segments (new-voice, the
+# AUTHOR-BOARD Audio=OK set) and hash-verifies it. This is exactly the tool's
+# prescribed FIX for this guard.
+AUDIO_FROM_V1_SEGMENTS = True
 
 BEATS = [
     {
@@ -1439,6 +1455,9 @@ BEATS = [
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
     "ANCIENT-ROAD": "PLACE-REF/ancient-road.jpeg",  # build-38-persistent-widow v2-r038-b39
+    "BETHANY-HOUSE": "PLACE-REF/bethany-house.jpeg",  # build-17-lazarus s01-in-a-village-called-bethany (manual)
+    "BETHANY-ROAD": "PLACE-REF/bethany-road.jpeg",  # build-17-lazarus s21-martha-heard-he-was-finally (manual)
+    "JORDAN-CAMP": "PLACE-REF/jordan-camp.jpeg",  # build-17-lazarus s07-you-would-expect-him-to (manual)
     "TOMB": "PLACE-REF/tomb.jpeg",  # build-37-rich-man-lazarus v2-r037-b45
 }
 # === end PLACE-PLATES ===

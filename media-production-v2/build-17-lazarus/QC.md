@@ -147,3 +147,43 @@ it; a crowd plate would clone one crowd into every scene.
 - Only Jesus wears cream anywhere, including blurred crowd edges.
 - Person-free frames: b16, b17, b41, b47, b51 (form only, no exposed
   face), b53/b54 (bound figure only) — do not let the model add people.
+
+## RUNNER QC LOG — first-attempt V2 cut (Machine A, 2026-08-05)
+
+Generated 61/61 at native 2K via the Gemini API (portrait $0.13 + 3
+promote-first anchors + 58 beats = ~$8.3; meter 206.36 → 214.67, under the
+$218.82 ceiling). LAZARUS portrait wired into REFS (see the REFS note in
+beats_v2.py); BETHANY-HOUSE (b01), JORDAN-CAMP (b07), BETHANY-ROAD (b21)
+promote-first plates generated, eyeballed, promoted; TOMB + ANCIENT-ROAD
+carried from their committed plates.
+
+**PASSED (the stated traps, verified frame-by-frame on a contact sheet + full-res on the tomb beats):**
+- SEALED-STONE beats all render the stone in place: s15 (establish), s16,
+  s37, s41, s42, s44. The TOMB plate's open-stone caveat did NOT leak.
+- TRUE-BLACK tomb interior: s51 shows only the bound form in a dark
+  doorway, no interior detail before the reveal.
+- RAISING LADDER reads as escalating: s49 quiet → s50 THE SHOUT (mouth
+  open, peak) → s51 first sight → s52 emergence → s53/s54 standing bound,
+  face covered → s55 frozen crowd (gazes converge, one dropped jar) → s56
+  "loose him" → s57 face unwrapped ALIVE/warm → s58 embraced.
+- Bound Lazarus is CLEAN white linen, reverent, face covered until s57 —
+  not a gauze-monster.
+- Jesus weeps REAL tears (s35, s36, s38) — wet eyes, no red-rimmed horror.
+- Lazarus's revealed face (s57, s60) is warm and alive, matches the portrait.
+- Only Jesus wears cream in every frame; the s27 cream-hooded figure is
+  Jesus from behind, not a second cream-wearer.
+- Empty road behind the sisters (s13); road directions converge (s21).
+- Sister + Lazarus faces held by their REFs (build-16 s18/s10 + the portrait).
+
+**FIX-WAVE (subtle drift — kept the take per the runner bar, NOT rerolled; hand to the defect wave):**
+- MARY's robe drifts from her established blue/purple to rust-brown in s34
+  (and the raised-Lazarus embrace s58). She stays distinguishable from
+  Martha by her loose uncovered hair + face, but the fix wave should pin
+  Mary to blue so the colour cue never collides with Martha's brown.
+- MARTHA's headscarf colour wanders ochre↔olive across the road beats
+  (s19–s30). Face holds; scarf colour is cosmetic.
+- s46: two men roll the stone; the beat prose implies three. Action logic
+  is correct (same direction, weight believable) — only the count is short.
+- s47 (designated person-free insert): two distant mourners linger in frame.
+- s58: the raised Lazarus is redressed in rust-brown vs his living
+  olive-green; face holds via the portrait REF.

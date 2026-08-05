@@ -5,6 +5,24 @@
   "src_build": "build-38-persistent-widow",
   "src_file": "build-38-persistent-widow/assets/s39-will-he-find-anybody.jpeg"
  },
+ "BETHANY-HOUSE": {
+  "manual": true,
+  "src_beat": "s01-in-a-village-called-bethany",
+  "src_build": "build-17-lazarus",
+  "src_file": "build-17-lazarus/assets/s01-in-a-village-called-bethany.jpeg"
+ },
+ "BETHANY-ROAD": {
+  "manual": true,
+  "src_beat": "s21-martha-heard-he-was-finally",
+  "src_build": "build-17-lazarus",
+  "src_file": "build-17-lazarus/assets/s21-martha-heard-he-was-finally.jpeg"
+ },
+ "JORDAN-CAMP": {
+  "manual": true,
+  "src_beat": "s07-you-would-expect-him-to",
+  "src_build": "build-17-lazarus",
+  "src_file": "build-17-lazarus/assets/s07-you-would-expect-him-to.jpeg"
+ },
  "TOMB": {
   "manual": false,
   "src_beat": "v2-r037-b45",
