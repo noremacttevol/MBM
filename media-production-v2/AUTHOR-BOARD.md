@@ -94,7 +94,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 80 | build-80-come-unto-me | AUTHORED | 0 | OK |  | ✅ |
 | 81 | build-81-render-unto-caesar | AUTHORED | 0 | OK |  | ✅ |
 | 82 | build-82-anointing-at-bethany | AUTHORED | 0 | OK |  | ✅ |
-| 83 | build-83-weeping-over-jerusalem | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 83 | build-83-weeping-over-jerusalem | AUTHORED | 0 | OK |  | ✅ |
 | 84 | build-84-no-room-manger | AUTHORED | 0 | OK |  |  |
 | 85 | build-85-shepherds-and-angels | AUTHORED | 0 | OK |  |  |
 | 86 | build-86-the-wise-men | AUTHORED | 0 | OK |  |  |
