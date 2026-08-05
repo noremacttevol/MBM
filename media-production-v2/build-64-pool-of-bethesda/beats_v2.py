@@ -100,7 +100,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the place — the sunken green pool with its stone steps, and the FIVE covered porches ringing it, their shade already peopled; the whole complex in one establishing frame.",
         "must_not_show": "no halo, glare or rim-light; five porches countable; the water still and ordinary.",
         "scene": (
-            "In the bright morning by the sheep gate the "
+            "In the bright morning by the sheep gate, the camera "
+            "on a porch roof taking the whole complex from the "
+            "side, the "
             "pool complex lies open to the sky: the broad "
             "sunken rectangle of still green water with "
             "its worn stone steps descending one side, "
@@ -135,7 +137,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b03", "out": "s03-and-those-porches-were-full.jpeg", "seg": "n0",
-        "window": "6.52-22.75", "wide": True, "jesus": False, "ref": False,
+        "window": "6.52-22.75", "wide": False, "jesus": False, "ref": False,
         "locks": ["BETHESDA"],
         "narration": (
             "And those porches were full of the city's most hopeless people — "
@@ -187,7 +189,8 @@ BEATS = [
         "must_show": "the arithmetic — the widest porch view: mats beyond counting down the colonnades' whole length; the denominator of the cruellest fraction in Jerusalem.",
         "must_not_show": "no halo, glare or rim-light; the number felt — rows receding past focus; dignity held at scale.",
         "scene": (
-            "Down the longest porch the mats recede "
+            "Down the longest porch, the camera low behind the "
+            "nearest mats, the rows recede "
             "past counting — row behind row of the "
             "waiting sick along the colonnade's whole "
             "shaded length, water jars and bundles "
@@ -201,7 +204,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b06", "out": "s06-and-the-fastest-one-wins.jpeg", "seg": "n0 + n1",
-        "window": "28.20-35.25", "wide": True, "jesus": False, "ref": False,
+        "window": "28.20-35.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": (
             "And the fastest one wins a race for the people who can't run. One "
@@ -247,7 +250,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b08", "out": "s08-whole-generations-had-grown-up.jpeg", "seg": "n1",
-        "window": "41.14-49.03", "wide": True, "jesus": False, "ref": False,
+        "window": "41.14-49.03", "wide": False, "jesus": False, "ref": False,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": (
             "Whole generations had grown up and grown old while he lay on that "
@@ -314,7 +317,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b11", "out": "s11-jesus-walked-those-porches-past.jpeg", "seg": "n2",
-        "window": "55.80-61.48", "wide": True, "jesus": True, "ref": REF,
+        "window": "55.80-61.48", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": (
             "Jesus walked those porches, past hundreds of the suffering, and "
@@ -405,7 +408,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b15", "out": "s15-healing-would-mean-a-new.jpeg", "seg": "n3",
-        "window": "79.50-85.46", "wide": True, "jesus": False, "ref": False,
+        "window": "79.50-85.46", "wide": False, "jesus": False, "ref": False,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": (
             "Healing would mean a new name, new work, a whole new life — and no "
@@ -472,7 +475,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b18", "out": "s18-sir-i-have-no-man.jpeg", "seg": "s7",
-        "window": "94.31-101.75", "wide": True, "jesus": True, "ref": REF,
+        "window": "94.31-101.75", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": (
             "Sir, I have no man, when the water is troubled, to put me into the "
@@ -496,7 +499,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b19", "out": "s19-while-dragging-myself-toward-it.jpeg", "seg": "n3b",
-        "window": "102.95-106.76", "wide": True, "jesus": False, "ref": False,
+        "window": "102.95-106.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": (
             "While I'm dragging myself toward it, somebody else always gets "
@@ -543,7 +546,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b21", "out": "s21-get-up-pick-up-your.jpeg", "seg": "n4",
-        "window": "115.47-118.53", "wide": True, "jesus": True, "ref": REF,
+        "window": "115.47-118.53", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": "Get up. Pick up your mat. Walk.",
         "must_show": "the commands landing — the man's body already ANSWERING: shoulders coming off the mat, one arm bracing, the impossible obedience beginning mid-frame.",
@@ -564,7 +567,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b22", "out": "s22-no-water-no-race-the.jpeg", "seg": "n4",
-        "window": "119.69-124.53", "wide": True, "jesus": False, "ref": False,
+        "window": "119.69-124.53", "wide": False, "jesus": False, "ref": False,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": "No water. No race. The pool had nothing to do with it.",
         "must_show": "the legend bypassed — the man RISING to his feet with the pool behind him, DRY, untouched, out of the story; healing happening with its back to the water.",
@@ -631,7 +634,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b25", "out": "s25-he-stood-up-rolled-up.jpeg", "seg": "n4",
-        "window": "135.16-139.71", "wide": True, "jesus": False, "ref": False,
+        "window": "135.16-139.71", "wide": False, "jesus": False, "ref": False,
         "locks": ["SICKMAN", "BETHESDA"],
         "narration": (
             "He stood up, rolled up the mat that had been his whole world, and "
@@ -654,7 +657,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b26", "out": "s26-it-was-the-sabbath-so.jpeg", "seg": "n5",
-        "window": "140.28-146.18", "wide": True, "jesus": False, "ref": False,
+        "window": "140.28-146.18", "wide": False, "jesus": False, "ref": False,
         "locks": ["SICKMAN", "KEEPERS"],
         "narration": (
             "It was the sabbath, so the rule-keepers stopped him at once — not "
@@ -728,7 +731,8 @@ BEATS = [
         "must_show": "the scene's whole comedy and grief — wide: the standing miracle flanked by two men pointing at a bundle; the street's passers-by slowing at the strangeness.",
         "must_not_show": "no halo, glare or rim-light; the composition's irony structural — all official attention on four pounds of rolled reeds.",
         "scene": (
-            "Wide in the bright street: the healed "
+            "Wide in the bright street, the camera at the wall "
+            "taking all three in profile: the healed "
             "man upright at the centre — a walking "
             "wonder on legs the whole quarter knows "
             "have not worked in a generation — and "
@@ -777,7 +781,8 @@ BEATS = [
         "must_show": "the giver gone — back at the porches: Jesus already moving away down the colonnade amid the crowd, unmarked, anonymous; the grace's author leaving without credit.",
         "must_not_show": "no halo, glare or rim-light on Jesus; his anonymity the beat — one figure among many, departing unthanked.",
         "scene": (
-            "Down the crowded colonnade Jesus moves "
+            "Down the crowded colonnade, the camera behind the "
+            "porch crowd's shoulders, Jesus moves "
             "away with the porch's ordinary traffic — "
             "unremarked, unfollowed, one figure "
             "among the many between the columns — "
@@ -813,7 +818,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b33", "out": "s33-later-jesus-found-him-in.jpeg", "seg": "n6",
-        "window": "180.19-187.39", "wide": True, "jesus": True, "ref": REF,
+        "window": "180.19-187.39", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SICKMAN", "TEMPLE"],
         "narration": (
             "Later, Jesus found him in the temple — found him, again, the way "
@@ -951,7 +956,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b39", "out": "s39-he-went-and-told-everyone.jpeg", "seg": "n6b + n7",
-        "window": "212.98-218.76", "wide": True, "jesus": False, "ref": False,
+        "window": "212.98-218.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["SICKMAN", "TEMPLE"],
         "narration": (
             "He went and told everyone: it was Jesus. Thirty-eight years, and "
@@ -997,7 +1002,7 @@ BEATS = [
     },
     {
         "id": "v2-r064-b41", "out": "s41-the-pool-never-healed-anybody.jpeg", "seg": "n7",
-        "window": "226.02-231.18", "wide": True, "jesus": False, "ref": False,
+        "window": "226.02-231.18", "wide": False, "jesus": False, "ref": False,
         "locks": ["BETHESDA"],
         "narration": (
             "The pool never healed anybody. The person standing next to that "
@@ -1020,3 +1025,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "TEMPLE": "PLACE-REF/temple.jpeg",  # build-06-two-sons v2-r006-b21
+}
+# === end PLACE-PLATES ===
