@@ -143,7 +143,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 129 | build-129-nazareth-only-a-few | AUTHORED | 0 | OK |  | ✅ |
 | 130 | build-130-what-manner-of-spirit | AUTHORED | 0 | OK |  | ✅ |
 | 131 | build-131-scribe-near-the-kingdom | AUTHORED | 0 | OK |  | ✅ |
-| 132 | build-132-forbid-him-not | NEEDS-BEATS | 0 | OK |  |  |
+| 132 | build-132-forbid-him-not | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 133 | build-133-many-mansions | NEEDS-BEATS | 0 | OK |  |  |
 | 134 | build-134-other-sheep-i-have | NEEDS-BEATS | 0 | OK |  |  |
 | 135 | build-135-rainbow-covenant | NEEDS-BEATS | 0 | OK |  |  |
