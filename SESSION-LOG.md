@@ -1,3 +1,36 @@
+## 2026-08-05 (later still, same session) — Cameron's correction + three more rows: 42, 43, 45 Ready ✅ (SIX rows on the board) — Machine A `Dev`
+
+Cameron corrected the session mid-run, and the correction binds every
+author session from now on (it is written into each row's QC.md):
+
+1. **"Do as many as the chat can handle"** — the brief's "typically 2-4
+   rows" is a floor, not a ceiling. This session did SIX.
+2. **"Use the past work — where it failed and where it was proven good."**
+   Authoring must MINE `REVIEW-LESSONS.json` (his 77-row complaint
+   corpus), not just run the checker. The mined failure classes now
+   written into every QC.md as per-frame checks: WRONG-DIRECTION travel
+   (row 83 "walking away from Jerusalem", his Peter-walking-sideways
+   example), GIANT figures (rows 56/69/83/107/112), BEARD/identity drift
+   (32/62/91/102 — he ordered a beard QC), everyone-identical crowds
+   (90/107), different-boat-every-picture place drift (11), phantom
+   people injected by the wide block (11 "climbing the mast / pouring
+   water INTO the boat"), exact counts (135), corpse-grey sick people
+   (15), modern objects (7).
+3. Rows shipped in this continuation: **42 barren-fig-tree** (3 wides
+   kept incl. the intercession staged side-on; 15 phantom-people flags
+   fixed), **43 wedding-garment** (10 banquet wides; HALL plate TAKEN
+   from build-22's proven royal hall; restrained-violence + gold-robe
+   count laws), **45 wicked-tenants** (7 wides with watcher/road gaze
+   law; VINEYARD plate = same proven family as builds 23+41; all
+   violence off-screen). All --check PASS, 0 WARNs, claim-by-push, $0.
+
+Board: rows 17, 40, 41, 42, 43, 45 Ready ✅. Next author rows: 44
+(two-debtors, NEEDS-BEATS from scratch) then 46+. Runners are live on
+six rows.
+
+Commits: `553d14977`→`235955278` (first three rows + log) then row 42,
+claim/ship 43, claim/ship 45 + this entry.
+
 ## 2026-08-05 (later) — First Fable 5 author session: rows 40, 17, 41 authored and Ready ✅ — the runner line is UNBLOCKED — Machine A `Dev`
 
 First session run from PROMPT-FABLE5-AUTHOR.md. Three rows shipped Ready
