@@ -55,7 +55,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 41 | build-41-counting-the-cost | AUTHORED | 0 | OK |  | ✅ |
 | 42 | build-42-barren-fig-tree | AUTHORED | 0 | OK |  | ✅ |
 | 43 | build-43-the-wedding-garment | AUTHORED | 0 | OK |  | ✅ |
-| 44 | build-44-two-debtors | NEEDS-BEATS | 0 | OK |  |  |
+| 44 | build-44-two-debtors | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 45 | build-45-wicked-tenants | AUTHORED | 0 | OK |  | ✅ |
 | 46 | build-46-seed-growing | AUTHORED | 0 | OK |  |  |
 | 47 | build-47-houses-on-rock-and-sand | AUTHORED | 0 | OK |  |  |
