@@ -85,8 +85,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the ascent — the four climbing the last bare shoulder of the high summit in late-afternoon light, the world's haze far below; apartness as altitude.",
         "must_not_show": "no halo, glare or rim-light on Jesus (ordinary light in this beat); the four alone — no crowd anywhere in the world below.",
         "scene": (
-            "Up the last bare shoulder of the high "
-            "mountain the four climb in the late gold — "
+            "Up the last bare shoulder of the high mountain, the "
+            "camera below the path taking the climb in profile, "
+            "the four climb in the late gold — "
             "Jesus ahead on the broken pale rock, Peter "
             "hauling himself past a boulder, James and "
             "John spaced on the slope below — and "
@@ -100,7 +101,7 @@ BEATS = [
     },
     {
         "id": "v2-r067-b02", "out": "s02-and-there-in-front-of.jpeg", "seg": "n1",
-        "window": "8.57-10.82", "wide": True, "jesus": True, "ref": REF,
+        "window": "8.57-10.82", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PETER", "JOHN", "JAMES-Z", "SUMMIT"],
         "narration": "And there, in front of them, he changed.",
         "must_show": "SCRIPTURE-EXACT: the change beginning — Jesus a few paces apart on the summit as his raiment's white starts to exceed all ordinary white; the three friends' faces caught at the first second of it.",
@@ -122,7 +123,7 @@ BEATS = [
     },
     {
         "id": "v2-r067-b03", "out": "s03-his-clothes-turned-a-blinding.jpeg", "seg": "n1",
-        "window": "10.82-18.88", "wide": True, "jesus": True, "ref": REF,
+        "window": "10.82-18.88", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SUMMIT"],
         "narration": (
             "His clothes turned a blinding white, brighter than anything on "
@@ -177,7 +178,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the visitors — Moses and Elijah standing WITH the transfigured Jesus in easy conference on the summit: three figures, one conversation, centuries folded.",
         "must_not_show": "no halo rings on anyone; the two elders solid and dignified, not translucent phantoms; the talking REAL — gesture and attention among the three.",
         "scene": (
-            "On the lit summit the impossible "
+            "On the lit summit, the camera low among the rocks "
+            "behind the three watching friends, the impossible "
             "conference stands in session: the ancient "
             "lawgiver in his earth-brown and dark red, "
             "graven face turned gravely to Jesus; the "
@@ -224,7 +226,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the offer — Peter mid-proposal, hands sketching three shelters in the air toward the three glorious figures; architecture offered to glory.",
         "must_not_show": "no halo rings; the offer earnest and homely — a builder's hands solving heaven with tent-poles; gently absurd, never ridiculed.",
         "scene": (
-            "Peter stands mid-proposal in the summit's "
+            "Peter stands mid-proposal, the camera at his side so "
+            "his sketching hands cross in profile toward the three, "
+            "in the summit's "
             "strange light, his big hands sketching "
             "three tent-shapes in the air — one, two, "
             "three — toward Jesus in his blazing white "
@@ -259,7 +263,7 @@ BEATS = [
     },
     {
         "id": "v2-r067-b09", "out": "s09-mark-adds-kindly-that-peter.jpeg", "seg": "n2c",
-        "window": "45.18-50.58", "wide": True, "jesus": False, "ref": False,
+        "window": "45.18-50.58", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER", "JOHN", "JAMES-Z", "SUMMIT"],
         "narration": (
             "Mark adds, kindly, that Peter did not know what to say, because "
@@ -283,7 +287,7 @@ BEATS = [
     },
     {
         "id": "v2-r067-b10", "out": "s10-then-a-bright-cloud-settled.jpeg", "seg": "n3",
-        "window": "52.27-56.63", "wide": True, "jesus": False, "ref": False,
+        "window": "52.27-56.63", "wide": False, "jesus": False, "ref": False,
         "locks": ["SUMMIT"],
         "narration": (
             "Then a bright cloud settled over the mountain, and out of it came "
@@ -307,7 +311,7 @@ BEATS = [
     },
     {
         "id": "v2-r067-b11", "out": "s11-this-is-my-beloved-son.jpeg", "seg": "j2",
-        "window": "58.31-61.33", "wide": True, "jesus": True, "ref": REF,
+        "window": "58.31-61.33", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PETER", "JOHN", "JAMES-Z", "SUMMIT"],
         "narration": "This is my beloved Son: hear him.",
         "must_show": "SCRIPTURE-EXACT: the identification — the friends fallen low in the bright cloud, and Jesus standing indicated by nothing but the words themselves; the sentence's weight on the whole frame.",
@@ -402,7 +406,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: 'Jesus only' — plain dusk on the summit: Jesus in his ordinary cream robe again, bent over the friends, his hand reaching down to Peter's shoulder; the glory gone, the friend kept.",
         "must_not_show": "no halo, glare or rim-light — ORDINARY evening light, deliberately; the same locked face, the same robe, the reach downward the beat.",
         "scene": (
-            "Plain quiet dusk holds the summit: the "
+            "Plain quiet dusk holds the summit, the camera behind "
+            "the three friends still low on the rocks: the "
             "cloud gone, the ranges standing ordinary "
             "in the last light — and Jesus, in his "
             "ordinary cream wool again, is bent over "
@@ -439,3 +444,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
