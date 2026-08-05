@@ -70,7 +70,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the stayer — Mary alone outside the open tomb in the early gold light, bent with weeping by the doorway; the garden empty around her grief.",
         "must_not_show": "no halo, glare or rim-light; the weeping REAL and dignified — a woman who cannot leave.",
         "scene": (
-            "When everyone else has run "
+            "When everyone else has run, the camera at the "
+            "garden's edge taking figure and doorway from the "
+            "side, "
             "with the news, one figure "
             "stays: Mary in her madder-red "
             "at the tomb's open door, bent "
@@ -143,7 +145,7 @@ BEATS = [
     },
     {
         "id": "v2-r098-b04", "out": "s04-she-turned-and-saw-a.jpeg", "seg": "n1a + jv15",
-        "window": "19.20-23.48", "wide": True, "jesus": True, "ref": REF,
+        "window": "19.20-23.48", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB", "MARY"],
         "narration": "She turned and saw a man standing there. Woman, why weepest thou?",
         "must_show": "SCRIPTURE-EXACT: the turning — Mary turned from the door to find a man standing on the garden path in the morning light; his face gentle, hers unseeing through tears.",
@@ -220,7 +222,7 @@ BEATS = [
     },
     {
         "id": "v2-r098-b07", "out": "s07-thinking-he-was-the-gardener.jpeg", "seg": "n1b",
-        "window": "36.36-39.19", "wide": True, "jesus": True, "ref": REF,
+        "window": "36.36-39.19", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB", "MARY"],
         "narration": "Thinking he was the gardener, she pleaded with him.",
         "must_show": "SCRIPTURE-EXACT: supposing him the gardener — Mary turned full to him in pleading, hands beginning to reach; the garden's dawn work-light making the mistake plausible.",
@@ -313,7 +315,8 @@ BEATS = [
         "must_show": "the love measured — the two figures on the garden path: her small pleading frame before the listening man; devotion's size against her smallness.",
         "must_not_show": "no halo, glare or rim-light; HIS face moved — the listener receiving the full weight of being loved like this.",
         "scene": (
-            "The wide gold garden holds "
+            "The wide gold garden holds, the camera off the "
+            "path's side so both figures read in one profile, "
             "the measurement: the small "
             "madder-red figure with her "
             "impossible offer standing "
@@ -360,7 +363,7 @@ BEATS = [
     },
     {
         "id": "v2-r098-b12", "out": "s12-rabboni-mary-and-she-answered.jpeg", "seg": "w16 + n3",
-        "window": "63.73-69.87", "wide": True, "jesus": True, "ref": REF,
+        "window": "63.73-69.87", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB", "MARY"],
         "narration": "Rabboni. Mary. And she answered him — Rabboni.",
         "must_show": "SCRIPTURE-EXACT: the recognition — Mary spun fully around, face blazing alive, the answer bursting from her: RABBONI; the whole garden turned to joy.",
@@ -425,8 +428,9 @@ BEATS = [
         "must_show": "the flip — the garden wide and golden: Mary rushing toward him, arms out, face transfigured by joy; the risen man warm and real receiving her rush.",
         "must_not_show": "no halo, glare or rim-light; the joy TOTAL — the same garden that held her weeping now holding her running.",
         "scene": (
-            "The same garden that held "
-            "her weeping now holds her "
+            "The same garden that held her weeping, the camera "
+            "behind her rushing shoulder toward him, "
+            "now holds her "
             "running: Mary flying the few "
             "steps between them with her "
             "arms out and her face "
@@ -471,7 +475,7 @@ BEATS = [
     },
     {
         "id": "v2-r098-b16", "out": "s16-touch-me-not-for-i.jpeg", "seg": "jv17",
-        "window": "84.63-98.19", "wide": True, "jesus": True, "ref": REF,
+        "window": "84.63-98.19", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB", "MARY"],
         "narration": (
             "Touch me not; for I am not yet ascended to my Father: but go to "
@@ -555,7 +559,7 @@ BEATS = [
     },
     {
         "id": "v2-r098-b19", "out": "s19-go-to-my-brothers-and.jpeg", "seg": "n4a",
-        "window": "103.71-109.55", "wide": True, "jesus": True, "ref": REF,
+        "window": "103.71-109.55", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB", "MARY"],
         "narration": (
             "Go to my brothers and tell them I'm going to my Father and your "
@@ -584,7 +588,7 @@ BEATS = [
     },
     {
         "id": "v2-r098-b20", "out": "s20-he-gave-her-the-message.jpeg", "seg": "n4a",
-        "window": "109.55-113.32", "wide": True, "jesus": False, "ref": False,
+        "window": "109.55-113.32", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB", "MARY"],
         "narration": "He gave her the message, and he sent her to carry it.",
         "must_show": "the going — Mary running full-stride down the garden path toward the city in the risen morning, shawl flying; the first courier of the best news.",
@@ -610,7 +614,7 @@ BEATS = [
     },
     {
         "id": "v2-r098-b21", "out": "s21-the-first-person-to-see.jpeg", "seg": "n4b",
-        "window": "113.87-120.69", "wide": True, "jesus": False, "ref": False,
+        "window": "113.87-120.69", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARY"],
         "narration": (
             "The first person to see the risen Lord, and the first preacher "
@@ -640,3 +644,16 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    # TOMB deliberately UNWIRED: build-37 is the PARABLE tomb — this is
+    # JESUS'S garden tomb (rows 71/96/97 family). Take row 97/71's
+    # approved frame; never the build-37 plate.
+}
+# === end PLACE-PLATES ===
