@@ -67,6 +67,16 @@ def find_build(arg: str) -> pathlib.Path:
         return p
     if arg.isdigit():
         hits = sorted(V2.glob(f"build-{int(arg):02d}-*"))
+        if len(hits) > 1:
+            # Dup-numbered rows must resolve to the CANONICAL build — the
+            # sorted()[0] fallback wrote row 133's scaffold into the archived
+            # many-mansions dupe (caught 2026-08-05).
+            from extract_beats import CANONICAL_BUILD_SLUGS
+            want = CANONICAL_BUILD_SLUGS.get(int(arg))
+            if want:
+                exact = [h for h in hits if h.name == f"build-{int(arg):02d}-{want}"]
+                if exact:
+                    return exact[0]
         if hits:
             return hits[0]
     raise SystemExit(f"no build folder found for {arg!r}")

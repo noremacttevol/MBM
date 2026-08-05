@@ -1,0 +1,291 @@
+{
+ "row": 133,
+ "slug": "build-133-what-jesus-called-hell",
+ "v1_dir": "media-production/build-133-what-jesus-called-hell",
+ "constants": {
+  "LEAD": 0.28,
+  "GAP": 0.72,
+  "KJV_GAP": 0.72,
+  "TAIL": 1.5
+ },
+ "beats": [
+  {
+   "seg": "n0",
+   "v1_still": "s1-inherited-fear.png",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "You were probably taught that hell is a torture chamber, and that God keeps most of his children there forever. Jesus did warn about hell. But the word he used, and the place he pointed at, are not what tradition made them.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 13.786,
+   "seg_end": 14.506,
+   "audio_dur": 13.923,
+   "spoken_dur": 13.506,
+   "seg_dur": 14.506,
+   "timing": [
+    {
+     "text": "Many of the pictures people carry of hell came through centuries of art and tradition.",
+     "start": 0.0,
+     "end": 4.377
+    },
+    {
+     "text": "Jesus did give severe warnings.",
+     "start": 4.377,
+     "end": 7.012
+    },
+    {
+     "text": "But to hear one of his most famous warnings clearly, start with the history inside the word Gehenna.",
+     "start": 7.012,
+     "end": 13.886
+    }
+   ]
+  },
+  {
+   "seg": "n1",
+   "v1_still": "s2-city-valley.png",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "When Jesus said hell, the word in his language was Gehenna \u2014 and everyone listening knew exactly what he meant. It was a real place. A valley just outside the wall of Jerusalem.",
+   "seg_start": 14.506,
+   "audio_start": 14.786,
+   "spoken_end": 27.644,
+   "seg_end": 28.364,
+   "audio_dur": 13.27,
+   "spoken_dur": 12.858,
+   "seg_dur": 13.858,
+   "timing": [
+    {
+     "text": "Gehenna is the Greek form of the name Valley of Hinnom, a real ravine along the southern side of Jerusalem.",
+     "start": 0.0,
+     "end": 6.641
+    },
+    {
+     "text": "Long before Jesus, that name had become a memory of one of Judah's darkest apostasies.",
+     "start": 6.641,
+     "end": 13.235
+    }
+   ]
+  },
+  {
+   "seg": "n2",
+   "v1_still": "s2-city-valley.png",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "The valley of Hinnom. Long before, terrible things had happened there, and by Jesus' day it had become the city's burning garbage dump \u2014 fires that smoldered day and night, always another load, the smoke never seeming to stop.",
+   "seg_start": 28.364,
+   "audio_start": 28.644,
+   "spoken_end": 39.985,
+   "seg_end": 40.705,
+   "audio_dur": 11.833,
+   "spoken_dur": 11.341,
+   "seg_dur": 12.341,
+   "timing": [
+    {
+     "text": "The prophets condemned a place there called Topheth, where children had been passed through fire.",
+     "start": 0.0,
+     "end": 4.795
+    },
+    {
+     "text": "Jeremiah said it would be called the Valley of Slaughter.",
+     "start": 4.795,
+     "end": 7.883
+    },
+    {
+     "text": "The name carried shame, ruin, and judgment.",
+     "start": 7.883,
+     "end": 11.796
+    }
+   ]
+  },
+  {
+   "seg": "n3",
+   "v1_still": "s4-jesus-teaches.png",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "So when Jesus said this, he was pointing at a smoking valley his listeners could have walked to that same afternoon:",
+   "seg_start": 40.705,
+   "audio_start": 40.985,
+   "spoken_end": 54.941,
+   "seg_end": 55.661,
+   "audio_dur": 14.341,
+   "spoken_dur": 13.956,
+   "seg_dur": 14.956,
+   "timing": [
+    {
+     "text": "By the time Mark recorded Jesus' warning, Gehenna was a place-name charged with that biblical history.",
+     "start": 0.0,
+     "end": 5.515
+    },
+    {
+     "text": "Jesus used it, along with the closing image from Isaiah of fire and the worm, to make the danger of sin impossible to ignore:",
+     "start": 6.269,
+     "end": 14.303
+    }
+   ]
+  },
+  {
+   "seg": "j1",
+   "v1_still": "s4-jesus-teaches.png",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "And if thy hand offend thee, cut it off: it is better for thee to enter into life maimed, than having two hands to go into hell, into the fire that never shall be quenched:",
+   "seg_start": 55.661,
+   "audio_start": 55.941,
+   "spoken_end": 67.83,
+   "seg_end": 68.55,
+   "audio_dur": 12.356,
+   "spoken_dur": 11.889,
+   "seg_dur": 12.889,
+   "timing": [
+    {
+     "text": "And if thy hand offend thee, cut it off: it is better for thee to enter into life maimed, than having two hands to go into hell, into the fire that never shall be quenched:",
+     "start": 0.0,
+     "end": 12.307
+    }
+   ]
+  },
+  {
+   "seg": "j2",
+   "v1_still": "s5-release-rope.png",
+   "zoom": "in",
+   "speaker": "jesus",
+   "text": "And if thine eye offend thee, pluck it out: it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire:",
+   "seg_start": 68.55,
+   "audio_start": 68.83,
+   "spoken_end": 79.258,
+   "seg_end": 79.978,
+   "audio_dur": 10.867,
+   "spoken_dur": 10.428,
+   "seg_dur": 11.428,
+   "timing": [
+    {
+     "text": "And if thine eye offend thee, pluck it out: it is better for thee to enter into the kingdom of God with one eye, than having two eyes to be cast into hell fire:",
+     "start": 0.0,
+     "end": 10.82
+    }
+   ]
+  },
+  {
+   "seg": "j3",
+   "v1_still": "s5-release-rope.png",
+   "zoom": "out",
+   "speaker": "jesus",
+   "text": "Where their worm dieth not, and the fire is not quenched.",
+   "seg_start": 79.978,
+   "audio_start": 80.258,
+   "spoken_end": 83.749,
+   "seg_end": 84.469,
+   "audio_dur": 3.944,
+   "spoken_dur": 3.49,
+   "seg_dur": 4.49,
+   "timing": [
+    {
+     "text": "Where their worm dieth not, and the fire is not quenched.",
+     "start": 0.0,
+     "end": 3.901
+    }
+   ]
+  },
+  {
+   "seg": "n4",
+   "v1_still": "s8-warning-love.png",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "He used the most vivid picture his listeners owned \u2014 the ever-burning dump \u2014 to say something deadly serious: sin is worth cutting loose from, and what you carry into eternity matters. He would not have loved them enough to warn them if it did not.",
+   "seg_start": 84.469,
+   "audio_start": 84.749,
+   "spoken_end": 101.836,
+   "seg_end": 102.556,
+   "audio_dur": 17.45,
+   "spoken_dur": 17.087,
+   "seg_dur": 18.087,
+   "timing": [
+    {
+     "text": "The images are deliberately severe.",
+     "start": 0.0,
+     "end": 2.241
+    },
+    {
+     "text": "Hand and eye name things as precious as parts of your own body, yet no cherished sin is worth surrendering life in God's kingdom.",
+     "start": 2.241,
+     "end": 11.273
+    },
+    {
+     "text": "Love does not make the warning smaller.",
+     "start": 11.273,
+     "end": 14.071
+    },
+    {
+     "text": "Love tells the truth about what destroys us.",
+     "start": 14.071,
+     "end": 17.415
+    }
+   ]
+  },
+  {
+   "seg": "n5",
+   "v1_still": "s1-inherited-fear.png",
+   "zoom": "out",
+   "speaker": "narrator",
+   "text": "But notice what he did NOT say. He never described God shoveling his own children into a dungeon to torture them forever for his pleasure. That picture \u2014 the pit, the pitchfork, the endless screaming \u2014 came later, from tradition and from paintings. It did not come from him.",
+   "seg_start": 102.556,
+   "audio_start": 102.836,
+   "spoken_end": 122.992,
+   "seg_end": 123.712,
+   "audio_dur": 20.663,
+   "spoken_dur": 20.156,
+   "seg_dur": 21.156,
+   "timing": [
+    {
+     "text": "Later art supplied pitchforks, elaborate torture chambers, and maps of the underworld.",
+     "start": 0.0,
+     "end": 5.039
+    },
+    {
+     "text": "Scripture itself uses several warning images: death, destruction, darkness, exclusion, and fire.",
+     "start": 5.039,
+     "end": 13.526
+    },
+    {
+     "text": "The images are meant to call you back, not satisfy curiosity about every detail beyond death.",
+     "start": 13.526,
+     "end": 20.619
+    }
+   ]
+  },
+  {
+   "seg": "n6",
+   "v1_still": "s10-shepherd.jpeg",
+   "zoom": "in",
+   "speaker": "narrator",
+   "text": "The God Jesus actually showed was a shepherd who leaves ninety-nine to chase one, a father who runs down the road. That God warns you about the fire the way a parent yanks a child back from a cliff \u2014 because he wants you, not because he is hunting for a reason to lose you.",
+   "seg_start": 123.712,
+   "audio_start": 123.992,
+   "spoken_end": 138.541,
+   "seg_end": 139.261,
+   "audio_dur": 14.994,
+   "spoken_dur": 14.549,
+   "seg_dur": 15.549,
+   "timing": [
+    {
+     "text": "Read the warning beside the whole life of the speaker: the shepherd who searches for the lost, the father who runs down the road, the Savior who enters death to bring people home.",
+     "start": 0.0,
+     "end": 10.321
+    },
+    {
+     "text": "He warns because sin destroys and because he came to save.",
+     "start": 10.321,
+     "end": 14.954
+    }
+   ]
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "text": "What if the God you were afraid of was never the God who warned you \u2014 but the God who came to carry you past the fire himself? Who taught you to fear him more than to trust him?",
+  "seg_start": 139.261,
+  "audio_start": 139.541,
+  "seg_dur": 10.636
+ },
+ "total": 149.897
+}
