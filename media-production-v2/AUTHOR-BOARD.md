@@ -118,7 +118,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 104 | build-104-boy-samuel | AUTHORED | 0 | OK |  | ✅ |
 | 105 | build-105-face-to-face | AUTHORED | 0 | OK |  | ✅ |
 | 106 | build-106-god-spake-by-prophets | AUTHORED | 0 | OK |  | ✅ |
-| 107 | build-107-john-baptist-doubt | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 107 | build-107-john-baptist-doubt | AUTHORED | 0 | OK |  | ✅ |
 | 108 | build-108-my-sheep-hear-my-voice | AUTHORED | 0 | OK |  |  |
 | 109 | build-109-ask-seek-knock | AUTHORED | 0 | OK |  |  |
 | 110 | build-110-lords-prayer | AUTHORED | 0 | OK |  |  |

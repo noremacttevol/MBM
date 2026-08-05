@@ -72,7 +72,8 @@ BEATS = [
         "must_show": "the remembered height — the riverside memory: John mid-river in his strength, arm flung out pointing past the crowd; the pointer at his life's work.",
         "must_not_show": "no halo, glare or rim-light; Jesus NOT in this frame — the pointing arm and the crowd's turning heads carry him.",
         "scene": (
-            "The memory stands at full "
+            "The memory stands at full strength, the camera on "
+            "the far bank taking river and crowd from the side: "
             "strength: John thigh-deep in "
             "the brown river with the "
             "crowd banked along both "
@@ -92,7 +93,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b02", "out": "s02-and-now-he-sat-in.jpeg", "seg": "n1",
-        "window": "7.61-12.77", "wide": True, "jesus": False, "ref": False,
+        "window": "7.61-12.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["CELL", "JOHNB"],
         "narration": (
             "And now he sat in a prison cell, waiting to die, and the "
@@ -180,7 +181,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b05", "out": "s05-he-sent-two-of-his.jpeg", "seg": "n2 + nq",
-        "window": "21.89-28.97", "wide": True, "jesus": False, "ref": False,
+        "window": "21.89-28.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["CELL", "JOHNB", "TWO"],
         "narration": (
             "He sent two of his followers to ask Jesus directly. Art thou "
@@ -211,7 +212,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b06", "out": "s06-it-is-one-of-the.jpeg", "seg": "n3",
-        "window": "30.51-33.31", "wide": True, "jesus": False, "ref": False,
+        "window": "30.51-33.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["TWO"],
         "narration": "It is one of the most human questions in the whole Bible.",
         "must_show": "the question travelling — the two messengers on the long road from the fortress toward Galilee, the question's weight in their silent striding.",
@@ -238,7 +239,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b07", "out": "s07-are-you-really-who-i.jpeg", "seg": "n3",
-        "window": "33.31-38.81", "wide": True, "jesus": True, "ref": REF,
+        "window": "33.31-38.81", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TWO"],
         "narration": (
             "Are you really who I hoped you were? And notice — Jesus was "
@@ -337,7 +338,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the living answer — the wide working scene around Jesus: a blind man's opening eyes, a lame man mid-first-step, joy around a risen figure, poor families close and taught; the verse happening.",
         "must_not_show": "no halo, glare or rim-light; every healed person DIGNIFIED — no grotesquerie; nothing morbid at the raised-up corner.",
         "scene": (
-            "The answer is a landscape "
+            "The answer is a landscape at work, the camera high "
+            "behind the waiting line's shoulders — a landscape "
             "at work: near Jesus a "
             "blind man's face tips "
             "into the light with his "
@@ -452,7 +454,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b14", "out": "s14-the-poorest-people-being-treated.jpeg", "seg": "n4",
-        "window": "73.55-78.14", "wide": True, "jesus": True, "ref": REF,
+        "window": "73.55-78.14", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": (
             "The poorest people being treated like they matter. This is "
@@ -484,7 +486,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b15", "out": "s15-not-breaking-open-a-prison.jpeg", "seg": "n5",
-        "window": "80.34-86.88", "wide": True, "jesus": True, "ref": REF,
+        "window": "80.34-86.88", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": (
             "Not breaking open a prison. But healing, one by one, the "
@@ -547,7 +549,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b17", "out": "s17-look-at-the-love-look.jpeg", "seg": "n5",
-        "window": "89.64-94.25", "wide": True, "jesus": True, "ref": REF,
+        "window": "89.64-94.25", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": "Look at the love. Look at what it is actually doing.",
         "must_show": "love at work wide — the healing day's whole warm panorama once more: every corner of the frame an act of care in progress; the instruction LOOK obeyed by the composition.",
@@ -646,7 +648,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the defense (v7-11) — the two messengers small on the road out, and Jesus turned to the big crowd mid-praise, arm raised high for the absent John; loyalty public.",
         "must_not_show": "no halo, glare or rim-light; the TIMING visible — the couriers barely gone, the praise already at full voice.",
         "scene": (
-            "The couriers are barely "
+            "The couriers, the camera behind Jesus's shoulder "
+            "following their small backs down the road, are barely "
             "forty paces gone when the "
             "loyalty starts: Jesus "
             "turned full to the great "
@@ -668,7 +671,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b21", "out": "s21-the-answer-came-back-to.jpeg", "seg": "n7",
-        "window": "116.72-119.71", "wide": True, "jesus": False, "ref": False,
+        "window": "116.72-119.71", "wide": False, "jesus": False, "ref": False,
         "locks": ["CELL", "JOHNB", "TWO"],
         "narration": "The answer came back to the cell, and John was at peace.",
         "must_show": "the report delivered — the two at the cell grate mid-telling, and John listening within: the scene pouring through the iron bars into the dimness.",
@@ -758,7 +761,7 @@ BEATS = [
     },
     {
         "id": "v2-r107-b24", "out": "s24-it-is-simply-quietly-look.jpeg", "seg": "n7b",
-        "window": "129.73-136.20", "wide": True, "jesus": True, "ref": REF,
+        "window": "129.73-136.20", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": (
             "It is simply, quietly: look at the love. It is real, and it is "
@@ -817,3 +820,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
