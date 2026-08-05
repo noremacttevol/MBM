@@ -71,7 +71,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r071-b01", "out": "s01-he-had-been-crucified.jpeg", "seg": "n1",
-        "window": "0.28-1.67", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-1.67", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": "He had been crucified.",
         "must_show": "⚑ OFF-SCREEN LAW: the fact at distance — the low hill with three EMPTY crosses small against a dark storm-dawn sky; no figures, ever.",
@@ -100,7 +100,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the appointed climb — the ELEVEN ascending the green mountain path in morning light; the count visible, the twelfth's absence quietly legible.",
         "must_not_show": "no halo, glare or rim-light; eleven countable on the path — the gap in the number left unremarked and present.",
         "scene": (
-            "Up the green spring mountainside the "
+            "Up the green spring mountainside, the camera off the "
+            "path taking the climb in profile, the "
             "eleven climb in a loose line through the "
             "wildflowers — Peter at the front with his "
             "old forward lean, John helping the eldest "
@@ -145,7 +146,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the seeing and the falling — the eleven cresting the meadow and going down in worship at the sight of him; knees hitting grass in a wave.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the worship physical and immediate — a wave of falling, faces down and faces up mixed.",
         "scene": (
-            "The eleven crest the meadow and the "
+            "The eleven crest the meadow, the camera behind their "
+            "cresting shoulders, and the "
             "sight takes their legs: a wave of "
             "falling moves through them — Peter down "
             "first with both knees in the grass, "
@@ -186,7 +188,7 @@ BEATS = [
     },
     {
         "id": "v2-r071-b06", "out": "s06-he-gave-them-the-whole.jpeg", "seg": "n2 + jv18",
-        "window": "27.68-33.98", "wide": True, "jesus": True, "ref": REF,
+        "window": "27.68-33.98", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ELEVEN", "MOUNT"],
         "narration": (
             "He gave them the whole world anyway. All power is given unto me in "
@@ -267,7 +269,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the commission — Jesus's arm extended full toward the world's horizon past the lake, the eleven turning to follow the line of it; the GO given.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the gesture horizon-length — a sending the size of the map.",
         "scene": (
-            "Jesus's arm extends full-length toward "
+            "Jesus's arm extends full-length, the camera at his "
+            "side so the gesture crosses in profile toward "
             "the horizon — past the lake's blue, past "
             "the far hills, past everything the "
             "morning can show — and the eleven turn "
@@ -303,7 +306,7 @@ BEATS = [
     },
     {
         "id": "v2-r071-b11", "out": "s11-go-to-everyone-not-one.jpeg", "seg": "n4",
-        "window": "55.92-66.15", "wide": True, "jesus": False, "ref": False,
+        "window": "55.92-66.15", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "Go to everyone. Not one nation, not one kind of person, but all of "
@@ -373,7 +376,7 @@ BEATS = [
     },
     {
         "id": "v2-r071-b14", "out": "s14-teaching-them-to-observe-all.jpeg", "seg": "jv20",
-        "window": "73.06-82.33", "wide": True, "jesus": True, "ref": REF,
+        "window": "73.06-82.33", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ELEVEN", "MOUNT"],
         "narration": (
             "Teaching them to observe all things whatsoever I have commanded "
@@ -492,7 +495,8 @@ BEATS = [
         "must_show": "the sentence in motion — the eleven descending the mountain in different directions at last: the scattering begun, eleven trajectories leaving one summit.",
         "must_not_show": "no halo, glare or rim-light; the divergence the picture — one meadow emptying along many paths.",
         "scene": (
-            "Down from the summit the scattering "
+            "Down from the summit, the camera high behind the "
+            "parting group, the scattering "
             "begins: the eleven descending by "
             "different shoulders of the mountain — "
             "two toward the lake and its boats, "
@@ -533,7 +537,7 @@ BEATS = [
     },
     {
         "id": "v2-r071-b21", "out": "s21-that-is-how-far-he.jpeg", "seg": "n6",
-        "window": "113.15-117.85", "wide": True, "jesus": False, "ref": False,
+        "window": "113.15-117.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNT"],
         "narration": (
             "That is how far he was willing to send someone, so that you would "
@@ -557,3 +561,17 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+# TOMB wiring REMOVED by the author 2026-08-05: the stash matched
+# build-37's parable tomb by token name, but b12 is JESUS'S OWN sealed
+# garden tomb — a different place from Lazarus's/the rich man's cave.
+# Promote-first from b12's approved frame, and that frame must seed
+# rows 96 (it-is-finished), 97 (empty-tomb) and 98 (mary-her-name).
+PLACE_REFS = {}
+# === end PLACE-PLATES ===
