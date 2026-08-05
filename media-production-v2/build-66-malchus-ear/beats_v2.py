@@ -86,7 +86,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the threshold — Jesus risen from the prayer rock in the moon-silvered garden, and below through the olive trunks the snake of torchlight climbing the hill toward him.",
         "must_not_show": "no halo, glare or rim-light on Jesus; night correct and required — moon-silver above, torch-orange threading up from below.",
         "scene": (
-            "In the moon-silvered olive garden Jesus "
+            "In the moon-silvered olive garden, the camera among "
+            "the trunks behind the waking disciples, Jesus "
             "stands just risen from the low prayer rock, "
             "the night's agony still in the set of his "
             "shoulders — and down the slope, threading "
@@ -131,7 +132,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the arrivals — the torch-lit arrest party breaking into the garden's terrace: guards, staves, swords, and at their head the dark-cloaked figure who knows the way.",
         "must_not_show": "no halo, glare or rim-light; the leader's face shadowed under his hood's edge — known and not dwelt on; the mob tense, ordered, human.",
         "scene": (
-            "Up onto the garden's terrace the arrest "
+            "Up onto the garden's terrace, the camera at the "
+            "terrace wall taking the incursion from the side, the arrest "
             "party breaks from the trees — a dozen "
             "torches throwing wild orange over the "
             "silver leaves, temple guards in dark "
@@ -146,7 +148,7 @@ BEATS = [
     },
     {
         "id": "v2-r066-b04", "out": "s04-and-his-friends-could-not.jpeg", "seg": "n1",
-        "window": "19.62-21.45", "wide": True, "jesus": False, "ref": False,
+        "window": "19.62-21.45", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN"],
         "narration": "And his friends could not stand it.",
         "must_show": "the friends' surge — the disciples bunching in front of Jesus as the torches close: bodies interposing, the instinct to shield made visible.",
@@ -208,7 +210,7 @@ BEATS = [
     },
     {
         "id": "v2-r066-b07", "out": "s07-impulsive-loyal-terrified-peter-grabbed.jpeg", "seg": "n1b",
-        "window": "34.45-42.20", "wide": True, "jesus": False, "ref": False,
+        "window": "34.45-42.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER", "MALCHUS", "MOB", "GARDEN"],
         "narration": (
             "Impulsive, loyal, terrified Peter grabbed a sword and swung — "
@@ -255,7 +257,7 @@ BEATS = [
     },
     {
         "id": "v2-r066-b09", "out": "s09-in-one-second-the-whole.jpeg", "seg": "n1b",
-        "window": "47.69-51.53", "wide": True, "jesus": False, "ref": False,
+        "window": "47.69-51.53", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOB", "GARDEN"],
         "narration": "In one second, the whole night was about to become a massacre.",
         "must_show": "the brink — the whole clearing at once: guards' swords clearing sheaths, staves coming up, the disciples bracing; every body in the frame cocked toward catastrophe.",
@@ -281,7 +283,8 @@ BEATS = [
         "must_show": "the arithmetic visible — the two forces in one frame: the small knot of disciples against the torch-line's depth; hopeless numbers, honestly counted.",
         "must_not_show": "no halo, glare or rim-light; the disparity plain — a courage problem, not a strategy.",
         "scene": (
-            "From the terrace's edge the arithmetic "
+            "From the terrace's edge the camera holds both forces "
+            "in one profile: the arithmetic "
             "lies plain in the torchlight: the "
             "disciples a small tight knot of eleven "
             "tired men in road-worn wool, one drawn "
@@ -319,7 +322,7 @@ BEATS = [
     },
     {
         "id": "v2-r066-b12", "out": "s12-and-most-leaders-in-that.jpeg", "seg": "n2",
-        "window": "62.69-69.59", "wide": True, "jesus": True, "ref": REF,
+        "window": "62.69-69.59", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PETER", "GARDEN"],
         "narration": (
             "And most leaders, in that moment, would have let him. But Jesus "
@@ -387,7 +390,7 @@ BEATS = [
     },
     {
         "id": "v2-r066-b15", "out": "s15-he-said-he-could-call.jpeg", "seg": "n3",
-        "window": "80.89-89.14", "wide": True, "jesus": True, "ref": REF,
+        "window": "80.89-89.14", "wide": False, "jesus": True, "ref": REF,
         "locks": ["GARDEN"],
         "narration": (
             "He said he could call down more than twelve legions of angels this "
@@ -474,7 +477,7 @@ BEATS = [
     },
     {
         "id": "v2-r066-b19", "out": "s19-with-the-mob-closing-in.jpeg", "seg": "n4",
-        "window": "102.22-109.23", "wide": True, "jesus": True, "ref": REF,
+        "window": "102.22-109.23", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MALCHUS", "MOB", "GARDEN"],
         "narration": (
             "With the mob closing in to seize him, with his own death now "
@@ -541,7 +544,7 @@ BEATS = [
     },
     {
         "id": "v2-r066-b22", "out": "s22-and-he-reached-out-touched.jpeg", "seg": "n5",
-        "window": "121.05-125.47", "wide": True, "jesus": True, "ref": REF,
+        "window": "121.05-125.47", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MALCHUS", "GARDEN"],
         "narration": (
             "And he reached out, touched the side of the man's head, and made "
@@ -629,7 +632,7 @@ BEATS = [
     },
     {
         "id": "v2-r066-b26", "out": "s26-whatever-he-had-believed-walking.jpeg", "seg": "n6",
-        "window": "141.29-148.89", "wide": True, "jesus": False, "ref": False,
+        "window": "141.29-148.89", "wide": False, "jesus": False, "ref": False,
         "locks": ["MALCHUS", "GARDEN"],
         "narration": (
             "Whatever he had believed walking up that hill, he walked back down "
@@ -683,7 +686,8 @@ BEATS = [
         "must_show": "the character summed — Jesus bound and led down through the torches, upright and unbroken, the garden quieting behind; the arrest owned by his peace, not their iron.",
         "must_not_show": "no halo, glare or rim-light on Jesus; bound wrists, unbowed bearing — the night's meaning carried by his calm.",
         "scene": (
-            "Down through the torch line Jesus is led "
+            "Down through the torch line, the camera behind the "
+            "descending column, Jesus is led "
             "with his wrists bound before him — and the "
             "procession's meaning has quietly changed "
             "hands: the guards grip and hurry, but the "
@@ -720,3 +724,17 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+# GARDEN wiring REMOVED by the author 2026-08-05: the stash matched
+# build-26's sunlit HERB garden by token name, but this row's GARDEN is
+# Gethsemane's moonlit olive terrace — the wrong world entirely (the
+# GROVE/GARDEN family-split trap). GARDEN is promote-first from b01, and
+# its approved frame should later seed row 91 (gethsemane).
+PLACE_REFS = {}
+# === end PLACE-PLATES ===
