@@ -111,7 +111,8 @@ BEATS = [
         "must_show": "v24 — the arrival: Jesus on the coast road above the hard-blue sea, the Phoenician town on its headland ahead.",
         "must_not_show": "no crowd with him — he travels quiet; the foreign coast does the announcing.",
         "scene": (
-            "Jesus walks the high coast road in late-afternoon light, "
+            "The camera off the road's seaward side takes the walk in "
+            "profile: Jesus walks the high coast road in late-afternoon light, "
             "travel-dusty and alone but for two disciples a few paces "
             "behind — and ahead of him the Phoenician town stacks down "
             "its headland to a hard-blue sea, lines of purple-dyed "
@@ -125,7 +126,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b02", "out": "s02-he-wanted-no-one-to-know.jpeg", "seg": "n0 p3",
-        "window": "7.46-10.59", "wide": True, "jesus": True, "ref": REF,
+        "window": "7.46-10.59", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TYRE", "HOUSE"],
         "narration": ("He slipped into a house and wanted no one to know "
                       "he was there."),
@@ -144,7 +145,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b03", "out": "s03-he-could-not-be-hidden.jpeg", "seg": "n0 p4-p5",
-        "window": "10.59-18.39", "wide": True, "jesus": False, "ref": False,
+        "window": "10.59-18.39", "wide": False, "jesus": False, "ref": False,
         "locks": ["TYRE"],
         "narration": ("But Mark says it plainly: he could not be hidden. "
                       "Word about him had crossed the border long before "
@@ -182,7 +183,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b05", "out": "s05-not-one-of-us.jpeg", "seg": "n1 p2",
-        "window": "19.53-26.01", "wide": True, "jesus": False, "ref": False,
+        "window": "19.53-26.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "TYRE"],
         "narration": ("A Greek, born in that country — a Syrophoenician, "
                       "which is Mark's way of saying: not one of us."),
@@ -208,7 +209,9 @@ BEATS = [
         "must_show": "the invisible wall — her stopped at the head of the lane that leads down to the house, the distance she has no right to cross.",
         "must_not_show": "the barrier is social, not physical — an empty lane she cannot walk down, yet.",
         "scene": (
-            "At the head of the stepped lane the woman stands looking "
+            "At the head of the stepped lane, the camera behind her "
+            "shoulder so the whole distance falls away in frame, "
+            "the woman stands looking "
             "down its empty length toward the plank door of the house "
             "at the bottom — nothing between her and it but forty "
             "paces of worn stone and every rule of two nations — her "
@@ -220,7 +223,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b07", "out": "s07-her-little-girl.jpeg", "seg": "n1 p4",
-        "window": "31.08-35.25", "wide": True, "jesus": False, "ref": False,
+        "window": "31.08-35.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["GIRL", "HERHOME"],
         "narration": ("But her little girl was sick with something dark "
                       "that no one could fix."),
@@ -257,7 +260,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b09", "out": "s09-she-found-the-house.jpeg", "seg": "n2 p1",
-        "window": "39.88-40.99", "wide": True, "jesus": False, "ref": False,
+        "window": "39.88-40.99", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "TYRE", "HOUSE"],
         "narration": "She found the house.",
         "must_show": "the arrival — her at the plank door, hand already pushing it, past asking.",
@@ -274,7 +277,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b10", "out": "s10-she-fell-at-his-feet.jpeg", "seg": "n2 p2",
-        "window": "40.99-47.38", "wide": True, "jesus": True, "ref": REF,
+        "window": "40.99-47.38", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "HOUSE"],
         "narration": ("She came in uninvited, fell down at his feet, and "
                       "begged him — cast this thing out of my daughter."),
@@ -293,7 +296,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b11", "out": "s11-she-asked-anyway.jpeg", "seg": "n2 p3-p4",
-        "window": "47.38-53.49", "wide": True, "jesus": True, "ref": REF,
+        "window": "47.38-53.49", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "HOUSE"],
         "narration": ("Every social rule in the room said she had no "
                       "right to ask. She asked anyway."),
@@ -332,7 +335,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b13", "out": "s13-the-childrens-bread.jpeg", "seg": "j1",
-        "window": "58.75-67.31", "wide": True, "jesus": True, "ref": REF,
+        "window": "58.75-67.31", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "HOUSE"],
         "narration": ("Let the children first be filled: for it is not "
                       "meet to take the children's bread, and to cast it "
@@ -430,7 +433,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b18", "out": "s18-she-stepped-into-the-picture.jpeg", "seg": "n5",
-        "window": "92.88-98.54", "wide": True, "jesus": True, "ref": REF,
+        "window": "92.88-98.54", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "HOUSE"],
         "narration": ("She did not argue with him. She stepped right into "
                       "the picture he had painted, and answered him:"),
@@ -487,7 +490,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b21", "out": "s21-the-room-astonished.jpeg", "seg": "n5b p3",
-        "window": "108.94-116.07", "wide": True, "jesus": True, "ref": REF,
+        "window": "108.94-116.07", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "HOUSE"],
         "narration": ("Bible students love this moment: it is the only "
                       "time in the gospels anyone wins an exchange with "
@@ -574,7 +577,8 @@ BEATS = [
         "must_show": "the distance itself — from the house door: the woman stepping out into the night lane, the town rising dark toward her far home; the word crossing what he does not.",
         "must_not_show": "no visual travels the gap — just night air, stone lanes and moonlight between the door and the far upper town.",
         "scene": (
-            "From inside the doorway looking out: Jesus stands at "
+            "From inside the doorway the camera looks out from "
+            "behind his shoulder: Jesus stands at "
             "the open plank door in the spill of lamplight as the "
             "woman steps away up into the night lane — and beyond "
             "her the town climbs in moonlit terraces toward the "
@@ -587,7 +591,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b26", "out": "s26-holding-nothing-but-a-word.jpeg", "seg": "n7 p7-p9",
-        "window": "142.13-150.79", "wide": True, "jesus": False, "ref": False,
+        "window": "142.13-150.79", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "TYRE"],
         "narration": ("And she believed him enough to just... go home. "
                       "That walk home, holding nothing but his word, was "
@@ -609,7 +613,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b27", "out": "s27-she-came-to-her-door.jpeg", "seg": "n8 p1a",
-        "window": "150.79-154.50", "wide": True, "jesus": False, "ref": False,
+        "window": "150.79-154.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "HERHOME"],
         "narration": ("She came to her door and found her daughter lying "
                       "on the bed, resting —"),
@@ -628,7 +632,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b28", "out": "s28-quiet-and-whole.jpeg", "seg": "n8 p1b-p3",
-        "window": "154.50-162.41", "wide": True, "jesus": False, "ref": False,
+        "window": "154.50-162.41", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "GIRL", "HERHOME"],
         "narration": ("quiet, and whole. The dark thing was gone. It had "
                       "left at the exact moment he spoke."),
@@ -688,7 +692,7 @@ BEATS = [
     },
     {
         "id": "v2-r061-b31", "out": "s31-the-whole-loaf.jpeg", "seg": "n9 p2",
-        "window": "175.70-178.02", "wide": True, "jesus": False, "ref": False,
+        "window": "175.70-178.02", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "GIRL", "HERHOME"],
         "narration": "He gave her the whole loaf.",
         "must_show": "the closing image — next morning: mother and daughter at their small table, a whole loaf between them, the girl bright and eating.",
@@ -707,3 +711,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
