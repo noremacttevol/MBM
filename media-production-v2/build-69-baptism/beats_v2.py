@@ -87,7 +87,7 @@ BEATS = [
         "locks": ["BAPTIST", "JORDAN", "CROWD"],
         "narration": "Down at the Jordan river, John was baptizing.",
         "must_show": "SCRIPTURE-EXACT: the scene at work — John waist-deep at the bend, a penitent going under his hands, the bank lined with waiting people; the ministry mid-stroke.",
-        "must_not_show": "no halo, glare or rim-light; the baptizing practical and powerful — a working prophet in a working river.",
+        "must_not_show": "no halo, glare or rim-light; the baptizing practical and powerful — a working prophet in a working river. CAMERON GATE (open complaint — 'John is way too big in the first picture'): John is an ORDINARY-SIZED man — measure him against the penitent under his hands and the people on the bank; if he reads even slightly larger than a normal man, the frame fails (rubric lesson 14).",
         "scene": (
             "At the green bend of the Jordan, the camera on the "
             "far bank taking bend and line from the side, the work is "
