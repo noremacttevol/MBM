@@ -90,7 +90,8 @@ BEATS = [
         "must_show": "the sabbath room assembled, Jesus teaching; the man with the folded-over right side seated unnoticed among the rest.",
         "must_not_show": "no halo/glow; the man is NOT visually singled out yet — he is one face among many.",
         "scene": (
-            "The sabbath congregation fills the pillared limestone hall "
+            "The camera at the side aisle takes the room from the side: "
+            "the sabbath congregation fills the pillared limestone hall "
             "in bright shafted morning light, Jesus standing at the "
             "teaching place mid-word — and somewhere in the middle "
             "benches, given no more of the frame than anyone else, sits "
@@ -185,7 +186,8 @@ BEATS = [
         "must_show": "the whole trap in one frame — the watchers' sightline to Jesus, the unnoticed man between, the room unaware.",
         "must_not_show": "three-way geometry must read: watchers stare at Jesus; nobody looks at the man; Jesus teaches on.",
         "scene": (
-            "A wide frame of the hall that draws the trap: on one side "
+            "A wide frame of the hall that draws the trap, the camera "
+            "at the side wall so the sightline crosses in profile: on one side "
             "the three watchers stare fixed at Jesus where he teaches "
             "in the light at the scroll chest; between the two, lost in "
             "the congregation's middle benches, the man in walnut-brown "
@@ -214,7 +216,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b08", "out": "s08-not-in-a-corner.jpeg", "seg": "n3 p2-p3",
-        "window": "31.39-37.11", "wide": True, "jesus": True, "ref": REF,
+        "window": "31.39-37.11", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SYNAGOGUE"],
         "narration": ("He did not hide the moment away in a corner. He "
                       "said to the man with the withered hand:"),
@@ -233,7 +235,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b09", "out": "s09-stand-forth.jpeg", "seg": "j3 + n3b p1",
-        "window": "37.11-40.86", "wide": True, "jesus": False, "ref": False,
+        "window": "37.11-40.86", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAN", "SYNAGOGUE"],
         "narration": "Stand forth. (Mark 3:3) / Stand up.",
         "must_show": "the man rising — pushed up off the bench by the command, unsteady, clutching the mantle over his arm.",
@@ -259,7 +261,8 @@ BEATS = [
         "must_show": "the reversal — the overlooked man standing alone at the exact centre of the open floor, every eye in the room ON him for the first time in his life; Jesus near.",
         "must_not_show": "he stands in the brightest shaft of light — the staging is deliberate and the frame must show it is Jesus's doing.",
         "scene": (
-            "The man in walnut-brown stands alone in the centre of the "
+            "The camera looks over the congregation's shoulders from behind: "
+            "the man in walnut-brown stands alone in the centre of the "
             "open rush-matted floor, squarely inside the brightest "
             "shaft of morning light, his mantle still clutched over "
             "his right arm — and the entire room is turned to him: the "
@@ -272,7 +275,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b11", "out": "s11-is-it-lawful.jpeg", "seg": "jv4",
-        "window": "50.24-57.55", "wide": True, "jesus": True, "ref": REF,
+        "window": "50.24-57.55", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "WATCHERS", "SYNAGOGUE"],
         "narration": ("Is it lawful to do good on the sabbath days, or to "
                       "do evil? to save life, or to kill? (Mark 3:4)"),
@@ -311,7 +314,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b13", "out": "s13-they-said-nothing.jpeg", "seg": "n4 p3",
-        "window": "66.35-69.09", "wide": True, "jesus": True, "ref": REF,
+        "window": "66.35-69.09", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "WATCHERS", "SYNAGOGUE"],
         "narration": "So they said nothing at all.",
         "must_show": "the silence as a picture — the whole held-breath room: Jesus waiting, the man in the light, the bench mute.",
@@ -386,7 +389,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b17", "out": "s17-he-turned-to-the-man.jpeg", "seg": "n4b p2",
-        "window": "87.12-91.00", "wide": True, "jesus": True, "ref": REF,
+        "window": "87.12-91.00", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "WATCHERS", "SYNAGOGUE"],
         "narration": ("And then he turned away from them, to the man, and "
                       "said:"),
@@ -445,7 +448,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b20", "out": "s20-back-to-life.jpeg", "seg": "n5 p2",
-        "window": "101.59-106.39", "wide": True, "jesus": True, "ref": REF,
+        "window": "101.59-106.39", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SYNAGOGUE"],
         "narration": ("The thing that had been dead came back to life at "
                       "a single word."),
@@ -464,7 +467,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b21", "out": "s21-they-walked-out.jpeg", "seg": "n6 p1-p2",
-        "window": "106.39-115.30", "wide": True, "jesus": False, "ref": False,
+        "window": "106.39-115.30", "wide": False, "jesus": False, "ref": False,
         "locks": ["WATCHERS", "SYNAGOGUE"],
         "narration": ("But the leaders were not amazed; they were furious. "
                       "They walked out and began, that very day, to plot "
@@ -484,7 +487,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b22", "out": "s22-it-only-hardened-them.jpeg", "seg": "n6 p3",
-        "window": "115.30-119.61", "wide": True, "jesus": False, "ref": False,
+        "window": "115.30-119.61", "wide": False, "jesus": False, "ref": False,
         "locks": ["WATCHERS"],
         "narration": ("He had done nothing but good, and it only hardened "
                       "them."),
@@ -503,7 +506,7 @@ BEATS = [
     },
     {
         "id": "v2-r055-b23", "out": "s23-mercy-over-rule.jpeg", "seg": "n7",
-        "window": "119.61-132.84", "wide": True, "jesus": True, "ref": REF,
+        "window": "119.61-132.84", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SYNAGOGUE"],
         "narration": ("Faced with a rule on one side and a suffering man "
                       "on the other, Jesus never wavered. He will always "
@@ -526,3 +529,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "SYNAGOGUE": "PLACE-REF/synagogue.jpeg",  # build-05-bent-woman v2-r005-b28
+}
+# === end PLACE-PLATES ===

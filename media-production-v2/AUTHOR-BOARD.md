@@ -66,7 +66,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 52 | build-52-demoniac-synagogue | AUTHORED | 0 | OK |  | ✅ |
 | 53 | build-53-peters-mother-in-law | AUTHORED | 0 | OK |  | ✅ |
 | 54 | build-54-the-leper | AUTHORED | 0 | OK |  | ✅ |
-| 55 | build-55-withered-hand | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 55 | build-55-withered-hand | AUTHORED | 0 | OK |  | ✅ |
 | 56 | build-56-widow-of-nain | AUTHORED | 0 | OK |  |  |
 | 57 | build-57-jairus-daughter | AUTHORED | 0 | OK |  |  |
 | 58 | build-58-feeding-5000 | AUTHORED | 0 | OK |  |  |
