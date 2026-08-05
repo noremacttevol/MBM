@@ -88,7 +88,8 @@ BEATS = [
         "must_show": "the custom's stage — the judgment yard filling in the cold morning light: crowd gathering below the empty tribunal platform, guards taking their places; the annual choice assembling.",
         "must_not_show": "no halo, glare or rim-light; the yard EXPECTANT — a known yearly ritual, not yet a storm.",
         "scene": (
-            "The cold morning fills the "
+            "The cold morning fills, the camera behind the "
+            "gathering crowd's shoulders toward the platform, "
             "governor's yard for the yearly "
             "ritual: city men streaming in "
             "between the iron-clad guards, "
@@ -114,7 +115,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the two — on the platform's edge, the pair presented: Jesus rope-bound and calm; Barabbas chained, heavy, hard-worn; Pilate between and behind them.",
         "must_not_show": "ABSOLUTE: no wounds or bruises on Jesus — rope binding only; Barabbas in chains, human not monstrous.",
         "scene": (
-            "On the platform the morning's "
+            "On the platform, the camera below at the crowd's "
+            "edge so both figures read in one profile, the morning's "
             "two names stand in the cold "
             "light: at one side Jesus, "
             "hands bound before him with "
@@ -164,7 +166,7 @@ BEATS = [
     },
     {
         "id": "v2-r093-b04", "out": "s04-will-ye-that-i-release.jpeg", "seg": "s9 + n1a2",
-        "window": "16.70-23.30", "wide": True, "jesus": True, "ref": REF,
+        "window": "16.70-23.30", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PAVEMENT", "PILATE", "CROWD"],
         "narration": (
             "Will ye that I release unto you the King of the Jews? He was "
@@ -219,7 +221,7 @@ BEATS = [
     },
     {
         "id": "v2-r093-b06", "out": "s06-but-the-chief-priests-worked.jpeg", "seg": "n2",
-        "window": "27.46-32.24", "wide": True, "jesus": False, "ref": False,
+        "window": "27.46-32.24", "wide": False, "jesus": False, "ref": False,
         "locks": ["PAVEMENT", "PRIESTS", "CROWD"],
         "narration": (
             "But the chief priests worked the crowd, and they shouted for "
@@ -247,7 +249,7 @@ BEATS = [
     },
     {
         "id": "v2-r093-b07", "out": "s07-pilate-asked-them-what-he.jpeg", "seg": "n2",
-        "window": "32.24-38.09", "wide": True, "jesus": False, "ref": False,
+        "window": "32.24-38.09", "wide": False, "jesus": False, "ref": False,
         "locks": ["PAVEMENT", "PILATE", "CROWD"],
         "narration": (
             "Pilate asked them what he should do with Jesus, then — and "
@@ -282,7 +284,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the cry — the yard at full roar, fists and arms up, the word visibly on every mouth; the priests satisfied at the edges.",
         "must_not_show": "no halo, glare or rim-light; loud but NOT riotous — no objects thrown, no one struck; the horror is the word itself.",
         "scene": (
-            "The answer comes back with "
+            "The answer comes back, the camera low behind the "
+            "roaring crowd's lifted arms, with "
             "one terrible voice: the whole "
             "yard roaring the same word, "
             "arms and fists in the cold "
@@ -330,7 +333,7 @@ BEATS = [
     },
     {
         "id": "v2-r093-b10", "out": "s10-why-he-asked-them-what.jpeg", "seg": "n2c",
-        "window": "50.35-53.28", "wide": True, "jesus": False, "ref": False,
+        "window": "50.35-53.28", "wide": False, "jesus": False, "ref": False,
         "locks": ["PAVEMENT", "PILATE", "CROWD"],
         "narration": "Why? he asked them. What has he actually done?",
         "must_show": "the unanswered question — the wide yard: Pilate's asking posture against the wall of roaring faces; no answer anywhere in the crowd, only the cry again.",
@@ -356,7 +359,7 @@ BEATS = [
     },
     {
         "id": "v2-r093-b11", "out": "s11-the-man-holding-all-the.jpeg", "seg": "n2c",
-        "window": "53.28-59.87", "wide": True, "jesus": True, "ref": REF,
+        "window": "53.28-59.87", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PAVEMENT", "PILATE"],
         "narration": (
             "The man holding all the power in that courtyard said out loud "
@@ -394,7 +397,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the swap — both motions in one frame: Barabbas's chains being struck off as he stumbles free down the steps, Jesus led the other way under escort; the exchange visible.",
         "must_not_show": "ABSOLUTE: no wounds on Jesus, escort by rope and guard only; Barabbas's freedom STUNNED, not gloating.",
         "scene": (
-            "One frame holds the whole "
+            "One frame holds, the camera at the steps' side so "
+            "both motions cross in profile, the whole "
             "swap: at the steps a guard's "
             "hammer knocks the chains off "
             "Barabbas's wrists and the "
@@ -445,7 +449,7 @@ BEATS = [
     },
     {
         "id": "v2-r093-b14", "out": "s14-he-walked-out-free-because.jpeg", "seg": "n4 + n5",
-        "window": "71.32-77.04", "wide": True, "jesus": False, "ref": False,
+        "window": "71.32-77.04", "wide": False, "jesus": False, "ref": False,
         "locks": ["BARABBAS"],
         "narration": (
             "He walked out free because Jesus took his cross. That's not "
@@ -484,7 +488,8 @@ BEATS = [
         "must_show": "the closing image — the swap held as emblem: the two diverging figures small in the cold morning — one walking free into the light, one led away bound and calm; the gospel's shape in one frame.",
         "must_not_show": "ABSOLUTE: no wounds on Jesus; the composition BALANCED — two paths, one price, the meaning in the geometry.",
         "scene": (
-            "The closing frame draws the "
+            "The closing frame, the camera high behind the "
+            "emptying yard, draws the "
             "gospel as a diagram of two "
             "roads: on one side the freed "
             "man walking out small into "
@@ -504,3 +509,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "PRIESTS": "PLACE-REF/priests.jpeg",  # build-06-two-sons v2-r006-b18 (manual)
+}
+# === end PLACE-PLATES ===
