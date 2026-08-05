@@ -94,7 +94,9 @@ BEATS = [
         "must_show": "the frame — the mount at late gold: Jesus standing before the vast seated crowd, the long sermon visibly near its end, the lake far below.",
         "must_not_show": "no halo, glare or rim-light on Jesus; an afternoon's weight in the scene — shadows long, the crowd settled deep.",
         "scene": (
-            "On the grassy saddle in the late golden light "
+            "On the grassy saddle in the late golden light, the "
+            "camera off on the slope's flank taking speaker and "
+            "crowd from the side, "
             "Jesus stands before a crowd that has sat "
             "through a whole afternoon — hundreds settled "
             "deep into the wildflowered slope, cloaks spread, "
@@ -145,7 +147,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b04", "out": "s04-that-matters-so-hold-onto.jpeg", "seg": "n2 + n3",
-        "window": "14.65-22.00", "wide": True, "jesus": False, "ref": False,
+        "window": "14.65-22.00", "wide": False, "jesus": False, "ref": False,
         "locks": ["WISE-B", "PLAIN"],
         "narration": (
             "That matters, so hold onto it: both men heard exactly the same "
@@ -168,7 +170,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b05", "out": "s05-in-that-country-you-build.jpeg", "seg": "n3",
-        "window": "22.00-29.61", "wide": True, "jesus": False, "ref": False,
+        "window": "22.00-29.61", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLAIN"],
         "narration": (
             "In that country you build in the dry season, and the easy ground "
@@ -191,7 +193,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b06", "out": "s06-but-this-man-walks-past.jpeg", "seg": "n3",
-        "window": "29.61-32.98", "wide": True, "jesus": False, "ref": False,
+        "window": "29.61-32.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["WISE-B", "PLAIN"],
         "narration": "But this man walks past the easy ground.",
         "must_show": "the walk-past — the wise builder crossing the inviting sand WITHOUT stopping, heading up the far bank toward the grey rock shelf with his loaded sledge.",
@@ -210,7 +212,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b07", "out": "s07-he-digs-down-through-the.jpeg", "seg": "n4",
-        "window": "33.53-40.81", "wide": True, "jesus": False, "ref": False,
+        "window": "33.53-40.81", "wide": False, "jesus": False, "ref": False,
         "locks": ["WISE-B", "PLAIN"],
         "narration": (
             "He digs. Down through the loose soil, all the way to bedrock, and "
@@ -274,7 +276,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b10", "out": "s10-therefore-whosoever-heareth-these-sayings.jpeg", "seg": "jv24",
-        "window": "50.43-60.41", "wide": True, "jesus": True, "ref": REF,
+        "window": "50.43-60.41", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT"],
         "narration": (
             "Therefore whosoever heareth these sayings of mine, and doeth them, "
@@ -303,7 +305,8 @@ BEATS = [
         "must_show": "the crowd scanned — a wide slow look across the seated hundreds on the slope, any two of whom could be the story's two; the camera hunting faces.",
         "must_not_show": "no halo, glare or rim-light on Jesus (small at frame's edge); the crowd the subject — everyman's parable seeded among real faces.",
         "scene": (
-            "The wide slope of seated listeners fills the "
+            "From behind Jesus's shoulder the camera sweeps the "
+            "wide slope of seated listeners filling the "
             "frame in the late gold — row upon row of "
             "farmers, fishermen, mothers, tradesmen, old "
             "men, every face holding the afternoon's words "
@@ -318,7 +321,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b12", "out": "s12-it-takes-longer-and-for.jpeg", "seg": "n5",
-        "window": "61.93-68.43", "wide": True, "jesus": False, "ref": False,
+        "window": "61.93-68.43", "wide": False, "jesus": False, "ref": False,
         "locks": ["WISE-B", "PLAIN"],
         "narration": (
             "It takes longer. And for a while, in the good weather, it does not "
@@ -361,7 +364,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b14", "out": "s14-and-the-rain-descended-and.jpeg", "seg": "jv25",
-        "window": "68.98-78.78", "wide": True, "jesus": False, "ref": False,
+        "window": "68.98-78.78", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLAIN"],
         "narration": (
             "And the rain descended, and the floods came, and the winds blew, "
@@ -423,7 +426,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b17", "out": "s17-but-when-he-goes-home.jpeg", "seg": "n7",
-        "window": "89.42-97.73", "wide": True, "jesus": False, "ref": False,
+        "window": "89.42-97.73", "wide": False, "jesus": False, "ref": False,
         "locks": ["SAND-B", "PLAIN"],
         "narration": (
             "But when he goes home, he builds the fast, easy way, straight down "
@@ -464,7 +467,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b19", "out": "s19-and-every-one-that-heareth.jpeg", "seg": "jv26",
-        "window": "98.27-107.97", "wide": True, "jesus": True, "ref": REF,
+        "window": "98.27-107.97", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT"],
         "narration": (
             "And every one that heareth these sayings of mine, and doeth them "
@@ -487,7 +490,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b20", "out": "s20-and-here-is-the-thing.jpeg", "seg": "n8",
-        "window": "109.50-112.25", "wide": True, "jesus": False, "ref": False,
+        "window": "109.50-112.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLAIN"],
         "narration": "And here is the thing. His house looked fine.",
         "must_show": "the twin illusion — BOTH finished houses in one fair-weather frame: rock-house on its bank, sand-house on the riverbed, visually equal in the sunshine.",
@@ -530,7 +533,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b22", "out": "s22-not-until-the-weather-turned.jpeg", "seg": "n8",
-        "window": "118.66-120.69", "wide": True, "jesus": False, "ref": False,
+        "window": "118.66-120.69", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLAIN"],
         "narration": "Not until the weather turned.",
         "must_show": "the turn — the plain under a darkening sky: the first grey squall line coming over the brown hills, the light going green-grey, both houses waiting below.",
@@ -549,7 +552,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b23", "out": "s23-and-the-rain-descended-and.jpeg", "seg": "jv27",
-        "window": "121.23-130.29", "wide": True, "jesus": False, "ref": False,
+        "window": "121.23-130.29", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLAIN"],
         "narration": (
             "And the rain descended, and the floods came, and the winds blew, "
@@ -573,7 +576,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b24", "out": "s24-when-he-finished-the-crowd.jpeg", "seg": "n11a",
-        "window": "167.84-169.64", "wide": True, "jesus": True, "ref": REF,
+        "window": "167.84-169.64", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT"],
         "narration": "When he finished, the crowd just sat there.",
         "must_show": "SCRIPTURE-EXACT (v28): the astonished silence — the sermon ended, Jesus lowering his hand, and the whole vast slope of people sitting motionless in the last gold.",
@@ -593,7 +596,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b25", "out": "s25-the-same-dry-riverbed-became.jpeg", "seg": "n9",
-        "window": "131.74-139.94", "wide": True, "jesus": False, "ref": False,
+        "window": "131.74-139.94", "wide": False, "jesus": False, "ref": False,
         "locks": ["SAND-B", "PLAIN"],
         "narration": (
             "The same dry riverbed became a wall of water, it tore the sand out "
@@ -616,7 +619,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b26", "out": "s26-two-houses-one-storm.jpeg", "seg": "n10",
-        "window": "143.34-145.30", "wide": True, "jesus": False, "ref": False,
+        "window": "143.34-145.30", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLAIN"],
         "narration": "Two houses. One storm.",
         "must_show": "the verdict frame — the morning-after plain: the rock house standing rinsed and whole on its bank; the swept-bare sand where the other stood; one picture, whole sermon.",
@@ -690,7 +693,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the astonishment — faces along the crowd wide with it; Jesus standing simply in the deep gold, the authority carried in stillness.",
         "must_not_show": "no halo, glare or rim-light on Jesus; authority WITHOUT effects — his plainness against their astonishment is the verse.",
         "scene": (
-            "Along the front rows the astonishment stands "
+            "The camera looks along the front rows from the "
+            "side, faces in three-quarter, as the astonishment stands "
             "open on every face — the mason's mouth parted, "
             "an old scribe-taught elder shaking his head "
             "slowly at sixty years of secondhand teaching, "
@@ -788,7 +792,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b34", "out": "s34-the-wise-man-is-simply.jpeg", "seg": "n11 + n12",
-        "window": "183.85-191.55", "wide": True, "jesus": False, "ref": False,
+        "window": "183.85-191.55", "wide": False, "jesus": False, "ref": False,
         "locks": ["WISE-B", "PLAIN"],
         "narration": (
             "The wise man is simply the one who went home and did something "
@@ -830,7 +834,7 @@ BEATS = [
     },
     {
         "id": "v2-r047-b36", "out": "s36-not-to-admire-what-he.jpeg", "seg": "n12",
-        "window": "191.55-203.25", "wide": True, "jesus": False, "ref": False,
+        "window": "191.55-203.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["PLAIN"],
         "narration": (
             "Not to admire what he said, and not to be afraid of the storm, but "
@@ -873,3 +877,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "PLAIN": "PLACE-REF/plain.jpeg",  # build-38-persistent-widow v2-r038-b46
+}
+# === end PLACE-PLATES ===
