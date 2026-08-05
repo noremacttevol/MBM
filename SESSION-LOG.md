@@ -1,3 +1,18 @@
+## 2026-08-05 (continued 17) — Rows 99-100 Ready: SIXTY-THREE on the board; the GOSPEL ARC 40-100 IS COMPLETE — Machine A `Dev`
+
+99 thomas (his thomas-is-off complaint = sheet face-board gate;
+thomas-never-touches scripture law), 100 ascension (bodily-ascent
+no-effects law; cloud receives, not dissolves; two-mountains guard —
+Olivet is not row 71's Galilee mount).
+
+MILESTONE: every row from 40 to 100 plus Lazarus is authored, checked
+(0 WARNs each), complaint-corpus hardened, plate-wired or promote-
+planned, and Ready ✅ — the entire gospel narrative arc from the Lord's
+Prayer to the Ascension is runner-buildable. Remaining authored backlog:
+101-120 (member/doctrine block). From-scratch frontier: 121-200.
+
+Board: 17, 40-100 Ready ✅ (sixty-three).
+
 ## 2026-08-05 (continued 16) — Rows 94-98 Ready: SIXTY on the board — Machine A `Dev`
 
 The passion core: 94 father-forgive-them (merciful-distance law; 4th
