@@ -87,7 +87,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the image and the rule — the colossal golden statue blazing on the plain, the king before it with the massed musicians ready; the rule assembled.",
         "must_not_show": "no halo; the statue's SCALE overwhelming — people ant-small at its base.",
         "scene": (
-            "The rule stands ninety feet "
+            "The rule stands, the camera looking past the massed "
+            "officials' backs, ninety feet "
             "tall in the hard sun: the "
             "golden image blazing on "
             "its stone base above the "
@@ -120,7 +121,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the mass bow — the plain covered horizon-wide with prostrate thousands, faces down before the golden colossus; conformity as landscape.",
         "must_not_show": "no halo; the bow TOTAL to the horizon — one unbroken carpet of backs.",
         "scene": (
-            "The music plays and the "
+            "The music plays, the camera high above the plain, "
+            "and the "
             "plain goes down: thousands "
             "upon thousands face-first "
             "into the dust in one "
@@ -149,7 +151,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the three standing — amid the horizon-wide carpet of prostrate backs, THREE figures upright in deep blue; the exception visible for miles.",
         "must_not_show": "no halo; their standing CALM — no defiant posturing, simply not bowed.",
         "scene": (
-            "In the sea of flattened "
+            "In the sea — the camera skimming low across it — "
+            "of flattened "
             "backs, three verticals: "
             "Shadrach, Meshach and "
             "Abednego upright in their "
@@ -180,7 +183,8 @@ BEATS = [
         "must_show": "the arraignment — the three marched under guard before the enthroned furious king; his pointed finger, their calm; the last chance being offered.",
         "must_not_show": "no rough violence — firm escort, not beating; the king's fury imperial.",
         "scene": (
-            "Before the throne platform "
+            "Before the throne platform — the camera following "
+            "behind the guards — "
             "the three are marched in "
             "under guard: soldiers at "
             "their elbows, the deep "
@@ -243,7 +247,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the threat and the dare — the king's arm flung toward the roaring furnace mouth in the distance, the question hurled at the three; the stakes in one gesture.",
         "must_not_show": "no halo; the furnace VISIBLE and roaring at distance — the threat concrete.",
         "scene": (
-            "The threat gets pointed at: "
+            "The threat gets pointed at — the camera past the "
+            "three men's backs toward the pointing king: "
             "the king's ringed arm "
             "flung out toward the "
             "great kiln across the "
@@ -518,7 +523,8 @@ BEATS = [
         "must_show": "the either-way — the three small and upright beneath the vast sky, the golden image and furnace both in the wide frame; allegiance placed above both outcomes.",
         "must_not_show": "no halo; the composition's THIRDS — statue, furnace, and three standing men, sky over all.",
         "scene": (
-            "The wide frame lays out "
+            "The wide frame — the camera far behind the three "
+            "small figures — lays out "
             "the whole board: the "
             "golden image blazing at "
             "one side, the furnace "
@@ -553,7 +559,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the casting-in — the stoked furnace at white-orange fury, the three bound figures at the mouth's flare being committed to it; the king watching; ferocity total, pain never shown.",
         "must_not_show": "the three's faces CALM at the threshold — no agony ever; the handlers at distance-blur (their fate untold here).",
         "scene": (
-            "The furnace is fed until "
+            "The furnace is fed, the camera at the ramp's foot "
+            "behind the stokers, until "
             "the bricks themselves "
             "shine: stokers heaving "
             "fuel until the arched "
@@ -638,7 +645,7 @@ BEATS = [
     },
     {
         "id": "v2-r119-b19", "out": "s19-they-stood-up-inside-the.jpeg", "seg": "n5",
-        "window": "100.04-106.21", "wide": True, "jesus": False, "ref": False,
+        "window": "100.04-106.21", "wide": False, "jesus": False, "ref": False,
         "locks": ["THREE", "FURNACE"],
         "narration": (
             "They stood up inside the fire, unharmed, not a single thread "
@@ -735,7 +742,7 @@ BEATS = [
     },
     {
         "id": "v2-r119-b22", "out": "s22-lo-i-see-four-men.jpeg", "seg": "s325",
-        "window": "115.65-123.17", "wide": True, "jesus": False, "ref": False,
+        "window": "115.65-123.17", "wide": False, "jesus": False, "ref": False,
         "locks": ["THREE", "FURNACE"],
         "narration": (
             "Lo, I see four men loose, walking in the midst of the fire, "
@@ -834,7 +841,7 @@ BEATS = [
     },
     {
         "id": "v2-r119-b25", "out": "s25-they-were-not-alone-in.jpeg", "seg": "n7",
-        "window": "134.97-143.65", "wide": True, "jesus": False, "ref": False,
+        "window": "134.97-143.65", "wide": False, "jesus": False, "ref": False,
         "locks": ["THREE", "FURNACE"],
         "narration": (
             "They were not alone in the fire. Whatever else that fourth "
@@ -913,7 +920,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the summons out — the king at the furnace mouth's safe distance calling them BY NAME with the new title: SERVANTS OF THE MOST HIGH GOD; the three emerging into the light.",
         "must_not_show": "the fourth not emerging — only the three walk out; the king's posture now reverent.",
         "scene": (
-            "The king himself comes "
+            "The king himself, the camera behind his royal "
+            "shoulder at the roaring mouth, comes "
             "down to do the calling: "
             "as near the roaring "
             "mouth as flesh can "
@@ -1013,7 +1021,8 @@ BEATS = [
         "must_show": "the walk-out — the three coming down the ramp whole before the massed witnesses of the plain; the same crowd that watched the casting-in, watching this.",
         "must_not_show": "the crowd's AWE — thousands of faces stunned; the three unmarked.",
         "scene": (
-            "Down the smoking ramp and "
+            "Down the smoking ramp — the camera past the front "
+            "rank's staring backs — and "
             "onto solid ground they "
             "come, in front of "
             "everybody: the three "
@@ -1111,7 +1120,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the king's blessing — Nebuchadnezzar before the plain proclaiming it, arm toward the three; the dare's answer given by its asker.",
         "must_not_show": "no halo; the proclamation PUBLIC — the whole assembly hearing the new theology.",
         "scene": (
-            "The proudest voice in the "
+            "The proudest voice, the camera taking the massed "
+            "plain from the side, in the "
             "world blesses somebody "
             "else's God: the king "
             "before the massed plain "
@@ -1165,7 +1175,7 @@ BEATS = [
     },
     {
         "id": "v2-r119-b35", "out": "s35-that-is-the-same-man.jpeg", "seg": "n10",
-        "window": "189.06-197.42", "wide": True, "jesus": False, "ref": False,
+        "window": "189.06-197.42", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING", "THREE", "FURNACE", "PLAIN"],
         "narration": (
             "That is the same man who asked, an hour earlier, who is that "
@@ -1200,3 +1210,15 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    # PLAIN: build-38 auto-match REJECTED (village doorway frame, not the
+    # plain of Dura with the golden colossus) — promote-first from b01.
+}
+# === end PLACE-PLATES ===
