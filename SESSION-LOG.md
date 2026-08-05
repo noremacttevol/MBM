@@ -1,3 +1,28 @@
+## 2026-08-05 (continued 15) — Library fix: Martha/Mary of Bethany CAST-V2 sheets + three-Marys disambiguation — Machine A `Dev`
+
+Closed the row-17 gap #1 library-wide so future rows never render the Bethany
+sisters text-only again.
+
+- Added four force-added sheets to `CAST-V2-REF/`: `martha-front.jpeg`
+  (=build-16 s18, the author's canonical Martha), `martha-quarter.jpeg`
+  (=s02), `mary-bethany-front.jpeg` (=s10, canonical Mary), `mary-bethany-quarter.jpeg`
+  (=s09). Copied from build-16's approved stills (jpegs are gitignored, so the
+  sheets are `git add -f`'d like the apostles' — every machine gets the faces via git).
+- `GLOBAL_CAST` (v2_gen_api.py): added `MARTHA`→martha and `MARY-BETHANY`→mary-bethany.
+  Discovered the token `MARY` is **overloaded across THREE women** — Mary of
+  Bethany (16/17), Mary the mother (49, 84-87), Mary Magdalene (98) — so a bare
+  `MARY` global token would stamp one face onto all three. Deliberately did NOT
+  add bare `MARY`; documented the three-Marys law in the code comment and in
+  PROMPT-FABLE5-AUTHOR.md §5.
+- `cast_refs_for()` now prints a loud WARNING when a locked GLOBAL_CAST token has
+  no sheet on disk (mary-mother/mary-magdalene/judas/john-baptist today) — the
+  exact silent path that rendered row-17's sisters text-only. No more silent misses.
+- Mary Magdalene: build-98 is not built in v2, so no approved still exists — its
+  sheet is left PENDING (documented in CAST-V2-REF/WOMEN-SHEETS.md), token kept.
+- Verified with a harness: future rows auto-attach both sisters; row-17's
+  build-local REFS still WIN (its s18/s10 override the library); bare MARY attaches
+  nothing (nativity/tomb rows can't get a wrong face). `v2_gen_api.py` compiles clean.
+
 ## 2026-08-05 (continued 14) — Rows 87-89 Ready: FIFTY-ONE on the board — Machine A `Dev`
 
 87 boy-in-the-temple (boy-Jesus identity law: child scale, cream at

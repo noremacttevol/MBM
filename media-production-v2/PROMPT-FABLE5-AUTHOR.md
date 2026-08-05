@@ -58,8 +58,15 @@ Per row, in order:
    LIGHT only. Then `git add -f <build>/PLACE-REF/*.jpeg` — plates are small by
    design and MUST be committed so the runner's machine has them.
 5. **Locks.** Persons: build-local LOCKS with byte-identical descriptions; the
-   global cast auto-attaches by token (PETER, JOHN…). Settings: name the shared
-   tokens (TEMPLE-COURT, NIGHT-LAMPLIGHT, BACKGROUND-CAST, PERIOD families…).
+   global cast auto-attaches by token (PETER, JOHN…, and the women MARTHA,
+   MARY-BETHANY, MARY-MOTHER, MARY-MAGDALENE). **The three Marys:** never lock a
+   bare `MARY` for the global cast — "MARY" means three different women (Mary of
+   Bethany, Mary the mother, Mary Magdalene). Lock the DISAMBIGUATED token so the
+   right face attaches: `MARY-BETHANY` (Lazarus' sister — sheet ready),
+   `MARY-MOTHER` / `MARY-MAGDALENE` (sheets pending a v2 render — until then the
+   runner prints a TEXT-ONLY warning; wire a build-local `REFS` for that woman).
+   Settings: name the shared tokens (TEMPLE-COURT, NIGHT-LAMPLIGHT,
+   BACKGROUND-CAST, PERIOD families…).
    Jesus: `jesus: True` + `ref: True` on every beat he appears in; only he wears
    cream; red-letter segments sit on whoever actually speaks (the row-39 lesson:
    a quoted prayer belongs on the man praying, not on Jesus's face).
