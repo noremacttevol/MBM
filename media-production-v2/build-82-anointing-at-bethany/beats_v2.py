@@ -82,8 +82,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the supper and the approach — the lamplit table with Jesus reclining among the diners, and the olive-green woman entering the warm light toward him.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the diners RECLINING at a low table (v3), not seated on chairs.",
         "scene": (
-            "The lamplit supper room holds its "
-            "warm evening: diners reclining on "
+            "The lamplit supper room holds its evening, the camera "
+            "at the side wall taking couches and door in profile: "
+            "diners reclining on "
             "cushions around the low table, "
             "bread and cups in the small flames' "
             "light, Jesus among them at ease — "
@@ -123,7 +124,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b03", "out": "s03-and-poured-all-of-it.jpeg", "seg": "n1b",
-        "window": "11.69-16.70", "wide": True, "jesus": True, "ref": REF,
+        "window": "11.69-16.70", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "WOMAN", "JAR"],
         "narration": (
             "and poured all of it over his head — a year's wages, gone in a "
@@ -150,7 +151,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b04", "out": "s04-some-of-the-men-at.jpeg", "seg": "n2",
-        "window": "17.27-21.77", "wide": True, "jesus": False, "ref": False,
+        "window": "17.27-21.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM", "CRITICS"],
         "narration": (
             "Some of the men at the table were furious. Mark writes down what "
@@ -201,7 +202,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b06", "out": "s06-and-mark-adds-one-more.jpeg", "seg": "n2b",
-        "window": "32.10-35.27", "wide": True, "jesus": False, "ref": False,
+        "window": "32.10-35.27", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM", "CRITICS", "WOMAN"],
         "narration": "And Mark adds one more line: they murmured against her.",
         "must_show": "SCRIPTURE-EXACT: the murmuring — heads leaning together along the table, side-mouthed words aimed her way; the woman standing in the spill of it.",
@@ -246,7 +247,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b08", "out": "s08-she-never-says-a-single.jpeg", "seg": "n2b + n3",
-        "window": "39.01-45.28", "wide": True, "jesus": True, "ref": REF,
+        "window": "39.01-45.28", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "WOMAN", "CRITICS"],
         "narration": (
             "She never says a single word in this whole story. Jesus stopped "
@@ -282,8 +283,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the shield — Jesus's words placed bodily between the critics and the woman: his gesture toward her honouring, toward them halting.",
         "must_not_show": "no halo, glare or rim-light; the defence WARM toward her, FIRM toward them — two tones in one posture.",
         "scene": (
-            "The defence stands up between "
-            "them: Jesus half-turned so his "
+            "The defence stands up between them, the camera at the "
+            "table's side so the interposition reads in profile: "
+            "Jesus half-turned so his "
             "halting palm faces the critics "
             "while his other hand opens toward "
             "the woman like a presentation — "
@@ -344,7 +346,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b12", "out": "s12-for-ye-have-the-poor.jpeg", "seg": "j1b",
-        "window": "63.56-71.55", "wide": True, "jesus": True, "ref": REF,
+        "window": "63.56-71.55", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "CRITICS"],
         "narration": (
             "For ye have the poor with you always, and whensoever ye will ye "
@@ -426,7 +428,8 @@ BEATS = [
         "must_show": "the one who noticed — the wide table: every male face turned to Jesus in confusion, and the woman apart in the lamplight, the only one whose face holds understanding.",
         "must_not_show": "no halo, glare or rim-light; the contrast in FACES — confusion around the table, comprehension on hers alone.",
         "scene": (
-            "The wide room divides by what its "
+            "The wide room divides by what its faces know, the "
+            "camera behind the near couches' shoulders: "
             "faces know: around the table the "
             "men look to Jesus in honest "
             "confusion — brows working, the "
@@ -494,7 +497,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b18", "out": "s18-nobody-else-in-that-house.jpeg", "seg": "n4c",
-        "window": "95.37-98.51", "wide": True, "jesus": False, "ref": False,
+        "window": "95.37-98.51", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM", "CRITICS"],
         "narration": "Nobody else in that house would even let him say the word.",
         "must_show": "the flinch — around the table, faces turning aside at the burial word: a wince, a shaken head, eyes finding the floor; a room refusing a truth.",
@@ -517,7 +520,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b19", "out": "s19-whether-she-fully-knew-it.jpeg", "seg": "n5",
-        "window": "99.16-104.78", "wide": True, "jesus": True, "ref": REF,
+        "window": "99.16-104.78", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "WOMAN"],
         "narration": (
             "Whether she fully knew it or not, she was the only one in that "
@@ -554,7 +557,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the memorial decreed — Jesus proclaiming it to the whole room, hand open toward the woman: her deed bound to the gospel itself, forever.",
         "must_not_show": "no halo, glare or rim-light; the decree PUBLIC — spoken to everyone, the critics included, her honour set where no murmur can reach it.",
         "scene": (
-            "Jesus rises the proclamation over "
+            "Jesus raises the proclamation over the whole table, "
+            "the camera at the room's side so speaker and hearers "
+            "read in profile — "
             "the whole table — his open hand "
             "toward the woman in her olive-"
             "green, his voice taking in every "
@@ -594,7 +599,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b22", "out": "s22-wherever-this-good-news-is.jpeg", "seg": "n6",
-        "window": "117.83-125.15", "wide": True, "jesus": False, "ref": False,
+        "window": "117.83-125.15", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM", "WOMAN"],
         "narration": (
             "Wherever this good news is told, anywhere in the world, what she "
@@ -670,7 +675,7 @@ BEATS = [
     },
     {
         "id": "v2-r082-b25", "out": "s25-and-he-was-right-about.jpeg", "seg": "n6",
-        "window": "133.49-140.58", "wide": True, "jesus": False, "ref": False,
+        "window": "133.49-140.58", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM", "WOMAN"],
         "narration": (
             "And he was right about the memorial: all these centuries later, "
@@ -695,3 +700,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
