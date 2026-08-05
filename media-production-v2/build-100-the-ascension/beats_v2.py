@@ -81,7 +81,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the last question — the eleven gathered close around Jesus on the summit, faces eager with the kingdom question; the morning bright, nobody knowing it is the last hour.",
         "must_not_show": "no halo, glare or rim-light; the eagerness POLITICAL-hopeful — men still dreaming of thrones.",
         "scene": (
-            "On the grassy crown of Olivet "
+            "On the grassy crown of Olivet, the camera outside "
+            "the ring behind the nearest shoulders, "
             "the eleven crowd their teacher "
             "one more time with the old "
             "question: faces eager in the "
@@ -125,7 +126,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b03", "out": "s03-it-is-not-for-you.jpeg", "seg": "j0",
-        "window": "10.84-18.47", "wide": True, "jesus": True, "ref": REF,
+        "window": "10.84-18.47", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": (
             "It is not for you to know the times or the seasons, which the "
@@ -191,7 +192,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the commission's map — Jesus's arm sweeping from the near city outward across the whole horizon: Jerusalem, Judaea, Samaria, the uttermost; the world assigned in one gesture.",
         "must_not_show": "no halo, glare or rim-light; the sweep GEOGRAPHIC — near to far, city to horizon's edge.",
         "scene": (
-            "The commission is drawn on "
+            "The commission is drawn, the camera at the group's "
+            "side so the sweeping arm crosses in profile over the "
+            "real distances, on "
             "the actual landscape: "
             "Jesus's arm beginning at the "
             "shining city across the "
@@ -212,7 +215,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b06", "out": "s06-go-tell-everyone-everywhere-starting.jpeg", "seg": "n1",
-        "window": "51.11-55.76", "wide": True, "jesus": True, "ref": REF,
+        "window": "51.11-55.76", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": "Go tell everyone, everywhere, starting right where you're standing.",
         "must_show": "the starting-here — the ring of witnesses-to-be on the summit grass, the near city below them: the mission's first mile visible from where their sandals stand.",
@@ -264,7 +267,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b08", "out": "s08-the-timing-belongs-to-the.jpeg", "seg": "n1",
-        "window": "38.86-49.07", "wide": True, "jesus": True, "ref": REF,
+        "window": "38.86-49.07", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN", "PETER", "JOHN"],
         "narration": (
             "The timing belongs to the Father, he told them, and it is not "
@@ -321,7 +324,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b10", "out": "s10-and-then-something-happened-they.jpeg", "seg": "n1",
-        "window": "55.76-58.79", "wide": True, "jesus": True, "ref": REF,
+        "window": "55.76-58.79", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": "And then something happened they would never forget.",
         "must_show": "the hinge — the summit's ordinary morning going still: Jesus stepping back a pace from the ring, something changing in the air; every face beginning to fix on him.",
@@ -354,7 +357,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: taken up while they beheld — Jesus risen bodily a man's height above the summit grass, robe stirring, calm; the eleven's faces tilting up after him.",
         "must_not_show": "no halo, glare or rim-light, no beams — the lift NATURAL and serene, feet clear of the grass, gravity simply excused.",
         "scene": (
-            "And then the ground lets him "
+            "And then the ground lets him go, the camera low "
+            "behind the beholding ring's backs, "
             "go: while they watch — "
             "every eye open, no one "
             "blinking — Jesus rises "
@@ -375,7 +379,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b12", "out": "s12-and-a-cloud-received-him.jpeg", "seg": "n2b",
-        "window": "62.55-69.02", "wide": True, "jesus": False, "ref": False,
+        "window": "62.55-69.02", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": (
             "and a cloud received him out of their sight. They stood there "
@@ -405,7 +409,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b13", "out": "s13-then-two-figures-in-white.jpeg", "seg": "n3",
-        "window": "69.60-73.86", "wide": True, "jesus": False, "ref": False,
+        "window": "69.60-73.86", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNT", "ELEVEN", "TWO"],
         "narration": "Then two figures in white stood beside them with a promise:",
         "must_show": "SCRIPTURE-EXACT: the two in white apparel — the silver-grey pair standing suddenly among the sky-staring men; calm presence beside stunned stillness.",
@@ -461,7 +465,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b15", "out": "s15-this-same-jesus-which-is.jpeg", "seg": "s11",
-        "window": "79.19-88.93", "wide": True, "jesus": False, "ref": False,
+        "window": "79.19-88.93", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNT", "ELEVEN", "TWO"],
         "narration": (
             "this same Jesus, which is taken up from you into heaven, shall "
@@ -529,7 +533,8 @@ BEATS = [
         "must_show": "the closing image — the eleven starting down the slope toward the city together, the bright cloud still high behind them; the walk from watching into witness begun.",
         "must_not_show": "no halo, glare or rim-light; the movement DOWNHILL and purposeful — toward Jerusalem, the mission's first mile underway.",
         "scene": (
-            "The closing frame walks off "
+            "The closing frame walks off the mountain, the camera "
+            "behind the descending eleven toward the city, "
             "the mountain with them: "
             "eleven figures starting "
             "down the slope path "
@@ -550,3 +555,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
