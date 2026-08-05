@@ -1,3 +1,43 @@
+## 2026-08-05 — The two-model production line: Fable 5 authors once, Opus runners burn the queue — Claude worker 35, Machine A `Dev`
+
+Cameron's design, to keep his Claude limits low: a Fable 5 session does ALL the
+judgment (beat maps, coverage, locks, plate wiring) and commits it; Opus 4.8
+sessions on other machines execute mechanically against the Gemini API and ship
+first-attempt cuts. Built this session:
+
+- **`PROMPT-FABLE5-AUTHOR.md`** — paste-to-start brief for authoring sessions ($0
+  generation; stash machine only). Bakes in Cameron's three directives: copy the
+  good stills (wire plates before writing any setting prose; plates get
+  force-added so other machines have them), coverage completeness (a frame per
+  VERB — the John 21 standard: "It is the Lord" → Peter over the gunwale → Peter
+  swimming, three frames never one), and movie framing.
+- **`PROMPT-OPUS-RUNNER.md`** — paste-to-start brief for runner sessions: hard
+  rails (no authoring, ceiling formula, --check before credit, claim-by-push,
+  429 = log-and-stop-clean), the per-row loop (portraits → plates/promote →
+  generate → capped light QC, max 2 rerolls/frame, subtle drift logged to a
+  FIX-WAVE list → assemble with AUDIO LOCK → caption frames → two-commit ship
+  with version-locked reviewer card). Money truth stated: ~$7–8/row, ~$1,100–
+  1,300 for the remaining ~162 rows, Cameron's 2026-07-30 API approval stands.
+- **`AUTHOR-BOARD.md`** — the machine-generated handshake: per-row State
+  (**38 BUILT / 80 AUTHORED / 82 NEEDS-BEATS**), stills count, audio gate from
+  audio-audit.json (**every unbuilt row's audio verified new-voice — the runner
+  is never blocked on audio**), plus hand-edited Claim / Ready columns.
+  Authors claim-by-push, set Ready ✅; runners build Ready rows only.
+- **Rubric lesson 12 (Cameron, 2026-08-05): movie coverage, not group portraits**
+  — the frame contains only the people the moment is about; establish wide at
+  most once per location; a key action sequence gets a frame per action.
+- Verified cross-machine reality: JESUS-V2-REF + CAST-V2-REF ARE tracked in git
+  (a fresh clone has all identity refs); place plates now ship per-row
+  (build-40's lane plate committed; its stale pre-split grove plate removed).
+
+**Sequence to start the line:** (1) a Fable 5 author session first — its first
+row is build-40 (wired + checked, but carries 4 camera-geometry WARNs on wide
+beats b49/b51/b53/b55 that need the lesson-12 pass before Ready ✅); (2) once
+the first Ready lands, Opus runners go continuously on any machine. Cameron's
+only jobs remain watch + tap; row 39 sits on the reviewer awaiting him.
+
+Commit: `b76752c1b` + `0f3796895` + this entry.
+
 ## 2026-08-04 (latest) — THE STANDING ORDER written into law after Cameron's "why are you making me ask over and over" — Claude worker 35, Machine A `Dev`
 
 Cameron asked to air out where the confusion is about what he wants. The honest
