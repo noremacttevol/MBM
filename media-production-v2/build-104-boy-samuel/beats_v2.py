@@ -71,7 +71,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r104-b01", "out": "s01-in-those-days-the-word.jpeg", "seg": "n1",
-        "window": "0.28-7.34", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-7.34", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE"],
         "narration": (
             "In those days the word of the Lord was rare. People had "
@@ -101,7 +101,7 @@ BEATS = [
     },
     {
         "id": "v2-r104-b02", "out": "s02-but-one-small-lamp-still.jpeg", "seg": "n1",
-        "window": "7.34-13.42", "wide": True, "jesus": False, "ref": False,
+        "window": "7.34-13.42", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE", "SAMUEL"],
         "narration": (
             "But one small lamp still burned in the house of God at night — "
@@ -167,7 +167,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the two sleepers — the hall's geography: the boy on his mat near the curtained holy place, and through the side doorway the old heavy priest asleep in his room.",
         "must_not_show": "no figure of God, no halo; the geography CLEAR — boy in the hall, old man in the side room, the curtain between all and the holiest.",
         "scene": (
-            "The night house sleeps in "
+            "The night house sleeps, the camera high at the "
+            "hall's end taking both sleepers' places in one "
+            "profile, in "
             "its stations: the boy small "
             "on his mat in the lamp's "
             "gold circle, close to the "
@@ -227,7 +229,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the run to Eli — the boy sprinting barefoot across the dark hall to the old man's bedside: HERE AM I; the sleepy priest lifting his head.",
         "must_not_show": "no figure of God, no halo; the run INSTANT — a serving child's reflex, no hesitation.",
         "scene": (
-            "The boy is up and running "
+            "The boy is up and running, the camera at the hall's "
+            "side so the sprint crosses in profile toward the old "
+            "man's doorway, "
             "before the echo dies: "
             "barefoot across the cold "
             "stone of the dark hall, "
@@ -305,7 +309,7 @@ BEATS = [
     },
     {
         "id": "v2-r104-b09", "out": "s09-but-eli-said-i-did.jpeg", "seg": "n4",
-        "window": "48.34-51.09", "wide": True, "jesus": False, "ref": False,
+        "window": "48.34-51.09", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE", "SAMUEL"],
         "narration": "But Eli said, I did not call you. So he did.",
         "must_show": "the lying-down-again — the boy settling back onto his mat in the lamp's gold, eyes still open and wondering at the dark; obedience with a listening edge.",
@@ -333,7 +337,7 @@ BEATS = [
     },
     {
         "id": "v2-r104-b10", "out": "s10-and-the-voice-came-again.jpeg", "seg": "n4",
-        "window": "51.09-58.06", "wide": True, "jesus": False, "ref": False,
+        "window": "51.09-58.06", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE", "SAMUEL", "ELI"],
         "narration": (
             "And the voice came again — Samuel — and again he ran to the "
@@ -394,7 +398,7 @@ BEATS = [
     },
     {
         "id": "v2-r104-b12", "out": "s12-this-was-no-dream-and.jpeg", "seg": "n5",
-        "window": "61.91-70.45", "wide": True, "jesus": False, "ref": False,
+        "window": "61.91-70.45", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELI", "SAMUEL", "HOUSE"],
         "narration": (
             "This was no dream, and it was not his voice. It was God "
@@ -516,7 +520,7 @@ BEATS = [
     },
     {
         "id": "v2-r104-b16", "out": "s16-so-samuel-went-and-lay.jpeg", "seg": "n6",
-        "window": "87.08-91.66", "wide": True, "jesus": False, "ref": False,
+        "window": "87.08-91.66", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE", "SAMUEL"],
         "narration": "So Samuel went and lay down in his place, and waited in the dark.",
         "must_show": "SCRIPTURE-EXACT: the waiting — the boy lying still and open-eyed on his mat in the lamp's gold, hands folded, whole body listening; the hall vast and hushed around him.",
@@ -599,7 +603,7 @@ BEATS = [
     },
     {
         "id": "v2-r104-b19", "out": "s19-a-heart-small-enough-and.jpeg", "seg": "n7",
-        "window": "102.86-106.97", "wide": True, "jesus": False, "ref": False,
+        "window": "102.86-106.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE", "SAMUEL"],
         "narration": (
             "A heart small enough and open enough to stop running around "
@@ -629,7 +633,7 @@ BEATS = [
     },
     {
         "id": "v2-r104-b20", "out": "s20-and-god-spoke-to-him.jpeg", "seg": "n7 + n8",
-        "window": "106.97-116.55", "wide": True, "jesus": False, "ref": False,
+        "window": "106.97-116.55", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOUSE", "SAMUEL"],
         "narration": (
             "And God spoke to him, and told him true things, and stayed "
@@ -661,7 +665,7 @@ BEATS = [
     },
     {
         "id": "v2-r104-b21", "out": "s21-the-child-who-learned-to.jpeg", "seg": "n8",
-        "window": "116.55-121.89", "wide": True, "jesus": False, "ref": False,
+        "window": "116.55-121.89", "wide": False, "jesus": False, "ref": False,
         "locks": ["SAMUEL", "HOUSE"],
         "narration": (
             "The child who learned to listen in the dark became the voice "
@@ -719,3 +723,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
