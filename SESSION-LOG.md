@@ -1,3 +1,32 @@
+## 2026-08-05 (continued) — Row 44 authored + the runner's Lazarus blocker cleared by author face-picks — Machine A `Dev`
+
+- **Row 17 UNBLOCKED.** The Opus runner correctly refused to build Lazarus:
+  MARTHA/MARY are in GLOBAL_CAST with `None` stems and no CAST-V2-REF
+  sheets, so the two leads (40 of 61 beats) would have rendered text-only —
+  guaranteed face drift. Author fix shipped: build-local `REFS` in
+  build-17's beats_v2.py anchoring MARTHA to build-16 `s18-martha-martha`
+  (largest sharpest face; ochre headcloth matches her lock) and MARY to
+  build-16 `s10-the-place-a-student-sat` (only front-facing open-eyed
+  view — frontal geometry carries identity). The author LOOKED at all four
+  candidate stills before choosing; the choice is the identity now.
+  Board claim note cleared; QC blocker marked resolved.
+- **Row 44 (two-debtors) authored from scratch, Ready ✅** — 46 beats.
+  SAME-EVENT LAW with build-74 (same Luke 7 dinner): WOMAN/SIMON/ROOM/JAR
+  locks byte-identical to build-74; whichever row builds first defines the
+  faces and the second must REFS-anchor to it (written in both QC paths).
+  Withheld courtesies planted in b01 (no kiss, unused water jar) and paid
+  off in b44; her weeping/wiping/pouring and the parable's bill-tearing
+  built as mirrored frame-per-action ladders; reclining feet-away staging
+  law called out as the row's Peter-class trap.
+
+Board: rows 17, 40, 41, 42, 43, 44, 45 Ready ✅ — SEVEN. Next author rows:
+46+. A NOTE FOR EVERY FUTURE AUTHOR: any story-local person who also
+appears in another row needs an explicit REFS/anchor plan in QC.md — the
+GLOBAL_CAST-without-sheets trap (Martha/Mary) will recur on God (row 113
+complaint), Mary Magdalene (97/98), Thomas (99), John the Baptist
+(69/107), the boy Samuel, etc. Check CAST-V2-REF before assuming a name is
+covered.
+
 ## 2026-08-05 (later still, same session) — Cameron's correction + three more rows: 42, 43, 45 Ready ✅ (SIX rows on the board) — Machine A `Dev`
 
 Cameron corrected the session mid-run, and the correction binds every
