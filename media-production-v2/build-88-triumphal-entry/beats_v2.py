@@ -88,8 +88,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the sending — Jesus at the road's edge outside the village, hand directing the two disciples toward the lane's houses; the errand dispatched.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the two setting OFF — mid-turn toward the village, errand accepted though not understood.",
         "scene": (
-            "At the roadside under the olive "
-            "trees Jesus sends the errand: his "
+            "At the roadside under the olive trees, the camera "
+            "beside the road so the sending reads in profile, "
+            "Jesus sends the errand: his "
             "hand pointing past the first low "
             "houses into the bright village "
             "lane, the two disciples — stocky "
@@ -159,7 +160,7 @@ BEATS = [
     },
     {
         "id": "v2-r088-b04", "out": "s04-and-if-any-man-say.jpeg", "seg": "jv2",
-        "window": "15.71-25.42", "wide": True, "jesus": True, "ref": REF,
+        "window": "15.71-25.42", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TWO"],
         "narration": (
             "And if any man say ought unto you, ye shall say, The Lord hath "
@@ -185,7 +186,7 @@ BEATS = [
     },
     {
         "id": "v2-r088-b05", "out": "s05-go-into-the-village-he.jpeg", "seg": "n0a2",
-        "window": "26.92-28.38", "wide": True, "jesus": False, "ref": False,
+        "window": "26.92-28.38", "wide": False, "jesus": False, "ref": False,
         "locks": ["LANE", "TWO"],
         "narration": "Go into the village, he told them.",
         "must_show": "the errand underway — the two disciples entering the bright lane between the low houses, purposeful; the village receiving its strange visitors.",
@@ -210,7 +211,7 @@ BEATS = [
     },
     {
         "id": "v2-r088-b06", "out": "s06-and-if-anyone-asks-why.jpeg", "seg": "n0a2",
-        "window": "30.55-35.93", "wide": True, "jesus": False, "ref": False,
+        "window": "30.55-35.93", "wide": False, "jesus": False, "ref": False,
         "locks": ["LANE", "COLT", "TWO"],
         "narration": (
             "And if anyone asks why, just say the Lord needs them — and "
@@ -237,7 +238,7 @@ BEATS = [
     },
     {
         "id": "v2-r088-b07", "out": "s07-they-went-and-it-happened.jpeg", "seg": "n0b",
-        "window": "36.58-39.14", "wide": True, "jesus": True, "ref": REF,
+        "window": "36.58-39.14", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROAD", "COLT", "TWO"],
         "narration": "They went, and it happened exactly as he said.",
         "must_show": "the delivery — the two returning to Jesus with mother and colt in tow, cloaks already coming off shoulders to layer the colt's back; word for word fulfilled.",
@@ -287,7 +288,7 @@ BEATS = [
     },
     {
         "id": "v2-r088-b09", "out": "s09-tell-ye-the-daughter-of.jpeg", "seg": "s5",
-        "window": "43.54-50.64", "wide": True, "jesus": True, "ref": REF,
+        "window": "43.54-50.64", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROAD", "COLT"],
         "narration": (
             "Tell ye the daughter of Sion, Behold, thy King cometh unto "
@@ -349,7 +350,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the carpeting (v8) — cloaks swirling down onto the road ahead of the colt, men in the trees cutting branches, the path becoming a laid carpet of garments and green.",
         "must_not_show": "no halo, glare or rim-light; the action MID-HAPPENING — cloaks in the air, branches falling, the carpet growing ahead of the hooves.",
         "scene": (
-            "The road dresses itself ahead of "
+            "The road dresses itself, the camera low behind the "
+            "colt's slow advance, ahead of "
             "him: dark cloaks swirling off "
             "shoulders and settling flat on "
             "the dust, a boy up an olive "
@@ -367,7 +369,7 @@ BEATS = [
     },
     {
         "id": "v2-r088-b12", "out": "s12-and-the-people-shouted-as.jpeg", "seg": "n2",
-        "window": "61.72-63.86", "wide": True, "jesus": True, "ref": REF,
+        "window": "61.72-63.86", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROAD", "COLT", "CROWD"],
         "narration": "And the people shouted as he rode in:",
         "must_show": "the roar rising — the packed road erupting around the riding Jesus: mouths open, branches high, children on shoulders; the shout as a physical wave.",
@@ -400,7 +402,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the hosanna at full flood — the whole road one cry around the meek rider: branches waving in rhythm, cloaks still falling, the gate nearing behind.",
         "must_not_show": "no halo, glare or rim-light; Jesus UNCHANGED at the centre of it — receiving the roar with meekness, not waving triumph.",
         "scene": (
-            "The cry crests over the whole "
+            "The cry crests, the camera at the descent's side "
+            "taking rider and river of branches in profile, over the whole "
             "descent — HOSANNA — branches "
             "beating time along both walls "
             "of the crowd, the word rolling "
@@ -446,7 +449,7 @@ BEATS = [
     },
     {
         "id": "v2-r088-b15", "out": "s15-the-whole-city-was-stirred.jpeg", "seg": "n3",
-        "window": "79.00-83.87", "wide": True, "jesus": False, "ref": False,
+        "window": "79.00-83.87", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD"],
         "narration": (
             "The whole city was stirred. When they asked who this was, the "
@@ -482,7 +485,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the entry through the gate — the colt and rider passing under the massive gate arch with the procession pouring after; the city's faces asking from every side.",
         "must_not_show": "no halo, glare or rim-light; the gate's SCALE over the small mount — empire's stone, meekness passing through it.",
         "scene": (
-            "Under the gate's massive arch "
+            "Under the gate's massive arch, the camera inside the "
+            "city behind the turning heads, "
             "the procession pours: the small "
             "colt and its meek rider passing "
             "through cool stone shadow into "
@@ -554,7 +558,7 @@ BEATS = [
     },
     {
         "id": "v2-r088-b19", "out": "s19-and-the-answer-came-back.jpeg", "seg": "n3b",
-        "window": "97.52-103.94", "wide": True, "jesus": False, "ref": False,
+        "window": "97.52-103.94", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD", "CROWD"],
         "narration": (
             "And the answer came back from the road — this is Jesus, the "
@@ -591,7 +595,8 @@ BEATS = [
         "must_show": "the closing image — the whole entry held: the meek rider on the small colt amid the branch-waving crowd inside the gate; peace's king, exactly as promised, fully arrived.",
         "must_not_show": "no halo, glare or rim-light; NOTHING martial in the frame — no soldier prominent, no weapon; the promise kept in gentleness.",
         "scene": (
-            "The closing frame keeps the "
+            "The closing frame, the camera off the road's side "
+            "taking rider and crowd in profile, keeps the "
             "whole promise in one look: the "
             "small grey colt picking its "
             "gentle way up the cloak-strewn "
@@ -610,3 +615,15 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "LANE": "PLACE-REF/lane.jpeg",  # build-38-persistent-widow v2-r038-b46
+    "ROAD": "PLACE-REF/road.jpeg",  # build-38-persistent-widow v2-r038-b39
+}
+# === end PLACE-PLATES ===

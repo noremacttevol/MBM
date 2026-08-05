@@ -99,7 +99,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 85 | build-85-shepherds-and-angels | AUTHORED | 0 | OK |  | ✅ |
 | 86 | build-86-the-wise-men | AUTHORED | 0 | OK |  | ✅ |
 | 87 | build-87-boy-in-the-temple | AUTHORED | 0 | OK |  | ✅ |
-| 88 | build-88-triumphal-entry | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 88 | build-88-triumphal-entry | AUTHORED | 0 | OK |  | ✅ |
 | 89 | build-89-last-supper | AUTHORED | 0 | OK |  |  |
 | 90 | build-90-washing-feet | AUTHORED | 0 | OK |  |  |
 | 91 | build-91-gethsemane | AUTHORED | 0 | OK |  |  |
