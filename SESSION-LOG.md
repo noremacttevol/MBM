@@ -1,3 +1,11 @@
+## 2026-08-05 — Machine A (Fable 5 author): rows 116-121 Ready — the authored backlog is DONE, the from-scratch frontier is open
+- **Rows 116-119 upgraded and shipped**: 116 graven-on-his-palms (wounds implied never depicted), 117 hosea (fall-by-geography content-care, b30 reversal frame), 118 jonah (lowered-not-hurled sacrifice, vessel-fish), 119 fourth-man (unresolved fourth-figure law, 3/4/3 count gates). Zero WARNs each, QC.md complaint-corpus gates each.
+- **Row 120 (job-from-whirlwind) was mislabeled AUTHORED on the board — it was a raw scaffold.** All 42 scenes, locks and header written from scratch this session: God-never-embodied whirlwind law, children-at-distance, torn-mantle/shaved-head continuity map. s425 narration typo ("seeth thih") corrected to KJV and flagged for ear-check.
+- **Row 121 (salt-and-light) authored from scratch** (scaffold run + 29 scenes): first Jesus row of the batch — 10 jesus/ref beats, lamp-sequence 4-frame continuity chain, physical-light-only law.
+- **SIX wrong plate auto-matches rejected in this stretch, five of them the SAME frame**: build-38 b46 (a golden-hour village doorway) auto-wired as 117 MARKET, 118 HILL, 119 PLAIN, 121 LANE and 121 MARKET — the stash matches token NAMES only. Standing rule held: view every wired source frame before accepting. Also rejected: 118 FISH take (netted beach fish ≠ the great fish), 120 FRIENDS take (roof-story friends ≠ Eliphaz/Bildad/Zophar).
+- Next: rows 122+ are NEEDS-BEATS from scratch.
+- Commit: (this commit)
+
 ## 2026-08-05 (continued 22) — Row 113: THE FATHER'S CHARACTER CREATED per Cameron's standing order — SEVENTY-SEVEN on the board — Machine A `Dev`
 
 Cameron's row-113 complaint ("God has a body, weve been through this,
