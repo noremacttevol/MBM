@@ -73,7 +73,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r101-b01", "out": "s01-elijah-had-just-won-the.jpeg", "seg": "n1",
-        "window": "0.28-3.23", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-3.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH"],
         "narration": "Elijah had just won the greatest victory of his life.",
         "must_show": "the victory's afterimage — Elijah on a height in dramatic light, mantle wind-whipped, the bearing of a man at his life's summit; triumph still on him.",
@@ -99,7 +99,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b02", "out": "s02-and-then-a-single-threat.jpeg", "seg": "n1",
-        "window": "3.23-12.49", "wide": True, "jesus": False, "ref": False,
+        "window": "3.23-12.49", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "WILD"],
         "narration": (
             "And then a single threat sent him running for the wilderness, "
@@ -213,7 +213,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b06", "out": "s06-in-that-strength-he-walked.jpeg", "seg": "n3",
-        "window": "25.27-34.18", "wide": True, "jesus": False, "ref": False,
+        "window": "25.27-34.18", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": (
             "In that strength he walked forty days across the wilderness, "
@@ -382,7 +382,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b12", "out": "s12-go-forth-and-stand-upon.jpeg", "seg": "jv11a",
-        "window": "63.19-66.58", "wide": True, "jesus": False, "ref": False,
+        "window": "63.19-66.58", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": "Go forth, and stand upon the mount before the LORD.",
         "must_show": "SCRIPTURE-EXACT: the summons out — Elijah stepping from the cave's dark onto the wind-scoured terrace, mantle gathered, summoned to stand; the crags waiting.",
@@ -409,7 +409,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b13", "out": "s13-and-behold-the-lord-passed.jpeg", "seg": "jv11c",
-        "window": "68.12-77.13", "wide": True, "jesus": False, "ref": False,
+        "window": "68.12-77.13", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": (
             "And, behold, the LORD passed by, and a great and strong wind "
@@ -441,7 +441,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b14", "out": "s14-and-after-the-wind-an.jpeg", "seg": "jv11b",
-        "window": "78.70-82.97", "wide": True, "jesus": False, "ref": False,
+        "window": "78.70-82.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": (
             "and after the wind an earthquake; but the LORD was not in the "
@@ -497,7 +497,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b16", "out": "s16-then-an-earthquake-that-split.jpeg", "seg": "n5",
-        "window": "86.71-92.40", "wide": True, "jesus": False, "ref": False,
+        "window": "86.71-92.40", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": (
             "Then an earthquake that split the rock under his feet. Then a "
@@ -558,7 +558,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b18", "out": "s18-and-after-the-fire-a.jpeg", "seg": "jv12",
-        "window": "98.01-100.42", "wide": True, "jesus": False, "ref": False,
+        "window": "98.01-100.42", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": "And after the fire a still small voice.",
         "must_show": "SCRIPTURE-EXACT: the stillness — the terrace utterly quiet: smoke thinning, dust settling, the crags at rest; Elijah's head turning at something below hearing.",
@@ -617,7 +617,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b20", "out": "s20-that-was-where-god-was.jpeg", "seg": "n6",
-        "window": "108.56-116.76", "wide": True, "jesus": False, "ref": False,
+        "window": "108.56-116.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": (
             "That was where God was. Elijah heard it, and wrapped his face "
@@ -705,7 +705,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b23", "out": "s23-he-was-being-sent-back.jpeg", "seg": "n7",
-        "window": "127.05-130.37", "wide": True, "jesus": False, "ref": False,
+        "window": "127.05-130.37", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": "He was being sent back, steadied and not alone.",
         "must_show": "the re-commissioning — Elijah straightening at the cave mouth, mantle squared, facing DOWN the mountain the way he came; a man with a road again.",
@@ -733,7 +733,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b24", "out": "s24-yet-i-have-left-me.jpeg", "seg": "jv18",
-        "window": "130.95-140.28", "wide": True, "jesus": False, "ref": False,
+        "window": "130.95-140.28", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": (
             "Yet I have left me seven thousand in Israel, all the knees "
@@ -803,7 +803,8 @@ BEATS = [
         "must_show": "the hidden faithful — a warm village-evening frame in the land below: ordinary households at ordinary duties, small oil lamps in windows; faithfulness invisible and everywhere.",
         "must_not_show": "no halo or symbols on anyone — the faithful indistinguishable and ordinary; the lamps plain household lamps.",
         "scene": (
-            "Down in the folded country "
+            "Down in the folded country, the camera above a "
+            "lane's bend behind the evening walkers, "
             "the seven thousand keep "
             "their unmarked watch: a "
             "village at evening — a "
@@ -852,7 +853,7 @@ BEATS = [
     },
     {
         "id": "v2-r101-b28", "out": "s28-that-is-how-god-answered.jpeg", "seg": "n8",
-        "window": "150.88-160.79", "wide": True, "jesus": False, "ref": False,
+        "window": "150.88-160.79", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELIJAH", "HOREB"],
         "narration": (
             "That is how God answered a tired, frightened man — not with "
@@ -884,3 +885,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
