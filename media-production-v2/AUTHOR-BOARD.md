@@ -89,7 +89,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 75 | build-75-woman-taken-in-adultery | AUTHORED | 0 | OK |  | ✅ |
 | 76 | build-76-suffer-the-little-children | AUTHORED | 0 | OK |  | ✅ |
 | 77 | build-77-widows-mite | AUTHORED | 0 | OK |  | ✅ |
-| 78 | build-78-who-is-my-mother | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
+| 78 | build-78-who-is-my-mother | AUTHORED | 0 | OK |  | ✅ |
 | 79 | build-79-the-seventy-sent | AUTHORED | 0 | OK |  |  |
 | 80 | build-80-come-unto-me | AUTHORED | 0 | OK |  |  |
 | 81 | build-81-render-unto-caesar | AUTHORED | 0 | OK |  |  |
