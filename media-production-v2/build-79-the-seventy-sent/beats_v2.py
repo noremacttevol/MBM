@@ -70,7 +70,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the sending — Jesus at a road-fork in early morning light, pairs of followers peeling away down the different roads, two and two; a crowd becoming couriers.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the pairs clearly TWOS — never solo walkers, never clumps.",
         "scene": (
-            "At the pale road-fork in the clear "
+            "At the pale road-fork, the camera behind Jesus's "
+            "shoulder so the departing pairs walk away from the "
+            "lens down every branch, in the clear "
             "early morning Jesus stands sending — "
             "his hand assigning each pair its "
             "road — and the crowd resolves into "
@@ -112,7 +114,7 @@ BEATS = [
     },
     {
         "id": "v2-r079-b03", "out": "s03-just-each-other-and-a.jpeg", "seg": "n1",
-        "window": "12.89-15.51", "wide": True, "jesus": False, "ref": False,
+        "window": "12.89-15.51", "wide": False, "jesus": False, "ref": False,
         "locks": ["PAIR", "ROADS"],
         "narration": "Just each other, and a message.",
         "must_show": "the provision — the pair small on the long road through the ripe fields, shoulder to shoulder; two men and their words, sufficient.",
@@ -135,7 +137,7 @@ BEATS = [
     },
     {
         "id": "v2-r079-b04", "out": "s04-the-harvest-truly-is-great.jpeg", "seg": "j1",
-        "window": "16.10-26.64", "wide": True, "jesus": True, "ref": REF,
+        "window": "16.10-26.64", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROADS"],
         "narration": (
             "The harvest truly is great, but the labourers are few: pray ye "
@@ -184,7 +186,7 @@ BEATS = [
     },
     {
         "id": "v2-r079-b06", "out": "s06-there-is-so-much-to.jpeg", "seg": "n1b",
-        "window": "28.43-36.03", "wide": True, "jesus": False, "ref": False,
+        "window": "28.43-36.03", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROADS"],
         "narration": (
             "There is so much to bring in, he told them, and hardly anyone to "
@@ -238,7 +240,9 @@ BEATS = [
         "must_show": "the whole equation wide — the vast full field under the bright sky, and its entire workforce: the two small reapers; fullness and shortage in one look.",
         "must_not_show": "no halo, glare or rim-light; the disproportion the composition — gold to the horizon, workers you must hunt for.",
         "scene": (
-            "The widest look at the equation: "
+            "The widest look at the equation, the camera high on "
+            "the field's rise with the two reapers' backs far "
+            "below: "
             "ripe gold running unbroken to the "
             "hill-line under the high bright "
             "sky, dry-stone walls drowned in it, "
@@ -254,7 +258,7 @@ BEATS = [
     },
     {
         "id": "v2-r079-b09", "out": "s09-wherever-they-were-welcomed-they.jpeg", "seg": "n2 + j2",
-        "window": "44.77-52.59", "wide": True, "jesus": False, "ref": False,
+        "window": "44.77-52.59", "wide": False, "jesus": False, "ref": False,
         "locks": ["PAIR"],
         "narration": (
             "Wherever they were welcomed, they were to heal the sick and say "
@@ -304,7 +308,7 @@ BEATS = [
     },
     {
         "id": "v2-r079-b11", "out": "s11-not-a-warning-not-a.jpeg", "seg": "n2b",
-        "window": "55.57-63.82", "wide": True, "jesus": False, "ref": False,
+        "window": "55.57-63.82", "wide": False, "jesus": False, "ref": False,
         "locks": ["PAIR"],
         "narration": (
             "Not a warning, not a threat — an announcement that the thing "
@@ -339,7 +343,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the return WITH JOY (v17) — pairs streaming back up the golden late-afternoon roads toward Jesus, waving, hurrying, calling out; homecoming at a run.",
         "must_not_show": "no halo, glare or rim-light; the joy PHYSICAL — quickened steps, raised arms, faces alight with news to tell.",
         "scene": (
-            "Down every pale road in the warm "
+            "Down every pale road, the camera at the fork taking "
+            "the converging returns in profile, in the warm "
             "late-afternoon gold the pairs come "
             "streaming home — two and two and "
             "two converging on Jesus at the "
@@ -378,7 +383,7 @@ BEATS = [
     },
     {
         "id": "v2-r079-b14", "out": "s14-lord-even-the-evil-spirits.jpeg", "seg": "n3b",
-        "window": "74.89-81.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "74.89-81.24", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROADS"],
         "narration": (
             "Lord, even the evil spirits obey us when we use your name. They "
@@ -437,7 +442,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the true cause for joy — Jesus speaking to the quieted seventy in the deepening gold, his hand lifted toward the evening sky; faces tilting up with him.",
         "must_not_show": "no halo, glare or rim-light; no visible writing, book or letters in the sky — the heaven plain evening sky; the certainty carried in his face.",
         "scene": (
-            "The company quiets around him in "
+            "The company quiets around him, the camera low behind "
+            "the seated seventy's near backs, in "
             "the deepening gold as Jesus speaks "
             "the correction — his hand lifting "
             "easily toward the high clear "
@@ -505,7 +511,7 @@ BEATS = [
     },
     {
         "id": "v2-r079-b19", "out": "s19-the-name-in-the-book.jpeg", "seg": "n3c",
-        "window": "105.45-110.38", "wide": True, "jesus": True, "ref": REF,
+        "window": "105.45-110.38", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROADS"],
         "narration": (
             "The name in the book was permanent, and it was theirs before "
@@ -530,3 +536,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "ROADS": "PLACE-REF/roads.jpeg",  # build-38-persistent-widow v2-r038-b39
+}
+# === end PLACE-PLATES ===
