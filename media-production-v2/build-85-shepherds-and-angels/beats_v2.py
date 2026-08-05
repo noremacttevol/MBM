@@ -106,8 +106,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the night watch — the four shepherds around their low banked fire among the sheep, the starry night huge over the slope, Bethlehem's small dark hill in the distance.",
         "must_not_show": "no halo, glare or rim-light; the men ORDINARY and work-worn — a plain night shift, nothing yet stirring.",
         "scene": (
-            "The night pasture keeps its slow "
-            "watch: the four shepherds around "
+            "The night pasture keeps its slow watch, the camera "
+            "beyond the fire's ring behind the flock's grey backs: "
+            "the four shepherds around "
             "the low banked fire — the old "
             "greybeard nodding on his crook, "
             "the brothers trading low words, "
@@ -148,7 +149,7 @@ BEATS = [
     },
     {
         "id": "v2-r085-b03", "out": "s03-suddenly-an-angel-of-the.jpeg", "seg": "n1",
-        "window": "9.88-15.11", "wide": True, "jesus": False, "ref": False,
+        "window": "9.88-15.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD", "SHEPHERDS", "ANGEL"],
         "narration": (
             "Suddenly an angel of the Lord stood before them, and the glory "
@@ -200,7 +201,7 @@ BEATS = [
     },
     {
         "id": "v2-r085-b05", "out": "s05-for-unto-you-is-born.jpeg", "seg": "j1",
-        "window": "25.11-31.36", "wide": True, "jesus": False, "ref": False,
+        "window": "25.11-31.36", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD", "SHEPHERDS", "ANGEL"],
         "narration": (
             "For unto you is born this day in the city of David a Saviour, "
@@ -251,7 +252,7 @@ BEATS = [
     },
     {
         "id": "v2-r085-b07", "out": "s07-not-for-the-temple-for.jpeg", "seg": "n1b",
-        "window": "36.50-40.88", "wide": True, "jesus": False, "ref": False,
+        "window": "36.50-40.88", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD", "SHEPHERDS"],
         "narration": (
             "Not for the temple. For you — the men out in the field on the "
@@ -287,7 +288,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the multitude — the sky above the slope filled rank upon rank with plain-robed figures in the brilliance, the one herald below them; the shepherds tiny beneath a filled heaven.",
         "must_not_show": "ABSOLUTE: no wings, no halo, glare or rim-light, no light-outlines on any figure — a host of real plain-robed figures standing in the bright air, receding by rank into the light.",
         "scene": (
-            "The sky itself changes tenancy: "
+            "The sky itself changes tenancy, the camera low behind "
+            "the four kneeling silhouetted-dark shoulders: "
             "above the blazing slope the "
             "brightness fills rank upon rank "
             "with standing figures — plain-"
@@ -306,7 +308,7 @@ BEATS = [
     },
     {
         "id": "v2-r085-b09", "out": "s09-glory-to-god-in-the.jpeg", "seg": "j2",
-        "window": "48.48-52.80", "wide": True, "jesus": False, "ref": False,
+        "window": "48.48-52.80", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD", "ANGEL"],
         "narration": (
             "Glory to God in the highest, and on earth peace, good will "
@@ -366,7 +368,8 @@ BEATS = [
         "must_show": "the verdict's venue — the whole scene held gently: bright host above, humble field and listening men below; heaven's opinion delivered over grass and wool.",
         "must_not_show": "no wings, no halos, no light-outlines; the field HUMBLE to the last detail under the glorious sky — the contrast is the meaning.",
         "scene": (
-            "The frame holds the whole "
+            "The frame holds, the camera far across the slope "
+            "taking sky and field from the side, the whole "
             "impossible pairing: above, the "
             "sky-wide shining ranks of the "
             "host in full anthem — below, a "
@@ -409,7 +412,7 @@ BEATS = [
     },
     {
         "id": "v2-r085-b13", "out": "s13-when-the-angels-had-gone.jpeg", "seg": "n3",
-        "window": "67.25-71.29", "wide": True, "jesus": False, "ref": False,
+        "window": "67.25-71.29", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD", "SHEPHERDS"],
         "narration": (
             "When the angels had gone away into heaven, the shepherds said "
@@ -472,7 +475,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the haste — the four running downslope through the starlight toward Bethlehem's dark hill, mantles flying, the boy out front.",
         "must_not_show": "no halo, glare or rim-light; the run FLAT-OUT — night-shift men sprinting like boys, the field left behind.",
         "scene": (
-            "Down the dark slope they run — "
+            "Down the dark slope they run, the camera beside their "
+            "line so the sprint crosses in profile toward the "
+            "town's far lights — "
             "flat-out, mantles streaming, the "
             "boy's young legs pulling him out "
             "front with the brothers pounding "
@@ -498,7 +503,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the finding — the shepherds crowding the cave's mouth, the lamplit family within: Mary, Joseph, the swaddled babe in the trough; the sign matching word for word.",
         "must_not_show": "no halo on the child or anyone; the shepherds at the THRESHOLD, awed and hesitant, wool and night air still on them.",
         "scene": (
-            "At the cave's mouth the four "
+            "At the cave's mouth, the camera inside behind the "
+            "lamplit family's shoulders, the four "
             "runners pull up breathless — and "
             "there it all is, exactly as "
             "spoken: the small lamp's amber "
@@ -571,7 +577,7 @@ BEATS = [
     },
     {
         "id": "v2-r085-b19", "out": "s19-they-went-out-glorifying-and.jpeg", "seg": "n6",
-        "window": "102.72-108.25", "wide": True, "jesus": False, "ref": False,
+        "window": "102.72-108.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["SHEPHERDS"],
         "narration": (
             "They went out glorifying and praising God, telling everyone "
@@ -625,7 +631,7 @@ BEATS = [
     },
     {
         "id": "v2-r085-b21", "out": "s21-in-a-story-full-of.jpeg", "seg": "n7b",
-        "window": "114.28-119.97", "wide": True, "jesus": False, "ref": False,
+        "window": "114.28-119.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["STABLE", "MARY", "JOSEPH"],
         "narration": (
             "In a story full of people shouting, Luke stops to tell you "
@@ -682,7 +688,7 @@ BEATS = [
     },
     {
         "id": "v2-r085-b23", "out": "s23-fear-not-for-behold-i.jpeg", "seg": "j1",
-        "window": "18.96-25.11", "wide": True, "jesus": False, "ref": False,
+        "window": "18.96-25.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIELD", "SHEPHERDS", "ANGEL"],
         "narration": (
             "Fear not: for, behold, I bring you good tidings of great joy, "
@@ -710,3 +716,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "FIELD": "PLACE-REF/field.jpeg",  # build-25-wheat-and-tares v2-r025-b04
+}
+# === end PLACE-PLATES ===
