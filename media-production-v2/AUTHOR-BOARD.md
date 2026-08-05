@@ -52,7 +52,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 38 | build-38-persistent-widow | BUILT | 46 | OK |  |  |
 | 39 | build-39-pharisee-publican | BUILT | 58 | OK |  |  |
 | 40 | build-40-the-friend-at-midnight | BUILT | 56 | OK |  |  |
-| 41 | build-41-counting-the-cost | RUNNING | 0 | OK | A-run 2026-08-05 | ✅ |
+| 41 | build-41-counting-the-cost | BUILT | 58 | OK |  |  |
 | 42 | build-42-barren-fig-tree | AUTHORED | 0 | OK |  | ✅ |
 | 43 | build-43-the-wedding-garment | AUTHORED | 0 | OK |  | ✅ |
 | 44 | build-44-two-debtors | AUTHORED | 0 | OK |  | ✅ |

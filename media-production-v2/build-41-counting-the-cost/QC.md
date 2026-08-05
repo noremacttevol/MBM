@@ -74,3 +74,40 @@ otherwise skip it and rely on the b09 rough-ref for b12's closer angle.
   the column's head in b01/b26/b49.
 - Person-free frames: b11 b13 b19 b29 b30 b38* b39 b42 b46 b47 b50
   (*b38 is hands only) — do not let the model add figures.
+
+## RUNNER QC LOG — first-attempt V2 cut (Machine A, 2026-08-05)
+
+58/58 at native 2K. Portraits: BUILDER + KING only. **WARTENT was NOT given a
+portrait** — the tooling had been queueing it as a person (its lock says "dark
+goat-HAIR walls", which matched the body-detector); fixed in v2_story_cast.py
+this session so places can never be wired in as CHARACTER locks. WARTENT was
+promoted as a PLACE plate from b07, exactly as this QC.md asked. ROAD +
+VINEYARD carried in. FAMILY correctly left un-plated (author's instruction).
+Row ~$8.4; meter 222.84 → 231.42, under the $234.90 ceiling.
+
+**REROLLED (4 frames, all obvious defects, none subtle drift):**
+- b07 (the WARTENT plate itself): first take lit the council tent with MODERN
+  glass-chimney hurricane lamps. Reroll gave correct first-century clay oil
+  lamps. Caught before it became the plate for b27/b29/b33.
+- b12: first take rendered a 16:9 image LETTERBOXED inside the 9:16 frame —
+  huge blank bands top and bottom, unusable in a vertical video (also a modern
+  knit sweater). Reroll is full-bleed 1536x2752.
+- b13: re-shot with the first take's modern-looking chair replaced; the beat
+  wants "one carved chair alone in clean light" and now reads as a rough
+  hand-hewn seat on flagstones — the un-shareable single seat.
+- b35: first take put a MODERN SCHOOL SLATE in the builder's hands, chalked
+  with a vertical sum in Arabic numerals ("4 + 5 / 30"). Reroll gives a plain
+  wooden tally tablet. NOTE for the fix wave: the beat text itself uses the
+  word "slate", which is what pulls the model toward a schoolroom object — if
+  it ever returns, the cure is in the beat prose, not another reroll.
+
+**PASSED:** crowd scale and thinning read as the story's argument; the tower
+ladder (foundation → half-built → mocked → finished) is legible; the king's
+council and the envoy ride hold their light; all violence stays off-screen;
+cream on Jesus only; no lens-staring; no giant figures; person-free inserts
+(scroll, chair, foundation, salt) stayed empty.
+
+**FIX-WAVE (kept):** BUILDER renders fair-haired and blue-eyed — his lock does
+say "sandy-brown beard", so this is authored, but he reads more Northern
+European than Levantine next to the rest of the cast; worth an author decision
+rather than a runner reroll.
