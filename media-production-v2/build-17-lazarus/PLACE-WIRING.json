@@ -1,0 +1,14 @@
+{
+ "ANCIENT-ROAD": {
+  "manual": false,
+  "src_beat": "v2-r038-b39",
+  "src_build": "build-38-persistent-widow",
+  "src_file": "build-38-persistent-widow/assets/s39-will-he-find-anybody.jpeg"
+ },
+ "TOMB": {
+  "manual": false,
+  "src_beat": "v2-r037-b45",
+  "src_build": "build-37-rich-man-lazarus",
+  "src_file": "build-37-rich-man-lazarus/assets/s45-though-one-rose-from-the-dead.jpeg"
+ }
+}
