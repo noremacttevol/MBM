@@ -57,7 +57,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the setting — the small company arriving in the green glade beneath the towering pale cliff, springs breaking from its base; quiet, remote, deliberate.",
         "must_not_show": "no halo, glare or rim-light; NO crowds — the twelve and their teacher alone with the rock.",
         "scene": (
-            "Far north of every crowd the "
+            "Far north of every crowd, the camera at the glade's "
+            "edge taking arrival and cliff from the side, the "
             "little company comes into the "
             "quiet: a green hollow under a "
             "great pale cliff that goes up "
@@ -108,7 +109,7 @@ BEATS = [
     },
     {
         "id": "v2-r103-b03", "out": "s03-whom-do-men-say-that.jpeg", "seg": "jv13",
-        "window": "12.95-15.64", "wide": True, "jesus": True, "ref": REF,
+        "window": "12.95-15.64", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLIFF", "PETER", "JOHN"],
         "narration": "Whom do men say that I the Son of man am?",
         "must_show": "SCRIPTURE-EXACT: the survey question — Jesus asking it easily to the seated ring in the glade; an opening question, wide and safe.",
@@ -160,7 +161,7 @@ BEATS = [
     },
     {
         "id": "v2-r103-b05", "out": "s05-some-say-that-thou-art.jpeg", "seg": "s14",
-        "window": "23.28-30.06", "wide": True, "jesus": True, "ref": REF,
+        "window": "23.28-30.06", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLIFF", "PETER", "JOHN", "ANDREW"],
         "narration": (
             "Some say that thou art John the Baptist: some, Elias; and "
@@ -217,7 +218,7 @@ BEATS = [
     },
     {
         "id": "v2-r103-b07", "out": "s07-others-jeremiah-or-one-of.jpeg", "seg": "n3",
-        "window": "33.16-38.94", "wide": True, "jesus": True, "ref": REF,
+        "window": "33.16-38.94", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLIFF", "PETER", "JOHN"],
         "narration": (
             "Others, Jeremiah, or one of the old prophets. All respectful. "
@@ -247,7 +248,7 @@ BEATS = [
     },
     {
         "id": "v2-r103-b08", "out": "s08-all-what-other-people-thought.jpeg", "seg": "n3 + jv15",
-        "window": "38.94-44.48", "wide": True, "jesus": True, "ref": REF,
+        "window": "38.94-44.48", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLIFF", "PETER", "JOHN", "ANDREW"],
         "narration": (
             "All second-hand — what other people thought. But whom say ye "
@@ -318,7 +319,8 @@ BEATS = [
         "must_show": "the stopped ring — the whole company frozen under the cliff: eyes down, eyes sideways, nobody volunteering; the unborrowable question doing its work.",
         "must_not_show": "no halo, glare or rim-light; the silence LONG — every posture avoiding the answer's cost.",
         "scene": (
-            "The silence under the cliff "
+            "The silence under the cliff, the camera outside the "
+            "ring behind the frozen shoulders, "
             "gets long: eyes finding the "
             "grass, the springs, the "
             "pale rock — anywhere but "
@@ -339,7 +341,7 @@ BEATS = [
     },
     {
         "id": "v2-r103-b11", "out": "s11-and-simon-peter-answered-him.jpeg", "seg": "np + sp16",
-        "window": "59.54-64.54", "wide": True, "jesus": True, "ref": REF,
+        "window": "59.54-64.54", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLIFF", "PETER", "JOHN", "ANDREW"],
         "narration": (
             "And Simon Peter answered him. Thou art the Christ, the Son of "
@@ -431,7 +433,7 @@ BEATS = [
     },
     {
         "id": "v2-r103-b14", "out": "s14-blessed-art-thou-simon-barjona.jpeg", "seg": "jv17",
-        "window": "72.73-81.18", "wide": True, "jesus": True, "ref": REF,
+        "window": "72.73-81.18", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLIFF", "PETER"],
         "narration": (
             "Blessed art thou, Simon Barjona: for flesh and blood hath not "
@@ -489,7 +491,7 @@ BEATS = [
     },
     {
         "id": "v2-r103-b16", "out": "s16-this-kind-of-knowing-does.jpeg", "seg": "n6",
-        "window": "85.38-92.73", "wide": True, "jesus": True, "ref": REF,
+        "window": "85.38-92.73", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLIFF", "PETER", "JOHN"],
         "narration": (
             "This kind of knowing does not come from clever thinking. It is "
@@ -558,7 +560,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the renaming under the rock — Jesus's hand on Peter, his other arm taking in the great cliff: THOU ART PETER — THIS ROCK — the sermon and its object in one frame.",
         "must_not_show": "ABSOLUTE: no hell imagery, no gates, no fire — the permanence carried entirely by the cliff's mass; no halo.",
         "scene": (
-            "The renaming happens under "
+            "The renaming happens, the camera at the side so hand, "
+            "man and cliff line up in one profile, under "
             "its own illustration: "
             "Jesus's hand firm on the "
             "fisherman's shoulder — "
@@ -582,7 +585,7 @@ BEATS = [
     },
     {
         "id": "v2-r103-b19", "out": "s19-on-this-on-knowing-who.jpeg", "seg": "n7",
-        "window": "104.43-110.94", "wide": True, "jesus": False, "ref": False,
+        "window": "104.43-110.94", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLIFF"],
         "narration": (
             "On this — on knowing who he really is — he would build "
@@ -620,7 +623,8 @@ BEATS = [
         "must_show": "the closing image — the company small at the great cliff's foot in the late clean light, Jesus and Peter at their centre; the confession and its rock, resting together.",
         "must_not_show": "no halo, glare or rim-light; the SCALE the meaning — small men, one answer, immovable stone.",
         "scene": (
-            "The closing frame steps "
+            "The closing frame, the camera far off behind the "
+            "small company toward the great face, steps "
             "back and lets the scale "
             "speak: the little company "
             "small at the foot of the "
@@ -640,3 +644,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
