@@ -93,7 +93,9 @@ BEATS = [
         "must_show": "the setting stated — the vast crowd camped through broken rocky country around Jesus; no town, no green, no road.",
         "must_not_show": "this must NOT look like the 5000's green hillside — rock, dust and thorn are the palette.",
         "scene": (
-            "Across a broken rocky slope under a hard bright sky, the "
+            "Across a broken rocky slope under a hard bright sky, "
+            "the camera high on an outcrop behind the camp's near "
+            "edge, the "
             "great crowd spreads camped among the boulders and thorn "
             "scrub — family clusters wedged into the lee of outcrops, "
             "bundles and bedrolls, paths of trodden dust winding "
@@ -105,7 +107,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b02", "out": "s02-three-whole-days.jpeg", "seg": "n1 p2a",
-        "window": "6.48-11.00", "wide": True, "jesus": True, "ref": REF,
+        "window": "6.48-11.00", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WILDS", "CROWD"],
         "narration": ("They had been with him three whole days, listening "
                       "and being healed,"),
@@ -143,7 +145,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b04", "out": "s04-he-called-them-over.jpeg", "seg": "n1 p3",
-        "window": "16.04-19.52", "wide": True, "jesus": True, "ref": REF,
+        "window": "16.04-19.52", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "WILDS"],
         "narration": "And Jesus called his disciples over and said:",
         "must_show": "the summons — Jesus beckoning the disciples in to himself, away from the crowd's edge; something is on his mind.",
@@ -191,7 +193,9 @@ BEATS = [
         "must_show": "v3 — the far roads: Jesus's arm sweeping toward the empty distances the crowd would have to cross; the disciples following the gesture.",
         "must_not_show": "the horizon does the arguing — nothing but rock and haze in the direction he points.",
         "scene": (
-            "Jesus stands among his disciples with one arm swept "
+            "Jesus stands among his disciples, the camera at the "
+            "group's side so the sweeping arm crosses in profile "
+            "toward the empty distances, one arm swept "
             "out toward the vast empty country beyond the camp — "
             "ridge after pale ridge dissolving into heat-haze with "
             "not a roof or well among them — and the disciples' "
@@ -203,7 +207,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b07", "out": "s07-he-saw-them-one-by-one.jpeg", "seg": "n1b p1-p2",
-        "window": "37.45-43.15", "wide": True, "jesus": False, "ref": False,
+        "window": "37.45-43.15", "wide": False, "jesus": False, "ref": False,
         "locks": ["CROWD"],
         "narration": ("I feel for these people, he said. They have been "
                       "with me three days and they have nothing left to "
@@ -282,7 +286,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b11", "out": "s11-whence-in-the-wilderness.jpeg", "seg": "s4",
-        "window": "59.23-65.02", "wide": True, "jesus": False, "ref": False,
+        "window": "59.23-65.02", "wide": False, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "WILDS"],
         "narration": ("From whence can a man satisfy these men with bread "
                       "here in the wilderness? (Mark 8:4)"),
@@ -321,7 +325,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b13", "out": "s13-standing-right-in-front-of-them.jpeg", "seg": "n2b p2",
-        "window": "69.98-78.66", "wide": True, "jesus": True, "ref": REF,
+        "window": "69.98-78.66", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "WILDS"],
         "narration": ("They were standing in a wilderness doing the "
                       "arithmetic, with the man who had already fed five "
@@ -424,7 +428,8 @@ BEATS = [
         "must_show": "v6 — the multitude settling onto the bare rocky ground (no grass here); order arriving over the camp.",
         "must_not_show": "GROUND, not grass — dust and stone under every family; the contrast with row 58 held.",
         "scene": (
-            "Across the rocky slope the multitude settles down "
+            "Across the rocky slope, the camera above the nearest "
+            "seated backs, the multitude settles down "
             "onto the bare ground — families folding onto spread "
             "cloaks over the dust, old men eased down onto flat "
             "stones, children pulled into laps — the restless camp "
@@ -476,7 +481,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b21", "out": "s21-through-the-whole-multitude.jpeg", "seg": "n4 p2a",
-        "window": "113.63-119.00", "wide": True, "jesus": False, "ref": False,
+        "window": "113.63-119.00", "wide": False, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "CROWD", "WILDS"],
         "narration": ("The disciples carried bread and fish through the "
                       "whole multitude,"),
@@ -495,7 +500,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b22", "out": "s22-completely-satisfied.jpeg", "seg": "n4 p2b",
-        "window": "119.00-125.06", "wide": True, "jesus": False, "ref": False,
+        "window": "119.00-125.06", "wide": False, "jesus": False, "ref": False,
         "locks": ["CROWD", "WILDS"],
         "narration": ("and everyone ate until they were completely "
                       "satisfied, thousands of people, fed from almost "
@@ -524,7 +529,9 @@ BEATS = [
         "must_show": "v8 — the count: EXACTLY SEVEN large baskets heaped with fragments, lined up on the rock in late light.",
         "must_not_show": "COUNT DISCIPLINE: seven baskets, countable at a glance — no more, no fewer.",
         "scene": (
-            "On a shelf of flat rock in the late-afternoon light "
+            "On a shelf of flat rock in the late-afternoon light, "
+            "the camera low along the line so all seven read in "
+            "profile, "
             "stand EXACTLY SEVEN large rope-handled baskets in a "
             "row, every one heaped over its brim with broken dark "
             "bread — and behind the row two disciples set the "
@@ -562,7 +569,8 @@ BEATS = [
         "must_show": "v9 — the departure beginning: long streams of families setting out from the camp in every homeward direction in the golden evening.",
         "must_not_show": "they leave STRONG — upright walkers, children riding shoulders; the faint-by-the-way fear answered.",
         "scene": (
-            "In the golden evening the camp breaks up into long "
+            "In the golden evening, the camera behind the emptying "
+            "camp, the whole slope breaks up into long "
             "homeward streams — families filing out along the "
             "goat-tracks in every direction, bundles reslung, "
             "children riding high on fathers' shoulders, old men "
@@ -577,7 +585,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b26", "out": "s26-sent-away-cared-for.jpeg", "seg": "n6 p2",
-        "window": "139.25-144.16", "wide": True, "jesus": True, "ref": REF,
+        "window": "139.25-144.16", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CROWD", "WILDS"],
         "narration": ("Then he sent them away, cared for, in body and in "
                       "soul."),
@@ -596,7 +604,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b27", "out": "s27-that-is-who-he-is.jpeg", "seg": "n7",
-        "window": "144.16-154.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "144.16-154.24", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WILDS", "BREAD"],
         "narration": ("He did not owe them a meal. But he saw tired, "
                       "hungry people a long way from home, and he could "
@@ -620,3 +628,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
