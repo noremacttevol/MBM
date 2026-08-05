@@ -78,6 +78,19 @@ direction, but V4 is rejected as a final because its copied audio was shortened.
     battlement teeth on one wall crest survived four renders), stop rerolling —
     use the lesson-10 EDIT method on the otherwise-approved frame: attach it,
     name the one region and the one change, then recheck the complete frame.
+12. **Movie coverage, not group portraits (Cameron, 2026-08-05).** Compose every
+    frame as the shot a film would actually cut to: it contains ONLY the people
+    the narrated moment is about — a single, an over-shoulder two-shot, an
+    insert of hands or an object — never the whole cast crowded in because they
+    exist in the story. Crowding is what breaks gazes and travel directions
+    ("all of them not looking right or going the right way"). Establish the full
+    scene at most once per location; cover everything else in singles, two-shots
+    and inserts. And a key action SEQUENCE gets a frame per action so it reads
+    as motion: John 21 needs "It is the Lord" on the man who says it, Peter
+    binding his coat and going over the gunwale, and Peter swimming for shore —
+    three frames, never one frame standing in for all three. Authoring asks of
+    every segment: which single moment is this, whose moment is it, and does any
+    verb in the narration deserve its own frame?
 
 ## Per-story workflow
 
