@@ -153,7 +153,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 139 | build-139-lamp-on-a-stand | AUTHORED | 0 | OK |  | ✅ |
 | 140 | build-140-naaman-washes | AUTHORED | 0 | OK |  | ✅ |
 | 141 | build-141-bread-of-life | AUTHORED | 0 | OK |  | ✅ |
-| 142 | build-142-light-of-the-world | NEEDS-BEATS | 0 | OK |  |  |
+| 142 | build-142-light-of-the-world | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 143 | build-143-i-am-the-door | NEEDS-BEATS | 0 | OK |  |  |
 | 144 | build-144-resurrection-and-the-life | NEEDS-BEATS | 0 | OK |  |  |
 | 145 | build-145-way-truth-life | NEEDS-BEATS | 0 | OK |  |  |
