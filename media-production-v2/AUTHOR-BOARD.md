@@ -103,7 +103,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 89 | build-89-last-supper | AUTHORED | 0 | OK |  | ✅ |
 | 90 | build-90-washing-feet | AUTHORED | 0 | OK |  | ✅ |
 | 91 | build-91-gethsemane | AUTHORED | 0 | OK |  | ✅ |
-| 92 | build-92-peters-denial | AUTHORED | 0 | OK |  |  |
+| 92 | build-92-peters-denial | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 93 | build-93-barabbas-goes-free | AUTHORED | 0 | OK |  |  |
 | 94 | build-94-father-forgive-them | AUTHORED | 0 | OK |  |  |
 | 95 | build-95-thief-on-the-cross | AUTHORED | 0 | OK |  |  |
