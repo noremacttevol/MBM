@@ -67,7 +67,8 @@ BEATS = [
         "must_show": "the worried audience — the ring in the flowered grass around Jesus: worry legible in knotted hands and tight shoulders; the teacher who can see it.",
         "must_not_show": "no halo, glare or rim-light; the worry REAL — working people's anxiety, not theatrical despair.",
         "scene": (
-            "The meadow holds a ring of "
+            "The meadow holds, the camera at the ring's edge "
+            "behind the near worried shoulders, a ring of "
             "people who know what worry "
             "weighs: the farmer's hands "
             "knotted around his own "
@@ -126,7 +127,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: BEHOLD — Jesus's arm directing every eye to sparrows busy in the near grass; the ring's heads turned; the sermon's first exhibit alive and feeding.",
         "must_not_show": "no halo, glare or rim-light; the sparrows NEAR and real — feeding, not decorative.",
         "scene": (
-            "The sermon's first exhibit "
+            "The sermon's first exhibit, the camera at the side so "
+            "the directing arm and the turning gazes read in "
+            "profile, "
             "is already on stage: "
             "Jesus's arm sweeps low "
             "toward the near grass — "
@@ -232,7 +235,7 @@ BEATS = [
     },
     {
         "id": "v2-r111-b07", "out": "s07-and-not-one-of-them.jpeg", "seg": "n2",
-        "window": "32.36-37.34", "wide": True, "jesus": False, "ref": False,
+        "window": "32.36-37.34", "wide": False, "jesus": False, "ref": False,
         "locks": ["MEADOW"],
         "narration": (
             "And not one of them goes uncared for, because the Father feeds "
@@ -319,7 +322,7 @@ BEATS = [
     },
     {
         "id": "v2-r111-b10", "out": "s10-consider-the-lilies-of-the.jpeg", "seg": "jv2829",
-        "window": "47.06-61.69", "wide": True, "jesus": True, "ref": REF,
+        "window": "47.06-61.69", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEADOW", "RING"],
         "narration": (
             "Consider the lilies of the field, how they grow; they toil not, "
@@ -352,7 +355,7 @@ BEATS = [
     },
     {
         "id": "v2-r111-b11", "out": "s11-and-instead-of-an-argument.jpeg", "seg": "n1",
-        "window": "6.75-11.43", "wide": True, "jesus": True, "ref": REF,
+        "window": "6.75-11.43", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEADOW", "RING"],
         "narration": (
             "And instead of an argument, Jesus simply pointed at the world "
@@ -502,7 +505,7 @@ BEATS = [
     },
     {
         "id": "v2-r111-b16", "out": "s16-wherefore-if-god-so-clothe.jpeg", "seg": "jv30",
-        "window": "78.84-90.41", "wide": True, "jesus": True, "ref": REF,
+        "window": "78.84-90.41", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEADOW", "RING"],
         "narration": (
             "Wherefore, if God so clothe the grass of the field, which "
@@ -576,7 +579,8 @@ BEATS = [
         "must_show": "the point landing — the whole scene at rest: teacher, ring, birds and flowers in one warm frame; the logic settled over everyone like the morning light.",
         "must_not_show": "no halo, glare or rim-light; the ring's faces EASING — the argument doing its work visibly.",
         "scene": (
-            "The whole classroom rests "
+            "The whole classroom rests, the camera far off taking "
+            "teacher, ring, birds and flowers from the side, "
             "inside its own conclusion: "
             "teacher and ring seated "
             "together in the flowered "
@@ -689,7 +693,7 @@ BEATS = [
     },
     {
         "id": "v2-r111-b22", "out": "s22-tomorrow-will-look-after-itself.jpeg", "seg": "n5b",
-        "window": "116.09-125.37", "wide": True, "jesus": True, "ref": REF,
+        "window": "116.09-125.37", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEADOW", "RING"],
         "narration": (
             "Tomorrow will look after itself, and today has enough in it "
@@ -814,7 +818,7 @@ BEATS = [
     },
     {
         "id": "v2-r111-b26", "out": "s26-but-seek-ye-first-the.jpeg", "seg": "jv33",
-        "window": "139.84-147.22", "wide": True, "jesus": True, "ref": REF,
+        "window": "139.84-147.22", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEADOW", "RING"],
         "narration": (
             "But seek ye first the kingdom of God, and his righteousness; "
@@ -876,7 +880,7 @@ BEATS = [
     },
     {
         "id": "v2-r111-b28", "out": "s28-the-same-father-who-has.jpeg", "seg": "n7",
-        "window": "153.36-159.10", "wide": True, "jesus": False, "ref": False,
+        "window": "153.36-159.10", "wide": False, "jesus": False, "ref": False,
         "locks": ["MEADOW"],
         "narration": (
             "The same Father who has not forgotten a single sparrow has "
@@ -908,7 +912,7 @@ BEATS = [
     },
     {
         "id": "v2-r111-b29", "out": "s29-you-can-breathe-you-are.jpeg", "seg": "n7",
-        "window": "159.10-162.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "159.10-162.24", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEADOW", "RING"],
         "narration": "You can breathe. You are cared for.",
         "must_show": "the closing image — the ring at deep ease around Jesus in the gold: a hillside actually breathing; care as the settled fact of the frame.",
@@ -936,3 +940,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
