@@ -73,7 +73,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the ask after his praying — Jesus rising from the prayer-stone, the watching disciples close with the request on their faces; teach US that.",
         "must_not_show": "no halo, glare or rim-light; their watching HUNGRY — men who saw something they want.",
         "scene": (
-            "The request is born from "
+            "The request is born from watching, the camera on the "
+            "slope's side taking riser and watchers in one profile: "
             "watching: Jesus rising easy "
             "from the worn flat stone "
             "where he has been praying "
@@ -154,7 +155,7 @@ BEATS = [
     },
     {
         "id": "v2-r110-b04", "out": "s04-our-father-which-art-in.jpeg", "seg": "jv9",
-        "window": "18.29-23.13", "wide": True, "jesus": True, "ref": REF,
+        "window": "18.29-23.13", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PLACE", "PETER", "JOHN"],
         "narration": (
             "Our Father which art in heaven, Hallowed be thy name. Thy "
@@ -192,7 +193,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: earth as heaven — a wide good-earth frame: terraced fields being worked in morning light under a vast serene sky; the two realms rhyming.",
         "must_not_show": "no halo; the rhyme COMPOSITIONAL — ordered sky over ordered fields, peace above and below.",
         "scene": (
-            "The line gets its landscape: "
+            "The line gets its landscape, the camera high on the "
+            "terrace so every worker bends away from the lens at his own row: "
             "below, the terraced fields "
             "in morning light — a "
             "ploughman laying his "
@@ -243,7 +245,7 @@ BEATS = [
     },
     {
         "id": "v2-r110-b07", "out": "s07-and-the-very-first-thing.jpeg", "seg": "n2",
-        "window": "33.13-44.49", "wide": True, "jesus": False, "ref": False,
+        "window": "33.13-44.49", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "And the very first thing you long for, once you know him, is "
@@ -336,7 +338,7 @@ BEATS = [
     },
     {
         "id": "v2-r110-b10", "out": "s10-then-the-plain-honest-things.jpeg", "seg": "n3",
-        "window": "52.16-58.37", "wide": True, "jesus": False, "ref": False,
+        "window": "52.16-58.37", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOME", "FATHER", "CHILD"],
         "narration": (
             "Then the plain, honest things. Bread — it is fine to ask for "
@@ -367,7 +369,7 @@ BEATS = [
     },
     {
         "id": "v2-r110-b11", "out": "s11-and-forgiveness-asked-for-and.jpeg", "seg": "n3",
-        "window": "58.37-61.63", "wide": True, "jesus": False, "ref": False,
+        "window": "58.37-61.63", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": "And forgiveness — asked for, and passed on.",
         "must_show": "the two-way mercy — a village lane vignette: two neighbours mid-reconciliation, hands clasping over an old grievance, wives and children watching relief break out.",
@@ -425,7 +427,7 @@ BEATS = [
     },
     {
         "id": "v2-r110-b13", "out": "s13-and-lead-us-not-into.jpeg", "seg": "jv13",
-        "window": "66.34-75.61", "wide": True, "jesus": False, "ref": False,
+        "window": "66.34-75.61", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "And lead us not into temptation, but deliver us from evil: For "
@@ -485,7 +487,7 @@ BEATS = [
     },
     {
         "id": "v2-r110-b15", "out": "s15-lead-me-away-from-what.jpeg", "seg": "n4",
-        "window": "79.34-85.59", "wide": True, "jesus": True, "ref": REF,
+        "window": "79.34-85.59", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PLACE"],
         "narration": (
             "Lead me away from what would harm me. And it ends where it "
@@ -556,7 +558,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the warning — Jesus teaching it with a gentle dismissing wave; in the middle distance a street-corner declaimer mid-performance, arms theatrical, admirers around.",
         "must_not_show": "no halo, glare or rim-light; the performer KINDLY drawn — earnest error, not villainy.",
         "scene": (
-            "The warning points gently "
+            "The warning points gently down the hill, the camera "
+            "behind the listening ring toward the far street: "
             "down the hill: from the "
             "terrace Jesus's hand makes "
             "its soft dismissing wave "
@@ -666,7 +669,7 @@ BEATS = [
     },
     {
         "id": "v2-r110-b21", "out": "s21-not-a-speech-to-impress.jpeg", "seg": "n6",
-        "window": "113.86-120.99", "wide": True, "jesus": False, "ref": False,
+        "window": "113.86-120.99", "wide": False, "jesus": False, "ref": False,
         "locks": ["HOME", "FATHER", "CHILD"],
         "narration": (
             "Not a speech to impress heaven. A child, climbing into the lap "
@@ -737,7 +740,8 @@ BEATS = [
         "must_show": "the closing image — the olive terrace in gold light: Jesus and the disciples praying it together, the two first words on every mouth; the family word, shared out forever.",
         "must_not_show": "no halo, glare or rim-light; the TOGETHERNESS the close — one prayer, many mouths, begun.",
         "scene": (
-            "The closing frame prays: "
+            "The closing frame prays, the camera outside the "
+            "circle behind the bowed shoulders: "
             "the terrace gone gold "
             "with late light, Jesus "
             "and the ring of disciples "
@@ -759,3 +763,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
