@@ -128,7 +128,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 114 | build-114-abraham-sodom | AUTHORED | 0 | OK |  | ✅ |
 | 115 | build-115-ram-in-the-thicket | AUTHORED | 0 | OK |  | ✅ |
 | 116 | build-116-graven-on-his-palms | AUTHORED | 0 | OK |  | ✅ |
-| 117 | build-117-hosea-buys-her-back | AUTHORED | 0 | OK |  |  |
+| 117 | build-117-hosea-buys-her-back | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 118 | build-118-jonah-god-who-relents | AUTHORED | 0 | OK |  |  |
 | 119 | build-119-fourth-man-in-fire | AUTHORED | 0 | OK |  |  |
 | 120 | build-120-job-from-whirlwind | AUTHORED | 0 | OK |  |  |
