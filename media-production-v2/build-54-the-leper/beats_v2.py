@@ -92,7 +92,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r054-b01", "out": "s01-the-loneliest-life.jpeg", "seg": "n1 p1",
-        "window": "0.28-3.46", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-3.46", "wide": False, "jesus": False, "ref": False,
         "locks": ["LEPER", "WILDS"],
         "narration": ("In those days there was no lonelier life than a "
                       "leper's."),
@@ -121,7 +121,8 @@ BEATS = [
         "must_show": "the apartness enforced — a family passing on the far road while he stands off among the rocks, the gap between them the width of the frame.",
         "must_not_show": "the family does not jeer or flee in terror — they simply keep the distance everyone keeps; that ordinariness is the cruelty.",
         "scene": (
-            "The man stands motionless among the grey boulders well off "
+            "The camera holds both planes from the side, the road and "
+            "the rocks in one profile: the man stands motionless among the grey boulders well off "
             "the road, his frayed cloth drawn up over his lower face — "
             "and across the whole width of the frame, on the far side of "
             "the morning road, a family walks toward the town: a father "
@@ -134,7 +135,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b03", "out": "s03-crying-unclean.jpeg", "seg": "n1 p2b",
-        "window": "9.50-15.79", "wide": True, "jesus": False, "ref": False,
+        "window": "9.50-15.79", "wide": False, "jesus": False, "ref": False,
         "locks": ["LEPER", "WILDS"],
         "narration": ("no home, no temple, no touch, made to cry out "
                       "'unclean' if anyone drew near."),
@@ -172,7 +173,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b05", "out": "s05-he-heard-jesus-was-near.jpeg", "seg": "n2 p1",
-        "window": "19.44-23.57", "wide": True, "jesus": False, "ref": False,
+        "window": "19.44-23.57", "wide": False, "jesus": False, "ref": False,
         "locks": ["LEPER", "WILDS", "ROADSIDE"],
         "narration": ("When he heard that Jesus was near, he did the "
                       "forbidden thing: he came close."),
@@ -192,7 +193,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b06", "out": "s06-he-fell-on-his-knees.jpeg", "seg": "n2 p2",
-        "window": "23.57-26.33", "wide": True, "jesus": True, "ref": REF,
+        "window": "23.57-26.33", "wide": False, "jesus": True, "ref": REF,
         "locks": ["LEPER", "ROADSIDE"],
         "narration": "He fell on his knees and begged him.",
         "must_show": "v40 — the leper DOWN on his knees in the road dust before Jesus; the crowd breaking backward away from him; Jesus not moving.",
@@ -273,7 +274,8 @@ BEATS = [
         "must_show": "the geometry of compassion — the whole crowd at maximum distance, Jesus at minimum; one step closer, even.",
         "must_not_show": "Jesus's feet have visibly closed the gap — dust marks, his shadow falling over the kneeling man.",
         "scene": (
-            "A wide frame that tells it in distances: the scattered "
+            "A wide frame that tells it in distances, the camera off "
+            "to the side so every gap reads in profile: the scattered "
             "crowd holds the far edges of the picture, pressed against "
             "walls and trees, a ring of fear with a hole in it — and "
             "in the hole, Jesus has stepped IN toward the kneeling "
@@ -286,7 +288,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b11", "out": "s11-he-reached-out.jpeg", "seg": "n3 p2",
-        "window": "45.08-49.32", "wide": True, "jesus": True, "ref": REF,
+        "window": "45.08-49.32", "wide": False, "jesus": True, "ref": REF,
         "locks": ["LEPER", "ROADSIDE"],
         "narration": ("He reached out his hand toward the very thing no "
                       "one would touch."),
@@ -364,7 +366,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b15", "out": "s15-the-leprosy-departed.jpeg", "seg": "n4 p4",
-        "window": "64.06-73.29", "wide": True, "jesus": True, "ref": REF,
+        "window": "64.06-73.29", "wide": False, "jesus": True, "ref": REF,
         "locks": ["LEPER", "ROADSIDE"],
         "narration": ("Before the healing had even come, the untouchable "
                       "man was touched; and then, at once, the leprosy "
@@ -404,7 +406,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b17", "out": "s17-a-man-who-could-go-home.jpeg", "seg": "n5 p3",
-        "window": "79.95-86.34", "wide": True, "jesus": True, "ref": REF,
+        "window": "79.95-86.34", "wide": False, "jesus": True, "ref": REF,
         "locks": ["LEPER", "ROADSIDE"],
         "narration": ("In a moment he was clean, and more than clean; he "
                       "was a man who could go home."),
@@ -458,7 +460,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b20", "out": "s20-the-way-to-the-priest.jpeg", "seg": "j44b",
-        "window": "96.00-102.81", "wide": True, "jesus": True, "ref": REF,
+        "window": "96.00-102.81", "wide": False, "jesus": True, "ref": REF,
         "locks": ["LEPER", "ROADSIDE", "VILLAGE"],
         "narration": ("and offer for thy cleansing those things which "
                       "Moses commanded, for a testimony unto them. "
@@ -480,7 +482,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b21", "out": "s21-given-back-his-life.jpeg", "seg": "n6b",
-        "window": "102.81-115.68", "wide": True, "jesus": False, "ref": False,
+        "window": "102.81-115.68", "wide": False, "jesus": False, "ref": False,
         "locks": ["LEPER", "VILLAGE"],
         "narration": ("Say nothing to anyone, he told him. Just go and "
                       "show yourself to the priest, and make the offering "
@@ -506,7 +508,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b22", "out": "s22-he-could-not-hold-it-in.jpeg", "seg": "n7",
-        "window": "115.68-125.19", "wide": True, "jesus": False, "ref": False,
+        "window": "115.68-125.19", "wide": False, "jesus": False, "ref": False,
         "locks": ["LEPER", "VILLAGE"],
         "narration": ("But the man could not hold it in. He went out and "
                       "told everyone, freely, everywhere; how could he "
@@ -528,7 +530,7 @@ BEATS = [
     },
     {
         "id": "v2-r054-b23", "out": "s23-no-more-openly.jpeg", "seg": "n8 p1a",
-        "window": "125.19-130.00", "wide": True, "jesus": True, "ref": REF,
+        "window": "125.19-130.00", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WILDS"],
         "narration": ("And so the news ran ahead of him, until he could "
                       "hardly walk into a town in the open,"),
@@ -554,7 +556,9 @@ BEATS = [
         "must_show": "v45's last clause — the wide closing image: streams of people converging on the one figure in the open country from every direction at once.",
         "must_not_show": "no halo/glow; he is found by the lines of the land — every path in the frame bends toward him.",
         "scene": (
-            "A very wide golden-hour frame of the open country: at its "
+            "A very wide golden-hour frame of the open country, the "
+            "camera high on the ridge behind the near stream of "
+            "walkers: at its "
             "centre, small but unmistakable, Jesus stands waiting on a "
             "low rise — and from every corner of the picture the "
             "people come, thin streams of walkers converging along "
@@ -568,3 +572,15 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "ROADSIDE": "PLACE-REF/roadside.jpeg",  # build-38-persistent-widow v2-r038-b39
+    "VILLAGE": "PLACE-REF/village.jpeg",  # build-38-persistent-widow v2-r038-b46
+}
+# === end PLACE-PLATES ===
