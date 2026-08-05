@@ -1,3 +1,9 @@
+## 2026-08-05 — Machine A (Fable 5 author, continued): rows 151-152 Ready — 37 rows this session; the doctrine-frontier rows are underway
+- **Row 151 (ask-of-god, James 1:5)** — the honest-asking row, kept strictly universal: a timeless young seeker kneels in his own young grove and asks out loud; NO vision, appearance or figure-in-light ever (the BOM/Restoration laws hold — the row plants the question only); the grove's strengthening morning light is the whole answer-engine; closes on the empty kneeling-place offered to the viewer.
+- **Row 152 (revealeth-his-secret, Amos 3:7)** — the living-prophets pattern row: wind-arrival word (God never embodied), the herdsman's ordinariness as doctrine, distant-lion law, mercy register on all warning imagery, and the pattern carried forward by a succession-watchman in timeless period (never modern).
+- Board Ready through 152; 153+ (restitution, everlasting-gospel, falling-away, famine-of-hearing, marvellous-work, two-sticks...) remain NEEDS-BEATS — the Restoration-arc block for the next stretch.
+- Commit: (this commit)
+
 ## 2026-08-05 — Machine A (Fable 5 author, continued): rows 147-150 Ready — 35 rows authored this session, board Ready through 150
 - **Rows 147-150 authored from scratch**: 147 joseph-forgives (distance-only selling, ten-brothers count, truth-telling-forgiveness spine, documented vizier-linen costume exception), 148 ruth (exact-modesty threshing-floor gate, empty-hands/filled-lap bookends, tracked basket object), 149 hannah (silent-prayer centre, in/out vow gesture-language, eased-face-before-answer gate), 150 shepherd-psalm (two-ages-one-face David, real-dark valley with no death imagery, pursuit-position goodness-and-mercy).
 - Plate rejections: 147 HALL take (build-22 parable hall ≠ Egyptian hall), 148 FIELD (build-28's barren treasure-plot ≠ golden barley harvest — viewed and rejected).
