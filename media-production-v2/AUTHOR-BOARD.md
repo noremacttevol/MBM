@@ -97,7 +97,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 83 | build-83-weeping-over-jerusalem | AUTHORED | 0 | OK |  | ✅ |
 | 84 | build-84-no-room-manger | AUTHORED | 0 | OK |  | ✅ |
 | 85 | build-85-shepherds-and-angels | AUTHORED | 0 | OK |  | ✅ |
-| 86 | build-86-the-wise-men | AUTHORED | 0 | OK |  |  |
+| 86 | build-86-the-wise-men | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 87 | build-87-boy-in-the-temple | AUTHORED | 0 | OK |  |  |
 | 88 | build-88-triumphal-entry | AUTHORED | 0 | OK |  |  |
 | 89 | build-89-last-supper | AUTHORED | 0 | OK |  |  |
