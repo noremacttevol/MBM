@@ -1,3 +1,21 @@
+## 2026-08-05 (continued 7) — Rows 65-67 Ready: TWENTY-NINE on the board — Machine A `Dev`
+
+65 help-mine-unbelief (seizure restrained, no depicted adversary, title
+prayer is one man's close-up), 66 malchus-ear (CAUGHT AND UNWIRED a wrong
+auto-plate: build-26's sunlit herb garden had matched Gethsemane's
+GARDEN token by name — the GROVE/GARDEN split trap; garden promote-first
+will seed row 91; restrained-violence: no severed ear ever), 67
+transfiguration (ee-LY-us/Elias audio+caption gate; the no-glow law's
+ONE scriptural exception written precisely — raiment-light not halo,
+ordinary again at 'Jesus only').
+
+LESSON FOR ALL AUTHORS: the stash matches by TOKEN NAME ONLY — read the
+source frame's description before accepting ANY auto-wire (garden trap
+row 66; Bethany-lane declined 7x; rich-courtyard 2x; royal-hall vs
+council 1x). Wrong-world plates are worse than no plate.
+
+Board: 17, 40-67 Ready ✅ (twenty-nine). Next: 68+.
+
 ## 2026-08-05 (continued 6) — Rows 61-64 Ready: TWENTY-SIX on the board — Machine A `Dev`
 
 61 syrophoenician (posture-arc law for the exchange; remote healing), 62
