@@ -151,7 +151,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 137 | build-137-one-as-we-are-one | AUTHORED | 0 | OK |  | ✅ |
 | 138 | build-138-his-offspring | AUTHORED | 0 | OK |  | ✅ |
 | 139 | build-139-lamp-on-a-stand | AUTHORED | 0 | OK |  | ✅ |
-| 140 | build-140-naaman-washes | NEEDS-BEATS | 0 | OK |  |  |
+| 140 | build-140-naaman-washes | NEEDS-BEATS | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 141 | build-141-bread-of-life | NEEDS-BEATS | 0 | OK |  |  |
 | 142 | build-142-light-of-the-world | NEEDS-BEATS | 0 | OK |  |  |
 | 143 | build-143-i-am-the-door | NEEDS-BEATS | 0 | OK |  |  |
