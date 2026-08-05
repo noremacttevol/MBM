@@ -1,3 +1,9 @@
+## 2026-08-05 — Machine A (Fable 5 author, continued): rows 147-150 Ready — 35 rows authored this session, board Ready through 150
+- **Rows 147-150 authored from scratch**: 147 joseph-forgives (distance-only selling, ten-brothers count, truth-telling-forgiveness spine, documented vizier-linen costume exception), 148 ruth (exact-modesty threshing-floor gate, empty-hands/filled-lap bookends, tracked basket object), 149 hannah (silent-prayer centre, in/out vow gesture-language, eased-face-before-answer gate), 150 shepherd-psalm (two-ages-one-face David, real-dark valley with no death imagery, pursuit-position goodness-and-mercy).
+- Plate rejections: 147 HALL take (build-22 parable hall ≠ Egyptian hall), 148 FIELD (build-28's barren treasure-plot ≠ golden barley harvest — viewed and rejected).
+- **Session total: 35 rows (116-150), all Ready ✅ with zero WARNs.** The board's authored frontier now sits at 151; everything 116-150 carries a QC.md with complaint-corpus gates for the Opus runners.
+- Commit: (this commit)
+
 ## 2026-08-05 — Machine A (Fable 5 author, continued): the I AM block 141-146 Ready — board now Ready through 146
 - **Six I AM rows authored from scratch**: 141 bread-of-life (broken-bread-only foreshadow), 142 light-of-the-world (row-63 blind man byte-identical, per-beat eye states), 143 i-am-the-door (one-gap-no-gate law; build-21's shepherd ADOPTED byte-identical — one parable shepherd across rows, and its fold plate accepted as the row's own picture), 144 resurrection-and-the-life (row-17 Martha/Lazarus/tomb canon + REFS pin), 145 way-truth-life (build-89 upper room byte-identical, honest-Thomas law), 146 vine-and-branches (vineyard family plate, no-strain doctrine).
 - The I AM series has a shared signature: the hand-flat-at-chest gesture, cross-referenced in every QC.
