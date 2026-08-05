@@ -1,3 +1,16 @@
+## 2026-08-05 (continued 4) — Rows 54-57 Ready: NINETEEN on the board — Machine A `Dev`
+
+54 the-leper (distance-is-the-story wides; leprosy-with-dignity; the
+touch lands before the healing), 55 withered-hand (same synagogue hall
+as 05/52; right-hand + matched-pair proof laws), 56 widow-of-nain
+(Cameron's redo-the-whole-thing complaint answered: son's size/clothes
+locked with body-board order, no-giant gate), 57 jairus-daughter
+(grief-care law; grey/waxen sick-child wording actively REWRITTEN to
+fever-flushed — the row-15 class fixed at authoring time, not at QC).
+Cast-pinning now applied to every Twelve-bearing row on sight (51/53/57).
+
+Board: 17, 40-57 Ready ✅ (nineteen). Next: 58+ (feeding-5000 etc.).
+
 ## 2026-08-05 (continued 3) — Rows 51-53 Ready: FIFTEEN on the board; the cast-pinning pattern is now standard — Machine A `Dev`
 
 - 51 first-catch: SIMON pinned to the global PETER sheets via build-local
