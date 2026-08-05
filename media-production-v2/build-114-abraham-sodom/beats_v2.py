@@ -86,7 +86,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the appearing — Abraham at his tent door in hard noon light, and the three silver-grey travelers standing on the bright ground before him; strangers, as far as he knows.",
         "must_not_show": "ABSOLUTE: no wings, rings of light or outlines on the travelers — road-dusted men; Abraham's face welcoming, not yet awed.",
         "scene": (
-            "Out of the shimmering noon "
+            "Out of the shimmering noon, the camera at the oak's "
+            "side taking tent door and arrivals in one profile, "
             "three figures stand suddenly "
             "on the bright ground: tall "
             "road-dusted men in plain "
@@ -139,7 +140,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b03", "out": "s03-he-washed-their-feet-baked.jpeg", "seg": "n2",
-        "window": "11.98-18.64", "wide": True, "jesus": False, "ref": False,
+        "window": "11.98-18.64", "wide": False, "jesus": False, "ref": False,
         "locks": ["CAMP", "ABRAHAM", "TRAVELERS"],
         "narration": (
             "He washed their feet, baked fresh bread, set out the best he "
@@ -202,7 +203,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b05", "out": "s05-for-those-cities-had-grown.jpeg", "seg": "n3",
-        "window": "24.61-28.21", "wide": True, "jesus": False, "ref": False,
+        "window": "24.61-28.21", "wide": False, "jesus": False, "ref": False,
         "locks": ["HEIGHT"],
         "narration": "For those cities had grown very dark, and judgment was near.",
         "must_show": "the dark cities far — the plain from the height: the pale cities small below under a heavy bruised sky; darkness as weather and distance, nothing burning.",
@@ -240,7 +241,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the parting (v22) — the two travelers descending toward the plain, and Abraham on the ridge turned toward a WARM GOLD PRESENCE-LIGHT where the third stood; the shift from men to presence.",
         "must_not_show": "ABSOLUTE: no figure in the presence-light from here on — the two walk away as men, the LORD remains as light only.",
         "scene": (
-            "On the gold ridge the "
+            "On the gold ridge, the camera behind Abraham's still "
+            "shoulder as the two descend away down the slope, the "
             "company divides into its "
             "true natures: the two "
             "travelers already "
@@ -291,7 +293,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b08", "out": "s08-for-strangers-for-the-good.jpeg", "seg": "n4",
-        "window": "39.20-44.99", "wide": True, "jesus": False, "ref": False,
+        "window": "39.20-44.99", "wide": False, "jesus": False, "ref": False,
         "locks": ["HEIGHT", "ABRAHAM"],
         "narration": (
             "For strangers — for the good people who might still be down in "
@@ -358,7 +360,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b10", "out": "s10-if-i-find-in-sodom.jpeg", "seg": "jv26",
-        "window": "52.51-59.89", "wide": True, "jesus": False, "ref": False,
+        "window": "52.51-59.89", "wide": False, "jesus": False, "ref": False,
         "locks": ["HEIGHT", "ABRAHAM"],
         "narration": (
             "If I find in Sodom fifty righteous within the city, then I "
@@ -451,7 +453,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b13", "out": "s13-what-about-forty-thirty-each.jpeg", "seg": "n5",
-        "window": "67.64-74.67", "wide": True, "jesus": False, "ref": False,
+        "window": "67.64-74.67", "wide": False, "jesus": False, "ref": False,
         "locks": ["HEIGHT", "ABRAHAM"],
         "narration": (
             "What about forty? Thirty? Each time, gently, the answer came "
@@ -522,7 +524,8 @@ BEATS = [
         "must_show": "mercy's preference — the wide ridge and plain: the warm gold light leaning OUT over the darkened cities, not away; the presence oriented toward sparing.",
         "must_not_show": "ABSOLUTE: no figure, no fire — the light's direction the whole theology: toward the doomed, not turned from them.",
         "scene": (
-            "The frame catches mercy's "
+            "The frame catches, the camera far along the ridge "
+            "taking height and plain from the side, mercy's "
             "compass: on the ridge the "
             "warm gold presence-light "
             "stands leaning not away "
@@ -609,7 +612,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b18", "out": "s18-i-will-not-destroy-it.jpeg", "seg": "jv32",
-        "window": "96.86-99.23", "wide": True, "jesus": False, "ref": False,
+        "window": "96.86-99.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["HEIGHT", "ABRAHAM"],
         "narration": "I will not destroy it for ten's sake.",
         "must_show": "SCRIPTURE-EXACT: the tenth yes — the ridge at its stillest: the answer given over the whole gold landscape; Abraham bowed in the warm light, the plain held under the final mercy.",
@@ -671,7 +674,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b20", "out": "s20-for-the-sake-of-ten.jpeg", "seg": "n7",
-        "window": "105.42-112.23", "wide": True, "jesus": False, "ref": False,
+        "window": "105.42-112.23", "wide": False, "jesus": False, "ref": False,
         "locks": ["HEIGHT"],
         "narration": (
             "For the sake of ten good people, the whole place would be "
@@ -739,7 +742,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b22", "out": "s22-abraham-went-home-in-the.jpeg", "seg": "n8",
-        "window": "118.67-125.61", "wide": True, "jesus": False, "ref": False,
+        "window": "118.67-125.61", "wide": False, "jesus": False, "ref": False,
         "locks": ["CAMP", "ABRAHAM"],
         "narration": (
             "Abraham went home in the dusk, amazed. He had dared to plead "
@@ -770,7 +773,7 @@ BEATS = [
     },
     {
         "id": "v2-r114-b23", "out": "s23-god-let-a-man-argue.jpeg", "seg": "n8",
-        "window": "125.61-129.44", "wide": True, "jesus": False, "ref": False,
+        "window": "125.61-129.44", "wide": False, "jesus": False, "ref": False,
         "locks": ["HEIGHT"],
         "narration": "God let a man argue with him — and kept saying yes.",
         "must_show": "the closing image — the empty ridge-top in last light: the place of the argument holding its gold; the standing invitation of the spot itself.",
@@ -799,3 +802,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
