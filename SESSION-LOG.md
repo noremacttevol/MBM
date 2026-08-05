@@ -1,3 +1,30 @@
+## 2026-08-05 (Opus runner, cont. 2) — Row 41 shipped + THREE rows now DEPLOYED (Cameron: "i still dont have any of that on my reviewer") — Machine A `Dev`
+
+**The correction that mattered:** rows 17 and 40 were committed and pushed but
+NEVER DEPLOYED, so Cameron's reviewer still served the old page and neither cut
+existed to him. The runner brief ended at "commit + push" — that gap is now
+closed: PROMPT-OPUS-RUNNER.md step 7c makes `firebase deploy --only hosting`
+plus live verification part of shipping. All three rows are now live on
+https://milk-b4-meat.web.app/review.html and verified PLAYABLE in-browser
+(v17 314.0s, v40 323.5s, v41 346.4s, all 1080x1920).
+
+**Row 41 (counting-the-cost):** 58 stills at native 2K vs V1's 22. AUDIO LOCK
+PASS `71007d26…`, 346.4 s. Four rerolls, every one a hard defect: MODERN
+hurricane lamps in the war tent (and that was the PLATE frame — caught before
+it propagated to three beats), a 16:9 frame letterboxed inside the 9:16 canvas,
+a modern chair, and a modern school slate chalked with ARABIC NUMERALS.
+
+**Second tooling fix this session:** `v2_story_cast.py` was queueing PLACES for
+character portraits — WARTENT ("the king's council tent … dark goat-HAIR
+walls") matched the body-detector on "hair". A place wired into REFS is
+attached with the CHARACTER lock text ("must appear here as the SAME person"),
+so this was a quality defect, not just a wasted $0.13. Fixed and verified
+against every build: exactly 5 locks change classification, all genuine places.
+`inn` was tried and REMOVED because it vetoed build-20's INNKEEPER, a real man.
+
+Session totals: rows 17, 40, 41 built, QC'd, shipped AND deployed; ~$25 of API
+(meter 206.36 → 231.42); two tooling bugs fixed that affected every future row.
+
 ## 2026-08-05 — Machine A (Fable 5 author, continued): rows 158-161 Ready — 45 rows authored this run; row 158's orphaned package rescued
 - **Row 158 (two-sticks) was left half-shipped by the previous chat** (context ran out): its 608-line beats_v2.py existed but was never wired, checked, or committed, and the claim was still on the board. This session finished it: wired (0 stash matches — RIVER/EXILES promote-first; STICKS is a PROP, never place-wire), --check PASS, QC.md, Ready ✅. Seamless-joining stick law (never spliced/corded), joining in EZEKIEL's hand with no divine hand ever.
 - **Row 159 (other-sheep) authored from scratch** — 20 scenes EXTENDING 143's John 10 canon: SHEPHERD + FOLD locks byte-identical (one parable shepherd across 21/143/159), FOLD plate (build-21 b12) auto-wired, direction-law geography (home frame-LEFT, far country frame-RIGHT, stated per beat), unnamed universal far country, the sheep→people lifted-heads promise rhyme (b05→b12), mid-stride gateless-gap close.
