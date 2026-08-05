@@ -28,7 +28,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 14 | build-14-ten-lepers | BUILT | 68 | OK |  |  |
 | 15 | build-15-centurion | BUILT | 71 | OK |  |  |
 | 16 | build-16-mary-martha | BUILT | 26 | OK |  |  |
-| 17 | build-17-lazarus | RUNNING | 0 | OK | A-run 2026-08-05 | ✅ |
+| 17 | build-17-lazarus | BUILT | 61 | OK |  |  |
 | 18 | build-18-emmaus | BUILT | 41 | OK |  |  |
 | 19 | build-19-shore | BUILT | 37 | OK |  |  |
 | 20 | build-20-samaritan | BUILT | 42 | OK |  |  |
@@ -89,7 +89,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 75 | build-75-woman-taken-in-adultery | AUTHORED | 0 | OK |  | ✅ |
 | 76 | build-76-suffer-the-little-children | AUTHORED | 0 | OK |  | ✅ |
 | 77 | build-77-widows-mite | AUTHORED | 0 | OK |  | ✅ |
-| 78 | build-78-who-is-my-mother | AUTHORED | 0 | OK |  |  |
+| 78 | build-78-who-is-my-mother | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 79 | build-79-the-seventy-sent | AUTHORED | 0 | OK |  |  |
 | 80 | build-80-come-unto-me | AUTHORED | 0 | OK |  |  |
 | 81 | build-81-render-unto-caesar | AUTHORED | 0 | OK |  |  |
