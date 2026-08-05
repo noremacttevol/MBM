@@ -99,7 +99,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the travellers — the three magi and their small camel train crossing the night desert, one brilliant star low ahead of them; scholars on a long road.",
         "must_not_show": "no halo, glare or rim-light on figures; the caravan SMALL in the vast night — three scholars, not a royal parade.",
         "scene": (
-            "Across the pale night desert the "
+            "Across the pale night desert, the camera far off the "
+            "track taking the train in profile under the stars, the "
             "small caravan makes its patient "
             "line: three robed scholars swaying "
             "on their camels — sapphire, crimson "
@@ -127,7 +128,8 @@ BEATS = [
         "must_show": "the arrival at court — the three dusty travellers striding up Herod's cold grand hall between the columns and guards, road-dirt on rich robes; purpose in every step.",
         "must_not_show": "no halo, glare or rim-light; the hall's grandeur COLD against their travel-worn directness.",
         "scene": (
-            "Into the cold polished grandeur of "
+            "Into the cold polished grandeur, the camera behind the "
+            "flanking courtiers' shoulders, of "
             "the king's hall the three come "
             "striding — desert dust still on "
             "their sapphire, crimson and emerald "
@@ -167,7 +169,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b04", "out": "s04-for-we-have-seen-his.jpeg", "seg": "j1",
-        "window": "18.76-22.79", "wide": True, "jesus": False, "ref": False,
+        "window": "18.76-22.79", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "HALL"],
         "narration": (
             "for we have seen his star in the east, and are come to worship "
@@ -224,7 +226,8 @@ BEATS = [
         "must_show": "the collision — the wide hall: the three travellers below, Herod above on his platform, circlet and purple; the sitting king asked for the real one's address.",
         "must_not_show": "no halo, glare or rim-light; Herod's face CONTROLLED — the trouble held behind the courtier's smile.",
         "scene": (
-            "The wide hall stages the collision: "
+            "The wide hall stages the collision, the camera at the "
+            "side wall so platform and floor read in one profile: "
             "on the raised platform Herod in his "
             "dark purple and thin gold circlet, "
             "heavy and shrewd and utterly still "
@@ -241,7 +244,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b07", "out": "s07-he-sent-them-on-to.jpeg", "seg": "n1",
-        "window": "34.85-37.73", "wide": True, "jesus": False, "ref": False,
+        "window": "34.85-37.73", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "HEROD", "HALL"],
         "narration": "He sent them on to Bethlehem with an errand of his own:",
         "must_show": "the commissioning — Herod come down close to the magi, an arm half-around in false warmth, his other hand pointing them south; the errand being attached.",
@@ -311,7 +314,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b10", "out": "s10-go-and-look-carefully-for.jpeg", "seg": "n1b",
-        "window": "49.25-57.51", "wide": True, "jesus": False, "ref": False,
+        "window": "49.25-57.51", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "HEROD", "HALL"],
         "narration": (
             "Go and look carefully for the child, he said, and when you find "
@@ -360,7 +363,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b12", "out": "s12-they-were-led-at-last.jpeg", "seg": "n2a",
-        "window": "64.36-66.91", "wide": True, "jesus": False, "ref": False,
+        "window": "64.36-66.91", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "HOUSE"],
         "narration": "They were led at last to a house in Bethlehem.",
         "must_show": "SCRIPTURE-EXACT: the star STOOD OVER (v9) — night: the brilliant star standing directly above the small village house, the three travellers halted before its low door.",
@@ -407,7 +410,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b14", "out": "s14-the-wise-men-knelt-before.jpeg", "seg": "n3",
-        "window": "73.37-78.24", "wide": True, "jesus": False, "ref": False,
+        "window": "73.37-78.24", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "HOUSE", "MARY"],
         "narration": (
             "The wise men knelt before the little child — everything their "
@@ -477,7 +480,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b17", "out": "s17-and-when-they-were-come.jpeg", "seg": "j2",
-        "window": "82.65-95.98", "wide": True, "jesus": False, "ref": False,
+        "window": "82.65-95.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "HOUSE", "MARY"],
         "narration": (
             "And when they were come into the house, they saw the young "
@@ -507,7 +510,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b18", "out": "s18-god-warned-them-in-a.jpeg", "seg": "n4a",
-        "window": "111.41-114.20", "wide": True, "jesus": False, "ref": False,
+        "window": "111.41-114.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "DESERT"],
         "narration": "God warned them in a dream not to go back to Herod.",
         "must_show": "SCRIPTURE-EXACT rendered per law: the warning as the sleeping camp only — the three asleep by embers under the stars, the old one stirring troubled; NO figure or apparition anywhere.",
@@ -557,7 +560,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b20", "out": "s20-they-had-crossed-a-desert.jpeg", "seg": "n3b",
-        "window": "104.70-109.73", "wide": True, "jesus": False, "ref": False,
+        "window": "104.70-109.73", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "HOUSE"],
         "narration": (
             "They had crossed a desert to kneel on a dirt floor in a village "
@@ -592,7 +595,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: another way — dawn: the caravan swinging east by a different road, Jerusalem's distant hill left off their line entirely; the detour that saved a child.",
         "must_not_show": "no halo, glare or rim-light; the new heading VISIBLE — the road home bending wide of the city on the horizon.",
         "scene": (
-            "At first light the caravan swings "
+            "At first light, the camera on a rise behind the turning "
+            "train, the caravan swings "
             "wide: the three riders and their "
             "beasts taking a different road "
             "east, the track bending deliberately "
@@ -610,7 +614,7 @@ BEATS = [
     },
     {
         "id": "v2-r086-b22", "out": "s22-the-nations-had-come-to.jpeg", "seg": "n4b",
-        "window": "120.01-122.33", "wide": True, "jesus": False, "ref": False,
+        "window": "120.01-122.33", "wide": False, "jesus": False, "ref": False,
         "locks": ["MAGI", "HOUSE", "MARY"],
         "narration": "The nations had come to bow to the King.",
         "must_show": "the closing image — the room remembered: three foreign scholars bowed before the child and his mother in the small lamp's light; the nations' first bow, already made.",
@@ -633,3 +637,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
