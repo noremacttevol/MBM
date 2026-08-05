@@ -1,8 +1,44 @@
 {
+ "ASKER-HOUSE": {
+  "manual": true,
+  "src_beat": "s11-feeding-a-guest-was-a",
+  "src_build": "build-40-the-friend-at-midnight",
+  "src_file": "build-40-the-friend-at-midnight/assets/s11-feeding-a-guest-was-a.jpeg"
+ },
+ "COURTYARD": {
+  "manual": true,
+  "src_beat": "s06-it-was-the-word-a",
+  "src_build": "build-40-the-friend-at-midnight",
+  "src_file": "build-40-the-friend-at-midnight/assets/s06-it-was-the-word-a.jpeg"
+ },
+ "GROVE": {
+  "manual": true,
+  "src_beat": "s01-and-it-came-to-pass",
+  "src_build": "build-40-the-friend-at-midnight",
+  "src_file": "build-40-the-friend-at-midnight/assets/s01-and-it-came-to-pass.jpeg"
+ },
  "LANE": {
   "manual": false,
   "src_beat": "v2-r031-b02",
   "src_build": "build-31-ten-virgins",
   "src_file": "build-31-ten-virgins/assets/s02-a-whole-village-would-wait.jpeg"
+ },
+ "LIT-HOUSE": {
+  "manual": true,
+  "src_beat": "s53-the-man-in-the-story",
+  "src_build": "build-40-the-friend-at-midnight",
+  "src_file": "build-40-the-friend-at-midnight/assets/s53-the-man-in-the-story.jpeg"
+ },
+ "NEIGHBOR-DOOR": {
+  "manual": true,
+  "src_beat": "s02-he-knocks-again",
+  "src_build": "build-40-the-friend-at-midnight",
+  "src_file": "build-40-the-friend-at-midnight/assets/s02-he-knocks-again.jpeg"
+ },
+ "NEIGHBOR-HOUSE": {
+  "manual": true,
+  "src_beat": "s19-on-the-other-side-of",
+  "src_build": "build-40-the-friend-at-midnight",
+  "src_file": "build-40-the-friend-at-midnight/assets/s19-on-the-other-side-of.jpeg"
  }
 }
