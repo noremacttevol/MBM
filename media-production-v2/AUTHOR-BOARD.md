@@ -124,7 +124,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 110 | build-110-lords-prayer | AUTHORED | 0 | OK |  | ✅ |
 | 111 | build-111-lilies-and-sparrows | AUTHORED | 0 | OK |  | ✅ |
 | 112 | build-112-beatitudes | AUTHORED | 0 | OK |  | ✅ |
-| 113 | build-113-where-art-thou | AUTHORED | 0 | OK |  |  |
+| 113 | build-113-where-art-thou | AUTHORED | 0 | OK | AUTHOR A 2026-08-05 |  |
 | 114 | build-114-abraham-sodom | AUTHORED | 0 | OK |  |  |
 | 115 | build-115-ram-in-the-thicket | AUTHORED | 0 | OK |  |  |
 | 116 | build-116-graven-on-his-palms | AUTHORED | 0 | OK |  |  |
