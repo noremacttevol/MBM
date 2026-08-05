@@ -67,7 +67,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r108-b01", "out": "s01-in-that-world-a-shepherd.jpeg", "seg": "n1",
-        "window": "0.28-3.39", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-3.39", "wide": False, "jesus": False, "ref": False,
         "locks": ["HILLS", "SHEP", "FLOCK"],
         "narration": "In that world, a shepherd did not drive his sheep from behind.",
         "must_show": "the not-driving — the custom stated by contrast: the olive-mantled shepherd walking AHEAD on the hill path, no rod raised behind the flock; the arrangement itself.",
@@ -103,8 +103,9 @@ BEATS = [
         "must_show": "the voice-following — the shepherd calling back over his shoulder as he walks, and the flock's heads UP and moving to the sound; the invisible leash of a known voice.",
         "must_not_show": "no halo; the following VOLUNTARY — ears turned, heads lifted, no fence or rope anywhere.",
         "scene": (
-            "The invisible leash shows "
-            "itself: the shepherd "
+            "The invisible leash shows itself, the camera beside "
+            "the path taking man and strung flock in one profile: "
+            "the shepherd "
             "calling back over his "
             "shoulder as he walks — a "
             "low easy singsong worn "
@@ -132,7 +133,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the shared fold — dusk at the stone enclosure: two or three flocks mingled inside the walls, indistinguishable; shepherds' fires outside the one gate.",
         "must_not_show": "no halo; the MINGLING total — no visible sorting, one woolly crowd.",
         "scene": (
-            "At dusk the stone circle "
+            "At dusk, the camera on the slope behind the arriving "
+            "flocks' woolly backs, the stone circle "
             "takes in everyone's wool: "
             "two flocks, three, filing "
             "through the single gap-"
@@ -224,7 +226,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: by name — Jesus on the green hill calling individuals out: one sheep trotting to him, others lifting heads in turn; the flock resolving into persons.",
         "must_not_show": "no halo, glare or rim-light; the CALLING serial — one name at a time, one responder at a time visible.",
         "scene": (
-            "The herd dissolves into "
+            "The herd dissolves into names, the camera at the "
+            "hillside's flank so caller and trotting called read "
+            "in profile: "
             "names on the green hill: "
             "Jesus calling low and one "
             "at a time — and one at a "
@@ -247,7 +251,7 @@ BEATS = [
     },
     {
         "id": "v2-r108-b07", "out": "s07-the-sheep-hear-his-voice.jpeg", "seg": "jv3",
-        "window": "36.16-41.96", "wide": True, "jesus": True, "ref": REF,
+        "window": "36.16-41.96", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FOLD", "FLOCK"],
         "narration": (
             "The sheep hear his voice: and he calleth his own sheep by "
@@ -305,7 +309,7 @@ BEATS = [
     },
     {
         "id": "v2-r108-b09", "out": "s09-he-leads-them-to-green.jpeg", "seg": "n4",
-        "window": "48.16-52.83", "wide": True, "jesus": True, "ref": REF,
+        "window": "48.16-52.83", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILLS", "FLOCK"],
         "narration": (
             "He leads them to green places and still water, to rest and to "
@@ -369,7 +373,7 @@ BEATS = [
     },
     {
         "id": "v2-r108-b11", "out": "s11-led-not-driven.jpeg", "seg": "n7b",
-        "window": "120.07-122.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "120.07-122.24", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILLS", "FLOCK"],
         "narration": "Led, not driven.",
         "must_show": "the summary image — the evening path: Jesus ahead, flock following free and willing; the row's whole grammar in one silhouette-warm frame.",
@@ -456,7 +460,7 @@ BEATS = [
     },
     {
         "id": "v2-r108-b14", "out": "s14-and-here-is-the-turn.jpeg", "seg": "n5",
-        "window": "73.96-77.78", "wide": True, "jesus": True, "ref": REF,
+        "window": "73.96-77.78", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILLS"],
         "narration": "And here is the turn: the sheep are people. You.",
         "must_show": "the turn — the pasture's composition echoed with PEOPLE: ordinary men, women and children gathered on the green slope around Jesus exactly as the flock was.",
@@ -495,7 +499,8 @@ BEATS = [
         "must_show": "the human flock tended — Jesus moving among the gathered people as he did the sheep: a hand to the tired man, a word to the wanderer at the edge, the gathering visible.",
         "must_not_show": "no halo, glare or rim-light; the SAME gestures as the sheep beats — hand, voice, gathering; the rhyme exact.",
         "scene": (
-            "He tends them exactly as "
+            "He tends them, the camera behind the gathered "
+            "people's shoulders, exactly as "
             "he tended wool: crossing "
             "the slope to crouch at "
             "the tired laborer's side "
@@ -551,7 +556,7 @@ BEATS = [
     },
     {
         "id": "v2-r108-b17", "out": "s17-but-in-the-morning-when.jpeg", "seg": "n2",
-        "window": "13.45-18.93", "wide": True, "jesus": False, "ref": False,
+        "window": "13.45-18.93", "wide": False, "jesus": False, "ref": False,
         "locks": ["FOLD", "FLOCK", "SHEP"],
         "narration": (
             "But in the morning, when a shepherd called, only his own sheep "
@@ -615,7 +620,7 @@ BEATS = [
     },
     {
         "id": "v2-r108-b19", "out": "s19-not-by-your-failures-not.jpeg", "seg": "n6",
-        "window": "102.49-111.66", "wide": True, "jesus": True, "ref": REF,
+        "window": "102.49-111.66", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILLS", "FLOCK"],
         "narration": (
             "Not by your failures, not by your enemies, not by death "
@@ -650,7 +655,7 @@ BEATS = [
     },
     {
         "id": "v2-r108-b20", "out": "s20-he-leads-them-home-in.jpeg", "seg": "n7",
-        "window": "112.23-117.67", "wide": True, "jesus": True, "ref": REF,
+        "window": "112.23-117.67", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FOLD", "FLOCK"],
         "narration": (
             "He leads them home in the evening to the safe fold, and counts "
@@ -737,7 +742,7 @@ BEATS = [
     },
     {
         "id": "v2-r108-b23", "out": "s23-and-even-now-he-is.jpeg", "seg": "n7b",
-        "window": "126.07-132.54", "wide": True, "jesus": True, "ref": REF,
+        "window": "126.07-132.54", "wide": False, "jesus": True, "ref": REF,
         "locks": ["FOLD", "HILLS", "FLOCK"],
         "narration": (
             "And even now he is calling, gently, past the flock, to whoever "
@@ -769,3 +774,14 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "FOLD": "PLACE-REF/fold.jpeg",  # build-21-lost-sheep v2-r021-b09
+}
+# === end PLACE-PLATES ===
