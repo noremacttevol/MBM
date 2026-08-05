@@ -4,6 +4,51 @@ Authored from scratch to lessons 11–12 on 2026-08-05 (Machine A).
 `v2_prompt.py --check` PASSES with zero WARNs at handoff. 61 beats,
 316.5 s. Audio column OK on AUTHOR-BOARD (new-voice verified).
 
+## ⛔ RUNNER BLOCKER — do NOT burn credits on this row until an author wires the sisters (found by Opus runner, Machine A, 2026-08-05)
+
+The face-board law CANNOT be met as this package stands, and it fails on
+the story's two LEADS, so a first-attempt cut here would be a guaranteed
+face-board failure (26 of 61 beats show MARTHA, 14 show MARY).
+
+**Root cause (mechanical, not a judgment call):** the QC section below
+assumes `v2_story_cast.py` builds MARTHA/MARY anchors. It does NOT — both
+names are in `v2_gen_api.py`'s `GLOBAL_CAST`, whose job is to attach a
+CAST-V2-REF sheet automatically. But their stems are `None` and there is
+**no `martha.*`/`mary.*` sheet in `media-production-v2/CAST-V2-REF/`**
+(that library only holds the Twelve). So `cast_refs_for()` looks for
+`None-front.jpeg`, finds nothing, attaches nothing, and every MARTHA/MARY
+beat renders from TEXT ONLY — the exact identity drift the whole ref-sheet
+system exists to prevent. This build has no `REFS = {}` fallback either.
+
+**The fix (author-domain — a runner must not edit beat files):** add a
+build-local `REFS` dict to `build-17-lazarus/beats_v2.py` pointing each
+sister at a clean, correctly-identified approved still from the already-
+shipped build-16 (its 26 realistic-v2 stills live in
+`build-16-mary-martha/assets/`; paths in `REFS` resolve relative to this
+build dir, so use `../build-16-mary-martha/assets/<file>`). Candidate
+build-16 stills to choose the canonical face from (author picks the frame
+that best shows each sister's face — this choice IS the identity, so it is
+an author call, not the runner's): MARTHA → `s18-martha-martha.jpeg`,
+`s02-martha-welcomed-him-in.jpeg`; MARY → `s19-that-good-part.jpeg`,
+`s10-the-place-a-student-sat.jpeg`. Example:
+
+```python
+REFS = {
+    "MARTHA": "../build-16-mary-martha/assets/s18-martha-martha.jpeg",
+    "MARY":   "../build-16-mary-martha/assets/s19-that-good-part.jpeg",
+}
+```
+
+(A more systemic fix — adding `martha`/`mary` sheets to CAST-V2-REF and
+real stems in `GLOBAL_CAST` — touches the shared `v2_gen_api.py` lock file
+and would also need MARY disambiguated from MARY-MAGDALENE; the per-build
+`REFS` above is the lighter, correct fix and matches the QC intent below.)
+
+Once `REFS` is wired, re-run `v2_prompt.py … --check`, keep this row
+Ready, and a runner can build it normally. LAZARUS (1 story-local
+portrait) is fine and story_cast handles it. **Until then this row is
+skipped by runners** — see the Claim column note on AUTHOR-BOARD.
+
 ## OPEN COMPLAINT this build must cure (from the reviewer)
 
 > "At 23 seconds it shows the wrong captions from the older version for a
