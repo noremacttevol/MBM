@@ -1,0 +1,14 @@
+{
+ "ROAD": {
+  "manual": false,
+  "src_beat": "v2-r038-b39",
+  "src_build": "build-38-persistent-widow",
+  "src_file": "build-38-persistent-widow/assets/s39-will-he-find-anybody.jpeg"
+ },
+ "VINEYARD": {
+  "manual": false,
+  "src_beat": "v2-r023-b03",
+  "src_build": "build-23-vineyard",
+  "src_file": "build-23-vineyard/assets/s03-out-into-the-rows.jpeg"
+ }
+}

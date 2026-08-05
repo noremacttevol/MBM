@@ -3,6 +3,15 @@
 
 COVERAGE: 58 pictures over 333.1 s = 5.7 s/picture (matches the library density).
 
+LESSON-12 PASS (2026-08-05): this row is a crowd-and-landscape epic, so more
+true wides survive than usual — each now states camera-to-back geometry in
+its own scene text: b01 b02 b03 b06 b16 b17 b22 b23 b26 b32 b34 b40 b49
+b55 b57. Nine former wides were re-covered as tighter shots (b05 b15 b18
+b20 b27 b30 b36 b41 b52). b57/b58 were also brought inside the shared
+CANDID-FRAME lock: the closing invitation looks a breath PAST the lens,
+never into it — the old scene text ordered a direct lens gaze, which the
+shared lock forbids on every beat and which would have fought every render.
+
 SCRIPTURE FACTS (Luke 14:25-35 KJV):
   v25   "there went GREAT MULTITUDES with him: and he TURNED, and said" —
         the frame IS the story: an enormous crowd on the open road, and
@@ -119,7 +128,8 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light on Jesus; the crowd's size is the subject — the road full out of sight.",
         "scene": (
             "From a rise beside the highway in bright afternoon "
-            "light: the broad dirt road runs full from verge to "
+            "light, the camera taking the column from the side: "
+            "the broad dirt road runs full from verge to "
             "verge with walking people — hundreds visible before "
             "the first bend and the dust of hundreds more beyond "
             "it — and far up at the column's head one small "
@@ -138,7 +148,8 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light; momentum and festival energy — joining is effortless, which is the setup for what follows.",
         "scene": (
             "Where a village lane meets the highway the crowd is "
-            "swelling in real time: a family hurries down the "
+            "swelling in real time, the camera on the far verge "
+            "taking the junction from the side: a family hurries down the "
             "lane still tying bundles, a potter abandons his "
             "wheel in the doorway wiping clay on his apron, two "
             "boys run the wall-top to catch up — all folding "
@@ -160,8 +171,9 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light on Jesus; the turn against the flow is the whole composition — one man facing a river.",
         "scene": (
             "In the middle of the broad road Jesus has stopped "
-            "and turned completely around, facing back into the "
-            "oncoming multitude — and the crowd's front rank "
+            "and turned completely around, the camera just "
+            "behind his shoulder facing back into the "
+            "oncoming multitude with him — and the crowd's front rank "
             "piles gently to a halt around him, those behind "
             "still pressing forward, heads craning, the whole "
             "vast column compressing like water against a stone "
@@ -190,20 +202,20 @@ BEATS = [
     },
     {
         "id": "v2-r041-b05", "out": "s05-he-started-talking-them-out.jpeg", "seg": "n2",
-        "window": "23.63-25.77", "wide": True, "jesus": True, "ref": REF,
+        "window": "23.63-25.77", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROAD", "CROWD"],
         "narration": "He started talking them out of it.",
-        "must_show": "the anti-recruitment — Jesus speaking hard words while the nearest faces register the first shock; a speech running the wrong direction.",
+        "must_show": "the anti-recruitment — past the front rank's shoulders onto Jesus mid-sentence, one hand raised; the nearest faces at the frame's edges registering the first shock.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the crowd's surprise is the subject — festival faces meeting a price list.",
         "scene": (
-            "Jesus stands facing the halted thousands with one "
-            "hand raised, mid-sentence — and along the front rank "
-            "the festival is dying on the faces: a young man's "
-            "grin fading half-formed, a mother's brows drawing "
-            "together, an old farmer leaning in as if he "
-            "misheard — the unmistakable ripple of a crowd "
-            "discovering that the man they are following has "
-            "started raising the price. Every figure has two "
+            "Past the shoulders of the front rank: Jesus stands "
+            "mid-sentence with one hand raised — and at the "
+            "frame's near edges the festival is dying on the "
+            "faces: a young man's grin fading half-formed, a "
+            "mother's brows drawing together, an old farmer "
+            "leaning in as if he misheard — the first ripple of "
+            "a crowd discovering that the man they are following "
+            "has started raising the price. Every figure has two "
             "arms, two hands and one head."
         ),
     },
@@ -220,7 +232,9 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light on Jesus; the instinctive clutch of families is the visual echo — husbands' arms around wives, children pulled in.",
         "scene": (
             "Down the length of the halted crowd the sentence "
-            "lands visibly: a husband's arm comes around his "
+            "lands visibly, the camera looking along the column "
+            "from beside Jesus, the nearest families in "
+            "three-quarter: a husband's arm comes around his "
             "wife's shoulders without his knowing it, a mother's "
             "hand finds the top of her boy's head, an old man "
             "reaches for his brother's sleeve — the whole road "
@@ -238,7 +252,8 @@ BEATS = [
         "must_show": "the second parable opens — the war tent at evening: the king at his sand-map table, lamps lit, the weighing begun.",
         "must_not_show": "no halo, glare or rim-light; council calm — stakes carried by the map and the counters, not by drama.",
         "scene": (
-            "Inside the dark goat-hair tent at evening the "
+            "Inside the dark goat-hair tent at evening, the "
+            "camera holding the council from the side wall, the "
             "compact grey-shot king stands over the plank table "
             "where a sand-map of ridges is laid out, stone "
             "counters standing in two unequal clusters on its "
@@ -384,24 +399,24 @@ BEATS = [
     },
     {
         "id": "v2-r041-b15", "out": "s15-and-whosoever-doth-not-bear.jpeg", "seg": "j2",
-        "window": "78.43-83.77", "wide": True, "jesus": True, "ref": REF,
+        "window": "78.43-83.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROAD", "CROWD"],
         "narration": (
             "And whosoever doth not bear his cross, and come after me, cannot "
             "be my disciple."
         ),
-        "must_show": "SCRIPTURE-EXACT: the second saying — Jesus delivering it on the road, and the crowd's faces going from puzzled to pale; this word they know by sight.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no cross in this frame — the WORD lands first; the picture follows in the next beats.",
+        "must_show": "SCRIPTURE-EXACT: the second saying landing — a close knot of three listeners going pale as the word arrives; this word they know by sight.",
+        "must_not_show": "no halo, glare or rim-light; no cross in this frame — the WORD lands first; the picture follows in the next beats.",
         "scene": (
-            "On the bright road Jesus gives the second saying "
-            "with the same steady gravity — and this one lands "
-            "differently: faces going pale rather than puzzled, "
-            "a woman's hand rising to her mouth, an old man's "
-            "eyes closing briefly, two young men exchanging one "
-            "flat look — a crowd hearing a word they have all, "
-            "every one of them, seen with their own eyes beside "
-            "a road like this one. Every figure has two arms, "
-            "two hands and one head."
+            "Close on a knot of three listeners in the bright "
+            "road light as the second saying lands: a woman's "
+            "hand rising to her mouth, an old man's eyes "
+            "closing briefly, two young men exchanging one "
+            "flat look over her head — faces going pale rather "
+            "than puzzled, a crowd hearing a word they have "
+            "all, every one of them, seen with their own eyes "
+            "beside a road like this one. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
@@ -419,8 +434,10 @@ BEATS = [
             "Where the highway passes beneath a barren rocky "
             "rise, two weathered upright wooden posts stand bare "
             "and empty against the hard afternoon sky — Rome's "
-            "standing furniture — and along the road below the "
-            "walking families keep their eyes fixed forward as "
+            "standing furniture — and the camera holds the road "
+            "from its far side, the walking families passing in "
+            "profile below, every face bent away from the rise, "
+            "eyes fixed forward as "
             "they pass, a father angling his son to his far "
             "side, a woman drawing her shawl across her face, "
             "the whole crowd's gaze bent away from the hill by "
@@ -439,7 +456,9 @@ BEATS = [
         "must_show": "RESTRAINED: the beam-carrier — a man bent under a heavy rough timber across his shoulders, two soldiers walking him through a town street, townsfolk still in doorways; no wounds, no gore.",
         "must_not_show": "no halo, glare or rim-light; the man unmarked and unbloodied — the WEIGHT and the walk are the whole image; faces in doorways grieved, not gawking.",
         "scene": (
-            "Through a narrow town street a man walks bent "
+            "Through a narrow town street, the camera holding "
+            "the way from the side so the walk crosses the "
+            "frame in profile, a man walks bent "
             "nearly double under a rough squared timber laid "
             "across both shoulders, his hands roped up over its "
             "ends, two bored soldiers pacing him — and the town "
@@ -453,7 +472,7 @@ BEATS = [
     },
     {
         "id": "v2-r041-b18", "out": "s18-for-which-of-you-intending.jpeg", "seg": "j3",
-        "window": "98.93-107.61", "wide": True, "jesus": False, "ref": False,
+        "window": "98.93-107.61", "wide": False, "jesus": False, "ref": False,
         "locks": ["BUILDER", "VINEYARD"],
         "narration": (
             "For which of you, intending to build a tower, sitteth not down "
@@ -495,7 +514,7 @@ BEATS = [
     },
     {
         "id": "v2-r041-b20", "out": "s20-a-watchtower-in-a-vineyard.jpeg", "seg": "n6",
-        "window": "109.05-115.10", "wide": True, "jesus": False, "ref": False,
+        "window": "109.05-115.10", "wide": False, "jesus": False, "ref": False,
         "locks": ["VINEYARD"],
         "narration": (
             "A watchtower in a vineyard guarded the harvest you had worked all "
@@ -544,14 +563,15 @@ BEATS = [
         "must_show": "the contrast of scale — the crowd from road level: a wall of walking people filling the frame edge to edge, no end visible.",
         "must_not_show": "no halo, glare or rim-light; sheer human mass — the dozen this movement started with, swallowed whole.",
         "scene": (
-            "From road level in the bright afternoon the crowd "
-            "comes on as a wall: walking people filling the "
-            "frame from stone wall to stone wall and back into "
-            "their own dust, staffs and bundles and children on "
-            "shoulders, rank behind rank behind rank until "
-            "faces dissolve into the shimmer — a movement that "
-            "was twelve men around a fire not two years ago. "
-            "Every figure has two arms, two hands and one head."
+            "From road level at the verge, the camera taking "
+            "the passing column from the side: walking people "
+            "fill the frame from stone wall to stone wall and "
+            "back into their own dust, all crossing in profile, "
+            "staffs and bundles and children on shoulders, rank "
+            "behind rank behind rank until faces dissolve into "
+            "the shimmer — a movement that was twelve men "
+            "around a fire not two years ago. Every figure has "
+            "two arms, two hands and one head."
         ),
     },
     {
@@ -567,7 +587,9 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light; the builder himself ABSENT — the mockery lands on the stones; weeds through the courses date the failure.",
         "scene": (
             "At the vineyard corner the failure stands three "
-            "courses high and years old: a squared foundation "
+            "courses high and years old, the camera in the vine "
+            "rows behind the courses looking past them down to "
+            "the road: a squared foundation "
             "of good pale stone with tall dry weeds growing up "
             "through its middle, the stone stack beside it "
             "slumped and lichened — and on the road below, two "
@@ -628,7 +650,8 @@ BEATS = [
         "must_not_show": "no halo, glare or rim-light on Jesus; triumph-shaped — deliberately, because he is about to spend it.",
         "scene": (
             "The multitude crests a long rise in the bright "
-            "afternoon like a slow wave — the road's whole "
+            "afternoon like a slow wave, the camera below the "
+            "crest taking the column from the side — the road's whole "
             "width pouring over the hilltop behind the small "
             "cream figure at its head, dust standing off the "
             "column like banners, children riding shoulders, "
@@ -641,7 +664,7 @@ BEATS = [
     },
     {
         "id": "v2-r041-b27", "out": "s27-or-what-king-going-to.jpeg", "seg": "j5",
-        "window": "147.80-159.32", "wide": True, "jesus": False, "ref": False,
+        "window": "147.80-159.32", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING", "WARTENT"],
         "narration": (
             "Or what king, going to make war against another king, sitteth not "
@@ -706,7 +729,7 @@ BEATS = [
     },
     {
         "id": "v2-r041-b30", "out": "s30-whether-he-can-count-an.jpeg", "seg": "n8",
-        "window": "167.35-175.35", "wide": True, "jesus": False, "ref": False,
+        "window": "167.35-175.35", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING"],
         "narration": (
             "Whether he can count. An army of ten thousand against an army of "
@@ -757,8 +780,9 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the embassy — three unarmed envoys with an olive branch riding out across the wide open ground between the two distant camps at first light.",
         "must_not_show": "no halo, glare or rim-light; the open ground between armies is the picture — peace sought while distance remains.",
         "scene": (
-            "At first grey-gold light three envoys ride out "
-            "unarmed across the wide empty valley floor, the "
+            "At first grey-gold light, the camera on the king's "
+            "slope looking down the valley, three envoys ride out "
+            "unarmed across the wide empty floor in profile, the "
             "leader holding up a green olive branch that "
             "catches the early sun — behind them the king's "
             "tight camp still smoking on the near slope, far "
@@ -798,7 +822,9 @@ BEATS = [
         "must_show": "the shared act named — one continuous frame holding both sitters: the builder seated on his stones in his corner of the frame's world, the king seated at his map in his; the same posture twice.",
         "must_not_show": "no halo, glare or rim-light; ONE unified scene (never split panels) — a dusk landscape where vineyard corner and camp tent both truly sit.",
         "scene": (
-            "One deep dusk landscape holds them both: in the "
+            "One deep dusk landscape holds them both, the "
+            "camera high on the valley's shoulder behind the "
+            "vineyard corner: in the "
             "near ground the builder sits on his pale stone "
             "stack at the vineyard corner, slate on knee, a "
             "small figure bent in thought — and far down the "
@@ -830,24 +856,24 @@ BEATS = [
     },
     {
         "id": "v2-r041-b36", "out": "s36-so-likewise-whosoever-he-be.jpeg", "seg": "j7",
-        "window": "200.74-207.84", "wide": True, "jesus": True, "ref": REF,
+        "window": "200.74-207.84", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROAD", "CROWD"],
         "narration": (
             "So likewise, whosoever he be of you that forsaketh not all that he "
             "hath, he cannot be my disciple."
         ),
-        "must_show": "SCRIPTURE-EXACT: the sum stated — Jesus on the dimming road bringing both parables home to the crowd, his open hand turning over in the 'all' gesture; the light now late.",
+        "must_show": "SCRIPTURE-EXACT: the sum stated — a medium shot of Jesus in the long amber light, his open hand turning palm-up and over in the 'all' gesture; two listener profiles at the frame's edges, each alone inside the word.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the afternoon visibly aged — the road's light keeping time with the sermon.",
         "scene": (
-            "The road's light has gone long and amber: Jesus "
-            "stands before the quieted crowd with one open hand "
+            "A medium shot in the long amber light: Jesus "
+            "brings both parables home with one open hand "
             "turning slowly palm-up and over in the gesture of "
-            "everything — and the faces before him have "
-            "stopped being an audience and become individuals, "
-            "each man and woman visibly somewhere alone inside "
-            "the word 'all', the festival gone entirely out of "
-            "the afternoon. Every figure has two arms, two "
-            "hands and one head."
+            "everything — and at the frame's near edges two "
+            "listeners' profiles have stopped being an audience "
+            "and become individuals, each visibly somewhere "
+            "alone inside the word 'all', the festival gone "
+            "entirely out of the afternoon. Every figure has "
+            "two arms, two hands and one head."
         ),
     },
     {
@@ -921,7 +947,9 @@ BEATS = [
         "must_show": "the thinning — the road at dusk visibly emptier: gaps in the column, families peeling off at a junction toward home; sober, unshamed leaving.",
         "must_not_show": "no halo, glare or rim-light; NO shame in the leavers — thoughtful faces, honest departures; the thinning is the sermon working.",
         "scene": (
-            "At a dusk junction the crowd is visibly fewer: "
+            "At a dusk junction the crowd is visibly fewer, "
+            "the camera at the fork behind the leaving family "
+            "so the parting reads both ways: "
             "real gaps have opened in the column, and down the "
             "homeward lane a family walks away together in the "
             "amber light — the father carrying his sleeping "
@@ -934,24 +962,25 @@ BEATS = [
     },
     {
         "id": "v2-r041-b41", "out": "s41-people-who-had-walked-with.jpeg", "seg": "n11",
-        "window": "229.83-236.66", "wide": True, "jesus": True, "ref": REF,
+        "window": "229.83-236.66", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROAD", "CROWD"],
         "narration": (
             "People who had walked with him all morning went home. He watched "
             "them go, and he did not lower the price."
         ),
-        "must_show": "SCRIPTURE-EXACT in spirit: the watching — Jesus stopped on the dusk road watching the leavers go down the side lane, grief and respect together in his stillness; no calling after them.",
+        "must_show": "SCRIPTURE-EXACT in spirit: the watching — a medium single from the side: Jesus in profile watching the leavers grow small down the homeward lane, grief and respect together in his stillness; no calling after them.",
         "must_not_show": "no halo, glare or rim-light on Jesus; he does NOT call out, does not gesture — the unlowered price is his silence.",
         "scene": (
-            "On the darkening road Jesus stands turned toward "
-            "the homeward lane, still, hands at his sides, "
-            "watching the leaving family grow small between the "
-            "field walls in the last amber light — grief and "
-            "respect held together in his face, and his mouth "
-            "closed on every easy word that would have brought "
-            "them back — while behind him the smaller column "
-            "waits, and the price stays what it is. Every "
-            "figure has two arms, two hands and one head."
+            "A medium single from the side on the darkening "
+            "road: Jesus in profile, still, hands at his "
+            "sides, watching the leaving family grow small "
+            "between the field walls in the last amber light — "
+            "grief and respect held together in his face, and "
+            "his mouth closed on every easy word that would "
+            "have brought them back — the small blur of the "
+            "waiting column soft at the frame's edge, and the "
+            "price staying what it is. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
@@ -1111,7 +1140,9 @@ BEATS = [
         "must_show": "the question posed over the evidence — the dusk road with its visible gaps, Jesus walking on at the head of the smaller, quieter column.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the thinned column itself is the riddle on screen.",
         "scene": (
-            "In the deep amber of the day's end the column "
+            "In the deep amber of the day's end, the camera "
+            "looking along the road from behind the column's "
+            "last walkers, the column "
             "moves on visibly smaller — gaps of bare road "
             "showing where hundreds walked at noon, the "
             "remaining walkers spread thin and quiet between "
@@ -1167,23 +1198,24 @@ BEATS = [
     },
     {
         "id": "v2-r041-b52", "out": "s52-the-habit-showed-you-the.jpeg", "seg": "n13b",
-        "window": "291.59-298.34", "wide": True, "jesus": True, "ref": REF,
+        "window": "291.59-298.34", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROAD", "CROWD"],
         "narration": (
             "He told a crowd the whole price first, and let them choose."
         ),
-        "must_show": "the contrast crowned — Jesus on the dusk road with both hands open toward the remaining walkers: the whole price told, the choice theirs; honesty as mercy.",
+        "must_show": "the contrast crowned — past the shoulders of two remaining walkers: Jesus turned to them with both hands open at his sides, palms forward; the whole price told, the choice theirs.",
         "must_not_show": "no halo, glare or rim-light on Jesus; open hands, open road, open choice — no pressure in the frame.",
         "scene": (
-            "On the dusk road Jesus has turned once more to the "
-            "smaller column, both hands open at his sides, "
-            "palms forward — nothing hidden in them and nothing "
-            "held out as bait — and the remaining walkers stand "
-            "in the amber light as free people, each holding "
-            "the whole known price, the road south lying open "
-            "behind him and the roads home lying open behind "
-            "them. Every figure has two arms, two hands and "
-            "one head."
+            "Past the shoulders of two remaining walkers on "
+            "the dusk road: Jesus has turned to the smaller "
+            "column with both hands open at his sides, palms "
+            "forward — nothing hidden in them and nothing held "
+            "out as bait — the two listeners at the frame's "
+            "near edges standing in the amber light as free "
+            "people, each holding the whole known price, the "
+            "road south lying open behind him and the roads "
+            "home lying open behind them. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
@@ -1243,9 +1275,10 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT in trajectory: the destination revealed — Jesus walking on ahead of the column at dusk, and far on the southern horizon the faint high shape of Jerusalem's ridge against the last light.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the city faint and far — a direction, not a backdrop; his stride even and unhesitating.",
         "scene": (
-            "In the deep blue dusk Jesus walks a few paces "
-            "ahead of the quiet column, his stride even, his "
-            "face set south — and far off on the horizon, "
+            "In the deep blue dusk, the camera off the road's "
+            "side taking his walk in profile, Jesus moves a few "
+            "paces ahead of the quiet column, his stride even, "
+            "his face set south — and far off on the horizon, "
             "faint against the last green-gold band of sky, "
             "the high ridge of Jerusalem stands with its walls "
             "just discernible, the road running thin and pale "
@@ -1283,19 +1316,21 @@ BEATS = [
             "standing at the start of it, telling you the truth, watching to "
             "see if you want to come."
         ),
-        "must_show": "the invitation's geometry — Jesus turned back at the road's beginning in the last light, facing the camera as the one being invited, the long honest road stretching behind him.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; he faces the VIEWER from the road's start — the whole priced road visible over his shoulder.",
+        "must_show": "the invitation's geometry — Jesus turned back at the road's beginning in the last light, facing toward the road's start, the long honest road stretching behind him.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; his gaze rests just PAST the camera's edge, never into the lens — the whole priced road visible over his shoulder.",
         "scene": (
             "At a milestone where the long south road begins, "
             "Jesus has turned fully around in the last of the "
-            "light and stands facing the camera — behind his "
+            "light and stands facing back toward the road's "
+            "start — behind his "
             "shoulder the whole honest length of the road runs "
             "visible into the dusk, walls and rises and the "
             "far faint city, nothing of it hidden — and his "
-            "eyes rest level on the viewer with the patient, "
-            "watching openness of a man who has told the whole "
-            "truth and now simply waits. Every figure has two "
-            "arms, two hands and one head."
+            "eyes rest level a breath past the camera's edge, "
+            "on whoever stands at the start of the road, with "
+            "the patient watching openness of a man who has "
+            "told the whole truth and now simply waits. Every "
+            "figure has two arms, two hands and one head."
         ),
     },
     {
@@ -1305,11 +1340,12 @@ BEATS = [
         "narration": (
             "He would rather you came slowly than said yes in a hurry and quit."
         ),
-        "must_show": "the closing image — close on Jesus's extended open hand in the dusk, unhurried, held out toward the viewer with all the time in the world in it.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the hand is PATIENT — half-extended, no urgency, an offer built for slow answers.",
+        "must_show": "the closing image — close on Jesus's extended open hand in the dusk, unhurried, held out toward the road's start with all the time in the world in it.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the hand is PATIENT — half-extended, no urgency, an offer built for slow answers; his eyes on the hand's destination, never into the lens.",
         "scene": (
             "A close final frame in the deep dusk: Jesus's "
-            "work-worn hand extended toward the camera, open "
+            "work-worn hand extended past the camera's edge "
+            "toward the start of the road, open "
             "and easy, not reaching, not insisting — held out "
             "at the unhurried half-distance of an offer that "
             "will still be there tomorrow, and next year, and "
@@ -1319,3 +1355,15 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "ROAD": "PLACE-REF/road.jpeg",  # build-38-persistent-widow v2-r038-b39
+    "VINEYARD": "PLACE-REF/vineyard.jpeg",  # build-23-vineyard v2-r023-b03
+}
+# === end PLACE-PLATES ===
