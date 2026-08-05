@@ -76,7 +76,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the delegation arriving — the mixed group of dark-robed officials converging on Jesus in the sunlit court, smiles arranged on their faces, the trap walking in dressed as respect.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the smiles VISIBLY arranged — courtesy worn like a tool.",
         "scene": (
-            "Across the wide sunlit paving the "
+            "Across the wide sunlit paving, the camera behind the "
+            "listening crowd's shoulders, the "
             "delegation converges on Jesus — "
             "charcoal and slate-blue fringes "
             "beside smooth wine-red court robes, "
@@ -93,7 +94,7 @@ BEATS = [
     },
     {
         "id": "v2-r081-b02", "out": "s02-say-yes-and-the-crowd.jpeg", "seg": "n1",
-        "window": "27.76-30.16", "wide": True, "jesus": False, "ref": False,
+        "window": "27.76-30.16", "wide": False, "jesus": False, "ref": False,
         "locks": ["COURT"],
         "narration": "Say yes, and the crowd turns on you.",
         "must_show": "the first jaw of the trap — the listening crowd's faces hardening at the thought: taxed men, Rome-weary, ready to turn; the danger on the YES side.",
@@ -116,7 +117,7 @@ BEATS = [
     },
     {
         "id": "v2-r081-b03", "out": "s03-master-we-know-that-thou.jpeg", "seg": "s14",
-        "window": "7.37-20.18", "wide": True, "jesus": True, "ref": REF,
+        "window": "7.37-20.18", "wide": False, "jesus": True, "ref": REF,
         "locks": ["COURT", "OFFICIALS"],
         "narration": (
             "Master, we know that thou art true, and carest for no man: for "
@@ -170,7 +171,8 @@ BEATS = [
         "must_show": "the trap sprung open — the whole tableau: questioners waiting, crowd leaning in, Jesus at the centre of the silence the question made.",
         "must_not_show": "no halo, glare or rim-light; the SILENCE the subject — every face in the court stopped on him.",
         "scene": (
-            "The question hangs and the whole "
+            "The question hangs, the camera at the court's side "
+            "holding both parties in profile, and the whole "
             "court stops around it: the "
             "delegation motionless with their "
             "patience out like knives, the "
@@ -187,7 +189,7 @@ BEATS = [
     },
     {
         "id": "v2-r081-b06", "out": "s06-say-no-and-rome-arrests.jpeg", "seg": "n1",
-        "window": "30.16-34.85", "wide": True, "jesus": False, "ref": False,
+        "window": "30.16-34.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["COURT"],
         "narration": "Say no, and Rome arrests you. There was no safe answer.",
         "must_show": "the second jaw — at the court's far edge, a pair of Roman soldiers in dark iron and leather standing their watch; the NO side's consequence, present and armed.",
@@ -236,7 +238,7 @@ BEATS = [
     },
     {
         "id": "v2-r081-b08", "out": "s08-why-tempt-ye-me-bring.jpeg", "seg": "j1",
-        "window": "42.33-45.91", "wide": True, "jesus": True, "ref": REF,
+        "window": "42.33-45.91", "wide": False, "jesus": True, "ref": REF,
         "locks": ["COURT", "OFFICIALS"],
         "narration": "Why tempt ye me? bring me a penny, that I may see it.",
         "must_show": "SCRIPTURE-EXACT: the counter-move — Jesus's open empty hand held out toward the delegation: BRING me a penny; the request itself the first reversal — he carries none.",
@@ -281,7 +283,7 @@ BEATS = [
     },
     {
         "id": "v2-r081-b10", "out": "s10-he-held-it-up-where.jpeg", "seg": "n3 + j2",
-        "window": "50.41-55.88", "wide": True, "jesus": True, "ref": REF,
+        "window": "50.41-55.88", "wide": False, "jesus": True, "ref": REF,
         "locks": ["COURT", "COIN"],
         "narration": (
             "He held it up where everyone could see. Whose is this image and "
@@ -341,7 +343,9 @@ BEATS = [
         "must_show": "the reversal wide — the tableau flipped: the delegation now the cornered ones, exchanging glances, feet shifting; Jesus calm at the centre with the coin.",
         "must_not_show": "no halo, glare or rim-light; NO gloating on Jesus — the reversal carried entirely by the schemers' body language.",
         "scene": (
-            "The court's geometry quietly "
+            "The court's geometry, the camera at the same side "
+            "wall so the reversal mirrors the trap frame in "
+            "profile, quietly "
             "flips: the delegation that walked "
             "in as hunters now stands cornered "
             "in its own snare — sidelong "
@@ -381,7 +385,7 @@ BEATS = [
     },
     {
         "id": "v2-r081-b14", "out": "s14-render-to-caesar-the-things.jpeg", "seg": "j3",
-        "window": "74.50-79.24", "wide": True, "jesus": True, "ref": REF,
+        "window": "74.50-79.24", "wide": False, "jesus": True, "ref": REF,
         "locks": ["COURT", "OFFICIALS", "COIN"],
         "narration": (
             "Render to Caesar the things that are Caesar's, and to God the "
@@ -430,7 +434,7 @@ BEATS = [
     },
     {
         "id": "v2-r081-b16", "out": "s16-but-you-bear-image-so.jpeg", "seg": "n5",
-        "window": "84.15-90.93", "wide": True, "jesus": False, "ref": False,
+        "window": "84.15-90.93", "wide": False, "jesus": False, "ref": False,
         "locks": ["COURT"],
         "narration": (
             "But you bear God's image — so the real question is what you owe "
@@ -456,3 +460,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
