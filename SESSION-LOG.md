@@ -1,3 +1,20 @@
+## 2026-08-05 (continued 9) — Rows 71-73 Ready: THIRTY-FIVE on the board — Machine A `Dev`
+
+71 great-commission (SECOND wrong-plate catch: Jesus's sealed tomb
+unwired from the parable-tomb; promote-first seeds 96/97/98;
+eleven-never-twelve; some-doubted mixture), 72 calling-matthew
+(geography-of-belonging wides; money box stays behind), 73
+this-day-fulfilled (Esaias audio gate; THIRD wrong-plate catch —
+Capernaum's hall unwired from Nazareth's synagogue, seeds row 129;
+standing-to-read/seated-to-declare posture law).
+
+THE PLATE-TRUST RULE IS NOW PROVEN LAW: three wrong auto-wires caught in
+one session (herb garden→Gethsemane, parable tomb→Jesus's tomb, Capernaum
+hall→Nazareth hall) — ALWAYS read the source frame before accepting a
+wire; same-name places are usually DIFFERENT places in different towns.
+
+Board: 17, 40-73 Ready ✅ (thirty-five). Next: 74+.
+
 ## 2026-08-05 (continued 8) — Rows 68-70 Ready: THIRTY-TWO on the board — Machine A `Dev`
 
 68 multitudes-mountain (four-wonders category law; the plank as reversal
