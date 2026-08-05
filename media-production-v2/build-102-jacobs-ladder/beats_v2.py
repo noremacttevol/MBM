@@ -79,7 +79,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r102-b01", "out": "s01-jacob-was-running.jpeg", "seg": "n1",
-        "window": "0.28-1.17", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-1.17", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "WASTE"],
         "narration": "Jacob was running.",
         "must_show": "the flight — Jacob alone at a hard traveling pace across the stony upland in late low light, glancing back over his shoulder; a man running FROM, not to.",
@@ -105,7 +105,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b02", "out": "s02-when-the-sun-went-down.jpeg", "seg": "n2",
-        "window": "10.37-12.68", "wide": True, "jesus": False, "ref": False,
+        "window": "10.37-12.68", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "WASTE"],
         "narration": "When the sun went down he was in the middle of nowhere.",
         "must_show": "the sun set on nowhere — the last red band dying on the ridge line, Jacob a small halted figure in the vast darkening stone country; night catching him in the open.",
@@ -187,7 +187,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b05", "out": "s05-and-there-in-the-last.jpeg", "seg": "n3",
-        "window": "21.80-26.44", "wide": True, "jesus": False, "ref": False,
+        "window": "21.80-26.44", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "WASTE"],
         "narration": (
             "And there, in the last place he would have expected it, God "
@@ -228,7 +228,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the ladder set up on the earth — the great stone stairway rooted beside the sleeper, climbing flight over flight into the high brilliant opening; earth and heaven joined.",
         "must_not_show": "ABSOLUTE: no figure in the summit brilliance; the stair's FOOT in his campground dirt — the connection literal.",
         "scene": (
-            "The dream stands the "
+            "The dream stands, the camera at the camp's edge "
+            "behind the sleeper's still form, the "
             "impossible up in the dark: "
             "a great stone stairway "
             "rooted in the campground "
@@ -260,7 +261,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: ascending AND descending — silver-grey figures walking the flights both directions, some near the ground, some high and small; working traffic, not pageant.",
         "must_not_show": "ABSOLUTE: no wings, no rings of light, no outlines; BOTH directions clearly happening.",
         "scene": (
-            "And the stairway is BUSY: "
+            "And the stairway is BUSY, the camera off its flank "
+            "so both travel directions read in profile: "
             "plain silver-grey figures "
             "walking its flights in both "
             "directions — two descending "
@@ -308,7 +310,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b09", "out": "s09-i-am-the-lord-god.jpeg", "seg": "jv13",
-        "window": "45.53-57.65", "wide": True, "jesus": False, "ref": False,
+        "window": "45.53-57.65", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "STAIR"],
         "narration": (
             "I am the LORD God of Abraham thy father, and the God of Isaac: "
@@ -397,7 +399,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b12", "out": "s12-he-stood-above-the-stairway.jpeg", "seg": "n5",
-        "window": "61.27-67.34", "wide": True, "jesus": False, "ref": False,
+        "window": "61.27-67.34", "wide": False, "jesus": False, "ref": False,
         "locks": ["STAIR", "JACOB"],
         "narration": (
             "He stood above the stairway and made him a promise — the same "
@@ -461,7 +463,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b14", "out": "s14-it-was-open-right-above.jpeg", "seg": "n4",
-        "window": "42.97-44.95", "wide": True, "jesus": False, "ref": False,
+        "window": "42.97-44.95", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "STAIR"],
         "narration": "It was open, right above him.",
         "must_show": "the opening overhead — from low beside the sleeper looking straight up the stair's flights to the brilliant opening directly above the camp; vertical truth.",
@@ -499,7 +501,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the with-thee promise — the whole night scene held gently: sleeper, stone, stair, brilliance; the words covering all of it like the sky does.",
         "must_not_show": "ABSOLUTE: no figure in the light; the composition a BENEDICTION — everything the promise covers, in one frame.",
         "scene": (
-            "The promise settles over the "
+            "The promise settles, the camera far off taking "
+            "sleeper, stone and stair from the side, over the "
             "whole night like a second "
             "sky: the sleeping man on "
             "his stone, the staff, the "
@@ -576,7 +579,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b18", "out": "s18-to-a-man-who-had.jpeg", "seg": "n6",
-        "window": "93.64-103.70", "wide": True, "jesus": False, "ref": False,
+        "window": "93.64-103.70", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "STAIR", "WASTE"],
         "narration": (
             "To a man who had just thrown his whole life away and run, God "
@@ -638,7 +641,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b20", "out": "s20-this-is-none-other-but.jpeg", "seg": "s16",
-        "window": "109.60-113.87", "wide": True, "jesus": False, "ref": False,
+        "window": "109.60-113.87", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "WASTE"],
         "narration": (
             "this is none other but the house of God, and this is the gate "
@@ -724,7 +727,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b23", "out": "s23-so-he-took-the-stone.jpeg", "seg": "n8",
-        "window": "125.17-132.51", "wide": True, "jesus": False, "ref": False,
+        "window": "125.17-132.51", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "WASTE"],
         "narration": (
             "So he took the stone that had been his pillow and stood it up "
@@ -811,7 +814,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b26", "out": "s26-then-he-went-on-his.jpeg", "seg": "n9",
-        "window": "141.13-147.40", "wide": True, "jesus": False, "ref": False,
+        "window": "141.13-147.40", "wide": False, "jesus": False, "ref": False,
         "locks": ["JACOB", "WASTE"],
         "narration": (
             "Then he went on his way — the same road, the same troubles "
@@ -873,7 +876,7 @@ BEATS = [
     },
     {
         "id": "v2-r102-b28", "out": "s28-that-is-how-god-still.jpeg", "seg": "n9",
-        "window": "153.16-159.94", "wide": True, "jesus": False, "ref": False,
+        "window": "153.16-159.94", "wide": False, "jesus": False, "ref": False,
         "locks": ["WASTE"],
         "narration": (
             "That is how God still meets people: not at their best, but "
@@ -903,3 +906,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
