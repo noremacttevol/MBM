@@ -82,7 +82,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r070-b01", "out": "s01-straight-from-the-river-still.jpeg", "seg": "n0",
-        "window": "0.28-8.74", "wide": True, "jesus": True, "ref": REF,
+        "window": "0.28-8.74", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DESERT"],
         "narration": (
             "Straight from the river, still carrying his Father's words — this "
@@ -145,7 +145,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b04", "out": "s04-before-the-teaching-before-the.jpeg", "seg": "n0",
-        "window": "11.87-24.20", "wide": True, "jesus": True, "ref": REF,
+        "window": "11.87-24.20", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DESERT"],
         "narration": (
             "Before the teaching, before the miracles, there was going to be a "
@@ -171,7 +171,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b05", "out": "s05-he-fasted-forty-days-and.jpeg", "seg": "n1",
-        "window": "24.80-27.27", "wide": True, "jesus": True, "ref": REF,
+        "window": "24.80-27.27", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DESERT"],
         "narration": "He fasted forty days and forty nights.",
         "must_show": "the fast's calendar — Jesus at his overhung ledge camp amid tally-like day-shadows: the duration made visible in stone and light.",
@@ -211,7 +211,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b07", "out": "s07-and-when-he-was-at.jpeg", "seg": "n1",
-        "window": "33.67-39.29", "wide": True, "jesus": True, "ref": REF,
+        "window": "33.67-39.29", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DESERT"],
         "narration": (
             "And when he was at his weakest and emptiest — that is exactly when "
@@ -461,7 +461,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b18", "out": "s18-in-a-flash-he-was.jpeg", "seg": "n4",
-        "window": "92.81-101.70", "wide": True, "jesus": True, "ref": REF,
+        "window": "92.81-101.70", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PINNACLE"],
         "narration": (
             "In a flash he was at the highest corner of the temple, the city "
@@ -508,7 +508,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b20", "out": "s20-if-thou-be-the-son.jpeg", "seg": "s6",
-        "window": "102.31-115.22", "wide": True, "jesus": True, "ref": REF,
+        "window": "102.31-115.22", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PINNACLE"],
         "narration": (
             "If thou be the Son of God, cast thyself down: for it is written, "
@@ -644,7 +644,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b26", "out": "s26-from-a-high-mountain-all.jpeg", "seg": "n5",
-        "window": "139.94-146.35", "wide": True, "jesus": True, "ref": REF,
+        "window": "139.94-146.35", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SUMMIT"],
         "narration": (
             "From a high mountain, all the kingdoms of the world and the glory "
@@ -761,7 +761,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b31", "out": "s31-get-thee-hence-satan-for.jpeg", "seg": "j3",
-        "window": "166.64-174.35", "wide": True, "jesus": True, "ref": REF,
+        "window": "166.64-174.35", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SUMMIT"],
         "narration": (
             "Get thee hence, Satan: for it is written, Thou shalt worship the "
@@ -819,7 +819,8 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT, RESTRAINED: the turn of the tide — the summit's air gone clean, and the two plain-robed ministers arriving up the rocks with bread, water and a blanket; help on foot, at last.",
         "must_not_show": "NO wings, NO light-effects, no floating — the ministers climb like travellers; no halo on anyone; the departure of the enemy shown only as the air's new cleanness.",
         "scene": (
-            "The summit's air stands suddenly clean — "
+            "The summit's air stands suddenly clean, the camera at "
+            "the crown's edge taking all three figures in profile, — "
             "the flat wrongness gone out of the "
             "light, the wind ordinary again — and up "
             "over the black rocks the two deep-blue-"
@@ -854,7 +855,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b35", "out": "s35-and-angels-came-and-ministered.jpeg", "seg": "n6",
-        "window": "192.78-198.23", "wide": True, "jesus": True, "ref": REF,
+        "window": "192.78-198.23", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SUMMIT", "MINISTERS"],
         "narration": (
             "And angels came and ministered to him, the way dawn comes after "
@@ -1017,7 +1018,7 @@ BEATS = [
     },
     {
         "id": "v2-r070-b42", "out": "s42-he-has-stood-in-your.jpeg", "seg": "n7",
-        "window": "230.79-236.61", "wide": True, "jesus": True, "ref": REF,
+        "window": "230.79-236.61", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DESERT"],
         "narration": (
             "He has stood in your exact spot. That is why he knows how to stand "
@@ -1042,3 +1043,13 @@ BEATS = [
         ),
     },
 ]
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+}
+# === end PLACE-PLATES ===
