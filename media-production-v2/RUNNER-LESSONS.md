@@ -67,6 +67,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   lane's in-flight `assets/` and `api-spend.jsonl` into your commit. Add only
   your row's paths + the boards/SESSION-LOG explicitly. Pull with
   `--rebase --autostash`.
+- **Your `git commit` can "fail" with `no changes added` even though you just
+  staged — a sibling lane's concurrent commit absorbed your staged index
+  (2026-08-06, row 76).** Concurrent `git` processes share `.git/index`, so if a
+  sibling runs `git commit` while your files are staged, ITS commit ships YOUR
+  staged mp4/QUEUE/AUTHOR-BOARD and your own commit then finds nothing. This is
+  NOT data loss: run `git log -1 --format=%H -- <build>/<mp4>` to find the commit
+  that actually contains your mp4 and `git branch -r --contains <hash>` to confirm
+  it's on origin/main — then point the review card's `data-hash` at THAT commit,
+  not a hash you expected to create. Verify with `git ls-files <mp4>` (tracked)
+  before assuming you must re-commit.
 
 ## Known defect patterns (check every frame)
 
