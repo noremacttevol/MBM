@@ -4,5 +4,11 @@
   "src_beat": "v2-r028-b02",
   "src_build": "build-28-hidden-treasure",
   "src_file": "build-28-hidden-treasure/assets/s02-about-a-man-and-a-field.jpeg"
+ },
+ "HOUSE": {
+  "manual": true,
+  "src_beat": "s02-it-is-about-a-farmer",
+  "src_build": "build-46-seed-growing",
+  "src_file": "build-46-seed-growing/assets/s02-it-is-about-a-farmer.jpeg"
  }
 }

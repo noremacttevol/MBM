@@ -44,3 +44,32 @@ lone-figure and person-free scene texts already carry their own framing.
   have NO light source in the ground.
 - The sickle (b25) is a harvest tool in glad hands — nothing ominous.
 - Only Jesus wears cream (b01 only).
+
+---
+
+## RUNNER RESULT — 2026-08-06 (Opus autopilot, Machine A `Dev`, lane pid2875780)
+
+### COMPLAINT LEDGER (LEARNING LAW)
+- **QUEUE row 46 complaint "captions cover the picture" (fixed 2026-07-17, caption-law):**
+  VERIFIED in THIS rendered cut — the mid-video caption (t=95s: "And it comes
+  in its own order... The first tender shoots.") sits inside the bottom dark
+  band ONLY and does not cover the wheat-ear art; question card is clean
+  parchment. No other open complaint on this row (`v2_outline.py 46`, QC handoff).
+- COMPLAINT LEDGER: none other open.
+
+### Build facts
+- 32 stills @ 2K, all first-attempt. **ZERO rerolls** (COST LAW: 0% vs 15% budget).
+- FARMER portrait generated (1). FIELD plate wired (build-28 b02). HOUSE
+  promoted-first from this row's b02, wired to 9 beats. SHORE: none (b01 Jesus only).
+- Assemble: AUDIO LOCK PASS (SHA256=647f3550e5d739ff1904602adf5dd6b9c146b0f8176ce1c3e3eb048542aa321d), 192.8s, 20.6 MB.
+
+### QC pass (each frame viewed once, montages of 8)
+- b27 true wide: exact count farmer + 2 neighbours + 1 boy ✓; all brown robes.
+- Night beats b07/b11/b31 genuinely night (moon + lamp-on-wick, no ground light) ✓.
+- Growth stages in order across the field frames (seed→blade→green ear→golden corn) ✓.
+- Sickle in glad hands (b25/b28), nothing ominous ✓. Only Jesus wears cream (b01) ✓.
+- No modern objects, no lens-staring, no collage panels, no headless/extra-limb figures.
+
+### FIX-WAVE (not rerolled — not garbage, below the reroll bar)
+- Farmer footwear reads as tall boots in b12 and b25 but sandals in b02/b06/b15.
+  Minor continuity drift, not a defect trigger; leave for the fix wave.

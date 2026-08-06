@@ -57,7 +57,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 43 | build-43-the-wedding-garment | BUILT | 48 | OK |  |  |
 | 44 | build-44-two-debtors | AUTHORED | 0 | OK | PARKED — QUEUE row 44 was SWAPPED to Pentecost (Cameron via Planner, 2026-07-23); two-debtors is a dead story (duplicate of #74). Pentecost needs NEW narration/audio — the V2 stills pipeline cannot build it. Do NOT build two-debtors. |  |
 | 45 | build-45-wicked-tenants | BUILT | 54 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 46 | build-46-seed-growing | RUNNING | 0 | OK | A-auto 2026-08-06 pid2875780 LIVE | ✅ |
+| 46 | build-46-seed-growing | BUILT | 32 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 47 | build-47-houses-on-rock-and-sand | RUNNING | 0 | OK | A-auto 2026-08-06 pid2895793 LIVE | ✅ |
 | 48 | build-48-new-wine-old-bottles | AUTHORED | 0 | OK |  | ✅ |
 | 49 | build-49-water-to-wine | AUTHORED | 0 | OK |  | ✅ |
