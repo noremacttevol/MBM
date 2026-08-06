@@ -1,3 +1,43 @@
+## 2026-08-06 (Opus autopilot) — Row 52 demoniac-synagogue SHIPPED + DEPLOYED; rows 50 & 51 parked NEEDS-AUDIO — Machine A `Dev`
+
+Rows 48/49 were RUNNING (live siblings) and 45/46/47 already shipped. The lowest
+Ready ✅ empty-claim rows were 50 and 51 — but BOTH carry open **audio-pronunciation**
+complaints (row 50 "Cana → Kane-a", row 51 "tear → tare") that the runner is
+forbidden to fix (audio-immutability / no re-voice), and row 50's own QC.md
+instructs "mark NEEDS-AUDIO and stop." Their mp3s are untouched V1 takes and
+neither has a pronounce override, so the audio still says the rejected form. I
+parked both as **NEEDS-AUDIO** (board State + QC.md RUNNER PARK note with the
+resume for the audio authority) so no lane wastes a claim on them. Row 50's OTHER
+complaint (question-card "squares") is already fixed in the V2 renderer — audio
+was the only blocker. **Caution for the audio authority:** row 46 was shipped
+today with its "put-uth" audio complaint STILL open (its QC.md wrongly said "no
+open complaint") — that class needs the same re-voice pass.
+
+**Row 52 (the demoniac in the synagogue, Mark 1:21-28):** the lowest BUILDABLE row
+— its only open complaint was the question-card "squares," which the V2 renderer
+already fixed (verified clean on rows 46/47 and on this row's own end card). 24
+stills @ native 2K, 156.6 s, **AUDIO LOCK PASS SHA256 1005cde1…** (V1 audio
+byte-identical). **0 portraits paid** (FREEDMAN + ELDERS reused from cast locks);
+SYNAGOGUE plate wired from build-05-bent-woman b28 (same sabbath hall). This is
+an ADVERSARY row and the CARE laws held across all 24 frames: no demon/monster/
+smoke/creature/gore anywhere — the affliction reads as human anguish only, the
+deliverance (s15/s16) is restrained (the man caught and steadied by two neighbours,
+nothing visible leaving him, no effect/light), and the freed state (s17/s18) is
+calm, clothed, dignified. Only Jesus in cream; beard + scale gates pass; s10 points
+AT Jesus, s23 spills OUT to the street. Complaint ledger in QC.md: the squares
+complaint is verified FIXED (rendered end card read line-by-line, zero box glyphs).
+
+**COST LAW:** **ZERO rerolls of 24 beats = 0%** (vs 15% budget) — the row was
+clean first-attempt. Row spend **$3.22** (24 beats × $0.134, no portraits, plate
+reused), meter **$271.48** — **well under the $6.10/row average**. Trend stays DOWN.
+
+Shipped in two commits (mp4+QC+boards+QUEUE hash b5ce8bb8c4e0, then
+review.html+SESSION-LOG), deployed to Firebase hosting `milk-b4-meat`, and
+verified live. Ran `v2_stash.py --scan` after ship so row 52's stills are
+reusable plates.
+
+---
+
 ## 2026-08-06 (Opus autopilot, lane pid2895793) — Row 47 houses-on-rock-and-sand SHIPPED + DEPLOYED — Machine A `Dev`
 
 Landed as the 00:53 cron lane. Rows 45 (BUILT/shipped) and 46 (sibling live)
