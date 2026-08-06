@@ -1,3 +1,32 @@
+## 2026-08-06 (Opus runner, HEADLESS autopilot) — Row 45 (wicked-tenants) REALISTIC V2 shipped + deployed — Machine A `Dev`
+
+Unattended autopilot tick. Lowest Ready AUTHOR-BOARD row was 45 (44 is PARKED —
+Pentecost swap). Cross-checked QUEUE: row 45 = Mark 12 wicked tenants, NOT
+swapped. Claimed by push, built end to end headless.
+
+- **54 stills at native 2K** against V1's ~13. 2 story-cast portraits (OWNER,
+  SON, both clean first pull). Plates: VINEYARD (b23) + ROAD (b38) inherited;
+  PORTICO promoted-first from b01 (Jesus in cream on the portico bench) → 10
+  portico beats copy it.
+- **Rerolls: 2, both on b10** ("tenants working the lease"). Twice rendered as a
+  multi-panel COLLAGE (a 4-up then a 3-up grid inside one 9:16 frame — the same
+  failure mode row 42 hit). Third take = a single coherent tenants-at-work wide.
+  **Reroll rate 3.7%** (2/54), well under the 15% budget.
+- **AUDIO LOCK PASS** SHA256 2b4c517b…, 319.2 s, 20.7 MB, V1 audio byte-identical.
+- Caption QC from the rendered mp4 (early/mid/question-card): every caption in
+  the bottom band only — the historical "captions cover the whole picture"
+  complaint is verified NOT regressed. Question card clean, no tofu.
+- **Cost ~$5.90/row**; meter 243.88 → 249.78. UNDER the $6.10 running average —
+  COST LAW trend down held (the collage reroll was the only overage risk and it
+  stopped at 2 pulls per the budget).
+- Commit A (mp4+QC+boards): 7464d487161da61745a7f59f062a3a3ed2776e27.
+  Commit B: review card v45 → realistic-v2 wave + STASH-INDEX rescan + deploy.
+- New RUNNER-LESSON candidate: the collage failure mode (b10) — already noted in
+  SESSION-LOG for rows 42; confirming it recurs on vineyard "many workers doing
+  many tasks" beats. Added to RUNNER-LESSONS.
+
+---
+
 ## 2026-08-05/06 (Opus runner) — FIVE cuts shipped AND DEPLOYED: rows 17, 40, 41, 42, 43 — Machine A `Dev`
 
 Cameron: *"make the fucking videos"* — and he was right, the session had

@@ -61,6 +61,11 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   place must never carry a character lock.
 - **Wrong story on the board** (row 44 two-debtors vs the QUEUE's Pentecost
   swap): cross-check the row against media-production/QUEUE.md BEFORE spending.
+- **Multi-panel COLLAGE inside one 9:16 frame** (row 42 barren-fig; row 45 b10
+  twice — a 4-up then a 3-up grid of separate shots stacked in one frame):
+  triggered by beats that ask for MANY workers doing MANY tasks at once
+  ("tenants working the lease"). Reroll on sight — the model eventually lands a
+  single coherent wide. Never crop-rescue a panel out of it.
 
 ## Reuse before regenerate (Cameron's core order — rubric lesson 11 + COST LAW)
 
