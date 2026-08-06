@@ -1,3 +1,49 @@
+## 2026-08-06 (Opus autopilot) — Row 57 jairus-daughter SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 58 (commit above verified in `git log`). Rows 48/56 were RUNNING
+siblings, 50/51 parked NEEDS-AUDIO, 45/46/47/49/52/53/54/55/58 shipped. Lowest
+Ready ✅ empty-claim row was **57 (Jairus's daughter, Mark 5:22-24,35-43)** —
+cross-checked QUEUE (valid story, not swapped), claimed by push (AUTHOR-BOARD
+RUNNING, commit 7c533dbfb), built end to end.
+
+**Row 57:** 27 painted stills @ native 2K (V1 had 9), Mark 5 laddered shot by
+shot — ruler face-down in the road → "my little daughter lieth at the point of
+death" → child fever-flushed at home, mother's vigil → the crush → messengers'
+worst news, father buckling → "Be not afraid, only believe" → reduced company
+walks on → courtyard mourners → "not dead, but sleepeth" → scorn-laughter → puts
+them all out → "Talitha cumi, damsel, arise" → eyes open, she walks → parents
+beside themselves → "give her something to eat" → the supper. GRIEF-CARE (Flag G)
+held: child alive/fever-flushed → peaceful sleep → awake, never corpse-toned; the
+raising is his hand taking hers, NO glow/effect. **3 portraits** (JAIRUS/GIRL/
+MOTHER, $0.40); Peter/James/John reused free from global sheets. **HOUSE
+promoted-first from b15's courtyard** (11 beats); ROAD wired from build-38.
+`v2_prompt.py --check` PASS. **AUDIO LOCK PASS
+SHA256 c7d7f3858da15d7c2e558bed645cd4c544674d49f2aa457cb3ef4aee1ecf1755** — V1
+mp4 audio byte-identical, nothing re-voiced. 19.2 MB / 174.6 s. Commit 648346978.
+
+**LEARNING LAW / COMPLAINT LEDGER:** open reviewer lesson **"Lieth is pronounced
+lie-eth"** — this is the one case where the fix was ALREADY DONE by the author
+(re-voice `lieth→lyeth`, verified LIE-eth in commit a818c0726; V1 mp4 re-rendered
+from it Jul 29). Verified NOT a runner-park like rows 50/51 (those are audio
+CHECK, fix not yet rendered): row 57 audio is OK, and the AUDIO LOCK PASS proves
+the shipped byte-identical audio carries the LIE-eth fix. Caption keeps true KJV
+"lieth." Review card answers the complaint in Cameron's words. Only Jesus in
+cream; scale + beard gates PASS; locked green/hazel eyes per V2 ref (NOT rerolled
+— RUNNER-LESSON); two messengers, full six at the raising; child stays
+child-sized.
+
+**COST LAW:** 31 images (3 portraits + 27 stills + 1 anchor), **ZERO rerolls
+(0% vs 15% budget)** → row ≈ **$4.15**, under the $6.10 average — trend DOWN.
+Reuse honored (Peter/James/John sheets, ROAD plate). Touched once, batched.
+
+**Ship:** commit A 648346978 (mp4 + QC + QUEUE), commit B (review.html card v57
+→ data-review-wave realistic-v2, data-hash 6483469786610a6044f46b173fad08cb50d9755c,
+mp4 → media-production-v2, complaint-answering flag). `firebase deploy --only
+hosting`, live-verified. STASH-INDEX rescanned. AUTHOR-BOARD row 57 → BUILT.
+Prior approval VOID under REDO-ALL; awaiting Cameron.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 58 feeding-5000 SHIPPED + DEPLOYED — Machine A `Dev`
 
 Rows 56/57 were RUNNING siblings, 45/46/47/49/52/53/54/55 shipped, 48 RUNNING,
