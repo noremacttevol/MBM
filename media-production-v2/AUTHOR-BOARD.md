@@ -90,7 +90,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 76 | build-76-suffer-the-little-children | BUILT | 14 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 77 | build-77-widows-mite | NEEDS-AUDIO | 16 | CHECK | A-auto 2026-08-06 PARKED: 16 stills GENERATED + QC-PASS (1 reroll b04 collage), but v2_assemble AUDIO LOCK fails — extracted timeline 98.846s vs V1 final 97.106s (1.74s short, over the abs>1.0 tolerance, line 531); newer_mp3s=0 so not recency-stale, just a duration mismatch. Runner can't edit beats_v2.py. Author: set AUDIO_FROM_V1_SEGMENTS=True then re-assemble (stills present, do NOT regen). See QC.md RUNNER PARK. |  |
 | 78 | build-78-who-is-my-mother | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0): STALE V1 mp4 (row-69 class), pre-flighted at step 2 before any spend. V1 mark-3 mp4 rendered 2026-07-24; all 11 locked mp3s NEWER (2026-07-28), excess +5.18s — v2_assemble refuses AUDIO LOCK. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
-| 79 | build-79-the-seventy-sent | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
+| 79 | build-79-the-seventy-sent | BUILT | 19 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 80 | build-80-come-unto-me | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0, pre-flighted before any spend): STALE V1 mp4 (row-69/74/78 class). V1 mp4 rendered 2026-07-24, all 11/11 narration mp3s NEWER (2026-07-28); v2_assemble STALE-V1 guard refuses AUDIO LOCK. Runner can't edit beats_v2.py. Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 81 | build-81-render-unto-caesar | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 82 | build-82-anointing-at-bethany | AUTHORED | 0 | OK |  | ✅ |
