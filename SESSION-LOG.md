@@ -1,3 +1,45 @@
+## 2026-08-06 (Opus autopilot) — Row 76 suffer-the-little-children SHIPPED — Machine A `Dev`
+
+Session chain: at start read SESSION-LOG top (row 75 woman-taken-in-adultery,
+commit `d0366272a` was HEAD; the row-75 ship entry below is the chain link) and
+verified HEAD in `git log`. `hostname` = Dev (Machine A). Ran the parallel-lanes
+loop; many sibling A-auto lanes live (48/60/61/62/63/72/73/75/77) — never
+touched a RUNNING/claimed row.
+
+**$0 pre-flight lesson learned + fixed.** First batch-pre-flighted rows 76–90's
+stale-V1 audio guard and (falsely) saw ALL of them STALE. Root cause: I pointed
+`assert_v1_final_is_current` at the UNTRACKED `media-production-v2/<build>/audio`
+mp3s, whose `content_time` falls back to checkout MTIME (always "newer" than the
+committed mp4). Corrected to read the TRACKED V1 mp3s under
+`extract_beats.extract(row)["v1_dir"]` (git commit times): rows
+76/77/79/81/83/84/85/86/87 PASS, only 78/80/82/88/89/90 are genuinely stale.
+Wrote this into RUNNER-LESSONS so no session repeats it.
+
+**Row 76 (suffer-the-little-children): SHIPPED REALISTIC V2.** `--check` PASS,
+no open complaint (`v2_outline.py 76`). 14 painted stills at native 2K (vs V1's
+8) + 1 FAMILIES portrait; ROADSIDE plate wired from build-38. Row's #1 risk was
+child-consistency (row-56 class): every child child-sized + one face/outfit
+across all 14 frames; scale + beard gates pass; only Jesus in cream; no glow.
+**ZERO rerolls (0%)** — far under the 15% COST-LAW budget. Light QC 14/14; two
+FIX-WAVE log-only items (systemic amber/green Jesus eyes in the close-up; a
+recurring disciple's pale oatmeal shawl — not a full cream robe). AUDIO LOCK
+PASS SHA256 `3bd31505…`, 87.9 s, 19.6 MB. Captions bottom-band only + clean
+question card verified from the rendered mp4.
+
+**Cost:** row ≈ **$2.01** (14 stills $1.88 + portrait $0.13) — well under the
+$6.10/row average; trend DOWN, no overage. Meter after portrait+stills ≈ $350.
+
+**Shared-index race note (for next session):** my staged ship files (mp4, QUEUE,
+AUTHOR-BOARD) were swept into a sibling lane's "Claim row 77" commit
+`9c9e91834` because concurrent `git` processes share `.git/index`. The ship is
+intact and pushed (mp4 lives in `9c9e91834`, which the review card points at) —
+just be aware a sibling commit can absorb your staged index at this concurrency.
+
+**Deploy:** `firebase deploy --only hosting`, then verified the live review.html
+carries `id="v76" … data-hash="9c9e918…"` and the mp4 URL returns HTTP 200.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 75 woman-taken-in-adultery SHIPPED + rows 73/74 parked — Machine A `Dev`
 
 Session chain: at start read SESSION-LOG top (row 68 multitudes-mountain, commit
