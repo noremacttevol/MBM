@@ -1,3 +1,38 @@
+## 2026-08-06 (Opus autopilot) — Row 58 feeding-5000 SHIPPED + DEPLOYED — Machine A `Dev`
+
+Rows 56/57 were RUNNING siblings, 45/46/47/49/52/53/54/55 shipped, 48 RUNNING,
+50/51 parked NEEDS-AUDIO. The lowest Ready ✅ empty-claim row was **58 (Feeding
+the five thousand, John 6:1-14)** — cross-checked against QUEUE (valid story, not
+swapped; the old row-58 entry was the cartoon-era 9-still "awaiting yes" build),
+claimed by push (commit 7f753ac0c), built end to end.
+
+**Row 58:** 24 painted stills @ native 2K (V1 had 9), John 6 laddered shot by
+shot — crowd to the green hillside → sun sinks, disciples anxious → "Whence shall
+we buy bread?" → the lad's 5 loaves + 2 fish → "make the men sit down" → ordered
+groups → blessed and brake → carried through the crowd, all filled → "Gather up
+the fragments, that nothing be lost" → twelve baskets → the boy amazed → "that
+prophet" → dusk with campfires, all fed. **1 LAD portrait** ($0.13); ANDREW/PHILIP
+reused from cast sheets. **HILLSIDE promoted-first from b01**, wired to 15 beats
+(seeds rows 59/68 too). `v2_prompt.py --check` PASS. **AUDIO REBUILD PASS
+SHA256 25466d48…** — the V1 MP4 (165.400s) was an out-of-date render, so set
+`AUDIO_FROM_V1_SEGMENTS = True` (guard-fix as rows 17/25/53), rebuilt from 18 V1
+segment mp3s, nothing re-voiced, V1 read-only. 20.5 MB / 164.3 s. Commit
+8ccfb6257.
+
+**LEARNING LAW / COMPLAINT LEDGER: none open** (`v2_outline.py 58`). Only Jesus in
+cream; scale + beard gates PASS; locked green/hazel eyes per V2 ref (NOT rerolled
+— RUNNER-LESSON); COUNT LAW 5 loaves + 2 fish held; green "much grass"; time-of-day
+ladders afternoon→golden→dusk; abundance flows Jesus→disciples→people (never a
+magic effect). All 24 frames realistic, zero cartoon/mixed. Caption frames
+(output-seek) clean: bottom-band only, question card clean.
+
+**COST:** portrait $0.13 + b01 anchor $0.13 + main gen $3.08 + 1 reroll $0.13 =
+**~$3.47/row**, **1 reroll of 24 = 4.2%** (b21 twelve-baskets: stone-looking
+contents → clear bread). Under the $6.10 running average; trend continues DOWN
+(rows 52 $3.22, 53 ~$2.4, 54 $3.34, 58 $3.47).
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 56 widow-of-nain SHIPPED + DEPLOYED — Machine A `Dev`
 
 Rows 48 RUNNING (sibling), 45/46/47/49/52/53/54/55 shipped, 50/51 parked
