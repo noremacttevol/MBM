@@ -37,6 +37,40 @@ committed. No new RUNNER-LESSONS defect class surfaced.
 
 ---
 
+## 2026-08-06 (Opus autopilot) — Row 102 jacobs-ladder SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 85's stash-rescan commit `65fc2a802` (verified in `git log` at
+session start; last SESSION-LOG entry was row 85). Ran the PARALLEL-LANES loop,
+lowest Ready ✅ empty-claim row first; every RUNNING sibling
+(48/60/61/62/63/84/91/101) left untouched.
+
+**Row 102 (Jacob's ladder, Gen 28:10-19) — SHIPPED + DEPLOYED.** Audio
+pre-flighted BEFORE any spend (rows 102+ are a NEEDS-AUDIO minefield): both
+gates PASS — |timeline 172.852s − V1 mp4 172.872s| = 0.02s under the 1.0
+tolerance AND 0 newer mp3s → no STALE-V1 risk. `--check` PASS (28 beats), QUEUE
+cross-check confirmed the row is the real Gen 28 story (not swapped). ONE open
+complaint on this row — the **BEARD BOARD** complaint that CREATED rubric lesson
+13 ("Jacob doesnt have a beard and then does… beards dissapeaering or appearing
+throws people off the story"). FIXED: Jacob's lock is "smooth-cheeked with only
+a short sparse dark beard"; ran the dedicated beard-only pass across all 28
+frames and he carries the SAME short/sparse dark beard in every one — no flip.
+God shown as LIGHT only (never a figure) → CONTENT-CARE held; angels are real
+robed human figures on a stone stairway, never a swirl of light. WASTE plate
+promoted-first from this row's own b02 (dusk rocky upland) → 17 beats reuse it;
+STAIR/ANGELS generated in-run and QC-clean. 1 JACOB portrait. Realistic
+photography throughout, ZERO cartoon/mixed frames; no grown Jesus → reserved
+cream robe appears nowhere. Captions bottom-band only; question card clean (no
+square glyphs). AUDIO LOCK PASS `SHA256=a96e8633…`, 19.7 MB / 172.9 s. Commits
+`ddb1f2cfd` (ship) + reviewer card/SESSION-LOG. Firebase deployed + live-verified.
+
+**Cost/quality:** **0 rerolls of 28 (0%)**, far under the 15% budget → supports
+the COST LAW downtrend. Row ≈ **$3.75** (1 portrait $0.13 + 28 stills × $0.134),
+well under the $6.10/row average — the promote-first WASTE plate (17 beats) is
+what kept it cheap. No new RUNNER-LESSONS defect class surfaced (clean first
+attempt); STASH-INDEX rescanned post-ship.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 91 gethsemane SHIPPED + DEPLOYED; rows 86-90 parked NEEDS-AUDIO — Machine A `Dev`
 
 Chained from row 81's stash-rescan commit `92367d088` (verified in `git log` at
