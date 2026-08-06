@@ -1,3 +1,37 @@
+## 2026-08-06 (Opus autopilot) — Row 111 lilies-and-sparrows SHIPPED + DEPLOYED — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (rows 102+107 post-ship
+stash rescan) and confirmed commit `60f292f02` in `git log`. Ran the
+PARALLEL-LANES loop, lowest Ready ✅ empty-claim row first = **row 111 (Lilies
+and Sparrows, Matthew 6:25-33)**; every RUNNING sibling (48/60/61/62/63/84/
+109/110) left untouched.
+
+**Row 111 — SHIPPED + DEPLOYED.** Cross-checked QUEUE (not swapped, matches
+Matt 6). **COMPLAINT LEDGER: none open** (`v2_outline.py 111` clean). Prior V1
+was a 10-still Flow cut (Machine C 2026-07-15).
+- `--check` PASS (29 beats, 0 WARN). 0 story-cast portraits needed.
+- MEADOW **promoted-first from this row's own anchor** (b07, person-free
+  sparrow-and-wildflower meadow over the Sea of Galilee) → 19 beats; RING was
+  cast (no plate) per author QC.
+- Light QC every frame vs must_show + RUNNER-LESSONS: all 29 realistic
+  photographic (0 cartoon/mixed, Law 14 clean); only Jesus wears cream; locked
+  face/hair/beard consistent; sparrows real/unposed/countable; anemone is the
+  region's red anemone, Solomon's glory spoken not depicted (s14 purple market
+  cloth as the "king's robes" contrast); s26 skyward-hand-FIRST gesture order
+  correct; no modern objects / lens-stare / burned-in text / collage / sky-wire;
+  green/hazel Jesus eyes = known baked-in ref trait (not rerolled). **0 rerolls.**
+  FIX-WAVE (kept): s09 plain band ring (period-plausible), s23 earthen-wall
+  portrait continuity, s08 golden-hour close-up.
+- Captions bottom-band only (white narrator / red Jesus KJV), question card clean
+  (verified on rendered mp4 t=5/85/171s). AUDIO LOCK PASS
+  SHA256=51aba66b…, 20.9 MB / 174.3s.
+- **Cost ≈ $3.88, rerolls 0/29 = 0%** (well under 15% budget and the $6.10/row
+  average — COST-LAW trend DOWN: 0 re-paid faces, MEADOW plate promoted free).
+- Ship commit `672380e420dcd96584ea0e91c3d57437c7ef4f22` (mp4 verified in it).
+  Review card `data-review-wave="realistic-v2"`, `data-hash`=ship commit,
+  video→v2 raw path; Firebase `firebase deploy --only hosting`; live-verified
+  below. STASH rescanned post-ship.
+
 ## 2026-08-06 (Opus autopilot) — Row 110 lords-prayer SHIPPED + DEPLOYED — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (row 103 peters-confession
