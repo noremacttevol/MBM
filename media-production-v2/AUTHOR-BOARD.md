@@ -67,7 +67,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 53 | build-53-peters-mother-in-law | BUILT | 15 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 54 | build-54-the-leper | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 55 | build-55-withered-hand | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
-| 56 | build-56-widow-of-nain | AUTHORED | 0 | OK |  | ✅ |
+| 56 | build-56-widow-of-nain | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 57 | build-57-jairus-daughter | AUTHORED | 0 | OK |  | ✅ |
 | 58 | build-58-feeding-5000 | AUTHORED | 0 | OK |  | ✅ |
 | 59 | build-59-feeding-4000 | AUTHORED | 0 | OK |  | ✅ |
