@@ -44,3 +44,44 @@ healing palm are all tight by design.
   leads DOWN and away; Malchus lags at its tail.
 - Torches are period fire (no lanterns — row-7 class).
 - Only Jesus wears cream — even bound.
+
+---
+
+## RUNNER SHIP LOG — 2026-08-06 (Opus autopilot, Machine A `Dev`)
+
+**COMPLAINT LEDGER:** none open. `v2_outline.py 66` surfaces no Cameron
+complaint on this row (prior state was BUILT-L1 "awaiting your yes," never
+approved, never complained-on). Judged against V2-REBUILD-RUBRIC (both
+meta-laws + all numbered lessons) and every RUNNER-LESSONS pattern.
+
+**Build:** 29 painted stills @ native 2K (V1 was 7). MALCHUS portrait made
+(1). GARDEN plate promote-first from our own b01 (moonlit olive terrace,
+Jerusalem below, torch column — NOT build-26's sunlit herb garden, per the
+QC warning above) → wired to 22 beats.
+
+**Light QC (all 29 viewed once):**
+- Restrained-violence line HELD: no severed ear, no blood, no wound-landing
+  in any frame. b07 Peter-swing is arrested motion (blade blur); b22 healing
+  is a palm laid on the head, ear whole; Malchus only ever clamps his hand to
+  the side of his head.
+- Time-of-day: true night / moonlit / torch-lit throughout — no sunset drift.
+- Only Jesus in cream in every frame. Realistic photography, zero cartoon/
+  mixed frames (Law 14 pass).
+- Face-boards: PETER consistent (dark curly hair + full beard) across b07/
+  b11/b12/b14; MALCHUS consistent (short dark hair, beard, dark tunic + maroon
+  sash) across b08/b18/b19/b20/b22/b23/b24/b25/b26/b27. b26 lands the thesis
+  frame (lone, lagging the torch column, testing his healed ear).
+- Jesus hazel/green eye cast (b17 close-up) is the baked JESUS-V2-REF trait —
+  NOT rerolled per RUNNER-LESSONS (systemic, plan-level, awaits Cameron).
+
+**Reroll:** 1 of 29 = **3.4%** (well under 15% budget). b07 first take came
+back as a 3-panel vertical COLLAGE (RUNNER-LESSONS mandatory-reroll pattern);
+one redo landed a single coherent frame. No FIX-WAVE items.
+
+**Assembly:** `AUDIO LOCK PASS` SHA256=91d501ba565345efd95f1da7e7d6aa794f0cfa2e06fb6236b950c55bb0152d44.
+luke-22_malchus-ear.mp4, 20.4 MB, 176.5 s. Caption band bottom-only; closing
+card clean (no squares). Audio byte-identical to V1 — nothing re-voiced.
+
+**Cost:** 29 stills + 1 portrait + 1 reroll = 31 images × $0.134 ≈ **$4.15**
+for the row, under the $6.10 running average — the cost trend keeps going DOWN
+(place reused-from-self, single portrait, one reroll).

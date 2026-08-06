@@ -1,1 +1,8 @@
-{}
+{
+ "GARDEN": {
+  "manual": true,
+  "src_beat": "s01-it-was-the-middle-of",
+  "src_build": "build-66-malchus-ear",
+  "src_file": "build-66-malchus-ear/assets/s01-it-was-the-middle-of.jpeg"
+ }
+}
