@@ -82,6 +82,36 @@ reusable plates.
 
 ---
 
+## 2026-08-06 (Opus autopilot) — Row 49 water-to-wine SHIPPED + DEPLOYED — Machine A `Dev`
+
+Row 48 was RUNNING with a filled claim (live/parallel lane) so I skipped it per
+PARALLEL-LANES rule 1; rows 50/51 are parked NEEDS-AUDIO. Row 49 was the lowest
+Ready ✅ with an empty claim. QUEUE row 49 (John 2, water to wine at Cana) is NOT
+swapped, so I claimed it by push (AUTHOR-BOARD, commit 8e82c7bbd) and built it.
+
+**Row 49 (water to wine at Cana, John 2:1-11):** 40 stills @ native 2K, 245.0 s,
+AUDIO LOCK PASS SHA256 4d166a0d… (V1 audio byte-identical). 2 story-cast portraits
+(STEWARD purple/gold, BRIDEGROOM young w/ olive wreath) + 2 promote-first place
+plates (COURT from b02 → 19 beats; JARS from b21 → 7 beats; no stash match).
+COMPLAINT LEDGER: none open. Row laws verified: **COUNT LAW — SIX countable stone
+jars** (cropped s21/s36 to count exactly 6; stone not clay/glass); three-servant
+trio (man/woman/boy), water poured INTO the jars; wine reads as WINE not blood,
+miracle UNDEPICTED (first red at the draw, s29/s36); THREE-MARYS — MARY = the
+mother (blue mantle, serene ~50), consistent across s03/08/09/15/16, crosses TO
+Jesus (b08 direction). **Canonical mother-Mary frame set for rows 84/86/87/94-96:
+build-49 s16.** Jesus one locked V2 face (green eyes = V2 master-ref, held
+consistent) + only-Jesus-in-cream; face gate exits 0. Rendered captions bottom-
+band only; question card clean.
+
+**COST LAW:** 1 reroll of 40 beats = **2.5%** (vs 15% budget) — b02 COURT establish
+came back as a 3-panel collage (RUNNER-LESSONS pattern), rerolled once to a single
+coherent wide, then promoted. Row spend ≈ $5.76 (portraits $0.27, 2 anchors $0.27,
+1 reroll $0.13, full run $5.09) — under the $6.10/row running average; both place
+plates promote-first rather than prose-locked. Trend stays DOWN.
+
+Shipped in two commits (mp4+QC+boards+QUEUE b7f62262782e, then review.html+
+SESSION-LOG), deployed to Firebase hosting `milk-b4-meat`, verified live.
+
 ## 2026-08-06 (Opus autopilot, lane pid2895793) — Row 47 houses-on-rock-and-sand SHIPPED + DEPLOYED — Machine A `Dev`
 
 Landed as the 00:53 cron lane. Rows 45 (BUILT/shipped) and 46 (sibling live)
