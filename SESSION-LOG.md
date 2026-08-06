@@ -1,23 +1,28 @@
-## 2026-08-06 (Opus autopilot, 20th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
+## 2026-08-06 (Opus autopilot, 21st resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
 
-Session-chain verified: read SESSION-LOG top (row 48 19th resume park) and confirmed commit
-`9ed63c4ea` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48
+Session-chain verified: read SESSION-LOG top (row 48 20th resume park) and confirmed commit
+`28879289d` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48
 (State RUNNING, Claim A-auto) headless/unattended — did NOT start a new row.
 
 **Row 48 (new-wine-old-bottles) — RE-PROBED AGAIN, STILL BLOCKED, $0.** Pulled clean via
-`--rebase --autostash` (Already up to date). `v2_prompt --check` PASS (35 beats, v4 PASS).
-11/35 stills intact; 4 plates present (courtyard/wedding/workshop/cellar). Meter $409.64,
-ceiling $439.46 (unchanged; api-spend.jsonl last line still build-116 08:29). Ran the exact
-resume command → `429 RESOURCE_EXHAUSTED "prepayment credits are depleted"` on b10 (first call).
-Twentieth consecutive resume blocked by the identical empty-prepayment state — a hard billing
-block, not a transient rate limit; no automated resume can refill an empty prepayment balance.
-**$0 spent** — the 429 fires before any image, so the 11 done frames are untouched (COST LAW
-intact). Re-parked clean: added a concise 20th-attempt RUNNER PARK note to QC.md (full history
-preserved below it). Row left State RUNNING / Claim A-auto; no false BUILT tick. Could NOT reach
-step 7c DEPLOY — zero frames generate while billing is empty, so nothing new to assemble, ship,
-or deploy. **This row is HARD-BLOCKED on Cameron: only a billing top-up will move it. ACTION FOR
-CAMERON: top up Gemini prepayment billing at https://ai.studio/projects, then re-run the resume
-command in the QC.md — it resumes free and finishes the row unattended.**
+`--rebase --autostash` (Already up to date). 11/35 stills intact; 4 plates present
+(courtyard/wedding/workshop/cellar). Meter $409.64, ceiling $439.46 (unchanged; api-spend.jsonl
+last line still build-116 08:29). Ran the exact resume command → `429 RESOURCE_EXHAUSTED
+"prepayment credits are depleted"` on b10 (first call). **Twenty-first** consecutive resume
+blocked by the identical empty-prepayment state — a hard billing block, not a transient rate
+limit; no automated resume can refill an empty prepayment balance. **$0 spent** — the 429 fires
+before any image, so the 11 done frames are untouched (COST LAW intact). Re-parked in place
+(bumped the QC.md top park note to the 21st probe rather than pile on a redundant block —
+20 identical parks already recorded; the churn itself violates the COST LAW). Row left State
+RUNNING / Claim A-auto; no false BUILT tick — the row is NOT built and I will not report it as
+such. Could NOT reach step 7c DEPLOY — zero frames generate while billing is empty, so nothing
+new to assemble, ship, or deploy.
+
+**⛔ THIS ROW IS HARD-BLOCKED ON CAMERON — 21 headless sessions have now confirmed the same empty
+Gemini prepayment balance. Autopilot cannot self-unblock this. The entire board is stalled behind
+it. ACTION FOR CAMERON: top up Gemini prepayment billing at https://ai.studio/projects, then
+re-run the resume command in build-48's QC.md (resumes free, finishes unattended). Consider
+pausing the row-48 resume loop until then so it stops burning sessions on an unfixable state.**
 
 Commit: eab3694b9
 
