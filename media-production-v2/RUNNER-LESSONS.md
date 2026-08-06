@@ -71,6 +71,11 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   place must never carry a character lock.
 - **Wrong story on the board** (row 44 two-debtors vs the QUEUE's Pentecost
   swap): cross-check the row against media-production/QUEUE.md BEFORE spending.
+- **Footwear drift on a lone recurring figure** (row 46 farmer: sandals in
+  b02/b06/b15 but tall boots in b12/b25): a one-person, many-frame story lets
+  footwear (and other small worn items) swap between shots — glance at feet on
+  the beard/identity pass. Minor: FIX-WAVE it, do not burn a reroll unless the
+  frame is otherwise flawed.
 - **Multi-panel COLLAGE inside one 9:16 frame** (row 42 barren-fig; row 45 b10
   twice — a 4-up then a 3-up grid of separate shots stacked in one frame):
   triggered by beats that ask for MANY workers doing MANY tasks at once
