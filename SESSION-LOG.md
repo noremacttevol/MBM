@@ -1,3 +1,41 @@
+## 2026-08-06 (Opus autopilot) — Row 116 re-probe: Gemini BILLING STILL DEPLETED (global hard wall), $0 spent, parked clean — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (row 113 built+parked / row
+116 billing-depleted park) and confirmed commit `d72f04d50` present in `git log`.
+Hostname `Dev` → Machine A (MACHINE-IDENTITY). PARALLEL-LANES loop; every RUNNING
+sibling left untouched (48/60/61/62/63/84/112 + parked 114/115).
+
+**Row 116 (graven-on-his-palms, Isa 49:14-16) — RE-PROBED, STILL BLOCKED, $0.**
+Lowest Ready ✅ / empty-claim row. Cross-checked QUEUE (real story, not swapped).
+Read ALL rubric META-LAWS + numbered lessons + RUNNER-LESSONS before any credit
+(LEARNING LAW). `v2_outline 116`: **no open complaints** (COMPLAINT LEDGER: none
+open, recorded in QC.md). `v2_prompt --check` PASS (21 beats). Portraits (WOMAN)
+and CITY plate (b04/s04) already existed from the prior session — QC'd b04 as a
+clean plate (first-century Judean dusk town, stars, many solitaries faced away,
+no lens-stare, no cream, no modern object, anatomy fine — PASS).
+- Ran `v2_gen_api ... --ceiling 438.66` (meter $409.64 + 20 beats×0.201 + 25) to
+  make the 20 remaining beats → `429 RESOURCE_EXHAUSTED "Your prepayment credits
+  are depleted"` on beat b01, the FIRST call. Retried once after 62 s per brief —
+  IDENTICAL depleted 429. This is the HARD billing wall (RUNNER-LESSONS INFRA/
+  BILLING), GLOBAL to the Gemini key: every row is blocked, no next-ready row to
+  fall to. **$0 spent** (429 fired before any image generated; nothing to reuse).
+- Parked clean: QC.md 2nd-probe RUNNER PARK + resume command; QUEUE + AUTHOR-BOARD
+  note PARKED-BILLING with the ACTION FOR CAMERON; claim column carries the block
+  so no lane re-grabs it; row 116 untouched and resumable in one command post-topup.
+
+**🛑 ACTION FOR CAMERON (blocks the ENTIRE board):** Google AI Studio prepayment
+credits are depleted. Top up at https://ai.studio/projects (billing → prepay).
+Until then NO V2 row can generate a single still on the Gemini key — this is the
+4th consecutive session to hit the same global wall (rows 114/115/116). After
+topup, any session that runs `Read media-production-v2/PROMPT-OPUS-RUNNER.md and
+run the next ready rows` resumes production immediately (row 116 finishes in one
+`v2_gen_api` re-run; its portraits + CITY plate are already banked).
+
+Cost this session: **$0.00 / 0 rows shipped** (billing-blocked, not a build).
+Reroll %: n/a. No cost-law impact; running average holds ($6.10/row, 19% rerolls).
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 113 (where-art-thou) BUILT+PARKED (God the Father EMBODIED), Row 116 started then Gemini BILLING DEPLETED (global) — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (row 110 lords-prayer ship)

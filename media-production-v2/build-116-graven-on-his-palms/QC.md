@@ -54,10 +54,27 @@ https://ai.studio/projects (Google AI Studio → billing → prepay).
 
 **RESUME (after Cameron tops up Gemini billing):**
 ```
-python3 media-production-v2/v2_story_cast.py build-116-graven-on-his-palms --ceiling <meter+~0.6>
-python3 media-production-v2/v2_gen_api.py build-116-graven-on-his-palms --ceiling <meter+(21 beats+1 portrait)*0.134*1.5+25>
-# then promote CITY from b04, QC, assemble, ship per PROMPT-OPUS-RUNNER.md
+# portraits + CITY plate (b04) already DONE — do NOT regen them.
+python3 media-production-v2/v2_gen_api.py build-116-graven-on-his-palms --ceiling <meter+20*0.201+25>
+# generates the 20 remaining beats (b01-b03, b05-b21); CITY already wired to b04, WOMAN portrait set.
+# then QC, assemble, ship per PROMPT-OPUS-RUNNER.md
 ```
+
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (2nd probe, $0 spent)
+
+Re-probed post-topup this session. Portraits (WOMAN) and CITY plate (b04, s04)
+already existed — QC'd b04 as a clean plate (first-century Judean dusk town,
+stars, many solitaries each faced away, no lens-stare, no cream, no modern
+object, anatomy fine — PASS). Ran `v2_gen_api ... --ceiling 438.66` to generate
+the 20 remaining beats; it returned `429 RESOURCE_EXHAUSTED — "Your prepayment
+credits are depleted"` on beat b01, the very first call. Retried once after 62 s
+per the brief — IDENTICAL depleted 429. This is the HARD billing wall (RUNNER-
+LESSONS INFRA/BILLING), GLOBAL to the Gemini key: every row is blocked, there is
+NO next-ready row to fall to. **$0 spent** (429 fired before any image made).
+
+**ACTION FOR CAMERON:** top up Google AI Studio prepayment billing at
+https://ai.studio/projects (billing → prepay). Until then NO row can generate.
+After topup, any session re-running the RESUME above ships this row.
 
 ---
 
