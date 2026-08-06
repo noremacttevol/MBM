@@ -41,3 +41,42 @@ an injected crowd would reverse the verse's meaning).
 - The crowd RECOILS in b06-b11 — varied real recoil, no uniform
   choreography (rows 90/107).
 - Only Jesus wears cream.
+
+---
+
+## RUNNER QC — A-auto (Machine A `Dev`) 2026-08-06
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 54` surfaced no filed
+complaint for this row. Nothing to answer; nothing regressed.
+
+**Build:** 24 beats + 1 LEPER portrait. WILDS promoted from b01 (single-figure
+broken country, no man in the plate); ROADSIDE<-38, VILLAGE<-38 wired.
+`--check` PASS. AUDIO LOCK PASS (SHA256 8691209c...39ef). 19.7 MB / 154 s.
+
+**Reroll count: 0 of 24 beats (0%).** Well under the 15% COST LAW budget.
+Every frame passed light QC on the first take.
+
+**Cost:** portrait $0.13 + b01 anchor $0.13 + main gen $3.08 = ~$3.34/row,
+well under the $6.10 running average -- trend DOWN per the COST LAW.
+
+**Light-QC pass (all 24 viewed once):**
+- Realistic biblical photography throughout -- no cartoon, no mixed styles.
+- Leprosy shown with dignity: covered lower lip (Lev 13:45), ashen patched
+  skin on face/forearms, wrapped hands -- never gore. Cleansed frames
+  (s15/s16/s17) show the SAME man, skin clear.
+- Only Jesus wears cream; crowd/leper figures in brown/olive/grey.
+- Scale gate PASS -- Jesus ordinary-sized in every multi-figure frame; no giant.
+- Directions anchored -- s05 toward crowd, s20 points to gate (gate in frame),
+  s24 streams converge inward on the one figure.
+- Beard/identity consistent for leper and Jesus across the arc.
+- No modern objects, no lens-staring, dark hair on all crowd/children.
+- Captions bottom-band only; closing question card clean margins.
+
+**OBSERVATION (not a reroll -- reference-level, logged for the wave):** Jesus's
+eyes read green/hazel, most visible in the s13 "I will" close-up. FAITHFUL to
+the locked V2 reference JESUS-V2-REF/jesus-v2-face.jpeg, which is itself
+green/hazel-eyed, and matches every shipped V2 row (45/46/47/52/53). A reroll
+cannot fix it (echoes the ref or breaks face-consistency); editing the reference
+is a runner hard-rail violation. If Cameron wants brown eyes, that is a
+whole-wave reference change above the runner's scope -- flagged so it is not
+silently lost. See MEMORY v2_rebuild_plan "green-eyed Jesus."
