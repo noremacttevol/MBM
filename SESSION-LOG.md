@@ -1,3 +1,30 @@
+## 2026-08-06 (Opus autopilot, lane pid2875780) — Row 46 seed-growing SHIPPED + DEPLOYED; row-45 pile-on root-caused — Machine A `Dev`
+
+Landed as the 00:44 cron lane while 2 sibling lanes were mid-generating row 45.
+Diagnosed the pile-on ROOT CAUSE and would not add a third concurrent gen to 45:
+every fresh Claude lane judged "row 45 crashed" from an empty `frames/` dir — but
+the art lives in `assets/*.jpeg`, and all 6 lanes sign claims `A-auto`, so the
+signature can't tell a live sibling from a crashed self. Wrote both facts + a
+`ps aux | grep v2_gen_api` claim-time check into RUNNER-LESSONS.md (new "FLEET /
+COLLISION" section) so lanes stop dogpiling. Row 45 finished + shipped by a
+sibling meanwhile; the dogpile has since resolved (lanes now on 45→built, 46 me,
+47 sibling).
+
+**Row 46 (seed-growing, Mark 4:26-29):** 32 stills @ 2K, 192.8s, AUDIO LOCK PASS,
+**ZERO rerolls** (COST LAW: 0% vs 15% budget — the cheapest possible row). FARMER
+portrait (1) + FIELD plate (build-28) + HOUSE promoted-first from this row's b02.
+QC every frame via 8-up montages: b27 wide exact count (farmer+2 neighbours+boy), night
+beats truly night, growth stages in order, sickle glad not ominous, only Jesus in
+cream. Caption-cover complaint re-verified live (captions bottom-band only).
+Shipped `5d7e9c7659d6...`, card set to realistic-v2, `firebase deploy` + live curl
+verified on https://milk-b4-meat.web.app/review.html. FIX-WAVE note left: farmer
+footwear drifts boots↔sandals (minor, below reroll bar).
+
+**Cost:** meter 248.70 → ~256.5 (~$7.8 incl. the 1 portrait + HOUSE anchor). At
+$0/reroll this row pulls the running average DOWN, satisfying the COST LAW.
+
+---
+
 ## 2026-08-06 (Opus runner, HEADLESS autopilot) — Row-45 SECOND pile-on caught & stopped; already-shipped guard added — Machine A `Dev`
 
 A concurrent autopilot lane on this same machine had ALREADY built AND shipped
