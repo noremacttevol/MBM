@@ -1,3 +1,48 @@
+## 2026-08-06 (Opus autopilot) — Row 71 the-great-commission SHIPPED + row 70 parked — Machine A `Dev`
+
+Chained from row 67 the-transfiguration (commit 0a35cbd5e verified in `git log` at
+session start). Session-chain OK.
+
+**Row 70 (temptations) — PARKED, not built.** LEARNING LAW: `v2_outline.py 70`
+shows an OPEN complaint — *"The narrator spells out 'I-S' instead of pronouncing
+the word… Also it mispronounced 'proceedeth'."* This is an AUDIO RE-VOICE: the V2
+pipeline ships byte-identical V1 narration (AUDIO LOCK assembles the existing
+mp3s), and the defect is baked in — n2's source has all-caps "this IS my Son"
+(TTS reads letters I-S) with the build's `SPOKEN = {}` empty, and "proceedeth"
+has no respell. Runner cannot re-voice (rows 50/51 precedent). Marked NEEDS-AUDIO
+on AUTHOR-BOARD, RUNNER PARK note + resume in QC.md. Commit 2ea73a4a9.
+
+**Row 71 (The Great Commission, Matt 28) — SHIPPED REALISTIC V2.** QUEUE-swap
+verified (old calling-fishermen dup retired; Great Commission is the authored
+story). `v2_prompt.py --check` PASS. Portraits: 0 (cast sheets reused, $0). Place
+MOUNT generated straight (natural outdoor, PLACE-WIRING empty; QC named no
+promote-first). 21 realistic 2K stills laddering Matt 28:16-20: empty crosses far
+→ eleven climb → risen Christ (healed wrist-marks) → worship+doubt → "All power"
+→ "Go ye… Father, Son, Holy Ghost" (three fingers) → "I am with you alway" →
+going-out down to the sea. Off-screen law (crosses far, no bodies; Father/adversary
+never shown) honored.
+
+**COMPLAINT LEDGER (open complaint FIXED):** Cameron: *"I cant tell if this were
+remade with the correct references… redo the ones with the important characters
+we have the reference for."* → Every one of Jesus's 11 frames generated WITH the
+locked V2 face ref (`[face lock]` logged each), face-boarded to one actor; beard
+board (lesson 13) + scale gate (lesson 14) PASS; only Jesus wears cream. Answered
+on the review card in Cameron's own terms.
+
+**Cost/quality:** 1 reroll / 21 = **4.8%** (well under 15% budget) — b12 had a
+thin wire-straight line across the misty sky (modern utility-cable, RUNNER-LESSONS
+row 53) → clean rock-hewn tomb. FIX-WAVE kept: b21 faint far-aerial roads. Row
+≈ **$2.95** (21 stills + 0 portraits + 1 reroll), under the $6.10 running average —
+trend DOWN. Realistic-only (Law 14): all 21 photographic, zero cartoon/mixed.
+**AUDIO LOCK PASS** (SHA256 c29f8cf…); captions verified in the rendered mp4
+(narrator white / Jesus red, bottom band; question card clean).
+
+**Ship:** commit A 66177afadf (mp4 + QC.md + assets + boards + QUEUE). review.html
+v71 card → `data-review-wave="realistic-v2"`, hash 66177afadf, v2 mp4 path, title
+fixed to "The Great Commission", complaint answered. Deployed to Firebase
+`milk-b4-meat` + live-verified (below). AUTHOR-BOARD row 71 → BUILT/SHIPPED.
+
+---
 ## 2026-08-06 (Opus autopilot) — Row 68 multitudes-mountain SHIPPED + DEPLOYED — Machine A `Dev`
 
 Chained from row 66 (its SESSION-LOG entry + commit `aea7223d4` verified in
