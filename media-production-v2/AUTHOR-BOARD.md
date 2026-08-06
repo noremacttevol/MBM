@@ -127,7 +127,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 113 | build-113-where-art-thou | NEEDS-AUDIO | 26 | CHECK | A-auto 2026-08-06 PARKED ($4.14 art, all 26 stills DONE+QC-PASS, GOD embodied per complaint): v2_assemble FAILS AUDIO LOCK — STALE-V1-FINAL, V1 mp4 (193.3s, 07-29 09:47) is stale vs 15 re-voiced mp3s (07-29 23:03), timeline 163.1s. Runner can't edit beats_v2.py. Author: set AUDIO_FROM_V1_SEGMENTS=True then re-assemble (stills reusable, do NOT regen). See QC.md RUNNER PARK. |  |
 | 114 | build-114-abraham-sodom | RUNNING | 23 | OK | A-auto 2026-08-06 PARKED billing-depleted: 23/23 stills + ABRAHAM portrait DONE, HEIGHT/CAMP plates promoted. NOT shipped — b13/b14 are COLLAGES needing reroll; blocked on Gemini "prepayment credits depleted" 429 (persisted after 60s retry). Do NOT regen the 21 good stills. Resume in QC.md after Cameron tops up billing. | ✅ |
 | 115 | build-115-ram-in-the-thicket | AUTHORED | 16 | OK | A-auto 2026-08-06 PARKED-BILLING: Gemini prepayment credits DEPLETED (429 persists across 60s retry) — GLOBAL key block, stops all lanes. 16/32 stills done (b01-b16, valid, do NOT regen) + portraits + MORIAH plate. Cameron must top up AI Studio billing, then resume `v2_gen_api build-115... --ceiling <meter+16*0.201+25>`. See QC.md RUNNER PARK. | ✅ |
-| 116 | build-116-graven-on-his-palms | AUTHORED | 0 | OK |  | ✅ |
+| 116 | build-116-graven-on-his-palms | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 117 | build-117-hosea-buys-her-back | AUTHORED | 0 | OK |  | ✅ |
 | 118 | build-118-jonah-god-who-relents | AUTHORED | 0 | OK |  | ✅ |
 | 119 | build-119-fourth-man-in-fire | AUTHORED | 0 | OK |  | ✅ |
