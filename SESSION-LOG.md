@@ -1,3 +1,47 @@
+## 2026-08-06 (Opus autopilot) — Row 53 peters-mother-in-law SHIPPED + DEPLOYED — Machine A `Dev`
+
+Rows 48/49/52 were RUNNING (live siblings), 45/46/47 already shipped, 50/51 parked
+NEEDS-AUDIO. The lowest Ready ✅ empty-claim row was **53 (Peter's mother-in-law,
+Mark 1:29-31)** — claimed by push (commit db471a947), built end to end.
+
+**Row 53:** 15 painted stills @ native 2K (V1 had 8), the little healing laddered
+shot by shot — synagogue exit → arrival at Simon's Capernaum house → the mother
+sick with fever, family helpless → they tell Jesus → he kneels beside her, takes
+her hand and lifts her up → fever gone, she rises and ministers → the quiet
+golden-hour meal. **3 story-cast portraits** (SIMON=Peter, MOTHER silver-haired
+age-locked, WIFE); **HOUSE plate promoted-first from b03** (person-free basalt
+fisherman's courtyard) and wired to 13 beats. `v2_prompt.py --check` PASS before
+first credit.
+
+**Guard-fix (rows 17/25 pattern):** the AUDIO LOCK stale-V1 guard fired (V1 render
+101.033 s vs 100.066 s summed from the re-voiced segment mp3s — the V1 mp4 is an
+out-of-date render). Set `AUDIO_FROM_V1_SEGMENTS = True` (the tool's prescribed
+fix, documented in-file): the assembler rebuilds the track from the verified V1
+segment mp3s at the extract_beats offsets and hash-verifies — **AUDIO REBUILD PASS
+SHA256 34358cde…**, nothing re-voiced, V1 read-only. 19.3 MB / 100.1 s.
+
+**LEARNING LAW / COMPLAINT LEDGER:** row 53 has **no open complaints**
+(`v2_outline.py 53`). Corpus checks carried anyway and confirmed in QC.md: row-15
+grey-sick class does NOT regress (mother flushed/warm-alive in every sick frame,
+never corpse-grey; silver-hair age held s05→s15); healing is touch-and-lift with a
+clean grip and NO glow/effect; row-83 service direction (s13 strides into the
+courtyard work, s14 platter goes down toward Jesus); scale + beard gates pass; only
+Jesus in cream; all 15 frames realistic, zero cartoon/mixed.
+
+**COST LAW:** **1 reroll of 15 beats = 6.7%** (vs 15% budget) — s13's sky carried a
+thin power-line artifact (propagated faint from the s03 plate), cleared in one
+redo. Spend ≈ **$2.54/row** (3 portraits $0.40 + 15 stills $2.01 + 1 reroll $0.13),
+**well under the $6.10 average** — plate promote + cast reuse kept it low. FIX-WAVE
+(no reroll spent): s02 young disciple's hair slightly light; s08 Jesus's eye catches
+a greenish catchlight in one close-up (brown in every other frame).
+
+Shipped in two commits (mp4+boards, then review card), **deployed to Firebase
+hosting**, live URL verified carrying the new hash and the mp4 returning HTTP 200.
+STASH rescan committed so row-53 stills are reusable plates. Prior approval VOID
+under REDO-ALL; awaiting Cameron.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 52 demoniac-synagogue SHIPPED + DEPLOYED; rows 50 & 51 parked NEEDS-AUDIO — Machine A `Dev`
 
 Rows 48/49 were RUNNING (live siblings) and 45/46/47 already shipped. The lowest
