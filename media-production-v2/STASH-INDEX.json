@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 06:20:34",
+ "scanned": "2026-08-06 06:41:09",
  "entries": [
   {
    "row": 1,
@@ -34085,6 +34085,350 @@
    "night": false,
    "n_person": 0,
    "scene": "The closing frame fills with faces in the clear morning light \u2014 the farmer's, the questioner's, the bored soldier's, the child's on its mother's hip, old and young and friend and schemer crowding the colonnade \u2014 every on"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b01",
+   "file": "build-85-shepherds-and-angels/assets/s01-outside-bethlehem-shepherds-were-keeping.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "The night pasture keeps its slow watch, the camera beyond the fire's ring behind the flock's grey backs: the four shepherds around the low banked fire \u2014 the old greybeard nodding on his crook, the brothers trading low wo"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b02",
+   "file": "build-85-shepherds-and-angels/assets/s02-not-for-the-palace.jpeg",
+   "tokens": [
+    "FIELD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The frame looks the other way for one beat: out over the dark ridgelines toward the great sleeping world \u2014 the direction of palaces and thrones and marble halls, all of it black and silent under the stars, not one ray of"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b03",
+   "file": "build-85-shepherds-and-angels/assets/s03-suddenly-an-angel-of-the.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS",
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Between one heartbeat and the next the night tears open: a tall figure in plain silver-grey stands on the grass before the watch-fire where no one stood \u2014 feet on the ground, face calm and strong \u2014 and around him the who"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b04",
+   "file": "build-85-shepherds-and-angels/assets/s04-and-the-angel-said.jpeg",
+   "tokens": [
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the herald's face in the flooding brightness: calm, strong, ageless, the dark hair stirred by no wind of earth, the eyes bent kindly on four terrified sheep-men as the mouth opens on the first word \u2014 a messenger"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b05",
+   "file": "build-85-shepherds-and-angels/assets/s05-for-unto-you-is-born.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS",
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The herald's arm sweeps out over the blazing grass toward the small dark hill of Bethlehem \u2014 UNTO YOU is born THIS DAY \u2014 and the four lit faces swing along the pointing line: the greybeard clutching his crook, the brothe"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b06",
+   "file": "build-85-shepherds-and-angels/assets/s06-listen-to-who-he-says.jpeg",
+   "tokens": [
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Close on the four faces the light picked: the greybeard's deep-creased squint, the brothers' wind-burned cheeks and broken noses, the boy's fire-smudged jaw \u2014 night-shift faces, smelling of sheep and smoke, unshaved and "
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b07",
+   "file": "build-85-shepherds-and-angels/assets/s07-not-for-the-temple-for.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The wide frame holds heaven's chosen venue in full: a working sheep field \u2014 dung-dotted grass, a smoking watch-fire, wool snagged on thorn, four men with crooks \u2014 every ordinary inch of it standing inside the great white"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b08",
+   "file": "build-85-shepherds-and-angels/assets/s08-and-in-a-moment-the.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS",
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The sky itself changes tenancy, the camera low behind the four kneeling silhouetted-dark shoulders: above the blazing slope the brightness fills rank upon rank with standing figures \u2014 plain-robed in silver-grey, real as "
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b09",
+   "file": "build-85-shepherds-and-angels/assets/s09-glory-to-god-in-the.jpeg",
+   "tokens": [
+    "FIELD",
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The filled sky sings: rank on plain-robed rank with faces lifted and mouths open on the same words, arms rising like a field of grain in one wind \u2014 GLORY in the highest pouring upward, PEACE and GOOD WILL raining down \u2014 "
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b10",
+   "file": "build-85-shepherds-and-angels/assets/s10-that-is-what-the-sky.jpeg",
+   "tokens": [
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the four upturned faces as the words sort themselves into kindness: the greybeard's white-knuckled grip easing down the crook, the brothers' braced shoulders coming loose, the boy's terror tipping over into open"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b11",
+   "file": "build-85-shepherds-and-angels/assets/s11-not-a-demand-peace-and.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "The frame holds, the camera far across the slope taking sky and field from the side, the whole impossible pairing: above, the sky-wide shining ranks of the host in full anthem \u2014 below, a stony pasture, a guttered watch-f"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b12",
+   "file": "build-85-shepherds-and-angels/assets/s12-they-were-terrified.jpeg",
+   "tokens": [
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The brilliance hits and the men break like startled birds: one brother stumbling backward over a rock with his arm flung across his eyes, the other frozen mid-crouch, the boy clamped to the greybeard's mantle with both f"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b13",
+   "file": "build-85-shepherds-and-angels/assets/s13-when-the-angels-had-gone.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The sky is only stars again \u2014 sudden, enormous, ordinary \u2014 and the slope stands dark around the little fire where four changed men cluster head to head: eyes still full of what just left, voices tumbling over each other,"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b14",
+   "file": "build-85-shepherds-and-angels/assets/s14-let-us-now-go-even.jpeg",
+   "tokens": [
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the moment the decision lands: the greybeard's single slow nod, and around it the instant unanimity of men who have stopped needing convincing \u2014 crooks snatched up, mantles cinched, every body already turned tow"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b15",
+   "file": "build-85-shepherds-and-angels/assets/s15-they-did-not-stand-around.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "Down the dark slope they run, the camera beside their line so the sprint crosses in profile toward the town's far lights \u2014 flat-out, mantles streaming, the boy's young legs pulling him out front with the brothers poundin"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b16",
+   "file": "build-85-shepherds-and-angels/assets/s16-they-found-mary-and-joseph.jpeg",
+   "tokens": [
+    "STABLE",
+    "MARY",
+    "JOSEPH",
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "At the cave's mouth, the camera inside behind the lamplit family's shoulders, the four runners pull up breathless \u2014 and there it all is, exactly as spoken: the small lamp's amber room, Mary resting against the rock in he"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b17",
+   "file": "build-85-shepherds-and-angels/assets/s17-there-he-was-the-saviour.jpeg",
+   "tokens": [
+    "STABLE",
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The four big men fold down small around the feed-trough \u2014 knees in the straw, crooks laid aside, the greybeard's scarred hand hovering an inch above the wrapping and not daring \u2014 and between their bent shoulders the whol"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b18",
+   "file": "build-85-shepherds-and-angels/assets/s18-the-shepherds-could-not-keep.jpeg",
+   "tokens": [
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close at the cave mouth as the containment fails: the brothers turning to each other with grins cracking their wind-burned faces wide open, the boy half-laughing, half-crying, the greybeard shaking his head over and over"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b19",
+   "file": "build-85-shepherds-and-angels/assets/s19-they-went-out-glorifying-and.jpeg",
+   "tokens": [
+    "SHEPHERDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Down the narrow lamplit lane the news goes off like sparks in stubble: the shepherds mid-story with arms sweeping the sky's remembered ranks, a householder leaning out his door with a lamp, heads appearing at windows abo"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b20",
+   "file": "build-85-shepherds-and-angels/assets/s20-but-mary-kept-all-these.jpeg",
+   "tokens": [
+    "STABLE",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Inside the cave the lamp keeps its small quiet, and in it Mary sits perfectly still with the swaddled child gathered against her \u2014 her eyes open, deep, travelling slowly over nothing visible \u2014 the shepherds' distant shou"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b21",
+   "file": "build-85-shepherds-and-angels/assets/s21-in-a-story-full-of.jpeg",
+   "tokens": [
+    "STABLE",
+    "MARY",
+    "JOSEPH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The wide frame sets the two volumes side by side: through the cave's open mouth the faint far lamplight and commotion of a town waking up to news \u2014 and within, the still amber room where nobody says anything at all: Jose"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b22",
+   "file": "build-85-shepherds-and-angels/assets/s22-she-gathered-it-all-up.jpeg",
+   "tokens": [
+    "STABLE",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the keeper at her work: Mary's face bent over the sleeping child, the lamp's small flame steady in her dark eyes while behind them the day is gathered piece by piece \u2014 the torn-open sky retold at her door, the r"
+  },
+  {
+   "row": 85,
+   "build": "build-85-shepherds-and-angels",
+   "beat": "v2-r085-b23",
+   "file": "build-85-shepherds-and-angels/assets/s23-fear-not-for-behold-i.jpeg",
+   "tokens": [
+    "FIELD",
+    "SHEPHERDS",
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The herald's two hands come out and down, palms open toward the cowering men \u2014 the oldest gesture of no-harm there is \u2014 FEAR NOT \u2014 and the words move through the brilliance like warmth through cold water: the flung-up ar"
   }
  ]
 }
