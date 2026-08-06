@@ -96,7 +96,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 82 | build-82-anointing-at-bethany | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1, FAILS BOTH tripwires — newer_mp3s=19 AND excess=+7.00s. Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 83 | build-83-weeping-over-jerusalem | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1 duration tripwire — newer=0 but excess=-2.20s (abs>1.0). Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 84 | build-84-no-room-manger | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
-| 85 | build-85-shepherds-and-angels | AUTHORED | 0 | OK |  | ✅ |
+| 85 | build-85-shepherds-and-angels | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 86 | build-86-the-wise-men | AUTHORED | 0 | OK |  | ✅ |
 | 87 | build-87-boy-in-the-temple | AUTHORED | 0 | OK |  | ✅ |
 | 88 | build-88-triumphal-entry | AUTHORED | 0 | OK |  | ✅ |
