@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 07:18:41",
+ "scanned": "2026-08-06 07:31:26",
  "entries": [
   {
    "row": 1,
@@ -36164,6 +36164,681 @@
    "night": false,
    "n_person": 4,
    "scene": "The closing frame, the camera far off behind the small company toward the great face, steps back and lets the scale speak: the little company small at the foot of the enormous pale cliff, Jesus and the newly named Peter "
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b01",
+   "file": "build-104-boy-samuel/assets/s01-in-those-days-the-word.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The house of God keeps a long quiet: the pillared hall deep in night-shadow, heavy hangings hanging still, the curtained doorway dark at the far end \u2014 an architecture built for a speaking God, standing through year after"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b02",
+   "file": "build-104-boy-samuel/assets/s02-but-one-small-lamp-still.jpeg",
+   "tokens": [
+    "HOUSE",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Two small faithfulnesses hold the night: in its place the seven-branched lamp burning low and gold, flames small on their last hours of oil \u2014 and against the near wall, curled on a thin mat with his blanket to his chin, "
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b03",
+   "file": "build-104-boy-samuel/assets/s03-samuel-was-only-a-child.jpeg",
+   "tokens": [
+    "SAMUEL",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the smallest resume in Israel: a ten-year-old's face slack with sleep on a thin mat, dark curls against the rolled cloak that is his pillow, one hand still loosely holding the corner of his blanket \u2014 a child giv"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b04",
+   "file": "build-104-boy-samuel/assets/s04-he-lay-asleep-on-his.jpeg",
+   "tokens": [
+    "HOUSE",
+    "SAMUEL",
+    "ELI"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "The night house sleeps, the camera high at the hall's end taking both sleepers' places in one profile, in its stations: the boy small on his mat in the lamp's gold circle, close to the great curtain's shadow \u2014 and away t"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b05",
+   "file": "build-104-boy-samuel/assets/s05-and-in-the-dark-a.jpeg",
+   "tokens": [
+    "SAMUEL",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The silence of an era ends on one word: SAMUEL \u2014 and the boy sits bolt upright out of sleep, blanket sliding, eyes enormous in the lamp's low gold, head turning toward a voice that came from everywhere and nowhere in the"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b06",
+   "file": "build-104-boy-samuel/assets/s06-he-thought-it-was-old.jpeg",
+   "tokens": [
+    "HOUSE",
+    "SAMUEL",
+    "ELI"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "The boy is up and running, the camera at the hall's side so the sprint crosses in profile toward the old man's doorway, before the echo dies: barefoot across the cold stone of the dark hall, blanket abandoned, skidding t"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b07",
+   "file": "build-104-boy-samuel/assets/s07-here-i-am-you-called.jpeg",
+   "tokens": [
+    "SAMUEL",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Framed small in the doorway's dark arch he stands ready: tunic sleep-rumpled, curls flattened on one side, bare feet on cold stone at an hour no child chooses \u2014 and in the young face not one grain of complaint: just the "
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b08",
+   "file": "build-104-boy-samuel/assets/s08-but-the-old-man-had.jpeg",
+   "tokens": [
+    "ELI",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The old man untangles it kindly from his pillow: the clouded eyes aimed toward the boy-shaped blur in his doorway, the heavy hand waving gentle dismissal \u2014 I CALLED NOT, MY SON \u2014 LIE DOWN AGAIN \u2014 no crossness in it at th"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b09",
+   "file": "build-104-boy-samuel/assets/s09-but-eli-said-i-did.jpeg",
+   "tokens": [
+    "HOUSE",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "He does as he is told, mostly: back across the cold stones, down onto the thin mat, blanket pulled to the chin in the lamp's low gold \u2014 but the big dark eyes stay open, moving slowly over the pillared shadows and the gre"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b10",
+   "file": "build-104-boy-samuel/assets/s10-and-the-voice-came-again.jpeg",
+   "tokens": [
+    "HOUSE",
+    "SAMUEL",
+    "ELI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The name comes again and the small feet fly again: SAMUEL \u2014 and he is up and sprinting the same dark diagonal across the hall, surer this time, faster this time, skidding into the old man's room with the same brave answe"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b11",
+   "file": "build-104-boy-samuel/assets/s11-it-happened-a-third-time.jpeg",
+   "tokens": [
+    "ELI",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The third time, the old man goes still: the boy's breathless HERE-AM-I hanging in the room, and across the ancient face a change like dawn under cloud \u2014 the nearly blind eyes widening at something they cannot see, the he"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b12",
+   "file": "build-104-boy-samuel/assets/s12-this-was-no-dream-and.jpeg",
+   "tokens": [
+    "ELI",
+    "SAMUEL",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The old priest sits up and does the finest thing of his failing life: draws the boy in close between his knees, lays the heavy trembling hands on the small shoulders, and teaches him \u2014 carefully, word by word, like a man"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b13",
+   "file": "build-104-boy-samuel/assets/s13-go-lie-down-and-it.jpeg",
+   "tokens": [
+    "ELI",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Close on the handing-over of six words: the old lips shaping them slowly in the lamplight \u2014 SPEAK, LORD, FOR THY SERVANT HEARETH \u2014 and the young lips moving silently after them, once, twice, setting each word like a ston"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b14",
+   "file": "build-104-boy-samuel/assets/s14-do-not-run-to-me.jpeg",
+   "tokens": [
+    "ELI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The old man's last instruction is a turning: his heavy gentle hand on the boy's shoulder, rotating him bodily away \u2014 away from the bed, away from the priest, out toward the dark hall and the low gold lamp and whatever wa"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b15",
+   "file": "build-104-boy-samuel/assets/s15-and-if-the-voice-comes.jpeg",
+   "tokens": [
+    "SAMUEL",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "He walks back slowly this time: no sprint now, the small bare feet deliberate on the cold stones, the young lips moving over the taught words at every step \u2014 speak, Lord \u2014 thy servant heareth \u2014 carrying the answer across"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b16",
+   "file": "build-104-boy-samuel/assets/s16-so-samuel-went-and-lay.jpeg",
+   "tokens": [
+    "HOUSE",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "And then the house holds the stillest picture of the night: the boy flat on his mat with his eyes open to the pillared dark, hands folded on his chest, every fibre of the small body tuned like an ear \u2014 not sleeping, not "
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b17",
+   "file": "build-104-boy-samuel/assets/s17-samuel-samuel-speak-for-thy.jpeg",
+   "tokens": [
+    "SAMUEL",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The name comes twice this time \u2014 SAMUEL, SAMUEL \u2014 and the boy rises to his knees on the mat and answers the dark exactly as taught: SPEAK \u2014 the young voice steady in the great hushed hall \u2014 FOR THY SERVANT HEARETH \u2014 and "
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b18",
+   "file": "build-104-boy-samuel/assets/s18-speak-i-am-listening-that.jpeg",
+   "tokens": [
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on everything heaven required: one small face lifted open in the lamplight \u2014 no learning in it, no rank, no years of service to point to \u2014 just the complete, undefended openness of a child who has stopped running t"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b19",
+   "file": "build-104-boy-samuel/assets/s19-a-heart-small-enough-and.jpeg",
+   "tokens": [
+    "HOUSE",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The wide hall makes the point with scale: one small kneeling boy in the lamp's gold circle, and around him the great pillared dark of the house of God rising away into shadow \u2014 and somehow the hugeness does not swallow h"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b20",
+   "file": "build-104-boy-samuel/assets/s20-and-god-spoke-to-him.jpeg",
+   "tokens": [
+    "HOUSE",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The conversation outlasts the night: the lamp burned down to its last blue-gold, the first grey of morning arriving at the far doorway \u2014 and the boy still at his post on the mat, knees dented from kneeling, face worn and"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b21",
+   "file": "build-104-boy-samuel/assets/s21-the-child-who-learned-to.jpeg",
+   "tokens": [
+    "SAMUEL",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "In the doorway at first gold light stands the same boy, and not quite: the small frame straighter, the big dark eyes carrying something leveled and quiet that was not there at yesterday's sunset \u2014 a ten-year-old on the d"
+  },
+  {
+   "row": 104,
+   "build": "build-104-boy-samuel",
+   "beat": "v2-r104-b22",
+   "file": "build-104-boy-samuel/assets/s22-it-began-with-a-boy.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The closing frame keeps the listening post: the thin mat with its dented blanket in the morning's first grey-gold, the seven-branched lamp burned low beside it, the great curtain still and quiet beyond \u2014 the exact patch "
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b01",
+   "file": "build-107-john-baptist-doubt/assets/s01-john-the-baptist-had-spent.jpeg",
+   "tokens": [
+    "JOHNB"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The memory stands at full strength, the camera on the far bank taking river and crowd from the side: strength: John thigh-deep in the brown river with the crowd banked along both banks, wild hair flying, the whole gaunt "
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b02",
+   "file": "build-107-john-baptist-doubt/assets/s02-and-now-he-sat-in.jpeg",
+   "tokens": [
+    "CELL",
+    "JOHNB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "And now the signpost sits in the dark: John against the rough stone wall with the iron chain slack from his wrist to its ring, straw and shadow around him, the one narrow shaft of pale day standing in the gloom \u2014 the riv"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b03",
+   "file": "build-107-john-baptist-doubt/assets/s03-if-jesus-really-was-the.jpeg",
+   "tokens": [
+    "CELL",
+    "JOHNB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on faith doing honest arithmetic: John's deep burning eyes moving from the iron on his own wrist to the pale shaft of light and back \u2014 if he is who I said he is, then WHY is this iron still here \u2014 the question turn"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b04",
+   "file": "build-107-john-baptist-doubt/assets/s04-where-was-the-rescue-so.jpeg",
+   "tokens": [
+    "CELL",
+    "JOHNB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The brooding ends on his feet: John up in the shaft's pale light with the chain hanging its slack, the wild head lifted, resolve setting the gaunt features \u2014 the bravest thing a doubting man can do taking shape in him: n"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b05",
+   "file": "build-107-john-baptist-doubt/assets/s05-he-sent-two-of-his.jpeg",
+   "tokens": [
+    "CELL",
+    "JOHNB",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through the door's small iron grate the errand is loaded: John's gaunt face close to the bars, giving the two loyal shapes in the corridor his exact words \u2014 ART THOU HE THAT SHOULD COME \u2014 the older messenger's lips movin"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b06",
+   "file": "build-107-john-baptist-doubt/assets/s06-it-is-one-of-the.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The most human question in the Book takes the road: the two messengers striding silent and grim down from the fortress crag, dark robes snapping, the dead sea's haze behind them and Galilee's far green ahead \u2014 neither ma"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b07",
+   "file": "build-107-john-baptist-doubt/assets/s07-are-you-really-who-i.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The question arrives at its address: the two travel-worn messengers standing before Jesus in the bright working day, the sentence delivered word for careful word \u2014 are you really he \u2014 and on the face receiving it, watche"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b08",
+   "file": "build-107-john-baptist-doubt/assets/s08-he-did-not-scold-john.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the answer choosing its form: Jesus's face gentle over the two waiting couriers, and his hand rising \u2014 not to lecture, not to defend, but to turn them bodily outward toward the bright working day behind him \u2014 th"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b09",
+   "file": "build-107-john-baptist-doubt/assets/s09-go-and-tell-john-what.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The commissioning of two eyewitnesses: Jesus's hands warm on their shoulders, turning them back toward the fortress road \u2014 GO AND TELL JOHN WHAT YOU SEE \u2014 and the two faces already carrying it: eyes still full of what th"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b10",
+   "file": "build-107-john-baptist-doubt/assets/s10-go-and-shew-john-again.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The answer is a landscape at work, the camera high behind the waiting line's shoulders \u2014 a landscape at work: near Jesus a blind man's face tips into the light with his eyes flooding open and his hands flying to his own "
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b11",
+   "file": "build-107-john-baptist-doubt/assets/s11-not-overthrowing-an-empire.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame glances at what is not on fire: a Roman watchtower standing bored on its hill in the haze, the eagle standard unruffled, a sentry leaning on the parapet with nothing to report \u2014 the empire entirely unassaulted,"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b12",
+   "file": "build-107-john-baptist-doubt/assets/s12-he-did-not-send-back.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on two faces being loaded with the answer: the older messenger's lean features gone soft with unguarded wonder, the younger's mouth open on a word he never finds \u2014 both pairs of eyes tracking miracle after miracle "
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b13",
+   "file": "build-107-john-baptist-doubt/assets/s13-the-blind-seeing-the-broken.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One mending, close enough to feel: an old woman's eyes \u2014 milky a minute ago, clear now \u2014 finding and focusing for the first time on the small grandchild she has only ever held in the dark, her trembling hands rising to f"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b14",
+   "file": "build-107-john-baptist-doubt/assets/s14-the-poorest-people-being-treated.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The kingdom's headline act, in full: Jesus seated on the ground among the poorest of the district \u2014 patched families, a day-laborer still dusty, a widow with her two children pulled close \u2014 and his whole attention given "
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b15",
+   "file": "build-107-john-baptist-doubt/assets/s15-not-breaking-open-a-prison.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The method shows itself in single file: along the village's low wall the stepped-over wait in their line \u2014 the beggar the street walks around, the bent woman nobody's eyes meet, the scarred man who eats alone \u2014 and Jesus"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b16",
+   "file": "build-107-john-baptist-doubt/assets/s16-that-was-the-answer-to.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the golden end of the day the couriers turn for home carrying different freight: the grim question they walked in with traded for a scene that keeps replaying behind both pairs of eyes \u2014 the older man's face resolved "
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b17",
+   "file": "build-107-john-baptist-doubt/assets/s17-look-at-the-love-look.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The instruction is obeyed by the whole frame: everywhere the eye lands, love caught in the act \u2014 here a healed boy hoisted laughing onto his father's shoulders, there Jesus steadying an old man's first unaided walk in ye"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b18",
+   "file": "build-107-john-baptist-doubt/assets/s18-and-blessed-is-he-whosoever.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The last line goes into the couriers' keeping wrapped soft: Jesus's face close and gentle as he gives it \u2014 BLESSED IS HE, WHOSOEVER SHALL NOT BE OFFENDED IN ME \u2014 every word chosen the way you choose words for a wounded f"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b19",
+   "file": "build-107-john-baptist-doubt/assets/s19-blessed-is-the-one-who.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the unexpected shape of the answer to every prayer: no armored conqueror, no lightning in either hand \u2014 a sun-browned face in the late light, kind past measuring and utterly unapologetic about the form love took"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b20",
+   "file": "build-107-john-baptist-doubt/assets/s20-and-then-the-moment-the.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The couriers, the camera behind Jesus's shoulder following their small backs down the road, are barely forty paces gone when the loyalty starts: Jesus turned full to the great crowd with his arm raised high, voice carryi"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b21",
+   "file": "build-107-john-baptist-doubt/assets/s21-the-answer-came-back-to.jpeg",
+   "tokens": [
+    "CELL",
+    "JOHNB",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The scene comes home through iron: the two messengers crowded at the little grate with the telling spilling out of them \u2014 hands shaping the opened eyes, the first steps, the risen girl, the poor gathered close \u2014 and insi"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b22",
+   "file": "build-107-john-baptist-doubt/assets/s22-not-rescued-but-no-longer.jpeg",
+   "tokens": [
+    "CELL",
+    "JOHNB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Nothing about the cell has changed, and everything has: the same iron at the same wrist, the same stone, the same waiting \u2014 but the shaft from the high slit falls warm gold now across a face gone quiet at last: the burni"
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b23",
+   "file": "build-107-john-baptist-doubt/assets/s23-sometimes-the-answer-to-our.jpeg",
+   "tokens": [
+    "CELL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame rests where the question was born: the corner of straw and stone under the high slit, the gold shaft lying across it like a hand \u2014 no shattered door in the picture, no struck-off chains, none of the things the "
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b24",
+   "file": "build-107-john-baptist-doubt/assets/s24-it-is-simply-quietly-look.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One more time, the answer: Jesus in the middle of the day's mercy \u2014 a child on his knee, the healed and the fed everywhere in the warm light \u2014 but the whole scene angled gently outward now, an open space in the grass at "
+  },
+  {
+   "row": 107,
+   "build": "build-107-john-baptist-doubt",
+   "beat": "v2-r107-b25",
+   "file": "build-107-john-baptist-doubt/assets/s25-do-not-be-offended-only.jpeg",
+   "tokens": [
+    "CELL",
+    "JOHNB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame keeps the doubter at rest: John settled in the gold shaft with his eyes closed and his breathing long, the iron lying forgotten on a wrist gone loose, the wild face smoothed into something very near a s"
   }
  ]
 }
