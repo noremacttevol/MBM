@@ -402,7 +402,7 @@
 <div class="actions"><button class="approve" id="appbtn41" onclick="toggleApprove(41)">Approve</button><button class="cbtn" onclick="toggleBox(41)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox41" hidden><textarea id="ctext41" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(41)">Save complaint</button></div>
 <div class="cshow" id="cshow41"></div></div>
-<div class="card" id="v42" data-num="42" data-hash="b35fd2a17c3ca409ea2ac2ded999c1a5c23552f6" data-newvoice="1"><p class="title">42 — The Barren Fig Tree Spared<span class="meta"> · Luke 13 · 3:43</span></p>
+<div class="card" id="v42" data-num="42" data-hash="b35fd2a17c3ca409ea2ac2ded999c1a5c23552f6" data-newvoice="1" data-review-wave="realistic-v2"><p class="title">42 — The Barren Fig Tree Spared<span class="meta"> · Luke 13 · 3:43</span></p>
 <div class="flag voice">✅ QC-VERIFIED — real new voice, no scripture echo, plays start to finish</div>
 <div class="flag fixed">🛠 What this cut changed (2026-08-05): 35 painted stills at native 2K instead of V1\'s handful. You watch the three years pass on the tree itself — leafy and fruitless, then bare in winter, then the gardener digging and dunging around the roots, and one green shoot on a bare branch at the end. The narration, voices and timing are untouched — the audio is byte-identical to the cut you already have.</div>
 <div class="flags" id="flags42"></div>
@@ -410,7 +410,7 @@
 <div class="actions"><button class="approve" id="appbtn42" onclick="toggleApprove(42)">Approve</button><button class="cbtn" onclick="toggleBox(42)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox42" hidden><textarea id="ctext42" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(42)">Save complaint</button></div>
 <div class="cshow" id="cshow42"></div></div>
-<div class="card" id="v43" data-num="43" data-hash="be3d0654cef018b0c8f517ccc3bbcb837deab285" data-newvoice="1"><p class="title">43 — The Wedding Garment<span class="meta"> · Matthew 22 · 4:45</span></p>
+<div class="card" id="v43" data-num="43" data-hash="be3d0654cef018b0c8f517ccc3bbcb837deab285" data-newvoice="1" data-review-wave="realistic-v2"><p class="title">43 — The Wedding Garment<span class="meta"> · Matthew 22 · 4:45</span></p>
 <div class="flag voice">✅ QC-VERIFIED — real new voice, no scripture echo, plays start to finish</div>
 <div class="flag fixed">🛠 What this cut changed (2026-08-05): 48 painted stills at native 2K instead of V1\'s handful. The whole banquet plays out now — the invitations refused, the servants sent out to the roads with lamps, the hall filling with whoever they could find, the gold robe handed to each man at the door, and the one man who would not wear one. The narration, voices and timing are untouched — the audio is byte-identical to the cut you already have.</div>
 <div class="flags" id="flags43"></div>
@@ -1686,7 +1686,7 @@ function place(){
   var approved=document.getElementById('approved');
   var rework=document.getElementById('rework');
   var nR=0,nA=0,nW=0, reviewNew=[], reviewOld=[];
-  document.querySelectorAll('.card[data-review-wave="realistic-v2"]').forEach(function(card){
+  document.querySelectorAll('.card').forEach(function(card){
     var num=card.dataset.num, hash=card.dataset.hash, d=STATE[num]||{};
     var approvedNow = d.approved && d.approvedHash===hash;
     var complaintOpen = typeof d.complaintOpen === 'boolean'
