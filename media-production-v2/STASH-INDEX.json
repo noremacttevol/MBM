@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 05:20:28",
+ "scanned": "2026-08-06 05:36:08",
  "entries": [
   {
    "row": 1,
@@ -32230,6 +32230,256 @@
    "night": false,
    "n_person": 1,
    "scene": "The summit meadow stands empty in the full morning \u2014 the grass still holding eleven flattened places in its circle \u2014 and below, on every descending path, the small dark figures grow smaller toward the lake, the valleys, "
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b01",
+   "file": "build-73-this-day-fulfilled/assets/s01-he-came-back-to-nazareth.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through the synagogue's low door, the camera at the side aisle taking the entry in profile, Jesus enters with the sabbath-morning drift of his own town \u2014 an old builder clasping his shoulder in passing, a mother steering"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b02",
+   "file": "build-73-this-day-fulfilled/assets/s02-and-there-was-delivered-unto.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK",
+    "SCROLL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the central platform the plum-robed minister draws the great scroll from its faded linen wrapper and places it into Jesus's waiting hands \u2014 the old wooden rollers settling into his palms with the weight of centuries, "
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b03",
+   "file": "build-73-this-day-fulfilled/assets/s03-and-when-he-had-opened.jpeg",
+   "tokens": [
+    "SCROLL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close over the lectern: Jesus's carpenter hands work the two dark rollers in opposite turns, the honey-amber parchment travelling between them column by dense column \u2014 and his eyes run the script with a purpose the room "
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b04",
+   "file": "build-73-this-day-fulfilled/assets/s04-he-found-the-place-and.jpeg",
+   "tokens": [
+    "SCROLL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The rollers still: Jesus's forefinger comes to rest at the head of one amber column \u2014 the place, found \u2014 and above the settled hand his chest fills for the reading's first breath, his eyes already holding the opening wor"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b05",
+   "file": "build-73-this-day-fulfilled/assets/s05-they-handed-him-the-scroll.jpeg",
+   "tokens": [
+    "SCROLL",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The great scroll lies open across the worn lectern in a shaft of window light: honey-amber parchment stretched between its dark rollers, dense hand-lettered columns marching away to both edges, the surface crazed fine wi"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b06",
+   "file": "build-73-this-day-fulfilled/assets/s06-the-spirit-of-the-lord.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK",
+    "SCROLL"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Standing at the lectern, the camera behind the seated congregation's shoulders, in the angled morning shafts Jesus reads the great passage over his hometown \u2014 the words moving through the small plastered room across bowe"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b07",
+   "file": "build-73-this-day-fulfilled/assets/s07-and-he-closed-the-book.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK",
+    "SCROLL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Three quiet motions in sequence hold the room: the great scroll rolled closed between its rollers, passed back into the plum-robed minister's careful hands \u2014 and then Jesus sits down on the platform bench, robes settling"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b08",
+   "file": "build-73-this-day-fulfilled/assets/s08-and-the-room-held-its.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The small room holds one breath together: every body on the stone benches leaned a fraction forward, a child gone still against his mother's side, the old builder's hands stopped mid-fold, dust motes hanging unhurried in"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b09",
+   "file": "build-73-this-day-fulfilled/assets/s09-the-spirit-of-the-lord.jpeg",
+   "tokens": [
+    "TOWNSFOLK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close along the stone benches the clauses find their people: the day-labourer's patched knees under 'good news to the poor', the young widow's black shawl at 'broken-hearted', an old man's clouded eyes lifting at 'the bl"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b10",
+   "file": "build-73-this-day-fulfilled/assets/s10-not-someday.jpeg",
+   "tokens": [
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still at the platform's edge: the morning's plain window light lying in its angled shaft across worn floorboards \u2014 the grain scrubbed pale by generations of sabbath feet, one knot-hole, the lectern's shadow \u2014 not"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b11",
+   "file": "build-73-this-day-fulfilled/assets/s11-every-line-of-it-was.jpeg",
+   "tokens": [
+    "SCROLL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the open scroll's amber surface: the dense hand-lettered columns marching their centuries \u2014 ink gone brown with age, the parchment's fine crazing like drought-ground, generations of readers' thumb-wear soft at t"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b12",
+   "file": "build-73-this-day-fulfilled/assets/s12-and-the-eyes-of-all.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera stands just behind the seated Jesus's shoulder the verse composes itself: the whole small room's faces aimed at him in one converging fan \u2014 the elder's deep-set stare, the builder's open mouth, the widow's wet"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b13",
+   "file": "build-73-this-day-fulfilled/assets/s13-then-he-rolled-the-scroll.jpeg",
+   "tokens": [
+    "SCROLL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the hands at the lectern: the great scroll rolling closed between them turn by unhurried turn, the amber columns disappearing into themselves, the linen wrapper drawn over and smoothed \u2014 carpenter's patience app"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b14",
+   "file": "build-73-this-day-fulfilled/assets/s14-every-eye-in-the-room.jpeg",
+   "tokens": [
+    "TOWNSFOLK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the front bench: the white-bearded elder who heard this reader's boyhood recitations, and beside him the old builder who squared timber with the father \u2014 two faces working the impossible arithmetic of the mornin"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b15",
+   "file": "build-73-this-day-fulfilled/assets/s15-this-day-is-this-scripture.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Seated on the platform bench in the plain morning light Jesus gives the room its eight words \u2014 quietly, at the volume of a man passing bread \u2014 and the fastened silence takes them whole: the elder's lips parting, the wido"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b16",
+   "file": "build-73-this-day-fulfilled/assets/s16-the-promise-israel-had-waited.jpeg",
+   "tokens": [
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the seated figure in the window shaft's plain light: the travel-worn cream robe, the carpenter's hands at rest on the knees, the warm familiar hometown face \u2014 nothing added, nothing shining \u2014 centuries of healin"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b17",
+   "file": "build-73-this-day-fulfilled/assets/s17-today.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole small room holds the one word's after-silence: Jesus seated calm on the platform, the congregation's faces fastened and unbreathing down both benches, the angled morning shafts standing in the quiet air \u2014 Nazar"
   }
  ]
 }
