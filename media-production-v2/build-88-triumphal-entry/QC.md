@@ -43,3 +43,22 @@ closing — meek rider amid it all, in profile). Eight flips.
 - ROAD wired from build-38. COLT is an animal lock — no plate; LANE
   promote-first from b03's lane frame if needed.
 - Only Jesus wears cream.
+
+
+## RUNNER PARK (A-auto Machine A `Dev`, 2026-08-06) — NEEDS-AUDIO / STALE-V1-FINAL — $0 SPENT
+Pre-flighted at step 2 BEFORE any credit (no stills generated, nothing to reuse-waste).
+
+**BLOCKER — v2_assemble AUDIO LOCK will fail:** timeline total = 118.564s vs authoritative V1 mp4 `matthew-21_triumphal-entry.mp4` = 117.100s.
+Tripwire(s): RUNTIME |Δ|=1.464s > 1.0 (line 531); RECENCY 15 mp3(s) newer than V1 mp4. V1 mp4 SHORTER than timeline (trailing-silence shortfall).
+The AUDIO LOCK copies the finished V1 mp4's AAC stream packet-for-packet; it refuses when the mp4 does not match the recomputed timeline.
+
+**Why the runner cannot fix it:** the fix is `AUDIO_FROM_V1_SEGMENTS = True` in this build's beats_v2.py (rebuilds the track from this build's OWN mp3s at the timeline offsets — nothing re-voiced, V1 stays read-only). Editing beats_v2.py is outside the runner's allowed writes (art / QC.md / boards / SESSION-LOG / review card / mp4 only — PROMPT-OPUS-RUNNER.md hard rails). Same class as parked rows 69/74/77/78/80/82/83.
+
+**FIX (author):** set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py (and note: the {newer}-mp3 recency tripwire also needs a re-rendered V1 mp4 OR the segment-rebuild path, which the flag provides) then this row builds normally.
+
+**RESUME after fix:**
+```
+python3 media-production-v2/v2_story_cast.py build-88-triumphal-entry --ceiling <c>
+python3 media-production-v2/v2_gen_api.py build-88-triumphal-entry --ceiling <c>
+python3 media-production-v2/v2_assemble.py 88
+```

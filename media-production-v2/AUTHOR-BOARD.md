@@ -97,11 +97,11 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 83 | build-83-weeping-over-jerusalem | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1 duration tripwire — newer=0 but excess=-2.20s (abs>1.0). Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 84 | build-84-no-room-manger | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 85 | build-85-shepherds-and-angels | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
-| 86 | build-86-the-wise-men | AUTHORED | 0 | OK |  | ✅ |
-| 87 | build-87-boy-in-the-temple | AUTHORED | 0 | OK |  | ✅ |
-| 88 | build-88-triumphal-entry | AUTHORED | 0 | OK |  | ✅ |
-| 89 | build-89-last-supper | AUTHORED | 0 | OK |  | ✅ |
-| 90 | build-90-washing-feet | AUTHORED | 0 | OK |  | ✅ |
+| 86 | build-86-the-wise-men | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL. total 132.046s vs V1 mp4 130.833s, |Δ|=1.213s>1.0 (line 531 shortfall). newer=0. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 87 | build-87-boy-in-the-temple | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL. total 94.422s vs V1 mp4 93.000s, |Δ|=1.422s>1.0 shortfall. newer=0. Author: set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
+| 88 | build-88-triumphal-entry | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH tripwires — total 118.564s vs V1 mp4 117.100s (|Δ|=1.464s) AND newer_mp3s=15. Author: set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
+| 89 | build-89-last-supper | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL. total 101.900s vs V1 mp4 100.833s, |Δ|=1.067s>1.0 shortfall. newer=0. Author: set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
+| 90 | build-90-washing-feet | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH tripwires — V1 mp4 107.433s runs +31.215s LONGER than timeline 76.218s AND newer_mp3s=13 (V1 mp4 carries deleted/old audio). Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 91 | build-91-gethsemane | AUTHORED | 0 | OK |  | ✅ |
 | 92 | build-92-peters-denial | AUTHORED | 0 | OK |  | ✅ |
 | 93 | build-93-barabbas-goes-free | AUTHORED | 0 | OK |  | ✅ |
