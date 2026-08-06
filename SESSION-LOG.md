@@ -1,3 +1,47 @@
+## 2026-08-06 (Opus autopilot) — Row 68 multitudes-mountain SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 66 (its SESSION-LOG entry + commit `aea7223d4` verified in
+`git log` at session start). Rows 48/60/61/62/63/67 were RUNNING/SHIPPED siblings
+(never touched — parallel-lanes law). Lowest Ready ✅ empty-claim AUTHORED row was
+**68 (Multitudes on the mountain, Matt 15:29-31)** — cross-checked against QUEUE
+(valid story, not swapped; prior state a 9-still "BUILT L1 … Awaiting your yes"),
+claimed by push (commit 598b33f31), built end to end.
+
+**Row 68:** 35 painted stills @ native 2K (V1 had 9). `v2_prompt.py --check` PASS
+before first credit. Portraits: 2 (PLANKMAN + MUTEWOMAN). MOUNTAIN plate — `--wire`
+auto-suggested build-47's sermon mount, which this row's QC.md explicitly forbids
+(a distinct third mountain, not the sermon mount and not build-58's feeding
+hillside); per RUNNER-LESSONS I cleared PLACE-WIRING.json, generated b03, eyeballed
+it (Galilee slope over-the-shoulder from Jesus, first-century village + boats),
+and promoted it to 28 beats. Whole day laddered: Jesus alone on the mount → the
+region streams up carrying its sick (plankman litter + piggyback climb) → "cast
+them down at Jesus' feet" → the healing touch + the four quiet words → the mute
+woman says her husband's name, the plankman walks DOWN on his own legs while the
+EMPTY plank is carried behind → "they glorified the God of Israel" → the three-day
+camp ageing on the hillside → "I have compassion on the multitude." Only Jesus in
+cream; realistic photography throughout, zero cartoon/mixed frames; scale + beard
+gates PASS (Jesus ordinary-sized in every crowd wide).
+
+**COMPLAINT LEDGER:** none open (`v2_outline.py 68` shows no Cameron complaint).
+Judged against all 14 rubric lessons + every RUNNER-LESSONS pattern.
+
+**Cost/quality:** 1 reroll of 35 (**2.9%** vs 15% budget) — b30 `no-names` came back
+with MODERN TOURISTS in the crowd (ballcaps, sunglasses, backpacks, a lanyard) =
+modern-object fail; one redo landed an all-period first-century crowd. 35 stills +
+2 portraits + 1 reroll ≈ **$5.09 for the row** (meter $325.75 → $332.59), under the
+$6.10 running average — cost trend keeps going DOWN (place reused-from-self, 1
+reroll). No FIX-WAVE items. Jesus's green/hazel eye in close-ups (s13/s29/s31) is
+the baked JESUS-V2-REF trait — NOT rerolled per RUNNER-LESSONS (systemic).
+
+**Audio:** `AUDIO LOCK PASS` SHA256 895283bf… — nothing re-voiced, V1 audio
+byte-identical. matt-15_multitudes-mountain.mp4, 21.3 MB, 206.7 s.
+
+**Shipped:** commit c5713f27b (mp4 + QC + boards + QUEUE). review.html card v68
+updated: data-review-wave="realistic-v2", data-hash=c5713f27b…, video src →
+media-production-v2 path. Firebase `firebase deploy --only hosting`; verified live.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 67 the-transfiguration SHIPPED + DEPLOYED — Machine A `Dev`
 
 Chained from row 59 (commit 3005df5d1 verified in `git log` at session start; rows
