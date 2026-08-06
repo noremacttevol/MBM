@@ -42,3 +42,32 @@ doctrine; reject.
 - LANE wired from build-38's golden village-edge frame (light-
   compatible). OXFIELD promote-first from b06.
 - Only Jesus wears cream.
+
+---
+
+## RUNNER PARK — NEEDS-AUDIO (A-auto Machine A `Dev`, 2026-08-06, $0 spent)
+
+**Pre-flighted at step 2 BEFORE any generation (lesson-74 $0 park). NOTHING
+generated — zero credits.**
+
+`assert_v1_final_is_current(row 80)` FAILS: the V1 final
+`media-production/build-80-come-unto-me/matthew-11_come-unto-me.mp4` was
+rendered **2026-07-24 10:15:29**, but ALL 11 of its narration mp3s are NEWER
+(**2026-07-28 14:28:20**). Timeline total = 90.6s, mp4 dur = 88.5s (excess
+-2.1s), newer_mp3s = 11/11. The V1 mp4's audio stream predates the current
+narration, so `v2_assemble` refuses AUDIO LOCK — copying it would ship stale
+voices / a shortened timeline (rubric audio-immutability law).
+
+This is the **row-69 / row-74 / row-78 STALE-V1 class.** The runner is
+forbidden from fixing it (the fix edits `beats_v2.py`, an author audio
+decision outside runner writes).
+
+**AUTHOR FIX:** add `AUDIO_FROM_V1_SEGMENTS = True` to this build's
+`beats_v2.py` (renders narration from the V1 build's OWN mp3s at the
+extract_beats offsets — nothing re-voiced, nothing re-timed, V1 stays
+read-only), OR re-render the V1 mp4 from the current narration.
+
+**RESUME (runner, after author fixes audio):** `Read
+media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows.` — the
+14 authored beats are ready to generate (`v2_prompt.py build-80-come-unto-me
+--check` = PASS). No stills exist yet; a full build from step 2.
