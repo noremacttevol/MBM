@@ -238,3 +238,17 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   the next row. The generated stills are valid and reusable — do NOT regenerate
   when the author later fixes the audio.
 - **PRE-FLIGHT the stale-V1 AUDIO LOCK for $0 BEFORE generating stills (2026-08-06, row 74).** The row-69 stale-V1 fail can be detected before spending a cent: load `v2_assemble` + `extract_beats`, compute `data['total']`, `duration_of(V1mp4)`, and count placed mp3s whose `content_time` > the mp4's `content_time`+1.0 (the RECENCY tripwire). If `newer_mp3s > 0` OR `excess = dur(mp4) - total > 0.75`, the assembler's `assert_v1_final_is_current` WILL refuse — park NEEDS-AUDIO now and generate NOTHING. Shipped rows read `newer_mp3s=0, excess≈0`; row 74 read `19/19 newer, excess=-12.9` (mp4 committed 2026-07-24, mp3s newer, mp4 12.9s short). Doing this at step 2 (before portraits/stills) turns a ~$6 wasted-generate-then-park into a $0 park. Rows whose V1 mp4 was never re-rendered after a narration change are the ones that trip it.
+  - **The pre-flight MUST read the mp3s from `extract_beats.extract(row)["v1_dir"]`
+    under `media-production/`, NOT the v2 build dir (2026-08-06, row 76 false
+    alarm).** `assert_v1_final_is_current` locks to the V1 build's `audio/*.mp3`.
+    Those are tracked, so `content_time` returns their git COMMIT time. The
+    `media-production-v2/<build>/audio/*.mp3` copies are UNTRACKED, so
+    `content_time` falls back to their checkout MTIME — always "newer" than the
+    committed mp4 — and a pre-flight pointed there fires a false STALE-V1 on
+    EVERY row (I saw 76–90 all "STALE", but with the correct V1 dir rows
+    76/77/79/81/83/84/85/86/87 PASS and only 78/80/82/88/89/90 are genuinely
+    stale). Resolve `v1dir = os.path.join(ROOT, data["v1_dir"])`, pick the single
+    non-backup `*.mp4` in it, and call `assert_v1_final_is_current(row, v1dir,
+    locked_final, data, total, duration_of(locked_final))` verbatim — never
+    hand it the v2 dir. Batch-pre-flighting a whole authored block this way ($0)
+    tells you which rows to build vs park before you touch the meter.
