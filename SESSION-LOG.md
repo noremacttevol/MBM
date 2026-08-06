@@ -1,3 +1,40 @@
+## 2026-08-06 (Opus autopilot, 31st resume, headless) — Row 48 STILL billing-blocked ($0) + SHIPPED root-cause fix: autopilot billing circuit breaker — Machine A `Dev`
+
+**Commit:** `PENDING`
+
+Session-chain verified: read SESSION-LOG top (row 48 30th resume park) and confirmed commit
+`7a49c644d` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48 (State
+RUNNING, Claim A-auto) headless/unattended — did NOT start a new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED AGAIN, STILL BLOCKED, $0.** Pulled clean via
+`--rebase --autostash origin main`. `--check` PASS (35 beats, v4 PASS). 11/35 stills intact
+(assets/ s01-s09, s16, s22); 4 plates present; 0 portraits outstanding. Meter $409.64; ceiling
+$440.07. Ran the exact resume command `python3 v2_gen_api.py build-48-new-wine-old-bottles
+--ceiling 440.07` → `429 RESOURCE_EXHAUSTED "prepayment credits are depleted"` on the FIRST shot
+(b10 → s10). **Thirty-first** consecutive resume blocked by the identical empty-prepayment state.
+**$0 spent** — the 429 fires before any image, so the 11 done frames are untouched (COST LAW
+intact). Row left State RUNNING / Claim A-auto; **no false BUILT tick** — the row is NOT built.
+Could NOT reach step 7c DEPLOY: zero frames generate while billing is empty.
+
+**ROOT-CAUSE FIX (new this session — stops the $0 session bleed).** 30 prior park notes asked
+Cameron to pause the cron by hand; it never happened, so the 10-min autopilot kept spawning fresh
+Opus `claude -p` sessions that ALL hit the same wall and burned tokens for $0 (30+ dead sessions on
+row 48 alone). Added a **fail-safe billing circuit breaker to `autopilot.sh`**: before spawning a
+PAID (runner/resume) tick it checks whether any runner/resume log in the last 25 min reported
+`prepayment credits are depleted` / `RESOURCE_EXHAUSTED`; if so it logs and skips the tick. Author
+($0) ticks are never blocked. It **self-heals** — once billing is topped up a run succeeds, leaves
+no fresh depletion log, and the loop resumes with no crontab edit and no manual re-enable. Verified
+`bash -n autopilot.sh` (OK) and `./autopilot.sh --dry-run` (breaker correctly skipped the next paid
+tick, row 117). This does NOT unblock row 48 — only a top-up does — it just stops wasting sessions.
+
+**⛔ THE BLOCK IS GLOBAL, NOT ROW-48-SPECIFIC.** Every V2 row's generation returns the same
+depleted-prepayment 429. **ACTION FOR CAMERON (one action unblocks the whole board):** top up the
+Gemini prepayment at https://ai.studio/projects (billing), then re-run the resume command above
+(row 48 finishes free — 11/35 stills never re-pulled). The new circuit breaker then lets the cron
+resume the rest of the board automatically — no crontab edit needed.
+
+---
+
 ## 2026-08-06 (Opus autopilot, 30th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED (GLOBAL), $0 spent, re-parked clean — Machine A `Dev`
 
 **Commit:** `da741ab75`

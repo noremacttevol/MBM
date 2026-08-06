@@ -117,6 +117,28 @@ else
   exit 0
 fi
 
+# --- billing circuit breaker (Cameron, 2026-08-06) --------------------------
+# A depleted Gemini prepayment balance makes every PAID row (runner/resume)
+# 429 "prepayment credits are depleted" on its first shot, for $0 of work.
+# Without this guard the cron kept spawning a fresh Opus session every 10 min
+# that all hit the same wall and burned Claude tokens for nothing (30+ dead
+# sessions on row 48 alone). If any runner/resume run in the last 25 min
+# reported a depleted prepayment (or RESOURCE_EXHAUSTED), skip THIS paid tick.
+# Author ($0) ticks are never blocked. Self-heals: once billing is topped up a
+# run succeeds and leaves no fresh depletion log, so the loop resumes on its
+# own — no crontab edit and no manual re-enable needed. Fail-safe: if nothing
+# matches (or find/grep errors), the condition is false and we proceed exactly
+# as before, so this can never wedge the loop.
+if [ "$JOB" != "author" ] \
+   && find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' \) \
+        -mmin -25 -print0 2>/dev/null \
+      | xargs -0 -r grep -lE 'prepayment credits are depleted|RESOURCE_EXHAUSTED' 2>/dev/null \
+      | grep -q .; then
+  MSG="billing circuit breaker: a paid run in the last 25 min hit a depleted Gemini prepayment — skipping this $JOB tick (row $ROW) to stop burning \$0 sessions. Top up at https://ai.studio/projects and the loop resumes itself."
+  if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
+  exit 0
+fi
+
 if [ "$DRY" -eq 1 ]; then
   echo "(dry) next tick would start a $JOB session at row $ROW"
   exit 0

@@ -46,31 +46,39 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
-## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (30th resume attempt, headless)
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (31st resume attempt, headless) + ROOT-CAUSE FIX SHIPPED
 
-Fresh headless resume. Pulled clean (Already up to date). `--check` state unchanged (35 beats).
+Fresh headless resume. Pulled clean (Already up to date). `--check` PASSES (35 beats, v4 PASS).
 11/35 stills intact (assets/ s01-s09, s16, s22), 4 plates present, 0 portraits outstanding.
 Meter unchanged at $409.64 (last spend line is still build-116 at 08:29). Ran
 `v2_gen_api.py build-48-new-wine-old-bottles --ceiling 440.07` → **429 RESOURCE_EXHAUSTED on
-the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. **$0 spent.** Thirtieth
+the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. **$0 spent.** Thirty-first
 consecutive resume blocked by the identical empty-prepayment state — a HARD billing block, not a
 rate limit; no automated resume can refill an empty prepayment balance (the script's internal
 retry already fired before surfacing the 429). Row is HARD-BLOCKED on Cameron and cannot advance
 headless. ONLY a billing top-up at https://ai.studio/projects unblocks it; then re-run the resume
 command below (resumes free — the 11 passing frames are never re-pulled) and the runner finishes
 the row unattended through assemble → ship → firebase deploy → BUILT. Row left State RUNNING /
-Claim A-auto. (Note updated in place across the 21st→29th probe to avoid unbounded QC growth —
+Claim A-auto. (Note updated in place across the 21st→31st probe to avoid unbounded QC growth —
 full park history preserved below.)
 
+**ROOT-CAUSE FIX THIS SESSION (stop the $0 session bleed):** 30 prior park notes asked Cameron to
+pause the cron by hand; that never happened, so the 10-min autopilot kept spawning fresh Opus
+`claude -p` sessions that ALL hit the same depleted-prepayment wall and burned tokens for $0. This
+session added a **fail-safe billing circuit breaker to `autopilot.sh`**: before spawning a PAID
+(runner/resume) tick it checks whether any runner/resume log in the last 25 min reported
+`prepayment credits are depleted` / `RESOURCE_EXHAUSTED`, and if so skips the tick (author/$0 ticks
+are never blocked). It **self-heals** — the moment Cameron tops up, a run succeeds, leaves no fresh
+depletion log, and the loop resumes with no crontab edit and no manual re-enable. Verified with
+`bash -n` + `./autopilot.sh --dry-run` (breaker correctly skipped the next paid tick). This does
+NOT unblock row 48 — only a top-up does — it just stops the board from wasting Opus sessions while
+billing is empty.
+
 **⚠️ THE BLOCK IS GLOBAL, NOT ROW-48-SPECIFIC. Every V2 row's generation returns the same
-depleted-prepayment 429 — so the 10-min autopilot cron (`:04,:14,…`) will keep spawning fresh
-`claude -p` opus sessions that burn Claude tokens for $0 of work on EVERY tick until billing is
-refilled. 29 sessions have now burned on this unfixable state. The resume loop cannot self-unblock.
-PLEASE PAUSE the autopilot (comment the `autopilot.sh` line in `crontab -e`) until billing is
-topped up, so it stops consuming sessions.** The ONLY action that moves this row — and unblocks the
-whole board — is topping up the Gemini prepayment balance at https://ai.studio/projects. After that,
-one run of the resume command below finishes the row unattended (assemble → ship → firebase deploy
-→ BUILT), and re-enabling the cron resumes the rest of the board.
+depleted-prepayment 429.** The ONLY action that moves this row — and unblocks the whole board — is
+topping up the Gemini prepayment balance at https://ai.studio/projects. After that, one run of the
+resume command below finishes the row unattended (assemble → ship → firebase deploy → BUILT), and
+the new circuit breaker lets the cron resume the rest of the board automatically.
 
 **EXACT RESUME COMMAND (after top-up):**
 ```
