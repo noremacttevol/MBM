@@ -164,3 +164,11 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   fix the food-legibility first. Exact object counts (e.g. "twelve baskets")
   rarely land to the exact number in a receding line; that is FIX-WAVE, not a
   reroll, once the contents read correctly.
+- **`v2_stash.py --wire` auto-suggests a WRONG-REGION place plate the row's QC
+  forbids** (row 59: WILDS auto-wired from build-54 the-leper, but row-59 QC.md
+  explicitly bans it — leper's Judean broken country ≠ this Decapolis slope).
+  `--wire` matches on TOKEN name only, blind to region/period intent. ALWAYS read
+  the row's QC.md place notes before trusting a wired plate: if QC says "do NOT
+  take build-XX's <TOKEN>" or "promote-first," clear PLACE-WIRING.json (echo '{}'
+  > it), generate the anchor beat, eyeball it, and `--promote` from THIS row's own
+  frame. A copied wrong-region plate would propagate the wrong place to every beat.
