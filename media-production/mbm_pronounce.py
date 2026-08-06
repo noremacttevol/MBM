@@ -81,6 +81,21 @@ SAY = {
 
 # ---- 1b. PER-VOICE: winners from test_names.py (NAMES/respellings.json) -----
 # {written: {speaker: spoken}} — applied only when that speaker is narrating.
+# Words Cameron reported STILL WRONG on a voice that had no entry — proof the
+# one-voice fix leaked. These spread to every voice that lacks its own measured
+# entry (see spoken_text). Add a word here ONLY with a complaint behind it.
+#   Esaias  — row 73: "it jsut pronounced Esaias as essy-y-es" (narrator; only
+#             `scripture` had the fix)
+#   putteth — row 46: "its still wrong correct phonetic breakdown is put-uth"
+#             (only `jesus` had the fix)
+#   liveth / commandeth / divideth / Judaea / Meshach / Stephen / Gennesaret —
+#             same single-voice shape; spread pre-emptively so the next row does
+#             not re-file the same complaint.
+SPREAD_TO_ALL_VOICES = {
+    "Esaias", "putteth", "liveth", "commandeth", "divideth",
+    "Judaea", "Meshach", "Stephen", "Gennesaret",
+}
+
 SAY_BY_VOICE = {
     "Stephen": {"narrator": "steevun"},
     "Cana": {"narrator": "kaynuh"},
@@ -94,7 +109,7 @@ SAY_BY_VOICE = {
     # audio, 2/2 takes). Winners per voice: 'mayketh' round-trips clean in Eric;
     # 'makith' round-trips back as the exact word "maketh" in Steffan. Andrew's
     # plain "maketh" tested fine — no narrator entry on purpose.
-    "maketh": {"jesus": "mayketh", "scripture": "maykith"},  # scripture entry upgraded 2026-07-21 (#150 round 2): fresh Steffan renders of "makith" came out "may keep"/"Mckeith"; "maykith" round-trips "maketh" exactly (MAY-kith, Cameron's #188 target).
+    "maketh": {"jesus": "maykith", "scripture": "maykith"},  # scripture entry upgraded 2026-07-21 (#150 round 2): fresh Steffan renders of "makith" came out "may keep"/"Mckeith"; "maykith" round-trips "maketh" exactly (MAY-kith, Cameron's #188 target).
     # divideth (2026-07-22, measured on Cameron denial #33 "Divideth is
     # pronounced wrong"): Eric reads the plain word as "divoteth" (2/2 takes on
     # the exact #33 line, Matt 25:32). Candidates that lost: "divydeth" ->
@@ -185,10 +200,32 @@ def spoken_text(text, overrides=None, speaker=None):
     for pat, rep in PHRASES:
         text = pat.sub(rep, text)
     table = dict(SAY)
-    if speaker:
-        for w, by_voice in SAY_BY_VOICE.items():
-            if speaker in by_voice:
-                table[w] = by_voice[speaker]
+    # PER-VOICE LEAK FIX (Cameron, 2026-08-05: "i have already complianed about
+    # this once", "still wrong", "again", "this is rediculous").
+    #
+    # Every entry in SAY_BY_VOICE had been measured on ONE voice and applied to
+    # ONLY that voice, so the SAME word stayed broken in the other four. That is
+    # why the identical complaint kept coming back on a different row:
+    #   Esaias  fixed for `scripture` only -> the NARRATOR said "essy-y-es" (row 73)
+    #   putteth fixed for `jesus` only     -> still wrong elsewhere      (row 46)
+    #   Cana    fixed for `narrator` only  -> still wrong elsewhere      (row 50)
+    # A respelling that won an A/B on one voice is a far better bet on another
+    # voice than the plain word that is already known to be read wrong. So: a
+    # voice with its OWN measured entry keeps it; every other voice now falls
+    # back to the proven respelling instead of getting nothing.
+    # NOT blanket: some words have no entry on a voice ON PURPOSE because the
+    # plain spelling was measured and won there (e.g. "maketh" on the narrator).
+    # Overriding those would trade one complaint for another. So the fallback is
+    # EVIDENCE-DRIVEN: only words in SPREAD_TO_ALL_VOICES — each one a word
+    # Cameron reported still wrong on a voice that had no entry — spread.
+    for w, by_voice in SAY_BY_VOICE.items():
+        if speaker and speaker in by_voice:
+            table[w] = by_voice[speaker]
+        elif w in SPREAD_TO_ALL_VOICES:
+            for pref in ("scripture", "narrator", "jesus", "god", "woman"):
+                if pref in by_voice:
+                    table[w] = by_voice[pref]
+                    break
     if overrides:
         table.update(overrides)
     lower = {k.lower(): v for k, v in table.items()}
