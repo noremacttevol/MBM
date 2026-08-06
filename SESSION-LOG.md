@@ -1,5 +1,7 @@
 ## 2026-08-06 (Opus autopilot, 30th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED (GLOBAL), $0 spent, re-parked clean — Machine A `Dev`
 
+**Commit:** `da741ab75`
+
 Session-chain verified: read SESSION-LOG top (row 48 29th resume park) and confirmed commit
 `82716e4f9` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48 (State
 RUNNING, Claim A-auto) headless/unattended — did NOT start a new row.
