@@ -1,6 +1,6 @@
 ## 2026-08-06 (Opus, 43rd resume, headless) — Row 48 STILL billing-blocked ($0), re-parked clean — Machine A `Dev`
 
-**Commit:** `PENDING`
+**Commit:** `5073e28e5`
 
 Session-chain verified: read SESSION-LOG top (42nd-resume park, commit `1db9737b5` / stamp `6934fa532`)
 and confirmed both present in `git log --oneline -5`. Hostname `Dev` → Machine A. Directed to RESUME
