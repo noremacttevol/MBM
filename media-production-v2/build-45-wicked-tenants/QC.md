@@ -61,3 +61,38 @@ b51 building wide lands as the reveal.
   through seasons → grey morning for the son → spring again for the new
   tenants. One direction only.
 - Only Jesus wears cream (portico beats).
+
+---
+
+## RUNNER BUILD LOG — REALISTIC V2 (Opus runner, Machine A `Dev`, 2026-08-06)
+
+**COMPLAINT LEDGER:** none open on the reviewer for row 45. The ONE historical
+complaint of record — *"captions cover the whole picture"* (CAPTION-PASS list,
+resolved 2026-07-17) — is verified NOT regressed: the three extracted render
+frames (early / middle / question-card) show every caption confined to the
+translucent bottom band, never over the art, and the question card sits clean on
+its cream field with correct margins and no tofu.
+
+**Build:** 54 stills at native 2K (v1 held the whole Mark 12 parable on ~13
+frames). Portraits: OWNER + SON (2). Plates: VINEYARD (build-23 b03), ROAD
+(build-38 b39) inherited; PORTICO promoted-first from b01 (one temple portico,
+Jesus in cream on the stone bench, hostile knot at the edge) → 10 portico beats
+copy it.
+
+**Rerolls:** 2 — both on b10 ("the owner is far away, tenants working the
+lease"). The first two takes rendered as multi-panel COLLAGES (a 4-up then a
+3-up grid inside one 9:16 frame — the row-42 collage failure mode). Third take
+is a single coherent wide: four distinct tenants (pruner, vine-tender, two
+carrying jars) on one ground plane, period tools, no cream. Reroll rate =
+2/54 = **3.7%** (budget 15%). No FIX-WAVE beats.
+
+**Cost:** portraits $0.27 + 54 beats + 2 rerolls ≈ **$5.90 this row**; meter
+243.88 → 249.78. Under the $6.10 running average — cost trending DOWN.
+
+**Gates:** `v2_prompt.py --check` PASS (54 beats, v4 checklist). Beard pass
+(lesson 13): OWNER grey full beard, SON short dark beard, four tenants stable —
+no appear/disappear/recolor. Scale gate (lesson 14): no giants; Jesus
+ordinary-sized on the portico bench; the son small by distance on the road, not
+shrunken. Off-screen-violence law (FLAG R): honored — b21 empty dusk road, b38
+the cast-out cloak on the road, no blows/bodies/blood anywhere. Only Jesus wears
+cream. **AUDIO LOCK PASS SHA256=2b4c517b0617af407b5b97b42bee777ce8b91caab6f2adef2ce5836ef4942ec1**, 319.2s, 20.7 MB.
