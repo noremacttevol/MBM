@@ -43,3 +43,33 @@ catastrophe-with-casualties the story explicitly does not have.
 - Only Jesus wears cream (mount beats).
 - Person-free frames: b02 b05 b12 b14 b20 b22 b23 b26 and the trench/
   hands inserts — do not let the model add figures.
+
+---
+
+## RUNNER SHIP PASS — A-auto 2026-08-06 (lane pid2895793)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 47` shows zero open
+complaints for this row; the caption fault noted on QUEUE FIX-LATER
+(#47 "check for long captions — FIXED 2026-07-17") is verified fixed —
+rendered caption frames confirm captions sit in the bottom band only,
+split across the narration, never covering the art (see the two body
+frames captured at ship). Complaint-corpus preventive checks (builder
+identity/tunic non-swap rows 32/62/91/102, direction row 83, same-place
+row 11, scale gate, storm-is-daytime) all held — verified at QC.
+
+**Build facts:** 37 beats, 221.5 s, AUDIO LOCK PASS
+(SHA256 3e4ea90e…4494c1). Portraits WISE-B (terracotta / black beard)
+and SAND-B (teal / brown beard) — distinct, non-swapping across b03,
+b33, b34, b35. Plates: PLAIN (wired from build-38 b46), MOUNT
+(promote-first from b01, 12 beats). Rerolls: 1 of 37 (b15) = 2.7%,
+well under the 15% COST-LAW budget. Run cost ≈ $0.13 (b01) + $0.94
+(remaining 7 after a partial) + $0.13 reroll + $0.27 portraits +
+earlier partial runs; row all-in ≈ $2–3 on top of promoted/wired reuse.
+
+**FIX-WAVE (kept best take, not obvious garbage):**
+- b15 (family safe inside during the flood): first take had a clearly
+  blond child; reroll gave a dark-haired left child and a light-BROWN
+  right child. Residual: the right child's hair still reads a touch
+  light for first-century Judea. Minor realism drift, not garbage —
+  left for the fix wave. Everything else (storm-is-daytime read, clay
+  oil-lamp flame correct, WISE-B terracotta, period pottery) passes.
