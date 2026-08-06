@@ -40,6 +40,34 @@ no obvious garbage."
 - On `429 RESOURCE_EXHAUSTED`: retry once after 60 s (billing auto-reloads); if
   it persists, write the exact resume command into QC.md, log, push, stop clean.
 
+## PARALLEL-LANES LAW (2026-08-06 — answers AUTOPILOT-ALERT-2798028)
+
+Several autopilot lanes run CONCURRENTLY in this one shared tree. That is BY
+DESIGN (Cameron wants the board done in under 24 h — see AUTOPILOT.md). Do not
+stop, object, or write alerts about concurrency; follow these rules instead:
+
+1. **Build only rows that are Ready ✅ with an EMPTY claim.** Never touch a row
+   whose State is RUNNING or whose Claim is filled — even if it looks stranded
+   or orphaned. Strand rescue belongs to autopilot.sh's resume branch ALONE
+   (it only fires when zero lanes are live). Two lanes "rescuing" the same row
+   is how duplicate work happened on row 43.
+2. **Shared files (QUEUE.md, AUTHOR-BOARD.md, site/review.html, SESSION-LOG.md):**
+   `git pull --rebase --autostash` IMMEDIATELY before each edit, commit and
+   push IMMEDIATELY after. Never batch shared-file edits for later. If a push
+   is rejected, pull-rebase and re-apply — never force, never overwrite.
+3. **NEVER `git clean`, never `git reset --hard`, never delete or revert ANY
+   file you did not create this session.** Untracked files in this tree belong
+   to other live lanes (their in-progress art, their lock files). Your cleanup
+   is limited to your own scratch files.
+4. **Ceiling with lanes:** other lanes advance the shared meter while you run.
+   Compute `ceiling = current meter + (remaining beats + portraits) × 0.134 ×
+   1.5 + 25` — the +25 is the concurrency allowance so another lane's spend
+   cannot false-trip your ceiling. The per-run ceilings and the meter remain
+   the only spend protection; never exceed your own row's budget.
+5. **429s are expected at this concurrency:** v2 scripts retry once after 60 s;
+   if a 429 persists, write the resume command into QC.md, park, and take the
+   next open Ready row (generation resumes free of double-spend).
+
 ## The loop, per row (lowest Ready row first)
 
 1. `git pull --rebase origin main`. `hostname` → MACHINE-IDENTITY.md. Claim the

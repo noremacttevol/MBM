@@ -36,14 +36,21 @@ log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOGDIR/autopilot.log"; }
 # --- up to LANES builds in parallel (Cameron, 2026-08-06: "it shouldnt take
 # that long") — claim-by-push inside the brief keeps lanes off each other's
 # rows; each tick starts at most ONE new lane so starts stay staggered.
-LANES="${MBM_LANES:-6}"
+LANES="${MBM_LANES:-4}"
 LOCKDIR="$V2/.autopilot-lanes"
 mkdir -p "$LOCKDIR"
-LIVE=0
+# Count lanes by LIVE PROCESSES, not pid files — pid files proved deletable
+# (a lane's cleanup wiped them on 2026-08-06, which made the counter read 0
+# and over-spawn). The timeout wrapper's cmdline is the reliable signature.
+LIVE=$(pgrep -fc '^timeout 7200 claude -p' || true)
+LIVE=${LIVE:-0}
+# pid files kept as a secondary floor + for debugging
+FILES=0
 for f in "$LOCKDIR"/lane-*.pid "$LOCK"; do
   [ -e "$f" ] || continue
-  if kill -0 "$(cat "$f" 2>/dev/null)" 2>/dev/null; then LIVE=$((LIVE+1)); else rm -f "$f"; fi
+  if kill -0 "$(cat "$f" 2>/dev/null)" 2>/dev/null; then FILES=$((FILES+1)); else rm -f "$f"; fi
 done
+[ "$FILES" -gt "$LIVE" ] && LIVE=$FILES
 if [ "$LIVE" -ge "$LANES" ]; then
   [ "$DRY" -eq 1 ] && echo "(dry) all $LANES lanes busy"
   exit 0

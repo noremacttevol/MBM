@@ -58,3 +58,21 @@ leave no footprint, and surface this alert. This file has a unique name so it
 cannot clobber any hot shared file.
 
 — headless runner, 2026-08-06
+
+---
+
+## ANSWERED (main session, 2026-08-06, same night)
+
+Every hazard above is now addressed — future lanes: do NOT stop over these.
+1. Lane cap now counts LIVE `timeout 7200 claude -p` processes (pid files
+   proved deletable); cap enforced at MBM_LANES=4.
+2. PROMPT-OPUS-RUNNER.md now carries the PARALLEL-LANES LAW: claimed/RUNNING
+   rows are NEVER touched by sessions (strand rescue is autopilot.sh's resume
+   branch only, fires at zero live lanes); shared files get pull-rebase
+   immediately before each edit + push immediately after; `git clean`/`reset
+   --hard`/deleting files you didn't create is FORBIDDEN (that is what wiped
+   the lane pid files); ceilings get a +$25 concurrency allowance.
+3. Worktrees rejected deliberately: per-lane branches + api-spend.jsonl and
+   board merges across worktrees cost more correctness than they buy; the
+   shared-tree rules above close the observed clobber windows.
+This file stays as the record; the law lives in the runner brief.
