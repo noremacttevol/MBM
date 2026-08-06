@@ -43,3 +43,56 @@ coverage on purpose.
 - Jesus at crowd level (b02: seated IN the multitude) — no giant law,
   no elevated-stage law.
 - Only Jesus wears cream.
+
+---
+
+## RUNNER HANDOFF — SHIPPED 2026-08-06 (Opus autopilot, Machine A `Dev`)
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 58` shows no filed complaints on
+this row). The V1 cut was the old cartoon-era 9-still build "awaiting yes"; this
+is the realistic V2 first-attempt rebuild.
+
+**Build:** 24 painted stills @ native 2K (V1 had 9). 1 LAD portrait ($0.13);
+ANDREW/PHILIP reused from global CAST-V2-REF sheets. HILLSIDE promoted-first from
+b01 (`s01-the-crowd-followed.jpeg`) → wired to 15 beats. `v2_prompt.py --check`
+PASS (24 beats, v4 checklist).
+
+**Light QC (one pass):** all 24 frames realistic (zero cartoon/mixed). Only Jesus
+in cream everywhere; Jesus ordinary-sized in every multi-figure frame (scale gate
+PASS — he stands on a natural rock in wides but is never enlarged); full dark
+beard consistent every frame (beard board PASS); locked green/hazel eyes per
+`JESUS-V2-REF` (NOT rerolled — RUNNER-LESSON). COUNT LAW: the lad's basket shows
+5 barley loaves + 2 fish; coarse dark barley bread throughout. Time-of-day ladders
+correctly: bright afternoon (b01-02) → golden evening (b03-19) → dusk with
+campfires (b24). Direction: crowd streams TOWARD Jesus (b01/b23), disciples fan
+OUTWARD distributing (b13/b17). No modern objects, no lens-staring main subjects,
+no second cream robe.
+
+**Rerolls: 1 of 24 = 4.2% (well under the 15% budget).** b21 (twelve-baskets, the
+author-flagged COUNT-AS-GEOMETRY beat) first came back dusk-lit with basket
+contents reading as pale stones rather than bread; one reroll (`--only
+v2-r058-b21 --redo`) returned clearly-readable bread in the baskets on green grass.
+
+**FIX-WAVE (logged, not rerolled — subtle, within cost law):**
+- Foreground ground on a few tight/insert shots (s06/s10/s16/s22) reads dry/dusty
+  rather than the green-grass plate; the wides (s01/s02/s03/s13/s14/s17/s23/s24)
+  all carry the green "much grass" correctly.
+- Slight LAD hair variance between s08 (straighter) and s09 (curlier); s10/s12/s22
+  are consistent.
+- b21 basket count reads ~13 rather than exactly 12 (contents-as-bread was the
+  real defect and is fixed; exact-12 is a nicety).
+- s02 child-on-shoulders hair is slightly light (RUNNER-LESSON: a slightly-light
+  incidental child is FIX-WAVE, not a reroll).
+
+**AUDIO:** AUDIO LOCK guard-fired (V1 MP4 on disk 165.400s is an out-of-date
+render vs 164.339s summed from the V1 segment mp3s). Set `AUDIO_FROM_V1_SEGMENTS
+= True` (same guard-fix as rows 17/25/53) — the assembler rebuilt the track from
+18 V1 segment mp3s at the extract_beats offsets and hash-verified it. Nothing
+re-voiced, nothing re-timed, V1 read-only. **AUDIO REBUILD PASS
+SHA256=25466d484b5886259eee1b2d3df4d3e7fd81657bdc523a19ef893c239cc3243d**,
+20.5 MB / 164.3 s. Caption frames (output-seek) verified: captions bottom-band
+only, question card clean.
+
+**COST:** 1 portrait $0.13 + b01 anchor $0.13 + main gen $3.08 + 1 reroll $0.13 =
+**~$3.47/row**, 4.2% rerolls — under the $6.10 running average; trend continues
+DOWN (rows 52 $3.22, 53 ~$2.4, 54 $3.34, 58 $3.47).
