@@ -39,3 +39,31 @@ flips.
 - Sabbath morning light throughout; the street plot beat (b22) is the
   only exterior.
 - Only Jesus wears cream.
+
+## ✅ RUNNER SHIP — realistic-v2 (A-auto Machine A `Dev`, 2026-08-06)
+
+### COMPLAINT LEDGER (LEARNING LAW)
+- COMPLAINT LEDGER: none open (`v2_outline.py 55` shows no open reviewer complaint).
+
+### CARE-ARC verification (all PASS)
+- The withered right hand is shown with DIGNITY, never gore/stump: carried folded
+  and drawn in before (s02/s03/s09). THE HEALING is the stretch itself — the arm
+  extending out (s18) — with NO glow/effect at either end. MADE WHOLE reads clearly:
+  the healed hand held up, fingers spread (s19), and BOTH hands raised together,
+  matching, before his face (s20 — symmetry = the proof). Face-boarded the man
+  across the arc (same face, carried differently).
+- WATCHERS are exactly THREE in every frame they appear (s04/s05/s12/s16/s22),
+  distinct faces, fine robes — cold scrutiny, never cartoon villainy. Their walkout
+  (s21) pushes OUT the doorway against the incoming joy (direction anchored both ways).
+- Same synagogue hall as builds 05/52 (plate wired). Sabbath morning light throughout;
+  s22 is the only exterior and its sky is clean (no utility-wire artifact — the row-53
+  lesson). Only Jesus wears cream. Beards consistent, no modern objects, no lens-stares,
+  no collage, correct head/limb count. Jesus's eye colour is the consistent locked
+  master-ref trait across rows, not a per-frame drift.
+
+### Build facts
+- 23 stills @ native 2K, all FIRST-ATTEMPT. **ZERO rerolls (0% vs 15% budget).**
+- 0 portraits paid (cast reused). SYNAGOGUE plate wired from build-05-bent-woman b28.
+- Assemble: **AUDIO LOCK PASS SHA256=3648a04f477ccc38a0a3303e017716aacd2c2be12ff30894a320deade572869c**
+  (V1 audio byte-identical), 151.2 s, 19.4 MB.
+- Cost this run $3.08; meter $278.32 — well under the $6.10/row average.
