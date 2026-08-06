@@ -1,3 +1,41 @@
+## 2026-08-06 (Opus autopilot) — Row 103 peters-confession SHIPPED + DEPLOYED — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (row 85 shepherds-and-angels
+ship) and confirmed commit `65fc2a802` in `git log`. Ran the PARALLEL-LANES loop,
+lowest Ready ✅ empty-claim row first = **row 103 (Peter's confession, Matthew 16)**;
+every RUNNING sibling (48/60/61/62/63/84/91/101/102) left untouched.
+
+**Row 103 — SHIPPED + DEPLOYED.** Cross-checked QUEUE (not swapped). One OPEN
+complaint: *"peter got his name but it called him simon before and the pictures are
+all bad they keep changing and are not remade with the character ref."*
+- `--check` PASS (20 beats). Portraits: 0 to make (cast sheets reused free).
+- **CLIFF place plate promoted-first from this row's own b19** (a clean, people-free
+  pale-limestone-cliff-and-spring frame — no Jesus) and wired to the 14 CLIFF-locked
+  beats, so the Caesarea-Philippi glade holds across the outdoor beats at $0 extra.
+- **Complaint FIXED (the deliverable): Peter is ONE man in every frame,** generated
+  from his character reference (`PETER:front`+`PETER:quarter` — the payload even
+  dropped the place plate on crowded beats to keep his face refs), face-boarded
+  across 13 appearances incl. the name-giving frame s18 ("thou art Peter, upon this
+  rock"). Jesus master-locked; Andrew/John distinct + stable. Cream-only-Jesus,
+  scale, beard, realistic-only (0 cartoon/mixed), anatomy, no-modern-object,
+  no-lens-stare, question-card-clean all PASS. Captions: white narrator + blue
+  scripture, bottom band only.
+- **FIX-WAVE (author handoff): 6 conversation beats that don't lock CLIFF (b04/06/
+  12/13/15/17) drifted to a generic INDOOR house/village** — the place plate only
+  attaches to beats whose `locks` name CLIFF and their scene text has no outdoor
+  cue. I VERIFIED rerolls can't fix it (2 rerolls of b13 both stayed indoor; the
+  first broke Peter's face), so I stopped — author adds `"CLIFF"` to those 6 beats'
+  locks to finish. Logged as a new RUNNER-LESSON. Faces stay consistent on those
+  frames, so the FACE complaint (the actual filed one) still holds.
+- **AUDIO LOCK PASS SHA256=e46b00815c…**, V1 audio byte-identical, nothing
+  re-voiced. 19.9 MB / 127.5s. matthew-16_peters-confession.mp4.
+- **Cost ≈ $2.94, rerolls 2/20 = 10%** (under the 15% budget, well under the
+  $6.10/row average — CLIFF plate promoted free, 0 portraits). COST-LAW trend DOWN.
+- Ship commit `aad26b93ea24b30e3cbbe96995ebefea4712daa1` (mp4 verified in it via
+  `git log -1 -- …mp4`). STASH-INDEX rescanned (2373 stills/71 builds). Review card
+  `data-review-wave="realistic-v2"`, `data-hash` = ship commit, video → v2 raw path;
+  Firebase `firebase deploy --only hosting`; live-verified below.
+
 ## 2026-08-06 (Opus autopilot) — Row 101 still-small-voice SHIPPED + DEPLOYED; rows 92-100 parked NEEDS-AUDIO ($0 pre-flight) — Machine A `Dev`
 
 Chained from row 81's ship (`b61d7fc5d`) verified in `git log` at session
