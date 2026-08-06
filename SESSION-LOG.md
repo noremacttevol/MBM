@@ -25,7 +25,7 @@ re-run the resume command in build-48's QC.md (resumes free, finishes unattended
 consider pausing the row-48 resume loop until then — 24 sessions burned on an unfixable state is
 itself a COST-LAW concern.**
 
-Commit: __PENDING__
+Commit: d2002fb6c
 
 ---
 
