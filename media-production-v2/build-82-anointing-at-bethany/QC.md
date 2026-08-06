@@ -45,3 +45,19 @@ TIGHT.
   same door.
 - ROOM promote-first from b01. JAR is a prop lock — no plate.
 - Only Jesus wears cream.
+
+---
+## RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-06, $0 pre-flight, generated NOTHING)
+
+STALE-V1 audio class (row-69/74/78). $0 audio-lock pre-flight FAILS BOTH
+tripwires:
+- RECENCY: newer_mp3s=19 (all placed mp3s re-rendered AFTER the V1 mp4).
+- DURATION: timeline total=147.76s vs V1 mp4 d=154.77s → excess=+7.00s (abs>1.0).
+V1 mp4 `mark-14_anointing-at-bethany.mp4` is out of date vs the current
+narration. Runner is forbidden to re-render/edit beats_v2.py (audio-immutability).
+
+AUTHOR FIX: add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py (rebuilds
+the track from this build's own mp3s at the extract_beats offsets — nothing
+re-voiced), OR re-render the V1 mp4. Then set Ready ✅ + Audio OK on AUTHOR-BOARD.
+RUNNER RESUME (after author fix): `python3 media-production-v2/v2_story_cast.py build-82-anointing-at-bethany` then `v2_gen_api.py build-82-anointing-at-bethany --ceiling …`.
+No stills were generated; nothing to reuse yet.
