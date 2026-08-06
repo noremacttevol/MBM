@@ -52,6 +52,11 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **Second cream-robed figure**: ONLY Jesus wears cream; any other cream robe
   fails the frame.
 - **Lens-staring**: any figure looking into the camera fails.
+- **Fair-haired INCIDENTAL children/extras** (row 47 b15 family-in-the-house):
+  even non-locked background people default to blond/light hair — a first-century
+  Judean scene wants dark hair on everyone. Check kids in domestic/crowd frames,
+  not just the locked cast. One reroll usually darkens them; a slightly-light
+  child is FIX-WAVE, not garbage.
 - **Headless/extra-limbed figures** (b16 headless at b07): count heads, arms,
   legs at full resolution, especially in crowds.
 - **Beards appear/disappear/recolor between frames** (rubric lesson 13 — rows
