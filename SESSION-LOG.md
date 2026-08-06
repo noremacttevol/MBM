@@ -108,11 +108,29 @@ words. Only Jesus in cream; scale + beard gates PASS; realistic photography, zer
 cartoon/mixed frames. **0 rerolls of 21 (0%).** **AUDIO LOCK PASS
 SHA256=7aeb3fdd…** (byte-identical V1 john-8). 20.6 MB / 126.1 s.
 
-**Cost this session:** row 75 ≈ **$2.94** (21 gen @ $2.81 + 1 portrait $0.13),
-**0% rerolls** — well under the $6.10/19% running average; the pre-flight parks
-(74) cost $0 and prevented a wasted generate. Trend DOWN per the COST LAW.
+**Row 77 (widows-mite, Mark 12:41-44): built but PARKED NEEDS-AUDIO ($2.40 sunk,
+stills reusable).** Passed my first-version pre-flight, generated 16 stills (1
+reroll: b04 came back a 3-up collage → clean single wide; s07 & s16 both show
+exactly two mites; widow dignified; only Jesus cream) — but v2_assemble AUDIO
+LOCK failed: extracted timeline 98.846s vs V1 final 97.106s, a **1.74s shortfall**
+over the assembler's `abs(total−locked)>1.0` tolerance (line 531). newer_mp3s=0
+(not recency-stale) — just a duration mismatch needing an author
+`AUDIO_FROM_V1_SEGMENTS=True` edit (row-69 class, outside runner scope). Stills
+valid — do NOT regen. **Corrected the RUNNER-LESSONS pre-flight**: the buildable
+test is `newer_mp3s==0 AND abs(total−d)≤1.0` — a mismatch in EITHER direction, not
+just `excess>0.75`. My first lesson only tested the positive direction, which is
+what let row 77 through; that mistake now can't repeat. Per the corrected rule the
+only truly-buildable Ready rows in 79-100 are 79/81/84/85/87/91 (78/80/82/83/86/
+88/92/96/99/100 all fail one gate).
 
-Ship commit: (filled below). Chained from row 68 commit `c5713f27b`.
+**Cost this session:** row 75 SHIPPED ≈ **$2.94** (0% rerolls, well under the
+$6.10 avg); row 77 PARKED ≈ **$2.40** (stills reusable when author unblocks
+audio); parks 73/74 cost **$0** (pre-flight/lane-yield). Net shipped-$/row stays
+under average. Hardened the pipeline so the $2.40 lesson never repeats.
+
+Ship commit (row 75): `6a0db67bf82` (mp4/QUEUE/board) + `c86676c1a` (review card
++ SESSION-LOG), DEPLOYED to Firebase + verified live (hash `6a0db67bf823`,
+mp4 HTTP 200 / 20,604,038 bytes). Chained from row 68 commit `c5713f27b`.
 
 
 Chained from row 67 the-transfiguration (commit 2ac9107c1 verified in `git log` at
