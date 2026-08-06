@@ -1,0 +1,14 @@
+{
+ "HOREB": {
+  "manual": true,
+  "src_beat": "s12-go-forth-and-stand-upon",
+  "src_build": "build-101-still-small-voice",
+  "src_file": "build-101-still-small-voice/assets/s12-go-forth-and-stand-upon.jpeg"
+ },
+ "WILD": {
+  "manual": true,
+  "src_beat": "s02-and-then-a-single-threat",
+  "src_build": "build-101-still-small-voice",
+  "src_file": "build-101-still-small-voice/assets/s02-and-then-a-single-threat.jpeg"
+ }
+}
