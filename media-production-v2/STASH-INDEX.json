@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 07:08:57",
+ "scanned": "2026-08-06 07:18:41",
  "entries": [
   {
    "row": 1,
@@ -35853,6 +35853,317 @@
    "night": false,
    "n_person": 0,
    "scene": "The closing frame keeps the place after its man has gone: the anointed stone standing alone among the scattered grey rocks in full morning light, oil still dark down its faces, the road running past it east and west towa"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b01",
+   "file": "build-103-peters-confession/assets/s01-jesus-had-brought-his-disciples.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN",
+    "ANDREW"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "Far north of every crowd, the camera at the glade's edge taking arrival and cliff from the side, the little company comes into the quiet: a green hollow under a great pale cliff that goes up sheer into the northern light"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b02",
+   "file": "build-103-peters-confession/assets/s02-and-there-he-asked-them.jpeg",
+   "tokens": [
+    "CLIFF"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the moment the lessons change register: Jesus turning from the spring to face them all, settling onto a low stone with a deliberateness they have learned to read \u2014 the warm eyes moving man to man around the ring"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b03",
+   "file": "build-103-peters-confession/assets/s03-whom-do-men-say-that.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The first question goes out easy as skipped stone: WHOM DO MEN SAY THAT I AM \u2014 asked with a half-smile around the seated ring in the glade's green light, the kind of question that costs nobody anything \u2014 market gossip, r"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b04",
+   "file": "build-103-peters-confession/assets/s04-it-was-an-easy-question.jpeg",
+   "tokens": [
+    "PETER",
+    "ANDREW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The ring warms to the easy work: Andrew's hand already up with a report, Peter leaning back on his elbows with a fisherman's grin, two others trading what they heard in the last village \u2014 the simple pleasure of being ask"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b05",
+   "file": "build-103-peters-confession/assets/s05-some-say-that-thou-art.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN",
+    "ANDREW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "The answers tumble in from every side: JOHN THE BAPTIST, counted off on one man's fingers \u2014 ELIAS, insists another, leaning in \u2014 JEREMIAS, or one of the old prophets, offers a third with a shrug \u2014 the glade cheerful with"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b06",
+   "file": "build-103-peters-confession/assets/s06-some-say-elijah-come-back.jpeg",
+   "tokens": [
+    "ANDREW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on one report given its full weight: Andrew's earnest face relaying the Elijah theory \u2014 the fire-caller come back, the chariot-taken prophet returned \u2014 offered seriously, as serious people say it in serious places,"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b07",
+   "file": "build-103-peters-confession/assets/s07-others-jeremiah-or-one-of.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The catalogue completes itself and hangs there: prophet, forerunner, greatest-of-the-old \u2014 every answer respectful, every answer safe, every answer somebody else's \u2014 and at the ring's centre Jesus listens with a patience"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b08",
+   "file": "build-103-peters-confession/assets/s08-all-what-other-people-thought.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN",
+    "ANDREW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "And then the question turns its head: Jesus leaning forward off his stone, the half-smile folding away, the warm eyes suddenly point-blank \u2014 BUT WHOM SAY YE THAT I AM \u2014 and the glade's comfortable air goes out like a snu"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b09",
+   "file": "build-103-peters-confession/assets/s09-and-there-it-was-not.jpeg",
+   "tokens": [
+    "CLIFF"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the face that will not accept a forwarded answer: the warm brown eyes steady and utterly direct, waiting \u2014 not for the crowd's verdict, not for the market's consensus, not for one more prophet off one more respe"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b10",
+   "file": "build-103-peters-confession/assets/s10-but-you-who-do-you.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN",
+    "ANDREW"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "The silence under the cliff, the camera outside the ring behind the frozen shoulders, gets long: eyes finding the grass, the springs, the pale rock \u2014 anywhere but the asking face \u2014 Andrew's report-ready hands gone still "
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b11",
+   "file": "build-103-peters-confession/assets/s11-and-simon-peter-answered-him.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN",
+    "ANDREW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "And Peter stands up into it: the big fisherman on his feet under the pale cliff with the answer coming out of him full voice and unhedged \u2014 THOU ART THE CHRIST, THE SON OF THE LIVING GOD \u2014 the words too large for the gla"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b12",
+   "file": "build-103-peters-confession/assets/s12-not-a-prophet-not-a.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the face that just broke the catalogue: Peter's blazing certainty with the fear still wet underneath it \u2014 the safe titles all left burning behind him, prophet and teacher and Elijah-come-back abandoned in one le"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b13",
+   "file": "build-103-peters-confession/assets/s13-peter-said-out-loud-the.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "ANDREW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Around the standing fisherman the seated faces give themselves away: John's young features flooding with a relief that looks like tears coming, Andrew nodding before he knows he is nodding, another's hand over his mouth "
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b14",
+   "file": "build-103-peters-confession/assets/s14-blessed-art-thou-simon-barjona.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus comes off his stone with his face alight: both hands landing strong on the fisherman's shoulders \u2014 BLESSED ART THOU, SIMON BARJONA \u2014 the gladdest words of the northern journey ringing off the pale cliff \u2014 and the s"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b15",
+   "file": "build-103-peters-confession/assets/s15-you-did-not-work-this.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on a man being told the provenance of his own sentence: Peter's face under the blessing going from triumph to wonder as the words land \u2014 not worked out, not reasoned to, not his \u2014 the big fisherman looking faintly "
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b16",
+   "file": "build-103-peters-confession/assets/s16-this-kind-of-knowing-does.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The glade itself preaches the point: at the cliff's base the springs break cold and endless from solid rock \u2014 water no man dug for, rising given from stone \u2014 while Jesus's words move over the quiet ring: this kind of kno"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b17",
+   "file": "build-103-peters-confession/assets/s17-and-they-had-plenty-of.jpeg",
+   "tokens": [
+    "PETER",
+    "ANDREW",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Close on the comfortable plenty: fingers rising around the ring with reports queued behind them, Andrew half-standing with his first name ready, two men comparing village rumors in a hurry to get theirs in \u2014 the cheerful"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b18",
+   "file": "build-103-peters-confession/assets/s18-and-i-say-also-unto.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The renaming happens, the camera at the side so hand, man and cliff line up in one profile, under its own illustration: Jesus's hand firm on the fisherman's shoulder \u2014 THOU ART PETER \u2014 and his other arm sweeping up the w"
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b19",
+   "file": "build-103-peters-confession/assets/s19-on-this-on-knowing-who.jpeg",
+   "tokens": [
+    "CLIFF"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame gives the whole sermon to the stone: the great pale cliff filling it edge to edge in the clean northern light \u2014 buttress over buttress of living rock going up out of frame, seams older than nations, the spring "
+  },
+  {
+   "row": 103,
+   "build": "build-103-peters-confession",
+   "beat": "v2-r103-b20",
+   "file": "build-103-peters-confession/assets/s20-everything-else-in-the-gospel.jpeg",
+   "tokens": [
+    "CLIFF",
+    "PETER",
+    "JOHN",
+    "ANDREW"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "The closing frame, the camera far off behind the small company toward the great face, steps back and lets the scale speak: the little company small at the foot of the enormous pale cliff, Jesus and the newly named Peter "
   }
  ]
 }
