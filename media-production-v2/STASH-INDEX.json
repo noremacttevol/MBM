@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 04:43:29",
+ "scanned": "2026-08-06 05:04:53",
  "entries": [
   {
    "row": 1,
@@ -31425,6 +31425,514 @@
    "night": false,
    "n_person": 2,
    "scene": "Close in the ordinary dusk: Jesus's hand firm and warm on Peter's shoulder, the two faces near \u2014 the fisherman's still white-edged with everything he has seen, and his friend's exactly, unmistakably the same face as alwa"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b01",
+   "file": "build-68-multitudes-mountain/assets/s01-after-the-coast-jesus-came.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On a rock ledge partway up the broad grassy mountainside Jesus sits down alone in the bright morning \u2014 forearms on his knees, the climb's dust on his hem, the great blue of the lake spread below him to the far hills \u2014 no"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b02",
+   "file": "build-68-multitudes-mountain/assets/s02-all-he-did.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the seated figure in the morning light: hands loose, face turned easy toward the climbing path below, the whole posture one of unhurried waiting \u2014 no gesture made, no word sent out \u2014 availability itself, sitting"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b03",
+   "file": "build-68-multitudes-mountain/assets/s03-and-the-whole-region-emptied.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "From high on the mountainside, the camera behind the seated teacher's shoulder looking down, the whole region's answer is visible: down on the shore plain the paths run alive with people \u2014 streams converging from lakesid"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b04",
+   "file": "build-68-multitudes-mountain/assets/s04-matthew-says-great-multitudes-came.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Up the worn climbing path the multitude comes burdened \u2014 and the burdens are people: a plank litter riding on two brothers' shoulders, an old woman on a young man's back, a blind neighbour's hand gripped and guided over "
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b05",
+   "file": "build-68-multitudes-mountain/assets/s05-somebody-hauled-their-father-up.jpeg",
+   "tokens": [
+    "PLANKMAN",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Up the steepest rocky pitch the two broad sons work their father's plank litter \u2014 the leading brother backwards up the stones, feeling each step, the other bracing below with the board's weight in his forearms \u2014 and betw"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b06",
+   "file": "build-68-multitudes-mountain/assets/s06-somebody-carried-a-grown-brother.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the climb: a man bent nearly double under his grown brother's full weight \u2014 the carried man's wasted legs hanging, his arms wrapped tight around the carrier's neck, his cheek pressed to his brother's sweat-dark "
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b07",
+   "file": "build-68-multitudes-mountain/assets/s07-every-step-of-that-climb.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Extreme close at the path's stone: a carrier's sandalled foot planted mid-stride, tendons standing, dust caked to the sweat of the ankle \u2014 and thrown across the rock beside it, the long shadow of the loaded litter he is "
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b08",
+   "file": "build-68-multitudes-mountain/assets/s08-here-is-exactly-how-matthew.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in warm lamplight: a gospel scroll's dense hand-lettered column, and a reader's finger resting at one line partway down \u2014 the ink a little darker there, as if the copyist pressed harder \u2014 the exact sentence"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b09",
+   "file": "build-68-multitudes-mountain/assets/s09-and-great-multitudes-came-unto.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD",
+    "PLANKMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Before the seated Jesus the ledge fills with the laid-down: the old man's plank set gently at his very feet, a litter ranged beside it, the blind neighbour seated close and his guide's hands withdrawing, a mother placing"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b10",
+   "file": "build-68-multitudes-mountain/assets/s10-think-about-what-that-means.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "From the shore plain, the camera behind the climbing path's first bearers, the mountain states its terms: the grassy slope climbing steep and long, the path switchbacking up through the boulder-fields, the healer's ledge"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b11",
+   "file": "build-68-multitudes-mountain/assets/s11-no-interviews.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the afternoon gold: a sick man's trembling hand simply takes hold of Jesus's, and Jesus's closes around it \u2014 no register, no waiting mark, no question asked or form of words \u2014 the entire admissions process of th"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b12",
+   "file": "build-68-multitudes-mountain/assets/s12-the-lame-the-blind-the.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD",
+    "PLANKMAN",
+    "MUTEWOMAN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "Across the wide golden ledge, the camera at its rim taking the gathered rows from the side, the region's pain lies gathered in its rows \u2014 planks and litters, led elders seated on stones, children held on laps \u2014 and one c"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b13",
+   "file": "build-68-multitudes-mountain/assets/s13-and-then-the-gospel-gives.jpeg",
+   "tokens": [
+    "PLANKMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the plank's side Jesus kneels with one hand resting on the old father's white head \u2014 and under the hand the change happens at the verse's own volume: the hooded eyes opening wide and clear, colour arriving in the wast"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b14",
+   "file": "build-68-multitudes-mountain/assets/s14-it.jpeg",
+   "tokens": [
+    "PLANKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the plank the old man has sat himself up \u2014 unassisted, spine straight, the rust blanket fallen to his lap \u2014 and he is looking at his own two raised hands turning in the gold light, while behind him his broad sons stan"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b15",
+   "file": "build-68-multitudes-mountain/assets/s15-no-list.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "From above, the ledge works its unrecorded wonders in bulk: figures rising off litters across the whole grassy shelf, embraces closing over healed heads, a plank being turned into a bench by the family that no longer nee"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b16",
+   "file": "build-68-multitudes-mountain/assets/s16-he-sat-down-where-he.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "From the climbing path's first turn the seated figure is plainly visible above \u2014 cream against the green ledge, framed by two boulders, exactly where any climber's eye lands first \u2014 not hidden on the summit, not lost in "
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b17",
+   "file": "build-68-multitudes-mountain/assets/s17-somewhere-on-that-mountain-a.jpeg",
+   "tokens": [
+    "MUTEWOMAN",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the golden afternoon: the gentle-faced woman's lips move around their first word \u2014 a name \u2014 her own hands flying to her throat at the sound of herself, her dark speaking eyes enormous \u2014 and an inch away her stoc"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b18",
+   "file": "build-68-multitudes-mountain/assets/s18-somewhere-legs-that-had-been.jpeg",
+   "tokens": [
+    "PLANKMAN",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down the switchbacked path the old father walks on his own legs \u2014 white beard in the descent's breeze, his stride careful then bolder then almost showing off \u2014 while behind him his two broad sons carry between them nothi"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b19",
+   "file": "build-68-multitudes-mountain/assets/s19-multiply-that-by-a-hillside.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole mountainside works in the late gold: on every ledge and grass shelf its own small resurrection \u2014 a man testing new legs between two friends, a family wept around an elder whose eyes track their faces, a child r"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b20",
+   "file": "build-68-multitudes-mountain/assets/s20-and-matthew-tells-you-what.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Across the crowded ledge the private joys begin to turn communal: faces lifting from embraces, hands rising from healed shoulders, the hillside's many separate wonders turning toward one another and upward \u2014 a crowd disc"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b21",
+   "file": "build-68-multitudes-mountain/assets/s21-insomuch-that-the-multitude-wondered.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The mountainside praises, the camera behind the nearest lifted arms: across the ledges the multitude stands with arms and faces lifted \u2014 the healed themselves raised highest, the old father's arms up on his own legs, the"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b22",
+   "file": "build-68-multitudes-mountain/assets/s22-they-came-carrying-people.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still on the path's stone: a rough board litter set down at rest, its two carrying-ends rubbed pale and smooth by years of the same gripping hands, a folded rust blanket squared on its boards \u2014 the plain freight "
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b23",
+   "file": "build-68-multitudes-mountain/assets/s23-they-could-not-believe-their.jpeg",
+   "tokens": [
+    "CROWD",
+    "MUTEWOMAN",
+    "PLANKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "One wide golden frame holds the verse's four verbs at work: near the front the madder-rose-veiled woman talks \u2014 TALKS \u2014 with three astonished neighbours; beyond her a man flexes a restored arm at his own eye level like n"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b24",
+   "file": "build-68-multitudes-mountain/assets/s24-somebody-led-a-blind-neighbor.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the climb: two hands joined \u2014 the guide's leading grip firm and turned back, the blind neighbour's following hand trusting it completely \u2014 while the guide's half-turned face calls the next stone's shape over his"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b25",
+   "file": "build-68-multitudes-mountain/assets/s25-on-that-side-of-the.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through the praising crowd the mixture shows: a Greek-cut cloak beside a fringed prayer shawl, a Decapolis merchant's clipped beard beside a Galilean farmer's full one, foreign amulets forgotten on chests whose owners ha"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b26",
+   "file": "build-68-multitudes-mountain/assets/s26-and-here-is-the-detail.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Dusk comes down and the hillside does not empty: across the ledges the crowd settles instead \u2014 cloaks spread on the grass, small cook-fires kindling in stone rings, children already asleep on laps, the healed and their c"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b27",
+   "file": "build-68-multitudes-mountain/assets/s27-three-days-on-a-mountainside.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Three days deep, the hillside camp shows its age: fire-rings blackened and cold at their edges, provision cloths shaken out and folded empty, a last crust divided four ways between children \u2014 and everywhere on the thinne"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b28",
+   "file": "build-68-multitudes-mountain/assets/s28-when-the-disciples-started-worrying.jpeg",
+   "tokens": [
+    "PETER",
+    "MOUNTAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "By Jesus's ledge in the third morning's light Peter crouches with another disciple, one arm sweeping the vast camped hillside below \u2014 thousands, no bread, three days \u2014 the honest arithmetic of two practical men laid out "
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b29",
+   "file": "build-68-multitudes-mountain/assets/s29-i-have-compassion-on-the.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the third morning's light, his gaze moving slow across the camped hillside below \u2014 and the whole verse resident in his face: the three days counted like a shepherd counts nights, the empty provision clo"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b30",
+   "file": "build-68-multitudes-mountain/assets/s30-no-names.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close in the golden crowd: one healed stranger's face \u2014 a middle-aged woman laughing upward with tears standing on her cheeks, whole in some way the frame does not even need to specify \u2014 one of the afternoon's thousands,"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b31",
+   "file": "build-68-multitudes-mountain/assets/s31-i-feel-for-these-people.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the morning light, the camped multitude soft below his gaze: nothing in the expression but the sentence itself \u2014 plain human feeling for tired hungry people who stayed too long because they loved"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b32",
+   "file": "build-68-multitudes-mountain/assets/s32-they-have-been-with-me.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "From the ledge Jesus's gaze runs down the long descent path as it switchbacks toward the shore and the far village smoke \u2014 miles of hungry walking measured out in one look \u2014 while behind him the camped thousands wait in "
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b33",
+   "file": "build-68-multitudes-mountain/assets/s33-he-noticed-their-stomachs-he.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close still in the morning light: a man's strong restored hand \u2014 whole, steady, remade three days ago on this very hill \u2014 holding an empty provision cloth shaken out to its last crumbs \u2014 the greater miracle and the sma"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b34",
+   "file": "build-68-multitudes-mountain/assets/s34-that-is-who-sat-down.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "On his rock ledge Jesus sits amid the third morning's camp \u2014 a child asleep against his knee, the old father sitting close enough to lean, the speaking woman and her husband cross-legged in the first ring of many \u2014 the w"
+  },
+  {
+   "row": 68,
+   "build": "build-68-multitudes-mountain",
+   "beat": "v2-r068-b35",
+   "file": "build-68-multitudes-mountain/assets/s35-thousands-of-the-greatest-moments.jpeg",
+   "tokens": [
+    "MOUNTAIN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The mountainside at golden hour, the camera far off taking the whole slope from the side, holds everything the sentence hides: the healed multitude spread across every ledge and grass shelf \u2014 walkers and speakers and see"
   }
  ]
 }

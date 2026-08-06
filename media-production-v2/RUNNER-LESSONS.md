@@ -178,6 +178,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   take build-XX's <TOKEN>" or "promote-first," clear PLACE-WIRING.json (echo '{}'
   > it), generate the anchor beat, eyeball it, and `--promote` from THIS row's own
   frame. A copied wrong-region plate would propagate the wrong place to every beat.
+- **A big "crowd streaming up a real Galilee slope" wide comes back as a MODERN
+  PILGRIMAGE PHOTO — the background fills with tourists in ballcaps, sunglasses,
+  backpacks, windbreakers and a lanyard** (row 68 b30 `no-names`): asking for a
+  large crowd on the actual Sea-of-Galilee hills pulls the model toward
+  present-day Holy-Land-tour stock photography, so a period foreground figure
+  ends up surrounded by 21st-century hikers. Modern-object fail — mandatory
+  reroll on sight; one redo usually lands an all-period crowd. Scan the WHOLE
+  crowd of any real-location wide for modern dress/gear, not just the named
+  subject. Distinct from a single stray modern prop — here the entire background
+  population is modern.
 - **A "he does X with the traveling prop" single spawns a near-identical TWIN of
   the lone recurring subject** (row 64 b25 "he stood up, rolled up the mat"): the
   beat's only subject is the healed man rolling/carrying his mat, but the model
