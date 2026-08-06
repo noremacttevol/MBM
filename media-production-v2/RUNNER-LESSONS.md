@@ -264,3 +264,17 @@ session's $0.13 mistake. Keep entries deduped and one line each.
     locked_final, data, total, duration_of(locked_final))` verbatim — never
     hand it the v2 dir. Batch-pre-flighting a whole authored block this way ($0)
     tells you which rows to build vs park before you touch the meter.
+
+## COVERAGE / SCRIPTURE-DETAIL DRIFT
+- **Provision-absence ("no purse, no scrip, no shoes") drifts back into the WIDE
+  frames even when the close-ups obey it (2026-08-06, row 79 the-seventy-sent).**
+  When a beat's must_show is the explicit ABSENCE (Luke 10:4 — the tracked pair
+  set out empty-handed), the tight close-ups (b02/b03) land clean: empty hands,
+  no bag on either shoulder. But the SENDING/HARVEST/RETURN wides (b01/b04/b09/
+  b13/b16) quietly re-add a small shoulder scrip/satchel to the disciples — the
+  model's default "traveller" silhouette. This is SUBTLE drift, not obvious
+  garbage: it doesn't repeat a filed complaint and the beats where "no bag" is
+  the spoken subject are correct, so under the COST LAW it is a FIX-WAVE note,
+  NOT a reroll (rerolling a wide for one small satchel burns budget and the
+  ROADS/plate re-seeds the same silhouette anyway). Log it in QC.md FIX-WAVE and
+  keep the take; the fix wave can prop-edit the scrips out of the wides later.

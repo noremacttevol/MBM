@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 05:53:15",
+ "scanned": "2026-08-06 06:06:19",
  "entries": [
   {
    "row": 1,
@@ -33582,6 +33582,274 @@
    "night": false,
    "n_person": 2,
    "scene": "The day's deepest gold, the camera low behind the waiting families' shoulders, holds the unhurried blessing: Jesus seated again on the flat stone with a child on each knee and the line of small heads waiting their easy t"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b01",
+   "file": "build-79-the-seventy-sent/assets/s01-jesus-picked-seventy-of-his.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the pale road-fork, the camera behind Jesus's shoulder so the departing pairs walk away from the lens down every branch, in the clear early morning Jesus stands sending \u2014 his hand assigning each pair its road \u2014 and th"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b02",
+   "file": "build-79-the-seventy-sent/assets/s02-he-send-them-with-much.jpeg",
+   "tokens": [
+    "PAIR",
+    "ROADS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the two as they set out in the morning light \u2014 the older man's shoulders bare of any bag, the younger's belt without a purse, four empty hands swinging free on the pale road \u2014 travellers stripped to sandals, rob"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b03",
+   "file": "build-79-the-seventy-sent/assets/s03-just-each-other-and-a.jpeg",
+   "tokens": [
+    "PAIR",
+    "ROADS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wide morning road runs long and empty through the heavy gold barley \u2014 and on it, small and shoulder to shoulder, the two walk into the distance in step, the older's head inclined toward the younger's as they talk \u2014 n"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b04",
+   "file": "build-79-the-seventy-sent/assets/s04-the-harvest-truly-is-great.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the field's dry-stone edge Jesus speaks with his arm swept out over the barley \u2014 a sea of ripe gold rolling away to the hills, heavy-headed and ready \u2014 and in all that abundance the morning light finds exactly two dis"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b05",
+   "file": "build-79-the-seventy-sent/assets/s05-notice-what-he-did-not.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus at the wall's edge, the sweeping arm come to rest at his side, the warm brown eyes moving over his listeners with the particular stillness of a teacher letting a sentence sit where he laid it \u2014 the gold fi"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b06",
+   "file": "build-79-the-seventy-sent/assets/s06-there-is-so-much-to.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Deep in the gold the two reapers work their line \u2014 sickles swinging, a modest row of bound sheaves standing behind them, and before them acre upon heavy acre still untouched, rolling to the hills \u2014 two honest backs bent "
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b07",
+   "file": "build-79-the-seventy-sent/assets/s07-he-did-not-say-the.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame fills wall to wall with the standing crop: heavy barley heads bowed on their stalks with the weight of their own grain, gold on gold to every edge in the bright morning, each head fat and ready and nodding in t"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b08",
+   "file": "build-79-the-seventy-sent/assets/s08-he-said-the-fields-were.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The widest look at the equation, the camera high on the field's rise with the two reapers' backs far below: ripe gold running unbroken to the hill-line under the high bright sky, dry-stone walls drowned in it, olive tree"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b09",
+   "file": "build-79-the-seventy-sent/assets/s09-wherever-they-were-welcomed-they.jpeg",
+   "tokens": [
+    "PAIR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At a village doorway in the flat midday light the two are welcomed in \u2014 and go straight to work: the older kneeling to a hollow-cheeked man seated weary against the wall, taking his hand with a workman's gentleness, whil"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b10",
+   "file": "build-79-the-seventy-sent/assets/s10-that-was-the-whole-message.jpeg",
+   "tokens": [
+    "PAIR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the younger man's face at the doorway as he says it \u2014 plainly, without flourish, the way you tell a neighbour the well is full \u2014 no scroll in his hands, no rehearsed thunder in his voice, the entire cargo of the"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b11",
+   "file": "build-79-the-seventy-sent/assets/s11-not-a-warning-not-a.jpeg",
+   "tokens": [
+    "PAIR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The village street turns toward the news: a woman straightening from the well with her jar half-drawn, an old man rising off his bench, children stopping mid-game, doors opening wider along the lane \u2014 every face swinging"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b12",
+   "file": "build-79-the-seventy-sent/assets/s12-and-they-came-back-with.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down every pale road, the camera at the fork taking the converging returns in profile, in the warm late-afternoon gold the pairs come streaming home \u2014 two and two and two converging on Jesus at the road-fork, some at a f"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b13",
+   "file": "build-79-the-seventy-sent/assets/s13-lord-even-the-devils-are.jpeg",
+   "tokens": [
+    "PAIR"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two arrive breathless before Jesus in the low gold light \u2014 the younger mid-report with his hands thrown wide at the size of what happened, the older nodding hard behind him, both faces lit with road-dust and astonish"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b14",
+   "file": "build-79-the-seventy-sent/assets/s14-lord-even-the-evil-spirits.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Around Jesus in the warm gold the returned company boils with retellings \u2014 knots of travellers re-enacting their road stories with flying hands, one man laughing with his head back, two women gripping each other's arms a"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b15",
+   "file": "build-79-the-seventy-sent/assets/s15-and-then-jesus-told-them.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the midst of the celebration, one hand rising gently into the noise \u2014 the smile on him real and warm, nothing of the scold in it, but the eyes already steadying into the look of a teacher about to move "
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b16",
+   "file": "build-79-the-seventy-sent/assets/s16-notwithstanding-in-this-rejoice-not.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The company quiets around him, the camera low behind the seated seventy's near backs, in the deepening gold as Jesus speaks the correction \u2014 his hand lifting easily toward the high clear evening sky, and seventy dusty fa"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b17",
+   "file": "build-79-the-seventy-sent/assets/s17-be-glad-about-that-he.jpeg",
+   "tokens": [
+    "PAIR"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the two travellers' faces as the correction lands \u2014 the younger's road-fever settling by visible degrees into something stiller and heavier, the older's eyes going from Jesus's steady face up to the evening sky "
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b18",
+   "file": "build-79-the-seventy-sent/assets/s18-be-glad-about-this-instead.jpeg",
+   "tokens": [
+    "PAIR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the low gold on the two men's open hands \u2014 calloused, road-dusty, utterly ordinary \u2014 the same four hands that healed the sick and carried his name through the villages, empty again exactly as they left \u2014 the pow"
+  },
+  {
+   "row": 79,
+   "build": "build-79-the-seventy-sent",
+   "beat": "v2-r079-b19",
+   "file": "build-79-the-seventy-sent/assets/s19-the-name-in-the-book.jpeg",
+   "tokens": [
+    "ROADS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame settles over the whole company at rest around Jesus in the last warm light \u2014 seventy travellers seated on the walls and the road's edge with the day's dust still on them, faces calm and sky-turned above"
   }
  ]
 }
