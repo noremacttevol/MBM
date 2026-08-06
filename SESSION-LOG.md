@@ -1,3 +1,43 @@
+## 2026-08-06 (Opus autopilot) — Row 56 widow-of-nain SHIPPED + DEPLOYED — Machine A `Dev`
+
+Rows 48 RUNNING (sibling), 45/46/47/49/52/53/54/55 shipped, 50/51 parked
+NEEDS-AUDIO, 57 RUNNING (sibling). The lowest Ready ✅ empty-claim row was
+**56 (The widow of Nain's son, Luke 7:11-17)** — cross-checked against QUEUE
+(valid story, not swapped), claimed by push (commit 7f551db21), built end to end.
+
+**Row 56:** 22 painted stills @ native 2K (V1 had 9), the whole raising laddered
+shot by shot — the two crowds meeting at Nain's gate (life walking in, a funeral
+walking out) → Jesus sees the widow → "Weep not" → touches the bier, bearers stand
+still → "Young man, arise" → the son sits up and speaks → given back to his mother
+→ the town glorifies God → the news goes out. **3 story-cast portraits** (WIDOW /
+SON age-and-outfit-locked / BIER). `v2_prompt.py --check` PASS before first credit.
+
+**Audio (row-53 stale-V1 pattern):** the committed V1 luke-7 mp4 is an out-of-date
+190.798s render vs the 139.697s the re-voiced segment mp3s sum to. Set
+`AUDIO_FROM_V1_SEGMENTS = True` (the assembler's prescribed in-file fix): the track
+was rebuilt from the 16 verified V1 segment mp3s at the extract offsets and
+hash-verified — **AUDIO REBUILD PASS SHA256=41988dbd…**, nothing re-voiced, V1
+read-only. 139.7s / 19.4 MB.
+
+**LEARNING LAW / COMPLAINT LEDGER** (open complaint: *"pictures are lograde and the
+kids clothes keep changing and so does his size also Jesus was realy big in one of
+the photos. the whole thing needs to be redone."*): all four parts answered in
+QC.md and on the review card — (1) lograde → every frame native-2K realistic; the
+ONE cartoon frame (s22) was caught in QC and rerolled to realistic; no mixed/cartoon
+frame remains (Law 14). (2) clothes changing → SON LOCK holds one outfit (dark
+madder-red burial cloth over a plain dark tunic) across all 12 of his frames.
+(3) size changing → son one build/height on the bier and risen; child extras stay
+child-sized. (4) giant Jesus → SCALE GATE run on every multi-figure frame, Jesus
+ordinary-sized against the four bier-bearers and the widow; only Jesus in cream.
+
+**COST LAW:** ~$3.62 this row (3 portraits $0.40 + 22 stills $2.95 + 2 rerolls
+$0.27). **2 rerolls / 22 beats = 9%**, under the 15% budget and under the $6.10/row
+running average — trend down. FIX-WAVE logged (not re-cut alone): s09 close-up
+Jesus eyes read hazel/green = the systemic green-eyed master-ref trait (all 200,
+plan-level), not a row-56 regression; one reroll didn't clear a baked-in reference
+trait so best take kept. Ship commits f35cbaf7 (mp4+QC+boards) + this entry; review
+card v56 → realistic-v2 + hash f35cbaf7; deployed to Firebase + verified live.
+
 ## 2026-08-06 (Opus autopilot) — Row 54 the-leper SHIPPED + DEPLOYED — Machine A `Dev`
 
 Rows 48/49/52/53 shipped or RUNNING (siblings), 45/46/47 shipped, 50/51 parked
