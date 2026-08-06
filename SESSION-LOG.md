@@ -1,3 +1,39 @@
+## 2026-08-06 (Opus autopilot) — Row 64 pool-of-bethesda SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 59 (commit 3005df5d1 verified in `git log` at session start). Rows
+48/60 RUNNING siblings, 61/62/63/65 LIVE/RUNNING, 50/51 parked NEEDS-AUDIO,
+45/46/47/49/52-59 shipped. Lowest Ready ✅ empty-claim row was **64 (The pool of
+Bethesda, John 5:1-15)** — cross-checked QUEUE (valid story, not swapped), claimed by
+push (AUTHOR-BOARD RUNNING, commit ad65fd183), built end to end.
+
+**Row 64:** 41 painted stills @ native 2K (V1 was a $0 session-A assembly). `--check`
+PASS before first credit. 1 SICKMAN portrait; BETHESDA plate promoted-first from THIS
+row's own b01 (five countable porches, still green pool — no angel/stirring ever);
+TEMPLE reused free from build-06. John 5 laddered shot by shot: five-porch pool of the
+hopeless → the still legend → 38-years man → "Wilt thou be made whole?" → he answers
+with the obstacle not yes → "Rise, take up thy bed, and walk" → made whole DRY, pool
+untouched → rolls mat, first steps → sabbath rule-keepers → "It is a man who made me
+whole" → Jesus finds him in the temple ("sin no more") → he tells everyone → dusk pool,
+his corner empty. Doctrine held: NO angel/stirring-water depicted, rises DRY, mat is the
+traveling prop, only Jesus in cream, SICKMAN one consistent man STRONG after healing.
+
+**COMPLAINT LEDGER:** none open (`v2_outline.py 64` shows no Cameron complaint).
+
+**Cost/quality:** 3 rerolls of 41 = **7.3%** (under 15% budget) — s25 twin→collage→clean
+single, s41 full-pool→dusk empty-corner coda. Row ≈ **$6.03** (41 beats + portrait + 3
+rerolls), just under the $6.10 running average despite being one of the longest rows; the
+reroll trend (7.3% vs 19% baseline) keeps cost heading DOWN.
+
+**Audio:** committed V1 john-5 mp4 audio is intact-new-voice; `v2_assemble.py 64` →
+**AUDIO LOCK PASS SHA256=f4e38df5…** byte-identical, nothing re-voiced. 21.2 MB / 241.0 s.
+
+**Ship:** commit 03b9449160 (mp4 + QC.md + assets + boards + QUEUE). review.html v64 card
+→ `data-review-wave="realistic-v2"`, hash 03b9449160, v2 mp4 path. Deployed to Firebase
+`milk-b4-meat` + live-verified (below). STASH rescan + RUNNER-LESSONS checked. Row 64
+ticked BUILT on AUTHOR-BOARD.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 59 feeding-4000 SHIPPED + DEPLOYED — Machine A `Dev`
 
 Chained from row 56 (commit 63b99f709 verified in `git log` at session start).
