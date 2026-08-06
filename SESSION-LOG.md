@@ -19,7 +19,7 @@ to assemble, ship, or deploy. **ACTION FOR CAMERON: top up Gemini prepayment bil
 https://ai.studio/projects, then re-run the resume command in the QC.md — it resumes free and
 finishes the row unattended.**
 
-Commit: PENDING
+Commit: d4e5198efa2206261c225e76c08dbaaeb38cb872
 
 ---
 
