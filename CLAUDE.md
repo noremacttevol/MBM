@@ -30,6 +30,21 @@
 > 13. Target React Native + Expo, local-first (on-device SQLite). Flask/web is reference only.
 > 14. Zero placeholders — every file complete. Invisible/emergent routing, never visible gates. Story first, always. BOM law holds.
 >
+
+> 14. **REALISTIC PICTURES ONLY — NO CARTOON, EVER (Cameron, 2026-08-06).**
+>     *"they are all cartoon and that is old... i approved one that had some
+>     pictures that were cartoonistic but i dont want that anymore and i will
+>     probably redo that one becaseu it was a mix and it throws people off like
+>     this should be only realistic pictures from now on."*
+>     Every picture in every video is realistic biblical photography. A MIX is
+>     worse than either — a cartoon frame among realistic ones throws the viewer
+>     out of the story, so a single stylised frame fails the whole cut. This
+>     applies to rebuilds AND to any old cut that gets touched for any reason.
+>     A prior approval does NOT protect a cartoon or mixed cut; those are void
+>     the same way the old-voice approvals were. On the reviewer, cartoon-era
+>     cuts sit in "Old style — NOT ready to review" and must never be placed in
+>     the Unwatched queue as if they were finished work.
+>
 > _Full detail below and in the linked files. If anything here conflicts with a detail
 > section, the stricter/more-recent one governs — and tell Cameron so it gets fixed._
 

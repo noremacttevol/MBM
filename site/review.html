@@ -70,6 +70,11 @@
   <h2 id="rh">🟡 Unwatched</h2>
   <div id="review"></div>
   <p id="review-empty" class="note" hidden>Nothing is waiting right now. New rebuilds will appear here automatically.</p>
+  <details id="oldwrap" hidden><summary id="oh">🎨 Old style — NOT ready to review</summary>
+  <p class="note">These still have the old cartoon-style pictures. They are queued for the
+  realistic rebuild — don't judge them yet, and don't approve them. They are listed
+  only so nothing is hidden from you.</p>
+  <div id="review-old"></div></details>
   <h2 class="done-head">Sorted — tap to open</h2>
   <details><summary id="ah">✅ Approved</summary><div id="approved"></div></details>
   <details><summary id="wh">🚩 Complained About</summary><div id="rework"></div></details>
@@ -1731,11 +1736,20 @@ function place(){
   });
   // The newest visual rebuilds go first.
   reviewNew.forEach(function(c){ review.appendChild(c); });
-  reviewOld.forEach(function(c){ review.appendChild(c); });
+  // REALISTIC-ONLY LAW (Cameron, 2026-08-06): the cartoon-era cuts are NOT ready
+  // to be judged and must never sit in Unwatched pretending they are. They go to
+  // their own collapsed section so the queue only ever holds realistic rebuilds.
+  var oldBox = document.getElementById('review-old');
+  var oldWrap = document.getElementById('oldwrap');
+  oldBox.innerHTML = '';
+  reviewOld.forEach(function(c){ oldBox.appendChild(c); });
+  oldWrap.hidden = reviewOld.length === 0;
+  document.getElementById('oh').textContent =
+    '\ud83c\udfa8 Old style \u2014 NOT ready to review (' + reviewOld.length + ')';
   document.getElementById('rh').textContent = "\ud83d\udfe1 Unwatched ("+nR+")";
   document.getElementById('ah').textContent = "\u2705 Approved ("+nA+")";
   document.getElementById('wh').textContent = "\ud83d\udea9 Complained About ("+nW+")";
-  document.getElementById('review-empty').hidden = nR !== 0;
+  document.getElementById('review-empty').hidden = reviewNew.length !== 0;
 }
 
 function toggleApprove(num){

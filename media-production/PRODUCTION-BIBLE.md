@@ -30,6 +30,21 @@
 
 ---
 
+
+## REALISTIC-ONLY LAW (Cameron, 2026-08-06) — outranks any older style note
+
+Every picture is REALISTIC biblical photography. No cartoon, painterly-cartoon,
+illustrated or stylised frames, and above all **no MIXING** the two inside one
+video — Cameron: *"it was a mix and it throws people off... this should be only
+realistic pictures from now on."* One stylised frame fails the entire cut.
+
+- Applies to new builds AND to any older cut that is touched for any reason.
+- A prior approval does NOT exempt a cartoon or mixed cut — those approvals are
+  void, exactly like the old-voice approvals under REDO-ALL.
+- On the reviewer, cartoon-era cuts belong in "Old style — NOT ready to review",
+  never in the Unwatched queue where they read as finished work.
+
+
 ## 0. THE THREE OPERATING LAWS FOR EVERY CLAUDE ON EVERY COMPUTER (Cameron, 2026-07-10 — read before ANY video work)
 
 Cameron runs multiple Claude desktop apps on multiple computers. These three laws
