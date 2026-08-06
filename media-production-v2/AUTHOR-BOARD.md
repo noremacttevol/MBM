@@ -102,7 +102,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 88 | build-88-triumphal-entry | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH tripwires — total 118.564s vs V1 mp4 117.100s (|Δ|=1.464s) AND newer_mp3s=15. Author: set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
 | 89 | build-89-last-supper | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL. total 101.900s vs V1 mp4 100.833s, |Δ|=1.067s>1.0 shortfall. newer=0. Author: set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
 | 90 | build-90-washing-feet | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH tripwires — V1 mp4 107.433s runs +31.215s LONGER than timeline 76.218s AND newer_mp3s=13 (V1 mp4 carries deleted/old audio). Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
-| 91 | build-91-gethsemane | AUTHORED | 0 | OK |  | ✅ |
+| 91 | build-91-gethsemane | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 92 | build-92-peters-denial | AUTHORED | 0 | OK |  | ✅ |
 | 93 | build-93-barabbas-goes-free | AUTHORED | 0 | OK |  | ✅ |
 | 94 | build-94-father-forgive-them | AUTHORED | 0 | OK |  | ✅ |
