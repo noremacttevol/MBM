@@ -85,7 +85,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 71 | build-71-the-great-commission | BUILT | 21 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 72 | build-72-calling-matthew | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 73 | build-73-this-day-fulfilled | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
-| 74 | build-74-woman-washed-his-feet | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
+| 74 | build-74-woman-washed-his-feet | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED (0 credits spent): STALE V1 mp4 (row-69 class). V1 mp4 committed 2026-07-24, never re-rendered; all 19/19 narration mp3s are NEWER and the mp4 runs 12.9s SHORT of the 184.57s timeline — v2_assemble STALE-V1 guard refuses AUDIO LOCK. Runner can't re-render/edit beats_v2.py. Author: re-render V1 mp4 OR set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
 | 75 | build-75-woman-taken-in-adultery | AUTHORED | 0 | OK |  | ✅ |
 | 76 | build-76-suffer-the-little-children | AUTHORED | 0 | OK |  | ✅ |
 | 77 | build-77-widows-mite | AUTHORED | 0 | OK |  | ✅ |

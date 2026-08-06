@@ -40,3 +40,32 @@ render that codes her otherwise is an automatic reject.
 - Only Jesus wears cream. Guests varied (90/107), Simon cold-correct.
 - ROOM promote-first from b01 (whichever of 44/74 renders first owns
   the room plate — then --take it into the other).
+
+---
+
+## 🅿️ RUNNER PARK — A-auto 2026-08-06 (NEEDS-AUDIO — stale V1 mp4, row-69 class)
+
+Caught BEFORE any credit spent (zero stills generated — COST LAW win). The
+assembler's STALE-V1-FINAL guard will refuse the AUDIO LOCK on this row:
+
+- V1 mp4 `luke-7_woman-washed-his-feet.mp4` last committed **2026-07-24 10:15**
+  (commit 5bd6b82a9, new-voice ship), never re-rendered since.
+- All **19/19** placed narration mp3s in `audio/` are NEWER than that mp4
+  (content_time-verified against `v2_assemble.assert_v1_final_is_current`).
+- The mp4 runs **171.67s** but the extract_beats timeline sums to **184.57s**
+  — the mp4 is **12.9s SHORT** of the current narration. Its audio stream
+  predates the current beats, so copying it would ship stale/short audio.
+
+Reproduced the guard exactly (RECENCY tripwire fires: newer_mp3s=19/19). By
+contrast shipped rows 68/64 show newer_mp3s=0 and excess≈0. This is the
+row-69 stale-V1 class — the runner ships byte-identical V1 audio and does NOT
+re-render or edit beats_v2.py, so it cannot fix this.
+
+**RESUME (author/audio session):** either re-render the V1 mp4 from the current
+narration, OR add `AUDIO_FROM_V1_SEGMENTS = True` to this build's beats_v2.py so
+`v2_assemble` rebuilds the track from the V1 build's own mp3s at the
+extract_beats offsets (nothing re-voiced/re-timed; V1 stays read-only). Then
+flip AUTHOR-BOARD row 74 State→AUTHORED Audio→OK Ready→✅. No stills exist yet —
+the full generate step runs fresh when audio is unblocked. SAME-EVENT LAW: this
+row renders the shared WOMAN/SIMON/ROOM/JAR faces FIRST (build-44 is retired),
+ROOM promote-first from b01.
