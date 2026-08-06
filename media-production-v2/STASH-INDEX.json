@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 06:41:09",
+ "scanned": "2026-08-06 07:02:05",
  "entries": [
   {
    "row": 1,
@@ -34429,6 +34429,601 @@
    "night": true,
    "n_person": 1,
    "scene": "The herald's two hands come out and down, palms open toward the cowering men \u2014 the oldest gesture of no-harm there is \u2014 FEAR NOT \u2014 and the words move through the brilliance like warmth through cold water: the flung-up ar"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b01",
+   "file": "build-91-gethsemane/assets/s01-it-was-late-on-the.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The old grove waits in the moonlight: gnarled silver trunks standing in their own black shadows, pale rock breaking the slope, the leaves hanging still in the windless dark \u2014 and beyond the terrace wall the valley lies b"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b02",
+   "file": "build-91-gethsemane/assets/s02-the-supper-was-over-the.jpeg",
+   "tokens": [
+    "GROVE",
+    "EIGHT",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 3,
+   "scene": "Up from the valley floor, the camera on the slope's side taking the climbing file in profile, the little company climbs in moonlight \u2014 Jesus first through the terrace gap, the eleven strung behind him in a quiet file, cl"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b03",
+   "file": "build-91-gethsemane/assets/s03-he-had-come-here-often.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the old friendship between a man and a place: Jesus's hand finding the same gnarled trunk it has found a hundred evenings, resting there a moment in passing \u2014 the bark worn smooth at exactly that height \u2014 his fe"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b04",
+   "file": "build-91-gethsemane/assets/s04-at-the-edge-of-the.jpeg",
+   "tokens": [
+    "GROVE",
+    "EIGHT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "At the terrace wall, the camera behind the eight's halting shoulders, Jesus turns and his quiet hand settles the company: the eight folding down among the moonlit roots \u2014 one spreading his cloak, another setting his back"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b05",
+   "file": "build-91-gethsemane/assets/s05-he-told-them-gently-to.jpeg",
+   "tokens": [
+    "EIGHT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the tenderness of the charge: Jesus bent slightly toward the settling men, his voice low as a father's at a doorway \u2014 PRAY, THAT YE ENTER NOT \u2014 the words tucked around them like a blanket against weather only he"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b06",
+   "file": "build-91-gethsemane/assets/s06-then-he-went-deeper-into.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The grove deepens around his going: the cream-robed figure moving away up the slope between the ancient trunks, moonlight taking him and shadow giving him back, tree by tree, the ground rising and the branches lowering u"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b07",
+   "file": "build-91-gethsemane/assets/s07-he-took-only-three-with.jpeg",
+   "tokens": [
+    "GROVE",
+    "PETER",
+    "JAMES-Z",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 4,
+   "scene": "Three shapes follow him into the deeper trees: Peter's broad frame first, then James and John close together, picking their way over the moonlit roots after the cream of his robe \u2014 the same three from the bright mountain"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b08",
+   "file": "build-91-gethsemane/assets/s08-and-as-he-walked-something.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Mid-stride, it arrives: the frame close on Jesus as something no one has ever seen on him comes down over his frame like a loaded yoke \u2014 the straight shoulders bowing by degrees, one hand going out to an olive trunk and "
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b09",
+   "file": "build-91-gethsemane/assets/s09-he-was-sorrowful-and-deeply.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the face the three have followed for three years, changed: the warm brown eyes dark with a trouble that has no floor, the brow carrying weather they have never seen on it, the mouth pressed against something ris"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b10",
+   "file": "build-91-gethsemane/assets/s10-he-did-not-hide-it.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "He turns to them with none of it hidden: the sorrow standing plain in his face and posture, offered to his three friends unmasked \u2014 and the sight lands on them harder than any storm did: Peter's certainty gone from his e"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b11",
+   "file": "build-91-gethsemane/assets/s11-he-told-them-plainly-how.jpeg",
+   "tokens": [
+    "GROVE",
+    "PETER",
+    "JAMES-Z",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 4,
+   "scene": "Under the old branches he tells them plainly, hand flat on his own chest where the weight sits: heavy enough to kill \u2014 the words given straight into their shaken faces \u2014 and then the request, so small against the size of"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b12",
+   "file": "build-91-gethsemane/assets/s12-he-did-not-want-to.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the plainest thing he ever asked for: the face in the moonlight holding the ache every human being has carried into every dark night since the first one \u2014 the simple animal-and-soul need for another heartbeat ne"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b13",
+   "file": "build-91-gethsemane/assets/s13-everything-he-had-just-wrestled.jpeg",
+   "tokens": [
+    "GROVE",
+    "PETER",
+    "JAMES-Z",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "Down through the trees he walks it forward: the settled will moving at a steady, unhurried stride toward the grove's gate, the three hurrying to keep up behind \u2014 and far below across the black valley the little thread of"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b14",
+   "file": "build-91-gethsemane/assets/s14-then-he-went-on-a.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A stone's throw deeper the night takes him alone: among the roots and moon-pale rocks at the grove's heart Jesus sinks down \u2014 knees to the packed earth, then the weight folding him lower \u2014 while back through the trunks t"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b15",
+   "file": "build-91-gethsemane/assets/s15-everything-that-was-coming-all.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the carrying: the kneeling body bowed until his face is nearly to the packed earth, both hands pressed flat among the roots, the moon on the curve of his spine \u2014 and the words going up from that lowest posture, "
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b16",
+   "file": "build-91-gethsemane/assets/s16-father-if-thou-be-willing.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The prayer lifts his face to the night: moonlight full on the anguished features as the words go up \u2014 IF THOU BE WILLING, REMOVE THIS CUP \u2014 the honest asking of a man who wants another way with everything in him \u2014 and th"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b17",
+   "file": "build-91-gethsemane/assets/s17-but-this-night-was-not.jpeg",
+   "tokens": [
+    "GROVE",
+    "EIGHT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The familiar gate takes them in as always \u2014 the same worn gap in the terrace wall, the same moon through the same old branches \u2014 but the grove seems to know before the men do: Jesus's face graver than this place has ever"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b18",
+   "file": "build-91-gethsemane/assets/s18-he-asked-honestly-if-there.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the honesty of it: the upturned open hands, the face asking the way a man asks who genuinely hopes \u2014 is there another road, any other road, one door anywhere in the universe that is not this one \u2014 the request ma"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b19",
+   "file": "build-91-gethsemane/assets/s19-whatever-his-father-wanted-that.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The frame holds the settling: across the moonlit face the storm of the asking slowly gives way to something deeper and older than the fear \u2014 the want beneath the want \u2014 the features aligning by degrees toward his Father'"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b20",
+   "file": "build-91-gethsemane/assets/s20-not-his-own-will-he.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The wide frame shows what the words cost: the kneeling body rocked forward over the earth, fists closed full of dirt and root, the breath coming visible in the cold night air, the cream wool dark with sweat down the spin"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b21",
+   "file": "build-91-gethsemane/assets/s21-luke-who-was-a-physician.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the physician's detail: the brow shining and heavy in the moonlight, sweat gathered thick at the hairline and temple \u2014 and falling, drop after great heavy drop, dark in the dim light, to spot the packed earth be"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b22",
+   "file": "build-91-gethsemane/assets/s22-the-suffering-was-real-and.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The frame refuses to look away: the face in the moonlight carrying the full un-anesthetized weight \u2014 eyes pressed shut and glittering wet at the lashes, jaw trembling with the effort of the next breath, every line of the"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b23",
+   "file": "build-91-gethsemane/assets/s23-and-still-he-stayed-and.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wide grove holds the one unmoving thing in it: the kneeling figure planted among the roots and pale rocks, bowed but not gone, shaken but not risen to run \u2014 the gate stands open downhill, the dark offers a hundred ro"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b24",
+   "file": "build-91-gethsemane/assets/s24-and-heaven-did-not-leave.jpeg",
+   "tokens": [
+    "GROVE",
+    "ANGEL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Out of the darkness between the trunks help arrives on two quiet feet: a tall figure in plain silver-grey kneeling down into the dirt beside the spent and shaking man, strong hands taking his shoulders and truly bearing "
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b25",
+   "file": "build-91-gethsemane/assets/s25-answer-in-that-hour-was.jpeg",
+   "tokens": [
+    "GROVE",
+    "ANGEL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Close on the shape God's answer took: the silver-grey figure's hands firm at his shoulders and back, and against that hold the shattered breathing slowly finding its floor \u2014 the anguish not lifted one ounce, the night no"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b26",
+   "file": "build-91-gethsemane/assets/s26-he-was-not-abandoned.jpeg",
+   "tokens": [
+    "GROVE",
+    "ANGEL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "One picture answers the oldest fear: in the deep moonlit dark of the grove, two figures \u2014 the exhausted man and the strong quiet presence kneeling with him, shoulder under his arm, holding \u2014 the loneliest hour ever suffe"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b27",
+   "file": "build-91-gethsemane/assets/s27-when-he-rose-and-came.jpeg",
+   "tokens": [
+    "GROVE",
+    "PETER",
+    "JAMES-Z",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "He comes back, the camera low behind the sleepers' curled forms, to find sorrow has done what watchfulness could not fight: the three fallen asleep where grief felled them \u2014 Peter slumped sideways against a trunk with hi"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b28",
+   "file": "build-91-gethsemane/assets/s28-their-own-grief-had-worn.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Close on his face as he looks down at what he asked for and did not get: the one small request of the night \u2014 watch with me \u2014 asleep at his feet \u2014 and in the moonlit features not one line of condemnation: disappointment,"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b29",
+   "file": "build-91-gethsemane/assets/s29-watch-and-pray-that-ye.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "He wakes them the gentle way: crouched down to their level with a hand on Peter's shoulder, waiting out the blinking and the shame flooding up the fisherman's face \u2014 and giving them, instead of the rebuke they brace for,"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b30",
+   "file": "build-91-gethsemane/assets/s30-my-soul-is-exceeding-sorrowful.jpeg",
+   "tokens": [
+    "GROVE",
+    "PETER",
+    "JAMES-Z",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 4,
+   "scene": "He gives the three the whole truth in one sentence: MY SOUL IS EXCEEDING SORROWFUL \u2014 EVEN UNTO DEATH \u2014 the words passing into their faces like cold water, Peter's jaw loosening, John going pale in the moonlight \u2014 and the"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b31",
+   "file": "build-91-gethsemane/assets/s31-he-woke-them-but-he.jpeg",
+   "tokens": [
+    "GROVE",
+    "PETER",
+    "JAMES-Z",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "The scene the three will remember all their lives: caught failing, sitting up shame-faced in the roots with sleep still on them \u2014 and over them not one gesture of the scold: his hand steadying James's shoulder as he rise"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b32",
+   "file": "build-91-gethsemane/assets/s32-their-hearts-longed-to-be.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Close on the two truths sharing the woken faces: in Peter's eyes the fierce loyalty that would die for him before dawn asks its question, and under it the gray exhaustion that could not keep one hour's watch; John's youn"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b33",
+   "file": "build-91-gethsemane/assets/s33-he-knew-the-difference-and.jpeg",
+   "tokens": [
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The smallest gesture of the night, kept close: Jesus's own hands drawing the fallen cloak up over John's shoulders as the young man sags back into sleep \u2014 tucking it at the neck against the cold, the way a mother does \u2014 "
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b34",
+   "file": "build-91-gethsemane/assets/s34-he-went-back-and-prayed.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Back at the same worn patch of earth the same words go up a third time \u2014 and the frame shows what repetition has won: the kneeling spine straighter than an hour ago, the hands open now instead of fisted, the breathing lo"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b35",
+   "file": "build-91-gethsemane/assets/s35-he-had-looked-straight-at.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the face the struggle left behind: the tear-salt and sweat of the night still marking it, the exhaustion real in the eyes \u2014 and over all of it, settled like weather clearing, the YES: a resolve with no flinch le"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b36",
+   "file": "build-91-gethsemane/assets/s36-he-rose-from-that-place.jpeg",
+   "tokens": [
+    "GROVE",
+    "PETER",
+    "JAMES-Z",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 4,
+   "scene": "He is on his feet and the night changes gear: RISE \u2014 the three shaken awake to his voice gone steady as bedrock, his arm already out toward the valley where the hour is climbing \u2014 LET US BE GOING \u2014 no tremor left anywher"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b37",
+   "file": "build-91-gethsemane/assets/s37-but-even-in-his-agony.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The prayer does not end at the asking: the kneeling figure stays down past his own request, pressing on into the harder clause the way a swimmer pushes past the reef-line into deep water \u2014 the honest IF-THOU-BE-WILLING a"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b38",
+   "file": "build-91-gethsemane/assets/s38-across-the-valley-torches-were.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "From the grove's edge, the camera behind his still shoulder, the night shows him what is coming for him: down across the black valley a thin winding thread of torch-fire, climbing \u2014 point after point swinging up the far "
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b39",
+   "file": "build-91-gethsemane/assets/s39-he-woke-his-friends-and.jpeg",
+   "tokens": [
+    "GROVE",
+    "PETER",
+    "JAMES-Z",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 4,
+   "scene": "He leads the way toward it: striding down through the moonlit trunks ahead of the three still scrambling up from sleep behind him, his face set toward the gate and the far climbing fire-points beyond it \u2014 not marched out"
+  },
+  {
+   "row": 91,
+   "build": "build-91-gethsemane",
+   "beat": "v2-r091-b40",
+   "file": "build-91-gethsemane/assets/s40-he-did-it-on-purpose.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The closing frame holds the face at the gate: moonlit, marked by the night, and utterly steady \u2014 the eyes carrying both halves of the sentence at once: ON PURPOSE, in the set of the jaw that no torch-line can turn; FOR U"
   }
  ]
 }

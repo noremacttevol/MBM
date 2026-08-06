@@ -281,3 +281,14 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **Single-figure close-up beat renders in DAYTIME/SUNSET, ignoring a night row** (row 85 b04 "and the angel said" came back a rugged man in a dirty tunic against a bright golden daylight/sunset sky while all 22 other frames were deep night). Isolated 1-character beats (a portrait-style "X said/spoke" shot) lose the scene's time-of-day because the surrounding geometry is gone. Check the SKY/lighting on every lone-figure beat against the row's stated time of day, not just the wides; one reroll restored night. Mandatory reroll on a clear time-of-day mismatch.
 - **Angel-announcement / tight-composition beats drop below the row's stated crowd COUNT** (row 85 s03/s05: three shepherds instead of the canonical four — the fourth falls outside the tighter angel framing). Subtle count drift in a non-count-named beat is FIX-WAVE, not a reroll; the wides still carry the full count. Glance at head-count on tightly-framed hero beats.
 - **Heavenly-host / glory-light color drifts GOLDEN vs a row-canon WHITE** (row 85 s09 "Glory to God" came back amber while s08/s11/s12 read white-from-above). On angel-canon rows whose QC specifies WHITE glory light (never sunset tones), a golden take is borderline — FIX-WAVE it unless it reads as a literal horizon sunset. The host itself should be rank-upon-rank of INDIVIDUAL robed people, never a swirl of light (this held on 85).
+- **A beat authored with an INTERIOR must_show renders a DAYLIT INTERIOR ROOM
+  that breaks a night/outdoor story's continuity** (row 91 b10 "he did not hide
+  it": a bright-windowed mud-brick room among 39 night-olive-garden frames). A
+  reroll (`--only bNN --redo`) REPRODUCES the interior because the beat's own
+  must_show drives it — it is NOT a generation fluke, so do not burn a 2nd
+  reroll chasing it. It also does not hit any runner reroll-garbage criterion
+  (subject present, only-Jesus-cream, no modern object, no lens-stare, anatomy
+  fine), so the runner keeps the best take and logs it as a FIX-WAVE **author
+  beat-text** item (rewrite must_show to the correct place/time, then --redo).
+  Distinct from subtle drift: the whole SCENE (place + time-of-day) is wrong,
+  but the fix is the author's beat text, not the runner's meter.
