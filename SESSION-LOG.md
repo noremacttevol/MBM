@@ -18,7 +18,7 @@ nothing new to assemble, ship, or deploy. **ACTION FOR CAMERON: top up Gemini pr
 billing at https://ai.studio/projects, then re-run the resume command in the QC.md — it
 resumes free and finishes the row unattended.**
 
-Commit: PENDING
+Commit: dd37576212313e9276d4a8d10c2c879e9a696c9e
 
 ---
 
