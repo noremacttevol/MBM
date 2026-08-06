@@ -139,6 +139,12 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   triggered by beats that ask for MANY workers doing MANY tasks at once
   ("tenants working the lease"). Reroll on sight — the model eventually lands a
   single coherent wide. Never crop-rescue a panel out of it.
+- **Collage also fires on a SINGLE-figure ACTION beat, as a repeated-same-pose
+  triptych** (row 66 b07 Peter's sword-swing came back as 3 vertically-stacked
+  near-identical shots of the same man swinging). Not just many-workers beats —
+  any "dramatic motion" beat (a swing, a fall, a run) can stack the motion into
+  sequential panels. Mandatory reroll on sight; one redo lands a single coherent
+  frame. Never crop-rescue one panel.
 - **False "tiled/collage" frame from ffmpeg INPUT-seek (`-ss` BEFORE `-i`)**
   (row 55 caption QC): extracting a caption frame with `ffmpeg -ss <t> -i mp4`
   can land on a non-keyframe and decode a garbled/striped image that looks like
