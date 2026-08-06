@@ -1,3 +1,37 @@
+## 2026-08-06 (Opus autopilot) — Row 72 calling-matthew SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 68 (its SESSION-LOG entry + commit `c5713f27b`/`d36a17435`
+verified in `git log` at session start). Rows 48/60/61/62/63/69/71 were
+RUNNING/parked siblings (never touched — parallel-lanes law). Lowest Ready ✅
+empty-claim AUTHORED row was **72 (Calling Matthew, Matt 9:9-13)** —
+cross-checked against QUEUE (valid story, not swapped), claimed by push
+(commit `04ab6876b`), built end to end.
+
+**Row 72:** 41 painted stills @ native 2K (V1 redo had ~9). `v2_prompt.py
+--check` PASS. 0 portraits paid (MATTHEW + PHARISEES auto-attach). Two
+promote-first places per author QC — BOOTH from this row's own b01, HOUSE
+from b16 (declined the `--wire` build-57 HOUSE / build-35 GUESTS suggestions
+the QC forbids). TOLL-STATION law held (plank table + box + scales, never a
+kiosk; money box LEFT BEHIND when Matthew follows). Only Jesus in cream;
+realistic photography, ZERO cartoon/mixed frames in the shipped cut.
+**COMPLAINT LEDGER: none open** (`v2_outline.py 72`). Judged vs both
+META-LAWS + all 14 rubric lessons + every RUNNER-LESSONS pattern.
+
+**Cost/quality:** 4 rerolls across 3 beats = **9.8%** (under 15% budget):
+b22 came back a CARTOON/CGI render (Law-14 mix — same b22 slot that failed
+on row 56), b34 waxy/stiff Pharisees, b09 lens-stare→then a 5-panel COLLAGE
+on redo #1→clean on redo #2. Row ≈ **$5.89** vs the $6.10 running average →
+trend holds DOWN. AUDIO LOCK PASS SHA256 `5c00718e…` (V1 audio
+byte-identical), 244.4s, 20.9 MB. 3 rendered caption frames verified
+(bottom-band only, question card clean).
+
+**Ship:** commit `417bfb4b6` (mp4 + QC + boards + QUEUE), review card
+`data-review-wave="realistic-v2"` + `data-hash=417bfb4b6…`, then
+`firebase deploy --only hosting` and verified the live hash + mp4 200 on
+`milk-b4-meat.web.app`. Stash rescan + STASH-INDEX committed.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 76 suffer-the-little-children SHIPPED — Machine A `Dev`
 
 Session chain: at start read SESSION-LOG top (row 75 woman-taken-in-adultery,
