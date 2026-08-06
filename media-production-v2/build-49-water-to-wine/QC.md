@@ -57,3 +57,53 @@ plate for it (three distinct servants: face-board them instead).
 - Wedding joy is lamplit night from b04 on; golden afternoon before.
   One direction only.
 - Only Jesus wears cream anywhere.
+
+---
+
+## RUNNER QC + SHIP (A-auto Machine A, 2026-08-06)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 49` shows no filed complaint on
+row 49. The row-adjacent pronunciation family ("Cana = Kane-a", row 50 card) is
+an AUDIO matter, and the audio here is the locked V1 stream (AUDIO LOCK PASS on
+assemble) — not re-voiced, per REDO-ALL/SPEAKER law. Row 50/51 are correctly
+parked NEEDS-AUDIO on the board.
+
+**Row-specific laws verified (all PASS):**
+- COUNT LAW (row-135, "the row's biggest"): SIX stone jars, countable and
+  separated, in every jars frame — verified by cropping s21 (plate) and s36 to
+  count exactly 6 rims. Jars read as pale STONE (not clay amphorae, not glass),
+  waist-to-chest height (scripturally large, 20-30 gal). Water poured TO THE
+  BRIM at fill; wine appears at the rims post-miracle (s36).
+- THREE-SERVANTS: a consistent man/woman/boy trio across s23/s25 (and drawing
+  servant s26). Action-logic: water is poured INTO the jars (fill), reads right.
+- MIRACLE UNDEPICTED: no glowing transformation moment; first RED appears only
+  at the draw (s29 cup = dark-red WINE, not blood, in a cup at a feast; s36 rims).
+- THREE-MARYS: MARY = the MOTHER (blue mantle, serene, ~50). Consistent across
+  s03/s08/s09/s15/s16. **Canonical mother-Mary frame for future rows (84/86/87/
+  94-96): build-49 s16-and-his-mother-who-knew.jpeg** (per author instruction).
+  b08 direction law: Mary crosses TO Jesus (he is in frame). PASS.
+- JESUS: one locked face (V2 master-ref — warm Middle-Eastern, dark wavy
+  shoulder-length hair, full dark beard; eyes are the V2 reference green, held
+  CONSISTENT across s03/s04/s08/s09/s12/s15/s23/s26/s27/s37/s38/s40 — not drift).
+  Cream robe every scene; ONLY Jesus wears cream anywhere. No halo/glow. Face
+  gate exits 0.
+- STEWARD (purple/gold, towel, grey curly beard) and BRIDEGROOM (young, olive
+  wreath, maroon) consistent across s30/s32/s33/s34. Stone jars in wide framing.
+
+**Reroll ledger (COST LAW):** 1 reroll of 40 beats = **2.5%** (budget 15%).
+- b02 COURT establish: first take was a 3-panel COLLAGE (RUNNER-LESSONS pattern);
+  rerolled once → single coherent courtyard wide, then promoted as COURT plate.
+Place plates promote-first (no stash match): COURT (s02, 19 beats), JARS (s21,
+7 beats). Portraits: STEWARD, BRIDEGROOM ($0.27). No blond-drift on incidental
+children observed (RUNNER-LESSONS row-47 pattern) — dark hair throughout.
+
+**FIX-WAVE (residual, minor — NOT garbage, kept best take):**
+- s03 ("he was there as a guest") reads night-lamplit; author's note wanted
+  golden-afternoon before the b04 dance (wedding joy is lamplit from b04 on).
+  Time-of-day progression slightly early to night. Not a scripture-stated time;
+  minor continuity, deferred to fix wave.
+- s37 and s38 are near-duplicate COURT restored-feast wides. Both valid; minor
+  repetition.
+
+Row spend this session ≈ portraits $0.27 + 2 anchors $0.27 + 1 reroll $0.13 +
+full run $5.09 ≈ **$5.76**, under the $6.10/row running average. Trend holds.
