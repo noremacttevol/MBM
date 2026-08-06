@@ -92,7 +92,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 78 | build-78-who-is-my-mother | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0): STALE V1 mp4 (row-69 class), pre-flighted at step 2 before any spend. V1 mark-3 mp4 rendered 2026-07-24; all 11 locked mp3s NEWER (2026-07-28), excess +5.18s — v2_assemble refuses AUDIO LOCK. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 79 | build-79-the-seventy-sent | BUILT | 19 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 80 | build-80-come-unto-me | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0, pre-flighted before any spend): STALE V1 mp4 (row-69/74/78 class). V1 mp4 rendered 2026-07-24, all 11/11 narration mp3s NEWER (2026-07-28); v2_assemble STALE-V1 guard refuses AUDIO LOCK. Runner can't edit beats_v2.py. Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
-| 81 | build-81-render-unto-caesar | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
+| 81 | build-81-render-unto-caesar | BUILT | 16 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 82 | build-82-anointing-at-bethany | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1, FAILS BOTH tripwires — newer_mp3s=19 AND excess=+7.00s. Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 83 | build-83-weeping-over-jerusalem | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1 duration tripwire — newer=0 but excess=-2.20s (abs>1.0). Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 84 | build-84-no-room-manger | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
