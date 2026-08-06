@@ -26,7 +26,7 @@ re-run the resume command in build-48's QC.md (resumes free, finishes unattended
 the row-48 resume loop until then — 26 sessions burned on an unfixable state is itself a COST-LAW
 concern and no automated resume can refill an empty prepayment balance.**
 
-Commit: PENDING
+Commit: 3eb2559ad
 
 ---
 
