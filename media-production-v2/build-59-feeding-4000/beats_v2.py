@@ -83,6 +83,13 @@ LOCKS = {
 
 REF = True
 
+# The committed V1 mark-8_feeding-4000.mp4 is a STALE render (173.533s) longer
+# than the re-voiced segment mp3s actually sum to (172.529s timeline). Per the
+# assembler's prescribed in-file fix (documented in v2_assemble.py; used on rows
+# 53/56), rebuild the authoritative track from the verified V1 segment mp3s at
+# the extract_beats offsets and hash-verify. Nothing is re-voiced; V1 read-only.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r059-b01", "out": "s01-a-remote-rugged-place.jpeg", "seg": "n1 p1",
@@ -636,5 +643,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "WILDS": "PLACE-REF/wilds.jpeg",  # build-59-feeding-4000 s01-a-remote-rugged-place (manual)
 }
 # === end PLACE-PLATES ===
