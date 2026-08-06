@@ -1,4 +1,34 @@
-## 2026-08-06 (Opus autopilot, 23rd resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
+## 2026-08-06 (Opus autopilot, 24th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
+
+Session-chain verified: read SESSION-LOG top (row 48 23rd resume park) and confirmed commit
+`e1cef0a13` (real-hash stamp `1cda99be4`) present in `git log`. Hostname `Dev` → Machine A.
+Directed to RESUME row 48 (State RUNNING, Claim A-auto) headless/unattended — did NOT start a
+new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED AGAIN, STILL BLOCKED, $0.** Pulled clean via
+`--rebase --autostash origin main` (Already up to date). `--check` PASSES (35 beats, v4 PASS).
+11/35 stills intact (assets/ s01-s09, s16, s22); 4 plates present. Meter $409.64, ceiling $439.46
+(unchanged; api-spend.jsonl last line still build-116 08:29). Ran the exact resume command
+`python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → `429 RESOURCE_EXHAUSTED
+"prepayment credits are depleted"` on the FIRST shot (b10 → s10). **Twenty-fourth** consecutive
+resume blocked by the identical empty-prepayment state — a hard billing block, not a transient
+rate limit. **$0 spent** — the 429 fires before any image, so the 11 done frames are untouched
+(COST LAW intact). Re-parked in place (bumped the QC.md top park note to the 24th probe rather
+than pile on a redundant block). Row left State RUNNING / Claim A-auto; no false BUILT tick — the
+row is NOT built. Could NOT reach step 7c DEPLOY — zero frames generate while billing is empty, so
+nothing new to assemble, ship, or deploy.
+
+**⛔ THIS ROW IS HARD-BLOCKED ON CAMERON — 24 headless sessions have now confirmed the same empty
+Gemini prepayment balance. Autopilot cannot self-unblock this. The entire board is stalled behind
+it. ACTION FOR CAMERON: top up Gemini prepayment billing at https://ai.studio/projects, then
+re-run the resume command in build-48's QC.md (resumes free, finishes unattended). STRONGLY
+consider pausing the row-48 resume loop until then — 24 sessions burned on an unfixable state is
+itself a COST-LAW concern.**
+
+Commit: __PENDING__
+
+---
+
 
 Session-chain verified: read SESSION-LOG top (row 48 22nd resume park) and confirmed commit
 `f2e15d447` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48
