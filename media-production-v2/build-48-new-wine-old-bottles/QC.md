@@ -46,6 +46,27 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (10th resume attempt, headless)
+
+Fresh headless resume. Pulled clean (autostash — other lanes' in-progress files present),
+`--check` PASSES (35 beats, v4 PASS). 11/35 stills intact (assets/ s01-s09, s16, s22). 4
+plates present (courtyard/wedding/workshop/cellar). Ran the resume command
+`v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → **429 RESOURCE_EXHAUSTED on
+the FIRST shot (b10)**, `prepayment credits are depleted`. Honored the 429 rule: waited 60 s,
+retried once → identical 429 on b10. **$0 spent, meter unchanged at $409.64.** Tenth
+consecutive resume blocked by the same empty-prepayment state — a hard billing block, not a
+rate limit. Only Cameron can clear it: top up billing at https://ai.studio/projects, then
+re-run the resume command below (resumes free — the 11 passing frames are never re-pulled).
+Row left State RUNNING / Claim A-auto.
+
+**EXACT RESUME COMMAND (after top-up):**
+```
+cd /home/noremacttevol/Desktop/MBM/media-production-v2
+python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46
+```
+
+---
+
 ## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (9th resume attempt, headless)
 
 Fresh headless resume. Pulled clean (autostash — other lanes' in-progress files present),

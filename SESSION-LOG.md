@@ -1,4 +1,26 @@
-## 2026-08-06 (Opus autopilot, 9th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
+## 2026-08-06 (Opus autopilot, 10th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
+
+Session-chain verified: read SESSION-LOG top (row 48 9th resume park) and confirmed commit
+`7c143787c` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48
+(State RUNNING, Claim A-auto) headless/unattended — did NOT start a new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED AGAIN, STILL BLOCKED, $0.** Pulled clean via
+`--rebase --autostash` (other lanes' in-progress files present — untouched). `v2_prompt
+--check` PASS (35 beats, v4 PASS). 11/35 stills intact (s01-s09, s16, s22); 4 plates present
+(courtyard/wedding/workshop/cellar). Meter $409.64, ceiling $439.46 (recomputed from live
+api-spend.jsonl — unchanged). Ran the exact resume command → `429 RESOURCE_EXHAUSTED
+"prepayment credits are depleted"` on b10 (first call). Honored the 429 rule: waited 60 s,
+retried once → identical depleted 429. **$0 spent** — the 429 fires before any image, so the
+11 done frames are untouched (COST LAW intact). Re-parked clean: QC.md RUNNER PARK updated
+(10th-attempt headless note + resume command). Row left State RUNNING / Claim A-auto; no false
+BUILT tick. Could NOT reach step 7c DEPLOY — zero frames generate while billing is empty, so
+nothing new to assemble, ship, or deploy. **ACTION FOR CAMERON: top up Gemini prepayment
+billing at https://ai.studio/projects, then re-run the resume command in the QC.md — it
+resumes free and finishes the row unattended.**
+
+Commit: PENDING
+
+---
 
 Session-chain verified: read SESSION-LOG top (row 48 8th resume park) and confirmed commit
 `88b6510b6` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48
