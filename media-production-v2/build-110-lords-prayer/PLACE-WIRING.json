@@ -1,0 +1,14 @@
+{
+ "HOME": {
+  "manual": true,
+  "src_beat": "s06-not-a-distant-judge-not",
+  "src_build": "build-110-lords-prayer",
+  "src_file": "build-110-lords-prayer/assets/s06-not-a-distant-judge-not.jpeg"
+ },
+ "PLACE": {
+  "manual": true,
+  "src_beat": "s01-one-day-his-followers-asked",
+  "src_build": "build-110-lords-prayer",
+  "src_file": "build-110-lords-prayer/assets/s01-one-day-his-followers-asked.jpeg"
+ }
+}

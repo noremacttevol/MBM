@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 07:50:10",
+ "scanned": "2026-08-06 07:52:50",
  "entries": [
   {
    "row": 1,
@@ -37174,6 +37174,333 @@
    "night": false,
    "n_person": 2,
    "scene": "The closing frame keeps the posture that answers every fear about prayer: the father leaned all the way IN \u2014 elbow on knee, chin in hand, face a hand-span from the boy's unspooling story in the gold afternoon light \u2014 not"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b01",
+   "file": "build-110-lords-prayer/assets/s01-one-day-his-followers-asked.jpeg",
+   "tokens": [
+    "PLACE",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The request is born from watching, the camera on the slope's side taking riser and watchers in one profile: watching: Jesus rising easy from the worn flat stone where he has been praying in the soft morning light \u2014 and t"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b02",
+   "file": "build-110-lords-prayer/assets/s02-they-expected-maybe-a-technique.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on students braced for a system: John's young face set to memorize, Peter's brow furrowed for complexity, another disciple's fingers already half-raised to count off the expected steps \u2014 postures, hours, washings, "
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b03",
+   "file": "build-110-lords-prayer/assets/s03-instead-jesus-gave-them-a.jpeg",
+   "tokens": [
+    "PLACE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the curriculum confounding its students: Jesus's face warm and almost amused as he begins \u2014 no list coming, no ladder of techniques \u2014 the first word already shaping on his lips being not a formula's opening but "
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b04",
+   "file": "build-110-lords-prayer/assets/s04-our-father-which-art-in.jpeg",
+   "tokens": [
+    "PLACE",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The prayer is taught the way songs are: Jesus praying it slowly with his face lifted to the soft sky \u2014 OUR FATHER \u2014 and around him on the terrace the lips beginning to move after his, half a beat behind: Peter's mouth sh"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b05",
+   "file": "build-110-lords-prayer/assets/s05-thy-will-be-done-in.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The line gets its landscape, the camera high on the terrace so every worker bends away from the lens at his own row: below, the terraced fields in morning light \u2014 a ploughman laying his straight dark furrows, women sowin"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b06",
+   "file": "build-110-lords-prayer/assets/s06-not-a-distant-judge-not.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The word gets defined by its picture: the small girl in her madder-red dress running full-tilt across the room at the man in the doorway \u2014 and the doorway already kneeling, arms already open, the catch as certain as sunr"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b07",
+   "file": "build-110-lords-prayer/assets/s07-and-the-very-first-thing.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The prayer's strange first movement, drawn: a lone figure on a flat rooftop at morning with hands open not around her own needs but OUT \u2014 over the waking town below, the smoking ovens, the children spilling into lanes, t"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b08",
+   "file": "build-110-lords-prayer/assets/s08-a-father-you-belong-to.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on what belonging looks like at four years old: the girl settled on her father's hip with the boneless certainty of a child on home ground \u2014 one small arm slung round his neck as by right, her cheek against his sho"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b09",
+   "file": "build-110-lords-prayer/assets/s09-give-us-this-day-our.jpeg",
+   "tokens": [
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The petition sits steaming on the table: one day's loaf, just drawn from the oven's warm mouth, its steam curling up through the deep window's morning light \u2014 not a granary, not a week's stack, not wealth: today's bread "
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b10",
+   "file": "build-110-lords-prayer/assets/s10-then-the-plain-honest-things.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Permission arrives at an ordinary table: the little family at their plain meal in the window's warm light \u2014 the loaf broken and passing, water poured, the girl's cup steadied by her father's finger \u2014 nothing on the table"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b11",
+   "file": "build-110-lords-prayer/assets/s11-and-forgiveness-asked-for-and.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the village lane an old grievance dies in daylight: two neighbours \u2014 stiff with each other since the boundary-stone quarrel \u2014 meeting at last in the middle ground, hands clasping rough and sudden, the apology and the "
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b12",
+   "file": "build-110-lords-prayer/assets/s12-we-receive-mercy-with-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on mercy's plumbing: two pairs of hands in the same warm light \u2014 one pair open and upturned, receiving, and the same worn pair a breath later turned outward, passing it on to a third \u2014 the current running through, "
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b13",
+   "file": "build-110-lords-prayer/assets/s13-and-lead-us-not-into.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last petitions walk a mountain path: a father leading his small son by the hand along the high trail \u2014 choosing the inside line without a word, his body between the boy and the crumbling drop that falls away below \u2014 "
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b14",
+   "file": "build-110-lords-prayer/assets/s14-amen-keep-me-safe.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The great prayer ends the size it started: bedtime in the lamplight, the girl's small hands folded and her father's larger ones cupped warm around them, her whispered amen still in the air \u2014 KEEP ME SAFE \u2014 four words and"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b15",
+   "file": "build-110-lords-prayer/assets/s15-lead-me-away-from-what.jpeg",
+   "tokens": [
+    "PLACE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The teaching comes home to its terrace: Jesus letting the last line settle over the ring in the soft morning stillness \u2014 the whole prayer said, beginning to end, in less time than a man needs to draw water \u2014 and the disc"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b16",
+   "file": "build-110-lords-prayer/assets/s16-honest-nothing-showy.jpeg",
+   "tokens": [
+    "PLACE",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the teaching taking its first steps: Peter with his eyes shut on the terrace, trying it himself \u2014 the big fisherman's lips working slow through OUR FATHER like a man walking a new plank bridge, no flourish anywh"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b17",
+   "file": "build-110-lords-prayer/assets/s17-but-when-ye-pray-use.jpeg",
+   "tokens": [
+    "PLACE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The warning points gently down the hill, the camera behind the listening ring toward the far street: down the hill: from the terrace Jesus's hand makes its soft dismissing wave toward the town below, where at a street co"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b18",
+   "file": "build-110-lords-prayer/assets/s18-that-was-his-warning-just.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame closes the theatre kindly: the street corner empty now in plain unspectacular light, the fine tasselled prayer shawl folded neat on the stone bench where the audience used to stand \u2014 no performer, no admirers, "
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b19",
+   "file": "build-110-lords-prayer/assets/s19-not-many-clever-words-not.jpeg",
+   "tokens": [
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The real venue announces itself by a line of light: the home's plain wooden door shut on the evening, and beneath it, along the worn threshold, warm lamplight seeping gold \u2014 someone inside, unseen and unadmired, talking "
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b20",
+   "file": "build-110-lords-prayer/assets/s20-the-prayer-god-loves-most.jpeg",
+   "tokens": [
+    "HOME",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on heaven's favourite genre: the small girl kneeling at her low bed in the lamplight with her eyes squeezed shut in concentration, dark curls falling forward, the whisper moving her lips \u2014 words nobody will ever re"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b21",
+   "file": "build-110-lords-prayer/assets/s21-not-a-speech-to-impress.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The definition arrives in one warm picture: the girl climbing up into her father's lap by her own small determined effort \u2014 welcome so assumed it needs no asking \u2014 settling in against his chest and starting straight into"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b22",
+   "file": "build-110-lords-prayer/assets/s22-so-you-do-not-need.jpeg",
+   "tokens": [
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame sets out the only requirement: a quiet lamplit corner of the room \u2014 the low chair by the window, the evening settling blue outside, the lamp's small gold steady on the plaster \u2014 no book of right words laid out,"
+  },
+  {
+   "row": 110,
+   "build": "build-110-lords-prayer",
+   "beat": "v2-r110-b23",
+   "file": "build-110-lords-prayer/assets/s23-and-the-beginning-is-just.jpeg",
+   "tokens": [
+    "PLACE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame prays, the camera outside the circle behind the bowed shoulders: the terrace gone gold with late light, Jesus and the ring of disciples with heads bowed together, and on every mouth the same two words m"
   }
  ]
 }

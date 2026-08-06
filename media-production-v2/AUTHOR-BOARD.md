@@ -121,7 +121,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 107 | build-107-john-baptist-doubt | BUILT | 25 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 108 | build-108-my-sheep-hear-my-voice | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH tripwires — RECENCY all 14/14 mp3s NEWER than 2026-07-24 V1 mp4, AND |Δ|=2.13s>1.0. Board said OK but pre-flight is authoritative. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 109 | build-109-ask-seek-knock | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 110 | build-110-lords-prayer | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
+| 110 | build-110-lords-prayer | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 111 | build-111-lilies-and-sparrows | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 112 | build-112-beatitudes | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 113 | build-113-where-art-thou | AUTHORED | 0 | OK |  | ✅ |

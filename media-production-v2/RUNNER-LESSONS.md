@@ -316,3 +316,10 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   reroll (nothing to lock it). The runner cannot edit the beat (hard rail). Do NOT
   burn rerolls chasing a costume/identity drift on a beat whose `[+N char ref: …]`
   banner is missing that person — log it FIX-WAVE for the author to add the ref.
+- **A single still renders ROTATED 90° (whole scene sideways)** (row 110 b07 "his
+  name be honoured … kingdom come": a rooftop-figure-hands-lifted-over-the-town
+  beat came back with the horizon running vertically down one edge and the figure
+  lying sideways — the correct COMPOSITION, just rotated a quarter turn). It is
+  outright garbage (nobody can read a sideways frame), distinct from the 16:9-
+  letterbox-inside-9:16 defect. Mandatory reroll on sight; one `--redo` landed it
+  upright. Tends to hit lone-figure "lifted hands / reaching outward" beats.
