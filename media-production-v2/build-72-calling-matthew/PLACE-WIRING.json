@@ -1,0 +1,14 @@
+{
+ "BOOTH": {
+  "manual": true,
+  "src_beat": "s01-there-was-one-job-in",
+  "src_build": "build-72-calling-matthew",
+  "src_file": "build-72-calling-matthew/assets/s01-there-was-one-job-in.jpeg"
+ },
+ "HOUSE": {
+  "manual": true,
+  "src_beat": "s16-and-then-something-even-stranger",
+  "src_build": "build-72-calling-matthew",
+  "src_file": "build-72-calling-matthew/assets/s16-and-then-something-even-stranger.jpeg"
+ }
+}
