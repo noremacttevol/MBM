@@ -1,3 +1,40 @@
+## 2026-08-06 (Opus autopilot) — Row 115 (ram-in-the-thicket) PARKED at 16/32 stills — Gemini BILLING DEPLETED (global block) — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (Row 116 claim RELEASED —
+Gemini billing depleted) and confirmed commit `49c7af9d8` (Row 111 post-ship
+rescan) present in `git log -5`. Ran the PARALLEL-LANES loop: lowest Ready ✅
+empty-claim row = **row 115 (The ram in the thicket, Genesis 22)**; every RUNNING
+sibling (48/60/61/62/63/84/112/113/114) left untouched.
+
+**Row 115 — CLAIMED and PARTIALLY BUILT, then PARKED. BLOCKER: Gemini API
+prepayment credits DEPLETED — GLOBAL stop (same block hit row 116 above).**
+- Cross-checked QUEUE row 115 (Gen 22, not swapped). LEARNING LAW done: read both
+  META-LAWS + all 14 numbered rubric lessons + all of RUNNER-LESSONS.md; ran
+  `v2_outline.py 115` → **no open complaints** (COMPLAINT LEDGER: none open).
+  `v2_prompt.py --check` PASS (32 beats). AUDIO-LOCK PRE-FLIGHT PASS ($0):
+  |Δ|=0.011s vs V1 mp4, recency PASS — this row is genuinely buildable once
+  credits return.
+- Built before the wall: ABRAHAM + ISAAC portraits (CAST-REF-V2/), MORIAH place
+  plate promoted from b01 (eyeballed clean — grey-dawn Moriah summit, altar cairn,
+  thorn thicket, period-correct), and **16 / 32 stills (b01–b16)**. Stopped mid-b17
+  on `429 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted."` Retried once
+  after 60 s per the brief; identical error → hard billing wall, not a rate limit.
+- Spend this row ≈ **$2.4** (2 portraits + b01 anchor + 16 stills), **0 rerolls
+  (0%)** — every generated frame kept, none re-pulled. Meter at stop $409.37. Well
+  under the $6.10/row average pace (partial row); the COST LAW trend holds (0% rerolls).
+- Parked clean: QC.md carries a full RUNNER PARK note + exact resume command; the
+  16 stills + portraits + MORIAH plate are VALID and must NOT be regenerated
+  (v2_gen_api resumes at b17). AUTHOR-BOARD 115 → AUTHORED / Stills 16 / claim =
+  PARKED-BILLING; QUEUE row 115 note updated. Ready ✅ kept (package is ready).
+
+**ACTION FOR CAMERON:** top up the Gemini key at https://ai.studio/projects
+(billing → prepay). Until then NO autopilot lane can generate — all hit the same
+depleted-credits 429. After top-up, a runner takes row 115 and resumes at b17
+(16 stills already banked), then assembles (audio pre-flight already PASSED) and
+ships. Stopping clean here — no point taking another row on a dead key.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 116 claim RELEASED — Gemini BILLING DEPLETED (global block, $0) — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (row 111 lilies-and-sparrows

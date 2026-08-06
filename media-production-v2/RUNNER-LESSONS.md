@@ -323,6 +323,28 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   outright garbage (nobody can read a sideways frame), distinct from the 16:9-
   letterbox-inside-9:16 defect. Mandatory reroll on sight; one `--redo` landed it
   upright. Tends to hit lone-figure "lifted hands / reaching outward" beats.
+- **QC a promote-first plate for UNWANTED PEOPLE before promoting — a crowded
+  anchor bleeds a crowd onto later beats of that place (row 114 abraham-sodom
+  HEIGHT plate s05).** The HEIGHT anchor b05 ("for those cities had grown dark")
+  is authored person-free (locks HEIGHT only, landscape must_show), but the model
+  added a ~6-person foreground group. It was promoted anyway on the reasoning
+  "the receiving beats' own text dominates" — WRONG: the crowd bled into 3 of the
+  solo-plea beats (s10/s15/s20) where Abraham should be ALONE (Gen 18:22), while
+  s08/s18/s21/s23 stayed correctly solo/person-free. Lesson: when the place's
+  beats are meant to be solo or person-free, the plate anchor MUST be QC'd
+  person-free BEFORE `--promote`; if the anchor rendered a crowd, reroll the
+  anchor for a clean person-free plate first (one reroll on the plate is far
+  cheaper than 3 FIX-WAVE regens downstream). Once promoted, the crowd is a
+  FIX-WAVE (re-promote a person-free frame like s21/s23 and regen only the
+  crowded beats), NOT a per-beat reroll.
+- **`429 RESOURCE_EXHAUSTED "prepayment credits are depleted" is a REAL balance-
+  zero, not the auto-reloading rate limit (row 114, 2026-08-06).** Distinguish
+  the two: a rate-limit 429 clears on the one-retry-after-60s; a "prepayment
+  credits are depleted" 429 persists after the retry and halts EVERY lane until
+  Cameron tops up Google AI Studio billing. On the depleted variant, do the one
+  retry per law, then park with the resume command in QC.md, push, and stop clean
+  — no other row is buildable either (all need generation), so there is no next
+  ready row to move to.
 - **"Coats of skins" / any leather-garment beat renders as a MODERN tailored
   leather JACKET or trench coat** (row 113 b20 the-coats-found, and faintly
   b21/b24): a Genesis-3 beat asking for "garments of soft dark leather" comes
@@ -332,3 +354,6 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   clothing; the model defaults to modern outerwear. Reroll on sight when buttons/
   lapels/zippers appear; a slightly-modern seamed hide is FIX-WAVE. (For Adam/Eve
   a fur/hide look is CORRECT — the "never fur/fleece" rule is Jesus-only.)
+
+## INFRA / BILLING
+- **`429 RESOURCE_EXHAUSTED` with body "Your prepayment credits are depleted" is a HARD billing wall, NOT the transient rate-limit 429 (2026-08-06, rows 115 & 116).** The brief's "retry once after 60 s, billing auto-reloads" applies to the rate-limit 429 only; the *prepayment-depleted* message does NOT clear on a 60 s retry (verified twice). It is GLOBAL to the Gemini key — every concurrent lane hits it, so there is NO other Ready row to fall to (the same dead key blocks all of them). Correct response: retry once to confirm, then PARK the row (QC.md RUNNER PARK + exact resume command; keep any already-generated stills — they are valid, do NOT regen), leave the board/QUEUE noting "Gemini credits depleted — Cameron top up AI Studio billing," add a SESSION-LOG entry flagging the ACTION FOR CAMERON, commit, push, and STOP the session clean. Do not burn turns re-trying or hopping rows on a depleted key.
