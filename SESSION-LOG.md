@@ -1,3 +1,34 @@
+## 2026-08-06 (Opus autopilot, 27th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
+
+Session-chain verified: read SESSION-LOG top (row 48 26th resume park) and confirmed commit
+`3eb2559ad` (real-hash stamp `570596286`) present in `git log`. Hostname `Dev` → Machine A.
+Directed to RESUME row 48 (State RUNNING, Claim A-auto) headless/unattended — did NOT start a
+new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED AGAIN, STILL BLOCKED, $0.** Pulled clean via
+`--rebase --autostash origin main` (Already up to date). `--check` PASSES (35 beats, v4 PASS).
+11/35 stills intact (assets/ s01-s09, s16, s22); 4 plates present. Meter $409.64 (api-spend.jsonl
+last line still build-116 at 08:29); ceiling $439.46. Ran the exact resume command
+`python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → `429 RESOURCE_EXHAUSTED
+"prepayment credits are depleted"` on the FIRST shot (b10 → s10). **Twenty-seventh** consecutive
+resume blocked by the identical empty-prepayment state — a hard billing block, not a transient
+rate limit (the script's own internal retry fired before surfacing the 429). **$0 spent** — the
+429 fires before any image, so the 11 done frames are untouched (COST LAW intact). Re-parked in
+place (bumped the QC.md top park note to the 27th probe). Row left State RUNNING / Claim A-auto;
+no false BUILT tick — the row is NOT built. Could NOT reach step 7c DEPLOY: zero frames generate
+while billing is empty, so nothing new to assemble, ship, or deploy.
+
+**⛔ THIS ROW IS HARD-BLOCKED ON CAMERON — 27 headless sessions have now confirmed the same empty
+Gemini prepayment balance. Autopilot cannot self-unblock this. ACTION FOR CAMERON: top up Gemini
+prepayment billing at https://ai.studio/projects, then re-run the resume command in build-48's
+QC.md (resumes free, finishes unattended). PLEASE PAUSE the row-48 resume loop until then — 27
+sessions burned on an unfixable state is itself a COST-LAW concern; no automated resume can refill
+an empty prepayment balance.**
+
+Commit: PENDING
+
+---
+
 ## 2026-08-06 (Opus autopilot, 26th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
 
 Session-chain verified: read SESSION-LOG top (row 48 25th resume park) and confirmed commit
