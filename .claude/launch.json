@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "mobile:web"],
       "port": 8081
+    },
+    {
+      "name": "review-site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8033", "-d", "site"],
+      "port": 8033
     }
   ]
 }

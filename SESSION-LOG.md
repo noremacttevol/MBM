@@ -1,3 +1,39 @@
+## 2026-08-06 (interactive) — Reviewer tightened: compact info-first list, dated categories, no thumbnails — DEPLOYED LIVE — Machine A `Dev`
+
+**Commit:** `(this commit)`
+
+**Cameron's order:** the reviewer wastes his time — kill the thumbnails, show file info
+only, organize by build date and time-since-last-complaint, better categories, and when
+he opens one show the complaint history FIRST, then the video to verify the fix, then a
+direct Approve. Done and live at https://milk-b4-meat.web.app/review.html.
+
+**What changed (site/review.html only — Firestore doc shapes untouched, so
+admin/sync-reviews.mjs and the complaint-eating loop are unaffected; its card regex
+still matches all 67 realistic-v2 cards, verified before/after):**
+- All 201 inline `<video>` tags removed → `.vslot` placeholders. ZERO videos load on
+  page open; a `<video>` is created only when Cameron taps a row, and destroyed when it
+  closes (only ever 1 in the DOM).
+- Every card stamped `data-built="YYYY-MM-DD"` from the mp4's real git commit date.
+- New categories, each sorted and dated:
+  - 🔁 **Fixed — check your complaint** (replacement cuts answering an open complaint;
+    LONGEST-waiting complaint first — top row was a 19-day-old complaint)
+  - 🟡 **New — not yet reviewed** (newest build first, build date on every row)
+  - 🚩 **Complained — machine is fixing** (open complaints; each row shows "waiting Nd
+    since your complaint" so he can see whether the loop is eating them)
+  - ✅ Approved (approval date shown) and 🎨 Old style (collapsed, unchanged law)
+- Open-a-row order matches his review flow: complaint history w/ dates (open complaint,
+  prior complaints from `complaintHistory`, resolved notes) → what-this-cut-fixed
+  flags → video → "✅ Approve — file it in Approved" + Report a problem.
+- Verified with the in-app browser on the LIVE deployed page against real Firestore
+  data: 7 fixed-awaiting-check / 11 new / 25 with-machine / 34 approved / 124 old,
+  no console errors, no mobile horizontal overflow. `firebase deploy --only hosting`
+  shipped it. Also added a `review-site` static-server entry to .claude/launch.json.
+
+**Reviewer state at ship:** 25 open complaints are sitting with the machine (4–5 days
+old at the top) — the complaint-eating loop is still HARD-BLOCKED with all generation
+by the depleted Gemini prepayment (row 48 park, 41 resumes). Top-up at
+https://ai.studio/projects is still the only unblock.
+
 ## 2026-08-06 (Opus, 41st resume, headless) — Row 48 STILL billing-blocked ($0), re-parked clean — Machine A `Dev`
 
 **Commit:** `3f7d96abb`
