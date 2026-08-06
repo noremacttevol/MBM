@@ -211,3 +211,18 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   Any beat whose must_show describes drawing/sketching/imagining a shape is at
   risk of a graphic-overlay doodle. Reroll → the model lands a realistic gesture
   (open hands toward the subject) with no floating graphic.
+
+## ASSEMBLY / AUDIO-LOCK
+
+- **AUDIO LOCK fails with "extracted timeline Ns but authoritative V1 final Ms"
+  when the V1 mp4 is STALE (2026-08-06, row 69).** If a build's
+  `make_narration.py` (or narration segments) was edited AFTER the V1 mp4 was
+  rendered, the V1 mp4's audio is out of date and its duration won't match the
+  current beats timeline. The runner CANNOT fix this — the assembler's hint
+  ("set AUDIO_FROM_V1_SEGMENTS = True in beats_v2.py") requires editing
+  beats_v2.py (outside runner writes) and is an author audio decision under the
+  audio-immutability law. Diagnose (compare V1 mp4 mtime vs make_narration.py
+  mtime; sum audio/*.mp3), write the root cause + resume into QC.md, mark the
+  board row NEEDS-AUDIO with the stills-generated note, clear Ready, push, take
+  the next row. The generated stills are valid and reusable — do NOT regenerate
+  when the author later fixes the audio.
