@@ -46,7 +46,7 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
-## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (42nd resume attempt, headless)
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (43rd resume attempt, headless)
 
 Fresh headless resume (direct user instruction to resume row 48, not a cron tick). Pulled clean
 (Already up to date, autostash). `--check` PASSES (35 beats, v4 PASS).
@@ -54,12 +54,12 @@ Fresh headless resume (direct user instruction to resume row 48, not a cron tick
 Meter unchanged at $409.64 (api-spend.jsonl last line still build-116 at 08:29). Recomputed ceiling
 439.46 (meter $409.64 + 24 remaining × 0.134 × 1.5 + 25 concurrency). Ran
 `v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → **429 RESOURCE_EXHAUSTED on
-the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. Re-ran once more (retry) →
-identical 429 on b10. **$0 spent.** Forty-second
+the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. Honored the 429 rule: slept 60 s,
+re-ran once more → identical 429 on b10. **$0 spent.** Forty-third
 consecutive resume blocked by the identical empty-prepayment state — a HARD billing block, not a
-rate limit; no automated resume can refill an empty prepayment balance (the script's internal
-retry already fired before surfacing the 429; foreground sleep is blocked in this headless shell,
-so the honored retry stands). Row is HARD-BLOCKED on Cameron and cannot advance headless. ONLY a
+rate limit; no automated resume can refill an empty prepayment balance (this session's foreground
+`sleep 60` retry succeeded in running and still returned the same 429, confirming a wait cannot
+refill an empty prepayment balance). Row is HARD-BLOCKED on Cameron and cannot advance headless. ONLY a
 billing top-up at https://ai.studio/projects unblocks it; then re-run the resume command below
 (resumes free — the 11 passing frames are never re-pulled) and the runner finishes the row
 unattended through assemble → ship → firebase deploy → BUILT. Row left State RUNNING / Claim

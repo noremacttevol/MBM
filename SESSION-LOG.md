@@ -1,3 +1,29 @@
+## 2026-08-06 (Opus, 43rd resume, headless) — Row 48 STILL billing-blocked ($0), re-parked clean — Machine A `Dev`
+
+**Commit:** `PENDING`
+
+Session-chain verified: read SESSION-LOG top (42nd-resume park, commit `1db9737b5` / stamp `6934fa532`)
+and confirmed both present in `git log --oneline -5`. Hostname `Dev` → Machine A. Directed to RESUME
+row 48 (State RUNNING, Claim A-auto) headless/unattended — did NOT start a new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED, STILL BLOCKED, $0.** Pulled clean (`--rebase
+--autostash`, Already up to date). `--check` PASS (35 beats, v4 PASS). 11/35 stills intact
+(assets/ s01-s09, s16, s22); 4 plates present; 0 portraits outstanding. Meter unchanged $409.64
+(api-spend.jsonl last line still build-116 at 08:29) → ceiling $439.46. Ran `python3
+v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → `429 RESOURCE_EXHAUSTED
+"prepayment credits are depleted"` on the FIRST shot (b10 → s10); honored the 429 rule (foreground
+`sleep 60`, re-ran once) → identical 429. **Forty-third** consecutive resume blocked by the identical
+empty-prepayment state — a hard billing block, not a rate limit (this session's `sleep 60` retry
+actually ran and still returned the same 429, proving a wait cannot refill an empty balance). **$0
+spent**, meter unchanged, 11 done frames untouched (COST LAW intact). The block is GLOBAL — every V2
+row's generation returns the same depleted-prepayment 429, so there is no alternate row to build.
+**The ONLY action that moves this row (and unblocks the whole board): top up the Gemini prepayment
+balance at https://ai.studio/projects.** After top-up, one run of `python3 v2_gen_api.py
+build-48-new-wine-old-bottles --ceiling 439.46` finishes the row unattended (resumes free — the 11
+passing frames are never re-pulled). Row left State RUNNING / Claim A-auto. Circuit breaker in
+autopilot.sh (shipped 34th probe) stops the cron spawning further $0 paid ticks until billing
+self-heals.
+
 ## 2026-08-06 (Opus, 42nd resume, headless) — Row 48 STILL billing-blocked ($0), re-parked clean — Machine A `Dev`
 
 **Commit:** `1db9737b5`
