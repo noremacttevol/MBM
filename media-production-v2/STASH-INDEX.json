@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 02:10:36",
+ "scanned": "2026-08-06 02:17:34",
  "entries": [
   {
    "row": 1,
@@ -27488,6 +27488,691 @@
    "night": false,
    "n_person": 6,
    "scene": "The whole household gathered in the small courtyard, the camera at the courtyard wall behind the near shoulders, as the light goes golden: Jesus and the four fishermen around the shared food, Simon's wife pouring water, "
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b01",
+   "file": "build-54-the-leper/assets/s01-the-loneliest-life.jpeg",
+   "tokens": [
+    "LEPER",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In grey early-morning light the man sits alone on a boulder beside his rough lean-to shelter high on the rocky slope, ragged wraps pulled around him against the cold, ashen scaled patches visible on the backs of his hand"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b02",
+   "file": "build-54-the-leper/assets/s02-kept-apart.jpeg",
+   "tokens": [
+    "LEPER",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera holds both planes from the side, the road and the rocks in one profile: the man stands motionless among the grey boulders well off the road, his frayed cloth drawn up over his lower face \u2014 and across the whole"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b03",
+   "file": "build-54-the-leper/assets/s03-crying-unclean.jpeg",
+   "tokens": [
+    "LEPER",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A traveller with a staff has crested the rise too close, and the man has scrambled up off his boulder with one arm thrown out stiff in warning, his other hand pressing the frayed cloth over his upper lip, his eyes above "
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b04",
+   "file": "build-54-the-leper/assets/s04-no-kind-hand.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's hands in the grey light, one cradling the other in his lap \u2014 ashen, scaled patches across the wasted knuckles, rag-wrapped wrists \u2014 his own left hand gently rubbing warmth into his own right, the small"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b05",
+   "file": "build-54-the-leper/assets/s05-he-heard-jesus-was-near.jpeg",
+   "tokens": [
+    "LEPER",
+    "WILDS",
+    "ROADSIDE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "SHOT FROM BEHIND THE MAN AND ABOVE, his back to the camera as he picks his way DOWN the rocky slope AWAY from us, his ragged wraps loose around him, one hand out on the boulders for balance \u2014 and below him, IN THE DIRECT"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b06",
+   "file": "build-54-the-leper/assets/s06-he-fell-on-his-knees.jpeg",
+   "tokens": [
+    "LEPER",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The ragged man has thrown himself onto his knees in the dust of the road at Jesus's feet, hands clasped up toward him, the cloth fallen from his marked face \u2014 and the crowd has burst backward off the road in every direct"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b07",
+   "file": "build-54-the-leper/assets/s07-if-thou-wilt.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A tight shot from beside Jesus's shoulder, down onto the kneeling man's upturned face: ashen scaled patches at his brow and jaw, tears cutting through the grime, and in his strong deep-set eyes a strange steady certainty"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b08",
+   "file": "build-54-the-leper/assets/s08-never-doubted-the-power.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot in the bright morning light: the kneeling man's marked face lifted, the plea just spoken \u2014 and Jesus bent slightly down toward him, his face open and grave, his whole posture inclined toward the man like"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b09",
+   "file": "build-54-the-leper/assets/s09-would-he-bother.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Very close on the kneeling man's face, the road and light gone soft around it: his eyes flick upward and hold, and in them the whole war is visible \u2014 the flinch of a man braced for one more turned back, and underneath it"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b10",
+   "file": "build-54-the-leper/assets/s10-he-did-not-step-back.jpeg",
+   "tokens": [
+    "LEPER",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "A wide frame that tells it in distances, the camera off to the side so every gap reads in profile: the scattered crowd holds the far edges of the picture, pressed against walls and trees, a ring of fear with a hole in it"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b11",
+   "file": "build-54-the-leper/assets/s11-he-reached-out.jpeg",
+   "tokens": [
+    "LEPER",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus's arm is extended full length, his open hand reaching toward the kneeling man's marked shoulder and almost there \u2014 the leper's eyes have gone wide watching the hand come, his whole ragged body frozen, unable to bel"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b12",
+   "file": "build-54-the-leper/assets/s12-and-touched-him.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The hand has landed: Jesus's palm rests full and firm on the side of the kneeling man's neck and shoulder, fingers curled around it, skin against ashen scaled skin with nothing held back \u2014 and the man has broken, his eye"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b13",
+   "file": "build-54-the-leper/assets/s13-i-will.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the full morning light as he answers: his warm eyes are steady on the man below him, his brow gentle, and the words sit visibly on his lips with the plain gladness of a man granting the thing he "
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b14",
+   "file": "build-54-the-leper/assets/s14-touched-before-healed.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces close together over the joined hand-and-shoulder: the man's eyes have opened and lifted, wet and astonished, to Jesus's \u2014 and Jesus holds his gaze and his shoulder both, the grip unhurried, the ashen patche"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b15",
+   "file": "build-54-the-leper/assets/s15-the-leprosy-departed.jpeg",
+   "tokens": [
+    "LEPER",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The man has thrust both his own forearms out in front of himself, the ragged sleeves fallen back \u2014 and the skin on them is new: warm, smooth, whole, the ashen scaling simply gone \u2014 and he stares at his own arms like they"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b16",
+   "file": "build-54-the-leper/assets/s16-like-a-child-skin.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's two hands held up before his own face, turning slowly over and back in the sunlight \u2014 knuckles, palms, wrists all warm smooth living skin, the rag wrappings hanging loose and pointless from his wrists "
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b17",
+   "file": "build-54-the-leper/assets/s17-a-man-who-could-go-home.jpeg",
+   "tokens": [
+    "LEPER",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The man stands at his full height in the road \u2014 taller than anyone near him, shoulders back, the stoop of years gone \u2014 his face turned past the crowd toward the distant flat roofs of the town, the word HOME arriving visi"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b18",
+   "file": "build-54-the-leper/assets/s18-strict-instructions.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has taken the healed man by both shoulders at arm's length, holding his eyes, his face earnest and close \u2014 a man making very sure of being understood \u2014 while the healed man, still lit up from his own skin, steadies"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b19",
+   "file": "build-54-the-leper/assets/s19-shew-thyself.jpeg",
+   "tokens": [
+    "LEPER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the two of them: Jesus speaks with one hand still on the man's shoulder and the other lifted between them, finger raised in gentle emphasis on the charge \u2014 and the healed man nods along, quick and fervent, a man"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b20",
+   "file": "build-54-the-leper/assets/s20-the-way-to-the-priest.jpeg",
+   "tokens": [
+    "LEPER",
+    "ROADSIDE",
+    "VILLAGE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "SHOT FROM THE SIDE: Jesus stands at the left of the frame with his arm extended full length, pointing RIGHT, down the road toward the town's stone gate visible in the distance \u2014 and the healed man stands mid-turn in the "
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b21",
+   "file": "build-54-the-leper/assets/s21-given-back-his-life.jpeg",
+   "tokens": [
+    "LEPER",
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "SHOT FROM BEHIND THE MAN on the afternoon road, his back and shoulders to the camera as he strides AWAY from us toward the town's open stone gate ahead of him \u2014 his ragged wraps flying loose around a body that walks like"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b22",
+   "file": "build-54-the-leper/assets/s22-he-could-not-hold-it-in.jpeg",
+   "tokens": [
+    "LEPER",
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the town's market lane in the golden afternoon the man stands at the centre of a swelling ring of neighbours, both arms flung wide mid-sentence, sleeves shoved to the elbows to show clean whole skin to people who knew"
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b23",
+   "file": "build-54-the-leper/assets/s23-no-more-openly.jpeg",
+   "tokens": [
+    "WILDS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the last of the afternoon light Jesus walks alone through the empty broken country between towns, out in the rocks and thorn scrub where the leper used to live \u2014 the roofs of a town small and far off to one side, its "
+  },
+  {
+   "row": 54,
+   "build": "build-54-the-leper",
+   "beat": "v2-r054-b24",
+   "file": "build-54-the-leper/assets/s24-from-every-quarter.jpeg",
+   "tokens": [
+    "WILDS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A very wide golden-hour frame of the open country, the camera high on the ridge behind the near stream of walkers: at its centre, small but unmistakable, Jesus stands waiting on a low rise \u2014 and from every corner of the "
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b01",
+   "file": "build-55-withered-hand/assets/s01-another-sabbath.jpeg",
+   "tokens": [
+    "MAN",
+    "SYNAGOGUE",
+    "WATCHERS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The camera at the side aisle takes the room from the side: the sabbath congregation fills the pillared limestone hall in bright shafted morning light, Jesus standing at the teaching place mid-word \u2014 and somewhere in the "
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b02",
+   "file": "build-55-withered-hand/assets/s02-the-withered-hand.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close shot at the man's lap and chest: his right hand lies curled and shrunken against his body under the edge of the dark olive mantle \u2014 the fingers thin, stiff, drawn half-closed, the forearm wasted \u2014 while his broad"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b03",
+   "file": "build-55-withered-hand/assets/s03-the-shame-of-years.jpeg",
+   "tokens": [
+    "MAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The man sits at the end of a bench with his right shoulder turned in toward the stone wall, his mantle draped to hide the arm, his patient worn face angled down and away \u2014 the whole body-language of a big man who has spe"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b04",
+   "file": "build-55-withered-hand/assets/s04-they-watched-him.jpeg",
+   "tokens": [
+    "WATCHERS",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close along the chief bench: the three grey-bearded watchers sit shoulder to shoulder in their dark scholarly robes, and all three pairs of eyes are locked hard on one unseen point across the room \u2014 narrowed, unblinking,"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b05",
+   "file": "build-55-withered-hand/assets/s05-hoping-to-catch-him.jpeg",
+   "tokens": [
+    "WATCHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Two of the watchers have leaned their grey heads together, one murmuring behind a half-raised hand, his eyes never leaving their target across the room \u2014 while the third sits forward over his knees, fingers laced, keepin"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b06",
+   "file": "build-55-withered-hand/assets/s06-the-trap-waiting.jpeg",
+   "tokens": [
+    "MAN",
+    "WATCHERS",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "A wide frame of the hall that draws the trap, the camera at the side wall so the sightline crosses in profile: on one side the three watchers stare fixed at Jesus where he teaches in the light at the scroll chest; betwee"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b07",
+   "file": "build-55-withered-hand/assets/s07-he-knew-their-hearts.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the window light: he has stopped mid-teaching, and his warm eyes have moved \u2014 level, unhurried, absolutely clear \u2014 onto the men at the chief bench, with the unstartled look of someone reading a p"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b08",
+   "file": "build-55-withered-hand/assets/s08-not-in-a-corner.jpeg",
+   "tokens": [
+    "MAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has turned his whole body from the watchers toward the middle benches, one open hand extended in invitation toward the man in walnut-brown \u2014 and the man has gone rigid, half-looking over his own shoulder in case so"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b09",
+   "file": "build-55-withered-hand/assets/s09-stand-forth.jpeg",
+   "tokens": [
+    "MAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The man is on his feet in the middle of the benches, risen so fast the bench scraped, his dark olive mantle clutched over his right arm with his good hand, his patient face stripped open with alarm \u2014 a man summoned out o"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b10",
+   "file": "build-55-withered-hand/assets/s10-to-the-centre.jpeg",
+   "tokens": [
+    "MAN",
+    "WATCHERS",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The camera looks over the congregation's shoulders from behind: the man in walnut-brown stands alone in the centre of the open rush-matted floor, squarely inside the brightest shaft of morning light, his mantle still clu"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b11",
+   "file": "build-55-withered-hand/assets/s11-is-it-lawful.jpeg",
+   "tokens": [
+    "MAN",
+    "WATCHERS",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus stands with one arm swept open toward the man in the shaft of light and his face turned hard toward the watchers on the chief bench, mid-question, his eyes pinning them to the wall \u2014 the man stands in the light wit"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b12",
+   "file": "build-55-withered-hand/assets/s12-no-real-love.jpeg",
+   "tokens": [
+    "WATCHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close along the chief bench under the question: the first watcher stares at the floor between his own feet, the second has fixed his eyes on the far wall above every head, the third looks straight back with his jaw set a"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b13",
+   "file": "build-55-withered-hand/assets/s13-they-said-nothing.jpeg",
+   "tokens": [
+    "MAN",
+    "WATCHERS",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A wide, motionless frame of the whole hall in the silence after the question: Jesus stands waiting with his arm still open toward the man, the man stands unmoving in his shaft of light, the watchers sit rigid on their be"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b14",
+   "file": "build-55-withered-hand/assets/s14-anger-and-grief.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus mid-turn, his gaze sweeping slowly along the unseen bench: his brows are drawn and his jaw is hard with real anger \u2014 and his eyes, inside the anger, are grieving, wet at the rims, the look of a man furious"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b15",
+   "file": "build-55-withered-hand/assets/s15-stretch-forth-thine-hand.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has turned from the bench fully to the man, close now, his face cleared into pure steady warmth, giving the command \u2014 and the man's eyes drop from Jesus's face to his own curled right hand under the mantle, the imp"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b16",
+   "file": "build-55-withered-hand/assets/s16-hard-under-his-gaze.jpeg",
+   "tokens": [
+    "WATCHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The three watchers under the weight of the look they will not meet: the eldest has turned his face away toward the shadowed wall; the second sits with his eyes shut and his knuckles white on his knee; the third stares st"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b17",
+   "file": "build-55-withered-hand/assets/s17-he-turned-to-the-man.jpeg",
+   "tokens": [
+    "MAN",
+    "WATCHERS",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the wide frame Jesus has turned his back half-toward the chief bench, the watchers now behind his shoulder and dismissed from his attention, and his whole face and frame are given to the man in the shaft of light \u2014 wh"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b18",
+   "file": "build-55-withered-hand/assets/s18-the-reach.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The dark olive mantle slides from the man's right shoulder as he stretches the withered arm out before him into the shaft of light \u2014 the thin wasted forearm extending, the stiff curled fingers still curled, reaching out "
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b19",
+   "file": "build-55-withered-hand/assets/s19-made-whole.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close down the length of the outstretched arm: the right hand stands OPEN in the shaft of morning light, fingers spread wide and full, the forearm filled and strong \u2014 a stonemason's hand again \u2014 and past it, out of focus"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b20",
+   "file": "build-55-withered-hand/assets/s20-back-to-life.jpeg",
+   "tokens": [
+    "MAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The man holds both hands up side by side before his own face in the light, turning them together \u2014 two matched, strong, living hands \u2014 laughing and weeping at once, while around him the congregation surges up off the ben"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b21",
+   "file": "build-55-withered-hand/assets/s21-they-walked-out.jpeg",
+   "tokens": [
+    "WATCHERS",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The three watchers push out through the synagogue doorway in a tight dark knot, robes gathered up in their fists, faces shut and black with fury \u2014 while behind them, framed in the doorway they are abandoning, the hall is"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b22",
+   "file": "build-55-withered-hand/assets/s22-it-only-hardened-them.jpeg",
+   "tokens": [
+    "WATCHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the bright late-morning street outside, the three watchers stand bent together against a limestone wall, grey heads almost touching, one making a low flat gesture with the edge of his hand while the others nod \u2014 three"
+  },
+  {
+   "row": 55,
+   "build": "build-55-withered-hand",
+   "beat": "v2-r055-b23",
+   "file": "build-55-withered-hand/assets/s23-mercy-over-rule.jpeg",
+   "tokens": [
+    "MAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the quieting hall, the morning light long across the rush mats, Jesus stands face to face with the healed man and holds the restored right hand clasped in both of his own \u2014 the stonemason's new-made fingers gripping b"
   }
  ]
 }
