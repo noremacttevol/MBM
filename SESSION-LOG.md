@@ -1,3 +1,49 @@
+## 2026-08-06 (Opus autopilot) — Row 91 gethsemane SHIPPED + DEPLOYED; rows 86-90 parked NEEDS-AUDIO — Machine A `Dev`
+
+Chained from row 81's stash-rescan commit `92367d088` (verified in `git log` at
+session start). Ran the PARALLEL-LANES loop; every RUNNING sibling
+(48/60/61/62/63/84/85) left untouched.
+
+**$0 batch pre-flight (86-99):** confirmed the shared-memory audio-lock map.
+Parked **rows 86-90 NEEDS-AUDIO ($0, no stills)** — all fail the assemble AUDIO
+LOCK: 86 (|Δ|=1.213s), 87 (1.422s), 89 (1.067s) are shortfall-only; 88
+(1.464s + 15 newer mp3s) and 90 (V1 mp4 +31.2s longer + 13 newer) fail both
+tripwires. Fix is the author's `AUDIO_FROM_V1_SEGMENTS=True` (outside runner
+writes) — same class as 69/74/77/78/80/82/83. QC.md RUNNER PARK + board updated
+for each.
+
+**Row 91 (Gethsemane, Luke 22:39-46) — SHIPPED + DEPLOYED.** First LOCK-OK row
+(|timeline 241.24 − V1 240.77|=0.47s, newer=0); assemble confirmed **AUDIO LOCK
+PASS `SHA256=8b6bdf7a…`**, 240.8s / 20.7 MB. 40 painted stills @ 2K (V1 had 12),
+one night olive garden throughout. **OPEN COMPLAINT FIXED — "the disciples did
+not stay the same, one grew a beard within seconds":** ran the dedicated BEARD
+BOARD (rubric lesson 13) across every multi-disciple frame
+(s07/s10/s11/s13/s26/s28/s30/s32/s39) — Peter & James hold a full dark beard in
+every frame, John stays the young light-stubble disciple in every frame, no
+beard flips between shots; all disciple beats carry CAST-REF face locks. Jesus
+one locked face + only-Jesus-in-cream + ordinary scale (no giant) incl. the s35
+close-up; Luke 22:43 angel luminous-pale (distinct from cream); "sweat as great
+drops of blood" restrained (few dark drops, no gore). Caption QC clean (bottom
+band only, question card clean). Commits `24cbe5d7e` (ship) + `a83851ac8`
+(review card realistic-v2 + 40 stills) + `32601f8fc` (stash rescan 2297 stills +
+new lesson). Firebase deployed + live-verified (card data-hash `24cbe5d7e…`,
+mp4 HTTP 200 / 20,666,055 bytes).
+
+**Cost/quality:** **1 reroll of 40 (2.5%)**, far under the 15% budget → supports
+the COST LAW downtrend. Row ≈ **$5.62** ($0.13 ANGEL portrait + 40 stills $5.36
++ 1 reroll $0.13), under the $6.10 average. FIX-WAVE logged (not rerolled): s10
+"he did not hide it" is authored with an INTERIOR must_show → renders a daylit
+mud-brick room among 39 night-garden frames; a `--redo` reproduced the interior
+(beat-driven), so it's an AUTHOR beat-text fix, not a runner reroll (kept the
+better take — Jesus with a visible tear). New RUNNER-LESSONS entry added for
+this interior-beat class. NOTE for next session: the mtime-based recency column
+in a $0 batch pre-flight is UNRELIABLE (row 93 read LOCK-OK by mtime but a
+sibling correctly parked it NEEDS-AUDIO on the commit-time recency gate) — use
+`assert_v1_final_is_current`'s `content_time` (git commit time), not
+`os.path.getmtime`, when pre-flighting the remaining AUTHORED rows.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 85 shepherds-and-angels SHIPPED + DEPLOYED — Machine A `Dev`
 
 Chained from row 84's park/claim commit `8ce94fa40` (verified in `git log` at
