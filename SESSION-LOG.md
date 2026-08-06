@@ -1,3 +1,38 @@
+## 2026-08-06 (Opus autopilot) — Row 54 the-leper SHIPPED + DEPLOYED — Machine A `Dev`
+
+Rows 48/49/52/53 shipped or RUNNING (siblings), 45/46/47 shipped, 50/51 parked
+NEEDS-AUDIO, 55 shipped by a sibling lane. The lowest Ready ✅ empty-claim row was
+**54 (The leper, "I will; be thou clean," Mark 1:40-45)** — cross-checked against
+QUEUE (valid story, not swapped), claimed by push (commit 85456664c), built end to
+end.
+
+**Row 54:** 24 painted stills @ native 2K (V1 had 9), the healing laddered shot by
+shot — the enforced apartness of a leper's life → he hears Jesus is near and does
+the forbidden thing, kneeling: "If thou wilt…" → Jesus does NOT step back, the
+TOUCH lands before the healing while the crowd recoils → "I will; be thou clean" →
+skin made new → sent to the priest → he publishes it → people come from every
+quarter. **1 LEPER portrait** paid; **WILDS promoted-first from b01** (single-figure
+broken country, no man in the plate), ROADSIDE+VILLAGE wired from build-38.
+`v2_prompt.py --check` PASS. **AUDIO LOCK PASS SHA256 8691209c…** (V1 audio
+byte-identical), 19.7 MB / 154.1 s. Commit c0ad61c5b.
+
+**LEARNING LAW / COMPLAINT LEDGER: none open** (`v2_outline.py 54`). CONTENT-CARE
+held: leprosy shown with dignity (covered lip per Lev 13:45, ashen patched skin,
+wrapped hands) — never gore; cleansed frames are the SAME man, skin clear. Scale +
+beard gates pass; only Jesus in cream; directions anchored (descends toward crowd,
+points to gate, streams converge inward). All 24 frames realistic, zero cartoon/
+mixed. **OBSERVATION logged (QC.md):** Jesus's eyes read green/hazel per the LOCKED
+V2 reference `JESUS-V2-REF/jesus-v2-face.jpeg` (itself green/hazel-eyed; matches all
+shipped V2 rows 45/46/47/52/53) — a whole-wave reference decision, NOT a per-row
+reroll (a reroll only echoes the ref; editing the ref is a runner hard-rail
+violation). Flagged so it is not silently lost.
+
+**COST:** portrait $0.13 + b01 anchor $0.13 + main gen $3.08 = **~$3.34/row**,
+**ZERO rerolls (0% vs 15% budget)** — well under the $6.10 running average; the
+trend continues DOWN (row 52 $3.22, row 53 comparable, row 54 $3.34).
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 53 peters-mother-in-law SHIPPED + DEPLOYED — Machine A `Dev`
 
 Rows 48/49/52 were RUNNING (live siblings), 45/46/47 already shipped, 50/51 parked
