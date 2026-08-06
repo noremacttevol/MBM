@@ -1,6 +1,6 @@
 ## 2026-08-06 (interactive) — Reviewer tightened: compact info-first list, dated categories, no thumbnails — DEPLOYED LIVE — Machine A `Dev`
 
-**Commit:** `(this commit)`
+**Commit:** `3a4c9c7d6`
 
 **Cameron's order:** the reviewer wastes his time — kill the thumbnails, show file info
 only, organize by build date and time-since-last-complaint, better categories, and when
