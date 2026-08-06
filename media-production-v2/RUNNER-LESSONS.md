@@ -108,6 +108,20 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   PLATE (row 53's s03 plate carried it faintly), so QC the plate's sky first;
   one reroll of the affected beat usually clears it. Glance at the sky on every
   exterior/courtyard frame, not just the ground.
+- **A single CARTOON / CGI-render frame in an otherwise-realistic row** (row 56
+  b22 the-news-went-out came back as a smooth 3D-illustration/plasticky render
+  while all 21 other frames were photographic). It reads as a totally different
+  medium and, under Law 14 (realistic-only), a MIX fails the whole cut — worse
+  than all-cartoon. It tends to hit the LAST/wide "epilogue" beat (news-goes-out,
+  aftermath) where the prompt is a generic landscape with small figures. Check
+  the STYLE of every frame, not just its content; one reroll usually lands a
+  photographic take. Not subtle drift — this is a mandatory reroll on sight.
+- **Green/hazel-eyed Jesus in extreme close-ups** (row 56 b09): the JESUS-MASTER-REF
+  face carries a hazel/green cast that only reads clearly in a tight close-up
+  (wides read brown). It is SYSTEMIC (all 200, baked into the reference) and a
+  plan-level item awaiting Cameron — NOT a per-row regression. One reroll will
+  NOT clear a baked-in reference trait, so do not burn rerolls chasing it; log
+  FIX-WAVE and keep the best take. Fix belongs at the master-ref level.
 - **Multi-panel COLLAGE inside one 9:16 frame** (row 42 barren-fig; row 45 b10
   twice — a 4-up then a 3-up grid of separate shots stacked in one frame):
   triggered by beats that ask for MANY workers doing MANY tasks at once

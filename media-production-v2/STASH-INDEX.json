@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 02:25:48",
+ "scanned": "2026-08-06 02:42:41",
  "entries": [
   {
    "row": 1,
@@ -28173,6 +28173,336 @@
    "night": false,
    "n_person": 2,
    "scene": "In the quieting hall, the morning light long across the rush mats, Jesus stands face to face with the healed man and holds the restored right hand clasped in both of his own \u2014 the stonemason's new-made fingers gripping b"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b01",
+   "file": "build-56-widow-of-nain/assets/s01-nearing-nain.jpeg",
+   "tokens": [
+    "NAIN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the dusty uphill road in bright late-morning light, the camera off the verge taking the column from the side, Jesus walks in the midst of a large travelling crowd \u2014 disciples close around him, families with bundles, t"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b02",
+   "file": "build-56-widow-of-nain/assets/s02-something-at-the-gate.jpeg",
+   "tokens": [
+    "NAIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "THE CAMERA STANDS BEHIND THE TRAVELLING CROWD, over their heads up the road: the arched stone gate of Nain stands open ahead of them, and out of its shadow a second procession is emerging \u2014 dark-clothed, slow, close-pack"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b03",
+   "file": "build-56-widow-of-nain/assets/s03-out-came-a-funeral.jpeg",
+   "tokens": [
+    "SON",
+    "BIER",
+    "NAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Through the arched stone gate the funeral comes: four bearers in dark earth-brown wool carry the open bier shoulder-high into the sunlight, and on it the young man lies still, wrapped to the chest in the dark madder-red "
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b04",
+   "file": "build-56-widow-of-nain/assets/s04-behind-him-his-mother.jpeg",
+   "tokens": [
+    "WIDOW",
+    "SON",
+    "BIER",
+    "NAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The procession in the bright road: the bier with its still burden borne ahead, and directly behind it, in the chief mourner's place, the small woman in charcoal mourning walks alone \u2014 her torn collar, her veil low, her e"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b05",
+   "file": "build-56-widow-of-nain/assets/s05-her-only-son.jpeg",
+   "tokens": [
+    "WIDOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close under the dark veil: the widow's lined face in the hard late-morning light, dry-eyed and hollowed out, her lips pressed to nothing, her gaze fixed on the bier ahead of her with the flat exhausted stare of a woman w"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b06",
+   "file": "build-56-widow-of-nain/assets/s06-the-town-walked-with-her.jpeg",
+   "tokens": [
+    "WIDOW",
+    "NAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Around and behind the lone widow the town's crowd fills the road \u2014 women keening with hands lifted, an old neighbour weeping openly into her shawl, men with heads bowed and jaws working, a child carried on a shoulder sta"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b07",
+   "file": "build-56-widow-of-nain/assets/s07-she-never-asks.jpeg",
+   "tokens": [
+    "WIDOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The widow walks with her head down, the veil's edge cutting the world to a strip of road and the heels of the bearers ahead of her \u2014 her hands hang open and empty at her sides, past even wringing \u2014 a woman with no reques"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b08",
+   "file": "build-56-widow-of-nain/assets/s08-the-processions-met.jpeg",
+   "tokens": [
+    "WIDOW",
+    "SON",
+    "BIER",
+    "NAIN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "The wide frame holds both processions stopped face to face, the camera off to the side so the meeting reads in profile, on the sunlit road outside the gate: on one side the travelling crowd gone quiet around Jesus at its"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b09",
+   "file": "build-56-widow-of-nain/assets/s09-he-saw-her.jpeg",
+   "tokens": [
+    "WIDOW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close past the edge of the bier: Jesus's face in the foreground, and his eyes have gone past the still form and the bearers to find the small veiled woman beyond it \u2014 and what crosses his face as he finds her is open, un"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b10",
+   "file": "build-56-widow-of-nain/assets/s10-weep-not.jpeg",
+   "tokens": [
+    "WIDOW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has crossed the empty dust and stands close before the widow, bent slightly toward her smallness, his face low and near hers, saying it \u2014 and her head is just beginning to lift, the veil's shadow sliding back off h"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b11",
+   "file": "build-56-widow-of-nain/assets/s11-the-one-no-one-could-comfort.jpeg",
+   "tokens": [
+    "WIDOW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The widow's face has come up under the veil and her eyes, red-rimmed and hollow, meet the eyes of this stranger who has stopped a whole road for her \u2014 her brow folding with incomprehension, lips parting on a question she"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b12",
+   "file": "build-56-widow-of-nain/assets/s12-he-could-not-walk-past.jpeg",
+   "tokens": [
+    "WIDOW",
+    "SON",
+    "BIER",
+    "NAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "A wide frame of the halted road: at its centre Jesus stands with the tiny veiled widow, the two of them the only stillness with meaning in it \u2014 around them both processions hold their breath, disciples exchanging glances"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b13",
+   "file": "build-56-widow-of-nain/assets/s13-what-no-one-does.jpeg",
+   "tokens": [
+    "SON",
+    "BIER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Jesus has turned from the widow and steps toward the bier, his hand already rising toward its wooden edge \u2014 and the nearest bearer's eyes have gone wide over his shoulder, a mourner's hand flies up in half-protest, becau"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b14",
+   "file": "build-56-widow-of-nain/assets/s14-he-touched-the-bier.jpeg",
+   "tokens": [
+    "SON",
+    "BIER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Jesus's hand lies flat and firm on the wooden edge of the bier, stopping it the way a hand stops a swinging door \u2014 and the four bearers have frozen mid-stride with the poles still on their shoulders, feet planted, knuckl"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b15",
+   "file": "build-56-widow-of-nain/assets/s15-young-man-arise.jpeg",
+   "tokens": [
+    "SON",
+    "BIER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Jesus leans over the stopped bier, one hand still on its edge, his face bent close down toward the young man's sleeping face \u2014 speaking to him, plainly, directly, the way a person speaks to a person who can hear \u2014 the wo"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b16",
+   "file": "build-56-widow-of-nain/assets/s16-waking-a-child.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Very close on Jesus's face bent low in the noon light: his eyes soft on the sleeping face below, the faintest lift at the corner of his mouth, his whole expression the one a father wears leaning over a child who has slep"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b17",
+   "file": "build-56-widow-of-nain/assets/s17-he-sat-up.jpeg",
+   "tokens": [
+    "SON",
+    "BIER",
+    "NAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The young man has sat straight up on the shoulder-high bier, the madder-red cloth fallen to his waist, his eyes open and blinking in the sun, his mouth moving \u2014 already talking, mid-question \u2014 while the four bearers stag"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b18",
+   "file": "build-56-widow-of-nain/assets/s18-life-poured-back.jpeg",
+   "tokens": [
+    "SON",
+    "BIER",
+    "NAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The bearers have brought the bier down and the young man swings his own legs off it and takes his own weight on the road \u2014 standing, steadying, alive, the burial cloth sliding off into a bearer's stunned hands \u2014 while Je"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b19",
+   "file": "build-56-widow-of-nain/assets/s19-gave-him-to-his-mother.jpeg",
+   "tokens": [
+    "WIDOW",
+    "SON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The handover: Jesus holds the young man's hand in his own and is placing it into his mother's two reaching hands \u2014 the widow's veil fallen back, her hollowed face cracking open, her fingers closing over her son's \u2014 the g"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b20",
+   "file": "build-56-widow-of-nain/assets/s20-back-in-her-arms.jpeg",
+   "tokens": [
+    "WIDOW",
+    "SON",
+    "NAIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The widow has her son crushed against her, her face buried in his neck, her small fists knotted in the back of his tunic, his own arms wrapped around his weeping mother \u2014 and a pace behind them Jesus is quietly stepping "
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b21",
+   "file": "build-56-widow-of-nain/assets/s21-they-glorified-god.jpeg",
+   "tokens": [
+    "WIDOW",
+    "SON",
+    "NAIN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "Outside the gate of Nain, the camera behind the mingled crowd's near shoulders, the two processions have dissolved into one rejoicing crowd: hands lifted to heaven all across the frame, an old mourner on his knees, women"
+  },
+  {
+   "row": 56,
+   "build": "build-56-widow-of-nain",
+   "beat": "v2-r056-b22",
+   "file": "build-56-widow-of-nain/assets/s22-the-news-went-out.jpeg",
+   "tokens": [
+    "NAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the golden evening light the roads out of Nain carry the story: a young man runs flat-out down the hill road with the news, two travellers hurry the other way already telling it to each other with flying hands, and fr"
   }
  ]
 }
