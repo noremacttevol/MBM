@@ -112,7 +112,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 98 | build-98-mary-her-name | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (-1.02s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 99 | build-99-flesh-and-bone-thomas | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (9.28s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 100 | build-100-the-ascension | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (-19.02s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
-| 101 | build-101-still-small-voice | AUTHORED | 0 | OK |  | ✅ |
+| 101 | build-101-still-small-voice | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 102 | build-102-jacobs-ladder | AUTHORED | 0 | OK |  | ✅ |
 | 103 | build-103-peters-confession | AUTHORED | 0 | OK |  | ✅ |
 | 104 | build-104-boy-samuel | AUTHORED | 0 | OK |  | ✅ |
