@@ -1,3 +1,48 @@
+## 2026-08-06 (Opus autopilot) — Row 66 malchus-ear SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 65 (its SESSION-LOG entry + commit verified in `git log` at
+session start). Rows 48/60/63/64/65 and others were RUNNING/SHIPPED siblings
+(never touched). Lowest Ready ✅ empty-claim AUTHORED row was **66 (Malchus's
+ear, Luke 22 / John 18)** — cross-checked against QUEUE (valid story, not
+swapped; prior state was a 7-still BUILT-L1 "awaiting yes"), claimed by push
+(commit a69dfce26), built end to end.
+
+**Row 66:** 29 painted stills @ native 2K (V1 had 7). `v2_prompt.py --check`
+PASS before first credit. Portraits: 1 (MALCHUS; PETER reused from cast).
+GARDEN plate promote-first from our own b01 — the QC explicitly forbids the
+stash's build-26 GARDEN (sunlit herb garden ≠ Gethsemane's moonlit olive
+terrace), so I generated b01, eyeballed it (moonlit terrace, Jerusalem below,
+torch column — right world), and promoted it to 22 beats. Whole arrest
+laddered: torch-lit mob files up the terrace → "Lord, shall we smite?" →
+Peter's arrested swing (blade blur, NO severed ear/blood) → the brink, swords
+raised not striking → "Put up again thy sword" (KJV) → twelve-legions upward
+gaze under stars → Jesus turns to his enemy → "Suffer ye thus far" (KJV) →
+palm on the head, made whole → Malchus lagging the column, testing the healed
+ear (thesis frame) → bound and led down through the torches → emptied garden.
+Restrained-violence line held every frame; only Jesus in cream; true night
+throughout; realistic photography, zero cartoon/mixed frames.
+
+**COMPLAINT LEDGER:** none open (`v2_outline.py 66` shows no Cameron complaint;
+prior was only "awaiting yes"). Judged against rubric + all RUNNER-LESSONS.
+
+**Cost/quality:** 1 reroll of 29 (**3.4%** vs 15% budget) — b07 came back a
+3-panel COLLAGE (RUNNER-LESSONS mandatory-reroll), one redo cleared it. 29
+stills + 1 portrait + 1 reroll ≈ **$4.15 for the row**, under the $6.10 running
+average — cost trend keeps going DOWN (place reused-from-self, single portrait,
+one reroll). No FIX-WAVE items. Jesus's hazel/green eye cast (b17 close-up) is
+the baked JESUS-V2-REF trait — NOT rerolled per RUNNER-LESSONS (systemic).
+
+**Audio:** `AUDIO LOCK PASS` SHA256 91d501ba… — nothing re-voiced, V1 audio
+byte-identical. luke-22_malchus-ear.mp4, 20.4 MB, 176.5 s.
+
+**Shipped:** commit aea7223d4 (mp4 + QC + boards + QUEUE). review.html card
+v66 updated: data-review-wave="realistic-v2", data-hash=aea7223d4…, video src →
+media-production-v2 path. Firebase `firebase deploy --only hosting`; verified
+live hash on https://milk-b4-meat.web.app/review.html and mp4 HTTP 200.
+STASH-INDEX rescanned. Row ticked BUILT on AUTHOR-BOARD.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 65 help-mine-unbelief SHIPPED + DEPLOYED — Machine A `Dev`
 
 Chained from row 64 (commit ad65fd183 verified in `git log` at session start). Rows
