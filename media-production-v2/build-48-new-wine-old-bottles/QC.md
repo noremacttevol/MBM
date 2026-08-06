@@ -46,28 +46,31 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
-## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (28th resume attempt, headless)
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (29th resume attempt, headless)
 
-Fresh headless resume. Pulled clean (Already up to date). `--check` PASSES (35 beats, v4 PASS).
+Fresh headless resume. Pulled clean (Already up to date). `--check` state unchanged (35 beats).
 11/35 stills intact (assets/ s01-s09, s16, s22), 4 plates present, 0 portraits outstanding.
 Meter unchanged at $409.64 (last spend line is still build-116 at 08:29). Ran
 `v2_gen_api.py build-48-new-wine-old-bottles --ceiling 440.07` → **429 RESOURCE_EXHAUSTED on
-the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. **$0 spent.** Twenty-eighth
-consecutive resume blocked by the identical empty-prepayment state — a HARD billing block, not a rate limit; no automated resume can refill an
-empty prepayment balance (a 60 s wait cannot, and the foreground sleep is blocked in the headless
-shell; the script's internal retry already fired before surfacing the 429). Row is HARD-BLOCKED on
-Cameron and cannot advance headless. ONLY a billing top-up at https://ai.studio/projects unblocks
-it; then re-run the resume command below (resumes free — the 11 passing frames are never re-pulled)
-and the runner finishes the row unattended through assemble → ship → firebase deploy → BUILT. Row
-left State RUNNING / Claim A-auto. (Note updated in place across the 21st→27th probe to avoid
-unbounded QC growth — full park history preserved below.)
+the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. **$0 spent.** Twenty-ninth
+consecutive resume blocked by the identical empty-prepayment state — a HARD billing block, not a
+rate limit; no automated resume can refill an empty prepayment balance (the script's internal
+retry already fired before surfacing the 429). Row is HARD-BLOCKED on Cameron and cannot advance
+headless. ONLY a billing top-up at https://ai.studio/projects unblocks it; then re-run the resume
+command below (resumes free — the 11 passing frames are never re-pulled) and the runner finishes
+the row unattended through assemble → ship → firebase deploy → BUILT. Row left State RUNNING /
+Claim A-auto. (Note updated in place across the 21st→29th probe to avoid unbounded QC growth —
+full park history preserved below.)
 
-**⚠️ 28 headless sessions have now burned on this one unfixable state. The resume loop cannot
-self-unblock — PLEASE PAUSE the autopilot until billing is topped up so it stops consuming
-sessions. There is nothing wrong with this build; only a billing top-up at
-https://ai.studio/projects will ever move it.** Cameron: the ONLY action that moves this row is
-topping up the Gemini prepayment balance at https://ai.studio/projects — after that, one run of
-the resume command below finishes the row unattended (assemble → ship → firebase deploy → BUILT).
+**⚠️ THE BLOCK IS GLOBAL, NOT ROW-48-SPECIFIC. Every V2 row's generation returns the same
+depleted-prepayment 429 — so the 10-min autopilot cron (`:04,:14,…`) will keep spawning fresh
+`claude -p` opus sessions that burn Claude tokens for $0 of work on EVERY tick until billing is
+refilled. 29 sessions have now burned on this unfixable state. The resume loop cannot self-unblock.
+PLEASE PAUSE the autopilot (comment the `autopilot.sh` line in `crontab -e`) until billing is
+topped up, so it stops consuming sessions.** The ONLY action that moves this row — and unblocks the
+whole board — is topping up the Gemini prepayment balance at https://ai.studio/projects. After that,
+one run of the resume command below finishes the row unattended (assemble → ship → firebase deploy
+→ BUILT), and re-enabling the cron resumes the rest of the board.
 
 **EXACT RESUME COMMAND (after top-up):**
 ```
