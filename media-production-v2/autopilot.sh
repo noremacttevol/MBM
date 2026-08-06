@@ -64,13 +64,27 @@ next_unauthored() {
     if (state=="NEEDS-BEATS" && claim=="") { print row; exit }
   }' "$BOARD"
 }
+# A RUNNING row claimed 'A-auto' with no build in flight (we hold the lock, so
+# nothing autopilot-owned is running) is a stranded row from a dead run.
+next_stranded() {
+  awk -F'|' '/^\| *[0-9]+ *\|/ {
+    row=$2; state=$4; claim=$7
+    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",state)
+    if (state=="RUNNING" && claim ~ /A-auto/) { print row; exit }
+  }' "$BOARD"
+}
 
+STRANDED="$(next_stranded || true)"
 READY="$(next_ready || true)"
 UNAUTHORED="$(next_unauthored || true)"
 
-if [ -n "$READY" ]; then
+if [ -n "$STRANDED" ]; then
+  JOB="resume"; ROW="$STRANDED"
+  PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md. A previous autopilot run DIED mid-build on AUTHOR-BOARD row $ROW (State RUNNING, Claim A-auto) — RESUME that row, do not start a new one. Read the build's QC.md for where it stopped; v2_gen_api.py resumes automatically (already-passing frames are never re-pulled — the COST LAW). You are UNATTENDED and HEADLESS: ending your turn kills the session, so run EVERY command in the FOREGROUND to completion; never use run_in_background, never wait for notifications. Finish the row through step 7c DEPLOY + live verification, set the board row BUILT, SESSION-LOG entry, commit, push."
+  MODEL_ARGS=(--model opus)
+elif [ -n "$READY" ]; then
   JOB="runner"; ROW="$READY"
-  PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows. You are UNATTENDED (autopilot): Cameron is not watching and cannot answer — never wait for him, never ask, follow the brief literally including the LEARNING LAW (complaint ledger in QC.md), the COST LAW (reroll budget), and step 7c DEPLOY + live verification. If truly blocked on a row, write the blocker and resume command into that build's QC.md, push, and move to the next ready row. Stop cleanly (SESSION-LOG entry, commit, push) when context runs low."
+  PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows. You are UNATTENDED and HEADLESS (autopilot): Cameron is not watching and cannot answer — never wait for him, never ask. HEADLESS LAW: the moment you end your turn the session is DEAD — there are no background-task notifications and no next turn. Run EVERY command in the FOREGROUND and wait for it to finish (v2_gen_api.py etc. are synchronous and resume if re-run); NEVER use run_in_background, NEVER end a message with 'waiting for' anything. Before generating, cross-check the row against media-production/QUEUE.md — if the QUEUE says the story was swapped or replaced, do NOT build it: park it on AUTHOR-BOARD (note in Claim, clear Ready), push, take the next row. Also set the row's AUTHOR-BOARD State to RUNNING with Claim 'A-auto <date>' when you claim, and BUILT when shipped. Follow the brief literally including the LEARNING LAW (complaint ledger in QC.md), the COST LAW (reroll budget), and step 7c DEPLOY + live verification. If truly blocked on a row, write the blocker and resume command into that build's QC.md, park the claim, push, and move to the next ready row. Stop cleanly (SESSION-LOG entry, commit, push) when context runs low."
   MODEL_ARGS=(--model opus)
 elif [ -n "$UNAUTHORED" ]; then
   JOB="author"; ROW="$UNAUTHORED"
