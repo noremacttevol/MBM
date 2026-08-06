@@ -1,3 +1,26 @@
+## 2026-08-06 (Opus autopilot, 37th resume, headless) — Row 48 STILL billing-blocked ($0), re-parked clean — Machine A `Dev`
+
+**Commit:** `PENDING`
+
+Session-chain verified: read SESSION-LOG top (row 48 36th resume park) and confirmed commit
+`6a6e5c770`/`3c934ef38` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48
+(State RUNNING, Claim A-auto) headless/unattended — did NOT start a new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED AGAIN, STILL BLOCKED, $0.** Pulled clean
+(`--rebase --autostash`, Already up to date). `--check` PASS (35 beats, v4 PASS). 11/35 stills
+intact (assets/ s01-s09, s16, s22); 4 plates present; 0 portraits outstanding. Meter unchanged
+$409.64 → ceiling $439.46. Ran `python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling
+439.46` → `429 RESOURCE_EXHAUSTED "prepayment credits are depleted"` on the FIRST shot (b10 → s10).
+**Thirty-seventh** consecutive resume blocked by the identical empty-prepayment state — hard billing
+block, not a rate limit. **$0 spent**, meter unchanged, 11 done frames untouched (COST LAW intact).
+The block is GLOBAL — every V2 row's generation returns the same depleted-prepayment 429, so there
+is no alternate row to build. **The ONLY action that moves this row (and unblocks the whole board):
+top up the Gemini prepayment balance at https://ai.studio/projects.** After top-up, one run of
+`python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` finishes the row unattended
+(resumes free — the 11 passing frames are never re-pulled). Row left State RUNNING / Claim A-auto.
+Circuit breaker in autopilot.sh (34th probe) stops the cron spawning further $0 paid ticks until
+billing self-heals.
+
 ## 2026-08-06 (Opus autopilot, 36th resume, headless) — Row 48 STILL billing-blocked ($0), re-parked clean — Machine A `Dev`
 
 **Commit:** `3c934ef38`
