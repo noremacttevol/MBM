@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 04:23:18",
+ "scanned": "2026-08-06 04:27:17",
  "entries": [
   {
    "row": 1,
@@ -30749,6 +30749,430 @@
    "night": false,
    "n_person": 2,
    "scene": "Down the dusk-gold path from the hill the father and son walk home hand in hand \u2014 the boy's step light and curious, stopping once to look at something in the grass the way children do, the big man letting him, in no hurr"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b01",
+   "file": "build-66-malchus-ear/assets/s01-it-was-the-middle-of.jpeg",
+   "tokens": [
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "In the moon-silvered olive garden, the camera among the trunks behind the waking disciples, Jesus stands just risen from the low prayer rock, the night's agony still in the set of his shoulders \u2014 and down the slope, thre"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b02",
+   "file": "build-66-malchus-ear/assets/s02-lord-should-we-fight.jpeg",
+   "tokens": [
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Close in the mixed torch and moonlight: a disciple's face turned back toward his teacher, fear and fierce loyalty fighting across it \u2014 and at the frame's lower edge his hand already closed on a sword hilt beneath his clo"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b03",
+   "file": "build-66-malchus-ear/assets/s03-a-mob-sent-by-the.jpeg",
+   "tokens": [
+    "MOB",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "Up onto the garden's terrace, the camera at the terrace wall taking the incursion from the side, the arrest party breaks from the trees \u2014 a dozen torches throwing wild orange over the silver leaves, temple guards in dark"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b04",
+   "file": "build-66-malchus-ear/assets/s04-and-his-friends-could-not.jpeg",
+   "tokens": [
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "As the torchlight closes, the disciples surge and bunch \u2014 three of them shouldering in front of their teacher in the silver dark, arms half-spread, the big fisherman foremost with his feet planted wide \u2014 a living wall as"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b05",
+   "file": "build-66-malchus-ear/assets/s05-luke-says-they-saw-what.jpeg",
+   "tokens": [
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "In the closing torch-glare the disciples' faces are all turned one way \u2014 to Jesus, the question hanging in the orange-lit air between them \u2014 his own face steady and beginning its answer \u2014 while past their shoulders the m"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b06",
+   "file": "build-66-malchus-ear/assets/s06-they-said-and-then-they.jpeg",
+   "tokens": [
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Close in the torch-orange dark: a short sword clearing its sheath \u2014 the blade half-drawn, catching the flame-light down its length, the drawing hand's knuckles white \u2014 the question asked two seconds ago already abandoned"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b07",
+   "file": "build-66-malchus-ear/assets/s07-impulsive-loyal-terrified-peter-grabbed.jpeg",
+   "tokens": [
+    "PETER",
+    "MALCHUS",
+    "MOB",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "In the torch-broken dark the swing is one arrested blur: Peter's whole big frame thrown into it, the blade a streak of orange light, his face a mask of terrified love \u2014 and before him the neat charcoal-clad servant recoi"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b08",
+   "file": "build-66-malchus-ear/assets/s08-he-caught-the-servant-of.jpeg",
+   "tokens": [
+    "MALCHUS",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Malchus is down on one knee in the matted grass, his whole hand clamped hard over the right side of his head, fingers spread and white-knuckled \u2014 his careful official's face gone paper-pale with shock, mouth open on no s"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b09",
+   "file": "build-66-malchus-ear/assets/s09-in-one-second-the-whole.jpeg",
+   "tokens": [
+    "MOB",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The clearing cocks itself in one breath: down the mob's line a dozen short swords come clearing out of sheaths, staves swinging level, torches lofted for the light to kill by \u2014 and opposite them the disciples bracing, th"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b10",
+   "file": "build-66-malchus-ear/assets/s10-understand-math-twelve-tired-men.jpeg",
+   "tokens": [
+    "MOB",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "From the terrace's edge the camera holds both forces in one profile: the arithmetic lies plain in the torchlight: the disciples a small tight knot of eleven tired men in road-worn wool, one drawn sword among them \u2014 and f"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b11",
+   "file": "build-66-malchus-ear/assets/s11-he-was-not-being-smart.jpeg",
+   "tokens": [
+    "PETER",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on Peter's face above the levelled sword in the torch-orange dark: the terror plainly there and plainly mastered, the thick jaw set, wild curls stuck to his brow \u2014 a man who has done the sum from the last beat, got"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b12",
+   "file": "build-66-malchus-ear/assets/s12-and-most-leaders-in-that.jpeg",
+   "tokens": [
+    "PETER",
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Into the cocked half-second Jesus steps \u2014 between Peter's levelled blade and the mob's drawn line, one palm raised toward each side, cream robe torch-lit in the middle of the iron \u2014 and the whole night stops on his two o"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b13",
+   "file": "build-66-malchus-ear/assets/s13-put-up-again-thy-sword.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close between the two faces in the torchlight: Jesus's grave and utterly certain, the command still leaving him \u2014 and Peter's anguished, wet-eyed, the fight draining out of his big frame as his sword-arm turns the blade "
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b14",
+   "file": "build-66-malchus-ear/assets/s14-put-it-away-peter-this.jpeg",
+   "tokens": [
+    "PETER",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the sheathing: Peter's big hands guiding the blade home into its leather, the hilt seating with a finality his bowed head confirms \u2014 the fisherman's whole hopeless brave plan going back into storage unused \u2014 whi"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b15",
+   "file": "build-66-malchus-ear/assets/s15-he-said-he-could-call.jpeg",
+   "tokens": [
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Jesus's face lifts briefly to the night above the olive crowns \u2014 the deep sky thick with plain cold stars, empty of everything except its own distance \u2014 and comes back down to the torch-lit circle with the calm of a man "
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b16",
+   "file": "build-66-malchus-ear/assets/s16-he-was-not-being-overpowered.jpeg",
+   "tokens": [
+    "MOB"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Amid the ring of drawn iron Jesus stands unbound and unbent \u2014 the only unarmed man in the clearing and visibly its stillest point, the guards' knuckles tight on their hilts while his hands hang open \u2014 a circle of armed m"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b17",
+   "file": "build-66-malchus-ear/assets/s17-he-was-laying-his-life.jpeg",
+   "tokens": [
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the mixed torch and moonlight: the purpose long settled behind the warm eyes \u2014 no flinch toward escape, no glance at the sheathed sword's option \u2014 a man walking to his own death by choice and dra"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b18",
+   "file": "build-66-malchus-ear/assets/s18-and-then-he-did-the.jpeg",
+   "tokens": [
+    "MALCHUS",
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "With the mob's hands already reaching for him Jesus turns \u2014 away from his own arrest, his whole attention crossing the trampled grass to where the neat charcoal-clad servant kneels with his hand still clamped to the side"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b19",
+   "file": "build-66-malchus-ear/assets/s19-with-the-mob-closing-in.jpeg",
+   "tokens": [
+    "MALCHUS",
+    "MOB",
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The arrest and the mercy share one frame: two guards' hands already gripping Jesus's arms from behind \u2014 and he leaning forward against their hold, toward the kneeling servant, his attention bent entirely on the clamped h"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b20",
+   "file": "build-66-malchus-ear/assets/s20-not-his-friend-his-enemy.jpeg",
+   "tokens": [
+    "MALCHUS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the kneeling Malchus in the torchlight: the deep oxblood sash of the high priest's household crossing his charcoal tunic plain as a banner \u2014 the livery of the very house that ordered tonight \u2014 worn by the one ma"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b21",
+   "file": "build-66-malchus-ear/assets/s21-and-he-said-suffer-ye.jpeg",
+   "tokens": [
+    "MALCHUS",
+    "MOB"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Held by both arms, Jesus speaks calmly past his captors' shoulders \u2014 the request plain in his level face \u2014 and the grip on him loosens by confused degrees, one guard glancing at the other, the mob's machinery pausing aro"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b22",
+   "file": "build-66-malchus-ear/assets/s22-and-he-reached-out-touched.jpeg",
+   "tokens": [
+    "MALCHUS",
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Freed to the length of one arm, Jesus lays his palm gently over the side of the kneeling man's head \u2014 Malchus's own clamped hand fallen away to his knee, his white face tipped up in blank shock under the touch \u2014 the heal"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b23",
+   "file": "build-66-malchus-ear/assets/s23-the-last-miracle-jesus-performed.jpeg",
+   "tokens": [
+    "MALCHUS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Malchus in the torchlight: his own trembling fingers moving over the right side of his head \u2014 tracing the whole unmarked skin, the whole present ear, again, and again from a different angle \u2014 his careful officia"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b24",
+   "file": "build-66-malchus-ear/assets/s24-think-about-what-malchus-carried.jpeg",
+   "tokens": [
+    "MALCHUS",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "While the mob's business closes around its prisoner, Malchus stands apart at the clearing's edge \u2014 his hand drifted back up to touch the healed side of his head, his quick eyes following the bound figure being led down t"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b25",
+   "file": "build-66-malchus-ear/assets/s25-he-had-come-with-a.jpeg",
+   "tokens": [
+    "MALCHUS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Malchus's torch-lit face as the two facts grind: the errand \u2014 seize him \u2014 still filed in the official's eyes, and the touch \u2014 he healed me \u2014 resident now in the hand that keeps returning to the side of his head "
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b26",
+   "file": "build-66-malchus-ear/assets/s26-whatever-he-had-believed-walking.jpeg",
+   "tokens": [
+    "MALCHUS",
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Down the moon-silvered hill path the torch line descends toward the city's far lamps \u2014 and at its tail Malchus walks slower than all of them, falling behind by degrees, his hand rising once more to the side of his head, "
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b27",
+   "file": "build-66-malchus-ear/assets/s27-you-do-not-forget-a.jpeg",
+   "tokens": [
+    "MALCHUS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Extreme close in the night's edge-light: Malchus's fingers resting lightly against his whole right ear, barely touching, the way a man touches a scar that isn't there \u2014 and his quick intelligent eyes aimed at nothing, al"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b28",
+   "file": "build-66-malchus-ear/assets/s28-this-is-who-he-is.jpeg",
+   "tokens": [
+    "MOB",
+    "GARDEN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "Down through the torch line, the camera behind the descending column, Jesus is led with his wrists bound before him \u2014 and the procession's meaning has quietly changed hands: the guards grip and hurry, but the bound man w"
+  },
+  {
+   "row": 66,
+   "build": "build-66-malchus-ear",
+   "beat": "v2-r066-b29",
+   "file": "build-66-malchus-ear/assets/s29-he-heals-the-hand-raised.jpeg",
+   "tokens": [
+    "GARDEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The garden stands emptied under the low moon: trampled spring grass, a dropped wooden stave, Malchus's fallen torch guttering its last ember in the green \u2014 and beyond them, silver and quiet, the low prayer rock where the"
   }
  ]
 }
