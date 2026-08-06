@@ -68,7 +68,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 54 | build-54-the-leper | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 55 | build-55-withered-hand | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 56 | build-56-widow-of-nain | BUILT | 22 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 57 | build-57-jairus-daughter | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
+| 57 | build-57-jairus-daughter | BUILT | 27 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 58 | build-58-feeding-5000 | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 59 | build-59-feeding-4000 | BUILT | 27 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 60 | build-60-gerasene-demoniac | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |

@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 03:04:46",
+ "scanned": "2026-08-06 03:12:02",
  "entries": [
   {
    "row": 1,
@@ -29252,6 +29252,397 @@
    "night": false,
    "n_person": 1,
    "scene": "A last wide frame in the blue-and-ember dusk, the camera far down the slope behind the scattered groups: the hillside falls away covered with the fed multitude \u2014 thousands settled and murmuring in the failing light, smal"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b01",
+   "file": "build-59-feeding-4000/assets/s01-a-remote-rugged-place.jpeg",
+   "tokens": [
+    "WILDS",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Across a broken rocky slope under a hard bright sky, the camera high on an outcrop behind the camp's near edge, the great crowd spreads camped among the boulders and thorn scrub \u2014 family clusters wedged into the lee of o"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b02",
+   "file": "build-59-feeding-4000/assets/s02-three-whole-days.jpeg",
+   "tokens": [
+    "WILDS",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The camp wears its three days: cold ash rings between the rocks, a child asleep on a bedroll in the shade of a propped cloak, a crutch lying abandoned beside a man who no longer needs it \u2014 and all around, the dusty sun-w"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b03",
+   "file": "build-59-feeding-4000/assets/s03-the-food-was-gone.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the shade of a boulder a mother holds her family's provision sack upside down and shakes it \u2014 nothing falls \u2014 while her two children watch the sack with the steady serious eyes of the hungry, and the youngest chews th"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b04",
+   "file": "build-59-feeding-4000/assets/s04-he-called-them-over.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "WILDS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus stands a little apart on the rocky slope with one hand raised in a small beckoning gesture, his eyes still resting out over the camped multitude \u2014 and the disciples converge on him from their scattered places among"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b05",
+   "file": "build-59-feeding-4000/assets/s05-i-have-compassion.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the hard bright light, turned out toward the camped thousands beyond the frame: his warm eyes move slowly across them while he speaks, resting here and there on particular families, and the compa"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b06",
+   "file": "build-59-feeding-4000/assets/s06-faint-by-the-way.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "WILDS",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "Jesus stands among his disciples, the camera at the group's side so the sweeping arm crosses in profile toward the empty distances, one arm swept out toward the vast empty country beyond the camp \u2014 ridge after pale ridge"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b07",
+   "file": "build-59-feeding-4000/assets/s07-he-saw-them-one-by-one.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The particulars of the multitude, close: an old man asleep sitting upright against a boulder with his staff still in his fist, sun-scorched; beside him a small girl lying listless across her mother's lap, cheek on the fo"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b08",
+   "file": "build-59-feeding-4000/assets/s08-some-came-from-far.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close along the ground at the camp's edge: a row of travellers' feet and gear in the dust \u2014 sandals worn through at the heel and mended with cord, feet road-cracked and grey with miles, a walking staff worn glass-smooth "
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b09",
+   "file": "build-59-feeding-4000/assets/s09-he-was-the-one-who-noticed.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in profile against the pale rock, perfectly still, his eyes moving over the camp with unhurried, deliberate attention \u2014 the look of someone reading faces the way other men read weather, missing nothing, as"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b10",
+   "file": "build-59-feeding-4000/assets/s10-the-disciples-were-baffled.jpeg",
+   "tokens": [
+    "DISCIPLES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The disciples stand in a loose ring on the rocks, bafflement running around it \u2014 one with both hands spread empty, one scrubbing the back of his neck and squinting at the horizon, two exchanging the sidelong look of men "
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b11",
+   "file": "build-59-feeding-4000/assets/s11-whence-in-the-wilderness.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One disciple has thrown both arms out wide at the wilderness itself, mid-protest, turning as he gestures \u2014 and everything his arms take in agrees with him: broken rock, grey thorn, pale dust shimmering off to ridges with"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b12",
+   "file": "build-59-feeding-4000/assets/s12-doing-the-arithmetic.jpeg",
+   "tokens": [
+    "DISCIPLES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on one earnest round-faced disciple counting on his fingers, lips moving through the figures, brow buckled \u2014 his eyes flicking up past his own hands to the camped thousands spread over the slope behind, then back d"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b13",
+   "file": "build-59-feeding-4000/assets/s13-standing-right-in-front-of-them.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "WILDS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The disciples' huddle fills the near frame \u2014 bent heads, counting hands, worry passing around the ring \u2014 and directly in front of them, plainly visible over their bowed shoulders, Jesus stands quiet on the rocks with his"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b14",
+   "file": "build-59-feeding-4000/assets/s14-he-did-not-scold-them.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face as he turns to the worried huddle: nothing in it scolds \u2014 the brow is smooth, the eyes warm with something close to humour held kindly back \u2014 the face of a teacher stepping past a wrong answer witho"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b15",
+   "file": "build-59-feeding-4000/assets/s15-how-many-loaves.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "BREAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A disciple crouches with the worn leather provision sack pulled open on a flat rock, tipping it to the light \u2014 inside, EXACTLY SEVEN flat round loaves of coarse dark bread and a few small dried fish \u2014 and he looks up fro"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b16",
+   "file": "build-59-feeding-4000/assets/s16-seven-and-a-few-fish.jpeg",
+   "tokens": [
+    "BREAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Laid out in a row on the flat grey rock in the hard noon light: EXACTLY SEVEN coarse dark loaves, side by side, and beside them a small handful of dried fish \u2014 the entire food supply of a camp of four thousand, photograp"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b17",
+   "file": "build-59-feeding-4000/assets/s17-he-took-it-gladly.jpeg",
+   "tokens": [
+    "BREAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus gathers the seven dark loaves up against his chest with both arms, the way a man carries firewood, and there is plain gladness in his face as he takes them \u2014 no appraisal, no weighing, the settled satisfaction of s"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b18",
+   "file": "build-59-feeding-4000/assets/s18-sit-down-on-the-ground.jpeg",
+   "tokens": [
+    "CROWD",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Across the rocky slope, the camera above the nearest seated backs, the multitude settles down onto the bare ground \u2014 families folding onto spread cloaks over the dust, old men eased down onto flat stones, children pulled"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b19",
+   "file": "build-59-feeding-4000/assets/s19-gave-thanks-and-brake.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "BREAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Against the hard bright sky Jesus lifts the seven loaves stacked between his two hands, face raised to heaven, eyes closed in thanks \u2014 and his thumbs break the topmost dark loaf cleanly open \u2014 while below his hands the d"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b20",
+   "file": "build-59-feeding-4000/assets/s20-once-again-it-kept-coming.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "BREAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a wide rope-handled basket riding on a disciple's hip, heaped over the brim with broken dark bread and fish though he has been emptying it down the rows since he set out \u2014 his forearm braced under a weight that "
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b21",
+   "file": "build-59-feeding-4000/assets/s21-through-the-whole-multitude.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "CROWD",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The disciples thread the seated multitude across the rocky slope with their heaped baskets \u2014 one crouching to load an old woman's spread shawl, another passing loaves down a whole row of raised hands that relay them fami"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b22",
+   "file": "build-59-feeding-4000/assets/s22-completely-satisfied.jpeg",
+   "tokens": [
+    "CROWD",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Among the boulders the multitude eats its fill in the warm afternoon light: the small girl who lay listless across her mother's lap now sits up against her shoulder working through a piece of bread with both hands, the o"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b23",
+   "file": "build-59-feeding-4000/assets/s23-seven-large-baskets.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "BREAD",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "On a shelf of flat rock in the late-afternoon light, the camera low along the line so all seven read in profile, stand EXACTLY SEVEN large rope-handled baskets in a row, every one heaped over its brim with broken dark br"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b24",
+   "file": "build-59-feeding-4000/assets/s24-more-at-the-end.jpeg",
+   "tokens": [
+    "BREAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the ground in the golden light: the worn leather provision sack \u2014 the one that carried all seven loaves this morning \u2014 lies flat and empty in the dust at the foot of the seven heaped baskets, small as a dropped "
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b25",
+   "file": "build-59-feeding-4000/assets/s25-four-thousand-went-home-full.jpeg",
+   "tokens": [
+    "CROWD",
+    "WILDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the golden evening, the camera behind the emptying camp, the whole slope breaks up into long homeward streams \u2014 families filing out along the goat-tracks in every direction, bundles reslung, children riding high on fa"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b26",
+   "file": "build-59-feeding-4000/assets/s26-sent-away-cared-for.jpeg",
+   "tokens": [
+    "CROWD",
+    "WILDS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus stands at the camp's edge in the low gold light as the families file past and away \u2014 one hand lifted in steady farewell, a last word given to a mother as she passes, a small girl waving back at him from her father'"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b27",
+   "file": "build-59-feeding-4000/assets/s27-that-is-who-he-is.jpeg",
+   "tokens": [
+    "WILDS",
+    "BREAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The slope at dusk, emptied: cold fire rings and trodden dust where four thousand sat, the seven heaped baskets in their row on the rock shelf, and Jesus standing alone among the traces in the last ember light, watching t"
   }
  ]
 }

@@ -23,6 +23,18 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   so the complaint repeats (the worst failure). Row 46 was shipped this way with
   its "put-uth" complaint still open because its QC.md wrongly claimed "no open
   complaint"; always trust `v2_outline.py`, not the QC header, for open complaints.
+  - **EXCEPTION — a pronunciation complaint whose re-voice is ALREADY DONE and
+    baked into the V1 mp4 is NOT a park; SHIP it (2026-08-06, row 57 "lieth →
+    lie-eth").** Before parking a pronunciation row, check whether the author
+    already fixed it: (1) board Audio column says **OK** (not CHECK); (2)
+    `make_narration.py` has the `SPOKEN`/respell override for that word;
+    (3) `git log` shows a "verified in final audio" fix commit AND the V1 mp4
+    was re-rendered AFTER it. If all three hold, the runner is NOT re-voicing —
+    it ships the already-corrected byte-identical audio, and **AUDIO LOCK PASS
+    is the cryptographic proof** the fix is in the shipped audio. Rows 50/51
+    park because their audio is CHECK and the fix is not yet rendered; row 57
+    ships because its audio is OK and the fix is already in the mp4. Put the
+    proof in the QC COMPLAINT LEDGER and answer it on the review card.
   Rendering complaints (question-card "squares") are DIFFERENT — the V2 card
   renderer already fixed that class, so just verify the rendered end card is clean
   and ship.
