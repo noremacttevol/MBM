@@ -42,6 +42,36 @@ under REDO-ALL; awaiting Cameron.
 
 ---
 
+## 2026-08-06 (Opus autopilot) — Row 55 withered-hand SHIPPED + DEPLOYED — Machine A `Dev`
+
+Second row of this session, taken after row 52 shipped. Rows 53/54 were RUNNING
+(54 had a live gen sibling; both left alone per parallel-lanes law), so row 55
+(withered-hand, Mark 3:1-6) was the lowest AUTHORED Ready ✅ empty-claim row with
+NO open complaint — cross-checked QUEUE (not swapped), claimed by push, built.
+
+**Row 55:** 23 stills @ native 2K, 151.2 s, **AUDIO LOCK PASS SHA256 3648a04f…**
+(V1 audio byte-identical). 0 portraits paid; SYNAGOGUE plate wired from build-05
+b28 (the same hall as builds 05/52). CARE-arc held: withered right hand shown with
+dignity (folded/drawn-in, never gore or stump), the healing is the stretch itself
+with NO glow/effect, MADE WHOLE reads as the two hands matching (s19/s20). Exactly
+three watchers throughout (count law), dignified scrutiny not cartoon villains,
+walkout pushes OUT the door against the joy (s21). Only Jesus in cream; same
+synagogue hall; b22 exterior sky clean (checked for the row-53 utility-wire class).
+Complaint ledger: none open. Note: an early caption frame looked tiled on an
+input-seek extract — an ffmpeg decode artifact at a non-keyframe, NOT a real
+defect; accurate-seek frames are clean single images, captions bottom-band only,
+question card clean parchment (no squares).
+
+**COST LAW:** **ZERO rerolls of 23 beats = 0%** (vs 15% budget). Row spend **$3.08**,
+meter **$278.32** — under the $6.10/row average. Two clean rows this session (52 and
+55) both at 0% rerolls; trend stays DOWN.
+
+Shipped in two commits (mp4+QC+boards+QUEUE hash afd85a72081e, then
+review.html+SESSION-LOG), deployed to Firebase, verified live. Ran
+`v2_stash.py --scan` after ship.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 52 demoniac-synagogue SHIPPED + DEPLOYED; rows 50 & 51 parked NEEDS-AUDIO — Machine A `Dev`
 
 Rows 48/49 were RUNNING (live siblings) and 45/46/47 already shipped. The lowest
