@@ -1,3 +1,43 @@
+## 2026-08-06 (Opus autopilot) — Row 73 this-day-fulfilled SHIPPED + row 69 baptism parked — Machine A `Dev`
+
+Chained from row 67 the-transfiguration (commit 2ac9107c1 verified in `git log` at
+session start). Session-chain OK. Ran under PROMPT-OPUS-RUNNER (unattended/headless).
+
+**Row 69 (baptism, Matt 3) — PARKED at assembly, all 29 stills built + QC-PASS.**
+LEARNING LAW: OPEN complaint "John is way too big in the first picture" (scale,
+lesson 14) — FIXED and verified frame-by-frame (John ordinary-sized vs penitent +
+bank crowd in b01 and every John frame; ledger in QC.md). Portraits: 1 (BAPTIST).
+JORDAN promoted from b01 (no-Jesus river frame). Godhead gate PASS (Father shown
+only as opened-sky light, never a figure; Spirit as one real dove; no halo; only
+Jesus cream). 29 stills, 1 rerolled beat (b19 collage seam, 2 attempts, 6.9%).
+BLOCKED at `v2_assemble 73`... no — at `v2_assemble 69`: AUDIO LOCK FAIL — the V1
+mp4 (206.6s, Jul-29 09:47) is STALE vs current narration segments (172.3s;
+make_narration.py edited Jul-29 23:03 AFTER the mp4). Fix (re-render V1 or set
+AUDIO_FROM_V1_SEGMENTS in beats_v2.py) is an AUTHOR audio decision outside runner
+writes. Marked NEEDS-AUDIO on the board, RUNNER PARK + resume in QC.md, added a
+RUNNER-LESSONS entry (stale-V1 audio-lock class). Stills are valid + reusable.
+Commit 5e67db42c.
+
+**Row 73 (Nazareth synagogue "this day fulfilled", Luke 4) — SHIPPED REALISTIC V2.**
+Pre-checked audio viability first (V1 mp4 109.2s ≈ beats 109.7s, mp4 newer than
+narration → not stale) BEFORE spending, per the row-69 lesson. LEARNING LAW: OPEN
+complaint "it pronounced 'Esaias' as 'essy-y-es', ridiculous" is a pronunciation
+fix ALREADY BAKED into the V1 mp4 — shipped under the row-57 exception (board
+Audio OK + voice-scoped SPOKEN override + verified-fix commit a53cadcbe + mp4
+rendered after all re-records). AUDIO LOCK PASS (SHA256 bbb2bf45…) is the proof.
+17 realistic 2K stills, 0 portraits. SYNAGOGUE promote-first from b01 (Nazareth's
+own hall; REFUSED the auto-wired Capernaum plate per QC + row-59 lesson). Posture
+law verified (stands to read b06 / sits to declare b14/b15/b16). Scroll = illegible
+hand-inked Hebrew, no burned text. 2 rerolls/17 (11.8%) fixing two split-panel
+collages (b07, b09). FIX-WAVE: b10 wooden floor vs stone, b09 window frame — minor
+inserts. Spend ~$2.53/row (0 portraits). Deployed to Firebase + live-verified.
+Commit A d8ee93144 (mp4+QC+boards+QUEUE), commit B 2da69cbb8 (review.html card +
+this log).
+
+**COST this session:** row 69 ~$4.27 (parked, stills reusable), row 73 ~$2.53
+(shipped). Both well under the $6.10/row baseline; reroll % 6.9% and 11.8% under
+the 19% baseline. COST LAW trend: DOWN.
+
 ## 2026-08-06 (Opus autopilot) — Row 71 the-great-commission SHIPPED + row 70 parked — Machine A `Dev`
 
 Chained from row 67 the-transfiguration (commit 0a35cbd5e verified in `git log` at
