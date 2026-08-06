@@ -1,3 +1,24 @@
+## 2026-08-06 (Opus autopilot, 2nd resume) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
+
+Session-chain verified: read SESSION-LOG top (row 48 first resume park) and confirmed
+commit `a57505cb9` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME
+row 48 (State RUNNING, Claim A-auto) headless — did NOT start a new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED, STILL BLOCKED, $0.** `v2_prompt --check`
+PASS. 11/35 stills still present from the prior lane. Meter $409.64 (recomputed ceiling
+$439.46). Ran the exact resume command → `429 RESOURCE_EXHAUSTED "prepayment credits are
+depleted"` on b10 (first call). Waited 60 s, retried once per the 429 rule → identical
+depleted 429. **$0 spent** — 429 fires before any image; the 11 done frames untouched
+(COST LAW intact). Re-parked clean: QC.md RUNNER PARK updated (2nd-attempt note + resume
+command). Row left State RUNNING / Claim A-auto; no false BUILT.
+
+**🛑 ACTION FOR CAMERON (unchanged — now blocks the board for a 6th session):** Google AI
+Studio prepayment credits are depleted. Top up at https://ai.studio/projects (billing →
+prepay). Until then NO V2 row can generate. After top-up, run:
+`cd media-production-v2 && python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46`
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 48 resume: Gemini BILLING STILL DEPLETED (global hard wall), $0 spent, parked clean — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (row 116 re-probe billing-park)

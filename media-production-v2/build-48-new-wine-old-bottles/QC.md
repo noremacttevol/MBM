@@ -46,17 +46,19 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
-## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING DEPLETED
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING DEPLETED (2nd resume attempt)
 
 Resumed row 48 per direct instruction (was State RUNNING, Claim A-auto). Portraits
 DONE (0 to make). Plates present (courtyard/wedding/workshop/cellar in PLACE-REF).
 **11 of 35 stills already generated** (assets/ s01-s09, s16, s22).
 
-**BLOCKED: Gemini prepayment credits DEPLETED — global 429 RESOURCE_EXHAUSTED.**
-Same persistent billing block that parked rows 114 and 116. Tried the resume run
-TWICE (retry after 60 s per the 429 rule); it fails on the FIRST shot (b10) both
-times. **$0 spent this session** — the meter did not advance. This is not a
-transient rate limit; it needs Cameron to top up AI Studio billing.
+**STILL BLOCKED: Gemini prepayment credits DEPLETED — global 429 RESOURCE_EXHAUSTED.**
+Same persistent billing block that parked rows 114 and 116 and the first row-48
+resume. This session (2026-08-06, headless resume) tried the exact resume command,
+got 429 on the FIRST shot (b10), waited 60 s, retried once per the 429 rule — 429
+again on b10, identical `prepayment credits are depleted` message. **$0 spent this
+session** — meter unchanged at $409.64. This is NOT a transient rate limit; the
+prepayment balance is empty and only Cameron can refill it.
 
 **ACTION FOR CAMERON:** top up billing at https://ai.studio/projects (billing).
 
