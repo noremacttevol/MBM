@@ -47,3 +47,56 @@ exception:
   holiest frame.
 - The friends' fear (b09) is face-down awe, not cowering horror.
 - SUMMIT promote-first from b01.
+
+---
+
+## RUNNER LIGHT-QC + COMPLAINT LEDGER — A-auto Machine A `Dev`, 2026-08-06
+
+**16 stills generated @ native 2K. `v2_prompt.py --check` PASS before first credit.
+2 rerolls / 16 beats = 12.5% (under the 15% COST-LAW budget). Row cost ≈ $2.55
+(16 stills + 2 portraits + 2 rerolls @ ~$0.134). Well under the $6.10 average.**
+
+### COMPLAINT LEDGER (the one OPEN complaint on this row)
+Cameron: *"1:02 it's pronounced and spelled wrongly — it's pronounced ee-LY-us
+and spelled in all persons speaking it, even the narrator: Elias. Elijah is a
+different prophet, that is wrong."*
+
+FIXED, three proofs, all verifiable:
+1. **AUDIO says "Elias," never "Elijah."** The two segments that speak the name —
+   `n2a` ("Moses and Elias") and `j1` ("one for Moses, and one for Elias") —
+   were round-tripped through faster-whisper at claim time: both transcribe back
+   as **"Elias"** (never "Elijah"). The shipped audio is byte-identical V1 and it
+   already says Elias. The assembler's **AUDIO LOCK PASS** is the cryptographic
+   proof the correct audio is in the mp4.
+2. **Every CAPTION spells it "Elias."** Captions are rebuilt by the assembler
+   from the beats_v2 narration text, which reads "Elias" in both n2a and j1 (KJV
+   spelling). No caption renders "Elijah."
+3. **The one place "Elijah" ever appeared — a hallucinated sub-title baked into
+   the V1-era s06 frame reading "…one for Elijah" — was rerolled away.** s06 now
+   carries no text at all. The internal image-lock token `ELIJAH` is never spoken
+   and never shown; it only steers the prophet's face in the art pipeline.
+
+### Rerolls (2, both mandatory hard fails)
+- **b06** — the first take baked a hallucinated subtitle into the art reading
+  "…one for Moses and one for **Elijah**" (repeats the exact open complaint) plus
+  wrong-beat quote text. Rerolled → clean, no text, Peter's blurt on the slope.
+- **b07** — the first take drew cartoon black-outline TENT DOODLES floating in the
+  air (a Law-14 realistic/cartoon MIX fail, RUNNER-LESSONS "single cartoon frame").
+  Rerolled → realistic: Peter proposing with open hands toward the three glorious
+  figures, no graphic overlay.
+
+### FIX-WAVE (kept — not obvious garbage, do NOT re-touch on this pass)
+- **b07** Jesus carries a faint eye/face glow in this transfigured (sanctioned-
+  radiance) beat — within the Light-Law exception, not a halo ring. Keep.
+- **b09** the fear-wide reads one friend as older/grey and one (John) as fair-
+  haired; realistic photography, correct beat (three men in awe/terror), but cast
+  identity is loose. FIX-WAVE, not a reroll (RUNNER-LESSONS: fair-hair = FIX-WAVE tier).
+- **b14** John rendered light-brown again (consistent across b06/b09/b14 — reads
+  as his younger-disciple look, within cast); no reroll.
+
+### Light-Law / laws verified
+- b03 full-transfiguration radiance = fabric+face bloom, single figure, no ring/disc.
+- b11/b12/b15/b16 ordinary light, ordinary cream robe — the contrast IS the doctrine.
+- Only Jesus wears cream in every frame. Moses (broad, long white beard) and Elias
+  (leaner/grey) distinct, never twins. Father NEVER depicted (b10 cloud = vapour only,
+  b11 no voice-source). All counts correct; no modern objects; no lens-stare.

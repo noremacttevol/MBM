@@ -452,6 +452,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "SUMMIT": "PLACE-REF/summit.jpeg",  # build-67-the-transfiguration s01-jesus-took-three-of-his (manual)
 }
 # === end PLACE-PLATES ===
 
