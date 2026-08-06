@@ -40,3 +40,27 @@ pool (no people at all).
   direction.
 - HILLS promote-first from b09's pool hollow; FOLD from b03.
 - Only Jesus wears cream (his beats only).
+
+---
+
+## RUNNER PARK (A-auto Machine A, 2026-08-06) — NEEDS-AUDIO, $0 spent
+
+Pre-flighted the AUDIO LOCK at step 2 (both gates) BEFORE any generation.
+**STALE-V1-FINAL — both tripwires fail:**
+- RECENCY: V1 mp4 `john-10_my-sheep-hear-my-voice.mp4` rendered 2026-07-24
+  10:15:29; all 14/14 narration mp3s are NEWER (2026-07-29 09:44:22). Copying
+  the V1 audio stream would ship stale voices/deleted segments.
+- DURATION: timeline total 148.623s vs V1 mp4 146.494s, |Δ|=2.129s > 1.0
+  (v2_assemble line 531).
+
+The board Audio column read "OK" but the authoritative pre-flight fails — trust
+the pre-flight (RUNNER-LESSONS FLEET rule). Runner cannot re-voice/edit beats
+under audio-immutability.
+
+**Author fix:** set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py (narration
+then renders from the V1 build's own mp3s at extract_beats offsets — nothing
+re-voiced, V1 stays read-only), then this row is BUILDABLE.
+
+**Resume command (runner, after author fix):**
+`python3 media-production-v2/v2_story_cast.py build-108-my-sheep-hear-my-voice`
+then generate. No stills were generated; nothing to reuse yet.

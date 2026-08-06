@@ -261,8 +261,8 @@ Eve) · 179 (Stephen, the Father — also in Fix queue) · 180 (Jeremiah) · 184
 | 105 | Face to face, as a friend | Ex 33:11 | ✅ | ✅ | ⬜ | ✅ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:49, 21.9MB; God as pillar/glory-light, no figure) |
 | 106 | God spake by the prophets | Heb 1:1–3 | ✅ | ✅ | ⬜ | ✅ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:28, 21.8MB; prophets montage → the Son prompt-driven to master, no halo) |
 | 107 | John the Baptist's doubt | Matt 11 | ✅ | ✅ | ⬜ | ✅ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:58, 21.8MB; Jesus prompt-driven to master, no halo) |
-| 108 | "My sheep hear my voice" | John 10:27 | ✅ | ✅ | ⬜ | ✅ | V2-REALISTIC CLAIM A-auto Machine A 2026-08-06 (RUNNING). V1: BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:41, 21.4MB; Good Shepherd, Jesus prompt-driven to master, no halo) |
-| 109 | Ask, seek, knock | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:35, 22.2MB; Jesus prompt-driven to master, no halo) |
+| 108 | "My sheep hear my voice" | John 10:27 | ✅ | ✅ | ⬜ | ✅ | V2 PARKED NEEDS-AUDIO (A-auto 2026-08-06, $0 pre-flight): STALE-V1-FINAL, author must set AUDIO_FROM_V1_SEGMENTS=True. V1: BUILT Machine C 2026-07-15 |
+| 109 | Ask, seek, knock | Matt 7 | ✅ | ✅ | ⬜ | ⬜ | V2-REALISTIC CLAIM A-auto Machine A 2026-08-06 (RUNNING). V1: BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:35, 22.2MB; Jesus prompt-driven to master, no halo) |
 | 110 | The Lord's Prayer: "Our Father" | Matt 6 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:41, 21.6MB; Jesus prompt-driven to master, no halo) |
 | 111 | Lilies and sparrows | Matt 6 | ✅ | ✅ | ⬜ | ✅ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:47, 22.0MB; Jesus prompt-driven to master, no halo. NOTE: s2 Jesus has a brown mantle over the cream robe vs pure cream elsewhere — minor look variance, reroll if you want it uniform) |
 | 112 | The Beatitudes | Matt 5 | ✅ | ✅ | ⬜ | ⬜ | BUILT Machine C 2026-07-15 (Flow $0, 10 stills 9:16, 2:51, 22.1MB; Jesus prompt-driven to master, no halo; s8/s10 recovered after the rate-limit cleared via 6-min detect + reload) |
