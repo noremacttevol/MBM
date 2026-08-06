@@ -19,7 +19,7 @@ billing is empty, so nothing new to assemble, ship, or deploy. **ACTION FOR CAME
 Gemini prepayment billing at https://ai.studio/projects, then re-run the resume command in the
 QC.md — it resumes free and finishes the row unattended.**
 
-Commit: `PENDING`
+Commit: `d247102d5`
 
 ---
 
