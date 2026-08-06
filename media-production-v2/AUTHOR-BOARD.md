@@ -80,7 +80,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 66 | build-66-malchus-ear | BUILT | 29 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 67 | build-67-the-transfiguration | BUILT | 16 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 68 | build-68-multitudes-mountain | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
-| 69 | build-69-baptism | AUTHORED | 0 | OK |  | ✅ |
+| 69 | build-69-baptism | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 70 | build-70-temptations | AUTHORED | 0 | OK |  | ✅ |
 | 71 | build-71-the-great-commission | AUTHORED | 0 | OK |  | ✅ |
 | 72 | build-72-calling-matthew | AUTHORED | 0 | OK |  | ✅ |
