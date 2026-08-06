@@ -1,3 +1,44 @@
+## 2026-08-06 (Opus autopilot) — Row 67 the-transfiguration SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 59 (commit 3005df5d1 verified in `git log` at session start; rows
+60–66 were RUNNING/shipped siblings from concurrent lanes). Lowest Ready ✅
+empty-claim row was **67 (The Transfiguration, Mark 9)** — cross-checked QUEUE
+(valid story, not swapped), claimed by push (commit ad899b5e9), built end to end.
+
+**Row 67:** 16 painted stills @ native 2K (V1 draft had 8). `v2_prompt.py --check`
+PASS before first credit. Portraits: MOSES + ELIJAH (2, story-local). SUMMIT place
+promoted-first from b01 (bare high summit, late-afternoon, haze below → right place/
+period), wired to all 16 beats. Whole Mark-9 laddered: ascent → raiment burning
+white → full transfiguration (single figure, garment+face bloom, NO halo ring) →
+Moses/Elias conference → Peter's proposal → bright cloud (no source-shape) →
+Father's voice with NO figure/beam → "Jesus only" plain dusk. Light-Law exception
+handled (radiance only in b03-b11, ordinary robe/light in b15-b16). Father never
+depicted. Only Jesus wears cream; Moses (broad/white-beard) and Elias (leaner/grey)
+distinct, never twins.
+
+**COMPLAINT LEDGER (open complaint FIXED):** Cameron: *"1:02 … pronounced ee-LY-us,
+spelled Elias in all speakers even the narrator; Elijah is wrong."* Three proofs:
+(1) AUDIO — the two Elias-bearing segments (n2a, j1) round-trip through faster-whisper
+as "Elias", never "Elijah"; V1 audio byte-identical, **AUDIO LOCK PASS**. (2) CAPTIONS
+— rebuilt from beats text ("Elias"); **verified in the RENDERED mp4 at 0:39 the caption
+reads "…and one for Moses, and one for Elias."** (3) A hallucinated "…one for Elijah"
+sub-title the model baked into the first b06 take was rerolled away. Zero "Elijah"
+in audio or caption. The internal image-lock token ELIJAH is never spoken/shown.
+
+**Cost/quality:** 2 rerolls / 16 beats = **12.5%** (under the 15% budget) — both
+mandatory hard fails (b06 baked "Elijah" caption; b07 cartoon tent-doodles = Law-14
+mix). FIX-WAVE (kept): b07 faint glory eye-glow (sanctioned radiance beat), b09/b14
+one fair-haired disciple (John, consistent, FIX-WAVE tier). Row cost ≈ **$2.55**
+(16 stills + 2 portraits + 2 rerolls @ ~$0.134), well under the $6.10 running average
+— cost trend keeps going DOWN (place reused-from-self, only 2 rerolls).
+
+**Ship:** commit 0a35cbd5e (mp4 + QC.md + assets + boards + QUEUE). review.html v67
+card → `data-review-wave="realistic-v2"`, hash 0a35cbd5e, v2 mp4 path, complaint
+answered in Cameron's terms. Deployed to Firebase `milk-b4-meat` + live-verified
+(below). STASH rescan + RUNNER-LESSONS checked. Row 67 ticked BUILT on AUTHOR-BOARD.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 66 malchus-ear SHIPPED + DEPLOYED — Machine A `Dev`
 
 Chained from row 65 (its SESSION-LOG entry + commit verified in `git log` at
