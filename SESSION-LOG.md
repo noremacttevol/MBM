@@ -1,3 +1,26 @@
+## 2026-08-06 (Opus autopilot, 8th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
+
+Session-chain verified: read SESSION-LOG top (row 48 7th resume park) and confirmed commit
+`01d62f7dc` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48
+(State RUNNING, Claim A-auto) headless/unattended — did NOT start a new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED AGAIN, STILL BLOCKED, $0.** Pulled clean
+(Already up to date). `v2_prompt --check` PASS (35 beats, v4 PASS). 11/35 stills intact
+(s01-s09, s16, s22); 4 plates present. Meter $409.64, ceiling $439.46. Ran the exact resume
+command → `429 RESOURCE_EXHAUSTED "prepayment credits are depleted"` on b10 (first call).
+Honored the 429 rule: waited 60 s, retried once → identical depleted 429. **$0 spent** — the
+429 fires before any image, so the 11 done frames are untouched (COST LAW intact). Re-parked
+clean: QC.md RUNNER PARK updated (8th-attempt headless note + resume command). Row left State
+RUNNING / Claim A-auto; no false BUILT tick. Foreground-only per headless rule; no background
+jobs. Could NOT reach step 7c DEPLOY — zero frames generate while billing is empty, so there
+is nothing new to assemble, ship, or deploy. **ACTION FOR CAMERON: top up Gemini prepayment
+billing at https://ai.studio/projects, then re-run the resume command in the QC.md — it
+resumes free and finishes the row unattended.**
+
+Commit: (this entry's commit hash)
+
+---
+
 ## 2026-08-06 (Opus autopilot, 7th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED, $0 spent, re-parked clean — Machine A `Dev`
 
 Session-chain verified: read SESSION-LOG top (row 48 6th resume park) and confirmed commit
