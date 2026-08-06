@@ -96,7 +96,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 82 | build-82-anointing-at-bethany | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1, FAILS BOTH tripwires — newer_mp3s=19 AND excess=+7.00s. Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 83 | build-83-weeping-over-jerusalem | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1 duration tripwire — newer=0 but excess=-2.20s (abs>1.0). Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 84 | build-84-no-room-manger | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
-| 85 | build-85-shepherds-and-angels | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
+| 85 | build-85-shepherds-and-angels | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 86 | build-86-the-wise-men | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL. total 132.046s vs V1 mp4 130.833s, |Δ|=1.213s>1.0 (line 531 shortfall). newer=0. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 87 | build-87-boy-in-the-temple | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL. total 94.422s vs V1 mp4 93.000s, |Δ|=1.422s>1.0 shortfall. newer=0. Author: set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
 | 88 | build-88-triumphal-entry | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH tripwires — total 118.564s vs V1 mp4 117.100s (|Δ|=1.464s) AND newer_mp3s=15. Author: set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
