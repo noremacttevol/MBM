@@ -46,7 +46,7 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
-## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (17th resume attempt, headless)
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (18th resume attempt, headless)
 
 Fresh headless resume. Pulled clean (Already up to date — autostash), `--check` PASSES
 (35 beats, v4 PASS). 11/35 stills intact (assets/ s01-s09, s16, s22). 4 plates present
@@ -54,7 +54,7 @@ Fresh headless resume. Pulled clean (Already up to date — autostash), `--check
 is still build-116 at 08:29). Ran the resume command
 `v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → **429 RESOURCE_EXHAUSTED on
 the FIRST shot (b10)**, `prepayment credits are depleted` (the script's own single retry fired
-internally before surfacing the 429). **$0 spent, meter unchanged at $409.64.** Seventeenth
+internally before surfacing the 429). **$0 spent, meter unchanged at $409.64.** Eighteenth
 consecutive resume blocked by the same empty-prepayment state — a hard billing block, NOT a
 rate limit; no wait can refill an empty prepayment balance. Only Cameron can clear it: top up
 billing at https://ai.studio/projects, then re-run the resume command below (resumes free —
