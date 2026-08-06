@@ -144,3 +144,11 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   index was stale is a COST LAW violation.
 - Portraits/cast sheets are reused across rows automatically — never re-pay
   for a face that has a sheet.
+- **Basket of "fragments/leftovers" renders as pale STONES in dusk/low light**
+  (row 58 b21 twelve-baskets): a count beat that should show baskets of BROKEN
+  BREAD can come back with grey rounded lumps that read as rocks, especially at
+  dusk. Check that basket contents plainly read as bread (golden crust, not grey
+  stone); one reroll usually lands clear bread. Distinct from the count itself —
+  fix the food-legibility first. Exact object counts (e.g. "twelve baskets")
+  rarely land to the exact number in a receding line; that is FIX-WAVE, not a
+  reroll, once the contents read correctly.

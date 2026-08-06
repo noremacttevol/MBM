@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 02:42:41",
+ "scanned": "2026-08-06 03:04:46",
  "entries": [
   {
    "row": 1,
@@ -28503,6 +28503,755 @@
    "night": false,
    "n_person": 0,
    "scene": "In the golden evening light the roads out of Nain carry the story: a young man runs flat-out down the hill road with the news, two travellers hurry the other way already telling it to each other with flying hands, and fr"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b01",
+   "file": "build-57-jairus-daughter/assets/s01-jairus-fell-at-his-feet.jpeg",
+   "tokens": [
+    "JAIRUS",
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the thronged afternoon road, the camera at the crowd's edge taking the fall in profile, the fine-robed synagogue ruler has thrown himself down at Jesus's feet \u2014 knees in the dust, his wine-brown robe pooled around him"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b02",
+   "file": "build-57-jairus-daughter/assets/s02-my-little-daughter.jpeg",
+   "tokens": [
+    "JAIRUS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A tight shot of Jairus's upturned face from above: the neat greying beard and fine head covering of a man of standing, and beneath them a face cracked wide open \u2014 eyes flooded, brow buckled, lips shaking through the word"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b03",
+   "file": "build-57-jairus-daughter/assets/s03-lay-thy-hands-on-her.jpeg",
+   "tokens": [
+    "JAIRUS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jairus kneels with both hands lifted and clasped toward Jesus, the whole sentence of his faith in the gesture \u2014 and Jesus has bent low over him, one hand already closing around the ruler's clasped hands, the other coming"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b04",
+   "file": "build-57-jairus-daughter/assets/s04-only-a-father.jpeg",
+   "tokens": [
+    "JAIRUS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot, the crowd blurred away: Jairus on his feet now but bent toward Jesus, gripping the front of his own robe with one fist, saying it again the plain way \u2014 and Jesus's face close before his, still and wholl"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b05",
+   "file": "build-57-jairus-daughter/assets/s05-slipping-away-at-home.jpeg",
+   "tokens": [
+    "GIRL",
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the shuttered dim of the small sleeping room the girl lies under the dark olive-brown blanket, her small face fever-flushed and damp among her loose dark hair, breath coming shallow \u2014 and her mother kneels against the"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b06",
+   "file": "build-57-jairus-daughter/assets/s06-jesus-went-with-him.jpeg",
+   "tokens": [
+    "JAIRUS",
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus and Jairus stride off down the road side by side \u2014 the ruler half a step ahead, urgent, one arm pointing the way through the lanes, Jesus matching his pace exactly \u2014 while behind them the whole afternoon crowd whee"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b07",
+   "file": "build-57-jairus-daughter/assets/s07-the-crowd-pressed-in.jpeg",
+   "tokens": [
+    "JAIRUS",
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The narrow lane is choked wall to wall, the camera low behind the pressing shoulders: the crowd presses in on every side of Jesus, hands reaching, neighbours calling, bodies wedged shoulder to shoulder \u2014 and at the front"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b08",
+   "file": "build-57-jairus-daughter/assets/s08-messengers-from-the-house.jpeg",
+   "tokens": [
+    "JAIRUS",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Two household men in dark earth-brown wool have come up the lane and stopped a few paces short \u2014 heads lowered, one twisting his belt in both hands, neither able to meet the master's eyes \u2014 and Jairus has stopped dead in"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b09",
+   "file": "build-57-jairus-daughter/assets/s09-thy-daughter-is-dead.jpeg",
+   "tokens": [
+    "JAIRUS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Very close on Jairus's face as the words land: his eyes lose their focus mid-blink, his mouth opens on nothing, and the strong composed architecture of the face simply gives way from inside \u2014 the soundless caving-in of a"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b10",
+   "file": "build-57-jairus-daughter/assets/s10-broke-in-the-road.jpeg",
+   "tokens": [
+    "JAIRUS",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jairus has buckled in the middle of the lane \u2014 bent double over his own knees, one fist pressed against his chest, the older messenger gripping his arm to hold him upright \u2014 while the crowd that was pressing a moment ago"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b11",
+   "file": "build-57-jairus-daughter/assets/s11-jesus-heard-it-too.jpeg",
+   "tokens": [
+    "JAIRUS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has already turned \u2014 caught mid-motion, closing the space to the buckled ruler in one stride, his hand reaching for the man's arm and his mouth already opening to speak \u2014 moving with the swiftness of someone interc"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b12",
+   "file": "build-57-jairus-daughter/assets/s12-be-not-afraid.jpeg",
+   "tokens": [
+    "JAIRUS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus grips the broken man by both shoulders and holds him squarely in front of himself, their faces a hand-span apart \u2014 Jairus's face wrecked and swimming, barely able to hold the gaze, and Jesus's face utterly grave an"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b13",
+   "file": "build-57-jairus-daughter/assets/s13-keep-believing-anyway.jpeg",
+   "tokens": [
+    "JAIRUS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jairus's ruined face as the two commands work on it: the grief is all still there \u2014 flooded eyes, shaking jaw \u2014 but through the middle of it something is gripping hold, the brows steadying, one long shuddering b"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b14",
+   "file": "build-57-jairus-daughter/assets/s14-the-walk-resumed.jpeg",
+   "tokens": [
+    "JAIRUS",
+    "THREE",
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "SHOT FROM BEHIND THE FIVE as they walk away up the emptying lane toward the house \u2014 Jesus beside the unsteady ruler with a hand at his back, Peter, James and John following close \u2014 all of their backs to the camera, faced"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b15",
+   "file": "build-57-jairus-daughter/assets/s15-weeping-and-wailing.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The walled courtyard of the fine house, the camera at the gate taking it from the side, is a storm of grief: dark-clothed mourning women wail with arms thrown up, a circle of neighbours weep and sway, a grey-bearded man "
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b16",
+   "file": "build-57-jairus-daughter/assets/s16-not-dead-but-sleepeth.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus stands just inside the courtyard gate, still and plain amid the storm of mourners, one hand lifted palm-out as he speaks \u2014 and the wailing is faltering around him in rings, arms lowering, faces turning, the din los"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b17",
+   "file": "build-57-jairus-daughter/assets/s17-they-laughed-at-him.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The courtyard's grief has curdled into scorn: mourners laugh in his face \u2014 a woman with her head thrown back, a man jabbing a finger toward the shuttered room, another elbowing his neighbour, the hired grief dissolving i"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b18",
+   "file": "build-57-jairus-daughter/assets/s18-he-put-them-all-out.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus stands with one arm extended full length toward the courtyard gate, his face quiet and absolute \u2014 and the mourners are going: a dark stream of them pressing out through the gateway, some still smirking, some sudden"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b19",
+   "file": "build-57-jairus-daughter/assets/s19-five-went-in-quietly.jpeg",
+   "tokens": [
+    "JAIRUS",
+    "MOTHER",
+    "THREE",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "At the low door of the sleeping room the small company gathers in the sudden hush of the emptied courtyard: Jesus lifts the curtain aside, the mother pressed against Jairus with her hand knotted in his sleeve, Peter, Jam"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b20",
+   "file": "build-57-jairus-daughter/assets/s20-small-and-still.jpeg",
+   "tokens": [
+    "GIRL",
+    "JAIRUS",
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "The small room in low lamplight: the girl lies still and small under the dark olive-brown blanket, her face peaceful among her loose dark hair, one small hand resting open on the cover \u2014 utterly a sleeping child \u2014 while "
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b21",
+   "file": "build-57-jairus-daughter/assets/s21-talitha-cumi.jpeg",
+   "tokens": [
+    "GIRL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close at the bedside in the lamp's warm circle: Jesus kneels by the low bed with the girl's small limp hand held gently inside his own, his face bent near hers, the words just leaving him \u2014 soft, familiar, his own everyd"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b22",
+   "file": "build-57-jairus-daughter/assets/s22-damsel-arise.jpeg",
+   "tokens": [
+    "GIRL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces close in the lamplight: Jesus's face bent over the child's, finishing the gentle summons \u2014 and on the pillow the first almost-nothing of an answer: her dark lashes trembling, her small chest lifting on a br"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b23",
+   "file": "build-57-jairus-daughter/assets/s23-a-school-morning.jpeg",
+   "tokens": [
+    "GIRL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The girl's eyes are open: she blinks up from the pillow at the warm-eyed stranger holding her hand, her small face creased with ordinary waking confusion \u2014 a child surfacing on a school morning, entirely unafraid \u2014 and J"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b24",
+   "file": "build-57-jairus-daughter/assets/s24-she-got-up-and-walked.jpeg",
+   "tokens": [
+    "GIRL",
+    "JAIRUS",
+    "MOTHER",
+    "THREE",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 5,
+   "scene": "The girl is up and walking: barefoot across the lamplit floor with her hand swinging in Jesus's hand, steady twelve-year-old steps, her dark hair loose down the madder-rose shift \u2014 while around the small room the witness"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b25",
+   "file": "build-57-jairus-daughter/assets/s25-beside-themselves.jpeg",
+   "tokens": [
+    "GIRL",
+    "JAIRUS",
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "The parents have crashed to their knees around their standing daughter and wrapped her whole \u2014 the mother's face pressed into the girl's dark hair, Jairus's big arms around them both with his ruined face lifted to the ce"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b26",
+   "file": "build-57-jairus-daughter/assets/s26-give-her-to-eat.jpeg",
+   "tokens": [
+    "GIRL",
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Jesus, half-smiling, tips his head toward the doorway and the kitchen beyond with one open hand \u2014 the practical instruction visibly landing \u2014 and the mother is already up and turning through her tears, wiping her hands o"
+  },
+  {
+   "row": 57,
+   "build": "build-57-jairus-daughter",
+   "beat": "v2-r057-b27",
+   "file": "build-57-jairus-daughter/assets/s27-a-growing-girl.jpeg",
+   "tokens": [
+    "GIRL",
+    "JAIRUS",
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "At the low table in warm lamplight, the camera behind Jesus's quiet shoulder at the room's edge, the girl eats like a healthy twelve-year-old \u2014 tearing bread, cheeks full, reaching for the dish of stew \u2014 while her mother"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b01",
+   "file": "build-58-feeding-5000/assets/s01-the-crowd-followed.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Across the broad green hillside above the blue lake, the camera high on the shoulder of the slope behind the climbing streams, the multitude comes streaming up the slope in long moving lines \u2014 families with bundles, men "
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b02",
+   "file": "build-58-feeding-5000/assets/s02-he-cared-for-them-all-day.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus sits on the grass in the thick of the seated multitude, mid-teaching, one hand moving with the words \u2014 the nearest families cross-legged an arm's length away, an old woman leaning in with her hand cupped at her ear"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b03",
+   "file": "build-58-feeding-5000/assets/s03-the-sun-began-to-sink.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The sun stands low and golden over the Sea of Galilee, the camera taking the shadowed slope from the side, and the whole vast seated multitude throws long shadows up the green slope \u2014 thousands of small dark figures spre"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b04",
+   "file": "build-58-feeding-5000/assets/s04-the-disciples-grew-anxious.jpeg",
+   "tokens": [
+    "ANDREW",
+    "PHILIP",
+    "DISCIPLES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "A knot of disciples stands a little apart in the golden light, heads bent together \u2014 Philip counting something out on his fingers with a grim mouth, Andrew glancing from the sinking sun to the endless seated crowd and ba"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b05",
+   "file": "build-58-feeding-5000/assets/s05-he-turned-it-back-on-them.jpeg",
+   "tokens": [
+    "PHILIP",
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has risen and stands looking out over the slope, where late-coming families are still climbing toward them out of the golden light in twos and threes \u2014 and he turns his head to Philip beside him, the beginning of t"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b06",
+   "file": "build-58-feeding-5000/assets/s06-whence-shall-we-buy-bread.jpeg",
+   "tokens": [
+    "PHILIP"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot in the low gold light: Jesus asks it with his eyes steady on Philip and something almost playful resting behind the gravity of his face \u2014 and Philip stares back aghast, mouth half-open, a man being asked"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b07",
+   "file": "build-58-feeding-5000/assets/s07-he-already-knew.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the golden evening light: utterly untroubled, his warm eyes resting on the flustered man before him with the patient, faintly smiling steadiness of a teacher who has already prepared the lesson's"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b08",
+   "file": "build-58-feeding-5000/assets/s08-one-lunch.jpeg",
+   "tokens": [
+    "LAD",
+    "HILLSIDE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The skinny boy sits cross-legged in the grass amid the sea of grown-ups, his small rush basket held close against his chest with both arms \u2014 the five coarse dark barley loaves and two small dried fish just visible under "
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b09",
+   "file": "build-58-feeding-5000/assets/s09-andrew-brought-him.jpeg",
+   "tokens": [
+    "ANDREW",
+    "LAD",
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Andrew steers the small boy through the seated crowd toward Jesus with one hand on the child's shoulder, his own face already half-apologizing for the smallness of what he brings \u2014 while the boy marches ahead of him enti"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b10",
+   "file": "build-58-feeding-5000/assets/s10-five-loaves-two-fishes.jpeg",
+   "tokens": [
+    "ANDREW",
+    "LAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The boy holds his basket open up toward Jesus \u2014 five flat dark barley loaves and two small dried fish plain to see \u2014 while Andrew beside him spreads one hand at the seated thousands in a helpless shrug, the question on h"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b11",
+   "file": "build-58-feeding-5000/assets/s11-the-poor-mans-bread.jpeg",
+   "tokens": [
+    "LAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close down into the rush basket held in the boy's small brown hands: five flat round barley loaves, coarse and dark and no bigger than his palms, and two small stiff dried fish tucked beside them \u2014 the whole wealth of a "
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b12",
+   "file": "build-58-feeding-5000/assets/s12-not-troubled-by-little.jpeg",
+   "tokens": [
+    "LAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The handover: Jesus takes the little basket from the boy's lifted hands into his own two hands, bending so their eyes meet over it \u2014 the child's face bright and serious at once, watching his whole lunch leave his keeping"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b13",
+   "file": "build-58-feeding-5000/assets/s13-make-the-men-sit-down.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus stands with the small basket held easily in one arm and gives the instruction, his free hand sweeping the slope \u2014 and the disciples are already turning out of the huddle to obey, Andrew and Philip and the others fa"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b14",
+   "file": "build-58-feeding-5000/assets/s14-they-sat-in-groups.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The whole hillside settles, the camera above the slope behind the nearest seated ranks: the multitude arranges itself into distinct seated companies across the deep green grass \u2014 group after group after group, patterned "
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b15",
+   "file": "build-58-feeding-5000/assets/s15-he-blessed-and-brake.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus stands against the deepening gold of the evening sky with the coarse barley loaves gathered up in both hands, his face lifted fully to heaven, eyes closed mid-thanks \u2014 and his thumbs are already breaking the first "
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b16",
+   "file": "build-58-feeding-5000/assets/s16-it-did-not-run-out.jpeg",
+   "tokens": [
+    "DISCIPLES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a disciple's wide flat basket as broken bread and fish are heaped into it yet again \u2014 his rope-scarred hands steadying under a weight that should have ended long ago \u2014 and above the basket his bearded face is ca"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b17",
+   "file": "build-58-feeding-5000/assets/s17-carried-through-the-crowd.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "HILLSIDE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The disciples move through the seated companies with heaped baskets on hips and shoulders \u2014 Andrew crouching to fill an old woman's held-out shawl, Philip passing loaves down a chain of lifted hands, children reaching up"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b18",
+   "file": "build-58-feeding-5000/assets/s18-all-were-filled.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Across the darkening gold of the hillside the multitude eats in peace: a family passing fish along their row, a father tearing bread for the small hands around him, an old man chewing slow with his eyes on the sunset wat"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b19",
+   "file": "build-58-feeding-5000/assets/s19-gather-the-fragments.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus stands among the fed and resting crowd in the last gold of the light, one hand sweeping the scattered slope as he gives the instruction \u2014 and the disciples are taking up empty baskets and moving out over the hillsi"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b20",
+   "file": "build-58-feeding-5000/assets/s20-every-scrap.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "HILLSIDE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the blue-gold dusk the disciples work stooped through the companies, baskets on their arms filling with broken bread \u2014 a woman leaning over to add her family's uneaten pieces, a child solemnly carrying one crust to th"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b21",
+   "file": "build-58-feeding-5000/assets/s21-twelve-baskets.jpeg",
+   "tokens": [
+    "DISCIPLES",
+    "HILLSIDE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the trampled grass in the deep-gold dusk, the camera low along the line so all twelve read in profile, the harvest stands in a line: EXACTLY TWELVE woven baskets set side by side, every one heaped over its brim with b"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b22",
+   "file": "build-58-feeding-5000/assets/s22-more-than-they-started-with.jpeg",
+   "tokens": [
+    "LAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The small boy stands in front of the long row of twelve heaped baskets in the dusk, his own little rush basket hanging empty from one hand \u2014 his eyes moving slowly down the line of abundance that used to be his lunch, hi"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b23",
+   "file": "build-58-feeding-5000/assets/s23-that-prophet.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Across the dusk hillside, the camera behind the nearest rising backs, the multitude is rising to its feet in spreading waves \u2014 arms lifting, neighbours gripping each other, faces alight and hungry with recognition, the w"
+  },
+  {
+   "row": 58,
+   "build": "build-58-feeding-5000",
+   "beat": "v2-r058-b24",
+   "file": "build-58-feeding-5000/assets/s24-he-fed-them-all.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A last wide frame in the blue-and-ember dusk, the camera far down the slope behind the scattered groups: the hillside falls away covered with the fed multitude \u2014 thousands settled and murmuring in the failing light, smal"
   }
  ]
 }
