@@ -1,6 +1,6 @@
 ## 2026-08-06 (Opus autopilot, 36th resume, headless) — Row 48 STILL billing-blocked ($0), re-parked clean — Machine A `Dev`
 
-**Commit:** `PENDING`
+**Commit:** `3c934ef38`
 
 Session-chain verified: read SESSION-LOG top (row 48 35th resume park) and confirmed commit
 `d9805372c`/`7214a3a2d` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48
