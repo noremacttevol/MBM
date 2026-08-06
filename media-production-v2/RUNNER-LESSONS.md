@@ -86,6 +86,13 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **PLATE frames propagate their defects** (b41 lamp was IN the plate): QC the
   plate/anchor frame FIRST and hardest — every later beat of that place
   inherits its mistakes.
+- **DO NOT reroll Jesus's green/hazel eyes** (row 54 b13 "I will" close-up): the
+  locked V2 reference `JESUS-V2-REF/jesus-v2-face.jpeg` is itself green/hazel-eyed,
+  so every Jesus frame echoes it and it is CONSISTENT across all shipped V2 rows
+  (45/46/47/52/53). A reroll cannot change it (it re-echoes the ref) and only
+  burns meter; editing the ref is a hard-rail violation. If Cameron files it, it
+  is a whole-wave reference swap, not a per-row fix — log the observation in QC.md
+  and move on. (Memory: `v2_rebuild_plan` "green-eyed Jesus".)
 - **Place wired as a person** (WARTENT queued as a portrait, b41 session): a
   place must never carry a character lock.
 - **Wrong story on the board** (row 44 two-debtors vs the QUEUE's Pentecost
