@@ -59,7 +59,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 45 | build-45-wicked-tenants | BUILT | 54 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 46 | build-46-seed-growing | BUILT | 32 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 47 | build-47-houses-on-rock-and-sand | RUNNING | 0 | OK | A-auto 2026-08-06 pid2895793 LIVE | ✅ |
-| 48 | build-48-new-wine-old-bottles | AUTHORED | 0 | OK |  | ✅ |
+| 48 | build-48-new-wine-old-bottles | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 49 | build-49-water-to-wine | AUTHORED | 0 | OK |  | ✅ |
 | 50 | build-50-noblemans-son | AUTHORED | 0 | OK |  | ✅ |
 | 51 | build-51-first-catch-of-fish | AUTHORED | 0 | OK |  | ✅ |
