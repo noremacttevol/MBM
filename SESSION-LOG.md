@@ -1,4 +1,43 @@
-## 2026-08-06 (Opus autopilot) — Row 103 peters-confession SHIPPED + DEPLOYED — Machine A `Dev`
+## 2026-08-06 (Opus autopilot) — Row 104 boy-samuel SHIPPED + DEPLOYED — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (row 91 gethsemane, commit
+`678422f05`) and confirmed the hash in `git log`. `hostname`=Dev → Machine A.
+Ran the PARALLEL-LANES loop; every RUNNING sibling (48/60/61/62/63/84/101/102/103)
+left untouched. Took the lowest AUTHORED Ready ✅ empty-claim row = **104**.
+Cross-checked QUEUE row 104 ("The boy Samuel, 1 Sam 3") — legitimate, not swapped.
+
+**Row 104 (The Boy Samuel, 1 Samuel 3) — SHIPPED + DEPLOYED.** Audio was OK on the
+board and assemble confirmed **AUDIO LOCK PASS `SHA256=037b796c…`**, 141.5s / 19.1 MB.
+22 painted stills @ native 2K (V1 had 10), the whole night in the Shiloh tabernacle
+laddered shot by shot: the lamp of God burning low → the boy asleep near the holy
+place → the voice in the dark → three runs to old Eli → Eli understands and teaches
+him → "Speak, for thy servant heareth" → the listening stillness → Samuel grown into
+the prophet at first dawn. 2 story-cast portraits (SAMUEL, ELI); HOUSE place plate
+promoted-first from the person-free b01 anchor (Bethany auto-wire NOT taken, per QC
+ban). **RENDERING LAW honored — the calling voice is NEVER visualized** (no light,
+figure, or glow; only the boy's reactive/listening stillness); the low oil lamp /
+menorah is the only symbol. SCALE GATE + BEARD BOARD pass (Samuel child-sized &
+beardless throughout; Eli one full white beard every frame). Night → first gold dawn.
+**COMPLAINT LEDGER: none open** (`v2_outline.py 104` shows zero filed complaints).
+
+**Rerolls 4/22 = 18.2% (OVER the 15% budget — explained per COST LAW):** b06 needed
+two attempts — batch take was a stacked 3-panel COLLAGE triptych, reroll #1 came back
+a stylized CGI/animated render (Law-14 mix fail), reroll #2 (its last allowed) landed
+a clean photographic single; a cartoon frame is a hard fail I can't ship, so the 2nd
+attempt was mandatory and is the sole cause of the overage. b07 fixed a dead-on
+lens-stare. b14 rerolled once but stays tan — ROOT CAUSE: the b14/n4 beat carries only
+the ELI ref, no SAMUEL ref, so nothing locks his navy tunic; logged **FIX-WAVE for the
+author to add the SAMUEL ref to b14** (runner can't edit beats). b21 kept as FIX-WAVE
+(mild epilogue lens-look) to stay near budget. **Row spend ≈ $3.73** — well UNDER the
+$6.10/row avg, so the $ trend stays DOWN even with the extra b06 reroll.
+
+Commits: `6184347fa3f4…` (ship: mp4 + QC.md + QUEUE + AUTHOR-BOARD) + review-card/stills
+commit below. Firebase deployed + live-verified (card data-hash + mp4 HTTP 200). New
+RUNNER-LESSON added: "collage reroll can return a CGI/cartoon frame — budget for a 2nd
+attempt" + "a beat missing a character's REF drifts that character's costume; reroll
+won't fix it — FIX-WAVE the author to add the ref."
+
+
 
 Session-chain verified at start: read SESSION-LOG top (row 85 shepherds-and-angels
 ship) and confirmed commit `65fc2a802` in `git log`. Ran the PARALLEL-LANES loop,

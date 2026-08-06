@@ -303,3 +303,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   distinct travel/approach beat, promote its plate from a WIDE anchor, or leave
   that one movement beat plate-free so it can render the journey.
 - **Single-location OUTDOOR story drifts INDOOR on beats that don't lock the place token** (row 103 peters-confession b04/06/12/13/15/17 — the whole story is "the same glade under the pale cliff throughout," yet the 6 beats whose `locks` omit CLIFF rendered a generic house/village interior). The place PLATE attaches ONLY to beats whose `locks` name the place token, and when those beats' scene text carries no outdoor cue the model defaults to an interior. Rerolling does NOT fix it (verified: 2 rerolls of b13 both stayed indoor, and the first even broke Peter's locked face) — it is a coin-flip that burns meter (COST LAW) and can damage a locked face. NOT runner-fixable: log FIX-WAVE + author handoff (author adds the place token to EVERY beat's `locks` in a single-setting story, or adds an outdoor cue to the scene text, then regenerates only those beats). Do not burn more than one probe reroll confirming it stays indoor.
+- **A COLLAGE reroll can return a CARTOON/CGI frame — budget for a 2nd attempt**
+  (row 104 b06): rerolling a stacked-panel collage beat ("he ran to him" action)
+  first landed a smooth stylized 3D/animated-film render (Law-14 mix fail), and
+  only the 2nd allowed reroll landed a clean photographic single. Both collage
+  AND cartoon are mandatory-reroll on sight, so an action/motion beat can legitimately
+  need TWO rerolls; count on it when budgeting, and always re-view a collage reroll
+  for STYLE, not just for "is it one panel now."
+- **A beat that omits a character's REF drifts that character's costume/identity —
+  a reroll will NOT fix it** (row 104 b14): n4 was authored with only the ELI ref,
+  no SAMUEL ref, so Samuel's locked navy tunic rendered TAN and re-drifted tan on
+  reroll (nothing to lock it). The runner cannot edit the beat (hard rail). Do NOT
+  burn rerolls chasing a costume/identity drift on a beat whose `[+N char ref: …]`
+  banner is missing that person — log it FIX-WAVE for the author to add the ref.
