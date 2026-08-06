@@ -30,7 +30,7 @@ stills never re-pulled). **To stop the session bleed until then, PAUSE the autop
 the `autopilot.sh` line in `crontab -e`.** 29 sessions burned on an unfixable state is itself a
 COST-LAW concern.
 
-Commit: PENDING
+Commit: 141cddd144b5c26f5382ad483066566465ad0957
 
 ---
 
