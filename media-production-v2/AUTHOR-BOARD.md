@@ -103,15 +103,15 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 89 | build-89-last-supper | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL. total 101.900s vs V1 mp4 100.833s, |Δ|=1.067s>1.0 shortfall. newer=0. Author: set AUDIO_FROM_V1_SEGMENTS=True. See QC.md RUNNER PARK. |  |
 | 90 | build-90-washing-feet | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH tripwires — V1 mp4 107.433s runs +31.215s LONGER than timeline 76.218s AND newer_mp3s=13 (V1 mp4 carries deleted/old audio). Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 91 | build-91-gethsemane | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
-| 92 | build-92-peters-denial | AUTHORED | 0 | OK |  | ✅ |
-| 93 | build-93-barabbas-goes-free | AUTHORED | 0 | OK |  | ✅ |
-| 94 | build-94-father-forgive-them | AUTHORED | 0 | OK |  | ✅ |
-| 95 | build-95-thief-on-the-cross | AUTHORED | 0 | OK |  | ✅ |
-| 96 | build-96-it-is-finished | AUTHORED | 0 | OK |  | ✅ |
-| 97 | build-97-the-empty-tomb | AUTHORED | 0 | OK |  | ✅ |
-| 98 | build-98-mary-her-name | AUTHORED | 0 | OK |  | ✅ |
-| 99 | build-99-flesh-and-bone-thomas | AUTHORED | 0 | OK |  | ✅ |
-| 100 | build-100-the-ascension | AUTHORED | 0 | OK |  | ✅ |
+| 92 | build-92-peters-denial | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (-14.12s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 93 | build-93-barabbas-goes-free | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (-1.00s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 94 | build-94-father-forgive-them | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 95 | build-95-thief-on-the-cross | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 96 | build-96-it-is-finished | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (-2.86s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 97 | build-97-the-empty-tomb | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (-1.92s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 98 | build-98-mary-her-name | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (-1.02s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 99 | build-99-flesh-and-bone-thomas | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (9.28s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
+| 100 | build-100-the-ascension | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight, STALE-V1-FINAL): all 9 narration mp3s are NEWER than the V1 mp4 (rendered 2026-07-24) — dur|Δ|>1.0 (-19.02s) AND recency gate fails, copying it ships stale voices. Runner cannot re-voice/edit beats. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 101 | build-101-still-small-voice | AUTHORED | 0 | OK |  | ✅ |
 | 102 | build-102-jacobs-ladder | AUTHORED | 0 | OK |  | ✅ |
 | 103 | build-103-peters-confession | AUTHORED | 0 | OK |  | ✅ |

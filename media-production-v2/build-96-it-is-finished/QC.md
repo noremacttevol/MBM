@@ -39,3 +39,14 @@ PASSES, zero WARNs. 13 beats, ~73 s.
 Two true wides with stated geometry: b05 (the declaration over the
 whole dark hill) and b13 (the opened veil down the hall's length).
 Five flips.
+
+
+## RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-06, $0 pre-flight)
+
+Parked BEFORE any Gemini spend. `assert_v1_final_is_current` FAILS: this row's V1 mp4 was rendered 2026-07-24 but all 9 narration mp3s it would lock to are NEWER (2026-07-29) — copying that audio stream would ship stale voices / deleted segments (STALE-V1-FINAL class, same as rows 69/74/78/80/82/86-90).
+- DURATION gate: timeline vs V1 mp4 |Δ|=2.86s (>1.0).
+Runner cannot fix (audio-immutability; needs an author edit to beats_v2.py).
+
+**AUTHOR FIX:** add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py, then the narration renders from the V1 build's own mp3s at the extract offsets — nothing re-voiced, nothing re-timed.
+
+**RESUME (after the flag is set):** re-run the OPUS RUNNER loop on this row — it will pass pre-flight, generate stills, assemble (AUDIO LOCK), and ship.
