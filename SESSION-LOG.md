@@ -19,7 +19,7 @@ empty, so nothing new to assemble, ship, or deploy. **ACTION FOR CAMERON: top up
 prepayment billing at https://ai.studio/projects, then re-run the resume command in the QC.md —
 it resumes free and finishes the row unattended.**
 
-Commit: PENDING
+Commit: 3d9248ee4
 
 ---
 
