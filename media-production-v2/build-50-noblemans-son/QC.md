@@ -55,3 +55,17 @@ in an immense landscape (phantom-people trap at its worst).
   either end.** Jesus speaks (b12); the boy simply mends at home. Any
   light-effect frame is an automatic reject.
 - Only Jesus wears cream (Cana beats).
+
+## ⛔ RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-06)
+Complaint #2 ("we are still pronouncing Cana wrong its more like Kane-a") is an
+AUDIO-pronunciation defect. The narration mp3s in `audio/` are the untouched
+Jul-28 V1 takes (the exact audio that generated the 2026-07-23 complaint), and
+`mbm_pronounce.py` has NO Cana respell (the KAY-nuh reading is what Cameron
+rejects). The runner is forbidden to re-voice (audio-immutability law) and this
+QC's own instruction #2 says: "mark the row NEEDS-AUDIO on the board and stop."
+Complaint #1 (question-card "squares") is ALREADY fixed in the V2 card renderer
+— verified clean on shipped rows 46/47 — so only the audio blocks this row.
+RESUME (audio authority only): add a Cana spoken-override to mbm_pronounce.py so
+the narrator says KANE-a, regenerate n1/n3 (make_narration.py), re-verify by ear,
+then set the board back to Ready ✅ for the runner. Do NOT let a runner lane ship
+this row until the audio says KANE-a.

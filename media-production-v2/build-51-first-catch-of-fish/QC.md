@@ -56,3 +56,14 @@ row lives in that territory; check every boat frame against these)
 - Time: soft early morning throughout — after a night's failed
   fishing; never midday, never sunset.
 - Only Jesus wears cream.
+
+## ⛔ RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-06)
+Open complaint "still mispronouncing tear — it should be like tare but its still
+spelled the same" is an AUDIO-pronunciation defect (homograph tear = "tare"/care,
+not "teer"/fear). The caption spelling stays "tear"; only the spoken audio is
+wrong. The narration mp3s are untouched V1 takes and the runner is forbidden to
+re-voice. RESUME (audio authority only): add a spoken-override feeding the TTS
+"tare" while the caption keeps "tear" (same mechanism as row 50's "liveth"
+override), regenerate the affected beat(s), re-verify by ear, then set the board
+back to Ready ✅. Do NOT let a runner lane ship this row until the audio says
+"tare".
