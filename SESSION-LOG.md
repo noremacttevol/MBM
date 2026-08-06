@@ -1,3 +1,32 @@
+## 2026-08-06 (Opus autopilot) — Row 48 resume: Gemini BILLING STILL DEPLETED (global hard wall), $0 spent, parked clean — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (row 116 re-probe billing-park)
+and confirmed commit `2e9b4a1f7` present in `git log`. Hostname `Dev` → Machine A.
+Directed to RESUME row 48 (State RUNNING, Claim A-auto) — the previous autopilot
+lane died mid-build there. Did NOT start a new row.
+
+**Row 48 (new-wine-old-bottles, Luke 5:33-39) — RESUMED, STILL BLOCKED, $0.**
+`v2_prompt --check` PASS (35 beats, zero WARN). Portraits DONE (0 to make). Plates
+present (courtyard/wedding/workshop/cellar in PLACE-REF). **11 of 35 stills already
+generated** (s01-s09, s16, s22) from the prior lane. Meter $409.64.
+- Ran `v2_gen_api ... --ceiling 439.46` (meter + 24 beats×0.201 + 25 concurrency)
+  to make the 24 remaining beats → `429 RESOURCE_EXHAUSTED "Your prepayment credits
+  are depleted"` on beat b10, the FIRST call. Retried once after 60 s per the 429
+  rule — IDENTICAL depleted 429. Same HARD global billing wall that parked rows
+  114/115/116. **$0 spent** (429 fired before any image; the 11 done frames untouched
+  and never re-pulled on resume — COST LAW intact).
+- Parked clean: QC.md RUNNER PARK section with the ACTION FOR CAMERON + exact one-line
+  resume command. Row left State RUNNING / Claim A-auto for post-top-up resume; no
+  false BUILT, no shared board flipped to done.
+
+**🛑 ACTION FOR CAMERON (blocks the ENTIRE board — 5th consecutive session):** Google
+AI Studio prepayment credits are depleted. Top up at https://ai.studio/projects
+(billing → prepay). Until then NO V2 row can generate a single still. After top-up,
+run: `cd media-production-v2 && python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46`
+then finish the row (QC → assemble → ship → deploy → verify → stash-scan → BUILT).
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 116 re-probe: Gemini BILLING STILL DEPLETED (global hard wall), $0 spent, parked clean — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (row 113 built+parked / row

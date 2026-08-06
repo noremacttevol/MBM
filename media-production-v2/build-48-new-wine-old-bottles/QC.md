@@ -45,3 +45,29 @@ world for this ordinary public courtyard. Do not --take it.
   not brighten it). Wedding = lamplit night joy; workshop/cellar =
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
+
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING DEPLETED
+
+Resumed row 48 per direct instruction (was State RUNNING, Claim A-auto). Portraits
+DONE (0 to make). Plates present (courtyard/wedding/workshop/cellar in PLACE-REF).
+**11 of 35 stills already generated** (assets/ s01-s09, s16, s22).
+
+**BLOCKED: Gemini prepayment credits DEPLETED — global 429 RESOURCE_EXHAUSTED.**
+Same persistent billing block that parked rows 114 and 116. Tried the resume run
+TWICE (retry after 60 s per the 429 rule); it fails on the FIRST shot (b10) both
+times. **$0 spent this session** — the meter did not advance. This is not a
+transient rate limit; it needs Cameron to top up AI Studio billing.
+
+**ACTION FOR CAMERON:** top up billing at https://ai.studio/projects (billing).
+
+**EXACT RESUME COMMAND (after top-up — resumes free, the 11 passing frames are
+never re-pulled):**
+```
+cd /home/noremacttevol/Desktop/MBM/media-production-v2
+python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46
+```
+Then continue the loop from step 5: light QC the 24 new frames + the 11 existing
+(QC the promote-first COURTYARD/WEDDING plate frames hardest), assemble
+(`python3 v2_assemble.py 48` — must print AUDIO LOCK PASS), ship two commits,
+`firebase deploy --only hosting`, verify the live hash, stash-scan, tick BUILT.
+Row left State RUNNING / Claim A-auto for post-top-up resume.
