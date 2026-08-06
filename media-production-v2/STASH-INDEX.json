@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 04:32:26",
+ "scanned": "2026-08-06 04:43:29",
  "entries": [
   {
    "row": 1,
@@ -31173,6 +31173,258 @@
    "night": true,
    "n_person": 0,
    "scene": "The garden stands emptied under the low moon: trampled spring grass, a dropped wooden stave, Malchus's fallen torch guttering its last ember in the green \u2014 and beyond them, silver and quiet, the low prayer rock where the"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b01",
+   "file": "build-67-the-transfiguration/assets/s01-jesus-took-three-of-his.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "JAMES-Z",
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "Up the last bare shoulder of the high mountain, the camera below the path taking the climb in profile, the four climb in the late gold \u2014 Jesus ahead on the broken pale rock, Peter hauling himself past a boulder, James an"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b02",
+   "file": "build-67-the-transfiguration/assets/s02-and-there-in-front-of.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "JAMES-Z",
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "On the summit's pale rock Jesus stands a few paces apart \u2014 and the change has begun: his cream robe turning a white beyond any bleaching, white as high snow in full sun, the brightness belonging to the fabric itself and "
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b03",
+   "file": "build-67-the-transfiguration/assets/s03-his-clothes-turned-a-blinding.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The summit holds its one impossible moment: Jesus stands in raiment gone white as the light itself \u2014 every fold of the robe bright as sun on snow, no fuller's white within a world of it \u2014 and his own familiar face above "
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b04",
+   "file": "build-67-the-transfiguration/assets/s04-this-is-my-son-whom.jpeg",
+   "tokens": [
+    "PETER",
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Peter's upturned face in the cloud's pale brightness: the wild curls pressed back, eyes enormous, the fisherman's features holding terror and joy in the same grip as words from nowhere and everywhere land on him"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b05",
+   "file": "build-67-the-transfiguration/assets/s05-two-of-the-greatest-prophets.jpeg",
+   "tokens": [
+    "MOSES",
+    "ELIJAH",
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "On the lit summit, the camera low among the rocks behind the three watching friends, the impossible conference stands in session: the ancient lawgiver in his earth-brown and dark red, graven face turned gravely to Jesus;"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b06",
+   "file": "build-67-the-transfiguration/assets/s06-peter-overwhelmed-blurted-out-the.jpeg",
+   "tokens": [
+    "PETER",
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Half-risen from the pale rocks Peter is already talking \u2014 one arm flung out toward the three shining figures, his mouth running a full sentence ahead of any plan, James's hand rising too late to catch his brother's sleev"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b07",
+   "file": "build-67-the-transfiguration/assets/s07-master-it-is-good-for.jpeg",
+   "tokens": [
+    "PETER",
+    "MOSES",
+    "ELIJAH",
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "Peter stands mid-proposal, the camera at his side so his sketching hands cross in profile toward the three, in the summit's strange light, his big hands sketching three tent-shapes in the air \u2014 one, two, three \u2014 toward J"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b08",
+   "file": "build-67-the-transfiguration/assets/s08-he-wanted-to-keep-the.jpeg",
+   "tokens": [
+    "PETER",
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Peter's face in the pale light: under the fear and the babble, the ache stands plain \u2014 eyes moving over the shining conference like a man memorizing what he already knows is leaving, the wish to fence the moment"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b09",
+   "file": "build-67-the-transfiguration/assets/s09-mark-adds-kindly-that-peter.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "JAMES-Z",
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Among the pale boulders the three friends hold three shapes of the same fear: James down on one knee with his hand clamped on the rock as if the mountain might move, young John with a forearm half-raised against the brig"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b10",
+   "file": "build-67-the-transfiguration/assets/s10-then-a-bright-cloud-settled.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Down onto the summit the cloud comes \u2014 a pale luminous mass folding over the rocks, sliding between the figures, erasing the far ranges and the sky until the whole mountaintop stands inside a brightness with no direction"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b11",
+   "file": "build-67-the-transfiguration/assets/s11-this-is-my-beloved-son.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "JAMES-Z",
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "Inside the even brightness the three friends have gone down among the rocks \u2014 faces to the stone, hands over heads \u2014 and Jesus stands quiet in the white air a few paces off, indicated by nothing: no beam finds him, no li"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b12",
+   "file": "build-67-the-transfiguration/assets/s12-listen-to-him-not-build.jpeg",
+   "tokens": [
+    "PETER",
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the pale brightness: Peter's big hands \u2014 mid-air a moment ago, sketching tabernacles \u2014 sinking slowly down out of their shapes, the offered architecture dissolving unbuilt, his face above them changing from host"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b13",
+   "file": "build-67-the-transfiguration/assets/s13-not-stay-up-here-with.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Through the thinning brightness the world returns below the summit \u2014 the valley haze, the far ranges, the thread of a road, the smoke of somebody's evening fire \u2014 all of it small and waiting under the mountain's bare roc"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b14",
+   "file": "build-67-the-transfiguration/assets/s14-of-everything-the-father-could.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "JAMES-Z",
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The brightness thins around the three friends still low among the rocks \u2014 the even white paling back toward ordinary dusk air, the far world firming through it \u2014 and on the three half-risen faces the single sentence goes"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b15",
+   "file": "build-67-the-transfiguration/assets/s15-the-light-faded-the-cloud.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "JAMES-Z",
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "Plain quiet dusk holds the summit, the camera behind the three friends still low on the rocks: the cloud gone, the ranges standing ordinary in the last light \u2014 and Jesus, in his ordinary cream wool again, is bent over hi"
+  },
+  {
+   "row": 67,
+   "build": "build-67-the-transfiguration",
+   "beat": "v2-r067-b16",
+   "file": "build-67-the-transfiguration/assets/s16-do-not-be-afraid-he.jpeg",
+   "tokens": [
+    "PETER",
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close in the ordinary dusk: Jesus's hand firm and warm on Peter's shoulder, the two faces near \u2014 the fisherman's still white-edged with everything he has seen, and his friend's exactly, unmistakably the same face as alwa"
   }
  ]
 }

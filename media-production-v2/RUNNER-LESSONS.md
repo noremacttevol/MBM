@@ -188,3 +188,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   so verify the reroll is a single coherent frame, not a montage. Two rerolls cleared
   it. Distinct from crowd variety — this is the STORY'S subject duplicated in a shot
   that should hold only him.
+- **Model bakes a hallucinated SUBTITLE into the still** (row 67 b06: a first-take
+  frame printed "…one for Moses and one for Elijah" as a caption burned into the
+  art). It hits beats whose narration is a spoken quote; the model "helpfully"
+  renders the line as an on-image subtitle. Two-fold failure: (a) a text-in-image
+  defect that will collide with the assembler's real caption, and (b) it can print
+  the EXACT word of an open complaint (here "Elijah"). Scan every frame for any
+  burned-in lettering; reroll on sight — the real caption is added at assembly.
+- **"Sketching/drawing X in the air" prompts render literal cartoon doodles**
+  (row 67 b07: "hands sketching three shelters in the air" came back as black
+  line-drawn tent ICONS floating in the frame — a Law-14 realistic/cartoon MIX).
+  Any beat whose must_show describes drawing/sketching/imagining a shape is at
+  risk of a graphic-overlay doodle. Reroll → the model lands a realistic gesture
+  (open hands toward the subject) with no floating graphic.
