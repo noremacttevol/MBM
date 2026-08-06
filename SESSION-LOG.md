@@ -1,3 +1,42 @@
+## 2026-08-06 (Opus autopilot) — Row 101 still-small-voice SHIPPED + DEPLOYED; rows 92-100 parked NEEDS-AUDIO ($0 pre-flight) — Machine A `Dev`
+
+Chained from row 81's ship (`b61d7fc5d`) verified in `git log` at session
+start (row 91 entry below was written by a concurrent lane). Ran the
+PARALLEL-LANES loop; RUNNING siblings (48/60/61/62/63/84/85/91) never touched.
+
+**Rows 92-100 — PARKED NEEDS-AUDIO, $0 spent.** Batch $0 audio pre-flight
+(RUNNER-LESSONS lesson 250/253) over the whole authored block 92-126: rows
+92-100 ALL fail `assert_v1_final_is_current` — their V1 mp4s were rendered
+2026-07-24 but all 9 narration mp3s are NEWER (2026-07-29), the STALE-V1-FINAL
+class. The board falsely showed them Audio OK / Ready ✅ (RUNNER-LESSONS lesson
+252 had already predicted 92/96/99/100 fail); corrected all nine to
+NEEDS-AUDIO with per-row QC.md RUNNER PARK notes. Author fix: set
+`AUDIO_FROM_V1_SEGMENTS=True` in each beats_v2.py. Commit `752b958b4`.
+
+**Row 101 (The still small voice, 1 Kings 19) — SHIPPED + DEPLOYED.** Lowest
+genuinely-buildable row (pre-flight PASS: recency ok, |Δ|≤1.0). 28 painted
+realistic stills @ native 2K (V1 had 10) + 1 ELIJAH portrait. WILD (b02) and
+HOREB (b12) both promote-first from THIS row's own frames — the auto-wired
+build-59 Decapolis WILD was cleared as wrong-region per the row-59 lesson.
+Laws held: solitude (only b26 populated), wind/earthquake/fire all natural
+weather-and-ground with nothing personified ("the LORD was not in" them),
+still-small-voice as stillness + the mantle-wrapped-face icon, provision with
+no angel/halo. ELIJAH one locked grey-bearded man (beard board PASS); scale
+gate PASS; realistic-only PASS — one painterly village wide (b26) caught and
+rerolled photographic, zero cartoon/mixed remain.
+
+**Cost/quality:** **1 reroll of 28 = 3.6%** (well under the 15% budget) →
+supports the COST-LAW downtrend. Row ≈ **$4.02** (28 stills + 1 portrait + 1
+reroll) vs the $6.10 running average. AUDIO LOCK PASS SHA256=3c2bee8b… (V1
+1kings-19 audio byte-identical, nothing re-voiced), 173.1s, 20.1 MB. 3 rendered
+caption frames verified (bottom-band only, question card clean, no squares).
+Ship commit `3a3594baa` (mp4 tracked + on origin/main); review card
+`data-review-wave="realistic-v2"` + `data-hash=3a3594baa…`; then
+`firebase deploy --only hosting` and verified live hash + mp4 200. STASH rescan
+committed. No new RUNNER-LESSONS defect class surfaced.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 91 gethsemane SHIPPED + DEPLOYED; rows 86-90 parked NEEDS-AUDIO — Machine A `Dev`
 
 Chained from row 81's stash-rescan commit `92367d088` (verified in `git log` at
