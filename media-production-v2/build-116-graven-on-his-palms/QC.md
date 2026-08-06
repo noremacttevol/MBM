@@ -58,3 +58,33 @@ python3 media-production-v2/v2_story_cast.py build-116-graven-on-his-palms --cei
 python3 media-production-v2/v2_gen_api.py build-116-graven-on-his-palms --ceiling <meter+(21 beats+1 portrait)*0.134*1.5+25>
 # then promote CITY from b04, QC, assemble, ship per PROMPT-OPUS-RUNNER.md
 ```
+
+---
+
+## 🅿️ RUNNER PARK #2 — A-auto Machine A, 2026-08-06 (BILLING DEPLETED AGAIN, GLOBAL)
+
+**BLOCKER (GLOBAL, not row-specific):** Gemini API returned
+`429 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted"` after the
+WOMAN portrait + the b04 CITY anchor were generated. Retried twice (per brief);
+identical error. This is depleted PREPAYMENT credit, not an auto-reloading rate
+limit — it blocks EVERY row and EVERY lane until Cameron tops up at
+https://ai.studio/projects (Google AI Studio → billing → prepay). The earlier
+row-1 spend this session ($409.64 meter) exhausted the prepaid balance mid-row.
+
+**Art state (preserved, reusable — do NOT regen):** WOMAN portrait made
+(`CAST-REF-V2/woman.jpeg`); CITY plate promoted from b04
+(`assets/s04-that-is-exactly-how-people.jpeg`, QC-PASS: dusk city of solitaries,
+period props, no modern objects). Remaining 20 beats NOT generated.
+COMPLAINT LEDGER: none open.
+
+Claim reverted to AUTHORED / Ready ✅ / empty claim so the next session
+(post-topup) takes it clean; the promoted CITY plate + WOMAN portrait are
+committed and will be reused.
+
+**RESUME (after Cameron tops up Gemini billing):**
+```
+cd media-production-v2
+python3 v2_gen_api.py build-116-graven-on-his-palms --ceiling <meter+21*0.134*1.5+25>
+# b04 already present + CITY wired; QC all frames, assemble (audio CLEAN,
+# |Δ|=0.024s — will pass AUDIO LOCK), ship per PROMPT-OPUS-RUNNER.md step 7.
+```
