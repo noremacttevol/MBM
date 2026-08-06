@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 06:06:19",
+ "scanned": "2026-08-06 06:20:34",
  "entries": [
   {
    "row": 1,
@@ -33850,6 +33850,241 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame settles over the whole company at rest around Jesus in the last warm light \u2014 seventy travellers seated on the walls and the road's edge with the day's dust still on them, faces calm and sky-turned above"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b01",
+   "file": "build-81-render-unto-caesar/assets/s01-some-officials-came-to-jesus.jpeg",
+   "tokens": [
+    "COURT",
+    "OFFICIALS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Across the wide sunlit paving, the camera behind the listening crowd's shoulders, the delegation converges on Jesus \u2014 charcoal and slate-blue fringes beside smooth wine-red court robes, an alliance that agrees on nothing"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b02",
+   "file": "build-81-render-unto-caesar/assets/s02-say-yes-and-the-crowd.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The listening crowd fills the colonnade's edge \u2014 farmers and tradesmen who count Rome's tax out of thin purses every season \u2014 and across their faces the first jaw of the trap gleams: jaws setting, eyes narrowing, shoulde"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b03",
+   "file": "build-81-render-unto-caesar/assets/s03-master-we-know-that-thou.jpeg",
+   "tokens": [
+    "COURT",
+    "OFFICIALS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The lead official bows a shade too deep in the hard light \u2014 palms spread, voice-oil almost visible in the air \u2014 MASTER, WE KNOW THOU ART TRUE \u2014 the praise laid down thick as paving while the rest fan out behind him with "
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b04",
+   "file": "build-81-render-unto-caesar/assets/s04-shall-we-give-or-shall.jpeg",
+   "tokens": [
+    "OFFICIALS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the questioner's face at the moment the fork is pressed: brows lifted in beautifully manufactured sincerity, head tilted, hands opening to either side as if honestly weighing \u2014 shall we GIVE, shall we NOT \u2014 two "
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b05",
+   "file": "build-81-render-unto-caesar/assets/s05-is-it-lawful-to-pay.jpeg",
+   "tokens": [
+    "COURT",
+    "OFFICIALS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The question hangs, the camera at the court's side holding both parties in profile, and the whole court stops around it: the delegation motionless with their patience out like knives, the crowd's lean frozen mid-lean, ev"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b06",
+   "file": "build-81-render-unto-caesar/assets/s06-say-no-and-rome-arrests.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the court's far edge, framed small between two limestone columns, the second jaw of the trap stands its ordinary watch: a pair of Roman soldiers in dark iron and oxblood leather, spears grounded, bored and permanent \u2014"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b07",
+   "file": "build-81-render-unto-caesar/assets/s07-jesus-saw-straight-through-it.jpeg",
+   "tokens": [
+    "OFFICIALS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close between the two faces: the questioner's practised sincerity still holding its shape, and Jesus's level gaze already all the way through it \u2014 no anger in the warm brown eyes, no offence, just the calm complete knowl"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b08",
+   "file": "build-81-render-unto-caesar/assets/s08-why-tempt-ye-me-bring.jpeg",
+   "tokens": [
+    "COURT",
+    "OFFICIALS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus's open hand extends into the space between them \u2014 empty, palm up, unhurried \u2014 BRING ME A PENNY \u2014 and the reversal begins in that small gesture: the man they came to trap owns no tribute coin, and already a wine-red"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b09",
+   "file": "build-81-render-unto-caesar/assets/s09-they-brought-one-a-small.jpeg",
+   "tokens": [
+    "OFFICIALS",
+    "COIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the handover: the official's ringed fingers holding out the small worn denarius, the stamped emperor's profile and its rim of Latin catching the hard morning light as it crosses the gap \u2014 one little disc of silv"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b10",
+   "file": "build-81-render-unto-caesar/assets/s10-he-held-it-up-where.jpeg",
+   "tokens": [
+    "COURT",
+    "COIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus lifts the little coin high into the clear light \u2014 arm up, the stamped profile turned outward for the whole court \u2014 and every eye in the colonnade converges on a disc of silver smaller than a fig: the crowd craning,"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b11",
+   "file": "build-81-render-unto-caesar/assets/s11-and-they-said-unto-him.jpeg",
+   "tokens": [
+    "OFFICIALS",
+    "COIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the delegation's faces as the word is dragged out of them by plain daylight: lips shaping CAESAR'S with the enthusiasm of men signing against themselves, eyes fixed on the raised silver they supplied, each schem"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b12",
+   "file": "build-81-render-unto-caesar/assets/s12-they-said-it-was-and.jpeg",
+   "tokens": [
+    "COURT",
+    "OFFICIALS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The court's geometry, the camera at the same side wall so the reversal mirrors the trap frame in profile, quietly flips: the delegation that walked in as hunters now stands cornered in its own snare \u2014 sidelong glances ri"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b13",
+   "file": "build-81-render-unto-caesar/assets/s13-and-jesus-answering-said-unto.jpeg",
+   "tokens": [
+    "COIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the hush before the verdict: the little denarius held easily between finger and thumb, the warm eyes moving once across the cornered questioners and the craning crowd, the breath drawn \u2014 a whole colonna"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b14",
+   "file": "build-81-render-unto-caesar/assets/s14-render-to-caesar-the-things.jpeg",
+   "tokens": [
+    "COURT",
+    "OFFICIALS",
+    "COIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verdict lands with both hands at once: one returning the little silver coin toward its owner's chest \u2014 Caesar's stamp going home to Caesar's purse \u2014 while the other opens upward, easy and unanswerable, toward everyth"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b15",
+   "file": "build-81-render-unto-caesar/assets/s15-the-coin-bore-image-so.jpeg",
+   "tokens": [
+    "COIN",
+    "OFFICIALS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the official's open palm with the denarius settled back in it \u2014 the stamped profile face-up in the hard light, the rim of Latin naming its owner as plainly as a signature \u2014 the first half of the logic closed and"
+  },
+  {
+   "row": 81,
+   "build": "build-81-render-unto-caesar",
+   "beat": "v2-r081-b16",
+   "file": "build-81-render-unto-caesar/assets/s16-but-you-bear-image-so.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The closing frame fills with faces in the clear morning light \u2014 the farmer's, the questioner's, the bored soldier's, the child's on its mother's hip, old and young and friend and schemer crowding the colonnade \u2014 every on"
   }
  ]
 }
