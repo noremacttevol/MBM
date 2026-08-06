@@ -1,6 +1,6 @@
 ## 2026-08-06 (Opus autopilot, 31st resume, headless) — Row 48 STILL billing-blocked ($0) + SHIPPED root-cause fix: autopilot billing circuit breaker — Machine A `Dev`
 
-**Commit:** `PENDING`
+**Commit:** `9249d664d`
 
 Session-chain verified: read SESSION-LOG top (row 48 30th resume park) and confirmed commit
 `7a49c644d` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48 (State
