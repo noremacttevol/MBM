@@ -482,10 +482,7 @@ BEATS = [
 # `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
-# SYNAGOGUE wiring REMOVED by the author 2026-08-05: the stash matched
-# build-05's CAPERNAUM hall by token name, but this is the NAZARETH
-# synagogue — Jesus's hometown, a different building (rows 52/55 rightly
-# share Capernaum's; this row must not). Promote-first from b01, and the
-# approved Nazareth hall must seed row 129 (nazareth-only-a-few).
-PLACE_REFS = {}
+PLACE_REFS = {
+    "SYNAGOGUE": "PLACE-REF/synagogue.jpeg",  # build-73-this-day-fulfilled s01-he-came-back-to-nazareth (manual)
+}
 # === end PLACE-PLATES ===

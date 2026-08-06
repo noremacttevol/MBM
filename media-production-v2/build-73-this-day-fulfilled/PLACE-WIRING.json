@@ -1,1 +1,8 @@
-{}
+{
+ "SYNAGOGUE": {
+  "manual": true,
+  "src_beat": "s01-he-came-back-to-nazareth",
+  "src_build": "build-73-this-day-fulfilled",
+  "src_file": "build-73-this-day-fulfilled/assets/s01-he-came-back-to-nazareth.jpeg"
+ }
+}
