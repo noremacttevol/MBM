@@ -1,1 +1,8 @@
-{}
+{
+ "GARDEN": {
+  "manual": true,
+  "src_beat": "s01-in-the-beginning-there-was",
+  "src_build": "build-113-where-art-thou",
+  "src_file": "build-113-where-art-thou/assets/s01-in-the-beginning-there-was.jpeg"
+ }
+}
