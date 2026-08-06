@@ -12,6 +12,20 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
+- **AUDIO-PRONUNCIATION complaints are OUT of runner scope — park the row, do
+  NOT ship over them (2026-08-06, rows 50/51; row 46 shipped WRONG).** Run
+  `v2_outline.py <row>` at claim time: if the OPEN complaint is a mispronunciation
+  ("Cana → Kane-a", "tear → tare", "put-uth", "Lieth → lie-eth"), the fix is a
+  re-voice (respell/spoken-override + regenerate narration), which the runner is
+  forbidden to do (audio-immutability). Mark the row **NEEDS-AUDIO** on the board,
+  write a RUNNER PARK note in QC.md with the resume, and take the next row. Do
+  NOT ship a picture-rebuild over an open audio complaint — the audio is unchanged,
+  so the complaint repeats (the worst failure). Row 46 was shipped this way with
+  its "put-uth" complaint still open because its QC.md wrongly claimed "no open
+  complaint"; always trust `v2_outline.py`, not the QC header, for open complaints.
+  Rendering complaints (question-card "squares") are DIFFERENT — the V2 card
+  renderer already fixed that class, so just verify the rendered end card is clean
+  and ship.
 - **FIRST check ALREADY-SHIPPED, before you check LIVE (2026-08-06, row-45
   second pile-on, ~$5 wasted).** A row can be fully DONE — mp4 committed, review
   card live — with NO live `v2_gen_api` process, because the lane that built it

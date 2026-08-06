@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 01:23:55",
+ "scanned": "2026-08-06 02:02:02",
  "entries": [
   {
    "row": 1,
@@ -26334,6 +26334,925 @@
    "night": false,
    "n_person": 0,
    "scene": "Warm dusk on the high bank: the plain stone house stands with its door open and its lamp lit inside, the warm light falling out across the threshold and a little way down the path toward the riverbed \u2014 a house that has a"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b01",
+   "file": "build-49-water-to-wine/assets/s01-the-very-first-miracle-he.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A quiet still in plain morning light: against a honey-stone wall a sickbed mat lies rolled and bound, unneeded, and a walking staff leans unclaimed beside a door \u2014 the standard furniture of the miracles everyone would ha"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b02",
+   "file": "build-49-water-to-wine/assets/s02-not-calming-a-storm-he.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The vine-shaded courtyard stands dressed for its wedding, the camera at the gate taking the whole court from the side, ready for its wedding in the golden afternoon \u2014 little oil lamps strung on cords between the posts, t"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b03",
+   "file": "build-49-water-to-wine/assets/s03-he-was-there-as-a.jpeg",
+   "tokens": [
+    "MARY",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the long table in the golden light Jesus sits wedged happily among the wedding guests \u2014 laughing at a neighbour's story with a piece of bread in his hand, his mother two places down in her deep blue mantle talking wit"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b04",
+   "file": "build-49-water-to-wine/assets/s04-it-was-pure-ordinary-joy.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Evening arrives and the courtyard dances, the camera low behind the seated clappers so the ring turns past them \u2014 the ring of dancers turning to the pipe and drum as the strung lamps take over from the fading sky, childr"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b05",
+   "file": "build-49-water-to-wine/assets/s05-and-then-quietly-disaster-the.jpeg",
+   "tokens": [
+    "SERVANTS",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the storeroom's lamplight behind the feast the stout servant woman tips the last amphora over the serving jug \u2014 and gets a trickle, then drops, then nothing, the vessel sounding hollow as she rocks it \u2014 her eyes meeti"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b06",
+   "file": "build-49-water-to-wine/assets/s06-to-that-family-it-was.jpeg",
+   "tokens": [
+    "BRIDEGROOM",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "At the feast's lamplit edge the tall thin servant bends to the young bridegroom's ear \u2014 and the boy's festal joy drains as the whisper lands: the soft first beard suddenly young on a face gone pale under its myrtle circl"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b07",
+   "file": "build-49-water-to-wine/assets/s07-the-feast-and-their-good.jpeg",
+   "tokens": [
+    "MARY",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Amid the feast's rolling noise Mary has gone still \u2014 her serene face turned from the women's talk, reading the far side of the courtyard the way mothers read rooms: the servants' stiff shoulders at the storeroom door, th"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b08",
+   "file": "build-49-water-to-wine/assets/s08-and-she-did-not-go.jpeg",
+   "tokens": [
+    "MARY",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Through the lamplit celebration Mary walks a perfectly straight line \u2014 past the presiding steward with his napkin, past the kitchen door's worried light, between the dancers \u2014 small and unhurried in her deep blue mantle,"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b09",
+   "file": "build-49-water-to-wine/assets/s09-they-have-no-wine-four.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close in the lamplight's warm privacy: Mary's lifted face a hand's breadth from her son's, the four words just laid down between them plain as bread on a table \u2014 no plea in her serene eyes, no plan, no pressure, only the"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b10",
+   "file": "build-49-water-to-wine/assets/s10-she-did-not-tell-him.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the warm light: Mary's small worn hands folded quietly at her waist against the deep blue mantle \u2014 not clasped in pleading, not lifted to direct, not touching her son's sleeve to steer him \u2014 hands doing the hard"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b11",
+   "file": "build-49-water-to-wine/assets/s11-she-simply-put-it-in.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces stay close and warm as the strange words pass: Jesus's head tipped gently toward his mother, his eyes soft on hers with something weighing far back in them, one hand risen lightly toward her shoulder even a"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b12",
+   "file": "build-49-water-to-wine/assets/s12-mine-hour-is-not-yet.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the lamp warmth: the feast's gold on his features and his gaze gone briefly to a great distance \u2014 a man standing at the first threshold of everything, hearing far off in the word 'hour' all the h"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b13",
+   "file": "build-49-water-to-wine/assets/s13-woman-was-a-word-of.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces close in the warm light, and the idiom lands as it truly was: the corner of Jesus's mouth carrying the near-smile of family shorthand, Mary's eyes answering with the same \u2014 a question asked inside a lifetim"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b14",
+   "file": "build-49-water-to-wine/assets/s14-to-us-that-sounds-small.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "On the laden table amid the bread and figs and lamplight one serving jug stands empty \u2014 tipped slightly where the last pour left it, its dark inside showing dry \u2014 a small plain object surrounded by plenty, and through it"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b15",
+   "file": "build-49-water-to-wine/assets/s15-he-was-not-brushing-her.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "From his mother's steady face Jesus's gaze lifts and travels slowly out over the lamplit feast \u2014 the dancers, the children, the young bridegroom's pale worry at the edge \u2014 and returns inward, weighing: the whole hidden l"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b16",
+   "file": "build-49-water-to-wine/assets/s16-and-his-mother-who-knew.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Mary's lined serene face in the lamplight: her son's weighing reflected in her watching eyes, and her whole expression already settling \u2014 not into persuasion, not into retreat, but into the small private certain"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b17",
+   "file": "build-49-water-to-wine/assets/s17-she-just-turned-to-the.jpeg",
+   "tokens": [
+    "MARY",
+    "SERVANTS",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Mary has turned from her son to the three waiting servants \u2014 the stout woman, the tall careful man, the quick boy \u2014 her small hand turned palm-open toward Jesus at the table as she gives them the seven words, and their p"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b18",
+   "file": "build-49-water-to-wine/assets/s18-whatever-he-tells-you-do.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Mary's face in the warm light as the seven words finish: serene, certain, entirely without drama \u2014 the deep-lined eyes holding a trust so old it has stopped needing reasons, the whole of discipleship's curriculu"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b19",
+   "file": "build-49-water-to-wine/assets/s19-she-did-not-explain-and.jpeg",
+   "tokens": [
+    "MARY",
+    "SERVANTS",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Mary is already three steps gone toward the women's tables, her deep blue back unturned, rejoining the party's talk with the ease of a woman whose errand is entirely finished \u2014 and behind her the three servants stand reo"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b20",
+   "file": "build-49-water-to-wine/assets/s20-they-have-no-wine.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the storeroom's small lamplight the last amphora lies tipped on its side, its dark mouth toward the camera and dry to the throat, a stain of the final trickle drying on the stone below it \u2014 four words made of fired cl"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b21",
+   "file": "build-49-water-to-wine/assets/s21-standing-nearby-were-six-big.jpeg",
+   "tokens": [
+    "JARS",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the shaded alcove by the water door the six great stone jars stand in their patient row \u2014 waist-high, wide-mouthed, pale limestone gone grey at the worn rims, each one big enough to bathe a child in \u2014 the sober furnit"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b22",
+   "file": "build-49-water-to-wine/assets/s22-empty-jars-meant-for-making.jpeg",
+   "tokens": [
+    "JARS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Looking down over a worn rim into one great jar: the clean pale hollow of its stone belly, dry to the bottom, a faint mineral ring from years of ritual water its only content \u2014 thirty gallons of holy-purpose emptiness, w"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b23",
+   "file": "build-49-water-to-wine/assets/s23-fill-the-waterpots-with-water.jpeg",
+   "tokens": [
+    "SERVANTS",
+    "JARS",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "By the alcove Jesus speaks quietly to the three servants, one hand turned toward the row of great jars \u2014 and the order lands on their faces in three kinds of honest puzzlement: the stout woman's brows up, the tall man gl"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b24",
+   "file": "build-49-water-to-wine/assets/s24-the-plainest-thing-there-is.jpeg",
+   "tokens": [
+    "SERVANTS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the village well in the lane's darkness the quick boy hauls the wet rope hand over hand, a small lamp set on the well's rim beside him \u2014 and the bucket rises brimming with the plainest thing there is, ordinary dark wa"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b25",
+   "file": "build-49-water-to-wine/assets/s25-the-servants-filled-all-six.jpeg",
+   "tokens": [
+    "SERVANTS",
+    "JARS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The alcove has become a bucket brigade, the camera at its side so every haul and pour crosses in profile: the boy jogging in from the lane with two more pails, the tall man pouring careful and steady, the stout woman ste"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b26",
+   "file": "build-49-water-to-wine/assets/s26-draw-out-now-and-bear.jpeg",
+   "tokens": [
+    "SERVANTS",
+    "JARS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the brimming jar the tall careful servant dips the long-handled cup beneath the surface at Jesus's quiet word \u2014 Jesus standing easy an arm's length off, hands at his sides, touching nothing, commanding nothing visible"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b27",
+   "file": "build-49-water-to-wine/assets/s27-no-lightning-no-words-spoken.jpeg",
+   "tokens": [
+    "JARS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The six jars stand brimming and completely ordinary in the alcove's small lamplight \u2014 water looking like water, stone looking like stone \u2014 and Jesus is already turning away back toward the tables, unhurried, his part app"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b28",
+   "file": "build-49-water-to-wine/assets/s28-no-show-at-all-he.jpeg",
+   "tokens": [
+    "SERVANTS",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Across the lamplit courtyard the tall servant carries the filled cup at a careful level walk \u2014 both hands to it, eyes on the surface, threading between dancers and benches with the concentration of a man transporting eit"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b29",
+   "file": "build-49-water-to-wine/assets/s29-and-somewhere-between-the-jar.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Extreme close on the cup mid-carry: the dark liquid trembling gently with the servant's footsteps, the strung lamps' small flames riding its moving surface \u2014 deep-coloured now, catching the light the way water never quit"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b30",
+   "file": "build-49-water-to-wine/assets/s30-the-steward-tasted-it-and.jpeg",
+   "tokens": [
+    "STEWARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the lamplight: the round plum-robed steward with the cup at his lips mid-taste \u2014 and the verdict arriving through his whole body: eyes closing, brows climbing his forehead, the napkin'd shoulder rising \u2014 a profe"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b31",
+   "file": "build-49-water-to-wine/assets/s31-water.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in lamplight: a plain wooden bucket of clear well water, the surface settling from the carry, a single drip falling from the rope's end \u2014 water at its most absolutely ordinary, transparent and unpromising, "
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b32",
+   "file": "build-49-water-to-wine/assets/s32-every-man-at-the-beginning.jpeg",
+   "tokens": [
+    "STEWARD",
+    "BRIDEGROOM",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Before the whole lamplit feast, the camera behind the nearest table's shoulders, the steward stands with one expansive arm around the young bridegroom's shoulders and the cup raised high in his other hand, proclaiming th"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b33",
+   "file": "build-49-water-to-wine/assets/s33-everybody-serves-the-good-wine.jpeg",
+   "tokens": [
+    "STEWARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the round steward mid-oration: one eyebrow arched, a knowing finger tapping the cup's rim, the half-wink of a man revealing the catering trade's oldest arithmetic to a courtyard that has lived it at every weddin"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b34",
+   "file": "build-49-water-to-wine/assets/s34-you-have-done-it-backwards.jpeg",
+   "tokens": [
+    "STEWARD",
+    "BRIDEGROOM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close between the two faces in the lamplight: the steward's delighted grin inches from the bridegroom's bewilderment, the wondrous cup held up between them like evidence \u2014 a catering compliment leaving his mouth and beco"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b35",
+   "file": "build-49-water-to-wine/assets/s35-and-that-is-the-line.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "At the feast's lamplit edge Jesus stands half-turned, overhearing the steward's toast across the courtyard \u2014 and on his face the quietest pleasure of the night: the uncredited giver watching his gift praised onto somebod"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b36",
+   "file": "build-49-water-to-wine/assets/s36-not-a-bare-rescue-not.jpeg",
+   "tokens": [
+    "JARS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the alcove the six great stone jars stand brimming still \u2014 six dark surfaces holding the lamplight, a hundred and fifty gallons of the feast's finest deep in ritual stoneware \u2014 more wine than the village could drink i"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b37",
+   "file": "build-49-water-to-wine/assets/s37-something-like-a-hundred-and.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The courtyard runs at full joy again, the camera high at the gate corner looking down the length from behind the last table \u2014 cups refilled down both long tables, the dance ring doubled, the musicians sweating happily th"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b38",
+   "file": "build-49-water-to-wine/assets/s38-that-is-the-god-this.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Back at the long table Jesus sits among the restored celebration \u2014 a neighbour refilling his cup without knowing what he pours, the dance's light crossing his face \u2014 and his own gladness sits plain and unperformed in the"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b39",
+   "file": "build-49-water-to-wine/assets/s39-it-was-to-walk-into.jpeg",
+   "tokens": [
+    "BRIDEGROOM",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the feast's bright centre the young bridegroom dances a slow turn with his bride under the strung lamps \u2014 his myrtle circlet crooked, her laughing face against the music \u2014 the family's name not merely saved but gilded"
+  },
+  {
+   "row": 49,
+   "build": "build-49-water-to-wine",
+   "beat": "v2-r049-b40",
+   "file": "build-49-water-to-wine/assets/s40-his-friends-saw-it-and.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the table's end, close along the row of the friends' faces in the lamplight: the big fisherman's cup stopped halfway to his mouth, the younger brother looking from the wine to the teacher and back, the quiet one simpl"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b01",
+   "file": "build-52-demoniac-synagogue/assets/s01-sabbath-synagogue.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "ELDERS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the bright shafted morning light of the crowded stone hall, the camera at the side aisle taking the room from the side, Jesus has risen to his feet near the scroll chest to teach, calm and plain among them, while the "
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b02",
+   "file": "build-52-demoniac-synagogue/assets/s02-as-they-always-did.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "ELDERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A wide view down the pillared hall: the congregation sits in its long-accustomed places in the morning light, children leaning on parents, old men with eyes closed in familiar half-listening, while at the far end one gre"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b03",
+   "file": "build-52-demoniac-synagogue/assets/s03-taught-with-authority.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "ELDERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus teaches standing, his hands open and moving with the words, speaking straight into the faces before him with nothing to read from \u2014 and the whole hall has come forward off the wall benches, listeners leaning in on "
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b04",
+   "file": "build-52-demoniac-synagogue/assets/s04-the-room-astonished.jpeg",
+   "tokens": [
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close row of listening faces along the stone bench in the window light: a young mother with her child gone still in her lap, a broad farmer with his mouth slightly open, an old man with tears standing in his eyes and n"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b05",
+   "file": "build-52-demoniac-synagogue/assets/s05-a-man-in-the-congregation.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Among the seated congregation, the camera low behind the back rows' shoulders, half in the shadow between two light shafts, the gaunt man sits hunched over his own knees, his ragged grey-brown tunic pulled tight around h"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b06",
+   "file": "build-52-demoniac-synagogue/assets/s06-the-nearness-stirred-it.jpeg",
+   "tokens": [
+    "FREEDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the hunched man: his knuckles have gone white where his fingers dig into his own forearms, sweat stands on his sallow temple, his jaw is clamped and trembling with the effort of holding something down, and his d"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b07",
+   "file": "build-52-demoniac-synagogue/assets/s07-he-rose-up.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The gaunt man has surged rigidly to his feet in the middle of the seated congregation, fists clenched at his sides, spine arched taut, head thrown back with his mouth coming open \u2014 and around him the sabbath calm tears: "
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b08",
+   "file": "build-52-demoniac-synagogue/assets/s08-not-his-own-voice.jpeg",
+   "tokens": [
+    "FREEDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A tight shot of the man's upturned face mid-cry: the cords of his neck stand out, his mouth is torn wide with a shout, and his eyes are the terrible part \u2014 present, human, terrified, watching the words leave his own mout"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b09",
+   "file": "build-52-demoniac-synagogue/assets/s09-let-us-alone.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the length of the pillared hall, the camera at the side wall holding the whole axis in profile, the two of them now face each other: the rigid man mid-cry with the congregation shrinking back off the benches around "
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b10",
+   "file": "build-52-demoniac-synagogue/assets/s10-i-know-thee.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The gaunt man's whole arm is thrust out straight, one shaking finger pointing across the emptied floor at Jesus, his face a knot of terror and compulsion as the words tear out of him \u2014 and Jesus stands in the shaft of wi"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b11",
+   "file": "build-52-demoniac-synagogue/assets/s11-the-room-frozen.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE",
+    "ELDERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole hall holds its breath: worshippers pressed back against the basalt walls and one another, a mother's hand over her child's eyes, the three elders half-risen from the chief bench with their prayer shawls slid to"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b12",
+   "file": "build-52-demoniac-synagogue/assets/s12-the-darkness-said-it-first.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A wide, still composition: Jesus stands at one side in the window light, calm; the trembling gaunt man stands opposite across the cleared floor, spent from the cry, held up by rigidity alone; and packed along the benches"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b13",
+   "file": "build-52-demoniac-synagogue/assets/s13-hold-thy-peace.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the shaft of morning light as he gives the command: his voice is plainly quiet \u2014 the jaw barely moves, the brow is smooth, the warm eyes are steady and utterly certain \u2014 a man telling something t"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b14",
+   "file": "build-52-demoniac-synagogue/assets/s14-no-battle.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Across the cleared floor Jesus stands entirely at rest, his hand already lowered, the command finished \u2014 and the gaunt man has gone rigid as a post in the light shaft, head bowed, fists locked, the last grip of the thing"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b15",
+   "file": "build-52-demoniac-synagogue/assets/s15-it-tore-him-and-left.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The man buckles \u2014 knees giving, back bowing forward, one final cry leaving him with his face screwed shut \u2014 and two broad-shouldered worshippers in dark russet and olive wool have lunged from the bench and caught him und"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b16",
+   "file": "build-52-demoniac-synagogue/assets/s16-it-had-to-go.jpeg",
+   "tokens": [
+    "FREEDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Held gently under the arms by the two worshippers, the gaunt man hangs slack and utterly quiet, chest rising and falling in deep slow breaths, sweat-soaked hair against his brow \u2014 and his eyes are just coming open, unfoc"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b17",
+   "file": "build-52-demoniac-synagogue/assets/s17-and-he-was-free.jpeg",
+   "tokens": [
+    "FREEDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face in the full window light, and it is transformed by subtraction: the clamped jaw loose, the hunted deep-set eyes clear and quiet and his own, the sallow skin already less grey \u2014 the same gaunt face"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b18",
+   "file": "build-52-demoniac-synagogue/assets/s18-himself-again.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the same shaft of morning light where he fell, the man now stands upright on his own feet, unaided, his shoulders down and level for the first time, hands open and loose at his sides \u2014 the two helpers have stepped bac"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b19",
+   "file": "build-52-demoniac-synagogue/assets/s19-like-waking-from-a-dream.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "An older worshipper in deep russet wool has crossed the space no one used to cross and set a weathered hand on the freed man's shoulder \u2014 and the man has turned his cleared eyes to him with the faint unpractised beginnin"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b20",
+   "file": "build-52-demoniac-synagogue/assets/s20-they-turned-to-each-other.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "ELDERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The stone hall has come alive: worshippers turned to one another all along the benches, hands mid-gesture, questions flying \u2014 a farmer gripping his neighbour's arm, two women with their heads together, an old man shaking"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b21",
+   "file": "build-52-demoniac-synagogue/assets/s21-what-thing-is-this.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "ELDERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the foreground the elders and the men around them argue it out with open hands \u2014 one pointing back at the scroll chest, one at the freed man, voices visibly raised \u2014 and every few words their eyes and gestures return "
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b22",
+   "file": "build-52-demoniac-synagogue/assets/s22-an-ordinary-sabbath.jpeg",
+   "tokens": [
+    "FREEDMAN",
+    "SYNAGOGUE",
+    "ELDERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The hall has begun to settle into something new: the freed man now SITS calm and upright on the stone bench in the middle of the congregation \u2014 neighbours pressed close on either side of him where the gap used to be \u2014 hi"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b23",
+   "file": "build-52-demoniac-synagogue/assets/s23-the-news-went-out.jpeg",
+   "tokens": [
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "Outside the synagogue's basalt doorway in full midday light, the camera across the street watching the spill from the side, the congregation spills down the steps into the Capernaum street in knots of animated talk \u2014 a y"
+  },
+  {
+   "row": 52,
+   "build": "build-52-demoniac-synagogue",
+   "beat": "v2-r052-b24",
+   "file": "build-52-demoniac-synagogue/assets/s24-through-all-galilee.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "On a pale road winding between terraced Galilean hills, the camera above the verge taking the walkers in profile, in the afternoon light, a traveller has stopped a family coming the other way and is telling it \u2014 arms wid"
   }
  ]
 }
