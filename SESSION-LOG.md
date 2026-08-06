@@ -49,7 +49,17 @@ BUILT rows, ships one row's files per the brief, and claim-by-push keeps it off
 interactive sessions' rows.
 
 **Verified live:** dry-run correctly skipped claimed rows 42/43 and picked 44;
-first real tick started a headless runner on row 44 at 00:03. Cameron's job is
+first real tick started a headless runner on row 44 at 00:03. That tick exposed
+two bugs, both fixed same-session: (1) HEADLESS LAW — the session backgrounded
+generation and ended its turn "waiting", which kills a headless run; prompt now
+mandates foreground-only, plus a resume-stranded branch; (2) row 44 was a
+wrong-story landmine (QUEUE swapped it to Pentecost 2026-07-23 but the board
+still said two-debtors Ready) — PARKED on the board, and the prompt now
+cross-checks every row against QUEUE before spending. **Widened to 3 PARALLEL
+LANES (Cameron: "it shouldnt take that long")** — cron every 15 min fills up to
+MBM_LANES=3 concurrent builds; claim-by-push keeps lanes apart; stranded-resume
+only fires when zero lanes are live. ETA for the remaining board: under a week
+of uptime at ~25-35 rows/day, same total cost. Cameron's job is
 now ONLY: watch milk-b4-meat.web.app/review.html, approve, or complain. Machine
 must stay on; sleep pauses the loop, wake resumes it. ~8-12 rows/day ≈ $50-80/day
 on the Gemini meter while it runs.

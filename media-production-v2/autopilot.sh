@@ -33,14 +33,25 @@ DRY=0
 mkdir -p "$LOGDIR"
 log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOGDIR/autopilot.log"; }
 
-# --- one build at a time -----------------------------------------------------
-if [ -e "$LOCK" ] && kill -0 "$(cat "$LOCK" 2>/dev/null)" 2>/dev/null; then
-  [ "$DRY" -eq 1 ] && echo "(dry) a build is already running (lock $LOCK)"
+# --- up to LANES builds in parallel (Cameron, 2026-08-06: "it shouldnt take
+# that long") — claim-by-push inside the brief keeps lanes off each other's
+# rows; each tick starts at most ONE new lane so starts stay staggered.
+LANES="${MBM_LANES:-3}"
+LOCKDIR="$V2/.autopilot-lanes"
+mkdir -p "$LOCKDIR"
+LIVE=0
+for f in "$LOCKDIR"/lane-*.pid "$LOCK"; do
+  [ -e "$f" ] || continue
+  if kill -0 "$(cat "$f" 2>/dev/null)" 2>/dev/null; then LIVE=$((LIVE+1)); else rm -f "$f"; fi
+done
+if [ "$LIVE" -ge "$LANES" ]; then
+  [ "$DRY" -eq 1 ] && echo "(dry) all $LANES lanes busy"
   exit 0
 fi
 if [ "$DRY" -eq 0 ]; then
-  echo $$ > "$LOCK"
-  trap 'rm -f "$LOCK"' EXIT
+  SLOT="$LOCKDIR/lane-$$.pid"
+  echo $$ > "$SLOT"
+  trap 'rm -f "$SLOT"' EXIT
 fi
 
 cd "$REPO"
@@ -74,7 +85,11 @@ next_stranded() {
   }' "$BOARD"
 }
 
-STRANDED="$(next_stranded || true)"
+# Only resume a stranded row when NO lanes are live (otherwise the "stranded"
+# row may be another lane's active build). After a crash/reboot, lanes are 0
+# and stranded rows get picked up first.
+STRANDED=""
+[ "$LIVE" -eq 0 ] && STRANDED="$(next_stranded || true)"
 READY="$(next_ready || true)"
 UNAUTHORED="$(next_unauthored || true)"
 

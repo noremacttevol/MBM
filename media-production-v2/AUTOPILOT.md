@@ -7,12 +7,14 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
 
 ## How it works
 
-- A crontab line ticks `media-production-v2/autopilot.sh` at :11 and :41 every
-  hour. Each tick: if a build is already running, do nothing (PID lock);
-  otherwise pull, find the lowest **Ready ✅ / Audio OK / unclaimed** row, and
-  start a FRESH headless Claude session on PROMPT-OPUS-RUNNER.md (model:
-  opus, 2-hour timeout). Fresh session per run = clean context = the "one
-  video per chat" law.
+- A crontab line ticks `media-production-v2/autopilot.sh` every 15 minutes
+  (:03/:18/:33/:48). Each tick: if all lanes are busy, do nothing; otherwise
+  start ONE new lane — a FRESH headless Claude session on
+  PROMPT-OPUS-RUNNER.md (model: opus, 2-hour timeout) on the lowest
+  **Ready ✅ / Audio OK / unclaimed** row. Up to **3 builds run in parallel**
+  (Cameron, 2026-08-06: "it shouldnt take that long" — override with
+  MBM_LANES). Claim-by-push keeps lanes off each other's rows. Fresh session
+  per run = clean context = the "one video per chat" law.
 - If no Ready rows remain but NEEDS-BEATS rows exist, the tick runs an AUTHOR
   session (PROMPT-FABLE5-AUTHOR.md) instead, so the board keeps refilling.
 - Claim-by-push keeps autopilot and any interactive chat off each other's rows.
@@ -20,9 +22,10 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
   budget, $/row logging), deploy + live verification. New videos just appear on
   https://milk-b4-meat.web.app/review.html — Cameron only watches / approves /
   complains.
-- Throughput ≈ one row per 1–2 h while the machine is on ≈ 8–12 rows/day ≈
-  $50–80/day on the Gemini meter, finishing the remaining board in ~2 weeks of
-  uptime. The machine must be ON (sleep pauses it; it resumes on wake).
+- Throughput ≈ 3 rows per 1–2 h while the machine is on ≈ 25–35 rows/day ≈
+  $150–220/day on the Gemini meter, finishing the remaining board in **under a
+  week** of uptime (same total cost as one lane — just faster). The machine
+  must be ON (sleep pauses it; it resumes on wake).
 
 ## Check on it
 
@@ -45,7 +48,7 @@ crontab -l | grep -v 'autopilot.sh' | crontab -
 ## Turn it (back) on
 
 ```bash
-( crontab -l 2>/dev/null | grep -v 'autopilot.sh'; echo '11,41 * * * * /home/noremacttevol/Desktop/MBM/media-production-v2/autopilot.sh >> /home/noremacttevol/Desktop/MBM/media-production-v2/autopilot-logs/cron.log 2>&1' ) | crontab -
+( crontab -l 2>/dev/null | grep -v 'autopilot.sh'; echo '3,18,33,48 * * * * /home/noremacttevol/Desktop/MBM/media-production-v2/autopilot.sh >> /home/noremacttevol/Desktop/MBM/media-production-v2/autopilot-logs/cron.log 2>&1' ) | crontab -
 ```
 
 ## When it's done
