@@ -1,3 +1,31 @@
+## 2026-08-06 (Opus autopilot, 30th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED (GLOBAL), $0 spent, re-parked clean — Machine A `Dev`
+
+Session-chain verified: read SESSION-LOG top (row 48 29th resume park) and confirmed commit
+`82716e4f9` present in `git log`. Hostname `Dev` → Machine A. Directed to RESUME row 48 (State
+RUNNING, Claim A-auto) headless/unattended — did NOT start a new row.
+
+**Row 48 (new-wine-old-bottles) — RE-PROBED AGAIN, STILL BLOCKED, $0.** Pulled clean via
+`--rebase --autostash origin main` (Already up to date). `--check` PASS (35 beats, v4 PASS).
+11/35 stills intact (assets/ s01-s09, s16, s22); 4 plates present; 0 portraits outstanding. Meter
+$409.64 (api-spend.jsonl last line still build-116 at 08:29); ceiling $440.07. Ran the exact
+resume command `python3 v2_gen_api.py build-48-new-wine-old-bottles --ceiling 440.07` →
+`429 RESOURCE_EXHAUSTED "prepayment credits are depleted"` on the FIRST shot (b10 → s10).
+**Thirtieth** consecutive resume blocked by the identical empty-prepayment state — a hard billing
+block, not a transient rate limit (the script's own internal retry fired before surfacing the
+429). **$0 spent** — the 429 fires before any image, so the 11 done frames are untouched (COST LAW
+intact). Re-parked in place (bumped the QC.md top park note to the 30th probe). Row left State
+RUNNING / Claim A-auto; no false BUILT tick — the row is NOT built. Could NOT reach step 7c
+DEPLOY: zero frames generate while billing is empty.
+
+**⛔ THE BLOCK IS GLOBAL, NOT ROW-48-SPECIFIC** (unchanged root cause). Every V2 row's generation
+returns the same depleted-prepayment 429. No headless action can refill an empty prepayment
+balance. **ACTION FOR CAMERON (one action unblocks the whole board):** top up the Gemini
+prepayment at https://ai.studio/projects (billing), then re-run the resume command above (row 48
+finishes free — 11/35 stills never re-pulled). To stop the session bleed until then, PAUSE the
+autopilot by commenting the `autopilot.sh` line in `crontab -e`.
+
+---
+
 ## 2026-08-06 (Opus autopilot, 29th resume, headless) — Row 48 re-probe: Gemini BILLING STILL DEPLETED (GLOBAL), $0 spent, re-parked clean — Machine A `Dev`
 
 Session-chain verified: read SESSION-LOG top (row 48 28th resume park) and confirmed commit
