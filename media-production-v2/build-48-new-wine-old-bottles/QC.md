@@ -46,22 +46,24 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
-## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (34th resume attempt, headless) + ROOT-CAUSE FIX SHIPPED
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (35th resume attempt, headless)
 
 Fresh headless resume. Pulled clean (Already up to date, autostash). `--check` PASSES (35 beats, v4 PASS).
 11/35 stills intact (assets/ s01-s09, s16, s22), 4 plates present, 0 portraits outstanding.
 Meter unchanged at $409.64 (last spend line is still build-116 at 08:29). Recomputed ceiling
 439.46 (meter $409.64 + 24 remaining × 0.134 × 1.5 + 25 concurrency). Ran
 `v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → **429 RESOURCE_EXHAUSTED on
-the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. **$0 spent.** Thirty-fourth
+the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. **$0 spent.** Thirty-fifth
 consecutive resume blocked by the identical empty-prepayment state — a HARD billing block, not a
 rate limit; no automated resume can refill an empty prepayment balance (the script's internal
-retry already fired before surfacing the 429). Row is HARD-BLOCKED on Cameron and cannot advance
-headless. ONLY a billing top-up at https://ai.studio/projects unblocks it; then re-run the resume
-command below (resumes free — the 11 passing frames are never re-pulled) and the runner finishes
-the row unattended through assemble → ship → firebase deploy → BUILT. Row left State RUNNING /
-Claim A-auto. (Note updated in place across the 21st→31st probe to avoid unbounded QC growth —
-full park history preserved below.)
+retry already fired before surfacing the 429; foreground sleep is blocked in this headless shell,
+so the honored retry stands). Row is HARD-BLOCKED on Cameron and cannot advance headless. ONLY a
+billing top-up at https://ai.studio/projects unblocks it; then re-run the resume command below
+(resumes free — the 11 passing frames are never re-pulled) and the runner finishes the row
+unattended through assemble → ship → firebase deploy → BUILT. Row left State RUNNING / Claim
+A-auto. (Note updated in place across the 21st→35th probe to avoid unbounded QC growth — full
+park history preserved below. Circuit breaker in autopilot.sh, shipped on the 34th probe, is what
+stops the cron from spawning further $0 paid ticks while billing is empty; it self-heals on top-up.)
 
 **ROOT-CAUSE FIX THIS SESSION (stop the $0 session bleed):** 30 prior park notes asked Cameron to
 pause the cron by hand; that never happened, so the 10-min autopilot kept spawning fresh Opus
