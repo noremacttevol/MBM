@@ -1,3 +1,35 @@
+## 2026-08-06 (Opus autopilot) — Row 85 shepherds-and-angels SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 84's park/claim commit `8ce94fa40` (verified in `git log` at
+session start). Ran the PARALLEL-LANES loop, lowest Ready ✅ empty-claim row
+first; every RUNNING sibling (48/60/61/62/63/81/84) left untouched.
+
+**Row 85 (Shepherds and angels, Luke 2:8-19) — SHIPPED + DEPLOYED.** Audio
+pre-flighted BEFORE any spend (this range is a NEEDS-AUDIO minefield): V1 mp4
+newer than all 27 mp3s (0 newer), |timeline 149.667s − V1 148.793s| = 0.87s
+under the 1.0 tolerance → no STALE-V1 risk. `--check` PASS (23 beats), no open
+complaints (`v2_outline.py 85` clean). This row SETS the library's angel canon
+and held it: angels are REAL plain-robed figures in pale grey-white, feet on
+the ground, NO wings/halos; the heavenly host (s08/s11) is rank-upon-rank of
+INDIVIDUAL robed people in a bright sky, never a swirl of light; the terror
+blaze (s12) and s08 are WHITE light from above. STABLE plate promoted-first
+from THIS row's own b16 (deep-night limestone cave, newborn only); FIELD reused
+free from build-25; ANGEL + JOSEPH portraits generated. No adult Christ
+anywhere → the reserved cream robe appears nowhere. Sheep correctly left in the
+field when the men run (s15). Realistic photography throughout, ZERO
+cartoon/mixed frames. AUDIO LOCK PASS `SHA256=0792e917…`, 20.4 MB / 148.8 s.
+Commits `3d9a60354` (ship) + reviewer card/SESSION-LOG. Firebase deployed +
+live-verified.
+
+**Cost/quality:** **1 reroll of 23 (4.3%)**, well under the 15% budget →
+supports the COST LAW downtrend. Reroll: b04 came back a daytime/sunset take
+(TIME-OF-DAY fail), one redo restored deep night. Row ≈ **$3.48** (23 stills +
+2 portraits + 1 reroll), well under the $6.10 average. FIX-WAVE logged (not
+rerolled, cost-law): s03/s05 show 3 shepherds not 4; ANGEL hair drifts
+blond↔dark; s09 glory-light golden vs the row-canon white.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 81 render-unto-caesar SHIPPED + DEPLOYED; row 80 parked NEEDS-AUDIO — Machine A `Dev`
 
 Chained from row 72 (its SESSION-LOG entry + commit `417bfb4b6`/`8129f1a68`
