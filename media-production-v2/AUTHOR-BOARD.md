@@ -79,7 +79,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 65 | build-65-help-mine-unbelief | BUILT | 36 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 66 | build-66-malchus-ear | BUILT | 29 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 67 | build-67-the-transfiguration | BUILT | 16 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 68 | build-68-multitudes-mountain | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
+| 68 | build-68-multitudes-mountain | BUILT | 35 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 69 | build-69-baptism | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 70 | build-70-temptations | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED: open complaint "narrator spells 'I-S' (caps IS in n2); mispronounced 'proceedeth'" is an AUDIO RE-VOICE — runner ships byte-identical V1 narration and cannot fix it (SPOKEN dict empty). See QC.md RUNNER PARK. |  |
 | 71 | build-71-the-great-commission | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |

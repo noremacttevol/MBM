@@ -43,3 +43,39 @@ the path, then down it.
 - Crowd variety (90/107); burdens varied; no giant Jesus among seated
   crowds (56/69/83/107/112).
 - Only Jesus wears cream.
+
+---
+
+## RUNNER SHIP LOG — 2026-08-06 (Opus autopilot, Machine A `Dev`)
+
+Built end to end V2 REALISTIC. `v2_prompt.py --check` PASS before first credit.
+35 painted stills @ native 2K (V1 had 9). 2 story-cast portraits (PLANKMAN +
+MUTEWOMAN). MOUNTAIN plate: `--wire` auto-suggested build-47's sermon mount,
+which THIS QC forbids (distinct third mountain) — cleared PLACE-WIRING.json,
+generated b03 anchor, eyeballed (Galilee slope over-the-shoulder from Jesus,
+first-century village + boats — right world), promoted it; 28 beats copied it.
+
+**COMPLAINT LEDGER:** none open. `v2_outline.py 68` shows no Cameron complaint
+(prior state was "BUILT L1 … Awaiting your yes"). Judged against all 14 rubric
+lessons + every RUNNER-LESSONS pattern. Realistic photography throughout, zero
+cartoon/mixed frames (Law 14). Only Jesus in cream. Scale gate PASS (Jesus
+ordinary-sized in every crowd wide — s09/s12/s19/s20/s21/s26/s28/s34). Beard
+board PASS. Plankman arc reads: carried UP on the board (s05) → laid at the feet
+(s09/s13) → WALKING DOWN on his own legs while the EMPTY plank is carried behind
+(s18). Three-day camp ages (fire-rings blacken s26→s27). Jesus alone on the
+ledge on the establishing solitude (s01/s02/s16/s32 — phantom-people trap
+avoided).
+
+**Cost/reroll (COST LAW):** 1 reroll of 35 beats = **2.9%** (budget 15%). Reroll
+was b30 (`no-names`) — first take came back with MODERN TOURISTS in the crowd
+(ballcaps, sunglasses, backpacks, windbreakers, a lanyard) = modern-object fail;
+one redo landed an all-period first-century crowd. 35 stills + 2 portraits + 1
+reroll ≈ **$5.09 for the row** (meter $325.75 → $332.59), under the $6.10 running
+average — cost trend keeps going DOWN (place reused-from-self, 2 portraits, 1
+reroll). No FIX-WAVE items. Jesus's green/hazel eye in close-ups (s13/s29/s31) is
+the baked JESUS-V2-REF trait — NOT rerolled (RUNNER-LESSONS: systemic, all 200).
+
+**Audio:** `AUDIO LOCK PASS` SHA256 895283bf35c8cc59… — nothing re-voiced, V1
+audio byte-identical. matt-15_multitudes-mountain.mp4, 21.3 MB, 206.7 s.
+Caption QC on the rendered mp4 (t=16/105/202): captions bottom-band only,
+closing reflection card clean (no box glyphs).
