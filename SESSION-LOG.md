@@ -19,7 +19,7 @@ or deploy. **This row is HARD-BLOCKED on Cameron: only a billing top-up will mov
 CAMERON: top up Gemini prepayment billing at https://ai.studio/projects, then re-run the resume
 command in the QC.md — it resumes free and finishes the row unattended.**
 
-Commit: PENDING
+Commit: eab3694b9
 
 ---
 
