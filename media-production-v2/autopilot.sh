@@ -36,7 +36,7 @@ log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOGDIR/autopilot.log"; }
 # --- up to LANES builds in parallel (Cameron, 2026-08-06: "it shouldnt take
 # that long") — claim-by-push inside the brief keeps lanes off each other's
 # rows; each tick starts at most ONE new lane so starts stay staggered.
-LANES="${MBM_LANES:-3}"
+LANES="${MBM_LANES:-6}"
 LOCKDIR="$V2/.autopilot-lanes"
 mkdir -p "$LOCKDIR"
 LIVE=0

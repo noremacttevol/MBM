@@ -7,14 +7,14 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
 
 ## How it works
 
-- A crontab line ticks `media-production-v2/autopilot.sh` every 15 minutes
-  (:03/:18/:33/:48). Each tick: if all lanes are busy, do nothing; otherwise
-  start ONE new lane — a FRESH headless Claude session on
-  PROMPT-OPUS-RUNNER.md (model: opus, 2-hour timeout) on the lowest
-  **Ready ✅ / Audio OK / unclaimed** row. Up to **3 builds run in parallel**
-  (Cameron, 2026-08-06: "it shouldnt take that long" — override with
-  MBM_LANES). Claim-by-push keeps lanes off each other's rows. Fresh session
-  per run = clean context = the "one video per chat" law.
+- A crontab line ticks `media-production-v2/autopilot.sh` every 10 minutes.
+  Each tick: if all lanes are busy, do nothing; otherwise start ONE new lane —
+  a FRESH headless Claude session on PROMPT-OPUS-RUNNER.md (model: opus,
+  2-hour timeout) on the lowest **Ready ✅ / Audio OK / unclaimed** row. Up to
+  **6 builds run in parallel** (Cameron, 2026-08-06: "it should take less than
+  24 hours" — override with MBM_LANES). Claim-by-push keeps lanes off each
+  other's rows. Fresh session per run = clean context = the "one video per
+  chat" law.
 - If no Ready rows remain but NEEDS-BEATS rows exist, the tick runs an AUTHOR
   session (PROMPT-FABLE5-AUTHOR.md) instead, so the board keeps refilling.
 - Claim-by-push keeps autopilot and any interactive chat off each other's rows.
@@ -22,10 +22,16 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
   budget, $/row logging), deploy + live verification. New videos just appear on
   https://milk-b4-meat.web.app/review.html — Cameron only watches / approves /
   complains.
-- Throughput ≈ 3 rows per 1–2 h while the machine is on ≈ 25–35 rows/day ≈
-  $150–220/day on the Gemini meter, finishing the remaining board in **under a
-  week** of uptime (same total cost as one lane — just faster). The machine
-  must be ON (sleep pauses it; it resumes on wake).
+- Throughput at 6 lanes ≈ 4–8 rows/hour: the ~115 already-authored Ready rows
+  finish in roughly **15–24 hours** of uptime. The ~39 not-yet-authored rows
+  (162–200) queue behind author lanes and follow. Same total Gemini cost —
+  just compressed. Rate-limit 429s on either API slow it gracefully (sessions
+  park with a resume note; the stranded-resume branch picks them up). The
+  machine must be ON (sleep pauses it; it resumes on wake).
+- **Cross-session learning:** every session must read `RUNNER-LESSONS.md`
+  (shared defect memory) before QC and append any new defect class it finds;
+  after every ship it re-runs `v2_stash.py --scan` so finished pictures are
+  reused by later rows instead of re-bought.
 
 ## Check on it
 

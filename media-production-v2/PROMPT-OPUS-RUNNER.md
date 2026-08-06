@@ -54,10 +54,12 @@ no obvious garbage."
    and continue — the remaining beats of that place copy it.
 4. **Generate:** `python3 media-production-v2/v2_gen_api.py <build> --ceiling …`
    (it resumes automatically; sub-2K and missing frames re-pull until done).
-5. **Light QC — one pass, capped.** View each frame ONCE against its beat's
-   `must_show` / `must_not_show`, the row's open complaints, and the quick
-   mechanical lessons (beards — lesson 13; figure scale — lesson 14; modern
-   objects; anatomy). Reroll ONLY obvious garbage: missing named subject, a
+5. **Light QC — one pass, capped.** First read `RUNNER-LESSONS.md` (the shared
+   defect memory — it grows; read all of it). View each frame ONCE against its
+   beat's `must_show` / `must_not_show`, the row's open complaints, every
+   RUNNER-LESSONS pattern, and the quick mechanical lessons (beards — lesson
+   13; figure scale — lesson 14; modern objects; anatomy). QC the plate/anchor
+   frame FIRST and hardest — its defects propagate to every beat of that place. Reroll ONLY obvious garbage: missing named subject, a
    second cream-robed figure, a modern object, someone staring into the lens,
    anatomy visibly wrong, wrong count the narration names, a frame that repeats
    an open complaint. Max TWO rerolls per frame (`--only <beat> --redo
@@ -98,7 +100,14 @@ no obvious garbage."
       `curl -s https://milk-b4-meat.web.app/review.html | grep -o 'id="vNN"[^>]*data-hash="[^"]*"'`
       and confirm the mp4 URL returns HTTP 200 with a real content-length.
       A row is not shipped until the live page carries the new hash.
-8. Tick `Built` on the QUEUE row. Clear nothing else. Next row.
+8. **Feed the memory (the LEARNING + COST laws in one step):**
+   a. Run `python3 media-production-v2/v2_stash.py --scan` and commit
+      STASH-INDEX.json — the row's passing stills are now reusable plates for
+      every later row. Never let the reuse index go stale behind your ship.
+   b. If this row surfaced ANY defect class not already in `RUNNER-LESSONS.md`
+      (even one you rerolled away), append it as one line and commit — one
+      session's mistake must never be repeated on another session's meter.
+9. Tick `Built` on the QUEUE row. Clear nothing else. Next row.
 
 ## Session pacing
 
