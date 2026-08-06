@@ -47,3 +47,45 @@ anyone to a solo frame, reject.
   54's leper wilds and row 59's Decapolis slope (three wildernesses,
   three plates — never cross them).
 - Only Jesus wears cream.
+
+---
+
+## 🅿️ RUNNER PARK — A-auto Machine A, 2026-08-06 (AUDIO RE-VOICE, out of runner scope)
+
+**Do NOT build this row until the narration is re-voiced.** The lowest-Ready
+runner reached row 70 and stopped here on the LEARNING LAW.
+
+**Open reviewer complaint (from `v2_outline.py 70`):**
+> "The narrator spells out 'I-S' instead of pronouncing the word like it should.
+> Also it mispronounced 'proceedeth' it should be pro-see-duhth"
+
+**Why the runner cannot fix it.** The V2 pipeline ships **byte-identical V1
+narration** (v2_assemble.py AUDIO LOCK assembles from the existing mp3s; nothing
+is re-voiced or resynthesised). The two defects are baked into those mp3s:
+
+1. `make_narration.py` segment **n2** narration source contains all-caps
+   **"this IS my Son"** — the TTS reads the emphasis-caps token `IS` as the
+   letters *I-S*. The build's local override dict is **`SPOKEN = {}` (empty)**,
+   so nothing respells it. (The lowercase `if`/`is` in the same line are fine;
+   only the caps `IS` breaks.)
+2. Segment **j1** `"...every word that proceedeth out of the mouth of God."` has
+   **no pronunciation override** for `proceedeth` → the voice mispronounces it.
+
+Fixing either one requires **regenerating the narration mp3s** (add a build-local
+`SPOKEN` / pronounce override: caps `IS`→`is` respell, `proceedeth`→a `pro-SEE-duhth`
+respell, then re-run `make_narration.py` and re-hash the AUDIO LOCK). That is a
+re-voice — outside the runner's allowed writes (art / QC / boards / log / review /
+mp4 only) and the exact class that parked rows 50 and 51.
+
+**Resume (author/audio track, NOT the runner):**
+1. In `build-70-temptations/make_narration.py` add:
+   `SPOKEN = {"IS": "is", "proceedeth": "pro-SEE-duhth"}` (tune the proceedeth
+   respell against the voice with `mbm_pronounce.audit`; verify caps-IS is only in
+   n2 — grep confirms it is).
+2. Re-generate n2 + j1 (or the whole track), re-establish the AUDIO LOCK source,
+   ear-check both segments (`I-S`→"is"; proceedeth = pro-SEE-duhth), set
+   AUTHOR-BOARD Audio back to **OK** + Ready **✅**.
+3. Runner then builds normally: `v2_prompt.py build-70-temptations --check` already
+   PASSES (42 beats); art has not been generated yet, so no spend was wasted.
+
+Nothing was generated and no credit was spent on row 70 this session.
