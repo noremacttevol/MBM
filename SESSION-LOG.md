@@ -1,3 +1,28 @@
+## 2026-08-06 — AUTOPILOT INSTALLED: the loop that builds until all 200 are done (Cameron: "is there any way we can make this into a loop process until its done?") — Machine A `Dev`
+
+**What now exists:** `media-production-v2/autopilot.sh` + a crontab line ticking
+it at :11/:41. Each tick: PID lock (one build at a time) → pull → lowest
+Ready ✅/Audio OK/unclaimed AUTHOR-BOARD row → fresh HEADLESS Opus session on
+PROMPT-OPUS-RUNNER.md (2-h timeout, laws travel with the brief: complaint
+ledger, reroll budget, deploy + live verify). No Ready rows → it runs an AUTHOR
+session on the NEEDS-BEATS frontier instead. Whole board BUILT → ticks log
+"ALL ROWS BUILT" and do nothing. Docs: `media-production-v2/AUTOPILOT.md`
+(status / stop / restart one-liners).
+
+**Why V2 can loop when V1 couldn't:** no Chrome/Flow step — the entire build is
+API + local files, so unattended is safe end to end. The 2026-07-28 crontab
+disaster (stale loop rebuilding known-bad cuts, 11 GB pushes) is designed out:
+autopilot only builds rows the author explicitly marked Ready, never re-touches
+BUILT rows, ships one row's files per the brief, and claim-by-push keeps it off
+interactive sessions' rows.
+
+**Verified live:** dry-run correctly skipped claimed rows 42/43 and picked 44;
+first real tick started a headless runner on row 44 at 00:03. Cameron's job is
+now ONLY: watch milk-b4-meat.web.app/review.html, approve, or complain. Machine
+must stay on; sleep pauses the loop, wake resumes it. ~8-12 rows/day ≈ $50-80/day
+on the Gemini meter while it runs.
+- Commit: (this commit)
+
 ## 2026-08-05 — PRODUCTION AUDIT + three new laws written (Cameron: "why am I not getting my 200"; "only 1 machine now"; "the cost should get cheaper") — Machine A `Dev`
 
 **The audit, measured (not from memory):** $231.95 spent = 1,731 Gemini images
