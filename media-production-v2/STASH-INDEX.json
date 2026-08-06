@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 05:36:08",
+ "scanned": "2026-08-06 05:42:37",
  "entries": [
   {
    "row": 1,
@@ -32480,6 +32480,514 @@
    "night": false,
    "n_person": 1,
    "scene": "The whole small room holds the one word's after-silence: Jesus seated calm on the platform, the congregation's faces fastened and unbreathing down both benches, the angled morning shafts standing in the quiet air \u2014 Nazar"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b01",
+   "file": "build-75-woman-taken-in-adultery/assets/s01-early-morning-at-the-temple.jpeg",
+   "tokens": [
+    "WOMAN",
+    "ACCUSERS",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The long low morning light rakes the court, the camera behind the seated listeners' shoulders as the temple court where Jesus sits teaching on the low step \u2014 and the lesson splits open: a dense knot of fine-robed men sho"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b02",
+   "file": "build-75-woman-taken-in-adultery/assets/s02-they-stood-her-in-the.jpeg",
+   "tokens": [
+    "WOMAN",
+    "ACCUSERS",
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the court's centre, the camera outside the ring behind the accusers' dark backs, the circle closes: the woman placed alone on the pale flagstones with the staring ring shutting around her \u2014 accusers at the front with "
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b03",
+   "file": "build-75-woman-taken-in-adultery/assets/s03-they-had-caught-her-they.jpeg",
+   "tokens": [
+    "ACCUSERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the lead accuser mid-declaration: the charge going out at public volume, one arm flung back toward the huddled woman, his fine-robed chest expanded with the case's strength \u2014 and in the corners of the correct fa"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b04",
+   "file": "build-75-woman-taken-in-adultery/assets/s04-and-then-they-turned-to.jpeg",
+   "tokens": [
+    "WOMAN",
+    "ACCUSERS",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "As one the accusers' faces pivot \u2014 off the huddled woman and onto the seated teacher \u2014 the whole knot's attention swinging like a weathervane to its true north: stones still gripped, the charge still echoing, but every e"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b05",
+   "file": "build-75-woman-taken-in-adultery/assets/s05-master-this-woman-was-taken.jpeg",
+   "tokens": [
+    "WOMAN",
+    "ACCUSERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The formal charge goes out word by public word \u2014 the accuser's arm rigid toward her, his voice's volume visible in the cords of his neck \u2014 and at the point's far end the woman flinches minutely at each landing syllable, "
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b06",
+   "file": "build-75-woman-taken-in-adultery/assets/s06-now-moses-in-the-law.jpeg",
+   "tokens": [
+    "ACCUSERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "With the citation the evidence rises: a fist-sized stone lifted slightly in a fine-sleeved grip as Moses is invoked \u2014 the law's name and the rock's weight presented together, courteous as a contract \u2014 while around the sp"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b07",
+   "file": "build-75-woman-taken-in-adultery/assets/s07-it-was-a-trap.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in the raking light: a hunter's simple snare staked in the dust \u2014 the loop set, the trigger-stick balanced, the whole patient geometry of capture waiting in plain view for anything that answers its one ques"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b08",
+   "file": "build-75-woman-taken-in-adultery/assets/s08-say-stone-her-and-just.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The question hangs and Jesus gives it nothing: seated on the low step in the long light, hands loose, face quiet, the silence stretching one breath past comfortable and then another \u2014 the accusers' coiled waiting beginni"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b09",
+   "file": "build-75-woman-taken-in-adultery/assets/s09-he-bent-down-and-wrote.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus stoops from the step and writes: one finger tracing slow deliberate marks in the wind-drifted dust along the flagstone seams \u2014 strokes the frame keeps as strokes, abstract and private as scripture left them \u2014 while"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b10",
+   "file": "build-75-woman-taken-in-adultery/assets/s10-he-that-is-without-sin.jpeg",
+   "tokens": [
+    "WOMAN",
+    "ACCUSERS",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Risen now to his feet Jesus gives the sentence level across the court \u2014 one condition, spoken at the calm of settled law \u2014 and it lands on the arsenal fist by fist: the lifted stone sinking an inch, a grip loosening at t"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b11",
+   "file": "build-75-woman-taken-in-adultery/assets/s11-whichever-one-of-you-has.jpeg",
+   "tokens": [
+    "ACCUSERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus's open hand turns in the formal gesture of invitation \u2014 the direction clear, the floor yielded, the first throw officially available to any qualified applicant \u2014 and the knot of accusers stands in the long light ho"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b12",
+   "file": "build-75-woman-taken-in-adultery/assets/s12-he-just-handed-the-first.jpeg",
+   "tokens": [
+    "ACCUSERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Extreme close in the raking light: one fist-sized stone in a fine-sleeved grip \u2014 and the grip failing by degrees, the white knuckles pinking as they loosen, the stone's weight doubling in a hand that arrived certain \u2014 a "
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b13",
+   "file": "build-75-woman-taken-in-adultery/assets/s13-say-let-her-go-and.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The still-life completes its trap: beside the staked snare in the dust an opened scroll of the law lies weighted flat, its dense columns holding the commandment \u2014 the dilemma's two jaws arranged in one frame: cite the sc"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b14",
+   "file": "build-75-woman-taken-in-adultery/assets/s14-and-they-which-heard-it.jpeg",
+   "tokens": [
+    "WOMAN",
+    "ACCUSERS",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The exodus begins where scripture says, the camera at the court's side so every departure crosses in profile: the tall white-bearded eldest turns away first \u2014 his stone set down on the flagstones with an old man's care, "
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b15",
+   "file": "build-75-woman-taken-in-adultery/assets/s15-and-he-bent-down-and.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus stoops to the dust a second time \u2014 finger tracing its private strokes along the flagstone seam, his face turned down and away from everyone \u2014 and the posture does its double mercy: the departing men leave unwatched"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b16",
+   "file": "build-75-woman-taken-in-adultery/assets/s16-they-dropped-their-stones-and.jpeg",
+   "tokens": [
+    "COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The court empties to its evidence: across the pale flagstones the dropped stones lie scattered each where its holder stood \u2014 a rough circle of abandoned verdicts mapping the vanished crowd \u2014 while at the colonnade's far "
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b17",
+   "file": "build-75-woman-taken-in-adultery/assets/s17-woman-where-are-those-thine.jpeg",
+   "tokens": [
+    "WOMAN",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the emptied court, the camera low from the side so the space between them reads whole, the two stand in acres of morning light: the woman still at the midst where they set her, mantle fisted, hardly believing the sile"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b18",
+   "file": "build-75-woman-taken-in-adultery/assets/s18-no-man-lord-where-are.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the woman's face as it lifts for the first time: the terror-hollowed features finding, in the emptied morning, that her voice still works \u2014 the three words leaving her small and steadying, 'No man, Lord' \u2014 spoke"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b19",
+   "file": "build-75-woman-taken-in-adultery/assets/s19-has-no-one-condemned-you.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At conversing distance the two faces hold: his carrying the question with the gentleness of a man helping someone count survivors \u2014 and hers doing the count: the circle gone, the stones grounded, the sentence unexecuted "
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b20",
+   "file": "build-75-woman-taken-in-adultery/assets/s20-three-words-the-only-three.jpeg",
+   "tokens": [
+    "WOMAN",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The woman stands at her full height in the morning court \u2014 the hunch gone out of her shoulders, the mantle settled and released from her fist, her loose hair pushed back from a face still wet but level \u2014 upright at the e"
+  },
+  {
+   "row": 75,
+   "build": "build-75-woman-taken-in-adultery",
+   "beat": "v2-r075-b21",
+   "file": "build-75-woman-taken-in-adultery/assets/s21-neither-do-i-condemn-thee.jpeg",
+   "tokens": [
+    "WOMAN",
+    "COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sending and the hush hold the last frame together: the woman turning free toward the colonnade with the words still settling over her \u2014 go, and sin no more \u2014 her step new and her spine carrying the morning's impossib"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b01",
+   "file": "build-76-suffer-the-little-children/assets/s01-parents-were-bringing-their-little.jpeg",
+   "tokens": [
+    "FAMILIES",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the golden road, the camera off the verge taking the converging walks in profile, the families come converging on the olive tree's shade \u2014 a young mother with her baby in its arm-sling, a father with a toddler ridin"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b02",
+   "file": "build-76-suffer-the-little-children/assets/s02-and-they-brought-young-children.jpeg",
+   "tokens": [
+    "FAMILIES",
+    "ROADSIDE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Between the families and the olive shade, the camera at the roadside so the barricade line reads in profile, shade two disciples have planted themselves \u2014 arms out, palms pushing air, the officious geometry of men guardi"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b03",
+   "file": "build-76-suffer-the-little-children/assets/s03-that-old-word-suffer-just.jpeg",
+   "tokens": [
+    "ROADSIDE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A small still in the golden light: the field-gate in the dry-stone wall standing fully open on its worn post \u2014 no latch dropped, no bar across, the way through as wide as the gate can make it \u2014 the old word's whole meani"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b04",
+   "file": "build-76-suffer-the-little-children/assets/s04-the-disciples-tried-to-wave.jpeg",
+   "tokens": [
+    "FAMILIES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close at the barricade: a disciple's big fisherman hands making their shooing motion \u2014 busy, busy, not now \u2014 and below the gesture's wind the shy boy in dusty indigo retreats behind his mother's legs, one eye and one fis"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b05",
+   "file": "build-76-suffer-the-little-children/assets/s05-and-mark-does-not-soften.jpeg",
+   "tokens": [
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the olive shade: the warmth going stern in real time \u2014 brows drawing, jaw setting, the eyes fixed past the camera on the wave-off in progress \u2014 Mark's unsoftened word arriving on the locked featu"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b06",
+   "file": "build-76-suffer-the-little-children/assets/s06-but-when-jesus-saw-it.jpeg",
+   "tokens": [
+    "FAMILIES",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus is up off the sitting-stone and moving \u2014 the correction already in the air ahead of him \u2014 and the two barricading disciples turn to its arrival with their shooing hands dying mid-gesture: the busy schedule they wer"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b07",
+   "file": "build-76-suffer-the-little-children/assets/s07-suffer-the-little-children-to.jpeg",
+   "tokens": [
+    "FAMILIES",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sentence and the opening arms arrive together: Jesus's arms spreading wide toward the checked families as the words carry down the road \u2014 the disciples stepping back out of a barricade that has just been overruled \u2014 "
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b08",
+   "file": "build-76-suffer-the-little-children/assets/s08-let-them-come-stand-in.jpeg",
+   "tokens": [
+    "FAMILIES",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The way stands cleared, the camera behind the stepped-aside disciples: children streaming down the open golden road toward the olive shade \u2014 the twins hand in hand at a trot, the toddler set down and wobbling determinedl"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b09",
+   "file": "build-76-suffer-the-little-children/assets/s09-then-he-went-further.jpeg",
+   "tokens": [
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the deep gold: the welcome's warmth still full on his face and something further gathering behind it \u2014 the eyes lifting from the children pooling around his knees to the watching ring of adults, a teach"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b10",
+   "file": "build-76-suffer-the-little-children/assets/s10-verily-i-say-unto-you.jpeg",
+   "tokens": [
+    "FAMILIES",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Over the heads of the children pooled at his knees Jesus gives the adults their doctrine \u2014 the ring of parents and corrected disciples receiving it standing, the reversal landing on grown faces one by one \u2014 while its liv"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b11",
+   "file": "build-76-suffer-the-little-children/assets/s11-he-meant-nobody-earns-their.jpeg",
+   "tokens": [
+    "FAMILIES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the golden light: a small child's two hands lifted open and empty \u2014 palms up, fingers spread, dirty from the road and holding absolutely nothing \u2014 raised in the universal posture of small people who expect to be"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b12",
+   "file": "build-76-suffer-the-little-children/assets/s12-you-receive-it-the-way.jpeg",
+   "tokens": [
+    "FAMILIES",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The blessing begins with full arms: the bold girl in madder-red taken up and settled on Jesus's arm like she has lived there always, his free hand resting on one twin's dark head \u2014 the toddler hauling himself up by a han"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b13",
+   "file": "build-76-suffer-the-little-children/assets/s13-but-he-saw-them-do.jpeg",
+   "tokens": [
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "From the sitting-stone Jesus's eyes catch it mid-gesture \u2014 the shooing hands, the checked families, the shy boy's retreat behind his mother's legs \u2014 the whole small injustice arriving in his gaze complete and instantly w"
+  },
+  {
+   "row": 76,
+   "build": "build-76-suffer-the-little-children",
+   "beat": "v2-r076-b14",
+   "file": "build-76-suffer-the-little-children/assets/s14-then-he-gathered-them-up.jpeg",
+   "tokens": [
+    "FAMILIES",
+    "ROADSIDE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The day's deepest gold, the camera low behind the waiting families' shoulders, holds the unhurried blessing: Jesus seated again on the flat stone with a child on each knee and the line of small heads waiting their easy t"
   }
  ]
 }
