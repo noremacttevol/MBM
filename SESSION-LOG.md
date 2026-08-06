@@ -25,7 +25,7 @@ QC.md (resumes free, finishes unattended). PLEASE PAUSE the row-48 resume loop u
 sessions burned on an unfixable state is itself a COST-LAW concern; no automated resume can refill
 an empty prepayment balance.**
 
-Commit: PENDING
+Commit: 210b7231147169f1005b0ad315771af0366666c5
 
 ---
 
