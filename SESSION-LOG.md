@@ -21,7 +21,7 @@ on Cameron: no further headless resume can move it — only a billing top-up wil
 CAMERON: top up Gemini prepayment billing at https://ai.studio/projects, then re-run the resume
 command in the QC.md — it resumes free and finishes the row unattended.**
 
-Commit: PENDING-19TH
+Commit: 603b1b43c
 
 ---
 
