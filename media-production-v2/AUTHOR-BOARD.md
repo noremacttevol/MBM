@@ -73,7 +73,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 59 | build-59-feeding-4000 | BUILT | 27 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 60 | build-60-gerasene-demoniac | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 61 | build-61-syrophoenician-woman | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
-| 62 | build-62-ephphatha | AUTHORED | 0 | OK |  | ✅ |
+| 62 | build-62-ephphatha | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 63 | build-63-man-born-blind | AUTHORED | 0 | OK |  | ✅ |
 | 64 | build-64-pool-of-bethesda | AUTHORED | 0 | OK |  | ✅ |
 | 65 | build-65-help-mine-unbelief | AUTHORED | 0 | OK |  | ✅ |
