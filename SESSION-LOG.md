@@ -1,3 +1,34 @@
+## 2026-08-06 (Opus autopilot) — Row 116 claim RELEASED — Gemini BILLING DEPLETED (global block, $0) — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (row 111 lilies-and-sparrows
+SHIPPED) and confirmed commit `be57728a9` in `git log -5` (also 7bf949732,
+866430aa2, 5a0b27f66). Ran the PARALLEL-LANES loop: lowest Ready ✅ empty-claim
+row first = **row 116 (Graven on his palms, Isaiah 49:14-16)**; every RUNNING
+sibling (48/60/61/62/63/84/112/114/115) left untouched.
+
+**Row 116 — CLAIMED, then RELEASED at $0. BLOCKER: Gemini API prepayment credits
+DEPLETED.** This is a GLOBAL stop, not row-specific — every row is blocked.
+- Cross-checked QUEUE row 116 (Isa 49, not swapped). LEARNING LAW done: read both
+  META-LAWS + all 14 numbered rubric lessons + all of RUNNER-LESSONS.md; ran
+  `v2_outline.py 116` → **no open complaints** (COMPLAINT LEDGER: none open).
+  `v2_prompt.py --check` PASS (21 beats, 0 WARN).
+- First paid call (`v2_story_cast.py` → WOMAN portrait) returned
+  `429 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted."` Retried once
+  after 65 s per the brief; identical error. NOT a rate limit that auto-reloads —
+  depleted PREPAYMENT credit. Nothing generated, **$0 spent, 0% rerolls** (no
+  images to reroll). No meter movement; api-spend.jsonl untouched by this lane.
+- Parked clean: QC.md carries the RUNNER PARK note + resume command; claim
+  reverted (AUTHOR-BOARD 116 → AUTHORED/empty, QUEUE note = "claim RELEASED $0
+  billing depleted"), so a post-topup session takes the row clean.
+
+**ACTION FOR CAMERON:** top up the Gemini key at https://ai.studio/projects
+(billing → prepay). Until then NO autopilot lane can generate — all will hit the
+same 429. Once topped up, any session running PROMPT-OPUS-RUNNER.md resumes from
+row 116 automatically.
+
+Cost this session: $0.00 / row, 0% rerolls (nothing built) — against the running
+average $6.10/row, 19% rerolls. Trend intact (no spend).
+
 ## 2026-08-06 (Opus autopilot) — Row 111 lilies-and-sparrows SHIPPED + DEPLOYED — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (rows 102+107 post-ship

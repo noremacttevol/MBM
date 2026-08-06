@@ -34,3 +34,27 @@ height). Four flips.
 - Dusk → first gold → full morning: the light IS the promise's arc.
 - ENGRAVER/MOTHER are cast tokens — no plates; CITY promote-first
   from b04.
+
+---
+
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING DEPLETED ($0 spent)
+
+**BLOCKER (GLOBAL, not row-specific):** the Gemini API returns
+`429 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted"` on the very
+first portrait call. Retried once after 65 s per the brief; identical error.
+This is NOT a rate limit that auto-reloads — it is depleted PREPAYMENT credit
+and blocks EVERY row until Cameron tops up billing at
+https://ai.studio/projects (Google AI Studio → billing → prepay).
+
+- $0 spent this session (429 fired before any image generated; nothing to reuse/regen).
+- Row 116 is untouched: claim reverted to AUTHORED / Ready ✅ / empty claim so
+  the next session (post-topup) can take it clean.
+- COMPLAINT LEDGER: none open (v2_outline.py 116 shows no complaints).
+- Author QC intact: CITY plate promote-first from b04; ENGRAVER/MOTHER cast tokens.
+
+**RESUME (after Cameron tops up Gemini billing):**
+```
+python3 media-production-v2/v2_story_cast.py build-116-graven-on-his-palms --ceiling <meter+~0.6>
+python3 media-production-v2/v2_gen_api.py build-116-graven-on-his-palms --ceiling <meter+(21 beats+1 portrait)*0.134*1.5+25>
+# then promote CITY from b04, QC, assemble, ship per PROMPT-OPUS-RUNNER.md
+```
