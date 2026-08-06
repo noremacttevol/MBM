@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 05:42:37",
+ "scanned": "2026-08-06 05:46:43",
  "entries": [
   {
    "row": 1,
@@ -32230,6 +32230,600 @@
    "night": false,
    "n_person": 1,
    "scene": "The summit meadow stands empty in the full morning \u2014 the grass still holding eleven flattened places in its circle \u2014 and below, on every descending path, the small dark figures grow smaller toward the lake, the valleys, "
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b01",
+   "file": "build-72-calling-matthew/assets/s01-there-was-one-job-in.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the road's edge under the faded awning Matthew sits at his plank table in the bright morning \u2014 money box at his elbow, brass scales balanced, wax tablets racked \u2014 while the road's traffic bends around his station in a"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b02",
+   "file": "build-72-calling-matthew/assets/s02-you-worked-for-rome-the.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the booth the machine runs: a lean farmer counts coins onto the plank one at a time, his jaw tight at the number \u2014 while Matthew's soft practised fingers walk the count into the iron-bound box with its blunt Roman sea"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b03",
+   "file": "build-72-calling-matthew/assets/s03-matthew-had-that-job.jpeg",
+   "tokens": [
+    "MATTHEW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close portrait at the booth: Matthew's intelligent guarded face above the neat black beard \u2014 eyes quick from years of counting and watchful from years of being watched, the beginnings of a desk-stoop in the good teal s"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b04",
+   "file": "build-72-calling-matthew/assets/s04-so-matthew-had-money-and.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the booth a fringed devout man pays from a careful height \u2014 the coins dropped the last inch to the plank so his fingers share nothing with the table, his eyes fixed over Matthew's head, his sleeve gathered back \u2014 the "
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b05",
+   "file": "build-72-calling-matthew/assets/s05-his-old-friends-were-long.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "At busy midday, the camera across the road taking booth and traffic from the side, the road runs full past the booth \u2014 carts, herds, market baskets, the town's whole traffic \u2014 and all of it bending in the same wide pract"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b06",
+   "file": "build-72-calling-matthew/assets/s06-rich-and-completely-alone.jpeg",
+   "tokens": [
+    "MATTHEW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close at the booth: Matthew's soft ringed hands stacking the morning's silver into neat towers \u2014 and above the growing wealth his guarded eyes have drifted, following a knot of old schoolmates passing on the far verge wi"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b07",
+   "file": "build-72-calling-matthew/assets/s07-and-this-is-the-man.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Against the road's practised curve, the camera behind the passing walkers' shoulders, one trajectory runs straight: Jesus walking directly at the toll booth through the midday traffic \u2014 not drifting wide, not hugging the"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b08",
+   "file": "build-72-calling-matthew/assets/s08-past-everyone-who-would-have.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the road's edge Jesus passes the town's better options one by one \u2014 a young scribe with his satchel of learning, a devout elder straightening hopefully as the teacher nears \u2014 and walks past both into the faded awnin"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b09",
+   "file": "build-72-calling-matthew/assets/s09-follow-me-two-words.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Across the coin-stacked plank the two faces meet: Jesus's warm and direct, the two words just given at conversational volume \u2014 and Matthew's guarded intelligence cracking open around them in real time, the counting-house"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b10",
+   "file": "build-72-calling-matthew/assets/s10-no-pay-it-all-back.jpeg",
+   "tokens": [
+    "BOOTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the booth's tablet rack in the awning shade: row on row of wax ledgers, every neighbour's debt scored and filed in Matthew's neat hand \u2014 and nowhere in the rack, on the table, or anywhere under the awning, one t"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b11",
+   "file": "build-72-calling-matthew/assets/s11-no-list-of-conditions-to.jpeg",
+   "tokens": [
+    "MATTHEW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Matthew's face in the awning shade: the professional negotiator's features scanning the offer for its terms \u2014 and finding none: no clawback, no probation, no schedule of proofs \u2014 the guarded eyes moving left and"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b12",
+   "file": "build-72-calling-matthew/assets/s12-and-he-arose-and-followed.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The arising, mid-motion: Matthew on his feet with the worn stool tipping back behind his knees, one hand pushing off the coin-stacked plank as he steps around the table's end toward the waiting figure in cream \u2014 the teal"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b13",
+   "file": "build-72-calling-matthew/assets/s13-the-coins-the-scales-the.jpeg",
+   "tokens": [
+    "BOOTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The booth stands abandoned mid-count: silver towers with one stack half-built, the brass scales still swaying toward their settle, a wax ledger open at a line that ends mid-figure with the stylus laid across it, the stoo"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b14",
+   "file": "build-72-calling-matthew/assets/s14-matthew-tells-his-own-story.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in lamplight: a gospel scroll's column where one line runs conspicuously short amid the full passages around it \u2014 a spare five-word entry in a careful bookkeeper's hand, unornamented, unexpanded \u2014 a man rec"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b15",
+   "file": "build-72-calling-matthew/assets/s15-he-walked-away-from-all.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "BOOTH"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the afternoon road the two walk together \u2014 Jesus and the teal-robed tax man falling into step beside him, Matthew's desk-stooped shoulders already straightening by degrees \u2014 while behind them under its faded awning "
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b16",
+   "file": "build-72-calling-matthew/assets/s16-and-then-something-even-stranger.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Through the wide street door Jesus steps into Matthew's fine dining room \u2014 and the host is everywhere at once: lighting the good lamps with his own ringed hands, dragging cushions to the long table's places, calling thro"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b17",
+   "file": "build-72-calling-matthew/assets/s17-and-the-room-filled-up.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "GUESTS",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through Matthew's door his people arrive in twos and threes: a fellow tax man still checking the invitation against his own disbelief, the weathered whispered-about woman with her chin defiantly up, the scarred ex-soldie"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b18",
+   "file": "build-72-calling-matthew/assets/s18-the-men-and-women-the.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "GUESTS",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the long table's exact middle, the camera down the table's length with the near guests in three-quarter, Jesus sits shoulder to shoulder in the crowd of the given-up-on \u2014 bread torn in his hand, listening to the scarr"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b19",
+   "file": "build-72-calling-matthew/assets/s19-look-at-who-is-at.jpeg",
+   "tokens": [
+    "GUESTS",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close along the lamplit table the census reads itself: the fellow tax man's guard finally down over his cup, the weathered woman laughing at something with her whole face, the ex-soldier's scar creased by an unpractised "
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b20",
+   "file": "build-72-calling-matthew/assets/s20-not-the-qualified-the-people.jpeg",
+   "tokens": [
+    "GUESTS",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the weathered woman's face in the lamp warmth: the defiant chin lowered by degrees through the meal, the practised readiness-to-be-asked-to-leave dissolving out of her shoulders, her eyes coming up from her plat"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b21",
+   "file": "build-72-calling-matthew/assets/s21-you-can-see-it-on.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "GUESTS",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole long table sits warm in its lamplight: cups mid-raise, two conversations crossing, the ex-soldier demonstrating something with a bread loaf, Jesus laughing in the middle of it \u2014 and at the table's end Matthew s"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b22",
+   "file": "build-72-calling-matthew/assets/s22-the-religious-men-could-not.jpeg",
+   "tokens": [
+    "PHARISEES",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the wide doorway, the camera inside the room behind the lamplit guests, the three fine-robed men stand planted exactly at the threshold line \u2014 the lamplit feast warm and loud a single step past their unhesitating feet"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b23",
+   "file": "build-72-calling-matthew/assets/s23-why-eateth-your-master-with.jpeg",
+   "tokens": [
+    "PHARISEES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close at the threshold: the senior objector's correct cold face mid-question, one fringed arm gesturing past the doorframe at the warm offending room \u2014 the words leaving him with the genuine bafflement of a man whose who"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b24",
+   "file": "build-72-calling-matthew/assets/s24-why-does-your-teacher-eat.jpeg",
+   "tokens": [
+    "PHARISEES",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "From behind the door-standers the question's whole target shows: past their dark correct shoulders the lamplit table runs golden and loud \u2014 bread passing, the woman laughing, the teacher's cream sleeve among the teal and"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b25",
+   "file": "build-72-calling-matthew/assets/s25-they-did-not-ask-it.jpeg",
+   "tokens": [
+    "PHARISEES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The three faces at the threshold survey the feast like scholars over an untranslatable text: the senior's brows drawn in genuine study, the second taking silent inventory of every compromised guest, the third's lips movi"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b26",
+   "file": "build-72-calling-matthew/assets/s26-they-that-be-whole-need.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "From his place at the table's middle Jesus turns toward the doorway \u2014 bread still in one hand, the answer going out over his shoulder with the easy carry of a man not interrupting his own dinner for it \u2014 the physician-li"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b27",
+   "file": "build-72-calling-matthew/assets/s27-but-go-ye-and-learn.jpeg",
+   "tokens": [
+    "PHARISEES",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Across the warm room Jesus's gaze holds the three at the threshold \u2014 the mercy-verse crossing to them measured and kind, homework assigned from a dinner table to the schooled \u2014 and on the correct cold faces something une"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b28",
+   "file": "build-72-calling-matthew/assets/s28-up-to.jpeg",
+   "tokens": [
+    "BOOTH"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close at the booth's shade-line: Jesus's worn sandalled feet coming to a full stop on the packed dust \u2014 planted square before the plank table's legs, the walking done, the toes pointed AT the booth and not past i"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b29",
+   "file": "build-72-calling-matthew/assets/s29-a-doctor-does-not-spend.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In a poor doorway's shade a village healer kneels at a sick man's mat \u2014 his worn remedy bag open at his knee, two fingers at the patient's wrist, his whole practice located exactly where the fever is \u2014 while up the lane "
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b30",
+   "file": "build-72-calling-matthew/assets/s30-go-and-learn-what-this.jpeg",
+   "tokens": [
+    "PHARISEES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Up the dark street the three walk away from the lit doorway \u2014 robes gathered, pace stiff with unfinished dignity \u2014 and at the corner the youngest of them glances back once at the warm noise they declined: three scholars "
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b31",
+   "file": "build-72-calling-matthew/assets/s31-that-was-his-whole-answer.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The doorway empty now, Jesus is back fully in the meal \u2014 turned to the ex-soldier's resumed story, his cup held out to the woman's pitcher, the whole controversy already behind him like weather passed \u2014 a mission stateme"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b32",
+   "file": "build-72-calling-matthew/assets/s32-he-came-for-the-ones.jpeg",
+   "tokens": [
+    "MATTHEW",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At his own table's end Matthew watches the feast he never dreamed his rooms would hold \u2014 and his face carries the row's quiet turn: no triumph, only the settled gratitude of a man who knew precisely how sick he was, whic"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b33",
+   "file": "build-72-calling-matthew/assets/s33-the-outcasts-were-close-to.jpeg",
+   "tokens": [
+    "GUESTS",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the table's geography: the guests packed nearest Jesus in unconscious order of their honesty \u2014 the whispered-about woman at his elbow, the nervous young man across, the scarred soldier leaning in \u2014 need seated b"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b34",
+   "file": "build-72-calling-matthew/assets/s34-the-religious-men-stood-outside.jpeg",
+   "tokens": [
+    "PHARISEES",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the dark street, the camera behind the three watchers' dark shoulders toward the lit house, they stand at their chosen remove \u2014 arms folded into fringed shawls, backs half-turned to the lit doorway that never closed a"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b35",
+   "file": "build-72-calling-matthew/assets/s35-the-only-thing-that-kept.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The doorway close in the night: wide open, warm-lit, unbarred \u2014 no keeper at the jamb, no list in any hand, the threshold stone worn smooth and inviting, the feast's gold spilling out across it unguarded \u2014 history's most"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b36",
+   "file": "build-72-calling-matthew/assets/s36-and-notice-what-is-missing.jpeg",
+   "tokens": [
+    "BOOTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The booth in the call's after-silence: the stacked silver, the balanced scales, the racked ledgers of every neighbour's obligation \u2014 a whole architecture of terms and conditions \u2014 and hanging in the air above all of it, "
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b37",
+   "file": "build-72-calling-matthew/assets/s37-as-for-matthew-the-man.jpeg",
+   "tokens": [
+    "MATTHEW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Years on, by a single night lamp: an older Matthew \u2014 the rings gone, the teal faded to a plain workman's robe \u2014 bends over a long scroll in the exact desk-stooped posture of the old booth, the bookkeeper's neat hand layi"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b38",
+   "file": "build-72-calling-matthew/assets/s38-that-is-what-the-call.jpeg",
+   "tokens": [
+    "MATTHEW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the older Matthew's face in the lamp's small gold: the guarded quick-counting eyes of the booth nowhere in it \u2014 warmth resident in their place, the intelligence turned open, the neat beard gone grey around a mou"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b39",
+   "file": "build-72-calling-matthew/assets/s39-and-the-table-he-sat.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The long table stands set in its lamplight \u2014 places laid down both sides, bread under cloths, cups upright, cushions plumped at every seat, the wide door open to the night street \u2014 Matthew's one great dinner party reveal"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b40",
+   "file": "build-72-calling-matthew/assets/s40-the-same-door-is-still.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "From the dark street the door stands open on its warmth \u2014 and on the threshold stone itself a small clay lamp has been set out, deliberately, its flame steady in the night air: a signal placed at exactly the eye-height o"
+  },
+  {
+   "row": 72,
+   "build": "build-72-calling-matthew",
+   "beat": "v2-r072-b41",
+   "file": "build-72-calling-matthew/assets/s41-he-is-not-waiting-for.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through the open doorway the table's warmth frames its center: Jesus looking up from the meal directly toward the door \u2014 toward whoever stands in the dark street looking in \u2014 his hand resting open beside the one empty pl"
   },
   {
    "row": 73,
