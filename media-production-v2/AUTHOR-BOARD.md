@@ -119,7 +119,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 105 | build-105-face-to-face | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL — V1 mp4 rendered 2026-07-24, all 18 mp3s NEWER (2026-07-29); recency gate refuses AUDIO LOCK. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 106 | build-106-god-spake-by-prophets | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH gates — |Δ|=6.61s AND all mp3s NEWER than the 2026-07-24 V1 mp4. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 107 | build-107-john-baptist-doubt | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
-| 108 | build-108-my-sheep-hear-my-voice | AUTHORED | 0 | OK |  | ✅ |
+| 108 | build-108-my-sheep-hear-my-voice | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 109 | build-109-ask-seek-knock | AUTHORED | 0 | OK |  | ✅ |
 | 110 | build-110-lords-prayer | AUTHORED | 0 | OK |  | ✅ |
 | 111 | build-111-lilies-and-sparrows | AUTHORED | 0 | OK |  | ✅ |
