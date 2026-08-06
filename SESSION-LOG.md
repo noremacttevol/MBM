@@ -1,4 +1,43 @@
-## 2026-08-06 (Opus autopilot) — Row 73 this-day-fulfilled SHIPPED + row 69 baptism parked — Machine A `Dev`
+## 2026-08-06 (Opus autopilot) — Row 75 woman-taken-in-adultery SHIPPED + rows 73/74 parked — Machine A `Dev`
+
+Session chain: at start read SESSION-LOG top (row 68 multitudes-mountain, commit
+`c5713f27b`) and verified it in `git log`. Ran the parallel-lanes loop (many
+sibling A-auto lanes live — 48/60/61/62/63/71/72/73/76 — never touched).
+
+**Row 73 (this-day-fulfilled):** started to park NEEDS-AUDIO — the `Esaias`
+respelling `izayus` was committed 2026-07-29 09:44, AFTER all audio rendered
+2026-07-28 14:09, so the locked narration still said the complained-of
+"essy-y-es". Before I could edit the board a sibling lane claimed 73 RUNNING;
+per PARALLEL-LANES rule 1 I backed off, dropped my QC append, and moved on.
+(That lane subsequently SHIPPED 73.)
+
+**Row 74 (woman-washed-his-feet): PARKED NEEDS-AUDIO, $0 spent.** Caught the
+row-69 stale-V1 trap BEFORE generating: V1 mp4 committed 2026-07-24, never
+re-rendered; all 19/19 narration mp3s are newer and the mp4 runs 12.9s SHORT of
+the 184.57s timeline → `v2_assemble` STALE-V1 guard would refuse the AUDIO LOCK.
+Runner can't re-render/edit beats_v2.py. Author fix: re-render V1 mp4 OR set
+AUDIO_FROM_V1_SEGMENTS=True. Added a RUNNER-LESSONS entry: **pre-flight the
+stale-V1 audio lock for $0** (compute newer_mp3s + excess from extract_beats
+before spending) so this class parks at step 2 instead of after a ~$6 generate.
+
+**Row 75 (woman-taken-in-adultery, John 8:1-11): SHIPPED + DEPLOYED.** Lowest
+BUILDABLE Ready row (batch pre-flighted 75-100; 75 passed newer=0/14 excess=-0.47;
+78/80/82/88-100 many are stale-V1). Cross-checked QUEUE (valid story, not swapped),
+no open complaint (COMPLAINT LEDGER: none open). `v2_prompt.py --check` PASS.
+21 painted stills @ native 2K (V1 was a $0 10-still assembly) + 1 WOMAN portrait.
+COURT plate = build-06 temple (committed --take). CARE laws held: stones held
+low / dropped / left / never thrown; woman modest and dignified throughout
+(bowed at the drag → full height by the close); dust-writing reads as marks not
+words. Only Jesus in cream; scale + beard gates PASS; realistic photography, zero
+cartoon/mixed frames. **0 rerolls of 21 (0%).** **AUDIO LOCK PASS
+SHA256=7aeb3fdd…** (byte-identical V1 john-8). 20.6 MB / 126.1 s.
+
+**Cost this session:** row 75 ≈ **$2.94** (21 gen @ $2.81 + 1 portrait $0.13),
+**0% rerolls** — well under the $6.10/19% running average; the pre-flight parks
+(74) cost $0 and prevented a wasted generate. Trend DOWN per the COST LAW.
+
+Ship commit: (filled below). Chained from row 68 commit `c5713f27b`.
+
 
 Chained from row 67 the-transfiguration (commit 2ac9107c1 verified in `git log` at
 session start). Session-chain OK. Ran under PROMPT-OPUS-RUNNER (unattended/headless).
