@@ -1,3 +1,46 @@
+## 2026-08-06 (Opus autopilot) — Row 114 (abraham-sodom) PARKED at 23/23 stills — Gemini BILLING DEPLETED (global block) — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (row 110 lords-prayer ship)
+and confirmed commit `824b4260a` in `git log`. PARALLEL-LANES loop, lowest Ready ✅
+empty-claim row = **row 114 (Abraham argues for Sodom, Gen 18)**; every RUNNING
+sibling (48/60/61/62/63/84/111/112/113) left untouched. Cross-checked QUEUE (not
+swapped). Claimed row 114 (`c3c5326cf`). Read ALL rubric + RUNNER-LESSONS before
+first credit (LEARNING LAW). **COMPLAINT LEDGER: none open** (`v2_outline 114`).
+
+**Row 114 — PARKED, NOT shipped (billing block).** Built the whole still set:
+- 1 story-cast portrait (ABRAHAM); 23/23 beats generated at native 2K.
+- Plates promoted-first per author QC: HEIGHT ← s05 (10 beats), CAMP ← s01 (5).
+  QC'd both anchors first; s01 clean; s05 was content-correct (two pale cities,
+  bruised sky, nothing burning) but carried a foreground group — promoted it
+  anyway (author-directed) → crowd bled onto 3 solo-plea beats (see FIX-WAVE).
+- Light QC every frame vs must_show + all RUNNER-LESSONS: Abraham's great white
+  beard consistent across ~16 frames; three distinct travelers; period food/props/
+  oil-lamp; SODOM never burning; no cream figures (OT, no Jesus); no lens-stare;
+  anatomy/scale OK. s19 "ten fingers" reads; s18/s21/s23 correctly solo/person-free.
+- **Two mandatory-reroll defects found:** s13 & s14 are multi-panel COLLAGES (the
+  repeated-counting/answer trigger). Attempted the reroll → **Gemini `429
+  RESOURCE_EXHAUSTED — prepayment credits depleted`**; retried once after 65 s per
+  law, persisted. This is a REAL balance-zero (needs Cameron to top up Google AI
+  Studio billing), a global halt on every lane (sibling row 115 parked same). So
+  the row is NOT assembled/shipped (shipping the 2 collages = worst failure).
+- FIX-WAVE logged in QC.md (author items, not runner rerolls): crowd on s10/s15/
+  s20 during the solo plea (re-promote a person-free HEIGHT plate — s21/s23 — and
+  regen only those); interior drift s11/s12/s16/s17 (beats lack the HEIGHT lock,
+  row-103 pattern); s07 distant city bokeh reads borderline-modern.
+- **Cost this session ≈ $3.21** (portrait $0.13 + 2 anchors $0.27 + 21 beats
+  $2.81), **rerolls 0 paid** (2 collage rerolls 429'd before any spend, $0). Under
+  the $6.10/row average; COST-LAW trend DOWN (both plates promoted free, no re-paid
+  faces). Row is unfinished — final $/row settles after the top-up reroll+assemble.
+- 2 new RUNNER-LESSONS committed: (1) QC a promote-first plate for unwanted PEOPLE
+  before promoting when the place is meant solo/person-free; (2) the "prepayment
+  credits depleted" 429 is a real balance-zero distinct from the rate-limit 429.
+
+**RESUME after Cameron tops up billing:** `cd media-production-v2`; reroll
+`v2_gen_api.py build-114-abraham-sodom --only b13 b14 --redo --ceiling <live+~26>`;
+re-QC b13/b14; `v2_assemble.py 114` (require AUDIO LOCK PASS); ship per RUNNER
+step 7 (+firebase deploy +live-verify) + step 8 stash --scan. Full detail in
+build-114-abraham-sodom/QC.md "RUNNER PARK". Do NOT regen the 21 good stills.
+
 ## 2026-08-06 (Opus autopilot) — Row 115 (ram-in-the-thicket) PARKED at 16/32 stills — Gemini BILLING DEPLETED (global block) — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (Row 116 claim RELEASED —

@@ -1,0 +1,14 @@
+{
+ "CAMP": {
+  "manual": true,
+  "src_beat": "s01-in-the-heat-of-the",
+  "src_build": "build-114-abraham-sodom",
+  "src_file": "build-114-abraham-sodom/assets/s01-in-the-heat-of-the.jpeg"
+ },
+ "HEIGHT": {
+  "manual": true,
+  "src_beat": "s05-for-those-cities-had-grown",
+  "src_build": "build-114-abraham-sodom",
+  "src_file": "build-114-abraham-sodom/assets/s05-for-those-cities-had-grown.jpeg"
+ }
+}

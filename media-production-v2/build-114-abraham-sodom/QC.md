@@ -38,3 +38,57 @@ b23 empty ridge) and four lone-Abraham beats.
 - Direction: the two descend TOWARD the plain; Abraham stands; the
   return walks home at dusk.
 - HEIGHT promote-first from b05; CAMP from b01.
+
+---
+
+## RUNNER PARK — BILLING DEPLETED (A-auto Machine A, 2026-08-06)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 114` shows no prior Cameron
+complaint on this row; QUEUE row 114 carries only the V1 build description.
+
+**BLOCKER (global, not row-specific):** Gemini API returned `429
+RESOURCE_EXHAUSTED — "Your prepayment credits are depleted"` on the b13/b14
+reroll. Retried once after 65 s per the runner law; it persisted. This is a
+real prepayment balance-zero (needs Cameron to top up Google AI Studio
+billing), NOT an auto-reloading rate limit — so NO generation is possible on
+any lane until top-up.
+
+**State at park:** 23/23 stills EXIST + 1 story-cast portrait (ABRAHAM).
+Plates promoted-first: HEIGHT ← s05 (10 beats), CAMP ← s01 (5 beats). The row
+is NOT shipped and must NOT be assembled yet because **s13 and s14 are
+multi-panel COLLAGES** (the repeated-counting/answer trigger) and need a reroll
+before ship. Do NOT regenerate any other beat — the other 21 stills are valid.
+
+**RESUME (after Cameron tops up billing), in order:**
+1. `cd media-production-v2`
+2. Reroll the two collages (ceiling = live meter + 2×0.201 + 25):
+   `python3 v2_gen_api.py build-114-abraham-sodom --only b13 b14 --redo --ceiling <live+~26>`
+   - b13/b14 are counting/answer beats → collage risk on redo; also re-view the
+     redo for STYLE (a collage reroll can return cartoon — RUNNER-LESSONS row
+     104). Up to 2 rerolls each within the 15% budget (≤3 total for the row);
+     still collage → keep best + FIX-WAVE.
+3. Re-QC ONLY b13/b14 (single coherent frame, Abraham's white beard, no burned-in
+   number text — the ladder numbers must never appear as text).
+4. `python3 v2_assemble.py 114` → require `AUDIO LOCK PASS`; extract 3 caption
+   frames from the rendered mp4 and eyeball (captions bottom-band only).
+5. Ship per PROMPT-OPUS-RUNNER step 7 (two commits + review card + firebase
+   deploy + live-verify), then step 8 (stash --scan) and tick Built.
+
+**FIX-WAVE (do NOT burn runner rerolls — author/fix-wave items):**
+- **Crowd propagated onto the SOLO plea** (s10 "fifty", s15 "how merciful",
+  s20 "for the sake of ten"): the HEIGHT plate anchor s05 rendered WITH a ~6-
+  person foreground group, and it bled into these three plea beats — but
+  Gen 18:22 has Abraham pleading ALONE (the two men already left toward Sodom).
+  Propagation is inconsistent (s08/s18/s21/s23 correctly stayed solo/person-
+  free), so a reroll is a coin-flip that re-attaches the same crowded plate.
+  Cleanest author fix: re-promote a person-free HEIGHT plate (s21 or s23 are
+  perfect person-free ridge frames) and regenerate ONLY s10/s15/s20.
+- **Interior drift during the outdoor plea** (s11 doorway, s12 mud-brick room
+  w/ stool, s16 interior, s17 interior w/ window): b11/b12/b16/b17 carry NO
+  HEIGHT lock, so they defaulted indoors (RUNNER-LESSONS row-103 pattern). Not
+  runner-fixable (reroll coin-flip + face risk); author adds the HEIGHT token to
+  these beats' `locks` (or an outdoor cue to their scene text) then regenerates
+  only those.
+- **s07 distant city reads borderline-modern**: the doomed city at dusk rendered
+  as a cluster of bright bokeh lights that can read as modern electric lighting.
+  Background/ambiguous (could be lamplight) — FIX-WAVE, not garbage.
