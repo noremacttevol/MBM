@@ -19,7 +19,7 @@ step 7c DEPLOY — zero frames generate while billing is empty, so nothing new t
 or deploy. **ACTION FOR CAMERON: top up Gemini prepayment billing at https://ai.studio/projects,
 then re-run the resume command in the QC.md — it resumes free and finishes the row unattended.**
 
-Commit: PENDING
+Commit: b05fbbc61305fd149d75ab3fc599f29042368f13
 
 ---
 
