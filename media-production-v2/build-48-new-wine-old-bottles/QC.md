@@ -46,7 +46,7 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
-## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (38th resume attempt, headless)
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (39th resume attempt, headless)
 
 Fresh headless resume (direct user instruction to resume row 48, not a cron tick). Pulled clean
 (Already up to date, autostash). `--check` PASSES (35 beats, v4 PASS).
@@ -54,7 +54,7 @@ Fresh headless resume (direct user instruction to resume row 48, not a cron tick
 Meter unchanged at $409.64. Recomputed ceiling
 439.46 (meter $409.64 + 24 remaining × 0.134 × 1.5 + 25 concurrency). Ran
 `v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → **429 RESOURCE_EXHAUSTED on
-the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. **$0 spent.** Thirty-eighth
+the FIRST shot (b10 → s10)**, `prepayment credits are depleted`. **$0 spent.** Thirty-ninth
 consecutive resume blocked by the identical empty-prepayment state — a HARD billing block, not a
 rate limit; no automated resume can refill an empty prepayment balance (the script's internal
 retry already fired before surfacing the 429; foreground sleep is blocked in this headless shell,
