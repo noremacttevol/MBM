@@ -1,3 +1,36 @@
+## 2026-08-06 (Opus runner, HEADLESS autopilot) — Row-45 SECOND pile-on caught & stopped; already-shipped guard added — Machine A `Dev`
+
+A concurrent autopilot lane on this same machine had ALREADY built AND shipped
+row 45 (commits `7464d4871` + `6051f53ae`; the v45 card is live on the reviewer
+with hash `7464d487`). This session claimed row 45 from a stale session-start
+snapshot (local `main` had been advanced under me by the sibling lanes) and,
+seeing the misleading empty-`stills/` path, regenerated the row before catching
+it — ~**$5.2 of redundant Gemini spend** (meter 243.88 → 248.84). This is the
+row-45 pile-on failure mode, hit a SECOND time.
+
+**Damage contained:** the 54 regenerated stills are UNTRACKED and the committed,
+shipped `mark-12_wicked-tenants.mp4` was never modified — verified `git status`
+clean on the mp4. `QC.md` restored to its shipped version via `git checkout`.
+Row 45 on the reviewer is exactly what the building lane shipped; nothing
+re-queued, no approval voided.
+
+**Root-cause gap fixed** in `RUNNER-LESSONS.md` (FLEET/COLLISION): the existing
+lesson only checks for a LIVE `v2_gen_api` sibling, but a row can be fully
+SHIPPED with NO live process (the lane exited after shipping). Added the
+already-shipped guard: before generating ANY `RUNNING`/`A-auto` row, check
+`git log -1 -- <build>/*.mp4` AND the `review.html` `realistic-v2` card FIRST —
+if either is non-empty the row is DONE, tick BUILT and take the next AUTHORED
+row.
+
+**Did NOT start a new row.** Three sibling lanes are actively advancing the
+frontier (row 46 `pid2875780` LIVE, row 47 `pid2895793` LIVE + generating), so
+the queue is moving without a 4th heavy build; with this session's context
+already spent on the redundant row-45 QC, starting row 48 risked a half-claimed
+pile-on seed — the exact failure just cleaned up. Highest-leverage act was the
+prevention guard above. **Cost note (COST LAW): this session's ~$5.2 was pure
+overage from the pile-on, not row work — the guard is the fix so it stops
+recurring across lanes.**
+
 ## 2026-08-06 (Opus runner, HEADLESS autopilot) — Row 45 (wicked-tenants) REALISTIC V2 shipped + deployed — Machine A `Dev`
 
 Unattended autopilot tick. Lowest Ready AUTHOR-BOARD row was 45 (44 is PARKED —

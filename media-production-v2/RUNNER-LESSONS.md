@@ -12,6 +12,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
+- **FIRST check ALREADY-SHIPPED, before you check LIVE (2026-08-06, row-45
+  second pile-on, ~$5 wasted).** A row can be fully DONE — mp4 committed, review
+  card live — with NO live `v2_gen_api` process, because the lane that built it
+  already exited. The "no live sibling → safe to resume" check below will then
+  WRONGLY greenlight a full rebuild. So before generating ANY `RUNNING`/`A-auto`
+  row, run `git log --oneline -1 -- media-production-v2/<build>/*.mp4` AND
+  `grep 'id="v<NN>".*realistic-v2' site/review.html`: if either is non-empty the
+  row is SHIPPED — do NOT regenerate, tick it BUILT on the AUTHOR-BOARD if it is
+  not already, and take the next AUTHORED row. (The `assets/` count alone does
+  not tell you shipped-vs-mid-build; the committed mp4 does.)
 - **Art lives in `<build>/assets/*.jpeg`, NOT `<build>/frames/*.png`.** The
   `frames/` dir is essentially always empty. Judging "this claimed row crashed"
   by an empty `frames/` is WRONG and is what made 3+ lanes all pile onto row 45
