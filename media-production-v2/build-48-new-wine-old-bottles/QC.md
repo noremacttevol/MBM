@@ -46,6 +46,22 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
+## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING DEPLETED (3rd resume attempt, headless)
+
+Fresh headless resume session. Pulled clean (Already up to date), `--check` PASSES.
+11/35 stills still intact (assets/ s01-s09, s16, s22). Ran the exact resume command
+`v2_gen_api.py build-48-new-wine-old-bottles --ceiling 439.46` → **429 RESOURCE_EXHAUSTED
+on the FIRST shot (b10)** — `prepayment credits are depleted`. Honored the 429 rule:
+waited 60 s, retried once → identical 429 on b10. **$0 spent, meter unchanged at
+$409.64.** The prepayment balance is still empty; only Cameron can refill it.
+
+**ACTION FOR CAMERON:** top up billing at https://ai.studio/projects (billing), then
+re-run the resume command below (resumes free — the 11 passing frames are never re-pulled).
+
+Row left State RUNNING / Claim A-auto for post-top-up resume.
+
+---
+
 ## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING DEPLETED (2nd resume attempt)
 
 Resumed row 48 per direct instruction (was State RUNNING, Claim A-auto). Portraits
