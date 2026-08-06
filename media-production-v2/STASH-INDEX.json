@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 05:04:53",
+ "scanned": "2026-08-06 05:20:28",
  "entries": [
   {
    "row": 1,
@@ -31933,6 +31933,303 @@
    "night": false,
    "n_person": 1,
    "scene": "The mountainside at golden hour, the camera far off taking the whole slope from the side, holds everything the sentence hides: the healed multitude spread across every ledge and grass shelf \u2014 walkers and speakers and see"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b01",
+   "file": "build-71-the-great-commission/assets/s01-he-had-been-crucified.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Under a dark storm-dawn sky the low hill stands at a great distance \u2014 and on its crown, small and bare against the grey light, three empty crosses lean at their worked angles \u2014 no figure near them, no detail given, the w"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b02",
+   "file": "build-71-the-great-commission/assets/s02-before-he-returned-to-his.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Up the green spring mountainside, the camera off the path taking the climb in profile, the eleven climb in a loose line through the wildflowers \u2014 Peter at the front with his old forward lean, John helping the eldest over"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b03",
+   "file": "build-71-the-great-commission/assets/s03-and-now-he-was-alive.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "On the summit meadow Jesus stands in the plain clean light of morning \u2014 the same locked face, the same cream wool moving in the spring wind, utterly and quietly alive \u2014 and at his wrists, where the sleeves fall back, the"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b04",
+   "file": "build-71-the-great-commission/assets/s04-they-climbed-it-not-really.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The eleven crest the meadow, the camera behind their cresting shoulders, and the sight takes their legs: a wave of falling moves through them \u2014 Peter down first with both knees in the grass, John sinking with his hands o"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b05",
+   "file": "build-71-the-great-commission/assets/s05-some-of-them-still-could.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the kneeling wave two still stand \u2014 back a pace, faces working, one with his hand pressed to his own chest testing whether he is dreaming, the other's eyes going from the marks to the face and back, unable to land \u2014 a"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b06",
+   "file": "build-71-the-great-commission/assets/s06-he-gave-them-the-whole.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus steps in among them \u2014 between the kneeling and the still-standing, the doubters included in the circle without comment \u2014 and his arms open wide as the sentence goes out, taking in the lake below, the valleys west, "
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b07",
+   "file": "build-71-the-great-commission/assets/s07-every-authority-there-is-in.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus in the morning light: the warm eyes level and utterly certain, all the authority there is resting in the face the way strength rests in a working man's shoulders \u2014 worn, not brandished \u2014 and at the frame's"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b08",
+   "file": "build-71-the-great-commission/assets/s08-whatever-he-was-about-to.jpeg",
+   "tokens": [
+    "ELEVEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close along the gathered faces: Peter's weathered attention, John's young brightness, the eldest's deep-lined listening, the doubters' faces steadied now and leaning in with the rest \u2014 eleven ordinary working faces arran"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b09",
+   "file": "build-71-the-great-commission/assets/s09-go-ye-therefore-and-teach.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus's arm extends full-length, the camera at his side so the gesture crosses in profile toward the horizon \u2014 past the lake's blue, past the far hills, past everything the morning can show \u2014 and the eleven turn as one t"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b10",
+   "file": "build-71-the-great-commission/assets/s10-and-then-the-promise-that.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus as his gaze comes back from the horizon to the eleven faces around him \u2014 the immensity of the sending still in the air, and his expression turning from the map to the men: warm, particular, promise-shaped "
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b11",
+   "file": "build-71-the-great-commission/assets/s11-go-to-everyone-not-one.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "From the mountain's height the everyone spreads in one deep vista: the lake with its fishing sails, the coast road running north with its caravans, a far port's white sails at the haze's edge, ridge fading behind ridge p"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b12",
+   "file": "build-71-the-great-commission/assets/s12-he-had-been-buried.jpeg",
+   "tokens": [
+    "TOMB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the grey dawn of the olive garden the tomb stands sealed: the great disc-stone rolled home in its channel across the low-cut doorway, the chisel-marks still sharp on the limestone face, dew heavy on the grass before t"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b13",
+   "file": "build-71-the-great-commission/assets/s13-and-hear-the-three-he.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Before the listening circle Jesus's hand marks the naming \u2014 one, two, three quiet counts in the morning air, the Father, the Son, the Holy Ghost given each their own full breath \u2014 and the eleven receive the three-fold na"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b14",
+   "file": "build-71-the-great-commission/assets/s14-teaching-them-to-observe-all.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Among the circle Jesus stands with one hand resting on Peter's shoulder as the promise goes out \u2014 I am with you alway \u2014 the words landing on eleven faces like provision loaded for a journey, the doubters' faces steadiest"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b15",
+   "file": "build-71-the-great-commission/assets/s15-amen.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A quiet still on the summit meadow: the spring grass and wildflowers moving in the morning wind, the lake's blue steady below, the light clean on the stone shoulders \u2014 the moment after the greatest marching order in hist"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b16",
+   "file": "build-71-the-great-commission/assets/s16-teach-them-not-just-to.jpeg",
+   "tokens": [
+    "ELEVEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close along the circle's faces in the morning light: each holding its own footage \u2014 Peter's eyes somewhere on a boat's remembered water, John's on a supper's remembered bread, the eldest's on some touched leper only he s"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b17",
+   "file": "build-71-the-great-commission/assets/s17-i-am-with-you-always.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus's face at the promise's centre: the warm eyes holding the eleven's gaze one by one as the word ALWAYS goes down \u2014 no clause forming behind it, no horizon on it, no condition in the set of the mouth \u2014 a pre"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b18",
+   "file": "build-71-the-great-commission/assets/s18-not-until-you-fail-always.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The ALWAYS finds its first address: Jesus's gaze resting on Peter \u2014 the fisherman's weathered face taking the word with the particular gratitude of the one man on the mountain who has already tested the promise's opposit"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b19",
+   "file": "build-71-the-great-commission/assets/s19-that-command-has-never-stopped.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "MOUNT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down from the summit, the camera high behind the parting group, the scattering begins: the eleven descending by different shoulders of the mountain \u2014 two toward the lake and its boats, three down the western valley path,"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b20",
+   "file": "build-71-the-great-commission/assets/s20-it-reached-across-two-thousand.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Across a plain wooden table in warm light, the relay's unit act: one weathered hand passing a small worn scripture \u2014 cover soft with carrying, pages thumbed \u2014 into a younger hand opening to receive it \u2014 the exact gesture"
+  },
+  {
+   "row": 71,
+   "build": "build-71-the-great-commission",
+   "beat": "v2-r071-b21",
+   "file": "build-71-the-great-commission/assets/s21-that-is-how-far-he.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The summit meadow stands empty in the full morning \u2014 the grass still holding eleven flattened places in its circle \u2014 and below, on every descending path, the small dark figures grow smaller toward the lake, the valleys, "
   }
  ]
 }

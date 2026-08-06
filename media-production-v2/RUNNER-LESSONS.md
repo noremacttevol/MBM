@@ -119,7 +119,18 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   modern utility cable — a modern-object fail. It PROPAGATES from a courtyard
   PLATE (row 53's s03 plate carried it faintly), so QC the plate's sky first;
   one reroll of the affected beat usually clears it. Glance at the sky on every
-  exterior/courtyard frame, not just the ground.
+  exterior/courtyard frame, not just the ground. NOT courtyard-only: it also hits
+  open-landscape frames (row 71 b12 garden-tomb in an olive orchard had a taut
+  line crossing the misty sky between the trees) — check the sky on EVERY exterior,
+  orchard and hillside frame; one reroll cleared it.
+- **Modern paved roads / shoreline highway in a FAR-AERIAL landscape** (row 71
+  b21 "the going-out" descent, and faintly b19): a high wide aerial of the Galilee
+  hills can render modern-looking paved switchback roads and a straight shoreline
+  highway among the terraces. At extreme distance it is borderline (ancient paths
+  and terraces look similar), so it is usually FIX-WAVE, not a mandatory reroll —
+  but if a straight, graded, modern-width road reads clearly, reroll the aerial;
+  the model can land the same vista with only footpaths. Watch the going-out /
+  epilogue landscape beats specifically.
 - **A single CARTOON / CGI-render frame in an otherwise-realistic row** (row 56
   b22 the-news-went-out came back as a smooth 3D-illustration/plasticky render
   while all 21 other frames were photographic). It reads as a totally different
