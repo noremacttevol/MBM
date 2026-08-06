@@ -1,3 +1,37 @@
+## 2026-08-06 (Opus autopilot) — Row 107 john-baptist-doubt SHIPPED + DEPLOYED (same session as row 102; rows 105-106 parked) — Machine A `Dev`
+
+Second + third rows of the same autopilot session that shipped row 102 (below).
+PARALLEL-LANES loop, lowest Ready ✅ empty-claim row first; every RUNNING sibling
+(48/60/61/62/63/84/91/101/103/104) left untouched.
+
+**Batch $0 audio pre-flight of the whole 105-126 open block** (both gates:
+recency + |Δ|≤1.0): 105/106/108/113/117-120/125/126 fail STALE-V1-FINAL or the
+duration gate → parked before any spend; 107/109/110/111/112/114/115/116/121-124
+are BUILDABLE. **Rows 105 (STALE recency) and 106 (STALE recency + |Δ|=6.61s)
+parked NEEDS-AUDIO with $0** and a RUNNER PARK resume note (author: set
+AUDIO_FROM_V1_SEGMENTS=True). 108/113/117-120 left AUTHORED for their own park
+pass by whichever lane reaches them.
+
+**Row 107 (John the Baptist's doubt, Matt 11:2-6) — SHIPPED + DEPLOYED.** Audio
+pre-flight PASS (|Δ|=0.02s, 0 newer mp3s). `--check` PASS (25 beats), QUEUE
+confirmed real story. TWO-part open complaint FIXED: (1) SCALE (lesson 14) —
+Jesus and John are ordinary human height in all 25 frames, no giants (scale
+gate on every multi-figure frame); (2) TWINS (lesson 3) — the messengers are
+John's OWN two disciples, authored distinct (older lean umber-brown vs younger
+broad slate-grey), never identical. CELL plate promoted-first from this row's
+own b02 (8 beats). 1 JOHNB portrait; Jesus from the locked V2 master ref. Beard
++ realistic-only + cream-robe gates pass. AUDIO LOCK PASS `SHA256=9d120694…`,
+19.7 MB / 156.7 s. Commits `cb8b2d9ba` (ship) + reviewer card/SESSION-LOG.
+Firebase deployed + live-verified.
+
+**Cost/quality:** **0 rerolls of 25 (0%)**, far under the 15% budget. Row ≈
+**$3.48** (1 portrait + 1 anchor + 24 stills), under the $6.10/row average →
+COST LAW trend DOWN. No new RUNNER-LESSONS defect class (clean first attempt).
+Session total: 2 rows shipped (102, 107) ≈ $7.23 combined, 0 rerolls across 53
+beats; 2 rows parked $0 (105, 106).
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 104 boy-samuel SHIPPED + DEPLOYED — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (row 91 gethsemane, commit
