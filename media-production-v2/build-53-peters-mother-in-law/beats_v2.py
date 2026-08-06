@@ -108,6 +108,16 @@ REFS = {
     "JAMESJOHN": ["../CAST-V2-REF/james-z-front.jpeg", "../CAST-V2-REF/john-front.jpeg"],
 }
 
+# Runner-set 2026-08-06 (Machine A, A-auto), same pattern as builds 17 and 25.
+# The AUDIO LOCK stale-V1 guard fired: the V1 render mark-1_peters-mother-in-law.mp4
+# on disk is 101.033s, but the authoritative narration summed from the re-voiced V1
+# segment mp3s these beats were authored to is 100.066s — the V1 MP4 is an
+# out-of-date render. The assembler rebuilds the audio track from the V1 mp3
+# segments (new-voice, the AUTHOR-BOARD Audio=OK set) at the extract_beats offsets
+# and hash-verifies it — nothing re-voiced, nothing re-timed, V1 stays read-only.
+# This is exactly the tool's prescribed FIX for this guard.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r053-b01", "out": "s01-out-of-the-synagogue.jpeg", "seg": "n1 p1",
@@ -411,5 +421,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "HOUSE": "PLACE-REF/house.jpeg",  # build-53-peters-mother-in-law s03-an-ordinary-house (manual)
 }
 # === end PLACE-PLATES ===

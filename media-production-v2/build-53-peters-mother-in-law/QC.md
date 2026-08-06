@@ -42,3 +42,45 @@ people injected).
   shuttered before the healing, the shutters OPEN after (light follows
   the story).
 - Only Jesus wears cream.
+
+---
+
+## RUNNER PASS — A-auto (Machine A `Dev`) 2026-08-06 — SHIPPED
+
+**Build:** 15 stills @ 2K + 3 portraits (SIMON/MOTHER/WIFE). Reroll count: **1
+of 15 (6.7%, under the 15% budget).** mark-1_peters-mother-in-law.mp4 · 19.3 MB ·
+100.1 s. Audio rebuilt from the 10 verified V1 segment mp3s (AUDIO_FROM_V1_SEGMENTS,
+same guard-fix as rows 17/25) — AUDIO REBUILD PASS, hash locked. Nothing re-voiced.
+
+**COMPLAINT LEDGER:** none open on row 53 (`v2_outline.py 53` shows no filed
+complaint). Corpus-check confirmations carried anyway so no known defect class
+regresses:
+- Row-15 grey-sick class → the MOTHER is FLUSHED and warm-alive in every sick
+  frame (s05/s06/s10), never grey/corpse-toned; silver-haired age locked and
+  held across s05→s15.
+- Healing (s11) is touch-and-lift only — clean two-hand grip on her hand, NO
+  glow/effect on the contact, she rises believably. Same woman s05→s15 (face +
+  silver braid board-checked).
+- Row-83 direction → s13 she strides INTO her own courtyard toward the basket/
+  work; s14 the bread platter goes DOWN toward Jesus (service vector clear).
+- Realism law → all 15 frames realistic biblical photography, zero cartoon/mixed
+  frames; only Jesus wears cream; no modern objects (see reroll below);
+  first-century Capernaum basalt fisherman's house throughout.
+- Scale gate → Jesus ordinary-sized in every multi-figure frame (s01/s07/s11/
+  s14/s15); no giant. Beard board: full dark beard held on Jesus and Simon
+  across all frames.
+
+**Reroll (1):** s13 "she rose to serve" — first take had a thin wire-straight
+line across the upper-right sky reading as a modern power line (propagated faint
+from the s03 HOUSE plate). Rerolled once → clean clear sky, period-correct.
+
+**HOUSE plate:** promoted from b03 (person-free basalt courtyard — oven, nets,
+pithos, mats) per author QC; wired to 13 beats. Stash-declined Bethany lane
+respected.
+
+**FIX-WAVE (not garbage, left for the fix wave — no reroll spent):**
+- s02: the young disciple (John/JAMESJOHN) reads slightly light/chestnut-haired
+  vs the dark-hair lock — minor, within the "slightly-light = FIX-WAVE" rule.
+- s08: Jesus's visible eye catches window light greenish in this one close-up;
+  reads warm brown in every other frame (s07/s09/s10/s11/s14/s15). Catchlight,
+  not a true green-eye drift — noted for the fix wave to confirm.
