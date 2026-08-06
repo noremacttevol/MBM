@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 02:02:02",
+ "scanned": "2026-08-06 02:10:36",
  "entries": [
   {
    "row": 1,
@@ -27253,6 +27253,241 @@
    "night": false,
    "n_person": 0,
    "scene": "On a pale road winding between terraced Galilean hills, the camera above the verge taking the walkers in profile, in the afternoon light, a traveller has stopped a family coming the other way and is telling it \u2014 arms wid"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b01",
+   "file": "build-53-peters-mother-in-law/assets/s01-out-of-the-synagogue.jpeg",
+   "tokens": [
+    "SIMON",
+    "ANDREW",
+    "JAMESJOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "The camera off at the street's side takes the meeting in profile: Jesus comes down the worn basalt steps of the Capernaum synagogue into the bright sabbath midday, and the four fishermen close around him easily as he rea"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b02",
+   "file": "build-53-peters-mother-in-law/assets/s02-home-with-his-friends.jpeg",
+   "tokens": [
+    "SIMON",
+    "ANDREW",
+    "JAMESJOHN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "In the narrow basalt lane the five men arrive at the house \u2014 Simon a step ahead, holding the dark door-cloth aside with one arm and turning back to bring Jesus in with a tilt of his head, Jesus stooping toward the low do"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b03",
+   "file": "build-53-peters-mother-in-law/assets/s03-an-ordinary-house.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The small basalt courtyard in soft midday light, empty of people for one quiet frame: rush mats and low stools around the cold clay oven, a water jar sweating by the doorway, a child's wooden toy boat forgotten by the wa"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b04",
+   "file": "build-53-peters-mother-in-law/assets/s04-the-house-was-heavy.jpeg",
+   "tokens": [
+    "WIFE",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Simon's wife stands at the curtained doorway of the back room with a clay bowl of water held against her hip, paused mid-task \u2014 her head leaned against the doorpost for one stolen second, eyes closed, the worry of days p"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b05",
+   "file": "build-53-peters-mother-in-law/assets/s05-sick-with-a-fever.jpeg",
+   "tokens": [
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the dim back room, shutters drawn against the midday heat, the old woman lies small on a sleeping mat under the dark olive-brown blanket, her lined face flushed and damp, silver hair loose against the folded cloth ben"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b06",
+   "file": "build-53-peters-mother-in-law/assets/s06-little-anyone-could-do.jpeg",
+   "tokens": [
+    "MOTHER",
+    "WIFE",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Simon's wife kneels beside the sleeping mat in the shuttered dimness, wringing a cloth over the clay bowl with both hands before laying it gently across her mother's burning forehead \u2014 her own face tight with the specifi"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b07",
+   "file": "build-53-peters-mother-in-law/assets/s07-they-told-him.jpeg",
+   "tokens": [
+    "SIMON",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Just inside the courtyard, Simon stands close to Jesus and tells him \u2014 voice plainly low, his head bent near, one rough thumb hooked back over his shoulder toward the curtained back-room doorway, his bearded face worried"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b08",
+   "file": "build-53-peters-mother-in-law/assets/s08-the-way-you-tell-a-friend.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot in the courtyard's soft light: Simon's weathered face carries the trouble plainly \u2014 brows drawn, the words simple and already half-relieved for having said them \u2014 and Jesus's face, close and turned fully"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b09",
+   "file": "build-53-peters-mother-in-law/assets/s09-he-went-in.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus stoops under the low stone lintel of the back room, one hand drawing the dark curtain aside, mid-step from the bright courtyard into the shuttered dimness \u2014 daylight spilling past his shoulders across the floor tow"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b10",
+   "file": "build-53-peters-mother-in-law/assets/s10-beside-her.jpeg",
+   "tokens": [
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus kneels down beside the sleeping mat in the dim room, settled on one knee close beside the small fevered woman, looking into her flushed sleeping face with unhurried attention \u2014 the line of shutter-light lying acros"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b11",
+   "file": "build-53-peters-mother-in-law/assets/s11-took-her-by-the-hand.jpeg",
+   "tokens": [
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The lift: Jesus's hand is closed firmly around the old woman's thin hand and forearm, drawing her up from the mat with the strength of it, and she is rising \u2014 coming up off the bedding toward sitting with her eyes open a"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b12",
+   "file": "build-53-peters-mother-in-law/assets/s12-the-fever-left-her.jpeg",
+   "tokens": [
+    "MOTHER",
+    "WIFE",
+    "SIMON",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "The old woman stands beside her own sickbed on steady feet, unaided, smoothing down her madder-brown dress with both capable hands, her lined face clear and vivid with returned strength \u2014 Jesus stands back by the wall gi"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b13",
+   "file": "build-53-peters-mother-in-law/assets/s13-she-rose-to-serve.jpeg",
+   "tokens": [
+    "MOTHER",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The old woman strides out of the back room into the afternoon-lit courtyard with the purpose of a general retaking a city \u2014 sleeves already being pushed up her thin strong arms, her eye sweeping the cold oven and the wat"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b14",
+   "file": "build-53-peters-mother-in-law/assets/s14-she-ministered-unto-them.jpeg",
+   "tokens": [
+    "MOTHER",
+    "SIMON",
+    "ANDREW",
+    "JAMESJOHN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 5,
+   "scene": "In the warm late-afternoon courtyard the old woman sets a board of flat bread and a dish of olives down in the middle of the seated circle \u2014 Jesus, Simon, Andrew, James and John on the mats and low stools \u2014 her lined fac"
+  },
+  {
+   "row": 53,
+   "build": "build-53-peters-mother-in-law",
+   "beat": "v2-r053-b15",
+   "file": "build-53-peters-mother-in-law/assets/s15-the-quiet-house.jpeg",
+   "tokens": [
+    "MOTHER",
+    "WIFE",
+    "SIMON",
+    "ANDREW",
+    "JAMESJOHN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 6,
+   "scene": "The whole household gathered in the small courtyard, the camera at the courtyard wall behind the near shoulders, as the light goes golden: Jesus and the four fishermen around the shared food, Simon's wife pouring water, "
   }
  ]
 }
