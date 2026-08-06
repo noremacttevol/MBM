@@ -1,3 +1,44 @@
+## 2026-08-06 (Opus autopilot) — Row 81 render-unto-caesar SHIPPED + DEPLOYED; row 80 parked NEEDS-AUDIO — Machine A `Dev`
+
+Chained from row 72 (its SESSION-LOG entry + commit `417bfb4b6`/`8129f1a68`
+verified in `git log` at session start). Ran the PARALLEL-LANES loop, lowest
+Ready ✅ empty-claim row first; RUNNING siblings (48/60/61/62/63/77/79) never
+touched.
+
+**Row 80 (Come unto me, Matt 11) — PARKED NEEDS-AUDIO, $0 spent.** RUNNER-LESSONS
+flagged row 80 as genuinely STALE-V1; pre-flighted at step 2 BEFORE any
+generation (lesson-74 $0 park). `assert_v1_final_is_current` FAILS: V1 mp4
+rendered 2026-07-24, all 11 narration mp3s newer (2026-07-28), timeline 90.6s
+vs mp4 88.5s. Runner cannot fix (needs `AUDIO_FROM_V1_SEGMENTS=True` in
+beats_v2.py — author audio decision). Boards → NEEDS-AUDIO, Ready cleared,
+QC.md RUNNER PARK written. Commit `72e028685`.
+
+**Row 81 (Render unto Caesar, Mark 12) — SHIPPED + DEPLOYED.** Pre-flight PASS
+(excess 0.07s), `--check` PASS (16 beats), no open complaints. 16 painted
+stills @ native 2K vs V1's 8. 0 portraits paid (OFFICIALS auto-attaches).
+COURT plate promoted-first from this row's own b01 (temple colonnade, NO
+offering chests — distinct from row-77 treasury per QC). THE COIN law held
+every frame: Jesus's EMPTY hand demands it / they produce it (b08); lawful
+denarius carries its required emperor profile + Latin legend (b09/b10/b15);
+handed BACK at "render to Caesar" (b14). Pharisees (charcoal-fringed) +
+Herodians (wine-red) two robe families; b06 exactly two Roman soldiers, no
+drawn weapons. Only Jesus in cream; scale + beard gates PASS; realistic, ZERO
+cartoon/mixed. Only borderline: b10's held-high coin oversized (forced-
+perspective device, reads the profile) — kept, not garbage.
+
+**Cost/quality:** **0 rerolls of 16 (0%)**, far under the 15% budget →
+strongly supports the COST LAW downtrend. Row ≈ **$2.14** (16 stills, 0
+portraits) vs the $6.10 running average. AUDIO LOCK PASS SHA256=914290e3…
+(V1 mark-12 audio byte-identical, nothing re-voiced), 99.6s, 19.6 MB. 3
+rendered caption frames verified (bottom-band only, question card clean, no
+squares). Ship commit `b61d7fc5d` (mp4 in it, verified tracked + on
+origin/main); review card `data-review-wave="realistic-v2"` +
+`data-hash=b61d7fc5d…`; then `firebase deploy --only hosting` and verified
+the live hash + mp4 200. STASH rescan committed. No RUNNER-LESSONS defect
+class surfaced this row (0 rerolls).
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 79 the-seventy-sent SHIPPED + DEPLOYED; row 78 parked NEEDS-AUDIO — Machine A `Dev`
 
 Session chain: at start read SESSION-LOG top (row 75 woman-taken-in-adultery,
