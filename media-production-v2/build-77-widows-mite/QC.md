@@ -36,3 +36,27 @@ is TIGHT: the two small coins need closeness.
 - PETER/JOHN auto-attach from global sheets — face-board.
 - GIVERS varied wealthy (90/107), never cartoon-fat-cats.
 - Only Jesus wears cream.
+
+---
+
+## 🅿️ RUNNER PARK — A-auto 2026-08-06 (NEEDS-AUDIO — V1/timeline mismatch, row-69 class)
+
+16 stills GENERATED + QC-PASS (1 reroll: b04 collage → clean single wide), but
+`v2_assemble` refuses the AUDIO LOCK: **extracted timeline 98.846s vs V1 final
+97.106s** — a 1.74s shortfall, over the assembler's hard `abs(total−locked)>1.0`
+tolerance (v2_assemble.py line 531). The V1 mp4 is NOT stale by recency
+(newer_mp3s=0), but its duration is 1.74s short of the extract_beats timeline,
+so the AAC stream can't be copied aligned.
+
+The runner CANNOT fix this — the fix is `AUDIO_FROM_V1_SEGMENTS = True` in this
+row's beats_v2.py (rebuild the track from the V1 mp3s at extract_beats offsets),
+which is an author edit outside runner scope (audio-immutability law).
+
+**Stills are valid + reusable — do NOT regenerate.** 16 assets @ 2K, WIDOW
+portrait, TREASURY plate (build-06). CARE held: two mites countable (s07 = 2
+coins, s16 = 2 coins), widow charcoal-clad dignified, rich give handfuls of
+silver, pointing line lands on her (s12), only Jesus in cream.
+
+**RESUME (author/audio session):** add `AUDIO_FROM_V1_SEGMENTS = True` to
+beats_v2.py, then `python3 media-production-v2/v2_assemble.py 77` (stills already
+present), QC captions, ship. Then flip AUTHOR-BOARD row 77 → BUILT.
