@@ -292,3 +292,13 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   beat-text** item (rewrite must_show to the correct place/time, then --redo).
   Distinct from subtle drift: the whole SCENE (place + time-of-day) is wrong,
   but the fix is the author's beat text, not the runner's meter.
+- **A promote-first PLACE plate propagates its static anchor composition onto a
+  MOVEMENT/journey beat of that place** (row 101 b06 "went forty days ... unto
+  Horeb": the HOREB plate was promoted from b12's cave-mouth frame, so b06 —
+  which wants the tiny figure crossing vast country toward the far mountain —
+  inherited the arrived-at-the-cave composition instead). Expected side-effect of
+  place-locking by image; the destination beats look right, only the travel beat
+  loses its "journey" wide. NOT garbage and NOT a reroll under the COST LAW
+  (rerolling re-attaches the same plate) — FIX-WAVE note it. If a place has a
+  distinct travel/approach beat, promote its plate from a WIDE anchor, or leave
+  that one movement beat plate-free so it can render the journey.
