@@ -44,3 +44,35 @@ lands where its man stood — b16's scatter maps the vanished circle
 - Direction (row-83): dragged IN → set at centre → accusers OUT
   (eldest first) → she turns FREE toward the open court at the HUSH.
 - Only Jesus wears cream.
+
+---
+
+## ✅ RUNNER SHIP — A-auto 2026-08-06 (Machine A `Dev`)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 75` shows no open reviewer
+complaint on this row. Story built to the CARE laws below.
+
+- **21 painted stills @ native 2K** (V1 was a $0 session-A assembly of 10 W1
+  stills). 1 story-cast portrait (WOMAN). COURT plate = build-06 temple
+  (manual --take, committed) — colonnade consistent across s01/s08/s09/s15/s17/
+  s21, no battlement/wire regrowth.
+- **CARE held every frame:** stones are HELD LOW / dropped / left on the ground
+  / released downward at conviction (s11) — NEVER raised or flying (auto-reject
+  law). The woman is modest dark-red robe + brown mantle throughout — bowed and
+  clutched at the drag (s02-s05), rising to full dignified height by s18, mantle
+  settled; no lurid framing, no tears-as-spectacle. Writing (s09/s15) reads as
+  MARKS in the dust, never legible words; law-scroll insert (s13) is period
+  parchment script, no modern text. Exodus (s14) shows accusers departing with
+  stones left behind.
+- **Gates:** `v2_prompt.py --check` PASS before first credit. Only Jesus in
+  cream (verified all 21). Scale gate PASS — Jesus ordinary-sized vs accusers in
+  s06/s10/s11/s17; woman & Jesus comparable height in the s17 two-alone wide.
+  Beard board PASS — Jesus dark full beard consistent; accusers age-varied for
+  the exodus. Realistic photography throughout, zero cartoon/mixed frames. No
+  modern objects, no lens-staring, no collage/panels, no burned-in text, no
+  second cream figure.
+- **Audio: AUDIO LOCK PASS SHA256=7aeb3fddc41115e5ac18af0120228882e1bc9558bda77a1e8ed8ac84a93c9511** — byte-identical V1 john-8 audio, nothing re-voiced. Pre-flight
+  audio check passed (newer_mp3s=0, excess=-0.47) — no stale-V1 risk.
+- **COST: 0 rerolls of 21 beats (0%, well under 15% budget).** Row spend ≈ $2.81
+  gen + $0.13 portrait = **$2.94**, well under the $6.10 average.
+- 20.6 MB / 126.1 s. john-8_woman-taken-in-adultery.mp4.
