@@ -1,5 +1,25 @@
 # QC / RUNNER HANDOFF — build-78-who-is-my-mother (Mark 3:31-35)
 
+## RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-06, $0 spent, 0 credits)
+
+Pre-flighted the stale-V1 AUDIO LOCK at step 2 BEFORE any generate (row-74
+lesson). GENUINELY STALE: V1 `mark-3_who-is-my-mother.mp4` rendered
+2026-07-24 10:15:29, but all 11 locked mp3s are NEWER (2026-07-28 14:27:49);
+timeline total=72.61s vs V1 mp4 dur=77.79s (excess=+5.18s).
+`assert_v1_final_is_current` REFUSES → shipping it would carry stale voices.
+
+Runner cannot fix: the assembler's own hint is to set
+`AUDIO_FROM_V1_SEGMENTS = True` in this row's beats_v2.py, which is an AUTHOR
+audio decision (editing beats_v2.py is outside runner writes; audio-immutability
+law). No stills generated — this parks at $0.
+
+**AUTHOR FIX:** set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py (renders
+narration from the V1 build's OWN mp3s at extract_beats offsets — nothing
+re-voiced/re-timed) OR re-render the V1 mp4. Then set Ready ✅ / Audio OK.
+**RESUME (after author fix):** `python3 media-production-v2/v2_story_cast.py build-78-who-is-my-mother`
+then `v2_gen_api.py build-78-who-is-my-mother --ceiling …` then `v2_assemble.py 78`.
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 12 beats, ~66 s — a short row.
 

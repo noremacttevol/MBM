@@ -89,7 +89,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 75 | build-75-woman-taken-in-adultery | BUILT | 21 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 76 | build-76-suffer-the-little-children | BUILT | 14 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 77 | build-77-widows-mite | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
-| 78 | build-78-who-is-my-mother | AUTHORED | 0 | OK |  | ✅ |
+| 78 | build-78-who-is-my-mother | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0): STALE V1 mp4 (row-69 class), pre-flighted at step 2 before any spend. V1 mark-3 mp4 rendered 2026-07-24; all 11 locked mp3s NEWER (2026-07-28), excess +5.18s — v2_assemble refuses AUDIO LOCK. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 79 | build-79-the-seventy-sent | AUTHORED | 0 | OK |  | ✅ |
 | 80 | build-80-come-unto-me | AUTHORED | 0 | OK |  | ✅ |
 | 81 | build-81-render-unto-caesar | AUTHORED | 0 | OK |  | ✅ |
