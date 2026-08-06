@@ -1,0 +1,14 @@
+{
+ "HOME": {
+  "manual": true,
+  "src_beat": "s13-or-what-man-is-there",
+  "src_build": "build-109-ask-seek-knock",
+  "src_file": "build-109-ask-seek-knock/assets/s13-or-what-man-is-there.jpeg"
+ },
+ "SLOPE": {
+  "manual": true,
+  "src_beat": "s02-jesus-teaching-on-a-hillside",
+  "src_build": "build-109-ask-seek-knock",
+  "src_file": "build-109-ask-seek-knock/assets/s02-jesus-teaching-on-a-hillside.jpeg"
+ }
+}
