@@ -323,3 +323,12 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   outright garbage (nobody can read a sideways frame), distinct from the 16:9-
   letterbox-inside-9:16 defect. Mandatory reroll on sight; one `--redo` landed it
   upright. Tends to hit lone-figure "lifted hands / reaching outward" beats.
+- **"Coats of skins" / any leather-garment beat renders as a MODERN tailored
+  leather JACKET or trench coat** (row 113 b20 the-coats-found, and faintly
+  b21/b24): a Genesis-3 beat asking for "garments of soft dark leather" comes
+  back as a present-day leather jacket with a COLLAR, LAPELS and BUTTONS laid on
+  a stone — a modern-object fail. One `--redo` landed raw draped animal HIDES
+  (correct, untailored). Watch any beat whose prompt names leather/hide/skin
+  clothing; the model defaults to modern outerwear. Reroll on sight when buttons/
+  lapels/zippers appear; a slightly-modern seamed hide is FIX-WAVE. (For Adam/Eve
+  a fur/hide look is CORRECT — the "never fur/fleece" rule is Jesus-only.)
