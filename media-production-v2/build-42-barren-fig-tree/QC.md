@@ -75,3 +75,8 @@ PASSED: intercession staged side-on so gardener-between-owner-and-tree reads;
 tree state follows the story (leafy → bare → the green shoot at the end); only
 Jesus in cream; no phantom people in the wides; no modern objects.
 Row ~$4.9; meter 236.64.
+
+## COMPLAINT LEDGER
+none open — row 42 carries no complaint on the live board (verified against the
+Firestore dump, 2026-08-05). Nothing to re-cure; the cut is judged on the
+standing laws only.
