@@ -115,7 +115,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 101 | build-101-still-small-voice | BUILT | 28 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 102 | build-102-jacobs-ladder | BUILT | 28 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 103 | build-103-peters-confession | BUILT | 20 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 104 | build-104-boy-samuel | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
+| 104 | build-104-boy-samuel | BUILT | 22 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 105 | build-105-face-to-face | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL — V1 mp4 rendered 2026-07-24, all 18 mp3s NEWER (2026-07-29); recency gate refuses AUDIO LOCK. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 106 | build-106-god-spake-by-prophets | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1-FINAL, BOTH gates — |Δ|=6.61s AND all mp3s NEWER than the 2026-07-24 V1 mp4. Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. See QC.md RUNNER PARK. |  |
 | 107 | build-107-john-baptist-doubt | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
