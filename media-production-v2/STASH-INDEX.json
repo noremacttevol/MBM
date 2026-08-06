@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 07:31:44",
+ "scanned": "2026-08-06 07:50:10",
  "entries": [
   {
    "row": 1,
@@ -36839,6 +36839,341 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame keeps the doubter at rest: John settled in the gold shaft with his eyes closed and his breathing long, the iron lying forgotten on a wrist gone loose, the wild face smoothed into something very near a s"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b01",
+   "file": "build-109-ask-seek-knock/assets/s01-people-have-always-wondered-how.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "On the flowered spring slope the oldest question waits in the faces: farmers and mothers and old men settled on the grass with their hands loosely folded, brows carrying the puzzle every generation hands the next \u2014 how d"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b02",
+   "file": "build-109-ask-seek-knock/assets/s02-jesus-teaching-on-a-hillside.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The answer arrives sitting down, the camera at the ring's edge behind the near listeners' shoulders: down: Jesus settled on the grass among the ring, anemones red around his feet, the lake far and blue below the slope \u2014 "
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b03",
+   "file": "build-109-ask-seek-knock/assets/s03-ask-and-it-shall-be.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The teaching comes with its own sign language: ASK \u2014 his palm turning open and up, simple as a child's \u2014 SEEK \u2014 the hand rising to shade his brow, scanning the far blue distance \u2014 KNOCK \u2014 the loose fist rapping twice on "
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b04",
+   "file": "build-109-ask-seek-knock/assets/s04-three-words-and-each-one.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The warmth moves down the ring like morning down a wall: on the first face, interest \u2014 a farmer's brow lifting at the plainness of it; on the next, hope \u2014 a mother's lips parting as the words find something long shelved;"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b05",
+   "file": "build-109-ask-seek-knock/assets/s05-ask-like-a-child-who.jpeg",
+   "tokens": [
+    "HOME",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The first verb gets its portrait at home: the small boy in the warm window-light with both hands out and open, face tipped up, round cheeks certain \u2014 no cringe of the beggar in him, no speech prepared, no doubt anywhere "
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b06",
+   "file": "build-109-ask-seek-knock/assets/s06-wear-god-down.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the theory the hillside came in with: one weathered listener's face screwed up in imagined effort \u2014 jaw set, knuckles white around each other \u2014 prayer pictured as siege work, wearing heaven down the way water we"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b07",
+   "file": "build-109-ask-seek-knock/assets/s07-seek-more-than-a-word.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The second verb walks out into the morning: a traveller on the hill path with his hand shading his eyes, scanning the folded country ahead ridge by ridge \u2014 moving as he looks, patient as a man reading a friend's directio"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b08",
+   "file": "build-109-ask-seek-knock/assets/s08-for-every-one-that-asketh.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The promise gets its full circumference, the camera outside the ring so the sweeping arm crosses in profile: circumference: Jesus's arm sweeping the whole seated ring \u2014 EVERY ONE \u2014 the gesture passing over the farmer and"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b09",
+   "file": "build-109-ask-seek-knock/assets/s09-not-perfectly.jpeg",
+   "tokens": [
+    "HOME",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the standard the asking actually requires: two small hands held out in the window-light with the morning still on them \u2014 dirt under the little nails, a scraped knuckle from the wall he climbed, a smudge of yeste"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b10",
+   "file": "build-109-ask-seek-knock/assets/s10-knock-and-keep-knocking-on.jpeg",
+   "tokens": [
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The third verb meets its answer mid-motion: a hand raised at the heavy wooden door in one more of its patient knocks \u2014 and the door already giving: the iron ring turning, the gap widening along the jamb, warm gold light "
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b11",
+   "file": "build-109-ask-seek-knock/assets/s11-not-maybe-not-for-the.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the promise's actual demographic: a day-laborer with grass in his hair, an old woman whose knuckles say fifty years of wash-water, a boy who cannot sit still even for this \u2014 not one impressive face in the frame,"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b12",
+   "file": "build-109-ask-seek-knock/assets/s12-every-one-who-asks-receives.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The teaching pulls its chair closer: Jesus leaning forward on the grass with the storyteller's shift in his shoulders, hands starting to shape something small and domestic in the air \u2014 a loaf, a table, a child's height o"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b13",
+   "file": "build-109-ask-seek-knock/assets/s13-or-what-man-is-there.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The question answers itself in any kitchen: the small boy at his father's knee with his hands up \u2014 bread, abba \u2014 and the father's arm already moving, unthinking as breath, to the fresh loaf on the low table \u2014 tearing the"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b14",
+   "file": "build-109-ask-seek-knock/assets/s14-or-if-he-ask-a.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The second absurdity dies the same quiet death: the boy's dish held up hopeful at the table's edge, and into it, from the father's hand, a good fish \u2014 silver, fresh, the day's best of the catch \u2014 laid in with the ordinar"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b15",
+   "file": "build-109-ask-seek-knock/assets/s15-a-child-asks-its-father.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The rhetorical question eats its answer: the boy leaned against his father's knee working through the warm torn bread with both hands and his whole attention, and the father's rough hand resting easy in the dark curls, n"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b16",
+   "file": "build-109-ask-seek-knock/assets/s16-or-a-snake-when-he.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the refutation itself: the father's face \u2014 tired from work, kind past argument \u2014 and the very idea of the cruel gift finding nothing in it to attach to: no corner of those eyes where such a thing could live, no "
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b17",
+   "file": "build-109-ask-seek-knock/assets/s17-if-ye-then-being-evil.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The argument makes its great jump in his hands: first the small measure \u2014 finger and thumb a hand-span apart: your love, flawed and tired and real \u2014 then both arms thrown wide at the whole spring sky over the lake \u2014 HOW "
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b18",
+   "file": "build-109-ask-seek-knock/assets/s18-do-you-have-to-say.jpeg",
+   "tokens": [
+    "SLOPE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the exam-theory of prayer: an earnest listener with his lips moving silently through a rehearsal, fingers counting off phrases like beads, brow knotted over the right order of the holy words \u2014 get it wrong and s"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b19",
+   "file": "build-109-ask-seek-knock/assets/s19-if-flawed-tired-imperfect-parents.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The argument's small premise, proven at dusk: the father home spent from the field, dust still on him, shoulders done \u2014 and producing from behind his back, with the last energy of the day, a little carved wooden donkey f"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b20",
+   "file": "build-109-ask-seek-knock/assets/s20-prayer-is-not-twisting-arm.jpeg",
+   "tokens": [
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame retires the siege theory with one quiet fact: the heavy wooden door standing already ajar in the warm afternoon light \u2014 iron ring at rest, jamb unforced, a hand's-width of gold spilling through the standing gap"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b21",
+   "file": "build-109-ask-seek-knock/assets/s21-it-is-a-child-asking.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The secret at the bottom of the teaching: the father down on his heels at the boy's own level, and on his face \u2014 at nothing more than being asked \u2014 open gladness: the small request received like a present, the tired eyes"
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b22",
+   "file": "build-109-ask-seek-knock/assets/s22-not-impressively-simply-honestly-like.jpeg",
+   "tokens": [
+    "HOME",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the only technique the teaching requires: the boy asking in the warm light with his whole plain self \u2014 no folded formal hands, no borrowed big words, no glance around to check his form \u2014 just the open face, the "
+  },
+  {
+   "row": 109,
+   "build": "build-109-ask-seek-knock",
+   "beat": "v2-r109-b23",
+   "file": "build-109-ask-seek-knock/assets/s23-the-father-is-not-reluctant.jpeg",
+   "tokens": [
+    "HOME",
+    "FATHER",
+    "CHILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The closing frame keeps the posture that answers every fear about prayer: the father leaned all the way IN \u2014 elbow on knee, chin in hand, face a hand-span from the boy's unspooling story in the gold afternoon light \u2014 not"
   }
  ]
 }
