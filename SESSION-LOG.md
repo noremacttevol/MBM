@@ -1,3 +1,39 @@
+## 2026-08-06 (Opus autopilot) — Row 109 ask-seek-knock SHIPPED + DEPLOYED; row 108 parked NEEDS-AUDIO — Machine A `Dev`
+
+PARALLEL-LANES loop, lowest Ready ✅ empty-claim row first; every RUNNING sibling
+(48/60/61/62/63/84/103/104/107) left untouched.
+
+**Batch $0 audio pre-flight of the whole 108-161 AUTHORED-Ready block** (both
+gates: recency + |Δ|≤1.0): 108/113/117-120/125-128/130/133-136/138-139/141-145/
+147/153/154/157/160 fail STALE-V1-FINAL or the duration gate; **109/110/111/112/
+114/115/116/121-124/129/131/132/137/140/146/148-152/155/156/158/159/161 are
+BUILDABLE.** This map tells later lanes which rows to build vs park before they
+touch the meter.
+
+**Row 108 (My sheep hear my voice, John 10) — PARKED NEEDS-AUDIO, $0.** Board read
+Audio OK but the authoritative pre-flight fails BOTH gates: all 14/14 mp3s NEWER
+than the 2026-07-24 V1 mp4 AND |Δ|=2.13s>1.0. Runner cannot re-voice; author must
+set AUDIO_FROM_V1_SEGMENTS=True. RUNNER PARK note in QC.md; claim cleared.
+
+**Row 109 (Ask, seek, knock, Matt 7:7-11) — SHIPPED + DEPLOYED.** Audio pre-flight
+PASS (fresh-from-segments, no v1 mp4 in v2 dir; |Δ|=0.02, 0 newer). `--check` PASS
+(23 beats), QUEUE confirmed real story. No open picture complaints (only prior
+"Findeth" pronunciation, marked RESOLVED — audio, byte-identical narration ships
+it unchanged). TWO NEW places promote-first: SLOPE ← b02 (10 beats), HOME ← b13
+(11 beats). 2 portraits (FATHER, CHILD); Jesus from locked V2 master ref. Beard +
+scale + realistic-only + only-Jesus-cream gates pass; fish-not-serpent /
+bread-not-stone honored (b16 = father's "trustworthiness" face, no snake).
+AUDIO LOCK PASS `SHA256=21d8ace3…`, 20.0 MB / 142.4 s. Commit `54a819133` (ship)
++ reviewer card/SESSION-LOG. Firebase deployed + live-verified.
+
+**Cost/quality:** **1 reroll of 23 (4.3%)** — b21 locked-CHILD drifted to fair
+hair, rerolled to the correct dark-curly boy — under the 15% budget. Row ≈
+**$3.47** (2 portraits + 2 anchors + 21 stills + 1 reroll), under the $6.10/row
+average → COST LAW trend DOWN. No new RUNNER-LESSONS defect class. FIX-WAVE only:
+b03 three-hand-gesture soft-miss, b07 far-hill buildings borderline-modern.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 107 john-baptist-doubt SHIPPED + DEPLOYED (same session as row 102; rows 105-106 parked) — Machine A `Dev`
 
 Second + third rows of the same autopilot session that shipped row 102 (below).
