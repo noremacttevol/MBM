@@ -1,3 +1,36 @@
+## 2026-08-06 (Opus autopilot) — Row 79 the-seventy-sent SHIPPED + DEPLOYED; row 78 parked NEEDS-AUDIO — Machine A `Dev`
+
+Session chain: at start read SESSION-LOG top (row 75 woman-taken-in-adultery,
+commit `6a0db67bf`) and verified it in `git log`. Ran the PARALLEL-LANES loop
+(many sibling A-auto lanes live — 48/60/61/62/63/77 etc.; never touched them).
+
+**Row 78 (who-is-my-mother, Mark 3): PARKED NEEDS-AUDIO, $0 spent.** Pre-flighted
+the stale-V1 AUDIO LOCK at step 2 before any generate (row-74 lesson). GENUINELY
+STALE: V1 mp4 rendered 2026-07-24, all 11 locked mp3s newer (2026-07-28),
+excess +5.18s → `assert_v1_final_is_current` REFUSES. Fix (set
+AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py) is an author audio decision outside
+runner writes. Board → NEEDS-AUDIO, QC.md RUNNER PARK, cleared Ready, pushed.
+Commit `3ec618823`.
+
+**Row 79 (the-seventy-sent, Luke 10:1-20): SHIPPED + DEPLOYED.** Lowest Ready
+row with empty claim after 78 parked; pre-flight PASS (newer_mp3s=0, excess=+0.33).
+Cross-checked QUEUE (valid story, not swapped); no open complaints (COMPLAINT
+LEDGER: none open). `v2_prompt.py --check` PASS. 19 painted stills @ native 2K
+(V1 was a $0 8-still assembly) + 0 portraits (PAIR is cast). ROADS plate wired
+from build-38. Provision close-ups b02/b03 EMPTY-HANDED (no scrip); harvest b08
+= two-man workforce in a vast field ("labourers few"). Only Jesus cream; scale +
+beard gates PASS; realistic throughout, zero cartoon/mixed. **0 rerolls of 19
+(0%).** FIX-WAVE logged: small shoulder scrips on disciples in the wides (subtle
+drift; the no-bag beats are clean). **AUDIO LOCK PASS
+SHA256=fc217bd9…** (byte-identical V1 luke-10). 20.2 MB / 117.9 s.
+Ship commit `44999b175`. Deployed to Firebase + live-verified.
+
+**Cost this session:** row 79 ≈ **$2.55** (19 gen, 0 rerolls, 0 portraits),
+**0% rerolls** — well under the $6.10/19% running average; the row-78 park cost
+$0. Trend DOWN per the COST LAW. Chained from row 75 commit `6a0db67bf`.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 72 calling-matthew SHIPPED + DEPLOYED — Machine A `Dev`
 
 Chained from row 68 (its SESSION-LOG entry + commit `c5713f27b`/`d36a17435`
