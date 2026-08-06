@@ -1,3 +1,35 @@
+## 2026-08-05/06 (Opus runner) — FIVE cuts shipped AND DEPLOYED: rows 17, 40, 41, 42, 43 — Machine A `Dev`
+
+Cameron: *"make the fucking videos"* — and he was right, the session had
+drifted into triage docs. Rows 42 and 43 built back-to-back after that.
+
+- **Row 42 barren-fig-tree**: 35 stills, 223.4s, AUDIO LOCK PASS. 2 rerolls,
+  both MULTI-PANEL COLLAGES (a 4-up and a 3-up grid rendered inside one 9:16
+  frame — a new failure mode worth watching for).
+- **Row 43 wedding-garment**: 48 stills, 285.3s, AUDIO LOCK PASS, **zero
+  rerolls** — the cleanest row of the session. All three plates were pre-wired
+  by the author (HALL from build-22, ROADS from 31, TEMPLE from 06), which is
+  exactly why it ran clean: copying proven pictures works.
+
+**Earlier in the same session:** rows 17, 40, 41 built; the deploy gap found and
+closed (a push is NOT a delivery — `firebase deploy` is now step 7c); two
+tooling bugs fixed (`generate_one` missing entirely; places being queued as
+character portraits); and the pronunciation ROOT CAUSE found — every respelling
+was applied to ONE voice, leaving the other four broken, which is why Cameron
+kept re-filing the same complaint. Fixed in `mbm_pronounce.py`.
+
+**Complaint board pulled live**: 81 open across 160 rows, triaged into 7 classes
+in `media-production/COMPLAINT-FIX-PLAN.md`. The finding that matters: the V2
+picture wave copies V1 audio byte-for-byte, so it can NEVER fix the 34 audio
+complaints — they need their own sweep, and 30 builds already have audio older
+than the dict.
+
+Meter 206.36 → 243.88 (~$37.5 for five rows). All five live and verified
+playable on https://milk-b4-meat.web.app/review.html.
+
+Cameron is handing the remaining rows to a loop process; this session stops
+after 43.
+
 ## 2026-08-06 — AUTOPILOT INSTALLED: the loop that builds until all 200 are done (Cameron: "is there any way we can make this into a loop process until its done?") — Machine A `Dev`
 
 **What now exists:** `media-production-v2/autopilot.sh` + a crontab line ticking
