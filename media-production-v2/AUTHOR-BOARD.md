@@ -76,7 +76,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 62 | build-62-ephphatha | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 63 | build-63-man-born-blind | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 64 | build-64-pool-of-bethesda | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
-| 65 | build-65-help-mine-unbelief | AUTHORED | 0 | OK |  | ✅ |
+| 65 | build-65-help-mine-unbelief | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 66 | build-66-malchus-ear | AUTHORED | 0 | OK |  | ✅ |
 | 67 | build-67-the-transfiguration | AUTHORED | 0 | OK |  | ✅ |
 | 68 | build-68-multitudes-mountain | AUTHORED | 0 | OK |  | ✅ |
