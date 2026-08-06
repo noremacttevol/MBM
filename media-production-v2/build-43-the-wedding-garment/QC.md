@@ -65,3 +65,18 @@ phantom-people class).
   the dark; nobody in the doorway looks into the lens.
 - Person-free frames: b07 b15 b19 (table detail) b47-ish (steward only)
   — keep headcounts exactly as written.
+
+## RUNNER QC LOG — first-attempt V2 cut (Machine A, 2026-08-05)
+48/48 at 2K, ZERO rerolls needed. Portraits KING+STEWARD+GUEST wired via REFS;
+HALL (from build-22's proven royal hall) + ROADS (31) + TEMPLE (06) all
+pre-wired by the author, so no promote-first pass was required.
+PASSED: gold-robe count consistent at the door and in the hall; the king holds
+one blue robe + gold circlet in every appearance; violence stays restrained and
+off-screen (the guest is walked out bound, never struck); only Jesus wears
+cream, including in the temple-court frames; direction anchors hold on the road
+beats; no collages, no modern objects, no giant figures.
+Row ~$6.8; meter $243.88.
+
+## COMPLAINT LEDGER
+none open — row 43 carries no complaint on the live board (verified against the
+Firestore dump, 2026-08-05).
