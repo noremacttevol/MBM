@@ -1,3 +1,46 @@
+## 2026-08-06 (Opus autopilot) — Row 65 help-mine-unbelief SHIPPED + DEPLOYED — Machine A `Dev`
+
+Chained from row 64 (commit ad65fd183 verified in `git log` at session start). Rows
+48/60/61/62/63/64/66 RUNNING/LIVE siblings (never touched), 50/51 parked NEEDS-AUDIO,
+45/46/47/49/52-59 shipped. Lowest Ready ✅ empty-claim row was **65 ("Help thou mine
+unbelief", Mark 9:14-29)** — cross-checked QUEUE (valid story, not swapped), claimed by
+push (AUTHOR-BOARD RUNNING, commit 7f29e0192), built end to end.
+
+**Row 65:** 36 painted stills @ native 2K (V1 had 8). `--check` PASS before first credit.
+2 story-cast portraits (FATHER weathered/dark-grey beard, BOY one age/dark hair); HILLFOOT
+plate promoted-first from THIS row's own b01 (13 beats copy it). Mark 9 laddered shot by
+shot: Jesus down the misty mountain into the argument → cornered disciples → the father's
+plea + the years of torment → "If thou canst do anything" → "If thou canst believe" → the
+title prayer "Lord, I believe; help thou mine unbelief" (little faith AND the unbelief,
+both laid down) → "come out of him, and enter no more" → boy as one dead → the hand-lift →
+given back to his father → walk home into dusk → the house teaching "by prayer and fasting."
+CARE (Flags A/R/G) held: adversary NEVER depicted (command lands on empty air over the held
+boy), seizure restrained (boy held by father every frame, no foam/self-harm), "as one dead"
+peaceful not corpse-grey, hand-lift no glow. Only Jesus in cream; beard + scale gates PASS;
+locked green/hazel eyes per V2 ref; realistic throughout (zero cartoon/mixed — s36 epilogue
+photographic, avoided the row-56 trap).
+
+**COMPLAINT LEDGER:** open complaint **"needs the captions to be redone still"** → FIXED by
+the V2 caption renderer: rendered caption frames (t=4/110/216 s) confirm every caption sits
+in the bottom band only, split with the narration, never over the art; closing question card
+renders clean on cream with ZERO box glyphs. Review card answers it in Cameron's words.
+
+**Cost/quality:** **ZERO rerolls** of 36 (0% vs 15% budget) — best-case for the COST LAW.
+Row ≈ **$5.09** (2 portraits $0.27 + b01 anchor $0.13 + 35-beat gen $4.69), under the $6.10
+running average; the 0% reroll rate vs the 19% baseline keeps cost heading DOWN. FIX-WAVE
+(no reroll): b17 title prayer rendered as a wide instead of a tight father-close (legitimate,
+not a defect); s36 boy's soft shoes slightly ambiguous (minor footwear item).
+
+**Audio:** committed V1 mark-9 mp4 audio is intact-new-voice; `v2_assemble.py 65` →
+**AUDIO LOCK PASS SHA256=efe78305…** byte-identical, nothing re-voiced. 20.6 MB / 220.5 s.
+
+**Ship:** commit 17c3bc3ef (mp4 + QC.md + boards + QUEUE). review.html v65 card →
+`data-review-wave="realistic-v2"`, hash 17c3bc3ef, v2 mp4 path. Deployed to Firebase
+`milk-b4-meat` + live-verified (below). STASH rescan + RUNNER-LESSONS checked. Row 65
+ticked BUILT on AUTHOR-BOARD.
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 64 pool-of-bethesda SHIPPED + DEPLOYED — Machine A `Dev`
 
 Chained from row 59 (commit 3005df5d1 verified in `git log` at session start). Rows
