@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 07:52:50",
+ "scanned": "2026-08-06 08:12:17",
  "entries": [
   {
    "row": 1,
@@ -37501,6 +37501,419 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame prays, the camera outside the circle behind the bowed shoulders: the terrace gone gold with late light, Jesus and the ring of disciples with heads bowed together, and on every mouth the same two words m"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b01",
+   "file": "build-111-lilies-and-sparrows/assets/s01-he-was-talking-to-people.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The meadow holds, the camera at the ring's edge behind the near worried shoulders, a ring of people who know what worry weighs: the farmer's hands knotted around his own wrists, the young mother's arm too tight around he"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b02",
+   "file": "build-111-lilies-and-sparrows/assets/s02-whether-there-would-be-enough.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the oldest arithmetic in the world: the worn farmer's eyes gone far past the meadow to some private granary, counting \u2014 the jaw working slowly, the brows drawn, sacks and mouths and months tallied and re-tallied"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b03",
+   "file": "build-111-lilies-and-sparrows/assets/s03-behold-the-fowls-of-the.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sermon's first exhibit, the camera at the side so the directing arm and the turning gazes read in profile, is already on stage: Jesus's arm sweeps low toward the near grass \u2014 BEHOLD \u2014 where a scatter of brown sparrow"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b04",
+   "file": "build-111-lilies-and-sparrows/assets/s04-no-barns.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One bird carries the whole two-word sermon: a single sparrow perched on a bending seed head in the soft light \u2014 sleek, round-fed, entirely unbothered \u2014 its total worldly holdings visible in one glance: the seed in its be"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b05",
+   "file": "build-111-lilies-and-sparrows/assets/s05-are-ye-not-much-better.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The question turns from the grass to the people: Jesus's warm face direct into the ring \u2014 ARE YE NOT MUCH BETTER THAN THEY \u2014 and the valuation lands visibly: the thin laborer blinking at being priced above anything at al"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b06",
+   "file": "build-111-lilies-and-sparrows/assets/s06-no-savings.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The exhibit continues its argument by playing: two sparrows down in the dry path-dust, bathing \u2014 wings flinging little fountains of earth, feathers scandalously ruffled, the whole performance costing nothing and worth wa"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b07",
+   "file": "build-111-lilies-and-sparrows/assets/s07-and-not-one-of-them.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The wide frame shows the kitchen: the whole slope one spread table \u2014 seed heads bending heavy over every foot of grass, sparrows dropping onto them at will, eating where they land, the supply running unbroken from the ri"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b08",
+   "file": "build-111-lilies-and-sparrows/assets/s08-and-you-you-are-worth.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The valuation gets a shoulder to land on: Jesus's hand resting warm on the thin day-laborer \u2014 the least-fed, worst-paid man on the hillside \u2014 AND YOU \u2014 the words aimed singular and direct while the man's face does its un"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b09",
+   "file": "build-111-lilies-and-sparrows/assets/s09-where-the-next-meal-would.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on worry wearing its most tender face: the young mother looking down at the baby asleep against her \u2014 and through all the love in the look, the question running underneath like cold water: what do I feed you when t"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b10",
+   "file": "build-111-lilies-and-sparrows/assets/s10-consider-the-lilies-of-the.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The second exhibit is smaller and wins bigger: Jesus crouched in the grass with one red anemone tilted gently up on its stem between his fingers \u2014 CONSIDER \u2014 and the whole ring bending in around one flower: the scarlet s"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b11",
+   "file": "build-111-lilies-and-sparrows/assets/s11-and-instead-of-an-argument.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The teacher's whole method in one gesture: no scroll opened, no argument mounted \u2014 just Jesus's arm sweeping wide across everything already there: the anemones burning red through the grass, the sparrows working the seed"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b12",
+   "file": "build-111-lilies-and-sparrows/assets/s12-these-flowers-do-not-work.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the idlest splendor in Galilee: a stand of red anemones swaying easy in the morning breeze \u2014 petals at their scarlet best, black hearts dusted gold, silk no worm spun and no hand wove \u2014 and behind the brilliance"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b13",
+   "file": "build-111-lilies-and-sparrows/assets/s13-look-at-the-little-sparrows.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a teacher who likes his visual aids: Jesus in profile, hand extended toward the sparrows in the grass, and on his face \u2014 plain as the morning \u2014 delight: the warm eyes crinkled at the dust-bathing, the half-smile"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b14",
+   "file": "build-111-lilies-and-sparrows/assets/s14-and-yet-the-richest-king.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The contest is staged on a market table: a merchant's costliest bolt unrolled \u2014 deep purple shot with gold thread, king's cloth, a year's wages a yard \u2014 and laid across it, dropped by some passing child, one ordinary red"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b15",
+   "file": "build-111-lilies-and-sparrows/assets/s15-no-plans-for-next-winter.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The most reckless budget on the hillside, thriving: a mother sparrow on a grey field stone stuffing seed into two gaping fledglings \u2014 mouths she cannot possibly guarantee against the winter she has made no plans for \u2014 an"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b16",
+   "file": "build-111-lilies-and-sparrows/assets/s16-wherefore-if-god-so-clothe.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The argument goes into his two hands: in one, a handful of cut dry grass from someone's fuel bundle \u2014 today's glory, tomorrow's oven \u2014 and the other open toward the living scarlet still burning through the meadow around "
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b17",
+   "file": "build-111-lilies-and-sparrows/assets/s17-then-he-reaches-down-to.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sermon bends down to the ground it stands on: Jesus's hand descending slow and gentle into the grass right at the ring's feet \u2014 where the anemones have been burning scarlet all morning, unnoticed at the exact eye-lev"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b18",
+   "file": "build-111-lilies-and-sparrows/assets/s18-here-is-his-point-gentle.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole classroom rests, the camera far off taking teacher, ring, birds and flowers from the side, inside its own conclusion: teacher and ring seated together in the flowered grass, sparrows still working the seed head"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b19",
+   "file": "build-111-lilies-and-sparrows/assets/s19-take-therefore-no-thought-for.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The command comes with its own choreography: Jesus's two hands, palms down, making the slow gentle motion of a man setting a heavy jar off his shoulders onto the ground \u2014 THERE \u2014 take no thought for the morrow, the morro"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b20",
+   "file": "build-111-lilies-and-sparrows/assets/s20-sufficient-unto-the-day-is.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the kindest fence ever built: Jesus's steady face delivering the day-sized verdict \u2014 SUFFICIENT UNTO THE DAY \u2014 the words drawing a quiet boundary around this one morning: its own bread, its own troubles, its own"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b21",
+   "file": "build-111-lilies-and-sparrows/assets/s21-go-out-to-meet-tomorrow.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on a body coming back from tomorrow: the old man with the stick, who has spent the whole morning leaned forward into some dreaded next-month \u2014 and now, under the teaching, the forward strain easing out of him by de"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b22",
+   "file": "build-111-lilies-and-sparrows/assets/s22-tomorrow-will-look-after-itself.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The last weight gets a second shoulder: Jesus moved in beside the worn farmer whose arithmetic started the morning, one hand resting steady on the bowed back \u2014 today has enough in it, and you were never meant to haul nex"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b23",
+   "file": "build-111-lilies-and-sparrows/assets/s23-he-is-not-scolding-the.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the difference between a scold and a physician: Jesus's face toward the worried ring carrying not one line of rebuke \u2014 the eyes that know exactly what an empty flour jar sounds like when you scrape it, what a le"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b24",
+   "file": "build-111-lilies-and-sparrows/assets/s24-they-just-grow-where-they.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on contentment with an address: a cluster of anemones rooted in the seam of a grey field stone \u2014 scarlet blazing up out of a crack an inch wide, thriving exactly where the wind set them down \u2014 no reaching for bette"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b25",
+   "file": "build-111-lilies-and-sparrows/assets/s25-he-is-gently-loosening-your.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the gentlest rescue on the hillside: the farmer's fist \u2014 white-knuckled around nothing, clenched from years of holding on \u2014 and Jesus's hands around it, easing the fingers open one patient finger at a time, neve"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b26",
+   "file": "build-111-lilies-and-sparrows/assets/s26-but-seek-ye-first-the.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole economy is reordered in one motion: Jesus's hand rising FIRST \u2014 up toward the high morning sky, the kingdom's direction, the one thing sought before all things \u2014 and then opening slowly downward over the meadow"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b27",
+   "file": "build-111-lilies-and-sparrows/assets/s27-put-him-first-he-says.jpeg",
+   "tokens": [
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The same ring, unknotted: where the morning began with wrung hands and braced shoulders, the grass now holds different bodies \u2014 the farmer's palms open on his knees, the mother's arm easy around her waking baby, the labo"
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b28",
+   "file": "build-111-lilies-and-sparrows/assets/s28-the-same-father-who-has.jpeg",
+   "tokens": [
+    "MEADOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The wide gold light takes inventory and finds nothing missed: every seed head on the slope bending with grain, every sparrow on it fed round, every anemone dressed past Solomon down to the ones blooming where no eye but "
+  },
+  {
+   "row": 111,
+   "build": "build-111-lilies-and-sparrows",
+   "beat": "v2-r111-b29",
+   "file": "build-111-lilies-and-sparrows/assets/s29-you-can-breathe-you-are.jpeg",
+   "tokens": [
+    "MEADOW",
+    "RING"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame simply breathes: the ring at deep ease around their teacher in the day's warmest gold \u2014 the baby asleep, the old man's eyes closed in the sun, sparrows dust-bathing unafraid a yard from human hands \u2014 a "
   }
  ]
 }
