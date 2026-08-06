@@ -1,3 +1,40 @@
+## 2026-08-06 (Opus autopilot) — Row 110 lords-prayer SHIPPED + DEPLOYED — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (row 103 peters-confession
+ship) and confirmed commit `aad26b93e` in `git log`. Ran the PARALLEL-LANES loop,
+lowest Ready ✅ empty-claim row first = **row 110 (The Lord's Prayer, Matthew 6 /
+Luke 11)**; every RUNNING sibling (48/60/61/62/63/84/104/107/109) left untouched.
+
+**Row 110 — SHIPPED + DEPLOYED.** Cross-checked QUEUE (not swapped). One OPEN
+complaint: *"pronounced 'lead' wrong at 1:27 it rhymes with 'seed' and is
+pronounced as /liːd/."*
+- This is the row-57 **AUDIO-PRONUNCIATION EXCEPTION**, not a park: board Audio=OK,
+  `make_narration.py` carries `SPOKEN={"lead":"leed"}` (added for Cameron denial
+  #110, 2026-07-18), and git shows fix `a0af318bb` THEN ship-rebuilt `524d87de4`
+  (V1 mp4 re-rendered after the override). $0 pre-flight PASSED (RECENCY ok,
+  |total−mp4|=0.070s). The runner ships the already-corrected byte-identical audio;
+  **AUDIO LOCK PASS SHA256=4679aacf… IS the cryptographic proof** the "leed"
+  reading is in the shipped audio. **Complaint FIXED + proven.**
+- `--check` PASS (23 beats, 0 WARN). 23 stills at native 2K vs V1's 10.
+- 2 story-cast portraits (FATHER + CHILD). Two places **promoted-first from this
+  row's own anchors**: PLACE (olive prayer grove) ← s01 → 7 beats; HOME (bread-oven
+  house) ← s06 → 9 beats. Row 40's GROVE plate NOT taken — all its GROVE frames are
+  Jesus-bearing (RUNNER-LESSONS forbids wiring a Jesus-bearing plate); shared GROVE
+  text-lock carries "same prayer place as row 40."
+- Light QC every frame: Jesus master-locked cream-only, scale/beard/anatomy/
+  no-modern/no-lens-stare/no-collage/realistic-only all PASS (0 cartoon/mixed);
+  FATHER/CHILD/PETER consistent; b13 "lead ALONGSIDE-past the hazard" doctrine held.
+  1 reroll: b07 rendered ROTATED 90° (garbage) → upright rooftop frame on redo
+  (new RUNNER-LESSON). b18 crate + b22 chair borderline-modern furniture → FIX-WAVE.
+- Captions bottom-band only (white narrator / blue scripture / red Jesus), question
+  card clean (verified on rendered mp4 t=5/70/138s). 19.8 MB / 144.9s.
+- **Cost ≈ $3.48, rerolls 1/23 = 4.3%** (under 15% budget, under the $6.10/row
+  average — COST-LAW trend DOWN: 0 re-paid faces, both plates promoted free).
+- Ship commit `824b4260a3d60a1d69648d37b08bea0aa2546392` (mp4 verified in it).
+  STASH rescanned (2466 stills/75 builds). Review card `data-review-wave=
+  "realistic-v2"`, `data-hash`=ship commit, video→v2 raw path; Firebase
+  `firebase deploy --only hosting`; live-verified below.
+
 ## 2026-08-06 (Opus autopilot) — Row 109 ask-seek-knock SHIPPED + DEPLOYED; row 108 parked NEEDS-AUDIO — Machine A `Dev`
 
 PARALLEL-LANES loop, lowest Ready ✅ empty-claim row first; every RUNNING sibling
