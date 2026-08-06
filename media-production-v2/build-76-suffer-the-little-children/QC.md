@@ -38,3 +38,43 @@ his arms) is the row's target still and stays TIGHT.
   — no glow, ever.
 - ROADSIDE wired from build-38. FAMILIES is cast — no plate.
 - Only Jesus wears cream.
+
+---
+
+## RUNNER SHIP — 2026-08-06 (A-auto Machine A `Dev`, Opus runner)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 76` shows no filed complaint on
+this row. Nothing to answer; nothing may regress.
+
+### What was built
+- 14 painted stills at native 2K + 1 story-cast portrait (FAMILIES). ROADSIDE
+  place wired from build-38 (approved plate). $0 audio pre-flight PASS (V1 mp4
+  and mp3s both committed 2026-07-28, mp4 last; timeline 87.87s vs mp4 87.89s,
+  excess +0.02s, 0 newer mp3s) BEFORE any credit.
+- **AUDIO LOCK PASS** SHA256 3bd3150553… — V1 narration byte-identical. 19.6 MB,
+  87.9 s.
+
+### Light QC — 14/14 viewed, 0 rerolls (0% — COST LAW: budget was ≤2)
+- Children pass the row's #1 risk: child-sized, one face/age/outfit across
+  frames (recurring maroon-dress girl, blue-tunic boy, babe-in-sling,
+  toddler-on-shoulders all consistent s01→s14); no giant Jesus, no glow/halo
+  (backlight is natural sun). Scale gate + beard gate pass.
+- Coverage reads: barricade (s02/s04) → displeasure aimed at the DISCIPLES
+  (s06) → the way let open (s03 open gate) → child runs to open-armed Jesus
+  (s07) → boy's hand clasped (s08) → child on his lap (s12) → hands-on-heads
+  blessing at golden hour (s14). s11 is an open-hands receiving insert.
+- Only Jesus wears cream (full solid robe); families/disciples in browns, rust,
+  olive, purple.
+- Captions bottom-band only; closing question card clean (no squares, good
+  margins), verified from the RENDERED mp4 at t=3/45/84 s.
+
+### FIX-WAVE (logged, not rerolled — deliberate under COST LAW)
+- s05 (and s09 wide) Jesus reads amber/green-eyed in the tight close-up. This is
+  the KNOWN baked-in JESUS-V2-REF trait (RUNNER-LESSONS: systemic across all
+  shipped V2 rows, a reroll only re-echoes the ref) — log-only, master-ref-level
+  fix, NOT a per-row regression.
+- s10 / s13: a recurring background disciple wears a pale oatmeal draped
+  shawl/himation. Borderline vs "only Jesus in cream," but it is a secondary
+  mantle over a colored robe (not a full cream robe like Jesus) and reads more
+  greige than cream. Kept (not obvious garbage); flag for the fix wave if
+  Cameron calls it.
