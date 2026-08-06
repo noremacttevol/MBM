@@ -1,3 +1,62 @@
+## 2026-08-06 (Opus autopilot) — Row 113 (where-art-thou) BUILT+PARKED (God the Father EMBODIED), Row 116 started then Gemini BILLING DEPLETED (global) — Machine A `Dev`
+
+Session-chain verified at start: read SESSION-LOG top (row 110 lords-prayer ship)
+and confirmed commit `824b4260a` in `git log`. PARALLEL-LANES loop; every RUNNING
+sibling left untouched (48/60/61/62/63/84/111/112/114/115). Pushes this session:
+claim `8a4bad98d`, row-113 park `5a0b27f66`, lesson `be57728a9`, row-116 claim
+`b0af15d01`, row-116 park `d72f04d50`.
+
+**Row 113 (where-art-thou, Gen 3) — BUILT, PARKED NEEDS-AUDIO (author flag).**
+Cross-checked QUEUE (real story, not swapped). Read ALL rubric + RUNNER-LESSONS
+before first credit (LEARNING LAW). Open complaint (`v2_outline 113`): *"God has
+a body … create a character for him … his look doesn't change like Jesus."*
+- **COMPLAINT FIXED IN ART:** God the Father is now EMBODIED + LOCKED — GOD
+  portrait made (glorified man, flowing white hair, full white beard, BRILLIANT
+  PURE WHITE robe [he alone wears pure white], no halo). He walks the garden
+  bodily in **b07** and **b26** and stands in mercy at the sending **b23**. This
+  GOD lock is now the Father's canon for the whole library. Cameron verifies his
+  own fix in the b07/b26 frames. (Complaint ledger in QC.md.)
+- Portraits ADAM/EVE/GOD; GARDEN plate promoted-first from b01 (lush Eden, no
+  people, no modern objects). 26/26 beats generated + light-QC vs all
+  RUNNER-LESSONS: modesty held throughout (fig-leaf/hide, no explicit nudity),
+  Middle-Eastern cast, no cream figures, no lens-stare.
+- **2 rerolls (7.7%, under 15% budget):** b17 (dark bottom band → cleared),
+  b20 (coats-of-skins rendered as **modern leather jackets** → rerolled to raw
+  hides). Kept b23's embodied Father though its must_not_show said "no figure of
+  God" — deliberate: it serves Cameron's embodiment order, is reverent, and
+  rerolling risks losing it.
+- **PARKED at assembly:** `v2_assemble 113` FAILS AUDIO LOCK — STALE-V1-FINAL
+  (V1 mp4 193.3s / 07-29 09:47 vs 15 re-voiced mp3s 07-29 23:03; timeline 163.1s).
+  Runner can't edit beats_v2.py. **Author fix: `AUDIO_FROM_V1_SEGMENTS = True`,**
+  then `v2_assemble 113` (all 26 stills reusable, do NOT regen) and ship.
+- **Cost row 113 ≈ $4.14** (3 portraits $0.40 + 26 beats + 2 rerolls). Under the
+  $6.10 avg; COST-LAW trend DOWN (GARDEN plate promoted free).
+- New RUNNER-LESSON committed: "coats of skins / leather-garment beats render as
+  modern tailored jackets — reroll on buttons/lapels; one redo lands raw hides."
+
+**Row 114 — left to sibling** (was already RUNNING/A-auto when I looked; carries
+a real DOCTRINE fork — should Gen 18's LORD be embodied [Father face? pre-mortal
+Christ?] or presence-light — that needs Cameron's word; not mine to build headless).
+
+**Row 116 (graven-on-his-palms, Isa 49) — started, PARKED (GLOBAL billing block).**
+Its earlier "429-depleted" park was stale (my row-113 spend proved billing live),
+so I claimed it. Audio pre-flighted CLEAN (|Δ|=0.024s, 0 newer mp3s — I replicated
+the AUDIO LOCK tripwire with `extract_beats.extract` to avoid another stale-V1
+park). Made WOMAN portrait + promoted CITY plate from b04 (dusk city of
+solitaries, period props). Then Gemini `429 RESOURCE_EXHAUSTED — prepayment
+credits depleted` fired on the first beat and PERSISTED through 2 retries — a REAL
+zero-balance GLOBAL halt (every row/lane blocked until Cameron tops up
+https://ai.studio/projects). Parked, claim RELEASED to AUTHORED/Ready✅/empty,
+WOMAN+b04 committed & reusable. **Cost row 116 ≈ $0.26** (portrait + anchor;
+unfinished — no rerolls).
+
+**BLOCKER FOR CAMERON:** Gemini prepayment balance is depleted — top up at
+https://ai.studio/projects. Until then NO row can generate (this and every
+sibling lane are halted). On resume: row 113 needs only the author audio flag +
+re-assemble; row 116 resumes generation from b01 (b04+WOMAN already done).
+
+---
+
 ## 2026-08-06 (Opus autopilot) — Row 114 (abraham-sodom) PARKED at 23/23 stills — Gemini BILLING DEPLETED (global block) — Machine A `Dev`
 
 Session-chain verified at start: read SESSION-LOG top (row 110 lords-prayer ship)
