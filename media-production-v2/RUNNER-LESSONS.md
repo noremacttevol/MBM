@@ -10,6 +10,28 @@ you rerolled successfully — ADD it as one line before your session ends and
 commit it. This file is how one session's $0.13 mistake stops being every
 session's $0.13 mistake. Keep entries deduped and one line each.
 
+## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
+
+- **Art lives in `<build>/assets/*.jpeg`, NOT `<build>/frames/*.png`.** The
+  `frames/` dir is essentially always empty. Judging "this claimed row crashed"
+  by an empty `frames/` is WRONG and is what made 3+ lanes all pile onto row 45
+  and burn redundant Gemini money (2026-08-06). Count `assets/*.jpeg` instead.
+- **A `RUNNING` + `A-auto` row is NOT automatically stranded.** The autopilot
+  runs up to 6 parallel lanes and every lane signs claims `A-auto`, so that
+  signature CANNOT tell a live sibling from a crashed self. Before resuming any
+  `RUNNING`/`A-auto` row, run `ps aux | grep v2_gen_api | grep -v grep`: if a
+  `v2_gen_api.py <that-build>` process is alive, or its `assets/` is still
+  growing, a LIVE sibling owns it — do NOT touch it, take the next clean row.
+  Only resume a `RUNNING` row when NO sibling gen is live (mirror
+  `autopilot.sh` next_stranded, which resumes only when LIVE==0).
+- **Claim uniquely so the next lane can tell:** put asset count + "LIVE" in the
+  AUTHOR-BOARD claim cell of a row you are actively building, and mark it BUILT
+  the instant it ships so `next_ready` (state must be AUTHORED) skips it.
+- **Never `git add -A` while siblings generate** — you will sweep another
+  lane's in-flight `assets/` and `api-spend.jsonl` into your commit. Add only
+  your row's paths + the boards/SESSION-LOG explicitly. Pull with
+  `--rebase --autostash`.
+
 ## Known defect patterns (check every frame)
 
 - **Modern objects sneak in**: hurricane/kerosene lamps (b41 war tent), modern
