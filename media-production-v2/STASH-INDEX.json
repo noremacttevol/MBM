@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 07:02:05",
+ "scanned": "2026-08-06 07:08:57",
  "entries": [
   {
    "row": 1,
@@ -35024,6 +35024,835 @@
    "night": true,
    "n_person": 1,
    "scene": "The closing frame holds the face at the gate: moonlit, marked by the night, and utterly steady \u2014 the eyes carrying both halves of the sentence at once: ON PURPOSE, in the set of the jaw that no torch-line can turn; FOR U"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b01",
+   "file": "build-101-still-small-voice/assets/s01-elijah-had-just-won-the.jpeg",
+   "tokens": [
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On a high ridge in the wind the prophet stands at the top of his life: mantle snapping like a war banner, wild hair streaming, the lean weathered frame drawn up to its full height with the greatest day he will ever have "
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b02",
+   "file": "build-101-still-small-voice/assets/s02-and-then-a-single-threat.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "WILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wilderness receives what the threat made of him: under the one dark juniper in miles of pale broken waste the prophet lies sunk against the sand, mantle dragged over him, the driftwood frame utterly spent \u2014 the man w"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b03",
+   "file": "build-101-still-small-voice/assets/s03-god-did-not-scold-him.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "WILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "And the answer to the death-prayer is \u2014 sleep: the prophet under the juniper in the day's gentling dusk, breathing slow at last, the harsh light gone soft gold and rose across the waste \u2014 no thunder over the bush, no voi"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b04",
+   "file": "build-101-still-small-voice/assets/s04-twice-he-was-fed-and.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "WILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the desert dark he eats what keeps arriving: risen on one elbow under the juniper, tearing the warm coal-baked cake with his fingers, the clay cruse tipped to his cracked lips \u2014 the little coal-bed's ember light on a "
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b05",
+   "file": "build-101-still-small-voice/assets/s05-while-he-slept-warm-bread.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "WILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the miracle at its most domestic: the sleeping prophet's wild grey head heavy in the sand \u2014 and set by it, close enough to smell, a small bed of desert coals with a flat cake baking golden on the hot stones, ste"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b06",
+   "file": "build-101-still-small-voice/assets/s06-in-that-strength-he-walked.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The bread carries him further than despair ever could: a small mantle-dark figure crossing badland after badland toward the high raw granite of the mount of God, day folded on day in one walking frame \u2014 until the grey sh"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b07",
+   "file": "build-101-still-small-voice/assets/s07-what-doest-thou-here-elijah.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the cave's absolute dark the question finds him: the prophet's wild grey head jerking up from his knees, eyes wide against blackness that holds nothing to see \u2014 WHAT DOEST THOU HERE, ELIJAH \u2014 a voice with no throat, n"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b08",
+   "file": "build-101-still-small-voice/assets/s08-i-have-been-very-jealous.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "It pours out of him at the cave mouth's grey edge: hands flying, the mantle shaken, the lean face working through every count of the indictment \u2014 jealous FOR THEE, the covenants forsaken, the altars down, the prophets de"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b09",
+   "file": "build-101-still-small-voice/assets/s09-i-have-given-everything-for.jpeg",
+   "tokens": [
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the evidence he holds up: two worn hands open before a face that has spent itself to the walls \u2014 the sun-split knuckles, the fast-hollowed cheeks, the eyes that have carried a nation's apostasy alone for years \u2014"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b10",
+   "file": "build-101-still-small-voice/assets/s10-and-out-it-all-poured.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The dam gives way all at once: years of held-alone faithfulness leaving the prophet in one flood at the cave's grey mouth \u2014 voice cracking, fists knotting the mantle, the wild head bowing and rearing \u2014 and around the pou"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b11",
+   "file": "build-101-still-small-voice/assets/s11-i-am-the-only-one.jpeg",
+   "tokens": [
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the complaint's sore centre: the prophet's eyes as he says ONLY \u2014 the conviction absolute in them, a man certain he is the last light burning in a nation gone dark, and under the conviction the hunted animal fli"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b12",
+   "file": "build-101-still-small-voice/assets/s12-go-forth-and-stand-upon.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The summons draws him out of the mountain: Elijah stepping from the cave's black onto the bare stone terrace, mantle gathered at his throat, grey light flooding his squint \u2014 GO FORTH, AND STAND \u2014 and before him nothing b"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b13",
+   "file": "build-101-still-small-voice/assets/s13-and-behold-the-lord-passed.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The mountain meets a wind with hands: a colossal scouring blast sheeting the terrace with dust and driven grit, whole slabs splitting off the crags above and going down the slopes in thunder, the juniper-tough prophet br"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b14",
+   "file": "build-101-still-small-voice/assets/s14-and-after-the-wind-an.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wind's wake is worse: the whole shoulder of Horeb HEAVES, cracks running live across the terrace stone, boulders jolting and walking, dust leaping off every ledge at once \u2014 the prophet thrown to hands and knees with "
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b15",
+   "file": "build-101-still-small-voice/assets/s15-a-wind-strong-enough-to.jpeg",
+   "tokens": [
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on what the wind did to solid granite: a boulder the size of a house lying torn in two, the break's raw faces bright and unweathered against the old grey stone, grit still streaming sideways past the wound in long "
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b16",
+   "file": "build-101-still-small-voice/assets/s16-then-an-earthquake-that-split.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "And after the shaking, burning: sheets of flame sweeping low and fast across the quake-cracked terrace, orange light hammering the raw crags and pouring into every new crack, heat-shimmer bending the cold air \u2014 the proph"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b17",
+   "file": "build-101-still-small-voice/assets/s17-surely-god-would-be-in.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a prophet's theology coming up empty: the dust-caked, fire-lit face searching each colossus as it passes \u2014 the wind, surely; the quake, surely; the fire, SURELY \u2014 and finding in every one of them force and force"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b18",
+   "file": "build-101-still-small-voice/assets/s18-and-after-the-fire-a.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "And then the mountain runs out of spectacle: smoke thinning off the blackened stone, the last dust sifting down, the crags standing spent in a silence deeper than before the wind \u2014 and into that emptied quiet, below hear"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b19",
+   "file": "build-101-still-small-voice/assets/s19-after-all-the-noise-and.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the listening: the wild weathered face gone utterly still in the stillness, eyes wide at nothing visible, breath held so as not to trample one syllable \u2014 and over the features an awe unlike anything the wind or "
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b20",
+   "file": "build-101-still-small-voice/assets/s20-that-was-where-god-was.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "He answers the whisper the way no storm could make him: drawing the rough camel-hair mantle up and over his face with both hands, and coming forward blind to stand in the entering-in of the cave \u2014 bowed, wrapped, unseein"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b21",
+   "file": "build-101-still-small-voice/assets/s21-the-whisper-did-not-shame.jpeg",
+   "tokens": [
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Under the wrapped mantle the braced shoulders slowly come down: the prophet at the threshold waiting for the deserved thunder about his running, his despair, his death-wish under the bush \u2014 and the whisper spending not o"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b22",
+   "file": "build-101-still-small-voice/assets/s22-it-asked-him-again-what.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "He is allowed to say it all again: the mantle lowered now from a calmer face, the same grievance told a second time at the cave's grey mouth \u2014 but slower, steadier, a flood become a report \u2014 heard out to its last word by"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b23",
+   "file": "build-101-still-small-voice/assets/s23-he-was-being-sent-back.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The prophet who crawled up this mountain straightens at its door: mantle squared across the driftwood shoulders, wild head up, face set DOWN the long way he came \u2014 the same worn man, rebuilt from the inside by bread, pat"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b24",
+   "file": "build-101-still-small-voice/assets/s24-yet-i-have-left-me.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The correction is the size of the view: from the terrace edge the whole hazed country falls away below him \u2014 valleys, far villages, threads of smoke \u2014 and over it the whisper lays its arithmetic: SEVEN THOUSAND \u2014 knees u"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b25",
+   "file": "build-101-still-small-voice/assets/s25-you-are-not-the-only.jpeg",
+   "tokens": [
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the gladdest correction of his life landing: the ONLY-ONE conviction \u2014 carried so long it fused to his bones \u2014 breaking up across the weathered face like ice off a spring river: relief flooding the deep eyes, hu"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b26",
+   "file": "build-101-still-small-voice/assets/s26-scattered-across-the-land-are.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "Down in the folded country, the camera above a lane's bend behind the evening walkers, the seven thousand keep their unmarked watch: a village at evening \u2014 a potter shutting his shed, a grandmother teaching a child its p"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b27",
+   "file": "build-101-still-small-voice/assets/s27-you-feel-alone-but-you.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The prophet stands quiet at the edge of the height in the clean first light, the mantle still, the wild hair at rest \u2014 and below him the land unrolls with its hidden thousands sleeping in its folds \u2014 the same view that t"
+  },
+  {
+   "row": 101,
+   "build": "build-101-still-small-voice",
+   "beat": "v2-r101-b28",
+   "file": "build-101-still-small-voice/assets/s28-that-is-how-god-answered.jpeg",
+   "tokens": [
+    "ELIJAH",
+    "HOREB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame follows him down: the mantle-dark figure descending the mountain path in the clean dawn with a steady sent-man's stride, the cave mouth shrinking small on the grey shoulder above \u2014 fed when he wanted de"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b01",
+   "file": "build-102-jacobs-ladder/assets/s01-jacob-was-running.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One figure moves fast across the emptiness: Jacob at a hard scrambling pace over the scattered stones, staff swinging, robe hitched, one more backward glance thrown over his shoulder at the skyline behind \u2014 the stride of"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b02",
+   "file": "build-102-jacobs-ladder/assets/s02-when-the-sun-went-down.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The sun goes down and takes the world's edges with it: the last red band dying along the western ridge, the stone country going blue-dark ridge by ridge, and in the middle of all that gathering nothing, one small halted "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b03",
+   "file": "build-102-jacobs-ladder/assets/s03-no-home-no-bed-no.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on what the favourite son has left: two empty hands in the failing light, one thin staff leaned against a rock, the cold grey stones of nowhere for furniture \u2014 the boy who grew up smelling his mother's cooking thro"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b04",
+   "file": "build-102-jacobs-ladder/assets/s04-he-took-a-stone-put.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The bed is made in one motion: a flat stone dragged into place, the head cloth folded once across it, and Jacob lowering his cheek onto rock still warm from the dead sun \u2014 knees drawn up under the ochre robe, staff in re"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b05",
+   "file": "build-102-jacobs-ladder/assets/s05-and-there-in-the-last.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Over the sleeping runaway the night begins to change its mind: high above the little camp, among the hard cold stars, a seam of brightness starting \u2014 thin at first, like dawn arriving in the wrong place and hours early \u2014"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b06",
+   "file": "build-102-jacobs-ladder/assets/s06-he-saw-a-great-stairway.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE",
+    "STAIR"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The dream stands, the camera at the camp's edge behind the sleeper's still form, the impossible up in the dark: a great stone stairway rooted in the campground dirt an arm's reach from the sleeper's stone \u2014 broad as a ro"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b07",
+   "file": "build-102-jacobs-ladder/assets/s07-and-on-it-the-angels.jpeg",
+   "tokens": [
+    "JACOB",
+    "STAIR",
+    "ANGELS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "And the stairway is BUSY, the camera off its flank so both travel directions read in profile: plain silver-grey figures walking its flights in both directions \u2014 two descending past three climbing, one nearly to the brill"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b08",
+   "file": "build-102-jacobs-ladder/assets/s08-heaven-was-not-far-off.jpeg",
+   "tokens": [
+    "JACOB",
+    "STAIR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the correction of every map: the stairway's lowest step planted in the dirt scarcely an arm's reach from the sleeping face on its stone \u2014 worn campground gravel meeting the first stair of heaven with no gap, no "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b09",
+   "file": "build-102-jacobs-ladder/assets/s09-i-am-the-lord-god.jpeg",
+   "tokens": [
+    "JACOB",
+    "STAIR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "From above the highest flight the night fills with voice: the summit opening at full brilliance over stair and stones and sleeper \u2014 I AM THE LORD GOD OF ABRAHAM THY FATHER \u2014 the words rolling down the flights like light "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b10",
+   "file": "build-102-jacobs-ladder/assets/s10-he-had-lied-to-his.jpeg",
+   "tokens": [
+    "JACOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the face of a man who cannot outrun the reason: the quick clever eyes shadowed and darting, shame riding fear riding exhaustion \u2014 his father's blind trusting hands still on his skin, his brother's roar still in "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b11",
+   "file": "build-102-jacobs-ladder/assets/s11-god-did-not-scold-him.jpeg",
+   "tokens": [
+    "JACOB",
+    "STAIR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the face in the stairlight, and what is NOT arriving on it: no recital of the stolen blessing, no accounting of the lie in the dark tent, no wrath descending any flight of the shining stairs \u2014 the sleeping featu"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b12",
+   "file": "build-102-jacobs-ladder/assets/s12-he-stood-above-the-stairway.jpeg",
+   "tokens": [
+    "STAIR",
+    "JACOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The whole dream holds still for the covenant: the great stair climbing flight over flight to its crown of brilliance, the silver-grey walkers pausing on the steps mid-errand, and down from the summit light the old promis"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b13",
+   "file": "build-102-jacobs-ladder/assets/s13-this-wanderer-with-nothing-would.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the census of the promise: the campground dust beside his sleeping hand, stirred by the night's small wind and drifting through the stairlight in numberless shining grains \u2014 every mote a life, every drift a gene"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b14",
+   "file": "build-102-jacobs-ladder/assets/s14-it-was-open-right-above.jpeg",
+   "tokens": [
+    "JACOB",
+    "STAIR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The frame lies down beside him and looks straight up: the stair's flights telescoping away overhead, rail over rail of climbing stone, silver walkers small and smaller on them \u2014 and at the very top, plumb-line true above"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b15",
+   "file": "build-102-jacobs-ladder/assets/s15-and-behold-i-am-with.jpeg",
+   "tokens": [
+    "JACOB",
+    "STAIR",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The promise settles, the camera far off taking sleeper, stone and stair from the side, over the whole night like a second sky: the sleeping man on his stone, the staff, the cold scattered rocks of nowhere, the great stai"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b16",
+   "file": "build-102-jacobs-ladder/assets/s16-i-am-with-thee.jpeg",
+   "tokens": [
+    "JACOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close on three words made light: the sleeping face on its stone, and the stair's warm brightness lying against the skin of it \u2014 on the closed lids, in the sparse young beard, along the worry-lines gone slack \u2014 ne"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b17",
+   "file": "build-102-jacobs-ladder/assets/s17-i-will-keep-thee.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The second clause draws a boundary: the little camp lying lit and quiet at the stair's foot \u2014 sleeper, stone, staff inside a circle of warm ground \u2014 and all around it the upland's enormous dangerous dark standing exactly"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b18",
+   "file": "build-102-jacobs-ladder/assets/s18-to-a-man-who-had.jpeg",
+   "tokens": [
+    "JACOB",
+    "STAIR",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The frame audits the recipient one more time: a liar asleep on a rock, assets one staff, prospects none, references his furious brother \u2014 and over this exact man, heaven standing open with its stair run down to his dirt "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b19",
+   "file": "build-102-jacobs-ladder/assets/s19-surely-the-lord-is-in.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "He wakes like a man surfacing from deep water: bolt upright on the stone in the grey first light, hand pressed hard to his hammering chest, wild eyes sweeping the ordinary stones and thin scrub of the most unremarkable c"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b20",
+   "file": "build-102-jacobs-ladder/assets/s20-this-is-none-other-but.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On his feet in the first gold-grey he turns a slow full circle with his arms half-raised, naming what only he can see: bare stones, thin scrub, empty sky \u2014 THE HOUSE OF GOD \u2014 the very air over the campground consecrated "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b21",
+   "file": "build-102-jacobs-ladder/assets/s21-jacob-woke-with-a-start.jpeg",
+   "tokens": [
+    "JACOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a face the dream would not release: sleep torn off it in one gasp, the eyes enormous with something still filling them from the inside, breath ragged, the sparse beard trembling \u2014 not fear's shaking but the deep"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b22",
+   "file": "build-102-jacobs-ladder/assets/s22-this-is-the-gate-of.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "He looks down at his own bed and almost laughs: the flat grey stone, dented dirt where his hip lay, the ordinary pillow of an ordinary desperate night \u2014 at the foot of heaven's own gate \u2014 the wonder on his face shot thro"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b23",
+   "file": "build-102-jacobs-ladder/assets/s23-so-he-took-the-stone.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The pillow becomes the monument: Jacob heaving the flat stone up on its end in the morning gold \u2014 back straining, breath loud, smaller rocks kicked into place around its base to brace it \u2014 until the thing his head slept "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b24",
+   "file": "build-102-jacobs-ladder/assets/s24-and-he-poured-oil-over.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the consecration: the last of his travel flask's oil arcing thin and bright over the standing stone's crown, running down the grey faces in shining threads that catch the morning sun \u2014 a poor man's whole libatio"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b25",
+   "file": "build-102-jacobs-ladder/assets/s25-i-will-not-leave-thee.jpeg",
+   "tokens": [
+    "JACOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close on the promise's third clause: the runaway's open hand lying palm-up in the dirt beside his stone, and the stair's warm light resting IN it \u2014 pooled in the palm's cup like water that refuses to drain \u2014 NOT "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b26",
+   "file": "build-102-jacobs-ladder/assets/s26-then-he-went-on-his.jpeg",
+   "tokens": [
+    "JACOB",
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The same road takes a different man: Jacob walking east into the clean morning with the oiled pillar shrinking behind him \u2014 the staff swinging easy now, the spine straight, and not one backward glance over either shoulde"
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b27",
+   "file": "build-102-jacobs-ladder/assets/s27-not-because-he-had-fixed.jpeg",
+   "tokens": [
+    "JACOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the honest miracle: the same face \u2014 the quick scheming eyes not one shade purer, the flaws all present and accounted for, a heel's face still \u2014 and over it, settled like morning light on old stone, a peace that "
+  },
+  {
+   "row": 102,
+   "build": "build-102-jacobs-ladder",
+   "beat": "v2-r102-b28",
+   "file": "build-102-jacobs-ladder/assets/s28-that-is-how-god-still.jpeg",
+   "tokens": [
+    "WASTE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The closing frame keeps the place after its man has gone: the anointed stone standing alone among the scattered grey rocks in full morning light, oil still dark down its faces, the road running past it east and west towa"
   }
  ]
 }
