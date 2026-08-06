@@ -8,16 +8,19 @@
 
 To keep Cameron's Claude limits low: the expensive model (Fable 5) does ALL the
 judgment ONCE — beat maps, coverage, locks, plate wiring — and commits it. A
-cheaper Opus runner on another computer (PROMPT-OPUS-RUNNER.md) then spends the
-Gemini money mechanically. **This session spends $0 on generation. Nothing you
+cheaper Opus runner in a separate chat (PROMPT-OPUS-RUNNER.md) then spends the
+Gemini money mechanically. **ONE MACHINE (Cameron, 2026-08-05): both sessions
+run on Machine A `Dev` — never tell Cameron to start another computer.** **This session spends $0 on generation. Nothing you
 run may cost API credits — no v2_gen_api, no v2_story_cast without --dry-run.**
 
 ## First actions, every session (no exceptions)
 
 1. `hostname` → look up in MACHINE-IDENTITY.md. Session-chain check per CLAUDE.md
    (top of SESSION-LOG.md, verify its commit is in `git log`).
-2. Read AGENT-RULES.md "THE STANDING ORDER", V2-REBUILD-RUBRIC.md (all lessons —
-   11 and 12 are the newest laws), and this file. `git pull --rebase origin main`.
+2. Read AGENT-RULES.md "THE STANDING ORDER", V2-REBUILD-RUBRIC.md — the TWO
+   META-LAWS at the top plus **ALL numbered lessons, to the very end of the list;
+   the list grows and this file will not tell you where it ends** — and this
+   file. `git pull --rebase origin main`.
 3. Open `media-production-v2/AUTHOR-BOARD.md`. Your row is the LOWEST row whose
    State is NEEDS-BEATS or AUTHORED and whose Claim and Ready are empty.
    **Claim-by-push before any work**: write `AUTHOR <machine> <date>` in Claim,
@@ -26,8 +29,9 @@ run may cost API credits — no v2_gen_api, no v2_story_cast without --dry-run.*
 ## The job, per row
 
 **NEEDS-BEATS rows:** author `beats_v2.py` from scratch.
-**AUTHORED rows:** they predate lessons 11–12 — upgrade them: re-cover the story
-to the movie-coverage law, wire plates, and fix anything the checklist flags.
+**AUTHORED rows:** they may predate the newest lessons — upgrade them: re-cover
+the story to the movie-coverage law, wire plates, gate any lesson added since
+they were written, and fix anything the checklist flags.
 Do not casually rewrite scene text that already satisfies the laws.
 
 Per row, in order:

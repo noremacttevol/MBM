@@ -196,6 +196,26 @@ machine obeys it without Cameron typing anything.
    families first (they are him having already asked), then the lowest unbuilt
    QUEUE row.
 
+### 2026-08-05 additions (Cameron, after the $235 production audit)
+
+6. **ONE MACHINE.** All production runs on Machine A (`Dev`) only. The image
+   API is fast enough that multi-machine spread is pointless. Never tell
+   Cameron to start another computer. Claim-by-push stays as crash protection;
+   the A/B/C rotation is dead.
+7. **THE LEARNING LAW.** Cameron: "i am tired of not getting the best quality
+   product and a video builder that doesnt learn from what i want and the
+   complaints i keep submitting." Every session reads ALL V2-REBUILD-RUBRIC.md
+   lessons (the list grows — read to the end) plus the row's open complaints
+   before building. Every new complaint becomes a numbered lesson the same
+   session. No cut ships without a COMPLAINT LEDGER in QC.md, and the review
+   card answers his complaint in his own terms. A shipped cut that repeats a
+   filed complaint is the worst failure the pipeline can produce.
+8. **THE COST LAW.** Cameron: "the cost should get cheaper." Baseline
+   2026-08-05: $6.10/row, 19% reroll waste. Reroll budget ≤15% of a row's
+   beats; reuse before regenerate; touch each row ONCE (every re-cut voids his
+   approval and re-queues the video); every session logs $/row + reroll %
+   against the running average. The trend must go down.
+
 ## Locked Product Direction (June 2026) — do not regress these
 
 Cameron explained these in full and asked that they be stored so he never re-explains.

@@ -22,6 +22,9 @@
 > 11. Ear-check every narration (`qc_narration.py`) before assembly; scene lighting matches the scripture's time of day; every figure's action must read correctly at a glance.
 > 11b. **NO music/tone bed — narration + intentional silence only** (a constant hum makes people not use it). Captions live ONLY in the bottom band, split long ones in sync with the narration, never covering the art.
 > 12. Never hold Cameron's computer hostage — announce each Chrome burst, start immediately, and STOP the instant he messages.
+> 12b. **ONE MACHINE NOW (Cameron, 2026-08-05): all production runs on Machine A (`Dev`) only.** The Gemini API generates images fast enough that spreading load across computers is pointless. Never tell Cameron to start other machines. Claim-by-push stays (it's free crash protection), but the A/B/C rotation is DEAD.
+> 12c. **THE LEARNING LAW (Cameron, 2026-08-05: "i am tired of a video builder that doesnt learn from what i want"): NO session builds or ships a row without first reading ALL V2-REBUILD-RUBRIC.md lessons AND that row's open complaints (`v2_outline.py <row>`). The runner's QC.md must carry a COMPLAINT LEDGER — every open complaint on the row, one line each, saying exactly what in this cut fixes it — and the review card must tell Cameron his complaint was addressed. A shipped cut that repeats a filed complaint is the worst possible failure.**
+> 12d. **THE COST LAW (Cameron, 2026-08-05: "the cost should get cheaper"): cost per row must trend DOWN as lessons accumulate. Reroll budget ≤15% of a row's beats; every session logs its $/row and reroll % in SESSION-LOG against the running average ($6.10/row, 19% rerolls as of 2026-08-05) and explains any overage. Touch each row ONCE — batch every known fix into one re-cut, because every re-cut voids Cameron's approval and re-queues the video.**
 >
 > **App**
 > 13. Target React Native + Expo, local-first (on-device SQLite). Flask/web is reference only.

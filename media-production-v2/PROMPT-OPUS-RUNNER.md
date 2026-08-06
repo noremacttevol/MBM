@@ -1,6 +1,7 @@
 # OPUS RUNNER SESSION — generate, assemble, and ship first-attempt V2 cuts
 
-> **To start a session, paste exactly this into a new Opus chat on any machine:**
+> **To start a session, paste exactly this into a new Opus chat on Machine A
+> (`Dev` — the ONLY production machine, Cameron 2026-08-05):**
 > `Read media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows.`
 
 ## What you are
@@ -23,9 +24,19 @@ no obvious garbage."
   (read the meter from the run banner; recompute per run; never a round guess).
 - `v2_prompt.py <build> --check` must PASS before the first credit of a row.
 - Only build rows AUTHOR-BOARD marks **Ready ✅** with Audio **OK**.
-- Claim-by-push in `media-production/QUEUE.md` BEFORE generating (the multi-
-  machine law): pull, write your machine + date in the row's Claim, commit, push;
-  a rejected push means the row is taken — move on.
+- Claim-by-push in `media-production/QUEUE.md` BEFORE generating: pull, write
+  your machine + date in the row's Claim, commit, push; a rejected push means
+  the row is taken — move on. (One machine now — Cameron, 2026-08-05 — but the
+  claim stays: it is free protection against a crashed or parallel chat
+  double-building a row.)
+- **THE LEARNING LAW (Cameron, 2026-08-05).** Before the first credit of a row:
+  read the TWO META-LAWS + ALL numbered lessons in V2-REBUILD-RUBRIC.md, and run
+  `python3 media-production-v2/v2_outline.py <row>` — the complaints shown on
+  top are Cameron's own words about THIS row. You may not ship a cut whose
+  QC.md lacks a **COMPLAINT LEDGER**: one line per open complaint stating
+  exactly what in this cut fixes it (frame number / caption / gate). No open
+  complaints → write "COMPLAINT LEDGER: none open." A shipped cut that repeats
+  a filed complaint is the worst failure this pipeline can produce.
 - On `429 RESOURCE_EXHAUSTED`: retry once after 60 s (billing auto-reloads); if
   it persists, write the exact resume command into QC.md, log, push, stop clean.
 
@@ -44,12 +55,16 @@ no obvious garbage."
 4. **Generate:** `python3 media-production-v2/v2_gen_api.py <build> --ceiling …`
    (it resumes automatically; sub-2K and missing frames re-pull until done).
 5. **Light QC — one pass, capped.** View each frame ONCE against its beat's
-   `must_show` / `must_not_show`. Reroll ONLY obvious garbage: missing named
-   subject, a second cream-robed figure, a modern object, someone staring into
-   the lens, anatomy visibly wrong, wrong count the narration names. Max TWO
-   rerolls per frame (`--only <beat> --redo --ceiling …`); still bad → log the
-   beat in QC.md under "FIX-WAVE" and keep the best take. Do not chase subtle
-   drift; that is the fix wave's job.
+   `must_show` / `must_not_show`, the row's open complaints, and the quick
+   mechanical lessons (beards — lesson 13; figure scale — lesson 14; modern
+   objects; anatomy). Reroll ONLY obvious garbage: missing named subject, a
+   second cream-robed figure, a modern object, someone staring into the lens,
+   anatomy visibly wrong, wrong count the narration names, a frame that repeats
+   an open complaint. Max TWO rerolls per frame (`--only <beat> --redo
+   --ceiling …`); still bad → log the beat in QC.md under "FIX-WAVE" and keep
+   the best take. Do not chase subtle drift; that is the fix wave's job.
+   **COST LAW: total rerolls ≤15% of the row's beats. If you hit the budget,
+   stop rerolling, FIX-WAVE the rest, and say so in QC.md.**
 6. **Assemble:** `python3 media-production-v2/v2_assemble.py <row>`. It must
    print `AUDIO LOCK PASS` — if it fails the audio hash, STOP the row, log, do
    not ship. Extract 3 caption frames from the RENDERED mp4
@@ -66,8 +81,11 @@ no obvious garbage."
       and write the "🛠 What this cut changed" flag: picture count vs V1, the
       seconds-per-picture change, one row-specific fact, and the closing line
       "The narration, voices and timing are untouched — the audio is
-      byte-identical to the cut you already have." Add a SESSION-LOG entry,
-      commit, push both commits.
+      byte-identical to the cut you already have." **If the row had open
+      complaints, the flag must also answer them in Cameron's terms — e.g.
+      "Your complaint 'Jesus was a giant' — every multi-figure frame now passes
+      the scale gate" — so he can verify his own fix in one look.** Add a
+      SESSION-LOG entry, commit, push both commits.
    c. **DEPLOY — a push is NOT a delivery (Cameron, 2026-08-05: "i still
       dont have any of that on my reviewer").** The reviewer is Firebase
       hosting, project `milk-b4-meat`, serving `site/`. Git is only the
@@ -88,10 +106,20 @@ Rows until context runs low (typically 1–2 rows — the frame views are the bu
 Chain out: SESSION-LOG entry, commit, push. Never leave a claimed row without a
 QC.md note saying exactly where it stopped and the resume command.
 
-## Money truth (so nobody is surprised)
+## Money truth (so nobody is surprised) — and THE COST LAW
 
-A typical row ≈ 45 stills + 3 portraits + ~15% rerolls ≈ **$7–8**. The remaining
-~162 rows ≈ **$1,100–1,300 total** on the Gemini key, spread across sessions,
-every run under its own ceiling, every image on the shared meter
-(api-spend.jsonl). Cameron approved the API for all 200 (2026-07-30) — do not
-stop to re-ask; the ceilings and the meter are the protection.
+Measured baseline (2026-08-05, first 41 rows): **$6.10/row average, 19% of all
+spend was rerolls** ($44.62 of $236.64 — build-07 pulled one beat SEVEN times;
+that is what the ≤15% reroll budget exists to kill). A typical row ≈ 45 stills
++ 3 portraits ≈ **$6–8**. The remaining rows ≈ **$1,000–1,200 total** on the
+Gemini key, spread across sessions, every run under its own ceiling, every
+image on the shared meter (api-spend.jsonl). Cameron approved the API for all
+200 (2026-07-30) — do not stop to re-ask; the ceilings and the meter are the
+protection.
+
+**THE COST LAW (Cameron, 2026-08-05: "the cost should get cheaper"):** the
+trend must go DOWN as lessons accumulate. Each session's SESSION-LOG entry
+states its $/row and reroll % against the running average and explains any
+overage. Reuse before regenerate (plates, promoted anchors, passing frames are
+never re-pulled). Touch each row ONCE — batch every known fix into one re-cut;
+every re-cut voids Cameron's approval and re-queues the row on his reviewer.

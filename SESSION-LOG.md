@@ -1,3 +1,37 @@
+## 2026-08-05 — PRODUCTION AUDIT + three new laws written (Cameron: "why am I not getting my 200"; "only 1 machine now"; "the cost should get cheaper") — Machine A `Dev`
+
+**The audit, measured (not from memory):** $231.95 spent = 1,731 Gemini images
+across 41 rebuilt V2 rows (~$6.10/row); $44.62 (19%) of it was rerolls (worst:
+build-07 pulled one beat SEVEN times, build-18 wasted 49 of 90 images). Live
+Firestore board: 160 rows, 44 approved-ever, 63 open complaints, ~144 cards
+Unwatched — because approvals are hash-bound, every re-cut voids the approval
+and re-queues the row. Cameron's low approved count is the direct product of two
+ordered full-library do-overs (REDO-ALL voice 2026-07-23; V2 realism 2026-07-28)
+plus finished cuts that sat committed-but-undeployed (rows 17/40, fixed cont. 2).
+34 of 81 complaints are audio-domain and CANNOT be fixed by the picture rebuild
+(AUDIO LOCK copies V1 audio) — they need their own sweep or he re-files them all.
+
+**Cameron's three corrections, written into law THIS session (CLAUDE.md 12b-d,
+AGENT-RULES.md Standing Order 6-8, V2-REBUILD-RUBRIC.md TWO META-LAWS,
+MACHINE-IDENTITY.md, both PROMPT files):**
+1. **ONE MACHINE** — Machine A only; the API is fast, the A/B/C rotation is
+   dead; claim-by-push kept as crash protection only.
+2. **THE LEARNING LAW** — every session reads ALL rubric lessons + the row's
+   open complaints before building; runner ships nothing without a COMPLAINT
+   LEDGER in QC.md; the review card answers Cameron's complaint in his own
+   words; every new complaint becomes a numbered lesson same-session. (Also
+   fixed: the author prompt still said "lessons 11-12 are the newest" — now it
+   says read to the end of a growing list, so it can never go stale again.)
+3. **THE COST LAW** — reroll budget ≤15% of beats, reuse before regenerate,
+   touch each row once (re-cuts void approvals), every session logs $/row +
+   reroll % vs the $6.10 baseline; the trend must go DOWN. Remaining ~160 rows
+   forecast ≈ $1,000-1,200.
+
+Next sessions: runner continues Ready rows under the new laws (row 42 claimed
+RUNNING); the audio-complaint sweep (VOICE 14 + PRON 20 + CAPTION 16 rows) is
+the standing parallel track — it costs $0 in images and closes half the board.
+- Commit: (this commit)
+
 ## 2026-08-05 (Opus runner, cont. 2) — Row 41 shipped + THREE rows now DEPLOYED (Cameron: "i still dont have any of that on my reviewer") — Machine A `Dev`
 
 **The correction that mattered:** rows 17 and 40 were committed and pushed but

@@ -36,7 +36,15 @@ more mix-up.
 > the machine Cameron says it is, and commit + push. Each computer only ever
 > writes its OWN row.
 
-## Which videos each machine does (Cameron, 2026-07-11 — rotate every 3)
+## ⚠️ SUPERSEDED — ONE MACHINE NOW (Cameron, 2026-08-05)
+
+**Cameron's order: production runs on ONE machine only — Machine A (`Dev`).**
+The Gemini API makes images fast enough that there is no need to spread load
+across computers. The rotation below is DEAD — kept only as history. Do not
+tell Cameron to start other machines. Claim-by-push is retained as cheap
+crash/duplicate protection, not as a multi-machine coordinator.
+
+## Which videos each machine does (Cameron, 2026-07-11 — rotate every 3) — DEAD, see above
 
 The numbered videos rotate across the three main machines, three at a time:
 

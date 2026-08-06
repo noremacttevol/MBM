@@ -6,6 +6,37 @@ start of this wave), the July audio failure audit, the existing content-care
 laws, and the Peter Walks on Water V4 visual test. V4's pictures set the visual
 direction, but V4 is rejected as a final because its copied audio was shortened.
 
+## THE TWO META-LAWS (Cameron, 2026-08-05 — read before anything else)
+
+**THE LEARNING LAW.** Cameron: "i am tired of not getting the best quality
+product and a video builder that doesnt learn from what i want and the
+complaints i keep submitting." Therefore:
+- Every session — author OR runner — reads ALL numbered lessons below before
+  touching a row. The list grows; never assume you know where it ends.
+- Every complaint Cameron files becomes a numbered lesson (with his exact words
+  and the rows of record) in the SAME session that reads it. A complaint that
+  never became a lesson is a complaint he will have to file again.
+- Before shipping a row, list that row's open complaints
+  (`python3 media-production-v2/v2_outline.py <row>` shows them on top) in the
+  build's QC.md as a **COMPLAINT LEDGER**: one line per complaint, stating
+  exactly what in this cut fixes it. The review-card flag tells Cameron his
+  complaint was addressed, in plain words, so he can verify in one look.
+- A shipped cut that repeats a complaint he already filed is the worst failure
+  this pipeline can produce — worse than shipping nothing.
+
+**THE COST LAW.** Cameron: "the cost should get cheaper." The measured baseline
+(2026-08-05): $6.10/row average, 19% of spend on rerolls ($44.62 of $236.64).
+- Reroll budget: ≤15% of a row's beat count. Two failed rerolls on a beat →
+  FIX-WAVE log, keep the best take, move on (never 4–7 pulls on one beat again —
+  build-07 b13 took 7).
+- Reuse before regenerate: stash plates, promoted anchors, byte-identical
+  carryover of passing frames. Never regenerate a frame that already passes.
+- Touch each row ONCE: batch every known fix (pictures, captions, complaints)
+  into one re-cut. Every re-cut voids Cameron's approval and re-queues the row —
+  re-cutting an approved row for a non-complaint reason burns money AND his time.
+- Every session logs $/row and reroll % in its SESSION-LOG entry against the
+  running average, and explains any overage. The trend must go DOWN.
+
 ## What is locked
 
 - Do not modify the mobile app during this work.
