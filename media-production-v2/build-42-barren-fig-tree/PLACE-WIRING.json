@@ -1,0 +1,14 @@
+{
+ "FIGTREE": {
+  "manual": true,
+  "src_beat": "s05-a-fig-tree-in-a",
+  "src_build": "build-42-barren-fig-tree",
+  "src_file": "build-42-barren-fig-tree/assets/s05-a-fig-tree-in-a.jpeg"
+ },
+ "SQUARE": {
+  "manual": true,
+  "src_beat": "s01-he-told-them-a-short",
+  "src_build": "build-42-barren-fig-tree",
+  "src_file": "build-42-barren-fig-tree/assets/s01-he-told-them-a-short.jpeg"
+ }
+}

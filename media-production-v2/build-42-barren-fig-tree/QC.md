@@ -65,3 +65,13 @@ to every frame of this build)
   moss-green throughout.
 - Person-free frames: b05 b06 b07 b09 b12 b16 b26 b28 b30 b35 — do not
   let the model add figures.
+
+## RUNNER QC LOG — first-attempt V2 cut (Machine A, 2026-08-05)
+35/35 at 2K. Portraits OWNER+GARDENER wired via REFS; FIGTREE (b05, person-free
+landscape) and SQUARE (b01) promoted as plates before any other beat.
+REROLLED 2: b04 and b22 both came back as MULTI-PANEL COLLAGES (4-up and 3-up
+grids inside one 9:16 frame) instead of a single picture — obvious garbage, cured.
+PASSED: intercession staged side-on so gardener-between-owner-and-tree reads;
+tree state follows the story (leafy → bare → the green shoot at the end); only
+Jesus in cream; no phantom people in the wides; no modern objects.
+Row ~$4.9; meter 236.64.
