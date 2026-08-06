@@ -1,3 +1,38 @@
+## 2026-08-06 (Opus autopilot, lane pid2895793) — Row 47 houses-on-rock-and-sand SHIPPED + DEPLOYED — Machine A `Dev`
+
+Landed as the 00:53 cron lane. Rows 45 (BUILT/shipped) and 46 (sibling live)
+were already claimed; row 47 was the lowest Ready ✅ with an empty claim, and
+QUEUE row 47 (Matt 7, houses on rock and sand) is NOT swapped, so I claimed it
+by push (commit 1b43cc0aa) and built it. No sibling `v2_gen_api build-47` was
+ever live — no collision.
+
+**Row 47 (houses on rock and sand, Matt 7:24-29):** 37 stills @ native 2K,
+221.5 s, AUDIO LOCK PASS SHA256 3e4ea90e… (V1 audio byte-identical). 2 story-cast
+portraits (WISE-B terracotta/black beard, SAND-B teal/brown beard — distinct,
+verified non-swapping across b03/b33/b34/b35) + 2 place plates (PLAIN wired from
+build-38 b46; MOUNT promoted-first from b01 → 12 beats). Complaint ledger: none
+open; the FIX-LATER #47 "check for long captions" is verified NOT regressed
+(rendered caption frames show bottom-band-only, split with narration). Beard +
+scale gates pass, storm is DAYTIME grey-green (not night-storm, not sunset),
+only Jesus wears cream. Twin-houses law held (s20 two deliberately-similar
+houses). One FIX-WAVE residual logged in QC.md: b15's right-hand child reads a
+touch light-haired after the reroll — minor realism drift, not garbage.
+
+**COST LAW:** 1 reroll of 37 beats = **2.7%** (vs 15% budget) — the reroll was
+b15 (first take had a clearly blond child; reroll fixed the left child and the
+storm read). Row spend ≈ $2-3 on top of promoted/wired reuse (portraits $0.27,
+b01 anchor $0.13, remaining beats ~$0.94 final run + earlier partial runs, 1
+reroll $0.13) — **well under the $6.10/row running average**, because both
+place plates were reused (PLAIN from stash, MOUNT promoted in-row) rather than
+prose-locked. Trend stays DOWN.
+
+Shipped in two commits (mp4+QC+boards+QUEUE, then review.html+SESSION-LOG),
+deployed to Firebase hosting `milk-b4-meat`, and verified live: review.html
+carries data-hash d59f573acc3d and the mp4 URL returns HTTP 200. Ran
+`v2_stash.py --scan` after ship so row 47's stills are reusable plates.
+
+---
+
 ## 2026-08-06 (Opus autopilot, lane pid2875780) — Row 46 seed-growing SHIPPED + DEPLOYED; row-45 pile-on root-caused — Machine A `Dev`
 
 Landed as the 00:44 cron lane while 2 sibling lanes were mid-generating row 45.
