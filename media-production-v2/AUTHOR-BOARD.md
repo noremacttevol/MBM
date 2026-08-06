@@ -63,7 +63,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 49 | build-49-water-to-wine | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 50 | build-50-noblemans-son | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED: open complaint "Cana → Kane-a" is an audio re-voice (no Cana respell; runner can't re-voice). Squares complaint already fixed in V2 renderer. See QC.md RUNNER PARK. |  |
 | 51 | build-51-first-catch-of-fish | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED: open complaint "tear → tare" is an audio re-voice (homograph override needed). See QC.md RUNNER PARK. |  |
-| 52 | build-52-demoniac-synagogue | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
+| 52 | build-52-demoniac-synagogue | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 53 | build-53-peters-mother-in-law | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 54 | build-54-the-leper | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 55 | build-55-withered-hand | AUTHORED | 0 | OK |  | ✅ |
