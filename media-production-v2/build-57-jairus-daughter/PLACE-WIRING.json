@@ -1,4 +1,10 @@
 {
+ "HOUSE": {
+  "manual": true,
+  "src_beat": "s15-weeping-and-wailing",
+  "src_build": "build-57-jairus-daughter",
+  "src_file": "build-57-jairus-daughter/assets/s15-weeping-and-wailing.jpeg"
+ },
  "ROAD": {
   "manual": false,
   "src_beat": "v2-r038-b39",
