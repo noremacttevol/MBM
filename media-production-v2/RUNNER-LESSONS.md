@@ -172,3 +172,13 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   take build-XX's <TOKEN>" or "promote-first," clear PLACE-WIRING.json (echo '{}'
   > it), generate the anchor beat, eyeball it, and `--promote` from THIS row's own
   frame. A copied wrong-region plate would propagate the wrong place to every beat.
+- **A "he does X with the traveling prop" single spawns a near-identical TWIN of
+  the lone recurring subject** (row 64 b25 "he stood up, rolled up the mat"): the
+  beat's only subject is the healed man rolling/carrying his mat, but the model
+  added a SECOND grey-bearded old man ALSO carrying a rolled mat right behind him —
+  a confusing duplicate (lesson 3 twins + lesson 12 single-subject). One reroll of
+  such a prop-handling single usually drops the extra figure; but beware the reroll
+  landing a MULTI-PANEL COLLAGE instead (row 64 b25 reroll #1 came back a 4-up grid),
+  so verify the reroll is a single coherent frame, not a montage. Two rerolls cleared
+  it. Distinct from crowd variety — this is the STORY'S subject duplicated in a shot
+  that should hold only him.

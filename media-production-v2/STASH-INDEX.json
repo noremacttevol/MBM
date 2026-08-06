@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 03:13:43",
+ "scanned": "2026-08-06 04:23:18",
  "entries": [
   {
    "row": 1,
@@ -29643,6 +29643,1112 @@
    "night": false,
    "n_person": 1,
    "scene": "The slope at dusk, emptied: cold fire rings and trodden dust where four thousand sat, the seven heaped baskets in their row on the rock shelf, and Jesus standing alone among the traces in the last ember light, watching t"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b01",
+   "file": "build-64-pool-of-bethesda/assets/s01-by-the-sheep-gate-in.jpeg",
+   "tokens": [
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the bright morning by the sheep gate, the camera on a porch roof taking the whole complex from the side, the pool complex lies open to the sky: the broad sunken rectangle of still green water with its worn stone steps"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b02",
+   "file": "build-64-pool-of-bethesda/assets/s02-rise-take-up-thy-bed.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Close in the porch shade: Jesus's face bent toward the lying man, giving the three commands with the unhurried plainness of a man telling a neighbour the way to the market \u2014 no gesture, no raised voice, nothing in the fr"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b03",
+   "file": "build-64-pool-of-bethesda/assets/s03-and-those-porches-were-full.jpeg",
+   "tokens": [
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Along the shaded porches the waiting city lies in its rows \u2014 a blind elder with his face tuned to the sounds of the water, a young paralysed man propped on his side by his mother, a withered-armed weaver with his useless"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b04",
+   "file": "build-64-pool-of-bethesda/assets/s04-no-angel.jpeg",
+   "tokens": [
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The pool's surface fills the frame, flat and utterly still \u2014 green-tinged water holding the porches' reflected columns without one ripple, a single leaf sitting motionless on it \u2014 ordinary water in an ordinary basin, pho"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b05",
+   "file": "build-64-pool-of-bethesda/assets/s05-imagine-the-math-of-that.jpeg",
+   "tokens": [
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down the longest porch, the camera low behind the nearest mats, the rows recede past counting \u2014 row behind row of the waiting sick along the colonnade's whole shaded length, water jars and bundles between them, families "
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b06",
+   "file": "build-64-pool-of-bethesda/assets/s06-and-the-fastest-one-wins.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Among the porch's many mats the frame settles on one: the grey-bearded man lying on a pallet whose edges shine with decades of the same hands, in a spot where the stone floor itself is worn into the shallow map of one bo"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b07",
+   "file": "build-64-pool-of-bethesda/assets/s07-let-that-number-land-that.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face in the porch shade: the grey beard, the deep lines rayed from the watchful eyes, skin gone the colour of the shade itself \u2014 thirty-eight years laid down in a face like strata in a cut bank, a whol"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b08",
+   "file": "build-64-pool-of-bethesda/assets/s08-whole-generations-had-grown-up.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The man lies in his worn spot exactly as always \u2014 and around his stillness the porch moves: a child chasing a hoop past his feet, a young couple stepping around his mat, an old woman who was surely once that child shuffl"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b09",
+   "file": "build-64-pool-of-bethesda/assets/s09-one-winner.jpeg",
+   "tokens": [
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the pool's worn stone steps in the morning light: one set of wet footprints climbs them out of the water \u2014 small, bare, already drying at the edges \u2014 and no other mark on the pale stone anywhere: the day's entir"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b10",
+   "file": "build-64-pool-of-bethesda/assets/s10-by-now-being-the-sick.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's corner of the porch: the shiny-edged mat squared to the wall, the drinking bowl at its exact reach, a spare cloth folded at the head, a cord strung on two pegs holding his few things \u2014 four square feet"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b11",
+   "file": "build-64-pool-of-bethesda/assets/s11-jesus-walked-those-porches-past.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Down the crowded porch Jesus comes walking between the rows of mats \u2014 and stops: his stride ending exactly at the grey-bearded man's worn corner, his cream robe settling with the halt, his face turning down to the lying "
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b12",
+   "file": "build-64-pool-of-bethesda/assets/s12-john-says-he-knew-knew.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus's face looking down at the lying man: the warm eyes moving once over the shiny mat-edge, the hollowed stone, the ancient neatness of the little corner \u2014 and coming to rest on the man's face with the settle"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b13",
+   "file": "build-64-pool-of-bethesda/assets/s13-and-then-he-asked-him.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has come down into a crouch beside the mat, his face level with the lying man's, and the question passes between them \u2014 and on the man's grey face the strange work of receiving it: eyes narrowing, then widening, th"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b14",
+   "file": "build-64-pool-of-bethesda/assets/s14-do-you-want-to-be.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face alone in the porch shade, the question working in it: want surfacing and flinching back, hope checking itself against thirty-eight years of evidence, the watchful eyes flickering between the crouc"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b15",
+   "file": "build-64-pool-of-bethesda/assets/s15-healing-would-mean-a-new.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "From the man's low vantage the view runs out between the columns into the bright working city \u2014 porters under loads on the gate road, a builder's scaffold loud with hammers, market awnings and hurrying feet \u2014 the whole s"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b16",
+   "file": "build-64-pool-of-bethesda/assets/s16-and-notice-the-man-does.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man mid-reply: his mouth open, but his eyes already gone \u2014 slid away from the crouched questioner toward the old green water, one big-knuckled hand rising to gesture at the steps \u2014 a yes-shaped question bein"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b17",
+   "file": "build-64-pool-of-bethesda/assets/s17-he-answers-with-the-obstacle.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "From beside the mat: the man's arm extended full toward the pool's distant steps, fingers spread in the old explaining gesture, his grey face turned up to the listener with the practised reasonableness of a man presentin"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b18",
+   "file": "build-64-pool-of-bethesda/assets/s18-sir-i-have-no-man.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The man's whole account fills his corner of the porch \u2014 one hand at the empty air beside him where a helper has never stood, the other sweeping toward the steps where the faster ones go down \u2014 grief and administration mi"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b19",
+   "file": "build-64-pool-of-bethesda/assets/s19-while-dragging-myself-toward-it.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The old race replays: the man mid-drag across the sun-hot stones toward the steps \u2014 elbows planted, the mat left behind, his whole strength in three feet of progress \u2014 while past his straining shoulder another man's quic"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b20",
+   "file": "build-64-pool-of-bethesda/assets/s20-he-was-explaining-the-system.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the two faces in the porch shade: the man's still angled away toward his pool, hand mid-gesture, deep in the system's grammar \u2014 and Jesus's face aimed entirely at him, steady, unmoved by a single word of the mec"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b21",
+   "file": "build-64-pool-of-bethesda/assets/s21-get-up-pick-up-your.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The three commands are still in the air and the man's body is already answering them: shoulders lifting off the ancient mat, one big-knuckled hand braced flat on the stone, the tendons of a working arm remembering their "
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b22",
+   "file": "build-64-pool-of-bethesda/assets/s22-no-water-no-race-the.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The man comes up onto his feet in the porch \u2014 swaying once, then steadying, his arms out finding a balance his body last held as a young man \u2014 and behind his back, flat and green and completely unconsulted, the famous po"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b23",
+   "file": "build-64-pool-of-bethesda/assets/s23-and-immediately-the-man-was.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close at the man's planted feet and standing legs in the porch light: bare soles set flat and firm on the worn stone, the long muscles of the calves carrying full weight with the plain competence of a market porter's \u2014 t"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b24",
+   "file": "build-64-pool-of-bethesda/assets/s24-legs-that-had-forgotten-what.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The man stands looking down at his own legs with his hands hovering above his thighs, not quite daring to touch \u2014 his grey face folded into pure wonder aimed at his own anatomy, shifting his weight left and right in smal"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b25",
+   "file": "build-64-pool-of-bethesda/assets/s25-he-stood-up-rolled-up.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The man rolls his ancient shiny-edged mat with two strong turns of his big hands \u2014 thirty-eight years of address becoming a bundle \u2014 tucks it up under one arm and walks: first steps down the porch's length, uneven then e"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b26",
+   "file": "build-64-pool-of-bethesda/assets/s26-it-was-the-sabbath-so.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "KEEPERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the bright street beyond the porches the two dark-robed keepers have stepped into the walking man's path \u2014 the tall dry senior's flat hand raised, his narrow eyes fixed not on the impossibly upright figure but on the "
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b27",
+   "file": "build-64-pool-of-bethesda/assets/s27-it-is-the-sabbath-day.jpeg",
+   "tokens": [
+    "KEEPERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the tall senior keeper mid-citation: the clipped grey beard moving around the precise words, one long finger indicating the offending bundle, his narrow face wearing the settled assurance of a man upholding what"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b28",
+   "file": "build-64-pool-of-bethesda/assets/s28-the-sabbath-not-allowed-to.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the healed man's face between his interceptors: blinking, glancing down once at his own standing legs and back up at the citation being read over them, the rolled mat hugged unconsciously tighter under his arm \u2014"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b29",
+   "file": "build-64-pool-of-bethesda/assets/s29-a-man-walks-for-the.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "KEEPERS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Wide in the bright street, the camera at the wall taking all three in profile: the healed man upright at the centre \u2014 a walking wonder on legs the whole quarter knows have not worked in a generation \u2014 and flanking him th"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b30",
+   "file": "build-64-pool-of-bethesda/assets/s30-and-here-is-the-astonishing.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "KEEPERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Under the two keepers' bent questioning the healed man's hands come up in an honest empty shrug \u2014 palms open, brows up, mouth making the shape of not-knowing \u2014 the most important name of his entire life simply absent fro"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b31",
+   "file": "build-64-pool-of-bethesda/assets/s31-jesus-had-healed-a-man.jpeg",
+   "tokens": [
+    "BETHESDA"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the crowded colonnade, the camera behind the porch crowd's shoulders, Jesus moves away with the porch's ordinary traffic \u2014 unremarked, unfollowed, one figure among the many between the columns \u2014 passing out of the s"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b32",
+   "file": "build-64-pool-of-bethesda/assets/s32-grace-came-first-everything-else.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The healed man walks the bright street with his rolled mat under his arm and his new legs finding their old childhood rhythm \u2014 whole, upright, and unable to name the reason \u2014 a living sequence diagram moving through the "
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b33",
+   "file": "build-64-pool-of-bethesda/assets/s33-later-jesus-found-him-in.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "TEMPLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the temple's quiet side court the healed man stands in the warm afternoon light \u2014 upright among the worshippers for the first time in thirty-eight years, his rolled mat set at his feet \u2014 and across the pale paving Jes"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b34",
+   "file": "build-64-pool-of-bethesda/assets/s34-behold-thou-art-made-whole.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "TEMPLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the colonnade's warm shade the two stand close: Jesus's hand resting on the man's shoulder, his face gentle and grave with the counsel \u2014 and the man receiving it with his grey head slightly bowed, not as a warning fro"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b35",
+   "file": "build-64-pool-of-bethesda/assets/s35-look-at-you-you-are.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus's face in the warm court light, taking the standing man in from head to foot with open delight \u2014 the warm eyes travelling down to the planted feet and back up with a craftsman's unhidden pleasure in a fini"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b36",
+   "file": "build-64-pool-of-bethesda/assets/s36-now-go-back-to-the.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces close in the warm shade: Jesus's earnest and utterly kind, the counsel leaving him with the weight of care rather than command \u2014 and the man's lined face bent toward it, listening the way he once watched wa"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b37",
+   "file": "build-64-pool-of-bethesda/assets/s37-it-is-a-man-who.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the warm light: the man's two renewed legs planted firm on the pale temple paving \u2014 and his own big hand come down to rest flat on one thigh, half in wonder, half in vow \u2014 the posture of a man receiving custody "
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b38",
+   "file": "build-64-pool-of-bethesda/assets/s38-and-only-then-did-the.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close between the two faces as the name finally crosses: Jesus giving it simply, and the man's grey face receiving it with visible re-computation \u2014 the porch, the question, the three commands, the standing up, all of it "
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b39",
+   "file": "build-64-pool-of-bethesda/assets/s39-he-went-and-told-everyone.jpeg",
+   "tokens": [
+    "SICKMAN",
+    "TEMPLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the temple court the man has gathered a knot of listeners and is spending his new name with both hands \u2014 pointing back toward the colonnade, slapping his own thigh, walking two paces and back to prove it \u2014 an old porc"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b40",
+   "file": "build-64-pool-of-bethesda/assets/s40-not-why-are-you-still.jpeg",
+   "tokens": [
+    "SICKMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face at rest in the day's warm end: the watchful defeat gone out of the eyes and something practised and awake living there instead \u2014 the face of a man who was asked one real question after thirty-eigh"
+  },
+  {
+   "row": 64,
+   "build": "build-64-pool-of-bethesda",
+   "beat": "v2-r064-b41",
+   "file": "build-64-pool-of-bethesda/assets/s41-the-pool-never-healed-anybody.jpeg",
+   "tokens": [
+    "BETHESDA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Evening settles over Bethesda: the pool flat and green and exactly as it has always been, the porches quieting into their night shapes \u2014 and by the wall, in the shallow body-worn hollow of thirty-eight years, the man's o"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b01",
+   "file": "build-65-help-mine-unbelief/assets/s01-jesus-came-down-from-the.jpeg",
+   "tokens": [
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down the last turns of the stony mountain path, the camera on the slope's side taking the descent in profile toward the arguing knot below, path Jesus descends into the bright late morning \u2014 and below him at the hill's f"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b02",
+   "file": "build-65-help-mine-unbelief/assets/s02-his-own-disciples-were-in.jpeg",
+   "tokens": [
+    "SCRIBES",
+    "HILLFOOT",
+    "FATHER",
+    "BOY"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Against a big boulder, the camera outside the ring behind the scribes' dark shoulders, two disciples stand cornered \u2014 one with his palms up in defence, the other's jaw set on nothing to say \u2014 while the three fine-robed s"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b03",
+   "file": "build-65-help-mine-unbelief/assets/s03-they-had-tried-nothing-happened.jpeg",
+   "tokens": [
+    "HILLFOOT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close in the crowd's noise: a disciple's two open hands held up before his own face, turned slowly \u2014 hands that have rested on the sick and felt them mend, examined now like tools that have inexplicably stopped \u2014 their o"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b04",
+   "file": "build-65-help-mine-unbelief/assets/s04-and-everyone-was-watching-them.jpeg",
+   "tokens": [
+    "FATHER",
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Through the packed crowd the big father comes shouldering \u2014 not rough, just unstoppable, the crowd's bodies turning aside from his momentum like water \u2014 his bruised-tired eyes locked on the newly arrived figure in cream "
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b05",
+   "file": "build-65-help-mine-unbelief/assets/s05-his-only-son-had-been.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the remembered lamplight of their small home the father sits on the floor holding his spent son gathered whole against his chest \u2014 the thin boy limp and safe in the big arms, breathing, eyes half-open and far away \u2014 w"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b06",
+   "file": "build-65-help-mine-unbelief/assets/s06-years-of-it.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in dim home light: three sleeping mats on a beaten-earth floor \u2014 the small one laid exactly between the two larger, close enough that a parent's hand could land on it without rising \u2014 the wool of all three "
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b07",
+   "file": "build-65-help-mine-unbelief/assets/s07-a-father-who-had-watched.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close portrait of the father in the bright hill light: the early-greyed beard, the bruised-tired eyes with their decade of half-slept nights, the gentle enormous hands hanging ready at his sides even now \u2014 a face worn "
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b08",
+   "file": "build-65-help-mine-unbelief/assets/s08-and-then-he-said-the.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close between the two men in the crowd's hush: the father's bruised eyes come up and meet Jesus's directly \u2014 no rehearsed supplicant's posture, no performed certainty, just ten years of the truth gathering behind a worki"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b09",
+   "file": "build-65-help-mine-unbelief/assets/s09-if-thou-canst-do-anything.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY",
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Before Jesus in the bright hill light the father stands with his thin son gathered under one arm and his free hand open and trembling toward the healer \u2014 the word 'us' made flesh in the huddle of the two of them \u2014 his fa"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b10",
+   "file": "build-65-help-mine-unbelief/assets/s10-if-you-can-do-anything.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close on the father's face at the word: the plea in full flight and the flinch already built into it \u2014 brows guarding the eyes, the mouth shaping 'anything' with the caution of a man who has spent ten years watch"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b11",
+   "file": "build-65-help-mine-unbelief/assets/s11-if-after-all-those-years.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close in the bright light: the father's enormous gentle hand at rest on his son's dark head, thumb moving once in an old unconscious stroke \u2014 a decade of healers, remedies and roadside experts all paid for from the same "
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b12",
+   "file": "build-65-help-mine-unbelief/assets/s12-listen-to-how-jesus-answered.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the hill light: the father's trembling IF just landed, and something kindling in the warm brown eyes as he takes the little word up \u2014 not offence, not correction, but the particular bright gentle"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b13",
+   "file": "build-65-help-mine-unbelief/assets/s13-if-thou-canst-believe-all.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces close in the bright light: Jesus's steady and kind as the sentence crosses \u2014 the little word IF picked up, reversed and set gently down on the father's own doorstep \u2014 and the father's face cracking open aro"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b14",
+   "file": "build-65-help-mine-unbelief/assets/s14-and-now-comes-the-moment.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the father's face at its crossroads: the learned mask of pious confidence hovering available \u2014 every poor man knows it \u2014 and being set aside in real time: the jaw loosening out of its brave set, the eyes coming "
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b15",
+   "file": "build-65-help-mine-unbelief/assets/s15-he-did-not-put-on.jpeg",
+   "tokens": [
+    "FATHER",
+    "HILLFOOT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Around the father, the camera low behind the ring's near backs, the crowd's faces bank close and expectant in the bright light \u2014 scribes with their forensic attention, neighbours who know his story, strangers come for th"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b16",
+   "file": "build-65-help-mine-unbelief/assets/s16-he-did-something-braver-he.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the father as the cry gathers: his big chest filling, his grey-flecked head coming up, both hands rising open from his sides \u2014 the whole worn frame of the man organizing itself around one sentence the way a wave"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b17",
+   "file": "build-65-help-mine-unbelief/assets/s17-lord-i-believe-help-thou.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY",
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "In the bright hill light the father cries it out full-voiced \u2014 head back, tears running free into the early-grey beard, one enormous hand anchored on his son's thin shoulder and the other flung open toward Jesus \u2014 belief"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b18",
+   "file": "build-65-help-mine-unbelief/assets/s18-help-me-where-i-he.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the father's two cupped hands held out open before him in the bright light \u2014 enormous, work-scarred, trembling slightly, and carrying nothing the eye can see \u2014 the exact posture of a man handing over the entire "
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b19",
+   "file": "build-65-help-mine-unbelief/assets/s19-he-handed-him-a-cracked.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in warm light: a small clay lamp with a visible crack running down its side \u2014 and still burning, its flame steady \u2014 passing carefully from one pair of rough hands into another pair that receives it without "
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b20",
+   "file": "build-65-help-mine-unbelief/assets/s20-he-brought-jesus-the-little.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the bright light Jesus's two hands close warm around the father's offered cupped ones \u2014 the whole unsorted cargo of the man's believing and not-believing received in one grip, no inventory taken first, no crack examin"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b21",
+   "file": "build-65-help-mine-unbelief/assets/s21-he-did-not-wait-to.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the father's wet, unguarded face mid-ask: nothing finished about it \u2014 the doubt still visibly resident, the hope still trembling, the whole imperfect apparatus of the man's believing out in the open and ASKING a"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b22",
+   "file": "build-65-help-mine-unbelief/assets/s22-and-that-that-honest-faith.jpeg",
+   "tokens": [
+    "FATHER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus's face above the four joined hands: the verdict already rendered in it \u2014 the warm eyes settled, the head beginning its turn toward the boy, action gathering \u2014 a cracked, half-full, completely honest faith "
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b23",
+   "file": "build-65-help-mine-unbelief/assets/s23-jesus-saw-the-crowd-rushing.jpeg",
+   "tokens": [
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "From the meeting paths, the camera beside the trail so every runner crosses in profile, the crowd comes running \u2014 figures converging at a jog from three directions, drawn by the argument's rumour \u2014 and at the centre Jesu"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b24",
+   "file": "build-65-help-mine-unbelief/assets/s24-he-spoke-directly-to-the.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY",
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Jesus stands over the boy \u2014 who is gathered safe against his father's chest \u2014 and speaks with quiet total command into the air above the small dark head: his face set, his words visibly aimed at something no eye in the c"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b25",
+   "file": "build-65-help-mine-unbelief/assets/s25-thou-dumb-and-deaf-spirit.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close on Jesus's face as the charge is given: the warm eyes gone flint-steady, the jaw set, the words leaving at conversational volume with the weight of a closing door \u2014 no strain, no shout, no visible adversary"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b26",
+   "file": "build-65-help-mine-unbelief/assets/s26-never-again.jpeg",
+   "tokens": [
+    "BOY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close still: the boy's thin face at rest against his father's dark tunic \u2014 eyes closed, lashes down, the small features holding a quiet they have never once been left alone with \u2014 a ten-year-old face wearing, for the f"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b27",
+   "file": "build-65-help-mine-unbelief/assets/s27-you-spirit-that-has-kept.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY",
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Over the boy held tight in his father's arms Jesus's hand extends open \u2014 the command finishing above the small dark head while the frozen crowd holds its distance in a wide ring \u2014 the whole visible world just a man's ste"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b28",
+   "file": "build-65-help-mine-unbelief/assets/s28-it-left-the-boy-went.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY",
+    "HILLFOOT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "On his father's spread olive mantle the boy lies utterly still in the bright light \u2014 limbs loose, face quiet, a sleeper's slackness that the ring of leaning watchers reads darker: a woman's hand over her mouth, a man's s"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b29",
+   "file": "build-65-help-mine-unbelief/assets/s29-but-jesus-reached-down-took.jpeg",
+   "tokens": [
+    "BOY",
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus bends low over the still boy and his hand closes whole around the small thin one \u2014 and the lift is in motion: the boy rising from the spread mantle, his large quiet eyes open and clear, his bare feet finding the gr"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b30",
+   "file": "build-65-help-mine-unbelief/assets/s30-and-he-gave-him-back.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY",
+    "HILLFOOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "With one hand light on the boy's shoulder Jesus guides him the two steps across the trampled grass \u2014 and the father is already down on his knees with both enormous arms opening, his wet face breaking apart \u2014 the boy walk"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b31",
+   "file": "build-65-help-mine-unbelief/assets/s31-it-ended-with-a-hand.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close against the bright ground: the two hands alone \u2014 a man's, closed whole and warm around a boy's thin one, both at the top of the lift's arc with the dust still falling away beneath them \u2014 the entire story compressed"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b32",
+   "file": "build-65-help-mine-unbelief/assets/s32-later-alone-in-the-house.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the small lamplit room at day's end the disciples sit close around Jesus on the rush mats \u2014 packs down, bread broken, the window going blue \u2014 and the question comes at last from the one who was cornered at the boulder"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b33",
+   "file": "build-65-help-mine-unbelief/assets/s33-this-kind-can-come-forth.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the lamp's warm circle: the one sentence given quietly across the bread, his face without a grain of reproach \u2014 not an examiner returning a failed paper but a craftsman naming the one tool the job wante"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b34",
+   "file": "build-65-help-mine-unbelief/assets/s34-nothing-gets-this-out-except.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Around the lamp the disciples' faces work through the sentence: the cornered one's shoulders coming down as the day's shame reclassifies itself, the big fisherman nodding slowly at something he half-suspected on the hill"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b35",
+   "file": "build-65-help-mine-unbelief/assets/s35-it-was-about-who-they.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "A quiet close still in the lamp's edge-light: a travel-worn walking staff leaned into the room's corner at its steep trusting angle \u2014 an object that stands all night precisely because it has given its weight to something"
+  },
+  {
+   "row": 65,
+   "build": "build-65-help-mine-unbelief",
+   "beat": "v2-r065-b36",
+   "file": "build-65-help-mine-unbelief/assets/s36-the-father-got-it-right.jpeg",
+   "tokens": [
+    "FATHER",
+    "BOY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the dusk-gold path from the hill the father and son walk home hand in hand \u2014 the boy's step light and curious, stopping once to look at something in the grass the way children do, the big man letting him, in no hurr"
   }
  ]
 }
