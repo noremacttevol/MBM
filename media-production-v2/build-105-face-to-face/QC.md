@@ -38,3 +38,17 @@ TIGHT by design).
 - Direction: the walk OUT crosses the open ground toward the in-frame
   tent; the shining descent comes DOWN toward the camp.
 - CLEFT promote-first from b21; CAMP/TENT from b01.
+
+---
+
+## RUNNER PARK — 2026-08-06 (Opus autopilot, Machine A `Dev`), $0 pre-flight
+
+STALE-V1-FINAL: the V1 mp4 was rendered 2026-07-24 but all narration mp3s are
+NEWER (2026-07-29) — v2_assemble's recency gate refuses AUDIO LOCK, and row 106
+also fails the duration gate (|Δ|=6.61s). Copying the V1 mp4 would ship stale
+voices. The runner is forbidden to re-voice or edit beats_v2.py (audio
+immutability). NO credits spent — parked at step 2 before any generation.
+RESUME (author): add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py
+(renders narration from the V1 build's own mp3s at extract_beats offsets,
+nothing re-voiced), then this row is BUILDABLE. See the row-92-100 batch and
+rows 74/78/80 for the same fix.
