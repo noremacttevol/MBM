@@ -106,6 +106,13 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   triggered by beats that ask for MANY workers doing MANY tasks at once
   ("tenants working the lease"). Reroll on sight — the model eventually lands a
   single coherent wide. Never crop-rescue a panel out of it.
+- **False "tiled/collage" frame from ffmpeg INPUT-seek (`-ss` BEFORE `-i`)**
+  (row 55 caption QC): extracting a caption frame with `ffmpeg -ss <t> -i mp4`
+  can land on a non-keyframe and decode a garbled/striped image that looks like
+  2-3 stacked panels — it is a DECODE ARTIFACT, not a real collage in the video.
+  Before rerolling/re-cutting, re-extract with OUTPUT seek (`ffmpeg -i mp4 -ss <t>
+  -frames:v 1`): if the accurate-seek frame is a single clean image, the mp4 is
+  fine. Always confirm a suspected assembly defect with an accurate-seek frame.
 
 ## Reuse before regenerate (Cameron's core order — rubric lesson 11 + COST LAW)
 
