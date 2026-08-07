@@ -1,3 +1,20 @@
+## 2026-08-07 — ROW 60 C-FIX SHIPPED: "2:39 Jesus eyes do not look good" FIXED — rerolled ONLY b28, AUDIO byte-identical, touch-once — Machine A `Dev` (C-FIX lane)
+
+**Commit:** claim = `1e81970b1`; ship (mp4 + QC + api-spend) = `139078b0a0b5d4c9cf71721779eea3e1dc14f388`; review.html + board→SHIPPED + this log = (this commit).
+
+Picked up as the lowest waiting COMPLAINT-FIRST row (AUTHOR-BOARD row 60, Mark 5 gerasene-demoniac, a shipped+approved REALISTIC V2 cut). Cameron's OPEN complaint (`v2_outline.py 60`, against live hash `9af3ae30898c`):
+> "2:39 Jesus eyes do not look good"
+
+Picture-domain. 2:39 falls on beat **b28** (`s28-sitting-at-his-feet.jpeg`) — the after-picture (healed man seated clothed at Jesus's feet, town crowd stopped behind). Extracted the live frame: Jesus's eyes rendered as a flat, pale, **staring green** — the one frame where the V2 JESUS LOCK's intended "green-amber-gold luminous, lit from within" iris (v2_prompt.py:966-995, a SHARED lock I did NOT touch) drifted to an unnatural washed-out light. Spot-checked every other Jesus close-up in the cut — b12 (0:91), b14 (1:44), b30 (2:52), b32 (3:20) — all already had correct warm eyes. So this was a **true single-frame defect, not a whole-cut drift**.
+
+**FIX:** rerolled ONLY b28 (`--only b28 --redo`, 1 reroll). New take has Jesus looking DOWN at the seated man with a warm, natural, downcast gaze — no pale-green stare. All 38 other stills byte-identical. **AUDIO LOCK PASS** (narration byte-identical, SHA256 `58abeeb5…`), 235.1s. Verified the fix in the RENDERED mp4 at 2:39 (warm downcast eyes), plus caption-band frames at 3:33 (Decapolis mission — captions bottom-band, columned Gentile shrine, no anachronism). Jesus stays one locked face, only-Jesus-in-cream, no halo. `--check` v4 PASS, face gate exit 0.
+
+**Cost:** 1 reroll / 39 beats = **2.6%** (budget 15%); spend = 1 × $0.134 = **$0.13**, $0 audio — far under the $6.10/row average (targeted re-cut, not a fresh row). Touch-once: only open complaint on the row batched into ONE re-cut. Meter $419.42 → $419.55.
+
+**Lesson (→ RUNNER-LESSONS):** the V2 green-eyed Jesus lock occasionally renders as a flat pale-green *stare* on a frontal, well-lit face — a "hunted"/staring look Cameron reads as wrong. When Jesus's face is frontal and lit in the after/aftermath beats, prefer a downcast or three-quarter gaze so the eye color reads as warm depth, not a colored-contact stare. Single-frame reroll fixes it; spot-check the other Jesus close-ups first to confirm it's isolated (it was here).
+
+---
+
 ## 2026-08-07 — ROW 59 AUTHOR-DONE: second-feeding scholarship complaint ANSWERED (Mark 8:19-21 / 5→12 vs 7→7), $0/0 credits, re-assembled — Machine A `Dev` (Fable-5 author lane)
 
 **Commit:** author package (V1+V2 make_narration, re-voiced n2b/n5 + timings, beats_v2, QC, AUTHOR-BOARD, new mp4) = `a3f82c497`; this log = (this commit).
