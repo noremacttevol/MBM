@@ -90,6 +90,22 @@ entry at the top (rows finished, decisions made, anything a next author must
 know), commit, push. Never end a session with an unclaimed half-authored row —
 either finish it or revert the claim.
 
+## When your author work on a NEEDS-REBUILD row is DONE (don't strand it)
+
+A NEEDS-REBUILD row routes ONLY to this author lane. Once you've done the author
+part (scene-text/lock edits, beat removal, re-voice flag) and the ONLY thing left
+is a **paid targeted re-cut** (`--only <frame>` reroll or a $0 re-assemble), you
+MUST flip its board **State → BUILT** (keep the open complaint, do NOT write a
+literal `C-FIX <date>` marker in the Claim). That is the state the paid **cfix**
+lane picks up for exactly these targeted re-cuts. Leaving it NEEDS-REBUILD strands
+it forever — every author session re-selects it, finds no author work, and moves
+on, so Cameron's complaint never closes (STANDING-ORDER violation). Rows 13/15/16/
+19/33/61/73 sat stranded this way until 2026-08-07. If instead only AUDIO work
+remains, flip State → NEEDS-AUDIO (no `AUDIO-FIX` text in Claim) so the audio lane
+takes it. (Picker fixes shipped 2026-08-07: hash regex widened to `{40,64}` for
+SHA256 review cards; cfix skip-check tightened to `C-FIX \d{4}-\d\d-\d\d` so prose
+mentioning "prior C-FIX" no longer hides a genuine open complaint from cfix.)
+
 ## Never
 
 - Spend a Gemini credit, generate a portrait, or assemble a video (runner's job).

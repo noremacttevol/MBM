@@ -55,7 +55,12 @@ People locks: JESUS (locked master face + JESUS LOCK, injected on jesus/ref beat
 wears cream), DISCIPLES (the disciples on the mount), NATIONS-BELIEVERS (the messengers and
 peoples of every nation who carry and receive the gospel). No one but Jesus wears cream/white.
 
-AUDIO: default AUDIO LOCK stream-copy (no re-voice; no open complaint). Board Audio = OK.
+AUDIO: ⚠ OPEN COMPLAINT "Still the wrong audio. Im pissed" (reportedAgainst the live
+Jul-29 V1 cut). DO NOT default-stream-copy — that re-ships the exact rejected audio.
+Row is PARKED NEEDS-AUDIO: the audio-fix lane must voice-ID/transcribe the delivered
+audio, re-voice through the chosen ElevenLabs cast ONLY if genuinely wrong (or confirm a
+stale-cache delivery like row 110), then set AUDIO_FROM_V1_SEGMENTS / ship corrected,
+BEFORE any picture build. Board Audio = OK is the audit-spec gate only, not a voice check.
 card_start = 40.190 s (TAIL 5.0 — a longer closing card for the final video). Picture-only.
 """
 

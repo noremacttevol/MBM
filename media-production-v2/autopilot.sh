@@ -104,7 +104,7 @@ except Exception:
 openc = {k for k, v in L.items() if isinstance(v, dict) and v.get('open')}
 try:
     html = open('site/review.html').read()
-    cur = dict(re.findall(r'data-num="(\d+)" data-hash="([0-9a-f]{40})"', html))
+    cur = dict(re.findall(r'data-num="(\d+)" data-hash="([0-9a-f]{40,64})"', html))
 except Exception:
     cur = {}
 
@@ -132,7 +132,8 @@ for r, b, st, au, cl, rd in rows:
     elif st == 'NEEDS-REBUILD' and 'AUTHOR-LIVE' not in cl:
         if author_live < 1:
             emit('author', r)
-    elif (st == 'BUILT' and k in openc and 'C-FIX' not in cl
+    elif (st == 'BUILT' and k in openc
+          and not re.search(r'C-FIX \d{4}-\d\d-\d\d', cl)
           and L[k].get('reportedAgainst') == cur.get(k)):
         if not bd:
             emit('cfix', r)

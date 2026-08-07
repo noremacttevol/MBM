@@ -91,3 +91,29 @@ then shall the end come" (red-letter). The good news goes out to every nation �
 kept for a few — and the task he gave is still ours: tell it, show it, live it, until the
 promise is fulfilled for every nation and every people. The Father is never pictured; only
 Jesus is embodied, under the locked face. No open complaint on this row.
+
+## ⚠ COMPLAINT LEDGER + AUTHOR PARK — 2026-08-07 (Machine A `Dev`, $0 author lane)
+
+OPEN complaint (v2_outline 200): **"Still the wrong audio. Im pissed"** — genuinely open,
+`reportedAgainst` == the currently-live review hash == the **Jul-29 V1 mp4**. That means the
+audio Cameron rejected is exactly the audio a default AUDIO-LOCK stream-copy would re-ship —
+shipping it unverified = the worst failure (a repeat complaint). The prior AUTHORED note
+wrongly said "no open complaint"; corrected.
+
+Diagnosis done here: ffprobe of the V1 segments (j1/n0a) = 44100 Hz / 128 kbps / mono mp3 —
+**identical spec to a KNOWN-new-voice row (198) AND a KNOWN-old-voice row (92)**, so spec
+alone cannot tell new voice from old. Only a voice-ID / whisper round-trip on the delivered
+audio can. That is the audio-fix lane's job, not a $0 author flag.
+
+ACTION: board flipped **AUTHORED → NEEDS-AUDIO**, Ready ✅ removed, so the runner cannot
+blindly build+stream-copy the rejected audio. AUDIO-FIX lane, do this FIRST:
+1. Voice-ID / transcribe the delivered narration + j1. Is it the chosen ElevenLabs cast
+   (Brian narrator / the chosen Jesus voice) or a wrong/old edge-tts voice?
+2. If genuinely wrong → re-voice the affected segments through the locked ElevenLabs cast
+   (mbm_eleven.render_segment), set `AUDIO_FROM_V1_SEGMENTS=True`, whisper round-trip verify.
+3. If the audio is actually correct → this is a **stale-cache delivery** like row 110: the
+   mp4 is fine, the reviewer served a cached old cut. Confirm the live hash serves the real
+   audio; no re-voice needed.
+Only after the audio is VERIFIED correct → back to AUTHORED+Ready ✅ so the picture runner
+builds the 12 stills. Review card must tell Cameron, in his words, that the voice is now the
+real chosen voice.
