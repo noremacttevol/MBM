@@ -93,7 +93,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 79 | build-79-the-seventy-sent | BUILT | 19 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 80 | build-80-come-unto-me | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — STALE-V1 audio-lock CLEARED (AUDIO_FROM_V1_SEGMENTS=True): V1 mp4 stale vs 11 re-voiced mp3s; v2_assemble now clears the audio gate (stops only on missing stills), 11/11 segment parity. $0, nothing re-voiced. 0 V2 stills → picture runner generates + assembles on corrected new-voice audio. Same mechanism as shipped row 69. See QC.md "AUDIO FIX DONE". |
 | 81 | build-81-render-unto-caesar | BUILT | 16 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 82 | build-82-anointing-at-bethany | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1, FAILS BOTH tripwires — newer_mp3s=19 AND excess=+7.00s. Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
+| 82 | build-82-anointing-at-bethany | NEEDS-AUDIO | 0 | CHECK | AUDIO-FIX 2026-08-06 LIVE — A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1, FAILS BOTH tripwires — newer_mp3s=19 AND excess=+7.00s. Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 83 | build-83-weeping-over-jerusalem | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED ($0 pre-flight): STALE-V1 duration tripwire — newer=0 but excess=-2.20s (abs>1.0). Author: set AUDIO_FROM_V1_SEGMENTS=True OR re-render V1 mp4. See QC.md RUNNER PARK. |  |
 | 84 | build-84-no-room-manger | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 85 | build-85-shepherds-and-angels | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
