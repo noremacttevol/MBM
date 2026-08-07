@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 07:23:18",
+ "scanned": "2026-08-07 07:38:39",
  "entries": [
   {
    "row": 1,
@@ -40639,6 +40639,395 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame simply breathes: the ring at deep ease around their teacher in the day's warmest gold \u2014 the baby asleep, the old man's eyes closed in the sun, sparrows dust-bathing unafraid a yard from human hands \u2014 a "
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b01",
+   "file": "build-112-beatitudes/assets/s01-the-crowds-came-up-the.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Up the broad green hillside, the camera on the slope's flank taking the climbing streams in profile, the multitude climbs in the morning light \u2014 patched robes and work-bent backs, widows helped over the stones, children "
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b02",
+   "file": "build-112-beatitudes/assets/s02-matthew-was-there-on-the.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man who will write it down: keen-eyed, seated cross-legged in the grass near the front \u2014 a former tax-man's trained attention drinking in every detail the way he once counted coins: the seating, the faces, t"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b03",
+   "file": "build-112-beatitudes/assets/s03-his-friends-gathered-in-close.jpeg",
+   "tokens": [
+    "MOUNT",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The seating arranges itself in rings of love: Jesus settled on the stone shelf, and his friends drawing in close around him \u2014 Peter planting himself at his right knee, John cross-legged almost at his feet, the others sho"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b04",
+   "file": "build-112-beatitudes/assets/s04-and-seeing-the-multitudes-he.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "The verse composes itself, the camera behind the banked crowd's shoulders toward the seated shelf, on the hillside: the multitude seen and received, the teacher gone up and SEATED on the stone shelf in the rabbi's own po"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b05",
+   "file": "build-112-beatitudes/assets/s05-he-saw-the-crowd-coming.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "It begins with a looking: Jesus partway up the slope, turned back toward the climbing hundreds \u2014 the worn faces, the carried children, the hope in patched wool \u2014 and something in the seeing deciding everything, because h"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b06",
+   "file": "build-112-beatitudes/assets/s06-and-then-he-opened-his.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the gentlest revolution ever started: Jesus's face as the first words leave him \u2014 warm, unhurried, almost quiet \u2014 and carrying in that quietness a sentence built to turn every ranking the world keeps on its head"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b07",
+   "file": "build-112-beatitudes/assets/s07-blessed-are-the-poor-in.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The first blessing goes looking for its owner: Jesus's open hand finding a ragged man near the front \u2014 a day-laborer whose whole posture apologizes for taking up grass, hands empty in his lap of everything including conf"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b08",
+   "file": "build-112-beatitudes/assets/s08-he-starts-with-the-very.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the sermon's chosen front row: the ragged laborer still stunned by his blessing, a bent widow whose eyes have not been met in the market for years, an old beggar with a scarred cheek holding his stick like an ap"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b09",
+   "file": "build-112-beatitudes/assets/s09-not-the-and-the-ones.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the entry requirement, held in laps all over the hillside: hands \u2014 calloused, rope-scarred, wash-worn, field-cracked \u2014 lying open and empty in the morning light, holding between all of them not one credential, o"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b10",
+   "file": "build-112-beatitudes/assets/s10-the-kingdom-he-says-belongs.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The line reforms itself under his gesture: Jesus's arm sweeping the crowd's humblest corner \u2014 the patched, the bent, the walked-past \u2014 to the very front of the kingdom's queue \u2014 THEIRS, FIRST \u2014 while every ranking the wo"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b11",
+   "file": "build-112-beatitudes/assets/s11-blessed-are-they-that-mourn.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Two blessings find two faces sitting side by side: a widow with grief still wet on her cheeks \u2014 mourning worn openly on the hillside because there is no strength left to hide it \u2014 and beside her a small quiet man who has"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b12",
+   "file": "build-112-beatitudes/assets/s12-blessed-are-they-which-do.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a hunger no bread answers: a young man leaned all the way forward in the grass, hands gripped white between his knees, face aching openly toward the words \u2014 a man sick of what he keeps being, starving to be made"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b13",
+   "file": "build-112-beatitudes/assets/s13-the-grieving-will-be-comforted.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The promise starts rehearsing immediately: beside the weeping widow, a neighbor woman's arm coming around the shaking shoulders \u2014 no words, just the old sideways gathering-in that women have done at gravesides forever \u2014 "
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b14",
+   "file": "build-112-beatitudes/assets/s14-the-gentle-who-never-push.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The inheritor of the earth demonstrates his claim: the small quiet man at the crowd's edge, shifting without being asked to give a late-come mother and child his patch of good grass \u2014 taking the rocky spot himself with t"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b15",
+   "file": "build-112-beatitudes/assets/s15-every-blessing-goes-to-exactly.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The roster reads out, the camera at the slope's side so the moving blessing-hand crosses in profile, across the slope: the teacher's hand moving face to face over exactly the people every market and palace would wave off"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b16",
+   "file": "build-112-beatitudes/assets/s16-blessed-are-the-merciful-for.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Mercy gets caught in the act: a woman in the crowd, her own portion small, tearing it and handing half down to a stranger's hungry-eyed child without pausing her listening \u2014 no ceremony, no glance for witnesses, just the"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b17",
+   "file": "build-112-beatitudes/assets/s17-blessed-are-the-pure-in.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The qualification for the greatest promise turns out to be a child's resting state: a small girl near the front with her chin on her fists, face tipped up utterly unguarded \u2014 no angle in her listening, no second motive a"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b18",
+   "file": "build-112-beatitudes/assets/s18-the-pure-in-heart-the.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close along a row of the unguarded: the small girl with her chin on her fists, an old shepherd whose face has never once said anything it didn't mean, a plain-spoken woman with her hands open on her knees \u2014 faces without"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b19",
+   "file": "build-112-beatitudes/assets/s19-not-the-clever-or-the.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The contrast sits at the crowd's edge: one fine-robed listener whose eyes are working even here \u2014 measuring the crowd, weighing the teacher's angles, calculating what this movement might be worth \u2014 clever to the bone and"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b20",
+   "file": "build-112-beatitudes/assets/s20-blessed-are-the-peacemakers-for.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Peacemaking happens in miniature right there in the crowd: two jostled neighbors flaring over trampled space, chests squaring \u2014 and between them, already, an older man's two hands landing easy on a shoulder each, his low"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b21",
+   "file": "build-112-beatitudes/assets/s21-blessed-are-they-which-are.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The costliest blessing gets its quiet picture: at a village gate beyond the hill, a small family turned away \u2014 the gate shut to them, neighbors' backs turned, their goods on one handcart \u2014 walking out the road with their"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b22",
+   "file": "build-112-beatitudes/assets/s22-the-ones-who-make-peace.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a face that just chose peace over winning: the older mediator settled back between his two reconciled neighbors, breathing easy, wanting no credit \u2014 and in the weathered features, plain as inherited eyes or a fa"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b23",
+   "file": "build-112-beatitudes/assets/s23-and-even-those-pushed-aside.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The exiles' road refuses to read as defeat: the small family and their handcart out on the open way in the day's warming gold, the shut village shrinking behind, the road ahead running bright toward hills full of light \u2014"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b24",
+   "file": "build-112-beatitudes/assets/s24-every-last-person-the-world.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon opens its arms, the camera far back behind the whole multitude's heads, all the way: Jesus on the stone shelf with both arms spread wide enough to take the whole hillside in \u2014 front row to farthest straggler, "
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b25",
+   "file": "build-112-beatitudes/assets/s25-so-if-you-have-ever.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the moment invisibility ends: a middle-aged woman near the crowd's rear \u2014 worn thin by years nobody counted, unseen so long she stopped expecting eyes \u2014 her face lifting slowly at the words the way a plant lifts"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b26",
+   "file": "build-112-beatitudes/assets/s26-in-his-kingdom-you-are.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The seating chart preaches the closing point: nearest the teacher in the warming gold sit exactly the wrong people by every rule of every line \u2014 the ragged laborer at his knee, the widow inside arm's reach, the worn unse"
+  },
+  {
+   "row": 112,
+   "build": "build-112-beatitudes",
+   "beat": "v2-r112-b27",
+   "file": "build-112-beatitudes/assets/s27-that-is-how-upside-down.jpeg",
+   "tokens": [
+    "MOUNT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The closing frame holds the whole overturned world at rest: the seated teacher on his stone shelf, the multitude spread easy down the gold-lit slope \u2014 mourners leaned into neighbors, children asleep, empty hands lying op"
   },
   {
    "row": 113,
