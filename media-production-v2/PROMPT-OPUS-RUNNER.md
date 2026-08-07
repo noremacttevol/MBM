@@ -49,8 +49,9 @@ stop, object, or write alerts about concurrency; follow these rules instead:
 1. **Build only rows that are Ready ✅ with an EMPTY claim.** Never touch a row
    whose State is RUNNING or whose Claim is filled — even if it looks stranded
    or orphaned. Strand rescue belongs to autopilot.sh's resume branch ALONE
-   (it only fires when zero lanes are live). Two lanes "rescuing" the same row
-   is how duplicate work happened on row 43.
+   (it verifies per-build that no live gen process owns the row, and the resume
+   session must run the RUNNER-LESSONS already-shipped check before spending).
+   Two lanes "rescuing" the same row is how duplicate work happened on row 43.
 2. **Shared files (QUEUE.md, AUTHOR-BOARD.md, site/review.html, SESSION-LOG.md):**
    `git pull --rebase --autostash` IMMEDIATELY before each edit, commit and
    push IMMEDIATELY after. Never batch shared-file edits for later. If a push

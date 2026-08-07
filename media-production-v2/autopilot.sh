@@ -66,13 +66,21 @@ cd "$REPO"
 
 # --- what work exists? -------------------------------------------------------
 # AUTHOR-BOARD columns: | Row | Build | State | Stills | Audio | Claim | Ready |
+# Cameron 2026-08-06: "there are some to be just fixed and those would be
+# faster and should be done first" — among Ready rows, the one with the MOST
+# already-paid banked stills finishes fastest and cheapest, so it goes first.
 next_ready() {
-  awk -F'|' '/^\| *[0-9]+ *\|/ {
-    row=$2; state=$4; audio=$6; claim=$7; ready=$8
-    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",state); gsub(/[[:space:]]/,"",audio)
-    gsub(/^[[:space:]]+|[[:space:]]+$/,"",claim)
-    if (state=="AUTHORED" && audio=="OK" && claim=="" && ready ~ /✅/) { print row; exit }
-  }' "$BOARD"
+  local best="" bestn=-1 row build n
+  while read -r row build; do
+    n=$(ls "$V2/$build/assets/"*.jpeg 2>/dev/null | wc -l)
+    if [ "$n" -gt "$bestn" ]; then best="$row"; bestn="$n"; fi
+  done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
+    row=$2; build=$3; state=$4; audio=$6; claim=$7; ready=$8
+    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",build); gsub(/[[:space:]]/,"",state)
+    gsub(/[[:space:]]/,"",audio); gsub(/^[[:space:]]+|[[:space:]]+$/,"",claim)
+    if (state=="AUTHORED" && audio=="OK" && claim=="" && ready ~ /✅/) print row, build
+  }' "$BOARD")
+  [ -n "$best" ] && echo "$best"
 }
 next_unauthored() {
   awk -F'|' '/^\| *[0-9]+ *\|/ {
@@ -82,14 +90,24 @@ next_unauthored() {
     if (state=="NEEDS-BEATS" && claim=="") { print row; exit }
   }' "$BOARD"
 }
-# A RUNNING row claimed 'A-auto' with no build in flight (we hold the lock, so
-# nothing autopilot-owned is running) is a stranded row from a dead run.
+# A RUNNING/A-auto row whose build has NO live v2_gen_api process is stranded —
+# its lane died (billing outage, crash). These carry the most banked stills on
+# the board, so they resume FIRST even while other lanes work on other rows
+# (Cameron 2026-08-06: the just-fix rows should be done first). Per-build
+# process check makes this safe alongside live lanes; the resume session also
+# verifies shipped-state per RUNNER-LESSONS before spending.
 next_stranded() {
-  awk -F'|' '/^\| *[0-9]+ *\|/ {
-    row=$2; state=$4; claim=$7
-    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",state)
-    if (state=="RUNNING" && claim ~ /A-auto/) { print row; exit }
-  }' "$BOARD"
+  local row build
+  while read -r row build; do
+    if ! pgrep -f "v2_gen_api.*$build" >/dev/null 2>&1; then
+      echo "$row"; return 0
+    fi
+  done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
+    row=$2; build=$3; state=$4; claim=$7
+    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",build); gsub(/[[:space:]]/,"",state)
+    if (state=="RUNNING" && claim ~ /A-auto/) print row, build
+  }' "$BOARD")
+  return 0
 }
 # NEEDS-AUDIO rows carry Cameron's open AUDIO complaints (mispronunciations,
 # wrong voice, stale V1 renders) — the runner is forbidden to fix them; the
@@ -116,16 +134,20 @@ if find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' \)
   BILLING_DOWN=1
 fi
 
-# Job priority (Cameron 2026-08-06: complaints must actually get FIXED, and
-# billing-down must never idle the loop):
-#   billing OK:   stranded-resume → audio-fix → ready-build → author
+# Job priority (Cameron 2026-08-06: fastest-to-finish first, complaints get
+# fixed, billing-down never idles the loop):
+#   billing OK:   stranded-resume (banked stills, cheapest wins) →
+#                 audio-fix (MAX ONE audio lane) → ready-build → author
 #   billing DOWN: audio-fix → author (paid jobs blocked; free work continues)
 STRANDED=""; READY=""
 if [ "$BILLING_DOWN" -eq 0 ]; then
-  [ "$LIVE" -eq 0 ] && STRANDED="$(next_stranded || true)"
+  STRANDED="$(next_stranded || true)"
   READY="$(next_ready || true)"
 fi
-AUDIO="$(next_audio || true)"
+# Audio is capped at ONE lane — it must never starve picture builds
+AUDIO=""
+AUDIO_LIVE=$(pgrep -fc 'PROMPT-AUDIO-FIX' || true)
+[ "${AUDIO_LIVE:-0}" -eq 0 ] && AUDIO="$(next_audio || true)"
 UNAUTHORED="$(next_unauthored || true)"
 
 if [ -n "$STRANDED" ]; then
