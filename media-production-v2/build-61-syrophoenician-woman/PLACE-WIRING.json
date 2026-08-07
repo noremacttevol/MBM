@@ -1,0 +1,14 @@
+{
+ "HERHOME": {
+  "manual": true,
+  "src_beat": "s07-her-little-girl",
+  "src_build": "build-61-syrophoenician-woman",
+  "src_file": "build-61-syrophoenician-woman/assets/s07-her-little-girl.jpeg"
+ },
+ "TYRE": {
+  "manual": true,
+  "src_beat": "s01-north-to-the-coast",
+  "src_build": "build-61-syrophoenician-woman",
+  "src_file": "build-61-syrophoenician-woman/assets/s01-north-to-the-coast.jpeg"
+ }
+}

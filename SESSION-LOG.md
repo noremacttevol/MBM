@@ -1,3 +1,46 @@
+## 2026-08-06 (PICTURE RUNNER, headless) — Row 60 (gerasene-demoniac) RESUMED 24→39 stills and SHIPPED realistic V2 — ~$2.01 — Machine A `Dev`
+
+**Commit:** 9af3ae30898ce178cd3d251322401cc5c0408e4b (mp4 + QC + boards) + this entry + review.html card (see `git log` head).
+
+Session-chain: read SESSION-LOG top (row 61 RESUMED→PARKED NEEDS-AUDIO), confirmed prior commit in `git log`; hostname `Dev` → Machine A. Task = resume the lane that DIED mid-build on AUTHOR-BOARD row 60 (State RUNNING, Claim A-auto). Verified genuinely mid-build (24/39 stills, mp4 not committed, no realistic-v2 card live) → safe to resume, not a false-strand.
+
+**Learning Law satisfied before any credit:** `v2_prompt.py 60 --check` PASS; `v2_outline.py 60` → **no open complaints** (QC COMPLAINT LEDGER: none open). Author QC.md content-care laws honored (suffering-human man never a monster; stampede the one violent frame, no drowning close-up; after-picture = clothed/calm/right-mind).
+
+**Pictures FINISHED — 15 frames generated (b25–b39), ~$2.01, 0 rerolls (0% — far under the 15% budget → COST LAW trend DOWN):** portraits already set (MAN), plates present (TOMBS, TOWN); 24 valid frames from the dead lane re-pulled nothing (reuse-before-regenerate). Light QC (viewed b25/b27/b28/b29/b32/b35/b38/b39 + 3 caption frames from the rendered mp4): PASS — only Jesus in cream, stampede reads correctly, restored face matches author's "same gaunt bones, hunted look gone", lone frames (b26/b38) have no phantom people, direction/geometry correct, columned Decapolis background (Gentile country stated), no modern objects/lens-stares, captions in the bottom band, question card clean. FIX-WAVE note (not rerolled per COST LAW): b28 Jesus's eyes read slightly light/green.
+
+**SHIPPED:** `v2_assemble.py 60` → **AUDIO LOCK PASS** (SHA256 58abeeb5…), 20.9MB/235.1s, audio byte-identical to the approved cut. Two commits (mp4/boards, then review.html card wave `realistic-v2` + hash). Firebase `firebase deploy --only hosting` + live-verified below. `publish_ledger.py sync` + `v2_stash.py --scan` run. Board row 60 → BUILT/SHIPPED. Meter now ~$414.73.
+
+**Commit:** this entry + build-61 stills + QC.md RUNNER PARK + AUTHOR-BOARD flip (see `git log` head).
+
+Session-chain: read SESSION-LOG top (rows 80/82/83 STALE-V1 audio-fix) and confirmed in `git log`;
+hostname `Dev` → Machine A. Task = resume the lane that DIED mid-build on row 61 (board RUNNING /
+A-auto). Verified no live sibling `v2_gen_api` owned it (`ps` clean), mp4 not committed and no
+`realistic-v2` card live → genuinely mid-build, safe to resume (not an already-shipped false-strand).
+
+**Learning Law satisfied before any credit:** read both META-LAWS + all 14 numbered rubric lessons +
+all of RUNNER-LESSONS.md; `v2_outline.py 61` → **no open complaints** (QC COMPLAINT LEDGER: none open).
+
+**Pictures FINISHED — 1 frame generated, $0.13, 0 rerolls (0% — far under the 15% budget → COST LAW
+trend DOWN):** only b31 `s31-the-whole-loaf` was pending on resume; the other 30 stills were valid from
+the dead lane and re-pulled nothing (reuse-before-regenerate). Light QC (3 contact sheets, all 31 frames
+viewed): PASS — only Jesus in cream, real bread on the low table (s13), house-pups under the family table
+(s15), posture arc face-down→meeting-his-eyes, REMOTE healing (no beam) with a living/resting/then-awake
+girl (s28→s31), lone moonlit faith-walk (s26), night beats render night, no modern objects/lens-stares,
+identities consistent. Jesus's baked-in hazel eye cast left as-is per RUNNER-LESSONS (reroll only
+re-echoes the ref).
+
+**BLOCKED at assembly — STALE-V1 audio lock, PARKED not shipped.** `v2_assemble.py 61` failed the audio
+hash: extracted timeline 185.202s vs authoritative V1 mp4 179.333s (**+5.87s**). Root cause: V1 mp4
+rendered 2026-07-29 09:47 but `make_narration.py` edited 2026-07-29 23:03 (~13h later) — V1 audio is out
+of date; `beats_v2.py` has no `AUDIO_FROM_V1_SEGMENTS` set. The fix (set that flag =True) is an AUTHOR
+audio decision outside runner writes (audio-immutability + hard rail "do not ship a failed audio lock" —
+row 46 shipped this way = worst failure). So: wrote QC.md RUNNER PARK with root cause + exact resume,
+flipped board row 61 RUNNING→**NEEDS-AUDIO**, Audio OK→CHECK, cleared Ready. **All 31 stills committed &
+QC-passed — the author/audio-fix lane sets the flag, runs ONE assemble ($0 pictures), and ships.** No
+firebase deploy (nothing shippable). Meter now ~$414.86.
+
+---
+
 ## 2026-08-06 (AUDIO-FIX, headless) — Rows 80, 82, 83 STALE-V1 audio-locks cleared + handed to picture runner — $0 — Machine A `Dev`
 
 **Commits:** row 80 `a9bb35e36`, row 82 `062bee819`, row 83 `8818bd595` (each = beats_v2.py flag
