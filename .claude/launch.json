@@ -2,16 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "mbm-web",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "mobile:web"],
-      "port": 8081
-    },
-    {
-      "name": "review-site",
+      "name": "site",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8033", "-d", "site"],
-      "port": 8033
+      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "site"],
+      "port": 8123
     }
   ]
 }

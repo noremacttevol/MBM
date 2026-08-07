@@ -8,6 +8,11 @@
 <meta property="og:title" content="Milk Before Meat" />
 <meta property="og:description" content="A quiet place to breathe — and to be seen. An app that meets you where you are and points you toward Christ." />
 <meta property="og:type" content="website" />
+<meta property="og:image" content="https://milkb4meat.org/img/og-cover.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://milkb4meat.org/img/og-cover.jpg" />
 <style>
   :root{
     --navy:#11152b; --navy2:#0a0d1c; --gold:#c9a85c; --gold-soft:#d8be86;
@@ -54,6 +59,19 @@
   .btn.primary:hover{background:var(--gold-soft)}
   .btn.ghost{border:1px solid var(--line); color:var(--cream)}
   .btn.ghost:hover{border-color:var(--gold); color:var(--gold-soft)}
+
+  /* STORY STRIP */
+  .strip{display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:34px}
+  .strip figure{margin:0; text-align:center}
+  .strip a.pic{display:block; position:relative; aspect-ratio:9/16; border-radius:16px;
+    overflow:hidden; border:2px solid var(--line); box-shadow:0 12px 30px rgba(0,0,0,.4)}
+  .strip a.pic img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block}
+  .strip a.pic:hover{border-color:var(--gold)}
+  .strip figcaption{font-family:Arial,Helvetica,sans-serif; font-size:12.5px;
+    color:var(--dim); margin-top:10px; line-height:1.4}
+  .strip-cta{text-align:center; margin-top:36px}
+  .strip-note{font-family:Arial,Helvetica,sans-serif; font-size:14px; letter-spacing:.04em;
+    color:var(--gold-soft); text-align:center; margin:26px 0 0}
 
   /* SECTION shells */
   section{padding:72px 0; border-bottom:1px solid var(--line)}
@@ -122,6 +140,7 @@
 
   @media (max-width:820px){
     .hero h1{font-size:44px}
+    .strip{grid-template-columns:repeat(2,1fr)}
     .pillars{grid-template-columns:1fr}
     .what{grid-template-columns:1fr; gap:30px}
     .what .phone-shot{order:-1}
@@ -139,6 +158,7 @@
   <div class="bar">
     <span class="brand">Milk Before Meat</span>
     <span class="links">
+      <a href="/stories.html">Stories</a>
       <a href="#why">Why it matters</a>
       <a href="#watch">How it works</a>
       <a href="#inside">Inside</a>
@@ -164,6 +184,47 @@
     </div>
   </div>
 </header>
+
+<!-- ============ THE STORIES ============ -->
+<section id="stories">
+  <div class="wrap">
+    <p class="kicker">The story library</p>
+    <h2>The stories of Jesus, free to watch</h2>
+    <p class="sub">Short films of the stories of Jesus — narrated over painted, realistic
+      scenes, with His words straight from the King James Bible. The same stories that live
+      inside the app, open to anyone.</p>
+    <div class="strip">
+      <figure>
+        <a class="pic" href="/stories.html" aria-label="Watch: Woman Who Touched His Cloak">
+          <img src="/story-videos/thumbs/1.jpg" alt="Woman Who Touched His Cloak" loading="lazy" width="640" height="1138">
+        </a>
+        <figcaption>Woman Who Touched His Cloak</figcaption>
+      </figure>
+      <figure>
+        <a class="pic" href="/stories.html" aria-label="Watch: The Prodigal Son">
+          <img src="/story-videos/thumbs/2.jpg" alt="The Prodigal Son" loading="lazy" width="640" height="1138">
+        </a>
+        <figcaption>The Prodigal Son</figcaption>
+      </figure>
+      <figure>
+        <a class="pic" href="/stories.html" aria-label="Watch: Peter Walks on Water">
+          <img src="/story-videos/thumbs/7.jpg" alt="Peter Walks on Water" loading="lazy" width="640" height="1138">
+        </a>
+        <figcaption>Peter Walks on Water</figcaption>
+      </figure>
+      <figure>
+        <a class="pic" href="/stories.html" aria-label="Watch: Gethsemane">
+          <img src="/story-videos/thumbs/91.jpg" alt="Gethsemane" loading="lazy" width="640" height="1138">
+        </a>
+        <figcaption>Gethsemane</figcaption>
+      </figure>
+    </div>
+    <p class="strip-note">44 of 200 stories finished — more added every week.</p>
+    <div class="strip-cta">
+      <a class="btn primary" href="/stories.html">Watch the stories</a>
+    </div>
+  </div>
+</section>
 
 <!-- ============ WHY IT'S GOOD FOR THE WORLD ============ -->
 <section id="why">

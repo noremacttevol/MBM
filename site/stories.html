@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Stories of Jesus — Milk Before Meat</title>
+<meta name="description" content="The stories of Jesus, narrated over painted, realistic scenes — His words straight from the King James Bible. 44 of 200 stories finished, free to watch, more added every week." />
+<meta property="og:title" content="The Stories of Jesus — Milk Before Meat" />
+<meta property="og:description" content="Short films of the stories of Jesus — narrated over painted, realistic scenes, His words straight from the King James Bible. 44 finished, free to watch, more every week." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://milkb4meat.org/img/og-cover.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://milkb4meat.org/img/og-cover.jpg" />
+<style>
+  :root{
+    --navy:#11152b; --navy2:#0a0d1c; --gold:#c9a85c; --gold-soft:#d8be86;
+    --cream:#f3ede0; --dim:#a9a290; --line:rgba(201,168,92,.28); --panel:#161b38;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--navy2); color:var(--cream);
+    font-family:Georgia,'Times New Roman',serif; line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--gold-soft); text-decoration:none}
+  .wrap{max-width:1040px; margin:0 auto; padding:0 26px}
+  .kicker{font-family:Arial,Helvetica,sans-serif; letter-spacing:.28em; text-transform:uppercase;
+    font-size:12px; color:var(--gold); margin:0 0 18px}
+  .rule{width:54px; height:3px; background:var(--gold); border:0; margin:22px 0}
+  .rule.center{margin:22px auto}
+
+  /* NAV */
+  nav.top{position:sticky; top:0; z-index:30; backdrop-filter:blur(8px);
+    background:rgba(10,13,28,.82); border-bottom:1px solid var(--line)}
+  nav.top .bar{max-width:1040px; margin:0 auto; padding:13px 26px; display:flex;
+    align-items:center; justify-content:space-between}
+  nav.top .brand{font-size:18px; color:var(--cream); letter-spacing:.4px}
+  nav.top .links{font-family:Arial,Helvetica,sans-serif; font-size:14px; display:flex; gap:22px}
+  nav.top .links a{color:var(--dim)}
+  nav.top .links a:hover{color:var(--gold-soft)}
+  @media (max-width:720px){ nav.top .links{display:none} }
+
+  /* HEADER */
+  header.hero{
+    position:relative; text-align:center; padding:72px 0 58px;
+    background:radial-gradient(120% 90% at 50% 0%, #1b2143 0%, var(--navy) 42%, var(--navy2) 100%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero h1{font-size:48px; margin:6px 0 14px; letter-spacing:.5px; font-weight:normal}
+  .hero p.lead{max-width:680px; margin:0 auto 10px; color:var(--dim); font-size:18px}
+  .hero p.progress{font-family:Arial,Helvetica,sans-serif; font-size:14px; letter-spacing:.04em;
+    color:var(--gold-soft); margin:18px 0 26px}
+  .btns{display:flex; gap:14px; justify-content:center; flex-wrap:wrap}
+  .btn{font-family:Arial,Helvetica,sans-serif; font-size:15px; letter-spacing:.02em;
+    padding:14px 26px; border-radius:40px; display:inline-block; transition:.18s; cursor:pointer}
+  .btn.primary{background:var(--gold); color:#1a1408; font-weight:700}
+  .btn.primary:hover{background:var(--gold-soft)}
+  .btn.ghost{border:1px solid var(--line); color:var(--cream)}
+  .btn.ghost:hover{border-color:var(--gold); color:var(--gold-soft)}
+  .hero .note{font-size:13.5px; color:var(--dim); font-style:italic; margin:16px auto 0; max-width:520px}
+  .hero .note a{font-family:Arial,Helvetica,sans-serif; font-weight:bold}
+
+  /* GRID */
+  section.library{padding:58px 0 72px}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(165px,1fr)); gap:20px 18px}
+  .story{margin:0}
+  .story .frame{position:relative; aspect-ratio:9/16; border-radius:14px; overflow:hidden;
+    border:2px solid var(--line); background:#000; box-shadow:0 12px 30px rgba(0,0,0,.4)}
+  .story .frame img, .story .frame video{position:absolute; inset:0; width:100%; height:100%;
+    object-fit:cover; display:block}
+  .story .tap{position:absolute; inset:0; display:block}
+  .story .tap:focus-visible{outline:2px solid var(--gold); outline-offset:2px}
+  .story .play{position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+    width:52px; height:52px; border-radius:50%; background:rgba(10,13,28,.62);
+    border:1px solid rgba(216,190,134,.75); display:flex; align-items:center;
+    justify-content:center; transition:.18s; pointer-events:none}
+  .story .tap:hover .play{background:rgba(10,13,28,.82); border-color:var(--gold)}
+  .story .play svg{display:block; margin-left:4px}
+  .story figcaption{font-family:Arial,Helvetica,sans-serif; font-size:13px; color:var(--dim);
+    margin-top:10px; line-height:1.4; text-align:center}
+  @media (max-width:480px){
+    .hero h1{font-size:36px}
+    .grid{grid-template-columns:repeat(2,1fr); gap:16px 12px}
+    .story .play{width:44px; height:44px}
+  }
+
+  /* FOOTER */
+  footer{padding:54px 0 70px; text-align:center; border-top:1px solid var(--line)}
+  footer .mark{font-size:24px; color:var(--cream); margin-bottom:8px}
+  footer .contact{font-family:Arial,Helvetica,sans-serif; font-size:15px; margin:8px 0 22px}
+  footer .flinks{font-family:Arial,Helvetica,sans-serif; font-size:14px; margin-bottom:24px}
+  footer .flinks a{color:var(--dim); margin:0 10px}
+  footer .flinks a:hover{color:var(--gold-soft)}
+  footer .disclaimer{max-width:700px; margin:0 auto; color:#7e7a6c; font-size:13.5px;
+    font-style:italic; line-height:1.7}
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="top">
+  <div class="bar">
+    <a class="brand" href="/">Milk Before Meat</a>
+    <span class="links">
+      <a href="/">Home</a>
+      <a href="/#why">Why it matters</a>
+      <a href="/roadmap.html">Roadmap</a>
+      <a href="/#get">Get the app</a>
+    </span>
+  </div>
+</nav>
+
+<!-- ============ HEADER ============ -->
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">The story library</p>
+    <h1>The Stories of Jesus</h1>
+    <p class="lead">The stories of Jesus, told simply and reverently — narrated over painted,
+      realistic scenes, with His words straight from the King James Bible. Watch them free,
+      right here.</p>
+    <p class="progress">44 of 200 stories finished — more added every week.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://apps.apple.com/app/id6783621048">Get it on the App&nbsp;Store</a>
+      <a class="btn ghost" href="/#get">Android — join the testers</a>
+    </div>
+    <p class="note">These same stories live inside the app, where each one ends with a quiet
+      question and a companion to talk to. On Android, email
+      <a href="mailto:admin@milkb4meat.org?subject=Android%20tester%20%E2%80%94%20please%20add%20me&amp;body=Hi%2C%20I%27d%20like%20to%20test%20Milk%20Before%20Meat%20on%20Android.%20The%20Google%20account%20email%20on%20my%20phone%20is%3A%20">admin@milkb4meat.org</a>
+      and we'll send your install link.</p>
+  </div>
+</header>
+
+<!-- ============ LIBRARY ============ -->
+<section class="library">
+  <div class="wrap">
+    <div class="grid">
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/1.mp4" data-video="/story-videos/1.mp4" aria-label="Play: Woman Who Touched His Cloak">
+            <img src="/story-videos/thumbs/1.jpg" alt="Woman Who Touched His Cloak" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Woman Who Touched His Cloak</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/2.mp4" data-video="/story-videos/2.mp4" aria-label="Play: The Prodigal Son">
+            <img src="/story-videos/thumbs/2.jpg" alt="The Prodigal Son" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Prodigal Son</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/3.mp4" data-video="/story-videos/3.mp4" aria-label="Play: Zacchaeus">
+            <img src="/story-videos/thumbs/3.jpg" alt="Zacchaeus" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Zacchaeus</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/4.mp4" data-video="/story-videos/4.mp4" aria-label="Play: Nicodemus at Night">
+            <img src="/story-videos/thumbs/4.jpg" alt="Nicodemus at Night" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Nicodemus at Night</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/5.mp4" data-video="/story-videos/5.mp4" aria-label="Play: The Bent-Over Woman">
+            <img src="/story-videos/thumbs/5.jpg" alt="The Bent-Over Woman" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Bent-Over Woman</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/6.mp4" data-video="/story-videos/6.mp4" aria-label="Play: The Two Sons">
+            <img src="/story-videos/thumbs/6.jpg" alt="The Two Sons" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Two Sons</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/7.mp4" data-video="/story-videos/7.mp4" aria-label="Play: Peter Walks on Water">
+            <img src="/story-videos/thumbs/7.jpg" alt="Peter Walks on Water" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Peter Walks on Water</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/8.mp4" data-video="/story-videos/8.mp4" aria-label="Play: The Lost Coin">
+            <img src="/story-videos/thumbs/8.jpg" alt="The Lost Coin" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Lost Coin</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/9.mp4" data-video="/story-videos/9.mp4" aria-label="Play: The Rich Young Ruler">
+            <img src="/story-videos/thumbs/9.jpg" alt="The Rich Young Ruler" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Rich Young Ruler</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/12.mp4" data-video="/story-videos/12.mp4" aria-label="Play: Blind Bartimaeus">
+            <img src="/story-videos/thumbs/12.jpg" alt="Blind Bartimaeus" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Blind Bartimaeus</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/14.mp4" data-video="/story-videos/14.mp4" aria-label="Play: The Ten Lepers">
+            <img src="/story-videos/thumbs/14.jpg" alt="The Ten Lepers" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Ten Lepers</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/20.mp4" data-video="/story-videos/20.mp4" aria-label="Play: The Good Samaritan">
+            <img src="/story-videos/thumbs/20.jpg" alt="The Good Samaritan" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Good Samaritan</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/21.mp4" data-video="/story-videos/21.mp4" aria-label="Play: The Lost Sheep">
+            <img src="/story-videos/thumbs/21.jpg" alt="The Lost Sheep" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Lost Sheep</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/23.mp4" data-video="/story-videos/23.mp4" aria-label="Play: The Workers in the Vineyard">
+            <img src="/story-videos/thumbs/23.jpg" alt="The Workers in the Vineyard" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Workers in the Vineyard</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/24.mp4" data-video="/story-videos/24.mp4" aria-label="Play: The Sower">
+            <img src="/story-videos/thumbs/24.jpg" alt="The Sower" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Sower</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/25.mp4" data-video="/story-videos/25.mp4" aria-label="Play: The Wheat and the Tares">
+            <img src="/story-videos/thumbs/25.jpg" alt="The Wheat and the Tares" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Wheat and the Tares</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/26.mp4" data-video="/story-videos/26.mp4" aria-label="Play: The Mustard Seed">
+            <img src="/story-videos/thumbs/26.jpg" alt="The Mustard Seed" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Mustard Seed</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/28.mp4" data-video="/story-videos/28.mp4" aria-label="Play: The Hidden Treasure">
+            <img src="/story-videos/thumbs/28.jpg" alt="The Hidden Treasure" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Hidden Treasure</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/29.mp4" data-video="/story-videos/29.mp4" aria-label="Play: The Pearl of Great Price">
+            <img src="/story-videos/thumbs/29.jpg" alt="The Pearl of Great Price" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Pearl of Great Price</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/30.mp4" data-video="/story-videos/30.mp4" aria-label="Play: The Net">
+            <img src="/story-videos/thumbs/30.jpg" alt="The Net" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Net</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/32.mp4" data-video="/story-videos/32.mp4" aria-label="Play: The Talents">
+            <img src="/story-videos/thumbs/32.jpg" alt="The Talents" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Talents</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/34.mp4" data-video="/story-videos/34.mp4" aria-label="Play: The Rich Fool">
+            <img src="/story-videos/thumbs/34.jpg" alt="The Rich Fool" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Rich Fool</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/35.mp4" data-video="/story-videos/35.mp4" aria-label="Play: The Great Banquet">
+            <img src="/story-videos/thumbs/35.jpg" alt="The Great Banquet" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Great Banquet</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/36.mp4" data-video="/story-videos/36.mp4" aria-label="Play: The Shrewd Steward">
+            <img src="/story-videos/thumbs/36.jpg" alt="The Shrewd Steward" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Shrewd Steward</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/37.mp4" data-video="/story-videos/37.mp4" aria-label="Play: The Rich Man and Lazarus">
+            <img src="/story-videos/thumbs/37.jpg" alt="The Rich Man and Lazarus" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Rich Man and Lazarus</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/38.mp4" data-video="/story-videos/38.mp4" aria-label="Play: The Persistent Widow">
+            <img src="/story-videos/thumbs/38.jpg" alt="The Persistent Widow" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Persistent Widow</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/41.mp4" data-video="/story-videos/41.mp4" aria-label="Play: Counting the Cost">
+            <img src="/story-videos/thumbs/41.jpg" alt="Counting the Cost" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Counting the Cost</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/43.mp4" data-video="/story-videos/43.mp4" aria-label="Play: The Wedding Garment">
+            <img src="/story-videos/thumbs/43.jpg" alt="The Wedding Garment" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Wedding Garment</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/46.mp4" data-video="/story-videos/46.mp4" aria-label="Play: The Seed Growing Secretly">
+            <img src="/story-videos/thumbs/46.jpg" alt="The Seed Growing Secretly" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Seed Growing Secretly</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/47.mp4" data-video="/story-videos/47.mp4" aria-label="Play: Houses on Rock and Sand">
+            <img src="/story-videos/thumbs/47.jpg" alt="Houses on Rock and Sand" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Houses on Rock and Sand</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/53.mp4" data-video="/story-videos/53.mp4" aria-label="Play: Peter's Mother-in-Law">
+            <img src="/story-videos/thumbs/53.jpg" alt="Peter's Mother-in-Law" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Peter's Mother-in-Law</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/56.mp4" data-video="/story-videos/56.mp4" aria-label="Play: The Widow of Nain's Son">
+            <img src="/story-videos/thumbs/56.jpg" alt="The Widow of Nain's Son" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Widow of Nain's Son</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/57.mp4" data-video="/story-videos/57.mp4" aria-label="Play: Jairus's Daughter">
+            <img src="/story-videos/thumbs/57.jpg" alt="Jairus's Daughter" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Jairus's Daughter</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/58.mp4" data-video="/story-videos/58.mp4" aria-label="Play: Feeding the Five Thousand">
+            <img src="/story-videos/thumbs/58.jpg" alt="Feeding the Five Thousand" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Feeding the Five Thousand</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/64.mp4" data-video="/story-videos/64.mp4" aria-label="Play: The Pool of Bethesda">
+            <img src="/story-videos/thumbs/64.jpg" alt="The Pool of Bethesda" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Pool of Bethesda</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/68.mp4" data-video="/story-videos/68.mp4" aria-label="Play: Multitudes Mountain">
+            <img src="/story-videos/thumbs/68.jpg" alt="Multitudes Mountain" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Multitudes Mountain</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/75.mp4" data-video="/story-videos/75.mp4" aria-label="Play: The Woman Taken in Adultery">
+            <img src="/story-videos/thumbs/75.jpg" alt="The Woman Taken in Adultery" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Woman Taken in Adultery</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/76.mp4" data-video="/story-videos/76.mp4" aria-label="Play: Suffer the Little Children">
+            <img src="/story-videos/thumbs/76.jpg" alt="Suffer the Little Children" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Suffer the Little Children</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/79.mp4" data-video="/story-videos/79.mp4" aria-label="Play: The Seventy Sent">
+            <img src="/story-videos/thumbs/79.jpg" alt="The Seventy Sent" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Seventy Sent</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/81.mp4" data-video="/story-videos/81.mp4" aria-label="Play: Render Unto Caesar">
+            <img src="/story-videos/thumbs/81.jpg" alt="Render Unto Caesar" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Render Unto Caesar</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/85.mp4" data-video="/story-videos/85.mp4" aria-label="Play: Shepherds and Angels">
+            <img src="/story-videos/thumbs/85.jpg" alt="Shepherds and Angels" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Shepherds and Angels</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/91.mp4" data-video="/story-videos/91.mp4" aria-label="Play: Gethsemane">
+            <img src="/story-videos/thumbs/91.jpg" alt="Gethsemane" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Gethsemane</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/101.mp4" data-video="/story-videos/101.mp4" aria-label="Play: The Still Small Voice">
+            <img src="/story-videos/thumbs/101.jpg" alt="The Still Small Voice" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>The Still Small Voice</figcaption>
+      </figure>
+
+      <figure class="story">
+        <div class="frame">
+          <a class="tap" href="/story-videos/114.mp4" data-video="/story-videos/114.mp4" aria-label="Play: Abraham Pleads for Sodom">
+            <img src="/story-videos/thumbs/114.jpg" alt="Abraham Pleads for Sodom" loading="lazy" width="640" height="1138">
+            <span class="play"><svg width="18" height="20" viewBox="0 0 18 20" aria-hidden="true"><path d="M0 0 L18 10 L0 20 Z" fill="#f3ede0"/></svg></span>
+          </a>
+        </div>
+        <figcaption>Abraham Pleads for Sodom</figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="mark">Milk Before Meat</div>
+    <div class="contact">Questions? <a href="mailto:admin@milkb4meat.org">admin@milkb4meat.org</a></div>
+    <div class="flinks">
+      <a href="/">Home</a> ·
+      <a href="/roadmap.html">Roadmap</a> ·
+      <a href="/privacy.html">Privacy</a> ·
+      <a href="/support.html">Support</a>
+    </div>
+    <hr class="rule center">
+    <p class="disclaimer">This app and website are an independent effort and are not officially
+      affiliated with or endorsed by The Church of Jesus Christ of Latter-day Saints. These short
+      films retell the stories of Jesus with His words taken from the King James Bible. Take what
+      you feel here to God, and to people who love you, and let the Spirit — not an app — tell you
+      what is true.</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var active = null; // { fig, video, tap }
+
+  function revert(entry){
+    if(!entry) return;
+    try{
+      entry.video.pause();
+      entry.video.removeAttribute('src');
+      entry.video.load();
+    }catch(e){}
+    if(entry.video.parentNode) entry.video.parentNode.removeChild(entry.video);
+    entry.tap.style.display = '';
+  }
+
+  var taps = document.querySelectorAll('.story .tap');
+  for(var i = 0; i < taps.length; i++){
+    (function(tap){
+      tap.addEventListener('click', function(e){
+        e.preventDefault();
+        if(active && active.tap === tap){ return; }
+        revert(active);
+        active = null;
+
+        var frame = tap.parentNode;
+        var poster = tap.querySelector('img') ? tap.querySelector('img').src : '';
+        var video = document.createElement('video');
+        video.controls = true;
+        video.preload = 'none';
+        video.setAttribute('playsinline', '');
+        if(poster) video.poster = poster;
+        video.src = tap.getAttribute('data-video');
+        tap.style.display = 'none';
+        frame.appendChild(video);
+        video.play();
+        active = { video: video, tap: tap };
+      });
+    })(taps[i]);
+  }
+})();
+</script>
+
+</body>
+</html>
