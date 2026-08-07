@@ -1,3 +1,39 @@
+## 2026-08-07 — ROW 33 AUTHOR-DONE: j37 righteous OFF Jesus voice (→SCRIPTURE) + coupled timeline remap; nails-black deleted — Machine A `Dev` (Fable-5 author lane)
+
+**Commit:** author package (V1+V2 make_narration, re-voiced j37.mp3/timing, beats_v2, QC, AUTHOR-BOARD) = `6139dda0b`; this log = (this commit).
+
+Picked up AUTHOR-BOARD row 33 (build-33-sheep-goats, Matt 25) — the LOW-NUMBER +
+COMPLAINT-FIRST author-domain C-FIX. Cameron's TWO open complaints (`v2_outline.py 33`):
+(1) "at 1:10 why is the prisoner's nails painted black"; (2) "at 1:16 Jesus is speaking
+something that wasn't spoken by Jesus." The QC RUNNER PARK named both as author-locked.
+
+- **Complaint 2 (SPEAKER) — DONE + verified.** j37 "Lord, when saw we thee an hungred…"
+  is the RIGHTEOUS answering, not Jesus. Changed V1 (authoritative for extract_beats)
+  AND V2 `make_narration.py` j37 `JESUS → SCRIPTURE` (+ docstring rewritten to record
+  Cameron's ruling so it's never flipped back), re-voiced ONLY `audio/j37.mp3` (free
+  edge-tts SteffanNeural −18% → light-blue). **Verified in a full local assemble at
+  0:77 (light-blue caption on the woman s21) and 2:05 (j2 still red on Jesus, in sync).**
+- **Timeline coupling — the park's estimate was BACKWARDS.** Real old JESUS j37 =
+  16.901 s; SCRIPTURE = 19.512 s, so seg_dur grew 18.331 → 20.942 s (extract_beats
+  `is_kjv = spk != "narrator"` keeps the 1.15 s KJV gap for SCRIPTURE too — only the mp3
+  duration changed). Everything n5-onward shifts **+2.611 s LATER**; card_start 175.790,
+  total 182.585. Remapped all 25 windows b21-b45 in beats_v2.py (b21-b25 anchored to the
+  5 real phrase onsets in j37.timing.json; b26-b45 +2.611 snapped to seg boundaries);
+  set `AUDIO_FROM_V1_SEGMENTS=True`. Contiguity 0 gaps, `--check` PASS, AUDIO REBUILD
+  PASS 91b16db5, 182.585 s.
+- **Complaint 1 (black nails) — author half done.** Root: beat b20's `must_not_show`
+  already forbade black nails but the `scene` body literally commanded "the nails black"
+  — a self-contradiction the model resolved toward black. Deleted that phrase → "the
+  nails short, split and unpainted." The image reroll of s20 is the ONE remaining step
+  and needs a Gemini credit the author may not spend.
+- **Handoff:** AUTHOR-BOARD row 33 set **Ready ✅** with a precise note; QC.md carries an
+  "AUTHOR DONE" block + COMPLAINT LEDGER. RUNNER: reroll ONLY s20 vs the fixed text,
+  re-assemble (overwrites the verification mp4 that still shows black nails — DO NOT ship
+  it), then ship both complaints answered in Cameron's words. **$0.00, 0 image credits,
+  0 rerolls this session.**
+
+---
+
 ## 2026-08-07 — ROW 19 AUDIO-FIX: j1 "too fast / ignores commas" FIXED, picture (B) handed to C-FIX lane — Machine A `Dev`
 
 **Commit:** claim = `0d845ebb5`; fix (j1 re-voice + flag + QC + board) = (this commit's parent); this log = (this commit).
