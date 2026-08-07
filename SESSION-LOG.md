@@ -1,3 +1,38 @@
+## 2026-08-06 (AUDIO-FIX, headless) — Row 70 (temptations) audio FIXED + handed to picture runner — caps "I-S"/"IF" spell-out + "proceedeth" re-voiced — $0 — Machine A `Dev`
+
+**Commit:** `baee4b41a93ea685b9c7e434cf3fadffc76269c2` carries all three row-70 files
+(make_narration.py +14, QC.md +39, AUTHOR-BOARD.md ±1) — the background autopilot swept my
+working-tree edits into that commit and it is on origin/main (verified `git show origin/main:…`).
+
+Session-chain: read SESSION-LOG top (row 69 baptism, commit `da00221e35d6`) and confirmed it in
+`git log`; hostname `Dev` → Machine A. Ran PROMPT-AUDIO-FIX.md headless/unattended, lowest NEEDS-AUDIO
+row = 70.
+
+**PRON/VOICE class, fixed at $0.** Row 70's pipeline is edge-tts (free), not ElevenLabs — no Gemini,
+no paid TTS. Two open complaints from `v2_outline.py 70`: *"The narrator spells out 'I-S' instead of
+pronouncing the word like it should. Also it mispronounced 'proceedeth' it should be pro-see-duhth."*
+
+- **caps I-S / IF** → n2's caption emphasis-caps `IS`/`IF` ("this **IS** my Son", "the word **IF**")
+  were read letter-by-letter by edge-tts (whisper heard caps "IS" as "I asked"). Root cause: build had
+  `SPOKEN = {}`. Fix: `SPOKEN = {"IS": "is", "IF": "if", "proceedeth": "proceeduth"}` — lowercases the
+  emphasis-caps **for the TTS only**; the caption still shows the caps. Re-voiced n2 (narrator/Andrew);
+  whisper now hears "this is my son", "the word if".
+- **proceedeth** → j1 (Jesus/Eric), respelled `proceedeth`→`proceeduth` (measured with
+  check_pronunciation: round-trips 100% back to "proceedeth", lands Cameron's pro-SEE-duhth target).
+
+**Segments re-voiced: 2 (n2, j1); other 20 mp3s byte-identical/untouched** — sanctioned audio-immutability
+re-voice. New baseline logged in QC.md (n2 md5 cbe712…→9167d7…, 18.437s→19.891s; j1 md5 1d777b…→730bc3…,
+7.802s→8.928s). mp3s are gitignored (source of truth = make_narration.py's SPOKEN dict), so the picture
+runner regenerates them at build time — same handoff pattern as rows 50/51.
+
+**No visual ship / no firebase deploy — correct per PROMPT step 5.** Row 70 has 0 V2 stills, so nothing
+was assembled or deployed. Board flipped NEEDS-AUDIO → **AUTHORED / Audio OK / Ready ✅**, claim cleared,
+so the picture runner builds it on the corrected audio. QC.md carries the COMPLAINT LEDGER for the runner
+to surface Cameron's answered complaint on the review card when it ships. `v2_prompt.py 70 --check` PASSES
+(42 beats).
+
+---
+
 ## 2026-08-06 (AUDIO-FIX, headless) — Row 69 (baptism) SHIPPED — STALE-V1 audio-lock cleared, new-voice cut live — $0 — Machine A `Dev`
 
 **Commit:** `da00221e35d620696f3a7b6d9e09195b67aa4ea6` (mp4+beats+QC) + `69ea9cd1414a2a4685c403553a600da831646a28` (review card + AUTHOR-BOARD).
