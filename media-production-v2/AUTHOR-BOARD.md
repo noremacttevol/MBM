@@ -76,7 +76,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 62 | build-62-ephphatha | BUILT | 34 | OK | A-auto 2026-08-07 SHIPPED (Machine A `Dev`): resumed a mid-build strand (14/34 → 34/34). OPEN complaint "he lost his beard in one picture" FIXED — deaf man beard-boarded across every frame, held by wired REFS[DEAFMAN]. 0 rerolls (clean first attempt), $2.68, meter→$422.23. AUDIO LOCK PASS 67869848, 202.8s. Deployed + live-verified. See QC.md COMPLAINT LEDGER. |  |
 | 63 | build-63-man-born-blind | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 64 | build-64-pool-of-bethesda | BUILT | 41 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 65 | build-65-help-mine-unbelief | BUILT | 36 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
+| 65 | build-65-help-mine-unbelief | BUILT | 36 | OK | A-auto 2026-08-06 SHIPPED; C-FIX 2026-08-07 LIVE | ✅ |
 | 66 | build-66-malchus-ear | BUILT | 29 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 67 | build-67-the-transfiguration | BUILT | 16 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 68 | build-68-multitudes-mountain | BUILT | 35 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
