@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 104 (The Boy Samuel) C-FIX SHIPPED — "0:35 Samuel is running the wrong way, same thing with 0:53" — RUNNING-WRONG-WAY re-cut, regen s06+s10 only — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `062a77f3b` (board → C-FIX LIVE) · ship A `1e9b53ac22d16a34a75ee855ad8e7419c7d83561` (final mp4 + regen'd s06/s10 + QC.md ledger + AUTHOR-BOARD→SHIPPED + QUEUE + api-spend) · SESSION-LOG + review.html this commit (ship B). **Session-chain verified at start:** then-top SESSION-LOG commit (Row 103 C-FIX ship A `1d1f7c434`) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. Read PROMPT-OPUS-RUNNER.md (all laws) + `v2_outline.py 104` + QC.md + AUTHOR-BOARD row 104 first.
+
+**Complaint (Cameron, OPEN against the shipped cut — `v2_outline.py 104`):** *"0:35 pic Samuel is running the wrong way, same thing with 0:53."* COMPLAINT-FIRST + LOW-NUMBER: lowest open-complaint row, outranked all other work.
+
+**What was wrong (Fable-5 author-diagnosed, row-14 travel-direction law):** 0:35 = b06 (s06, first run to Eli) and 0:53 = b10 (s10, second run). Both beats said only "sprint TOWARD the doorway" without pinning which SIDE Eli's room is on, so the model drew Samuel running left / toward the curtain — AWAY from Eli. Author fix ($0): pinned a FIXED SCREEN GEOGRAPHY in the HOUSE lock (boy's mat + curtain LEFT, Eli's room + doorway RIGHT → going to Eli is LEFT→RIGHT); rewrote b04/b06/b08/b10 accordingly; `--check` PASS (22), audio untouched.
+
+**Fix (runner, this session — the author's planned minimal re-cut):** regen'd ONLY s06 + s10 (`--only v2-r104-b06 v2-r104-b10 --redo`) over the pinned prompts; KEPT the other 20 stills byte-identical. Verified the offending OLD frames first (s06: boy ran LEFT away from Eli-right; s10: boy ran toward camera away from Eli-behind). New frames + the RENDERED mp4 (s06 @ 0:33, s10 @ 0:54) both show Samuel running clearly LEFT→RIGHT straight TOWARD Eli seated at frame right — body/lean/gaze/bare-feet all rightward. s04 KEPT (Eli sleeps deep in back, not on the left — does not contradict). Scale gate + beard board + realistic + no-halo + anatomy PASS on both. Captions bottom-band only (s10 @ 0:54), question card clean (139s).
+
+**Re-assembly + verify:** `v2_assemble.py 104` → **AUDIO LOCK PASS SHA256=037b796c…** — IDENTICAL to the prior ship's audio hash, narration/voices/timing byte-identical (nothing re-voiced). 141.5s / 19.1 MB.
+
+**Cost / COST LAW:** $0.27 Gemini (meter $500.36 → $500.62); **2 regens / 22 beats = 9% reroll — under the 15% budget.** Touched the row ONCE; well under the $6.10/row average; trend DOWN. **Ship:** firebase deploy + live-verify below. Board → C-FIX SHIPPED, QUEUE Built ✅.
+
+---
+
 ## 2026-08-07 — ROW 103 (Peter's Confession) C-FIX SHIPPED — "the pictures are all bad they keep changing / not remade with the character ref" — SETTING-DRIFT re-cut, 6 close-ups pushed back OUTDOORS — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** claim `1ab2bc1cb` (board → C-FIX LIVE) · ship A `1d1f7c43466027bcffa8b1c77546ac7c7ab3657a` (final mp4 + 6 regen'd assets s04/06/12/13/15/17 + QC.md ledger + AUTHOR-BOARD→SHIPPED + QUEUE Built✅) · SESSION-LOG + review.html this commit (ship B). **Session-chain verified at start:** then-top SESSION-LOG commit (Row 22 AUDIO-FIX ship A `2a036c574`) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. Read PROMPT-OPUS-RUNNER.md + V2-REBUILD-RUBRIC.md (all 19 lessons) + RUNNER-LESSONS.md (all) + `v2_outline.py 103` + QC.md first.
