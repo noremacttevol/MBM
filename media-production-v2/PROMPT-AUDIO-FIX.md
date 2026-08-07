@@ -20,7 +20,12 @@ re-voiced segments) + ffmpeg only.
   SESSION-LOG, push immediately after. NEVER git clean / reset --hard / delete
   files you did not create.
 - HEADLESS: run everything foreground to completion; never background, never
-  wait for notifications.
+  wait for notifications. **This includes encodes: run ffmpeg/v2_assemble as a
+  plain foreground command and let it block until it exits — a session that
+  ends its turn "waiting for the encode" is DEAD and strands the row
+  (2026-08-07, row 18: the encode finished as the session died; only the
+  unclaimed board row let the next lane rescue it). Ship (deploy + verify)
+  in the SAME turn the encode finishes.**
 
 ## The loop, per row (lowest NEEDS-AUDIO row first)
 
