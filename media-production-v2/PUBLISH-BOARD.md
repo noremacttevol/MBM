@@ -7,7 +7,7 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-06T22:57:01_
+_Last sync: 2026-08-06T23:05:21_
 
 ## Summary
 
@@ -134,7 +134,7 @@ _Last sync: 2026-08-06T22:57:01_
 | 111 | Lilies and Sparrows | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 112 | The Beatitudes | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 113 | Where Art Thou? | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 114 | Abraham Pleads for Sodom | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
+| 114 | Abraham Pleads for Sodom | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 115 | The Ram in the Thicket | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 116 | Graven on His Palms | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 117 | Hosea Buys Her Back | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
