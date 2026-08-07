@@ -1,4 +1,10 @@
 {
+ "HILL": {
+  "manual": true,
+  "src_beat": "s01-and-when-they-were-come",
+  "src_build": "build-94-father-forgive-them",
+  "src_file": "build-94-father-forgive-them/assets/s01-and-when-they-were-come.jpeg"
+ },
  "SOLDIERS": {
   "manual": true,
   "src_beat": "v2-r015-b01b",

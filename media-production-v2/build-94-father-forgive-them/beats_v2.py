@@ -414,8 +414,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # HILL deliberately UNWIRED (see QC.md): build-38's golden village
-    # frame is the wrong world for Golgotha. Promote-first from b01.
+    "HILL": "PLACE-REF/hill.jpeg",  # build-94-father-forgive-them s01-and-when-they-were-come (manual)
     "SOLDIERS": "PLACE-REF/soldiers.jpeg",  # build-15-centurion v2-r015-b01b (manual)
 }
 # === end PLACE-PLATES ===

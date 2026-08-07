@@ -62,3 +62,21 @@ Runner cannot fix (audio-immutability; needs an author edit to beats_v2.py).
 **AUTHOR FIX:** add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py, then the narration renders from the V1 build's own mp3s at the extract offsets — nothing re-voiced, nothing re-timed.
 
 **RESUME (after the flag is set):** re-run the OPUS RUNNER loop on this row — it will pass pre-flight, generate stills, assemble (AUDIO LOCK), and ship.
+
+## ✅ REALISTIC-V2 SHIPPED (Opus runner, Machine A `Dev`, 2026-08-07, UNATTENDED/HEADLESS) — RESUMED stranded RUNNING row
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 94` shows no filed Cameron complaint on this row (only the beat map). Nothing to answer; nothing regressed.
+
+**Resume context:** prior autopilot lane died after 8 of 12 stills (s01-s08 on disk, no committed mp4, live card was OLD V1). Already-shipped check: no mp4 commit, no realistic-v2 card → NOT shipped, resumed. No live sibling gen (ps clean). Generated the remaining 4 (b09-b12), no re-pull of the 8 passing frames (COST LAW).
+
+**Light QC (one pass):** plate s01 (HILL, promote-first, seeds 95/96) QC'd first — cold grey sky, crosses at distance, MERCIFUL DISTANCE held, no gore/modern/lens-stare/2nd-cream. PASS. All Jesus close-ups (s02/s08) locked-look, reverent, eyes-up (green/hazel = baked V2 ref, NOT rerolled per lesson). Dice-game inserts (s05/s06/s07) read the obscene casualness; only-Jesus-cream held (the divided cream garment in soldiers' hands). j1 prayer s09 = the row's center, prayer over the ones dividing his garments — the authored geometry lands.
+
+**2 rerolls / 12 beats = 16.7%** (marginally over the 15% target; both were MANDATORY row-45-class composite garbage, NOT subtle drift):
+- s03 (b03) — double-perspective composite: misty horizontal seam splitting two scenes, three crosses DUPLICATED (top hill + bottom). Reroll → single coherent wide (crosses at distance, soldiers dividing garments). FIXED.
+- s10 (b10) — same composite/seam defect + giant foreground Jesus over a background duplicate of the crosses. Reroll → single frame, Jesus robed & bound (not nailed — merciful restraint), soldiers casting lots on the cream garment below. FIXED.
+
+**FIX-WAVE (kept, not rerolled — COST LAW):** s05 has a faint sea backdrop behind the dice insert (tight insert, not a place plate); s06 titulus board carries period-appropriate but gibberish lettering (on-board where an inscription belongs, not a bottom-band caption). Neither is garbage; both are fix-wave polish.
+
+**Assembly:** AUDIO_FROM_V1_SEGMENTS=True → AUDIO REBUILD PASS SHA256=80ff9897e4aedbc63ffc5dbe619d44ed1d01a026da6e0e61e4361d1386bc4ae3, 73.767s (new voice at source — 11 V1-dir segment mp3s). Stale-window check (row-74/89 trap): video_silent 73.73s ≈ card_start-based total, all 12 stills placed, final 73.77s — no overrun/drop. Caption frames verified: scripture blue + Jesus-voice j1 RED, bottom band only, question card clean.
+
+**Cost:** 4 fresh stills + 2 rerolls = 6 gens ≈ $0.80 this session (prior lane already spent ~$1.07 on s01-s08). Row total ≈ $1.87. Meter $480.93.
