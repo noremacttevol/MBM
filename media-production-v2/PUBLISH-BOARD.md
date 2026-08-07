@@ -7,7 +7,7 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T17:24:54_
+_Last sync: 2026-08-07T17:58:18_
 
 ## Summary
 
@@ -31,7 +31,7 @@ _Last sync: 2026-08-07T17:24:54_
 | 7 | Peter Walks on Water | ✅ 2026-08-02 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 8 | The Lost Coin | ✅ 2026-08-02 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 9 | The Rich Young Ruler | ✅ 2026-08-07 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ | — |
-| 10 | The Woman at the Well | ✅ 2026-08-07 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
+| 10 | The Woman at the Well | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 11 | Calming the Storm | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 12 | Blind Bartimaeus | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 13 | The Man Through the Roof | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
