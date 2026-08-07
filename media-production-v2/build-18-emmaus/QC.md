@@ -4,38 +4,49 @@ Worker: Claude worker 12, Machine A `Dev`, 2026-08-01.
 
 ---
 
-## 0. RUNNER PARK — NEEDS-AUDIO (C-FIX, Machine A `Dev`, 2026-08-07)
+## 0. ✅ AUDIO-FIX RESOLVED + SHIPPED (Machine A `Dev`, Fable-5 author lane, 2026-08-07)
 
-**COMPLAINT LEDGER (open, from `v2_outline.py 18`):**
+**COMPLAINT LEDGER (from `v2_outline.py 18`):**
 - Cameron (2026-08-05, against `e0e3e726`): **"You mispronounced Jesus's."**
+  → **FIXED in the shipped cut.** n0 re-voiced through the SAME ElevenLabs "Brian"
+  narrator so the possessive is now pronounced /JEE-zus-iz/. See below.
 
-**Diagnosis.** The word `Jesus's` (possessive) appears exactly ONCE in the
-narration — segment **n0**, "…two of **Jesus's** followers had given up and left…"
-(~0:04). The build's `SPOKEN` dict in `make_narration.py` is EMPTY, so edge-tts
-reads the raw possessive and mangles it. This is an **AUDIO-PRONUNCIATION**
-complaint: the fix is a re-voice (respell + regenerate narration + re-assemble),
-which the picture-runner is FORBIDDEN to do (audio-immutability; the runner ships
-byte-identical audio and AUDIO LOCK is its only safety proof). Per RUNNER-LESSONS
-("AUDIO-PRONUNCIATION complaints are OUT of runner scope — park the row") and the
-COMPLAINT-FIRST C-FIX brief, this row is PARKED, not shipped. NO pictures touched.
+**Root cause (the park note above had it half-wrong — corrected here).** The
+shipped narration is **ElevenLabs** (44.1 kHz, `VOICE_ELEVEN` "Brian" narrator),
+NOT edge-tts — `make_narration.py` in this build is the stale edge-tts scaffold
+and does NOT generate the audio that actually ships. So the park's "set
+`SPOKEN={"Jesus's":"jeezusiz"}` and run `make_narration.py`" would have re-voiced
+n0 in a DIFFERENT engine (edge-tts AndrewNeural, 24 kHz) and swapped the narrator
+voice at the very opening of the video — a new defect. faster-whisper confirmed
+the actual defect: the ElevenLabs take said "two of **Jesus'** followers" — it
+dropped the possessive "-iz" ending (the word spanned only 0.20 s), so it read as
+"Jesus followers".
 
-Not the ship-exception (row-57 class): board Audio was OK but there is NO `SPOKEN`
-override for `Jesus's` and NO "verified in final audio" fix commit — the fix is
-NOT baked into the mp4, so it must not be shipped over.
+**The fix (reproducible: `build-18-emmaus/revoice_n0.py`, $0 image / a few cents
+ElevenLabs).**
+1. Re-rendered ONLY n0 through the SAME ElevenLabs narrator (`render_segment`,
+   VOICE_ELEVEN[NARRATOR] "Brian" `nPczCjzI2devNBz1zQrb`) from a spoken string with
+   the possessive respelled `Jesus's` → **`Jesuses`**, which ElevenLabs voices as
+   /JEE-zus-iz/. The on-screen CAPTION is untouched — it comes from
+   `make_narration.py` SEGMENTS (extract_beats reads s[2]), which still says
+   "Jesus's", so caption and audio stay independent (no `TEXT_OVERRIDES` needed).
+2. **Pitch-preserving atempo-matched** the new take back to the original n0
+   duration (18.52 s raw → atempo 0.9453 → 19.566 s vs original 19.592 s, Δ −0.026 s)
+   so **NO downstream still-window in `beats_v2.py` had to move** — the whole 243.3 s
+   timeline stays structurally identical and every already-verified contiguous
+   window stays valid. n0.timing.json rescaled to match.
+3. Set `AUDIO_FROM_V1_SEGMENTS = True` in `beats_v2.py` (the rebuilt audio now
+   legitimately differs from the pre-fix V1 mp4), re-assembled — **AUDIO REBUILD
+   PASS SHA256 `3592466846055ce4`**, 243.3 s / 21.4 MB, `--check` PASS.
 
-**AUTHOR / audio-fix lane — exact resume:**
-1. In `media-production-v2/build-18-emmaus/make_narration.py` (and the V1 twin
-   `media-production/build-18-emmaus/make_narration.py`), set
-   `SPOKEN = {"Jesus's": "jeezusiz"}` — one continuous lowercase word, no hyphens
-   or caps (edge-tts letter-spells caps/hyphens). The caption text keeps `Jesus's`;
-   only the spoken string is respelled.
-2. Regenerate ONLY the n0 segment mp3 (`python3 make_narration.py`), A/B-verify
-   with `faster_whisper` that the possessive now reads "Jesus's", not the mangle.
-3. Re-assemble (`python3 media-production-v2/v2_assemble.py 18`) — AUDIO LOCK will
-   re-hash the new track; confirm PASS. Then ship + deploy (step 7c) and answer
-   the complaint on the review card in Cameron's words.
+**Verified in the DELIVERED mp4** (not just the segment): the possessive word now
+onsets at n0-local **5.20 s** (the new take) vs the old take's **5.62 s** — a 0.42 s
+shift no measurement jitter can explain — and its acoustic span roughly tripled
+(0.20 s → ~0.5 s), i.e. the "-iz" syllable is now voiced. Old take preserved at
+`audio/n0.mp3.eleven-orig-2026-08-07`.
 
-State flipped BUILT→NEEDS-AUDIO, Audio OK→CHECK on AUTHOR-BOARD row 18.
+Board flipped NEEDS-AUDIO→BUILT, Audio CHECK→OK. Shipped: review card 🛠 flag
+answers Cameron's complaint in his words; deployed to the reviewer + live-verified.
 
 ---
 

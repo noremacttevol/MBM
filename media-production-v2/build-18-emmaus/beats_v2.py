@@ -135,6 +135,14 @@ LOCKS = {
 
 OUTPUT_VIDEO_NAME = "luke-24_emmaus-realistic-v2.mp4"
 
+# The shipped V1 mp4 predates the n0 re-voice fix (Cameron: "You mispronounced
+# Jesus's"). n0 was re-rendered through the SAME ElevenLabs "Brian" narrator with
+# the possessive respelled "Jesuses" so it reads /JEE-zus-iz/, then atempo-matched
+# back to the original 19.592 s so no downstream window moves (see build-18's
+# revoice_n0.py + QC §0). The rebuilt-from-segments audio therefore legitimately
+# differs from the old V1 final mp4, so AUDIO LOCK must rebuild from the segments.
+AUDIO_FROM_V1_SEGMENTS = True
+
 REF = True
 
 BEATS = [
