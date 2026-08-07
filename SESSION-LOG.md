@@ -1,3 +1,26 @@
+## 2026-08-06 (RESUME LANE, headless) — Row 60 was a DUPLICATE resume — already shipped & live; no build, damage repaired — $0 — Machine A `Dev`
+
+**Commit:** this SESSION-LOG entry only. No production commit — row 60 was already fully shipped by a
+sibling lane in `9af3ae308` (ship, AUDIO LOCK PASS), `a5e9ade7e` (review card + SESSION-LOG),
+`c35b64895` (STASH rescan).
+
+This lane was spawned to "resume row 60, which died mid-build." It did NOT die: a concurrent lane
+(PID 101351, started 22:26) had already generated all 39 stills, assembled with AUDIO LOCK PASS,
+shipped, deployed, and flipped the board to **BUILT | 39 | SHIPPED**. Live-verified here:
+`review.html` v60 card carries `data-hash="9af3ae308…"` on `milk-b4-meat.web.app`, and the mp4 raw URL
+returns HTTP 200 with content-length 20909185 (20.9 MB). Nothing to build.
+
+- **Damage I caused and repaired:** before checking `git log`, I defensively re-ran `v2_assemble.py 60`
+  "to confirm the audio lock." That command OVERWRITES the committed mp4 in place, and its libx264
+  re-encode was killed under multi-lane contention, leaving a corrupt 9.9 MB working-tree file (moov
+  atom missing). Restored the good committed mp4 with `git checkout -- <mp4>` (now byte-identical to
+  HEAD, 20.9 MB, video+audio, 235 s). No corruption was ever committed or pushed.
+- **Left untouched (PARALLEL-LANES rule 3):** the sibling lane's uncommitted `build-60/beats_v2.py`
+  change and all other lanes' untracked files.
+- **LESSON (added to memory):** a resume lane must `git log --grep` for an existing ship commit BEFORE
+  running `v2_assemble.py`, because assemble overwrites the committed mp4 and a killed re-encode
+  corrupts the tracked file. Verifying a shipped row = check the live page + mp4 200, never re-assemble.
+
 ## 2026-08-06 (PICTURE RUNNER, headless) — Row 61 (syrophoenician-woman) RESUMED to completion of pictures, then PARKED NEEDS-AUDIO (STALE-V1) — $0.13 — Machine A `Dev`
 
 **Commit:** board row-61 flip landed in `a5e9ade7e` (sibling row-60 lane absorbed my staged index — the
