@@ -12,7 +12,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 
 | Row | Build | State | Stills | Audio | Claim | Ready |
 |---|---|---|---|---|---|---|
-| 1 | build-01-cloak | BUILT | 20 | OK |  |  |
+| 1 | build-01-cloak | BUILT | 20 | OK | C-FIX 2026-08-06 LIVE |  |
 | 2 | build-02-prodigal | BUILT | 48 | OK |  |  |
 | 3 | build-03-zacchaeus | BUILT | 26 | OK |  |  |
 | 4 | build-04-nicodemus | BUILT | 30 | OK |  |  |
