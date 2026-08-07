@@ -56,6 +56,12 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1-FINAL fix (AUDIO-FIX 2026-08-06, Machine A): BOTH tripwires — the V1 mp4
+# (107.433s) runs +31.215s LONGER than the 76.218s timeline AND 13 mp3s are newer
+# than the V1 mp4, which carries deleted/old audio. Rebuild from this build's own 13
+# mp3 segments at the timeline offsets — nothing re-voiced, V1 read-only, $0.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r090-b01", "out": "s01-at-that-last-supper-knowing.jpeg", "seg": "n0",

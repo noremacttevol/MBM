@@ -87,6 +87,11 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1-FINAL fix (AUDIO-FIX 2026-08-06, Machine A): timeline 94.422s vs V1 mp4
+# 93.000s (|Δ|=1.422s > 1.0 shortfall), so the packet-copy AUDIO LOCK refuses.
+# Rebuild the track from this build's own 12 mp3 segments — nothing re-voiced, $0.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r087-b01", "out": "s01-every-year-family-went-to.jpeg", "seg": "n0a",

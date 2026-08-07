@@ -55,6 +55,11 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1-FINAL fix (AUDIO-FIX 2026-08-06, Machine A): timeline 101.900s vs V1 mp4
+# 100.833s (|Δ|=1.067s > 1.0 shortfall), so the packet-copy AUDIO LOCK refuses.
+# Rebuild the track from this build's own 14 mp3 segments — nothing re-voiced, $0.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r089-b01", "out": "s01-the-passover-had-come.jpeg", "seg": "n0a",

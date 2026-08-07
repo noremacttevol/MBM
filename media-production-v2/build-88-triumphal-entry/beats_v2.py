@@ -76,6 +76,11 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1-FINAL fix (AUDIO-FIX 2026-08-06, Machine A): BOTH tripwires — timeline
+# 118.564s vs V1 mp4 117.100s (|Δ|=1.464s) AND 15 mp3s newer than the V1 mp4, so the
+# packet-copy AUDIO LOCK refuses. Rebuild from this build's own 15 mp3 segments — $0.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r088-b01", "out": "s01-as-jesus-came-near-jerusalem.jpeg", "seg": "n0a",
