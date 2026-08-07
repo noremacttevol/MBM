@@ -4,7 +4,29 @@ Worker: Claude worker 13, Machine A `Dev`, 2026-08-01/02.
 
 ---
 
-## 0. RUNNER PARK (C-FIX, Machine A `Dev`, 2026-08-07)
+## 0. C-FIX SHIPPED (Machine A `Dev`, 2026-08-07)
+
+> ### ✅ BOTH COMPLAINTS CLOSED IN ONE TOUCH-ONCE RE-CUT — 2026-08-07
+> **COMPLAINT LEDGER (Cameron against live `128fc218`, from `v2_outline.py 19`) — now CLOSED:**
+> - **(B) PICTURE** *"1:05 picture he is swimming the wrong way."* → **FIXED.**
+>   Beat `v2-r019-b17` (`assets/s17-and-swam-for-shore.jpeg`) rerolled ONCE
+>   (`--only v2-r019-b17 --redo`). New frame: the boat + disciples sit firmly
+>   BEHIND Peter and his face, leading arm and wake all drive TOWARD the
+>   foreground beach — he is unmistakably swimming to shore, never toward the
+>   boat. Verified in the RENDERED mp4 at t≈65s (`He threw himself into the sea
+>   and swam for shore`). CAMERON GATE (b17 `must_not_show`) passes.
+> - **(A) AUDIO-pacing** *"JESUS talks too fast and ignores commas."* → **FIXED
+>   at source and now BAKED INTO THIS CUT.** `j1` was already re-voiced
+>   2.038s → 3.291s (both commas breathe) and `AUDIO_FROM_V1_SEGMENTS = True`.
+>   This re-cut rebuilt the track from the 22 V1 segment mp3s (**AUDIO REBUILD
+>   PASS** SHA256=`7435cdf735ab74e8c8853301e820795add1a15df2fe58d1c24694842aa0e9629`,
+>   159.017s, all 22 segments placed), so the fixed j1 is in the shipped mp4.
+>
+> ONE re-cut carried BOTH fixes (touch-once law). 1 reroll on a 37-beat row =
+> 2.7% (≤15% budget). Captions bottom-band only; end/question card clean; all
+> frames realistic (no cartoon/mixed). Shipped + deployed live per step 7c.
+
+## (superseded) RUNNER PARK (C-FIX, Machine A `Dev`, 2026-08-07)
 
 > ### ✅ AUDIO PART (A) IS FIXED — 2026-08-07 (Machine A `Dev`, audio-fix lane)
 > Complaint (A) "JESUS talks too fast and ignores commas" is **RESOLVED at the

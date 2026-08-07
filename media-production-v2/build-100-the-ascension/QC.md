@@ -1,5 +1,48 @@
 # QC / RUNNER HANDOFF — build-100-the-ascension (Acts 1:6-12)
 
+## ✅ REALISTIC-V2 SHIPPED — A-auto Machine A `Dev` 2026-08-07 (Opus picture runner, UNATTENDED/HEADLESS)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 100` shows no Cameron complaint on
+this row. Nothing to answer; built to the rubric + RUNNER-LESSONS + all 19 numbered
+lessons.
+
+**Result:** 17 realistic stills @ native 2K, `acts-1_the-ascension.mp4` 21.3 MB / 97.2s.
+**AUDIO REBUILD PASS SHA256=35b594b08d286edda8184d85adea75ee6e2d183f7c64fef2d04f26708606530f**
+— rebuilt from the 10 V1 new-voice segment mp3s (`AUDIO_FROM_V1_SEGMENTS=True`,
+author-set), nothing re-voiced, V1 read-only. Decode-clean (`ffmpeg -v error -f null` = 0).
+
+- **MOUNT (Olivet's crown) promoted-first from this row's own b01** (period Herodian
+  temple + Jerusalem overlook, NOT shared with row 71 Galilee mountain), wired to 13
+  beats. 0 portraits paid (ELEVEN/PETER/JOHN/TWO all cast sheets).
+- **Ascent laws held:** b11 Jesus risen bodily (feet clear of the ground, robe natural),
+  NO light beams / glow / halo — gravity simply released; b12 cloud received him
+  (weather-real cumulus, hidden BY it not dissolved); b13-15 the TWO in white apparel
+  render as individual robed messengers (plain white/grey, distinct from Jesus's cream —
+  only-Jesus-cream held), arms lifting toward the cloud (gaze-redirect geometry); ELEVEN
+  throughout; b17 the descent toward the in-frame period Jerusalem (joy, Luke 24:52).
+- **2 rerolls / 17 = 11.8%** (< 15% budget): **s02** came back a stacked Jesus diptych
+  (collage family) → single over-shoulder close-up; **s11** the HERO ascent frame carried
+  a modern Jerusalem skyline (Dome of the Rock + high-rises + crane + highway, row-83
+  modern-skyline class) → re-cut against the period MOUNT plate, now all-period Herodian
+  skyline. Both fixed in one `--redo` each.
+- **STALE-WINDOW REMAP (runner timing-only fix, row-74/89 class):** live card_start=89.35
+  but beats_v2 windows ran to 97.31 (~8s stale scaffold) → first assembly dropped s17 (16
+  stills / 17 beats), its n5 caption landing over s16. Remapped every `window` onto the
+  live extract per-segment timeline (piecewise-linear, last still → card_start), re-assembled:
+  captioned.mp4 89.33 ≈ card_start 89.35 (±0.02), all 17 stills placed, s17 restored.
+  ONLY `window` timing metadata changed — **AUDIO REBUILD SHA256 stayed identical** (proof
+  audio untouched).
+- Caption QC on the rendered mp4 (accurate output-seek): narrator white, Jesus KJV red
+  (j0 "It is not for you to know the times or the seasons"), the two angels' KJV promise
+  in SCRIPTURE light-blue (Acts 1:11, correct — not Jesus speaking), bottom band only,
+  split in sync, art uncovered; beige question card clean line-by-line, no box/tofu glyphs.
+- **Cost: 19 image-gens (b01 anchor + 16 + 2 rerolls) ≈ $2.55**, meter ~$495. Under the
+  $6.10 average; COST-LAW DOWN trend holds. Touched the row once.
+- Deployed to Firebase + live-verified (hash on live review.html, mp4 HTTP 200). STASH
+  rescanned, PUBLISH LOOP synced.
+
+---
+
 ## ✅ AUDIO FIX DONE — STALE-V1-FINAL recency lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
 
 Class = STALE-V1-FINAL (recency), no open Cameron complaint (`v2_outline.py 100`). Parked

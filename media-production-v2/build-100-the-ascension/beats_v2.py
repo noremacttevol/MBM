@@ -77,7 +77,7 @@ AUDIO_FROM_V1_SEGMENTS = True
 BEATS = [
     {
         "id": "v2-r100-b01", "out": "s01-in-his-last-moments-with.jpeg", "seg": "n0",
-        "window": "0.33-7.62", "wide": True, "jesus": True, "ref": REF,
+        "window": "0.280-6.728", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN", "PETER", "JOHN"],
         "narration": (
             "In his last moments with them, the disciples asked Jesus if he "
@@ -107,7 +107,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b02", "out": "s02-he-turned-them-toward-something.jpeg", "seg": "n0",
-        "window": "7.62-10.20", "wide": False, "jesus": True, "ref": REF,
+        "window": "6.728-9.010", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT"],
         "narration": "He turned them toward something bigger.",
         "must_show": "the turning — close on Jesus's face beginning the redirect: patient warmth over the eager question, his gaze lifting past their kingdom toward horizons.",
@@ -131,7 +131,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b03", "out": "s03-it-is-not-for-you.jpeg", "seg": "j0",
-        "window": "10.84-18.47", "wide": False, "jesus": True, "ref": REF,
+        "window": "9.010-16.424", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": (
             "It is not for you to know the times or the seasons, which the "
@@ -161,7 +161,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b04", "out": "s04-that-is-not-a-no.jpeg", "seg": "n1",
-        "window": "35.83-37.17", "wide": False, "jesus": False, "ref": False,
+        "window": "34.678-35.974", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELEVEN"],
         "narration": "That is not a no.",
         "must_show": "the not-no — close on listening faces catching it: the answer reparsing behind their eyes; hope adjusting, not dying.",
@@ -186,7 +186,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b05", "out": "s05-but-ye-shall-receive-power.jpeg", "seg": "j1",
-        "window": "19.30-35.03", "wide": True, "jesus": True, "ref": REF,
+        "window": "16.424-34.678", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": (
             "But ye shall receive power, after that the Holy Ghost is come "
@@ -220,7 +220,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b06", "out": "s06-go-tell-everyone-everywhere-starting.jpeg", "seg": "n1",
-        "window": "51.11-55.76", "wide": False, "jesus": True, "ref": REF,
+        "window": "49.454-53.951", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": "Go tell everyone, everywhere, starting right where you're standing.",
         "must_show": "the starting-here — the ring of witnesses-to-be on the summit grass, the near city below them: the mission's first mile visible from where their sandals stand.",
@@ -247,7 +247,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b07", "out": "s07-it-is-a-redirection.jpeg", "seg": "n1",
-        "window": "37.17-38.86", "wide": False, "jesus": True, "ref": REF,
+        "window": "35.974-37.608", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT"],
         "narration": "It is a redirection.",
         "must_show": "the redirect embodied — Jesus's two hands in one frame: one gently lowering the when-question, the other opening outward to the work; the trade visible.",
@@ -272,7 +272,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b08", "out": "s08-the-timing-belongs-to-the.jpeg", "seg": "n1",
-        "window": "38.86-49.07", "wide": False, "jesus": True, "ref": REF,
+        "window": "37.608-47.481", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN", "PETER", "JOHN"],
         "narration": (
             "The timing belongs to the Father, he told them, and it is not "
@@ -303,7 +303,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b09", "out": "s09-he-was-handing-them-the.jpeg", "seg": "n1",
-        "window": "49.07-51.11", "wide": False, "jesus": True, "ref": REF,
+        "window": "47.481-49.454", "wide": False, "jesus": True, "ref": REF,
         "locks": ["PETER"],
         "narration": "He was handing them the mission.",
         "must_show": "the handing — Jesus's hand gripping Peter's shoulder, eye to eye: the mission passing person to person like a weight set into hands.",
@@ -329,7 +329,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b10", "out": "s10-and-then-something-happened-they.jpeg", "seg": "n1",
-        "window": "55.76-58.79", "wide": False, "jesus": True, "ref": REF,
+        "window": "53.951-56.881", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": "And then something happened they would never forget.",
         "must_show": "the hinge — the summit's ordinary morning going still: Jesus stepping back a pace from the ring, something changing in the air; every face beginning to fix on him.",
@@ -356,7 +356,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b11", "out": "s11-while-they-watched-he-was.jpeg", "seg": "n2a",
-        "window": "59.39-62.04", "wide": True, "jesus": True, "ref": REF,
+        "window": "56.881-59.376", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": "While they watched, he was lifted up,",
         "must_show": "SCRIPTURE-EXACT: taken up while they beheld — Jesus risen bodily a man's height above the summit grass, robe stirring, calm; the eleven's faces tilting up after him.",
@@ -384,7 +384,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b12", "out": "s12-and-a-cloud-received-him.jpeg", "seg": "n2b",
-        "window": "62.55-69.02", "wide": False, "jesus": False, "ref": False,
+        "window": "59.376-65.269", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": (
             "and a cloud received him out of their sight. They stood there "
@@ -414,7 +414,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b13", "out": "s13-then-two-figures-in-white.jpeg", "seg": "n3",
-        "window": "69.60-73.86", "wide": False, "jesus": False, "ref": False,
+        "window": "65.269-68.929", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNT", "ELEVEN", "TWO"],
         "narration": "Then two figures in white stood beside them with a promise:",
         "must_show": "SCRIPTURE-EXACT: the two in white apparel — the silver-grey pair standing suddenly among the sky-staring men; calm presence beside stunned stillness.",
@@ -442,7 +442,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b14", "out": "s14-ye-men-of-galilee-why.jpeg", "seg": "s11",
-        "window": "74.50-79.24", "wide": False, "jesus": False, "ref": False,
+        "window": "68.929-73.277", "wide": False, "jesus": False, "ref": False,
         "locks": ["TWO", "ELEVEN"],
         "narration": "Ye men of Galilee, why stand ye gazing up into heaven?",
         "must_show": "SCRIPTURE-EXACT: the gentle question — close on the nearer messenger addressing the upturned faces: WHY STAND YE GAZING; the necks beginning to lower.",
@@ -470,7 +470,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b15", "out": "s15-this-same-jesus-which-is.jpeg", "seg": "s11",
-        "window": "79.19-88.93", "wide": False, "jesus": False, "ref": False,
+        "window": "73.231-82.165", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOUNT", "ELEVEN", "TWO"],
         "narration": (
             "this same Jesus, which is taken up from you into heaven, shall "
@@ -501,7 +501,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b16", "out": "s16-he-did-not-abandon-them.jpeg", "seg": "n5",
-        "window": "89.86-91.53", "wide": False, "jesus": False, "ref": False,
+        "window": "82.165-83.776", "wide": False, "jesus": False, "ref": False,
         "locks": ["ELEVEN", "PETER", "JOHN"],
         "narration": "He did not abandon them.",
         "must_show": "the not-abandoned — close on the eleven's faces come back down to earth: loss transmuted into charged purpose; men left WITH something, not left.",
@@ -529,7 +529,7 @@ BEATS = [
     },
     {
         "id": "v2-r100-b17", "out": "s17-he-left-them-a-mission.jpeg", "seg": "n5",
-        "window": "91.53-97.31", "wide": True, "jesus": False, "ref": False,
+        "window": "83.776-89.350", "wide": True, "jesus": False, "ref": False,
         "locks": ["MOUNT", "ELEVEN"],
         "narration": (
             "He left them a mission, a promise, and the sure word that he's "
@@ -568,5 +568,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "MOUNT": "PLACE-REF/mount.jpeg",  # build-100-the-ascension s01-in-his-last-moments-with (manual)
 }
 # === end PLACE-PLATES ===
