@@ -47,7 +47,38 @@ frame, not just b01. Check every John-bearing frame side by side.
 - Spend this row: ~$4.27 (1 portrait + 29 beats + 2 rerolls). Under the
   $6.10/row baseline. Reroll % 6.9% under 19% baseline. COST LAW: trend down.
 
-## 🛑 RUNNER PARK — AUDIO-LOCK BLOCKER (2026-08-06 A-auto, Machine A / Dev)
+## ✅ AUDIO-FIX RESOLVED (2026-08-06 AUDIO-FIX session, Machine A / Dev)
+
+STALE-V1 class — fixed at $0 (no new TTS, no image generation). Root cause was
+exactly as the park note below diagnosed: the V1 mp4
+`media-production/build-69-baptism/matt-3_baptism-of-jesus.mp4` was rendered
+2026-07-29 09:47, BEFORE the REDO-ALL re-voice batch re-rendered every narration
+segment at 2026-07-29 23:03. The mp4 therefore carried the stale pre-REDO-ALL
+voices; the 14 segment mp3s on disk are the intended NEW voices.
+
+FIX APPLIED: `AUDIO_FROM_V1_SEGMENTS = True` in build-69-baptism/beats_v2.py
+(this was already staged uncommitted from a prior parked session; this session
+committed it and finished the ship). `v2_assemble.py 69` then rebuilt the
+narration track from the 14 new-voice V1 mp3s at the extract_beats offsets —
+byte-for-byte the source the V1 build would have used had it been re-rendered.
+
+AUDIO BASELINE CHANGE (sanctioned by the STALE-V1 exception, not accidental drift):
+- OLD (stale V1 mp4 audio, pre-REDO-ALL voices) — card hash a6a3921d671f, 206.633s.
+- NEW (rebuilt from 14 new-voice 23:03 mp3s): timeline 172.277s, final mp4 172.3s.
+  AUDIO REBUILD PASS SHA256 = 7132e43f637005e1bb774c0635ee7eaf11a3be295ff646d5938fead5c3040684.
+- Segments re-voiced this session: NONE (the mp3s were already the new voice; the
+  only change is which audio source the assembler uses). No wording, timing, or
+  voice was altered.
+- Verification: ffprobe confirms aac audio, 172.300s, mean_volume -15.5 dB (on the
+  -15 LUFS target), not silent. Assembler AUDIO REBUILD gate passed.
+
+Cameron's open complaint on this row was the SCALE complaint — "John is way too
+big in the first picture" — which the picture runner had already fixed in the
+stills (s01: John is ordinary human scale beside the confessing man, gated in b01).
+The row sat NEEDS-AUDIO only because the stale-V1 lock blocked assembly; this
+session cleared that so the fixed, new-voice cut could ship.
+
+## 🛑 RUNNER PARK — AUDIO-LOCK BLOCKER (2026-08-06 A-auto, Machine A / Dev) — SUPERSEDED, see RESOLVED note above
 
 ALL 29 stills + BAPTIST portrait are GENERATED, QC'd and PASS (see the
 COMPLAINT LEDGER + QC notes above — the scale complaint is fixed). The row
