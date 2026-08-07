@@ -212,15 +212,17 @@ BEATS = [
         "locks": ["SHORE-EVENING"],
         "narration": ("He was worn through. And when the last story was told, he said "
                       "to his friends:"),
-        "must_show": "close on Jesus at the end of his strength — grey with tiredness, voice gone, eyes heavy, turning to speak to the men beside him.",
-        "must_not_show": "no halo, glare or rim-light; he must genuinely look spent, because that is what makes him sleeping through a storm believable.",
+        "must_show": "close on Jesus at the end of a long day — the SAME man as the reference face, plainly weary: shoulders low, eyelids heavy, turning slowly to speak to the men beside him. The tiredness is in his posture and heavy eyes, NOT in his features.",
+        "must_not_show": "his face must stay exactly the reference man — do NOT gaunt, hollow, thin, age, blotch, dirty or sicken him, no sunken cheeks, no bruised eye-sockets, no wild frizzed hair, no grey pallor; keep his warm olive-tan skin, smooth dark wavy shoulder-length hair, full dark beard and warm brown eyes. No halo, glare or rim-light.",
         "scene": (
-            "Close on Jesus in the last of the light. He is completely spent — his "
-            "shoulders down, his face drawn and hollowed with tiredness, dark shadows "
-            "under his eyes, his lips dry and cracked from a whole day of talking. He "
-            "has half turned his head to speak to someone beside him and even the turn "
-            "looks like an effort. The dim shore and the dying western band are soft "
-            "behind him."
+            "Close on Jesus in the last of the light — unmistakably the same man as the "
+            "reference face, only tired. He carries the weariness in his body: shoulders "
+            "settled low, his gaze soft and heavy-lidded, breathing slow after a whole "
+            "day of talking. His skin is the same warm olive-tan, his dark hair the same "
+            "smooth shoulder-length waves, his beard full and dark, his eyes the same warm "
+            "brown — healthy and himself, just spent. He has half turned his head to speak "
+            "to someone beside him, the turn unhurried and easy. The dim shore and the "
+            "dying western band are soft behind him."
         ),
     },
     {

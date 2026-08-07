@@ -273,3 +273,26 @@ locked face. CREW COUNT: any frame showing the whole company shows
 the SAME EIGHT men; a cropped subset must read as a CROP (bodies
 exiting frame edges), never as a smaller crew in an emptier boat.
 Two boats or a changing headcount = the complaint repeated.
+
+## C-FIX 2026-08-07 — Cameron complaint "the picture of jesus tied is bad it doesn't look like him at all @ 0:11" (Opus runner, Machine A `Dev`)
+
+COMPLAINT LEDGER (this cut):
+- OPEN: "The picture of jesus tied [tired] is bad it doesn't look like him at
+  all." @ 0:11 → the 0:11 frame is `s02-worn-through.jpeg` (beat v2-r011-b02,
+  the "He was worn through" line). ROOT CAUSE: the beat's own prose pushed
+  exhaustion into the FACE — "drawn and hollowed with tiredness, dark shadows
+  under his eyes, lips dry and cracked, grey with tiredness" — which overrode
+  the identity lock and produced a gaunt, blotchy, wild-frizzed-hair, sunken-
+  eyed stranger who did not read as the locked Jesus. FIX: retuned b02 so the
+  weariness reads through POSTURE and heavy eyelids only (shoulders low, slow
+  turn), and the must_show/must_not_show now forbid gaunting/hollowing/
+  blotching/greying the face and require the reference man's warm olive-tan
+  skin, smooth dark shoulder-length waves, full dark beard and warm brown eyes.
+  Rerolled ONLY b02 against jesus-face.jpeg (REF). New take: unmistakably the
+  same locked Jesus, tired but himself — no halo/glow, only-cream robe, evening
+  shore matches SHORE-EVENING. Every other frame byte-identical; audio untouched.
+
+Scope: picture-domain, ONE frame. 1 reroll / 34 beats = 2.9% (< 15% budget).
+Run cost ≈ $0.13. Meter after: ~$483.07. Beat text edit is the root-cause fix,
+not new content — same beat meaning ("worn through"), identity protected.
+AUDIO LOCK must stay byte-identical (no re-voice, picture-only fix).
