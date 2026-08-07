@@ -65,7 +65,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 51 | build-51-first-catch-of-fish | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — Cameron complaint "tear → tare" CLOSED: n4 re-voiced, "tear" (to rend) now spoken "tare"/care not "teer"/fear; caption stays "tear", same NARRATOR voice. 0 V2 stills → handed to picture runner to build on corrected audio. See QC.md "AUDIO FIX DONE". |
 | 52 | build-52-demoniac-synagogue | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 LIVE | ✅ |
 | 53 | build-53-peters-mother-in-law | BUILT | 15 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 54 | build-54-the-leper | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
+| 54 | build-54-the-leper | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 LIVE | ✅ |
 | 55 | build-55-withered-hand | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 56 | build-56-widow-of-nain | BUILT | 22 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 57 | build-57-jairus-daughter | BUILT | 27 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
