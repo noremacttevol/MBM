@@ -1,3 +1,20 @@
+## 2026-08-06 (AUDIO-FIX, headless) — Row 78 (who-is-my-mother) STALE-V1 audio-lock cleared + handed to picture runner — $0 — Machine A `Dev`
+
+**Commit:** `7955360ce` (beats_v2.py flag + QC.md + AUTHOR-BOARD). Claim `589b377eb`.
+
+Next lowest un-audio-claimed NEEDS-AUDIO row after 70 (74 already fixed; 77 held by a parallel
+AUDIO-FIX claim). STALE-V1 class, $0 — no TTS, no Gemini. V1 mp4 `mark-3_who-is-my-mother.mp4`
+(2026-07-29 09:47) is older than all 11 re-voiced segment mp3s (2026-07-29 23:03), so
+`assert_v1_final_is_current`'s recency tripwire refused to copy its stale AAC. Fix: added
+`AUDIO_FROM_V1_SEGMENTS = True` to beats_v2.py (same mechanism as shipped row 69) — v2_assemble
+now rebuilds narration from the V1 build's own new-voice mp3s at the extract offsets. **Segment
+parity 11/11 exact.** Validated: `v2_assemble.py 78` now clears the audio gate and stops only on
+missing stills (0 V2 stills) — the STALE-V1 lock no longer fires. `v2_prompt.py 78 --check` PASSES
+(12 beats). Board NEEDS-AUDIO → AUTHORED / Audio OK / Ready ✅, claim cleared → picture runner
+generates stills and assembles on corrected audio.
+
+---
+
 ## 2026-08-06 (AUDIO-FIX, headless) — Row 70 (temptations) audio FIXED + handed to picture runner — caps "I-S"/"IF" spell-out + "proceedeth" re-voiced — $0 — Machine A `Dev`
 
 **Commit:** `baee4b41a93ea685b9c7e434cf3fadffc76269c2` carries all three row-70 files
