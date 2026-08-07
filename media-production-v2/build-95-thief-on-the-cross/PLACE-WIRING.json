@@ -1,1 +1,8 @@
-{}
+{
+ "HILL": {
+  "manual": true,
+  "src_beat": "v2-r094-b01",
+  "src_build": "build-94-father-forgive-them",
+  "src_file": "build-94-father-forgive-them/assets/s01-and-when-they-were-come.jpeg"
+ }
+}

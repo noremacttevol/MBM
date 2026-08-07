@@ -1,5 +1,47 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
+## ✅ REALISTIC-V2 SHIPPED — A-auto 2026-08-07 (Opus runner, Machine A `Dev`, unattended)
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 95` shows only the beat map, no
+Cameron complaint). Nothing to answer; this is a first realistic-V2 cut on the
+already-corrected STALE-V1 audio.
+
+- 11 stills, 70.7s, **AUDIO REBUILD PASS SHA256=e5ba558a0d4910f922303bab51e25b1799744040284ad361cc2c50fe02f36974**
+  (AUDIO_FROM_V1_SEGMENTS=True — narration rebuilt byte-identical from the 11 V1 mp3s).
+- Timeline verified: max still-window 60.17 < live card_start 64.648 → no stale-window
+  overrun (the row-74/89 batch risk); all 11 stills placed, no dropped beat, video 70.7s == audio.
+- **Three-crosses geometry HELD:** mocker LEFT (thin, dark hair, sparse beard),
+  Jesus CENTRE (only-cream), penitent THIEF RIGHT (grey-streaked beard) — sides
+  never swap across s01/s03/s05/s07/s09/s11. MOCKER + THIEF face-locked via
+  v2_story_cast REFS (the row-52/55 face-flip fix — two distinct men, consistent
+  across every beat).
+- **MERCIFUL DISTANCE held** (row 94's law): all bound by ROPE, no nails, no gore,
+  no wound detail; closeness peaks at the two faces across the gap (s07/s09/s11).
+- **Eye-line CONNECTS** on the exchange beats: s07 (request), s09 (reply), s11
+  (the two turned heads across the gap). Only Jesus wears cream throughout.
+- HILL plate taken from row 94's approved frame (`--take HILL=build-94:v2-r094-b01`);
+  PLACE-WIRING.json carries ONLY HILL (no wrong build-38 wire crept in).
+- **Rerolls: 2/11 = 18%** (both the mandatory composite-seam garbage class, same as
+  row 94's s03/s10 on this passion block): s01 (floating cut-out heads + haze seam),
+  s11 (stacked portrait+landscape diptych). s11 landed clean on 1 redo. Slightly over
+  the 15% row budget by one frame — justified: two true-garbage frames, and s11's fix
+  is a clear win. ~$1.74 row total (11 stills $1.47 + 2 rerolls $0.27 + 2 portraits
+  $0.27 counted separately). Meter after: ~$482.94.
+
+### 🅿️ FIX-WAVE (author beat-text, not a runner reroll)
+- **s01/b01 establishing wide is a structural double-perspective composite.** Both
+  the initial gen (floating heads + haze) and the 1 redo returned the giant-trio-
+  over-tiny-watchers composite — the beat text asks for a far-off distant-crosses
+  WIDE *and* names the three men prominently, so the model keeps compositing a giant
+  foreground trio onto the distant hill (row-45-b46 / row-114 structural-collage
+  class — not a coin-flip a runner can win, so kept the coherent 2nd take and did
+  NOT burn a 3rd reroll per COST LAW). The 2nd take is coherent and reads the correct
+  geometry (mocker L / Jesus C-cream / penitent R, three crosses, watchers), but the
+  scale is off (trio giant vs distant people). AUTHOR FIX: make b01 a true distant
+  establishing wide (person-free HILL-plate establish, or drop the giant trio /
+  place the three at true distance on the crosses), then regen only b01.
+
+
 ## ✅ AUDIO FIX DONE — STALE-V1-FINAL recency lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
 
 Class = STALE-V1-FINAL (recency), no open Cameron complaint (`v2_outline.py 95`). Parked
