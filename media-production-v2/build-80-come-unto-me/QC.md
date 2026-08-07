@@ -1,5 +1,20 @@
 # QC / RUNNER HANDOFF — build-80-come-unto-me (Matthew 11:28-30)
 
+## ✅ AUDIO FIX DONE — AUDIO-FIX session, Machine A, 2026-08-06 ($0)
+
+**STALE-V1 audio-lock CLEARED.** Added `AUDIO_FROM_V1_SEGMENTS = True` to
+beats_v2.py. V1 mp4 `matthew-11_come-unto-me.mp4` (2026-07-29 09:47) is older
+than all 11 re-voiced segment mp3s (2026-07-29 23:03), so the recency tripwire
+in `assert_v1_final_is_current` refused to copy its stale AAC (row-69 class).
+With the flag set, v2_assemble rebuilds narration from the V1 build's OWN
+new-voice mp3s at the extract offsets — nothing re-voiced/re-timed, V1 read-only.
+**Segment parity 11/11 exact.** Validated: `v2_assemble.py 80` now clears the
+audio gate and stops only on missing stills (0 V2 stills); `v2_prompt.py 80
+--check` PASSES (14 beats). Board NEEDS-AUDIO → AUTHORED / Audio OK / Ready ✅,
+claim cleared → picture runner generates + assembles on corrected audio.
+
+---
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 14 beats, ~83 s.
 

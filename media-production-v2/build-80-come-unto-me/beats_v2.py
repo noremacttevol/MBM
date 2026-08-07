@@ -59,6 +59,17 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX (AUDIO-FIX session, Machine A, 2026-08-06): the V1 mp4
+# matthew-11_come-unto-me.mp4 (rendered 2026-07-29 09:47) is STALE vs this
+# build's own narration — all 11 SPEAKER-LAW segment mp3s (audio/*.mp3) are
+# NEWER (2026-07-29 23:03, the intended new-voice audio), so
+# assert_v1_final_is_current's recency tripwire refuses to copy the stale AAC.
+# Segment-ID parity with make_narration.py is exact (11/11: n0a,n0b,n0c,n1,n1b,
+# n2a,n2b,j1,j2,j3,card), so rebuild the track from these segments at the
+# extract offsets instead of copying the stale mp4. $0 — nothing re-voiced,
+# nothing re-timed; V1 stays read-only. Same mechanism as the shipped row-69 fix.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r080-b01", "out": "s01-to-a-crowd-of-people.jpeg", "seg": "n0a",
