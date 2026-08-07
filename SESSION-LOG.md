@@ -1,3 +1,24 @@
+## 2026-08-06 (main session) — Cameron's "why is my reviewer empty / why aren't complaints fixed" answered: AUDIO-FIX job type + billing-breaker fallback — Machine A `Dev`
+
+**The two root causes, told to Cameron straight:** (1) the Gemini prepayment
+DEPLETED at 08:29 after the loop shipped 36 rows overnight (41→77 BUILT, $171
+that morning, $409.64 total) — only Cameron can top up (https://ai.studio/projects);
+(2) 28 rows sit NEEDS-AUDIO because their open complaints are AUDIO defects the
+picture runner is forbidden to fix, and no audio track existed in the loop.
+
+**Built this session:** (a) `PROMPT-AUDIO-FIX.md` — the audio-repair brief:
+follows each row's QC.md RUNNER PARK note as authority; STALE-V1 re-renders are
+$0, PRON/VOICE re-voices regenerate ONLY the complained-about segments via
+ElevenLabs with the same locked voice; a Cameron-ordered re-voice is the
+sanctioned exception to audio-immutability, documented hash→hash in QC.md; the
+review card must answer his complaint in his own words. (b) autopilot.sh: job
+priority is now stranded → AUDIO-FIX → ready-build → author, and the billing
+breaker FALLS BACK to free work (audio/author) instead of idling — the 12
+idle hours (00:34→20:54, 45 dead resume ticks on row 48) can never repeat.
+Dry-run verified: with billing down it picks the audio job at row 50 (the Cana
+complaint).
+**Commit:** (this commit)
+
 ## 2026-08-06 (Opus, 45th resume, headless) — Row 48 STILL billing-blocked ($0), re-parked clean — Machine A `Dev`
 
 **Commit:** `9f437b1fe`

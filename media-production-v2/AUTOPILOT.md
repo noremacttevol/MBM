@@ -15,8 +15,14 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
   24 hours" — override with MBM_LANES). Claim-by-push keeps lanes off each
   other's rows. Fresh session per run = clean context = the "one video per
   chat" law.
-- If no Ready rows remain but NEEDS-BEATS rows exist, the tick runs an AUTHOR
-  session (PROMPT-FABLE5-AUTHOR.md) instead, so the board keeps refilling.
+- **Four job types, in priority order** (2026-08-06): stranded-resume →
+  **AUDIO-FIX** (PROMPT-AUDIO-FIX.md — closes Cameron's audio complaints on
+  NEEDS-AUDIO rows; $0 Gemini) → ready-build → author (PROMPT-FABLE5-AUTHOR.md,
+  refills the board from NEEDS-BEATS).
+- **Billing breaker with fallback:** when the Gemini prepayment is depleted,
+  paid jobs (resume/build) are blocked but the loop does NOT idle — audio and
+  author work continue free. Top up at https://ai.studio/projects and paid
+  builds resume on their own within ~25 min.
 - Claim-by-push keeps autopilot and any interactive chat off each other's rows.
 - Every law travels with it: learning law (complaint ledger), cost law (reroll
   budget, $/row logging), deploy + live verification. New videos just appear on

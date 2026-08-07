@@ -91,18 +91,50 @@ next_stranded() {
     if (state=="RUNNING" && claim ~ /A-auto/) { print row; exit }
   }' "$BOARD"
 }
+# NEEDS-AUDIO rows carry Cameron's open AUDIO complaints (mispronunciations,
+# wrong voice, stale V1 renders) — the runner is forbidden to fix them; the
+# AUDIO-FIX job (PROMPT-AUDIO-FIX.md) is. Costs $0 Gemini (ElevenLabs/ffmpeg
+# only), so it runs even while the Gemini billing breaker is tripped.
+next_audio() {
+  awk -F'|' '/^\| *[0-9]+ *\|/ {
+    row=$2; state=$4; claim=$7
+    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",state)
+    if (state=="NEEDS-AUDIO" && claim !~ /AUDIO-FIX/) { print row; exit }
+  }' "$BOARD"
+}
 
-# Only resume a stranded row when NO lanes are live (otherwise the "stranded"
-# row may be another lane's active build). After a crash/reboot, lanes are 0
-# and stranded rows get picked up first.
-STRANDED=""
-[ "$LIVE" -eq 0 ] && STRANDED="$(next_stranded || true)"
-READY="$(next_ready || true)"
+# --- billing state (checked BEFORE job pick so we can fall back to free work) -
+# A depleted Gemini prepayment makes every PAID job die on its first shot.
+# Detection: any runner/resume log in the last 25 min reporting depletion.
+# Self-heals after top-up (old logs age out of the window). Fail-safe: on any
+# find/grep error the flag stays 0 and behavior is unchanged.
+BILLING_DOWN=0
+if find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' \) \
+     -mmin -25 -print0 2>/dev/null \
+   | xargs -0 -r grep -lE 'prepayment credits are depleted|RESOURCE_EXHAUSTED' 2>/dev/null \
+   | grep -q .; then
+  BILLING_DOWN=1
+fi
+
+# Job priority (Cameron 2026-08-06: complaints must actually get FIXED, and
+# billing-down must never idle the loop):
+#   billing OK:   stranded-resume → audio-fix → ready-build → author
+#   billing DOWN: audio-fix → author (paid jobs blocked; free work continues)
+STRANDED=""; READY=""
+if [ "$BILLING_DOWN" -eq 0 ]; then
+  [ "$LIVE" -eq 0 ] && STRANDED="$(next_stranded || true)"
+  READY="$(next_ready || true)"
+fi
+AUDIO="$(next_audio || true)"
 UNAUTHORED="$(next_unauthored || true)"
 
 if [ -n "$STRANDED" ]; then
   JOB="resume"; ROW="$STRANDED"
   PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md. A previous autopilot run DIED mid-build on AUTHOR-BOARD row $ROW (State RUNNING, Claim A-auto) — RESUME that row, do not start a new one. Read the build's QC.md for where it stopped; v2_gen_api.py resumes automatically (already-passing frames are never re-pulled — the COST LAW). You are UNATTENDED and HEADLESS: ending your turn kills the session, so run EVERY command in the FOREGROUND to completion; never use run_in_background, never wait for notifications. Finish the row through step 7c DEPLOY + live verification, set the board row BUILT, SESSION-LOG entry, commit, push."
+  MODEL_ARGS=(--model opus)
+elif [ -n "$AUDIO" ]; then
+  JOB="audio"; ROW="$AUDIO"
+  PROMPT="Read media-production-v2/PROMPT-AUDIO-FIX.md and fix the next NEEDS-AUDIO rows (lowest first). You are UNATTENDED and HEADLESS (autopilot): Cameron cannot answer — never wait, never ask. HEADLESS LAW: ending your turn kills the session; run EVERY command in the FOREGROUND to completion; never run_in_background, never wait for notifications. Spend NOTHING on Gemini image generation — this job is audio-only (ElevenLabs for re-voiced segments + ffmpeg). Follow each row's QC.md RUNNER PARK note as the per-row authority. Ship through deploy + live verification, answer Cameron's complaint on the review card in his own words, set the board row BUILT with Audio OK, SESSION-LOG entry, commit, push. Stop cleanly when context runs low."
   MODEL_ARGS=(--model opus)
 elif [ -n "$READY" ]; then
   JOB="runner"; ROW="$READY"
@@ -113,30 +145,17 @@ elif [ -n "$UNAUTHORED" ]; then
   PROMPT="Read media-production-v2/PROMPT-FABLE5-AUTHOR.md and do the next rows. You are UNATTENDED (autopilot): never wait for Cameron; spend \$0 on generation exactly as the brief says; stop cleanly with the chain (SESSION-LOG entry, commit, push) when context runs low."
   MODEL_ARGS=()
 else
-  log "ALL ROWS BUILT or claimed — nothing to do. If the board is fully BUILT, remove the cron line (see AUTOPILOT.md)."
+  if [ "$BILLING_DOWN" -eq 1 ]; then
+    MSG="billing breaker: Gemini prepayment depleted and no free (audio/author) work is open — idle. Top up at https://ai.studio/projects and the loop resumes itself."
+  else
+    MSG="ALL ROWS BUILT or claimed — nothing to do. If the board is fully BUILT, remove the cron line (see AUTOPILOT.md)."
+  fi
+  if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
   exit 0
 fi
 
-# --- billing circuit breaker (Cameron, 2026-08-06) --------------------------
-# A depleted Gemini prepayment balance makes every PAID row (runner/resume)
-# 429 "prepayment credits are depleted" on its first shot, for $0 of work.
-# Without this guard the cron kept spawning a fresh Opus session every 10 min
-# that all hit the same wall and burned Claude tokens for nothing (30+ dead
-# sessions on row 48 alone). If any runner/resume run in the last 25 min
-# reported a depleted prepayment (or RESOURCE_EXHAUSTED), skip THIS paid tick.
-# Author ($0) ticks are never blocked. Self-heals: once billing is topped up a
-# run succeeds and leaves no fresh depletion log, so the loop resumes on its
-# own — no crontab edit and no manual re-enable needed. Fail-safe: if nothing
-# matches (or find/grep errors), the condition is false and we proceed exactly
-# as before, so this can never wedge the loop.
-if [ "$JOB" != "author" ] \
-   && find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' \) \
-        -mmin -25 -print0 2>/dev/null \
-      | xargs -0 -r grep -lE 'prepayment credits are depleted|RESOURCE_EXHAUSTED' 2>/dev/null \
-      | grep -q .; then
-  MSG="billing circuit breaker: a paid run in the last 25 min hit a depleted Gemini prepayment — skipping this $JOB tick (row $ROW) to stop burning \$0 sessions. Top up at https://ai.studio/projects and the loop resumes itself."
-  if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
-  exit 0
+if [ "$BILLING_DOWN" -eq 1 ] && [ "$DRY" -eq 0 ]; then
+  log "billing breaker active: Gemini paid jobs blocked; running free $JOB work meanwhile. Top up at https://ai.studio/projects to resume picture builds."
 fi
 
 if [ "$DRY" -eq 1 ]; then
