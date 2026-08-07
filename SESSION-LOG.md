@@ -30,6 +30,30 @@ card → new hash `da00221e35d6`, `data-review-wave="realistic-v2"`, src → med
 pushed; `firebase deploy --only hosting` complete; live checks PASS — deployed card carries the new hash+wave,
 GitHub-raw mp4 HTTP 200 (21,683,752 bytes). **Cost: $0** (Gemini $0, ElevenLabs $0 — no re-voice needed).
 
+## 2026-08-06 (Fable 5, main session, pt.2) — FIRST v2.1 PUBLISHES: all 6 approved realistic cuts LIVE in the app (rows 2,3,5,6,7,8) — Machine A `Dev`
+
+**Commit:** (this commit)
+
+Cameron: "start off by publishing all the good approved videos to the app." Done —
+every row whose CURRENT realistic-v2 cut carries his approval stamp is now live:
+
+- **Rows 2, 3, 5, 6, 8** — approved realistic cuts replaced the old-style cuts at
+  the same gallery URLs (old cuts backed up to `media-production-v2/.gallery-backup/`,
+  machine-local). Installed apps pick these up immediately — same URLs.
+- **Row 7 (Peter Walks on Water)** — first time live anywhere; also ADDED id 7 to
+  `PRODUCED_VIDEO_IDS` in mobile/src/data/videos.ts and shipped OTA: EAS update
+  group `6ddd115c-41b1-4ef3-b162-2e15476fb813`, branch production, runtime 1.1.0,
+  iOS+Android.
+
+`firebase deploy --only hosting` (6 files) then **live-verified byte-for-byte**:
+each https://milk-b4-meat.web.app/story-videos/N.mp4 downloaded and sha1-matched
+against the approved cut (2=cae152c12c7d · 3=7989f9bacb45 · 5=e1f8f220e9e8 ·
+6=646449303ef9 · 7=513e1b719f17 · 8=e031ceda6d95). `publish_ledger.py sync`
+auto-recorded all six as **v2.1** — and the ledger keeps each row's v1.1 (the
+first cut that ever got published, e.g. row 2's v1.1 of 2026-07-22) in history
+forever, exactly per the version rule. QUEUE rows 2/3/5/6/7/8 ticked Appr+Post.
+Board now: 6 LIVE-current v2.1 · 66 LIVE-OLD-STYLE · 31 ON-REVIEWER.
+
 ## 2026-08-06 (Fable 5, main session) — THE PUBLISH LOOP built: publish_ledger.py + PUBLISH-BOARD.md, version rule v2.1/v2.2 — Machine A `Dev`
 
 **Commit:** (this commit)
@@ -63,6 +87,42 @@ Second sync = 0 events (idempotent). sha1s cached in `.hash-cache.json`
 (gitignored, machine-local). Wired into the loop: PROMPT-OPUS-RUNNER.md step 10
 runs `sync --commit` after every ship; QUEUE.md header points to the board as the
 state of record for Appr/Post.
+
+## 2026-08-06 (social session) — SOCIAL DISTRIBUTION KIT BUILT — 41 byte-verified approved cuts ready to post, channel plan + queue + schedule + playbook — Machine A `Dev`
+
+**Commit:** (this commit)
+
+Session-chain verified: read SESSION-LOG top (row 48 realistic-v2 shipped) and confirmed its
+commit `4dd741328` in history. Hostname `Dev` → Machine A. Cameron's order: build MBM's
+social media distribution (YouTube Shorts / Instagram Reels / TikTok / Facebook Reels) —
+bios, account instructions, captions for every approved video, schedule, everything needed
+to spread the app. Workspace: new `social/` folder only; production untouched.
+
+**THE CRITICAL FINDING every future posting session must know:** the working-tree mp4s in
+`media-production-v2/` are NOT the approved cuts — the autopilot rewrites them mid-rebuild
+(22 of 41 approved rows had newer, unapproved bytes in the working tree today). The approved
+bytes live in git objects. `social/refresh-postable.py` cross-references
+`admin/dump-approvals.mjs` × `site/review.html` data-hash × the blob actually served from
+origin/main, handles all three hash schemes the board has used (mp4 blob hash, shipping
+commit hash, sha1-prefix12), and extracts every verified cut byte-exact into
+`social/exports/` (gitignored, regenerable). **Post ONLY from exports/.**
+
+**Result: 41 postable videos** (approved AND served cut matches the approval), 8 approved
+rows correctly EXCLUDED because the cut changed since approval (rows 87, 93, 94, 95, 98,
+121, 151, 170 — their new cuts await Cameron on the reviewer).
+
+**Built in `social/`:** README (laws + workflow), `refresh-postable.py` (rerun anytime),
+`postable.json` (verified list), CHANNEL-PLAN (handles — recommend `@milkb4meat` —, bios
+within each platform's limits, 5-minute setup steps per platform; Cameron creates the
+accounts), POST-QUEUE (all 41: YouTube title, reverent caption in the app's mirror-question
+voice, hashtags, scripture ref, cover, per-platform fit, checkboxes), SCHEDULE (1 story/day
+7 PM ET, all platforms same story; 41-day launch order, week-1 all ≤3:00 so Instagram gets a
+full first week; Sunday batch-scheduling rhythm), GROWTH-PLAYBOOK (comment/DM voice rules,
+member-sharer moves, metrics that matter, never-do list incl. no platform music — silence is
+the product), plus `covers/row-NNN.jpg` — cover frames pulled from the approved cuts with
+ffmpeg (spot-checked: realistic mid-story frames). All 41 queue file paths verified to match
+real exports. Videos over 3:00 skip Instagram (Reel cap) and go as regular YouTube uploads —
+never trimmed, since editing a cut voids its approval.
 
 ## 2026-08-06 (Opus runner, headless) — Row 48 (new-wine-old-bottles) REALISTIC V2 SHIPPED — billing restored after 45 blocked resumes — Machine A `Dev`
 

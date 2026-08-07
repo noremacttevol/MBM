@@ -1124,6 +1124,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/2.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "9a7ae96a2c369e431dc5b6e93622fc558a18ea0a",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "cae152c12c7d46946e7bf3f24c983041eacfa7ae",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/2.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1333,6 +1346,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "8b6fc7369ce60abeedf09e54fa0b7e6fa7bbe50f",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/3.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "39c19f7e284afab4d757a304167e676799a99e0b",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "7989f9bacb45339ed808271fd68fe4290795b9cf",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1692,6 +1718,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/5.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "93738754368d7e7f85dfd1614b970d24b6b486bb",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "e1f8f220e9e80e717f1674e4ffd6c7f93a3d2178",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/5.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1810,6 +1849,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/6.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "c660e5deeb7e7855ea09783ff78faab90b03e4b8",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "646449303ef98cf2f5dad7583309f099bc17771a",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/6.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1877,7 +1929,21 @@
       "open_fix": null,
       "slug": "build-07-peter-water",
       "title": "Peter Walks on Water",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "2b807e85b68a4e36199d176f6f0a1ce04b28ddb9",
+          "date": "2026-08-06",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "513e1b719f17e807e71e8d5686a9c3ce1ba3c699",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/7.mp4"
+            }
+          ]
+        }
+      ]
     },
     "70": {
       "open_fix": null,
@@ -1949,6 +2015,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "b19d2c128a9c1bdef44b83e76821d5d2d81f1cec",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/8.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "5bcb2b44f69c3b74d4779ba623a74c7f006e6c0f",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "e031ceda6d958f6f26112409968a876ae6d4374f",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -2124,5 +2203,5 @@
       ]
     }
   },
-  "updated": "2026-08-06T22:24:27"
+  "updated": "2026-08-06T22:28:21"
 }

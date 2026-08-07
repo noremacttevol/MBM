@@ -99,7 +99,7 @@ export function videoThumbUrl(id: number): string {
 // #156 (same Amos 8 famine-of-hearing story) — shipping both would show the same
 // story twice. Everything he has not approved is OUT (verse-only card).
 export const PRODUCED_VIDEO_IDS = new Set<number>([
-  1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 14, 15, 16, 18,
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 18,
   21, 22, 23, 24, 25, 26, 27, 28, 29,
   31, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 47, 49,
   53, 58, 59,
