@@ -69,3 +69,20 @@ flip AUTHOR-BOARD row 74 State→AUTHORED Audio→OK Ready→✅. No stills exis
 the full generate step runs fresh when audio is unblocked. SAME-EVENT LAW: this
 row renders the shared WOMAN/SIMON/ROOM/JAR faces FIRST (build-44 is retired),
 ROOM promote-first from b01.
+
+## ✅ AUDIO FIX DONE — AUDIO_FROM_V1_SEGMENTS (AUDIO-FIX job, A-auto 2026-08-06)
+STALE-V1 blocker CLEARED at $0 (no new TTS, no image gen). Set
+`AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py so v2_assemble rebuilds the
+narration track from this build's own 19 SPEAKER-LAW segment mp3s (the intended
+new voices) at the extract_beats offsets, instead of copying the stale 2026-07-24
+V1 mp4 (171.67s, 12.9s short of the 184.57s timeline).
+- Verified before flipping: exact 19/19 segment-ID parity between make_narration.py
+  SEGMENTS and audio/*.mp3; make_narration imports JESUS/NARRATOR/SCRIPTURE via
+  save_speaker_narration (SPEAKER-LAW = new voices); ear-check j1 (Jesus) =
+  "Her sins, which are many, are forgiven; for she loved much..." and n0 =
+  "A Pharisee named Simon invited Jesus to dinner..." — correct Luke 7, new voice.
+- 0 V2 stills exist. Per AUDIO-FIX loop step 5, nothing visual ships; board
+  flipped AUTHORED / Audio OK / Ready ✅, claim cleared, so the picture runner
+  generates the stills and assembles on this corrected audio (the AUDIO LOCK will
+  now pass). No open pronunciation complaint on this row — this was a pure
+  duration/staleness fix.

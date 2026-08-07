@@ -85,6 +85,13 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX (A-auto 2026-08-06): the V1 mp4 luke-7_woman-washed-his-feet.mp4
+# (171.67s, committed 2026-07-24) is STALE — all 19/19 narration mp3s are newer
+# and the extract_beats timeline is 184.57s (mp4 12.9s short). Rebuild the track
+# from this build's own 19 SPEAKER-LAW segment mp3s at the extract offsets
+# instead of copying the stale mp4. Verified 19/19 segment-ID parity + new voices.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r074-b01", "out": "s01-a-pharisee-named-simon-invited.jpeg", "seg": "n0",
