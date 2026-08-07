@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 14:12:06",
+ "scanned": "2026-08-07 14:41:18",
  "entries": [
   {
    "row": 1,
@@ -43291,6 +43291,489 @@
    "night": false,
    "n_person": 0,
    "scene": "The closing frame holds, the camera down the hall's length behind the empty court, the new architecture of the universe: the tall hall with the great curtain hanging in two stilled halves, and between them \u2014 open, unbarr"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b01",
+   "file": "build-97-the-empty-tomb/assets/s01-very-early-on-the-first.jpeg",
+   "tokens": [
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "Before the first birds, the camera beside the path taking the climb in profile, three shapes climb the garden path in the dark: the women with their clay spice jars held close and their folded linen, shawls drawn against"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b02",
+   "file": "build-97-the-empty-tomb/assets/s02-and-the-whole-way-there.jpeg",
+   "tokens": [
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the three faces in the greying dark, and the one worry passing between them: the older woman's eyes lifting toward the hill, the tall one's mouth tightening, the youngest glancing from jar to path \u2014 grief's whol"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b03",
+   "file": "build-97-the-empty-tomb/assets/s03-who-shall-roll-us-away.jpeg",
+   "tokens": [
+    "TOMB",
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The question stops them on the path: ahead in the half-dark the limestone face waits among the olive trees with its low cut door \u2014 and between the women and their errand stands the remembered mass of the great disc stone"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b04",
+   "file": "build-97-the-empty-tomb/assets/s04-it-took-several-men-to.jpeg",
+   "tokens": [
+    "TOMB",
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The wide grey frame states, the camera behind the three climbing backs toward the rock face, the odds: three small shawled figures on the climbing path, jars in arms, and above them the dark limestone shoulder of the hil"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b05",
+   "file": "build-97-the-empty-tomb/assets/s05-but-when-they-arrived-the.jpeg",
+   "tokens": [
+    "TOMB",
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The path turns and the problem is gone: in the first rose-grey of dawn the great disc stone stands rolled full off its channel, leaned aside like a door someone left open \u2014 the low cut entrance gaping dark and unsealed \u2014"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b06",
+   "file": "build-97-the-empty-tomb/assets/s06-they-stepped-inside-and-the.jpeg",
+   "tokens": [
+    "TOMB",
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "They duck through the low door into the cool rock dark, and the lamp of dawn follows them in: the hewn stone bench lies EMPTY \u2014 the linen grave clothes resting folded and orderly where a body should be, the head cloth ap"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b07",
+   "file": "build-97-the-empty-tomb/assets/s07-then-two-figures-in-dazzling.jpeg",
+   "tokens": [
+    "TOMB",
+    "WOMEN",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Between one heartbeat and the next the chamber has four more feet in it: two tall figures standing where no one stood, their plain silver-grey robes bright with a light that owes nothing to the door \u2014 calm ageless faces "
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b08",
+   "file": "build-97-the-empty-tomb/assets/s08-why-seek-ye-the-living.jpeg",
+   "tokens": [
+    "TWO",
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the kindest correction ever issued: the nearer messenger's calm face bent toward the bowed women, one hand opening toward the empty folded linen \u2014 WHY SEEK YE THE LIVING AMONG THE DEAD \u2014 the question turning the"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b09",
+   "file": "build-97-the-empty-tomb/assets/s09-he-is-not-here-he.jpeg",
+   "tokens": [
+    "TOMB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame rests on the best empty space in history: the hewn bench bare in the strengthening light from the door, the linen lying folded with the head cloth set apart, dawn's first warm gold reaching in across the cool s"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b10",
+   "file": "build-97-the-empty-tomb/assets/s10-remember-how-he-spake-unto.jpeg",
+   "tokens": [
+    "TOMB",
+    "WOMEN",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The messengers hand them their own memory: REMEMBER HOW HE SPAKE \u2014 and the women rise slowly from the earth as it comes: Galilee evenings, the strange sentences nobody wanted to hear, DELIVERED \u2014 CRUCIFIED \u2014 AND THE THIR"
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b11",
+   "file": "build-97-the-empty-tomb/assets/s11-they-stood-there-confused-and.jpeg",
+   "tokens": [
+    "TOMB",
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "For one long moment the chamber holds only their not-knowing: the three women stock-still in the cool dimness before the impossible bench \u2014 the older one's hand pressed to her mouth, the tall one gripping the youngest's "
+  },
+  {
+   "row": 97,
+   "build": "build-97-the-empty-tomb",
+   "beat": "v2-r097-b12",
+   "file": "build-97-the-empty-tomb/assets/s12-he-had-said-all-of.jpeg",
+   "tokens": [
+    "TOMB",
+    "WOMEN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "They come out of the dark, the camera outside the mouth taking their emergence from the side, into the first day's morning: the garden gold and green with new sun through the olive leaves, the great stone standing harmle"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b01",
+   "file": "build-98-mary-her-name/assets/s01-mary-magdalene-stayed-behind-at.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "When everyone else has run, the camera at the garden's edge taking figure and doorway from the side, with the news, one figure stays: Mary in her madder-red at the tomb's open door, bent into her weeping with one hand ag"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b02",
+   "file": "build-98-mary-her-name/assets/s02-they-have-taken-away-my.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the only sentence grief has left her: the tear-streaked face shaping it into the morning air \u2014 THEY HAVE TAKEN AWAY MY LORD \u2014 the possessive still hers and held onto with both hands \u2014 AND I KNOW NOT WHERE \u2014 a wo"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b03",
+   "file": "build-98-mary-her-name/assets/s03-she-had-lost-him-once.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "She stands in the low doorway and looks at the second loss: past her grieving profile the hewn bench lies bare in the slanting gold, the folded linen where the body should be \u2014 the one fixed point grief had left her, a p"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b04",
+   "file": "build-98-mary-her-name/assets/s04-she-turned-and-saw-a.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A presence turns her from the doorway: a man standing on the garden path in the gold morning light, plain and real among the olive trees \u2014 asking her, gently, WOMAN, WHY WEEPEST THOU \u2014 and Mary looking straight at the fa"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b05",
+   "file": "build-98-mary-her-name/assets/s05-whom-seekest-thou-why-are.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the tender absurdity of the moment: his warm brown eyes resting on her with all the knowing in the world \u2014 WHOM SEEKEST THOU \u2014 the question asked by its own answer, love inquiring after itself \u2014 while her blurre"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b06",
+   "file": "build-98-mary-her-name/assets/s06-who-is-it-looking-for.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on her face as the voice works at its locked door: something in the timbre reaching down past the grief and stirring \u2014 her brows flickering, the weeping pausing half a breath as if listening for a bird heard once l"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b07",
+   "file": "build-98-mary-her-name/assets/s07-thinking-he-was-the-gardener.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "She takes him for the only man who would be here at this hour: the gardener, standing among his olive trees in the work-light of dawn \u2014 and she turns to him with her hands beginning to reach, grief bypassing all pride, a"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b08",
+   "file": "build-98-mary-her-name/assets/s08-sir-if-thou-have-borne.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on courtesy holding a breaking heart together: SIR \u2014 the word offered properly even now, her open hands asking in front of her \u2014 IF THOU HAVE BORNE HIM HENCE, TELL ME WHERE \u2014 the whole plea structured like a busine"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b09",
+   "file": "build-98-mary-her-name/assets/s09-sir-if-you-carried-him.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The frame takes her measure as she makes the offer: a small woman, spent with weeping, shoulders squared in the dawn light \u2014 I WILL GO AND GET HIM \u2014 the arithmetic absurd and entirely settled: she will carry a grown man'"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b10",
+   "file": "build-98-mary-her-name/assets/s10-she-was-a-woman-offering.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The wide gold garden holds, the camera off the path's side so both figures read in one profile, the measurement: the small madder-red figure with her impossible offer standing before the quiet man on the path \u2014 and on hi"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b11",
+   "file": "build-98-mary-her-name/assets/s11-he-said-one-word-her.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Everything narrows to one word: his face close in the morning gold, the warm brown eyes on her, and the name leaving him the way he has always said it \u2014 MARY \u2014 not loud, not urgent, just hers: the two syllables that no g"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b12",
+   "file": "build-98-mary-her-name/assets/s12-rabboni-mary-and-she-answered.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The name lands and she SPINS: the whole grieving architecture of her shattering in one turn, the shawl slipping, her face blazing alive through the half-dried tears \u2014 RABBONI \u2014 the answer bursting out of her like water f"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b13",
+   "file": "build-98-mary-her-name/assets/s13-it-means-master-in-her.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the old word coming home: RABBONI still shaping her lips \u2014 the everyday title of a thousand ordinary mornings, the word for handing him bread and asking him questions on the road \u2014 restored in one breath to its "
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b14",
+   "file": "build-98-mary-her-name/assets/s14-and-instantly-she-knew-grief.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The same garden that held her weeping, the camera behind her rushing shoulder toward him, now holds her running: Mary flying the few steps between them with her arms out and her face transfigured, the morning gold everyw"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b15",
+   "file": "build-98-mary-her-name/assets/s15-he-asked-her.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "One quiet beat between question and answer: his gentle face inclined toward her bowed one in the morning light, the asking still hanging in the air between them \u2014 patient, unhurried, in no rush at all to be recognized \u2014 "
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b16",
+   "file": "build-98-mary-her-name/assets/s16-touch-me-not-for-i.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "His hand rises soft between them \u2014 not a wall, a stay: TOUCH ME NOT, FOR I AM NOT YET ASCENDED \u2014 and her rush stills into listening as something better than an embrace is handed over: GO TO MY BRETHREN \u2014 SAY UNTO THEM \u2014 "
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b17",
+   "file": "build-98-mary-her-name/assets/s17-through-the-tears-she-could.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the veil grief makes: her eyes flooded and shining in the morning light, lashes heavy with it \u2014 and beyond them, soft and unresolved as a figure seen through rain, the shape of the man on the path: near enough t"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b18",
+   "file": "build-98-mary-her-name/assets/s18-hold-on-to-me-yet.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the gentlest word in the sentence: YET \u2014 his face warm above the softly staying hand, nothing of refusal anywhere in it \u2014 not yet, which is a promise wearing work clothes \u2014 and Mary's face taking it rightly: no "
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b19",
+   "file": "build-98-mary-her-name/assets/s19-go-to-my-brothers-and.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The commission gets its compass: his arm sweeping out past the olive trees toward the waking city where ten heartbroken men are hiding behind a locked door \u2014 GO TO MY BROTHERS \u2014 and Mary turning along the line of his arm"
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b20",
+   "file": "build-98-mary-her-name/assets/s20-he-gave-her-the-message.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "And she RUNS: down the garden path in the full risen morning, skirts gathered in both fists, the madder shawl streaming off her shoulders, feet flying over the stones she climbed weeping in the dark \u2014 the same road, the "
+  },
+  {
+   "row": 98,
+   "build": "build-98-mary-her-name",
+   "beat": "v2-r098-b21",
+   "file": "build-98-mary-her-name/assets/s21-the-first-person-to-see.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame catches the first sermon ever preached on a risen Lord: Mary arrived breathless in the doorway of the hidden room, face blazing with what it has seen, one hand flung back toward the garden and the morni"
   },
   {
    "row": 101,
