@@ -300,3 +300,48 @@ The target is the MIDDLE: deliberate weight without the robotic stretch.
 **Board:** row 10 → NEEDS-AUDIO, Audio CHECK, Claim "C-FIX 2026-08-07 PARKED
 NEEDS-AUDIO". No mp4 re-render this session; the shipped 296.6 s mp4 still carries the
 too-slow j2 until the audio lane re-voices. $0.00 spent, 0 rerolls, 0 pictures touched.
+
+---
+
+## ✅ SHIPPED — j2 re-voiced GENUINELY slow (2026-08-07, AUDIO-FIX lane, Machine A `Dev`)
+
+**Cameron RE-FILED the pacing complaint against the CURRENT 3.96 s cut** (verbatim,
+`v2_outline.py 10`): "how fast and meaningles Jesus pronounced the words while telling
+her he was the messiah. It is a very important text and the speaker says it too fast."
+The previous "middle-ground" 3.96 s single-ellipsis take was **still not enough** — the
+Messiah reveal still raced by. His direct order this session: make it genuinely SLOW and
+weighty — long REAL pauses, roughly **double** the line's previous duration.
+
+**Root understanding of the past whipsaw.** The 4.92 s take was rejected as *robotic* —
+but the robot came from the **-30 % RATE DRAG** stretching every word on edge-tts
+EricNeural, not from the pauses. So this fix builds the weight from **real silence
+between naturally-spoken phrases only** — the words stay at the Jesus default (-22 %),
+never dragged — so it lands heavy without sounding mechanical.
+
+**Fix (audio only, $0 — edge-tts EricNeural, no Gemini/ElevenLabs):**
+- `make_narration.py` (both the V1 `media-production/build-10-well/` copy that the
+  assembler actually reads AND the V2 copy, kept in lock-step): new `build_j2()` renders
+  j2 as **three chunks at the default rate** — `"I..."`, `"that speak unto thee..."`,
+  `"am he."` — joined by `J2_GAP = 0.50 s` of real silence. `PHRASE_SPOKEN`/`PHRASE_RATE`
+  for j2 are gone. Splitting the chunks also **permanently kills the "the Amhi" slur**
+  (thee / am-he are now separate files, not one liaison).
+- **Only j2.mp3 regenerated.** Every other segment mp3 byte-identical.
+  - `audio/j2.mp3`: 3.960 s (sha `8eab005c…`) → **7.728 s** (sha `775c613e…`),
+    ~1.95× — essentially the requested double. Delivered as three deliberate beats
+    with ~1.4 s and ~1.2 s human pauses between them.
+  - Prior takes preserved, none deleted: `.midfast-2026-08-07` (3.96 s, the racing take
+    he re-complained about), `.robot-2026-08-07` (4.92 s), `.orig-pre-pacing-2026-08-07`,
+    `.orig-2026-07-21` (~1.67 s).
+
+**Assembly / new baseline.** Row uses `AUDIO_FROM_V1_SEGMENTS=True`; re-assembly rebuilt
+the track from the 20 V1 mp3s at the extract_beats offsets. Timeline **295.8 s → 299.537 s**
+(+3.77 s = exactly the j2 growth). **AUDIO REBUILD PASS SHA256=5bb6a5f8c2ce…5390**,
+21.9 MB. All 49 stills byte-identical; j2's picture window auto-re-timed.
+
+**Verified in the RENDERED mp4** (not just the segment): extracted 207–221 s and
+transcribed with faster-whisper → "I, that speak unto thee." (211.3–213.8 s) … ~1.8 s
+pause … "am he." (215.6–216.2 s) … n7 resumes 217.9 s. Three deliberate beats, exact
+KJV words, no slur — the reveal now lands with weight.
+
+**Scope discipline:** no picture regenerated, no other segment re-voiced, no wording or
+timing changed outside j2. $0.00 spent, 0 rerolls.

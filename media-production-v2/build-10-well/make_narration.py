@@ -21,7 +21,10 @@ n8 was one audio across two different stills; it is split at the old caption
 boundary into n8 and n8b. n10 is the closing card and keeps its id.
 """
 import asyncio
+import json
 import os
+import subprocess
+import tempfile
 
 from mbm_caption_timing import save_speaker_narration
 from mbm_pronounce import audit, spoken_text
@@ -93,10 +96,73 @@ SPOKEN = {}
 # it to "the Amhi"; only the ellipsis at the default -22% both breaks the slur AND
 # sounds like a person, not a machine reading one word at a time). Caption stays the
 # verbatim KJV "I that speak unto thee am he"; only the SPOKEN/TTS string changes.
-PHRASE_SPOKEN = {"j2": ("I that speak unto thee am he",
-                        "I that speak unto thee... am he")}
-# No per-segment rate override any more — j2 uses the Jesus speaker default (-22%).
+#
+# 2026-08-07 (PACING RE-FILED, AUDIO-FIX) — Cameron re-filed the pacing complaint
+# AGAINST the 3.96 s single-ellipsis take: "how fast and meaningless" STILL. The one
+# mid-line ellipsis was not enough weight for the single most important sentence in the
+# story. He asked for it GENUINELY slow: long REAL pauses, roughly DOUBLE the previous
+# duration. The past over-slow take (4.92 s) was rejected as ROBOTIC — but that was the
+# -30% RATE DRAG stretching each word, not the pauses. So the weight now comes ONLY from
+# real silence between naturally-spoken phrases (Jesus default -22%, no rate drag at all),
+# rendered as THREE separate chunks joined with silence (`build_j2` below). Splitting the
+# chunks also permanently kills the "the Amhi" slur (thee / am-he are separate files).
+# Measured 7.73 s (~1.95x the 3.96 s take); faster-whisper hears "I", "that speak unto
+# thee", "am he" as three deliberate beats. Caption stays byte-identical verbatim KJV.
+PHRASE_SPOKEN = {}
+# No per-segment rate override — j2 uses the Jesus speaker default (-22%). Its weight is
+# built from real silence, not a slower rate (a slower rate is what read as "robot").
 PHRASE_RATE = {}
+
+# j2 is built from these three chunks at the Jesus default rate, joined by J2_GAP s of
+# real silence. The trailing "..."/"." keep edge-tts intonation continuative, not falling.
+J2_CHUNKS = ["I...", "that speak unto thee...", "am he."]
+J2_GAP = 0.50   # real silence between chunks; the natural breath edge-tts leaves on each
+                # chunk adds to this, so the perceived beats are ~1.1-1.3 s — weighty,
+                # human, NOT the stark dead-air of the rejected robotic take.
+
+
+async def build_j2(out_mp3):
+    """The Messiah reveal, John 4:26. Rendered as slow, weighty, deliberate speech —
+    three natural-rate chunks separated by real silence, so it lands with the gravity
+    Cameron asked for without the robotic word-drag of a slowed rate. Writes out_mp3 and
+    a matching <name>.timing.json spanning the spoken delivery so the caption tracks it."""
+    with tempfile.TemporaryDirectory(prefix=".j2-", dir="audio") as td:
+        parts, timing, cursor = [], [], 0.0
+        gap_mp3 = os.path.join(td, "gap.mp3")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "lavfi", "-i",
+                        "anullsrc=r=24000:cl=mono", "-t", f"{J2_GAP}",
+                        "-c:a", "libmp3lame", "-b:a", "48k", gap_mp3], check=True)
+        for i, chunk in enumerate(J2_CHUNKS):
+            cm = os.path.join(td, f"c{i}.mp3")
+            await save_speaker_narration(chunk, JESUS, cm)
+            with open(os.path.splitext(cm)[0] + ".timing.json") as f:
+                sents = json.load(f) or [{"start": 0.0, "end": _dur(cm)}]
+            # real speech span of this chunk, offset into the concatenated file
+            s0 = cursor + sents[0]["start"]
+            s1 = cursor + sents[-1]["end"]
+            timing.append({"text": chunk.strip("."), "start": round(s0, 3),
+                           "end": round(s1, 3)})
+            parts.append(cm)
+            cursor += _dur(cm)
+            if i < len(J2_CHUNKS) - 1:
+                parts.append(gap_mp3)
+                cursor += J2_GAP
+        lst = os.path.join(td, "concat.txt")
+        with open(lst, "w") as f:
+            for p in parts:
+                f.write(f"file '{os.path.abspath(p)}'\n")
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0",
+                        "-i", lst, "-c:a", "libmp3lame", "-b:a", "48k", "-ar", "24000",
+                        out_mp3], check=True)
+    with open(os.path.splitext(out_mp3)[0] + ".timing.json", "w") as f:
+        json.dump(timing, f)
+    print(f"built {out_mp3} (3-chunk slow reveal)  {_dur(out_mp3):.3f}s  [jesus]")
+
+
+def _dur(p):
+    return float(subprocess.check_output(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", p]).strip())
 
 
 async def main():
@@ -105,6 +171,9 @@ async def main():
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
+        if name == "j2":
+            await build_j2("audio/j2.mp3")
+            continue
         st = spoken_text(text, SPOKEN, speaker)
         if name in PHRASE_SPOKEN:
             st = st.replace(*PHRASE_SPOKEN[name])
