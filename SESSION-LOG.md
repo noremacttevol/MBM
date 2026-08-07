@@ -1,3 +1,22 @@
+## 2026-08-07 — ROW 63 (man born blind, John 9) RESUME → PARKED NEEDS-AUDIO: OPEN complaint is Siloam mispronunciation, $0 spent, 0 pictures touched — Machine A `Dev` (Opus runner, strand resume)
+
+**Commit:** QC.md §0 park note + AUTHOR-BOARD row 63 → NEEDS-AUDIO + this log = (this commit).
+
+Resumed AUTHOR-BOARD row 63 (State RUNNING / Claim A-auto — a strand from a died autopilot run). Ran the RUNNER-LESSONS **already-shipped check** first: no committed mp4, no mp4 on disk, and the v63 review card is still the OLD V1 card (no `data-review-wave="realistic-v2"`) → NOT shipped, resume authorized. No live `v2_gen_api` process owned the row.
+
+**The QC audio gate stopped the build (correctly).** QC.md's OPEN complaint on this exact row (`v2_outline.py 63`): *"still wrong its : si-LOH-uhm"* — the pronunciation of **Siloam**. The author's handoff instruction was explicit: verify the locked V1 narration says si-LOH-uhm; if not, mark NEEDS-AUDIO and stop (audio-immutability — a picture runner never re-voices).
+
+**Verified WRONG before spending a credit.** faster-whisper (base.en AND small.en, both agree) transcribes `audio/j2.mp3` — Jesus's own line *"Go, wash in the pool of Siloam"* — as **"Go, wash in the pool of Salome."** That is the most prominent occurrence and the exact context of the complaint; "Salome" is not si-LOH-uhm. The existing `make_narration.py:89` override `"Siloam": "sih low um"` (added 2026-07-22) did NOT land in the delivered audio. This needs a respell + re-voice through the REAL engine (ElevenLabs, per the row 18/19 audio-fix law), which is the audio lane's job, not the picture lane's.
+
+**Actions (all $0 — no Gemini credits, 0 pictures touched, COST LAW clean):**
+- Wrote QC.md **§0 RUNNER PARK** block: the verified defect (j2→"Salome"), the audio-lane fix spec (respell Siloam→si-LOH-uhm, re-voice j2 + n4/n5, `AUDIO_FROM_V1_SEGMENTS=True`), and the honest picture state.
+- Flipped AUTHOR-BOARD row 63 **RUNNING → NEEDS-AUDIO** (Audio CHECK) with the park note so the audio lane picks it up next tick (low rows first).
+- **Picture state, honest:** stills are **41/43** — only b42/b43 remain (~$0.27, NOT generated here; the gate said stop). So after the audio fix this goes AUTHORED+Ready (2 stills + full light-QC + assemble remain), NOT directly BUILT.
+
+**Cost:** **$0.00** this session. No reroll, no generation — the gate caught an audio complaint before a single credit was spent, which is exactly the LEARNING + COST laws working (a picture build on a row that still repeats Cameron's audio complaint would have been the worst possible failure and wasted ~$6). Row released to the audio lane.
+
+---
+
 ## 2026-08-07 — TWO ROWS SHIPPED+LIVE at $0: row 59 scholarship complaint CLOSED + row 77 stale-lock cleared (first V2 publish) — Machine A `Dev` (Fable-5 author lane, $0 image gen)
 
 **Commits:** row 77 mp4 package = `998a0d53f513cf785730f014601dff726fc49414`; row 77 review card = (pushed `19fc4e66a`); STASH rescan = `a85ee45a5`; row 59 ship (review card + board→SHIPPED) = (pushed `1694b5927`); publish-loop sync = `341e2381d`. All on origin/main.
