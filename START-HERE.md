@@ -1,6 +1,46 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
-**Last verified true: 2026-07-05 — 🎉 THE APP IS FULLY LIVE AND PUBLICLY INDEXED ON THE
+**Last verified true: 2026-08-07 — traffic-readiness sweep (Machine A). Everything
+re-verified first-hand via iTunes lookup, ASC API, Play Developer API, EAS, and live curl:**
+
+- **iOS: LIVE publicly at 1.0** (apps.apple.com/us/app/milk-before-meat/id6783621048).
+  **NEW 2026-08-07: version 1.1.0 (build 15, new logo) is SUBMITTED — WAITING_FOR_REVIEW**
+  (driven via ASC API; release type MANUAL — after Apple approves, Cameron taps
+  "Release this version" in App Store Connect). WHY IT MATTERS: public 1.0 users are on
+  runtime 1.0.0 and CANNOT receive any OTA published since mid-July (all target 1.1.0) —
+  they see NO new videos until 1.1.0 is released. Releasing 1.1.0 un-freezes them
+  permanently (they'll pull the newest OTA on first launch).
+- **Android: internal track serves vc 9 (1.1.0); vc 10 (new logo) built + submitted to
+  internal 2026-08-07.** A closed-test release is STAGED AS DRAFT on the alpha track —
+  Cameron must roll it out in Play Console (+ finish any content-rating/data-safety
+  questionnaires) to start Google's required 12-tester/14-day clock toward public release.
+  Store-listing screenshots: the publishing robot was DENIED (needs the "Edit store
+  listing" permission grant in Play Console → Users & permissions; then the assistant can
+  upload all 6 from store-assets/ via API in seconds — or Cameron drags them in manually).
+  ALSO: Google Play developer verification (register apps + signing keys) has a HARD
+  DEADLINE of Sep 30, 2026 (Google email 2026-08-06).
+- **App content: catalog now 107 stories (was 96), 87 produced/playable.** 11 approved
+  realistic videos that were invisible (in PRODUCED_VIDEO_IDS but missing catalog
+  entries: 46,56,57,64,68,75,76,79,81,85,91) were registered 2026-08-07 and shipped via
+  OTA group fffd2ab4 (runtime 1.1.0, both platforms). 16 missing thumbnails cut +
+  deployed (blank-card bug gone). 43 gallery videos still carry old-era (Jul 22) cuts —
+  the v2 pipeline replaces them at fixed URLs as re-cuts are approved; no app change
+  needed (1-hour CDN cache).
+- **Website: PUBLIC VIDEO SHOWCASE IS LIVE** — milkb4meat.org/stories.html (the 44
+  approved realistic rows only), homepage story strip + "Watch the stories" CTA,
+  og:image/twitter-card social previews. Deployed + live-verified 2026-08-07.
+- **Tester access:** see FOR-CAMERON/TESTER-ACCESS-PLAYBOOK.md. iPhone askers → just the
+  App Store link (it's public, no TestFlight). Android askers → add their Google email to
+  the MBM Testers list in Play Console, then send
+  https://play.google.com/apps/internaltest/4700576250998456373. Once the closed test is
+  rolled out, switch to the closed-test link — those opt-ins COUNT toward the 12.
+- **Inbox warning:** website access emails go to admin@milkb4meat.org — check that inbox;
+  nothing was found in noremacttevol@gmail.com.
+
+_The block below is the 2026-07-05 state, kept for history — where it conflicts with the
+block above, the block above wins._
+
+**2026-07-05 — 🎉 THE APP IS FULLY LIVE AND PUBLICLY INDEXED ON THE
 APP STORE. The iTunes lookup API now returns the app (resultCount 1, verified 2026-07-05):
 https://apps.apple.com/us/app/milk-before-meat/id6783621048 — free, 4+, Lifestyle/Books,
 released 2026-07-02. Search indexing is CONFIRMED; the direct URL, QR codes, and
@@ -87,8 +127,8 @@ Do not re-ask settled questions. Verify before you claim anything is or isn't do
   updated privacy policy naming Anthropic is verified LIVE on the website. Nothing for
   Cameron to do — wait for Apple's verdict. If approved, the public-release tap is his;
   if rejected again, read the new message and iterate.
-- **Android: version code 7 (same fixes) is LIVE on the internal track (2026-07-02).**
-  Cameron's phone picks it up through Play internal testing as usual.
+- **Android (updated 2026-08-07): internal track serves vc 9; vc 10 submitted — see the
+  top block.** Cameron's phone picks updates up through Play internal testing as usual.
 - **iOS (history):** **REJECTED BY APPLE (verified 2026-07-01 via ASC API).** Version 1.0 (build 6)
   was submitted 2026-06-26; appVersionState is now **REJECTED**, reviewSubmission
   99f5b00a-00ca-4d82-b5be-8d402fab6d11 state **UNRESOLVED_ISSUES**. The rejection

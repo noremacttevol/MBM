@@ -117,6 +117,48 @@ s20 reroll; row 27 is BLOCKED pending Cameron's ears.
 
 ---
 
+## 2026-08-07 — TRAFFIC-READINESS SWEEP: iOS 1.1.0 SUBMITTED to Apple (un-freezes public users), 11 invisible videos registered+OTA, /stories.html showcase LIVE, Android closed test staged — Machine A `Dev` (app/site lane)
+
+**Commit:** app+site changes = `e07aea086`; START-HERE truth + playbook + this log = (this commit).
+
+Cameron: traffic is arriving — verify the app has the new videos, iOS + Android are good,
+prep tester links, and fix the website. Ran a 5-agent audit (app wiring / iOS / Android /
+site / video-library truth), then fixed everything found:
+
+- **THE BIG ONE — public iPhone users were frozen on month-old content.** Store binary is
+  1.0 / runtime 1.0.0; every OTA since mid-July targets 1.1.0, so public users could NOT
+  receive the new videos at all. FIX: built iOS 1.1.0 **build 15** (includes the new logo,
+  which needs a native build), uploaded, created ASC version 1.1.0 via API, attached
+  build, set whatsNew, **SUBMITTED — verified WAITING_FOR_REVIEW** (submission a104b135,
+  2026-08-07T09:13Z). Release type MANUAL: after approval, **Cameron taps "Release this
+  version"** — that single tap un-freezes every public iPhone.
+- **11 approved realistic videos were invisible in the app** (live on hosting + in
+  PRODUCED_VIDEO_IDS but no catalog entry): 46,56,57,64,68,75,76,79,81,85,91. Registered
+  with verified KJV refs (each traced to the build's own narration; tsc clean; catalog
+  96→107) and shipped via **OTA group fffd2ab4** (runtime 1.1.0, ios+android). 16 missing
+  thumbs cut (640w posters) + deployed — the blank-card bug is gone.
+- **Website: public showcase LIVE** — new milkb4meat.org/**stories.html** (ONLY the 44
+  approved realistic rows), homepage story strip + CTA, og:image (1200x630 frame from row
+  1 at t=20s) + twitter cards. Verified in browser (44 cards, 0 broken imgs, nothing
+  preloads) + live curl 200s. Explainer/app links untouched.
+- **Android:** vc 10 (new logo) built + submitted to internal track. **Closed-test
+  release staged as DRAFT on alpha** (vc 9) — Cameron rolls it out in Play Console to
+  start Google's 12-tester/14-day clock; the access-request emails ARE the 12 testers.
+  Robot upload of the 6 store screenshots DENIED (needs "Edit store listing" permission —
+  one checkbox, then I can push them via API). Google verification deadline Sep 30 noted.
+- **Tester links:** FOR-CAMERON/TESTER-ACCESS-PLAYBOOK.md — iPhone = App Store link (no
+  TestFlight needed, it's public); Android = add email to MBM Testers → internal link;
+  switch to the closed link once rolled out (those count toward the 12). NOTE: no access
+  emails found in noremacttevol@gmail.com — they'll be at admin@milkb4meat.org.
+- **START-HERE.md re-verified + rewritten** (was a month stale: said vc 7, no 1.1.0 story).
+- Still true: 43 gallery rows carry old-era cuts pending realistic re-cuts (pipeline
+  replaces them at fixed URLs, no app change needed); 20 realistic cuts sit on the
+  reviewer awaiting Cameron.
+
+**Cost:** $0 media (no Gemini; ffmpeg/ffprobe only). 2 EAS builds + 1 OTA + Firebase deploy.
+
+---
+
 ## 2026-08-07 — AUDIO-FIX SWEEP: row 113 SHIPPED+LIVE, rows 105/106/108 handed to picture runner, row 27 BLOCKED (needs ears) — Machine A `Dev` (AUDIO-FIX lane)
 
 **Commit:** rows 105/106/108 = `2109c5747`; row 27 BLOCKED = `1767051bd`; row 113 ship + row-22 card hash-fix = `c8733d0cb`; this log = (this commit).
