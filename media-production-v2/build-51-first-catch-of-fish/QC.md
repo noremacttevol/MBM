@@ -1,5 +1,18 @@
 # QC / RUNNER HANDOFF — build-51-first-catch-of-fish (Luke 5:1-11)
 
+## 🛠 C-FIX SHIPPED — 2026-08-07 (Machine A `Dev`, UNATTENDED/HEADLESS)
+
+**COMPLAINT LEDGER (this re-cut's only open complaint):**
+- **Cameron: "the first 2 pictures are sideways and bad, replace them."** → **FIXED.** Both s01 (the-crowd-pressed) and s02 (two-empty-boats) had rendered rotated 90° — the horizon ran vertically and the figures/boats lay on their side. Rerolled ONLY those two beats (`--only b01 b02 --redo`): s01 now upright, Jesus (cream, dark wavy hair, full beard, no halo) centered with the crowd pressing in and every gaze converging on him, lake + beached boats behind; s02 now upright, the two empty cedar boats beached with brown nets draped over the gunwales, no fish, the distant crowd a soft blur down the shore, gulls on the stones. Both verified upright in the RENDERED mp4 (frames @2.5s, @7.0s) with captions in the bottom band; question card clean @152s.
+
+**Touch-once:** no other open complaint on this row (the "tear→tare" audio complaint was already CLOSED in the prior ship and is untouched here). Only s01/s02 pixels changed.
+
+**Audio byte-identical:** re-assembled → **AUDIO REBUILD PASS SHA256 `e82b1aaf546bcb613303cc3989a16dbd348b51fded38a1fe6736103be071835a`** — the SAME hash as the prior ship. Narration/voices/timing untouched.
+
+**Cost:** 2 rerolls / 26 beats = **7.7%** (under 15% budget). ~$0.27 this re-cut (2 image gens @ $0.134). Meter $498.35 → $498.61.
+
+---
+
 ## 🅰️ REALISTIC-V2 SHIPPED — A-auto 2026-08-07 (Machine A `Dev`, UNATTENDED/HEADLESS)
 
 **COMPLAINT LEDGER (row's only open complaint):**
