@@ -1,3 +1,38 @@
+## 2026-08-07 — ROW 10 AUDIO-FIX shipped + live-verified: "Jesus says the Messiah reveal too fast" — Machine A `Dev`
+
+**Commit:** mp4+audio+beats_v2+make_narration(V1&V2)+QC = `3dbe56fe3c9b63721bb1faf85d02d3a97944f57d`; review.html card + REVIEW-LESSONS + AUTHOR-BOARD + this log = (this commit, by pathspec).
+
+Followed PROMPT-AUDIO-FIX.md. AUTHOR-BOARD row 10 (John 4, woman at the well) was the
+lowest waiting NEEDS-AUDIO row (THE LOW-NUMBER LAW). Cameron's OPEN complaint (verbatim,
+`reportedAgainst` e82197c50004): *"The only.thing wrong with this one is how fast and
+meaningles Jesus pronounced the words while telling her he was the messiah. It is a very
+important text and the speaker says it too fast."*
+
+- **Domain: AUDIO pacing, not picture.** The line is `j2` "I that speak unto thee am he"
+  (John 4:26) — the Messiah reveal — which shipped at **1.67 s**, racing by. The one
+  mid-line ellipsis added 2026-07-21 fixed a word-slur ("the Amhi") but not the overall pace.
+- **Fix (audio only, $0 — edge-tts EricNeural, NO Gemini, NO ElevenLabs):** rewrote
+  `PHRASE_SPOKEN["j2"]` to "I... that speak unto thee... am he" (leading pause + pause
+  before "am he") and added `PHRASE_RATE = {"j2": "-30%"}` in `make_narration.py` (both the
+  V1 `media-production/build-10-well/` copy — the one extract_beats/v2_assemble actually read
+  — and the V2 copy, kept identical). Chosen from 4 A/B candidates ear-checked with
+  faster-whisper. **Only j2.mp3 regenerated** (old SHA 45e86b9c → new c25eb945, 1.67s→**4.92s**;
+  old file kept as `j2.mp3.orig-pre-pacing-2026-08-07`). Every other segment byte-identical.
+- **Assembly:** row's V1 final mp4 is a truncated 67.70 s render, so added
+  `AUDIO_FROM_V1_SEGMENTS = True` to `beats_v2.py` — master audio rebuilt from the 20 V1
+  segment mp3s at the extract_beats offsets. New timeline **296.6 s** (was 294.3; +2.3s = the
+  widened j2 window). All 49 stills unchanged, windows auto-recomputed. `v2_assemble.py 10`
+  → **AUDIO REBUILD PASS** (audio-stream SHA f84a7136), 21.9 MB.
+- **Verified in the RENDERED mp4** (not just the segment): extracted 209.0–214.5s, whisper
+  → "I, that speak unto thee, am he." spoken across ~4.4s with pauses audible.
+- **Cost:** $0.00 Gemini, 0 rerolls (0%). Deployed to Firebase + live-verified (below).
+  REVIEW-LESSONS row 10 → open:false, resolvedBy 3dbe56fe3c9b. Board row 10 NEEDS-AUDIO → BUILT.
+- **Housekeeping:** a stale working-tree edit had reverted row 42's REVIEW-LESSONS entry
+  (open:false→true) — restored it to its shipped state (resolvedBy fae898d99076) so its
+  resolution is not lost.
+
+---
+
 ## 2026-08-07 — ROW 52 C-FIX shipped + live-verified: "demoniac face kept changing — beard to no beard to old man" — Machine A `Dev`
 
 **Commit:** mp4+assets+anchors+beats_v2+QC+lessons+QUEUE = `17566283905d4f932d02d50ece7bbde052e5aee1`; review.html card + this log = (this commit, by pathspec).
