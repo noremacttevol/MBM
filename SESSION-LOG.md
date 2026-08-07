@@ -1,3 +1,22 @@
+## 2026-08-07 — ROW 72 (calling-matthew) C-FIX SHIPPED — 1:41 fill-hole lamps + floating cups + gratuitous facial scars — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `98d1ef571` · ship (a) `0b6a38acf8ac05da808012c4fcf3e22879b67c2b` (mp4 + QC.md + board→SHIPPED + assets + api-spend) · review card (b) `06f94f12c` · publish-loop `5179b53bb` · this RUNNER-LESSONS/STASH/SESSION-LOG commit. **Session-chain verified at start:** then-top row-71 C-FIX ship `08de502e1` present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 72` + RUNNER-LESSONS first.
+
+**Complaint (Cameron, against the shipped cut — `v2_outline.py 72`):** *"1:41 floating cups and lamps lit from the fill hole. and scars on people, for no reason."* All picture-domain → fixed in ONE re-cut (no re-voice).
+
+**Fixes (extracted the SHIPPED mp4 @1:41 to see exactly what he saw → the feast wide s18):**
+1. **Lamps lit from the fill hole** — s18's two clay oil lamps burned out of the central FILL HOLE; flames moved to the pinch SPOUT (fill hole closed). Swept every feast frame with the same defect — s16, s17, s19, s21.
+2. **Floating cups** (s18) — cups/jugs grounded flat on the table with contact shadows.
+3. **Scars on people, for no reason** — ROOT: the "outcasts/sinners/tax men" guest brief made the model paint red facial gashes + an arm bandage nobody asked for. Removed on every guest who carried them: s18 (front-left guest), s19 (bald guest + bandaged arm), s17 (young man), s21 (yellow-scarf man). Everyone now clean, healthy skin.
+
+**Method (identity-EDIT, not full reroll — cheaper + preserves the composition Cameron already had; touch-once):** gemini-3-pro-image image-edit per frame under a hard "change nothing but the defect" constraint. **Self-caught+fixed:** pass 1 (with the Jesus REF + word "painting") stylized s16 into a cartoon Jesus and painted a HALO on s21 — restored both from backup and re-edited in a pass-2 with NO ref + "photorealistic, no halo/glow, do not stylize"; both landed clean. Logged as a new RUNNER-LESSONS trap.
+
+**Scope / audio:** only the 5 feast frames touched; every other beat byte-identical. **Audio byte-identical** — assemble printed the same `AUDIO LOCK PASS SHA256=5c00718e…` as the original ship. Deployed to Firebase (`milk-b4-meat`, after pruning 6 old hosting versions past the storage-quota 429) and LIVE-VERIFIED: live review.html carries `data-hash="0b6a38acf8ac…"`, mp4 HTTP 200 / 20,917,695 bytes. Review card answers the complaint in Cameron's own words.
+
+**Cost / COST LAW:** 7 edit-gens (5 pass-1 + 2 pass-2 remediation) × $0.134 = **$0.94**. That is 17% of 41 beats — 2 gens over the 15% budget, ALL of them remediating the edit-induced cartoon/halo I caught, not chasing drift; flagged honestly, still <$1 for the whole fix. 1 new RUNNER-LESSONS entry (outcast-brief→scars + fill-hole-lamps + the edit-stylization trap).
+
+---
+
 ## 2026-08-07 — ROW 71 (the-great-commission) C-FIX SHIPPED — 1:26 sideways person, 1:51 stiff scroll, 1:57 confusing aerial — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** claim `87b45c717` · ship (a) `08de502e1e85540177a9228e7c60adf4fe598600` (mp4 + QC.md + QUEUE.md) · review card + board→SHIPPED (b) `4426b8e08` · publish-loop `9cb4fd5e2` · this RUNNER-LESSONS/STASH/SESSION-LOG commit. **Session-chain verified at start:** then-top row-66 C-FIX claim `d7e4ac37a` present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 71` + RUNNER-LESSONS first.
