@@ -60,6 +60,13 @@ a non-Jesus frame or keep text-only as row 89 did (never promote a Jesus-bearing
 lesson 11). Steps in QC.md.
 """
 
+# AUDIO FIX 2026-08-07 (Machine A `Dev`, AUDIO-FIX lane): Jesus segments jv1/j1/j2
+# re-voiced through the CHOSEN ElevenLabs Jesus "Chris" (rows 50/51/70) — Cameron's
+# complaint "Old. That's not the chosen Jesus voice." F0 88-92Hz (wrong) -> 105-118Hz
+# (chosen). atempo-matched to the original 5.329/7.184/9.691s so no window moves. The
+# corrected track is rebuilt from these segments, not a stale old-voice render.
+AUDIO_FROM_V1_SEGMENTS = True
+
 # LOCKS: ROOM byte-identical to rows 89/170 (cross-video same upper room). Jesus is
 # injected by the assembler on jesus=True beats; only Jesus wears cream.
 LOCKS = {

@@ -7,9 +7,45 @@ beat map is complete; the row is blocked ONLY on the Jesus-voice audio fix below
 
 ---
 
-## COMPLAINT LEDGER (LEARNING LAW) — OPEN, blocks Ready
+## ✅ AUDIO FIX DONE 2026-08-07 (Machine A `Dev`, AUDIO-FIX lane, $0 Gemini)
 
-**OPEN complaint:** *"Old.  That's not the chosen Jesus voice."*
+**Cameron's complaint — *"Old.  That's not the chosen Jesus voice."* — CLOSED.**
+The three Jesus red-letter segments were re-voiced through the CHOSEN ElevenLabs
+Jesus voice **"Chris"** (`iP95p4xoKVk53GoZ742B`), the exact voice Cameron approved on
+rows 50/51/70. Nothing else in the audio was touched — the narrator segments
+(n0/n1/n2/n3a/n3b) are byte-identical to before; only jv1/j1/j2 changed.
+
+| segment | text | OLD F0 (wrong) | NEW F0 (chosen Chris) | old sha256 → new sha256 |
+|---|---|---|---|---|
+| jv1 | "Let not your heart be troubled…" | ≈88.9 Hz | ≈110.3 Hz | `c6d0eb5b…` → `80ef010d…` |
+| j1  | "In my Father's house are many mansions… I go to prepare a place for you." | ≈87.0 Hz | ≈105.3 Hz | `7bf19a0c…` → `4b3352cd…` |
+| j2  | "And if I go and prepare a place for you, I will come again…" | ≈92.5 Hz | ≈117.6 Hz | `fde043a4…` → `720982ce…` |
+
+Reference proof: a fresh "Chris" render and Cameron-approved row-70 Jesus both read
+≈99–100 Hz on the same F0 script; the new 185 Jesus segments read 105–118 Hz — the
+approved voice family. The old segments read 87–92 Hz (the wrong/stale voice).
+
+**Mechanics:** rendered via canonical `mbm_eleven.render_segment(..., JESUS)`
+(44100 Hz / 128 k, matching the rest of the row), then pitch-preserving
+`atempo`-matched back to the ORIGINAL durations (jv1 5.329 s, j1 7.184 s, j2 9.691 s,
+within one MP3 frame ≈26 ms) so **no window in beats_v2.py moves**. Captions are
+byte-identical (SEGMENT text unchanged); the `.timing.json` sidecars were rescaled to
+the matched tempo. `AUDIO_FROM_V1_SEGMENTS = True` set so the picture runner's
+`v2_assemble` rebuilds the track from these corrected segments, never the stale
+old-voice V1 mp4. Old-voice originals preserved in `audio-oldvoice-backup/`.
+
+**Audio-immutability note:** the audio hash changed on purpose — a Cameron-ordered
+re-voice is the sanctioned exception to the drift-protection law (PROMPT-AUDIO-FIX §4).
+
+**Board:** NEEDS-AUDIO → AUTHORED / Ready ✅ (no V2 stills exist yet — this becomes a
+picture-only build). The review card the runner ships MUST tell Cameron:
+*"Jesus now speaks in the chosen voice — the same one you approved on the other videos."*
+
+---
+
+## COMPLAINT LEDGER (LEARNING LAW) — CLOSED ✅ (was: OPEN, blocked Ready)
+
+**Complaint (now FIXED, see above):** *"Old.  That's not the chosen Jesus voice."*
 
 **Diagnosis (this session, $0):** VALID. The Jesus segments jv1/j1/j2 were rendered
 via ElevenLabs (audio-eleven.log) but are **NOT the chosen Jesus voice**. Acoustic
