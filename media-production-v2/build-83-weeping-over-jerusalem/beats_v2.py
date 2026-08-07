@@ -53,6 +53,16 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX (AUDIO-FIX session, Machine A, 2026-08-06): the V1 mp4
+# luke-19_weeping-over-jerusalem.mp4 is out of date vs this build's narration —
+# assert_v1_final_is_current's runtime tripwire fires (|Δ| ~2.2s between the mp4
+# and the summed segment timeline), so the AUDIO LOCK refuses to copy the stale
+# stream. Segment-ID parity with make_narration.py is exact (10/10: n0,n1a,n1b,
+# s41,n2,n2b,n3a,n3b,j1,card), so rebuild the track from these segments at the
+# extract offsets instead of copying the stale mp4. $0 — nothing re-voiced,
+# nothing re-timed; V1 stays read-only. Same mechanism as the shipped row-69 fix.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r083-b01", "out": "s01-as-jesus-came-over-the.jpeg", "seg": "n0",
