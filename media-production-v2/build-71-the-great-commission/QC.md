@@ -1,5 +1,44 @@
 # QC / RUNNER HANDOFF — build-71-the-great-commission
 
+## ✅ C-FIX SHIPPED — Opus runner, Machine A `Dev`, 2026-08-07
+
+**COMPLAINT LEDGER — Cameron's own words (`v2_outline.py 71`):**
+"1:26 has a person sideways, 1:51 the scroll the guy is passing is stiff and
+open scrolls of paper are not stiff, the last picture w t1:57 makes no sense
+and leaves people confused."
+
+Three named picture defects, each fixed by rerolling ONLY that frame (audio
+untouched, byte-identical — same SHA256 c29f8cf…, AUDIO LOCK PASS):
+
+- **1:26 "a person sideways" → s16/b16 (n5, "Teach them not just to hear it").**
+  The old cut had a figure lying horizontal across the top-left frame edge (a
+  broken sideways body). Rerolled once → a legible close group of upright
+  disciples around a table, every figure vertical with correct anatomy, no
+  sideways/floating body. VERIFIED in rendered mp4 @87s.
+- **1:51 "the scroll the guy is passing is stiff / open scrolls are not stiff" →
+  s20/b20 (n6, "It reached across two thousand years").** The old cut showed a
+  rigid, board-flat open scroll. Rerolled once → the handoff is now a small,
+  soft, worn leather-wrapped scripture (flap and pages fold naturally — nothing
+  stiff, no flat open scroll). Matches the beat's "cover soft with carrying."
+  VERIFIED in rendered mp4 @111s.
+- **1:57 "the last picture makes no sense and leaves people confused" →
+  s21/b21 (n6, "That is how far he was willing to send someone").** The old cut
+  was a modern-looking aerial drone shot — paved switchback roads and a straight
+  shoreline highway (RUNNER-LESSONS §280 defect), tiny black silhouettes. It
+  read modern and confusing. Rerolled twice (1st landed a stray pale/cream lead
+  figure — off-spec since only Jesus wears cream; 2nd is clean) → a grounded
+  hillside view of the eleven in earth-tone robes walking an ANCIENT DIRT
+  FOOTPATH down toward the Sea of Galilee in warm light; no modern road, no
+  highway, no cream-robed non-Jesus figure. Reads clearly as "the going out."
+  VERIFIED in rendered mp4 @116s.
+
+**Cost:** 4 image gens across 3 beats (b16×1, b20×1, b21×2) @ ~$0.134 ≈ **$0.54**.
+Touch-once: all three open complaint items batched into ONE re-cut. Captions
+bottom-band only, question card clean (verified @125s). Realistic-only (Law 14)
+held on all three rerolls — zero cartoon/mixed frames.
+
+---
+
 Complaint-gate addendum, 2026-08-05 (Machine A).
 
 ## OPEN CAMERON COMPLAINT — gates before build
