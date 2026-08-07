@@ -68,6 +68,24 @@ session's $0.13 mistake. Keep entries deduped and one line each.
     mp3 (old) and the V2-dir mp3 (fixed) — the mp4 matches whichever it was
     rendered from (row 70: 0.757 vs OLD, 0.026 vs FIXED, fixed take +1.1s longer).
     High-corr-with-OLD → the fix is orphaned → park.
+- **A CRUCIFIXION beat that puts Jesus on his cross in the FOREGROUND can render a
+  redundant distant Golgotha behind him — a readable 4-cross (or more) contradiction
+  (2026-08-07, row 96 it-is-finished b03).** The first take had Jesus crucified in the
+  foreground AND three more crosses on the distant ridge = four crosses total / a
+  duplicate Golgotha (who is on the back three?). It reads as a count/geometry error,
+  not subtle drift — one `--redo` landed a clean 3-cross frame (Jesus centre, two
+  flanking). On any single-cross foreground crucifixion beat, zoom the far skyline for
+  extra crosses; on a 3-cross beat, count to exactly three. Distinct from the thief-row
+  geometry (sides never swap) — here it's a stray extra cross in the background.
+- **Crown-of-thorns continuity across a passion/crucifixion ROW (2026-08-07, row 96):**
+  a multi-beat crucifixion row will render the crown of thorns on SOME Jesus frames and
+  not others (row 96: crown on s04/s05, bare-headed on s01/s02/s06/s08/s11). Each frame
+  is individually fine and scripturally defensible (John 19:2-5), so it is NOT a
+  per-frame garbage reroll — it is a cross-frame continuity drift (lesson-13/beard-board
+  family). Do NOT blind-reroll the crown frames (the choice of crown-throughout vs
+  no-crown is a creative/restraint call, and the crown frames are often otherwise the
+  best takes). Log FIX-WAVE: harmonize in one deliberate pass (add or remove the crown
+  across the row via targeted edit), don't burn the row's reroll budget guessing.
   - **PACING/"too fast"/"meaningless"/"rushed" complaints are ALSO audio-domain —
     park them the same as a mispronunciation (2026-08-06, row 10).** Cameron's
     row-10 complaint was not a wrong word but the DELIVERY of Jesus's Messiah

@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 13:55:50",
+ "scanned": "2026-08-07 14:12:06",
  "entries": [
   {
    "row": 1,
@@ -43110,6 +43110,189 @@
    "scene": "The closing frame keeps the two neighbours: the centre cross and the right one side by side against the cold grey sky, the two faces turned each other's way and both, now, at rest \u2014 between them nothing but a few feet of"
   },
   {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b01",
+   "file": "build-96-it-is-finished/assets/s01-at-the-very-end-jesus.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Under the strange heavy dark that has swallowed the afternoon, the centre cross holds a lucid face: lifted, clear-eyed in the gloom, moving slowly over the hill and the murk-hidden city like a builder's eyes over a finis"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b02",
+   "file": "build-96-it-is-finished/assets/s02-he-a-victim-losing-a.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the distinction the whole world would misread: the face drained to its last reserves, breath shallow, the end plainly near \u2014 and in the eyes not one flicker of a man losing anything: the steady, spending look of"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b03",
+   "file": "build-96-it-is-finished/assets/s03-with-his-last-breath-he.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The darkened hill feels it coming: on the centre cross the chest rises with a gathered, deliberate breath \u2014 the kind drawn for saying, not surviving \u2014 and along the murky slope the scattered watchers turn up their faces "
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b04",
+   "file": "build-96-it-is-finished/assets/s04-it-is-finished-not-i.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on three words doing the opposite of what dying words do: the lips shaping IT \u2014 not I \u2014 the failing voice laying the emphasis with perfect care on the work and not the worker \u2014 a declaration filed from a cross with"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b05",
+   "file": "build-96-it-is-finished/assets/s05-the-thing-he-came-to.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The declaration settles, the camera down the slope behind the stilled watchers, over the whole dark hill like a seal pressed into wax: the three crosses still against the heavy sky, the watchers stopped mid-breath on the"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b06",
+   "file": "build-96-it-is-finished/assets/s06-father-into-thy-hands-i.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The last words go where all the night's words went: FATHER \u2014 the face lifting a final time into the heavy dark, and finding there, where every other eye on the hill sees only gloom, the hands he has trusted since before "
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b07",
+   "file": "build-96-it-is-finished/assets/s07-the-last-words-he-said.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "And then the hill watches a man finish: the head on the centre cross lowering \u2014 not dropping, LOWERING, with the same deliberate grace it bowed over bread and over children \u2014 coming to rest against the quiet chest \u2014 and "
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b08",
+   "file": "build-96-it-is-finished/assets/s08-nobody-took-his-life-from.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the proof of the claim: the bowed head at rest against the heavy dark, and on the stilled face not one mark of the robbed \u2014 no twist of protest, no frozen fight \u2014 only the deep finished peace of a thing set down"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b09",
+   "file": "build-96-it-is-finished/assets/s09-and-behold-the-veil-of.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the tall dim hall across the city the impossible happens to the veil: high at its top edge, far above any ladder or reach, the massive weave PARTS \u2014 and the tear runs downward, fast, unstoppable, blue and purple and s"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b10",
+   "file": "build-96-it-is-finished/assets/s10-at-that-moment-in-the.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "PRIEST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The duty priest is the one who sees it: fallen back a full step with his censer swinging, staring up the hall's height at the great curtain hanging in two sundered halves \u2014 and through the impossible gap, for the first t"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b11",
+   "file": "build-96-it-is-finished/assets/s11-it-is-finished.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the instant itself: the drawn face steady in the unnatural dark, the cracked lips moving once \u2014 IT IS FINISHED \u2014 three words spent with the last coin of breath and landing with the weight of a hammer on an anvil"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b12",
+   "file": "build-96-it-is-finished/assets/s12-as-if-torn-by-a.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the evidence, high where no ladder reaches: the veil's torn upper edge in the lamplight, the weave thick as a man's hand parted clean as paper, the threads of blue and purple and scarlet hanging severed from the"
+  },
+  {
+   "row": 96,
+   "build": "build-96-it-is-finished",
+   "beat": "v2-r096-b13",
+   "file": "build-96-it-is-finished/assets/s13-the-instant-he-died-it.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The closing frame holds, the camera down the hall's length behind the empty court, the new architecture of the universe: the tall hall with the great curtain hanging in two stilled halves, and between them \u2014 open, unbarr"
+  },
+  {
    "row": 101,
    "build": "build-101-still-small-voice",
    "beat": "v2-r101-b01",
@@ -43587,13 +43770,14 @@
    "file": "build-102-jacobs-ladder/assets/s05-and-there-in-the-last.jpeg",
    "tokens": [
     "JACOB",
-    "WASTE"
+    "WASTE",
+    "GOD"
    ],
    "jesus": false,
    "wide": false,
    "night": true,
-   "n_person": 1,
-   "scene": "Over the sleeping runaway the night begins to change its mind: high above the little camp, among the hard cold stars, a seam of brightness starting \u2014 thin at first, like dawn arriving in the wrong place and hours early \u2014"
+   "n_person": 2,
+   "scene": "Over the sleeping runaway the night breaks open: high above the little camp, among the hard cold stars, the sky parts into an opening of heaven filled with warm light \u2014 and standing IN that opening, looking down toward t"
   },
   {
    "row": 102,
@@ -43603,12 +43787,13 @@
    "tokens": [
     "JACOB",
     "WASTE",
-    "STAIR"
+    "STAIR",
+    "GOD"
    ],
    "jesus": false,
    "wide": true,
    "night": true,
-   "n_person": 1,
+   "n_person": 2,
    "scene": "The dream stands, the camera at the camp's edge behind the sleeper's still form, the impossible up in the dark: a great stone stairway rooted in the campground dirt an arm's reach from the sleeper's stone \u2014 broad as a ro"
   },
   {
@@ -43649,13 +43834,14 @@
    "file": "build-102-jacobs-ladder/assets/s09-i-am-the-lord-god.jpeg",
    "tokens": [
     "JACOB",
-    "STAIR"
+    "STAIR",
+    "GOD"
    ],
    "jesus": false,
    "wide": false,
    "night": true,
-   "n_person": 1,
-   "scene": "From above the highest flight the night fills with voice: the summit opening at full brilliance over stair and stones and sleeper \u2014 I AM THE LORD GOD OF ABRAHAM THY FATHER \u2014 the words rolling down the flights like light "
+   "n_person": 2,
+   "scene": "From the summit opening the Father himself speaks: he stands ABOVE the stair in the opening of heaven \u2014 a real man of radiant dignity in brilliant white, white hair and full white beard, looking down the long flights tow"
   },
   {
    "row": 102,
@@ -43693,13 +43879,14 @@
    "file": "build-102-jacobs-ladder/assets/s12-he-stood-above-the-stairway.jpeg",
    "tokens": [
     "STAIR",
-    "JACOB"
+    "JACOB",
+    "GOD"
    ],
    "jesus": false,
    "wide": false,
    "night": true,
-   "n_person": 1,
-   "scene": "The whole dream holds still for the covenant: the great stair climbing flight over flight to its crown of brilliance, the silver-grey walkers pausing on the steps mid-errand, and down from the summit light the old promis"
+   "n_person": 2,
+   "scene": "The whole dream holds still for the covenant: the great stair climbing flight over flight to its crown, and standing there above it in the opening of heaven the Father himself \u2014 a real man in brilliant white, white hair "
   },
   {
    "row": 102,
@@ -43723,12 +43910,13 @@
    "file": "build-102-jacobs-ladder/assets/s14-it-was-open-right-above.jpeg",
    "tokens": [
     "JACOB",
-    "STAIR"
+    "STAIR",
+    "GOD"
    ],
    "jesus": false,
    "wide": false,
    "night": true,
-   "n_person": 1,
+   "n_person": 2,
    "scene": "The frame lies down beside him and looks straight up: the stair's flights telescoping away overhead, rail over rail of climbing stone, silver walkers small and smaller on them \u2014 and at the very top, plumb-line true above"
   },
   {
@@ -43739,12 +43927,13 @@
    "tokens": [
     "JACOB",
     "STAIR",
-    "WASTE"
+    "WASTE",
+    "GOD"
    ],
    "jesus": false,
    "wide": true,
    "night": true,
-   "n_person": 1,
+   "n_person": 2,
    "scene": "The promise settles, the camera far off taking sleeper, stone and stair from the side, over the whole night like a second sky: the sleeping man on his stone, the staff, the cold scattered rocks of nowhere, the great stai"
   },
   {
@@ -44313,7 +44502,7 @@
    "wide": true,
    "night": true,
    "n_person": 2,
-   "scene": "The night house sleeps, the camera high at the hall's end taking both sleepers' places in one profile, in its stations: the boy small on his mat in the lamp's gold circle, close to the great curtain's shadow \u2014 and away t"
+   "scene": "The night house sleeps, the camera high at the hall's end taking both sleepers' places in one profile, in its stations: on the LEFT the boy small on his mat in the lamp's gold circle, close to the great curtain's shadow "
   },
   {
    "row": 104,
@@ -44344,7 +44533,7 @@
    "wide": true,
    "night": true,
    "n_person": 2,
-   "scene": "The boy is up and running, the camera at the hall's side so the sprint crosses in profile toward the old man's doorway, before the echo dies: barefoot across the cold stone of the dark hall, blanket abandoned, skidding t"
+   "scene": "The boy is up and running, the camera at the hall's side so the sprint crosses in clear profile from LEFT to RIGHT \u2014 from his abandoned mat on the left toward the old man's doorway and bed on the right, before the echo d"
   },
   {
    "row": 104,
@@ -44405,7 +44594,7 @@
    "wide": false,
    "night": true,
    "n_person": 2,
-   "scene": "The name comes again and the small feet fly again: SAMUEL \u2014 and he is up and sprinting the same dark diagonal across the hall, surer this time, faster this time, skidding into the old man's room with the same brave answe"
+   "scene": "The name comes again and the small feet fly again: SAMUEL \u2014 and he is up and sprinting the same dark diagonal LEFT-to-RIGHT across the hall, from his mat on the left toward the old man's room on the right, surer this tim"
   },
   {
    "row": 104,
