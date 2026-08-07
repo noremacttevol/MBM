@@ -265,75 +265,94 @@ BEATS = [
     },
     {
         "id": "v2-r011-b05", "out": "s05-other-little-boats.jpeg", "seg": "n1 p2",
-        "window": "29.81-33.37", "wide": True, "jesus": False, "ref": False,
-        "locks": ["BOAT", "SEA-CROSSING-NIGHT"],
+        "window": "29.81-33.37", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["DISCIPLES", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": "Other little boats followed them out.",
-        "must_show": "SCRIPTURE DETAIL almost every telling drops (v36): two or three other small boats out on the dark water behind theirs, following.",
-        "must_not_show": "NIGHT BEGINS HERE — no sunset band, no warm horizon, no golden water from this frame on. Do not put Jesus in this frame.",
+        "must_show": "CAMERON BOAT-COMPLAINT FIX (0:30-0:52): the LEAD boat is the one large Galilean fishing boat carrying the whole company — Jesus is aboard, seated calmly among them in his cream robe (the ONLY cream in the frame), together with six of his disciples; the boat is plainly big enough to hold all of them with room to spare. SCRIPTURE DETAIL (v36): behind the lead boat, two or three OTHER small boats follow across the dark water.",
+        "must_not_show": "NIGHT BEGINS HERE — no sunset band, no warm horizon, no golden water from this frame on. The lead boat is NOT a cramped four-person skiff and Jesus is NOT left out of it. No second cream robe on anyone but Jesus. No halo, glow or rim-light.",
         "scene": (
-            "Out on the open lake at night. The fishing boat pulls away from the "
-            "shore under a black sky, and behind it two or three other small boats "
+            "Out on the open lake at night. In the foreground the one large fishing "
+            "boat pulls away from the shore under a black sky, carrying the whole "
+            "company — Jesus seated among his men in his cream wool robe, calm and "
+            "worn, and six of his disciples with him at the oars and thwarts, the big "
+            "hull holding them all easily. Behind them two or three other small boats "
             "follow, strung out across the dark water, each outlined by moonlight with "
             "the pale flicker of oars. The water is still only choppy. Cold "
             "moonlight comes through breaks in the moving cloud and lays silver on the "
             "swell; there is no warm colour anywhere. The camera is back far enough to "
-            "hold all the boats. Every figure has two arms, two hands and one head."
+            "hold the whole boat and its company and the boats behind. Only Jesus "
+            "wears cream. Every figure has two arms, two hands and one head."
         ),
     },
     # ----------------------------------------------- n1b — the fishermen ----
     {
         "id": "v2-r011-b06", "out": "s06-men-at-the-oars.jpeg", "seg": "n1b p1",
-        "window": "33.37-39.24", "wide": True, "jesus": False, "ref": False,
+        "window": "33.37-39.24", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("And here is something worth knowing about the men at the oars: "
                       "at least four of them were professional fishermen."),
-        "must_show": "ACTION-LOGIC: men rowing properly — oar blades biting the water OUTSIDE the hull, both hands on each loom, feet braced on the deck, easy practised rhythm.",
-        "must_not_show": "no oar held in the air doing nothing; nobody outside the hull; no strain yet — this is competent easy work. Do not put Jesus in this frame.",
+        "must_show": "CAMERON BOAT-COMPLAINT FIX (0:30-0:52): the ONE large boat holds the whole company — four fishermen at the oars in the foreground pulling in easy practised rhythm, AND Jesus aboard among them in his cream robe (the ONLY cream), with the rest of the disciples, so SIX disciples plus Jesus are all in this one big boat. ACTION-LOGIC: oar blades biting the water OUTSIDE the hull, both hands on each loom, feet braced on the deck.",
+        "must_not_show": "the boat is NOT a small four-person skiff and Jesus is NOT left out — he is clearly aboard; no oar held in the air doing nothing; nobody outside the hull; no strain yet — this is competent easy work; no second cream robe on anyone but Jesus; no halo or glow.",
         "scene": (
-            "Inside the boat at night, four men at the oars in an easy practised "
-            "rhythm — each with both hands closed on the loom, shoulders rolling back "
-            "into the stroke, feet braced against the deck timbers, the blades dipping "
-            "and biting the black water outside the hull and lifting again together. "
-            "Peter is nearest, pulling steadily. Nobody is straining. Cold moonlight "
-            "reflecting off the water reveals their faces against the night. The "
-            "camera is back far enough to see the men and the oars. Every figure has "
-            "two arms, two hands and one head."
+            "Inside the one large fishing boat at night, big enough to carry the whole "
+            "company. Four fishermen are at the oars in the foreground in an easy "
+            "practised rhythm — each with both hands closed on the loom, shoulders "
+            "rolling back into the stroke, feet braced against the deck timbers, the "
+            "blades dipping and biting the black water outside the hull and lifting "
+            "again together; Peter is nearest, pulling steadily. Behind and among them "
+            "Jesus sits aboard in his cream wool robe, quiet and worn, with the other "
+            "disciples, so six disciples and Jesus are all in this one boat. Nobody is "
+            "straining. Cold moonlight reflecting off the water reveals their faces "
+            "against the night. The camera is back far enough to see the whole boat, "
+            "its company and the oars. Only Jesus wears cream. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r011-b07", "out": "s07-peter-andrew-james-john.jpeg", "seg": "n1b p2",
-        "window": "39.24-44.95", "wide": True, "jesus": False, "ref": False,
-        "locks": ["PETER", "ANDREW", "JOHN", "JAMES-Z", "BOAT", "SEA-CROSSING-NIGHT"],
+        "window": "39.24-44.95", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["PETER", "ANDREW", "JOHN", "JAMES-Z", "DISCIPLES", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("Peter and his brother Andrew, and James and John, the sons of "
                       "Zebedee."),
-        "must_show": "the four named men together and individually readable — Peter and Andrew on one side, James and John on the other, all four at the oars.",
-        "must_not_show": "do not put Jesus in this frame; all four faces must be visible and distinct, since the narration names them.",
+        "must_show": "CAMERON BOAT-COMPLAINT FIX (0:30-0:52): the four NAMED fishermen at the oars, each face readable — Peter and Andrew on one side, James and John on the other — AND, in the same one large boat, Jesus aboard among them in his cream robe (the ONLY cream) with the remaining disciples, so SIX disciples plus Jesus are all in this one big hull.",
+        "must_not_show": "the boat is NOT sized to only the four and Jesus is NOT left out — he is clearly aboard with them; all four named faces stay visible and distinct since the narration names them; no second cream robe on anyone but Jesus; no halo or glow.",
         "scene": (
-            "The four fishermen at the oars, framed so each face is clearly readable "
-            "in reflected moonlight — Peter and Andrew pulling together on one side of the "
-            "boat, James and John opposite them on the other, all four leaning into "
-            "the stroke in time. Their tunics are already dark with spray. The mast "
-            "and the lashed sail stand between them and the black sky. The camera is "
-            "back far enough to see all four head to feet inside the hull. Every "
-            "figure has two arms, two hands and one head."
+            "The one large fishing boat crossing the dark water, big enough for the "
+            "whole company. In the foreground the four named fishermen are at the oars, "
+            "each face clearly readable in reflected moonlight — Peter and Andrew "
+            "pulling together on one side, James and John opposite them on the other, "
+            "all four leaning into the stroke in time, tunics already dark with spray. "
+            "Seated with them in the same boat is Jesus in his cream wool robe, quiet "
+            "and worn, and the rest of the disciples, so six disciples and Jesus fill "
+            "the hull. The mast and the lashed sail stand between them and the black "
+            "sky. The camera is set back and to the side of the boat, shooting past "
+            "the near rowers in three-quarter so the whole boat and its company are "
+            "seen head to feet inside the hull. "
+            "Only Jesus wears cream. Every figure has two arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r011-b08", "out": "s08-this-lake-was-their-workplace.jpeg", "seg": "n1b p3-p5",
-        "window": "44.95-53.77", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "ANDREW", "BOAT", "SEA-CROSSING-NIGHT"],
+        "window": "44.95-53.77", "wide": True, "jesus": True, "ref": REF,
+        "locks": ["PETER", "ANDREW", "DISCIPLES", "BOAT", "SEA-CROSSING-NIGHT"],
         "narration": ("This lake was their workplace. They had crossed it at night "
                       "their whole lives. Nothing about dark water scared them."),
-        "must_show": "unbothered competence — one man talking over his shoulder mid-stroke, another half smiling, completely at home on black water at night.",
-        "must_not_show": "no fear or tension anywhere in this frame — it exists purely so the next one lands. Do not put Jesus in it.",
+        "must_show": "CAMERON BOAT-COMPLAINT FIX (0:30-0:52): the ONE large boat with the whole company at ease crossing black water — the fishermen relaxed at the oars (one talking over his shoulder mid-stroke, another half smiling), unbothered competence, AND Jesus aboard among them in his cream robe (the ONLY cream) with the rest, so SIX disciples plus Jesus fill the one big hull.",
+        "must_not_show": "the boat is NOT a small four-person skiff and Jesus is NOT left out — he is clearly aboard; no fear or tension anywhere — this frame exists so the next one lands; no second cream robe on anyone but Jesus; no halo or glow.",
         "scene": (
-            "Close on Peter and Andrew at the oars in the moonlight. Peter has turned "
-            "his head to say something back over his shoulder mid-stroke, entirely "
-            "unbothered, and Andrew is answering with the beginning of a grin, both "
-            "still pulling without looking at what their hands are doing. Their faces "
-            "are relaxed and capable, men doing on a black night the thing they have "
-            "done ten thousand times. Spray on their beards. The dark water runs past "
-            "outside the hull behind them. Each hand has five fingers."
+            "The one large fishing boat crossing the moonlit water, the whole company "
+            "aboard and completely at ease. At the oars Peter has turned his head to "
+            "say something back over his shoulder mid-stroke, entirely unbothered, and "
+            "Andrew is answering with the beginning of a grin, both still pulling "
+            "without looking at what their hands are doing — men doing on a black night "
+            "the thing they have done ten thousand times. Seated in the same boat is "
+            "Jesus in his cream wool robe, quiet, and the other disciples, so six "
+            "disciples and Jesus are all aboard. Spray on their beards. The dark water "
+            "runs past outside the hull. The camera is set back and to the side, "
+            "shooting past the near crew in three-quarter to hold the whole boat and "
+            "its whole company head to feet inside the hull. Only Jesus wears cream. "
+            "Every figure has two arms, two hands and one head; each hand has five "
+            "fingers."
         ),
     },
     # ---------------------------------------------------- n2 — the squall ----

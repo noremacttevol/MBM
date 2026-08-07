@@ -4,6 +4,65 @@ Final candidate: `mark-4_calming-the-storm-realistic-v4.mp4`
 
 ---
 
+## ✅ C-FIX 2026-08-07 (Opus runner, Machine A `Dev`, UNATTENDED/HEADLESS) — NEW Cameron complaint, BOTH parts fixed in ONE touch-once re-cut
+
+### COMPLAINT LEDGER — Cameron's OPEN complaint on the LIVE cut (hash b7a7f14c8), his words → what THIS cut does
+Cameron: *"The picture of jesus is bad it has white evil looking eyes @ 0:23.. the
+boat needs to be bigger in all pictures 0:30 - 0:52 i know its talkign about 4
+fisherman but that doesnt mean you fit the boat to a 4 person boat and dont include
+anyone else in it. every picture needs top have Jesus in the boat and lets make it
+always have 6 disciples."*
+
+- **"white evil looking eyes @ 0:23" → FIXED by IDENTITY-EDIT (not a reroll).** The
+  0:23 frame is `s04-even-as-he-was.jpeg` (beat v2-r011-b04, "So they took him …
+  even as he was"). His eyes rendered as glowing WHITE, blank, pupil-less — demonic.
+  RUNNER-LESSONS: eye colour cannot be fixed by rerolling (the frame echoes the
+  reference), so I sent s04 to gemini-3-pro-image with an EDIT instruction to repaint
+  ONLY the eyes as natural warm-brown human eyes (brown irises, dark pupils, normal
+  sclera, no glow), then composited ONLY a feathered eye box (930,1178,1070,1252)
+  from the edit back onto the original — so every other pixel of s04 is byte-identical.
+  FACE-BOARD recheck: the locked Jesus is intact (same olive skin, dark wavy hair,
+  full dark beard, cream robe, composition); only the eyes changed; verified in the
+  RENDERED mp4 at 0:23 — eyes now warm and human, no white.
+- **"boat too small / no Jesus / always 6 disciples" (0:30-0:52) → FIXED by author-edit
+  + regen of b05-b08.** The flagged window is beats b05 (s05 other-little-boats), b06
+  (s06 men-at-the-oars), b07 (s07 the four named fishermen) and b08 (s08 this-lake-
+  was-their-workplace). All four were authored `jesus:False` with an explicit "do NOT
+  put Jesus in this frame" and rendered small 2-4-person boats. RE-AUTHORED all four:
+  `jesus:True`+`ref:REF` (Jesus face lock attached), DISCIPLES lock added, the
+  "no Jesus" line removed, and each must_show/scene now requires the ONE LARGE boat
+  holding the whole company — Jesus seated among them in his cream robe (the ONLY
+  cream) with SIX disciples, the boat plainly big enough for all of them. b07 keeps
+  the four NAMED fishermen readable at the oars (narration names them) with Jesus +
+  two more aboard = six disciples + Jesus. b08 changed `wide:False→True` so the full
+  boat shows. `v2_prompt.py --check` → v4 checklist PASS. Regenerated b05/b06/b07/b08
+  against the boat plate — verified in the RENDERED mp4: every 0:30-0:52 frame now
+  shows the bigger boat, Jesus aboard in cream, ~six disciples, night lighting.
+
+### Light-QC / rerolls (COST LAW)
+Viewed all four regenerated boat frames + the edited s04 once against `assets-realistic/`
+(the dir the assembler renders from), the beats' must_show/must_not_show, and the
+complaint. **0 rerolls / 34 beats = 0%** (well under the 15% budget and the 19%
+baseline — the four boat regens all landed clean on the first take, the eyes were a
+targeted edit, not a reroll). Only Jesus wears cream in every touched frame; no second
+cream figure; no halo/glow; hulls match the locked boat family; night law holds
+(moon/stars, no sunset); no modern object; no lens-stare; anatomy clean; Jesus's face
+consistent with the lock across s05-s08.
+
+### Assembly / audio
+`v2_assemble.py 11` → **AUDIO LOCK PASS SHA256 `631b100ce410…`** (byte-identical to the
+prior cut — nothing re-voiced, picture-only fix), 234.9 s / 20.8 MB, mp4 decodes clean.
+Captions bottom-band only (verified 0:23, 0:42, 0:49); closing card clean.
+
+### Cost
+5 images this session (1 eye edit + 4 boat regens) × $0.134 ≈ **$0.67**; meter 498.75 →
+499.55. 0% rerolls. Touched the row ONCE, batching BOTH complaint parts into one re-cut.
+Well under the $6.10/row average — COST LAW satisfied, trend DOWN.
+Prior v4 (hash b7a7f14c8, the complained cut) is VOID.
+
+
+---
+
 ## ✅ RUNNER RE-CUT DONE — 2026-08-07 (Opus runner, Machine A `Dev`, UNATTENDED/HEADLESS)
 
 Executed the author's boat-lock REBUILD. Re-cut the 22 BOAT-locked beats against
