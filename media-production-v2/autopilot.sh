@@ -1,22 +1,21 @@
 #!/usr/bin/env bash
 #
-# autopilot.sh — the V2 loop: build the next ready row unattended, repeat
-# until all 200 are done. This is what the cron runs. Safe to run by hand.
+# autopilot.sh — the V2 loop: build/fix the next row unattended, repeat until
+# all 200 are done. This is what the cron runs. Safe to run by hand.
 #
-#   ./autopilot.sh            # one tick: if idle and work exists, run one builder session
+#   ./autopilot.sh            # one tick: if a lane is free and work exists, run one session
 #   ./autopilot.sh --dry-run  # show what the next tick WOULD do; touch nothing
 #
-# Design (Cameron, 2026-08-06 — "make this into a loop process until its done"):
-# - ONE build at a time (PID lock). A tick while a build runs does nothing.
-# - Each run is a FRESH headless Claude session reading PROMPT-OPUS-RUNNER.md,
-#   so every run starts from the laws (learning law, cost law, complaint
-#   ledger, deploy step) with clean context — the "one video per chat" rule.
-# - Claim-by-push inside the runner brief keeps this loop and any interactive
-#   chat off each other's rows.
-# - When no Ready rows remain but NEEDS-BEATS rows exist, the tick runs an
-#   AUTHOR session instead. When the whole board is BUILT, ticks do nothing
-#   and say so — then remove the cron line (see AUTOPILOT.md).
-# - 2-hour hard timeout per run so a wedged session can never hold the lock.
+# THE ROW-CENTRIC DISPATCHER (Cameron, 2026-08-07: "it just did 6 other videos
+# before touching 10, 11 — they need to be fixed before i can move past 1-9").
+# Priority is by ROW, not by job type: walk the board lowest row first; the
+# first row needing complaint-class work defines the next job, WHATEVER kind of
+# work it needs (picture re-cut, audio re-voice, author rebuild, resume). Only
+# when no complaint-class row is actionable does regular production (resume →
+# build → author) run, also lowest row first.
+#
+# Laws enforced here: COMPLAINT-FIRST (2026-08-06), LOW-NUMBER (2026-08-07),
+# COST (reuse banked work, never re-buy), billing-breaker-with-fallback.
 
 set -euo pipefail
 export PATH="$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin"
@@ -33,18 +32,12 @@ DRY=0
 mkdir -p "$LOGDIR"
 log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOGDIR/autopilot.log"; }
 
-# --- up to LANES builds in parallel (Cameron, 2026-08-06: "it shouldnt take
-# that long") — claim-by-push inside the brief keeps lanes off each other's
-# rows; each tick starts at most ONE new lane so starts stay staggered.
+# --- lanes: count LIVE processes (pid files proved deletable) ----------------
 LANES="${MBM_LANES:-4}"
 LOCKDIR="$V2/.autopilot-lanes"
 mkdir -p "$LOCKDIR"
-# Count lanes by LIVE PROCESSES, not pid files — pid files proved deletable
-# (a lane's cleanup wiped them on 2026-08-06, which made the counter read 0
-# and over-spawn). The timeout wrapper's cmdline is the reliable signature.
 LIVE=$(pgrep -fc '^timeout 7200 claude -p' || true)
 LIVE=${LIVE:-0}
-# pid files kept as a secondary floor + for debugging
 FILES=0
 for f in "$LOCKDIR"/lane-*.pid "$LOCK"; do
   [ -e "$f" ] || continue
@@ -64,196 +57,131 @@ fi
 cd "$REPO"
 [ "$DRY" -eq 0 ] && git pull --rebase --autostash origin main -q
 
-# --- what work exists? -------------------------------------------------------
-# AUTHOR-BOARD columns: | Row | Build | State | Stills | Audio | Claim | Ready |
-
-# THE COMPLAINT-FIRST LAW (Cameron, 2026-08-06: "you should always do the ones
-# that are complained about asap. that should be a new rule"). His complaints
-# are him having already asked — they outrank everything in every queue.
-[ "$DRY" -eq 0 ] && (cd "$REPO/admin" && timeout 60 node sync-reviews.mjs >/dev/null 2>&1 || true)
-COMPLAINED="$(python3 - <<'PYEOF' 2>/dev/null || true
-import json
-try:
-    d=json.load(open('media-production-v2/REVIEW-LESSONS.json'))
-    print(' '.join(k for k,v in d.items() if isinstance(v,dict) and v.get('open')))
-except Exception: pass
-PYEOF
-)"
-is_complained() { case " $COMPLAINED " in *" $1 "*) return 0;; esac; return 1; }
-
-# BUILT rows whose CURRENTLY SERVED cut carries the open complaint have no
-# other lane that would ever fix them — they get their own top-priority job.
-next_cfix() {
-  local row build
-  while read -r row build; do
-    [ -z "$row" ] && continue
-    if ! find "$V2/$build" -mmin -10 2>/dev/null | grep -q .; then
-      echo "$row"; return 0
-    fi
-  done <<EOF
-$(python3 - <<'PYEOF' 2>/dev/null || true
-import json,re
-try:
-    d=json.load(open('media-production-v2/REVIEW-LESSONS.json'))
-    html=open('site/review.html').read()
-    cur=dict(re.findall(r'data-num="(\d+)" data-hash="([0-9a-f]{40})"',html))
-    board=open('media-production-v2/AUTHOR-BOARD.md').read()
-    for m in re.finditer(r'\|\s*(\d+)\s*\|\s*(build-\S+)\s*\|\s*BUILT\s*\|[^|]*\|[^|]*\|([^|]*)\|',board):
-        row,build,claim=m.group(1),m.group(2),m.group(3)
-        v=d.get(row)
-        if v and isinstance(v,dict) and v.get('open') and v.get('reportedAgainst')==cur.get(row) and 'C-FIX' not in claim:
-            print(row,build)
-except Exception: pass
-PYEOF
-)
-EOF
-  return 0
-}
-
-# THE LOW-NUMBER LAW (Cameron 2026-08-07: "the smaller the number of videos
-# the more priority it has — 01-09 are good but 10-20 have been waiting").
-# Rows are his viewing order; within EVERY queue: complained rows first, then
-# the LOWEST row number. (Banked-stills speed ordering is demoted — his order
-# outranks cheapest-first.)
-next_ready() {
-  local row build first=""
-  while read -r row build; do
-    [ -z "$row" ] && continue
-    if is_complained "$row"; then echo "$row"; return 0; fi
-    [ -z "$first" ] && first="$row"
-  done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
-    row=$2; build=$3; state=$4; audio=$6; claim=$7; ready=$8
-    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",build); gsub(/[[:space:]]/,"",state)
-    gsub(/[[:space:]]/,"",audio); gsub(/^[[:space:]]+|[[:space:]]+$/,"",claim)
-    if (state=="AUTHORED" && audio=="OK" && claim=="" && ready ~ /✅/) print row, build
-  }' "$BOARD")
-  [ -n "$first" ] && echo "$first"
-  return 0
-}
-# Author work includes NEEDS-REBUILD rows (a C-FIX park that needs beat-level
-# authoring, e.g. row 11's boat-lock) — complained/parked rebuilds outrank
-# fresh authoring, lowest row first.
-next_unauthored() {
-  local row state first=""
-  while read -r row state; do
-    [ -z "$row" ] && continue
-    if [ "$state" = "NEEDS-REBUILD" ] || is_complained "$row"; then echo "$row"; return 0; fi
-    [ -z "$first" ] && first="$row"
-  done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
-    row=$2; state=$4; claim=$7
-    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",state)
-    gsub(/^[[:space:]]+|[[:space:]]+$/,"",claim)
-    if ((state=="NEEDS-BEATS" && claim=="") || (state=="NEEDS-REBUILD" && claim !~ /AUTHOR-LIVE/)) print row, state
-  }' "$BOARD")
-  [ -n "$first" ] && echo "$first"
-  return 0
-}
-# A RUNNING/A-auto row whose build has NO live v2_gen_api process is stranded —
-# its lane died (billing outage, crash). These carry the most banked stills on
-# the board, so they resume FIRST even while other lanes work on other rows
-# (Cameron 2026-08-06: the just-fix rows should be done first). Per-build
-# process check makes this safe alongside live lanes; the resume session also
-# verifies shipped-state per RUNNER-LESSONS before spending.
-next_stranded() {
-  local row build first=""
-  while read -r row build; do
-    # a live gen process OR any file touched in the last 10 min means a lane
-    # is actively on it (QC/assembly leave no gen process — the row-60
-    # false-strand window) — skip those, only true corpses are stranded
-    if ! pgrep -f "v2_gen_api.*$build" >/dev/null 2>&1 \
-       && ! find "$V2/$build" -mmin -10 2>/dev/null | grep -q .; then
-      if is_complained "$row"; then echo "$row"; return 0; fi
-      [ -z "$first" ] && first="$row"
-    fi
-  done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
-    row=$2; build=$3; state=$4; claim=$7
-    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",build); gsub(/[[:space:]]/,"",state)
-    if (state=="RUNNING" && claim ~ /A-auto/) print row, build
-  }' "$BOARD")
-  [ -n "$first" ] && echo "$first"
-  return 0
-}
-# NEEDS-AUDIO rows carry Cameron's open AUDIO complaints (mispronunciations,
-# wrong voice, stale V1 renders) — the runner is forbidden to fix them; the
-# AUDIO-FIX job (PROMPT-AUDIO-FIX.md) is. Costs $0 Gemini (ElevenLabs/ffmpeg
-# only), so it runs even while the Gemini billing breaker is tripped.
-next_audio() {
-  local row first=""
-  while read -r row; do
-    [ -z "$row" ] && continue
-    if is_complained "$row"; then echo "$row"; return 0; fi
-    [ -z "$first" ] && first="$row"
-  done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
-    row=$2; state=$4; claim=$7
-    gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",state)
-    if (state=="NEEDS-AUDIO" && claim !~ /AUDIO-FIX/) print row
-  }' "$BOARD")
-  [ -n "$first" ] && echo "$first"
-  return 0
-}
-
-# --- billing state (checked BEFORE job pick so we can fall back to free work) -
-# A depleted Gemini prepayment makes every PAID job die on its first shot.
-# Detection: any runner/resume log in the last 25 min reporting depletion.
-# Self-heals after top-up (old logs age out of the window). Fail-safe: on any
-# find/grep error the flag stays 0 and behavior is unchanged.
+# --- billing state (paid jobs blocked while the Gemini prepayment is dry) ----
 BILLING_DOWN=0
-if find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' \) \
+if find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' -o -name '*-cfix.log' \) \
      -mmin -25 -print0 2>/dev/null \
    | xargs -0 -r grep -lE 'prepayment credits are depleted|RESOURCE_EXHAUSTED' 2>/dev/null \
    | grep -q .; then
   BILLING_DOWN=1
 fi
 
-# Job priority (Cameron 2026-08-06, THE COMPLAINT-FIRST LAW: "always do the
-# ones that are complained about asap"; plus fastest-to-finish first and
-# billing-down never idles the loop):
-#   billing OK:   complaint-fix (re-cut a BUILT row he complained about) →
-#                 stranded-resume (complained rows first, then most banked) →
-#                 audio-fix (MAX ONE lane; complained rows first) →
-#                 ready-build (complained rows first, then most banked) → author
-#   billing DOWN: audio-fix → author (paid jobs blocked; free work continues)
-CFIX=""; STRANDED=""; READY=""
-if [ "$BILLING_DOWN" -eq 0 ]; then
-  CFIX="$(next_cfix || true)"
-  STRANDED="$(next_stranded || true)"
-  READY="$(next_ready || true)"
-fi
-# Audio is capped at ONE lane — it must never starve picture builds
-AUDIO=""
-AUDIO_LIVE=$(pgrep -fc 'PROMPT-AUDIO-FIX' || true)
-[ "${AUDIO_LIVE:-0}" -eq 0 ] && AUDIO="$(next_audio || true)"
-UNAUTHORED="$(next_unauthored || true)"
+# --- refresh Cameron's live complaints (stale file still works if this fails)
+[ "$DRY" -eq 0 ] && (cd "$REPO/admin" && timeout 60 node sync-reviews.mjs >/dev/null 2>&1 || true)
 
-if [ -n "$CFIX" ]; then
-  JOB="cfix"; ROW="$CFIX"
-  PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md — all its laws bind you. THE COMPLAINT-FIRST LAW: Cameron filed a complaint against the CURRENT shipped cut of AUTHOR-BOARD row $ROW, and fixing it outranks all other work. Run 'python3 media-production-v2/v2_outline.py $ROW' to read his complaint in his own words. Claim first: append 'C-FIX <date> LIVE' to the row's board Claim cell, commit, push (rejected push = taken, exit cleanly). Then fix ONLY what he named: if it is a picture defect, reroll or identity-edit ONLY the offending frames (--only <beat>, reroll budget applies) and keep every other frame byte-identical; if the complaint is AUDIO-domain, do NOT re-cut pictures — flip the row to NEEDS-AUDIO with a RUNNER PARK note per RUNNER-LESSONS and exit. Touch-once law: batch every open complaint on this row into this ONE re-cut. Re-assemble (AUDIO LOCK must pass), redeploy (step 7c, live-verified), and the review card flag MUST answer his complaint in his own words. You are UNATTENDED and HEADLESS: run everything FOREGROUND to completion, never background, never wait. Board claim -> 'C-FIX <date> SHIPPED' when done, SESSION-LOG entry, commit, push."
-  MODEL_ARGS=(--model opus)
-elif [ -n "$STRANDED" ]; then
-  JOB="resume"; ROW="$STRANDED"
-  PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md. A previous autopilot run DIED mid-build on AUTHOR-BOARD row $ROW (State RUNNING, Claim A-auto) — RESUME that row, do not start a new one. Read the build's QC.md for where it stopped; v2_gen_api.py resumes automatically (already-passing frames are never re-pulled — the COST LAW). You are UNATTENDED and HEADLESS: ending your turn kills the session, so run EVERY command in the FOREGROUND to completion; never use run_in_background, never wait for notifications. Finish the row through step 7c DEPLOY + live verification, set the board row BUILT, SESSION-LOG entry, commit, push."
-  MODEL_ARGS=(--model opus)
-elif [ -n "$AUDIO" ]; then
-  JOB="audio"; ROW="$AUDIO"
-  PROMPT="Read media-production-v2/PROMPT-AUDIO-FIX.md and fix the next NEEDS-AUDIO rows (lowest first). You are UNATTENDED and HEADLESS (autopilot): Cameron cannot answer — never wait, never ask. HEADLESS LAW: ending your turn kills the session; run EVERY command in the FOREGROUND to completion; never run_in_background, never wait for notifications. Spend NOTHING on Gemini image generation — this job is audio-only (ElevenLabs for re-voiced segments + ffmpeg). Follow each row's QC.md RUNNER PARK note as the per-row authority. Ship through deploy + live verification, answer Cameron's complaint on the review card in his own words, set the board row BUILT with Audio OK, SESSION-LOG entry, commit, push. Stop cleanly when context runs low."
-  MODEL_ARGS=(--model opus)
-elif [ -n "$READY" ]; then
-  JOB="runner"; ROW="$READY"
-  PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows. You are UNATTENDED and HEADLESS (autopilot): Cameron is not watching and cannot answer — never wait for him, never ask. HEADLESS LAW: the moment you end your turn the session is DEAD — there are no background-task notifications and no next turn. Run EVERY command in the FOREGROUND and wait for it to finish (v2_gen_api.py etc. are synchronous and resume if re-run); NEVER use run_in_background, NEVER end a message with 'waiting for' anything. Before generating, cross-check the row against media-production/QUEUE.md — if the QUEUE says the story was swapped or replaced, do NOT build it: park it on AUTHOR-BOARD (note in Claim, clear Ready), push, take the next row. Also set the row's AUTHOR-BOARD State to RUNNING with Claim 'A-auto <date>' when you claim, and BUILT when shipped. Follow the brief literally including the LEARNING LAW (complaint ledger in QC.md), the COST LAW (reroll budget), and step 7c DEPLOY + live verification. If truly blocked on a row, write the blocker and resume command into that build's QC.md, park the claim, push, and move to the next ready row. Stop cleanly (SESSION-LOG entry, commit, push) when context runs low."
-  MODEL_ARGS=(--model opus)
-elif [ -n "$UNAUTHORED" ]; then
-  JOB="author"; ROW="$UNAUTHORED"
-  PROMPT="Read media-production-v2/PROMPT-FABLE5-AUTHOR.md and do the next rows, starting with AUTHOR-BOARD row $ROW. If that row's State is NEEDS-REBUILD or NEEDS-AUDIO with a C-FIX/RUNNER PARK note, the park note in its QC.md is your spec — do the author-level fix it names (boat/place plates + REF wiring, PHRASE_SPOKEN pacing, SPOKEN respells + narration regen), then set the row Ready ✅ (or re-assemble+ship if its stills are done) so Cameron's complaint closes. Mark your claim 'AUTHOR-LIVE <date>' while working. You are UNATTENDED (autopilot): never wait for Cameron; spend \$0 on image generation; stop cleanly with the chain (SESSION-LOG entry, commit, push) when context runs low."
-  MODEL_ARGS=()
-else
-  if [ "$BILLING_DOWN" -eq 1 ]; then
-    MSG="billing breaker: Gemini prepayment depleted and no free (audio/author) work is open — idle. Top up at https://ai.studio/projects and the loop resumes itself."
-  else
-    MSG="ALL ROWS BUILT or claimed — nothing to do. If the board is fully BUILT, remove the cron line (see AUTOPILOT.md)."
-  fi
-  if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
-  exit 0
-fi
+# --- THE DISPATCHER ----------------------------------------------------------
+# Emits "JOB ROW". Caps: audio ≤2 lanes, author ≤1 lane (they run during
+# billing-down too — they cost $0 Gemini). cfix/resume/runner are paid.
+AUDIO_LIVE=$(pgrep -fc 'PROMPT-AUDIO-FIX' || true)
+AUTHOR_LIVE=$(pgrep -fc 'PROMPT-FABLE5-AUTHOR' || true)
+PICK="$(BILLING_DOWN=$BILLING_DOWN AUDIO_LIVE=${AUDIO_LIVE:-0} AUTHOR_LIVE=${AUTHOR_LIVE:-0} python3 - <<'PYEOF' 2>/dev/null || echo 'none 0'
+import json, re, os, time, subprocess
+
+bd = os.environ.get('BILLING_DOWN', '0') == '1'
+audio_live = int(os.environ.get('AUDIO_LIVE', '0') or 0)
+author_live = int(os.environ.get('AUTHOR_LIVE', '0') or 0)
+V2 = 'media-production-v2'
+
+def active(build):
+    # a live gen process OR any file touched in the last 10 min = a lane owns it
+    if subprocess.run(['pgrep', '-f', f'v2_gen_api.*{build}'],
+                      capture_output=True).returncode == 0:
+        return True
+    now = time.time()
+    for root, _, fs in os.walk(f'{V2}/{build}'):
+        for f in fs:
+            try:
+                if now - os.path.getmtime(os.path.join(root, f)) < 600:
+                    return True
+            except OSError:
+                pass
+    return False
+
+try:
+    L = json.load(open(f'{V2}/REVIEW-LESSONS.json'))
+except Exception:
+    L = {}
+openc = {k for k, v in L.items() if isinstance(v, dict) and v.get('open')}
+try:
+    html = open('site/review.html').read()
+    cur = dict(re.findall(r'data-num="(\d+)" data-hash="([0-9a-f]{40})"', html))
+except Exception:
+    cur = {}
+
+rows = []
+for line in open(f'{V2}/AUTHOR-BOARD.md'):
+    m = re.match(r'\|\s*(\d+)\s*\|\s*(build-\S+)\s*\|\s*([A-Z-]+)\s*\|\s*\d*\s*\|\s*(\S+)\s*\|([^|]*)\|([^|]*)\|', line)
+    if m:
+        rows.append((int(m.group(1)), m.group(2), m.group(3), m.group(4),
+                     m.group(5), '✅' in m.group(6)))
+
+def emit(job, row):
+    print(job, row)
+    raise SystemExit
+
+# PASS 1 — complaint-class work, LOWEST ROW FIRST, whatever job it needs.
+# (Cameron 2026-08-07: row 10's audio fix and row 11's rebuild outrank a
+# complaint re-cut on row 22 — the row number decides, not the job type.)
+for r, b, st, au, cl, rd in rows:
+    k = str(r)
+    if active(b):
+        continue
+    if st == 'NEEDS-AUDIO' and 'AUDIO-FIX' not in cl:
+        if audio_live < 2:
+            emit('audio', r)
+    elif st == 'NEEDS-REBUILD' and 'AUTHOR-LIVE' not in cl:
+        if author_live < 1:
+            emit('author', r)
+    elif (st == 'BUILT' and k in openc and 'C-FIX' not in cl
+          and L[k].get('reportedAgainst') == cur.get(k)):
+        if not bd:
+            emit('cfix', r)
+    elif st == 'RUNNING' and 'A-auto' in cl and k in openc:
+        if not bd:
+            emit('resume', r)
+
+# PASS 2 — regular production, lowest row first.
+if not bd:
+    for r, b, st, au, cl, rd in rows:
+        if st == 'RUNNING' and 'A-auto' in cl and not active(b):
+            emit('resume', r)
+    for r, b, st, au, cl, rd in rows:
+        if st == 'AUTHORED' and au == 'OK' and cl.strip() == '' and rd and not active(b):
+            emit('runner', r)
+if author_live < 1:
+    for r, b, st, au, cl, rd in rows:
+        if st == 'NEEDS-BEATS' and cl.strip() == '':
+            emit('author', r)
+print('none 0')
+PYEOF
+)"
+JOB="${PICK%% *}"; ROW="${PICK##* }"
+
+case "$JOB" in
+  cfix)
+    PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md — all its laws bind you. THE COMPLAINT-FIRST + LOW-NUMBER LAWS: Cameron filed a complaint against the CURRENT shipped cut of AUTHOR-BOARD row $ROW and it is the lowest waiting row — fixing it outranks all other work. Run 'python3 media-production-v2/v2_outline.py $ROW' to read his complaint in his own words. Claim first: append 'C-FIX <date> LIVE' to the row's board Claim cell, commit, push (rejected push = taken, exit cleanly). Fix ONLY what he named: picture defects = reroll or identity-edit ONLY the offending frames (--only <beat>, reroll budget applies), everything else stays byte-identical; if the complaint is AUDIO-domain, do NOT re-cut pictures — flip the row to NEEDS-AUDIO with a RUNNER PARK note per RUNNER-LESSONS and exit (the audio lane picks it up NEXT tick because low rows go first). Touch-once: batch every open complaint on this row into ONE re-cut. Re-assemble (AUDIO LOCK PASS), redeploy (step 7c, live-verified), review card answers his complaint in his words. UNATTENDED + HEADLESS: everything FOREGROUND to completion, never background, never wait. Board claim -> 'C-FIX <date> SHIPPED', SESSION-LOG, commit, push."
+    MODEL_ARGS=(--model opus) ;;
+  resume)
+    PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md. A previous autopilot run DIED mid-build on AUTHOR-BOARD row $ROW (State RUNNING, Claim A-auto) — RESUME that row, do not start a new one. FIRST run the RUNNER-LESSONS already-shipped check (committed mp4 / live review card) — if it shipped, tick it BUILT and take nothing else. Otherwise read the build's QC.md for where it stopped; v2_gen_api.py resumes automatically (passing frames are never re-pulled — COST LAW). UNATTENDED + HEADLESS: everything FOREGROUND to completion, never background, never wait. Finish through step 7c DEPLOY + live verification, set the board row BUILT, SESSION-LOG, commit, push."
+    MODEL_ARGS=(--model opus) ;;
+  audio)
+    PROMPT="Read media-production-v2/PROMPT-AUDIO-FIX.md and fix AUTHOR-BOARD row $ROW FIRST (THE LOW-NUMBER LAW — it is the lowest waiting complaint row; continue to the next lowest NEEDS-AUDIO rows after). UNATTENDED + HEADLESS: never wait, never ask; everything FOREGROUND to completion. Spend NOTHING on Gemini — audio only. The row's QC.md RUNNER PARK note is the per-row authority. If the row's stills are already generated, re-assemble and ship the full cut through deploy + live verification; the review card answers Cameron's complaint in his own words. Board: NEEDS-AUDIO -> BUILT (shipped) or AUTHORED+Ready (no stills yet). SESSION-LOG, commit, push. Stop cleanly when context runs low."
+    MODEL_ARGS=(--model opus) ;;
+  runner)
+    PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows, starting with AUTHOR-BOARD row $ROW (lowest first — THE LOW-NUMBER LAW). UNATTENDED + HEADLESS: ending your turn kills the session — run EVERY command in the FOREGROUND to completion; never run_in_background, never wait for notifications. Before generating, cross-check the row against media-production/QUEUE.md — a swapped/replaced story gets PARKED (note in Claim, clear Ready), never built. Set the board row RUNNING with Claim 'A-auto <date>' when you claim, BUILT when shipped. LEARNING LAW (complaint ledger in QC.md), COST LAW (reroll budget), step 7c DEPLOY + live verification all bind. If blocked, park with the resume command in QC.md and take the next row. SESSION-LOG, commit, push when context runs low."
+    MODEL_ARGS=(--model opus) ;;
+  author)
+    PROMPT="Read media-production-v2/PROMPT-FABLE5-AUTHOR.md and do the next rows, starting with AUTHOR-BOARD row $ROW (THE LOW-NUMBER LAW). If that row's State is NEEDS-REBUILD or NEEDS-AUDIO with a C-FIX/RUNNER PARK note, the park note in its QC.md is your spec — do the author-level fix it names (boat/place plates + REF wiring, PHRASE_SPOKEN pacing, SPOKEN respells + narration regen), then set Ready ✅ (or re-assemble+ship if its stills are done) so Cameron's complaint closes. Mark your claim 'AUTHOR-LIVE <date>' while working. UNATTENDED: never wait for Cameron; spend \$0 on image generation; SESSION-LOG, commit, push when context runs low."
+    MODEL_ARGS=() ;;
+  *)
+    if [ "$BILLING_DOWN" -eq 1 ]; then
+      MSG="billing breaker: Gemini prepayment depleted and no free (audio/author) work is open — idle. Top up at https://ai.studio/projects and the loop resumes itself."
+    else
+      MSG="ALL ROWS BUILT or claimed — nothing to do. If the board is fully BUILT, remove the cron line (see AUTOPILOT.md)."
+    fi
+    if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
+    exit 0 ;;
+esac
 
 if [ "$BILLING_DOWN" -eq 1 ] && [ "$DRY" -eq 0 ]; then
   log "billing breaker active: Gemini paid jobs blocked; running free $JOB work meanwhile. Top up at https://ai.studio/projects to resume picture builds."
@@ -264,7 +192,7 @@ if [ "$DRY" -eq 1 ]; then
   exit 0
 fi
 
-log "tick: starting $JOB session (next open row $ROW) → $LOGDIR/$TS-$JOB.log"
+log "tick: starting $JOB session (row $ROW) → $LOGDIR/$TS-$JOB.log"
 timeout 7200 claude -p "$PROMPT" \
   --dangerously-skip-permissions \
   "${MODEL_ARGS[@]}" \
