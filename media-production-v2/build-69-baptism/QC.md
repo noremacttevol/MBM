@@ -84,3 +84,28 @@ RESUME COMMAND (after author fixes audio):
   cd media-production-v2 && python3 v2_assemble.py 69   # must print AUDIO LOCK PASS
   # then follow PROMPT-OPUS-RUNNER.md step 7 (ship: two commits + firebase deploy + live verify)
   # stills are already generated — do NOT regenerate; reroll budget already spent 6.9%.
+
+## ✅ AUDIO FIX DONE — AUDIO_FROM_V1_SEGMENTS (AUDIO-FIX job, A-auto 2026-08-06)
+The audio-lock blocker is CLEARED. Root cause was a STALE V1 mp4 (206.633s,
+Jul-29 09:47) that predated this build's current narration; the assembler was
+copying it instead of the real audio. Fix: set `AUDIO_FROM_V1_SEGMENTS = True`
+in beats_v2.py so the track is rebuilt from this build's own 14 SPEAKER-LAW
+segment mp3s at the extract_beats offsets.
+
+- **Verified the segments are the intended new-voice cut before flipping:** exact
+  14/14 segment-ID parity between make_narration.py's SEGMENTS
+  (n0,n1,s14,n1b,n2,j1,n3,n4,n5,s17,jv1,n6,n7,card) and audio/*.mp3 — no missing,
+  no extra. make_narration.py imports GOD/JESUS/NARRATOR/SCRIPTURE via
+  save_speaker_narration (SPEAKER-LAW = new voices); ear-check jv1 (Father) =
+  "This is my beloved Son, in whom I am well pleased." The "Jul-29 23:03" the
+  park note flagged was a working-tree mtime, not a SEGMENTS content change.
+- **Assembly result:** `v2_assemble.py 69` → `AUDIO REBUILD PASS` /
+  `AUDIO LOCK PASS`, mp4 172.277s (was blocked at 206.633s vs 172.277s mismatch).
+  No new TTS, $0 — the segments are byte-identical, only the combined track was
+  rebuilt from the correct source.
+- **NOTE (multi-lane 2026-08-06):** a concurrent audio-fix lane re-assembled row
+  69 in the shared tree at the same time; both produce the identical deterministic
+  mp4 from the same inputs. Ship is idempotent (pull-rebase + card-hash check).
+- COMPLAINT LEDGER: open complaint "John is way too big in the first picture"
+  (scale) was already fixed in the 29 realistic stills; this audio fix simply
+  unblocks that fixed cut so it can finally reach the reviewer.

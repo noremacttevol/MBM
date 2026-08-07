@@ -80,6 +80,13 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX (A-auto 2026-08-06): the V1 mp4 (206.633s, Jul-29 09:47) is STALE vs
+# this build's own narration — the 14 SPEAKER-LAW segment mp3s (audio/*.mp3) are
+# the intended new-voice audio and sum to the 172.277s extract_beats timeline.
+# Segment-ID parity with make_narration.py is exact (14/14), so rebuild the track
+# from these segments at the extract offsets instead of copying the stale mp4.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r069-b01", "out": "s01-down-at-the-jordan-river.jpeg", "seg": "n0",
