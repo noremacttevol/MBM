@@ -1,5 +1,55 @@
 # QC / RUNNER HANDOFF — build-87-boy-in-the-temple (Luke 2:41-52)
 
+## ✅ REALISTIC-V2 SHIPPED — Opus runner, Machine A `Dev`, 2026-08-07 (UNATTENDED/HEADLESS)
+
+**15 realistic painted stills @ native 2K (V1 had 8), 93.9s, 20.4 MB.**
+AUDIO REBUILD PASS SHA256=`9cfd37091ef45645085113700051ae031f594bd8307a887dbfb85d447487d847`
+(AUDIO_FROM_V1_SEGMENTS, 12 new-voice segments byte-identical — nothing re-voiced).
+Row-74 stale-window tripwire CLEAR (captioned 85.900s ≈ card_start 85.826s → full
+question card present); mp4 decodes ZERO `-v error`.
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 87`). Fresh REDO-ALL realistic rebuild
+of the old 8-still assembly.
+
+**BOY-JESUS identity law held:** Jesus at TWELVE story-cast as a BOY (child scale,
+warm olive, dark wavy hair, warm brown eyes) — the ADULT face ref does NOT apply; BOY
+portrait generated + REFS wired and face-boarded across all his frames. **Only the boy
+wears cream** at every age. Scale gate BOTH ways PASS — the twelve-year-old is child-
+sized beside the seated elders in every frame (b04/b06/b09/b10/b13/b14), and no giant
+elders; b12 is the deliberate "small cream figure amid great columns" single (scale
+reads). MARY ~30 + JOSEPH ~42 aged from the nativity canon, consistent blue/brown
+across the arc. Doctors are distinct astonished elders. Three road beats read three
+distinct directions (festival flow b01 → backtrack b02 → home again b15).
+
+**Light QC — 1 sweep (2 contact sheets + 1 reroll zoom + 3 rendered caption frames +
+2 stable-point caption checks). 1 reroll / 15 = 6.7% (under the 15% COST-LAW budget):**
+- **b11 (s11)** first take = the boy's hero portrait looked STRAIGHT INTO THE LENS
+  (lens-stare reroll criterion). Rerolled → he now looks off-camera toward a parent
+  (over-shoulder foreground figure); identity held (BOY ref wired).
+
+**Places — ROAD wired from build-79 (`v2_stash.py --wire`, non-Jesus road frame,
+3 road beats). PORCH + DOCTORS FORCED NO-PROMOTE:** every PORCH beat carries the boy
+in cream (can't promote a cream-bearing frame → row-51/82 rule), and DOCTORS is a
+cast group not a place (a place must never carry a character lock). Both left on their
+prose locks; uniformity QC'd by eye (all porch frames read the same sunlit temple
+colonnade). PLACE-WIRING.json = ROAD only.
+
+**Caption/card QC (rendered mp4, output-seek):** white narrator captions in the bottom
+band only; the t=4s "double text" was verified to be a normal caption CROSSFADE (stable
+points t=2.5s / t=6.5s show clean single captions). Question card ("Even as a boy he
+knew where he belonged. You were made for the Father's house too — come find your
+place.") clean — no tofu/square glyphs, good margins.
+
+**FIX-WAVE (kept — subtle, no filed complaint):** minor Joseph garment-tone drift
+(brown ↔ rust) between b14 and b15; one seated elder in b10 in pale tan reads near-cream
+(the boy is the clear-cream subject). Neither is garbage; rerolling would burn budget.
+
+**Cost:** 2 portraits $0.27 + full run $2.01 + 1 reroll $0.13 = **~$2.41 this row**
+(meter $463.91 → $467.79). Well under the $6.10/row average; 6.7% rerolls under the 19%
+baseline — COST LAW trend holds DOWN.
+
+---
+
 ## ✅ AUDIO FIX DONE — STALE-V1-FINAL lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
 
 Class = STALE-V1-FINAL (duration shortfall), no open Cameron complaint (`v2_outline.py 87`).
