@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 17:24:54",
+ "scanned": "2026-08-07 17:58:17",
  "entries": [
   {
    "row": 1,
@@ -4147,14 +4147,15 @@
    "beat": "v2-r011-b05",
    "file": "build-11-storm/assets-realistic/s05-other-little-boats.jpeg",
    "tokens": [
+    "DISCIPLES",
     "BOAT",
     "SEA-CROSSING-NIGHT"
    ],
-   "jesus": false,
+   "jesus": true,
    "wide": true,
    "night": true,
-   "n_person": 0,
-   "scene": "Out on the open lake at night. The fishing boat pulls away from the shore under a black sky, and behind it two or three other small boats follow, strung out across the dark water, each outlined by moonlight with the pale"
+   "n_person": 2,
+   "scene": "Out on the open lake at night. In the foreground the one large fishing boat pulls away from the shore under a black sky, carrying the whole company \u2014 Jesus seated among his men in his cream wool robe, calm and worn, and "
   },
   {
    "row": 11,
@@ -4167,11 +4168,11 @@
     "BOAT",
     "SEA-CROSSING-NIGHT"
    ],
-   "jesus": false,
+   "jesus": true,
    "wide": true,
    "night": true,
-   "n_person": 2,
-   "scene": "Inside the boat at night, four men at the oars in an easy practised rhythm \u2014 each with both hands closed on the loom, shoulders rolling back into the stroke, feet braced against the deck timbers, the blades dipping and b"
+   "n_person": 3,
+   "scene": "Inside the one large fishing boat at night, big enough to carry the whole company. Four fishermen are at the oars in the foreground in an easy practised rhythm \u2014 each with both hands closed on the loom, shoulders rolling"
   },
   {
    "row": 11,
@@ -4183,14 +4184,15 @@
     "ANDREW",
     "JOHN",
     "JAMES-Z",
+    "DISCIPLES",
     "BOAT",
     "SEA-CROSSING-NIGHT"
    ],
-   "jesus": false,
+   "jesus": true,
    "wide": true,
    "night": true,
-   "n_person": 4,
-   "scene": "The four fishermen at the oars, framed so each face is clearly readable in reflected moonlight \u2014 Peter and Andrew pulling together on one side of the boat, James and John opposite them on the other, all four leaning into"
+   "n_person": 6,
+   "scene": "The one large fishing boat crossing the dark water, big enough for the whole company. In the foreground the four named fishermen are at the oars, each face clearly readable in reflected moonlight \u2014 Peter and Andrew pulli"
   },
   {
    "row": 11,
@@ -4200,14 +4202,15 @@
    "tokens": [
     "PETER",
     "ANDREW",
+    "DISCIPLES",
     "BOAT",
     "SEA-CROSSING-NIGHT"
    ],
-   "jesus": false,
-   "wide": false,
+   "jesus": true,
+   "wide": true,
    "night": true,
-   "n_person": 2,
-   "scene": "Close on Peter and Andrew at the oars in the moonlight. Peter has turned his head to say something back over his shoulder mid-stroke, entirely unbothered, and Andrew is answering with the beginning of a grin, both still "
+   "n_person": 4,
+   "scene": "The one large fishing boat crossing the moonlit water, the whole company aboard and completely at ease. At the oars Peter has turned his head to say something back over his shoulder mid-stroke, entirely unbothered, and A"
   },
   {
    "row": 11,
