@@ -1,3 +1,13 @@
+## 2026-08-07 — ROW 96 (it-is-finished) REALISTIC V2 SHIPPED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** ship `782b5366a38d650faba8b4044b7e07690cafdb8b` (mp4 + QC + boards) + the review.html/SESSION-LOG commit below. SECOND row of this session (row 95 shipped first, same Golgotha passion block). `v2_outline.py 96` = no open complaint; QUEUE row 96 = "It is finished; the veil torn" — not swapped.
+- **Two places:** HILL taken from row 94's approved Golgotha frame; TEMPLE was the author's committed build-06 plate. **Caught the row-50 `--wire` overwrite live** — running `--take HILL` silently re-wired TEMPLE build-06→build-39; re-pinned BOTH tokens explicitly to restore the author's build-06 TEMPLE. PRIEST portrait generated + REF-wired.
+- **13 stills, AUDIO REBUILD PASS 5de333ff**, 80.0s (AUDIO_FROM_V1_SEGMENTS, byte-identical). Timeline pre-checked (max window 72.52 < card_start 72.904 → no overrun; all 13 placed).
+- **CRUCIFIXION RESTRAINT held:** crosses at distance (s07 3-cross wide, s05 3-cross+dice), rope-bound/robed, no nails/gore, storm-dark failing light carries the death; only Jesus cream; locked face across 9 Jesus beats. Veil rent top-to-bottom (ONE veil, HoH revealed) across s09/s10/s12/s13, PRIEST consistent, 7-branch menorah.
+- **Rerolls 1/13 = 7.7%** (s03: first take had a 4-cross contradiction — Jesus foreground + 3 distant crosses; redo landed a clean 3-cross). **~$1.87 row** (13 stills + 1 reroll + PRIEST portrait), meter ~$485.08 — under the $6.10 average, trend DOWN holds.
+- **FIX-WAVE (no filed complaint, not blocking):** crown-of-thorns appears in s04/s05 only (continuity — deliberate harmonization call, not blind-rerolled); s11 faint lip mark; s13 gold-panel sanctum reads slightly flat; s03 side crosses empty. All logged in QC.md.
+- Caption QC PASS (bottom-band, clean beige card "The way to God is open. Walk in."). **Deployed to Firebase + live-verified** (hash on live page, mp4 HTTP 200). STASH rescanned, PUBLISH LOOP synced.
+
 ## 2026-08-07 — ROW 11 (calming-the-storm) C-FIX SHIPPED: Jesus face @0:11 — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** ship commit `b7a7f14c8843ddbe39c1509f1535dfe9cb8aef55` (mp4 + QC + b02 fix + QUEUE) + the review.html/SESSION-LOG/board commit below. Session-chain verified at start: then-top row-95 ship `cc11d2278` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + `v2_outline.py 11` first.
