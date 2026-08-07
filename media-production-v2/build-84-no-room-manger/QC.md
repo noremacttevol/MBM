@@ -43,3 +43,40 @@ would be uninvited angels.
 - TOWN wired from build-38 (generic limestone hill town, light-
   compatible). STABLE promote-first from b13 — its approved frame
   seeds ROW 85's stable scenes directly.
+
+---
+
+## RUNNER QC + SHIP (2026-08-07, Machine A `Dev`, resumed stranded row)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 84` shows NO Cameron complaint
+on this row (AUTHOR-BOARD Compl=0). Nothing to answer; this is a fresh
+first-attempt V2 cut.
+
+**Resume:** prior lane died at 13/34 stills (s01–s13). This session generated
+b14–b34 (v2_gen_api resumes automatically; s01–s13 never re-pulled — COST LAW).
+
+**Light-QC pass (all 34 frames viewed once against must_show/RUNNER-LESSONS):**
+- Row gates all held: NO angels (s31 shows only the brilliant star = heaven's
+  answer); birth never depicted (cuts to the already-swaddled child); manger is
+  a wooden feed-trough on legs in every frame (never a crib); newborn child
+  jesus=False with NO halo anywhere; same ox + grey donkey across frames; time
+  arc day→dusk→lamplit→deep night reads correctly; lamps sit on wicks; only Mary
+  (blue) + Joseph (brown/wool) — no second cream robe (Jesus is the newborn, not
+  shown as an adult, so no cream in the row).
+- **3 rerolls (8.8% of 34 beats — under the 15% COST-LAW budget), all
+  modern-object fails (RUNNER-LESSONS row-71 modern-road + modern-town class):**
+  - **s05** journey wide — reroll: original had a prominent graded modern
+    switchback road cutting the hills. New take = a worn desert footpath, period.
+  - **s27** "the town slept on" (person-free rooftops) — reroll: original was a
+    present-day town (rooftop plastic/black water tanks + solar heater panels).
+    New take = a period limestone stone-block town at night, no modern gear.
+  - **s29** "every crowded house" — reroll: original was a modern hillside town
+    (concrete block houses, rooftop water tanks, a garage door). New take = a
+    period adobe/mud-brick Bethlehem hillside above the cave, clay jars, no
+    modern objects.
+- No collage, no cartoon/CGI-mix frame, no burned-in text, no lens-stare, no
+  giant/shrunken figures, no extra limbs. Plate frames (TOWN, STABLE) QC'd
+  first — period-correct on the kept frames (s14/s25) and on the two rerolls.
+
+**Spend this session:** 21 stills + 3 rerolls = 24 images ≈ **$3.21**
+(meter 426.79 → 430.01). Under the $6.10/row average even counting the resume.
