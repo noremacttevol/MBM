@@ -12,6 +12,23 @@ COMPLAINT-FIRST + LOW-NUMBER LAW: row 107 was the lowest waiting row with an OPE
 
 ---
 
+## 2026-08-07 — ROW 110 (The Lord's Prayer) C-FIX SHIPPED — "this is old pictures version" was a REVIEWER STALE-CACHE bug, NOT a picture defect; swept all 201 cards to the direct raw host, $0 / 0 rerolls — Machine A `Dev` (Opus runner C-FIX lane, UNATTENDED)
+
+**Commit:** C-FIX `d8e2bd697d2f1a9d572bb8c1603f10cb04228356` (site/review.html sweep + complaint-answer flag + gen_site_index.py RAW_BASE hardening + RUNNER-LESSONS + REVIEW-LESSONS resolved + QC.md ledger); claim `581d6ac59`; board-SHIPPED + publish-loop `074c289ca` + this log = follow-on. All on origin/main; Firebase hosting redeployed and live-verified.
+
+COMPLAINT-FIRST + LOW-NUMBER LAWS: row 110 carried the lowest OPEN reviewer complaint, so it outranked all other work. Session-chain verified at start (then-top entry = row 73 author, claim commit `a760f1061`, present in `git log`); hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + RUNNER-LESSONS before touching anything.
+
+**The complaint** (`v2_outline.py 110`, filed 2026-08-06T23:13Z AGAINST the realistic ship's own hash 824b4260):
+> "this is old pictures version i dont know why im seing it here as fixed"
+
+**ROOT-CAUSED as a delivery/cache bug — the mp4 was ALREADY correct, so ZERO credits spent.** Extracted frames at t=3/20/60s from the committed origin/main mp4 → fully realistic biblical photography (olive-grove prayer with locked Jesus + cream robe, kneeling disciples, realistic village forgiveness scene); zero cartoon/old frames. The pictures were never the problem. The bug: every reviewer card streamed video from `github.com/noremacttevol/MBM/raw/main/<path>?v=<hash>`. `curl -sI` proved that URL 302-redirects to `raw.githubusercontent.com` and **STRIPS the `?v=` cache-buster on the redirect** (the `location:` header drops the query). So the buster the generator relied on did nothing — Cameron's browser re-served the OLD-pictures mp4 it had cached from before the 2026-08-06 realistic ship, even though repo + card were correct.
+
+**The fix ($0, systemic sweep — this is the Standing-Order "root-cause and sweep every built row").** Repointed ALL 201 reviewer cards from the redirecting `github.com/.../raw/main/` base to the DIRECT `raw.githubusercontent.com/noremacttevol/MBM/main/` host — no redirect, so `?v=<hash>` survives as a real browser+CDN cache key and a new hash always fetches the current bytes (verified: HTTP 200, no `location`, exact content-length 19,796,928). Hardened the generator `media-production/gen_site_index.py` (RAW_BASE line 30 + the misleading cache-buster comment) so a regen can never reintroduce it. Rewrote the v110 card's "What this cut changed" flag to answer the complaint in Cameron's own words (he was seeing a cached copy; the cut is realistic; fixed for this and all 200). New RUNNER-LESSON recorded (stale-cache delivery class: verify the mp4 before ever rerolling on an "old pictures" complaint). REVIEW-LESSONS row 110 → resolved. Deployed to Firebase, live-verified: v110 serves the direct URL, complaint-answer flag live, 0 broken URLs remain, mp4 loads 200.
+
+**Cost:** $0 image credits (verify-only; delivery/text fix), 0 rerolls, 0 pictures/audio touched — well under the $6.10/row average; COST-LAW trend DOWN. mp4 + narration byte-identical (AUDIO LOCK from the 2026-08-06 ship stands, 4679aacf…). Next: lowest OPEN complaint row.
+
+---
+
 ## 2026-08-07 — ROW 73 (This Day Fulfilled, Luke 4) FULLNESS REBUILD AUTHORED — Cameron's message + face-drift complaint answered at the author level, Ready ✅ for the picture runner — Machine A `Dev` (Fable-5 author lane, $0 image / ~cents ElevenLabs, UNATTENDED)
 
 **Commit:** row 73 package (V1 make_narration.py + build.py + audio/n4·n5·card mp3+timing; V2 make_narration.py + beats_v2.py + ASSEMBLED-PROMPTS.txt + QC.md; AUTHOR-BOARD) + this log = (this commit). On origin/main. Claim commit `a760f1061`.
