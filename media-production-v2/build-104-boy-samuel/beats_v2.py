@@ -48,7 +48,13 @@ LOCKS = {
         "the holy place (never opened, never detailed), a boy's "
         "sleeping mat against one wall, and off the hall the old "
         "priest's small side room. The same hall, lamp and curtain "
-        "throughout."
+        "throughout. FIXED SCREEN GEOGRAPHY (keep it identical in "
+        "every shot so travel reads right): the boy's sleeping mat and "
+        "the curtain to the holy place are on the LEFT of frame; the "
+        "old priest's side room and its doorway are on the RIGHT of "
+        "frame. So whenever the boy goes to Eli he moves LEFT-to-RIGHT, "
+        "toward the right-hand doorway; whenever he is sent back he "
+        "moves RIGHT-to-LEFT, toward his mat."
     ),
     "SAMUEL": (
         "SAMUEL LOCK: Samuel is the same boy in every shot — about "
@@ -164,17 +170,19 @@ BEATS = [
             "He lay asleep on his mat near the holy place while the old "
             "priest Eli, nearly blind with age, slept in his room."
         ),
-        "must_show": "SCRIPTURE-EXACT: the two sleepers — the hall's geography: the boy on his mat near the curtained holy place, and through the side doorway the old heavy priest asleep in his room.",
-        "must_not_show": "no figure of God, no halo; the geography CLEAR — boy in the hall, old man in the side room, the curtain between all and the holiest.",
+        "must_show": "SCRIPTURE-EXACT: the two sleepers — the hall's FIXED geography established: on the LEFT the boy on his mat near the curtained holy place, and on the RIGHT, through the side doorway, the old heavy priest asleep in his room.",
+        "must_not_show": "no figure of God, no halo; the geography CLEAR and pinned — boy + curtain on the LEFT, old man's side room on the RIGHT, the curtain between all and the holiest.",
         "scene": (
             "The night house sleeps, the camera high at the "
             "hall's end taking both sleepers' places in one "
             "profile, in "
-            "its stations: the boy small "
+            "its stations: on the LEFT "
+            "the boy small "
             "on his mat in the lamp's "
             "gold circle, close to the "
             "great curtain's shadow — "
-            "and away through the side "
+            "and on the RIGHT, away "
+            "through the side "
             "doorway, the old priest "
             "heavy on his bed, white "
             "beard rising and falling, "
@@ -226,17 +234,22 @@ BEATS = [
             "He thought it was old Eli needing him, so he ran to him. Here "
             "am I; for thou calldest me."
         ),
-        "must_show": "SCRIPTURE-EXACT: the run to Eli — the boy sprinting barefoot across the dark hall to the old man's bedside: HERE AM I; the sleepy priest lifting his head.",
-        "must_not_show": "no figure of God, no halo; the run INSTANT — a serving child's reflex, no hesitation.",
+        "must_show": "SCRIPTURE-EXACT: the run to Eli, moving LEFT-to-RIGHT — the boy sprinting barefoot from his mat on the LEFT toward the old man's bed on the RIGHT, his body, face and bare feet all driving RIGHTWARD toward Eli ahead of him; Eli lifting his head at frame RIGHT. He runs TOWARD the old man, never away.",
+        "must_not_show": "no figure of God, no halo; the run INSTANT — a serving child's reflex; NEVER running left / toward the curtain / away from Eli — his motion is unmistakably toward the right-hand bed where Eli is.",
         "scene": (
             "The boy is up and running, the camera at the hall's "
-            "side so the sprint crosses in profile toward the old "
-            "man's doorway, "
+            "side so the sprint crosses in clear profile from "
+            "LEFT to RIGHT — from his abandoned mat on the left "
+            "toward the old man's doorway and bed on the right, "
             "before the echo dies: "
             "barefoot across the cold "
             "stone of the dark hall, "
-            "blanket abandoned, skidding "
-            "to the old man's bedside "
+            "blanket abandoned, his lean "
+            "and stride and gaze all "
+            "aimed RIGHTWARD at Eli "
+            "ahead of him, skidding "
+            "to the old man's bedside at "
+            "frame right "
             "with his ready answer "
             "already out — HERE AM I, "
             "FOR THOU CALLEDST ME — a "
@@ -245,6 +258,7 @@ BEATS = [
             "name, run to serve — while "
             "Eli's heavy head lifts "
             "blinking from the pillow "
+            "at frame right "
             "into his permanent dark. "
             "Every figure has two arms, "
             "two hands and one head."
@@ -299,7 +313,8 @@ BEATS = [
             "in it at the broken sleep, "
             "only an old priest's "
             "patience — and the small "
-            "figure turning back into "
+            "figure turning back RIGHT-"
+            "to-LEFT toward his mat in "
             "the dark hall, obedient "
             "and puzzled, sure of what "
             "he heard. Every figure has "
@@ -343,17 +358,23 @@ BEATS = [
             "And the voice came again — Samuel — and again he ran to the "
             "old man, and again Eli sent him back."
         ),
-        "must_show": "SCRIPTURE-EXACT: the second cycle — the boy mid-run across the hall again toward Eli's room, urgency doubled; the repetition itself the picture.",
-        "must_not_show": "ABSOLUTE: no figure or form as the voice; the second run FASTER — certainty growing with each call.",
+        "must_show": "SCRIPTURE-EXACT: the second cycle — the boy mid-run across the hall again, LEFT-to-RIGHT toward Eli's room on the right, body and gaze aimed rightward at the old man ahead of him, urgency doubled; the repetition itself the picture.",
+        "must_not_show": "ABSOLUTE: no figure or form as the voice; the second run FASTER; NEVER running left / away from Eli — same LEFT-to-RIGHT travel toward the right-hand room as the first run.",
         "scene": (
             "The name comes again and "
             "the small feet fly again: "
             "SAMUEL — and he is up and "
             "sprinting the same dark "
-            "diagonal across the hall, "
+            "diagonal LEFT-to-RIGHT "
+            "across the hall, from his "
+            "mat on the left toward the "
+            "old man's room on the right, "
             "surer this time, faster "
-            "this time, skidding into "
-            "the old man's room with "
+            "this time, his lean and "
+            "gaze aimed rightward at "
+            "Eli ahead of him, skidding into "
+            "the old man's room at "
+            "frame right with "
             "the same brave answer — "
             "and being sent gently back "
             "the same way — a night "

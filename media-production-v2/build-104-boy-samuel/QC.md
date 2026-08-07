@@ -1,5 +1,51 @@
 # QC / RUNNER HANDOFF — build-104-boy-samuel (1 Samuel 3)
 
+## ✅ AUTHOR DONE — 2026-08-07 (Machine A `Dev`, Fable-5 author lane, $0) — RUNNING-WRONG-WAY FIX
+
+**OPEN complaint (`v2_outline.py 104`): "0:35 pic Samuel is running the wrong way,
+same thing with 0:53."** Root-caused + author-fixed in `beats_v2.py`.
+
+### Root cause (row-14 travel-direction law)
+0:35 = **b06** (s06, the first run to Eli) and 0:53 = **b10** (s10, the second run).
+Both scenes said only "sprint across the hall TOWARD the old man's doorway" — they
+never PINNED which SIDE of frame Eli's room is on, so the model drew Samuel running
+toward the curtain / away from where Eli sits, i.e. the wrong way. The wide
+establishing shot **b04** also left the two rooms' sides unpinned, so nothing fixed
+the geography for the runs to agree with.
+
+### What the author did ($0)
+1. **Pinned a FIXED SCREEN GEOGRAPHY in the HOUSE lock:** the boy's mat + the holy-
+   place curtain are on the **LEFT**; Eli's side room + doorway are on the **RIGHT**.
+   So going to Eli is always **LEFT→RIGHT**; being sent back is **RIGHT→LEFT**.
+2. **b04 (establish):** stated boy/curtain LEFT, Eli's room RIGHT so the wide shot
+   sets the same geography the runs rely on.
+3. **b06 (0:35) + b10 (0:53):** rewrote must_show / must_not_show / scene so Samuel
+   runs unmistakably LEFT→RIGHT — body, lean, bare feet and gaze all aimed rightward
+   at Eli **ahead of him**, arriving at the right-hand bed; explicitly "runs TOWARD
+   the old man, never away / never left toward the curtain."
+4. **b08 (sent back):** pinned the return as RIGHT→LEFT toward his mat, so the
+   reversal is consistent and doesn't read as a new wrong-way.
+5. `v2_prompt.py --check` **PASS (22 beats)**; audio untouched (Audio col OK).
+
+### 🅿️ RUNNER — the paid step (minimal re-cut, then ship)
+- **Regen `s06` and `s10`** (the two complaint frames) over the fixed prompts — Samuel
+  clearly running LEFT→RIGHT toward Eli in both. **Check `s04`'s current render:** if
+  it already shows the boy/curtain on the LEFT and Eli's room on the RIGHT, keep it
+  byte-identical; if it's mirrored (Eli on the left), regen `s04` too so the runs
+  agree with the establishing shot. **KEEP every other still byte-identical.**
+- Body-board Samuel (one age/size/blue tunic, lesson-56 class) + beard-board Eli on
+  any regenerated frame; re-assemble (AUDIO byte-identical), ship via C-FIX flow.
+- Cost: 2 (or 3 with s04) / 22 = ≤14% — within the reroll budget.
+
+### COMPLAINT LEDGER — the review card must tell Cameron, in his words
+1. **"0:35 Samuel is running the wrong way"** → s06 regenerated: Samuel now runs
+   left-to-right straight TOWARD Eli, facing and leaning toward the old man ahead of
+   him, arriving at his bedside — no longer running away.
+2. **"same thing with 0:53"** → s10 regenerated the same way: the second run is the
+   same clear left-to-right dash toward Eli, matching the pinned hall geography.
+
+---
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 22 beats, ~122 s.
 
