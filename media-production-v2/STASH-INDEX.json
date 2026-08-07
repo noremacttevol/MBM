@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 09:56:54",
+ "scanned": "2026-08-07 10:05:37",
  "entries": [
   {
    "row": 1,
@@ -35196,6 +35196,582 @@
    "night": false,
    "n_person": 2,
    "scene": "At the same green bend the door stands open and working: John waist-deep with the next penitent \u2014 the old praying woman, her face already breaking \u2014 the line moving down the trodden slope behind her, the river receiving "
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b01",
+   "file": "build-70-temptations/assets/s01-straight-from-the-river-still.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Up out of the river valley Jesus climbs alone into the badlands \u2014 behind and below him the Jordan's green thread and the last tamarisks, ahead of him nothing but broken sun-scorched rock rising to a bare skyline \u2014 his st"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b02",
+   "file": "build-70-temptations/assets/s02-not-by-accident.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on Jesus's face against the badlands' shimmer: the warm eyes set forward with the unmistakable focus of a kept appointment \u2014 no drift in the gaze, no glance back at the green \u2014 a man walking into forty days the way"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b03",
+   "file": "build-70-temptations/assets/s03-notice-what-he-did-not.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "A close still in the hard noon light: the scatter of loaf-shaped desert stones lying exactly where the ages left them \u2014 sun-split, dust-filmed, and utterly, permanently stone \u2014 the most famous un-performed miracle in his"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b04",
+   "file": "build-70-temptations/assets/s04-before-the-teaching-before-the.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The waste at full scale: broken badlands running ridge behind ridge to a bare horizon, heat-shimmer standing off the rock, not one green blade or moving creature anywhere \u2014 and small in the middle distance, the single cr"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b05",
+   "file": "build-70-temptations/assets/s05-he-fasted-forty-days-and.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "At the low overhung ledge the fast keeps its long house: Jesus seated in its thin shade visibly weeks in \u2014 the robe hanging looser, the cheekbones rising, a line of small stones set in a row at the ledge's lip like count"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b06",
+   "file": "build-70-temptations/assets/s06-mark-that-he-was-not.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on Jesus's face deep in the fast: lips cracked white at their corners, the cheeks hollowed under the dust-greyed beard, the skin drawn over bones the river never showed \u2014 and in the warm eyes, undimmed, the same st"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b07",
+   "file": "build-70-temptations/assets/s07-and-when-he-was-at.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "At the ledge on the fortieth noon the silence changes weight: the heat-shimmer stills, the waste's light goes subtly flat \u2014 and Jesus's gaunt head lifts, slowly, toward an empty quarter of air off the shade's edge, his e"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b08",
+   "file": "build-70-temptations/assets/s08-if-thou-be-the-son.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Close at the shade's edge: a scatter of rounded desert stones lying in the glare \u2014 sun-baked to a crust-brown, domed and cleft exactly as loaves are domed and cleft, one even dusted pale as flour \u2014 geology's accidental b"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b09",
+   "file": "build-70-temptations/assets/s09-hear-what-that-little-word.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the gaunt face in the flat light: the little word's hook visibly landing and finding no purchase \u2014 the eyes steady with something held behind them, a river's sentence standing guard \u2014 a starving man being invite"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b10",
+   "file": "build-70-temptations/assets/s10-the-very-first-attack-was.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A remembered brightness against the desert dark: the river moment as it was \u2014 the wet shoulder, the white dove settled plain upon it, the great rift of clean sky standing open above the green water \u2014 the exact minting of"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b11",
+   "file": "build-70-temptations/assets/s11-and-the-bait-was-reasonable.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "In the hard light Jesus's wasted hand hangs above the most loaf-like of the stones \u2014 near enough that one closing of the fingers would decide it, the knuckles sharp under the skin, the arm trembling faintly with the fast"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b12",
+   "file": "build-70-temptations/assets/s12-use-what-you-are-for.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in workshop light: a carpenter's well-kept tools \u2014 adze, plane, mallet \u2014 lying at rest on a bench beside a plain unfinished table, and on the bench's far end the workman's own meal: bread and water untouche"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b13",
+   "file": "build-70-temptations/assets/s13-it-is-written-man-shall.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The answer goes out into the empty air: Jesus's cracked lips shaping the written sentence with a scholar's precision and a starving man's breath \u2014 his hand withdrawing from above the loaf-stone to rest on his own knee \u2014 "
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b14",
+   "file": "build-70-temptations/assets/s14-he-did-not-argue.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the gaunt face after the answer: nothing further forming in it \u2014 no rebuttal gathering, no clever second line, no flicker of a man enjoying an exchange \u2014 the features settled back into the fast's patience like a"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b15",
+   "file": "build-70-temptations/assets/s15-he-answered-with-a-line.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in plain lamplight: a small worn scroll lying open on a household shelf, one line of its dense script rubbed faintly shinier than the rest by a returning thumb \u2014 beside it a child's practice tablet with the"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b16",
+   "file": "build-70-temptations/assets/s16-the-son-of-god-fought.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "At the ledge in the hard light Jesus sits with his empty hands open on his knees \u2014 no staff, no scroll, no bread, nothing in the whole camp but a row of counted stones and the words he carries in memory \u2014 the best-armed "
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b17",
+   "file": "build-70-temptations/assets/s17-the-second-try-was-stranger.jpeg",
+   "tokens": [
+    "PINNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The temple's highest corner in white morning light: the narrow stone parapet running to its south-east angle, wind moving dust along the coping, and past its edge the courts' pale geometry falling away small below \u2014 a le"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b18",
+   "file": "build-70-temptations/assets/s18-in-a-flash-he-was.jpeg",
+   "tokens": [
+    "PINNACLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the parapet's very angle Jesus stands with the wind pressing his robe \u2014 the great courts and then the whole city dropping away small below him, the Kidron a shadow-thread beyond \u2014 alone on masonry no one stands on, hi"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b19",
+   "file": "build-70-temptations/assets/s19-led-there.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "On the climbing track into the badlands Jesus walks with the wind full at his back \u2014 the dust streaming past his ankles ahead of him, the robe pressed forward against his shoulders like a hand \u2014 a man not wandering but c"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b20",
+   "file": "build-70-temptations/assets/s20-if-thou-be-the-son.jpeg",
+   "tokens": [
+    "PINNACLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "From behind Jesus's shoulder the proposal shows its arena: the parapet's edge and then the fall \u2014 course below course of pale masonry dropping to a court where worshippers move small as grain \u2014 the leap's whole theatre l"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b21",
+   "file": "build-70-temptations/assets/s21-he-got-hungrier-every-single.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "At the ledge in the dusk's cold Jesus sits with one fist pressed hard against his own middle \u2014 the oldest, commonest gesture of an empty stomach \u2014 his gaunt face bearing it the way working men bear it, jaw set, breath me"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b22",
+   "file": "build-70-temptations/assets/s22-throw-yourself-down-it-said.jpeg",
+   "tokens": [
+    "PINNACLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close at the parapet's lip: Jesus's worn sandalled feet planted a hand's width from the edge \u2014 the wind snapping the robe's hem past them, the drop's pale depth falling away beyond the toes \u2014 and the feet utterly unmovin"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b23",
+   "file": "build-70-temptations/assets/s23-make-god-perform.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still in flat daylight: a street conjurer's little folding table standing abandoned in a market corner \u2014 the battered cups, the hidden-pea props, the worn velvet gone bald at the corners \u2014 the whole tired machine"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b24",
+   "file": "build-70-temptations/assets/s24-it-is-written-again-thou.jpeg",
+   "tokens": [
+    "PINNACLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the pinnacle Jesus turns from the edge \u2014 the answer leaving him as his shoulder comes around, the written line delivered over it into the bright empty height \u2014 his feet already carrying him back along the parapet towa"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b25",
+   "file": "build-70-temptations/assets/s25-trust-does-not-run-experiments.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last arena assembles itself: a black rock crown standing above the cloud-line in the day's most gorgeous hour \u2014 and below and beyond it, breaking into view through the cloud-gaps, the first glimpses of the lit world:"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b26",
+   "file": "build-70-temptations/assets/s26-from-a-high-mountain-all.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "From the black rock crown the world performs its whole inventory: kingdoms spread to every horizon under the sunset \u2014 marble cities catching the last gold, harbours crowded with sails, mountain roads strung with caravans"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b27",
+   "file": "build-70-temptations/assets/s27-all-these-things-will-i.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The offer's two halves share one close frame: filling most of it, the vista's richest reach \u2014 a golden capital on its river, glory upon glory in the sunset \u2014 and at the frame's near edge, in shadow, one flat patch of bar"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b28",
+   "file": "build-70-temptations/assets/s28-all-of-it-yours-right.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's gaunt face with the burning kingdoms soft behind it: the offer registering honestly \u2014 the eyes moving once across all that gold, the weight of the shortcut landing as real weight \u2014 and underneath the reg"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b29",
+   "file": "build-70-temptations/assets/s29-everything-he-came-to-win.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Extreme close in the sunset's edge-light: the flat patch of bare black rock \u2014 pitted, cooling, exactly knee-sized \u2014 the smallest real estate in the whole gorgeous evening, and the only ground the entire offer actually wa"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b30",
+   "file": "build-70-temptations/assets/s30-heaven-had-just-said-this.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The memory at its core: the great bright rift standing open in the cloud over the green Jordan, daylight doubled on the moving water below \u2014 no figure in frame, just the opened heaven and the river it spoke over \u2014 the IS"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b31",
+   "file": "build-70-temptations/assets/s31-get-thee-hence-satan-for.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the black crown against the burning sky Jesus stands at his full gaunt height, one arm flung straight toward the empty air off the summit's edge \u2014 the command leaving him with the whole authority the forty days have b"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b32",
+   "file": "build-70-temptations/assets/s32-get-away-from-me-he.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the sunset's last strength: the command gone out and the features already settling behind it \u2014 no lingering on the vista, no backward audit of the offer's terms, not one grain of a negotiator's r"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b33",
+   "file": "build-70-temptations/assets/s33-he-named-it-and-ended.jpeg",
+   "tokens": [
+    "SUMMIT",
+    "MINISTERS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The summit's air stands suddenly clean, the camera at the crown's edge taking all three figures in profile, \u2014 the flat wrongness gone out of the light, the wind ordinary again \u2014 and up over the black rocks the two deep-b"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b34",
+   "file": "build-70-temptations/assets/s34-and-it-was-over-the.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the crown's rock Jesus sits down at last \u2014 the first sitting of victory, knees up, head back against the stone, the long exhale of forty days leaving him visibly \u2014 while beyond his rest the dusk horizon runs its quiet"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b35",
+   "file": "build-70-temptations/assets/s35-and-angels-came-and-ministered.jpeg",
+   "tokens": [
+    "SUMMIT",
+    "MINISTERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Dawn comes up clean over the summit \u2014 and the ministering with it: the two blue-robed figures kneeling on the rock beside the seated Jesus, one breaking bread directly into his wasted hands, the other settling the blanke"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b36",
+   "file": "build-70-temptations/assets/s36-bread-after-the-fast-company.jpeg",
+   "tokens": [
+    "MINISTERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the dawn light: Jesus's gaunt hands around a torn piece of real bread, eating with the careful slowness of a long fast's first meal \u2014 eyes closed over the taste \u2014 while at his shoulder a blue-sleeved hand rests "
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b37",
+   "file": "build-70-temptations/assets/s37-his-father-had-not-been.jpeg",
+   "tokens": [
+    "SUMMIT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the young dawn: fed now, warmed, the blanket's edge at his jaw \u2014 and the features resting in a peace with history in it: not relief that help finally came, but the settled vindication of a man wh"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b38",
+   "file": "build-70-temptations/assets/s38-for-we-have-not-an.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still on plain dark cloth: three small stones laid side by side \u2014 a crust-brown loaf-shaped desert stone, a pale chip of temple masonry, a black flake of summit rock \u2014 the three examinations' exhibits, gathered a"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b39",
+   "file": "build-70-temptations/assets/s39-he-did-not-use-his.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on Jesus's two hands open in his lap in the desert light: wasted, steady, and utterly at rest \u2014 hands that calmed water and will raise the dead, holding nothing, changing nothing, taking nothing \u2014 the fullest power"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b40",
+   "file": "build-70-temptations/assets/s40-that-is-what-the-book.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "At a plain table in a lamp's small circle a weary man sits with his head in his hands \u2014 the posture of any hard midnight, the struggle unnamed \u2014 and at his elbow, open where a thumb has worried it soft, a small scroll's "
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b41",
+   "file": "build-70-temptations/assets/s41-hungry-alone-offered-every-shortcut.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The ledge camp stands empty in the dusk: the row of forty counted stones along its lip, the ground worn smooth where one body kept its vigil, the overhang's shadow reaching out across rock that held a starving man throug"
+  },
+  {
+   "row": 70,
+   "build": "build-70-temptations",
+   "beat": "v2-r070-b42",
+   "file": "build-70-temptations/assets/s42-he-has-stood-in-your.jpeg",
+   "tokens": [
+    "DESERT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Down the dawn-lit track Jesus walks out of the badlands toward the green valley and the waking world \u2014 fed, warmed, the blanket folded over one shoulder, his stride carrying the new gravity of a man coming from a won war"
   },
   {
    "row": 71,

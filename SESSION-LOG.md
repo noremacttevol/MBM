@@ -1,3 +1,21 @@
+## 2026-08-07 — ROW 70 (the-temptations, Matt 4) REALISTIC-V2 SHIPPED + DEPLOYED — open "I-S / proceedeth" complaint FIXED & proven in shipped audio — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commits:** claim = `f29ccad04`; ship (mp4 + QC + PLACE-WIRING + boards + QUEUE) = `4414d1d1a960b801cf72346f865f7a05e7579347`; review-card + SESSION-LOG + api-spend = this commit. Session-chain verified at start (then-top = rows 179/180/181 authored, commit `610d05193` present in `git log`); hostname `Dev` = Machine A. Followed PROMPT-OPUS-RUNNER.md; read the two META-LAWS + all 14 rubric lessons + all 580 lines of RUNNER-LESSONS.md before the first credit.
+
+**Row 70 was the lowest Ready ✅ / empty-claim row (LOW-NUMBER LAW). Cross-checked against QUEUE.md — story = "The temptations, Matt 4", NOT swapped — safe to build.**
+
+**Complaint class = the RUNNER-LESSONS "pronunciation fix already baked → SHIP, not park" exception.** `v2_outline.py 70` open complaint: narrator spells "I-S" + "proceedeth" wrong. Author had already fixed BOTH at the audio authority: n2 reads if/is as words; j1 re-voiced on the SAME locked ElevenLabs Jesus "Chris" with proceedeth→proceeduth (pro-SEE-duhth), atempo-matched to 7.837s, `AUDIO_FROM_V1_SEGMENTS=True`. Verified the fix reached the shipping audio before spending: V1-dir `j1.mp3` md5=`7f083601811f3c79705c1077adff90a4` (the fixed take), and the delivered cut's **AUDIO REBUILD PASS SHA256=06286953a1e38ed91b11e385a924da109ff9396658d40a68d6db89dfbc4bd796** is the cryptographic proof. Not a re-voice this session — the runner shipped the already-corrected byte-content.
+
+**Build:** 42 realistic stills at native 2K (V1 had 9), 248.6s, 21.7 MB. Three places promoted-first from their own first solo frames (DESERT s04, PINNACLE s18, SUMMIT s26); MINISTERS is CAST. 0 portraits. A-LAW held — the adversary is NEVER depicted; Jesus is ALONE in every temptation frame; the dismissal is his arm flung to empty air; the only non-Jesus figures are the two blue-robed, human, wingless, proportionate ministers (b33-36). Only Jesus wears cream. Row-74 stale-window check PASS (card_start 236.975s / mp4 248.67s → full card present).
+
+**Light QC (1 sweep, 7 contact sheets + zoom): 2 rerolls / 42 = 4.8% (under 15% budget):** b03 (modern lug-sole boot-tread prints in the sand → clean solitude desert) and b10 (collage/double-Jesus inset → single clean dove-on-shoulder baptism echo). FIX-WAVE (kept): s38 ambiguous bright top-edge; s42 traveling mantle slightly striped.
+
+**DEPLOY + live-verify (7c) — DONE.** `firebase deploy --only hosting` 429'd on the Hosting storage quota → `prune_hosting_versions.py` (pruned 6 old versions) → redeploy succeeded (release complete, 435 files). Live-verified: `https://milk-b4-meat.web.app/review.html` card v70 carries `data-hash="4414d1d1a960b801cf72346f865f7a05e7579347"` + `data-review-wave="realistic-v2"`, and the mp4 at the DIRECT raw.githubusercontent.com host returns **HTTP 200, content-length 21,709,430** (no redirect, `?v=` survives per the row-110 cache fix). A row is shipped only when the live page carries the new hash — it does.
+
+**Cost:** anchors $0.40 + full run $5.23 + 2 rerolls $0.27 = **~$5.90 this row** (meter $444.21 → $452.65). **Under the $6.10/row running average**, 4.8% rerolls (under the 19% baseline) — COST LAW trend holds DOWN. STASH-INDEX re-scanned (step 8) and PUBLISH LOOP synced below.
+
+---
+
 ## 2026-08-07 — ROWS 179, 180 & 181 AUTHORED (Ready ✅) — 2 OPEN complaints FIXED (Stephen's two-personage vision + Job pictures-dont-fit) — $0 Fable-5 author lane — Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** row 179 = `81a5d9fa5`; row 180 = `3f0966887`; row 181 = `610d05193`. All on origin/main (each pushed as it finished; targeted `git add` of only that row's beats_v2.py + QC.md + ASSEMBLED-PROMPTS.txt + board line, plus V2-REBUILD-RUBRIC.md for row 179's lesson — the tree is ~140 files dirty from live autopilot lanes sharing it, so NEVER a tree-wide `git add -A` / rebase / stash / reset; `git pull --rebase` was BLOCKED by the dirty tree, but the SessionStart fetch showed origin already up to date and `git log` confirmed the chain, so I worked forward without rebasing). Session-chain verified at start (then-top = rows 176/177/178 authored, commit `68f2d5882`/`81fc3763b` present in `git log`); hostname `Dev` = Machine A.

@@ -132,6 +132,13 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **Modern objects sneak in**: hurricane/kerosene lamps (b41 war tent), modern
   chairs (b41), school slates chalked with ARABIC NUMERALS (b41 — period
   writing only, or blank), wristwatches, buttons, stitched tailoring.
+- **Modern LUG-SOLE boot/sneaker TREAD PRINTS pressed into desert sand/dirt**
+  (2026-08-07, row 70 b03 stones-in-the-desert): a ground-level desert frame with
+  bare sand in the foreground can render crisp herringbone/waffle hiking-boot or
+  sneaker sole prints — a modern-footwear anachronism hiding in the dirt while the
+  figures/props all look period. First-century sandals leave a flat print, never a
+  lugged tread. Scan the SAND/DIRT of every ground-level or overhead desert/path
+  frame for tread patterns; reroll on sight (one `--redo` cleared it, $0.13).
 - **Wrong aspect inside the canvas**: a 16:9 image letterboxed inside the 9:16
   frame (b41) — reroll on sight, never crop-rescue.
 - **Second cream-robed figure**: ONLY Jesus wears cream; any other cream robe
