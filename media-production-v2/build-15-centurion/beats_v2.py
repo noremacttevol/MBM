@@ -233,15 +233,17 @@ BEATS = [
         "char_refs": ['assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("A servant in those days was treated as property. If he died, "
                       "most masters would simply replace him."),
-        "must_show": "close on the young servant's face — a boy, and plainly nobody important to the world.",
-        "must_not_show": "no pity-mongering; the frame is plain and the narration does the work.",
+        "must_show": "close on the young servant's face — pale and drawn with illness but plainly a living person, and nobody important to the world.",
+        "must_not_show": "no pity-mongering; the frame is plain and the narration does the work. His face is PALE-BUT-ALIVE, never grey, waxy or corpse-like.",
         "scene": (
-            "Close on the young servant's face on the folded blanket. He is very young "
-            "— smooth-cheeked, dark curls damp on his forehead, deep shadows under "
-            "closed eyes, his mouth slightly open as he breathes shallowly. His plain "
+            "Close on the young servant's face on the folded blanket. His smooth young "
+            "face is pale and drawn with illness, but the warm living undertone is still "
+            "there — never grey, never waxy, never ashen. Short dark hair lies damp and "
+            "pushed off his forehead, deep shadows under his closed eyes, his mouth "
+            "slightly open as he breathes shallowly. His plain "
             "undyed servant's tunic is worn thin at the collar. Bars of hard daylight "
             "fall across him. He has one head."
-            " Shot on a 100mm lens wide open: his face sharp from the damp curls to the open mouth, the blanket and the room falling away into soft grey."
+            " Shot on a 100mm lens wide open: his face sharp from the damp dark hair to the open mouth, the blanket and the room falling away into soft shadow."
         ),
     },
     {
@@ -256,12 +258,12 @@ BEATS = [
             "The centurion sits on a low stool pulled up beside the servant's bed, "
             "still in his cuirass and red cloak, his crested helmet set down on the "
             "tiled floor at his feet. He is leaning forward with his forearms on his "
-            "knees, hands loosely clasped, simply watching the boy's face. His "
+            "knees, hands loosely clasped, simply watching the young servant's face. His "
             "expression is worn out and worried and completely unguarded. He has "
             "plainly been sitting there a long time. Bars of daylight cross the room. "
             "The camera is back far enough to hold both men. Every figure has two "
             "arms, two hands and one head."
-            " THERE ARE EXACTLY TWO PEOPLE IN THIS ROOM AND NO THIRD: the seated officer and the boy on the bed. No second soldier, and no shoulder, arm or helmet of another man anywhere in the frame, in focus or out of focus. The boy is the SAME young man as the attached photograph — same face, same short dark hair, same sand-brown tunic. Shot on a 40mm lens from the foot of the bed at seated height, the officer in clean side profile on his stool and the boy's grey face sharp beyond him, neither face turned toward the lens. Hard morning sun from the right in bars."
+            " THERE ARE EXACTLY TWO PEOPLE IN THIS ROOM AND NO THIRD: the seated officer and the young servant on the bed. No second soldier, and no shoulder, arm or helmet of another man anywhere in the frame, in focus or out of focus. The servant is the SAME young man as the attached photograph — same face, same short dark hair, same sand-brown tunic, PALE-BUT-ALIVE and never grey. Shot on a 40mm lens from the foot of the bed at seated height, the officer in clean side profile on his stool and the young servant's pale, drawn but living face sharp beyond him, neither face turned toward the lens. Hard morning sun from the right in bars."
         ),
     },
     # ------------------------------------------------- n5/n6 — he goes ----
@@ -888,8 +890,8 @@ BEATS = [
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("When the officer reached home, his servant rose to meet him at "
                       "the door, alive and well."),
-        "must_show": "the boy standing in the doorway on his own legs as the officer arrives — the master stopped dead on the threshold.",
-        "must_not_show": "do not put Jesus in this frame; the boy is STANDING, not in bed.",
+        "must_show": "the young servant standing in the doorway on his own legs as the officer arrives — the master stopped dead on the threshold.",
+        "must_not_show": "do not put Jesus in this frame; the young servant is STANDING, not in bed. He is the SAME young man as the healed-servant photograph — colour back in his face, never grey.",
         "scene": (
             "The centurion has come in through the outer door and stopped dead on the "
             "threshold, still in his cuirass with the helmet under his arm — and the "
@@ -898,7 +900,7 @@ BEATS = [
             "officer's whole body has frozen mid-step. Hard afternoon daylight across "
             "the tiles between them. The camera is back far enough to see both men "
             "head to feet. Every figure has two arms, two hands and one head."
-            " Shot on a 35mm lens from inside the room and to the side of both men: the officer is seen in three-quarter from behind, frozen on the threshold, and the boy's face is sharp beyond him in the inner doorway. Warm afternoon daylight across the tiles between them."
+            " Shot on a 35mm lens from inside the room and to the side of both men: the officer is seen in three-quarter from behind, frozen on the threshold, and the young servant's face is sharp beyond him in the inner doorway. Warm afternoon daylight across the tiles between them."
         ),
     },
     {
@@ -925,18 +927,18 @@ BEATS = [
         "locks": ["CENTURION", "SERVANT", "ROMAN-HOUSE"],
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("He had trusted Jesus's word, and the word had been enough."),
-        "must_show": "the closing frame: the officer holding the boy — an armoured Roman with both arms around a slave.",
+        "must_show": "the closing frame: the officer holding the young servant — an armoured Roman with both arms around a slave.",
         "must_not_show": "do not put Jesus in this frame; nobody else is present. The whole story ends with the two people it was about.",
         "scene": (
             "The centurion has crossed the room and taken the young servant in both "
             "arms, the dropped helmet lying on the tiles behind him, one iron-clad arm "
-            "around the boy's thin shoulders and his other hand cupped behind his head. "
-            "The boy's arms have come up around him. An officer of the occupying army "
+            "around the young servant's thin shoulders and his other hand cupped behind his head. "
+            "The young servant's arms have come up around him. An officer of the occupying army "
             "holding a slave, in an empty room, with nobody watching and nobody to "
             "perform it for. Warm afternoon light through the shutter. The camera is "
             "back far enough to hold both of them and the quiet room. Every figure has "
             "two arms, two hands and one head."
-            " Shot on a 35mm lens from the side and a little behind the officer, his armoured back large in the near frame and the boy's face over his shoulder, neither of them turned toward the lens. Warm low afternoon sun through the shutter from the right."
+            " Shot on a 35mm lens from the side and a little behind the officer, his armoured back large in the near frame and the young servant's face over his shoulder, neither of them turned toward the lens. He is the SAME young man as the healed-servant photograph, colour back in his face. Warm low afternoon sun through the shutter from the right."
         ),
     },
 ]
