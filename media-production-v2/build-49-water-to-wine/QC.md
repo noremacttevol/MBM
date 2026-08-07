@@ -60,9 +60,59 @@ plate for it (three distinct servants: face-board them instead).
 
 ---
 
+## C-FIX (Machine A `Dev`, 2026-08-07) — Cameron's picture complaint, ALL fixed
+
+**Complaint (`v2_outline.py 49`, against the live shipped cut `b7f622627`):**
+> "2:42 the water turning into wine does not need a cadle flame in it. That is
+> weird. And mother mary standing so close to Jesus in those couple of pics is
+> weird @ 0:50 & 0:57"
+
+Picture-domain, not audio. Mapped each timestamp to its still by extracting the
+frame from the shipped mp4 and matching content (Ken Burns pan → still):
+
+**COMPLAINT LEDGER (this re-cut, touch-once — all three offenders re-rolled):**
+- **2:42 "candle flame in the wine" → `s29` (b29) FIXED.** The old scene text
+  literally asked for "the strung lamps' small flames riding its moving surface,"
+  so the model painted a lit flame floating IN the cup. Rewrote b29 to smooth
+  dark-red wine under a soft even lamplight with an explicit must_not_show: "NO
+  flame, candle, wick, ember or bright point of light on or inside the liquid."
+  Re-rolled → the cup now shows plain dark-red wine, the oil lamp only in the
+  far background. No flame in the cup.
+- **0:50 "Mary too close to Jesus" → `s09` (b09) FIXED.** Old scene text: "Mary's
+  lifted face a hand's breadth from her son's" — produced a forehead-to-forehead,
+  lover-like framing. Rewrote to "a natural, respectful arm's-length beside her
+  grown son, half-turned to speak … their faces apart" + must_not_show "foreheads
+  never touch, no intimate or romantic framing." Re-rolled → they now stand a
+  normal conversational distance apart in the lamplit hall.
+- **0:57 "Mary too close to Jesus" → `s11` (b11) FIXED.** Old scene text: "the two
+  faces stay close … one hand risen lightly toward her shoulder" — produced a
+  near-embrace. Rewrote to "a natural step … his hands quietly at his sides — no
+  reaching, no touch" + must_not_show "he does NOT reach for, touch, or embrace
+  her — no hand to her shoulder, no intimate or romantic framing." Re-rolled →
+  mother and son face each other at arm's-length, no contact.
+
+**Identity/law checks on the three re-rolls:** Mary stays the canonical mother
+(indigo mantle, madder-rose dress, ~50, silvering hair, serene) — consistent with
+s16 canonical frame. Jesus canonical (cream robe, dark wavy hair, full beard,
+only-Jesus-in-cream) — no second cream figure in the s09 crowd. No halo/glare/
+rim-light. `--check` v4 checklist PASS. Audio untouched — re-assemble AUDIO LOCK
+PASS, narration byte-identical to the shipped cut.
+
+**Reroll ledger (COST LAW):** 3 rerolls / 40 beats = **7.5%** (budget 15%). Spend
+this session ≈ 3 × $0.134 = **$0.40**, all image cost, $0 audio. Touch-once: all
+three open picture defects batched into ONE re-cut.
+
+**Root-cause lesson for the pipeline:** on a Jesus+family two-shot, "a hand's
+breadth" / "faces stay close" / "hand toward her shoulder" reads as ROMANTIC, not
+maternal — mother-son beats must state a respectful arm's-length. And "lamp flames
+riding the [liquid] surface" paints a flame INSIDE a cup/vessel. Logged to
+RUNNER-LESSONS.
+
+---
+
 ## RUNNER QC + SHIP (A-auto Machine A, 2026-08-06)
 
-**COMPLAINT LEDGER: none open.** `v2_outline.py 49` shows no filed complaint on
+**COMPLAINT LEDGER: none open (at first ship).** `v2_outline.py 49` shows no filed complaint on
 row 49. The row-adjacent pronunciation family ("Cana = Kane-a", row 50 card) is
 an AUDIO matter, and the audio here is the locked V1 stream (AUDIO LOCK PASS on
 assemble) — not re-voiced, per REDO-ALL/SPEAKER law. Row 50/51 are correctly

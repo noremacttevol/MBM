@@ -1,0 +1,14 @@
+{
+ "COURT": {
+  "manual": true,
+  "src_beat": "s02-not-calming-a-storm-he",
+  "src_build": "build-49-water-to-wine",
+  "src_file": "build-49-water-to-wine/assets/s02-not-calming-a-storm-he.jpeg"
+ },
+ "JARS": {
+  "manual": true,
+  "src_beat": "s21-standing-nearby-were-six-big",
+  "src_build": "build-49-water-to-wine",
+  "src_file": "build-49-water-to-wine/assets/s21-standing-nearby-were-six-big.jpeg"
+ }
+}
