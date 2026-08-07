@@ -1,3 +1,19 @@
+## 2026-08-07 (social session, pt.3) — ROW-ORDER POSTING + MASTER TRACKER — Machine A `Dev`
+
+**Commit:** (this commit — social/ + this entry only, by pathspec)
+
+Cameron's order: post in ROW order, lowest number first (the numbers are his ordering,
+never in titles), and build one big tracker showing everything per video including
+whether it's in the app. Done: (a) `YOUTUBE-UPLOAD-SHEET.md` regenerated in row order
+01→114; (b) **`social/TRACKER.md` is now THE master status board** — one line per video
+(all 44), scripture, length, In-App ✅ (verified per-row against
+media-production-v2/PUBLISH-LEDGER.json — all 44 live on v2 cuts), and tick-boxes for
+YT/IG/TT/FB (IG marked — for the 17 videos over 3:00), plus the 8 changed-cut rows
+waiting on Cameron's re-approval; (c) POST-QUEUE per-entry Posted lines removed — status
+lives ONLY in TRACKER.md (no double bookkeeping); (d) SCHEDULE.md rewritten to row-order
+cadence (YouTube got the bulk pass; the calendar governs IG/TT/FB). Future sessions:
+refresh script → POST-QUEUE entry → TRACKER row, and tick TRACKER as things post.
+
 ## 2026-08-06 (social session, pt.2) — YOUTUBE UPLOAD SHEET for all 44 approved videos — Machine A `Dev`
 
 **Commit:** (this commit — social/ + this entry only, committed by pathspec per the index-race lesson)
