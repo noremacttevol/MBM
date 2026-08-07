@@ -10,8 +10,8 @@ SCRIPTURE FACTS (Genesis 28 KJV):
   v12   the dream: "a LADDER set up on the EARTH, and the top of it
         reached to HEAVEN: and behold the ANGELS OF GOD ASCENDING AND
         DESCENDING on it." — traffic both ways, rooted in his ground.
-  v13   "the LORD stood ABOVE it" — rendered as presence/brilliance
-        at the summit opening, NEVER a figure (God-rendering law).
+  v13   "the LORD stood ABOVE it" — the embodied Father SHOWN standing
+        in the opening of heaven at the summit (see GOD-rendering note).
   v13-14 the Abrahamic promise: the land, the seed "as the DUST OF
         THE EARTH."
   v15   "I AM WITH THEE, and will KEEP THEE in all places whither
@@ -26,9 +26,24 @@ SCRIPTURE FACTS (Genesis 28 KJV):
 ANGEL RENDERING (CONTENT-CARE law): the ladder's angels are real,
 plain-robed figures in PALE SILVER-GREY — NO wings, no rings of
 light, nothing outlining bodies; they climb and descend on foot.
-GOD IS NEVER EMBODIED — the v13 "stood above it" is a brilliance
-within the heaven-opening at the stair's top, no figure, face or
-silhouette in it, and never the word glow.
+
+GOD IS EMBODIED HERE (Cameron's OPEN complaint, 2026-08-07: "0:24
+looks like a UFO, no God coming to him in a dream" — REVERSES the
+old "God is never embodied / light only" note that made the summit
+read as a UFO disc). Genesis 28:13 is scripture-exact: "behold, the
+LORD stood ABOVE it." So wherever the heaven-opening at the stair's
+summit is in frame, the LORD is SHOWN as the same locked embodied
+person (the GOD lock + god.jpeg face sheet, byte-identical to the
+Father shown in build-113 — his look does not change), standing in
+the opening above the stair. NEVER a UFO, disc, saucer, ring, orb,
+craft, portal or metallic object; NEVER a shapeless blob of light and
+NEVER a halo/glow/rim-light around him. The opening of heaven is a
+natural break in the night sky filled with warm light, with the
+standing Father in it. The Jacob-face close-ups (b08/b11/b13) keep
+God off-frame — correct grammar, a reaction shot — but every summit
+beat shows him. (Jehovah-vs-Father doctrine flag for Cameron in QC:
+OT "LORD" may read as the premortal Christ; god.jpeg keeps one
+consistent divine look per his standing order — non-blocking.)
 
 TIME OF DAY ARC (intentional): sunset for the flight's end; deep
 starry NIGHT for the camp; the DREAM in night lit by the stair's own
@@ -62,9 +77,10 @@ LOCKS = {
         "STAIR LOCK: the dream stairway — a GREAT STONE STAIRWAY "
         "rising from the camp's very ground, broad as a road, "
         "climbing in long flights up through the night air to a "
-        "high OPENING IN HEAVEN filled with brilliance; the same "
-        "stair and opening in every dream shot. The brilliance "
-        "holds NO figure."
+        "high OPENING IN HEAVEN — a natural break in the night sky "
+        "filled with warm light (NEVER a UFO, disc, saucer, ring, "
+        "orb, portal or metal craft); the same stair and opening in "
+        "every dream shot."
     ),
     "ANGELS": (
         "ANGELS LOCK: the stair's angels — real human figures in "
@@ -72,9 +88,29 @@ LOCKS = {
         "stair's flights on foot — NO wings, no rings of light, "
         "nothing outlining any body; calm, strong, purposeful."
     ),
+    "GOD": (
+        "GOD THE FATHER LOCK (Cameron's standing order: God has a body "
+        "and one locked look, like Jesus): the Father is the same "
+        "glorified embodied man in every shot — majestic and ageless-"
+        "strong, flowing white hair and a full white beard, a warm "
+        "noble deeply kind face, in a robe of BRILLIANT PURE WHITE (he "
+        "alone wears pure white; only Jesus wears cream). Real weight, "
+        "real footsteps, radiant dignity WITHOUT any halo or light "
+        "effects. His face is shown clearly and is never stern."
+    ),
 }
 
 REF = True
+
+# Per-story face sheets — identity carried by IMAGE, not wording (lesson 2/10).
+# JACOB was previously unwired (prose-only), a cause of the row-102 beard drift
+# in lesson 13; wiring jacob.jpeg holds his face across the row. GOD attaches
+# god.jpeg (byte-identical to build-113's Father) on every beat whose locks name
+# GOD, so his look does not change (Cameron's standing order).
+REFS = {
+    "JACOB": "CAST-REF-V2/jacob.jpeg",
+    "GOD": "CAST-REF-V2/god.jpeg",
+}
 
 BEATS = [
     {
@@ -188,45 +224,49 @@ BEATS = [
     {
         "id": "v2-r102-b05", "out": "s05-and-there-in-the-last.jpeg", "seg": "n3",
         "window": "21.80-26.44", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JACOB", "WASTE"],
+        "locks": ["JACOB", "WASTE", "GOD"],
         "narration": (
             "And there, in the last place he would have expected it, God "
             "came to him in a dream."
         ),
-        "must_show": "the dream's threshold — the sleeping figure small under the immense starfield, and the night above the camp beginning to change: a seam of light starting high over him.",
-        "must_not_show": "ABSOLUTE: no figure in any light; the change BEGINNING only — a brightening seam, the stair not yet formed.",
+        "must_show": "SCRIPTURE-EXACT: God came to him — the sleeping figure small under the immense starfield, and high above the little camp the night sky broken OPEN into an opening of heaven filled with warm light, and STANDING in that opening the embodied Father (per the GOD lock): a real man of radiant dignity in brilliant white, white hair and full white beard, looking down toward the sleeper — God visibly come to him.",
+        "must_not_show": "NEVER a UFO, disc, saucer, ring, orb, portal, craft or metal object in the sky; no halo, glow or rim-light around the Father; nothing outlines his head; the opening a NATURAL break in the night sky, not a hovering machine.",
         "scene": (
             "Over the sleeping runaway "
-            "the night begins to change "
-            "its mind: high above the "
-            "little camp, among the hard "
-            "cold stars, a seam of "
-            "brightness starting — thin "
-            "at first, like dawn "
-            "arriving in the wrong "
-            "place and hours early — "
-            "widening slowly directly "
-            "over the stone where a "
-            "cheat and fugitive lies "
-            "dreaming — the last "
-            "address in the world "
-            "anyone would expect heaven "
-            "to call on, receiving the "
-            "call. Every figure has two "
-            "arms, two hands and one "
-            "head."
+            "the night breaks open: high "
+            "above the little camp, among "
+            "the hard cold stars, the "
+            "sky parts into an opening of "
+            "heaven filled with warm "
+            "light — and standing IN that "
+            "opening, looking down toward "
+            "the stone where a cheat and "
+            "fugitive lies dreaming, the "
+            "Father himself, a real man "
+            "of radiant dignity in "
+            "brilliant white, white hair "
+            "and a full white beard — God "
+            "come, in person, to the last "
+            "address in the world anyone "
+            "would expect heaven to call "
+            "on. The opening is a natural "
+            "break in the night sky, never "
+            "a disc or craft; no light "
+            "rings his head. Every figure "
+            "has two arms, two hands and "
+            "one head."
         ),
     },
     {
         "id": "v2-r102-b06", "out": "s06-he-saw-a-great-stairway.jpeg", "seg": "n3",
         "window": "26.44-32.80", "wide": True, "jesus": False, "ref": False,
-        "locks": ["JACOB", "WASTE", "STAIR"],
+        "locks": ["JACOB", "WASTE", "STAIR", "GOD"],
         "narration": (
             "He saw a great stairway rising from the very ground where he "
             "lay, all the way up into an opening in heaven."
         ),
-        "must_show": "SCRIPTURE-EXACT: the ladder set up on the earth — the great stone stairway rooted beside the sleeper, climbing flight over flight into the high brilliant opening; earth and heaven joined.",
-        "must_not_show": "ABSOLUTE: no figure in the summit brilliance; the stair's FOOT in his campground dirt — the connection literal.",
+        "must_show": "SCRIPTURE-EXACT: the ladder set up on the earth — the great stone stairway rooted beside the sleeper, climbing flight over flight into the high opening of heaven; at the top of it, standing in the opening, the embodied Father (per the GOD lock) small with distance but clearly a white-robed, white-bearded man; earth and heaven joined by the stair and by him.",
+        "must_not_show": "NEVER a UFO, disc, saucer, ring or craft at the summit; no halo/glow/rim-light around the Father; the opening a natural break in the sky; the stair's FOOT in his campground dirt — the connection literal.",
         "scene": (
             "The dream stands, the camera at the camp's edge "
             "behind the sleeper's still form, the "
@@ -239,12 +279,21 @@ BEATS = [
             "— climbing flight over "
             "flight up through the night "
             "air, past the stars' level, "
-            "into a high opening filled "
-            "with brilliance — the top "
-            "of it in heaven and the "
-            "bottom of it, deliberately, "
-            "in the dust of exactly "
-            "nowhere. Every figure has "
+            "into a high opening of "
+            "heaven filled with warm "
+            "light — and at the very top, "
+            "standing in that opening, "
+            "small with the distance but "
+            "unmistakably a man in "
+            "brilliant white with white "
+            "hair and full white beard, "
+            "the Father himself — the top "
+            "of it in heaven and its "
+            "bottom, deliberately, in the "
+            "dust of exactly nowhere. The "
+            "opening is a natural break in "
+            "the night sky, never a disc "
+            "or craft. Every figure has "
             "two arms, two hands and "
             "one head."
         ),
@@ -311,33 +360,36 @@ BEATS = [
     {
         "id": "v2-r102-b09", "out": "s09-i-am-the-lord-god.jpeg", "seg": "jv13",
         "window": "45.53-57.65", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JACOB", "STAIR"],
+        "locks": ["JACOB", "STAIR", "GOD"],
         "narration": (
             "I am the LORD God of Abraham thy father, and the God of Isaac: "
             "the land whereon thou liest, to thee will I give it, and to thy "
             "seed."
         ),
-        "must_show": "SCRIPTURE-EXACT: the LORD above it — the stair's summit opening at full brilliance over the whole scene, the voice's presence carried by that light and the sleeping listener; NO figure.",
-        "must_not_show": "ABSOLUTE: no figure, face, shape or silhouette in the brilliance — presence as light and word only.",
+        "must_show": "SCRIPTURE-EXACT (Genesis 28:13, 'the LORD stood above it'): the LORD above the stair — the embodied Father (per the GOD lock) standing at the summit in the opening of heaven, a real white-robed white-bearded man of radiant dignity, looking down and speaking toward the sleeper below; the stair descending from his feet to the campground.",
+        "must_not_show": "NEVER light-only, no shapeless brilliance standing in for him — he is a SHOWN embodied person; NEVER a UFO, disc, ring or craft; no halo/glow/rim-light around him.",
         "scene": (
-            "From above the highest "
-            "flight the night fills with "
-            "voice: the summit opening "
-            "at full brilliance over "
-            "stair and stones and "
-            "sleeper — I AM THE LORD GOD "
-            "OF ABRAHAM THY FATHER — the "
-            "words rolling down the "
-            "flights like light poured "
-            "on water, deeding the very "
-            "dirt under the runaway's "
-            "back to him and to seed he "
-            "cannot imagine — and in all "
-            "that brightness, no shape, "
-            "no face: only the presence "
-            "that needs neither. Every "
-            "figure has two arms, two "
-            "hands and one head."
+            "From the summit opening the "
+            "Father himself speaks: he "
+            "stands ABOVE the stair in "
+            "the opening of heaven — a "
+            "real man of radiant dignity "
+            "in brilliant white, white "
+            "hair and full white beard, "
+            "looking down the long "
+            "flights toward the sleeping "
+            "runaway — I AM THE LORD GOD "
+            "OF ABRAHAM THY FATHER — his "
+            "words carrying down the "
+            "stair, deeding the very dirt "
+            "under the runaway's back to "
+            "him and to seed he cannot "
+            "imagine. No light rings his "
+            "head; the opening is a "
+            "natural break in the night "
+            "sky, never a disc or craft. "
+            "Every figure has two arms, "
+            "two hands and one head."
         ),
     },
     {
@@ -400,22 +452,27 @@ BEATS = [
     {
         "id": "v2-r102-b12", "out": "s12-he-stood-above-the-stairway.jpeg", "seg": "n5",
         "window": "61.27-67.34", "wide": False, "jesus": False, "ref": False,
-        "locks": ["STAIR", "JACOB"],
+        "locks": ["STAIR", "JACOB", "GOD"],
         "narration": (
             "He stood above the stairway and made him a promise — the same "
             "promise he had made to his grandfather Abraham."
         ),
-        "must_show": "the promise from above — the whole stair with the summit brilliance at its crown, the covenant descending the flights as spoken word over the sleeper; NO figure in the light.",
-        "must_not_show": "ABSOLUTE: no figure, face or shape in the brilliance — the standing-above is light and word only.",
+        "must_show": "SCRIPTURE-EXACT: he STOOD above the stairway — the embodied Father (per the GOD lock) standing at the stair's crown in the opening of heaven, a white-robed white-bearded man, the covenant spoken down the flights over the sleeper; the walkers paused on the steps.",
+        "must_not_show": "NEVER light-only in place of him — he is SHOWN standing above; NEVER a UFO, disc or craft; no halo/glow/rim-light around him.",
         "scene": (
             "The whole dream holds still "
             "for the covenant: the great "
             "stair climbing flight over "
-            "flight to its crown of "
-            "brilliance, the silver-grey "
+            "flight to its crown, and "
+            "standing there above it in "
+            "the opening of heaven the "
+            "Father himself — a real man "
+            "in brilliant white, white "
+            "hair and full white beard — "
+            "the silver-grey "
             "walkers pausing on the "
             "steps mid-errand, and down "
-            "from the summit light the "
+            "from him the "
             "old promise descending "
             "word by word — Abraham's "
             "promise, his grandfather's "
@@ -464,10 +521,10 @@ BEATS = [
     {
         "id": "v2-r102-b14", "out": "s14-it-was-open-right-above.jpeg", "seg": "n4",
         "window": "42.97-44.95", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JACOB", "STAIR"],
+        "locks": ["JACOB", "STAIR", "GOD"],
         "narration": "It was open, right above him.",
-        "must_show": "the opening overhead — from low beside the sleeper looking straight up the stair's flights to the brilliant opening directly above the camp; vertical truth.",
-        "must_not_show": "ABSOLUTE: no figure in the brilliance; the vertical alignment EXACT — opening, stair, sleeper in one plumb line.",
+        "must_show": "the opening overhead — from low beside the sleeper looking straight up the stair's flights to the opening of heaven directly above the camp, and standing in that opening at the top the embodied Father (per the GOD lock), small with the height but a clear white-robed white-bearded man; vertical truth, heaven open and the LORD in it.",
+        "must_not_show": "NEVER a UFO, disc, ring or craft overhead; no halo/glow/rim-light around the Father; the opening a natural break in the sky; the vertical alignment EXACT — opening, stair, sleeper in one plumb line.",
         "scene": (
             "The frame lies down beside "
             "him and looks straight up: "
@@ -479,27 +536,35 @@ BEATS = [
             "and at the very top, "
             "plumb-line true above the "
             "runaway's stone pillow, "
-            "the opening itself: heaven "
-            "standing open directly "
+            "the opening of heaven "
+            "standing open, and in it "
+            "the Father himself, small "
+            "with the height but a real "
+            "man in brilliant white with "
+            "white hair and full white "
+            "beard, directly "
             "over the one spot on earth "
             "he chose because it was "
-            "nowhere. Every figure has "
-            "two arms, two hands and "
-            "one head."
+            "nowhere. The opening is a "
+            "natural break in the sky, "
+            "never a disc or craft; no "
+            "light rings his head. Every "
+            "figure has two arms, two "
+            "hands and one head."
         ),
     },
     {
         "id": "v2-r102-b15", "out": "s15-and-behold-i-am-with.jpeg", "seg": "jv15",
         "window": "72.66-88.77", "wide": True, "jesus": False, "ref": False,
-        "locks": ["JACOB", "STAIR", "WASTE"],
+        "locks": ["JACOB", "STAIR", "WASTE", "GOD"],
         "narration": (
             "And, behold, I am with thee, and will keep thee in all places "
             "whither thou goest, and will bring thee again into this land; "
             "for I will not leave thee, until I have done that which I have "
             "spoken to thee of."
         ),
-        "must_show": "SCRIPTURE-EXACT: the with-thee promise — the whole night scene held gently: sleeper, stone, stair, brilliance; the words covering all of it like the sky does.",
-        "must_not_show": "ABSOLUTE: no figure in the light; the composition a BENEDICTION — everything the promise covers, in one frame.",
+        "must_show": "SCRIPTURE-EXACT: the with-thee promise — the whole night scene held gently: sleeper, stone, stair, and at the stair's crown in the opening of heaven the embodied Father (per the GOD lock) standing and speaking down over all of it; the promise covering everything the frame holds.",
+        "must_not_show": "NEVER light-only in place of the Father — he is SHOWN standing at the summit; NEVER a UFO, disc or craft; no halo/glow/rim-light around him.",
         "scene": (
             "The promise settles, the camera far off taking "
             "sleeper, stone and stair from the side, over the "
@@ -509,7 +574,13 @@ BEATS = [
             "cold scattered rocks of "
             "nowhere, the great stair "
             "with its patient walkers, "
-            "the brilliance at the top — "
+            "and at its crown in the "
+            "opening of heaven the "
+            "Father himself standing — a "
+            "real man in brilliant white, "
+            "white hair and full white "
+            "beard — speaking down over "
+            "it all: "
             "I AM WITH THEE — IN ALL "
             "PLACES — I WILL NOT LEAVE "
             "THEE — words wide enough "
@@ -517,7 +588,9 @@ BEATS = [
             "runaway will ever take, "
             "spoken over him while he "
             "is too asleep to earn or "
-            "doubt them. Every figure "
+            "doubt them. The opening is a "
+            "natural break in the sky, "
+            "never a disc or craft. Every figure "
             "has two arms, two hands "
             "and one head."
         ),

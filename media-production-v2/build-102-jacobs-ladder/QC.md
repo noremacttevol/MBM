@@ -15,6 +15,79 @@ too.
 
 ---
 
+## ✅ AUTHOR DONE — 2026-08-07 (Machine A `Dev`, Fable-5 author lane, $0) — UFO / GOD-EMBODIMENT FIX
+
+**OPEN complaint (`v2_outline.py 102`): "0:24 looks like a UFO, no God coming to
+him in a dream."** Root-cause + author-fixed in the beat files. This is the SAME
+class as row 113 (God-embodiment), now applied to Jacob's ladder.
+
+### Root cause
+The old author note read **"GOD IS NEVER EMBODIED — brilliance/light only, no
+figure,"** so every summit-opening beat rendered a shapeless disc of light at the
+top of the stair — which the model drew as a **UFO/saucer**, and left Cameron with
+**no God shown coming to him**. Both halves of his complaint trace to that one
+light-only rule. But Genesis 28:13 is scripture-exact: **"behold, the LORD stood
+ABOVE it"** — God is meant to be SHOWN standing in the opening. Cameron's standing
+order (rows 113 + "God has a body, his look doesn't change") governs: embody him.
+
+### What the author did (all committed, $0)
+1. **Wired the one locked Father face.** Copied `CAST-REF-V2/god.jpeg`
+   **byte-identical from build-113** (so God's look does not change between videos)
+   and added a `REFS` dict + the byte-identical **GOD THE FATHER LOCK** to
+   `beats_v2.py`. Also wired **JACOB → jacob.jpeg** in the same REFS dict — Jacob
+   was previously **prose-only (unwired)**, the likely cause of the row-102 beard
+   drift that created lesson 13; the runner's God-beat regens now carry his face.
+2. **Embodied the Father on every SUMMIT-OPENING beat** (add `GOD` to locks + new
+   must_show / must_not_show / scene): **b05** (0:24 — the complaint beat, "God
+   came to him in a dream"), **b06** (the stairway rising into the opening),
+   **b09** (jv13 "I am the LORD God of Abraham" — he stands and speaks), **b12**
+   ("he stood above the stairway"), **b14** ("it was open, right above him"),
+   **b15** (jv15 "I am with thee"). He is the same white-robed, white-bearded,
+   radiant embodied man in every one — standing in the opening above the stair.
+3. **Killed the UFO look everywhere.** The STAIR lock + every summit beat's
+   must_not_show now bans **UFO / disc / saucer / ring / orb / portal / craft /
+   metal object** and any halo/glow/rim-light; the opening of heaven is stated as
+   a **natural break in the night sky filled with warm light** with the Father in it.
+4. **Kept the Jacob-face close-ups God-OFF-frame (correct grammar).** b08 (lowest
+   step), b11 (God did not scold — his sleeping face), b13 (the dust promise), and
+   the later single-clause close-ups show only the sleeper lit by stairlight — they
+   do NOT show the summit opening, so God is legitimately absent there (like row
+   113's reaction close-ups). No inconsistency.
+5. `v2_prompt.py --check` **PASS (28 beats)**; REFS verified to load and resolve
+   (`god.jpeg` + `jacob.jpeg` both on disk). **Audio untouched** (Audio col OK).
+
+### 🅿️ RUNNER — the paid step (ONE re-cut, then ship)
+- **Regen ONLY the 6 embodiment beats: `s05, s06, s09, s12, s14, s15`** over the
+  fixed prompts. **KEEP the other 22 stills byte-identical** (no other beat changed).
+- **Face-board the Father** across all 6 God beats against `god.jpeg` (one locked
+  face) AND beard-board Jacob against `jacob.jpeg` (lesson 13). Confirm **no UFO/
+  disc** at any summit and **no halo/glow** around the Father.
+- **Re-assemble** (AUDIO byte-identical — no audio change), deploy + live-verify,
+  ship via the C-FIX flow. **Cost note:** 6 regens / 28 = 21% — over the 15% reroll
+  budget, but this is a **complaint fix that requires visual consistency**: a
+  partial embodiment (God shown in some summit beats, light-only in others) would
+  re-trigger row 113's exact "his look changes" complaint, so all summit-opening
+  beats must be embodied together. Justified + explained per the COST LAW.
+
+### COMPLAINT LEDGER — the review card must tell Cameron, in his words
+1. **"0:24 looks like a UFO"** → the summit is no longer a light-disc; the opening
+   of heaven is a natural break in the night sky, and the UFO/disc/craft look is
+   explicitly banned on every dream beat.
+2. **"no God coming to him in a dream"** → God is now SHOWN — the same embodied
+   Father (one locked face, brilliant white robe, white hair/beard) standing in the
+   opening above the ladder, come to Jacob in person, from 0:24 through the promise.
+
+### ⚠️ DOCTRINE FLAG for Cameron (NON-BLOCKING — the fix ships without it)
+OT "LORD" (Jehovah) may doctrinally read as the **premortal Christ**, not the
+Father. I used **god.jpeg (the Father)** to keep ONE consistent divine look per
+your standing order and to match build-113. If you'd rather OT-LORD theophanies
+(Jacob's ladder, and others) carry the **Jesus** face as premortal Christ, that's
+a per-passage call only you can make — say the word and I'll re-wire the OT-LORD
+rows to the Jesus lock. (Same open question row 113 flagged; some God-rows are
+voice/light theophanies, e.g. 101 still-small-voice, so it must NOT be swept blind.)
+
+---
+
 ## RUNNER SHIP RECORD — 2026-08-06 (Opus autopilot, Machine A `Dev`)
 
 **SHIPPED.** 28 painted stills at native 2K (V1 had 10), Gen 28:10-19
