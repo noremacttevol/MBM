@@ -1,3 +1,17 @@
+## 2026-08-07 — ROW 102 C-FIX SHIPPED: Cameron's "0:24 looks like a UFO" complaint fixed — rerolled ONE frame (s05), audio byte-identical, redeployed + live-verified — Machine A `Dev` (Opus runner C-FIX lane, UNATTENDED)
+
+**Commit:** C-FIX cut (mp4 + QC.md + AUTHOR-BOARD) = `05be89c7126d5e89b3866f5fdd9391b3262fc216`; claim + reviewer + this log = follow-on commits. All on origin/main; Firebase hosting redeployed and the live review.html verified carrying the new hash.
+
+COMPLAINT-FIRST + LOW-NUMBER LAWS: row 102 (Jacob's ladder) carried an OPEN reviewer complaint and was the lowest waiting row, so it outranked all other work. Session-chain verified at start (then-top entry = rows 162/163 author, commit `1620bd001`, present in `git log`); hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md laws before spending.
+
+**The complaint (`v2_outline.py 102`): "0:24 looks like a UFO no God comming to him in a dream."** 0:24 = beat n3 p1 (window 21.80–26.44) → `s05-and-there-in-the-last.jpeg` ("God came to him in a dream"). The shipped s05 rendered heaven's opening as a flat horizontal glowing disc with a downward light beam over the sleeper — a literal flying-saucer read. **PICTURE-domain complaint → rerolled ONLY beat b05** (`--only b05 --redo`, 2 takes = the per-frame max): take 1 killed the beam/disc but left a thin horizontal streak (still comet/UFO-ish); take 2 is the keeper — a VERTICAL shaft of light rising from behind the ridge into the starfield above Jacob, exactly the beat's own `must_show` ("a brightening seam, the stair not yet formed"). No disc, no beam, no discrete object; reads as heaven beginning to open in the dream. Verified in the RENDERED mp4 at t=24s (caption "God came to him in a dream" in the bottom band).
+
+**Touch-once / scope:** only open complaint on the row → one re-cut. ONLY s05 changed; the other 27 stills byte-identical. s06 (the full stairway) reviewed, was never the flagged frame, untouched. Re-assembled → **AUDIO LOCK PASS SHA256=a96e8633…** (byte-identical to prior cut — narration/voices/timing untouched), 172.9s, 19.8 MB. Question card + captions re-verified clean.
+
+**Cost:** 2 image credits ($0.26), meter $423.71 → $423.98. Row lifetime rerolls 2/28 = 7.1% (< 15% budget). No fresh row, no audio touched.
+
+---
+
 ## 2026-08-07 — TWO ROWS AUTHORED FRESH (162 keys-of-kingdom + 163 apostles-prophets): beat maps written from scratch, --check PASS, Ready ✅ for the runner — Machine A `Dev` (Fable-5 author lane, $0 image gen, UNATTENDED)
 
 **Commit:** row 162 package = `00046dfbe`; row 163 package = `1620bd001` (each = beats_v2.py + QC.md + ASSEMBLED-PROMPTS.txt + AUTHOR-BOARD). This log entry = (this commit). All on origin/main.
