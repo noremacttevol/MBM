@@ -1,5 +1,35 @@
 # QC / RUNNER HANDOFF — build-54-the-leper (Mark 1:40-45)
 
+## C-FIX 2026-08-07 (Machine A `Dev`) — "leprosy on Jesus's hand" complaint CLOSED
+
+> Cameron (reviewer complaint on the shipped cut): *"1:01 looks like Jesus had
+> lepracy on his hand. That is wrong."*
+
+**COMPLAINT LEDGER (one line per open complaint, what THIS cut does):**
+
+| time | beat / file | defect | fix in this cut |
+|---|---|---|---|
+| 1:01 | b14 `s14-touched-before-healed` | Jesus's own hand + forearm on the leper's shoulder carried pale, ashen, scaly leprosy-like patches — read as Jesus having leprosy | targeted image-EDIT pass: ONLY Jesus's hand/wrist/forearm repainted as healthy warm olive-brown skin; leper keeps his marks; faces, cream robe, doorway, lighting, crop byte-identical |
+| 0:52 | b12 `s12-and-touched-him` | SAME root cause one beat earlier — Jesus's hand on the leper's neck showed the ashen bleed | same targeted edit — Jesus's hand now clean healthy skin, leper's face-marks kept |
+
+**Root cause (swept touch-once):** the model painted the leper's "ashen scaled
+skin" texture onto whatever skin sits at the point of contact — so it bled onto
+Jesus's hand ONLY in the two frames where his hand rests on the leper's marked
+skin (b12 neck, b14 shoulder). Swept every touch frame: **b11** (hand mid-reach
+in open air) clean, **b13** (close on Jesus, hand at bottom) clean, **b15** (leper's
+healed arms out) clean — only b12 + b14 carried it, both fixed. The disease now
+lives only on the leper, never on Jesus, in every frame of the video.
+
+**Method:** row-39 targeted image-edit pass (attach finished frame → gemini-3-pro-image
+→ change ONLY the named skin, keep every other pixel), candidate QC'd full-frame
+(FACE-BOARD: no new figure, no crop/light drift), promoted over the original.
+**AUDIO LOCK PASS** SHA256=8691209c…39ef — narration byte-identical, NOT a re-voice.
+**Cost:** 2 edits × $0.134 = **$0.27**, 0 discarded takes → **0% rerolls** (well under
+the ≤15% budget and the $6.10/row average).
+
+---
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 24 beats, ~137 s.
 
