@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T10:07:56_
+_Last sync: 2026-08-07T10:28:15_
 
 ## Summary
 
-- **BUILDING** — 85 row(s)
+- **BUILDING** — 84 row(s)
 - **LIVE — OLD STYLE (v1)** — 43 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 28 row(s)
+- **ON REVIEWER — awaiting Cameron** — 29 row(s)
 
 ## The rows
 
@@ -98,7 +98,7 @@ _Last sync: 2026-08-07T10:07:56_
 | 75 | The Woman Taken in Adultery | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 76 | Suffer the Little Children | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 77 | The Widows Mite | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 78 | Who Is My Mother | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 78 | Who Is My Mother | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 79 | The Seventy Sent | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 80 | Come Unto Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 81 | Render Unto Caesar | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
