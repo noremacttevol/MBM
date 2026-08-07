@@ -37,8 +37,9 @@ NEW places (runner promotes each from its first good frame, lesson 11):
 Steps in QC.md.
 """
 
-# LOCKS: all build-local. ISAIAH is his own token. No cream on anyone (only Jesus
-# wears cream, and Jesus is not in this row).
+# LOCKS: all build-local. ISAIAH is BYTE-IDENTICAL to build-192/build-198 (recurring
+# cast — the prophet is one man across all his videos; unified 2026-08-07, author lane).
+# No cream on anyone (only Jesus wears cream, and Jesus is not in this row).
 LOCKS = {
     "MOUNTAIN-TEMPLE": (
         "MOUNTAIN-TEMPLE LOCK: the same place in every frame — a grand ANCIENT "
@@ -61,12 +62,12 @@ LOCKS = {
         "or sign, and no rendered writing of any kind."
     ),
     "ISAIAH": (
-        "ISAIAH LOCK: the prophet Isaiah is the same man in every shot — a "
-        "dignified Hebrew prophet of middle age, a full dark beard lightly "
-        "greying, keen deep-set eyes, in plain deep-toned robes of hand-woven wool "
-        "with a simple mantle over one shoulder (never cream, never white), "
-        "bare-headed; grave and far-seeing. The SAME man throughout, never "
-        "twinned, never a cloned face."
+        "ISAIAH LOCK: the same man in every frame he appears — Isaiah, an Old Testament "
+        "prophet of about fifty-five, warm tan sun-worn skin, dark hair going grey and a "
+        "full dark-grey beard, deep steady eyes, in a plain undyed brown-and-ochre wool "
+        "prophet's robe with a coarse mantle (never cream, never white). Grave, earnest "
+        "and unafraid, one arm often raised as he declares. The same face, beard and robe "
+        "throughout."
     ),
     "NATIONS-PILGRIMS": (
         "NATIONS-PILGRIMS LOCK: the peoples of many ancient nations streaming up "
@@ -175,7 +176,7 @@ BEATS = [
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, face, hand or beam; no rendered writing, scroll-text or legible lettering; no Jesus and no cream; no halo, glare or rim-light; no modern object; no face posed to the lens.",
         "scene": (
             "On a rocky height above the road the prophet Isaiah stands in his "
-            "deep-toned robes and shoulder mantle, one hand lifted toward the far "
+            "brown-and-ochre wool prophet's robe and coarse mantle, one hand lifted toward the far "
             "summit temple, his bearded face grave and far-seeing as he takes in "
             "the vision he has been shown — a man beholding and describing, not a "
             "god speaking. The mountain and the ascending road lie below him under "

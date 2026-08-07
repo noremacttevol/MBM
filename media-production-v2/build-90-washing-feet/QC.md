@@ -41,3 +41,52 @@ python3 media-production-v2/v2_story_cast.py build-90-washing-feet --ceiling <c>
 python3 media-production-v2/v2_gen_api.py build-90-washing-feet --ceiling <c>
 python3 media-production-v2/v2_assemble.py 90
 ```
+
+---
+
+## PICTURE RUNNER BUILD — 2026-08-07 (Opus runner, Machine A `Dev`, resumed stranded RUNNING row)
+
+Resumed the stranded row (State RUNNING / Claim A-auto; a prior autopilot lane died after 6 stills).
+Already-shipped check: no committed mp4, live card was the OLD 2026-07-28 build → not shipped, built it.
+Audio: `AUDIO_FROM_V1_SEGMENTS=True` present (audio-fix done 2026-08-06). Portraits: 0 (cast reused, $0).
+Generated the remaining 6 stills; light-QC'd all 12 against must_show/must_not_show + RUNNER-LESSONS.
+
+### COMPLAINT LEDGER
+- **OPEN (rubric lesson 3 / HUMAN-VARIETY GATE): "Why does every disciple look the fucking same."**
+  FIXED in this cut. The Twelve read as twelve distinct men across every multi-figure frame —
+  s01 (supper wide), s03 (washing wide), s09/s10 (teaching wides), s11, s12: visibly different
+  ages, beard shapes/lengths, hairlines, skin weathering, one head-covering, a young beardless
+  John vs a grey elder being washed. No two disciples read as the same man (other than the same
+  man across frames). Peter held consistent by REF (dark curly hair + full dark beard + blue-grey
+  tunic + rope belt) across s04/s05/s06/s07/s08/s11. Review card answers the complaint in his words.
+
+### REROLLS (4 of 12 beats = 33% — OVER the 15% COST-LAW budget; all mandatory-class, explained)
+- **s02/b02 ×2** — take 1: kerosene/hurricane GLASS-CHIMNEY wall lamps (modern-object, RUNNER-LESSONS
+  b41) + daylight window in a night supper. Reroll take 1 cleared the lamps+daylight but returned a
+  3-panel COLLAGE (the must_show "close on the SEQUENCE: robe aside… towel knotted… water arcing" is
+  a structural collage trigger, row-66/114). Reroll take 2 landed a CLEAN single night frame: clay jar
+  → clay basin, towel girded, period oil lamp, no daylight. KEPT take 2.
+- **s09/b09 ×1** — daylight doorway in a night supper (time-of-day). b09 locks ROOM (="window open on the
+  night") so the reroll landed night: closed door, warm oil lamps, clay basin. KEPT. Clean fix.
+- **s06/b06 ×1** — bright daylight window in a night supper. Reroll fixed the lamp (clay) + basin (clay)
+  but the DAYLIGHT WINDOW PERSISTS. Root cause is structural (row-103): b06 `locks` = [BASIN, PETER],
+  it OMITS ROOM, so it never receives the "window open on the night" cue. A reroll re-runs the same
+  gamble — per row-103 I did NOT burn a 2nd reroll. KEPT the better take, logged FIX-WAVE below.
+
+Cost: 12 stills + 4 rerolls = 16 × $0.134 ≈ **$2.14 this row** (0 portraits). Still ~1/3 of the $6.10
+baseline even at 33% rerolls — the overage is 4 MANDATORY defects (modern-object, time-of-day ×2,
+collage), not subtle-drift chasing, and every one is root-caused to an author gap below so it is
+fixed structurally, not re-rolled every session.
+
+### FIX-WAVE / AUTHOR HANDOFF (do NOT re-roll — structural, needs beat-text/lock edits)
+- **b06 `locks`: add "ROOM".** Currently [BASIN, PETER] → renders daylight in a night story. Adding
+  ROOM (the night+oil-lamp setting lock) fixes the residual daylight window. Then regenerate ONLY b06.
+- **b02 `locks`: add "ROOM"; and de-sequence the must_show.** b02 = [BASIN] only (that is why the first
+  take invented kerosene lamps + daylight), and its must_show "close on the SEQUENCE …" (3 enumerated
+  steps) is a collage magnet. Author: add ROOM, and rewrite must_show to ONE moment (the pour), so the
+  beat stops needing 2 rerolls to land a single night frame. (Take 2 is clean now; this hardens it.)
+- **s05/b05** close Jesus↔Peter two-shot is near forehead-to-forehead — watch for a row-49 "romantic/too
+  close" read; author could state an arm's-length + must_not_show "faces not close." Non-blocking.
+- **s10** floor basin rendered white/glazed vs the clay BASIN lock (minor prop tint). Non-blocking.
+
+Audio untouched (AUDIO_FROM_V1_SEGMENTS). STALE-V1 batch → verify captioned≈card_start after assemble.

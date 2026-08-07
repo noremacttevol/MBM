@@ -98,3 +98,50 @@ Re-examined while sweeping NEEDS-AUDIO after row 185. Two findings:
   RESUME (correct engine): ear-identify the bad segment, then re-render ONLY it via
   `mbm_eleven.render_segment(text, speaker, out)` (ElevenLabs, same locked voice),
   atempo-match to its original duration, `AUDIO_FROM_V1_SEGMENTS=True`, re-assemble, C-FIX.
+
+## §0d AUDIO-FIX lane 2026-08-07 (Machine A `Dev`, Fable-5 author lane) — TWO NEW headless diagnostics, still BLOCKED
+
+Sweeping the one open complaint (COMPLAINT-FIRST + LOW-NUMBER laws). Ran two diagnostics
+no prior pass had run. Both come back clean — **seven independent headless checks now find
+nothing**; the block is real.
+
+1. **Word-level timestamp transcript (stutter/doubled-word detector).** Transcribed every
+   segment with `word_timestamps=True` and flagged adjacent duplicate words + words >0.9s.
+   n1's transcript again *looked* doubled ("...every week..." then "...every day..."), but
+   the word times prove it is the **faster_whisper trailing-silence hallucination**: the
+   real speech ends at 5.76s ("...her own hands."), and every "second-pass" word is stamped
+   at 5.76–5.94s with **zero duration**. n1.mp3 is 6.30s (single utterance + ~0.5s tail
+   silence). NO real doubling. Only benign long word: n4 "hiding"=1.04s (deliberate). NO
+   stutter, doubled, or cut word anywhere.
+2. **Cross-engine s33 "spake" test (settles §0b/§0c).** §0b's isolated s33 transcribes
+   "Another parable **spay key** unto them." I rendered the SAME text with a *totally
+   different engine* (edge-tts SteffanNeural −18%/−9Hz, the SCRIPTURE voice) and it
+   transcribes **identically** "spay key". Two unrelated engines producing the same
+   mis-hearing = it is a **whisper artifact of correctly-pronounced KJV liaison**
+   (/speɪk hiː/ ≈ "spay-key"), NOT a TTS mispronunciation. So s33 is fine; a "spake"
+   respell is NOT warranted (it would fail its own A/B — the plain word is read correctly).
+
+**Engine correction — §0c was WRONG, this is NOT ElevenLabs.** 44100 Hz / 128 k is the
+**universal delivered format across the whole library** — approved rows 22/24/26/32 and
+shipped rows 10/18 all measure 44100/128k, and row 22 is a *confirmed edge-tts* AUDIO-FIX
+(the "shouldest" respell). Raw edge-tts is 24 kHz; the pipeline re-encodes final segments
+to 44100/128k. So row 27's audio is edge-tts, re-encoded, and **byte-indistinguishable from
+approved rows in sample-rate, bitrate, LUFS (−15.1), peak (0.0 dB), channels, encode
+integrity, per-segment cps, and now word-timing.** It is on the same (new) voices as the
+approved rows — this is NOT an old-voice / REDO-ALL case.
+
+**Why still no fix at $0 headless:** every mechanical dimension is clean or matches approved
+work; the defect Cameron heard is a subtle delivery-quality issue no check can name. A blind
+re-voice of all 11 segments (edge-tts, deterministic) would reproduce the same waveforms OR,
+if forced different, change every timing for **zero expected benefit** — the exact worse-than-
+an-honest-block failure this QC already warns against. **$0, nothing changed, no pictures
+touched.**
+
+**RESUME (unchanged, needs one ear-pass — Cameron or any machine with audio playback):**
+play `matthew-13_leaven.mp4` once, note the timestamp where the delivery sounds wrong, map
+it to the segment via the outline (n1 0–6.5s, s33 7–9.6s, j1 10.7–18.8s, n2 19.8–28.7s,
+n3 29.3–36.1s, n4 36.7–44.7s, n5 45.3–54.6s, n6 55.2–65.0s, n7 65.6–78.6s, n8 79.2–91.2s,
+card 91.8s+). Then it is a targeted single-segment edge-tts input fix (respell/punctuation/
+rate — A/B via check_pronunciation.py), regen ONLY that mp3, remap only the affected
+still-windows for the small duration delta, re-assemble, C-FIX. Everything else is verified
+clean seven ways.
