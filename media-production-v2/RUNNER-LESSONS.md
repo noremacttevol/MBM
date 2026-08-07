@@ -166,6 +166,14 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   any "dramatic motion" beat (a swing, a fall, a run) can stack the motion into
   sequential panels. Mandatory reroll on sight; one redo lands a single coherent
   frame. Never crop-rescue one panel.
+- **A beat whose TEXT repeats a COUNTING sequence is a STRUCTURAL collage
+  trigger that survives the reroll budget** (row 114 b13 "what about forty,
+  thirty each"): the enumerated numbers make the model tile one panel per number
+  — TWO rerolls both returned 4-up stacks (unlike the row-66/45 collages that a
+  single redo fixes). This is NOT a coin-flip a runner can win: keep the best
+  take, FIX-WAVE it, and hand to the AUTHOR to de-repeat the counting in the beat
+  text (or add an anti-collage cue). Do not burn more than the row's 2 rerolls
+  proving it stays a collage — the fix is beat-text, not another render.
 - **False "tiled/collage" frame from ffmpeg INPUT-seek (`-ss` BEFORE `-i`)**
   (row 55 caption QC): extracting a caption frame with `ffmpeg -ss <t> -i mp4`
   can land on a non-keyframe and decode a garbled/striped image that looks like
