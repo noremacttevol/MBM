@@ -3117,3 +3117,5 @@
 {"ts": "2026-08-07 02:06:20", "build": "social-icon-upgrade", "beat": "candidate-1", "out": "/home/noremacttevol/Desktop/MBM/social/page-art/icon-v2-candidate-1.png", "model": "gemini-3-pro-image", "size": "2K-1x1", "est_cost": 0.134}
 {"ts": "2026-08-07 02:06:44", "build": "social-icon-upgrade", "beat": "candidate-2", "out": "/home/noremacttevol/Desktop/MBM/social/page-art/icon-v2-candidate-2.png", "model": "gemini-3-pro-image", "size": "2K-1x1", "est_cost": 0.134}
 {"ts": "2026-08-07 02:07:06", "build": "social-icon-upgrade", "beat": "candidate-3", "out": "/home/noremacttevol/Desktop/MBM/social/page-art/icon-v2-candidate-3.png", "model": "gemini-3-pro-image", "size": "2K-1x1", "est_cost": 0.134}
+{"ts": "2026-08-07 02:09:35", "build": "build-45-wicked-tenants", "beat": "v2-r045-b46", "out": "s46-that-is-the-setup.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 02:16:39", "build": "build-48-new-wine-old-bottles", "beat": "v2-r048-b28", "out": "s28-so-you-never-pour-fresh.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
