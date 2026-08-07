@@ -85,3 +85,54 @@ card clean (no squares). Audio byte-identical to V1 — nothing re-voiced.
 **Cost:** 29 stills + 1 portrait + 1 reroll = 31 images × $0.134 ≈ **$4.15**
 for the row, under the $6.10 running average — the cost trend keeps going DOWN
 (place reused-from-self, single portrait, one reroll).
+
+---
+
+## RUNNER SHIP LOG — C-FIX 2026-08-07 (Opus C-FIX, Machine A `Dev`)
+
+**COMPLAINT LEDGER (Cameron's own words, `v2_outline.py 66`):**
+
+1. *"all the pictures up to 0:30 of the army coming to arrest Jesus and his
+   disciples defending him are bad and all need to be redone, people keep
+   disappearing quickly and coming back and the army is going the wrong way.
+   all just looks dumb."*
+   → **FIXED.** The 0–30 s block is beats **b01 (s01, 0.28–8.45)**, **b03
+   (s03, 8.45–19.0)**, **b04 (s04, 19.62–21.45)**, **b05 (s05, 21.93–28.55)** —
+   all four rerolled. Root cause: b04 (`wide:False`, disciples bunching) and b05
+   (`wide:False`, faces turned to Jesus) had each rendered as a near-IDENTICAL
+   copy of the b01 establishing wide (same Jesus-on-rock pose, same background
+   torch line) — so across the intercut the crowd read as flickering in and out
+   ("disappearing and coming back"), and the torch column trailed *away* uphill
+   ("wrong way"). New takes: s01 = Jesus alone on the rock (establishing); s03 =
+   the mob **advancing toward Jesus/camera** (Judas + helmeted guard at the
+   head, torch column behind) — direction now unambiguous; s04 = disciples
+   **interposing** (grey-beard forward, arms spread, Jesus behind); s05 =
+   disciples' **faces turned up to Jesus**. Four distinct shots, one continuous
+   mob that only ever closes IN. No more repeated wide, no more wrong-way column.
+
+2. *"1:24 is bad, the trees are all cut off weirdly to expose the night sky,
+   just weird."*
+   → **FIXED.** 1:24 = 84 s = beat **b15 (s15, 80.89–89.14)**. Old take had a
+   hard horizontal seam: the olive canopy stopped in a straight line and the top
+   third was a flat stitched rectangle of star-field. New take frames the starry
+   sky organically through the arching canopy (branches curve over the top, stars
+   show through the gaps) — no hard cut, no "panel." Confirmed on the RENDERED
+   mp4 at t=84.
+
+**Scope:** touched ONLY the 5 named frames (b01, b03, b04, b05, b15). Every
+other beat is byte-identical. **Audio byte-identical** — assemble printed the
+same `AUDIO LOCK PASS SHA256=91d501ba565345efd95f1da7e7d6aa794f0cfa2e06fb6236b950c55bb0152d44`
+as the original ship; nothing re-voiced, 176.5 s unchanged.
+
+**Face/law checks (all 5 re-viewed once):** Jesus face-locked + consistent
+(dark wavy hair, full beard, cream robe) on s01/s05/s15; only Jesus in cream;
+true night — moon-silver + torch-orange, no sunset drift (time-of-day law); no
+halo/glow/rim-light; realistic photography, zero cartoon/mixed frames. s03 mob
+is period fire torches, temple guard in leather. Caption band bottom-only on the
+rendered frames; closing card clean.
+
+**Reroll/cost:** 5 rerolls (= 17% of 29 beats). This exceeds the 15% soft
+budget by one frame, but the overage is MANDATED — Cameron's complaint said
+"all the pictures up to 0:30 ... all need to be redone" (4 frames) plus the 1:24
+frame (1). Five is the minimum that satisfies his words; all landed on the FIRST
+attempt (no re-reroll). 5 × $0.134 = **$0.67** for the C-FIX. Meter → ~$496.87.
