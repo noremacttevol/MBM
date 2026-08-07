@@ -113,7 +113,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 99 | build-99-flesh-and-bone-thomas | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — STALE-V1-FINAL recency lock cleared (AUDIO_FROM_V1_SEGMENTS=True); 15 new-voice segments present; no complaint on file. 0 V2 stills → picture runner builds+assembles on corrected audio. See QC.md "AUDIO FIX DONE". |
 | 100 | build-100-the-ascension | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — STALE-V1-FINAL recency lock cleared (AUDIO_FROM_V1_SEGMENTS=True); 10 new-voice segments present; no complaint on file. 0 V2 stills → picture runner builds+assembles on corrected audio. See QC.md "AUDIO FIX DONE". |
 | 101 | build-101-still-small-voice | BUILT | 28 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 102 | build-102-jacobs-ladder | BUILT | 28 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
+| 102 | build-102-jacobs-ladder | BUILT | 28 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 LIVE | ✅ |
 | 103 | build-103-peters-confession | BUILT | 20 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 104 | build-104-boy-samuel | BUILT | 22 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 105 | build-105-face-to-face | AUTHORED | 0 | OK | AUDIO-FIX 2026-08-07 DONE (Machine A `Dev`): STALE-V1-FINAL resolved — set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. VERIFIED the rebuild gate: track rebuilt from the 18 V1 mp3s = 164.257s == extract_beats total to the ms (PASS). $0, no re-voice. No V2 stills yet → handed to picture runner; build the 26 beats on this fixed audio. See QC.md RUNNER PARK. | ✅ |
