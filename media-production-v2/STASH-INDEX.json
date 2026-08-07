@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 12:53:55",
+ "scanned": "2026-08-07 12:58:33",
  "entries": [
   {
    "row": 1,
@@ -41622,6 +41622,189 @@
    "night": true,
    "n_person": 0,
    "scene": "The room keeps the closing picture alone: cushions pushed back and empty, the lamps burning low over the quiet table, and at its centre the two things left on purpose \u2014 the broken round's remaining halves, and the great "
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b01",
+   "file": "build-90-washing-feet/assets/s01-at-that-last-supper-knowing.jpeg",
+   "tokens": [
+    "ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 3,
+   "scene": "The lamplit supper murmurs on, the camera at the wall behind the near couches' shoulders, around the low table \u2014 bread passing, low talk, Peter mid-story with a crust in his hand \u2014 and in the middle of it, quietly, Jesus"
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b02",
+   "file": "build-90-washing-feet/assets/s02-he-got-up-from-the.jpeg",
+   "tokens": [
+    "BASIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the uniform change no master makes: the outer robe folded deliberately aside, the long linen towel wrapped and knotted at the waist the way every house slave in the city knots it, and then the water \u2014 poured ste"
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b03",
+   "file": "build-90-washing-feet/assets/s03-and-he-began-to-wash.jpeg",
+   "tokens": [
+    "ROOM",
+    "BASIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The room stops breathing: at the ring's first place Jesus kneels on the floor with the basin, lifting a road-dusty foot with both hands into the water \u2014 washing it clean with the slow thorough care of a man who means it,"
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b04",
+   "file": "build-90-washing-feet/assets/s04-when-he-came-to-peter.jpeg",
+   "tokens": [
+    "ROOM",
+    "BASIN",
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "At Peter's place the circuit hits its wall: the big fisherman recoiling up his cushion with his feet drawn under him like a man saving them from fire, both broad hands out in protest \u2014 NEVER \u2014 the horror on his face the "
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b05",
+   "file": "build-90-washing-feet/assets/s05-not-you-not-for-me.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close between the two faces: Peter's all anguished granite \u2014 jaw set, eyes wet, the stubbornness of a man defending his Lord's honour against his Lord \u2014 and a hand-span away Jesus's face gentle and utterly immovable, the"
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b06",
+   "file": "build-90-washing-feet/assets/s06-if-i-wash-thee-not.jpeg",
+   "tokens": [
+    "BASIN",
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "From his knees, over the basin's waiting water, Jesus says the quiet sentence that ends the argument: NO PART WITH ME \u2014 no raised voice, no rising from the floor, the ultimatum delivered from below with the full weight o"
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b07",
+   "file": "build-90-washing-feet/assets/s07-that-is-how-serious-this.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Peter's face at the hinge: the protective granite still trying to hold \u2014 he was GUARDING something, he was sure of it \u2014 and underneath, spreading like water through a cracked hull, the dawning suspicion that he "
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b08",
+   "file": "build-90-washing-feet/assets/s08-what-he-was-really-doing.jpeg",
+   "tokens": [
+    "ROOM",
+    "BASIN",
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The wall comes down: Peter's road-worn feet lowering at last into the shallow water, his big hands falling open at his sides in total yielded defeat, the face above them undone \u2014 and Jesus washing the surrendered feet wi"
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b09",
+   "file": "build-90-washing-feet/assets/s09-when-he-had-finished-he.jpeg",
+   "tokens": [
+    "ROOM",
+    "BASIN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The circuit done, the camera down the table's length with the near backs in three-quarter, the room reassembles: Jesus robed again and settled back at his place at the table, the wide basin standing by the door with its "
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b10",
+   "file": "build-90-washing-feet/assets/s10-if-i-then-your-lord.jpeg",
+   "tokens": [
+    "ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 3,
+   "scene": "The lesson lands with its full hinge: Jesus's hand touching his own chest \u2014 IF I, YOUR LORD \u2014 then opening outward around the lamplit ring \u2014 YE ALSO, ONE ANOTHER'S \u2014 the gesture drawing the line every eye can follow, fro"
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b11",
+   "file": "build-90-washing-feet/assets/s11-whatever-he-just-did-for.jpeg",
+   "tokens": [
+    "ROOM",
+    "BASIN",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Close along the ring as the inheritance settles: eyes travelling from the grey-watered basin by the door to each other's faces \u2014 Peter looking at John, John at the man beside him \u2014 each of them measuring the towel agains"
+  },
+  {
+   "row": 90,
+   "build": "build-90-washing-feet",
+   "beat": "v2-r090-b12",
+   "file": "build-90-washing-feet/assets/s12-the-greatest-one-in-the.jpeg",
+   "tokens": [
+    "ROOM",
+    "BASIN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The closing frame keeps the picture the way the twelve kept it: the greatest one in the room down on the floor in the lamplight \u2014 kneeling over the basin with a road-dirty foot cradled in his two hands, the servant's tow"
   },
   {
    "row": 91,

@@ -320,6 +320,8 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   panorama wide; a faint hazy far element in a NON-hero landscape wide is
   FIX-WAVE (a reroll re-seeds the whole vista for one distant speck).
 
+- **A night-interior beat that OMITS the ROOM/setting lock inherits NEITHER the "night" cue NOR the period-lamp spec — it renders DAYLIGHT windows AND modern kerosene/glass-chimney lamps at once (2026-08-07, row 90 washing-feet b02/b06).** In a night story (last supper), beats whose `locks` include ROOM (whose text said "window open on the night, clay oil lamps") rendered night with clay saucer lamps; beats that locked only BASIN/PETER (no ROOM) drifted to bright daylight windows AND invented glass-chimney hurricane lamps — BOTH defects trace to the one missing setting lock (row-103 class). A reroll without the lock is a coin-flip: b09 (locks ROOM) rerolled straight to night; b06 (no ROOM) stayed daylight on the reroll. Diagnose by comparing the defect beats' `locks` to the clean beats' — if the wrong-setting beats omit the place token, it is an AUTHOR fix (add ROOM to those beats' `locks`), not a runner reroll; do ONE probe reroll then FIX-WAVE. Distinct from a pure generation fluke where a ROOM-locked beat still drifts (that one a reroll fixes). Also note: a beat whose must_show enumerates a SEQUENCE ("close on the sequence: robe aside… towel knotted… water arcing") is a collage magnet even after the daylight/lamp is fixed (row-66/114) — b02 took two rerolls to land a single frame; the durable fix is de-sequencing the must_show (author).
+
 ## Reuse before regenerate (Cameron's core order — rubric lesson 11 + COST LAW)
 
 - Plates: `v2_stash.py --wire` before generating; promote-first for new places.
