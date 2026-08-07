@@ -55,7 +55,45 @@ closing — meek rider amid it all, in profile). Eight flips.
 - Only Jesus wears cream.
 
 
-## RUNNER PARK (A-auto Machine A `Dev`, 2026-08-06) — NEEDS-AUDIO / STALE-V1-FINAL — $0 SPENT
+## ✅ PICTURE RUNNER — BUILT (A-auto Machine A `Dev`, 2026-08-07, Opus runner) — 20 stills, 0 rerolls
+
+Audio fix confirmed live before spending: `grep AUDIO_FROM_V1_SEGMENTS beats_v2.py` = **True**
+(assembler rebuilds narration from this build's own 15 V1-dir mp3 segments at the timeline
+offsets — nothing re-voiced). `v2_prompt.py --check` PASS, zero WARNs. No open Cameron
+complaint (`v2_outline.py 88` shows none).
+
+**COMPLAINT LEDGER: none open.** (Row 88 has no filed Cameron complaint; the AUDIO-FIX
+lane's STALE-V1-FINAL park was mechanical, not a Cameron complaint, and is resolved by the
+`AUDIO_FROM_V1_SEGMENTS=True` flag — proven at ship by AUDIO LOCK PASS.)
+
+**Generation:** `v2_gen_api.py --ceiling 497`, 20/20 stills at native 2K, $2.68 this run,
+meter $467.79 → $470.47. Places LANE + ROAD wired from build-38 plates (PLACE-REF present,
+no fresh place gen). 0 portraits (story-cast reuse). **0 rerolls (0% — well under the 15%
+COST-LAW budget).**
+
+**Light QC — all 20 frames viewed once against beats + RUNNER-LESSONS:**
+- Anchors QC'd first/hardest — LANE (s01/s03/s05/s06) + ROAD (s07/s09/s11/s12/s13/s15/s16/
+  s18/s19/s20) plates propagated clean, no inherited defect.
+- Count laws HELD: TWO disciples (green + blue-grey, same two men b01→b07), TWO donkeys
+  (grey mother + darker-grey colt, colt ridden / mother led alongside — s03/s06/s08/s09).
+- Jesus: face-locked and consistent, warm tan skin, cream robe, ONLY Jesus in cream in every
+  crowd frame; proportionate — the humble-colt geometry (feet near the ground on the small
+  mount) is the author's intended meekness read, NOT a giant/shrunk defect; no halo/glow.
+- Realism: every frame photographic — NO cartoon/CGI/mixed frame (Law 14 clean).
+- Crowd frames (s11/s13/s14/s16/s17/s20): joyful/fervent worship, cloaks + cut branches on
+  the road, procession descends toward the in-frame gate — never mob-like, no weapons.
+- No modern hard objects, no second cream robe, no dead lens-stare, no headless/extra-limb,
+  no collage/panel, no modern skyline behind the ancient walls, no power-line across sky.
+
+**FIX-WAVE (subtle background drift — deliberately NOT rerolled per COST-LAW; a later fix
+wave's job, not obvious garbage):**
+- s05: the laundry line's pegs read as possibly modern-style clothespins, and one faint
+  fair-haired woman in the deep background — both background, non-subject, borderline.
+- s14: one faint fair-haired woman at the far-left crowd edge.
+(These are the exact "subtle drift" the runner is told to leave to the fix wave; no reroll
+spent chasing them.)
+
+## RUNNER PARK (A-auto Machine A `Dev`, 2026-08-06) — NEEDS-AUDIO / STALE-V1-FINAL — $0 SPENT — ✅ RESOLVED 2026-08-07 (flag set by AUDIO-FIX lane; picture runner built above)
 Pre-flighted at step 2 BEFORE any credit (no stills generated, nothing to reuse-waste).
 
 **BLOCKER — v2_assemble AUDIO LOCK will fail:** timeline total = 118.564s vs authoritative V1 mp4 `matthew-21_triumphal-entry.mp4` = 117.100s.
