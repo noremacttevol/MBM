@@ -3,6 +3,54 @@
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 27 beats, ~154 s.
 
+---
+
+## ✅ AUTHOR DONE 2026-08-07 (Machine A `Dev`, Fable-5 author lane) — SECOND-FEEDING SCHOLARSHIP added, $0, 0 image credits
+
+**COMPLAINT LEDGER — the ONE open complaint on this row is now ANSWERED:**
+
+> Cameron (2026-08-06, reportedAgainst 3005df5d1da3): *"if we tell this story as
+> the second time he did this and dont give any biblical scholarship on the fact
+> that it was true that he did it twice and it was different times becasue it was
+> recorded that he did comment on that then we are doing a huge disservice... we
+> need refrences in this one and comparisons that give the act a better light not
+> just telling the story the same way twice."*
+
+**What in THIS cut fixes it (narrator scholarship, riding existing stills):**
+
+1. **Named plainly as the SECOND, distinct feeding.** `n2b` now adds: *"And here
+   they were, working the very same sums a second time, as if that first miracle
+   had never happened."* — on the counting-disciple callback (b13b reuses s12),
+   right after the existing "the man who had already fed five thousand" line.
+2. **The recorded proof that Jesus commented on both.** `n5` now cites it directly:
+   *"Later Jesus made the disciples count both feedings — twelve baskets, then
+   seven — so they could never blur the two into one. He wanted both of them
+   remembered."* This IS Mark 8:19-21 / Matt 16:9-10, where Jesus makes them count
+   the five-loaves/twelve-baskets AND the seven-loaves/seven-baskets. (b24, on the
+   sack-vs-baskets "arithmetic in one image" still.)
+3. **The comparison that gives the act a better light.** `n5` also adds: *"And the
+   numbers were the proof this was no retelling: five loaves had left twelve
+   baskets the first time; seven loaves left seven this time."* — the differing
+   counts (5→12 in Jewish Galilee, Matt 14, vs 7→7 in the Gentile Decapolis, Mark
+   8, after three days) are surfaced as the EVIDENCE the events are distinct, not
+   trivia. (b23b reuses the seven-loaf inventory still s16 — the loaf image carries
+   the loaf-count comparison.)
+
+**Mechanics / cost:** narration edited in the AUTHORITATIVE V1 make_narration.py
+(and mirrored in V2); only the two NARRATOR segments n2b + n5 re-voiced with the
+same edge-tts AndrewNeural (FREE — Jesus/scripture segments untouched, no
+ElevenLabs, $0). Two scholarship beats added (b13b, b23b) that REUSE already-built
+stills s12 and s16 — **no new image generated, 0 credits, 0 rerolls.** Timeline
+recomputed from the new segment durations (extract_beats: total 172.5 s → 207.3 s,
+card_start 189.303); all 29 beats_v2 still-windows remapped and re-audited
+contiguous with zero gaps; `--check` PASS. AUDIO_FROM_V1_SEGMENTS=True (already set)
+rebuilds the track from the V1 mp3s.
+
+**Complaint stays OPEN in REVIEW-LESSONS until the re-cut ships.** Board: State
+BUILT/NEEDS-REBUILD → **Ready ✅**. Re-assembled locally by the author (stills were
+all done); RUNNER: verify the new mp4, deploy, and ship with the review card telling
+Cameron his second-feeding-scholarship complaint was addressed.
+
 ## Coverage shape
 
 Five true wides with stated geometry: b01 (the camped multitude in

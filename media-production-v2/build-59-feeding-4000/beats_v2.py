@@ -5,8 +5,12 @@ Consumed by media-production-v2/v2_prompt.py. STYLE-V2, the forced-wide defense
 line, the anti-panel clause and JESUS LOCK v4 are prepended by the assembler so
 they stay byte-identical across every prompt.
 
-COVERAGE: 27 pictures over 154.5 s narration = 5.7 s/picture, inside the
-4.6-6.0 band rows 1-11 shipped at.
+COVERAGE: 29 windows over 207.3 s narration (27 unique stills; s12 and s16 are
+reused as scholarship callbacks in b13b/b23b — NO new images). The extra runtime
+is the SECOND-FEEDING scholarship Cameron asked for (complaint 2026-08-06): n2b now
+names it plainly as a second, distinct miracle, and n5 draws the 5-loaves→12-baskets
+(Matt 14) vs 7-loaves→7-baskets (Mark 8) comparison and cites that Jesus himself made
+the disciples count BOTH (Mark 8:19-21 / Matt 16:9-10). See make_narration.py.
 
 SCRIPTURE FACTS THAT GOVERN THE PICTURES (Mark 8:1-9 KJV):
   v1   the multitude being VERY GREAT, and having NOTHING TO EAT — this is
@@ -313,7 +317,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b12", "out": "s12-doing-the-arithmetic.jpeg", "seg": "n2b p1",
-        "window": "65.02-69.98", "wide": False, "jesus": False, "ref": False,
+        "window": "65.02-71.18", "wide": False, "jesus": False, "ref": False,
         "locks": ["DISCIPLES"],
         "narration": ("Where out here, they said, could anybody get "
                       "enough bread to fill a crowd this size?"),
@@ -332,7 +336,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b13", "out": "s13-standing-right-in-front-of-them.jpeg", "seg": "n2b p2",
-        "window": "69.98-78.66", "wide": False, "jesus": True, "ref": REF,
+        "window": "71.18-80.18", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "WILDS"],
         "narration": ("They were standing in a wilderness doing the "
                       "arithmetic, with the man who had already fed five "
@@ -352,8 +356,30 @@ BEATS = [
         ),
     },
     {
+        # REUSE beat (scholarship, Cameron complaint): rides the ALREADY-BUILT
+        # s12 counting-disciple still as a callback. NO new image is generated.
+        "id": "v2-r059-b13b", "out": "s12-doing-the-arithmetic.jpeg", "seg": "n2b p3",
+        "window": "80.18-88.62", "wide": False, "jesus": False, "ref": False,
+        "locks": ["DISCIPLES"],
+        "narration": ("And here they were, working the very same sums a "
+                      "second time, as if that first miracle had never "
+                      "happened."),
+        "must_show": "the second-time point made visible — the same disciple still failing the same arithmetic, a callback to the counting frame; the miracle they had already seen forgotten.",
+        "must_not_show": "no new location — reuses the counting-disciple frame; this is a scholarship callback, not a fresh scene.",
+        "scene": (
+            "The same earnest round-faced disciple counting on his "
+            "fingers against the camped thousands, lips moving "
+            "through figures that will not add up — the identical "
+            "helpless arithmetic he worked once already the day the "
+            "five thousand were fed, done over again as though the "
+            "first day had left no memory at all. Exactly one person "
+            "is in the frame in focus, with two hands of five fingers "
+            "each and one head."
+        ),
+    },
+    {
         "id": "v2-r059-b14", "out": "s14-he-did-not-scold-them.jpeg", "seg": "n3 p1-p2",
-        "window": "78.66-83.64", "wide": False, "jesus": True, "ref": REF,
+        "window": "88.62-93.60", "wide": False, "jesus": True, "ref": REF,
         "locks": [],
         "narration": ("Jesus did not scold them for it. He just asked "
                       "them what they already had."),
@@ -371,7 +397,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b15", "out": "s15-how-many-loaves.jpeg", "seg": "j5 + s5",
-        "window": "83.64-89.12", "wide": False, "jesus": False, "ref": False,
+        "window": "93.60-99.08", "wide": False, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "BREAD"],
         "narration": "How many loaves have ye? (Mark 8:5) / Seven.",
         "must_show": "v5 — the inventory: a disciple holding the provision sack open, seven flat loaves visible; the answer on his face.",
@@ -390,7 +416,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b16", "out": "s16-seven-and-a-few-fish.jpeg", "seg": "n3b p1-p2",
-        "window": "89.12-94.49", "wide": False, "jesus": False, "ref": False,
+        "window": "99.08-104.45", "wide": False, "jesus": False, "ref": False,
         "locks": ["BREAD"],
         "narration": ("How many loaves do you have, he asked. Seven, they "
                       "said — and a few small fish."),
@@ -408,7 +434,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b17", "out": "s17-he-took-it-gladly.jpeg", "seg": "n3b p3-p4",
-        "window": "94.49-102.09", "wide": False, "jesus": True, "ref": REF,
+        "window": "104.45-112.05", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BREAD"],
         "narration": ("It was almost nothing against so great a need. "
                       "But he took it gladly; in his hands, it was more "
@@ -429,7 +455,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b18", "out": "s18-sit-down-on-the-ground.jpeg", "seg": "nbless p1",
-        "window": "102.09-104.02", "wide": True, "jesus": False, "ref": False,
+        "window": "112.05-113.98", "wide": True, "jesus": False, "ref": False,
         "locks": ["CROWD", "WILDS"],
         "narration": "He had the people sit down on the ground.",
         "must_show": "v6 — the multitude settling onto the bare rocky ground (no grass here); order arriving over the camp.",
@@ -448,7 +474,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b19", "out": "s19-gave-thanks-and-brake.jpeg", "seg": "nbless p2",
-        "window": "104.02-111.55", "wide": False, "jesus": True, "ref": REF,
+        "window": "113.98-121.51", "wide": False, "jesus": True, "ref": REF,
         "locks": ["DISCIPLES", "BREAD"],
         "narration": ("Then he took the seven loaves, and gave thanks, "
                       "and broke them, and gave them to his disciples to "
@@ -469,7 +495,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b20", "out": "s20-once-again-it-kept-coming.jpeg", "seg": "n4 p1",
-        "window": "111.55-113.63", "wide": False, "jesus": False, "ref": False,
+        "window": "121.51-123.59", "wide": False, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "BREAD"],
         "narration": "And once again the food did not run out.",
         "must_show": "the refill astonishment — a basket heaped again mid-round; the carrying disciple's face doing the impossible math.",
@@ -488,7 +514,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b21", "out": "s21-through-the-whole-multitude.jpeg", "seg": "n4 p2a",
-        "window": "113.63-119.00", "wide": False, "jesus": False, "ref": False,
+        "window": "123.59-128.96", "wide": False, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "CROWD", "WILDS"],
         "narration": ("The disciples carried bread and fish through the "
                       "whole multitude,"),
@@ -507,7 +533,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b22", "out": "s22-completely-satisfied.jpeg", "seg": "n4 p2b",
-        "window": "119.00-125.06", "wide": False, "jesus": False, "ref": False,
+        "window": "128.96-134.98", "wide": False, "jesus": False, "ref": False,
         "locks": ["CROWD", "WILDS"],
         "narration": ("and everyone ate until they were completely "
                       "satisfied, thousands of people, fed from almost "
@@ -527,12 +553,13 @@ BEATS = [
         ),
     },
     {
-        "id": "v2-r059-b23", "out": "s23-seven-large-baskets.jpeg", "seg": "n5 p1",
-        "window": "125.06-130.13", "wide": True, "jesus": False, "ref": False,
+        "id": "v2-r059-b23", "out": "s23-seven-large-baskets.jpeg", "seg": "n5 p1-p2",
+        "window": "134.98-145.27", "wide": True, "jesus": False, "ref": False,
         "locks": ["DISCIPLES", "BREAD", "WILDS"],
         "narration": ("When they gathered up what was left over, they "
                       "filled seven large baskets with the broken "
-                      "pieces."),
+                      "pieces. There was far more at the end than there "
+                      "had been at the start."),
         "must_show": "v8 — the count: EXACTLY SEVEN large baskets heaped with fragments, lined up on the rock in late light.",
         "must_not_show": "COUNT DISCIPLINE: seven baskets, countable at a glance — no more, no fewer.",
         "scene": (
@@ -550,12 +577,36 @@ BEATS = [
         ),
     },
     {
-        "id": "v2-r059-b24", "out": "s24-more-at-the-end.jpeg", "seg": "n5 p2",
-        "window": "130.13-134.32", "wide": False, "jesus": False, "ref": False,
+        # REUSE beat (scholarship, Cameron complaint): rides the ALREADY-BUILT
+        # s16 seven-loaves-inventory still — the loaf image carries the loaf-count
+        # comparison (5 loaves→12 baskets vs 7 loaves→7). NO new image generated.
+        "id": "v2-r059-b23b", "out": "s16-seven-and-a-few-fish.jpeg", "seg": "n5 p3",
+        "window": "145.27-156.19", "wide": False, "jesus": False, "ref": False,
         "locks": ["BREAD"],
-        "narration": ("There was far more at the end than there had been "
-                      "at the start."),
-        "must_show": "the arithmetic in one image — the empty leather sack that held seven loaves lying beside the seven heaped baskets.",
+        "narration": ("And the numbers were the proof this was no "
+                      "retelling: five loaves had left twelve baskets the "
+                      "first time; seven loaves left seven this time."),
+        "must_show": "the count comparison made visible on the loaves themselves — the seven-loaf inventory frame while the narration contrasts five-loaves-twelve-baskets against seven-loaves-seven-baskets; the different numbers are the evidence the two feedings are distinct events.",
+        "must_not_show": "no new scene — reuses the seven-loaf inventory frame as the scholarship anchor; do not invent a green hillside or the five thousand here.",
+        "scene": (
+            "The seven coarse dark loaves laid out in a row on the "
+            "flat grey rock with the few small dried fish beside "
+            "them — the entire supply of this second feeding, "
+            "photographed plainly like an inventory — held on the "
+            "screen while the narration sets this day's seven "
+            "against the five loaves of the earlier feeding. Nothing "
+            "else is on the rock."
+        ),
+    },
+    {
+        "id": "v2-r059-b24", "out": "s24-more-at-the-end.jpeg", "seg": "n5 p4-p5",
+        "window": "156.19-169.12", "wide": False, "jesus": False, "ref": False,
+        "locks": ["BREAD"],
+        "narration": ("Later Jesus made the disciples count both feedings "
+                      "— twelve baskets, then seven — so they could never "
+                      "blur the two into one. He wanted both of them "
+                      "remembered."),
+        "must_show": "the arithmetic in one image — the empty leather sack that held seven loaves lying beside the seven heaped baskets — carrying the scholarship that Jesus himself (Mark 8:19-21 / Matt 16:9-10) made the disciples count BOTH feedings so the two would stay distinct.",
         "must_not_show": "start and end in the same frame: the little flat sack against the towering leftovers.",
         "scene": (
             "Close on the ground in the golden light: the worn "
@@ -569,7 +620,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b25", "out": "s25-four-thousand-went-home-full.jpeg", "seg": "n6 p1",
-        "window": "134.32-139.25", "wide": True, "jesus": False, "ref": False,
+        "window": "169.12-174.02", "wide": True, "jesus": False, "ref": False,
         "locks": ["CROWD", "WILDS"],
         "narration": ("About four thousand people were there that day, "
                       "and every single one of them went home full."),
@@ -592,7 +643,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b26", "out": "s26-sent-away-cared-for.jpeg", "seg": "n6 p2",
-        "window": "139.25-144.16", "wide": False, "jesus": True, "ref": REF,
+        "window": "174.02-178.95", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CROWD", "WILDS"],
         "narration": ("Then he sent them away, cared for, in body and in "
                       "soul."),
@@ -611,7 +662,7 @@ BEATS = [
     },
     {
         "id": "v2-r059-b27", "out": "s27-that-is-who-he-is.jpeg", "seg": "n7",
-        "window": "144.16-154.24", "wide": False, "jesus": True, "ref": REF,
+        "window": "178.95-189.30", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WILDS", "BREAD"],
         "narration": ("He did not owe them a meal. But he saw tired, "
                       "hungry people a long way from home, and he could "

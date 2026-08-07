@@ -27,10 +27,20 @@ intentional -- a retelling in the middle of a two-word exchange would kill it. n
 retells both immediately after. Every other Old English block in this build is
 followed by the narrator saying it again.
 
-NOTE ON THE OTHER FEEDING: "We have here but five loaves, and two fishes" belongs to
-Matthew 14 and the five thousand, not here. Mark 8 is seven loaves and a few small
-fishes, and the disciples' line in THIS story is Mark 8:4 above. Kept the two
-feedings from bleeding into each other.
+SECOND-FEEDING SCHOLARSHIP (Cameron complaint, 2026-08-06 — reportedAgainst
+3005df5d1da3). This IS the second time Jesus fed a multitude, at a different time
+and place from the five thousand, and the narration must SAY so and defend it, not
+retell the first story with new numbers. The proof is recorded in Jesus's OWN
+words: Matt 16:9-10 / Mark 8:19-21, where he makes the disciples count BOTH — "the
+five loaves of the five thousand, and how many baskets... the seven loaves of the
+four thousand, and how many baskets" — twelve then, seven now. Two crowds, two
+wildernesses, two rescues; he wanted both remembered. The two are deliberately
+CONTRASTED here (n2b, n5): five loaves and two fishes → twelve baskets on the green
+Jewish hillside (Matt 14) vs seven loaves and a few small fishes → seven baskets in
+the Gentile Decapolis (Mark 8), after three days. The differing counts are the
+evidence the events are distinct. This REVERSES the old "keep the two feedings from
+bleeding" note: the contrast is now the point, not a leak to be prevented.
+THE DISCIPLES' OWN line in THIS story stays Mark 8:4 above (s4).
 
 NO GREEN. WOMEN: Mark 8:1-9 records no woman speaking. Nothing invented.
 
@@ -58,7 +68,7 @@ SEGMENTS = [
     ("n2", NARRATOR, "He would not just send them off. So he turned to his disciples; but they were baffled."),
     # Mark 8:4
     ("s4", SCRIPTURE, "From whence can a man satisfy these men with bread here in the wilderness?"),
-    ("n2b", NARRATOR, "Where out here, they said, could anybody get enough bread to fill a crowd this size? They were standing in a wilderness doing the arithmetic, with the man who had already fed five thousand standing right in front of them."),
+    ("n2b", NARRATOR, "Where out here, they said, could anybody get enough bread to fill a crowd this size? They were standing in a wilderness doing the arithmetic, with the man who had already fed five thousand standing right in front of them. And here they were, working the very same sums a second time, as if that first miracle had never happened."),
     ("n3", NARRATOR, "Jesus did not scold them for it. He just asked them what they already had."),
     # Mark 8:5
     ("j5", JESUS, "How many loaves have ye?"),
@@ -67,7 +77,7 @@ SEGMENTS = [
     ("n3b", NARRATOR, "How many loaves do you have, he asked. Seven, they said — and a few small fish. It was almost nothing against so great a need. But he took it gladly; in his hands, it was more than enough."),
     ("nbless", NARRATOR, "He had the people sit down on the ground. Then he took the seven loaves, and gave thanks, and broke them, and gave them to his disciples to set before the crowd."),
     ("n4", NARRATOR, "And once again the food did not run out. The disciples carried bread and fish through the whole multitude, and everyone ate until they were completely satisfied, thousands of people, fed from almost nothing."),
-    ("n5", NARRATOR, "When they gathered up what was left over, they filled seven large baskets with the broken pieces. There was far more at the end than there had been at the start."),
+    ("n5", NARRATOR, "When they gathered up what was left over, they filled seven large baskets with the broken pieces. There was far more at the end than there had been at the start. And the numbers were the proof this was no retelling: five loaves had left twelve baskets the first time; seven loaves left seven this time. Later Jesus made the disciples count both feedings — twelve baskets, then seven — so they could never blur the two into one. He wanted both of them remembered."),
     ("n6", NARRATOR, "About four thousand people were there that day, and every single one of them went home full. Then he sent them away, cared for, in body and in soul."),
     ("n7", NARRATOR, "He did not owe them a meal. But he saw tired, hungry people a long way from home, and he could not bear to send them away empty. That is simply who he is."),
     ("card", NARRATOR, "He notices what everyone else overlooks, that you are tired, that you are running on empty, that you have come a long way. He cares about your soul, and he also cares that you would faint on the road. What ordinary need are you afraid is too small to bring to him?"),
