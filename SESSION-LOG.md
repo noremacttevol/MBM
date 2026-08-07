@@ -1,3 +1,34 @@
+## 2026-08-06 (Opus 4.8, AUDIO-FIX headless lane) — ROW 61 syrophoenician-woman STALE-V1 cleared + realistic-V2 SHIPPED + LIVE — Machine A `Dev`
+
+**Commit:** 25639cd75 (card+audio+board) + 4b49be56d (force-add v2 mp4) + this commit (SESSION-LOG)
+
+Ran PROMPT-AUDIO-FIX.md, lowest unclaimed NEEDS-AUDIO row = **61** (77 already
+carried an AUDIO-FIX claim). Class = **STALE-V1**, not a pronunciation complaint —
+`v2_outline.py 61` shows ZERO open Cameron complaints; the row was parked only on
+the AUDIO LOCK (`timeline 185.202s vs stale V1 mp4 179.333s, +5.869s`) because the
+V1 mp4 (07-29 09:47) predates the make_narration.py edit (07-29 23:03) by ~13h.
+
+**Fix ($0, NO new TTS):** set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py →
+`v2_assemble.py 61` rebuilt the track from the 15 current new-voice V1 mp3 segments
+(`AUDIO REBUILT ... 185.202s`, `AUDIO REBUILD PASS`). All 31 V2 stills were already
+generated + Light-QC passed (0 rerolls), so this shipped as a **full realistic-V2
+cut** — nothing regenerated, $0 pictures. Face gate exit 0. mp4 185.2s / 21.2MB,
+video+audio verified (ffprobe). mp4 SHA256 `106884ad…`; rebuilt-audio SHA256 `274d1bbd…`.
+
+**Ship:** review card → `data-review-wave="realistic-v2"`, points at the v2 mp4, 🛠
+flag written in Cameron-facing plain language (no complaint to answer — none filed;
+flag explains the stale sound file was rebuilt from his approved new-voice
+recordings, voices/words/timing unchanged). Board 61 NEEDS-AUDIO→**BUILT / OK / ✅**.
+`firebase deploy --only hosting` (milk-b4-meat) complete. **Live-verified:** live
+review.html card 61 = realistic-v2 pointing at the v2 mp4; the card's exact GitHub
+raw URL returns 200 / 21203622 bytes. **Gotcha logged:** `media-production-v2/.gitignore`
+ignores `*.mp4`, so `git add <dir>` silently skips the cut — v2 mp4s MUST be
+`git add -f`'d (first ship commit shipped card+audio only; 4b49be56d force-added the mp4).
+
+**Cost:** ElevenLabs $0 (STALE-V1 needs no TTS), Gemini $0. Meter unchanged.
+
+---
+
 ## 2026-08-06 (Opus 4.8, runner resume) — ROW 114 abraham-sodom V2 realistic SHIPPED + DEPLOYED — Machine A `Dev`
 
 **Commit:** 17a68c09fa5e0dfc90ebc13e02339c486dbc5afe (ship) + this commit (review card + deploy)
