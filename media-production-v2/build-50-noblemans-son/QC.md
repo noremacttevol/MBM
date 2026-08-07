@@ -97,3 +97,43 @@ This row has ZERO V2 stills built (picture runner hasn't reached it). Per the
 AUDIO-FIX loop step 5, nothing visual ships here; the board is flipped
 AUTHORED / Audio OK / Ready ✅ with the claim cleared so the picture runner
 builds it on this corrected audio. The audio now says KANE-a — runner may ship.
+
+## ⛔ RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-07) — the "AUDIO FIX DONE" was ORPHANED
+Runner (Machine A `Dev`) inspected this row at claim time before spending ANY
+credit. **The Cana→KANE-a fix never reached the audio the assembler ships**, so
+building stills now would ship the OLD rejected "Cana" and REPEAT Cameron's open
+complaint — the worst failure. $0 park, no stills generated.
+
+Root cause (verified, not guessed):
+- `v2_assemble.py` sources the narration from the **authoritative V1 mp4**
+  (`media-production/build-50-noblemans-son/john-4_noblemans-son.mp4`, rendered
+  2026-07-29) because `beats_v2.py` has **no `AUDIO_FROM_V1_SEGMENTS`** (default
+  False). It explicitly does NOT read the V2 build-local `audio/` dir (v2_assemble
+  line 372-373).
+- The 2026-08-06 audio-fix ran `make_narration.py` from INSIDE the V2 build dir,
+  so the corrected `SPOKEN={"Cana":"cayna"}` n1/n3 were written to
+  `media-production-v2/build-50-noblemans-son/audio/{n1,n3}.mp3` (mtime
+  2026-08-06T21:22) — the directory the assembler ignores.
+- The V1-dir n1.mp3 (`media-production/build-50-noblemans-son/audio/n1.mp3`) that
+  the assembler WOULD read under the flag was never touched by the fix; its last
+  commit is `958eff458` ("removed bad kaynuh respell → plain KAY-nuh") = the
+  KAH-nuh vowel Cameron rejects. Hashes differ: V1-dir `dc0a…` ≠ V2-dir `c664…`.
+- AUDIO LOCK would deceptively PASS (V1 mp4 dur 166.07 ≈ timeline 166.06,
+  newer_mp3s=0) while shipping the wrong audio — a passing AUDIO LOCK proves
+  byte-consistency with the V1 mp4, NOT that the pronunciation complaint is fixed.
+
+RESUME (audio authority ONLY — runner is forbidden to re-voice / re-render V1):
+The corrected `cayna` narration ALREADY EXISTS at
+`media-production-v2/build-50-noblemans-son/audio/{n1,n3}.mp3`. Get it into the
+authoritative audio the assembler reads, then flip Ready ✅:
+  Route A (preferred, keeps flag False): copy the fixed n1.mp3 + n3.mp3 into
+    `media-production/build-50-noblemans-son/audio/`, re-render the V1
+    `john-4_noblemans-son.mp4` from the V1 build so the authoritative mp4 carries
+    KANE-a, commit the new mp4. Then the picture runner builds normally and
+    AUDIO LOCK copies the corrected audio.
+  Route B: copy the fixed n1/n3 into the V1-dir audio AND set
+    `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py (author edit) so the V2
+    assembler rebuilds narration from the V1-dir mp3s.
+EAR-CHECK the re-rendered n1/n3 (must say KANE-a, long-A glide) before Ready ✅.
+Row 51 (build-51-first-catch-of-fish, "tear→tare") is the SAME orphaned-fix
+class — audit it the same way before building.

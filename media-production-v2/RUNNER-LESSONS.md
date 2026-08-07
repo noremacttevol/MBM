@@ -38,6 +38,24 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   Rendering complaints (question-card "squares") are DIFFERENT — the V2 card
   renderer already fixed that class, so just verify the rendered end card is clean
   and ship.
+  - **A board that says "AUDIO FIX DONE / Audio OK" is NOT proof the fix ships —
+    verify the fix reached the AUTHORITATIVE audio before trusting it (2026-08-07,
+    row 50).** `v2_assemble` sources narration from the V1 mp4
+    (`media-production/<build>/*.mp4`), or from the V1-dir mp3s only when
+    `AUDIO_FROM_V1_SEGMENTS=True`; it EXPLICITLY ignores the V2 build-local
+    `audio/` dir. Row 50's Cana→cayna fix ran `make_narration.py` from inside the
+    V2 build dir, so the corrected n1/n3 landed in
+    `media-production-v2/<build>/audio/` (orphaned) while the V1 mp4 (2026-07-29,
+    plain "Cana"=KAH-nuh) was never re-rendered. AUDIO LOCK would deceptively PASS
+    (durations match, newer_mp3s=0) yet ship the OLD rejected pronunciation =
+    repeat the complaint. DETECT before building any "audio-fixed" pronunciation
+    row: (a) `grep AUDIO_FROM_V1_SEGMENTS beats_v2.py`; if absent/False the ship
+    audio is the V1 mp4 — check the V1 mp4 mtime is AFTER the fix commit; (b) if
+    the flag is True, hash-compare the V1-dir mp3 vs the V2-dir fixed mp3 (`md5sum`)
+    — they must MATCH. If the fix is only in the V2 dir, PARK NEEDS-AUDIO (the
+    audio authority must copy the fixed mp3s into the V1 dir + re-render the V1
+    mp4, or set the flag). A passing AUDIO LOCK proves byte-consistency with the
+    V1 mp4, NOT that a pronunciation complaint is fixed.
   - **PACING/"too fast"/"meaningless"/"rushed" complaints are ALSO audio-domain —
     park them the same as a mispronunciation (2026-08-06, row 10).** Cameron's
     row-10 complaint was not a wrong word but the DELIVERY of Jesus's Messiah
