@@ -248,6 +248,15 @@ REF = True
 # the standard assets dir.
 OUTPUT_ASSET_DIR = "assets"
 
+# AUDIO_FROM_V1_SEGMENTS (2026-08-07, AUDIO-FIX): Cameron's j5 "shouldest" ->
+# "should-est" re-voice regenerated the V1 build's audio/j5.mp3, so the V1 final
+# MP4 no longer carries the shipped audio. Rebuild the authoritative narration
+# track from the V1 mp3s at the extract_beats offsets (which now reflect the new
+# j5 duration) instead of muxing the stale V1 MP4. The picture windows above were
+# remapped through a piecewise-linear old->new segment-start map so every still
+# stays phrase-synced with the new audio (tail shift ~+0.17s from j5 onward).
+AUDIO_FROM_V1_SEGMENTS = True
+
 # TEXT_OVERRIDES — see the SOURCING TRAP note in the docstring. The V1 build is
 # read-only; this is the opt-in hook v2_assemble honours so the captions carry the
 # words that are actually spoken. Proved by faster-whisper transcription of the
@@ -1098,7 +1107,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b38", "out": "s38-o-thou-wicked-servant.jpeg", "seg": "j5",
-        "window": "159.67-164.37", "wide": False, "jesus": False, "ref": False,
+        "window": "159.67-164.43", "wide": False, "jesus": False, "ref": False,
         "locks": ["KING", "HALL"],
         "narration": "O thou wicked servant, I forgave thee all that debt, because thou desiredst me:",
         "must_show": "the king's face delivering the sentence — grief and severity together. He is not enjoying this and he is not raging; the compassion of the earlier frame is still visible underneath.",
@@ -1119,7 +1128,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b39", "out": "s39-shouldest-not-thou-also.jpeg", "seg": "j5",
-        "window": "164.37-169.07", "wide": False, "jesus": False, "ref": False,
+        "window": "164.43-169.18", "wide": False, "jesus": False, "ref": False,
         "locks": ["DEBTOR", "HALL"],
         "narration": "Shouldest not thou also have had compassion on thy fellowservant,",
         "must_show": "the debtor's face taking the question — recognition arriving, no defence left in him.",
@@ -1139,7 +1148,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b40", "out": "s40-even-as-i-had-pity-on-thee.jpeg", "seg": "j5",
-        "window": "169.07-173.77", "wide": True, "jesus": False, "ref": False,
+        "window": "169.18-173.94", "wide": True, "jesus": False, "ref": False,
         "locks": ["KING", "DEBTOR", "COURT-SERVANTS", "HALL"],
         "narration": "even as I had pity on thee?",
         "must_show": "the whole hall in one frame with the two men and the silent watching court — the picture that holds the parable's comparison: what he was given against what he refused.",
@@ -1160,7 +1169,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b41", "out": "s41-handed-him-over.jpeg", "seg": "n15",
-        "window": "173.77-179.06", "wide": True, "jesus": False, "ref": False,
+        "window": "173.94-179.23", "wide": True, "jesus": False, "ref": False,
         "locks": ["DEBTOR", "GUARDS", "HALL"],
         "narration": "And in his anger the king handed him over to be punished until he should pay back all that he owed.",
         "must_show": "RESTRAINED: two guards walking the debtor away from the dais toward a dark doorway at the end of the hall, seen from behind, going away from the camera. The grief of it, not the mechanics.",
@@ -1189,7 +1198,7 @@ BEATS = [
     # ================================ BACK TO THE FRAME — Capernaum, dusk ====
     {
         "id": "v2-r022-b42", "out": "s42-jesus-turned-the-story-to-us.jpeg", "seg": "n15",
-        "window": "179.06-182.53", "wide": True, "jesus": True, "ref": REF,
+        "window": "179.23-182.71", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
         "narration": "Then Jesus turned the story toward every one of us.",
         "must_show": "the story ending and Jesus turning it on the listeners — back on the basalt doorstep, the light noticeably lower and warmer than the opening frames.",
@@ -1211,7 +1220,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b43", "out": "s43-so-likewise-shall-my-father.jpeg", "seg": "j2",
-        "window": "182.53-187.86", "wide": False, "jesus": True, "ref": REF,
+        "window": "182.71-188.03", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CAPERNAUM"],
         "narration": "So likewise shall my heavenly Father do also unto you,",
         "must_show": "Jesus's face carrying the hardest line in the row — spoken as warning given in love, never as threat, never cold.",
@@ -1232,7 +1241,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b44", "out": "s44-if-ye-forgive-not-your-brother.jpeg", "seg": "j2",
-        "window": "187.86-193.19", "wide": True, "jesus": False, "ref": False,
+        "window": "188.03-193.36", "wide": True, "jesus": False, "ref": False,
         "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
         "narration": "if ye from your hearts forgive not every one his brother their trespasses.",
         "must_show": "the line landing on the disciples — each man taking it personally, one of them looking at the ground.",
@@ -1254,7 +1263,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b45", "out": "s45-the-two-debts-side-by-side.jpeg", "seg": "n16",
-        "window": "193.19-197.76", "wide": False, "jesus": False, "ref": False,
+        "window": "193.36-197.93", "wide": False, "jesus": False, "ref": False,
         "locks": ["CAPERNAUM"],
         "narration": "Here is the whole point of the story. Look at the two debts side by side.",
         "must_show": "the two debts as one still-life on the basalt step: the great torn account scroll on one side, and the small limp cloth purse on the other. The size difference IS the picture.",
@@ -1276,7 +1285,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b46", "out": "s46-they-arent-even-close.jpeg", "seg": "n16",
-        "window": "197.76-204.55", "wide": True, "jesus": False, "ref": False,
+        "window": "197.93-204.72", "wide": True, "jesus": False, "ref": False,
         "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
         "narration": "The mountain that was forgiven us, and the small handful we're asked to forgive each other. They aren't even close.",
         "must_show": "Peter working it out — the men quiet, the comparison doing its work without a word spoken.",
@@ -1298,7 +1307,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b47", "out": "s47-because-of-the-mountain.jpeg", "seg": "n17",
-        "window": "204.55-208.26", "wide": False, "jesus": False, "ref": False,
+        "window": "204.72-208.43", "wide": False, "jesus": False, "ref": False,
         "locks": ["PETER"],
         "narration": "We forgive the small things because of the mountain we've been forgiven.",
         "must_show": "Peter's face in the moment the answer lands — the grievance from the opening frame visibly letting go. The row opens and closes on this same face.",
@@ -1319,7 +1328,7 @@ BEATS = [
     },
     {
         "id": "v2-r022-b48", "out": "s48-an-ocean-of-mercy.jpeg", "seg": "n17",
-        "window": "208.26-216.10", "wide": True, "jesus": True, "ref": REF,
+        "window": "208.43-216.28", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "CAPERNAUM"],
         "narration": "To be handed an ocean of mercy, and then choke someone over a cup of it — that is the one thing this King cannot bear.",
         "must_show": "the closing image of the row: Jesus and Peter still together on the step in the last of the light, the question answered and the men staying rather than leaving.",

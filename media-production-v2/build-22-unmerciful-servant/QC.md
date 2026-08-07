@@ -1,6 +1,44 @@
 # QC — build-22-unmerciful-servant (row 22)
 
-## §0 RUNNER PARK — C-FIX 2026-08-07 → NEEDS-AUDIO (audio-pronunciation, out of runner scope)
+## ✅ RESOLVED — AUDIO-FIX 2026-08-07 (Machine A `Dev`): "shouldest" → "should-est" SHIPPED
+
+**Cameron's complaint (now CLOSED):** "2:46 Jesus mispronounces shouldest it should
+be should-est."
+
+**Fix (audio-only, $0 — edge-tts, no Gemini):**
+- Added `SPOKEN.update({"shouldest": "should-est"})` to BOTH the authoritative V1
+  `make_narration.py` (`media-production/build-22-unmerciful-servant/`) and the V2
+  copy. Regenerated **only** `audio/j5.mp3` (targeted regen, not a full re-run) in
+  the V1 dir — the other 24 segment mp3s are byte-identical (verified by hash diff).
+- A/B in the JESUS/Eric voice, in-context (plain vs `should-est` vs `should est`):
+  plain rendered the mashed word Cameron rejected; `should-est` broke cleanly into
+  "should" + "est" (faster-whisper heard "should" + a separate est), no unnatural
+  gap (raw 12.617s→13.512s), mirroring the measured `shewest`→`show-est` -est-family
+  winner + COMPLAINT-FIX-PLAN row 22. Caption keeps KJV "Shouldest".
+- **Audio baseline changed (sanctioned re-voice):** j5 SHA256
+  `085d2c08…` → `4a6da5a2…`. Rebuilt narration track (AUDIO_FROM_V1_SEGMENTS=True)
+  hash `20a6ef72…`, 225.174s.
+- **Timeline coupling:** extract_beats measures spoken (trimmed) duration, so the
+  real shift after j5 is only **+0.17s** (card 216.10→216.275, total 225.003→225.174),
+  NOT the raw +0.895s. Remapped the still-windows in `beats_v2.py` (s38→s48) through a
+  piecewise-linear old→new segment-start map so every picture stays phrase-synced.
+- **AUDIO_FROM_V1_SEGMENTS = True** added to `beats_v2.py` so assembly rebuilds the
+  track from the (fixed) V1 mp3s instead of muxing the stale V1 final MP4.
+
+**Verified in the RENDERED V2 mp4** (`matthew-18_unmerciful-servant.mp4`, sha1
+`6e6943d8c0dc`, 225.2s, decodes 0 errors): j5 region transcribes the full KJV line
+with the re-voiced "should-est"; frame at 2:46 shows the realistic wicked-servant
+scene with the red KJV caption in sync. Realistic V2 pictures (48) UNCHANGED — no
+Gemini spend, 0 rerolls.
+
+**Shipped:** reviewer card (`site/review.html` v22) updated with a 🛠 flag answering
+the complaint in Cameron's words + new cache-buster `?v=6e6943d8c0dc`; committed +
+pushed to main (GitHub raw serves the video); `firebase deploy --only hosting` +
+live-verified. Board row 22 NEEDS-AUDIO → BUILT, Audio CHECK → OK.
+
+---
+
+## §0 RUNNER PARK — C-FIX 2026-08-07 → NEEDS-AUDIO (audio-pronunciation, out of runner scope) [CLOSED — see RESOLVED above]
 
 **Cameron's OPEN complaint on the shipped cut:**
 > "2:46 Jesus mispronounces shouldest it should be should-est"

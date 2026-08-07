@@ -71,6 +71,16 @@ SPOKEN = {"owest": "owe est"}
 # it was lost once already in a SPEAKER-LAW batch rewrite.
 SPOKEN.update({"owest": "owesst"})
 
+# Cameron complaint (2026-08-07, shipped-cut review): j5 "2:46 Jesus mispronounces
+# shouldest it should be should-est". Plain "Shouldest" reads as a mashed
+# "SHOOL-dist"; "should-est" splits it into the two clear syllables Cameron asked
+# for. A/B 2026-08-07 in the JESUS/Eric voice, in-context (plain vs hyphen vs
+# space): hyphen "should-est" broke "should" cleanly from "est" with no unnatural
+# gap (12.617s→13.512s), mirroring the measured "shewest"→"show-est" -est-family
+# winner in mbm_pronounce.py + COMPLAINT-FIX-PLAN row 22. Caption keeps KJV
+# "Shouldest". Only audio/j5.mp3 was regenerated (targeted, not a full re-run).
+SPOKEN.update({"shouldest": "should-est"})
+
 
 async def main():
     os.makedirs("audio", exist_ok=True)
