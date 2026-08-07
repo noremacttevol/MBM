@@ -1,3 +1,21 @@
+## 2026-08-07 — ROW 62 REALISTIC V2 SHIPPED+LIVE: Ephphatha (Mark 7) — mid-build strand RESUMED, beard complaint FIXED, 0 rerolls — Machine A `Dev` (Opus runner, strand resume)
+
+**Commit:** ship (mp4 + QC + assets + boards) = `d7e44ba181f013b92a3d6e7cad3f16efc6d3c41f`; review.html + SESSION-LOG = (this commit); publish-ledger sync = (follows).
+
+Resumed AUTHOR-BOARD row 62, which had DIED mid-build (State RUNNING / A-auto, 14/34 assets, no committed mp4, no live `v2_gen_api` process). Ran the RUNNER-LESSONS **already-shipped check** first: no committed mp4 and the v62 review card was still the OLD V1 card (no `realistic-v2` wave) → NOT shipped, resume authorized (not a duplicate-build). `v2_prompt.py --check` v4 PASS.
+
+**Complaint fixed (LEARNING LAW).** Cameron's OPEN complaint (`v2_outline.py 62`): *"He lost his beard in one of the pictures."* Root fix is structural — the DEAFMAN token is wired in `REFS → CAST-REF-V2/deafman.jpeg`, so his face+beard is held by IMAGE, not prose (lessons 52/55). Beard-boarded the deaf man across every legible frame (s05/s09/s11–s21/s24–s26/s30/s31/s33/s34): same close-trimmed dark beard + short dark hair throughout, verified at full res on the tight close-ups s18/s21 and mid-shots s09/s24/s34. Review card answers it in his words.
+
+**Generation.** Resumed generation for the remaining 20 beats (b15–b34); the 14 existing frames were never re-pulled (COST LAW). **0 rerolls — clean first attempt** (0% of 34 beats, far under the 15% budget). Light-QC all 34: Jesus one locked face, cream-only, no halo, warm eyes (no pale-green stare), ordinary scale in the s32 aerial ring; no modern objects (period sail-boats + dirt path in the aerial, clean skies, no thin wire), no collage, no cartoon/mix (Law 14), no lens-stares, anatomy/hand-counts correct.
+
+**Assembly.** `v2_assemble.py 62` → **AUDIO LOCK PASS** SHA256 `6786984813c4fe3bc99ed58b8e45f154484e11b1b5f5d19c0bcf384cdd8d3634`, mark-7_ephphatha.mp4, 21.0 MB, 202.8s. Caption frames @30/120/200s: captions bottom-band only + in sync, question card clean.
+
+**Cost.** $2.68 this run, meter $419.55→$422.23, under ceiling $449. **$2.68/row, 0% rerolls** — well under the $6.10/row · 19%-reroll running average (a resume with 14 frames banked + a clean 0-reroll pass; the trend keeps going DOWN per the COST LAW).
+
+**Live-verified** below (review.html carries `data-hash d7e44ba181f0` + `data-review-wave="realistic-v2"`, GitHub-raw mp4 HTTP 200). Board row 62 RUNNING→BUILT, prior approval VOID under REDO-ALL, awaiting Cameron.
+
+---
+
 ## 2026-08-07 — ROW 18 AUDIO-FIX SHIPPED+LIVE: "Jesus's" possessive re-voiced through the REAL engine (ElevenLabs, not edge-tts) — Machine A `Dev` (Fable-5 author lane)
 
 **Commit:** row-18 audio-fix package = `53938e77c`; review card = `0297677c0`; publish-ledger sync = `304e41bc0`; PROMPT-AUDIO-FIX lesson + this log = (this commit).
