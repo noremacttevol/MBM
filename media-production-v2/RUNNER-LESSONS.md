@@ -132,6 +132,11 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **Modern objects sneak in**: hurricane/kerosene lamps (b41 war tent), modern
   chairs (b41), school slates chalked with ARABIC NUMERALS (b41 — period
   writing only, or blank), wristwatches, buttons, stitched tailoring.
+- **Modern-style CLOTHESPINS on a laundry line in a village domestic frame** (2026-08-07,
+  row 88 b05 village-lane): a "cloths drying on a line" background detail can render clip/peg
+  clothespins that read modern (the spring/dolly clothespin is a 19th-c invention); first-century
+  laundry was draped over walls/lines, not pegged. Background, non-subject, borderline — usually
+  FIX-WAVE not a mandatory reroll, but glance at any laundry-line/domestic frame for pegs.
 - **Modern LUG-SOLE boot/sneaker TREAD PRINTS pressed into desert sand/dirt**
   (2026-08-07, row 70 b03 stones-in-the-desert): a ground-level desert frame with
   bare sand in the foreground can render crisp herringbone/waffle hiking-boot or

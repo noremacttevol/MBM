@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 11:17:30",
+ "scanned": "2026-08-07 11:53:57",
  "entries": [
   {
    "row": 1,
@@ -41084,6 +41084,306 @@
    "night": false,
    "n_person": 3,
    "scene": "The closing frame takes the road home, the camera behind the three as they walk away down it: home: the three of them small on the broad highway north in the warm late light \u2014 Joseph's hand resting easy on the boy's shou"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b01",
+   "file": "build-88-triumphal-entry/assets/s01-as-jesus-came-near-jerusalem.jpeg",
+   "tokens": [
+    "LANE",
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the roadside under the olive trees, the camera beside the road so the sending reads in profile, Jesus sends the errand: his hand pointing past the first low houses into the bright village lane, the two disciples \u2014 sto"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b02",
+   "file": "build-88-triumphal-entry/assets/s02-go-into-the-village-over.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the giving of directions that should be impossible: Jesus's calm face laying out the errand detail by detail \u2014 the village, the tied mother, the colt beside her \u2014 with the settled precision of a man reading a li"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b03",
+   "file": "build-88-triumphal-entry/assets/s03-untie-them-and-bring-them.jpeg",
+   "tokens": [
+    "LANE",
+    "COLT",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close at the worn door-post ring: the stocky disciple's fingers working the rope's knot loose while his partner strokes the grey mother's neck \u2014 and beside her, small and dark-grey and watching everything, the young colt"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b04",
+   "file": "build-88-triumphal-entry/assets/s04-and-if-any-man-say.jpeg",
+   "tokens": [
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus hands them the only credential the errand needs: one sentence \u2014 THE LORD HATH NEED OF THEM \u2014 no coin, no sealed letter, no name of a mutual friend, and the two disciples nodding it carefully into memory like men is"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b05",
+   "file": "build-88-triumphal-entry/assets/s05-go-into-the-village-he.jpeg",
+   "tokens": [
+    "LANE",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The two come up the bright lane between the low stone houses \u2014 wash strung wall to wall overhead, a woman pausing at her doorway to watch the strangers pass, a dog trotting a suspicious half-circle \u2014 two men walking into"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b06",
+   "file": "build-88-triumphal-entry/assets/s06-and-if-anyone-asks-why.jpeg",
+   "tokens": [
+    "LANE",
+    "COLT",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "It happens just as promised: the owner comes out with his hand half-raised in fair question \u2014 those are mine \u2014 and the sentence meets him mid-stride: THE LORD HATH NEED OF THEM \u2014 and the frame catches the exact instant t"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b07",
+   "file": "build-88-triumphal-entry/assets/s07-they-went-and-it-happened.jpeg",
+   "tokens": [
+    "ROAD",
+    "COLT",
+    "TWO"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Back at the roadside the errand returns fulfilled to the letter: the two leading mother and colt up to Jesus, and already the cloaks coming off shoulders \u2014 dark olive and slate laid gently layer on layer over the young c"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b08",
+   "file": "build-88-triumphal-entry/assets/s08-and-all-of-it-was.jpeg",
+   "tokens": [
+    "COLT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the prophecy's chosen furniture: the small dark-grey colt standing patient under its borrowed saddle of layered cloaks, ears turning, the grey mother's muzzle resting near \u2014 five hundred years of promise narrowi"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b09",
+   "file": "build-88-triumphal-entry/assets/s09-tell-ye-the-daughter-of.jpeg",
+   "tokens": [
+    "ROAD",
+    "COLT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verse takes the road: Jesus seated on the small colt over its layered cloaks, the grey mother pacing alongside, the pale road tilting down between the olives toward Jerusalem's high gate \u2014 a king arriving at exactly "
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b10",
+   "file": "build-88-triumphal-entry/assets/s10-the-king-was-coming-but.jpeg",
+   "tokens": [
+    "COLT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the king the road is getting: no circlet on the dark hair, no sword at the rope belt, no herald clearing the way \u2014 just the warm steady face above the colt's flicking ears, hands empty and easy, the plain cream "
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b11",
+   "file": "build-88-triumphal-entry/assets/s11-the-crowds-spread-their-cloaks.jpeg",
+   "tokens": [
+    "ROAD",
+    "COLT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The road dresses itself, the camera low behind the colt's slow advance, ahead of him: dark cloaks swirling off shoulders and settling flat on the dust, a boy up an olive tree sawing at a branch, green boughs raining onto"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b12",
+   "file": "build-88-triumphal-entry/assets/s12-and-the-people-shouted-as.jpeg",
+   "tokens": [
+    "ROAD",
+    "COLT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The packed road erupts: branches shooting up along both edges, children swung onto shoulders, hundreds of mouths opening on the same rising word as the colt picks its way over the cloaks \u2014 the shout rolling down the desc"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b13",
+   "file": "build-88-triumphal-entry/assets/s13-hosanna-to-the-son-of.jpeg",
+   "tokens": [
+    "ROAD",
+    "COLT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The cry crests, the camera at the descent's side taking rider and river of branches in profile, over the whole descent \u2014 HOSANNA \u2014 branches beating time along both walls of the crowd, the word rolling wave on wave over t"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b14",
+   "file": "build-88-triumphal-entry/assets/s14-hosanna-means-save-us-now.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the faces doing the shouting: a farmer's cracked voice at full stretch, a mother's eyes wet above her open mouth, an old man's fist and branch raised together \u2014 and under the joy of every face the word's real ca"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b15",
+   "file": "build-88-triumphal-entry/assets/s15-the-whole-city-was-stirred.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Inside the great gate the city stirs storey by storey: heads crowding the windows, women leaning from rooftops with wash still in hand, a shopkeeper abandoning his stall mid-sale, boys sprinting down stairways toward the"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b16",
+   "file": "build-88-triumphal-entry/assets/s16-and-when-he-was-come.jpeg",
+   "tokens": [
+    "ROAD",
+    "COLT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Under the gate's massive arch, the camera inside the city behind the turning heads, the procession pours: the small colt and its meek rider passing through cool stone shadow into the city's roar, branches and cloaks floo"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b17",
+   "file": "build-88-triumphal-entry/assets/s17-and-the-multitude-said-this.jpeg",
+   "tokens": [
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The answer goes up from the road to the windows, passed proud and plain from mouth to mouth: a Galilean farmer cupping his hands to call it to a sill, a woman repeating it to her neighbour with her chin high \u2014 THIS IS JE"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b18",
+   "file": "build-88-triumphal-entry/assets/s18-who-is-this-the-city.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the city's honest bewilderment: an old man leaning from his window with both hands spread at the noise, a shopkeeper in his doorway asking his neighbour with his brows alone, a girl on the stairs asking her moth"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b19",
+   "file": "build-88-triumphal-entry/assets/s19-and-the-answer-came-back.jpeg",
+   "tokens": [
+    "ROAD",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The name climbs the street like a stair: shouted up from the branch-waving road to the first windows, repeated from sill to rooftop, nodded across alleys and down again \u2014 JESUS \u2014 THE PROPHET \u2014 NAZARETH \u2014 level by level t"
+  },
+  {
+   "row": 88,
+   "build": "build-88-triumphal-entry",
+   "beat": "v2-r088-b20",
+   "file": "build-88-triumphal-entry/assets/s20-he-came-not-with-swords.jpeg",
+   "tokens": [
+    "ROAD",
+    "COLT",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The closing frame, the camera off the road's side taking rider and crowd in profile, keeps the whole promise in one look: the small grey colt picking its gentle way up the cloak-strewn street, the meek rider steady and e"
   },
   {
    "row": 91,
