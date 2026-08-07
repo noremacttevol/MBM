@@ -37,6 +37,17 @@ app line. That's it.
 
 ---
 
+### Row 01 — The Woman Who Touched His Cloak
+**Mark 5:25–34 (KJV) · 1:49 · fits all four**
+File `exports/row-001-woman-who-touched-his-cloak.mp4` · Cover `covers/row-001.jpg`
+**YouTube title:** The Woman Who Touched His Cloak — who touched me? (Mark 5, KJV)
+**Caption:**
+Twelve years sick. Every penny spent on physicians, and nothing bettered. She never asked for anything — she came behind him in the crowd and touched the hem of his garment. And he stopped, and turned, and called her daughter.
+Have you ever been that desperate for something in your life to change?
+Mark 5:25–34, word for word from the KJV. From the Milk Before Meat app — link in bio.
+**Story tags:** `#Mark5 #Healing`
+**Posted:** ☐ YT ☐ IG ☐ TT ☐ FB
+
 ### Row 02 — The Prodigal Son
 **Luke 15:11–32 (KJV) · 2:38 · fits all four**
 File `exports/row-002-the-prodigal-son.mp4` · Cover `covers/row-002.jpg` · Cut `9a7ae96a2c36`
@@ -113,6 +124,17 @@ Do you believe anyone would turn the house upside down for you?
 Luke 15:8–10, word for word from the KJV. From the Milk Before Meat app — link in bio.
 **Story tags:** `#LostCoin #Parable`
 **Posted:** ☐ YT ☐ IG ☐ TT ☐ FB
+
+### Row 09 — The Rich Young Ruler
+**Mark 10:17–22 (KJV) · 3:17 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+File `exports/row-009-the-rich-young-ruler.mp4` · Cover `covers/row-009.jpg`
+**YouTube title:** The Rich Young Ruler — he went away grieved (Mark 10, KJV)
+**Caption:**
+He came running, knelt, and asked what he must do to inherit eternal life — a good man, keeping the commandments since his youth. Then Jesus beholding him loved him, and named the one thing he lacked. And he went away grieved: for he had great possessions.
+Jesus loved him — and still let him walk away. What would be the hardest thing for you to lay down?
+Mark 10:17–22, word for word from the KJV. From the Milk Before Meat app — link in bio.
+**Story tags:** `#RichYoungRuler`
+**Posted:** ☐ YT ☐ TT ☐ FB
 
 ### Row 12 — Blind Bartimaeus
 **Mark 10:46–52 (KJV) · 4:27 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -486,4 +508,15 @@ Elijah sat under a juniper tree and asked to die. Then came a great wind, an ear
 When has God been quieter than you expected — and closer?
 1 Kings 19:1–18, word for word from the KJV. From the Milk Before Meat app — link in bio.
 **Story tags:** `#StillSmallVoice #Elijah`
+**Posted:** ☐ YT ☐ IG ☐ TT ☐ FB
+
+### Row 114 — Abraham Pleads for Sodom
+**Genesis 18:16–33 (KJV) · 2:23 · fits all four**
+File `exports/row-114-abraham-pleads-for-sodom.mp4` · Cover `covers/row-114.jpg`
+**YouTube title:** Abraham Pleads for Sodom — shall not the Judge of all the earth do right? (Genesis 18, KJV)
+**Caption:**
+Abraham stood before the LORD and dared to bargain for a city. Fifty righteous? Forty-five? Thirty? Twenty? Ten? Each time he lowered the number, the answer was mercy: I will not destroy it for ten's sake.
+He asked, Shall not the Judge of all the earth do right? What does it tell you that God let him keep asking?
+Genesis 18:16–33, word for word from the KJV. From the Milk Before Meat app — link in bio.
+**Story tags:** `#Abraham #Genesis18`
 **Posted:** ☐ YT ☐ IG ☐ TT ☐ FB

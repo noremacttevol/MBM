@@ -87,3 +87,14 @@ approved videos will have joined the queue — keep the same rhythm.
 **Day 1 note:** post The Prodigal Son, then pin it on every platform (pin to profile
 on IG/TikTok, pin to top on Facebook, set as channel trailer or pinned comment on
 YouTube). It's the front door.
+
+## Added 2026-08-06 — three more approvals
+
+| Day | Row | Story | Length | IG? |
+|----|-----|-------|--------|-----|
+| 42 | 01 | The Woman Who Touched His Cloak | 1:49 | ✔ |
+| 43 | 114 | Abraham Pleads for Sodom | 2:23 | ✔ |
+| 44 | 09 | The Rich Young Ruler | 3:17 | — |
+
+(YouTube got the full library at once on 2026-08-06 via `YOUTUBE-UPLOAD-SHEET.md`;
+this calendar keeps governing Instagram, TikTok, and Facebook.)

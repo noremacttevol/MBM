@@ -1,3 +1,18 @@
+## 2026-08-06 (social session, pt.2) — YOUTUBE UPLOAD SHEET for all 44 approved videos — Machine A `Dev`
+
+**Commit:** (this commit — social/ + this entry only, committed by pathspec per the index-race lesson)
+
+Cameron: "there are 44 approved now and im going to submit all of those to youtube now. i
+need captions, tags etc." Reran `social/refresh-postable.py`: 44 byte-verified postable
+(matches his count) — new rows 1 (Woman Who Touched His Cloak, Mark 5:25–34), 9 (Rich Young
+Ruler, Mark 10:17–22), 114 (Abraham Pleads for Sodom, Genesis 18:16–33); exports + covers
+auto-generated. Added their three POST-QUEUE entries (same voice/pattern), appended them to
+SCHEDULE as days 42–44, and generated **`social/YOUTUBE-UPLOAD-SHEET.md`** — all 44 in
+posting order, each with file path, paste-ready title, full description (caption + question
++ scripture + app links written out), comma-separated tag list, and thumbnail note for the
+16 videos over 3:00 (regular uploads; ≤3:00 auto-become Shorts). Same 8 rows still excluded
+(cut changed since approval; awaiting Cameron on the reviewer). Sheet sent to Cameron.
+
 ## 2026-08-07 (Fable 5, main session, pt.4) — 3 new approvals (rows 1, 9, 114) published v2.1; 44 total live; YouTube kit staged for Cameron — Machine A `Dev`
 
 **Commit:** (this commit)
