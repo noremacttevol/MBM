@@ -1,5 +1,35 @@
 # QC / RUNNER HANDOFF — build-104-boy-samuel (1 Samuel 3)
 
+## 🛠 C-FIX SHIP — Machine A (`Dev`) 2026-08-07 (Opus runner) — RUNNING-WRONG-WAY FIX DONE
+
+**OPEN complaint (`v2_outline.py 104`): "0:35 pic Samuel is running the wrong way,
+same thing with 0:53."** FIXED. Regenerated exactly the two run frames over the
+author's fixed prompts (pinned LEFT→RIGHT hall geography):
+
+- **s06 (0:35)** — regen: Samuel now runs unmistakably LEFT→RIGHT, body/lean/bare
+  feet/gaze all driving rightward TOWARD Eli, who sits at frame RIGHT in his
+  doorway reaching out. He runs toward the old man, no longer away. (Old frame:
+  boy ran LEFT, away from Eli on the right.)
+- **s10 (0:53)** — regen: same left-to-right dash toward Eli seated at frame RIGHT.
+  (Old frame: boy ran toward the camera, away from Eli behind him.)
+- **s04 (establish):** KEPT byte-identical — Eli sleeps deep in the back room
+  (not on the left), so it does not contradict the pinned geography; no regen.
+- **Every other still KEPT byte-identical.** Audio untouched (AUDIO LOCK PASS,
+  byte-identical). Rerolls: 2 / 22 = **9%** — within the 15% budget. Spend this
+  C-FIX: **$0.27** (2 stills, no portraits), meter $500.36 → $500.62.
+
+QC on the two new frames: Samuel child-sized vs Eli/furniture (scale gate PASS);
+Eli one full white beard + hair (beard board PASS); Samuel navy tunic + dark curls,
+one child (PASS); photographic, no cartoon (Law-14 PASS); no halo/God figure/glow
+(rendering law PASS); anatomy clean; menorah/oil-lamp/stone hall, no modern objects.
+
+### COMPLAINT LEDGER (this C-FIX)
+1. **"0:35 Samuel is running the wrong way"** → s06 regenerated: runs left-to-right
+   straight TOWARD Eli at frame right — fixed.
+2. **"same thing with 0:53"** → s10 regenerated the same way: second run is the
+   same clear left-to-right dash toward Eli — fixed.
+
+
 ## ✅ AUTHOR DONE — 2026-08-07 (Machine A `Dev`, Fable-5 author lane, $0) — RUNNING-WRONG-WAY FIX
 
 **OPEN complaint (`v2_outline.py 104`): "0:35 pic Samuel is running the wrong way,
