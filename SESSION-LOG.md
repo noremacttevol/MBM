@@ -1,3 +1,15 @@
+## 2026-08-07 — ROW 33 (sheep-goats) C-FIX SHIPPED — black-nails + wrong-voice complaints CLOSED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** ship `7beb89329fa84ecfc6a7c58fa1c80032ddd8a075` (mp4 + QC.md) + this board/review-card/SESSION-LOG commit. **Session-chain verified at start:** then-top row-100 ship `16fad1021` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 33` + rubric + RUNNER-LESSONS first.
+
+**Complaint (Cameron, against the shipped cut):** "At 1:10 why is the prisoner nails painted black thats weird. And then at 1:16 it has Jesus speaking something that wasent spoken by Jesus and makes no sense to be narrirated by him." TWO parts — one picture defect, one wrong-voice/speaker defect.
+
+**What was already done (prior Fable-5 author session, committed):** Complaint 2 (SPEAKER) fully fixed in author files — `j37` ("Lord, when saw we thee an hungred…", the RIGHTEOUS asking, not Jesus) moved JESUS→SCRIPTURE, re-voiced, light-blue caption; +2.611s timeline coupling remapped across b21–b45 (measured, not the park's backwards estimate). Complaint 1 (nails) half-done — deleted "the nails black" from b20 scene text + CAMERON GATE in must_not_show; left the ONE image credit (s20 reroll) for the runner.
+
+**What this runner session did:** (1) Confirmed the black-nail defect in the shipped s20 by eye. (2) Rerolled ONLY s20 (`v2_gen_api --only b20 --redo`, 1 shot ~$0.13) vs the fixed b20 text — new frame has natural unpainted nails, hand-forged iron shackle, clay lamp, no faces/wounds. (3) Re-assembled → **AUDIO REBUILD PASS SHA256=91b16db5 (byte-identical to author's verified hash), 182.585s.** (4) QC of rendered mp4: 68s narrator caption white in bottom band; **77s j37 caption light-blue (scripture) on the woman, NOT red on Jesus** — complaint 2 verified in the delivered pixels; question card clean. (5) Shipped, deployed, live-verified.
+
+**COST:** 1 reroll / 45 beats = **2.2% rerolls, ~$0.13** this session — far under the 15% budget and the $6.10/row average (touch-once: batched both complaints into one re-cut). Meter $495.40 → $495.53.
+
 ## 2026-08-07 — ROW 19 (shore) C-FIX SHIPPED — swim-direction + Jesus-pacing complaints CLOSED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** ship `cdaaaf4c13a30c404284f47742939e65d8dcd01c` (a concurrent sibling "Row 100" commit absorbed this session's staged mp4 + QC + QUEUE per the RUNNER-LESSONS index-race — verified `cdaaaf4c` actually contains the new 20,989,519-byte mp4, the C-FIX QC.md, and the QUEUE update) + review-card commit `bfcf3bfad` + the board/lessons/SESSION-LOG commit below. **Session-chain verified at start:** then-top row-100 ship `cdaaaf4c1` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all its laws + `v2_outline.py 19` + rubric + RUNNER-LESSONS first.
