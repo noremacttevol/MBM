@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 12:58:33",
+ "scanned": "2026-08-07 13:15:46",
  "entries": [
   {
    "row": 1,
@@ -42547,6 +42547,232 @@
    "night": true,
    "n_person": 1,
    "scene": "The closing frame keeps the look Peter kept for the rest of his life: Jesus's face across the dying firelight \u2014 rope at his wrists, guards at his shoulders \u2014 and in the warm brown eyes nothing of the scorn a traitor brac"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b01",
+   "file": "build-93-barabbas-goes-free/assets/s01-it-was-the-custom-at.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The cold morning fills, the camera behind the gathering crowd's shoulders toward the platform, governor's yard for the yearly ritual: city men streaming in between the iron-clad guards, gathering below the raised tribuna"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b02",
+   "file": "build-93-barabbas-goes-free/assets/s02-pilate-had-two-men-jesus.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "PILATE",
+    "BARABBAS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "On the platform, the camera below at the crowd's edge so both figures read in one profile, the morning's two names stand in the cold light: at one side Jesus, hands bound before him with plain rope, still and calm in his"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b03",
+   "file": "build-93-barabbas-goes-free/assets/s03-pilate-could-see-jesus-had.jpeg",
+   "tokens": [
+    "PILATE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the governor reading his prisoner: the shrewd iron-grey eyes travelling the calm bound man before him and finding nothing \u2014 no sedition in the steady face, no blood on the rope-tied hands, nothing anywhere worth"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b04",
+   "file": "build-93-barabbas-goes-free/assets/s04-will-ye-that-i-release.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "PILATE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "From the platform's edge Pilate makes it easy for them: his arm sweeping back toward the calm bound figure \u2014 WILL YE THAT I RELEASE UNTO YOU \u2014 the title pitched loud over the upturned faces, THE KING OF THE JEWS \u2014 the qu"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b05",
+   "file": "build-93-barabbas-goes-free/assets/s05-he-thought-the-crowd-would.jpeg",
+   "tokens": [
+    "PILATE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a man certain of his own cleverness: Pilate's half-smile as he waits out the crowd's murmur, arms folding over the bronze breastplate, the case as good as closed in his mind \u2014 an innocent healer against a convic"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b06",
+   "file": "build-93-barabbas-goes-free/assets/s06-but-the-chief-priests-worked.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "PRIESTS",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through the packed yard the dark-robed priests work their trade: a hand pressing one man's shoulder, a word laid quick in another's ear, urging fingers pointing the chant like men setting fires down a dry hedgerow \u2014 and "
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b07",
+   "file": "build-93-barabbas-goes-free/assets/s07-pilate-asked-them-what-he.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "PILATE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The governor's script comes apart at the rail: Pilate leaning out with both palms open \u2014 WHAT THEN, what shall I do with him \u2014 the question of a man suddenly following instead of leading \u2014 and below him the yard's arms r"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b08",
+   "file": "build-93-barabbas-goes-free/assets/s08-crucify-him-crucify-him-that.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "CROWD",
+    "PRIESTS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The answer comes back, the camera low behind the roaring crowd's lifted arms, with one terrible voice: the whole yard roaring the same word, arms and fists in the cold morning air, the syllables readable on every open mo"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b09",
+   "file": "build-93-barabbas-goes-free/assets/s09-and-pilate-could-not-make.jpeg",
+   "tokens": [
+    "PILATE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on reason losing to volume: Pilate's face over the rail, genuinely baffled, palms spread at the roaring yard \u2014 WHY, WHAT EVIL HATH HE DONE \u2014 a Roman judge asking for one chargeable fact, one witness, one line for t"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b10",
+   "file": "build-93-barabbas-goes-free/assets/s10-why-he-asked-them-what.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "PILATE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The wide frame holds the question and its non-answer together: on the platform the crimson-mantled governor with his arms open, still asking for a reason \u2014 and below him the sea of faces giving back none: not one mouth s"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b11",
+   "file": "build-93-barabbas-goes-free/assets/s11-the-man-holding-all-the.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "PILATE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The capitulation takes one small gesture: Pilate turning from the rail with a flat backhanded wave toward the bound prisoner \u2014 take him \u2014 the man holding every sword in the province folding to plain noise, his own no-cas"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b12",
+   "file": "build-93-barabbas-goes-free/assets/s12-so-the-guilty-man-walked.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "BARABBAS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "One frame holds, the camera at the steps' side so both motions cross in profile, the whole swap: at the steps a guard's hammer knocks the chains off Barabbas's wrists and the big man stumbles down into the crowd hardly b"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b13",
+   "file": "build-93-barabbas-goes-free/assets/s13-think-about-what-barabbas-got.jpeg",
+   "tokens": [
+    "BARABBAS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the freed man failing to understand his own hands: Barabbas in the street, staring at his freed wrists where the chain-marks still press red \u2014 a man who woke condemned, rehearsing his own execution, now standing"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b14",
+   "file": "build-93-barabbas-goes-free/assets/s14-he-walked-out-free-because.jpeg",
+   "tokens": [
+    "BARABBAS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down the waking street the freed man walks into an ordinary day he did nothing to deserve \u2014 market stalls opening, children underfoot, the world handed back whole \u2014 and at the corner he stops and looks back once at the p"
+  },
+  {
+   "row": 93,
+   "build": "build-93-barabbas-goes-free",
+   "beat": "v2-r093-b15",
+   "file": "build-93-barabbas-goes-free/assets/s15-the-whole-gospel-in-one.jpeg",
+   "tokens": [
+    "PAVEMENT",
+    "BARABBAS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The closing frame, the camera high behind the emptying yard, draws the gospel as a diagram of two roads: on one side the freed man walking out small into the bright open street, unchained and undeserving \u2014 on the other t"
   },
   {
    "row": 101,
