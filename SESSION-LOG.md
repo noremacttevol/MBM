@@ -1,3 +1,22 @@
+## 2026-08-07 — ROW 65 C-FIX SHIPPED+LIVE: "0:06 picture has 2 jesus" FIXED — rerolled ONLY b02, audio byte-identical, touch-once — Machine A `Dev` (C-FIX lane)
+
+**Commit:** claim = `c983cd6c7`; ship (mp4 + QC + s02 asset + api-spend) = `5b5a2e8c29e2bc6b6fe2c61093ac797e60cb8782`; review.html + board→SHIPPED + this log = (this commit).
+
+Lowest waiting COMPLAINT-FIRST row (AUTHOR-BOARD row 65, Mark 9 help-mine-unbelief, a shipped realistic V2 cut). Cameron's OPEN complaint (`v2_outline.py 65`, against live git-blob `17c3bc3e`):
+> "0:06 picture has 2 jesus'."
+
+PICTURE-domain (in picture-runner scope → C-FIX, not audio). The frame at 0:06 is still **s02** (`v2-r065-b02`, "his own disciples were in the middle of it"). The model had painted the TWO cornered disciples with Jesus's locked face, and the left one in a cream/off-white robe — two figures read as Jesus (RUNNER-LESSONS "second cream-robed figure"; root cause: the two disciples carry no locked garment colour or face in the beat, so the model defaulted both to a Jesus-like look + cream). The beat is authored `jesus:False, ref:False` — Jesus should NOT be in this frame at all (his arrival is the prior frame s01).
+
+Fix, touch-once, $0.13 (Gemini only):
+- **Rerolled ONLY b02** (`v2_gen_api.py --only v2-r065-b02 --redo --ceiling 448.44`, 1 reroll of 36 beats = **2.8% << 15% budget**). No Jesus REF attached (jesus:False); HILLFOOT plate + FATHER/BOY refs held the place and edge cast. New take: the two disciples wear a **peat-brown** and a **dark-red** tunic — NO cream anywhere — with ordinary distinct faces; no Jesus figure present. Every other frame byte-identical (only s02 changed).
+- **Audio byte-identical:** re-assembly printed the SAME `AUDIO LOCK PASS SHA256=efe78305b7bbdf7bcb299ce790487fcd4106ac16ee91d7fd136642796b956347`.
+
+**Verified in the RENDERED mp4** (git-blob `37cb3be0e984d63f259e81762d39e86ca73c6696`, 220.5s / 20.5 MB): frame at 0:06 shows two ordinary disciples in brown + dark-red, zero cream robes, no duplicate-Jesus reading, red caption "His own disciples were in the middle of it" in the bottom band. Reviewer card repointed to `data-hash 37cb3be0e984…` + `?v=37cb3be0e984`, with a 🛠 C-FIX flag answering the complaint in Cameron's words. Board row 65 claim → `C-FIX 2026-08-07 SHIPPED`.
+
+**Cost:** $0.13 (1 reroll). $/row for a C-FIX is essentially the single-frame reroll — trend DOWN, well under the $6.10 average and the 19% reroll baseline (2.8% here).
+
+---
+
 ## 2026-08-07 — ROW 62 REALISTIC V2 SHIPPED+LIVE: Ephphatha (Mark 7) — mid-build strand RESUMED, beard complaint FIXED, 0 rerolls — Machine A `Dev` (Opus runner, strand resume)
 
 **Commit:** ship (mp4 + QC + assets + boards) = `d7e44ba181f013b92a3d6e7cad3f16efc6d3c41f`; review.html + SESSION-LOG = (this commit); publish-ledger sync = (follows).
