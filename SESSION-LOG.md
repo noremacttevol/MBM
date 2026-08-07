@@ -1,3 +1,28 @@
+## 2026-08-06 (Opus 4.8, C-FIX headless lane) — row 9 rich-ruler: beard restored @0:52 + removed "dumb/not needed" 1:14 picture; shipped + deployed + live-verified — Machine A `Dev`
+
+**Commits:** 3fc4387ba (claim), e4d3919adae63e960bdd5390b6df3104ebef5138 (re-cut: mp4 + QC + beats), + review.html/board/SESSION-LOG (this) + publish-loop.
+
+COMPLAINT-FIRST job: Cameron's open complaint on the shipped V2 row-9 cut (reportedAgainst
+`e8cb3734`, filed 2026-08-05 — i.e. against the Aug-1 realistic cut, not V1): *"The young
+rich man lost his beard at 52 seconds picture. The picture at 1:14 is dumb and not needed …
+excessive luxuries causing more to be wrong for no reason."* Both parts were genuine and
+still live in the shipped cut — verified by extracting the exact frames: **0:52 = b10
+(s10-he-meant-it)** rendered the young man CLEAN-SHAVEN while ruler-ref/s13/s14 all show a
+full dark beard; **1:14 = b13 (s13-the-two-of-them)** was an extraneous frame that also
+violated its own must_not ("Jesus NOT in this frame") and duplicated the b12/b14 "he loved
+him" beat. **Batched both into ONE re-cut (touch-once):** (1) rerolled b10 with the bearded
+RULER ref attached → full beard restored, identity matches; (2) REMOVED b13 entirely (honours
+"not needed"/"excessive luxuries"), extended b12 (Jesus's loving face) over n2 p1-p3 so 1:14
+now holds his tender face. 31→30 beats. **AUDIO LOCK PASS** — SHA256 `925aaf90…`, byte-identical
+to the prior audio. Rendered-mp4 verified at 0:52 (bearded), 1:14 (Jesus's face, old frame gone),
+question card clean. Deployed to Firebase + live-verified on milk-b4-meat.web.app. Review card
+answers both complaints in Cameron's own words. **Cost: 1 reroll = $0.13** (removal free) — far
+under the $6.10/row average and the ≤15% reroll budget (1 of 30 beats = 3.3%); the COST LAW
+"cost should get cheaper" is honoured (a complaint fix for 13¢, and the story now has one fewer
+picture to maintain).
+
+---
+
 ## 2026-08-06 (Opus 4.8, C-FIX headless lane) — row 10 well complaint triaged → PARKED NEEDS-AUDIO (audio pacing, $0, no pictures re-cut) — Machine A `Dev`
 
 **Commits:** d11605239 (claim), 07f9c8bd7 (park + RUNNER-LESSONS), + this SESSION-LOG.
