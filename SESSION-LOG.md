@@ -1,6 +1,6 @@
 ## 2026-08-07 — AUTOPILOT PICKER BUG FIXED (13 rows un-stranded) + rows 103/104/109 flipped to BUILT for cfix — Fable-5 author lane, Machine A `Dev` (UNATTENDED/HEADLESS, $0)
 
-**Commit:** this board/autopilot/QC/SESSION-LOG commit (see hash below). **Session-chain verified at start:** prior-top row-16 ship `063c19ef` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-FABLE5-AUTHOR.md + AGENT-RULES STANDING ORDER + this file's laws first. `$0` — no image generation.
+**Commit:** `a3ab04b44` (autopilot.sh regex fix + AUTHOR-BOARD 103/104/109→BUILT + 102/113 QC routing-gap notes + SESSION-LOG) followed by this hash-reference amend commit. **Session-chain verified at start:** prior-top row-16 ship `063c19ef` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-FABLE5-AUTHOR.md + AGENT-RULES STANDING ORDER + this file's laws first. `$0` — no image generation.
 
 **Assigned:** AUTHOR-BOARD row 104 (boy-samuel), NEEDS-REBUILD. Its author work was ALREADY DONE (2026-08-07 running-wrong-way fix, `--check` PASS, audio untouched); the only step left is a PAID reroll of s06/s10 — a runner/cfix job this $0 session can't do. Per the anti-strand rule (PROMPT-FABLE5-AUTHOR.md), an author-done NEEDS-REBUILD row must flip State→BUILT so the paid cfix lane closes the complaint.
 
