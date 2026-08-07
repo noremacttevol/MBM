@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 103 (Peter's Confession) C-FIX SHIPPED — "the pictures are all bad they keep changing / not remade with the character ref" — SETTING-DRIFT re-cut, 6 close-ups pushed back OUTDOORS — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `1ab2bc1cb` (board → C-FIX LIVE) · ship A `1d1f7c43466027bcffa8b1c77546ac7c7ab3657a` (final mp4 + 6 regen'd assets s04/06/12/13/15/17 + QC.md ledger + AUTHOR-BOARD→SHIPPED + QUEUE Built✅) · SESSION-LOG + review.html this commit (ship B). **Session-chain verified at start:** then-top SESSION-LOG commit (Row 22 AUDIO-FIX ship A `2a036c574`) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. Read PROMPT-OPUS-RUNNER.md + V2-REBUILD-RUBRIC.md (all 19 lessons) + RUNNER-LESSONS.md (all) + `v2_outline.py 103` + QC.md first.
+
+**Complaint (Cameron, OPEN against the shipped cut — `v2_outline.py 103`):** *"This is where peter got his name but it called him simon before and the pictures are all bad they keep changing and are not remade with the character ref in this."* COMPLAINT-FIRST + LOW-NUMBER: lowest open-complaint row, outranked all other work.
+
+**What was wrong (author-diagnosed, RUNNER-LESSONS §603 / lesson 487):** row 103 is a single-location OUTDOOR story ("the same glade under the pale cliff throughout"), but 6 close-up beats (b04/b06/b12/b13/b15/b17) omitted the `CLIFF` token from their `locks`. `CLIFF` is a PROSE lock (PLACE_REFS empty), so with no outdoor cue those 6 rendered a generic INDOOR stone room/village — the place "kept changing" between wides (outdoors) and close-ups (indoors). The 2026-08-06 ship had wrongly treated setting-vs-face as a tradeoff and dropped the setting; but CLIFF is text, costs 0 ref-image slots, so Peter's face ref still attaches. The Fable-5 author already applied the root-cause fix ($0): added `"CLIFF"` to all 6 beats' locks (all 20 now carry it), `--check` PASS, audio untouched.
+
+**Fix (runner, this session — the author's planned 6-still re-cut, exactly as specced):** regen'd ONLY b04/06/12/13/15/17 (`--only … --redo`) over the CLIFF-locked prompts; KEPT the other 14 stills byte-identical. All 6 now render OUTDOORS in the same pale-rock cliff glade (waterfall/stream/poplars) as the other 14 — verified in the RENDERED mp4 at 18s(s04), 22s(s17), 32s(s06), 70s(s13), 84s(s15). Peter face held (`[+N char ref: PETER:front, PETER:quarter]` on every regen; boarded vs s01/s11/s18 incl. the name-giving frame — one man, dark curly hair, full black beard, grey-blue robe). Jesus cream-only + locked-face with calm eyes in s04/s15; Andrew/John distinct. Cream/scale/beard/realistic/anatomy/no-lens-stare gates PASS on all 6. Captions bottom-band only (18s/70s), question card clean (124s). "Simon before Peter" = Matthew 16 read correctly, no change.
+
+**Re-assembly + verify:** `v2_assemble.py 103` → **AUDIO LOCK PASS SHA256=e46b00815c…** — IDENTICAL to the prior ship's audio hash, so narration/voices/timing byte-identical (nothing re-voiced). 127.5s / 20.0 MB.
+
+**Cost / COST LAW:** ~$0.81 Gemini (meter $499.55 → $500.36); the 6 regens ARE the planned re-cut, **0 extra rerolls / 20 beats = 0%.** Well under the $6.10/row average; touched the row ONCE. Trend DOWN. **Ship:** firebase deploy + live-verify below. Board → C-FIX SHIPPED, QUEUE Built ✅. Minor FIX-WAVE only (s15 tiny knuckle ink-smudge, cosmetic — does not repeat the complaint).
+
+---
+
 ## 2026-08-07 — AUDIO-FIX sweep continued (rows 27 + 200) after ROW 22 ship — AUDIO-FIX lane, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** row 27 `cf1c72562` (§0f diagnostic) · row 200 claim `3200bae6e` + verify/handoff `2cb3e6af0`. Continued down the NEEDS-AUDIO list (LOW-NUMBER LAW) after shipping row 22.
