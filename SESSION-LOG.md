@@ -1,3 +1,25 @@
+## 2026-08-06 (AUDIO-FIX, headless) — Rows 80, 82, 83 STALE-V1 audio-locks cleared + handed to picture runner — $0 — Machine A `Dev`
+
+**Commits:** row 80 `a9bb35e36`, row 82 `062bee819`, row 83 `8818bd595` (each = beats_v2.py flag
++ QC.md + AUTHOR-BOARD). Continued down the NEEDS-AUDIO STALE-V1 run after rows 70/78.
+
+All three are the row-69 STALE-V1 class: the V1 mp4 is out of date vs the build's own re-voiced
+narration, so `assert_v1_final_is_current` refuses to copy its stale AAC. Fix for each: add
+`AUDIO_FROM_V1_SEGMENTS = True` to beats_v2.py — v2_assemble then rebuilds the track from the V1
+build's OWN new-voice mp3s at the extract offsets ($0, nothing re-voiced/re-timed, V1 read-only).
+
+- **80 come-unto-me** — recency tripwire (11/11 mp3s newer than the 09:47 mp4). Parity 11/11.
+- **82 anointing-at-bethany** — BOTH tripwires (19 newer mp3s + ~+7s excess). Parity 19/19.
+- **83 weeping-over-jerusalem** — runtime tripwire (|Δ|~2.2s). Parity 10/10.
+
+Each verified the same way: `v2_assemble.py <row>` now clears the audio gate and stops only on
+"missing picture … row not fully generated" (0 V2 stills) — the STALE-V1 lock no longer fires;
+`v2_prompt.py <row> --check` PASSES. Boards NEEDS-AUDIO → AUTHORED / Audio OK / Ready ✅, claims
+cleared → picture runner generates stills and assembles on the corrected audio. Row 77 skipped
+(held by a parallel AUDIO-FIX claim); row 74 already fixed by an earlier session.
+
+---
+
 ## 2026-08-06 (AUDIO-FIX, headless) — Row 78 (who-is-my-mother) STALE-V1 audio-lock cleared + handed to picture runner — $0 — Machine A `Dev`
 
 **Commit:** `7955360ce` (beats_v2.py flag + QC.md + AUTHOR-BOARD). Claim `589b377eb`.
