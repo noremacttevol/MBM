@@ -1,5 +1,47 @@
 # QC / RUNNER HANDOFF — build-50-noblemans-son (John 4:46-54)
 
+## ✅ AUDIO FIX SHIPPED-TO-RUNNER — Cana → KANE-a (AUDIO-FIX job, Machine A `Dev`, 2026-08-07)
+The ORPHANED-FIX park (below) is now CLOSED at the audio authority. The earlier
+2026-08-06 fix was doubly wrong: it wrote to the V2 build dir (the assembler
+ignores it) AND used the wrong TTS engine (edge-tts AndrewNeural, 24000 Hz/48 k —
+the V1 mp4's narration is **ElevenLabs "Brian", 44100 Hz/128 k**). Copying those
+would have swapped the narrator voice mid-video. This fix does it correctly:
+
+- **Re-voiced n1 + n3** (the ONLY two segments that say Cana) through the SAME
+  locked ElevenLabs NARRATOR voice ("Brian", `nPczCjzI2devNBz1zQrb`, 44100/128 k),
+  respelling `Cana` → **`Kayna`** (= /keɪnə/, the long-A KANE-a Cameron asked for;
+  "Kay" forces an unambiguous /keɪ/ onset — no flat KAY-nuh, no /aɪ/ "China" drift).
+- **Atempo-matched** (pitch-preserving) back to the ORIGINAL segment durations so
+  NO still-window in beats_v2.py moves: n1 6.870s→6.844s, n3 13.035s→13.009s
+  (both within 0.03 s).
+- Placed the corrected mp3s in the AUTHORITATIVE V1 dir
+  (`media-production/build-50-noblemans-son/audio/{n1,n3}.mp3`) and set
+  **`AUDIO_FROM_V1_SEGMENTS = True`** in this row's `beats_v2.py` — the sanctioned
+  fix the STALE-V1 guard itself recommends. v2_assemble now rebuilds the narration
+  from the V1-dir mp3s at the extract_beats offsets, so the shipped cut says KANE-a
+  instead of copying the stale 2026-07-29 V1 mp4 AAC.
+
+**New audio baseline** (old V1-dir mp3s were the rejected KAY-nuh takes):
+- `n1.mp3`  md5 `dc0a3f9598fd3cca7ddffbc5bc2b2dd0` → **`ee6b0043aa0214fe3c9df03e18ad07f7`**
+- `n3.mp3`  md5 `8a914a0dbe55c451a89b72054fc9c61b` → **`c9d28f276e99b5c5f5fec58b796f8ce0`**
+- Nothing else changed: same "Brian" voice, same wording (caption text stays
+  "Cana"), same timing on all other segments.
+
+**Verified.** Isolated `rebuild_audio_from_segments(extract(50))` → 166.073 s ==
+timeline 166.073 s (delta 0.0), narration rebuilt from 20 V1 mp3s, LUFS/limiter
+identical to the normal path. Whisper of the rebuilt track at both Cana moments
+(0–8 s, 22–36 s) transcribes the K-forward long-A ("Kana"/"Cana"), no old flat
+take. Complaint #1 (question-card "squares") was already fixed in the V2 card
+renderer (verified clean on shipped rows 46/47).
+
+**This row has ZERO V2 stills** (picture runner hasn't reached it). Per the
+AUDIO-FIX loop nothing visual ships here: board flipped **AUTHORED / Audio OK /
+Ready ✅** with the claim cleared so the picture runner builds it on this corrected
+audio and its AUDIO REBUILD copies the KANE-a track. **Runner: the audio now says
+KANE-a — safe to build.**
+
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 27 beats, ~152 s.
 

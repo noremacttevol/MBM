@@ -48,6 +48,20 @@ copy it to CAST-REF-V2/nobleman-ref.jpeg and add
 (servants-ref.jpeg: b22-b25). Text locks alone do not hold a face.
 """
 
+# AUDIO-FIX 2026-08-07 (Machine A `Dev`): Cana→KANE-a pronunciation fix.
+# The authoritative V1 mp4 (john-4_noblemans-son.mp4, 2026-07-29) carries the
+# OLD rejected "Cana"=KAH/KAY-nuh takes. n1 and n3 (the only segments that say
+# Cana) were re-voiced through the SAME locked ElevenLabs NARRATOR voice
+# ("Brian", 44100/128k) with the respelling "Kayna" (=/keɪnə/, long-A KANE-a)
+# and atempo-matched back to the original segment durations (n1 6.870s,
+# n3 13.035s) so no still-window moves. The corrected mp3s live in the V1 dir's
+# audio/. This flag makes v2_assemble rebuild the narration track from the V1
+# build's OWN mp3s at the extract_beats offsets (the sanctioned fix the STALE-V1
+# guard itself recommends) instead of copying the stale V1 mp4 AAC — so the
+# shipped cut says KANE-a. Nothing else changed: same voice, same wording, same
+# timing outside n1/n3.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     # The nobleman's clothing NEVER changes (the story gives him no change of
     # clothes), so his lock states it once; beats add only its condition
