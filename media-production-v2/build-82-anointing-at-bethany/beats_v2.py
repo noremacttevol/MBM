@@ -70,6 +70,16 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX (AUDIO-FIX session, Machine A, 2026-08-06): the V1 mp4
+# mark-14_anointing-at-bethany.mp4 is STALE vs this build's own narration — it
+# fails BOTH tripwires in assert_v1_final_is_current (all 19 segment mp3s NEWER
+# than the mp4 AND the mp4 runs ~+7s longer than the summed timeline, i.e. it
+# carries old/deleted audio). Segment-ID parity with make_narration.py is exact
+# (19/19), so rebuild the track from these segments at the extract offsets
+# instead of copying the stale mp4. $0 — nothing re-voiced, nothing re-timed;
+# V1 stays read-only. Same mechanism as the shipped row-69 fix.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r082-b01", "out": "s01-in-a-house-in-bethany.jpeg", "seg": "n0a",
