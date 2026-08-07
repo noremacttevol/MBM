@@ -109,7 +109,7 @@ def main():
                            "YouTube Studio → Show more → Tags box",
                            y["yt_tags"], f"v{n}yt_g"))
         boxes.append(block("Facebook — the whole post",
-                           "Facebook → Create Reel/Post → text box (one paste)",
+                           "Facebook → upload the video any way it offers (it becomes a Reel automatically) → text box (one paste)",
                            fb_text, f"v{n}fb"))
         boxes.append(block("TikTok — the whole caption",
                            "TikTok → Post → caption box (one paste)",
