@@ -71,3 +71,54 @@ answer; the cut is judged against the rubric + RUNNER-LESSONS only.
 designated seven-basket line) and s27 reads ~6-7 in receding perspective, not a
 crisp countable seven. Not obvious garbage and never twelve, so kept per COST
 LAW; verify/tighten to exactly seven in the fix wave if Cameron flags the count.
+
+---
+
+## RUNNER PARK → NEEDS-REBUILD (Machine A `Dev`, 2026-08-07) — AUTHOR-DOMAIN complaint, $0, pictures untouched
+
+**Cameron's OPEN complaint** (`reportedAgainst 3005df5d1da3`, filed 2026-08-06,
+AFTER this cut shipped — the "COMPLAINT LEDGER: none open" note above was written
+before the complaint existed and is now stale):
+
+> "if we tell this story as the second time he did this and dont give any biblical
+> scholarship on the fact that it was true that he did it twice and it was different
+> times becasue it was recorded that he did comment on that then we are doing a huge
+> disservice to telling the story. this is not how he wanted his gospel to be told.
+> we need refrences in this one and comparisons that give the act a better light not
+> just telling the story the same way twice."
+
+**Why this is a runner PARK, not a runner fix (RUNNER-LESSONS "fix lives one stage
+upstream", lines 424/439/474):** the complaint is NOT a picture defect and NOT an
+audio pronunciation/pacing re-voice. It demands NEW narration CONTENT — added
+biblical scholarship, cross-references, and comparisons — which changes the beat
+map/scene text. The runner is forbidden to edit scene text or any beat's content
+(hard rail). No reroll or identity-edit can add scholarship. $0 spent; all 27
+stills and the audio are byte-identical, untouched.
+
+**What the FABLE 5 AUTHOR must do (NEEDS-REBUILD):** rewrite/expand the narration
+so this reads as the SECOND, distinct feeding — not a carbon copy of the 5,000 —
+and give it the scholarship Cameron is asking for:
+
+1. **Name it as the second miracle, and defend that it truly happened twice.**
+   The current script only glances at it once ("the man who had already fed five
+   thousand standing right in front of them"). Cameron wants the narration to
+   establish plainly that this is a SEPARATE event at a different time and place,
+   not the same story retold.
+2. **Cite that Jesus himself commented on both feedings** — the recorded proof
+   Cameron means: Matt 16:9-10 / Mark 8:19-21, where Jesus points the disciples
+   back to BOTH — "the five loaves of the five thousand, and how many baskets ye
+   took up? … the seven loaves of the four thousand, and how many baskets ye took
+   up?" His own words treat the two as distinct historical acts. That reference
+   must appear (as narrator scholarship and/or a KJV card).
+3. **Draw the comparisons that "give the act a better light":** the deliberate
+   contrasts already doctrinally locked in this build — 5 loaves→TWELVE baskets in
+   Jewish Galilee vs SEVEN loaves→SEVEN baskets here in the Gentile Decapolis,
+   after THREE days. The differing numbers are the evidence the events are distinct;
+   surface them as the point, not trivia.
+4. Author decides whether the scholarship rides on existing stills or needs 1-2
+   new beats (e.g. a comparison/КJV card for the Matt 16 commentary). Keep audio
+   immutability in mind — new narration content = new segment mp3s (author edit),
+   which is exactly why this is an author rebuild and not a runner re-cut.
+
+Complaint stays **OPEN** (REVIEW-LESSONS row 59 open:true) until the author's
+rebuild ships and answers it. Board: State BUILT→NEEDS-REBUILD, Ready cleared.
