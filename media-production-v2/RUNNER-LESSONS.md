@@ -361,6 +361,18 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   limestone skyline ($0.13). Zoom the far skyline of every ancient-city overlook/
   panorama wide; a faint hazy far element in a NON-hero landscape wide is
   FIX-WAVE (a reroll re-seeds the whole vista for one distant speck).
+  - **Sub-variant: the GOLDEN DOME OF THE ROCK renders where the Herodian temple
+    should be, on any Jerusalem/Temple-Mount overlook frame (row 100 ascension b11,
+    the HERO ascent).** A Jerusalem-panorama beat pulls the model's present-day
+    Temple-Mount prior — the gold-domed 7th-century Islamic shrine — into the exact
+    spot the Second-Temple sanctuary belongs, often alongside the row-83 modern
+    high-rises + crane. It is a period anachronism, not subtle drift, and on a hero
+    frame (the ascent, "he beheld the city") it's a mandatory reroll on sight; the
+    period MOUNT/Jerusalem plate anchors the correct Herodian temple, so one `--redo`
+    against the plate landed an all-period limestone skyline ($0.13). Its sibling
+    MOUNT-plate frames on the same row all rendered period, so this was an unlucky
+    single draw. Zoom the Temple-Mount area of every Jerusalem-overlook frame for a
+    gold dome; there must be the flat-roofed Herodian temple, never a dome.
 
 - **A night-interior beat that OMITS the ROOM/setting lock inherits NEITHER the "night" cue NOR the period-lamp spec — it renders DAYLIGHT windows AND modern kerosene/glass-chimney lamps at once (2026-08-07, row 90 washing-feet b02/b06).** In a night story (last supper), beats whose `locks` include ROOM (whose text said "window open on the night, clay oil lamps") rendered night with clay saucer lamps; beats that locked only BASIN/PETER (no ROOM) drifted to bright daylight windows AND invented glass-chimney hurricane lamps — BOTH defects trace to the one missing setting lock (row-103 class). A reroll without the lock is a coin-flip: b09 (locks ROOM) rerolled straight to night; b06 (no ROOM) stayed daylight on the reroll. Diagnose by comparing the defect beats' `locks` to the clean beats' — if the wrong-setting beats omit the place token, it is an AUTHOR fix (add ROOM to those beats' `locks`), not a runner reroll; do ONE probe reroll then FIX-WAVE. Distinct from a pure generation fluke where a ROOM-locked beat still drifts (that one a reroll fixes). Also note: a beat whose must_show enumerates a SEQUENCE ("close on the sequence: robe aside… towel knotted… water arcing") is a collage magnet even after the daylight/lamp is fixed (row-66/114) — b02 took two rerolls to land a single frame; the durable fix is de-sequencing the must_show (author).
 
