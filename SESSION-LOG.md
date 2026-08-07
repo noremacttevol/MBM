@@ -1,3 +1,18 @@
+## 2026-08-07 — AUDIO-FIX SWEEP: row 113 SHIPPED+LIVE, rows 105/106/108 handed to picture runner, row 27 BLOCKED (needs ears) — Machine A `Dev` (AUDIO-FIX lane)
+
+**Commit:** rows 105/106/108 = `2109c5747`; row 27 BLOCKED = `1767051bd`; row 113 ship + row-22 card hash-fix = `c8733d0cb`; this log = (this commit).
+
+Continued down the NEEDS-AUDIO rows after row 22 (THE LOW-NUMBER LAW; 18 & 77 already AUDIO-FIX-claimed by other lanes).
+
+- **Row 113 (Genesis 3, where-art-thou) — SHIPPED + LIVE.** STALE-V1-FINAL: the 26 realistic stills (GOD embodied per Cameron's complaint "God has a body… make a character for him") were done+QC-PASS, but the V1 final MP4 (193.3s) was stale vs the re-voiced mp3s (163.1s), so AUDIO LOCK refused. Fix ($0): `AUDIO_FROM_V1_SEGMENTS=True` → rebuild track from V1 mp3s. VERIFIED gate: 163.079s == extract_beats total to the ms (AUDIO REBUILD PASS `4cdc391c`). Re-assembled the full realistic cut (git-blob `9aeeb822`, decodes 0 errors); spot-checked embodied Father (s26 white-haired elder, white robe — distinct from cream-only Jesus) + Adam/Eve in skins (s21), realistic throughout. Reviewer card repointed to the V2 realistic path + git-blob hash, answers the complaint in his words; deployed + live-verified (raw video 200, bytes match). Board→BUILT/OK.
+- **Rows 105 / 106 / 108 — AUDIO handed off (AUTHORED / Ready ✅).** Same STALE-V1-FINAL class, but 0 V2 stills yet. Set `AUDIO_FROM_V1_SEGMENTS=True` in each beats_v2.py and VERIFIED each rebuild gate passes (105=164.257s, 106=152.043s, 108=148.623s, all == extract_beats total to the ms). $0, no re-voice. Board flipped NEEDS-AUDIO→AUTHORED / Audio OK / Ready ✅ so the picture runner builds them on the fixed audio.
+- **Row 27 (Matt 13, leaven) — BLOCKED (needs one ear-pass).** Cameron: "Audio is messed up on this one." Ran every headless check: full-mp4 faster-whisper transcript correct end-to-end (s33 "spake he" is right; n1 "doubling" was a whisper artifact — single 6.30s pass, no internal gap), AAC decodes 0 errors (not the row-31 corrupt-packet class), per-segment + delivered LUFS/peak IDENTICAL to approved rows 22/24/26/32, mono clean, A/V aligned; Cameron reviewed exactly this committed cut (blob 1e389df4). Could not localize the delivery defect headless, and blind re-voicing can't fix it (edge-tts deterministic — same input→same audio). Documented full evidence + a fast single-segment resume in QC.md §0b; board claim → BLOCKED. $0, nothing changed. **This one genuinely needs an ear to name the bad segment.**
+- **Also:** corrected row 22's reviewer card `data-hash`/cache-buster from a content-sha1 to the git-blob id (`a442afa8`) — the hash convention `audit_review_state.py` expects (it compares `git hash-object` of the disk mp4 to the card). Re-deployed + live-verified.
+
+**Cost:** $0 across all five rows (edge-tts / ffmpeg only, no Gemini). Rows 113/105/106/108 needed no re-voice at all (source-mp3 rebuilds); row 27 changed nothing.
+
+---
+
 ## 2026-08-07 — ROW 22 AUDIO-FIX SHIPPED + LIVE: j5 "shouldest"→"should-est" (Matt 18:33, 2:46) — Machine A `Dev` (AUDIO-FIX lane)
 
 **Commit:** claim = `599b0aab1`; ship (V1+V2 make_narration, V1 j5.mp3, beats_v2, V2 mp4, QC, board, review.html) = `f29a94c85`; this log = (this commit).
