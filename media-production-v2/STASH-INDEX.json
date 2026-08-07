@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 12:25:45",
+ "scanned": "2026-08-07 12:53:55",
  "entries": [
   {
    "row": 1,
@@ -42217,6 +42217,153 @@
    "night": true,
    "n_person": 1,
    "scene": "The closing frame holds the face at the gate: moonlit, marked by the night, and utterly steady \u2014 the eyes carrying both halves of the sentence at once: ON PURPOSE, in the set of the jaw that no torch-line can turn; FOR U"
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b01",
+   "file": "build-92-peters-denial/assets/s01-after-they-arrested-jesus-peter.jpeg",
+   "tokens": [
+    "YARD",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The high walls hold the cold night, the camera at the yard's wall behind the fire-ring's near backs, night in and one fire against it: servants and off-watch guards ringed close at the flames, hands out, faces orange in "
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b02",
+   "file": "build-92-peters-denial/assets/s02-a-servant-girl-looked-at.jpeg",
+   "tokens": [
+    "YARD",
+    "MAID",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Across the flames the young maid's quick dark eyes stop on him and stay: firelight full on Peter's face for one unlucky moment, her head tilting as memory catches, and the finger already lifting \u2014 THIS MAN WAS WITH HIM T"
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b03",
+   "file": "build-92-peters-denial/assets/s03-peter-said-woman-i-know.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the first crack in the rock: Peter's face in the firelight shaping the lie \u2014 WOMAN, I KNOW HIM NOT \u2014 the eyes sliding off hers and into the flames as he says it, the jaw too tight, the voice pitched too casual \u2014"
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b04",
+   "file": "build-92-peters-denial/assets/s04-a-little-later-someone-else.jpeg",
+   "tokens": [
+    "YARD",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The net draws in around the fire: from one side a guard's arm comes up pointing \u2014 you are one of them \u2014 from the other a servant leans in certain of the Galilean burr in his voice, and the ring of firelit faces tightens "
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b05",
+   "file": "build-92-peters-denial/assets/s05-each-time-peter-denied-it.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The third denial comes up shouting: Peter on his feet with his arm slashing the accusation out of the air \u2014 I DO NOT KNOW WHAT YOU ARE TALKING ABOUT \u2014 the voice too loud for the lie it carries, the firelight catching pur"
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b06",
+   "file": "build-92-peters-denial/assets/s06-and-right-then-while-the.jpeg",
+   "tokens": [
+    "YARD",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The sound tears the night open: on the wall's top edge against the first cold grey of morning a rooster stands mid-crow, throat stretched \u2014 and below in the courtyard Peter stops dead with the denial still hanging in the"
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b07",
+   "file": "build-92-peters-denial/assets/s07-across-the-courtyard-jesus-turned.jpeg",
+   "tokens": [
+    "YARD",
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "Across the whole firelit yard, the camera at the side so both poles of the look read in one profile, the moment happens in silence: on the far porch, between his guards, Jesus \u2014 hands bound before him with plain rope \u2014 t"
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b08",
+   "file": "build-92-peters-denial/assets/s08-and-peter-remembered-jesus-had.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the memory arriving like a wave over a wall: Peter's stricken firelit face as the supper-table sentence surfaces word for word \u2014 BEFORE THE COCK CROW, THOU SHALT DENY ME THRICE \u2014 his own confident answer surfaci"
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b09",
+   "file": "build-92-peters-denial/assets/s09-he-went-outside-and-wept.jpeg",
+   "tokens": [
+    "YARD",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "He cannot stay inside it: Peter shoulders blind through the arched gate into the cold grey street, one hand dragging along the stone for balance as the breaking arrives \u2014 the big frame buckling against the outside wall, "
+  },
+  {
+   "row": 92,
+   "build": "build-92-peters-denial",
+   "beat": "v2-r092-b10",
+   "file": "build-92-peters-denial/assets/s10-it-was-the-face-of.jpeg",
+   "tokens": [
+    "YARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The closing frame keeps the look Peter kept for the rest of his life: Jesus's face across the dying firelight \u2014 rope at his wrists, guards at his shoulders \u2014 and in the warm brown eyes nothing of the scorn a traitor brac"
   },
   {
    "row": 101,
