@@ -78,3 +78,49 @@ two shoulders), b12 (the whole room from the high corner). Three flips.
 - HOUSE: Bethany-lane suggested a NINTH time — DECLINED (Capernaum
   packed one-room house). Promote-first from b01.
 - Only Jesus wears cream.
+
+---
+
+## ✅ REALISTIC V2 SHIPPED — A-auto Machine A `Dev` (Opus picture runner, UNATTENDED) 2026-08-07
+
+**COMPLAINT LEDGER (LEARNING LAW): none open.** `v2_outline.py 78` shows no
+open Cameron complaint on this row; `grep` of media-production/COMPLAINTS.md for
+mother/Mark-3/row-78 returns nothing (the only "mother" hit is row 49's
+water-to-wine, a different row). First V2 visual build on the already-cleared
+new-voice audio, not a complaint fix. Nothing to answer.
+
+**Build.** 12 painted stills at native 2K (V1 had 8), 72.6s, 19.9 MB, 2 portraits
+(MOTHER, BROTHERS — REFS wired into beats_v2.py, satisfying the row-52/55
+face-lock lesson for the two single characters). Plate: **HOUSE promoted-first
+from b01** (the packed one-room Capernaum house) → attached to 11 beats; b11 is
+the exterior street beat (no HOUSE lock). Inside/outside geometry held: dim warm
+interior (b01/b03/b05-b10/b12) vs bright exterior street (b02/b11), doorway the
+only meeting point.
+
+**Audio.** AUDIO_FROM_V1_SEGMENTS=True (author's stale-V1 clear); track rebuilt
+from the 11 V1 segment mp3s = 72.606s. AUDIO REBUILD PASS SHA256
+7d734e91aae0285af4b14467658a3b26da44293ccb7f5abb79e7791b67d5575b. Decode-clean
+(ffmpeg -v error = 0 output). **Row-74 STALE-V1 duration tripwire CLEAR:**
+captioned.mp4 = 66.467s ≈ extract card_start 66.448s (Δ0.02s ≪ 0.2s) — the
+picture windows did NOT overrun the audio; no tail/card truncation.
+
+**QC / rerolls.** 0 rerolls / 12 = **0%** (≤15% budget). All 12 frames passed the
+light-QC bar: only Jesus in cream, no Jesus double on the two jesus:False family
+frames (s02/s11 carry no cream and no Jesus), no modern objects, no lens-stare,
+anatomy/scale/beards consistent, fully realistic (Law 14 PASS, zero cartoon).
+Mother (Mary) dignified/loving in blue mantle every frame (never resentful), no
+romantic framing on the s04 two-man relay. THREE-MARYS LAW: this row's MOTHER
+frame becomes the mother-Mary canon (row 49 unapproved at build time).
+Caption QC PASS: bottom-band white narrator, closing card clean (no tofu/square
+glyphs — row-50 defect absent).
+
+**FIX-WAVE (no reroll, per COST LAW):** (1) the HOUSE wide plate propagated its
+wide composition onto b05/b06 (authored closer) — several wides (s01/s05/s06/s07/
+s09/s12) share a similar frame; a later coverage wave can add tighter singles
+(rubric lesson 12 / row-101 plate-propagation class). (2) Jesus reads
+green/hazel-eyed in the s04 close-up — baked-in JESUS-MASTER-REF trait, DO NOT
+reroll (RUNNER-LESSONS); whole-wave ref item, not a per-row defect.
+
+**Cost.** Gemini this row ≈ **$1.87** (2 portraits $0.27 + 12 stills $1.60),
+meter 452.38 → 454.53. FAR under the $6.10 average — COST LAW held hard (0%
+rerolls vs 19% baseline; the promote-first plate + reuse kept spend minimal).
