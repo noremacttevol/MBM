@@ -104,7 +104,16 @@ except Exception:
 openc = {k for k, v in L.items() if isinstance(v, dict) and v.get('open')}
 try:
     html = open('site/review.html').read()
-    cur = dict(re.findall(r'data-num="(\d+)" data-hash="([0-9a-f]{40,64})"', html))
+    # order-independent: data-num and data-hash can appear in either order in a
+    # card tag (realistic-v2 cards emit data-review-wave BETWEEN them). [^>]*?
+    # keeps the match inside one tag. A rigid "num then hash" regex silently
+    # dropped 13 rows and stranded their complaints from the cfix lane (fixed
+    # 2026-08-07). Match both orders so every card's live hash is captured.
+    cur = {}
+    for mm in re.finditer(r'data-num="(\d+)"[^>]*?data-hash="([0-9a-f]{40,64})"', html):
+        cur[mm.group(1)] = mm.group(2)
+    for mm in re.finditer(r'data-hash="([0-9a-f]{40,64})"[^>]*?data-num="(\d+)"', html):
+        cur.setdefault(mm.group(2), mm.group(1))
 except Exception:
     cur = {}
 

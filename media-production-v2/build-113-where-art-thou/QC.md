@@ -179,3 +179,16 @@ Cameron's call on which passages show God's body vs. voice, plus whether the
 OT "LORD" figures should read as the Father (as row 113 does) or the premortal
 Christ/Jehovah (LDS: the OT Jehovah = premortal Christ). Flagged for a focused
 session, not done blind here.
+
+---
+
+## ⚠️ ROUTING GAP — hash-orphaned complaint (author note, 2026-08-07, Machine A `Dev`, $0)
+
+Same class as row 102. The embody-Father fix above is AUTHORED but NOT built and
+no autopilot lane auto-picks it: `reportedAgainst = 706f5d69` ≠ live `9aeeb822`,
+so cfix's hash-match guard is False; State NEEDS-REBUILD + non-empty claim makes
+runner/resume skip it. Needs a directed PAID build of the authored embody-Father
+stills, then a fresh ship for Cameron to re-review. Do NOT flip to BUILT (would
+present the not-yet-embodied cut as ready) and do NOT hand-edit reportedAgainst
+(sync-reviews.mjs reverts it each tick). Blocked on the SAME doctrine question as
+row 102 (Father vs premortal Christ for OT "the LORD").

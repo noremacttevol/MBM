@@ -192,3 +192,31 @@ Father vs premortal Christ — remains non-blocking, per the block above.)
 ### COST
 - 2 rerolls of beat b05 = 2 images ($0.26). Row's lifetime rerolls now
   2/28 = 7.1% (still under the 15% budget). Meter $423.71 → $423.98.
+
+---
+
+## ⚠️ ROUTING GAP — hash-orphaned complaint (author note, 2026-08-07, Machine A `Dev`, $0)
+
+The embody-Father fix above is AUTHORED but NOT built, and no autopilot lane will
+auto-pick it, because:
+
+- **Live review card = `05be89c7`** — a PRIOR C-FIX that took the WRONG approach
+  (rerolled s05 to a "vertical seam of heaven-light", i.e. God still not shown).
+  That fix did not satisfy Cameron's actual complaint ("no God coming to him in a
+  dream" = he wants God SHOWN, embodied), and it shipped without clearing the
+  open flag.
+- **`reportedAgainst = ddb1f2cf`** (the ORIGINAL cut) ≠ live `05be89c7`, so the
+  cfix lane's `reportedAgainst == live-hash` guard is False → cfix skips it.
+- State is NEEDS-REBUILD with a non-empty claim → runner/resume skip it too.
+
+**What it needs:** a directed PAID build of the authored embody-Father fix (regen
+the 6 summit stills b05/b06/b09/b12/b14/b15 vs `god.jpeg`), ship a new cut, then
+Cameron re-reviews. Do NOT flip to BUILT (the light-seam cut is known-wrong; that
+would present a defective cut as ready). Do NOT manually re-point reportedAgainst
+— sync-reviews.mjs regenerates REVIEW-LESSONS.json from Cameron's review DB every
+tick and would revert it.
+
+**OPEN QUESTION FOR CAMERON (doctrine, blocks the blind sweep):** OT "the LORD"
+that "stood above" the ladder — embody as the Father, or as the premortal Christ
+(LDS: OT Jehovah = premortal Christ)? Same question governs row 113 and every
+OT theophany. Answer once and the whole God-embodiment class can be swept.
