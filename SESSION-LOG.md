@@ -1,3 +1,21 @@
+## 2026-08-07 — ROW 11 (Calming the Storm, Mark 4) REALISTIC V2 BOAT-LOCK REBUILD SHIPPED — uniformity complaint CLOSED, AUDIO LOCK PASS — Machine A `Dev` (Opus runner, UNATTENDED/HEADLESS)
+
+**Commits:** claim = `f88254790`; mp4 + QC + boards (7a) = `9b6808d8dbd4e4aef9f8be3148b4900c60b86f96`; review-card + this log (7b) below. All on origin/main. Session-chain verified at start (then-top = row 84 shipped, commit `c11166a96` present in `git log`); hostname `Dev` = Machine A.
+
+**The row.** AUTHOR-BOARD row 11 was AUTHORED / Ready ✅ / empty Claim — the author had committed the boat-lock rebuild (promoted the cleanest hull to `PLACE-REF/boat.jpeg`, wired it into all 22 hull beats, wrote the EIGHT-crew + Jesus-position locks, added Jesus-asleep to b10/b13, fixed s16). QUEUE row 11 = "Calming the storm, Mark 4" (not swapped). Claimed A-auto, RUNNING→BUILT.
+
+**Complaint (LEARNING LAW).** `v2_outline.py 11` open complaint = the boat UNIFORMITY one ("10 pics of 4 in one boat, 10 of 5 in a different boat … some don't have Jesus at all, some front some back … the wake-him one has someone else being woken"). COMPLAINT LEDGER in QC.md ties each part to the fix. Root cause was structural (boat+crew locked in PROSE only, no reference image → every gen invents a fresh hull/headcount) — fixed by IMAGE, the same cure faces got.
+
+**Executed.** Re-cut 22 BOAT-locked beats against the plate (`v2_gen_api --redo --only …`, plate KEPT). Every one carries `[place:BOAT]` → ONE boat in all 34 frames (same planks/mast/furled sail/bow rope/stone anchor/lamp). Crew consistent (tight shots are crops of the same company; the eight together in s27/s34). Jesus only-cream (the ONLY cream robe every frame) and in ONE place whenever shown — asleep in the STERN (s10/s13/s14 reveal), standing in the STERN to rebuke (s19/s20), with them after (s25/s27/s28/s31/s34). s16 woken-man IS the locked Jesus (no 2nd cream figure).
+
+**Light QC.** Viewed all 34 rendered frames once against `assets-realistic/` (the dir the assembler renders from — early I mistakenly QC'd the stale `assets/` roughs, corrected mid-session; see RUNNER-LESSONS add). **3 QC rerolls/34 = 8.8%** (< 15% budget, < 19% baseline): s10 + s13 (first pass dropped the small stern-asleep Jesus the complaint asked for; one reroll each landed him), s09 (first take a far-aerial with a tiny anonymous rowboat that read as a *different* boat → reroll landed THE fishing boat with crew aboard under the storm downdraft, also fitting the "wind spills down those slopes" line). No collage/cartoon/mixed/modern-object/burned-text/lens-stare/giant; bailing throws water OUT (action-logic law); night-storm→calm arc holds; captions bottom-band only (t=30/52/90 verified); mp4 decodes 0 `-v error` (not row-31).
+
+**Ship.** AUDIO LOCK PASS SHA256 `631b100ce410…` (V1 audio byte-identical, nothing re-voiced), 234.9s/20.8MB. Review card v11 repointed: data-hash `9b6808d8dbd4…`, data-built 2026-08-07, direct raw host + `?v=9b6808d8dbd4`, flag rewritten to answer the uniformity complaint in Cameron's own words. Deployed to Firebase + live-verified (below). Prior v4 (hash `fde28991`, the complained cut) VOID.
+
+**Cost / laws.** Session image spend ≈ **$3.35** (22 rebuild regens + 3 QC rerolls = 25 × $0.134). Under the $6.10/row average and the ~$3 rebuild estimate; reroll rate 8.8% under baseline — trend DOWN (COST LAW satisfied). Touched the row ONCE (every known fix batched). New RUNNER-LESSONS entry added: QC the `OUTPUT_ASSET_DIR` (`assets-realistic/`), not `assets/`, or you review the wrong (rough) frames.
+
+---
+
 ## 2026-08-07 — ROWS 169, 170 & 171 AUTHORED (Ready ✅) — three fresh V2 beat maps, $0, no image/audio credits — Machine A `Dev` (Fable-5 author lane, UNATTENDED)
 
 **Commits:** row 169 = `c2aba560a`; row 170 = `4aaca4099`; row 171 = `f03f41e7b`. All on origin/main (each committed + pushed the moment its `--check` passed, with TARGETED `git add` of only that row's files + the board line, to survive the live autopilot runner lanes sharing this tree). Session-chain verified at start (then-top = rows 167/168 authored, commit `1385ddb24` present in `git log`); hostname `Dev` = Machine A.
