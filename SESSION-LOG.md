@@ -1,3 +1,23 @@
+## 2026-08-07 — ROW 80 ("Come Unto Me", Matt 11:28-30) REALISTIC V2 SHIPPED + DEPLOYED — no open complaint, STALE-V1 audio cleared, doctrine yoke-arc held — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commits:** claim = `7a2699a7a`; ship (mp4 + QC + PLACE-WIRING + beats REFS + boards + QUEUE + api-spend) = `90028b507040de1cbf0cfa1fe127b57178d05d8e`; review-card + SESSION-LOG = this commit. Session-chain verified at start (then-top = Row 70 temptations, commit `4414d1d1a` present in `git log`); hostname `Dev` = Machine A. Read the two META-LAWS + all 15 rubric lessons + all 605 lines of RUNNER-LESSONS.md before the first credit.
+
+**Row 80 was the lowest AUTHOR-BOARD Ready ✅ / empty-claim row (LOW-NUMBER LAW). Cross-checked QUEUE.md — story = "Come unto me, all ye that labour", Matt 11, NOT swapped — safe to build.** `v2_outline.py 80` shows NO open complaint (prior park was NEEDS-AUDIO STALE-V1, now cleared by the author's `AUDIO_FROM_V1_SEGMENTS=True`). COMPLAINT LEDGER: none open.
+
+**Build:** 14 realistic stills at native 2K (V1 ASSEMBLY-C had 8), 90.6s, 19.6 MB. 1 portrait (CARRIER). Places: LANE plate author-wired from build-38; OXFIELD promoted-first this row from the person-free two-ox double-yoke anchor b06 (QC'd clean before promote) → wired to b06/b11/b12/b13. Only Jesus wears cream.
+
+**Doctrine held (QC.md gates):** the double-yoke two-sidedness reads across the oxen cutaways — b06 defines the shared beam (two oxen), b11 one ox laboring beside the EMPTY loop, b12 the second ox stepped IN, b13 the pair pulling as one with the plough still biting (rest = SHARED pulling, field not finished). Carrier echo-arc held: sack alone (b01/b04/b05) → coming WHILE loaded through the offer (b07) → close b14 Jesus BESIDE him steadying the sack, load STILL ON (shared, not removed — no render took the sack away).
+
+**Light QC (1 sweep, all 14 frames + 3 rendered caption frames): 0 rerolls / 14 = 0% (COST LAW, far under 15%).** Beard-board + scale gate pass (Jesus ordinary-sized every frame, full dark beard + warm brown eyes no glow; CARRIER grizzled beard every frame). No modern objects (sand checked for lug-tread prints — clean), no second cream figure, no lens-break, no collage, no cartoon/CGI frame (all photographic), no burned-in text. FIX-WAVE (kept, non-blocking): oxen cutaways sit under flatter overcast light vs the day's-end gold of the human frames.
+
+**Audio (STALE-V1 batch — row-74 tail check DONE):** AUDIO REBUILD PASS SHA256=`97eaf33477e95642c9fbe5c3eafa5eb52206a4106000bce5b53abdbaf217ddd3`, rebuilt from 11 V1-dir segment mp3s, 90.604s (nothing re-voiced, narration byte-identical). Tail check: captioned.mp4 83.000s vs card seg_start 82.957s (diff 0.043s ≤ 0.2s) → full question card present, no tail chop; final mp4 90.633s ≈ audio 90.604s. Captions bottom-band only; Jesus sayings red, narrator white; question card clean.
+
+**DEPLOY + live-verify (7c) — DONE below.**
+
+**Cost:** portrait $0.13 + b06 anchor $0.13 + 13-beat run $1.74 = **~$2.00 this row**, 0 rerolls (meter $454.66 → $456.54). **Far under the $6.10/row running average** — COST LAW trend holds DOWN. STASH-INDEX re-scanned (step 8) and PUBLISH LOOP synced.
+
+---
+
 ## 2026-08-07 — ROW 78 ("Who Is My Mother?", Mark 3:31-35) REALISTIC V2 SHIPPED + DEPLOYED — no open complaint, first V2 visual build on cleared new-voice audio — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** claim (RUNNING) = `255eded9d`; ship (mp4 + QC + beats REFS + PLACE-WIRING + boards + QUEUE) = `573fb16a24453240485d2eff664dd279602beda9`; review-card + this SESSION-LOG + STASH-INDEX = the commits below. Session-chain verified at start (then-top SESSION-LOG = row 50, claim commit `3afc6aa04` present in `git log`); hostname `Dev` = Machine A. Followed PROMPT-OPUS-RUNNER.md; read the two META-LAWS + all 15 rubric lessons + all 596 lines of RUNNER-LESSONS.md before the first credit. Targeted `git add` of only this row's paths + boards + SESSION-LOG (tree ~150 files dirty from live autopilot lanes — never a tree-wide add/reset).
