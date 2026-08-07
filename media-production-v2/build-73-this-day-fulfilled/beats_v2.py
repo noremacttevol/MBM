@@ -69,6 +69,12 @@ LOCKS = {
 
 REF = True
 
+# FULLNESS REBUILD (Cameron complaint, 2026-08-07): the V1 mp4 is now stale vs the
+# re-voiced narration (n4/n5 added, card rewritten through the SAME ElevenLabs Brian
+# narrator that voices the rest — 44.1 kHz, engine-matched, NOT edge-tts). Rebuild
+# the delivered track from the V1 segment mp3s at the extract_beats offsets.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r073-b01", "out": "s01-he-came-back-to-nazareth.jpeg", "seg": "n0",
@@ -472,6 +478,112 @@ BEATS = [
             "ordinary word ever said in it: today. "
             "Every figure has two arms, two hands "
             "and one head."
+        ),
+    },
+    # ── FULLNESS TEACHING (Cameron rebuild 2026-08-07) ────────────────────────
+    # The narrator now opens up what his own words MEANT — his mission, that he
+    # rose, that the plan continues today (prophets'/restored-Church frame, church
+    # never named). The Two-Voice law is untouched: NO new words in Jesus's mouth;
+    # j1/j2 remain his only lines. COST LAW: three of these four beats REUSE
+    # already-approved, gate-passed stills from this same build (a legitimate
+    # reprise held under the teaching) — only ONE new still (b21, the open door)
+    # is generated. Imagery stays inside the Nazareth synagogue on purpose: no
+    # passion/tomb scene is invented (that would be a scene jump, a new locked
+    # Jesus scene, face-drift risk and more credits) — the narrator carries the
+    # death-and-resurrection while the picture holds on the living, present Christ.
+    {
+        "id": "v2-r073-b18", "out": "s06-the-spirit-of-the-lord.jpeg", "seg": "n4",
+        "window": "102.508-111.778", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["SYNAGOGUE", "TOWNSFOLK", "SCROLL"],
+        "reuse": "REUSE of b06's approved still — held under the teaching (his own mission, his own mouth). No new credit.",
+        "narration": (
+            "He was not reading someone else's words — that was his own mission, "
+            "spoken in his own mouth, the Anointed One saying out loud what he "
+            "had come to do."
+        ),
+        "must_show": "the reading held as his OWN declaration — Jesus standing at the lectern reading over the hometown room; the words as his own mission, not a borrowed text.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the moment carried by his calm authority, not by any added light.",
+        "scene": (
+            "Held on the standing reader: Jesus at "
+            "the lectern in the angled morning "
+            "shafts, the great scroll open before "
+            "him, reading his own commission over the "
+            "bowed and lifted heads of his town — the "
+            "carpenter's son claiming, in a level "
+            "carrying voice, every line as the work "
+            "he himself came to do. Every figure has "
+            "two arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r073-b19", "out": "s09-the-spirit-of-the-lord.jpeg", "seg": "n4",
+        "window": "111.778-119.284", "wide": False, "jesus": False, "ref": False,
+        "locks": ["TOWNSFOLK"],
+        "reuse": "REUSE of b09's approved still — held under 'and he did it' (the people healed and freed). No new credit.",
+        "narration": (
+            "And he did it: he healed the broken, opened blind eyes, and carried "
+            "freedom to the very people the world had written off."
+        ),
+        "must_show": "the mission carried out among the least — close along the benches: the day-labourer, the grieving widow, the clouded eyes, the debt-worn farmer; the very people the promise was for.",
+        "must_not_show": "no halo, glare or rim-light; each face's need particular and human — the ones the world overlooked, met by name.",
+        "scene": (
+            "Close along the stone benches, the "
+            "morning light on ordinary hometown "
+            "faces: the patched knees of the "
+            "day-labourer, the young widow's black "
+            "shawl, an old man's clouded lifting "
+            "eyes, a debt-worn farmer's straightening "
+            "shoulders — the poor, the broken and the "
+            "overlooked the promise was written for, "
+            "each one the work he came to do. Every "
+            "figure has two arms, two hands and one "
+            "head."
+        ),
+    },
+    {
+        "id": "v2-r073-b20", "out": "s16-the-promise-israel-had-waited.jpeg", "seg": "n5",
+        "window": "119.284-126.194", "wide": False, "jesus": True, "ref": REF,
+        "locks": ["SYNAGOGUE"],
+        "reuse": "REUSE of b16's approved seated-Jesus still — held under 'he rose' (the living, present Christ). No new credit.",
+        "narration": (
+            "They killed him for it — but on the third day he rose, and the work "
+            "he began in that little room did not end at an empty tomb."
+        ),
+        "must_show": "the living, present Christ — close on the seated figure in the plain window light, calm and alive; the promise embodied, not ended.",
+        "must_not_show": "no halo, glare or rim-light, no wounds displayed or tomb shown — the resurrection carried by the narrator; the picture holds the living, ordinary-sized Christ present in the room.",
+        "scene": (
+            "Close on the seated figure in the window "
+            "shaft's plain light: the undyed cream "
+            "robe, the carpenter's hands at rest on "
+            "the knees, the warm familiar hometown "
+            "face — nothing added, nothing shining — "
+            "the same living presence the room could "
+            "reach out and touch, the promise still "
+            "seated among them and alive. Every "
+            "figure has two arms, two hands and one "
+            "head."
+        ),
+    },
+    {
+        "id": "v2-r073-b21", "out": "s18-going-out-today.jpeg", "seg": "n5",
+        "window": "126.194-138.890", "wide": False, "jesus": False, "ref": False,
+        "locks": ["SYNAGOGUE"],
+        "must_show": "NEW STILL — the good news going out into the world 'today': the synagogue's plain plank door standing open onto the sunlit dirt road and low stone houses of Nazareth, warm late-morning light pouring across the threshold from inside the room out into the town.",
+        "must_not_show": "no halo, glare or rim-light; no glass in the door or openings, no modern element, no lettering or signage; not a dark or closed doorway — the light moves OUTWARD into the day.",
+        "scene": (
+            "From just inside the small synagogue, the "
+            "camera at the threshold: the plain plank "
+            "door stands open onto the hometown — a "
+            "sunlit dirt road, low pale-stone houses, "
+            "an olive tree, the ordinary morning of "
+            "Nazareth — and the room's warm light and "
+            "the road's daylight meet across the worn "
+            "stone sill, one or two robed townsfolk "
+            "small in the distance walking away down "
+            "the road with their backs to us, the "
+            "good news carried out of the room and "
+            "into the living day. Every figure has "
+            "two arms, two hands and one head."
         ),
     },
 ]

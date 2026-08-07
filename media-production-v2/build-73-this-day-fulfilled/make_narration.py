@@ -72,7 +72,13 @@ SEGMENTS = [
     # Luke 4:21
     ("j2", JESUS, "This day is this scripture fulfilled in your ears."),
     ("n3", NARRATOR, "The promise Israel had waited on for centuries — the healing, the freedom, the good news for the poor — he said it was standing right in front of them. Not someday. Today."),
-    ("card", NARRATOR, "He still reads it as today. What would it mean if that promise were meant for you, right now?"),
+    # FULLNESS REBUILD (Cameron complaint, 2026-08-07) — see V1 make_narration.py.
+    # Teach how He MEANT it, that He is risen and continues the same plan today,
+    # in the prophets'/restored-Church frame, WITHOUT naming the Church. Two-Voice
+    # law untouched (no new words in Jesus's mouth).
+    ("n4", NARRATOR, "He was not reading someone else's words — that was his own mission, spoken in his own mouth, the Anointed One saying out loud what he had come to do. And he did it: he healed the broken, opened blind eyes, and carried freedom to the very people the world had written off."),
+    ("n5", NARRATOR, "They killed him for it — but on the third day he rose, and the work he began in that little room did not end at an empty tomb. He is alive, the same Spirit is still upon him, and the good news he read that morning is going out into the world again in our own day — the year of the Lord's favor has never once closed."),
+    ("card", NARRATOR, "He read it as today because, for him, it still is. The risen Lord is keeping every line of that promise even now — and one of them was written with you in mind. What would it mean if he were reading it, today, over your life?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

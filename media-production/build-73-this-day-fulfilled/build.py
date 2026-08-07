@@ -66,6 +66,13 @@ BEATS = [
     ("n2", [(S5, "in")], None),
     ("j2", [(S6, "in")], None),
     ("n3", [(S7, "in"), (S8, "out")], None),
+    # FULLNESS REBUILD (Cameron complaint, 2026-08-07): two teaching beats added
+    # after the "today" close so extract_beats places n4/n5 on the timeline. The
+    # V1 stills named here are placeholders only — V2 (stills-only delivery) hangs
+    # its own pictures in beats_v2.py; this build.py is never re-rendered, it is
+    # only AST-parsed by extract_beats for segment order + audio durations.
+    ("n4", [(S3, "in"), (S4, "in")], None),
+    ("n5", [(S6, "in"), (S8, "out")], None),
 ]
 
 LEAD = 0.28

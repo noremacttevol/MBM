@@ -1,3 +1,21 @@
+## 2026-08-07 — ROW 73 (This Day Fulfilled, Luke 4) FULLNESS REBUILD AUTHORED — Cameron's message + face-drift complaint answered at the author level, Ready ✅ for the picture runner — Machine A `Dev` (Fable-5 author lane, $0 image / ~cents ElevenLabs, UNATTENDED)
+
+**Commit:** row 73 package (V1 make_narration.py + build.py + audio/n4·n5·card mp3+timing; V2 make_narration.py + beats_v2.py + ASSEMBLED-PROMPTS.txt + QC.md; AUTHOR-BOARD) + this log = (this commit). On origin/main. Claim commit `a760f1061`.
+
+COMPLAINT-FIRST + LOW-NUMBER LAW: told to start at AUTHOR-BOARD row 33 — verified it was already AUTHOR-DONE (Ready ✅; only a PAID s20 reroll remains, which a $0 lane can't do). Next lowest OPEN Cameron complaint needing author work was **row 73** (NEEDS-REBUILD, RUNNER PARK flipped it to the author lane). Rows 34–72 between them are all done-or-runner (50/51/63/70 audio-fix DONE; 44 dead-parked). Session-chain verified at start (top entry row 162/163, commit `1620bd001` present in git log); hostname `Dev` = Machine A.
+
+**Cameron's complaint** (`v2_outline.py 73`): the message doesn't give the FULLNESS — teach how He MEANT it, that He is risen and continues the plan, framed the way the prophets/restored Church would (WITHOUT naming the church); AND the first two pictures make Jesus look like two different men.
+
+**What I authored (the message half — primary).** Re-wrote the closing so the narrator now TEACHES the fullness instead of reporting it. Two NEW narrator segments — n4 (Isaiah 61 was His OWN mission, in His own mouth, and He carried it out: healed, opened eyes, freed the written-off) and n5 (they killed Him, He rose, He is alive, the same Spirit is still on Him, the good news is going out into the world AGAIN in our own day — the year of the Lord's favor never once closed) — and the card rewritten from "He still reads it as today" to a risen-Lord personal invitation. **Two-Voice law intact: NO new words in Jesus's mouth** — j1/j2 stay His only lines; the narrator opens up His own declaration. Restored-gospel frame, church never named, milk.
+
+**Audio — engine-matched (row-18 lesson).** This row's delivered narration is ElevenLabs (44.1 kHz), so n4/n5/card were re-voiced through the SAME ElevenLabs NARRATOR (Brian) via mbm_eleven.render_segment — NOT edge-tts, which would have swapped the narrator voice mid-video. Whisper round-trip verbatim on all three. Other 8 segments byte-identical. AUDIO_FROM_V1_SEGMENTS=True; new total 154.322 s (was ~103 s — the +51 s IS the added teaching, which is what Cameron asked for). Edited V1 make_narration.py (SEGMENTS) + V1 build.py (BEATS gained n4/n5 so extract_beats places them); mirrored V2 make_narration.py.
+
+**Pictures — COST LAW held.** beats_v2.py now 21 beats, --check PASS, schedule contiguous/monotonic to card_start. The 4 teaching beats add only ONE new still (s18, the open synagogue door onto the Nazareth road — the good news going out "today", no Jesus figure so no face risk); the other three REUSE approved gate-passed stills (s06 reading, s09 faces, s16 seated Christ) held under the teaching. Imagery kept inside the synagogue on purpose — no passion/tomb scene invented (scene jump + new locked-Jesus scene + face-drift risk + credits); the narrator carries the resurrection. The opening face-drift (part 2) handed to the runner as a reroll of s01/s02 against JESUS-MASTER-REF + face gate.
+
+**Handoff.** AUTHOR-BOARD row 73 → Ready ✅. RUNNER (one paid re-cut, touch once): gen s18, reroll s01/s02 (face gate 0), assemble (AUDIO REBUILD from-segments ~154.322 s), re-audit, ship with the COMPLAINT LEDGER in QC.md. **Cost:** $0 image gen, ~cents ElevenLabs (3 narrator segments). Next author: lowest OPEN row is 164+ (NEEDS-BEATS through 200); rows 162/163 already Ready ✅ from the prior session.
+
+---
+
 ## 2026-08-07 — ROW 102 C-FIX SHIPPED: Cameron's "0:24 looks like a UFO" complaint fixed — rerolled ONE frame (s05), audio byte-identical, redeployed + live-verified — Machine A `Dev` (Opus runner C-FIX lane, UNATTENDED)
 
 **Commit:** C-FIX cut (mp4 + QC.md + AUTHOR-BOARD) = `05be89c7126d5e89b3866f5fdd9391b3262fc216`; claim + reviewer + this log = follow-on commits. All on origin/main; Firebase hosting redeployed and the live review.html verified carrying the new hash.

@@ -138,3 +138,88 @@ FOR THE AUTHOR (both parts of the complaint — batch into ONE rebuild)
 STATE: AUTHOR-BOARD row 73 → NEEDS-REBUILD, Ready empty. Author lane picks it
 up next (LOW-NUMBER LAW: low rows first). $0 spent, 0 pictures touched, audio
 byte-identical.
+
+✅ AUTHOR DONE — FULLNESS REBUILD — 2026-08-07 (Machine A `Dev`, Fable-5 author lane)
+────────────────────────────────────────────────────────────────────────
+Both halves of Cameron's complaint are addressed in the author files. $0 image
+gen; ~cents ElevenLabs. Only PAID image steps remain (below) → handed to the
+picture runner. AUTHOR-BOARD row 73 → Ready ✅.
+
+WHAT THE AUTHOR CHANGED
+-----------------------
+1. MESSAGE (primary complaint — "give the fullness"). The old ending only
+   REPORTED the event and closed on "He still reads it as today." Re-authored so
+   the narrator now TEACHES what his own words meant, that He is risen, and that
+   the same plan continues today — in the prophets'/restored-Church frame, the
+   Church never named. Two-Voice law untouched: NO new words in Jesus's mouth
+   (j1/j2 remain his only lines); the fullness is carried by the narrator opening
+   up his own declaration. Milk; ends on a personal invitation.
+     • NEW segment n4 (narrator): "He was not reading someone else's words — that
+       was his own mission, spoken in his own mouth, the Anointed One saying out
+       loud what he had come to do. And he did it: he healed the broken, opened
+       blind eyes, and carried freedom to the very people the world had written off."
+     • NEW segment n5 (narrator): "They killed him for it — but on the third day
+       he rose, and the work he began in that little room did not end at an empty
+       tomb. He is alive, the same Spirit is still upon him, and the good news he
+       read that morning is going out into the world again in our own day — the
+       year of the Lord's favor has never once closed."
+     • CARD rewritten from "He still reads it as today…" → "He read it as today
+       because, for him, it still is. The risen Lord is keeping every line of that
+       promise even now — and one of them was written with you in mind. What would
+       it mean if he were reading it, today, over your life?"
+   Edited in V1 make_narration.py (SEGMENTS) + V1 build.py (BEATS gained n4/n5 so
+   extract_beats places them). Mirrored in V2 make_narration.py.
+
+2. AUDIO — engine-matched, NOT edge-tts. The delivered narration on this row is
+   ElevenLabs (44.1 kHz), so n4/n5/card were re-voiced through the SAME ElevenLabs
+   NARRATOR (Brian) via mbm_eleven.render_segment — never edge-tts (that would
+   swap the narrator voice mid-video, the row-18 lesson). Whisper round-trip on all
+   three came back verbatim ("the anointed one", "read that morning", "year of the
+   Lord's favor"). n4=16.20s, n5=18.99s, card=14.05s. The other 8 segments are
+   byte-identical (untouched). beats_v2.py now sets AUDIO_FROM_V1_SEGMENTS = True
+   so the runner's assemble rebuilds the track from the V1 mp3s at the
+   extract_beats offsets. New total 154.322 s (card_start 138.890) — was ~103 s;
+   the +51 s is the added teaching + longer card, which is the point.
+
+3. PICTURES (secondary complaint — opening Jesus face drift + coverage of the new
+   teaching). beats_v2.py: 21 beats, --check PASS, schedule contiguous/monotonic
+   to card_start. COST LAW held — the 4 teaching beats add only ONE new still:
+     • b18 (n4) REUSES approved s06 (the standing reading) — his own mission.
+     • b19 (n4) REUSES approved s09 (the receiving faces) — "and he did it."
+     • b20 (n5) REUSES approved s16 (the seated Christ) — "he rose… alive."
+     • b21 (n5) NEW still s18-going-out-today.jpeg — the open synagogue door onto
+       the sunlit Nazareth road, the good news going out "today." No Jesus figure
+       (no face risk); realistic, period-locked.
+   Imagery stays inside the synagogue on purpose — no passion/tomb scene invented
+   (scene jump + a new locked-Jesus scene + face-drift risk + more credits). The
+   narrator carries the death-and-resurrection; the picture holds the living Christ.
+
+🅿️ RUNNER — the remaining PAID steps (batch into ONE re-cut, touch once)
+------------------------------------------------------------------------
+1. Generate the ONE new still: `s18-going-out-today.jpeg` (b21 prompt in
+   ASSEMBLED-PROMPTS.txt). No Jesus in frame — no face gate needed on it.
+2. FACE-DRIFT FIX (Cameron's part 2): reroll the opening frames that drift —
+   `s01-he-came-back-to-nazareth.jpeg` and `s02-and-there-was-delivered-unto.jpeg`.
+   Compare BOTH against JESUS-MASTER-REF/jesus-face.jpeg AND against a known-good
+   Jesus frame in this build (s16); keep whichever already matches and reroll only
+   the drift(s) to save a credit. `python3 media-production/jesus_face_gate.py
+   --dir <build>` must exit 0 before assembly (FACE-BOARD LAW).
+   NOTE: PLACE-REF/synagogue.jpeg is architecture-only — the s01 reroll does NOT
+   require re-promoting the plate; leave it.
+3. `python3 media-production-v2/v2_assemble.py 73` — from-segments audio rebuild
+   (AUDIO_FROM_V1_SEGMENTS). AUDIO REBUILD must PASS at ~154.322 s.
+4. Re-run `python3 media-production-v2/audio_audit.py 73` on the new cut (new
+   narrator segments were whisper-verified at author time; confirm A/B/C stay 0).
+5. Deploy + live-verify; set Appr/Post per the C-FIX flow.
+
+COMPLAINT LEDGER — the review card must tell Cameron, in his words, both are fixed
+-----------------------------------------------------------------------------------
+1. "the entire message isn't giving the fullness of his message… teach how He MEANT
+   it… He has risen and continues the plan… how the prophets/the restored Church
+   would share it, without telling it that it's that church" → the video now teaches
+   exactly that in the closing: Isaiah 61 was His OWN mission in His own mouth, He
+   carried it out, He rose, and the same good news is going out again in our own day
+   — framed the restored way, the Church never named, His own words still central.
+2. "the first 2 pictures make Jesus look one way and then another" → the two opening
+   frames are rerolled against the one locked master face and gate-checked so He is
+   the same man in both.
