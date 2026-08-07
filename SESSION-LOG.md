@@ -1,3 +1,14 @@
+## 2026-08-07 — ROW 15 (centurion) C-FIX SHIPPED — "servant looks sick at 3:58" complaint CLOSED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** ship `d6602059691797cc688a417e1db6e5cec4111252` (mp4 + QC + meter) + the review.html/AUTHOR-BOARD/SESSION-LOG commit below. **Session-chain verified at start:** then-top row-13 ship `abde8e291` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all its laws + `v2_outline.py 15` + rubric + RUNNER-LESSONS first.
+
+- **COMPLAINT-FIRST + LOW-NUMBER:** row 15 was the lowest waiting row carrying an OPEN complaint, so it outranked all other work. Claimed by push (AUTHOR-BOARD C-FIX LIVE → SHIPPED), fixed, shipped.
+- **OPEN complaint (`v2_outline.py 15`, Cameron's words):** _"the servant shouldnt look sick in the last picture at 3:58 redo that one."_ The 3:58 frame is **b41/s41** (window 237.17–241.64), the closing over-shoulder embrace. Old cut showed the healed servant with hollow, dark-ringed sunken eyes and a gaunt face — still read plainly SICK after the story had made him well.
+- **FIX (touch-once):** the author (Fable-5 lane, same day) had already added the **HEALED-NOT-SICK** ban to b41 (+ reinforced b39). Runner rerolled **ONLY s41** against that prose (2 rerolls). Servant now FULLY WELL — warm healthy olive skin, clear bright eyes, upright and strong in the officer's arms; no grey/ashen pallor, no sunken eyes, no sickbed frailty. Second reroll also fixed footwear to period leather sandals (first take had modern suede lace-ups). Face-boarded vs healed-servant frames s04/s36/s37/s38 — same young man, same age, now robustly well.
+- **s39 checked and LEFT byte-identical** — already read as a healthy young man standing on his own legs, so per the handoff it did not need a reroll.
+- **Cost / touch-once: 2 rerolls (s41 ×2) / 42 beats = 4.8%** (under 15% budget), ≈ **$0.26** (meter $495.00→$495.26) — well under the $6.10 avg, COST-LAW down-trend holds (C-FIX, no fresh row build).
+- **AUDIO byte-identical** — **AUDIO LOCK PASS SHA256=`75daa4007d8dbce7360ef6609b9359245bd945d726965c163a2e24de994eb627`**, 256.0s. Nothing re-voiced/re-timed. Caption QC PASS (white serif bottom band @0:10 and @3:59; question card clean beige "…Is there something in your life you would place in Jesus's hands like that — simply on his word?"). Deploy to Firebase + live-verified below. STASH rescanned, PUBLISH LOOP synced.
+
 ## 2026-08-07 — ROW 13 (roof) C-FIX SHIPPED — ghost-rope / weird-roof complaint CLOSED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** ship `79f7b974ea6d3e01811cc2f729043c6e4ce2a0c7` (mp4 + QC + AUTHOR-BOARD + QUEUE) + the review.html/SESSION-LOG commit below. **Session-chain verified at start:** then-top row-99 ship `589168bca0f7` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all its laws + `v2_outline.py 13` + rubric lesson 19 (ghost ropes) + RUNNER-LESSONS first.
