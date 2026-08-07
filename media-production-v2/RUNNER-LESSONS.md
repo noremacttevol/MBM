@@ -349,6 +349,22 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 
 ## ASSEMBLY / AUDIO-LOCK
 
+- **A STALE-V1 row cleared with AUDIO_FROM_V1_SEGMENTS=True can STILL ship a
+  broken cut — the audio rebuilds to the live length but the beats_v2 STILL-
+  WINDOWS were scaffolded on a LONGER timeline, so the picture track overruns
+  the audio and the final mux truncates the tail + the whole question card
+  (2026-08-07, row 74).** AUDIO REBUILD PASS only proves the AUDIO is right; it
+  does NOT check the VIDEO length. Row 74: audio 184.57s but captioned.mp4 =
+  201.5s (windows ran to 206.32s vs live card_start 176.738s, ~30s drift) → last
+  ~25s of stills + the beige card chopped, and stills drift vs captions (row-42
+  class). ALWAYS after assembling any AUDIO_FROM_V1_SEGMENTS row, check
+  `ffprobe segs/captioned.mp4 duration` ≈ `extract_beats card_start` (±0.2s); if
+  captioned ≫ that, the windows are stale. FIX (runner, timing-metadata only, no
+  re-voice/reroll — §row-42): remap every beats_v2 `window` onto the live
+  extract timeline (piecewise-linear on segment onsets, last still→card_start),
+  re-assemble; AUDIO REBUILD SHA256 stays identical (audio untouched). This is a
+  SYSTEMIC risk for the whole 74/78/80/82/86-100/105/106/108 STALE-V1 batch —
+  verify captioned≈card_start on each before shipping.
 - **AUDIO LOCK fails with "extracted timeline Ns but authoritative V1 final Ms"
   when the V1 mp4 is STALE (2026-08-06, row 69).** If a build's
   `make_narration.py` (or narration segments) was edited AFTER the V1 mp4 was

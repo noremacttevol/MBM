@@ -86,3 +86,40 @@ V1 mp4 (171.67s, 12.9s short of the 184.57s timeline).
   generates the stills and assembles on this corrected audio (the AUDIO LOCK will
   now pass). No open pronunciation complaint on this row — this was a pure
   duration/staleness fix.
+
+## ✅ RUNNER SHIP — A-auto 2026-08-07 (Machine A `Dev`, UNATTENDED/HEADLESS)
+
+**COMPLAINT LEDGER:** none open (`v2_outline.py 74` shows no reviewer complaint on
+this row). This was a STALE-V1 audio-lock clearance, not a complaint fix.
+
+**Built:** 36 realistic stills, 184.6s, 21.1 MB. ROOM plate promote-first from b01
+(2 rerolls to clear modern glass goblets/cutlery — glasses gone, only period clay/
+bronze tableware kept). Portraits WOMAN+SIMON define the SAME-EVENT faces (build-44
+retired). AUDIO_FROM_V1_SEGMENTS rebuild → **AUDIO REBUILD PASS SHA256
+bc8ed8e00f67…**, 19 V1 new-voice segments, byte-identical narration.
+
+**QC pass (all 36 viewed):** woman consistently modest/dignified (dark dress, bound/
+shawled hair, reverent — never lurid); only Jesus in cream; Jesus/Simon/Woman faces
+consistent; feet-away reclining triclinium geometry holds (no feet-under-table);
+jar arc sealed(s04)→opened(s07)→anointing(s27)→EMPTY at the s36 hush + night door;
+two-debtors props period (tally scrolls, Hebrew moneychanger sign — no Arabic
+numerals/modern objects); Jesus↔woman forgiveness frames reverent at a respectful
+distance (row-49 romantic-framing trap avoided); no cartoon/collage/lens-stare/
+burned-in text; decode 0 errors (not row-31 AAC class).
+
+**ROW-42 ASSEMBLY FIX (runner, timing-metadata only — no re-voice, no reroll):**
+first assemble produced captioned.mp4 = 201.5s while the rebuilt audio is 184.57s —
+beats_v2.py still-windows ran to 206.32s (a ~30s STALE-timeline drift vs live
+card_start 176.738), so the final mux truncated the tail AND the entire question
+card, and stills drifted vs captions. Remapped all 36 windows onto the live
+extract timeline (piecewise-linear on segment onsets, last still → card_start),
+re-assembled: captioned.mp4 now 176.67s + 7.83s card = 184.5s ≈ audio; card renders
+clean (no tofu), captions re-synced (verified still+red-KJV caption agree at 120s).
+AUDIO REBUILD PASS unchanged (bc8ed8e0…) — audio byte-identical.
+
+**FIX-WAVE (not shipped defects):** faint period-bronze/small metal serving pieces
+on some wide dinner tables (borderline-period, not blatant) — a later prop-edit
+pass can remove them; keep byte-identical otherwise.
+
+**Cost:** ~$5.35 (2 portraits $0.27 + b01×3 $0.39 + 35 beats $4.69). Rerolls 2/36 =
+5.6% (well under 15%). Meter $433.22 → $438.72. Under the $6.10/row average.

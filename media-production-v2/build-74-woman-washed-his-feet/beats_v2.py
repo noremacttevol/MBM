@@ -95,7 +95,7 @@ AUDIO_FROM_V1_SEGMENTS = True
 BEATS = [
     {
         "id": "v2-r074-b01", "out": "s01-a-pharisee-named-simon-invited.jpeg", "seg": "n0",
-        "window": "0.33-4.30", "wide": True, "jesus": True, "ref": REF,
+        "window": "0-3.024", "wide": True, "jesus": True, "ref": REF,
         "locks": ["SIMON", "ROOM"],
         "narration": "A Pharisee named Simon invited Jesus to dinner.",
         "must_show": "SCRIPTURE-EXACT: the invitation kept — Jesus reclining at Simon's careful table, the host presiding with precise courtesy; a correct dinner, correctly begun.",
@@ -118,7 +118,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b02", "out": "s02-it-was-a-careful-respectable.jpeg", "seg": "n0",
-        "window": "4.30-9.90", "wide": False, "jesus": False, "ref": False,
+        "window": "3.024-7.287", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON", "ROOM"],
         "narration": (
             "It was a careful, respectable house — and it was about to be "
@@ -141,7 +141,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b03", "out": "s03-a-woman-from-the-town.jpeg", "seg": "n1",
-        "window": "10.58-18.42", "wide": True, "jesus": False, "ref": False,
+        "window": "7.287-14.838", "wide": True, "jesus": False, "ref": False,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "A woman from the town — a woman everyone in that room knew by her "
@@ -167,7 +167,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b04", "out": "s04-she-carried-an-alabaster-jar.jpeg", "seg": "n1",
-        "window": "18.42-22.29", "wide": False, "jesus": False, "ref": False,
+        "window": "14.838-18.31", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "JAR"],
         "narration": "She carried an alabaster jar of costly perfume.",
         "must_show": "SCRIPTURE-EXACT: the jar — close on the pale alabaster flask in her two hands: sealed, costly, everything she has; the offering before the offering.",
@@ -187,7 +187,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b05", "out": "s05-she-stood-behind-him-at.jpeg", "seg": "n2",
-        "window": "22.98-32.47", "wide": True, "jesus": True, "ref": REF,
+        "window": "18.31-27.979", "wide": True, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "ROOM"],
         "narration": (
             "She stood behind him at his feet — guests reclined at meals like "
@@ -214,7 +214,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b06", "out": "s06-her-tears-fell-on-his.jpeg", "seg": "n2",
-        "window": "32.47-34.58", "wide": False, "jesus": True, "ref": REF,
+        "window": "27.979-29.991", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN"],
         "narration": "Her tears fell on his feet.",
         "must_show": "SCRIPTURE-EXACT: the tears — extreme close: her tears falling onto his travel-dusty feet, the drops cutting clean tracks in the dust; grief as water.",
@@ -234,7 +234,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b07", "out": "s07-she-wiped-them-with-her.jpeg", "seg": "n2",
-        "window": "34.58-39.39", "wide": False, "jesus": True, "ref": REF,
+        "window": "29.991-34.577", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "JAR"],
         "narration": (
             "She wiped them with her hair, kissed them, and poured out the "
@@ -260,7 +260,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b08", "out": "s08-this-man-if-he-were.jpeg", "seg": "s39",
-        "window": "40.13-50.01", "wide": False, "jesus": False, "ref": False,
+        "window": "34.577-43.285", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON"],
         "narration": (
             "This man, if he were a prophet, would have known who and what "
@@ -284,7 +284,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b09", "out": "s09-simon-i-have-somewhat-to.jpeg", "seg": "j40",
-        "window": "61.51-65.95", "wide": False, "jesus": True, "ref": REF,
+        "window": "43.285-56.534", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON"],
         "narration": "Simon, I have somewhat to say unto thee.",
         "must_show": "SCRIPTURE-EXACT: the thought answered — Jesus's face turned to Simon, mild and direct; the host's startle at being addressed at the exact pitch of his silence.",
@@ -305,7 +305,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b10", "out": "s10-simon-thought-to-himself-if.jpeg", "seg": "n3",
-        "window": "50.75-58.42", "wide": True, "jesus": True, "ref": REF,
+        "window": "56.534-56.584", "wide": True, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "Simon thought to himself: if this man were really a prophet, he "
@@ -330,7 +330,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b11", "out": "s11-he-never-said-a-word.jpeg", "seg": "n3",
-        "window": "58.42-60.79", "wide": False, "jesus": False, "ref": False,
+        "window": "56.584-56.634", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON"],
         "narration": "He never said a word of it out loud.",
         "must_show": "the silence kept — Simon's composed exterior at the table: hands folded, face correct; the verdict locked behind perfect manners.",
@@ -349,7 +349,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b12", "out": "s12-master-say-on.jpeg", "seg": "s40",
-        "window": "66.69-69.05", "wide": False, "jesus": False, "ref": False,
+        "window": "56.634-59.252", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON"],
         "narration": "Master, say on.",
         "must_show": "SCRIPTURE-EXACT: the consent — Simon's careful permission granted: a slight bow of the head, courtesy covering wariness.",
@@ -368,7 +368,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b13", "out": "s13-there-was-a-certain-creditor.jpeg", "seg": "j41",
-        "window": "69.85-78.20", "wide": False, "jesus": False, "ref": False,
+        "window": "59.252-67.388", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "There was a certain creditor which had two debtors: the one owed "
@@ -391,7 +391,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b14", "out": "s14-and-when-they-had-nothing.jpeg", "seg": "j41",
-        "window": "78.15-83.63", "wide": False, "jesus": False, "ref": False,
+        "window": "67.388-72.202", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": "And when they had nothing to pay, he frankly forgave them both.",
         "must_show": "SCRIPTURE-EXACT: the frank forgiving — the creditor's hands tearing BOTH bills across in one motion; the two debts ending together.",
@@ -411,7 +411,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b15", "out": "s15-tell-me-therefore-which-of.jpeg", "seg": "j41",
-        "window": "83.63-88.12", "wide": False, "jesus": True, "ref": REF,
+        "window": "72.202-76.183", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON"],
         "narration": "Tell me therefore, which of them will love him most?",
         "must_show": "SCRIPTURE-EXACT: the question aimed — Jesus's mild face putting it to Simon; the trap's door open and courteous.",
@@ -431,7 +431,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b16", "out": "s16-i-suppose-that-he-to.jpeg", "seg": "s43",
-        "window": "88.91-93.33", "wide": False, "jesus": False, "ref": False,
+        "window": "76.183-80.473", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON"],
         "narration": "I suppose that he, to whom he forgave most.",
         "must_show": "SCRIPTURE-EXACT: the careful answer — Simon answering with visible reluctance: the 'I suppose' in his hedging face; correctness walking into its own conclusion.",
@@ -451,7 +451,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b17", "out": "s17-jesus-answered-the-thought-simon.jpeg", "seg": "n4",
-        "window": "94.08-99.79", "wide": False, "jesus": True, "ref": REF,
+        "window": "80.473-86.461", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SIMON"],
         "narration": (
             "Jesus answered the thought Simon never said out loud — with a "
@@ -475,7 +475,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b18", "out": "s18-two-men-were-in-debt.jpeg", "seg": "n4",
-        "window": "99.79-101.53", "wide": False, "jesus": False, "ref": False,
+        "window": "86.461-88.1", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": "Two men were in debt.",
         "must_show": "the two debtors — a simple vignette: two men waiting at the lender's door, one grey with the weight of much, one uneasy with little; debt in two sizes.",
@@ -496,7 +496,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b19", "out": "s19-one-owed-ten-times-what.jpeg", "seg": "n4",
-        "window": "101.53-110.14", "wide": False, "jesus": False, "ref": False,
+        "window": "88.1-96.21", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "One owed ten times what the other did, and neither of them could "
@@ -520,7 +520,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b20", "out": "s20-which-one-will-love-him.jpeg", "seg": "n4",
-        "window": "110.14-112.00", "wide": False, "jesus": False, "ref": False,
+        "window": "96.21-97.962", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": "Which one will love him more?",
         "must_show": "the answer visible — the heavy debtor gripping the lender's hand in both of his, forehead bowed to it; love already answering the question.",
@@ -541,7 +541,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b21", "out": "s21-and-he-was-right-he.jpeg", "seg": "n4",
-        "window": "116.96-122.42", "wide": False, "jesus": False, "ref": False,
+        "window": "97.962-107.777", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "And he was right — he just had not noticed he was talking about "
@@ -566,7 +566,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b22", "out": "s22-seest-thou-this-woman.jpeg", "seg": "j44",
-        "window": "123.13-125.97", "wide": False, "jesus": True, "ref": REF,
+        "window": "107.777-110.828", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": "Seest thou this woman?",
         "must_show": "SCRIPTURE-EXACT: the turn — Jesus turned bodily TOWARD the woman while his words go to Simon: the geometry of the verse exact; Simon made to look.",
@@ -587,7 +587,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b23", "out": "s23-i-entered-into-thine-house.jpeg", "seg": "j44",
-        "window": "125.92-137.58", "wide": True, "jesus": True, "ref": REF,
+        "window": "110.828-120.564", "wide": True, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "I entered into thine house, thou gavest me no water for my feet: "
@@ -614,7 +614,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b24", "out": "s24-simon-gave-the-only-answer.jpeg", "seg": "n4",
-        "window": "112.00-116.96", "wide": False, "jesus": False, "ref": False,
+        "window": "120.564-120.614", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON"],
         "narration": (
             "Simon gave the only answer there was: the one who was forgiven "
@@ -638,7 +638,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b25", "out": "s25-then-he-turned-toward-the.jpeg", "seg": "n5",
-        "window": "138.34-142.56", "wide": False, "jesus": True, "ref": REF,
+        "window": "120.614-124.945", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN"],
         "narration": "Then he turned toward the woman — but kept talking to Simon.",
         "must_show": "the facing — close: Jesus's face fully toward the woman now, honouring her with his attention while his words still travel past her; her first received look of the evening.",
@@ -658,7 +658,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b26", "out": "s26-look-at-her-he-said.jpeg", "seg": "n5",
-        "window": "142.56-144.25", "wide": False, "jesus": True, "ref": REF,
+        "window": "124.945-126.444", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": "Look at her, he said.",
         "must_show": "the command to see — the whole table's eyes redirected onto the woman by his word: she at the centre of attention for the first time as an honour, not a scandal.",
@@ -679,7 +679,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b27", "out": "s27-she-has-done-nothing-else.jpeg", "seg": "n5",
-        "window": "151.59-154.48", "wide": False, "jesus": False, "ref": False,
+        "window": "126.444-135.519", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN"],
         "narration": "She has done nothing else since she came in.",
         "must_show": "the constancy — the woman still at her devotion: unchanged, unbroken through everything said above her; love that never once looked up to check the room.",
@@ -699,7 +699,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b28", "out": "s28-her-sins-which-are-many.jpeg", "seg": "j1",
-        "window": "155.23-165.44", "wide": False, "jesus": True, "ref": REF,
+        "window": "135.519-145.074", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "Her sins, which are many, are forgiven; for she loved much: but to "
@@ -724,7 +724,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b29", "out": "s29-when-i-walked-into-your.jpeg", "seg": "n5",
-        "window": "144.25-151.59", "wide": False, "jesus": False, "ref": False,
+        "window": "145.074-145.124", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON", "ROOM"],
         "narration": (
             "When I walked into your house, you offered me no water for my "
@@ -749,7 +749,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b30", "out": "s30-her-sins-are-many-he.jpeg", "seg": "n5b",
-        "window": "166.12-173.85", "wide": False, "jesus": False, "ref": False,
+        "window": "145.124-149.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN"],
         "narration": (
             "Her sins are many, he said, and they are forgiven — and that is "
@@ -773,7 +773,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b31", "out": "s31-the-one-who-thinks-he.jpeg", "seg": "n5b",
-        "window": "173.85-178.03", "wide": False, "jesus": False, "ref": False,
+        "window": "149.97-152.297", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON"],
         "narration": "The one who thinks he has been forgiven little, loves little.",
         "must_show": "the mirror held — Simon's face receiving the diagnosis: little-loving traced to little-forgiveness-believed; the crack in the correctness finally visible.",
@@ -794,7 +794,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b32", "out": "s32-simon-had-been-sitting-there.jpeg", "seg": "n5b",
-        "window": "178.03-183.05", "wide": False, "jesus": False, "ref": False,
+        "window": "152.297-155.091", "wide": False, "jesus": False, "ref": False,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "Simon had been sitting there the whole meal, certain he was the "
@@ -818,7 +818,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b33", "out": "s33-thy-sins-are-forgiven.jpeg", "seg": "j2",
-        "window": "183.80-186.67", "wide": False, "jesus": True, "ref": REF,
+        "window": "155.091-157.893", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN"],
         "narration": "Thy sins are forgiven.",
         "must_show": "SCRIPTURE-EXACT: the absolution TO HER — the words given directly into the woman's lifted face; the evening's whole freight in three words, first-person addressed.",
@@ -839,7 +839,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b34", "out": "s34-who-is-this-that-forgiveth.jpeg", "seg": "s49 + n6",
-        "window": "187.45-197.48", "wide": False, "jesus": False, "ref": False,
+        "window": "157.893-162.504", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM"],
         "narration": (
             "Who is this that forgiveth sins also? The table stirred — who is "
@@ -864,7 +864,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b35", "out": "s35-he-did-not-answer-them.jpeg", "seg": "n6",
-        "window": "197.48-200.81", "wide": False, "jesus": True, "ref": REF,
+        "window": "162.504-169.584", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN"],
         "narration": "He did not answer them. He was still looking at her.",
         "must_show": "the priority — the murmur ignored: Jesus's attention entirely on the woman while the theology-storm runs behind him; one person outweighing a room.",
@@ -885,7 +885,7 @@ BEATS = [
     },
     {
         "id": "v2-r074-b36", "out": "s36-thy-faith-hath-saved-thee.jpeg", "seg": "j3 + HUSH",
-        "window": "201.51-206.32", "wide": False, "jesus": True, "ref": REF,
+        "window": "169.584-176.738", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "ROOM", "JAR"],
         "narration": "Thy faith hath saved thee; go in peace.",
         "must_show": "SCRIPTURE-EXACT + the HUSH: the sending — the woman risen and turning to go through the courtyard door, straighter than she entered; and the held silent breath after: the EMPTY jar on the floor, the open door to the night.",
