@@ -67,3 +67,24 @@ Runner cannot fix (audio-immutability; needs an author edit to beats_v2.py).
 **AUTHOR FIX:** add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py, then the narration renders from the V1 build's own mp3s at the extract offsets — nothing re-voiced, nothing re-timed.
 
 **RESUME (after the flag is set):** re-run the OPUS RUNNER loop on this row — it will pass pre-flight, generate stills, assemble (AUDIO LOCK), and ship.
+
+---
+
+## ✅ RUNNER SHIP — realistic-V2 first cut (Opus runner, Machine A `Dev`, 2026-08-07, UNATTENDED/HEADLESS)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 98` shows no Cameron complaint on this row; QUEUE row 98 = "Mary at the tomb: her name" (John 20) — cross-checked, NOT swapped.
+
+**Build:** 21 realistic stills @ native 2K, 126.7s / 20.7 MB. **AUDIO REBUILD PASS SHA256=3261c510639ce86616e428e04378f9e89100eba02c2b57340e25391a72c8072b** (rebuilt from the 17 V1-dir segment mp3s via AUDIO_FROM_V1_SEGMENTS=True — narration byte-identical, nothing re-voiced). Decode-clean (`ffmpeg -v error -f null` = 0 errors). Stale-window pre-check: max still-window 120.69 < live card_start 120.811 (drift −0.121s, no overrun) — all 21 stills placed, no dropped beat.
+
+**TOMB plate (wrong-plate trap handled):** `v2_stash.py --wire` again offered build-37's PARABLE tomb (and silently edited PLACE-WIRING.json + beats_v2.py PLACE_REFS + wrote PLACE-REF/tomb.jpeg). Reverted all three (git checkout of both files + rm of the plate), regenerated b01 plate-free so it rendered JESUS's garden tomb from the text lock, QC'd it (rock-cut garden tomb, rolled-away stone disc, olive garden, dawn, no modern objects, Mary madder-red NOT cream), then `--promote`d THIS row's own b01 as the TOMB plate (rows-71/96/97 family). Cost the one wasted b01 gen (~$0.13) to catch the wire bug — logged honestly.
+
+**Light QC (one pass, all 21 viewed):** Jesus ONE locked face across all 9 Jesus frames (s04/s05/s07/s10/s11/s12/s13/s14/s15/s16/s18/s19), cream-only held (Mary + disciples never cream), natural/no-glow/no-wounds so he reads as the "gardener" (b04–b07, the story's hinge), s07 even carries a period billhook. Three-Marys law: Magdalene locked madder-red throughout, one consistent olive-skinned face. b12 (Rabboni) landed the mid-turn recognition instant (not a generic reunion); b16 touch-me-not is a SOFT gentle hold, not a rebuff; b20 LONE run is ONE Mary (no phantom twin), running toward the city; b21 epilogue = three DISTINCT disciples, none cream, all period props. No lens-stare, no modern objects (after the s19 fix), anatomy/scale clean, Jesus ordinary-sized.
+
+**Rerolls: 1 / 21 = 4.8%** (under the 15% budget). s19 ("go to my brothers") first take had white multi-storey MODERN-LOOKING buildings on the far skyline (row-83 modern-skyline class) — one `--redo` cleared it to olive trees + stone wall + hillside.
+
+**FIX-WAVE (no filed complaint, not blocking — author's beat text drives these, not a runner reroll):**
+- b05 / b13 are intimate Jesus↔Magdalene two-shots; the closeness is AUTHORED (b13 must_show literally "the two faces close … the intimacy of HABIT"). Render obeyed the text. Given the Jesus/Magdalene pairing's sensitivity, if Cameron ever reads it as romantic, the fix is an AUTHOR edit (add arm's-length + "no romantic/intimate framing" to b05/b13 must_not_show, per the row-49 lesson) then reroll only those two — NOT a runner reroll of author-driven framing.
+- s19 reroll left a large madder cloth draped over the rolled stone (minor oddity, not a modern object / not a figure) — FIX-WAVE.
+- A tiny recurring red speck on a background tree propagates from the TOMB plate (s01) into TOMB-locked frames — negligible background artifact, FIX-WAVE.
+
+**Cost:** row spend ≈ $3.48 (490.17 − 486.69 on the meter): 20 beats $2.68 + s19 reroll $0.13 + the good b01 plate $0.13 + the one wasted build-37-plate b01 $0.13 + the promote is free. Under the $6.10/row average — COST-LAW trend DOWN holds. QC rerolls 4.8%.

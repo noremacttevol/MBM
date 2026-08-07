@@ -657,8 +657,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # TOMB deliberately UNWIRED: build-37 is the PARABLE tomb — this is
-    # JESUS'S garden tomb (rows 71/96/97 family). Take row 97/71's
-    # approved frame; never the build-37 plate.
+    "TOMB": "PLACE-REF/tomb.jpeg",  # build-98-mary-her-name s01-mary-magdalene-stayed-behind-at (manual)
 }
 # === end PLACE-PLATES ===

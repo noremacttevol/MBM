@@ -1,1 +1,8 @@
-{}
+{
+ "TOMB": {
+  "manual": true,
+  "src_beat": "s01-mary-magdalene-stayed-behind-at",
+  "src_build": "build-98-mary-her-name",
+  "src_file": "build-98-mary-her-name/assets/s01-mary-magdalene-stayed-behind-at.jpeg"
+ }
+}
