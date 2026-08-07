@@ -136,6 +136,19 @@ with AUDIO LOCK byte-identical, deploy + live-verify + ship. This is a REBUILD (
 ~$3 expected, in scope — not a touch-once C-FIX). Row 11 will be the lowest AUTHORED+Ready
 runner build.
 
+**Also assessed row 33 (sheep-goats, next NEEDS-REBUILD) — reverted, handed forward with
+new knowledge.** Started its two-part park fix (delete "the nails black" from b20; flip j37
+JESUS→SCRIPTURE). MEASURED that Complaint 2 is NOT a free swap: SCRIPTURE-voice j37 is
+~16.90 s vs the JESUS-voice 19.51 s (**-2.6 s**); since `extract_beats` times segments from
+live mp3 durations while `v2_assemble` places stills on STATIC beats_v2 windows with no
+validation, a bare swap would drift every still after j37 ~2.6 s late (the row-42 defect, a
+NEW complaint). Correct fix is 3-part (speaker + regen j37 + REMAP windows to the new
+timeline) and can only be verified by ASSEMBLING — which needs the s20 nails reroll first, an
+image credit an author cannot spend. So I **reverted all row-33 changes to the clean park
+state** (source + j37.mp3 + timing.json restored; git clean), wrote the measured coupling into
+build-33 QC.md, and released the claim. Next session does nails + j37 + window-remap in ONE
+ship (touch-once preserved). $0.
+
 ---
 
 ## 2026-08-07 — ROW 42 C-FIX shipped + live-verified: "captions are messed up / don't match the words" — Machine A `Dev`

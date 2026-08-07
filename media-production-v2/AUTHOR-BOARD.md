@@ -44,7 +44,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 30 | build-30-net | BUILT | 40 | OK |  |  |
 | 31 | build-31-ten-virgins | BUILT | 40 | OK | C-FIX 2026-08-07 SHIPPED — 1:59 playback stall FIXED (corrupt AAC packet); audio rebuilt from source mp3s (AUDIO_FROM_V1_SEGMENTS, byte-identical narration, NOT a re-voice), new mp4 decodes 0 errors, deployed + live-verified hash b6be9e209550. $0/0 rerolls. See QC.md COMPLAINT LEDGER. |  |
 | 32 | build-32-talents | BUILT | 50 | OK |  |  |
-| 33 | build-33-sheep-goats | NEEDS-REBUILD | 49 | OK | C-FIX 2026-08-07 PARK→author (see QC RUNNER PARK) · AUTHOR-LIVE 2026-08-07 (Machine A `Dev`) |  |
+| 33 | build-33-sheep-goats | NEEDS-REBUILD | 49 | OK | C-FIX 2026-08-07 PARK→author (see QC RUNNER PARK — now includes the measured j37 SCRIPTURE→timeline coupling: swap is a 3-part fix + window remap, do all in ONE ship) |  |
 | 34 | build-34-rich-fool | BUILT | 35 | OK |  |  |
 | 35 | build-35-great-banquet | BUILT | 40 | OK |  |  |
 | 36 | build-36-shrewd-steward | BUILT | 47 | OK |  |  |

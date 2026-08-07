@@ -62,3 +62,25 @@ fix BOTH before this row is re-presented.
   nails at 1:10 — the frame is regenerated with natural, unpainted nails"; (2)
   "the 1:16 line 'Lord, when saw we thee an hungred' is the righteous, not Jesus —
   it is now off the Jesus voice, spoken in the scripture voice / light-blue caption."
+
+### ⚠️ TIMELINE COUPLING measured 2026-08-07 (author lane, Machine A `Dev`) — READ BEFORE re-cutting
+Complaint 2 is NOT a free swap: the JESUS voice j37 is **19.51 s**, but the same
+words in the SCRIPTURE voice (en-US-SteffanNeural, -18%) render at **~16.90 s**, so
+j37 gets **~2.6 s SHORTER**. `extract_beats` times every segment from the LIVE mp3
+duration (line ~244), so the audio + captions for j2, n7, n8, n9 and the card all
+move ~2.6 s EARLIER — but `beats_v2.py` still-windows are STATIC and
+`v2_assemble.py` silently places stills on them (no validation; a collided tail beat
+is dropped at the `dur<=0.05` guard). **Result if you only swap j37 + regen + assemble:
+every still after j37 drifts ~2.6 s LATE — the exact row-42 caption/picture-drift
+defect, a NEW complaint.** So Complaint 2 is a THREE-part author job, all in ONE ship:
+  1. `make_narration.py`: `from mbm_speakers import ... SCRIPTURE`; `("j37", SCRIPTURE, …)`.
+  2. Regenerate ONLY `audio/j37.mp3` (free edge-tts; mp3s are gitignored).
+  3. **REMAP all beat windows after j37 to the NEW `extract_beats` timeline** (row-42
+     monotonic piecewise-linear method, anchored on the segment boundaries) so stills
+     stay on the voice. Measured anchors on the OLD timeline: card_start 173.179 s,
+     total 179.974 s — recompute both after the swap and remap.
+Because the final cut can only be verified by ASSEMBLING (and s20 must be rerolled
+first, which spends an image credit the author cannot), the author reverted the
+partial changes rather than hand the runner an unverified coupled timeline change.
+Do all three (+ the s20 nails reroll) together, assemble, verify the still/caption/voice
+agree at ~155-180 s, then ship.
