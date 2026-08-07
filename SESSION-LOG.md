@@ -1,3 +1,17 @@
+## 2026-08-07 — ROW 112 (The Beatitudes, Matt 5) REALISTIC V2 SHIPPED — resumed a STRANDED row (9/27), giant-Jesus scale complaint FIXED, 0 rerolls, deployed + live-verified — Machine A `Dev` (Opus runner resume lane, UNATTENDED)
+
+**Commits:** resume claim = `15e3db3fa`; ship (7a: mp4 + QC.md + QUEUE + AUTHOR-BOARD) = `134359ad8c3a751694b93ae073ff81bb5d8957b2`; review card + this log (7b) = follow-on. All on origin/main; Firebase hosting redeployed + live-verified.
+
+Session-chain verified at start (top entry = row 107 C-FIX, commit `45161adfe` present in `git log`); hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + RUNNER-LESSONS + V2-REBUILD-RUBRIC before touching anything.
+
+**Resume, not a fresh build.** AUTHOR-BOARD row 112 was State RUNNING / Claim A-auto, stalled at 9/27 stills. Ran the already-shipped check FIRST (no committed mp4, no realistic-v2 review card → NOT shipped) and confirmed NO live `v2_gen_api` sibling owned the row before spending (only autopilot dispatchers + this session). Generated the remaining 18 beats (`v2_gen_api` resumes automatically; the 9 banked stills were never re-pulled — COST LAW). Plate config left identical to the committed state (`PLACE_REFS={}`, MOUNT held by text lock) so all 27 frames stay consistent.
+
+**Cameron's OPEN complaint** (`v2_outline.py 112`): "the last picture was bad Jesus was a giant compared to the other people again 2:11." **FIXED.** Ran the SCALE GATE (rubric lesson 14) on every multi-figure frame, hardest on the closing 2:11 frames (s24/s25/s26/s27): Jesus is ordinary-sized in all 27 — seated in rabbi posture on a low rock or reaching among the crowd, always proportionate to the person beside him, never enlarged; children stay child-sized. Full light-QC pass on all 27 (realistic-only, cream-only-on-Jesus, locked V2 face + beard consistent, no doubles/collage/modern-objects/lens-stares, anatomy clean). One FIX-WAVE note only (faint distant valley path in the MOUNT wides — far-aerial, borderline, not rerolled per COST LAW).
+
+**Audio + cost.** AUDIO LOCK PASS SHA256=855e42f9…, 167.4s, 20.5 MB, narration byte-identical to V1. Caption QC clean (bottom-band only, correct sync, clean question card). **0 rerolls (0% of 27 beats)** — well under the 15% budget; 18 stills ≈ $2.41, meter $424.38→$426.79. COST-LAW trend DOWN vs the $6.10/row average (this row cost only the 18 unbanked frames). Deployed to Firebase hosting (`milk-b4-meat`) + live-verified. Prior approval VOID under REDO-ALL; awaiting Cameron.
+
+---
+
 ## 2026-08-07 — ROW 111 C-FIX SHIPPED — "0:09 out of scale and weird" = GIANT sparrows, rerolled ONE frame, audio byte-identical — Machine A `Dev` (UNATTENDED)
 
 **Commits:** claim = `690696e7b`; C-FIX ship (7a) = `a6d65d967074eb8732ed2fb2f6f9828004b24bad`; review-card + this log (7b) below. All on origin/main.
