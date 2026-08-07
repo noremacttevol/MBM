@@ -268,7 +268,15 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   exterior/courtyard frame, not just the ground. NOT courtyard-only: it also hits
   open-landscape frames (row 71 b12 garden-tomb in an olive orchard had a taut
   line crossing the misty sky between the trees) — check the sky on EVERY exterior,
-  orchard and hillside frame; one reroll cleared it.
+  orchard and hillside frame; one reroll cleared it. A doorway/window looking OUT
+  onto a village street is the worst offender (row 73 b21 "the open synagogue door
+  onto the sunlit Nazareth road"): it stacks a full modern streetscape — a utility
+  POLE + strung power lines + cut-ashlar concrete houses with red-tile roofs and a
+  rooftop vent — not just one wire, and it is STUBBORN (recurred as a faint sky
+  hairline across BOTH rerolls). Budget only 2 rerolls/frame: take 1 kill the pole +
+  modern houses, take 2 chase the wire; if a hairline survives, keep the best take and
+  FIX-WAVE it (it is subtle background drift, not a foreground defect). Prefer a
+  tighter framing / lower horizon so the sky (where wires live) is minimal.
 - **Modern paved roads / shoreline highway in a FAR-AERIAL landscape** (row 71
   b21 "the going-out" descent, and faintly b19): a high wide aerial of the Galilee
   hills can render modern-looking paved switchback roads and a straight shoreline
