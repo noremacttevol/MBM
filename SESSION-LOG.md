@@ -1,3 +1,37 @@
+## 2026-08-06 (PICTURE RUNNER, headless) — Row 61 (syrophoenician-woman) RESUMED to completion of pictures, then PARKED NEEDS-AUDIO (STALE-V1) — $0.13 — Machine A `Dev`
+
+**Commit:** board row-61 flip landed in `a5e9ade7e` (sibling row-60 lane absorbed my staged index — the
+known shared-`.git/index` race); this SESSION-LOG entry + QC.md RUNNER PARK re-committed on top (see
+`git log` head). Board row 61 = NEEDS-AUDIO is on origin/main.
+
+Session-chain: read SESSION-LOG top (rows 80/82/83 STALE-V1 audio-fix) and confirmed in `git log`;
+hostname `Dev` → Machine A. Task = resume the lane that DIED mid-build on row 61 (board RUNNING /
+A-auto). Verified no live sibling `v2_gen_api` owned it (`ps` clean), mp4 not committed and no
+`realistic-v2` card live → genuinely mid-build, safe to resume (not an already-shipped false-strand).
+
+**Learning Law satisfied before any credit:** read both META-LAWS + all 14 numbered rubric lessons +
+all of RUNNER-LESSONS.md; `v2_outline.py 61` → **no open complaints** (QC COMPLAINT LEDGER: none open).
+
+**Pictures FINISHED — 1 frame generated, $0.13, 0 rerolls (0% — far under the 15% budget → COST LAW
+trend DOWN):** only b31 `s31-the-whole-loaf` was pending on resume; the other 30 stills were valid from
+the dead lane and re-pulled nothing (reuse-before-regenerate). Light QC (3 contact sheets, all 31 frames
+viewed): PASS — only Jesus in cream, real bread on the low table (s13), house-pups under the family table
+(s15), posture arc face-down→meeting-his-eyes, REMOTE healing (no beam) with a living/resting/then-awake
+girl (s28→s31), lone moonlit faith-walk (s26), night beats render night, no modern objects/lens-stares,
+identities consistent. Jesus's baked-in hazel eye cast left as-is per RUNNER-LESSONS.
+
+**BLOCKED at assembly — STALE-V1 audio lock, PARKED not shipped.** `v2_assemble.py 61` failed the audio
+hash: extracted timeline 185.202s vs authoritative V1 mp4 179.333s (**+5.87s**). Root cause: V1 mp4
+rendered 2026-07-29 09:47 but `make_narration.py` edited 2026-07-29 23:03 (~13h later) — V1 audio out of
+date; `beats_v2.py` has no `AUDIO_FROM_V1_SEGMENTS`. The fix (set that flag =True) is an AUTHOR audio
+decision outside runner writes (audio-immutability + hard rail "do not ship a failed audio lock" — row 46
+shipped this way = worst failure). So: wrote QC.md RUNNER PARK with root cause + exact resume, flipped
+board row 61 RUNNING→**NEEDS-AUDIO**, Audio OK→CHECK, cleared Ready. **All 31 stills DONE & QC-passed
+(gitignored, persist locally on Machine A) — the audio-fix lane sets the flag, runs ONE assemble ($0
+pictures), and ships.** No firebase deploy (nothing shippable). Meter now ~$414.86.
+
+---
+
 ## 2026-08-06 (PICTURE RUNNER, headless) — Row 60 (gerasene-demoniac) RESUMED 24→39 stills and SHIPPED realistic V2 — ~$2.01 — Machine A `Dev`
 
 **Commit:** 9af3ae30898ce178cd3d251322401cc5c0408e4b (mp4 + QC + boards) + this entry + review.html card (see `git log` head).
