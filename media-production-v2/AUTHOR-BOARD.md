@@ -53,7 +53,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 39 | build-39-pharisee-publican | BUILT | 58 | OK | C-FIX 2026-08-07 SHIPPED |  |
 | 40 | build-40-the-friend-at-midnight | BUILT | 56 | OK | C-FIX 2026-08-07 SHIPPED |  |
 | 41 | build-41-counting-the-cost | BUILT | 58 | OK |  |  |
-| 42 | build-42-barren-fig-tree | BUILT | 35 | OK | C-FIX 2026-08-07 LIVE |  |
+| 42 | build-42-barren-fig-tree | BUILT | 35 | OK | C-FIX 2026-08-07 SHIPPED — caption/picture drift (up to 12s ahead of voice) FIXED by remapping all 35 beats_v2.py still-windows from the stale pre-re-voice 200s timeline to the live 223s audio timeline; AUDIO LOCK PASS (byte-identical narration), 0 rerolls, $0. Live hash fae898d99076. |  |
 | 43 | build-43-the-wedding-garment | BUILT | 48 | OK |  |  |
 | 44 | build-44-two-debtors | AUTHORED | 0 | OK | PARKED — QUEUE row 44 was SWAPPED to Pentecost (Cameron via Planner, 2026-07-23); two-debtors is a dead story (duplicate of #74). Pentecost needs NEW narration/audio — the V2 stills pipeline cannot build it. Do NOT build two-debtors. |  |
 | 45 | build-45-wicked-tenants | BUILT | 54 | OK | A-auto 2026-08-06 SHIPPED; C-FIX 2026-08-07 SHIPPED | ✅ |

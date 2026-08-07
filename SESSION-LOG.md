@@ -1,3 +1,32 @@
+## 2026-08-07 — ROW 42 C-FIX shipped + live-verified: "captions are messed up / don't match the words" — Machine A `Dev`
+
+**Commit:** mp4+QC+beats_v2 = `fae898d9907629005b6c9b65407992cdb1b7a4f5` (a concurrent sibling lane's row-48 commit absorbed my staged index — verified my content is in that commit and on origin/main per RUNNER-LESSONS); card+lessons+boards+log = (this commit, by pathspec).
+
+Cameron's OPEN reviewer complaint on AUTHOR-BOARD row 42 (Luke 13, barren fig tree),
+verbatim: *"the captions are messed up multiple times match them up to the words, the
+correct wordage."* `reportedAgainst` = b35fd2a17 = the exact live cut → complaint-first,
+outranked all else. **Diagnosis (this was the whole job): NOT a wording defect.** Every
+caption's TEXT already matched the spoken audio (caption == each segment's timing.json).
+The defect was a whole-video TIMING drift: `beats_v2.py` still-windows were scaffolded
+from a STALE `beats.json` on a 200s narration timeline written BEFORE the Jul-29 "REDO #42:
+new voice + pacing" re-voice lengthened the real audio to 223s. The assembler draws
+CAPTIONS on the live `extract_beats` timeline (correct) but places STILLS on `beats_v2.py`
+windows (stale) — so pictures ran up to ~12s AHEAD of the voice and the last still froze
+~19s. Measured proof: good rows 45/41 have `beats_v2 last-window-end` within 0.1s of
+`extract card_start`; row 42 was off by **+12.56s**.
+- **FIX (assembly-only): remapped all 35 `beats_v2.py` windows** from the stale timeline A
+  to the live audio timeline B via a monotonic piecewise-linear map anchored on the 18
+  stable segment boundaries (audio_start+spoken_end). Re-assembled → **AUDIO LOCK PASS**
+  (SHA256 f46238109083…cace335, narration byte-identical). Verified still+caption+spoken
+  word now agree at t=100/140/150/175/200/210 + the 219s card, all from the RENDERED mp4.
+- **NO pictures rerolled, NO re-voice — $0.00 Gemini spend, 0 rerolls (0% — well under the
+  15% cost law; $/row for a C-FIX = $0).** New RUNNER-LESSONS entry added for this
+  stale-window drift class (detect via window-end vs extract card_start).
+- Deployed to Firebase + live-verified (below). REVIEW-LESSONS row 42 → open:false,
+  resolvedBy fae898d99076. Board claim → SHIPPED.
+
+---
+
 ## 2026-08-07 — ROW 48 C-FIX shipped + live-verified: 2:34 "spout coming out of the side of the bag" — Machine A `Dev`
 
 **Commit:** mp4+QC = `e5abfd1003c2e5f659d55159a5284e392cf35ba6`; card+log = (this commit, by pathspec)

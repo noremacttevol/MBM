@@ -1,14 +1,19 @@
 {
   "1": {
-    "open": true,
-    "latest": "1:10 picture has Jesus’s eyes looking weird",
+    "open": false,
+    "latest": "1:10 picture has Jesus’s eyes looking weird ,   also she touches the edge of his cloak and the tassles only not his back thigh which is how the pcture at 0:52 is showing",
     "reportedAgainst": "ce61e1856757c0370d1acd14e4ea022903f54add",
-    "resolvedBy": null,
+    "resolvedBy": "a5c874613effca80c65ee5774e56b0c49d10aa27",
     "history": [
       {
         "text": "1:10 picture has Jesus’s eyes looking weird",
         "hash": "ce61e1856757c0370d1acd14e4ea022903f54add",
         "createdAt": "2026-08-01T14:54:06.228Z"
+      },
+      {
+        "text": "1:10 picture has Jesus’s eyes looking weird ,   also she touches the edge of his cloak and the tassles only not his back thigh which is how the pcture at 0:52 is showing",
+        "hash": "ce61e1856757c0370d1acd14e4ea022903f54add",
+        "createdAt": "2026-08-07T02:29:56.347Z"
       }
     ]
   },
@@ -39,10 +44,10 @@
     ]
   },
   "4": {
-    "open": true,
+    "open": false,
     "latest": "Captions are messed up at 38 - 46 seconds",
     "reportedAgainst": "74bd3d7ddb51db0b68506a40b8f120941dabe6e0",
-    "resolvedBy": null,
+    "resolvedBy": "09e98cefd50e5722b8b76aefe0f2dd9e4ef9d178",
     "history": [
       {
         "text": "Captions are messed up at 38 - 46 seconds",
@@ -120,27 +125,27 @@
   },
   "9": {
     "open": false,
-    "latest": "Mispronounced jesus again at 21 seconds",
-    "reportedAgainst": "9d2d747ce5848d07177fa7d0cf400bd3356fa3f6",
-    "resolvedBy": "c2eba812703ade3ed0b629ab26020118c96b926b",
+    "latest": "The young rich man lost his beard at 52 seconds picture . The picture at 1:14 is dumb and not needed.  It looks like you are wasting my api money and creating more problems from excesive luxuries causing more to be wrong for no reason.",
+    "reportedAgainst": "e8cb3734006e18a6627da8584c239e05026936bb",
+    "resolvedBy": "e4d3919adae63e960bdd5390b6df3104ebef5138",
     "history": [
       {
-        "text": "Mispronounced jesus again at 21 seconds",
-        "hash": "9d2d747ce5848d07177fa7d0cf400bd3356fa3f6",
-        "createdAt": "2026-07-24T20:48:59.279Z"
+        "text": "The young rich man lost his beard at 52 seconds picture . The picture at 1:14 is dumb and not needed.  It looks like you are wasting my api money and creating more problems from excesive luxuries causing more to be wrong for no reason.",
+        "hash": "e8cb3734006e18a6627da8584c239e05026936bb",
+        "createdAt": "2026-08-05T10:23:22.931Z"
       }
     ]
   },
   "10": {
     "open": true,
-    "latest": "Still to short",
-    "reportedAgainst": "3fe08443376461827c99f596fd52929e1b34f2ee",
+    "latest": "The only.thing wrong with this one is how fast and meaningles Jesus pronounced the words while telling her he was the messiah. It is a very important text and the speaker says it too fast",
+    "reportedAgainst": "e82197c50004514eca97249f387fc806c85d003a",
     "resolvedBy": null,
     "history": [
       {
-        "text": "Still to short",
-        "hash": "3fe08443376461827c99f596fd52929e1b34f2ee",
-        "createdAt": "2026-07-28T06:08:06.655Z"
+        "text": "The only.thing wrong with this one is how fast and meaningles Jesus pronounced the words while telling her he was the messiah. It is a very important text and the speaker says it too fast",
+        "hash": "e82197c50004514eca97249f387fc806c85d003a",
+        "createdAt": "2026-08-05T10:29:50.969Z"
       }
     ]
   },
@@ -163,10 +168,10 @@
     ]
   },
   "12": {
-    "open": true,
+    "open": false,
     "latest": "Captions are off at 1 minute",
     "reportedAgainst": "139e119c488bc341ae26fe1ab68dbf719f8c10a2",
-    "resolvedBy": null,
+    "resolvedBy": "5931c321fa44377934283eaad51d915844817f1a",
     "history": [
       {
         "text": "Captions are off at 1 minute",
@@ -177,22 +182,27 @@
   },
   "13": {
     "open": true,
-    "latest": "1:37 picture is missing the man on the mat",
-    "reportedAgainst": "069c50869a43e29d7eba902445adf0ccd028aa84",
+    "latest": "1:44 the 4 friends are not standing on a roof with a hole in it it looks weird just get rid of that picture. 1:49has ghost ropes and a weird room they are dropping him into. its a bad picture remove it.",
+    "reportedAgainst": "165416a4a8e2701e7241733f35bb3abf99e03f84",
     "resolvedBy": null,
     "history": [
       {
         "text": "1:37 picture is missing the man on the mat",
         "hash": "069c50869a43e29d7eba902445adf0ccd028aa84",
         "createdAt": "2026-08-02T15:37:47.634Z"
+      },
+      {
+        "text": "1:44 the 4 friends are not standing on a roof with a hole in it it looks weird just get rid of that picture. 1:49has ghost ropes and a weird room they are dropping him into. its a bad picture remove it.",
+        "hash": "165416a4a8e2701e7241733f35bb3abf99e03f84",
+        "createdAt": "2026-08-07T04:33:53.897Z"
       }
     ]
   },
   "14": {
-    "open": true,
+    "open": false,
     "latest": "The first half needs better pictures",
     "reportedAgainst": "cd626bde16929efd5840e14fcc462e631d6ae1d1",
-    "resolvedBy": null,
+    "resolvedBy": "cd69c4500b3056011345403f8d19c8b02ede338c",
     "history": [
       {
         "text": "The first half needs better pictures",
@@ -203,74 +213,84 @@
   },
   "15": {
     "open": true,
-    "latest": "the sick boy's age keeps changing and he looks too grey to be a human and partially alive like he shouldnt be that grey and his age should stay the same",
-    "reportedAgainst": "7d955638ce13eb8e6fdd2daca1927090d5031590",
+    "latest": "the servant shouldnt look sick in the last picture at 3:58 redo that one",
+    "reportedAgainst": "5bf1beba570a7d2fb3b2b026a8d90a8bc490ef71",
     "resolvedBy": null,
     "history": [
       {
         "text": "the sick boy's age keeps changing and he looks too grey to be a human and partially alive like he shouldnt be that grey and his age should stay the same",
         "hash": "7d955638ce13eb8e6fdd2daca1927090d5031590",
         "createdAt": "2026-08-02T15:40:26.829Z"
+      },
+      {
+        "text": "the servant shouldnt look sick in the last picture at 3:58 redo that one",
+        "hash": "5bf1beba570a7d2fb3b2b026a8d90a8bc490ef71",
+        "createdAt": "2026-08-07T04:39:59.520Z"
       }
     ]
   },
   "16": {
     "open": true,
-    "latest": "That's not how you pronounce wound",
-    "reportedAgainst": "6b1b48ae1caf4c8cb6927d6e26a590eade669c16",
+    "latest": "the picture at 1:31 - !;32 of jesus standing and looking mean needs to be removed all the other ones are good enough that one for a breif second isnt needed",
+    "reportedAgainst": "33258be942c6b29dee5f479f9452f487438f8f8b",
     "resolvedBy": null,
     "history": [
       {
-        "text": "That's not how you pronounce wound",
-        "hash": "6b1b48ae1caf4c8cb6927d6e26a590eade669c16",
-        "createdAt": "2026-07-19T23:24:28.656Z"
+        "text": "There is a headless person at 42 seconds",
+        "hash": "7462e9e6044a016620038ace0538b0a645385cd8",
+        "createdAt": "2026-08-05T22:14:44.317Z"
+      },
+      {
+        "text": "the picture at 1:31 - !;32 of jesus standing and looking mean needs to be removed all the other ones are good enough that one for a breif second isnt needed",
+        "hash": "33258be942c6b29dee5f479f9452f487438f8f8b",
+        "createdAt": "2026-08-07T04:44:36.339Z"
       }
     ]
   },
   "17": {
     "open": true,
-    "latest": "At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions",
-    "reportedAgainst": "bf8c96f636c732418800850feb0a57bf838cb7cb",
+    "latest": "At 12 seconds the picture has shoes removed but still showing toes inside and lamps that burn from the middle",
+    "reportedAgainst": "347597f0560c2375393a0618e7b9bdd01431fca1",
     "resolvedBy": null,
     "history": [
       {
-        "text": "At 23 seconds it shows the wrong captions from.the older version for a split second before going to the new edit where it has the pink captions",
-        "hash": "bf8c96f636c732418800850feb0a57bf838cb7cb",
-        "createdAt": "2026-07-24T20:20:33.008Z"
+        "text": "At 12 seconds the picture has shoes removed but still showing toes inside and lamps that burn from the middle",
+        "hash": "347597f0560c2375393a0618e7b9bdd01431fca1",
+        "createdAt": "2026-08-05T23:18:44.744Z"
       }
     ]
   },
   "18": {
     "open": true,
-    "latest": "Not real new voice",
-    "reportedAgainst": "a335926cb06d0ca899192e58842395a61d843604",
+    "latest": "You mispronounced Jesus's",
+    "reportedAgainst": "e0e3e726de8c25e3aab57243372b12a8bfd7f92c",
     "resolvedBy": null,
     "history": [
       {
-        "text": "Not real new voice",
-        "hash": "a335926cb06d0ca899192e58842395a61d843604",
-        "createdAt": "2026-07-24T08:02:20.771Z"
+        "text": "You mispronounced Jesus's",
+        "hash": "e0e3e726de8c25e3aab57243372b12a8bfd7f92c",
+        "createdAt": "2026-08-05T22:15:38.473Z"
       }
     ]
   },
   "19": {
     "open": true,
-    "latest": "The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all",
-    "reportedAgainst": "36c75439596bebcb1667e36eefd3913fbfb84970",
+    "latest": "1:05 picture he is swimming the wrong way. JESUS talks too fast and ignores commas when asking peter if he loves him",
+    "reportedAgainst": "128fc218367f13b1655753a46dddc5d88b828c97",
     "resolvedBy": null,
     "history": [
       {
-        "text": "The clothes of peter and his look and all of the people in the boat keep changing and then picture jesus looks like he's burning something out of his hand all of these pictures look like they've been made by AI and I get that they have , but let's try our best not to make you look stupid. So redo them all",
-        "hash": "36c75439596bebcb1667e36eefd3913fbfb84970",
-        "createdAt": "2026-07-23T00:53:18.365Z"
+        "text": "1:05 picture he is swimming the wrong way. JESUS talks too fast and ignores commas when asking peter if he loves him",
+        "hash": "128fc218367f13b1655753a46dddc5d88b828c97",
+        "createdAt": "2026-08-05T22:20:53.455Z"
       }
     ]
   },
   "20": {
-    "open": true,
+    "open": false,
     "latest": "Not real new voice",
     "reportedAgainst": "cb53112be2a2f6dbf9b9a5f29a7e2adebbc7339b",
-    "resolvedBy": null,
+    "resolvedBy": "ae1a417e20964a6d6ad1e5669a19f475c6c2cca9",
     "history": [
       {
         "text": "Not real new voice",
@@ -280,10 +300,10 @@
     ]
   },
   "21": {
-    "open": true,
+    "open": false,
     "latest": "Not real new voice",
     "reportedAgainst": "d5f6ad0ef41280e275c188c9751e38f2c8143184",
-    "resolvedBy": null,
+    "resolvedBy": "a57264ac0eac5499c748ee5f810323625ba3d8c9",
     "history": [
       {
         "text": "Not real new voice",
@@ -294,22 +314,22 @@
   },
   "22": {
     "open": true,
-    "latest": "Not real new voice",
-    "reportedAgainst": "7c8e50b4203a24b06fb8ce36b9f346cd6ba51e12",
+    "latest": "2:46 Jesus mispronounces shouldest it should be should-est",
+    "reportedAgainst": "5d02f750c92972d8e55f9dafbd28b73010d27136",
     "resolvedBy": null,
     "history": [
       {
-        "text": "Not real new voice",
-        "hash": "7c8e50b4203a24b06fb8ce36b9f346cd6ba51e12",
-        "createdAt": "2026-07-24T08:02:52.375Z"
+        "text": "2:46 Jesus mispronounces shouldest it should be should-est",
+        "hash": "5d02f750c92972d8e55f9dafbd28b73010d27136",
+        "createdAt": "2026-08-05T22:32:42.455Z"
       }
     ]
   },
   "25": {
-    "open": true,
+    "open": false,
     "latest": "At 2:11 tear was misspronounced because it means break tear not a cry tear",
     "reportedAgainst": "ab4c10f2239f07167ad83272c8596aefc3390ceb",
-    "resolvedBy": null,
+    "resolvedBy": "98e2604ad2a905813dea5c644faf70813e20640f",
     "history": [
       {
         "text": "At 2:11 tear was misspronounced because it means break tear not a cry tear",
@@ -318,11 +338,24 @@
       }
     ]
   },
-  "28": {
+  "27": {
     "open": true,
+    "latest": "Audio is messed up on this one",
+    "reportedAgainst": "1e389df4ace9c2f01a7165e7219442de98a48058",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "Audio is messed up on this one",
+        "hash": "1e389df4ace9c2f01a7165e7219442de98a48058",
+        "createdAt": "2026-08-05T22:55:04.667Z"
+      }
+    ]
+  },
+  "28": {
+    "open": false,
     "latest": "Not real new voice",
     "reportedAgainst": "a4737af4b3a4c7ada5726eefb89353af8bed118d",
-    "resolvedBy": null,
+    "resolvedBy": "42b855efe50851b4fff75d82d7a241a736d05dc1",
     "history": [
       {
         "text": "Not real new voice",
@@ -331,11 +364,24 @@
       }
     ]
   },
-  "32": {
+  "31": {
     "open": true,
+    "latest": "The video stops playing and will not play through the 1:59 mark for some reason i can skip.past it and it will play but its not playing correctly",
+    "reportedAgainst": "1ab42c698559297784c6e1cc24d80efea65b97a8",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "The video stops playing and will not play through the 1:59 mark for some reason i can skip.past it and it will play but its not playing correctly",
+        "hash": "1ab42c698559297784c6e1cc24d80efea65b97a8",
+        "createdAt": "2026-08-05T23:16:30.040Z"
+      }
+    ]
+  },
+  "32": {
+    "open": false,
     "latest": "The servant with 5 bags changes character and grows a beard it looks weird we need to redo the pictures for him",
     "reportedAgainst": "7adf59b0aba5794d6489adadf61b46099c7c4098",
-    "resolvedBy": null,
+    "resolvedBy": "986c3202b29147a3d232953b804db95f08245ea9",
     "history": [
       {
         "text": "The servant with 5 bags changes character and grows a beard it looks weird we need to redo the pictures for him",
@@ -346,27 +392,105 @@
   },
   "33": {
     "open": true,
-    "latest": "Divideth is pronounced wrong",
-    "reportedAgainst": "8287d3e7158118e578bd76c5cb7b9f628459f38b",
+    "latest": "At 1:10 why is the prisioner nails painted black thats weird. And then at 1:16 it has Jesus speaking something that wasent spoken by Jesus and makes no sense to be narrirated by him.",
+    "reportedAgainst": "e1525e0f9989671205a4ca598d15345f2ba0669c",
     "resolvedBy": null,
     "history": [
       {
-        "text": "Divideth is pronounced wrong",
-        "hash": "8287d3e7158118e578bd76c5cb7b9f628459f38b",
-        "createdAt": "2026-07-22T03:41:37.250Z"
+        "text": "At 1:10 why is the prisioner nails painted black thats weird. And then at 1:16 it has Jesus speaking something that wasent spoken by Jesus and makes no sense to be narrirated by him.",
+        "hash": "e1525e0f9989671205a4ca598d15345f2ba0669c",
+        "createdAt": "2026-08-05T23:27:22.901Z"
+      }
+    ]
+  },
+  "39": {
+    "open": true,
+    "latest": "There is some pictures with random black spots on their hands and fingers @ 0:53, 3:13, 2:05, etc. Another one on his lips @ 2:40  and then another picture with 2 hands of the same side looking like 2 people standing in line with their hands out bit i think it was sussposed to be something different  @ 3:14",
+    "reportedAgainst": "b9c5c44b435f91ebf89104ac7320a43ded5e3e9e",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "There is some pictures with random black spots on their hands and fingers @ 0:53, 3:13, 2:05, etc. Another one on his lips @ 2:40  and then another picture with 2 hands of the same side looking like 2 people standing in line with their hands out bit i think it was sussposed to be something different  @ 3:14",
+        "hash": "b9c5c44b435f91ebf89104ac7320a43ded5e3e9e",
+        "createdAt": "2026-08-06T02:21:39.613Z"
+      }
+    ]
+  },
+  "40": {
+    "open": true,
+    "latest": "2:23 has 1 guy with 3 hands.  3:21 has a floating lamp.",
+    "reportedAgainst": "69cff050d982fe6ca539c3a3cc9fb2f3498f0dc8",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "2:23 has 1 guy with 3 hands.  3:21 has a floating lamp.",
+        "hash": "69cff050d982fe6ca539c3a3cc9fb2f3498f0dc8",
+        "createdAt": "2026-08-06T02:28:58.518Z"
+      }
+    ]
+  },
+  "42": {
+    "open": false,
+    "latest": "the captions are messed up multiple times match them up to the words, the correct wordage",
+    "reportedAgainst": "b35fd2a17c3ca409ea2ac2ded999c1a5c23552f6",
+    "resolvedBy": "fae898d9907629005b6c9b65407992cdb1b7a4f5",
+    "history": [
+      {
+        "text": "the captions are messed up multiple times match them up to the words, the correct wordage",
+        "hash": "b35fd2a17c3ca409ea2ac2ded999c1a5c23552f6",
+        "createdAt": "2026-08-06T04:35:51.319Z"
+      }
+    ]
+  },
+  "45": {
+    "open": true,
+    "latest": "0:50, 1:04 pictures are trash and just look stupid",
+    "reportedAgainst": "7464d487161da61745a7f59f062a3a3ed2776e27",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "0:50, 1:04 pictures are trash and just look stupid",
+        "hash": "7464d487161da61745a7f59f062a3a3ed2776e27",
+        "createdAt": "2026-08-06T05:17:51.321Z"
       }
     ]
   },
   "46": {
-    "open": true,
+    "open": false,
     "latest": "its still wrong correct phonetic breakdown is put-uth.",
     "reportedAgainst": "f333939e26554d4536933b500a61023d3704ade3",
-    "resolvedBy": null,
+    "resolvedBy": "5d7e9c7659d6f52193a4a9d86fee2b7c2750acd2",
     "history": [
       {
         "text": "its still wrong correct phonetic breakdown is put-uth.",
         "hash": "f333939e26554d4536933b500a61023d3704ade3",
         "createdAt": "2026-07-23T02:38:03.435Z"
+      }
+    ]
+  },
+  "48": {
+    "open": true,
+    "latest": "2:34  is bad the spout is comming out of the side of the bag and looks weird",
+    "reportedAgainst": "4dd741328765bdac05c7b54487d4528a61e14647",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "2:34  is bad the spout is comming out of the side of the bag and looks weird",
+        "hash": "4dd741328765bdac05c7b54487d4528a61e14647",
+        "createdAt": "2026-08-07T02:24:23.747Z"
+      }
+    ]
+  },
+  "49": {
+    "open": true,
+    "latest": "2:42 the water turning into wine does not need a cadle flame in it. That is weird. And mother mary standing so close to Jesus in those couple of pics is weird @ 0:50 & 0:57",
+    "reportedAgainst": "b7f62262782e0c267580accbbc189d6331adfd45",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "2:42 the water turning into wine does not need a cadle flame in it. That is weird. And mother mary standing so close to Jesus in those couple of pics is weird @ 0:50 & 0:57",
+        "hash": "b7f62262782e0c267580accbbc189d6331adfd45",
+        "createdAt": "2026-08-06T10:10:16.067Z"
       }
     ]
   },
@@ -398,22 +522,48 @@
   },
   "52": {
     "open": true,
-    "latest": "squares at the end of every line in the question end page again if this is a problem wiht any more fix them all now",
-    "reportedAgainst": "d1b7827a105d76c6d87a36bb064b549d2da77a50",
+    "latest": "The demoniac fave kept changing. Beard to no bear to old man and his looks kept flipping.",
+    "reportedAgainst": "b5ce8bb8c4e032d4cca104befb9633af72a2d49f",
     "resolvedBy": null,
     "history": [
       {
-        "text": "squares at the end of every line in the question end page again if this is a problem wiht any more fix them all now",
-        "hash": "d1b7827a105d76c6d87a36bb064b549d2da77a50",
-        "createdAt": "2026-07-23T05:43:05.421Z"
+        "text": "The demoniac fave kept changing. Beard to no bear to old man and his looks kept flipping.",
+        "hash": "b5ce8bb8c4e032d4cca104befb9633af72a2d49f",
+        "createdAt": "2026-08-06T10:13:34.098Z"
+      }
+    ]
+  },
+  "54": {
+    "open": true,
+    "latest": "1:01 looks like Jesus had lepracy on his hand. That is wrong",
+    "reportedAgainst": "c0ad61c5b435f12d3aec686284f5074d898f2a51",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "1:01 looks like Jesus had lepracy on his hand. That is wrong",
+        "hash": "c0ad61c5b435f12d3aec686284f5074d898f2a51",
+        "createdAt": "2026-08-06T10:15:28.875Z"
+      }
+    ]
+  },
+  "55": {
+    "open": true,
+    "latest": "1:34 *mutalated double right arm),  0:12 ( doesn't match the person in the first ). Alot more of these pictures have the person week if the withered hand not looking the same.  I talked about this and it needs to get fixed.  If your going to make a video about someone they need to look the same in every picture in that story",
+    "reportedAgainst": "afd85a72081e848e22e8464e82ae84c2e5639f76",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "1:34 *mutalated double right arm),  0:12 ( doesn't match the person in the first ). Alot more of these pictures have the person week if the withered hand not looking the same.  I talked about this and it needs to get fixed.  If your going to make a video about someone they need to look the same in every picture in that story",
+        "hash": "afd85a72081e848e22e8464e82ae84c2e5639f76",
+        "createdAt": "2026-08-06T20:40:46.929Z"
       }
     ]
   },
   "56": {
-    "open": true,
+    "open": false,
     "latest": "pictures are lograde and the kids clothes keep changing and so does his size also Jesus was realy big in one of the photos. the whole thing needs to be redone",
     "reportedAgainst": "26689bed3ab71627f4d1da59c0c4403f56e696c0",
-    "resolvedBy": null,
+    "resolvedBy": "f35cbaf7b5d2f8de3567c0e27a3193a1ed669cc8",
     "history": [
       {
         "text": "pictures are lograde and the kids clothes keep changing and so does his size also Jesus was realy big in one of the photos. the whole thing needs to be redone",
@@ -423,15 +573,54 @@
     ]
   },
   "57": {
-    "open": true,
+    "open": false,
     "latest": "Lieth is pronounced lie-eth",
     "reportedAgainst": "c9cb33b8e44e6e42e00c0bd1c3e0e33a3fdeb2ab",
-    "resolvedBy": null,
+    "resolvedBy": "6483469786610a6044f46b173fad08cb50d9755c",
     "history": [
       {
         "text": "Lieth is pronounced lie-eth",
         "hash": "c9cb33b8e44e6e42e00c0bd1c3e0e33a3fdeb2ab",
         "createdAt": "2026-07-22T20:24:59.355Z"
+      }
+    ]
+  },
+  "59": {
+    "open": true,
+    "latest": "if we tell this story as the second time he did this and dont give any biblical scholarship on the fact that it was true that he did it twice and it was different times becasue it was recorded that he did comment on that then we are doing a huge disservice to telling the story . this is not how he wanted his gospel to be told. we need refrences in this one and comparisons that give the act a better light not just telling the story the same way twice",
+    "reportedAgainst": "3005df5d1da36f90e0369268a3635165155a3921",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "if we tell this story as the second time he did this and dont give any biblical scholarship on the fact that it was true that he did it twice and it was different times becasue it was recorded that he did comment on that then we are doing a huge disservice to telling the story . this is not how he wanted his gospel to be told. we need refrences in this one and comparisons that give the act a better light not just telling the story the same way twice",
+        "hash": "3005df5d1da36f90e0369268a3635165155a3921",
+        "createdAt": "2026-08-06T22:07:00.600Z"
+      }
+    ]
+  },
+  "60": {
+    "open": true,
+    "latest": "2:39 Jesus eyes do not look good",
+    "reportedAgainst": "9af3ae30898ce178cd3d251322401cc5c0408e4b",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "2:39 Jesus eyes do not look good",
+        "hash": "9af3ae30898ce178cd3d251322401cc5c0408e4b",
+        "createdAt": "2026-08-07T03:15:05.051Z"
+      }
+    ]
+  },
+  "61": {
+    "open": true,
+    "latest": "jesus's eyes in 0:52 are crazy looking",
+    "reportedAgainst": "106884ad52f72da70f9448d0e8b3a9212d3b4fde1f4322a3369e7a57ea6ab278",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "jesus's eyes in 0:52 are crazy looking",
+        "hash": "106884ad52f72da70f9448d0e8b3a9212d3b4fde1f4322a3369e7a57ea6ab278",
+        "createdAt": "2026-08-07T03:50:34.871Z"
       }
     ]
   },
@@ -463,40 +652,53 @@
   },
   "65": {
     "open": true,
-    "latest": "needs the captions to be redone still.",
-    "reportedAgainst": "f966890c3a9860ad8d6e15269b80441537f12eac",
+    "latest": "0:06 picture has 2 jesus'.",
+    "reportedAgainst": "17c3bc3ef47c5cb05d1e0a13a529e3a4b304a65f",
     "resolvedBy": null,
     "history": [
       {
-        "text": "needs the captions to be redone still.",
-        "hash": "f966890c3a9860ad8d6e15269b80441537f12eac",
-        "createdAt": "2026-07-18T05:11:10.443Z"
+        "text": "0:06 picture has 2 jesus'.",
+        "hash": "17c3bc3ef47c5cb05d1e0a13a529e3a4b304a65f",
+        "createdAt": "2026-08-07T00:14:20.278Z"
+      }
+    ]
+  },
+  "66": {
+    "open": true,
+    "latest": "all the pictures up to 0:30 of the army coming to arrest Jesus and his desiples defending him are bad and all need to be reedone, people keep dissapearing quickl and coming back and the army is going the wrong way. all jsut looks dumb.  1:24 is bad, the trees are all cut oof weirdly to expose the night sky , just weird.",
+    "reportedAgainst": "aea7223d4b2c921fc9efab3f8c7df7706d07e260",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "all the pictures up to 0:30 of the army coming to arrest Jesus and his desiples defending him are bad and all need to be reedone, people keep dissapearing quickl and coming back and the army is going the wrong way. all jsut looks dumb.  1:24 is bad, the trees are all cut oof weirdly to expose the night sky , just weird.",
+        "hash": "aea7223d4b2c921fc9efab3f8c7df7706d07e260",
+        "createdAt": "2026-08-06T22:30:26.364Z"
       }
     ]
   },
   "67": {
     "open": true,
-    "latest": "1:02 its pronounced and spelled wrongly its pronounced: ee-LY-us and spelled in all persons speaking it even the narrirator : Elias. Elijah is a different prophet that is wrong",
-    "reportedAgainst": "41935c94f18c01762bc93b5cd45d75e5d5052806",
+    "latest": "0:37 seconds that picture is bad becasue jesus's eyes turned into light and that is horrible looking it likes like a demon",
+    "reportedAgainst": "0a35cbd5e7732623165d48a3fd7c49d3dd02d632",
     "resolvedBy": null,
     "history": [
       {
-        "text": "1:02 its pronounced and spelled wrongly its pronounced: ee-LY-us and spelled in all persons speaking it even the narrirator : Elias. Elijah is a different prophet that is wrong",
-        "hash": "41935c94f18c01762bc93b5cd45d75e5d5052806",
-        "createdAt": "2026-07-23T00:16:48.987Z"
+        "text": "0:37 seconds that picture is bad becasue jesus's eyes turned into light and that is horrible looking it likes like a demon",
+        "hash": "0a35cbd5e7732623165d48a3fd7c49d3dd02d632",
+        "createdAt": "2026-08-06T22:40:17.224Z"
       }
     ]
   },
   "69": {
     "open": true,
-    "latest": "John is way too big in the first picture",
-    "reportedAgainst": "77a7d48aa474d4403e519ca7ad267be57b383275",
+    "latest": "Johns hair changed to oragne and its not keeping his character to the refrence we have in multiple pictures please check all and redo ones trhat he doesnt look like what the refrence laid out for him to look like",
+    "reportedAgainst": "da00221e35d620696f3a7b6d9e09195b67aa4ea6",
     "resolvedBy": null,
     "history": [
       {
-        "text": "John is way too big in the first picture",
-        "hash": "77a7d48aa474d4403e519ca7ad267be57b383275",
-        "createdAt": "2026-07-23T07:29:19.086Z"
+        "text": "Johns hair changed to oragne and its not keeping his character to the refrence we have in multiple pictures please check all and redo ones trhat he doesnt look like what the refrence laid out for him to look like",
+        "hash": "da00221e35d620696f3a7b6d9e09195b67aa4ea6",
+        "createdAt": "2026-08-07T02:42:39.390Z"
       }
     ]
   },
@@ -515,27 +717,45 @@
   },
   "71": {
     "open": true,
-    "latest": "I cant tell if this were remade witht he correct refrences for the characters or not. Lets just redo the knes with the important characters that we have the refrence for now.",
-    "reportedAgainst": "024a03bf517f22177981b9aef7f55946fd1e8107",
+    "latest": "1:26 has a person sideways , 1:51 the scroll the guy is poassing is stiff and open scrolls of paper are not stiff, the last pictre w t1;57 makes no sense and lease people confused.",
+    "reportedAgainst": "66177afadf2007edeb27b58a467b6a16f9ee4472",
     "resolvedBy": null,
     "history": [
       {
-        "text": "I cant tell if this were remade witht he correct refrences for the characters or not. Lets just redo the knes with the important characters that we have the refrence for now.",
-        "hash": "024a03bf517f22177981b9aef7f55946fd1e8107",
-        "createdAt": "2026-07-23T00:39:45.398Z"
+        "text": "1:26 has a person sideways , 1:51 the scroll the guy is poassing is stiff and open scrolls of paper are not stiff, the last pictre w t1;57 makes no sense and lease people confused.",
+        "hash": "66177afadf2007edeb27b58a467b6a16f9ee4472",
+        "createdAt": "2026-08-06T23:23:09.536Z"
+      }
+    ]
+  },
+  "72": {
+    "open": true,
+    "latest": "1:41 floating cups and lamps lit from the fill hole. and scars on people, for no reason",
+    "reportedAgainst": "417bfb4b67239065f3ea4fec7e642f7877b3adda",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "1:41 floating cups and lamps lit from the fill hole. and scars on people, for no reason",
+        "hash": "417bfb4b67239065f3ea4fec7e642f7877b3adda",
+        "createdAt": "2026-08-07T00:17:47.212Z"
+      },
+      {
+        "text": "1:41 floating cups and lamps lit from the fill hole. and scars on people, for no reason",
+        "hash": "417bfb4b67239065f3ea4fec7e642f7877b3adda",
+        "createdAt": "2026-08-07T00:23:04.377Z"
       }
     ]
   },
   "73": {
     "open": true,
-    "latest": "are you kiding me it jsut pronounced \"Esaias\" as  \"essy-y-es\".  this is rediculous",
-    "reportedAgainst": "69f40b82948846ebcfa874a26ae67351b312f93c",
+    "latest": "the first 2 pictures make Jesus look one way and then another.  the entire messge from this sint giving the fullnes of his message. it should teach people how He meant what he said and not jsut \" he stillreads it the same\" it he has risen and continues the plan. we need to start looking at this how the prophets of then and the restored church today the Church f Jesus Christ of Latter Day Saints would share these messages. obviously without telling it that its that church that is makingit so but just teaching how we know Jesus would want us to.",
+    "reportedAgainst": "d8ee93144a288d5ace0d784558b775ce72f8f3d5",
     "resolvedBy": null,
     "history": [
       {
-        "text": "are you kiding me it jsut pronounced \"Esaias\" as  \"essy-y-es\".  this is rediculous",
-        "hash": "69f40b82948846ebcfa874a26ae67351b312f93c",
-        "createdAt": "2026-07-23T04:00:37.814Z"
+        "text": "the first 2 pictures make Jesus look one way and then another.  the entire messge from this sint giving the fullnes of his message. it should teach people how He meant what he said and not jsut \" he stillreads it the same\" it he has risen and continues the plan. we need to start looking at this how the prophets of then and the restored church today the Church f Jesus Christ of Latter Day Saints would share these messages. obviously without telling it that its that church that is makingit so but just teaching how we know Jesus would want us to.",
+        "hash": "d8ee93144a288d5ace0d784558b775ce72f8f3d5",
+        "createdAt": "2026-08-06T23:28:23.387Z"
       }
     ]
   },
@@ -579,10 +799,10 @@
     ]
   },
   "91": {
-    "open": true,
+    "open": false,
     "latest": "The pictures of the disciples did not stay the same. One grew a beard with in seconds",
     "reportedAgainst": "e261061c2056379cf91effc78bc6798460f7215c",
-    "resolvedBy": null,
+    "resolvedBy": "24cbe5d7e61e8d479e736fc7eada0dc445d1c8fa",
     "history": [
       {
         "text": "The pictures of the disciples did not stay the same. One grew a beard with in seconds",
@@ -619,48 +839,61 @@
   },
   "102": {
     "open": true,
-    "latest": "Jacob doesnt have a beard and then does. We need to make a qc just for beards dissapeaering or appearing it throws people off the story",
-    "reportedAgainst": "3f99b335edeb39d534853fd7561099b956c0823c",
+    "latest": "0:24 looks like a UFO no God comming to him in a dream",
+    "reportedAgainst": "ddb1f2cfd530b97edaac464257df44f14b26e947",
     "resolvedBy": null,
     "history": [
       {
-        "text": "Jacob doesnt have a beard and then does. We need to make a qc just for beards dissapeaering or appearing it throws people off the story",
-        "hash": "3f99b335edeb39d534853fd7561099b956c0823c",
-        "createdAt": "2026-07-24T21:25:45.350Z"
+        "text": "0:24 looks like a UFO no God comming to him in a dream",
+        "hash": "ddb1f2cfd530b97edaac464257df44f14b26e947",
+        "createdAt": "2026-08-06T23:48:10.371Z"
       }
     ]
   },
   "103": {
     "open": true,
     "latest": "This is where peter got his name but it called him simon before and the pictures are all bad they keep changing and are not remade with the character ref in this",
-    "reportedAgainst": "be791649a687e8b390787d851869d69be4714e0c",
+    "reportedAgainst": "aad26b93ea24b30e3cbbe96995ebefea4712daa1",
     "resolvedBy": null,
     "history": [
       {
         "text": "This is where peter got his name but it called him simon before and the pictures are all bad they keep changing and are not remade with the character ref in this",
-        "hash": "be791649a687e8b390787d851869d69be4714e0c",
-        "createdAt": "2026-07-24T21:28:24.212Z"
+        "hash": "aad26b93ea24b30e3cbbe96995ebefea4712daa1",
+        "createdAt": "2026-08-06T23:57:29.333Z"
+      }
+    ]
+  },
+  "104": {
+    "open": true,
+    "latest": "0:35 pic he samuel is running the wrong way , same thing with 0:53,",
+    "reportedAgainst": "6184347fa3f4ed5c70ccbaf927b6d9e7aef43a65",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "0:35 pic he samuel is running the wrong way , same thing with 0:53,",
+        "hash": "6184347fa3f4ed5c70ccbaf927b6d9e7aef43a65",
+        "createdAt": "2026-08-07T00:54:31.611Z"
       }
     ]
   },
   "107": {
     "open": true,
-    "latest": "Needs better pictures the disciples shluld be some of Jesus' disciples and shouldnt look exactly alike but also Jesus and John the baptist are bigger then other people like giants in some pictures. Just redo all of them and research who the people John sent were and if they are important enough to be the characters because i thought they were and if not just dont make them look like tiwns and have everyone be the same size",
-    "reportedAgainst": "6cc85a31bf013d323e08507b2f72606b90fa30f6",
+    "latest": "0:30 picture has his head going through metal bars, weird.",
+    "reportedAgainst": "cb8b2d9babe311978e994e377104351e0272833f",
     "resolvedBy": null,
     "history": [
       {
-        "text": "Needs better pictures the disciples shluld be some of Jesus' disciples and shouldnt look exactly alike but also Jesus and John the baptist are bigger then other people like giants in some pictures. Just redo all of them and research who the people John sent were and if they are important enough to be the characters because i thought they were and if not just dont make them look like tiwns and have everyone be the same size",
-        "hash": "6cc85a31bf013d323e08507b2f72606b90fa30f6",
-        "createdAt": "2026-07-24T21:39:41.343Z"
+        "text": "0:30 picture has his head going through metal bars, weird.",
+        "hash": "cb8b2d9babe311978e994e377104351e0272833f",
+        "createdAt": "2026-08-07T00:04:22.794Z"
       }
     ]
   },
   "108": {
-    "open": false,
+    "open": true,
     "latest": "Calleth still wrong again. Same problem",
     "reportedAgainst": "d65e2f74881e8b2da584b80c752e9bb622665ece",
-    "resolvedBy": "bf184f80aa3b5a17ba576849227465c243856367",
+    "resolvedBy": null,
     "history": [
       {
         "text": "Calleth still wrong again. Same problem",
@@ -670,28 +903,41 @@
     ]
   },
   "109": {
-    "open": false,
-    "latest": "Findeth is pronounced as fynd-uhth. 0:51 sec",
-    "reportedAgainst": "071953387d3a35de83adf63358597fe6370a3bc3",
-    "resolvedBy": "cfc5b93f7f2f93c467f05992a85f5a28a248d422",
+    "open": true,
+    "latest": "picture at 1:34 has Jesus with crazy eyes",
+    "reportedAgainst": "54a81913369e1ac6f2264bda1d03ca22a7ad6061",
+    "resolvedBy": null,
     "history": [
       {
-        "text": "Findeth is pronounced as fynd-uhth. 0:51 sec",
-        "hash": "071953387d3a35de83adf63358597fe6370a3bc3",
-        "createdAt": "2026-07-18T11:30:19.976Z"
+        "text": "picture at 1:34 has Jesus with crazy eyes",
+        "hash": "54a81913369e1ac6f2264bda1d03ca22a7ad6061",
+        "createdAt": "2026-08-07T00:59:25.035Z"
       }
     ]
   },
   "110": {
     "open": true,
-    "latest": "pronounced \"lead\" wrong at1:27 it rhymes with \"seed\" and is pronounced as /liːd/.",
-    "reportedAgainst": "17f8e8db8c06c06ff4e4a7c708fb0a0e9b261e52",
+    "latest": "this is old pictures version i dont know why im seing it here as fixed",
+    "reportedAgainst": "824b4260a3d60a1d69648d37b08bea0aa2546392",
     "resolvedBy": null,
     "history": [
       {
-        "text": "pronounced \"lead\" wrong at1:27 it rhymes with \"seed\" and is pronounced as /liːd/.",
-        "hash": "17f8e8db8c06c06ff4e4a7c708fb0a0e9b261e52",
-        "createdAt": "2026-07-18T06:03:45.565Z"
+        "text": "this is old pictures version i dont know why im seing it here as fixed",
+        "hash": "824b4260a3d60a1d69648d37b08bea0aa2546392",
+        "createdAt": "2026-08-06T23:13:10.053Z"
+      }
+    ]
+  },
+  "111": {
+    "open": true,
+    "latest": "0:09 picture everything is out o scale and weird.",
+    "reportedAgainst": "672380e420dcd96584ea0e91c3d57437c7ef4f22",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "0:09 picture everything is out o scale and weird.",
+        "hash": "672380e420dcd96584ea0e91c3d57437c7ef4f22",
+        "createdAt": "2026-08-07T01:00:21.093Z"
       }
     ]
   },
@@ -891,10 +1137,10 @@
     ]
   },
   "179": {
-    "open": false,
+    "open": true,
     "latest": "\"Regenerate this video about Stephen in Acts 7 from a Latter-day Saint perspective. The vision scene (Acts 7:55-56) must clearly show two distinct glorified personages in radiant heavenly light: God the Father and His Son Jesus Christ standing at the Father's right hand. Portray them as separate embodied beings, just as Stephen saw them — not as one figure, not as Jesus only, and do not add a dove or Trinitarian symbol. Use a reverent, luminous style like official Latter-day Saint gospel art (similar to the Gospel Art Book depiction of this scene).\nKeep the story simple, scripturally accurate, and 'milk' level — Christ-centered and uplifting for everyone. Focus on Stephen being full of the Holy Ghost, his bold testimony of Jesus, the vision of the Father and Son, his martyrdom, and his forgiving prayers to the Lord Jesus. Use simple narration that promotes faith in Jesus and the gospel without extra doctrine or heavy emphasis. Follow your established reverent style rules for sacred figures. Make the whole short video feel like it was made by Latter-day Saints — warm, truthful, and focused on the Savior.",
     "reportedAgainst": "99356771aeaa33338ed45a85b772f64e1dd7b7de",
-    "resolvedBy": "e3156507be36e57473e84a02dc2c1d7c69827254",
+    "resolvedBy": null,
     "history": [
       {
         "text": "\"Regenerate this video about Stephen in Acts 7 from a Latter-day Saint perspective. The vision scene (Acts 7:55-56) must clearly show two distinct glorified personages in radiant heavenly light: God the Father and His Son Jesus Christ standing at the Father's right hand. Portray them as separate embodied beings, just as Stephen saw them — not as one figure, not as Jesus only, and do not add a dove or Trinitarian symbol. Use a reverent, luminous style like official Latter-day Saint gospel art (similar to the Gospel Art Book depiction of this scene).\nKeep the story simple, scripturally accurate, and 'milk' level — Christ-centered and uplifting for everyone. Focus on Stephen being full of the Holy Ghost, his bold testimony of Jesus, the vision of the Father and Son, his martyrdom, and his forgiving prayers to the Lord Jesus. Use simple narration that promotes faith in Jesus and the gospel without extra doctrine or heavy emphasis. Follow your established reverent style rules for sacred figures. Make the whole short video feel like it was made by Latter-day Saints — warm, truthful, and focused on the Savior.",
@@ -995,10 +1241,10 @@
     ]
   },
   "199": {
-    "open": false,
+    "open": true,
     "latest": "Not real new voice",
     "reportedAgainst": "5f0b892caa9b74ad74f7f084cd52386f1e6a8d31",
-    "resolvedBy": "9294c50c7088410607ab2b410653a8701200012a",
+    "resolvedBy": null,
     "history": [
       {
         "text": "Not real new voice",
