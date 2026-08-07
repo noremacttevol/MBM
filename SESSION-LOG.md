@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 84 (No Room: the Manger, Luke 2:1-7) REALISTIC V2 SHIPPED — resumed a stranded row (13→34 stills), 3 modern-object rerolls, AUDIO LOCK PASS — Machine A `Dev` (UNATTENDED, HEADLESS)
+
+**Commits:** claim = `dd66ae327`; mp4 + boards (7a) = `c11166a96be81b540cfd1c760b98f879207d5be5`; review-card + this log (7b) below. All on origin/main. Session-chain verified at start (then-top = rows 167/168 authored, `73b54dcd8`/`1385ddb24` present in `git log`); hostname `Dev` = Machine A.
+
+**Resume, not restart.** AUTHOR-BOARD row 84 was State RUNNING / Claim A-auto LIVE. Already-shipped check: NO committed mp4, live card v84 was still the OLD V1 (data-built 2026-07-24, no `realistic-v2` wave) → not shipped. `ps aux | grep v2_gen_api` showed NO live gen owning build-84 (the prior lane died at 13/34 stills, s01–s13). Cleared to resume per RUNNER-LESSONS. Re-claimed uniquely (RESUME-13of34 LIVE), then generated b14–b34 — `v2_gen_api` resumed automatically; s01–s13 never re-pulled (COST LAW).
+
+**Learning law.** `v2_outline.py 84` = NO open complaint (Compl 0) → COMPLAINT LEDGER: none open. Read both meta-laws + all 14 rubric lessons + full RUNNER-LESSONS before spending.
+
+**Light QC (all 34 frames viewed once).** Row gates held: no angels (s31 = only the brilliant star), birth never depicted (cuts to the swaddled child), manger a wooden feed-trough throughout, newborn jesus=False with no halo, same ox+donkey, day→dusk→lamplit→deep-night arc, lamps on wicks, no second cream robe (Mary blue / Joseph brown). **3 rerolls (8.8% of 34 — under the 15% COST-LAW budget), all modern-object fails** (RUNNER-LESSONS row-71 modern-road + modern-town class): s05 journey wide had a graded modern switchback road → re-shot as a desert footpath; s27 rooftops had plastic water tanks + solar panels → period stone town; s29 hillside town was modern concrete w/ a garage door → period adobe Bethlehem. No collage/cartoon/mixed-style frame, no burned-in text, no lens-stare, no giant figures.
+
+**Assemble/ship.** `v2_assemble.py 84` → **AUDIO LOCK PASS** SHA256=af5b5cbcd414…, 229.6s, 20.2 MB. Rendered mp4 decodes with 0 `-v error` (not a row-31 corrupt-AAC class). 3 caption frames (output-seek) verified: captions bottom-band only, question card clean ("…what makes you think there is no room for you near him?"). Review card v84 repointed: data-hash `c11166a96be8…`, `data-review-wave="realistic-v2"`, direct raw.githubusercontent.com host + `?v=c11166a96be8`, flag rewritten (34 vs 11 pictures, ~6-7s/pic, no-angels/no-halo, three anti-modern re-shoots, audio byte-identical). Deployed to Firebase + live-verified (below).
+
+**Cost / laws.** Spend this session ≈ **$3.21** (21 stills + 3 rerolls = 24 images; meter 426.79 → 430.01). Well under the $6.10/row running average even counting the resume; reroll rate 8.8% under the 19% baseline and the 15% budget — trend DOWN (COST LAW satisfied). Touched the row ONCE. No new RUNNER-LESSONS defect class (modern-road + modern-town already lessoned).
+
+---
+
 ## 2026-08-07 — ROWS 167 & 168 AUTHORED (Ready ✅) — two fresh V2 beat maps written from scratch, $0, no image/audio credits — Machine A `Dev` (Fable-5 author lane, UNATTENDED)
 
 **Commits:** row 167 = `73b54dcd8`; row 168 = `1385ddb24`. Both on origin/main (each committed + pushed the moment its `--check` passed, to survive the live autopilot lane sharing the tree). Session-chain verified at start (then-top entry = row 111 C-FIX, commit `a6d65d967074` present in `git log`); hostname `Dev` = Machine A.
