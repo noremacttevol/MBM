@@ -105,6 +105,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   frame (b41) — reroll on sight, never crop-rescue.
 - **Second cream-robed figure**: ONLY Jesus wears cream; any other cream robe
   fails the frame.
+- **Unlocked secondary figure defaults to a Jesus DOUBLE (row 65 C-FIX, b02
+  "his own disciples were in the middle of it").** On a `jesus:False` beat whose
+  named figures (here two cornered disciples) carry NO locked garment colour and
+  NO face lock, the model paints them with Jesus's exact bearded/long-haired
+  look AND puts one in cream — the frame reads as "2 jesus" even though no Jesus
+  REF is attached. QC EVERY `jesus:False` multi-figure frame for a Jesus double,
+  not just for cream. Fix: reroll `--only <beat> --redo` (no lock edit needed —
+  the CAST-CLOSURE + no-cream clauses usually resolve it in one take; the two
+  disciples came back in brown + dark-red with ordinary faces). Root cause is
+  UNSPECIFIED garment/face on the secondary cast, per v2_prompt.py's own note.
 - **Lens-staring**: any figure looking into the camera fails.
 - **Fair-haired INCIDENTAL children/extras** (row 47 b15 family-in-the-house):
   even non-locked background people default to blond/light hair — a first-century
