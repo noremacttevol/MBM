@@ -80,7 +80,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 66 | build-66-malchus-ear | BUILT | 29 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 67 | build-67-the-transfiguration | BUILT | 16 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 SHIPPED | ✅ |
 | 68 | build-68-multitudes-mountain | BUILT | 35 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 69 | build-69-baptism | BUILT | 29 | OK | AUDIO-FIX shipped 2026-08-06 da00221e35d6 — STALE-V1 lock cleared (AUDIO_FROM_V1_SEGMENTS), new-voice cut assembled 172.3s, deployed+live-verified. · C-FIX 2026-08-07 LIVE | ✅ |
+| 69 | build-69-baptism | BUILT | 29 | OK | AUDIO-FIX shipped 2026-08-06 da00221e35d6 — STALE-V1 lock cleared (AUDIO_FROM_V1_SEGMENTS), new-voice cut assembled 172.3s, deployed+live-verified. · C-FIX 2026-08-07 SHIPPED 7a6616e22fde — John's hair "orange" fixed: rerolled ONLY s12/b12 to black-per-reference (13/14 John frames already correct), audio byte-identical (same SHA, 172.3s), deployed+live-verified. | ✅ |
 | 70 | build-70-temptations | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — Cameron complaints "narrator spells 'I-S'" + "'proceedeth' should be pro-see-duhth" CLOSED: n2 re-voiced (caps IS/IF now spoken as words, caption keeps caps), j1 re-voiced ("proceeduth" → whisper-verified pro-see-duhth), same Andrew/Eric voices; other 20 mp3s byte-identical. $0 (edge-tts). 0 V2 stills → picture runner builds on corrected audio; COMPLAINT LEDGER in QC.md for its review card. See QC.md "AUDIO FIX DONE". |
 | 71 | build-71-the-great-commission | BUILT | 21 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 72 | build-72-calling-matthew | BUILT | 41 | OK | A-auto 2026-08-06 SHIPPED | ✅ |

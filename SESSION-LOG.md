@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 69 (Baptism of Jesus, Matt 3) C-FIX SHIPPED: Cameron's "John's hair changed to orange" CLOSED — rerolled ONLY s12/b12 to black-per-reference, audio byte-identical, deployed + live-verified — Machine A `Dev` (~$0.13, 1 reroll)
+
+**Commit:** 7a6616e22fde (fixed s12 + mp4 + QC.md) + this commit (review.html card v69 hash→7a6616e22fde + complaint-answering flag, AUTHOR-BOARD row 69 → C-FIX SHIPPED, SESSION-LOG). Claim commit dd7b2939b.
+
+COMPLAINT-FIRST + LOW-NUMBER LAW: row 69 was the lowest AUTHOR-BOARD row with an OPEN Cameron complaint, so it outranked all other work. `v2_outline.py 69`: *"Johns hair changed to oragne and its not keeping his character to the refrence we have in multiple pictures please check all and redo ones trhat he doesnt look like what the refrence laid out for him."* Session-chain read at start; hostname `Dev` = Machine A. UNATTENDED + headless (Gemini API only, no Chrome).
+
+**Root cause + fix.** Checked ALL 14 John-bearing frames (s01,02,06,07,08,09,12,13,16,17,19,21,26,29) side-by-side against the locked reference CAST-REF-V2/baptist.jpeg (black hair + grey streaks, full dark beard, tan skin). **13 of 14 were already correct black/grey hair.** The ONE outlier was **s12 (beat b12, the "Suffer it to be so" river moment ~1:03)** — warm low side-light had washed John's hair to a light sandy grey-gingery tone reading "orange." This is exactly the drift the prior FIX-WAVE note (a) had flagged as minor; Cameron's complaint escalated it to must-fix. Fix: `v2_gen_api.py build-69-baptism --only b12 --redo` — ONE reroll re-anchored to the BAPTIST face-lock ("sun-shot black hair") + reference image. New s12: John's hair black/grey matching the reference, full dark beard, Jesus in cream (only cream-wearer), no halo, both ordinary-sized, action reads, anatomy clean. Verified in the RENDERED mp4 at t=63s.
+
+**Touch-once / cost.** Only open complaint on the row. 1 reroll / 29 beats = 3.4% (< 15% budget). ~$0.13, meter $423.6→$423.7. Well under the $6.10/row baseline; C-FIX trend stays DOWN.
+
+**Audio untouched — byte-identical to the shipped cut.** AUDIO REBUILD PASS SHA256 = 7132e43f…3040684 (same hash as the 2026-08-06 ship), mp4 172.3s. No TTS, no wording, no timing changed — only the s12 picture.
+
+**Shipped + live-verified.** firebase deploy --only hosting; confirmed live review.html carries hash 7a6616e22fde on card v69 and the mp4 URL returns HTTP 200.
+
+---
+
 ## 2026-08-07 — ROW 63 (man born blind, John 9) AUDIO FIX DONE: Siloam "si-LOH-uhm" complaint CLOSED at author level — j2+n5 re-voiced (ElevenLabs), timeline remapped, → AUTHORED+Ready ✅ — Machine A `Dev` (author lane, $0 image gen)
 
 **Commit:** make_narration.py respell + audio/j2+n5 (mp3+timing) re-voiced + beats_v2.py (windows remapped, AUDIO_FROM_V1_SEGMENTS) + QC.md §0-FIXED + AUTHOR-BOARD row 63 → AUTHORED/OK + PLACE-WIRING.json + this log = (this commit).
