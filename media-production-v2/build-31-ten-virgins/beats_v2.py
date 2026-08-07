@@ -393,11 +393,19 @@ LOCKS = {
 
 OUTPUT_ASSET_DIR = "assets"
 
-# Every V1 mp3 and the V1 MP4 share ONE git content date (2026-07-27T22:53:38) and the
-# MP4's runtime sits well inside the guard's tripwire (148.306 s against a 148.302 s
-# summed timeline), so the finished V1 audio stream is current and the normal
-# packet-copy AUDIO LOCK applies. Nothing is re-voiced and V1 is never written to.
-AUDIO_FROM_V1_SEGMENTS = False
+# C-FIX 2026-08-07 (Machine A) — flipped to True. Cameron's OPEN complaint: the
+# shipped mp4 "stops playing and will not play through the 1:59 mark ... i can skip
+# past it and it will play but its not playing correctly." Diagnosis: the shipped
+# mp4's muxed AAC stream carries a corrupt packet ("channel element 1.4 is not
+# allocated / Invalid data") that stalls browser playback exactly as described; the
+# video stream and every source audio/*.mp3 decode CLEAN. Separately the current
+# summed timeline is 141.0 s while the mp4 runs 148.3 s (shared gap constants
+# shortened since the 2026-08-02 render), so the packet-copy AUDIO LOCK would refuse
+# on the >1.0 s guard anyway. The sanctioned remedy (row 25 / row 61) is to rebuild
+# the authoritative track from THIS build's own clean mp3s at the extract_beats
+# offsets — nothing is re-voiced, re-timed, or resynthesised, so the narration is
+# byte-identical in content; only the corrupt AAC encode is replaced with a clean one.
+AUDIO_FROM_V1_SEGMENTS = True
 
 REF = True
 
