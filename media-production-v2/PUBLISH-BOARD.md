@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T09:44:49_
+_Last sync: 2026-08-07T09:57:28_
 
 ## Summary
 
-- **BUILDING** — 87 row(s)
+- **BUILDING** — 86 row(s)
 - **LIVE — OLD STYLE (v1)** — 43 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 26 row(s)
+- **ON REVIEWER — awaiting Cameron** — 27 row(s)
 
 ## The rows
 
@@ -71,7 +71,7 @@ _Last sync: 2026-08-07T09:44:49_
 | 48 | New Wine, Old Bottles | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 49 | Water to Wine at Cana | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 50 | The Nobleman's Son | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 51 | The First Catch of Fish | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 51 | The First Catch of Fish | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 52 | The Demoniac in the Synagogue | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 53 | Peter's Mother-in-Law | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 54 | The Leper Made Clean | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
