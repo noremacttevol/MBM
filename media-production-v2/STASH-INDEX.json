@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 10:05:37",
+ "scanned": "2026-08-07 10:28:14",
  "entries": [
   {
    "row": 1,
@@ -38219,6 +38219,177 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame weighs the morning: the great bronze chest standing in the hard light with the day's silver heavy inside its throat \u2014 and held in the frame's closest attention, tiny against all that metal, the two worn"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b01",
+   "file": "build-78-who-is-my-mother/assets/s01-jesus-was-inside-a-packed.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The one-room house is full to its walls, the camera low behind the seated ring's near backs, packed to its plastered walls \u2014 a ring of seated listeners packed shoulder to shoulder under the low dark beams, every face tur"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b02",
+   "file": "build-78-who-is-my-mother/assets/s02-his-mother-and-his-brothers.jpeg",
+   "tokens": [
+    "HOUSE",
+    "MOTHER",
+    "BROTHERS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the hard bright street, the camera across the lane taking family and doorway from the side, the family stands before the doorway they cannot enter \u2014 the mother small in her deep indigo-blue, one hand raised in quiet a"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b03",
+   "file": "build-78-who-is-my-mother/assets/s03-the-people-sitting-around-him.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The message swims inward through the seated crowd: a chain of leaning figures from the bright doorway to the room's centre \u2014 hand on shoulder, mouth to ear, head inclining to the next \u2014 the words passing link by link ove"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b04",
+   "file": "build-78-who-is-my-mother/assets/s04-look-your-mother-and-your.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close at the ring's centre: the last man in the chain leans to Jesus's ear with the message, his thumb hooking back over his own shoulder toward the blazing doorway \u2014 his face carrying the easy certainty of a man reporti"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b05",
+   "file": "build-78-who-is-my-mother/assets/s05-everyone-in-that-room-knew.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The room performs its certainty: along the packed floor a lane is already half-opening toward the bright doorway \u2014 seated bodies swaying aside, knees drawn in, a man rising to a crouch to make way \u2014 every face turned to "
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b06",
+   "file": "build-78-who-is-my-mother/assets/s06-who-is-my-mother-or.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus at the circle's centre, unmoved from his place: the warm brown eyes lifted to the whole room, the question leaving him gently and deliberately \u2014 not a refusal, not a rebuke, but a real question laid down i"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b07",
+   "file": "build-78-who-is-my-mother/assets/s07-nobody-expected-that.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on a knot of seated faces in the warm dim light: brows lifted, two neighbours exchanging a sideways glance, the messenger stopped mid-shift with his helpful lane suddenly pointless \u2014 a roomful of certainty recalcul"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b08",
+   "file": "build-78-who-is-my-mother/assets/s08-then-he-looked-slowly-around.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera sits just behind two seated shoulders as Jesus's gaze makes its slow circuit of the seated ring \u2014 passing from a sun-creased farmer with earth still on his hands, to a fisherman's salt-stiff shoulders, to a yo"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b09",
+   "file": "build-78-who-is-my-mother/assets/s09-behold-my-mother-and-my.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "From the centre Jesus's open hand sweeps the whole seated circle \u2014 the gesture travelling the ring like his gaze just did, presenting farmers and fishermen and drowsy children to themselves as the answer \u2014 and the faces "
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b10",
+   "file": "build-78-who-is-my-mother/assets/s10-for-whosoever-shall-do-the.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus speaking the terms steadily, like a man reading an adoption deed aloud \u2014 brother, and sister, and mother \u2014 and on the nearest faces in the warm dim light the words land one by one: the farmer hearing broth"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b11",
+   "file": "build-78-who-is-my-mother/assets/s11-he-pushing-his-family-away.jpeg",
+   "tokens": [
+    "MOTHER",
+    "BROTHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Outside in the hard bright street the mother stands near the doorway's edge, her indigo shawl still, her worn gentle face tilted toward the voice carrying out over the packed heads \u2014 and what the light finds there is not"
+  },
+  {
+   "row": 78,
+   "build": "build-78-who-is-my-mother",
+   "beat": "v2-r078-b12",
+   "file": "build-78-who-is-my-mother/assets/s12-he-was-opening-the-circle.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame holds the whole room, the camera high in the corner behind the outer ring: room as one shape: the unbroken ring of seated ordinary people \u2014 farmers, fishermen, mothers, the drowsing child \u2014 with Jesus a"
   },
   {
    "row": 79,
