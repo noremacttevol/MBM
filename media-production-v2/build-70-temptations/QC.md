@@ -126,3 +126,29 @@ mp4 only) and the exact class that parked rows 50 and 51.
    PASSES (42 beats); art has not been generated yet, so no spend was wasted.
 
 Nothing was generated and no credit was spent on row 70 this session.
+
+## ⛔ RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-07) — proceedeth half is ORPHANED (row-50 class)
+Runner (Machine A `Dev`) audited at claim time, $0, no stills. Cameron's OPEN
+complaint has TWO parts; only ONE is actually fixed in the shipping audio:
+- **"narrator spells I-S / IF"** — FIXED. Whisper on the shipping V1 mp4
+  (`matt-4_the-temptations.mp4`) n2 window (44-64s) transcribes "if" and "is" as
+  WORDS, not letters. (The 2026-07-28 REDO render already said them correctly.)
+- **"proceedeth should be pro-see-duhth"** — NOT FIXED in the shipping audio.
+  `beats_v2.py` has no `AUDIO_FROM_V1_SEGMENTS` (False) → v2_assemble copies the
+  V1 mp4, which was committed 2026-07-28 (90401d7ac), BEFORE the respell
+  `{"proceedeth":"proceeduth"}` was committed 2026-08-06 22:30 (baee4b41a). The
+  fixed j1 lives only in the V2 build dir (which the assembler ignores). Proof:
+  the mp4's j1 segment (64.45-72.4s) cross-correlates **0.757 with the OLD
+  V1-dir j1.mp3** and **0.026 with the FIXED V2-dir j1.mp3**; durations 7.95s
+  (mp4) ≈ 7.80s (old) vs 8.93s (fixed +1.1s). Building now ships the old
+  "proceedeth" → repeats half the complaint (worst failure).
+
+RESUME (audio authority — COUPLED timeline, model it on row 63's Siloam fix):
+The respelled j1 already exists at
+`media-production-v2/build-70-temptations/audio/j1.mp3` (8.928s, +1.083s vs old
+7.802s). Copy it into `media-production/build-70-temptations/audio/j1.mp3`, set
+`AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py, remap the beats windows for the
++1.083s j1 shift (piecewise-linear on segment onsets, as row 63 did), re-run
+`--check` + the AUDIO REBUILD gate (rebuilt total == extract_beats total), then
+Ready ✅. Ear-check j1 says "pro-see-duhth". n2 "if/is" is already correct and
+needs no change.

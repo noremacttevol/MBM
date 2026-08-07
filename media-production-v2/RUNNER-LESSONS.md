@@ -56,6 +56,18 @@ session's $0.13 mistake. Keep entries deduped and one line each.
     audio authority must copy the fixed mp3s into the V1 dir + re-render the V1
     mp4, or set the flag). A passing AUDIO LOCK proves byte-consistency with the
     V1 mp4, NOT that a pronunciation complaint is fixed.
+  - **A MULTI-part pronunciation complaint can be HALF-fixed — one word landed in
+    the shipping mp4, the other orphaned (2026-08-07, row 70).** Row 70's "I-S/IF"
+    was fixed by the earlier REDO render (shipping mp4 says "if/is" —
+    whisper-confirmed), but the SAME-session respell for the 2nd word
+    ("proceedeth→proceeduth") was committed AFTER the V1 mp4 (respell 2026-08-06,
+    mp4 2026-07-28), so it never reached the shipping audio. ANY unfixed part =
+    park. When whisper CAN'T adjudicate the sound (-eth vs -uth both transcribe
+    "proceedeth"), decide acoustically: extract the segment window from the
+    shipping mp4 and cross-correlate the 16k-mono waveform against BOTH the V1-dir
+    mp3 (old) and the V2-dir mp3 (fixed) — the mp4 matches whichever it was
+    rendered from (row 70: 0.757 vs OLD, 0.026 vs FIXED, fixed take +1.1s longer).
+    High-corr-with-OLD → the fix is orphaned → park.
   - **PACING/"too fast"/"meaningless"/"rushed" complaints are ALSO audio-domain —
     park them the same as a mispronunciation (2026-08-06, row 10).** Cameron's
     row-10 complaint was not a wrong word but the DELIVERY of Jesus's Messiah
