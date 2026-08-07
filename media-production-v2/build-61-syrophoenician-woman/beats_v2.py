@@ -101,6 +101,12 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1 fix (AUDIO-FIX 2026-08-06, Machine A): the V1 mp4 was rendered
+# 2026-07-29 09:47 but make_narration.py was edited ~13h later (23:03), so the
+# V1 mp4's encoded audio is out of date vs the 15 current V1 mp3 segments. Rebuild
+# the track from those segments so the AUDIO LOCK passes. No new TTS, $0.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r061-b01", "out": "s01-north-to-the-coast.jpeg", "seg": "n0 p1-p2",
@@ -719,6 +725,8 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "HERHOME": "PLACE-REF/herhome.jpeg",  # build-61-syrophoenician-woman s07-her-little-girl (manual)
+    "TYRE": "PLACE-REF/tyre.jpeg",  # build-61-syrophoenician-woman s01-north-to-the-coast (manual)
 }
 # === end PLACE-PLATES ===
 

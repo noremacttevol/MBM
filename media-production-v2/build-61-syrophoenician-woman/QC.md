@@ -1,5 +1,36 @@
 # QC / RUNNER HANDOFF — build-61-syrophoenician-woman (Mark 7:24-30)
 
+## ✅ AUDIO FIX DONE — STALE-V1 lock cleared + realistic-V2 cut SHIPPED (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
+
+**Class: STALE-V1 (duration/recency), NOT a pronunciation complaint.** `v2_outline.py 61`
+shows ZERO open Cameron complaints — the row was parked only on the AUDIO LOCK
+(`extracted timeline 185.202s vs stale V1 mp4 179.333s, +5.869s`), because the V1 mp4
+(rendered 2026-07-29 09:47) predates the make_narration.py edit (2026-07-29 23:03) by ~13h.
+
+**Fix (the sanctioned exception, $0 — NO new TTS):** set `AUDIO_FROM_V1_SEGMENTS = True`
+in beats_v2.py (module level, after `REF = True`). `v2_assemble.py 61` then rebuilds the
+track from the 15 current V1 mp3 segments (the new-voice segments) rather than copying the
+stale mp4 audio:
+- `AUDIO REBUILT from 15 V1 segment mp3s (-24.4 LUFS -> +9.4 dB), 185.202s`
+- `AUDIO REBUILD PASS` — the lock passes via the rebuild path.
+
+**Shipped as a full realistic-V2 cut** (all 31 stills were already generated + Light-QC
+passed, 0 rerolls — nothing regenerated, $0 pictures):
+- mp4: `media-production-v2/build-61-syrophoenician-woman/mark-7_syrophoenician-woman.mp4`
+- 185.2s / 21.2 MB, video+audio streams verified via ffprobe.
+- SHA256 (mp4) = `106884ad52f72da70f9448d0e8b3a9212d3b4fde1f4322a3369e7a57ea6ab278`
+- Rebuilt-audio segment SHA256 = `274d1bbdd26fa164f519c7b54eac65826ebe9a7034f5757502b479eea3c97aed`
+
+**Audio baseline change (V2 audio-immutability sanctioned exception):** OLD = stale V1 mp4
+encoded audio (179.333s). NEW = rebuilt from the 15 current V1 mp3 segments (185.202s).
+Same voices, same wording, same timing as the current mp3 segments — only the out-of-date
+mp4 encode was replaced. No scene text, no locks, no beat structure touched.
+
+**Review card:** `data-review-wave="realistic-v2"`, points at the v2 mp4; the 🛠 flag notes
+the audio was rebuilt clean from the new-voice segments and the audio is otherwise
+untouched. No Cameron complaint to answer (none was ever filed on this row).
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 31 beats, ~178 s.
 

@@ -72,7 +72,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 58 | build-58-feeding-5000 | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 59 | build-59-feeding-4000 | BUILT | 27 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 60 | build-60-gerasene-demoniac | BUILT | 39 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 61 | build-61-syrophoenician-woman | NEEDS-AUDIO | 0 | CHECK | AUDIO-FIX 2026-08-06 LIVE — A-auto 2026-08-06 PARKED: STALE-V1 (+5.87s), all 31 stills DONE+QC-passed (0 rerolls). Author: set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py, then assemble+ship. See QC.md RUNNER PARK. |  |
+| 61 | build-61-syrophoenician-woman | BUILT | 31 | OK | AUDIO-FIX 2026-08-06 SHIPPED — STALE-V1 lock cleared (AUDIO_FROM_V1_SEGMENTS=True), audio rebuilt from 15 new-voice segments, realistic-V2 cut 185.2s/21.2MB assembled + deployed + live-verified. mp4 SHA256 106884ad. See QC.md "AUDIO FIX DONE". | ✅ |
 | 62 | build-62-ephphatha | RUNNING | 0 | OK | A-auto 2026-08-06 LIVE | ✅ |
 | 63 | build-63-man-born-blind | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 64 | build-64-pool-of-bethesda | BUILT | 41 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
