@@ -1,3 +1,21 @@
+## 2026-08-07 — ROW 10 (woman at the well) AUDIO-FIX SHIPPED — Messiah reveal re-voiced GENUINELY slow (3.96s→7.73s) — AUDIO-FIX lane, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `35c7bebf4` (board → AUDIO-FIX LIVE) · ship A `b15d254cdd2f` (mp4 + V1/V2 make_narration + V1 j2.mp3 + timing + QC + board) · review.html + SESSION-LOG this commit (ship B). **Session-chain verified at start:** then-top commit `5a7b5cefb` (Row 62 C-FIX ship) present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-AUDIO-FIX.md + all laws + `v2_outline.py 10` + QC.md park notes first.
+
+**Complaint (Cameron, RE-FILED against the CURRENT 3.96s cut — direct order):** *"how fast and meaningless"* Jesus's Messiah reveal *"I that speak unto thee am he"* (~3:29) STILL sounds; the previous pacing fix was NOT enough. His order: make it genuinely SLOW and weighty, long real pauses, roughly DOUBLE the previous duration.
+
+**Ground truth first.** The assembler (`AUDIO_FROM_V1_SEGMENTS=True`) reads segments from the **V1 dir** `media-production/build-10-well/audio/`, not the V2 build's scratch `audio/`. Live j2 there = **3.960s** (sha `8eab005c`), the single-ellipsis "middle" take he re-complained about. "Previous duration" = 3.96s → target ~7.5–8s.
+
+**Fix (audio only, $0 — edge-tts EricNeural, no Gemini/ElevenLabs).** New `build_j2()` in make_narration.py (both V1 authoritative + V2 lock-step) renders j2 as THREE natural-rate chunks — `"I…"`, `"that speak unto thee…"`, `"am he."` — joined by `J2_GAP=0.50s` of real silence. **Weight from real pauses, NOT rate-drag** — because the rejected 4.92s "robot" came from the −30% RATE DRAG stretching each word, not the pauses. Words stay at the Jesus default −22%. Splitting the chunks also **permanently kills the "the Amhi" slur** (thee / am-he are separate files). Only j2 regenerated; every other segment byte-identical. j2 **3.960s → 7.728s** (sha `775c613e`, ~1.95× — essentially double). Prior takes all preserved (`.midfast/.robot/.orig-pre-pacing/.orig-2026-07-21`), none deleted.
+
+**Re-assembly:** `v2_assemble.py 10` → **AUDIO REBUILD PASS SHA256 `5bb6a5f8c2ce…5390`**, timeline 295.8→**299.537s** (+3.77s = exactly the j2 growth), 21.9 MB, all 49 stills byte-identical (j2 picture window auto-re-timed). **Verified in the RENDERED mp4** (faster-whisper on 207–221s): "I, that speak unto thee." (211.3–213.8) … ~1.8s pause … "am he." (215.6–216.2) … n7 resumes 217.9 — three deliberate beats, exact KJV words, no slur.
+
+**Cost:** $0.00, 0 rerolls, 0 pictures touched (audio-only, no image spend).
+
+**Ship:** commit A `b15d254cdd2f`; review.html v10 → data-hash + `?v=b15d254cdd2f`, runtime 4:57→5:00, 🛠 flag answers the re-complaint in his words ("how fast and meaningless" → now ~7.7s, nearly double, three beats, weight from real pauses not a stretched robot). `firebase deploy --only hosting` + live-verified on `milk-b4-meat.web.app`. Board Claim → AUDIO-FIX SHIPPED, status BUILT / Audio OK.
+
+---
+
 ## 2026-08-07 — ROW 62 (ephphatha) C-FIX SHIPPED — 0:18 picture had messed-up eyes — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** claim `9c831b4c3` (board → C-FIX LIVE) · ship `5a7b5cefbf90` (mp4 + s03 still + QC + api-spend) · review.html + SESSION-LOG this commit. **Session-chain verified at start:** then-top commit `9c84a3e180a3` (Row 51 C-FIX ship) present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 62` first.
