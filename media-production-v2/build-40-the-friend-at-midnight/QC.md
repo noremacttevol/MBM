@@ -1,5 +1,32 @@
 # QC / RUNNER HANDOFF — build-40-the-friend-at-midnight (Luke 11:1-13)
 
+## COMPLAINT LEDGER (C-FIX 2026-08-07, Machine A `Dev`) — both OPEN complaints CLOSED
+
+Cameron's filed complaint on the shipped cut, verbatim:
+"2:23 has 1 guy with 3 hands.  3:21 has a floating lamp."
+
+- **"2:23 has 1 guy with 3 hands"** — FIXED. The frame at 2:23 is beat b26
+  (`s26-and-he-keeps-knocking-the.jpeg`, window 141.89–147.86). The old take
+  gave the asker an impossible anatomy: a forearm to the forehead PLUS a
+  knocking fist PLUS both hands cupping the lamp (4 hands). Rerolled (new seed,
+  same locked prompt/ASKER ref) → he now has exactly TWO arms and two hands:
+  one fist against the door, forehead resting on that forearm, the other hand
+  holding the clay lamp. Verified in the RENDERED mp4 at 143 s.
+- **"3:21 has a floating lamp"** — FIXED. The frame at 3:21 is beat b36
+  (`s36-somebody-you-have-to-wear.jpeg`, window 198.15–203.06). The old take
+  showed the clay oil lamp hovering in mid-air against the barred door with no
+  support. Rerolled → the lamp now rests solidly on the stone doorsill at the
+  base of the frame, grounded, lighting the barred plank door (which is the
+  beat's must_show). Verified in the RENDERED mp4 at 201 s.
+
+Fix scope: ONLY b26 and b36 rerolled (2 of 56 beats = 3.6%, under the 15%
+budget), ~$0.27 this run. Every other frame byte-identical. AUDIO LOCK PASS
+SHA256 30326c6c… — the audio is byte-identical to the cut Cameron already has;
+nothing re-voiced. Touch-once: these were the only two open complaints on the row.
+
+---
+
+
 Authored to lessons 11–12 on 2026-08-05 (Machine A). `v2_prompt.py --check`
 PASSES with zero WARNs at handoff. 56 beats, 312.3 s. Audio column OK on
 AUTHOR-BOARD (new-voice verified by the audio audit).
