@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 11:53:57",
+ "scanned": "2026-08-07 12:25:45",
  "entries": [
   {
    "row": 1,
@@ -41384,6 +41384,244 @@
    "night": false,
    "n_person": 2,
    "scene": "The closing frame, the camera off the road's side taking rider and crowd in profile, keeps the whole promise in one look: the small grey colt picking its gentle way up the cloak-strewn street, the meek rider steady and e"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b01",
+   "file": "build-89-last-supper/assets/s01-the-passover-had-come.jpeg",
+   "tokens": [
+    "ROOM",
+    "MEAL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Up its outside stair the upper room stands ready in the lamplight: the low U-shaped table laid end to end with the old meal \u2014 flat bread in its rounds, the great clay cup filled dark, the bitter herbs in their bowls \u2014 cu"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b02",
+   "file": "build-89-last-supper/assets/s02-jesus-gathered-his-closest-friends.jpeg",
+   "tokens": [
+    "ROOM",
+    "MEAL",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 3,
+   "scene": "The room fills, the camera at the wall behind the near couches' shoulders, with the people he chose: the table's ring complete in the lamplight, friends reclining shoulder to shoulder \u2014 Peter's broad frame close at one s"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b03",
+   "file": "build-89-last-supper/assets/s03-with-desire-i-have-desired.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on Jesus as he says the thing teachers do not usually admit: WITH DESIRE I HAVE DESIRED \u2014 the wanting open and unashamed in the warm brown eyes as they travel the lamplit faces \u2014 this meal, with these people, wante"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b04",
+   "file": "build-89-last-supper/assets/s04-i-have-wanted-this-meal.jpeg",
+   "tokens": [
+    "ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 3,
+   "scene": "Around him the sentence does its double work: John's young face warming at the wanted-you half even as his brow folds at the rest, Peter gone still with a piece of bread forgotten halfway to his mouth, a cup set down slo"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b05",
+   "file": "build-89-last-supper/assets/s05-he-knew-what-was-coming.jpeg",
+   "tokens": [
+    "ROOM",
+    "MEAL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The wide frame holds what he chose to do with his last free evening: the lamplit table at full supper \u2014 bread passing hand to hand, a low laugh at one corner, bowls shared across the ring \u2014 and Jesus in the middle of it "
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b06",
+   "file": "build-89-last-supper/assets/s06-then-he-took-the-bread.jpeg",
+   "tokens": [
+    "ROOM",
+    "MEAL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The table hushes around four plain verbs: Jesus lifting the flat round in both hands with his eyes closed in thanks \u2014 then the bread BREAKING, the crust parting rough down its middle in the lamplight \u2014 and the pieces sta"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b07",
+   "file": "build-89-last-supper/assets/s07-this-is-my-body-which.jpeg",
+   "tokens": [
+    "MEAL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the gift at the moment of naming: the two broken halves held out on Jesus's open hands into the lamplight, rough-edged and steaming faintly, and above them the steady face saying what the bread now is \u2014 GIVEN FO"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b08",
+   "file": "build-89-last-supper/assets/s08-do-this-to-remember-me.jpeg",
+   "tokens": [
+    "MEAL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the hands the remembrance starts with: fishermen's rope-scarred fingers closing carefully around their pieces, a younger smooth hand cupping its portion like water, an old workman's palm receiving the bread as g"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b09",
+   "file": "build-89-last-supper/assets/s09-not-a-symbol-he-was.jpeg",
+   "tokens": [
+    "ROOM",
+    "MEAL"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "Around the ring, the camera down the table's length with the near backs in three-quarter, the gift travels the personal way: Jesus leaning to place a piece directly into each opened palm \u2014 pressing it in with a small clo"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b10",
+   "file": "build-89-last-supper/assets/s10-after-the-meal-he-lifted.jpeg",
+   "tokens": [
+    "ROOM",
+    "MEAL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The meal lies finished down the table \u2014 emptied bowls, the bread's scattered remains \u2014 and over it Jesus lifts the great two-handled clay cup in both hands, the dark wine tilting slow inside the fired earth, every face a"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b11",
+   "file": "build-89-last-supper/assets/s11-this-cup-is-the-new.jpeg",
+   "tokens": [
+    "MEAL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the covenant at its signing: the clay cup steady in his two hands, the dark wine still within it, and above the rim the face that means every word \u2014 THE NEW TESTAMENT, IN MY BLOOD, FOR YOU \u2014 an agreement older e"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b12",
+   "file": "build-89-last-supper/assets/s12-a-brand-new-promise-between.jpeg",
+   "tokens": [
+    "ROOM",
+    "MEAL"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The promise makes its round, the camera at the table's side so the cup's travel reads in profile: the great cup passing hand to careful hand along the ring \u2014 each man taking it in both palms, drinking with his eyes close"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b13",
+   "file": "build-89-last-supper/assets/s13-for-i-say-unto-you.jpeg",
+   "tokens": [
+    "MEAL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus sets the cup down and does not lift it again: the clay base meeting the table with a soft final sound, his hand coming to rest flat beside it, and the face above lifted with the strange bright vow \u2014 NOT UNTIL THE K"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b14",
+   "file": "build-89-last-supper/assets/s14-he-was-telling-them-this.jpeg",
+   "tokens": [
+    "ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 3,
+   "scene": "Close on the reframing as it lands: Jesus's face warm with the certainty of the appointment \u2014 not farewell, RESERVATION \u2014 and around him the frightened edges easing: John's brow unknotting a degree, Peter's jaw loosening"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b15",
+   "file": "build-89-last-supper/assets/s15-then-he-and-his-friends.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The supper ends on its feet, the camera behind the rising company toward the door, and singing: the company risen around the table with the old psalm moving through them \u2014 arms over shoulders, Peter's big voice carrying,"
+  },
+  {
+   "row": 89,
+   "build": "build-89-last-supper",
+   "beat": "v2-r089-b16",
+   "file": "build-89-last-supper/assets/s16-the-bread-and-the-cup.jpeg",
+   "tokens": [
+    "ROOM",
+    "MEAL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The room keeps the closing picture alone: cushions pushed back and empty, the lamps burning low over the quiet table, and at its centre the two things left on purpose \u2014 the broken round's remaining halves, and the great "
   },
   {
    "row": 91,
