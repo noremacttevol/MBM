@@ -101,3 +101,33 @@ This is the row-57 AUDIO-PRONUNCIATION EXCEPTION, not a park:
 - AUDIO LOCK PASS SHA256=4679aacf733f57de6a0778eb001bffc8a1574d7e003471448d94674c6a6e6c4d
   — V1 audio byte-identical, nothing re-voiced. 19.8 MB / 144.9 s.
   matthew-6_the-lords-prayer.mp4.
+
+---
+
+## C-FIX 2026-08-07 (Machine A `Dev`) — "old pictures version" = STALE-CACHE DELIVERY, not a picture defect
+
+### COMPLAINT LEDGER
+Open complaint (`v2_outline.py 110`, filed 2026-08-06T23:13Z against ship hash 824b4260):
+> "this is old pictures version i dont know why im seing it here as fixed"
+
+**ROOT-CAUSED as a reviewer delivery/cache bug — the mp4 was ALREADY correct.**
+- Proof the cut is realistic: extracted frames at t=3/20/60s from the committed
+  origin/main mp4 (824b4260, 144.9s, 19,796,928 B) → all fully realistic biblical
+  photography (olive-grove prayer with locked Jesus + cream robe; kneeling
+  disciples; realistic village forgiveness scene). ZERO cartoon/old-style frames.
+  Pictures were never the problem, so NO reroll, NO credit spent.
+- The bug: every reviewer card streamed from `github.com/.../raw/main/<path>?v=<hash>`.
+  `curl -sI` proved that github.com/raw 302-redirects to raw.githubusercontent.com
+  and STRIPS the `?v=` cache-buster. Cameron's browser served the bare-path OLD mp4
+  it had cached from before the realistic ship → he saw "old pictures."
+- FIX ($0): repointed the v110 card (and swept all 201 cards) to the DIRECT host
+  `raw.githubusercontent.com/noremacttevol/MBM/main/<path>?v=<hash>` — no redirect,
+  so `?v=824b4260a3d6` survives and forces a fresh fetch of the realistic cut.
+  Also hardened the generator (gen_site_index.py RAW_BASE) so a regen can't undo it.
+- Reviewer card flag rewritten to answer the complaint in Cameron's words.
+- mp4, narration, timing, captions: byte-identical (nothing re-cut). AUDIO LOCK
+  from the 2026-08-06 ship still stands (4679aacf…). Deployed + live-verified.
+
+### Cost
+$0 image credits (verify-only; delivery/text fix). 0 rerolls. New RUNNER-LESSON
+recorded (stale-cache delivery class).

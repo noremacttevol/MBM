@@ -27,7 +27,13 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Videos stream straight from GitHub instead of being re-published by Pages, so
 # the published site stays tiny (just this HTML) and always deploys. This is the
 # same direct-link pattern used by the watch links in STATUS.md.
-RAW_BASE = "https://github.com/noremacttevol/MBM/raw/main/"
+# MUST be raw.githubusercontent.com (NOT github.com/.../raw/main/). The github.com
+# form 302-redirects to raw.githubusercontent.com and STRIPS the ?v= query on the
+# way, silently defeating the cache-buster below — a re-shipped mp4 then serves the
+# viewer a STALE OLD cut from their browser cache (Cameron row-110 "this is old
+# pictures version" complaint, 2026-08-06). The direct host does not redirect, so
+# ?v=<hash> survives as a real cache key and always loads the current cut.
+RAW_BASE = "https://raw.githubusercontent.com/noremacttevol/MBM/main/"
 
 # The review gallery is hosted on Firebase (milk-b4-meat.web.app/review.html),
 # not GitHub Pages — the repo is far over Pages' 1 GB limit, but Firebase only
@@ -499,8 +505,10 @@ def card_html(num, title, scrip, length, rel, hashval, newvoice=False, fixnote=N
         f'{voice_badge}'
         f'{fix_line}'
         f'<div class="flags" id="flags{num}"></div>\n'
-        # ?v=<content hash> busts GitHub-raw + browser caching: same filename, new
-        # bytes -> new URL, so Cameron always sees the CURRENT cut, never a stale one.
+        # ?v=<content hash> busts browser + CDN caching: same filename, new bytes ->
+        # new URL, so Cameron always sees the CURRENT cut, never a stale one. This
+        # ONLY works because RAW_BASE is the direct raw.githubusercontent.com host —
+        # the github.com/raw redirect would strip this query (see RAW_BASE note).
         f'<video controls preload="metadata" playsinline '
         f'src="{RAW_BASE}{rel}?v={(hashval or "0")[:12]}"></video>\n'
         f'<div class="actions">'

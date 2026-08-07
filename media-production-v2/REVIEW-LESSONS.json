@@ -137,15 +137,20 @@
     ]
   },
   "10": {
-    "open": false,
-    "latest": "The only.thing wrong with this one is how fast and meaningles Jesus pronounced the words while telling her he was the messiah. It is a very important text and the speaker says it too fast",
-    "reportedAgainst": "e82197c50004514eca97249f387fc806c85d003a",
-    "resolvedBy": "3dbe56fe3c9b63721bb1faf85d02d3a97944f57d",
+    "open": true,
+    "latest": "The only.thing wrong with this one is how fast and meaningles Jesus pronounced the words while telling her he was the messiah. It is a very important text and the speaker says it too fast.. this is what i asked before and now you messed it up now its too slow and sounds horrible like a robot. whatever you did undo it and make it right",
+    "reportedAgainst": "3dbe56fe3c9b63721bb1faf85d02d3a97944f57d",
+    "resolvedBy": null,
     "history": [
       {
         "text": "The only.thing wrong with this one is how fast and meaningles Jesus pronounced the words while telling her he was the messiah. It is a very important text and the speaker says it too fast",
         "hash": "e82197c50004514eca97249f387fc806c85d003a",
         "createdAt": "2026-08-05T10:29:50.969Z"
+      },
+      {
+        "text": "The only.thing wrong with this one is how fast and meaningles Jesus pronounced the words while telling her he was the messiah. It is a very important text and the speaker says it too fast.. this is what i asked before and now you messed it up now its too slow and sounds horrible like a robot. whatever you did undo it and make it right",
+        "hash": "3dbe56fe3c9b63721bb1faf85d02d3a97944f57d",
+        "createdAt": "2026-08-07T07:10:45.011Z"
       }
     ]
   },
@@ -430,10 +435,10 @@
     ]
   },
   "42": {
-    "open": false,
+    "open": true,
     "latest": "the captions are messed up multiple times match them up to the words, the correct wordage",
     "reportedAgainst": "b35fd2a17c3ca409ea2ac2ded999c1a5c23552f6",
-    "resolvedBy": "fae898d9907629005b6c9b65407992cdb1b7a4f5",
+    "resolvedBy": null,
     "history": [
       {
         "text": "the captions are messed up multiple times match them up to the words, the correct wordage",
@@ -916,10 +921,10 @@
     ]
   },
   "110": {
-    "open": true,
+    "open": false,
     "latest": "this is old pictures version i dont know why im seing it here as fixed",
     "reportedAgainst": "824b4260a3d60a1d69648d37b08bea0aa2546392",
-    "resolvedBy": null,
+    "resolvedBy": "C-FIX 2026-08-07: stale-cache delivery bug fixed (direct raw.githubusercontent host); pictures verified already-realistic, no reroll",
     "history": [
       {
         "text": "this is old pictures version i dont know why im seing it here as fixed",
