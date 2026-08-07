@@ -60,3 +60,26 @@ silver, pointing line lands on her (s12), only Jesus in cream.
 **RESUME (author/audio session):** add `AUDIO_FROM_V1_SEGMENTS = True` to
 beats_v2.py, then `python3 media-production-v2/v2_assemble.py 77` (stills already
 present), QC captions, ship. Then flip AUTHOR-BOARD row 77 → BUILT.
+
+---
+
+## ✅ SHIPPED — 2026-08-07 (Machine A `Dev`, Fable-5 author lane), $0, 0 image credits
+
+**STALE-V1 audio-lock CLEARED + realistic-V2 cut assembled and shipped.** Added
+`AUDIO_FROM_V1_SEGMENTS = True` to beats_v2.py (the RESUME step above). The track
+rebuilt from the 12 V1 segment mp3s at the extract_beats offsets = **98.846 s**, so
+the 1.74 s duration drift is gone and the 16 realistic stills sit on the right words.
+
+- `v2_assemble.py 77` → **AUDIO REBUILD PASS SHA256=6b2142d9c5094459**, 98.8 s,
+  20.9 MB, mark-12_the-widows-mite.mp4. Decodes with **0 errors**.
+- Caption QC (frames @8/40/97 s): captions bottom-band only, scripture light-blue
+  / narrator white, question card clean. Realistic-only (Law 14) holds on all 16 —
+  every frame photographic, no cartoon/mixed frame.
+- **No open Cameron complaint on this row** (`v2_outline.py 77` shows none); this
+  was a build-blocking stale-lock, not a complaint fix. Ledger had `versions: []`
+  (never published) → this is the row's FIRST publish of a v2 cut.
+- 0 pictures touched, 0 rerolls, $0 (no Gemini, no ElevenLabs — edge-tts V1 mp3s
+  rebuilt). Stills unchanged from the A-auto 2026-08-06 generation.
+- Shipped: mp4 + board + QC committed; review.html v77 repointed to the V2 path
+  with data-review-wave="realistic-v2"; firebase deploy + live-verify; publish
+  ledger synced. Board row 77 NEEDS-AUDIO→BUILT, Audio CHECK→OK.

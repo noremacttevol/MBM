@@ -63,6 +63,14 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1 audio-lock clear (Machine A `Dev`, 2026-08-07, Fable-5 author lane):
+# v2_assemble's AUDIO LOCK gate rejected the delivery because the extract_beats
+# timeline (98.846 s) ran 1.74 s longer than the V1 final m4a (97.106 s) — over the
+# abs>1.0 s tolerance — while newer_mp3s=0, so it is a duration drift, not a recency
+# stale. Rebuilding the track from the V1 segment mp3s makes the audio match the
+# extract_beats timeline exactly, so the stills (16, present) sit on the right words.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r077-b01", "out": "s01-jesus-sat-down-across-from.jpeg", "seg": "n0",
