@@ -44,3 +44,20 @@ of them break the story's loneliness-to-sending arc.
 - The healed man's borrowed tunic is a DISCIPLE's spare — plain dark
   wool, never cream.
 - Only Jesus wears cream.
+
+## COMPLAINT LEDGER
+none open — `v2_outline.py 60` shows no filed complaint for this row.
+
+## RUNNER LOG — resume 2026-08-06 (Machine A, A-auto)
+Prior autopilot died mid-build at 24/39 stills. Resumed: portraits already
+set (MAN ref), plates present (TOMBS, TOWN). Generated b25–b39 (15 stills)
+under ceiling $441; `v2_gen_api` resumed clean, no re-pull of the 24 good
+frames (COST LAW). 0 rerolls. Light QC pass — viewed target b28 (after
+picture: man seated clothed & calm at Jesus's feet, only Jesus in cream),
+b25 (stampede over the bank — no drowning close-up), b29 (restored face,
+matches author's "same gaunt bones, hunted look gone"), b27/b32/b35/b39 and
+lone frames b26/b38 (no phantom people, direction correct, columned
+Decapolis background — Gentile country stated, no anachronisms).
+- FIX-WAVE: b28 Jesus's eyes read slightly light/green — subtle drift, not
+  rerolled per COST LAW; flag for the fix wave's face pass.
+$ this run: ~$2.01 · rerolls 0/39 (0%).
