@@ -1,5 +1,34 @@
 # QC / RUNNER HANDOFF — build-107-john-baptist-doubt
 
+## C-FIX 2026-08-07 (Machine A `Dev`) — "0:30 head through metal bars" — SHIPPED
+
+### COMPLAINT LEDGER
+- **OPEN — Cameron: "0:30 picture has his head going through metal bars,
+  weird."** The frame at 0:25-0:30 is `s05-he-sent-two-of-his.jpeg` (beat
+  v2-r107-b05, window 21.89-28.97). The original render pushed John's face and
+  both hands forward into the small barred grate so it read as his head poking
+  THROUGH the metal bars. **FIXED** — rerolled s05 (2 takes, within the max-2
+  reroll budget). New frame: John is clearly INSIDE the cell (left), chained at
+  the wrist, gripping the bars from his own side and speaking through the grate
+  to his two messengers standing in the corridor (right). His head is beside the
+  barred panel, not through it. Story-logic now correct (John visibly
+  imprisoned). Re-checked all gates on the new take: ordinary scale (no giant),
+  two distinct messengers (older grey/brown + younger dark/slate — no twins),
+  no cream robe (Jesus not in frame), photographic (no cartoon/mix), no modern
+  objects (iron manacle/chain period-correct), full dark beard on John, nobody
+  staring into the lens, correct anatomy.
+- No other open complaint on this row (prior giants/twins complaint already
+  FIXED in the 2026-08-06 ship, below).
+
+### AUDIO / COST
+- AUDIO LOCK PASS SHA256=9d120694cb1dff9e8ec8d8e24413230269a19b6cede0b9cb8746b54fdceee4d8
+  — byte-identical to the shipped audio, 156.7s, 19.7 MB. Only s05 touched;
+  the other 24 stills untouched.
+- 2 rerolls of 1 beat, ~$0.26 (meter $423.98 → $424.24). Touch-once: the only
+  open complaint was this one, so one re-cut closes the row.
+
+---
+
 Complaint-gate addendum, 2026-08-05 (Machine A).
 
 ## OPEN CAMERON COMPLAINT — gates before build
