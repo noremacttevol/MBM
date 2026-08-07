@@ -76,6 +76,13 @@ LOCKS = {
 
 REF = True
 
+# AUDIO_FROM_V1_SEGMENTS (2026-08-07, AUDIO-FIX Machine A Dev): STALE-V1-FINAL park.
+# The V1 final MP4 (193.3s, 07-29) predates the 15 re-voiced mp3s (163.1s), so the
+# recency/duration gate refuses the plain AUDIO LOCK. Rebuild the narration track from
+# the V1 mp3s at the extract_beats offsets. Verified: rebuilt track = 163.079s ==
+# extract_beats total to the ms (gate PASS). Stills reusable, no regen, $0 audio.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r113-b01", "out": "s01-in-the-beginning-there-was.jpeg", "seg": "n1",

@@ -1,5 +1,22 @@
 # QC / RUNNER HANDOFF — build-113-where-art-thou (Genesis 3)
 
+## ✅ SHIPPED — AUDIO-FIX 2026-08-07 (Machine A `Dev`): STALE-V1-FINAL cleared, realistic cut LIVE
+The 26 realistic stills (GOD embodied per Cameron's complaint — see below) were done
+and QC-PASS, but `v2_assemble` failed the AUDIO LOCK: the V1 final MP4 (193.3s, 07-29)
+was stale vs the 15 re-voiced mp3s (163.1s timeline). Fix (audio-only, $0): set
+`AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py so the track rebuilds from the V1 mp3s
+at the extract_beats offsets. VERIFIED the rebuild gate: track = 163.079s == extract_beats
+total to the ms (AUDIO REBUILD PASS `4cdc391c…`). Re-assembled the full realistic cut
+(`genesis-3_where-art-thou.mp4`, 163.1s, git-blob `9aeeb822`, decodes 0 errors); frame
+spot-checks confirm the embodied Father (s26 white-haired elder in white robe) and Adam &
+Eve clothed in skins (s21), realistic throughout, captions in sync. No stills regenerated,
+no re-voice. Reviewer card repointed to the V2 realistic path + git-blob hash, answering
+the God-embodied complaint in Cameron's words; deployed + live-verified. Board row 113
+NEEDS-AUDIO→BUILT, Audio CHECK→OK.
+
+---
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 26 beats, ~147 s.
 
