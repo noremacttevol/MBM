@@ -7,15 +7,16 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T16:21:02_
+_Last sync: 2026-08-07T16:48:54_
 
 ## Summary
 
+- **APPROVED — not published** — 4 row(s)
 - **BUILDING** — 70 row(s)
 - **LIVE — OLD STYLE (v1)** — 43 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 43 row(s)
+- **ON REVIEWER — awaiting Cameron** — 39 row(s)
 
 ## The rows
 
@@ -90,7 +91,7 @@ _Last sync: 2026-08-07T16:21:02_
 | 67 | The Transfiguration | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 69 | Baptism of Jesus | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 70 | The Temptations | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 70 | The Temptations | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 71 | The Great Commission | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 72 | Calling Matthew | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 73 | This Day Fulfilled | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
@@ -103,10 +104,10 @@ _Last sync: 2026-08-07T16:21:02_
 | 80 | Come Unto Me | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 81 | Render Unto Caesar | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 82 | Anointing At Bethany | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 83 | Weeping Over Jerusalem | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 83 | Weeping Over Jerusalem | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 84 | No Room: the Manger | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 85 | Shepherds and Angels | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 86 | The Wise Men | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 86 | The Wise Men | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 87 | Boy in the Temple | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 88 | Triumphal Entry | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 89 | The Last Supper | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
@@ -132,7 +133,7 @@ _Last sync: 2026-08-07T16:21:02_
 | 109 | Ask, Seek, Knock | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 110 | The Lord's Prayer | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 111 | Lilies and Sparrows | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 112 | The Beatitudes | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 112 | The Beatitudes | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 113 | Where Art Thou? | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 114 | Abraham Pleads for Sodom | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 115 | The Ram in the Thicket | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
