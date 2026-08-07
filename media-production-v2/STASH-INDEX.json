@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 09:13:41",
+ "scanned": "2026-08-07 09:44:08",
  "entries": [
   {
    "row": 1,
@@ -27387,6 +27387,824 @@
    "night": false,
    "n_person": 0,
    "scene": "At the table's end, close along the row of the friends' faces in the lamplight: the big fisherman's cup stopped halfway to his mouth, the younger brother looking from the wine to the teacher and back, the quiet one simpl"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b01",
+   "file": "build-50-noblemans-son/assets/s01-cana-again.jpeg",
+   "tokens": [
+    "CANA"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus walks up a narrow sunlit lane into the hill village, the camera at the lane's side taking his walk in profile, travel-dusty and at ease, and the village is already turning toward him \u2014 a woman setting down her wate"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b02",
+   "file": "build-50-noblemans-son/assets/s02-word-spreading.jpeg",
+   "tokens": [
+    "CANA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the low stone well in the village's small open square, a cluster of villagers lean in as an excited older woman tells them the news, her hands mid-gesture \u2014 and beyond them a young man is already hurrying away down th"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b03",
+   "file": "build-50-noblemans-son/assets/s03-the-sick-son.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "BOY",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "In a lamplit room of the fine stone house at night, the official sits on a low stool drawn close against his son's bed, leaning forward with his forearms on his knees, watching the boy's flushed sleeping face. The child "
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b04",
+   "file": "build-50-noblemans-son/assets/s04-a-man-of-rank.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The official stands at a night-dark window opening of his own colonnaded court, lamplight from the sickroom behind him catching the gold-thread border of his fine indigo-violet robe and the bronze clasp of his belt \u2014 a m"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b05",
+   "file": "build-50-noblemans-son/assets/s05-no-use-now.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "BOY",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close at the bedside in warm lamplight: the official's broad hand, a heavy signet ring on one finger, rests gently on his small son's burning forehead, and above it the father's face is helpless \u2014 the face of a man whose"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b06",
+   "file": "build-50-noblemans-son/assets/s06-out-of-answers.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "BOY",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the lamplit sickroom an elderly physician in a dark grey-brown robe straightens up from the bed and closes his worn leather satchel of clay vials, his eyes down, unable to meet the father's stare \u2014 the official stands"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b07",
+   "file": "build-50-noblemans-son/assets/s07-he-heard.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "HOUSE",
+    "SERVANTS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the colonnaded court at first grey light, the young dark-curled servant in olive-brown wool stands breathless before his master, one arm flung out pointing away toward the hills inland, mouth open mid-word \u2014 and the o"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b08",
+   "file": "build-50-noblemans-son/assets/s08-dropped-everything.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "HOUSE",
+    "SERVANTS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The official strides out through the stone gateway of his own house into the dawn street, throwing the end of his fine indigo-violet robe over one shoulder as he goes, his face set hard toward the hills \u2014 behind him in t"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b09",
+   "file": "build-50-noblemans-son/assets/s09-uphill-road.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "SHOT FROM BEHIND THE OFFICIAL, low on the stony road, his back to the camera as he climbs AWAY from us up the long pale track into the terraced hills, robe hitched clear of his ankles, leaning into the grade with a trave"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b10",
+   "file": "build-50-noblemans-son/assets/s10-he-found-jesus.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "CANA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In Cana's small open square under a high midday sun, the official has pushed through to Jesus and stands begging \u2014 bent forward, both hands reaching out open toward him, his fine indigo-violet robe grey with road dust to"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b11",
+   "file": "build-50-noblemans-son/assets/s11-no-pride-left.jpeg",
+   "tokens": [
+    "NOBLEMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A tight shot in hard midday light: the official's face fills one side of the frame, sweat cutting tracks through the road dust on his temple, his deep-set eyes wet and locked upward on Jesus in open desperation, his mout"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b12",
+   "file": "build-50-noblemans-son/assets/s12-signs-and-wonders.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "CANA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus speaks, his face gentle and grave at once, one open hand turned slightly outward to take in the listening crowd around the square while his eyes stay steadily on the official in front of him \u2014 and the villagers exc"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b13",
+   "file": "build-50-noblemans-son/assets/s13-reaching-past-panic.jpeg",
+   "tokens": [
+    "NOBLEMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot in bright midday light, the square's crowd fallen away to soft blur: Jesus and the official face to face at conversation distance, and the frame holds the meeting of their eyes \u2014 the official's face taut"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b14",
+   "file": "build-50-noblemans-son/assets/s14-invited-to-trust.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face under the high sun, looking very slightly past the camera at the man before him \u2014 warm brown eyes steady and open, the faint beginning of kindness at the corners of his mouth, the face of someone ho"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b15",
+   "file": "build-50-noblemans-son/assets/s15-he-says-it-again.jpeg",
+   "tokens": [
+    "NOBLEMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The official stands before Jesus with both hands open at his sides, palms turned forward and empty, his shoulders down out of their soldier's set at last \u2014 his dusty face is plain and breaking as he says it again, nothin"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b16",
+   "file": "build-50-noblemans-son/assets/s16-ere-my-child-die.jpeg",
+   "tokens": [
+    "NOBLEMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A very tight shot of the official's face in hard midday light, filling the frame: road dust in the grey of his beard, his jaw unsteady, his dark eyes fixed up and pleading on the man before him, lips mid-word on the only"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b17",
+   "file": "build-50-noblemans-son/assets/s17-the-whole-prayer.jpeg",
+   "tokens": [
+    "NOBLEMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The square has gone silent around the two of them under the vertical noon light: the official stands spent, his open hands still forward from the asking, chest rising and falling \u2014 and Jesus stands close before him, head"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b18",
+   "file": "build-50-noblemans-son/assets/s18-thy-son-liveth.jpeg",
+   "tokens": [
+    "NOBLEMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus as he says it: his face calm and absolutely certain, eyes steady on the official's, one hand lifted only a little between them, palm easing gently downward like a man settling a frightened animal \u2014 the who"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b19",
+   "file": "build-50-noblemans-son/assets/s19-just-a-word.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "CANA",
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "A wide shot, the camera at the edge of Cana's square behind the two men's shoulders, where the village brow drops away: Jesus and the dust-streaked official stand facing each other in the near frame, the word just spoken"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b20",
+   "file": "build-50-noblemans-son/assets/s20-he-turned-home.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "CANA",
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "SHOT FROM BESIDE JESUS, over his shoulder: in the near frame Jesus stands watching, calm, and a few paces beyond him the official is caught mid-stride WALKING AWAY FROM JESUS AND AWAY FROM THE CAMERA onto the road out of"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b21",
+   "file": "build-50-noblemans-son/assets/s21-the-long-walk.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A very wide shot of the empty hill road in late-afternoon light: the official is a small lone figure descending the pale track as it winds down through the terraced folds, SEEN FROM THE SIDE AND SLIGHTLY BEHIND so he mov"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b22",
+   "file": "build-50-noblemans-son/assets/s22-servants-running.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "SERVANTS",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "THE CAMERA STANDS BESIDE AND SLIGHTLY BEHIND THE OFFICIAL on the morning road, his travel-worn profile in the near frame stopped dead mid-stride, staff frozen against the ground \u2014 and far DOWN the road ahead of him, dire"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b23",
+   "file": "build-50-noblemans-son/assets/s23-thy-son-liveth-again.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "SERVANTS",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two servants have reached their master on the stony road and all but fall against him \u2014 the young one gripping the official's forearm with both hands, face split wide with joy, mouth open mid-shout, the older grey-be"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b24",
+   "file": "build-50-noblemans-son/assets/s24-the-same-two-words.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "SERVANTS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the official's travel-worn face in the clear morning light, the young servant's shining face just in frame beside his shoulder: the father's eyes have gone wide and wet, his mouth is coming open, and across his "
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b25",
+   "file": "build-50-noblemans-son/assets/s25-what-hour.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "SERVANTS",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "On the bright morning road the official has seized the older grey-bearded servant by both shoulders, bent close, his face fierce and urgent with the question \u2014 and the old servant, still catching his breath, answers with"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b26",
+   "file": "build-50-noblemans-son/assets/s26-the-same-hour.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "SERVANTS",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The official has turned where he stands to look back UP the long pale road as it climbs away behind him into the hills toward Cana, one hand risen slowly to his mouth \u2014 his face, seen in profile against the high country,"
+  },
+  {
+   "row": 50,
+   "build": "build-50-noblemans-son",
+   "beat": "v2-r050-b27",
+   "file": "build-50-noblemans-son/assets/s27-his-whole-house.jpeg",
+   "tokens": [
+    "NOBLEMAN",
+    "BOY",
+    "HOUSE",
+    "SERVANTS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "In the colonnaded court of the Capernaum house in warm late-day light, the camera behind the gathered household's shoulders, in light, the official has dropped to one knee with his small son caught up whole and laughing "
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b01",
+   "file": "build-51-first-catch-of-fish/assets/s01-the-crowd-pressed.jpeg",
+   "tokens": [
+    "LAKE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the pebble shore in soft early-morning light, the camera at the water's edge taking shore and crowd from the side, Jesus stands almost at the waterline with the crowd pressing close around him in a tightening half-rin"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b02",
+   "file": "build-51-first-catch-of-fish/assets/s02-two-empty-boats.jpeg",
+   "tokens": [
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The two dark cedar fishing boats sit beached side by side at the shingle's edge in low morning light, empty \u2014 oars shipped, sails furled, wet brown nets hanging over their gunwales and not one fish in either hull. Down t"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b03",
+   "file": "build-51-first-catch-of-fish/assets/s03-washing-empty-nets.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "LAKE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Simon stands ankle-deep in the cold shallows dragging a long brown net through the water to rinse it, his charcoal-brown tunic soaked to the thigh, his bearded face slack and grey with a whole night's wasted work \u2014 and b"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b04",
+   "file": "build-51-first-catch-of-fish/assets/s04-he-stepped-aboard.jpeg",
+   "tokens": [
+    "SIMON",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus steps unhurried over the gunwale into the beached boat, one hand steadying himself on the stubby mast, plainly INSIDE the hull with the deck taking his weight \u2014 while Simon, a few steps off in the shallows with the"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b05",
+   "file": "build-51-first-catch-of-fish/assets/s05-taught-from-the-water.jpeg",
+   "tokens": [
+    "SIMON",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The boat floats a stone's throw off the beach on flat bright water, the camera on the beach behind the banked crowd's shoulders looking out to it, on water, and Jesus SITS in the stern teaching, one hand moving with the "
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b06",
+   "file": "build-51-first-catch-of-fish/assets/s06-launch-out.jpeg",
+   "tokens": [
+    "SIMON",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the floating boat Jesus has turned from the shore to face Simon at close quarters, his face calm and direct, one hand lifted in a small open motion out toward the wide empty water beyond the bow \u2014 and Simon, still at "
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b07",
+   "file": "build-51-first-catch-of-fish/assets/s07-bone-tired.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A tight shot of Simon's weathered face in the climbing morning light: red-rimmed eyes, salt dried white in the creases at his temples and in his dark beard, the heavy-lidded thousand-yard look of a man at the end of a wa"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b08",
+   "file": "build-51-first-catch-of-fish/assets/s08-every-instinct.jpeg",
+   "tokens": [
+    "SIMON",
+    "BOATS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Simon looks down at the heap of wet brown net piled amidships between his feet, one scarred hand resting on the folds, then out across the flat glaring mid-morning water where no fisherman would waste a cast \u2014 his face r"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b09",
+   "file": "build-51-first-catch-of-fish/assets/s09-something-about-this-man.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot low in the boat: Simon's eyes have come up from the piled net to Jesus's face, and Jesus meets the look without blinking, steady and unhurried \u2014 and in the fisherman's heavy tired features something is v"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b10",
+   "file": "build-51-first-catch-of-fish/assets/s10-at-thy-word.jpeg",
+   "tokens": [
+    "SIMON",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Simon speaks straight at Jesus, his jaw working through the sentence, one hand thrown open toward the empty hull as witness of the empty night \u2014 but his other hand has already closed on the top fold of the piled net, the"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b11",
+   "file": "build-51-first-catch-of-fish/assets/s11-out-to-the-deep.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The single boat pulls away across open water toward the deep, Simon and the young crewman bent to the oars in matched stroke, wakes curling off the blades, the crowd and the beached second boat shrinking on the bright sh"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b12",
+   "file": "build-51-first-catch-of-fish/assets/s12-the-net-goes-down.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Out on the still deep water Simon and the crewman stand braced inside the hull feeding the long brown net steadily out over the gunwale, the flax folds sliding from their hands into dark blue water that shows them absolu"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b13",
+   "file": "build-51-first-catch-of-fish/assets/s13-the-nets-filled.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The net-ropes in both men's hands have snapped violently taut over the gunwale, jerking Simon and the crewman forward against their own grip, and alongside the hull the dark water has erupted into a churning, flashing ma"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b14",
+   "file": "build-51-first-catch-of-fish/assets/s14-the-net-began-to-tear.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Simon and the crewman haul side by side, backs bent double over the gunwale, forearms corded, dragging the net up to the surface where it bulges wide with a shining, heaving mass of silver fish \u2014 and along one strained s"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b15",
+   "file": "build-51-first-catch-of-fish/assets/s15-too-many-for-one-boat.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The catch comes over the side in a broad silver spill as both men tip a full bight of net inboard \u2014 fish sliding and slapping across the deck boards around their bare feet, the hull visibly heeled toward the heavy net st"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b16",
+   "file": "build-51-first-catch-of-fish/assets/s16-they-waved-for-help.jpeg",
+   "tokens": [
+    "CREWMAN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The young crewman stands braced on the fish-slicked deck, the camera off the beam holding both boats in profile across the water, with both arms swinging high over his head in great urgent arcs, signalling across the bri"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b17",
+   "file": "build-51-first-catch-of-fish/assets/s17-both-boats-sinking.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "JAMESJOHN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "The two boats lie lashed side by side on the bright water, the camera low off their beam so both hulls and the waterline read in profile, both heaped to the thwarts with glittering silver fish, both hulls pressed so deep"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b18",
+   "file": "build-51-first-catch-of-fish/assets/s18-at-his-knees.jpeg",
+   "tokens": [
+    "SIMON",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Simon has gone down heavily onto his knees in the slither of silver fish covering the deck, his scarred hands gripping at Jesus's knees where he sits in the stern, his head dropping \u2014 a big man folding like his strings w"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b19",
+   "file": "build-51-first-catch-of-fish/assets/s19-not-thank-you.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A tight shot of Simon's upturned face from just above: the triumph a fisherman should be wearing on the best morning of his life is nowhere in it \u2014 instead his eyes are wide and wet and frightened in a way deep water nev"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b20",
+   "file": "build-51-first-catch-of-fish/assets/s20-depart-from-me.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Low in the fish-heaped stern, Simon kneels with his fists knotted in the cloth at Jesus's knee, face lifted and broken open on the words, begging this man to go away from him \u2014 and Jesus's face, close above his, receives"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b21",
+   "file": "build-51-first-catch-of-fish/assets/s21-kneeling-in-fish.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "JAMESJOHN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "A wider frame of the lashed boats riding low: Simon kneels amid the shin-deep silver hoard at Jesus's knees, head down now \u2014 and around the two of them everything has stopped, the crewman frozen with a fish still in his "
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b22",
+   "file": "build-51-first-catch-of-fish/assets/s22-who-this-was.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot: Simon's face has come up again, tear-tracks cutting the salt on his cheeks, and his eyes have changed \u2014 the fear still in them, but underneath it the dawning, unbearable recognition of exactly whose boa"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b23",
+   "file": "build-51-first-catch-of-fish/assets/s23-fear-not.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus leans forward from the stern seat and sets his hand firmly on Simon's soaked shoulder, his face close over the kneeling fisherman, speaking the words with a small certain warmth at the corners of his mouth \u2014 the ha"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b24",
+   "file": "build-51-first-catch-of-fish/assets/s24-he-calls-him.jpeg",
+   "tokens": [
+    "SIMON",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the low-riding boat Jesus has risen to his feet on the deck and grips Simon's forearm, drawing the big man up out of the heaped silver fish \u2014 Simon coming up unsteady, knee-deep in the catch, his tear-streaked face a "
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b25",
+   "file": "build-51-first-catch-of-fish/assets/s25-the-catch-left-lying.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "JAMESJOHN",
+    "LAKE",
+    "BOATS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The two boats stand beached and heeled on the shingle, the camera behind the abandoned catch looking down the shore after the leaving men, and spilling from them across the wet stones lies the greatest catch four fisherm"
+  },
+  {
+   "row": 51,
+   "build": "build-51-first-catch-of-fish",
+   "beat": "v2-r051-b26",
+   "file": "build-51-first-catch-of-fish/assets/s26-they-followed-him.jpeg",
+   "tokens": [
+    "SIMON",
+    "CREWMAN",
+    "JAMESJOHN",
+    "LAKE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "SHOT FROM BEHIND THE FIVE MEN, all of their backs to the camera as they walk AWAY from us along the curve of the shore road \u2014 Jesus a pace in front, Simon at his shoulder, the crewman and the two brothers falling in behi"
   },
   {
    "row": 52,

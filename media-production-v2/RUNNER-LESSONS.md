@@ -313,6 +313,23 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   take build-XX's <TOKEN>" or "promote-first," clear PLACE-WIRING.json (echo '{}'
   > it), generate the anchor beat, eyeball it, and `--promote` from THIS row's own
   frame. A copied wrong-region plate would propagate the wrong place to every beat.
+- **`v2_stash.py --wire` OVERWRITES an already-committed PLACE-WIRING.json entry
+  with a different (newer) source build (2026-08-07, row 50 ROAD).** The author had
+  committed `ROAD ← build-38-persistent-widow b39`; running `--wire` at build time
+  silently rewrote it to `build-79-the-seventy-sent` (a newer ROAD that didn't exist
+  at authoring time). Both are valid ROAD plates, but the runner must not override
+  the AUTHOR's committed wiring. DETECT: `git diff PLACE-WIRING.json` right after any
+  `--wire`; if an EXISTING token's src_build changed, `git checkout PLACE-WIRING.json`
+  to restore the committed choice. `--wire` is only for tokens with NO committed entry.
+- **DECLINE a place plate when its token spans two different rooms/times-of-day
+  (2026-08-07, row 50 HOUSE).** Row 50's HOUSE token covers BOTH a night lamplit
+  sickroom (b03-b06) AND a bright daytime colonnaded court (b27). Promoting either
+  as the single plate bleeds the wrong time-of-day onto the other (the row-101/103
+  plate-composition class), and a reroll can't fix it because the plate re-attaches.
+  When the receiving beats are genuinely different scenes, DON'T promote — leave the
+  token plate-free so each beat renders its own place/time; the CHARACTER refs
+  (NOBLEMAN/BOY) already hold identity, and each beat came out correct (verified b27
+  as the day court with sea view). Minor within-room architecture drift is FIX-WAVE.
 - **A big "crowd streaming up a real Galilee slope" wide comes back as a MODERN
   PILGRIMAGE PHOTO — the background fills with tourists in ballcaps, sunglasses,
   backpacks, windbreakers and a lanyard** (row 68 b30 `no-names`): asking for a
