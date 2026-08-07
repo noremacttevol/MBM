@@ -71,3 +71,23 @@ python3 media-production-v2/v2_story_cast.py build-89-last-supper --ceiling <c>
 python3 media-production-v2/v2_gen_api.py build-89-last-supper --ceiling <c>
 python3 media-production-v2/v2_assemble.py 89
 ```
+
+---
+
+## ✅ REALISTIC V2 SHIPPED — A-auto runner (Machine A `Dev`, 2026-08-07, unattended)
+
+**COMPLAINT LEDGER:** none open (`v2_outline.py 89` shows no Cameron complaint). New realistic-V2 first-attempt cut.
+
+**What was built:** 16 realistic stills on the promote-first ROOM plate (s01 promoted → 12 ROOM beats). 0 portraits (PETER/JOHN carry global sheets). AUDIO REBUILD PASS SHA256 29a5b1d0…, 94.1s, 20.1 MB, AUDIO_FROM_V1_SEGMENTS (14 V1 mp3s, byte-identical narration — no re-voice).
+
+**Rerolls (2/16 = 12.5%, within ≤15% COST-LAW budget):**
+- b02 (establishing wide) — first take rendered PAINTERLY/illustration (Law-14 realistic/cartoon MIX) with a hooded lighter-haired Jesus + a room the plate had been payload-dropped from; reroll landed a photographic take matching the set, complete warm ring, only-Jesus-cream.
+- b06 (took the bread) — first take was a 4-panel COLLAGE (RUNNER-LESSONS collage class); reroll landed a single coherent bread-breaking frame on the ROOM plate.
+
+**Row spend ≈ $2.15 (b01 anchor $0.13 + 15 beats $2.01 + 2 rerolls $0.27), meter → $472.89. WELL under the $6.10/row running average — COST LAW trend DOWN.**
+
+**STALE-WINDOW REMAP (runner timing-only, row-42/row-74 class, no re-voice/reroll):** beats_v2 windows were scaffolded on the old ~101.9s timeline; live audio is 94.129s (card_start 86.979). First assemble placed stills on the stale windows → b16's window (88.66-93.30) started AFTER live card_start, so **s16 (the person-free "bread and cup remain" closer) was dropped** and its n5 caption landed over s15 (the hymn); video_silent 95.9s vs audio 94.13s. FIX: remapped all 16 windows onto the live extract per-segment slices (piecewise-linear, split ratios preserved for the 3 multi-beat segments n1/n2b/n4; b16 → 81.132-86.979). Re-assembled: video_silent 94.133 == audio 94.129, **AUDIO SHA256 UNCHANGED (29a5b1d0…)** proving audio byte-identical. Verified in rendered mp4: s16 shows at 0:83 with its matching caption, card clean at 0:88.
+
+**FIX-WAVE:** the promoted ROOM plate (s01) carries a small period-ambiguous fork among the table utensils; it propagates to the wide ROOM frames (s05/s09/s10/s12/s16). Background, non-subject; rerolling re-attaches the plate, so left for the fix wave.
+
+**Face/beard/scale/anatomy:** PETER/JOHN held by global sheets; only Jesus cream throughout; lamplit night throughout (correct story darkness); Jesus green/hazel eyes are the baked V2 ref (NOT rerolled — systemic). Sacrament frames (s06 break, s07 body, s10/s11 cup, s08 hands insert) read correctly.

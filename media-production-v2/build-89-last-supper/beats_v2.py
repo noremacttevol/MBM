@@ -63,7 +63,7 @@ AUDIO_FROM_V1_SEGMENTS = True
 BEATS = [
     {
         "id": "v2-r089-b01", "out": "s01-the-passover-had-come.jpeg", "seg": "n0a",
-        "window": "0.40-2.07", "wide": False, "jesus": False, "ref": False,
+        "window": "0.400-3.387", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM", "MEAL"],
         "narration": "The Passover had come.",
         "must_show": "the eve — the upper room ready in lamplight: the low table laid with the Passover meal, cushions set, the night at the window; the hour arrived.",
@@ -89,7 +89,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b02", "out": "s02-jesus-gathered-his-closest-friends.jpeg", "seg": "n0b",
-        "window": "3.75-9.88", "wide": True, "jesus": True, "ref": REF,
+        "window": "3.387-10.895", "wide": True, "jesus": True, "ref": REF,
         "locks": ["ROOM", "MEAL", "PETER", "JOHN"],
         "narration": (
             "Jesus gathered his closest friends around one table in an upper "
@@ -119,7 +119,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b03", "out": "s03-with-desire-i-have-desired.jpeg", "seg": "jv15",
-        "window": "11.54-16.42", "wide": False, "jesus": True, "ref": REF,
+        "window": "10.895-16.455", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM"],
         "narration": (
             "With desire I have desired to eat this passover with you before "
@@ -147,7 +147,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b04", "out": "s04-i-have-wanted-this-meal.jpeg", "seg": "n1",
-        "window": "18.19-24.15", "wide": False, "jesus": True, "ref": REF,
+        "window": "16.455-22.770", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "PETER", "JOHN"],
         "narration": (
             "I have wanted this meal with you, he told them — wanted it "
@@ -175,7 +175,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b05", "out": "s05-he-knew-what-was-coming.jpeg", "seg": "n1",
-        "window": "24.15-30.12", "wide": False, "jesus": True, "ref": REF,
+        "window": "22.770-29.097", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "MEAL"],
         "narration": (
             "He knew what was coming that night, and what he wanted first "
@@ -204,7 +204,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b06", "out": "s06-then-he-took-the-bread.jpeg", "seg": "n2",
-        "window": "31.82-35.86", "wide": False, "jesus": True, "ref": REF,
+        "window": "29.097-35.089", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "MEAL"],
         "narration": (
             "Then he took the bread, gave thanks, broke it, and gave it to "
@@ -232,7 +232,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b07", "out": "s07-this-is-my-body-which.jpeg", "seg": "j1",
-        "window": "37.50-42.47", "wide": False, "jesus": True, "ref": REF,
+        "window": "35.089-40.831", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEAL"],
         "narration": (
             "This is my body which is given for you: this do in remembrance "
@@ -260,7 +260,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b08", "out": "s08-do-this-to-remember-me.jpeg", "seg": "n2b",
-        "window": "44.12-45.44", "wide": False, "jesus": False, "ref": False,
+        "window": "40.831-42.387", "wide": False, "jesus": False, "ref": False,
         "locks": ["MEAL"],
         "narration": "Do this to remember me.",
         "must_show": "the remembrance begun — close on disciples' hands receiving the broken pieces around the table: rough hands taking bread they will take for the rest of their lives.",
@@ -285,7 +285,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b09", "out": "s09-not-a-symbol-he-was.jpeg", "seg": "n2b",
-        "window": "45.44-51.55", "wide": True, "jesus": True, "ref": REF,
+        "window": "42.387-49.587", "wide": True, "jesus": True, "ref": REF,
         "locks": ["ROOM", "MEAL"],
         "narration": (
             "Not a symbol he was explaining — a gift he was handing over, "
@@ -314,7 +314,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b10", "out": "s10-after-the-meal-he-lifted.jpeg", "seg": "n3",
-        "window": "53.23-56.07", "wide": False, "jesus": True, "ref": REF,
+        "window": "49.587-54.280", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "MEAL"],
         "narration": "After the meal he lifted the cup, and gave it to them, too.",
         "must_show": "SCRIPTURE-EXACT: the cup after supper — Jesus lifting the great two-handled clay cup in both hands over the finished meal, the ring's eyes rising with it.",
@@ -339,7 +339,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b11", "out": "s11-this-cup-is-the-new.jpeg", "seg": "j2",
-        "window": "57.79-61.69", "wide": False, "jesus": True, "ref": REF,
+        "window": "54.280-59.093", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEAL"],
         "narration": "This cup is the new testament in my blood, which is shed for you.",
         "must_show": "SCRIPTURE-EXACT: the covenant named — close on the held cup and Jesus's steady face over it; NEW TESTAMENT... FOR YOU, spoken like the signing it is.",
@@ -363,7 +363,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b12", "out": "s12-a-brand-new-promise-between.jpeg", "seg": "n3b",
-        "window": "63.36-68.38", "wide": True, "jesus": True, "ref": REF,
+        "window": "59.093-65.463", "wide": True, "jesus": True, "ref": REF,
         "locks": ["ROOM", "MEAL"],
         "narration": (
             "A brand new promise between God and people, and he was signing "
@@ -391,7 +391,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b13", "out": "s13-for-i-say-unto-you.jpeg", "seg": "jv18",
-        "window": "70.03-77.09", "wide": False, "jesus": True, "ref": REF,
+        "window": "65.463-71.604", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MEAL"],
         "narration": (
             "For I say unto you, I will not drink of the fruit of the vine, "
@@ -418,7 +418,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b14", "out": "s14-he-was-telling-them-this.jpeg", "seg": "n4",
-        "window": "78.82-83.05", "wide": False, "jesus": True, "ref": REF,
+        "window": "71.604-76.508", "wide": False, "jesus": True, "ref": REF,
         "locks": ["ROOM", "PETER", "JOHN"],
         "narration": (
             "He was telling them this was not goodbye — it was see you at "
@@ -446,7 +446,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b15", "out": "s15-then-he-and-his-friends.jpeg", "seg": "n4",
-        "window": "83.05-87.04", "wide": True, "jesus": True, "ref": REF,
+        "window": "76.508-81.132", "wide": True, "jesus": True, "ref": REF,
         "locks": ["ROOM"],
         "narration": (
             "Then he and his friends sang together and walked out into the "
@@ -476,7 +476,7 @@ BEATS = [
     },
     {
         "id": "v2-r089-b16", "out": "s16-the-bread-and-the-cup.jpeg", "seg": "n5",
-        "window": "88.66-93.30", "wide": False, "jesus": False, "ref": False,
+        "window": "81.132-86.979", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM", "MEAL"],
         "narration": (
             "The bread and the cup, still on the table — a gift to remember "
@@ -512,5 +512,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "ROOM": "PLACE-REF/room.jpeg",  # build-89-last-supper s01-the-passover-had-come (manual)
 }
 # === end PLACE-PLATES ===

@@ -414,6 +414,7 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   re-assemble; AUDIO REBUILD SHA256 stays identical (audio untouched). This is a
   SYSTEMIC risk for the whole 74/78/80/82/86-100/105/106/108 STALE-V1 batch —
   verify captioned≈card_start on each before shipping.
+  - **Even a SMALL stale drift (~1.7s) silently DROPS the final beat entirely, not just chops the tail (2026-08-07, row 89 last-supper).** v2_assemble places each still from its beats_v2 window START to the NEXT beat's start (or card_start for the last) — so if the LAST beat's window start sits just past the live card_start, its slot is NEGATIVE and that still is skipped, and its caption lands over the previous still. Row 89: b16 window 88.66 > live card_start 86.979 → s16 (the person-free closer) dropped, its n5 caption shown over s15 (the hymn); video_silent 95.9 vs audio 94.13. Watch for a rendered still COUNT less than the beat count (assemble log lists s01..s15 for 16 beats), not just a big duration gap. Same fix: remap all windows onto the live per-segment slices (preserve split ratios for multi-beat segments), last beat → card_start; audio SHA stays identical.
 - **AUDIO LOCK fails with "extracted timeline Ns but authoritative V1 final Ms"
   when the V1 mp4 is STALE (2026-08-06, row 69).** If a build's
   `make_narration.py` (or narration segments) was edited AFTER the V1 mp4 was
