@@ -3,6 +3,19 @@
   "rule": "POSTABLE = approved:true AND approvedHash == data-hash on site/review.html AND file bytes verified against the approved cut. Exports come from git objects, never the working tree (the autopilot rewrites working-tree mp4s).",
   "postable": [
     {
+      "row": 1,
+      "title": "Woman Who Touched His Cloak",
+      "scripture": "Mark 5",
+      "duration": "1:49",
+      "approvedHash": "a5c874613effca80c65ee5774e56b0c49d10aa27",
+      "hashScheme": "commit",
+      "servedBlob": "82b71c7cfe72bd73734838ebdec96e0a21b1702b",
+      "approvedAt": "2026-08-07T03:49:55.495Z",
+      "repoPath": "media-production-v2/build-01-cloak/mark-5_woman-touches-his-cloak-realistic-v3.mp4",
+      "exportPath": "social/exports/row-001-woman-who-touched-his-cloak.mp4",
+      "cover": "social/covers/row-001.jpg"
+    },
+    {
       "row": 2,
       "title": "The Prodigal Son",
       "scripture": "Luke 15",
@@ -92,6 +105,19 @@
       "repoPath": "media-production-v2/build-08-lost-coin/luke-15_lost-coin-realistic-v2.mp4",
       "exportPath": "social/exports/row-008-the-lost-coin.mp4",
       "cover": "social/covers/row-008.jpg"
+    },
+    {
+      "row": 9,
+      "title": "The Rich Young Ruler",
+      "scripture": "Mark 10",
+      "duration": "3:17",
+      "approvedHash": "e4d3919adae63e960bdd5390b6df3104ebef5138",
+      "hashScheme": "commit",
+      "servedBlob": "a9f1ba10890d7281021a5591a32e4ce8f52ba597",
+      "approvedAt": "2026-08-07T03:54:32.476Z",
+      "repoPath": "media-production-v2/build-09-rich-ruler/mark-10_rich-ruler-realistic-v2.mp4",
+      "exportPath": "social/exports/row-009-the-rich-young-ruler.mp4",
+      "cover": "social/covers/row-009.jpg"
     },
     {
       "row": 12,
@@ -534,6 +560,19 @@
       "repoPath": "media-production-v2/build-101-still-small-voice/1kings-19_the-still-small-voice.mp4",
       "exportPath": "social/exports/row-101-the-still-small-voice.mp4",
       "cover": "social/covers/row-101.jpg"
+    },
+    {
+      "row": 114,
+      "title": "Abraham Pleads for Sodom",
+      "scripture": "Genesis 18",
+      "duration": "2:23",
+      "approvedHash": "17a68c09fa5e0dfc90ebc13e02339c486dbc5afe",
+      "hashScheme": "commit",
+      "servedBlob": "293190b8f4b88037e1311a321b88a4b69ac76a77",
+      "approvedAt": "2026-08-07T03:23:24.631Z",
+      "repoPath": "media-production-v2/build-114-abraham-sodom/genesis-18_abraham-pleads-for-sodom.mp4",
+      "exportPath": "social/exports/row-114-abraham-pleads-for-sodom.mp4",
+      "cover": "social/covers/row-114.jpg"
     }
   ],
   "excluded": [

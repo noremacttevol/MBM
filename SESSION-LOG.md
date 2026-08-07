@@ -1,3 +1,23 @@
+## 2026-08-07 (Fable 5, main session, pt.4) — 3 new approvals (rows 1, 9, 114) published v2.1; 44 total live; YouTube kit staged for Cameron — Machine A `Dev`
+
+**Commit:** (this commit)
+
+Cameron: "there are 44 approved now and im going to submit all of those to
+youtube now." Refreshed `social/refresh-postable.py` → 44 byte-verified postable
+rows (new since the 41: **1 Cloak, 9 Rich Young Ruler, 114 Abraham Pleads for
+Sodom**, all approved 2026-08-07; same 8 still excluded, cut changed since
+approval). Published the 3 to the app gallery (old cuts backed up), deployed
+(pruned 5 hosting versions first), **live byte-verified all 3**, ledger v2.1
+events recorded, QUEUE ticked. All three ids were already in PRODUCED_VIDEO_IDS
+— no OTA needed. **App now serves all 44 approved cuts.**
+
+**YouTube handoff:** Cameron uploads from `social/exports/` (44 mp4s, 869 MB,
+each byte-identical to the approved cut; covers in `social/covers/`; titles/
+scripture per `social/POST-QUEUE.md`). As URLs exist, each gets recorded:
+`python3 media-production-v2/publish_ledger.py publish N --platform youtube
+--url <link>` — same cut joins the row's current version (no bump); the board
+then shows youtube beside app-gallery under "posted where."
+
 ## 2026-08-06 (Opus 4.8, C-FIX headless lane) — row 11 storm complaint triaged → PARKED NEEDS-REBUILD (boat/crew not uniform = author boat-lock, $0, no pictures re-cut) — Machine A `Dev`
 
 **Commits:** 50437c9d8 (claim), + this park (QC.md RUNNER PARK + AUTHOR REBUILD SPEC, AUTHOR-BOARD State→NEEDS-REBUILD, RUNNER-LESSONS boat-lock lesson, SESSION-LOG).

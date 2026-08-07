@@ -16,6 +16,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/1.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "a5c874613effca80c65ee5774e56b0c49d10aa27",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "d0d57239e29791ca0d3ecc3c675cb20faaa6ef69",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/1.mp4"
+            }
+          ]
         }
       ]
     },
@@ -268,6 +281,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "b947eb26c8c85d12eb276399bfce15dcf39bb58f",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/114.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "17a68c09fa5e0dfc90ebc13e02339c486dbc5afe",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "169cfe9fa72db2063ec77f85f52661ebdc1e5406",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -2569,6 +2595,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/9.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "e4d3919adae63e960bdd5390b6df3104ebef5138",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "ce9fed19039a91c9c5725f1fa6d0d0ca6f7d4cfe",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/9.mp4"
+            }
+          ]
         }
       ]
     },
@@ -2673,5 +2712,5 @@
       ]
     }
   },
-  "updated": "2026-08-06T23:43:29"
+  "updated": "2026-08-06T23:57:39"
 }
