@@ -216,6 +216,35 @@ wording/timing changed outside j2. $0.00 spent, 0 rerolls.
 
 ---
 
+## ✅ RESOLVED — j2 re-voiced to the natural middle-ground (2026-08-07, audio-fix lane, Machine A `Dev`)
+
+Cameron's recurrence ("now its too slow and sounds horrible like a robot… undo it
+and make it right") is FIXED and SHIPPED. Backed the over-slow off exactly per the
+park below: **deleted `PHRASE_RATE["j2"]`** (j2 now uses the Jesus speaker default
+-22%, not -30%) and **removed the LEADING ellipsis**, keeping ONE gentle mid-line
+pause — `PHRASE_SPOKEN["j2"] = ("I that speak unto thee am he", "I that speak unto
+thee... am he")`.
+
+**Measured / ear-checked (faster-whisper base.en):**
+- new `audio/j2.mp3` = **3.960 s** (was 4.920 s robotic; the pre-pacing "too-fast"
+  take was 3.504 s — this sits deliberately between them).
+- delivered mp4 at j2 (209.9 s) transcribes **"I that speak unto thee, am he."** —
+  exact words, the reveal-pause is audible, no "the Amhi" slur.
+- Why this exact recipe: a comma or any rate faster than -22% re-slurs "thee am he"
+  into "the Amhi" (tested); only the single ellipsis AT the default -22% both breaks
+  the slur AND reads like a person, not a machine dragging one word at a time. The
+  robotic quality of the 4.92 s take came from the -30% drag + TWO dead-air gaps,
+  both now gone.
+- Only j2 changed; all other segment mp3s byte-identical. Row uses
+  `AUDIO_FROM_V1_SEGMENTS=True`, so re-assembly rebuilt the track from the V1 mp3s:
+  **AUDIO REBUILD PASS SHA256=cc736013…6cac0**, 295.8 s. Old 4.92 s take preserved as
+  `audio/j2.mp3.robot-2026-08-07`.
+
+Board flipped NEEDS-AUDIO→BUILT, Audio CHECK→OK; review card rewritten to answer the
+recurrence in Cameron's words; deployed + live-verified.
+
+---
+
 ## RUNNER PARK — j2 robotic recurrence (2026-08-07, Machine A `Dev`, C-FIX session)
 
 **Cameron's OPEN complaint (verbatim, `v2_outline.py 10`):** "The only.thing wrong

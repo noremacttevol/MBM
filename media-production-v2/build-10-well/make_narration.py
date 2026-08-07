@@ -86,10 +86,17 @@ SPOKEN = {}
 # hears the exact words ("I, that speak unto thee, am he"). Caption stays verbatim
 # KJV "I that speak unto thee am he"; only the SPOKEN/TTS string + this segment's
 # rate carry the weight.
+# AUDIO-FIX 2026-08-07 (Machine A `Dev`) — j2 robotic recurrence. Cameron rejected
+# the -30% + DOUBLE-ellipsis take (4.92s) as "too slow / robotic". Backed OFF to the
+# Jesus default rate with ONE gentle mid-line pause: measured 3.96s, and whisper hears
+# the exact words "I that speak unto thee, am he" (a comma or a faster rate re-slurs
+# it to "the Amhi"; only the ellipsis at the default -22% both breaks the slur AND
+# sounds like a person, not a machine reading one word at a time). Caption stays the
+# verbatim KJV "I that speak unto thee am he"; only the SPOKEN/TTS string changes.
 PHRASE_SPOKEN = {"j2": ("I that speak unto thee am he",
-                        "I... that speak unto thee... am he")}
-# Per-segment TTS rate overrides (slower than the speaker default for weight).
-PHRASE_RATE = {"j2": "-30%"}
+                        "I that speak unto thee... am he")}
+# No per-segment rate override any more — j2 uses the Jesus speaker default (-22%).
+PHRASE_RATE = {}
 
 
 async def main():
