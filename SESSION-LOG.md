@@ -1,3 +1,23 @@
+## 2026-08-07 — C-FIX row 16 mary-martha (headless person at 0:42) SHIPPED + live-verified — Machine A `Dev`
+
+**Commit:** C-FIX render 33258be94 (mp4/QC/QUEUE/board/asset); review card + board→SHIPPED in this session's follow-up commits.
+
+Cameron complaint on the shipped row-16 cut: **"There is a headless person at 42 seconds."**
+Traced to beat v2-r016-b07 (`s07-winding-tighter.jpeg`, window 41.52–47.51). The old take
+had a rust-robed man seated back-to-camera dead-center with a dark void where his head
+belonged — exactly what he saw. **Complaint-first, touch-once:** rerolled ONLY b07
+(`v2_gen_api --only b07 --redo`, 1 shot, $0.13). New take — Martha kneads dough, hands
+working, head turned in a glance across the room; every figure (Martha + the two seated
+men at right) has a complete, visible head, confirmed at full res AND in the rendered mp4
+at 0:44. No second cream robe, no Jesus, period oil lamps, realistic. Every other frame
+byte-identical; audio untouched (AUDIO LOCK PASS SHA256=d380ba61…, 166.8s / 20.3 MB).
+Re-assembled, committed, review card repointed (data-hash 33258be9, flag answers the
+complaint in his own words), **deployed to Firebase and LIVE-VERIFIED**: live card hash
+= 33258be942c6…, mp4 HTTP 200 at 20,266,018 bytes. Stash rescan (2667 stills) + publish
+ledger synced. RUNNER-LESSONS already carried the headless-figure lesson (line 105 — the
+exact b16/b07 case). **Cost: 1 reroll / 26 beats = 3.8% (well under the 15% budget);
+row spend ≈ $0.13 — a complaint-fix well below the $6.10/row average.**
+
 ## 2026-08-07 (social session, pt.4) — LIVE POSTING TRACKER ON THE REVIEWER — deployed + live-verified — Machine A `Dev`
 
 **Commit:** (this commit — review.html tracker section, admin/seed-social-app-status.mjs, social/TRACKER.md pointer, this entry; by pathspec)
