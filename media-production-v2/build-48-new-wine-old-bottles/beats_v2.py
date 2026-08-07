@@ -852,5 +852,9 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "CELLAR": "PLACE-REF/cellar.jpeg",  # build-48-new-wine-old-bottles s22-the-second-picture-is-about (manual)
+    "COURTYARD": "PLACE-REF/courtyard.jpeg",  # build-48-new-wine-old-bottles s01-some-very-sincere-very-religious (manual)
+    "WEDDING": "PLACE-REF/wedding.jpeg",  # build-48-new-wine-old-bottles s06-can-the-children-of-the (manual)
+    "WORKSHOP": "PLACE-REF/workshop.jpeg",  # build-48-new-wine-old-bottles s16-the-first-one-is-about (manual)
 }
 # === end PLACE-PLATES ===

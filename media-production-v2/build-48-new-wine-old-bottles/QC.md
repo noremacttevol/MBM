@@ -1,5 +1,23 @@
 # QC / RUNNER HANDOFF — build-48-new-wine-old-bottles (Luke 5:33-39)
 
+## 🛠 C-FIX — 2026-08-07 (Opus runner, headless, Machine A `Dev`) — SHIPPED
+
+**COMPLAINT LEDGER (open complaint on the shipped cut):**
+- Cameron: *"2:34 is bad the spout is comming out of the side of the bag and
+  looks weird."* → **FIXED.** At 2:34 the on-screen frame is beat
+  `v2-r048-b28` → `s28-so-you-never-pour-fresh.jpeg` ("So you never pour fresh,
+  living wine into a stiff old skin."). The old render made the pour read as a
+  thick dark stream emerging from the **side of the cracked hanging wineskin**
+  and curving into the vessel — exactly the "spout out of the side of the bag"
+  defect. Rerolled ONLY b28 (`--only v2-r048-b28 --redo`, 1 shot, $0.13). New
+  frame: the keeper tips the clay jug and pours dark wine **straight down into
+  the pale supple NEW skin** held in his other hand — one clean, legible pour;
+  the old cracked skin hangs separately on the wall, nothing coming out of its
+  side. Verified in the RENDERED mp4 at 154 s. Bonus: the reroll's younger
+  dark-haired keeper now MATCHES the keeper in the adjacent s30 (the original
+  s28 was an older grey-bearded man, which clashed) — continuity improved.
+  Every other frame byte-identical; AUDIO LOCK PASS (audio untouched).
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 35 beats, ~196 s. Audio OK. No open complaint.
 
