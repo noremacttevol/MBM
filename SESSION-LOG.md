@@ -1,3 +1,15 @@
+## 2026-08-07 — ROW 11 (calming-the-storm) C-FIX SHIPPED: Jesus face @0:11 — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** ship commit `b7a7f14c8843ddbe39c1509f1535dfe9cb8aef55` (mp4 + QC + b02 fix + QUEUE) + the review.html/SESSION-LOG/board commit below. Session-chain verified at start: then-top row-95 ship `cc11d2278` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + `v2_outline.py 11` first.
+
+**COMPLAINT-FIRST + LOW-NUMBER LAW:** row 11 carried the lowest open complaint. Cameron's words: *"The picture of jesus tied [tired] is bad it doesn't look like him at all @ 0:11."*
+- **The 0:11 frame is `s02-worn-through.jpeg` (beat v2-r011-b02, "He was worn through").** Viewed against `JESUS-MASTER-REF/jesus-face.jpeg`: the old take was a gaunt, hollow-eyed, blotchy-skinned, wild-frizzed-hair stranger — genuinely not the locked Jesus. **Root cause:** the beat's own prose ("drawn and hollowed with tiredness, dark shadows under his eyes, lips dry and cracked, grey with tiredness") pushed exhaustion into the FACE and overrode the identity lock even with the REF attached.
+- **FIX (root-cause, touch-once):** retuned b02 so weariness reads through POSTURE + heavy eyelids only; must_not_show now forbids gaunting/hollowing/blotching/greying/wild-hair and requires the reference man's warm olive-tan skin, smooth dark shoulder-length waves, full dark beard, warm brown eyes. Rerolled ONLY b02 against jesus-face.jpeg → now unmistakably the locked Jesus, tired but himself, only-cream, no halo. Rendered 0:11 frame verified: it IS him.
+- **Picture-only, ONE frame.** Every other still byte-identical. **AUDIO LOCK PASS SHA256=631b100ce410** — identical to the prior cut, nothing re-voiced. 234.9s / 20.8MB, decode-clean.
+- **COST: 1 reroll / 34 beats = 2.9%** (< 15% budget), **≈$0.13**, meter $483.07. Far under the $6.10/row average — a complaint fix should be cheap, and this was. Caption frames re-verified (bottom band only, question card clean). Deployed to Firebase + live-verified.
+
+---
+
 ## 2026-08-07 — ROW 95 (thief-on-the-cross) REALISTIC V2 SHIPPED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** ship commit `eacb36d1b288e9740ab396dc8801c9b22bc65701` (mp4 + QC + boards) + the review.html/SESSION-LOG commit below. Session-chain verified at start: then-top `29ed2667b` (row 94 ship) present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all V2-REBUILD-RUBRIC lessons + full RUNNER-LESSONS + row-95 QC.md first. `v2_outline.py 95` = no open complaint. Cross-checked QUEUE row 95 = still "The thief on the cross" (Luke 23) — NOT swapped, safe to build.
