@@ -1,24 +1,29 @@
 # QC / RUNNER HANDOFF — build-15-centurion
 
-## 🅿️ NEEDS-REBUILD — NEW open complaint AUTHOR-FIXED (2026-08-07, Machine A `Dev`, $0 Fable-5 lane)
+## C-FIX 2026-08-07 (Machine A `Dev`, Opus runner) — SHIPPED
 
-**COMPLAINT LEDGER — SECOND, still-open complaint** (the earlier "sick boy's age keeps changing /
-too grey" was already C-FIX-shipped; the review board's `latest` is now this one):
+**COMPLAINT LEDGER — the ONE open complaint on this row (Cameron's words):**
 > "the servant shouldnt look sick in the last picture at 3:58 redo that one."
 
 - **The 3:58 frame is `s41-the-word-had-been-enough.jpeg` (beat v2-r015-b41, window 237.17-241.64)** —
-  the final over-shoulder shot with the healed servant's face over the officer's shoulder. It still
-  read *sick*. Runtime 240.8s, so 3:58 lands squarely on b41.
-- **AUTHOR FIX ($0, no image gen):** added an explicit **HEALED-NOT-SICK** ban to b41 (and reinforced
-  b39, the other "alive and well" frame): the servant is FULLY WELL — healthy warm skin colour, clear
-  bright eyes, upright and strong; NEVER any grey/ashen/pale/sallow pallor, fever-sweat sheen, sunken
-  cheeks, hollow eyes, cracked lips or sickbed frailty. `--check` PASS. Audio UNTOUCHED.
-- **🅿️ RUNNER — do this (paid, targeted re-cut):** reroll **ONLY s41** (and s39 if it also reads sick)
-  against the fixed prose; face-board vs the accepted healed-servant frame. Keep every other still
-  byte-identical, **AUDIO LOCK byte-identical**, ship with a card telling Cameron the final picture
-  now shows the servant fully well.
+  the closing over-shoulder embrace, the servant's face beside the officer's shoulder. The old cut had
+  him with hollow, dark-ringed sunken eyes and a gaunt, drawn face — he still read plainly SICK, which
+  is exactly what Cameron saw. Runtime 240.8s, so 3:58 lands squarely on b41.
+- **FIX (touch-once, this one re-cut — RUNNER did the paid step over the author's $0 prose fix):**
+  the author had already added a HEALED-NOT-SICK ban to b41 (+ reinforced b39). Runner **rerolled ONLY
+  s41** against that fixed prose (2 rerolls, within the 2-per-frame budget). Result: the servant is
+  now FULLY WELL — warm healthy olive skin, clear bright eyes, upright and strong, looking into the
+  officer's face; NO grey/ashen/pale pallor, no fever-sweat, no sunken cheeks/hollow eyes, no sickbed
+  frailty. Second reroll also corrected footwear to period leather sandals (the first take had modern
+  suede lace-ups). Face-boarded against the healed-servant frames (s04/s36/s37/s38): same young man,
+  same age, now robustly well.
+- **s39 (he-rose-to-meet-him) was checked and LEFT byte-identical** — it already read as a healthy
+  young man standing on his own legs, not sick, so per the handoff it did not need a reroll.
+- **AUDIO LOCK PASS** on re-assemble (SHA256=75daa4007d8dbce7360ef6609b9359245bd945d726965c163a2e24de994eb627)
+  — audio byte-identical to the approved cut. Caption frames verified: bottom-band only, question card clean.
+- Rerolls this fix: **2 of 42 beats = 4.8%** (well under the 15% budget). Spend ≈ **$0.26**.
 
-Complaint-gate addendum, 2026-08-05 (Machine A).
+## C-FIX 2026-08-07 (Machine A Dev) — SHIPPED (prior complaint, closed earlier)
 
 ## OPEN CAMERON COMPLAINT — gates before rebuild
 
