@@ -130,9 +130,10 @@
   <p class="secnote">Every approved video and where it is: the <b>App</b>, then
   <b>YT</b> YouTube, <b>IG</b> Instagram, <b>TT</b> TikTok, <b>FB</b> Facebook.
   Tap a chip the moment you post a video there — it saves instantly and shows on
-  every device. The App chip is set automatically from the publish records. Videos
-  over 3:00 have no Instagram chip (Reels cap at 3:00 — a cut is never trimmed to
-  fit). A video joins this list by itself the moment you approve it.</p>
+  every device. The App chip is set automatically from the publish records.
+  Instagram takes every length now (Reels allow up to 20 minutes — verified
+  2026-08-07; over-3:00 Reels reach mostly your followers, post them anyway).
+  A video joins this list by itself the moment you approve it.</p>
   <div id="trkbars"></div>
   <div id="trkrows"></div>
 
@@ -1904,7 +1905,6 @@ function place(){
 }
 
 /* ---- posting tracker: live board of every approved video x destination ---- */
-var IG_MAX_SECS = 180;
 function renderTracker(){
   var rowsEl=byId('trkrows'), barsEl=byId('trkbars');
   if(!rowsEl || !barsEl) return;
@@ -1924,9 +1924,9 @@ function renderTracker(){
     barsEl.innerHTML=''; rowsEl.innerHTML='<p class="secnote">Connecting… (the board fills in once your saved decisions load)</p>';
     return;
   }
-  var igTotal=0, n={app:0, yt:0, ig:0, tt:0, fb:0};
+  /* IG takes all lengths now (20-min Reels, 2026-08-07) — every video counts */
+  var igTotal=items.length, n={app:0, yt:0, ig:0, tt:0, fb:0};
   items.forEach(function(it){
-    if(it.secs<=IG_MAX_SECS) igTotal++;
     ['app','yt','ig','tt','fb'].forEach(function(k){ if(it.s[k]) n[k]++; });
   });
   function bar(lab, cls, done, total){
@@ -1944,8 +1944,6 @@ function renderTracker(){
   var h='';
   items.forEach(function(it){
     function chip(k, lab){
-      if(k==='ig' && it.secs>IG_MAX_SECS)
-        return '<span class="chip dis" title="over 3:00 — too long for an Instagram Reel">IG</span>';
       var on=!!it.s[k];
       if(k==='app')
         return '<span class="chip app'+(on?' on':'')+'" title="set automatically from the publish records">App</span>';

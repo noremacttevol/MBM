@@ -11,8 +11,9 @@
 > line per video, in posting order — lowest row number first) and the list of what
 > exists; sessions without the page still read it.
 >
-> **Legend:** ✅ done · ☐ not yet · — = skip (video over 3:00, too long for an
-> Instagram Reel — never trim to fit; editing a cut voids your approval).
+> **Legend:** ✅ done · ☐ not yet · — = skip. IG NOW TAKES ALL LENGTHS
+> (20-min Reel limit, verified 2026-08-07); over-3:00 Reels reach mostly
+> followers — post them anyway. Never trim to fit; editing a cut voids approval.
 > "In App" = the approved cut is live inside the Milk Before Meat app (verified
 > against the publish ledger). YT = YouTube, IG = Instagram, TT = TikTok,
 > FB = Facebook.
@@ -28,18 +29,18 @@
 |---|-------|-----------|--------|--------|----|----|----|----|
 | 01 | Woman Who Touched His Cloak | Mark 5 | 1:49 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 02 | The Prodigal Son | Luke 15 | 2:38 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 03 | Zacchaeus | Luke 19 | 3:42 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 04 | Nicodemus at Night | John 3 | 5:07 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 05 | The Bent-Over Woman | Luke 13 | 4:08 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
+| 03 | Zacchaeus | Luke 19 | 3:42 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 04 | Nicodemus at Night | John 3 | 5:07 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 05 | The Bent-Over Woman | Luke 13 | 4:08 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 06 | The Two Sons | Matthew 21 | 2:06 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 07 | Peter Walks on Water | Matthew 14 | 3:46 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
+| 07 | Peter Walks on Water | Matthew 14 | 3:46 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 08 | The Lost Coin | Luke 15 | 1:09 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 09 | The Rich Young Ruler | Mark 10 | 3:17 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 12 | Blind Bartimaeus | Mark 10 | 4:27 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 14 | The Ten Lepers | Luke 17 | 3:39 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 20 | The Good Samaritan | Luke 10 | 3:07 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
+| 09 | The Rich Young Ruler | Mark 10 | 3:17 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 12 | Blind Bartimaeus | Mark 10 | 4:27 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 14 | The Ten Lepers | Luke 17 | 3:39 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 20 | The Good Samaritan | Luke 10 | 3:07 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 21 | The Lost Sheep | Luke 15 | 2:14 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 23 | The Workers in the Vineyard | Matthew 20 | 3:23 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
+| 23 | The Workers in the Vineyard | Matthew 20 | 3:23 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 24 | The Sower | Matthew 13 | 2:48 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 25 | The Wheat and the Tares | Matthew 13 | 2:47 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 26 | The Mustard Seed | Matthew 13 | 1:27 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
@@ -49,25 +50,25 @@
 | 32 | The Talents | Matthew 25 | 2:37 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 34 | The Rich Fool | Luke 12 | 2:08 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 35 | The Great Banquet | Luke 14 | 2:22 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 36 | The Shrewd Steward | Luke 16 | 3:11 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
+| 36 | The Shrewd Steward | Luke 16 | 3:11 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 37 | The Rich Man and Lazarus | Luke 16 | 2:45 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 38 | The Persistent Widow | Luke 18 | 3:00 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 41 | Counting the Cost | Luke 14 | 5:46 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 43 | The Wedding Garment | Matthew 22 | 4:45 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 46 | The Seed Growing Secretly | Mark 4 | 3:13 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 47 | Houses on Rock and Sand | Matthew 7 | 3:41 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
+| 41 | Counting the Cost | Luke 14 | 5:46 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 43 | The Wedding Garment | Matthew 22 | 4:45 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 46 | The Seed Growing Secretly | Mark 4 | 3:13 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 47 | Houses on Rock and Sand | Matthew 7 | 3:41 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 53 | Peter's Mother-in-Law | Mark 1 | 1:41 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 56 | The Widow of Nain's Son | Luke 7 | 2:20 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 57 | Jairus's Daughter | Mark 5 | 2:55 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 58 | Feeding the Five Thousand | John 6 | 2:44 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 64 | The Pool of Bethesda | John 5 | 4:01 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
-| 68 | Multitudes Mountain | Matt 15 | 3:27 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
+| 64 | The Pool of Bethesda | John 5 | 4:01 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 68 | Multitudes Mountain | Matt 15 | 3:27 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 75 | The Woman Taken in Adultery | John 8 | 2:06 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 76 | Suffer the Little Children | Mark 10 | 1:28 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 79 | The Seventy Sent | Luke 10 | 1:58 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 81 | Render Unto Caesar | Mark 12 | 1:40 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 85 | Shepherds and Angels | Luke 2 | 2:26 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 91 | Gethsemane | Luke 22 | 4:01 | ✅ 2026-08-06 | ☐ | — | ☐ | ☐ |
+| 91 | Gethsemane | Luke 22 | 4:01 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 101 | The Still Small Voice | 1 Kings 19 | 2:53 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 114 | Abraham Pleads for Sodom | Genesis 18 | 2:23 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 

@@ -27,10 +27,15 @@ No trend-bait tags (#fyp, #viral). The stories don't beg.
 
 ## Platform fit
 
-- **≤3:00** — fits all four: YouTube Short, Instagram Reel, TikTok, Facebook Reel.
-- **Over 3:00** — YouTube regular vertical upload (not a Short), TikTok, and Facebook.
-  **Skip Instagram** (Reels cap at 3:00). Never trim a video to fit — only approved
-  cuts exist, and editing one voids the approval.
+- **Every video posts to all four platforms.** Instagram Reels now allow up to
+  20 minutes (verified 2026-08-07 — the old 3:00 cap is gone), so nothing is
+  skipped anywhere. Never trim a video to fit — only approved cuts exist, and
+  editing one voids the approval.
+- **≤3:00** — YouTube Short + full recommendation reach everywhere.
+- **Over 3:00** — YouTube regular upload (set the thumbnail). On Instagram it
+  posts fine but IG does NOT recommend Reels over 3:00 to non-followers — it
+  reaches mostly your existing followers. Post it anyway: followers and profile
+  visitors get the complete library; discovery comes from the short ones.
 
 ## The caption pattern (for future entries)
 
@@ -75,7 +80,7 @@ Luke 15:11–32, from the KJV. Download the free Milk Before Meat app for every 
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ProdigalSon #Parable`
 
 ### Row 03 — Zacchaeus
-**Luke 19:1–10 (KJV) · 3:42 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Luke 19:1–10 (KJV) · 3:42 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-003-zacchaeus.mp4` · Cover `covers/row-003.jpg` · Cut `39c19f7e284a`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-003.jpg` · **TikTok/IG cover** `thumbs/vertical/row-003.jpg`
 **YouTube title:** Zacchaeus — the man who climbed a tree to see Jesus (Luke 19, KJV)
@@ -84,11 +89,11 @@ The whole city had already decided what Zacchaeus was. Small, rich, and hated, h
 Have you ever felt like the one everybody had already made their mind up about?
 Luke 19:1–10, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Zacchaeus`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Zacchaeus`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Zacchaeus`
 
 ### Row 04 — Nicodemus at Night
-**John 3:1–21 (KJV) · 5:07 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**John 3:1–21 (KJV) · 5:07 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-004-nicodemus-at-night.mp4` · Cover `covers/row-004.jpg` · Cut `09e98cefd50e`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-004.jpg` · **TikTok/IG cover** `thumbs/vertical/row-004.jpg`
 **YouTube title:** Nicodemus at Night — the question he couldn't ask in daylight (John 3, KJV)
@@ -97,11 +102,11 @@ A ruler of the Jews came to Jesus by night, with questions he couldn't ask in da
 What question would you ask, if nobody was watching?
 John 3:1–21, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Nicodemus #John316`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Nicodemus #John316`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Nicodemus #John316`
 
 ### Row 05 — The Bent-Over Woman
-**Luke 13:10–17 (KJV) · 4:08 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Luke 13:10–17 (KJV) · 4:08 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-005-the-bent-over-woman.mp4` · Cover `covers/row-005.jpg` · Cut `93738754368d`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-005.jpg` · **TikTok/IG cover** `thumbs/vertical/row-005.jpg`
 **YouTube title:** The Bent-Over Woman — eighteen years, and then he called her (Luke 13, KJV)
@@ -110,7 +115,7 @@ Eighteen years bowed toward the ground, and she still came to worship. Jesus saw
 How long have you been carrying the thing that bends you down?
 Luke 13:10–17, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Healing #LukeThirteen`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Healing #LukeThirteen`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Healing #LukeThirteen`
 
 ### Row 06 — The Two Sons
@@ -127,7 +132,7 @@ Matthew 21:28–32, from the KJV. Download the free Milk Before Meat app for eve
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Parable #TwoSons`
 
 ### Row 07 — Peter Walks on Water
-**Matthew 14:22–33 (KJV) · 3:46 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Matthew 14:22–33 (KJV) · 3:46 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-007-peter-walks-on-water.mp4` · Cover `covers/row-007.jpg` · Cut `2b807e85b68a`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-007.jpg` · **TikTok/IG cover** `thumbs/vertical/row-007.jpg`
 **YouTube title:** Peter Walks on Water — bid me come unto thee (Matthew 14, KJV)
@@ -136,7 +141,7 @@ In the fourth watch of the night, in the middle of a storm, Peter said: Lord, if
 What's the wave that pulls your eyes off him?
 Matthew 14:22–33, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#PeterWalksOnWater #Faith`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #PeterWalksOnWater #Faith`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #PeterWalksOnWater #Faith`
 
 ### Row 08 — The Lost Coin
@@ -153,7 +158,7 @@ Luke 15:8–10, from the KJV. Download the free Milk Before Meat app for every s
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #LostCoin #Parable`
 
 ### Row 09 — The Rich Young Ruler
-**Mark 10:17–22 (KJV) · 3:17 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Mark 10:17–22 (KJV) · 3:17 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-009-the-rich-young-ruler.mp4` · Cover `covers/row-009.jpg`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-009.jpg` · **TikTok/IG cover** `thumbs/vertical/row-009.jpg`
 **YouTube title:** The Rich Young Ruler — he went away grieved (Mark 10, KJV)
@@ -162,11 +167,11 @@ He came running, knelt, and asked what he must do to inherit eternal life — a 
 Jesus loved him — and still let him walk away. What would be the hardest thing for you to lay down?
 Mark 10:17–22, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#RichYoungRuler`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #RichYoungRuler`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #RichYoungRuler`
 
 ### Row 12 — Blind Bartimaeus
-**Mark 10:46–52 (KJV) · 4:27 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Mark 10:46–52 (KJV) · 4:27 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-012-blind-bartimaeus.mp4` · Cover `covers/row-012.jpg` · Cut `5931c321fa44`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-012.jpg` · **TikTok/IG cover** `thumbs/vertical/row-012.jpg`
 **YouTube title:** Blind Bartimaeus — the beggar the crowd tried to quiet (Mark 10, KJV)
@@ -175,11 +180,11 @@ A blind beggar heard Jesus was passing and cried out. The crowd told him to hold
 If he stood still and asked you that — what would you say?
 Mark 10:46–52, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Bartimaeus #Healing`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Bartimaeus #Healing`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Bartimaeus #Healing`
 
 ### Row 14 — The Ten Lepers
-**Luke 17:11–19 (KJV) · 3:39 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Luke 17:11–19 (KJV) · 3:39 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-014-the-ten-lepers.mp4` · Cover `covers/row-014.jpg` · Cut `cd69c4500b30`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-014.jpg` · **TikTok/IG cover** `thumbs/vertical/row-014.jpg`
 **YouTube title:** The Ten Lepers — ten were healed. One came back. (Luke 17, KJV)
@@ -188,11 +193,11 @@ Ten men with leprosy stood afar off and lifted up their voices. All ten were cle
 When was the last time you turned back to say thank you?
 Luke 17:11–19, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#TenLepers #Gratitude`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #TenLepers #Gratitude`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #TenLepers #Gratitude`
 
 ### Row 20 — The Good Samaritan
-**Luke 10:25–37 (KJV) · 3:07 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Luke 10:25–37 (KJV) · 3:07 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-020-the-good-samaritan.mp4` · Cover `covers/row-020.jpg` · Cut `ae1a417e2096`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-020.jpg` · **TikTok/IG cover** `thumbs/vertical/row-020.jpg`
 **YouTube title:** The Good Samaritan — the man who came where he was (Luke 10, KJV)
@@ -201,7 +206,7 @@ A man lay half dead on the road to Jericho. A priest saw him and passed by on th
 Which man on that road is hardest for you to be?
 Luke 10:25–37, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#GoodSamaritan #Parable`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #GoodSamaritan #Parable`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #GoodSamaritan #Parable`
 
 ### Row 21 — The Lost Sheep
@@ -218,7 +223,7 @@ Luke 15:3–7, from the KJV. Download the free Milk Before Meat app for every st
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #LostSheep #Parable`
 
 ### Row 23 — The Workers in the Vineyard
-**Matthew 20:1–16 (KJV) · 3:23 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Matthew 20:1–16 (KJV) · 3:23 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-023-the-workers-in-the-vineyard.mp4` · Cover `covers/row-023.jpg` · Cut `35c29eba6829`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-023.jpg` · **TikTok/IG cover** `thumbs/vertical/row-023.jpg`
 **YouTube title:** The Workers in the Vineyard — the eleventh hour got a full day's pay (Matthew 20, KJV)
@@ -227,7 +232,7 @@ Some were hired at sunrise, some at the eleventh hour — and the master paid th
 Does it bother you, or comfort you, that the last got the same?
 Matthew 20:1–16, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Vineyard #Parable`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Vineyard #Parable`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Vineyard #Parable`
 
 ### Row 24 — The Sower
@@ -348,7 +353,7 @@ Luke 14:16–24, from the KJV. Download the free Milk Before Meat app for every 
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #GreatBanquet #Parable`
 
 ### Row 36 — The Shrewd Steward
-**Luke 16:1–13 (KJV) · 3:11 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Luke 16:1–13 (KJV) · 3:11 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-036-the-shrewd-steward.mp4` · Cover `covers/row-036.jpg` · Cut `1f9fc6e37204`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-036.jpg` · **TikTok/IG cover** `thumbs/vertical/row-036.jpg`
 **YouTube title:** The Shrewd Steward — ye cannot serve God and mammon (Luke 16, KJV)
@@ -357,7 +362,7 @@ A steward about to lose everything moved faster and thought harder in one aftern
 If someone read your last month honestly — what would they say you serve?
 Luke 16:1–13, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Parable #Luke16`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Parable #Luke16`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Parable #Luke16`
 
 ### Row 37 — The Rich Man and Lazarus
@@ -387,7 +392,7 @@ Luke 18:1–8, from the KJV. Download the free Milk Before Meat app for every st
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #PersistentWidow #Prayer`
 
 ### Row 41 — Counting the Cost
-**Luke 14:25–33 (KJV) · 5:46 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Luke 14:25–33 (KJV) · 5:46 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-041-counting-the-cost.mp4` · Cover `covers/row-041.jpg` · Cut `9e4e7bcdd6aa`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-041.jpg` · **TikTok/IG cover** `thumbs/vertical/row-041.jpg`
 **YouTube title:** Counting the Cost — sit down first and count (Luke 14, KJV)
@@ -396,11 +401,11 @@ Great multitudes followed him — and he turned and told them to sit down first 
 Have you ever actually sat down and counted what following him would cost you?
 Luke 14:25–33, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#CountingTheCost #Discipleship`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #CountingTheCost #Discipleship`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #CountingTheCost #Discipleship`
 
 ### Row 43 — The Wedding Garment
-**Matthew 22:1–14 (KJV) · 4:45 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Matthew 22:1–14 (KJV) · 4:45 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-043-the-wedding-garment.mp4` · Cover `covers/row-043.jpg` · Cut `be3d0654cef0`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-043.jpg` · **TikTok/IG cover** `thumbs/vertical/row-043.jpg`
 **YouTube title:** The Wedding Garment — the king's invitation went to everyone (Matthew 22, KJV)
@@ -409,11 +414,11 @@ The invited guests wouldn't come to the king's wedding feast, so his servants we
 The invitation went to everyone. What do you think the garment means?
 Matthew 22:1–14, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#WeddingFeast #Parable`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #WeddingFeast #Parable`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #WeddingFeast #Parable`
 
 ### Row 46 — The Seed Growing Secretly
-**Mark 4:26–29 (KJV) · 3:13 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Mark 4:26–29 (KJV) · 3:13 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-046-the-seed-growing-secretly.mp4` · Cover `covers/row-046.jpg` · Cut `5d7e9c7659d6`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-046.jpg` · **TikTok/IG cover** `thumbs/vertical/row-046.jpg`
 **YouTube title:** The Seed Growing Secretly — he knoweth not how (Mark 4, KJV)
@@ -422,11 +427,11 @@ A man casts seed into the ground, and sleeps, and rises, night and day — and t
 What's been growing in you slowly, while you weren't watching?
 Mark 4:26–29, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Parable #Mark4`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Parable #Mark4`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Parable #Mark4`
 
 ### Row 47 — Houses on Rock and Sand
-**Matthew 7:24–27 (KJV) · 3:41 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Matthew 7:24–27 (KJV) · 3:41 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-047-houses-on-rock-and-sand.mp4` · Cover `covers/row-047.jpg` · Cut `d59f573acc3d`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-047.jpg` · **TikTok/IG cover** `thumbs/vertical/row-047.jpg`
 **YouTube title:** Houses on Rock and Sand — the same storm hit both (Matthew 7, KJV)
@@ -435,7 +440,7 @@ Two men built houses. The rain descended, the floods came, and the winds blew an
 The storm hit both houses the same. What's under yours?
 Matthew 7:24–27, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#WiseAndFoolishBuilders #Parable`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #WiseAndFoolishBuilders #Parable`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #WiseAndFoolishBuilders #Parable`
 
 ### Row 53 — Peter's Mother-in-Law
@@ -491,7 +496,7 @@ John 6:1–14, from the KJV. Download the free Milk Before Meat app for every st
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #FeedingThe5000 #Miracle`
 
 ### Row 64 — The Pool of Bethesda
-**John 5:1–15 (KJV) · 4:01 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**John 5:1–15 (KJV) · 4:01 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-064-the-pool-of-bethesda.mp4` · Cover `covers/row-064.jpg` · Cut `03b9449160a6`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-064.jpg` · **TikTok/IG cover** `thumbs/vertical/row-064.jpg`
 **YouTube title:** The Pool of Bethesda — thirty-eight years by the water (John 5, KJV)
@@ -500,11 +505,11 @@ Thirty-eight years an invalid, lying by a pool he could never reach in time. Jes
 Why do you think Jesus asked him that?
 John 5:1–15, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Bethesda #Healing`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Bethesda #Healing`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Bethesda #Healing`
 
 ### Row 68 — Multitudes Mountain
-**Matthew 15:29–31 (KJV) · 3:27 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Matthew 15:29–31 (KJV) · 3:27 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-068-multitudes-mountain.mp4` · Cover `covers/row-068.jpg` · Cut `c5713f27b0c7`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-068.jpg` · **TikTok/IG cover** `thumbs/vertical/row-068.jpg`
 **YouTube title:** The Multitudes on the Mountain — they laid them at his feet (Matthew 15, KJV)
@@ -513,7 +518,7 @@ Great multitudes climbed a mountain carrying the people who couldn't climb it �
 Who carried you, the day you couldn't get there yourself?
 Matthew 15:29–31, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Healing #Matthew15`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Healing #Matthew15`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Healing #Matthew15`
 
 ### Row 75 — The Woman Taken in Adultery
@@ -582,7 +587,7 @@ Luke 2:8–20, from the KJV. Download the free Milk Before Meat app for every st
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Nativity #Shepherds`
 
 ### Row 91 — Gethsemane
-**Luke 22:39–46 (KJV) · 4:01 · YouTube (regular) + TikTok + Facebook — skip Instagram**
+**Luke 22:39–46 (KJV) · 4:01 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
 File `exports/row-091-gethsemane.mp4` · Cover `covers/row-091.jpg` · Cut `24cbe5d7e61e`
 Upload with it → **YouTube thumbnail** `thumbs/yt/row-091.jpg` · **TikTok/IG cover** `thumbs/vertical/row-091.jpg`
 **YouTube title:** Gethsemane — not my will, but thine (Luke 22, KJV)
@@ -591,7 +596,7 @@ He knelt among the olive trees and asked for the cup to pass — and still finis
 He asked for another way, and still knelt. What do you hear in that?
 Luke 22:39–46, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Gethsemane #Luke22`
-**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Gethsemane #Luke22`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Gethsemane #Luke22`
 
 ### Row 101 — The Still Small Voice

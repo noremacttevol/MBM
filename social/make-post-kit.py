@@ -114,16 +114,19 @@ def main():
         boxes.append(block("TikTok — the whole caption",
                            "TikTok → Post → caption box (one paste)",
                            tk_text, f"v{n}tk"))
-        if q["ig_tags"]:
-            ig_text = q["caption"] + "\n\n" + q["ig_tags"]
-            boxes.append(block("Instagram — the whole caption",
-                               "Instagram → New Reel → caption box (one paste)",
-                               ig_text, f"v{n}ig"))
-            ig_note = ""
-        else:
-            ig_note = ('<div class="skip">🚫 SKIP INSTAGRAM for this video — '
-                       'it is over 3:00, too long for a Reel. Post it on the '
-                       'other three only. (Never trim a video to fit.)</div>')
+        # Instagram takes every video (20-min Reel limit, verified 2026-08-07).
+        # Over 3:00 the only difference is reach: IG shows those mostly to
+        # existing followers, so the card says that instead of skipping.
+        ig_text = q["caption"] + "\n\n" + (q["ig_tags"] or BASE_TAGS +
+                                           " #Christian #Bible")
+        boxes.append(block("Instagram — the whole caption",
+                           "Instagram → New Reel → caption box (one paste)",
+                           ig_text, f"v{n}ig"))
+        ig_note = "" if short else (
+            '<div class="note">⏱ Over 3:00 — Instagram allows it (Reels go up '
+            'to 20 minutes now), but IG only recommends Reels over 3:00 to '
+            'people who already follow you. Post it anyway — new-viewer '
+            'discovery comes from the short videos.</div>')
 
         kind = ("YouTube Short" if short
                 else "YouTube regular upload (SET THE THUMBNAIL — it matters)")
@@ -170,14 +173,17 @@ def main():
      font-family:inherit;margin:6px 0 0}}
  .skip{{background:#4a1d1d;border:1px solid #7f1d1d;color:#fecaca;
        border-radius:8px;padding:10px;margin:10px 0;font-weight:600}}
+ .note{{background:#3a2f10;border:1px solid #7a5c1a;color:#fde68a;
+       border-radius:8px;padding:10px;margin:10px 0}}
  .donebar{{color:#9a9;font-size:.85em;padding:10px 0 14px}}
  a{{color:#7ab7ff}}
 </style></head><body>
 <h1>📤 MBM Post Kit — every video, ready to paste</h1>
 <p class="sub">Work top to bottom — the number is the posting order. Tap a video
 to open it. Every box has a <b>COPY</b> button and says exactly where the text
-goes. If a video is too long for Instagram, the card tells you to skip it —
-you never have to figure out platform rules. Upload files live on the computer
+goes. Every video posts to all four platforms; on videos over 3:00 the card
+carries a heads-up about Instagram reach — you never have to figure out
+platform rules. Upload files live on the computer
 in <b>social/exports/</b>; thumbnails in <b>social/thumbs/</b>. After posting,
 tick the chips on the <a href="review.html#social">live tracker</a>.</p>
 {''.join(cards)}
