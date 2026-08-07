@@ -1,3 +1,17 @@
+## 2026-08-07 — ROW 107 C-FIX SHIPPED: Cameron's "0:30 head through metal bars" complaint fixed — rerolled ONE frame (s05), audio byte-identical, redeployed + live-verified — Machine A `Dev` (Opus runner C-FIX lane, UNATTENDED)
+
+**Commit:** row 107 mp4 + s05 + QC.md + AUTHOR-BOARD = `45161adfeda61cd6fe175698b79edc0854f61bc8`; review card + this log = (this commit). On origin/main. Claim commit `78eaee44a`.
+
+COMPLAINT-FIRST + LOW-NUMBER LAW: row 107 was the lowest waiting row with an OPEN Cameron complaint, so it outranked all other work. Session-chain verified at start (top entry row 102 C-FIX, commit `173306901` present in git log); hostname `Dev` = Machine A.
+
+**Cameron's complaint** (`v2_outline.py 107`): "0:30 picture has his head going through metal bars, weird." The frame at 0:25-0:30 is `s05-he-sent-two-of-his.jpeg` (beat v2-r107-b05) — the original render pushed John's face + both hands forward into the small barred grate so his head read as poking THROUGH the metal bars.
+
+**The fix (PICTURE domain — reroll only the offending beat).** Rerolled s05, 2 takes (within the max-2 reroll budget). Take 1 fixed the bars but stood John free in the corridor with the messengers (story broke — he must be imprisoned); take 2 is correct: John clearly INSIDE the cell (left), chained at the wrist, hand on the bars, face BESIDE the barred panel speaking his question out through the grate to his two messengers in the corridor (right). Head no longer through the bars; John visibly the prisoner. Re-checked every gate on the new take: ordinary scale (no giant), two distinct messengers (older grey/brown + younger dark/slate — no twins), no cream robe (Jesus not in frame), photographic (no cartoon/mix), iron manacle/chain period-correct, full dark beard, nobody staring into the lens, correct anatomy. The other 24 stills untouched.
+
+**Audio + cost.** AUDIO LOCK PASS SHA256=9d120694… — byte-identical to the shipped audio, 156.7s, 19.7 MB. 2 rerolls of 1 beat ≈ $0.26 (meter $423.98→$424.24); touch-once, the only open complaint was this one. Well under the $6.10/row average — COST LAW trend DOWN. Deployed to Firebase hosting (`milk-b4-meat`) + live-verified: review card carries new hash, mp4 URL HTTP 200.
+
+---
+
 ## 2026-08-07 — ROW 73 (This Day Fulfilled, Luke 4) FULLNESS REBUILD AUTHORED — Cameron's message + face-drift complaint answered at the author level, Ready ✅ for the picture runner — Machine A `Dev` (Fable-5 author lane, $0 image / ~cents ElevenLabs, UNATTENDED)
 
 **Commit:** row 73 package (V1 make_narration.py + build.py + audio/n4·n5·card mp3+timing; V2 make_narration.py + beats_v2.py + ASSEMBLED-PROMPTS.txt + QC.md; AUTHOR-BOARD) + this log = (this commit). On origin/main. Claim commit `a760f1061`.
