@@ -117,3 +117,41 @@ blindly build+stream-copy the rejected audio. AUDIO-FIX lane, do this FIRST:
 Only after the audio is VERIFIED correct → back to AUTHORED+Ready ✅ so the picture runner
 builds the 12 stills. Review card must tell Cameron, in his words, that the voice is now the
 real chosen voice.
+
+---
+
+## ✅ AUDIO-FIX VERIFIED 2026-08-07 (Machine A `Dev`) — "wrong audio" = STALE OLD V1 MP4; correct ElevenLabs cast is already rendered → handed to picture runner
+
+**Cameron's OPEN complaint (`v2_outline.py 200`):** *"Still the wrong audio. Im pissed."*
+reportedAgainst the LIVE cut = the **Jul-29 V1 mp4** (`matthew-24_gospel-to-all-the-world.mp4`).
+
+**Voice-ID verdict (decisive, headless):**
+- The current V1-dir segment mp3s — `n0a n0b n1a n1b n2a n2b n3 j1 card` — are **ALL the
+  chosen ElevenLabs cast**: `VOICE_ELEVEN` NARRATOR="Brian", JESUS="Chris"; every file
+  **44100 Hz / 128 k** (ElevenLabs signature; edge-tts would be 24000/48k). The audio is
+  genuinely **CORRECT** — no re-voice needed.
+- The **live Jul-29 mp4 carries the OLD voice**, proven acoustically: its Jesus (j1)
+  region cross-correlates **0.040** against the current ElevenLabs `audio/j1.mp3` (identical
+  words), and runs **8.7 s vs the segment's 6.45 s** — a different, older take. That stale
+  mp4 (built 07-29 23:03, predating the ElevenLabs migration; **0 V2 stills**) is exactly
+  the "wrong audio" Cameron heard — a stale-delivery class like row 110, NOT a bad render.
+
+**Fix (audio lane, $0 — no re-voice, no Gemini):** Set **`AUDIO_FROM_V1_SEGMENTS = True`**
+in `beats_v2.py` so the coming picture build REBUILDS the track from the correct ElevenLabs
+segment mp3s instead of stream-copying the stale V1 mp4 — this is the one thing that stops
+the rejected old audio from being re-shipped. Verified:
+`extract_beats.extract(200)` reads the segments cleanly, total **50.118 s**, and its computed
+card `audio_start = 40.194 s` matches the authored `card_start = 40.190 s` (±4 ms) — the
+authored picture windows (contiguous 0.000→40.190) align perfectly with the ElevenLabs
+timeline. Spoken segments sum 34.847 s raw + inter-segment gaps = 40.19 s spoken-end (gaps
+reproduced by extract_beats).
+
+**Board:** NEEDS-AUDIO → **AUTHORED / Audio OK / Ready ✅**, claim cleared, so the picture
+runner builds the 12 V2 stills and assembles on the verified-correct audio (which will carry
+Brian/Chris, not the old voice). The review card, when the picture runner ships, must tell
+Cameron his "wrong audio" complaint is fixed — the video now uses the chosen ElevenLabs
+voices end to end.
+
+**COMPLAINT LEDGER update:** *"Still the wrong audio"* → **AUDIO VERIFIED CORRECT** (chosen
+ElevenLabs cast already rendered); root cause was the stale pre-migration V1 mp4. Handed to
+the picture runner with `AUDIO_FROM_V1_SEGMENTS=True` so the new cut ships the right voice.

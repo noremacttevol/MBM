@@ -64,6 +64,18 @@ BEFORE any picture build. Board Audio = OK is the audit-spec gate only, not a vo
 card_start = 40.190 s (TAIL 5.0 — a longer closing card for the final video). Picture-only.
 """
 
+# AUDIO-FIX 2026-08-07 (Machine A `Dev`): Cameron's "Still the wrong audio. Im pissed" was
+# reported against the STALE Jul-29 V1 mp4, whose baked-in audio is the OLD voice (verified:
+# the mp4's Jesus j1 region cross-correlates 0.04 against the current ElevenLabs audio/j1.mp3
+# and runs 8.7s vs the segment's 6.45s — a different, older take). The current V1-dir segment
+# mp3s (n0a/n0b/n1a/n1b/n2a/n2b/n3/j1/card) are ALL the chosen ElevenLabs cast — Narrator
+# "Brian", Jesus "Chris" (VOICE_ELEVEN), every file 44100 Hz / 128 k — i.e. the audio is
+# genuinely CORRECT. Setting this flag makes v2_assemble REBUILD the track from those segment
+# mp3s instead of stream-copying the stale V1 mp4, so the coming picture build ships the right
+# voice and does NOT re-ship the rejected old audio. Verified: extract_beats.extract(200) reads
+# these segments with the flag on.
+AUDIO_FROM_V1_SEGMENTS = True
+
 # OLIVET, NATIONS-WORLD, DISCIPLES and NATIONS-BELIEVERS are build-local text locks. JESUS is
 # injected on every jesus=True/ref=True beat (master face + LOCK + cream); no other image REFS.
 # The Father / God is never embodied; only Jesus wears cream.
