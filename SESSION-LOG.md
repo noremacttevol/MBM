@@ -1,3 +1,22 @@
+## 2026-08-07 — ROW 22 AUDIO-FIX SHIPPED + LIVE: j5 "shouldest"→"should-est" (Matt 18:33, 2:46) — Machine A `Dev` (AUDIO-FIX lane)
+
+**Commit:** claim = `599b0aab1`; ship (V1+V2 make_narration, V1 j5.mp3, beats_v2, V2 mp4, QC, board, review.html) = `f29a94c85`; this log = (this commit).
+
+Lowest waiting NEEDS-AUDIO row (THE LOW-NUMBER LAW). Cameron's OPEN complaint on the shipped realistic V2 cut (`v2_outline.py 22`):
+> "2:46 Jesus mispronounces shouldest it should be should-est"
+
+Pure AUDIO-pronunciation (out of picture-runner scope → parked NEEDS-AUDIO). Fix, $0 (edge-tts, NO Gemini):
+- Added `SPOKEN.update({"shouldest": "should-est"})` to the authoritative V1 `make_narration.py` (and the V2 copy). Regenerated **only** `audio/j5.mp3` in the V1 dir (targeted, not a full re-run) — the other 24 segment mp3s stayed byte-identical (hash-diff verified).
+- **A/B in the JESUS/Eric voice, in-context** (plain vs `should-est` vs `should est`): plain rendered the mashed word Cameron rejected; `should-est` broke cleanly into "should" + "est" (faster-whisper heard "should" + a separate est), no unnatural gap (raw 12.617→13.512s). Mirrors the measured `shewest`→`show-est` -est-family winner + COMPLAINT-FIX-PLAN row 22. Caption keeps KJV "Shouldest".
+- **Timeline coupling was SMALL:** extract_beats measures spoken (trimmed) duration, so the real post-j5 shift is only **+0.17s** (card 216.10→216.275, total 225.003→225.174), NOT the raw +0.895s. Remapped `beats_v2.py` still-windows s38→s48 through a piecewise-linear old→new segment-start map so every picture stays phrase-synced. Set `AUDIO_FROM_V1_SEGMENTS = True` so assembly rebuilds the track from the fixed V1 mp3s (not the stale V1 MP4).
+- Realistic 48-still V2 pictures **UNCHANGED** — 0 rerolls, $0 Gemini. AUDIO REBUILD PASS `20a6ef72`, 225.2s.
+
+**Verified in the RENDERED V2 mp4** (sha1 `6e6943d8c0dc`, decodes 0 errors): j5 region transcribes the full KJV line with the re-voice; frame at 2:46 shows the realistic wicked-servant scene, red KJV caption in sync. **Live-verified:** review.html carries `data-hash 6e6943d8c0dc` + the 🛠 flag answering the complaint in Cameron's words + cache-buster `?v=6e6943d8c0dc`; GitHub-raw video serves the new bytes (21,659,279, 200). Board row 22 NEEDS-AUDIO→BUILT, Audio CHECK→OK.
+
+**Cost:** $0 (edge-tts re-voice, 1 segment). Under the audio-fix money truth (Gemini $0 always).
+
+---
+
 ## 2026-08-07 — ROW 60 C-FIX SHIPPED: "2:39 Jesus eyes do not look good" FIXED — rerolled ONLY b28, AUDIO byte-identical, touch-once — Machine A `Dev` (C-FIX lane)
 
 **Commit:** claim = `1e81970b1`; ship (mp4 + QC + api-spend) = `139078b0a0b5d4c9cf71721779eea3e1dc14f388`; review.html + board→SHIPPED + this log = (this commit).
