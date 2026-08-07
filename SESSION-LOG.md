@@ -1,3 +1,19 @@
+## 2026-08-07 — ROWS 92 & 93 REALISTIC V2 SHIPPED + DEPLOYED — Opus picture runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commits:** row 92 claim `cff26d63a`; row 92 ship `6089aa8cc`; row 92 card `a1317e339`; row 93 claim `23342e462`; row 93 ship `76e841a70`; row 93 card `044a11d18`; STASH/publish `7520c52fa`; this SESSION-LOG = end-of-session commit below. Targeted `git add` of only each row's paths (tree ~150 files dirty from live autopilot lanes — no tree-wide add/reset; `--rebase --autostash` before each shared-file edit). Session-chain verified at start (then-top = rows 192/193/194 authored, commit `8b4e97138` present in `git log`; row 88 shipped). Hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all V2-REBUILD-RUBRIC lessons + all RUNNER-LESSONS.md first.
+
+**Row 92 (Peter's denial, Luke 22:54-62) — 10 realistic stills, 55.4s, SHIPPED + LIVE.** QUEUE row 92 cross-checked = "Peter's denial / Luke 22" (not swapped). **OPEN complaint "Old voice still" FIXED** — AUDIO_FROM_V1_SEGMENTS=True rebuilds narration from this build's own 9 V1-dir segment mp3s; VERIFIED new-voice at source (44100/128k = ElevenLabs Brian; old edge-tts was 24000). AUDIO REBUILD PASS SHA `5a937afe` is the proof. 1 portrait (MAID); YARD promoted from b01 anchor→7 beats. THE LOOK (s07) eye-line connects cream-robed bound Jesus↔Peter, knowing sorrow not scorn. 1 reroll/10% (s08 lens-stare). **~$2.42.** Meter $476.24.
+
+**Row 93 (Barabbas goes free, Mark 15) — 15 realistic stills, 90.3s, SHIPPED + LIVE.** QUEUE row 93 cross-checked = "Barabbas goes free / Mark 15" (not swapped). No open complaint (COMPLAINT LEDGER: none open); audio safety verified (44100 ElevenLabs, SHA `6df005ef`). 2 portraits (PILATE + BARABBAS); PAVEMENT promoted from b01→10 beats; PRIESTS group-ref reused from build-06. Substitution thesis lands (s12/s15 guilty-freed↔innocent-led-away), only-Jesus-cream, PILATE/BARABBAS consistent, content-care held (Jesus bound not beaten; mob shouting not gore). 1 reroll/6.7% (s13 Barabbas lens-stare). **~$2.41.** Meter $480.12.
+
+**Both:** `firebase deploy --only hosting` + live-verified (row 92 hash `6089aa8cc155`, row 93 hash `76e841a7032b` both on live review.html; mp4s HTTP 200, 18.5MB / 19.8MB). STASH-INDEX rescanned (3099 stills / 101 builds); publish_ledger synced. AUTHOR-BOARD 92/93 → BUILT; QUEUE claim notes updated.
+
+**Cost:** 2 rows = **~$4.83 total, avg ~$2.42/row @ 8% rerolls** — WELL under the $6.10/row + 19%-reroll running average (COST-LAW trend-down satisfied: plate promotes + portrait/group-ref reuse + minimal rerolls). Total meter now $480.12.
+
+**Next runner target:** AUTHOR-BOARD row 94 (build-94-father-forgive-them, AUTHORED Ready ✅, audio OK) then 95-100 (all AUTHORED Ready ✅). Row 90 (washing-feet) was RUNNING on a sibling lane at session start — leave it. Rows 33/11 wait on their own re-cut lanes.
+
+---
+
 ## 2026-08-07 — ROW 27 AUDIO §0e (8th diagnostic: voice-identity, clean) + ALL 96 AUTHORED ROWS VERIFIED RUNNER-READY (v4 --check PASS) — $0 Fable-5 author lane — Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** this SESSION-LOG entry + build-27 QC §0e = end-of-session commit below. Targeted `git add` of ONLY those two paths (tree ~200 files dirty from live autopilot lanes — NEVER a tree-wide add/rebase/stash/reset; `git fetch` confirmed 0-behind, pushed directly). Session-chain verified at start: then-top `5674e1e69` (ISAIAH unify + row-27 §0d) present in `git log`. Hostname `Dev` = Machine A. Read PROMPT-FABLE5-AUTHOR.md + the row-33 instruction first.
