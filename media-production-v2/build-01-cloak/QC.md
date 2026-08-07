@@ -1,5 +1,29 @@
 # Story 1 Realistic V3 QC — The Woman Who Touched His Cloak
 
+## COMPLAINT LEDGER — C-FIX 2026-08-06 (Machine A, complaint-first)
+
+Cameron's open complaint on the shipped v3 cut (his own words):
+> "1:10 picture has Jesus's eyes looking weird, also she touches the edge of
+> his cloak and the tassels only not his back thigh which is how the picture
+> at 0:52 is showing"
+
+Two picture defects, two frames re-cut — every other frame kept byte-identical,
+audio byte-identical (AUDIO LOCK PASS, same SHA256 as prior cut):
+
+- **0:52 touch** → beat b11 `s11-touches-hem.jpeg` RE-CUT. Prior frame put her
+  open hand on Jesus's lower back/thigh. New frame: she is sunk low behind him
+  and her hand is down at the **very bottom edge of the cloak by the tasselled
+  fringe near his ankles** — the edge/tassels only, not the thigh. FIXED.
+- **1:10 eyes** → beat b15 `s15-disciples-protest.jpeg` RE-CUT. Prior frame:
+  Jesus's eyes read pale/greenish with an off, dead stare. New frame: both eyes
+  open, symmetric, aligned on the same point, **warm brown** per the LOOK
+  STANDARD — no wall-eye, cross-eye, or dead stare. FIXED.
+
+Touch-once: both open complaints on this row batched into this ONE re-cut.
+2 rerolls / 20 beats = 10% (under the 15% budget). Spend this fix: $0.27.
+
+---
+
 Final candidate: `mark-5_woman-touches-his-cloak-realistic-v3.mp4`
 
 ## Delivery proof
