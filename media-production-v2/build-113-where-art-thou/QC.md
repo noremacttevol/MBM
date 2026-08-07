@@ -120,3 +120,62 @@ other famous characters."
   (anchors 178 in-our-image, etc.). His look no longer changes — it is fixed by
   image + text lock exactly like Jesus. Cameron can verify his own fix in the
   b07 and b26 frames.
+
+---
+
+## ✅ AUTHOR DONE — GOD-EMBODIMENT MADE CONSISTENT (Fable-5 author lane, Machine A `Dev`, 2026-08-07, $0)
+
+The 2026-08-07 ship showed the embodied Father in only 3 beats (b07, b23, b26)
+while the other God-presence beats still rendered him as **golden light / no
+figure** (b02 walking-together, b08 "where art thou", b10/b11 the seeking, b17,
+b20 the coats). That INCONSISTENCY is the open half of the complaint: "so his
+look doesn't change" fails when he is a man in some frames and light/absent in
+others. Root cause was a contradiction left in the file — the `GOD THE FATHER
+LOCK` (embodied) was added, but most beats' `must_show`/`must_not_show` still
+said "ABSOLUTE: no figure of God — light only," and several God-present beats
+(b02/b10/b11/b20) never even locked the GOD token, so neither the Father prose
+NOR his `god.jpeg` face sheet attached.
+
+**Author fix ($0, --check PASS 26 beats):**
+- Rewrote the header GOD RENDERING note to Cameron's standing order (embodied,
+  shown in every presence beat; off-frame only in tight Adam/Eve reaction
+  close-ups — the same grammar used for Jesus, so his look never changes).
+- Added the `GOD` token to the `locks` of b02, b10, b11, b20 (b07/b08/b17/b23/b26
+  already had it) so `REFS["GOD"]=god.jpeg` + the Father prose both attach — his
+  FACE is now locked identical on every beat he appears in.
+- Flipped `must_show`/`must_not_show`/scene on b02, b07, b08, b10, b11, b17, b20,
+  b23, b26 to SHOW the embodied Father (verified: assembled prompts carry "GOD
+  THE FATHER LOCK" and no longer say "no figure of God"). Removed personified
+  God-as-light from b25 (now a pure open-road landscape beat before the closing
+  figure). Reaction close-ups b12/b13/b15/b19/b24 keep God off-frame — correct
+  film grammar, not a look change.
+
+### COMPLAINT LEDGER — this re-cut
+Open complaint: *"God has a body, we've been through this... create a character
+for him... so his look doesn't change much like Jesus."*
+- **Embodiment → FIXED, now CONSISTENT:** the Father is shown as a real man in
+  EVERY presence beat, not just 3; light-only God is gone from his presence beats.
+- **"his look doesn't change" → FIXED:** `god.jpeg` face sheet now attaches to all
+  9 God beats (was missing on b02/b10/b11/b20), so it is one locked man like Jesus.
+
+### 🅿️ RUNNER — do this (paid re-cut, ~7 stills)
+Regenerate ONLY the beats whose God rendering CHANGED: **b02, b08, b10, b11, b17,
+b20, b25** (embody the Father / remove God-as-light). KEEP b07, b23, b26 (already
+show the Father and now match spec) and every non-God still. Face-board the Father
+against `god.jpeg` across ALL 9 God beats (b02/b07/b08/b10/b11/b17/b20/b23/b26) —
+one man, brilliant white robe, white hair/beard, no halo; identity-edit any drift,
+then recheck the full frame. Re-assemble (AUDIO byte-identical, AUDIO_FROM_V1_
+SEGMENTS already set), ship via C-FIX with this ledger on the review card.
+
+### ⚠ HAND-OFF — GLOBAL GOD CANON (needs Cameron's per-passage call, do NOT sweep blind)
+Cameron wants God consistent across ALL his videos. Row 113 is the ONLY build
+with an embodied GOD lock today; `GOD` is NOT in the global CAST_LOCKS. Promoting
+a canonical embodied-Father (text + `god.jpeg`) to the global cast would make him
+one man everywhere — BUT this must be applied ONLY to passages where God appears
+bodily. Several God-rows are scripturally VOICE/LIGHT theophanies, not a body
+(e.g. row 101 still-small-voice = 1 Kings 19 "a still small voice"; ascension =
+voice/angels). Blanket-embodying God would be a doctrine error. This needs
+Cameron's call on which passages show God's body vs. voice, plus whether the
+OT "LORD" figures should read as the Father (as row 113 does) or the premortal
+Christ/Jehovah (LDS: the OT Jehovah = premortal Christ). Flagged for a focused
+session, not done blind here.

@@ -82,3 +82,56 @@ Row spend ≈ **$2.94** (20 stills + b19 anchor + 2 b13 rerolls, all @ ~$0.134).
 Rerolls 2/20 = **10%** (under the 15% budget). Well under the $6.10/row average —
 promoted the CLIFF plate from this row's own b19 (0 extra cost) and reused all
 cast portraits free (0 portraits generated). The COST-LAW trend stays DOWN.
+
+---
+
+## ✅ AUTHOR DONE — SETTING DRIFT FIX (Fable-5 author lane, Machine A `Dev`, 2026-08-07, $0)
+
+The FIX-WAVE handoff above is now applied in `beats_v2.py`. Complaint is
+COMPLAINT-FIRST + LOW-NUMBER priority (open, shipped, low row) and is now
+author-resolved; only a paid 6-still reroll remains.
+
+**What was wrong (root cause, confirmed against the file + lesson 487):** row 103
+is a single-location OUTDOOR story ("the same cliff, springs and glade
+throughout"), but 6 close-up beats — b04, b06, b12, b13, b15, b17 — omitted the
+`CLIFF` token from their `locks`. `CLIFF` is a PROSE lock (build LOCKS dict;
+`PLACE_REFS` is empty — there is no CLIFF image plate), and the assemble() step
+injects a lock's prose ONLY into beats whose `locks` name it. With no outdoor cue
+in those 6 beats' scene text, the model defaulted to a generic indoor
+house/village. The 2026-08-06 ship note explains WHY the runner dropped the
+setting from crowded beats — "DROPPED the place plate to keep Peter's face refs" —
+i.e. it treated setting-vs-face as a tradeoff. It is NOT a tradeoff here: `CLIFF`
+is TEXT, so it costs zero reference-image slots; Peter's face sheet still attaches.
+
+**Author fix applied ($0):** added `"CLIFF"` to the `locks` of all 6 beats
+(b04→`["CLIFF","PETER","ANDREW"]`, b06→`["CLIFF","ANDREW"]`,
+b12→`["CLIFF","PETER"]`, b13→`["CLIFF","PETER","JOHN","ANDREW"]`,
+b15→`["CLIFF","PETER"]`, b17→`["CLIFF","PETER","ANDREW","JOHN"]`). All 20 beats
+now carry CLIFF (verified: `assemble()` injects "GREAT PALE ROCK CLIFF" prose into
+b06/b12/b15 — the tight close-ups — while their `scene` still says "Close on…" so
+framing stays tight with the glade behind, not an interior). `--check` PASS
+(20 beats, v4). Audio untouched (Audio OK). The Simon→Peter naming is correct by
+scripture (Matt 16:17-18) — no narration change, per the gate note above.
+
+### COMPLAINT LEDGER — this re-cut
+Open complaint: *"…the pictures are all bad they keep changing and are not remade
+with the character ref…"*
+- **Interior drift half → FIXED (author):** the 6 close-ups now render in the
+  locked cliff glade like the other 14, so the setting no longer "keeps changing"
+  between wides and close-ups. This also removes the reason the runner had to
+  reroll them (the rerolls are what "even broke Peter's locked face" — lesson 487),
+  so Peter stays one man across the regen.
+- **Peter face-consistency half → protected:** every Peter beat keeps its `PETER`
+  cast ref (CLIFF is prose, added alongside — nothing dropped). Face-board Peter
+  hardest of any row (name-giving story); s18 "thou art Peter" must clearly match.
+
+### 🅿️ RUNNER — do this (paid, ONE re-cut, ~$0.80)
+1. Regenerate ONLY b04, b06, b12, b13, b15, b17 against the fixed CLIFF-locked
+   prompts. KEEP the other 14 stills (they were correct). Do NOT regen the row.
+2. Face-board Peter across all his beats incl. the 6 new ones; identity-edit any
+   drift, then recheck the full frame. Confirm each of the 6 renders OUTDOORS in
+   the cliff glade (that is the gate — no interior, no village door).
+3. Re-assemble (AUDIO byte-identical, LOCK PASS), re-audit, ship via C-FIX with
+   this ledger on the review card so Cameron sees the setting + face fixed.
+Reroll budget: the 6 named beats are the fix, not rerolls — treat 6 regens as the
+planned re-cut; hold extra rerolls ≤15%.

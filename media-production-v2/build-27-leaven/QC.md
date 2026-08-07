@@ -184,3 +184,22 @@ all, or let n1 flow straight into j1 with s33 folded differently. This is why ei
 diagnostics cannot see it. **$0, nothing changed, no pictures/audio touched.** (Scan:
 `/tmp/f0scan.py` method — decode each mp3 to 16 kHz mono, autocorrelation F0, median over
 voiced frames.)
+
+---
+
+## §0f — SIBLING-PARITY diagnostic (Fable-5 author lane, Machine A `Dev`, 2026-08-07, $0)
+
+A NEW angle, and it RETIRES the prior "delete s33" lead. §0e floated that the open
+"audio is messed up" might be the opening scripting — n1 NARRATOR then s33 SCRIPTURE
+"Another parable spake he unto them;" then j1 JESUS, three voices in 11s referencing
+a "first parable" not shown — and suggested deleting s33. **Do NOT delete s33.**
+Checked the siblings: build-25-wheat-and-tares opens COLD on the SAME scripture-voiced
+attribution ("Another parable put he forth unto them, saying,") → Jesus, and is BUILT
+with NO audio complaint. build-25/26/27 share a BYTE-IDENTICAL mbm_speakers.py
+(NARRATOR=AndrewNeural, SCRIPTURE=SteffanNeural — genuinely distinct voices; JESUS=
+EricNeural). So the scripture-attribution pattern and the voice pipeline are both
+sibling-approved; row 27's audio is built from the identical proven system. Deleting
+s33 would be a speculative change that makes 27 inconsistent with accepted 25 and
+burns a re-cut for a guess. Row 27 remains genuinely EAR-BLOCKED (8 headless
+diagnostics + this parity check all clean) — it needs Cameron's one 90-second listen
+to name the bad timestamp; everything author-side is verified. $0, nothing touched.

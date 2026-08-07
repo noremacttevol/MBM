@@ -136,7 +136,7 @@ BEATS = [
     {
         "id": "v2-r103-b04", "out": "s04-it-was-an-easy-question.jpeg", "seg": "n2",
         "window": "17.18-20.27", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "ANDREW"],
+        "locks": ["CLIFF", "PETER", "ANDREW"],
         "narration": "It was an easy question at first. What are people saying?",
         "must_show": "the ease — disciples leaning in comfortably, hands already rising to answer; the pleasure of reporting what OTHERS think.",
         "must_not_show": "no halo, glare or rim-light; the comfort VISIBLE — no stakes yet on any face.",
@@ -193,7 +193,7 @@ BEATS = [
     {
         "id": "v2-r103-b06", "out": "s06-some-say-elijah-come-back.jpeg", "seg": "n3",
         "window": "31.50-33.16", "wide": False, "jesus": False, "ref": False,
-        "locks": ["ANDREW"],
+        "locks": ["CLIFF", "ANDREW"],
         "narration": "Some say Elijah come back.",
         "must_show": "one report close — a disciple mid-report, earnest: the Elijah theory offered with its weight; borrowed conviction on a friendly face.",
         "must_not_show": "no halo, glare or rim-light; the offering EARNEST — the theory respectable and sincerely relayed.",
@@ -373,7 +373,7 @@ BEATS = [
     {
         "id": "v2-r103-b12", "out": "s12-not-a-prophet-not-a.jpeg", "seg": "n5",
         "window": "66.12-68.23", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER"],
+        "locks": ["CLIFF", "PETER"],
         "narration": "Not a prophet. Not a teacher.",
         "must_show": "the category broken — close on Peter's face holding the claim: the leap past every safe title visible in the blazing certainty.",
         "must_not_show": "no halo, glare or rim-light; the certainty COSTLY — a man aware of the size of what he just said.",
@@ -401,7 +401,7 @@ BEATS = [
     {
         "id": "v2-r103-b13", "out": "s13-peter-said-out-loud-the.jpeg", "seg": "n5",
         "window": "68.23-72.25", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "JOHN", "ANDREW"],
+        "locks": ["CLIFF", "PETER", "JOHN", "ANDREW"],
         "narration": (
             "Peter said out loud the thing the others had only half-dared "
             "to hope."
@@ -465,7 +465,7 @@ BEATS = [
     {
         "id": "v2-r103-b15", "out": "s15-you-did-not-work-this.jpeg", "seg": "n6",
         "window": "82.70-85.38", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["PETER"],
+        "locks": ["CLIFF", "PETER"],
         "narration": "You did not work this out on your own, Jesus told him.",
         "must_show": "the source named — close on the two faces: Jesus's gladness, Peter's dawning wonder at where his own answer came from.",
         "must_not_show": "no halo, glare or rim-light; Peter's wonder HUMBLE — a man surprised by his own mouth.",
@@ -523,7 +523,7 @@ BEATS = [
     {
         "id": "v2-r103-b17", "out": "s17-and-they-had-plenty-of.jpeg", "seg": "n2",
         "window": "20.27-22.71", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PETER", "ANDREW", "JOHN"],
+        "locks": ["CLIFF", "PETER", "ANDREW", "JOHN"],
         "narration": "And they had plenty of answers ready.",
         "must_show": "the eager inventory — disciples' animated faces mid-recall, fingers rising with reports to give; the easy question's harvest.",
         "must_not_show": "no halo, glare or rim-light; the eagerness LIGHT — opinion-trading at its most comfortable.",

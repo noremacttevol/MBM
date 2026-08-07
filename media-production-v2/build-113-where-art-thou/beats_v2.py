@@ -16,11 +16,17 @@ SCRIPTURE FACTS (Genesis 3 KJV):
         OF SKINS, and CLOTHED THEM." — the unexpected mercy.
   v23   the sending out — clothed, not alone, with the promise.
 
-GOD RENDERING (CONTENT-CARE law, absolute): the LORD is NEVER
-embodied — the "voice walking" is rendered as moving golden evening
-light and stirred leaves through the garden, never a figure, hand or
-silhouette; the coats of skins are FOUND laid ready in the light,
-their making unseen.
+GOD RENDERING (Cameron's standing order, 2026-08-07 — REVERSES the old
+"never embodied / light only" note that drew this complaint: "God has a
+body, weve been through this... create a character for him... so his look
+doesnt change much like Jesus"): the LORD is the SAME locked embodied
+Father whenever he is in frame — see the GOD THE FATHER LOCK. He is SHOWN,
+a real man with weight and footsteps, in every PRESENCE beat (walking with
+them, coming through the garden, standing in the clearing to call, sending
+them out, clothing them). He stays off-frame ONLY in tight reaction
+close-ups on Adam or Eve — the same film grammar used for Jesus, never a
+change in how he looks. No halo, glow or rim-light; his majesty is his
+face and bearing, not an effect. Modesty for Adam and Eve is unchanged.
 
 SERPENT: NEVER painted — it exists only in the woman's quoted words.
 
@@ -117,13 +123,13 @@ BEATS = [
     {
         "id": "v2-r113-b02", "out": "s02-people-and-god-walking-together.jpeg", "seg": "n1",
         "window": "3.96-9.71", "wide": False, "jesus": False, "ref": False,
-        "locks": ["GARDEN", "ADAM", "EVE"],
+        "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": (
             "People and God walking together in the cool of the day, with "
             "nothing to hide and nothing to fear."
         ),
-        "must_show": "the walking-together — the man and woman at ease strolling the garden path at distance amid deep foliage, and BESIDE their way a moving warmth of golden light through the trees: companionship with the unseen; modesty by distance and foliage.",
-        "must_not_show": "ABSOLUTE: no figure of God — the presence is moving light only; the couple framed discreet, unashamed ease in their walk.",
+        "must_show": "the walking-together — the man and woman at ease strolling the garden path at distance amid deep foliage, and WALKING WITH THEM the embodied Father (per the GOD lock): companionship you can see, three friends on an evening walk; modesty by distance and foliage.",
+        "must_not_show": "no halo, glow or rim-light on the Father; nothing immodest — the couple framed discreet, unashamed ease in their walk.",
         "scene": (
             "Down the evening path the "
             "first friendship takes its "
@@ -132,11 +138,13 @@ BEATS = [
             "the deep green, easy and "
             "unhurried, her long dark "
             "hair swaying to her waist "
-            "— and moving BESIDE their "
-            "way, keeping pace through "
-            "the trees, a warmth of "
-            "golden light that stirs "
-            "the leaves as it goes — "
+            "— and walking BESIDE them, "
+            "keeping their unhurried "
+            "pace, the Father himself, "
+            "a real man of radiant "
+            "dignity in brilliant white, "
+            "white hair and full white "
+            "beard — "
             "three walking together in "
             "the cool of the day, "
             "nothing hidden anywhere "
@@ -278,15 +286,16 @@ BEATS = [
             "moving through the garden in the cool of the evening, the way "
             "he always had."
         ),
-        "must_show": "SCRIPTURE-EXACT: the voice walking — the garden path filling with moving golden light, leaves stirring along its way, the evening warmth approaching as it always had; NO figure.",
-        "must_not_show": "ABSOLUTE: no figure, shape or silhouette in the light — presence as light and stirred leaves only.",
+        "must_show": "SCRIPTURE-EXACT: the LORD coming — the embodied Father (per the GOD lock) walking the garden path toward them in the cool of the evening, unhurried and familiar, the way he always had; leaves stirring at his passing.",
+        "must_not_show": "no halo, glow, shape-shifting or rim-light — a real man walking, majesty in the face and bearing only; nothing immodest.",
         "scene": (
             "Down the evening path he comes himself, as he has "
             "come every evening of their lives: the Father "
-            "walking the garden in the cool of the day, white-"
-            "robed and unhurried among his trees, leaves "
+            "walking the garden in the cool of the day, robed in "
+            "brilliant white, white hair and full white beard, "
+            "unhurried among his trees, leaves "
             "stirring at his passing, the low gold light warm "
-            "on the noble face that has never once been "
+            "on the noble kind face that has never once been "
             "something to hide from — until tonight. "
             "Every figure has two arms, "
             "two hands and one head."
@@ -300,8 +309,8 @@ BEATS = [
             "And this time, they ran and hid themselves among the trees. "
             "Where art thou?"
         ),
-        "must_show": "SCRIPTURE-EXACT: the hiding and the question — the leaf-girdled two pressed behind a great trunk in shadow, and the golden light standing in the clearing beyond, the question filling the garden; NO figure in the light.",
-        "must_not_show": "ABSOLUTE: no figure of God; the couple's hiding FEARFUL, faces visible around the trunk's edge; modesty held.",
+        "must_show": "SCRIPTURE-EXACT: the hiding and the question — the leaf-girdled two pressed behind a great trunk in shadow in the foreground, and beyond them in the clearing the embodied Father (per the GOD lock) standing and calling, the question filling the garden.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the couple's hiding FEARFUL, faces visible around the trunk's edge; modesty held.",
         "scene": (
             "For the first time in the "
             "world, someone hides from "
@@ -314,8 +323,9 @@ BEATS = [
             "squeezed shut around the "
             "edge of the bark — while "
             "out in the clearing the "
-            "golden light stands "
-            "still, and the question "
+            "Father himself stands, "
+            "white-robed and unhurried, "
+            "and the question "
             "moves through every leaf "
             "of the garden, gentle "
             "and enormous: WHERE ART "
@@ -354,13 +364,13 @@ BEATS = [
     {
         "id": "v2-r113-b10", "out": "s10-where-are-you-the-cry.jpeg", "seg": "n5",
         "window": "50.77-56.02", "wide": True, "jesus": False, "ref": False,
-        "locks": ["GARDEN", "ADAM", "EVE"],
+        "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": (
             "Where are you — the cry of a Father looking for a child who is "
             "hiding."
         ),
-        "must_show": "the Father-and-hiding-child shape — the wide garden: the small hidden two behind their tree, the great patient light in the clearing; the geometry of every parent's evening search.",
-        "must_not_show": "ABSOLUTE: no figure of God; the composition TENDER — hide-and-seek gone wrong, love still seeking.",
+        "must_show": "the Father-and-hiding-child shape — the wide garden: the small hidden two behind their tree, and standing patient in the clearing the embodied Father (per the GOD lock) calling toward them; the geometry of every parent's evening search.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the composition TENDER — hide-and-seek gone wrong, love still seeking.",
         "scene": (
             "The wide frame holds, the camera at the clearing's "
             "side so hider and seeker share one profile, the "
@@ -369,10 +379,10 @@ BEATS = [
             "darkening green, two "
             "small frightened people "
             "pressed behind a tree — "
-            "and filling the clearing "
-            "they can no longer face, "
-            "the great warm light of a "
-            "Father at evening, calling "
+            "and standing patient in the "
+            "clearing they can no longer face, "
+            "the Father himself at evening, "
+            "white-robed and unhurried, calling "
             "a child's name into the "
             "garden — the same "
             "geometry as every parent "
@@ -387,19 +397,19 @@ BEATS = [
     {
         "id": "v2-r113-b11", "out": "s11-he-knew-exactly-where-they.jpeg", "seg": "n5",
         "window": "56.02-63.29", "wide": False, "jesus": False, "ref": False,
-        "locks": ["GARDEN", "ADAM", "EVE"],
+        "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": (
             "He knew exactly where they were. He asked so they would come "
             "out. And, trembling, the man answered."
         ),
-        "must_show": "the coming-out beginning — the man stepping trembling from behind the trunk into the light's edge, leaf-girdled, the woman close behind his shoulder; the hardest first step.",
-        "must_not_show": "ABSOLUTE: no figure of God; the step VOLUNTARY — drawn out by the question, not dragged.",
+        "must_show": "the coming-out beginning — the man stepping trembling from behind the trunk toward the embodied Father (per the GOD lock) waiting in the clearing, leaf-girdled, the woman close behind his shoulder; the hardest first step.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the step VOLUNTARY — drawn out by the question, not dragged.",
         "scene": (
             "The question does its "
             "work: from behind the "
             "great trunk the man steps "
-            "trembling into the edge of "
-            "the gold — leaf-girdled, "
+            "trembling toward the "
+            "waiting white-robed Father — leaf-girdled, "
             "arms half-crossed over "
             "himself, every muscle "
             "wanting the shadow back — "
@@ -577,8 +587,8 @@ BEATS = [
         "window": "90.69-95.07", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": "No excuses left — just the truth, spoken out loud at last.",
-        "must_show": "the emptied-out honesty — the two standing plainly in the clearing's light, everything told; the strange relief of no more hiding visible in their loosened postures.",
-        "must_not_show": "ABSOLUTE: no figure of God; the relief SUBTLE — spent, honest, lighter.",
+        "must_show": "the emptied-out honesty — the two standing plainly before the embodied Father (per the GOD lock) in the clearing, everything told; the strange relief of no more hiding visible in their loosened postures.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the relief SUBTLE — spent, honest, lighter.",
         "scene": (
             "When the last excuse is "
             "spent, something almost "
@@ -666,28 +676,27 @@ BEATS = [
     {
         "id": "v2-r113-b20", "out": "s20-and-instead-god-did-something.jpeg", "seg": "n7",
         "window": "108.20-112.24", "wide": False, "jesus": False, "ref": False,
-        "locks": ["GARDEN"],
+        "locks": ["GARDEN", "GOD"],
         "narration": (
             "And instead, God did something they never expected. He made "
             "them clothes."
         ),
-        "must_show": "SCRIPTURE-EXACT rendered per law: the coats of skins FOUND — two well-made garments of soft dark leather laid ready on a sunlit stone, warm light resting on them; the making unseen.",
-        "must_not_show": "ABSOLUTE: no figure or hands of God — the garments simply THERE, laid with visible care.",
+        "must_show": "SCRIPTURE-EXACT: the mercy — the embodied Father (per the GOD lock) holding out two well-made coats of soft dark leather to the couple, warm evening light on the garments; kindness where a sentence was expected.",
+        "must_not_show": "no halo, glow or rim-light on the Father; nothing immodest; the gesture GENTLE — a father clothing his children.",
         "scene": (
             "What waits for them is not "
-            "the end: on a smooth "
-            "stone in the last warm "
-            "light lie two garments — "
+            "the end: the Father himself, "
+            "white-robed, white-haired and "
+            "full-bearded, stands "
+            "in the last warm light and "
+            "holds out to them two garments — "
             "coats of soft dark "
             "leather, well made, "
             "man-sized and woman-"
-            "sized, laid out with the "
-            "unmistakable care of "
-            "hands that measured "
+            "sized, measured for "
             "their wearers exactly — "
-            "no maker anywhere in "
-            "sight, only the work "
-            "itself, resting in the "
+            "the mercy plain on his "
+            "kind face, resting in the "
             "gold like a sentence "
             "commuted: clothing, "
             "where annihilation was "
@@ -768,8 +777,8 @@ BEATS = [
             "Then he sent them out into the wide world — but not naked, and "
             "not alone, and not without a promise."
         ),
-        "must_show": "SCRIPTURE-EXACT: the sending — the leather-clothed two walking out through the garden's gap into the dusk country, hand in hand, warm light following at their backs.",
-        "must_not_show": "ABSOLUTE: no figure of God, no flaming sword — the exile's mercy carried by the following light and the held hands.",
+        "must_show": "SCRIPTURE-EXACT: the sending — the leather-clothed two walking out through the garden's gap into the dusk country hand in hand, and at the gap behind them the embodied Father (per the GOD lock) watching them go, a hand raised toward them in blessing.",
+        "must_not_show": "no halo, glow, rim-light or flaming sword; the exile's mercy carried by the watching Father and the held hands.",
         "scene": (
             "The exile leaves like a "
             "sending, not a casting "
@@ -780,14 +789,14 @@ BEATS = [
             "clothed in the coats he "
             "made, provisioned with a "
             "promise neither fully "
-            "understands — and behind "
-            "them, pouring through "
-            "the gap and laying long "
-            "gold down the hard road "
-            "ahead of their feet, "
-            "the garden's warm light, "
-            "following its children "
-            "out. Every figure has "
+            "understands — and at the "
+            "gap behind them, white-"
+            "robed in the garden's warm "
+            "light, the Father himself "
+            "watching his children go, "
+            "one hand lifted after them "
+            "in blessing. "
+            "Every figure has "
             "two arms, two hands and "
             "one head."
         ),
@@ -829,26 +838,28 @@ BEATS = [
         "window": "135.35-139.24", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN"],
         "narration": "Not one who waits for you to clean yourself up and come find him.",
-        "must_show": "the not-waiting — the garden path itself at evening: the way in open, light already moving OUT along it; a God who travels toward, drawn as a road.",
-        "must_not_show": "ABSOLUTE: no figure; the light OUTBOUND on the path — the direction the whole doctrine.",
+        "must_show": "the not-waiting — an empty landscape beat: the garden path itself at evening, open and unbarred, running out through the gap toward the thorn-country; the road as the visual of a God who travels toward you, not one who waits.",
+        "must_not_show": "no figure here (a pure path/landscape beat before the closing figure); no halo or personified light-as-God — just the open evening road.",
         "scene": (
             "The path settles the "
-            "doctrine by its light: "
+            "doctrine by its shape: "
             "the garden way at "
             "evening, open and "
-            "unbarred — and the warm "
-            "gold not pooled at its "
-            "far end waiting for the "
-            "cleaned-up to arrive, "
-            "but moving OUTWARD along "
+            "unbarred — the road not "
+            "ending at some far gate "
+            "for the cleaned-up to "
+            "reach, "
+            "but running OUTWARD along "
             "the stones, through the "
             "gap, out into the "
             "thorn-country where the "
-            "hiders went — a God "
-            "drawn as a direction: "
-            "not the destination of "
-            "the worthy, the traveler "
-            "toward the lost. Every "
+            "hiders went — the road "
+            "itself drawn as a "
+            "direction: not the "
+            "destination of the "
+            "worthy, but the way a "
+            "God takes toward the "
+            "lost. Every "
             "figure has two arms, two "
             "hands and one head."
         ),
@@ -862,8 +873,8 @@ BEATS = [
             "evening, calling, still calling — where are you? — because he "
             "wants you back."
         ),
-        "must_show": "the closing image — the garden in the cool of evening with the golden presence moving down the path toward the viewer's side of the frame, leaves stirring; the question still going out; NO figure ever.",
-        "must_not_show": "ABSOLUTE: no figure, shape or silhouette — moving light and stirred leaves to the last frame; the call aimed OUT of the picture.",
+        "must_show": "the closing image — the garden in the cool of evening with the embodied Father (per the GOD lock) walking down the path toward the viewer's side of the frame, leaves stirring; the question still going out; the seeking God shown as a real man who comes.",
+        "must_not_show": "no halo, glow, shape-shifting or rim-light — a real man walking to the last frame; the call aimed OUT of the picture.",
         "scene": (
             "The closing frame is still happening, the camera at "
             "the path's side taking his walk in profile: the garden "
