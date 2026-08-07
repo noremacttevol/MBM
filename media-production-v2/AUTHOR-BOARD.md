@@ -84,7 +84,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 70 | build-70-temptations | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — Cameron complaints "narrator spells 'I-S'" + "'proceedeth' should be pro-see-duhth" CLOSED: n2 re-voiced (caps IS/IF now spoken as words, caption keeps caps), j1 re-voiced ("proceeduth" → whisper-verified pro-see-duhth), same Andrew/Eric voices; other 20 mp3s byte-identical. $0 (edge-tts). 0 V2 stills → picture runner builds on corrected audio; COMPLAINT LEDGER in QC.md for its review card. See QC.md "AUDIO FIX DONE". |
 | 71 | build-71-the-great-commission | BUILT | 21 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 72 | build-72-calling-matthew | BUILT | 41 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 73 | build-73-this-day-fulfilled | BUILT | 17 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
+| 73 | build-73-this-day-fulfilled | NEEDS-REBUILD | 17 | OK | RUNNER PARK 2026-08-07 (Machine A `Dev`): complaint is AUTHOR content-rebuild (RUNNER-LESSONS §511), NOT a runner reroll — narration must give the FULLNESS of the message (teach how Jesus MEANT it, that He has risen and continues the plan, framed the way the prophets/restored church teach it, WITHOUT naming the church). Also lock Jesus's face across the opening beats: s01 vs s02 drift (s01 lighter wavy hair/softer face vs s02 near-black hair/fuller beard). Pictures+audio byte-identical, $0. See QC.md RUNNER PARK block. |  |
 | 74 | build-74-woman-washed-his-feet | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — STALE-V1 audio-lock cleared (AUDIO_FROM_V1_SEGMENTS); 19/19 new-voice segments verified. 0 stills → picture runner builds on corrected audio. See QC.md "AUDIO FIX DONE". |
 | 75 | build-75-woman-taken-in-adultery | BUILT | 21 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 76 | build-76-suffer-the-little-children | BUILT | 14 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
@@ -173,7 +173,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 159 | build-159-other-sheep | AUTHORED | 0 | OK |  | ✅ |
 | 160 | build-160-stone-cut | AUTHORED | 0 | OK |  | ✅ |
 | 161 | build-161-called-of-god | AUTHORED | 0 | OK |  | ✅ |
-| 162 | build-162-keys-of-kingdom | NEEDS-BEATS | 0 | OK | AUTHOR-LIVE 2026-08-07 (Machine A `Dev`) |  |
+| 162 | build-162-keys-of-kingdom | AUTHORED | 0 | OK |  | ✅ AUTHORED 2026-08-07 (Machine A `Dev`, Fable-5 author lane, $0): fresh 24-beat map written from scratch (Matthew 16:13-19, Peter's confession + "upon this rock" + the keys, all at Caesarea Philippi). Movie coverage — ONE establishing wide (b01), the rest singles/two-shots/inserts; Peter locked (canonical cast), the keys locked as ONE object (two iron ward-keys), the Father NEVER embodied (b06/b22). Speaker law honoured: s16 confession on PETER (b04), kv19 bind/loose cuts to Peter receiving the keys (b19). `v2_prompt.py --check` PASS, windows contiguous+monotonic (0.280→144.784=card), audio OK. **NEW place CAESAREA-ROCK** — RUNNER must gen b01 FIRST, `--promote` it as the plate, then gen the other 23 (steps in QC.md). No open complaint. See QC.md. |
 | 163 | build-163-apostles-prophets | NEEDS-BEATS | 0 | OK |  |  |
 | 164 | build-164-unity-of-faith | NEEDS-BEATS | 0 | OK |  |  |
 | 165 | build-165-laying-on-hands | NEEDS-BEATS | 0 | OK |  |  |
