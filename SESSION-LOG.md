@@ -1,3 +1,23 @@
+## 2026-08-07 — ROW 78 ("Who Is My Mother?", Mark 3:31-35) REALISTIC V2 SHIPPED + DEPLOYED — no open complaint, first V2 visual build on cleared new-voice audio — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commits:** claim (RUNNING) = `255eded9d`; ship (mp4 + QC + beats REFS + PLACE-WIRING + boards + QUEUE) = `573fb16a24453240485d2eff664dd279602beda9`; review-card + this SESSION-LOG + STASH-INDEX = the commits below. Session-chain verified at start (then-top SESSION-LOG = row 50, claim commit `3afc6aa04` present in `git log`); hostname `Dev` = Machine A. Followed PROMPT-OPUS-RUNNER.md; read the two META-LAWS + all 15 rubric lessons + all 596 lines of RUNNER-LESSONS.md before the first credit. Targeted `git add` of only this row's paths + boards + SESSION-LOG (tree ~150 files dirty from live autopilot lanes — never a tree-wide add/reset).
+
+**The row.** AUTHOR-BOARD row 78 = AUTHORED / Ready ✅ / Audio OK / empty claim — lowest ready row (LOW-NUMBER LAW). QUEUE row 78 = "Who is my mother?" Mark 3 (not swapped). `v2_prompt.py --check` PASS (12 beats). Claimed A-auto RUNNING→BUILT. This is a STALE-V1 row the author cleared with `AUDIO_FROM_V1_SEGMENTS=True` (0 V2 stills before) — the picture runner generated 12 stills and assembled on the corrected new-voice audio.
+
+**COMPLAINT LEDGER (LEARNING LAW): none open.** `v2_outline.py 78` shows no open complaint; COMPLAINTS.md has no mother/Mark-3/row-78 entry (only row 49's separate water-to-wine "mother" note). Nothing to answer — the review card states the realistic-V2 changes plainly.
+
+**Build.** 12 painted stills at native 2K (V1 had 8), 72.6s, 19.9 MB, 2 portraits (MOTHER, BROTHERS; REFS wired into beats_v2.py — the row-52/55 single-character face-lock lesson applied up front). Plate: HOUSE promoted-first from b01 (packed Capernaum one-room house) → 11 beats; b11 is the exterior street beat. Inside/outside geometry held (dim warm interior vs bright street, doorway the only meeting point). THREE-MARYS LAW: this row's MOTHER frame is now the mother-Mary canon (row 49 unapproved at build time).
+
+**QC / rerolls.** 0 rerolls / 12 = **0%** (≤15% budget). All 12 frames passed the light-QC bar: only-Jesus-cream, one locked Jesus face across all his beats, NO Jesus double on the two jesus:False family frames (s02/s11 carry no cream, no Jesus), no modern objects, no lens-stare, anatomy/scale/beards consistent, fully realistic (Law 14 PASS, zero cartoon), mother dignified/loving (no romantic framing on the s04 two-man relay — row-49 lesson). Caption QC PASS (bottom-band, card clean, no square glyphs — row-50 defect absent). FIX-WAVE (no reroll): HOUSE wide plate propagated its wide comp onto b05/b06 (coverage, rubric-12/row-101 class); Jesus baked-in hazel eyes in s04 close-up (do-not-reroll per RUNNER-LESSONS).
+
+**Audio.** AUDIO REBUILD PASS SHA256 `7d734e91…`, 72.606s, decode-clean (ffmpeg -v error = 0). Row-74 STALE-V1 duration tripwire CLEAR: captioned.mp4 66.467s ≈ extract card_start 66.448s (Δ0.02s) — no window overrun, no tail/card truncation.
+
+**Cost.** Gemini this row ≈ **$1.87** (meter 452.38 → 454.53), FAR under the $6.10 average — COST LAW held hard (0% rerolls vs 19% baseline; promote-first plate + reuse minimized spend).
+
+**Deploy + live-verify (7c).** `firebase deploy --only hosting`, then confirmed the live review.html carries the new hash and the mp4 returns HTTP 200 (see below). PUBLISH LOOP synced.
+
+---
+
 ## 2026-08-07 — ROW 70 (the-temptations, Matt 4) REALISTIC-V2 SHIPPED + DEPLOYED — open "I-S / proceedeth" complaint FIXED & proven in shipped audio — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** claim = `f29ccad04`; ship (mp4 + QC + PLACE-WIRING + boards + QUEUE) = `4414d1d1a960b801cf72346f865f7a05e7579347`; review-card + SESSION-LOG + api-spend = this commit. Session-chain verified at start (then-top = rows 179/180/181 authored, commit `610d05193` present in `git log`); hostname `Dev` = Machine A. Followed PROMPT-OPUS-RUNNER.md; read the two META-LAWS + all 14 rubric lessons + all 580 lines of RUNNER-LESSONS.md before the first credit.
