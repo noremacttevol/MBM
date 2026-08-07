@@ -418,29 +418,16 @@ BEATS = [
         ),
     },
     # ---------------------------------------------------- n9 / j1 — her name ----
+    # b16 (s16-the-room-went-quiet, wide) REMOVED 2026-08-07 — OPEN Cameron complaint:
+    # "the picture at 1:31-1:32 of jesus standing and looking mean needs to be removed;
+    # all the other ones are good enough, that one for a brief second isn't needed." It
+    # was a 1.44 s wide of Jesus turned toward Martha that rendered stern/"mean". Its
+    # window (91.32-92.76) is absorbed into the tender b17 close-up below (now 91.32-
+    # 100.53) so "the whole room went quiet" + "answered her gently" both play over the
+    # warm, fond, NOT-a-scolding face — exactly the opposite of the mean read.
     {
-        "id": "v2-r016-b16", "out": "s16-the-room-went-quiet.jpeg", "seg": "n9 p1",
-        "window": "91.32-92.76", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["MARTHA", "MARY", "GUESTS", "HOUSE"],
-        "char_refs": ["assets/s03b-she-took-it-all-on-herself.jpeg", "assets/s14-dont-you-care.jpeg", "assets/s08-a-different-choice.jpeg"],
-        "narration": "The whole room went quiet.",
-        "must_show": "total stillness in the lamplit room — nobody moving, the fire the only thing alive in the frame.",
-        "must_not_show": "no halo, glare or rim-light; nobody has spoken yet.",
-        "scene": (
-            "The whole lamplit room has gone completely still. Martha stands with her "
-            "arm still half out, Mary sits on the floor looking up, the travellers are "
-            "frozen around the low table, and not one person is moving or speaking. "
-            "The only movement anywhere in the frame is the low fire in the hearth. "
-            "Jesus is turned toward Martha. Deep shadow in the corners, warm uneven "
-            "light. The camera holds the whole room. Every figure has two arms, two "
-            "hands and one head."
-            " The camera stands well back behind the seated travellers and shoots past their backs across the still room; every person is seen from behind, in profile or in three-quarter, and not one face is turned toward the lens. "
-            " ONE SINGLE PHOTOGRAPH of one continuous room, edge to edge — the frame is NOT split into strips, bands, stacked panels or a sequence of shots, and there is only ONE image with one horizon and one set of walls. It is a photograph on a fast prime lens with shallow depth of field and real film grain, not an illustration, painting or render."
-        ),
-    },
-    {
-        "id": "v2-r016-b17", "out": "s17-not-a-scolding.jpeg", "seg": "n9 p2",
-        "window": "92.76-100.53", "wide": False, "jesus": True, "ref": REF,
+        "id": "v2-r016-b17", "out": "s17-not-a-scolding.jpeg", "seg": "n9 p1-p2",
+        "window": "91.32-100.53", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HOUSE"],
         "narration": ("And Jesus answered her, not with a scolding, but with her own "
                       "name, said twice, and said gently."),

@@ -891,7 +891,7 @@ BEATS = [
         "narration": ("When the officer reached home, his servant rose to meet him at "
                       "the door, alive and well."),
         "must_show": "the young servant standing in the doorway on his own legs as the officer arrives — the master stopped dead on the threshold.",
-        "must_not_show": "do not put Jesus in this frame; the young servant is STANDING, not in bed. He is the SAME young man as the healed-servant photograph — colour back in his face, never grey.",
+        "must_not_show": "do not put Jesus in this frame; the young servant is STANDING, not in bed. He is the SAME young man as the healed-servant photograph — colour back in his face, never grey. HEALED-NOT-SICK: fully well — no grey/ashen/pale pallor, no fever-sweat, no sunken cheeks or hollow eyes, no sickbed frailty; robustly alive and well.",
         "scene": (
             "The centurion has come in through the outer door and stopped dead on the "
             "threshold, still in his cuirass with the helmet under his arm — and the "
@@ -928,7 +928,7 @@ BEATS = [
         "char_refs": ['assets-realistic/s03-this-man-wears-the-uniform.jpeg', 'assets-realistic/s04-a-servant-was-dying.jpeg'],
         "narration": ("He had trusted Jesus's word, and the word had been enough."),
         "must_show": "the closing frame: the officer holding the young servant — an armoured Roman with both arms around a slave.",
-        "must_not_show": "do not put Jesus in this frame; nobody else is present. The whole story ends with the two people it was about.",
+        "must_not_show": "do not put Jesus in this frame; nobody else is present. The whole story ends with the two people it was about. HEALED-NOT-SICK (Cameron gate, 3:58): the young servant is FULLY WELL — healthy warm skin colour, clear bright open eyes, upright and strong; NEVER any leftover illness: no grey/ashen/pale/sallow pallor, no fever-sweat sheen, no sunken cheeks or hollow eyes, no cracked lips, no sickbed frailty. He looks robustly alive and well, not still sick.",
         "scene": (
             "The centurion has crossed the room and taken the young servant in both "
             "arms, the dropped helmet lying on the tiles behind him, one iron-clad arm "

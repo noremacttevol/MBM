@@ -363,8 +363,8 @@ BEATS = [
         "window": "77.31-81.5", "wide": True, "jesus": False, "ref": False,
         "locks": ["FRIENDS", "HOUSE"],
         "narration": "And down through that column of light,",
-        "must_show": "looking UP from inside at the four filthy faces ringing the torn hole against the bright sky, paying out four ropes.",
-        "must_not_show": "an upright vertical photograph — the hole and sky at the top, the room below, horizon level; the picture is the right way up.",
+        "must_show": "looking UP from inside at the four filthy faces ringing the torn hole against the bright sky, paying out four ropes. The four ropes are SOLID opaque physical rope, taut and unbroken, each clearly connected from a friend's gripping hands at the hole down to a knotted corner of the mat.",
+        "must_not_show": "an upright vertical photograph — the hole and sky at the top, the room below, horizon level; the picture is the right way up. GHOST-ROPE BAN: the ropes are NEVER transparent, faint, see-through, ghostly, glowing, wispy, floating free, frayed-into-nothing, or disconnected at either end — real taut cord from hand to mat-corner.",
         "scene": (
             "An upright vertical photograph looking up from inside the dim room "
             "through the torn hole to the bright sky beyond, the room at the bottom of "
@@ -380,8 +380,8 @@ BEATS = [
         "window": "81.5-84.2", "wide": True, "jesus": False, "ref": False,
         "locks": ["PARALYTIC", "FRIENDS", "MAT", "CROWD", "HOUSE"],
         "narration": "swaying on four ropes, lowered with enormous care,",
-        "must_show": "the mat halfway down inside the shaft of light, hanging level on four corner ropes, turning slowly, the crowd pressed back beneath it.",
-        "must_not_show": "the mat must hang LEVEL and controlled — never tipping or dropping; the care is the point.",
+        "must_show": "the mat halfway down inside the shaft of light, hanging level on four corner ropes, turning slowly, the crowd pressed back beneath it. The four ropes are SOLID opaque taut cord, each running unbroken from the hole above straight down to a knotted corner of the mat, plainly bearing the weight.",
+        "must_not_show": "the mat must hang LEVEL and controlled — never tipping or dropping; the care is the point. GHOST-ROPE BAN: the ropes are NEVER transparent, faint, see-through, ghostly, glowing, wispy, floating free, frayed-into-nothing, or disconnected at either end; the room reads as one clear plain interior, not a warped or weird space.",
         "scene": (
             "The woven reed mat hangs halfway down inside the column of daylight, held "
             "level and steady on the four ropes knotted to its corners, turning very "
@@ -398,7 +398,7 @@ BEATS = [
         "locks": ["PARALYTIC", "MAT", "CROWD", "HOUSE"],
         "narration": "came a man on a mat — landing right at the feet of Jesus.",
         "must_show": "the mat settling onto the earth floor in the shaft of light directly in front of Jesus, ropes going slack, the two of them face to face.",
-        "must_not_show": "no halo, glare or rim-light on Jesus — the only light effect in the room is the sunshine through the hole.",
+        "must_not_show": "no halo, glare or rim-light on Jesus — the only light effect in the room is the sunshine through the hole. GHOST-ROPE BAN: the four slack ropes lying across the mat are SOLID opaque cord, never transparent, faint, ghostly, glowing or floating.",
         "scene": (
             "The mat has come to rest on the beaten earth floor inside the column of "
             "daylight, and the four ropes have gone slack and are lying loose across "
@@ -434,7 +434,7 @@ BEATS = [
         "locks": ["FRIENDS", "HOUSE"],
         "narration": "The friends'. The four sweat-streaked faces ringing the hole in the roof.",
         "must_show": "CAMERON GATE (open complaint: 'the 1:37 picture is missing the man on the mat'): the four dust-caked faces ringing the hole AND the man on his mat present in the same frame — shot from low inside the room so the paralyzed man on his mat lies soft in the near foreground and the four sweat-streaked faces look down through the ragged hole above him.",
-        "must_not_show": "do not put Jesus in this frame; the four faces stay the subject — the mat man is PRESENT but soft-focus foreground, never absent; the ropes still run from the hole down to his mat.",
+        "must_not_show": "do not put Jesus in this frame; the four faces stay the subject — the mat man is PRESENT but soft-focus foreground, never absent. GHOST-ROPE BAN + ROOF-LEGIBILITY: the ropes still run from the hole down to his mat as SOLID opaque taut cord (never transparent, ghostly, floating or disconnected); the four friends read UNMISTAKABLY as leaning in over the edge of a real flat clay ROOF around a real torn hole — a legible roof-and-hole, never a weird warped or ambiguous opening.",
         "scene": (
             "From low inside the room, past the man on his mat: his still form and "
             "the mat's edge lie soft and near in the lamplit foreground with the "

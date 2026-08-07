@@ -211,6 +211,19 @@ complaints i keep submitting." Therefore:
     (≤2), FIX-WAVE, and escalate for a master-ref review rather than churning
     credits one frame at a time.
 
+19. **ROPES / CORDS ARE SOLID PHYSICAL ROPE — no "ghost ropes" (Cameron,
+    2026-08-07 — row 13 roof: "1:49 has ghost ropes and a weird room they are
+    dropping him into. its a bad picture").** Any rope, cord, binding or line in
+    a frame (lowering a mat through a roof, mooring a boat, binding a prisoner,
+    a well-rope) must render as SOLID, opaque, physical rope — taut or plainly
+    slack, and clearly CONNECTED at BOTH ends (hand-to-mat, post-to-boat, etc.).
+    NEVER transparent, faint, see-through, ghostly, glowing, wispy, floating
+    free, frayed-into-nothing, or disconnected — a half-rendered rope reads as a
+    "ghost rope" and breaks the shot. Whenever a beat's action hangs weight on a
+    rope, state the solid-rope requirement in must_show and the ghost-rope ban in
+    must_not_show. (Companion to lesson 8 ACTION-LOGIC: a rope that carries no
+    visible load, or vanishes mid-span, fails the glance test.)
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.

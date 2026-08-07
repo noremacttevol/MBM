@@ -1,5 +1,29 @@
 # Story 13 Realistic V3 QC — The Man Through the Roof
 
+## 🅿️ NEEDS-REBUILD — NEW open complaint AUTHOR-FIXED (2026-08-07, Machine A `Dev`, $0 Fable-5 lane)
+
+**COMPLAINT LEDGER — this is a SECOND, still-open complaint** (the earlier "1:37 picture missing
+the man on the mat" was already C-FIX-shipped; the review board's `latest` is now this one):
+> "1:44 the 4 friends are not standing on a roof with a hole in it it looks weird just get rid of
+> that picture. 1:49 has ghost ropes and a weird room they are dropping him into. its a bad
+> picture remove it."
+
+- **Root cause:** two render failures in the roof-opening / lowering sequence — (a) **GHOST ROPES**:
+  the four lowering ropes rendered transparent/floating/disconnected (new **rubric lesson 19**);
+  (b) the four-friends-over-the-hole + the lowering room read weird/warped and un-legible.
+- **AUTHOR FIX ($0, no image gen):** added a hard **SOLID-ROPE requirement + GHOST-ROPE BAN** to the
+  rope beats **b14** (s14 four faces paying rope), **b15** (s15 swaying on ropes) and **b16** (s16
+  landing, slack ropes), and **roof-legibility + ghost-rope ban** to **b18** (s18 four faces at the
+  hole). Ropes must now be solid opaque cord, taut/slack, connected hand→mat-corner; the roof reads
+  as a real flat clay roof with a real torn hole. `--check` PASS (pre-existing b44/b45 wide-geometry
+  WARNs untouched). Audio UNTOUCHED.
+- **🅿️ RUNNER — do this (paid, targeted re-cut):** reroll the flagged lowering/roof frames
+  (**s14, s15, s18** — the four-on-roof + rope-lowering shots at ~1:34-1:49) against the fixed prose;
+  face/rope-board them. If a reroll STILL reads weird after ≤2 tries, **DROP the redundant b18**
+  (b14 already covers four-faces-at-the-hole) rather than churn credits. Keep every other still
+  byte-identical, **AUDIO LOCK byte-identical**, ship with a card telling Cameron the ghost-rope /
+  weird-roof pictures were fixed.
+
 Final candidate: `mark-2_man-through-the-roof-realistic-v3.mp4`
 
 ## Delivery proof
