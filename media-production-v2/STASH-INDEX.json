@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 23:24:10",
+ "scanned": "2026-08-06 23:43:29",
  "entries": [
   {
    "row": 1,
@@ -3042,21 +3042,6 @@
    "night": false,
    "n_person": 2,
    "scene": "Very close on Jesus's face, filling the frame, looking down and slightly off camera at the man kneeling in front of him. His eyes are OPEN, soft and warm and are completely fixed, and there is a small, moved, tender set "
-  },
-  {
-   "row": 9,
-   "build": "build-09-rich-ruler",
-   "beat": "v2-r009-b13",
-   "file": "build-09-rich-ruler/assets-realistic/s13-the-two-of-them.jpeg",
-   "tokens": [
-    "CAMERA",
-    "RULER"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 3,
-   "scene": "The counter-shot to the most important frame: very close on the kneeling young man's upturned face, filling the frame, at the instant the look lands on him \u2014 eyes lifted to someone just above the camera, lips slightly pa"
   },
   {
    "row": 9,

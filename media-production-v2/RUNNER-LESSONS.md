@@ -390,3 +390,23 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 
 ## INFRA / BILLING
 - **`429 RESOURCE_EXHAUSTED` with body "Your prepayment credits are depleted" is a HARD billing wall, NOT the transient rate-limit 429 (2026-08-06, rows 115 & 116).** The brief's "retry once after 60 s, billing auto-reloads" applies to the rate-limit 429 only; the *prepayment-depleted* message does NOT clear on a 60 s retry (verified twice). It is GLOBAL to the Gemini key — every concurrent lane hits it, so there is NO other Ready row to fall to (the same dead key blocks all of them). Correct response: retry once to confirm, then PARK the row (QC.md RUNNER PARK + exact resume command; keep any already-generated stills — they are valid, do NOT regen), leave the board/QUEUE noting "Gemini credits depleted — Cameron top up AI Studio billing," add a SESSION-LOG entry flagging the ACTION FOR CAMERON, commit, push, and STOP the session clean. Do not burn turns re-trying or hopping rows on a depleted key.
+
+## C-FIX / COMPLAINT HANDLING
+- **"lost his beard at N seconds" is usually a WIDE-SHOT small-face drop, and the
+  beat text hard-gating the beard does NOT guarantee it renders (2026-08-06, row 9
+  b10).** s10-he-meant-it rendered the rich young man clean-shaven even though its
+  own must_show/must_not_show demanded "SHORT DARK BEARD present and identical" with
+  a CAMERON GATE — the model just dropped it on a small distant face. Beard-board the
+  ACTUAL rendered frame against the character ref, never trust the prompt. Fix =
+  `--only <beat> --redo` WITH the character REF wired (row 9's RULER lock pulls the
+  bearded ruler-ref) — one reroll restored it. Map "N seconds" to the beat by
+  cumulative segment/window duration before touching anything.
+- **"the picture at M:SS is dumb / not needed" is a COVERAGE complaint, not a picture
+  defect — REMOVE the beat, do NOT reroll it (2026-08-06, row 9 b13).** Rerolling a
+  "better" version keeps a picture Cameron said shouldn't exist = complaint stands.
+  Delete the beat dict and EXTEND the previous beat's `window` to cover the removed
+  span (row 9: b12 67.84-73.49 → 67.84-78.49, b13 deleted). Audio stays byte-identical
+  because v2_assemble builds the video track from beat `window` fields while the audio
+  track is rebuilt independently from the V1 timeline — AUDIO LOCK still PASSes. This
+  also directly answers Cameron's recurring "excessive luxuries / wasting api money"
+  theme: fewer pictures = fewer chances for drift, and the removal is $0.
