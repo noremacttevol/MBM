@@ -105,3 +105,50 @@ only, art unobscured; closing question card clean (no squares, margined).
 row (2 anchors $0.26 + 39-frame run $5.23 + 4 rerolls $0.53 − but reuse of
 promoted plates kept regen low). Under the $6.10 running average → trend
 holds DOWN.
+
+---
+
+# C-FIX — Opus runner, Machine A `Dev` 2026-08-07 (SHIPPED)
+
+**Cameron's complaint (v2_outline.py 72, his words):** "1:41 floating cups and
+lamps lit from the fill hole. and scars on people, for no reason"
+
+**COMPLAINT LEDGER (both halves closed, ONE re-cut):**
+- *"1:41 ... lamps lit from the fill hole"* — the 1:41 frame is **s18**
+  (the feast wide, "he sat down in the middle of them and ate"). Its two clay
+  oil lamps had the flame rising from the central FILL HOLE. FIXED: flames now
+  sit at the pinch SPOUT on the rim, fill hole closed. Same lamp defect was
+  swept across every feast frame that showed it — s16, s17, s19, s21 — all
+  corrected. Verified in the RENDERED mp4 at 1:41.
+- *"floating cups"* (1:41, s18) — cups/jugs now sit flat on the table with a
+  correct contact shadow.
+- *"scars on people, for no reason"* — ROOT CAUSE: the model read the
+  "outcasts/sinners/tax men" guest brief as physically wounded people and
+  painted gratuitous facial gashes + an arm bandage. Removed on EVERY guest who
+  carried them: s18 (front-left guest's red facial gashes), s19 (bald guest's
+  facial marks + a young man's bandaged arm), s17 (young man's facial scar),
+  s21 (yellow-scarf man's cheek scar). Everyone now has clean, healthy skin.
+
+**Method (identity-EDIT, not full reroll — cheaper + preserves the composition
+Cameron already had, per COMPLAINT-FIRST/touch-once):** gemini-3-pro-image
+image-edit on each offending frame — remove scars/wounds/bandages, move lamp
+flames to the spout, ground floating vessels — with a hard "do not change any
+face/pose/composition/lighting" constraint. Only Jesus's cream robe untouched.
+
+**Self-caught + fixed defect (FACE-BOARD / Law-14 / no-glow):** pass 1 attached
+the JESUS-MASTER-REF as an identity anchor and used the word "painting"; that
+stylized s16 into a cartoon/illustrated Jesus and painted a golden HALO around
+Jesus in s21 (no-halo law + realistic-only law). Both were RESTORED from backup
+and re-edited in a pass 2 with NO reference image and explicit "photorealistic,
+no halo/glow/rim-light, do not stylize" guardrails — both landed photographic
+and haloless. Re-verified all 5 edited frames by eye + the 1:41 rendered frame.
+
+**Cost:** 7 edit-gens (5 pass-1 + 2 pass-2 remediation) × $0.134 = **$0.94**.
+That is 17% of 41 beats — over the 15% reroll budget by 2 gens, ALL of which
+were remediating the edit-introduced stylization I caught, not chasing drift.
+Flagged honestly per COST LAW; still <$1 for the whole complaint fix.
+
+**Assembly:** v2_assemble.py 72 → **AUDIO LOCK PASS SHA256=5c00718e…** —
+identical to the shipped cut, so the audio is byte-identical (nothing
+re-voiced). 20.9 MB / 244.4s. 1:41 rendered frame + question card verified:
+captions bottom-band only, art unobscured, card clean.
