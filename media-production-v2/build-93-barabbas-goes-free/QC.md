@@ -1,5 +1,42 @@
 # QC / RUNNER HANDOFF — build-93-barabbas-goes-free (Matthew 27:15-26)
 
+## ✅ REALISTIC-V2 BUILT + SHIPPED (2026-08-07, Opus picture runner, Machine A `Dev`, UNATTENDED/HEADLESS)
+
+15 realistic stills, 90.3s, AUDIO REBUILD PASS SHA256=`6df005ef9a84e97bfc8171fefc968899f0808abfe3de3f2fb33f3e14825b191a`.
+mp4 = `mark-15_barabbas-goes-free.mp4` (19.8 MB). QUEUE row 93 cross-checked = "Barabbas
+goes free / Mark 15" — NOT swapped. `--check` PASS (15 beats). 2 portraits (PILATE +
+BARABBAS, $0.27); PAVEMENT promoted from b01 anchor → 10 beats; PRIESTS group-ref reused
+from build-06. Meter $476.91→$480.12.
+
+### COMPLAINT LEDGER (LEARNING LAW)
+- **No open complaint on this row** (`v2_outline.py 93` shows no OPEN reviewer lesson).
+  COMPLAINT LEDGER: none open. Audio safety verified anyway (row was audio-fixed
+  2026-08-06): AUDIO_FROM_V1_SEGMENTS=True, V1-dir segments 44100/128k = ElevenLabs
+  new-voice (old edge-tts was 24000); AUDIO REBUILD PASS SHA proves the shipped audio.
+
+### Light QC (all 15 frames viewed once against beats + RUNNER-LESSONS)
+- Only Jesus wears cream in EVERY frame he appears (s02, s04, s11, s12, s15); Jesus
+  face-locked, bound with rope, never beaten/bloodied (content-care held — the abuse is
+  off-screen). No second cream, no Jesus double on any jesus:False frame.
+- PILATE consistent every shot (Roman, grey short hair, deep-red cloak over bronze
+  cuirass); BARABBAS consistent (ragged brown, scarred brow, shackle-marked wrists) across
+  s02/s12/s13/s14/s15. PRIESTS present as distinct older dark-robed men (s06/s08/s15).
+- The substitution thesis reads at a glance: s12 Barabbas unchained/freed while bound
+  cream Jesus is led away by guards; s15 the two men in one frame, opposite directions.
+- Mob beats (s08/s10) are shouting fists — intense but NO gore/violence; crowd otherwise
+  composed. Chief priests visibly working the crowd in s06 (correct action-logic).
+- PAVEMENT plate QC'd first/hardest (empty judgment seat, period columns, Roman guards
+  with spears, no modern object) — propagated clean to all 10 PAVEMENT beats.
+- **1 reroll = 6.7% (well under the ≤15% COST-LAW budget):** s13 first take was a
+  Barabbas lens-stare → `--redo` re-anchored his gaze DOWN to his freed hands. No other reroll.
+
+### Cost
+Row 93 = **~$2.41 / 6.7% rerolls** ($0.27 two portraits + $0.13 anchor + $1.88 fourteen
+beats + $0.13 one reroll) — WELL under the $6.10/row + 19%-reroll running average
+(COST-LAW trend-down satisfied; plate + group-ref reuse). Meter $480.12.
+
+---
+
 ## ✅ AUDIO FIX DONE — STALE-V1-FINAL recency lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
 
 Class = STALE-V1-FINAL (recency), no open Cameron complaint (`v2_outline.py 93`). Parked
