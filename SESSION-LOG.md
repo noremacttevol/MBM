@@ -1,3 +1,37 @@
+## 2026-08-07 — ROW 19 AUDIO-FIX: j1 "too fast / ignores commas" FIXED, picture (B) handed to C-FIX lane — Machine A `Dev`
+
+**Commit:** claim = `0d845ebb5`; fix (j1 re-voice + flag + QC + board) = (this commit's parent); this log = (this commit).
+
+Picked up as the LOW-NUMBER audio-fix (PROMPT-AUDIO-FIX.md) on AUTHOR-BOARD row 19
+(build-19-shore, John 21). Cameron's MIXED open complaint (`v2_outline.py 19`, against
+live `128fc218`): *"1:05 picture he is swimming the wrong way. JESUS talks too fast and
+ignores commas when asking peter if he loves him."*
+
+- **AUDIO (A) — FIXED at the source.** The shipped `j1` ("Simon, son of Jonas, lovest
+  thou me?") was **2.038 s** with NO pause gaps (a pre-`jesus_pauses` render) — it ran
+  both commas together, exactly his complaint. Re-voiced ONLY j1 through the SAME locked
+  ElevenLabs JESUS voice (Alexander, `UMnEnzK9…`) with ellipsis + `<break>` tags and a
+  touch more weight (stability 0.55, speed 0.84) → **3.291 s**, both commas breathe as a
+  natural spoken hesitation (NOT the robotic double-ellipsis dead-air that got row 10
+  rejected). `media-production/build-19-shore/audio/j1.mp3` sha256 `279c086f…1751c`;
+  timing.json rewritten to the one exact-KJV caption span. Nothing else re-voiced.
+- **Why AUDIO_FROM_V1_SEGMENTS=True.** The new j1 is newer than the 2026-07-29 V1 final
+  mp4, so copying that AAC stream would ship the OLD rushed j1 (STALE-V1 recency guard).
+  Set the flag in `beats_v2.py`; verified the rebuild-from-segments path assembles a
+  **159.017 s** track matching the extract_beats timeline to **0.000 s** (all 22 segs).
+- **PICTURE (B) — handed to the picture C-FIX lane, NOT fixed here** ($0-Gemini lane).
+  The row is MIXED, so shipping the audio fix alone would leave the wrong-way swim frame
+  (beat `v2-r019-b17`) open = worst failure. Live cut deliberately NOT re-shipped so its
+  complaint still matches the live hash `128fc218` and the picture lane owns it. Flipped
+  board **NEEDS-AUDIO→BUILT, Audio CHECK→OK** (autopilot C-FIX picker line 135 now
+  matches: BUILT + open complaint + reportedAgainst==cur). QC.md §0 green block tells that
+  lane: reroll b17 (Peter toward the beach) + re-cut over the new audio (the flag rebuilds
+  the fixed j1) → ONE touch-once re-cut closes BOTH; do NOT re-park to NEEDS-AUDIO.
+- **Cost: 2 ElevenLabs j1 renders (first attempt's `<break>` tags absorbed at high
+  stability — added ellipsis on the 2nd), $0 Gemini, 0 pictures touched.**
+
+---
+
 ## 2026-08-07 — ROW 10 C-FIX PARKED NEEDS-AUDIO: j2 "robot" recurrence is audio-domain — Machine A `Dev`
 
 **Commit:** park (board + QC + RUNNER-LESSONS) = `70ed9ee25`; this log = (this commit).
