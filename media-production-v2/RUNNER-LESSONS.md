@@ -284,7 +284,32 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   and terraces look similar), so it is usually FIX-WAVE, not a mandatory reroll —
   but if a straight, graded, modern-width road reads clearly, reroll the aerial;
   the model can land the same vista with only footpaths. Watch the going-out /
-  epilogue landscape beats specifically.
+  epilogue landscape beats specifically. **CONFIRMED a hard complaint (row 71
+  C-FIX 2026-08-07): Cameron flagged the shipped b21 as "the last picture makes
+  no sense and leaves people confused" — the paved roads + straight shoreline
+  highway + tiny black silhouettes read as a modern drone photo. One reroll to a
+  grounded eye-level going-out (robed figures on an old dirt footpath toward the
+  sea, warm light) fixed it. If a going-out aerial has ANY graded/paved road,
+  reroll it — Cameron's eye catches it even when the runner calls it borderline.**
+- **Rerolling a no-Jesus crowd/going-out wide can spawn a stray CREAM-robed
+  figure** (row 71 C-FIX b21, 1st reroll): a beat marked `jesus:False` with no
+  REF still landed a pale/cream-robed lead figure — off-spec because ONLY Jesus
+  wears cream, and on a no-REF beat a Jesus-looking figure is also unlocked.
+  Always scan a rerolled multi-figure frame for a second cream robe (RUNNER-
+  LESSONS §"cream" family), not just for the named defect; one more reroll landed
+  the group in earth-tone robes only.
+- **A stiff, board-flat OPEN SCROLL reads wrong — real scrolls/scriptures are
+  soft** (row 71 C-FIX b20, 1:51): Cameron flagged "the scroll the guy is passing
+  is stiff and open scrolls of paper are not stiff." The model had rendered a
+  rigid flat panel of parchment. Fix: reroll toward a CLOSED, soft, worn
+  leather-wrapped scripture/codex that folds in the hand (or a naturally curling
+  rolled scroll) — never a flat rigid open sheet held out like a board. Glance at
+  any hand-off / reading beat for a plank-stiff scroll.
+- **A broken figure lying SIDEWAYS/HORIZONTAL across a frame edge** (row 71 C-FIX
+  b16, 1:26): a close group shot rendered one figure as a horizontal body draped
+  across the top-left edge (Cameron: "a person sideways"). This is per-frame
+  garbage, not drift — reroll on sight; one redo landed all figures upright. QC
+  every close/crowd frame for any figure that is not vertically posed.
 - **A single CARTOON / CGI-render frame in an otherwise-realistic row** (row 56
   b22 the-news-went-out came back as a smooth 3D-illustration/plasticky render
   while all 21 other frames were photographic). It reads as a totally different
