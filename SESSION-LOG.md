@@ -1,3 +1,42 @@
+## 2026-08-07 — ROW 59 C-FIX triaged → PARKED NEEDS-REBUILD (author-domain), $0: "second feeding" scholarship complaint — Machine A `Dev`
+
+**Commit:** claim = `6edf4e6ff`; park (AUTHOR-BOARD + build QC.md + RUNNER-LESSONS) = `9c96d2328`; this log = (this commit).
+
+Picked up as a COMPLAINT-FIRST + LOW-NUMBER C-FIX on AUTHOR-BOARD row 59
+(build-59-feeding-4000, Mark 8, feeding the four thousand). Cameron's OPEN complaint
+(`v2_outline.py 59`, `reportedAgainst 3005df5d1da3`, filed 2026-08-06 AFTER the cut shipped):
+*"if we tell this story as the second time he did this and dont give any biblical
+scholarship on the fact that it was true that he did it twice and it was different times
+becasue it was recorded that he did comment on that then we are doing a huge disservice…
+we need refrences in this one and comparisons that give the act a better light not just
+telling the story the same way twice."*
+
+- **Triage: AUTHOR content-domain, NOT a runner fix.** The complaint is not a picture
+  defect and not an audio pronunciation/pacing re-voice — it demands NEW narration
+  CONTENT (scholarship that this is the distinct SECOND feeding; that Jesus himself
+  commented on both — Matt 16:9-10 / Mark 8:19-21; and the 5-loaves/12-baskets vs
+  7-loaves/7-baskets comparisons). That changes the beat map/scene text, which the runner
+  is forbidden to edit. No reroll or identity-edit can add scholarship. Matches
+  RUNNER-LESSONS "fix lives one stage upstream" (rows 33/43 precedent).
+- **Action ($0, nothing generated):** claimed the board row (claim-by-push, `6edf4e6ff`),
+  then flipped State BUILT→**NEEDS-REBUILD**, cleared Ready, wrote a full RUNNER PARK note
+  in `build-59-feeding-4000/QC.md` telling the FABLE 5 author exactly what to add (name it
+  the second miracle + defend two distinct events; cite Jesus's own Matt 16 / Mark 8
+  commentary as a KJV card or narrator scholarship; surface the deliberate number contrasts;
+  decide if 1-2 new beats are needed). Corrected the stale "COMPLAINT LEDGER: none open"
+  note (written 2026-08-06 before the complaint existed).
+- **New RUNNER-LESSON** appended: an "add scholarship / references / comparisons / tell it
+  differently" complaint is an author content rebuild, distinct from NEEDS-AUDIO (which
+  re-voices EXISTING words) — and always re-run `v2_outline.py <row>` at claim time because
+  a prior build's "none open" ledger can predate the complaint.
+- **Cost:** $0.00 Gemini, 0 rerolls, all 27 stills + audio byte-identical. Complaint stays
+  OPEN (REVIEW-LESSONS row 59 open:true); the NEEDS-REBUILD → author lane picks it up next
+  tick (low rows first). Nothing shipped to the reviewer because a runner cannot honestly
+  resolve this complaint — forcing a re-cut would either do nothing about it or require
+  authoring narration, both violations.
+
+---
+
 ## 2026-08-07 — ROW 10 AUDIO-FIX shipped + live-verified: "Jesus says the Messiah reveal too fast" — Machine A `Dev`
 
 **Commit:** mp4+audio+beats_v2+make_narration(V1&V2)+QC = `3dbe56fe3c9b63721bb1faf85d02d3a97944f57d`; review.html card + REVIEW-LESSONS + AUTHOR-BOARD + this log = (this commit, by pathspec).
