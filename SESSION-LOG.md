@@ -1,3 +1,20 @@
+## 2026-08-07 — ROW 71 (the-great-commission) C-FIX SHIPPED — 1:26 sideways person, 1:51 stiff scroll, 1:57 confusing aerial — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `87b45c717` · ship (a) `08de502e1e85540177a9228e7c60adf4fe598600` (mp4 + QC.md + QUEUE.md) · review card + board→SHIPPED (b) `4426b8e08` · publish-loop `9cb4fd5e2` · this RUNNER-LESSONS/STASH/SESSION-LOG commit. **Session-chain verified at start:** then-top row-66 C-FIX claim `d7e4ac37a` present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 71` + RUNNER-LESSONS first.
+
+**Complaint (Cameron, against the shipped cut — `v2_outline.py 71`, three picture defects, ONE re-cut):** *"1:26 has a person sideways, 1:51 the scroll the guy is passing is stiff and open scrolls of paper are not stiff, the last picture w t1:57 makes no sense and leaves people confused."*
+
+**Fixes (reroll ONLY the 3 named frames — extracted from the SHIPPED mp4 to see exactly what he saw):**
+1. **1:26 → s16/b16** ("Teach them not just to hear it"). Old cut had a broken figure lying HORIZONTAL across the top-left frame edge ("a person sideways"). One reroll → a clean close group of disciples, every man upright, correct anatomy. Verified @87s.
+2. **1:51 → s20/b20** ("It reached across two thousand years"). Old cut showed a rigid, board-flat OPEN scroll of parchment. One reroll → a small, soft, worn LEATHER-WRAPPED scripture that folds naturally in the hand (matches the beat's "cover soft with carrying"). Verified @111s.
+3. **1:57 → s21/b21** ("That is how far he was willing to send someone"). Old cut was a modern-looking AERIAL DRONE shot — paved switchback roads + straight shoreline highway + tiny black silhouettes (RUNNER-LESSONS §280, previously FIX-WAVE'd — Cameron's complaint elevated it to mandatory). 1st reroll landed a stray pale/cream lead figure (off-spec: only Jesus wears cream, and beat is no-REF); 2nd reroll → the eleven in earth-tone robes on an ANCIENT DIRT FOOTPATH descending toward the Sea of Galilee, warm light, no modern road, reads plainly as "the going out." Verified @116s.
+
+**Scope / touch-once:** ONLY the 3 named frames rerolled; every other beat byte-identical. **Audio byte-identical** — assemble printed the same `AUDIO LOCK PASS SHA256=c29f8cf…` as the original ship; nothing re-voiced. Deployed to Firebase (`milk-b4-meat`) and LIVE-VERIFIED: live review.html carries `data-hash="08de502e1e85…"`, mp4 returns HTTP 200 / 19,744,603 bytes. Review card answers all three complaints in Cameron's own words.
+
+**Cost / COST LAW:** 4 image gens across 3 beats (b16×1, b20×1, b21×2) = **$0.54** for the C-FIX (meter → ~$497.41). The one double-reroll (b21) was mandated by the off-spec cream figure, not chasing subtle drift. 4 new RUNNER-LESSONS entries logged: sideways-figure-at-frame-edge, stiff-open-scroll, cream-figure-on-reroll-of-no-Jesus-wides, and the going-out-road confirmation as a hard Cameron complaint.
+
+---
+
 ## 2026-08-07 — ROW 66 (malchus-ear) C-FIX SHIPPED — opening arrest 0–30s + the 1:24 tree/sky seam fixed — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** ship (a) `2af3aaf9e57d04811a42b51626dbab08c810054f` (mp4 + QC.md + QUEUE.md + 5 rerolled stills) · review card (b) `83dbd46c2` · this board/RUNNER-LESSONS/STASH/SESSION-LOG commit + publish-loop `8ee476cb8`. **Session-chain verified at start:** then-top row-16 ship `83a56e774` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 66` + rubric first.
