@@ -215,3 +215,38 @@ Delivery is bulletproof and live. Row 110 now genuinely **AWAITS CAMERON** — h
 needs to open the card once (fresh, uncached), see the realistic pictures, and
 press Approve. There is no further production work; a re-cut here would be
 wasted credit repeating a non-defect.
+
+---
+
+## RUNNER SHIP LOG — C-FIX #4 (Machine A `Dev`, 2026-08-07) — the fix the prior 3 missed
+
+### COMPLAINT LEDGER (LEARNING LAW — required before ship)
+Open complaint on this row (`v2_outline.py 110`, reportedAgainst `824b4260`):
+> "this is old pictures version i dont know why im seing it here as fixed"
+
+**ROOT-CAUSED AND FIXED — this time by changing the file, not just its URL.**
+The video was never actually old: every frame is realistic-v2 and has been since
+2026-08-06 (verified again this session at t=2/16/30/48/70/100/125 s — olive-grove
+prayer, the family home, the cliff-path father-and-son, the candlelit room, the
+closing question card). The prior THREE C-FIX sessions proved that too — but they
+each only appended a new `?v=` query token and left the mp4 **byte-identical**, so
+its content hash stayed `824b4260`. That left TWO things broken:
+
+1. **The reopen loop.** `autopilot.sh` fires a cfix whenever a complaint is `open`
+   AND `reportedAgainst == the live card hash`. Because the hash never changed
+   (`824b4260`), the dispatcher kept re-selecting row 110 every tick — which is
+   why a 4th C-FIX session got launched at it. A query-string change is invisible
+   to that condition.
+2. **The cache.** A query token is only a browser hint; a device that byte-caches
+   the video by path (mobile range-request caches do) can still serve the old copy
+   because the bytes at the path never changed.
+
+**The protocol cfix action — "Re-assemble (AUDIO LOCK PASS), redeploy" — was
+skipped all three times. Done now:** re-assembled ($0, no image re-gen — nothing is
+wrong with the pictures, so nothing was rerolled). New mp4 content hash
+`6e070848…` (was `8abce233…`). AUDIO LOCK PASS SHA256=4679aacf… — audio is
+byte-identical to the cut Cameron already has, so his "lead→leed" fix is untouched.
+The new content hash: (a) makes the dispatcher's `reportedAgainst != live hash`, so
+the auto-cfix churn STOPS; (b) is a genuinely different file no cache can shadow.
+$0 / 0 rerolls. Row now truly awaits Cameron's Approve, and if he never touches it
+the automation will no longer thrash it.
