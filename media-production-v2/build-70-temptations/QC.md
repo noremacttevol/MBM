@@ -1,5 +1,46 @@
 # QC / RUNNER HANDOFF — build-70-temptations (Matthew 4:1-11)
 
+## ✅ AUDIO FIX SHIPPED-TO-RUNNER — "proceedeth" → pro-SEE-duhth + ENGINE fix (AUDIO-FIX job, Machine A `Dev`, 2026-08-07)
+Both halves of Cameron's complaint are now correct in the audio the assembler
+ships. The proceedeth half was ORPHANED **and the earlier fix used the WRONG
+ENGINE** — a trap the 2026-08-07 park below missed:
+
+- The authoritative V1 `j1.mp3` is **ElevenLabs JESUS ("Chris", 44100/128 k)** —
+  this build migrated to ElevenLabs even though `mbm_speakers.py` still shows the
+  stale edge-tts EricNeural scaffold. The 2026-08-06 "fixed" j1 in the V2 build
+  dir was rendered in **edge-tts (24000/48 k) = wrong engine**; shipping it (or
+  copying it into the V1 dir as the park suggested) would have swapped Jesus's
+  voice mid-video.
+- **Correct fix:** j1 (the ONLY "proceedeth" segment) re-voiced through the SAME
+  locked ElevenLabs JESUS "Chris" (`iP95p4xoKVk53GoZ742B`) with the word respelled
+  `proceedeth` → **`proceeduth`** (= pro-SEE-duhth, the /dəθ/ ending Cameron named;
+  caption keeps "proceedeth"). Reverent internal pauses shaped with ellipses to
+  mirror the original's pacing, then **atempo-matched to the ORIGINAL duration
+  (7.837 s)** so NO downstream window moves — **no coupled remap needed** (the
+  park expected a +1.083 s edge take; the ElevenLabs take is duration-matched
+  instead, which is simpler and safer).
+- **n2's "I-S"/"IF"** was ALREADY correct in the shipping ElevenLabs audio
+  (verified previously) — untouched. The edge-tts n2 in the V2 dir is likewise a
+  wrong-engine orphan and is deliberately NOT used.
+
+**New audio baseline** (old V1-dir j1 was the ElevenLabs Chris take that
+mispronounced proceedeth):
+- `j1.mp3`  md5 `ab7ae01624180b692e163d939c5eeadd` → **`7f083601811f3c79705c1077adff90a4`**
+  (7.837 s → 7.837 s, same voice, same wording, caption unchanged).
+
+Set **`AUDIO_FROM_V1_SEGMENTS = True`** in beats_v2.py so v2_assemble rebuilds
+narration from the V1-dir mp3s. **Verified:** isolated
+`rebuild_audio_from_segments(extract(70))` → 248.644 s == timeline 248.644 s
+(delta 0.0), narration from 20 V1 mp3s; `v2_prompt.py build-70-temptations --check`
+PASSES (42 beats, v4 checklist PASS).
+
+**This row has ZERO V2 stills.** Nothing visual ships: board flipped **AUTHORED /
+Audio OK / Ready ✅**, claim cleared, so the picture runner builds it on this
+corrected audio. **Runner: j1 now says pro-SEE-duhth in the locked Jesus voice —
+safe to build.**
+
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 42 beats, ~237 s.
 

@@ -43,6 +43,23 @@ day-one strength, week-three hollowing, day-forty gauntness — carried
 per-beat in face and stride; and restored ease at the dawn ministering.
 """
 
+# AUDIO-FIX 2026-08-07 (Machine A `Dev`): "proceedeth" → pro-SEE-duhth fix, and
+# an ENGINE correction the earlier park missed. Cameron: "it mispronounced
+# 'proceedeth' it should be pro-see-duhth". The authoritative V1 j1.mp3 is
+# ElevenLabs JESUS ("Chris", 44100/128k) — this build migrated to ElevenLabs even
+# though mbm_speakers.py still shows the stale edge-tts EricNeural scaffold. The
+# 2026-08-06 "fixed" j1 in the V2 build dir was rendered in edge-tts (24000/48k) =
+# WRONG ENGINE; shipping it would have swapped Jesus's voice mid-video. Correct
+# fix: j1 (the only "proceedeth" segment) re-voiced through the SAME locked
+# ElevenLabs JESUS "Chris" with the word respelled "proceedeth"→"proceeduth"
+# (= pro-SEE-duhth; caption keeps "proceedeth"), reverent pauses shaped with
+# ellipses, then atempo-matched to the ORIGINAL duration (7.837s) so NO downstream
+# window moves — no coupled remap needed. Corrected mp3 is in the V1 dir's audio/.
+# n2's "I-S"/"IF" defect was ALREADY correct in the shipping ElevenLabs audio and
+# is untouched. This flag rebuilds narration from the V1-dir mp3s so the shipped
+# cut says pro-SEE-duhth. Nothing else changed.
+AUDIO_FROM_V1_SEGMENTS = True
+
 # LOCKS: one entry per recurring person and per setting. Setting locks must
 # NEVER name a character. Clothing colours stated POSITIVELY and dark — only
 # Jesus wears cream.
