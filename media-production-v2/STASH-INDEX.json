@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 10:28:14",
+ "scanned": "2026-08-07 10:34:23",
  "entries": [
   {
    "row": 1,
@@ -38658,6 +38658,208 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame settles over the whole company at rest around Jesus in the last warm light \u2014 seventy travellers seated on the walls and the road's edge with the day's dust still on them, faces calm and sky-turned above"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b01",
+   "file": "build-80-come-unto-me/assets/s01-to-a-crowd-of-people.jpeg",
+   "tokens": [
+    "LANE",
+    "CARRIER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The lane carries the day's end home, the camera at the lane's side taking the homeward traffic in profile: labourers strung down the warm gold flagstones \u2014 the heavy-shouldered carrier bent under his roped grain sack, a "
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b02",
+   "file": "build-80-come-unto-me/assets/s02-jesus-made-one-of-the.jpeg",
+   "tokens": [
+    "LANE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the middle of the tired traffic Jesus stands at street level \u2014 no step, no stone to raise him \u2014 warm and still in the lane's low gold, waiting the small moment it takes for weariness to notice stillness \u2014 and along th"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b03",
+   "file": "build-80-come-unto-me/assets/s03-come-unto-me-all-ye.jpeg",
+   "tokens": [
+    "LANE",
+    "CARRIER"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus's arms open down the length of the lane, the camera behind the burdened listeners' shoulders \u2014 the gesture wide enough to take in every bent back in it \u2014 and the burdened turn into it mid-step: the carrier twisting"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b04",
+   "file": "build-80-come-unto-me/assets/s04-come-to-me-all-of.jpeg",
+   "tokens": [
+    "CARRIER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the carrier's face lifted from under his load \u2014 the rope still biting his shoulder, the sack's whole weight still his \u2014 and in the tired eyes the word REST landing like rain on a field that stopped expecting any"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b05",
+   "file": "build-80-come-unto-me/assets/s05-he-does-not-say-come.jpeg",
+   "tokens": [
+    "CARRIER",
+    "LANE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The carrier stands mid-lane exactly as the day left him: sack full and roped on, tunic sweat-dark down the spine, dust to the knee, not one thing about his life handled or sorted or improved since sunrise \u2014 and it is THI"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b06",
+   "file": "build-80-come-unto-me/assets/s06-a-yoke-was-the-wooden.jpeg",
+   "tokens": [
+    "OXFIELD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The cutaway opens on the half-ploughed field, the camera beside the furrow so team and yoke read in profile, in the same low gold: the two russet oxen side by side under the single carved beam, its twin bow-loops cradlin"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b07",
+   "file": "build-80-come-unto-me/assets/s07-he-says-come-while-you.jpeg",
+   "tokens": [
+    "LANE",
+    "CARRIER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the gold lane the carrier comes \u2014 sack still roped high on his bent back, rope still biting, every step still costing what steps have cost all day \u2014 walking toward Jesus not after the load is solved but UNDER it, th"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b08",
+   "file": "build-80-come-unto-me/assets/s08-take-my-yoke-upon-you.jpeg",
+   "tokens": [
+    "LANE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face at the level of the tired faces around him \u2014 the warm brown eyes carrying the claim as plain fact, not performance: meek, and lowly in heart \u2014 a teacher whose self-description is the least demanding"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b09",
+   "file": "build-80-come-unto-me/assets/s09-for-my-yoke-is-easy.jpeg",
+   "tokens": [
+    "LANE",
+    "CARRIER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus's hand comes to rest on the carrier's shoulder \u2014 deliberately, right beside the rope's worn bite, on the exact sore inch the sack has argued with all day \u2014 and the promise passes man to man at arm's length: easy, a"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b10",
+   "file": "build-80-come-unto-me/assets/s10-take-my-yoke-on-you.jpeg",
+   "tokens": [
+    "CARRIER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces close in the low gold: Jesus's steady and near, and the carrier's slowly unlearning its day \u2014 the jaw's clench letting go by degrees, the driven-up shoulders easing though the sack has not moved an inch \u2014 r"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b11",
+   "file": "build-80-come-unto-me/assets/s11-he-is-not-handing-you.jpeg",
+   "tokens": [
+    "OXFIELD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the carved beam itself in the field's gold light: old wood worn satin-smooth by years of necks, its two bow-loops plain to see \u2014 one filled by the labouring russet ox, straining alone at the whole load \u2014 and the"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b12",
+   "file": "build-80-come-unto-me/assets/s12-he-is-stepping-into-the.jpeg",
+   "tokens": [
+    "OXFIELD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Across the turned earth the second russet ox steps in \u2014 its neck sliding under the open bow-loop beside its straining partner \u2014 and the old beam levels as the load splits: the tired animal's tremble easing, the plough re"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b13",
+   "file": "build-80-come-unto-me/assets/s13-he-promising-a-life-with.jpeg",
+   "tokens": [
+    "OXFIELD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The paired team pulls on across the field in the deepening gold \u2014 the plough still biting its dark furrow, the beam still bearing real weight, both russet backs still working \u2014 nothing about the load abolished, nothing a"
+  },
+  {
+   "row": 80,
+   "build": "build-80-come-unto-me",
+   "beat": "v2-r080-b14",
+   "file": "build-80-come-unto-me/assets/s14-he-was-promising-to-get.jpeg",
+   "tokens": [
+    "LANE",
+    "CARRIER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The lane's last gold holds the closing picture: Jesus walking beside the carrier, his near hand up under the roped grain sack and honestly bearing its weight, the carrier's bent spine straightening by the step as the loa"
   },
   {
    "row": 81,
