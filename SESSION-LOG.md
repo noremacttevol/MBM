@@ -1,3 +1,23 @@
+## 2026-08-07 — ROW 109 (Ask, Seek, Knock) C-FIX SHIPPED — "picture at 1:34 has Jesus with crazy eyes" — CRAZY-EYES re-cut, regen s17 only — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `ccc2a83fe` (board → C-FIX LIVE) · ship A `770715a21c203c72c1b6259f7a23ad50ba493862` (final mp4 + regen'd s17 + QC.md ledger + AUTHOR-BOARD→SHIPPED) · SESSION-LOG + review.html this commit (ship B). **Session-chain verified at start:** then-top SESSION-LOG commit (Row 104 C-FIX `bb583f040` / ship A `1e9b53ac2`) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. Read PROMPT-OPUS-RUNNER.md (all laws) + `v2_outline.py 109` + QC.md + AUTHOR-BOARD row 109 first.
+
+**Complaint (Cameron, OPEN against the shipped cut — `v2_outline.py 109`):** *"picture at 1:34 has Jesus with crazy eyes."* COMPLAINT-FIRST + LOW-NUMBER: lowest open-complaint row, outranked all other work.
+
+**What was wrong (Fable-5 author-diagnosed, systemic):** 1:34 (t≈94s) = b17 (s17-if-ye-then-being-evil, seg jv11, window 89.26–99.01). The b17 prose drove Jesus's big "how much more" gesture but said nothing about his eyes, so the JESUS-V2-REF master face rendered a wide-eyed, whites-showing "crazy" look — verified in the OLD frame (bulging staring eyes on the raised-arm gesture). Author fix ($0): added an explicit CALM-EYES instruction to b17 (must_show calm/warm/softly-open master-gaze; must_not_show wide/wild/bulging/staring/manic/'crazy'/lens-stare); `--check` PASS (23), audio untouched.
+
+**Fix (runner, this session):** regen'd ONLY s17 (`--only b17 --redo`) over the CALM-EYES prompt; KEPT the other 22 stills byte-identical. Verified the OLD frame first (wide crazy eyes). 1st regen fixed the eyes but the author's "two measures distinct" prose pushed the model into an invalid two-panel diptych; 2nd regen landed a clean single-panel seated frame — one arm thrown wide (horizon) + the small-span pinch (both measures readable), eyes calm/warm/softly-open. Kept the 2nd take. Face-boarded vs JESUS-V2-REF (Middle-Eastern, cream — only Jesus, full dark beard, ordinary scale, no halo/rim-light); face gate exit 0. New frame + RENDERED mp4 @94s both show calm kind eyes on the listeners.
+
+**Re-assembly + verify:** `v2_assemble.py 109` → **AUDIO LOCK PASS SHA256=21d8ace3…** — IDENTICAL to the prior ship's audio hash, narration/voices/timing byte-identical (nothing re-voiced). 142.4s / 20.0 MB. Captions bottom-band only (s17 @94s red-letter), question card clean.
+
+**Cost / COST LAW:** $0.26 Gemini (meter $500.62 → $500.89); **2 regens / 23 beats = 8.7% reroll — under the 15% budget** (2/frame cap; the 1st regen's diptych forced the 2nd, both on b17). Touched the row ONCE; well under the $6.10/row average; trend DOWN.
+
+**SYSTEMIC FLAG (raised for Cameron, non-blocking):** the intense/"crazy" eye look on Jesus appears to be the JESUS-V2-REF master face itself, not a one-row defect — a master-ref review would fix it at source across all 200 instead of one frame at a time. Carried in the review card and QC.md.
+
+**Ship:** firebase deploy + live-verify below. Board → C-FIX SHIPPED.
+
+---
+
 ## 2026-08-07 — ROW 104 (The Boy Samuel) C-FIX SHIPPED — "0:35 Samuel is running the wrong way, same thing with 0:53" — RUNNING-WRONG-WAY re-cut, regen s06+s10 only — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** claim `062a77f3b` (board → C-FIX LIVE) · ship A `1e9b53ac22d16a34a75ee855ad8e7419c7d83561` (final mp4 + regen'd s06/s10 + QC.md ledger + AUTHOR-BOARD→SHIPPED + QUEUE + api-spend) · SESSION-LOG + review.html this commit (ship B). **Session-chain verified at start:** then-top SESSION-LOG commit (Row 103 C-FIX ship A `1d1f7c434`) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. Read PROMPT-OPUS-RUNNER.md (all laws) + `v2_outline.py 104` + QC.md + AUTHOR-BOARD row 104 first.
