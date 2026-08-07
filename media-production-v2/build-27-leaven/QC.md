@@ -203,3 +203,20 @@ s33 would be a speculative change that makes 27 inconsistent with accepted 25 an
 burns a re-cut for a guess. Row 27 remains genuinely EAR-BLOCKED (8 headless
 diagnostics + this parity check all clean) — it needs Cameron's one 90-second listen
 to name the bad timestamp; everything author-side is verified. $0, nothing touched.
+
+## §0f AUDIO-FIX lane 2026-08-07 (Machine A `Dev`) — 8th diagnostic: click/spectral-anomaly scan, STILL clean → remains EAR-BLOCKED
+
+Ran one genuinely-new headless check the prior seven passes did NOT: a per-segment
+**transient-click + spectral-anomaly scan** (decode each mp3 to 16 kHz mono f32,
+count sample-to-sample discontinuities >0.5 amplitude = clicks/pops; per-25ms-frame
+zero-crossing rate = noise/warble indicator; spectral-flux spikes >6× median = sudden
+broadband glitches like an ElevenLabs mid-word warble that a word-transcript would miss).
+**Result — all 11 segments clean:** 0 clicks anywhere; max-ZCR values (0.62–0.90) are
+normal speech fricatives, no outlier; spectral-flux-spike counts scale with segment
+length (word onsets), no segment disproportionate. So a subtle glitch/warble/click is
+ALSO ruled out. **Eight independent headless diagnostics now all clean.** Confirms:
+whatever Cameron heard is perceptual/subjective and cannot be mechanically localized —
+a blind re-voice (all 11 segments) is rejected as the documented worse/costlier failure
+(changes every timing for zero expected benefit). Row 27 stays genuinely EAR-BLOCKED on
+one 90-second listen from Cameron to name the bad timestamp → then targeted single-segment
+ElevenLabs re-render + atempo-match + C-FIX. $0, nothing touched, no pictures, no audio.
