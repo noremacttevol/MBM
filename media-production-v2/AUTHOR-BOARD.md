@@ -24,7 +24,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 10 | build-10-well | NEEDS-AUDIO | 81 | CHECK | C-FIX 2026-08-06 PARKED NEEDS-AUDIO: OPEN complaint is AUDIO-pacing — Jesus's Messiah-reveal j2 "I that speak unto thee am he" (~3:29) spoken too FAST/meaningless; runner cannot re-voice (audio-immutability). AUTHOR: slow + weight j2 with real pauses (extend PHRASE_SPOKEN beyond the one "unto thee..." ellipsis it has now), regenerate narration, re-assemble. See QC.md RUNNER PARK. |  |
 | 11 | build-11-storm | NEEDS-REBUILD | 65 | OK | C-FIX 2026-08-06 PARKED NEEDS-REBUILD (boat-lock): OPEN complaint = boat/crew NOT uniform (different hulls, crew count 4→7, Jesus wanders/absent, s16 wakes a non-Jesus). Root cause: boat + eight-man company are PROSE-locked only — no boat REF image, so every frame invents a new hull. Runner cannot fix (needs a beat-content boat-lock + ~25 rerolls, both out of scope). AUTHOR: generate ONE boat plate → PLACE-REF/BOAT.jpeg, wire REF: into every hull beat b04-b34, lock the EIGHT-man crew (tight shots = crops, never smaller crew), lock Jesus's position (stern asleep b14-18 / stern standing b19-21), fix s16 to the locked Jesus. See QC.md RUNNER PARK for the full spec. |  |
 | 12 | build-12-bartimaeus | BUILT | 79 | OK |  |  |
-| 13 | build-13-roof | BUILT | 88 | OK |  |  |
+| 13 | build-13-roof | BUILT | 88 | OK | C-FIX 2026-08-06 LIVE |  |
 | 14 | build-14-ten-lepers | BUILT | 68 | OK |  |  |
 | 15 | build-15-centurion | BUILT | 71 | OK |  |  |
 | 16 | build-16-mary-martha | BUILT | 26 | OK |  |  |
