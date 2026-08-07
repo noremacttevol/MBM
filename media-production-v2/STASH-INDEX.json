@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 08:21:01",
+ "scanned": "2026-08-06 22:10:08",
  "entries": [
   {
    "row": 1,
@@ -26334,6 +26334,505 @@
    "night": false,
    "n_person": 0,
    "scene": "Warm dusk on the high bank: the plain stone house stands with its door open and its lamp lit inside, the warm light falling out across the threshold and a little way down the path toward the riverbed \u2014 a house that has a"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b01",
+   "file": "build-48-new-wine-old-bottles/assets/s01-some-very-sincere-very-religious.jpeg",
+   "tokens": [
+    "ASKERS",
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the bright morning courtyard, the camera at the wall's side taking the approach in profile, the three fasting men approach Jesus with the careful respect of serious people \u2014 the old ascetic leading with both hands fol"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b02",
+   "file": "build-48-new-wine-old-bottles/assets/s02-why-do-the-disciples-of.jpeg",
+   "tokens": [
+    "ASKERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the courtyard light: the old ascetic's face mid-question \u2014 cheeks hollowed by long chosen hunger, the grey beard neat over the plain charcoal wool, his deep eyes carrying real puzzlement and not one grain of mal"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b03",
+   "file": "build-48-new-wine-old-bottles/assets/s03-it-was-a-fair-question.jpeg",
+   "tokens": [
+    "ASKERS",
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus in the morning light: the question just landed and his face receiving it the way good questions deserve \u2014 head slightly tipped, eyes warm on the old ascetic, nothing defensive anywhere in the features \u2014 a "
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b04",
+   "file": "build-48-new-wine-old-bottles/assets/s04-these-were-good-men-going.jpeg",
+   "tokens": [
+    "ASKERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In grey dawn light the thin young disciple kneels at prayer in a bare corner, his lips moving, his sun-cracked hands folded hard \u2014 and beside him on the ledge his morning bread sits untouched under its cloth, pushed away"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b05",
+   "file": "build-48-new-wine-old-bottles/assets/s05-and-here-were-his-disciples.jpeg",
+   "tokens": [
+    "COURTYARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Through the courtyard doorway the feast shows warm and loud: the disciples at the crowded table in full appetite \u2014 bread torn and passed, a cup raised to somebody's toast, the big fisherman laughing with his mouth full \u2014"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b06",
+   "file": "build-48-new-wine-old-bottles/assets/s06-can-the-children-of-the.jpeg",
+   "tokens": [
+    "WEDDING"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "The village wedding fills the night courtyard, the camera at its corner behind the nearest dancers' shoulders, with light and noise: little oil lamps strung on cords overhead, the pipe and drum driving a ring of dancers,"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b07",
+   "file": "build-48-new-wine-old-bottles/assets/s07-as-long-as-they-have.jpeg",
+   "tokens": [
+    "WEDDING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Close at the laden table: the wine-red groom himself leans across to press a torn piece of the wedding bread into a guest's hand and top his cup with the other, both men laughing in each other's faces \u2014 hospitality at we"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b08",
+   "file": "build-48-new-wine-old-bottles/assets/s08-he-points-them-at-a.jpeg",
+   "tokens": [
+    "ASKERS",
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the bright courtyard Jesus answers with both hands open and moving \u2014 sketching the feast, the lamps, the dance in the air between himself and the three fasting men \u2014 and their faces have begun to work at it: the old a"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b09",
+   "file": "build-48-new-wine-old-bottles/assets/s09-while-the-groom-is-right.jpeg",
+   "tokens": [
+    "WEDDING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The wedding courtyard from its corner: dancers, table, musicians, children on shoulders \u2014 and every face of the many turned, mid-laugh and mid-song, toward the wine-red groom at the centre of the floor as he spins somebo"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b10",
+   "file": "build-48-new-wine-old-bottles/assets/s10-and-that-was-the-quiet.jpeg",
+   "tokens": [
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the courtyard's bright morning: the wedding picture just given, and its centre quietly naming itself in his face \u2014 the warm eyes carrying the feast's whole joy without a lamp or a dance anywhere near, t"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b11",
+   "file": "build-48-new-wine-old-bottles/assets/s11-but-the-days-will-come.jpeg",
+   "tokens": [
+    "ASKERS",
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The courtyard's brightness holds, but something in Jesus's face has changed latitude \u2014 the wedding joy stilled, the warm eyes gone a long way off mid-sentence, some far day standing briefly in them \u2014 and the three fastin"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b12",
+   "file": "build-48-new-wine-old-bottles/assets/s12-then-he-says-something-that.jpeg",
+   "tokens": [
+    "ASKERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the three fasting men in the bright light: the old ascetic's puzzlement gone from doctrinal to human, the earnest middle one glancing at his companions to check they heard the same words, the thin young one star"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b13",
+   "file": "build-48-new-wine-old-bottles/assets/s13-a-day-is-coming-when.jpeg",
+   "tokens": [
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In profile against the courtyard's honey stone, Jesus looks past the wall's edge toward the south where the roads leave town \u2014 the morning bright around him and his eyes somewhere years down one particular road, steady, "
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b14",
+   "file": "build-48-new-wine-old-bottles/assets/s14-there-will-be-a-time.jpeg",
+   "tokens": [
+    "ASKERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the old ascetic's hollow face in the bright light: his life's discipline being handed back to him with a time and a place attached \u2014 the deep eyes steadying as fasting is honoured rather than waved away, and clo"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b15",
+   "file": "build-48-new-wine-old-bottles/assets/s15-but-not-now-not-while.jpeg",
+   "tokens": [
+    "ASKERS",
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The far day passes off Jesus's face like a cloud off water, and the courtyard's morning has him back \u2014 his hands lifting to frame something small and homely in the air, one eyebrow up, the teacher's pleasure returning \u2014 "
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b16",
+   "file": "build-48-new-wine-old-bottles/assets/s16-the-first-one-is-about.jpeg",
+   "tokens": [
+    "WORKSHOP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The work corner by the bright window: the wicker mending basket spilling its rolled cloths, bone needles in their clay cup, the iron shears on the table \u2014 and over the table's edge an old soft coat laid out with a worn h"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b17",
+   "file": "build-48-new-wine-old-bottles/assets/s17-you-do-not-sew-a.jpeg",
+   "tokens": [
+    "WORKSHOP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close in the window light: a woman's practised hands hold the two cloths together over the old coat \u2014 a stiff bright new-woven scrap, dense and hard-edged, laid against the soft faded weave it is meant to mend \u2014 and even"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b18",
+   "file": "build-48-new-wine-old-bottles/assets/s18-no-man-also-seweth-a.jpeg",
+   "tokens": [
+    "WORKSHOP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "On the work table the mended coat lies opened to its disaster: the stiff new patch has shrunk and puckered into a hard knot, and around its every stitch the soft old cloth has torn in little rays, the original modest hol"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b19",
+   "file": "build-48-new-wine-old-bottles/assets/s19-his-answer-was-not-what.jpeg",
+   "tokens": [
+    "ASKERS",
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the courtyard the three fasting men stand braced in the posture of men awaiting a ruling \u2014 feet set, hands folded, the young one already half-nodding toward whichever verdict comes \u2014 while Jesus's face, close in the f"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b20",
+   "file": "build-48-new-wine-old-bottles/assets/s20-put-a-stiff-new-patch.jpeg",
+   "tokens": [
+    "WORKSHOP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Extreme close in the window light: one stitch at the patch's edge, and the war around it \u2014 the stiff new cloth hauling one way, the soft old threads strained taut and fraying around the needle's track, two fibres already"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b21",
+   "file": "build-48-new-wine-old-bottles/assets/s21-you-end-up-worse-off.jpeg",
+   "tokens": [
+    "WORKSHOP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The woman holds the old coat up against the bright window and the light itself does the arithmetic \u2014 pouring through the ragged openwork where a modest hole used to be, the hard puckered patch dark at its centre like a s"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b22",
+   "file": "build-48-new-wine-old-bottles/assets/s22-the-second-picture-is-about.jpeg",
+   "tokens": [
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The cool stone wine store in its one slant of light: a rack of full-bellied leather wineskins hanging in a patient row from their pegs, clay stoppers and waxed cording ranged on the shelf, the drain-channel clean down th"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b23",
+   "file": "build-48-new-wine-old-bottles/assets/s23-in-that-world-you-kept.jpeg",
+   "tokens": [
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close in the cellar light: a wine-keeper's hands work a brand-new skin \u2014 the pale supple leather denting and springing under his kneading thumbs, the whole bottle flexing easily in his grip like something half alive \u2014 so"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b24",
+   "file": "build-48-new-wine-old-bottles/assets/s24-but-an-old-skin-had.jpeg",
+   "tokens": [
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "On the cellar bench the two generations sit side by side: the old skin dark, stiff and glazed with a craze of fine cracks, holding its shape like pottery \u2014 and beside it the pale supple new one, slumped soft \u2014 while at t"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b25",
+   "file": "build-48-new-wine-old-bottles/assets/s25-he-was-talking-about-himself.jpeg",
+   "tokens": [
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the bright courtyard: the morning light plain on the warm features, nothing raised, nothing pressed \u2014 and the whole morning's pictures quietly converging on the face that made them: the groom of the wed"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b26",
+   "file": "build-48-new-wine-old-bottles/assets/s26-and-no-man-putteth-new.jpeg",
+   "tokens": [
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "On the cellar floor the lesson lies spilled: the old skin split wide along its cracked side, collapsed in the pool of its failure, and the dark new wine spread far across the pale stone, reaching the drain-channel in a t"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b27",
+   "file": "build-48-new-wine-old-bottles/assets/s27-fasting-was-how-you-showed.jpeg",
+   "tokens": [
+    "ASKERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the busy market light a stall-keeper offers the earnest middle questioner a warm flat loaf across his boards \u2014 and the man declines it with a courteous flat hand and a small bow, his other hand touching his own chest "
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b28",
+   "file": "build-48-new-wine-old-bottles/assets/s28-so-you-never-pour-fresh.jpeg",
+   "tokens": [
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the slanted cellar light the keeper's pour is caught mid-correction \u2014 the heavy jar tipped and the first dark thread of new wine swinging away from the old skin's stiff cracked mouth toward the pale supple one held re"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b29",
+   "file": "build-48-new-wine-old-bottles/assets/s29-the-wine-keeps-growing-the.jpeg",
+   "tokens": [
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the old skin's dark flank in the window light: the craze of fine cracks mapped across the glazed leather like a dry riverbed from the air, the seams drawn hard, the whole surface holding its shape with the britt"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b30",
+   "file": "build-48-new-wine-old-bottles/assets/s30-fresh-wine-belongs-in-a.jpeg",
+   "tokens": [
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The pale new skin takes the pour in the keeper's steady hands \u2014 its supple sides swelling gently outward as the dark wine goes in, the leather easing and settling around its growing cargo like a sail taking wind \u2014 vessel"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b31",
+   "file": "build-48-new-wine-old-bottles/assets/s31-that-is-what-he-is.jpeg",
+   "tokens": [
+    "ASKERS",
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the bright courtyard Jesus's open hands come to rest at the end of the second picture \u2014 and across the three sincere faces the size of it is arriving: the old ascetic's eyes widening by degrees, the earnest one's hand"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b32",
+   "file": "build-48-new-wine-old-bottles/assets/s32-not-a-patch-on-the.jpeg",
+   "tokens": [
+    "WORKSHOP",
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "On one bench in plain light the morning's evidence sits together: the torn patched coat folded aside with the split old skin laid across it \u2014 the museum of good intentions \u2014 and beside them, waiting in the same light, a "
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b33",
+   "file": "build-48-new-wine-old-bottles/assets/s33-that-is-the-good-news.jpeg",
+   "tokens": [
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the full morning light: the gladness that was banked all through the answer now fully surfaced \u2014 warm eyes bright, the smile arrived in the beard, the face of a man whose news is simply better than the "
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b34",
+   "file": "build-48-new-wine-old-bottles/assets/s34-he-was-pouring-out-something.jpeg",
+   "tokens": [
+    "ASKERS",
+    "COURTYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the bright courtyard Jesus extends both hands open toward the three fasting men \u2014 the complete posture of giving, held easy \u2014 with the feast's noise and warmth spilling gold through the doorway behind him \u2014 the new th"
+  },
+  {
+   "row": 48,
+   "build": "build-48-new-wine-old-bottles",
+   "beat": "v2-r048-b35",
+   "file": "build-48-new-wine-old-bottles/assets/s35-the-only-thing-he-asks.jpeg",
+   "tokens": [
+    "CELLAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the last warm gold through the cellar window the new skin hangs at rest on its peg \u2014 gently swollen with its living wine, the supple leather eased full around the growth it was made for, the stopper snug, the whole ve"
   },
   {
    "row": 49,
