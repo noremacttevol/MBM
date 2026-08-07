@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 11:12:47",
+ "scanned": "2026-08-07 11:17:30",
  "entries": [
   {
    "row": 1,
@@ -40847,6 +40847,243 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame keeps the room the way history will: three scholars of the nations bowed low in sapphire, crimson and emerald on a village floor, their opened gifts at rest in the lamp's amber circle, and above the bow"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b01",
+   "file": "build-87-boy-in-the-temple/assets/s01-every-year-family-went-to.jpeg",
+   "tokens": [
+    "ROAD",
+    "MARY",
+    "JOSEPH",
+    "BOY"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The spring road streams, the camera off the verge taking the festival flow in profile, with Passover families \u2014 donkeys and bundles, cousins calling between groups, dust golden in the morning light \u2014 and among them one f"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b02",
+   "file": "build-87-boy-in-the-temple/assets/s02-on-the-way-home-they.jpeg",
+   "tokens": [
+    "ROAD",
+    "MARY",
+    "JOSEPH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the first evening camp the counting comes up wrong: Mary moving quick between the pilgrim fires with her veil pressed to her mouth, checking each circle of cousins' children, Joseph striding the road's edge scanning b"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b03",
+   "file": "build-87-boy-in-the-temple/assets/s03-they-turned-back-searching-for.jpeg",
+   "tokens": [
+    "PORCH",
+    "BOY",
+    "DOCTORS",
+    "MARY",
+    "JOSEPH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "Three days end at a colonnade, the camera behind the arriving parents' shoulders toward the seated circle: Mary and Joseph coming up the temple steps hollow-eyed and road-worn \u2014 and stopping dead, because there he is: th"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b04",
+   "file": "build-87-boy-in-the-temple/assets/s04-and-asking-questions-that-amazed.jpeg",
+   "tokens": [
+    "PORCH",
+    "BOY",
+    "DOCTORS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the circle: the boy mid-question with one hand raised in an earnest open point, brown eyes alight with the honest want of the answer \u2014 and around him the old faces coming undone with astonishment: one doctor lea"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b05",
+   "file": "build-87-boy-in-the-temple/assets/s05-relieved-and-frightened-and-hurt.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Mary at the circle's edge as her voice comes back: three days written all over her face at once \u2014 the flooding relief that loosens her knees, the fear still cold at the back of her eyes, and over both the plain "
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b06",
+   "file": "build-87-boy-in-the-temple/assets/s06-son-why-hast-thou-thus.jpeg",
+   "tokens": [
+    "PORCH",
+    "BOY",
+    "MARY",
+    "JOSEPH",
+    "DOCTORS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Mary crosses the circle and takes her son by both shoulders \u2014 not shaking, holding, the way you grip what you thought was lost \u2014 SON, WHY HAST THOU THUS DEALT WITH US \u2014 the words spilling with three days behind them whil"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b07",
+   "file": "build-87-boy-in-the-temple/assets/s07-she-said-your-father-and.jpeg",
+   "tokens": [
+    "MARY",
+    "JOSEPH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the two faces the search spent: Mary's eyes red-rimmed above cheeks hollowed by three days of not eating properly, Joseph's jaw rough with unshaved grey, road dust in the creases of both \u2014 the plain physical bil"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b08",
+   "file": "build-87-boy-in-the-temple/assets/s08-listen-to-the-word-luke.jpeg",
+   "tokens": [
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The frame holds Mary's face and lets the word prove itself: nothing in it of the parent merely put out \u2014 no pursed irritation, no tapping-foot anger \u2014 only the deep-water grief of a mother who spent three nights trading "
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b09",
+   "file": "build-87-boy-in-the-temple/assets/s09-grieving-three-days-of-a.jpeg",
+   "tokens": [
+    "PORCH",
+    "BOY",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the hushed circle the boy looks up into his mother's spent face \u2014 and there is nothing in his own but warmth and a genuine, gentle puzzlement, the look of a child who loves her completely and truly cannot find the pro"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b10",
+   "file": "build-87-boy-in-the-temple/assets/s10-how-is-it-that-ye.jpeg",
+   "tokens": [
+    "PORCH",
+    "BOY",
+    "MARY",
+    "JOSEPH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The boy answers with his whole honest bafflement: HOW IS IT THAT YE SOUGHT ME \u2014 and his small hand opens outward at the sunlit courts and columns all around them, presenting the temple the way a child presents his own fr"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b11",
+   "file": "build-87-boy-in-the-temple/assets/s11-why-were-you-out-looking.jpeg",
+   "tokens": [
+    "BOY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the boy's face in the clear porch light: brows lifted in plain honest asking, the brown eyes going softly between his mother's and his father's, not one grain of challenge anywhere in the young features \u2014 a ques"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b12",
+   "file": "build-87-boy-in-the-temple/assets/s12-you-know-i-had-to.jpeg",
+   "tokens": [
+    "PORCH",
+    "BOY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wide porch gives the sentence its picture: the great pale columns rising storey over storey into the light, courts opening beyond courts \u2014 and small in the middle of all that majesty, the boy in his plain cream wool,"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b13",
+   "file": "build-87-boy-in-the-temple/assets/s13-he-was-not-being-smart.jpeg",
+   "tokens": [
+    "BOY",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The exchange ends the way it was always going to: the boy's hand slipping small and certain into his mother's, his face tipped up to hers with open guileless love, the puzzlement already dissolving into gladness at simpl"
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b14",
+   "file": "build-87-boy-in-the-temple/assets/s14-they-fully-understand.jpeg",
+   "tokens": [
+    "MARY",
+    "JOSEPH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Over the boy's dark head the two parents trade one long look: Joseph's brows asking Mary whether she followed that, Mary's small headshake admitting she didn't either \u2014 two good plain people holding between them a child "
+  },
+  {
+   "row": 87,
+   "build": "build-87-boy-in-the-temple",
+   "beat": "v2-r087-b15",
+   "file": "build-87-boy-in-the-temple/assets/s15-but-he-went-home-with.jpeg",
+   "tokens": [
+    "ROAD",
+    "BOY",
+    "MARY",
+    "JOSEPH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The closing frame takes the road home, the camera behind the three as they walk away down it: home: the three of them small on the broad highway north in the warm late light \u2014 Joseph's hand resting easy on the boy's shou"
   },
   {
    "row": 91,
