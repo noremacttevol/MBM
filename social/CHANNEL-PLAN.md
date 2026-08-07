@@ -1,10 +1,19 @@
 # CHANNEL-PLAN — one presence, four platforms
 
 Cameron creates the accounts (they need his phone/passwords). Everything else is
-prepared here so each platform takes about 5 minutes. Do them in this order:
-**YouTube → Instagram → TikTok → Facebook** (YouTube first because the Google
-account anchors the rest; Facebook last because it can reuse the Instagram login
-for cross-posting).
+prepared here so each platform takes about 5 minutes.
+
+## Current state (2026-08-07)
+
+- **YouTube: DONE** — created by Cameron with `admin@milkb4meat.org`.
+- **Facebook:** a Page created through Cameron's PERSONAL Facebook login — that is
+  the correct and normal way; a Page needs no separate email, and his personal
+  profile stays private behind it.
+- **Instagram + TikTok:** new accounts, each signed up with `admin@milkb4meat.org`
+  — same email as YouTube so every login lives in one place.
+- **THE EMAIL IS `admin@milkb4meat.org` — NEVER `.com`.** Cameron owns
+  milkb4meat.org; the .com is someone else's domain. Any signup, recovery address,
+  or bio link uses `.org`.
 
 ---
 
