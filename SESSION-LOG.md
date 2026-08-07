@@ -1,3 +1,22 @@
+## 2026-08-07 — C-FIX row 18 emmaus PARKED NEEDS-AUDIO (AUDIO-pronunciation, out of runner scope), $0 — Machine A `Dev`
+
+**Commit:** (this commit — QC.md §0 + AUTHOR-BOARD row 18 + this entry, by pathspec)
+
+Cameron's OPEN complaint on the shipped row-18 cut (`e0e3e726`, 2026-08-05):
+**"You mispronounced Jesus's."** Diagnosed to segment n0 — "…two of **Jesus's**
+followers…" (~0:04), the only possessive `Jesus's` in the narration. The build's
+`SPOKEN` dict is EMPTY, so edge-tts mangles the raw possessive. This is an
+**AUDIO-PRONUNCIATION** complaint; the fix is a re-voice (respell + regen + re-assemble),
+which the picture-runner is FORBIDDEN to do (audio-immutability — the runner ships
+byte-identical audio and AUDIO LOCK is its only proof). NOT the ship-exception: no
+SPOKEN override and no "verified in final audio" fix commit exist, so the fix is NOT
+baked into the mp4 and must not be shipped over. **NO pictures touched, $0 spent.**
+Parked per RUNNER-LESSONS + COMPLAINT-FIRST brief: board row 18 flipped
+BUILT→NEEDS-AUDIO, Audio OK→CHECK, with the exact author resume in the Claim cell and
+QC.md §0 RUNNER PARK — set `SPOKEN={"Jesus's":"jeezusiz"}` (one lowercase word),
+regenerate n0.mp3, A/B-verify with faster_whisper, re-assemble (AUDIO LOCK re-hashes),
+ship + deploy, answer the complaint on the card in Cameron's words.
+
 ## 2026-08-07 (social session, pt.5) — BRANDED THUMBNAILS for all 44, $0 spent — explainer scripts drafted — Machine A `Dev`
 
 **Commit:** (this commit — social/ + this entry, by pathspec)

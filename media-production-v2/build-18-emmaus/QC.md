@@ -4,6 +4,41 @@ Worker: Claude worker 12, Machine A `Dev`, 2026-08-01.
 
 ---
 
+## 0. RUNNER PARK — NEEDS-AUDIO (C-FIX, Machine A `Dev`, 2026-08-07)
+
+**COMPLAINT LEDGER (open, from `v2_outline.py 18`):**
+- Cameron (2026-08-05, against `e0e3e726`): **"You mispronounced Jesus's."**
+
+**Diagnosis.** The word `Jesus's` (possessive) appears exactly ONCE in the
+narration — segment **n0**, "…two of **Jesus's** followers had given up and left…"
+(~0:04). The build's `SPOKEN` dict in `make_narration.py` is EMPTY, so edge-tts
+reads the raw possessive and mangles it. This is an **AUDIO-PRONUNCIATION**
+complaint: the fix is a re-voice (respell + regenerate narration + re-assemble),
+which the picture-runner is FORBIDDEN to do (audio-immutability; the runner ships
+byte-identical audio and AUDIO LOCK is its only safety proof). Per RUNNER-LESSONS
+("AUDIO-PRONUNCIATION complaints are OUT of runner scope — park the row") and the
+COMPLAINT-FIRST C-FIX brief, this row is PARKED, not shipped. NO pictures touched.
+
+Not the ship-exception (row-57 class): board Audio was OK but there is NO `SPOKEN`
+override for `Jesus's` and NO "verified in final audio" fix commit — the fix is
+NOT baked into the mp4, so it must not be shipped over.
+
+**AUTHOR / audio-fix lane — exact resume:**
+1. In `media-production-v2/build-18-emmaus/make_narration.py` (and the V1 twin
+   `media-production/build-18-emmaus/make_narration.py`), set
+   `SPOKEN = {"Jesus's": "jeezusiz"}` — one continuous lowercase word, no hyphens
+   or caps (edge-tts letter-spells caps/hyphens). The caption text keeps `Jesus's`;
+   only the spoken string is respelled.
+2. Regenerate ONLY the n0 segment mp3 (`python3 make_narration.py`), A/B-verify
+   with `faster_whisper` that the possessive now reads "Jesus's", not the mangle.
+3. Re-assemble (`python3 media-production-v2/v2_assemble.py 18`) — AUDIO LOCK will
+   re-hash the new track; confirm PASS. Then ship + deploy (step 7c) and answer
+   the complaint on the review card in Cameron's words.
+
+State flipped BUILT→NEEDS-AUDIO, Audio OK→CHECK on AUTHOR-BOARD row 18.
+
+---
+
 ## 1. Audio is LOCKED and was never touched
 
 All 18 narration segments in `media-production/build-18-emmaus/audio/` are
