@@ -1,3 +1,17 @@
+## 2026-08-07 — ROW 22 (unmerciful-servant) C-FIX → NEEDS-AUDIO PARK + wrote the rule Cameron asked for — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `e90ceaea9` (board → NEEDS-AUDIO) · this park+law commit (SPEAKER-LAW ban + RUNNER-LESSONS + audio-lane prompt + QC.md RUNNER PARK + board token-fix + SESSION-LOG). **Session-chain verified at start:** then-top row-72 C-FIX ship `0b6a38acf` present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 22` + RUNNER-LESSONS + SPEAKER-LAW first.
+
+**Complaint (Cameron, against the shipped cut — `v2_outline.py 22`):** *"2:46 Jesus speaker is wrong one and it changes to the right one later in the video. if you would write the rules removing the option to use the old Jesus speaker then this wouldnt be a problem."*
+
+**Domain: AUDIO (wrong voice) → runner does NOT re-cut pictures.** ffprobe-PROVEN root cause: the prior "shouldest" fix (commit `20a6ef72`) re-voiced **only j5** by running edge-tts `make_narration.py`, so j5.mp3 = `24000 Hz/48 k` = en-US-EricNeural (the DEAD old Jesus speaker), while j1/j3/j4/j2 all ship ElevenLabs "Chris" (`44100 Hz/128 k`). Playback: j4 Eleven (2:04) → **j5 edge-tts Eric (2:46, wrong)** → j2 Eleven (3:02, "right one later"). That is exactly what Cameron heard. The prior QC "✅ RESOLVED shouldest" block even A/B'd "in the JESUS/Eric voice" — the confusion (thinking Jesus = edge-tts Eric) IS the bug.
+
+**The rule Cameron asked for (written this session — hard rule #4, same-session):** edge-tts is now BANNED for any Jesus segment on an ElevenLabs build. Added **SPEAKER-LAW.md "⛔ THE OLD-JESUS-SPEAKER BAN"** (the shipped Jesus voice is ElevenLabs Chris; edge-tts Eric/Christopher is the dead old speaker; the ffprobe interlock 44100/128k=Eleven vs 24000/48k=edge-tts; every Jesus re-voice goes through ElevenLabs Chris, never plain `make_narration.py`), a matching claim-time detection bullet in **RUNNER-LESSONS.md**, and hardened the row-18 caution in **PROMPT-AUDIO-FIX.md** into a hard ban citing row 22.
+
+**Park handoff:** board row 22 BUILT→**NEEDS-AUDIO**, Audio OK→CHECK, stale "AUDIO-FIX SHIPPED/RESOLVED" claim (now proven wrong) replaced with a fresh park claim; verified the claim carries NO `AUDIO-FIX` substring so the autopilot audio picker (`'AUDIO-FIX' not in cl`) fires next tick (Python-simulated: fires=True). QC.md carries a 🅿️ RUNNER PARK note superseding the false RESOLVED block, with the exact ElevenLabs-Chris resume (re-voice j5, keep "should-est", atempo-match to 13.512 s so no window moves, re-assemble, ship). **Pictures UNCHANGED — 48 stills, $0 Gemini, 0 rerolls.** No deploy (a park does not ship; the complained cut stays on the reviewer until the audio lane re-ships). Touch-once: only one open complaint on the row, fully covered.
+
+---
+
 ## 2026-08-07 — ROW 72 (calling-matthew) C-FIX SHIPPED — 1:41 fill-hole lamps + floating cups + gratuitous facial scars — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** claim `98d1ef571` · ship (a) `0b6a38acf8ac05da808012c4fcf3e22879b67c2b` (mp4 + QC.md + board→SHIPPED + assets + api-spend) · review card (b) `06f94f12c` · publish-loop `5179b53bb` · this RUNNER-LESSONS/STASH/SESSION-LOG commit. **Session-chain verified at start:** then-top row-71 C-FIX ship `08de502e1` present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 72` + RUNNER-LESSONS first.

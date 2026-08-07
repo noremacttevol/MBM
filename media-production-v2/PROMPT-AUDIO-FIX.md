@@ -30,6 +30,14 @@ re-voiced segments) + ffmpeg only.
   possessive "'s" can't be expressed in a SPOKEN key (the override regex splits
   on the apostrophe); respell "Jesus's" → "Jesuses" directly in the spoken
   string — the caption comes from SEGMENTS s[2] and stays "Jesus's".
+  **RECURRED on row 22 (2026-08-07) — this is now a HARD BAN, not a caution
+  (SPEAKER-LAW.md "OLD-JESUS-SPEAKER BAN").** The "shouldest" fix re-voiced j5
+  through edge-tts Eric while j1/j3/j4/j2 ship ElevenLabs Chris → Cameron heard
+  the Jesus voice change at 2:46. The JESUS voice is ElevenLabs **Chris**; edge-tts
+  Eric/Christopher is the DEAD old Jesus speaker and must NEVER render a Jesus
+  segment. For row 22: re-voice ONLY j5 through `mbm_eleven.render_segment(spoken,
+  JESUS, "audio/j5.mp3", key=…)` keeping "shouldest" = two-syllable "should-est",
+  atempo-match to the current j5 duration, re-render + re-assemble + ship.
 - Shared-file discipline (PARALLEL-LANES LAW in PROMPT-OPUS-RUNNER.md):
   pull-rebase immediately before editing QUEUE/AUTHOR-BOARD/review.html/
   SESSION-LOG, push immediately after. NEVER git clean / reset --hard / delete

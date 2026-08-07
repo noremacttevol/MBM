@@ -1,5 +1,69 @@
 # QC — build-22-unmerciful-servant (row 22)
 
+## 🅿️ RUNNER PARK — C-FIX 2026-08-07 → NEEDS-AUDIO: WRONG JESUS VOICE at 2:46 (edge-tts j5 vs ElevenLabs siblings) [OPEN]
+
+> **This SUPERSEDES the "✅ RESOLVED shouldest" block below.** The shouldest fix
+> "resolved" the pronunciation but INTRODUCED a worse defect: it re-voiced j5 in the
+> wrong engine. Cameron reopened the row.
+
+**Cameron's OPEN complaint on the shipped cut (`v2_outline.py 22`):**
+> "2:46 Jesus speaker is wrong one and it changes to the right one later in the video.
+> if you would write the rules removing the option to use the old Jesus speaker then
+> this wouldnt be a problem."
+
+**Domain: AUDIO (wrong voice). Root cause — ffprobe-PROVEN:**
+- This build's Jesus lines ship on **ElevenLabs "Chris" (44100 Hz / 128 k)**: j1, j3,
+  j4, j2 are all `44100,128000`, rendered 2026-07-28.
+- The prior "shouldest" fix (commit `20a6ef72`) re-voiced **only j5** by running
+  `make_narration.py`, which is **edge-tts** → j5.mp3 is `24000 Hz / 48 k`
+  (en-US-EricNeural, the **DEAD old Jesus speaker**), dated 2026-08-07.
+- Playback order: j1 (Eleven, 0:19) → j3 (Eleven, 1:16) → j4 (Eleven, 2:04) → **j5
+  (edge-tts ERIC — WRONG — 2:46)** → j2 (Eleven, 3:02, "changes to the right one
+  later"). That IS Cameron's complaint, exactly.
+
+Proof to reproduce:
+```
+ffprobe -v error -show_entries stream=sample_rate,bit_rate -of csv=p=0 \
+  media-production/build-22-unmerciful-servant/audio/j5.mp3   # 24000,48000  ← edge-tts (wrong)
+# j1/j3/j4/j2 → 44100,128000  ← ElevenLabs Chris (right)
+```
+
+**Why this is a PARK, not a ship (runner scope):** the fix is a re-voice through
+ElevenLabs — audio-lane work; the picture runner is forbidden to touch audio. Pictures
+are UNCHANGED (48 stills, $0 Gemini). The rule Cameron asked for was written this
+session into **SPEAKER-LAW.md "OLD-JESUS-SPEAKER BAN"**, RUNNER-LESSONS.md, and
+PROMPT-AUDIO-FIX.md (edge-tts is now BANNED for any Jesus segment on an ElevenLabs
+build).
+
+**AUDIO-LANE RESUME (ElevenLabs — NOT edge-tts):**
+1. Re-voice ONLY j5 through the ElevenLabs Jesus voice, the SAME one as j1/j3/j4:
+   `mbm_eleven.render_segment(spoken, JESUS, "audio/j5.mp3", key=…)` with `spoken` =
+   the j5 KJV line keeping the two-syllable **"should-est"** reading Cameron already
+   asked for (so BOTH complaints stay closed). Do NOT run plain `make_narration.py`
+   (that is edge-tts and re-introduces the wrong voice).
+2. Pitch-preserving **atempo-match** the new j5 back to the current j5 duration
+   (13.512 s) so NO `beats_v2.py` still-window has to move (windows were already
+   remapped for the shouldest shift).
+3. ffprobe the new j5 → must be `44100,128000` (ElevenLabs) and audibly Chris, not
+   Eric. Transcribe to confirm "should-est".
+4. `python3 media-production-v2/v2_assemble.py 22` (AUDIO_FROM_V1_SEGMENTS=True already
+   set) — AUDIO LOCK/REBUILD will change (sanctioned re-voice). Ship + deploy +
+   live-verify; review-card 🛠 flag answers BOTH complaints in Cameron's words
+   ("Your complaint 'wrong Jesus speaker at 2:46' — j5 now speaks in the same
+   ElevenLabs voice as the rest; and 'shouldest' still says should-est").
+5. Board: NEEDS-AUDIO → BUILT, Audio CHECK → OK.
+
+## COMPLAINT LEDGER (current)
+- **OPEN — [2:46 wrong Jesus speaker / voice changes mid-video]** → AUDIO-domain,
+  edge-tts→ElevenLabs re-voice of j5; PARKED NEEDS-AUDIO for the audio lane (see the
+  RUNNER PARK above). NOT fixed in this session — the runner cannot re-voice. The rule
+  Cameron requested ("remove the option to use the old Jesus speaker") IS written this
+  session into the law files.
+- CLOSED — [2:46 "shouldest" mispronunciation] → the two-syllable reading is preserved
+  in the audio-lane resume above; it stays fixed after the re-voice.
+
+---
+
 ## ✅ RESOLVED — AUDIO-FIX 2026-08-07 (Machine A `Dev`): "shouldest" → "should-est" SHIPPED
 
 **Cameron's complaint (now CLOSED):** "2:46 Jesus mispronounces shouldest it should

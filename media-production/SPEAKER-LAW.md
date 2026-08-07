@@ -43,6 +43,44 @@ today. This is part of the job, not optional. It is also the single biggest
 storytelling upgrade in this pass: the viewer now hears the words as they were
 written *and* understands them.
 
+### ⛔ THE OLD-JESUS-SPEAKER BAN — edge-tts is DEAD for Jesus (Cameron, 2026-08-07)
+
+> Cameron's words on row 22: *"2:46 Jesus speaker is wrong one and it changes to
+> the right one later in the video. if you would write the rules removing the
+> option to use the old Jesus speaker then this wouldnt be a problem."*
+
+The voice table above (`JESUS → en-US-EricNeural`) is **edge-tts** — the ORIGINAL
+scaffold. **On 2026-07-23 production migrated the spoken voices to ElevenLabs, and
+the Jesus voice that actually SHIPS in every cut is ElevenLabs "Chris," NOT
+edge-tts Eric.** edge-tts EricNeural (and Christopher before it) is the **DEAD old
+Jesus speaker.** It must NEVER render or re-render a Jesus segment on a migrated
+build. This is the rule Cameron asked for — the option is now removed:
+
+1. **NEVER "fix one Jesus segment" by re-running plain `make_narration.py`.** That
+   script calls edge-tts (`save_speaker_narration`). On a migrated build it swaps
+   that ONE segment to the dead Eric voice while the rest stay ElevenLabs Chris —
+   producing exactly the "wrong speaker at 2:46, right speaker later" defect. Row
+   22's "shouldest" fix (commit 20a6ef72) did this to j5; it is the scar.
+2. **Know which engine ships BEFORE you touch audio — ffprobe is the proof:**
+   `ffprobe -v error -show_entries stream=sample_rate,bit_rate -of csv=p=0 audio/jN.mp3`
+   → **`44100,128000` = ElevenLabs (Chris)**, **`24000,48000` = edge-tts (the DEAD
+   voice).** A Jesus segment whose signature differs from its sibling Jesus
+   segments is the wrong speaker — reject it.
+3. **Any Jesus re-voice goes through ElevenLabs Chris — the SAME voice as the rest
+   of that build's Jesus lines** (`mbm_eleven.render_segment(spoken, JESUS, out,
+   key=…)`), then pitch-preserving atempo-match back to the original segment
+   duration so no `beats_v2.py` still-window moves. Same discipline for any speaker
+   whose build shipped on ElevenLabs (narrator "Brian", etc.).
+4. This ban is audio-lane / author work (`PROMPT-AUDIO-FIX.md`). The picture runner
+   is forbidden to touch audio — it PARKS the row NEEDS-AUDIO with the ffprobe
+   proof in QC.md and hands it off. The mechanical interlock is also carried in
+   `PROMPT-AUDIO-FIX.md` and `media-production-v2/RUNNER-LESSONS.md`.
+
+Until every build's `make_narration.py`/`mbm_speakers.py` scaffold is physically
+purged of the edge-tts Jesus voice, THIS RULE is the removal: treat the edge-tts
+Jesus entry as poison and route every Jesus render/re-render through ElevenLabs
+Chris.
+
 ---
 
 ## 2. Why so much red becomes green (the doctrinal point)

@@ -12,6 +12,24 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
+- **WRONG-JESUS-VOICE / "speaker changes mid-video" is an AUDIO park, and its
+  usual cause is a PRIOR fix that re-voiced one segment through edge-tts on an
+  ElevenLabs build (2026-08-07, row 22 CAMERON complaint "2:46 Jesus speaker is
+  wrong one and it changes to the right one later").** Builds migrated to
+  ElevenLabs "Chris" for Jesus on 2026-07-23, but every build still carries the
+  OLD edge-tts `make_narration.py`. When an earlier audio-fix "re-voiced ONLY jN
+  via make_narration.py", it renders that ONE Jesus line in the DEAD edge-tts
+  Eric voice while the siblings stay ElevenLabs — so Jesus's voice audibly
+  changes mid-video. DETECT with ffprobe:
+  `ffprobe -v error -show_entries stream=sample_rate,bit_rate -of csv=p=0 audio/jN.mp3`
+  → **`44100,128000` = ElevenLabs (correct)**, **`24000,48000` = edge-tts (the
+  dead old speaker)**; any Jesus segment whose signature differs from its siblings
+  is the wrong voice. This is OUT of runner scope (re-voice through ElevenLabs is
+  audio-lane work): PARK **NEEDS-AUDIO**, put the ffprobe proof + the offending
+  segment id in the QC.md RUNNER PARK note, and — CRITICAL — the row's Claim cell
+  must NOT contain the literal token `AUDIO-FIX` or the autopilot audio picker
+  (`'AUDIO-FIX' not in cl`) will SKIP it; replace any stale "AUDIO-FIX SHIPPED"
+  claim with a fresh park claim. Full rule: SPEAKER-LAW.md "OLD-JESUS-SPEAKER BAN".
 - **AUDIO-PRONUNCIATION complaints are OUT of runner scope — park the row, do
   NOT ship over them (2026-08-06, rows 50/51; row 46 shipped WRONG).** Run
   `v2_outline.py <row>` at claim time: if the OPEN complaint is a mispronunciation
