@@ -132,12 +132,14 @@ def parse_review():
         built_m = re.search(r'data-built="([^"]*)"', chunk)
         title_m = re.search(r'<p class="title">\d+\s*[—-]\s*([^<]+)', chunk)
         src_m   = re.search(r'src="[^"]*/([^/"?]+\.mp4)', chunk)
+        path_m  = re.search(r'src="[^"]*raw/main/([^"?]+\.mp4)', chunk)
         cards[num] = {
             "card_hash": hash_m.group(1) if hash_m else None,
             "wave":      wave_m.group(1) if wave_m else None,
             "built":     built_m.group(1) if built_m else None,
             "title":     title_m.group(1).strip() if title_m else None,
             "src_file":  src_m.group(1) if src_m else None,
+            "src_path":  path_m.group(1) if path_m else None,
         }
     return cards
 
@@ -161,11 +163,64 @@ def parse_queue():
 
 
 def parse_approvals():
+    """LIVE reviewer approvals — the store Cameron's approve button writes,
+    via admin/dump-approvals.mjs. THIS is the authority (2026-08-06 lesson:
+    the local approvals.json is a stale partial copy — trusting it published
+    6 rows when Cameron had approved 41). Falls back to the local file only
+    if the dump fails, and says so loudly."""
+    try:
+        r = subprocess.run(
+            ["node", os.path.join(REPO, "admin", "dump-approvals.mjs")],
+            capture_output=True, timeout=120)
+        if r.returncode == 0:
+            raw = json.loads(r.stdout)
+            return {
+                k: {"hash": v.get("approvedHash"),
+                    "date": (v.get("approvedAt") or "")[:10]}
+                for k, v in raw.items() if v.get("approved")
+            }
+        sys.stderr.write("WARNING: dump-approvals.mjs failed (rc=%d) — "
+                         "falling back to STALE approvals.json\n" % r.returncode)
+    except (OSError, ValueError, subprocess.TimeoutExpired) as e:
+        sys.stderr.write("WARNING: live approval dump unavailable (%s) — "
+                         "falling back to STALE approvals.json\n" % e)
     try:
         with open(APPROVALS_JSON) as f:
             return json.load(f)
     except (OSError, ValueError):
         return {}
+
+
+def approved_bytes_sha1(appr_hash, src_path):
+    """sha1 of the actual APPROVED cut's bytes, resolved from git objects
+    (never the working tree — autopilot rewrites working-tree mp4s).
+    approvedHash is either the mp4's git blob hash or a shipping commit hash;
+    in the commit case the card's repo path locates the blob."""
+    global _CACHE_DIRTY
+    if not appr_hash or len(appr_hash) < 40:
+        return None
+    key = "obj:%s:%s" % (appr_hash, src_path or "")
+    hit = _CACHE.get(key)
+    if hit:
+        return hit["sha1"]
+    t = subprocess.run(["git", "-C", REPO, "cat-file", "-t", appr_hash],
+                       capture_output=True)
+    otype = t.stdout.decode().strip() if t.returncode == 0 else None
+    spec = None
+    if otype == "blob":
+        spec = appr_hash
+    elif otype == "commit" and src_path:
+        spec = "%s:%s" % (appr_hash, src_path)
+    if not spec:
+        return None
+    r = subprocess.run(["git", "-C", REPO, "cat-file", "blob", spec],
+                       capture_output=True)
+    if r.returncode != 0:
+        return None
+    digest = hashlib.sha1(r.stdout).hexdigest()
+    _CACHE[key] = {"size": len(r.stdout), "mtime": 0, "sha1": digest}
+    _CACHE_DIRTY = True
+    return digest
 
 
 def parse_app_ids():
@@ -287,13 +342,15 @@ def scan():
         gallery_sha = sha1_of(gallery_path) if os.path.exists(gallery_path) else None
 
         appr = approvals.get(str(num))
-        # An approval only makes a cut publish-ready if it stamps the CURRENT
-        # reviewer cut AND that cut is realistic-v2 (Law 14: a pre-realistic
-        # approval is void, same as the old-voice approvals were).
+        # Publish-ready = Cameron's live approval stamps the CURRENT reviewer
+        # cut. His approval is the authority, whatever era the cut is — an
+        # approval on an older card hash means the cut changed since he said
+        # yes, so the new cut awaits him.
         approved_current = bool(
             appr and card.get("card_hash") and appr.get("hash") == card["card_hash"]
-            and card.get("wave") == "realistic-v2"
         )
+        appr_sha = (approved_bytes_sha1(appr.get("hash"), card.get("src_path"))
+                    if approved_current else None)
 
         world[num] = {
             "title": (card.get("title") or (queue.get(num) or {}).get("title")
@@ -312,6 +369,7 @@ def scan():
             "approved": bool(appr),
             "approved_current": approved_current,
             "approved_date": appr.get("date") if appr else None,
+            "approved_sha1": appr_sha,
             "in_app": num in app_ids,
         }
     return world
@@ -337,7 +395,10 @@ def do_sync(commit=False, push=False):
             continue  # gallery unchanged since last recorded publish
 
         # The gallery file changed (or was never recorded) — append a version.
-        major = 2 if w["gallery_sha"] in w["build_sha1s"] else 1
+        # Major 2 = the live bytes ARE an approved cut (byte-verified against
+        # git objects) or a current v2 build; major 1 = legacy/unapproved.
+        major = 2 if (w["gallery_sha"] == w["approved_sha1"]
+                      or w["gallery_sha"] in w["build_sha1s"]) else 1
         version = _next_version(row, major)
         seeded = live is None and not row["versions"]
         ev_date = TODAY
@@ -402,11 +463,20 @@ def state_of(num, w, row):
                 else:
                     nxt = "REDO-ALL: v2 rebuild pending"
                 return ("LIVE — OLD STYLE (v1)", "LIVE v%s — OLD STYLE" % lv, nxt)
-            if w["cut_sha"] and w["cut_sha"] != live["sha1"]:
+            # Judge staleness against the APPROVED bytes (git objects), never
+            # the working tree — autopilot rewrites working-tree mp4s.
+            if w["approved_current"] and w["approved_sha1"]:
+                if w["approved_sha1"] == live["sha1"]:
+                    return ("LIVE — current (approved cut)",
+                            "LIVE v%s ✓ approved cut" % lv, "—")
                 return ("LIVE — STALE",
-                        "LIVE v%s — STALE (newer cut exists)" % lv,
-                        "approve + publish the new cut (becomes v%s)"
+                        "LIVE v%s — STALE (a newer APPROVED cut exists)" % lv,
+                        "publish the approved cut (becomes v%s)"
                         % _next_version(row, 2))
+            if w["approved"] and not w["approved_current"]:
+                return ("LIVE — new cut awaits Cameron",
+                        "LIVE v%s — cut changed since approval" % lv,
+                        "Cameron re-reviews the new cut on the board")
             return ("LIVE — current", "LIVE v%s ✓" % lv, "—")
     if w["approved_current"]:
         return ("APPROVED — not published",

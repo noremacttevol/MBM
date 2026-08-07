@@ -1,3 +1,37 @@
+## 2026-08-06 (Fable 5, main session, pt.3) — ALL 41 APPROVED VIDEOS PUBLISHED to the app as v2.1 — Cameron's correction acted on — Machine A `Dev`
+
+**Commit:** (this commit)
+
+**Cameron's correction, verbatim lesson:** "there are 41 approved videos, you are
+not off to a good start in earning my trust." Root cause: pt.2 trusted
+`media-production/approvals.json` — a STALE PARTIAL COPY (15 rows) — instead of
+the LIVE reviewer approvals in Firestore (`node admin/dump-approvals.mjs`, 49
+approved, 41 with the approved cut still the served cut). publish_ledger.py is
+FIXED: `parse_approvals()` now runs the live dump (falls back to the local file
+only with a loud warning), and staleness is judged against the APPROVED CUT'S
+BYTES resolved from git objects (`approved_bytes_sha1`, blob/commit schemes) —
+never the working tree, which autopilot rewrites. The wave guard was dropped:
+Cameron's approval is the authority, whatever era the cut.
+
+**Published: all 41 postable rows (social/postable.json byte-verified list) →
+site/story-videos/N.mp4, every file the EXACT approved bytes from git objects.**
+Also corrected pt.2's row-7 error same-day: the first copy used working-tree
+bytes that were NOT the approved cut; replaced with the verified export, ledger
+v2.1 sha corrected in place (same publish stage — not a fix bump).
+Deploy fought the hosting quota: uploads failed as "Failed to make request" at
+36 files; shipped in batches of 5 (content-addressed uploads accumulate), final
+straggler 91.mp4 revealed the true 429 storage-quota error →
+`prune_hosting_versions.py` (13 versions pruned total) → complete. **LIVE
+VERIFICATION: all 41 URLs downloaded and sha1-matched against the approved
+exports — ALL 41 OK.** Ledger: every one of the 41 rows now has a v2.1 event;
+the 22 that had legacy cuts live keep v1.1 in history as the first published.
+Board: 41 LIVE-current · 46 LIVE-OLD-STYLE · 18 ON-REVIEWER (incl. the 8
+approval-voided rows where the cut changed since approval — they await Cameron).
+QUEUE: Appr+Post ticked on all 41. App list: 16 missing ids added to
+PRODUCED_VIDEO_IDS (7,20,30,32,41,46,56,57,64,68,75,76,79,81,85,91) and shipped
+OTA: EAS group `f0754dd6-7267-4203-ae03-9097f96ec098`, branch production,
+runtime 1.1.0, iOS+Android.
+
 ## 2026-08-06 (RESUME LANE, headless) — Row 60 was a DUPLICATE resume — already shipped & live; no build, damage repaired — $0 — Machine A `Dev`
 
 **Commit:** this SESSION-LOG entry only. No production commit — row 60 was already fully shipped by a
