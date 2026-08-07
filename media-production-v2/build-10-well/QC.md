@@ -171,3 +171,45 @@ of the sentence, so one mid-line pause is insufficient.
 **Board:** row 10 → NEEDS-AUDIO, Audio CHECK, Claim "C-FIX 2026-08-06 PARKED
 NEEDS-AUDIO". No mp4 re-render this session; existing byte-identical audio still
 carries the too-fast j2.
+
+---
+
+## AUDIO FIX DONE — j2 Messiah-reveal pacing (2026-08-07, Machine A `Dev`, AUDIO-FIX session)
+
+**Cameron's OPEN complaint (verbatim, `v2_outline.py 10`, `reportedAgainst`
+e82197c50004):** "The only.thing wrong with this one is how fast and meaningles
+Jesus pronounced the words while telling her he was the messiah. It is a very
+important text and the speaker says it too fast."
+
+**Root cause:** j2 "I that speak unto thee am he" (John 4:26) — the single most
+important sentence in the story — shipped at **1.67 s**, racing by. The one
+mid-line ellipsis added 2026-07-21 fixed a word-slur ("the Amhi") but did nothing
+for the OVERALL pace/weight Cameron is complaining about.
+
+**Fix (audio only, $0 — edge-tts EricNeural, no Gemini, no ElevenLabs):**
+- `make_narration.py` (both V1 `media-production/build-10-well/` and the V2 copy):
+  `PHRASE_SPOKEN["j2"]` now rewrites the whole line with a leading pause and a
+  pause before "am he" — `"I... that speak unto thee... am he"` — and a new
+  `PHRASE_RATE = {"j2": "-30%"}` slows this one segment below the Jesus default
+  (-22%). Caption stays byte-identical verbatim KJV "I that speak unto thee am he".
+- **Only j2.mp3 was regenerated.** Every other segment mp3 is byte-identical.
+  - `audio/j2.mp3`: old SHA256 `45e86b9c08f2…9e9e3` (1.67 s) → new
+    `c25eb945f58e…c218e` (**4.92 s**). Old file preserved as
+    `audio/j2.mp3.orig-pre-pacing-2026-08-07`.
+- Chosen from 4 A/B candidates ear-checked with faster-whisper (base.en): rate
+  -30% + this pause layout lands slow and clear and transcribes the exact words.
+
+**Assembly:** row's V1 final mp4 is a truncated 67.70 s render, so
+`AUDIO_FROM_V1_SEGMENTS = True` added to `beats_v2.py` — the master audio is
+rebuilt from the 20 V1 segment mp3s at the extract_beats offsets (the same
+timeline the 49 stills hang on). New timeline **296.6 s** (was 294.3 s; +2.3 s is
+the widened j2 window). All 49 stills unchanged; picture windows auto-recomputed.
+`v2_assemble.py 10` → **AUDIO REBUILD PASS**, mp4 audio-stream SHA256
+`f84a7136aa4d…4fce5`, 21.9 MB, 296.6 s.
+
+**Verified in the RENDERED mp4** (not just the segment): extracted 209.0–214.5 s
+and transcribed with faster-whisper → "I, that speak unto thee, am he." spoken
+across ~4.4 s with the pauses audible — the Messiah reveal now lands with weight.
+
+**Scope discipline:** no picture regenerated, no other segment re-voiced, no
+wording/timing changed outside j2. $0.00 spent, 0 rerolls.

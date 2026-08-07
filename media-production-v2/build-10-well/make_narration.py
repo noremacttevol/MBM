@@ -68,13 +68,28 @@ SEGMENTS = [
 # verbatim-KJV caption rule for this one word. No SPOKEN respelling is needed now.
 SPOKEN = {}
 
-# j2 "I that speak unto thee am he" (John 4:26) — the Eric voice slurs the
-# three-word run into "the Amhi" (Cameron complaint #10, heard at ~3:55, still
-# present after two re-records). A/B/C/D tested 2026-07-21 on the actual voice:
-# plain, comma, and "hee" all still transcribe "the Amhi"; only an ellipsis
-# pause breaks the liaison — whisper then hears the exact words. Caption stays
-# verbatim KJV; only the SPOKEN string carries the ellipsis.
-PHRASE_SPOKEN = {"j2": ("unto thee am he", "unto thee... am he")}
+# j2 "I that speak unto thee am he" (John 4:26) — the Messiah reveal, the single
+# most important sentence in the story.
+#
+# 2026-07-21 (slur fix): the Eric voice slurred the three-word run "unto thee am
+# he" into "the Amhi" (Cameron complaint #10). A/B/C/D tested on the actual
+# voice — plain, comma, and "hee" all still transcribed "the Amhi"; only an
+# ellipsis pause broke the liaison.
+#
+# 2026-08-07 (PACING re-voice, AUDIO-FIX): Cameron's OPEN complaint — "how fast
+# and meaningless Jesus pronounced the words while telling her he was the
+# messiah. It is a very important text and the speaker says it too fast." The one
+# mid-line ellipsis fixed the slur but left the WHOLE line racing by (the shipped
+# take was 1.67 s). Fix, ear-checked 2026-08-07 by faster-whisper on 4 candidates:
+# rebuild the SPOKEN string with a leading pause and a pause before "am he" AND
+# slow this one segment to -30% rate. Result: 4.92 s, deliberate, and whisper
+# hears the exact words ("I, that speak unto thee, am he"). Caption stays verbatim
+# KJV "I that speak unto thee am he"; only the SPOKEN/TTS string + this segment's
+# rate carry the weight.
+PHRASE_SPOKEN = {"j2": ("I that speak unto thee am he",
+                        "I... that speak unto thee... am he")}
+# Per-segment TTS rate overrides (slower than the speaker default for weight).
+PHRASE_RATE = {"j2": "-30%"}
 
 
 async def main():
@@ -86,7 +101,8 @@ async def main():
         st = spoken_text(text, SPOKEN, speaker)
         if name in PHRASE_SPOKEN:
             st = st.replace(*PHRASE_SPOKEN[name])
-        await save_speaker_narration(st, speaker, f"audio/{name}.mp3")
+        await save_speaker_narration(st, speaker, f"audio/{name}.mp3",
+                                     rate=PHRASE_RATE.get(name))
         print(f"saved audio/{name}.mp3  [{speaker}]")
 
 

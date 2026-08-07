@@ -86,6 +86,15 @@ twelve ---" and was kept.
 OUTPUT_ASSET_DIR = "assets-realistic"
 OUTPUT_VIDEO_NAME = "john-4_woman-at-the-well-realistic-v2.mp4"
 
+# STALE/TRUNCATED-V1-FINAL: this row's V1 final mp4 (john-4_woman-at-the-well.mp4)
+# is a 67.70 s truncated render — V1 never finished it (documented in QC.md "AUDIO
+# — the row's second real finding"). The extracted timeline is ~297 s, so the
+# byte-identical AUDIO LOCK against the V1 mp4 cannot apply; the authoritative
+# audio is rebuilt from the V1 per-segment mp3s at the extract_beats offsets.
+# (Also the sanctioned path for the 2026-08-07 j2 pacing re-voice — Cameron's
+# "too fast" complaint; only j2.mp3 changed, every other segment byte-identical.)
+AUDIO_FROM_V1_SEGMENTS = True
+
 # Identity anchor by IMAGE (CAST-BIBLE principle; the row-2 CAST-DRIFT lesson —
 # text locks alone do not hold a face across 30+ frames). The Samaritan woman
 # is the row's one new recurring character; Jesus rides on JESUS-V2-REF and
