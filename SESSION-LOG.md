@@ -1,3 +1,18 @@
+## 2026-08-07 (social session, pt.10) — CAMERON CHOSE CANDIDATE 3 (daylight) AS THE LOGO FOR EVERYTHING — app assets swapped — Machine A `Dev`
+
+**Commit:** (this commit — mobile/assets, root icon.png, social/, this entry; by pathspec)
+
+Cameron overruled my candidate-2 pick: "the third one that is lighter is the one. i want
+that ont to be the new logo for everything." Done everywhere: measured each asset's exact
+art inset (bbox vs background) and rebuilt with candidate 3 preserving layout —
+`mobile/assets/icon.png` (full-bleed 1024), `adaptive-icon.png` + `android-icon-foreground.png`
+(inset 154–870), `splash.png` + `splash-icon.png` (inset 230–793 on #0a0a0f), `favicon.png`
+(48), root `icon.png` (1435), and `social/page-art/profile-icon-FINAL-1080.png` = the
+canonical profile picture for all platforms (CHANNEL-PLAN updated; monochrome/background
+Android assets untouched — not photo-derived). Verified with a rendered strip: all four
+key assets carry the daylight art in correct layout. **His explicit order covers the app
+change; note: users see the new app icon at the NEXT store build (binary, not OTA).**
+
 ## 2026-08-07 (social session, pt.9) — APP ICON UPGRADED via API, $0.40, candidate 2 chosen — Machine A `Dev`
 
 **Commit:** (this commit — social/ + this entry, by pathspec)

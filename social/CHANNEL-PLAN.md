@@ -39,14 +39,17 @@ find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms a
 > is the app's own icon, nothing else; covers are realistic frames from approved
 > videos with no text on them.
 
-- **Profile picture (all four platforms):** `social/page-art/profile-icon-1080-v2.png`
-  — the app's icon scene (the hand reaching for the hem of his cloak) regenerated
-  at photographic quality via the production image API (2026-08-07, $0.40 for 3
-  candidates, candidate 2 chosen; all 3 kept as `icon-v2-candidate-*.png`).
-  `profile-icon-1080.png` is the original app-store version if ever needed.
-  Use the v2 on YouTube too (channel avatar) since that account is already up.
-  **The icon inside the app / stores is unchanged** — swapping that is Cameron's
-  call (it changes the store listing, and the app is locked during the rebuild).
+- **Profile picture (all four platforms):** `social/page-art/profile-icon-FINAL-1080.png`
+  — **THE logo, Cameron's pick 2026-08-07**: the icon scene (the hand reaching for
+  the hem of his cloak) regenerated at photographic quality, the bright daylight
+  version (candidate 3 of 3, $0.40 total via the production image API). Use it on
+  YouTube too (channel avatar). Older versions kept in this folder for history
+  (`profile-icon-1080.png` = original, `icon-v2-candidate-*.png` = the other takes).
+- **The app itself uses this logo now too** — Cameron ordered it for everything:
+  `mobile/assets/` icon, adaptive icon, splash, and favicon all carry it (each
+  rebuilt preserving its exact layout), plus the root `icon.png`. Users see the new
+  app icon after the NEXT store build/submission — icons ship in the binary, not
+  over-the-air.
 - **Facebook cover:** `social/page-art/cover-facebook.jpg` — Jesus teaching from
   the boat on calm water (from the approved Sower video, no text). If you'd rather
   have the quiet night one: `social/page-art/cover-facebook-alt-night.jpg`
