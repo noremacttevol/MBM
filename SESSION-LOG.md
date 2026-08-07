@@ -1,3 +1,26 @@
+## 2026-08-07 — C-FIX row 27 leaven PARKED NEEDS-AUDIO (generic audio complaint, out of runner scope), $0 — Machine A `Dev`
+
+**Commit:** (this commit — QC.md §0 + AUTHOR-BOARD row 27 + this entry, by pathspec)
+
+Cameron's OPEN complaint on the shipped row-27 cut (from `v2_outline.py 27`):
+**"Audio is messed up on this one."** Generic AUDIO-domain complaint. Per RUNNER-LESSONS
+(pacing/rushed/"messed-up" delivery complaints are audio-domain, park them like a
+mispronunciation), the fix is a re-voice / narration regeneration that lives upstream
+with the FABLE 5 author; the picture-runner is FORBIDDEN to re-voice (audio-immutability,
+AUDIO LOCK is its only proof). Runner diagnostics for the author: board Audio=OK only
+means the AUDIO LOCK hash matches V1, NOT that the audio is correct; all 11 segments
+render at correct durations (n1 6.30 / s33 2.40 / j1 8.07 / n2 8.91 / n3 6.82 / n4 7.97 /
+n5 9.43 / n6 9.74 / n7 12.98 / n8 12.02 / card 7.13 s) and mp4 A/V is aligned at 104.47s,
+so it is NOT a truncation or missing/length mismatch — the defect is inside the spoken
+delivery of one or more segments (glitch, stutter, wrong voice, clip, garbled word, or
+pacing). **No picture defect in the complaint, nothing to reroll, $0 spent, no pictures
+touched.** Board row 27 flipped BUILT→NEEDS-AUDIO, Audio OK→CHECK, with the author resume
+in the Claim cell and QC.md §0 RUNNER PARK. Reviewer still shows the existing shipped cut
+(a park does not ship, no deploy). Author resume: listen to matthew-13_leaven.mp4,
+localize the bad segment(s), fix at `make_narration.py` (respell a garbled word or
+re-render a glitchy TTS take; American Jesus voice for j1), regenerate only that mp3,
+re-assemble, ear-check, ship via the normal C-FIX flow.
+
 ## 2026-08-07 — C-FIX row 22 unmerciful-servant PARKED NEEDS-AUDIO (audio-pronunciation, out of runner scope), $0 — Machine A `Dev`
 
 **Commit:** (this commit — QC.md §0 + AUTHOR-BOARD row 22 + this entry, by pathspec)
