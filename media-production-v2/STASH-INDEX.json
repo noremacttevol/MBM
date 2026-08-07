@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 14:59:11",
+ "scanned": "2026-08-07 15:28:21",
  "entries": [
   {
    "row": 1,
@@ -43974,6 +43974,264 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame turns the method on its viewer: Jesus at the centre of the lamplit room, facing outward now, his two hands open in exactly the gesture that ended Thomas's doubt \u2014 offered past the lamps, past the barred"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b01",
+   "file": "build-100-the-ascension/assets/s01-in-his-last-moments-with.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "On the grassy crown of Olivet, the camera outside the ring behind the nearest shoulders, the eleven crowd their teacher one more time with the old question: faces eager in the bright morning, Peter's hands already shapin"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b02",
+   "file": "build-100-the-ascension/assets/s02-he-turned-them-toward-something.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the gentle pivot: Jesus's face over the eager question, warm and patient, the warm brown eyes lifting from their huddle toward the horizon past their shoulders \u2014 not swatting the little kingdom down but visibly "
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b03",
+   "file": "build-100-the-ascension/assets/s03-it-is-not-for-you.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The calendar is taken gently out of their hands: NOT FOR YOU TO KNOW \u2014 Jesus's voice steady around the ring, his hand turning upward at THE FATHER'S OWN POWER, the whole heavy question of when lifted off eleven sets of s"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b04",
+   "file": "build-100-the-ascension/assets/s04-that-is-not-a-no.jpeg",
+   "tokens": [
+    "ELEVEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the reparsing: listening faces around the circle catching what the answer is NOT \u2014 not a no, not a never, not a forget-the-kingdom \u2014 brows easing, a glance traded, Peter's head tilting as the sentence turns over"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b05",
+   "file": "build-100-the-ascension/assets/s05-but-ye-shall-receive-power.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The commission is drawn, the camera at the group's side so the sweeping arm crosses in profile over the real distances, on the actual landscape: Jesus's arm beginning at the shining city across the valley \u2014 JERUSALEM \u2014 t"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b06",
+   "file": "build-100-the-ascension/assets/s06-go-tell-everyone-everywhere-starting.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The frame drops to where the mission starts: eleven pairs of worn sandals planted on the summit grass, and past them, down the slope and across the valley, the city where it all begins \u2014 no ship to build, no border to cr"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b07",
+   "file": "build-100-the-ascension/assets/s07-it-is-a-redirection.jpeg",
+   "tokens": [
+    "MOUNT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the trade made with two hands: one turning palm-down in a gentle settling motion \u2014 the when-question laid to rest \u2014 while the other opens outward toward the waiting world, offering \u2014 the whole answer of the morn"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b08",
+   "file": "build-100-the-ascension/assets/s08-the-timing-belongs-to-the.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Around the ring the division of labor settles where it belongs: the timing filed upward, forever out of their hands \u2014 and the work and the power laid squarely into them \u2014 and the faces show the exchange: the calendar-anx"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b09",
+   "file": "build-100-the-ascension/assets/s09-he-was-handing-them-the.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the handover at its most physical: Jesus's hand closing firm on Peter's shoulder, eye level with eye, the mission passing through the grip the way weight passes into hands that are trusted with it \u2014 the fisherma"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b10",
+   "file": "build-100-the-ascension/assets/s10-and-then-something-happened-they.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The morning goes strange and still: Jesus stepping back one quiet pace from the ring onto the open grass, the breeze dropping, the birdsong thinning \u2014 nothing visibly different yet and everything about to be \u2014 eleven con"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b11",
+   "file": "build-100-the-ascension/assets/s11-while-they-watched-he-was.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "And then the ground lets him go, the camera low behind the beholding ring's backs, go: while they watch \u2014 every eye open, no one blinking \u2014 Jesus rises bodily from the summit grass, a man's height and climbing, the cream"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b12",
+   "file": "build-100-the-ascension/assets/s12-and-a-cloud-received-him.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "High over the summit the sky does the receiving: a great bright spring cloud folding slow around the small rising figure \u2014 cream wool and blessing hands going gently from sight into the white the way a boat goes into fog"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b13",
+   "file": "build-100-the-ascension/assets/s13-then-two-figures-in-white.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "While every eye is still aimed at the closed cloud, the grass gains two more figures: the tall pair in plain silver-grey standing suddenly among the sky-staring men \u2014 calm as noon, feet in the summit grass, ageless faces"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b14",
+   "file": "build-100-the-ascension/assets/s14-ye-men-of-galilee-why.jpeg",
+   "tokens": [
+    "TWO",
+    "ELEVEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the kindest interruption in Acts: the nearer messenger's calm face bent toward the upturned ones \u2014 YE MEN OF GALILEE, WHY STAND YE GAZING \u2014 the question landing like a hand on the shoulder of the whole group, be"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b15",
+   "file": "build-100-the-ascension/assets/s15-this-same-jesus-which-is.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN",
+    "TWO"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The promise is written on the very sky that took him: the two silver-grey figures with arms lifted toward the bright towering cloud \u2014 THIS SAME JESUS \u2014 SHALL SO COME, IN LIKE MANNER \u2014 and around them the eleven faces cha"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b16",
+   "file": "build-100-the-ascension/assets/s16-he-did-not-abandon-them.jpeg",
+   "tokens": [
+    "ELEVEN",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on faces that have just done the arithmetic of the morning and come out rich: Peter's jaw set with purpose instead of grief, John's young eyes shining with the promise still in them, weather-worn features all aroun"
+  },
+  {
+   "row": 100,
+   "build": "build-100-the-ascension",
+   "beat": "v2-r100-b17",
+   "file": "build-100-the-ascension/assets/s17-he-left-them-a-mission.jpeg",
+   "tokens": [
+    "MOUNT",
+    "ELEVEN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The closing frame walks off the mountain, the camera behind the descending eleven toward the city, the mountain with them: eleven figures starting down the slope path together toward the shining city, strides lengthening"
   },
   {
    "row": 101,
