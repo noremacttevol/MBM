@@ -120,6 +120,15 @@ LOCKS = {
     ),
 }
 
+# AUDIO-FIX lane 2026-08-07 (Machine A `Dev`): j1 + j2 re-voiced through the CHOSEN
+# ElevenLabs Jesus "Chris" (iP95p4xoKVk53GoZ742B — Cameron-approved rows 50/51/70/185),
+# j2 with the committed `overcummeth` respell (target OH-vur-kuh-muhth). Pitch-preserving
+# atempo-matched to the original V1-twin durations (j1 11.598 s, j2 8.202 s; Δ ≤ 26 ms =
+# one MP3 frame) so no window moves. Narrator segments byte-identical. Originals in
+# media-production/build-189…/audio-oldvoice-backup/. Rebuild reads the corrected V1-twin
+# segments:
+AUDIO_FROM_V1_SEGMENTS = True
+
 REF = False
 
 BEATS = [

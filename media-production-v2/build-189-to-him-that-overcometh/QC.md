@@ -1,9 +1,10 @@
 # QC / RUNNER HANDOFF — build-189-to-him-that-overcometh
 
 **Row 189 · Revelation 3:20-21 · "Behold, I stand at the door, and knock" + "To him that
-overcometh."** State: **NEEDS-AUDIO** (picture map authored & `--check` PASS, but an OPEN
-pronunciation complaint must be fixed by the AUDIO lane before Ready). Fable-5 author
-lane, Machine A `Dev`, 2026-08-07, $0.
+overcometh."** State: **AUTHORED / Audio OK / Ready ✅** — picture map authored & `--check`
+PASS; the "overcometh" pronunciation complaint was CLOSED by the AUDIO lane 2026-08-07
+(j1+j2 re-voiced to the chosen Jesus "Chris", j2 with the overcummeth respell — see the
+COMPLAINT LEDGER below). 0 V2 stills exist; picture runner builds them on the corrected audio.
 
 ---
 
@@ -42,11 +43,58 @@ seat is grace, not a reward earned by being flawless.
 
 ---
 
-## 🅿️ COMPLAINT LEDGER — OPEN, must be closed by the AUDIO lane before Ready ✅
+## ✅ COMPLAINT LEDGER — CLOSED by the AUDIO lane 2026-08-07 (Machine A `Dev`)
 
-**Cameron (v2_outline.py 189):** *"Pronounce overcometh as OH-vur-kuh-muhth 0:38."*
+**Cameron (v2_outline.py 189):** *"Pronounce overcometh as OH-vur-kuh-muhth 0:38."* —
+**FIXED.** j2 re-voiced with the committed `{"overcometh":"overcummeth"}` respell (target
+OH-vur-kuh-muhth), which had been added to make_narration.py the day AFTER the delivered
+j2 was rendered and so had never reached the audio. Whisper round-trips the new j2 to
+"overcometh" as ONE clean word (no "Over Kometh" seam). While in the same touch, both
+Jesus segments (j1 + j2) were moved to the **chosen Jesus voice "Chris"** to close the
+latent voice defect the park flagged (see below) — one re-cut, both fixed.
 
-**DIAGNOSED VALID + root-caused (this author lane, $0):**
+### WHAT THIS LANE DID (ElevenLabs re-voice; Gemini $0)
+- **Voice resolved to "Chris"** (`iP95p4xoKVk53GoZ742B`) — the Cameron-approved Jesus from
+  rows 50/51/70 and the exact voice row 185's audio lane restored on 2026-08-07 when
+  Cameron rejected the other voice ("That's not the chosen Jesus voice"). The
+  `mbm_eleven.py` default still names "Alexander" (2026-07-24), but row 185's more-recent
+  Cameron-approval-backed resolution treats that as the stale/wrong voice, so this row
+  follows row 185. Re-voicing to Chris is dominant-safe: it can only move 189 toward the
+  approved voice.
+- **Re-voiced j1 + j2 only** via canonical `mbm_eleven.render_segment(..., JESUS)` with
+  VOICE_ELEVEN[JESUS] set to Chris (44100/128k), j2 with the `overcummeth` respell.
+  Narrator segments (n0/n1/n2/n3/card) are byte-identical — untouched.
+- **Pitch-preserving `atempo`-matched** each back to its ORIGINAL V1-twin duration so NO
+  beats_v2 window moves: j1 natural 9.796 s → 11.572 s (target 11.598, Δ −26 ms); j2
+  natural 9.691 s → 8.229 s (target 8.202, Δ +26 ms) — both within one MP3 frame, the
+  row-185 tolerance. `.timing.json` rewritten with the original spoken-ends (11.564 s /
+  8.173 s); captions keep the KJV "overcometh" spelling.
+- `AUDIO_FROM_V1_SEGMENTS = True` set in beats_v2.py; `v2_prompt --check` → PASS (12
+  beats, windows contiguous, onsets in-window); extract resolves, all placed segs present,
+  total 52.018 s. Old-voice originals preserved in `audio-oldvoice-backup/`.
+
+### VERIFICATION (faster-whisper small.en beam 5 + F0)
+- new j2 → "...to him that overcometh will I grant to sit with me in my throne, even as I
+  also overcame, and am set down with my father in his throne." — "overcometh" ONE word,
+  no seam. new j1 → correct.
+- F0: new j1 ≈ 118.5 Hz, new j2 ≈ 120.3 Hz — the Chris/chosen family (row 185 measured
+  Chris at 105–118 Hz; the old/wrong voice at 87–92 Hz). The delivered pre-fix segments
+  read lower — the re-voice lifted them into the approved family.
+
+### AUDIO BASELINE CHANGE (sanctioned exception, PROMPT-AUDIO-FIX §4)
+The j1/j2 audio hashes changed on purpose — a Cameron-ordered re-voice is the allowed
+exception to the audio-immutability law. Nothing else changed: same words, same narrator
+takes, same timing outside the two re-voiced segments.
+
+### FOR THE PICTURE RUNNER — review-card 🛠 line (answer Cameron in his words)
+> **Your complaint — "Pronounce overcometh as OH-vur-kuh-muhth (0:38)" — is fixed.** Jesus
+> now says "overcometh" as OH-vur-kuh-muhth in "To him that overcometh…", and both of his
+> lines were moved to the chosen Jesus voice. Nothing else in the audio changed.
+
+---
+
+### (archived) ORIGINAL PARK DIAGNOSIS — kept for provenance
+**DIAGNOSED VALID + root-caused (author lane, $0):**
 - The SPOKEN respell `{"overcometh": "overcummeth"}` is **already in `make_narration.py`**
   (added 2026-07-29 09:44) with the A/B note that plain "overcometh" renders a seam
   (isolated whisper "Over Kometh"), and "overcummeth" reads as one word.
