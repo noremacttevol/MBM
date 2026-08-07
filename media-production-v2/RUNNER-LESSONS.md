@@ -96,6 +96,7 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   row is SHIPPED — do NOT regenerate, tick it BUILT on the AUTHOR-BOARD if it is
   not already, and take the next AUTHORED row. (The `assets/` count alone does
   not tell you shipped-vs-mid-build; the committed mp4 does.)
+- **QC the frames in the build's `OUTPUT_ASSET_DIR`, NOT `assets/` (2026-08-07, row 11 storm).** A realistic rebuild sets `OUTPUT_ASSET_DIR = "assets-realistic"` in beats_v2.py — `v2_gen_api` generates INTO it and `v2_assemble` renders FROM it, while the old rejected roughs stay in `assets/`. If you Light-QC `assets/`, you review the STALE rough frames, not what shipped — on row 11 this made me wrongly conclude two rerolls "reproduced identical / no Jesus" (I was comparing old-to-old) when the real `assets-realistic/` frames were correct and my rerolls had actually WORKED. Before QC, run `grep OUTPUT_ASSET_DIR beats_v2.py` (default "assets") and view THAT dir; or extract frames from the rendered mp4 (ground truth). `ls --time-style=full-iso` both dirs — the shipped one is today's date. Confusing the two burns rerolls chasing phantom defects and can ship un-QC'd frames.
 - **Art lives in `<build>/assets/*.jpeg`, NOT `<build>/frames/*.png`.** The
   `frames/` dir is essentially always empty. Judging "this claimed row crashed"
   by an empty `frames/` is WRONG and is what made 3+ lanes all pile onto row 45
