@@ -1,5 +1,48 @@
 # QC / RUNNER HANDOFF — build-109-ask-seek-knock (Matthew 7:7-11)
 
+## ✅ AUTHOR DONE — 2026-08-07 (Machine A `Dev`, Fable-5 lane, $0) — JESUS "CRAZY EYES" FIX
+
+**OPEN complaint (`v2_outline.py 109`): "picture at 1:34 has Jesus with crazy eyes."**
+1:34 (t≈94s) is **b17 / s17-if-ye-then-being-evil.jpeg** (seg jv11, window 89.26-99.01).
+
+### Root cause — mostly systemic, partly gesture-context
+The b17 scene text drives Jesus's **hands and arms** (the "how much more" gesture,
+both arms thrown wide) and "every listener's eyes going wide" — it did NOT ask for
+anything about Jesus's OWN eyes, so his wide-eyed "crazy" look is the **systemic
+JESUS-V2-REF face render** on this frame, likely nudged toward an excited wide-eye by
+the big-gesture energy of the beat. There is no per-row prose commanding wild eyes.
+
+### What the author did ($0)
+- Added an explicit **CALM-EYES instruction** to b17: must_show now says Jesus's eyes
+  are calm, warm and softly open even in the big gesture (the settled master-face
+  gaze); must_not_show bans wide/wild/bulging/staring/manic "crazy" eyes, whites-
+  showing wide-eye, and lens-stare. This gives the runner a targeted eye instruction
+  instead of a bare "reroll and hope."
+- `--check` **PASS (23 beats)**; audio untouched (Audio col OK).
+
+### 🅿️ RUNNER — the paid step
+- **Regen ONLY s17** over the fixed prompt; **face-board it hard against the JESUS-V2-
+  REF master** for CALM warm eyes. KEEP every other still byte-identical. Re-assemble
+  (AUDIO byte-identical), ship via C-FIX flow with the ledger below.
+- **⚠ If a targeted regen still lands wild eyes, this is MASTER-REF-LEVEL** (the
+  JESUS-V2-REF sheet's own eye-cast) — do NOT burn >2 rerolls; log FIX-WAVE and
+  escalate to the systemic flag below rather than churning credits.
+
+### COMPLAINT LEDGER
+1. **"1:34 Jesus with crazy eyes"** → s17 regenerated with an explicit calm-warm-eyes
+   instruction and hard face-board; the wide/wild "crazy" eye is banned in the prompt.
+
+### ⚠️ SYSTEMIC FLAG for Cameron (non-blocking, but recurring — noted 2026-08-07)
+The "crazy eyes" / intense-eye look on Jesus appears to be the **JESUS-V2-REF master
+face** itself, not a one-row defect. A per-row calm-eyes nudge fixes THIS frame, but
+the same eye-cast can recur on any Jesus close-up across the 200. A durable fix is a
+**master-ref review** (does jesus-v2-face.jpeg carry an over-intense gaze?) — that
+needs Cameron's eye on a few frames + a possible master-ref re-render, which a $0
+author lane cannot do. Raising it here so it's fixed at the source, not one frame at
+a time.
+
+---
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 23 beats, ~130 s.
 

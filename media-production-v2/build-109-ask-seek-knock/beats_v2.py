@@ -549,8 +549,8 @@ BEATS = [
             "children, how much more shall your Father which is in heaven "
             "give good things to them that ask him?"
         ),
-        "must_show": "SCRIPTURE-EXACT: the how-much-more — Jesus's hands measuring a small span, then thrown wide to the whole sky; the argument's scale jump made visible.",
-        "must_not_show": "no halo, glare or rim-light; the TWO measures distinct — hand-span, then horizon.",
+        "must_show": "SCRIPTURE-EXACT: the how-much-more — Jesus's hands measuring a small span, then thrown wide to the whole sky; the argument's scale jump made visible. Jesus's EYES are CALM, warm and softly open even in the big gesture — the settled, kind gaze of the master face, looking out over the listeners.",
+        "must_not_show": "no halo, glare or rim-light; the TWO measures distinct — hand-span, then horizon. Jesus's eyes are NEVER wide, wild, bulging, staring, manic or 'crazy'; no whites-showing wide-eye; no lens-stare; a calm warm face on the big gesture, not an excited one.",
         "scene": (
             "The argument makes its "
             "great jump in his hands: "
