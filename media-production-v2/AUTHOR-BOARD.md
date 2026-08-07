@@ -160,7 +160,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 146 | build-146-vine-and-branches | AUTHORED | 0 | OK |  | ✅ |
 | 147 | build-147-joseph-forgives | AUTHORED | 0 | OK |  | ✅ |
 | 148 | build-148-ruth-and-the-redeemer | AUTHORED | 0 | OK |  | ✅ |
-| 149 | build-149-hannah-is-heard | AUTHORED | 0 | OK |  | ✅ |
+| 149 | build-149-hannah-is-heard | AUTHORED | 0 | OK | COMPLAINT ROOT-CAUSED 2026-08-07 (Machine A `Dev`, $0 Fable-5 lane): OPEN "Wrong caption at 2:06" = trailing dead-tail class (rows 83/86 family). Measured: live V1 mp4 = 139.62s but content ends 126.2s = exactly 2:06 → 13.4s dead tail freezes the final caption. Source captions/2-voice colours are CORRECT (no author text error). 0 stills → RUNNER builds fresh V2; the TAIL GATE ends the mp4 on the last word (no +13s tail) → complaint closes on build. VERIFY: mp4 dur = audio total, caption at the 2:06 narration→card boundary. See QC.md 🅿️ ledger. | ✅ |
 | 150 | build-150-shepherd-psalm | AUTHORED | 0 | OK |  | ✅ |
 | 151 | build-151-ask-of-god | AUTHORED | 0 | OK |  | ✅ |
 | 152 | build-152-revealeth-his-secret | AUTHORED | 0 | OK |  | ✅ |
