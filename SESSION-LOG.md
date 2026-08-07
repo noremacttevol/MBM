@@ -1,3 +1,26 @@
+## 2026-08-07 — ROWS 50, 51 & 70 AUDIO FIXES (Cana→KANE-a, tear→tare, proceedeth→pro-SEE-duhth) — 3 orphaned pronunciation complaints CLOSED at the audio authority, $0 Gemini — Machine A `Dev` (AUDIO-FIX lane, UNATTENDED/HEADLESS)
+
+**Commits:** row 50 = `43cde1141`; row 51 = `86b42b1aa`; row 70 = `6d16e87dd`. All on origin/main (targeted `git add` of only each row's audio + beats_v2 + QC + board line, to survive the ~150-file-dirty live autopilot lanes sharing this tree — no tree-wide rebase). Session-chain verified at start (then-top = rows 169/170/171 authored, commit `f03f41e7b` present in `git log`); hostname `Dev` = Machine A.
+
+**The job.** PROMPT-AUDIO-FIX.md, lowest waiting NEEDS-AUDIO complaint rows first (LOW-NUMBER LAW). All three were the **ORPHANED-FIX class**: a prior "audio fix" wrote the corrected mp3 into the V2 build dir's `audio/`, which `v2_assemble` IGNORES (it ships the authoritative V1 render), so the open complaint would have repeated on build. **Two of the three (50 partially, 70 fully) were ALSO wrong-engine** — the exact trap PROMPT-AUDIO-FIX warns about.
+
+**The engine trap, caught by ffprobe before spending.** The V1 builds MIGRATED to ElevenLabs (44100 Hz/128 k) but still carry the stale edge-tts `make_narration.py`/`mbm_speakers.py` scaffold (24000 Hz/48 k, AndrewNeural/EricNeural). Every prior "fix" mp3 in the V2 dirs was edge-tts — copying it into the V1 dir would have **swapped the narrator/Jesus voice mid-video**. I re-voiced each complained segment through the ACTUAL shipping engine:
+- **Row 50 (John 4 — nobleman's son):** Cameron "we are still pronouncing Cana wrong its more like Kane-a." n1+n3 (only Cana segments) re-voiced via ElevenLabs NARRATOR "Brian", respell `Cana`→`Kayna` (=/keɪnə/, unambiguous "Kay" onset; no flat KAY-nuh, no /aɪ/ China drift). atempo-matched to originals (6.870s, 13.035s).
+- **Row 51 (Luke 5 — first catch of fish):** Cameron "still mispronouncing tear it should be like tare." n4 (only "tear") re-voiced via ElevenLabs "Brian", respell `tear`→`tare` (=/tɛr/, the word Cameron named; caption keeps "tear"). atempo-matched to 10.266s.
+- **Row 70 (Matthew 4 — temptations):** Cameron "it mispronounced 'proceedeth' it should be pro-see-duhth." The park expected a +1.083 s **edge-tts** j1 with a COUPLED remap — but the authoritative j1 is **ElevenLabs JESUS "Chris"**, so the edge take was wrong-engine. Re-voiced j1 via ElevenLabs "Chris", respell `proceedeth`→`proceeduth` (=pro-SEE-duhth; caption keeps "proceedeth"), reverent pauses shaped with ellipses, atempo-matched to original 7.837s → **no coupled remap needed**. n2's "I-S/IF" was already correct in the shipping ElevenLabs audio (untouched).
+
+**The mechanism (same for all three).** Corrected ElevenLabs mp3(s) placed in the AUTHORITATIVE V1 dir's `audio/`; set **`AUDIO_FROM_V1_SEGMENTS = True`** in each row's `beats_v2.py` (the sanctioned fix the STALE-V1 guard itself recommends) so `v2_assemble` rebuilds narration from the V1-dir mp3s at the extract_beats offsets — the shipped cut now carries the corrected pronunciation instead of copying the stale V1 mp4 AAC. Because each new segment was pitch-preserving atempo-matched to its ORIGINAL duration (all within 0.03 s), **no still-window moved** and no timeline remap was required.
+
+**Verified each (headless).** Isolated `rebuild_audio_from_segments(extract(row))` == extract_beats timeline to delta 0.0 (50: 166.073s; 51: 159.753s; 70: 248.644s); row 70 `--check` PASS 42 beats. Whisper confirmed no /aɪ/ "China" drift and the corrected words present; whisper's lexical normalization ("Cana"/"tear"/"proceedeth") is expected and not a defect (the input graphemes force the target phonemes).
+
+**Shipped-to-runner, not shipped-visual.** All three rows have ZERO V2 stills (picture runner hasn't reached them), so per the AUDIO-FIX loop nothing visual/no Firebase deploy — each board row flipped **NEEDS-AUDIO → AUTHORED / Audio OK / Ready ✅**, claim cleared, QC.md carries the new audio baseline (old→new md5, complaint quote, engine note). The picture runner now builds each on the corrected audio; its AUDIO REBUILD copies the fixed track.
+
+**Cost:** **$0 Gemini** (no images). ElevenLabs: 4 complained segments re-voiced (50: n1, n3; 51: n4; 70: j1) + a handful of short candidate takes for respell selection — a few cents. Every re-voiced segment logged in its QC.md.
+
+**Remaining NEEDS-AUDIO (both NON-actionable for a $0 headless audio lane, left parked):** row 19 (audio already OK; parked on a PAID picture C-FIX reroll of s17 — runner lane, not audio); row 27 (BLOCKED — a generic "audio is messed up" with no headless-localizable defect; needs one ear-pass, per the prior session's exhausted diagnostics).
+
+---
+
 ## 2026-08-07 — ROW 11 (Calming the Storm, Mark 4) REALISTIC V2 BOAT-LOCK REBUILD SHIPPED — uniformity complaint CLOSED, AUDIO LOCK PASS — Machine A `Dev` (Opus runner, UNATTENDED/HEADLESS)
 
 **Commits:** claim = `f88254790`; mp4 + QC + boards (7a) = `9b6808d8dbd4e4aef9f8be3148b4900c60b86f96`; review-card + this log (7b) below. All on origin/main. Session-chain verified at start (then-top = row 84 shipped, commit `c11166a96` present in `git log`); hostname `Dev` = Machine A.
