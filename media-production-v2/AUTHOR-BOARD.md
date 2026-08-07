@@ -21,7 +21,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 7 | build-07-peter-water | BUILT | 8 | OK |  |  |
 | 8 | build-08-lost-coin | BUILT | 23 | OK |  |  |
 | 9 | build-09-rich-ruler | BUILT | 52 | OK | C-FIX 2026-08-06 LIVE |  |
-| 10 | build-10-well | BUILT | 81 | OK |  |  |
+| 10 | build-10-well | BUILT | 81 | OK | C-FIX 2026-08-06 LIVE |  |
 | 11 | build-11-storm | BUILT | 65 | OK |  |  |
 | 12 | build-12-bartimaeus | BUILT | 79 | OK |  |  |
 | 13 | build-13-roof | BUILT | 88 | OK |  |  |
