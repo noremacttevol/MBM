@@ -55,7 +55,12 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# AUDIO-FIX GUARD (2026-08-07): pin "maketh" to the PLAIN word. The global SAY map
+# respells it to "mayketh" for edge-tts (Eric), which on the ElevenLabs Jesus voice reads
+# as the wrong "MAY-kith" Cameron flagged. A build-local SPOKEN wins over the global map in
+# BOTH engines, so this locks the correct read (whisper-verified) against any future
+# re-render. Do NOT change to "mayketh"/"maykith".
+SPOKEN = {"maketh": "maketh"}
 
 
 async def main():

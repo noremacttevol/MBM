@@ -12,36 +12,40 @@ CROWD locks are BYTE-IDENTICAL to build-124 (love-your-enemies) and the rest of 
 family (rows 121-124) for cross-video continuity.
 
 =====================================================================
-OPEN CAMERON COMPLAINT (v2_outline.py 188): "'Maketh' (the archaic version of the modern
+CAMERON COMPLAINT (v2_outline.py 188): "'Maketh' (the archaic version of the modern
 word 'makes') is pronounced MAY-kith 0:29." — an AUDIO pronunciation defect in j2.
 
-**THIS ROW IS PARKED NEEDS-AUDIO — do NOT set Ready until the audio lane fixes it.**
-ROOT CAUSE DIAGNOSED (Machine A `Dev`, this author lane): the global mbm_pronounce map
-carries `"maketh": {"jesus": "mayketh", "scripture": "maykith"}` — a respell TUNED FOR
-edge-tts (Eric/Steffan) with the note "MAY-kith, Cameron's #188 target". But build-188's
-delivered audio is now **ElevenLabs** (every segment mp3 is 44100 Hz / 128 kbps, the
-ElevenLabs signature — edge-tts is 24 kHz). The edge-tts "mayketh"/"maykith" respell does
-NOT render the same on ElevenLabs, so it comes out as the wrong "MAY-kith" Cameron is
-hearing. This is the SAME engine-migration trap as rows 50/51/70 (a respell orphaned to
-the wrong engine).
+**RESOLVED — the delivered ElevenLabs audio ALREADY says "maketh" correctly (MAKE-eth).
+Audio OK; row handed to the picture runner.** (AUDIO-FIX lane, Machine A `Dev`,
+2026-08-07. $0 spent — no re-voice needed.)
 
-AUDIO LANE FIX (only a lane with ELEVENLABS_API_KEY can do this; this lane spent $0):
-  1. Add a BUILD-LOCAL `SPOKEN` override in build-188 make_narration.py (build overrides
-     WIN over the global map, per mbm_pronounce spoken_text priority) for the ElevenLabs
-     JESUS voice — candidate respells to test by ear + faster-whisper: plain "maketh"
-     first (the edge-tts note says Andrew's plain word tested fine; ElevenLabs may too),
-     then "make-eth", then "may-kuth" — pick the one that reads clearly as MAY-kuhth / the
-     natural "-eth" ending Cameron wants, NOT "MAY-kith". (Leave the global map alone so
-     other rows are untouched.) NOTE: "sendeth" is also in j2 but is NOT complained — do
-     not touch it unless it audibly drifts.
-  2. Re-voice ONLY j2 through the SAME locked ElevenLabs JESUS voice, atempo-match to the
-     original j2 duration (seg 32.671→45.019 = 12.348 s) so NO downstream window moves,
-     place in the V1 audio/ dir, set `AUDIO_FROM_V1_SEGMENTS = True`.
-  3. Verify: whisper the delivered mp4 at 0:29 reads "maketh" correctly; audio-audit
-     still 0; total unchanged. THEN set Ready ✅ and the review card MUST tell Cameron the
-     "maketh" pronunciation is fixed.
-The 16-beat picture map below is COMPLETE and PASSES --check — the picture runner can
-build every still now; only the audio blocks Ready.
+WHAT THE PRIOR PARK GOT WRONG: the park diagnosis assumed the edge-tts respell
+`"maketh": {"jesus": "mayketh"}` from the global mbm_pronounce SAY map was being applied
+to the ElevenLabs render, producing MAY-kith. It is NOT. The real ElevenLabs renderer
+`media-production/voice_from_transcripts.py` builds its spoken string with
+`eleven_spoken_text()`, which applies ONLY PHRASES + build-local SPOKEN — it BYPASSES the
+SAY / SAY_BY_VOICE map by design (that map was measured on Azure voices and would hurt
+ElevenLabs). So j2 was rendered from the PLAIN word "maketh", and ElevenLabs reads the
+plain word correctly. Cameron's "MAY-kith 0:29" was the PRE-MIGRATION edge-tts cut (edge
+DID apply "mayketh"); the 2026-07-23 ElevenLabs re-voice already fixed it.
+
+VERIFICATION (this lane, faster-whisper small.en, beam 5):
+  * delivered j2.mp3 (both this v2 dir AND the V1 twin media-production/build-188…/audio)
+    -> "...for he MAKETH his son to rise..." — CORRECT.
+  * fresh control render of plain "maketh" on the ElevenLabs JESUS voice -> "maketh"
+    (identical to delivered).
+  * control render of the old "mayketh" respell -> "...for he MAY KETH..." — reproduces
+    Cameron's MAY-kith defect. This is what the old edge cut sounded like.
+
+DURABILITY GUARD: make_narration.py now carries a build-local `SPOKEN = {"maketh":
+"maketh"}` — build overrides WIN over the global map in BOTH engines (mbm_pronounce
+spoken_text priority; eleven_spoken_text overrides), so no future re-render (edge OR
+ElevenLabs) can re-introduce "mayketh". The global SAY map is left untouched (other rows).
+
+AUDIO_FROM_V1_SEGMENTS = True (below): assembly rebuilds the track from the build's own
+correct segment mp3s at the extract_beats offsets — nothing re-voiced, nothing re-timed.
+The 16-beat picture map below is COMPLETE and PASSES --check — the picture runner may
+build every still now and assemble on this corrected-and-verified audio.
 =====================================================================
 
 SPEAKER LAW (see make_narration.py):
@@ -78,9 +82,9 @@ PLACES / LOCKS:
 NEW-place promote plan (runner): promote VALLEY-FIELDS from b09 (a NON-Jesus frame).
 HILLSIDE may reuse build-124/112's mount plate via v2_stash --wire. Steps in QC.md.
 
-AUDIO: **PARKED NEEDS-AUDIO** (see complaint block above). Once the audio lane corrects
-j2 it sets AUDIO_FROM_V1_SEGMENTS=True; until then the row is not Ready. card_start =
-71.724 s; total with card = 79.773 s.
+AUDIO: **OK — complaint resolved** (see complaint block above; delivered ElevenLabs j2
+already says "maketh" correctly, whisper-verified). AUDIO_FROM_V1_SEGMENTS = True.
+card_start = 71.724 s; total with card = 79.773 s.
 """
 
 # LOCKS: HILLSIDE + CROWD are byte-identical cross-video reuses (build-124 / rows
@@ -110,6 +114,11 @@ LOCKS = {
         "modern object; nothing written anywhere. The same valley throughout."
     ),
 }
+
+# AUDIO-FIX lane 2026-08-07: rebuild the narration from this build's own correct segment
+# mp3s (the "maketh" complaint was already resolved by the ElevenLabs re-voice — see the
+# complaint block above). Nothing re-voiced, nothing re-timed.
+AUDIO_FROM_V1_SEGMENTS = True
 
 REF = False
 

@@ -4,40 +4,54 @@
 `v2_prompt.py --check` PASS (0 warnings), windows contiguous+monotonic 0.000→71.724=card,
 every speech onset in-window.
 
-## 🅿️ PARKED NEEDS-AUDIO — NOT Ready. AUDIO LANE owns the fix.
+## ✅ AUDIO OK — complaint RESOLVED. Ready for the picture runner (no stills yet).
 
-### COMPLAINT LEDGER (LEARNING LAW) — OPEN, COMPLAINT-FIRST
+### COMPLAINT LEDGER (LEARNING LAW) — CLOSED
 `v2_outline.py 188`: **"'Maketh' (the archaic version of the modern word 'makes') is
 pronounced MAY-kith 0:29."** — pronunciation defect in **j2** ("for he maketh his sun to
-rise…").
+rise…"). **CLOSED 2026-08-07 (AUDIO-FIX lane, Machine A `Dev`, $0):** the delivered
+ElevenLabs audio already says "maketh" correctly (MAKE-eth). Verified, guarded, wired.
 
-### ROOT CAUSE (diagnosed this lane)
-The global `mbm_pronounce.py` map carries `"maketh": {"jesus": "mayketh", "scripture":
-"maykith"}` — a respell **tuned for edge-tts** (Eric/Steffan), with a stale note calling
-"MAY-kith" Cameron's target. But build-188's delivered audio is now **ElevenLabs**: every
-segment mp3 is **44100 Hz / 128 kbps** (the ElevenLabs signature; edge-tts renders at
-24 kHz). j2's speaker is JESUS, so the edge-tts `"mayketh"` respell is applied and, on the
-ElevenLabs voice, comes out as the wrong **"MAY-kith"** Cameron flagged. This is the SAME
-engine-migration trap as rows 50/51/70 (a respell orphaned to the wrong engine).
+### WHAT THE PARK GOT WRONG (corrected this lane)
+The prior park assumed the edge-tts respell `"maketh": {"jesus": "mayketh"}` from the
+global `mbm_pronounce.py` SAY map was being applied to the ElevenLabs render, producing
+MAY-kith. **It is not.** The real ElevenLabs renderer `media-production/
+voice_from_transcripts.py` builds its spoken string with `eleven_spoken_text()`, which
+applies **only PHRASES + build-local SPOKEN** and **bypasses the SAY / SAY_BY_VOICE map by
+design** (that map was measured on Azure/edge voices and would hurt ElevenLabs). So j2 was
+rendered from the PLAIN word "maketh", which ElevenLabs reads correctly. Cameron's
+"MAY-kith 0:29" was the **pre-migration edge-tts cut** (edge DID apply "mayketh"); the
+2026-07-23 ElevenLabs re-voice already fixed it.
 
-### AUDIO-LANE FIX (needs ELEVENLABS_API_KEY — this lane spent $0)
-1. Add a **build-local `SPOKEN`** override in `build-188-be-ye-therefore-perfect/
-   make_narration.py` (build overrides WIN over the global map — mbm_pronounce
-   `spoken_text` priority). Test candidates by ear + faster-whisper on the **ElevenLabs
-   JESUS voice**, pick the one that reads clearly as MAY-kuhth / a natural "-eth" ending
-   (NOT "MAY-kith"): try plain `"maketh"` first (the edge-tts note says Andrew's plain word
-   tested fine — ElevenLabs may too), then `"make-eth"`, then `"may-kuth"`. **Leave the
-   global map alone** so no other row changes. "sendeth" (same segment) is NOT complained
-   — do not touch unless it audibly drifts.
-2. Re-voice **ONLY j2** through the SAME locked ElevenLabs JESUS voice, atempo-match to the
-   original j2 duration (seg 32.671→45.019 = 12.348 s) so **NO window moves**; place in the
-   V1 `audio/` dir; set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py.
-3. Verify: whisper the delivered mp4 near 0:29 reads "maketh" correctly; audio-audit 0;
-   total unchanged (71.724 card / 79.773 total). THEN set **Ready ✅** and the review card
-   MUST tell Cameron the "maketh" pronunciation is fixed.
+### VERIFICATION (faster-whisper small.en, beam 5)
+- delivered `j2.mp3` — **both** this v2 dir AND the V1 twin
+  `media-production/build-188-be-ye-therefore-perfect/audio/` (byte-for-byte the same
+  ElevenLabs take, 44100/128k, 10.945 s) → **"...for he MAKETH his son to rise..."** = CORRECT.
+- control render of plain `"maketh"` on the locked ElevenLabs JESUS voice → "maketh"
+  (identical to delivered).
+- control render of the old `"mayketh"` respell → **"...for he MAY KETH..."** — reproduces
+  Cameron's MAY-kith defect, i.e. exactly what the old edge cut sounded like.
+- "sendeth" (same segment, NOT complained) transcribes cleanly — left untouched.
 
-The picture map is COMPLETE and passes --check — the picture runner may generate every
-still now; only the audio blocks Ready.
+### WHAT THIS LANE DID (no re-voice, $0)
+1. **Durability guard:** added build-local `SPOKEN = {"maketh": "maketh"}` to BOTH
+   make_narration.py files (v2 dir + V1 twin). Build overrides WIN over the global map in
+   both engines (verified: edge `spoken_text` returns plain "maketh" with the guard vs
+   "mayketh" without; eleven returns plain "maketh" regardless), so no future re-render can
+   re-introduce "mayketh". Global SAY map left untouched (other rows unaffected).
+2. Set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py — assembly rebuilds the track from
+   the build's own correct segment mp3s at the extract_beats offsets. Verified: extract
+   resolves, all 9 placed segs (n0,j1,n0b,j2,n1,n2,n3,j3,card) present, total 79.4 s.
+3. `v2_prompt.py --check` → PASS (16 beats). Audio unchanged (no hash change — nothing
+   re-voiced); the sanctioned exception was not needed.
+
+### FOR THE PICTURE RUNNER — review-card 🛠 line (answer Cameron in his words)
+> **Your complaint — "'Maketh' pronounced MAY-kith at 0:29" — is fixed.** Jesus now says
+> "maketh" the right way (MAKE-eth) in "for he maketh his sun to rise." Nothing else in the
+> audio changed.
+
+The picture map is COMPLETE and passes --check — generate all 16 stills and assemble on
+this corrected-and-verified audio.
 
 ## The story / speaker law
 Sermon on the Mount. j1/j2/j3 are Jesus's own words → **RED** on Jesus's face (jesus=True,
