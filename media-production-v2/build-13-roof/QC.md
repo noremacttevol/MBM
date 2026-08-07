@@ -1,5 +1,42 @@
 # Story 13 Realistic V3 QC — The Man Through the Roof
 
+## ✅ C-FIX 2026-08-07 SHIPPED — ghost-rope / weird-roof complaint CLOSED (Opus runner, Machine A `Dev`)
+
+**COMPLAINT LEDGER (this cut) — the open complaint on the row, in Cameron's words:**
+> "1:44 the 4 friends are not standing on a roof with a hole in it it looks weird just get rid of
+> that picture. 1:49 has ghost ropes and a weird room they are dropping him into. its a bad
+> picture remove it."
+
+Both named pictures were REBUILT (not left as-is) against the author's SOLID-ROPE / GHOST-ROPE-BAN
+prose (rubric lesson 19), one re-cut, everything else byte-identical:
+
+- **"1:44 four friends on a roof with a hole looks weird" → FIXED.** Rerolled **s18**
+  (`s18-the-four-sweat-streaked-faces`, displays 103.4–108.5s = 1:43–1:48). The four distinct
+  dusty friends now read UNMISTAKABLY as leaning over the edge of a real flat clay roof around a
+  real torn hole; the paralysed man on his mat is present in the near foreground; ropes run down
+  as solid taut cord. The old disembodied corner-arms / ambiguous opening are gone. Verified in
+  the RENDERED mp4 at 105.5s.
+- **"1:49 ghost ropes + weird room they are dropping him into" → FIXED.** Rerolled **s15**
+  (`s15-swaying-on-four-ropes`, 90.0–92.9s) — the mat now hangs at a sensible mid-height on **four
+  solid, opaque, taut ropes** connected roof-beam→mat-corner in a clean legible stone room, instead
+  of the old mat floating high near the ceiling on faint ropes. Verified in the RENDERED mp4 at
+  91.5s under the caption "lowered with enormous care." Also rerolled the companion lowering frame
+  **s14** (`s14-four-faces-at-the-hole`, 85.5–90.0s) — same solid-rope, legible-room fix so the
+  whole lowering sequence is consistent (no ghost ropes anywhere).
+- **GHOST-ROPE BAN satisfied** on every rope in the re-cut: solid opaque physical cord, taut/slack,
+  connected at both ends — never transparent, faint, floating or disconnected. Roofs read as real
+  torn clay roofs. Four distinct friends (correct count), same four men across s14/s15/s18, no
+  second cream-robed figure, no modern objects, no lens-stare.
+
+- **COST / TOUCH-ONCE:** **3 rerolls (s14, s15, s18) / 45 beats = 6.7%** — under the 15% budget;
+  ≈ **$0.40** this row (meter $494.33 → $494.73). Touch-once: both open picture complaints batched
+  into ONE re-cut. **AUDIO byte-identical** — rebuilt from the same 23 V1 segment mp3s
+  (`AUDIO_FROM_V1_SEGMENTS=True`), **AUDIO REBUILD PASS SHA256=`da5d35f0d7badc48a384104f6b475cbb087090c3609acb11a152325dea1e063b`**,
+  298.3s. Nothing re-voiced, re-timed or resynthesised. Question card clean, captions bottom-band
+  white serif.
+
+---
+
 ## 🅿️ NEEDS-REBUILD — NEW open complaint AUTHOR-FIXED (2026-08-07, Machine A `Dev`, $0 Fable-5 lane)
 
 **COMPLAINT LEDGER — this is a SECOND, still-open complaint** (the earlier "1:37 picture missing
