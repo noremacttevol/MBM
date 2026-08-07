@@ -86,3 +86,47 @@ read-only), OR re-render the V1 mp4 from the current narration.
 media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows.` — the
 14 authored beats are ready to generate (`v2_prompt.py build-80-come-unto-me
 --check` = PASS). No stills exist yet; a full build from step 2.
+
+---
+
+## ✅ BUILT realistic-v2 — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS), 2026-08-07
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 80` shows no open complaint on
+this row — the prior park was NEEDS-AUDIO (STALE-V1), now cleared by the author's
+`AUDIO_FROM_V1_SEGMENTS=True`. Nothing re-voiced; narration content byte-identical
+to the V1-dir segment mp3s.
+
+**Build:** 14 realistic stills at native 2K (V1 ASSEMBLY-C had 8), 90.6s, 19.6 MB.
+1 portrait (CARRIER). Places: LANE plate (author-wired from build-38), OXFIELD
+promoted-first this row from b06 (person-free two-ox double-yoke anchor, QC'd clean
+before promote) → wired to b06/b11/b12/b13. Only Jesus wears cream.
+
+**Doctrine arc held (QC.md gates):** the double-yoke two-sidedness reads across the
+oxen frames — b06 defines the shared beam (two oxen pulling together), b11 shows ONE
+ox laboring beside the EMPTY loop (vacancy visible), b12 the second ox stepped IN under
+the open loop, b13 the pair pulling as one with the plough still biting (rest = SHARED
+pulling, field NOT finished). The carrier's echo arc held: sack roped on his back alone
+(b01/b04/b05), coming WHILE loaded through the offer (b07), and the closing b14 = Jesus
+walking BESIDE him with one hand steadying the sack's weight — the load stays ON (shared,
+not removed). No render took the sack away.
+
+**Light QC (1 sweep, all 14 frames viewed + 3 rendered caption frames): 0 rerolls / 14
+= 0% (COST LAW: far under 15%).** Beard-board: CARRIER grizzled grey-brown beard present
+every frame; Jesus full dark beard, dark wavy shoulder-length hair, warm skin, warm
+brown eyes (no glow, no stare) every frame. Scale gate: Jesus ordinary-sized beside the
+carrier/crowd in every multi-figure frame — no giant. No modern objects (checked sand/
+ground for lug-tread prints — clean), no second cream figure, no lens-break, no collage,
+no cartoon/CGI frame (all photographic), no burned-in text.
+FIX-WAVE (kept, non-blocking): oxen cutaway frames (b06/b11/b12/b13) sit under a flatter
+overcast daylight vs the day's-end gold of the human frames — they are metaphor cutaways
+so it does not jar; a later wave could warm them to match.
+
+**Audio (STALE-V1 batch — row-74 tail check done):** AUDIO REBUILD PASS
+SHA256=97eaf33477e95642c9fbe5c3eafa5eb52206a4106000bce5b53abdbaf217ddd3, rebuilt from
+11 V1-dir segment mp3s, 90.604s. Tail check: captioned.mp4 = 83.000s vs card seg_start
+= 82.957s (diff 0.043s <= 0.2s) -> full question card present, no tail chop; final mp4
+90.633s ~= audio 90.604s. Captions bottom-band only; Jesus sayings red, narrator white;
+question card clean (no squares).
+
+**Cost:** 1 portrait $0.13 + b06 anchor $0.13 + 13-beat run $1.74 = **~$2.00 this row**,
+0 rerolls. Well under the $6.10/row average — COST LAW trend holds DOWN.
