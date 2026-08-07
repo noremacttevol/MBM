@@ -64,3 +64,42 @@ swirl of light; no wings/halos).
   17 beats reused the WASTE plate. Spend this row ≈ $3.75
   (1 portrait $0.13 + 28 stills). Under the $6.10/row average → COST
   LAW trend DOWN.
+
+---
+
+## C-FIX — 2026-08-07 (Opus, Machine A `Dev`)
+
+### COMPLAINT LEDGER (the COMPLAINT-FIRST + LEARNING LAWS)
+- **OPEN — reviewer note "0:24 looks like a UFO no God comming to him
+  in a dream."** FIXED. 0:24 is beat n3 p1 (window 21.80–26.44), the
+  frame `s05-and-there-in-the-last.jpeg` ("God came to him in a dream").
+  The shipped V1-of-this-cut s05 rendered heaven's opening as a flat
+  horizontal glowing disc with a downward light beam over the sleeper —
+  a literal flying-saucer read. Rerolled ONLY beat b05 (2 takes, the
+  max): the keeper now shows a VERTICAL seam/shaft of light rising from
+  behind the ridge into the starfield above Jacob — the beat's own
+  `must_show` ("a brightening seam, the stair not yet formed"). No disc,
+  no downward beam, no discrete object; it reads as heaven beginning to
+  open in the dream, not a UFO. Verified in the RENDERED mp4 at t=24 s.
+
+### SCOPE / TOUCH-ONCE
+- Only open complaint on this row was the 0:24 UFO note → batched into
+  this ONE re-cut. Only `s05-and-there-in-the-last.jpeg` changed; the
+  other 27 stills are byte-identical to the 2026-08-06 cut.
+- s06 (the full stairway with angels) was reviewed and is unaffected —
+  it already reads clearly as the dream and was NOT the flagged frame.
+
+### GATES (re-verified)
+- Realistic-only (Law 14): PASS — new s05 is photographic, night, no
+  cartoon/mixed.
+- TIME-OF-DAY (night): PASS — dark starfield, no sunrise/sunset color.
+- BEARD BOARD: PASS — Jacob carries the same short/sparse beard, no flip.
+- Cream-robe: PASS — Jacob in brown/ochre; no cream anywhere.
+- Modern objects / staring-into-lens: none. Scale: ordinary.
+- Captions bottom-band only (verified t=24). Question card clean (t=170).
+- **AUDIO LOCK PASS SHA256=a96e8633… — byte-identical to the prior cut;
+  narration/voices/timing untouched.**
+
+### COST
+- 2 rerolls of beat b05 = 2 images ($0.26). Row's lifetime rerolls now
+  2/28 = 7.1% (still under the 15% budget). Meter $423.71 → $423.98.
