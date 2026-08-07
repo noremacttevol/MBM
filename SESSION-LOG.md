@@ -1,3 +1,34 @@
+## 2026-08-06 (Opus runner, headless) — Row 48 (new-wine-old-bottles) REALISTIC V2 SHIPPED — billing restored after 45 blocked resumes — Machine A `Dev`
+
+**Commit:** `4dd741328765bdac05c7b54487d4528a61e14647` (mp4+QC+boards) + review-card/SESSION-LOG commit on top.
+
+Session-chain verified: read SESSION-LOG top (AUDIO-FIX/billing-breaker entry) and confirmed
+its commit `79eebcaed`/`9be1ae223` present in `git log`. Hostname `Dev` → Machine A. Directed to
+RESUME row 48 (State RUNNING, Claim A-auto), headless/unattended — did NOT start a new row.
+
+**The 45-resume billing block is CLEARED.** The Gemini prepayment was topped up; a prior autopilot
+lane resumed generation ~21:21 and reached 32/35 stills before dying. This session finished it:
+`v2_gen_api.py build-48 --ceiling 438` generated b31–b35 (5 shots, **$0.67**, meter $412.18 →
+$412.72). All 35 stills present, `--check` PASS, 0 portraits outstanding, first-shipped/live checks
+confirmed row was NOT already shipped before spending.
+
+**Light QC — ALL 35 frames viewed, ZERO rerolls (0% vs 15% COST LAW budget).** Plates QC'd hardest
+(COURTYARD s01, WEDDING s06, WORKSHOP s16, CELLAR s22 — clean). Object-truth: every wine vessel a
+period goatskin, never glass (KJV "bottles" class); burst skin (s26) reads as spilled dark-red wine
+to the floor channel, not blood. Object beats person-free. Jesus one locked face + only-cream in
+every appearance; green eyes = locked V2 ref (not a defect). Three askers consistent; gazes converge;
+two-mood palettes hold; NO cartoon/mixed frame (Law 14 PASS). **COMPLAINT LEDGER: none open**
+(`v2_outline.py 48` shows no filed complaint). Assemble → **AUDIO LOCK PASS** SHA256 9c7ec184…
+(V1 audio byte-identical), 209.8 s, 20.3 MB. Rendered caption frames verified: scripture (blue) +
+Jesus-words (red) captions in bottom band only, split with narration; question card clean.
+
+**Shipped:** QUEUE row 48 Built ✅, AUTHOR-BOARD row 48 BUILT, review.html v48 card set
+`data-review-wave="realistic-v2"` + hash `4dd741328765…` + realistic-v2 flag; `firebase deploy
+--only hosting`; live-verified the new hash + mp4 HTTP 200. STASH-INDEX rescanned.
+
+**Cost:** $0.67 generation this session (5 frames). Row total ≈ $4.68 across lanes for 35 stills —
+**UNDER the $6.10/row running average** (COST LAW satisfied; 0% rerolls pulls the reroll average down).
+
 ## 2026-08-06 (main session) — Cameron's "why is my reviewer empty / why aren't complaints fixed" answered: AUDIO-FIX job type + billing-breaker fallback — Machine A `Dev`
 
 **The two root causes, told to Cameron straight:** (1) the Gemini prepayment
