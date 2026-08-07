@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 22:10:08",
+ "scanned": "2026-08-06 22:50:38",
  "entries": [
   {
    "row": 1,
@@ -30144,6 +30144,572 @@
    "scene": "The slope at dusk, emptied: cold fire rings and trodden dust where four thousand sat, the seven heaped baskets in their row on the rock shelf, and Jesus standing alone among the traces in the last ember light, watching t"
   },
   {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b01",
+   "file": "build-60-gerasene-demoniac/assets/s01-the-far-shore-at-first-light.jpeg",
+   "tokens": [
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The dark fishing boat grinds up onto the stony beach, the camera along the waterline taking hull and shore in profile, in the grey-gold of first light \u2014 the disciples inside it drenched, hollow-eyed and storm-wrung, one "
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b02",
+   "file": "build-60-gerasene-demoniac/assets/s02-gentile-country.jpeg",
+   "tokens": [
+    "SHORE",
+    "HERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "From the beach the land tells what it is: the steep barren hills climb into the dawn light with a vast herd of dark and pink-grey pigs spread feeding across the high pasture \u2014 hundreds visible, more behind the ridge \u2014 an"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b03",
+   "file": "build-60-gerasene-demoniac/assets/s03-no-rabbi-came-here.jpeg",
+   "tokens": [
+    "SHORE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Close along the boat's gunwale: three disciples' faces in a row, weather-beaten and storm-tired, reading the foreign hillside \u2014 one with his jaw set sideways, one glancing at the shrine and away as if the look itself wer"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b04",
+   "file": "build-60-gerasene-demoniac/assets/s04-he-crossed-a-storm-for-this.jpeg",
+   "tokens": [
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus steps down over the bow onto the wet foreign stones, first out of the boat, landing with the unhesitating weight of a man arriving exactly where he meant to be \u2014 his eyes already lifted to the pale tomb hills above"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b05",
+   "file": "build-60-gerasene-demoniac/assets/s05-among-the-tombs.jpeg",
+   "tokens": [
+    "MAN",
+    "TOMBS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The pale limestone slope rises out of the dawn shadow, the camera far off, taking the slope from the side so the one small figure reads against the whole honeycombed face, pocked with black cave-tomb mouths and broken gr"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b06",
+   "file": "build-60-gerasene-demoniac/assets/s06-something-had-hold-of-him.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man in the grey dawn light: gaunt cheeks under the wild black beard, skin grey with exposure, and the deep-set eyes doing all the telling \u2014 hunted, exhausted, flinching at nothing visible, the eyes of a man "
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b07",
+   "file": "build-60-gerasene-demoniac/assets/s07-they-had-tried-chains.jpeg",
+   "tokens": [
+    "MAN",
+    "TOMBS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the evidence in the thorn and scree: lengths of snapped chain gone orange with rust, a leg-fetter burst open at its rivet, and the man's forearm resting across his knee with a single broken shackle-ring still ri"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b08",
+   "file": "build-60-gerasene-demoniac/assets/s08-crying-among-the-graves.jpeg",
+   "tokens": [
+    "MAN",
+    "TOMBS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Night on the tomb hill under a high cold moon: the ragged man stands small among the black cave mouths with his head thrown back and his arms wrapped around his own chest, mid-cry \u2014 the long grey moonlit slope utterly em"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b09",
+   "file": "build-60-gerasene-demoniac/assets/s09-he-was-a-warning.jpeg",
+   "tokens": [
+    "MAN",
+    "TOMBS",
+    "TOWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the morning road below the tomb hill a farm family passes with their donkey \u2014 the father's eyes fixed hard ahead, the mother turning her small son's face away with one hand while he cranes to look \u2014 their path bending"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b10",
+   "file": "build-60-gerasene-demoniac/assets/s10-he-ran.jpeg",
+   "tokens": [
+    "MAN",
+    "TOMBS",
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "THE CAMERA IS BEHIND AND ABOVE THE MAN, his back to the camera as he plunges AWAY from us down the steep tomb slope at a headlong run \u2014 rags streaming, arms wide for balance on the scree \u2014 and far below him, small on the"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b11",
+   "file": "build-60-gerasene-demoniac/assets/s11-he-fell-at-his-feet.jpeg",
+   "tokens": [
+    "MAN",
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The ragged man has crashed onto his knees on the wet stones at Jesus's feet, his matted head down almost to the ground, chest heaving from the run \u2014 the disciples have scattered back against the boat's hull with an oar h"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b12",
+   "file": "build-60-gerasene-demoniac/assets/s12-torment-me-not.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close from beside Jesus's knee: the kneeling man's face turned up, wrenched with a terror that is begging \u2014 the cords of his neck standing, his eyes wet and terribly present, a passenger behind the words tearing out of h"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b13",
+   "file": "build-60-gerasene-demoniac/assets/s13-the-darkness-knew-him.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot in the strengthening light: the kneeling man spent against the stones, trembling, and Jesus bent slightly over him \u2014 his face calm and grave, receiving the title 'Son of the most high God' from the one m"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b14",
+   "file": "build-60-gerasene-demoniac/assets/s14-it-knew-it-was-finished.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the full dawn light: utterly quiet, the warm eyes level and unhurried on the kneeling man below the frame \u2014 not the face of a man entering a fight but of one announcing its result, authority worn"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b15",
+   "file": "build-60-gerasene-demoniac/assets/s15-he-did-not-step-back.jpeg",
+   "tokens": [
+    "MAN",
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "A wide beach frame that tells it in distances, the camera off to the side so every gap reads in profile: the disciples pressed far back along the boat's hull, half-shielded behind it \u2014 and in the open middle of the stone"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b16",
+   "file": "build-60-gerasene-demoniac/assets/s16-come-out-of-the-man.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus as the command leaves him: his face bent toward the kneeling man but his eyes aimed somehow past the man's eyes, deeper, addressing the occupant and not the house \u2014 the jaw barely moving, the voice plainly"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b17",
+   "file": "build-60-gerasene-demoniac/assets/s17-one-sentence.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The kneeling man has bowed under the sentence like a tree taking wind \u2014 head down, fists knotted against the stones, a long shudder running visibly through the starved shoulders \u2014 while Jesus stands over him unmoved, his"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b18",
+   "file": "build-60-gerasene-demoniac/assets/s18-what-is-thy-name.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has crouched down onto his heels in front of the kneeling man, bringing his face level with the wrecked gaunt one \u2014 closer than chains, closer than the town ever came \u2014 and asks the question directly into it, his f"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b19",
+   "file": "build-60-gerasene-demoniac/assets/s19-my-name-is-legion.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Very close on the gaunt face as the answer comes out of it: the mouth forms the word and the eyes above it are the testimony \u2014 layered, teeming, exhausted, the look of a single man standing in a doorway holding back a cr"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b20",
+   "file": "build-60-gerasene-demoniac/assets/s20-outnumbered-inside.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A pulled-back shot down the empty dawn beach: the kneeling man alone and small on the wide grey stones, folded over his own knees with his arms wrapped around himself \u2014 one starved human frame photographed with all that "
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b21",
+   "file": "build-60-gerasene-demoniac/assets/s21-the-thousands-were-begging.jpeg",
+   "tokens": [
+    "MAN",
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "On the brightening beach the whole balance of the morning stands inverted: the kneeling man's hands are lifted up in open plea toward Jesus \u2014 the gesture of the conquered before the conqueror \u2014 and Jesus stands over the "
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b22",
+   "file": "build-60-gerasene-demoniac/assets/s22-two-thousand-pigs.jpeg",
+   "tokens": [
+    "HERD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The great herd fills the steep morning hillside, the camera below the pasture behind a herdsman's distant figure \u2014 about two thousand dark and pink-grey pigs rooting and feeding across the high pasture in loose rivers, a"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b23",
+   "file": "build-60-gerasene-demoniac/assets/s23-send-us-into-the-swine.jpeg",
+   "tokens": [
+    "MAN",
+    "SHORE",
+    "HERD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The kneeling man's arm is flung up and out, one shaking finger pointing high at the herd spread across the hillside pasture above the beach, his face wrenched sideways with the begging \u2014 and Jesus stands with his eyes fo"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b24",
+   "file": "build-60-gerasene-demoniac/assets/s24-he-gave-them-leave.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the morning light: the single, small, almost inaudible nod of permission \u2014 chin dipping once, eyes never leaving the kneeling man \u2014 sovereignty spending less motion on an army's eviction than oth"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b25",
+   "file": "build-60-gerasene-demoniac/assets/s25-down-the-steep-place.jpeg",
+   "tokens": [
+    "HERD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "From well down the shore the camera takes the bank in profile: the whole vast herd pours over the lip of the steep bank in one dark living torrent \u2014 a river of pigs plunging down the scree in full stampede, dust boiling "
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b26",
+   "file": "build-60-gerasene-demoniac/assets/s26-they-ran-for-town.jpeg",
+   "tokens": [
+    "HERD",
+    "TOWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "SHOT FROM THE SIDE: the handful of herdsmen run flat-out from left to right across the frame along the hill path, robes hitched in their fists, arms pumping, staffs left lying in the emptied pasture behind them \u2014 and far"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b27",
+   "file": "build-60-gerasene-demoniac/assets/s27-the-town-came-out.jpeg",
+   "tokens": [
+    "TOWN",
+    "SHORE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "Down the road from the town, the camera at the road's side so the stream crosses in profile, the people pour toward the shore in a long hurrying stream \u2014 men striding grim, women with shawls clutched, elders hobbling to "
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b28",
+   "file": "build-60-gerasene-demoniac/assets/s28-sitting-at-his-feet.jpeg",
+   "tokens": [
+    "MAN",
+    "SHORE",
+    "TOWN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "On the stones by the boat the man sits quietly at Jesus's feet \u2014 clothed now in a plain dark olive-brown tunic, knees drawn up easy, his hands still in his lap, his wild hair pushed back from a settled face \u2014 and the fro"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b29",
+   "file": "build-60-gerasene-demoniac/assets/s29-clothed-calm-right-mind.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face in the clean morning light: the same gaunt bones and black tangled beard as before \u2014 and everything else changed: the deep-set eyes quiet and single and his own, resting steady on something in the"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b30",
+   "file": "build-60-gerasene-demoniac/assets/s30-and-they-were-afraid.jpeg",
+   "tokens": [
+    "MAN",
+    "TOWN",
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The townspeople stand in a wary crescent on the stones, and their eyes do the arithmetic the frame shows: flicking from the clothed, quiet man sitting at Jesus's feet, up to the high pasture standing empty in the morning"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b31",
+   "file": "build-60-gerasene-demoniac/assets/s31-they-asked-him-to-leave.jpeg",
+   "tokens": [
+    "TOWN",
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A grey-bearded town elder stands a careful pace forward of the crowd, one arm stretched out stiffly toward the beached boat behind Jesus \u2014 the formal gesture of a request nobody is proud of \u2014 while behind him the crowd h"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b32",
+   "file": "build-60-gerasene-demoniac/assets/s32-he-never-argues-his-way-in.jpeg",
+   "tokens": [
+    "SHORE",
+    "TOWN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus walks the last stones to the boat \u2014 his back half-turned to the silent crowd, his stride unhurried and entirely without anger, one hand already on the gunwale \u2014 an invited-out guest leaving with more grace than the"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b33",
+   "file": "build-60-gerasene-demoniac/assets/s33-let-me-come-with-you.jpeg",
+   "tokens": [
+    "MAN",
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the waterline the healed man has both hands clamped on the boat's gunwale, knee-deep beside it, his settled new face broken open again \u2014 begging this time, urgent and human, to go where the boat goes \u2014 while Jesus, on"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b34",
+   "file": "build-60-gerasene-demoniac/assets/s34-the-only-no.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close over the gunwale: Jesus's hand rests firm on the healed man's shoulder, their faces near \u2014 the man's plea still standing in his eyes, and Jesus answering it with a steady warmth that is refusing and giving in the s"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b35",
+   "file": "build-60-gerasene-demoniac/assets/s35-go-home-to-thy-friends.jpeg",
+   "tokens": [
+    "MAN",
+    "SHORE",
+    "TOWN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "SHOT FROM THE SIDE at the waterline: Jesus stands in the stern with his arm extended full length, pointing past the healed man's shoulder toward the flat-roofed town on its rise \u2014 and the man has turned within the pointi"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b36",
+   "file": "build-60-gerasene-demoniac/assets/s36-to-the-town-that-chained-you.jpeg",
+   "tokens": [
+    "MAN",
+    "TOWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "SHOT FROM BEHIND THE MAN on the road up from the shore: his back and shoulders to the camera, faced squarely at the town gate ahead of him, one breath visibly being taken and set \u2014 and far behind him, small out on the br"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b37",
+   "file": "build-60-gerasene-demoniac/assets/s37-the-first-one-sent.jpeg",
+   "tokens": [
+    "MAN",
+    "TOWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the town's stone lane the man stands telling it \u2014 clothed, calm, his scarred-free hands open in the middle of the story \u2014 while around him a knot of townspeople thickens by the second: a woman who crossed streets to a"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b38",
+   "file": "build-60-gerasene-demoniac/assets/s38-a-one-man-mission.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "SHOT FROM BEHIND AND HIGH: the man walks alone AWAY from us along a broad high road through open country, staff swinging, steady \u2014 and far ahead of him, IN THE DIRECTION HE IS WALKING, a columned Gentile city stands on t"
+  },
+  {
+   "row": 60,
+   "build": "build-60-gerasene-demoniac",
+   "beat": "v2-r060-b39",
+   "file": "build-60-gerasene-demoniac/assets/s39-all-men-did-marvel.jpeg",
+   "tokens": [
+    "MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In a columned Gentile market square the man stands at the centre of a large listening crowd \u2014 porters with loads set down, merchants leaned out over their stalls, women with jars parked on hips, every face open in plain "
+  },
+  {
    "row": 64,
    "build": "build-64-pool-of-bethesda",
    "beat": "v2-r064-b01",
@@ -32434,6 +33000,431 @@
    "scene": "The mountainside at golden hour, the camera far off taking the whole slope from the side, holds everything the sentence hides: the healed multitude spread across every ledge and grass shelf \u2014 walkers and speakers and see"
   },
   {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b01",
+   "file": "build-69-baptism/assets/s01-down-at-the-jordan-river.jpeg",
+   "tokens": [
+    "BAPTIST",
+    "JORDAN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the green bend of the Jordan, the camera on the far bank taking bend and line from the side, the work is mid-stroke: John waist-deep in the slow water, his camel-hair coat dark to the chest, both hands lowering a peni"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b02",
+   "file": "build-69-baptism/assets/s02-he-was-rough-as-the.jpeg",
+   "tokens": [
+    "BAPTIST",
+    "JORDAN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "From a rock at the water's edge, the camera behind the listening crowd's shoulders, John preaches with his whole body \u2014 black mane flying, burned arm flung toward the hills, the trumpet of his voice visible in every cran"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b03",
+   "file": "build-69-baptism/assets/s03-every-day-sinners-lined-the.jpeg",
+   "tokens": [
+    "CROWD",
+    "JORDAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Along the trodden mud of the bank the day's line waits: a soldier with his helmet under his arm and his eyes down, a tax man turning his rings, a farm couple holding hands, an old woman praying silently mid-queue \u2014 the c"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b04",
+   "file": "build-69-baptism/assets/s04-and-then-one-day-somebody.jpeg",
+   "tokens": [
+    "CROWD",
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the line's end, the camera along the queue so the waiting backs recede in profile, unannounced, a new arrival takes his place \u2014 road-dusty from Galilee, cream robe travel-stained, waiting behind the old praying woman "
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b05",
+   "file": "build-69-baptism/assets/s05-jesus-walked-from-galilee-days.jpeg",
+   "tokens": [
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the pale wilderness road above the valley Jesus walks alone in the morning light \u2014 staff in hand, days of Galilee dust on his hem \u2014 and below him the Jordan's green thread winds through the brown land toward the dista"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b06",
+   "file": "build-69-baptism/assets/s06-and-john-the-wild-man.jpeg",
+   "tokens": [
+    "BAPTIST",
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the water's edge the impossible happens to John: Jesus stands before him in the shallows, asking \u2014 and the wild man who has thundered at soldiers and kings backs a full step through the water, both burned hands coming"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b07",
+   "file": "build-69-baptism/assets/s07-i-have-need-to-be.jpeg",
+   "tokens": [
+    "BAPTIST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on John's staggered face in the river light: the wild mane framing features stripped of all their thunder \u2014 the fierce eyes suddenly a debtor's eyes, the trumpet throat working around a confession of his own \u2014 the "
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b08",
+   "file": "build-69-baptism/assets/s08-the-one-who-needs-what.jpeg",
+   "tokens": [
+    "BAPTIST"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces close over the green water: John's burned and baffled, his head shaking slowly inside its mane \u2014 and Jesus's quiet and certain opposite it, the insistence gentle and immovable \u2014 the herald and the heralded "
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b09",
+   "file": "build-69-baptism/assets/s09-and-john-was-right-it.jpeg",
+   "tokens": [
+    "BAPTIST",
+    "JORDAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the shallows John's protest holds its shape: both weathered hands still raised between himself and the request, the river sliding past his waist, his wild face working through arithmetic that will not close \u2014 the clea"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b10",
+   "file": "build-69-baptism/assets/s10-baptism-was-for-washing-sins.jpeg",
+   "tokens": [
+    "JORDAN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Mid-line, the river does its appointed work: a grey tradesman comes up out of the water streaming, eyes shut, mouth open in the first breath of a man whose ledger has just been carried away downstream \u2014 relief breaking o"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b11",
+   "file": "build-69-baptism/assets/s11-so-listen-carefully-to-the.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the clean river light: the answer gathering behind the warm eyes with the weight of everything it will explain \u2014 every future touch of lepers, every shared table, every road walked in other peopl"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b12",
+   "file": "build-69-baptism/assets/s12-suffer-it-to-be-so.jpeg",
+   "tokens": [
+    "BAPTIST"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Over the green water Jesus's hand comes to rest on John's raised forearm \u2014 and gently, with the sentence, lowers it: the protest yielding under the touch, the wild man's hands sinking to the river's surface, his face beg"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b13",
+   "file": "build-69-baptism/assets/s13-let-it-happen-john-this.jpeg",
+   "tokens": [
+    "BAPTIST"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the slow green water the two men square to each other \u2014 John's consent arrived at last in his steadied shoulders and his hands rising now to their office, Jesus turning to stand ready before him \u2014 the desert's roughes"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b14",
+   "file": "build-69-baptism/assets/s14-he-was-stepping-into-line.jpeg",
+   "tokens": [
+    "CROWD",
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the river Jesus stands where every penitent has stood all morning \u2014 the same trodden entry slope behind him, the same waiting line visible up the bank: the soldier, the tax man, the old praying woman, all of them in f"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b15",
+   "file": "build-69-baptism/assets/s15-if-baptism-is-the-doorway.jpeg",
+   "tokens": [
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the river's deep entry Jesus stands chest-deep at the exact spot worn by every morning's penitents \u2014 the water's threshold holding him in its frame like a doorway holds a man about to enter \u2014 his face calm toward the "
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b16",
+   "file": "build-69-baptism/assets/s16-you-coming-to-me-makes.jpeg",
+   "tokens": [
+    "BAPTIST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close in the river light: John's burned hand pressed flat against his own camel-hair chest \u2014 the ME of his protest made physical, fingers spread over the rough coat and the heart under it \u2014 a prophet indicating, "
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b17",
+   "file": "build-69-baptism/assets/s17-he-never-leads-from-behind.jpeg",
+   "tokens": [
+    "BAPTIST",
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the slow green Jordan the act itself: John's weathered hands firm at shoulder and clasped wrists, lowering Jesus backward beneath the surface \u2014 the cream robe darkening as the water takes it, the face going under calm"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b18",
+   "file": "build-69-baptism/assets/s18-and-as-jesus-came-straight.jpeg",
+   "tokens": [
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus comes straight up out of the river \u2014 water streaming from his hair and beard, the wet robe clinging, his face lifted \u2014 and above the whole valley the grey cloud deck is breaking open as he rises: a great rift of cl"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b19",
+   "file": "build-69-baptism/assets/s19-it-should-be-the-other.jpeg",
+   "tokens": [
+    "BAPTIST",
+    "JORDAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Over the green water John's hand draws the argument in the air \u2014 sweeping from his own chest toward the man before him, then reversing, palm up, baffled \u2014 the traffic of worthiness diagrammed by a desert hand that has ne"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b20",
+   "file": "build-69-baptism/assets/s20-the-spirit-of-god-came.jpeg",
+   "tokens": [
+    "DOVE",
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down through the great bright rift the white dove comes \u2014 a real bird in a long unhurried glide, wings set, descending the whole height of the opened sky toward the man standing streaming in the river \u2014 its whiteness pla"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b21",
+   "file": "build-69-baptism/assets/s21-and-then-from-above-not.jpeg",
+   "tokens": [
+    "DOVE",
+    "BAPTIST",
+    "JORDAN",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The dove has settled at rest on Jesus's wet shoulder \u2014 and along the whole riverbank every face lifts at once: John's mane falling back as his chin rises, the soldier's helmet sliding from under his arm, the old woman's "
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b22",
+   "file": "build-69-baptism/assets/s22-and-lo-a-voice-from.jpeg",
+   "tokens": [
+    "DOVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's streaming face as the words arrive from the bright emptiness above: the warm eyes closing briefly, the wet beard's jaw steadying, something settling through the features like bread reaching the hungry \u2014 "
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b23",
+   "file": "build-69-baptism/assets/s23-stand-on-that-riverbank-for.jpeg",
+   "tokens": [
+    "DOVE",
+    "JORDAN",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "From the trodden bank the camera stands among the witnesses, behind their shoulders \u2014 the witness's own view: the river's green breadth, and standing in it \u2014 wet, real, distinct \u2014 the Son, cream robe dark with Jordan wat"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b24",
+   "file": "build-69-baptism/assets/s24-the-spirit-is-descending-upon.jpeg",
+   "tokens": [
+    "DOVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the shoulder and the lifted face: the white dove wholly itself \u2014 feathers, folded wings, a bird's small weight visibly settled on wet cream wool \u2014 and above it the Son's face turned up toward a height the frame "
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b25",
+   "file": "build-69-baptism/assets/s25-he-was-not-washing-anything.jpeg",
+   "tokens": [
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face above the green water in the instant before the going-under: none of the morning's penitent weight anywhere in it \u2014 no ledger closing behind the eyes, no relief pre-gathering \u2014 only the calm forward"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b26",
+   "file": "build-69-baptism/assets/s26-three-each-one-distinct-each.jpeg",
+   "tokens": [
+    "DOVE",
+    "BAPTIST",
+    "JORDAN",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "One frame holds the whole moment, the camera at the bank's side taking water and watchers in profile, as the bank saw it: the Son standing wet and real in the green river, the white dove at rest upon his shoulder, the gr"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b27",
+   "file": "build-69-baptism/assets/s27-approval-before-achievement.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still on the riverbank grass: a traveller's plain satchel resting unopened beside a folded outer cloak \u2014 no sermon notes, no lists of the healed, no record of anything yet done \u2014 the complete luggage of a ministr"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b28",
+   "file": "build-69-baptism/assets/s28-jesus-began-everything-from-that.jpeg",
+   "tokens": [
+    "JORDAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Up the far bank Jesus walks out of the Jordan \u2014 wet robe heavy, steps sure, his face set toward the pale wilderness hills where the next forty days wait \u2014 a man leaving the water with nothing proven and everything settle"
+  },
+  {
+   "row": 69,
+   "build": "build-69-baptism",
+   "beat": "v2-r069-b29",
+   "file": "build-69-baptism/assets/s29-and-the-doorway-he-walked.jpeg",
+   "tokens": [
+    "BAPTIST",
+    "JORDAN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the same green bend the door stands open and working: John waist-deep with the next penitent \u2014 the old praying woman, her face already breaking \u2014 the line moving down the trodden slope behind her, the river receiving "
+  },
+  {
    "row": 71,
    "build": "build-71-the-great-commission",
    "beat": "v2-r071-b01",
@@ -34081,6 +35072,242 @@
    "night": false,
    "n_person": 2,
    "scene": "The day's deepest gold, the camera low behind the waiting families' shoulders, holds the unhurried blessing: Jesus seated again on the flat stone with a child on each knee and the line of small heads waiting their easy t"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b01",
+   "file": "build-77-widows-mite/assets/s01-jesus-sat-down-across-from.jpeg",
+   "tokens": [
+    "TREASURY"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the low stone bench across the paved court, the camera at his side so bench and chest-row read in profile, court Jesus sits in the hard clean morning light \u2014 still, forearms on knees, his gaze resting on the row of th"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b02",
+   "file": "build-77-widows-mite/assets/s02-and-jesus-sat-over-against.jpeg",
+   "tokens": [
+    "TREASURY",
+    "GIVERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the nearest trumpet-mouth a plum-robed donor casts with practised public grace \u2014 the handful of silver arcing bright into the flaring bronze throat, his servant a step behind with the opened purse, two passers-by paus"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b03",
+   "file": "build-77-widows-mite/assets/s03-he-sat-down-facing-the.jpeg",
+   "tokens": [
+    "TREASURY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the court's clean light: the warm eyes tracking not the silver but the hands that release it \u2014 the pause before a cast, the glance a giver throws sideways for witnesses, the wrist's flourish or i"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b04",
+   "file": "build-77-widows-mite/assets/s04-and-the-rich-came-through.jpeg",
+   "tokens": [
+    "TREASURY",
+    "GIVERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The morning's procession moves along the chest row: a teal-robed merchant mid-cast at one funnel, an indigo elder waiting his turn with his purse-bearer, a third already leaving with the unburdened stride of duty done \u2014 "
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b05",
+   "file": "build-77-widows-mite/assets/s05-you-could-hear-the-coins.jpeg",
+   "tokens": [
+    "TREASURY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Extreme close at the flaring bronze mouth: a cascade of silver caught mid-fall into the funnel's throat \u2014 coins tumbling over each other down the metal, the whole instrument shaped exactly like what it is: a trumpet, bui"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b06",
+   "file": "build-77-widows-mite/assets/s06-and-there-came-a-certain.jpeg",
+   "tokens": [
+    "WIDOW",
+    "TREASURY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through the court's flowing traffic the small widow arrives at the funnel \u2014 charcoal-black and patched-clean, straight-backed at her slow pace \u2014 and her careful hand releases two tiny copper coins into the great bronze t"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b07",
+   "file": "build-77-widows-mite/assets/s07-she-put-in-two-tiny.jpeg",
+   "tokens": [
+    "WIDOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close in the hard light: the widow's lined palm open with its whole fortune \u2014 two thin copper lepta, worn nearly smooth, small as buttons and green-dark with age, together worth less than one of the morning's rin"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b08",
+   "file": "build-77-widows-mite/assets/s08-that-is-the-whole-of.jpeg",
+   "tokens": [
+    "WIDOW",
+    "TREASURY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The gift given, the widow is already turning away \u2014 her small charcoal back straight in the court's bright expanse, her slow careful steps taking her toward the colonnade with no lingering at the chest, no glance around "
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b09",
+   "file": "build-77-widows-mite/assets/s09-she-does-not-say-a.jpeg",
+   "tokens": [
+    "WIDOW",
+    "TREASURY",
+    "GIVERS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The wide court does its unnoticing, the camera high behind the chest-row so her small departing back crosses the frame: the rich mid-cast at the funnels with their small audiences, servants counting, officials passing \u2014 "
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b10",
+   "file": "build-77-widows-mite/assets/s10-then-a-poor-widow-came.jpeg",
+   "tokens": [
+    "WIDOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the crowd's bright edge the widow's face comes into its close-up: about seventy, gentle and deeply lined, the pale-brown far-sighted eyes steady under the charcoal shawl's edge \u2014 a face nobody in the court has looked "
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b11",
+   "file": "build-77-widows-mite/assets/s11-jesus-called-his-disciples-over.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "TREASURY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "From the bench Jesus's hand rises in a quick beckon and the disciples come hurrying \u2014 Peter first with his brows already asking, John scanning the court for whatever it was \u2014 and finding only the ordinary morning: rich m"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b12",
+   "file": "build-77-widows-mite/assets/s12-verily-i-say-unto-you.jpeg",
+   "tokens": [
+    "PETER",
+    "JOHN",
+    "WIDOW",
+    "TREASURY"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "With the disciples gathered close, the camera behind their shoulders following his pointing line, Jesus turns them bodily toward the colonnade \u2014 his hand indicating the small charcoal figure just reaching its shadowed ar"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b13",
+   "file": "build-77-widows-mite/assets/s13-telling-you-the-truth-he.jpeg",
+   "tokens": [
+    "PETER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close between the two faces: Jesus's earnest and unequivocating \u2014 the MORE meant at full literal weight \u2014 and Peter's working at it like a knot: the practical fisherman's eyes going from his teacher toward the funnels' r"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b14",
+   "file": "build-77-widows-mite/assets/s14-they-gave-out-of-what.jpeg",
+   "tokens": [
+    "GIVERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close at a rich giver's belt as he leaves the chest: the purse settling back against his hip still visibly fat \u2014 cords drawn over a remaining plenty that hardly registers the morning's gift, coins shifting comfortably in"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b15",
+   "file": "build-77-widows-mite/assets/s15-she-gave-out-of-what.jpeg",
+   "tokens": [
+    "WIDOW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the colonnade's shade: the widow's lined hand hanging open at her side as she walks \u2014 empty now to its creases, no purse at her waist, no second pocket, nothing behind the gift and nothing left of it \u2014 and the h"
+  },
+  {
+   "row": 77,
+   "build": "build-77-widows-mite",
+   "beat": "v2-r077-b16",
+   "file": "build-77-widows-mite/assets/s16-she-gave-from-what-she.jpeg",
+   "tokens": [
+    "WIDOW",
+    "TREASURY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame weighs the morning: the great bronze chest standing in the hard light with the day's silver heavy inside its throat \u2014 and held in the frame's closest attention, tiny against all that metal, the two worn"
   },
   {
    "row": 79,
