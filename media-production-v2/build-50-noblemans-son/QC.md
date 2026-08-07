@@ -1,5 +1,62 @@
 # QC / RUNNER HANDOFF — build-50-noblemans-son (John 4:46-54)
 
+## ✅ REALISTIC V2 SHIPPED — Opus picture runner, Machine A `Dev`, 2026-08-07 (UNATTENDED/HEADLESS)
+
+27 painted stills at native 2K (against V1's 11), 166.1s, 20.8 MB.
+**AUDIO REBUILD PASS SHA256=3ceefa274447adf06c8a11156f200d5d94afaaa0dd5efb9bad9d06e555f836f1**
+(narration rebuilt from the 20 V1-dir mp3s at extract_beats offsets — the KANE-a
+fix is baked in; nothing re-voiced this session). Gemini spend this row ≈ **$4.56**
+(meter 438.98 → 443.54), under the $6.10 average — COST LAW held.
+**2 rerolls / 27 = 7.4%** (under the 15% budget).
+
+### COMPLAINT LEDGER (LEARNING LAW — `v2_outline.py 50`)
+1. **"the end page question has some squares on the end of every line like a
+   typo or code fault"** → **FIXED & VERIFIED.** The V2 card renderer replaced the
+   old glyph-set that produced tofu/box characters. Extracted the rendered
+   question-card frame from the delivered mp4 (@163s) and read it line by line:
+   clean serif text, ZERO box/tofu glyphs at any line end. Complaint #1 closed on
+   the rendered product.
+2. **"we are still pronouncing Cana wrong its more like Kane-a"** → **FIXED &
+   VERIFIED.** The 2026-08-07 audio-fix placed the ElevenLabs "Brian" KANE-a
+   (`Kayna`=/keɪnə/) takes for n1/n3 in the authoritative V1 dir + set
+   `AUDIO_FROM_V1_SEGMENTS=True`. This build's assemble sourced narration from
+   those exact mp3s (assemble log: `AUDIO REBUILT from 20 V1 segment mp3s`).
+   faster-whisper of the DELIVERED mp4 @0-8s transcribes "Kana" with the long-A
+   glide (not flat KAY-nuh, no /aɪ/ "China" drift). Complaint #2 closed on the
+   rendered product.
+
+### Runner QC notes (this session)
+- **Plates:** CANA promoted-first from b01 (clean establishing Cana lane, Jesus
+  cream-only, crowd gazes converging) → 6 beats. ROAD kept as the AUTHOR's
+  committed build-38 wiring (v2_stash --wire tried to overwrite it with build-79;
+  restored via `git checkout`). **HOUSE plate DECLINED on purpose:** the HOUSE
+  token spans BOTH a night lamplit sickroom (b03-b06) AND a bright daytime
+  colonnaded court (b27) — promoting either as the single plate would bleed the
+  wrong time-of-day onto the other (the row-101/103 plate-composition class), and
+  a reroll can't fix it since the plate re-attaches. People are already held by
+  NOBLEMAN+BOY refs, so each HOUSE beat rendered its own correct scene; b27 came
+  out correctly as the bright day court with the sea view (verified). Minor
+  sickroom-architecture drift is FIX-WAVE-level, far safer than a day/night bleed.
+- **2 rerolls (both hard defects, not subtle drift):** b09 s09-uphill-road (the
+  outbound climb to Cana rendered walking DOWN toward a near lake — backwards per
+  the row-83 direction law; scene text is correct so a reroll re-anchored it — the
+  reroll improved it to a hill-road journey with the water on the far horizon, the
+  strictly-lake-behind nuance is FIX-WAVE); b15 s15-he-says-it-again (a Jesus
+  face-lock beat rendered a young man gripping the nobleman in a night house =
+  missing named subject Jesus + wrong scene; reroll landed the correct Jesus +
+  nobleman outdoor-midday pleading frame).
+- **Row-15 grey-corpse check (this row's biggest risk):** PASS — the sick boy is
+  warm/olive/flushed-fevered and clearly alive in every sickroom frame
+  (b03/b05/b06), never grey/corpse-toned; well and bright in b27.
+- **FIX-WAVE (no reroll under COST LAW):** servant faces drift slightly across the
+  road frames (SERVANTS is a text-only lock, no portrait ref); s09 lake ideally
+  strictly behind the climber; a very faint possible rooftop line in s15's upper
+  background. None repeat a filed complaint.
+- Jesus: one locked face, consistent across s01/s10/s12/s13/s14/s15/s17/s18/s19/
+  s20; cream-only every frame; no halo/glow; no glowing eyes. Only-Jesus-cream
+  holds throughout. Realistic photography on all 27 (Law 14 PASS, no cartoon/mix).
+
+
 ## ✅ AUDIO FIX SHIPPED-TO-RUNNER — Cana → KANE-a (AUDIO-FIX job, Machine A `Dev`, 2026-08-07)
 The ORPHANED-FIX park (below) is now CLOSED at the audio authority. The earlier
 2026-08-06 fix was doubly wrong: it wrote to the V2 build dir (the assembler

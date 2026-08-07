@@ -1,4 +1,10 @@
 {
+ "CANA": {
+  "manual": true,
+  "src_beat": "s01-cana-again",
+  "src_build": "build-50-noblemans-son",
+  "src_file": "build-50-noblemans-son/assets/s01-cana-again.jpeg"
+ },
  "ROAD": {
   "manual": false,
   "src_beat": "v2-r038-b39",
