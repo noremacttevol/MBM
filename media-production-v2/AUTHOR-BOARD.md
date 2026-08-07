@@ -42,7 +42,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 28 | build-28-hidden-treasure | BUILT | 29 | OK |  |  |
 | 29 | build-29-pearl | BUILT | 36 | OK |  |  |
 | 30 | build-30-net | BUILT | 40 | OK |  |  |
-| 31 | build-31-ten-virgins | BUILT | 40 | OK |  |  |
+| 31 | build-31-ten-virgins | BUILT | 40 | OK | C-FIX 2026-08-07 LIVE |  |
 | 32 | build-32-talents | BUILT | 50 | OK |  |  |
 | 33 | build-33-sheep-goats | BUILT | 49 | OK |  |  |
 | 34 | build-34-rich-fool | BUILT | 35 | OK |  |  |
