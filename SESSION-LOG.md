@@ -1,3 +1,46 @@
+## 2026-08-07 (C-FIX row 39 pharisee-publican) — SHIPPED, black-spots complaint fixed, $0.53 / 0% rerolls — Machine A `Dev`
+
+**Commit:** claim ebf9f6452; ship-A 20593af33 (mp4 + QC + QUEUE); ship-B + this entry follow; deploy verified live before board→SHIPPED.
+
+COMPLAINT-FIRST C-FIX. Cameron's OPEN complaint on the shipped row-39 cut
+(reported against hash b9c5c44b…):
+"There is some pictures with random black spots on their hands and fingers @
+0:53, 3:13, 2:05, etc. Another one on his lips @ 2:40 and then another picture
+with 2 hands of the same side looking like 2 people standing in line with their
+hands out but i think it was supposed to be something different @ 3:14"
+
+Claimed (C-FIX LIVE, pushed), then mapped each timestamp to its beat by measuring
+the rendered clip windows and VISUALLY confirmed every defect at zoom:
+- **0:53** b14 `s14` — two blue-black ink smudges on the tax-collector's fingers.
+- **2:05** b31 `s31` — ink smudges across the publican's fingertips on his chest.
+- **2:40** b40 `s40` — a dark spot on the publican's lower lip.
+- **3:13/3:14** b48 `s48` — ink marks on the fingers AND the "2 hands of the same
+  side" — both hands were reading as the same handedness.
+
+**Fix = targeted image-edit pass (PICTURE domain, not audio), 4 frames only.**
+Attached each finished frame to gemini-3-pro-image with an edit-only instruction
+(change ONLY the named defect, keep every other pixel), the same edit technique
+this row already used on its wall-crest. s14/s31/s48 ink → clean skin; s40 lip
+spot → smooth lip; s48 hands → a natural left(back)+right(open palm, "holding
+nothing") pair. QC'd each candidate at zoom AND full-frame (FACE-BOARD recheck:
+no new figure, no cream robe, no crop/light drift) before it replaced the still.
+Swept every other hand/lip frame (s11,s18,s27,s45,s47,s50,s51 …) — all already
+clean, so byte-identical to Cameron's cut; s47 (the Pharisee's herb fist he might
+have meant at 3:13) had no spots.
+
+**Touch-once + cost:** all four known defects batched into ONE re-cut. 4 edits ×
+$0.134 = **$0.53**, **0 discarded takes = 0% rerolls** (budget 15% = 8 frames);
+meter $416.61 → $417.14. Well under the $6.10/row running average — a complaint
+fix on a already-shipped row should be cheap and this was.
+
+**Audio untouched:** re-assembly printed AUDIO LOCK PASS SHA256 2693bcca035a…,
+the SAME hash as the shipped cut → narration/voices/timing byte-identical.
+Verified captions bottom-band-only and the question card clean on the rendered
+mp4. Review card carries a plain-English flag answering the complaint in his own
+words so he can verify his own fix in one look.
+
+---
+
 ## 2026-08-07 (C-FIX row 33 sheep-goats) — PARKED → NEEDS-REBUILD (both complaints root in locked author files), $0 — Machine A `Dev`
 
 **Commit:** claim 3d3ea96ba; this park (QC RUNNER PARK + board NEEDS-REBUILD + RUNNER-LESSONS + this entry) follows.
