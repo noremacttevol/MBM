@@ -1,3 +1,24 @@
+## 2026-08-07 — ROWS 164 / 165 / 166 AUTHORED (Ready ✅) — three fresh V2 beat maps written from scratch, $0, no image/audio credits — Machine A `Dev` (Fable-5 author lane, UNATTENDED)
+
+**Commits:** row 164 = `c837b800a`; row 165 = `48e8e5409`; row 166 = `402b1fd8f`. All on origin/main (each committed + pushed the moment its row passed the gates, to survive the live autopilot lane sharing the tree).
+
+**Start-of-session state.** Told to start at AUTHOR-BOARD row 33 (LOW-NUMBER LAW). Row 33 was ALREADY fully author-done from an earlier tick today (both complaints fixed at the author level — j37 JESUS→SCRIPTURE + coupled timeline remap verified by a full local assemble, and "the nails black" deleted from b20 scene text; Ready ✅). Its ONLY remaining step is a PAID s20 reroll — a RUNNER job a $0 author lane cannot do — so row 33 is maximally advanced for me. Rows 27 (NEEDS-AUDIO, headless-blocked — needs an ear-check, diagnostics already exhausted), 73 (NEEDS-REBUILD, author-done, awaiting a paid runner re-cut) likewise have no actionable $0 author work. Lowest row with real author work = the NEEDS-BEATS block at **164+**. (I am literally the author tick the autopilot launched at 06:54 for row 33; the lane keeps picking 33 because it is still NEEDS-REBUILD — see NOTE below.)
+
+**Live-lane safety.** A cron autopilot lane (pid 1477132) is running on this same tree and uses `git pull --rebase --autostash`, so its uncommitted artifacts (segs/, audio-audit.json, api-spend.jsonl) are its own reapplied state — I did NOT touch them. My author work creates only NEW files under build-164/165/166 (folders the runner-lanes don't touch until they're Ready), and I committed each row with a TARGETED `git add` of just that row's files + the board line, then pushed immediately. No collision.
+
+**What I authored (all three: fresh `beats_v2.py` + QC.md + ASSEMBLED-PROMPTS.txt, `v2_prompt.py --check` PASS, windows contiguous+monotonic to card_start with every segment onset in-window, audio column OK):**
+- **164 — Unity of the Faith (Ephesians 4:11-14), 25 beats.** Epistle → SPEAKER LAW gives NO Jesus red-letter (kv11/kv13/s14 all SCRIPTURE on the people/leaders). Jesus embodied ONLY b01-b03 (risen Lord gives the gifts) + b25 (invitation); the Son-of-God/heaven is NEVER embodied for measure (b11/b13/b14 keep him distant light, no giant Christ for scale). Locked BELIEVERS/MINISTERS/DECEIVERS (deceivers visibly finer & smoother than the true leaders). 2 NEW places (GATHERING-HILL, JOURNEY-ROAD) — runner promotes from NON-Jesus b13/b10 (never a Jesus frame, lesson 11).
+- **165 — Laying On of Hands (Acts 8:14-17), 25 beats.** Narrative w/ PETER & JOHN (global cast, beard-boarded) + Samaritan BELIEVERS + Jerusalem APOSTLES council. NO Jesus in-scene → every beat jesus=False, nobody in cream. HARD GATE: the Holy Ghost NEVER embodied — warm light from above only, no dove/flame/figure; b10/b11 keep the air EMPTY ("fallen upon none yet"). Laying-on-of-hands = a 4-beat sequence (b16-b19). 2 NEW places (SAMARIA-HILL, JERUSALEM-ROOM).
+- **166 — Baptized Properly (Acts 19:1-6), 24 beats.** Companion to 165. PAUL locked BYTE-IDENTICAL to builds 138/155 (PAUL is not in the global cast — reused the canonical text so he is the same man library-wide); EPHESIAN-DISCIPLES locked. NO Jesus in-scene. HARD GATE: Holy Ghost never embodied AND the "tongues" are NOT flames — b18 is the men's OWN praise/prophecy under light from above (no Pentecost fire imported); b12/b15 keep the air empty. 1 NEW place (EPHESUS-ROOM).
+
+**Cost:** $0 image, $0 audio (author lane — 0 pictures generated, 0 re-voices). COST LAW: three rows handed to the runner fully gated, so the paid lane spends only on generation with a clean plate-promote plan (reroll budget noted per row in QC).
+
+**NOTE for the next author / the autopilot owner:** the autopilot author picker keeps relaunching "author session (row 33)" because row 33's State is still NEEDS-REBUILD even though its Ready is ✅ and the only work left is a PAID s20 reroll. That is RUNNER work, not author work — the C-FIX/runner lane (which can spend) should pick up row 33 (open complaint, Ready ✅) and do the single s20 reroll + re-assemble + ship. Until it does, the author lane will keep no-op'ing on 33; a $0 author tick correctly advances to the next NEEDS-BEATS row (167 next). Consider having the author picker skip a NEEDS-REBUILD row whose Ready is already ✅.
+
+**Next author:** lowest NEEDS-BEATS row is now **167** (build-167-chosen-ordained) through 200.
+
+---
+
 ## 2026-08-07 — ROW 107 C-FIX SHIPPED: Cameron's "0:30 head through metal bars" complaint fixed — rerolled ONE frame (s05), audio byte-identical, redeployed + live-verified — Machine A `Dev` (Opus runner C-FIX lane, UNATTENDED)
 
 **Commit:** row 107 mp4 + s05 + QC.md + AUTHOR-BOARD = `45161adfeda61cd6fe175698b79edc0854f61bc8`; review card + this log = (this commit). On origin/main. Claim commit `78eaee44a`.
