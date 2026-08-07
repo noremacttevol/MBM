@@ -58,6 +58,11 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1-FINAL fix (AUDIO-FIX 2026-08-06, Machine A): narration mp3s are newer
+# than the V1 mp4 (recency gate fails), so the packet-copy AUDIO LOCK would ship
+# stale voices. Rebuild from this build's own mp3 segments — $0.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r095-b01", "out": "s01-two-criminals-were-crucified-with.jpeg", "seg": "n0a + s39",

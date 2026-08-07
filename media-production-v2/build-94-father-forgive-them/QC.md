@@ -1,5 +1,14 @@
 # QC / RUNNER HANDOFF — build-94-father-forgive-them (Luke 23:33-34)
 
+## ✅ AUDIO FIX DONE — STALE-V1-FINAL recency lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
+
+Class = STALE-V1-FINAL (recency), no open Cameron complaint (`v2_outline.py 94`). Parked
+because the narration mp3s are newer than the V1 mp4 (2026-07-24), so the packet-copy AUDIO
+LOCK would ship stale voices. Fix ($0, no new TTS): set `AUDIO_FROM_V1_SEGMENTS = True` in
+beats_v2.py so the assembler rebuilds from this build's own 11 mp3 segments (present in the
+V1 audio/ dir). 0 V2 stills → per PROMPT-AUDIO-FIX.md step 6, board → AUTHORED / Audio OK /
+Ready ✅, claim cleared, picture runner assembles on the corrected audio. No Gemini spend.
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 12 beats, ~66 s.
 
