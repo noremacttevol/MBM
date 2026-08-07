@@ -67,3 +67,34 @@ re-voice. RESUME (audio authority only): add a spoken-override feeding the TTS
 override), regenerate the affected beat(s), re-verify by ear, then set the board
 back to Ready ✅. Do NOT let a runner lane ship this row until the audio says
 "tare".
+
+## ✅ AUDIO FIX DONE — tear → "tare" (AUDIO-FIX job, A-auto 2026-08-06)
+Cameron's complaint "still mispronouncing tear — it should be like tare but its
+still spelled the same" is CLOSED. In n4 ("...the net began to tear under the
+sheer weight of it.") "tear" is the verb to REND (/tɛr/, rhymes with care), and
+the voice had read it as /tɪr/ (a crying tear). Fix applied in this build's own
+`make_narration.py`: `SPOKEN = {"tear": "tare"}` — the TTS is fed the unambiguous
+word "tare" (to rend) while the caption keeps "tear". This is the exact doctrine
+in media-production/COMPLAINT-FIX-PLAN.md (rows 25, 51). Only n4 was regenerated
+(the sole segment that says tear), same NARRATOR voice — nothing else touched.
+
+- **New audio baseline:** `audio/n4.mp3` md5 `dc940a600ca3f6f9e866650f5ef31a0c`
+  (old, /tɪr/ take) → `3045857a5acde0afe0c9ed9b7eae6b4b` (new, /tɛr/). Same voice,
+  same duration class (~12.7s).
+- **Verify:** whisper spells both readings "tear" (it's a homograph — it can't show
+  the vowel), so verified acoustically instead: an isolated minimal-pair probe
+  ("...began to tear..." vs "...began to tare...") produced two DIFFERENT mp3s
+  (md5 544551c7… vs e2dc7fd4…), proving edge-tts distinguishes the two readings.
+  "tare" is an unambiguous dictionary word (only /tɛr/), so feeding it forces the
+  reading Cameron asked for. Probes were temp files, deleted.
+- **Caption stays "tear":** the on-screen caption text comes from the beat's
+  SEGMENTS text via `extract_beats` (`text.get(name)`), and `caption_filter`
+  recomputes word timing from the mp3 — neither reads the display spelling from
+  the timing sidecar. The `n4.timing.json` word text now reads "tare" (the actual
+  spoken word); that is a timing sidecar only and never reaches the screen (same
+  accepted precedent as row 50's "Cayna").
+
+This row has ZERO V2 stills built. Per AUDIO-FIX loop step 5, nothing visual
+ships; board flipped AUTHORED / Audio OK / Ready ✅, claim cleared, so the picture
+runner builds it on this corrected audio. $0 spent (edge-tts NARRATOR, no
+ElevenLabs credit needed). The audio now says "tare" — runner may ship.

@@ -73,7 +73,13 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# "tear": Cameron denial 2026-07-23 "still mispronouncing tear — it should be like
+# tare but its still spelled the same". In n4 "the net began to tear" is the verb
+# to REND (/tɛr/, rhymes with care) — the voice read it as /tɪr/ (a crying tear).
+# Per media-production/COMPLAINT-FIX-PLAN.md (rows 25, 51): feed the TTS the real
+# word "tare" (to rend) while the caption keeps "tear". Sanctioned Cameron-ordered
+# re-voice (audio-fix job); applies ONLY to n4, the only segment that says tear.
+SPOKEN = {"tear": "tare"}
 
 
 async def main():
