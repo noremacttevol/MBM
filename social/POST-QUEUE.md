@@ -6,8 +6,10 @@
 > `python3 social/refresh-postable.py` first.
 >
 > **How to use an entry:** upload the file, paste the YouTube title (YouTube only),
-> paste the caption, add the hashtags (base set + the entry's story tags + platform
-> extra), set the cover frame. **Posting order = row order, lowest number first**
+> paste the caption, then paste the entry's **Instagram hashtags** or **TikTok
+> hashtags** line — each is the complete assembled set (base + platform extra +
+> story tags), nothing to combine. Facebook = the base set from "Hashtag sets"
+> below. Set the cover frame. **Posting order = row order, lowest number first**
 > (Cameron's call, 2026-08-07 — the numbers are the order, they never go in titles).
 > **Posting status lives in `TRACKER.md`** — tick it there, not here.
 > When Cameron approves new videos, rerun the refresh script and append new entries
@@ -56,6 +58,8 @@ Twelve years sick. Every penny spent on physicians, and nothing bettered. She ne
 Have you ever been that desperate for something in your life to change?
 Mark 5:25–34, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Mark5 #Healing`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Mark5 #Healing`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Mark5 #Healing`
 
 ### Row 02 — The Prodigal Son
 **Luke 15:11–32 (KJV) · 2:38 · fits all four**
@@ -67,6 +71,8 @@ He asked for his inheritance while his father was still alive, and lost all of i
 Which one feels closest to where you are right now — the son who left, the father watching the road, or the brother who stayed and felt unseen?
 Luke 15:11–32, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#ProdigalSon #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ProdigalSon #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ProdigalSon #Parable`
 
 ### Row 03 — Zacchaeus
 **Luke 19:1–10 (KJV) · 3:42 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -78,6 +84,8 @@ The whole city had already decided what Zacchaeus was. Small, rich, and hated, h
 Have you ever felt like the one everybody had already made their mind up about?
 Luke 19:1–10, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Zacchaeus`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Zacchaeus`
 
 ### Row 04 — Nicodemus at Night
 **John 3:1–21 (KJV) · 5:07 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -89,6 +97,8 @@ A ruler of the Jews came to Jesus by night, with questions he couldn't ask in da
 What question would you ask, if nobody was watching?
 John 3:1–21, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Nicodemus #John316`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Nicodemus #John316`
 
 ### Row 05 — The Bent-Over Woman
 **Luke 13:10–17 (KJV) · 4:08 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -100,6 +110,8 @@ Eighteen years bowed toward the ground, and she still came to worship. Jesus saw
 How long have you been carrying the thing that bends you down?
 Luke 13:10–17, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Healing #LukeThirteen`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Healing #LukeThirteen`
 
 ### Row 06 — The Two Sons
 **Matthew 21:28–32 (KJV) · 2:06 · fits all four**
@@ -111,6 +123,8 @@ A father asked his two sons to work in the vineyard. One said no — and afterwa
 Which son have you been lately: the words, or the walk?
 Matthew 21:28–32, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Parable #TwoSons`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Parable #TwoSons`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Parable #TwoSons`
 
 ### Row 07 — Peter Walks on Water
 **Matthew 14:22–33 (KJV) · 3:46 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -122,6 +136,8 @@ In the fourth watch of the night, in the middle of a storm, Peter said: Lord, if
 What's the wave that pulls your eyes off him?
 Matthew 14:22–33, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#PeterWalksOnWater #Faith`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #PeterWalksOnWater #Faith`
 
 ### Row 08 — The Lost Coin
 **Luke 15:8–10 (KJV) · 1:09 · fits all four**
@@ -133,6 +149,8 @@ One coin out of ten went missing. She lit a candle, swept the house, and sought 
 Do you believe anyone would turn the house upside down for you?
 Luke 15:8–10, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#LostCoin #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #LostCoin #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #LostCoin #Parable`
 
 ### Row 09 — The Rich Young Ruler
 **Mark 10:17–22 (KJV) · 3:17 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -144,6 +162,8 @@ He came running, knelt, and asked what he must do to inherit eternal life — a 
 Jesus loved him — and still let him walk away. What would be the hardest thing for you to lay down?
 Mark 10:17–22, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#RichYoungRuler`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #RichYoungRuler`
 
 ### Row 12 — Blind Bartimaeus
 **Mark 10:46–52 (KJV) · 4:27 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -155,6 +175,8 @@ A blind beggar heard Jesus was passing and cried out. The crowd told him to hold
 If he stood still and asked you that — what would you say?
 Mark 10:46–52, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Bartimaeus #Healing`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Bartimaeus #Healing`
 
 ### Row 14 — The Ten Lepers
 **Luke 17:11–19 (KJV) · 3:39 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -166,6 +188,8 @@ Ten men with leprosy stood afar off and lifted up their voices. All ten were cle
 When was the last time you turned back to say thank you?
 Luke 17:11–19, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#TenLepers #Gratitude`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #TenLepers #Gratitude`
 
 ### Row 20 — The Good Samaritan
 **Luke 10:25–37 (KJV) · 3:07 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -177,6 +201,8 @@ A man lay half dead on the road to Jericho. A priest saw him and passed by on th
 Which man on that road is hardest for you to be?
 Luke 10:25–37, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#GoodSamaritan #Parable`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #GoodSamaritan #Parable`
 
 ### Row 21 — The Lost Sheep
 **Luke 15:3–7 (KJV) · 2:14 · fits all four**
@@ -188,6 +214,8 @@ Ninety-nine sheep safe, one gone. The shepherd leaves the ninety-nine in the wil
 Do you believe you're worth going after?
 Luke 15:3–7, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#LostSheep #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #LostSheep #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #LostSheep #Parable`
 
 ### Row 23 — The Workers in the Vineyard
 **Matthew 20:1–16 (KJV) · 3:23 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -199,6 +227,8 @@ Some were hired at sunrise, some at the eleventh hour — and the master paid th
 Does it bother you, or comfort you, that the last got the same?
 Matthew 20:1–16, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Vineyard #Parable`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Vineyard #Parable`
 
 ### Row 24 — The Sower
 **Matthew 13:3–23 (KJV) · 2:48 · fits all four**
@@ -210,6 +240,8 @@ The same seed fell on four kinds of ground: the wayside, the stony places, among
 Honestly — which ground has your heart been lately?
 Matthew 13:3–23, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#ParableOfTheSower`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ParableOfTheSower`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ParableOfTheSower`
 
 ### Row 25 — The Wheat and the Tares
 **Matthew 13:24–30, 43 (KJV) · 2:47 · fits all four**
@@ -221,6 +253,8 @@ While men slept, an enemy sowed tares among the wheat. The servants wanted to pu
 What do you make of a God patient enough to wait for the harvest?
 Matthew 13:24–30, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#WheatAndTares #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #WheatAndTares #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #WheatAndTares #Parable`
 
 ### Row 26 — The Mustard Seed
 **Matthew 13:31–32 (KJV) · 1:27 · fits all four**
@@ -232,6 +266,8 @@ The kingdom of heaven, Jesus said, is like a grain of mustard seed — the least
 What's the smallest seed of faith you've ever watched grow?
 Matthew 13:31–32, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#MustardSeed #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #MustardSeed #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #MustardSeed #Parable`
 
 ### Row 28 — The Hidden Treasure
 **Matthew 13:44 (KJV) · 1:39 · fits all four**
@@ -243,6 +279,8 @@ A man found treasure hidden in a field — and for joy over it, he went and sold
 What would you trade everything for — joyfully?
 Matthew 13:44, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#HiddenTreasure #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #HiddenTreasure #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #HiddenTreasure #Parable`
 
 ### Row 29 — The Pearl of Great Price
 **Matthew 13:45–46 (KJV) · 1:56 · fits all four**
@@ -254,6 +292,8 @@ The merchant wasn't wandering — he was seeking goodly pearls, his whole life. 
 What have you been searching for longer than you'd admit?
 Matthew 13:45–46, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#PearlOfGreatPrice #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #PearlOfGreatPrice #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #PearlOfGreatPrice #Parable`
 
 ### Row 30 — The Net
 **Matthew 13:47–50 (KJV) · 2:35 · fits all four**
@@ -265,6 +305,8 @@ The net was cast into the sea and gathered of every kind — none of them sorted
 What do you feel, hearing that the sorting isn't yours to do?
 Matthew 13:47–50, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Parable #TheNet`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Parable #TheNet`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Parable #TheNet`
 
 ### Row 32 — The Talents
 **Matthew 25:14–30 (KJV) · 2:37 · fits all four**
@@ -276,6 +318,8 @@ Five talents, two talents, one. The first two traded and doubled what they were 
 What's the talent fear has you burying?
 Matthew 25:14–30, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#ParableOfTheTalents`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ParableOfTheTalents`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ParableOfTheTalents`
 
 ### Row 34 — The Rich Fool
 **Luke 12:16–21 (KJV) · 2:08 · fits all four**
@@ -287,6 +331,8 @@ His ground brought forth plentifully, so he planned bigger barns and told his so
 If tonight were the night — what would actually matter?
 Luke 12:16–21, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#RichFool #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #RichFool #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #RichFool #Parable`
 
 ### Row 35 — The Great Banquet
 **Luke 14:16–24 (KJV) · 2:22 · fits all four**
@@ -298,6 +344,8 @@ A certain man made a great supper and bade many — and they all with one consen
 What excuse have you been giving the invitation?
 Luke 14:16–24, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#GreatBanquet #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #GreatBanquet #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #GreatBanquet #Parable`
 
 ### Row 36 — The Shrewd Steward
 **Luke 16:1–13 (KJV) · 3:11 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -309,6 +357,8 @@ A steward about to lose everything moved faster and thought harder in one aftern
 If someone read your last month honestly — what would they say you serve?
 Luke 16:1–13, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Parable #Luke16`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Parable #Luke16`
 
 ### Row 37 — The Rich Man and Lazarus
 **Luke 16:19–31 (KJV) · 2:45 · fits all four**
@@ -320,6 +370,8 @@ A beggar named Lazarus lay at the rich man's gate, full of sores, desiring the c
 Who is the person at your gate you've learned not to see?
 Luke 16:19–31, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#RichManAndLazarus #Parable`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #RichManAndLazarus #Parable`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #RichManAndLazarus #Parable`
 
 ### Row 38 — The Persistent Widow
 **Luke 18:1–8 (KJV) · 3:00 · fits all four**
@@ -331,6 +383,8 @@ A judge who feared not God and regarded not man — worn down by one widow who k
 What prayer have you quit praying too soon?
 Luke 18:1–8, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#PersistentWidow #Prayer`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #PersistentWidow #Prayer`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #PersistentWidow #Prayer`
 
 ### Row 41 — Counting the Cost
 **Luke 14:25–33 (KJV) · 5:46 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -342,6 +396,8 @@ Great multitudes followed him — and he turned and told them to sit down first 
 Have you ever actually sat down and counted what following him would cost you?
 Luke 14:25–33, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#CountingTheCost #Discipleship`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #CountingTheCost #Discipleship`
 
 ### Row 43 — The Wedding Garment
 **Matthew 22:1–14 (KJV) · 4:45 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -353,6 +409,8 @@ The invited guests wouldn't come to the king's wedding feast, so his servants we
 The invitation went to everyone. What do you think the garment means?
 Matthew 22:1–14, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#WeddingFeast #Parable`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #WeddingFeast #Parable`
 
 ### Row 46 — The Seed Growing Secretly
 **Mark 4:26–29 (KJV) · 3:13 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -364,6 +422,8 @@ A man casts seed into the ground, and sleeps, and rises, night and day — and t
 What's been growing in you slowly, while you weren't watching?
 Mark 4:26–29, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Parable #Mark4`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Parable #Mark4`
 
 ### Row 47 — Houses on Rock and Sand
 **Matthew 7:24–27 (KJV) · 3:41 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -375,6 +435,8 @@ Two men built houses. The rain descended, the floods came, and the winds blew an
 The storm hit both houses the same. What's under yours?
 Matthew 7:24–27, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#WiseAndFoolishBuilders #Parable`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #WiseAndFoolishBuilders #Parable`
 
 ### Row 53 — Peter's Mother-in-Law
 **Mark 1:29–31 (KJV) · 1:41 · fits all four**
@@ -386,6 +448,8 @@ No crowd, no sermon, no spectacle. She lay sick of a fever, they told Jesus of h
 Has help ever come to you that quietly?
 Mark 1:29–31, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Healing #Mark1`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Healing #Mark1`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Healing #Mark1`
 
 ### Row 56 — The Widow of Nain's Son
 **Luke 7:11–17 (KJV) · 2:20 · fits all four**
@@ -397,6 +461,8 @@ A widow was burying her only son. She asked Jesus for nothing — she never even
 He saw her before she said a word. When did you last feel seen like that?
 Luke 7:11–17, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#WidowOfNain #Compassion`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #WidowOfNain #Compassion`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #WidowOfNain #Compassion`
 
 ### Row 57 — Jairus's Daughter
 **Mark 5:22–24, 35–43 (KJV) · 2:55 · fits all four**
@@ -408,6 +474,8 @@ While Jairus was still pleading for his little daughter, word came that she was 
 What word have you needed someone to say over your fear?
 Mark 5:22–24, 35–43, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#JairusDaughter #TalithaCumi`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #JairusDaughter #TalithaCumi`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #JairusDaughter #TalithaCumi`
 
 ### Row 58 — Feeding the Five Thousand
 **John 6:1–14 (KJV) · 2:44 · fits all four**
@@ -419,6 +487,8 @@ Five thousand hungry people, and one lad with five barley loaves and two small f
 What's your five loaves — the too-small thing already in your hands?
 John 6:1–14, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#FeedingThe5000 #Miracle`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #FeedingThe5000 #Miracle`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #FeedingThe5000 #Miracle`
 
 ### Row 64 — The Pool of Bethesda
 **John 5:1–15 (KJV) · 4:01 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -430,6 +500,8 @@ Thirty-eight years an invalid, lying by a pool he could never reach in time. Jes
 Why do you think Jesus asked him that?
 John 5:1–15, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Bethesda #Healing`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Bethesda #Healing`
 
 ### Row 68 — Multitudes Mountain
 **Matthew 15:29–31 (KJV) · 3:27 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -441,6 +513,8 @@ Great multitudes climbed a mountain carrying the people who couldn't climb it �
 Who carried you, the day you couldn't get there yourself?
 Matthew 15:29–31, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Healing #Matthew15`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Healing #Matthew15`
 
 ### Row 75 — The Woman Taken in Adultery
 **John 8:1–11 (KJV) · 2:06 · fits all four**
@@ -452,6 +526,8 @@ They set her in the midst with the stones already gathered, and asked Jesus for 
 Which are you in the story right now — holding a stone, or standing in the middle?
 John 8:1–11, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#John8 #Mercy`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #John8 #Mercy`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #John8 #Mercy`
 
 ### Row 76 — Suffer the Little Children
 **Mark 10:13–16 (KJV) · 1:28 · fits all four**
@@ -463,6 +539,8 @@ Parents brought their children to Jesus, and the disciples rebuked them for it. 
 What did you know about God as a child that you've since talked yourself out of?
 Mark 10:13–16, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Children #Blessing`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Children #Blessing`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Children #Blessing`
 
 ### Row 79 — The Seventy Sent
 **Luke 10:1–20 (KJV) · 1:58 · fits all four**
@@ -474,6 +552,8 @@ He sent seventy of them out two by two — no purse, no scrip, no shoes — into
 Where does your joy actually rest — in what you can do, or in whose you are?
 Luke 10:1–20, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#TheSeventy #Luke10`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #TheSeventy #Luke10`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #TheSeventy #Luke10`
 
 ### Row 81 — Render Unto Caesar
 **Mark 12:13–17 (KJV) · 1:40 · fits all four**
@@ -485,6 +565,8 @@ They came with a trap: is it lawful to give tribute to Caesar, or not? He asked 
 The coin bore Caesar's image. You bear God's. What belongs to him?
 Mark 12:13–17, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#RenderUntoCaesar #Mark12`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #RenderUntoCaesar #Mark12`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #RenderUntoCaesar #Mark12`
 
 ### Row 85 — Shepherds and Angels
 **Luke 2:8–20 (KJV) · 2:26 · fits all four**
@@ -496,6 +578,8 @@ The first birth announcement in history that mattered most went to shepherds on 
 The news went to working men in a field before it went to anyone important. Why do you think God chose them?
 Luke 2:8–20, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Nativity #Shepherds`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Nativity #Shepherds`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Nativity #Shepherds`
 
 ### Row 91 — Gethsemane
 **Luke 22:39–46 (KJV) · 4:01 · YouTube (regular) + TikTok + Facebook — skip Instagram**
@@ -507,6 +591,8 @@ He knelt among the olive trees and asked for the cup to pass — and still finis
 He asked for another way, and still knelt. What do you hear in that?
 Luke 22:39–46, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Gethsemane #Luke22`
+**Instagram hashtags:** — skipped (over 3:00, no Reel — never trim to fit)
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Gethsemane #Luke22`
 
 ### Row 101 — The Still Small Voice
 **1 Kings 19:1–18 (KJV) · 2:53 · fits all four**
@@ -518,6 +604,8 @@ Elijah sat under a juniper tree and asked to die. Then came a great wind, an ear
 When has God been quieter than you expected — and closer?
 1 Kings 19:1–18, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#StillSmallVoice #Elijah`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #StillSmallVoice #Elijah`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #StillSmallVoice #Elijah`
 
 ### Row 114 — Abraham Pleads for Sodom
 **Genesis 18:16–33 (KJV) · 2:23 · fits all four**
@@ -529,3 +617,5 @@ Abraham stood before the LORD and dared to bargain for a city. Fifty righteous? 
 He asked, Shall not the Judge of all the earth do right? What does it tell you that God let him keep asking?
 Genesis 18:16–33, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
 **Story tags:** `#Abraham #Genesis18`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Abraham #Genesis18`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Abraham #Genesis18`
