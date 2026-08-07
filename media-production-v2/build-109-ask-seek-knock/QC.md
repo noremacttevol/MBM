@@ -43,6 +43,30 @@ a time.
 
 ---
 
+## 🛠 RUNNER C-FIX — 2026-08-07 (Machine A `Dev`, Opus runner) — SHIPPED
+
+**COMPLAINT LEDGER**
+1. **"picture at 1:34 has Jesus with crazy eyes"** → FIXED. Regenerated ONLY
+   **s17-if-ye-then-being-evil.jpeg** (b17, jv11, window 89.26–99.01, t≈94s = 1:34)
+   over the author's CALM-EYES prompt. Verified in the RENDERED mp4 @94s: Jesus's
+   eyes are now calm, warm and softly open, looking kindly at the listeners — no
+   wide/wild/bulging/staring/"crazy" eye, no lens-stare. Face-boarded vs the
+   JESUS-V2-REF master (Middle-Eastern, cream robe — only Jesus in cream, full
+   dark beard, ordinary scale, no halo/rim-light). Face gate exit 0.
+
+**Rerolls: 2 on b17 (both within the ≤2/frame cap; 2/23 = 8.7%, under the 15%
+COST-LAW budget).** First regen fixed the eyes but the "two measures distinct"
+prose pushed the model into a two-panel diptych (invalid single still); second
+regen landed a clean single-panel seated frame — one arm thrown wide (horizon)
++ the small-span pinch, both measures readable, calm eyes. Kept the second take.
+
+**Audio: byte-identical.** v2_assemble AUDIO LOCK PASS, SHA256=21d8ace3…
+(same hash as the prior ship). mp4 142.4s, 20.0 MB. Every other still untouched.
+
+**Cost: ~$0.26 (2 rerolls × $0.13), meter $500.62 → $500.89.**
+
+---
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 23 beats, ~130 s.
 
