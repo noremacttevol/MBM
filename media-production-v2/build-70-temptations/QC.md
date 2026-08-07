@@ -1,5 +1,45 @@
 # QC / RUNNER HANDOFF — build-70-temptations (Matthew 4:1-11)
 
+## ✅ REALISTIC-V2 SHIPPED — A-auto Machine A `Dev`, 2026-08-07 (unattended runner)
+
+First-attempt realistic-V2 cut built and shipped. 42 painted stills at native 2K,
+248.6s, 21.7 MB, `matt-4_the-temptations.mp4`. **AUDIO REBUILD PASS
+SHA256=06286953a1e38ed91b11e385a924da109ff9396658d40a68d6db89dfbc4bd796**,
+narration rebuilt byte-for-content from the 20 V1-dir segment mp3s
+(`AUDIO_FROM_V1_SEGMENTS=True`), nothing re-voiced this session. Card_start
+236.975s / mp4 248.67s → full 11.69s question card present, NOT chopped
+(row-74 stale-window check PASS).
+
+**COMPLAINT LEDGER** — open reviewer complaint (`v2_outline.py 70`):
+> "The narrator spells out 'I-S' instead of pronouncing the word like it should.
+> Also it mispronounced 'proceedeth' it should be pro-see-duhth."
+- **"I-S / IF spelled out" → FIXED.** n2 already reads "if" and "is" as WORDS in
+  the shipping ElevenLabs narration (whisper-confirmed by the author's earlier
+  fix); untouched, carried byte-identical into this cut.
+- **"proceedeth → pro-SEE-duhth" → FIXED and PROVEN.** j1 was re-voiced through
+  the SAME locked ElevenLabs JESUS "Chris" with `proceedeth`→`proceeduth`
+  (caption keeps "proceedeth"), atempo-matched to the original 7.837s so no
+  window moved. `AUDIO_FROM_V1_SEGMENTS=True` makes v2_assemble rebuild the
+  track from the V1-dir mp3s, and V1-dir `j1.mp3` md5=`7f083601811f3c79705c1077adff90a4`
+  is the fixed take. The AUDIO REBUILD PASS SHA256 above is the cryptographic
+  proof the corrected j1 is in the shipped audio. This is the RUNNER-LESSONS
+  "pronunciation fix already baked → SHIP, not park" exception.
+
+**Light-QC pass (1 sweep, contact sheets + zoom):** all 42 frames — A-LAW held
+(the adversary is NEVER depicted; every temptation frame is Jesus ALONE; the only
+non-Jesus figures are the two blue-robed human ministers b33-b36). Only Jesus
+wears cream; no second cream figure; no lens-stare; beard/scale/anatomy pass;
+places consistent (DESERT/PINNACLE/SUMMIT plates promoted-first from s04/s18/s26).
+**2 rerolls / 42 = 4.8%** (under the 15% budget): b03 (modern lug-sole boot-tread
+prints in the sand → clean solitude desert) and b10 (collage/double-Jesus inset
+→ single clean dove-on-shoulder frame). FIX-WAVE notes (kept, not garbage): s38
+bright top-edge ambiguous (not clearly a modern window); s42 traveling mantle
+slightly striped vs the cream wrap elsewhere.
+
+**Cost:** anchors $0.40 + full run $5.23 + 2 rerolls $0.27 = ~$5.90 this row,
+meter $444.21 → $452.65. Under the $6.10/row running average.
+
+
 ## ✅ AUDIO FIX SHIPPED-TO-RUNNER — "proceedeth" → pro-SEE-duhth + ENGINE fix (AUDIO-FIX job, Machine A `Dev`, 2026-08-07)
 Both halves of Cameron's complaint are now correct in the audio the assembler
 ships. The proceedeth half was ORPHANED **and the earlier fix used the WRONG

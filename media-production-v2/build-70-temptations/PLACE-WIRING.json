@@ -1,0 +1,20 @@
+{
+ "DESERT": {
+  "manual": true,
+  "src_beat": "s04-before-the-teaching-before-the",
+  "src_build": "build-70-temptations",
+  "src_file": "build-70-temptations/assets/s04-before-the-teaching-before-the.jpeg"
+ },
+ "PINNACLE": {
+  "manual": true,
+  "src_beat": "s18-in-a-flash-he-was",
+  "src_build": "build-70-temptations",
+  "src_file": "build-70-temptations/assets/s18-in-a-flash-he-was.jpeg"
+ },
+ "SUMMIT": {
+  "manual": true,
+  "src_beat": "s26-from-a-high-mountain-all",
+  "src_build": "build-70-temptations",
+  "src_file": "build-70-temptations/assets/s26-from-a-high-mountain-all.jpeg"
+ }
+}
