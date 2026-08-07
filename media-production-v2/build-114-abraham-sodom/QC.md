@@ -41,7 +41,34 @@ b23 empty ridge) and four lone-Abraham beats.
 
 ---
 
-## RUNNER PARK — BILLING DEPLETED (A-auto Machine A, 2026-08-06)
+## RESUME COMPLETE — SHIPPED (Machine A, 2026-08-06)
+
+Billing was topped up (other lanes generating fine). Resumed the parked row.
+
+- **s14** ("yes I will spare it"): was a 4-panel collage → 1 reroll → now a
+  single coherent frame (realistic, Abraham's white beard, no burned-in text).
+  Collage blocker CLEARED. It rendered INTERIOR (no HEIGHT lock on b14) — same
+  lock-less interior-drift class as b11/b12/b16/b17 → FIX-WAVE (author handoff).
+- **s13** ("what about forty, thirty each"): repeated-counting beat = structural
+  collage trigger. 2 rerolls, BOTH returned 4-panel collages. Reroll budget for
+  the row now spent (b13×2 + b14×1 = 3 = 15% of 23 beats). Per the park note's
+  own rule ("still collage → keep best + FIX-WAVE") kept the best take (3rd:
+  all-outdoor coherent panels, distant Sodom, no burned-in numbers) and
+  FIX-WAVE'd it. **AUTHOR de-collage needed** (de-repeat the counting in the
+  beat text, or add an anti-collage cue) — not runner-fixable by reroll.
+- Assembled: `AUDIO LOCK PASS` SHA256=0d9b7b00a04c3c5c6f709bd859c92dbdd29e4f337f235d4c4a0091578966a837.
+  3 caption frames checked: captions bottom-band only, question card clean.
+
+**Rerolls this row: 3 (13% — within the ≤15% COST LAW budget).**
+
+## FIX-WAVE ADDITIONS (this resume)
+- **b13 collage** (see above) — author de-collage the repeated-counting beat.
+- **s14 interior drift** — b14 carries no HEIGHT lock; author adds HEIGHT token
+  (join it to the b11/b12/b16/b17 outdoor-lock fix).
+
+---
+
+## RUNNER PARK — BILLING DEPLETED (A-auto Machine A, 2026-08-06) [RESOLVED ABOVE]
 
 **COMPLAINT LEDGER: none open.** `v2_outline.py 114` shows no prior Cameron
 complaint on this row; QUEUE row 114 carries only the V1 build description.
