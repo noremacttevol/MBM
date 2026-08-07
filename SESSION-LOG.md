@@ -140,6 +140,24 @@
 
 ---
 
+## 2026-08-07 — ROW 87 (boy-in-the-temple, Luke 2:41-52) REALISTIC-V2 SHIPPED + DEPLOYED — no open complaint, BOY-JESUS child-scale law held — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commits:** claim = `c4218450e`; ship (mp4 + QC + beats_v2 REFS + PLACE-WIRING + assets + portraits + boards + QUEUE) = `88c25ce819808599efebff73ddd14b9db6263884`; review-card + SESSION-LOG = this commit. Second row of this same unattended session (row 82 shipped first — commit `6aac90013`). hostname `Dev` = Machine A. All 15 rubric lessons + 605-line RUNNER-LESSONS already loaded from the row-82 pass.
+
+**Row 87 = lowest AUTHORED + Ready ✅ + EMPTY-claim row (row 83 already shipped by a sibling lane `8f193f19b`; row 63 has a FILLED claim = an author→runner handoff that PARALLEL-LANES law forbids me to touch — cfix/strand rescue is autopilot's dedicated lane). Cross-checked QUEUE.md — story = "The boy in the temple, Luke 2", NOT swapped.** `v2_outline.py 87` = no open complaint → COMPLAINT LEDGER: none open.
+
+**Build:** 15 realistic stills @ native 2K (V1 had 8), 93.9s, 20.4 MB. AUDIO_FROM_V1_SEGMENTS=True (author cleared STALE-V1-FINAL 2026-08-06); **AUDIO REBUILD PASS SHA256=9cfd37091ef45645085113700051ae031f594bd8307a887dbfb85d447487d847** from 12 new-voice segments, byte-identical, nothing re-voiced. Row-74 stale-window CLEAR (captioned 85.900s ≈ card_start 85.826s); mp4 decodes ZERO `-v error`. BOY + JOSEPH portraits generated + REFS wired (Mary uses the nativity canon ref). **BOY-JESUS law:** Jesus at twelve story-cast as a real CHILD — child-sized beside the seated elders in every frame (scale gate PASS both ways), only the boy wears cream at every age; b12 the deliberate small-cream-figure-amid-columns single. Mary ~30 / Joseph ~42 aged from the nativity canon.
+
+**Places:** ROAD auto-wired from build-79 (non-Jesus road frame, 3 road beats). PORCH + DOCTORS FORCED NO-PROMOTE — every PORCH beat carries the boy in cream (row-51/82 no-Jesus-plate rule) and DOCTORS is a cast group not a place; both on prose locks, uniformity by eye. PLACE-WIRING.json = ROAD only.
+
+**Light QC (1 sweep, 2 contact sheets + reroll zoom + 3 rendered caption frames + 2 stable-point caption checks): 1 reroll / 15 = 6.7% (under 15% budget):** b11 (the boy's hero portrait first took a straight-into-lens gaze → rerolled to an off-camera gaze at a parent, identity held). Verified the t=4s "double caption" was a normal CROSSFADE (stable points t=2.5/6.5 show clean single captions). FIX-WAVE (kept): minor Joseph brown↔rust tone drift b14→b15; one b10 elder in pale tan reads near-cream.
+
+**DEPLOY + live-verify (7c) — DONE.** `firebase deploy --only hosting` succeeded (435 files). Live-verified: `review.html` card v87 carries `data-hash="88c25ce819808599efebff73ddd14b9db6263884"` + `data-review-wave="realistic-v2"`, and the mp4 at the DIRECT raw.githubusercontent.com host returns **HTTP 200** with a real content-length. STASH-INDEX re-scanned + PUBLISH LOOP synced.
+
+**Cost:** 2 portraits $0.27 + full run $2.01 + 1 reroll $0.13 = **~$2.41 this row** (meter $463.91 → $467.79). Well under the $6.10/row average, 6.7% rerolls — COST LAW trend holds DOWN. **Two rows this session (82 + 87) = ~$6.16 total / ~$3.08 per row, 7.4% rerolls — both under the running averages.**
+
+---
+
 ## 2026-08-07 — ROW 82 (anointing-at-bethany, Mark 14:3-9) REALISTIC-V2 SHIPPED + DEPLOYED — no open complaint, THREE-WOMEN law held — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** claim = `4eb49d167`; ship (mp4 + QC + beats_v2 REFS + assets + boards + QUEUE + RUNNER-LESSONS) = `6aac90013546b9f7bc876d963e3d41865d8222fc`; review-card + SESSION-LOG = this commit. Session-chain verified at start (then-top = row 70 shipped, commit `4414d1d1a` present in `git log`); hostname `Dev` = Machine A. Followed PROMPT-OPUS-RUNNER.md; read the two META-LAWS + all 15 rubric lessons + all 605 lines of RUNNER-LESSONS.md before the first credit.
