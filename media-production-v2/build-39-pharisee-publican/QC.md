@@ -1,5 +1,41 @@
 # Story 39 Realistic V2 QC — The Pharisee and the Publican (Luke 18:9-14)
 
+## C-FIX 2026-08-07 (Machine A `Dev`) — black-spots complaint CLOSED
+
+**COMPLAINT LEDGER — the one OPEN complaint on this row (reported against hash
+`b9c5c44b…`), and exactly what in this cut fixes it:**
+
+> Cameron: *"There is some pictures with random black spots on their hands and
+> fingers @ 0:53, 3:13, 2:05, etc. Another one on his lips @ 2:40 and then
+> another picture with 2 hands of the same side looking like 2 people standing
+> in line with their hands out but i think it was supposed to be something
+> different @ 3:14"*
+
+| his timestamp | beat / still | defect he saw | fix in THIS cut |
+|---|---|---|---|
+| 0:53 | b14 `s14-he-worked-for-rome` | two blue-black ink smudges on the fingers | identity/geometry edit — smudges removed, clean skin, coin+thumb byte-identical |
+| 2:05 | b31 `s31-a-prayer-of-seven-words` | ink smudges across the fingertips on his chest | edit — smudges removed, natural nails, hand position identical |
+| 2:40 | b40 `s40-barely-able-to-speak` | dark spot on his lower lip | edit — spot removed, lip smooth/even, beard+framing identical |
+| 3:13 / 3:14 | b48 `s48-came-holding-nothing` | ink marks on the fingers **and** "2 hands of the same side" | edit — ink removed **and** hands corrected to a natural left-hand (back) + right-hand (open palm-up, "holding nothing") pair |
+
+Method: **targeted image-edit pass** (attach the finished frame, change ONLY the
+named defect, keep every other pixel), the same edit technique this row already
+used for the battlement crest. Each candidate was QC'd at zoom and full-frame
+(FACE-BOARD recheck: no new figure, no cream robe, no crop/lighting drift) before
+it replaced the shipped still. Only these **4 frames** were touched; s47 (the
+Pharisee's herb fist) and every other hand/lip frame were checked and were
+already clean, so they are byte-identical to the cut Cameron has.
+
+**Audio:** untouched — re-assembly printed `AUDIO LOCK PASS SHA256 2693bcca035a…`,
+the SAME hash as the shipped cut, so narration/voices/timing are byte-identical.
+
+**Cost:** 4 edits × $0.134 = **$0.53**, 0 discarded takes → **0% rerolls** (budget
+is 15% of 58 = 8 frames). Meter $416.61 → $417.14. Touch-once: all four known
+defects batched into this ONE re-cut.
+
+---
+
+
 **STATUS: SHIPPED TO REVIEWER 2026-08-04 (worker 35, Machine A `Dev`) — 58/58 at
 native 2K, assembled `luke-18_pharisee-and-publican.mp4` 247.3 s / 22.0 MB, AUDIO
 LOCK PASS SHA256 `2693bcca035a…`, captions checked on frames extracted from the
