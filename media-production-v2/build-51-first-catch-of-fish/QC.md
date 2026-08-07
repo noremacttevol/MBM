@@ -98,3 +98,16 @@ This row has ZERO V2 stills built. Per AUDIO-FIX loop step 5, nothing visual
 ships; board flipped AUTHORED / Audio OK / Ready ✅, claim cleared, so the picture
 runner builds it on this corrected audio. $0 spent (edge-tts NARRATOR, no
 ElevenLabs credit needed). The audio now says "tare" — runner may ship.
+
+## ⛔ RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-07) — same ORPHANED-FIX class as row 50
+Runner (Machine A `Dev`) audited at claim time, $0, no stills. The "tear→tare"
+audio-fix (2026-08-06) is orphaned: `beats_v2.py` has no `AUDIO_FROM_V1_SEGMENTS`
+so v2_assemble ships the authoritative V1 mp4 (`luke-5_first-catch-of-fish.mp4`,
+2026-07-29) which still says "teer"; the corrected n4 lives only in the V2 build
+dir (`media-production-v2/.../audio/n4.mp3`, 2026-08-06T22:10), which the
+assembler ignores. Hashes differ: V1-dir n4 `87f4…` ≠ V2-dir n4 `3045…`.
+Building now would ship the old "teer" and repeat Cameron's complaint.
+RESUME (audio authority): copy the fixed n4 into
+`media-production/build-51-first-catch-of-fish/audio/` + re-render the V1 mp4
+(or set `AUDIO_FROM_V1_SEGMENTS=True`), ear-check "tare"/care, then Ready ✅.
+See row 50 QC.md for the full root-cause writeup and RUNNER-LESSONS entry.
