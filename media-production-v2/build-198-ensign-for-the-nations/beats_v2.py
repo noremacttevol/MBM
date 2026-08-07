@@ -13,7 +13,15 @@ cornerstone: the SECOND-TIME gathering of Israel, a banner raised so the scatter
 their way home.
 
 =====================================================================
-No open Cameron complaint (v2_outline.py 198). Fresh V2 beat map; Board Audio = OK.
+OPEN CAMERON COMPLAINT (v2_outline.py 198): "Not new audio."
+FIXED AT $0 (this Fable-5 author lane): all 7 segment mp3s in the V1 build's audio/ are
+ElevenLabs new-voice (ffprobe-confirmed 44100/128k mono, identical spec to the fixed
+row 191; audio-eleven.log + .audio-eleven-done marker dated 2026-07-29 09:47). The delivered
+V1 mp4 (2026-07-23 06:56) PREDATES that re-voice and stream-copied the STALE old-voice track —
+which is exactly what Cameron heard. This build now sets **AUDIO_FROM_V1_SEGMENTS = True** so
+v2_assemble rebuilds the shipped track from those new-voice segments instead of copying the
+stale mp4 audio. Same fix as rows 191/177/78/80/82. The review card MUST tell Cameron the
+voice is the real new voice. See QC.md COMPLAINT LEDGER.
 =====================================================================
 
 SPEAKER LAW (Old-Testament prophecy, book of Isaiah):
@@ -52,9 +60,11 @@ PLACES / LOCKS:
 People locks: ISAIAH (the prophet — BYTE-IDENTICAL to build-192), GATHERED-EXILES (the diverse
 outcasts of Israel and dispersed of Judah returning from every nation). None wear cream/white.
 
-AUDIO: default AUDIO LOCK stream-copy (no re-voice; no open complaint). Board Audio = OK.
-card_start = 52.740 s. Picture-only — do NOT re-voice.
+AUDIO: AUDIO_FROM_V1_SEGMENTS = True (complaint fix — rebuild from the new-voice segments).
+card_start = 52.740 s. Picture-only otherwise — do NOT re-voice (segments already correct).
 """
+
+AUDIO_FROM_V1_SEGMENTS = True
 
 # ISAIAH is reused BYTE-IDENTICAL to build-192 (recurring cast). ISAIAH-HEIGHT, GATHERING-ROADS
 # and HOMELAND are NEW build-local places the runner promotes. Jesus / the Messiah is not

@@ -3,14 +3,29 @@
 **Row 198 · Isaiah 11:10-12 · "he shall set up an ensign for the nations, and shall assemble
 the outcasts of Israel, and gather together the dispersed of Judah from the four corners of
 the earth."**
-State: **AUTHORED / Ready ✅** (picture map authored, `--check` PASS 0 warnings, audio OK, no
-open complaint). Fable-5 author lane, Machine A `Dev`, 2026-08-07, $0.
+State: **AUTHORED / Ready ✅** (picture map authored, `--check` PASS 0 warnings). Audio complaint
+now fixed at $0 (see ledger). Fable-5 author lane, Machine A `Dev`, 2026-08-07.
 
 ---
 
-## COMPLAINT LEDGER
-- **No open Cameron complaint** on row 198 (`v2_outline.py 198` shows none). Fresh
-  NEEDS-BEATS → AUTHORED build. Board Audio = OK; default AUDIO LOCK stream-copy, no re-voice.
+## COMPLAINT LEDGER — OPEN complaint AUDIO-FIXED at $0 (2026-08-07, Machine A `Dev`)
+
+- **OPEN Cameron complaint (`v2_outline.py 198`): "Not new audio."** — VALID. Root cause:
+  STALE-V1 stream-copy. The delivered V1 mp4 (`media-production/build-198-.../isaiah-11_ensign-for-the-nations.mp4`,
+  dated **2026-07-23 06:56**) PREDATES the ElevenLabs re-voice and stream-copied the old-voice
+  track. But the V1 build's `audio/` holds **7 new-voice ElevenLabs segments** (n0, n1, s1, s2,
+  n2, n3, card), all dated **2026-07-29 09:47**, ffprobe-confirmed 44100 Hz / 128k mono —
+  identical spec to the already-fixed row 191, and logged in `audio-eleven.log` via the
+  ElevenLabs backend (`.audio-eleven-done` marker present).
+- **FIX ($0, no image gen, no re-voice):** set `AUDIO_FROM_V1_SEGMENTS = True` (module level in
+  beats_v2.py, after the docstring). `v2_assemble` now rebuilds the shipped track from those 7
+  new-voice segments instead of copying the stale mp4 audio. Same sanctioned exception as rows
+  191/177/78/80/82. `--check` PASS (12 beats), windows contiguous.
+- **🅿️ RUNNER — do this:** this row has 0 stills, so you BUILD it fresh (12 stills, all
+  `jesus=False`, NO cream/white — OT prophecy, God/Messiah never embodied; see the HARD GATE in
+  beats_v2.py). On assemble, the AUDIO REBUILD path copies the **new voice** (verify AUDIO REBUILD
+  PASS). Ship with a review card that tells Cameron **the voice is the real new voice** (closes
+  his "Not new audio" complaint). No re-voice — the segments are already correct.
 
 ---
 
