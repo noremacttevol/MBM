@@ -221,6 +221,13 @@ machine obeys it without Cameron typing anything.
    then complained rows first within stranded resumes, audio fixes, and fresh
    builds. His complaint is him having already asked — new production never
    cuts in line ahead of it. Enforced mechanically in autopilot.sh.
+10. **THE LOW-NUMBER LAW (Cameron, 2026-08-07: "the smaller the number the
+    more priority — 01-09 are good but 10-20 have been waiting").** Row
+    numbers are his viewing order. Within every queue, after complained rows,
+    the lowest row number goes next — cheapest-first never overrides his
+    order. Every parked fix class must have a lane that picks it up
+    (NEEDS-AUDIO → audio lane, NEEDS-REBUILD → author lane); a park nothing
+    picks up is a complaint left waiting, which is the failure.
 
 ## Locked Product Direction (June 2026) — do not regress these
 

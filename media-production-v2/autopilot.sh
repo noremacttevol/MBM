@@ -110,30 +110,43 @@ EOF
   return 0
 }
 
-# Cameron 2026-08-06: fastest-to-finish first — among Ready rows the one with
-# the most banked stills wins; complained-about rows outrank even that.
+# THE LOW-NUMBER LAW (Cameron 2026-08-07: "the smaller the number of videos
+# the more priority it has — 01-09 are good but 10-20 have been waiting").
+# Rows are his viewing order; within EVERY queue: complained rows first, then
+# the LOWEST row number. (Banked-stills speed ordering is demoted — his order
+# outranks cheapest-first.)
 next_ready() {
-  local best="" bestn=-1 cbest="" cbestn=-1 row build n
+  local row build first=""
   while read -r row build; do
-    n=$(ls "$V2/$build/assets/"*.jpeg 2>/dev/null | wc -l)
-    if is_complained "$row"; then
-      if [ "$n" -gt "$cbestn" ]; then cbest="$row"; cbestn="$n"; fi
-    elif [ "$n" -gt "$bestn" ]; then best="$row"; bestn="$n"; fi
+    [ -z "$row" ] && continue
+    if is_complained "$row"; then echo "$row"; return 0; fi
+    [ -z "$first" ] && first="$row"
   done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
     row=$2; build=$3; state=$4; audio=$6; claim=$7; ready=$8
     gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",build); gsub(/[[:space:]]/,"",state)
     gsub(/[[:space:]]/,"",audio); gsub(/^[[:space:]]+|[[:space:]]+$/,"",claim)
     if (state=="AUTHORED" && audio=="OK" && claim=="" && ready ~ /✅/) print row, build
   }' "$BOARD")
-  if [ -n "$cbest" ]; then echo "$cbest"; elif [ -n "$best" ]; then echo "$best"; fi
+  [ -n "$first" ] && echo "$first"
+  return 0
 }
+# Author work includes NEEDS-REBUILD rows (a C-FIX park that needs beat-level
+# authoring, e.g. row 11's boat-lock) — complained/parked rebuilds outrank
+# fresh authoring, lowest row first.
 next_unauthored() {
-  awk -F'|' '/^\| *[0-9]+ *\|/ {
+  local row state first=""
+  while read -r row state; do
+    [ -z "$row" ] && continue
+    if [ "$state" = "NEEDS-REBUILD" ] || is_complained "$row"; then echo "$row"; return 0; fi
+    [ -z "$first" ] && first="$row"
+  done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
     row=$2; state=$4; claim=$7
     gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",state)
     gsub(/^[[:space:]]+|[[:space:]]+$/,"",claim)
-    if (state=="NEEDS-BEATS" && claim=="") { print row; exit }
-  }' "$BOARD"
+    if ((state=="NEEDS-BEATS" && claim=="") || (state=="NEEDS-REBUILD" && claim !~ /AUTHOR-LIVE/)) print row, state
+  }' "$BOARD")
+  [ -n "$first" ] && echo "$first"
+  return 0
 }
 # A RUNNING/A-auto row whose build has NO live v2_gen_api process is stranded —
 # its lane died (billing outage, crash). These carry the most banked stills on
@@ -230,7 +243,7 @@ elif [ -n "$READY" ]; then
   MODEL_ARGS=(--model opus)
 elif [ -n "$UNAUTHORED" ]; then
   JOB="author"; ROW="$UNAUTHORED"
-  PROMPT="Read media-production-v2/PROMPT-FABLE5-AUTHOR.md and do the next rows. You are UNATTENDED (autopilot): never wait for Cameron; spend \$0 on generation exactly as the brief says; stop cleanly with the chain (SESSION-LOG entry, commit, push) when context runs low."
+  PROMPT="Read media-production-v2/PROMPT-FABLE5-AUTHOR.md and do the next rows, starting with AUTHOR-BOARD row $ROW. If that row's State is NEEDS-REBUILD or NEEDS-AUDIO with a C-FIX/RUNNER PARK note, the park note in its QC.md is your spec — do the author-level fix it names (boat/place plates + REF wiring, PHRASE_SPOKEN pacing, SPOKEN respells + narration regen), then set the row Ready ✅ (or re-assemble+ship if its stills are done) so Cameron's complaint closes. Mark your claim 'AUTHOR-LIVE <date>' while working. You are UNATTENDED (autopilot): never wait for Cameron; spend \$0 on image generation; stop cleanly with the chain (SESSION-LOG entry, commit, push) when context runs low."
   MODEL_ARGS=()
 else
   if [ "$BILLING_DOWN" -eq 1 ]; then

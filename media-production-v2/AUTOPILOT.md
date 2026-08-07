@@ -20,8 +20,10 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
   about — his complaint outranks everything) → stranded-resume → **AUDIO-FIX**
   (PROMPT-AUDIO-FIX.md — closes audio complaints on NEEDS-AUDIO rows; $0
   Gemini; max one lane) → ready-build → author (PROMPT-FABLE5-AUTHOR.md,
-  refills the board from NEEDS-BEATS). Within every queue, complained-about
-  rows go first; the loop re-syncs his live complaints each tick.
+  refills the board from NEEDS-BEATS **and picks up NEEDS-REBUILD parks like
+  row 11's boat-lock**). Within every queue: complained-about rows first, then
+  the LOWEST row number (Cameron's viewing order — THE LOW-NUMBER LAW,
+  2026-08-07); the loop re-syncs his live complaints each tick.
 - **Billing breaker with fallback:** when the Gemini prepayment is depleted,
   paid jobs (resume/build) are blocked but the loop does NOT idle — audio and
   author work continue free. Top up at https://ai.studio/projects and paid
