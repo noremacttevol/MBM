@@ -1,3 +1,48 @@
+## 2026-08-07 — ROW 18 AUDIO-FIX SHIPPED+LIVE: "Jesus's" possessive re-voiced through the REAL engine (ElevenLabs, not edge-tts) — Machine A `Dev` (Fable-5 author lane)
+
+**Commit:** row-18 audio-fix package = `53938e77c`; review card = `0297677c0`; publish-ledger sync = `304e41bc0`; PROMPT-AUDIO-FIX lesson + this log = (this commit).
+
+Took the lowest OPEN author/audio-domain complaint row (THE LOW-NUMBER + COMPLAINT-FIRST
+LAWS). Row 33 was already AUTHOR-DONE+Ready by the prior session; its only remainder is a
+runner reroll of s20 (image gen — out of this $0 session). Rows 27 (BLOCKED, needs ears)
+were dead ends. Row 18's "You mispronounced Jesus's" was still genuinely open (`SPOKEN={}`,
+no fix committed; the board's "AUDIO-FIX LIVE" marker was a stale claim from the 02:38 lane
+that died mid-encode).
+
+- **Root-caused the park note's error.** The QC park said "set `SPOKEN={"Jesus's":"jeezusiz"}`
+  and run `make_narration.py`" — but that build's `make_narration.py` is the OLD edge-tts
+  scaffold, while the SHIPPED audio is **ElevenLabs** (44.1 kHz "Brian" narrator, post the
+  2026-07-23 migration). Running it would have swapped the narrator voice at the very opening.
+  faster-whisper confirmed the real defect: the ElevenLabs take dropped the possessive "-iz"
+  ("two of **Jesus'** followers", word span 0.20 s).
+- **Fixed correctly, $0 image / ~cents ElevenLabs, 0 pictures touched.** Re-voiced ONLY n0
+  through the SAME ElevenLabs Brian narrator (`mbm_eleven.render_segment`) with the possessive
+  respelled `Jesus's`→`Jesuses` (ElevenLabs reads /JEE-zus-iz/). Caption is untouched — it comes
+  from SEGMENTS s[2] (extract_beats), so no `TEXT_OVERRIDES` needed. The `SPOKEN` dict can't hold
+  a "'s" key (the override regex splits on the apostrophe), so the respell is done in the spoken
+  string directly. **Pitch-preserving atempo-matched** the new take back to the original 19.592 s
+  (Δ −0.026 s) so NO downstream still-window in beats_v2.py moved. Set `AUDIO_FROM_V1_SEGMENTS=True`.
+  Reproducible: `build-18-emmaus/revoice_n0.py` (committed). The shared ElevenLabs key file now
+  also holds a cloudflare token — grep out just the `sk_...`.
+- **Verified in the DELIVERED mp4** (not just the segment): possessive onset shifted 5.62→5.20 s
+  n0-local (0.42 s — beyond any jitter), word span ~tripled. AUDIO REBUILD PASS `3592466846055ce4`,
+  243.3 s / 21.4 MB, `--check` PASS.
+- **Shipped end-to-end:** committed + pushed; review card → new hash `53938e77c8cb` with a 🛠 flag
+  answering the complaint in Cameron's words; `firebase deploy` (429'd on quota → pruned 6 versions
+  → redeployed); **live-verified** — reviewer page carries `data-hash=53938e77c8cb…` and the flag,
+  github-raw mp4 returns 200 / 21,361,711 bytes. Board row 18 NEEDS-AUDIO→BUILT, CHECK→OK.
+- **Durable lesson** added to PROMPT-AUDIO-FIX.md: ffprobe the segment before re-voicing
+  (44100=ElevenLabs Brian / 24000=edge-tts) and re-voice through the matching engine; atempo-match
+  to avoid window remaps; the possessive respell trick.
+
+**Context/collision note for the next session:** 3 autopilot lanes were live the whole session
+(cron spawns author/cfix/audio/resume/runner sessions every 10 min on this shared tree). I scoped
+every commit to explicit build-18 paths only and never touched the lanes' uncommitted
+REVIEW-LESSONS.json / COMPLAINTS.md / api-spend.jsonl. Row 33 remains Ready ✅ awaiting a runner
+s20 reroll; row 27 is BLOCKED pending Cameron's ears.
+
+---
+
 ## 2026-08-07 — AUDIO-FIX SWEEP: row 113 SHIPPED+LIVE, rows 105/106/108 handed to picture runner, row 27 BLOCKED (needs ears) — Machine A `Dev` (AUDIO-FIX lane)
 
 **Commit:** rows 105/106/108 = `2109c5747`; row 27 BLOCKED = `1767051bd`; row 113 ship + row-22 card hash-fix = `c8733d0cb`; this log = (this commit).

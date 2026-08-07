@@ -15,6 +15,21 @@ re-voiced segments) + ffmpeg only.
 - Touch ONLY the audio chain: `make_narration.py` (respell/SPOKEN dicts),
   narration segment mp3s, the V1 final render, `v2_assemble.py` runs, captions
   if the park note says so. Never scene text, locks, or beat structure.
+- **KNOW WHICH TTS ENGINE ACTUALLY SHIPS BEFORE YOU RE-VOICE (2026-08-07, row 18).**
+  Many builds migrated to ElevenLabs (2026-07-23) but still carry the OLD
+  edge-tts `make_narration.py` scaffold — so a park note that says "set SPOKEN
+  and run `make_narration.py`" will re-voice the segment in the WRONG engine
+  (edge-tts AndrewNeural, 24 kHz) and swap the voice mid-video. **ffprobe the
+  segment first:** `44100 Hz / 128 k = ElevenLabs` (VOICE_ELEVEN — narrator
+  "Brian"), `24000 Hz / 48 k = edge-tts`. Re-voice through the SAME engine the
+  rest of the row uses. For ElevenLabs, render ONE segment with
+  `mbm_eleven.render_segment(spoken, speaker, out, key=...)` (the shared key
+  file now holds an extra cloudflare token — grep out just the `sk_...`), then
+  **pitch-preserving atempo-match the new take back to the original segment
+  duration** so NO downstream still-window in `beats_v2.py` has to move. The
+  possessive "'s" can't be expressed in a SPOKEN key (the override regex splits
+  on the apostrophe); respell "Jesus's" → "Jesuses" directly in the spoken
+  string — the caption comes from SEGMENTS s[2] and stays "Jesus's".
 - Shared-file discipline (PARALLEL-LANES LAW in PROMPT-OPUS-RUNNER.md):
   pull-rebase immediately before editing QUEUE/AUTHOR-BOARD/review.html/
   SESSION-LOG, push immediately after. NEVER git clean / reset --hard / delete
