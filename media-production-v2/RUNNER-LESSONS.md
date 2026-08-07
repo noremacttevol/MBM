@@ -428,3 +428,18 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   crews, subject position-lock, plus any single named-frame identity fix), flip
   AUTHOR-BOARD State→NEEDS-REBUILD with Ready empty, $0. Same shape as the row-10
   audio park: complaint real, but the fix lives one stage upstream.
+
+- **Lock rewritten but per-beat scene text still commands the old defect (row 15
+  centurion, 2026-08-07).** Cameron's complaint (sick servant "age keeps changing
+  … too grey … partially alive") had already triggered a SERVANT *lock* rewrite
+  (eighteen, PALE-BUT-ALIVE, never grey), yet the shipped cut STILL showed a grey
+  curly corpse in one frame and a 13-yr-old boy in three others. Root cause: four
+  beats' own `scene`/`must_show` text literally said "He is very young … dark curls
+  … soft grey" and "the boy … the boy's grey face." **The per-beat scene text
+  OVERRIDES the shared lock** — the generator concatenates them, and the concrete
+  beat wording wins. A lock fix is not applied until the contradicting beat wording
+  is scrubbed too. Runner move on a repeat-complaint of a supposedly-fixed lock:
+  grep the offending beats for the exact defect words ("boy", "grey", "curls",
+  "child", age words), scrub them to agree with the lock, THEN reroll only those
+  frames (char-ref anchored to a good kept frame). 4/41 rerolls, ~$0.54, audio
+  byte-identical.

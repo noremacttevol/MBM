@@ -1,3 +1,34 @@
+## 2026-08-07 — C-FIX row 15 centurion (sick-servant age/grey) SHIPPED — Machine A `Dev`
+
+**Commit:** 5bf1beba570a7d2fb3b2b026a8d90a8bc490ef71 (art+QC+mp4); review.html live-hash + this log commit follow.
+
+Cameron's OPEN complaint on AUTHOR-BOARD row 15, in his own words via `v2_outline.py 15`:
+**"the sick boy's age keeps changing and he looks too grey to be a human and partially
+alive like he shouldnt be that grey and his age should stay the same."**
+
+- **Root cause (why a prior rebuild hadn't fixed it):** the SERVANT *lock* had ALREADY
+  been rewritten this-summer to "eighteen, PALE-BUT-ALIVE, never grey," but four beats'
+  own scene/must_show text still literally ordered the defect — b05 "He is very young …
+  dark curls … soft grey," b06 "the boy … the boy's grey face," b39/b41 "the boy." The
+  per-beat scene text OVERRIDES the shared lock (generator concatenates them; concrete
+  beat wording wins), so every re-gen reproduced a grey curly corpse in s05 and a
+  ~13-yr-old boy in s06/s39/s41 while the healed frames (s04/s36/s37/s38) were a
+  ~20-yr-old man. THAT is the age swing + grey he saw.
+- **Fix (touch-once):** scrubbed "boy / very young / dark curls / grey face" out of
+  b05/b06/b39/b41 so the scene text agrees with the lock, then regenerated ONLY those
+  four frames (char-ref anchored to kept healed frame s04). Every other frame + the
+  entire soundtrack byte-identical. Face-boarded against s04/s36/s37/s38: servant is now
+  the SAME living ~18–20 young man in all eight frames, none grey. Both prongs answered.
+- **Cost:** 4 rerolls / 41 beats = **9.8%** (under the 15% budget); ~$0.54 spend, meter
+  now $416.34. Above this row's own baseline only because a repeat-complaint needs 4
+  frames, still well under the $6.10/row running average.
+- **AUDIO LOCK PASS** (SHA256 75daa400…), 256.0s / 21.7 MB. Deployed to Firebase hosting,
+  live-verified (review.html carries hash 5bf1beba…, mp4 HTTP 200 @ 21,732,543 bytes).
+  Review card answers the complaint in Cameron's own terms. Board claim → SHIPPED.
+- **RUNNER-LESSONS:** added "lock rewritten but per-beat scene text still commands the
+  old defect" — grep the offending beats for the defect words and scrub them BEFORE
+  rerolling, or the reroll just reproduces the complaint.
+
 ## 2026-08-07 — C-FIX row 13 roof (1:37 man-on-mat) SHIPPED — Machine A `Dev`
 
 **Commit:** 165416a4a8e2701e7241733f35bb3abf99e03f84 (art+audio+QC), review.html+log commit follows.
