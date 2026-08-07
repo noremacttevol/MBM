@@ -33,7 +33,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 19 | build-19-shore | NEEDS-AUDIO | 37 | CHECK | C-FIX 2026-08-07 PARKED NEEDS-AUDIO: MIXED complaint. (A) AUDIO-pacing — Jesus's j1 "Simon, son of Jonas, lovest thou me?" (~1:37) too FAST and ignores its two commas; fix is a re-voice (respell j1 with ellipsis pauses / bump JESUS stability, regenerate j1.mp3, re-assemble), runner cannot re-voice. (B) PICTURE — swim frame b17/s17 at 1:05 has Peter swimming the wrong way (beat already carries the CAMERON GATE); runner rerolls it in the SAME post-re-voice re-cut (touch-once), NOT now. Shipped over an open audio complaint = worst failure, so PARKED not shipped. See QC.md §0 RUNNER PARK. |  |
 | 20 | build-20-samaritan | BUILT | 42 | OK |  |  |
 | 21 | build-21-lost-sheep | BUILT | 33 | OK |  |  |
-| 22 | build-22-unmerciful-servant | BUILT | 48 | OK |  |  |
+| 22 | build-22-unmerciful-servant | BUILT | 48 | OK | C-FIX 2026-08-07 LIVE |  |
 | 23 | build-23-vineyard | BUILT | 40 | OK |  |  |
 | 24 | build-24-sower | BUILT | 35 | OK |  |  |
 | 25 | build-25-wheat-and-tares | BUILT | 33 | OK |  |  |
