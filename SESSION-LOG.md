@@ -1,3 +1,40 @@
+## 2026-08-06 (Opus 4.8, AUDIO-FIX headless lane) — 15 NEEDS-AUDIO rows cleared: row 61 SHIPPED LIVE, rows 86-90 + 92-100 audio-fixed & handed to picture runner — Machine A `Dev`
+
+**Commits:** 25639cd75 + 4b49be56d (row 61 ship + force-add mp4), 08c89c9c6 (row 86),
+7dd2517ea (rows 87-90), d3a5a87e4 (rows 92-100), + this commit (SESSION-LOG). Row 61
+detail entry is further down this log (my first entry this session).
+
+Ran PROMPT-AUDIO-FIX.md, lowest NEEDS-AUDIO first. EVERY row this session was class
+**STALE-V1 / STALE-V1-FINAL** — a duration/recency mismatch on the AUDIO LOCK, NOT a
+pronunciation complaint (`v2_outline.py <row>` shows ZERO open Cameron complaints on all
+15). Root fix is identical and $0: `AUDIO_FROM_V1_SEGMENTS = True` in the row's beats_v2.py,
+which rebuilds the track from that build's OWN new-voice mp3 segments instead of copying the
+stale V1 mp4 AAC. NO new TTS, NO Gemini — **$0 total this session**.
+
+- **Row 61 syrophoenician-woman — SHIPPED + DEPLOYED + LIVE.** Had all 31 V2 stills already
+  generated (0 rerolls), so it assembled a full realistic-V2 cut: `AUDIO REBUILD PASS`,
+  185.2s / 21.2MB, face gate exit 0, ffprobe video+audio OK. Review card → realistic-v2 with
+  an honest plain-language 🛠 flag (no complaint to answer — none filed). firebase deploy
+  complete; live-verified card=realistic-v2 + the card's exact GitHub-raw mp4 URL returns
+  200 / 21203622 bytes. Board 61 → BUILT / OK / ✅.
+- **Rows 86, 87, 88, 89, 90, 92, 93, 94, 95, 96, 97, 98, 99, 100 — audio fixed, HANDED TO
+  PICTURE RUNNER.** These have 0 V2 stills, so per PROMPT-AUDIO-FIX.md step 6 nothing visual
+  was shipped: flag set, each row's new-voice segment count verified present, QC.md carries
+  an "AUDIO FIX DONE" note, board → **AUTHORED / Audio OK / Ready ✅** with claim cleared so
+  the picture runner builds the stills and assembles on the corrected audio (the
+  AUDIO_FROM_V1_SEGMENTS path passes the lock at that point).
+
+**Gotcha logged for future audio-fix sessions:** `media-production-v2/.gitignore` ignores
+`*.mp4`, so `git add <build-dir>` SILENTLY skips the cut — the v2 mp4 MUST be `git add -f`'d.
+(Row 61's first ship commit shipped card+audio only and the GitHub-raw URL 404'd; 4b49be56d
+force-added the mp4 and it went 200. Always re-verify the raw mp4 URL after a v2 ship.)
+
+**Remaining NEEDS-AUDIO for the next audio-fix session:** 105, 106, 108 (STALE-V1, 0 stills →
+same flag hand-off) and 113 (STALE-V1 but 26 stills already done → ships as a full cut like
+61). Stopped here to wrap cleanly before context ran low.
+
+---
+
 ## 2026-08-06 (Opus 4.8, COMPLAINT-FIRST C-FIX headless lane) — ROW 1 cloak: Cameron picture complaint fixed, re-cut + SHIPPED + LIVE — Machine A `Dev`
 
 **Commit:** a5c874613 (mp4+QC+assets+QUEUE) + this commit (review card + SESSION-LOG)
