@@ -7,16 +7,16 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T16:48:54_
+_Last sync: 2026-08-07T16:55:54_
 
 ## Summary
 
-- **APPROVED — not published** — 4 row(s)
+- **APPROVED — not published** — 5 row(s)
 - **BUILDING** — 70 row(s)
 - **LIVE — OLD STYLE (v1)** — 43 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 39 row(s)
+- **ON REVIEWER — awaiting Cameron** — 38 row(s)
 
 ## The rows
 
@@ -71,7 +71,7 @@ _Last sync: 2026-08-07T16:48:54_
 | 47 | Houses on Rock and Sand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 48 | New Wine, Old Bottles | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 49 | Water to Wine at Cana | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 50 | The Nobleman's Son | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 50 | The Nobleman's Son | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 51 | The First Catch of Fish | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 52 | The Demoniac in the Synagogue | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 53 | Peter's Mother-in-Law | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
