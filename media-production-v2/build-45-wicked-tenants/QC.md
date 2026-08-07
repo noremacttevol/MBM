@@ -96,3 +96,47 @@ ordinary-sized on the portico bench; the son small by distance on the road, not
 shrunken. Off-screen-violence law (FLAG R): honored — b21 empty dusk road, b38
 the cast-out cloak on the road, no blows/bodies/blood anywhere. Only Jesus wears
 cream. **AUDIO LOCK PASS SHA256=2b4c517b0617af407b5b97b42bee777ce8b91caab6f2adef2ce5836ef4942ec1**, 319.2s, 20.7 MB.
+
+---
+
+## C-FIX — Cameron complaint "0:50, 1:04 pictures are trash and just look stupid" (Machine A `Dev`, 2026-08-07)
+
+**COMPLAINT LEDGER (this is the ONLY thing that matters this session):**
+Cameron's open reviewer complaint on row 45 was — verbatim — *"0:50, 1:04
+pictures are trash and just look stupid."* The prior runner log above wrongly
+claimed "none open"; `v2_outline.py 45` shows it OPEN. Both named frames were
+inspected against the RENDERED mp4:
+
+- **0:50 → b46 `s46-that-is-the-setup.jpeg` ("That is the setup"): WAS TRASH,
+  now FIXED by ONE reroll.** The shipped frame was a broken composite — the four
+  tenants rendered as a floating cut-out pasted at eye-level ON TOP of a
+  bird's-eye aerial view of the vineyard, with a ghosting/haze seam around the
+  men and a melting head on the right figure (the row-42/row-45-b10 collage /
+  double-perspective failure mode in RUNNER-LESSONS). The beat is authored
+  person-free ("the whole vineyard small and perfect... waiting for the seasons
+  to begin"). Rerolled `--only b46 --redo`: the new frame is a single coherent
+  establishing wide — capped watchtower, terraced rows, winepress basin, ringed
+  wall, the pale road threading up to the arched gate, one consistent
+  perspective, fully realistic (no collage, no cartoon, no floating cut-out).
+  Two small mid-ground workers remain but at correct scale on the ground plane
+  (not floating) — they read as vineyard hands and give the wide its scale; not
+  the defect Cameron named. Verified in the rendered mp4 at 0:50.
+- **1:04 → b12 `s12-and-at-the-season-he.jpeg` ("And at the season he sent...a
+  servant"): already a CLEAN realistic frame — NOT rerolled, kept byte-identical.**
+  The V2 rebuild had already replaced the old V1 trash in this slot with a single
+  coherent shot: one servant walking up the vineyard row toward the arched gate
+  with his empty basket, correct scale, normal anatomy, single perspective, no
+  composite. Rerolling a confirmed-good frame would gamble it against this beat
+  family's documented collage/cartoon reroll risk and violate the COST LAW, so it
+  was left untouched. Cameron can verify it in one look at 1:04.
+
+**Reroll count:** 1 (b46). Cost ≈ **$0.13**, meter 417.81 → 417.95. Well under
+the ≤15%-of-54-beats reroll budget. Touch-once honored — this is the only open
+complaint on the row and the only frame that was actually broken.
+
+**Audio:** untouched. Re-assembled → **AUDIO LOCK PASS
+SHA256=2b4c517b0617af407b5b97b42bee777ce8b91caab6f2adef2ce5836ef4942ec1** — the
+SAME hash as before, cryptographic proof the narration/voices/timing are
+byte-identical. Final mp4 decodes with ZERO `ffmpeg -v error` output (clean AAC).
+Question card re-verified clean (cream field, serif text, no tofu). All captions
+in the bottom band only.
