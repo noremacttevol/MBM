@@ -59,7 +59,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 45 | build-45-wicked-tenants | BUILT | 54 | OK | A-auto 2026-08-06 SHIPPED; C-FIX 2026-08-07 LIVE | ✅ |
 | 46 | build-46-seed-growing | BUILT | 32 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 47 | build-47-houses-on-rock-and-sand | BUILT | 37 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 48 | build-48-new-wine-old-bottles | BUILT | 0 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
+| 48 | build-48-new-wine-old-bottles | BUILT | 0 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 LIVE | ✅ |
 | 49 | build-49-water-to-wine | BUILT | 40 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 50 | build-50-noblemans-son | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — Cameron complaint "Cana → Kane-a" CLOSED: n1/n3 re-voiced, narrator now says KANE-a ("Kaina", whisper-verified), same AndrewNeural voice. 0 V2 stills → handed to picture runner to build on corrected audio. See QC.md "AUDIO FIX DONE". |
 | 51 | build-51-first-catch-of-fish | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — Cameron complaint "tear → tare" CLOSED: n4 re-voiced, "tear" (to rend) now spoken "tare"/care not "teer"/fear; caption stays "tear", same NARRATOR voice. 0 V2 stills → handed to picture runner to build on corrected audio. See QC.md "AUDIO FIX DONE". |
