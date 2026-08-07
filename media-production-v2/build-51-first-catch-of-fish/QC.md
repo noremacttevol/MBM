@@ -1,5 +1,40 @@
 # QC / RUNNER HANDOFF — build-51-first-catch-of-fish (Luke 5:1-11)
 
+## ✅ AUDIO FIX SHIPPED-TO-RUNNER — "tear" → "tare" (AUDIO-FIX job, Machine A `Dev`, 2026-08-07)
+The ORPHANED-FIX park is CLOSED at the audio authority (same de-orphan + correct-
+engine fix as row 50). Cameron: "still mispronouncing tear it should be like tare
+but its still spelled the same". The V1 mp4 (2026-07-29) reads n4's "the net began
+to tear" as "teer" (/tɪr/, crying); Cameron wants "tare" (/tɛr/, rip).
+
+- **Re-voiced n4** (the ONLY segment with "tear") through the SAME locked ElevenLabs
+  NARRATOR voice ("Brian", `nPczCjzI2devNBz1zQrb`, 44100/128 k). The earlier orphaned
+  fix used the WRONG engine (edge-tts, 24000/48 k — would have swapped the narrator
+  voice mid-video). Spoken word respelled `tear` → **`tare`** (the exact word Cameron
+  named; caption text stays "tear").
+- **Atempo-matched** (pitch-preserving) to the ORIGINAL duration: 10.266s → 10.266s
+  (delta 0.0003 s), so no still-window in beats_v2.py moves.
+- Placed the corrected mp3 in the AUTHORITATIVE V1 dir
+  (`media-production/build-51-first-catch-of-fish/audio/n4.mp3`) and set
+  **`AUDIO_FROM_V1_SEGMENTS = True`** in beats_v2.py — v2_assemble now rebuilds
+  narration from the V1-dir mp3s at the extract_beats offsets so the shipped cut
+  says "tare".
+
+**New audio baseline** (old V1-dir n4 was the "teer" take):
+- `n4.mp3`  md5 `87f4f5760d1c427f0c2919be3bbe84b7` → **`94dd26b224852d5a8262c3aec2c6a704`**
+- Nothing else changed: same "Brian" voice, same wording, same timing on all other
+  segments.
+
+**Verified.** Isolated `rebuild_audio_from_segments(extract(51))` → 159.753 s ==
+timeline 159.753 s (delta 0.0), narration rebuilt from 15 V1 mp3s. (Whisper still
+spells the word "tear" — it can't distinguish /tɛr/ from /tɪr/ orthographically —
+but the input grapheme "tare" is the real /tɛr/ word Cameron named.)
+
+**This row has ZERO V2 stills.** Nothing visual ships: board flipped **AUTHORED /
+Audio OK / Ready ✅** with the claim cleared so the picture runner builds it on this
+corrected audio (its AUDIO REBUILD copies the "tare" track). **Runner: safe to build.**
+
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 26 beats, ~148 s.
 

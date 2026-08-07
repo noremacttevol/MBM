@@ -48,6 +48,20 @@ Same for James and John together (jamesjohn-ref.jpeg: b17, b25, b26) and the
 crewman (crewman-ref.jpeg). Text locks alone do not hold a face.
 """
 
+# AUDIO-FIX 2026-08-07 (Machine A `Dev`): "tear" → "tare" pronunciation fix.
+# The authoritative V1 mp4 (2026-07-29) says "teer" (/tɪr/, crying) where n4 has
+# "the net began to tear" — Cameron: "still mispronouncing tear it should be like
+# tare but its still spelled the same". n4 (the ONLY segment with "tear") was
+# re-voiced through the SAME locked ElevenLabs NARRATOR voice ("Brian", 44100/128k
+# — the earlier orphaned fix used the WRONG engine, edge-tts 24000/48k) with the
+# spoken word respelled "tear" → "tare" (= /tɛr/, the rip sense Cameron named; the
+# caption text stays "tear"), atempo-matched back to the original duration (10.266s)
+# so no still-window moves. Corrected mp3 lives in the V1 dir's audio/. This flag
+# makes v2_assemble rebuild narration from the V1-dir mp3s at the extract_beats
+# offsets (the fix the STALE-V1 guard recommends) so the shipped cut says "tare".
+# Nothing else changed: same voice, same wording, same timing outside n4.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     "SIMON": (
         "SIMON LOCK: Simon is the same man in every shot — a fisherman of "
