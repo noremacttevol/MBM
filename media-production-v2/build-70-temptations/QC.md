@@ -50,7 +50,44 @@ anyone to a solo frame, reject.
 
 ---
 
-## 🅿️ RUNNER PARK — A-auto Machine A, 2026-08-06 (AUDIO RE-VOICE, out of runner scope)
+## ✅ AUDIO FIX DONE — AUDIO-FIX session, Machine A, 2026-08-06
+
+**Both of Cameron's row-70 audio complaints are CLOSED. $0 spent** (edge-tts is
+free; no Gemini, no ElevenLabs). Audio is now new-voice-clean and the row is
+handed to the picture runner to build on the corrected narration (0 V2 stills
+existed, so nothing visual was shipped — same handoff as rows 50/51).
+
+**COMPLAINT LEDGER (picture runner: surface this on the review card when you ship):**
+> Cameron: *"The narrator spells out 'I-S' instead of pronouncing the word like
+> it should. Also it mispronounced 'proceedeth' it should be pro-see-duhth."*
+- **"I-S" spelled out** → FIXED. n2's emphasis-caps `IS`/`IF` ("this **IS** my
+  Son", "the little word **IF**") were read letter-by-letter by edge-tts
+  (whisper heard caps "IS" as "I asked"). Build-local `SPOKEN` now lowercases
+  them **for the TTS only** — the caption still shows the caps. Re-voiced n2
+  (narrator/Andrew); whisper now hears "this **is** my son", "the word **if**".
+- **"proceedeth" mispronounced (wants pro-see-duhth)** → FIXED. j1 (Jesus/Eric)
+  respelled `proceedeth`→`proceeduth` in `SPOKEN`; measured with
+  check_pronunciation — "proceeduth" round-trips 100% back to "proceedeth" and
+  lands the pro-SEE-duhth target. Caption still shows "proceedeth".
+
+**New audio baseline (audio-immutability sanctioned re-voice — ONLY the two
+complained segments changed; the other 20 mp3s are byte-identical, untouched):**
+
+| seg | voice | old md5 | new md5 | old dur | new dur |
+|---|---|---|---|---|---|
+| n2 | narrator (AndrewNeural) | cbe712b38ed12326241f0978ac837913 | 9167d7ef38376b852737f14df29db716 | 18.437s | 19.891s |
+| j1 | jesus (EricNeural)      | 1d777bf6cae1e447fe41dc56a6f8f17e | 730bc3aad189af17efee3925a532ef2a | 7.802s  | 8.928s  |
+
+`SPOKEN = {"IS": "is", "IF": "if", "proceedeth": "proceeduth"}` in
+`make_narration.py`. Same voices, same wording, same timing everywhere except
+the two fixed segments (which run slightly longer — the runner recomputes the
+timeline from the mp3s at assemble time, exactly as it does for a fresh build).
+`v2_prompt.py build-70-temptations --check` still PASSES (42 beats). Board:
+NEEDS-AUDIO → AUTHORED / Audio OK / Ready ✅, claim cleared.
+
+---
+
+## 🅿️ RUNNER PARK — A-auto Machine A, 2026-08-06 (AUDIO RE-VOICE, out of runner scope) — RESOLVED ABOVE
 
 **Do NOT build this row until the narration is re-voiced.** The lowest-Ready
 runner reached row 70 and stopped here on the LEARNING LAW.

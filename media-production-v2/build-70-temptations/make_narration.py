@@ -80,8 +80,18 @@ SEGMENTS = [
     ("card", NARRATOR, 'He has stood where you stand — hungry, alone, offered every shortcut — and he held. Ask him. He knows how to help you hold.'),
 ]
 
-# Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# Per-segment spoken overrides this build decides for itself (caption keeps the
+# true spelling; only the TTS string changes). Added 2026-08-06 to close
+# Cameron's row-70 complaint: "The narrator spells out 'I-S' instead of
+# pronouncing the word like it should. Also it mispronounced 'proceedeth' it
+# should be pro-see-duhth."
+#   IS / IF — n2's caption emphasis-caps ("this IS my Son", "the word IF") were
+#     read letter-by-letter ("I asked"/"I-S") by edge-tts. Lower-casing them for
+#     the TTS only (caption still shows the caps) yields the spoken word; whisper
+#     round-trip: caps "IS" -> heard "I asked" (FAIL) -> "Is" -> heard "is" (OK).
+#   proceedeth — j1 (Jesus/Eric). "proceeduth" round-trips 100% as "proceedeth"
+#     and lands Cameron's pro-SEE-duhth target. Measured with check_pronunciation.
+SPOKEN = {"IS": "is", "IF": "if", "proceedeth": "proceeduth"}
 
 
 async def main():
