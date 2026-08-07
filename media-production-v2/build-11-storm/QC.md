@@ -4,6 +4,67 @@ Final candidate: `mark-4_calming-the-storm-realistic-v4.mp4`
 
 ---
 
+## ✅ RUNNER RE-CUT DONE — 2026-08-07 (Opus runner, Machine A `Dev`, UNATTENDED/HEADLESS)
+
+Executed the author's boat-lock REBUILD. Re-cut the 22 BOAT-locked beats against
+`PLACE-REF/boat.jpeg` (the plate = s07, KEPT byte-identical). AUDIO LOCK PASS
+SHA256 `631b100ce410…` (audio byte-identical, nothing re-voiced), 234.9 s, 20.8 MB,
+mp4 decodes with 0 `-v error` (not a row-31 corrupt-AAC).
+
+### COMPLAINT LEDGER — Cameron's OPEN complaint (his words → what THIS cut does)
+Cameron: *"too many pictures that are different then each other … 10 pictures of 4
+people in one kind of boat and 10 … of 5 in a different kind of boat and 10 … of 6
+in a different kind of boat … every picture needs to be uniform because some pictures
+dont have jesus in the boat at all and some have him in the front and some have him in
+the back. also the one that says they wake him with rough hands has someone else jesus
+being woken."*
+
+- **"different kinds of boat" → FIXED by IMAGE.** Every one of the 22 hull frames was
+  regenerated with `PLACE-REF/boat.jpeg` attached as a PLACE LOCK, so it is the SAME
+  boat in all of them — the same heavy overlapping planks, single amidships mast with
+  the furled/lashed sail, coiled bow rope, stone anchor, oil lamp and oar stations.
+  Verified frame-by-frame on the rendered stills (s04/s06/s08/s09/s10/s11/s12/s13/s14/
+  s16/s18/s19/s20/s22/s23/s24/s25/s27/s28/s31/s34). The boat is now locked like a face.
+- **"changing crew count (4/5/6)" → FIXED.** The crew is the same company; tight shots
+  read as CROPS of that boat (bodies exiting the frame edge), never a smaller crew in
+  an emptier boat. The whole-company aftermath frames (s27 standing, s34 closing circle)
+  show the consistent EIGHT.
+- **"some don't have Jesus at all / front / back" → FIXED (position-lock).** Whenever
+  Jesus is shown he is only-cream (the ONLY cream robe in every frame) and in ONE
+  consistent place: **asleep on the stern cushion** through the storm (s10, s13, s14 the
+  reveal), **standing in the stern** when he rebukes the wind (s19, s20), **with them**
+  after (s25, s27, s28, s31, s34). Never bow-ward, never mid-boat, never haloed. The
+  two wide storm frames that most glaringly had NO Jesus in the old cut (s10, s13) now
+  show him asleep, small and undisturbed, in the stern (one reroll each landed him —
+  the first-pass gen dropped the small stern figure).
+- **s16 "someone else being woken with rough hands" → FIXED.** The woken man in s16 IS
+  the locked Jesus (cream robe, dark wavy hair, full dark beard) reclining on the stern
+  cushion, a disciple's hand on HIS shoulder — no second bearded cream figure in frame.
+
+### Light-QC / rerolls (COST LAW)
+Viewed every one of the 34 rendered frames once (against `assets-realistic/`, the dir
+the assembler renders from — NOT the stale `assets/` roughs). **3 QC rerolls / 34 beats
+= 8.8% (< the 15% budget, < the 19% baseline):** s10 + s13 (add the small stern-asleep
+Jesus the complaint asked for), s09 (first take was a far-aerial with a tiny anonymous
+rowboat that read as a *different* boat — the reroll landed THE fishing boat with the
+crew aboard, matching the fleet, under the storm downdraft spilling off the hills, which
+also fits the "cold wind spills down those slopes" narration). No collage/cartoon/mixed
+frame, no modern object, no burned-in text, no lens-stare on a single subject, no giant
+figures, beards consistent, bailing throws water OUT over the gunwale (action-logic law).
+
+### FIX-WAVE (kept best take, NOT reroll-chased — subtle/coverage, no complaint repeat)
+- s11 second bailer's scoop is a borderline mid-motion; the dominant near bailer clearly
+  flings water OUT over the side, so the frame reads correctly as bailing. Minor.
+- s09 storm-downdraft wide is dramatic; the boat is mid-distance — reads as the fishing
+  boat, uniformity fine. (Logged only so the fix wave can push the boat larger if wanted.)
+
+### Cost
+Session image spend ≈ **$3.35** (22 rebuild regens + 3 QC rerolls = 25 × $0.134;
+meter 430.01 → contribution). Under the $6.10/row average and the ~$3 rebuild estimate;
+reroll rate 8.8% — trend DOWN (COST LAW satisfied). Touched the row ONCE.
+
+---
+
 ## ✅ AUTHOR REBUILD DONE — 2026-08-07 (Author lane, Machine A `Dev`), $0 authoring spend
 
 Answers Cameron's OPEN v4 complaint (COMPLAINT LEDGER below): *"10 pictures of 4
