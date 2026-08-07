@@ -1,3 +1,45 @@
+## 2026-08-07 — ROW 55 C-FIX SHIPPED + LIVE: withered-hand man identity fixed ("look the same in every picture") — Machine A `Dev`
+
+**Commit:** claim = `9eeed259c`; fix (mp4 + anchor + QC + board) = `a69becfab73b75fcebf7b8ec9a5a60937be70638`; review.html ship = `790ca5a6b`; memory-feed (RUNNER-LESSONS + stash) = `85af95f16`; this log = (this commit).
+
+Picked up as a COMPLAINT-FIRST + LOW-NUMBER C-FIX on AUTHOR-BOARD row 55
+(build-55-withered-hand, Mark 3:1-6). Cameron's OPEN complaint (`v2_outline.py 55`):
+*"1:34 mutalated double right arm; 0:12 doesn't match the person in the first. Alot more
+of these pictures have the person with the withered hand not looking the same. I talked
+about this and it needs to get fixed. If your going to make a video about someone they
+need to look the same in every picture in that story."*
+
+- **ROOT CAUSE (confirmed repeat of the row-52 face-flip class):** the A-auto first ship
+  never built the hand-man face anchor that the CAST-REF NOTE in `beats_v2.py` prescribes.
+  With a text LOCK only (no `REFS`/image), every MAN-locked beat reinvented his face — so
+  the "same man" was actually 4+ different people: s02/s15/s17 the intended ~52
+  grey-streaked-short-beard man, but s03 a heavy full-grey beard, s09 an elderly
+  long-white-beard man, s10 a YOUNG dark-haired/dark-beard man. Cameron's two timestamps
+  are examples of that one drift.
+- **FIX (one touch-once re-cut):** cropped the accepted s15 to the man alone →
+  `CAST-REF-V2/hand-man-ref.jpeg`, wired `REFS = {"MAN": ...}` so the anchor now
+  auto-attaches to every MAN-locked beat (gen log printed `[+1 char ref: MAN]`). Rerolled
+  ONLY the 4 drifted/defective frames against it: **s03 (0:12)**, **s09**, **s10** — all
+  now the one canonical man; **s18 (1:34)** — the strict-profile pose had rendered the
+  near arm twice (reaching + fisted at belt = "double right arm"); reroll gave one clean
+  arm, five fingers. Kept the 8 already-matching frames byte-identical (s01/s02/s11/s15/
+  s17/s19/s20/s23) — no needless rerolls.
+- **Verified:** re-assembled → **AUDIO LOCK PASS SHA256=3648a04f…869c** (byte-identical
+  narration, NO re-voice); rendered-mp4 QC at 0:12 and 1:34 confirms the canonical man,
+  captions in the bottom band only. Deployed Firebase hosting; live page carries hash
+  `a69becfab73b`; mp4 HTTP 206/200, content-length 19,409,983.
+- **Cost:** 4 rerolls / 23 beats = 17% (marginally over the 15% budget — justified: the
+  complaint's whole subject is identity consistency; 3 frames were wrong-PERSON + 1 a
+  named anatomy defect, and touch-once forbids leaving any known defect for a later
+  re-cut). **$0.54 this run**, well under the $6.10/row average.
+- **Memory:** RUNNER-LESSONS gets a mechanical DETECT rule — at claim time for any row
+  tracking one non-Jesus character across ≥3 legible-face beats, `grep -q 'REFS *=' beats_v2.py`;
+  if absent, the face is unheld and WILL flip — build the anchor BEFORE light-QC. Plus a
+  profile-arm sub-lesson. Board row 55 → C-FIX SHIPPED; review card answers his complaint
+  in his own words.
+
+---
+
 ## 2026-08-07 — ROW 59 C-FIX triaged → PARKED NEEDS-REBUILD (author-domain), $0: "second feeding" scholarship complaint — Machine A `Dev`
 
 **Commit:** claim = `6edf4e6ff`; park (AUTHOR-BOARD + build QC.md + RUNNER-LESSONS) = `9c96d2328`; this log = (this commit).
