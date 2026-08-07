@@ -1,3 +1,17 @@
+## 2026-08-07 — ROW 51 (first-catch-of-fish) C-FIX SHIPPED — first 2 pictures were sideways — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `656c343e5` (board+QUEUE → C-FIX LIVE) · ship `9c84a3e180a3` (mp4 + QC + boards + api-spend) · review.html+SESSION-LOG this commit. **Session-chain verified at start:** then-top commit `cddbff014` (Row 71 C-FIX ship) present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 51` first.
+
+**Complaint (Cameron, against the shipped cut — `v2_outline.py 51`):** *"first 2 pictures are sideways and bad replace them."* Confirmed on view: both s01 (the-crowd-pressed) and s02 (two-empty-boats) had rendered rotated 90° — horizon vertical, figures/boats on their side.
+
+**Domain: PICTURE.** Rerolled ONLY the two offending beats (`v2_gen_api.py --only b01 b02 --redo --ceiling 524`). s01 now upright — Jesus (cream, dark wavy hair, full beard, no halo) centered, crowd pressing in, every gaze converging on him, lake + beached boats behind. s02 now upright — two empty cedar boats beached, brown nets over the gunwales, no fish, distant crowd a soft blur, gulls on the stones. Both verified upright in the RENDERED mp4 (frames @2.5s/@7.0s), captions in the bottom band, question card clean @152s. Face gate exit 0.
+
+**Touch-once:** the row's only other (prior) complaint "tear→tare" was already CLOSED and is untouched here. **Audio byte-identical** — re-assembled → AUDIO REBUILD PASS SHA256 `e82b1aaf…` = the SAME hash as the prior ship (narration/voices/timing unchanged). **COST:** 2 rerolls / 26 beats = **7.7%** (under 15% budget), **~$0.27** this re-cut (well under the $6.10/row avg — a targeted 2-frame re-cut). Meter $498.35 → $498.61.
+
+**Ship:** commit `9c84a3e180a3`; review.html v51 → data-hash + `?v=9c84a3e180a3`, C-FIX flag answers the complaint in Cameron's words. Deployed `firebase deploy --only hosting` + live-verified on `milk-b4-meat.web.app`. Board+QUEUE → C-FIX SHIPPED.
+
+---
+
 ## 2026-08-07 — ROW 22 (unmerciful-servant) C-FIX → NEEDS-AUDIO PARK + wrote the rule Cameron asked for — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** claim `e90ceaea9` (board → NEEDS-AUDIO) · this park+law commit (SPEAKER-LAW ban + RUNNER-LESSONS + audio-lane prompt + QC.md RUNNER PARK + board token-fix + SESSION-LOG). **Session-chain verified at start:** then-top row-72 C-FIX ship `0b6a38acf` present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 22` + RUNNER-LESSONS + SPEAKER-LAW first.
