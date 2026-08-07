@@ -306,6 +306,20 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   and a MANDATORY reroll on sight; one `--redo` landed a single coherent
   establishing wide. Check every "whole place laid out / the setup / establishing"
   wide for a pasted-in perspective mismatch, not just multi-worker beats.
+- **A CRUCIFIXION establishing wide that names all three crucified men AND asks for
+  a "far-off, from down the slope, behind the watchers" distant wide is a STRUCTURAL
+  double-perspective composite magnet (row 95 thief-on-cross b01, 2026-08-07).** Both
+  the first gen (floating cut-out heads + haze seam over the hill) and the 1 redo
+  returned a giant foreground trio composited over tiny distant watchers — the beat
+  wants the three men legible AND far away at once, so the model splits it into two
+  perspectives (same family as row-45-b46 / row-114). It is NOT a coin-flip a runner
+  wins: keep the coherent take, FIX-WAVE it (author makes b01 a person-free HILL-plate
+  establish or places the three at true distance on the crosses), and do NOT burn a
+  3rd reroll on the passion-block opener. Watch the b01 opener on rows 94/95/96 (the
+  Golgotha block) specifically. Distinct sub-variant seen same row: b11 came back a
+  STACKED DIPTYCH (a clean portrait two-shot on top, an unrelated landscape band on
+  the bottom, hard horizontal seam) — that one IS a coin-flip a single `--redo` fixes
+  (landed a clean rope-bound Jesus↔thief two-shot).
 
 - **A MODERN CITY SKYLINE renders behind an ancient-city OVERLOOK wide** (row 83
   b02 "he stopped," the Mount-of-Olives view of Jerusalem): a wide that paints a

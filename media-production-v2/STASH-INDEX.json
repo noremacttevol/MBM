@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 13:36:06",
+ "scanned": "2026-08-07 13:53:56",
  "entries": [
   {
    "row": 1,
@@ -4106,7 +4106,7 @@
    "wide": false,
    "night": false,
    "n_person": 1,
-   "scene": "Close on Jesus in the last of the light. He is completely spent \u2014 his shoulders down, his face drawn and hollowed with tiredness, dark shadows under his eyes, his lips dry and cracked from a whole day of talking. He has "
+   "scene": "Close on Jesus in the last of the light \u2014 unmistakably the same man as the reference face, only tired. He carries the weariness in his body: shoulders settled low, his gaze soft and heavy-lidded, breathing slow after a w"
   },
   {
    "row": 11,
@@ -42946,6 +42946,168 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame opens the circle outward: the centre cross high and steady against the vast cold sky, the hill's small figures scattered below it \u2014 and at the picture's near edge, empty ground: bare grey rock in the fo"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b01",
+   "file": "build-95-thief-on-the-cross/assets/s01-two-criminals-were-crucified-with.jpeg",
+   "tokens": [
+    "HILL",
+    "MOCKER",
+    "THIEF"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The grey morning holds, the camera down the slope behind the scattered watchers, the three of them against its cold sky: the centre cross and its two companions, one either side exactly as the sentence orders \u2014 and from "
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b02",
+   "file": "build-95-thief-on-the-cross/assets/s02-that-was-one-of-them.jpeg",
+   "tokens": [
+    "MOCKER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the left cross, chest-up: the gaunt face twisted sideways toward the centre, every line of it curdled \u2014 the thin beard jerking with the effort of each mocking breath, the eyes bright with a bitterness that has d"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b03",
+   "file": "build-95-thief-on-the-cross/assets/s03-dost-not-thou-fear-god.jpeg",
+   "tokens": [
+    "HILL",
+    "MOCKER",
+    "THIEF"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The rebuke crosses the hill, the camera off the cross-line's side so all three read in one profile, in front of the silent centre: the broad worn face on the right cross turned hard toward the left, voice grinding up fro"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b04",
+   "file": "build-95-thief-on-the-cross/assets/s04-and-we-indeed-justly-for.jpeg",
+   "tokens": [
+    "THIEF"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a man performing the rarest act on the hill: telling the truth about himself \u2014 WE, INDEED, JUSTLY \u2014 the word coming off the broad worn face without flinch or excuse, a whole criminal life signed for in one breat"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b05",
+   "file": "build-95-thief-on-the-cross/assets/s05-but-the-other-one-stopped.jpeg",
+   "tokens": [
+    "HILL",
+    "MOCKER",
+    "THIEF"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The hill goes quiet along its terrible line: on the left the gaunt face turned away at last, the spite run out of it, eyes gone to the empty grey sky \u2014 on the right the broad face still lifted, breathing hard from the sp"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b06",
+   "file": "build-95-thief-on-the-cross/assets/s06-getting-what-we-deserve-he.jpeg",
+   "tokens": [
+    "THIEF"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The worn head turns its last turn: away from the silenced mocker, across the little distance of grey air, toward the man on the centre cross \u2014 and the face changes as it travels: the rebuker's hardness draining, somethin"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b07",
+   "file": "build-95-thief-on-the-cross/assets/s07-lord-remember-me-when-thou.jpeg",
+   "tokens": [
+    "HILL",
+    "THIEF"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Across the gap between two crosses the smallest prayer ever prayed goes over: LORD \u2014 REMEMBER ME \u2014 not save me, not take me down, not even forgive me: just don't forget I existed, when you come into whatever is yours \u2014 a"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b08",
+   "file": "build-95-thief-on-the-cross/assets/s08-no-good-deeds-to-offer.jpeg",
+   "tokens": [
+    "THIEF"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man with nothing: no purse ever again, no years left to be better in, no deed anywhere behind him fit to mention at a gate \u2014 the broad face worn down to its last hour holding not one bargaining chip, not one"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b09",
+   "file": "build-95-thief-on-the-cross/assets/s09-just-a-dying-man-asking.jpeg",
+   "tokens": [
+    "THIEF"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The answer comes back bigger than the ask: Jesus's face turned full toward the worn-out asker, the drawn features gathering for the cost of speech and spending it royally \u2014 VERILY \u2014 TODAY \u2014 WITH ME \u2014 IN PARADISE \u2014 a man "
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b10",
+   "file": "build-95-thief-on-the-cross/assets/s10-today-not-someday-not-after.jpeg",
+   "tokens": [
+    "THIEF"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the word arriving where no good news ever came: the thief's face as TODAY lands on it \u2014 the disbelief of a man checking the promise for the catch and finding none, then the breaking, then, spreading slow across "
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b11",
+   "file": "build-95-thief-on-the-cross/assets/s11-today-the-faith-of-a.jpeg",
+   "tokens": [
+    "HILL",
+    "THIEF"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The closing frame keeps the two neighbours: the centre cross and the right one side by side against the cold grey sky, the two faces turned each other's way and both, now, at rest \u2014 between them nothing but a few feet of"
   },
   {
    "row": 101,
