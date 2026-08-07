@@ -133,6 +133,17 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **Fair-haired / blue-eyed drift on locked cast** (BUILDER in a FIX-WAVE
   note): locks say dark hair/eyes — check every named person against their
   lock even when the face "looks fine".
+- **Warm/golden side-light washes a locked dark-haired figure GINGERY-ORANGE**
+  (row 69 b12/s12 — Cameron C-FIX "John's hair changed to orange").** A
+  black-haired locked character (John, whose lock even says "sun-shot black
+  hair") in a low warm-sun frame can render a light sandy grey-gingery top
+  that reads ORANGE next to the same character's black hair in cooler frames.
+  It is NOT subtle drift to ignore — Cameron reads it as a character/reference
+  break. Check every locked-cast frame's HAIR TONE against the reference,
+  weighting warm-lit / backlit / low-sun frames hardest; a lone warm frame
+  among cooler ones is the tell. One `--only <beat> --redo` re-anchors to the
+  ref and lands the correct dark hair. When only 1 of N frames drifts, reroll
+  JUST that frame — the others are already correct (13/14 were fine on row 69).
 - **PLATE frames propagate their defects** (b41 lamp was IN the plate): QC the
   plate/anchor frame FIRST and hardest — every later beat of that place
   inherits its mistakes.
