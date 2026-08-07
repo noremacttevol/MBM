@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 16:02:51",
+ "scanned": "2026-08-07 16:15:15",
  "entries": [
   {
    "row": 1,
@@ -36940,6 +36940,20 @@
    "night": false,
    "n_person": 1,
    "scene": "Close on the seated figure in the window shaft's plain light: the undyed cream robe, the carpenter's hands at rest on the knees, the warm familiar hometown face \u2014 nothing added, nothing shining \u2014 the same living presence"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b21",
+   "file": "build-73-this-day-fulfilled/assets/s18-going-out-today.jpeg",
+   "tokens": [
+    "SYNAGOGUE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "From just inside the small synagogue, the camera at the threshold: the plain plank door stands open onto the hometown \u2014 a sunlit dirt road, low pale-stone houses, an olive tree, the ordinary morning of Nazareth \u2014 and the"
   },
   {
    "row": 74,

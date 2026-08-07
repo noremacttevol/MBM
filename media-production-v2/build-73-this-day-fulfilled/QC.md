@@ -223,3 +223,44 @@ COMPLAINT LEDGER — the review card must tell Cameron, in his words, both are f
 2. "the first 2 pictures make Jesus look one way and then another" → the two opening
    frames are rerolled against the one locked master face and gate-checked so He is
    the same man in both.
+
+## ✅ RUNNER C-FIX SHIPPED — 2026-08-07 (Opus runner, Machine A `Dev`, UNATTENDED/HEADLESS)
+
+Executed the author's remaining PAID steps in ONE re-cut (touch-once).
+
+RUNNER COMPLAINT LEDGER (both halves of Cameron's complaint, verified on the RENDERED mp4):
+1. MESSAGE ("not giving the fullness… teach how He MEANT it… He is risen and continues
+   the plan… the restored-Church way, church never named") → CLOSED by the author's
+   re-authored close (n4/n5 + rewritten card, ElevenLabs Brian, baked into the V1
+   segments). Verified in the delivered pixels: caption @130s reads "…the good news he
+   read that morning is going out into the world again in our own day — the year of the
+   Lord's favor has never once closed"; question card @146s reads "He read it as today
+   because, for him, it still is. The risen Lord is keeping every line of that promise
+   even now — and one of them was written with you in mind. What would it mean if he
+   were reading it, today, over your life?" His own words (j1/j2 Isaiah 61) stay central;
+   the Church is never named. Two-Voice intact (no new words in Jesus's mouth).
+2. FACE DRIFT ("the first 2 pictures make Jesus look one way and then another") →
+   Face-boarded s01 & s02 vs JESUS-MASTER-REF/jesus-face.jpeg AND the build's canonical
+   Jesus (s06 the 21-s centerpiece, s09, s16). s01 already matched the canon (warm full
+   oval face, dark wavy hair; its slightly lighter hair in the doorway is backlight, not
+   drift) → KEPT (saved a credit, per author's "reroll only the drift(s)"). s02 was the
+   true outlier (lean/angular face, read as a different man) → REROLLED (v2-r073-b02 --redo,
+   face lock on). New s02: warm full oval face, dark brown-black wavy hair, dark beard,
+   warm tan, cream-only — same man as s06/s09/s16. Face gate exit 0; --check v4 PASS.
+
+PAID WORK: gen s18-going-out-today.jpeg (b21, NEW, no Jesus) + reroll s02 (drift fix).
+  - s18 first take had a utility pole + power lines + modern houses (must_not_show
+    "no modern element") → redo #1 (period stone houses, faint sky wire) → redo #2
+    (best take: ancient cut-stone street, olive tree, two robed figures walking out).
+  - FIX-WAVE: s18 still carries a faint hairline in the bright upper sky that can read
+    as an overhead wire. Per RUNNER-LESSONS I hit the per-frame reroll cap (2) AND the
+    total reroll budget (3/21 = 14.3%; a 4th breaches the 15% COST LAW) → kept best take,
+    deferred to the fix wave. Subtle background drift, not a foreground defect.
+  - All other 16 stills BYTE-IDENTICAL. Reused teaching stills: b18=s06, b19=s09, b20=s16.
+
+ASSEMBLE: v2_assemble.py 73 → AUDIO REBUILD PASS SHA256=6f74796ddc4e6a4d…, 154.322s,
+  20.0MB (rebuilt from 12 V1 segment mp3s incl. new n4/n5/card). audio_audit --rows 73:
+  A=0 B=0 C=0. Caption band bottom-only, question card clean.
+
+COST: 3 rerolls / 21 beats = 14.3% (under 15% budget); ~$0.53 image (meter $495.67→$496.20).
+  Below the $6.10/row average — a complaint-fix re-cut on an already-authored package.
