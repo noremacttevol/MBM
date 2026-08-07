@@ -147,6 +147,30 @@ complaints i keep submitting." Therefore:
     frames. Any giant/shrunken figure fails the still even if the face
     and beard pass.
 
+15. **VISION EMBODIMENT — when Cameron ASKS for the Father to be shown
+    (Cameron, 2026-08-07 — build-179-stephens-witness, Acts 7: "The vision
+    scene (Acts 7:55-56) must clearly show two distinct glorified personages
+    in radiant heavenly light: God the Father and His Son Jesus Christ
+    standing at the Father's right hand. Portray them as separate embodied
+    beings, just as Stephen saw them — not as one figure, not as Jesus only,
+    and do not add a dove or Trinitarian symbol. Use a reverent, luminous
+    style like official Latter-day Saint gospel art").** The default gate is
+    still "God / the Father is never embodied" — BUT where a filed complaint
+    explicitly asks to depict the vision of the Father and the Son (Stephen's
+    vision, the First Vision, and the like), that complaint GOVERNS that row's
+    vision beats and the general gate is overridden THERE ONLY. In such a
+    beat: show the Father and the Son as TWO distinct, separate, embodied,
+    glorified persons in radiant white light, the Son STANDING at the Father's
+    right hand, reverent and luminous like the Latter-day Saint Gospel Art
+    Book. NEVER merge them into one figure, NEVER show Jesus only or the
+    Father only, and NEVER add a dove, triangle, all-seeing eye, cross or any
+    Trinitarian symbol. Everywhere else in the same row there is still no
+    divine figure. The drift-word gate bans the literal words halo/glow/
+    rim-light, so word the light as radiant/luminous/brilliant white light in
+    the SKY, never a ring around a head. A pass that un-embodies such a vision
+    (unseen presence, single figure, Jesus-only, or a symbol) RE-OPENS the
+    complaint — the worst failure.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.
