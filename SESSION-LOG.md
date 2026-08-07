@@ -1,3 +1,26 @@
+## 2026-08-07 — ROW 54 C-FIX shipped + live-verified: "leprosy on Jesus's hand at 1:01" — Machine A `Dev`
+
+**Commit:** mp4+assets+QC+board+meter = `02377254558e0dec518903df36f9b9c81ed68c4d`; review.html card + this log = (this commit, by pathspec).
+
+Cameron's OPEN reviewer complaint on AUTHOR-BOARD row 54 (Mark 1:40-45, the leper),
+verbatim: *"1:01 looks like Jesus had lepracy on his hand. That is wrong."* Complaint-first
+outranked all else. **Root cause:** at the touch, the image model painted the leper's
+"ashen scaled skin" texture onto whatever skin sits at the point of contact — so Jesus's
+own hand/forearm picked up the leprosy patches in the two frames where his hand rests on
+the leper's marked skin: **b14 `s14`** (1:01, the frame Cameron named) and **b12 `s12`**
+(0:52, same defect one beat earlier). His hand read as diseased.
+- **FIX (row-39 targeted image-EDIT pass, NOT a reroll):** attached each finished frame to
+  gemini-3-pro-image with an edit-only instruction — repaint ONLY Jesus's hand/wrist/forearm
+  as healthy warm olive-brown skin, keep the leper's marks and every other pixel. QC'd each
+  candidate full-frame (FACE-BOARD: no new figure, no crop/light drift) and promoted over
+  the original. Swept touch-once: b11 (hand mid-air) / b13 / b15 all already clean — only
+  b12 + b14 carried it. The disease now lives on the leper alone in every frame.
+- **AUDIO LOCK PASS** SHA256 `8691209c…39ef` — narration byte-identical, NOT a re-voice.
+- **Cost:** 2 edits × $0.134 = **$0.27**, 0 discarded takes → **0% rerolls** (well under the
+  ≤15% budget and the $6.10/row running average — the cost trend stays down).
+- Verified the rendered mp4 at 1:01 and 0:52: Jesus's hand is clean healthy skin, leper keeps
+  his marks, captions in the bottom band.
+
 ## 2026-08-07 — ROW 42 C-FIX shipped + live-verified: "captions are messed up / don't match the words" — Machine A `Dev`
 
 **Commit:** mp4+QC+beats_v2 = `fae898d9907629005b6c9b65407992cdb1b7a4f5` (a concurrent sibling lane's row-48 commit absorbed my staged index — verified my content is in that commit and on origin/main per RUNNER-LESSONS); card+lessons+boards+log = (this commit, by pathspec).
