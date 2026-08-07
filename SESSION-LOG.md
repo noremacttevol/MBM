@@ -1,3 +1,24 @@
+## 2026-08-07 — C-FIX row 22 unmerciful-servant PARKED NEEDS-AUDIO (audio-pronunciation, out of runner scope), $0 — Machine A `Dev`
+
+**Commit:** (this commit — QC.md §0 + AUTHOR-BOARD row 22 + this entry, by pathspec)
+
+Cameron's OPEN complaint on the shipped row-22 cut: **"2:46 Jesus mispronounces shouldest
+it should be should-est."** Pure AUDIO-pronunciation. The word is in spoken segment **j5**
+(the king's rebuke, KJV Matthew 18:32-33 "...Shouldest not thou also have had compassion
+on thy fellowservant..."), window 159.95–172.53 s; "Shouldest" lands at ~2:46. The only
+fix is a re-voice (add a SPOKEN respelling for "shouldest" + regenerate `j5.mp3` +
+re-assemble), which the picture-runner is FORBIDDEN to do (audio-immutability; AUDIO LOCK
+is its only proof). Checked the "already-baked-in → ship" exception (RUNNER-LESSONS row
+57): `make_narration.py` SPOKEN is `{"owest": "owesst"}` only — **no override for
+"shouldest"**, so the mispronunciation is live in the mp4 (j5.mp3 dated Jul 28), the fix
+is NOT rendered → park, do not ship. **No picture defect in the complaint, nothing to
+reroll, $0 spent, no pictures touched.** Board row 22 flipped BUILT→NEEDS-AUDIO, Audio
+OK→CHECK, with the author resume in the Claim cell and QC.md §0 RUNNER PARK. Reviewer
+still shows the existing shipped cut (unchanged — a park does not ship, no deploy).
+Author resume: `SPOKEN.update({"shouldest":"should-est"})` (A/B-test the `-est` spelling
+per PRONUNCIATION-LAW Trap 2, mirror `shewest→show-est`), regenerate j5.mp3, re-assemble,
+ship via the normal C-FIX flow.
+
 ## 2026-08-07 — C-FIX row 19 shore PARKED NEEDS-AUDIO (MIXED complaint; audio-pacing part is out of runner scope), $0 — Machine A `Dev`
 
 **Commit:** (this commit — QC.md §0 + AUTHOR-BOARD row 19 + this entry, by pathspec)
