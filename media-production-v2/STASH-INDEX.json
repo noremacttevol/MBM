@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 08:52:44",
+ "scanned": "2026-08-07 09:13:41",
  "entries": [
   {
    "row": 1,
@@ -35563,6 +35563,524 @@
    "night": false,
    "n_person": 1,
    "scene": "Close on the seated figure in the window shaft's plain light: the undyed cream robe, the carpenter's hands at rest on the knees, the warm familiar hometown face \u2014 nothing added, nothing shining \u2014 the same living presence"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b01",
+   "file": "build-74-woman-washed-his-feet/assets/s01-a-pharisee-named-simon-invited.jpeg",
+   "tokens": [
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the spotless lamplit dining room, the camera at the side wall taking couches and host from the side, the dinner proceeds correctly: Jesus reclining at the low table among Simon's chosen guests, feet stretched away on "
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b02",
+   "file": "build-74-woman-washed-his-feet/assets/s02-it-was-a-careful-respectable.jpeg",
+   "tokens": [
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close on the room's precision: bronze dishes set at exact intervals, folded cloths squared at each place, the lampstands' flames trimmed level \u2014 and at the frame's edge, past all the order, the courtyard doorway standing"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b03",
+   "file": "build-74-woman-washed-his-feet/assets/s03-a-woman-from-the-town.jpeg",
+   "tokens": [
+    "WOMAN",
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Through the courtyard door, the camera at the room's far corner taking door and table from the side, the woman steps into the lamplight \u2014 modest in her wine-dark dress and grey shawl, hair bound, the alabaster flask held"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b04",
+   "file": "build-74-woman-washed-his-feet/assets/s04-she-carried-an-alabaster-jar.jpeg",
+   "tokens": [
+    "WOMAN",
+    "JAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on her two hands in the lamplight: the small pale alabaster flask held against her chest \u2014 translucent at its shoulders where the lamp comes through, the narrow neck still sealed, the stone worth more than everythi"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b05",
+   "file": "build-74-woman-washed-his-feet/assets/s05-she-stood-behind-him-at.jpeg",
+   "tokens": [
+    "WOMAN",
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The reclining geometry holds the moment, the camera in profile along the couch: Jesus stretched on the couch with his feet away from the table's edge \u2014 and behind them, at the couch's foot, the woman stands with the flas"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b06",
+   "file": "build-74-woman-washed-his-feet/assets/s06-her-tears-fell-on-his.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Extreme close at the couch's foot: her tears falling one after another onto his bare feet \u2014 the drops landing in the road's dry dust still on them and cutting small clean tracks through it \u2014 the washing no servant offere"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b07",
+   "file": "build-74-woman-washed-his-feet/assets/s07-she-wiped-them-with-her.jpeg",
+   "tokens": [
+    "WOMAN",
+    "JAR"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Kneeling now at the couch's foot the woman performs her whole liturgy: the dark hair loosed from its binding and drawn like a cloth across his wet feet, her lips pressed once to the arch in a kiss of pure reverence \u2014 and"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b08",
+   "file": "build-74-woman-washed-his-feet/assets/s08-this-man-if-he-were.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Simon's precise face in the lamplight: the lips pressed correct and closed, and behind them the whole verdict running legible through the measuring eyes \u2014 the glance flicking from the kneeling woman to the untro"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b09",
+   "file": "build-74-woman-washed-his-feet/assets/s09-simon-i-have-somewhat-to.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Across the table Jesus's face turns to the host \u2014 mild, direct, and precisely timed \u2014 and Simon's startle betrays everything: the measuring eyes widening a fraction, the correct spine straightening, a man discovering tha"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b10",
+   "file": "build-74-woman-washed-his-feet/assets/s10-simon-thought-to-himself-if.jpeg",
+   "tokens": [
+    "WOMAN",
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "One frame holds the room's triangle, the camera at the side wall so all three points read in profile: at the couch's foot the woman bent over her anointing, hair loosed, wholly given \u2014 on the couch Jesus at perfect peace"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b11",
+   "file": "build-74-woman-washed-his-feet/assets/s11-he-never-said-a-word.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Simon at his place, the picture of a host: hands folded precisely on the table's edge, fringed shawl squared, face arranged into attentive courtesy \u2014 every word of the verdict locked behind manners so complete they could"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b12",
+   "file": "build-74-woman-washed-his-feet/assets/s12-master-say-on.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Simon inclines his head in careful permission \u2014 the slight precise bow of a man granting an audience, palms opening a measured inch \u2014 while behind the courtesy his eyes have gone watchful: a host suddenly aware that the "
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b13",
+   "file": "build-74-woman-washed-his-feet/assets/s13-there-was-a-certain-creditor.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "On a moneylender's worn table two debt-bills lie side by side in lamplight: one a long scroll dense with tally-strokes running column after column \u2014 five hundred \u2014 the other a modest single row \u2014 fifty \u2014 the same seal at"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b14",
+   "file": "build-74-woman-washed-his-feet/assets/s14-and-when-they-had-nothing.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Over the lender's table two strong hands tear both bills across in a single unceremonious motion \u2014 the long scroll and the short one ripped together, the halves dropping to the boards \u2014 five hundred and fifty cancelled i"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b15",
+   "file": "build-74-woman-washed-his-feet/assets/s15-tell-me-therefore-which-of.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Across the lamplit table Jesus puts the question to his host \u2014 face mild, tone visible in its gentleness, one eyebrow slightly raised in genuine invitation \u2014 the little story's single courteous door standing open before "
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b16",
+   "file": "build-74-woman-washed-his-feet/assets/s16-i-suppose-that-he-to.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Simon gives the answer the way men hand over contraband \u2014 slowly, at arm's length, the 'I suppose' visible in his hedging brows and half-turned head \u2014 a trained mind seeing the conclusion three moves away and finding no "
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b17",
+   "file": "build-74-woman-washed-his-feet/assets/s17-jesus-answered-the-thought-simon.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces hold across the lamplit table: Jesus's carrying the story's gentle precision, unhurried as a craftsman's measuring \u2014 and Simon's undergoing its slow exposure, the correct features loosening degree by degree"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b18",
+   "file": "build-74-woman-washed-his-feet/assets/s18-two-men-were-in-debt.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the moneylender's door two debtors wait in the same worn light: one aged grey and stooped under the weight of his five hundred, hat crushed in both hands \u2014 the other young and fidgeting over his fifty, shifting foot t"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b19",
+   "file": "build-74-woman-washed-his-feet/assets/s19-one-owed-ten-times-what.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the lender's table the tearing lands at two depths: the grey heavy debtor gone to his knees with both hands over his face, shoulders heaving \u2014 and the young light one grinning his quick relief, already straightening h"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b20",
+   "file": "build-74-woman-washed-his-feet/assets/s20-which-one-will-love-him.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the table the answer performs itself: the grey debtor gripping the lender's hand in both of his own, his forehead bowed down onto the knuckles, tears falling on the torn halves of his five hundred \u2014 while the fifty's "
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b21",
+   "file": "build-74-woman-washed-his-feet/assets/s21-and-he-was-right-he.jpeg",
+   "tokens": [
+    "WOMAN",
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Simon holds his correct answer like a man holding a receipt \u2014 and past his own shoulder, exactly in the line his eyes refuse, the woman kneels at the couch's foot with the empty flask beside her and her hair loosed over "
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b22",
+   "file": "build-74-woman-washed-his-feet/assets/s22-seest-thou-this-woman.jpeg",
+   "tokens": [
+    "WOMAN",
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Jesus turns on the couch \u2014 bodily, fully, toward the kneeling woman \u2014 while his question travels the other way to the host: SEEST THOU THIS WOMAN \u2014 and the room's every eye is dragged with his turning to the person it ha"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b23",
+   "file": "build-74-woman-washed-his-feet/assets/s23-i-entered-into-thine-house.jpeg",
+   "tokens": [
+    "WOMAN",
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The audit hangs visible in the room, the camera from the side holding both its poles: by the entrance the guest-basin stands dry and unused where no servant brought water, the folded towel still squared on its rim \u2014 and "
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b24",
+   "file": "build-74-woman-washed-his-feet/assets/s24-simon-gave-the-only-answer.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Simon's face at the concession's end: the answer given whole, the reluctance still draining from the careful features \u2014 and underneath both, arriving like weather, the first suspicion of where this courteous lit"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b25",
+   "file": "build-74-woman-washed-his-feet/assets/s25-then-he-turned-toward-the.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close between the two faces: Jesus's turned fully to the kneeling woman \u2014 the first face all evening to point itself AT her rather than around her \u2014 and hers rising slowly to the unfamiliar sensation of being looked at w"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b26",
+   "file": "build-74-woman-washed-his-feet/assets/s26-look-at-her-he-said.jpeg",
+   "tokens": [
+    "WOMAN",
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "At his word the whole room looks \u2014 every face down both arms of the table turned onto the kneeling woman at once \u2014 but the instruction has changed the looking's kind: where the evening's glances slid and judged, these ar"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b27",
+   "file": "build-74-woman-washed-his-feet/assets/s27-she-has-done-nothing-else.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through everything said above her the woman has not moved from her devotion: still kneeling at the couch's foot, still bent over the anointed feet, her loosed hair fallen forward, one hand resting light as breath on the "
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b28",
+   "file": "build-74-woman-washed-his-feet/assets/s28-her-sins-which-are-many.jpeg",
+   "tokens": [
+    "WOMAN",
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Over the kneeling woman the verdict goes out to the whole listening table: her many sins and their full forgiveness published in one breath as the reason for the room's most beautiful hour \u2014 her shoulders beginning to sh"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b29",
+   "file": "build-74-woman-washed-his-feet/assets/s29-when-i-walked-into-your.jpeg",
+   "tokens": [
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The evening's three omissions stand where they were left: the guest-basin dry by the door with its squared towel, the threshold stone unattended where no kiss of welcome was given, and on its shelf the little oil cruet s"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b30",
+   "file": "build-74-woman-washed-his-feet/assets/s30-her-sins-are-many-he.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The woman's face lifts at last into the lamplight \u2014 tear-bright, grief-worn, and breaking open with something the evening has no other word for than joy: the much-forgiven loving much, the whole doctrine running as one v"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b31",
+   "file": "build-74-woman-washed-his-feet/assets/s31-the-one-who-thinks-he.jpeg",
+   "tokens": [
+    "SIMON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Simon's face as the mirror arrives: the measuring eyes gone inward for the first time all evening, the correct features holding a hairline crack \u2014 a man hearing his own thin love traced back to its source in the"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b32",
+   "file": "build-74-woman-washed-his-feet/assets/s32-simon-had-been-sitting-there.jpeg",
+   "tokens": [
+    "WOMAN",
+    "SIMON",
+    "ROOM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The room re-reads itself in the lamplight: at the couch's foot the woman kneels crowned by the evening's verdict, the honoured figure of the house \u2014 and at the table's best place the host sits suddenly poorest in the roo"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b33",
+   "file": "build-74-woman-washed-his-feet/assets/s33-thy-sins-are-forgiven.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Eye to eye at last: Jesus gives the three words directly into the woman's lifted face \u2014 not over her to the table, not about her to the host, but TO her, first-person, at the distance of family \u2014 and the words land the w"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b34",
+   "file": "build-74-woman-washed-his-feet/assets/s34-who-is-this-that-forgiveth.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The table stirs down both arms: guests leaning head to head in urgent murmur, a hand covering a mouth, an elder's brows at his hairline, the question running couch to couch like spilled water \u2014 WHO IS THIS \u2014 while at the"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b35",
+   "file": "build-74-woman-washed-his-feet/assets/s35-he-did-not-answer-them.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Behind him the murmur runs its scandalized circuit \u2014 and none of it reaches him: Jesus's whole attention rests on the kneeling woman as if the table had emptied, his face unhurried and unfinished with her \u2014 a room's wort"
+  },
+  {
+   "row": 74,
+   "build": "build-74-woman-washed-his-feet",
+   "beat": "v2-r074-b36",
+   "file": "build-74-woman-washed-his-feet/assets/s36-thy-faith-hath-saved-thee.jpeg",
+   "tokens": [
+    "WOMAN",
+    "ROOM",
+    "JAR"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The sending and the hush share the frame: the woman risen and moving toward the courtyard door \u2014 shawl gathered, spine straighter than the one she entered with, going in the peace she was given \u2014 and behind her on the la"
   },
   {
    "row": 75,
