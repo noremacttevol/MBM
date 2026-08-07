@@ -37,6 +37,22 @@
 
 ---
 
+## 2026-08-07 — ROW 51 (The First Catch of Fish, Luke 5:1-11) REALISTIC V2 SHIPPED — Machine A `Dev` (UNATTENDED, HEADLESS)
+
+**Commits:** claim = `59cf7013c`; mp4+QC+boards (a) = `4c15ce7fa377f1d8a0386672d6347a9f9586816f`; review-card + this log (b) below. Session-chain verified at start (then-top = row 74 ship, `3ef2b5b65` present in `git log`); hostname `Dev` = Machine A.
+
+**Row picked per THE LOW-NUMBER LAW.** Row 51 was AUTHORED / Ready ✅ / empty claim (rows 50 RUNNING, others below already BUILT). QUEUE cross-check PASS — "The first catch of fish, Luke 5" matches the build, not a swap. Audio-fix was properly CLOSED this session-before: n4 "tear→tare" re-voiced through the locked ElevenLabs NARRATOR "Brian", authoritative V1-dir n4 = fixed baseline `94dd26b2…` (NOT the orphaned V2-dir edge-tts take), `AUDIO_FROM_V1_SEGMENTS=True`. So the picture runner builds it — ZERO V2 stills existed.
+
+**Built + shipped.** 2 portraits (SIMON pinned to global PETER sheets, CREWMAN) + 26 realistic stills. **AUDIO REBUILD PASS SHA256 `e82b1aaf…`, 159.8s, 20.7 MB** — narration rebuilt from the 15 V1-dir mp3s, so the "tare" take is cryptographically in the delivered mp4 (COMPLAINT LEDGER proof). Captions bottom-band only (verified early/mid extracted frames); question card renders clean (no tofu), closes "What is he calling you to leave behind, to follow him?". No stale-window truncation (card at 152s, total 159.8s ≈ audio 159.753s).
+
+**COMPLAINT LEDGER (row's only open complaint):** "still mispronouncing tear — it should be like tare but its still spelled the same" → FIXED at the audio authority AND proven in this cut's AUDIO REBUILD PASS. Review-card flag answers it in Cameron's own words.
+
+**QC (all 26 viewed once):** only Jesus in cream every frame; Jesus canonical; SIMON=PETER canonical held across s04/06/07/09/10/20/22/23/26; miracle action logic correct (net pays out, fish come up over the gunwale, water drains OUT); both-boats-sinking low but hulls above surface (waterline law); scale natural (no giant); no modern objects / lens-stares / second cream / oversized birds. **1 reroll / 26 = 3.8%** (s18 at-his-knees first take aged Simon ~15 yrs with a grey beard — protagonist identity break at the emotional peak; rerolled vs the Peter ref → canonical young Peter). **~$3.89 this row** (2 portraits $0.27 + 26 beats $3.48 + 1 reroll $0.13) — under the $6.10/row average, **COST LAW trend DOWN.** Meter $442.87 → ~$448.50.
+
+**Plate decision logged (runner "log it, don't improvise"):** author's QC named LAKE promote-first from b01 / BOATS from b02 "person-free," but b01 is Jesus+crowd and b02's own scene text authors in "the crowd around the distant teacher" (a distant cream Jesus). Can't edit scene text (hard rail) and can't promote a Jesus-bearing frame to auto-wiring (rubric 11 + v2_stash auto-wire refuses Jesus frames) — no clean plate candidate, so LAKE/BOATS stayed on text locks; boat uniformity QC'd by eye (one consistent cedar design). **FIX-WAVE noted:** crewman young/adult-twin drift (s12/s14), morning lighting continuity varies (all within "morning," no red sunset).
+
+---
+
 ## 2026-08-07 — ROW 74 (Woman Who Washed His Feet, Luke 7:36-50) REALISTIC V2 SHIPPED + rows 50/51/70 parked NEEDS-AUDIO — Machine A `Dev` (UNATTENDED, HEADLESS)
 
 **Commits:** parks 50 = `8323746b6`, 51 = `61d1d6b5a`, 70 = `b8999d4af`; row-74 claim = `7f8bb795e`; row-74 mp4+boards (7a) = `3ef2b5b65ded94f6f11464365dcaea9782cdca86`; review-card + this log (7b) below. Session-chain verified at start (then-top = row 84 ship, `c11166a96be8` present in `git log`); hostname `Dev` = Machine A.
