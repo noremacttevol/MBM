@@ -1,3 +1,21 @@
+## 2026-08-07 — ROW 50 (The Nobleman's Son, John 4) REALISTIC V2 SHIPPED — BOTH complaints CLOSED (q-card squares + Cana→KANE-a), verified on the rendered product — Machine A `Dev` (Opus picture runner, UNATTENDED/HEADLESS)
+
+**Commits:** claim = `3afc6aa04`; mp4 + QC + boards (7a) = `b1c9ec8946365965b9091053639be395b4c46e52`; review-card + this log (7b) below. All on origin/main (targeted `git add` of only this row's paths + boards + SESSION-LOG — the tree is ~150 files dirty from live autopilot lanes, so NEVER a tree-wide add/rebase/reset). Session-chain verified at start (then-top = rows 50/51/70 audio fixes, commit `6d16e87dd` present in `git log`); hostname `Dev` = Machine A.
+
+**The row.** AUTHOR-BOARD row 50 = AUTHORED / Ready ✅ / Audio OK / empty claim — lowest ready row (LOW-NUMBER LAW). QUEUE row 50 = "The nobleman's son, John 4" (not swapped). `--check` PASS (27 beats). Claimed A-auto, RUNNING→BUILT. The Cana→KANE-a audio fix (prior session) was already baked into the authoritative V1 mp3s + `AUDIO_FROM_V1_SEGMENTS=True`, so this was a clean picture build on corrected audio (RUNNER-LESSONS "audio-fixed pronunciation row" — verified the fix reached the shipping audio before spending).
+
+**COMPLAINT LEDGER (LEARNING LAW, both verified on the DELIVERED mp4).** (1) "the end page question has some squares on the end of every line" → the V2 card renderer reads clean line-by-line (@163s, zero tofu/box glyphs). (2) "we are still pronouncing Cana wrong its more like Kane-a" → assemble rebuilt narration from the ElevenLabs KANE-a V1 mp3s; faster-whisper of the delivered mp4 @0-8s = long-A "Kana" (not flat KAY-nuh, no /aɪ/ China drift). The reviewer card answers both in Cameron's own terms.
+
+**Build.** 27 stills at native 2K (V1 had 11), 166.1s, 20.8 MB. 2 portraits (NOBLEMAN, BOY). Plates: **CANA promoted-first from b01** (clean Cana lane, Jesus cream-only, gazes converging) → 6 beats; **ROAD kept as the author's committed build-38 wiring** (v2_stash --wire tried to overwrite it with build-79 — restored via `git checkout`); **HOUSE plate DECLINED on purpose** — the HOUSE token spans a night lamplit sickroom (b03-b06) AND a bright daytime colonnaded court (b27), so a single plate would bleed the wrong time-of-day onto the other (row-101/103 class) and a reroll can't fix it; people are already held by NOBLEMAN+BOY refs, and b27 rendered correctly as the bright day court with the sea view.
+
+**QC / rerolls.** 2 rerolls / 27 = **7.4%** (≤15% budget), both hard defects: b09 (outbound climb to Cana rendered walking DOWN to a near lake — backwards per the row-83 direction law; reroll re-anchored to a hill-road journey with water on the far horizon); b15 (a Jesus face-lock beat rendered a young man gripping the nobleman in a night house = missing named subject + wrong scene; reroll landed the correct Jesus+nobleman outdoor-midday plea). Row-15 grey-corpse check PASS (sick boy warm/alive every frame). Jesus one locked face across all his beats, cream-only, no halo/glowing eyes; realistic-only (Law 14 PASS). FIX-WAVE (no reroll): servant face drift (text-only lock), s09 lake-behind nuance, a faint rooftop line in s15.
+
+**Cost.** Gemini this row ≈ **$4.56** (meter 438.98 → 443.54), UNDER the $6.10 average — COST LAW held (trend down). Rerolls 7.4% under the 19% baseline. AUDIO REBUILD PASS SHA256 `3ceefa27…`.
+
+**Deploy + live-verify (7c).** `firebase deploy --only hosting`, then confirmed the live page carries the new hash and the mp4 returns HTTP 200 (see below). PUBLISH LOOP synced.
+
+---
+
 ## 2026-08-07 — ROWS 176, 177 & 178 AUTHORED (Ready ✅) + row 33 confirmed author-done — $0 Fable-5 author lane — Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** row 176 = `d57d5f4c0`; row 177 = `38c2c2090`; row 178 = `81fc3763b`. All on origin/main (each pushed as it finished; targeted `git add` of only that row's beats_v2.py + QC.md + ASSEMBLED-PROMPTS.txt + board line — the tree is ~140 files dirty from live autopilot lanes sharing it, so NEVER a tree-wide `git add -A` / rebase / stash / reset). Session-chain verified at start (then-top = rows 172/173/174/175 authored, commit `0d001c7dd` present in `git log`); hostname `Dev` = Machine A.
