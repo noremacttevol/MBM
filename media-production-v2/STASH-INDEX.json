@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 14:41:18",
+ "scanned": "2026-08-07 14:54:27",
  "entries": [
   {
    "row": 1,
@@ -6701,23 +6701,6 @@
    "night": false,
    "n_person": 3,
    "scene": "Martha's arm is extended and her finger is pointing down at Mary on the floor. Mary has turned and is looking up at her sister with her mouth slightly open, saying nothing. Around them the seated travellers have gone rig"
-  },
-  {
-   "row": 16,
-   "build": "build-16-mary-martha",
-   "beat": "v2-r016-b16",
-   "file": "build-16-mary-martha/assets/s16-the-room-went-quiet.jpeg",
-   "tokens": [
-    "MARTHA",
-    "MARY",
-    "GUESTS",
-    "HOUSE"
-   ],
-   "jesus": true,
-   "wide": true,
-   "night": false,
-   "n_person": 4,
-   "scene": "The whole lamplit room has gone completely still. Martha stands with her arm still half out, Mary sits on the floor looking up, the travellers are frozen around the low table, and not one person is moving or speaking. Th"
   },
   {
    "row": 16,
@@ -43774,6 +43757,223 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame catches the first sermon ever preached on a risen Lord: Mary arrived breathless in the doorway of the hidden room, face blazing with what it has seen, one hand flung back toward the garden and the morni"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b01",
+   "file": "build-99-flesh-and-bone-thomas/assets/s01-the-disciples-were-hiding-behind.jpeg",
+   "tokens": [
+    "ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The barred room is mid-fear, the camera at the wall behind the nearest shoulders \u2014 men huddled low around the lamps, voices kept under the shutters, the heavy beam seated hard in its brackets \u2014 and then the centre of the"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b02",
+   "file": "build-99-flesh-and-bone-thomas/assets/s02-they-thought-they-were-seeing.jpeg",
+   "tokens": [
+    "ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the terror doing its arithmetic: Peter's back hitting the wall with a thud, a cup going over and rolling, John's knuckles white on another man's sleeve \u2014 dead men do not stand in barred rooms, therefore this is "
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b03",
+   "file": "build-99-flesh-and-bone-thomas/assets/s03-he-calmed-them-and-showed.jpeg",
+   "tokens": [
+    "ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The proof begins with gentleness: Jesus's two hands opening out into the lamplight, unhurried, palms up \u2014 real hands with real weight and warmth in them, held where every wide eye in the room can look their fill \u2014 his vo"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b04",
+   "file": "build-99-flesh-and-bone-thomas/assets/s04-behold-my-hands-and-my.jpeg",
+   "tokens": [
+    "ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The invitation goes further than any ghost could follow: HANDLE ME, AND SEE \u2014 and trembling hands reach out of the lamplight to take his: Peter's big fingers closing around a wrist and finding pulse and warmth and bone, "
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b05",
+   "file": "build-99-flesh-and-bone-thomas/assets/s05-but-thomas-there.jpeg",
+   "tokens": [
+    "ROOM",
+    "THOMAS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "One man is missing from the miracle: out in the dark street Thomas walks alone with his grief, deep teal-blue shoulders bowed under the night, taking the long way nowhere the way the freshly bereaved do \u2014 while behind a "
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b06",
+   "file": "build-99-flesh-and-bone-thomas/assets/s06-and-when-they-told-him.jpeg",
+   "tokens": [
+    "ROOM",
+    "THOMAS",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The room throws its joy at him and it bounces: friends crowding Thomas from every side with the story \u2014 hands shaping the standing-there, the touching, the eating \u2014 and the practical face under the dark curls shaking slo"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b07",
+   "file": "build-99-flesh-and-bone-thomas/assets/s07-it-was-eight-days-later.jpeg",
+   "tokens": [
+    "ROOM",
+    "THOMAS",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "Eight days later, the camera behind the circle's near backs, the centre of the room is occupied again \u2014 the beam still in its brackets, the lamps mid-flicker \u2014 and this time the visitor's face goes one place first: strai"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b08",
+   "file": "build-99-flesh-and-bone-thomas/assets/s08-that-is-all-thomas-said.jpeg",
+   "tokens": [
+    "THOMAS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a face with nothing left to argue: the sceptical brows unknotted at last, the practical eyes shining wet in the lamplight, the mouth still half-open from the five words that emptied it \u2014 MY LORD AND MY GOD \u2014 the"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b09",
+   "file": "build-99-flesh-and-bone-thomas/assets/s09-reach-hither-thy-finger-and.jpeg",
+   "tokens": [
+    "THOMAS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The offer is made at point-blank range: Jesus's two hands open before Thomas's face, near enough that the lamp-warmth of them touches his skin \u2014 REACH HITHER \u2014 every test the doubter demanded, handed over unasked-for and"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b10",
+   "file": "build-99-flesh-and-bone-thomas/assets/s10-he-never-did-reach-out.jpeg",
+   "tokens": [
+    "THOMAS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The frame watches the famous test go untaken: Thomas's raised hand sinking slowly back down through the lamplight, finger uncurled and unused, the whole demanded experiment abandoned in mid-air \u2014 because his eyes have go"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b11",
+   "file": "build-99-flesh-and-bone-thomas/assets/s11-jesus-scold-him-for-doubting.jpeg",
+   "tokens": [
+    "ROOM",
+    "THOMAS",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 4,
+   "scene": "The wide lamplit room holds, the camera at the side so doubter and doubted read in one profile, the method: at its centre the doubter and the doubted face to face, the offered hands still open between them, the circle of"
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b12",
+   "file": "build-99-flesh-and-bone-thomas/assets/s12-you-believed-because-you-saw.jpeg",
+   "tokens": [
+    "THOMAS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the gentle bookkeeping: Jesus's face warm over the words \u2014 THOU HAST SEEN, AND BELIEVED \u2014 a fact laid on Thomas's undone features without one grain of sting, his hand coming to rest on the teal-blue shoulder as "
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b13",
+   "file": "build-99-flesh-and-bone-thomas/assets/s13-blessed-are-the-ones-who.jpeg",
+   "tokens": [
+    "ROOM",
+    "THOMAS",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 4,
+   "scene": "The blessing leaves the room even as it is spoken: Jesus's gaze lifting past Thomas, past Peter and John, over the heads of everyone present towards the barred door and the dark city and the twenty centuries beyond it \u2014 "
+  },
+  {
+   "row": 99,
+   "build": "build-99-flesh-and-bone-thomas",
+   "beat": "v2-r099-b14",
+   "file": "build-99-flesh-and-bone-thomas/assets/s14-that-one-was-about-you.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame turns the method on its viewer: Jesus at the centre of the lamplit room, facing outward now, his two hands open in exactly the gesture that ended Thomas's doubt \u2014 offered past the lamps, past the barred"
   },
   {
    "row": 101,
