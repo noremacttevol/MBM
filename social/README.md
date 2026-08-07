@@ -33,7 +33,11 @@ byte-exact from git objects into `exports/` and verifies the hash. Post ONLY fro
 | `CHANNEL-PLAN.md` | Account names, handles, bios, and 5-minute setup instructions for each platform. |
 | `SCHEDULE.md` | Posting cadence, the 41-day launch order, and the weekly batching rhythm. |
 | `GROWTH-PLAYBOOK.md` | Everything else recommended to spread the app: comment handling, member-sharer moves, what to measure, what never to do. |
-| `covers/row-NNN.jpg` | Cover frame per video, pulled from the approved cut with ffmpeg (1080×1920). |
+| `covers/row-NNN.jpg` | Raw cover frame per video, pulled from the approved cut with ffmpeg (1080×1920). |
+| `make-thumbnails.py` | Builds branded thumbnails from the covers — $0, no API, no new faces (frames come from the approved cuts, so the locked faces stay locked). Run after refresh when new videos are approved. |
+| `thumbs/yt/row-NNN.jpg` | 1280×720 branded thumbnail for YouTube uploads (title + Milk Before Meat + milkb4meat.org). |
+| `thumbs/vertical/row-NNN.jpg` | 1080×1920 branded cover for TikTok / Instagram Reels. |
+| `EXPLAINER-VIDEOS.md` | Draft scripts for the two channel videos that explain the app (LATER — Cameron approves the scripts before any production). |
 | `exports/` | The byte-verified approved cuts (gitignored — regenerate anytime with the refresh script). |
 
 ## Tone laws (bind every caption, comment, and reply)

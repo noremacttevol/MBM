@@ -1,3 +1,23 @@
+## 2026-08-07 (social session, pt.5) — BRANDED THUMBNAILS for all 44, $0 spent — explainer scripts drafted — Machine A `Dev`
+
+**Commit:** (this commit — social/ + this entry, by pathspec)
+
+Cameron asked for thumbnails "for them all... promoting the app," trusting API spend.
+**Spent $0 instead:** thumbnails are built FROM the approved cuts' own frames (locked
+faces stay locked — newly generated art would risk face drift and need the full gate;
+COST LAW satisfied). `social/make-thumbnails.py` (PIL, production's own fonts: DejaVu
+Serif for titles + Jost for the brand line) renders two per video: `thumbs/yt/` 1280×720
+(16:9 face-zone crop from the 9:16 frame — the crop naturally drops the caption band)
+and `thumbs/vertical/` 1080×1920 (full frame, title + brand up top) — all with story
+title + MILK BEFORE MEAT · free app · milkb4meat.org. 88 images for the 44 postable
+rows; spot-checked 5 (prodigal YT, gethsemane both, lost-coin, suffer-children — faces
+well framed, reverent, no clickbait). YOUTUBE-UPLOAD-SHEET thumbnail paths now point at
+thumbs/yt. Rows beyond the 44 get theirs automatically: refresh → make-thumbnails after
+each approval (documented in README). Also drafted `social/EXPLAINER-VIDEOS.md` — two
+channel-video scripts ("What is Milk Before Meat?" ~75s, "Why only stories?" ~90s) in
+the app's honest voice; production waits for Cameron's yes on the scripts (Brian voice,
+approved-art-only visuals, reviewer before posting).
+
 ## 2026-08-07 — C-FIX row 16 mary-martha (headless person at 0:42) SHIPPED + live-verified — Machine A `Dev`
 
 **Commit:** C-FIX render 33258be94 (mp4/QC/QUEUE/board/asset); review card + board→SHIPPED in this session's follow-up commits.
