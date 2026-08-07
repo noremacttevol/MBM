@@ -66,7 +66,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 52 | build-52-demoniac-synagogue | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 SHIPPED — demoniac face-flip FIXED (wired freedman IMAGE-lock + rerolled 6 flipping frames; live hash 17566283905d, mp4 HTTP 200); $0.80/6 rerolls | ✅ |
 | 53 | build-53-peters-mother-in-law | BUILT | 15 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 54 | build-54-the-leper | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 SHIPPED | ✅ |
-| 55 | build-55-withered-hand | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
+| 55 | build-55-withered-hand | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 LIVE | ✅ |
 | 56 | build-56-widow-of-nain | BUILT | 22 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 57 | build-57-jairus-daughter | BUILT | 27 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 58 | build-58-feeding-5000 | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
