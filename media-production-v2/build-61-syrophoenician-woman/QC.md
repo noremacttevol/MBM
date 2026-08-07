@@ -1,5 +1,21 @@
 # QC / RUNNER HANDOFF — build-61-syrophoenician-woman (Mark 7:24-30)
 
+## ✅ C-FIX SHIPPED — crazy-eyes @0:52 CLOSED (2026-08-07, Machine A `Dev`, Opus runner)
+
+**COMPLAINT LEDGER (row 61) — Cameron: "jesus's eyes in 0:52 are crazy looking."**
+- **FIXED.** Rerolled ONLY `s11-she-asked-anyway.jpeg` (beat `v2-r061-b11`, the 0:52
+  frame) against the author's CALM-EYES prose. Jesus's gaze is now settled, warm and
+  softly open, steady on the kneeling woman — no wide/wild/bulging/staring/manic/lens-
+  stare. Verified in the RENDERED mp4 at 0:50 (not just the still). Face gate exit 0;
+  face-boarded vs `JESUS-MASTER-REF/jesus-face.jpeg` — locked Jesus, cream-only robe.
+- **Touch-once:** only open complaint on the row; b12 (the adjacent close-up) was
+  already reinforced by the author and rendered calm, no reroll needed.
+- **Every other still byte-identical.** 1 reroll / 31 beats = 3.2% (well under the 15%
+  budget). ~$0.13 image spend.
+- **AUDIO byte-identical:** re-assembled via `AUDIO_FROM_V1_SEGMENTS` — `AUDIO REBUILD
+  PASS SHA256=274d1bbdd26fa164f519c7b54eac65826ebe9a7034f5757502b479eea3c97aed`, the
+  exact same audio SHA as the prior shipped cut. 185.2s. Nothing re-voiced.
+
 ## 🅿️ AUTHOR-FIXED → NEEDS-REBUILD (2026-08-07, Machine A `Dev`, $0 Fable-5 author lane)
 
 **COMPLAINT LEDGER — OPEN Cameron complaint (row 61): "jesus's eyes in 0:52 are crazy looking."**
