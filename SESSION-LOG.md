@@ -1,3 +1,30 @@
+## 2026-08-07 (C-FIX row 40 the-friend-at-midnight) — SHIPPED, 3-hands + floating-lamp complaints fixed, ~$0.27 / 3.6% rerolls — Machine A `Dev`
+
+**Commit:** claim ae13d5c7e; ship-A debc52112 (mp4 + QC + QUEUE); ship-B + this entry follow; deploy verified live before board→SHIPPED.
+
+COMPLAINT-FIRST C-FIX. Cameron's OPEN complaint on the shipped row-40 cut, verbatim:
+"2:23 has 1 guy with 3 hands.  3:21 has a floating lamp."
+
+Both are PICTURE-domain. Mapped each timestamp to its beat by parsing beats_v2.py
+windows and VISUALLY confirming the defect in the rendered mp4:
+- **2:23** b26 `s26-and-he-keeps-knocking-the.jpeg` (win 141.89–147.86) — the asker
+  had an IMPOSSIBLE anatomy: a forearm to the forehead + a knocking fist + BOTH
+  hands cupping the lamp (4 hands). Rerolled (new seed, locked ASKER ref) → two
+  arms, two hands: one fist on the door, the other holding the lamp.
+- **3:21** b36 `s36-somebody-you-have-to-wear.jpeg` (win 198.15–203.06) — the clay
+  lamp floated in mid-air against the barred door. Rerolled → lamp rests on the
+  stone doorsill, grounded, lighting the door (the beat's must_show).
+
+**Fix = 2-frame reroll (PICTURE domain).** ONLY b26 + b36 touched, every other
+frame byte-identical. 2/56 rerolls (3.6%, well under the 15% budget), ~$0.27 this
+run (meter 417.14 → 417.41). AUDIO LOCK PASS SHA256 30326c6c… — audio byte-identical,
+nothing re-voiced. Verified fixes in the rendered mp4 at 143 s + 201 s. Touch-once:
+these were the only two open complaints on the row. Cost trend: well below the
+$6.10/row average (a targeted 2-frame C-FIX). review.html v40 → data-hash debc5211…,
+flag answers both complaints in Cameron's own words; deployed to Firebase + live-verified.
+
+---
+
 ## 2026-08-07 (C-FIX row 39 pharisee-publican) — SHIPPED, black-spots complaint fixed, $0.53 / 0% rerolls — Machine A `Dev`
 
 **Commit:** claim ebf9f6452; ship-A 20593af33 (mp4 + QC + QUEUE); ship-B + this entry follow; deploy verified live before board→SHIPPED.
