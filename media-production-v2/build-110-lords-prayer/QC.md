@@ -131,3 +131,42 @@ Open complaint (`v2_outline.py 110`, filed 2026-08-06T23:13Z against ship hash 8
 ### Cost
 $0 image credits (verify-only; delivery/text fix). 0 rerolls. New RUNNER-LESSON
 recorded (stale-cache delivery class).
+
+---
+
+## C-FIX 2026-08-07 (Machine A `Dev`, ledger-close + forced fresh reload) — same "old pictures" complaint, still surfacing
+
+### COMPLAINT LEDGER
+Open complaint (`v2_outline.py 110`, still `open:true` / COMPLAINTS.md `UNFIXED`):
+> "this is old pictures version i dont know why im seing it here as fixed"
+
+**Root: the 2026-08-07 delivery fix was correct but the complaint was never
+CLOSED in the ledgers** (`REVIEW-LESSONS.json` stayed `open:true`,
+`COMPLAINTS.md` `UNFIXED`), so the complaint-first machinery kept flagging row
+110 as the lowest open row. The complaint (createdAt 2026-08-06T23:13Z) also
+PREDATES that fix, so Cameron had never re-confirmed it.
+
+**Re-verified from scratch this session (no trust in prior notes):**
+- Extracted frames from the committed origin/main mp4 (hash 824b4260, 144.9s,
+  19,796,928 B) at t=3/20/60/100/125s → ALL fully realistic biblical
+  photography: olive-grove prayer (locked Jesus, cream robe only on Jesus),
+  kneeling disciples, realistic village forgiveness, the folded-cloth still,
+  the child's lamplit home. ZERO cartoon/old-style frames. Pictures were never
+  the defect → NO reroll, NO Gemini credit.
+- Live reviewer already served the direct host + cache-buster; mp4 HEAD = HTTP
+  200, content-length 19,796,928 (the realistic cut), cache-control max-age=300.
+
+**Fix this session ($0):**
+1. Bumped the v110 card cache-buster to a brand-new token
+   `?v=824b4260a3d6-fresh0807` — a URL Cameron's browser has provably never
+   fetched, so it CANNOT serve the pre-fix cached copy; next open = fresh
+   download of the realistic cut.
+2. Closed the complaint: `REVIEW-LESSONS.json` 110 → `open:false` + `resolvedBy`;
+   `COMPLAINTS.md` 110 → FIXED (cache-delivery).
+3. Rewrote the reviewer flag to tell Cameron, in his words, that the video was
+   never actually old and that his player is now forced to reload fresh.
+- mp4/narration/timing/captions byte-identical (nothing re-cut); AUDIO LOCK
+  4679aacf… still stands. Deployed + live-verified below.
+
+### Cost
+$0 image credits (verify + ledger-close + one cache-buster edit). 0 rerolls.
