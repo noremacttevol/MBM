@@ -37,7 +37,7 @@ Twelve years sick. Every penny spent on physicians, and nothing bettered. She ne
 
 Have you ever been that desperate for something in your life to change?
 
-Mark 5:25–34, word for word from the KJV.
+Mark 5:25–34, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -68,7 +68,7 @@ He asked for his inheritance while his father was still alive, and lost all of i
 
 Which one feels closest to where you are right now — the son who left, the father watching the road, or the brother who stayed and felt unseen?
 
-Luke 15:11–32, word for word from the KJV.
+Luke 15:11–32, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -99,7 +99,7 @@ The whole city had already decided what Zacchaeus was. Small, rich, and hated, h
 
 Have you ever felt like the one everybody had already made their mind up about?
 
-Luke 19:1–10, word for word from the KJV.
+Luke 19:1–10, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -130,7 +130,7 @@ A ruler of the Jews came to Jesus by night, with questions he couldn't ask in da
 
 What question would you ask, if nobody was watching?
 
-John 3:1–21, word for word from the KJV.
+John 3:1–21, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -161,7 +161,7 @@ Eighteen years bowed toward the ground, and she still came to worship. Jesus saw
 
 How long have you been carrying the thing that bends you down?
 
-Luke 13:10–17, word for word from the KJV.
+Luke 13:10–17, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -192,7 +192,7 @@ A father asked his two sons to work in the vineyard. One said no — and afterwa
 
 Which son have you been lately: the words, or the walk?
 
-Matthew 21:28–32, word for word from the KJV.
+Matthew 21:28–32, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -223,7 +223,7 @@ In the fourth watch of the night, in the middle of a storm, Peter said: Lord, if
 
 What's the wave that pulls your eyes off him?
 
-Matthew 14:22–33, word for word from the KJV.
+Matthew 14:22–33, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -254,7 +254,7 @@ One coin out of ten went missing. She lit a candle, swept the house, and sought 
 
 Do you believe anyone would turn the house upside down for you?
 
-Luke 15:8–10, word for word from the KJV.
+Luke 15:8–10, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -285,7 +285,7 @@ He came running, knelt, and asked what he must do to inherit eternal life — a 
 
 Jesus loved him — and still let him walk away. What would be the hardest thing for you to lay down?
 
-Mark 10:17–22, word for word from the KJV.
+Mark 10:17–22, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -316,7 +316,7 @@ A blind beggar heard Jesus was passing and cried out. The crowd told him to hold
 
 If he stood still and asked you that — what would you say?
 
-Mark 10:46–52, word for word from the KJV.
+Mark 10:46–52, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -347,7 +347,7 @@ Ten men with leprosy stood afar off and lifted up their voices. All ten were cle
 
 When was the last time you turned back to say thank you?
 
-Luke 17:11–19, word for word from the KJV.
+Luke 17:11–19, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -378,7 +378,7 @@ A man lay half dead on the road to Jericho. A priest saw him and passed by on th
 
 Which man on that road is hardest for you to be?
 
-Luke 10:25–37, word for word from the KJV.
+Luke 10:25–37, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -409,7 +409,7 @@ Ninety-nine sheep safe, one gone. The shepherd leaves the ninety-nine in the wil
 
 Do you believe you're worth going after?
 
-Luke 15:3–7, word for word from the KJV.
+Luke 15:3–7, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -440,7 +440,7 @@ Some were hired at sunrise, some at the eleventh hour — and the master paid th
 
 Does it bother you, or comfort you, that the last got the same?
 
-Matthew 20:1–16, word for word from the KJV.
+Matthew 20:1–16, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -471,7 +471,7 @@ The same seed fell on four kinds of ground: the wayside, the stony places, among
 
 Honestly — which ground has your heart been lately?
 
-Matthew 13:3–23, word for word from the KJV.
+Matthew 13:3–23, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -502,7 +502,7 @@ While men slept, an enemy sowed tares among the wheat. The servants wanted to pu
 
 What do you make of a God patient enough to wait for the harvest?
 
-Matthew 13:24–30, word for word from the KJV.
+Matthew 13:24–30, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -533,7 +533,7 @@ The kingdom of heaven, Jesus said, is like a grain of mustard seed — the least
 
 What's the smallest seed of faith you've ever watched grow?
 
-Matthew 13:31–32, word for word from the KJV.
+Matthew 13:31–32, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -564,7 +564,7 @@ A man found treasure hidden in a field — and for joy over it, he went and sold
 
 What would you trade everything for — joyfully?
 
-Matthew 13:44, word for word from the KJV.
+Matthew 13:44, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -595,7 +595,7 @@ The merchant wasn't wandering — he was seeking goodly pearls, his whole life. 
 
 What have you been searching for longer than you'd admit?
 
-Matthew 13:45–46, word for word from the KJV.
+Matthew 13:45–46, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -626,7 +626,7 @@ The net was cast into the sea and gathered of every kind — none of them sorted
 
 What do you feel, hearing that the sorting isn't yours to do?
 
-Matthew 13:47–50, word for word from the KJV.
+Matthew 13:47–50, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -657,7 +657,7 @@ Five talents, two talents, one. The first two traded and doubled what they were 
 
 What's the talent fear has you burying?
 
-Matthew 25:14–30, word for word from the KJV.
+Matthew 25:14–30, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -688,7 +688,7 @@ His ground brought forth plentifully, so he planned bigger barns and told his so
 
 If tonight were the night — what would actually matter?
 
-Luke 12:16–21, word for word from the KJV.
+Luke 12:16–21, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -719,7 +719,7 @@ A certain man made a great supper and bade many — and they all with one consen
 
 What excuse have you been giving the invitation?
 
-Luke 14:16–24, word for word from the KJV.
+Luke 14:16–24, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -750,7 +750,7 @@ A steward about to lose everything moved faster and thought harder in one aftern
 
 If someone read your last month honestly — what would they say you serve?
 
-Luke 16:1–13, word for word from the KJV.
+Luke 16:1–13, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -781,7 +781,7 @@ A beggar named Lazarus lay at the rich man's gate, full of sores, desiring the c
 
 Who is the person at your gate you've learned not to see?
 
-Luke 16:19–31, word for word from the KJV.
+Luke 16:19–31, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -812,7 +812,7 @@ A judge who feared not God and regarded not man — worn down by one widow who k
 
 What prayer have you quit praying too soon?
 
-Luke 18:1–8, word for word from the KJV.
+Luke 18:1–8, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -843,7 +843,7 @@ Great multitudes followed him — and he turned and told them to sit down first 
 
 Have you ever actually sat down and counted what following him would cost you?
 
-Luke 14:25–33, word for word from the KJV.
+Luke 14:25–33, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -874,7 +874,7 @@ The invited guests wouldn't come to the king's wedding feast, so his servants we
 
 The invitation went to everyone. What do you think the garment means?
 
-Matthew 22:1–14, word for word from the KJV.
+Matthew 22:1–14, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -905,7 +905,7 @@ A man casts seed into the ground, and sleeps, and rises, night and day — and t
 
 What's been growing in you slowly, while you weren't watching?
 
-Mark 4:26–29, word for word from the KJV.
+Mark 4:26–29, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -936,7 +936,7 @@ Two men built houses. The rain descended, the floods came, and the winds blew an
 
 The storm hit both houses the same. What's under yours?
 
-Matthew 7:24–27, word for word from the KJV.
+Matthew 7:24–27, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -967,7 +967,7 @@ No crowd, no sermon, no spectacle. She lay sick of a fever, they told Jesus of h
 
 Has help ever come to you that quietly?
 
-Mark 1:29–31, word for word from the KJV.
+Mark 1:29–31, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -998,7 +998,7 @@ A widow was burying her only son. She asked Jesus for nothing — she never even
 
 He saw her before she said a word. When did you last feel seen like that?
 
-Luke 7:11–17, word for word from the KJV.
+Luke 7:11–17, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1029,7 +1029,7 @@ While Jairus was still pleading for his little daughter, word came that she was 
 
 What word have you needed someone to say over your fear?
 
-Mark 5:22–24, 35–43, word for word from the KJV.
+Mark 5:22–24, 35–43, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1060,7 +1060,7 @@ Five thousand hungry people, and one lad with five barley loaves and two small f
 
 What's your five loaves — the too-small thing already in your hands?
 
-John 6:1–14, word for word from the KJV.
+John 6:1–14, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1091,7 +1091,7 @@ Thirty-eight years an invalid, lying by a pool he could never reach in time. Jes
 
 Why do you think Jesus asked him that?
 
-John 5:1–15, word for word from the KJV.
+John 5:1–15, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1122,7 +1122,7 @@ Great multitudes climbed a mountain carrying the people who couldn't climb it �
 
 Who carried you, the day you couldn't get there yourself?
 
-Matthew 15:29–31, word for word from the KJV.
+Matthew 15:29–31, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1153,7 +1153,7 @@ They set her in the midst with the stones already gathered, and asked Jesus for 
 
 Which are you in the story right now — holding a stone, or standing in the middle?
 
-John 8:1–11, word for word from the KJV.
+John 8:1–11, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1184,7 +1184,7 @@ Parents brought their children to Jesus, and the disciples rebuked them for it. 
 
 What did you know about God as a child that you've since talked yourself out of?
 
-Mark 10:13–16, word for word from the KJV.
+Mark 10:13–16, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1215,7 +1215,7 @@ He sent seventy of them out two by two — no purse, no scrip, no shoes — into
 
 Where does your joy actually rest — in what you can do, or in whose you are?
 
-Luke 10:1–20, word for word from the KJV.
+Luke 10:1–20, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1246,7 +1246,7 @@ They came with a trap: is it lawful to give tribute to Caesar, or not? He asked 
 
 The coin bore Caesar's image. You bear God's. What belongs to him?
 
-Mark 12:13–17, word for word from the KJV.
+Mark 12:13–17, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1277,7 +1277,7 @@ The first birth announcement in history that mattered most went to shepherds on 
 
 The news went to working men in a field before it went to anyone important. Why do you think God chose them?
 
-Luke 2:8–20, word for word from the KJV.
+Luke 2:8–20, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1308,7 +1308,7 @@ He knelt among the olive trees and asked for the cup to pass — and still finis
 
 He asked for another way, and still knelt. What do you hear in that?
 
-Luke 22:39–46, word for word from the KJV.
+Luke 22:39–46, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1339,7 +1339,7 @@ Elijah sat under a juniper tree and asked to die. Then came a great wind, an ear
 
 When has God been quieter than you expected — and closer?
 
-1 Kings 19:1–18, word for word from the KJV.
+1 Kings 19:1–18, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
@@ -1370,7 +1370,7 @@ Abraham stood before the LORD and dared to bargain for a city. Fifty righteous? 
 
 He asked, Shall not the Judge of all the earth do right? What does it tell you that God let him keep asking?
 
-Genesis 18:16–33, word for word from the KJV.
+Genesis 18:16–33, from the KJV.
 
 Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org

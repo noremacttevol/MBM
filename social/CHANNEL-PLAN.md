@@ -102,7 +102,7 @@ stable link that never goes stale, no matter what the stores do.
    professional account → Creator → category "Personal blog" — skip any prompt to
    connect ads or payment).
 3. Profile picture + **bio** (150-char limit) — paste:
-   > Scripture stories, word for word from the KJV. Download the free Milk Before
+   > Scripture stories, from the KJV. Download the free Milk Before
    > Meat app for every story + more → milkb4meat.org
 4. Add the website link: `https://milkb4meat.org`.
 5. Post video #1 as a **Reel** (paste caption + hashtags from the queue, set the

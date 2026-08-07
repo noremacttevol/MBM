@@ -15,7 +15,7 @@ clicked the channel wants to know what this is. Honest answer, no pitch.
 
 **Narration (Brian, the narrator voice from the stories):**
 
-> Every video on this channel is one story about Jesus, told word for word from
+> Every video on this channel is one story about Jesus, told from
 > the King James Bible. No music. No commentary. No arguing. Just the story,
 > the way it reads.
 >
@@ -53,7 +53,7 @@ also the honest-about-what-we-are video.
 > do the work, and he let people walk away if they wanted to. He asked questions
 > more often than he answered them.
 >
-> The stories here are told word for word from the King James Bible, with nothing
+> The stories here are told from the King James Bible, with nothing
 > added — because they don't need help. They've carried themselves for two
 > thousand years.
 >
