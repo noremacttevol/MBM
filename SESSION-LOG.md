@@ -1,3 +1,39 @@
+## 2026-08-07 (C-FIX row 33 sheep-goats) — PARKED → NEEDS-REBUILD (both complaints root in locked author files), $0 — Machine A `Dev`
+
+**Commit:** claim 3d3ea96ba; this park (QC RUNNER PARK + board NEEDS-REBUILD + RUNNER-LESSONS + this entry) follows.
+
+COMPLAINT-FIRST C-FIX. Cameron's OPEN complaint on the shipped row-33 cut:
+"At 1:10 why is the prisoner nails painted black thats weird. And then at 1:16
+it has Jesus speaking something that wasent spoken by Jesus and makes no sense
+to be narrated by him."
+
+Claimed the row (C-FIX LIVE, pushed), then VISUALLY confirmed BOTH defects by
+extracting frames 70 s and 76 s from the shipped mp4:
+- **1:10** — beat `v2-r033-b20` / `s20-when-i-was-locked-away.jpeg`: the prisoner's
+  hand through the bars has BLACK, polished-looking fingernails. CONFIRMED.
+- **1:16** — seg `j37` (Matt 25:37-39, "Lord, when saw we thee an hungred..."):
+  rendered in Jesus-RED and voiced in the Jesus voice, but these are the
+  RIGHTEOUS' words. CONFIRMED.
+
+**Why PARK, not runner re-cut ($0 spent, no art/audio touched):** BOTH root
+causes are in LOCKED author files the runner may not edit.
+1. `beats_v2.py` beat `v2-r033-b20`: `must_not_show` carries a CAMERON GATE
+   forbidding black nails, but the `scene` body STILL literally commands
+   "the nails black" — a self-contradicting prompt, so every reroll re-paints
+   them. Author must delete "the nails black", then regenerate only `s20`.
+2. `make_narration.py` declares `("j37", JESUS, ...)`; must become
+   `("j37", SCRIPTURE, ...)` — takes the righteous' question off the Jesus voice
+   AND off the red caption in one edit; regenerate `j37.mp3`, re-assemble
+   (AUDIO LOCK hash intentionally changes).
+
+Full author instructions + ship gate (answer both in Cameron's words on the
+review card) are in `build-33-sheep-goats/QC.md` under "RUNNER PARK — 2026-08-07".
+New RUNNER-LESSONS entry filed: a beat whose gate contradicts its own scene body
+is an author park, never a runner reroll. Cost: $0/0 rerolls (park). Board:
+State→NEEDS-REBUILD, Ready empty, so the author lane picks it up next.
+
+---
+
 ## 2026-08-07 (C-FIX row 31 ten-virgins) — PLAYBACK complaint FIXED (corrupt AAC packet) + redeployed live — Machine A `Dev`
 
 **Commit:** b6be9e209550224604219ec8f5b5c811680f6752 (mp4 + QC + QUEUE + beats flag); review.html + this entry follow.
