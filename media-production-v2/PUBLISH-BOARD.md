@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T14:45:55_
+_Last sync: 2026-08-07T14:54:34_
 
 ## Summary
 
-- **BUILDING** — 71 row(s)
+- **BUILDING** — 70 row(s)
 - **LIVE — OLD STYLE (v1)** — 43 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 42 row(s)
+- **ON REVIEWER — awaiting Cameron** — 43 row(s)
 
 ## The rows
 
@@ -118,7 +118,7 @@ _Last sync: 2026-08-07T14:45:55_
 | 95 | Thief on the Cross | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 96 | It Is Finished | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 97 | The Empty Tomb | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 98 | Mary her Name | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 98 | Mary her Name | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 99 | Flesh and Bone Thomas | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 100 | The Ascension | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 101 | The Still Small Voice | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
