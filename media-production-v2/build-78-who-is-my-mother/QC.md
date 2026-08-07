@@ -1,6 +1,30 @@
 # QC / RUNNER HANDOFF — build-78-who-is-my-mother (Mark 3:31-35)
 
-## RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-06, $0 spent, 0 credits)
+## ✅ AUDIO FIX DONE — AUDIO-FIX session, Machine A, 2026-08-06 ($0)
+
+**STALE-V1 audio-lock CLEARED.** Added `AUDIO_FROM_V1_SEGMENTS = True` to
+beats_v2.py. The V1 mp4 `media-production/build-78.../mark-3_who-is-my-mother.mp4`
+(09:47) is older than all 11 re-voiced segment mp3s (2026-07-29 23:03), so
+`assert_v1_final_is_current` (recency tripwire) refused to copy its stale AAC —
+the same class as the shipped row-69 fix. With the flag set, v2_assemble
+rebuilds the narration from the V1 build's OWN 11 new-voice mp3s at the
+extract_beats offsets — nothing re-voiced, nothing re-timed, V1 stays read-only.
+
+**Segment parity 11/11 exact** (n0, n1a, n1b, n1c, s32, j1, n2, j2, j3, n3,
+card) across make_narration.py ↔ media-production-v2 audio ↔ V1 build audio.
+
+**Validated:** `python3 v2_assemble.py 78` now clears the audio gate and stops
+only on "missing picture … row not fully generated" (0 V2 stills) — i.e. the
+STALE-V1 AUDIO LOCK no longer fires. `v2_prompt.py 78 --check` PASSES (12 beats).
+
+**No visual ship** (0 stills, no ElevenLabs, $0). Board: NEEDS-AUDIO →
+AUTHORED / Audio OK / Ready ✅, claim cleared → the picture runner generates
+stills and assembles on the corrected (new-voice) audio. RESUME below still
+applies.
+
+---
+
+## RUNNER PARK — NEEDS-AUDIO (A-auto 2026-08-06, $0 spent, 0 credits) — RESOLVED ABOVE
 
 Pre-flighted the stale-V1 AUDIO LOCK at step 2 BEFORE any generate (row-74
 lesson). GENUINELY STALE: V1 `mark-3_who-is-my-mother.mp4` rendered

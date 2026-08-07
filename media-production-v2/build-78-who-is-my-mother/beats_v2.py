@@ -65,6 +65,18 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX (AUDIO-FIX session, Machine A, 2026-08-06): the V1 mp4
+# mark-3_who-is-my-mother.mp4 (77.79s, rendered 2026-07-24 10:15) is STALE vs
+# this build's own narration — all 11 SPEAKER-LAW segment mp3s (audio/*.mp3)
+# are NEWER (2026-07-28 14:27, the intended new-voice audio) and sum to the
+# 72.61s extract_beats timeline (excess +5.18s), so assert_v1_final_is_current
+# refuses to copy the stale stream. Segment-ID parity with make_narration.py is
+# exact (11/11: n0,n1a,n1b,n1c,s32,j1,n2,j2,j3,n3,card), so rebuild the track
+# from these segments at the extract offsets instead of copying the stale mp4.
+# $0 — nothing re-voiced, nothing re-timed; V1 stays read-only. Same mechanism
+# as the shipped row-69 fix.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r078-b01", "out": "s01-jesus-was-inside-a-packed.jpeg", "seg": "n0",
