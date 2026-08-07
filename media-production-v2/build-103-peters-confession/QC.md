@@ -135,3 +135,48 @@ with the character ref…"*
    this ledger on the review card so Cameron sees the setting + face fixed.
 Reroll budget: the 6 named beats are the fix, not rerolls — treat 6 regens as the
 planned re-cut; hold extra rerolls ≤15%.
+
+---
+
+## ✅ RUNNER C-FIX SHIPPED — SETTING DRIFT re-cut (Opus runner, Machine A `Dev`, 2026-08-07)
+
+Executed the author's 6-still re-cut exactly as specced. Regenerated ONLY
+b04/b06/b12/b13/b15/b17 over the now CLIFF-locked prompts (`--only b04 b06 b12
+b13 b15 b17 --redo`); KEPT the other 14 stills byte-identical.
+
+### COMPLAINT LEDGER (the LEARNING LAW)
+Open complaint (`v2_outline.py 103`): *"This is where peter got his name but it
+called him simon before and the pictures are all bad they keep changing and are
+not remade with the character ref in this."*
+- **"the pictures keep changing" (setting half) → FIXED.** The 6 close-ups that
+  had drifted to a generic INDOOR house/village now render OUTDOORS in the same
+  pale-rock cliff glade (waterfall + poplar/stream) as the other 14 stills, so
+  the setting no longer flips between wides and close-ups. Verified in the RENDERED
+  mp4 at 18s (s04), 22s (s17), 32s (s06), 70s (s13), 84s (s15) — all outdoors.
+- **"not remade with the character ref" (face half) → held.** Every regen carried
+  the PETER cast ref (`[+N char ref: PETER:front, PETER:quarter]` in the gen log);
+  Peter is one man (dark curly hair, full black beard, grey-blue robe) across all
+  his frames incl. the name-giving arc — face-boarded vs s01/s11/s18, matches.
+  Jesus is cream-only + locked-face with calm eyes in s04/s15; Andrew/John distinct.
+- **"it called him simon before" → correct by scripture, no change.** Matthew 16
+  keeps him Simon until v18 renames him Peter; narration + captions read the verse
+  correctly.
+
+### GATES
+- OUTDOOR gate: 6/6 render in the cliff glade (no interior, no village door). PASS.
+- Cream law: only Jesus wears cream (s04/s15). PASS.
+- Scale (lesson 14), beard (lesson 13), realistic-only (Law 14), no modern object,
+  no lens-stare, anatomy: PASS on all 6.
+- Captions bottom-band only (18s/70s verified); question card clean (124s). PASS.
+- **AUDIO LOCK PASS SHA256=e46b00815c…** — IDENTICAL to the prior ship's audio
+  hash, so narration/voices/timing are byte-identical. 127.5s / 20.0 MB.
+
+### FIX-WAVE (minor, not rerolled — COST LAW / touch-once)
+- s15: a couple of tiny dark marks on Peter's knuckles (row-39 ink-smudge class) —
+  cosmetic, localized, does NOT repeat the complaint; not worth risking the good
+  Jesus↔Peter two-shot + locked face. Leave for a later cosmetic edit pass.
+
+### COST
+0 images rerolled beyond the 6 planned regens. **6 regens / 20 beats; 0 extra
+rerolls = 0% reroll budget used.** ~$0.81 this run (meter $499.55 → $500.36).
+Well under the $6.10/row average; touched the row ONCE. COST-LAW trend DOWN.
