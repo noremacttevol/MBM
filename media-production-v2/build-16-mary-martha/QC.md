@@ -1,5 +1,16 @@
 # QC / RUNNER HANDOFF — build-16-mary-martha
 
+## ✅ C-FIX SHIPPED 2026-08-07 (Opus runner, Machine A `Dev`) — mean-Jesus frame removed
+- The AUTHOR-FIXED beat map (b16 removed, b17 widened to 91.32-100.53) was re-assembled.
+- `--check` PASS (25 beats, contiguous). **AUDIO LOCK PASS SHA256=d380ba61… — byte-identical**
+  to the prior cut (no audio touched). Runtime 166.8s, 20.2 MB.
+- **NO image generated — $0 re-cut.** 0 rerolls / 25 beats (0%, well under the 15% budget).
+- Verified in the RENDERED mp4 at 0:92 and 0:95 (where s16 used to sit): the frame is now the
+  warm, fond s17 close-up of Jesus looking up at Martha with real affection — "the whole room
+  went quiet" + "answered her gently" both play over the tender face, the exact opposite of the
+  mean read Cameron flagged. Captions in the bottom band only; question card clean.
+- Both `luke-10_mary-and-martha.mp4` and the shipped `…-realistic-v2.mp4` are the new cut (md5 433f2131…).
+
 ## 🅿️ NEEDS-REBUILD — NEW open complaint AUTHOR-FIXED (2026-08-07, Machine A `Dev`, $0 Fable-5 lane)
 
 **COMPLAINT LEDGER — SECOND, still-open complaint** (the earlier "headless person at 0:42" was
