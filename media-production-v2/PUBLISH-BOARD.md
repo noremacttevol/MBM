@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-06T23:05:21_
+_Last sync: 2026-08-06T23:24:10_
 
 ## Summary
 
-- **BUILDING** — 95 row(s)
+- **BUILDING** — 94 row(s)
 - **LIVE — OLD STYLE (v1)** — 46 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 39 row(s)
-- **ON REVIEWER — awaiting Cameron** — 18 row(s)
+- **ON REVIEWER — awaiting Cameron** — 19 row(s)
 
 ## The rows
 
@@ -81,7 +81,7 @@ _Last sync: 2026-08-06T23:05:21_
 | 58 | Feeding the Five Thousand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 59 | Feeding the Four Thousand | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 60 | The Gerasene Demoniac | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 61 | The Syrophoenician Woman | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 61 | The Syrophoenician Woman | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 62 | Ephphatha: the Deaf Man | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 63 | The Man Born Blind | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 64 | The Pool of Bethesda | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
@@ -134,7 +134,7 @@ _Last sync: 2026-08-06T23:05:21_
 | 111 | Lilies and Sparrows | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 112 | The Beatitudes | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 113 | Where Art Thou? | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 114 | Abraham Pleads for Sodom | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 114 | Abraham Pleads for Sodom | ✅ 2026-08-07 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 115 | The Ram in the Thicket | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 116 | Graven on His Palms | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 117 | Hosea Buys Her Back | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
