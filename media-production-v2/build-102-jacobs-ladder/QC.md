@@ -140,7 +140,23 @@ swirl of light; no wings/halos).
 
 ---
 
-## C-FIX — 2026-08-07 (Opus, Machine A `Dev`)
+## ⚠️ SUPERSEDED BY THE AUTHOR DONE BLOCK ABOVE — read this first
+
+**Lane collision, 2026-08-07 (both on Machine A `Dev`):** while the Fable-5 author
+lane was writing the God-EMBODIMENT fix above, a concurrent Opus C-FIX lane
+independently rerolled ONLY s05 from a UFO-disc to a **vertical seam of light**
+(block below) and shipped it. That fixed the "looks like a UFO" HALF but left the
+other half — **"no God coming to him in a dream"** — UNRESOLVED: God is still shown
+as LIGHT, not embodied. Row 113's standing order ("God has a body, his look doesn't
+change") makes light-only God a complaint in its own right, and the prior session
+embodied God the same way in the Eden theophany (build-113) and shipped it. So the
+light-seam cut is **NOT the finished fix** — it is superseded. The runner must do the
+**AUTHOR DONE embodiment rebuild above** (regen s05/s06/s09/s12/s14/s15 with the
+Father SHOWN standing in the opening), which OVERWRITES the light-seam s05. Do NOT
+treat the row as done on the strength of the light-seam ship. (Doctrine FACE flag —
+Father vs premortal Christ — remains non-blocking, per the block above.)
+
+## C-FIX — 2026-08-07 (Opus, Machine A `Dev`) — PARTIAL (UFO half only; SUPERSEDED above)
 
 ### COMPLAINT LEDGER (the COMPLAINT-FIRST + LEARNING LAWS)
 - **OPEN — reviewer note "0:24 looks like a UFO no God comming to him
