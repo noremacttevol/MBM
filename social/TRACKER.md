@@ -27,15 +27,15 @@
 
 | # | Story | Scripture | Length | In App | YT | IG | TT | FB |
 |---|-------|-----------|--------|--------|----|----|----|----|
-| 01 | Woman Who Touched His Cloak | Mark 5 | 1:49 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 02 | The Prodigal Son | Luke 15 | 2:38 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 03 | Zacchaeus | Luke 19 | 3:42 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 04 | Nicodemus at Night | John 3 | 5:07 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 05 | The Bent-Over Woman | Luke 13 | 4:08 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 06 | The Two Sons | Matthew 21 | 2:06 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 07 | Peter Walks on Water | Matthew 14 | 3:46 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 08 | The Lost Coin | Luke 15 | 1:09 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
-| 09 | The Rich Young Ruler | Mark 10 | 3:17 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
+| 01 | Woman Who Touched His Cloak | Mark 5 | 1:49 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
+| 02 | The Prodigal Son | Luke 15 | 2:38 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
+| 03 | Zacchaeus | Luke 19 | 3:42 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
+| 04 | Nicodemus at Night | John 3 | 5:07 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
+| 05 | The Bent-Over Woman | Luke 13 | 4:08 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
+| 06 | The Two Sons | Matthew 21 | 2:06 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
+| 07 | Peter Walks on Water | Matthew 14 | 3:46 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
+| 08 | The Lost Coin | Luke 15 | 1:09 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
+| 09 | The Rich Young Ruler | Mark 10 | 3:17 | ✅ 2026-08-06 | ✅ | ✅ | ✅ | ✅ |
 | 12 | Blind Bartimaeus | Mark 10 | 4:27 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 14 | The Ten Lepers | Luke 17 | 3:39 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
 | 20 | The Good Samaritan | Luke 10 | 3:07 | ✅ 2026-08-06 | ☐ | ☐ | ☐ | ☐ |
