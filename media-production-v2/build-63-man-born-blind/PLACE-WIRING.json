@@ -1,0 +1,20 @@
+{
+ "HALL": {
+  "manual": true,
+  "src_beat": "s25-the-religious-leaders-hauled-him",
+  "src_build": "build-63-man-born-blind",
+  "src_file": "build-63-man-born-blind/assets/s25-the-religious-leaders-hauled-him.jpeg"
+ },
+ "SILOAM": {
+  "manual": true,
+  "src_beat": "s21-he-knelt-at-the-pool",
+  "src_build": "build-63-man-born-blind",
+  "src_file": "build-63-man-born-blind/assets/s21-he-knelt-at-the-pool.jpeg"
+ },
+ "SPOT": {
+  "manual": true,
+  "src_beat": "s01-in-jerusalem-there-was-a",
+  "src_build": "build-63-man-born-blind",
+  "src_file": "build-63-man-born-blind/assets/s01-in-jerusalem-there-was-a.jpeg"
+ }
+}

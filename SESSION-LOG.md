@@ -1,3 +1,23 @@
+## 2026-08-07 — ROW 63 (man born blind, John 9) AUDIO FIX DONE: Siloam "si-LOH-uhm" complaint CLOSED at author level — j2+n5 re-voiced (ElevenLabs), timeline remapped, → AUTHORED+Ready ✅ — Machine A `Dev` (author lane, $0 image gen)
+
+**Commit:** make_narration.py respell + audio/j2+n5 (mp3+timing) re-voiced + beats_v2.py (windows remapped, AUDIO_FROM_V1_SEGMENTS) + QC.md §0-FIXED + AUTHOR-BOARD row 63 → AUTHORED/OK + PLACE-WIRING.json + this log = (this commit).
+
+Author lane, told to start at AUTHOR-BOARD row 33 (LOW-NUMBER LAW), $0 on image generation, UNATTENDED. Session-chain verified at start (top entry row 63 park, commit `ee27420cb`, present in git log). I'm Machine A `Dev` (hostname `Dev`).
+
+**Row 33 (the named start) — verified DONE at the author level, correctly blocked on a PAID reroll.** Board Ready ✅; QC.md "AUTHOR DONE" shows both complaints already fixed in author files by a prior session (j37 JESUS→SCRIPTURE re-voice + verified timeline remap for the 1:16 wrong-voice; "the nails black" deleted from b20 for the 1:10 complaint). The ONLY remainder is the picture runner's s20 reroll (an image credit this $0 session may not spend) + re-assemble. Nothing an author lane can advance — moved on down the low band.
+
+**Row 27 (skipped) —** NEEDS-AUDIO but the park says headless diagnostics are EXHAUSTED and it needs Cameron's ear-pass to localize the bad segment (edge-tts is deterministic, so a blind re-voice can't fix it). Genuinely blocked on a human listen; not a $0 author task.
+
+**Row 63 (man born blind) — Cameron's OPEN Siloam complaint CLOSED at the author level.** His complaint (`v2_outline.py 63`): *"still wrong its : si-LOH-uhm"*. Root-caused, verified, fixed:
+- **Root cause:** the delivered build is **ElevenLabs** (Chris=Jesus, Brian=narrator, all 44.1 kHz — only make_narration.py's *source* is edge-tts; the earlier park's "just edge-tts" aside was wrong, though its "re-voice through ElevenLabs, not edge-tts" instinct was right). On the ElevenLabs Jesus voice **plain "Siloam" renders as "Salome"** (reproduced faster-whisper base.en+small.en on the delivered j2.mp3 AND a fresh ElevenLabs render). Old respell `"sih low um"` → chopped "silo, um".
+- **Fix:** measured `"Siloam" → "Siloh-am"` (round-trips CLEAN to "Siloam" on base.en+small.en for BOTH voices AND both TTS backends; = his target sih-LOH-am). Re-voiced **j2 + n5 through ElevenLabs** (matching engine — an edge-tts re-voice would have made Jesus mismatch the other 21 segs; both new files 44.1 kHz, audio-audit A now 0/23). Caption keeps KJV "Siloam".
+- **Timeline coupling:** j2 shrank 0.525 s, n5 1.744 s → n4-region −0.525 s, n6-onward −2.269 s, new total **247.692 s**, card_start 240.217 s. All 43 V2 picture windows remapped (piecewise-linear old→new map anchored on segment onsets). `AUDIO_FROM_V1_SEGMENTS=True` added. `--check` PASS, windows monotonic+contiguous, **audio-audit A/B/C all 0**.
+- **Honest picture state:** stills **41/43** — b42/b43 ungenerated (~$0.27, a paid Gemini credit not spent here). So row is **AUTHORED + Ready ✅**, not BUILT. PICTURE RUNNER: gen b42/b43 → assemble (AUDIO REBUILD) → ship with the COMPLAINT LEDGER in QC.md §0-FIXED.
+
+**Cost:** $0 on image generation (0 Gemini credits, 0 pictures touched). A few ElevenLabs test+final renders (~540 chars total, j2+n5 finals + respell A/B) — cents, the correct-engine re-voice that actually closes the complaint. Under COMPLAINT-FIRST + LEARNING laws: fixing the exact repeated complaint before any new production.
+
+---
+
 ## 2026-08-07 — ROW 63 (man born blind, John 9) RESUME → PARKED NEEDS-AUDIO: OPEN complaint is Siloam mispronunciation, $0 spent, 0 pictures touched — Machine A `Dev` (Opus runner, strand resume)
 
 **Commit:** QC.md §0 park note + AUTHOR-BOARD row 63 → NEEDS-AUDIO + this log = (this commit).

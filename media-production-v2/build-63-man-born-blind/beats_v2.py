@@ -101,6 +101,16 @@ LOCKS = {
 
 REF = True
 
+# 2026-08-07 (complaint #63, 2nd pass): j2 & n5 re-voiced through ElevenLabs
+# (matching engine — the other 21 segs are ElevenLabs) to fix 'Siloam' reading
+# as 'Salome' (Cameron: 'still wrong its : si-LOH-uhm'). SPOKEN respell
+# 'Siloam'->'Siloh-am' round-trips clean on both whisper engines / both voices.
+# j2 shrank 0.525s, n5 1.744s vs the old cut, so the finished V1 MP4 is stale
+# vs the mp3s: rebuild the track from the V1 segment mp3s at the extract_beats
+# offsets. Windows below were remapped to the new timeline (piecewise-linear
+# old->new map anchored on segment onsets).
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r063-b01", "out": "s01-in-jerusalem-there-was-a.jpeg", "seg": "n0",
@@ -168,7 +178,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b04", "out": "s04-master-who-did-sin-this.jpeg", "seg": "s2",
-        "window": "15.77-20.70", "wide": False, "jesus": False, "ref": False,
+        "window": "15.77-20.7", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SPOT"],
         "narration": (
             "Master, who did sin, this man, or his parents, that he was born "
@@ -191,7 +201,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b05", "out": "s05-notice-they-did-not-ask.jpeg", "seg": "n0b",
-        "window": "21.80-25.98", "wide": False, "jesus": False, "ref": False,
+        "window": "21.8-25.98", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": (
             "Notice they did not ask whether somebody was at fault. They asked "
@@ -239,7 +249,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b07", "out": "s07-people-still-run-that-math.jpeg", "seg": "n1",
-        "window": "36.17-39.30", "wide": False, "jesus": False, "ref": False,
+        "window": "36.17-39.3", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN"],
         "narration": "People still run that math on themselves today.",
         "must_show": "the math internalized — the blind man's own face running it: the old private question 'what did I do?' resting in the set of his features.",
@@ -259,7 +269,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b08", "out": "s08-jesus-threw-the-whole-equation.jpeg", "seg": "n1",
-        "window": "39.30-42.48", "wide": False, "jesus": True, "ref": REF,
+        "window": "39.3-42.48", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SPOT"],
         "narration": "Jesus threw the whole equation out.",
         "must_show": "the equation refused — Jesus's face turning from the disciples' question with visible refusal, his attention descending fully to the seated man instead.",
@@ -279,7 +289,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b09", "out": "s09-neither-hath-this-man-sinned.jpeg", "seg": "j1",
-        "window": "43.00-49.69", "wide": False, "jesus": True, "ref": REF,
+        "window": "43-49.69", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "SPOT"],
         "narration": (
             "Neither hath this man sinned, nor his parents: but that the works "
@@ -458,7 +468,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b17", "out": "s17-go-wash-in-the-pool.jpeg", "seg": "j2 + n4",
-        "window": "90.94-96.22", "wide": False, "jesus": True, "ref": REF,
+        "window": "90.898-95.695", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "SPOT", "STREETS"],
         "narration": "Go, wash in the pool of Siloam. Understand what was asked of him.",
         "must_show": "SCRIPTURE-EXACT: the rising — the clay-eyed man getting to his feet at the wall, staff found, orienting himself toward the descending streets; the ask's size standing up with him.",
@@ -498,7 +508,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b19", "out": "s19-a-blind-man-eyes-packed.jpeg", "seg": "n4",
-        "window": "96.22-108.11", "wide": False, "jesus": False, "ref": False,
+        "window": "95.695-107.585", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": (
             "A blind man, eyes packed with mud, feeling his way across "
@@ -523,7 +533,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b20", "out": "s20-he-went-that-walk-was.jpeg", "seg": "n4",
-        "window": "108.11-111.09", "wide": False, "jesus": False, "ref": False,
+        "window": "107.585-110.565", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": "He went. That walk was the faith.",
         "must_show": "faith at foot level — close on the man's feet and staff-tip finding the next worn step; obedience measured in stairs.",
@@ -543,7 +553,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b21", "out": "s21-he-knelt-at-the-pool.jpeg", "seg": "n5",
-        "window": "111.74-114.96", "wide": False, "jesus": False, "ref": False,
+        "window": "111.185-114.07", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SILOAM"],
         "narration": "He knelt at the pool of Siloam and washed the clay away.",
         "must_show": "SCRIPTURE-EXACT: the washing — the man kneeling on the lowest step, both hands bringing pool water up to his clay-sealed eyes, the water running dark with washed clay.",
@@ -563,7 +573,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b22", "out": "s22-and-light-came-pouring-in.jpeg", "seg": "n5",
-        "window": "114.96-123.30", "wide": False, "jesus": False, "ref": False,
+        "window": "114.07-121.54", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SILOAM"],
         "narration": (
             "And light came pouring in where there had never been light — "
@@ -588,7 +598,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b23", "out": "s23-the-first-things-he-ever.jpeg", "seg": "n5",
-        "window": "123.30-127.80", "wide": False, "jesus": False, "ref": False,
+        "window": "121.54-125.57", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": "The first things he ever saw. He came back seeing.",
         "must_show": "the return — the man climbing BACK up the stepped lanes at a half-run, staff forgotten in his hand, head swinging at everything: doorways, faces, sky; drunk on the visible.",
@@ -608,7 +618,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b24", "out": "s24-the-neighbors-argued-about-whether.jpeg", "seg": "n6",
-        "window": "129.85-133.22", "wide": True, "jesus": False, "ref": False,
+        "window": "127.581-130.951", "wide": True, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SPOT"],
         "narration": "The neighbors argued about whether he was even the same man.",
         "must_show": "SCRIPTURE-EXACT: the dispute — the man at his old spot surrounded by arguing neighbours: pointing at his eyes, at the empty begging hollow, at each other; identity on trial in the street.",
@@ -630,7 +640,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b25", "out": "s25-the-religious-leaders-hauled-him.jpeg", "seg": "n6",
-        "window": "133.22-141.56", "wide": True, "jesus": False, "ref": False,
+        "window": "130.951-139.291", "wide": True, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "LEADERS", "HALL"],
         "narration": (
             "The religious leaders hauled him in for questioning — twice — "
@@ -656,7 +666,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b26", "out": "s26-they-pressed-him-to-call.jpeg", "seg": "n6",
-        "window": "141.56-148.24", "wide": False, "jesus": False, "ref": False,
+        "window": "139.291-145.971", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "LEADERS", "HALL"],
         "narration": (
             "They pressed him to call Jesus a sinner. And he gave them one of "
@@ -679,7 +689,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b27", "out": "s27-and-then-the-trouble-started.jpeg", "seg": "n6",
-        "window": "128.46-129.85", "wide": False, "jesus": False, "ref": False,
+        "window": "126.191-127.581", "wide": False, "jesus": False, "ref": False,
         "locks": ["SPOT"],
         "narration": "And then the trouble started.",
         "must_show": "trouble's overture — the abandoned begging spot: empty hollow, folded mat, the bowl with its few coins unclaimed; a life outgrown and about to be litigated.",
@@ -699,7 +709,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b28", "out": "s28-whether-he-be-a-sinner.jpeg", "seg": "s25",
-        "window": "148.84-155.62", "wide": False, "jesus": False, "ref": False,
+        "window": "146.571-153.351", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "HALL"],
         "narration": (
             "Whether he be a sinner or no, I know not: one thing I know, that, "
@@ -722,7 +732,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b29", "out": "s29-he-would-not-argue-theology.jpeg", "seg": "n6b",
-        "window": "156.75-165.16", "wide": False, "jesus": False, "ref": False,
+        "window": "154.481-162.891", "wide": False, "jesus": False, "ref": False,
         "locks": ["LEADERS", "HALL"],
         "narration": (
             "He would not argue theology with trained men. He just told them "
@@ -747,7 +757,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b30", "out": "s30-tell-me-so-i-can.jpeg", "seg": "n8b",
-        "window": "201.74-203.88", "wide": False, "jesus": False, "ref": False,
+        "window": "199.471-201.611", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN"],
         "narration": "Tell me, so I can believe in him.",
         "must_show": "the readiness — close on the man's face asking for the name: leaning toward the answer, faith with its hands already out.",
@@ -766,7 +776,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b31", "out": "s31-they-could-not-shake-him.jpeg", "seg": "n7",
-        "window": "165.78-173.89", "wide": False, "jesus": False, "ref": False,
+        "window": "163.511-171.621", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "LEADERS", "HALL"],
         "narration": (
             "They could not shake him, so they threw him out — cast out of the "
@@ -790,7 +800,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b32", "out": "s32-healed-and-homeless-in-the.jpeg", "seg": "n7",
-        "window": "173.89-183.42", "wide": False, "jesus": True, "ref": REF,
+        "window": "171.621-181.151", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": (
             "Healed, and homeless in the same week. And here is the part to "
@@ -814,7 +824,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b33", "out": "s33-the-man-had-never-actually.jpeg", "seg": "n7",
-        "window": "183.42-186.32", "wide": False, "jesus": False, "ref": False,
+        "window": "181.151-184.051", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN"],
         "narration": "The man had never actually seen the one who healed him.",
         "must_show": "the strange gap — close on the man's face lifting to the approaching stranger: a voice he knows arriving inside a face he has never seen.",
@@ -834,7 +844,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b34", "out": "s34-jesus-asked-him-dost-thou.jpeg", "seg": "n7 + j3",
-        "window": "187.07-191.23", "wide": False, "jesus": True, "ref": REF,
+        "window": "184.801-188.961", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN"],
         "narration": "Jesus asked him: Dost thou believe on the Son of God?",
         "must_show": "SCRIPTURE-EXACT: the question — the two seated close on the bench, Jesus's face gentle and direct with the greatest question, the man's whole attention on him.",
@@ -855,7 +865,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b35", "out": "s35-and-the-man-who-wants.jpeg", "seg": "n8",
-        "window": "192.34-196.52", "wide": False, "jesus": False, "ref": False,
+        "window": "190.071-194.251", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN"],
         "narration": (
             "And the man — who wants to, and does not know who that is — "
@@ -877,7 +887,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b36", "out": "s36-who-is-he-lord-that.jpeg", "seg": "s36 + n8b",
-        "window": "197.14-201.74", "wide": False, "jesus": True, "ref": REF,
+        "window": "194.871-199.471", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN"],
         "narration": "Who is he, Lord, that I might believe on him? Who is he, sir?",
         "must_show": "SCRIPTURE-EXACT: the question of questions — the man's hand half-reached toward Jesus's forearm, the asking at its most naked; the answer seated within touching distance.",
@@ -897,7 +907,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b37", "out": "s37-he-is-not-stalling-he.jpeg", "seg": "n8b",
-        "window": "203.88-208.65", "wide": False, "jesus": False, "ref": False,
+        "window": "201.611-206.381", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN"],
         "narration": (
             "He is not stalling. He is asking for a name so he can give himself "
@@ -919,7 +929,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b38", "out": "s38-and-jesus-said-thou-hast.jpeg", "seg": "n8b + j4",
-        "window": "209.00-214.52", "wide": False, "jesus": True, "ref": REF,
+        "window": "206.731-212.251", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN"],
         "narration": (
             "And Jesus said: Thou hast both seen him, and it is he that talketh "
@@ -942,7 +952,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b39", "out": "s39-you-have-seen-him-and.jpeg", "seg": "n9",
-        "window": "215.57-219.25", "wide": False, "jesus": True, "ref": REF,
+        "window": "213.301-216.981", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN"],
         "narration": "You have seen him — and he is the one talking with you right now.",
         "must_show": "the landing — the man's face as the sentence completes: recognition, wonder and the day's whole meaning arriving at once on features built for exactly this moment.",
@@ -962,7 +972,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b40", "out": "s40-the-first-face-this-man.jpeg", "seg": "n9",
-        "window": "219.25-225.29", "wide": False, "jesus": True, "ref": REF,
+        "window": "216.981-223.021", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN"],
         "narration": (
             "The first face this man ever truly studied was the face of the one "
@@ -985,7 +995,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b41", "out": "s41-and-he-said-lord-i.jpeg", "seg": "n9 + s38",
-        "window": "225.63-228.54", "wide": False, "jesus": False, "ref": False,
+        "window": "223.361-226.271", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN"],
         "narration": "And he said: Lord, I believe.",
         "must_show": "SCRIPTURE-EXACT: the three words — close on the man's face giving them: the completed yes landing on its name at last; tears free, voice visibly steady.",
@@ -1005,7 +1015,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b42", "out": "s42-and-he-worshipped-him-right.jpeg", "seg": "n9b",
-        "window": "229.62-234.52", "wide": False, "jesus": True, "ref": REF,
+        "window": "227.351-232.251", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": (
             "And he worshipped him, right there in the street the religious "
@@ -1030,7 +1040,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b43", "out": "s43-the-question-of-whose-fault.jpeg", "seg": "n9b",
-        "window": "234.52-242.16", "wide": False, "jesus": True, "ref": REF,
+        "window": "232.251-239.891", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": (
             "The question of whose fault it was never got an answer that day. "

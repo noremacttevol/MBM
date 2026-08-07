@@ -91,10 +91,15 @@ SEGMENTS = [
 
 # Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {
-    # "Siloam" (j2, n4, n5) — plain spelling was read as "saloon". "sih low um"
-    # round-trips clean to "Siloam" (sih-LOH-um). A/B measured 2026-07-22
-    # (complaint #63). Caption keeps the true KJV "Siloam".
-    "Siloam": "sih low um",
+    # "Siloam" (j2, n5) — Cameron re-complained 2026-08-07: "still wrong its :
+    # si-LOH-uhm". The delivered build is ElevenLabs (Chris=Jesus, Brian=narrator,
+    # 44.1kHz), and plain "Siloam" renders as "Salome" on that voice (verified
+    # faster-whisper base.en+small.en on the delivered j2.mp3). The old respell
+    # "sih low um" rendered as chopped "silo, um". "Siloh-am" round-trips CLEAN to
+    # "Siloam" on BOTH whisper engines for BOTH voices AND on BOTH TTS backends
+    # (ElevenLabs and edge-tts) — sih-LOH-am, Cameron's target. j2 & n5 re-voiced
+    # through ElevenLabs 2026-08-07 (complaint #63, 2nd pass). Caption keeps KJV "Siloam".
+    "Siloam": "Siloh-am",
 }
 
 
