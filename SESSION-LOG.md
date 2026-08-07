@@ -1,3 +1,23 @@
+## 2026-08-06 (Opus 4.8, C-FIX headless lane) — row 10 well complaint triaged → PARKED NEEDS-AUDIO (audio pacing, $0, no pictures re-cut) — Machine A `Dev`
+
+**Commits:** d11605239 (claim), 07f9c8bd7 (park + RUNNER-LESSONS), + this SESSION-LOG.
+
+COMPLAINT-FIRST job: Cameron's open complaint on the shipped row-10 cut (Woman at the
+Well) — "how fast and meaningles Jesus pronounced the words while telling her he was the
+messiah... the speaker says it too fast." Triaged via `v2_outline.py 10`: the line is `j2`
+"I that speak unto thee am he" (John 4:26, the Messiah reveal, ~3:29). This is an
+**AUDIO-pacing** complaint, NOT a picture defect — the fix is a re-voice (slow the delivery,
+regenerate narration, re-assemble), which the runner is forbidden to do (audio-immutability).
+Per RUNNER-LESSONS, parked the row **NEEDS-AUDIO** (board: Audio CHECK) with a full RUNNER
+PARK note in QC.md giving the author the exact resume (extend `PHRASE_SPOKEN` for j2 beyond
+the single slur-fix ellipsis it already has → regenerate → re-assemble). **$0 — no stills
+re-cut, no credits.** Added a RUNNER-LESSONS line: pacing/"too fast" complaints are audio-park
+class, same as mispronunciations, and a pre-existing partial ellipsis is not proof the pacing
+is fixed. Did NOT ship a picture rebuild over the open audio complaint (that would repeat it —
+the worst failure). Row now waits on an AUDIO-FIX/author session, not the picture runner.
+
+---
+
 ## 2026-08-06 (Opus 4.8, AUDIO-FIX headless lane) — 15 NEEDS-AUDIO rows cleared: row 61 SHIPPED LIVE, rows 86-90 + 92-100 audio-fixed & handed to picture runner — Machine A `Dev`
 
 **Commits:** 25639cd75 + 4b49be56d (row 61 ship + force-add mp4), 08c89c9c6 (row 86),
