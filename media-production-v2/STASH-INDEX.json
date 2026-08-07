@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 06:26:06",
+ "scanned": "2026-08-07 06:54:00",
  "entries": [
   {
    "row": 1,
@@ -35519,6 +35519,50 @@
    "night": false,
    "n_person": 1,
    "scene": "The whole small room holds the one word's after-silence: Jesus seated calm on the platform, the congregation's faces fastened and unbreathing down both benches, the angled morning shafts standing in the quiet air \u2014 Nazar"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b18",
+   "file": "build-73-this-day-fulfilled/assets/s06-the-spirit-of-the-lord.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK",
+    "SCROLL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Held on the standing reader: Jesus at the lectern in the angled morning shafts, the great scroll open before him, reading his own commission over the bowed and lifted heads of his town \u2014 the carpenter's son claiming, in "
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b19",
+   "file": "build-73-this-day-fulfilled/assets/s09-the-spirit-of-the-lord.jpeg",
+   "tokens": [
+    "TOWNSFOLK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close along the stone benches, the morning light on ordinary hometown faces: the patched knees of the day-labourer, the young widow's black shawl, an old man's clouded lifting eyes, a debt-worn farmer's straightening sho"
+  },
+  {
+   "row": 73,
+   "build": "build-73-this-day-fulfilled",
+   "beat": "v2-r073-b20",
+   "file": "build-73-this-day-fulfilled/assets/s16-the-promise-israel-had-waited.jpeg",
+   "tokens": [
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the seated figure in the window shaft's plain light: the undyed cream robe, the carpenter's hands at rest on the knees, the warm familiar hometown face \u2014 nothing added, nothing shining \u2014 the same living presence"
   },
   {
    "row": 75,
