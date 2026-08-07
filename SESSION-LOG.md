@@ -18,6 +18,23 @@
 
 ---
 
+## 2026-08-07 — ROW 114 (Abraham pleads for Sodom, Gen 18) RESUME → ALREADY-SHIPPED, no spend — board reconciled RUNNING→BUILT — Machine A `Dev` (Opus runner resume lane, UNATTENDED)
+
+**Commit:** board reconcile + this log below. On origin/main. **$0 spent — no Gemini credit touched.**
+
+Session-chain verified at start (top entry = row 112, commit `134359ad8` present in `git log`); hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + RUNNER-LESSONS before touching anything.
+
+**The task was to RESUME row 114 (AUTHOR-BOARD State RUNNING / Claim A-auto, parked billing-depleted). Ran the RUNNER-LESSONS already-shipped check FIRST, as ordered — and it is POSITIVE:**
+- Committed mp4: `git log … -- build-114/*.mp4` → commit `17a68c09f` "RESUME row 114 abraham-sodom: V2 realistic ship — b14 collage cleared, b13 collage FIX-WAVE'd, AUDIO LOCK PASS, 23 stills 19.5MB". mp4 is git-tracked.
+- Live review card: `id="v114"` carries `data-review-wave="realistic-v2"` + matching `data-hash="17a68c09f…"`.
+- Live Firebase (`milk-b4-meat.web.app/review.html`) carries the same hash; mp4 resolves HTTP 200, content-length 19,540,934 B (= the folder file exactly).
+
+A later resume lane finished this row AFTER the billing park (the mp4 in-folder is dated Aug 6 23:01, post-dating the park note). Per the runner rule — "if it shipped, tick it BUILT and take nothing else" — **NOTHING was regenerated; no credit spent.** The only stale artifact was the AUTHOR-BOARD row still reading RUNNING with the old park note; reconciled to **BUILT** with the shipped facts. QUEUE.md row 114 already carried all ✅ + the shipped note (no change needed). This is exactly the RUNNER-LESSONS "FIRST check ALREADY-SHIPPED before you check LIVE" guard working — it prevented a ~$6 redundant rebuild of a done row.
+
+COST LAW: $0/row this session (a reconcile, not a build) — trend stays DOWN vs the $6.10 average.
+
+---
+
 ## 2026-08-07 — ROW 112 (The Beatitudes, Matt 5) REALISTIC V2 SHIPPED — resumed a STRANDED row (9/27), giant-Jesus scale complaint FIXED, 0 rerolls, deployed + live-verified — Machine A `Dev` (Opus runner resume lane, UNATTENDED)
 
 **Commits:** resume claim = `15e3db3fa`; ship (7a: mp4 + QC.md + QUEUE + AUTHOR-BOARD) = `134359ad8c3a751694b93ae073ff81bb5d8957b2`; review card + this log (7b) = follow-on. All on origin/main; Firebase hosting redeployed + live-verified.
