@@ -1,3 +1,17 @@
+## 2026-08-07 — ROW 62 (ephphatha) C-FIX SHIPPED — 0:18 picture had messed-up eyes — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `9c831b4c3` (board → C-FIX LIVE) · ship `5a7b5cefbf90` (mp4 + s03 still + QC + api-spend) · review.html + SESSION-LOG this commit. **Session-chain verified at start:** then-top commit `9c84a3e180a3` (Row 51 C-FIX ship) present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 62` first.
+
+**Complaint (Cameron, against the shipped cut — `v2_outline.py 62`):** *"0:18 picture is bad it has someones eyes messed up."* Diagnosed: the still on screen at t=18s is `s03-now-they-come-running.jpeg` (beat `v2-r062-b03`, window 14.59–22.76). Confirmed at full res — the old man at frame-left had a white AI smear across his eye sockets (garbled eye render). Every other face was clean.
+
+**Fix (touch-once, single frame):** rerolled ONLY b03 (`v2_gen_api.py --only v2-r062-b03 --redo --ceiling 525`). New take: old man + every legible face have clean, correct eyes; Jesus the only cream robe (center-back crowd checked — muted tan working tunics, no second cream figure); no modern objects, no collage, all photographic; larger "whole neighborhood" crowd fits the narration. **1 reroll / 34 beats = 3%** (inside ≤15% budget). **$0.13**, meter $498.61→$498.75. Every other beat byte-identical.
+
+**Re-assembly:** `v2_assemble.py 62` → **AUDIO LOCK PASS** SHA256 `6786984813c4…d8d3634` — IDENTICAL to the prior ship, so narration/voices/timing untouched, audio byte-identical. mark-7_ephphatha.mp4, 21.0 MB, 202.8s. Verified the fix in the RENDERED mp4 at t=18s (extracted frame), captions in the bottom band only.
+
+**Deploy:** `firebase deploy --only hosting`, then live-verified `id="v62"` carries new hash on https://milk-b4-meat.web.app/review.html and the mp4 URL returns 200. Board Claim → C-FIX SHIPPED. Review card answers the complaint in Cameron's words.
+
+---
+
 ## 2026-08-07 — ROW 51 (first-catch-of-fish) C-FIX SHIPPED — first 2 pictures were sideways — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** claim `656c343e5` (board+QUEUE → C-FIX LIVE) · ship `9c84a3e180a3` (mp4 + QC + boards + api-spend) · review.html+SESSION-LOG this commit. **Session-chain verified at start:** then-top commit `cddbff014` (Row 71 C-FIX ship) present in `git log -5`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 51` first.
