@@ -1,3 +1,35 @@
+## 2026-08-06 (AUDIO-FIX, headless) — Row 69 (baptism) SHIPPED — STALE-V1 audio-lock cleared, new-voice cut live — $0 — Machine A `Dev`
+
+**Commit:** `da00221e35d620696f3a7b6d9e09195b67aa4ea6` (mp4+beats+QC) + `69ea9cd1414a2a4685c403553a600da831646a28` (review card + AUTHOR-BOARD).
+
+Session-chain verified: read SESSION-LOG top (row 48 realistic-v2, commit `4dd741328765`) and confirmed
+it in `git log`; hostname `Dev` → Machine A. Ran the AUDIO-FIX brief headless/unattended.
+
+**Row 69 was stranded, not done.** The prior session's last commit `e3f041f91` only edited AUTHOR-BOARD
+(claimed row 69 "AUDIO-FIX LIVE") — it never committed the beats fix and never assembled. Single-machine
+(Law 12b) means that stale claim was a dead prior session on this box, not a competitor, so I completed it.
+
+**STALE-V1 class, fixed at $0 (no TTS, no image gen).** Root cause confirmed by timestamps: the V1 mp4
+`media-production/build-69-baptism/matt-3_baptism-of-jesus.mp4` was rendered 2026-07-29 09:47, BEFORE the
+REDO-ALL re-voice batch re-rendered all 14 narration segment mp3s at 2026-07-29 23:03. The mp4 carried the
+STALE pre-REDO-ALL voices; the mp3s are the intended NEW voice. Fix: `AUDIO_FROM_V1_SEGMENTS = True` in
+build-69-baptism/beats_v2.py (edit was already staged uncommitted from the parked session; I committed it and
+shipped). `v2_assemble.py 69` → **AUDIO REBUILD PASS** SHA256 `7132e43f637005e1bb774c0635ee7eaf11a3be2…`,
+172.277s timeline, mp4 172.3s / 21.7 MB. ffprobe: aac, 172.300s, mean -15.5 dB (on target), not silent.
+**Segments re-voiced: NONE** — only the audio SOURCE changed (stale mp4 → new-voice mp3s at V1 offsets).
+
+**Complaint answered.** Row 69's open complaint was the SCALE complaint — "John is way too big in the first
+picture" — already fixed in the stills by the picture runner (s01: John ordinary human height beside the man
+he baptizes, gated in b01). QC'd s01 + s18 by eye: realistic biblical photography, no cartoon/mixed frame
+(Law 14 PASS); Jesus one locked face + only-cream, cloud-rift light with no halo. The row sat NEEDS-AUDIO
+only because the stale-V1 lock blocked assembly; clearing it let the fixed, new-voice cut ship. Review card
+🛠 flag tells Cameron his complaint was fixed AND that the old cut was held back for carrying the old voice.
+
+**Shipped + live-verified:** AUTHOR-BOARD row 69 NEEDS-AUDIO → BUILT / Audio OK / Ready ✅; review.html v69
+card → new hash `da00221e35d6`, `data-review-wave="realistic-v2"`, src → media-production-v2 mp4; two commits
+pushed; `firebase deploy --only hosting` complete; live checks PASS — deployed card carries the new hash+wave,
+GitHub-raw mp4 HTTP 200 (21,683,752 bytes). **Cost: $0** (Gemini $0, ElevenLabs $0 — no re-voice needed).
+
 ## 2026-08-06 (Fable 5, main session) — THE PUBLISH LOOP built: publish_ledger.py + PUBLISH-BOARD.md, version rule v2.1/v2.2 — Machine A `Dev`
 
 **Commit:** (this commit)
