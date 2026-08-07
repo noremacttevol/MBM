@@ -103,13 +103,17 @@ SAY_BY_VOICE = {
     "Gennesaret": {"narrator": "gunnessuhret"},
     "Esaias": {"scripture": "izayus"},
     "Judaea": {"jesus": "joodeeuh"},
-    # maketh (2026-07-21, measured this session): Eric reads the plain word as
-    # "MOCK-eth" (#124 shipped audio + fresh A/B; Cameron denial #188 was the
-    # same defect) and Steffan reads it "MOCKED (with)" (#150 Psalm 23 shipped
-    # audio, 2/2 takes). Winners per voice: 'mayketh' round-trips clean in Eric;
-    # 'makith' round-trips back as the exact word "maketh" in Steffan. Andrew's
-    # plain "maketh" tested fine — no narrator entry on purpose.
-    "maketh": {"jesus": "maykith", "scripture": "maykith"},  # scripture entry upgraded 2026-07-21 (#150 round 2): fresh Steffan renders of "makith" came out "may keep"/"Mckeith"; "maykith" round-trips "maketh" exactly (MAY-kith, Cameron's #188 target).
+    # maketh — EDGE-TTS ONLY. These respells were measured on Azure/edge voices
+    # (2026-07-21): Eric reads the plain word as "MOCK-eth", Steffan as "MOCKED
+    # (with)". 'mayketh' round-trips clean in Eric; 'maykith' in Steffan.
+    # ⚠️ CORRECTION (2026-08-07, AUDIO-FIX lane): "MAY-kith" is Cameron's #188
+    # DEFECT, NOT his target — the old note here had it backwards. It does not
+    # matter for delivery: all rows now render on ElevenLabs via
+    # voice_from_transcripts.py -> eleven_spoken_text(), which BYPASSES this SAY
+    # map entirely, so ElevenLabs reads the PLAIN word "maketh" correctly
+    # (MAKE-eth). This map is dormant unless a build is re-rendered on edge-tts —
+    # in which case a build-local SPOKEN={"maketh":"maketh"} guard overrides it.
+    "maketh": {"jesus": "maykith", "scripture": "maykith"},  # left as-is (edge-only, dormant); do not "fix" the value — see correction above.
     # divideth (2026-07-22, measured on Cameron denial #33 "Divideth is
     # pronounced wrong"): Eric reads the plain word as "divoteth" (2/2 takes on
     # the exact #33 line, Matt 25:32). Candidates that lost: "divydeth" ->
