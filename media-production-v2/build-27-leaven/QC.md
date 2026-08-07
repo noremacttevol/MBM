@@ -145,3 +145,42 @@ card 91.8s+). Then it is a targeted single-segment edge-tts input fix (respell/p
 rate — A/B via check_pronunciation.py), regen ONLY that mp3, remap only the affected
 still-windows for the small duration delta, re-assemble, C-FIX. Everything else is verified
 clean seven ways.
+
+## §0e AUDIO-FIX lane 2026-08-07 (Machine A `Dev`, Fable-5 author lane, 4th pass) — 8th diagnostic (voice identity) CLEAN + structural lead
+
+Swept the top open complaint again (COMPLAINT-FIRST + LOW-NUMBER). Ran one diagnostic no
+prior pass had run, plus scrutinised the narration TEXT as content (not waveform).
+
+1. **Per-segment voice-identity scan (wrong-voice detector) — NEW, CLEAN.** A segment
+   rendered in the WRONG speaker's voice (e.g. the Jesus red-letter j1 coming out in the
+   narrator voice, or a narrator line in the Jesus/scripture voice) would sound "messed up"
+   yet pass every transcript / level / timing / encode / cps / word-timing check already run.
+   Measured median voiced F0 (autocorrelation, numpy) of all 11 segments:
+   - **JESUS j1 = 84 Hz** — distinctly the LOWEST (deeper Jesus voice, correct).
+   - **NARRATOR n1–n8/card = 88–118 Hz, median 98 Hz** — one consistent male narrator.
+   - **SCRIPTURE s33 = 102 Hz** — its own register, between the two.
+   Three correct, distinct male voices; no segment is voiced by the wrong speaker. n2's 118 Hz
+   is the top of the narrator's normal prosodic range (an emphatic line), not an outlier voice.
+   **Eight independent headless diagnostics now find nothing.** The block is real.
+
+2. **Narration TEXT read as content (not waveform).** `make_narration.py` SEGMENTS are clean
+   English — no doubled phrase, no stray pause mark, no truncated clause. The n1 "doubling"
+   whisper flagged is a hallucination (the word "every day" is NOT in n1's text; n1 says
+   "every week … her own hands"). Nothing in the written text is malformed.
+
+**Forward LEAD for the ear-pass (the one structural thing unique to row 27).** Row 27 is the
+ONLY build in the library where a mid-sentence KJV attribution clause was split into its own
+2.4 s micro-segment in a THIRD voice between the narrator on-ramp and Jesus (the SPEAKER-LAW
+rebuild). So in the first ~11 s the ear hears narrator → a 2.4 s formal fragment ending on a
+hanging semicolon ("Another parable **spake he** unto them;") → Jesus. Two things there could
+read as "messed up" even though every segment is individually clean and no law is violated:
+(a) three distinct male voices inside 11 s is a fast switch; (b) as a STANDALONE cut, opening
+the retelling with "**Another** parable spake he" is confusing — there was no *first* parable
+in this video (it's "another" only in Matthew 13's sequence after the mustard seed). **If the
+ear-pass localises the wrongness to 0–11 s, this is the cause, and it is CONTENT not a
+waveform artifact** — the fix is scripting, not a re-render: e.g. keep s33 blue/scripture per
+SPEAKER-LAW but reconsider whether the standalone cut should lead on the attribution clause at
+all, or let n1 flow straight into j1 with s33 folded differently. This is why eight waveform
+diagnostics cannot see it. **$0, nothing changed, no pictures/audio touched.** (Scan:
+`/tmp/f0scan.py` method — decode each mp3 to 16 kHz mono, autocorrelation F0, median over
+voiced frames.)
