@@ -387,6 +387,17 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   the AUTHOR's committed wiring. DETECT: `git diff PLACE-WIRING.json` right after any
   `--wire`; if an EXISTING token's src_build changed, `git checkout PLACE-WIRING.json`
   to restore the committed choice. `--wire` is only for tokens with NO committed entry.
+- **`v2_stash.py --wire` writes THREE things, not one — reverting only PLACE-WIRING.json
+  is NOT enough (2026-08-07, row 98 TOMB).** When `--wire` attaches a wrong/forbidden
+  plate it (a) rewrites PLACE-WIRING.json, (b) edits the build's `beats_v2.py` PLACE_REFS
+  dict (replacing an author "deliberately UNWIRED" comment with `"TOKEN": "PLACE-REF/x.jpeg"`),
+  AND (c) writes the actual plate art into `PLACE-REF/x.jpeg`. `v2_gen_api` attaches the
+  plate by the beats_v2 PLACE_REFS pointer + the file on disk, NOT the JSON — so a
+  `git checkout PLACE-WIRING.json` alone still generates against the wrong plate (row 98:
+  b01 rendered against build-37's parable tomb even though the JSON read `{}`). When a
+  build's QC.md says a token is deliberately unwired ("take row X's frame / never build-37"),
+  revert ALL THREE: `git checkout PLACE-WIRING.json beats_v2.py` AND `rm PLACE-REF/<token>.jpeg`,
+  then regenerate the anchor plate-free and `--promote` this row's own frame.
 - **DECLINE a place plate when its token spans two different rooms/times-of-day
   (2026-08-07, row 50 HOUSE).** Row 50's HOUSE token covers BOTH a night lamplit
   sickroom (b03-b06) AND a bright daytime colonnaded court (b27). Promoting either
