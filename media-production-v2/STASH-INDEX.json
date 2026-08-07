@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 10:52:41",
+ "scanned": "2026-08-07 10:59:21",
  "entries": [
   {
    "row": 1,
@@ -39095,6 +39095,378 @@
    "night": false,
    "n_person": 0,
    "scene": "The closing frame fills with faces in the clear morning light \u2014 the farmer's, the questioner's, the bored soldier's, the child's on its mother's hip, old and young and friend and schemer crowding the colonnade \u2014 every on"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b01",
+   "file": "build-82-anointing-at-bethany/assets/s01-in-a-house-in-bethany.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The lamplit supper room holds its evening, the camera at the side wall taking couches and door in profile: diners reclining on cushions around the low table, bread and cups in the small flames' light, Jesus among them at"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b02",
+   "file": "build-82-anointing-at-bethany/assets/s02-she-carried-an-alabaster-jar.jpeg",
+   "tokens": [
+    "WOMAN",
+    "JAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on her two composed hands in the lamplight, cradling the small alabaster flask \u2014 pale veined stone with a faint translucence where the flame stands behind it, the long neck still sealed with its wax \u2014 a vessel the "
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b03",
+   "file": "build-82-anointing-at-bethany/assets/s03-and-poured-all-of-it.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN",
+    "JAR"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "She stands over him and gives it all: the broken-necked flask upended above Jesus's head, the precious oil running bright threads down the dark hair and into his beard in the lamplight \u2014 nothing held back, nothing saved "
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b04",
+   "file": "build-82-anointing-at-bethany/assets/s04-some-of-the-men-at.jpeg",
+   "tokens": [
+    "ROOM",
+    "CRITICS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The far side of the table rears up: critics pushing off their cushions, a rust-brown sleeve flung toward the dripping oil, a charcoal shoulder squared, faces hardening around the sum they are all computing at once \u2014 indi"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b05",
+   "file": "build-82-anointing-at-bethany/assets/s05-why-was-this-waste-of.jpeg",
+   "tokens": [
+    "CRITICS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the lead critic in full protest: one hand counting off the other's fingers \u2014 three hundred pence, itemised in the air \u2014 his brows up in appeal to the whole table, the word WASTE still shaping his mouth \u2014 an argu"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b06",
+   "file": "build-82-anointing-at-bethany/assets/s06-and-mark-adds-one-more.jpeg",
+   "tokens": [
+    "ROOM",
+    "CRITICS",
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The protest drops to a murmur and gets meaner for it: heads leaning pair to pair along the table, words passed side-mouthed with glances that cut across the lamplight to where she stands \u2014 the empty flask still in her ha"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b07",
+   "file": "build-82-anointing-at-bethany/assets/s07-they-said-it-where-she.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on her face as the murmur reaches it: the steady dark eyes level under the olive shawl, the mouth at rest, not one muscle recruiting for a defence \u2014 the words landing on a composure that declines to be spent on the"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b08",
+   "file": "build-82-anointing-at-bethany/assets/s08-she-never-says-a-single.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN",
+    "CRITICS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus comes up off his cushion with the perfume still bright in his hair \u2014 one hand rising into the murmur like a bar dropped across a road \u2014 and the table stops: leaning heads caught mid-lean, the lead critic's mouth op"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b09",
+   "file": "build-82-anointing-at-bethany/assets/s09-let-her-alone-why-trouble.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN",
+    "CRITICS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The defence stands up between them, the camera at the table's side so the interposition reads in profile: Jesus half-turned so his halting palm faces the critics while his other hand opens toward the woman like a present"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b10",
+   "file": "build-82-anointing-at-bethany/assets/s10-leave-her-alone-why-are.jpeg",
+   "tokens": [
+    "CRITICS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the critics as the rebuke lands: the lead man's counting hand sinking to the table, another's eyes dropping to his own cup, the fine indignation faltering face by face in the small flames' light \u2014 men who walked"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b11",
+   "file": "build-82-anointing-at-bethany/assets/s11-she-has-done-a-beautiful.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The frame holds the exchange that outweighs the table: Jesus's face turned full and warm toward the woman, the word BEAUTIFUL passing to her as directly as the murmur did, and her steady dark eyes receiving it without bl"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b12",
+   "file": "build-82-anointing-at-bethany/assets/s12-for-ye-have-the-poor.jpeg",
+   "tokens": [
+    "ROOM",
+    "CRITICS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus speaks it soberly down the length of the lamplit table \u2014 the poor always within reach of any day's kindness they choose, and himself, said evenly, NOT ALWAYS \u2014 and the sentence changes the room's temperature: cups "
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b13",
+   "file": "build-82-anointing-at-bethany/assets/s13-and-then-he-answered-the.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus turning squarely toward the critics' side of the table \u2014 not deflecting, not changing the subject, but walking straight at their strongest point, the three hundred pence and the poor \u2014 the warm eyes steady"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b14",
+   "file": "build-82-anointing-at-bethany/assets/s14-he-was-not-brushing-the.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At the room's edge the open door frames the dark lane, and by its post in the spill of lamplight sits the small worn wooden bowl of the neighbourhood's beggar \u2014 ordinary, near, and permanent \u2014 the poor not banished from "
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b15",
+   "file": "build-82-anointing-at-bethany/assets/s15-he-was-telling-a-room.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN",
+    "CRITICS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The wide room divides by what its faces know, the camera behind the near couches' shoulders: faces know: around the table the men look to Jesus in honest confusion \u2014 brows working, the closing window he speaks of invisib"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b16",
+   "file": "build-82-anointing-at-bethany/assets/s16-she-hath-done-what-she.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on Jesus as he gives the act its true name \u2014 one hand lifting to touch the oil still bright in his own hair \u2014 COME AFOREHAND, TO THE BURYING \u2014 the word spoken as calmly as a man names the next town on a road he has"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b17",
+   "file": "build-82-anointing-at-bethany/assets/s17-she-did-what-she-was.jpeg",
+   "tokens": [
+    "WOMAN",
+    "JAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on her hands in the lamplight, holding what remains: the pale alabaster body empty to its last drop, the snapped neck's clean break catching the flame \u2014 the full inventory of what she was able to do, done \u2014 no seco"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b18",
+   "file": "build-82-anointing-at-bethany/assets/s18-nobody-else-in-that-house.jpeg",
+   "tokens": [
+    "ROOM",
+    "CRITICS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The word moves down the table and the table flinches from it: one man's head shaking a small involuntary NO, another's eyes dropping to the floorboards, a third turning his cup in his fingers as if the subject could be s"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b19",
+   "file": "build-82-anointing-at-bethany/assets/s19-whether-she-fully-knew-it.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Across the lamplit room the frame holds the two of them at once: Jesus with the burial oil bright in his hair, the woman with the emptied stone against her breast \u2014 the completed act stretched between them like a rope ne"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b20",
+   "file": "build-82-anointing-at-bethany/assets/s20-verily-i-say-unto-you.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN",
+    "CRITICS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus raises the proclamation over the whole table, the camera at the room's side so speaker and hearers read in profile \u2014 the whole table \u2014 his open hand toward the woman in her olive-green, his voice taking in every cr"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b21",
+   "file": "build-82-anointing-at-bethany/assets/s21-she-broke-the-jar-open.jpeg",
+   "tokens": [
+    "WOMAN",
+    "JAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close on the decision made irreversible: her two hands snapping the alabaster neck with one clean deliberate crack \u2014 the sealed stone giving way, the first bright bead of spikenard rising at the break \u2014 a contain"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b22",
+   "file": "build-82-anointing-at-bethany/assets/s22-wherever-this-good-news-is.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The room looks at her at last: around the low table the same faces that murmured an hour ago turn toward the woman in the lamplight with a new and unpractised regard \u2014 seeing, as if for the first time, the person who was"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b23",
+   "file": "build-82-anointing-at-bethany/assets/s23-she-gave-the-most-extravagant.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The lamplight holds the two faces in their settled peace: hers composed under the olive shawl, the extravagance long gone from her hands and not one line of regret in her features \u2014 and his warm with the received gift, t"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b24",
+   "file": "build-82-anointing-at-bethany/assets/s24-not-wasteful-worship.jpeg",
+   "tokens": [
+    "JAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on what the evening leaves on the table: the pale broken alabaster resting in the small flames' light \u2014 the emptied body, the snapped neck beside it \u2014 laid there like evidence in a case just decided: the same shard"
+  },
+  {
+   "row": 82,
+   "build": "build-82-anointing-at-bethany",
+   "beat": "v2-r082-b25",
+   "file": "build-82-anointing-at-bethany/assets/s25-and-he-was-right-about.jpeg",
+   "tokens": [
+    "ROOM",
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The closing frame watches her go: the woman in olive-green passing out through the doorway into the soft dark of the Bethany night, upright and unhurried, the supper's warm lamplight laying one last gold stripe across he"
   },
   {
    "row": 83,

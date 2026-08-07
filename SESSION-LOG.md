@@ -94,7 +94,7 @@
 
 **Caption/card QC (rendered mp4, output-seek):** white narrator + red Jesus KJV ("but me ye have not always") captions in the bottom band only; question card ("She gave him her best and he called it beautiful. What would it mean to stop holding back from him?") clean — no tofu/square glyphs, good margins.
 
-**DEPLOY + live-verify (7c):** _pending in this same session — see below / next commit._
+**DEPLOY + live-verify (7c) — DONE.** `firebase deploy --only hosting` succeeded (release complete, 435 files, no 429/prune needed). Live-verified: `https://milk-b4-meat.web.app/review.html` card v82 carries `data-hash="6aac90013546b9f7bc876d963e3d41865d8222fc"` + `data-review-wave="realistic-v2"` + `data-built="2026-08-07"`, and the mp4 at the DIRECT raw.githubusercontent.com host returns **HTTP/2 200, content-length 20,447,192** (no redirect → `?v=` survives per the row-110 cache fix). A row is shipped only when the live page carries the new hash — it does. STASH-INDEX re-scanned (step 8a, 2989 stills / 94 builds) and PUBLISH LOOP synced (step 10, `publish_ledger.py sync --commit` = board refresh, no new publish event).
 
 **Cost:** portrait $0.13 + full run $3.35 + 2 rerolls $0.27 = **~$3.75 this row** (meter $456.67 → $462.30). **Well under the $6.10/row running average**, 8% rerolls (under the 19% baseline) — COST LAW trend holds DOWN.
 
