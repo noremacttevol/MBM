@@ -621,6 +621,15 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   outright garbage (nobody can read a sideways frame), distinct from the 16:9-
   letterbox-inside-9:16 defect. Mandatory reroll on sight; one `--redo` landed it
   upright. Tends to hit lone-figure "lifted hands / reaching outward" beats.
+  **CONFIRMED AGAIN row 51 C-FIX (Cameron: "the first 2 pictures are sideways and
+  bad, replace them") — TWO ADJACENT frames rotated at once (b01 crowd, b02 empty
+  boats), NOT just lone-figure beats.** It also slips past an in-session QC that
+  views frames one at a time, because a rotated frame still contains the right
+  people/props; the tell is only the ORIENTATION (horizon vertical, everyone
+  lying on their side). LESSON: at claim time, view the OPENING 2-3 frames of any
+  built row specifically for orientation before trusting the ship — the first
+  frames are what Cameron sees first and rotation there sinks the whole cut. One
+  `--redo` each landed both upright; audio byte-identical (same SHA), ~$0.27.
 - **QC a promote-first plate for UNWANTED PEOPLE before promoting — a crowded
   anchor bleeds a crowd onto later beats of that place (row 114 abraham-sodom
   HEIGHT plate s05).** The HEIGHT anchor b05 ("for those cities had grown dark")
