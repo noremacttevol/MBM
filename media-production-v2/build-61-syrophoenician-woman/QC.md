@@ -1,5 +1,30 @@
 # QC / RUNNER HANDOFF — build-61-syrophoenician-woman (Mark 7:24-30)
 
+## 🅿️ AUTHOR-FIXED → NEEDS-REBUILD (2026-08-07, Machine A `Dev`, $0 Fable-5 author lane)
+
+**COMPLAINT LEDGER — OPEN Cameron complaint (row 61): "jesus's eyes in 0:52 are crazy looking."**
+
+- **The 0:52 frame is `s11-she-asked-anyway.jpeg` (beat v2-r061-b11, window 47.38–53.49).**
+  Jesus is in the frame ("the one face that has not hardened"), but the beat prose never
+  specified his eyes, so the **JESUS-V2-REF master-face eye-cast** rendered them wide/wild
+  ("crazy") — the exact failure now codified as **rubric lesson 18** (row 109 was the first
+  instance; this is the second). Root cause is mostly SYSTEMIC (the master sheet's own
+  eye-cast recurs on Jesus close-ups), not per-row prose.
+- **AUTHOR FIX (this session, $0 — no image gen):** added an explicit CALM-EYES instruction
+  to b11 (must_show: "Jesus's EYES are CALM, warm and softly open — the settled, kind gaze
+  of the master face, steady on the kneeling woman"; must_not_show bans wide/wild/bulging/
+  staring/manic/'crazy' eyes, whites-showing wide-eye, lens-stare; scene now names his calm
+  warm steady gaze). Reinforced the SAME ban on the adjacent Jesus close-up b12 (the pause)
+  so the whole close-up cluster is safe. `--check PASS` (31 beats), audio UNTOUCHED.
+- **🅿️ RUNNER — do this (paid, ONE targeted re-cut, touch-once):** reroll ONLY
+  `s11-she-asked-anyway.jpeg` against the fixed b11 prose (face-board it vs
+  `JESUS-MASTER-REF/jesus-face.jpeg` for the locked calm-eyed Jesus). Keep every other still
+  byte-identical. Re-assemble with **AUDIO LOCK byte-identical** (nothing re-voiced), re-run
+  the face gate (must exit 0), and ship with a review card telling Cameron the crazy-eyes
+  complaint was addressed. **SYSTEMIC FLAG (non-blocking):** if a calm-eyes reroll STILL
+  lands a wild gaze after ≤2 tries, STOP rerolling — it is the master-ref sheet's eye-cast;
+  FIX-WAVE it and escalate for a master-ref review (per lesson 18), do not churn credits.
+
 ## ✅ AUDIO FIX DONE — STALE-V1 lock cleared + realistic-V2 cut SHIPPED (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
 
 **Class: STALE-V1 (duration/recency), NOT a pronunciation complaint.** `v2_outline.py 61`

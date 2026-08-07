@@ -306,8 +306,8 @@ BEATS = [
         "locks": ["WOMAN", "HOUSE"],
         "narration": ("Every social rule in the room said she had no "
                       "right to ask. She asked anyway."),
-        "must_show": "the room's rules made visible — disapproval on the bystanders' faces ringing the kneeling woman; and her asking through it.",
-        "must_not_show": "the disapproval is real but ordinary — propriety offended, not cruelty; she simply outweighs it.",
+        "must_show": "the room's rules made visible — disapproval on the bystanders' faces ringing the kneeling woman; and her asking through it. Jesus's EYES are CALM, warm and softly open — the settled, kind gaze of the master face, steady on the kneeling woman and unhardened while the room stiffens around her.",
+        "must_not_show": "the disapproval is real but ordinary — propriety offended, not cruelty; she simply outweighs it. Jesus's eyes are NEVER wide, wild, bulging, staring, manic or 'crazy'; no whites-showing wide-eye and no lens-stare — a calm warm face, not an alarmed one.",
         "scene": (
             "Around the kneeling foreign woman the room's propriety "
             "stiffens: the householder half-risen with a hand out as "
@@ -315,7 +315,8 @@ BEATS = [
             "the intrusion, another looking to Jesus for the "
             "signal to remove her — and in the middle of all that "
             "offended order she stays down and keeps asking, her "
-            "face lifted only to the one face that has not hardened. "
+            "face lifted only to the one face that has not hardened: "
+            "Jesus's, his eyes calm and warm and steady on her. "
             "Lamplight. Every figure has two arms, two hands and one "
             "head."
         ),
@@ -327,7 +328,7 @@ BEATS = [
         "narration": ("What Jesus said next sounds harsh — until you hear "
                       "it the way she heard it."),
         "must_show": "the held moment before the hard saying — Jesus regarding her; something deliberate assembling behind his eyes.",
-        "must_not_show": "no coldness — the look of a teacher choosing a test he believes the student will pass.",
+        "must_not_show": "no coldness — the look of a teacher choosing a test he believes the student will pass. Jesus's eyes are NEVER wide, wild, bulging, staring, manic or 'crazy'; no whites-showing wide-eye and no lens-stare — calm, warm, softly open.",
         "scene": (
             "A close two-shot across the lamplight: the woman's "
             "lifted, waiting face — and Jesus regarding her steadily "
