@@ -135,7 +135,13 @@ stop, object, or write alerts about concurrency; follow these rules instead:
    b. If this row surfaced ANY defect class not already in `RUNNER-LESSONS.md`
       (even one you rerolled away), append it as one line and commit — one
       session's mistake must never be repeated on another session's meter.
-9. Tick `Built` on the QUEUE row. Clear nothing else. Next row.
+9. Tick `Built` on the QUEUE row. Clear nothing else.
+10. **PUBLISH LOOP (Cameron, 2026-08-06):** run
+    `python3 media-production-v2/publish_ledger.py sync --commit` — it
+    re-derives what is approved and what is live where, auto-records any
+    gallery publish as a version (first publish of a v2 cut = v2.1, a fix
+    re-publish = v2.2; v2.1 stays in history forever), and regenerates
+    `PUBLISH-BOARD.md`. The push at end of session carries it. Next row.
 
 ## Session pacing
 

@@ -1,0 +1,2128 @@
+{
+  "rows": {
+    "1": {
+      "open_fix": null,
+      "slug": "build-01-cloak",
+      "title": "Woman Who Touched His Cloak",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "8d78e74204b5a9cdb207b9f0a2cd94f78dfffae4",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/1.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "open_fix": null,
+      "slug": "build-10-well",
+      "title": "The Woman at the Well",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "509c16aec1746b459d70f2ad5fab75f30fb16d35",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/10.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "100": {
+      "open_fix": null,
+      "slug": "build-100-the-ascension",
+      "title": "The Ascension",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "fa5a73f6da715579b061b1852664f074d44109b3",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/100.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "101": {
+      "open_fix": null,
+      "slug": "build-101-still-small-voice",
+      "title": "The Still Small Voice",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "fa5c33162fa37279de8a635924d9731712e518c4",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/101.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "102": {
+      "open_fix": null,
+      "slug": "build-102-jacobs-ladder",
+      "title": "Jacob's Ladder",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "0802b651d7d79fb87520fea8276d4ba84349b115",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/102.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "103": {
+      "open_fix": null,
+      "slug": "build-103-peters-confession",
+      "title": "Peter's Confession",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "da00eedce018cfb695053dcf57957e6af7694643",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/103.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "104": {
+      "open_fix": null,
+      "slug": "build-104-boy-samuel",
+      "title": "The Boy Samuel",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "dbec407c5a0db18f85e18df75702cb87e6b74c8c",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/104.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "105": {
+      "open_fix": null,
+      "slug": "build-105-face-to-face",
+      "title": "Face to Face, as a Friend",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "d7edaff888377f26237908c9694039358a2b8e9a",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/105.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "106": {
+      "open_fix": null,
+      "slug": "build-106-god-spake-by-prophets",
+      "title": "God Spake by the Prophets",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "d60a0202b4e1fd6f667f5f177355911a17c2f116",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/106.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "107": {
+      "open_fix": null,
+      "slug": "build-107-john-baptist-doubt",
+      "title": "John the Baptist's Doubt",
+      "versions": []
+    },
+    "108": {
+      "open_fix": null,
+      "slug": "build-108-my-sheep-hear-my-voice",
+      "title": "My Sheep Hear My Voice",
+      "versions": []
+    },
+    "109": {
+      "open_fix": null,
+      "slug": "build-109-ask-seek-knock",
+      "title": "Ask, Seek, Knock",
+      "versions": []
+    },
+    "11": {
+      "open_fix": null,
+      "slug": "build-11-storm",
+      "title": "Calming the Storm",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "7329ff2c1eb9fb687e37b40e04f0c2d7c5d021d0",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/11.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "110": {
+      "open_fix": null,
+      "slug": "build-110-lords-prayer",
+      "title": "The Lord's Prayer",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "69f73e8e698985d1eabeeea5559b230548917ccd",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/110.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "111": {
+      "open_fix": null,
+      "slug": "build-111-lilies-and-sparrows",
+      "title": "Lilies and Sparrows",
+      "versions": []
+    },
+    "112": {
+      "open_fix": null,
+      "slug": "build-112-beatitudes",
+      "title": "The Beatitudes",
+      "versions": []
+    },
+    "113": {
+      "open_fix": null,
+      "slug": "build-113-where-art-thou",
+      "title": "Where Art Thou?",
+      "versions": []
+    },
+    "114": {
+      "open_fix": null,
+      "slug": "build-114-abraham-sodom",
+      "title": "Abraham Pleads for Sodom",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "b947eb26c8c85d12eb276399bfce15dcf39bb58f",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/114.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "115": {
+      "open_fix": null,
+      "slug": "build-115-ram-in-the-thicket",
+      "title": "The Ram in the Thicket",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "cab3bc36f7473ff407cebb25f1193fe56d93dac8",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/115.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "116": {
+      "open_fix": null,
+      "slug": "build-116-graven-on-his-palms",
+      "title": "Graven on His Palms",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "5b86feb1457cf2ff317412c0af24d58b3242c7e8",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/116.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "117": {
+      "open_fix": null,
+      "slug": "build-117-hosea-buys-her-back",
+      "title": "Hosea Buys Her Back",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "94600f743e788f992dd64937bea252fe41c7cf8c",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/117.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "118": {
+      "open_fix": null,
+      "slug": "build-118-jonah-god-who-relents",
+      "title": "Jonah and the God Who Relents",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "4deca42a35418c02d0cad89f33d4de06c450ebe2",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/118.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "119": {
+      "open_fix": null,
+      "slug": "build-119-fourth-man-in-fire",
+      "title": "The Fourth Man in the Fire",
+      "versions": []
+    },
+    "12": {
+      "open_fix": null,
+      "slug": "build-12-bartimaeus",
+      "title": "Blind Bartimaeus",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "2bf804f46b18eae15e455fbc48c4f4f0798cf864",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/12.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "120": {
+      "open_fix": null,
+      "slug": "build-120-job-from-whirlwind",
+      "title": "Job Answered from the Whirlwind",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "a5daf7749d6c84f94437f3466043eea12f72cf16",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/120.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "121": {
+      "open_fix": null,
+      "slug": "build-121-salt-and-light",
+      "title": "Salt and Light",
+      "versions": []
+    },
+    "122": {
+      "open_fix": null,
+      "slug": "build-122-mote-and-beam",
+      "title": "The Mote and the Beam",
+      "versions": []
+    },
+    "123": {
+      "open_fix": null,
+      "slug": "build-123-golden-rule",
+      "title": "The Golden Rule",
+      "versions": []
+    },
+    "124": {
+      "open_fix": null,
+      "slug": "build-124-love-your-enemies",
+      "title": "Love Your Enemies",
+      "versions": []
+    },
+    "125": {
+      "open_fix": null,
+      "slug": "build-125-i-never-knew-you",
+      "title": "I Never Knew You",
+      "versions": []
+    },
+    "126": {
+      "open_fix": null,
+      "slug": "build-126-by-their-fruits",
+      "title": "By Their Fruits",
+      "versions": []
+    },
+    "127": {
+      "open_fix": null,
+      "slug": "build-127-the-strait-gate",
+      "title": "The Strait Gate",
+      "versions": []
+    },
+    "128": {
+      "open_fix": null,
+      "slug": "build-128-heart-far-from-me",
+      "title": "Heart Far From Me",
+      "versions": []
+    },
+    "129": {
+      "open_fix": null,
+      "slug": "build-129-nazareth-only-a-few",
+      "title": "Nazareth Only a Few",
+      "versions": []
+    },
+    "13": {
+      "open_fix": null,
+      "slug": "build-13-roof",
+      "title": "The Man Through the Roof",
+      "versions": []
+    },
+    "130": {
+      "open_fix": null,
+      "slug": "build-130-what-manner-of-spirit",
+      "title": "What Manner of Spirit",
+      "versions": []
+    },
+    "131": {
+      "open_fix": null,
+      "slug": "build-131-scribe-near-the-kingdom",
+      "title": "Scribe Near the Kingdom",
+      "versions": []
+    },
+    "132": {
+      "open_fix": null,
+      "slug": "build-132-forbid-him-not",
+      "title": "Forbid Him Not",
+      "versions": []
+    },
+    "133": {
+      "open_fix": null,
+      "slug": "build-133-what-jesus-called-hell",
+      "title": "What Jesus called hell",
+      "versions": []
+    },
+    "134": {
+      "open_fix": null,
+      "slug": "build-134-today-in-paradise",
+      "title": "\"Today shalt thou be with me in paradise\"",
+      "versions": []
+    },
+    "135": {
+      "open_fix": null,
+      "slug": "build-135-rainbow-covenant",
+      "title": "The Rainbow Covenant",
+      "versions": []
+    },
+    "136": {
+      "open_fix": null,
+      "slug": "build-136-healed-in-two-touches",
+      "title": "Healed in Two Touches",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "b57ec30b71c28a618ddc414d1ac2195035207e12",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/136.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "137": {
+      "open_fix": null,
+      "slug": "build-137-one-as-we-are-one",
+      "title": "Stephen Sees Him Standing",
+      "versions": []
+    },
+    "138": {
+      "open_fix": null,
+      "slug": "build-138-his-offspring",
+      "title": "We Are his Offspring",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "7b2da66db3934c402ee16c28db3aa0d3939525dc",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/138.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "139": {
+      "open_fix": null,
+      "slug": "build-139-lamp-on-a-stand",
+      "title": "Lamp on a Stand",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "a613d7ee9966349a6ed339b6572d5172eb8c1dd1",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/139.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "14": {
+      "open_fix": null,
+      "slug": "build-14-ten-lepers",
+      "title": "The Ten Lepers",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "dd1dfc04ba645a05de2ea95e8c58d672fecb5f4c",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/14.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "140": {
+      "open_fix": null,
+      "slug": "build-140-naaman-washes",
+      "title": "Road Runs Both Ways",
+      "versions": []
+    },
+    "141": {
+      "open_fix": null,
+      "slug": "build-141-bread-of-life",
+      "title": "I Am the Bread of Life",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "397491df29e4a6914c5cda81188db1ee75f5851d",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/141.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "142": {
+      "open_fix": null,
+      "slug": "build-142-light-of-the-world",
+      "title": "I Am the Light of the World",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "999fb774fe037ea31cd5567fa3fea33b97c7adb4",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/142.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "143": {
+      "open_fix": null,
+      "slug": "build-143-i-am-the-door",
+      "title": "I Am the Door",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "44c5d12ed5403762c5680d80e715e1a4d1af3859",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/143.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "144": {
+      "open_fix": null,
+      "slug": "build-144-resurrection-and-the-life",
+      "title": "Resurrection and the Life",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "cb660b44b3c1695a8d65036fdf834033170033c2",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/144.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "145": {
+      "open_fix": null,
+      "slug": "build-145-way-truth-life",
+      "title": "Way Truth Life",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "21e094a7d358ed63f54d76fbc99738e9a1f87b21",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/145.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "146": {
+      "open_fix": null,
+      "slug": "build-146-vine-and-branches",
+      "title": "Vine and Branches",
+      "versions": []
+    },
+    "147": {
+      "open_fix": null,
+      "slug": "build-147-joseph-forgives",
+      "title": "Joseph Forgives",
+      "versions": []
+    },
+    "148": {
+      "open_fix": null,
+      "slug": "build-148-ruth-and-the-redeemer",
+      "title": "Ruth and the Redeemer",
+      "versions": []
+    },
+    "149": {
+      "open_fix": null,
+      "slug": "build-149-hannah-is-heard",
+      "title": "Hannah Is Heard",
+      "versions": []
+    },
+    "15": {
+      "open_fix": null,
+      "slug": "build-15-centurion",
+      "title": "The Centurion's Servant",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "5569f0217370da6dfb3e2ce6a33a78136722a862",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/15.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "150": {
+      "open_fix": null,
+      "slug": "build-150-shepherd-psalm",
+      "title": "The Shepherd Psalm",
+      "versions": []
+    },
+    "151": {
+      "open_fix": null,
+      "slug": "build-151-ask-of-god",
+      "title": "If Any of You Lack Wisdom",
+      "versions": []
+    },
+    "152": {
+      "open_fix": null,
+      "slug": "build-152-revealeth-his-secret",
+      "title": "He Revealeth His Secret to the Prophets",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "7ed45b5ebe77c72c37588eeb2d7b6509478d07f3",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/152.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "153": {
+      "open_fix": null,
+      "slug": "build-153-restitution",
+      "title": "The Restitution of All Things",
+      "versions": []
+    },
+    "154": {
+      "open_fix": null,
+      "slug": "build-154-everlasting-gospel",
+      "title": "The Angel with the Everlasting Gospel",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "35c93b7d375ed5330e3691e2671affc71debef3b",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/154.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "155": {
+      "open_fix": null,
+      "slug": "build-155-falling-away",
+      "title": "A Falling Away First",
+      "versions": []
+    },
+    "156": {
+      "open_fix": null,
+      "slug": "build-156-famine-of-hearing",
+      "title": "A Famine of Hearing the Word",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "9fde150b4ab78d52eaf96229c7ba08752e30da93",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/156.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "157": {
+      "open_fix": null,
+      "slug": "build-157-marvellous-work",
+      "title": "A Marvellous Work and a Wonder",
+      "versions": []
+    },
+    "158": {
+      "open_fix": null,
+      "slug": "build-158-two-sticks",
+      "title": "The Stick of Judah and Joseph",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "cf110f68ffeef389324fb255948f5badd5d75128",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/158.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "159": {
+      "open_fix": null,
+      "slug": "build-159-other-sheep",
+      "title": "Other Sheep I Have",
+      "versions": []
+    },
+    "16": {
+      "open_fix": null,
+      "slug": "build-16-mary-martha",
+      "title": "Mary and Martha",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "1606e218e55913a26b3ad135bc7b616656afb102",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/16.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "160": {
+      "open_fix": null,
+      "slug": "build-160-stone-cut",
+      "title": "The Stone Cut Without Hands",
+      "versions": []
+    },
+    "161": {
+      "open_fix": null,
+      "slug": "build-161-called-of-god",
+      "title": "Called of God, as was Aaron",
+      "versions": []
+    },
+    "162": {
+      "open_fix": null,
+      "slug": "build-162-keys-of-kingdom",
+      "title": "The Keys of the Kingdom",
+      "versions": []
+    },
+    "163": {
+      "open_fix": null,
+      "slug": "build-163-apostles-prophets",
+      "title": "Built on Apostles and Prophets",
+      "versions": []
+    },
+    "164": {
+      "open_fix": null,
+      "slug": "build-164-unity-of-faith",
+      "title": "Till We All Come in the Unity of the Faith",
+      "versions": []
+    },
+    "165": {
+      "open_fix": null,
+      "slug": "build-165-laying-on-hands",
+      "title": "Laying On of Hands for the Holy Ghost",
+      "versions": []
+    },
+    "166": {
+      "open_fix": null,
+      "slug": "build-166-baptized-properly",
+      "title": "Baptized Again, Properly",
+      "versions": []
+    },
+    "167": {
+      "open_fix": null,
+      "slug": "build-167-chosen-ordained",
+      "title": "I Have Chosen You, and Ordained You",
+      "versions": []
+    },
+    "168": {
+      "open_fix": null,
+      "slug": "build-168-born-water-spirit",
+      "title": "Born of Water and of the Spirit",
+      "versions": []
+    },
+    "169": {
+      "open_fix": null,
+      "slug": "build-169-fulfil-righteousness",
+      "title": "To Fulfil All Righteousness",
+      "versions": []
+    },
+    "17": {
+      "open_fix": null,
+      "slug": "build-17-lazarus",
+      "title": "Lazarus",
+      "versions": []
+    },
+    "170": {
+      "open_fix": null,
+      "slug": "build-170-sacrament-worthily",
+      "title": "The Sacrament, Worthily",
+      "versions": []
+    },
+    "171": {
+      "open_fix": null,
+      "slug": "build-171-baptized-for-the-dead",
+      "title": "Baptized For the Dead",
+      "versions": []
+    },
+    "172": {
+      "open_fix": null,
+      "slug": "build-172-gospel-preached-to-the-dead",
+      "title": "Gospel Preached to the Dead",
+      "versions": []
+    },
+    "173": {
+      "open_fix": null,
+      "slug": "build-173-dead-shall-hear",
+      "title": "Dead Shall Hear",
+      "versions": []
+    },
+    "174": {
+      "open_fix": null,
+      "slug": "build-174-hearts-of-the-fathers",
+      "title": "Hearts of the Fathers",
+      "versions": []
+    },
+    "175": {
+      "open_fix": null,
+      "slug": "build-175-mountain-of-the-lords-house",
+      "title": "Mountain of the Lords House",
+      "versions": []
+    },
+    "176": {
+      "open_fix": null,
+      "slug": "build-176-who-shall-ascend",
+      "title": "Who Shall Ascend",
+      "versions": []
+    },
+    "177": {
+      "open_fix": null,
+      "slug": "build-177-make-me-a-sanctuary",
+      "title": "Make Me a Sanctuary",
+      "versions": []
+    },
+    "178": {
+      "open_fix": null,
+      "slug": "build-178-in-our-image",
+      "title": "In Our Image",
+      "versions": []
+    },
+    "179": {
+      "open_fix": null,
+      "slug": "build-179-stephens-witness",
+      "title": "Stephens Witness",
+      "versions": []
+    },
+    "18": {
+      "open_fix": null,
+      "slug": "build-18-emmaus",
+      "title": "The Road to Emmaus",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "3dd2ed01342caa83aaec64307917cd0aa987d3c0",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/18.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "180": {
+      "open_fix": null,
+      "slug": "build-180-before-i-formed-thee",
+      "title": "Before I Formed Thee",
+      "versions": []
+    },
+    "181": {
+      "open_fix": null,
+      "slug": "build-181-morning-stars-sang",
+      "title": "Morning Stars Sang",
+      "versions": []
+    },
+    "182": {
+      "open_fix": null,
+      "slug": "build-182-spirit-returns-to-god",
+      "title": "The Spirit Returns to God",
+      "versions": []
+    },
+    "183": {
+      "open_fix": null,
+      "slug": "build-183-sun-moon-and-stars",
+      "title": "Sun Moon and Stars",
+      "versions": []
+    },
+    "184": {
+      "open_fix": null,
+      "slug": "build-184-third-heaven",
+      "title": "Caught Up to the Third Heaven",
+      "versions": []
+    },
+    "185": {
+      "open_fix": null,
+      "slug": "build-185-many-mansions-member",
+      "title": "In My Fathers House",
+      "versions": []
+    },
+    "186": {
+      "open_fix": null,
+      "slug": "build-186-joint-heirs",
+      "title": "Heirs of God",
+      "versions": []
+    },
+    "187": {
+      "open_fix": null,
+      "slug": "build-187-ye-are-gods",
+      "title": "Ye Are Gods",
+      "versions": []
+    },
+    "188": {
+      "open_fix": null,
+      "slug": "build-188-be-ye-therefore-perfect",
+      "title": "Be Ye Therefore Perfect",
+      "versions": []
+    },
+    "189": {
+      "open_fix": null,
+      "slug": "build-189-to-him-that-overcometh",
+      "title": "To Him That Overcometh",
+      "versions": []
+    },
+    "19": {
+      "open_fix": null,
+      "slug": "build-19-shore",
+      "title": "Breakfast on the Shore",
+      "versions": []
+    },
+    "190": {
+      "open_fix": null,
+      "slug": "build-190-faith-without-works",
+      "title": "Faith Without Works",
+      "versions": []
+    },
+    "191": {
+      "open_fix": null,
+      "slug": "build-191-windows-of-heaven",
+      "title": "Windows of Heaven",
+      "versions": []
+    },
+    "192": {
+      "open_fix": null,
+      "slug": "build-192-the-fast-god-has-chosen",
+      "title": "The Fast God Has Chosen",
+      "versions": []
+    },
+    "193": {
+      "open_fix": null,
+      "slug": "build-193-the-comforter",
+      "title": "The Comforter",
+      "versions": []
+    },
+    "194": {
+      "open_fix": null,
+      "slug": "build-194-fruit-of-the-spirit",
+      "title": "Fruit of the Spirit",
+      "versions": []
+    },
+    "195": {
+      "open_fix": null,
+      "slug": "build-195-prove-all-things",
+      "title": "Prove All Things",
+      "versions": []
+    },
+    "196": {
+      "open_fix": null,
+      "slug": "build-196-would-god-all-were-prophets",
+      "title": "Would God All Were Prophets",
+      "versions": []
+    },
+    "197": {
+      "open_fix": null,
+      "slug": "build-197-sons-and-daughters-prophesy",
+      "title": "Sons and Daughters Prophesy",
+      "versions": []
+    },
+    "198": {
+      "open_fix": null,
+      "slug": "build-198-ensign-for-the-nations",
+      "title": "Ensign For the Nations",
+      "versions": []
+    },
+    "199": {
+      "open_fix": null,
+      "slug": "build-199-fishers-and-hunters",
+      "title": "Fishers and Hunters",
+      "versions": []
+    },
+    "2": {
+      "open_fix": null,
+      "slug": "build-02-prodigal",
+      "title": "The Prodigal Son",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "6293a0b4df050158626c5f3ff7a17d6782fb800f",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/2.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "20": {
+      "open_fix": null,
+      "slug": "build-20-samaritan",
+      "title": "The Good Samaritan",
+      "versions": []
+    },
+    "200": {
+      "open_fix": null,
+      "slug": "build-200-gospel-to-all-the-world",
+      "title": "Gospel to All the World",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "b44252a11d74fdeeb6710210f77fccd89ce48501",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/200.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "21": {
+      "open_fix": null,
+      "slug": "build-21-lost-sheep",
+      "title": "The Lost Sheep",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "03ed0120cb23666fcffd6d4f47fedfa757470a52",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/21.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "22": {
+      "open_fix": null,
+      "slug": "build-22-unmerciful-servant",
+      "title": "The Unmerciful Servant",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "cdd5256f47d8e6e5220016e11efc26705d814c50",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/22.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "23": {
+      "open_fix": null,
+      "slug": "build-23-vineyard",
+      "title": "The Workers in the Vineyard",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "4a0f233043ee42496ce73600e2161d7dd2611917",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/23.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "24": {
+      "open_fix": null,
+      "slug": "build-24-sower",
+      "title": "The Sower",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "880a2800261bece5c08fdf11b2765c89c2c64868",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/24.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "25": {
+      "open_fix": null,
+      "slug": "build-25-wheat-and-tares",
+      "title": "The Wheat and the Tares",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "6c0ab4ca9eac28b3c3c0ffbcfd46c0d06a6394de",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/25.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "26": {
+      "open_fix": null,
+      "slug": "build-26-mustard-seed",
+      "title": "The Mustard Seed",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "5cd15ecf7f995488a2ad76ca3c7563fbc350cacb",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/26.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "27": {
+      "open_fix": null,
+      "slug": "build-27-leaven",
+      "title": "The Leaven",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "13cfa31d7633549bcdb69baf177c6faee4f25f21",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/27.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "28": {
+      "open_fix": null,
+      "slug": "build-28-hidden-treasure",
+      "title": "The Hidden Treasure",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "035411fc6ec2dab75c0e3f6822d517e14f6d07a5",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/28.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "29": {
+      "open_fix": null,
+      "slug": "build-29-pearl",
+      "title": "The Pearl of Great Price",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "5e0ad0f0d9b75831d82f86fe6e734d28a7530349",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/29.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "open_fix": null,
+      "slug": "build-03-zacchaeus",
+      "title": "Zacchaeus",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "8b6fc7369ce60abeedf09e54fa0b7e6fa7bbe50f",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/3.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "30": {
+      "open_fix": null,
+      "slug": "build-30-net",
+      "title": "The Net",
+      "versions": []
+    },
+    "31": {
+      "open_fix": null,
+      "slug": "build-31-ten-virgins",
+      "title": "The Ten Virgins",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "ee9462678d1587dbd4a704acad9a6c623af25e9d",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/31.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "open_fix": null,
+      "slug": "build-32-talents",
+      "title": "The Talents",
+      "versions": []
+    },
+    "33": {
+      "open_fix": null,
+      "slug": "build-33-sheep-goats",
+      "title": "The Sheep and the Goats",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "0becf741b8e722ac59e746016307e310f400c5bc",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/33.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "34": {
+      "open_fix": null,
+      "slug": "build-34-rich-fool",
+      "title": "The Rich Fool",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "4a658183ec12057b54503ac9b3dd4f0f1f51126d",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/34.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "35": {
+      "open_fix": null,
+      "slug": "build-35-great-banquet",
+      "title": "The Great Banquet",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "dfc4e155269451514372b9047d8b27cee1992fa9",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/35.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "36": {
+      "open_fix": null,
+      "slug": "build-36-shrewd-steward",
+      "title": "The Shrewd Steward",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "6c1ad873c8c3b86cf5581bb2c37641a495baa63f",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/36.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "37": {
+      "open_fix": null,
+      "slug": "build-37-rich-man-lazarus",
+      "title": "The Rich Man and Lazarus",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "8b1a3eab42ced1566e016f577b97415611f1ac69",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/37.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "38": {
+      "open_fix": null,
+      "slug": "build-38-persistent-widow",
+      "title": "The Persistent Widow",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "9960f8f3167080ad2e49c4b9d9b4db5c7469c6dc",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/38.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "39": {
+      "open_fix": null,
+      "slug": "build-39-pharisee-publican",
+      "title": "The Pharisee and the Publican",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "3a646462bd4545dab8c04532d2396affaf76fd5e",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/39.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "open_fix": null,
+      "slug": "build-04-nicodemus",
+      "title": "Nicodemus at Night",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "aedf7dbe595b391282741f6bcc2958fb6a6678d3",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/4.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "40": {
+      "open_fix": null,
+      "slug": "build-40-the-friend-at-midnight",
+      "title": "The Friend at Midnight",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "a2df0a4b1f88f3787ec9448a57f23facc02ed952",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/40.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "41": {
+      "open_fix": null,
+      "slug": "build-41-counting-the-cost",
+      "title": "Counting the Cost",
+      "versions": []
+    },
+    "42": {
+      "open_fix": null,
+      "slug": "build-42-barren-fig-tree",
+      "title": "The Barren Fig Tree Spared",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "151dfc3dd827c1f9acf2fed0cf437167ce52663a",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/42.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "43": {
+      "open_fix": null,
+      "slug": "build-43-the-wedding-garment",
+      "title": "The Wedding Garment",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "97ec30dc316f95a9c5c48e13393c242ad886da35",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/43.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "44": {
+      "open_fix": null,
+      "slug": "build-44-two-debtors",
+      "title": "Two Debtors",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "986d58bde9ada712a4cc580a0be3033f84391751",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/44.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "45": {
+      "open_fix": null,
+      "slug": "build-45-wicked-tenants",
+      "title": "The Wicked Tenants",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "10352d45e23fb166d6b911a9c5025594d5ecb773",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/45.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "46": {
+      "open_fix": null,
+      "slug": "build-46-seed-growing",
+      "title": "The Seed Growing Secretly",
+      "versions": []
+    },
+    "47": {
+      "open_fix": null,
+      "slug": "build-47-houses-on-rock-and-sand",
+      "title": "Houses on Rock and Sand",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "e3e5bea47e256dbfa5aef5decdcbbb3030f2b7e9",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/47.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "48": {
+      "open_fix": null,
+      "slug": "build-48-new-wine-old-bottles",
+      "title": "New Wine, Old Bottles",
+      "versions": []
+    },
+    "49": {
+      "open_fix": null,
+      "slug": "build-49-water-to-wine",
+      "title": "Water to Wine at Cana",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "8261ad310b45d694e2ca0affb624f756e091db83",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/49.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "open_fix": null,
+      "slug": "build-05-bent-woman",
+      "title": "The Bent-Over Woman",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "c5a481d39930437584a9e769b20041f0c71973a7",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/5.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "50": {
+      "open_fix": null,
+      "slug": "build-50-noblemans-son",
+      "title": "The Nobleman's Son",
+      "versions": []
+    },
+    "51": {
+      "open_fix": null,
+      "slug": "build-51-first-catch-of-fish",
+      "title": "The First Catch of Fish",
+      "versions": []
+    },
+    "52": {
+      "open_fix": null,
+      "slug": "build-52-demoniac-synagogue",
+      "title": "The Demoniac in the Synagogue",
+      "versions": []
+    },
+    "53": {
+      "open_fix": null,
+      "slug": "build-53-peters-mother-in-law",
+      "title": "Peter's Mother-in-Law",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "f59eeae6a219865e4f14a56fe7748c202619c2c5",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/53.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "54": {
+      "open_fix": null,
+      "slug": "build-54-the-leper",
+      "title": "The Leper Made Clean",
+      "versions": []
+    },
+    "55": {
+      "open_fix": null,
+      "slug": "build-55-withered-hand",
+      "title": "The Withered Hand",
+      "versions": []
+    },
+    "56": {
+      "open_fix": null,
+      "slug": "build-56-widow-of-nain",
+      "title": "The Widow of Nain's Son",
+      "versions": []
+    },
+    "57": {
+      "open_fix": null,
+      "slug": "build-57-jairus-daughter",
+      "title": "Jairus's Daughter",
+      "versions": []
+    },
+    "58": {
+      "open_fix": null,
+      "slug": "build-58-feeding-5000",
+      "title": "Feeding the Five Thousand",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "73cab6867d222794dc84e6fb5e9e0c0c97318089",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/58.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "59": {
+      "open_fix": null,
+      "slug": "build-59-feeding-4000",
+      "title": "Feeding the Four Thousand",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "7709eb18dad24c5bd09a0ba3f0c6e8ef98f3a0a6",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/59.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "open_fix": null,
+      "slug": "build-06-two-sons",
+      "title": "The Two Sons",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "f02048c13cb8851570d07681799919e1d8cad53e",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/6.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "60": {
+      "open_fix": null,
+      "slug": "build-60-gerasene-demoniac",
+      "title": "The Gerasene Demoniac",
+      "versions": []
+    },
+    "61": {
+      "open_fix": null,
+      "slug": "build-61-syrophoenician-woman",
+      "title": "The Syrophoenician Woman",
+      "versions": []
+    },
+    "62": {
+      "open_fix": null,
+      "slug": "build-62-ephphatha",
+      "title": "Ephphatha: the Deaf Man",
+      "versions": []
+    },
+    "63": {
+      "open_fix": null,
+      "slug": "build-63-man-born-blind",
+      "title": "The Man Born Blind",
+      "versions": []
+    },
+    "64": {
+      "open_fix": null,
+      "slug": "build-64-pool-of-bethesda",
+      "title": "The Pool of Bethesda",
+      "versions": []
+    },
+    "65": {
+      "open_fix": null,
+      "slug": "build-65-help-mine-unbelief",
+      "title": "Help Mine Unbelief",
+      "versions": []
+    },
+    "66": {
+      "open_fix": null,
+      "slug": "build-66-malchus-ear",
+      "title": "Malchus Ear",
+      "versions": []
+    },
+    "67": {
+      "open_fix": null,
+      "slug": "build-67-the-transfiguration",
+      "title": "The Transfiguration",
+      "versions": []
+    },
+    "68": {
+      "open_fix": null,
+      "slug": "build-68-multitudes-mountain",
+      "title": "Multitudes Mountain",
+      "versions": []
+    },
+    "69": {
+      "open_fix": null,
+      "slug": "build-69-baptism",
+      "title": "Baptism of Jesus",
+      "versions": []
+    },
+    "7": {
+      "open_fix": null,
+      "slug": "build-07-peter-water",
+      "title": "Peter Walks on Water",
+      "versions": []
+    },
+    "70": {
+      "open_fix": null,
+      "slug": "build-70-temptations",
+      "title": "The Temptations",
+      "versions": []
+    },
+    "71": {
+      "open_fix": null,
+      "slug": "build-71-the-great-commission",
+      "title": "The Great Commission",
+      "versions": []
+    },
+    "72": {
+      "open_fix": null,
+      "slug": "build-72-calling-matthew",
+      "title": "Calling Matthew",
+      "versions": []
+    },
+    "73": {
+      "open_fix": null,
+      "slug": "build-73-this-day-fulfilled",
+      "title": "This Day Fulfilled",
+      "versions": []
+    },
+    "74": {
+      "open_fix": null,
+      "slug": "build-74-woman-washed-his-feet",
+      "title": "The Woman Who Washed His Feet",
+      "versions": []
+    },
+    "75": {
+      "open_fix": null,
+      "slug": "build-75-woman-taken-in-adultery",
+      "title": "The Woman Taken in Adultery",
+      "versions": []
+    },
+    "76": {
+      "open_fix": null,
+      "slug": "build-76-suffer-the-little-children",
+      "title": "Suffer the Little Children",
+      "versions": []
+    },
+    "77": {
+      "open_fix": null,
+      "slug": "build-77-widows-mite",
+      "title": "The Widows Mite",
+      "versions": []
+    },
+    "78": {
+      "open_fix": null,
+      "slug": "build-78-who-is-my-mother",
+      "title": "Who Is My Mother",
+      "versions": []
+    },
+    "79": {
+      "open_fix": null,
+      "slug": "build-79-the-seventy-sent",
+      "title": "The Seventy Sent",
+      "versions": []
+    },
+    "8": {
+      "open_fix": null,
+      "slug": "build-08-lost-coin",
+      "title": "The Lost Coin",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "b19d2c128a9c1bdef44b83e76821d5d2d81f1cec",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/8.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "80": {
+      "open_fix": null,
+      "slug": "build-80-come-unto-me",
+      "title": "Come Unto Me",
+      "versions": []
+    },
+    "81": {
+      "open_fix": null,
+      "slug": "build-81-render-unto-caesar",
+      "title": "Render Unto Caesar",
+      "versions": []
+    },
+    "82": {
+      "open_fix": null,
+      "slug": "build-82-anointing-at-bethany",
+      "title": "Anointing At Bethany",
+      "versions": []
+    },
+    "83": {
+      "open_fix": null,
+      "slug": "build-83-weeping-over-jerusalem",
+      "title": "Weeping Over Jerusalem",
+      "versions": []
+    },
+    "84": {
+      "open_fix": null,
+      "slug": "build-84-no-room-manger",
+      "title": "No Room: the Manger",
+      "versions": []
+    },
+    "85": {
+      "open_fix": null,
+      "slug": "build-85-shepherds-and-angels",
+      "title": "Shepherds and Angels",
+      "versions": []
+    },
+    "86": {
+      "open_fix": null,
+      "slug": "build-86-the-wise-men",
+      "title": "The Wise Men",
+      "versions": []
+    },
+    "87": {
+      "open_fix": null,
+      "slug": "build-87-boy-in-the-temple",
+      "title": "Boy in the Temple",
+      "versions": []
+    },
+    "88": {
+      "open_fix": null,
+      "slug": "build-88-triumphal-entry",
+      "title": "Triumphal Entry",
+      "versions": []
+    },
+    "89": {
+      "open_fix": null,
+      "slug": "build-89-last-supper",
+      "title": "The Last Supper",
+      "versions": []
+    },
+    "9": {
+      "open_fix": null,
+      "slug": "build-09-rich-ruler",
+      "title": "The Rich Young Ruler",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "05939de26b3687df4b1676559a530e86faf6d1f2",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/9.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "90": {
+      "open_fix": null,
+      "slug": "build-90-washing-feet",
+      "title": "Washing the Disciples Feet",
+      "versions": []
+    },
+    "91": {
+      "open_fix": null,
+      "slug": "build-91-gethsemane",
+      "title": "Gethsemane",
+      "versions": []
+    },
+    "92": {
+      "open_fix": null,
+      "slug": "build-92-peters-denial",
+      "title": "Peters Denial",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "8b295d65b4e8a7b52d9f3612a65b10d4396749e9",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/92.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    "93": {
+      "open_fix": null,
+      "slug": "build-93-barabbas-goes-free",
+      "title": "Barabbas Goes Free",
+      "versions": []
+    },
+    "94": {
+      "open_fix": null,
+      "slug": "build-94-father-forgive-them",
+      "title": "Father Forgive Them",
+      "versions": []
+    },
+    "95": {
+      "open_fix": null,
+      "slug": "build-95-thief-on-the-cross",
+      "title": "Thief on the Cross",
+      "versions": []
+    },
+    "96": {
+      "open_fix": null,
+      "slug": "build-96-it-is-finished",
+      "title": "It Is Finished",
+      "versions": []
+    },
+    "97": {
+      "open_fix": null,
+      "slug": "build-97-the-empty-tomb",
+      "title": "The Empty Tomb",
+      "versions": []
+    },
+    "98": {
+      "open_fix": null,
+      "slug": "build-98-mary-her-name",
+      "title": "Mary her Name",
+      "versions": []
+    },
+    "99": {
+      "open_fix": null,
+      "slug": "build-99-flesh-and-bone-thomas",
+      "title": "Flesh and Bone Thomas",
+      "versions": [
+        {
+          "date": "2026-07-22",
+          "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
+          "sha1": "2a4d27cf7d2c4078dbac2297d7f9d232d17fb73a",
+          "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/99.mp4"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "updated": "2026-08-06T22:24:27"
+}

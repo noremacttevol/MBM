@@ -15,3 +15,6 @@
 *.size
 *.FAILED.txt
 STASH-INDEX.json
+
+# publish_ledger.py sha1 cache — machine-local (mtimes differ per machine)
+.hash-cache.json

@@ -1,3 +1,37 @@
+## 2026-08-06 (Fable 5, main session) — THE PUBLISH LOOP built: publish_ledger.py + PUBLISH-BOARD.md, version rule v2.1/v2.2 — Machine A `Dev`
+
+**Commit:** (this commit)
+
+Cameron asked for "a loop for managing what is approved and published … show what is
+posted where … version 2.1 of it as if it is published … if it must be fixed later
+then that was the first that got published … all of this needs to go to github."
+
+**Built:** `media-production-v2/publish_ledger.py` (stdlib only) + state of record
+`PUBLISH-LEDGER.json` (append-only version history) + generated `PUBLISH-BOARD.md`.
+Truth is derived from REAL FILES, never checkboxes: approvals.json hash-stamps,
+review.html card hashes/waves, the build folders' mp4 sha1s, `site/story-videos/`
+(what is actually live on the app gallery), and videos.ts PRODUCED_VIDEO_IDS (what
+the app lists). **VERSION RULE implemented exactly as Cameron said it:** first
+publish of a row's realistic-v2 cut = **v2.1**; a fix that re-publishes = **v2.2**;
+v2.1 stays in the ledger forever as the first that got published. v1.x = legacy
+cuts. Commands: `sync [--commit --push]` (auto-detects gallery publishes — the loop
+step), `approve N` (stamps approvals.json in its existing format), `publish N
+--platform youtube --url …` (external posts; same-cut extra platform joins the
+version, changed cut bumps the minor), `fix N --reason` (opens a fix; history never
+erased), `status` / `history N`. Guards verified: won't publish an unapproved cut,
+won't hand-record app-gallery (auto-detected), Law-14 guard — a pre-realistic
+approval shows as "(old appr)" and never counts as publish-ready.
+
+**First sync seeded 71 live gallery files — finding: ALL 71 are LEGACY v1.1 cuts.
+Nothing from the realistic-v2 wave is live in the app yet** (v2 cuts exist only on
+the reviewer). Board summary: 71 LIVE-OLD-STYLE · 32 ON-REVIEWER awaiting Cameron ·
+1 APPROVED-not-published (row 7, appr 2026-08-02) · rows 2/3/5/6/8 approved v2 cuts
+with old cuts still live — next step on each: publish the approved cut → v2.1.
+Second sync = 0 events (idempotent). sha1s cached in `.hash-cache.json`
+(gitignored, machine-local). Wired into the loop: PROMPT-OPUS-RUNNER.md step 10
+runs `sync --commit` after every ship; QUEUE.md header points to the board as the
+state of record for Appr/Post.
+
 ## 2026-08-06 (Opus runner, headless) — Row 48 (new-wine-old-bottles) REALISTIC V2 SHIPPED — billing restored after 45 blocked resumes — Machine A `Dev`
 
 **Commit:** `4dd741328765bdac05c7b54487d4528a61e14647` (mp4+QC+boards) + review-card/SESSION-LOG commit on top.
