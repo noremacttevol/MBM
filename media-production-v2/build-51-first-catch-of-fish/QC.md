@@ -1,5 +1,25 @@
 # QC / RUNNER HANDOFF — build-51-first-catch-of-fish (Luke 5:1-11)
 
+## 🅰️ REALISTIC-V2 SHIPPED — A-auto 2026-08-07 (Machine A `Dev`, UNATTENDED/HEADLESS)
+
+**COMPLAINT LEDGER (row's only open complaint):**
+- **"still mispronouncing tear — it should be like tare but its still spelled the same"** → **FIXED at the audio authority and PROVEN in the shipped cut.** n4 (the sole "tear" segment) was re-voiced through the locked ElevenLabs NARRATOR "Brian" respelled `tare` (/tɛr/, caption keeps "tear"), atempo-matched to the original 10.266s so no window moved, placed in the authoritative V1 dir (`media-production/build-51/audio/n4.mp3` md5 `94dd26b2…`), and `AUDIO_FROM_V1_SEGMENTS = True` set in beats_v2.py. This picture cut's **AUDIO REBUILD PASS (SHA256 e82b1aaf…)** rebuilds narration from the 15 V1-dir mp3s — the "tare" take is cryptographically in the delivered mp4. (Verified V1-dir n4 = the fixed baseline, NOT the orphaned V2-dir edge-tts take `3045…` which the assembler ignores.)
+
+**Build:** 26 realistic V2 stills + 2 portraits (SIMON→pinned to global PETER sheets, CREWMAN). AUDIO REBUILD PASS SHA256 `e82b1aaf546bcb613303cc3989a16dbd348b51fded38a1fe6736103be071835a`, 159.8s, 20.7 MB. Captions bottom-band only (verified early/mid frames); question card renders clean (no tofu), full margins, closes "What is he calling you to leave behind, to follow him?"
+
+**PLATE DECISION (logged per runner "log it, don't improvise"):** the author's QC named LAKE promote-first from b01 and BOATS from b02 "person-free," but b01 is Jesus+crowd and **b02's own scene text authors in "the crowd around the distant teacher"** (a distant cream Jesus) — I may not edit scene text (hard rail) and may not promote a Jesus-bearing frame to auto-wiring (rubric lesson 11 + v2_stash auto-wire refuses Jesus frames). No clean Jesus-free plate candidate exists, so LAKE/BOATS stayed on their detailed text locks and I QC'd boat/lake uniformity by eye instead. Boats read as one consistent cedar design across all frames.
+
+**QC (all 26 viewed once):** only Jesus in cream every frame; Jesus canonical (Middle-Eastern, dark wavy shoulder-length hair, full beard, warm skin); SIMON=PETER canonical (young black-curly hair, full black beard ~35) held across s04/06/07/09/10/20/22/23/26; miracle action logic correct (net pays out / fish come up over the gunwale, water drains OUT, ropes to rigging, nobody on the water); both-boats-sinking rides low with hulls above the surface (waterline law); scale natural (Jesus ordinary-sized, no giant); no modern objects, no lens-stares, no second cream figure, seagulls natural-sized.
+
+**1 REROLL / 26 = 3.8%** (under the 15% budget). s18 (at-his-knees) first take rendered Simon ~15 yrs older with a grey beard — a protagonist identity break at the emotional peak (Cameron's repeat "not the same person" complaint class); rerolled against the Peter ref → now the canonical young black-curly Peter. **~$3.89 this row** (2 portraits $0.27 + 26 beats $3.48 + 1 reroll $0.13, minus rounding) — **under the $6.10/row average, COST LAW trend DOWN.** Meter $442.87 → ~$448.50.
+
+**FIX-WAVE (logged, not blocking — not obvious garbage, do not chase now):**
+- CREWMAN drifts between young/clean (s03/s04/s13/s16) and a Simon-twin bearded adult (s12/s14) — variety/consistency softness on the non-locked crew hand.
+- Morning lighting continuity varies (cool overcast s10 / golden sunrise s05/s12 / brighter s17) — all within "morning" range, no red sunset, but not uniform.
+
+---
+
+
 ## ✅ AUDIO FIX SHIPPED-TO-RUNNER — "tear" → "tare" (AUDIO-FIX job, Machine A `Dev`, 2026-08-07)
 The ORPHANED-FIX park is CLOSED at the audio authority (same de-orphan + correct-
 engine fix as row 50). Cameron: "still mispronouncing tear it should be like tare
