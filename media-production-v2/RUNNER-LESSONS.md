@@ -115,6 +115,22 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   burns meter; editing the ref is a hard-rail violation. If Cameron files it, it
   is a whole-wave reference swap, not a per-row fix — log the observation in QC.md
   and move on. (Memory: `v2_rebuild_plan` "green-eyed Jesus".)
+- **"Weird eyes" ≠ eye COLOUR — DO reroll a misaligned/dead-stare gaze** (row 1
+  C-FIX, b15, Cameron complaint "1:10 Jesus's eyes looking weird"). The
+  no-reroll rule above is about the ref's green/hazel *colour*, which a reroll
+  cannot change. A *wall-eye, cross-eye, mismatched pupils, dead stare, or a
+  gaze not converging on one point* is a per-frame generation defect and a
+  reroll DOES fix it (one reroll gave both eyes open, symmetric, aligned). When
+  a beat carries an author "CAMERON GATE ... NO weird eyes" line, that beat is
+  cleared to reroll for gaze geometry — inspect the eyes at full resolution
+  before accepting the take.
+- **Reach/touch lands on the wrong body part** (row 1 C-FIX, b11, Cameron
+  complaint "she touches ... the tassels only not his back thigh"). A "touch the
+  hem/edge" beat can render the hand up on the back/thigh even when the scene
+  text says fingertips at the fringe near the ankles. QC every reaching frame by
+  asking WHERE on the body the hand actually lands; if it is not on the named
+  target (hem/tassel/foot), reroll — the beat text already specifies the correct
+  spot, the model just missed it, and a fresh gen usually obeys.
 - **Place wired as a person** (WARTENT queued as a portrait, b41 session): a
   place must never carry a character lock.
 - **Wrong story on the board** (row 44 two-debtors vs the QUEUE's Pentecost

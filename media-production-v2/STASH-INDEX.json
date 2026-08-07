@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-06 23:05:01",
+ "scanned": "2026-08-06 23:24:10",
  "entries": [
   {
    "row": 1,
@@ -30708,6 +30708,461 @@
    "night": false,
    "n_person": 1,
    "scene": "In a columned Gentile market square the man stands at the centre of a large listening crowd \u2014 porters with loads set down, merchants leaned out over their stalls, women with jars parked on hips, every face open in plain "
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b01",
+   "file": "build-61-syrophoenician-woman/assets/s01-north-to-the-coast.jpeg",
+   "tokens": [
+    "TYRE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera off the road's seaward side takes the walk in profile: Jesus walks the high coast road in late-afternoon light, travel-dusty and alone but for two disciples a few paces behind \u2014 and ahead of him the Phoenician"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b02",
+   "file": "build-61-syrophoenician-woman/assets/s02-he-wanted-no-one-to-know.jpeg",
+   "tokens": [
+    "TYRE",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the steep stepped lane at dusk Jesus ducks in under the low lintel of the plain stone house, one hand on the heavy plank door, glancing once back down the empty lane before drawing it to \u2014 the unmistakable body langua"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b03",
+   "file": "build-61-syrophoenician-woman/assets/s03-he-could-not-be-hidden.jpeg",
+   "tokens": [
+    "TYRE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the blue evening lane the word is already moving: two women with water jars have stopped with their heads together, one nodding toward the plank door down the steps; a fish-seller leans from his doorway to a neighbour"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b04",
+   "file": "build-61-syrophoenician-woman/assets/s04-one-woman-heard.jpeg",
+   "tokens": [
+    "WOMAN",
+    "TYRE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the woman at a market stall in the last light: she has stopped dead in the middle of paying for a measure of barley, coins forgotten in her open palm, her quick dark eyes fixed sideways on the two whispering nei"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b05",
+   "file": "build-61-syrophoenician-woman/assets/s05-not-one-of-us.jpeg",
+   "tokens": [
+    "WOMAN",
+    "TYRE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The woman stands in the stepped lane with her barley basket on her hip, upright and self-possessed \u2014 the deep sea-blue dress and violet-bordered mantle of Tyre, the bronze earrings, the headland sea bright behind the roo"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b06",
+   "file": "build-61-syrophoenician-woman/assets/s06-no-claim-at-all.jpeg",
+   "tokens": [
+    "WOMAN",
+    "TYRE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the head of the stepped lane, the camera behind her shoulder so the whole distance falls away in frame, the woman stands looking down its empty length toward the plank door of the house at the bottom \u2014 nothing between"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b07",
+   "file": "build-61-syrophoenician-woman/assets/s07-her-little-girl.jpeg",
+   "tokens": [
+    "GIRL",
+    "HERHOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the small lamplit room the little girl lies curled tight on her low bed, turned in toward the wall, her small fists knotted in the dark teal blanket and her black curls damp against her temple \u2014 not asleep, only worn "
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b08",
+   "file": "build-61-syrophoenician-woman/assets/s08-a-mother-and-a-border.jpeg",
+   "tokens": [
+    "WOMAN",
+    "HERHOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At her own doorway the woman pulls the violet-bordered mantle up over her head with both hands, her face set hard and clear under it \u2014 one last glance back at the small bed in the lamplight behind her \u2014 and her body alre"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b09",
+   "file": "build-61-syrophoenician-woman/assets/s09-she-found-the-house.jpeg",
+   "tokens": [
+    "WOMAN",
+    "TYRE",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The woman stands at the plank door in the lamplit lane with her palm flat against it and it already giving inward \u2014 no knock, no pause, the light from inside cracking across her set face \u2014 a mother arriving at the one do"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b10",
+   "file": "build-61-syrophoenician-woman/assets/s10-she-fell-at-his-feet.jpeg",
+   "tokens": [
+    "WOMAN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the lamplit room the woman has thrown herself down at Jesus's feet where he sits by the low table \u2014 her mantle spilled forward on the floorboards, her hands gripping toward his ankles, the begging already pouring out "
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b11",
+   "file": "build-61-syrophoenician-woman/assets/s11-she-asked-anyway.jpeg",
+   "tokens": [
+    "WOMAN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Around the kneeling foreign woman the room's propriety stiffens: the householder half-risen with a hand out as if to usher her back, a disciple's face gone tight at the intrusion, another looking to Jesus for the signal "
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b12",
+   "file": "build-61-syrophoenician-woman/assets/s12-the-pause.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot across the lamplight: the woman's lifted, waiting face \u2014 and Jesus regarding her steadily before he speaks, his head very slightly tilted, something deliberate and measuring and not unkind assembling beh"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b13",
+   "file": "build-61-syrophoenician-woman/assets/s13-the-childrens-bread.jpeg",
+   "tokens": [
+    "WOMAN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus speaks with one open hand turned toward the low wooden table beside him \u2014 flat bread and a dish sitting plainly on it in the lamplight \u2014 building the household picture in the air between himself and the kneeling wo"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b14",
+   "file": "build-61-syrophoenician-woman/assets/s14-israel-first.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the lamplight as the hard sentence stands in the room: grave, steady, entirely without contempt \u2014 the face of a man stating his marching orders, not his heart's limits \u2014 and in the warm eyes, unh"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b15",
+   "file": "build-61-syrophoenician-woman/assets/s15-the-house-pups.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Low at floor level, under the edge of the low wooden table in the warm lamplight: two small sleek house-pups sit on the floorboards among the family's cushions, ears up, eyes on the table's edge above them with the patie"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b16",
+   "file": "build-61-syrophoenician-woman/assets/s16-a-place-left-in-it.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces across the lamplight, close: Jesus holding the finished saying between them with perfect stillness, giving her nothing more \u2014 and the woman's face not crumpling but WORKING, her quick dark eyes moving as if"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b17",
+   "file": "build-61-syrophoenician-woman/assets/s17-she-saw-it-instantly.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Very close on the woman's face at the instant of seeing it: her eyes flare wide and bright, her chin lifts half an inch, the breath catches visibly at her lips \u2014 hope and intelligence striking together like flint and ste"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b18",
+   "file": "build-61-syrophoenician-woman/assets/s18-she-stepped-into-the-picture.jpeg",
+   "tokens": [
+    "WOMAN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The woman has come up from the floor onto her knees, spine straight, the mantle fallen back from her face, her hands folded quiet in her lap \u2014 no longer a supplicant clutching at feet but a woman kneeling upright in the "
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b19",
+   "file": "build-61-syrophoenician-woman/assets/s19-yet-the-dogs-eat-the-crumbs.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the woman's face as the answer leaves her: steady dark eyes holding their aim, the ghost of something almost like a smile at one corner of her mouth, every word placed like a stone in an arch \u2014 yielding the chil"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b20",
+   "file": "build-61-syrophoenician-woman/assets/s20-food-under-the-table-too.jpeg",
+   "tokens": [
+    "WOMAN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The woman's open hand has turned palm-up, low, toward the shadowed space beneath the bread-laden table where the little pups wait \u2014 the whole argument in one small domestic gesture \u2014 and across from her Jesus's gravity i"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b21",
+   "file": "build-61-syrophoenician-woman/assets/s21-the-room-astonished.jpeg",
+   "tokens": [
+    "WOMAN",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Around the lamplit room the watchers have forgotten their propriety: the householder frozen halfway to sitting, one disciple's eyebrows somewhere near his hairline, another mouthing something silently to the man beside h"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b22",
+   "file": "build-61-syrophoenician-woman/assets/s22-glad-to-lose.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus's face in the full lamplight, and it has gone entirely open: the test's gravity swept away by a broad, warm, delighted smile \u2014 eyes bright, the lines at their corners deep \u2014 the face of a man who has just "
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b23",
+   "file": "build-61-syrophoenician-woman/assets/s23-for-this-saying.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Jesus speaks the grant straight into the kneeling woman's face, his smile settled now into warm finality, one hand opening easily toward the plank door and the night town beyond it where her daughter lies \u2014 the whole mir"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b24",
+   "file": "build-61-syrophoenician-woman/assets/s24-it-is-already-done.jpeg",
+   "tokens": [
+    "WOMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the woman's face as the sentence finishes landing: her eyes close for one long second, the breath she has been holding since the market lane leaves her all at once, and the fierce set of her jaw melts into somet"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b25",
+   "file": "build-61-syrophoenician-woman/assets/s25-across-the-distance.jpeg",
+   "tokens": [
+    "WOMAN",
+    "TYRE",
+    "HOUSE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "From inside the doorway the camera looks out from behind his shoulder: Jesus stands at the open plank door in the spill of lamplight as the woman steps away up into the night lane \u2014 and beyond her the town climbs in moon"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b26",
+   "file": "build-61-syrophoenician-woman/assets/s26-holding-nothing-but-a-word.jpeg",
+   "tokens": [
+    "WOMAN",
+    "TYRE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "SHOT FROM BEHIND THE WOMAN in the moonlit lane, her back and mantled head to the camera as she climbs the worn steps AWAY from us toward the upper town \u2014 her pace steady, almost calm, her hands empty and loose at her sid"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b27",
+   "file": "build-61-syrophoenician-woman/assets/s27-she-came-to-her-door.jpeg",
+   "tokens": [
+    "WOMAN",
+    "HERHOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The woman stands stopped in her own doorway, one hand on the frame, the mantle sliding back from her head \u2014 and before her the small firelit room holds a silence it has not held in months: the low bed against the wall wi"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b28",
+   "file": "build-61-syrophoenician-woman/assets/s28-quiet-and-whole.jpeg",
+   "tokens": [
+    "WOMAN",
+    "GIRL",
+    "HERHOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The mother kneels at the low bed with both hands pressed over her own mouth, looking: her small daughter lies unwound at last \u2014 fists open on the blanket, face loose and smooth in true sleep, the damp curls pushed back f"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b29",
+   "file": "build-61-syrophoenician-woman/assets/s29-gathered-into-her-arms.jpeg",
+   "tokens": [
+    "WOMAN",
+    "GIRL",
+    "HERHOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The mother has gathered her daughter up off the bed into her arms, blanket and all \u2014 the little girl stirring half-awake against her shoulder and settling straight back into sleep there, one small arm looping her mother'"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b30",
+   "file": "build-61-syrophoenician-woman/assets/s30-faith-that-would-not-leave.jpeg",
+   "tokens": [
+    "WOMAN",
+    "GIRL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Very close in the firelight: the mother's face and the sleeping child's cheek to cheek \u2014 the woman's quick fierce eyes finally quiet, wet and shining over her daughter's loose peaceful face \u2014 the stubborn, clear-eyed fai"
+  },
+  {
+   "row": 61,
+   "build": "build-61-syrophoenician-woman",
+   "beat": "v2-r061-b31",
+   "file": "build-61-syrophoenician-woman/assets/s31-the-whole-loaf.jpeg",
+   "tokens": [
+    "WOMAN",
+    "GIRL",
+    "HERHOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Morning light falls through the open door of the small house onto the low table, where a whole round loaf sits broken open between the two of them \u2014 the little girl kneeling up on her stool, bright-eyed and talking with "
   },
   {
    "row": 64,
