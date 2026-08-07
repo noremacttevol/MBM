@@ -121,7 +121,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 107 | build-107-john-baptist-doubt | BUILT | 25 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 LIVE | ✅ |
 | 108 | build-108-my-sheep-hear-my-voice | AUTHORED | 0 | OK | AUDIO-FIX 2026-08-07 DONE (Machine A `Dev`): STALE-V1-FINAL (both tripwires) resolved — set AUDIO_FROM_V1_SEGMENTS=True in beats_v2.py. VERIFIED the rebuild gate: track rebuilt from the 14 V1 mp3s = 148.623s == extract_beats total to the ms (PASS). $0, no re-voice. No V2 stills yet → handed to picture runner; build the 23 beats on this fixed audio. See QC.md RUNNER PARK. | ✅ |
 | 109 | build-109-ask-seek-knock | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 110 | build-110-lords-prayer | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
+| 110 | build-110-lords-prayer | BUILT | 23 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 LIVE | ✅ |
 | 111 | build-111-lilies-and-sparrows | BUILT | 29 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 112 | build-112-beatitudes | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 113 | build-113-where-art-thou | BUILT | 26 | OK | AUDIO-FIX 2026-08-07 SHIPPED (Machine A `Dev`): STALE-V1-FINAL cleared — set AUDIO_FROM_V1_SEGMENTS=True, rebuilt track from V1 mp3s = 163.079s == extract_beats total to the ms (AUDIO REBUILD PASS 4cdc391c). Re-assembled the full realistic cut (git-blob 9aeeb822, 163.1s, decodes 0 errors), stills reusable (no regen, $0 audio). Realistic + GOD embodied (s26 white-robe elder) confirmed. Reviewer card repointed to V2 realistic path, answers Cameron's "God has a body / make a character for him" complaint; deployed + live-verified. See QC.md ✅ SHIPPED. |  |
