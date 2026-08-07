@@ -86,6 +86,22 @@ LOCKS = {
 
 REF = True
 
+# CAST-REF WIRING (C-FIX 2026-08-07, Machine A). The A-auto build shipped
+# WITHOUT executing the CAST-REF NOTE above, so the afflicted man's face was
+# held by text alone and flipped shot to shot (Cameron complaint: "The
+# demoniac face kept changing. Beard to no beard to old man and his looks kept
+# flipping."). Anchor = the two lock-matching keeper stills — s18 and s16:
+# gaunt ~40, unkempt dark hair streaked grey, ragged dark beard. Attaching
+# them to every FREEDMAN-locked beat holds ONE face across the whole arc; the
+# per-beat scene text still changes only his CONDITION (bound -> crying out ->
+# freed), never his identity.
+REFS = {
+    "FREEDMAN": [
+        "CAST-REF-V2/freedman-ref-a.jpeg",
+        "CAST-REF-V2/freedman-ref-b.jpeg",
+    ],
+}
+
 BEATS = [
     {
         "id": "v2-r052-b01", "out": "s01-sabbath-synagogue.jpeg", "seg": "n1 p1",
