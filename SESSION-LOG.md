@@ -1,3 +1,41 @@
+## 2026-08-07 — ROW 59 AUTHOR-DONE: second-feeding scholarship complaint ANSWERED (Mark 8:19-21 / 5→12 vs 7→7), $0/0 credits, re-assembled — Machine A `Dev` (Fable-5 author lane)
+
+**Commit:** author package (V1+V2 make_narration, re-voiced n2b/n5 + timings, beats_v2, QC, AUTHOR-BOARD, new mp4) = `a3f82c497`; this log = (this commit).
+
+Picked up AUTHOR-BOARD row 59 (build-59-feeding-4000, Mark 8:1-9) — the LOW-NUMBER
+author-domain NEEDS-REBUILD. Cameron's ONE open complaint (`v2_outline.py 59`,
+reportedAgainst 3005df5d1da3): telling the second feeding as a carbon copy of the
+5,000 with no scholarship, no reference that Jesus commented on both, no comparison —
+"a huge disservice." The QC RUNNER PARK named it author-locked (new narration content).
+
+- **Complaint ANSWERED in narration, riding existing stills, $0.** Three threads
+  added: (1) **n2b** now names it plainly as a distinct SECOND feeding — "And here
+  they were, working the very same sums a second time, as if that first miracle had
+  never happened." (2) **n5** draws the comparison — "five loaves had left twelve
+  baskets the first time; seven loaves left seven this time" (5→12 Jewish Galilee /
+  Matt 14 vs 7→7 Gentile Decapolis / Mark 8, after three days) as the EVIDENCE the
+  events are distinct. (3) **n5** cites the recorded proof — "Later Jesus made the
+  disciples count both feedings — twelve baskets, then seven — so they could never
+  blur the two into one" = Mark 8:19-21 / Matt 16:9-10.
+- **Mechanics:** edited AUTHORITATIVE V1 make_narration.py (+ mirrored V2), re-voiced
+  ONLY the two NARRATOR segments n2b + n5 (free edge-tts AndrewNeural — Jesus/scripture
+  segments untouched, no ElevenLabs). Added 2 scholarship beats (b13b reuses s12
+  counting-disciple; b23b reuses s16 seven-loaf inventory) — **no new image, 0 credits,
+  0 rerolls.** Timeline recomputed 172.5→207.3s (card_start 189.303); all 29 beats_v2
+  still-windows remapped and re-audited contiguous, zero gaps; `--check` PASS.
+- **Verified by full local assemble** (stills were all done): AUDIO REBUILD PASS
+  SHA256 24c5a2d6, 207.3s, 21.1MB. Frame-checked 3 scholarship beats — 0:84 counting
+  disciple + "working the very same sums a second time"; 2:30 seven-loaf inventory +
+  "five loaves had left twelve baskets the first time"; 2:42 seven baskets/empty sack
+  + "so they could never blur the two into one." All in sync, all realistic (Law 14).
+- **Handoff:** AUTHOR-BOARD row 59 set **Ready ✅** with a precise note; QC.md carries
+  the "AUTHOR DONE" block + COMPLAINT LEDGER. RUNNER: verify the new mp4, deploy, ship
+  with a review card telling Cameron his second-feeding-scholarship complaint was
+  addressed. Complaint stays OPEN in REVIEW-LESSONS until the re-cut ships. **$0.00,
+  0 image credits, 0 rerolls this session.**
+
+---
+
 ## 2026-08-07 — ROW 49 C-FIX SHIPPED: candle-flame-in-wine + Mary-too-close-to-Jesus fixed (touch-once, audio byte-identical) — Machine A `Dev` (C-FIX lane)
 
 **Commit:** claim = `8d49f16fc`; ship (mp4 + s09/s11/s29 + beats_v2 + QC + QUEUE) = `c283a9ebe`; review.html + board→SHIPPED + this log = (this commit).
