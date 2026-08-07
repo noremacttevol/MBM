@@ -38,6 +38,15 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   Rendering complaints (question-card "squares") are DIFFERENT — the V2 card
   renderer already fixed that class, so just verify the rendered end card is clean
   and ship.
+  - **PACING/"too fast"/"meaningless"/"rushed" complaints are ALSO audio-domain —
+    park them the same as a mispronunciation (2026-08-06, row 10).** Cameron's
+    row-10 complaint was not a wrong word but the DELIVERY of Jesus's Messiah
+    reveal j2 "I that speak unto thee am he" being too fast to land. The fix is a
+    re-voice (extend the SPOKEN/PHRASE_SPOKEN pauses + regenerate + re-assemble),
+    which the runner may not do. A row can even already carry a partial
+    PHRASE_SPOKEN ellipsis (row 10 had one for a slur) and STILL be too fast
+    overall — a pre-existing override is not proof the pacing complaint is fixed.
+    Park NEEDS-AUDIO, do NOT re-cut pictures.
 - **FIRST check ALREADY-SHIPPED, before you check LIVE (2026-08-06, row-45
   second pile-on, ~$5 wasted).** A row can be fully DONE — mp4 committed, review
   card live — with NO live `v2_gen_api` process, because the lane that built it

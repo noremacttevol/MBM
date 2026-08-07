@@ -125,3 +125,49 @@ are the approved ones, unchanged; nothing was re-recorded.
 | audio | rebuilt from the authoritative segment mp3s (see above), 294.294 s, no music bed, ~1.43 s tail after the last narration |
 | verify-mp4 | OK — video 294.30 s / audio 294.294 s / 21.7 MB |
 | rendered frames | 12 frames extracted and eyeballed: captions bottom-band only, narrator white, the woman's KJV lines in her own colour, Jesus's KJV in red ("whosoever drinketh… shall never thirst"), question card clean |
+
+---
+
+## RUNNER PARK — C-FIX 2026-08-06 (Machine A `Dev`) — NEEDS-AUDIO, generated nothing
+
+**Cameron's OPEN complaint (verbatim, from `v2_outline.py 10`):** "The only.thing
+wrong with this one is how fast and meaningles Jesus pronounced the words while
+telling her he was the messiah. It is a very important text and the speaker says
+it too fast."
+
+**Domain: AUDIO (pacing), not picture.** The line is `j2` "I that speak unto thee
+am he." (John 4:26), the Messiah reveal, at ~3:29-3:31 in the cut. Cameron is not
+naming a picture defect — he wants Jesus's spoken delivery of the most important
+sentence in the story SLOWED DOWN and given weight so it lands. That is a
+re-voice: regenerate narration + re-assemble. Per audio-immutability + the
+RUNNER-LESSONS AUDIO-PRONUNCIATION rule, the runner is FORBIDDEN to touch audio,
+so **no pictures were re-cut and no credits were spent ($0).** Shipping a
+picture-rebuild over an open audio complaint would leave the fast delivery
+unchanged and repeat the complaint — the worst failure. Row parked NEEDS-AUDIO.
+
+**Why the existing fix is not enough:** `make_narration.py` already carries
+`PHRASE_SPOKEN = {"j2": ("unto thee am he", "unto thee... am he")}` — but that
+single ellipsis was added on 2026-07-21 to break a word-SLUR ("the Amhi"), NOT to
+slow the whole line. Cameron's current complaint is about the OVERALL pace/weight
+of the sentence, so one mid-line pause is insufficient.
+
+**AUTHOR resume (audio session, not runner):**
+1. In `build-10-well/make_narration.py`, give `j2` real weight — extend the
+   `PHRASE_SPOKEN` override so the delivery is slow and deliberate, e.g. a
+   leading pause and a pause before "am he":
+   `PHRASE_SPOKEN = {"j2": ("I that speak unto thee am he", "I... that speak unto thee... am he.")}`
+   (caption stays byte-identical verbatim KJV "I that speak unto thee am he" —
+   only the SPOKEN/TTS string carries the pauses, exactly as the current file
+   already does for the slur fix). Ear-check with `qc_narration.py` until the
+   line lands slow and clear.
+2. Regenerate narration (`python3 make_narration.py`) and re-assemble
+   (`python3 media-production-v2/v2_assemble.py 10`). The picture timeline may
+   need re-extraction if j2's duration changes (extract_beats re-times the
+   j2 window); the runner's 49 stills are all present and unchanged.
+3. When the corrected audio is baked into the mp4, set the board row 10 back to
+   BUILT / Audio OK and hand to the picture runner to re-ship (or ship directly
+   since 49/49 stills are already accepted).
+
+**Board:** row 10 → NEEDS-AUDIO, Audio CHECK, Claim "C-FIX 2026-08-06 PARKED
+NEEDS-AUDIO". No mp4 re-render this session; existing byte-identical audio still
+carries the too-fast j2.
