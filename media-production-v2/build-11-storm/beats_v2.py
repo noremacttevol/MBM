@@ -33,6 +33,30 @@ They are written into the beats below because prose did not hold them last time:
   3. Figures stay visibly INSIDE the boat — deck under their feet, gunwale
      running behind them. Nobody stands on water in this story; that is row 7.
 
+  4. BOAT + CREW UNIFORMITY (Cameron, 2026-08-06 — the v4 rejection that made this
+     a NEEDS-REBUILD). His words: "10 pictures of 4 people in one kind of boat and
+     10 pictures of 5 people in a different kind of boat ... some pictures dont have
+     jesus in the boat at all and some have him in the front and some have him in
+     the back ... the one that says they wake him with rough hands has someone else
+     jesus being woken." The root cause was that the boat was PROSE-locked only, so
+     every generation invented a fresh hull and headcount. The cure is IMAGE, the
+     same cure faces got:
+       · BOAT PLATE. s07's boat is promoted to PLACE-REF/boat.jpeg and wired
+         (PLACE_REFS) into all 23 hull beats. The plate carries the hull identity —
+         planking, sheer line, bow, single amidships mast, furled/lashed sail,
+         gunwale, oar stations, coiled bow rope, stone anchor — so every regenerated
+         boat frame is the SAME boat. Scene text supplies only ACTION and LIGHT.
+       · CREW-LOCK = EIGHT, always (Jesus + Peter, Andrew, James, John, Matthew +
+         two unnamed early followers). A tighter shot is a CROP of that same eight —
+         bodies exiting the frame edges — NEVER a smaller crew in an emptier boat.
+       · JESUS POSITION-LOCK (his "front/back" complaint). Jesus is aboard the whole
+         crossing and his position is fixed, never wandering: asleep on the stern
+         cushion b14-b16, rising and standing IN THE STERN b19-b21, then back among
+         them amidships in the swamped boat b25/b27/b28/b34. He is never bow-ward,
+         never mid-boat during the storm, and never omitted from a wide whole-boat
+         frame. b16 is his named "rough hands" frame — the woken man IS the locked
+         Jesus, the only cream robe in the picture, no second bearded cream figure.
+
 SCRIPTURE FACTS THAT GOVERN THE PICTURES (Mark 4:35-41 KJV):
   v35    "when the even was come" — the crossing starts at nightfall.
   v36    "they took him EVEN AS HE WAS" — no rest, no supper, straight from the
@@ -335,11 +359,11 @@ BEATS = [
     },
     {
         "id": "v2-r011-b10", "out": "s10-savage-even-for-that-lake.jpeg", "seg": "n2 p3",
-        "window": "65.49-69.77", "wide": True, "jesus": False, "ref": False,
+        "window": "65.49-69.77", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": "This storm was savage even by that lake's standard.",
-        "must_show": "the boat in the worst of it — heeled hard over, a wave standing above the gunwale, the mast raked, men crouched low and grabbing for whatever is fixed.",
-        "must_not_show": "⚠️ NOBODY CLIMBS. Cameron rejected this frame because a man read as climbing the mast. No man touches the mast, hangs from a rope overhead, or has a foot off the deck — every man is LOW, knees bent, feet flat on the deck planking, hands gripping the gunwale, a thwart, or a rope at chest height or lower. Nobody outside the hull; no rope leading off the boat to nothing — every line runs to the mast or the rigging inside. Do not put Jesus in this frame.",
+        "must_show": "the boat in the worst of it — heeled hard over, a wave standing above the gunwale, the mast raked, men crouched low and grabbing for whatever is fixed. Jesus lies asleep, small and undisturbed, on the raised stern cushion at the back of the boat — present but clearly not the focus of this frame.",
+        "must_not_show": "⚠️ NOBODY CLIMBS. Cameron rejected this frame because a man read as climbing the mast. No man touches the mast, hangs from a rope overhead, or has a foot off the deck — every man is LOW, knees bent, feet flat on the deck planking, hands gripping the gunwale, a thwart, or a rope at chest height or lower. Nobody outside the hull; no rope leading off the boat to nothing — every line runs to the mast or the rigging inside. Jesus is present but ASLEEP in the stern (his locked position) — do NOT wake him, enlarge him, halo him, or move him toward the bow or midships; he is a small undisturbed shape at the back, the only cream robe.",
         "scene": (
             "The boat is heeled hard over in the middle of the squall, its mast raked "
             "steeply against the torn black sky, as a steep wave stands up higher than "
@@ -349,7 +373,11 @@ BEATS = [
             "on a thwart and a foot jammed against a rib of the hull, a third crouches "
             "with one fist closed on a rope at his chest. No man touches the mast, no "
             "man reaches above his own head, and no man's feet leave the deck. Every "
-            "man is inside the hull with the deck under him. Driving spray, white "
+            "man is inside the hull with the deck under him. At the very back, on the "
+            "raised stern platform, Jesus lies asleep on the leather steersman's "
+            "cushion, small and undisturbed by the chaos, his cream robe the only cream "
+            "in the boat — he is not the focus, just plainly present and asleep. "
+            "Driving spray, white "
             "foam, lightning on the far hills. Every figure has two arms, two hands "
             "and one head."
         ),
@@ -397,12 +425,12 @@ BEATS = [
     },
     {
         "id": "v2-r011-b13", "out": "s13-their-last-storm.jpeg", "seg": "n2b p3",
-        "window": "74.62-82.19", "wide": True, "jesus": False, "ref": False,
+        "window": "74.62-82.19", "wide": True, "jesus": True, "ref": REF,
         "locks": ["PETER", "ANDREW", "JOHN", "DISCIPLES", "BOAT", "SEA-STORM-NIGHT"],
         "narration": ("And the fishermen who had survived a hundred storms looked at "
                       "this one — and believed it was going to be their last."),
-        "must_show": "THE INVERSE OF b08: the same competent men now openly terrified — Peter's face white and fixed, John gripping the rail and shouting, the certainty gone out of all of them.",
-        "must_not_show": "no comic terror; this is the specific fear of professionals who have run out of answers. Do not put Jesus in this frame.",
+        "must_show": "THE INVERSE OF b08: the same competent men now openly terrified — Peter's face white and fixed, John gripping the rail and shouting, the certainty gone out of all of them. Behind them, small and undisturbed on the stern cushion, Jesus lies asleep (his locked position) — the quiet contrast that the whole story turns on.",
+        "must_not_show": "no comic terror; this is the specific fear of professionals who have run out of answers. Jesus is present but ASLEEP in the stern (his locked position) — do NOT wake him, enlarge him, halo him, or move him toward the bow or midships; he is a small undisturbed shape at the back, the only cream robe.",
         "scene": (
             "Inside the pitching boat, the men who were easy a minute ago have gone to "
             "pieces. Peter has stopped rowing altogether with his oar dragging, his "
@@ -411,7 +439,11 @@ BEATS = [
             "eyes shut. Andrew is hauling at a rope that runs up to the rigging inside "
             "the boat with his teeth bared. Another man has simply sat down in the "
             "water on the deck with his arms over his head. Every one of them is "
-            "inside the hull. Spray, black water, lightning on the hills. Every figure "
+            "inside the hull. At the very back, on the raised stern platform, Jesus "
+            "lies asleep on the leather steersman's cushion, small and undisturbed, his "
+            "cream robe the only cream in the boat — present and plainly asleep while "
+            "they come apart, not the focus of the frame. Spray, black water, lightning "
+            "on the hills. Every figure "
             "has two arms, two hands and one head."
         ),
     },
@@ -463,8 +495,8 @@ BEATS = [
         "narration": ("So they woke him. Rough hands on his shoulder, screaming over "
                       "the wind the question people have been asking in storms ever "
                       "since:"),
-        "must_show": "hands grabbing and shaking his shoulder, men leaning over him shouting into his face over the wind — rough, desperate, not reverent.",
-        "must_not_show": "no halo, glare or rim-light; nobody is kneeling politely — this is a panicked shaking-awake.",
+        "must_show": "⚠️ CAMERON'S NAMED FRAME ('someone else jesus being woken with rough hands'). The reclining man being shaken awake IS the one locked Jesus — the attached JESUS reference face exactly, on the stern cushion where he slept in b14/b15, and he is the ONLY man in the frame wearing cream. Hands grabbing and shaking HIS shoulder, men leaning over HIM shouting into HIS face over the wind — rough, desperate, not reverent.",
+        "must_not_show": "⚠️ HARD FAIL: no SECOND bearded man in a cream/off-white robe anywhere in this frame — only Jesus wears cream, and the man being woken must not read as a stranger. The sleeper is not a look-alike; his face must match the attached Jesus reference. No halo, glare or rim-light; nobody is kneeling politely — this is a panicked shaking-awake.",
         "scene": (
             "Two men have lunged into the stern and got hold of Jesus where he lies. "
             "Peter has a big hand clamped on his shoulder shaking him hard, leaning "
@@ -842,6 +874,16 @@ for _beat in BEATS:
 # beat source so the accepted frame is reproducible instead of depending on an
 # unrecorded chat instruction.
 _REDO_PROMPTS = {
+    "v2-r011-b16": (
+        "Cameron's named defect: the man being shaken awake read as a stranger, not "
+        "Jesus. The reclining man on the stern cushion MUST be the exact attached Jesus "
+        "reference face — long wet dark-brown wavy hair, full dark beard, warm "
+        "olive-tan skin — and he is the ONLY man in the frame in a cream/off-white "
+        "robe; every other man wears a coloured tunic (blue-grey, olive, ochre). Remove "
+        "any second bearded cream-robed figure. Keep the rough panicked shaking, Peter's "
+        "hand clamped on Jesus's shoulder, and the storm. Use the wired boat plate so "
+        "the hull, planking and gunwale match every other boat frame. No lamp or fire."
+    ),
     "v2-r011-b17": (
         "Reframe only slightly wider, from close face to chest-up. Keep Peter's "
         "canonical face, soaked blue-grey tunic, terror and accusation, but show a "
@@ -934,3 +976,14 @@ for _beat in BEATS:
 for _beat in BEATS:
     if _beat["id"] == "v2-r011-b22":
         _beat["redo_source"] = "none"
+
+
+# === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
+PLACE_REFS = {
+    "BOAT": "PLACE-REF/boat.jpeg",  # build-11-storm s07-peter-andrew-james-john (manual)
+}
+# === end PLACE-PLATES ===

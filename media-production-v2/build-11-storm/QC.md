@@ -4,6 +4,63 @@ Final candidate: `mark-4_calming-the-storm-realistic-v4.mp4`
 
 ---
 
+## ✅ AUTHOR REBUILD DONE — 2026-08-07 (Author lane, Machine A `Dev`), $0 authoring spend
+
+Answers Cameron's OPEN v4 complaint (COMPLAINT LEDGER below): *"10 pictures of 4
+people in one kind of boat ... 10 pictures of 5 people in a different kind of boat
+... some pictures dont have jesus in the boat at all and some have him in the front
+and some have him in the back ... the one that says they wake him with rough hands
+has someone else jesus being woken."* Root cause was a PROSE-only boat with no
+reference image. The cure is IMAGE — the same cure faces got.
+
+**What the author changed (all committed, $0 — no generation this session):**
+1. **BOAT PLATE.** Promoted the cleanest existing hull — **s07** (bow-on: heavy
+   overlapping planks, single amidships mast with furled/lashed sail, coiled bow
+   rope, stone anchor, nets, oars through the sides, Jesus-free) — to
+   `PLACE-REF/boat.jpeg` (committed, force-added). `PLACE_REFS` now attaches it as a
+   PLACE LOCK to all 23 BOAT-locked beats, so every regenerated frame is the SAME
+   boat. Verified in ASSEMBLED-PROMPTS.txt (plate on every boat beat).
+2. **CREW-LOCK = EIGHT** and **JESUS POSITION-LOCK** written into the beats_v2.py
+   docstring (defect #4) and enforced by the existing DISCIPLES/BOAT locks: tight
+   shots are CROPS of the same eight, never a smaller crew; Jesus asleep on the
+   stern cushion b14-b16, standing in the stern b19-b21, amidships after
+   b25/b27/b28/b34 — never bow-ward, never mid-boat mid-storm, never omitted from a
+   wide whole-boat frame.
+3. **s16 (his named "rough hands" frame) FIXED at the beat.** b16 now: the woken man
+   IS the locked Jesus (JESUS-V2 REF attached), the ONLY cream robe, plus a HARD-FAIL
+   must_not_show against any second bearded cream figure, plus a `redo_prompt`.
+4. **"No Jesus in the boat" fixed on the two wide whole-boat storm frames.** b10 and
+   b13 now show Jesus asleep, small and undisturbed, on the stern cushion (his locked
+   position) — scripturally correct (he slept through the storm) and directly
+   answering the "some pictures dont have jesus at all" complaint. The dedicated
+   reveal stays at b14.
+
+`v2_prompt.py build-11-storm --check` → **v4 checklist: PASS**, 34 beats. Audio
+column = OK (byte-identical, untouched). Board State stays a rebuild until the runner
+re-cuts; **Ready ✅** set so the runner picks it up.
+
+### 🅿️ RUNNER — do this (this is a REBUILD, not a touch-once C-FIX; boat rerolls are in scope)
+- **KEEP s07 as-is** — it IS the plate. Do NOT regenerate it.
+- **Regenerate every other BOAT-locked beat against the plate** with
+  `python3 media-production-v2/v2_prompt.py build-11-storm --redo --only <ids>`:
+  `v2-r011-b04 b05 b06 b08 b09 b10 b11 b12 b13 b14 b16 b18 b19 b20 b22 b23 b24 b25 b27 b28 b31 b34`.
+  `--redo` keeps each approved composition and repairs the hull to the plate boat.
+  The wide whole-boat frames (b04,b05,b09,b10,b13,b14,b18,b19,b20,b22-24,b25,b27,b28,b31,b34)
+  are MANDATORY; the tight crops (b06,b08,b11,b12) matter less but should still read
+  as the same boat.
+- **b16** carries its own `redo_prompt` — verify the woken man is the locked Jesus
+  and there is no second cream figure.
+- **b10 / b13** now include Jesus asleep in the stern — confirm he is small,
+  undisturbed, the only cream, not the focus, not haloed.
+- **BOAT BOARD before assembly** (the gate below): line up every regenerated
+  boat frame side-by-side — same plank pattern, bow, mast, gunwale, stern platform —
+  and the crew reads as the same eight (crops, not a shrinking company).
+- **Re-assemble — AUDIO LOCK must stay byte-identical (audio untouched).** Deploy,
+  live-verify, ship via the reviewer. Expect ~22 rerolls (~$3, rebuild scope); log
+  the real $/reroll% in SESSION-LOG.
+
+---
+
 ## 🅿️ RUNNER PARK — 2026-08-06 (Opus C-FIX lane, Machine A `Dev`) → NEEDS-REBUILD (boat-lock), $0
 
 **COMPLAINT-FIRST triage of Cameron's OPEN complaint on the live cut (hash

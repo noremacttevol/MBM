@@ -88,6 +88,56 @@ the leper's marked skin: **b14 `s14`** (1:01, the frame Cameron named) and **b12
 - Verified the rendered mp4 at 1:01 and 0:52: Jesus's hand is clean healthy skin, leper keeps
   his marks, captions in the bottom band.
 
+## 2026-08-07 — ROW 11 storm AUTHOR REBUILD (boat-lock) authored + handed to runner, $0 — Machine A `Dev`
+
+**Commit:** (this commit, by pathspec — beats_v2.py, QC.md, PLACE-WIRING.json, PLACE-REF/boat.jpeg force-added, AUTHOR-BOARD, SESSION-LOG).
+
+Author session per PROMPT-FABLE5-AUTHOR.md, THE LOW-NUMBER LAW → lowest open row was
+**11 build-11-storm**, State NEEDS-REBUILD (boat-lock park). Cameron's OPEN v4 complaint:
+*"10 pictures of 4 people in one kind of boat ... 10 pictures of 5 people in a different
+kind of boat ... some pictures dont have jesus in the boat at all and some have him in
+the front and some have him in the back ... the one that says they wake him with rough
+hands has someone else jesus being woken."* Root cause (per QC RUNNER PARK): the boat +
+eight-man company were PROSE-locked only, no reference image, so every generation
+invented a fresh hull and headcount.
+
+**SAFETY NOTE for the next session:** this working tree is shared by ~4 LIVE autopilot
+lanes (rows 10/52/54 C-FIX + assemble were running). The SessionStart hook suggested
+`git reset --hard` — I did NOT run it; it would have destroyed the lanes' in-progress
+work. Stayed strictly on row 11, committed only by pathspec, pushed with
+`pull --rebase --autostash`. If you see a dirty tree, check `ps aux | grep autopilot`
+and the `.autopilot-lanes/*.pid` files BEFORE any reset.
+
+**Author-level fix (all committed, $0 — no image generation this session):**
+- **BOAT PLATE, the cure faces got applied to a place.** Reviewed the existing stills,
+  picked the cleanest canonical hull (**s07** — bow-on Galilean fishing boat: heavy
+  overlapping planks, single amidships mast + furled/lashed sail, coiled bow rope, stone
+  anchor, nets, oars through the sides, Jesus-free) and `v2_stash.py --promote`'d it to
+  `PLACE-REF/boat.jpeg` (a $0 file copy that also wrote PLACE_REFS + PLACE-WIRING.json).
+  Plate now attaches as a PLACE LOCK to all 23 BOAT-locked beats (verified in
+  ASSEMBLED-PROMPTS.txt) so every regenerated frame is the SAME boat. s31 confirmed the
+  complaint — visibly a different, higher-sided hull.
+- **CREW-LOCK = EIGHT + JESUS POSITION-LOCK** written into the beats_v2.py docstring
+  (defect #4) and enforced by the existing DISCIPLES/BOAT locks (tight shots = crops of
+  the same eight; Jesus asleep stern b14-16 / standing stern b19-21 / amidships after).
+- **s16 (his named "rough hands" frame) fixed at the beat** — the woken man IS the locked
+  Jesus (REF attached), only cream robe, HARD-FAIL against a second cream figure, + a
+  redo_prompt.
+- **"No Jesus in the boat" fixed on wide storm frames b10 + b13** — Jesus now asleep,
+  small, undisturbed, on the stern cushion (scripturally right; dedicated reveal stays b14).
+- `v2_prompt.py build-11-storm --check` → **v4 checklist PASS**, 34 beats. Audio OK,
+  untouched. Pre-existing row-14 camera-geometry WARNs on the wide beats left as-is
+  (the shipped v4 carried them; rewriting 16 approved compositions is out of scope).
+
+**Handoff:** board row 11 → State AUTHORED, Claim cleared, **Ready ✅** (runner-eligible
+verified against the autopilot picker). QC.md carries a top "🅿️ RUNNER — do this" spec:
+`--redo` the boat beats against the plate, KEEP s07, b16 uses its redo_prompt, re-assemble
+with AUDIO LOCK byte-identical, deploy + live-verify + ship. This is a REBUILD (~22 rerolls
+~$3 expected, in scope — not a touch-once C-FIX). Row 11 will be the lowest AUTHORED+Ready
+runner build.
+
+---
+
 ## 2026-08-07 — ROW 42 C-FIX shipped + live-verified: "captions are messed up / don't match the words" — Machine A `Dev`
 
 **Commit:** mp4+QC+beats_v2 = `fae898d9907629005b6c9b65407992cdb1b7a4f5` (a concurrent sibling lane's row-48 commit absorbed my staged index — verified my content is in that commit and on origin/main per RUNNER-LESSONS); card+lessons+boards+log = (this commit, by pathspec).
