@@ -443,3 +443,21 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   "child", age words), scrub them to agree with the lock, THEN reroll only those
   frames (char-ref anchored to a good kept frame). 4/41 rerolls, ~$0.54, audio
   byte-identical.
+
+- **"Video stops playing / won't play through the N:NN mark" = a CORRUPT AAC
+  PACKET in the mux, and it IS runner-fixable — not a NEEDS-AUDIO park (row 31,
+  2026-08-07).** Cameron's complaint "stops playing and will not play through the
+  1:59 mark ... i can skip past it and it will play but its not playing correctly"
+  is a PLAYBACK/encode defect, NOT a re-voice. Diagnose it, don't guess: run
+  `ffmpeg -v error -i <mp4> -f null -`; a corrupt audio packet prints
+  `channel element X.Y is not allocated` / `Invalid data found` and stalls the
+  browser player exactly where the bad packet sits. Confirm scope: `ffmpeg -v error
+  -i <mp4> -map 0:v -f null -` (video clean?) and decode-check every source
+  `audio/*.mp3` — if the sources are clean, the corruption is only in the final
+  mux. FIX: set `AUDIO_FROM_V1_SEGMENTS = True` and re-assemble — the track is
+  rebuilt from the build's own clean mp3s at the extract_beats offsets (byte-
+  identical narration content, NOTHING re-voiced), producing a clean AAC encode.
+  Proof of fix = the NEW mp4 decodes with ZERO `-v error` output. $0 / 0 rerolls,
+  pictures untouched. This is DISTINCT from the audio-park class (pronunciation/
+  pacing → re-voice → park); a container/encode corruption is the runner's own
+  assembly step, so the runner fixes it.

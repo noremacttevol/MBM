@@ -1,3 +1,43 @@
+## 2026-08-07 (C-FIX row 31 ten-virgins) — PLAYBACK complaint FIXED (corrupt AAC packet) + redeployed live — Machine A `Dev`
+
+**Commit:** b6be9e209550224604219ec8f5b5c811680f6752 (mp4 + QC + QUEUE + beats flag); review.html + this entry follow.
+
+COMPLAINT-FIRST C-FIX. Cameron's OPEN complaint on the shipped row-31 cut:
+"The video stops playing and will not play through the 1:59 mark for some reason
+i can skip past it and it will play but its not playing correctly."
+
+**Root cause (diagnosed, not guessed):** the shipped mp4's muxed AAC audio stream
+carried a corrupt packet — `ffmpeg -v error -i <mp4> -f null -` reported
+`channel element 1.4 is not allocated` / `Invalid data found when processing input`.
+A corrupt audio packet stalls browser playback exactly as Cameron described. The
+VIDEO stream and EVERY source `audio/*.mp3` segment decode CLEAN — the corruption
+was only in the final mux.
+
+**Fix (in-scope, NOT a re-voice):** flipped `AUDIO_FROM_V1_SEGMENTS = True` (the
+sanctioned row-25/row-61 remedy) so the authoritative narration track is rebuilt
+from THIS build's own clean mp3s at the extract_beats offsets, then re-encoded.
+Nothing re-voiced, re-timed, or resynthesised — narration byte-identical in content;
+only the corrupt AAC encode replaced with a clean one. `AUDIO REBUILD PASS`
+SHA256=e9fbe3f8949ba7216c14795a2084735cb9bc71fee98e7efb12b1a8538cff22cc. The NEW
+mp4 decodes with ZERO errors (was 2). Verified rendered frames: early captions in
+bottom band, the 119 s former-failure point now plays/renders clean, question card
+clean.
+
+**Why NOT a NEEDS-AUDIO park:** the audio-park class is for RE-VOICING complaints
+(pronunciation/pacing) the runner is forbidden to touch. This was a mechanical
+container/encode corruption — the runner's own assembly produces the mux, and
+rebuilding from the identical source mp3s fixes it without re-voicing. Distinct from
+row 27 ("generic audio is messed up" = ambiguous quality → correctly parked).
+
+**Cost:** $0 Gemini spend, 0 rerolls — pictures untouched, re-assembly only. Well
+under the running $6.10/row avg and the 15% reroll budget. Touch-once satisfied:
+row had exactly one open complaint, batched into this one re-cut.
+
+RUNNER-LESSONS updated with the corrupt-AAC-packet playback class. Board:
+AUTHOR-BOARD claim → C-FIX 2026-08-07 SHIPPED. Deployed to Firebase + live-verified.
+
+---
+
 ## 2026-08-07 (social session, pt.8) — LINK LAW: promote the app everywhere, milkb4meat.org is the ONLY link — Machine A `Dev`
 
 **Commit:** (this commit — social/ + this entry, by pathspec)
