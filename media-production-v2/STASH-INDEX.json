@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 04:03:26",
+ "scanned": "2026-08-07 04:26:26",
  "entries": [
   {
    "row": 1,
@@ -29925,6 +29925,20 @@
   {
    "row": 59,
    "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b13b",
+   "file": "build-59-feeding-4000/assets/s12-doing-the-arithmetic.jpeg",
+   "tokens": [
+    "DISCIPLES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The same earnest round-faced disciple counting on his fingers against the camped thousands, lips moving through figures that will not add up \u2014 the identical helpless arithmetic he worked once already the day the five tho"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
    "beat": "v2-r059-b14",
    "file": "build-59-feeding-4000/assets/s14-he-did-not-scold-them.jpeg",
    "tokens": [],
@@ -30068,6 +30082,20 @@
    "night": false,
    "n_person": 1,
    "scene": "On a shelf of flat rock in the late-afternoon light, the camera low along the line so all seven read in profile, stand EXACTLY SEVEN large rope-handled baskets in a row, every one heaped over its brim with broken dark br"
+  },
+  {
+   "row": 59,
+   "build": "build-59-feeding-4000",
+   "beat": "v2-r059-b23b",
+   "file": "build-59-feeding-4000/assets/s16-seven-and-a-few-fish.jpeg",
+   "tokens": [
+    "BREAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The seven coarse dark loaves laid out in a row on the flat grey rock with the few small dried fish beside them \u2014 the entire supply of this second feeding, photographed plainly like an inventory \u2014 held on the screen while"
   },
   {
    "row": 59,
