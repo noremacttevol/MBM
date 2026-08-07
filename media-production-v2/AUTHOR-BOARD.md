@@ -38,7 +38,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 24 | build-24-sower | BUILT | 35 | OK |  |  |
 | 25 | build-25-wheat-and-tares | BUILT | 33 | OK |  |  |
 | 26 | build-26-mustard-seed | BUILT | 24 | OK |  |  |
-| 27 | build-27-leaven | BUILT | 29 | OK |  |  |
+| 27 | build-27-leaven | BUILT | 29 | OK | C-FIX 2026-08-07 LIVE |  |
 | 28 | build-28-hidden-treasure | BUILT | 29 | OK |  |  |
 | 29 | build-29-pearl | BUILT | 36 | OK |  |  |
 | 30 | build-30-net | BUILT | 40 | OK |  |  |
