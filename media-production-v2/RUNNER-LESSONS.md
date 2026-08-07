@@ -295,6 +295,19 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   establishing wide. Check every "whole place laid out / the setup / establishing"
   wide for a pasted-in perspective mismatch, not just multi-worker beats.
 
+- **A MODERN CITY SKYLINE renders behind an ancient-city OVERLOOK wide** (row 83
+  b02 "he stopped," the Mount-of-Olives view of Jerusalem): a wide that paints a
+  whole ancient city panorama behind the hero figures can seed the FAR skyline
+  with modern high-rise tower blocks, thin antenna/radio masts and a construction
+  crane — the temple + walls read period but the distant skyline is 20th/21st
+  century. Same family as the modern-paved-road (row 71) and modern-pilgrimage-
+  crowd (row 68) creep, but in ARCHITECTURE behind an intact-city establishing
+  shot. On a HERO frame (a complaint frame, the "he stopped/beheld the city"
+  beat) it's a mandatory reroll on sight — one `--redo` landed an all-period
+  limestone skyline ($0.13). Zoom the far skyline of every ancient-city overlook/
+  panorama wide; a faint hazy far element in a NON-hero landscape wide is
+  FIX-WAVE (a reroll re-seeds the whole vista for one distant speck).
+
 ## Reuse before regenerate (Cameron's core order — rubric lesson 11 + COST LAW)
 
 - Plates: `v2_stash.py --wire` before generating; promote-first for new places.

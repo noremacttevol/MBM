@@ -1,3 +1,26 @@
+## 2026-08-07 — ROW 83 ("Weeping over Jerusalem", Luke 19:41-44) REALISTIC V2 SHIPPED + DEPLOYED — all 3 open complaints fixed (walk-direction / Jesus-scale / 13s dead tail) — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commits:** claim = `f88680a04`; ship (mp4 + QC + QUEUE + AUTHOR-BOARD + api-spend) = `8f193f19bcd3eb6786c7dc06fcf5def4f2da224e`; review-card = `b189ca2e6`; publish-loop = `37e57e48b`; STASH-INDEX + RUNNER-LESSONS + this SESSION-LOG = this commit. Session-chain verified at start (then-top = Row 80 come-unto-me, commit `90028b507` present in `git log`); hostname `Dev` = Machine A. Read both META-LAWS + all 15 rubric lessons + all 605 lines of RUNNER-LESSONS before the first credit.
+
+**Row 83 was the lowest AUTHOR-BOARD Ready-✅ / empty-claim row with 3 OPEN complaints (COMPLAINT-FIRST + LOW-NUMBER LAW). Cross-checked QUEUE.md — story = "Weeping over Jerusalem", Luke 19, NOT swapped — safe.** `v2_outline.py 83` open complaints: (1) first picture walking AWAY from Jerusalem; (2) Jesus looks like a giant; (3) question card followed by ~13s of dead tail. All three addressed and verified — COMPLAINT LEDGER in QC.md.
+
+**Build:** 14 realistic stills at native 2K (V1 ASSEMBLY-C had 7), 85.4s, 19.8 MB. No portraits (Jesus master-ref, crowd generic). No place plates (PLACE_REFS empty — beats carry OVERLOOK/CROWD text locks). `v2_prompt --check` PASS (14 beats, v4 checklist).
+
+**Complaints fixed (verified in the rendered mp4/frames):**
+1. **Walk direction** → b01 authored camera BEHIND the procession's shoulders; rendered s01 shows the whole crowd + Jesus streaming DOWN the road TOWARD the city + temple.
+2. **Jesus giant** → lesson-14 scale gate on every multi-figure frame (b02/b09/b11/b14); Jesus renders same height as the flanking men in all of them.
+3. **13s dead tail** → the tail was V1's stale over-long stream; AUDIO_FROM_V1_SEGMENTS rebuild fixes it. STALE-V1 tail check (row-74 lesson): captioned.mp4 78.067s ≈ card seg_start 78.09s (Δ 0.023s ≤ 0.2s); final mp4 85.372s = audio total exactly → question card fully present, NO trailing dead air.
+
+**Light QC (1 pass, all 14 frames + b02 skyline zoom + 3 rendered caption frames): 1 reroll / 14 = 7% (COST LAW, under 15%).** b02 first take had a MODERN skyline behind the temple (high-rise + antenna masts + crane) → one `--redo` cleared it to all-period limestone. Beard board pass (full dark beard + wavy hair identical every Jesus frame), scale gate pass, only-Jesus-cream held (s08/s12 jesus:False = no cream, no Jesus-double), no lens-stare, no burned-in subtitle on quote beats, city INTACT every frame (off-screen-ruin law), green/hazel Jesus eyes are the baked V2 ref (not rerolled). FIX-WAVE (non-blocking): s06 faint distant maybe-modern speck top-left. New lesson added to RUNNER-LESSONS: modern skyline behind an ancient-city overlook wide.
+
+**Audio:** AUDIO REBUILD PASS SHA256=`2627adccdc95faae19afa1a31eee8ac9d102a570025dfcd2153f4f4d4a35b73b`, rebuilt from 10 V1-dir segment mp3s, 85.372s (nothing re-voiced, narration byte-identical). Captions bottom-band only; Jesus KJV sayings red, narrator white; question card clean.
+
+**DEPLOY + live-verify (7c) — DONE:** `firebase deploy --only hosting` → milk-b4-meat; live review.html carries `data-hash=8f193f19bcd3…` + `data-review-wave=realistic-v2` for v83; v2 mp4 URL returns HTTP/2 200, content-length 19823430 (direct raw host, `?v=` survives — row-110 cache fix).
+
+**Cost:** 14-beat run $1.88 + 1 reroll $0.13 = **~$2.01 this row**, 1 reroll (meter $459.22 → $462.03). **Far under the $6.10/row average** — COST LAW trend holds DOWN. STASH-INDEX re-scanned (2964 stills / 93 builds) and PUBLISH LOOP synced.
+
+---
+
 ## 2026-08-07 — ROWS 182, 183, 184 AUTHORED (Ready ✅) + ROW 185 authored & PARKED NEEDS-AUDIO (Jesus-voice complaint diagnosed) — $0 Fable-5 author lane — Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** row 182 = `414b210dd`; row 183 = `60af16764`; row 184 = `028719d1d`; row 185 (this entry) below. All on origin/main (each pushed as it finished; targeted `git add` of only that row's beats_v2.py + QC.md + ASSEMBLED-PROMPTS.txt + board line — the tree is ~150 files dirty from 3 live autopilot lanes sharing it, so NEVER a tree-wide add/rebase/stash/reset; `git pull --rebase` stays BLOCKED by the dirty tree, but the SessionStart fetch showed origin up to date and `git log` confirmed the chain, so I worked forward). Session-chain verified at start (then-top = rows 179/180/181 authored, commits `81a5d9fa5`/`3f0966887`/`610d05193` all present in `git log`); hostname `Dev` = Machine A. Read all 15 V2-REBUILD-RUBRIC lessons + the two meta-laws + THE STANDING ORDER first.
