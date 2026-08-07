@@ -171,6 +171,46 @@ complaints i keep submitting." Therefore:
     (unseen presence, single figure, Jesus-only, or a symbol) RE-OPENS the
     complaint — the worst failure.
 
+16. **GOD-AS-LIGHT READS AS A UFO — embody, don't disc (Cameron, 2026-08-07 —
+    row 102 jacobs-ladder: "0:24 looks like a UFO, no God coming to him in a
+    dream").** When God/the LORD is present in the beat and a filed complaint
+    asks to SEE him (or scripture has him standing/coming — Gen 28:13 "the LORD
+    stood ABOVE it"), depict the embodied Father (the GOD lock + god.jpeg,
+    byte-identical to build-113 so his look does not change), NOT a shapeless
+    brilliance. A "light only / no figure" divine presence at a summit, opening
+    or sky renders as a **flying-saucer disc, ring, orb or downward beam** — a
+    literal UFO — and also fails the OTHER half of the complaint (there is still
+    no God shown). Word any opening as a NATURAL break in the sky filled with
+    warm light with the embodied person IN it; ban UFO/disc/saucer/ring/orb/
+    portal/craft and halo/glow/rim-light. A partial fix that shows God embodied
+    in some summit beats but light-only in others re-triggers row 113's "his look
+    changes." The Father-vs-premortal-Christ FACE for OT "LORD" theophanies is
+    Cameron's per-passage call (flag it, don't sweep blind — some God-rows are
+    voice/light theophanies, e.g. 101 still-small-voice).
+
+17. **PIN TRAVEL DIRECTION TO A FIXED SCREEN SIDE (Cameron, 2026-08-07 — row 104
+    boy-samuel: "0:35 Samuel is running the wrong way, same at 0:53"; ties to the
+    row-14 law + lesson 1/12).** When a character crosses a space to reach
+    someone, "toward the doorway/him" is NOT enough — the model will draw the run
+    the wrong way. Establish a FIXED left/right geography in the setting lock (who
+    and what is on the LEFT, who is on the RIGHT), state it in the wide
+    establishing shot, and in every travel beat say the direction explicitly
+    (LEFT→RIGHT / RIGHT→LEFT), with the mover's body, lean, feet and gaze aimed at
+    the person AHEAD of them, never away. Repeated trips (Samuel's three runs)
+    use the SAME direction each time so the geography is consistent.
+
+18. **JESUS'S EYES ARE CALM — no "crazy eyes" / master-ref eye-cast (Cameron,
+    2026-08-07 — row 109 ask-seek-knock: "picture at 1:34 has Jesus with crazy
+    eyes").** Jesus's eyes are calm, warm and softly open in every frame — the
+    settled master-face gaze — even on a big gesture or strong emotion. NEVER
+    wide, wild, bulging, staring, manic, whites-showing, or a lens-stare. A
+    beat's energetic action (arms thrown wide, "how much more") must not bleed
+    into an excited wide-eye. If a targeted regen with a calm-eyes instruction
+    STILL lands a wild gaze, the fault is the **JESUS-V2-REF master face sheet's
+    own eye-cast** (systemic, recurs on any Jesus close-up) — stop rerolling
+    (≤2), FIX-WAVE, and escalate for a master-ref review rather than churning
+    credits one frame at a time.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.
