@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 61 (syrophoenician-woman) C-FIX SHIPPED — "Jesus's crazy eyes @0:52" CLOSED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** ship (a) `7e562c22922893bc4064f227e8881fba4ef6c32e` (mp4 + QC.md + s11 + segs + api-spend) + this board/review-card/SESSION-LOG commit (b). **Session-chain verified at start:** then-top row-33 ship `7beb89329` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 61` + rubric + RUNNER-LESSONS first.
+
+**Complaint (Cameron, against the shipped cut):** "jesus's eyes in 0:52 are crazy looking." Single PICTURE-domain defect.
+
+**What was already done (prior Fable-5 author session, committed):** root-caused to the JESUS-V2-REF master-face eye-cast on Jesus close-ups (rubric lesson 18, 2nd instance after row 109); the 0:52 frame is `s11-she-asked-anyway.jpeg` (beat `v2-r061-b11`). Author added an explicit CALM-EYES instruction to b11 (must_show: eyes calm/warm/softly-open/steady on the woman; must_not_show bans wide/wild/bulging/staring/manic/'crazy'/whites-showing/lens-stare) and reinforced the same ban on the adjacent close-up b12. `--check` PASS, audio untouched. Row parked NEEDS-REBUILD for the one paid reroll.
+
+**What THIS session did (paid, touch-once):** rerolled ONLY `s11` (`--only b11 --redo`, ceiling $521 = meter $495.53 + 1·0.134·1.5 + 25) against the fixed prose — Jesus's gaze is now settled, warm, softly open, steady on the kneeling woman; no wild/staring eyes. Verified BOTH the still AND the RENDERED mp4 at 0:50; face-boarded vs `JESUS-MASTER-REF/jesus-face.jpeg` (locked cream-only Jesus); face gate exit 0. b12 already rendered calm — no reroll. Every other still byte-identical. Re-assembled via `AUDIO_FROM_V1_SEGMENTS`: **AUDIO REBUILD PASS SHA256=274d1bbd… — the exact same audio SHA as the prior ship** (byte-identical, nothing re-voiced), 185.2s / 21.2 MB. Caption band + question card checked clean.
+
+**Cost:** 1 reroll / 31 beats = **3.2%** (well under the 15% budget); **~$0.13** image spend (meter $495.53→$495.67). Far below the $6.10/row running average — a single-frame complaint fix, exactly the cheap-fix trend the COST LAW wants.
+
+**Ship:** commit (a) `7e562c22`; review.html `id="v61"` → `data-hash=7e562c22…`, video src `?v=7e562c229228`, complaint-answer flag in Cameron's words. `firebase deploy --only hosting` + live-verified on `https://milk-b4-meat.web.app/review.html`. AUTHOR-BOARD row 61 claim → C-FIX SHIPPED. Complaint cleared.
+
+---
+
 ## 2026-08-07 — ROW 33 (sheep-goats) C-FIX SHIPPED — black-nails + wrong-voice complaints CLOSED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** ship `7beb89329fa84ecfc6a7c58fa1c80032ddd8a075` (mp4 + QC.md) + this board/review-card/SESSION-LOG commit. **Session-chain verified at start:** then-top row-100 ship `16fad1021` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 33` + rubric + RUNNER-LESSONS first.
