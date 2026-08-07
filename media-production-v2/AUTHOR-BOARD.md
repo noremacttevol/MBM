@@ -173,7 +173,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 159 | build-159-other-sheep | AUTHORED | 0 | OK |  | ✅ |
 | 160 | build-160-stone-cut | AUTHORED | 0 | OK |  | ✅ |
 | 161 | build-161-called-of-god | AUTHORED | 0 | OK |  | ✅ |
-| 162 | build-162-keys-of-kingdom | NEEDS-BEATS | 0 | OK |  |  |
+| 162 | build-162-keys-of-kingdom | NEEDS-BEATS | 0 | OK | AUTHOR-LIVE 2026-08-07 (Machine A `Dev`) |  |
 | 163 | build-163-apostles-prophets | NEEDS-BEATS | 0 | OK |  |  |
 | 164 | build-164-unity-of-faith | NEEDS-BEATS | 0 | OK |  |  |
 | 165 | build-165-laying-on-hands | NEEDS-BEATS | 0 | OK |  |  |
