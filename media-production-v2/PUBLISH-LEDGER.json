@@ -73,6 +73,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/101.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "3a3594baa64d30e7785a12839a42f6a0038c15a9",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "e9ac1b7bc385eb697a6700bfdf3a1e7bf257353f",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/101.mp4"
+            }
+          ]
         }
       ]
     },
@@ -362,6 +375,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/12.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "5931c321fa44377934283eaad51d915844817f1a",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "6baa72c69ccd4f8dee052d6f9727974127b1a533",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/12.mp4"
+            }
+          ]
         }
       ]
     },
@@ -553,6 +579,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "dd1dfc04ba645a05de2ea95e8c58d672fecb5f4c",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/14.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "cd69c4500b3056011345403f8d19c8b02ede338c",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "52e0980700fea303b6f5a2b5a20a488a8d9428c2",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1144,7 +1183,21 @@
       "open_fix": null,
       "slug": "build-20-samaritan",
       "title": "The Good Samaritan",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "ae1a417e20964a6d6ad1e5669a19f475c6c2cca9",
+          "date": "2026-08-06",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "8d6e561e04ac62f9226c94cdfb4842ab647e24ac",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/20.mp4"
+            }
+          ]
+        }
+      ]
     },
     "200": {
       "open_fix": null,
@@ -1175,6 +1228,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "03ed0120cb23666fcffd6d4f47fedfa757470a52",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/21.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "a57264ac0eac5499c748ee5f810323625ba3d8c9",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "cf0857d08725caf40c3ca39d06bb7210d25db190",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1219,6 +1285,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/23.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "35c29eba68297ea27abca2d25886cdc0ea399dff",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "895868ce3eb175c8939b0079c8e667762ae9edc4",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/23.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1232,6 +1311,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "880a2800261bece5c08fdf11b2765c89c2c64868",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/24.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "f3fc5125c19979d1e2b5c4d32b9f679a2f6927c5",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "d8876e1ff7b1e82d7c1b889f631350b31eed4c19",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1257,6 +1349,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/25.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "98e2604ad2a905813dea5c644faf70813e20640f",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "8c570d07f6292ebc555dc2345e07052b25778d8b",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/25.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1270,6 +1375,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "5cd15ecf7f995488a2ad76ca3c7563fbc350cacb",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/26.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "5cd6564105a470b50eb5f9c39e953a6a87e88025",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "8bbfdf3e9b888e6bb2dd6c2177e2b4bd3a4acfa9",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1314,6 +1432,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/28.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "42b855efe50851b4fff75d82d7a241a736d05dc1",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "ba09064bb19021851e4e271b93baecbedef5bed1",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/28.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1327,6 +1458,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "5e0ad0f0d9b75831d82f86fe6e734d28a7530349",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/29.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "77e1bcfa03454e589d781f12e8930f6b8521dbe1",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "b7e8973f7eb14ee54c58b00aa0548fc96675be42",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1372,7 +1516,21 @@
       "open_fix": null,
       "slug": "build-30-net",
       "title": "The Net",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "fa61edcfae3b13346ba22f44334dbbd92e2652e9",
+          "date": "2026-08-06",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "ce23f29d51b68164c9dc34dfa23e4983569c16b5",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/30.mp4"
+            }
+          ]
+        }
+      ]
     },
     "31": {
       "open_fix": null,
@@ -1397,7 +1555,21 @@
       "open_fix": null,
       "slug": "build-32-talents",
       "title": "The Talents",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "986c3202b29147a3d232953b804db95f08245ea9",
+          "date": "2026-08-06",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "914ac266fbd3c8311d3c89ad6129659c76325426",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/32.mp4"
+            }
+          ]
+        }
+      ]
     },
     "33": {
       "open_fix": null,
@@ -1434,6 +1606,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/34.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "0691078c3c125ea4f7ec15804063a2b1f98e067a",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "0691078c3c125ea4f7ec15804063a2b1f98e067a",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/34.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1447,6 +1632,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "dfc4e155269451514372b9047d8b27cee1992fa9",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/35.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "c34f72cc01516b9d5716d6ddd1f6247d62a682eb",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "e1ef37a4bd69d6b43ff84adb786ce16b56601ed0",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1472,6 +1670,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/36.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "1f9fc6e372046abbb6f3f91cf4e2ae8398ae2398",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "bac80387ab7086d7217b530d99eb2868e1375a22",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/36.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1491,6 +1702,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/37.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "e8560ad7f7576a8750cb214cfd88a099d0b9a2f3",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "b8f70e66756ba980eb256f2d1a14d3f6ac9bb4ee",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/37.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1504,6 +1728,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "9960f8f3167080ad2e49c4b9d9b4db5c7469c6dc",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/38.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "cec250ed0e132d4431c925c2f656cf83e27ac812",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "cec250ed0e132d4431c925c2f656cf83e27ac812",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1542,6 +1779,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "aedf7dbe595b391282741f6bcc2958fb6a6678d3",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/4.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "09e98cefd50e5722b8b76aefe0f2dd9e4ef9d178",
+          "date": "2026-08-06",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "197644da79cde0786d73f399f5f7f3cb79adf3bd",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1933,8 +2183,8 @@
         {
           "card_hash": "2b807e85b68a4e36199d176f6f0a1ce04b28ddb9",
           "date": "2026-08-06",
-          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
-          "sha1": "513e1b719f17e807e71e8d5686a9c3ce1ba3c699",
+          "note": "corrected same-day 2026-08-06: first copy used working-tree bytes by mistake; replaced with the byte-verified approved cut (approval blob 09e98cef-era dump). Same publish stage, v2.1.",
+          "sha1": "ae575c7824b8749b7fbc4a1280c8cbf6f2d7d0eb",
           "version": "2.1",
           "where": [
             {
@@ -2203,5 +2453,5 @@
       ]
     }
   },
-  "updated": "2026-08-06T22:28:21"
+  "updated": "2026-08-06T22:50:40"
 }

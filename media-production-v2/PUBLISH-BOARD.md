@@ -7,127 +7,129 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-06T22:28:21_
+_Last sync: 2026-08-06T22:50:40_
 
 ## Summary
 
-- **BUILDING** — 96 row(s)
-- **LIVE — OLD STYLE (v1)** — 66 row(s)
-- **LIVE — current** — 6 row(s)
-- **ON REVIEWER — awaiting Cameron** — 32 row(s)
+- **APPROVED — not published** — 16 row(s)
+- **BUILDING** — 95 row(s)
+- **LIVE — OLD STYLE (v1)** — 46 row(s)
+- **LIVE — current** — 2 row(s)
+- **LIVE — current (approved cut)** — 23 row(s)
+- **ON REVIEWER — awaiting Cameron** — 18 row(s)
 
 ## The rows
 
 | # | Story | Approved | Live | Posted where | State | Next step |
 |---|---|---|---|---|---|---|
 | 1 | Woman Who Touched His Cloak | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 2 | The Prodigal Son | ✅ 2026-08-01 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 3 | Zacchaeus | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 4 | Nicodemus at Night | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 5 | The Bent-Over Woman | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 6 | The Two Sons | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 7 | Peter Walks on Water | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 8 | The Lost Coin | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
+| 2 | The Prodigal Son | ✅ 2026-08-01 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 3 | Zacchaeus | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 4 | Nicodemus at Night | ✅ 2026-08-03 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 5 | The Bent-Over Woman | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 6 | The Two Sons | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 7 | Peter Walks on Water | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 8 | The Lost Coin | ✅ 2026-08-02 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 9 | The Rich Young Ruler | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 10 | The Woman at the Well | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 11 | Calming the Storm | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 12 | Blind Bartimaeus | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 12 | Blind Bartimaeus | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 13 | The Man Through the Roof | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 14 | The Ten Lepers | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 14 | The Ten Lepers | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 15 | The Centurion's Servant | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 16 | Mary and Martha | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 17 | Lazarus | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 18 | The Road to Emmaus | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 19 | Breakfast on the Shore | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 20 | The Good Samaritan | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 21 | The Lost Sheep | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 20 | The Good Samaritan | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 21 | The Lost Sheep | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 22 | The Unmerciful Servant | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 23 | The Workers in the Vineyard | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 24 | The Sower | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 25 | The Wheat and the Tares | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 26 | The Mustard Seed | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 23 | The Workers in the Vineyard | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 24 | The Sower | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 25 | The Wheat and the Tares | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 26 | The Mustard Seed | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 27 | The Leaven | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 28 | The Hidden Treasure | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 29 | The Pearl of Great Price | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 30 | The Net | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 28 | The Hidden Treasure | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 29 | The Pearl of Great Price | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 30 | The Net | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 31 | The Ten Virgins | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 32 | The Talents | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 32 | The Talents | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 33 | The Sheep and the Goats | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 34 | The Rich Fool | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 35 | The Great Banquet | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 36 | The Shrewd Steward | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 37 | The Rich Man and Lazarus | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 38 | The Persistent Widow | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 34 | The Rich Fool | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
+| 35 | The Great Banquet | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 36 | The Shrewd Steward | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 37 | The Rich Man and Lazarus | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 38 | The Persistent Widow | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 39 | The Pharisee and the Publican | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 40 | The Friend at Midnight | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 41 | Counting the Cost | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 41 | Counting the Cost | ✅ 2026-08-06 | — | in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
 | 42 | The Barren Fig Tree Spared | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 43 | The Wedding Garment | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 43 | The Wedding Garment | ✅ 2026-08-06 | v1.1 | app-gallery, in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
 | 44 | Two Debtors | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 45 | The Wicked Tenants | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 46 | The Seed Growing Secretly | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 47 | Houses on Rock and Sand | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 46 | The Seed Growing Secretly | ✅ 2026-08-06 | — | in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
+| 47 | Houses on Rock and Sand | ✅ 2026-08-06 | v1.1 | app-gallery, in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
 | 48 | New Wine, Old Bottles | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 49 | Water to Wine at Cana | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 50 | The Nobleman's Son | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 51 | The First Catch of Fish | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 52 | The Demoniac in the Synagogue | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 53 | Peter's Mother-in-Law | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 53 | Peter's Mother-in-Law | ✅ 2026-08-06 | v1.1 | app-gallery, in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
 | 54 | The Leper Made Clean | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 55 | The Withered Hand | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 56 | The Widow of Nain's Son | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 57 | Jairus's Daughter | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 58 | Feeding the Five Thousand | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 56 | The Widow of Nain's Son | ✅ 2026-08-06 | — | in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
+| 57 | Jairus's Daughter | ✅ 2026-08-06 | — | in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
+| 58 | Feeding the Five Thousand | ✅ 2026-08-06 | v1.1 | app-gallery, in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
 | 59 | Feeding the Four Thousand | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 60 | The Gerasene Demoniac | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 60 | The Gerasene Demoniac | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 61 | The Syrophoenician Woman | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 62 | Ephphatha: the Deaf Man | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 63 | The Man Born Blind | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 64 | The Pool of Bethesda | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 64 | The Pool of Bethesda | ✅ 2026-08-06 | — | in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
 | 65 | Help Mine Unbelief | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 66 | Malchus Ear | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 67 | The Transfiguration | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 68 | Multitudes Mountain | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 68 | Multitudes Mountain | ✅ 2026-08-06 | — | in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
 | 69 | Baptism of Jesus | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 70 | The Temptations | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 71 | The Great Commission | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 72 | Calling Matthew | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 73 | This Day Fulfilled | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 74 | The Woman Who Washed His Feet | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 75 | The Woman Taken in Adultery | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 76 | Suffer the Little Children | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 75 | The Woman Taken in Adultery | ✅ 2026-08-07 | — | in-app-list | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
+| 76 | Suffer the Little Children | ✅ 2026-08-07 | — | in-app-list | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 77 | The Widows Mite | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 78 | Who Is My Mother | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 79 | The Seventy Sent | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 79 | The Seventy Sent | ✅ 2026-08-07 | — | in-app-list | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 80 | Come Unto Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 81 | Render Unto Caesar | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 81 | Render Unto Caesar | ✅ 2026-08-07 | — | in-app-list | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 82 | Anointing At Bethany | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 83 | Weeping Over Jerusalem | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 84 | No Room: the Manger | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 85 | Shepherds and Angels | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 85 | Shepherds and Angels | ✅ 2026-08-07 | — | in-app-list | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 86 | The Wise Men | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 87 | Boy in the Temple | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 87 | Boy in the Temple | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 88 | Triumphal Entry | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 89 | The Last Supper | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 90 | Washing the Disciples Feet | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 91 | Gethsemane | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 91 | Gethsemane | ✅ 2026-08-06 | — | in-app-list | APPROVED 2026-08-06 — not published | publish to app-gallery (becomes v2.1) |
 | 92 | Peters Denial | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
-| 93 | Barabbas Goes Free | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 94 | Father Forgive Them | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 95 | Thief on the Cross | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 96 | It Is Finished | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 97 | The Empty Tomb | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 98 | Mary her Name | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 93 | Barabbas Goes Free | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 94 | Father Forgive Them | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 95 | Thief on the Cross | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 96 | It Is Finished | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 97 | The Empty Tomb | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 98 | Mary her Name | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 99 | Flesh and Bone Thomas | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 100 | The Ascension | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
-| 101 | The Still Small Voice | (old appr) | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 101 | The Still Small Voice | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 102 | Jacob's Ladder | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 103 | Peter's Confession | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 104 | The Boy Samuel | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 105 | Face to Face, as a Friend | (old appr) | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
-| 106 | God Spake by the Prophets | (old appr) | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
+| 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
+| 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 107 | John the Baptist's Doubt | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 108 | My Sheep Hear My Voice | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 108 | My Sheep Hear My Voice | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 109 | Ask, Seek, Knock | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 110 | The Lord's Prayer | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 111 | Lilies and Sparrows | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
@@ -140,7 +142,7 @@ _Last sync: 2026-08-06T22:28:21_
 | 118 | Jonah and the God Who Relents | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 119 | The Fourth Man in the Fire | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 120 | Job Answered from the Whirlwind | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
-| 121 | Salt and Light | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 121 | Salt and Light | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 122 | The Mote and the Beam | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 123 | The Golden Rule | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 124 | Love Your Enemies | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
@@ -170,7 +172,7 @@ _Last sync: 2026-08-06T22:28:21_
 | 148 | Ruth and the Redeemer | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 149 | Hannah Is Heard | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 150 | The Shepherd Psalm | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 151 | If Any of You Lack Wisdom | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 151 | If Any of You Lack Wisdom | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 152 | He Revealeth His Secret to the Prophets | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 153 | The Restitution of All Things | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 154 | The Angel with the Everlasting Gospel | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
@@ -189,7 +191,7 @@ _Last sync: 2026-08-06T22:28:21_
 | 167 | I Have Chosen You, and Ordained You | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 168 | Born of Water and of the Spirit | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 169 | To Fulfil All Righteousness | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 170 | The Sacrament, Worthily | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 170 | The Sacrament, Worthily | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 171 | Baptized For the Dead | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 172 | Gospel Preached to the Dead | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 173 | Dead Shall Hear | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
@@ -198,7 +200,7 @@ _Last sync: 2026-08-06T22:28:21_
 | 176 | Who Shall Ascend | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 177 | Make Me a Sanctuary | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 178 | In Our Image | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 179 | Stephens Witness | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 179 | Stephens Witness | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 180 | Before I Formed Thee | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 181 | Morning Stars Sang | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 182 | The Spirit Returns to God | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
@@ -216,7 +218,7 @@ _Last sync: 2026-08-06T22:28:21_
 | 194 | Fruit of the Spirit | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 195 | Prove All Things | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 196 | Would God All Were Prophets | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 197 | Sons and Daughters Prophesy | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 197 | Sons and Daughters Prophesy | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 198 | Ensign For the Nations | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 199 | Fishers and Hunters | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 199 | Fishers and Hunters | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 200 | Gospel to All the World | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
