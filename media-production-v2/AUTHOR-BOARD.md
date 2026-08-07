@@ -61,7 +61,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 47 | build-47-houses-on-rock-and-sand | BUILT | 37 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 48 | build-48-new-wine-old-bottles | RUNNING | 0 | OK | A-auto 2026-08-06 | ✅ |
 | 49 | build-49-water-to-wine | BUILT | 40 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
-| 50 | build-50-noblemans-son | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED: open complaint "Cana → Kane-a" is an audio re-voice (no Cana respell; runner can't re-voice). Squares complaint already fixed in V2 renderer. See QC.md RUNNER PARK. |  |
+| 50 | build-50-noblemans-son | NEEDS-AUDIO | 0 | CHECK | AUDIO-FIX 2026-08-06 LIVE — A-auto 2026-08-06 PARKED: open complaint "Cana → Kane-a" is an audio re-voice (no Cana respell; runner can't re-voice). Squares complaint already fixed in V2 renderer. See QC.md RUNNER PARK. |  |
 | 51 | build-51-first-catch-of-fish | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED: open complaint "tear → tare" is an audio re-voice (homograph override needed). See QC.md RUNNER PARK. |  |
 | 52 | build-52-demoniac-synagogue | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 53 | build-53-peters-mother-in-law | BUILT | 15 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
