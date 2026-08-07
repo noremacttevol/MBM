@@ -65,3 +65,31 @@ rewritten: shot from low inside the room so the man on his mat lies
 soft in the near foreground UNDER the hole while the four faces ring
 it above. The mat man must be PRESENT in the frame — his absence is
 an automatic reject.
+
+## COMPLAINT LEDGER (C-FIX 2026-08-07, Machine A Dev) — CLOSED
+
+- OPEN complaint (only one on this row): **"1:37 picture is missing the
+  man on the mat."** FIX: beat **v2-r013-b18** (`s18-the-four-sweat-streaked-faces.jpeg`,
+  displays 103.4–108.5s) was rerolled ONCE against the author's rewritten
+  scene. The new frame is shot from low inside the room: **the paralysed man
+  lies on his reed mat across the near foreground**, ropes trailing from the
+  mat corners, and all four dust-caked friends ring him from above under the
+  broken roof hole. Verified in the RENDERED mp4 at 105.5s — the mat man is
+  now the foreground subject; his absence (the exact defect Cameron named) is
+  gone. Realistic, four friends (correct count), no Jesus in frame, no modern
+  objects, caption in the bottom band.
+- Rerolls this row: **1 / 45 beats = 2.2%** (well under the 15% COST-LAW budget).
+- Touch-once: this was the only open complaint on the row; nothing else was
+  changed. Every other still is byte-identical.
+
+## AUDIO — unchanged, rebuilt from the identical V1 source clips
+
+The checked-in V1 mp4 (`media-production/build-13-roof/mark-2_man-through-the-roof.mp4`)
+is a **stale 258.967s** render, so the AUDIO LOCK's default copy-from-V1-mp4 path
+refuses (STALE-V1-FINAL guard). Set `AUDIO_FROM_V1_SEGMENTS = True`: the
+narration is rebuilt from the V1 build's OWN 23 mp3 segments at the extract_beats
+offsets (same mechanism shipped on rows 61 and 69). `v2_assemble.py 13` prints
+**AUDIO REBUILD PASS**. Nothing was re-voiced, re-timed, or resynthesised — same
+words, same voices, same offsets. Both the old shipped v3 and this new cut measure
+**-15.1 LUFS** integrated loudness; the only difference is 0.5s of trailing card
+tail (298.3s vs the old 298.8s). The audio Cameron already heard is unchanged.

@@ -45,6 +45,12 @@ from pathlib import Path
 
 OUTPUT_ASSET_DIR = "assets-realistic"
 OUTPUT_VIDEO_NAME = "mark-2_man-through-the-roof-realistic-v3.mp4"
+# STALE-V1-FINAL (2026-08-07 C-FIX): the V1 build's mark-2_man-through-the-roof.mp4
+# is a stale 258.967s render; the real narration timeline is ~298.3s. The
+# authoritative audio is therefore rebuilt from the V1 build's OWN mp3 segments at
+# the extract_beats offsets (same mechanism used on rows 61, 69) — nothing
+# re-voiced, re-timed or resynthesised; V1 stays read-only.
+AUDIO_FROM_V1_SEGMENTS = True
 _BUILD = Path(__file__).resolve().parent
 
 # Stable, accepted identity anchors for this one-story cast. Each person has
