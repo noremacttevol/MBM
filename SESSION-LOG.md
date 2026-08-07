@@ -1,3 +1,21 @@
+## 2026-08-07 — ROW 89 (the-last-supper) REALISTIC V2 SHIPPED + DEPLOYED — Opus picture runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commits:** row 89 claim RUNNING `007d8943a`; ship (mp4+QC+beats_v2+boards+QUEUE+RUNNER-LESSONS) `64293f9b5`; this SESSION-LOG + review.html card = end-of-session commit below. Targeted `git add` of only row 89's paths (tree dirty from live autopilot lanes — no tree-wide add/reset; `--rebase --autostash` before each shared-file edit). Session-chain verified at start (then-top commit `febf38372` present in `git log`). Hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all V2-REBUILD-RUBRIC lessons/META-LAWS + ALL of RUNNER-LESSONS.md first; cross-checked QUEUE row 89 = "The last supper / Luke 22" (not a swap).
+
+**Built:** 16 realistic stills on the promote-first ROOM plate (s01 person-free anchor promoted → 12 ROOM beats); 0 portraits (PETER/JOHN carry global sheets). No open Cameron complaint (`v2_outline.py 89`). AUDIO REBUILD PASS SHA256 `29a5b1d0…`, 94.1s, AUDIO_FROM_V1_SEGMENTS (14 V1 mp3s, byte-identical narration — no re-voice). Deployed + live-verified (hash on live page + mp4 HTTP 200).
+
+**Rerolls 2/16 = 12.5% (≤15% COST-LAW budget):** b02 establishing wide came back PAINTERLY (Law-14 realistic/cartoon mix, hooded lighter Jesus) → reroll landed a photographic take matching the set; b06 "took the bread" came back a 4-panel COLLAGE → reroll landed a single coherent frame.
+
+**STALE-WINDOW REMAP (runner timing-only, row-42/74 class):** beats_v2 windows were scaffolded on the old ~101.9s timeline; live audio 94.129s. First assemble DROPPED s16 (the person-free closer — its window started past the live card_start) and put the n5 caption over s15. Remapped all 16 windows onto the live extract per-segment slices (split ratios preserved for n1/n2b/n4) → all 16 stills render, s16 shows with its matching caption, card clean, **audio SHA256 UNCHANGED**. New RUNNER-LESSON added: even a ~1.7s stale drift silently drops the FINAL beat (watch rendered still-count < beat-count).
+
+**FIX-WAVE:** the ROOM plate carries a small period-ambiguous fork among the table utensils; propagates to the wide ROOM frames — background/non-subject, plate re-attaches on reroll, left for the fix wave.
+
+**Cost ≈ $2.15/row (meter $470.47 → $472.89), 12.5% rerolls — well BELOW the $6.10/row & 19%-reroll running average; COST LAW trend DOWN.**
+
+**Next runner target:** AUTHOR-BOARD lowest Ready ✅ with empty Claim (LOW-NUMBER LAW). Rows 90/92-100/105/106/108 are AUDIO-FIX-DONE Ready ✅ (0 stills) awaiting the picture runner.
+
+---
+
 ## 2026-08-07 — ROWS 192, 193 & 194 AUTHORED (Ready ✅) — $0 Fable-5 author lane — Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** row 192 = `8b4e97138`; row 193 = `825c20bd3`; row 194 = `83fe1c990`; this SESSION-LOG entry below. Each pushed as it finished with a targeted `git add` of only that row's beats_v2.py + QC.md + ASSEMBLED-PROMPTS.txt + its AUTHOR-BOARD line (the tree is ~150 files dirty from live autopilot lanes — NEVER a tree-wide add/rebase/stash/reset; row 192's push was carried up by a concurrent autopilot lane's own push, which is why `git push` reported "up-to-date" yet the commit is on origin/main). Session-chain verified at start (then-top = rows 190/191 Ready + 189 park, commits `86b21df3f`/`7fb13dec3`/`821f79b93` all present in `git log`). Hostname `Dev` = Machine A. Read all V2-REBUILD-RUBRIC lessons + META-LAWS + THE STANDING ORDER + PROMPT-FABLE5-AUTHOR.md first.
