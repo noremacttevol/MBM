@@ -1,5 +1,27 @@
 # QC / RUNNER HANDOFF — build-65-help-mine-unbelief (Mark 9:14-29)
 
+## C-FIX — Machine A (`Dev`), 2026-08-07 — "0:06 picture has 2 jesus'"
+
+**COMPLAINT LEDGER (C-FIX):** Cameron's OPEN complaint on the shipped cut
+(`v2_outline.py 65`): *"0:06 picture has 2 jesus'."* The frame at 0:06 is
+still **s02** (`v2-r065-b02`, "his own disciples were in the middle of it").
+The model had painted the TWO cornered disciples with Jesus's locked face,
+and the left one in a cream/off-white robe — two figures read as Jesus
+(RUNNER-LESSONS "second cream-robed figure" + the two disciples having no
+locked garment colour or face). **FIXED by rerolling ONLY b02** (`--only
+v2-r065-b02 --redo`, 1 reroll, $0.13, no Jesus REF attached since the beat is
+`jesus:False`): the two disciples now wear a **peat-brown** and a **dark-red**
+tunic — NO cream anywhere in the frame — with ordinary distinct faces, and
+there is no Jesus figure at all (correct: the narration beat is the disciples
+being cornered; Jesus's arrival is the prior frame s01). Verified in the
+RENDERED mp4 at 0:06: zero cream robes, no duplicate-Jesus reading, caption in
+the bottom band. **Every other frame is byte-identical** and **audio is
+byte-identical** — re-assembly printed the SAME `AUDIO LOCK PASS
+SHA256=efe78305b7bbdf7bcb299ce790487fcd4106ac16ee91d7fd136642796b956347`.
+New mp4 git-blob `37cb3be0e984d63f259e81762d39e86ca73c6696`.
+Cost: $0.13 (1 reroll of 36 beats = 2.8% << 15% budget), Gemini only.
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 36 beats, ~207 s.
 
