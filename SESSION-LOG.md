@@ -1,3 +1,35 @@
+## 2026-08-07 — ROW 52 C-FIX shipped + live-verified: "demoniac face kept changing — beard to no beard to old man" — Machine A `Dev`
+
+**Commit:** mp4+assets+anchors+beats_v2+QC+lessons+QUEUE = `17566283905d4f932d02d50ece7bbde052e5aee1`; review.html card + this log = (this commit, by pathspec).
+
+Cameron's OPEN reviewer complaint on AUTHOR-BOARD row 52 (Mark 1:21-28, the synagogue
+demoniac), verbatim: *"The demoniac fave kept changing. Beard to no bear to old man and his
+looks kept flipping."* Complaint-first outranked all else.
+- **Root cause:** the A-auto base ship never executed the beats file's own CAST-REF NOTE.
+  The afflicted man (`FREEDMAN`) is a one-off character — locks but no `REFS` and not in
+  `GLOBAL_CAST` — so his face was held by TEXT ONLY and every beat invented a new one
+  (clean-shaven / old-grey / young stranger). The base QC's claim "FREEDMAN reused from cast
+  locks" was false. Text never holds a face.
+- **FIX (C-FIX, no re-voice):** anchored his face by IMAGE — promoted the two lock-matching
+  keeper stills **s18** + **s16** (gaunt ~40-45, dark hair streaked grey, ragged dark beard,
+  deep-set eyes) to `CAST-REF-V2/freedman-ref-a/-b.jpeg`, wired `REFS={"FREEDMAN":[...]}` in
+  beats_v2.py (gen log confirmed `[+2 char ref: FREEDMAN]` on all six), and rerolled ONLY the
+  six grossly-flipping frames: **s06/s08/s17** (were clean-shaven → now bearded), **s10/s19**
+  (were old-grey → now the same gaunt man), **s15** (was a different young man → corrected).
+  Every non-offending frame kept byte-identical. One consistent face across the whole arc.
+- **AUDIO LOCK PASS** SHA256 `1005cde1…c8b6` — narration byte-identical, NOT a re-voice.
+  (First assemble produced a truncated mux/no-moov mp4 — a transient; re-ran clean, mp4
+  decodes 0 errors, 156.6 s.)
+- **Cost:** 6 rerolls × $0.134 = **$0.80** (meter $418.08 → $418.88). 6/24 = 25% rerolls —
+  over the 15% light-QC budget BY DESIGN: a filed face-flip complaint inherently re-anchors a
+  face across many beats, batched touch-once into ONE re-cut; base cut already paid, so this
+  C-FIX is $0.80/row, far under the $6.10 average.
+- **Lesson banked** in RUNNER-LESSONS.md: a one-off character with `locks` but no
+  `REFS`/GLOBAL_CAST sheet renders TEXT-ONLY and flips — detect + wire before shipping any
+  single-character arc.
+- Verified the rendered mp4 (t=44 = rerolled s08, man now bearded; end card t=151 clean, zero
+  box glyphs) and the live reviewer carries the new hash.
+
 ## 2026-08-07 — ROW 54 C-FIX shipped + live-verified: "leprosy on Jesus's hand at 1:01" — Machine A `Dev`
 
 **Commit:** mp4+assets+QC+board+meter = `02377254558e0dec518903df36f9b9c81ed68c4d`; review.html card + this log = (this commit, by pathspec).
