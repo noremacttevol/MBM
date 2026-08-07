@@ -90,7 +90,12 @@ state of record for Appr/Post.
 
 ## 2026-08-06 (social session) — SOCIAL DISTRIBUTION KIT BUILT — 41 byte-verified approved cuts ready to post, channel plan + queue + schedule + playbook — Machine A `Dev`
 
-**Commit:** (this commit)
+**Commit:** the `social/` kit + this entry landed inside `76c16f0e2` (the concurrent
+autopilot session's publish commit swept this session's staged files — same repo, shared
+index). `baee4b41a` carries the SOCIAL-LAUNCH message but holds 5 in-flight autopilot
+build-70 files; content and message got swapped across the two commits by the race.
+Nothing lost — both pushed. Lesson for concurrent sessions: stage-and-commit is not atomic
+against the autopilot; commit with an explicit pathspec (`git commit <paths>`) instead.
 
 Session-chain verified: read SESSION-LOG top (row 48 realistic-v2 shipped) and confirmed its
 commit `4dd741328` in history. Hostname `Dev` → Machine A. Cameron's order: build MBM's
