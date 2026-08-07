@@ -47,6 +47,15 @@ session's $0.13 mistake. Keep entries deduped and one line each.
     PHRASE_SPOKEN ellipsis (row 10 had one for a slur) and STILL be too fast
     overall — a pre-existing override is not proof the pacing complaint is fixed.
     Park NEEDS-AUDIO, do NOT re-cut pictures.
+  - **OVER-CORRECTION swings back to a complaint — a pacing re-voice can go too
+    FAR the other way (2026-08-07, row 10 recurrence).** The row-10 audio-fix
+    answered "too fast" by stacking `-30%` rate + a leading ellipsis + a mid-line
+    ellipsis on one 5-word edge-tts line → 4.92 s, and Cameron came back with "now
+    its too slow and sounds horrible like a robot... undo it and make it right." A
+    synthetic voice (edge-tts) dragged well below its default with two dead-air
+    gaps reads as a robot. Fix ONE slow-down at a time and ear-check toward the
+    MIDDLE (deliberate, not stretched); don't pile rate-cut + multiple pauses on a
+    short line. Still an audio-domain park for the runner — NEEDS-AUDIO, no re-cut.
 - **FIRST check ALREADY-SHIPPED, before you check LIVE (2026-08-06, row-45
   second pile-on, ~$5 wasted).** A row can be fully DONE — mp4 committed, review
   card live — with NO live `v2_gen_api` process, because the lane that built it

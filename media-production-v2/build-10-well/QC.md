@@ -213,3 +213,61 @@ across ~4.4 s with the pauses audible — the Messiah reveal now lands with weig
 
 **Scope discipline:** no picture regenerated, no other segment re-voiced, no
 wording/timing changed outside j2. $0.00 spent, 0 rerolls.
+
+---
+
+## RUNNER PARK — j2 robotic recurrence (2026-08-07, Machine A `Dev`, C-FIX session)
+
+**Cameron's OPEN complaint (verbatim, `v2_outline.py 10`):** "The only.thing wrong
+with this one is how fast and meaningles Jesus pronounced the words while telling
+her he was the messiah. It is a very important text and the speaker says it too
+fast.. **this is what i asked before and now you messed it up now its too slow and
+sounds horrible like a robot. whatever you did undo it and make it right**"
+
+**This is a RECURRENCE, and it is AUDIO-DOMAIN — parked, NOT re-cut.** RUNNER-LESSONS:
+pacing / "too fast" / "robot" complaints are out of picture-runner scope. No picture
+was touched this session; all 49/49 stills remain byte-identical and accepted. The
+row is flipped to NEEDS-AUDIO / Audio CHECK for the audio lane (low rows go first, so
+it is picked up next tick).
+
+**Diagnosis — why the last fix made it worse.** The 2026-08-07 AUDIO-FIX over-corrected
+the too-fast complaint. It stacked THREE slow-downs on one 5-word line:
+1. `PHRASE_RATE = {"j2": "-30%"}` — well below the Jesus default (~-22%),
+2. a **leading** ellipsis pause ("I... that speak..."),
+3. a **second** ellipsis before "am he" ("...unto thee... am he").
+Result: j2.mp3 = **4.92 s** on edge-tts EricNeural — a synthetic voice dragged to
+-30% with two dead-air gaps reads as the "robot" Cameron is now rejecting. The
+too-fast take (`audio/j2.mp3.orig-2026-07-21`, ~1.67 s) was the opposite failure.
+The target is the MIDDLE: deliberate weight without the robotic stretch.
+
+**Available takes on disk (do NOT delete either):**
+- `audio/j2.mp3` — current SHIPPED 4.92 s take (-30% + double ellipsis) = TOO SLOW / robotic.
+- `audio/j2.mp3.orig-2026-07-21` — pre-pacing ~1.67 s take (single mid-line ellipsis for
+  the old slur fix) = TOO FAST.
+
+**Audio lane — do this (edit `make_narration.py`, both this V2 copy AND the V1
+`media-production/build-10-well/` copy so they stay in lock-step):**
+1. Back OFF the over-slow. Recommended starting point: drop `PHRASE_RATE["j2"]` to the
+   Jesus default (delete the j2 entry, or set `"-22%"`), and keep AT MOST ONE gentle
+   pause — the single mid-line ellipsis before "am he" that broke the old "the Amhi"
+   slur — i.e. `PHRASE_SPOKEN["j2"] = ("I that speak unto thee am he",
+   "I that speak unto thee... am he")`. Remove the LEADING ellipsis entirely.
+2. Ear-check 3-4 candidates with `qc_narration.py` / faster-whisper. Aim ~2.6-3.2 s:
+   slower than the 1.67 s racing take, clearly NOT the 4.92 s robotic drag. It must
+   transcribe the exact words and land with weight but sound like a person, not a
+   machine reading one word at a time. Caption stays byte-identical verbatim KJV
+   "I that speak unto thee am he" — only the SPOKEN/TTS string + rate change.
+3. **Only j2.mp3 regenerates.** Every other segment mp3 stays byte-identical. Preserve
+   the current 4.92 s file as `audio/j2.mp3.robot-2026-08-07` before overwriting.
+4. Re-assemble: `python3 media-production-v2/v2_assemble.py 10` (row uses
+   `AUDIO_FROM_V1_SEGMENTS=True`; j2's new duration re-times its picture window
+   automatically — 49 stills unchanged). Must print AUDIO REBUILD PASS.
+5. Re-ship per PROMPT-OPUS-RUNNER step 7 (commit mp4 + boards, update review.html card
+   to answer THIS recurrence in Cameron's words — "you said it went too slow/robotic;
+   the reveal is now deliberate but natural, not stretched" — set new hash, deploy
+   `firebase deploy --only hosting`, verify live). Flip board row 10 back to BUILT /
+   Audio OK. $0 (edge-tts, no Gemini/ElevenLabs).
+
+**Board:** row 10 → NEEDS-AUDIO, Audio CHECK, Claim "C-FIX 2026-08-07 PARKED
+NEEDS-AUDIO". No mp4 re-render this session; the shipped 296.6 s mp4 still carries the
+too-slow j2 until the audio lane re-voices. $0.00 spent, 0 rerolls, 0 pictures touched.
