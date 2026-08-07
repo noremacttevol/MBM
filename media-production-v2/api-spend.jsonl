@@ -3721,3 +3721,9 @@
 {"ts": "2026-08-07 17:06:53", "build": "build-51-first-catch-of-fish", "beat": "v2-r051-b01", "out": "s01-the-crowd-pressed.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-07 17:07:16", "build": "build-51-first-catch-of-fish", "beat": "v2-r051-b02", "out": "s02-two-empty-boats.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-07 17:28:34", "build": "build-62-ephphatha", "beat": "v2-r062-b03", "out": "s03-now-they-come-running.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 17:43:08", "build": "build-11-storm", "beat": "s04-eye-edit", "out": "s04-even-as-he-was.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 17:44:23", "build": "build-13-roof", "beat": "v2-r013-b17", "out": "s17-easy-to-miss.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 17:47:13", "build": "build-11-storm", "beat": "v2-r011-b05", "out": "s05-other-little-boats.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 17:47:37", "build": "build-11-storm", "beat": "v2-r011-b06", "out": "s06-men-at-the-oars.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 17:48:03", "build": "build-11-storm", "beat": "v2-r011-b07", "out": "s07-peter-andrew-james-john.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 17:48:31", "build": "build-11-storm", "beat": "v2-r011-b08", "out": "s08-this-lake-was-their-workplace.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}

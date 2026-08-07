@@ -1,5 +1,60 @@
 # Story 13 Realistic V3 QC — The Man Through the Roof
 
+## ✅ C-FIX 2026-08-07 SHIPPED — 1:40 MISSING-MAN **REGRESSION** root-caused + CLOSED (Opus runner, Machine A `Dev`)
+
+**COMPLAINT LEDGER (this cut) — Cameron RE-FILED against the LIVE cut (`v2_outline.py 13`):**
+> "1:40 picture is missing the man in it again, that was fixed previously but brought
+> back now for some reason, it should have been deleted. picture at 1:49 still has ghost
+> ropes and a weird room they are dropping him into. its a bad picture remove it."
+
+**WHY IT SILENTLY REGRESSED (the root cause — this is the important part):**
+The frame Cameron sees at **1:37 / 1:40 is `s17-easy-to-miss`** — its display window is
+**96.109–103.412s** (from the schedule map at the bottom of `beats_v2.py`). s17 had rendered
+Jesus + the four faces + ropes descending to an **EMPTY mat** — the man missing, and the ropes
+running down to *nothing* (that is also exactly his "1:49 ghost ropes / weird room they are
+dropping him into"). But every one of the **three** prior fixes rerolled **`s18-the-four-
+sweat-streaked-faces`** (window **103.412–108.528s**) because that beat is literally NAMED
+after the missing-man idea. The man was "restored" in s18 — a frame that plays **3–5 s later**
+than the one Cameron actually looks at — so from his seat nothing ever changed and it read as
+the fix being undone. Each prior fix even PASSED its own QC by checking s18 at 105.5 s, the
+wrong timestamp. **s17 was never touched by any fix.** The lesson (timestamp→beat must come
+from the shipped mp4 + window map, never the beat name) is now the top entry of
+RUNNER-LESSONS.md → "C-FIX / COMPLAINT HANDLING".
+
+**THE FIX (one reroll, the frame Cameron actually sees):**
+- **b17 / `s17-easy-to-miss` rerolled once** against its OWN committed intent (`wide:False`,
+  "Close on Jesus… his face tipped UP… looking at the men who made the hole, not at the man
+  on the floor"). The prior render had disobeyed by widening to include an empty mat + ropes.
+  The new frame is a clean close on the LOCKED Jesus (warm olive skin, dark wavy shoulder-length
+  hair, full beard, cream robe, **no halo/glow** — the only light is the sunshaft through the
+  hole) looking UP at the torn roof-hole in a legible basalt Galilean house. **No mat, no ropes,
+  no empty room** → there is no longer any mat to be "missing a man," no rope leading to nothing,
+  no weird empty room. The man remains correctly present on his mat in the neighbouring frames
+  (s16 landed at Jesus' feet, s18 four-faces-with-mat, s19 close on the silent man), so the
+  narrative is intact: man lands → Jesus looks up in gratitude at the friends → the four faces
+  and the mat → the silent man.
+- **Verified at Cameron's exact seconds in the RE-BUILT mp4** (the discipline the regression
+  violated): **1:40 (100 s)** now = Jesus looking up, no empty mat/ropes; **1:49 (109 s)** = s19
+  unchanged, four SOLID taut connected ropes, man present, legible roof — no ghost ropes.
+  Question card @291 s clean serif on cream. Captions bottom-band white.
+
+**ROOT-CAUSE HARDENING (so a shipped fix can't silently regress again):**
+1. New top RUNNER-LESSONS rule: map complaint-second → asset via the `beats_v2.py` window table,
+   extract that second from the SHIPPED mp4 to confirm the frame, fix THAT asset, and re-verify
+   the SAME second in the rebuilt mp4 — never trust the beat NAME.
+2. Prior ghost-rope ship had committed only the mp4, leaving s14/s15/s18 UNCOMMITTED (a
+   `git checkout` would have reverted the shipped frames). **This cut commits the mp4 WITH all
+   touched assets (s14, s15, s17, s18) in the same commit**; `git status assets-realistic/` is
+   clean after ship. Added as a RUNNER-LESSONS rule too.
+
+**COST / TOUCH-ONCE:** **1 reroll / 45 beats = 2.2%** (far under the 15% budget), **≈$0.13**
+(meter $498.75 → $499.02 with concurrent lanes). Both of Cameron's timestamps traced to the ONE
+empty-mat frame and fixed in ONE re-cut. **AUDIO byte-identical** — rebuilt from the same 23 V1
+segment mp3s, **AUDIO REBUILD PASS SHA256=`da5d35f0d7badc48a384104f6b475cbb087090c3609acb11a152325dea1e063b`**
+(the SAME hash as the prior ship — narration/voices/timing untouched), 298.3 s.
+
+---
+
 ## ✅ C-FIX 2026-08-07 SHIPPED — ghost-rope / weird-roof complaint CLOSED (Opus runner, Machine A `Dev`)
 
 **COMPLAINT LEDGER (this cut) — the open complaint on the row, in Cameron's words:**
