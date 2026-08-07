@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 02:46:28",
+ "scanned": "2026-08-07 02:52:45",
  "entries": [
   {
    "row": 1,
@@ -4235,10 +4235,10 @@
     "BOAT",
     "SEA-STORM-NIGHT"
    ],
-   "jesus": false,
+   "jesus": true,
    "wide": true,
    "night": true,
-   "n_person": 2,
+   "n_person": 3,
    "scene": "The boat is heeled hard over in the middle of the squall, its mast raked steeply against the torn black sky, as a steep wave stands up higher than the gunwale on the windward side. The men are all DOWN LOW in the hull, c"
   },
   {
@@ -4285,10 +4285,10 @@
     "BOAT",
     "SEA-STORM-NIGHT"
    ],
-   "jesus": false,
+   "jesus": true,
    "wide": true,
    "night": true,
-   "n_person": 4,
+   "n_person": 5,
    "scene": "Inside the pitching boat, the men who were easy a minute ago have gone to pieces. Peter has stopped rowing altogether with his oar dragging, his face bloodless and fixed on the sea over the bow. Young John is gripping th"
   },
   {
