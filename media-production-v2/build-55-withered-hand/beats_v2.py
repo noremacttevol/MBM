@@ -80,6 +80,15 @@ LOCKS = {
 
 REF = True
 
+# CAST-REF wiring (C-FIX 2026-08-07, Cameron: "the person with the withered
+# hand [is] not looking the same ... they need to look the same in every
+# picture"). The first-ship runner never built the hand-man anchor the CAST-REF
+# NOTE above prescribes, so every MAN-locked beat reinvented his face (s03 a
+# heavy full-grey beard, s09 an elderly white-beard, s10 a young dark-haired
+# man). hand-man-ref.jpeg is the canonical face cropped from the accepted s15,
+# now auto-attached to every MAN-locked beat so the reroll set matches it.
+REFS = {"MAN": "CAST-REF-V2/hand-man-ref.jpeg"}
+
 BEATS = [
     {
         "id": "v2-r055-b01", "out": "s01-another-sabbath.jpeg", "seg": "n1 p1a",

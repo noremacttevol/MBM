@@ -67,3 +67,45 @@ flips.
 - Assemble: **AUDIO LOCK PASS SHA256=3648a04f477ccc38a0a3303e017716aacd2c2be12ff30894a320deade572869c**
   (V1 audio byte-identical), 151.2 s, 19.4 MB.
 - Cost this run $3.08; meter $278.32 — well under the $6.10/row average.
+
+## 🛠 C-FIX — realistic-v2 (Machine A `Dev`, 2026-08-07)
+
+### COMPLAINT LEDGER (LEARNING LAW)
+Cameron (`v2_outline.py 55`): *"1:34 mutalated double right arm; 0:12 doesn't
+match the person in the first. Alot more of these pictures have the person with
+the withered hand not looking the same. I talked about this and it needs to get
+fixed. If your going to make a video about someone they need to look the same in
+every picture in that story."*
+
+ROOT CAUSE: the first-ship runner never built the hand-man face anchor the
+CAST-REF NOTE in beats_v2.py prescribes ("copy the first accepted face to
+CAST-REF-V2/hand-man-ref.jpeg + add REFS"). With text-lock only, every
+MAN-locked beat reinvented his face — s03 gave a heavy full-grey beard, s09 an
+elderly long-white-beard man, s10 a YOUNG dark-haired/dark-beard man, none
+matching the ~52 grey-streaked-short-beard man the lock describes. Cameron's two
+timestamps are examples of that one drift.
+
+FIX (one touch-once re-cut):
+- Built the missing anchor: cropped the accepted s15 to the man alone →
+  `CAST-REF-V2/hand-man-ref.jpeg`, wired `REFS = {"MAN": ...}` so it now
+  auto-attaches to EVERY MAN-locked beat (gen log shows `[+1 char ref: MAN]`).
+- Rerolled ONLY the drifted/defective frames against the anchor:
+  - **s03 (0:12 "doesn't match the person in the first")** — full-grey-beard
+    stranger → now the canonical grey-streaked-short-beard ~52 man. FIXED.
+  - **s09** (elderly long-white-beard) → canonical man. FIXED.
+  - **s10** (young dark-haired man) → canonical man. FIXED.
+  - **s18 (1:34 "mutalated double right arm")** — the profile pose read his
+    near-side arm as BOTH reaching out and fisted at the belt. Rerolled: one
+    clean extended right arm, five fingers, no doubling. FIXED.
+- KEPT byte-identical (already the same man, no defect): s01, s02, s11, s15,
+  s17, s19, s20, s23 — touch-once, no needless rerolls.
+- Verified in the RENDERED mp4: 0:12 and 1:34 now show the canonical man;
+  captions in the bottom band only.
+
+### Cost
+- 4 rerolls / 23 beats = 17% (marginally over the 15% reroll budget). Justified:
+  this is a complaint fix whose whole subject is identity consistency — 3 frames
+  were wrong-PERSON and 1 was a named anatomy defect; touch-once forbids leaving
+  any known defect for a later re-cut. $0.54 this run — well under $6.10/row.
+- AUDIO LOCK PASS SHA256=3648a04f477ccc38a0a3303e017716aacd2c2be12ff30894a320deade572869c
+  (byte-identical to the shipped narration — no re-voice). 151.2s, 19.4 MB.
