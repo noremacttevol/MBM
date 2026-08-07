@@ -34,6 +34,40 @@ something that wasn't spoken by Jesus." The QC RUNNER PARK named both as author-
 
 ---
 
+## 2026-08-07 — ROW 10 AUDIO-FIX SHIPPED + LIVE: j2 robotic recurrence FIXED (natural middle-ground) — Machine A `Dev`
+
+**Commit:** claim = `03eb8f0c5`; fix (mp4 + audio + code + QC) = `bb65a539c1a1ea2771abac7778fe06a361466d7a`; ship (review card + board) = `fa0cf49e5`; this log = (this commit).
+
+Picked up as the LOW-NUMBER audio row after row 19 (build-10-well, John 4). Cameron's
+OPEN recurrence (`v2_outline.py 10`): *"…this is what i asked before and now you messed
+it up now its too slow and sounds horrible like a robot. whatever you did undo it and
+make it right."* The prior 2026-08-07 fix had OVER-corrected the original "too fast"
+complaint into a robot.
+
+- **ROOT of the robot:** the shipped j2 stacked `PHRASE_RATE["j2"]="-30%"` + a DOUBLE
+  ellipsis ("I... that speak unto thee... am he") = **4.92 s** on edge-tts EricNeural —
+  a synthetic voice dragged below its default with two dead-air gaps reads as a machine
+  reading one word at a time.
+- **FIX (park's exact recipe, both make_narration copies in lock-step):** deleted the
+  `PHRASE_RATE` override (j2 back to the Jesus default -22%) and removed the LEADING
+  ellipsis, keeping ONE gentle mid-line pause `"I that speak unto thee... am he"`.
+  Result **3.96 s** — deliberately between the too-fast 3.50 s pre-pacing take and the
+  4.92 s robot.
+- **Ear-check (faster-whisper base.en):** candidates measured before committing. A
+  comma OR any rate faster than -22% re-slurs "thee am he" → "the Amhi"; ONLY the
+  ellipsis at the default -22% both breaks the slur AND sounds human. Delivered mp4 at
+  j2 (209.9 s) transcribes **"I that speak unto thee, am he."** — exact words, audible
+  reveal-pause, no slur. Only j2 changed; every other segment byte-identical
+  (`AUDIO_FROM_V1_SEGMENTS=True`, AUDIO REBUILD PASS `cc736013…`, 295.8 s). Old robotic
+  take preserved as `audio/j2.mp3.robot-2026-08-07`.
+- **Shipped + LIVE:** board → BUILT / Audio OK; review card rewritten to answer the
+  recurrence in his words ("you said too slow/robotic → now his normal pace with one
+  natural pause, ~4.0 s, the middle"); `firebase deploy --only hosting`; live page
+  carries hash `bb65a539c1a1`, mp4 content-length 21,903,014.
+- **Cost: $0 (edge-tts, no Gemini/ElevenLabs), 0 rerolls, 0 pictures touched.**
+
+---
+
 ## 2026-08-07 — ROW 19 AUDIO-FIX: j1 "too fast / ignores commas" FIXED, picture (B) handed to C-FIX lane — Machine A `Dev`
 
 **Commit:** claim = `0d845ebb5`; fix (j1 re-voice + flag + QC + board) = (this commit's parent); this log = (this commit).
