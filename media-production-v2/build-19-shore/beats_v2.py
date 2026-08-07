@@ -184,6 +184,17 @@ LOCKS = {
 
 OUTPUT_VIDEO_NAME = "john-21_breakfast-on-the-shore-realistic-v2.mp4"
 
+# AUDIO-FIX 2026-08-07 (C-FIX row 19, Machine A `Dev`). Cameron's open complaint:
+# "JESUS talks too fast and ignores commas when asking peter if he loves him."
+# j1 was re-voiced (media-production/build-19-shore/audio/j1.mp3: 2.04s -> 3.29s,
+# ellipsis + break tags so both commas breathe) through the SAME locked ElevenLabs
+# JESUS voice. That mp3 is now newer than the 2026-07-29 V1 final mp4, so copying
+# the V1 AAC stream would ship the OLD rushed j1 (and the STALE-V1 recency guard
+# correctly refuses it). The authoritative narration is therefore rebuilt from the
+# V1 build's OWN mp3s at the extract_beats offsets — every other segment byte-
+# identical, only j1 changed. See QC.md §0 RUNNER PARK.
+AUDIO_FROM_V1_SEGMENTS = True
+
 REF = True
 
 BEATS = [

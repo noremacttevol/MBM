@@ -4,7 +4,36 @@ Worker: Claude worker 13, Machine A `Dev`, 2026-08-01/02.
 
 ---
 
-## 0. RUNNER PARK — NEEDS-AUDIO (C-FIX, Machine A `Dev`, 2026-08-07)
+## 0. RUNNER PARK (C-FIX, Machine A `Dev`, 2026-08-07)
+
+> ### ✅ AUDIO PART (A) IS FIXED — 2026-08-07 (Machine A `Dev`, audio-fix lane)
+> Complaint (A) "JESUS talks too fast and ignores commas" is **RESOLVED at the
+> source**. `j1` ("Simon, son of Jonas, lovest thou me?") was re-voiced through the
+> SAME locked ElevenLabs JESUS voice (Alexander) with ellipsis + `<break>` tags so
+> **both commas now breathe**: `media-production/build-19-shore/audio/j1.mp3`
+> **2.038s → 3.291s** (sha256 `279c086f…1751c`; timing.json rewritten to the one
+> exact-KJV caption span). No dead-air gaps (ellipsis = a natural spoken hesitation,
+> NOT the robotic double-ellipsis that got row 10 rejected). Nothing else re-voiced.
+>
+> Because the new j1 is now newer than the 2026-07-29 V1 final mp4, copying the V1
+> AAC stream would ship the OLD rushed j1 (STALE-V1 recency guard correctly refuses
+> it), so `AUDIO_FROM_V1_SEGMENTS = True` was set in `beats_v2.py`. Verified: the
+> rebuild-from-segments path assembles a **159.017 s** track that matches the
+> extract_beats timeline to **0.000 s** (gate ≤0.5 s) with all 22 segments placed.
+>
+> ### 🛠 REMAINING WORK IS PICTURE-ONLY (B) — for the picture C-FIX lane
+> Do **NOT** re-park this to NEEDS-AUDIO — the audio is already correct in the
+> source. The ONLY open work is the **one-frame reroll (B)**: beat
+> **`v2-r019-b17`** → `assets/s17-and-swam-for-shore.jpeg` (Peter swimming the wrong
+> way at 1:05; the beat already carries the CAMERON GATE). In ONE touch-once re-cut:
+> reroll b17 until Peter's stroke visibly drives toward the beach, then
+> `python3 media-production-v2/v2_assemble.py 19` — the `AUDIO_FROM_V1_SEGMENTS`
+> flag automatically rebuilds the track with the fixed j1, so the re-cut closes
+> **BOTH** complaints at once. Ship + deploy (step 7c, live-verified); the review
+> card answers Cameron in his words: *"too fast / ignores commas"* → j1 now breathes
+> at both commas (2.0 s → 3.3 s); *"swimming the wrong way at 1:05"* → Peter drives
+> toward the beach. Board is BUILT / Audio OK so this lane owns it (the live cut is
+> unchanged, so the complaint still matches the shipped hash and is picked up).
 
 **COMPLAINT LEDGER (open, from `v2_outline.py 19`), Cameron against `128fc218`:**
 - **(A) AUDIO-pacing:** *"JESUS talks too fast and ignores commas when asking
@@ -68,7 +97,10 @@ post-re-voice re-cut; do NOT reroll it now (nothing to ship it in).
    now breathes at the commas; "swimming the wrong way at 1:05" → Peter drives
    toward the beach).
 
-State flipped BUILT→NEEDS-AUDIO, Audio OK→CHECK on AUTHOR-BOARD row 19.
+~~State flipped BUILT→NEEDS-AUDIO, Audio OK→CHECK on AUTHOR-BOARD row 19.~~
+**UPDATE 2026-08-07: (A) fixed by the audio-fix lane (see the green block at the top
+of §0). State flipped NEEDS-AUDIO→BUILT, Audio CHECK→OK. Only the picture reroll (B)
+remains, and it is owned by the picture C-FIX lane.**
 
 ---
 
