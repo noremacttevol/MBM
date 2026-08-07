@@ -81,7 +81,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 67 | build-67-the-transfiguration | BUILT | 16 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 68 | build-68-multitudes-mountain | BUILT | 35 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 69 | build-69-baptism | BUILT | 29 | OK | AUDIO-FIX shipped 2026-08-06 da00221e35d6 — STALE-V1 lock cleared (AUDIO_FROM_V1_SEGMENTS), new-voice cut assembled 172.3s, deployed+live-verified. | ✅ |
-| 70 | build-70-temptations | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-06 PARKED: open complaint "narrator spells 'I-S' (caps IS in n2); mispronounced 'proceedeth'" is an AUDIO RE-VOICE — runner ships byte-identical V1 narration and cannot fix it (SPOKEN dict empty). See QC.md RUNNER PARK. |  |
+| 70 | build-70-temptations | NEEDS-AUDIO | 0 | CHECK | AUDIO-FIX 2026-08-06 LIVE — A-auto 2026-08-06 PARKED: open complaint "narrator spells 'I-S' (caps IS in n2); mispronounced 'proceedeth'" is an AUDIO RE-VOICE — runner ships byte-identical V1 narration and cannot fix it (SPOKEN dict empty). See QC.md RUNNER PARK. |  |
 | 71 | build-71-the-great-commission | BUILT | 21 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 72 | build-72-calling-matthew | BUILT | 41 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 73 | build-73-this-day-fulfilled | BUILT | 17 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
