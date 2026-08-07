@@ -1,3 +1,23 @@
+## 2026-08-07 — ROW 110 (The Lord's Prayer) C-FIX #3 SHIPPED — ROOT-CAUSED the reopen loop; delivery re-forced, awaits Cameron's Approve — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, $0)
+
+**Commit:** claim `83d0693d5` · fix `72c1b5f7b` (review.html buster + QC ledger + RUNNER-LESSON) · board→SHIPPED + this SESSION-LOG this commit. Deployed to Firebase (`milk-b4-meat`) + live-verified. **Session-chain verified at start:** then-top SESSION-LOG commit `aae292db9` (Row 102) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md.
+
+**Assigned:** row 110 C-FIX (COMPLAINT-FIRST + LOW-NUMBER). Complaint (`v2_outline.py 110`): *"this is old pictures version i dont know why im seing it here as fixed."* This was the **THIRD** time row 110 was dispatched for the same complaint — two prior sessions (`d8e2bd697`, `4bdf410a0`/`ffef423b8`) "SHIPPED" a close and it kept coming back.
+
+**What I found (verified, not assumed):** the cut was NEVER old. Extracted 5 frames from the LIVE mp4 (t=5/20/55/100/125s) — all realistic biblical photography (olive-grove prayer w/ locked cream-robe Jesus, kneeling disciples, the family's home w/ bread, the alley cloak-step, the child's lamplit room). ZERO cartoon. Live mp4 = HTTP 200, content-length **19,796,928 = byte-identical** to the local realistic-v2 file. So it's a browser-cache artifact (the pre-2026-08-06 copy cached at the same filename).
+
+**★ THE REAL ROOT CAUSE (why 2 prior "SHIPPED" fixes didn't stick):** `REVIEW-LESSONS.json` AND `COMPLAINTS.md` are **Firestore-derived** — `admin/sync-reviews.mjs` (autopilot triggers it) regenerates them every run, and line 72 keeps a complaint `open` while `complaint && !approved`. The prior sessions set `open:false` **by hand**; the very next sync reverted it (I caught it live: `git diff REVIEW-LESSONS.json` = committed HEAD `open:false` vs running-autopilot working copy `open:true`). So the complaint-first picker re-selected row 110 as the lowest waiting complaint on the NEXT session — forever. **A local `open` edit is architecturally futile; a complaint closes ONLY on Cameron's Approve (or an admin Firestore action for a confirmed non-defect).**
+
+**What I did ($0, no Gemini, no re-cut, no re-voice):** (1) bumped the card cache-buster to a token he has never loaded (`?v=…-fresh0807b`) so his next play physically re-downloads the realistic cut; (2) rewrote the card flag to say, in his words, nothing is old — watch once, then press Approve and it stops coming back; (3) deployed + live-verified (card carries `-fresh0807b`, mp4 HTTP 200 @ 19.8MB); (4) did **NOT** hand-edit the `open` state (futile) and did **NOT** fake his approval; (5) wrote the COMPLAINT LEDGER + root cause into QC.md and a new RUNNER-LESSON so no 4th session repeats the futile edit.
+
+**STATUS:** delivery is bulletproof and live. Row 110 genuinely **AWAITS CAMERON** — he opens the card once (now uncached), sees the realistic pictures, presses Approve, and the complaint closes in Firestore. No further production work; a re-cut would burn credit re-making pictures that were already correct.
+
+**A concurrent live `autopilot.sh` (pid 2994702) was running in this shared tree** — kept staging surgical (only review.html, that row's QC.md, RUNNER-LESSONS.md, AUTHOR-BOARD.md, this SESSION-LOG), never `git add -A`, never touched `REVIEW-LESSONS.json`/`COMPLAINTS.md` (Firestore-owned).
+
+**Cost / COST LAW:** $0, 0 rerolls, 0 images. Third touch of this row but the first that ROOT-CAUSED it — the loop is now documented and cannot recur.
+
+---
+
 ## 2026-08-07 — ROW 102 (Jacob's Ladder) AUTHOR-UNSTRAND — NEEDS-REBUILD→BUILT, package completed + auto-cfix hash-gate flagged — Fable-5 author lane, Machine A `Dev` (UNATTENDED/HEADLESS, $0)
 
 **Commit:** `aae292db9` (board flip + jacob.jpeg force-add + PLACE-WIRING/ASSEMBLED-PROMPTS + QC.md handoff) · SESSION-LOG + memory this commit. **Session-chain verified at start:** then-top SESSION-LOG commit (Row 110 C-FIX ship `4bdf410a0` / board `75e83e0b0`) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. Read PROMPT-FABLE5-AUTHOR.md + AUTHOR-BOARD + `v2_outline.py 102` + QC.md first. A separate live autopilot lane was generating row 113 (pid 2981619) in this shared tree — kept all staging surgical (only row-102 files + board), never `git add -A`.
