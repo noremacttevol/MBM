@@ -1,3 +1,31 @@
+## 2026-08-07 — ROW 10 C-FIX PARKED NEEDS-AUDIO: j2 "robot" recurrence is audio-domain — Machine A `Dev`
+
+**Commit:** park (board + QC + RUNNER-LESSONS) = `70ed9ee25`; this log = (this commit).
+
+Picked up as the COMPLAINT-FIRST + LOW-NUMBER C-FIX on AUTHOR-BOARD row 10
+(build-10-well, John 4). Cameron's OPEN complaint (`v2_outline.py 10`): *"...how fast
+and meaningles Jesus pronounced the words while telling her he was the messiah... this is
+what i asked before and now you messed it up now its too slow and sounds horrible like a
+robot. whatever you did undo it and make it right."*
+
+- **This is a RECURRENCE and it is AUDIO-DOMAIN — parked, NOT re-cut.** The 2026-08-07
+  audio-fix answered the original "too fast" by over-slowing j2 "I that speak unto thee
+  am he" to `-30%` rate + a leading ellipsis + a mid-line ellipsis = **4.92 s** on
+  edge-tts EricNeural — a synthetic voice with two dead-air gaps reads as the "robot"
+  Cameron now rejects. Pacing/robotic complaints are out of picture-runner scope
+  (RUNNER-LESSONS); I touched NO pictures — all 49/49 stills are byte-identical & accepted.
+- **Did:** flipped board row 10 → NEEDS-AUDIO / Audio CHECK with a claim note; wrote a
+  precise **RUNNER PARK** in `build-10-well/QC.md` giving the audio lane the exact
+  back-off (drop to the Jesus default rate, keep AT MOST one gentle pause, ear-check a
+  ~2.6–3.2 s middle-ground between the too-fast 1.67 s `.orig-2026-07-21` take and the
+  too-slow 4.92 s take; preserve the current file as `.robot-2026-08-07`). Added a
+  RUNNER-LESSONS over-correction sub-lesson so no session repeats the swing.
+- **Handoff:** the audio lane picks row 10 up next tick (low rows first). No mp4
+  re-render this session; the shipped 296.6 s mp4 still carries the too-slow j2 until
+  re-voiced. **$0.00 spent, 0 rerolls, 0 pictures touched.**
+
+---
+
 ## 2026-08-07 — ROW 55 C-FIX SHIPPED + LIVE: withered-hand man identity fixed ("look the same in every picture") — Machine A `Dev`
 
 **Commit:** claim = `9eeed259c`; fix (mp4 + anchor + QC + board) = `a69becfab73b75fcebf7b8ec9a5a60937be70638`; review.html ship = `790ca5a6b`; memory-feed (RUNNER-LESSONS + stash) = `85af95f16`; this log = (this commit).
