@@ -1,3 +1,25 @@
+## 2026-08-07 — ROW 86 ("The Wise Men", Matt 2:1-12) REALISTIC V2 SHIPPED + DEPLOYED — open dead-tail complaint fixed — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commits:** claim = `2792a63bd`; ship (mp4 + QC + beats_v2 HEROD-ref + QUEUE + AUTHOR-BOARD + api-spend) = `2eb7959ad8f2ae3ee32c3371d3132c9a4f606c64`; review-card = `276188457`; publish-loop + STASH rescan + this SESSION-LOG = end-of-session commit. Second row of this runner session (after Row 83 below). hostname `Dev` = Machine A.
+
+**Row 86 = next lowest AUTHOR-BOARD Ready-✅ / empty-claim row after 83 (84/85 already BUILT).** Cross-checked QUEUE — story "The wise men", Matt 2, NOT swapped. `v2_outline.py 86` OPEN complaint (trusted over the QC header's stale "no open complaint"): **"13 extra seconds on the end… cut it off as soon as the voice stops talking… cut 11 seconds off just to be careful."** Dead-tail class (STALE-V1), runner-fixable — NOT a pronunciation/pacing park.
+
+**Build:** 22 realistic stills at native 2K (V1 ASSEMBLY-C had 8), 131.9s, 20.2 MB. 1 portrait (HEROD — recurring across 7 frames; `v2_story_cast` generated it and auto-wired `REFS` so his face is locked and can't flip). No place plates (text locks). `--check` PASS (22 beats).
+
+**Complaint fixed (verified):** STALE-V1 tail check (row-74 lesson) — captioned.mp4 123.633s ≈ card seg_start 123.594s (Δ 0.039s ≤ 0.2s); final mp4 131.90s = audio total 131.894s exactly → the closing question card begins exactly when the last picture ends and the video finishes on the last word, no trailing silence AND nothing cut early (full 8.3s card present).
+
+**Light QC (1 pass, 22 frames in 3 grids + 3 caption frames): 0 rerolls / 22 = 0% (COST LAW).** HEROD ref-locked, consistent across s06-s11/s16 (crowned, grey beard, no flip). Child Jesus a young TODDLER (Matt 2 "young child," not newborn, not the adult master face), no halo; Mary blue; gifts read gold/frankincense/myrrh; night+star correct (s01/s12/s18). No modern objects, no cartoon/mixed frame, no collage, no burned-in text, anatomy clean. FIX-WAVE (non-blocking): child age wobbles slightly (unref'd infant), s21 epilogue desert track borderline. No new RUNNER-LESSON class this row.
+
+**Audio:** AUDIO REBUILD PASS SHA256=`db626436aac24f0433bdd9c299ccac693d69965e62003733e29b90d3b0da866c`, from 14 V1-dir segment mp3s, 131.894s (byte-identical narration). Captions bottom-band; scripture (Matt 2:2, wise men) blue, narrator white; card clean.
+
+**DEPLOY + live-verify (7c) — DONE:** `firebase deploy --only hosting`; live review.html carries `data-hash=2eb7959ad8f2…` + `data-review-wave=realistic-v2` for v86; v2 mp4 HTTP/2 200, content-length 20249184 (direct raw host).
+
+**Cost:** HEROD portrait $0.13 + 22-beat run $2.95 = **~$3.08 this row**, 0 rerolls (meter $462.30 → $466.19). Under the $6.10/row average — COST LAW trend holds DOWN. STASH-INDEX rescanned (3011 stills / 95 builds), PUBLISH LOOP synced.
+
+**Session total: 2 rows shipped (83 + 86), both deployed + live-verified, ~$5.09 combined, 1 reroll across 36 beats (2.8%) — well under the 15% budget and the $6.10/row average.**
+
+---
+
 ## 2026-08-07 — ROWS 186 & 187 AUTHORED (Ready ✅) + ROW 188 authored & PARKED NEEDS-AUDIO ("maketh" complaint diagnosed) — $0 Fable-5 author lane — Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** row 186 claim = `85b1bcc9a`, ship (Ready ✅) = `5f94bb4a8`; row 187 claim = `a55ad50b9`, ship = `299bfe07b`; row 188 claim = `7dc47f9df`, park = `5605b7d7d`; this SESSION-LOG entry below. All on origin/main (each pushed as it finished; targeted `git add` of only that row's beats_v2.py + QC.md + ASSEMBLED-PROMPTS.txt + AUTHOR-BOARD line — the tree is ~150 files dirty from live autopilot lanes, so NEVER a tree-wide add/rebase/stash/reset). Session-chain verified at start (then-top = rows 182-185 authored, row-185 commit `1c8fb64ee` present in `git log`; the audio-fix lane has since prepended a row-185 AUDIO-FIXED entry — confirms the row-185 NEEDS-AUDIO park was picked up + fixed, the park→pickup handoff working). Hostname `Dev` = Machine A. Read all V2-REBUILD-RUBRIC lessons (incl. lesson 15) + the two META-LAWS + THE STANDING ORDER + PROMPT-FABLE5-AUTHOR.md first.

@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 10:59:21",
+ "scanned": "2026-08-07 11:12:47",
  "entries": [
   {
    "row": 1,
@@ -40514,6 +40514,339 @@
    "night": true,
    "n_person": 1,
    "scene": "The herald's two hands come out and down, palms open toward the cowering men \u2014 the oldest gesture of no-harm there is \u2014 FEAR NOT \u2014 and the words move through the brilliance like warmth through cold water: the flung-up ar"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b01",
+   "file": "build-86-the-wise-men/assets/s01-some-time-after-jesus-was.jpeg",
+   "tokens": [
+    "MAGI",
+    "DESERT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "Across the pale night desert, the camera far off the track taking the train in profile under the stars, the small caravan makes its patient line: three robed scholars swaying on their camels \u2014 sapphire, crimson and emera"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b02",
+   "file": "build-86-the-wise-men/assets/s02-they-had-seen-his-star.jpeg",
+   "tokens": [
+    "MAGI",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "Into the cold polished grandeur, the camera behind the flanking courtiers' shoulders, of the king's hall the three come striding \u2014 desert dust still on their sapphire, crimson and emerald hems, the long road still in the"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b03",
+   "file": "build-86-the-wise-men/assets/s03-where-is-he-that-is.jpeg",
+   "tokens": [
+    "MAGI",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the old Persian's face as he asks it \u2014 white beard, learned calm, the question offered up to the throne platform as plainly as asking directions at a well \u2014 WHERE IS HE THAT IS BORN KING \u2014 and behind him the hal"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b04",
+   "file": "build-86-the-wise-men/assets/s04-for-we-have-seen-his.jpeg",
+   "tokens": [
+    "MAGI",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The crimson-robed scholar's arm sweeps toward the high eastern windows \u2014 WE HAVE SEEN HIS STAR \u2014 and the three faces carry the whole journey in their certainty: months of desert read off a single point of light, ended he"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b05",
+   "file": "build-86-the-wise-men/assets/s05-understand-what-they-had-just.jpeg",
+   "tokens": [
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the hall understanding faster than its guests: two courtiers trading a frozen glance over their cups, the court scribe's stylus stopped dead mid-stroke, a chamberlain's swallow travelling his throat \u2014 every loca"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b06",
+   "file": "build-86-the-wise-men/assets/s06-they-asked-the-sitting-king.jpeg",
+   "tokens": [
+    "MAGI",
+    "HEROD",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wide hall stages the collision, the camera at the side wall so platform and floor read in one profile: on the raised platform Herod in his dark purple and thin gold circlet, heavy and shrewd and utterly still \u2014 and b"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b07",
+   "file": "build-86-the-wise-men/assets/s07-he-sent-them-on-to.jpeg",
+   "tokens": [
+    "MAGI",
+    "HEROD",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Herod comes down off his platform wearing his warmest self: an arm hovering half-around the old Persian's shoulders, the other hand sweeping graciously south toward Bethlehem's road, the shrewd sunken eyes doing their pr"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b08",
+   "file": "build-86-the-wise-men/assets/s08-go-and-search-diligently-for.jpeg",
+   "tokens": [
+    "HEROD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the lie at its work: Herod's mouth warm and generous around the words \u2014 BRING ME WORD, THAT I MAY COME AND WORSHIP HIM ALSO \u2014 while above the working smile the sunken eyes stay flat and cold as coins on a corpse"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b09",
+   "file": "build-86-the-wise-men/assets/s09-herod-was-frightened-and-he.jpeg",
+   "tokens": [
+    "HEROD",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the king in the beat nobody else catches: the word BORN still ringing, and across the heavy face one raw flash of the real thing \u2014 a old man's fear of the cradle he cannot bribe \u2014 before the cleverness slides ba"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b10",
+   "file": "build-86-the-wise-men/assets/s10-go-and-look-carefully-for.jpeg",
+   "tokens": [
+    "MAGI",
+    "HEROD",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the hall's great door the courtesies close the trap: the three scholars bowing their learned farewell, thanks given for the king's gracious interest, the errand folded trustingly in with their maps and their gift-ches"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b11",
+   "file": "build-86-the-wise-men/assets/s11-every-word-of-that-was.jpeg",
+   "tokens": [
+    "HEROD",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The great door closes and the king's face closes with it: turned away into the brazier-shadow, the smile gone like a lamp put out, nothing left in the heavy features but the cold arithmetic underneath \u2014 a man alone with "
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b12",
+   "file": "build-86-the-wise-men/assets/s12-they-were-led-at-last.jpeg",
+   "tokens": [
+    "MAGI",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "In the Bethlehem night the long journey runs out of road: the brilliant star stands stopped, directly and unmistakably above one small flat-roofed house \u2014 and before its low lamplit door the three travellers rein up and "
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b13",
+   "file": "build-86-the-wise-men/assets/s13-and-there-he-was-not.jpeg",
+   "tokens": [
+    "HOUSE",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through the low doorway the lamp shows what the star was standing over: a packed-earth room, a niche lamp burning small, and Mary in her indigo veil with the young child on her lap \u2014 a dark-haired toddler, one small hand"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b14",
+   "file": "build-86-the-wise-men/assets/s14-the-wise-men-knelt-before.jpeg",
+   "tokens": [
+    "MAGI",
+    "HOUSE",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down onto the packed-earth floor the three go \u2014 sapphire, crimson and emerald pooling in the dust as old knees and learned knees fold before a toddler on his mother's lap \u2014 heads bowing under the little lamp, months of d"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b15",
+   "file": "build-86-the-wise-men/assets/s15-matthew-writes-it-down-like.jpeg",
+   "tokens": [
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The little room holds still for the record: the lamp's flame standing straight in its niche, the kneeling travellers' bowed shapes at rest, the child's small face in the amber light, dust settling where the robes disturb"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b16",
+   "file": "build-86-the-wise-men/assets/s16-he-had-no-intention-of.jpeg",
+   "tokens": [
+    "HEROD",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Alone by the brazier's coals the king broods in his purple: the thin gold circlet catching the ember-light, the heavy jaw set, both hands closed on the back of a chair as if it were the future's neck \u2014 a man who has neve"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b17",
+   "file": "build-86-the-wise-men/assets/s17-and-when-they-were-come.jpeg",
+   "tokens": [
+    "MAGI",
+    "HOUSE",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verse fills the little room: the three still on their knees, and before the child and his mother the opened treasures of a far country \u2014 the old Persian tilting a chest of coined gold into the lamplight, the crimson "
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b18",
+   "file": "build-86-the-wise-men/assets/s18-god-warned-them-in-a.jpeg",
+   "tokens": [
+    "MAGI",
+    "DESERT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "In the desert camp the night does its quiet work: the three asleep in their travel robes around the banked embers, camels kneeling dark against the stars \u2014 and the old Persian stirring in his sleep, brow folding, hand cl"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b19",
+   "file": "build-86-the-wise-men/assets/s19-then-they-opened-up-what.jpeg",
+   "tokens": [
+    "MAGI",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the floor where the world has set down its wealth: the small chest of gold spilling its heavy coins in the lamplight, the bowl of pale frankincense breathing its resin sweetness, the dark myrrh jar with its wax "
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b20",
+   "file": "build-86-the-wise-men/assets/s20-they-had-crossed-a-desert.jpeg",
+   "tokens": [
+    "MAGI",
+    "HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The open door holds both ends of the road at once: inside, three of the East's great minds kneeling in rich robes on a packed-dirt floor by one clay lamp \u2014 and out past the low lintel, the dark edge of the desert they sp"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b21",
+   "file": "build-86-the-wise-men/assets/s21-so-they-went-home-another.jpeg",
+   "tokens": [
+    "MAGI",
+    "DESERT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 0,
+   "scene": "At first light, the camera on a rise behind the turning train, the caravan swings wide: the three riders and their beasts taking a different road east, the track bending deliberately away from the far grey hill where Jer"
+  },
+  {
+   "row": 86,
+   "build": "build-86-the-wise-men",
+   "beat": "v2-r086-b22",
+   "file": "build-86-the-wise-men/assets/s22-the-nations-had-come-to.jpeg",
+   "tokens": [
+    "MAGI",
+    "HOUSE",
+    "MARY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame keeps the room the way history will: three scholars of the nations bowed low in sapphire, crimson and emerald on a village floor, their opened gifts at rest in the lamp's amber circle, and above the bow"
   },
   {
    "row": 91,
