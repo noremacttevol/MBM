@@ -77,6 +77,26 @@ Jesus in cream; no phantom people in the wides; no modern objects.
 Row ~$4.9; meter 236.64.
 
 ## COMPLAINT LEDGER
-none open — row 42 carries no complaint on the live board (verified against the
-Firestore dump, 2026-08-05). Nothing to re-cure; the cut is judged on the
-standing laws only.
+- **OPEN (reportedAgainst b35fd2a17, the 2026-08-05 cut): "the captions are
+  messed up multiple times match them up to the words, the correct wordage."**
+  FIXED in this C-FIX re-cut (2026-08-07, Machine A). ROOT CAUSE: this was NOT a
+  wording defect — every caption's TEXT already matched the spoken audio (verified
+  caption text == each segment's timing.json). It was a whole-video TIMING drift.
+  The `beats_v2.py` still-windows were scaffolded from a STALE `beats.json`
+  (a 200 s narration timeline, timeline "A") written BEFORE the Jul-29 "REDO #42:
+  new voice + pacing" re-voice lengthened the real audio to 223 s (timeline "B").
+  The assembler places captions on the LIVE `extract_beats` timeline (B, correct)
+  but places the STILLS on `beats_v2.py` windows (A, stale). Result: pictures ran
+  progressively AHEAD of the words — 0 s early, ~12 s by the climax — and the last
+  still froze ~19 s while two narrators played under it. Measured proof of the
+  anomaly: good rows 45/41 have `beats_v2 last-window-end` within 0.1 s of
+  `extract card_start`; row 42 was off by +12.56 s.
+  THE FIX (assembly-only, audio untouched): built a monotonic piecewise-linear
+  A→B time map anchored on the 18 stable segment boundaries (audio_start +
+  spoken_end) and remapped all 35 window values in `beats_v2.py` to timeline B
+  (e.g. jv9 s25 138.24-143.81 → 146.61-152.11, matching audio jv9 at 146.33-151.76).
+  Re-assembled: **AUDIO LOCK PASS** (SHA256 f46238109083…cace335 — the narration is
+  byte-identical to the cut Cameron already has). Re-verified 7 timeline points +
+  the card from the RENDERED mp4: still + caption + spoken word now agree at
+  t=100 (jv8), 140 (n8), 150 (jv9), 175 (n10), 200 (n11), 210 (n12), 219 (card).
+  NO pictures rerolled, NO re-voice, $0.00 Gemini spend, 0 rerolls.

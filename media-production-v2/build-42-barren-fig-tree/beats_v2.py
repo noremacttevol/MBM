@@ -85,7 +85,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r042-b01", "out": "s01-he-told-them-a-short.jpeg", "seg": "n1",
-        "window": "0.28-5.77", "wide": True, "jesus": True, "ref": REF,
+        "window": "0.28-6.16", "wide": True, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": (
             "He told them a short story about a tree that was not doing its "
@@ -109,7 +109,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b02", "out": "s02-stay-with-it-because-it.jpeg", "seg": "n1",
-        "window": "5.77-11.98", "wide": False, "jesus": True, "ref": REF,
+        "window": "6.16-12.79", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": (
             "Stay with it, because it turns into one of the kindest things he "
@@ -129,7 +129,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b03", "out": "s03-he-spake-also-this-parable.jpeg", "seg": "s6a",
-        "window": "12.52-14.56", "wide": False, "jesus": True, "ref": REF,
+        "window": "13.33-15.42", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": "He spake also this parable;",
         "must_show": "the telling begun — Jesus seated now on the press's stone base, the circle settling, a story taking the square.",
@@ -147,7 +147,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b04", "out": "s04-a-certain-man-had-a.jpeg", "seg": "jv6",
-        "window": "16.09-23.20", "wide": False, "jesus": False, "ref": False,
+        "window": "16.95-24.09", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "FIGTREE"],
         "narration": (
             "A certain man had a fig tree planted in his vineyard; and he came "
@@ -169,7 +169,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b05", "out": "s05-a-fig-tree-in-a.jpeg", "seg": "n2",
-        "window": "24.75-27.87", "wide": False, "jesus": False, "ref": False,
+        "window": "25.64-28.90", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": "A fig tree in a vineyard had the best spot on the whole property.",
         "must_show": "the privilege mapped — the tree in its prime corner: full sun, the wall's shelter, the vine rows' watered slope below it; real estate any tree would envy.",
@@ -189,7 +189,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b06", "out": "s06-deep-worked-soil-water-meant.jpeg", "seg": "n2",
-        "window": "27.87-33.99", "wide": False, "jesus": False, "ref": False,
+        "window": "28.90-35.29", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": (
             "Deep worked soil, water meant for the grapes, a wall around it, "
@@ -211,7 +211,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b07", "out": "s07-everything-a-tree-could-want.jpeg", "seg": "n2",
-        "window": "33.99-40.44", "wide": False, "jesus": False, "ref": False,
+        "window": "35.29-42.02", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": (
             "Everything a tree could want was already handed to it. All it had "
@@ -232,7 +232,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b08", "out": "s08-so-the-owner-came-out.jpeg", "seg": "n3",
-        "window": "41.01-45.43", "wide": False, "jesus": False, "ref": False,
+        "window": "42.59-47.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "FIGTREE"],
         "narration": (
             "So the owner came out to pick a few, the way you would. And there "
@@ -253,7 +253,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b09", "out": "s09-not-a-small-crop-not.jpeg", "seg": "n3",
-        "window": "45.43-48.24", "wide": False, "jesus": False, "ref": False,
+        "window": "47.01-49.82", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": "Not a small crop. Not a late one.",
         "must_show": "the absoluteness — extreme close along one branch: leaf after leaf lifted aside by a thumb, bare smooth wood at every node where figs form.",
@@ -271,7 +271,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b10", "out": "s10-and-this-was-not-the.jpeg", "seg": "n4",
-        "window": "51.73-53.40", "wide": False, "jesus": False, "ref": False,
+        "window": "53.31-55.07", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "FIGTREE"],
         "narration": "And this was not the first time.",
         "must_show": "the pattern — the owner walking AWAY from the tree with the empty basket, seen from behind, in a light subtly different from the arrival: another year, same walk.",
@@ -289,7 +289,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b11", "out": "s11-coming-up-on-three-seasons.jpeg", "seg": "n4",
-        "window": "53.40-61.30", "wide": False, "jesus": False, "ref": False,
+        "window": "55.07-63.36", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "FIGTREE"],
         "narration": (
             "Coming up on three seasons now he had walked out to that same tree "
@@ -311,7 +311,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b12", "out": "s12-a-fig-tree-gets-a.jpeg", "seg": "n4",
-        "window": "61.30-65.71", "wide": False, "jesus": False, "ref": False,
+        "window": "63.36-67.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": "A fig tree gets a fair trial, and this one had had a long one.",
         "must_show": "the trial's length made visible — the tree's trunk close: three seasons' growth rings of pruning scars and care marks; years of chances written on the bark.",
@@ -329,7 +329,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b13", "out": "s13-then-said-he-unto-the.jpeg", "seg": "jv7",
-        "window": "66.22-79.73", "wide": True, "jesus": False, "ref": False,
+        "window": "68.48-81.58", "wide": True, "jesus": False, "ref": False,
         "locks": ["OWNER", "GARDENER", "FIGTREE"],
         "narration": (
             "Then said he unto the dresser of his vineyard, Behold, these three "
@@ -356,7 +356,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b14", "out": "s14-bare-leaves-and-no-fruit.jpeg", "seg": "n3",
-        "window": "48.24-51.18", "wide": False, "jesus": False, "ref": False,
+        "window": "49.82-52.76", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "FIGTREE"],
         "narration": "Bare leaves, and no fruit at all.",
         "must_show": "the verdict's evidence — the owner's open empty palm held up beneath a laden-looking branch; the hand that should be full.",
@@ -375,7 +375,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b15", "out": "s15-and-you-can-hear-that.jpeg", "seg": "n5",
-        "window": "81.22-86.35", "wide": False, "jesus": False, "ref": False,
+        "window": "83.07-88.30", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER"],
         "narration": (
             "And you can hear that he is not being cruel. His last words are "
@@ -396,7 +396,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b16", "out": "s16-the-tree-is-holding-a.jpeg", "seg": "n5",
-        "window": "86.35-92.84", "wide": False, "jesus": False, "ref": False,
+        "window": "88.30-94.91", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": (
             "The tree is holding a place a fruitful one could be using, and any "
@@ -417,7 +417,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b17", "out": "s17-it-was-a-fair-call.jpeg", "seg": "n5",
-        "window": "92.84-94.50", "wide": False, "jesus": False, "ref": False,
+        "window": "94.91-96.59", "wide": False, "jesus": False, "ref": False,
         "locks": ["SQUARE"],
         "narration": "It was a fair call.",
         "must_show": "the crowd's agreement — close on two farmer faces in the square nodding slowly; the audience siding with the axe.",
@@ -436,7 +436,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b18", "out": "s18-and-he-answering-said-unto.jpeg", "seg": "jv8",
-        "window": "95.04-102.42", "wide": True, "jesus": False, "ref": False,
+        "window": "97.13-105.44", "wide": True, "jesus": False, "ref": False,
         "locks": ["OWNER", "GARDENER", "FIGTREE"],
         "narration": (
             "And he answering said unto him, Lord, let it alone this year also, "
@@ -461,7 +461,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b19", "out": "s19-the-gardener-steps-between-the.jpeg", "seg": "n6",
-        "window": "103.87-110.37", "wide": False, "jesus": False, "ref": False,
+        "window": "106.89-118.70", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER"],
         "narration": (
             "The gardener steps between the sentence and the tree. He does not "
@@ -482,7 +482,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b20", "out": "s20-and-look-at-what-he.jpeg", "seg": "n7",
-        "window": "110.95-113.23", "wide": False, "jesus": False, "ref": False,
+        "window": "119.28-121.52", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": "And look at what he offers to do with that year.",
         "must_show": "the year's plan begun — the gardener down on his knees at the tree's foot with his mattock laid ready, rolling up his sleeves; the work about to start.",
@@ -500,7 +500,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b21", "out": "s21-get-down-and-break-up.jpeg", "seg": "n7",
-        "window": "113.23-120.95", "wide": False, "jesus": False, "ref": False,
+        "window": "121.52-129.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": (
             "Get down and break up the hard, packed earth around the roots, so "
@@ -522,7 +522,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b22", "out": "s22-work-the-soil-and-then.jpeg", "seg": "n7 + n8",
-        "window": "120.95-124.12", "wide": False, "jesus": False, "ref": False,
+        "window": "129.11-132.27", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": "Work the soil. And then feed it.",
         "must_show": "the feeding — the gardener tipping a basket of dark dung and straw into the dug ring, working it in with bare hands.",
@@ -540,7 +540,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b23", "out": "s23-the-lowest-messiest-job-on.jpeg", "seg": "n8",
-        "window": "124.12-131.24", "wide": False, "jesus": False, "ref": False,
+        "window": "132.27-139.51", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER"],
         "narration": (
             "The lowest, messiest job on the whole farm, done by hand at the "
@@ -562,7 +562,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b24", "out": "s24-he-is-not-asking-for.jpeg", "seg": "n8",
-        "window": "131.24-137.72", "wide": False, "jesus": False, "ref": False,
+        "window": "139.51-146.09", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": (
             "He is not asking for time so he can wait and watch. He is asking "
@@ -585,7 +585,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b25", "out": "s25-and-if-it-bear-fruit.jpeg", "seg": "jv9",
-        "window": "138.24-143.81", "wide": False, "jesus": False, "ref": False,
+        "window": "146.61-152.11", "wide": False, "jesus": False, "ref": False,
         "locks": ["OWNER", "GARDENER", "FIGTREE"],
         "narration": (
             "And if it bear fruit, well: and if not, then after that thou shalt "
@@ -607,7 +607,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b26", "out": "s26-the-ending-is-deliberately-unfinished.jpeg", "seg": "n9",
-        "window": "145.34-147.34", "wide": False, "jesus": False, "ref": False,
+        "window": "153.64-156.54", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": "The ending is deliberately unfinished.",
         "must_show": "the open ending — the tree at winter's edge under a wide grey-gold sky, ring tended, branches bare, everything waiting; no resolution anywhere.",
@@ -626,7 +626,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b27", "out": "s27-jesus-leaves-his-listeners-inside.jpeg", "seg": "n9 + n10",
-        "window": "147.34-154.65", "wide": False, "jesus": True, "ref": REF,
+        "window": "156.54-166.05", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": (
             "Jesus leaves his listeners inside that extra year, while mercy is "
@@ -649,7 +649,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b28", "out": "s28-the-tree-had-not-changed.jpeg", "seg": "n10",
-        "window": "154.65-160.35", "wide": False, "jesus": False, "ref": False,
+        "window": "166.05-171.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": (
             "The tree had not changed. It had not turned itself around or grown "
@@ -671,7 +671,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b29", "out": "s29-it-got-its-extra-year.jpeg", "seg": "n10",
-        "window": "160.35-167.44", "wide": False, "jesus": False, "ref": False,
+        "window": "171.85-179.05", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER", "FIGTREE"],
         "narration": (
             "It got its extra year for one reason only. Someone who cared for "
@@ -693,7 +693,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b30", "out": "s30-that-is-the-whole-picture.jpeg", "seg": "n10b",
-        "window": "167.95-171.69", "wide": False, "jesus": False, "ref": False,
+        "window": "179.56-183.07", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": "That is the whole picture. Not a tree earning its keep.",
         "must_show": "unearned time — the bare tree with its rich tended ring, and lying at the ring's edge, the gardener's mattock at rest: the labour was never the tree's.",
@@ -712,7 +712,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b31", "out": "s31-a-gardener-buying-it-time.jpeg", "seg": "n10b + n11",
-        "window": "171.69-178.00", "wide": False, "jesus": False, "ref": False,
+        "window": "183.07-189.20", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDENER"],
         "narration": (
             "A gardener buying it time it could never have bought for itself. "
@@ -733,7 +733,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b32", "out": "s32-he-does-not-have-to.jpeg", "seg": "n11",
-        "window": "178.00-182.92", "wide": False, "jesus": False, "ref": False,
+        "window": "189.20-194.22", "wide": False, "jesus": False, "ref": False,
         "locks": ["SQUARE"],
         "narration": (
             "He does not have to. Everyone listening knew what it felt like to "
@@ -755,7 +755,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b33", "out": "s33-and-every-one-of-them.jpeg", "seg": "n11",
-        "window": "182.92-189.85", "wide": False, "jesus": True, "ref": REF,
+        "window": "194.22-201.29", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": (
             "And every one of them just heard that there is Someone in the "
@@ -776,7 +776,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b34", "out": "s34-so-the-story-he-told.jpeg", "seg": "n12",
-        "window": "190.39-193.74", "wide": False, "jesus": True, "ref": REF,
+        "window": "201.84-205.48", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SQUARE"],
         "narration": (
             "So the story he told to warn them turns out to be the story that "
@@ -798,7 +798,7 @@ BEATS = [
     },
     {
         "id": "v2-r042-b35", "out": "s35-the-owner-had-every-right.jpeg", "seg": "n12",
-        "window": "193.74-200.00", "wide": False, "jesus": False, "ref": False,
+        "window": "205.48-212.27", "wide": False, "jesus": False, "ref": False,
         "locks": ["FIGTREE"],
         "narration": (
             "The owner had every right to the axe. The gardener asked for the "
