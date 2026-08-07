@@ -128,6 +128,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **Giant/shrunken figures** (rubric lesson 14 — rows 56/69/107/112): height-
   check every multi-figure frame against a shared reference; Jesus is
   ordinary-sized, children stay child-sized.
+- **Oversized birds/animals in nature frames** (2026-08-07, row 111 b11/s11,
+  Cameron C-FIX "0:09 everything is out of scale and weird"). A beat whose scene
+  names small wildlife working the FOREGROUND ("sparrows working the seed") can
+  render the birds GIANT — the sparrows beside Jesus's hand and next to a seated
+  baby came out bigger than the infant's head, throwing the whole frame out of
+  scale. It is the same failure as lesson 14 but for animals, and it hides
+  because the PEOPLE are fine. FIX: one `--only <beat> --redo` re-anchors small
+  birds at true size ($0.13, one frame). CHECK: in every nature/wildlife frame,
+  height-check the animals against the nearest person the same way you check
+  figures — a sparrow must read tiny next to a hand, never cat-sized.
 - **Empty sandals with toes / lamps burning off the wick** (b17): objects obey
   physics; flames sit ON wicks only.
 - **Fair-haired / blue-eyed drift on locked cast** (BUILDER in a FIX-WAVE

@@ -1,5 +1,32 @@
 # QC / RUNNER HANDOFF — build-111-lilies-and-sparrows (Matthew 6:25-33)
 
+## ✅ C-FIX SHIPPED — 2026-08-07 (Machine A `Dev`)
+
+**COMPLAINT LEDGER (open at claim):**
+- `0:09 picture everything is out o scale and weird.` → **FIXED.** At 0:09 the
+  still on screen is beat `v2-r111-b11` / `s11-and-instead-of-an-argument.jpeg`.
+  Root cause: the sparrows were rendered grossly OVERSIZED — the birds beside
+  Jesus's hand and next to the baby were larger than the infant's head, so the
+  whole frame read out-of-scale. Fixed by ONE `--only v2-r111-b11 --redo`
+  reroll: the new take renders the sparrows at true small size (proper
+  sparrow-to-person proportion), people correctly sized, Jesus ordinary-sized,
+  cream robe / locked face / no halo, realistic photographic. Verified in the
+  RENDERED mp4 at 0:09. Only this ONE frame was touched — every other still is
+  byte-identical, audio is byte-identical (AUDIO LOCK PASS, same SHA256).
+
+**Result:** 1 reroll (1/29 = 3.4% of beats — under the 15% COST-LAW budget).
+Spend this row this session ≈ $0.13 (one still, 0 portraits). AUDIO LOCK PASS
+SHA256=51aba66bab0cb54d1f1ff6688893d836b5f05becbc02c12f069dbbf625b6cd8a
+(byte-identical to the shipped audio), 174.3s, 21.0 MB. Deployed + live-verified.
+
+**New defect class fed to RUNNER-LESSONS:** oversized birds/animals — a beat
+whose scene names small wildlife working the foreground ("sparrows working the
+seed") can render the birds giant, bigger than a nearby child's head; height-
+check animals against the people in every nature frame, not just figures.
+
+---
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 29 beats, ~162 s.
 
