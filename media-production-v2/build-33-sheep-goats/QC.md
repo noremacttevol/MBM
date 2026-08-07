@@ -141,3 +141,32 @@ first, which spends an image credit the author cannot), the author reverted the
 partial changes rather than hand the runner an unverified coupled timeline change.
 Do all three (+ the s20 nails reroll) together, assemble, verify the still/caption/voice
 agree at ~155-180 s, then ship.
+
+---
+
+## ✅ RUNNER SHIP — 2026-08-07 (Machine A `Dev`, Opus C-FIX session)
+
+The ONE remaining author step is done and the row is shipped.
+- **s20 rerolled** (`v2_gen_api … --only b20 --redo`, 1 shot, ~$0.13) vs the fixed
+  b20 scene text. New frame: visitor's hand grasping the prisoner's shackled hand
+  through wooden bars — **both hands have natural, unpainted working nails**, no
+  black/dark/painted polish, no wound/nail-mark/blood, clay oil lamp on the floor,
+  no faces. Complaint 1 CLEARED. (Old black-nail frame viewed side-by-side before
+  reroll to confirm the defect.)
+- **Re-assembled** (`v2_assemble.py 33`) — **AUDIO REBUILD PASS SHA256=91b16db5…**,
+  182.585s — byte-identical audio to the author's verified hash; the overwritten
+  verification mp4 (black nails) is gone, the shipped mp4 carries clean s20.
+- **QC of the rendered mp4:** 68s narrator caption white in the bottom band; **77s
+  j37 caption "Lord, when saw we thee an hungred…" is light-blue (scripture voice)
+  on the woman/righteous, NOT red on Jesus — Complaint 2 CLEARED**; question card
+  clean ("He is hidden in the person in front of you who needs help…").
+- **COST:** 1 reroll (the author-mandated s20 only) = 1/45 beats = 2.2% reroll,
+  ~$0.13 this session. Well under the 15% budget and the $6.10/row average.
+
+COMPLAINT LEDGER (both open complaints on this row — CLEARED):
+1. "at 1:10 why is the prisoner's nails painted black" → s20 regenerated, natural
+   unpainted nails; b20 scene text no longer commands black nails; CAMERON GATE in
+   must_not_show forbids painted nails.
+2. "at 1:16 Jesus speaking something that wasn't spoken by Jesus" → j37 (the
+   righteous' "Lord, when saw we thee an hungred…") moved JESUS→SCRIPTURE voice,
+   re-voiced, light-blue caption off the Jesus red; Jesus's own words (j1,j2) stay red.
