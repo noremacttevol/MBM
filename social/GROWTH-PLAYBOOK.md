@@ -117,8 +117,9 @@ mention, don't celebrate follower milestones on the page.
 - **Longer-form compilations** (e.g., "Every parable in Matthew 13, KJV") — a
   production question for later; would need Cameron's approval as new cuts.
 - **Pinterest / X**: possible fifth and sixth channels; decide after the first four
-  have a month of data. The old `Marketing-Launch-Kit/page-art/` X header exists if
-  wanted.
+  have a month of data. (Any art for them follows the page-art law: the app icon
+  as avatar, wordless frames from approved videos as headers — the old
+  Marketing-Launch-Kit art with the slogan is retired.)
 
 ## 9. The honest expectation
 

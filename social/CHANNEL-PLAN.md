@@ -31,10 +31,22 @@ free on **all four**. The whole point is that someone who sees a video on TikTok
 find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms and
 `@milkbeforemeat` on the other two).
 
-## 2. Shared identity assets (already in the repo)
+## 2. Shared identity assets
 
-- **Profile picture (all four):** `Marketing-Launch-Kit/page-art/profile_1080.png`
-- **Facebook cover:** `Marketing-Launch-Kit/page-art/cover_facebook_1640x624.png`
+> **PAGE-ART LAW (Cameron, 2026-08-07): no slogans, no words on page art.** The old
+> `Marketing-Launch-Kit/page-art/` files (the "MBM — stories of the God who sees
+> you" card) are RETIRED — Cameron rejected them ("creepy words"). Profile picture
+> is the app's own icon, nothing else; covers are realistic frames from approved
+> videos with no text on them.
+
+- **Profile picture (all four platforms):** `social/page-art/profile-icon-1080.png`
+  — the app's real icon (the hand reaching for the hem of his cloak). Same picture
+  the stores show, so the pages and the app read as one thing. Use it on YouTube
+  too (channel avatar) since that account is already up.
+- **Facebook cover:** `social/page-art/cover-facebook.jpg` — Jesus teaching from
+  the boat on calm water (from the approved Sower video, no text). If you'd rather
+  have the quiet night one: `social/page-art/cover-facebook-alt-night.jpg`
+  (shepherds' hills and Bethlehem at night, from Shepherds and Angels).
 - **YouTube banner / TikTok:** none needed at launch — skip, don't stall on art.
 - **The link (all four bios):** `https://milkb4meat.org` — one link, covers both stores.
 
@@ -92,7 +104,8 @@ find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms a
 1. facebook.com → Menu → Pages → **Create new Page**.
 2. Name `Milk Before Meat`, category **App page** (or "Religious organization" if
    App page isn't offered).
-3. Profile picture + cover photo (`cover_facebook_1640x624.png`).
+3. Profile picture (`social/page-art/profile-icon-1080.png`) + cover photo
+   (`social/page-art/cover-facebook.jpg`).
 4. **Bio** — paste:
    > Short scripture stories, told word-for-word from the King James Bible — realistic
    > pictures, one narrator, no music, no pressure. One story, one verse, one honest

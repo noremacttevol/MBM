@@ -1,3 +1,18 @@
+## 2026-08-07 (social session, pt.7) — PAGE-ART LAW: no words on page art; new profile + covers — Machine A `Dev`
+
+**Commit:** (this commit — social/ + this entry, by pathspec)
+
+Cameron rejected `Marketing-Launch-Kit/page-art/profile_1080.png` ("that slogan seems
+weird and intrusive... definently not htose creepy words" — the "stories of the God who
+sees you" card). **New PAGE-ART LAW written into CHANNEL-PLAN §2 same session: page art
+carries NO slogans or words.** Profile picture on every platform = the app's real icon
+(`social/page-art/profile-icon-1080.png`, from mobile/assets/icon.png — the hand reaching
+for the cloak hem). Cover = a wordless realistic frame from an APPROVED video:
+`social/page-art/cover-facebook.jpg` (Jesus teaching from the boat, row 24 Sower opening,
+1640×624) with `cover-facebook-alt-night.jpg` (row 85 shepherds/Bethlehem night) as the
+alternate. Old Marketing-Launch-Kit page-art references purged from the channel plan and
+playbook; the old files stay in place as history but are RETIRED for use.
+
 ## 2026-08-07 — C-FIX row 27 leaven PARKED NEEDS-AUDIO (generic audio complaint, out of runner scope), $0 — Machine A `Dev`
 
 **Commit:** (this commit — QC.md §0 + AUTHOR-BOARD row 27 + this entry, by pathspec)
