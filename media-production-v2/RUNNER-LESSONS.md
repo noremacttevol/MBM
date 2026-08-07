@@ -410,3 +410,21 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   track is rebuilt independently from the V1 timeline — AUDIO LOCK still PASSes. This
   also directly answers Cameron's recurring "excessive luxuries / wasting api money"
   theme: fewer pictures = fewer chances for drift, and the removal is $0.
+- **"the pictures aren't uniform — different boats / changing crew count / the
+  subject wanders" is an AUTHOR boat-lock REBUILD, NOT a runner reroll — PARK it
+  $0 (2026-08-06, row 11 storm).** A uniformity complaint (Cameron: "10 pictures of
+  4 people in one boat and 10 of 6 in a different boat … some don't have Jesus in the
+  boat at all") is NOT fixable by rerolling frames. Root cause is structural: the
+  boat and the crew are locked in PROSE only ("the same EIGHT men, same boat") with
+  NO reference IMAGE — so every Gemini generation invents a fresh hull and headcount,
+  exactly like a face with no REF drifts. Uniformity requires an author to (a)
+  generate ONE canonical boat plate, commit it as `PLACE-REF/BOAT.jpeg`, and wire a
+  `REF:` line into EVERY hull beat (editing beat content + the lock = HARD-RAIL
+  forbidden to the runner), and (b) regenerate ~25 frames (≫ the ≤15% reroll
+  budget). Rerolling WITHOUT a wired boat plate just mints 25 MORE different boats
+  and ships a cut that repeats the complaint = the worst failure. Correct runner
+  move: build a labelled contact sheet, confirm the defect, write a RUNNER PARK +
+  AUTHOR REBUILD SPEC in QC.md (boat-lock, EIGHT-man crew = crops never smaller
+  crews, subject position-lock, plus any single named-frame identity fix), flip
+  AUTHOR-BOARD State→NEEDS-REBUILD with Ready empty, $0. Same shape as the row-10
+  audio park: complaint real, but the fix lives one stage upstream.

@@ -1,3 +1,40 @@
+## 2026-08-06 (Opus 4.8, C-FIX headless lane) — row 11 storm complaint triaged → PARKED NEEDS-REBUILD (boat/crew not uniform = author boat-lock, $0, no pictures re-cut) — Machine A `Dev`
+
+**Commits:** 50437c9d8 (claim), + this park (QC.md RUNNER PARK + AUTHOR REBUILD SPEC, AUTHOR-BOARD State→NEEDS-REBUILD, RUNNER-LESSONS boat-lock lesson, SESSION-LOG).
+
+COMPLAINT-FIRST job: Cameron's OPEN complaint on the live row-11 cut (hash `fde28991…`,
+the v4 on the reviewer): *"too many pictures that are different then each other … 10
+pictures of 4 people in one kind of boat and 10 of 5 in a different boat and 10 of 6 in a
+different boat … some pictures dont have jesus in the boat at all and some have him in the
+front and some in the back … the one that says they wake him with rough hands has someone
+else jesus being woken … all the pictures are bad basically … check them for uniformity."*
+
+**Verified REAL — I built a labelled contact sheet of all 34 realistic stills and eyeballed
+them side by side. He is exactly right:** the hulls differ across s05/s06/s07/s08/s09/s10/
+s12/s13/s23/s25/s27; the full-company headcount swings 4→5→6→7, never a locked EIGHT; Jesus
+is absent from many boat frames and changes position (mid-boat s19, bow-ward s20/s25, stern
+s27); and s16 "rough hands" wakes a cream-robed bearded man who is NOT the locked Jesus.
+
+**PARKED, not shipped, $0 — the fix is out of runner scope.** Root cause is structural: the
+boat and the eight-man company are locked in PROSE ONLY in beats_v2.py — there is no boat
+reference image, no PLACE-REF/, no REF: boat line — so every Gemini generation invents a
+fresh hull and headcount (a face with no REF drifts the same way). Making the frames uniform
+requires an AUTHOR to (1) generate ONE canonical boat plate → `PLACE-REF/BOAT.jpeg` and wire
+a REF: line into every hull beat b04-b34 (editing beat content + the lock = hard-rail
+forbidden to the runner) and (2) regenerate ~25 frames — ~5× over the ≤15% reroll budget.
+Rerolling frames without a wired plate would only mint 25 MORE different boats and ship a cut
+that repeats the complaint = the worst failure this pipeline can produce. So I wrote a full
+AUTHOR REBUILD SPEC (boat-lock, EIGHT-man crew as crops-never-smaller-crews, Jesus
+position-lock stern-asleep/stern-standing, the s16 identity fix) into QC.md, flipped
+AUTHOR-BOARD row 11 State→NEEDS-REBUILD (Ready empty so the author picks it up before any
+runner touches it), and added a RUNNER-LESSONS entry so no future lane wastes credits trying
+to reroll a uniformity complaint. Same shape as the 2026-08-06 row-10 audio park: the
+complaint is real, but the fix lives one stage upstream. **Cost this session: $0.00, 0
+rerolls — honours the COST LAW; a doomed partial reroll would have cost ~$3 and shipped the
+complaint back to him.**
+
+---
+
 ## 2026-08-06 (Opus 4.8, C-FIX headless lane) — row 9 rich-ruler: beard restored @0:52 + removed "dumb/not needed" 1:14 picture; shipped + deployed + live-verified — Machine A `Dev`
 
 **Commits:** 3fc4387ba (claim), e4d3919adae63e960bdd5390b6df3104ebef5138 (re-cut: mp4 + QC + beats), + review.html/board/SESSION-LOG (this) + publish-loop.

@@ -2,6 +2,80 @@
 
 Final candidate: `mark-4_calming-the-storm-realistic-v4.mp4`
 
+---
+
+## 🅿️ RUNNER PARK — 2026-08-06 (Opus C-FIX lane, Machine A `Dev`) → NEEDS-REBUILD (boat-lock), $0
+
+**COMPLAINT-FIRST triage of Cameron's OPEN complaint on the live cut (hash
+`fde28991…`, the v4 on the reviewer). Complaint verified REAL, confirmed against
+every frame, and PARKED to the AUTHOR — it is out of runner scope. No pictures
+re-cut, $0 spent.**
+
+### COMPLAINT LEDGER (his words → what this cut must do)
+Cameron: *"too many pictures that are different then each other. like there are 10
+pictures of 4 people in one kind of boat and 10 pictures of 5 people in a different
+kind of boat and 10 pictures of 6 people in a different kind of boat. every picture
+needs to be uniform because some pictures dont have jesus in the boat at all and some
+have him in the front and some have him in the back. also the one that says they wake
+him with rough hands has someone else jesus being woken with rough hands so all the
+pictures are bad basically we need to have you check them for uniformity."*
+
+I built a labelled contact sheet of all 34 realistic stills and eyeballed them
+side by side. **The complaint is 100% correct:**
+- **Different boats.** s05/s06/s07/s08/s09/s10/s12/s13/s23/s25/s27 are visibly
+  DIFFERENT hulls — different sheer line, different bow, different mast/rigging,
+  some with a raised stern platform and some without. It is not one boat.
+- **Changing crew count.** Full-company frames range from ~4 (s12) to ~5 (s07)
+  to ~6 (s10/s13/s18/s23) to ~7 (s27) men — never a locked EIGHT. Tighter frames
+  (s06 two men, s08 two men) read as a smaller crew in an emptier boat, not as a
+  crop of the same eight.
+- **Jesus wanders / vanishes.** He is absent from many boat frames, asleep in the
+  stern in s14, but the men's positions and the boat around him change every shot;
+  when he stands he is variously mid-boat (s19), bow-ward (s20/s25), or stern (s27).
+- **s16 "rough hands" (his named example).** The reclining figure being shaken is a
+  cream-robed bearded man who does NOT match the locked JESUS face — "someone else
+  jesus being woken," exactly as he said.
+
+### WHY THE RUNNER CANNOT FIX THIS (out of scope, not a targeted reroll)
+The root cause is structural: **there is NO boat reference image and NO crew plate
+in this build.** `beats_v2.py` locks the boat and the eight-man company in PROSE
+only ("EARLY-BOAT-COMPANY LOCK … the same EIGHT men"). Prose cannot enforce a hull
+— every Gemini generation invents a fresh boat and a fresh headcount, which is
+precisely the defect. There is no `PLACE-REF/`, no `PLACE-WIRING.json`, no `REF:`
+boat line. Making the frames uniform therefore requires:
+1. Generating ONE canonical boat plate and wiring it as a `REF:` line into every
+   whole-boat beat (b04–b34) — an EDIT to beat content and the lock, which the
+   runner is hard-rail forbidden to make.
+2. Regenerating ~25 boat frames against that new lock — ~5× over the ≤15% reroll
+   budget (5 of 34). Rerolling WITHOUT a wired plate would only mint 25 more
+   different boats and ship a cut that repeats the complaint (the worst failure).
+So this is an AUTHOR rebuild, exactly as this QC.md's own "BOAT BOARD" gate below
+already anticipated. Runner parks it, spends $0, hands it forward.
+
+### AUTHOR REBUILD SPEC (do this, then set AUTHOR-BOARD row 11 Ready ✅)
+1. **BOAT-LOCK.** Generate ONE canonical Galilean fishing boat (single mast + one
+   furled sail, a raised stern platform with the steersman's cushion, a defined
+   plank/sheer pattern and gunwale line, fixed oar stations). Commit it as
+   `build-11-storm/PLACE-REF/BOAT.jpeg` and wire a `REF:` line pulling it into
+   EVERY beat that shows the hull. Treat the boat like a locked face.
+2. **CREW-LOCK = EIGHT, always.** Any whole-company frame shows the SAME EIGHT
+   (Jesus + Peter, Andrew, James, John, Matthew + the two unnamed followers) with
+   their canonical CHARACTER refs attached. A tighter shot must read as a CROP of
+   that boat — bodies exiting the frame edges — never a smaller crew in an emptier
+   boat. No frame the narration places Jesus aboard may omit him.
+3. **JESUS POSITION-LOCK.** Asleep on the stern cushion for the whole storm
+   (b14–b18); standing IN THE STERN when he rebukes the wind (b19–b21); back
+   with them in the stern after (b25–b29). Never bow-ward, never mid-boat, never
+   absent when he is aboard.
+4. **s16 fix (his named frame).** The woken man MUST be the locked Jesus
+   (`JESUS-MASTER-REF/jesus-face.jpeg` attached) reclining on the stern cushion,
+   the crew's rough hands on HIS shoulder — not a second bearded cream figure.
+5. Re-cut all boat beats against the locked boat+crew, re-assemble (AUDIO LOCK
+   must stay byte-identical — audio untouched), ship + deploy.
+
+**Nothing was regenerated this session. Budget spend: $0.00. Reroll %: 0.**
+
+
 ## Why V4 exists — Cameron DENIED V3 (board sync 2026-08-01), four complaints
 
 1. **"The first picture is messed up… it was fine before."** V3's s01 buried
