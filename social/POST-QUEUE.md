@@ -42,6 +42,7 @@ app line. That's it.
 ### Row 01 — The Woman Who Touched His Cloak
 **Mark 5:25–34 (KJV) · 1:49 · fits all four**
 File `exports/row-001-woman-who-touched-his-cloak.mp4` · Cover `covers/row-001.jpg`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-001.jpg` · **TikTok/IG cover** `thumbs/vertical/row-001.jpg`
 **YouTube title:** The Woman Who Touched His Cloak — who touched me? (Mark 5, KJV)
 **Caption:**
 Twelve years sick. Every penny spent on physicians, and nothing bettered. She never asked for anything — she came behind him in the crowd and touched the hem of his garment. And he stopped, and turned, and called her daughter.
@@ -52,6 +53,7 @@ Mark 5:25–34, word for word from the KJV. From the Milk Before Meat app — li
 ### Row 02 — The Prodigal Son
 **Luke 15:11–32 (KJV) · 2:38 · fits all four**
 File `exports/row-002-the-prodigal-son.mp4` · Cover `covers/row-002.jpg` · Cut `9a7ae96a2c36`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-002.jpg` · **TikTok/IG cover** `thumbs/vertical/row-002.jpg`
 **YouTube title:** The Prodigal Son — his father saw him a great way off, and ran (Luke 15, KJV)
 **Caption:**
 He asked for his inheritance while his father was still alive, and lost all of it far from home. He walked back rehearsing an apology he never got to finish — his father saw him a great way off, and ran.
@@ -62,6 +64,7 @@ Luke 15:11–32, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 03 — Zacchaeus
 **Luke 19:1–10 (KJV) · 3:42 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-003-zacchaeus.mp4` · Cover `covers/row-003.jpg` · Cut `39c19f7e284a`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-003.jpg` · **TikTok/IG cover** `thumbs/vertical/row-003.jpg`
 **YouTube title:** Zacchaeus — the man who climbed a tree to see Jesus (Luke 19, KJV)
 **Caption:**
 The whole city had already decided what Zacchaeus was. Small, rich, and hated, he climbed a tree just to see Jesus pass — and Jesus stopped under that tree, called him by name, and went to his house.
@@ -72,6 +75,7 @@ Luke 19:1–10, word for word from the KJV. From the Milk Before Meat app — li
 ### Row 04 — Nicodemus at Night
 **John 3:1–21 (KJV) · 5:07 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-004-nicodemus-at-night.mp4` · Cover `covers/row-004.jpg` · Cut `09e98cefd50e`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-004.jpg` · **TikTok/IG cover** `thumbs/vertical/row-004.jpg`
 **YouTube title:** Nicodemus at Night — the question he couldn't ask in daylight (John 3, KJV)
 **Caption:**
 A ruler of the Jews came to Jesus by night, with questions he couldn't ask in daylight. He walked away with the words the world still repeats: God so loved the world, that he gave his only begotten Son.
@@ -82,6 +86,7 @@ John 3:1–21, word for word from the KJV. From the Milk Before Meat app — lin
 ### Row 05 — The Bent-Over Woman
 **Luke 13:10–17 (KJV) · 4:08 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-005-the-bent-over-woman.mp4` · Cover `covers/row-005.jpg` · Cut `93738754368d`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-005.jpg` · **TikTok/IG cover** `thumbs/vertical/row-005.jpg`
 **YouTube title:** The Bent-Over Woman — eighteen years, and then he called her (Luke 13, KJV)
 **Caption:**
 Eighteen years bowed toward the ground, and she still came to worship. Jesus saw her in the crowd, called her to him, and said: Woman, thou art loosed. She stood up straight and glorified God.
@@ -92,6 +97,7 @@ Luke 13:10–17, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 06 — The Two Sons
 **Matthew 21:28–32 (KJV) · 2:06 · fits all four**
 File `exports/row-006-the-two-sons.mp4` · Cover `covers/row-006.jpg` · Cut `c660e5deeb7e`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-006.jpg` · **TikTok/IG cover** `thumbs/vertical/row-006.jpg`
 **YouTube title:** The Two Sons — one said no and went. One said yes and didn't. (Matthew 21, KJV)
 **Caption:**
 A father asked his two sons to work in the vineyard. One said no — and afterward repented, and went. The other said, I go, sir — and went not.
@@ -102,6 +108,7 @@ Matthew 21:28–32, word for word from the KJV. From the Milk Before Meat app �
 ### Row 07 — Peter Walks on Water
 **Matthew 14:22–33 (KJV) · 3:46 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-007-peter-walks-on-water.mp4` · Cover `covers/row-007.jpg` · Cut `2b807e85b68a`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-007.jpg` · **TikTok/IG cover** `thumbs/vertical/row-007.jpg`
 **YouTube title:** Peter Walks on Water — bid me come unto thee (Matthew 14, KJV)
 **Caption:**
 In the fourth watch of the night, in the middle of a storm, Peter said: Lord, if it be thou, bid me come unto thee on the water. And he walked — until he saw the wind, and began to sink. Immediately Jesus stretched forth his hand and caught him.
@@ -112,6 +119,7 @@ Matthew 14:22–33, word for word from the KJV. From the Milk Before Meat app �
 ### Row 08 — The Lost Coin
 **Luke 15:8–10 (KJV) · 1:09 · fits all four**
 File `exports/row-008-the-lost-coin.mp4` · Cover `covers/row-008.jpg` · Cut `5bcb2b44f69c`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-008.jpg` · **TikTok/IG cover** `thumbs/vertical/row-008.jpg`
 **YouTube title:** The Lost Coin — she lit a candle and swept the house (Luke 15, KJV)
 **Caption:**
 One coin out of ten went missing. She lit a candle, swept the house, and sought diligently till she found it — and Jesus said heaven rejoices like that over one person who turns around.
@@ -122,6 +130,7 @@ Luke 15:8–10, word for word from the KJV. From the Milk Before Meat app — li
 ### Row 09 — The Rich Young Ruler
 **Mark 10:17–22 (KJV) · 3:17 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-009-the-rich-young-ruler.mp4` · Cover `covers/row-009.jpg`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-009.jpg` · **TikTok/IG cover** `thumbs/vertical/row-009.jpg`
 **YouTube title:** The Rich Young Ruler — he went away grieved (Mark 10, KJV)
 **Caption:**
 He came running, knelt, and asked what he must do to inherit eternal life — a good man, keeping the commandments since his youth. Then Jesus beholding him loved him, and named the one thing he lacked. And he went away grieved: for he had great possessions.
@@ -132,6 +141,7 @@ Mark 10:17–22, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 12 — Blind Bartimaeus
 **Mark 10:46–52 (KJV) · 4:27 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-012-blind-bartimaeus.mp4` · Cover `covers/row-012.jpg` · Cut `5931c321fa44`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-012.jpg` · **TikTok/IG cover** `thumbs/vertical/row-012.jpg`
 **YouTube title:** Blind Bartimaeus — the beggar the crowd tried to quiet (Mark 10, KJV)
 **Caption:**
 A blind beggar heard Jesus was passing and cried out. The crowd told him to hold his peace — he cried the more a great deal. And Jesus stood still, and asked him one question: What wilt thou that I should do unto thee?
@@ -142,6 +152,7 @@ Mark 10:46–52, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 14 — The Ten Lepers
 **Luke 17:11–19 (KJV) · 3:39 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-014-the-ten-lepers.mp4` · Cover `covers/row-014.jpg` · Cut `cd69c4500b30`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-014.jpg` · **TikTok/IG cover** `thumbs/vertical/row-014.jpg`
 **YouTube title:** The Ten Lepers — ten were healed. One came back. (Luke 17, KJV)
 **Caption:**
 Ten men with leprosy stood afar off and lifted up their voices. All ten were cleansed as they went. One of them, when he saw that he was healed, turned back — and fell down at Jesus' feet, giving him thanks.
@@ -152,6 +163,7 @@ Luke 17:11–19, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 20 — The Good Samaritan
 **Luke 10:25–37 (KJV) · 3:07 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-020-the-good-samaritan.mp4` · Cover `covers/row-020.jpg` · Cut `ae1a417e2096`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-020.jpg` · **TikTok/IG cover** `thumbs/vertical/row-020.jpg`
 **YouTube title:** The Good Samaritan — the man who came where he was (Luke 10, KJV)
 **Caption:**
 A man lay half dead on the road to Jericho. A priest saw him and passed by on the other side. A Levite did the same. Then a Samaritan — the one nobody expected — came where he was, and had compassion on him.
@@ -162,6 +174,7 @@ Luke 10:25–37, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 21 — The Lost Sheep
 **Luke 15:3–7 (KJV) · 2:14 · fits all four**
 File `exports/row-021-the-lost-sheep.mp4` · Cover `covers/row-021.jpg` · Cut `a57264ac0eac`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-021.jpg` · **TikTok/IG cover** `thumbs/vertical/row-021.jpg`
 **YouTube title:** The Lost Sheep — he left the ninety-nine for the one (Luke 15, KJV)
 **Caption:**
 Ninety-nine sheep safe, one gone. The shepherd leaves the ninety-nine in the wilderness and goes after the one that is lost, until he finds it — and carries it home on his shoulders, rejoicing.
@@ -172,6 +185,7 @@ Luke 15:3–7, word for word from the KJV. From the Milk Before Meat app — lin
 ### Row 23 — The Workers in the Vineyard
 **Matthew 20:1–16 (KJV) · 3:23 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-023-the-workers-in-the-vineyard.mp4` · Cover `covers/row-023.jpg` · Cut `35c29eba6829`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-023.jpg` · **TikTok/IG cover** `thumbs/vertical/row-023.jpg`
 **YouTube title:** The Workers in the Vineyard — the eleventh hour got a full day's pay (Matthew 20, KJV)
 **Caption:**
 Some were hired at sunrise, some at the eleventh hour — and the master paid them all the same. When the first complained, he answered: Is thine eye evil, because I am good?
@@ -182,6 +196,7 @@ Matthew 20:1–16, word for word from the KJV. From the Milk Before Meat app —
 ### Row 24 — The Sower
 **Matthew 13:3–23 (KJV) · 2:48 · fits all four**
 File `exports/row-024-the-sower.mp4` · Cover `covers/row-024.jpg` · Cut `f3fc5125c199`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-024.jpg` · **TikTok/IG cover** `thumbs/vertical/row-024.jpg`
 **YouTube title:** The Sower — four grounds, one seed (Matthew 13, KJV)
 **Caption:**
 The same seed fell on four kinds of ground: the wayside, the stony places, among thorns, and on good ground. Only one of them brought forth fruit — the difference was never the seed.
@@ -192,6 +207,7 @@ Matthew 13:3–23, word for word from the KJV. From the Milk Before Meat app —
 ### Row 25 — The Wheat and the Tares
 **Matthew 13:24–30, 43 (KJV) · 2:47 · fits all four**
 File `exports/row-025-the-wheat-and-the-tares.mp4` · Cover `covers/row-025.jpg` · Cut `98e2604ad2a9`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-025.jpg` · **TikTok/IG cover** `thumbs/vertical/row-025.jpg`
 **YouTube title:** The Wheat and the Tares — let both grow together until the harvest (Matthew 13, KJV)
 **Caption:**
 While men slept, an enemy sowed tares among the wheat. The servants wanted to pull them up at once — but the master said no, lest the wheat be rooted up with them. Let both grow together until the harvest.
@@ -202,6 +218,7 @@ Matthew 13:24–30, word for word from the KJV. From the Milk Before Meat app �
 ### Row 26 — The Mustard Seed
 **Matthew 13:31–32 (KJV) · 1:27 · fits all four**
 File `exports/row-026-the-mustard-seed.mp4` · Cover `covers/row-026.jpg` · Cut `5cd6564105a4`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-026.jpg` · **TikTok/IG cover** `thumbs/vertical/row-026.jpg`
 **YouTube title:** The Mustard Seed — the least of all seeds (Matthew 13, KJV)
 **Caption:**
 The kingdom of heaven, Jesus said, is like a grain of mustard seed — the least of all seeds. But when it is grown, it becomes a tree, and the birds of the air come and lodge in its branches.
@@ -212,6 +229,7 @@ Matthew 13:31–32, word for word from the KJV. From the Milk Before Meat app �
 ### Row 28 — The Hidden Treasure
 **Matthew 13:44 (KJV) · 1:39 · fits all four**
 File `exports/row-028-the-hidden-treasure.mp4` · Cover `covers/row-028.jpg` · Cut `42b855efe508`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-028.jpg` · **TikTok/IG cover** `thumbs/vertical/row-028.jpg`
 **YouTube title:** The Hidden Treasure — for joy he sold all he had (Matthew 13, KJV)
 **Caption:**
 A man found treasure hidden in a field — and for joy over it, he went and sold everything he had, and bought that field. One verse. The whole trade was joy.
@@ -222,6 +240,7 @@ Matthew 13:44, word for word from the KJV. From the Milk Before Meat app — lin
 ### Row 29 — The Pearl of Great Price
 **Matthew 13:45–46 (KJV) · 1:56 · fits all four**
 File `exports/row-029-the-pearl-of-great-price.mp4` · Cover `covers/row-029.jpg` · Cut `77e1bcfa0345`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-029.jpg` · **TikTok/IG cover** `thumbs/vertical/row-029.jpg`
 **YouTube title:** The Pearl of Great Price — he was searching all along (Matthew 13, KJV)
 **Caption:**
 The merchant wasn't wandering — he was seeking goodly pearls, his whole life. When he found the one of great price, he went and sold all that he had, and bought it.
@@ -232,6 +251,7 @@ Matthew 13:45–46, word for word from the KJV. From the Milk Before Meat app �
 ### Row 30 — The Net
 **Matthew 13:47–50 (KJV) · 2:35 · fits all four**
 File `exports/row-030-the-net.mp4` · Cover `covers/row-030.jpg` · Cut `fa61edcfae3b`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-030.jpg` · **TikTok/IG cover** `thumbs/vertical/row-030.jpg`
 **YouTube title:** The Net — it gathered of every kind (Matthew 13, KJV)
 **Caption:**
 The net was cast into the sea and gathered of every kind — none of them sorted themselves. The sorting came later, on the shore, and it wasn't the fish who did it.
@@ -242,6 +262,7 @@ Matthew 13:47–50, word for word from the KJV. From the Milk Before Meat app �
 ### Row 32 — The Talents
 **Matthew 25:14–30 (KJV) · 2:37 · fits all four**
 File `exports/row-032-the-talents.mp4` · Cover `covers/row-032.jpg` · Cut `986c3202b291`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-032.jpg` · **TikTok/IG cover** `thumbs/vertical/row-032.jpg`
 **YouTube title:** The Talents — the servant who buried his (Matthew 25, KJV)
 **Caption:**
 Five talents, two talents, one. The first two traded and doubled what they were given. The last was afraid — and went and hid his lord's money in the earth.
@@ -252,6 +273,7 @@ Matthew 25:14–30, word for word from the KJV. From the Milk Before Meat app �
 ### Row 34 — The Rich Fool
 **Luke 12:16–21 (KJV) · 2:08 · fits all four**
 File `exports/row-034-the-rich-fool.mp4` · Cover `covers/row-034.jpg` · Cut `0691078c3c12`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-034.jpg` · **TikTok/IG cover** `thumbs/vertical/row-034.jpg`
 **YouTube title:** The Rich Fool — this night thy soul shall be required (Luke 12, KJV)
 **Caption:**
 His ground brought forth plentifully, so he planned bigger barns and told his soul: take thine ease, eat, drink, and be merry. God said: Thou fool, this night thy soul shall be required of thee.
@@ -262,6 +284,7 @@ Luke 12:16–21, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 35 — The Great Banquet
 **Luke 14:16–24 (KJV) · 2:22 · fits all four**
 File `exports/row-035-the-great-banquet.mp4` · Cover `covers/row-035.jpg` · Cut `c34f72cc0151`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-035.jpg` · **TikTok/IG cover** `thumbs/vertical/row-035.jpg`
 **YouTube title:** The Great Banquet — yet there is room (Luke 14, KJV)
 **Caption:**
 A certain man made a great supper and bade many — and they all with one consent began to make excuse. So he sent his servant into the streets and lanes, to the poor, the maimed, the halt, and the blind. And still the servant said: yet there is room.
@@ -272,6 +295,7 @@ Luke 14:16–24, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 36 — The Shrewd Steward
 **Luke 16:1–13 (KJV) · 3:11 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-036-the-shrewd-steward.mp4` · Cover `covers/row-036.jpg` · Cut `1f9fc6e37204`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-036.jpg` · **TikTok/IG cover** `thumbs/vertical/row-036.jpg`
 **YouTube title:** The Shrewd Steward — ye cannot serve God and mammon (Luke 16, KJV)
 **Caption:**
 A steward about to lose everything moved faster and thought harder in one afternoon than he ever had for his master. Jesus ended the story with a line that doesn't blink: Ye cannot serve God and mammon.
@@ -282,6 +306,7 @@ Luke 16:1–13, word for word from the KJV. From the Milk Before Meat app — li
 ### Row 37 — The Rich Man and Lazarus
 **Luke 16:19–31 (KJV) · 2:45 · fits all four**
 File `exports/row-037-the-rich-man-and-lazarus.mp4` · Cover `covers/row-037.jpg` · Cut `e8560ad7f757`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-037.jpg` · **TikTok/IG cover** `thumbs/vertical/row-037.jpg`
 **YouTube title:** The Rich Man and Lazarus — the beggar at his gate (Luke 16, KJV)
 **Caption:**
 A beggar named Lazarus lay at the rich man's gate, full of sores, desiring the crumbs from his table. The rich man passed him every day — and learned his name only when it was too late to cross the gulf between them.
@@ -292,6 +317,7 @@ Luke 16:19–31, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 38 — The Persistent Widow
 **Luke 18:1–8 (KJV) · 3:00 · fits all four**
 File `exports/row-038-the-persistent-widow.mp4` · Cover `covers/row-038.jpg` · Cut `cec250ed0e13`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-038.jpg` · **TikTok/IG cover** `thumbs/vertical/row-038.jpg`
 **YouTube title:** The Persistent Widow — she would not stop knocking (Luke 18, KJV)
 **Caption:**
 A judge who feared not God and regarded not man — worn down by one widow who kept coming. Jesus told this story, the scripture says, so that men ought always to pray, and not to faint.
@@ -302,6 +328,7 @@ Luke 18:1–8, word for word from the KJV. From the Milk Before Meat app — lin
 ### Row 41 — Counting the Cost
 **Luke 14:25–33 (KJV) · 5:46 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-041-counting-the-cost.mp4` · Cover `covers/row-041.jpg` · Cut `9e4e7bcdd6aa`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-041.jpg` · **TikTok/IG cover** `thumbs/vertical/row-041.jpg`
 **YouTube title:** Counting the Cost — sit down first and count (Luke 14, KJV)
 **Caption:**
 Great multitudes followed him — and he turned and told them to sit down first and count the cost, like a man building a tower, like a king weighing a war. He never made it sound easier than it is.
@@ -312,6 +339,7 @@ Luke 14:25–33, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 43 — The Wedding Garment
 **Matthew 22:1–14 (KJV) · 4:45 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-043-the-wedding-garment.mp4` · Cover `covers/row-043.jpg` · Cut `be3d0654cef0`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-043.jpg` · **TikTok/IG cover** `thumbs/vertical/row-043.jpg`
 **YouTube title:** The Wedding Garment — the king's invitation went to everyone (Matthew 22, KJV)
 **Caption:**
 The invited guests wouldn't come to the king's wedding feast, so his servants went out into the highways and gathered all they found — both bad and good. The door was thrown open wide. The garment still mattered.
@@ -322,6 +350,7 @@ Matthew 22:1–14, word for word from the KJV. From the Milk Before Meat app —
 ### Row 46 — The Seed Growing Secretly
 **Mark 4:26–29 (KJV) · 3:13 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-046-the-seed-growing-secretly.mp4` · Cover `covers/row-046.jpg` · Cut `5d7e9c7659d6`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-046.jpg` · **TikTok/IG cover** `thumbs/vertical/row-046.jpg`
 **YouTube title:** The Seed Growing Secretly — he knoweth not how (Mark 4, KJV)
 **Caption:**
 A man casts seed into the ground, and sleeps, and rises, night and day — and the seed springs and grows up, he knoweth not how. First the blade, then the ear, then the full corn in the ear.
@@ -332,6 +361,7 @@ Mark 4:26–29, word for word from the KJV. From the Milk Before Meat app — li
 ### Row 47 — Houses on Rock and Sand
 **Matthew 7:24–27 (KJV) · 3:41 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-047-houses-on-rock-and-sand.mp4` · Cover `covers/row-047.jpg` · Cut `d59f573acc3d`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-047.jpg` · **TikTok/IG cover** `thumbs/vertical/row-047.jpg`
 **YouTube title:** Houses on Rock and Sand — the same storm hit both (Matthew 7, KJV)
 **Caption:**
 Two men built houses. The rain descended, the floods came, and the winds blew and beat upon both of them — the same storm. Only one house fell, and it wasn't the storm that decided which.
@@ -342,6 +372,7 @@ Matthew 7:24–27, word for word from the KJV. From the Milk Before Meat app —
 ### Row 53 — Peter's Mother-in-Law
 **Mark 1:29–31 (KJV) · 1:41 · fits all four**
 File `exports/row-053-peter-s-mother-in-law.mp4` · Cover `covers/row-053.jpg` · Cut `10b16ed5cdcc`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-053.jpg` · **TikTok/IG cover** `thumbs/vertical/row-053.jpg`
 **YouTube title:** Peter's Mother-in-Law — he took her by the hand (Mark 1, KJV)
 **Caption:**
 No crowd, no sermon, no spectacle. She lay sick of a fever, they told Jesus of her, and he came and took her by the hand, and lifted her up — and she ministered unto them.
@@ -352,6 +383,7 @@ Mark 1:29–31, word for word from the KJV. From the Milk Before Meat app — li
 ### Row 56 — The Widow of Nain's Son
 **Luke 7:11–17 (KJV) · 2:20 · fits all four**
 File `exports/row-056-the-widow-of-nain-s-son.mp4` · Cover `covers/row-056.jpg` · Cut `f35cbaf7b5d2`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-056.jpg` · **TikTok/IG cover** `thumbs/vertical/row-056.jpg`
 **YouTube title:** The Widow of Nain — he stopped the funeral (Luke 7, KJV)
 **Caption:**
 A widow was burying her only son. She asked Jesus for nothing — she never even spoke. When the Lord saw her, he had compassion on her, and said unto her, Weep not. Then he stopped the funeral.
@@ -362,6 +394,7 @@ Luke 7:11–17, word for word from the KJV. From the Milk Before Meat app — li
 ### Row 57 — Jairus's Daughter
 **Mark 5:22–24, 35–43 (KJV) · 2:55 · fits all four**
 File `exports/row-057-jairus-s-daughter.mp4` · Cover `covers/row-057.jpg` · Cut `648346978661`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-057.jpg` · **TikTok/IG cover** `thumbs/vertical/row-057.jpg`
 **YouTube title:** Jairus's Daughter — be not afraid, only believe (Mark 5, KJV)
 **Caption:**
 While Jairus was still pleading for his little daughter, word came that she was dead — why trouble the Master any further? Jesus heard it, turned to the father, and said: Be not afraid, only believe.
@@ -372,6 +405,7 @@ Mark 5:22–24, 35–43, word for word from the KJV. From the Milk Before Meat a
 ### Row 58 — Feeding the Five Thousand
 **John 6:1–14 (KJV) · 2:44 · fits all four**
 File `exports/row-058-feeding-the-five-thousand.mp4` · Cover `covers/row-058.jpg` · Cut `8ccfb6257983`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-058.jpg` · **TikTok/IG cover** `thumbs/vertical/row-058.jpg`
 **YouTube title:** Feeding the Five Thousand — five loaves, two small fishes (John 6, KJV)
 **Caption:**
 Five thousand hungry people, and one lad with five barley loaves and two small fishes. Andrew asked the honest question: but what are they among so many? Twelve baskets of leftovers answered him.
@@ -382,6 +416,7 @@ John 6:1–14, word for word from the KJV. From the Milk Before Meat app — lin
 ### Row 64 — The Pool of Bethesda
 **John 5:1–15 (KJV) · 4:01 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-064-the-pool-of-bethesda.mp4` · Cover `covers/row-064.jpg` · Cut `03b9449160a6`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-064.jpg` · **TikTok/IG cover** `thumbs/vertical/row-064.jpg`
 **YouTube title:** The Pool of Bethesda — thirty-eight years by the water (John 5, KJV)
 **Caption:**
 Thirty-eight years an invalid, lying by a pool he could never reach in time. Jesus asked him a question that sounds obvious: Wilt thou be made whole? The man answered with his reason — I have no man to put me in.
@@ -392,6 +427,7 @@ John 5:1–15, word for word from the KJV. From the Milk Before Meat app — lin
 ### Row 68 — Multitudes Mountain
 **Matthew 15:29–31 (KJV) · 3:27 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-068-multitudes-mountain.mp4` · Cover `covers/row-068.jpg` · Cut `c5713f27b0c7`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-068.jpg` · **TikTok/IG cover** `thumbs/vertical/row-068.jpg`
 **YouTube title:** The Multitudes on the Mountain — they laid them at his feet (Matthew 15, KJV)
 **Caption:**
 Great multitudes climbed a mountain carrying the people who couldn't climb it — the lame, the blind, the dumb, the maimed — and cast them down at Jesus' feet. And he healed them, and they glorified the God of Israel.
@@ -402,6 +438,7 @@ Matthew 15:29–31, word for word from the KJV. From the Milk Before Meat app �
 ### Row 75 — The Woman Taken in Adultery
 **John 8:1–11 (KJV) · 2:06 · fits all four**
 File `exports/row-075-the-woman-taken-in-adultery.mp4` · Cover `covers/row-075.jpg` · Cut `6a0db67bf823`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-075.jpg` · **TikTok/IG cover** `thumbs/vertical/row-075.jpg`
 **YouTube title:** The Woman Taken in Adultery — neither do I condemn thee (John 8, KJV)
 **Caption:**
 They set her in the midst with the stones already gathered, and asked Jesus for a verdict. He stooped down and wrote on the ground, then said: He that is without sin among you, let him first cast a stone. When they had all gone, he told her: Neither do I condemn thee.
@@ -412,6 +449,7 @@ John 8:1–11, word for word from the KJV. From the Milk Before Meat app — lin
 ### Row 76 — Suffer the Little Children
 **Mark 10:13–16 (KJV) · 1:28 · fits all four**
 File `exports/row-076-suffer-the-little-children.mp4` · Cover `covers/row-076.jpg` · Cut `9c9e91834a4e`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-076.jpg` · **TikTok/IG cover** `thumbs/vertical/row-076.jpg`
 **YouTube title:** Suffer the Little Children — he took them up in his arms (Mark 10, KJV)
 **Caption:**
 Parents brought their children to Jesus, and the disciples rebuked them for it. Jesus was much displeased: Suffer the little children to come unto me, and forbid them not. And he took them up in his arms, and blessed them.
@@ -422,6 +460,7 @@ Mark 10:13–16, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 79 — The Seventy Sent
 **Luke 10:1–20 (KJV) · 1:58 · fits all four**
 File `exports/row-079-the-seventy-sent.mp4` · Cover `covers/row-079.jpg` · Cut `44999b1750c8`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-079.jpg` · **TikTok/IG cover** `thumbs/vertical/row-079.jpg`
 **YouTube title:** The Seventy Sent — he sent them out with nothing (Luke 10, KJV)
 **Caption:**
 He sent seventy of them out two by two — no purse, no scrip, no shoes — into every city he himself would visit. They came back with joy, and he pointed their joy somewhere sturdier: rejoice, because your names are written in heaven.
@@ -432,6 +471,7 @@ Luke 10:1–20, word for word from the KJV. From the Milk Before Meat app — li
 ### Row 81 — Render Unto Caesar
 **Mark 12:13–17 (KJV) · 1:40 · fits all four**
 File `exports/row-081-render-unto-caesar.mp4` · Cover `covers/row-081.jpg` · Cut `b61d7fc5d975`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-081.jpg` · **TikTok/IG cover** `thumbs/vertical/row-081.jpg`
 **YouTube title:** Render Unto Caesar — whose image is on the coin? (Mark 12, KJV)
 **Caption:**
 They came with a trap: is it lawful to give tribute to Caesar, or not? He asked for a penny and one question — Whose is this image? Then: Render to Caesar the things that are Caesar's, and to God the things that are God's.
@@ -442,6 +482,7 @@ Mark 12:13–17, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 85 — Shepherds and Angels
 **Luke 2:8–20 (KJV) · 2:26 · fits all four**
 File `exports/row-085-shepherds-and-angels.mp4` · Cover `covers/row-085.jpg` · Cut `3d9a60354108`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-085.jpg` · **TikTok/IG cover** `thumbs/vertical/row-085.jpg`
 **YouTube title:** Shepherds and Angels — good tidings of great joy (Luke 2, KJV)
 **Caption:**
 The first birth announcement in history that mattered most went to shepherds on a night shift — sore afraid, keeping watch over their flock. Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people.
@@ -452,6 +493,7 @@ Luke 2:8–20, word for word from the KJV. From the Milk Before Meat app — lin
 ### Row 91 — Gethsemane
 **Luke 22:39–46 (KJV) · 4:01 · YouTube (regular) + TikTok + Facebook — skip Instagram**
 File `exports/row-091-gethsemane.mp4` · Cover `covers/row-091.jpg` · Cut `24cbe5d7e61e`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-091.jpg` · **TikTok/IG cover** `thumbs/vertical/row-091.jpg`
 **YouTube title:** Gethsemane — not my will, but thine (Luke 22, KJV)
 **Caption:**
 He knelt among the olive trees and asked for the cup to pass — and still finished the prayer: nevertheless not my will, but thine, be done. An angel came to strengthen him. His sweat fell as it were great drops of blood.
@@ -462,6 +504,7 @@ Luke 22:39–46, word for word from the KJV. From the Milk Before Meat app — l
 ### Row 101 — The Still Small Voice
 **1 Kings 19:1–18 (KJV) · 2:53 · fits all four**
 File `exports/row-101-the-still-small-voice.mp4` · Cover `covers/row-101.jpg` · Cut `3a3594baa64d`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-101.jpg` · **TikTok/IG cover** `thumbs/vertical/row-101.jpg`
 **YouTube title:** The Still Small Voice — the LORD was not in the wind (1 Kings 19, KJV)
 **Caption:**
 Elijah sat under a juniper tree and asked to die. Then came a great wind, an earthquake, a fire — and the LORD was not in any of them. After the fire: a still small voice, asking, What doest thou here, Elijah?
@@ -472,6 +515,7 @@ When has God been quieter than you expected — and closer?
 ### Row 114 — Abraham Pleads for Sodom
 **Genesis 18:16–33 (KJV) · 2:23 · fits all four**
 File `exports/row-114-abraham-pleads-for-sodom.mp4` · Cover `covers/row-114.jpg`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-114.jpg` · **TikTok/IG cover** `thumbs/vertical/row-114.jpg`
 **YouTube title:** Abraham Pleads for Sodom — shall not the Judge of all the earth do right? (Genesis 18, KJV)
 **Caption:**
 Abraham stood before the LORD and dared to bargain for a city. Fifty righteous? Forty-five? Thirty? Twenty? Ten? Each time he lowered the number, the answer was mercy: I will not destroy it for ten's sake.

@@ -1,3 +1,16 @@
+## 2026-08-07 (social session, pt.6) — thumbnail file locations wired into the publishing guide — Machine A `Dev`
+
+**Commit:** (this commit — social/ + this entry, by pathspec)
+
+Cameron: thumbnails for all videos + their file location "in the place where it tells me
+what to upload." Every publishable video (all 44) already had both thumbnails; now the
+guides name the exact files at the upload step: YOUTUBE-UPLOAD-SHEET regenerated with an
+**UPLOAD THESE** box per entry (video file + `thumbs/yt/` thumbnail with an honest
+Shorts-vs-regular note + the `thumbs/vertical/` TikTok/IG cover), and each POST-QUEUE
+entry now carries an "Upload with it →" line naming both thumbnail files. Unapproved rows
+deliberately get NO pre-made thumbnails (their cuts change on rebuild; art isn't approved)
+— each new approval generates its own automatically via refresh → make-thumbnails.
+
 ## 2026-08-07 — C-FIX row 18 emmaus PARKED NEEDS-AUDIO (AUDIO-pronunciation, out of runner scope), $0 — Machine A `Dev`
 
 **Commit:** (this commit — QC.md §0 + AUTHOR-BOARD row 18 + this entry, by pathspec)

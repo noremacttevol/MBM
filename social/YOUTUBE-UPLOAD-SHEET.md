@@ -1,18 +1,27 @@
-# YOUTUBE UPLOAD SHEET — all 44 approved videos, ready to paste
+# YOUTUBE UPLOAD SHEET — every approved video, ready to paste
 
 > **Order = row number, lowest first (01, 02, 03…).** The numbers are the posting
-> order only — they never go in a title. Work top to bottom. For each video: pick the
-> **File**, paste the **Title**, paste the whole **Description**, paste the **Tags**
-> line into the tags field (YouTube Studio → Show more → Tags). Videos 3:00 or
-> shorter become Shorts automatically; for longer ones set the **Thumbnail** from the
-> cover picture listed. **After each upload, tick the YT box in `TRACKER.md`.**
+> order only — they never go in a title. Work top to bottom. Every entry has an
+> **UPLOAD THESE** box naming the exact files, then the title / description / tags
+> to paste (tags box: YouTube Studio → Show more → Tags).
+>
+> **About thumbnails:** videos 3:00 or shorter become **Shorts** — YouTube picks
+> the frame and usually won't offer a thumbnail box for them (that's normal, not a
+> mistake; if it does offer one, use the file listed). Videos over 3:00 are regular
+> uploads — **set the thumbnail, it matters most there.** The tall cover file is
+> for TikTok and Instagram when you post there later.
+>
+> **After each upload, tick the YT chip on the live tracker** (reviewer page,
+> bottom). New approvals get their own entry, thumbnails included, automatically.
 
 ---
 
 ## 01 — Woman Who Touched His Cloak  ·  1:49  ·  Short
 
-**File:** `social/exports/row-001-woman-who-touched-his-cloak.mp4`
-**Thumbnail:** `social/thumbs/yt/row-001.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-001-woman-who-touched-his-cloak.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-001.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-001.jpg`)*
 
 **Title:**
 ```
@@ -41,8 +50,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Mark 5, Healing
 
 ## 02 — The Prodigal Son  ·  2:38  ·  Short
 
-**File:** `social/exports/row-002-the-prodigal-son.mp4`
-**Thumbnail:** `social/thumbs/yt/row-002.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-002-the-prodigal-son.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-002.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-002.jpg`)*
 
 **Title:**
 ```
@@ -69,10 +80,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Prodigal Son, Parable
 
 ---
 
-## 03 — Zacchaeus  ·  3:42  ·  regular video — set the thumbnail
+## 03 — Zacchaeus  ·  3:42  ·  regular video
 
-**File:** `social/exports/row-003-zacchaeus.mp4`
-**Thumbnail:** `social/thumbs/yt/row-003.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-003-zacchaeus.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-003.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-003.jpg`)*
 
 **Title:**
 ```
@@ -99,10 +112,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Zacchaeus
 
 ---
 
-## 04 — Nicodemus at Night  ·  5:07  ·  regular video — set the thumbnail
+## 04 — Nicodemus at Night  ·  5:07  ·  regular video
 
-**File:** `social/exports/row-004-nicodemus-at-night.mp4`
-**Thumbnail:** `social/thumbs/yt/row-004.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-004-nicodemus-at-night.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-004.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-004.jpg`)*
 
 **Title:**
 ```
@@ -129,10 +144,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Nicodemus, John 3:16
 
 ---
 
-## 05 — The Bent-Over Woman  ·  4:08  ·  regular video — set the thumbnail
+## 05 — The Bent-Over Woman  ·  4:08  ·  regular video
 
-**File:** `social/exports/row-005-the-bent-over-woman.mp4`
-**Thumbnail:** `social/thumbs/yt/row-005.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-005-the-bent-over-woman.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-005.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-005.jpg`)*
 
 **Title:**
 ```
@@ -161,8 +178,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Healing, Luke Thirteen
 
 ## 06 — The Two Sons  ·  2:06  ·  Short
 
-**File:** `social/exports/row-006-the-two-sons.mp4`
-**Thumbnail:** `social/thumbs/yt/row-006.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-006-the-two-sons.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-006.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-006.jpg`)*
 
 **Title:**
 ```
@@ -189,10 +208,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Parable, Two Sons
 
 ---
 
-## 07 — Peter Walks on Water  ·  3:46  ·  regular video — set the thumbnail
+## 07 — Peter Walks on Water  ·  3:46  ·  regular video
 
-**File:** `social/exports/row-007-peter-walks-on-water.mp4`
-**Thumbnail:** `social/thumbs/yt/row-007.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-007-peter-walks-on-water.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-007.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-007.jpg`)*
 
 **Title:**
 ```
@@ -221,8 +242,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Peter Walks On Water, Fa
 
 ## 08 — The Lost Coin  ·  1:09  ·  Short
 
-**File:** `social/exports/row-008-the-lost-coin.mp4`
-**Thumbnail:** `social/thumbs/yt/row-008.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-008-the-lost-coin.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-008.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-008.jpg`)*
 
 **Title:**
 ```
@@ -249,10 +272,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Lost Coin, Parable
 
 ---
 
-## 09 — The Rich Young Ruler  ·  3:17  ·  regular video — set the thumbnail
+## 09 — The Rich Young Ruler  ·  3:17  ·  regular video
 
-**File:** `social/exports/row-009-the-rich-young-ruler.mp4`
-**Thumbnail:** `social/thumbs/yt/row-009.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-009-the-rich-young-ruler.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-009.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-009.jpg`)*
 
 **Title:**
 ```
@@ -279,10 +304,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Rich Young Ruler
 
 ---
 
-## 12 — Blind Bartimaeus  ·  4:27  ·  regular video — set the thumbnail
+## 12 — Blind Bartimaeus  ·  4:27  ·  regular video
 
-**File:** `social/exports/row-012-blind-bartimaeus.mp4`
-**Thumbnail:** `social/thumbs/yt/row-012.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-012-blind-bartimaeus.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-012.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-012.jpg`)*
 
 **Title:**
 ```
@@ -309,10 +336,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Bartimaeus, Healing
 
 ---
 
-## 14 — The Ten Lepers  ·  3:39  ·  regular video — set the thumbnail
+## 14 — The Ten Lepers  ·  3:39  ·  regular video
 
-**File:** `social/exports/row-014-the-ten-lepers.mp4`
-**Thumbnail:** `social/thumbs/yt/row-014.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-014-the-ten-lepers.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-014.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-014.jpg`)*
 
 **Title:**
 ```
@@ -339,10 +368,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Ten Lepers, Gratitude
 
 ---
 
-## 20 — The Good Samaritan  ·  3:07  ·  regular video — set the thumbnail
+## 20 — The Good Samaritan  ·  3:07  ·  regular video
 
-**File:** `social/exports/row-020-the-good-samaritan.mp4`
-**Thumbnail:** `social/thumbs/yt/row-020.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-020-the-good-samaritan.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-020.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-020.jpg`)*
 
 **Title:**
 ```
@@ -371,8 +402,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Good Samaritan, Parable
 
 ## 21 — The Lost Sheep  ·  2:14  ·  Short
 
-**File:** `social/exports/row-021-the-lost-sheep.mp4`
-**Thumbnail:** `social/thumbs/yt/row-021.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-021-the-lost-sheep.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-021.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-021.jpg`)*
 
 **Title:**
 ```
@@ -399,10 +432,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Lost Sheep, Parable
 
 ---
 
-## 23 — The Workers in the Vineyard  ·  3:23  ·  regular video — set the thumbnail
+## 23 — The Workers in the Vineyard  ·  3:23  ·  regular video
 
-**File:** `social/exports/row-023-the-workers-in-the-vineyard.mp4`
-**Thumbnail:** `social/thumbs/yt/row-023.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-023-the-workers-in-the-vineyard.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-023.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-023.jpg`)*
 
 **Title:**
 ```
@@ -431,8 +466,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Vineyard, Parable
 
 ## 24 — The Sower  ·  2:48  ·  Short
 
-**File:** `social/exports/row-024-the-sower.mp4`
-**Thumbnail:** `social/thumbs/yt/row-024.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-024-the-sower.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-024.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-024.jpg`)*
 
 **Title:**
 ```
@@ -461,8 +498,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Parable Of The Sower
 
 ## 25 — The Wheat and the Tares  ·  2:47  ·  Short
 
-**File:** `social/exports/row-025-the-wheat-and-the-tares.mp4`
-**Thumbnail:** `social/thumbs/yt/row-025.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-025-the-wheat-and-the-tares.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-025.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-025.jpg`)*
 
 **Title:**
 ```
@@ -491,8 +530,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Wheat And Tares, Parable
 
 ## 26 — The Mustard Seed  ·  1:27  ·  Short
 
-**File:** `social/exports/row-026-the-mustard-seed.mp4`
-**Thumbnail:** `social/thumbs/yt/row-026.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-026-the-mustard-seed.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-026.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-026.jpg`)*
 
 **Title:**
 ```
@@ -521,8 +562,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Mustard Seed, Parable
 
 ## 28 — The Hidden Treasure  ·  1:39  ·  Short
 
-**File:** `social/exports/row-028-the-hidden-treasure.mp4`
-**Thumbnail:** `social/thumbs/yt/row-028.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-028-the-hidden-treasure.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-028.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-028.jpg`)*
 
 **Title:**
 ```
@@ -551,8 +594,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Hidden Treasure, Parable
 
 ## 29 — The Pearl of Great Price  ·  1:56  ·  Short
 
-**File:** `social/exports/row-029-the-pearl-of-great-price.mp4`
-**Thumbnail:** `social/thumbs/yt/row-029.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-029-the-pearl-of-great-price.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-029.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-029.jpg`)*
 
 **Title:**
 ```
@@ -581,8 +626,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Pearl Of Great Price, Pa
 
 ## 30 — The Net  ·  2:35  ·  Short
 
-**File:** `social/exports/row-030-the-net.mp4`
-**Thumbnail:** `social/thumbs/yt/row-030.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-030-the-net.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-030.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-030.jpg`)*
 
 **Title:**
 ```
@@ -611,8 +658,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Parable, The Net
 
 ## 32 — The Talents  ·  2:37  ·  Short
 
-**File:** `social/exports/row-032-the-talents.mp4`
-**Thumbnail:** `social/thumbs/yt/row-032.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-032-the-talents.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-032.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-032.jpg`)*
 
 **Title:**
 ```
@@ -641,8 +690,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Parable Of The Talents
 
 ## 34 — The Rich Fool  ·  2:08  ·  Short
 
-**File:** `social/exports/row-034-the-rich-fool.mp4`
-**Thumbnail:** `social/thumbs/yt/row-034.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-034-the-rich-fool.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-034.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-034.jpg`)*
 
 **Title:**
 ```
@@ -671,8 +722,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Rich Fool, Parable
 
 ## 35 — The Great Banquet  ·  2:22  ·  Short
 
-**File:** `social/exports/row-035-the-great-banquet.mp4`
-**Thumbnail:** `social/thumbs/yt/row-035.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-035-the-great-banquet.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-035.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-035.jpg`)*
 
 **Title:**
 ```
@@ -699,10 +752,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Great Banquet, Parable
 
 ---
 
-## 36 — The Shrewd Steward  ·  3:11  ·  regular video — set the thumbnail
+## 36 — The Shrewd Steward  ·  3:11  ·  regular video
 
-**File:** `social/exports/row-036-the-shrewd-steward.mp4`
-**Thumbnail:** `social/thumbs/yt/row-036.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-036-the-shrewd-steward.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-036.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-036.jpg`)*
 
 **Title:**
 ```
@@ -731,8 +786,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Parable, Luke 16
 
 ## 37 — The Rich Man and Lazarus  ·  2:45  ·  Short
 
-**File:** `social/exports/row-037-the-rich-man-and-lazarus.mp4`
-**Thumbnail:** `social/thumbs/yt/row-037.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-037-the-rich-man-and-lazarus.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-037.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-037.jpg`)*
 
 **Title:**
 ```
@@ -761,8 +818,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Rich Man And Lazarus, Pa
 
 ## 38 — The Persistent Widow  ·  3:00  ·  Short
 
-**File:** `social/exports/row-038-the-persistent-widow.mp4`
-**Thumbnail:** `social/thumbs/yt/row-038.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-038-the-persistent-widow.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-038.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-038.jpg`)*
 
 **Title:**
 ```
@@ -789,10 +848,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Persistent Widow, Prayer
 
 ---
 
-## 41 — Counting the Cost  ·  5:46  ·  regular video — set the thumbnail
+## 41 — Counting the Cost  ·  5:46  ·  regular video
 
-**File:** `social/exports/row-041-counting-the-cost.mp4`
-**Thumbnail:** `social/thumbs/yt/row-041.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-041-counting-the-cost.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-041.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-041.jpg`)*
 
 **Title:**
 ```
@@ -819,10 +880,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Counting The Cost, Disci
 
 ---
 
-## 43 — The Wedding Garment  ·  4:45  ·  regular video — set the thumbnail
+## 43 — The Wedding Garment  ·  4:45  ·  regular video
 
-**File:** `social/exports/row-043-the-wedding-garment.mp4`
-**Thumbnail:** `social/thumbs/yt/row-043.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-043-the-wedding-garment.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-043.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-043.jpg`)*
 
 **Title:**
 ```
@@ -849,10 +912,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Wedding Feast, Parable
 
 ---
 
-## 46 — The Seed Growing Secretly  ·  3:13  ·  regular video — set the thumbnail
+## 46 — The Seed Growing Secretly  ·  3:13  ·  regular video
 
-**File:** `social/exports/row-046-the-seed-growing-secretly.mp4`
-**Thumbnail:** `social/thumbs/yt/row-046.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-046-the-seed-growing-secretly.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-046.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-046.jpg`)*
 
 **Title:**
 ```
@@ -879,10 +944,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Parable, Mark 4
 
 ---
 
-## 47 — Houses on Rock and Sand  ·  3:41  ·  regular video — set the thumbnail
+## 47 — Houses on Rock and Sand  ·  3:41  ·  regular video
 
-**File:** `social/exports/row-047-houses-on-rock-and-sand.mp4`
-**Thumbnail:** `social/thumbs/yt/row-047.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-047-houses-on-rock-and-sand.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-047.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-047.jpg`)*
 
 **Title:**
 ```
@@ -911,8 +978,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Wise And Foolish Builder
 
 ## 53 — Peter's Mother-in-Law  ·  1:41  ·  Short
 
-**File:** `social/exports/row-053-peter-s-mother-in-law.mp4`
-**Thumbnail:** `social/thumbs/yt/row-053.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-053-peter-s-mother-in-law.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-053.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-053.jpg`)*
 
 **Title:**
 ```
@@ -941,8 +1010,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Healing, Mark 1
 
 ## 56 — The Widow of Nain's Son  ·  2:20  ·  Short
 
-**File:** `social/exports/row-056-the-widow-of-nain-s-son.mp4`
-**Thumbnail:** `social/thumbs/yt/row-056.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-056-the-widow-of-nain-s-son.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-056.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-056.jpg`)*
 
 **Title:**
 ```
@@ -971,8 +1042,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Widow Of Nain, Compassio
 
 ## 57 — Jairus's Daughter  ·  2:55  ·  Short
 
-**File:** `social/exports/row-057-jairus-s-daughter.mp4`
-**Thumbnail:** `social/thumbs/yt/row-057.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-057-jairus-s-daughter.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-057.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-057.jpg`)*
 
 **Title:**
 ```
@@ -1001,8 +1074,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Jairus Daughter, Talitha
 
 ## 58 — Feeding the Five Thousand  ·  2:44  ·  Short
 
-**File:** `social/exports/row-058-feeding-the-five-thousand.mp4`
-**Thumbnail:** `social/thumbs/yt/row-058.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-058-feeding-the-five-thousand.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-058.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-058.jpg`)*
 
 **Title:**
 ```
@@ -1029,10 +1104,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Feeding the 5000, Miracl
 
 ---
 
-## 64 — The Pool of Bethesda  ·  4:01  ·  regular video — set the thumbnail
+## 64 — The Pool of Bethesda  ·  4:01  ·  regular video
 
-**File:** `social/exports/row-064-the-pool-of-bethesda.mp4`
-**Thumbnail:** `social/thumbs/yt/row-064.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-064-the-pool-of-bethesda.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-064.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-064.jpg`)*
 
 **Title:**
 ```
@@ -1059,10 +1136,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Bethesda, Healing
 
 ---
 
-## 68 — Multitudes Mountain  ·  3:27  ·  regular video — set the thumbnail
+## 68 — Multitudes Mountain  ·  3:27  ·  regular video
 
-**File:** `social/exports/row-068-multitudes-mountain.mp4`
-**Thumbnail:** `social/thumbs/yt/row-068.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-068-multitudes-mountain.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-068.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-068.jpg`)*
 
 **Title:**
 ```
@@ -1091,8 +1170,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Healing, Matthew 15
 
 ## 75 — The Woman Taken in Adultery  ·  2:06  ·  Short
 
-**File:** `social/exports/row-075-the-woman-taken-in-adultery.mp4`
-**Thumbnail:** `social/thumbs/yt/row-075.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-075-the-woman-taken-in-adultery.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-075.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-075.jpg`)*
 
 **Title:**
 ```
@@ -1121,8 +1202,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, John 8, Mercy
 
 ## 76 — Suffer the Little Children  ·  1:28  ·  Short
 
-**File:** `social/exports/row-076-suffer-the-little-children.mp4`
-**Thumbnail:** `social/thumbs/yt/row-076.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-076-suffer-the-little-children.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-076.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-076.jpg`)*
 
 **Title:**
 ```
@@ -1151,8 +1234,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Children, Blessing
 
 ## 79 — The Seventy Sent  ·  1:58  ·  Short
 
-**File:** `social/exports/row-079-the-seventy-sent.mp4`
-**Thumbnail:** `social/thumbs/yt/row-079.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-079-the-seventy-sent.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-079.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-079.jpg`)*
 
 **Title:**
 ```
@@ -1181,8 +1266,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, The Seventy, Luke 10
 
 ## 81 — Render Unto Caesar  ·  1:40  ·  Short
 
-**File:** `social/exports/row-081-render-unto-caesar.mp4`
-**Thumbnail:** `social/thumbs/yt/row-081.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-081-render-unto-caesar.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-081.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-081.jpg`)*
 
 **Title:**
 ```
@@ -1211,8 +1298,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Render Unto Caesar, Mark
 
 ## 85 — Shepherds and Angels  ·  2:26  ·  Short
 
-**File:** `social/exports/row-085-shepherds-and-angels.mp4`
-**Thumbnail:** `social/thumbs/yt/row-085.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-085-shepherds-and-angels.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-085.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-085.jpg`)*
 
 **Title:**
 ```
@@ -1239,10 +1328,12 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Nativity, Shepherds
 
 ---
 
-## 91 — Gethsemane  ·  4:01  ·  regular video — set the thumbnail
+## 91 — Gethsemane  ·  4:01  ·  regular video
 
-**File:** `social/exports/row-091-gethsemane.mp4`
-**Thumbnail:** `social/thumbs/yt/row-091.jpg`  ← use this one
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-091-gethsemane.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-091.jpg` ← REQUIRED — set this thumbnail
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-091.jpg`)*
 
 **Title:**
 ```
@@ -1271,8 +1362,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Gethsemane, Luke 22
 
 ## 101 — The Still Small Voice  ·  2:53  ·  Short
 
-**File:** `social/exports/row-101-the-still-small-voice.mp4`
-**Thumbnail:** `social/thumbs/yt/row-101.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-101-the-still-small-voice.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-101.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-101.jpg`)*
 
 **Title:**
 ```
@@ -1301,8 +1394,10 @@ Jesus, Bible stories, KJV, scripture, faith, Christian, Still Small Voice, Elija
 
 ## 114 — Abraham Pleads for Sodom  ·  2:23  ·  Short
 
-**File:** `social/exports/row-114-abraham-pleads-for-sodom.mp4`
-**Thumbnail:** `social/thumbs/yt/row-114.jpg`
+**UPLOAD THESE:**
+- **Video:** `social/exports/row-114-abraham-pleads-for-sodom.mp4`
+- **Thumbnail:** `social/thumbs/yt/row-114.jpg` (Short — YouTube usually picks its own frame; use this file if the box appears)
+- *(later, TikTok/Instagram cover: `social/thumbs/vertical/row-114.jpg`)*
 
 **Title:**
 ```
