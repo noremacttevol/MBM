@@ -1,3 +1,26 @@
+## 2026-08-07 — C-FIX row 19 shore PARKED NEEDS-AUDIO (MIXED complaint; audio-pacing part is out of runner scope), $0 — Machine A `Dev`
+
+**Commit:** (this commit — QC.md §0 + AUTHOR-BOARD row 19 + this entry, by pathspec)
+
+Cameron's OPEN complaint on the shipped row-19 cut (`128fc218`) is MIXED:
+**(A) "JESUS talks too fast and ignores commas when asking peter if he loves him"**
+and **(B) "1:05 picture he is swimming the wrong way."** (A) is an AUDIO-pacing defect —
+the voiced question is segment **j1**, KJV John 21:16 "Simon, son of Jonas, lovest thou
+me?" (~1:37); its two commas run together and the line rushes. Per RUNNER-LESSONS
+(pacing/"too fast" complaints are audio-domain, rows 10/50/51), the fix is a re-voice
+(respell j1 with ellipsis pauses / bump JESUS stability, regenerate `j1.mp3` via the
+ElevenLabs path, re-assemble), which the picture-runner is FORBIDDEN to do
+(audio-immutability; AUDIO LOCK is its only proof). (B) is a plain picture reroll — beat
+**`v2-r019-b17`** / `s17-and-swam-for-shore.jpeg`, window 64.80–67.86 s (exactly 1:05);
+the beat text already carries the author-wired CAMERON GATE ("stroke must aim at the
+beach"). By touch-once, (B) is NOT rerolled now — it is batched into the SAME re-cut that
+carries the re-voiced audio, so the row is touched ONCE. Shipping a picture-only re-cut
+now would leave the audio unchanged and REPEAT complaint (A) — the worst failure (the
+row-46 mistake). So the whole row is PARKED, not shipped. **NO pictures touched, $0
+spent.** Board row 19 flipped BUILT→NEEDS-AUDIO, Audio OK→CHECK, with the author resume
+in the Claim cell and QC.md §0 RUNNER PARK. Reviewer still shows the existing `128fc218`
+cut (unchanged — no deploy, a park does not ship).
+
 ## 2026-08-07 (social session, pt.6) — thumbnail file locations wired into the publishing guide — Machine A `Dev`
 
 **Commit:** (this commit — social/ + this entry, by pathspec)

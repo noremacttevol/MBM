@@ -4,6 +4,74 @@ Worker: Claude worker 13, Machine A `Dev`, 2026-08-01/02.
 
 ---
 
+## 0. RUNNER PARK — NEEDS-AUDIO (C-FIX, Machine A `Dev`, 2026-08-07)
+
+**COMPLAINT LEDGER (open, from `v2_outline.py 19`), Cameron against `128fc218`:**
+- **(A) AUDIO-pacing:** *"JESUS talks too fast and ignores commas when asking
+  peter if he loves him."*
+- **(B) PICTURE:** *"1:05 picture he is swimming the wrong way."*
+
+**Why this row is PARKED, not shipped.** The complaint is MIXED — one audio, one
+picture — and complaint (A) is an **AUDIO-pacing** defect. Per RUNNER-LESSONS
+("PACING/'too fast'/'rushed' complaints are ALSO audio-domain — park them the same
+as a mispronunciation", rows 10/50/51), the fix for (A) is a **re-voice** (slow the
+line + force pauses at the commas + regenerate the mp3 + re-assemble), which the
+picture-runner is FORBIDDEN to do (audio-immutability; the runner ships
+byte-identical audio and AUDIO LOCK is its only proof). The touch-once law says a
+row is touched ONCE — every open complaint batched into ONE re-cut. If the runner
+fixed only the picture and shipped now, the audio would be unchanged, so complaint
+(A) would REPEAT on the very next view — the worst failure this pipeline can make
+(exactly the row-46 "put-uth" mistake). So the whole row is PARKED NEEDS-AUDIO and
+the picture reroll (B) is deferred into the SAME re-cut that carries the re-voiced
+audio. **NO pictures were touched this session; the shipped mp4 is unchanged.**
+
+Not the row-57 ship-exception: board Audio is OK but there is NO paced/pause
+override baked in for j1 and NO "verified in final audio" pacing commit — the fix
+is not in the mp4, so it must not be shipped over.
+
+**Complaint (A) — the diagnosis.** The voiced question is segment **j1**, JESUS,
+KJV John 21:16: *"Simon, son of Jonas, lovest thou me?"* (~1:37 in the cut). The
+line has two commas (after "Simon" and after "Jonas") that must breathe; the
+shipped ElevenLabs take runs them together and lands too fast to carry weight.
+The shipped voice is ElevenLabs (`media-production/build-19-shore/audio/j1.mp3`,
+44.1 kHz/128 kbps; JESUS `stability` 0.55 in `mbm_eleven.py`).
+
+**Complaint (B) — the diagnosis (picture, for the eventual re-cut only).** The
+"1:05" swim frame is beat **`v2-r019-b17`** → `assets/s17-and-swam-for-shore.jpeg`,
+seg `n6 p3`, window **64.80–67.86 s** (exactly 1:05). The shipped take reads as
+Peter swimming toward the boat / parallel to shore instead of driving toward the
+beach. The beat text ALREADY carries the fix-gate (author-wired): `must_show`
+"DIRECTION EXACT: his face, leading arm and wake all drive TOWARD the beach; the
+boat is BEHIND his kick, the shore AHEAD of his stroke" and `must_not_show`
+"CAMERON GATE (open complaint at 1:05 …): Peter must NEVER appear to swim toward
+the boat or parallel to shore; if his stroke does not visibly aim at the beach,
+the frame fails." So (B) is a plain reroll of one beat — the runner does it in the
+post-re-voice re-cut; do NOT reroll it now (nothing to ship it in).
+
+**AUTHOR / audio-fix lane — exact resume for (A):**
+1. Re-voice **j1 only** through ElevenLabs so the two commas land as real pauses
+   and the line slows. Simplest proven lever: respell the SPOKEN string for j1
+   with pause punctuation, e.g. `SPOKEN`-style override
+   `"Simon, son of Jonas, lovest thou me?"` → `"Simon... son of Jonas... lovest
+   thou me?"` (ellipses force ElevenLabs to breathe; the CAPTION keeps the exact
+   KJV text unchanged — only the spoken string is respelled). If it is still
+   rushed, nudge JESUS `stability` up for this segment. Do NOT touch j0a/j0b/j2 or
+   any narrator segment.
+2. Regenerate ONLY `audio/j1.mp3` via the build's ElevenLabs path, and A/B-listen
+   to confirm the commas now breathe and the question no longer rushes.
+3. Re-assemble (`python3 media-production-v2/v2_assemble.py 19`) — AUDIO LOCK will
+   re-hash the new track; confirm **PASS**.
+4. Hand back Ready ✅ / Audio OK. The RUNNER then, in ONE re-cut: rerolls beat
+   `v2-r019-b17` until Peter's stroke visibly aims at the beach (complaint B),
+   re-assembles over the new audio, ships + deploys (step 7c), and the review card
+   answers BOTH complaints in Cameron's words ("too fast / ignores commas" → j1
+   now breathes at the commas; "swimming the wrong way at 1:05" → Peter drives
+   toward the beach).
+
+State flipped BUILT→NEEDS-AUDIO, Audio OK→CHECK on AUTHOR-BOARD row 19.
+
+---
+
 ## 1. Audio is LOCKED and was never touched
 
 The authoritative narration is `media-production/build-19-shore/audio/` — 22 segments,

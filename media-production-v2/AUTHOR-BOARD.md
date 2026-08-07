@@ -30,7 +30,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 16 | build-16-mary-martha | BUILT | 26 | OK | C-FIX 2026-08-07 SHIPPED |  |
 | 17 | build-17-lazarus | BUILT | 61 | OK | C-FIX 2026-08-07 LIVE |  |
 | 18 | build-18-emmaus | NEEDS-AUDIO | 41 | CHECK | C-FIX 2026-08-07 PARKED NEEDS-AUDIO: OPEN complaint is AUDIO-pronunciation — narrator mispronounces "Jesus's" (possessive) in n0 ("two of Jesus's followers", ~0:04); SPOKEN dict empty, no fix baked in, runner cannot re-voice (audio-immutability). AUTHOR: set SPOKEN={"Jesus's":"jeezusiz"} in make_narration.py, regenerate n0.mp3, re-assemble. See QC.md §0 RUNNER PARK. |  |
-| 19 | build-19-shore | BUILT | 37 | OK | C-FIX 2026-08-07 LIVE |  |
+| 19 | build-19-shore | NEEDS-AUDIO | 37 | CHECK | C-FIX 2026-08-07 PARKED NEEDS-AUDIO: MIXED complaint. (A) AUDIO-pacing — Jesus's j1 "Simon, son of Jonas, lovest thou me?" (~1:37) too FAST and ignores its two commas; fix is a re-voice (respell j1 with ellipsis pauses / bump JESUS stability, regenerate j1.mp3, re-assemble), runner cannot re-voice. (B) PICTURE — swim frame b17/s17 at 1:05 has Peter swimming the wrong way (beat already carries the CAMERON GATE); runner rerolls it in the SAME post-re-voice re-cut (touch-once), NOT now. Shipped over an open audio complaint = worst failure, so PARKED not shipped. See QC.md §0 RUNNER PARK. |  |
 | 20 | build-20-samaritan | BUILT | 42 | OK |  |  |
 | 21 | build-21-lost-sheep | BUILT | 33 | OK |  |  |
 | 22 | build-22-unmerciful-servant | BUILT | 48 | OK |  |  |
