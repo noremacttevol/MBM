@@ -361,11 +361,12 @@ BEATS = [
     },
     # ------------------------------------------------ n2 — THE LOOK ----
     {
-        "id": "v2-r009-b12", "out": "s12-looking-at-him-loved-him.jpeg", "seg": "n2 p1-p2",
-        "window": "67.84-73.49", "wide": False, "jesus": True, "ref": REF,
+        "id": "v2-r009-b12", "out": "s12-looking-at-him-loved-him.jpeg", "seg": "n2 p1-p3",
+        "window": "67.84-78.49", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CAMERA"],
         "narration": ("Mark writes what happened next in five words. Jesus, looking at "
-                      "him, loved him."),
+                      "him, loved him. Of all the people in Mark's story, this is the "
+                      "one he says it about, straight out."),
         "must_show": "⚠️ THE MOST IMPORTANT FRAME IN THIS VIDEO. Close on Jesus's face looking down at him, and the expression is unmistakably LOVE — warm, moved, tender, his eyes soft and completely fixed on the man.",
         "must_not_show": "NOT pity. NOT sadness. NOT disappointment. NOT sternness. NOT a knowing look. If this face reads as anything other than love for the person in front of him, the frame is a hard fail and must be regenerated. No halo, glare or rim-light.",
         "scene": (
@@ -378,26 +379,11 @@ BEATS = [
             "daylight on his skin and the road soft and out of focus behind him."
         ),
     },
-    {
-        "id": "v2-r009-b13", "out": "s13-the-two-of-them.jpeg", "seg": "n2 p3",
-        "window": "73.49-78.49", "wide": False, "jesus": True, "ref": REF,
-        "locks": ["CAMERA", "RULER"],
-        "rough_ref": "assets/s13-the-two-of-them.jpeg",
-        "narration": ("Of all the people in Mark's story, this is the one he says it "
-                      "about, straight out."),
-        "must_show": "CAMERON GATE (he rejected the old 1:14 frame as pointless — this is its REPLACEMENT, the counter-shot to b12): close on the YOUNG MAN'S upturned face alone, caught in the moment of being loved — eyes lifted, face open, the look landing on him; his short dark beard present and identical to every other frame.",
-        "must_not_show": "no halo, glare or rim-light; Jesus NOT in this frame (b12 was his face — this is the answer-face); not a repeat of any earlier composition; no tears yet, no grief yet — this is still the loved moment.",
-        "scene": (
-            "The counter-shot to the most important frame: very close on the kneeling "
-            "young man's upturned face, filling the frame, at the instant the look "
-            "lands on him — eyes lifted to someone just above the camera, lips "
-            "slightly parted, the guarded correctness of a rich ruler gone from his "
-            "face and something younger underneath it, a man realizing he is not "
-            "being examined but loved. Dust in the bright air around him, his short "
-            "dark beard exactly as in every other frame. Every figure has two arms, "
-            "two hands and one head."
-        ),
-    },
+    # b13 (s13-the-two-of-them / old 1:14 frame) REMOVED 2026-08-06 per Cameron
+    # C-FIX: "The picture at 1:14 is dumb and not needed ... excessive luxuries."
+    # b12 (Jesus's loving face) now carries n2 p1-p3; b14 (the man's face, rings,
+    # hope) still carries n2 p4. The "he loved him" beat is fully covered by the
+    # two remaining frames — one fewer picture, one fewer chance for drift.
     {
         "id": "v2-r009-b14", "out": "s14-what-jesus-saw.jpeg", "seg": "n2 p4",
         "window": "78.49-85.57", "wide": False, "jesus": False, "ref": False,

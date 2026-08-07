@@ -1,3 +1,41 @@
+# C-FIX 2026-08-06 (Machine A `Dev`) — Cameron complaint against the shipped V2 cut
+
+Complaint (REVIEW-LESSONS row 9, reportedAgainst `e8cb3734`, 2026-08-05 — i.e.
+filed AGAINST the Aug-1 realistic V2 cut, not V1):
+> "The young rich man lost his beard at 52 seconds picture. The picture at 1:14
+> is dumb and not needed. It looks like you are wasting my api money and creating
+> more problems from excessive luxuries causing more to be wrong for no reason."
+
+## COMPLAINT LEDGER (both open items, batched into ONE re-cut — touch-once)
+
+1. **"lost his beard at 52 seconds"** → the 0:52 picture is **b10 / s10-he-meant-it**
+   (verified: window 51.51-63.38, so 52 s lands on b10). The shipped s10 rendered
+   the young man CLEAN-SHAVEN while every other frame of him (ruler-ref, s13, s14)
+   has a full dark beard — the exact defect Cameron caught. **FIX:** rerolled b10
+   `--only b10 --redo` with the bearded `CAST-REF-V2/ruler-ref.jpeg` RULER ref
+   attached; new s10 carries the full dark beard, identity matches the ruler-ref,
+   composition otherwise unchanged (kneeling in purple, Jesus in cream at right,
+   disciples around). Old clean-shaven take preserved in
+   `_rejected/s10-he-meant-it.clean-shaven-cameron-complaint.jpeg`. 1 reroll.
+
+2. **"The picture at 1:14 is dumb and not needed"** → the 1:14 picture was **b13 /
+   s13-the-two-of-them** (verified: window 73.49-78.49, so 74 s lands on b13).
+   It also violated its own must_not_show ("Jesus NOT in this frame") — the shipped
+   s13 had Jesus with his hand on the man's shoulder, and it duplicated the "he
+   loved him" beat already carried by b12 (Jesus's face) and b14 (the man's face).
+   **FIX:** b13 REMOVED entirely (honours "not needed" + "excessive luxuries"). b12
+   (Jesus's loving face) now carries n2 p1-p3, so the line "…this is the one he
+   says it about, straight out" plays over his tender face; b14 still carries n2 p4.
+   One fewer picture, one fewer chance for drift. $0. Now 30 beats (was 31).
+
+**Verification of the re-cut (rendered mp4):** 0:52 → bearded young man; 1:14 →
+Jesus's loving face (the removed frame is gone); question card clean; captions
+bottom-band only. **AUDIO LOCK PASS** SHA256 `925aaf90…` — byte-identical to the
+prior cut (audio untouched; only the video track changed). verify-mp4 196.8 s /
+21.9 MB. **Cost this C-FIX: 1 reroll = $0.13** (removal free).
+
+---
+
 # QC — row 9, build-09-rich-ruler — REALISTIC rebuild (2026-08-01, Machine A `Dev`, Claude worker 6)
 
 Cut: `mark-10_rich-ruler-realistic-v2.mp4` · 31 stills, `assets-realistic/`,
