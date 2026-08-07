@@ -1,3 +1,17 @@
+## 2026-08-07 (social session, pt.8) — LINK LAW: promote the app everywhere, milkb4meat.org is the ONLY link — Machine A `Dev`
+
+**Commit:** (this commit — social/ + this entry, by pathspec)
+
+Cameron: bios must promote the app ("download the app for better access to videos and
+other features") but with NO store/download link — only the website, which gets the app
+links updated as approvals land. **LINK LAW written into CHANNEL-PLAN same session:
+active app promotion everywhere, `https://milkb4meat.org` is the only link ever posted.**
+All four bios rewritten with the promo line (within each platform's char limit); all 44
+POST-QUEUE captions now end "Download the free Milk Before Meat app for every story and
+more — link in bio."; YOUTUBE-UPLOAD-SHEET regenerated — every description ends with the
+promo + milkb4meat.org, the Apple store link REMOVED everywhere (verified 0 occurrences
+across the kit). Sheet generator saved as `social/make-youtube-sheet.py` (was inline).
+
 ## 2026-08-07 (social session, pt.7) — PAGE-ART LAW: no words on page art; new profile + covers — Machine A `Dev`
 
 **Commit:** (this commit — social/ + this entry, by pathspec)

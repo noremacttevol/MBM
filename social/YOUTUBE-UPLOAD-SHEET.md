@@ -11,6 +11,9 @@
 > uploads — **set the thumbnail, it matters most there.** The tall cover file is
 > for TikTok and Instagram when you post there later.
 >
+> **The only link in any description is milkb4meat.org** — the site carries the
+> current app links as approvals land. Never paste a store link.
+>
 > **After each upload, tick the YT chip on the live tracker** (reviewer page,
 > bottom). New approvals get their own entry, thumbnails included, automatically.
 
@@ -36,9 +39,8 @@ Have you ever been that desperate for something in your life to change?
 
 Mark 5:25–34, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -68,9 +70,8 @@ Which one feels closest to where you are right now — the son who left, the fat
 
 Luke 15:11–32, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -100,9 +101,8 @@ Have you ever felt like the one everybody had already made their mind up about?
 
 Luke 19:1–10, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -132,9 +132,8 @@ What question would you ask, if nobody was watching?
 
 John 3:1–21, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -164,9 +163,8 @@ How long have you been carrying the thing that bends you down?
 
 Luke 13:10–17, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -196,9 +194,8 @@ Which son have you been lately: the words, or the walk?
 
 Matthew 21:28–32, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -228,9 +225,8 @@ What's the wave that pulls your eyes off him?
 
 Matthew 14:22–33, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -260,9 +256,8 @@ Do you believe anyone would turn the house upside down for you?
 
 Luke 15:8–10, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -292,9 +287,8 @@ Jesus loved him — and still let him walk away. What would be the hardest thing
 
 Mark 10:17–22, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -324,9 +318,8 @@ If he stood still and asked you that — what would you say?
 
 Mark 10:46–52, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -356,9 +349,8 @@ When was the last time you turned back to say thank you?
 
 Luke 17:11–19, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -388,9 +380,8 @@ Which man on that road is hardest for you to be?
 
 Luke 10:25–37, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -420,9 +411,8 @@ Do you believe you're worth going after?
 
 Luke 15:3–7, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -452,9 +442,8 @@ Does it bother you, or comfort you, that the last got the same?
 
 Matthew 20:1–16, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -484,9 +473,8 @@ Honestly — which ground has your heart been lately?
 
 Matthew 13:3–23, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -516,9 +504,8 @@ What do you make of a God patient enough to wait for the harvest?
 
 Matthew 13:24–30, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -548,9 +535,8 @@ What's the smallest seed of faith you've ever watched grow?
 
 Matthew 13:31–32, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -580,9 +566,8 @@ What would you trade everything for — joyfully?
 
 Matthew 13:44, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -612,9 +597,8 @@ What have you been searching for longer than you'd admit?
 
 Matthew 13:45–46, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -644,9 +628,8 @@ What do you feel, hearing that the sorting isn't yours to do?
 
 Matthew 13:47–50, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -676,9 +659,8 @@ What's the talent fear has you burying?
 
 Matthew 25:14–30, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -708,9 +690,8 @@ If tonight were the night — what would actually matter?
 
 Luke 12:16–21, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -740,9 +721,8 @@ What excuse have you been giving the invitation?
 
 Luke 14:16–24, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -772,9 +752,8 @@ If someone read your last month honestly — what would they say you serve?
 
 Luke 16:1–13, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -804,9 +783,8 @@ Who is the person at your gate you've learned not to see?
 
 Luke 16:19–31, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -836,9 +814,8 @@ What prayer have you quit praying too soon?
 
 Luke 18:1–8, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -868,9 +845,8 @@ Have you ever actually sat down and counted what following him would cost you?
 
 Luke 14:25–33, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -900,9 +876,8 @@ The invitation went to everyone. What do you think the garment means?
 
 Matthew 22:1–14, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -932,9 +907,8 @@ What's been growing in you slowly, while you weren't watching?
 
 Mark 4:26–29, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -964,9 +938,8 @@ The storm hit both houses the same. What's under yours?
 
 Matthew 7:24–27, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -996,9 +969,8 @@ Has help ever come to you that quietly?
 
 Mark 1:29–31, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1028,9 +1000,8 @@ He saw her before she said a word. When did you last feel seen like that?
 
 Luke 7:11–17, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1060,9 +1031,8 @@ What word have you needed someone to say over your fear?
 
 Mark 5:22–24, 35–43, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1092,9 +1062,8 @@ What's your five loaves — the too-small thing already in your hands?
 
 John 6:1–14, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1124,9 +1093,8 @@ Why do you think Jesus asked him that?
 
 John 5:1–15, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1156,9 +1124,8 @@ Who carried you, the day you couldn't get there yourself?
 
 Matthew 15:29–31, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1188,9 +1155,8 @@ Which are you in the story right now — holding a stone, or standing in the mid
 
 John 8:1–11, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1220,9 +1186,8 @@ What did you know about God as a child that you've since talked yourself out of?
 
 Mark 10:13–16, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1252,9 +1217,8 @@ Where does your joy actually rest — in what you can do, or in whose you are?
 
 Luke 10:1–20, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1284,9 +1248,8 @@ The coin bore Caesar's image. You bear God's. What belongs to him?
 
 Mark 12:13–17, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1316,9 +1279,8 @@ The news went to working men in a field before it went to anyone important. Why 
 
 Luke 2:8–20, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1348,9 +1310,8 @@ He asked for another way, and still knelt. What do you hear in that?
 
 Luke 22:39–46, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1380,9 +1341,8 @@ When has God been quieter than you expected — and closer?
 
 1 Kings 19:1–18, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**
@@ -1412,9 +1372,8 @@ He asked, Shall not the Judge of all the earth do right? What does it tell you t
 
 Genesis 18:16–33, word for word from the KJV.
 
-From the Milk Before Meat app — one story at a time:
+Download the free Milk Before Meat app for every story and more:
 https://milkb4meat.org
-iPhone: https://apps.apple.com/us/app/milk-before-meat/id6783621048
 ```
 
 **Tags:**

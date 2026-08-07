@@ -48,7 +48,15 @@ find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms a
   have the quiet night one: `social/page-art/cover-facebook-alt-night.jpg`
   (shepherds' hills and Bethlehem at night, from Shepherds and Angels).
 - **YouTube banner / TikTok:** none needed at launch — skip, don't stall on art.
-- **The link (all four bios):** `https://milkb4meat.org` — one link, covers both stores.
+
+## THE LINK LAW (Cameron, 2026-08-07)
+
+**Promote the app actively, everywhere** — bios, captions, and descriptions say
+things like "Download the free Milk Before Meat app for every story and more."
+**But the ONLY link ever posted is `https://milkb4meat.org`.** Never a store link
+in any bio, caption, or description — the website is the one place that carries
+the current app links, and it gets updated as each store approval lands. One
+stable link that never goes stale, no matter what the stores do.
 
 ## 3. Account hygiene (2 minutes, once)
 
@@ -70,9 +78,13 @@ find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms a
 4. **Description** — paste:
    > Short scripture stories, told word-for-word from the King James Bible — realistic
    > pictures, one narrator, no music, no noise. One story, one verse, one honest
-   > question. From the Milk Before Meat app: https://milkb4meat.org
-5. Add links (Customization → Links): `https://milkb4meat.org` and the App Store page
-   `https://apps.apple.com/us/app/milk-before-meat/id6783621048`.
+   > question.
+   >
+   > Download the free Milk Before Meat app for better access to every story, the
+   > questions, and a place to sit with them: https://milkb4meat.org — the site
+   > always has the current app links.
+5. Add ONE link (Customization → Links): `https://milkb4meat.org`. Never a store
+   link — the site carries the current app links as approvals land.
 6. Post video #1 from `POST-QUEUE.md` (upload the mp4 from `social/exports/`, paste
    title + caption; a vertical video ≤3 min automatically becomes a Short).
 
@@ -83,8 +95,8 @@ find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms a
    professional account → Creator → category "Personal blog" — skip any prompt to
    connect ads or payment).
 3. Profile picture + **bio** (150-char limit) — paste:
-   > Scripture stories, word for word from the KJV. One story, one verse, one honest
-   > question. From the Milk Before Meat app ↓
+   > Scripture stories, word for word from the KJV. Download the free Milk Before
+   > Meat app for every story + more → milkb4meat.org
 4. Add the website link: `https://milkb4meat.org`.
 5. Post video #1 as a **Reel** (paste caption + hashtags from the queue, set the
    cover from `social/covers/`), then open it → ⋯ → **Pin to profile**.
@@ -95,7 +107,7 @@ find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms a
    category "Media & Entertainment"). This is free and unlocks the clickable website
    field — personal accounts need 1,000 followers before they can add a link.
 3. Profile picture + **bio** (80-char limit) — paste:
-   > Scripture stories, word for word from the KJV. From the Milk Before Meat app ↓
+   > KJV scripture stories. Download the free app for every story → milkb4meat.org
 4. Add the website: `https://milkb4meat.org`.
 5. Post video #1 (upload via tiktok.com on the computer — the files are on this
    machine and the web uploader lets you pick the cover frame and schedule).
@@ -109,8 +121,9 @@ find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms a
 4. **Bio** — paste:
    > Short scripture stories, told word-for-word from the King James Bible — realistic
    > pictures, one narrator, no music, no pressure. One story, one verse, one honest
-   > question at a time. Watch a few here, or get the app and let them come to you one
-   > story at a time: https://milkb4meat.org
+   > question at a time. Download the free Milk Before Meat app for better access to
+   > every story and more: https://milkb4meat.org — the site always has the current
+   > app links.
 5. Set the Page username to the chosen handle (Page settings → Username), add the
    website field and an action button → **Learn more** → `https://milkb4meat.org`.
 6. Post video #1 as a **Reel** from the Page (not your personal profile), pin it.
