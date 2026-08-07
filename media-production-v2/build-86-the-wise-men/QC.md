@@ -1,5 +1,23 @@
 # QC / RUNNER HANDOFF — build-86-the-wise-men (Matthew 2:1-12)
 
+## ✅ AUDIO FIX DONE — STALE-V1-FINAL lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
+
+**Class: STALE-V1-FINAL (duration shortfall), NOT a pronunciation complaint.**
+`v2_outline.py 86` shows no open Cameron complaint; the row was parked only on the
+AUDIO LOCK: timeline 132.046s vs V1 mp4 130.833s (|Δ|=1.213s > 1.0 trailing-silence
+shortfall), so the packet-copy lock refused.
+
+**Fix ($0, NO new TTS):** set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py (module
+level, after `REF = True`). The assembler will now rebuild the track from this build's
+own 14 mp3 segments at the timeline offsets instead of copying the stale V1 mp4 AAC —
+nothing re-voiced, V1 read-only. Verified the 14 new-voice segments are present in
+`media-production/build-86-the-wise-men/audio/` so the rebuild has its source.
+
+**0 V2 stills → NOT assembled here.** Per PROMPT-AUDIO-FIX.md step 6 (no stills yet →
+ship nothing visual): board flipped to **AUTHORED / Audio OK / Ready ✅**, claim
+cleared, so the picture runner builds the stills and assembles on the corrected audio
+(the AUDIO_FROM_V1_SEGMENTS path will pass the lock at that point). No Gemini spend.
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 22 beats, ~122 s.
 

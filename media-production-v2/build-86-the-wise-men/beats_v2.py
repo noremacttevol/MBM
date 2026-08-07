@@ -87,6 +87,12 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1-FINAL fix (AUDIO-FIX 2026-08-06, Machine A): the authoritative V1 mp4
+# is 130.833s but the recomputed timeline is 132.046s (|Δ|=1.213s > 1.0, trailing-
+# silence shortfall), so the packet-copy AUDIO LOCK refuses. Rebuild the track from
+# this build's own 14 mp3 segments at the timeline offsets — nothing re-voiced, $0.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r086-b01", "out": "s01-some-time-after-jesus-was.jpeg", "seg": "n0",
