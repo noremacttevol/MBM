@@ -170,3 +170,48 @@ PREDATES that fix, so Cameron had never re-confirmed it.
 
 ### Cost
 $0 image credits (verify + ledger-close + one cache-buster edit). 0 rerolls.
+
+---
+
+## C-FIX 2026-08-07 (Machine A `Dev`) — DELIVERY RE-FORCE, $0, NO Gemini, NO re-cut
+
+### COMPLAINT LEDGER
+- OPEN complaint (reportedAgainst 824b4260a): "this is old pictures version i
+  dont know why im seing it here as fixed."
+  - **What in this cut fixes it:** NOTHING in the pictures needed to change.
+    Verified with my own eyes on the LIVE mp4 — frames extracted at
+    t=5/20/55/100/125s are all realistic biblical photography (olive-grove
+    prayer w/ locked cream-robe Jesus, kneeling disciples, the family's home
+    w/ bread, the alley cloak-on-the-step, the child's lamplit room). ZERO
+    cartoon. Live mp4 = HTTP 200, content-length 19,796,928 = byte-identical
+    to the local realistic-v2 file. The complaint is a **browser-cache
+    artifact**: his player cached the pre-2026-08-06 copy at the same filename.
+  - **Fix applied:** bumped the card's cache-buster to a token he has never
+    loaded (`?v=824b4260a3d6-fresh0807b`) so his next play physically
+    re-downloads the realistic cut; rewrote the card flag to say, in his words,
+    that nothing is old and to press Approve after watching once. Deployed +
+    live-verified.
+- Earlier complaint "lead→leed @1:27": FIXED at ship (824b4260a, AUDIO LOCK
+  PASS). Audio byte-identical, untouched.
+
+### ★ ROOT CAUSE OF WHY THIS ROW LOOPED (read before touching row 110 again)
+This complaint **cannot be closed by editing any local file.**
+`admin/sync-reviews.mjs` regenerates `REVIEW-LESSONS.json` AND `COMPLAINTS.md`
+from **Firestore** on every run (the autopilot triggers it). A complaint is
+`open` while Cameron has a complaint on record AND has not approved the current
+hash (sync line 72: `complaint && !approved`). The two prior C-FIX sessions set
+`REVIEW-LESSONS.json` row-110 `open:false` by hand — the very next sync
+overwrote it back to `open:true` (you can see this in the working-tree diff:
+committed HEAD = `open:false`, running-autopilot working copy = `open:true`).
+So it re-surfaced as the lowest waiting complaint and got re-dispatched.
+**DO NOT hand-edit REVIEW-LESSONS.json / COMPLAINTS.md `open` state — it is
+Firestore-derived and reverts.** The ONLY legitimate close is Cameron pressing
+Approve on a fresh view (which writes `approved` to Firestore), or an admin
+Firestore action to set `complaintOpen:false` for a confirmed non-defect. This
+session did NOT fake his approval.
+
+### STATUS
+Delivery is bulletproof and live. Row 110 now genuinely **AWAITS CAMERON** — he
+needs to open the card once (fresh, uncached), see the realistic pictures, and
+press Approve. There is no further production work; a re-cut here would be
+wasted credit repeating a non-defect.
