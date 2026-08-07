@@ -142,8 +142,11 @@ for r, b, st, au, cl, rd in rows:
         if author_live < 1:
             emit('author', r)
     elif (st == 'BUILT' and k in openc
-          and not re.search(r'C-FIX \d{4}-\d\d-\d\d', cl)
           and L[k].get('reportedAgainst') == cur.get(k)):
+        # NO stale-claim immunity: a complaint whose hash matches the LIVE cut
+        # means the row is broken NOW, even if an older C-FIX shipped — Cameron
+        # re-filing on a fixed cut re-opens it (2026-08-07, rows 10/13/17
+        # skipped for old C-FIX markers). active() already blocks live lanes.
         if not bd:
             emit('cfix', r)
     elif st == 'RUNNING' and 'A-auto' in cl and k in openc:
