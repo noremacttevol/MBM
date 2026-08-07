@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 66 (malchus-ear) C-FIX SHIPPED — opening arrest 0–30s + the 1:24 tree/sky seam fixed — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** ship (a) `2af3aaf9e57d04811a42b51626dbab08c810054f` (mp4 + QC.md + QUEUE.md + 5 rerolled stills) · review card (b) `83dbd46c2` · this board/RUNNER-LESSONS/STASH/SESSION-LOG commit + publish-loop `8ee476cb8`. **Session-chain verified at start:** then-top row-16 ship `83a56e774` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 66` + rubric first.
+
+**Complaint (Cameron, against the shipped cut — `v2_outline.py 66`, two parts, one re-cut):**
+1. *"all the pictures up to 0:30 of the army coming to arrest Jesus and his disciples defending him are bad and all need to be redone, people keep disappearing quickly and coming back and the army is going the wrong way. all just looks dumb."*
+2. *"1:24 is bad, the trees are all cut off weirdly to expose the night sky, just weird."*
+
+**Root cause (complaint 1):** the 0–30 s block is b01/b03/b04/b05. b04 (`wide:False`, disciples bunching) and b05 (`wide:False`, faces turned to Jesus) had EACH rendered as a near-copy of the b01 establishing wide (same Jesus-on-rock, same background torch line) — so across the intercut the identical crowd flickered in and out ("disappearing and coming back"), and the establishing torch column trailed away uphill ("wrong way"). New takes: s01 = Jesus alone on the rock; s03 = the mob ADVANCING toward him (Judas + helmeted guard leading, direction now unambiguous); s04 = disciples interposing; s05 = faces turned up to Jesus. Four distinct shots, one crowd that only closes IN. **Complaint 2:** 1:24 = 84 s = b15; the old take had a hard horizontal seam (canopy sliced flat, top third a stitched star-rectangle). New take frames the stars organically through the arching olive canopy — confirmed on the RENDERED mp4 at t=84.
+
+**Scope / touch-once:** ONLY the 5 named frames rerolled (b01, b03, b04, b05, b15); every other beat byte-identical. **Audio byte-identical** — assemble printed the same `AUDIO LOCK PASS SHA256=91d501ba…` as the original ship; nothing re-voiced, 176.5 s unchanged. Deployed to Firebase (`milk-b4-meat`) and LIVE-VERIFIED: live review.html carries `data-hash="2af3aaf9e57d…"`, mp4 returns HTTP 200 / 20,484,583 bytes.
+
+**Cost / COST LAW:** 5 rerolls = 17% of 29 beats (one frame over the 15% soft budget), MANDATED by Cameron's "all … redone" (4 frames) + the 1:24 frame — five is the minimum that satisfies his words; ALL landed first-attempt (no re-reroll). 5 × $0.134 = **$0.67** for the C-FIX. Meter → ~$496.87. New RUNNER-LESSONS entry logged: consecutive `wide:False` close beats in one place can reprint the establishing wide → intercut flicker + wrong-way direction; QC the opening AS A SEQUENCE.
+
+---
+
 ## 2026-08-07 — AUTOPILOT PICKER BUG FIXED (13 rows un-stranded) + rows 103/104/109 flipped to BUILT for cfix — Fable-5 author lane, Machine A `Dev` (UNATTENDED/HEADLESS, $0)
 
 **Commit:** `a3ab04b44` (autopilot.sh regex fix + AUTHOR-BOARD 103/104/109→BUILT + 102/113 QC routing-gap notes + SESSION-LOG) followed by this hash-reference amend commit. **Session-chain verified at start:** prior-top row-16 ship `063c19ef` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-FABLE5-AUTHOR.md + AGENT-RULES STANDING ORDER + this file's laws first. `$0` — no image generation.
