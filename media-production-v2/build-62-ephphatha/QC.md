@@ -50,3 +50,34 @@ under ceiling $449. **0 rerolls (0% of 34 beats — clean first attempt).**
 mark-7_ephphatha.mp4, 21.0 MB, 202.8s. Caption frames (output-seek) at 30s /
 120s / 200s: captions in the bottom band only, in sync; question card clean
 ("He does not heal for an audience…"), correct margins, no glyph squares.
+
+## C-FIX SHIP — 2026-08-07, Machine A `Dev` (AUTHOR-BOARD row 62, UNATTENDED/HEADLESS)
+
+New OPEN Cameron complaint on the SHIPPED cut:
+> "0:18 picture is bad it has someones eyes messed up"
+
+DIAGNOSIS: the 0:18 still is `s03-now-they-come-running.jpeg` (beat
+`v2-r062-b03`, window 14.59–22.76, on screen at t=18s under the caption "Last
+time Jesus was on this side of the sea, the people asked him to leave"). The
+old man at frame-left had a white AI smear across his eye sockets — a garbled
+eye render. Confirmed at full res before touching anything.
+
+FIX (touch-once, single frame): rerolled ONLY b03
+(`v2_gen_api.py --only v2-r062-b03 --redo --ceiling 525`). Every other frame
+byte-identical. New take: the old man and every legible face carry clean,
+correctly-rendered eyes; Jesus is the ONLY cream robe (checked the center-back
+crowd — muted tan working tunics, no second cream figure); no modern objects,
+no collage, all photographic; the larger "whole neighborhood" crowd fits the
+narration ("Now they come running… the whole neighborhood"). 1 reroll on a
+34-beat row = 3% (inside the ≤15% budget). $0.13 this run, meter $498.61→$498.75.
+
+### COMPLAINT LEDGER (C-FIX)
+- **OPEN — "0:18 picture is bad it has someones eyes messed up."** FIXED.
+  s03 rerolled; the old man's garbled eyes are gone, all faces clean-eyed.
+  Verified in the RENDERED mp4 at t=18s (extracted frame), not just the still.
+
+### RE-ASSEMBLY
+`v2_assemble.py 62` → **AUDIO LOCK PASS** SHA256
+`6786984813c4fe3bc99ed58b8e45f154484e11b1b5f5d19c0bcf384cdd8d3634` — IDENTICAL
+to the prior ship: narration/voices/timing untouched, audio byte-identical.
+mark-7_ephphatha.mp4, 21.0 MB, 202.8s.
