@@ -94,6 +94,41 @@ FIXED, three proofs, all verifiable:
 - **b14** John rendered light-brown again (consistent across b06/b09/b14 — reads
   as his younger-disciple look, within cast); no reroll.
 
+---
+
+## C-FIX — A-auto Machine A `Dev`, 2026-08-07 (demon-eyes complaint)
+
+### ⚑ OPEN COMPLAINT ON THE SHIPPED CUT (Cameron):
+> "0:37 seconds that picture is bad because jesus's eyes turned into light and
+> that is horrible looking it likes like a demon"
+
+**ROOT CAUSE:** JESUS LOCK v5 describes his eyes as "lit from within like a flame
+of fire." In the two high-radiance transfigured beats the model over-rendered
+that as literally light-EMITTING eyes (glowing white/blue orbs) — the "demon"
+look. The lock is a shared file (not editable by a runner); the fix is per-frame.
+
+**FRAMES SWEPT (root-cause, not just the one timestamp):** every transfigured
+beat where Jesus's face is visible was checked. Two carried the glowing-eye
+defect — **b07/s07** (0:37, the exact complaint) AND **b03/s03** (0:14, the full
+transfiguration). b02/b05/b10/b11 already had normal eyes → untouched.
+
+### COMPLAINT LEDGER
+- **b07 → s07 (0:37):** rerolled. New frame — Jesus's eyes are **normal warm
+  human eyes, no glow** (face-crop verified). Bonus: the reroll's first take
+  re-introduced the old cartoon tent-doodle Law-14 fail, so it was rerolled once
+  more → clean realistic frame, Peter mid-proposal with real hands, no overlay.
+  **FIXED — the 0:37 demon-eyes are gone.**
+- **b03 → s03 (0:14):** rerolled. Jesus's eyes are **normal** (face-crop
+  verified); the brightness is now fabric/face bloom only (sanctioned Light-Law
+  radiance), not glowing eyes. **FIXED.**
+
+### Cost / touch-once
+3 rerolls this C-FIX (b03 ×1, b07 ×2) @ ~$0.134 = **~$0.40**, meter $423.17 →
+$423.57. Reroll count is over the 15% soft budget for the row BUT justified:
+the second b07 reroll was mandatory — its first take introduced a NEW hard Law-14
+cartoon fail that could not ship. Audio untouched (**AUDIO LOCK PASS**, byte-
+identical). Everything but the two named frames is byte-identical to the prior cut.
+
 ### Light-Law / laws verified
 - b03 full-transfiguration radiance = fabric+face bloom, single figure, no ring/disc.
 - b11/b12/b15/b16 ordinary light, ordinary cream robe — the contrast IS the doctrine.
