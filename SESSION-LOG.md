@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 16 (mary-martha) C-FIX SHIPPED — "the mean-looking Jesus picture at 1:31-1:32" REMOVED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** ship (a) `063c19ef372db8cbc701b2695af303c167f8ab5a` (both mp4s + QC.md + beats_v2.py + ASSEMBLED-PROMPTS) + this board/review-card/SESSION-LOG commit (b). **Session-chain verified at start:** then-top row-73 ship `db30a0b1c` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 16` + rubric first.
+
+**Complaint (Cameron, against the shipped cut):** "the picture at 1:31 - 1:32 of jesus standing and looking mean needs to be removed. all the other ones are good enough that one for a breif second isnt needed." Single PICTURE-domain defect — a REMOVE, not a reroll.
+
+**What was already done (prior Fable-5 author session, committed):** identified the 1:31-1:32 frame as `s16-the-room-went-quiet.jpeg` (beat `v2-r016-b16`, a 1.44s wide of Jesus turned toward Martha that rendered stern/"mean"). Author REMOVED beat b16 entirely and absorbed its window (91.32-92.76) into the very next tender beat **b17 "not-a-scolding"** (the warm, fond close-up), now widened to 91.32-100.53 — so "the whole room went quiet" + "answered her gently" both play over the affectionate face, the exact opposite of the mean read. 26→25 beats, `--check` PASS. Audio untouched.
+
+**What THIS runner session did ($0, no image gen):** re-assembled the row WITHOUT s16 (`v2_assemble.py 16`) — generated NO new still, s17 already covered the extended window. **AUDIO LOCK PASS SHA256=d380ba61… — byte-identical** to the prior cut (nothing re-voiced), 166.8s / 20.2 MB. 0 rerolls / 25 beats = **0%** (well under the 15% budget); **$0 image spend** (reuse-only). Copied the new base mp4 to the shipped `…-realistic-v2.mp4` (both md5 433f2131…). QC of the RENDERED mp4: at 1:32 and 1:35 (where s16 used to sit) the frame is now the warm fond s17 close-up of Jesus looking up at Martha with real affection; captions bottom-band only; question card @2:43 clean.
+
+**Cost:** 0 rerolls, **$0** (no image generated — a pure removal/re-assemble). Far below the $6.10/row average; the cost-law trend holds DOWN.
+
+**Ship:** commit (a) `063c19ef372d`; review.html `id="v16"` → `data-hash=063c19ef372d…`, video src `?v=063c19ef372d`, "🛠 What this cut changed" flag answers the complaint in Cameron's own words (the mean picture is gone; the video now stays on the warm close-up where it used to flash; nothing else changed; audio byte-identical). `firebase deploy --only hosting` + live-verified on `https://milk-b4-meat.web.app/review.html`. AUTHOR-BOARD row 16 claim → C-FIX SHIPPED. Complaint cleared.
+
+---
+
 ## 2026-08-07 — ROW 73 (this-day-fulfilled) C-FIX SHIPPED — "fullness of the message" + "first 2 pictures make Jesus look one way then another" CLOSED — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** ship (a) `2ee8c1380231eaf856519c00402f58815219f3e8` (mp4 + QC.md + s02 + s18 + segs + QUEUE + STASH-INDEX + api-spend) + this board/review-card/SESSION-LOG commit (b). **Session-chain verified at start:** then-top row-61 ship `7e562c22` present in `git log`; hostname `Dev` = Machine A. Read PROMPT-OPUS-RUNNER.md + all laws + `v2_outline.py 73` + rubric + RUNNER-LESSONS first.
