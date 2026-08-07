@@ -1,3 +1,32 @@
+## 2026-08-06 (Opus 4.8, runner resume) — ROW 114 abraham-sodom V2 realistic SHIPPED + DEPLOYED — Machine A `Dev`
+
+**Commit:** 17a68c09fa5e0dfc90ebc13e02339c486dbc5afe (ship) + this commit (review card + deploy)
+
+Resumed the autopilot-parked row 114 (parked on Gemini billing-depletion after
+23/23 stills). Billing was topped up (other lanes generating). Only the two
+b13/b14 collages remained. **b14** ("yes I will spare it"): 1 reroll → clean
+single frame (rendered interior — no HEIGHT lock — added to FIX-WAVE with the
+b11/b12/b16/b17 interior-drift set). **b13** ("what about forty, thirty each"):
+the repeated-counting beat is a structural collage trigger — 2 rerolls BOTH
+returned 4-panel collages, so per the park note's own rule ("still collage →
+keep best + FIX-WAVE") kept the cleanest take (all-outdoor coherent panels,
+distant Sodom, no burned-in numbers) and FIX-WAVE'd it for an AUTHOR de-collage
+(not runner-fixable by reroll). Assembled: **AUDIO LOCK PASS**
+SHA256 0d9b7b00…, 19.5MB / 2:23; 3 caption frames checked (bottom-band only,
+question card clean). COMPLAINT LEDGER: none open (`v2_outline.py 114`).
+
+**Cost:** 3 rerolls / 23 beats = **13%** (within the ≤15% COST LAW budget).
+Resume spend this session ≈ **$0.40** (3 rerolls only — the 23 stills + portrait
+were already paid before the park), well under the $6.10/row running average
+because the expensive generation was reused, not re-pulled (COST LAW: reuse
+before regenerate). Meter ≈ $415.
+
+Shipped per runner step 7: mp4 + QC.md + QUEUE (commit 17a68c09), review.html
+card set to realistic-v2 with full hash + the honest "what changed" flag
+(including the b13 fix-pass note), firebase deploy, live-verified.
+
+---
+
 ## 2026-08-06 (Fable 5, main session, pt.3) — ALL 41 APPROVED VIDEOS PUBLISHED to the app as v2.1 — Cameron's correction acted on — Machine A `Dev`
 
 **Commit:** (this commit)
