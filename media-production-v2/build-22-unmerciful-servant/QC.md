@@ -1,6 +1,46 @@
 # QC — build-22-unmerciful-servant (row 22)
 
-## 🅿️ RUNNER PARK — C-FIX 2026-08-07 → NEEDS-AUDIO: WRONG JESUS VOICE at 2:46 (edge-tts j5 vs ElevenLabs siblings) [OPEN]
+## ✅ AUDIO-FIX SHIPPED 2026-08-07 (Machine A `Dev`): WRONG JESUS VOICE at 2:46 → j5 re-voiced ElevenLabs Chris [CLOSED]
+
+**Cameron's complaint (now CLOSED):** *"2:46 Jesus speaker is wrong one and it
+changes to the right one later in the video. if you would write the rules removing
+the option to use the old Jesus speaker then this wouldnt be a problem."*
+
+**Fix (audio only, $0 Gemini — 1 ElevenLabs segment):** Re-voiced ONLY `j5.mp3`
+through the build-local `mbm_eleven.render_segment(..., JESUS, key=…)` where
+`VOICE_ELEVEN[JESUS] = ("Chris", "iP95p4xoKVk53GoZ742B")` — the SAME voice ID that
+rendered j1/j3/j4/j2. Used the extracted `sk_…` token only (the shared key file now
+also holds a cloudflare token — passing the whole file as the header 400s). Kept the
+two-syllable **"should-est"** so the prior pronunciation complaint stays closed.
+Rendered natural take = **11.180s / 44100 Hz / 128 k** (ElevenLabs), then
+pitch-preserving **atempo=0.82744** stretch → **13.505s** to match the current j5
+window (13.512s) so NO hardcoded `beats_v2.py` picture window moves.
+- **Did NOT run plain `make_narration.py`** — that is edge-tts EricNeural (the DEAD
+  old Jesus speaker, 24000/48k) and is exactly what caused this defect (commit
+  `20a6ef72`). edge-tts is now BANNED for Jesus segments on an ElevenLabs build.
+- **Engine parity now uniform:** j1/j2/j3/j4/j5 all `44100 Hz / 128 k` (ElevenLabs
+  Chris). Verified by ffprobe.
+- **Audio baseline changed (sanctioned re-voice):** j5 SHA256 `4a6da5a2…` (edge-tts
+  Eric, WRONG) → `cc296ba1…` (ElevenLabs Chris, stretched). Prior takes preserved:
+  `j5.mp3.edge-eric-2026-08-07` (wrong take), `j5.mp3.eleven-chris-raw-11.18s`
+  (pre-stretch), plus their `.timing.json` backups. Nothing else re-voiced —
+  n0…n-final + j1/j2/j3/j4 byte-identical.
+- **Re-assembly** (`v2_assemble.py 22`, AUDIO_FROM_V1_SEGMENTS=True): **AUDIO REBUILD
+  PASS SHA256 `7194c10b7a778dc0…`**, 225.849s, 25 V1 segment mp3s summed. mp4
+  `matthew-18_unmerciful-servant.mp4` git-blob `f25cbd023b49`, 21.7 MB.
+- **Verified in the RENDERED V2 mp4** (faster-whisper on 2:38–3:01): j5 transcribes
+  the full KJV line with should-est at 2:41–2:54 (covering Cameron's 2:46), flowing
+  into n / j2 with no voice change — the wrong-speaker artifact is gone. Realistic V2
+  pictures (48) UNCHANGED — $0 Gemini, 0 rerolls.
+
+**Rule Cameron requested** ("remove the option to use the old Jesus speaker") was
+written 2026-08-07 into SPEAKER-LAW.md "OLD-JESUS-SPEAKER BAN", RUNNER-LESSONS.md, and
+PROMPT-AUDIO-FIX.md (hard ban — this session confirms the ban HELD: the fix went
+through ElevenLabs Chris, never edge-tts).
+
+---
+
+## 🅿️ RUNNER PARK — C-FIX 2026-08-07 → NEEDS-AUDIO: WRONG JESUS VOICE at 2:46 (edge-tts j5 vs ElevenLabs siblings) [RESOLVED — see SHIPPED block above]
 
 > **This SUPERSEDES the "✅ RESOLVED shouldest" block below.** The shouldest fix
 > "resolved" the pronunciation but INTRODUCED a worse defect: it re-voiced j5 in the
@@ -54,11 +94,10 @@ build).
 5. Board: NEEDS-AUDIO → BUILT, Audio CHECK → OK.
 
 ## COMPLAINT LEDGER (current)
-- **OPEN — [2:46 wrong Jesus speaker / voice changes mid-video]** → AUDIO-domain,
-  edge-tts→ElevenLabs re-voice of j5; PARKED NEEDS-AUDIO for the audio lane (see the
-  RUNNER PARK above). NOT fixed in this session — the runner cannot re-voice. The rule
-  Cameron requested ("remove the option to use the old Jesus speaker") IS written this
-  session into the law files.
+- **CLOSED 2026-08-07 — [2:46 wrong Jesus speaker / voice changes mid-video]** →
+  j5 re-voiced edge-tts Eric → ElevenLabs Chris (same voice ID as j1/j3/j4/j2),
+  atempo-matched to 13.505s, re-assembled + shipped + live-verified. All 5 Jesus
+  segments now uniform 44100/128k. See the SHIPPED block at the top.
 - CLOSED — [2:46 "shouldest" mispronunciation] → the two-syllable reading is preserved
   in the audio-lane resume above; it stays fixed after the re-voice.
 
