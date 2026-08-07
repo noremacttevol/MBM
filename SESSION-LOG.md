@@ -18,6 +18,22 @@ Author lane, told to start at AUTHOR-BOARD row 33 (LOW-NUMBER LAW), $0 on image 
 
 ---
 
+## 2026-08-07 — ROW 67 (The Transfiguration, Mark 9) C-FIX SHIPPED+LIVE: "demon eyes" complaint FIXED — Jesus's glowing light-eyes remade to normal human eyes in 2 frames, ~$0.40, audio byte-identical — Machine A `Dev` (Opus runner, complaint-first C-FIX)
+
+**Commit:** ship = `8f02a35b72cb076bfad8512826968b8b0bfeb27d` (mp4 + QC.md + QUEUE + AUTHOR-BOARD); review.html + this log + board→SHIPPED = (this commit). Live-verified on milk-b4-meat.web.app.
+
+**COMPLAINT-FIRST + LOW-NUMBER LAW** picked row 67: lowest waiting AUTHOR-BOARD row with an OPEN complaint on the shipped cut. `v2_outline.py 67`, Cameron's words: *"0:37 seconds that picture is bad because jesus's eyes turned into light and that is horrible looking it likes like a demon."* A PICTURE-domain complaint → fix the frame(s), do not re-park to audio.
+
+**Root cause (named, not just patched):** JESUS LOCK v5 describes his eyes as *"lit from within like a flame of fire."* In the two high-radiance transfigured beats the image model over-rendered that as literally light-EMITTING eyes — glowing white/blue orbs, the "demon" look. The lock is a shared file a runner may not edit, so the fix is per-frame. Logged to RUNNER-LESSONS so no future radiance beat repeats it.
+
+**Swept every transfigured frame, not just the timestamp** (a repeated complaint is ONE bug): b02/b05/b10/b11 already had normal eyes; **b07/s07 (0:37, the exact complaint) AND b03/s03 (0:14, the full transfiguration)** both carried the glowing-eye defect. Both rerolled → Jesus now has **normal warm human eyes, no glow** (face-crops of both verified at native res). s07's first reroll re-introduced the old cartoon tent-doodle Law-14 fail (its prompt literally says "sketching three tent-shapes in the air"), so it was rerolled once more → clean realistic frame, Peter mid-proposal with real hands, no overlay.
+
+**Touch-once + cost:** 3 rerolls this C-FIX (b03 ×1, b07 ×2) @ ~$0.134 = **~$0.40**, meter $423.17 → $423.57. Over the 15% soft reroll budget for the row, but the 2nd b07 reroll was mandatory — its first take introduced a NEW hard cartoon fail that could not ship; the alternative (shipping cartoon tents) violates the realistic-only law. Everything but the two named frames is **byte-identical** to the prior cut; **AUDIO LOCK PASS SHA256=860fee72…**, narration/voices/timing untouched. 100.0s/20.2MB. Running avg unaffected (a ~$0.40 C-FIX, not a fresh $6 build).
+
+**Verified:** gate exit 0, `v2_prompt.py --check` PASS, AUDIO LOCK PASS, 3 rendered-mp4 QC frames (0:14 s03 normal eyes + in-band caption; 0:37 s07 normal eyes + no cartoon + "…one for Elias" caption; question card clean). Review card answers the complaint in Cameron's own words ("your complaint — Jesus's eyes turned into light and it looks like a demon — is fixed").
+
+---
+
 ## 2026-08-07 — ROW 63 (man born blind, John 9) RESUME → PARKED NEEDS-AUDIO: OPEN complaint is Siloam mispronunciation, $0 spent, 0 pictures touched — Machine A `Dev` (Opus runner, strand resume)
 
 **Commit:** QC.md §0 park note + AUTHOR-BOARD row 63 → NEEDS-AUDIO + this log = (this commit).
