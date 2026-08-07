@@ -666,6 +666,42 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **`429 RESOURCE_EXHAUSTED` with body "Your prepayment credits are depleted" is a HARD billing wall, NOT the transient rate-limit 429 (2026-08-06, rows 115 & 116).** The brief's "retry once after 60 s, billing auto-reloads" applies to the rate-limit 429 only; the *prepayment-depleted* message does NOT clear on a 60 s retry (verified twice). It is GLOBAL to the Gemini key — every concurrent lane hits it, so there is NO other Ready row to fall to (the same dead key blocks all of them). Correct response: retry once to confirm, then PARK the row (QC.md RUNNER PARK + exact resume command; keep any already-generated stills — they are valid, do NOT regen), leave the board/QUEUE noting "Gemini credits depleted — Cameron top up AI Studio billing," add a SESSION-LOG entry flagging the ACTION FOR CAMERON, commit, push, and STOP the session clean. Do not burn turns re-trying or hopping rows on a depleted key.
 
 ## C-FIX / COMPLAINT HANDLING
+- **⛔ A TIMESTAMPED complaint MUST be resolved on the frame that RENDERS at that
+  second — found from the SHIPPED mp4 + the window map — NEVER by guessing the beat
+  from its NAME. Guessing the beat is how a "fixed" complaint SILENTLY REGRESSES and
+  comes back three times (2026-08-07, row 13 roof — Cameron re-filed "1:40 the man is
+  missing AGAIN, that was fixed previously but brought back").** Root cause of that
+  regression: the frame Cameron sees at 1:37/1:40 is `s17-easy-to-miss` (window
+  96.1–103.4s), which rendered ropes lowering an EMPTY mat (man missing + ropes-to-
+  nothing = his "ghost ropes / weird room"). But the beat literally NAMED
+  "…missing-the-man…" work went to `s18-the-four-sweat-streaked-faces` (window
+  103.4–108.5s) THREE times — the man was "restored" in a frame that plays 3–5s LATER
+  than the one he sees, so from his seat it was never fixed and looked like a
+  regression. Each fix even PASSED its own QC by checking s18 at 105.5s — the wrong
+  timestamp. THE GATE (do this every C-FIX, no exceptions):
+  1. **Map complaint-second → asset via the window table**, not the name. The table is
+     the dict at the bottom of `beats_v2.py` (`"sNN-...jpeg": ("segN", start, end)`),
+     or `python3 -c "import beats_v2,bisect; ..."`. Cameron's clock is loose (±5s) —
+     read the asset whose window CONTAINS the second AND its immediate neighbours.
+  2. **Extract that exact second from the CURRENTLY-SHIPPED mp4** (`ffmpeg -ss <sec>
+     -i <shipped.mp4> -frames:v 1`) and confirm with your eyes THAT is the frame he
+     means before touching anything. The rendered mp4 is ground truth; the beat name
+     lies (b18 is "four-sweat-streaked-faces" but the defect lived in b17).
+  3. Fix THAT asset. **Verify by re-extracting the SAME second from the RE-BUILT mp4**
+     — not the beat's mid-window, the complaint's second. If the defect frame isn't
+     visibly different at that second, you fixed the wrong beat.
+  4. A single defect frame can trigger MULTIPLE of his timestamps (row 13: the one
+     empty-mat frame is both his "1:40 missing man" and his "1:49 ghost ropes/weird
+     room they are dropping him into"). Don't split one frame's fix across two
+     unrelated beats — find the ONE frame that explains all the words.
+- **A shipped C-FIX mp4 must be committed WITH its changed assets in the SAME commit
+  (row 13, contributing cause).** The prior ghost-rope ship committed only the mp4;
+  `git log -- assets-realistic/s18…` showed its last commit was the EARLIER fix, so
+  s14/s15/s18 sat UNCOMMITTED — the shipped render depended on working-tree files that
+  any `git checkout`/clean would silently revert to the old frame. Always
+  `git add -f` every touched `assets-realistic/*.jpeg` alongside the mp4 so the tree
+  that built the cut is the tree in git. `git status assets-realistic/` must be clean
+  after you ship.
 - **"lost his beard at N seconds" is usually a WIDE-SHOT small-face drop, and the
   beat text hard-gating the beard does NOT guarantee it renders (2026-08-06, row 9
   b10).** s10-he-meant-it rendered the rich young man clean-shaven even though its
