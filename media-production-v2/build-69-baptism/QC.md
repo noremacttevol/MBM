@@ -1,5 +1,43 @@
 # QC / RUNNER HANDOFF — build-69-baptism
 
+## ✅ C-FIX SHIPPED 2026-08-07 (Machine A / Dev) — John's hair "changed to orange"
+
+COMPLAINT LEDGER (v2_outline, OPEN → NOW FIXED):
+  "Johns hair changed to orange and its not keeping his character to the
+   reference we have in multiple pictures please check all and redo ones
+   that he doesnt look like what the reference laid out for him."
+
+ROOT CAUSE + WHAT FIXED IT:
+- Checked ALL 14 John-bearing frames side-by-side against the locked
+  reference CAST-REF-V2/baptist.jpeg (black hair with grey streaks, full
+  dark beard, tan skin): s01, s02, s06, s07, s08, s09, s12, s13, s16, s17,
+  s19, s21, s26, s29. Thirteen of the fourteen already carry correct
+  black/grey hair. The ONE outlier was **s12 (beat b12)** — under the warm
+  low side-light John's hair rendered a light sandy grey-gingery tone that
+  reads "orange," clearly off the black reference. This is exactly the drift
+  the prior FIX-WAVE note (a) flagged ("greyer/lighter in b12"); Cameron's
+  complaint escalates it from FIX-WAVE to must-fix.
+- FIX: `v2_gen_api.py build-69-baptism --only b12 --redo` — ONE reroll,
+  re-anchored to the BAPTIST face-lock ("sun-shot black hair") + the
+  reference image. New s12: John's hair is dark black/grey matching the
+  reference, full dark beard; Jesus in cream (only cream-wearer), no
+  halo/glow, both figures ordinary-sized, action reads (Jesus lowering
+  John's protesting hands), anatomy clean, nobody faces the lens.
+  Original saved to /tmp/s12-orig-backup.jpeg (not committed).
+- Verified in the RENDERED mp4 at t=63s (s12 window 61.04-66.42): the fixed
+  black-haired John is on screen; caption in the bottom band; question card
+  clean.
+
+TOUCH-ONCE / COST: this was the only open complaint on the row. 1 reroll of
+29 beats = 3.4% (well under the 15% budget). Spend this C-FIX ≈ $0.13.
+
+AUDIO UNTOUCHED — byte-identical to the shipped cut: AUDIO REBUILD PASS
+SHA256 = 7132e43f637005e1bb774c0635ee7eaf11a3be295ff646d5938fead5c3040684
+(same hash as the 2026-08-06 ship), mp4 172.3s. No TTS, no wording, no
+timing changed — only the s12 picture.
+
+---
+
 Complaint-gate addendum, 2026-08-05 (Machine A).
 
 ## OPEN CAMERON COMPLAINT — gates before build
