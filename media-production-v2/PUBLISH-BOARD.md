@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T11:17:31_
+_Last sync: 2026-08-07T11:53:57_
 
 ## Summary
 
-- **BUILDING** — 79 row(s)
+- **BUILDING** — 78 row(s)
 - **LIVE — OLD STYLE (v1)** — 43 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 34 row(s)
+- **ON REVIEWER — awaiting Cameron** — 35 row(s)
 
 ## The rows
 
@@ -108,7 +108,7 @@ _Last sync: 2026-08-07T11:17:31_
 | 85 | Shepherds and Angels | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 86 | The Wise Men | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 87 | Boy in the Temple | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 88 | Triumphal Entry | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 88 | Triumphal Entry | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 89 | The Last Supper | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 90 | Washing the Disciples Feet | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 91 | Gethsemane | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
