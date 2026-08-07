@@ -86,3 +86,55 @@ RUNNER QC (17 beats, 0 portraits — cast sheets reused):
   modern — minor, the scroll subject itself is period-correct.
 - Spend this row: ~$2.53 (b01 + 16-batch + 2 rerolls, 0 portraits). Well under
   the $6.10/row baseline; reroll % 11.8% under the 19% baseline. COST LAW: down.
+
+────────────────────────────────────────────────────────────────────────
+RUNNER PARK — 2026-08-07 (Machine A `Dev`) — NEEDS-REBUILD (author lane)
+────────────────────────────────────────────────────────────────────────
+Cameron filed a complaint against the shipped v73 cut. Read in full via
+`python3 media-production-v2/v2_outline.py 73`. His words:
+
+  "the first 2 pictures make Jesus look one way and then another. the entire
+   messge from this [isn't] giving the fullnes of his message. it should teach
+   people how He meant what he said and not jsut 'he still reads it the same'
+   [but that] he has risen and continues the plan. we need to start looking at
+   this how the prophets of then and the restored church today the Church of
+   Jesus Christ of Latter Day Saints would share these messages. obviously
+   without telling it that its that church that is makingit so but just teaching
+   how we know Jesus would want us to."
+
+WHY THIS IS A PARK, NOT A RUNNER C-FIX
+--------------------------------------
+The DOMINANT thrust is an AUTHOR content rebuild — exactly the class in
+RUNNER-LESSONS §511 ("a complaint asking for ADDED scholarship / teaching /
+'tell it differently' is an AUTHOR content rebuild, NOT a runner reroll or an
+audio re-voice"). The runner may not edit scene text or beat content, and no
+picture reroll touches the message. The narration currently reports the event
+("this day is this scripture fulfilled … he still reads it the same"); Cameron
+wants it to TEACH the fullness — that Jesus meant every word, that He has risen
+and continues the same plan today, in the voice/frame the prophets and the
+restored Church of Jesus Christ would use, WITHOUT ever naming that church.
+That changes the beat map (rewritten narration, likely 1-2 added teaching
+beats). Author domain.
+
+Shipping a picture-only fix would leave the message complaint OPEN — the worst
+failure this pipeline can produce. So: park, $0, pictures + audio byte-identical.
+
+FOR THE AUTHOR (both parts of the complaint — batch into ONE rebuild)
+--------------------------------------------------------------------
+1. MESSAGE (primary): rewrite the narration so it teaches the fullness of the
+   Nazareth-synagogue moment — not "he still reads it the same" but that the
+   scripture He read (Isaiah 61) is His own mission statement, that He is risen
+   and STILL fulfilling that same plan today, taught the way living prophets /
+   the restored Church would teach it, WITHOUT naming the church. Keep it milk,
+   let Jesus's own words carry it (Two-Voice law intact).
+2. PICTURE (secondary, cured by the rebuild): the opening Jesus face drifts.
+   Confirmed by viewing — s01-he-came-back-to-nazareth: lighter brown wavy
+   hair, softer/lighter face; s02-and-there-was-delivered-unto: near-black
+   thicker hair, fuller darker beard, different face shape/skin. They read as
+   two different men. Lock the JESUS-MASTER-REF face across the opening beats
+   in the rebuild (attach REF + JESUS LOCK v3 to every opening Jesus shot; run
+   jesus_face_gate before ship).
+
+STATE: AUTHOR-BOARD row 73 → NEEDS-REBUILD, Ready empty. Author lane picks it
+up next (LOW-NUMBER LAW: low rows first). $0 spent, 0 pictures touched, audio
+byte-identical.

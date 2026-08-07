@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 73 (This Day Fulfilled, Luke 4) PARKED NEEDS-REBUILD: Cameron's complaint is AUTHOR content-rebuild (fullness of the message + opening Jesus face drift), NOT a runner reroll — flipped to author lane, $0, pictures+audio byte-identical — Machine A `Dev`
+
+**Commit:** AUTHOR-BOARD row 73 BUILT→NEEDS-REBUILD (Ready cleared, RUNNER PARK note) + build-73/QC.md RUNNER PARK block + RUNNER-LESSONS.md combined-complaint lesson + this log = (this commit).
+
+COMPLAINT-FIRST + LOW-NUMBER LAW: row 73 was the lowest AUTHOR-BOARD row with an OPEN Cameron complaint. Session-chain read at start (verified prior top-entry commit 7a6616e22 in `git log`); hostname `Dev` = Machine A. UNATTENDED + headless.
+
+**Cameron's complaint** (`v2_outline.py 73`): *"the first 2 pictures make Jesus look one way and then another. the entire messge from this [isn't] giving the fullnes of his message. it should teach people how He meant what he said and not jsut 'he still reads it the same' [but that] he has risen and continues the plan. we need to start looking at this how the prophets of then and the restored church today the Church of Jesus Christ of Latter Day Saints would share these messages. obviously without telling it that its that church that is makingit so but just teaching how we know Jesus would want us to."*
+
+**Why a park, not a runner C-FIX.** The dominant thrust is an AUTHOR content rebuild — RUNNER-LESSONS §511 (a complaint asking to ADD teaching / "tell it differently" that changes the beat map is author-domain; the runner may not edit scene text or beat content, and no picture reroll touches the message). The narration currently reports the event; Cameron wants it to TEACH the fullness — that Jesus meant every word, has risen, and continues the same plan today, framed the way the prophets/restored Church teach it WITHOUT naming the church. Shipping a picture-only reroll would leave the message complaint OPEN — the worst failure the pipeline can produce.
+
+**The picture half is real too, and cured by the rebuild.** Viewed s01 vs s02: s01 lighter brown wavy hair + softer/lighter face; s02 near-black thicker hair + fuller darker beard + different face/skin — reads as two different men. The author rebuild regenerates the opening stills (attach REF + JESUS LOCK, run the face gate), curing the drift for free. Both parts handed to the author in QC.md.
+
+**Cost.** $0 spent, 0 pictures touched, audio byte-identical. New RUNNER-LESSONS line added: a combined picture-drift + message complaint whose dominant thrust is message is a WHOLE author rebuild — don't get lured into a picture-only reroll.
+
+---
+
 ## 2026-08-07 — ROW 69 (Baptism of Jesus, Matt 3) C-FIX SHIPPED: Cameron's "John's hair changed to orange" CLOSED — rerolled ONLY s12/b12 to black-per-reference, audio byte-identical, deployed + live-verified — Machine A `Dev` (~$0.13, 1 reroll)
 
 **Commit:** 7a6616e22fde (fixed s12 + mp4 + QC.md) + this commit (review.html card v69 hash→7a6616e22fde + complaint-answering flag, AUTHOR-BOARD row 69 → C-FIX SHIPPED, SESSION-LOG). Claim commit dd7b2939b.
