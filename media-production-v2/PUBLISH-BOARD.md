@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T05:08:58_
+_Last sync: 2026-08-07T05:14:13_
 
 ## Summary
 
-- **BUILDING** — 92 row(s)
+- **BUILDING** — 91 row(s)
 - **LIVE — OLD STYLE (v1)** — 43 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 42 row(s)
-- **ON REVIEWER — awaiting Cameron** — 21 row(s)
+- **ON REVIEWER — awaiting Cameron** — 22 row(s)
 
 ## The rows
 
@@ -97,7 +97,7 @@ _Last sync: 2026-08-07T05:08:58_
 | 74 | The Woman Who Washed His Feet | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 75 | The Woman Taken in Adultery | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 76 | Suffer the Little Children | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 77 | The Widows Mite | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 77 | The Widows Mite | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 78 | Who Is My Mother | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 79 | The Seventy Sent | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 80 | Come Unto Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
