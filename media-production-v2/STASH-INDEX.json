@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-07 13:15:46",
+ "scanned": "2026-08-07 13:36:06",
  "entries": [
   {
    "row": 1,
@@ -42775,6 +42775,179 @@
    "scene": "The closing frame, the camera high behind the emptying yard, draws the gospel as a diagram of two roads: on one side the freed man walking out small into the bright open street, unchained and undeserving \u2014 on the other t"
   },
   {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b01",
+   "file": "build-94-father-forgive-them/assets/s01-and-when-they-were-come.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "From down the slope, the camera behind the scattered watchers' backs, the place called The Skull holds its terrible geometry against the cold grey sky: three raised crosses far off on the bare rock crown \u2014 the centre one"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b02",
+   "file": "build-94-father-forgive-them/assets/s02-every-right-to-call-down.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the face that holds every right in the universe and uses none of it: chest-up against the cold grey sky, the features drawn deep with what the body is bearing, breath coming hard \u2014 and in the warm brown eyes, se"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b03",
+   "file": "build-94-father-forgive-them/assets/s03-they-brought-him-to-a.jpeg",
+   "tokens": [
+    "HILL",
+    "SOLDIERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Mid-slope the frame takes in the working summit: the three crosses standing dark against the overcast, and beneath them the execution detail at its routine \u2014 one soldier planting the squad's spears point-down, another so"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b04",
+   "file": "build-94-father-forgive-them/assets/s04-he-had-every-reason-to.jpeg",
+   "tokens": [
+    "HILL",
+    "SOLDIERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "From high behind the centre beam's line the frame looks down on the reasons: four helmeted men moving about their business on the rock below \u2014 trading a joke by the spear-stack, passing a waterskin, one yawning into the "
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b05",
+   "file": "build-94-father-forgive-them/assets/s05-and-they-parted-his-raiment.jpeg",
+   "tokens": [
+    "SOLDIERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the morning's small plunder: the plain cream robe folded on the rock between four kneeling soldiers, dark hands already parting the lesser garments into shares \u2014 and over the one good piece, too fine to tear, th"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b06",
+   "file": "build-94-father-forgive-them/assets/s06-while-he-hung-there-the.jpeg",
+   "tokens": [
+    "HILL",
+    "SOLDIERS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "One vertical frame holds, the camera at the hill's side so cross-foot and dice game read in profile, the whole obscene arrangement: at its bottom the four soldiers hunched over their dice game on the rock, a toss going u"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b07",
+   "file": "build-94-father-forgive-them/assets/s07-that-is-what-was-going.jpeg",
+   "tokens": [
+    "SOLDIERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the rock floor beneath the cross: the knucklebones mid-tumble between the kneeling men, one soldier's hand already reaching, another's head back in an easy laugh at the throw \u2014 the small ordinary sounds of a gam"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b08",
+   "file": "build-94-father-forgive-them/assets/s08-and-instead-of-a-curse.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close against the cold sky the first words of the cross gather: the drawn face lifting, the cracked lips beginning to move \u2014 and any watcher bracing for the curse earned a hundred times over this morning would watch the "
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b09",
+   "file": "build-94-father-forgive-them/assets/s09-father-forgive-them-for-they.jpeg",
+   "tokens": [
+    "HILL",
+    "SOLDIERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The prayer goes up over everyone it covers: the wide grey hill with the lifted face at the top of the centre cross \u2014 FATHER, FORGIVE THEM \u2014 and below and around it every unknowing head the words are spent on: the soldier"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b10",
+   "file": "build-94-father-forgive-them/assets/s10-not-forgive-them-later-if.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One frame holds the tense of the miracle: at its top the praying face against the grey, the words still moving on the lips \u2014 and at its bottom edge, small and in-focus, the dice still tumbling, the shares still being div"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b11",
+   "file": "build-94-father-forgive-them/assets/s11-that-is-how-far-his.jpeg",
+   "tokens": [
+    "HILL",
+    "SOLDIERS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wide frame measures, the camera far off taking the whole hill from the side, the reach: from the centre cross the hill falls away in every direction \u2014 the soldiers at its foot, the watch at his spear, the huddled wat"
+  },
+  {
+   "row": 94,
+   "build": "build-94-father-forgive-them",
+   "beat": "v2-r094-b12",
+   "file": "build-94-father-forgive-them/assets/s12-there-is-no-one-and.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame opens the circle outward: the centre cross high and steady against the vast cold sky, the hill's small figures scattered below it \u2014 and at the picture's near edge, empty ground: bare grey rock in the fo"
+  },
+  {
    "row": 101,
    "build": "build-101-still-small-voice",
    "beat": "v2-r101-b01",
@@ -43656,6 +43829,7 @@
    "beat": "v2-r103-b04",
    "file": "build-103-peters-confession/assets/s04-it-was-an-easy-question.jpeg",
    "tokens": [
+    "CLIFF",
     "PETER",
     "ANDREW"
    ],
@@ -43688,6 +43862,7 @@
    "beat": "v2-r103-b06",
    "file": "build-103-peters-confession/assets/s06-some-say-elijah-come-back.jpeg",
    "tokens": [
+    "CLIFF",
     "ANDREW"
    ],
    "jesus": false,
@@ -43783,6 +43958,7 @@
    "beat": "v2-r103-b12",
    "file": "build-103-peters-confession/assets/s12-not-a-prophet-not-a.jpeg",
    "tokens": [
+    "CLIFF",
     "PETER"
    ],
    "jesus": false,
@@ -43797,6 +43973,7 @@
    "beat": "v2-r103-b13",
    "file": "build-103-peters-confession/assets/s13-peter-said-out-loud-the.jpeg",
    "tokens": [
+    "CLIFF",
     "PETER",
     "JOHN",
     "ANDREW"
@@ -43828,6 +44005,7 @@
    "beat": "v2-r103-b15",
    "file": "build-103-peters-confession/assets/s15-you-did-not-work-this.jpeg",
    "tokens": [
+    "CLIFF",
     "PETER"
    ],
    "jesus": true,
@@ -43858,6 +44036,7 @@
    "beat": "v2-r103-b17",
    "file": "build-103-peters-confession/assets/s17-and-they-had-plenty-of.jpeg",
    "tokens": [
+    "CLIFF",
     "PETER",
     "ANDREW",
     "JOHN"
@@ -46075,13 +46254,14 @@
    "tokens": [
     "GARDEN",
     "ADAM",
-    "EVE"
+    "EVE",
+    "GOD"
    ],
    "jesus": false,
    "wide": false,
    "night": false,
-   "n_person": 2,
-   "scene": "Down the evening path the first friendship takes its walk: the man and woman strolling far off through the deep green, easy and unhurried, her long dark hair swaying to her waist \u2014 and moving BESIDE their way, keeping pa"
+   "n_person": 3,
+   "scene": "Down the evening path the first friendship takes its walk: the man and woman strolling far off through the deep green, easy and unhurried, her long dark hair swaying to her waist \u2014 and walking BESIDE them, keeping their "
   },
   {
    "row": 113,
@@ -46157,7 +46337,7 @@
    "wide": false,
    "night": false,
    "n_person": 1,
-   "scene": "Down the evening path he comes himself, as he has come every evening of their lives: the Father walking the garden in the cool of the day, white-robed and unhurried among his trees, leaves stirring at his passing, the lo"
+   "scene": "Down the evening path he comes himself, as he has come every evening of their lives: the Father walking the garden in the cool of the day, robed in brilliant white, white hair and full white beard, unhurried among his tr"
   },
   {
    "row": 113,
@@ -46198,13 +46378,14 @@
    "tokens": [
     "GARDEN",
     "ADAM",
-    "EVE"
+    "EVE",
+    "GOD"
    ],
    "jesus": false,
    "wide": true,
    "night": false,
-   "n_person": 2,
-   "scene": "The wide frame holds, the camera at the clearing's side so hider and seeker share one profile, the oldest family scene there is: somewhere in the darkening green, two small frightened people pressed behind a tree \u2014 and f"
+   "n_person": 3,
+   "scene": "The wide frame holds, the camera at the clearing's side so hider and seeker share one profile, the oldest family scene there is: somewhere in the darkening green, two small frightened people pressed behind a tree \u2014 and s"
   },
   {
    "row": 113,
@@ -46214,13 +46395,14 @@
    "tokens": [
     "GARDEN",
     "ADAM",
-    "EVE"
+    "EVE",
+    "GOD"
    ],
    "jesus": false,
    "wide": false,
    "night": false,
-   "n_person": 2,
-   "scene": "The question does its work: from behind the great trunk the man steps trembling into the edge of the gold \u2014 leaf-girdled, arms half-crossed over himself, every muscle wanting the shadow back \u2014 and the woman close behind "
+   "n_person": 3,
+   "scene": "The question does its work: from behind the great trunk the man steps trembling toward the waiting white-robed Father \u2014 leaf-girdled, arms half-crossed over himself, every muscle wanting the shadow back \u2014 and the woman c"
   },
   {
    "row": 113,
@@ -46347,13 +46529,14 @@
    "beat": "v2-r113-b20",
    "file": "build-113-where-art-thou/assets/s20-and-instead-god-did-something.jpeg",
    "tokens": [
-    "GARDEN"
+    "GARDEN",
+    "GOD"
    ],
    "jesus": false,
    "wide": false,
    "night": false,
-   "n_person": 0,
-   "scene": "What waits for them is not the end: on a smooth stone in the last warm light lie two garments \u2014 coats of soft dark leather, well made, man-sized and woman-sized, laid out with the unmistakable care of hands that measured"
+   "n_person": 1,
+   "scene": "What waits for them is not the end: the Father himself, white-robed, white-haired and full-bearded, stands in the last warm light and holds out to them two garments \u2014 coats of soft dark leather, well made, man-sized and "
   },
   {
    "row": 113,
@@ -46428,7 +46611,7 @@
    "wide": false,
    "night": false,
    "n_person": 0,
-   "scene": "The path settles the doctrine by its light: the garden way at evening, open and unbarred \u2014 and the warm gold not pooled at its far end waiting for the cleaned-up to arrive, but moving OUTWARD along the stones, through th"
+   "scene": "The path settles the doctrine by its shape: the garden way at evening, open and unbarred \u2014 the road not ending at some far gate for the cleaned-up to reach, but running OUTWARD along the stones, through the gap, out into"
   },
   {
    "row": 113,
