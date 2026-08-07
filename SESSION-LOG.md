@@ -1,3 +1,30 @@
+## 2026-08-06 (Opus 4.8, COMPLAINT-FIRST C-FIX headless lane) — ROW 1 cloak: Cameron picture complaint fixed, re-cut + SHIPPED + LIVE — Machine A `Dev`
+
+**Commit:** a5c874613 (mp4+QC+assets+QUEUE) + this commit (review card + SESSION-LOG)
+
+Ran PROMPT-OPUS-RUNNER.md under THE COMPLAINT-FIRST LAW. Cameron filed a complaint
+against the shipped v3 cut of row 1 (`v2_outline.py 1`): *"1:10 picture has Jesus's
+eyes looking weird, also she touches the edge of his cloak and the tassels only not
+his back thigh which is how the pcture at 0:52 is showing."* Two PICTURE defects.
+
+Mapped to beats: **0:52 → b11 `s11-touches-hem`** (her open hand was on Jesus's
+lower back/thigh) and **1:10 → b15 `s15-disciples-protest`** (Jesus's eyes pale/
+greenish, dead/misaligned stare — b15 already carried the author's CAMERON GATE
+text for exactly this). Confirmed both defects by eye on the shipped assets.
+
+**Fix:** `v2_gen_api.py --only b11 b15 --redo --ceiling 441` — 2 shots, $0.27,
+meter $415.27 → $415.53. New s11: she is sunk low behind him, hand at the very
+bottom edge/tassels near his ankles (edge only, not thigh). New s15: Jesus's eyes
+warm brown, both open, symmetric, aligned. Other 18 frames byte-identical.
+`v2_assemble.py 1` → **AUDIO LOCK PASS** (SHA256 63014156…, unchanged — audio
+byte-identical). 3 caption frames QC'd (bottom band only, card clean). Touch-once:
+both open complaints batched into ONE re-cut.
+
+**Cost:** 2 rerolls / 20 beats = 10% (under 15% budget). $0.27 this row — a
+complaint fix touching 2 frames, well under the $6.10/row running average; keeps
+the cost trend DOWN. Deployed to Firebase + live-verified; review card flag answers
+Cameron's complaint in his own words. Board: C-FIX 2026-08-06 SHIPPED.
+
 ## 2026-08-06 (Opus 4.8, AUDIO-FIX headless lane) — ROW 61 syrophoenician-woman STALE-V1 cleared + realistic-V2 SHIPPED + LIVE — Machine A `Dev`
 
 **Commit:** 25639cd75 (card+audio+board) + 4b49be56d (force-add v2 mp4) + this commit (SESSION-LOG)
