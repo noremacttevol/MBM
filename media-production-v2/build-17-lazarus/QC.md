@@ -1,5 +1,24 @@
 # QC / RUNNER HANDOFF — build-17-lazarus (John 11:1-44)
 
+## COMPLAINT LEDGER (C-FIX 2026-08-07, Machine A `Dev`, Opus runner)
+
+- **[RESOLVED] "At 12 seconds the picture has shoes removed but still
+  showing toes inside and lamps that burn from the middle."** → beat
+  v2-r017-b03 / still `s03-their-home-was-the-one.jpeg` (shown 11.27–18.61s;
+  12s lands on it). b03's prompt was gated (empty leather sandals, wick-only
+  lamps — commit 1591d3fcf) and s03 was regenerated to that gate. Verified in
+  the RENDERED mp4 at t=12s: the set-aside sandals are EMPTY leather — no
+  toes, feet or foot-shapes inside them; the clay oil lamp burns ONLY at its
+  wick/spout, not from the middle of the bowl. Lamp-gate swept across every
+  interior frame: s03 is the only lamplit frame carrying a lamp (s01/s02/
+  s04/s05/s06/s13 interiors + exteriors carry no lit lamp); no other
+  middle-burning lamp exists in the build. Everything outside s03 is
+  byte-identical to the prior cut; audio unchanged (AUDIO REBUILD PASS
+  SHA256=04129d162d94d330ebdd3a8236232d229f847b2afec3fa8b99b308a36a4d3b08).
+  No other complaint open on this row.
+
+
+
 Authored from scratch to lessons 11–12 on 2026-08-05 (Machine A).
 `v2_prompt.py --check` PASSES with zero WARNs at handoff. 61 beats,
 316.5 s. Audio column OK on AUTHOR-BOARD (new-voice verified).
@@ -188,12 +207,14 @@ carried from their committed plates.
 - s58: the raised Lazarus is redressed in rust-brown vs his living
   olive-green; face holds via the portrait REF.
 
-## OPEN CAMERON COMPLAINT — gates before rebuild
+## [RESOLVED 2026-08-07] CAMERON COMPLAINT — gates + rebuild done
 
 "At 12 seconds the picture has shoes removed but still showing toes
 inside and lamps that burn from the middle" → beat v2-r017-b03.
 1. The set-aside sandals are EMPTY leather — no toes, feet or
-   foot-shapes inside them.
+   foot-shapes inside them.  ✅ FIXED (s03 regen, verified at t=12s).
 2. Every clay oil lamp burns ONLY at its wick/spout — never a flame
    rising from the middle of the bowl. Check every lamp in every
-   lamplit frame of the build, not just b03.
+   lamplit frame of the build, not just b03.  ✅ FIXED — s03's lamp
+   now burns at the spout; s03 is the ONLY lamplit frame with a lamp,
+   so the sweep is complete. See COMPLAINT LEDGER at top of file.
