@@ -215,6 +215,12 @@ machine obeys it without Cameron typing anything.
    beats; reuse before regenerate; touch each row ONCE (every re-cut voids his
    approval and re-queues the video); every session logs $/row + reroll %
    against the running average. The trend must go down.
+9. **THE COMPLAINT-FIRST LAW (Cameron, 2026-08-06: "always do the ones that
+   are complained about asap").** A row with an OPEN complaint outranks all
+   other work in every queue: complaint-fix re-cuts of shipped rows first,
+   then complained rows first within stranded resumes, audio fixes, and fresh
+   builds. His complaint is him having already asked — new production never
+   cuts in line ahead of it. Enforced mechanically in autopilot.sh.
 
 ## Locked Product Direction (June 2026) — do not regress these
 

@@ -15,10 +15,13 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
   24 hours" — override with MBM_LANES). Claim-by-push keeps lanes off each
   other's rows. Fresh session per run = clean context = the "one video per
   chat" law.
-- **Four job types, in priority order** (2026-08-06): stranded-resume →
-  **AUDIO-FIX** (PROMPT-AUDIO-FIX.md — closes Cameron's audio complaints on
-  NEEDS-AUDIO rows; $0 Gemini) → ready-build → author (PROMPT-FABLE5-AUTHOR.md,
-  refills the board from NEEDS-BEATS).
+- **Five job types, in priority order** (THE COMPLAINT-FIRST LAW, Cameron
+  2026-08-06): **COMPLAINT-FIX** (re-cut a shipped row Cameron complained
+  about — his complaint outranks everything) → stranded-resume → **AUDIO-FIX**
+  (PROMPT-AUDIO-FIX.md — closes audio complaints on NEEDS-AUDIO rows; $0
+  Gemini; max one lane) → ready-build → author (PROMPT-FABLE5-AUTHOR.md,
+  refills the board from NEEDS-BEATS). Within every queue, complained-about
+  rows go first; the loop re-syncs his live complaints each tick.
 - **Billing breaker with fallback:** when the Gemini prepayment is depleted,
   paid jobs (resume/build) are blocked but the loop does NOT idle — audio and
   author work continue free. Top up at https://ai.studio/projects and paid

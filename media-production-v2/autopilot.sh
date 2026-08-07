@@ -66,21 +66,66 @@ cd "$REPO"
 
 # --- what work exists? -------------------------------------------------------
 # AUTHOR-BOARD columns: | Row | Build | State | Stills | Audio | Claim | Ready |
-# Cameron 2026-08-06: "there are some to be just fixed and those would be
-# faster and should be done first" — among Ready rows, the one with the MOST
-# already-paid banked stills finishes fastest and cheapest, so it goes first.
+
+# THE COMPLAINT-FIRST LAW (Cameron, 2026-08-06: "you should always do the ones
+# that are complained about asap. that should be a new rule"). His complaints
+# are him having already asked — they outrank everything in every queue.
+[ "$DRY" -eq 0 ] && (cd "$REPO/admin" && timeout 60 node sync-reviews.mjs >/dev/null 2>&1 || true)
+COMPLAINED="$(python3 - <<'PYEOF' 2>/dev/null || true
+import json
+try:
+    d=json.load(open('media-production-v2/REVIEW-LESSONS.json'))
+    print(' '.join(k for k,v in d.items() if isinstance(v,dict) and v.get('open')))
+except Exception: pass
+PYEOF
+)"
+is_complained() { case " $COMPLAINED " in *" $1 "*) return 0;; esac; return 1; }
+
+# BUILT rows whose CURRENTLY SERVED cut carries the open complaint have no
+# other lane that would ever fix them — they get their own top-priority job.
+next_cfix() {
+  local row build
+  while read -r row build; do
+    [ -z "$row" ] && continue
+    if ! find "$V2/$build" -mmin -10 2>/dev/null | grep -q .; then
+      echo "$row"; return 0
+    fi
+  done <<EOF
+$(python3 - <<'PYEOF' 2>/dev/null || true
+import json,re
+try:
+    d=json.load(open('media-production-v2/REVIEW-LESSONS.json'))
+    html=open('site/review.html').read()
+    cur=dict(re.findall(r'data-num="(\d+)" data-hash="([0-9a-f]{40})"',html))
+    board=open('media-production-v2/AUTHOR-BOARD.md').read()
+    for m in re.finditer(r'\|\s*(\d+)\s*\|\s*(build-\S+)\s*\|\s*BUILT\s*\|[^|]*\|[^|]*\|([^|]*)\|',board):
+        row,build,claim=m.group(1),m.group(2),m.group(3)
+        v=d.get(row)
+        if v and isinstance(v,dict) and v.get('open') and v.get('reportedAgainst')==cur.get(row) and 'C-FIX' not in claim:
+            print(row,build)
+except Exception: pass
+PYEOF
+)
+EOF
+  return 0
+}
+
+# Cameron 2026-08-06: fastest-to-finish first — among Ready rows the one with
+# the most banked stills wins; complained-about rows outrank even that.
 next_ready() {
-  local best="" bestn=-1 row build n
+  local best="" bestn=-1 cbest="" cbestn=-1 row build n
   while read -r row build; do
     n=$(ls "$V2/$build/assets/"*.jpeg 2>/dev/null | wc -l)
-    if [ "$n" -gt "$bestn" ]; then best="$row"; bestn="$n"; fi
+    if is_complained "$row"; then
+      if [ "$n" -gt "$cbestn" ]; then cbest="$row"; cbestn="$n"; fi
+    elif [ "$n" -gt "$bestn" ]; then best="$row"; bestn="$n"; fi
   done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
     row=$2; build=$3; state=$4; audio=$6; claim=$7; ready=$8
     gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",build); gsub(/[[:space:]]/,"",state)
     gsub(/[[:space:]]/,"",audio); gsub(/^[[:space:]]+|[[:space:]]+$/,"",claim)
     if (state=="AUTHORED" && audio=="OK" && claim=="" && ready ~ /✅/) print row, build
   }' "$BOARD")
-  [ -n "$best" ] && echo "$best"
+  if [ -n "$cbest" ]; then echo "$cbest"; elif [ -n "$best" ]; then echo "$best"; fi
 }
 next_unauthored() {
   awk -F'|' '/^\| *[0-9]+ *\|/ {
@@ -97,20 +142,22 @@ next_unauthored() {
 # process check makes this safe alongside live lanes; the resume session also
 # verifies shipped-state per RUNNER-LESSONS before spending.
 next_stranded() {
-  local row build
+  local row build first=""
   while read -r row build; do
     # a live gen process OR any file touched in the last 10 min means a lane
     # is actively on it (QC/assembly leave no gen process — the row-60
     # false-strand window) — skip those, only true corpses are stranded
     if ! pgrep -f "v2_gen_api.*$build" >/dev/null 2>&1 \
        && ! find "$V2/$build" -mmin -10 2>/dev/null | grep -q .; then
-      echo "$row"; return 0
+      if is_complained "$row"; then echo "$row"; return 0; fi
+      [ -z "$first" ] && first="$row"
     fi
   done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
     row=$2; build=$3; state=$4; claim=$7
     gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",build); gsub(/[[:space:]]/,"",state)
     if (state=="RUNNING" && claim ~ /A-auto/) print row, build
   }' "$BOARD")
+  [ -n "$first" ] && echo "$first"
   return 0
 }
 # NEEDS-AUDIO rows carry Cameron's open AUDIO complaints (mispronunciations,
@@ -118,11 +165,18 @@ next_stranded() {
 # AUDIO-FIX job (PROMPT-AUDIO-FIX.md) is. Costs $0 Gemini (ElevenLabs/ffmpeg
 # only), so it runs even while the Gemini billing breaker is tripped.
 next_audio() {
-  awk -F'|' '/^\| *[0-9]+ *\|/ {
+  local row first=""
+  while read -r row; do
+    [ -z "$row" ] && continue
+    if is_complained "$row"; then echo "$row"; return 0; fi
+    [ -z "$first" ] && first="$row"
+  done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
     row=$2; state=$4; claim=$7
     gsub(/[^0-9]/,"",row); gsub(/[[:space:]]/,"",state)
-    if (state=="NEEDS-AUDIO" && claim !~ /AUDIO-FIX/) { print row; exit }
-  }' "$BOARD"
+    if (state=="NEEDS-AUDIO" && claim !~ /AUDIO-FIX/) print row
+  }' "$BOARD")
+  [ -n "$first" ] && echo "$first"
+  return 0
 }
 
 # --- billing state (checked BEFORE job pick so we can fall back to free work) -
@@ -138,13 +192,17 @@ if find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' \)
   BILLING_DOWN=1
 fi
 
-# Job priority (Cameron 2026-08-06: fastest-to-finish first, complaints get
-# fixed, billing-down never idles the loop):
-#   billing OK:   stranded-resume (banked stills, cheapest wins) →
-#                 audio-fix (MAX ONE audio lane) → ready-build → author
+# Job priority (Cameron 2026-08-06, THE COMPLAINT-FIRST LAW: "always do the
+# ones that are complained about asap"; plus fastest-to-finish first and
+# billing-down never idles the loop):
+#   billing OK:   complaint-fix (re-cut a BUILT row he complained about) →
+#                 stranded-resume (complained rows first, then most banked) →
+#                 audio-fix (MAX ONE lane; complained rows first) →
+#                 ready-build (complained rows first, then most banked) → author
 #   billing DOWN: audio-fix → author (paid jobs blocked; free work continues)
-STRANDED=""; READY=""
+CFIX=""; STRANDED=""; READY=""
 if [ "$BILLING_DOWN" -eq 0 ]; then
+  CFIX="$(next_cfix || true)"
   STRANDED="$(next_stranded || true)"
   READY="$(next_ready || true)"
 fi
@@ -154,7 +212,11 @@ AUDIO_LIVE=$(pgrep -fc 'PROMPT-AUDIO-FIX' || true)
 [ "${AUDIO_LIVE:-0}" -eq 0 ] && AUDIO="$(next_audio || true)"
 UNAUTHORED="$(next_unauthored || true)"
 
-if [ -n "$STRANDED" ]; then
+if [ -n "$CFIX" ]; then
+  JOB="cfix"; ROW="$CFIX"
+  PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md — all its laws bind you. THE COMPLAINT-FIRST LAW: Cameron filed a complaint against the CURRENT shipped cut of AUTHOR-BOARD row $ROW, and fixing it outranks all other work. Run 'python3 media-production-v2/v2_outline.py $ROW' to read his complaint in his own words. Claim first: append 'C-FIX <date> LIVE' to the row's board Claim cell, commit, push (rejected push = taken, exit cleanly). Then fix ONLY what he named: if it is a picture defect, reroll or identity-edit ONLY the offending frames (--only <beat>, reroll budget applies) and keep every other frame byte-identical; if the complaint is AUDIO-domain, do NOT re-cut pictures — flip the row to NEEDS-AUDIO with a RUNNER PARK note per RUNNER-LESSONS and exit. Touch-once law: batch every open complaint on this row into this ONE re-cut. Re-assemble (AUDIO LOCK must pass), redeploy (step 7c, live-verified), and the review card flag MUST answer his complaint in his own words. You are UNATTENDED and HEADLESS: run everything FOREGROUND to completion, never background, never wait. Board claim -> 'C-FIX <date> SHIPPED' when done, SESSION-LOG entry, commit, push."
+  MODEL_ARGS=(--model opus)
+elif [ -n "$STRANDED" ]; then
   JOB="resume"; ROW="$STRANDED"
   PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md. A previous autopilot run DIED mid-build on AUTHOR-BOARD row $ROW (State RUNNING, Claim A-auto) — RESUME that row, do not start a new one. Read the build's QC.md for where it stopped; v2_gen_api.py resumes automatically (already-passing frames are never re-pulled — the COST LAW). You are UNATTENDED and HEADLESS: ending your turn kills the session, so run EVERY command in the FOREGROUND to completion; never use run_in_background, never wait for notifications. Finish the row through step 7c DEPLOY + live verification, set the board row BUILT, SESSION-LOG entry, commit, push."
   MODEL_ARGS=(--model opus)
