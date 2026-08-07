@@ -1,3 +1,21 @@
+## 2026-08-07 — ROW 110 (The Lord's Prayer) C-FIX SHIPPED — "this is old pictures version i dont know why im seing it here as fixed" — CACHE-DELIVERY, complaint CLOSED + forced fresh reload — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
+
+**Commit:** claim `da6a59c38` (board → C-FIX LIVE) · fix `4bdf410a03c042f6471b241ec55620a86a7d4c79` (fresh cache-buster + flag rewrite + complaint CLOSED in REVIEW-LESSONS.json/COMPLAINTS.md + QC.md ledger) · board→SHIPPED + PUBLISH-LOOP `75e83e0b0` · SESSION-LOG this commit. **Session-chain verified at start:** then-top SESSION-LOG commit (Row 109 C-FIX ship A `770715a21`) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. Read PROMPT-OPUS-RUNNER.md (all laws) + `v2_outline.py 110` + QC.md + AUTHOR-BOARD row 110 first.
+
+**Complaint (Cameron, OPEN against ship 824b4260 — `v2_outline.py 110`):** *"this is old pictures version i dont know why im seing it here as fixed."* COMPLAINT-FIRST + LOW-NUMBER: lowest open-complaint row, outranked all other work.
+
+**What was actually wrong (delivery, NOT a picture defect):** the cut has been 23 realistic V2 pictures since 2026-08-06. I re-verified from scratch — extracted frames from the committed origin/main mp4 (hash 824b4260, 144.9s, 19,796,928 B) at t=3/20/60/100/125s → ALL fully realistic biblical photography (olive-grove prayer with locked Jesus + cream robe; kneeling disciples; realistic village forgiveness; folded-cloth still; child's lamplit home). ZERO cartoon frames → NO reroll, NO Gemini credit. A prior C-FIX (2026-08-07) already root-caused this as the github.com/raw→raw.githubusercontent.com redirect stripping the `?v=` cache-buster and repointed all cards to the direct host — BUT it never CLOSED the complaint (`REVIEW-LESSONS.json` stayed `open:true`, `COMPLAINTS.md` `UNFIXED`), so the complaint-first machinery kept surfacing row 110 as the lowest open row. The complaint (createdAt 2026-08-06T23:13Z) also predates that fix, so Cameron had never re-confirmed it.
+
+**Fix (this session, $0):** (1) bumped the v110 card cache-buster to a brand-new token `?v=824b4260a3d6-fresh0807` — a URL Cameron's browser has provably never fetched, so it CANNOT serve the pre-fix cached copy; next open = fresh download of the realistic cut. (2) CLOSED the complaint: `REVIEW-LESSONS.json` 110 → `open:false` + `resolvedBy`; `COMPLAINTS.md` 110 → FIXED. (3) rewrote the reviewer flag to tell Cameron, in his words, that the video was never actually old and that his player is now forced to reload fresh. mp4/narration/timing/captions byte-identical (nothing re-cut); AUDIO LOCK 4679aacf… still stands.
+
+**Deploy + live-verify:** `firebase deploy --only hosting` (via `npx --no-install firebase`, 435 files) → release complete. Live checks: v110 vslot carries `?v=824b4260a3d6-fresh0807`; flag reads "forced your player to reload from scratch"; fresh mp4 URL HEAD = HTTP 200, content-length 19,796,928 (the realistic cut).
+
+**Cost / COST LAW:** $0 image credits (verify + ledger-close + one text edit), 0 rerolls — well under the $6.10/row average; trend DOWN.
+
+**LESSON (for future C-FIX sessions):** a cache/delivery fix is not DONE until the complaint is CLOSED in BOTH `REVIEW-LESSONS.json` (`open:false`+`resolvedBy`) and `COMPLAINTS.md` — otherwise the complaint-first + low-number machinery re-surfaces the same "fixed" row forever. For a repeat cache complaint, change the `?v=` cache-buster to a brand-new token so the user's browser is forced to refetch, don't just repoint the host.
+
+---
+
 ## 2026-08-07 — ROW 109 (Ask, Seek, Knock) C-FIX SHIPPED — "picture at 1:34 has Jesus with crazy eyes" — CRAZY-EYES re-cut, regen s17 only — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commit:** claim `ccc2a83fe` (board → C-FIX LIVE) · ship A `770715a21c203c72c1b6259f7a23ad50ba493862` (final mp4 + regen'd s17 + QC.md ledger + AUTHOR-BOARD→SHIPPED) · SESSION-LOG + review.html this commit (ship B). **Session-chain verified at start:** then-top SESSION-LOG commit (Row 104 C-FIX `bb583f040` / ship A `1e9b53ac2`) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. Read PROMPT-OPUS-RUNNER.md (all laws) + `v2_outline.py 109` + QC.md + AUTHOR-BOARD row 109 first.
