@@ -1,5 +1,54 @@
 # QC / RUNNER HANDOFF — build-82-anointing-at-bethany (Mark 14:3-9)
 
+## ✅ REALISTIC-V2 SHIPPED — Opus runner, Machine A `Dev`, 2026-08-07 (UNATTENDED/HEADLESS)
+
+**25 realistic painted stills @ native 2K (V1 had 8), 147.8s, 20.4 MB.**
+AUDIO REBUILD PASS SHA256=`de0b21ab54e3f27ac824d9e95c168fd34cb87811c8a87a9934c5cae329d8c4c2`
+(AUDIO_FROM_V1_SEGMENTS, 19 new-voice segments byte-identical — nothing re-voiced).
+Row-74 stale-window tripwire CLEAR (captioned 140.867s ≈ card_start 140.889s → the
+full question card is present, not chopped). mp4 decodes with ZERO `-v error`.
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 82` shows no complaints). Nothing
+to answer; this is a fresh REDO-ALL realistic rebuild of the old 8-still assembly.
+
+**Story laws held (QC.md THREE-WOMEN + anointing facts):** the woman is OLIVE-GREEN,
+silent in every frame, HEAD anointing (Mark 14, Simon-the-leper's supper) — NOT the
+Luke-7 feet/tears woman; flask BROKEN AT THE NECK (visible in b17/b21); only Jesus in
+cream in all 25 frames (disciples brown/rust, critics rust/grey, woman olive); one
+locked Jesus face + WOMAN story-cast face held across the arc (REFS wired). Scale gate
+PASS (Jesus ordinary-sized in every wide). Realistic photography throughout — zero
+cartoon/mixed frames after the two rerolls below.
+
+**Light QC — 1 sweep (3 contact sheets + 2 full-res zooms + 3 rendered caption
+frames). 2 rerolls / 25 = 8.0% (under the 15% COST-LAW budget):**
+- **b03 (s03)** first take = a 4-panel COLLAGE, and one panel showed oil poured on a
+  FOOT (Luke-7 feet-anointing bleeding into a Mark-14 HEAD beat). Rerolled → a single
+  coherent frame: the woman upending the broken flask over Jesus's HEAD, oil in his
+  hair. (New RUNNER-LESSONS line added — anointing-collage can import the wrong event.)
+- **b17 (s17)** first take = a modern KEROSENE/HURRICANE LAMP with a glass chimney in
+  the background (modern-object anachronism). Rerolled → a period clay oil lamp.
+
+**FIX-WAVE (kept — subtle, no filed complaint, COST-LAW: do not burn budget):**
+- Jar-state continuity: in a few mid-story wides (b06/b15/b19) the woman still holds an
+  intact/full jar after the b03 pour; the narration there is the murmuring/defense, not
+  the jar, so it does not read as wrong. Fix wave can prop-edit to the emptied vessel.
+- "Oil bright in his hair b03→b20" (author's persistence wish) reads clearly at the
+  pour (b03) but fades on later Jesus close-ups; not a filed complaint, and rerolling
+  every Jesus frame for sheen would blow the budget.
+
+**Places:** ROOM was authored "promote-first from b01," but b01 is `jesus=True` (cream
+Jesus in the establishing wide). Per RUNNER-LESSONS (row-51 forced-no-promote + lesson
+11 "never hand a Jesus-bearing frame to a plate"), a promoted b01 would bleed a spurious
+second cream figure into the critic-only beats (b04/b06). FORCED NO-PROMOTE — ROOM left
+on its 44-line prose lock; uniformity QC'd by eye (all frames read as the same lamplit
+supper room). JAR = prop lock, WOMAN/CRITICS = cast. PLACE-WIRING.json intentionally empty.
+
+**Cost:** portrait $0.13 + full run $3.35 + 2 rerolls $0.27 = **~$3.75 this row**
+(meter $456.67 → $462.30). Well under the $6.10/row running average; 8% rerolls under
+the 19% baseline — COST LAW trend holds DOWN.
+
+---
+
 ## ✅ AUDIO FIX DONE — AUDIO-FIX session, Machine A, 2026-08-06 ($0)
 
 **STALE-V1 audio-lock CLEARED.** Added `AUDIO_FROM_V1_SEGMENTS = True` to

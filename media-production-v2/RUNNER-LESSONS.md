@@ -263,6 +263,13 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   triggered by beats that ask for MANY workers doing MANY tasks at once
   ("tenants working the lease"). Reroll on sight — the model eventually lands a
   single coherent wide. Never crop-rescue a panel out of it.
+- **A COLLAGE on an ANOINTING beat can import the WRONG anointing event (row 82 b03,
+  2026-08-07).** The Mark-14 HEAD-anointing pour beat first rendered a 4-panel collage
+  whose second panel showed oil poured on a FOOT — the Luke-7 feet/tears anointing
+  bleeding into a Mark-14 beat (the THREE-WOMEN-LAW crossing, now as a collage panel).
+  Both defects clear in one `--redo` (single coherent frame, pour on the HEAD). On any
+  anointing row, QC a collage reroll for BOTH "is it one panel now" AND "is it the right
+  body part (head vs feet) for THIS story."
 - **Collage also fires on a SINGLE-figure ACTION beat, as a repeated-same-pose
   triptych** (row 66 b07 Peter's sword-swing came back as 3 vertically-stacked
   near-identical shots of the same man swinging). Not just many-workers beats —
