@@ -60,7 +60,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 46 | build-46-seed-growing | BUILT | 32 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 47 | build-47-houses-on-rock-and-sand | BUILT | 37 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 48 | build-48-new-wine-old-bottles | BUILT | 0 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 SHIPPED — 2:34 "spout out of side of the bag" FIXED (rerolled b28, pour now jug→new skin; live hash e5abfd1003c2, mp4 HTTP 200); $0.13/1 reroll | ✅ |
-| 49 | build-49-water-to-wine | BUILT | 40 | OK | A-auto 2026-08-06 SHIPPED; C-FIX 2026-08-07 LIVE | ✅ |
+| 49 | build-49-water-to-wine | BUILT | 40 | OK | A-auto 2026-08-06 SHIPPED; C-FIX 2026-08-07 SHIPPED | ✅ |
 | 50 | build-50-noblemans-son | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — Cameron complaint "Cana → Kane-a" CLOSED: n1/n3 re-voiced, narrator now says KANE-a ("Kaina", whisper-verified), same AndrewNeural voice. 0 V2 stills → handed to picture runner to build on corrected audio. See QC.md "AUDIO FIX DONE". |
 | 51 | build-51-first-catch-of-fish | AUTHORED | 0 | OK |  | ✅ AUDIO-FIX DONE 2026-08-06 — Cameron complaint "tear → tare" CLOSED: n4 re-voiced, "tear" (to rend) now spoken "tare"/care not "teer"/fear; caption stays "tear", same NARRATOR voice. 0 V2 stills → handed to picture runner to build on corrected audio. See QC.md "AUDIO FIX DONE". |
 | 52 | build-52-demoniac-synagogue | BUILT | 24 | OK | A-auto 2026-08-06 SHIPPED · C-FIX 2026-08-07 SHIPPED — demoniac face-flip FIXED (wired freedman IMAGE-lock + rerolled 6 flipping frames; live hash 17566283905d, mp4 HTTP 200); $0.80/6 rerolls | ✅ |

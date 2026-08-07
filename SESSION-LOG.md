@@ -1,3 +1,23 @@
+## 2026-08-07 — ROW 49 C-FIX SHIPPED: candle-flame-in-wine + Mary-too-close-to-Jesus fixed (touch-once, audio byte-identical) — Machine A `Dev` (C-FIX lane)
+
+**Commit:** claim = `8d49f16fc`; ship (mp4 + s09/s11/s29 + beats_v2 + QC + QUEUE) = `c283a9ebe`; review.html + board→SHIPPED + this log = (this commit).
+
+Picked up as the lowest waiting COMPLAINT-FIRST row (AUTHOR-BOARD row 49, John 2 water-to-wine, a shipped+approved REALISTIC V2 cut). Cameron's OPEN complaint (`v2_outline.py 49`, against live hash `b7f622627`):
+> "2:42 the water turning into wine does not need a cadle flame in it. That is weird. And mother mary standing so close to Jesus in those couple of pics is weird @ 0:50 & 0:57"
+
+Picture-domain, not audio. Extracted the three named frames from the shipped mp4, matched each (through Ken Burns pan) to its still, and traced every defect to the beat's own scene text:
+- **2:42 candle-flame-in-the-cup → s29 (b29).** Old scene text literally asked for "the strung lamps' small flames riding its moving surface," so the model painted a lit flame floating IN the wine. Rewrote b29 to smooth dark-red wine under a soft even lamplight + must_not_show "NO flame, candle, wick, ember or bright point of light on or inside the liquid." (Had to swap "glow"→"lamplight"/"ambient light" to pass the drift-word `--check`.)
+- **0:50 Mary-too-close → s09 (b09).** Old scene text: "Mary's lifted face a hand's breadth from her son's" → forehead-to-forehead, lover-like. Rewrote to "a natural, respectful arm's-length … their faces apart."
+- **0:57 Mary-too-close → s11 (b11).** Old scene text: "the two faces stay close … one hand risen lightly toward her shoulder" → near-embrace. Rewrote to "a natural step … his hands quietly at his sides — no reaching, no touch."
+
+Re-rolled ONLY s09/s11/s29; all 37 other stills byte-identical; **AUDIO LOCK PASS** (narration byte-identical, SHA256 `4d166a0d…`). Verified the fixes in the RENDERED mp4 at 0:50 / 0:57 / 2:42 (mother and son at a normal distance; cup holds plain dark-red wine, lamp only in background; captions bottom-band; question card clean). Mary stays the canonical mother (indigo/madder-rose, ~50), Jesus one locked face + only-Jesus-in-cream, no halo. `--check` v4 PASS.
+
+**Cost:** 3 rerolls / 40 beats = **7.5%** (budget 15%); spend = 3 × $0.134 = **$0.40**, $0 audio — well under the $6.10/row average (this is a targeted re-cut, not a fresh row). Touch-once: all three open defects batched into ONE re-cut.
+
+**Lesson (→ RUNNER-LESSONS):** on a Jesus+family two-shot, "a hand's breadth" / "faces stay close" / "hand toward her shoulder" reads ROMANTIC not maternal — mother-son beats must state a respectful arm's-length; and "lamp flames riding the [liquid] surface" paints a flame INSIDE a cup/vessel.
+
+---
+
 ## 2026-08-07 — ROW 33 AUTHOR-DONE: j37 righteous OFF Jesus voice (→SCRIPTURE) + coupled timeline remap; nails-black deleted — Machine A `Dev` (Fable-5 author lane)
 
 **Commit:** author package (V1+V2 make_narration, re-voiced j37.mp3/timing, beats_v2, QC, AUTHOR-BOARD) = `6139dda0b`; this log = (this commit).
