@@ -1,3 +1,29 @@
+## 2026-08-07 — ROW 48 C-FIX shipped + live-verified: 2:34 "spout coming out of the side of the bag" — Machine A `Dev`
+
+**Commit:** mp4+QC = `e5abfd1003c2e5f659d55159a5284e392cf35ba6`; card+log = (this commit, by pathspec)
+
+Cameron's OPEN reviewer complaint on AUTHOR-BOARD row 48 (Mark 2, new wine / old
+bottles), verbatim: *"2:34 is bad the spout is comming out of the side of the bag and
+looks weird."* (`v2_outline.py 48` showed it OPEN.) Complaint-first law → outranked all
+other work. 2:34 = 154 s → on-screen beat is `v2-r048-b28` → `s28-so-you-never-pour-fresh`
+(narration "So you never pour fresh, living wine into a stiff old skin"). Confirmed the
+defect in the RENDERED mp4: the pour read as a thick dark stream emerging from the **side
+of the cracked hanging old skin** and curving into the vessel — exactly Cameron's "spout
+out of the side of the bag."
+- **ONE reroll** (`--only v2-r048-b28 --redo`, 1 shot, **$0.13**, meter 417.95→418.08) →
+  new frame: keeper tips the clay jug and pours dark wine **straight down into the pale
+  supple NEW skin** in his other hand; old cracked skin hangs separately, nothing out of
+  its side. Bonus: reroll's younger dark-haired keeper now MATCHES adjacent s30 (original
+  s28 was an older grey-bearded man → clashed); continuity improved. Every other frame
+  byte-identical.
+
+**1 reroll, $0.13** (≈2.9% of the 35-beat row — well under ≤15% budget; touch-once honored,
+$/row this C-FIX = $0.13, below the $6.10 running average). Re-assembled → **AUDIO LOCK PASS
+SHA256=9c7ec18499…bae42a (audio byte-identical, untouched)**; verified the rendered mp4 at
+154 s shows the fixed pour with caption in the bottom band; question card clean. Deployed
+`firebase deploy --only hosting`, live-verified: review.html carries the new hash and the
+mp4 URL returns HTTP 200. Board 48 claim → `C-FIX 2026-08-07 SHIPPED`.
+
 ## 2026-08-07 — ROW 45 C-FIX shipped + live-verified: "0:50, 1:04 pictures are trash" — Machine A `Dev`
 
 **Commit:** mp4+QC = `049019e3fa5196f3c7bd272d12400747ab8bd628`; card+log+board = (this commit, by pathspec)
