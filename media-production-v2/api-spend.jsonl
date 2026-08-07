@@ -3127,3 +3127,6 @@
 {"ts": "2026-08-07 02:33:14", "build": "build-52-demoniac-synagogue", "beat": "v2-r052-b19", "out": "s19-like-waking-from-a-dream.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-07 02:38:37", "build": "build-54-the-leper", "beat": "C-FIX-edit s14-touched-before-healed.jpeg", "out": "s14-touched-before-healed.cand.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-07 02:39:30", "build": "build-54-the-leper", "beat": "C-FIX-edit s12-and-touched-him.jpeg", "out": "s12-and-touched-him.cand.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 03:54:06", "build": "build-49-water-to-wine", "beat": "v2-r049-b11", "out": "s11-she-simply-put-it-in.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 03:54:33", "build": "build-49-water-to-wine", "beat": "v2-r049-b29", "out": "s29-and-somewhere-between-the-jar.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-07 04:17:57", "build": "build-60-gerasene-demoniac", "beat": "v2-r060-b28", "out": "s28-sitting-at-his-feet.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}

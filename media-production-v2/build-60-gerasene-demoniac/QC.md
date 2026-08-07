@@ -46,7 +46,10 @@ of them break the story's loneliness-to-sending arc.
 - Only Jesus wears cream.
 
 ## COMPLAINT LEDGER
-none open — `v2_outline.py 60` shows no filed complaint for this row.
+- **OPEN (fixed this cut):** Cameron, against live hash `9af3ae30898c` — *"2:39 Jesus eyes do not look good."* 2:39 falls on beat **b28** (`s28-sitting-at-his-feet.jpeg`, the after-picture). In the live cut Jesus's eyes rendered as a flat, pale, staring green — the one frame where the V2 lock's intended "green-amber-gold luminous" iris drifted to an unnatural washed-out light. **FIX:** rerolled ONLY b28 (1 reroll, `--only b28 --redo`); the new take has Jesus looking DOWN at the seated man with a warm, natural, downcast gaze — no pale-green stare. Verified in the RENDERED mp4 at 2:39. Every other Jesus close-up (b12/0:91, b14/1:44, b30/2:52, b32/3:20) was checked and already had correct warm eyes — so this was a true single-frame defect, not a whole-cut drift. All 38 other stills byte-identical; AUDIO LOCK PASS (SHA256 `58abeeb5…`), narration untouched.
+
+## C-FIX 2026-08-07 (Machine A `Dev`)
+Reroll of b28 only. 1 reroll / 39 beats = **2.6%** (budget 15%). Spend = 1 × $0.134 = **$0.13**, $0 audio. Touch-once: only open complaint on the row. Meter $419.42 → $419.55, ceiling $445.
 
 ## RUNNER LOG — resume 2026-08-06 (Machine A, A-auto)
 Prior autopilot died mid-build at 24/39 stills. Resumed: portraits already
