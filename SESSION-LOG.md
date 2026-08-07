@@ -1,3 +1,29 @@
+## 2026-08-07 — C-FIX row 13 roof (1:37 man-on-mat) SHIPPED — Machine A `Dev`
+
+**Commit:** 165416a4a8e2701e7241733f35bb3abf99e03f84 (art+audio+QC), review.html+log commit follows.
+
+Cameron's OPEN complaint on AUTHOR-BOARD row 13: **"the 1:37 picture is missing
+the man on the mat."** Complaint-first, verified in his own words via `v2_outline.py 13`.
+
+- **Picture fix (the complaint):** beat `v2-r013-b18` (`s18`, shows 1:43–1:48) rerolled
+  ONCE against the author's pre-written scene. New frame is shot low inside the room:
+  the paralysed man lies on his mat across the near foreground, ropes on the corners,
+  all four dust-caked friends ringing the roof hole above him. Verified in the RENDERED
+  mp4 at 105.5s — the mat man is the foreground subject, no longer absent. Realistic,
+  4 friends, no Jesus in frame, caption in the bottom band. **Touch-once:** only open
+  complaint on the row; every other still byte-identical.
+- **Audio:** the checked-in V1 mp4 is a stale 258.967s render, so the default AUDIO
+  LOCK refused (STALE-V1-FINAL guard). Set `AUDIO_FROM_V1_SEGMENTS = True` (same
+  mechanism as rows 61, 69) → narration rebuilt from the 23 V1 mp3 segments at the
+  extract_beats offsets → **AUDIO REBUILD PASS**. Nothing re-voiced/re-timed; both the
+  old shipped v3 and this cut measure **-15.1 LUFS**; only a 0.5s trailing card tail
+  differs (298.3s vs 298.8s). The audio Cameron already heard is unchanged.
+- **Cost:** 1 reroll / 45 beats = **2.2%** (well under the 15% budget); ~$0.13 spend,
+  meter $415.80. Well under the $6.10/row running average — this session pushes the
+  cost trend DOWN per the COST LAW.
+- Deployed to Firebase hosting + live-verified; review card answers the complaint in
+  Cameron's own terms. AUTHOR-BOARD claim → SHIPPED.
+
 ## 2026-08-07 (social session, pt.3) — ROW-ORDER POSTING + MASTER TRACKER — Machine A `Dev`
 
 **Commit:** (this commit — social/ + this entry only, by pathspec)
