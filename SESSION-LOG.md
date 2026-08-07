@@ -1,3 +1,27 @@
+## 2026-08-07 — ROW 45 C-FIX shipped + live-verified: "0:50, 1:04 pictures are trash" — Machine A `Dev`
+
+**Commit:** mp4+QC = `049019e3fa5196f3c7bd272d12400747ab8bd628`; card+log+board = (this commit, by pathspec)
+
+Cameron's OPEN reviewer complaint on AUTHOR-BOARD row 45 (Mark 12, wicked tenants),
+verbatim: *"0:50, 1:04 pictures are trash and just look stupid."* (`v2_outline.py 45`
+showed it OPEN; the prior A-auto runner log wrongly claimed "none open".) Complaint-first
+law → outranked all other work. Inspected both named frames against the RENDERED mp4:
+- **0:50 (b46 `s46-that-is-the-setup`): WAS the trash — a broken composite**, the four
+  tenants rendered as a floating cut-out pasted at eye-level over a bird's-eye aerial view
+  of the vineyard, ghosting seam + a melting head (the row-42/45-b10 collage failure mode).
+  ONE reroll (`--only b46 --redo`) → a single coherent establishing wide (watchtower,
+  terraced rows, winepress, road to the gate; realistic, no collage/cartoon/cut-out).
+- **1:04 (b12 `s12-and-at-the-season-he`): already a clean realistic servant-at-the-gate
+  shot** from the V2 rebuild — kept BYTE-IDENTICAL (rerolling a good frame = COST-LAW
+  violation + gambles this beat family's collage risk). Flag tells Cameron to re-look.
+
+**1 reroll, ≈$0.13** (meter 417.81→417.95), well under the ≤15% budget; touch-once honored.
+Re-assembled → **AUDIO LOCK PASS SHA256=2b4c517b…942ec1 (SAME hash — audio byte-identical)**;
+final mp4 decodes 0 `-v error`; question card + captions re-verified clean. Deployed
+`firebase --only hosting`, live-verified: review.html carries hash 049019e3 and the mp4 URL
+returns HTTP 200. Board 45 claim → `C-FIX 2026-08-07 SHIPPED`. RUNNER-LESSONS updated
+(false "none open" QC header → always trust v2_outline).
+
 ## 2026-08-07 (social session, pt.10) — CAMERON CHOSE CANDIDATE 3 (daylight) AS THE LOGO FOR EVERYTHING — app assets swapped — Machine A `Dev`
 
 **Commit:** (this commit — mobile/assets, root icon.png, social/, this entry; by pathspec)

@@ -206,6 +206,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   Before rerolling/re-cutting, re-extract with OUTPUT seek (`ffmpeg -i mp4 -ss <t>
   -frames:v 1`): if the accurate-seek frame is a single clean image, the mp4 is
   fine. Always confirm a suspected assembly defect with an accurate-seek frame.
+- **A person-free "calm establishing WIDE" beat renders figures as a floating
+  CUT-OUT composited over a bird's-eye AERIAL mini-view of the same place** (row
+  45 C-FIX, b46 `s46-that-is-the-setup`, Cameron "0:50 ... trash and just look
+  stupid"): the establishing beat locked a VINEYARD plate and its own text is
+  person-free, but the model pasted the story's tenants at eye-level ON TOP of an
+  aerial view of the vineyard — two clashing perspectives, a ghosting/haze seam
+  around the people, a melting head. It is the collage/double-perspective family
+  and a MANDATORY reroll on sight; one `--redo` landed a single coherent
+  establishing wide. Check every "whole place laid out / the setup / establishing"
+  wide for a pasted-in perspective mismatch, not just multi-worker beats.
 
 ## Reuse before regenerate (Cameron's core order — rubric lesson 11 + COST LAW)
 
