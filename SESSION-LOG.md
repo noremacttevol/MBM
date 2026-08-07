@@ -1,3 +1,18 @@
+## 2026-08-07 (social session, pt.9) — APP ICON UPGRADED via API, $0.40, candidate 2 chosen — Machine A `Dev`
+
+**Commit:** (this commit — social/ + this entry, by pathspec)
+
+Cameron: "make the original logo (the one for the app even) picture better now using the
+API." Regenerated the icon scene (hand reaching for the glowing cloak hem, Mark 5) with
+the production Gemini pipeline (gemini-3-pro-image, 2K, 1:1, original icon attached as
+composition reference, same-composition prompt). **3 candidates, $0.402 total, logged to
+api-spend.jsonl as build "social-icon-upgrade."** Small-size test (120px strip): #1 and
+#2 keep the dark-to-light drama; #3 goes full daylight and washes out tiny. **Picked #2**
+(most alive contact-point light, most natural hand) → `social/page-art/
+profile-icon-1080-v2.png` for all platform profiles; all 3 candidates kept in page-art.
+The in-app/store icon is UNCHANGED — swapping it is Cameron's call (store listing change;
+app locked during rebuild). CHANNEL-PLAN §2 updated.
+
 ## 2026-08-07 (C-FIX row 40 the-friend-at-midnight) — SHIPPED, 3-hands + floating-lamp complaints fixed, ~$0.27 / 3.6% rerolls — Machine A `Dev`
 
 **Commit:** claim ae13d5c7e; ship-A debc52112 (mp4 + QC + QUEUE); ship-B + this entry follow; deploy verified live before board→SHIPPED.

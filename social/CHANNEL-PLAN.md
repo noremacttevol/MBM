@@ -39,10 +39,14 @@ find the same name on YouTube. Never mix (e.g., `@milkb4meat` on two platforms a
 > is the app's own icon, nothing else; covers are realistic frames from approved
 > videos with no text on them.
 
-- **Profile picture (all four platforms):** `social/page-art/profile-icon-1080.png`
-  — the app's real icon (the hand reaching for the hem of his cloak). Same picture
-  the stores show, so the pages and the app read as one thing. Use it on YouTube
-  too (channel avatar) since that account is already up.
+- **Profile picture (all four platforms):** `social/page-art/profile-icon-1080-v2.png`
+  — the app's icon scene (the hand reaching for the hem of his cloak) regenerated
+  at photographic quality via the production image API (2026-08-07, $0.40 for 3
+  candidates, candidate 2 chosen; all 3 kept as `icon-v2-candidate-*.png`).
+  `profile-icon-1080.png` is the original app-store version if ever needed.
+  Use the v2 on YouTube too (channel avatar) since that account is already up.
+  **The icon inside the app / stores is unchanged** — swapping that is Cameron's
+  call (it changes the store listing, and the app is locked during the rebuild).
 - **Facebook cover:** `social/page-art/cover-facebook.jpg` — Jesus teaching from
   the boat on calm water (from the approved Sower video, no text). If you'd rather
   have the quiet night one: `social/page-art/cover-facebook-alt-night.jpg`
