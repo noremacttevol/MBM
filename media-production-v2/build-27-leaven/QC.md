@@ -81,5 +81,20 @@ block. $0 spent, no pictures touched, no audio changed.
    ONLY that mp3, set `AUDIO_FROM_V1_SEGMENTS = True`, remap only the affected still-
    windows for the small duration delta (see row-22 method in SESSION-LOG 2026-08-07),
    re-assemble, ship via C-FIX. Everything upstream of that one segment is verified clean.
-</content>
-</invoke>
+
+## §0c AUDIO-FIX lane 2026-08-07 (Machine A `Dev`, 2nd pass) — RE-CONFIRMED BLOCKED
+
+Re-examined while sweeping NEEDS-AUDIO after row 185. Two findings:
+- **Engine correction:** the segments are **44100 Hz / 128 k = ElevenLabs**, NOT edge-tts.
+  So the earlier "deterministic, re-voice can't help" reasoning is void — an ElevenLabs
+  re-render of a *named* segment would differ each take and could clear a subtle glitch.
+  But that still needs the segment NAMED first.
+- **New diagnostic — per-segment pacing:** chars/sec is uniform across all 10 spoken
+  segments (13.1–17.9 cps; fastest n1/n3 ≈17.85, not extreme), so there is NO robotic
+  too-fast/too-slow outlier to localize either. Combined with §0b (transcript, encode,
+  levels, silencedetect all clean), FOUR independent headless diagnostics now come back
+  clean. The defect Cameron heard is a subtle delivery/quality issue no mechanical check
+  can name. **Still genuinely BLOCKED on one ear-pass.** $0, nothing changed.
+  RESUME (correct engine): ear-identify the bad segment, then re-render ONLY it via
+  `mbm_eleven.render_segment(text, speaker, out)` (ElevenLabs, same locked voice),
+  atempo-match to its original duration, `AUDIO_FROM_V1_SEGMENTS=True`, re-assemble, C-FIX.

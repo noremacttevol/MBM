@@ -1,3 +1,23 @@
+## 2026-08-07 — ROW 185 ("Many Mansions", John 14:1-3) AUDIO FIXED — chosen Jesus voice "Chris" RESTORED (complaint "Old. That's not the chosen Jesus voice" CLOSED) + ROW 27 (leaven) re-confirmed BLOCKED — AUDIO-FIX lane, Machine A `Dev` (UNATTENDED/HEADLESS, $0 Gemini)
+
+**Commits:** claim = `89889a61b`; row-185 audio fix (audio timing.json + beats_v2 flag + QC + board) = `07453a438`; row-27 re-confirm + this SESSION-LOG = this commit. Session-chain verified at start (then-top = Row 83 realistic-v2, commit `8f193f19b` present in `git log`); hostname `Dev` = Machine A. Read PROMPT-AUDIO-FIX.md in full (engine-detection rail, atempo-match rail, ship rail) before touching audio.
+
+**Row 185 was the lowest waiting NEEDS-AUDIO complaint row (LOW-NUMBER LAW).** Its one OPEN complaint — Cameron: *"Old. That's not the chosen Jesus voice."* — was diagnosed valid last session but parked because that (Fable-5 author) lane had no key. This lane found the key file (`media-production/elevenlabs API KEY.txt`, the doctrine's "grep out just the `sk_...`" — it also carries a cloudflare token that breaks the HTTP header if not stripped) and fixed it.
+
+**The fix (jv1/j1/j2 only — the 3 Jesus red-letter segments):**
+- Re-voiced through the CHOSEN ElevenLabs Jesus **"Chris"** (`iP95p4xoKVk53GoZ742B`) via canonical `mbm_eleven.render_segment(..., JESUS)` — the exact voice Cameron approved on rows 50/51/70. Narrator segments (n0/n1/n2/n3a/n3b) untouched, byte-identical.
+- **Acoustic proof:** old Jesus F0 ≈ 87–92 Hz (wrong/stale) → new ≈ 105–118 Hz; a fresh "Chris" render and the Cameron-approved row-70 Jesus both read ≈ 99–100 Hz on the same F0 script → the new segments are the approved voice family, the old were not.
+- Pitch-preserving `atempo`-matched each take back to its ORIGINAL duration (jv1 5.329 / j1 7.184 / j2 9.691 s, within one ~26 ms MP3 frame) so **no beats_v2 window moves.** Verified against the assembler: segments are placed per-onset by `adelay` then mixed (not concatenated), so a ±26 ms tail is absorbed by the 1.6 s KJV gap and well within the 0.5 s tolerance gate. Captions byte-identical (SEGMENT text unchanged); `.timing.json` rescaled to the matched tempo. Set `AUDIO_FROM_V1_SEGMENTS = True`. `v2_prompt --check` PASS (14 beats). Old-voice originals saved in `audio-oldvoice-backup/`.
+- **No V2 stills exist yet (Built=0)** → per PROMPT-AUDIO-FIX §5, shipped nothing visual: flipped board **NEEDS-AUDIO → AUTHORED / Ready ✅** so the picture runner builds the 14 stills on the corrected audio. The runner's review card MUST tell Cameron the chosen Jesus voice is restored (spec in QC.md). Audio hash changed on purpose — sanctioned re-voice exception (PROMPT-AUDIO-FIX §4). (mp3s are gitignored binary artifacts as everywhere in this pipeline; they persist locally on Machine A where the same-machine picture runner assembles.)
+
+**Row 27 (leaven) — the only other NEEDS-AUDIO row — RE-CONFIRMED BLOCKED (needs one human ear-pass).** §0b (a prior AUDIO-FIX lane today) had exhausted transcript / encode / levels / silencedetect. This lane added a 4th diagnostic — per-segment pacing (chars/sec uniform 13.1–17.9, no robotic outlier) — also clean, and CORRECTED the record: the segments are ElevenLabs (44100/128k), not edge-tts, so a re-voice of a *named* segment could help, but the segment still can't be localized without listening. Documented in QC.md §0c. $0, nothing changed. This is the only allowed stop — a genuine blocker the audio lane cannot resolve headless.
+
+**Cost:** **$0 Gemini.** ElevenLabs: 3 short Jesus segments + 1 tiny reference render for the voice-identity proof. No images generated, no narrator segments touched.
+
+**Next audio target:** none open — row 185 fixed, row 27 blocked on ear-check, no other NEEDS-AUDIO rows on the board. Remaining board work is NEEDS-BEATS (author lane, rows 188-200) and NEEDS-REBUILD (rows 33/73), outside this lane.
+
+---
+
 ## 2026-08-07 — ROW 83 ("Weeping over Jerusalem", Luke 19:41-44) REALISTIC V2 SHIPPED + DEPLOYED — all 3 open complaints fixed (walk-direction / Jesus-scale / 13s dead tail) — Opus runner lane, Machine A `Dev` (UNATTENDED/HEADLESS)
 
 **Commits:** claim = `f88680a04`; ship (mp4 + QC + QUEUE + AUTHOR-BOARD + api-spend) = `8f193f19bcd3eb6786c7dc06fcf5def4f2da224e`; review-card = `b189ca2e6`; publish-loop = `37e57e48b`; STASH-INDEX + RUNNER-LESSONS + this SESSION-LOG = this commit. Session-chain verified at start (then-top = Row 80 come-unto-me, commit `90028b507` present in `git log`); hostname `Dev` = Machine A. Read both META-LAWS + all 15 rubric lessons + all 605 lines of RUNNER-LESSONS before the first credit.
