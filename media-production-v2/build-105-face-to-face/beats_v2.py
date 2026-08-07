@@ -74,6 +74,12 @@ LOCKS = {
 
 REF = True
 
+# AUDIO_FROM_V1_SEGMENTS (2026-08-07, AUDIO-FIX Machine A Dev): STALE-V1-FINAL park.
+# The V1 final MP4 predates this build's re-voiced mp3s, so the recency/duration gate
+# refuses the plain AUDIO LOCK. Rebuild the authoritative narration track from the V1
+# mp3s at the extract_beats offsets instead. Verified: rebuilt track duration == the
+# extract_beats total to the millisecond (gate PASS), $0 audio, no re-voice.
+AUDIO_FROM_V1_SEGMENTS = True
 BEATS = [
     {
         "id": "v2-r105-b01", "out": "s01-moses-pitched-a-tent-a.jpeg", "seg": "n1",
