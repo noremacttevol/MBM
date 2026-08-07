@@ -81,8 +81,16 @@ SEGMENTS = [
     ("card", NARRATOR, "He healed a boy he never touched, with a word that was already true before anyone could prove it. If his word can carry a whole day's journey, how far do you think it can reach? What would you trust him with tonight?"),
 ]
 
-# Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+# Homographs / one-off spoken overrides this build decides for itself.
+# "Cana": Cameron denial 2026-07-23 "we are still pronouncing Cana wrong its more
+# like Kane-a". Measured this session (2026-08-06, AndrewNeural, real n1/n3
+# contexts, faster-whisper round-trip): the PLAIN word rendered a flat "Kana"
+# (KAH-nuh — the vowel he rejects). "cayna" renders the long-A "Kane-a" glide
+# ("Kaina" 2/2), clearly distinct from the /aɪ/ "China" failure the 2026-07-23
+# note warned about (China stayed "China"; cayna never collapsed to it) and from
+# the flat "Kana". This is the sanctioned Cameron-ordered re-voice (audio-fix
+# job), applied ONLY to the narrator segments that say Cana (n1, n3).
+SPOKEN = {"Cana": "cayna"}
 
 
 async def main():

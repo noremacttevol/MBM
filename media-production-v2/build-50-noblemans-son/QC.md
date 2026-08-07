@@ -69,3 +69,31 @@ RESUME (audio authority only): add a Cana spoken-override to mbm_pronounce.py so
 the narrator says KANE-a, regenerate n1/n3 (make_narration.py), re-verify by ear,
 then set the board back to Ready ✅ for the runner. Do NOT let a runner lane ship
 this row until the audio says KANE-a.
+
+## ✅ AUDIO FIX DONE — Cana → KANE-a (AUDIO-FIX job, A-auto 2026-08-06)
+Cameron's complaint #2 "we are still pronouncing Cana wrong its more like Kane-a"
+is CLOSED. Fix applied in this build's own `make_narration.py` (not the shared
+mbm_pronounce.py — this is a one-off narrator override for n1/n3 only):
+`SPOKEN = {"Cana": "cayna"}`. The two narrator segments that say Cana (n1, n3)
+were regenerated with AndrewNeural (the same locked narrator voice — no voice
+change) on 2026-08-06T21:22.
+
+- **New audio baseline** (old mp3s were the Jul-28 KAY-nuh takes, now replaced):
+  - `audio/n1.mp3` → md5 `c664e4de68c079d50f13abff44dd7aac`
+  - `audio/n3.mp3` → md5 `4ecd2c9151cbb50179d5cfddf551b141`
+  - timing JSON text now reads "Cayna" in both (was "Cana").
+- **Ear-check / transcription verify** (faster-whisper base.en round-trip):
+  n1 → "Jesus came back to **Kaina**, the little town where He had turned the
+  water into wine." ; n3 → "Then he heard the healer was in **Kaina**, a full
+  day's walk uphill." Whisper hears "Kaina" = the long-A KANE-a glide Cameron
+  asked for — distinct from the flat "Kana" (KAY-nuh) he rejected, and it did NOT
+  collapse to the /aɪ/ "China" failure the 2026-07-23 note warned about.
+- Nothing else changed: same narrator voice, same wording, all other segments
+  byte-identical. Only n1/n3 were re-voiced (the only segments that say Cana).
+- Complaint #1 (question-card "squares") was already fixed in the V2 card
+  renderer (verified clean on shipped rows 46/47).
+
+This row has ZERO V2 stills built (picture runner hasn't reached it). Per the
+AUDIO-FIX loop step 5, nothing visual ships here; the board is flipped
+AUTHORED / Audio OK / Ready ✅ with the claim cleared so the picture runner
+builds it on this corrected audio. The audio now says KANE-a — runner may ship.

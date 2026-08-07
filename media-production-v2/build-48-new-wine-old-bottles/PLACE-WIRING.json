@@ -1,0 +1,26 @@
+{
+ "CELLAR": {
+  "manual": true,
+  "src_beat": "s22-the-second-picture-is-about",
+  "src_build": "build-48-new-wine-old-bottles",
+  "src_file": "build-48-new-wine-old-bottles/assets/s22-the-second-picture-is-about.jpeg"
+ },
+ "COURTYARD": {
+  "manual": true,
+  "src_beat": "s01-some-very-sincere-very-religious",
+  "src_build": "build-48-new-wine-old-bottles",
+  "src_file": "build-48-new-wine-old-bottles/assets/s01-some-very-sincere-very-religious.jpeg"
+ },
+ "WEDDING": {
+  "manual": true,
+  "src_beat": "s06-can-the-children-of-the",
+  "src_build": "build-48-new-wine-old-bottles",
+  "src_file": "build-48-new-wine-old-bottles/assets/s06-can-the-children-of-the.jpeg"
+ },
+ "WORKSHOP": {
+  "manual": true,
+  "src_beat": "s16-the-first-one-is-about",
+  "src_build": "build-48-new-wine-old-bottles",
+  "src_file": "build-48-new-wine-old-bottles/assets/s16-the-first-one-is-about.jpeg"
+ }
+}

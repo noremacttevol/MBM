@@ -46,6 +46,40 @@ world for this ordinary public courtyard. Do not --take it.
   plain working light. Palettes must not bleed between worlds.
 - Only Jesus wears cream anywhere.
 
+## ✅ COMPLETED — 2026-08-06 (Opus runner, headless, Machine A `Dev`) — BILLING RESTORED, ROW SHIPPED
+
+**COMPLAINT LEDGER:** none open. `v2_outline.py 48` shows no filed complaint on
+this row; QC header confirms "No open complaint." Nothing to answer — but the
+build still honored the author's complaint-corpus checks (identity of the three
+askers, gaze convergence, object-truth = goatskins never glass, restrained
+wine-not-blood burst, two-mood palette separation, only-Jesus-in-cream).
+
+**Resolution of the 45-resume billing block:** the Gemini prepayment was topped
+up. A prior autopilot lane resumed generation at ~21:21 and reached 32/35 stills
+before dying; this session finished the last frames. Ran
+`v2_gen_api.py build-48-new-wine-old-bottles --ceiling 438` → generated
+b31–b35 (5 shots, **$0.67 this run**, meter $412.18 → **$412.72**). All 35
+stills present. `--check` PASS (35 beats, v4 PASS). 0 portraits outstanding.
+
+**Light QC — one pass, ALL 35 frames viewed, ZERO rerolls (0% vs 15% COST LAW
+budget).** Plates QC'd hardest first (COURTYARD s01, WEDDING s06, WORKSHOP s16,
+CELLAR s22 — all clean). Every frame is realistic biblical photography — NO
+cartoon/CGI frame anywhere (Law 14 mix-check PASS). Object-truth: all wine
+vessels are period goatskins, never glass bottles (KJV "bottles" class). Burst
+skin (s26) reads as spilled dark-red wine pooling to the floor channel, not
+blood spatter — restrained aftermath. Jesus one locked face + cream-only in
+every appearance (s01/s03/s08/s10/s11/s13/s15/s19/s25/s31/s33/s34/s35); green
+eyes are the locked V2 ref (RUNNER-LESSONS: do not reroll). Three askers stay
+the same three men. Gazes converge (wedding s06/s09 toward groom; courtyard
+toward Jesus). Two-mood palettes hold (courtyard daylight / wedding lamplit
+night / workshop+cellar plain working light — no bleed). No modern objects, no
+second cream robe, no lens-stare fail, no headless/extra-limb figures.
+
+**Assemble → AUDIO LOCK PASS → ship two commits → firebase deploy → live-verify
+→ BUILT.** (Details in SESSION-LOG.) $/row this session = $0.67 generation (the
+row's earlier 32 stills were pulled by a prior lane before the block; total row
+spend across lanes ≈ $4.68 for 35 stills, UNDER the $6.10 running average).
+
 ## RUNNER PARK — 2026-08-06 (A-auto Machine A) — BILLING STILL DEPLETED (45th resume attempt, headless)
 
 Fresh headless resume (direct user instruction to resume row 48, not a cron tick). Pulled clean
