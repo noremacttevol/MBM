@@ -128,7 +128,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 114 | build-114-abraham-sodom | BUILT | 23 | OK | SHIPPED — resume lane finished it after the billing park (commit 17a68c09f): b14 collage cleared, b13 collage FIX-WAVE'd (author de-collage), AUDIO LOCK PASS, 23 stills 19.5MB. Live on reviewer (data-hash 17a68c09f, mp4 HTTP 200 19,540,934B). This session ran the RUNNER-LESSONS already-shipped check, confirmed shipped+live, took nothing else. | ✅ |
 | 115 | build-115-ram-in-the-thicket | AUTHORED | 16 | OK | A-auto 2026-08-06 PARKED-BILLING: Gemini prepayment credits DEPLETED (429 persists across 60s retry) — GLOBAL key block, stops all lanes. 16/32 stills done (b01-b16, valid, do NOT regen) + portraits + MORIAH plate. Cameron must top up AI Studio billing, then resume `v2_gen_api build-115... --ceiling <meter+16*0.201+25>`. See QC.md RUNNER PARK. | ✅ |
 | 116 | build-116-graven-on-his-palms | AUTHORED | 0 | OK | PARKED-BILLING 2026-08-06: Gemini prepayment credits STILL depleted (2nd probe, $0). WOMAN portrait + CITY plate (b04) done. Resume `v2_gen_api build-116... --ceiling <meter+20*0.201+25>` after Cameron tops up AI Studio billing. See QC.md. | ✅ |
-| 117 | build-117-hosea-buys-her-back | AUTHORED | 0 | OK |  | ✅ |
+| 117 | build-117-hosea-buys-her-back | RUNNING | 0 | OK | A-auto 2026-08-07 | ✅ |
 | 118 | build-118-jonah-god-who-relents | AUTHORED | 0 | OK |  | ✅ |
 | 119 | build-119-fourth-man-in-fire | AUTHORED | 0 | OK |  | ✅ |
 | 120 | build-120-job-from-whirlwind | AUTHORED | 0 | OK |  | ✅ |
