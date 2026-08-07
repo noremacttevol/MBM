@@ -72,6 +72,27 @@
   .flag.fixed { background: #14210f; border: 1px solid #2e5a24; color: #b6e6a4; font-weight: 400; }
   .flag.voice { background: #101f2e; border: 1px solid #2b5c7a; color: #9fd4f5; font-weight: 400; }
   #status { color: #c9a; }
+  /* ---- posting tracker (bottom of page) ---- */
+  #trkbars { margin: 8px 0 16px; }
+  .tbar { display: flex; align-items: center; gap: 10px; margin: 7px 0; font-size: 13px; }
+  .tbar .tlab { width: 88px; color: #9ab; flex: none; }
+  .tbar .ttrack { flex: 1; height: 15px; background: #1b1b22; border: 1px solid #2a2a30;
+                  border-radius: 8px; overflow: hidden; }
+  .tbar .tfill { height: 100%; background: #2e7d46; transition: width .4s; }
+  .tbar.tapp .tfill { background: #2b5c7a; }
+  .tbar .tnum { width: 62px; text-align: right; color: #8ab; flex: none;
+                font-variant-numeric: tabular-nums; }
+  .trow { display: flex; align-items: center; gap: 6px; padding: 6px 6px;
+          border-bottom: 1px solid #1e1e24; font-size: 13px; }
+  .trow .tname { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;
+                 white-space: nowrap; color: #cdd; }
+  .chip { flex: none; cursor: pointer; user-select: none; font-size: 12px; font-weight: 700;
+          border-radius: 7px; padding: 6px 8px; background: #1b1b22; color: #667;
+          border: 1px solid #2a2a30; }
+  .chip.on { background: #1f5a26; color: #eafce2; border-color: #2e5a24; }
+  .chip.app { cursor: default; }
+  .chip.app.on { background: #1d3a52; color: #cfe8fa; border-color: #2b5c7a; }
+  .chip.dis { cursor: default; color: #383840; border-color: #202026; background: #141419; }
 </style>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
@@ -104,6 +125,17 @@
   <div id="review-old"></div></details>
 
   <details><summary id="ah">✅ Approved</summary><div id="approved"></div></details>
+
+  <h2 id="trkh">📣 Posting tracker — live</h2>
+  <p class="secnote">Every approved video and where it is: the <b>App</b>, then
+  <b>YT</b> YouTube, <b>IG</b> Instagram, <b>TT</b> TikTok, <b>FB</b> Facebook.
+  Tap a chip the moment you post a video there — it saves instantly and shows on
+  every device. The App chip is set automatically from the publish records. Videos
+  over 3:00 have no Instagram chip (Reels cap at 3:00 — a cut is never trimmed to
+  fit). A video joins this list by itself the moment you approve it.</p>
+  <div id="trkbars"></div>
+  <div id="trkrows"></div>
+
   <div id="pool" hidden>
 <div class="card" id="v1" data-num="1" data-hash="a5c874613effca80c65ee5774e56b0c49d10aa27" data-review-wave="realistic-v2" data-built="2026-08-06"><p class="title">01 — Woman Who Touched His Cloak<span class="meta"> · Mark 5 · 1:49</span></p>
 <div class="flag voice">✅ ALEXANDER-CONFIRMED — the same complete Story 1 audio and exact Alexander source takes are preserved; only the audible room tone inside Jesus’s two lines was selectively denoised. No TTS, rewriting, shortening or retiming. The narration, voices and timing are untouched — the audio is byte-identical to the cut you already have.</div>
@@ -226,11 +258,11 @@
 <div class="actions"><button class="approve" id="appbtn15" onclick="toggleApprove(15)">Approve</button><button class="cbtn" onclick="toggleBox(15)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox15" hidden><textarea id="ctext15" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(15)">Save complaint</button></div>
 <div class="cshow" id="cshow15"></div></div>
-<div class="card" id="v16" data-num="16" data-hash="7462e9e6044a016620038ace0538b0a645385cd8" data-newvoice="1" data-review-wave="realistic-v2" data-built="2026-08-01"><p class="title">16 — Mary and Martha<span class="meta"> · Luke 10 · 2:36</span></p>
+<div class="card" id="v16" data-num="16" data-hash="33258be942c6b29dee5f479f9452f487438f8f8b" data-newvoice="1" data-review-wave="realistic-v2" data-built="2026-08-01"><p class="title">16 — Mary and Martha<span class="meta"> · Luke 10 · 2:36</span></p>
 <div class="flag voice">✅ QC-VERIFIED — real new voice, no scripture echo, plays start to finish</div>
-<div class="flag fixed">🛠 What this cut changed (2026-08-01): all 26 pictures rebuilt at native 2K to the realistic standard; windows re-timed onto the real 166.8s timeline; audio untouched</div>
+<div class="flag fixed">🛠 What this cut changed (2026-08-07): Your complaint — "there is a headless person at 42 seconds" — is fixed. That one picture had a man seated with his back to us and no head above his shoulders. Only that picture was redone: Martha now kneads dough with her head turned in a glance across the room, and every person in the frame has a full, visible head (checked in the finished video at 0:44). Nothing else changed — the other 25 pictures, the narration, the voices and the timing are untouched; the audio is byte-identical to the cut you already have.</div>
 <div class="flags" id="flags16"></div>
-<div class="vslot" data-src="https://github.com/noremacttevol/MBM/raw/main/media-production-v2/build-16-mary-martha/luke-10_mary-and-martha-realistic-v2.mp4?v=7462e9e6044a"></div>
+<div class="vslot" data-src="https://github.com/noremacttevol/MBM/raw/main/media-production-v2/build-16-mary-martha/luke-10_mary-and-martha-realistic-v2.mp4?v=33258be942c6"></div>
 <div class="actions"><button class="approve" id="appbtn16" onclick="toggleApprove(16)">Approve</button><button class="cbtn" onclick="toggleBox(16)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox16" hidden><textarea id="ctext16" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(16)">Save complaint</button></div>
 <div class="cshow" id="cshow16"></div></div>
@@ -1865,6 +1897,68 @@ function place(){
   byId('fixwait-empty').hidden = bins.fix.length!==0;
   byId('review-empty').hidden = bins.fresh.length!==0;
   byId('rework-empty').hidden = bins.wait.length!==0;
+  renderTracker();
+}
+
+/* ---- posting tracker: live board of every approved video x destination ---- */
+var IG_MAX_SECS = 180;
+function renderTracker(){
+  var rowsEl=byId('trkrows'), barsEl=byId('trkbars');
+  if(!rowsEl || !barsEl) return;
+  var items=[];
+  document.querySelectorAll('.card').forEach(function(card){
+    var num=card.dataset.num, hash=card.dataset.hash, d=STATE[num]||{};
+    if(!(d.approved && d.approvedHash===hash && card.dataset.reviewWave==='realistic-v2')) return;
+    var t=card.querySelector('.title');
+    var name=t && t.childNodes[0] ? t.childNodes[0].textContent : ('#'+num);
+    var meta=t && t.querySelector('.meta') ? t.querySelector('.meta').textContent : '';
+    var m=meta.match(/(\d+):(\d\d)\s*$/);
+    var secs=m ? (+m[1])*60+(+m[2]) : 0;
+    items.push({num:+num, name:name, secs:secs, s:d.social||{}});
+  });
+  items.sort(function(a,z){ return a.num-z.num; });
+  if(!items.length){
+    barsEl.innerHTML=''; rowsEl.innerHTML='<p class="secnote">Connecting… (the board fills in once your saved decisions load)</p>';
+    return;
+  }
+  var igTotal=0, n={app:0, yt:0, ig:0, tt:0, fb:0};
+  items.forEach(function(it){
+    if(it.secs<=IG_MAX_SECS) igTotal++;
+    ['app','yt','ig','tt','fb'].forEach(function(k){ if(it.s[k]) n[k]++; });
+  });
+  function bar(lab, cls, done, total){
+    var pct = total ? Math.round(done*100/total) : 0;
+    return '<div class="tbar '+cls+'"><span class="tlab">'+lab+'</span>'
+      + '<span class="ttrack"><span class="tfill" style="width:'+pct+'%"></span></span>'
+      + '<span class="tnum">'+done+' / '+total+'</span></div>';
+  }
+  barsEl.innerHTML =
+      bar('In the app','tapp', n.app, items.length)
+    + bar('YouTube','', n.yt, items.length)
+    + bar('Instagram','', n.ig, igTotal)
+    + bar('TikTok','', n.tt, items.length)
+    + bar('Facebook','', n.fb, items.length);
+  var h='';
+  items.forEach(function(it){
+    function chip(k, lab){
+      if(k==='ig' && it.secs>IG_MAX_SECS)
+        return '<span class="chip dis" title="over 3:00 — too long for an Instagram Reel">IG</span>';
+      var on=!!it.s[k];
+      if(k==='app')
+        return '<span class="chip app'+(on?' on':'')+'" title="set automatically from the publish records">App</span>';
+      return '<span class="chip'+(on?' on':'')+'" onclick="toggleSocial(\''+it.num+'\',\''+k+'\')">'+lab+'</span>';
+    }
+    h += '<div class="trow"><span class="tname">'+esc(it.name)+'</span>'
+       + chip('app','App')+chip('yt','YT')+chip('ig','IG')+chip('tt','TT')+chip('fb','FB')+'</div>';
+  });
+  rowsEl.innerHTML=h;
+}
+function toggleSocial(num, key){
+  if(!ready){ alert("Still connecting — give it a second, then tap again."); return; }
+  var cur=((STATE[num]||{}).social||{})[key];
+  var o={}; o[key]=!cur;
+  db.collection('reviews').doc(String(num)).set({social:o}, {merge:true})
+    .catch(function(e){ alert("Save failed: "+e.message); });
 }
 
 function toggleApprove(num){

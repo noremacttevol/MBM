@@ -1,3 +1,21 @@
+## 2026-08-07 (social session, pt.4) — LIVE POSTING TRACKER ON THE REVIEWER — deployed + live-verified — Machine A `Dev`
+
+**Commit:** (this commit — review.html tracker section, admin/seed-social-app-status.mjs, social/TRACKER.md pointer, this entry; by pathspec)
+
+Cameron: "put that tracker on the reviewer page so i can see a graph at the bottom, LIVE!"
+Done and LIVE at https://milk-b4-meat.web.app/review.html — bottom section "📣 Posting
+tracker — live": five progress bars (In the app / YouTube / Instagram / TikTok / Facebook)
+plus one row per approved video with tap-chips per platform. Status lives on the SAME
+`reviews/{row}` Firestore docs the page already writes (field `social.{app,yt,ig,tt,fb}`,
+merge-safe, no rules change needed); chips save instantly and sync to every device via the
+existing onSnapshot. The board computes its own membership LIVE from approved+hash-match —
+approving a new video adds its row automatically. IG chips hidden for videos over 3:00
+(computed from each card's duration; 27 of 44 eligible). `admin/seed-social-app-status.mjs`
+merges social.app=true from PUBLISH-LEDGER.json (ran: 44/44). Deployed via firebase hosting
+and LIVE-VERIFIED in the browser: 44 rows render, App bar 44/44, chip tap → Firestore →
+bar moves (tested on row 01 YT, then reverted to off). Autopilot cards untouched — the
+tracker is an additive section at the page bottom.
+
 ## 2026-08-07 — C-FIX row 15 centurion (sick-servant age/grey) SHIPPED — Machine A `Dev`
 
 **Commit:** 5bf1beba570a7d2fb3b2b026a8d90a8bc490ef71 (art+QC+mp4); review.html live-hash + this log commit follow.

@@ -1,8 +1,15 @@
 # TRACKER — every video, everything about it, one board
 
-> **This is the master board.** One line per video, in posting order (lowest row
-> number first). Tick a box the moment a video goes up on that platform. Every
-> session and every future chat updates THIS file — nothing else tracks status.
+> **THE LIVE BOARD NOW LIVES ON THE REVIEWER PAGE** (2026-08-07):
+> https://milk-b4-meat.web.app/review.html — scroll to the bottom, "📣 Posting
+> tracker — live." Progress bars for App / YouTube / Instagram / TikTok / Facebook,
+> one row per approved video, and tap-chips that save instantly from any device.
+> A video joins that board by itself the moment Cameron approves it, and the App
+> column refreshes with `cd admin && node seed-social-app-status.mjs`.
+>
+> **Tick status THERE, not here.** This file stays as the offline reference (one
+> line per video, in posting order — lowest row number first) and the list of what
+> exists; sessions without the page still read it.
 >
 > **Legend:** ✅ done · ☐ not yet · — = skip (video over 3:00, too long for an
 > Instagram Reel — never trim to fit; editing a cut voids your approval).
