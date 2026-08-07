@@ -30,7 +30,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 16 | build-16-mary-martha | BUILT | 26 | OK | C-FIX 2026-08-07 SHIPPED |  |
 | 17 | build-17-lazarus | BUILT | 61 | OK | C-FIX 2026-08-07 LIVE |  |
 | 18 | build-18-emmaus | NEEDS-AUDIO | 41 | CHECK | C-FIX 2026-08-07 PARKED NEEDS-AUDIO: OPEN complaint is AUDIO-pronunciation — narrator mispronounces "Jesus's" (possessive) in n0 ("two of Jesus's followers", ~0:04); SPOKEN dict empty, no fix baked in, runner cannot re-voice (audio-immutability). AUTHOR: set SPOKEN={"Jesus's":"jeezusiz"} in make_narration.py, regenerate n0.mp3, re-assemble. See QC.md §0 RUNNER PARK. |  |
-| 19 | build-19-shore | BUILT | 37 | OK |  |  |
+| 19 | build-19-shore | BUILT | 37 | OK | C-FIX 2026-08-07 LIVE |  |
 | 20 | build-20-samaritan | BUILT | 42 | OK |  |  |
 | 21 | build-21-lost-sheep | BUILT | 33 | OK |  |  |
 | 22 | build-22-unmerciful-servant | BUILT | 48 | OK |  |  |
