@@ -1,5 +1,20 @@
 # QC / RUNNER HANDOFF — build-83-weeping-over-jerusalem
 
+## ✅ RUNNER SHIP — realistic-v2, A-auto Machine A `Dev`, 2026-08-07
+
+**COMPLAINT LEDGER (3 open, from `v2_outline.py 83` — all addressed):**
+1. **"first picture they are walking the wrong way... away from Jerusalem rather than toward it."** → FIXED at b01: authored camera BEHIND the procession's shoulders, so every walker moves AWAY from the lens and TOWARD the revealed city; the road streams down to the gate with Jerusalem + temple filling the background. Verified in the rendered s01 — the whole procession visibly heads toward the city.
+2. **"the second picture Jesus looks like a giant."** → FIXED: lesson-14 scale gate applied to EVERY multi-figure frame (b02/b09/b11/b14). Jesus renders at the SAME height as the men beside him in all of them — ordinary-sized, never enlarged. b02 (the complaint frame) verified head-to-head against the flanking disciples: proportionate.
+3. **"at the end... the question is asked but then it stays going for an extra 13 seconds."** → FIXED by the STALE-V1 audio rebuild (AUDIO_FROM_V1_SEGMENTS=True): the dead tail was V1's stale over-long stream. Tail check at assembly: captioned.mp4 duration ≈ card seg_start (±0.2s) and final mp4 ≈ audio length — NO trailing dead air after the question card. (See ASSEMBLY block below for the measured numbers.)
+
+**Light QC (1 pass, all 14 frames + skyline zoom on b02 + 3 rendered caption frames): 1 reroll / 14 = 7% (COST LAW, under 15%).**
+- b02 REROLL: first take had a MODERN skyline behind the temple (high-rise tower block + antenna masts + construction crane) — modern-object fail on the hero "he stopped" frame. One `--redo` cleared it: all-period limestone city + temple, no modern structures. $0.13.
+- Beard board: full dark beard + shoulder-length wavy dark hair identical across every Jesus frame (s01-s14). Scale gate: Jesus ordinary-sized in every multi-figure frame. Only-Jesus-cream held (crowd in earth-brown/rust/olive; s08/s12 jesus:False frames carry no cream figure, no Jesus-double). No lens-stare, no burned-in subtitle on the quote beats (s04/s07), anatomy clean, city INTACT every frame (off-screen-ruin law), green/hazel Jesus eyes are the baked V2 ref (not rerolled).
+- FIX-WAVE (kept, non-blocking): s06 (gate-traffic wide) has a faint hazy distant structure top-left that could read modern at full zoom — distant, non-hero, borderline; COST-LAW FIX-WAVE rather than a reroll (a reroll re-seeds the whole landscape for one hazy far element).
+
+---
+
+
 ## ✅ AUDIO FIX DONE — AUDIO-FIX session, Machine A, 2026-08-06 ($0)
 
 **STALE-V1 audio-lock CLEARED.** Added `AUDIO_FROM_V1_SEGMENTS = True` to
