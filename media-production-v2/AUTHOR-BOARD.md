@@ -26,7 +26,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 12 | build-12-bartimaeus | BUILT | 79 | OK |  |  |
 | 13 | build-13-roof | BUILT | 88 | OK | C-FIX 2026-08-06 LIVE |  |
 | 14 | build-14-ten-lepers | BUILT | 68 | OK |  |  |
-| 15 | build-15-centurion | BUILT | 71 | OK |  |  |
+| 15 | build-15-centurion | BUILT | 71 | OK | C-FIX 2026-08-07 LIVE |  |
 | 16 | build-16-mary-martha | BUILT | 26 | OK |  |  |
 | 17 | build-17-lazarus | BUILT | 61 | OK |  |  |
 | 18 | build-18-emmaus | BUILT | 41 | OK |  |  |
