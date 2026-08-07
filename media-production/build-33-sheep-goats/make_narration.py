@@ -18,8 +18,7 @@ out -- Matthew's last framing line is back at 25:31, before the build starts.
 THE BIG ADD -- THE RIGHTEOUS WERE NEVER HEARD. The heart of this story is that the
 people being welcomed in do not recognise their own kindness, and their bewildered
 question was sitting entirely inside narrator paraphrase in n5, spoken in white. It is
-Jesus's own words -- inside his parable, the characters' lines are his -- so it is red,
-not blue, and it is lifted out verbatim on the SAME still n5 already used:
+lifted out verbatim on the SAME still n5 already used:
   j37  Matthew 25:37-39  'Lord, when saw we thee an hungred, and fed thee? or thirsty,
        and gave thee drink? When saw we thee a stranger, and took thee in? or naked,
        and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?'
@@ -28,6 +27,15 @@ not blue, and it is lifted out verbatim on the SAME still n5 already used:
        lands as the retelling directly behind it.
 This is the beat the video was missing. j2's answer now arrives as a real answer to a
 question the viewer has actually heard asked.
+
+SPEAKER of j37 -- CAMERON RULING (open complaint at 1:16, C-FIX 2026-08-07): this line
+is the RIGHTEOUS asking their bewildered question, NOT the Lord. An earlier pass voiced
+it in the JESUS voice / red caption on the theory that inside a parable the characters'
+lines are the teller's -- Cameron rejected that: he hears the Lord's own voice saying
+'Lord, when saw we thee an hungred' and it makes no sense for Jesus to say. So j37 is
+the SCRIPTURE voice (en-US-SteffanNeural, light-blue caption) -- everyone else quoted
+from the KJV -- NOT JESUS. Do not flip it back to red. The two lines that stay red (j1,
+j2) are the King/Jesus speaking in his own person; j37 is the people answering him.
 
 ALSO ADDED RED. The opening image was paraphrase only:
   j32  Matthew 25:32  'And before him shall be gathered all nations: and he shall
@@ -60,7 +68,7 @@ import os
 
 from mbm_caption_timing import save_speaker_narration
 from mbm_pronounce import audit, spoken_text
-from mbm_speakers import JESUS, NARRATOR
+from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
@@ -73,8 +81,8 @@ SEGMENTS = [
     # Matthew 25:34-36
     ("j1", JESUS, "Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me."),
     ("n4", NARRATOR, "You fed me when I was hungry, he said. You clothed me, you sat with me when I was sick, you came to me when I was locked away."),
-    # Matthew 25:37-39
-    ("j37", JESUS, "Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?"),
+    # Matthew 25:37-39 — the RIGHTEOUS answering, NOT Jesus (SCRIPTURE voice / light-blue).
+    ("j37", SCRIPTURE, "Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?"),
     ("n5", NARRATOR, "And here is the beautiful part. The good people are confused. They say, Lord, when did we ever see you hungry, or thirsty, or sick, or in prison? They do not even remember doing anything special. They just helped whoever was in front of them."),
     ("n6", NARRATOR, "They were not keeping score. They were not trying to earn anything. Kindness was simply their reflex. And then the King tells them the secret behind all of it."),
     # Matthew 25:40

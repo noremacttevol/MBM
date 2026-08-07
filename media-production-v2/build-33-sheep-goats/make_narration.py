@@ -60,7 +60,7 @@ import os
 
 from mbm_caption_timing import save_speaker_narration
 from mbm_pronounce import audit, spoken_text
-from mbm_speakers import JESUS, NARRATOR
+from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
@@ -71,7 +71,8 @@ SEGMENTS = [
     ("n3", NARRATOR, 'To the first group, the ones he welcomed in, the King said this.'),
     ("j1", JESUS, 'Come, ye blessed of my Father, inherit the kingdom prepared for you from the foundation of the world: For I was an hungred, and ye gave me meat: I was thirsty, and ye gave me drink: I was a stranger, and ye took me in: Naked, and ye clothed me: I was sick, and ye visited me: I was in prison, and ye came unto me.'),
     ("n4", NARRATOR, 'You fed me when I was hungry, he said. You clothed me, you sat with me when I was sick, you came to me when I was locked away.'),
-    ("j37", JESUS, 'Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?'),
+    # j37 is the RIGHTEOUS answering, NOT Jesus (SCRIPTURE voice / light-blue) — Cameron ruling, C-FIX 2026-08-07.
+    ("j37", SCRIPTURE, 'Lord, when saw we thee an hungred, and fed thee? or thirsty, and gave thee drink? When saw we thee a stranger, and took thee in? or naked, and clothed thee? Or when saw we thee sick, or in prison, and came unto thee?'),
     ("n5", NARRATOR, 'And here is the beautiful part. The good people are confused. They say, Lord, when did we ever see you hungry, or thirsty, or sick, or in prison? They do not even remember doing anything special. They just helped whoever was in front of them.'),
     ("n6", NARRATOR, 'They were not keeping score. They were not trying to earn anything. Kindness was simply their reflex. And then the King tells them the secret behind all of it.'),
     ("j2", JESUS, 'Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.'),

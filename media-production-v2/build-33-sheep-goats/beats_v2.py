@@ -104,7 +104,7 @@ OUTPUT_ASSET_DIR = "assets"
 # The V1 MP4 (180.033 s) and all fourteen mp3s share ONE git content date
 # (2026-07-27T22:59:51). Neither staleness tripwire fires; the normal packet-copy
 # AUDIO LOCK applies. Nothing is re-voiced and V1 is never written to.
-AUDIO_FROM_V1_SEGMENTS = False
+AUDIO_FROM_V1_SEGMENTS = True
 
 REF = True
 
@@ -938,7 +938,7 @@ BEATS = [
             "figure is in the picture at all. Two THICK SQUARE-CUT TIMBER BARS, adzed "
             "flat and unpainted, run vertically through the frame with a hand's width "
             "of black gap between them. Through that gap ONE ADULT MALE HAND — broad, "
-            "filthy, the nails black, a heavy hand-forged iron shackle showing at the "
+            "filthy, the nails short, split and unpainted, a heavy hand-forged iron shackle showing at the "
             "wrist above it, dark grey, uneven and pitted — reaches out and is being "
             "GRIPPED at the wrist and fingers by ONE ADULT FEMALE HAND, smaller, "
             "olive-brown, work-roughened, no ring and no jewellery, and A DEEP INDIGO "
@@ -955,7 +955,7 @@ BEATS = [
     # ===== j37 — the righteous never saw it, 25:37-39: one per question =====
     {
         "id": "v2-r033-b21", "out": "s21-when-saw-we-thee-hungred.jpeg",
-        "seg": "j37", "window": "74.465-79.165", "wide": False, "jesus": False,
+        "seg": "j37", "window": "74.465-79.367", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "MIRIAM", "ALLEY", "BACKGROUND-CAST"],
         "narration": "Lord, when saw we thee an hungred, and fed thee,",
         "must_show": "Miriam standing back up in the empty alley with her hands hanging open and empty at her sides, looking down at the patch of bare dust where the man had been sitting, her brow drawn in honest puzzlement.",
@@ -981,7 +981,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b22", "out": "s22-or-thirsty.jpeg",
-        "seg": "j37", "window": "79.165-81.825", "wide": False, "jesus": False,
+        "seg": "j37", "window": "79.367-82.510", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "TOBIAH", "ROADSIDE", "ANCIENT-ROAD", "BACKGROUND-CAST"],
         "narration": "or thirsty and gave thee drink?",
         "must_show": "Tobiah standing alone under the thorn tree with the empty clay jar hanging from one hand at his hip, looking off down the empty caravan track, in hot late afternoon light.",
@@ -1008,7 +1008,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b23", "out": "s23-when-saw-we-thee-a-stranger.jpeg",
-        "seg": "j37", "window": "81.825-85.405", "wide": False, "jesus": False,
+        "seg": "j37", "window": "82.510-86.141", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "THRESHOLD", "MARKET-TOWN", "BACKGROUND-CAST"],
         "narration": "When saw we thee a stranger and took thee in,",
         "must_show": "The householder standing alone in his own doorway in the first flat grey light of morning, one shoulder against the timber jamb, looking out along the empty packed-earth street.",
@@ -1034,7 +1034,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b24", "out": "s24-or-naked-and-clothed-thee.jpeg",
-        "seg": "j37", "window": "85.405-87.765", "wide": False, "jesus": False,
+        "seg": "j37", "window": "86.141-88.995", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "MIRIAM", "CISTERN"],
         "narration": "or naked and clothed thee?",
         "must_show": "A close view of Miriam's two hands at the cistern step folding her dark rust-brown wool mantle back over her forearm, her face above them tilted down and slightly frowning.",
@@ -1060,7 +1060,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b25", "out": "s25-sick-or-in-prison.jpeg",
-        "seg": "j37", "window": "87.765-92.796", "wide": False, "jesus": False,
+        "seg": "j37", "window": "88.995-95.407", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "MIRIAM", "ANCIENT-PRISON"],
         "narration": "Or when saw we thee sick or in prison and came unto thee?",
         "must_show": "Miriam climbing the worn stone stair up out of the prison undercroft toward the daylight opening above, seen from below and behind, the empty reed basket on her hip.",
@@ -1087,7 +1087,7 @@ BEATS = [
     # =============== n5 — the good people are confused ======================
     {
         "id": "v2-r033-b26", "out": "s26-the-good-people-confused.jpeg",
-        "seg": "n5", "window": "92.796-96.996", "wide": True, "jesus": False,
+        "seg": "n5", "window": "95.407-99.607", "wide": True, "jesus": False,
         "locks": ["MIRIAM", "TOBIAH", "ALLEY", "MARKET-TOWN", "BACKGROUND-CAST"],
         "narration": "And here is the beautiful part. The good people are confused.",
         "must_show": "Miriam, Tobiah and three other ordinary villagers standing together at the mouth of the alley in warm late light, glancing at one another with open puzzled faces, none of them certain what is being asked.",
@@ -1118,7 +1118,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b27", "out": "s27-when-did-we-ever-see-you.jpeg",
-        "seg": "n5", "window": "96.996-100.616", "wide": False, "jesus": False,
+        "seg": "n5", "window": "99.607-103.227", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "MIRIAM", "ALLEY"],
         "narration": "They say, Lord, when did we ever see you hungry or thirsty or sick",
         "must_show": "A close three-quarter view of Miriam's face mid-question, brows drawn together, mouth open on a word, warm late light on the front of her face.",
@@ -1155,7 +1155,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b28", "out": "s28-do-not-even-remember.jpeg",
-        "seg": "n5", "window": "100.616-104.036", "wide": False, "jesus": False,
+        "seg": "n5", "window": "103.227-106.647", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "TOBIAH", "ALLEY"],
         "narration": "or in prison? They do not even remember doing anything",
         "must_show": "Tobiah standing in the alley with both hands turned open and empty at his waist and his shoulders lifted in a small honest shrug, his face tilted up and off to the side.",
@@ -1183,7 +1183,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b29", "out": "s29-whoever-was-in-front-of-them.jpeg",
-        "seg": "n5", "window": "104.036-108.190", "wide": True, "jesus": False,
+        "seg": "n5", "window": "106.647-110.800", "wide": True, "jesus": False,
         "locks": ["MIRIAM", "ALLEY", "MARKET-TOWN", "BACKGROUND-CAST"],
         "narration": "special. They just helped whoever was in front of them.",
         "must_show": "An ordinary unremarkable moment in the alley: Miriam handing a fired-clay bowl across to a neighbour woman in a doorway while a laden donkey passes, nobody making anything of it, in warm late light.",
@@ -1214,7 +1214,7 @@ BEATS = [
     # ================ n6 — kindness was simply their reflex =================
     {
         "id": "v2-r033-b30", "out": "s30-not-keeping-score.jpeg",
-        "seg": "n6", "window": "108.190-111.770", "wide": False, "jesus": False,
+        "seg": "n6", "window": "110.800-114.381", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "ALLEY"],
         "narration": "They were not keeping score. They were not trying to earn",
         "must_show": "A close view of two adult female hands rinsing a fired-clay bowl in a shallow basin of water on the alley doorstep, entirely absorbed in ordinary work, with no face in the frame.",
@@ -1239,7 +1239,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b31", "out": "s31-kindness-was-their-reflex.jpeg",
-        "seg": "n6", "window": "111.770-115.870", "wide": False, "jesus": False,
+        "seg": "n6", "window": "114.381-118.481", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "TOBIAH", "ALLEY", "BACKGROUND-CAST"],
         "narration": "anything. Kindness was simply their reflex. And then the",
         "must_show": "Tobiah putting out one hand to steady an old man's elbow on the uneven alley step without breaking stride or even looking round, the reed basket still on his other hip.",
@@ -1266,7 +1266,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b32", "out": "s32-the-secret-behind-it.jpeg",
-        "seg": "n6", "window": "115.870-119.586", "wide": True, "jesus": True, "ref": REF,
+        "seg": "n6", "window": "118.481-122.197", "wide": True, "jesus": True, "ref": REF,
         "locks": ["OLIVET-STAIR", "DISCIPLES", "JESUS-SEATED", "BACKGROUND-CAST"],
         "narration": "King tells them the secret behind all of it.",
         "must_show": "Jesus on the step leaning forward toward the men with his forearms on his knees, the whole group gone very still around him, in the last deep gold of evening.",
@@ -1293,7 +1293,7 @@ BEATS = [
     # ============ j2 — 25:40, the sentence the video is built on ===========
     {
         "id": "v2-r033-b33", "out": "s33-inasmuch-as-ye-have-done-it.jpeg",
-        "seg": "j2", "window": "119.586-124.366", "wide": False, "jesus": True, "ref": REF,
+        "seg": "j2", "window": "122.197-126.977", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLEAR-EDGES", "OLIVET-STAIR", "JESUS-SEATED"],
         "narration": "Verily I say unto you, Inasmuch as ye have done it unto one of the",
         "must_show": "Jesus close and alone in strict side-on profile on the step, speaking quietly and deliberately, the last gold light on the front of his face.",
@@ -1316,7 +1316,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b34", "out": "s34-ye-have-done-it-unto-me.jpeg",
-        "seg": "j2", "window": "124.366-129.323", "wide": False, "jesus": True, "ref": REF,
+        "seg": "j2", "window": "126.977-131.934", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLEAR-EDGES", "OLIVET-STAIR", "JESUS-SEATED"],
         "narration": "least of these, my brethren, ye have done it unto me.",
         "must_show": "Jesus seated on the step laying his own open right hand flat against his own chest as he finishes the sentence, his head turned down toward the men below him.",
@@ -1342,7 +1342,7 @@ BEATS = [
     # ============ n7 — he was in them the whole time ========================
     {
         "id": "v2-r033-b35", "out": "s35-every-hungry-person.jpeg",
-        "seg": "n7", "window": "129.323-133.143", "wide": False, "jesus": False,
+        "seg": "n7", "window": "131.934-135.754", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "ELI", "ALLEY"],
         "narration": "He was in them the whole time. Every hungry person,",
         "must_show": "A close three-quarter view of Eli's face in the shaded alley, quiet and tired, his gaze travelling off along the foot of the wall, the bread already gone.",
@@ -1370,7 +1370,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b36", "out": "s36-every-stranger.jpeg",
-        "seg": "n7", "window": "133.143-137.203", "wide": False, "jesus": False,
+        "seg": "n7", "window": "135.754-139.814", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "THRESHOLD", "MARKET-TOWN"] + _NIGHT,
         "narration": "every stranger, every sick and forgotten and locked away person",
         "must_show": "The dusty traveller stopped just inside the lit doorway and half turning back over his shoulder toward the dark street, his bundle still roped on, lit low from the front by the clay lamp.",
@@ -1397,7 +1397,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b37", "out": "s37-wearing-a-disguise.jpeg",
-        "seg": "n7", "window": "137.203-140.772", "wide": False, "jesus": False,
+        "seg": "n7", "window": "139.814-143.383", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "ANCIENT-PRISON"] + _NIGHT,
         "narration": "was him wearing a disguise.",
         "must_show": "The prisoner's face close behind two thick timber bars, half of it lit from below by the clay lamp and half lost in black, his eyes down on the bread in his own hands.",
@@ -1426,7 +1426,7 @@ BEATS = [
     # ================= n8 — the others walked straight past =================
     {
         "id": "v2-r033-b38", "out": "s38-waiting-for-a-king.jpeg",
-        "seg": "n8", "window": "140.772-145.292", "wide": True, "jesus": False,
+        "seg": "n8", "window": "143.383-147.903", "wide": True, "jesus": False,
         "locks": ["GATEWAY", "MARKET-TOWN", "BACKGROUND-CAST"],
         "narration": "The others missed him for the very same reason. They were waiting to serve a king on a",
         "must_show": "Three well-dressed men standing together just inside the great stone gateway, all looking expectantly out and up along the empty approach road, waiting for someone important who is not coming.",
@@ -1455,7 +1455,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b39", "out": "s39-walked-right-past-him.jpeg",
-        "seg": "n8", "window": "145.292-149.792", "wide": True, "jesus": False,
+        "seg": "n8", "window": "147.903-152.403", "wide": True, "jesus": False,
         "locks": ["ELI", "ALLEY", "MARKET-TOWN", "BACKGROUND-CAST"],
         "narration": "throne, and they walked right past him a hundred times because he did not",
         "must_show": "A well-dressed man striding briskly through the alley with his face turned away, passing within a pace of Eli sitting against the wall, neither of them registering the other.",
@@ -1487,7 +1487,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b40", "out": "s40-someone-who-needed-help.jpeg",
-        "seg": "n8", "window": "149.792-154.389", "wide": False, "jesus": False,
+        "seg": "n8", "window": "152.403-157.000", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "ELI", "ALLEY"],
         "narration": "look like a king. He looked like someone who needed help.",
         "must_show": "Eli alone against the mud-brick wall of the empty alley, seen close and a little from the side, weary and entirely unremarkable, in the last low light of the day.",
@@ -1516,7 +1516,7 @@ BEATS = [
     # ================= n9 — the closing application =========================
     {
         "id": "v2-r033-b41", "out": "s41-that-is-how-good-he-is.jpeg",
-        "seg": "n9", "window": "154.389-158.329", "wide": True, "jesus": True, "ref": REF,
+        "seg": "n9", "window": "157.000-160.940", "wide": True, "jesus": True, "ref": REF,
         "locks": ["OLIVET-STAIR", "DISCIPLES", "JESUS-SEATED", "BACKGROUND-CAST"],
         "narration": "That is how good he is. He did not hide himself behind",
         "must_show": "A wide view of the stair in the very last warm light with Jesus sitting among the men, ordinary and unremarkable among them, nothing setting him apart but his robe.",
@@ -1550,7 +1550,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b42", "out": "s42-something-impressive.jpeg",
-        "seg": "n9", "window": "158.329-161.649", "wide": False, "jesus": False,
+        "seg": "n9", "window": "160.940-164.260", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "ELI", "ALLEY"],
         "narration": "something impressive. He hid in the people easiest to",
         "must_show": "An extreme close view of Eli's two worn empty male hands lying open in his lap, cracked and dust-grey, with the frayed hem of his charcoal-brown tunic across his knees.",
@@ -1574,7 +1574,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b43", "out": "s43-ordinary-kindness.jpeg",
-        "seg": "n9", "window": "161.649-165.509", "wide": False, "jesus": False,
+        "seg": "n9", "window": "164.260-168.120", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "MIRIAM", "ELI", "ALLEY", "BACKGROUND-CAST"],
         "narration": "overlook, so that plain, ordinary kindness would always reach",
         "must_show": "Miriam crouching down again to Eli at the foot of the alley wall, seen from behind her shoulder, offering a fired-clay cup, the whole thing small and unremarkable in the warm last light.",
@@ -1602,7 +1602,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b44", "out": "s44-stands-in-front-of-you.jpeg",
-        "seg": "n9", "window": "165.509-169.109", "wide": False, "jesus": False,
+        "seg": "n9", "window": "168.120-171.720", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "ALLEY", "MARKET-TOWN"],
         "narration": "him. So when someone small and needy stands in front of",
         "must_show": "A small barefoot child standing still in a village doorway in flat overcast daylight, seen from outside and slightly below, waiting, with nobody else in the frame.",
@@ -1630,7 +1630,7 @@ BEATS = [
     },
     {
         "id": "v2-r033-b45", "out": "s45-it-might-be-him.jpeg",
-        "seg": "n9", "window": "169.109-173.179", "wide": False, "jesus": False,
+        "seg": "n9", "window": "171.720-175.790", "wide": False, "jesus": False,
         "locks": ["CLEAR-EDGES", "ALLEY"],
         "narration": "you, that is not an interruption. It might be him.",
         "must_show": "An extreme close view of a small child's two hands closing around a fired-clay cup as an adult woman's two hands let go of it, warm last light on the clay, nothing else in frame.",
