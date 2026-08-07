@@ -30,19 +30,46 @@ face and bearing, not an effect. Modesty for Adam and Eve is unchanged.
 
 SERPENT: NEVER painted — it exists only in the woman's quoted words.
 
-MODESTY (absolute): Adam and Eve are framed with complete discretion
-in every beat — waist-up behind foliage, at distance, in shadow, or
-clothed (fig-leaf girdles from v7 onward, skin coats from v21);
-nothing immodest in any frame. Shame is carried by POSTURE.
+MODESTY + COVERING TIMELINE (absolute — Cameron's order, 2026-08-07,
+against the live cut: "the first two thirds where they are wearing RAGS
+needs to be changed; first they are wearing nothing — work the pictures
+to only show their face or upper torso with eve's breasts covered by
+eve's long hair, or random foliage — then when they eat of the tree and
+feel naked have them wearing the LEAVES of trees, and then have the last
+third stay the same where God makes them clothes"). There are exactly
+THREE coverings in this whole story, in this order, and NOTHING else —
+NEVER rags, tattered cloth, woven fabric, sackcloth, loincloths or animal
+skins before the coats:
+  1. BEFORE the fruit (b01-b04): NOTHING — they are unclothed as in Eden
+     before the fall, rendered with COMPLETE modesty in the manner of
+     reverent classical biblical painting: framed from the chest up,
+     and/or the woman's very long hair and garden foliage falling across
+     her so no bare chest or lower body is ever in frame. Discretion is
+     by HAIR, FOLIAGE, DISTANCE and CHEST-UP FRAMING — not by clothing.
+  2. AFTER they eat and feel naked (fig leaves made in b06, worn b06-b20):
+     fresh GREEN FIG-LEAF girdles/aprons — real broad leaves threaded on
+     vine, clearly leaves, never cloth and never rags.
+  3. AFTER the sentence (b21, b23, b24): the well-made dark LEATHER COATS
+     the Father makes them — Cameron approved these ("the last ones where
+     he made them clothes those are good"): KEEP them exactly.
+Nothing immodest in any frame; shame is carried by POSTURE and the eyes.
 
 TIME OF DAY: the golden COOL OF THE DAY throughout — long warm
 evening light in the garden; the exile beats at dusk with warmth kept
 in the light. Correct story lighting.
 
-CHANGING CONDITION (kept OUT of the locks): their covering — none
-(discreetly framed), then fig leaves, then coats of skins; the
-garden — open peace, then hiding places, then behind them; the
-light — companion, then approaching, then following them out.
+CHANGING CONDITION (kept OUT of the identity locks — set per beat):
+  covering — nothing (hair/foliage/chest-up framing) → fig leaves → coats
+  of skins, per the timeline above; the garden — open peace, then hiding
+  places, then behind them; the light — companion, then approaching, then
+  following them out. Their FACES and BUILD never change (the locks); only
+  the covering, per the beat.
+
+GROUND (Cameron, 2026-08-07: "0:25 they are sitting on water, bad photo,
+delete it and redo it a better way"): people are ALWAYS on solid ground —
+earth, moss, grass or rock. NEVER seated, crouched or standing ON, IN or
+over the stream/water so that they read as sitting on water. The stream
+stays in the BACKGROUND only, never under a person.
 """
 
 # LOCKS: one entry per recurring person and per setting. Clothing changes
@@ -60,13 +87,20 @@ LOCKS = {
         "ADAM LOCK: the man is the same in every shot — young, "
         "strong and unlined, warm tan skin, shoulder-length dark "
         "hair and a short dark beard; always framed with complete "
-        "modesty (foliage, distance, shadow, or clothing)."
+        "modesty. His ONLY coverings in the whole story are, in order, "
+        "nothing (chest-up framing / foliage), then fig leaves, then "
+        "the dark leather coat at the end — NEVER rags, tattered cloth, "
+        "woven fabric, sackcloth or a loincloth."
     ),
     "EVE": (
         "EVE LOCK: the woman is the same in every shot — young and "
         "unlined, warm tan skin, very long thick dark hair falling "
-        "past her waist; always framed with complete modesty "
-        "(her hair, foliage, distance, shadow, or clothing)."
+        "past her waist; always framed with complete modesty, her long "
+        "hair and garden foliage covering her. Her ONLY coverings in the "
+        "whole story are, in order, nothing (chest-up framing, her hair "
+        "and foliage across her), then fig leaves, then the dark leather "
+        "coat at the end — NEVER rags, tattered cloth, woven fabric, "
+        "sackcloth or a loincloth."
     ),
     "GOD": (
         "GOD THE FATHER LOCK (Cameron's standing order: God has a body "
@@ -128,8 +162,8 @@ BEATS = [
             "People and God walking together in the cool of the day, with "
             "nothing to hide and nothing to fear."
         ),
-        "must_show": "the walking-together — the man and woman at ease strolling the garden path at distance amid deep foliage, and WALKING WITH THEM the embodied Father (per the GOD lock): companionship you can see, three friends on an evening walk; modesty by distance and foliage.",
-        "must_not_show": "no halo, glow or rim-light on the Father; nothing immodest — the couple framed discreet, unashamed ease in their walk.",
+        "must_show": "the walking-together — the man and woman at ease strolling the garden path at distance amid deep foliage, UNCLOTHED as before the fall but shown with complete discretion (far distance, deep foliage across them, her long hair down her back), and WALKING WITH THEM the embodied Father (per the GOD lock): companionship you can see, three friends on an evening walk.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the couple wear NOTHING yet (this is before the fall) — NO rags, no cloth, no loincloths, no garments of any kind; modesty entirely by distance, foliage and hair; nothing immodest; nobody on or over the water.",
         "scene": (
             "Down the evening path the "
             "first friendship takes its "
@@ -190,8 +224,8 @@ BEATS = [
             "thing that was not theirs, hoping it would make them more than "
             "they were."
         ),
-        "must_show": "the reach — close through foliage: the woman's hand closing on the fruit, the man's hand near hers; the taking at its instant; faces intent, framed discreetly by leaves.",
-        "must_not_show": "ABSOLUTE: no serpent; modesty total — hands, faces and leaf-framed shoulders only.",
+        "must_show": "the reach — close through foliage: the woman's hand closing on the fruit, the man's hand near hers; the taking at its instant; faces intent, framed chest-up and discreetly by leaves.",
+        "must_not_show": "ABSOLUTE: no serpent; the couple wear NOTHING yet (still before the fall) — NO rags, cloth or garments; modesty total, hands, faces and leaf-framed shoulders only.",
         "scene": (
             "Through the leaves the "
             "oldest mistake happens in "
@@ -219,8 +253,8 @@ BEATS = [
         "window": "22.29-25.73", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN", "ADAM", "EVE"],
         "narration": "And everything changed. For the first time they felt shame.",
-        "must_show": "shame's arrival — the two turned from each other in the thicket's shadow, arms wrapped around themselves, heads down; the first shame as pure posture, discreetly framed.",
-        "must_not_show": "modesty absolute — shadow and foliage doing the covering; faces and curled postures carry everything.",
+        "must_show": "shame's arrival — the two crouched on solid mossy earth in the thicket's shadow, turned from each other, arms wrapped around themselves, her long hair pulled forward across her like a cloak, heads down; the first shame as pure posture, framed chest-up and discreet.",
+        "must_not_show": "GROUND FIX (Cameron 0:25 'sitting on water'): they are on solid earth/moss, NEVER seated, crouched or standing on, in or over the stream — no water under them, the stream only in the far background if at all. They wear NOTHING yet (fig leaves are not made until the next beat) — covering is her hair, shadow and foliage; NO rags, cloth or leaves here; nothing immodest.",
         "scene": (
             "The change arrives in "
             "their bodies first: deep "
@@ -252,8 +286,8 @@ BEATS = [
             "They saw themselves, and did not like what they saw, and "
             "scrambled to cover up, hiding from each other."
         ),
-        "must_show": "SCRIPTURE-EXACT: the fig leaves — the two hurriedly working broad fig leaves into rough girdles in the shadow, backs half-turned, fingers clumsy with haste; self-covering as panic.",
-        "must_not_show": "modesty total — the leaf-work framed close on hands and bowed profiles; nothing immodest.",
+        "must_show": "SCRIPTURE-EXACT: the fig leaves — the two on solid ground hurriedly working fresh BROAD GREEN FIG LEAVES into rough girdles in the shadow, backs half-turned, fingers clumsy with haste; the covering is clearly real green leaves; self-covering as panic.",
+        "must_not_show": "the covering is GREEN FIG LEAVES, never rags, cloth or fabric; they are on solid earth, never on or over the stream; modesty total — the leaf-work framed close on hands and bowed profiles; nothing immodest.",
         "scene": (
             "The first clothing is made "
             "in a panic: broad fig "
@@ -310,7 +344,7 @@ BEATS = [
             "Where art thou?"
         ),
         "must_show": "SCRIPTURE-EXACT: the hiding and the question — the leaf-girdled two pressed behind a great trunk in shadow in the foreground, and beyond them in the clearing the embodied Father (per the GOD lock) standing and calling, the question filling the garden.",
-        "must_not_show": "no halo, glow or rim-light on the Father; the couple's hiding FEARFUL, faces visible around the trunk's edge; modesty held.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the couple wear GREEN FIG-LEAF girdles (they made them last beat) — never rags, cloth or fabric; on solid ground, never on water; the couple's hiding FEARFUL, faces visible around the trunk's edge; modesty held.",
         "scene": (
             "For the first time in the "
             "world, someone hides from "
@@ -370,7 +404,7 @@ BEATS = [
             "hiding."
         ),
         "must_show": "the Father-and-hiding-child shape — the wide garden: the small hidden two behind their tree, and standing patient in the clearing the embodied Father (per the GOD lock) calling toward them; the geometry of every parent's evening search.",
-        "must_not_show": "no halo, glow or rim-light on the Father; the composition TENDER — hide-and-seek gone wrong, love still seeking.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the couple wear GREEN FIG-LEAF girdles — never rags or cloth; on solid ground, never on water; the composition TENDER — hide-and-seek gone wrong, love still seeking.",
         "scene": (
             "The wide frame holds, the camera at the clearing's "
             "side so hider and seeker share one profile, the "
@@ -403,7 +437,7 @@ BEATS = [
             "out. And, trembling, the man answered."
         ),
         "must_show": "the coming-out beginning — the man stepping trembling from behind the trunk toward the embodied Father (per the GOD lock) waiting in the clearing, leaf-girdled, the woman close behind his shoulder; the hardest first step.",
-        "must_not_show": "no halo, glow or rim-light on the Father; the step VOLUNTARY — drawn out by the question, not dragged.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the couple wear GREEN FIG-LEAF girdles — never rags or cloth; on solid ground, never on water; the step VOLUNTARY — drawn out by the question, not dragged.",
         "scene": (
             "The question does its "
             "work: from behind the "
@@ -436,7 +470,7 @@ BEATS = [
             "was naked; and I hid myself."
         ),
         "must_show": "SCRIPTURE-EXACT: the confession — close on the man's trembling face in the gold light saying it: fear owned out loud; the first honest sentence after the fall.",
-        "must_not_show": "ABSOLUTE: no figure of God; the face AFRAID and honest — dignity kept through the trembling.",
+        "must_not_show": "ABSOLUTE: no figure of God; if his shoulders/chest show he wears a GREEN FIG-LEAF girdle — never rags or cloth; the face AFRAID and honest — dignity kept through the trembling.",
         "scene": (
             "Close on the first "
             "confession ever made: the "
@@ -465,7 +499,7 @@ BEATS = [
         "locks": ["ADAM", "EVE"],
         "narration": "That is the whole of it. Not defiance — fear.",
         "must_show": "fear not defiance — the two standing small in the light's edge: nothing rebellious anywhere in their postures, only frightened children before a parent.",
-        "must_not_show": "no figure of God; NO fists, no jutted chins — the diagnosis visible: afraid, not defiant.",
+        "must_not_show": "no figure of God; the two wear GREEN FIG-LEAF girdles — never rags or cloth; on solid ground, never on water; NO fists, no jutted chins — the diagnosis visible: afraid, not defiant.",
         "scene": (
             "The frame checks them for "
             "rebellion and finds none: "
@@ -528,7 +562,7 @@ BEATS = [
         "locks": ["EVE"],
         "narration": "What is this that thou hast done?",
         "must_show": "SCRIPTURE-EXACT: the question to the woman — her face in the gold light receiving it: sorrow, not interrogation-terror; the gentle asking that draws truth.",
-        "must_not_show": "ABSOLUTE: no figure of God; her dignity held — a woman about to tell the truth.",
+        "must_not_show": "ABSOLUTE: no figure of God; her long hair and a GREEN FIG-LEAF girdle cover her if the torso shows — never rags or cloth; her dignity held — a woman about to tell the truth.",
         "scene": (
             "The question comes to her "
             "gently and lands with all "
@@ -559,7 +593,7 @@ BEATS = [
             "said, and I ate."
         ),
         "must_show": "SCRIPTURE-EXACT: her confession — close on the woman speaking it plainly: deceived, and owning her part anyway; the truth said whole; NO serpent shown.",
-        "must_not_show": "ABSOLUTE: no serpent anywhere in frame — it lives only in her words; her face honest, unbroken.",
+        "must_not_show": "ABSOLUTE: no serpent anywhere in frame — it lives only in her words; her long hair and a GREEN FIG-LEAF girdle cover her if the torso shows — never rags or cloth; her face honest, unbroken.",
         "scene": (
             "Close on the second "
             "confession: the woman's "
@@ -588,7 +622,7 @@ BEATS = [
         "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": "No excuses left — just the truth, spoken out loud at last.",
         "must_show": "the emptied-out honesty — the two standing plainly before the embodied Father (per the GOD lock) in the clearing, everything told; the strange relief of no more hiding visible in their loosened postures.",
-        "must_not_show": "no halo, glow or rim-light on the Father; the relief SUBTLE — spent, honest, lighter.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the two wear GREEN FIG-LEAF girdles — never rags or cloth; on solid ground, never on water; the relief SUBTLE — spent, honest, lighter.",
         "scene": (
             "When the last excuse is "
             "spent, something almost "
@@ -620,7 +654,7 @@ BEATS = [
             "behind them now, and a hard world lay ahead."
         ),
         "must_show": "the two worlds — from the garden's edge: behind, the deep green ease; ahead through the gap, the harder dusk country of thorn and stone; the couple between them.",
-        "must_not_show": "ABSOLUTE: no figure of God, no flaming sword — the hard world stated by landscape alone.",
+        "must_not_show": "ABSOLUTE: no figure of God, no flaming sword — the hard world stated by landscape alone; the couple wear GREEN FIG-LEAF girdles — never rags or cloth (they are not clothed in the leather coats until after this).",
         "scene": (
             "From the garden's edge, the camera behind the two "
             "standing figures at the gap, the "
@@ -651,7 +685,7 @@ BEATS = [
         "locks": ["ADAM", "EVE"],
         "narration": "They stood there, ashamed, waiting for the end of everything.",
         "must_show": "the braced-for-ending — the two with heads bowed and eyes shut in the dusk light, hands gripped together, braced for annihilation.",
-        "must_not_show": "ABSOLUTE: no figure of God; the bracing TOTAL — two people expecting the worst sentence there is.",
+        "must_not_show": "ABSOLUTE: no figure of God; the two wear GREEN FIG-LEAF girdles — never rags or cloth; on solid ground, never on water; the bracing TOTAL — two people expecting the worst sentence there is.",
         "scene": (
             "They stand braced for the "
             "end of the world they "
@@ -682,7 +716,7 @@ BEATS = [
             "them clothes."
         ),
         "must_show": "SCRIPTURE-EXACT: the mercy — the embodied Father (per the GOD lock) holding out two well-made coats of soft dark leather to the couple, warm evening light on the garments; kindness where a sentence was expected.",
-        "must_not_show": "no halo, glow or rim-light on the Father; nothing immodest; the gesture GENTLE — a father clothing his children.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the couple still wear their GREEN FIG-LEAF girdles here (they receive the leather coats in the next beats) — never rags or cloth; nothing immodest; the gesture GENTLE — a father clothing his children.",
         "scene": (
             "What waits for them is not "
             "the end: the Father himself, "

@@ -192,3 +192,98 @@ stills, then a fresh ship for Cameron to re-review. Do NOT flip to BUILT (would
 present the not-yet-embodied cut as ready) and do NOT hand-edit reportedAgainst
 (sync-reviews.mjs reverts it each tick). Blocked on the SAME doctrine question as
 row 102 (Father vs premortal Christ for OT "the LORD").
+
+---
+
+## ✅ AUTHOR DONE — CLOTHING PROGRESSION + "SITTING ON WATER" FIX (Fable-5 author lane, Machine A `Dev`, 2026-08-07, $0)
+
+The embodiment note above closed only ONE of the three parts of Cameron's live
+complaint (against cut `9aeeb822`). This note closes the other two. His full
+complaint:
+
+> "God has a body, we've been through this... so his look doesn't change. **0:25
+> they are sitting on water. bad photo delete it and redo it a better way.** every
+> picture is bad, except for the last ones where he made them clothes those are
+> good, but **the first two thirds where they are wearing rags needs to be
+> changed** — first they are wearing nothing and you can work the pictures to only
+> show their face or upper torso with eve's breasts covered by eve's long hair, or
+> random foliage... then when they eat of the tree and feel naked have them wearing
+> the leaves of trees... and then have the last third stay the same where God makes
+> them clothes."
+
+### ROOT CAUSE of the "rags"
+The byte-identical base style block (`STYLE_V2` in `v2_prompt.py`) tells EVERY
+prompt "Historically credible **clothing of rough-woven wool and linen** in earth
+tones." On the Eden nudity beats that generic line had nothing per-beat opposing
+it, so the render dressed Adam and Eve in rough wool = the "rags" Cameron sees
+through the first two-thirds. The old beat text only said "framed with complete
+modesty," which the model satisfied by putting them in cloth. NOT editing
+`STYLE_V2` (byte-identical across all ~200 videos — out of scope, huge blast
+radius); instead each people-beat now carries an explicit covering state that
+overrides it.
+
+### Author fix ($0, --check PASS 26 beats)
+- **Covering timeline written into the docstring + ADAM/EVE locks** as Cameron's
+  exact order, with a hard invariant RAGS BAN (never rags, woven cloth, sackcloth
+  or loincloth — the ONLY coverings in the whole story are, in order: nothing
+  (hair/foliage/chest-up framing) → fig leaves → the leather coats).
+- **Pre-fall beats b02, b04:** now say the couple wear NOTHING (before the fall),
+  shown with complete discretion — chest-up framing, her long hair and garden
+  foliage across her — with a per-beat "NO rags, cloth or garments" rejection.
+- **b05 ("0:25 sitting on water"):** GROUND FIX — they are crouched on solid mossy
+  earth in the thicket shadow, her hair pulled forward as a cloak; explicit
+  HARD-REJECT: never seated/crouched/standing on, in or over the stream, no water
+  under them, stream only in the far background. Still nothing/hair here (fig
+  leaves are not made until b06).
+- **b06:** the fig leaves are made — explicit fresh BROAD GREEN FIG LEAVES (never
+  rags/cloth), on solid ground.
+- **Fig-leaf beats b08, b10, b11, b12, b13, b15, b16, b17, b18, b19, b20:** each
+  now states the couple wear GREEN FIG-LEAF girdles (never rags/cloth) and are on
+  solid ground, never on water.
+- **Coats beats b21, b23, b24:** UNTOUCHED — Cameron approved "the last ones where
+  he made them clothes those are good" (dark leather coats, discarded fig leaves).
+
+### COMPLAINT LEDGER — this re-cut (all three parts of the live complaint)
+- **"his look doesn't change" (embodiment)** → FIXED in the prior author note
+  (god.jpeg + Father prose on all 9 God beats).
+- **"0:25 sitting on water, delete it and redo"** → FIXED: b05 re-authored onto
+  solid ground with a hard water-rejection; b06 hardened the same way.
+- **"first two thirds wearing rags"** → FIXED: root-caused to the base wool/linen
+  line; every pre-coats people-beat now carries an explicit covering state
+  (nothing → fig leaves) plus a hard rags ban. Last third kept (coats approved).
+
+### 🅿️ RUNNER — do this (paid re-cut; touch-once, batch with the embodiment regen)
+Cameron ordered the first two-thirds redone ("every picture is bad except the last
+ones"), so this is a COMPLAINT-MANDATED re-cut, NOT quality-rerolls — each listed
+beat is generated ONCE to the corrected spec; the 15% reroll budget does not apply
+to complaint-mandated regens. **Regenerate:** b02, b04, b05, b06, b08, b10, b11,
+b12, b13, b15, b16, b17, b18, b19, b20, b25, b26 (covering + embodiment + the b25
+God-as-light removal + b07 already-embodied verify). **KEEP byte-identical:** b01,
+b03, b09, b14, b21, b22, b23, b24 (no-people/landscape beats and the Cameron-
+APPROVED coats beats). Est ≈ 17 stills × $0.134 ≈ $2.3 (under the $6.10/row avg).
+- **Watch the base wool/linen line:** it is the rags culprit. QC EVERY pre-coats
+  people frame specifically for cloth/rags/loincloth and reroll that frame until
+  the covering reads as HAIR + FOLIAGE (pre-fall, b02/b04/b05) or GREEN FIG LEAVES
+  (b06-b20). Any woven-cloth garment before the leather coats = reject.
+- **Modesty/safety:** the pre-fall frames are reverent classical-biblical nudity
+  shown chest-up / hair-and-foliage covered — never explicit. If a Gemini call
+  is safety-blocked, lean harder on chest-up framing + hair/foliage wording, do
+  NOT add cloth to "fix" it (cloth re-triggers the complaint).
+- Face-board the Father vs `god.jpeg` across all 9 God beats; face-board Adam/Eve
+  vs adam.jpeg/eve.jpeg. Re-assemble (AUDIO byte-identical, `AUDIO_FROM_V1_
+  SEGMENTS=True`), ship via C-FIX with this ledger on the review card answering
+  Cameron in his own words (rags → real coverings; water frame fixed; God embodied).
+
+### ROUTING — the stale gap note above is SUPERSEDED
+The "⚠️ ROUTING GAP" note (reportedAgainst `706f5d69` ≠ live `9aeeb822`) is STALE:
+since it was written a new cut shipped and Cameron RE-REVIEWED it, so
+`reportedAgainst == live == 9aeeb822` NOW (verified in REVIEW-LESSONS.json +
+site/review.html). State flipped NEEDS-REBUILD → **BUILT** so the paid cfix lane
+picks it up (guard `reportedAgainst == live` passes). The full author package
+(embodiment + clothing + water) is now Ready.
+
+### DOCTRINE (unchanged, non-blocking here)
+Row 113 (Eden, Gen 3) shows God bodily — textually clear ("walking in the garden",
+"made coats... and clothed them"). The GLOBAL question (which OT "LORD" passages
+show a body vs. a voice/light theophany; Father vs premortal Christ) still needs
+Cameron's per-passage call for the blind sweep — flagged, not swept here.
