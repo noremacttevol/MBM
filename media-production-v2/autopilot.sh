@@ -99,7 +99,11 @@ next_unauthored() {
 next_stranded() {
   local row build
   while read -r row build; do
-    if ! pgrep -f "v2_gen_api.*$build" >/dev/null 2>&1; then
+    # a live gen process OR any file touched in the last 10 min means a lane
+    # is actively on it (QC/assembly leave no gen process — the row-60
+    # false-strand window) — skip those, only true corpses are stranded
+    if ! pgrep -f "v2_gen_api.*$build" >/dev/null 2>&1 \
+       && ! find "$V2/$build" -mmin -10 2>/dev/null | grep -q .; then
       echo "$row"; return 0
     fi
   done < <(awk -F'|' '/^\| *[0-9]+ *\|/ {
