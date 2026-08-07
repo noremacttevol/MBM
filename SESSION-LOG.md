@@ -1,3 +1,19 @@
+## 2026-08-07 — ROW 111 C-FIX SHIPPED — "0:09 out of scale and weird" = GIANT sparrows, rerolled ONE frame, audio byte-identical — Machine A `Dev` (UNATTENDED)
+
+**Commits:** claim = `690696e7b`; C-FIX ship (7a) = `a6d65d967074eb8732ed2fb2f6f9828004b24bad`; review-card + this log (7b) below. All on origin/main.
+
+**Complaint (his words):** `0:09 picture everything is out o scale and weird.` (AUTHOR-BOARD row 111, lowest waiting complained row → COMPLAINT-FIRST + LOW-NUMBER LAW.)
+
+**Diagnosis.** Extracted the frame Cameron saw at 0:09 from the SHIPPED mp4 → it is beat `v2-r111-b11` / `s11-and-instead-of-an-argument.jpeg` (clip c003, 6.77–12.03s). The sparrows were rendered grossly OVERSIZED — the bird beside Jesus's hand and the one next to the seated baby were bigger than the infant's head. Everything else in the frame (people, Jesus, meadow) was correctly proportioned; the giant birds alone made it read out-of-scale. Picture-domain, not audio.
+
+**Fix (touch-once, one open complaint).** ONE `--only v2-r111-b11 --redo` reroll (ceiling 449.65). New take renders the sparrows at true small size, proper sparrow-to-person proportion, people/Jesus ordinary-sized, cream robe + locked face + no halo, realistic photographic. Verified in the RENDERED mp4 at 0:09 (birds now tiny, caption in bottom band). Only this ONE still changed — every other frame byte-identical.
+
+**Assemble/ship.** `v2_assemble.py 111` → **AUDIO LOCK PASS** SHA256=51aba66b… (byte-identical to the shipped audio), 174.3s, 21.0 MB. Review card v111 repointed: data-hash `a6d65d967074…`, cache-buster `?v=a6d65d967074`, flag rewritten to answer his complaint in his words. Deployed to Firebase + live-verified (below).
+
+**Cost / laws.** 1 reroll = 3.4% of 29 beats (under the 15% COST-LAW budget). Spend this session ≈ **$0.13** (one still, 0 portraits) — far under the $6.10/row average; the row's lifetime cost stays low. Fed RUNNER-LESSONS a NEW defect class: **oversized birds/animals in nature frames** (height-check wildlife against the nearest person, not just figures).
+
+---
+
 ## 2026-08-07 — ROWS 164 / 165 / 166 AUTHORED (Ready ✅) — three fresh V2 beat maps written from scratch, $0, no image/audio credits — Machine A `Dev` (Fable-5 author lane, UNATTENDED)
 
 **Commits:** row 164 = `c837b800a`; row 165 = `48e8e5409`; row 166 = `402b1fd8f`. All on origin/main (each committed + pushed the moment its row passed the gates, to survive the live autopilot lane sharing the tree).
