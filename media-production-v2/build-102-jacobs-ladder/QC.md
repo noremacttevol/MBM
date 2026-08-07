@@ -69,6 +69,29 @@ order (rows 113 + "God has a body, his look doesn't change") governs: embody him
   re-trigger row 113's exact "his look changes" complaint, so all summit-opening
   beats must be embodied together. Justified + explained per the COST LAW.
 
+### 🔁 STATE FLIPPED NEEDS-REBUILD → BUILT — 2026-08-07 (Machine A `Dev`, Fable-5 $0)
+The author fix above is DONE + committed (`--check` PASS 28) and the ONLY thing
+left is the paid 6-still re-cut — so per PROMPT-FABLE5-AUTHOR "don't strand it,"
+the board State was flipped **NEEDS-REBUILD → BUILT** (open complaint kept). This
+stops the author lane from re-selecting a row with no author work left. This
+session also **force-added `jacob.jpeg`** (REFS points to it; it was gitignored and
+uncommitted) and committed `PLACE-WIRING.json` + `ASSEMBLED-PROMPTS.txt`, so the
+package is fully reproducible for the paid machine.
+
+**⚠️ AUTO-CFIX PICKER GAP — a PAID session must build this row DIRECTLY.**
+The autopilot cfix picker fires only when `reportedAgainst == cur` (complaint hash
+matches the live review-card hash). Here they differ: `reportedAgainst=ddb1f2cf…`
+(Cameron's original filing) vs live card `05be89c7…` — because the **partial
+UFO-only C-FIX** shipped a new cut AFTER he filed but only fixed the "looks like a
+UFO" half, not the "no God" half. `sync-reviews.mjs` re-derives `reportedAgainst`
+from Cameron's review DB every tick, so it cannot be re-anchored by hand. Net: the
+complaint is genuinely still open, but the picker won't auto-select 102 until
+Cameron re-reviews the current cut. **A paid runner must build it directly:**
+`python3 media-production-v2/v2_gen_api.py build-102-jacobs-ladder --only b05 b06 b09 b12 b14 b15 --redo`
+then `v2_assemble.py 102` (AUDIO byte-identical) + ship. (Systemic: this hash-gate
+strands ANY authored NEEDS-REBUILD row that had an intervening partial ship —
+flagged for Cameron in SESSION-LOG.)
+
 ### COMPLAINT LEDGER — the review card must tell Cameron, in his words
 1. **"0:24 looks like a UFO"** → the summit is no longer a light-disc; the opening
    of heaven is a natural break in the night sky, and the UFO/disc/craft look is
