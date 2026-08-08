@@ -130,7 +130,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 116 | build-116-graven-on-his-palms | AUTHORED | 0 | OK | PARKED-BILLING 2026-08-06: Gemini prepayment credits STILL depleted (2nd probe, $0). WOMAN portrait + CITY plate (b04) done. Resume `v2_gen_api build-116... --ceiling <meter+20*0.201+25>` after Cameron tops up AI Studio billing. See QC.md. | ✅ |
 | 117 | build-117-hosea-buys-her-back | RUNNING | 0 | OK | A-auto 2026-08-07 | ✅ |
 | 118 | build-118-jonah-god-who-relents | RUNNING | 0 | OK | A-auto 2026-08-07 LIVE (Opus runner Machine A `Dev`) | ✅ |
-| 119 | build-119-fourth-man-in-fire | RUNNING | 0 | OK | A-auto 2026-08-07 (Opus runner Machine A `Dev`) | ✅ |
+| 119 | build-119-fourth-man-in-fire | NEEDS-AUDIO | 0 | CHECK | RUNNER PARK 2026-08-07 → NEEDS-AUDIO (Opus runner, Machine A `Dev`, $0/0 credits): STALE-V1 — the "mispronounced bow" complaint fix (`bows`→`boughs`, make_narration.py:79) lives in the 2026-07-28 segment mp3s but the shipping V1 mp4 was committed 2026-07-24 (pre-fix); `AUDIO_FROM_V1_SEGMENTS` unset, so v2_assemble would copy the stale pre-fix "beau" bow = repeat Cameron's complaint (worst failure). Pre-flight `assert_v1_final_is_current` FAILS (18/18 mp3s newer than the mp4; duration gate is fine, −2.844). AUDIO LANE: set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py (fix is already in the mp3s — nothing to re-voice, $0), commit, flip → AUTHORED + Ready ✅; the picture runner then builds all 35 beats on the corrected audio. Generated NOTHING. See QC.md 🅿️ RUNNER PARK. |  |
 | 120 | build-120-job-from-whirlwind | AUTHORED | 0 | OK |  | ✅ |
 | 121 | build-121-salt-and-light | AUTHORED | 0 | OK |  | ✅ |
 | 122 | build-122-mote-and-beam | AUTHORED | 0 | OK |  | ✅ |
