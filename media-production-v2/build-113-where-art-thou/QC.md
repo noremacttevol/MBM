@@ -1,5 +1,82 @@
 # QC / RUNNER HANDOFF — build-113-where-art-thou (Genesis 3)
 
+## 🅿️ RUNNER PARK — 2026-08-07 (Opus paid C-FIX attempt, Machine A `Dev`) — ROOT-CAUSED to CLOTHED CAST PORTRAITS → NEEDS-REBUILD (AUTHOR fix required, runner cannot fix within rails)
+
+**Complaint being fixed (vs live `9aeeb822`):** "God has a body… his look doesn't
+change. **0:25 they are sitting on water — bad photo, delete/redo.** every picture
+is bad except the last ones where he made them clothes… **the first two thirds
+where they are wearing rags needs to be changed** — first nothing (face/upper-torso,
+Eve's hair/foliage), then fig leaves when they feel naked, then the last third stays
+(God makes them coats)."
+
+**What the paid lane did this session (~$2.0, 15 imgs):** regenerated all 17
+authored beats + 3 reroll passes on the stubborn ones. RESULT after 3 passes:
+
+- ✅ **LANDED CORRECT (keep — do NOT re-cut):** b02, b04, b08, b10, b11, b12, b13,
+  b17, b18 (fig-leaf / reverent-nude, Father embodied), b25, b26 (garden + embodied
+  Father walking), and the KEPT approved beats b01, b03, b09, b14, b21, b22, b23, b24.
+  The **"0:25 sitting on water"** fix is GOOD — b05/b08/b10/b17 are on solid ground,
+  never on the stream.
+- ❌ **WILL NOT LAND VIA REROLL (still show CLOTH/"rags" or wrong covering):**
+  - **b15, b16** (tight Eve close-ups "what is this that thou" / "the serpent
+    beguiled me"): came back a brown burlap HOOD + linen tunic in a desert village
+    every attempt (3×). 
+  - **b19** ("they stood there ashamed…", the standing pair): came back modern
+    leather trench-coats → then full village wool robes + Eve hood. Should be
+    fig-leaves (pre-coats).
+  - **b06** (making the fig leaves): Adam now bare (correct) but Eve still in a wool
+    tunic.
+  - **b20** (God presents the coats): Adam bare + fig-leaf + Father embodied
+    (good), but the coat still reads slightly modern (collar) — reroll to raw hide.
+  - **b05** ("everything changed / felt shame"): SAFETY-BLOCKED on redo (`'parts'`
+    no-image) — the pre-fall nakedness beat trips the Gemini safety filter; kept the
+    prior take (still shows wool tunics = rags).
+
+**★ ROOT CAUSE (verified by opening the identity anchors):**
+`CAST-REF-V2/eve.jpeg` AND `CAST-REF-V2/adam.jpeg` — the committed identity
+portraits — **depict Adam and Eve fully CLOTHED in rough first-century WOOL** (Eve
+in a brown burlap HOOD + linen tunic; Adam in a wool tunic). On WIDE beats the scene
+context wins and the couple render nude/fig-leaf correctly; but on **tight single- or
+pair-framings (b15/b16 close-ups, b19 standing pair, b06 Eve) the identity anchor
+dominates the composition and faithfully REPRINTS the portrait's wool garments** =
+the exact "rags" Cameron is complaining about. The base `STYLE_V2` block reinforces
+it ("clothing of rough-woven wool and linen", "head covering locked", "a mantle or
+shawl is one loose rectangle of cloth") — and the b15 beat even says her hair is "a
+mantle", which the base maps to a cloth mantle. **A runner reroll cannot beat a
+clothed identity anchor + the base block on a tight crop; this is an AUTHOR fix.**
+
+**🔧 AUTHOR FIX (NEEDS-REBUILD — do this, then flip BUILT for the paid re-cut):**
+1. **Regenerate BOTH Eden portraits** so the identity anchor is not itself "rags":
+   Eve → bare shoulders under her own long dark hair (fig-leaf-era Eden), NO shawl /
+   NO head-covering / NO woven tunic; Adam → bare torso, NO wool tunic. KEEP their
+   faces (this is the same couple as the good wide beats — v2_story_cast from the
+   same locked face spec; eyeball the face matches b02/b17 before committing).
+   *(This is why b02/b04/b17 already look right and b15/b16 don't — same face, wrong
+   wardrobe on the anchor.)*
+2. **Strengthen the tight beats b05, b06, b15, b16, b19** with an explicit override
+   that can beat the base block on a close crop: e.g. "bare shoulders and her own
+   loose hair ONLY — NO shawl, NO head-covering, NO head-scarf, NO woven cloth, NO
+   mantle-of-cloth on her anywhere; her long hair is the ONLY thing over her
+   shoulders." For b19 also state "fig-leaf girdles, they have NOT been given the
+   coats yet." Do NOT edit STYLE_V2 (200-video blast radius) and do NOT weaken the
+   modesty — the target is reverent hair/fig-leaf covering, never cloth, never
+   explicit.
+3. **b05 safety block:** keep the crop chest-up and lean on hair/foliage wording so
+   the filter passes without adding cloth (adding cloth re-triggers the complaint).
+
+**RUNNER (after author flips BUILT):** re-cut ONLY b05, b06, b15, b16, b19 (+ b20
+raw-hide, verify b25); KEEP everything in the ✅ list byte-identical. Re-assemble
+(`AUDIO_FROM_V1_SEGMENTS=True`, byte-identical), ship via C-FIX with the ledger
+answering Cameron: rags → real hair/fig-leaf coverings; water frame fixed; God
+embodied.
+
+**Complaint stays OPEN** (not shipped — assembling now would put Eve-in-a-shawl back
+on his reviewer = repeating his exact "rags" complaint = worst failure). No fake
+close; REVIEW-LESSONS/COMPLAINTS untouched (Firestore-owned).
+
+---
+
+
 ## ✅ SHIPPED — AUDIO-FIX 2026-08-07 (Machine A `Dev`): STALE-V1-FINAL cleared, realistic cut LIVE
 The 26 realistic stills (GOD embodied per Cameron's complaint — see below) were done
 and QC-PASS, but `v2_assemble` failed the AUDIO LOCK: the V1 final MP4 (193.3s, 07-29)

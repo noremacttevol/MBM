@@ -661,6 +661,30 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   clothing; the model defaults to modern outerwear. Reroll on sight when buttons/
   lapels/zippers appear; a slightly-modern seamed hide is FIX-WAVE. (For Adam/Eve
   a fur/hide look is CORRECT — the "never fur/fleece" rule is Jesus-only.)
+- **A CLOTHED identity portrait (CAST-REF-V2/*.jpeg) REPRINTS its wardrobe onto
+  every tight single/pair shot, defeating the beat's own covering wording (2026-08-07,
+  row 113 Eden C-FIX, b15/b16/b19/b06).** Genesis-3 needs Adam & Eve nude→fig-leaf,
+  but their committed portraits showed them in first-century WOOL (Eve = burlap hood +
+  linen tunic, Adam = wool tunic). On WIDE beats the scene context won and they rendered
+  fig-leaf/nude correctly; on TIGHT close-ups (b15/b16) and the standing pair (b19) the
+  identity anchor dominated the composition and faithfully reprinted the portrait's wool
+  = the exact "rags" the row was being C-FIXED for. **Three reroll passes could not beat
+  it** — a clothed anchor + the base STYLE_V2 block ("clothing of rough-woven wool and
+  linen", "head covering locked", "a mantle or shawl is one loose rectangle of cloth")
+  overpower a per-beat "never rags" line at a face crop. This is NOT a runner reroll fix:
+  the portrait and the beat text are both author-owned (hard rail). CORRECT RESPONSE:
+  root-cause it by OPENING the CAST-REF-V2 portraits (not just viewing the frames), and
+  if the anchor's wardrobe contradicts the story's required covering, PARK to author
+  (NEEDS-REBUILD) with: regenerate the portrait in the story-correct covering (keep the
+  face) + strengthen the tight beats with an explicit "own hair ONLY, NO shawl/
+  head-covering/mantle-of-cloth" override. **Lesson-general: when a covering/wardrobe
+  defect survives 2 rerolls on the TIGHT shots but the WIDES are clean, suspect the
+  identity portrait, not the beat — open the CAST-REF before spending a third reroll.**
+- **Pre-fall nakedness beats trip the Gemini safety filter (`'parts'` no-image, row 113
+  b05).** The "they felt shame / saw they were naked" beat returned no image parts after
+  retries. Keep the crop chest-up and lean on hair/foliage covering wording; do NOT add
+  cloth to force it through (cloth re-triggers the very "rags" complaint). If it still
+  blocks it is a beat-authoring reframe for the author, not a runner reroll.
 
 ## INFRA / BILLING
 - **`429 RESOURCE_EXHAUSTED` with body "Your prepayment credits are depleted" is a HARD billing wall, NOT the transient rate-limit 429 (2026-08-06, rows 115 & 116).** The brief's "retry once after 60 s, billing auto-reloads" applies to the rate-limit 429 only; the *prepayment-depleted* message does NOT clear on a 60 s retry (verified twice). It is GLOBAL to the Gemini key — every concurrent lane hits it, so there is NO other Ready row to fall to (the same dead key blocks all of them). Correct response: retry once to confirm, then PARK the row (QC.md RUNNER PARK + exact resume command; keep any already-generated stills — they are valid, do NOT regen), leave the board/QUEUE noting "Gemini credits depleted — Cameron top up AI Studio billing," add a SESSION-LOG entry flagging the ACTION FOR CAMERON, commit, push, and STOP the session clean. Do not burn turns re-trying or hopping rows on a depleted key.
