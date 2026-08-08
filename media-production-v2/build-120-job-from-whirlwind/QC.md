@@ -1,5 +1,37 @@
 # QC / RUNNER HANDOFF — build-120-job-from-whirlwind (Job 1-2, 19, 38-42)
 
+## 🅿️ RUNNER PARK → NEEDS-AUDIO (Opus runner, Machine A `Dev`, 2026-08-07, $0, 0 credits)
+
+**STALE-V1 (OLD VOICE) — the shipping V1 mp4 predates the ElevenLabs re-record.
+Building now would ship the OLD-voice narration = NOT ready under the REDO-ALL
+law. Generated NOTHING. No open complaint on this row (`v2_outline.py 120`).**
+
+- V1 mp4 `job-38_job-from-whirlwind.mp4` committed **2026-07-24 10:15:29**.
+- All 22 segment mp3s re-recorded **2026-07-28 15:25:04** — commit
+  `df1b6bfeb "#120 build-120-job-from-whirlwind: narration re-recorded"` (part of
+  the ElevenLabs voice migration batch). So the mp4 = OLD voice, mp3s = new voice.
+- Durations essentially match (excess −0.07) so only the RECENCY gate fails:
+  `assert_v1_final_is_current` → "22 of the 22 mp3s are NEWER than the mp4."
+- `AUDIO_FROM_V1_SEGMENTS` is unset, so `v2_assemble` would stream-copy the OLD
+  mp4 audio. Per RUNNER-LESSONS §536/§548, a STALE-V1 row is an author
+  audio-config decision → park.
+
+**AUDIO LANE JOB ($0, no re-voice — the new voice is already in the mp3s):** add
+`AUDIO_FROM_V1_SEGMENTS = True` to `beats_v2.py`, commit, flip AUTHOR-BOARD row
+120 → **AUTHORED + Ready ✅** (0 stills yet). The picture runner then builds all
+42 beats on the new-voice audio.
+
+**RESUME (picture runner, after the flag is set):**
+`cd media-production-v2 && python3 v2_story_cast.py build-120-job-from-whirlwind`
+`python3 v2_gen_api.py build-120-job-from-whirlwind --ceiling <meter + (42+portraits)*0.134*1.5 + 25>`
+`python3 v2_assemble.py 120   # must print AUDIO REBUILD PASS`
+
+**COMPLAINT LEDGER: none open.** (The park is a new-voice currency fix, not a
+complaint fix.)
+
+---
+
+
 AUTHORED FROM SCAFFOLD + lesson-12 + complaint-corpus pass, 2026-08-05
 (Machine A). `--check` PASSES, zero WARNs. 42 beats, ~242 s.
 NOTE: the board said AUTHORED but this row was a raw scaffold — every
