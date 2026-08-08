@@ -130,7 +130,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 116 | build-116-graven-on-his-palms | AUTHORED | 0 | OK | PARKED-BILLING 2026-08-06: Gemini prepayment credits STILL depleted (2nd probe, $0). WOMAN portrait + CITY plate (b04) done. Resume `v2_gen_api build-116... --ceiling <meter+20*0.201+25>` after Cameron tops up AI Studio billing. See QC.md. | ✅ |
 | 117 | build-117-hosea-buys-her-back | RUNNING | 0 | OK | A-auto 2026-08-07 | ✅ |
 | 118 | build-118-jonah-god-who-relents | RUNNING | 0 | OK | A-auto 2026-08-07 LIVE (Opus runner Machine A `Dev`) | ✅ |
-| 119 | build-119-fourth-man-in-fire | AUTHORED | 0 | OK |  | ✅ |
+| 119 | build-119-fourth-man-in-fire | RUNNING | 0 | OK | A-auto 2026-08-07 (Opus runner Machine A `Dev`) | ✅ |
 | 120 | build-120-job-from-whirlwind | AUTHORED | 0 | OK |  | ✅ |
 | 121 | build-121-salt-and-light | AUTHORED | 0 | OK |  | ✅ |
 | 122 | build-122-mote-and-beam | AUTHORED | 0 | OK |  | ✅ |
