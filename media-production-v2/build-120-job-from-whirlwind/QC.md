@@ -31,6 +31,20 @@ complaint fix.)
 
 ---
 
+## ✅ AUDIO-FIX DONE → AUTHORED + Audio OK (AUDIO-FIX lane, Machine A `Dev`, 2026-08-09, $0, 0 credits)
+
+Set `AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py (before BEATS). Verified $0:
+all 22 V1-dir segment mp3s probe `44100,128000` (ElevenLabs new voice), dated
+2026-07-29 — they postdate the old-voice V1 mp4 (2026-07-24), so the flag makes
+v2_assemble render narration from the NEW-voice mp3s instead of copying the
+old-voice mp4 stream (satisfies REDO-ALL). Nothing re-voiced, nothing re-timed,
+V1 read-only; no open complaint. 0 V2 stills yet → handed to the picture runner:
+it builds all 42 beats on the new-voice audio; **AUDIO REBUILD PASS** in
+`v2_assemble.py 120` is the proof the new voice ships. Board flipped
+NEEDS-AUDIO → AUTHORED + Audio OK + Ready ✅, claim cleared.
+
+---
+
 
 AUTHORED FROM SCAFFOLD + lesson-12 + complaint-corpus pass, 2026-08-05
 (Machine A). `--check` PASSES, zero WARNs. 42 beats, ~242 s.

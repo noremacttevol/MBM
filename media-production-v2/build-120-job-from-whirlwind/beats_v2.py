@@ -104,6 +104,14 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX 2026-08-09 (AUDIO-FIX lane, Machine A `Dev`, $0): STALE-V1 OLD-VOICE —
+# the shipping V1 mp4 was committed 2026-07-24 with the OLD narration voice, but all
+# 22 segment mp3s were re-recorded in ElevenLabs 2026-07-29 (44100/128k). Set this
+# flag so v2_assemble renders narration from THIS build's own NEW-voice mp3s instead
+# of copying the old-voice mp4 stream (REDO-ALL). Nothing re-voiced — the new voice
+# already exists in the segments. See QC.md 🅿️ RUNNER PARK.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r120-b01", "out": "s01-job-was-a-good-man.jpeg", "seg": "n1",
