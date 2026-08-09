@@ -841,3 +841,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   shadow. Re-assembly is $0 (no image re-gen). If a "delivery/cache" complaint keeps
   reopening on a row whose pictures are already correct, RE-ASSEMBLE to move the
   hash — never just bump the query string.
+
+- **Face-lock a recurring one-off character with an UNAMBIGUOUS descriptor + 2-3
+  agreeing image refs — not "streaked grey" and one loose ref (row 52 RE-OPEN,
+  2026-08-09).** Row 52's demoniac face-flip complaint re-opened after the first
+  C-FIX because that fix's own anchor note said the man had "dark hair streaked
+  grey" and used two mildly-disagreeing refs. The word "grey" kept birthing an
+  OLD grey-maned face (s08), hair length wandered to near-bald (s14), and beards
+  flipped to shaved (s05/s07/s10). Lesson: any age/color ambiguity in a lock
+  ("streaked grey", "greying", "middle-aged") WILL be rendered literally, and a
+  fix that leaves the ambiguity re-opens on the next viewing. Lock it hard —
+  "gaunt ~42, DARK brown-black hair (never grey, never bald, never cropped), FULL
+  DARK beard (never shaven, never grey)" — AND attach 2-3 strongly-agreeing image
+  refs (frontal + 3/4 + close), then reroll only the true outliers. $0.67/5.

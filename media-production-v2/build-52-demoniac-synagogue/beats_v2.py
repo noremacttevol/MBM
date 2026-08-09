@@ -90,15 +90,20 @@ REF = True
 # WITHOUT executing the CAST-REF NOTE above, so the afflicted man's face was
 # held by text alone and flipped shot to shot (Cameron complaint: "The
 # demoniac face kept changing. Beard to no beard to old man and his looks kept
-# flipping."). Anchor = the two lock-matching keeper stills — s18 and s16:
-# gaunt ~40, unkempt dark hair streaked grey, ragged dark beard. Attaching
-# them to every FREEDMAN-locked beat holds ONE face across the whole arc; the
-# per-beat scene text still changes only his CONDITION (bound -> crying out ->
-# freed), never his identity.
+# flipping."). RE-OPEN 2026-08-09: the first C-FIX still flipped — its own anchor
+# note said "dark hair streaked grey", and that grey/age ambiguity kept birthing
+# an OLD-MAN face (s08 wild grey mane + grey beard) alongside near-bald (s14) and
+# shaved-looking (s05/s07/s10) takes. New lock is unambiguous: ONE gaunt man
+# ~40-45, MID-LENGTH DARK BROWN-BLACK hair (dishevelled when afflicted, same when
+# freed — NEVER grey, NEVER bald/thinning, NEVER short-cropped), a full DARK
+# beard (NEVER clean-shaven, NEVER grey). Three agreeing refs (close portrait
+# s17, 3/4 s18, frontal s11) attach to every FREEDMAN beat so identity holds; the
+# per-beat text still changes only his CONDITION, never his face.
 REFS = {
     "FREEDMAN": [
         "CAST-REF-V2/freedman-ref-a.jpeg",
         "CAST-REF-V2/freedman-ref-b.jpeg",
+        "CAST-REF-V2/freedman-ref-c.jpeg",
     ],
 }
 
