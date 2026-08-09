@@ -135,3 +135,46 @@ identical). Everything but the two named frames is byte-identical to the prior c
 - Only Jesus wears cream in every frame. Moses (broad, long white beard) and Elias
   (leaner/grey) distinct, never twins. Father NEVER depicted (b10 cloud = vapour only,
   b11 no voice-source). All counts correct; no modern objects; no lens-stare.
+
+---
+
+## C-FIX — Opus runner Machine A `Dev`, 2026-08-09 (demon-eyes RE-OPEN)
+
+### ⚑ OPEN COMPLAINT — Cameron re-filed against the CURRENT cut:
+> "0:37 seconds that picture is bad becasue jesus's eyes turned into light and
+> that is horrible looking it likes like a demon. Same problme but now alot of
+> the other characters are staying true to their characters in the reference"
+
+**WHY IT RE-OPENED:** the 2026-08-07 C-FIX **rerolled** b03/s03 to fix the
+glowing eyes, but a blind reroll of a radiance beat **regresses** — the JESUS
+LOCK v5 "eyes lit from within like a flame of fire" re-amplifies into glowing
+light-emitting orbs on a blazing-white beat (RUNNER-LESSONS 811 + 825: *reroll
+cannot reliably fix Jesus light-eyes; use the identity-edit eye-box composite*).
+The shipped s03 still had the two glowing eye-orbs Cameron describes. (Cameron's
+"0:37" is approximate — I swept every Jesus face: at 0:37 (s07) his eyes were
+already normal; the ONLY frame with the light-emitting eyes was **s03 @ 0:14**,
+the full transfiguration. s02/s11 normal, s04 is a disciple. His described defect
+= s03 unambiguously.)
+
+### COMPLAINT LEDGER
+- **s03 (b03, the full transfiguration @ 0:14) — FIXED by IDENTITY-EDIT, not a
+  reroll.** Sent ONLY the still to gemini-3-pro-image (input frame only, NO face
+  REF, NO stylize/painting words — halo/cartoon TRAP), prompt "repaint ONLY the
+  eyes as natural warm-brown human eyes, dark pupils, normal sclera, NO glow;
+  change nothing else." Then PIL-composited a **feathered ellipse (GaussianBlur
+  18) over the eye box (675,790,855,865)** from the edit back onto the ORIGINAL
+  s03 — so every pixel OUTSIDE the eye box is byte-identical. Result (verified
+  full-res + in the RENDERED mp4 at 0:15): **two natural warm-brown human eyes,
+  visible irises + pupils, calm gaze, no light emission, no seam, no halo** — the
+  sanctioned Light-Law radiance stays on the raiment and face bloom, off the
+  eyeballs. **The 0:37/0:14 demon-eyes are gone.**
+
+### Cost / touch-once
+1 image-edit @ $0.134 (NO reroll), meter $518.18 → $518.31. Only s03's eye box
+changed; every other frame byte-identical to the prior cut. Audio untouched —
+**AUDIO LOCK PASS SHA256=860fee72…**, byte-identical. 100.0s / 20.2MB.
+
+### Lesson reinforced (already in RUNNER-LESSONS 811/825)
+Jesus light-eyes on a glory/radiance beat = IDENTITY-EDIT eye-box composite, never
+a reroll — a reroll of the same radiance prose reproduces the glow (this row is the
+proof: the 08-07 reroll regressed and Cameron re-filed). The 08-09 edit holds.
