@@ -3,6 +3,19 @@
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 38 beats, ~215 s.
 
+## COMPLAINT LEDGER
+COMPLAINT LEDGER: none open. `v2_outline.py 117` shows no filed Cameron
+complaint on this row (V1 was a Flow build; no reviewer complaint recorded).
+This is a first-attempt realistic-v2 cut.
+
+## RUNNER RESUME (2026-08-09, Machine A `Dev`, Opus runner)
+Previous autopilot lane DIED after generating all 38 frames, before assembly.
+Already-shipped check: NO committed mp4, v117 card still old newvoice (no
+`realistic-v2`) → NOT shipped, resumed. No live sibling `v2_gen_api`.
+`v2_prompt.py --check` PASS, `v2_gen_api --dry-run` = 0 shots / $0.00 (all 38
+frames present, none sub-2K) → generation complete, $0 spent this session.
+Resumed at: Light QC → assemble → ship.
+
 ## CONTENT-CARE — this story is about unfaithfulness, rendered clean
 
 - Gomer's fall is told by GEOGRAPHY and LIGHT, never by depiction:

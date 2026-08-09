@@ -1,1 +1,20 @@
-{}
+{
+ "HOME": {
+  "manual": true,
+  "src_beat": "s01-love-is-easy-to-picture",
+  "src_build": "build-117-hosea-buys-her-back",
+  "src_file": "build-117-hosea-buys-her-back/assets/s01-love-is-easy-to-picture.jpeg"
+ },
+ "MARKET": {
+  "manual": true,
+  "src_beat": "s15-by-the-time-he-found",
+  "src_build": "build-117-hosea-buys-her-back",
+  "src_file": "build-117-hosea-buys-her-back/assets/s15-by-the-time-he-found.jpeg"
+ },
+ "WILD": {
+  "manual": true,
+  "src_beat": "s25-i-will-allure-her-and",
+  "src_build": "build-117-hosea-buys-her-back",
+  "src_file": "build-117-hosea-buys-her-back/assets/s25-i-will-allure-her-and.jpeg"
+ }
+}
