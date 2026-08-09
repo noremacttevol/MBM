@@ -7,16 +7,16 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-07T19:54:48_
+_Last sync: 2026-08-09T14:30:35_
 
 ## Summary
 
-- **APPROVED — not published** — 6 row(s)
+- **APPROVED — not published** — 12 row(s)
 - **BUILDING** — 70 row(s)
 - **LIVE — OLD STYLE (v1)** — 43 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 37 row(s)
+- **ON REVIEWER — awaiting Cameron** — 31 row(s)
 
 ## The rows
 
@@ -40,7 +40,7 @@ _Last sync: 2026-08-07T19:54:48_
 | 16 | Mary and Martha | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 17 | Lazarus | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 18 | The Road to Emmaus | ✅ 2026-08-07 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
-| 19 | Breakfast on the Shore | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 19 | Breakfast on the Shore | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 20 | The Good Samaritan | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 21 | The Lost Sheep | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 22 | The Unmerciful Servant | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
@@ -54,39 +54,39 @@ _Last sync: 2026-08-07T19:54:48_
 | 30 | The Net | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 31 | The Ten Virgins | ✅ 2026-08-07 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 32 | The Talents | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 33 | The Sheep and the Goats | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 33 | The Sheep and the Goats | ✅ 2026-08-08 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 34 | The Rich Fool | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 35 | The Great Banquet | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 36 | The Shrewd Steward | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 37 | The Rich Man and Lazarus | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 38 | The Persistent Widow | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 39 | The Pharisee and the Publican | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 40 | The Friend at Midnight | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 39 | The Pharisee and the Publican | ✅ 2026-08-08 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
+| 40 | The Friend at Midnight | ✅ 2026-08-08 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 41 | Counting the Cost | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 42 | The Barren Fig Tree Spared | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 42 | The Barren Fig Tree Spared | ✅ 2026-08-08 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 43 | The Wedding Garment | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 44 | Two Debtors | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 45 | The Wicked Tenants | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 46 | The Seed Growing Secretly | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 47 | Houses on Rock and Sand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 48 | New Wine, Old Bottles | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 49 | Water to Wine at Cana | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 48 | New Wine, Old Bottles | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
+| 49 | Water to Wine at Cana | ✅ 2026-08-08 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 50 | The Nobleman's Son | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 51 | The First Catch of Fish | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 52 | The Demoniac in the Synagogue | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 53 | Peter's Mother-in-Law | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 54 | The Leper Made Clean | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 55 | The Withered Hand | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 54 | The Leper Made Clean | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
+| 55 | The Withered Hand | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 56 | The Widow of Nain's Son | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 57 | Jairus's Daughter | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 58 | Feeding the Five Thousand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 59 | Feeding the Four Thousand | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 59 | Feeding the Four Thousand | ✅ 2026-08-08 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 60 | The Gerasene Demoniac | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 61 | The Syrophoenician Woman | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 62 | Ephphatha: the Deaf Man | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 63 | The Man Born Blind | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 64 | The Pool of Bethesda | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 65 | Help Mine Unbelief | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 65 | Help Mine Unbelief | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 66 | Malchus Ear | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 67 | The Transfiguration | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
@@ -123,16 +123,16 @@ _Last sync: 2026-08-07T19:54:48_
 | 99 | Flesh and Bone Thomas | ✅ 2026-08-07 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 100 | The Ascension | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 101 | The Still Small Voice | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 102 | Jacob's Ladder | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
+| 102 | Jacob's Ladder | ✅ 2026-08-08 | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | publish the approved v2 cut — replaces the old style, becomes v2.1 |
 | 103 | Peter's Confession | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 104 | The Boy Samuel | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
 | 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
 | 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 rebuild pending |
-| 107 | John the Baptist's Doubt | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 107 | John the Baptist's Doubt | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 108 | My Sheep Hear My Voice | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 109 | Ask, Seek, Knock | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 110 | The Lord's Prayer | ⬜ | v1.1 | app-gallery, in-app-list | LIVE v1.1 — OLD STYLE | REDO-ALL: v2 cut on reviewer — Cameron reviews |
-| 111 | Lilies and Sparrows | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 111 | Lilies and Sparrows | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 112 | The Beatitudes | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 113 | Where Art Thou? | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 114 | Abraham Pleads for Sodom | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
