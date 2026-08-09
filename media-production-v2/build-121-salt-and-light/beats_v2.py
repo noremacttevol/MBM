@@ -743,9 +743,11 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # LANE: build-38 auto-match REJECTED (golden-hour daylight frame; this
-    # row's LANE is evening with first stars) — promote-first from b02.
-    # MARKET: build-38 auto-match REJECTED (doorway frame, not a stall with
-    # awning and scales) — promote-first from b06.
+    "HILLSIDE": "PLACE-REF/hillside.jpeg",  # build-121-salt-and-light s01-jesus-sat-on-a-green (manual)
+    "HILLTOWN": "PLACE-REF/hilltown.jpeg",  # build-121-salt-and-light s14-a-town-built-up-on (manual)
+    "KITCHEN": "PLACE-REF/kitchen.jpeg",  # build-121-salt-and-light s10-but-salt-has-one-job (manual)
+    "LAMPHOUSE": "PLACE-REF/lamphouse.jpeg",  # build-121-salt-and-light s17-neither-do-men-light-a (manual)
+    "LANE": "PLACE-REF/lane.jpeg",  # build-121-salt-and-light s02-live-openly-good-kind-honest (manual)
+    "MARKET": "PLACE-REF/market.jpeg",  # build-121-salt-and-light s06-he-began-with-salt (manual)
 }
 # === end PLACE-PLATES ===

@@ -1,1 +1,38 @@
-{}
+{
+ "HILLSIDE": {
+  "manual": true,
+  "src_beat": "s01-jesus-sat-on-a-green",
+  "src_build": "build-121-salt-and-light",
+  "src_file": "build-121-salt-and-light/assets/s01-jesus-sat-on-a-green.jpeg"
+ },
+ "HILLTOWN": {
+  "manual": true,
+  "src_beat": "s14-a-town-built-up-on",
+  "src_build": "build-121-salt-and-light",
+  "src_file": "build-121-salt-and-light/assets/s14-a-town-built-up-on.jpeg"
+ },
+ "KITCHEN": {
+  "manual": true,
+  "src_beat": "s10-but-salt-has-one-job",
+  "src_build": "build-121-salt-and-light",
+  "src_file": "build-121-salt-and-light/assets/s10-but-salt-has-one-job.jpeg"
+ },
+ "LAMPHOUSE": {
+  "manual": true,
+  "src_beat": "s17-neither-do-men-light-a",
+  "src_build": "build-121-salt-and-light",
+  "src_file": "build-121-salt-and-light/assets/s17-neither-do-men-light-a.jpeg"
+ },
+ "LANE": {
+  "manual": true,
+  "src_beat": "s02-live-openly-good-kind-honest",
+  "src_build": "build-121-salt-and-light",
+  "src_file": "build-121-salt-and-light/assets/s02-live-openly-good-kind-honest.jpeg"
+ },
+ "MARKET": {
+  "manual": true,
+  "src_beat": "s06-he-began-with-salt",
+  "src_build": "build-121-salt-and-light",
+  "src_file": "build-121-salt-and-light/assets/s06-he-began-with-salt.jpeg"
+ }
+}

@@ -57,3 +57,47 @@ mediums, closes and vignettes. File order ≠ story order (b02 at
 - Person-free-at-distance frames b14/b26 state "No people are
   distinguishable at this distance" — reject renders with readable
   figures.
+
+---
+
+## RUNNER RESUME + SHIP — 2026-08-09 (Opus runner, Machine A `Dev`, UNATTENDED/HEADLESS)
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 121` shows no filed complaint). This
+is a fresh V2 realistic rebuild, not a C-FIX.
+
+**Resume of a DIED autopilot lane** (AUTHOR-BOARD row 121 State RUNNING / Claim
+A-auto). Already-shipped check FIRST (RUNNER-LESSONS): NO committed mp4, v121 card
+still old-newvoice (no `realistic-v2`) → NOT shipped; no live `v2_gen_api` sibling
+(`ps aux`). The died lane had generated 5 anchor stills (s01 HILLSIDE, s02 LANE,
+s06 MARKET, s10 KITCHEN, s14 HILLTOWN) but never promoted plates or continued.
+
+**Plates:** PLACE-WIRING was `{}` — promoted all 6 from THIS row's own frames
+(author QC.md forbids build-38's LANE/MARKET auto-matches). s02 LANE was rerolled
+first (the died lane's s02 read painterly/illustrated vs the row's photographic
+baseline — a Law-14 style-mix on a 9-beat plate); the reroll landed photographic.
+Generated LAMPHOUSE anchor b17, QC'd, promoted. Then mass-generated the remaining
+23 beats with all 6 plates attached.
+
+**Light QC (all 29 frames viewed):** every Jesus frame face-locked + consistent,
+CALM eyes, **no glowing/light-emitting eyes, no halo/glow/rim-light** (critical on
+a LIGHT row), only Jesus in cream, no double-Jesus off the Jesus-bearing HILLSIDE
+plate, ordinary scale. Lamp sequence b17→b18→b19→b20 continuous (lit→basket
+lowered→smothered gloom→raised high; same lamp/stand/basket/family/room; flames on
+the spout). No modern objects, no collage/cartoon, no lens-stare, no anatomy
+garbage, no second cream. Realistic photography throughout (Law 14 satisfied).
+
+**FIX-WAVE notes (kept, not garbage — no reroll):** s28 has a central weathered
+fisherman who reads Jesus-*like* but is correctly NOT in cream (b28 is a jesus=False
+crowd beat); s29 is the author-directed OTS dispersal (Jesus foreground, crowd
+descending away = depth perspective, not a same-plane giant); s14/s26 hilltown wides
+carry a tiny ambiguous white speck near the water at distance (borderline).
+
+**Assemble:** AUDIO LOCK PASS SHA256=642b6930f4177f8bd8fcb015858b8e08aeabd4ebf4b500322107a8269f48a87c,
+180.4 s, 20.1 MB. V1 audio current (no AUDIO_FROM_V1_SEGMENTS needed). mp4 decodes
+clean (`ffmpeg -v error -f null -` empty). 3 caption frames (20s/95s/176s):
+captions bottom-band only, question card clean (no squares).
+
+**Cost / COST LAW:** 1 reroll (s02) / 29 beats = **3.4%**, well under the 15%
+budget. Session Gemini spend **$3.35** (2 anchors $0.27 + 23 mass $3.08), 0
+portraits (Jesus on the global sheet), meter 518.58→522.33. Well under the
+$6.10/row average — cost trending DOWN. Touch-once: one assemble, one ship.
