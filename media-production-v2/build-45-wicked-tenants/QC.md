@@ -140,3 +140,54 @@ SAME hash as before, cryptographic proof the narration/voices/timing are
 byte-identical. Final mp4 decodes with ZERO `ffmpeg -v error` output (clean AAC).
 Question card re-verified clean (cream field, serif text, no tofu). All captions
 in the bottom band only.
+
+---
+
+## C-FIX #2 — Cameron RE-FILED the SAME complaint (Machine A `Dev`, 2026-08-09)
+
+**COMPLAINT LEDGER (the only thing that matters this session):** Cameron's
+reviewer complaint on row 45 is OPEN and was filed **twice** — once against the
+first V2 cut (hash 7464d48), once against the 08-07 C-FIX cut (hash 049019e3),
+the second time with the words **"Same problem you didnt fix either."**
+`v2_outline.py 45` shows it OPEN. Both frames were re-inspected against the
+RENDERED live mp4 (049019e3) — NOT the beat names — so the prior session's
+mistake could not repeat.
+
+**Why the 08-07 fix failed (root cause):** the prior C-FIX rerolled b46 ONCE
+and shipped a frame that was STILL broken — two men cut off at a terrace wall
+that read as floating disembodied heads in the mid-field, PLUS a duplicate
+miniature watchtower mirroring the real one, PLUS an aerial "toy-diorama" look.
+That session then *rationalised the defect away* in QC ("two small mid-ground
+workers... not the defect Cameron named"). Those workers WERE the defect. It
+also declared 1:04 "already clean" and left it byte-identical, so Cameron saw no
+change there. Both timestamps therefore looked un-fixed → "same problem."
+
+- **0:50 → b46 `s46-that-is-the-setup.jpeg` ("That is the setup"): REROLLED to
+  a clean person-free establishing wide.** The beat is authored person-free
+  ("the whole vineyard lying small and perfect... ONE capped tower... the one
+  pale road threading up... waiting for the seasons to begin"). Take 1 came back
+  coherent but with six tenants (wrong — beat wants none, and it duplicated the
+  b10 tenants shot); take 2 is the keeper: an empty hillside vineyard — ringed
+  wall, ONE capped tower, terraced rows, the winepress's pale notch in the
+  corner, the single pale road curving up to the arched gate — one coherent
+  realistic drone perspective, NO floating figures, NO duplicate tower, NOT a
+  diorama. Verified at 0:50 in the rendered mp4.
+- **1:04 → b12 `s12-and-at-the-season-he.jpeg` ("And at the season he sent...a
+  servant"): REROLLED (was already clean, but Cameron named it twice so it was
+  NOT left untouched again).** The old frame was faithful but center-framed with
+  a random torn hole in the servant's tunic and near-identical framing to the
+  establishing shot. The new take is a cleaner, more dynamic composition — the
+  servant off-center lower-left in a whole tunic, empty basket on his arm,
+  purple-heavy vines beyond the wall, the tower quiet over the wooden gate —
+  clearly distinct from the new 0:50 aerial so the two no longer read as the
+  same shot. Verified at 1:04.
+
+**Rerolls:** 3 generations (b46 ×2, b12 ×1) / 54 beats = **5.6%** (budget 15%).
+Cost ≈ **$0.39**, meter 517.11 → 517.51. Touch-once honored — these are the only
+two frames Cameron named and the only open complaint on the row.
+
+**Audio:** untouched. Re-assembled → **AUDIO LOCK PASS
+SHA256=2b4c517b0617af407b5b97b42bee777ce8b91caab6f2adef2ce5836ef4942ec1** —
+SAME hash, byte-identical narration/voices/timing. mp4 decodes with ZERO
+`ffmpeg -v error` output. Question card + all captions re-verified in the bottom
+band only.
