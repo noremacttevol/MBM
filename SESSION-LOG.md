@@ -1,3 +1,19 @@
+## 2026-08-09 — ROW 67 (The Transfiguration / Mark 9) C-FIX SHIPPED — demon-eyes complaint RE-OPENED; the 08-07 reroll REGRESSED, fixed for real by IDENTITY-EDIT (no reroll) — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, $0.13)
+
+**Commit(s):** ship `51c269513740a21ef2fc13c939f0ad1727e916c4` (mp4 + s03 + QC.md + AUTHOR-BOARD + QUEUE + RUNNER-LESSONS + api-spend, one commit) + `097254d77` (review.html new hash/?v=/complaint-answer flag) + stash/publish-ledger refresh + THIS COMMIT (SESSION-LOG). Deployed to Firebase + **live-verified** (v67 data-hash=`51c2695…` on milk-b4-meat.web.app, mp4 HTTP 200, content-length 20,188,155). **Session-chain verified at start:** prior-top commit `7986b846b` (Row 52 C-FIX) present in `git log`; hostname `Dev` = Machine A.
+
+**Assigned (COMPLAINT-FIRST + LOW-NUMBER):** row 67 C-FIX, lowest waiting open-complaint row. Complaint (re-filed against the current cut): **"0:37 that picture is bad becasue jesus's eyes turned into light and that is horrible looking it likes like a demon. Same problem but now alot of the other characters are staying true to their characters."**
+
+**Root cause of the repeat:** the 08-07 C-FIX **rerolled** s03/s07 to kill the glowing eyes. But a blind reroll of a blazing-white glory beat REGRESSES — JESUS LOCK v5 "eyes lit from within like a flame of fire" re-amplifies into glowing light orbs — so the shipped **s03 @ 0:14** (the full transfiguration) still had the demon-light eyes. (Cameron's "0:37" is approximate: I swept every Jesus face — at 0:37/s07 the eyes were already normal; s02/s11 normal; s04 is a disciple. s03 was the only one still glowing.) RUNNER-LESSONS 825 already says Jesus light-eyes = IDENTITY-EDIT, never reroll; the 08-07 session used the wrong method.
+
+**What I did ($0.13, 1 image-edit, 0 rerolls, meter 518.18→518.31):** gemini-3-pro-image repainted ONLY s03's eyes to natural warm-brown human eyes (input frame only, NO face REF, NO stylize words — halo/cartoon TRAP), then a PIL feathered-ellipse composite (GaussianBlur 18) over the eye box `(675,790,855,865)` put them back onto the byte-identical original — every pixel outside the eye box unchanged. Verified full-res + in the rendered mp4 @ 0:15: two natural human eyes, calm gaze, no light emission, no seam, no halo; scriptural raiment/face radiance kept (Light Law).
+
+**Verification:** rendered mp4 checked at 0:14/0:15 (fixed) + captions bottom-band. **AUDIO LOCK PASS SHA256=860fee72… (byte-identical), 100.0s / 20.2 MB.** Live page + mp4 200 confirmed.
+
+**Cost / COST LAW:** 1 edit, 0 rerolls (0%) — **$0.13**, far under the $6.10/row average; cost trending DOWN. Touch-once honored (only s03's eye box; only open complaint on the row). Updated RUNNER-LESSONS 811 → cross-reference 825: *Jesus light-eyes on a radiance/glory frame = IDENTITY-EDIT eye-box composite, NEVER a reroll; this row is the proof the reroll regressed.*
+
+---
+
 ## 2026-08-09 — ROW 45 (Wicked Tenants / Mark 12) C-FIX#2 SHIPPED — Cameron RE-FILED "0:50, 1:04 pictures trash... same problem you didnt fix" — prior fix shipped a still-broken frame & rationalized it; both frames genuinely redone this time — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, ~$0.39)
 
 **Commit(s):** ship `e8ef51c9c53a` (mp4 + s46 + s12 + QC.md, all 4 in one commit — closed the uncommitted-asset fragility) + `THIS COMMIT` (review.html hash/?v=/complaint-answer flag + AUTHOR-BOARD SHIPPED + SESSION-LOG). Deployed to Firebase + live-verified. **Session-chain verified at start:** prior-top SESSION-LOG commit `c0240bc31` (Row 113 park) present in `git log`; hostname `Dev` = Machine A.
