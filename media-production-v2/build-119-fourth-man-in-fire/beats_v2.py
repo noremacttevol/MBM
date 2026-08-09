@@ -75,6 +75,15 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX 2026-08-09 (AUDIO-FIX lane, Machine A `Dev`, $0): STALE-V1 — Cameron's
+# "mispronounced bow" complaint (#119) was fixed in make_narration.py:79
+# (SPOKEN 'bows'→'boughs', /bau/) and lives in the 2026-07-28 segment mp3s, but
+# the shipping V1 mp4 was committed 2026-07-24 (pre-fix). Set this flag so
+# v2_assemble renders narration from THIS build's own bow-fixed mp3s instead of
+# copying the stale mp4 audio. Nothing re-voiced — the fix already exists in the
+# segments. See QC.md 🅿️ RUNNER PARK.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r119-b01", "out": "s01-a-king-built-a-golden.jpeg", "seg": "n1",

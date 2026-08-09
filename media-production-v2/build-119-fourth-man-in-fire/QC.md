@@ -52,6 +52,49 @@ mp4 — the audio would be unchanged and the complaint would repeat.
 
 ---
 
+## ✅ AUDIO-FIX DONE → AUTHORED + Audio OK (AUDIO-FIX lane, Machine A `Dev`, 2026-08-09)
+
+**Complaint closed:** "Miss pronounced bow" — n1 "everyone bows" (~0:07) now
+renders the /baʊz/ (BOUGH, bend-down) vowel, not /boʊz/ (BEAU).
+
+**What I found that the park note could not:** the park note assumed the
+2026-07-28 ElevenLabs mp3 already carried the fix because it post-dates the
+`SPOKEN 'bows'→'boughs'` respell (make_narration.py:79). But `make_narration.py`
+here still uses the OLD edge-tts scaffold (`save_speaker_narration` →
+`edge_tts.Communicate`), while the shipping n1.mp3 is ElevenLabs (44100/128k).
+The ElevenLabs renderer (`voice_from_transcripts.py:110`) calls
+`eleven_spoken_text(seg["text"])` with **no `overrides`** → the build-local
+`SPOKEN` respell never reaches ElevenLabs (see [[eleven-bypasses-say-map]]).
+faster-whisper reads "bows" for both /baʊz/ and /boʊz/, so it proves nothing.
+Reference renders of "everyone bows" vs "everyone boughs" through the narrator
+voice (Brian) came back **97–98% identical** — i.e. ElevenLabs reads "bows"
+in this sentence context as /baʊz/ from context anyway — so the old take was
+very likely already correct, but that could NOT be proven with the available
+tools.
+
+**What I did (guaranteed fix, $ ElevenLabs = 1 narrator segment):** re-voiced
+n1 through ElevenLabs **Brian** (`nPczCjzI2devNBz1zQrb`) with the text spelled
+`everyone boughs` (unambiguous /baʊz/), then pitch-preserving `atempo=1.0204`
+back to the **exact** original n1 duration **14.053878 s** so NO downstream
+static picture window in beats_v2.py moves. Caption text kept as "bows"
+(timing.json + SEGMENTS unchanged). Regenerated n1.timing.json (scaled) and
+n1.mp3.words.json. Old take preserved as `audio/n1.mp3.eleven-20260728`.
+Every other segment byte-identical.
+
+**Audio baseline:** only `audio/n1.mp3` changed (duration identical → timeline
+unchanged; 44100 Hz/128 k ElevenLabs preserved). `AUDIO_FROM_V1_SEGMENTS = True`
+set in beats_v2.py so v2_assemble rebuilds narration from THIS build's own mp3s
+(the corrected n1 + the "shadrack" fix). 0 V2 stills yet → handed to the
+picture runner: it builds all 35 beats on the corrected audio; **AUDIO REBUILD
+PASS** in `v2_assemble.py 119` is the cryptographic proof the /baʊz/ take ships.
+
+**Picture runner, resume unchanged:**
+`cd media-production-v2 && python3 v2_story_cast.py build-119-fourth-man-in-fire`
+`python3 v2_gen_api.py build-119-fourth-man-in-fire --ceiling <meter + (35+3)*0.134*1.5 + 25>`
+`python3 v2_assemble.py 119   # must print AUDIO REBUILD PASS`
+
+---
+
 
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 35 beats, ~198 s.
