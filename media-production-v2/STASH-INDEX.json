@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-09 14:36:24",
+ "scanned": "2026-08-09 15:13:43",
  "entries": [
   {
    "row": 1,
@@ -48273,6 +48273,563 @@
    "night": false,
    "n_person": 0,
    "scene": "The closing frame keeps the negotiating ground: the bare ridge-top empty in the last of the gold, the plain darkening below, the worn spot where an old man stood his afternoon still holding the warmth \u2014 a courtroom with "
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b01",
+   "file": "build-117-hosea-buys-her-back/assets/s01-love-is-easy-to-picture.jpeg",
+   "tokens": [
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The beginning is as easy as everyone imagines: the small stone house golden in the evening light, the blue door standing open on a warm lamplit room, the fig tree heavy over the low wall, supper's smoke rising straight i"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b02",
+   "file": "build-117-hosea-buys-her-back/assets/s02-a-man-and-a-woman.jpeg",
+   "tokens": [
+    "HOME",
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the blue door, the camera looking past the family's backs at the low wall, the covenant is made with joined hands: her wine-red dress bright as new fruit, ribbons in the long dark hair, his grief-free young face lit w"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b03",
+   "file": "build-117-hosea-buys-her-back/assets/s03-that-is-how-love-for.jpeg",
+   "tokens": [
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the picture the whole prophecy is painted with: two hands joined in the gold light \u2014 her slender fingers folded inside his workman's grip, the clasp easy and chosen and warm \u2014 the oldest image God ever reached f"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b04",
+   "file": "build-117-hosea-buys-her-back/assets/s04-not-because-he-stopped-being.jpeg",
+   "tokens": [
+    "HOME",
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Inside the lamplit room the drift is already miles wide: his goodness everywhere and constant \u2014 the table set with care, her shawl warmed by the fire, the lamp trimmed \u2014 and her chair angled to the window, her dark eyes "
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b05",
+   "file": "build-117-hosea-buys-her-back/assets/s05-i-will-go-after-my.jpeg",
+   "tokens": [
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down the grey morning road she goes with her reasons packed tight as her bundle: chin set, stride quick, the wine-red dress bright against the flat light \u2014 and on her lips, rehearsed like a shopping list, the self-talk o"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b06",
+   "file": "build-117-hosea-buys-her-back/assets/s06-but-she-wandered.jpeg",
+   "tokens": [
+    "HOME",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Two words, one picture: from the threshold of the blue door \u2014 still open, lamp still warm inside \u2014 the road in the early light, and on it, already small, already past the wall and the fig tree and the last call of her na"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b07",
+   "file": "build-117-hosea-buys-her-back/assets/s07-i-am-going-after-the.jpeg",
+   "tokens": [
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a face that believes its own bargain: the beautiful determined features set forward, dark eyes bright with the arithmetic of the givers ahead \u2014 love reimagined as a market, affection priced in bread and oil, the"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b08",
+   "file": "build-117-hosea-buys-her-back/assets/s08-she-did-not-think-she.jpeg",
+   "tokens": [
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Once, at the rise of the road, she looks back: the small house far behind with its blue door and its thread of smoke \u2014 and in her glance there is no malice at all, almost fondness, the look you give a town you enjoyed an"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b09",
+   "file": "build-117-hosea-buys-her-back/assets/s09-she-thought-she-was-walking.jpeg",
+   "tokens": [
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The road runs long into the dusk and she follows it: a small wine-red figure on the pale track, and far ahead, spread along the horizon under the grey, the lights of somewhere else \u2014 many, bright, and cold as coins, glit"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b10",
+   "file": "build-117-hosea-buys-her-back/assets/s10-go-yet-love-a-woman.jpeg",
+   "tokens": [
+    "HOSEA",
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the house she left, the word finds the husband: Hosea alone at the lamplit table with her empty chair across from him, head lifting slowly at something no ear in the room could hear \u2014 GO YET \u2014 the wounded eyes widenin"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b11",
+   "file": "build-117-hosea-buys-her-back/assets/s11-and-hosea-wrote-down-what.jpeg",
+   "tokens": [
+    "HOSEA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The husband becomes the record-keeper of his own wound: Hosea at the lamp with the reed moving down the scroll, setting her leaving-words in ink with a hand that shakes and does not stop \u2014 MY BREAD, MY WATER, MY WOOL \u2014 e"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b12",
+   "file": "build-117-hosea-buys-her-back/assets/s12-and-here-the-story-stops.jpeg",
+   "tokens": [
+    "HOSEA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Every other version of this story ends at the table \u2014 the wronged man nursing his rights in the lamplight \u2014 and here this one diverges: Hosea rising, taking his charcoal mantle off its peg, banking the fire for a journey"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b13",
+   "file": "build-117-hosea-buys-her-back/assets/s13-go-and-love-her-still.jpeg",
+   "tokens": [
+    "HOSEA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "So the husband takes the road she took: Hosea out on the long grey track in his wrapped mantle, following a trail gone months cold \u2014 past the rise where she looked back, toward the far cold glitter she walked into \u2014 one "
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b14",
+   "file": "build-117-hosea-buys-her-back/assets/s14-the-whole-marriage-was-a.jpeg",
+   "tokens": [
+    "HOSEA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the face of a living parable: Hosea's grief-worn features set into the road wind, carrying double \u2014 his own husband's hurt, real as a stone in the chest, and folded around it the vaster ache he was drafted to de"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b15",
+   "file": "build-117-hosea-buys-her-back/assets/s15-by-the-time-he-found.jpeg",
+   "tokens": [
+    "MARKET"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "This is what, the camera high over the stalls taking the crowd from the side, the cold lights were up close: a market under flat noon in a city that never learned her name \u2014 stalls and shouting and coin and strangers' tr"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b16",
+   "file": "build-117-hosea-buys-her-back/assets/s16-brought-low-sitting-at-the.jpeg",
+   "tokens": [
+    "MARKET",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the edge-step sits what the road did: Gomer, the wine-red dress gone dull and patched at the shoulder, the glorious hair bound back dimmed and dusty, hands folded empty in her lap, eyes down at the cold cobbles \u2014 poor"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b17",
+   "file": "build-117-hosea-buys-her-back/assets/s17-he-could-have-let-her.jpeg",
+   "tokens": [
+    "HOSEA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the market's mouth the choice stands still for one moment: Hosea under the entrance arch with the cold noise ahead of him and the long road home behind \u2014 every right the law and the village and his own chest could giv"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b18",
+   "file": "build-117-hosea-buys-her-back/assets/s18-he-walked-all-that-way.jpeg",
+   "tokens": [
+    "MARKET",
+    "HOSEA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Through the cold indifferent crowd the search moves like warmth through a house: Hosea shouldering past stalls and strangers, his eyes working face after face after face with the particular hunger of a man looking for ex"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b19",
+   "file": "build-117-hosea-buys-her-back/assets/s19-so-i-bought-her-to.jpeg",
+   "tokens": [
+    "MARKET",
+    "HOSEA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The redemption is counted out coin by coin: Hosea's workman hands at the creditor's table, laying down the silver piece by piece \u2014 fifteen, everything the purse holds \u2014 and then the barley heaved up beside it, the homer "
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b20",
+   "file": "build-117-hosea-buys-her-back/assets/s20-and-when-he-found-her.jpeg",
+   "tokens": [
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The moment every fear in her braced for arrives empty-handed of blame: his face before her \u2014 found, after all the cold miles \u2014 and in it not one syllable of the lecture she has rehearsed receiving: no list, no I-told-you"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b21",
+   "file": "build-117-hosea-buys-her-back/assets/s21-he-paid-for-her.jpeg",
+   "tokens": [
+    "MARKET"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Three words get their still life: the fifteen pieces of silver stacked small and final on the worn table, the barley sacks slumped beside, and the creditor's stylus dragging its line through the tally that held her \u2014 deb"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b22",
+   "file": "build-117-hosea-buys-her-back/assets/s22-he-lifted-her-up-off.jpeg",
+   "tokens": [
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "And then the buying becomes what it was always for: his two hands taking hers and raising her up off the worn stone step \u2014 unhurried, both-handed, the way you lift treasure \u2014 and his own charcoal mantle coming off his sh"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b23",
+   "file": "build-117-hosea-buys-her-back/assets/s23-she-was-his-again-not.jpeg",
+   "tokens": [
+    "MARKET",
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Out through, the camera following behind them, the parting indifferent crowd they go together: she wrapped small in his charcoal mantle, her steps still uncertain on the cold cobbles, and his arm steady at her shoulder, "
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b24",
+   "file": "build-117-hosea-buys-her-back/assets/s24-my-food-my-water-my.jpeg",
+   "tokens": [
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the litany's fingers: her hand counting as she walks \u2014 MY food, the thumb; MY water, the finger; MY clothes, the next \u2014 the possessive drumming through the list like a heartbeat, every item an argument, every ar"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b25",
+   "file": "build-117-hosea-buys-her-back/assets/s25-i-will-allure-her-and.jpeg",
+   "tokens": [
+    "WILD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The strangest courtship in scripture books its venue: the soft desert hills at first light \u2014 rose and gold on the still slopes, the narrow path threading between low tamarisks, air quiet enough to hear a low voice in \u2014 n"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b26",
+   "file": "build-117-hosea-buys-her-back/assets/s26-i-will-win-her-back.jpeg",
+   "tokens": [
+    "WILD",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "She walks the quiet she was carried to: the dawn path soft under her feet, the mantle warm at her shoulders, the hills holding a stillness so complete that her own breath is the loudest thing in it \u2014 all the noise she ch"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b27",
+   "file": "build-117-hosea-buys-her-back/assets/s27-not-shouting-not-shaming.jpeg",
+   "tokens": [
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a face unlearning its flinch: her dark eyes in the rose light, braced by years for the shout, the shaming, the recitation \u2014 and none of it coming \u2014 the braced shoulders lowering by slow degrees as the voice stay"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b28",
+   "file": "build-117-hosea-buys-her-back/assets/s28-speaking-comfortably-the-way-you.jpeg",
+   "tokens": [
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The way you talk to someone you are glad to have back, demonstrated: the two of them walking the dawn path at an unhurried pace, his face turned to her mid-word \u2014 and the word, whatever it is, plainly ordinary and plainl"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b29",
+   "file": "build-117-hosea-buys-her-back/assets/s29-i-will-go-and-return.jpeg",
+   "tokens": [
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The turning happens as a sentence first: her face in the dawn light doing the honest arithmetic at last \u2014 the givers counted, the cold lights counted, the edge-step counted \u2014 I WILL GO AND RETURN TO MY FIRST HUSBAND \u2014 no"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b30",
+   "file": "build-117-hosea-buys-her-back/assets/s30-that-is-the-whole-of.jpeg",
+   "tokens": [
+    "WILD",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole doctrine, drawn in one figure on one road: the wine-red woman in the borrowed mantle, stopped on the dawn path \u2014 and turned: facing back up the way she came, toward the far country where a blue door stands open"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b31",
+   "file": "build-117-hosea-buys-her-back/assets/s31-god-did-not-tell-hosea.jpeg",
+   "tokens": [
+    "HOSEA",
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The house shows what he was never told to do: her chair still at the table, angled the way she liked it toward the window; her shawl still on its peg by the blue door, shaken out against the dust; her cup on the shelf, w"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b32",
+   "file": "build-117-hosea-buys-her-back/assets/s32-and-i-will-betroth-thee.jpeg",
+   "tokens": [
+    "WILD",
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the rose-gold hills the first picture is taken again, deeper: their hands joining as they joined at the blue door years and ruins ago \u2014 her fingers folding into his workman's grip, both hands older now and surer \u2014 the"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b33",
+   "file": "build-117-hosea-buys-her-back/assets/s33-instead-he-came-looking.jpeg",
+   "tokens": [
+    "HOSEA"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Three words, many miles: the umber-robed figure small on the long grey road under the big sky, the home country gone behind the ridges, the cold city still not risen ahead \u2014 one man walking down the middle of the choice "
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b34",
+   "file": "build-117-hosea-buys-her-back/assets/s34-i-will-even-betroth-thee.jpeg",
+   "tokens": [
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the completed circle: the two joined hands in the tender light \u2014 the same clasp as the beginning, and not the same at all: wrapped over now by the edge of the charcoal mantle that covered her in the market, warm"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b35",
+   "file": "build-117-hosea-buys-her-back/assets/s35-betrothed-forever.jpeg",
+   "tokens": [
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Forever gets its address back: the small stone house in new morning light \u2014 the blue door standing open, the lamp lit inside against the early cool, the fig tree gone green over the low wall, two cups on the table where "
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b36",
+   "file": "build-117-hosea-buys-her-back/assets/s36-not-taken-back-on-probation.jpeg",
+   "tokens": [
+    "HOME",
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The picture from the beginning stands restored with interest: the two of them at the blue door in the morning light \u2014 and she is not posed there as a guest on trial, not hovering at the threshold of a probationary mercy:"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b37",
+   "file": "build-117-hosea-buys-her-back/assets/s37-that-is-what-god-says.jpeg",
+   "tokens": [
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame checks the door for the thing everyone dreads and finds it bare: the blue door standing open in the morning light with nothing posted on it \u2014 no tally nailed to the wood, no terms chalked on the post, no ledger"
+  },
+  {
+   "row": 117,
+   "build": "build-117-hosea-buys-her-back",
+   "beat": "v2-r117-b38",
+   "file": "build-117-hosea-buys-her-back/assets/s38-he-comes-looking-he-pays.jpeg",
+   "tokens": [
+    "HOME",
+    "HOSEA",
+    "GOMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The closing frame holds the whole gospel of Hosea at dusk: the small house warm with lamplight and the two of them inside it at their table \u2014 and outside the open blue door, running gold from the threshold out to the dar"
   }
  ]
 }
