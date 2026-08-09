@@ -33,6 +33,54 @@ wrong / bad audio" in his words. Board NEEDS-AUDIO→BUILT on ship.
 
 ---
 
+## 🛑 AUDIO-FIX BLOCKED — needs one EAR-PASS (AUDIO-FIX lane, Machine A `Dev`, 2026-08-09, $0)
+
+Ran the FULL headless diagnostic battery (five independent tests, all $0). **None
+localizes a fixable defect.** A blind re-voice would burn ElevenLabs credits, move
+the AUDIO LOCK hash, void Cameron's approval, and — because I can't name what he
+heard — most likely NOT fix it (worse: a touched row that re-queues without closing
+the complaint). So BLOCKED for one ear-pass, exactly like the row-27 park.
+
+**Diagnostics run (all came back clean/consistent):**
+1. **Engine/sample-rate** (ffprobe): all 19 segments 44100/128000 = ElevenLabs. No
+   mixed-engine, no edge-tts leak. (Confirms the prior park.)
+2. **Word delivery** (faster-whisper per segment vs each seg's timing.json text):
+   every segment says its intended words. The only divergences are whisper's own
+   KJV/archaic quirks ("toucheth"→"touch of", "owed five hundred pence"→"one-ode
+   500 pens") and short-clip mishears — NOT audio garble/dropout.
+3. **Voice assignment / within-build consistency** (custom MFCC-mean cosine,
+   text-independent): every Jesus seg (j1,j2,j3,j40,j41,j44) clusters to the Jesus
+   centroid, every narrator seg to narrator, every scripture seg to scripture. **No
+   wrong-voice swap on any single segment.**
+4. **Uniform-wrong-voice check** (row74-Jesus centroid vs row70's approved-**Chris**
+   Jesus centroid): inconclusive — homemade MFCC means sit at ~0.97 for ALL
+   cross-build pairs (narrator-vs-Chris also 0.97), so they can't discriminate
+   Chris/Brian/Alexander across recordings. BUT the build-**local**
+   `mbm_eleven.py:39` correctly declares `JESUS = ("Chris","iP95p4xoKVk53GoZ742B")`
+   (the shared module's wrong "Alexander" is NOT what a local render would use), and
+   the j-segments are internally identical, so no positive evidence of a wrong model.
+5. **Objective quality** (peak/clip/noise-floor/RMS per segment): 0.00% clipping
+   anywhere; peaks −2.9…−9.6 dBFS (no HOT segment). One real observation: the
+   Jesus + s39 segments carry a ~−81 dB room-tone floor and run ~5 dB hotter
+   (RMS −20…−22) than the noise-gated narrator (floor −180 dB, RMS −25…−27). This
+   is the KNOWN ElevenLabs room-tone trait `mbm_eleven.clean_clip` targets and
+   `v2_assemble` loudnorm equalizes at final mix — and at ~60 dB below speech it is
+   inaudible, so almost certainly NOT the complaint, but it is the only lead.
+
+**EAR-PASS RESUME (the one thing a listening session must decide):** play
+`build-74-woman-washed-his-feet/luke-7_woman-washed-his-feet.mp4` end-to-end and
+answer TWO questions: (a) is it the NARRATOR (Brian) or JESUS (Chris) voice that
+reads "wrong," and (b) is it the VOICE MODEL (wrong person), the DELIVERY/quality
+(garble, robotic, breath, pacing), or a LEVEL/tone jump between voices? With that
+one fact, the fix is targeted: re-voice only the named segment(s) through the
+build-local locked voice (or run `clean_clip` if it's the room-tone/level jump),
+atempo-match, re-assemble to a NEW AUDIO LOCK hash, deploy+verify, ship. Do NOT
+blind-re-voice all six Jesus segments — that voids his approval without knowing the
+defect. Claim marked `AUDIO-FIX BLOCKED` (no `LIVE` token) so an ear-equipped
+session picks it up; pictures + audio left byte-identical, $0 spent.
+
+---
+
 # QC / RUNNER HANDOFF — build-74-woman-washed-his-feet (Luke 7:36-50)
 
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
