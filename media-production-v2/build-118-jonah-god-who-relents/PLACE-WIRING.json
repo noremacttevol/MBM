@@ -1,1 +1,26 @@
-{}
+{
+ "FISH": {
+  "manual": true,
+  "src_beat": "s18-instead-god-sent-a-great",
+  "src_build": "build-118-jonah-god-who-relents",
+  "src_file": "build-118-jonah-god-who-relents/assets/s18-instead-god-sent-a-great.jpeg"
+ },
+ "HILL": {
+  "manual": true,
+  "src_beat": "s37-and-jonah-watching-from-a",
+  "src_build": "build-118-jonah-god-who-relents",
+  "src_file": "build-118-jonah-god-who-relents/assets/s37-and-jonah-watching-from-a.jpeg"
+ },
+ "NINEVEH": {
+  "manual": true,
+  "src_beat": "s02-he-was-to-go-to",
+  "src_build": "build-118-jonah-god-who-relents",
+  "src_file": "build-118-jonah-god-who-relents/assets/s02-he-was-to-go-to.jpeg"
+ },
+ "SHIP": {
+  "manual": true,
+  "src_beat": "s08-he-found-a-ship-going",
+  "src_build": "build-118-jonah-god-who-relents",
+  "src_file": "build-118-jonah-god-who-relents/assets/s08-he-found-a-ship-going.jpeg"
+ }
+}

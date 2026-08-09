@@ -28,6 +28,22 @@
 
 ---
 
+## 2026-08-09 — ROW 118 (Jonah and the God who relents / Jonah 1-4) RESUME → PARKED NEEDS-AUDIO — stale-V1 audio lock; all 46 stills built + valid, one collage rerolled — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, $0.26 Gemini)
+
+**Commit:** THIS COMMIT (QC.md RUNNER PARK + AUTHOR-BOARD State/Audio/Claim/Ready flip + beats_v2.py plate+portrait wiring the 08-07 lane left uncommitted + PLACE-WIRING.json + SESSION-LOG). No mp4 shipped, no Firebase deploy (nothing new reached the reviewer — the row still needs its audio flag). **Session-chain verified at start:** prior-top SESSION-LOG commit for Row 74 present in `git log` (`66f19e10b`); hostname `Dev` = Machine A.
+
+**Task:** resume the dead 08-07 A-auto build of row 118 (State RUNNING, Claim A-auto). Already-shipped check: no committed mp4, live card v118 still the OLD 2026-07-24 cut (hash `0a4a951344bf`, no `realistic-v2` wave) → NOT shipped, resume correct. No live `v2_gen_api` owned it (only the row-117 lane ran). `--check` PASS, 46 beats.
+
+**Generation was already COMPLETE** (46 valid stills, plates + JONAH portrait wired; dry-run 0 shots). Light QC found ONE mandatory defect — **s17 (b17) a 4-panel collage** — rerolled ×2 (take 1 landed the wrong moment/harbor-boarding; take 2 KEEPER = crew at the rail on a glassy-calm sea = the aftermath the beat wants). s26 sunrise-vs-sunset direction + s17 SHIP-plate green-robed lookalike = FIX-WAVE (no open complaint, not garbage). All other 44 frames clean: realistic, upright, consistent Jonah, no cream/second-Jesus, same whale across fish beats, Nineveh spared with no destruction (care-J), no modern objects.
+
+**Why parked, not shipped:** `v2_assemble` built the video then REFUSED the AUDIO LOCK — **STALE-V1**: the V1 mp4 (07-24, `5bd6b82a9`) predates the re-recorded ElevenLabs narration (07-28, `3d3e27661` "#118 narration re-recorded"). Confirmed genuine (V1 mp4 audio 44100/**96425** old-mux vs source mp3s 44100/**128000** chosen cast; total 278.217 vs mp4 278.152, Δ0.065s → same pacing, mechanical fix). The fix is `AUDIO_FROM_V1_SEGMENTS=True` in beats_v2.py = an author/audio-lane edit (runner hard-rail + RUNNER-LESSONS §536; audio lane set this exact flag for 185/189/200). Flipped State RUNNING→NEEDS-AUDIO, Audio OK→CHECK, Ready cleared, Claim = park note with **no** `AUDIO-FIX` token so the audio picker (`'AUDIO-FIX' not in cl`) selects it. Full resume in build-118 QC.md "RUNNER PARK 2026-08-09".
+
+**ACTION FOR THE AUDIO LANE:** set the flag, verify voices (already 44100/128000), `v2_assemble.py 118` → AUDIO LOCK PASS (check captioned duration ≈ card 262.135 ±0.2s per §519), then a picture runner ships the 46 already-built stills. **Do NOT regenerate stills** (COST LAW).
+
+**Cost / COST LAW:** $0.26 (2 rerolls on 1 frame, 1/46 beats = 2.2% rerolls — well under the 15% budget), meter $518.31→$518.58. Far below the $6.10/row average because generation was inherited complete; a correct park costs almost nothing and protects Cameron from a stale-voice re-ship. Touch-once honored.
+
+---
+
 ## 2026-08-09 — ROW 74 (Woman Washed His Feet / Luke 7) C-FIX → PARKED NEEDS-AUDIO — complaint is AUDIO-domain, runner cannot re-voice; handed to the audio lane $0 — Opus cfix runner, Machine A `Dev` (UNATTENDED/HEADLESS, $0)
 
 **Commit:** THIS COMMIT (QC.md RUNNER PARK + AUTHOR-BOARD State/Audio/Claim flip + SESSION-LOG). No mp4/picture/audio change — pictures + audio byte-identical. No Firebase deploy (nothing on the reviewer changed; the audio lane deploys after it re-voices). **Session-chain verified at start:** prior-top SESSION-LOG commit `9b9438649` (Row 45 C-FIX#2) present in `git log`; hostname = Machine A `Dev`.
