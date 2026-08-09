@@ -1,3 +1,38 @@
+## 🅿️ RUNNER PARK 2026-08-09 → NEEDS-AUDIO (Opus cfix runner, Machine A `Dev`, $0)
+
+**Cameron's OPEN complaint (`v2_outline.py 74`, reportedAgainst `3ef2b5b65ded` = the
+LIVE cut):** *"Voice is wrong.  Bad audio"* — filed 2026-08-08.
+
+**Why this is an AUDIO-domain park, not a re-cut:** the complaint names the VOICE /
+audio quality, nothing about a picture. Per RUNNER-LESSONS (audio-immutability) the
+runner may not re-voice, so NO picture reroll and NO re-assemble happens here. Flipped
+State BUILT→NEEDS-AUDIO, Audio OK→CHECK, park-claim (no `AUDIO-FIX` token so the audio
+picker will select it). Pictures + audio left BYTE-IDENTICAL.
+
+**$0 diagnostic for the audio lane (ffprobe proof):** authoritative audio is the V1-dir
+segments (`AUDIO_FROM_V1_SEGMENTS = True`, beats_v2.py:93 →
+`media-production/build-74-woman-washed-his-feet/audio/*.mp3`). Every one of the 19
+segments probes `44100,128000` = the ElevenLabs signature:
+```
+card j1 j2 j3 j40 j41 j44 n0 n1 n2 n3 n4 n5 n5b n6 s39 s40 s43 s49  → all 44100,128000
+```
+So this is **NOT** the OLD-JESUS-SPEAKER mixed-engine class (no `24000,48000` edge-tts
+segment; no mid-video engine flip). The defect is therefore either the WRONG ElevenLabs
+VOICE MODEL (not the locked NARRATOR/JESUS voice) or a delivery/quality artifact —
+neither of which a sample-rate probe can adjudicate. It needs one EAR-PASS to localize
+the bad segment(s), same as the row-27 park.
+
+**AUDIO LANE RESUME:** listen to `media-production-v2/build-74-woman-washed-his-feet/luke-7_woman-washed-his-feet.mp4`
+end-to-end; confirm which voice(s) read as "wrong" (narrator vs Jesus) and whether it is
+voice-model or quality; re-voice the offending segment(s) through the locked ElevenLabs
+voices (NARRATOR "Brian" / JESUS "Chris", 44100/128k), atempo-match to the original
+segment length so no window moves, drop into the V1-dir `audio/`, re-assemble
+(`v2_assemble.py 74`, AUDIO LOCK must move to a NEW hash proving the re-voice landed),
+deploy + live-verify, ship via the audio lane; review card answers Cameron "Voice is
+wrong / bad audio" in his words. Board NEEDS-AUDIO→BUILT on ship.
+
+---
+
 # QC / RUNNER HANDOFF — build-74-woman-washed-his-feet (Luke 7:36-50)
 
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`

@@ -1,3 +1,17 @@
+## 2026-08-09 — ROW 74 (Woman Washed His Feet / Luke 7) C-FIX → PARKED NEEDS-AUDIO — complaint is AUDIO-domain, runner cannot re-voice; handed to the audio lane $0 — Opus cfix runner, Machine A `Dev` (UNATTENDED/HEADLESS, $0)
+
+**Commit:** THIS COMMIT (QC.md RUNNER PARK + AUTHOR-BOARD State/Audio/Claim flip + SESSION-LOG). No mp4/picture/audio change — pictures + audio byte-identical. No Firebase deploy (nothing on the reviewer changed; the audio lane deploys after it re-voices). **Session-chain verified at start:** prior-top SESSION-LOG commit `9b9438649` (Row 45 C-FIX#2) present in `git log`; hostname = Machine A `Dev`.
+
+**Assigned (COMPLAINT-FIRST + LOW-NUMBER):** row 74, lowest waiting complained row; autopilot picked it as `cfix` because its live-cut hash `3ef2b5b65ded` == reportedAgainst. `v2_outline.py 74` OPEN complaint (filed 2026-08-08): **"Voice is wrong.  Bad audio."**
+
+**Why parked, not re-cut:** the complaint names the VOICE / audio quality — zero picture defect. RUNNER-LESSONS audio-immutability forbids the runner from re-voicing, so NO reroll and NO re-assemble happened; touching pictures over an audio complaint would repeat it (the worst failure). Flipped State BUILT→NEEDS-AUDIO, Audio OK→CHECK, replaced the claim with a park note carrying NO `AUDIO-FIX` token so the autopilot audio picker (`'AUDIO-FIX' not in cl`) selects it NEXT tick (low rows first).
+
+**$0 diagnostic left for the audio lane:** authoritative audio is the V1-dir segments (`AUDIO_FROM_V1_SEGMENTS=True`). All 19 segments ffprobe `44100,128000` = ElevenLabs signature — so this is **NOT** the old-edge-tts mixed-engine class (no `24000,48000`, no mid-video engine flip). Defect is a wrong-voice-model or delivery/quality artifact needing ONE ear-pass to localize (same shape as the row-27 park). Full resume in build-74 QC.md §RUNNER PARK 2026-08-09.
+
+**Cost / COST LAW:** $0, 0 rerolls, 0 Gemini credits — a correct park costs nothing and protects Cameron from a re-shipped audio complaint. Touch-once honored (no picture touched at all).
+
+---
+
 ## 2026-08-09 — ROW 67 (The Transfiguration / Mark 9) C-FIX SHIPPED — demon-eyes complaint RE-OPENED; the 08-07 reroll REGRESSED, fixed for real by IDENTITY-EDIT (no reroll) — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, $0.13)
 
 **Commit(s):** ship `51c269513740a21ef2fc13c939f0ad1727e916c4` (mp4 + s03 + QC.md + AUTHOR-BOARD + QUEUE + RUNNER-LESSONS + api-spend, one commit) + `097254d77` (review.html new hash/?v=/complaint-answer flag) + stash/publish-ledger refresh + THIS COMMIT (SESSION-LOG). Deployed to Firebase + **live-verified** (v67 data-hash=`51c2695…` on milk-b4-meat.web.app, mp4 HTTP 200, content-length 20,188,155). **Session-chain verified at start:** prior-top commit `7986b846b` (Row 52 C-FIX) present in `git log`; hostname `Dev` = Machine A.
