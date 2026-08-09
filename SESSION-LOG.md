@@ -1,3 +1,39 @@
+## 2026-08-09 — ROW 45 (Wicked Tenants / Mark 12) C-FIX#2 SHIPPED — Cameron RE-FILED "0:50, 1:04 pictures trash... same problem you didnt fix" — prior fix shipped a still-broken frame & rationalized it; both frames genuinely redone this time — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, ~$0.39)
+
+**Commit(s):** ship `e8ef51c9c53a` (mp4 + s46 + s12 + QC.md, all 4 in one commit — closed the uncommitted-asset fragility) + `THIS COMMIT` (review.html hash/?v=/complaint-answer flag + AUTHOR-BOARD SHIPPED + SESSION-LOG). Deployed to Firebase + live-verified. **Session-chain verified at start:** prior-top SESSION-LOG commit `c0240bc31` (Row 113 park) present in `git log`; hostname `Dev` = Machine A.
+
+**Assigned (COMPLAINT-FIRST + LOW-NUMBER):** row 45 C-FIX, lowest open-complaint row. `REVIEW-LESSONS.json['45']` OPEN, reportedAgainst `049019e3` (the 08-07 C-FIX cut), text **"0:50, 1:04 pictures are trash and just look stupid. Same problem you didnt fix either."** Filed twice (against 7464d48 AND 049019e3).
+
+**Root cause of the repeat (the real lesson):** the 08-07 C-FIX rerolled b46 ONCE, shipped a frame that was STILL broken — two men cut off at a terrace wall reading as floating heads + a duplicate mini-watchtower + a toy-diorama aerial — then wrote in QC "not the defect Cameron named." Those men WERE the defect. It also declared 1:04 "already clean" and left b12 byte-identical, so Cameron saw NO change at either timestamp → "same problem you didnt fix." I inspected both against the RENDERED live mp4 (not beat names) to avoid repeating it.
+
+**What I did (~$0.39, 3 imgs, meter 517.11→517.51):**
+- **0:50 b46 (person-free "That is the setup"):** rerolled ×2. Take 1 coherent but added 6 tenants (beat wants none; duplicated b10). Take 2 KEEPER = empty hillside vineyard, ONE tower, ringed wall, terraced rows, winepress notch, single road curving to the gate — one realistic drone perspective, no floating figures, no dup tower, not a diorama.
+- **1:04 b12 (servant sent):** rerolled ×1. Old frame was faithful+clean but center-framed with a random torn tunic hole; NOT left untouched again (that was the prior failure). New take = servant off-center lower-left, whole tunic, empty basket, purple-heavy vines, tower over the gate — cleaner AND distinct from the new 0:50 aerial so they no longer read as the same shot.
+
+**Verification:** rendered mp4 checked at 0:50, 1:04, question card — all clean, captions bottom-band only, question card no tofu. `ffmpeg -v error` decode = ZERO errors. **AUDIO LOCK PASS SHA256=2b4c517b… (byte-identical), 319.2s, 20.6 MB.**
+
+**Cost / COST LAW:** 3 rerolls / 54 beats = **5.6%** (budget 15%). ≈$0.39 — well under the $6.10/row average; cost trending DOWN. Touch-once honored (only the two named frames; only open complaint on the row). New RUNNER-LESSON: *never rationalize a reroll that still shows the flagged defect, and never re-ship a complained frame byte-identical — verify the REROLL against the complaint before shipping, and change every named timestamp so the viewer can SEE it moved.*
+
+---
+
+## 2026-08-09 — ROW 52 (Demoniac in the Synagogue) C-FIX #2 SHIPPED — face-flip complaint RE-OPENED after C-FIX #1 didn't hold; root-caused to a "streaked grey" lock note + fixed for real — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, $0.67)
+
+**Commit:** claim `7986b846b` · mp4+QC+beats+refs+RUNNER-LESSON+QUEUE `123e42feb555` · card+board→SHIPPED `a3e81c3a1` · publish-ledger `ba71abc22` · this SESSION-LOG this commit. Deployed to Firebase (`milk-b4-meat`) + live-verified. **Session-chain verified at start:** `git log` top was `c43457092` (Row 45 C-FIX) — present; hostname `Dev` = Machine A per MACHINE-IDENTITY.md.
+
+**Assigned (COMPLAINT-FIRST + LOW-NUMBER):** row 52 C-FIX, lowest waiting complained row. Complaint (`v2_outline.py 52`, OPEN): *"The demoniac face kept changing shaved, to not shaved. Beard to no bear to old man and his looks kept flipping."* This is a RE-OPEN — the row already carried a C-FIX #1 (2026-08-07) claiming the flip was fixed; Cameron re-filed against that cut, same as the row-45 re-open pattern.
+
+**What I verified (not assumed):** viewed all 15 FREEDMAN frames off the shipped cut. The flip was STILL plainly there: **s08** (his loud close-up cry) = a wild GREY-MANED, grey-bearded OLD MAN (Cameron's literal "old man"); **s14** (freed) = a near-BALD/thinning man = a different person; **s05/s07/s10** = short-cropped hair + trimmed/stubble beard = the "shaved" end. The other 10 frames were already one gaunt dark-haired dark-bearded man.
+
+**★ ROOT CAUSE of the re-open:** C-FIX #1's OWN anchor note (in beats_v2.py) described the man as *"dark hair streaked grey"* and wired two mildly-disagreeing refs (s16 light stubble + s18 fuller beard). The word "grey" is rendered literally → kept re-birthing an aged/greyed face; the ref disagreement let hair length/beard wander. A fix that leaves the ambiguity re-opens on the next viewing.
+
+**What I did ($0.67, 5 imgs, meter 517.51→518.18):** rewrote the FREEDMAN lock to be unambiguous — ONE gaunt man ~40-45, MID-LENGTH DARK BROWN-BLACK hair (never grey, never bald, never cropped) + FULL DARK beard (never shaven). Re-anchored to THREE strongly-agreeing dark-hair/dark-beard refs (ref-a=s18 3/4, ref-b=s17 close portrait, ref-c=s11 frontal), wired all three into REFS. Rerolled ONLY the 5 outliers (s05/s07/s08/s10/s14); every other frame kept byte-identical. Verified on the RENDERED mp4: s08 t=42 now the dark-haired dark-bearded man (no grey), s14 t=76 full dark hair (not bald), question card t=150 clean (zero box glyphs). CARE holds (s10 pointing arm aims at Jesus; s14 restrained; only Jesus in cream). `AUDIO LOCK PASS SHA256=1005cde1…` — audio byte-identical, voices/timing untouched. Deployed + live-verified: live card hash `123e42feb5555140…`, video `?v=123e42feb555`, mp4 HTTP 200 @ 19.72 MB.
+
+**Cost / COST LAW:** $0.67 (5 rerolls, all complaint-mandated) — below C-FIX #1's $0.80 and far under the $6.10/row avg; base cut already paid. 20.8% rerolls (over the 15% light-QC budget by design — a re-opened face-flip complaint inherently re-anchors the face across the arc; touch-once batched all 5 into one re-cut). New RUNNER-LESSON added: an age/color-ambiguous lock note ("streaked grey") + one loose ref re-opens; lock a recurring one-off face with an unambiguous descriptor + 2-3 agreeing image refs.
+
+**Complaint status:** kept OPEN in REVIEW-LESSONS.json (Firestore-owned; a local `open` edit reverts on next sync — per Row 110/113 root-cause). The fix is live; Cameron watches once and Approves.
+
+---
+
 ## 2026-08-07 — ROW 113 (Where Art Thou / Genesis 3) C-FIX PAID ATTEMPT → PARKED NEEDS-REBUILD — ROOT-CAUSED the "rags" to CLOTHED CAST PORTRAITS (author fix, runner can't fix within rails) — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, ~$2.0)
 
 **Commit:** park `THIS COMMIT` (QC.md RUNNER PARK + AUTHOR-BOARD 113 BUILT→NEEDS-REBUILD + RUNNER-LESSONS + this SESSION-LOG). **NOT shipped, NOT deployed** — shipping would put Eve-in-a-shawl back on the reviewer = repeating Cameron's exact "rags" complaint (the worst failure). **Session-chain verified at start:** prior-top SESSION-LOG commit `9325a6c18` (Row 110 C-FIX #3) present in `git log`; hostname `Dev` = Machine A per MACHINE-IDENTITY.md. I am the autopilot-spawned row-113 cfix session (pid 3003640, 19:34 tick); the 19:04 tick had died after only committing a claim (`289aa6cc2`) — no live gen owned the row, so I resumed cleanly (no collision).
