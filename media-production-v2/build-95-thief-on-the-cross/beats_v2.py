@@ -81,32 +81,46 @@ AUDIO_FROM_V1_SEGMENTS = True
 BEATS = [
     {
         "id": "v2-r095-b01", "out": "s01-two-criminals-were-crucified-with.jpeg", "seg": "n0a + s39",
-        "window": "0.00-8.00", "wide": True, "jesus": True, "ref": REF,
-        "locks": ["HILL", "MOCKER", "THIEF"],
+        "window": "0.00-8.00", "wide": True, "jesus": False, "ref": False,
+        "locks": ["HILL"],
+        # GIANT-COMPOSITE FIX (AUTHOR-LANE 2026-08-11, Machine A `Dev`): the prior
+        # b01 attached the Jesus + MOCKER + THIEF face-crop REF portraits onto this
+        # OPENING WIDE (jesus:True, ref:REF, three character locks). On an establishing
+        # wide those tight portraits paste in as giant chest-up foreground figures over
+        # a miniature crowd — the "giant/composite" complaint class (3 rerolls came back
+        # worse, one with the REFs as literal framed rectangles on the crosses). FIX =
+        # mirror the row-94 b01 that PRODUCED this exact HILL plate: a person-free,
+        # plate-driven DISTANT establish — jesus:False, ref:False, HILL only, no character
+        # portraits. The three men read as far silhouettes on their crosses; the sneer
+        # and every face are covered in the singles that follow (b02+), never here.
         "narration": (
             "Two criminals were crucified with Jesus, one on each side. If "
             "thou be Christ, save thyself and us."
         ),
-        "must_show": "SCRIPTURE-EXACT: the three at distance — the raised crosses against the grey: Jesus centre, the gaunt mocker left, the broad-faced thief right; the railing begun from the left.",
-        "must_not_show": "ABSOLUTE: no nails, blood, wounds or gore — crosses raised and complete, all three men chest-up with dignity.",
+        "must_show": "SCRIPTURE-EXACT at merciful distance — the bare rise under the cold grey sky with the THREE raised crosses in far silhouette, the centre one between the two exactly as the sentence orders; small knots of watchers held back on the scrub slope, the city wall low and distant behind. ONE coherent photograph at a single consistent scale.",
+        "must_not_show": "ABSOLUTE — NO giant or chest-up foreground figures, NO portrait-scale faces, NO collage / composite / double-perspective / haze seam: everything is at the same distance in one photograph. No nails, blood, wounds or gore — the crosses already raised, seen far off; the distance itself the mercy.",
         "scene": (
-            "The grey morning holds, the camera down the slope "
-            "behind the scattered watchers, the "
-            "three of them against its "
-            "cold sky: the centre cross "
-            "and its two companions, one "
-            "either side exactly as the "
-            "sentence orders — and from "
-            "the left-hand beam the first "
-            "words are already flying, "
-            "the gaunt man's head twisted "
-            "toward the centre with his "
-            "bitter mouth working — IF "
-            "THOU BE CHRIST — three dying "
-            "men on one bare hill, and "
-            "the talking not done yet. "
-            "Every figure has two arms, "
-            "two hands and one head."
+            "From far down the slope, the camera behind the "
+            "scattered watchers' backs, the "
+            "bare rock crown holds its "
+            "terrible geometry against the "
+            "cold grey sky: three raised "
+            "crosses in far silhouette on "
+            "the hill's crest — the centre "
+            "one between the other two, "
+            "exactly as the sentence says — "
+            "small knots of watchers held "
+            "back on the scrub slope, the "
+            "city wall low and distant "
+            "behind. The first mocking words "
+            "are already carrying up the "
+            "hill from the left-hand beam, "
+            "but the men are small and far, "
+            "one coherent scene under the "
+            "thin colorless morning light. "
+            "Every figure is at the same "
+            "distance, two arms, two hands "
+            "and one head."
         ),
     },
     {

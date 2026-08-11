@@ -1,6 +1,51 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
-## 🛑 QC-VERIFY → RUNNER PARK — NEEDS-REBUILD (FULL-CUT GATE, 2026-08-11, Machine A `Dev`, unattended/headless)
+## ✅ GIANT-COMPOSITE RESOLVED + RE-SHIPPED — AUTHOR-FIX 2026-08-11 (Machine A `Dev`, unattended/headless, $0, 0 rerolls, 0 generation)
+
+**The QC-VERIFY park below is CLOSED.** The b01 giant-composite/scale defect is fixed —
+$0, no Gemini spend, no reroll (rerolls were proven unwinnable), audio byte-identical.
+
+### Root cause (was in the beat wiring, not the model)
+The prior b01 was authored `wide:True, jesus:True, ref:REF, locks:[HILL, MOCKER, THIEF]`
+— it attached the Jesus + MOCKER + THIEF tight face-crop REF portraits onto an OPENING
+ESTABLISHING WIDE. On a wide, those tight portraits paste in as giant chest-up foreground
+figures over a miniature crowd (the "giant/composite" class); the worst reroll pasted them
+as literal framed rectangles on the crosses. The model was never the problem — the beat was
+asking for a portrait collage.
+
+### The fix (author-lane, fix-spec option 1 = "person-free HILL-plate establish")
+1. **Re-wired b01 to mirror the row-94 b01 that PRODUCED this build's HILL plate**:
+   `wide:True, jesus:False, ref:False, locks:["HILL"]` — no character REF portraits at all.
+   Scene/must_show/must_not_show rewritten to a TRUE distant establish (three crosses in far
+   silhouette on the crest, watchers small on the slope, city wall low behind, ONE coherent
+   photograph at one scale; explicitly forbids giant/chest-up foreground figures + collage +
+   haze seam). The sneer and every face are now covered only in the singles that follow (b02+).
+2. **Used the HILL plate directly as s01** (`cp PLACE-REF/hill.jpeg assets/s01…jpeg`) — it IS
+   a person-free realistic distant establish of this exact Calvary (rows 94/95 are the same
+   hill in sequence, so a shared establish is clean continuity). $0, zero generation.
+3. **Re-assembled** (`v2_assemble.py 95`): AUDIO REBUILD PASS `SHA256=e5ba558a…` — byte-
+   identical audio, only s01 changed, the 10 good stills + all 11 windows untouched. New mp4
+   file sha256 `9059485916c18009…`, 70.7s / 19.7 MB.
+
+### Proof (FULL-CUT GATE on the NEW mp4)
+- Frame @3.5s & @6.5s (b01) = a distant establishing wide — three crosses far on the crest,
+  watchers small in the foreground, city wall behind, correct single-photograph scale, NO
+  giant portraits / NO composite / NO haze seam, realistic, no gore. Captions bottom-band:
+  n0a white "Two criminals were crucified with Jesus…", s39 light-blue "If thou be Christ…".
+- Frame @53.5s (b09, red-letter "…to day shalt thou be with me in paradise") = Jesus's locked
+  face (cream robe, warm Middle-Eastern) turned full to the penitent thief — the desync fix
+  did NOT regress; both men face-locked.
+- `v2_prompt.py --check` PASS (11 beats). Face gate: v4 checklist PASS.
+
+### Shipped
+Reviewer card `v95`: `data-machine-reason` removed (back into Cameron's Unwatched queue),
+`data-hash`→`9059485916c1…`, `?v=9059485916c1`, "what changed" rewritten to tell Cameron the
+opening giant/scale problem was fixed. Board State NEEDS-REBUILD→BUILT. Deployed + live-
+verified. **No approval voided** (row was in Unwatched, never Approved). Touch-once, $0.
+
+---
+
+## 🛑 QC-VERIFY → RUNNER PARK — NEEDS-REBUILD (FULL-CUT GATE, 2026-08-11, Machine A `Dev`, unattended/headless) — ✅ RESOLVED ABOVE 2026-08-11
 
 **The desync fix below is CONFIRMED holding, but b01 (the opening 0–8s establishing
 wide) carries a GIANT-COMPOSITE / SCALE defect that must NOT reach Cameron. Pulled from
