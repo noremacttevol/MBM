@@ -1,3 +1,19 @@
+## 2026-08-11 (cont. 23) — Row 95 QC-VERIFY (FULL-CUT GATE): caught a GIANT-COMPOSITE opening frame before Cameron's eyes → PARKED NEEDS-REBUILD, pulled from his queue; desync fix confirmed holding — Machine A `Dev`, unattended/headless, $0.13
+
+**Commit:** `a8884d0ad` (QC.md QC-BLOCK + AUTHOR-BOARD flip + review.html card pull), claim `285a6defe`, RUNNER-LESSON `HEAD`. Session-chain verified (cont.21 = `e5a8e8ba1073`, in history). Firebase deployed + live-verified (v95 card carries `data-machine-reason` on the live page → moved to "waiting on the machine", OUT of Unwatched).
+
+Ran the FULL-CUT GATE (PROMPT-OPUS-RUNNER 6b) on the BUILT desync-fix cut of row 95 (Thief on the Cross), sitting in Cameron's Unwatched queue. Claimed the board (QC-VERIFY LIVE). Extracted one mid-window frame per beat from the rendered mp4 (11 beats + card) and viewed every one.
+
+**10 of 11 CLEAN + the cont.19 desync fix CONFIRMED HOLDING:** three-crosses geometry never flips (mocker L / Jesus C-cream / thief R), MOCKER+THIEF face-locked and consistent, rope-not-nails / no gore, cream-only-Jesus, JESUS face lock intact, eye-lines connect (b07/b09/b11), captions bottom-band, question card clean. At mp4 52.4s (b09) Jesus's face is full-frame under the red-letter "To day shalt thou be with me in paradise" — the resolved complaint did NOT regress.
+
+**BLOCKING defect — b01 (opening 0–8s establishing wide) = GIANT-COMPOSITE/SCALE:** three enormous chest-up figures cut off at the hilltop crest (haze seam) floating over a correctly-scaled miniature crowd + city — the "giant/composite" complaint class, and the FIRST frame Cameron sees. The prior runner shipped it as a "coherent 2nd take" under the old no-obvious-garbage bar; the 2026-08-10 FULL-CUT GATE (row-11 seven-bad-frames) killed that bar. b05 proves the model CAN render this wide at correct scale → it's a beat-composition problem, not a model limit.
+
+**Reroll proven unwinnable — stopped after 1 ($0.13, per COST LAW):** three attempts now fail (prior gen + prior redo + this QC-VERIFY reroll). The QC-VERIFY reroll came back WORST — the REF portraits pasted as literal framed rectangles onto the crosses. Restored s01 from the shipped mp4 so the folder stays consistent; logged the class in RUNNER-LESSONS.md.
+
+**PARKED for the AUTHOR lane (beat-text fix, runner barred):** State BUILT→NEEDS-REBUILD; QC.md carries the FIX SPEC (make b01 a TRUE distant establishing wide — person-free HILL-plate or three at genuine distance, do NOT re-add REF portraits as foreground giants), then regen ONLY b01, re-assemble (audio byte-identical `e5ba558a`, 10 good stills untouched), FULL-CUT-GATE, re-ship. **No approval voided** (row was in Unwatched, never Approved). Card pulled from his queue so the giant frame never reaches him.
+
+**Cost:** $0.13, 1 reroll (unwinnable, stopped per COST LAW). Meter $563.74→$563.87 (ceiling $588.94). A $0.13 complaint-preventer — the gate caught a bad opening frame before Cameron's eyes, exactly the row-11 failure it exists to stop.
+
 ## 2026-08-11 (cont. 22) — Row 124 Love Your Enemies (Matt 5:43-46) REALISTIC V2 SHIPPED — RESUMED a run that DIED at 9/30 assets, 30 stills 185.2s, 2 rerolls (6.7%) $3.08, FULL-CUT GATE PASS, deployed+live-verified — Machine A `Dev`, unattended/headless
 
 **Commit:** ship mp4+QC+boards `1b52a3031f52b49a9725e57f80cd17c13723d88e`; review-card + this log below. Firebase deployed + live-verified. Session-chain verified (cont.21 = `e5a8e8ba1073` in history; my resume claim `e85945836`).
