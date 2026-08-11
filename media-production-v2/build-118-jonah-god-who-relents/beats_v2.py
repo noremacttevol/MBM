@@ -81,6 +81,16 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1 AUDIO LOCK (row-69 class, audio-lane decision 2026-08-09). The V1 mp4
+# (2026-07-24 10:15, commit 5bd6b82a9) predates all 22 narration mp3s (re-recorded
+# 2026-07-28, commit 3d3e27661 "#118 narration re-recorded"): V1 audio is 44100/96425
+# old-mux AAC while the chosen ElevenLabs cast mp3s are 44100/128000. Same pacing
+# (total 278.217 vs V1 mp4 278.152, Δ0.065s) so the fix is mechanical: rebuild the
+# narration from THIS build's OWN mp3s at the extract_beats offsets. Nothing
+# re-voiced, nothing re-timed, V1 read-only. Audio lane set the identical flag for
+# rows 117/120/185/189/200.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r118-b01", "out": "s01-god-had-a-hard-errand.jpeg", "seg": "n1",
