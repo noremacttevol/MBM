@@ -6,6 +6,10 @@ Per the AUDIO-FIX prompt + LOW-NUMBER LAW, took the lowest **NEEDS-AUDIO** row o
 
 **Then row 142 "I Am the Light of the World" (John 8/9) — same STALE-V1 class, 0 stills → the "no V2 stills yet" case (prompt step 5).** Voice-ID'd all 7 segments (n0/n1/n2/n3/j1/j2/card) 44100/128k/mono = ElevenLabs new-voice, set `AUDIO_FROM_V1_SEGMENTS=True` in its `beats_v2.py` (timeline 59.41s vs stale 63.07s render, gap 3.66s). Nothing visual to ship, so flipped board NEEDS-AUDIO → **AUTHORED / Audio OK / Ready ✅**, claim cleared — the picture runner now builds the 10 stills on the fixed audio and ships the full cut. $0 / 0 Gemini / 0 re-voice, meter untouched.
 
+**Then rows 143 (i-am-the-door), 144 (resurrection-and-the-life), 145 (way-truth-life) — all the same STALE-V1 / 0-stills class.** Each: ffprobe-verified all segments 44100/128k/mono = ElevenLabs new-voice (no re-voice), `AUDIO_FROM_V1_SEGMENTS=True` added to `beats_v2.py` (gaps 3.00s / 4.81s / 3.78s), ast-parse-clean, board NEEDS-AUDIO → **AUTHORED / Audio OK / Ready ✅**, QC.md noted. Handed to the picture runner. $0 / 0 Gemini / 0 re-voice each.
+
+**Remaining NEEDS-AUDIO after this session:** row 146 (vine-and-branches — a LIVE re-voice, "abideth" mispronounced in seg j1b, needs ElevenLabs Chris, not a flag flip) and row 147 (joseph-forgives — 16 stills already built, blocked by the newer-mp3 tripwire, a full re-assemble + ship). Left for the next audio-lane turn per the stop-when-context-low rule.
+
 ---
 
 ## 2026-08-11 (cont. 38) — Row 60 "The Gerasene Demoniac" (Mark 5) QC-VERIFY (FULL-CUT GATE 6b) on the BUILT cut in Cameron's Unwatched queue — 39/39 beats + card ALL CLEAN, resolved "2:39 Jesus eyes" complaint did NOT regress, NO re-cut — $0 / 0 gens / 0 rerolls / audio untouched — Machine A `Dev`, unattended/headless

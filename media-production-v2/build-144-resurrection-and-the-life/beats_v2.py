@@ -37,6 +37,13 @@ CHANGING CONDITION (kept OUT of the locks): the stone — closed,
 then rolled open at b10; the light — grey, then broken-through.
 """
 
+# STALE-V1 fix (audio lane, 2026-08-11): rebuild the audio track from the V1
+# segment mp3s at the extract_beats offsets instead of copying the stale V1
+# mp4's AAC (timeline 53.18s vs stale 48.37s render, gap 4.81s, past the 0.75s guard). Segments verified 44100/128k/mono
+# = ElevenLabs new voice (Brian/Chris), not old edge-tts. Re-voices nothing
+# ($0). Picture runner builds the stills on this fixed audio.
+AUDIO_FROM_V1_SEGMENTS = True
+
 # LOCKS: one entry per recurring person and per setting. Setting locks must
 # NEVER name a character. Only Jesus wears cream; the shared JESUS lock and
 # REF come from v2_prompt.py via the jesus/ref flags. MARTHA, LAZARUS and
