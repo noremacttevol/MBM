@@ -328,3 +328,63 @@ may list them as places — do not promote people-plates).
   changes the composition and can spawn new scene defects — grey-aging, wrong
   clothing, even collage panels). Use `rough_ref` = the current frame + a tight
   face crop: the pipeline keeps the approved blocking and only re-renders identity.
+
+## C-FIX #4 — 2026-08-11 (Machine A `Dev`, Opus runner) — 4th RE-OPEN, THE REAL ROOT
+
+**COMPLAINT LEDGER (Cameron, against the live cut `accc393d327d`):**
+> "3rd time complaining about the same problems. The demoniac face kept changing
+> shaved, to not shaved. Beard to no beard to old man and his looks kept flipping.
+> 0:50 the demoniac looks normal but Jesus doesnt. 1:02 picture he has no beard
+> again. 1:23 no beard same with 1:29. Just redo every picture every single one is
+> low quality and none match each other."
+
+Traced each second to the rendered frame + confirmed the complaint on the LIVE mp4
+before spending: 0:50=b10, 1:02=b12, 1:23=b15, 1:29=b16. Cameron was RIGHT — the
+beard still flipped full→thin→near-shaven across the arc and Jesus read gaunt at 0:50.
+
+- **THE REAL ROOT (why 3 fixes failed):** BOTH C-FIX#3 face refs — `freedman-face.jpeg`
+  AND `freedman-ref-b.jpeg` — were cut from **s17**, and s17 shows the man with a
+  THIN, light, near-shaven beard. Every identity-edit was therefore conforming faces
+  to a *thin-beard* anchor; the full beard could only come from the TEXT lock, which
+  won on some frames and lost on others → the exact flip Cameron kept seeing. The
+  method (tight crop + edit) was right all along; **the anchor was thin-bearded.**
+- **FIX (touch-once, Cameron-ordered full redo):**
+  1. Two NEW anchors cut from FULL-DARK-BEARD frames — `freedman-canon-34.jpeg`
+     (s10, calm 3/4) + `freedman-canon-front.jpeg` (s08, frontal) — REPLACE the thin
+     s17 refs in `REFS["FREEDMAN"]`.
+  2. Beard lock rewritten to an ABSOLUTE clause: full dark beard ALWAYS PRESENT in
+     every shot, dense over the whole jaw/chin/lip, never thinning to stubble/bare
+     even when the head is thrown back / bowed / sweating / convulsing.
+  3. `ROUGH = {}` — the drifted frames are **fresh-generated** (no rough_ref), so the
+     beard is BUILT from the full-beard anchor instead of inherited from a thin-beard
+     draft (a rough_ref off a thin-beard frame is exactly how it stayed thin 3×).
+  4. b16 root-caused: it had NO `SYNAGOGUE` lock, so the model invented an OUTDOOR
+     courtyard with different helpers. Added `SYNAGOGUE` + interior scene text + the
+     same russet/olive helpers as b15.
+- **Regenerated (9):** b06, b10 (Jesus gaunt→canonical warm), b11, b12, b15, b16
+  (outdoor→synagogue), b17 (grey-old-man→dark full beard), b18, b19. **Kept
+  byte-identical (real full beard already):** b05, b07, b08, b09, b14, b20–b24.
+- **FULL-CUT GATE on the RENDERED mp4:** every one of the 4 flagged seconds now shows
+  ONE dark-haired, FULL-dark-bearded man + canonical Jesus; b16 is indoors; question
+  card clean (no box glyphs); captions bottom-band, scripture-blue/narrator-white,
+  in sync. Beard is full and consistent across ALL 24 beats — the "none match" and
+  "beard to no beard to old man" complaint is resolved.
+- **Cost this run $1.21** (9 fresh regens, **0 rerolls / 0%** — every frame passed
+  first generation); meter $589.20 → $590.40. Well under the $6.10 average and the
+  15% reroll budget.
+- Assemble: **AUDIO LOCK PASS SHA256=1005cde1…** (V1 narration byte-identical —
+  voices/timing untouched), 156.6 s, 19.8 MB.
+
+### RUNNER-LESSONS candidate (C-FIX #4)
+- A face-lock loop that survives 3 fixes almost always means the ANCHOR itself is
+  wrong, not the method. If a character's beard/hair keeps drifting, OPEN the ref
+  crops and check the trait you keep losing IS ACTUALLY PRESENT in them — here both
+  "face" refs were cut from the one frame where the beard was thinnest, so every edit
+  reinforced thin. Cut the anchor from a frame that shows the canonical trait.
+- A rough_ref (identity-edit) PRESERVES the draft's version of the drifting trait. To
+  ADD a trait the drafts lack (full beard where they're shaven), DROP the rough_ref
+  and fresh-generate against a correct anchor — the edit path can't grow a beard that
+  isn't in the draft.
+- A deliverance/action beat with no PLACE lock will wander outside the story's room.
+  b16 (locks=["FREEDMAN"] only) drifted to an outdoor courtyard; adding SYNAGOGUE
+  pinned it back indoors.

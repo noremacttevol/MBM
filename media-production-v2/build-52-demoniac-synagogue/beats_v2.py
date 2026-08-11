@@ -56,8 +56,13 @@ LOCKS = {
         "gone sallow, unkempt MID-LENGTH DARK BROWN-BLACK hair (dishevelled "
         "when afflicted, the SAME dark hair when freed — never grey, never "
         "white-streaked, never bald or thinning, never short-cropped or "
-        "shaved), a full ragged DARK brown-black beard (never clean-shaven, "
-        "never stubble-only, never grey), deep-set dark brown eyes. "
+        "shaved), a full ragged DARK brown-black beard, "
+        "ALWAYS PRESENT AND FULL in every single shot — dense enough to "
+        "cover the whole jaw, chin and upper lip, the SAME thick dark beard "
+        "whether his head is thrown back, bowed, sweating, convulsing or at "
+        "rest, NEVER thinning to light stubble or bare skin, never clean-"
+        "shaven, never stubble-only, never grey, never patchy — "
+        "deep-set dark brown eyes. "
         "He wears a plain worn DARK GREY-BROWN wool tunic with "
         "a frayed hem and a simple rope belt — an ordinary poor "
         "worshipper's clothing, plainly darker than the sunlit stone, "
@@ -101,34 +106,33 @@ REF = True
 # shaved, to not shaved. Beard to no beard to old man and his looks kept flipping.
 # 0:50 the demoniac looks normal but Jesus doesnt. 1:02 no beard again. 1:23 no
 # beard same with 1:29. Just redo every picture ... none match each other."
-# ROOT CAUSE of the loop: freedman-ref-a (s18) and -c (s11) are WIDE SHOTS in which
-# the man's face is ~30px — useless as a face lock. Only -b (s17) carried real face
-# detail, so every gen got weak/averaged face signal and the beard/hair drifted.
-# FIX: one razor-sharp TIGHT FACE CROP off s17 (freedman-face.jpeg) as the primary
-# anchor + the s17 full frame; the two wide shots are DROPPED. Every drifting
-# FREEDMAN frame is regenerated with rough_ref = its own composition so identity
-# conforms to the crop WITHOUT changing the (good) blocking. ONE gaunt man ~40-45,
+# C-FIX #4 (2026-08-11) — 4th RE-OPEN. Cameron: "just redo every picture every
+# single one is low quality and none match each other" (0:50 Jesus off, 1:02/1:23/
+# 1:29 beard gone). THE REAL ROOT of the whole loop: BOTH C-FIX#3 refs
+# (freedman-face.jpeg AND freedman-ref-b.jpeg) were cut from s17 — and s17 shows the
+# man with a THIN, light, near-shaven beard. So every identity-edit was conforming
+# faces to a THIN-beard anchor; the beard could only come from the text lock, which
+# won on some frames (s05/s07/s08 full) and lost on others (s06/s12/s16/s17 shaven)
+# → the exact flip Cameron kept seeing. The method (tight crop + edit) was right; the
+# ANCHOR was wrong. FIX: two NEW anchors cut from FULL-DARK-BEARD frames — s10 (calm
+# 3/4) + s08 (frontal) — replace the thin s17 refs. The drifted frames are FRESH-
+# generated (rough_ref DROPPED = ROUGH now empty) so the beard is BUILT from the
+# full-beard anchor, not inherited from a thin-beard draft. ONE gaunt man ~40-45,
 # MID-LENGTH DARK BROWN-BLACK wavy hair, FULL DARK beard — NEVER grey, bald,
-# short-cropped or clean-shaven.
+# short-cropped, stubble-only or clean-shaven, in EVERY shot.
 REFS = {
     "FREEDMAN": [
-        "CAST-REF-V2/freedman-face.jpeg",
-        "CAST-REF-V2/freedman-ref-b.jpeg",
+        "CAST-REF-V2/freedman-canon-34.jpeg",     # s10 crop — calm 3/4, FULL dark beard
+        "CAST-REF-V2/freedman-canon-front.jpeg",  # s08 crop — frontal, FULL dark beard
     ],
 }
-# Composition-preserving edit sources for the C-FIX #3 regen batch (identity comes
-# from the FREEDMAN crop above, blocking from these; see rough-src/).
-ROUGH = {
-    "v2-r052-b06": "rough-src/s06-the-nearness-stirred-it.jpeg",
-    "v2-r052-b07": "rough-src/s07-he-rose-up.jpeg",
-    "v2-r052-b08": "rough-src/s08-not-his-own-voice.jpeg",
-    "v2-r052-b09": "rough-src/s09-let-us-alone.jpeg",
-    "v2-r052-b10": "rough-src/s10-i-know-thee.jpeg",
-    "v2-r052-b11": "rough-src/s11-the-room-frozen.jpeg",
-    "v2-r052-b12": "rough-src/s12-the-darkness-said-it-first.jpeg",
-    "v2-r052-b15": "rough-src/s15-it-tore-him-and-left.jpeg",
-    "v2-r052-b16": "rough-src/s16-it-had-to-go.jpeg",
-}
+# C-FIX #4: NO composition-preserving edit for the regen batch. A rough_ref anchors
+# the new pixels to the OLD (thin-beard / outdoor-drift) draft, which is exactly how
+# the beard stayed thin through three fixes. The drifted frames are generated fresh
+# against the full-beard anchor + SYNAGOGUE plate so the beard renders full and the
+# room stays the synagogue. (Keeper frames with a real full beard — b05/b07/b08/b09/
+# b14/b19 — are NOT in the --only list and stay byte-identical.)
+ROUGH = {}
 
 BEATS = [
     {
@@ -422,19 +426,24 @@ BEATS = [
     {
         "id": "v2-r052-b16", "out": "s16-it-had-to-go.jpeg", "seg": "n5 p5",
         "window": "87.48-92.25", "wide": False, "jesus": False, "ref": False,
-        "locks": ["FREEDMAN"],
+        "locks": ["FREEDMAN", "SYNAGOGUE"],
         "narration": ("The thing that had held him for so long simply had "
                       "to go."),
         "must_show": "the immediate after — the man slack and quiet in the helpers' grip, the storm audibly over.",
-        "must_not_show": "not unconscious, not lifeless — emptied and breathing, eyes just reopening.",
+        "must_not_show": "not unconscious, not lifeless — emptied and breathing, eyes just reopening. NOT outdoors — this is INSIDE the synagogue hall, the same two helpers as the moment before.",
         "scene": (
-            "Held gently under the arms by the two worshippers, the gaunt "
-            "man hangs slack and utterly quiet, chest rising and falling "
-            "in deep slow breaths, sweat-soaked hair against his brow — "
-            "and his eyes are just coming open, unfocused and washed, "
-            "like a man surfacing from deep water into morning light. "
-            "The helpers' faces above him are wide with cautious wonder. "
-            "Exactly three people are in the frame; each has one head."
+            "Inside the same stone synagogue hall, on its rush mats under "
+            "the high windows, the SAME two broad-shouldered worshippers in "
+            "dark russet and olive wool who caught him hold the gaunt man "
+            "gently under the arms; he hangs slack and utterly quiet, chest "
+            "rising and falling in deep slow breaths, sweat-soaked hair "
+            "against his brow — and his eyes are just coming open, "
+            "unfocused and washed, like a man surfacing from deep water "
+            "into morning light. The helpers' faces above him are wide with "
+            "cautious wonder, the seated congregation still around them. "
+            "Exactly three people are the focus in the frame; each has two "
+            "arms, two hands and one head. This is indoors, not a courtyard "
+            "or street — no outdoor walls, no doorway to daylight, no torch."
         ),
     },
     {
