@@ -65,11 +65,30 @@ cd "$REPO"
 # OAuth-fail log is stale and the breaker clears on the very next tick instead
 # of holding the full 25-min window (Cameron, 2026-08-11: "im tired of this time shit").
 CRED="$HOME/.claude/.credentials.json"
+BANNER_MARK="$V2/.login-banner-live"
 if find "$LOGDIR" -maxdepth 1 -name '*.log' -mmin -25 -newer "$CRED" -print0 2>/dev/null \
    | xargs -0 -r grep -l 'OAuth session expired' 2>/dev/null | grep -q .; then
   MSG="LOGIN NEEDED: the Claude CLI login expired — every session dies at auth. Cameron: open a terminal, run 'claude', sign in when the browser opens. The loop resumes itself after."
   if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
+  # Make the stall VISIBLE where Cameron already looks (2026-08-11: the silent
+  # login-death cost 2 days). Inject a red banner into the LIVE reviewer page
+  # (deploy-only; local file restored so git stays clean). Firebase auth is
+  # separate from Claude auth, so this deploy works even while Claude is dead.
+  if [ "$DRY" -eq 0 ] && [ ! -e "$BANNER_MARK" ]; then
+    python3 - <<'PYB' 2>/dev/null && (cd "$REPO" && firebase deploy --only hosting >/dev/null 2>&1) && touch "$BANNER_MARK"
+html=open('site/review.html').read()
+b='<div style="position:sticky;top:0;z-index:99;background:#b91c1c;color:#fff;padding:14px 18px;font-size:17px;font-weight:700;text-align:center">🔴 THE BUILD MACHINE IS STOPPED — it needs you: open a terminal, type claude, press Enter, sign in when the browser opens. Videos resume by themselves after.</div>'
+i=html.find('<body')
+i=html.find('>',i)+1
+open('site/review.html','w').write(html[:i]+b+html[i:])
+PYB
+    (cd "$REPO" && git checkout -- site/review.html 2>/dev/null || true)
+  fi
   exit 0
+fi
+# auth is healthy — if the stall banner is still on the live page, clear it
+if [ "$DRY" -eq 0 ] && [ -e "$BANNER_MARK" ]; then
+  (cd "$REPO" && firebase deploy --only hosting >/dev/null 2>&1) && rm -f "$BANNER_MARK"
 fi
 
 # --- billing state (paid jobs blocked while the Gemini prepayment is dry) ----
