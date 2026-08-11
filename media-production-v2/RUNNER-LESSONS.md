@@ -315,6 +315,19 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   Judean scene wants dark hair on everyone. Check kids in domestic/crowd frames,
   not just the locked cast. One reroll usually darkens them; a slightly-light
   child is FIX-WAVE, not garbage.
+  - **A PROMINENT foreground ADULT can default blond too — not just background
+    children (2026-08-11, row 52 s24 closing going-out).** An unpinned incidental
+    figure (`jesus:False ref:False locks:[]`) who is the MAIN subject of a frame —
+    here the traveller telling a family the news in the final picture — rendered
+    fully blond with a ginger beard, the only light-haired person in the video. On
+    the closing/epilogue frame this is a real complaint risk (it's the last thing
+    Cameron sees), so it BLOCKS under the FULL-CUT GATE, not FIX-WAVE. GOTCHA: a
+    reroll of a going-out landscape can trade the blond hair for a MODERN VEHICLE
+    (car/SUV) on the road at the distant village (row-71 going-out class) — zoom
+    the far village/road at full-res on every reroll. Row 52 took 2 rerolls (take 1
+    fixed hair but added a car; take 2 clean: dark-haired traveller+family+donkey,
+    dirt road, vehicle-free village). Runner may NOT add a dark-hair clause to the
+    beat text (author-lane); reroll within budget, else park.
 - **Headless/extra-limbed figures** (b16 headless at b07): count heads, arms,
   legs at full resolution, especially in crowds.
 - **Beards appear/disappear/recolor between frames** (rubric lesson 13 — rows
