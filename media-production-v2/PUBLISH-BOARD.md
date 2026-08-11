@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T15:16:08_
+_Last sync: 2026-08-11T15:59:30_
 
 ## Summary
 
-- **APPROVED — not published** — 32 row(s)
+- **APPROVED — not published** — 33 row(s)
 - **BUILDING** — 81 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 43 row(s)
+- **ON REVIEWER — awaiting Cameron** — 42 row(s)
 
 ## The rows
 
@@ -37,7 +37,7 @@ _Last sync: 2026-08-11T15:16:08_
 | 14 | The Ten Lepers | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 15 | The Centurion's Servant | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 16 | Mary and Martha | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 17 | Lazarus | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 17 | Lazarus | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 18 | The Road to Emmaus | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 19 | Breakfast on the Shore | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 20 | The Good Samaritan | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
