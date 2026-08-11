@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T13:05:06_
+_Last sync: 2026-08-11T13:47:55_
 
 ## Summary
 
 - **APPROVED — not published** — 32 row(s)
-- **BUILDING** — 86 row(s)
+- **BUILDING** — 85 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 38 row(s)
+- **ON REVIEWER — awaiting Cameron** — 39 row(s)
 
 ## The rows
 
@@ -149,7 +149,7 @@ _Last sync: 2026-08-11T13:05:06_
 | 126 | By Their Fruits | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 127 | The Strait Gate | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 128 | Heart Far From Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 129 | Nazareth Only a Few | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 129 | Nazareth Only a Few | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 130 | What Manner of Spirit | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 131 | Scribe Near the Kingdom | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 132 | Forbid Him Not | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
