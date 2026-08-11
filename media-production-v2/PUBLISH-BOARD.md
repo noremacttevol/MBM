@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T18:55:43_
+_Last sync: 2026-08-11T19:32:43_
 
 ## Summary
 
-- **APPROVED — not published** — 34 row(s)
+- **APPROVED — not published** — 35 row(s)
 - **BUILDING** — 77 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 45 row(s)
+- **ON REVIEWER — awaiting Cameron** — 44 row(s)
 
 ## The rows
 
@@ -81,13 +81,13 @@ _Last sync: 2026-08-11T18:55:43_
 | 58 | Feeding the Five Thousand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 59 | Feeding the Four Thousand | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 60 | The Gerasene Demoniac | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 61 | The Syrophoenician Woman | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 61 | The Syrophoenician Woman | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 62 | Ephphatha: the Deaf Man | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 63 | The Man Born Blind | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 64 | The Pool of Bethesda | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 65 | Help Mine Unbelief | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 66 | Malchus Ear | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 67 | The Transfiguration | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 66 | Malchus Ear | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 67 | The Transfiguration | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 69 | Baptism of Jesus | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 70 | The Temptations | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
