@@ -21,6 +21,27 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   segment with word-exact whisper transcription (small.en, beam 5) — all words
   heard separately, no fusions ("Amhi") — before assembly.
 
+- **DETERMINE THE SHIPPED AUDIO ENGINE BY DURATION, NOT ROLLOFF — and remember a
+  row with `AUDIO_FROM_V1_SEGMENTS=False` SHIPS THE V1 mp4's AUDIO, which may be
+  ElevenLabs even when the V2 dir is edge-tts (row 27, 2026-08-11).** Row 27 sat
+  "ear-blocked" through EIGHT $0 audio passes that all reasoned about it as edge-tts
+  and found it clean. They analysed the wrong engine. The v2-dir `audio/*.mp3` are a
+  red herring; with `AUDIO_FROM_V1_SEGMENTS=False` the assembler COPIES the V1 build's
+  finished mp4 audio, and the V1 build here carried `mbm_eleven.py` + `.audio-eleven-done`
+  = the shipped voices are ElevenLabs (Brian/Chris/Roger), NOT the edge-tts Andrew/Eric/
+  Steffan in mbm_speakers. DECIDE the engine acoustically the RIGHT way: render the
+  segment's exact text via edge-tts (`make_narration` path) and compare DURATION —
+  edge-tts -20% is deterministic and much SLOWER (row 27 n1: shipped 6.30s vs fresh
+  edge-tts 9.38s → ElevenLabs). The spectral-rolloff test is USELESS here: ElevenLabs
+  mp3_44100_128 ALSO rolls off ~12kHz, so "no energy >16kHz" does NOT prove edge-tts.
+  To re-voice a segment on such a row you MUST use ElevenLabs `render_segment` (parity)
+  — edge-tts would swap in the wrong voice. KEY GOTCHA: the `elevenlabs*KEY*.txt` file
+  now holds MULTIPLE labelled keys, so `mbm_eleven._key()` returns garbage; extract
+  `re.search(r'sk_[A-Za-z0-9]+', raw)` and pass `key=` explicitly. Also: VIEW a
+  spectrogram (ffmpeg showspectrumpic) don't just compute numbers — a rendered
+  spectrogram is a real "listen" a headless agent CAN do and it catches glitches/
+  dropouts/wrong-voice segments the numeric passes miss.
+
 - **SERVED-BYTES VERIFICATION (Cameron 2026-08-11, row 17: "17 wasent fixed" —
   he was right): a ship is NOT live until the bytes the reviewer serves MATCH
   your fixed mp4.** What happened: a `git add` earlier in the chain died on

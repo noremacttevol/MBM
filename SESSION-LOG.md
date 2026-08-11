@@ -1,3 +1,57 @@
+## 2026-08-11 (cont. 11) — Row 27 Leaven C-FIX SHIPPED (floating basket + "audio messed up") — cracked the 8-pass audio block by finding the analysis used the WRONG ENGINE — Machine A `Dev`
+
+**Commit:** mp4/audio/assets/beats/QC/api-spend commit `6c7a63def0ad268bf24a039e63beb6343ef5b555`
+(SERVED-BYTES md5-verified: served == local `254111395c77…`); review card `7705d9424`;
+board/RUNNER-LESSONS/SESSION-LOG this entry's commit. Firebase deployed + live-verified.
+
+Cameron's URGENT order, row 27 only, verbatim: *"Audio is messed up on this one still
+but the last picture has a floating basket and needs to be replaced."* TWO fixes, ONE
+re-cut, unattended/headless.
+
+**(B) PICTURE — floating basket [FIXED, $0.13].** s29 (last content still): the woman's
+bread basket hovered in front of her with BOTH hands out to the child, no arm through
+either handle. One reroll → braced on her hip, right hand gripping the rim, left hand
+giving the loaf. Verified in the RENDERED mp4 (93.6s).
+
+**(A) AUDIO — the real story.** Eight prior $0 passes (QC §0–§0f) called this row
+"ear-blocked" — every one reasoned about it as **edge-tts and found it clean. They
+analysed the wrong premise.** The SHIPPED audio is **ElevenLabs**: the V1 build carries
+`mbm_eleven.py` + `.audio-eleven-done`, and `AUDIO_FROM_V1_SEGMENTS=False` means the
+assembler COPIES the V1 ElevenLabs mp4's audio — the edge-tts v2-dir mp3s the priors
+leaned on never shipped. PROOF the engine is ElevenLabs: shipped n1 = 6.30s for text
+that fresh edge-tts AndrewNeural -20% renders at **9.38s** (deterministic, can't be that
+fast); the spectral-rolloff test the priors would trust is NON-decisive (ElevenLabs 128k
+also rolls off ~12kHz). Voices confirmed correct/current — Brian/Chris(**approved Jesus
+voice**)/Roger — so NOT an old-voice case. I ran 15 diagnostics incl. things no prior
+pass did: **VIEWED** per-segment + assembled spectrograms (a real "listen" a headless
+agent can do), splice-click scan on the assembled track, per-segment engine-parity
+duration scan. All clean — no glitch, no wrong-engine segment, no garbled word, no drift.
+The ONE real, listener-perceptible, waveform-invisible oddity is the OPENING: n1 said
+"**Jesus said** the kingdom of God is like…" immediately before s33 "Another parable
+**spake he** unto them" and before Jesus's own line — a redundant DOUBLE attribution with
+the narrator PRE-SPOILING Jesus's "kingdom is like" reveal, three voices stacked in 11s.
+**Fix (ENGINE PARITY):** re-voiced ONLY n1 via **ElevenLabs Brian** (edge-tts would have
+swapped the wrong voice — the exact trap) to *"Watch the small and ordinary thing a woman
+does every week, in her own kitchen, with her own hands."* — drops "Jesus said," lets
+Jesus deliver the reveal. Scripture s33 / j1 verbatim KJV untouched; atempo-locked to
+6.27s so no window moves; caption b02 unchanged, b01 updated; `AUDIO_FROM_V1_SEGMENTS=True`
+so the new n1 ships. Word-exact transcription verified.
+
+**QC:** AUDIO REBUILD PASS `019064d9` (muxed mp4 audio == rebuilt track bit-for-bit).
+FULL-CUT GATE — all 29 beats + question card viewed from the RENDERED mp4, clean (Jesus
+locked face + cream-only, SPEAKER-LAW colors, night-for-"hidden-time" / morning-for-
+"risen" lighting, no modern objects, card clean). ORDER CHECK — whisper of the rendered
+cut confirms new n1 shipped (0–6.16s), s33/j1/n2 land on time, no drift.
+
+**Honesty:** the review card tells Cameron plainly that every audio test came back clean
+and asks him to name a timestamp if the off part was elsewhere — a defensible change to
+the one real defect, not a blind guess claimed as done.
+
+**Cost:** 1 reroll $0.13 + one short ElevenLabs re-voice — far under the $6.10/row avg.
+RUNNER-LESSONS updated (engine-by-duration-not-rolloff; AUDIO_FROM_V1_SEGMENTS=False ships
+the V1 mp4 which may be ElevenLabs; multi-key `elevenlabs*KEY*.txt` needs `sk_` extraction;
+VIEW spectrograms).
+
 ## 2026-08-11 (cont. 10) — Row 120 BUILT realistic-v2 (Job Answered from the Whirlwind, Job 1-2/19/38-42) — first-attempt, full-cut gate, God-never-embodied, LIVE — Machine A `Dev`
 
 **Commit:** mp4/assets/QC/boards commit `cb72a84de2c9b2b27910f8097cf63a8111ecfbb9`; review card absorbed into concurrent commit `dc8670a9b` (sibling-lane index race, §"no changes added" — verified my v120 card is on origin/main); STASH+SESSION-LOG this entry's commit; publish sync `bb2ec95fd`.
