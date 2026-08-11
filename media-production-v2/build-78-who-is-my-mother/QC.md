@@ -1,5 +1,37 @@
 # QC / RUNNER HANDOFF — build-78-who-is-my-mother (Mark 3:31-35)
 
+## ✅ QC-VERIFY — FULL-CUT GATE (§6b) BEFORE CAMERON'S EYES — Machine A `Dev`, 2026-08-11 — CLEAN, no re-cut
+
+Row 78 was BUILT and sitting in Cameron's Unwatched queue. Per PROMPT-OPUS-RUNNER §6b
+(born from row 11 reaching him with 7 bad frames), ran the full-cut gate BEFORE he
+watched it — a VERIFY pass, no fresh build. Extracted ONE frame per beat from the
+RENDERED mp4 at each c000–c011 segment MIDPOINT (real segment durations, not the raw
+beat windows) + the closing card + a scripture-caption frame (16.5s). Viewed all 14
+against the defect checklist + RUNNER-LESSONS + this row's laws.
+
+**Frame-by-frame verdict (all CLEAN):**
+- s01 (packed house): Jesus cream-only, olive skin/dark wavy hair/full beard, only-Jesus-cream holds; realistic; caption white narrator. ✓
+- s02 (family without): bright-exterior street (light law), mother-Mary in blue mantle, dignified/loving (NOT resentful), brothers distinct men; no Jesus/no cream. ✓
+- s32 scripture (16.5s): caption **blue** "Behold, thy mother and thy brethren without seek for thee." — SPEAKER-LAW color correct. ✓
+- s04 (relay close-up): message-relay reads correctly (not romantic); Jesus reads slightly light-eyed — KNOWN baked-in JESUS-MASTER-REF trait, RUNNER-LESSONS do-not-reroll, whole-wave item not a per-row defect. ✓
+- s05/s07 (interior): Jesus cream-only, identity consistent, white narrator captions. ✓
+- s06/s09/s10 (Jesus KJV): captions **red** (SPEAKER-LAW), natural gestures. ✓
+- s08 (the ring): mother-and-child present in the circle as the beat requires ("mothers, a child"). ✓
+- s10 (whosoever): mother-Mary at the doorway, hand on chest, serene/patient — never resentful; geometry (doorway = meeting point) held. ✓
+- s11 (exterior): bright-exterior street, mother warm/dignified, brothers distinct; narrator white paraphrase caption. ✓
+- s12 (opening the circle): interior, Jesus cream, ring incl. mother+child; white narrator caption. ✓
+- card: cream card, serif brown, centered "He drew the family line around whoever would come. That door is open to you too." — no tofu/square glyphs. ✓
+
+Inside/outside geometry + light law held (dim warm interior vs hard-bright exterior, doorway the only meeting point). Cream-only-Jesus holds EVERY frame. No modern object, no lens-stare, anatomy/scale/beards consistent, fully realistic (Law 14 PASS, zero cartoon). **No open Cameron complaint on this row** (COMPLAINT LEDGER: none open — QC below) so nothing to regress.
+
+**Served-bytes proof:** live card v78 data-hash `573fb16a…`; served mp4 md5
+`98920bc6ff5ca5ddfa0f17815893b147` == local md5 (HTTP 200). Cameron watches exactly
+what was QC'd. Board row 78 Claim: QC-VERIFY LIVE → **QC-OK 2026-08-11**.
+**$0** (ffmpeg/ffprobe/curl only), 0 pictures touched, 0 rerolls. NO re-cut on a clean row.
+
+---
+
+
 ## ✅ AUDIO FIX DONE — AUDIO-FIX session, Machine A, 2026-08-06 ($0)
 
 **STALE-V1 audio-lock CLEARED.** Added `AUDIO_FROM_V1_SEGMENTS = True` to
