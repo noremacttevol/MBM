@@ -1,3 +1,15 @@
+## 2026-08-11 (cont. 21) — Row 93 QC-VERIFY caught + fixed a MODERN BICYCLE carved into the judgment-seat throne BEFORE Cameron's eyes reached it; localized edit, byte-identical audio, re-shipped + live-verified — Machine A `Dev`, unattended/headless, $1.07
+
+**Commit:** `e5a8e8ba1073` (fixed mp4 + PLACE-WIRING + QC.md + AUTHOR-BOARD), review-card/SESSION-LOG below. Session-chain verified (cont.20 = `41c662f84`-batch / top commit `df75c66ce` in history). Firebase deployed + live-verified.
+
+Ran PROMPT-OPUS-RUNNER FULL-CUT GATE (6b) on the BUILT row 93 (Barabbas Goes Free), which was sitting in Cameron's Unwatched queue with "no open complaint." Claimed the board (QC-VERIFY→QC-FIX). Extracted one frame per beat from the rendered mp4 and viewed all 15.
+
+**DEFECT (would have drawn a complaint):** the pale-stone judgment seat carried a carved emblem on its backrest that reads unmistakably as a **modern bicycle** (two wheels + frame + handlebars). It was baked into the b01 anchor → the promoted PAVEMENT plate → **all 7 seat-wides** (b01/b04/b06/b07/b08/b10/b15). Exactly the "seven bad frames reached him on row 11" failure this gate exists to stop.
+
+**FIX (touch-once, root-cause):** a `gemini-3-pro-image` localized edit pass on the 7 seat-wides — preserve everything (faces, crowd, poses, light, framing), replace ONLY the bicycle carving with plain smooth stone. s07 needed one retry. Re-promoted the PAVEMENT plate from the fixed s01 so the warehouse can't re-propagate it. Re-assembled → **AUDIO REBUILD PASS 6df005ef (byte-identical** — no re-voice, timing untouched). Ground-truth re-verified on the NEW mp4: every throne now plain stone; only-Jesus-cream, JESUS face lock, PILATE/BARABBAS consistency and the substitution thesis all survived the edit. The other 14 beats were already clean (no regressed complaint — row had none open).
+
+**Cost:** 8 edits (7 + 1 retry) = **$1.07**, meter $557.31→$558.38 (ceiling $584). Above the 15% numeric reroll budget but it is ONE plate-propagated defect fixed in ONE pass — the correct root-cause fix. Next: back to the FULL-CUT GATE queue on other BUILT-but-unreviewed rows.
+
 ## 2026-08-11 (cont. 20) — AUDIO-FIX lane cleared EVERY NEEDS-AUDIO row (0 remaining): 118 built+shipped+live, 125/126/127/128/130/135/136/138/139 authored→Ready, silent-card tooling fix — Machine A `Dev`, unattended/headless, $0
 
 **Commit:** batch pushed across `10282aa9c` (118 mp4), `82949c4d5` (118 card/board), `41c662f84` (7-row flag batch), `a66905ec0` (128 + tooling fix + RUNNER-LESSON); this note committed below. Session-chain verified (cont.19 = `96e186bad`, in history). **$0 — audio only, no Gemini, ZERO ElevenLabs segments re-voiced** (every fix was a STALE-V1 rebuild from mp3s already on disk).
