@@ -1,3 +1,21 @@
+## 2026-08-11 (cont. 13) — Row 89 QC-VERIFY (FULL-CUT GATE) → QC-OK: Last Supper is CLEAN, no re-cut — verified before Cameron's eyes — Machine A `Dev`, unattended/headless
+
+**Commit:** board + RUNNER-LESSONS + this SESSION-LOG in the QC-OK commit below. $0 spent, 0 rerolls (no image gen). No bytes changed — the live 2026-08-07 cut IS the verified cut (nothing to redeploy).
+
+Row 89 (build-89-last-supper, Luke 22:14-20) was BUILT (A-auto 2026-08-07, 16 stills 94.1s, 0 open complaint) and sitting in Cameron's Unwatched queue. Per the standing order + PROMPT-OPUS-RUNNER §6b FULL-CUT GATE, verified it BEFORE his eyes reached it (row 11 "quality is going down"; row 88 last session caught joy-beat blood).
+
+**Method:** extracted ONE frame per beat at its mid-window (from beats_v2.py windows) out of the RENDERED mp4 — 16 content frames + the closing card — and viewed EVERY one against the defect checklist + all of RUNNER-LESSONS + the row's complaint state (none open). Cross-checked Jesus's eyes at zoom (s07 vs s13) and the s15 hymn-wide standing row at zoom (cream/count).
+
+**Result — 16/16 + card CLEAN, no gate-blocking defect:**
+- Jesus face-locked / cream-only / tan / dark shoulder hair / full dark beard / no-halo in EVERY appearance; no Jesus double; no 2nd full-cream figure (s15 disciples wear ecru tunics with contrasting brown/grey/green mantles+sashes — Jesus set apart by a full cream robe+mantle, no sash).
+- Eyes are the SYSTEMIC baked hazel/green V2 ref — s13's paler upward-gaze look is the same iris washed by the overhead-lamp catchlight (== s07 at zoom), NOT a blue-eyed drift and NOT glowing; per lessons this is un-rerollable/systemic, do not chase.
+- Realistic photography throughout — soft-render wides (s05/06/09/10/12/15) are the SAME realistic family as the approved ROOM plate, NOT a cartoon outlier (Law-14 MIX clean); no rotation; anatomy (heads/arms/hands) clean; NO blood/gore; night lighting matches (window stars + dark town); captions white-narrator / red-Jesus-words bottom-band; sacrament frames (bread-break s06, body s07, cup s10/s11, hands insert s08) read correctly; closing card renders clean (no glyph squares).
+- No open complaint; audio byte-identical (AUDIO REBUILD PASS 29a5b1d0).
+
+**ONE imperfection, correctly NOT re-cut:** period-ambiguous forks baked into the ROOM plate propagate to the ROOM wides. They are background/non-subject, small (eye goes to Jesus + bread/cup), below the Cameron glance-read bar, and UN-rerollable — a `--redo` re-attaches the very plate that contains them. Correct handling is a plate-level author fix (also cleans rows 170/185 which reuse this ROOM plate byte-identical), logged as a new shared RUNNER-LESSONS line. Re-cutting a clean row would only void Cameron's pending review and cost money for no fixable gain (touch-once / cost law).
+
+**Cost:** $0 this session, 0 rerolls — a clean verify-pass is the cheapest possible touch, trend DOWN vs the $6.10/row average. NEVER touched a Cameron-approved row (89 unapproved; prior V1 approval void under REDO-ALL).
+
 ## 2026-08-11 (cont. 12) — Row 88 QC-VERIFY (FULL-CUT GATE) → QC-FIX SHIPPED: s14 joy-beat blood/wounds removed before Cameron's eyes (triumphal-entry) — Machine A `Dev`, unattended/headless
 
 **Commit:** mp4/s14/QC/RUNNER-LESSONS/api-spend/board commit `06de56f70566a9c31fe335bfabf2bd4e5b6b9115`
