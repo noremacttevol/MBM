@@ -1,5 +1,54 @@
 # build-27-leaven — QC
 
+## §AUDIO-FIX 2026-08-11 (Machine A `Dev`, live audio lane) — SHIPPED — SPECTRAL MUFFLE CLOSED, $0 / 0 credits
+
+**Cameron's re-complaint (closed by this cut):** *"Audio is messed up on this one
+still. Its not that bad its just not like the others and i cant explain it maybe
+like too much reverb or something."*
+
+**What was done (exactly the §RUNNER PARK $0 recipe — NO re-voice, NO ElevenLabs
+credits, NO Gemini):** corrective de-muffle EQ applied to the **SOURCE V1 segment
+mp3s** in `media-production/build-27-leaven/audio/` (the durable path — because
+`AUDIO_FROM_V1_SEGMENTS=True`, a final-mp4-only fix would be reintroduced on any
+re-assemble). Filter (two cumulative high-shelves — the park's third 11 kHz shelf
+was DROPPED because it overshot the 10–16 kHz band, exactly as the park warned):
+
+```
+highshelf=f=3500:g=5,highshelf=f=6500:g=4
+```
+
+Tuned empirically against approved rows 50/70/97 with `eq_tune.py` (saved here)
+before touching any file. EQ only — no per-segment loudnorm/alimiter, so
+inter-segment level relationships are preserved; the assembler applies its own
+single global +10 dB normalize. Originals backed up in `audio/.pre-demuffle-backup/`.
+All 11 segments (n1–n8, j1, s33, card) processed; durations bit-identical to the
+millisecond → NO still-window moves.
+
+**Verification (all measured on the RENDERED mp4, not the recipe):**
+| band | BEFORE (park) | AFTER (this cut) | target |
+|------|--------------|------------------|--------|
+| 3–6 kHz  | −4.89 dB | **+0.40 dB** | ±2 dB ✅ |
+| 6–10 kHz | −8.95 dB | **−0.73 dB** | ±2 dB ✅ |
+| 10–16 kHz| −9.38 dB | **−1.36 dB** | ±2 dB ✅ |
+
+`spectral_check.py` now puts row 27 within ±1.4 dB of the approved-row mean across
+the whole 3–16 kHz range — the missing top end is restored; it is no longer
+darker/duller than the other videos. faster-whisper of the new cut confirms word
+order UNCHANGED (no re-voice): n1 "Watch the small and ordinary thing a woman does
+every week…", s33 "Another parable spake he unto them", j1 KJV verbatim. A/V
+aligned (video 104.400s / audio 104.382s).
+
+**Audio baseline moved (sanctioned — Cameron-ordered de-muffle):**
+old AUDIO REBUILD hash `019064d9…` (C-FIX, muffled) → new
+`8a8b968b523b325328474c29511eb63582e011a847918cae19b43ee5fc941535`. Same voices
+(Brian/Chris/Roger), same wording, same timing — only spectral brightness changed.
+
+**Cost:** $0, 0 ElevenLabs credits, 0 Gemini, 0 rerolls. Pictures untouched (the
+`6c7a63def` stills stand). Deployed + live-verified (see SESSION-LOG). Board:
+NEEDS-AUDIO → BUILT.
+
+---
+
 ## §RUNNER PARK 2026-08-11 (cont.30) — NEEDS-AUDIO — CONFIRMED SPECTRAL MUFFLE (audio lane authority)
 
 **Cameron's re-complaint (verbatim, filed against the CURRENT live cut `6c7a63def`):**
