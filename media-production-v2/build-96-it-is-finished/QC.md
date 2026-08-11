@@ -1,5 +1,34 @@
 # QC / RUNNER HANDOFF — build-96-it-is-finished (John 19:30 / Matt 27:51)
 
+## ✅ QC-OK — FULL-CUT GATE 6b, 2026-08-11 (Machine A `Dev`, VERIFY-PASS)
+
+Extracted ONE frame per beat (13) + closing card from the **rendered mp4** at each
+beat-window midpoint and viewed every one against the defect checklist,
+RUNNER-LESSONS, and the row's complaints. **Verdict: CLEAN — no re-cut.**
+
+- Jesus face-locked every appearance (b01/b02/b03/b04/b05/b06/b08/b11): tan/olive
+  skin, dark wavy hair, full beard, warm eyes; cream-only (no 2nd cream figure);
+  rope-bound, **NO nails / NO wounds / NO gore** anywhere; merciful distance held,
+  the darkness (Matt 27:45) carries the death.
+- Veil act EXACT: ONE veil rent **top-to-bottom** (b09/b12/b13), Holy of Holies =
+  dark open space (no invented ark/furniture), period 7-branch menorah, PRIEST
+  face-locked in human awe with censer (b10). b07 true wide = 3 crosses on Golgotha.
+- Captions 3-colour correct: white narrator, **blue** scripture (s51 @b09), **red**
+  Jesus (j1 @b11, jv46 @b06). Closing card renders clean (serif, centred).
+- No modern object, no giant-scale, no anatomy failure, no lens-stare, correct counts.
+- **Live-verified:** served-bytes md5 `8980dd07…` == local; review.html card hash
+  `782b5366…` live on reviewer, mp4 HTTP 200, content-length 20020716 B.
+- **No open Cameron complaint** → zero resolved-complaint-regression risk.
+
+**FIX-WAVE (pre-logged, NOT blocking, NOT re-cut — same precedent as row 94's
+2026-08-11 QC-OK):** robed-vs-stripped wardrobe variance (b01/b03/b08 full cream
+robe vs b04/b05/b06 loincloth) + crown-of-thorns present in b04 only. Each frame is
+individually reverent and scripturally defensible (garments parted; John 19:2-5);
+cross-frame soft-continuity belongs to the fix wave, not a verify re-cut. Also the
+already-noted faint dry-lip mark on the b11 close-up (reads chapped, not blood) and
+the empty flanking crosses on the s03 reroll.
+
+
 ## ✅ REALISTIC-V2 SHIPPED — A-auto 2026-08-07 (Opus runner, Machine A `Dev`, unattended)
 
 **COMPLAINT LEDGER: none open** (`v2_outline.py 96` = beat map only, no Cameron complaint).
