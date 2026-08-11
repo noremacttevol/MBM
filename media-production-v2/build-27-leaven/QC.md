@@ -1,5 +1,69 @@
 # build-27-leaven — QC
 
+## §RUNNER PARK 2026-08-11 (cont.30) — NEEDS-AUDIO — CONFIRMED SPECTRAL MUFFLE (audio lane authority)
+
+**Cameron's re-complaint (verbatim, filed against the CURRENT live cut `6c7a63def`):**
+*"Audio is messed up on this one still. Its not that bad its just not like the
+others and i cant explain it maybe like too much reverb or something."*
+
+**This is AUDIO-domain — the runner did NOT re-cut pictures (RUNNER-LAW). Parked to
+NEEDS-AUDIO for the live audio-fix lane. Full-cut pictures were NOT re-touched; the
+`6c7a63def` stills stand.**
+
+### THE FINDING — objectively localized (what 8 prior passes missed)
+The re-complaint "not like the others / too much reverb" is the **spectral-tilt /
+muffle** class (the same one that cracked row 74's identical 2nd complaint). Every
+prior pass measured *voices/words/glitches* — all clean — but **none measured
+brightness vs approved rows.** I did. Decoded this cut + 3 approved cuts
+(rows 50/70/97), averaged the voiced-frame power spectrum, normalized each to its
+300–1000 Hz band, and compared the high-frequency tilt:
+
+| band | row 27 vs approved-mean |
+|------|------------------------|
+| 3–6 kHz  | **−4.9 dB** (muffled) |
+| 6–10 kHz | **−8.9 dB** (muffled) |
+| 10–16 kHz| **−9.4 dB** (muffled) |
+
+Row 27's speech is uniformly darker/duller than the approved cuts above ~3 kHz.
+That missing top end is exactly what an ear reports as "muffled / too much reverb /
+not like the others." **Cameron's ear is right; the waveform-level diagnostics were
+looking at the wrong axis.** The `6c7a63def` C-FIX re-voiced n1 (a redundant-
+attribution fix) but left the underlying muffle untouched → he re-filed.
+
+### ROOT CAUSE
+Shipped audio = V1 ElevenLabs source segments (`beats_v2.py` `AUDIO_FROM_V1_SEGMENTS
+= True`, copying `media-production/build-27-leaven/audio/*.mp3`). Those V1 mp3s are
+HF-rolled-off — the recovered-from-ElevenLabs-history muffle class documented on
+row 74 (root commit `d3598b3b9` "recover 77 reverted builds FREE from ElevenLabs
+history"). The muffle is in the SOURCE segments, so it survives assembly.
+
+### THE $0 FIX (audio lane — proven on row 74, NO re-voice, NO credits)
+Corrective de-muffle EQ to restore the top end to match approved rows, then
+re-level. **Starting recipe tuned to the measured gaps** (audio lane: re-measure &
+iterate to within ±2 dB of approved before shipping — `spectral_check.py` is saved
+in this folder, run it against rows 50/70/97):
+
+```
+ffmpeg -i <in> -af "highshelf=f=3500:g=5,highshelf=f=6500:g=4,highshelf=f=11000:g=4,
+  loudnorm=I=-15:TP=-1.5:LRA=11,alimiter=limit=0.95" ...
+```
+(highshelf is cumulative — verify the 10–16 kHz band lands ~flat vs approved, not
++13; back the top shelf off if it overshoots.)
+
+**DURABILITY — read this or the fix reopens:** because `AUDIO_FROM_V1_SEGMENTS=True`,
+a de-muffle applied only to the FINAL mp4 (row-74 remux-`-c:v copy` precedent) is
+REINTRODUCED by any later re-assemble. Preferred durable fix: apply the same
+de-muffle EQ to the **SOURCE V1 mp3s** in `media-production/build-27-leaven/audio/`,
+then re-assemble (new AUDIO LOCK hash — expected, audio genuinely changed). If you
+remux the final mp4 instead, leave a QC note so a future re-assembler re-applies it.
+
+**Verify before ship:** (1) re-run `spectral_check.py` — 3–16 kHz within ±2 dB of
+approved; (2) faster-whisper word order unchanged (no re-voice, so it must match);
+(3) deploy (step 7c) + live-verify served hash; (4) review card in Cameron's words —
+"the muffled / reverb-like tone is fixed — the audio now matches your other videos."
+
+---
+
 ## §C-FIX 2026-08-11 (Machine A `Dev`) — SHIPPED — BOTH fixes, ONE re-cut
 
 **Cameron's complaint (verbatim):** *"Audio is messed up on this one still but the
