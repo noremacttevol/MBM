@@ -83,3 +83,38 @@ the 1.74 s duration drift is gone and the 16 realistic stills sit on the right w
 - Shipped: mp4 + board + QC committed; review.html v77 repointed to the V2 path
   with data-review-wave="realistic-v2"; firebase deploy + live-verify; publish
   ledger synced. Board row 77 NEEDS-AUDIO→BUILT, Audio CHECK→OK.
+
+---
+
+## ✅ QC-VERIFY — 2026-08-11 (Machine A `Dev`, FULL-CUT GATE 6b, before Cameron's eyes)
+
+Row 77 was BUILT and sitting in Cameron's Unwatched queue. Ran the full-cut gate
+(PROMPT-OPUS-RUNNER §6b) BEFORE he watched it. Extracted ONE frame per beat from the
+RENDERED mp4 (mid-clip, using the real c000–c015 segment durations, not the raw beat
+windows) + the question card, and viewed EVERY one against the defect checklist +
+RUNNER-LESSONS + the row's resolved state.
+
+**Result: CLEAN — no defect, no re-cut.**
+- Identity/locked face: Jesus consistent across s01/s03/s09/s11/s12/s13 — olive skin,
+  dark wavy shoulder-length hair, full dark beard, green/hazel locked-ref eyes (NOT a
+  reroll target). Widow face-board consistent across s06/s08/s10.
+- Cream-only-Jesus: holds every multi-figure frame. The blue-robed long-haired giver in
+  s09 is clearly a wealthy man (gold chain, blue robe), not a cream Jesus-double.
+- Count law (two mites): exactly two worn copper coins in s06 (hand at chest), s07 (palm
+  insert) and s16 (closing object insert). Rich give handfuls of silver (s02/s04/s05).
+- Anatomy/hands: s07 palm (5 digits), s13 jaw-cup (5 digits), s15 empty hand (5 digits)
+  all correct. s11 foreground hands darkened only by the caption-band gradient (frame
+  edge), not malformed.
+- Direction/geometry: givers process ALONG the chest row (s04); widow departs small &
+  away (s08/s09); Jesus's pointing line in s12 lands on HER distant figure (QC target law).
+- Captions: scripture light-blue (s41/s42), narrator white, Jesus KJV line RED (SPEAKER-LAW
+  JESUS_RED — verified in mbm_caption_timing.py, intentional). All bottom-band. Question
+  card clean cream serif, no render glitch/squares.
+- No modern objects, no lens-stares, no empty-scene-that-should-have-people (s16 is a
+  person-free object insert BY DESIGN).
+- No open Cameron complaint on this row (build-blocking stale-lock fix), so nothing to
+  regress. Served-bytes verified: live card v77 hash 998a0d53 holds blob 23b15544 =
+  git hash-object of the shipped mp4; served md5 96d2b18a == local. What Cameron will
+  watch is byte-identical to what was QC'd.
+
+Board: QC-VERIFY LIVE → QC-OK. $0 (ffmpeg/ffprobe/curl only), 0 pictures touched.

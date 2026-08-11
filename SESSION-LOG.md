@@ -1,3 +1,28 @@
+## 2026-08-11 (cont. 4) — Row 77 QC-VERIFY (widow's mite) — FULL-CUT GATE before Cameron's eyes — Machine A `Dev`
+
+**Commit:** (this entry's commit).
+
+Row 77 (build-77-widows-mite) was BUILT and sitting in Cameron's Unwatched queue. Per
+PROMPT-OPUS-RUNNER §6b (born from row 11 reaching him with 7 bad frames), ran the
+full-cut gate BEFORE he watched it — a VERIFY pass, no fresh build.
+
+- Extracted ONE frame per beat from the RENDERED mp4 (using the real c000–c015 segment
+  durations, not the raw beat windows, so each frame lands mid-clip) + the question card,
+  and viewed all 17 against the defect checklist + RUNNER-LESSONS + the row's resolved state.
+- **CLEAN — no defect, no re-cut.** Jesus identity consistent (olive skin, dark wavy hair,
+  full beard, locked green/hazel eyes), cream-only-Jesus holds every frame, count law (two
+  mites) holds in s06/s07/s16, rich give handfuls of silver, hands correct (s07/s13/s15),
+  Jesus's pointing line lands on the departing widow (s12), captions bottom-band with correct
+  SPEAKER-LAW colors (scripture blue / narrator white / Jesus KJV red), question card clean.
+  No open Cameron complaint on the row (build-blocking stale-lock fix), so nothing to regress.
+- Served-bytes verified: live card v77 hash 998a0d53 holds the exact blob 23b15544 =
+  git hash-object of the shipped mp4; served md5 96d2b18a == local. Cameron watches exactly
+  what was QC'd.
+- Board row 77 Claim: QC-VERIFY LIVE → QC-OK 2026-08-11. QC.md carries the frame-by-frame
+  verdict. **$0** (ffmpeg/ffprobe/curl only), 0 pictures touched, 0 rerolls.
+
+---
+
 ## 2026-08-11 (cont. 3) — Row 52 demoniac face-flip C-FIX #3 (Cameron's 3rd re-file: "redo every picture ... none match each other") — Machine A `Dev`
 
 **Complaint (3rd re-open against the C-FIX #2 cut):** "The demoniac face kept changing shaved, to not shaved. Beard to no beard to old man and his looks kept flipping. 0:50 the demoniac looks normal but Jesus doesnt. 1:02 no beard again. 1:23 no beard same with 1:29. Just redo every picture every single one is low quality and none match each other."
