@@ -1,5 +1,21 @@
 # QC / RUNNER HANDOFF — build-51-first-catch-of-fish (Luke 5:1-11)
 
+## 🛠 C-FIX SHIPPED — 2026-08-11 (Machine A `Dev`, UNATTENDED/HEADLESS) — BOAT SCALE
+
+**COMPLAINT LEDGER (this re-cut's open complaint):**
+- **Cameron: "The boats need to stay the same size — find all the pictures where the size changes and fix them."** → **FIXED.** Traced every boat-bearing beat by extracting one frame per beat from the RENDERED mp4 + full-res on the source stills (s02/s04/s05/s06/s11/s17/s25). The canonical boat is a broad-beamed dark oiled-cedar fishing boat with a high curved prow and stubby mast (BOATS lock), and it renders correctly in EVERY beat **except s05 (taught-from-the-water)**, where it had drifted to a small pale-tan open **dinghy** — half the size, wrong wood colour, no prow/mast — dropped between s04 (big masted boat) and s06 (same big boat). That single jump is the "boat changes size" Cameron saw. Rerolled ONLY `b05` (`--only b05 --redo`) → now the canonical dark broad-beamed high-prow boat with the nets piled inside, Jesus (cream, teaching hand) in the stern, Simon at the oars, the crowd banked on the shingle in deep earth colours. Verified in the RENDERED mp4 (frame @21.46s): boat is the same size/design class as s04/s06/s11; question card clean @155s; caption in bottom band.
+- **Root cause (for RUNNER-LESSONS):** the `BOATS` lock is TEXT-ONLY (no reference image in `REFS`), so a wide establishing shot drifted the hull despite the strong prose lock — the same failure mode as text-only face locks (memory: drift that survives a text lock needs an image anchor). A single `--redo` with the explicit prose lock landed the canonical boat here; if it recurs, wire a BOATS rough_ref crop.
+
+**Touch-once:** the FULL-CUT GATE (one frame per beat from the rendered mp4) found no other complaint-worthy defect — Jesus one locked face + cream-only every appearance, Simon one face, no 2nd cream figure, realistic throughout (no cartoon/mix), hands/scale/anatomy correct, captions 3-voice bottom-band, card clean. Only s05 pixels changed.
+
+**Audio byte-identical:** re-assembled → **AUDIO REBUILD PASS SHA256 `e82b1aaf546bcb613303cc3989a16dbd348b51fded38a1fe6736103be071835a`** — the SAME hash as the prior ship. Narration/voices/timing untouched.
+
+**FIX-WAVE (logged, NOT re-cut — subtle, not chasing per runner rule):** on the new s05, Simon's work tunic reads grey-blue rather than his usual charcoal-brown (SIMON lock) — still dark, not cream, and clearly the same man (face/hair/beard match); left as-is to avoid re-drifting the now-correct boat on another roll.
+
+**Cost:** 1 reroll / 26 beats = **3.8%** (well under 15% budget). ~$0.13 this re-cut (1 image gen @ $0.134). Meter $585.85 → $585.98.
+
+---
+
 ## 🛠 C-FIX SHIPPED — 2026-08-07 (Machine A `Dev`, UNATTENDED/HEADLESS)
 
 **COMPLAINT LEDGER (this re-cut's only open complaint):**
