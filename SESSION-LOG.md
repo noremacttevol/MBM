@@ -1,3 +1,23 @@
+## 2026-08-11 (cont. 10) — Row 120 BUILT realistic-v2 (Job Answered from the Whirlwind, Job 1-2/19/38-42) — first-attempt, full-cut gate, God-never-embodied, LIVE — Machine A `Dev`
+
+**Commit:** mp4/assets/QC/boards commit `cb72a84de2c9b2b27910f8097cf63a8111ecfbb9`; review card absorbed into concurrent commit `dc8670a9b` (sibling-lane index race, §"no changes added" — verified my v120 card is on origin/main); STASH+SESSION-LOG this entry's commit; publish sync `bb2ec95fd`.
+
+Built the AUTHOR-BOARD's lowest Ready row (120, State AUTHORED + Ready ✅ AUDIO OK, empty claim). Cross-checked QUEUE row 120 = "Job answered from the whirlwind" (not swapped). Claimed A-auto, `--check` PASS (42 beats), read all V2-REBUILD-RUBRIC lessons + all RUNNER-LESSONS + the row's QC before any credit. **COMPLAINT LEDGER: none open** (the earlier STALE-V1 park was a new-voice currency fix, not a complaint).
+
+**THE #1 GATE — GOD IS NEVER EMBODIED — HELD across all 42.** The answer is the whirlwind as WEATHER + LIGHT (a tall storm column, quiet lightning), never a face/mouth/eye/hand/figure in the cloud; b38's washed light is Job's seeing. Verified by the full-cut gate (6b): extracted one frame per beat from the RENDERED mp4 and viewed all 42 + the God/scripture caption frames + the question card.
+
+**Place plates promoted-first:** ASHES←s10 (single Job, clean ash heap, potsherd), WHIRLWIND←s20 (storm + Job before it, no embodiment). **HOME deliberately NOT promoted** — its b01 anchor is a crowded prosperity feast and HOME also covers the loss beats (b03/b04/b30); per lesson-842/row-114 a crowded plate bleeds people into solo/loss beats, so HOME rendered from its own text (JOB ref holds identity).
+
+**Gates all passed:** person-free cosmic beats (b25/26/29/31/36) clean; b27 constellations accurate (seven-star Pleiades + Orion's three-star belt); FOUR men in the b12 wide (Job + three distinct friends); b30 losses = ruined feast-house at distance + grief, NO bodies/children's deaths; illness with dignity (ash-dust, potsherd, never gore). SPEAKER-LAW colours correct — narrator WHITE, Job's own KJV light-BLUE, God's KJV GREEN. Question card clean/well-margined, doctrinally sound (God draws near to the broken — presence not explanation). Ear-check b38 caption "mine eye seeth **thee**" (KJV, not the scaffold typo). No modern objects, no cartoon/mix (Law 14 held), no lens-stare, anatomy fine, only-Job (no cream anywhere).
+
+**0 rerolls / 42 (0% vs 15% budget).** Two FIX-WAVE notes (author-domain, a runner reroll reproduces them per §628/row-15 and §605; kept the takes): s08 fuller hair between shaved s06/s09 (portrait-driven); s14 tight friends shot shows 2 (the b12 wide carries the count). **AUDIO REBUILD PASS 3dae1e77** (byte-consistent new-voice narration from 22 V1-dir mp3s), 258.6 s, 21.0 MB.
+
+**Deployed + live-verified:** `firebase deploy --only hosting` → live card carries `data-hash=cb72a84de2c9` + `data-review-wave="realistic-v2"`; served mp4 HTTP 200, content-length 20,962,248, **served md5 == local md5** (2994635d). Cameron watches exactly the QC'd bytes. STASH rescanned (3389 stills / 113 builds), publish ledger synced (no new publish — unapproved, stays off gallery/website).
+
+**Cost:** 42 images (1 portrait + 3 anchors + 39 gen), 0 rerolls ≈ **$5.76** — under the $6.10/row average, COST LAW trend DOWN. No new RUNNER-LESSONS class (both FIX-WAVE items are already-documented author-driven continuity classes). AUTHOR-BOARD + QUEUE row 120 → BUILT/SHIPPED.
+
+---
+
 ## 2026-08-11 (cont. 9) — Row 113 C-FIX SHIPPED (Where Art Thou, Genesis 3) — God-the-Father embodiment consistency + rags root cause CLOSED — Machine A `Dev`
 
 **Commit:** media/QC commit `49e01006bf319acb9fb4224f4e8f0b34253cf776`; card/boards/log commit (this entry's).
