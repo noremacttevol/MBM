@@ -1,5 +1,66 @@
 # QC / RUNNER HANDOFF — build-120-job-from-whirlwind (Job 1-2, 19, 38-42)
 
+## ✅ REALISTIC-V2 BUILT + FULL-CUT-GATED + SHIPPED (Opus runner, Machine A `Dev`, 2026-08-11)
+
+**42 stills built on the NEW-voice audio (`AUDIO_FROM_V1_SEGMENTS=True`).
+AUDIO REBUILD PASS SHA256=3dae1e77c128cd8ae52174a7db3c7a8a456333fc03e222984362dd6e2982d3fb,
+258.6 s, 21.0 MB. 0 rerolls / 42 (0% vs 15% budget). Row ≈ $5.76 (1 portrait +
+3 anchors + 39 gen, no rerolls) — under the $6.10 average, COST LAW trend DOWN.**
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 120` shows no complaint; this is a
+first-attempt realistic-v2 build, the STALE-V1 park was a new-voice currency fix).
+
+**THE #1 GATE — GOD IS NEVER EMBODIED — HELD.** Every whirlwind beat
+(b07/b20/b21/b22/b23/b24/b32/b33/b34/b35/b37/b42) and every cosmic-vision beat
+(b25/b26/b29/b31/b36 person-free; b27/b28/b38 Job-only) renders the divine
+presence as WEATHER + LIGHT only — a tall storm/whirlwind column with quiet
+lightning, no face/mouth/eye/hand/figure in the cloud. b38's washed light is
+Job's seeing, viewer sees only light. Verified by extracting one frame per beat
+from the RENDERED mp4 (full-cut gate 6b).
+
+**Place plates promoted-first:** ASHES←s10 (single Job on clean ash heap, potsherd,
+illness-with-dignity), WHIRLWIND←s20 (storm column + Job before it, no embodiment).
+HOME **deliberately NOT promoted** — its anchor b01 is a CROWDED prosperity feast and
+HOME also covers the loss beats (b03/b04/b30); per lesson-842/row-114 a crowded plate
+bleeds people into solo/loss beats, so HOME renders from its own text (JOB ref holds
+identity). Forced no-promote, logged.
+
+**Gates verified frame-by-frame from the mp4:**
+- Person-free cosmic beats (b25/b26/b29/b31/b36): all person-free ✓.
+- b27 constellations ACCURATE: seven-star Pleiades cluster + Orion with the
+  three-star belt (+ red Betelgeuse) ✓.
+- Counts: FOUR men in the b12 wide (Job + three distinct friends) ✓; three
+  friends carried in b02/b13.
+- b30 losses: ruined feast-house at FAR distance + Job's grief, NO bodies, no
+  children's deaths shown ✓. Illness-with-dignity (ash-dust, potsherd, never gore) ✓.
+- Captions bottom-band only, never over the art. SPEAKER-LAW colours correct:
+  narrator WHITE, Job's own KJV (naked-came-I / redeemer-liveth / behold-I-am-vile /
+  mine-eye-seeth-thee) light-BLUE scripture, God's KJV (where-wast-thou /
+  morning-stars / Pleiades) GREEN. Question card clean, well-margined, doctrinally
+  sound (God draws near to the broken — presence not explanation).
+- Ear-check b38/s425: caption reads "now mine eye seeth **thee**" (correct KJV, not
+  the scaffold typo "seeth thih"); new-voice audio, AUDIO REBUILD PASS is the proof.
+- No modern objects, no cartoon/mix (all photographic — Law 14 held), no lens-stare,
+  anatomy/hands fine, no second-cream figure (no Jesus in this story), scale correct.
+
+**FIX-WAVE (subtle, author-domain — a runner reroll REPRODUCES them, per
+lessons §628/row-15 and §605; kept the takes, 0 budget spent):**
+1. Job's head-hair continuity: the arc is largely coherent (fuller hair pre-catastrophe
+   s01/s03 → shaved in mourning s05/s06/s09, caption "shaved his head" matches →
+   short regrown hair through the long ashes section). The one outlier is **s08**
+   (fuller dark hair between shaved s06 and shaved s09). It is portrait-driven (JOB
+   ref is haired); a plain reroll defaults back to the haired portrait, so this is an
+   author beat-text/portrait item, not a runner reroll. No open complaint on it.
+2. **s14** (their-tidy-answers, a tighter friends shot) drops to 2 friends visible;
+   the b12 establishing wide carries all four (§605 tight-frame count drift = FIX-WAVE,
+   not a reroll).
+
+Continuity that HELD: mantle whole in b01/b03, torn from the mourning beats on;
+friends recognizable and distinct across b02/b12/b13; Job's russet robe + dark sash
+consistent (only-Job, no cream anywhere).
+
+
+
 ## 🅿️ RUNNER PARK → NEEDS-AUDIO (Opus runner, Machine A `Dev`, 2026-08-07, $0, 0 credits)
 
 **STALE-V1 (OLD VOICE) — the shipping V1 mp4 predates the ElevenLabs re-record.

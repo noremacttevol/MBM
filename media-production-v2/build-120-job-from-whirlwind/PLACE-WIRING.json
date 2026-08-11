@@ -1,1 +1,14 @@
-{}
+{
+ "ASHES": {
+  "manual": true,
+  "src_beat": "s10-he-is-wrecked-and-still",
+  "src_build": "build-120-job-from-whirlwind",
+  "src_file": "build-120-job-from-whirlwind/assets/s10-he-is-wrecked-and-still.jpeg"
+ },
+ "WHIRLWIND": {
+  "manual": true,
+  "src_beat": "s20-and-god-answered-though-not",
+  "src_build": "build-120-job-from-whirlwind",
+  "src_file": "build-120-job-from-whirlwind/assets/s20-and-god-answered-though-not.jpeg"
+ }
+}
