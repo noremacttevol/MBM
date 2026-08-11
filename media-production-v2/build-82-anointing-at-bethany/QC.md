@@ -1,5 +1,42 @@
 # QC / RUNNER HANDOFF — build-82-anointing-at-bethany (Mark 14:3-9)
 
+## 🛠 QC-FIX SHIPPED — QC-VERIFY full-cut gate before Cameron's eyes, Machine A `Dev`, 2026-08-11
+
+Row 82 was BUILT (2026-08-07) and sitting in Cameron's Unwatched queue. Per
+PROMPT-OPUS-RUNNER §6b (row 11 reached him with 7 bad frames: "my quality is going
+down"), ran the FULL-CUT GATE on the shipped mp4 — extracted one frame per beat from
+the RENDERED video and viewed all 25 stills + question card against the defect
+checklist + THREE-WOMEN/anointing laws.
+
+**ONE hard defect found — s12 (beat v2-r082-b12 `j1b`, "For ye have the poor with you
+always"): the still was a 90°-ROTATED composition — the whole supper scene lay on its
+side (figures horizontal, window/niches rotated) while the burned-in caption sat
+upright.** A one-off Gemini generation glitch (the beat prompt is clean — "speaks it
+soberly down the length of the table"; nothing requested a rotation). This is exactly
+the kind of frame that makes Cameron type a complaint, so it BLOCKED the ship.
+
+**Fix — ONE touch-once re-cut (1 reroll / 25 = 4.0%, under the 15% budget):**
+- `v2_gen_api.py --only v2-r082-b12 --redo` → new s12 is upright: Jesus alone in cream
+  speaking down the table, disciples rust/brown/grey, locked face held, no halo,
+  lamplit-evening interior, correct anatomy. Bad original backed up (not committed).
+- Re-assembled: **AUDIO REBUILD PASS SHA256=`de0b21ab54e3…` — byte-identical to the
+  original ship's audio hash. The narration, voices and timing are untouched.**
+- Re-gated the RENDERED mp4 at the s12 window + both neighbors (s13 upright Jesus
+  portrait, s14 doorway) — s12 now upright, neighbors intact, everything else that
+  passed the first gate unchanged.
+
+**The other 24 stills + card PASSED the gate:** woman OLIVE-GREEN & silent in every
+frame, HEAD-anointing (not Luke-7 feet), flask BROKEN AT THE NECK (shards in s17/s21/
+s23/s24), only Jesus in cream everywhere, SPEAKER-LAW colors correct (scripture BLUE
+s05, Jesus RED-letter s09/s12/s16/s20, narrator WHITE), lamplit evening interior
+(intentional), scale gate PASS, realistic photography throughout — zero cartoon/mixed
+frames, no modern objects, question card clean. No open complaint to regress.
+
+**Cost:** 1 reroll ≈ **$0.13**, audio $0. New mp4 md5 `abf2d236…`.
+
+---
+
+
 ## ✅ REALISTIC-V2 SHIPPED — Opus runner, Machine A `Dev`, 2026-08-07 (UNATTENDED/HEADLESS)
 
 **25 realistic painted stills @ native 2K (V1 had 8), 147.8s, 20.4 MB.**
