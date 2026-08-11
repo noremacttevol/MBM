@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 17:13:20",
+ "scanned": "2026-08-11 18:05:17",
  "entries": [
   {
    "row": 1,
@@ -53024,6 +53024,567 @@
    "night": true,
    "n_person": 2,
    "scene": "The prayer's last arc gathers everybody it can reach: Jesus's open hand sweeps from the Eleven drowsing warm by the fire, out across the dark valley where the window-lights burn one by one to the horizon \u2014 the same motio"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b01",
+   "file": "build-141-bread-of-life/assets/s01-a-crowd-had-followed-jesus.jpeg",
+   "tokens": [
+    "SHORE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Yesterday's miracle has a following, the camera looking up the pebbled shore past the crowd's hurrying backs: boats freshly beached at every angle, still dripping, and the people pouring off them toward Jesus where he st"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b02",
+   "file": "build-141-bread-of-life/assets/s02-he-gave-them-something-deeper.jpeg",
+   "tokens": [
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The request is about to be out-given: Jesus turns to face the crowd coming up the stones, and something gathers in the deep brown eyes that is bigger than the breakfast they came for \u2014 the particular warmth of a giver ho"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b03",
+   "file": "build-141-bread-of-life/assets/s03-i-am-the-bread-of.jpeg",
+   "tokens": [
+    "SHORE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The greatest menu ever announced has one item: Jesus with his arms open to the shore-crowd, the morning gold on his face as the sentence lands \u2014 I AM the bread of life \u2014 never hunger, never thirst, the two oldest aches i"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b04",
+   "file": "build-141-bread-of-life/assets/s04-not-the-kind-you-chew.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Here is the kind he did NOT mean, at its most persuasive: a barley loaf torn open on a plain board, crust crackled brown, the warm crumb steaming faintly in the morning air, flour still dusting the board around it \u2014 brea"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b05",
+   "file": "build-141-bread-of-life/assets/s05-i-am-that-bread-of.jpeg",
+   "tokens": [
+    "SHORE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The claim gets its address: close on Jesus in the warm light with his hand laid flat at his own chest \u2014 I am THAT bread \u2014 the sentence walking the whole metaphor home to one standing, breathing man \u2014 not a doctrine about"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b06",
+   "file": "build-141-bread-of-life/assets/s06-the-bread-their-ancestors-ate.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The old bread had its own miracle mornings: at pale desert dawn the robed ancestors move stooping across the ground, gathering the white manna flakes off the stones into their baskets \u2014 mothers and elders and children fi"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b07",
+   "file": "build-141-bread-of-life/assets/s07-they-wanted-more-bread.jpeg",
+   "tokens": [
+    "SHORE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What they crossed the lake for is written plainly on them: close along the front of the crowd \u2014 a fisherman's eyes bright with yesterday's memory, a mother's hand half-extended out of pure reflex, a boy craning for the b"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b08",
+   "file": "build-141-bread-of-life/assets/s08-i-am-the-living-bread.jpeg",
+   "tokens": [
+    "SHORE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The hardest sentence of the morning is illustrated by his own two hands: as the words come \u2014 living bread, my FLESH, given for the life of the world \u2014 Jesus slowly breaks one barley loaf between his carpenter's hands, th"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b09",
+   "file": "build-141-bread-of-life/assets/s09-the-kind-that-satisfies-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The part food cannot reach shows best at a full table: a man sits back from a good supper \u2014 bread broken, bowl scraped, cup poured, everything a body could ask within arm's reach \u2014 and his eyes are away in the middle dis"
+  },
+  {
+   "row": 141,
+   "build": "build-141-bread-of-life",
+   "beat": "v2-r141-b10",
+   "file": "build-141-bread-of-life/assets/s10-he-was-speaking-of-himself.jpeg",
+   "tokens": [
+    "SHORE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon ends held out at arm's length: the broken loaf lies open across Jesus's two extended hands, offered forward to the crowd and the shore and the whole hungry world beyond them \u2014 the crumb warm, the halves parted"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b01",
+   "file": "build-148-ruth-and-the-redeemer/assets/s01-a-widow-named-naomi-lost.jpeg",
+   "tokens": [
+    "NAOMI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Everything she had fits under three stones now: on the grey Moabite hillside the three rough grave markers stand in a short row \u2014 a husband's and two sons' \u2014 and beside them Naomi, small and bowed in her charcoal shawl, "
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b02",
+   "file": "build-148-ruth-and-the-redeemer/assets/s02-she-told-her-two-to.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Her last act of mothering is to send them away: on the grey road out of Moab Naomi turns to her two young daughters-in-law and pushes them gently back the way they came \u2014 worn hands on young shoulders, aiming them home t"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b03",
+   "file": "build-148-ruth-and-the-redeemer/assets/s03-but-ruth-clung-to-her.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "One daughter-in-law does not do the sensible thing: Ruth's arms wrap around Naomi and lock \u2014 her young face pressed into the charcoal shawl at the old woman's shoulder, her feet planted in the road dust like fence posts "
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b04",
+   "file": "build-148-ruth-and-the-redeemer/assets/s04-intreat-me-not-to-leave.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The greatest loyalty speech in scripture is delivered on a dirt road between two widows: Ruth takes Naomi's worn hands in both of hers and says it straight into the grief-lined face \u2014 where thou goest, I go; where thou l"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b05",
+   "file": "build-148-ruth-and-the-redeemer/assets/s05-one-kissed-her-and-left.jpeg",
+   "tokens": [
+    "NAOMI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The other goodbye is tender and it is still a goodbye: Orpah's kiss lands wet on Naomi's cheek, her hands lingering one last squeeze on the old arms \u2014 and then the turning, the road back toward Moab taking her a step at "
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b06",
+   "file": "build-148-ruth-and-the-redeemer/assets/s06-ask-me-to-leave-you.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The refusal is made of warmth all the way through: close on Ruth's young face bent over the old hands she is holding \u2014 don't ask me; don't even ask \u2014 the dark expressive eyes steady on Naomi's with nothing hard in them a"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b07",
+   "file": "build-148-ruth-and-the-redeemer/assets/s07-where-thou-diest-will-i.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The vow runs all the way to the grave and signs there: Ruth's free hand rises toward the grey Moabite sky in the old oath gesture \u2014 the LORD do so to me, and MORE \u2014 while her other hand keeps its grip on Naomi's \u2014 where "
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b08",
+   "file": "build-148-ruth-and-the-redeemer/assets/s08-wherever-you-go-going.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The vow starts keeping itself immediately: the two widows walk the long road together now \u2014 Ruth's young stride reined to Naomi's worn one, the heavier bundle riding the younger shoulder, the two shawled heads level in t"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b09",
+   "file": "build-148-ruth-and-the-redeemer/assets/s09-wherever-you-stay-staying.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "Where thou lodgest tonight is a road verge with one small fire: Naomi sleeps curled under the wall's lee, and Ruth \u2014 before she takes her own place on the cold side \u2014 settles her spare cloak over the old woman's shoulder"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b10",
+   "file": "build-148-ruth-and-the-redeemer/assets/s10-only-death-gets-to-separate.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole covenant fits in one interlocked grip: close on the two hands \u2014 Naomi's old fingers, knuckled and thin, laced through Ruth's young strong ones, neither letting the other go \u2014 the clasp that walked out of Moab a"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b11",
+   "file": "build-148-ruth-and-the-redeemer/assets/s11-your-people-are-my-people.jpeg",
+   "tokens": [
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Her new country shows itself from the last ridge: Ruth stands at the crest with the wind off the barley lands in her scarf, looking down the long slope to where Bethlehem sits small and pale on its hill \u2014 her people now,"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b12",
+   "file": "build-148-ruth-and-the-redeemer/assets/s12-call-me-not-naomi-call.jpeg",
+   "tokens": [
+    "NAOMI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The town welcomes a name she no longer answers to: in the Bethlehem lane the neighbour women crowd warm around the returned widow \u2014 Naomi! is it Naomi? \u2014 and she stops them with one worn hand: call me not Naomi \u2014 call me"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b13",
+   "file": "build-148-ruth-and-the-redeemer/assets/s13-i-went-out-full-and.jpeg",
+   "tokens": [
+    "NAOMI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Her testimony is two open hands with nothing in them: Naomi holds them out before the lane's gathered women \u2014 palms up, empty, steady \u2014 I went out FULL \u2014 a husband on this arm, sons at this side \u2014 and the LORD hath broug"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b14",
+   "file": "build-148-ruth-and-the-redeemer/assets/s14-naomi-means-pleasant.jpeg",
+   "tokens": [
+    "NAOMI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The name was a prophecy her life stopped keeping: close on the grief-lined face under the charcoal shawl \u2014 and faintly, under the cut of the years, the pleasantness the name promised is still legible: the laugh-lines old"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b15",
+   "file": "build-148-ruth-and-the-redeemer/assets/s15-i-went-out-with-a.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Her accounting is honest and it is wrong by one: Naomi bows under the lane's kind eyes \u2014 a husband out, two sons out, NOTHING home \u2014 and two steps behind her, holding both their bundles and saying not a word, stands the "
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b16",
+   "file": "build-148-ruth-and-the-redeemer/assets/s16-hold-on-to-that-word.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Keep your eye on the word, says the storyteller, and hands you a basket: it stands empty by the doorway in the flat dusty light \u2014 a woven grain basket with nothing in it at all, ribs showing, light pooling in its bare bo"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b17",
+   "file": "build-148-ruth-and-the-redeemer/assets/s17-ruth-gleaned-grain-in-the.jpeg",
+   "tokens": [
+    "RUTH",
+    "FIELD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Her love has become stoop-labour in a stranger's field, the camera low in the stubble taking the harvest line from the side: the reapers swing ahead through the standing gold, and behind them, bent double in the cut rows"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b18",
+   "file": "build-148-ruth-and-the-redeemer/assets/s18-call-me-that-anymore-she.jpeg",
+   "tokens": [
+    "NAOMI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "She reaches her own door carrying her new name: Naomi's hand comes to rest on the worn doorframe of the house she left full \u2014 the wood grey now, the courtyard weedy \u2014 and over her shoulder to the women who followed she s"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b19",
+   "file": "build-148-ruth-and-the-redeemer/assets/s19-the-lord-recompense-thy-work.jpeg",
+   "tokens": [
+    "RUTH",
+    "BOAZ",
+    "FIELD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The field's owner turns out to know her whole story: Boaz stands before the straightened gleaner in the bright gold, silver-streaked and broad, giving her a blessing with the formality of a man honouring a soldier \u2014 the "
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b20",
+   "file": "build-148-ruth-and-the-redeemer/assets/s20-the-story-is-not-finished.jpeg",
+   "tokens": [
+    "FIELD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The basket has been carried somewhere interesting: it stands at the field's edge now \u2014 the same bare wicker from the doorway \u2014 set down in the stubble with the standing gold towering behind it, harvest-heavy heads leanin"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b21",
+   "file": "build-148-ruth-and-the-redeemer/assets/s21-may-the-lord-pay-you.jpeg",
+   "tokens": [
+    "RUTH",
+    "BOAZ",
+    "FIELD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The blessing comes with bread attached: at the harvesters' midday cloth Boaz seats the Moabite gleaner among his own workers and passes her the food himself \u2014 bread, and parched grain until she is sufficed \u2014 the May-the-"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b22",
+   "file": "build-148-ruth-and-the-redeemer/assets/s22-he-protected-her-fed-her.jpeg",
+   "tokens": [
+    "RUTH",
+    "BOAZ",
+    "FIELD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "His kindness is engineered to spare her pride: Boaz bends close to two of his reapers with a quiet instruction, and down the row the purpose-built accident begins \u2014 good handfuls slipping from the sheaves into the gleane"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b23",
+   "file": "build-148-ruth-and-the-redeemer/assets/s23-for-all-the-city-of.jpeg",
+   "tokens": [
+    "RUTH",
+    "BOAZ"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The town's verdict is read to her like a citation: Boaz says it with the gravity of a man at a gate \u2014 ALL the city of my people doth KNOW \u2014 that thou art a VIRTUOUS woman \u2014 the reputation she never sought, assembled stoo"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b24",
+   "file": "build-148-ruth-and-the-redeemer/assets/s24-the-whole-town-knows-what.jpeg",
+   "tokens": [
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Being known turns out to be the harvest she never planted: close on Ruth's face as the town's verdict lands \u2014 the dark eyes widening and then steadying, the chin coming up a quiet degree under the terracotta scarf \u2014 a fo"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b25",
+   "file": "build-148-ruth-and-the-redeemer/assets/s25-at-the-threshing-floor-ruth.jpeg",
+   "tokens": [
+    "RUTH",
+    "BOAZ"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The boldest legal request in the book is made kneeling, and answered with a cloak: on the lamplit threshing floor beside the winnowed grain pile, Ruth kneels at the feet of the waking Boaz \u2014 robed, solemn, her petition a"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b26",
+   "file": "build-148-ruth-and-the-redeemer/assets/s26-before-the-town-gate-in.jpeg",
+   "tokens": [
+    "BOAZ",
+    "GATE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Redemption is transacted in public, at the gate, by sandal: Boaz stands before the ten seated elders in the gateway's morning light, and across the open space the nearer kinsman's drawn-off sandal passes into his hand \u2014 "
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b27",
+   "file": "build-148-ruth-and-the-redeemer/assets/s27-he-was-a-near-kinsman.jpeg",
+   "tokens": [
+    "BOAZ"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The law has a word for what he is to her, and he knows it: close on Boaz's sun-lined face as the reckoning settles consciously in \u2014 near kinsman; GOEL; redeemer-by-blood \u2014 the old statute naming him into the widow's stor"
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b28",
+   "file": "build-148-ruth-and-the-redeemer/assets/s28-emptiness-was-filled-a-son.jpeg",
+   "tokens": [
+    "NAOMI",
+    "RUTH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The hands from the empty testimony get their rebuttal laid right into them: in the warm gold of the little house the neighbour women lower the newborn into NAOMI'S lap \u2014 the same two palms she held out empty in the lane "
+  },
+  {
+   "row": 148,
+   "build": "build-148-ruth-and-the-redeemer",
+   "beat": "v2-r148-b29",
+   "file": "build-148-ruth-and-the-redeemer/assets/s29-that-boy-became-the-grandfather.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The story tips its hand with three quiet objects: the child Obed asleep in the warm gold, a shepherd's staff leaned by the cradle where a visitor left it, and through the small window the hill of Bethlehem holding the la"
   }
  ]
 }
