@@ -1,3 +1,40 @@
+## 2026-08-11 (cont. 15) — Row 122 The Mote and the Beam (Matt 7:1-5) REALISTIC V2 SHIPPED — 27 stills, the beam absurd-never-gruesome gate PASSED — Machine A `Dev`, unattended/headless
+
+**Commit:** ship (a) mp4+QC+boards+QUEUE+spend `10f6bd9afab93f404a13db7f34887748f307e1b8`;
+review card (b) `379d44075`; memory (stash+RUNNER-LESSON) `be1d7d26c`. Firebase deployed +
+live-verified (live card hash 10f6bd9afab9…, mp4 HTTP 200 / 20,082,692 bytes).
+
+Ran PROMPT-OPUS-RUNNER on the lowest Ready ✅ AUTHOR-BOARD row (122, THE LOW-NUMBER LAW).
+Cross-checked QUEUE row 290 = "The mote and the beam · Matt 7" — story matches, not swapped.
+`v2_outline.py 122` = NO open complaints (ledger: none open). Old Machine-C V1 (10 cartoon/
+mixed Flow stills) VOID under REDO-ALL + realistic-only law.
+
+**Build:** FIXER+BROTHER portraits paid ($0.27); promote-first HILLSIDE plate from b01 +
+SHOP from b07 (both eyeballed clean before promotion), wired 10/15 beats. 27 stills @ native
+2K. **#1 GATE — beam absurd, NEVER gruesome: PASS** (every beam frame rides over the brow/
+shoulder as a carried plank; no wound/blood/penetration anywhere; cloth/fingers near lashes,
+never the eyeball; b16 sweeps only tools; b12 beam mirrored in the basin). Locked Jesus on all
+9 hillside beats (warm olive skin, dark waves, full beard, green/hazel V2 eyes, cream-only, no
+halo); FIXER/BROTHER consistent across the workshop chain; realistic throughout (NO cartoon/
+mixed — Law 14 PASS); period props, no modern objects.
+
+**Rerolls: 3/27 = 11%** (under 15% budget): b04 collaged TWICE (single-figure-action collage
+failure mode) → 3rd take coherent (kept; FIX-WAVE: adds a 2nd pale-linen man + soft composition,
+no Jesus present so no cream conflict); b15 first take DROPPED the beam the narration explicitly
+names → rerolled, beam now present. FIX-WAVE also logged s25 measure-prop (scoop vs b03's bucket).
+
+**Gate:** AUDIO LOCK PASS SHA256 0df23a0e… (V1 audio byte-identical, nothing re-voiced),
+175.0s/20.1MB. FULL-CUT GATE — all 27 beats viewed from the RENDERED mp4 + 3 caption frames +
+the closing card: captions bottom-band only (narrator white / Jesus red per SPEAKER-LAW), no
+tofu; reflection card renders clean (row-50 squares issue ABSENT).
+
+**Cost:** portraits $0.27 + anchors $0.27 + 25 stills $3.35 + 3 rerolls $0.39 = **≈$4.28/row**
+— under the $6.10 average (trend DOWN, per THE COST LAW). Meter ~$550.7. New RUNNER-LESSON added:
+an illustration beat can render WITHOUT the absurd prop the narration names (QC beats against the
+narration's named object, not just the locks). STASH-INDEX rescanned (build-122 added → 3416 stills).
+
+**Awaiting Cameron** on the reviewer. Next Ready row: continue the AUTHOR-BOARD lowest-first.
+
 ## 2026-08-11 (cont. 14) — Row 94 QC-VERIFY (FULL-CUT GATE) → QC-OK: "Father, forgive them" is CLEAN, no re-cut + a runner Appr-flip bug caught and corrected — Machine A `Dev`, unattended/headless
 
 **Commit:** board + QUEUE + RUNNER-LESSONS + this SESSION-LOG in the QC-OK commit below. $0 spent, 0 rerolls (no image gen). No mp4 bytes changed — the live 2026-08-07 cut IS the verified cut (nothing to redeploy).
