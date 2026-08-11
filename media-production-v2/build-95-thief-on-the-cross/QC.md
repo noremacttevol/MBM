@@ -1,6 +1,41 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
-## 🛑 QC-BLOCK → RUNNER PARK — NEEDS-REBUILD (FULL-CUT GATE, 2026-08-11, Machine A `Dev`, unattended/headless)
+## ✅ DESYNC RESOLVED + RE-SHIPPED — AUTHOR-FIX 2026-08-11 (Machine A `Dev`, unattended/headless, $0, 0 rerolls)
+
+**The QC-BLOCK below is CLOSED.** The ~4s audio↔picture desync is fixed. No re-voice,
+no Gemini spend, V1 untouched — a pure picture-window re-time + re-assemble.
+
+### What was done (per the FIX SPEC below, option "re-time pictures to the audio")
+The audio + captions are driven entirely by `extract_beats(95)` (the V1 timeline); the
+beats_v2 `window` fields only control when the pictures SWITCH, and they had been
+authored against a paraphrase-free reading, so they drifted ~4s behind the audio that
+actually plays. Rather than surgically strip the paraphrases out of read-only V1 mp3s,
+the 11 picture windows were re-set to a `faster-whisper` transcription of the DELIVERED
+audio — every picture now switches ~0.2s before its own spoken line, contiguous, no gaps.
+New windows: b01 0.00 · b02 8.00 · b03 16.10 · b04 20.90 · b05 29.45 · b06 31.90 ·
+b07 39.05 · b08 43.75 · b09 48.05 · b10 56.70 · b11 60.40 (→ card_start 64.648).
+
+### Proof (re-transcribed + frame-verified on the NEW mp4)
+- Audio is byte-identical: AUDIO REBUILD PASS `SHA256=e5ba558a…` (same as before) — only
+  picture timing moved. New mp4 file sha256 `21c7cd3568929f25…`, 70.7s / 19.9 MB.
+- Frame @53.5s (caption "…To day shalt thou be with me in paradise", red-letter j1) =
+  **Jesus's face turned full to the penitent thief** (s09). THE defect is fixed — the
+  promise lands on Jesus, not the thief-alone.
+- Frame @58.0s ("Today. Not someday…") = the thief receiving the word (s10). ✓
+- Frame @13.0s ("That was one of them, sneering…") = the mocker (s02). ✓
+- Frame @62.0s ("…faith of a criminal was enough.") = the closing two crosses (s11). ✓
+- Every other line checked lands on its intended picture; captions and pictures agree.
+
+### Shipped
+Reviewer card repointed: `data-machine-reason` removed, `data-hash`→`21c7cd35…`,
+`?v=21c7cd356892`, flag → QC-VERIFIED, "what changed" now tells Cameron the timing was
+fixed. Board State NEEDS-REBUILD→BUILT. Deployed + live-verified; back in his Unwatched
+queue. The paraphrases in the V1 narration (taunt in s39+n0b, "remember me" in s42+n3)
+are pre-existing V1 audio content, not the reported defect, and were left untouched.
+
+---
+
+## 🛑 QC-BLOCK → RUNNER PARK — NEEDS-REBUILD (FULL-CUT GATE, 2026-08-11, Machine A `Dev`, unattended/headless) — ✅ RESOLVED ABOVE 2026-08-11
 
 **The 2026-08-07 shipped cut has a whole-video AUDIO↔PICTURE DESYNC of ~4s and must
 NOT reach Cameron. Pulled from his Unwatched queue (reviewer card given

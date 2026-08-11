@@ -63,10 +63,25 @@ REF = True
 # stale voices. Rebuild from this build's own mp3 segments — $0.
 AUDIO_FROM_V1_SEGMENTS = True
 
+# DESYNC RE-TIME (AUTHOR-FIX 2026-08-11, Machine A `Dev`) — QC-BLOCK fix, $0.
+# The 2026-08-07 cut ran the whole back half ~4s BEHIND the pictures: Jesus spoke
+# "today shalt thou be with me in paradise" while the picture was the thief ALONE.
+# ROOT: audio + captions come from extract_beats(95) (the V1 timeline — its n0b.mp3
+# carries the redundant modern paraphrase "if you're really the Christ, save
+# yourself and us", ~3.5s the v2 map never budgeted, plus a "lord remember me"
+# paraphrase in n3). The picture-switch WINDOWS below were authored against a
+# paraphrase-free reading, so they drifted behind the audio that actually plays.
+# The AUDIO LOCK only checks TOTAL duration, so a per-segment slip sails through.
+# FIX (no re-voice, no Gemini spend, V1 stays read-only): the windows below are
+# now set from a faster-whisper transcription of the DELIVERED audio — every
+# picture switches ~0.2s before its own spoken line lands, contiguous, no gaps.
+# Verified by re-transcribing the re-assembled mp4 (see QC.md). Do NOT restore the
+# old windows: the audio is the sole timing authority; pictures must follow it.
+
 BEATS = [
     {
         "id": "v2-r095-b01", "out": "s01-two-criminals-were-crucified-with.jpeg", "seg": "n0a + s39",
-        "window": "0.28-6.92", "wide": True, "jesus": True, "ref": REF,
+        "window": "0.00-8.00", "wide": True, "jesus": True, "ref": REF,
         "locks": ["HILL", "MOCKER", "THIEF"],
         "narration": (
             "Two criminals were crucified with Jesus, one on each side. If "
@@ -96,7 +111,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b02", "out": "s02-that-was-one-of-them.jpeg", "seg": "n0b",
-        "window": "8.43-12.28", "wide": False, "jesus": False, "ref": False,
+        "window": "8.00-16.10", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOCKER"],
         "narration": "That was one of them, sneering at him from the next cross over.",
         "must_show": "the sneer — close on the mocker chest-up: the twisted bitter face aimed sideways at the centre cross; pain turned outward as spite.",
@@ -122,7 +137,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b03", "out": "s03-dost-not-thou-fear-god.jpeg", "seg": "s40",
-        "window": "12.86-16.92", "wide": True, "jesus": False, "ref": False,
+        "window": "16.10-20.90", "wide": True, "jesus": False, "ref": False,
         "locks": ["HILL", "MOCKER", "THIEF"],
         "narration": "Dost not thou fear God, seeing thou art in the same condemnation?",
         "must_show": "SCRIPTURE-EXACT: the rebuke across — the right-hand thief's head turned hard past the centre toward the mocker: the same-condemnation argument thrown cross to cross.",
@@ -149,7 +164,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b04", "out": "s04-and-we-indeed-justly-for.jpeg", "seg": "s40",
-        "window": "16.92-24.56", "wide": False, "jesus": False, "ref": False,
+        "window": "20.90-29.45", "wide": False, "jesus": False, "ref": False,
         "locks": ["THIEF"],
         "narration": (
             "And we indeed justly; for we receive the due reward of our "
@@ -179,7 +194,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b05", "out": "s05-but-the-other-one-stopped.jpeg", "seg": "n1",
-        "window": "26.04-27.39", "wide": False, "jesus": False, "ref": False,
+        "window": "29.45-31.90", "wide": False, "jesus": False, "ref": False,
         "locks": ["HILL", "MOCKER", "THIEF"],
         "narration": "But the other one stopped him.",
         "must_show": "the silencing — the wide three-cross line: the mocker's face turned away silenced, the thief's still lifted; the railing ended.",
@@ -204,7 +219,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b06", "out": "s06-getting-what-we-deserve-he.jpeg", "seg": "n1 + n2",
-        "window": "27.39-34.91", "wide": False, "jesus": True, "ref": REF,
+        "window": "31.90-39.05", "wide": False, "jesus": True, "ref": REF,
         "locks": ["THIEF"],
         "narration": (
             "We're getting what we deserve, he said. Then he turned his head "
@@ -234,7 +249,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b07", "out": "s07-lord-remember-me-when-thou.jpeg", "seg": "s42",
-        "window": "35.48-38.64", "wide": False, "jesus": True, "ref": REF,
+        "window": "39.05-43.75", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILL", "THIEF"],
         "narration": "Lord, remember me when thou comest into thy kingdom.",
         "must_show": "SCRIPTURE-EXACT: the request — the two faces across the gap between their crosses: the thief asking his smallest thing, Jesus's face already turning toward him.",
@@ -259,7 +274,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b08", "out": "s08-no-good-deeds-to-offer.jpeg", "seg": "n3",
-        "window": "40.23-43.80", "wide": False, "jesus": False, "ref": False,
+        "window": "43.75-48.05", "wide": False, "jesus": False, "ref": False,
         "locks": ["THIEF"],
         "narration": "No good deeds to offer. No time left to fix his life.",
         "must_show": "the empty hands — close on the thief's face and bound frame chest-up: a man with absolutely nothing to bring, and the asking done anyway.",
@@ -284,7 +299,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b09", "out": "s09-just-a-dying-man-asking.jpeg", "seg": "n3 + j1",
-        "window": "43.80-51.11", "wide": False, "jesus": True, "ref": REF,
+        "window": "48.05-56.70", "wide": False, "jesus": True, "ref": REF,
         "locks": ["THIEF"],
         "narration": (
             "Just a dying man asking. Verily I say unto thee, today shalt "
@@ -313,7 +328,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b10", "out": "s10-today-not-someday-not-after.jpeg", "seg": "n4",
-        "window": "52.64-55.86", "wide": False, "jesus": False, "ref": False,
+        "window": "56.70-60.40", "wide": False, "jesus": False, "ref": False,
         "locks": ["THIEF"],
         "narration": "Today. Not someday, not after you've earned it.",
         "must_show": "the word landing — close on the thief's face receiving TODAY: disbelief breaking into peace; a dying man handed a same-day appointment.",
@@ -340,7 +355,7 @@ BEATS = [
     },
     {
         "id": "v2-r095-b11", "out": "s11-today-the-faith-of-a.jpeg", "seg": "n4",
-        "window": "55.86-60.17", "wide": False, "jesus": True, "ref": REF,
+        "window": "60.40-64.65", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILL", "THIEF"],
         "narration": "Today. The last-minute faith of a criminal was enough.",
         "must_show": "the closing image — the centre and right crosses together against the grey: the two faces at peace, the promise standing between them; enough, made visible.",
