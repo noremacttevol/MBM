@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 16:17:20",
+ "scanned": "2026-08-11 16:45:01",
  "entries": [
   {
    "row": 1,
@@ -52845,6 +52845,185 @@
    "night": false,
    "n_person": 1,
    "scene": "The lesson has a view at dusk, the camera set behind the seated circle's backs: the little band around the low fire with Jesus among them, John's young face quieted into wonder across the flames \u2014 and beyond the camp, fa"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b01",
+   "file": "build-137-one-as-we-are-one/assets/s01-the-night-before-he-died.jpeg",
+   "tokens": [
+    "GROVE",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "The last night finds him praying first, the camera set low behind the disciples' cloaked backs: on the moonlit slope among the silver olives Jesus has stepped a few paces ahead and stopped \u2014 face lifting, shoulders squar"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b02",
+   "file": "build-137-one-as-we-are-one/assets/s02-that-includes-you.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Three words close the distance of twenty centuries: close on Jesus's face in the moonlight, mid-prayer \u2014 and the warmth in it is not general: it is the particular certainty of a man naming people he can already see, beli"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b03",
+   "file": "build-137-one-as-we-are-one/assets/s03-and-in-that-prayer-he.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The prayer's mailing list is visible over his shoulder: past the praying profile the dark valley falls away scattered with warm window-lights \u2014 dozens near, hundreds far, pricking on toward the horizon until they grain i"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b04",
+   "file": "build-137-one-as-we-are-one/assets/s04-neither-pray-i-for-these.jpeg",
+   "tokens": [
+    "GROVE",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The great intercession is prayed standing, like a son at ease in his father's house: Jesus with his arms open and his face lifted full to the deep star-strewn night, the words moving unhurried through the grove \u2014 not for"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b05",
+   "file": "build-137-one-as-we-are-one/assets/s05-listen-to-how-he-asks.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The grammar of the prayer is on his face: very close in the moonlight, the lips moving with unhurried precision, the brows easy, the eyes lifted with the confidence of a son who has never once been refused \u2014 no formula i"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b06",
+   "file": "build-137-one-as-we-are-one/assets/s06-he-prays-that-his-followers.jpeg",
+   "tokens": [
+    "GROVE",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The prayer draws its great AS-SO in the night air: Jesus's face holds its upward communion \u2014 the oneness he lives in, Father and Son, older than light \u2014 while his open hand turns back toward the fire-lit knot of his foll"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b07",
+   "file": "build-137-one-as-we-are-one/assets/s07-if-that-oneness-meant-one.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Run the wrong reading and look at what it would cost: a whole slope of believers gathered in warm daylight \u2014 old women and young men, children on shoulders, faces round and lean and lined and bright, every single one cri"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b08",
+   "file": "build-137-one-as-we-are-one/assets/s08-it-ask-that.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Four faces answer the misreading at close range: an old fisherman, a young mother, a grey scribe, a girl of twelve \u2014 shoulder to shoulder in the warm light, arms linked down the little line \u2014 and every face entirely, unm"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b09",
+   "file": "build-137-one-as-we-are-one/assets/s09-it-asks-for-perfect-unity.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The farm has always known what the theologians argue about: two oxen \u2014 one dark, one dun, different beasts entirely \u2014 walk the field in ONE wooden yoke, and behind them the furrow runs dead straight through the golden af"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b10",
+   "file": "build-137-one-as-we-are-one/assets/s10-and-the-glory-which-thou.jpeg",
+   "tokens": [
+    "GROVE",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The richest transfer in the prayer moves downhill: Jesus's open hands turn from the night sky toward his men \u2014 the GLORY thou gavest me, I have GIVEN them \u2014 and around the low watch-fire the Eleven's faces sit lit in hon"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b11",
+   "file": "build-137-one-as-we-are-one/assets/s11-two-persons-one-heart.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The lakeshore stages the doctrine at sunset: an old father and his grown son lean back on ONE net-rope in perfectly matched stroke \u2014 grey beard and dark, bent back and straight, two unmistakably different men \u2014 and the n"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b12",
+   "file": "build-137-one-as-we-are-one/assets/s12-the-father-and-the-son.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "What perfect oneness looks like from the Son's side of it: Jesus's face in the moonlight has gone entirely to peace \u2014 not the peace of finishing but of BELONGING, a man at home in a conversation older than the stars over"
+  },
+  {
+   "row": 137,
+   "build": "build-137-one-as-we-are-one",
+   "beat": "v2-r137-b13",
+   "file": "build-137-one-as-we-are-one/assets/s13-and-jesus-prayed-that-you.jpeg",
+   "tokens": [
+    "GROVE",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The prayer's last arc gathers everybody it can reach: Jesus's open hand sweeps from the Eleven drowsing warm by the fire, out across the dark valley where the window-lights burn one by one to the horizon \u2014 the same motio"
   }
  ]
 }
