@@ -1,1 +1,8 @@
-{}
+{
+ "GROVE": {
+  "manual": true,
+  "src_beat": "s01-the-night-before-he-died",
+  "src_build": "build-137-one-as-we-are-one",
+  "src_file": "build-137-one-as-we-are-one/assets/s01-the-night-before-he-died.jpeg"
+ }
+}

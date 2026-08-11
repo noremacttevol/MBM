@@ -49,3 +49,49 @@ b11 at 67s before b12's 61s) — build by WINDOW.
   GROVE family is promote-first per the 0f3796895 GROVE/GARDEN
   split — do not borrow build-40 or Gethsemane plates).
 - DISCIPLES: eleven, varied, no clones (rows 90/107).
+
+## ✅ RUNNER DONE — SHIPPED 2026-08-11 (Machine A `Dev`, unattended/headless)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 137` shows beat map only — no
+Cameron complaint against this row. Fresh from-scratch V2 realistic build.
+
+**Cost:** 13 stills @ $0.134 = ~$1.74, **0 portraits** (all reused, $0),
+**0 rerolls (0% — well under the 15% budget)**. Meter $566.95 → $568.70.
+Under the $6.10/row average → COST-LAW trend DOWN holds.
+
+**Audio:** flag=0 (locked-V1-mp4 path). Pre-flight PASS (total 82.46s vs V1 mp4
+82.50s, newer_mp3s=0). `v2_assemble` printed **AUDIO LOCK PASS
+SHA256=0bf9d0a2…** — narration byte-identical to the V1 cut.
+
+**FULL-CUT GATE (§6b) — one frame per beat from the RENDERED mp4, all 13 + card
+viewed against the defect checklist + this row's doctrine gates. 13/13 CLEAN:**
+- **NO-FUSION doctrine gate PASS:** b07 (millions-of-believers crowd) + b08
+  (family) render every face crisply individual — no merge/blend/composite. ✅✅
+- **FATHER-NOT-EMBODIED doctrine gate PASS:** b12 "the Father and the Son are
+  one" is Jesus's upturned at-home face + warm night sky — NO figure in the sky. ✅✅
+- **Unity vignettes correct:** b09 two visibly different oxen (dark + dun) in ONE
+  yoke, one furrow; b11 old father + grown son hauling ONE net in matched stroke,
+  solid physical rope (no ghost-rope). ✅
+- **Prayer posture = confident intercession (not Gethsemane agony):** b04/b06/b10
+  standing, arms open, face lifted, strong — never collapsed. ✅
+- **Window-lights = countless DISTINCT warm windows (never a glow-mass):** b03/b13. ✅
+- **Jesus:** locked master face every beat, cream-only (no 2nd cream figure), no
+  halo/glow, calm eyes, ordinary scale; disciples distinct/varied (no clones).
+- **Captions:** bottom-band only, never covering art; RED-letter Jesus KJV on
+  b04/b10 (John 17:20-23), white narrator elsewhere; closing card renders clean.
+- **Clear on:** modern objects, lens-stare, collage/panels, rotation, anatomy,
+  time-of-day (night grove for the scene beats; b07/b08/b09/b11 concept vignettes
+  in day/memory-light BY DESIGN per author).
+
+**FIX-WAVE (subtle, non-blocking — do NOT reroll, would burn budget / re-seed
+good frames):**
+- b05: cool moonlight puts a faint blue sheen on the hair crown (lighting, not a
+  dye; hair fundamentally dark; 1.3s beat). Weaker than the row-69 orange class.
+- b12: a soft, ambiguous distant domed building on the far Jerusalem ridge — night
+  silhouette, not clearly a gold dome, non-hero background; a reroll would re-seed
+  the whole (doctrinally-perfect) vista for one distant speck.
+- b01/b06/b10/b13 share the GROVE promote-first circle-wide composition (expected
+  plate propagation — row-101 class); each carries a distinct gesture/moment.
+
+**Plate:** GROVE promoted from this row's own b01 (manual, per author — NOT
+borrowed from build-40/Gethsemane per the 0f3796895 GROVE/GARDEN split).
