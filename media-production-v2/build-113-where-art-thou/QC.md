@@ -1,5 +1,29 @@
 # QC / RUNNER HANDOFF — build-113-where-art-thou (Genesis 3)
 
+## ✅ SHIPPED — C-FIX 2026-08-11 (Opus, Machine A `Dev`) — Cameron DIRECT ORDER: God-the-Father embodiment consistency + rags root cause CLOSED. Full-cut gate + order check + served-bytes verified.
+
+**Complaint (v2_outline OPEN):** "God has a body, we've been through this... create a character for him so his look doesn't change much like Jesus... 0:25 they are sitting on water... the first two thirds where they are wearing rags needs to be changed (nothing → fig leaves), last third (God makes them clothes) stay."
+
+### COMPLAINT LEDGER — this cut answers every part
+- **"God has a body / one locked character like Jesus" → SHIPPED (was authored but never actually shipped; live 9aeeb822 showed him embodied in only ~3 beats).** Verified via FACE-BOARD of ALL 9 God beats from the rendered mp4: the Father is the SAME embodied man — white hair, full white beard, brilliant white robe (he alone; only Jesus wears cream), no halo/light — in s02, s07, s08, s10, s11, s17, s20, s23, s26. No light/void/disembodied presence anywhere. god.jpeg is his canon.
+- **"first two thirds wearing RAGS" → FIXED (this is what stranded the row).** Root cause was the CLOTHED identity anchors (eve.jpeg=burlap hood+tunic, adam.jpeg=wool tunic) reprinting wool on tight crops, unbeatable by pipeline reroll (3 prior passes failed). Fixed with COMPOSITION-PRESERVING identity-edits (gemini-3-pro-image) of the 5 stubborn frames — wool swapped for post-fall coverings, faces/poses/backgrounds untouched: s05 (nothing, shadow+hair), s06 (fig leaves), s15/s16 (hood gone, hair+fig-leaf), s19 (wool robes → fig-leaf garments). Zero woven cloth remains before the coats. Female-nudity phrasing tripped Gemini safety on portraits/b19 first try → clothed-positive fig-leaf phrasing passed (b13/b18 prove the model renders it).
+- **"0:25 sitting on water" → FIXED (prior author pass, verified held):** s05 is on solid mossy earth in shadow, no water under them.
+- **Last third (coats) KEPT byte-identical** (s21/s23/s24) — Cameron approved "those are good."
+
+### GATES (Cameron's laws, all PASS)
+- **AUDIO REBUILD PASS SHA256 4cdc391c… — byte-identical to the already-reviewed cut. Narration/voices/timing UNTOUCHED** (AUDIO_FROM_V1_SEGMENTS, 15 V1 mp3s, 163.079s). Only 5 image files swapped (identical 1536×2752 dims); zero timeline change.
+- **FULL-CUT GATE:** one frame per beat from the RENDERED mp4 — all 26 + question card PASS (Father consistent; no wool; captions bottom-band, speaker colors blue-scripture/white-narrator/green-Father; card clean; realistic throughout, no cartoon/modern/anatomy defect).
+- **ORDER CHECK:** faster-whisper small.en beam5 transcript matches the script; every anchor lands on its picture incl. all 5 fixed frames (22-26s→s05, 80-84s→s15, 84-87s→s16, 104-108s→s19, 108-113s→s20). NO drift.
+
+### COST
+5 identity-edits + 1 adam-portrait probe (unused) + 1 eve-portrait probe (safety-blocked) ≈ 7 Gemini image calls ≈ **$0.94**, audio $0 — well under the $6.10/row average. Touch-once (all fixes batched into one re-cut).
+
+### ⚠ FOLLOW-UP (non-blocking, for the AUTHOR lane): the CAST-REF-V2 portrait anchors adam.jpeg/eve.jpeg are STILL clothed in wool. This ship bypassed them via direct frame-edits, so the shipped cut is clean — but any FUTURE pipeline re-cut of an Adam/Eve beat would reprint wool again. A female-nude portrait regen trips Gemini safety; regenerating the anchors as fig-leaf/hair (clothed-positive) closes the landmine for good. Left as an author task, not a ship blocker.
+
+---
+
+# QC / RUNNER HANDOFF — build-113-where-art-thou (Genesis 3)
+
 ## 🅿️ RUNNER PARK — 2026-08-07 (Opus paid C-FIX attempt, Machine A `Dev`) — ROOT-CAUSED to CLOTHED CAST PORTRAITS → NEEDS-REBUILD (AUTHOR fix required, runner cannot fix within rails)
 
 **Complaint being fixed (vs live `9aeeb822`):** "God has a body… his look doesn't
