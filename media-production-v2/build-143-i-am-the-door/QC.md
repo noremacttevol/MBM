@@ -1,3 +1,23 @@
+## 🅿️ RUNNER $0 PRE-FLIGHT PARK → NEEDS-AUDIO (2026-08-11, Machine A `Dev`, Opus runner)
+
+**Parked at $0 BEFORE any still was generated (row-141 lesson: pre-flight the AUDIO
+LOCK even when the board says Audio OK).** This row is STALE-V1: the current V2
+audio segments no longer match the old V1 render.
+
+- extract_beats timeline (current `audio/*.mp3` segments) = **63.156s**
+- authoritative V1 final mp4 = **66.153s** → gap **2.997s** (past the 0.75s guard); `AUDIO_FROM_V1_SEGMENTS` is NOT set.
+- 7 segments, spec 44100/128000/mono = the new-voice ElevenLabs cast spec (Brian narrator / Chris Jesus) — so a re-voice is probably NOT needed, only the flag.
+
+**AUDIO LANE — RESUME (row-200/118/22 template, expected $0/no re-voice):**
+1. Voice-ID the segments to confirm they are the new ElevenLabs cast (not old edge-tts); re-voice ONLY any wrong seg first.
+2. Set `AUDIO_FROM_V1_SEGMENTS = True` in `build-143-i-am-the-door/beats_v2.py`.
+3. Hand back to the picture runner: `v2_prompt.py build-143-i-am-the-door --check` (PASS) → generate the beats → `v2_assemble.py 143` must print **AUDIO REBUILD PASS** (~63.2s) → FULL-CUT GATE → ship + deploy + live-verify.
+
+The runner does NOT set the flag itself (beats_v2.py is off the runner's allowed-write
+list; the runner-prompt step 6 says an AUDIO-LOCK failure = stop the row, log, do not ship).
+
+---
+
 # QC / RUNNER HANDOFF — build-143-i-am-the-door (John 10:1-9)
 
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero
