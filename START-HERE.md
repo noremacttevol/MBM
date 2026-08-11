@@ -19,7 +19,7 @@ re-verified first-hand via iTunes lookup, ASC API, Play Developer API, EAS, and 
   upload all 6 from store-assets/ via API in seconds — or Cameron drags them in manually).
   ALSO: Google Play developer verification (register apps + signing keys) has a HARD
   DEADLINE of Sep 30, 2026 (Google email 2026-08-06).
-- **App content: catalog now 107 stories (was 96), 87 produced/playable.** 11 approved
+- **App content (updated 2026-08-11 — REALISTIC-ONLY PURGE): catalog 107 stories, 44 playable — EXACTLY Cameron's approved realistic set.** The 43 old-era cuts were pulled from the app (verse-only cards now) AND off hosting (URLs 404; files archived in media-production-v2/gallery-archive-v1/, restorable). OTA e83c3d1b shipped the trim. `scripts/audit_public_videos.py --live` is the PUBLIC-VIDEO GATE — it must PASS before any video deploy/OTA, and it PASSED live 2026-08-11 (44 byte-exact vs approval sha1s, 43 old URLs dead). When a re-cut is approved, add its id back + gallery file in the same session. (Older text of this bullet:) catalog 107 (was 96), 87 produced/playable. 11 approved
   realistic videos that were invisible (in PRODUCED_VIDEO_IDS but missing catalog
   entries: 46,56,57,64,68,75,76,79,81,85,91) were registered 2026-08-07 and shipped via
   OTA group fffd2ab4 (runtime 1.1.0, both platforms). 16 missing thumbnails cut +

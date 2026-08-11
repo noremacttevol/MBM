@@ -98,18 +98,21 @@ export function videoThumbUrl(id: number): string {
 // approved; #128 is held out because its build is the archived duplicate cut of
 // #156 (same Amos 8 famine-of-hearing story) — shipping both would show the same
 // story twice. Everything he has not approved is OUT (verse-only card).
+// REALISTIC-ONLY PURGE (2026-08-11, Cameron: old-style videos must NOT be
+// published on the app or website): this set is now EXACTLY the rows whose
+// LATEST app-gallery version in media-production-v2/PUBLISH-LEDGER.json is a
+// v2.x realistic new-voice cut. The 43 old-era (v1.1, pre-realistic-law) rows
+// were removed here AND their mp4s were pulled off hosting — those stories show
+// the verse-only card until their realistic re-cut is approved. Keep this set
+// in lockstep with the ledger; scripts/audit_public_videos.py verifies it and
+// must PASS before any deploy/OTA that touches videos.
 export const PRODUCED_VIDEO_IDS = new Set<number>([
-  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 18, 20,
-  21, 22, 23, 24, 25, 26, 27, 28, 29,
-  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 49,
-  53, 56, 57, 58, 59,
-  64, 68, 75, 76, 79, 81, 85, 91, 92, 99,
-  100, 101, 102, 103, 104, 105, 106, 110,
-  114, 115, 116, 117, 118, 120,
-  136, 138, 139,
-  141, 142, 143, 144, 145,
-  152, 154, 156, 158,
-  200,
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 14, 20,
+  21, 23, 24, 25, 26, 28, 29,
+  30, 32, 34, 35, 36, 37, 38, 41, 43, 46, 47,
+  53, 56, 57, 58,
+  64, 68, 75, 76, 79, 81, 85, 91,
+  101, 114,
 ]);
 
 export function isVideoProduced(id: number): boolean {

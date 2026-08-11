@@ -46,6 +46,14 @@
 >     the same way the old-voice approvals were. On the reviewer, cartoon-era
 >     cuts sit in "Old style — NOT ready to review" and must never be placed in
 >     the Unwatched queue as if they were finished work.
+>     **PUBLIC SURFACES TOO (Cameron, 2026-08-11: "there are still old videos
+>     published on my app and the website"): the APP GALLERY and WEBSITE must
+>     never serve an old-era cut either — a not-yet-redone story shows the
+>     verse-only card, not the void video. Enforced mechanically:
+>     `python3 scripts/audit_public_videos.py --live` must PASS (exit 0) before
+>     any deploy or OTA that touches videos, and when a re-cut is approved the
+>     publisher adds its id back to PRODUCED_VIDEO_IDS + gallery in the same
+>     session. Assurance is the gate's output, never an agent's word.**
 >
 > _Full detail below and in the linked files. If anything here conflicts with a detail
 > section, the stricter/more-recent one governs — and tell Cameron so it gets fixed._
