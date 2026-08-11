@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 14:53:58",
+ "scanned": "2026-08-11 15:15:56",
  "entries": [
   {
    "row": 1,
@@ -52645,6 +52645,206 @@
    "night": false,
    "n_person": 2,
    "scene": "The questioning season ends without a gavel: along the shaded portico the other questioners drift quietly away in twos and threes \u2014 not routed, not shamed, just finished, their last and best question having been asked by"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b01",
+   "file": "build-132-forbid-him-not/assets/s01-master-we-saw-one-casting.jpeg",
+   "tokens": [
+    "CAMP"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The report is filed with full confidence: John stands before Jesus at the roadside camp, one arm flung back toward the road behind him \u2014 we SAW him, Master, using your name, and he is not one of us, and we STOPPED him \u2014 "
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b02",
+   "file": "build-132-forbid-him-not/assets/s02-john-came-to-jesus-with.jpeg",
+   "tokens": [
+    "CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The complaint wears the face of loyalty: close on John in the late gold light, young features set with the earnest gravity of a man discharging a duty \u2014 the grievance held carefully, like something carried a long way to "
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b03",
+   "file": "build-132-forbid-him-not/assets/s03-seen-someone-driving-out-demons.jpeg",
+   "tokens": [
+    "STREET",
+    "STRANGER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What they saw was mercy working under license: in the bright lane the stranger's hands lift away from a young man's calmed brow \u2014 and the man RISES, steady, clear-eyed, free, his mother's hands flying to her mouth at the"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b04",
+   "file": "build-132-forbid-him-not/assets/s04-so-they-told-him-to.jpeg",
+   "tokens": [
+    "STREET",
+    "STRANGER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The good work meets a checkpoint: two of the circle step in with palms raised flat at the stranger \u2014 stop; not one of us; not authorized \u2014 and the plain man in brick-red halts with his hands still warm from the freed boy"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b05",
+   "file": "build-132-forbid-him-not/assets/s05-the-man-with-them-so.jpeg",
+   "tokens": [
+    "CAMP"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The nod John came for never arrives: the case finished, the young disciple waits with his chin slightly lifted for the approval that follows a duty done \u2014 and Jesus simply looks at him, level and quiet in the gold light,"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b06",
+   "file": "build-132-forbid-him-not/assets/s06-he-went-after-the-instinct.jpeg",
+   "tokens": [
+    "CAMP"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The correction goes past the complaint to its engine room: Jesus's gaze settles on John with gentle precision, and one open hand turns toward the young man's own chest \u2014 not the stranger, the gesture says; not the rules;"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b07",
+   "file": "build-132-forbid-him-not/assets/s07-forbid-him-not-for-there.jpeg",
+   "tokens": [
+    "CAMP"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verdict lowers a barrier instead of raising one: Jesus's open hand presses gently downward through the air \u2014 forbid him NOT \u2014 the gesture itself taking the checkpoint down, palm easing the whole apparatus of stopping"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b08",
+   "file": "build-132-forbid-him-not/assets/s08-for-he-that-is-not.jpeg",
+   "tokens": [
+    "CAMP"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The team roster gets rewritten with one arm: Jesus's hand sweeps open toward the far road and the villages beyond it, where somewhere a man in brick-red is still doing wonders in a name he loves \u2014 on OUR part, the arc sa"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b09",
+   "file": "build-132-forbid-him-not/assets/s09-nobody-works-a-miracle-in.jpeg",
+   "tokens": [
+    "STREET",
+    "STRANGER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The proof of the logic is on the stranger's face while he works: kneeling by an old woman's mat in the lane's shade, his hands gentle at her shoulder, the name leaving his lips with the unmistakable reverence of a man sp"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b10",
+   "file": "build-132-forbid-him-not/assets/s10-whoever-against-us-is-on.jpeg",
+   "tokens": [
+    "STREET",
+    "STRANGER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The new arithmetic fits everyone in one frame: down the bright lane the little band of disciples walks the road, and at the near doorstep the stranger steadies the old woman onto her feet \u2014 two crews of the same kingdom "
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b11",
+   "file": "build-132-forbid-him-not/assets/s11-for-whosoever-shall-give-you.jpeg",
+   "tokens": [
+    "STREET"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The kingdom's smallest denomination is minted at a cistern: a villager dips a plain clay cup and presses it, dripping and cool, into the dusty hands of a road-worn disciple \u2014 because of the name he travels under, nothing"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b12",
+   "file": "build-132-forbid-him-not/assets/s12-john-thought-he-was-protecting.jpeg",
+   "tokens": [
+    "CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The instinct he acted on was guarding something he loves: John with one fist drawn in against his chest like a man holding a small flame out of the wind, brows knit with completely sincere worry \u2014 the cause, the circle, "
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b13",
+   "file": "build-132-forbid-him-not/assets/s13-whoever-gives-a-cup-of.jpeg",
+   "tokens": [
+    "STREET"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The whole teaching fits between two pairs of hands: close on the plain clay cup mid-pass, water bright and trembling at the rim, the giver's rough fingers releasing as the traveller's close \u2014 and beyond the cup the giver"
+  },
+  {
+   "row": 132,
+   "build": "build-132-forbid-him-not",
+   "beat": "v2-r132-b14",
+   "file": "build-132-forbid-him-not/assets/s14-john-learned-a-lesson-that.jpeg",
+   "tokens": [
+    "CAMP"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The lesson has a view at dusk, the camera set behind the seated circle's backs: the little band around the low fire with Jesus among them, John's young face quieted into wonder across the flames \u2014 and beyond the camp, fa"
   }
  ]
 }
