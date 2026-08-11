@@ -130,3 +130,39 @@ question card clean (no squares).
 
 **Cost:** 1 portrait $0.13 + b06 anchor $0.13 + 13-beat run $1.74 = **~$2.00 this row**,
 0 rerolls. Well under the $6.10/row average — COST LAW trend holds DOWN.
+
+---
+
+## ✅ QC-VERIFY — full-cut gate CLEAN, Opus runner Machine A `Dev` (UNATTENDED/HEADLESS), 2026-08-11
+
+Per PROMPT-OPUS-RUNNER §6b (row 11 reached Cameron with 7 bad frames), ran the
+full-cut gate on this BUILT row BEFORE Cameron's eyes reached it in the Unwatched
+queue. VERIFY pass — no fresh build, $0.
+
+**Method:** extracted ONE frame per beat from the RENDERED mp4 at each c000–c013
+segment MIDPOINT (real segment durations, not the raw beat windows) + the closing
+card, and viewed all 15 against the defect checklist + RUNNER-LESSONS + this row's
+resolved state (only park was NEEDS-AUDIO/STALE-V1, cleared — no open complaint to
+regress).
+
+**Result: CLEAN — 0 defects, no re-cut.**
+- Double-yoke doctrine reads across the oxen cutaways: b06 defines the shared beam,
+  **b11 = one ox laboring beside the unmistakably EMPTY bow-loop**, b12 second ox
+  stepped IN under the open loop, b13 the pair pulling with the plough STILL biting
+  (rest = shared pulling, field not finished).
+- Carrier echo arc held: sack roped on his back alone (b01/b04/b05), coming WHILE
+  loaded (b07), b14 closes with Jesus's hand honestly bearing weight under the sack
+  beside him — the load never removed.
+- Cream only ever on Jesus; correct anatomy every figure (two arms/hands/one head);
+  warm day's-end gold (correct story sunset, NOT the row-11 defect); dignified weary,
+  never wretched; no halo, no second cream figure, no modern object, no collage/cartoon,
+  no lens-stare defect. Captions bottom-band only, Jesus sayings red / narrator white,
+  closing card clean (no squares).
+- Identity: Jesus dark wavy shoulder-length hair, full dark beard, warm skin/eyes,
+  ordinary scale beside the carrier/crowd in every multi-figure frame — no giant.
+
+**Live-verified (SERVED-BYTES law):** reviewer card v80 carries data-hash
+`90028b50…` (on origin/main); served raw mp4 md5 `3232e697…` (19,630,029 bytes) ==
+local committed mp4 — the frames I gated ARE the bytes Cameron will watch.
+
+Board claim cell: QC-OK 2026-08-11. Cost $0, 0 rerolls.

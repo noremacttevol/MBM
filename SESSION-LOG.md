@@ -1,3 +1,32 @@
+## 2026-08-11 (cont. 6) — Row 80 QC-VERIFY (Come Unto Me, Matthew 11:28-30) — FULL-CUT GATE before Cameron's eyes — Machine A `Dev`
+
+**Commit:** (this entry's commit).
+
+Row 80 (build-80-come-unto-me) was BUILT and sitting in Cameron's Unwatched queue.
+Per PROMPT-OPUS-RUNNER §6b (row 11 reached him with 7 bad frames: "my quality is
+going down"), ran the full-cut gate BEFORE he watched it — a VERIFY pass, no fresh
+build, $0.
+
+- Extracted ONE frame per beat from the RENDERED mp4 at each c000–c013 segment
+  MIDPOINT (real segment durations) + the closing card, and viewed all 15 against
+  the defect checklist + RUNNER-LESSONS + the row's resolved state (only park was
+  NEEDS-AUDIO/STALE-V1, cleared; no open complaint to regress).
+- **CLEAN — 0 defects, no re-cut.** Double-yoke doctrine reads (b06 shared beam →
+  b11 one ox beside the EMPTY loop → b12 second ox stepped in → b13 pair pulling,
+  plough still biting = rest is shared pulling, field not finished). Carrier echo
+  arc held (sack on his back alone b01/b04/b05 → coming WHILE loaded b07 → b14 Jesus
+  bearing weight under the sack beside him, load never removed). Cream only on Jesus,
+  correct anatomy everywhere, warm day's-end gold (correct story sunset), dignified
+  weary, no halo/second-cream/modern-object/collage/cartoon/lens-stare. Captions
+  bottom-band, sayings red / narrator white, card clean.
+- **Live-verified (SERVED-BYTES law):** reviewer card v80 data-hash `90028b50…`
+  (on origin/main); served raw mp4 md5 `3232e697…` (19,630,029 bytes) == local
+  committed mp4 — the frames I gated ARE the bytes Cameron will watch.
+
+**Cost:** $0, 0 rerolls (verify only). Board claim → QC-OK 2026-08-11.
+
+---
+
 ## 2026-08-11 (cont.) — Row 66 C-FIX SHIPPED: COMPLETE RESTART (2nd re-open, Malchus's ear) — Machine A `Dev`
 
 **Commit:** ship = `d7ee7fb540ed`; card/board/log = (this entry's commit).
