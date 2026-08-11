@@ -1019,6 +1019,20 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   → NEEDS-REBUILD (author lane; the audio lane's AUDIO_FROM_V1 rebuild only
   reproduces it). Compare `extract_beats.extract(row)`'s beat list against
   `beats_v2.py` BEATS one-to-one; any count/content mismatch is the smoking gun.**
+  **AUTHOR-LANE FIX (row 95, 2026-08-11, $0, no re-voice, V1 read-only):** the audio
+  (from `extract_beats`) is the SOLE timing authority; the beats_v2 `window` fields
+  ONLY control when pictures SWITCH. So do NOT try to strip paraphrases out of the
+  read-only V1 mp3s — instead RE-TIME the picture windows to the audio that actually
+  plays: transcribe the delivered mp4 (faster-whisper), then set every beat's window
+  START ~0.2s before its own spoken line's first word (contiguous, `end` is cosmetic
+  — only `start` is used, each beat holds until the next beat's start). Re-assemble
+  (`v2_assemble.py <row>`; audio stays byte-identical, same AUDIO REBUILD hash), then
+  RE-TRANSCRIBE + frame-check the new mp4 to prove the Jesus line lands on the Jesus
+  frame. Ship: board NEEDS-REBUILD→BUILT, reviewer card repointed (new mp4 sha256 as
+  data-hash + ?v=, remove data-machine-reason, flag→QC-VERIFIED, card text tells
+  Cameron the timing was fixed), deploy + live-verify served-bytes == local. The V1
+  narration's redundant paraphrases (a KJV line + its modern echo) are pre-existing
+  content, NOT the defect — leave them; the fix is purely picture timing.
 
 - **The STALE-V1 pre-flight has a STRICTER gate than the documented `abs(total-d)≤1.0`
   heuristic — `assert_v1_final_is_current` refuses on RUNTIME EXCESS > 0.75s, so trust the
