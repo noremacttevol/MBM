@@ -1,5 +1,50 @@
 # QC / RUNNER HANDOFF — build-52-demoniac-synagogue (Mark 1:21-28 / Luke 4)
 
+## FULL-CUT GATE (6b) QC-FIX — 2026-08-11 (Machine A `Dev`, unattended/headless)
+
+Per-rendered-frame gate on the BUILT cut in Cameron's Unwatched queue (was live
+hash `9ade9e88f4fc`). Extracted ONE frame per beat (24) from the RENDERED mp4 at
+each still's window midpoint + the question card, viewed every one against the
+defect checklist + RUNNER-LESSONS + realistic-only / cream-only-Jesus / caption
+laws, weighting the FREEDMAN face hardest (this row's 3×-reopened complaint).
+
+**COMPLAINT LEDGER (open complaint — `v2_outline.py 52`):** *"The demoniac face
+kept changing shaved to not shaved, beard to no beard to old man... 0:50 the
+demoniac looks normal but Jesus doesnt. 1:02 no beard again. 1:23 no beard same
+with 1:29. Just redo every picture."* → **CONFIRMED NOT REGRESSED by the gate.**
+The freedman is ONE consistent gaunt dark-haired, dark-bearded man across every
+appearance — s05/s06/s07/s08/s09/s10/s11/s12/s14/s15/s16/s17/s18/s19 — including
+the exact frames the failed C-FIX#2 flipped: **s08** (was grey-maned OLD MAN) now
+canonical dark; **s14** (was near-BALD) now full dark hair; **s05/s07** (were
+short/shaved) now full dark beard; **s11** (was a triptych) now a single figure.
+Complaint timestamps verified in the RENDERED mp4: **0:50 (s10)** Jesus calm and
+himself (cream, dark hair, full dark beard) across from the freedman; **1:02
+(s12) / 1:23 (s15) / 1:29 (s16)** all show a dark beard present, never shaven,
+never grey-old. The C-FIX#3 tight-face-crop anchor holds. Question card renders
+fully clean (the "squares at end of every line" complaint stays FIXED).
+
+**23/24 stills + card CLEAN on first view. ONE blocking defect fixed (touch-once):**
+- **s24 (`v2-r052-b24`, closing going-out landscape):** the foreground traveler
+  rendered **blond with a ginger beard** — the only non-dark-haired person in the
+  whole video and the MAIN subject of the final frame (unpinned incidental extra,
+  `jesus:False ref:False locks:[]`, row-47 fair-extra class). BLOCKS under 6b.
+  Reroll #1 fixed the hair + turned the road to dirt but rendered a **modern
+  vehicle** at the distant village (modern-object, row-71 going-out class).
+  Reroll #2 (accepted): dark-haired traveler + dark-haired family + donkey,
+  natural dirt road, ancient stone village verified vehicle-free at full-res
+  crop. **2 rerolls / 24 beats = 8.3% (≤15% budget). ~$0.26, meter $568.70→$568.96.**
+- **FIX-WAVE (logged, non-blocking):** s24 far ridge carries a hair-thin, blurred,
+  distant vertical (possible antenna) imperceptible at viewing scale — borderline-
+  distant per the row-71 lesson, at the 2-reroll cap; kept the best take. s04 one
+  incidental child's hair is light-brown (row-47 FIX-WAVE, not blond).
+
+Re-assembled: **AUDIO LOCK PASS SHA256 `1005cde1…` (byte-identical to the base
+ship — audio untouched, no re-voice).** 23 stills byte-identical, only s24 swapped.
+New mp4 156.6s / 19.8 MB. FULL-CUT GATE on the new s24 as rendered in the mp4:
+clean. Shipped hash below; deployed + live-verified. No approval voided (row was
+in Unwatched, not Approved).
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 24 beats, ~145 s.
 
