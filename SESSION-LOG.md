@@ -1,3 +1,19 @@
+## 2026-08-11 (cont. 29) — Row 98 "Mary her Name" (John 20) QC-VERIFY (FULL-CUT GATE 6b) on the BUILT cut in Cameron's Unwatched queue — CLEAN, no re-cut — $0, 0 generation — Machine A `Dev`, unattended/headless
+
+**Commit:** see git push below (AUTHOR-BOARD QC-OK claim + build-98 QC.md QC-OK block + this SESSION-LOG). Session-chain verified at start (cont.28 = `16698a1d8`, pinned by `f87f92892` — both in `git log`). **$0 / 0 image generation / 0 rerolls** — a pure VERIFY pass on a BUILT row before Cameron's eyes reached it (the row-11 "quality is going down" mandate).
+
+Ran the VERIFY-PASS on AUTHOR-BOARD's BUILT row 98 (build-98-mary-her-name, John 20:11-18, 21 stills / 126.7s), sitting in Cameron's Unwatched queue. Claimed the board (`QC-VERIFY 2026-08-11 LIVE`), extracted ONE frame per beat (21) from the RENDERED mp4 at each clip's mid-window (durations from segs/c000–c020) + 2 caption frames + the closing card, and viewed every frame against the defect checklist + RUNNER-LESSONS. No open Cameron complaint (`v2_outline.py 98` = beat map only) → COMPLAINT LEDGER none open, zero regression risk.
+
+- **Verdict: CLEAN — QC-OK, NOT re-cut** (instruction explicit: do not re-cut a clean row).
+- **Jesus ONE locked master face every appearance** (12 Jesus beats): warm Middle-Eastern, dark wavy hair, full beard, warm brown/green eyes, **cream-only** (Mary madder-red; NO 2nd cream figure anywhere, incl. b21 disciples in brown/tan), **no halo/glow/rim-light** (golden-hour hair backlight natural), ordinary human scale — no giant/composite.
+- **Mary Magdalene** madder-red-locked and consistent across all 21; grief→recognition→joy arc reads (gardener billhook b09; RABBONI b11/12; rush b14/16; run b20; first-sermon at the disciples' door b21). Soft touch-me-not reads as a gentle stay, not recoil (b16/17/18).
+- **Captions two-voice correct, bottom-band only:** narrator WHITE, **WOMAN pink** (0xFF9EC7 — the defined color for any woman the Bible records speaking, verified in mbm_speakers.py; NOT a defect) on Mary's KJV lines, **Jesus RED** on his red-letter (b17). Card renders clean.
+- **Live-verified (assurance = gate output, not my word):** github-raw served mp4 md5 `30f8a031119d9c30c0d181d5c4609664` == local == the QC'd bytes; HTTP 200, 20,662,192 B. Live card `v98` hash `e665631f…`, NO `data-machine-reason` (correctly in Unwatched). No deploy needed (clean, already live). Cameron watches the exact bytes I gated.
+- **FIX-WAVE (pre-logged, NOT blocking, NOT re-cut):** soft LOCATION-continuity variance — most tomb-exterior beats are the lush olive-garden but b10/b11/b21 read as a drier arid/wilderness rock-tomb palette; each frame individually reverent+realistic, cross-frame harmonisation is the fix wave's job (touch-once/cost law forbids voiding a pending approval chasing subtle drift). Plus the already-logged s19 draped-cloth + s01-plate red-speck.
+- **Next:** row 98 stays BUILT/Unwatched, now carrying a QC-OK stamp so Cameron sees a verified cut. Continue the VERIFY-PASS on the next BUILT-but-unverified row in his queue.
+
+---
+
 ## 2026-08-11 (cont. 28) — Row 95 "Thief on the Cross" QC-VERIFY (FULL-CUT GATE 6b) on the re-shipped giant-composite-fix cut, in Cameron's Unwatched queue — CLEAN, no re-cut — $0, 0 generation — Machine A `Dev`, unattended/headless
 
 **Commit:** `16698a1d8b501fc7f5bc4b8908250b620337d14f` (AUTHOR-BOARD QC-OK claim + build-95 QC.md QC-OK block + this SESSION-LOG). Session-chain verified at start (cont.26 = `048fc7024`, in history; cont.27 row-132 = `5bd6d4631`, the latest commit — parallel lanes, expected under PARALLEL-LANES LAW). **$0 / 0 image generation / 0 rerolls** — a pure VERIFY pass on a BUILT row before Cameron's eyes reached it (the row-11 "quality is going down" mandate).

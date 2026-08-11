@@ -88,3 +88,19 @@ Runner cannot fix (audio-immutability; needs an author edit to beats_v2.py).
 - A tiny recurring red speck on a background tree propagates from the TOMB plate (s01) into TOMB-locked frames — negligible background artifact, FIX-WAVE.
 
 **Cost:** row spend ≈ $3.48 (490.17 − 486.69 on the meter): 20 beats $2.68 + s19 reroll $0.13 + the good b01 plate $0.13 + the one wasted build-37-plate b01 $0.13 + the promote is free. Under the $6.10/row average — COST-LAW trend DOWN holds. QC rerolls 4.8%.
+
+---
+
+## QC-VERIFY (FULL-CUT GATE 6b) — 2026-08-11, Machine A `Dev` — CLEAN, QC-OK, NOT re-cut
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 98` = beat map only, no Cameron complaint on file). Pure verify pass before Cameron's eyes reached this BUILT row in his Unwatched queue (the row-11 "quality is going down" mandate).
+
+Extracted ONE frame per beat (21) from the RENDERED mp4 at each clip's mid-window (durations from segs/c000–c020) + 2 caption frames + the closing card, and viewed every frame against the defect checklist + RUNNER-LESSONS.
+
+- **Verdict: CLEAN — QC-OK, NOT re-cut** (instruction: do not re-cut a clean row).
+- **Jesus ONE locked master face on every appearance** (b04/05/06/09/12/13/14/15/16/17/18/19): warm Middle-Eastern, dark wavy hair, full beard, warm brown/green eyes, **cream-only** (Mary is madder-red — no 2nd cream figure anywhere, incl. the b21 disciples in brown/tan), **no halo/glow/rim-light** (golden-hour hair backlight is natural). Ordinary human scale — NO giant/composite.
+- **Mary Magdalene** madder-red-locked and consistent across all 21 beats; grief→recognition→joy arc reads (b11/12 RABBONI, b14/16 rush, b20 run, b21 first-sermon at the disciples' door).
+- **Story gates read at a glance:** gardener billhook (mistakable-as-gardener) b09; soft touch-me-not stay (not recoil) b16/17/18; commission-pointing compass b19; b21 discloses no accidental second Jesus among the Twelve.
+- **Captions two-voice correct + bottom-band only:** narrator WHITE, **WOMAN pink** (0xFF9EC7 — the defined color for any woman the Bible records speaking; verified in mbm_speakers.py, NOT a defect) on Mary's KJV lines (w13/w15), **Jesus RED** on his red-letter (b17 "…my Father, and your Father"). Card renders clean (serif, centred, cream): "He knows your name — and he speaks it even in your grief. Listen for it."
+- **Live-verified (assurance = gate output, not my word):** github-raw served mp4 md5 `30f8a031119d9c30c0d181d5c4609664` == local == the bytes I gated; HTTP 200, 20,662,192 B. Live review card `v98` hash `e665631f…`, NO `data-machine-reason` (correctly in Unwatched). No deploy needed (clean, already live). Cameron watches the exact bytes I QC'd.
+- **FIX-WAVE (pre-logged, NOT blocking, NOT re-cut):** soft LOCATION-continuity variance — most tomb-exterior beats are the lush olive-garden, but b10/b11/b21 read as a drier arid/wilderness rock-tomb palette; each frame is individually reverent and realistic, cross-frame soft-continuity harmonisation is the fix wave's job (touch-once/cost law forbids voiding a pending approval to chase subtle drift). Also carries forward the already-logged s19 draped-cloth oddity + the s01-plate background red speck.
