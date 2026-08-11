@@ -36,7 +36,7 @@ V1 = os.path.join(ROOT, "media-production")
 # Dup-numbered rows: the one build folder that is canonical for that row.
 # Mirrors media-production/corpus.py CANONICAL_BUILD_SLUGS.
 CANONICAL_BUILD_SLUGS = {
-    44: "two-debtors",
+    44: "pentecost",  # swapped 2026-07-23 (Cameron): two-debtors was a double-telling of #74
     65: "help-mine-unbelief",
     67: "the-transfiguration",
     86: "the-wise-men",

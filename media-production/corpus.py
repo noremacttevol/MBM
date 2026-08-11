@@ -31,7 +31,7 @@ FINAL_MP4_RE = re.compile(r"^[0-9a-z]+(?:-[0-9a-z]+)*-\d+_.+\.mp4$")
 # Rows with two root-level folders.  The other folder is historical and must never
 # be selected by QC, re-voice, rebuild, or publish tooling.
 CANONICAL_BUILD_SLUGS: dict[int, str] = {
-    44: "two-debtors",
+    44: "pentecost",  # swapped 2026-07-23 (Cameron): two-debtors was a double-telling of #74
     65: "help-mine-unbelief",
     67: "the-transfiguration",
     86: "the-wise-men",

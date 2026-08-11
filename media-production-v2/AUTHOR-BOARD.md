@@ -55,7 +55,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 41 | build-41-counting-the-cost | BUILT | 58 | OK |  |  |
 | 42 | build-42-barren-fig-tree | BUILT | 35 | OK | C-FIX 2026-08-07 SHIPPED — caption/picture drift (up to 12s ahead of voice) FIXED by remapping all 35 beats_v2.py still-windows from the stale pre-re-voice 200s timeline to the live 223s audio timeline; AUDIO LOCK PASS (byte-identical narration), 0 rerolls, $0. Live hash fae898d99076. |  |
 | 43 | build-43-the-wedding-garment | BUILT | 48 | OK |  |  |
-| 44 | build-44-two-debtors | AUTHORED | 0 | OK | PARKED — QUEUE row 44 was SWAPPED to Pentecost (Cameron via Planner, 2026-07-23); two-debtors is a dead story (duplicate of #74). Pentecost needs NEW narration/audio — the V2 stills pipeline cannot build it. Do NOT build two-debtors. |  |
+| 44 | build-44-pentecost | RUNNING | 24 | OK | RUN A `Dev` 2026-08-11 LIVE — Cameron order: build row 44 Pentecost from scratch. Voiced from scratch (ElevenLabs Brian/Roger, whisper word-exact), V1 scaffold + canonical mapping now = pentecost, beats_v2 24 beats AUDIO_FROM_V1_SEGMENTS, --check PASS. two-debtors RETIRED (v2 beats_v2 renamed). | ✅ |
 | 45 | build-45-wicked-tenants | BUILT | 54 | OK | A-auto 2026-08-06 SHIPPED; C-FIX 2026-08-07 SHIPPED; C-FIX 2026-08-09 SHIPPED (both 0:50+1:04 genuinely redone; prior fix shipped still-broken b46 & left b12 byte-identical; ship e8ef51c9c53a, AUDIO byte-identical 2b4c517b, deployed+live-verified, 3 rerolls/54=5.6% ~$0.39) | ✅ |
 | 46 | build-46-seed-growing | BUILT | 32 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
 | 47 | build-47-houses-on-rock-and-sand | BUILT | 37 | OK | A-auto 2026-08-06 SHIPPED | ✅ |
