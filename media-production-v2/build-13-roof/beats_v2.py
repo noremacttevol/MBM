@@ -449,19 +449,24 @@ BEATS = [
     },
     {
         "id": "v2-r013-b19", "out": "s19-he-hadnt-said-a-word.jpeg", "seg": "n4 p5-p7",
-        "window": "98.73-107.16", "wide": False, "jesus": False, "ref": False,
-        "locks": ["PARALYTIC", "FRIENDS", "MAT"],
+        "window": "98.73-107.16", "wide": True, "jesus": False, "ref": False,
+        "locks": ["PARALYTIC", "FRIENDS", "MAT", "HOUSE"],
         "narration": ("The man on the mat hadn't said a word. His friends' faith counted "
                       "for him. He was carried there — and heaven honored the carrying."),
-        "must_show": "close on the man on the mat in the light — silent, mouth closed, eyes moving between the faces above and the man in front of him.",
-        "must_not_show": "he must NOT be speaking or reaching; his stillness and silence are the beat; do not put Jesus in this frame.",
+        "must_show": "the man on the mat inside a WIDE OPEN crowded room — open floor around him, the standing crowd well back, the roof hole with the four faces FAR overhead; the room reads big and bright, never tight (Cameron 2026-08-11: it must NOT look like he is being lowered into a grave).",
+        "must_not_show": "NEVER a narrow stone shaft, pit, well or grave feeling — no close walls boxing the mat in, camera NOT looking straight down a hole; he must NOT be speaking or reaching; his stillness and silence are the beat; do not put Jesus in this frame.",
         "scene": (
-            "Close on the young man lying on the reed mat in the shaft of daylight, "
-            "seen from just above. His mouth is closed and he has said nothing. His "
-            "dark eyes are moving — up toward the four faces at the hole, then across "
-            "toward someone standing out of frame, then back. Dust and straw settle "
-            "onto his tunic and his hair. His hands rest still on his chest. Hard "
-            "daylight full on him. He has two arms, two hands and one head."
+            "A WIDE OPEN interior of a large crowded Capernaum room, seen from room "
+            "level. The young man on his reed mat rests in the middle of the open "
+            "floor in a broad shaft of daylight, the four ropes still slack beside "
+            "the mat. HIGH ABOVE, the torn-open roof hole with the four friends' "
+            "faces looking down — far overhead, small with distance. The packed "
+            "crowd stands well back on every side, leaving wide open floor around "
+            "him; the walls are far away. His mouth is closed and he has said "
+            "nothing. His dark eyes move — up toward the faces at the hole, then "
+            "across toward someone standing out of frame, then back. Dust and straw "
+            "settle onto his tunic. His hands rest still on his chest. He has two "
+            "arms, two hands and one head."
         ),
     },
     # ------------------------------------------------ n5 / j1 — the first word ----
