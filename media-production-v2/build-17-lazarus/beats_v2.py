@@ -974,8 +974,8 @@ BEATS = [
             "He cried because the people he loved were broken, and death is a "
             "horror, and he would not stand there pretending it wasn't."
         ),
-        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. shared grief — a three-shot of contact: his hand gripping Martha's shoulder, Mary's bowed head close against his arm, all three grieving together.",
-        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light on Jesus; he grieves WITH them, not over them — contact warm, heads close.",
+        "must_show": "TOMB STATE: SEALED - the one round stone sits flush IN the doorway groove, no opening visible. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. shared grief — a three-shot of contact: his hand gripping Martha's shoulder, Mary's bowed head close against his arm, all three grieving together.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; he grieves WITH them, not over them — contact warm, heads close.",
         "scene": (
             "A close three-shot at the tomb ramp: Jesus's "
             "hand gripped firm on Martha's shoulder, her own "
@@ -995,8 +995,8 @@ BEATS = [
             "He did not skip the grief. He walked all the way into it with "
             "them."
         ),
-        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. Jesus is IN MOTION, mid-stride through the weeping crowd toward the sealed tomb. walking into it — Jesus moving through the midst of the weeping mourners toward the tomb, one hand touching a bowed shoulder in passing.",
-        "must_not_show": "ONE SINGLE CONTINUOUS PHOTOGRAPH ONLY - NEVER panels, never a comic strip, never multiple stacked frames or a storyboard grid. NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. NEVER a stationary private moment with one man - no stopped counseling pose; he moves THROUGH the mourners. no halo, glare or rim-light on Jesus; he moves THROUGH the crowd, not around it; the touch in passing is the beat.",
+        "must_show": "TOMB STATE: SEALED - the one round stone sits flush IN the doorway groove, no opening visible. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. Jesus is IN MOTION, mid-stride through the weeping crowd toward the sealed tomb. walking into it — Jesus moving through the midst of the weeping mourners toward the tomb, one hand touching a bowed shoulder in passing.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. NEVER a stationary private moment with one man - no stopped counseling pose; he moves THROUGH the mourners. no halo, glare or rim-light on Jesus; he moves THROUGH the crowd, not around it; the touch in passing is the beat.",
         "scene": (
             "In medium-full from the side Jesus walks "
             "forward through the middle of the weeping "
@@ -1016,8 +1016,8 @@ BEATS = [
         "narration": (
             "The tomb was a cave with a heavy stone rolled across its mouth."
         ),
-        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. the door itself — the cave mouth and the great stone filling the frame: its mass, its channel, the finality of its fit.",
-        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light; no people in frame — architecture only; the stone's WEIGHT must read.",
+        "must_show": "TOMB STATE: SEALED - the one round stone sits flush IN the doorway groove, no opening visible. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the door itself — the cave mouth and the great stone filling the frame: its mass, its channel, the finality of its fit.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; no people in frame — architecture only; the stone's WEIGHT must read.",
         "scene": (
             "The cave mouth fills the frame in hard "
             "daylight: the great round-edged stone seated in "
@@ -1034,8 +1034,8 @@ BEATS = [
         "window": "220.48-223.51", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": "Jesus said, take away the stone.",
-        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. SCRIPTURE-EXACT: the command — Jesus in profile, arm fully extended, pointing at the stone; the order given plainly.",
-        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light on Jesus; the arm and the stone in one frame — the command's target unmistakable.",
+        "must_show": "TOMB STATE: SEALED - the one round stone sits flush IN the doorway groove, no opening visible. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: the command — Jesus in profile, arm fully extended, pointing at the stone; the order given plainly.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; the arm and the stone in one frame — the command's target unmistakable.",
         "scene": (
             "From the side in medium shot: Jesus stands with "
             "his arm fully extended toward the great stone, "
@@ -1051,8 +1051,8 @@ BEATS = [
         "window": "223.98-227.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "TOMB"],
         "narration": "Practical, careful Martha panicked:",
-        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. the panic — close on Martha: one hand flying up in protest, alarm breaking through the grief; the practical woman hitting the practical horror.",
-        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light; not anger — alarm; the same direct face thrown into protest.",
+        "must_show": "TOMB STATE: SEALED - the one round stone sits flush IN the doorway groove, no opening visible. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the panic — close on Martha: one hand flying up in protest, alarm breaking through the grief; the practical woman hitting the practical horror.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; not anger — alarm; the same direct face thrown into protest.",
         "scene": (
             "Close on Martha at the ramp's edge: her hand "
             "flown up palm-out in instinctive protest, her "
@@ -1070,8 +1070,8 @@ BEATS = [
         "narration": (
             "Lord, by this time he stinketh: for he hath been dead four days."
         ),
-        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. SCRIPTURE-EXACT: the protest — a two-shot: Martha between Jesus and the stone, her hand thrown toward it, dread plain; Jesus receiving the objection unmoved.",
-        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light on Jesus; her dread is reasonable and must look it — four days is four days.",
+        "must_show": "TOMB STATE: SEALED - the one round stone sits flush IN the doorway groove, no opening visible. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: the protest — a two-shot: Martha between Jesus and the stone, her hand thrown toward it, dread plain; Jesus receiving the objection unmoved.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; her dread is reasonable and must look it — four days is four days.",
         "scene": (
             "A two-shot at the foot of the ramp: Martha "
             "stands half between Jesus and the sealed stone "
@@ -1092,8 +1092,8 @@ BEATS = [
             "Said I not unto thee, that, if thou wouldest believe, thou "
             "shouldest see the glory of God?"
         ),
-        "must_show": "SCRIPTURE-EXACT: the reminder — close two-shot: Jesus's face turned full on Martha, kind and immovable, holding her to her own confession.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no rebuke-face — kindness with steel in it; her face beginning to yield.",
+        "must_show": "THE TOMB IS NOT IN THIS FRAME AT ALL: tight two-shot of the two faces against hillside and sky only - no stone, no doorway, no cave anywhere in frame. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: the reminder — close two-shot: Jesus's face turned full on Martha, kind and immovable, holding her to her own confession.",
+        "must_not_show": "NEVER any tomb, stone, doorway or cave visible anywhere - hillside/sky background only. NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; no rebuke-face — kindness with steel in it; her face beginning to yield.",
         "scene": (
             "A close two-shot in the hard daylight: Jesus's "
             "face turned full on Martha, gentle and "
@@ -1112,8 +1112,8 @@ BEATS = [
         "narration": (
             "So they leaned into the great stone and rolled it back,"
         ),
-        "must_show": "THE SLIDE, not a cartwheel: the great disc stays edge-in its cut stone groove against the tomb face and the men push it SIDEWAYS along the groove, the dark doorway just beginning to appear behind its trailing edge. SCRIPTURE-EXACT: the heave — three village men shoulder-deep into the stone's edge mid-roll, feet dug into the ramp, the dark seam of the doorway beginning to open.",
-        "must_not_show": "NEVER the stone trundled across open ground away from the tomb like a wheel, never fully open yet - it is mid-slide in its groove against the rock face. no halo, glare or rim-light; the physics must read at a glance — all three pushing the SAME direction along the channel, weight believable, the gap only beginning.",
+        "must_show": "TOMB STATE: MID-SLIDE - the stone moves SIDEWAYS in its groove along the rock face, doorway partially appearing behind its trailing edge; never rolled across open ground. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. THE SLIDE, not a cartwheel: the great disc stays edge-in its cut stone groove against the tomb face and the men push it SIDEWAYS along the groove, the dark doorway just beginning to appear behind its trailing edge. SCRIPTURE-EXACT: the heave — three village men shoulder-deep into the stone's edge mid-roll, feet dug into the ramp, the dark seam of the doorway beginning to open.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. NEVER the stone trundled across open ground away from the tomb like a wheel, never fully open yet - it is mid-slide in its groove against the rock face. no halo, glare or rim-light; the physics must read at a glance — all three pushing the SAME direction along the channel, weight believable, the gap only beginning.",
         "scene": (
             "At the cave mouth three dark-clad village men "
             "drive their shoulders into the great stone's "
@@ -1133,8 +1133,8 @@ BEATS = [
         "narration": (
             "and the dark mouth of the grave stood open to the daylight."
         ),
-        "must_show": "SCRIPTURE-EXACT: OPEN — the stone rolled clear in its channel, the doorway a total black rectangle in the sunlit rock face, the men stepping back winded.",
-        "must_not_show": "no halo, glare or rim-light; the interior must be TRUE BLACK — daylight does not reach in; nothing visible inside yet.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: OPEN — the stone rolled clear in its channel, the doorway a total black rectangle in the sunlit rock face, the men stepping back winded.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; the interior must be TRUE BLACK — daylight does not reach in; nothing visible inside yet.",
         "scene": (
             "The great stone stands rolled clear at the end "
             "of its channel and the tomb's mouth is a total "
@@ -1156,8 +1156,8 @@ BEATS = [
             "hard of hearing, but because he wanted the crowd to know exactly "
             "where the power came from."
         ),
-        "must_show": "SCRIPTURE-EXACT: the public prayer — a medium shot of Jesus before the open black doorway, face and open palms lifted to the sky, praying aloud; the crowd's heads soft at the frame's edges.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; nothing descends, nothing shines — an audible prayer in plain daylight; the black doorway stays black behind him.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: the public prayer — a medium shot of Jesus before the open black doorway, face and open palms lifted to the sky, praying aloud; the crowd's heads soft at the frame's edges.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; nothing descends, nothing shines — an audible prayer in plain daylight; the black doorway stays black behind him.",
         "scene": (
             "A medium shot before the open tomb: Jesus "
             "stands with his face lifted full to the sky "
@@ -1179,8 +1179,8 @@ BEATS = [
             "And then he called into the dark, in a voice they said was loud "
             "enough to wake the dead:"
         ),
-        "must_show": "the call forming — past Jesus's shoulder INTO the black doorway: his chest filled, arm rising toward the dark, the shout a half-second from leaving him.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the doorway pure black; the wind-up of the voice visible in the body.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the call forming — past Jesus's shoulder INTO the black doorway: his chest filled, arm rising toward the dark, the shout a half-second from leaving him.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; the doorway pure black; the wind-up of the voice visible in the body.",
         "scene": (
             "Past Jesus's shoulder the black doorway fills "
             "the frame's centre: he has drawn a full chest "
@@ -1197,8 +1197,8 @@ BEATS = [
         "window": "262.16-263.88", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": "Lazarus, come forth.",
-        "must_show": "SCRIPTURE-EXACT: THE SHOUT — tight close on Jesus mid-command: mouth open, cords of the neck standing, absolute authority aimed into the tomb.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no light effects from mouth or eyes — pure human-frame authority at full voice.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: THE SHOUT — tight close on Jesus mid-command: mouth open, cords of the neck standing, absolute authority aimed into the tomb.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; no light effects from mouth or eyes — pure human-frame authority at full voice.",
         "scene": (
             "Tight close on Jesus mid-shout: mouth open on "
             "the great command, the cords of his neck "
@@ -1215,8 +1215,8 @@ BEATS = [
         "window": "265.37-266.77", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB"],
         "narration": "And the dead man came out.",
-        "must_show": "SCRIPTURE-EXACT: first sight — deep inside the black doorway, a linen-bound upright form at the far edge of the light, barely resolved, coming forward.",
-        "must_not_show": "no halo, glare or rim-light; no horror styling — clean linen, upright dignity; the figure mostly swallowed in dark, just entering the light's reach.",
+        "must_show": "LAZARUS IS WRAPPED IN WHITE LINEN GRAVECLOTHES head to foot (never brown robes, never ordinary clothing) - white burial strips, face bound, emerging from the dark doorway into the light. TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: first sight — deep inside the black doorway, a linen-bound upright form at the far edge of the light, barely resolved, coming forward.",
+        "must_not_show": "NEVER brown/ordinary robes on Lazarus - white linen wrappings ONLY. NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; no horror styling — clean linen, upright dignity; the figure mostly swallowed in dark, just entering the light's reach.",
         "scene": (
             "The black doorway almost fills the frame — and "
             "deep inside it, at the farthest edge of the "
@@ -1237,8 +1237,8 @@ BEATS = [
             "Bound hand and foot in strips of grave-linen, his face still "
             "wrapped,"
         ),
-        "must_show": "SCRIPTURE-EXACT: the emergence — the bound figure mid-step at the threshold, arms wrapped to his sides, face covered by the napkin, shuffling out of the dark into full sun.",
-        "must_not_show": "no halo, glare or rim-light; the binding accurate — strips of linen, arms held close, small constrained steps; clean cloth, no decay.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: the emergence — the bound figure mid-step at the threshold, arms wrapped to his sides, face covered by the napkin, shuffling out of the dark into full sun.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; the binding accurate — strips of linen, arms held close, small constrained steps; clean cloth, no decay.",
         "scene": (
             "At the tomb's threshold the bound figure takes "
             "a small constrained step into the sunlight: "
@@ -1258,8 +1258,8 @@ BEATS = [
         "narration": (
             "Lazarus stood in the mouth of his own tomb — alive."
         ),
-        "must_show": "SCRIPTURE-EXACT: standing — the bound figure fully out, upright and still in the mouth of the tomb, full-length, the black doorway framing him from behind.",
-        "must_not_show": "no halo, glare or rim-light; STILLNESS — no motion now; the impossible tableau held: a bound dead man standing in daylight.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: standing — the bound figure fully out, upright and still in the mouth of the tomb, full-length, the black doorway framing him from behind.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; STILLNESS — no motion now; the impossible tableau held: a bound dead man standing in daylight.",
         "scene": (
             "Full-length and dead centre: the linen-bound "
             "figure stands entirely still in the mouth of "
@@ -1277,8 +1277,8 @@ BEATS = [
         "window": "275.22-278.53", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB"],
         "narration": "Four days gone, and standing in the light.",
-        "must_show": "the close hold — the wrapped head and shoulders in full sun: the napkin over the face, linen bright, absolutely still.",
-        "must_not_show": "no halo, glare or rim-light; reverent, not eerie — clean bright linen in honest daylight; no face visible yet.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the close hold — the wrapped head and shoulders in full sun: the napkin over the face, linen bright, absolutely still.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; reverent, not eerie — clean bright linen in honest daylight; no face visible yet.",
         "scene": (
             "Close on the wrapped head and shoulders in the "
             "full sun: the folded napkin lying smooth over "
@@ -1295,8 +1295,8 @@ BEATS = [
         "window": "278.53-282.09", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "MOURNERS", "TOMB", "BACKGROUND-CAST"],
         "narration": "Nobody moved. Nobody breathed.",
-        "must_show": "the frozen crowd — a wide of the mourners rooted on the slope, hands over mouths, every gaze locked on the tomb mouth; the sisters gripping each other at the front.",
-        "must_not_show": "no halo, glare or rim-light; total arrest — no one mid-stride, no one turned away; every gaze converges on the one point.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the frozen crowd — a wide of the mourners rooted on the slope, hands over mouths, every gaze locked on the tomb mouth; the sisters gripping each other at the front.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; total arrest — no one mid-stride, no one turned away; every gaze converges on the one point.",
         "scene": (
             "The camera stands at the cave's flank and takes "
             "the crowd from the side: a slope of dark-clad "
@@ -1316,8 +1316,8 @@ BEATS = [
         "window": "282.60-284.23", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": "Loose him, and let him go.",
-        "must_show": "SCRIPTURE-EXACT: the release — a two-shot: Jesus's open hand extended toward the bound standing figure, the command bridging the space between them.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the gesture opens and frees — palm up, ordinary and enormous.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: the release — a two-shot: Jesus's open hand extended toward the bound standing figure, the command bridging the space between them.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; the gesture opens and frees — palm up, ordinary and enormous.",
         "scene": (
             "A two-shot across the ramp: Jesus with his "
             "open hand extended palm-up toward the bound "
@@ -1338,8 +1338,8 @@ BEATS = [
             "Unwrap him. Take the grave-linen off a living man and let him "
             "walk home to dinner."
         ),
-        "must_show": "the unwrapping — close on hands unwinding the linen from his face: Lazarus's living face emerging, eyes blinking hard in the light, the napkin falling away.",
-        "must_not_show": "no halo, glare or rim-light; the emerging face healthy and alive — colour in the skin, no pallor of death; the unwrappers' hands trembling is welcome.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the unwrapping — close on hands unwinding the linen from his face: Lazarus's living face emerging, eyes blinking hard in the light, the napkin falling away.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; the emerging face healthy and alive — colour in the skin, no pallor of death; the unwrappers' hands trembling is welcome.",
         "scene": (
             "Close at the tomb mouth: two pairs of village "
             "hands unwind the linen from the standing "
@@ -1362,8 +1362,8 @@ BEATS = [
             "cross — and he did it in the open, at a marked grave, in front of "
             "a crowd,"
         ),
-        "must_show": "the open proof — the sisters embracing the freed Lazarus, loosened linen at his feet, the crowd pressing around in broad daylight at the marked grave; joy in the open, witnessed.",
-        "must_not_show": "no halo, glare or rim-light; public and undeniable — full daylight, many witnesses, the open tomb plainly in view.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the open proof — the sisters embracing the freed Lazarus, loosened linen at his feet, the crowd pressing around in broad daylight at the marked grave; joy in the open, witnessed.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light; public and undeniable — full daylight, many witnesses, the open tomb plainly in view.",
         "scene": (
             "In full daylight before the open tomb the "
             "sisters have their brother: Martha's strong "
@@ -1386,8 +1386,8 @@ BEATS = [
         "narration": (
             "so that no one could ever call it a trick of the light."
         ),
-        "must_show": "the cost in his face — a medium single: Jesus apart from the celebration, his eyes gone south toward Jerusalem, the joy behind him and the cross ahead of him.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the celebration soft and out of focus behind — his face carries what this sign will cost him.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the cost in his face — a medium single: Jesus apart from the celebration, his eyes gone south toward Jerusalem, the joy behind him and the cross ahead of him.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; the celebration soft and out of focus behind — his face carries what this sign will cost him.",
         "scene": (
             "A medium single at the slope's edge: Jesus "
             "stands a few paces apart with the soft blur of "
@@ -1408,8 +1408,8 @@ BEATS = [
             "The one who stands over every grave you have ever wept beside "
             "looked death full in the face and called a friend home."
         ),
-        "must_show": "the friends — a two-shot: Lazarus, unwrapped and alive in loosened linen with a dark mantle thrown over his shoulders, gripping Jesus's forearm, foreheads nearly touching.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; a reunion of friends, fierce and warm — not worship posture; both faces visible and glad.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the friends — a two-shot: Lazarus, unwrapped and alive in loosened linen with a dark mantle thrown over his shoulders, gripping Jesus's forearm, foreheads nearly touching.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; a reunion of friends, fierce and warm — not worship posture; both faces visible and glad.",
         "scene": (
             "A close two-shot in the day's warm light: "
             "Lazarus — alive, unwrapped, a borrowed dark "
@@ -1431,8 +1431,8 @@ BEATS = [
             "He does not merely explain the resurrection. He is the "
             "resurrection."
         ),
-        "must_show": "the closing statement — a medium-close of Jesus, calm and certain, the open empty tomb soft behind his shoulder; his gaze carrying past the frame with quiet finality.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; no gaze into the lens — eyes carried past the camera's edge; the empty black doorway must be visible behind.",
+        "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the closing statement — a medium-close of Jesus, calm and certain, the open empty tomb soft behind his shoulder; his gaze carrying past the frame with quiet finality.",
+        "must_not_show": "NEVER: events from later or earlier in the story visible anywhere in frame or background; NEVER Jesus in side-conversation with bystanders; NEVER a second stone or second doorway; NEVER panels/collage/storyboard. no halo, glare or rim-light on Jesus; no gaze into the lens — eyes carried past the camera's edge; the empty black doorway must be visible behind.",
         "scene": (
             "A medium-close closing frame: Jesus stands "
             "calm in the late daylight with the open, empty "
