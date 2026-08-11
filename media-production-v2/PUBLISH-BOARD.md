@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T17:13:21_
+_Last sync: 2026-08-11T18:05:26_
 
 ## Summary
 
 - **APPROVED — not published** — 33 row(s)
-- **BUILDING** — 81 row(s)
+- **BUILDING** — 79 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 42 row(s)
+- **ON REVIEWER — awaiting Cameron** — 44 row(s)
 
 ## The rows
 
@@ -161,14 +161,14 @@ _Last sync: 2026-08-11T17:13:21_
 | 138 | We Are his Offspring | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 139 | Lamp on a Stand | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 140 | Road Runs Both Ways | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 141 | I Am the Bread of Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 141 | I Am the Bread of Life | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 142 | I Am the Light of the World | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 143 | I Am the Door | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 144 | Resurrection and the Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 145 | Way Truth Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 146 | Vine and Branches | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 147 | Joseph Forgives | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 148 | Ruth and the Redeemer | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 148 | Ruth and the Redeemer | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 149 | Hannah Is Heard | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 150 | The Shepherd Psalm | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 151 | If Any of You Lack Wisdom | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
