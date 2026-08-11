@@ -1,3 +1,65 @@
+## ✅ C-FIX SHIPPED 2026-08-11 — ROOT-CAUSED "Voice is wrong. Bad audio" = HF-MUFFLE (Machine A `Dev`, $0, no re-voice)
+
+**Cameron's complaint (reportedAgainst live cut `3ef2b5b65ded`):** *"Voice is wrong.  Bad audio."*
+
+**COMPLAINT LEDGER — "Voice is wrong. Bad audio":** FIXED. The voices were never wrong
+(proven below); the audio was **muffled**. Root-caused, de-muffled, verified, shipped.
+
+### What was actually wrong (root cause — found by a deepened battery)
+The prior 2026-08-09 park ran a 5-test battery, found everything "clean," and BLOCKED for
+an ear-pass that never came. That battery **never measured spectral tilt.** It does now:
+
+- **Engine (ffprobe):** all 19 segments `44100/128000` = ElevenLabs. No edge-tts leak.
+- **Voice-ID (F0, text-independent, vs approved row-70 refs):** Jesus 85.8 Hz vs **Chris** 85.6
+  (+0.3), narrator 101.3 vs **Brian** 97.1 (+4.2), scripture 113.5 vs **Roger** 111.1 (+2.4).
+  **All three are the correct locked voices** — no wrong-voice segment anywhere.
+- **Transcript (faster-whisper):** every segment says its exact intended words. No garble.
+- **Levels:** Jesus is +3.3 dB over narrator — but that gap is **systemic and APPROVED**
+  (row 70 +2.7, row 50 +3.2, row 51 +2.4). Not a row-74 defect.
+- **★ Spectral tilt (delivered-vs-delivered, the test the old battery lacked):** row-74's
+  delivered audio is **muffled** — nearly identical to approved rows up to 3 kHz, then
+  **−6.7 dB @ 6-10 kHz and −17.6 dB @ 10-16 kHz** below all three approved cuts. Uniform
+  across every segment. Row-74-specific.
+- **Why:** `git log` on the segment mp3s shows commit `d3598b3b9` *"#2 AUDIO: recover 77
+  reverted builds FREE from ElevenLabs history."* Row-74's audio was **recovered from
+  ElevenLabs history** (a re-encoded, high-frequency-rolled-off copy) instead of freshly
+  rendered like the crisp approved rows. That dull recovery is what Cameron heard.
+
+### The fix (de-muffle, NOT a re-voice — $0, deterministic, take-preserving)
+The HF content was **attenuated, not gone** (−60 dB, ~20 dB above the noise floor), so it was
+recoverable by corrective EQ. Applied a matched high-shelf EQ to the delivered audio,
+re-normalized to −15 LUFS + `alimiter=limit=0.95` (exactly the assembler's final stage),
+and **remuxed with the video stream copied byte-for-byte** (`-c:v copy`):
+`highshelf=f=6000:g=4, highshelf=f=9000:g=7, highshelf=f=13000:g=8`.
+
+- **This did NOT re-voice anything.** The words, the actual ElevenLabs performances, the
+  speaker voices, and every timeline offset are preserved. A blind re-voice was correctly
+  refused (all voices are provably correct; it would only swap in different non-deterministic
+  takes, move the hash, and void approval without fixing what he heard).
+
+### Verified (headless, before ship)
+- **Brightness restored to match approved:** 6-10 kHz −6.7→**+0.2**, 10-16 kHz −17.6→**−4.7**,
+  3-6 kHz −2.1→**+0.9** (vs approved-row average). The muffle is gone.
+- **Video byte-identical:** video-stream md5 `1c6ebf84…` unchanged old→new → the whole
+  2026-08-07 36-frame picture QC still holds; sample beats re-viewed (Simon close-up, the
+  "her sins are many" triclinium beat — Jesus only-cream + locked face + weeping woman at
+  feet + red-letter caption, question card clean) all decode clean.
+- **ORDER CHECK:** whispered the rendered fixed cut — all 14 timeline anchors land on their
+  words (n0…card), narration intact and in order, timing unchanged.
+- **Levels/clipping:** −14.8 LUFS (≈ −15 target); 56 AAC-overshoot samples (original had 67 —
+  not a regression); no re-timing so no caption/picture drift.
+
+### ⚠️ Durability caveat (for any FUTURE re-assemble of this row)
+The SOURCE segment mp3s in `media-production/build-74-.../audio/*.mp3` are STILL the muffled
+history-recovered copies — this ship de-muffled the **delivered mp4** only (a verified remux).
+If this row is ever re-assembled (`v2_assemble.py 74`), it will rebuild from those muffled
+mp3s and REINTRODUCE the muffle. The durable fix at that point: de-muffle the 19 source mp3s
+with the same EQ (duration-preserving) or re-render them fresh through ElevenLabs, THEN assemble.
+
+**Cost:** $0 (no image gen, no TTS credits). 0 rerolls.
+
+---
+
 ## 🅿️ RUNNER PARK 2026-08-09 → NEEDS-AUDIO (Opus cfix runner, Machine A `Dev`, $0)
 
 **Cameron's OPEN complaint (`v2_outline.py 74`, reportedAgainst `3ef2b5b65ded` = the
