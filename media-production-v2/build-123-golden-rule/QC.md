@@ -55,3 +55,36 @@ b12 at 38s, b17 at 117s) — build by WINDOW.
 - No readable lettering on the b04/b22 scrolls (indistinct period
   script only).
 - Clone-crowd check on all hillside frames (rows 90/107).
+
+---
+
+## 🅰 RUNNER SESSION — A-auto 2026-08-11 (Machine A `Dev`, Opus runner, UNATTENDED/HEADLESS)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 123` shows no open complaint at
+the top (fresh V2 build; the V1 gallery cut predates the review board). Nothing
+to answer on the card beyond the standard "what this cut changed" flag.
+
+**Audio pre-flight (mandatory $0 gate):** PASS. V1 mp4 `matthew-7_golden-rule.mp4`
+dur 148.770s vs timeline total 148.755s (diff 0.015s ≤ 1.0), newer_mp3s=0.
+AUDIO_FROM_V1_SEGMENTS not set → assembler stream-copies the V1 mp4 audio
+(byte-identical narration). BUILDABLE.
+
+**PLACE PLATES — forced NO-PROMOTE on all four (row-50/row-51 precedent).**
+- HILLSIDE: every HILLSIDE beat (b02/b03/b05/b09/b17/b19/b23) contains Jesus in
+  cream. Lesson 929: NEVER promote a Jesus-bearing frame (a promoted distant
+  cream figure becomes a spurious second-cream figure across the place). The
+  author noted "HILLSIDE shared with 121/122," but neither sibling has SHIPPED
+  (0 realistic-v2 cards) so no plate is in the stash. Text-lock it; the LOCK
+  string is byte-identical across 121/122/123 for family consistency. A later
+  wave can unify once one row ships a person-free hillside establish.
+- VILLAGE: spans bright DAY (most beats) AND lamplit EVENING (b21) and every
+  beat is peopled with a different vignette. Lesson row-50-HOUSE: decline a plate
+  whose token spans two times-of-day; promoting b01 (2 figures) would also bleed
+  people. Text-lock.
+- ROAD: 3 peopled beats (b11/b17-road/b18-road), different travelers. Text-lock.
+- CROWD: rides with HILLSIDE. Text-lock.
+Each place carries a strong LOCK string → generate the full 23-beat row in ONE
+pass (cheapest path, COST LAW), QC place consistency by eye in the full-cut gate.
+
+**Generate:** `v2_gen_api build-123-golden-rule --ceiling 580.23` (23 beats,
+0 portraits, est $3.08, meter $550.61).

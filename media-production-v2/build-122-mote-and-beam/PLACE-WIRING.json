@@ -1,1 +1,14 @@
-{}
+{
+ "HILLSIDE": {
+  "manual": true,
+  "src_beat": "s01-of-all-the-things-jesus",
+  "src_build": "build-122-mote-and-beam",
+  "src_file": "build-122-mote-and-beam/assets/s01-of-all-the-things-jesus.jpeg"
+ },
+ "SHOP": {
+  "manual": true,
+  "src_beat": "s07-a-tiny-speck-a-mote",
+  "src_build": "build-122-mote-and-beam",
+  "src_file": "build-122-mote-and-beam/assets/s07-a-tiny-speck-a-mote.jpeg"
+ }
+}
