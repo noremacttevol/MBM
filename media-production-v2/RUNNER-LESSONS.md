@@ -21,6 +21,20 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   segment with word-exact whisper transcription (small.en, beam 5) — all words
   heard separately, no fusions ("Amhi") — before assembly.
 
+- **SERVED-BYTES VERIFICATION (Cameron 2026-08-11, row 17: "17 wasent fixed" —
+  he was right): a ship is NOT live until the bytes the reviewer serves MATCH
+  your fixed mp4.** What happened: a `git add` earlier in the chain died on
+  gitignored files, `&&` skipped the mp4 commit, the card's data-hash got set
+  from `git log -1` (= an older commit), the page-level "live verify" grep
+  passed on the LABEL, and Cameron watched the OLD cut wearing a FIXED badge.
+  MANDATORY before calling any row shipped: (1) `git ls-tree HEAD -- <mp4>`
+  must equal `git hash-object <mp4>` and origin/main must contain HEAD;
+  (2) DOWNLOAD the mp4 via the card's exact URL (with its ?v=) and
+  md5-compare against the local file — grep-ing the card hash proves nothing
+  about the video; (3) `git add -f` media FIRST in its own command — never
+  behind a fallible add in an && chain. GitHub raw edge-cache can lag a few
+  minutes after push; poll until the served md5 matches, THEN report shipped.
+
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
 - **WRONG-JESUS-VOICE / "speaker changes mid-video" is an AUDIO park, and its
