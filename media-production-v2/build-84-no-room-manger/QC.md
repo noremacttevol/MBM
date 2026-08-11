@@ -80,3 +80,51 @@ b14–b34 (v2_gen_api resumes automatically; s01–s13 never re-pulled — COST 
 
 **Spend this session:** 21 stills + 3 rerolls = 24 images ≈ **$3.21**
 (meter 426.79 → 430.01). Under the $6.10/row average even counting the resume.
+
+---
+
+## QC-VERIFY → QC-FIX 2026-08-11 (Machine A `Dev`) — caption/audio mismatch + still-window drift
+
+**FULL-CUT GATE** (PROMPT-OPUS-RUNNER §6b) run before Cameron's eyes: extracted one
+frame per beat from the RENDERED mp4 (per-beat window midpoints) + caption-band crops.
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 84` shows no filed complaint).
+
+**PICTURES: all 34 stills + question card CLEAN** — realistic biblical photography
+throughout, no cartoon/mixed frame, Mary (blue) and Joseph (brown) locked and
+consistent, newborn wears no halo, no second cream robe (no grown Jesus in this row),
+period oil-lamps only, correct night lighting, correct anatomy, no modern objects, no
+lens-stare, no collage. Scripture captions blue (sv1, v7), narrator white. **Zero
+picture rerolls needed.**
+
+**TWO ASSEMBLY DEFECTS found and fixed (assembly-only, $0, audio byte-identical):**
+
+1. **Caption text did not match the spoken audio on n1, n6, n7.** The V1
+   `make_narration.py` script was TIGHTENED after the ElevenLabs voices were cut, so
+   `extract_beats` fed the caption filter the newer, shorter script while the shipped
+   mp3s speak the older, fuller take. Transcription-confirmed (faster-whisper small.en):
+   - n1 caption showed *"A command issued in a distant palace reached all the way into
+     two ordinary lives in Nazareth"* but the audio speaks *"In those days a decree went
+     out from Caesar Augustus, the emperor in far-off Rome, that the whole known world
+     should be counted and taxed. And so every family in the land had to pack up and
+     travel to the town their ancestors came from, to be registered."*
+   - n6 and n7 the same class (audio richer than the tightened script).
+   All three were the ONLY mismatched segments (n2–n5, n8–n12, sv1, v7 verified matching).
+   FIX: declared `TEXT_OVERRIDES = {"n1":…, "n6":…, "n7":…}` in beats_v2.py with the
+   genuinely-spoken text (the assembler's sanctioned mechanism; V1 never edited).
+
+2. **Still-windows were scaffolded on the stale/short (tightened-script) timeline.**
+   beats_v2 windows ended at 190.68 s but the live audio's card_start is 217.408 s
+   (~27 s short) → the picture track ran ahead of the narration and s34 froze ~33 s
+   while n10/n11/n12 played. AUDIO REBUILD/LOCK PASS never checks video length (row-74
+   lesson). FIX: remapped all 34 `window` values onto the live extract_beats per-segment
+   slices (preserved intra-segment split ratios; last beat → card_start), row-42/89 method.
+
+**Re-assembled:** AUDIO LOCK PASS `SHA256=af5b5cbcd414aec40488adfb7d487cdce4894984146bd36a537dc47f556f4961`
+— **byte-identical to the shipped audio** (no re-voice; all segments are the same
+ElevenLabs batch, confirmed via audio-eleven.log + identical mtimes). New mp4 md5
+`4dc426f29e7bda26d5767c06edd54a7e`, total 229.63 s, video_silent 229.70 s (no tail truncation).
+
+**Re-gated the rendered mp4** at sv1/n1/n2/n4/n6/v7/n7/n8/n10/n11/n12 + card: every
+still + caption + spoken word now agree; the s34 freeze is gone; the question card is
+clean. **Cost: 0 rerolls, 0 images, $0** (assembly-only).
