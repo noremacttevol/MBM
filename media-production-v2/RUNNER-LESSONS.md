@@ -1019,3 +1019,20 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   → NEEDS-REBUILD (author lane; the audio lane's AUDIO_FROM_V1 rebuild only
   reproduces it). Compare `extract_beats.extract(row)`'s beat list against
   `beats_v2.py` BEATS one-to-one; any count/content mismatch is the smoking gun.**
+
+- **The STALE-V1 pre-flight has a STRICTER gate than the documented `abs(total-d)≤1.0`
+  heuristic — `assert_v1_final_is_current` refuses on RUNTIME EXCESS > 0.75s, so trust the
+  actual assembler guard, not the loose rule (2026-08-11, rows 125/126/127 batch pre-flight).**
+  The pre-flight lesson above says "BUILDABLE requires newer_mp3s==0 AND abs(total-d) ≤ 1.0."
+  But `v2_assemble`'s own `assert_v1_final_is_current` (default path) throws when
+  `locked_duration - total > 0.75` (an EXCESS means the V1 mp4 carries audio the current
+  mp3s no longer have). Rows 125 (+0.893), 126 (+0.969), 127 (+0.889) PASS the ≤1.0 rule
+  but FAIL the real 0.75 guard — a generate-then-can't-assemble trap (~$2/row wasted) if you
+  trust the loose heuristic. Run the actual guard in the $0 pre-flight
+  (`assert_v1_final_is_current(row, v1dir, locked, d, total, dur)` in a try/except). A ~0.9s
+  excess with newer=0 across CONSECUTIVE rows is REAL extra content, not tail-silence noise:
+  validated against shipped rows 121-124 which all land ~0.04s excess (121 +0.038, 122 +0.047,
+  123 +0.015, 124 +0.073). Such rows are picture-runner-unbuildable — PARK NEEDS-AUDIO for the
+  audio lane to set `AUDIO_FROM_V1_SEGMENTS=True` (rebuild from V1 mp3s, nothing re-voiced),
+  which then makes them buildable. Batch pre-flighting the whole authored block this way ($0)
+  tells you which rows to build vs park before touching the meter.

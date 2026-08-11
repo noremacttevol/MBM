@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 13:01:14",
+ "scanned": "2026-08-11 13:47:54",
  "entries": [
   {
    "row": 1,
@@ -51771,6 +51771,210 @@
    "night": false,
    "n_person": 2,
    "scene": "The sentence leaves the hill inside its hearers, the camera looking down the slope from behind Jesus's shoulder: in the golden last light the crowd begins to rise from the grass and turn away downhill \u2014 fishermen toward "
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b01",
+   "file": "build-129-nazareth-only-a-few/assets/s01-jesus-went-back-to-nazareth.jpeg",
+   "tokens": [
+    "NAZARETH"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The hometown takes him back up its oldest lane, the camera following behind him as he climbs: Jesus walking into Nazareth past the pale stacked houses he grew up among \u2014 the well he drew from, the doorways that watched h"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b02",
+   "file": "build-129-nazareth-only-a-few/assets/s02-is-not-this-the-carpenter.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The r\u00e9sum\u00e9 gets read out in whispers: along the synagogue benches the neighbours lean head to head, one builder's thick hand tipping toward the reading stand beyond the frame \u2014 is not this the CARPENTER? \u2014 the catalogue "
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b03",
+   "file": "build-129-nazareth-only-a-few/assets/s03-and-are-not-his-sisters.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The clincher is delivered with a nod at the whole town: a market-wife tips her head knowingly toward the door and the lanes beyond it \u2014 his sisters are HERE, the nod says, ordinary as washing-day \u2014 and beside her a grey "
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b04",
+   "file": "build-129-nazareth-only-a-few/assets/s04-but-the-people-known-him.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The wall goes up without one stone: along the benches the arms fold one after another, shoulders angling away, chins settling, faces shuttering like the lane's small windows at dusk \u2014 no shout anywhere, no scene \u2014 just a"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b05",
+   "file": "build-129-nazareth-only-a-few/assets/s05-a-prophet-is-not-without.jpeg",
+   "tokens": [
+    "SYNAGOGUE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The oldest saying about hometowns is spoken inside one: Jesus at the small wooden reading stand, the high window's morning light on him, saying the sentence calm and level with the sadness folded in underneath \u2014 honour e"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b06",
+   "file": "build-129-nazareth-only-a-few/assets/s06-he-taught-in-the-synagogue.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "For a few sentences it almost happens: Jesus teaching from the little stand with the morning light behind him, and along the benches the hometown faces caught in honest astonishment \u2014 brows up, a builder leaning forward "
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b07",
+   "file": "build-129-nazareth-only-a-few/assets/s07-a-prophet-gets-honored-everywhere.jpeg",
+   "tokens": [
+    "SYNAGOGUE",
+    "TOWNSFOLK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The exception has a floor plan: through the synagogue's open door the road out of town runs bright and open toward the rest of the country \u2014 the everywhere that thronged him, pressed him, lowered its sick through roofs t"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b08",
+   "file": "build-129-nazareth-only-a-few/assets/s08-except-in-his-own-house.jpeg",
+   "tokens": [
+    "NAZARETH"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The mightiest hands in Galilee stand idle in a noon lane: Jesus alone in the flat bright street of his own town, hands at his sides, while Nazareth flows incuriously around him \u2014 a woman passing with her jars without a g"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b09",
+   "file": "build-129-nazareth-only-a-few/assets/s09-not-because-his-power-ran.jpeg",
+   "tokens": [
+    "NAZARETH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The refusal has a streetscape: down the narrow lane every wooden door stands shut and every small window holds its shutters closed against the flat noon \u2014 latch after latch, lane's length, a town's worth of thresholds bo"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b10",
+   "file": "build-129-nazareth-only-a-few/assets/s10-and-he-could-there-do.jpeg",
+   "tokens": [
+    "NAZARETH",
+    "SICKFEW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The exception to the drought is small and it is everything: in a warm afternoon courtyard Jesus kneels with both hands laid gently on the old fevered woman's shawled head, her face already easing under them \u2014 while nearb"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b11",
+   "file": "build-129-nazareth-only-a-few/assets/s11-and-he-marvelled-because-of.jpeg",
+   "tokens": [
+    "NAZARETH",
+    "SICKFEW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The only thing recorded to have amazed him twice was faith \u2014 and this is the other kind: close on Jesus's face turned toward the shuttered town, carrying genuine marvel \u2014 the wonder of a man confronted with a mystery, an"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b12",
+   "file": "build-129-nazareth-only-a-few/assets/s12-a-few-sick-folk-that.jpeg",
+   "tokens": [
+    "NAZARETH",
+    "SICKFEW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole offering gets the whole blessing: the line is only three long and he works it like a harvest \u2014 the old woman already upright and wondering at her own steady hands, Jesus now bent with his palms at the gaunt you"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b13",
+   "file": "build-129-nazareth-only-a-few/assets/s13-the-mercy-never-shrank-down.jpeg",
+   "tokens": [
+    "SICKFEW"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The mercy comes at only one size: extreme close on Jesus's hand laid full across the young man's fevered brow \u2014 palm flat, fingers gentle, unhurried as if this were the day's only work and the town were watching, which i"
+  },
+  {
+   "row": 129,
+   "build": "build-129-nazareth-only-a-few",
+   "beat": "v2-r129-b14",
+   "file": "build-129-nazareth-only-a-few/assets/s14-faith-opens-the-door-where.jpeg",
+   "tokens": [
+    "NAZARETH"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One latch turns, and that is enough: down the evening lane the doors stand shut as they stood all day \u2014 but ONE is open, warm lamplight spilling over its threshold stone, and in the doorway a small family beckons Jesus i"
   }
  ]
 }
