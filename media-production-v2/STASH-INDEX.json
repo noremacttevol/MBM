@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 11:09:28",
+ "scanned": "2026-08-11 11:47:16",
  "entries": [
   {
    "row": 1,
@@ -33601,7 +33601,7 @@
    "wide": false,
    "night": true,
    "n_person": 0,
-   "scene": "Close in the mixed torch and moonlight: a disciple's face turned back toward his teacher, fear and fierce loyalty fighting across it \u2014 and at the frame's lower edge his hand already closed on a sword hilt beneath his clo"
+   "scene": "Close in the mixed torch and moonlight: a disciple's face turned back toward his teacher, fear and fierce loyalty fighting across it \u2014 and at the frame's lower edge his hand already closed hard on the HILT of a sword STI"
   },
   {
    "row": 66,
@@ -33616,7 +33616,7 @@
    "wide": true,
    "night": true,
    "n_person": 0,
-   "scene": "Up onto the garden's terrace, the camera at the terrace wall taking the incursion from the side, the arrest party breaks from the trees \u2014 a dozen torches throwing wild orange over the silver leaves, temple guards in dark"
+   "scene": "The camera looks DOWN-slope from just behind Jesus and his three companions, out over the terrace toward the advancing torches: the arrest party climbs the terrace from the lower-left, ascending straight toward Jesus and"
   },
   {
    "row": 66,
@@ -33630,7 +33630,7 @@
    "wide": false,
    "night": true,
    "n_person": 0,
-   "scene": "As the torchlight closes, the disciples surge and bunch \u2014 three of them shouldering in front of their teacher in the silver dark, arms half-spread, the big fisherman foremost with his feet planted wide \u2014 a living wall as"
+   "scene": "As the torchlight closes from the lower-left, the same three disciples surge and bunch \u2014 Peter the big fisherman foremost with his feet planted wide and two companions at his shoulders, shouldering in front of their teac"
   },
   {
    "row": 66,
@@ -33644,7 +33644,7 @@
    "wide": false,
    "night": true,
    "n_person": 1,
-   "scene": "In the closing torch-glare the disciples' faces are all turned one way \u2014 to Jesus, the question hanging in the orange-lit air between them \u2014 his own face steady and beginning its answer \u2014 while past their shoulders the m"
+   "scene": "Tight on the three disciples from the front, their torch-lit faces all turned up one way \u2014 to Jesus close above them, the question hanging in the orange-lit air between them \u2014 his own face steady and beginning its answer"
   },
   {
    "row": 66,
@@ -50010,6 +50010,620 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame surveys the day the dare came home: the furnace cooling its empty roar behind them, the three standing whole and unsinged in the long late light, the king humbled and alive with new theology \u2014 and behin"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b01",
+   "file": "build-120-job-from-whirlwind/assets/s01-job-was-a-good-man.jpeg",
+   "tokens": [
+    "JOB",
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The good years stand in one golden morning, the camera looking past the household's backs into the courtyard: the great stone homestead awake \u2014 sheep pressing at the pens, servants carrying bread and water-jars, his grow"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b02",
+   "file": "build-120-job-from-whirlwind/assets/s02-then-they-started-explaining.jpeg",
+   "tokens": [
+    "JOB",
+    "FRIENDS",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The seven good days end the way comfort usually fails: around the ash-seated man the three friends lean in at once \u2014 Eliphaz's silver beard tilted with gentle authority, Bildad's thick finger already rising, Zophar drawi"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b03",
+   "file": "build-120-job-from-whirlwind/assets/s03-and-then-in-a-single.jpeg",
+   "tokens": [
+    "JOB",
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The day turns in one frame: beyond the suddenly empty pens two far columns of smoke lean on the hardening wind, the fig trees thrash, and up the long road a messenger runs the way men only run with terrible news \u2014 while "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b04",
+   "file": "build-120-job-from-whirlwind/assets/s04-one-of-the-oldest-hardest.jpeg",
+   "tokens": [
+    "JOB",
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The oldest question finds its address: Job standing alone in the middle of the emptied courtyard under a torn grey sky \u2014 the long table bare, the pens silent, the smoke thinning on the horizon \u2014 his arms slightly open at"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b05",
+   "file": "build-120-job-from-whirlwind/assets/s05-and-this-is-what-he.jpeg",
+   "tokens": [
+    "JOB",
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the day itself he goes to the ground to say it: Job on his knees on the courtyard stones, the russet mantle hanging torn from his own two hands' work, the newly shaved scalp pale above the grey-streaked beard \u2014 grief "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b06",
+   "file": "build-120-job-from-whirlwind/assets/s06-naked-came-i-out-of.jpeg",
+   "tokens": [
+    "JOB",
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sentence is spoken face-down: Job fallen full-length on the courtyard stones, brow pressed to the ground, arms spread wide, the torn mantle pooled around the wreck of everything he owned \u2014 not collapsed but WORSHIPPI"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b07",
+   "file": "build-120-job-from-whirlwind/assets/s07-i-have-said-my-piece.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The argument is laid down for good: Job kneeling small on the plain before the vast slow-turning column, his hand pressed flat over his own mouth, head inclined \u2014 not a beaten man's cringe but a settled man's seal, the p"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b08",
+   "file": "build-120-job-from-whirlwind/assets/s08-i-came-into-this-world.jpeg",
+   "tokens": [
+    "JOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The face doing the blessing fills the frame: Job's lifted features under the storm-grey light, tear-tracks cutting clean lines through the dust on his weathered cheeks, the deep-set eyes wrecked and open, the mouth in th"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b09",
+   "file": "build-120-job-from-whirlwind/assets/s09-he-is-not-calm-when.jpeg",
+   "tokens": [
+    "JOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The cost of the sentence is worn on the body: the russet mantle hangs in two ragged halves from Job's clenched fists, threads still trailing from the tear, the newly shaven scalp raw-pale above the dark beard, shoulders "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b10",
+   "file": "build-120-job-from-whirlwind/assets/s10-he-is-wrecked-and-still.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The greatest man of the east now holds one broken piece of pottery: Job seated deep in the pale mound outside the settlement wall, the torn robe loose on a frame gone gaunt, grey ash dusted over warm living skin, the pot"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b11",
+   "file": "build-120-job-from-whirlwind/assets/s11-he-grieved-out-loud-and.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The grief gets its voice: Job's head thrown back in the grey mound, the cords of his neck standing, mouth open in a lament aimed straight up at the flat sky \u2014 nothing swallowed, nothing performed, the full honest volume "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b12",
+   "file": "build-120-job-from-whirlwind/assets/s12-his-friends-came-and-at.jpeg",
+   "tokens": [
+    "JOB",
+    "FRIENDS",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Their best hour is their quietest, the camera set low behind the three friends' seated backs: Eliphaz, Bildad and Zophar in a still arc on the ash mound's edge, travel-dust on their dark robes, and past their shoulders t"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b13",
+   "file": "build-120-job-from-whirlwind/assets/s13-you-must-have-sinned-they.jpeg",
+   "tokens": [
+    "JOB",
+    "FRIENDS",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verdict arrives wearing kindness: Eliphaz's finger raised in gentle silver-bearded certainty, Bildad nodding the slow nod of settled arithmetic, Zophar's lean face already composing the next point \u2014 three reasonable "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b14",
+   "file": "build-120-job-from-whirlwind/assets/s14-their-tidy-answers-only-deepened.jpeg",
+   "tokens": [
+    "JOB",
+    "FRIENDS",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The broken man draws one line he will not let anyone cross: Job's hand comes up flat from the ashes, stopping all three explanations mid-sentence \u2014 the arm trembling with weakness and steady with conviction at once, the "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b15",
+   "file": "build-120-job-from-whirlwind/assets/s15-he-did-something-braver-than.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The braver thing begins with getting up: Job pushing himself from the grey mound onto unsteady feet, the potsherd left where it falls, one hand braced on his own knee, the torn robe hanging off the gaunt frame \u2014 every in"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b16",
+   "file": "build-120-job-from-whirlwind/assets/s16-he-took-his-anguish-straight.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The complaint goes straight to the top: Job upright on the ash mound with both arms flung wide at the flat grey emptiness, head back, the torn sleeves sliding down thin arms, hurling his anguish upward with the unembarra"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b17",
+   "file": "build-120-job-from-whirlwind/assets/s17-for-i-know-that-my.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the middle of the wreckage, certainty: dusk settling violet over the ash heap, the first two or three stars out above the ridge, and Job gone suddenly still \u2014 one hand flat over his own chest, face lifted to the darke"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b18",
+   "file": "build-120-job-from-whirlwind/assets/s18-that-is-a-man-in.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The size of the sentence is the size of the emptiness it was said into: one small upright figure alone on the darkening ash field, torn-robed, shaved-headed, possessing exactly nothing, speaking out loud to a violet sky "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b19",
+   "file": "build-120-job-from-whirlwind/assets/s19-he-does-not-understand-a.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Both truths share the one face: close in the last violet light, Job's features carrying total bewilderment in every furrow \u2014 a man who cannot explain one hour of what has happened to him \u2014 while the deep-set eyes hold st"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b20",
+   "file": "build-120-job-from-whirlwind/assets/s20-and-god-answered-though-not.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The answer arrives as weather: out of the bruised silver sky a vast column of slow-turning storm comes down to stand on the plain \u2014 dark grey walls of cloud wheeling from the ground to heaven, veined with quiet lightning"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b21",
+   "file": "build-120-job-from-whirlwind/assets/s21-where-wast-thou-when-i.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The first question lands with the wind leaning on him: Job braced at the great column's skirts, robe and beard streaming sideways, one foot set back to hold his ground, dust rivering past his ankles \u2014 and around him the "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b22",
+   "file": "build-120-job-from-whirlwind/assets/s22-declare-if-thou-hast-understanding.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The tone underneath the thunder starts to reach him: close on Job's wind-whipped face at the storm's edge, grey beard flattened along his jaw, eyes squinted against the flying grit \u2014 and in them, mid-question, the change"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b23",
+   "file": "build-120-job-from-whirlwind/assets/s23-god-is-doing-something-gentler.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The colossus gentles: around the small standing figure the storm's skirts slow their wheeling, the dust settling out of the air in drifting veils, the dark walls of cloud easing from iron-grey toward a soft silver lit qu"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b24",
+   "file": "build-120-job-from-whirlwind/assets/s24-he-is-taking-a-man.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The cure is performed by the picture itself: Job stands small at the frame's lower edge, and everything else opens \u2014 the storm-silver sky climbing enormous over him, the plain running lit and vast to hills he had forgott"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b25",
+   "file": "build-120-job-from-whirlwind/assets/s25-when-the-morning-stars-sang.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The vision opens on the first morning there ever was: a newborn world \u2014 young sharp mountains still wearing their first mist, rivers finding their courses in silver threads, seas holding their new shorelines \u2014 under a sk"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b26",
+   "file": "build-120-job-from-whirlwind/assets/s26-that-is-god-describing-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The memory continues, and it is fond: young seas combing their first waves onto unwalked sand, green plains rolling out their first grass toward the mist-wrapped mountains, morning light moving over all of it like a hand"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b27",
+   "file": "build-120-job-from-whirlwind/assets/s27-it-is-a-memory-and.jpeg",
+   "tokens": [
+    "JOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The questions move to the night shelf: above the dark plain the sky stands enormous and clear \u2014 the Pleiades a tight glittering handful of seven, Orion striding wide with his three-starred belt, the winter powers hung ex"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b28",
+   "file": "build-120-job-from-whirlwind/assets/s28-i-had-only-ever-heard.jpeg",
+   "tokens": [
+    "JOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The difference is all in the eyes: close on Job's face with the ash still dusted in the creases and the beard still ragged from the worst months of his life \u2014 nothing about the ruin repaired yet \u2014 but the deep-set eyes h"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b29",
+   "file": "build-120-job-from-whirlwind/assets/s29-can-you-tie-up-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The tour sweeps the unowned world in one frame: a hawk hanging on the wind high over a tawny plain where a wild donkey runs flat-out for nobody's reason but its own, a storm-maned horse standing unbridled on the rise, an"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b30",
+   "file": "build-120-job-from-whirlwind/assets/s30-his-wealth-his-health-and.jpeg",
+   "tokens": [
+    "JOB",
+    "HOME"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The last messenger's news does what the others could not: far across the plain the feast-house stands with its roof fallen in, one wall leaning, the dust of the great wind still hanging over it in the ugly light \u2014 and in"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b31",
+   "file": "build-120-job-from-whirlwind/assets/s31-chapter-after-chapter-of-a.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The answer keeps unrolling rooms nobody's tidy theology had keys to: rain falling in silver curtains on wild country where no man has ever lived \u2014 satisfying the desolate ground, says the voice, on purpose \u2014 green life c"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b32",
+   "file": "build-120-job-from-whirlwind/assets/s32-behold-i-am-vile-what.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The plaintiff withdraws his case: Job sinking to his knees on the plain before the great silver column, one hand rising to lie flat across his own mouth, head inclined \u2014 the ancient gesture of a man stopping his own word"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b33",
+   "file": "build-120-job-from-whirlwind/assets/s33-once-have-i-spoken-but.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The silence holds and turns into rest: Job settled back on his heels in the storm's soft light, the hand still resting at his lips, shoulders down from the long fight, the torn robe quiet around him at last \u2014 twice he sp"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b34",
+   "file": "build-120-job-from-whirlwind/assets/s34-i-have-nothing-to-say.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The last answer is given by hand: close on Job's weathered face with his own fingers resting lightly over the mouth that argued so long and so honestly \u2014 and above the hand, the eyes: not smarting, not swallowing pride, "
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b35",
+   "file": "build-120-job-from-whirlwind/assets/s35-not-beaten-quieted-god-never.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The difference between beaten and quieted stands up straight: Job on his feet again under the column's soft silver, shoulders down and open, hands loose at his sides, face lifted without flinching into the moving light \u2014"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b36",
+   "file": "build-120-job-from-whirlwind/assets/s36-instead-he-showed-job-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "What he got instead of answers: the sea, taking the dark cliffs in tall grey-green processions of thunder, spray hanging silver in the night air \u2014 and above the water, wheeling clear from horizon to horizon, the stars in"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b37",
+   "file": "build-120-job-from-whirlwind/assets/s37-and-somehow-it-was-enough.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Enough arrives without a single answer in its hands: the great column thinning as it lifts, its silver walls loosening into rags of bright cloud, clean light reaching the plain in widening lanes \u2014 and under the opening s"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b38",
+   "file": "build-120-job-from-whirlwind/assets/s38-i-have-heard-of-thee.jpeg",
+   "tokens": [
+    "JOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verse happens on his face: Job turned full into the washed light pouring through where the storm was, eyes wide open and filled with it, the wet bright look of a man seeing what he had only ever been told about \u2014 the"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b39",
+   "file": "build-120-job-from-whirlwind/assets/s39-now-i-have-seen-you.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The ending looks like nothing but morning: the ash field lying quiet under a washed clean sky, the grey mound just a place again, and Job upright in the middle of it with the new light full on him \u2014 no restored flocks in"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b40",
+   "file": "build-120-job-from-whirlwind/assets/s40-not-because-he-got-his.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What settled him is visible by what is missing: close on Job's face in the plain morning light, and the searching that lived in every earlier frame \u2014 the scanning, the asking, the braced waiting for a verdict \u2014 simply go"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b41",
+   "file": "build-120-job-from-whirlwind/assets/s41-the-suffering-was-never-fully.jpeg",
+   "tokens": [
+    "JOB",
+    "ASHES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "He leaves the ashes differently than he sat down in them: Job walking from the grey mound toward the settlement wall in the young light, the torn robe still torn, the grief still real in the set of his shoulders \u2014 but th"
+  },
+  {
+   "row": 120,
+   "build": "build-120-job-from-whirlwind",
+   "beat": "v2-r120-b42",
+   "file": "build-120-job-from-whirlwind/assets/s42-the-god-he-thought-had.jpeg",
+   "tokens": [
+    "JOB",
+    "WHIRLWIND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The book closes on a plain that has been visited: morning running the whole width of the tawny land, the last high silver shred of the whirlwind ascending far off like a guest departing satisfied, and down the lit road t"
   },
   {
    "row": 121,
