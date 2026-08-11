@@ -1,5 +1,35 @@
 # QC / RUNNER HANDOFF — build-93-barabbas-goes-free (Matthew 27:15-26)
 
+## 🛠 QC-FIX 2026-08-11 — ANACHRONISM CAUGHT BY FULL-CUT GATE BEFORE CAMERON'S EYES (Machine A `Dev`, unattended/headless)
+
+**Verify-pass on the BUILT row 93 (sitting in Cameron's Unwatched queue).** Extracted
+one frame per beat from the rendered mp4 and viewed every frame. 14 of 15 beats clean.
+**DEFECT:** the pale-stone judgment seat (throne) carried a carved emblem on its
+backrest that reads unmistakably as a **MODERN BICYCLE** (two wheels + frame +
+handlebars). It originated in the b01 anchor, so it was baked into the promoted
+PAVEMENT plate and propagated to **all 7 seat-wides** (b01, b04, b06, b07, b08, b10,
+b15). A viewer would absolutely notice it — exactly the kind of frame that makes
+Cameron file a complaint. BLOCKED the ship.
+
+**FIX (touch-once, localized edit — NOT a redraw, so approved faces/crowd/composition
+are preserved):** a `gemini-3-pro-image` edit pass on the 7 seat-wides instructed to
+keep every person/pose/light/framing EXACTLY and replace only the bicycle carving with
+plain smooth stone. s07 needed one retry (first edit left a faint emblem). Re-promoted
+the PAVEMENT plate from the fixed s01 so the warehouse cannot re-propagate the bicycle.
+Re-assembled: **AUDIO REBUILD PASS SHA256=6df005ef…** — byte-identical to the audio
+Cameron already has (no re-voice, timing untouched). Ground-truth re-verified on the NEW
+mp4: all seat-wides now show clean plain-stone thrones; only-Jesus-cream, JESUS face
+lock, PILATE/BARABBAS consistency and the substitution thesis (b12/b15) all held through
+the edit.
+
+**Cost:** 8 image edits (7 + 1 retry) = **$1.07**, meter $557.31→$558.38, under ceiling
+$584. This exceeds the 15% reroll budget numerically (8 vs ~2), but it is ONE defect
+class fixed in ONE touch-once pass on a plate-propagated anachronism — the correct
+root-cause fix, not subtle-drift chasing. COMPLAINT LEDGER: none open (proactive catch).
+
+---
+
+
 ## ✅ REALISTIC-V2 BUILT + SHIPPED (2026-08-07, Opus picture runner, Machine A `Dev`, UNATTENDED/HEADLESS)
 
 15 realistic stills, 90.3s, AUDIO REBUILD PASS SHA256=`6df005ef9a84e97bfc8171fefc968899f0808abfe3de3f2fb33f3e14825b191a`.

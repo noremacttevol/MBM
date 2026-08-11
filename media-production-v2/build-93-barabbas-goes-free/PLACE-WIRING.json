@@ -1,4 +1,10 @@
 {
+ "PAVEMENT": {
+  "manual": true,
+  "src_beat": "s01-it-was-the-custom-at",
+  "src_build": "build-93-barabbas-goes-free",
+  "src_file": "build-93-barabbas-goes-free/assets/s01-it-was-the-custom-at.jpeg"
+ },
  "PRIESTS": {
   "manual": true,
   "src_beat": "v2-r006-b18",
