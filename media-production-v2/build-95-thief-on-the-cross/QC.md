@@ -1,5 +1,55 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
+## 🛑 QC-VERIFY → RUNNER PARK — NEEDS-REBUILD (FULL-CUT GATE, 2026-08-11, Machine A `Dev`, unattended/headless)
+
+**The desync fix below is CONFIRMED holding, but b01 (the opening 0–8s establishing
+wide) carries a GIANT-COMPOSITE / SCALE defect that must NOT reach Cameron. Pulled from
+his Unwatched queue (card `data-machine-reason`). State flipped BUILT→NEEDS-REBUILD so the
+AUTHOR lane owns it — this is a BEAT-TEXT / structural fix, not a runner reroll.**
+
+### What I verified (FULL-CUT GATE — one frame per beat from the RENDERED mp4)
+Extracted mid-window frames for all 11 beats + the card and viewed every one.
+- **10 of 11 CLEAN** (b02–b11 + card): three-crosses geometry holds (mocker L / Jesus
+  C-cream / thief R, never swapped), MOCKER + THIEF face-locked and consistent, rope-not-
+  nails / no gore throughout, cream-only-Jesus, JESUS face lock intact, eye-lines connect
+  on the exchange beats (b07/b09/b11), captions bottom-band, question card clean.
+- **RESOLVED-COMPLAINT NOT REGRESSED:** the cont.19 desync fix holds — at mp4 52.4s (b09)
+  Jesus's face is full-frame under the red-letter "To day shalt thou be with me in
+  paradise"; b10 (58.5s) the thief receives "Today"; the promise lands on Jesus, not the
+  thief-alone. Every checked line sits under its own picture.
+
+### The BLOCKING defect — b01 giant-composite (the FIX-WAVE item, now a hard block under the 2026-08-10 gate)
+The opening establishing wide is a structural double-perspective composite: three ENORMOUS
+chest-up figures (mocker / Jesus-cream / thief) cut off at the hilltop crest with a visible
+haze seam, floating over a correctly-scaled downslope crowd + distant city. The men are
+grossly out of scale with the watchers — the "giant / composite" complaint class, and it's
+the FIRST frame Cameron sees. The prior runner shipped it as a "coherent 2nd take" under
+the old "no-obvious-garbage" bar; the FULL-CUT GATE (2026-08-10, row-11 seven-bad-frames)
+KILLED that bar — anything that would make Cameron type a complaint now BLOCKS. b05 proves
+the model CAN render this exact wide at correct scale, so this is a beat-composition problem,
+not a model limit.
+
+### Rerolls are proven unwinnable on this beat (do NOT burn more meter)
+Three attempts now return garbage: prior runner's initial gen (floating heads + haze) and
+1 redo (composite) — both giant-trio-over-tiny-watchers; **this QC-VERIFY's reroll (2026-08-11,
+$0.13, ceiling $588.94) came back WORSE**: the three REF portraits pasted as literal framed
+rectangles onto the tops of the crosses. Stopped after 1 reroll per COST LAW. The overwritten
+s01 source was restored from the shipped mp4 so the folder stays consistent with the cut.
+
+### AUTHOR FIX SPEC (beat-text change — runner is barred from this)
+Make b01 a TRUE distant establishing wide: either a person-free HILL-plate establish, or drop
+the giant foreground trio and place the three men at genuine distance on their crosses against
+the grey sky, watchers small in front — so scale reads as one coherent photograph, not a
+portrait collage. Do NOT re-add the REF portraits as foreground giants (that is what keeps
+compositing). Then the picture runner regens ONLY b01, re-assembles (audio byte-identical —
+AUDIO REBUILD PASS `e5ba558a`, the 10 good stills untouched), FULL-CUT-GATE the new b01
+frame, and re-ships (deploy + live-verify, restore the card to the ready wave).
+
+**No approval is voided** — the row was in Cameron's Unwatched queue, never Approved. The
+audio + the other 10 beats are good; only b01 needs re-authoring.
+
+---
+
 ## ✅ DESYNC RESOLVED + RE-SHIPPED — AUTHOR-FIX 2026-08-11 (Machine A `Dev`, unattended/headless, $0, 0 rerolls)
 
 **The QC-BLOCK below is CLOSED.** The ~4s audio↔picture desync is fixed. No re-voice,
