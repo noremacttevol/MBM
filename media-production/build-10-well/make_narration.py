@@ -104,10 +104,18 @@ SPOKEN = {}
 # duration. The past over-slow take (4.92 s) was rejected as ROBOTIC — but that was the
 # -30% RATE DRAG stretching each word, not the pauses. So the weight now comes ONLY from
 # real silence between naturally-spoken phrases (Jesus default -22%, no rate drag at all),
-# rendered as THREE separate chunks joined with silence (`build_j2` below). Splitting the
+# rendered as chunks joined with silence (`build_j2` below). Splitting the
 # chunks also permanently kills the "the Amhi" slur (thee / am-he are separate files).
 # Measured 7.73 s (~1.95x the 3.96 s take); faster-whisper hears "I", "that speak unto
 # thee", "am he" as three deliberate beats. Caption stays byte-identical verbatim KJV.
+#
+# 2026-08-10 (Cameron: "now its too slow and sounds horrible like a robot. undo it
+# and make it right"): the THREE-chunk take (7.73s) chopped the line into staccato
+# fragments — each chunk carried its own breath/falling envelope = robot. NOW: TWO
+# chunks — "I that speak unto thee..." flows as ONE natural phrase, then a single
+# 0.55s real pause, then "am he." Measured 5.64s; whisper hears the exact KJV words
+# as two deliberate beats. No rate drag, no chop. The slur stays dead (thee/am-he
+# separate files).
 PHRASE_SPOKEN = {}
 # No per-segment rate override — j2 uses the Jesus speaker default (-22%). Its weight is
 # built from real silence, not a slower rate (a slower rate is what read as "robot").
@@ -115,8 +123,8 @@ PHRASE_RATE = {}
 
 # j2 is built from these three chunks at the Jesus default rate, joined by J2_GAP s of
 # real silence. The trailing "..."/"." keep edge-tts intonation continuative, not falling.
-J2_CHUNKS = ["I...", "that speak unto thee...", "am he."]
-J2_GAP = 0.50   # real silence between chunks; the natural breath edge-tts leaves on each
+J2_CHUNKS = ["I that speak unto thee...", "am he."]
+J2_GAP = 0.55   # real silence between chunks; the natural breath edge-tts leaves on each
                 # chunk adds to this, so the perceived beats are ~1.1-1.3 s — weighty,
                 # human, NOT the stark dead-air of the rejected robotic take.
 
