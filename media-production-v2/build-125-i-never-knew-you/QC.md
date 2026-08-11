@@ -90,3 +90,25 @@ rediscovering the wall. Row **129** was BUILDABLE (excess +0.380, newer=0) and i
 built this session.
 
 COMPLAINT LEDGER: none open (v2_outline.py 125 shows no complaint block).
+
+---
+
+## ✅ AUDIO-LANE FIX APPLIED — Opus audio-fix lane, Machine A `Dev`, 2026-08-11, $0
+
+**STALE-V1 excess-tail resolved.** Added `AUDIO_FROM_V1_SEGMENTS = True` to
+`beats_v2.py` (module level, beside `REF = True`). This takes the STALE-V1-FINAL
+path in `v2_assemble.py`: the authoritative track is rebuilt from the 8 V1
+narration mp3s at the extract_beats offsets instead of copying the V1 mp4's AAC
+stream (which carried the stray ~0.893s tail that failed `assert_v1_final_is_current`).
+
+**Validated ($0, no TTS, no Gemini):** `rebuild_audio_from_segments` produces a
+91.824s track (8 V1 segment mp3s, −21.5 LUFS → +6.5 dB), delta 0.000s vs the mp3
+timeline total (guard needs <0.5s). The stray tail is dropped; nothing is
+re-voiced — same voices, same wording, same timing.
+
+**Row is now buildable.** Full `v2_assemble.py 125` cannot run yet (0 stills — it
+stops at "missing picture"), so per the audio-fix protocol the board is flipped
+to **AUTHORED / Audio OK / Ready ✅**, claim cleared. A picture runner generates
+the 15 stills (DOOR promote-first from b02, ROAD promote-first from b11, HILLSIDE
+plate shared with 121-124) then runs `v2_assemble.py 125` → AUDIO REBUILD PASS and
+ships the full cut on this fixed audio.

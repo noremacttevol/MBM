@@ -87,6 +87,13 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1 fix (audio lane, 2026-08-11): the V1 mp4 carries ~0.893s of audio
+# (a trimmed/longer take) that the current narration mp3s no longer contain, so
+# v2_assemble's assert_v1_final_is_current refuses to copy its AAC stream. Rebuild
+# the track from the V1 mp3 segments at the extract_beats offsets — re-voices
+# nothing ($0), drops the stray tail. See QC.md RUNNER PARK.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r125-b01", "out": "s01-jesus-warned-that-saying-the.jpeg", "seg": "n0",
