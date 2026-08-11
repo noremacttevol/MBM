@@ -50,7 +50,7 @@ from mbm_speakers import JESUS, NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n1", NARRATOR, "Jesus said the kingdom of God is like something a woman does every week, in her own kitchen, with her own hands."),
+    ("n1", NARRATOR, "Watch the small and ordinary thing a woman does every week, in her own kitchen, with her own hands."),
     # Matthew 13:33
     ("s33", SCRIPTURE, "Another parable spake he unto them;"),
     # Matthew 13:33

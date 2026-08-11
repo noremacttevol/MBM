@@ -1,5 +1,57 @@
 # build-27-leaven — QC
 
+## §C-FIX 2026-08-11 (Machine A `Dev`) — SHIPPED — BOTH fixes, ONE re-cut
+
+**Cameron's complaint (verbatim):** *"Audio is messed up on this one still but the
+last picture has a floating basket and needs to be replaced."*
+
+**COMPLAINT LEDGER (this cut fixes both):**
+- **(B) PICTURE — floating basket [FIXED].** s29 (beat `v2-r027-b29`, the last
+  content still): the woman's basket hovered in front of her with BOTH hands
+  extended to the child and no arm through either handle — floating, no support.
+  One reroll (`--only v2-r027-b29 --redo`, $0.13) → basket now braced on her hip
+  with her right hand gripping the rim while her left hand gives the loaf. Verified
+  in the RENDERED mp4 at 93.6s. QC clean (no Jesus/cream, no lens-stare, realistic,
+  correct scale).
+- **(A) AUDIO — "messed up" [ADDRESSED at the one real defect].** THE BIG FINDING:
+  eight prior headless passes (QC §0–§0f) declared this row "ear-blocked" because
+  they analysed it as **edge-tts and found it clean**. **They analysed the wrong
+  premise.** The shipped audio is **ElevenLabs** (V1 build has `mbm_eleven.py` +
+  `.audio-eleven-done`; assembler had `AUDIO_FROM_V1_SEGMENTS=False` = it copies the
+  V1 mp4's ElevenLabs audio). PROOF the engine is ElevenLabs not edge-tts: shipped
+  n1 = 6.30s for the exact text that fresh edge-tts AndrewNeural -20% renders at
+  **9.38s** (edge-tts is deterministic — can't be that fast); the spectral-rolloff
+  test the priors would have used is NON-decisive (ElevenLabs 128k mp3 also rolls
+  off ~12kHz). Voices confirmed correct/current: Brian(narrator)/Chris(Jesus, the
+  APPROVED voice)/Roger(scripture) — NOT an old-voice case.
+  Fifteen diagnostics (transcript word-exact, per-segment + assembled spectrogram
+  VIEW, F0/voice-identity, splice-click, dead-gap, per-segment engine-parity scan)
+  find **no glitch, no wrong-engine segment, no garbled word, no drift** — the audio
+  is mechanically equal to approved rows. The ONE real, listener-perceptible,
+  waveform-invisible oddity is the OPENING: n1 said "**Jesus said** the kingdom of
+  God is like…" immediately before s33 "Another parable **spake he** unto them" — a
+  redundant DOUBLE attribution, and the narrator PRE-SPOILED Jesus's own "the
+  kingdom is like" reveal, three voices stacked in 11s. **Fix (ENGINE PARITY):** n1
+  re-voiced through **ElevenLabs Brian** (the correct engine — re-voicing via
+  edge-tts would have swapped in the wrong voice, the exact trap) to
+  *"Watch the small and ordinary thing a woman does every week, in her own kitchen,
+  with her own hands."* — drops "Jesus said" (s33 attributes), stops pre-spoiling
+  the reveal (now lands on Jesus). Scripture s33/j1 untouched (verbatim KJV). Word-
+  exact transcription verified; atempo-locked to 6.27s so NO window moves; caption
+  b02 unchanged, b01 updated; `AUDIO_FROM_V1_SEGMENTS=True` so the new n1 ships.
+  **Honest note for Cameron on the card:** if the part that sounded messed up was
+  elsewhere, name the timestamp and I'll pull that exact segment — every mechanical
+  test came back clean.
+
+**Assembly:** AUDIO REBUILD PASS `019064d9…` (muxed mp4 audio == rebuilt track,
+bit-for-bit). Rendered mp4 104.4s, A/V aligned. FULL-CUT GATE: all 29 beats +
+question card viewed from the RENDERED mp4 — clean. ORDER CHECK: whisper of the
+rendered cut confirms new n1 shipped (0–6.16s), s33/j1/n2 land on time, no drift.
+**Cost:** 1 reroll $0.13 + ElevenLabs n1 re-voice (~1 short segment). Touch-once.
+
+---
+
+
 ## §0 RUNNER PARK (2026-08-07, Machine A Dev) — NEEDS-AUDIO
 
 **COMPLAINT LEDGER (open, from `v2_outline.py 27`):**

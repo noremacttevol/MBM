@@ -251,7 +251,7 @@ OUTPUT_ASSET_DIR = "assets"
 # The V1 MP4 last changed bytes AFTER every V1 mp3 and runs 0.058 s past the summed
 # timeline, so the finished V1 audio stream is current and the normal packet-copy
 # AUDIO LOCK applies. Nothing is re-voiced; V1 is never written to.
-AUDIO_FROM_V1_SEGMENTS = False
+AUDIO_FROM_V1_SEGMENTS = True  # 2026-08-11 C-FIX: n1 re-voiced (ElevenLabs Brian) — rebuild audio from V1 segments so the new n1 ships
 
 REF = True
 
@@ -265,7 +265,7 @@ BEATS = [
         "id": "v2-r027-b01", "out": "s01-like-something-a-woman-does.jpeg",
         "seg": "n1", "window": "0.280-3.580", "wide": True, "jesus": True, "ref": REF,
         "locks": ["SYNAGOGUE", "LISTENERS"],
-        "narration": "Jesus said the kingdom of God is like something a woman does every week,",
+        "narration": "Watch the small and ordinary thing a woman does every week,",
         "must_show": "Jesus seated on the long low stone bench built along the sunlit outer wall of a village synagogue in flat bright mid-afternoon light, beginning to speak, with village listeners settled along the bench and on the worn stone steps around him.",
         "must_not_show": "no halo, no glow, no rim-light and no light coming off Jesus; no night, no lamp, no sunset or sunrise colouring, no interior; no oven, no kneading trough, no dough and no baking yard anywhere in this frame; no cream or off-white cloth on anybody but Jesus anywhere in the frame including the blurred edges; nobody looking into the lens.",
         "scene": (
