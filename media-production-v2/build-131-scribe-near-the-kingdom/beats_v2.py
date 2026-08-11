@@ -440,3 +440,20 @@ PLACE_REFS = {
 REFS = {
     "SCRIBE": "CAST-REF-V2/scribe.jpeg",
 }
+
+# === CAPTION TEXT OVERRIDES (row-84 class) ===
+# The V1 narration SCRIPT (SEGMENTS) was tightened AFTER the ElevenLabs voices
+# were cut, so extract_beats fed the caption filter a newer/shorter narrator
+# draft that the shipped mp3s do NOT speak. FULL-CUT GATE 2026-08-11 caught it:
+# the AUDIO (and audio/<seg>.timing.json, word-timed to the real mp3s) speaks the
+# fuller text below, while the stale SEGMENTS text printed different words on
+# screen (n0b/n1/n2/n4 only — every KJV/scripture segment + n0a/n3/card already
+# matched). Override each mismatched narrator segment with its GENUINELY-SPOKEN
+# text from timing.json so the caption matches the voice. Assembly-only, $0,
+# audio byte-identical (AUDIO LOCK unchanged). V1 is never edited.
+TEXT_OVERRIDES = {
+    "n0b": "Jesus answered from words the scribe had known by heart for years.",
+    "n1": "The answer was not merely an idea to admire. It measured every other act of devotion.",
+    "n2": "The scribe had not merely repeated Jesus. He understood the weight of the answer.",
+    "n4": "That was both recognition and invitation. Understanding had brought the man to the threshold; now he had to enter. And no one dared question Jesus after that.",
+}
