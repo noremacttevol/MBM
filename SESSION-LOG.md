@@ -1,3 +1,5 @@
+## 2026-08-11 (cont.) — Rows 13+17 C-FIX SHIPPED hands-on (Cameron: "just 13 and 17 to get the first 30 done"): 13 = 1:51 wide-open room (beat widened + HOUSE plate; was reading as a grave). 17 = story-order law enforced 3:26-end: tomb SEALED in all six pre-command frames, invented crowd-moment replaced, stone SLIDES aside in groove (b46), anti-panel hardened after a 4-panel collage take; ~$2.20 total, every fixed second re-verified in the final videos; live hashes a653f820a25d / 4943e95242a9. FIRST-30 STATUS: every row 1-30 now approved, fixed-awaiting-rewatch, or (27) queued first for the loop.
+
 ## 2026-08-11 — REALISTIC-ONLY PURGE + PUBLIC-VIDEO GATE (Cameron: "still old videos published on my app and the website") — Machine A `Dev`
 
 **Commit:** purge + gate + law = `f9c7ecfe8`; this log = (this commit).
