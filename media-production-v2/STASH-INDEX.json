@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 18:35:01",
+ "scanned": "2026-08-11 18:55:42",
  "entries": [
   {
    "row": 1,
@@ -53239,6 +53239,324 @@
    "night": false,
    "n_person": 0,
    "scene": "The story tips its hand with three quiet objects: the child Obed asleep in the warm gold, a shepherd's staff leaned by the cradle where a visitor left it, and through the small window the hill of Bethlehem holding the la"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b01",
+   "file": "build-151-ask-of-god/assets/s01-sooner-or-later-every-one.jpeg",
+   "tokens": [
+    "SEEKER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Everyone's road produces this moment eventually: the young man stands stopped in the middle of the dusk track, feet stilled mid-journey, the grey way ahead dimming into uncertainty \u2014 and on the earnest young face the par"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b02",
+   "file": "build-151-ask-of-god/assets/s02-a-fork-in-the-road.jpeg",
+   "tokens": [
+    "SEEKER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The question has geometry now: the track splits at his feet into two ways, each running equally grey into the dusk \u2014 no marker, no signpost, no difference reason can grab \u2014 and the young man stands at the junction with h"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b03",
+   "file": "build-151-ask-of-god/assets/s03-we-lack-wisdom-and-trying.jpeg",
+   "tokens": [
+    "SEEKER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Effort has been thoroughly tried and found insufficient: the young man sits at the lamplit table with the candle burned low, open books and turned pages spread past his elbows, his head down in both hands \u2014 every argumen"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b04",
+   "file": "build-151-ask-of-god/assets/s04-friends-teachers-the-loudest-voices.jpeg",
+   "tokens": [
+    "SEEKER",
+    "VOICES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The second-oldest strategy is consulted next: the young man stands ringed by counsel \u2014 an elder leaning in with a raised instructive finger, a neighbour gesturing the opposite way, a confident talker with both palms out,"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b05",
+   "file": "build-151-ask-of-god/assets/s05-and-often-we-come-away.jpeg",
+   "tokens": [
+    "SEEKER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "He leaves the consultation carrying more knots than he brought: the young man walks away down the lane with his brow drawn tighter than before, hands working at his sides \u2014 behind him the ring of advisers still gesturing"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b06",
+   "file": "build-151-ask-of-god/assets/s06-but-there-is-another-door.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The whole time, one door in the lane has been standing open: a plain wooden door, unlatched and ajar on its worn hinges, quiet morning light lying through the gap across the threshold stone \u2014 no queue before it, no gatek"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b07",
+   "file": "build-151-ask-of-god/assets/s07-not-only-a-teacher-not.jpeg",
+   "tokens": [
+    "SEEKER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The address on the question changes to the top: the young man's face comes up from the spent books and lifts toward the window and the open morning sky beyond it \u2014 past the teachers, past the pages, past every intermedia"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b08",
+   "file": "build-151-ask-of-god/assets/s08-if-any-of-you-lack.jpeg",
+   "tokens": [
+    "SEEKER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One sentence in an old letter stops his breath: the young man bent to the epistle in the lamp's ring goes suddenly still \u2014 eyes fixed mid-line, thumb pressed white against the page's edge, the room's silence changing qua"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b09",
+   "file": "build-151-ask-of-god/assets/s09-so-a-young-man-does.jpeg",
+   "tokens": [
+    "SEEKER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The plainest thing there is turns out to take the most nerve: the young man rises from the table and closes the old book gently under his hand \u2014 the decision already made in the set of his shoulders \u2014 no speech, no annou"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b10",
+   "file": "build-151-ask-of-god/assets/s10-he-finds-a-quiet-place.jpeg",
+   "tokens": [
+    "SEEKER",
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The plainest prayer in the row is prayed on spring ground, the camera set low at the clearing's edge taking the kneeling figure from the side: the young man kneels in the small natural clearing among slender trunks, the "
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b11",
+   "file": "build-151-ask-of-god/assets/s11-honestly-out-loud-the-way.jpeg",
+   "tokens": [
+    "SEEKER",
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The asking is done out loud because he means it: close on the young kneeling face in the thin morning light, lips moving audibly through the words \u2014 plain words, his own, no borrowed phrases and no performance for any li"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b12",
+   "file": "build-151-ask-of-god/assets/s12-now-look-at-how-god.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The verse's picture of God is a granary door with no rejection pile: down the waiting line the grain pours into every held-out container \u2014 the old man's sack, the child's bowl, the widow's folded apron, the stranger's bo"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b13",
+   "file": "build-151-ask-of-god/assets/s13-not-grudgingly-not-a-thin.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Watch the pouring hand for the doctrine: the cup fills, reaches its brim \u2014 and the pour goes on, wine running bright over the lip into the saucer of the hand beneath; the grain sack fills to its tie-line \u2014 and the scoop "
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b14",
+   "file": "build-151-ask-of-god/assets/s14-and-he-does-not-scold.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The late asker braces for the lecture that never comes: at the doorway the hesitant son stands with his question held awkwardly, years late in the asking, shame pre-loaded in his shoulders \u2014 and the old father's face sho"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b15",
+   "file": "build-151-ask-of-god/assets/s15-he-simply-gives.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The whole clause is one motion between two hands: the giver's hand places the warm loaf into the asker's open palm and withdraws \u2014 no ceremony attached, no condition riding on it, no speech before or invoice after \u2014 give"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b16",
+   "file": "build-151-ask-of-god/assets/s16-that-is-the-kind-of.jpeg",
+   "tokens": [
+    "SEEKER",
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Faith, photographed, is mostly stillness: back in the clearing the young man kneels exactly where he knelt \u2014 spine quiet, hands at rest on his knees, breath even, no fidget in him anywhere \u2014 the question asked and not sn"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b17",
+   "file": "build-151-ask-of-god/assets/s17-for-he-that-wavereth-is.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What wavering looks like from the outside: the open sea under storm-grey, its surface driven into crests that lean one way and are slapped the other, spray torn off mid-decision, no swell finishing the direction it start"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b18",
+   "file": "build-151-ask-of-god/assets/s18-there-is-one-thing-asked.jpeg",
+   "tokens": [
+    "SEEKER",
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The entrance requirement is one nobody fails for lack of schooling: the young face turns up into the strengthening light between the leaves \u2014 nothing clever in it, nothing argued, none of the crowd's confident machinery "
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b19",
+   "file": "build-151-ask-of-god/assets/s19-to-ask-believing-that-he.jpeg",
+   "tokens": [
+    "SEEKER",
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Holding steady looks like staying on your knees while the light changes: the young man has not moved \u2014 the same kneeling posture, the same still hands \u2014 but the morning has: the thin first shafts through the canopy have "
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b20",
+   "file": "build-151-ask-of-god/assets/s20-when-that-happens-most-of.jpeg",
+   "tokens": [
+    "SEEKER",
+    "VOICES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The first strategy is the one everybody tries: down the busy lane the young man carries his question from person to person \u2014 a pause at the well for the water-drawer's opinion, a step into the shop doorway for the keeper"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b21",
+   "file": "build-151-ask-of-god/assets/s21-and-the-promise-on-the.jpeg",
+   "tokens": [
+    "SEEKER",
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verse's last clause has no maybe in it, and neither does the morning now: the clearing stands in full broad light \u2014 the shafts merged into one warm flood through the young leaves \u2014 and the kneeling boy's lifted face "
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b22",
+   "file": "build-151-ask-of-god/assets/s22-wisdom-you-could-never-argue.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The clearing keeps office hours for anyone: the young wood stands in its full morning light with the small natural clearing open at its heart \u2014 the soft ground still showing where knees pressed it, the light lying warm a"
+  },
+  {
+   "row": 151,
+   "build": "build-151-ask-of-god",
+   "beat": "v2-r151-b23",
+   "file": "build-151-ask-of-god/assets/s23-what-have-you-been-trying.jpeg",
+   "tokens": [
+    "GROVE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last frame is addressed to whoever is watching: close on the empty kneeling-place in the clearing's warm morning light \u2014 the soft pressed ground, the quiet, the ready light through the young leaves \u2014 everything prepa"
   }
  ]
 }
