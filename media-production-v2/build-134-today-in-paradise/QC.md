@@ -51,3 +51,24 @@ File order = story order here.
 
 - b16 mourner: comforted grief, dignity total; no trapdoor imagery.
 - REST promote-first from b14.
+
+## 🅿️ RUNNER PARK — NOT AUDIO-READY (2026-08-11, Machine A `Dev`, $0)
+
+**Blocked before ANY credit — no stills generated, meter untouched.** IDENTICAL
+audio-not-wired block to row 133 (parked same session). Measured: the V1 dir
+`media-production/build-134-today-in-paradise/` has NO `*.mp4`; its `audio/`
+holds only `.timing.json` (**0 `.mp3`**); `beats_v2.py` has no
+`AUDIO_FROM_V1_SEGMENTS` (grep 0). Every buildable sibling (rows 100/105/108)
+has all three; this row has none, so neither `v2_assemble` audio path can run
+and `extract_beats.extract(134)` crashes on the missing mp3 durations. The V2
+dir `media-production-v2/build-134-today-in-paradise/audio/` DOES have all 10
+fresh mp3s (Aug 5) — the V1 build reached `segs/` but never landed its final
+mux + `audio/*.mp3`.
+
+**RESUME (author / audio lane):** copy the 10 V2-dir mp3s into
+`media-production/build-134-today-in-paradise/audio/`, set
+`AUDIO_FROM_V1_SEGMENTS = True` in this build's `beats_v2.py`, verify
+`extract_beats.extract(134)['total']` succeeds and `rebuild_audio_from_segments`
+finds all 10, THEN the picture runner builds the beats on that audio (REST
+promote-first from b14). Ready ✅ cleared on AUTHOR-BOARD until then. Runner will
+not restore V1 audio or edit beats_v2.py (hard-protection #1 + audio-immutability).
