@@ -73,6 +73,31 @@ LOCKS = {
 
 REF = True
 
+# CONTINUITY-LOCK for the 0:00-0:35 arrest approach (b01-b07). Cameron re-opened
+# this row a THIRD time: "people keep disappearing quickly and coming back and
+# the army is going the wrong way." The prior two fixes only re-rolled the same
+# beat text and reproduced the flicker. This clause is appended to every beat in
+# the approach block so the SAME people, the SAME count and ONE approach
+# direction are pinned frame-to-frame — no vanish in the tight beats, no
+# reversed column.
+ARREST_CONT = (
+    " CONTINUITY-LOCK (identical in EVERY frame of the arrest's approach, from "
+    "the torches' first appearance through the swing): the arrest party is ONE "
+    "single unbroken torch-lit column climbing the terraced slope from the "
+    "LOWER-LEFT up toward the UPPER-RIGHT where Jesus stands — always advancing "
+    "toward him, the torch-flames and the men's faces pointed up-slope, NEVER "
+    "receding, never turned away, never marching downhill or off to the side; "
+    "the cloaked leader stays at its head with the temple guards in the same "
+    "order behind him, and from one frame to the next the column only ever "
+    "grows CLOSER and larger, never smaller, never farther. The defenders are "
+    "always the SAME three men — Peter the big fisherman foremost with two "
+    "companions at his shoulders, no more and no fewer — planted between the "
+    "column and Jesus. No soldier and no disciple appears from nowhere or "
+    "vanishes between consecutive frames; even in a tight close-up the same "
+    "torch-column still burns at the LOWER-LEFT of the background so the scene "
+    "never empties."
+)
+
 BEATS = [
     {
         "id": "v2-r066-b01", "out": "s01-it-was-the-middle-of.jpeg", "seg": "n0",
@@ -98,7 +123,7 @@ BEATS = [
             "arrest ascend the hill, and not moving from "
             "its path. Every figure has two arms, two "
             "hands and one head."
-        ),
+        ) + ARREST_CONT,
     },
     {
         "id": "v2-r066-b02", "out": "s02-lord-should-we-fight.jpeg", "seg": "n1b",
@@ -112,13 +137,16 @@ BEATS = [
             "disciple's face turned back toward his "
             "teacher, fear and fierce loyalty fighting "
             "across it — and at the frame's lower edge "
-            "his hand already closed on a sword hilt "
-            "beneath his cloak, the question asked with "
+            "his hand already closed hard on the HILT of "
+            "a sword STILL FULLY SHEATHED in its scabbard "
+            "beneath his cloak — the weapon UNDRAWN, NO "
+            "blade showing yet, only the white-knuckled "
+            "grip; the question asked with "
             "his mouth while his grip answers it — the "
             "night one word from two different endings. "
             "Every figure has two arms, two hands and one "
             "head."
-        ),
+        ) + ARREST_CONT,
     },
     {
         "id": "v2-r066-b03", "out": "s03-a-mob-sent-by-the.jpeg", "seg": "n0",
@@ -132,9 +160,12 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the arrivals — the torch-lit arrest party breaking into the garden's terrace: guards, staves, swords, and at their head the dark-cloaked figure who knows the way.",
         "must_not_show": "no halo, glare or rim-light; the leader's face shadowed under his hood's edge — known and not dwelt on; the mob tense, ordered, human.",
         "scene": (
-            "Up onto the garden's terrace, the camera at the "
-            "terrace wall taking the incursion from the side, the arrest "
-            "party breaks from the trees — a dozen "
+            "The camera looks DOWN-slope from just behind "
+            "Jesus and his three companions, out over the "
+            "terrace toward the advancing torches: the "
+            "arrest party climbs the terrace from the "
+            "lower-left, ascending straight toward Jesus "
+            "and the camera — a dozen "
             "torches throwing wild orange over the "
             "silver leaves, temple guards in dark "
             "leather with staves and short swords, "
@@ -142,9 +173,11 @@ BEATS = [
             "their head, sure of every turn in the dark, "
             "a cloaked figure whose face the torchlight "
             "keeps finding and losing: a guide who has "
-            "prayed on this ground himself. Every figure "
+            "prayed on this ground himself. The whole "
+            "column faces UP the slope toward Jesus, "
+            "closing the distance, never receding. Every figure "
             "has two arms, two hands and one head."
-        ),
+        ) + ARREST_CONT,
     },
     {
         "id": "v2-r066-b04", "out": "s04-and-his-friends-could-not.jpeg", "seg": "n1",
@@ -154,17 +187,19 @@ BEATS = [
         "must_show": "the friends' surge — the disciples bunching in front of Jesus as the torches close: bodies interposing, the instinct to shield made visible.",
         "must_not_show": "no halo, glare or rim-light; the interposition the beat — love arranging itself between the threat and its object.",
         "scene": (
-            "As the torchlight closes, the disciples "
-            "surge and bunch — three of them shouldering "
+            "As the torchlight closes from the lower-left, "
+            "the same three disciples "
+            "surge and bunch — Peter the big fisherman "
+            "foremost with his feet planted wide and two "
+            "companions at his shoulders, shouldering "
             "in front of their teacher in the silver "
-            "dark, arms half-spread, the big fisherman "
-            "foremost with his feet planted wide — a "
+            "dark, arms half-spread — a "
             "living wall assembling itself out of tired "
             "loyal men, between the swords and the one "
             "man in the garden not looking for cover. "
             "Every figure has two arms, two hands and "
             "one head."
-        ),
+        ) + ARREST_CONT,
     },
     {
         "id": "v2-r066-b05", "out": "s05-luke-says-they-saw-what.jpeg", "seg": "n1 + s49",
@@ -177,16 +212,24 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the asking — the disciples' faces turned to Jesus in the torch-glare, the question hanging; his answer not yet come.",
         "must_not_show": "no halo, glare or rim-light on Jesus; the un-answered instant — permission sought and the night not waiting.",
         "scene": (
-            "In the closing torch-glare the disciples' "
-            "faces are all turned one way — to Jesus, "
-            "the question hanging in the orange-lit air "
-            "between them — his own face steady and "
-            "beginning its answer — while past their "
-            "shoulders the mob's front rank steps onto "
-            "the terrace grass and the night runs out of "
-            "room for questions. Every figure has two "
+            "Tight on the three disciples from the front, "
+            "their torch-lit faces all turned up one way "
+            "— to Jesus close above them, the question "
+            "hanging in the orange-lit air between them — "
+            "his own face steady and beginning its answer "
+            "— while just past their shoulders, only a few "
+            "strides off now and CLOSER than at the "
+            "opening, the mob's front rank has already "
+            "stepped up onto the terrace grass from the "
+            "lower-left, their torches burning LARGE and "
+            "near at the disciples' backs — the arrest "
+            "party arrived, not a distant column, the "
+            "night out of room for questions. This is a "
+            "tight reaction shot on the upturned faces, "
+            "NOT a wide repeat of the establishing view. "
+            "Every figure has two "
             "arms, two hands and one head."
-        ),
+        ) + ARREST_CONT,
     },
     {
         "id": "v2-r066-b06", "out": "s06-they-said-and-then-they.jpeg", "seg": "n1b",
@@ -206,7 +249,7 @@ BEATS = [
             "into the worst idea of the night. Every "
             "figure has two arms, two hands and one "
             "head."
-        ),
+        ) + ARREST_CONT,
     },
     {
         "id": "v2-r066-b07", "out": "s07-impulsive-loyal-terrified-peter-grabbed.jpeg", "seg": "n1b",
@@ -230,7 +273,7 @@ BEATS = [
             "insists it end, a half-second before "
             "anything lands. Every figure has two arms, "
             "two hands and one head."
-        ),
+        ) + ARREST_CONT,
     },
     {
         "id": "v2-r066-b08", "out": "s08-he-caught-the-servant-of.jpeg", "seg": "n1b",

@@ -47,6 +47,73 @@ healing palm are all tight by design.
 
 ---
 
+## RUNNER SHIP LOG — C-FIX 2026-08-11 (Opus C-FIX, Machine A `Dev`) — 3rd RE-OPEN / CONTINUITY LOCKED IN THE BEAT TEXT
+
+**COMPLAINT LEDGER (Cameron's own words, `v2_outline.py 66`):**
+
+> *"all the pictures up to 0:30 of the army coming to arrest Jesus and his
+> disciples defending him are bad and all need to be redone, people keep
+> disappearing quickly and coming back and the army is going the wrong way. all
+> just looks dumb. 1:24 is bad, the trees are all cut off weirdly to expose the
+> night sky, just weird. All the pictures for this one are bad its very low grade
+> i need a complete restart on this one."*
+
+**Why the two prior fixes failed and this one is different (the LEARNING LAW).**
+The 2026-08-07 and 2026-08-11 fixes both just RE-ROLLED the same beat text and
+reproduced the flicker — the beat text never PINNED a count or a direction, so
+every regeneration let the mob reset its distance and the tight beats (b02, b06)
+drop everyone. Root-cause fix this time: **lock continuity in the BEAT TEXT
+itself**, then regenerate. Added an `ARREST_CONT` clause to every 0:00-0:35 beat
+(b01-b07): ONE torch-lit column climbing from the LOWER-LEFT up toward Jesus
+(never receding, never reversed), the SAME three disciples (Peter + two), the mob
+always present and only-closing, and — critically — the tight close-ups keep the
+torch-column in the background so the scene never empties. b03's "from the side"
+camera was rewritten to the same down-slope-toward-Jesus view as b01.
+
+→ **"people keep disappearing/coming back … army going the wrong way … all looks
+   dumb" — FIXED at the source.** Full-cut gate + whisper confirm the play-order
+   reads as ONE continuous, only-closing mob: s01 (torch column far, climbing
+   from lower-left) → s03 (mob up at Jesus, Judas hooded at its head) → s04 (the
+   same three disciples shield him) → s05 (mob's front rank now close on the
+   terrace). Nobody vanishes between frames; the column never reverses direction.
+→ **NEW bug the lock exposed, fixed in the same touch-once cut:** b02 had rendered
+   the sword already DRAWN (its own must_not_show forbids it) BEFORE b06 draws it —
+   sword read as drawn→undrawn→drawn. Tightened b02 to a hand on a SHEATHED hilt +
+   rerolled; now s02 (sheathed) → s06 (clearing the sheath) → s07 (the swing)
+   escalates correctly.
+→ **b05 had reset to a near-copy of b01** (mob far again) — tightened to a tight
+   reaction shot with the mob's front rank CLOSE on the terrace + rerolled.
+→ **"1:24 trees cut off weirdly to expose the night sky" — still FIXED** (b15
+   untouched; full-cut gate @85s confirms stars showing through the arching olive
+   canopy, no hard seam / no stitched star-field rectangle).
+
+**Scope:** regenerated ONLY b01-b07 (the 0:00-0:35 arrest-approach block). Every
+other beat byte-identical. **Audio byte-identical** — `AUDIO LOCK PASS
+SHA256=91d501ba565345efd95f1da7e7d6aa794f0cfa2e06fb6236b950c55bb0152d44`
+unchanged, 176.5 s; nothing re-voiced, no window edited.
+
+**FULL-CUT GATE** (one frame per beat from the RENDERED mp4): all 7 changed frames
++ s15 (1:24) + the question card viewed once each — every frame UPRIGHT, captions
+bottom-band only, Jesus face-locked + cream-only, Peter & Malchus consistent to
+their sheets (Malchus charcoal tunic + oxblood sash), true night (moon-silver +
+torch-orange, no sunset drift), realistic photography (zero cartoon/mixed frames),
+restrained-violence line held (s07 arrested motion, no wound/blood/severed ear),
+question card clean (no squares).
+
+**ORDER CHECK** (whisper small.en, beam 5, on the rendered mp4): narration onsets
+align to the beat windows to ~0.3 s; every picture lands on its own words —
+s01 @0-8, s03 @9-17, s04 @17-22, s05 @22-28, s02 @29.5-31, s06 @31-34.6,
+s07 @34.6-42, s15 @81-89. No drift (row-17 lesson checked, not assumed).
+
+**Reroll/cost:** 7 mandated regens (Cameron: "all … need to be redone") + 2 gate
+rerolls (b02 sword-drawn-too-early, b05 reset-to-b01) = **2 rerolls / 6.9 % of 29**
+(under the 15 % budget). 9 images × $0.134 ≈ **$1.21** for the C-FIX. Meter ~$543 →
+~$546. A targeted 7-beat re-cut, NOT another blind 29-beat rebuild — cheaper than
+the prior "complete restart" ($4.29) because the fix lived in the beat text, not
+in more regeneration (COST LAW: trend down).
+
+---
+
 ## RUNNER SHIP LOG — 2026-08-06 (Opus autopilot, Machine A `Dev`)
 
 **COMPLAINT LEDGER:** none open. `v2_outline.py 66` surfaces no Cameron
