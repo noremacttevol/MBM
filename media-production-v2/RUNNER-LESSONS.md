@@ -1075,3 +1075,16 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   afterward or the warehouse re-propagates the defect. One edit occasionally leaves a faint
   remnant (s07 here) — re-verify the actual rendered mp4, not just the asset, and retry that
   one frame.
+
+- **Establishing WIDE that names FOREGROUND REF characters can go giant-composite,
+  and a reroll makes it WORSE, not better (row 95 b01, QC-VERIFY 2026-08-11).** An
+  opening "the three of them against the sky, behind the watchers" wide that also names
+  the crucified trio prominently kept compositing a GIANT chest-up foreground trio over a
+  correctly-scaled miniature crowd (haze seam at the crest). Three attempts across sessions
+  failed; the QC-VERIFY reroll came back worst of all — the model pasted the REF portraits
+  as literal FRAMED RECTANGLES onto the tops of the crosses. This is a STRUCTURAL collage
+  class a runner reroll CANNOT win (like rows 45/66/82 collages). STOP after one reroll
+  (COST LAW). The fix is a BEAT-TEXT change (author lane, runner barred): make it a TRUE
+  distant establishing wide — a person-free PLATE establish, or place the named figures at
+  genuine distance on their crosses — and do NOT keep them as foreground giants. Park
+  NEEDS-REBUILD, pull the card from Cameron's queue (data-machine-reason), name the defect.
