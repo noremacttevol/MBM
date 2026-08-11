@@ -974,8 +974,8 @@ BEATS = [
             "He cried because the people he loved were broken, and death is a "
             "horror, and he would not stand there pretending it wasn't."
         ),
-        "must_show": "shared grief — a three-shot of contact: his hand gripping Martha's shoulder, Mary's bowed head close against his arm, all three grieving together.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; he grieves WITH them, not over them — contact warm, heads close.",
+        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. shared grief — a three-shot of contact: his hand gripping Martha's shoulder, Mary's bowed head close against his arm, all three grieving together.",
+        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light on Jesus; he grieves WITH them, not over them — contact warm, heads close.",
         "scene": (
             "A close three-shot at the tomb ramp: Jesus's "
             "hand gripped firm on Martha's shoulder, her own "
@@ -995,8 +995,8 @@ BEATS = [
             "He did not skip the grief. He walked all the way into it with "
             "them."
         ),
-        "must_show": "walking into it — Jesus moving through the midst of the weeping mourners toward the tomb, one hand touching a bowed shoulder in passing.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; he moves THROUGH the crowd, not around it; the touch in passing is the beat.",
+        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. Jesus is IN MOTION, mid-stride through the weeping crowd toward the sealed tomb. walking into it — Jesus moving through the midst of the weeping mourners toward the tomb, one hand touching a bowed shoulder in passing.",
+        "must_not_show": "ONE SINGLE CONTINUOUS PHOTOGRAPH ONLY - NEVER panels, never a comic strip, never multiple stacked frames or a storyboard grid. NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. NEVER a stationary private moment with one man - no stopped counseling pose; he moves THROUGH the mourners. no halo, glare or rim-light on Jesus; he moves THROUGH the crowd, not around it; the touch in passing is the beat.",
         "scene": (
             "In medium-full from the side Jesus walks "
             "forward through the middle of the weeping "
@@ -1016,8 +1016,8 @@ BEATS = [
         "narration": (
             "The tomb was a cave with a heavy stone rolled across its mouth."
         ),
-        "must_show": "the door itself — the cave mouth and the great stone filling the frame: its mass, its channel, the finality of its fit.",
-        "must_not_show": "no halo, glare or rim-light; no people in frame — architecture only; the stone's WEIGHT must read.",
+        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. the door itself — the cave mouth and the great stone filling the frame: its mass, its channel, the finality of its fit.",
+        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light; no people in frame — architecture only; the stone's WEIGHT must read.",
         "scene": (
             "The cave mouth fills the frame in hard "
             "daylight: the great round-edged stone seated in "
@@ -1034,8 +1034,8 @@ BEATS = [
         "window": "220.48-223.51", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": "Jesus said, take away the stone.",
-        "must_show": "SCRIPTURE-EXACT: the command — Jesus in profile, arm fully extended, pointing at the stone; the order given plainly.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the arm and the stone in one frame — the command's target unmistakable.",
+        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. SCRIPTURE-EXACT: the command — Jesus in profile, arm fully extended, pointing at the stone; the order given plainly.",
+        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light on Jesus; the arm and the stone in one frame — the command's target unmistakable.",
         "scene": (
             "From the side in medium shot: Jesus stands with "
             "his arm fully extended toward the great stone, "
@@ -1051,8 +1051,8 @@ BEATS = [
         "window": "223.98-227.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "TOMB"],
         "narration": "Practical, careful Martha panicked:",
-        "must_show": "the panic — close on Martha: one hand flying up in protest, alarm breaking through the grief; the practical woman hitting the practical horror.",
-        "must_not_show": "no halo, glare or rim-light; not anger — alarm; the same direct face thrown into protest.",
+        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. the panic — close on Martha: one hand flying up in protest, alarm breaking through the grief; the practical woman hitting the practical horror.",
+        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light; not anger — alarm; the same direct face thrown into protest.",
         "scene": (
             "Close on Martha at the ramp's edge: her hand "
             "flown up palm-out in instinctive protest, her "
@@ -1070,8 +1070,8 @@ BEATS = [
         "narration": (
             "Lord, by this time he stinketh: for he hath been dead four days."
         ),
-        "must_show": "SCRIPTURE-EXACT: the protest — a two-shot: Martha between Jesus and the stone, her hand thrown toward it, dread plain; Jesus receiving the objection unmoved.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; her dread is reasonable and must look it — four days is four days.",
+        "must_show": "THE TOMB IS STILL SEALED: the great round stone sits IN the doorway groove, flush, completely covering the opening - NO dark doorway visible anywhere in this frame. SCRIPTURE-EXACT: the protest — a two-shot: Martha between Jesus and the stone, her hand thrown toward it, dread plain; Jesus receiving the objection unmoved.",
+        "must_not_show": "NEVER an open or dark tomb doorway and never the stone standing beside an opening - the stone is NOT taken away until later in the story. no halo, glare or rim-light on Jesus; her dread is reasonable and must look it — four days is four days.",
         "scene": (
             "A two-shot at the foot of the ramp: Martha "
             "stands half between Jesus and the sealed stone "
@@ -1112,8 +1112,8 @@ BEATS = [
         "narration": (
             "So they leaned into the great stone and rolled it back,"
         ),
-        "must_show": "SCRIPTURE-EXACT: the heave — three village men shoulder-deep into the stone's edge mid-roll, feet dug into the ramp, the dark seam of the doorway beginning to open.",
-        "must_not_show": "no halo, glare or rim-light; the physics must read at a glance — all three pushing the SAME direction along the channel, weight believable, the gap only beginning.",
+        "must_show": "THE SLIDE, not a cartwheel: the great disc stays edge-in its cut stone groove against the tomb face and the men push it SIDEWAYS along the groove, the dark doorway just beginning to appear behind its trailing edge. SCRIPTURE-EXACT: the heave — three village men shoulder-deep into the stone's edge mid-roll, feet dug into the ramp, the dark seam of the doorway beginning to open.",
+        "must_not_show": "NEVER the stone trundled across open ground away from the tomb like a wheel, never fully open yet - it is mid-slide in its groove against the rock face. no halo, glare or rim-light; the physics must read at a glance — all three pushing the SAME direction along the channel, weight believable, the gap only beginning.",
         "scene": (
             "At the cave mouth three dark-clad village men "
             "drive their shoulders into the great stone's "
