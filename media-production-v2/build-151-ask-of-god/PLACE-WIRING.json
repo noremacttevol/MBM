@@ -1,1 +1,8 @@
-{}
+{
+ "GROVE": {
+  "manual": true,
+  "src_beat": "s10-he-finds-a-quiet-place",
+  "src_build": "build-151-ask-of-god",
+  "src_file": "build-151-ask-of-god/assets/s10-he-finds-a-quiet-place.jpeg"
+ }
+}
