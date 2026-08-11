@@ -1,3 +1,21 @@
+## ✅ AUDIO-FIX DONE → AUTHORED / Audio OK / Ready (2026-08-11, Machine A `Dev`, audio lane)
+
+STALE-V1 class, resolved at **$0, zero Gemini, zero re-voice** — audio only; no
+stills exist yet, so this hands back to the picture runner (prompt step 5,
+"no V2 stills yet" case).
+
+- **Voice-ID:** all 7 segments (n0/n1/n2/n3/j1/j2/card) are **44100 Hz / 128 kbps
+  / mono = ElevenLabs new-voice spec** (edge-tts would be 24000/48k). NOT the dead
+  old edge-tts — no re-voice needed.
+- **Fix:** `AUDIO_FROM_V1_SEGMENTS = True` added to `beats_v2.py`. When the picture
+  runner assembles, the track rebuilds from the 7 segment mp3s (~59.4s) instead of
+  copying the stale 63.07s V1 render, so `v2_assemble.py 142` will pass the audio
+  lock (prints AUDIO REBUILD PASS) instead of failing on the 3.66s divergence.
+- **Board:** NEEDS-AUDIO → **AUTHORED / Audio OK / Ready ✅**, claim cleared. The
+  picture runner now builds the 10 stills on the fixed audio and ships the full cut.
+
+---
+
 ## 🅿️ RUNNER $0 PRE-FLIGHT PARK → NEEDS-AUDIO (2026-08-11, Machine A `Dev`, Opus runner)
 
 **Parked at $0 BEFORE any still was generated (row-141 lesson: pre-flight the AUDIO

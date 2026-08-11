@@ -43,6 +43,14 @@ milk-pale, then clear deep brown; the night road — dark, then
 walked through.
 """
 
+# STALE-V1 fix (audio lane, 2026-08-11): rebuild the audio track from the V1
+# segment mp3s at the extract_beats offsets instead of copying the stale V1
+# mp4's AAC (timeline 59.41s vs old mp4 63.07s, gap 3.66s past the 0.75s guard).
+# 7 segments verified 44100/128k/mono = ElevenLabs new voice (Brian/Chris), not
+# old edge-tts. Re-voices nothing ($0). Picture runner builds the 10 stills on
+# this fixed audio.
+AUDIO_FROM_V1_SEGMENTS = True
+
 # LOCKS: one entry per recurring person and per setting. Setting locks must
 # NEVER name a character. Only Jesus wears cream; the shared JESUS lock and
 # REF come from v2_prompt.py via the jesus/ref flags. BLINDMAN is
