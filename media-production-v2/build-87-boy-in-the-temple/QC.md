@@ -124,3 +124,31 @@ python3 media-production-v2/v2_story_cast.py build-87-boy-in-the-temple --ceilin
 python3 media-production-v2/v2_gen_api.py build-87-boy-in-the-temple --ceiling <c>
 python3 media-production-v2/v2_assemble.py 87
 ```
+
+---
+
+## QC-VERIFY PASS 2026-08-11 (Machine A `Dev`) — FULL-CUT GATE, CLEAN
+
+Ran PROMPT-OPUS-RUNNER §6b FULL-CUT GATE on the rendered mp4
+(luke-2_boy-in-the-temple.mp4) BEFORE Cameron's eyes reached it in the Unwatched
+queue. Extracted one mid-window frame per beat (b01-b15) + the question card and
+viewed EVERY one against the defect checklist + RUNNER-LESSONS + this row's
+resolved state (no open complaints).
+
+**Result: 15/15 beats + question card CLEAN. NOT re-cut** (touch-once / cost law —
+re-cutting a clean row voids Cameron's approval for nothing).
+
+- Realistic throughout; no cartoon/mix frame (Law 14 held).
+- Boy-Jesus reads ~12yo in every beat; never adult-sized; ONLY the boy wears
+  bright cream (teachers/extras tan/beige/brown) — scale + cream gate holds.
+- Cast locks consistent: Mary blue, Joseph brown/grey-bearded, temple teachers
+  grey-bearded elders. No halo/glow/rim-light anywhere.
+- b11 (prior lens-stare reroll) verified fixed — gaze off-axis to the parent,
+  not into the lens.
+- Anatomy/hands fine; no modern objects; b02 dusk lighting correct.
+- Captions bottom-band; SPEAKER-LAW colors correct — narrator white, WOMAN/Mary
+  pink (b06), JESUS red-letter red (b10, boy's own KJV), per this build's
+  mbm_speakers COLOR map. Question card clean, well-margined, milk-appropriate.
+- Sub-threshold continuity only (FIX-WAVE, not garbage, not blocking): faint
+  boy-hair shade drift b14 vs b11/b13; Joseph robe rust b15 vs maroon elsewhere.
+  Neither would draw a complaint.

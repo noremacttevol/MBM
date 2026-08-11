@@ -52,6 +52,39 @@ RUNNER-LESSONS updated (engine-by-duration-not-rolloff; AUDIO_FROM_V1_SEGMENTS=F
 the V1 mp4 which may be ElevenLabs; multi-key `elevenlabs*KEY*.txt` needs `sk_` extraction;
 VIEW spectrograms).
 
+## 2026-08-11 (cont. 11) — Row 87 QC-VERIFY → QC-OK (The Boy in the Temple, Luke 2:41-52) — FULL-CUT GATE, 15/15 beats + card CLEAN, NOT re-cut — Machine A `Dev`
+
+**Commit:** board + QC.md + SESSION-LOG this entry's commit. Claim commit `9f4ce6366`.
+
+Row 87 (build-87-boy-in-the-temple) was BUILT 2026-08-07 and sitting in Cameron's
+Unwatched queue. Ran PROMPT-OPUS-RUNNER §6b FULL-CUT GATE before his eyes reached
+it (2026-08-10 lesson: row 11 reached him with seven bad frames). Claimed
+`QC-VERIFY 2026-08-11 LIVE` on the board Claim cell (push accepted). Extracted one
+mid-window frame per beat (b01-b15) from the RENDERED mp4 + the question card and
+viewed EVERY one against the defect checklist + RUNNER-LESSONS + the row's resolved
+state (v2_outline: NO open complaints).
+
+**Verdict: 15/15 beats + question card CLEAN — marked `QC-OK 2026-08-11`, NOT re-cut**
+(touch-once / cost law: re-cutting a clean row voids Cameron's approval for nothing;
+$0 spent, 0 rerolls).
+
+- Realistic throughout, no cartoon/mix (Law 14 held). Boy-Jesus reads ~12yo every
+  beat, never adult-sized, ONLY the boy wears bright cream (teachers/extras
+  tan/beige/brown) — scale + cream gate holds. Mary blue / Joseph brown+grey-beard /
+  temple elders consistent; no halo/glow/rim-light. b11 prior lens-stare reroll
+  verified fixed (gaze off-axis to the parent). Anatomy/hands fine, no modern
+  objects, b02 dusk lighting correct.
+- **SPEAKER-LAW colors correct** per this build's mbm_speakers COLOR map: narrator
+  white, WOMAN/Mary pink (b06), JESUS red-letter red (b10, the boy's own KJV) —
+  initial "red?" flag resolved (red is the locked red-letter color, not a defect).
+  Question card clean, well-margined, doctrinally sound milk-invitation.
+- Sub-threshold continuity only (FIX-WAVE, not garbage, not blocking): faint boy-hair
+  shade drift b14 vs b11/b13; Joseph robe rust b15 vs maroon elsewhere. Neither
+  would draw a complaint. No new RUNNER-LESSONS class. **Cost: $0 / 0 rerolls** — a
+  clean-verify costs nothing and protects the $6.10/row average (COST LAW trend DOWN).
+
+---
+
 ## 2026-08-11 (cont. 10) — Row 120 BUILT realistic-v2 (Job Answered from the Whirlwind, Job 1-2/19/38-42) — first-attempt, full-cut gate, God-never-embodied, LIVE — Machine A `Dev`
 
 **Commit:** mp4/assets/QC/boards commit `cb72a84de2c9b2b27910f8097cf63a8111ecfbb9`; review card absorbed into concurrent commit `dc8670a9b` (sibling-lane index race, §"no changes added" — verified my v120 card is on origin/main); STASH+SESSION-LOG this entry's commit; publish sync `bb2ec95fd`.
