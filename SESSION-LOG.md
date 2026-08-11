@@ -1,3 +1,18 @@
+## 2026-08-11 (cont. 45) — Row 51 "The First Catch of Fish" (Luke 5) C-FIX — BOAT-SCALE complaint FIXED + SHIPPED + DEPLOYED + LIVE-VERIFIED — Machine A `Dev`, unattended/headless — 1 reroll (3.8%) ~$0.13, audio byte-identical
+
+**Commit:** ship (a) `3685c6fe2` (mp4 + QC.md + QUEUE + AUTHOR-BOARD + api-spend); card (b) + SESSION-LOG in the push below. Session-chain verified at start: prior top entry = cont.44 Row 27 C-FIX/park, commit `bf0ac681f` — present in `git log`.
+
+Ran the Opus C-FIX runner at AUTHOR-BOARD **row 51** (COMPLAINT-FIRST + LOW-NUMBER: lowest waiting complained row). Read PROMPT-OPUS-RUNNER (FULL-CUT GATE 6b) + boat/consistency memories first.
+
+- **Complaint (Cameron): "The boats need to stay the same size, find all the pictures where the size changes and fix them."** PICTURE-domain → re-cut pictures (not audio).
+- **Traced every boat from the RENDERED mp4** (one frame per beat) + full-res on the boat-key source stills (s02/s04/s05/s06/s11/s17/s25). The canonical boat = broad-beamed dark oiled-cedar fishing boat, high curved prow, stubby mast (BOATS lock). It renders correctly in EVERY beat **except s05 (taught-from-the-water)**, where it had drifted to a small pale-tan open **dinghy** dropped between s04 & s06's big dark boat — that single mismatch is the "boat changes size."
+- **Fix = 1 targeted reroll** (`--only b05 --redo`, ceiling $611). New s05 = canonical dark broad-beam high-prow boat, nets inside, Jesus (cream) teaching from the stern, Simon at the oars, crowd banked on the shingle. Verified in rendered mp4 @21.46s = same size/design class as s04/s06/s11.
+- **Root cause (RUNNER-LESSON filed):** the BOATS lock is TEXT-ONLY (no ref image in REFS) → a wide establishing shot drifts the hull despite strong prose, same failure mode as text-only face locks. One `--redo` landed it here; if it recurs, wire a BOATS rough_ref crop.
+- **FULL-CUT GATE (6b):** all 26 rendered beats + card reviewed — Jesus one locked face + cream-only, Simon one face, no 2nd cream, realistic throughout (no cartoon/mix), hands/scale/anatomy correct, captions 3-voice bottom-band, card clean. No other complaint-worthy defect. FIX-WAVE (not re-cut): new s05 Simon tunic reads grey-blue vs charcoal-brown — subtle, same man, left to avoid re-drifting the now-correct boat.
+- **Audio byte-identical:** re-assemble → AUDIO REBUILD PASS SHA256 `e82b1aaf…` (same as prior ship). Narration/voices/timing untouched.
+- **Deploy + live-verify:** firebase hosting `milk-b4-meat`, card `data-hash 3685c6fe…`, mp4 HTTP 200 — see push below.
+- **COST LAW:** 1 reroll / 26 = **3.8%** (well under 15%), **~$0.13** this re-cut — far under the $6.10/row average, trend DOWN. Meter $585.85 → $585.98. Touch-once: only s05 pixels changed.
+
 ## 2026-08-11 (cont. 44) — Row 27 "The Leaven" (Matthew 13) C-FIX cfix lane — AUDIO complaint ROOT-CAUSED + RE-PARKED NEEDS-AUDIO — de-muffle was the WRONG fix (caused complaint #4); re-voice recipe handed to audio lane — $0, 0 credits, 0 pictures touched — Machine A `Dev`, unattended/headless
 
 **Commit:** park (AUTHOR-BOARD Audio OK→NEEDS-AUDIO + Claim REVERB-ROOT-CAUSE note + QC.md §RUNNER PARK REVERB + this SESSION-LOG) — hash in the push below. **NOT shipped — parked for the audio lane; no reviewer/deploy change** (live cut stays the de-muffled `dbcf3693` until re-voice ships). Session-chain verified at start: prior top entry = row 130 ship `782337172` — present in `git log`. I am the autopilot cfix lane that targeted row 27 at 18:54 (`target-row-27.pid` = my parent `3958190`) — no collision.
