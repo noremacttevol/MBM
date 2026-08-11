@@ -1,3 +1,23 @@
+## 2026-08-11 (cont. 22) — Row 124 Love Your Enemies (Matt 5:43-46) REALISTIC V2 SHIPPED — RESUMED a run that DIED at 9/30 assets, 30 stills 185.2s, 2 rerolls (6.7%) $3.08, FULL-CUT GATE PASS, deployed+live-verified — Machine A `Dev`, unattended/headless
+
+**Commit:** ship mp4+QC+boards `1b52a3031f52b49a9725e57f80cd17c13723d88e`; review-card + this log below. Firebase deployed + live-verified. Session-chain verified (cont.21 = `e5a8e8ba1073` in history; my resume claim `e85945836`).
+
+Given a specific order: RESUME the AUTHOR-BOARD row 124 that a prior autopilot run left State=RUNNING/Claim=A-auto after dying mid-gen. First ran the RUNNER-LESSONS **already-shipped check** — no committed mp4, v124 card still on the old 2026-07-28 hash → NOT shipped, so resume (not tick-and-skip). Verified NO live sibling gen (`ps` clean, assets static since 13:14) before spending. Read both META-LAWS + all 19 rubric lessons + all 1053 lines of RUNNER-LESSONS before the first credit (LEARNING LAW).
+
+**State on resume:** 9/30 assets (s01-s09), FARMER+NEIGHBOUR portraits made + REFS wired, FARMS plate promoted from s05, audio preflight PASS (+0.073s excess, newer=0 — default path, the RUNNER-LESSONS STALE-V1 batch line lists 124 as a validated ~0.07s buildable row).
+
+**Generate:** resumed `v2_gen_api build-124 --ceiling 587.46` → 21/21 remaining clean, $2.81 (passing frames never re-pulled — COST LAW).
+
+**Light QC (all 30 stills):** 2 rerolls / 30 = **6.7%** (under 15%), $0.27:
+- s10 (enumerated "Bless. Do good. Pray.") = 3-panel COLLAGE → `--redo` single coherent reflective crowd (row-114 collage class).
+- s14 first take had one off-model old man → `--redo`; found b14's SCENE TEXT authors TWO village elders shrugging at the feud, so the two-elders result is beat-faithful (zoom confirmed they converse to each other, no lens-stare). Lesson applied: read the scene text before calling a background figure "extra."
+
+**Assemble:** AUDIO LOCK PASS `1d4a2dff`, 20.8 MB / 185.2s (audio 185.13s matched; max still-window 171.63 + ~13.4s card = 185, no drift, all 30 placed).
+
+**FULL-CUT GATE (rendered-mp4 frames + all 30 stills): PASS.** 9 Jesus beats ONE locked face / cream-only / no-halo / calm eyes / ordinary scale; two-farmer arc consistent w/ every action-logic gate reading right (build-into-wall, open-palm night prayer + lamp-on-wick, basket OVER the wall, both seated ON the wall); sun/rain equality frames person-free w/ one light on both farms; tax-collectors warm not villains; captions bottom-band w/ two-voice colors (Jesus KJV red-letter incl. jv43/jvA); question card clean; every beat upright (rotation screen); realistic throughout, ZERO cartoon/mix. FIX-WAVE (non-blocking): s28 lamp flame slightly central; s14 elders on-wall vs at-well.
+
+**Cost:** **$3.08/row, 6.7% rerolls** — well under the $6.10/row + 19%-reroll running average; cost-down trend held (a resumed row spent nothing on the 9 pre-existing frames). Next Ready row: continue AUTHOR-BOARD lowest-first.
+
 ## 2026-08-11 (cont. 21) — Row 93 QC-VERIFY caught + fixed a MODERN BICYCLE carved into the judgment-seat throne BEFORE Cameron's eyes reached it; localized edit, byte-identical audio, re-shipped + live-verified — Machine A `Dev`, unattended/headless, $1.07
 
 **Commit:** `e5a8e8ba1073` (fixed mp4 + PLACE-WIRING + QC.md + AUTHOR-BOARD), review-card/SESSION-LOG below. Session-chain verified (cont.20 = `41c662f84`-batch / top commit `df75c66ce` in history). Firebase deployed + live-verified.
