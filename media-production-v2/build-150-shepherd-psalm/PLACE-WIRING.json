@@ -1,1 +1,14 @@
-{}
+{
+ "PASTURE": {
+  "manual": true,
+  "src_beat": "s05-he-maketh-me-to-lie",
+  "src_build": "build-150-shepherd-psalm",
+  "src_file": "build-150-shepherd-psalm/assets/s05-he-maketh-me-to-lie.jpeg"
+ },
+ "TABLE": {
+  "manual": true,
+  "src_beat": "s14-thou-preparest-a-table-before",
+  "src_build": "build-150-shepherd-psalm",
+  "src_file": "build-150-shepherd-psalm/assets/s14-thou-preparest-a-table-before.jpeg"
+ }
+}
