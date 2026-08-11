@@ -120,3 +120,22 @@ Jonah beats, person-free cityscapes/seascapes, the fish frames.
   square holds porters, beggars, soldiers, scribes, women: varied
   faces, varied cloth, all sackcloth by b33.
 - Counts law: FOUR sailors lowering at b16.
+
+---
+
+## ✅ AUDIO-FIX SHIPPED — Opus audio-fix lane, Machine A `Dev`, 2026-08-11, $0
+
+Rescued the stranded 08-09 audio-fix lane: it had set `AUDIO_FROM_V1_SEGMENTS = True`
+in beats_v2.py (uncommitted) and left 46 valid stills on disk, then died before
+assembling. Finished it this session.
+
+- **Audio:** `v2_assemble.py 118` → **AUDIO REBUILD PASS SHA256=172b62c7…**, 278.2s,
+  rebuilt from 22 V1 ElevenLabs segment mp3s (all 44100 Hz / 128 k = chosen cast:
+  narrator Brian, God/scripture in the eleven cast). The stale ~0.893s tail on the
+  old V1 mp4 is dropped. No re-voice — same voices, same wording, same timing. $0.
+- **FULL-CUT GATE:** two contact sheets of the rendered mp4 viewed end-to-end —
+  consistent Jonah (green robe throughout), realistic biblical photography (no
+  cartoon/mix), captions bottom-band only, closing question card clean. No defect.
+- **Ship:** mp4 committed `10282aa9cd46…`; review card v118 repointed to the V2
+  realistic cut (0a4a951→10282aa9, data-review-wave="realistic-v2"); board → BUILT.
+  Deployed `firebase deploy --only hosting` + live-verified.
