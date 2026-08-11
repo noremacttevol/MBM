@@ -88,3 +88,38 @@ pass (cheapest path, COST LAW), QC place consistency by eye in the full-cut gate
 
 **Generate:** `v2_gen_api build-123-golden-rule --ceiling 580.23` (23 beats,
 0 portraits, est $3.08, meter $550.61).
+
+### LIGHT QC + FULL-CUT GATE RESULTS — 0 rerolls (0% of 23 beats)
+
+All 23 source stills viewed, then the FULL-CUT GATE (one frame/beat extracted from
+the RENDERED mp4 + 3 caption reps + closing card). **PASS — no Cameron-grade defect.**
+- **Realistic photography throughout, ZERO cartoon/mixed** (Law 14 clean).
+- **Jesus (7 beats b02/b03/b05/b09/b17/b19/b23):** one locked face, byte-consistent
+  across all — dark wavy shoulder-length hair, full dark beard, warm tan/olive skin,
+  calm warm eyes (no wild/glowing eyes), NO halo/rim-light, cream robe ONLY on him,
+  ordinary scale. s17 is a deliberate calm frontal hero-address (empty palms — "the
+  rule is not a weight"), not a lens-stare.
+- **No second cream-robed figure** (s02 child = light tan; s12 elder = ochre;
+  s20 pourer = grey linen — all clearly distinct from Jesus's clean cream).
+- **Action-logic all correct:** forearm-to-forearm lift (s15), merciful lift-not-seizure
+  over broken jars (s13), grain into the robe LAP-FOLD = "bosom" per Luke 6:38 (s16/s18),
+  giver's eyes on the receiver (s10), solid physical rope (s08), lamp flame on the wick (s04).
+- **s21 the "village carrying one another" evening wide = ONE coherent lamplit dusk
+  courtyard, NO collage/double-perspective seam** (the exact failure this beat-type risks).
+- **No modern objects** (skies/ground/props all period — no wires, boot-treads, clothespins).
+- **Captions:** bottom-band only, white narrator / RED Jesus-words (s03/s16), synced, split.
+- **Closing card clean.** Householder continuity b10↔b18 holds.
+
+**Author-intent deviations (NOT defects — kept, logged for the fix-wave):**
+- s04: the parchment strip rendered CORRECT period Hebrew of **Leviticus 19:18**
+  ("love thy neighbour as thyself"), not the author's "indistinct script." It is diegetic,
+  correct, and thematically the OT root of the golden rule — an improvement, kept.
+- s11: giver + receiver both slightly reaching (author wanted the receiver's hand not yet
+  risen). Reads correctly as an act of giving; not worth a COST-LAW reroll.
+- s14: the passer-by walks on (illustrating "do not step around him") rather than the
+  author's "turns toward" — reads correctly as the stumble SETUP, resolved by s15's lift.
+- Child continuity (b02/b22/b23) is loosely consistent (dark-haired child) — FIX-WAVE.
+
+**AUDIO LOCK PASS** SHA256=4bb457ae… 148.8s / 19.5 MB, narration byte-identical to V1.
+**COST:** $3.08 this row (23 stills, 0 portraits, **0 rerolls = 0%**), meter $550.61→$553.82.
+Well under the $6.10/row avg and the 19% reroll baseline — supports the COST-LAW downtrend.
