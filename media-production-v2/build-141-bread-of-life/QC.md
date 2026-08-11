@@ -1,5 +1,35 @@
 # QC / RUNNER HANDOFF — build-141-bread-of-life (John 6:26-51)
 
+## ✅ AUDIO-FIX SHIPPED (2026-08-11, Machine A `Dev`, audio lane)
+
+STALE-V1 class, resolved exactly per the RESUME below — **$0, zero Gemini,
+zero re-voice.**
+
+- **Voice-ID:** all 8 segments (n0/n1/n2/n3/j1/j2/j3/card) are **44100 Hz /
+  128 kbps / mono = ElevenLabs new-voice spec** (edge-tts would be 24000/48k).
+  Confirmed NOT the dead old edge-tts — no re-voice needed.
+- **Fix:** `AUDIO_FROM_V1_SEGMENTS = True` added to `beats_v2.py`. The stale V1
+  mp4 (OLD 7-still 1:09 cut, 68.70s) is no longer the audio source; the track
+  is rebuilt from the 8 segment mp3s at the extract_beats offsets.
+- `v2_assemble.py 141` → **AUDIO REBUILD PASS**, 61.02s (was 68.70s), audio
+  SHA256=764f8102…, 8 segments, -22.2 LUFS → +7.2 dB.
+- **AUDIO BASELINE (Cameron-sanctioned re-voice exception, V2-immutability §):**
+  old served mp4 sha1 `c6b8176d…` (stale 1:09 render) → new sha1 `ccd0f612…`
+  (1:01 rebuild). Only the audio track and Ken-Burns/caption windows changed to
+  match the current segments; scene text, locks, beats, wording, voices all
+  unchanged.
+- **FULL-CUT GATE §6b (rendered mp4):** transcribed full audio — matches the
+  John 6 outline verbatim (6:35/6:48-49/6:51 KJV red-letter intact), one
+  consistent narrator + Jesus voice. Frame-checked b01/j1/b08/card: all
+  realistic, Jesus locked-face + cream-only, no halo, natural scale, given-flesh
+  foreshadow = broken barley loaf ONLY (no cross/passion), captions bottom-band
+  (red red-letter / white narration), closing card clean. No defect.
+- Reviewer card #v141 repointed to the media-production-v2 cut; deployed + live-
+  verified.
+
+---
+
+
 ## 🅿️ RUNNER PARK → NEEDS-AUDIO (2026-08-11, Machine A `Dev`, Opus runner)
 
 **All 10 V2 realistic stills are DONE + FULL-CUT-clean on disk — do NOT regen
