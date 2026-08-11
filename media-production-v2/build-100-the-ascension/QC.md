@@ -101,3 +101,49 @@ Runner cannot fix (audio-immutability; needs an author edit to beats_v2.py).
 **AUTHOR FIX:** add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py, then the narration renders from the V1 build's own mp3s at the extract offsets — nothing re-voiced, nothing re-timed.
 
 **RESUME (after the flag is set):** re-run the OPUS RUNNER loop on this row — it will pass pre-flight, generate stills, assemble (AUDIO LOCK), and ship.
+
+## QC-VERIFY / FULL-CUT GATE (2026-08-11, Machine A `Dev`) — QC-FIX SHIPPED
+
+Ran the FULL-CUT GATE (PROMPT-OPUS-RUNNER 6b) on the BUILT cut sitting in
+Cameron's Unwatched queue BEFORE his eyes reached it (row-11 "quality is going
+down" mandate). Extracted ONE frame per beat from the RENDERED mp4 + caption +
+card frames and viewed every one against the defect checklist + RUNNER-LESSONS.
+This row SHIPPED 2026-08-07, BEFORE the FULL-CUT GATE existed — so it had never
+had a per-rendered-frame pass. COMPLAINT LEDGER: none open (`v2_outline.py 100`
+= beat map only).
+
+- **16/17 beats CLEAN:** Jesus ONE locked master face every appearance (warm
+  Middle-Eastern, dark wavy hair, full beard, hazel/brown eyes, **cream-only**,
+  no halo/glow/beam even on the hero ascent b11/b12), ordinary human scale (no
+  giant); the two messengers in pale grey-white (NOT cream), wingless/haloless;
+  ELEVEN consistent; period Olivet/Herodian Temple skyline throughout; captions
+  three-voice correct + bottom-band only (narrator white, Jesus red-letter on
+  b03/b05, messenger scripture blue on b14/b15); closing card renders clean.
+- **1 BLOCKING DEFECT — b04 `s04-that-is-not-a-no.jpeg` was ROTATED 90°** (whole
+  scene sideways — RUNNER-LESSONS row-110 class). This is exactly the glance-
+  readable garbage the FULL-CUT GATE exists to catch; a sideways picture is an
+  instant complaint. Confirmed in the SOURCE asset (not an extraction artifact;
+  canvas was 1536×2752 portrait, the CONTENT was rotated) and in the rendered
+  mp4 at ~35-37s.
+- **FIXED in ONE touch-once re-cut, 2 rerolls (11.8% of 17 beats — within the
+  15% budget):** reroll-1 came back rotated the other way (same courtyard prior);
+  reroll-2 landed an UPRIGHT, realistic, period frame — the eleven listening,
+  faces catching the redirect (must_show met). Verified upright in the rendered
+  mp4 (t≈35.2). Best-of-3 kept per the 2-reroll cap.
+- **RESIDUAL (FIX-WAVE, non-blocking, author handoff):** the upright reroll
+  drifted INTERIOR (dim room, window, jars) while every other beat is outdoor on
+  Olivet — the row-103 indoor-drift class (b04's `locks` carry no place token +
+  the "close on listening faces" text has no outdoor cue, so the model defaults
+  indoor; rerolling is a coin-flip, NOT runner-fixable). Soft location-continuity
+  variance on a 1.3s reaction cutaway; far less jarring than a sideways frame.
+  **AUTHOR FIX:** add the `MOUNT`/`OLIVET` place token (and an outdoor cue) to
+  b04's `locks`, then `--only b04 --redo` lands it outdoors first-try (the row-103
+  resolution pattern). Handed to the author lane, NOT homework to Cameron.
+- **b14 soft note (non-blocking):** the nearer messenger reads somewhat Jesus-
+  like, but he is in grey-white (NOT cream) with no halo/wings — cream-only law
+  and the no-2nd-cream-figure law both hold; acceptable. Light slightly hazier
+  than the midday ascent beats — harmonisation is fix-wave work.
+- **AUDIO REBUILD PASS SHA256=35b594b0 — UNCHANGED** (byte-identical to the
+  2026-08-07 ship; only ONE still swapped). Narration/voices/timing untouched.
+- **Cost:** 2 image gens = $0.27; meter $566.55 → $566.82. Under the $6.10/row
+  average → COST-LAW trend DOWN holds.
