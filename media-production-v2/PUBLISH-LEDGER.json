@@ -1984,7 +1984,7 @@
     "44": {
       "open_fix": null,
       "slug": "build-44-two-debtors",
-      "title": "Two Debtors",
+      "title": "Pentecost",
       "versions": [
         {
           "date": "2026-07-22",
@@ -2856,5 +2856,5 @@
       ]
     }
   },
-  "updated": "2026-08-11T19:41:57"
+  "updated": "2026-08-11T19:51:42"
 }

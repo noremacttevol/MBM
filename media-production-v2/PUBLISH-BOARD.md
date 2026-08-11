@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T19:41:57_
+_Last sync: 2026-08-11T19:51:42_
 
 ## Summary
 
 - **APPROVED — not published** — 35 row(s)
-- **BUILDING** — 77 row(s)
+- **BUILDING** — 76 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 44 row(s)
+- **ON REVIEWER — awaiting Cameron** — 45 row(s)
 
 ## The rows
 
@@ -64,7 +64,7 @@ _Last sync: 2026-08-11T19:41:57_
 | 41 | Counting the Cost | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 42 | The Barren Fig Tree Spared | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 43 | The Wedding Garment | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 44 | Two Debtors | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 44 | Pentecost | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 45 | The Wicked Tenants | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 46 | The Seed Growing Secretly | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 47 | Houses on Rock and Sand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
