@@ -1,0 +1,20 @@
+{
+ "BAPTISM-WATER": {
+  "manual": true,
+  "src_beat": "s22-three-thousand-baptized",
+  "src_build": "build-44-pentecost",
+  "src_file": "build-44-pentecost/assets/s22-three-thousand-baptized.jpeg"
+ },
+ "JERUSALEM-COURT": {
+  "manual": true,
+  "src_beat": "s08-a-crowd-gathered-amazed",
+  "src_build": "build-44-pentecost",
+  "src_file": "build-44-pentecost/assets/s08-a-crowd-gathered-amazed.jpeg"
+ },
+ "UPPER-ROOM": {
+  "manual": true,
+  "src_beat": "s01-gathered-waiting-in-the-upper-room",
+  "src_build": "build-44-pentecost",
+  "src_file": "build-44-pentecost/assets/s01-gathered-waiting-in-the-upper-room.jpeg"
+ }
+}
