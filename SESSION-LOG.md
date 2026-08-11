@@ -1,3 +1,18 @@
+## 2026-08-11 (cont. 24) — Row 131 Scribe Near the Kingdom SHIPPED realistic-v2 (Opus runner, lowest Ready row) — 16 first-attempt stills, 0 rerolls $2.14; FULL-CUT GATE caught + fixed a row-84 caption↔audio drift before Cameron — Machine A `Dev`, unattended/headless
+
+**Commit:** `af82be715` (mp4 + 16 assets + SCRIBE ref + beats_v2 TEXT_OVERRIDES + QC.md + AUTHOR-BOARD + QUEUE + RUNNER-LESSONS + api-spend); review.html card + this SESSION-LOG in commit `b` below. Session-chain verified (cont.23 = `1ed922900`, in history). Firebase deployed + live-verified. **$2.14 / row (16 stills + 1 portrait), 0 rerolls (0%) — well under the $6.10 avg and the 15% reroll budget; COST LAW trend DOWN.**
+
+Ran PROMPT-OPUS-RUNNER on AUTHOR-BOARD's lowest Ready ✅ row (131), cross-checked vs QUEUE.md (same story Mark 12:28-34, no swap). No open complaints (`v2_outline` clean, REVIEW-LESSONS zero matches) → COMPLAINT LEDGER none open.
+
+- **Portrait/refs:** SCRIBE portrait generated ($0.13) + `REFS` wired — a tight, distinct elder face (deep-blue tunic, brown mantle; not Jesus, not the build-06 chief-priests family). Proactively closes the row-52/55 face-flip class the QC.md flagged (SCRIBE face-board across all 12 appearances).
+- **Plate:** TEMPLE (build-06 b21) verified period/realistic/daylight; its near-ground trio did NOT leak as a recurring named figure.
+- **Generation:** 16/16 first pass, $2.14, meter $561.33→$563.74, zero 429s.
+- **Light QC (16 stills):** all pass — realistic throughout, Jesus cream-only, scale/beards consistent, listeners varied, no modern objects/lens-stare/rotation/collage/burned-in text. Twin peaks land (b11 the look; b14 Jesus's hand hovers inches from the shoulder). 0 rerolls.
+- **FULL-CUT GATE (rendered mp4, every beat + card):** pictures clean. Transcribed the mp4 (faster-whisper) vs each `audio/<seg>.timing.json` and caught a **row-84 caption↔audio drift** — 4 NARRATOR captions (n0b/n1/n2/n4) printed a stale tightened SEGMENTS draft the voice never speaks (all KJV/scripture + n0a/n3/card matched). FIXED with `TEXT_OVERRIDES` (spoken text) in beats_v2.py, re-assembled → **AUDIO LOCK PASS same SHA256 `5f398642…` (byte-identical, $0, zero re-voice)**; re-extracted the 4 caption frames — all now match the voice, correct colours, bottom-band. New line added to RUNNER-LESSONS: this class also hits FRESH authored rows, so the gate must transcribe every build.
+- **Ship:** 20.5 MB / 101.5s. Board RUNNING→BUILT; QUEUE note updated; `Appr` left `⬜` (Cameron's alone). mp4 tree hash == hash-object (row-17 served-bytes check).
+
+---
+
 ## 2026-08-11 (cont. 23) — Row 95 QC-VERIFY (FULL-CUT GATE): caught a GIANT-COMPOSITE opening frame before Cameron's eyes → PARKED NEEDS-REBUILD, pulled from his queue; desync fix confirmed holding — Machine A `Dev`, unattended/headless, $0.13
 
 **Commit:** `a8884d0ad` (QC.md QC-BLOCK + AUTHOR-BOARD flip + review.html card pull), claim `285a6defe`, RUNNER-LESSON `HEAD`. Session-chain verified (cont.21 = `e5a8e8ba1073`, in history). Firebase deployed + live-verified (v95 card carries `data-machine-reason` on the live page → moved to "waiting on the machine", OUT of Unwatched).
