@@ -1,3 +1,70 @@
+## 2026-08-11 (cont. 9) — Row 84 QC-VERIFY → QC-FIX (No Room: the Manger, Luke 2:1-7) — FULL-CUT GATE caught a caption/audio mismatch + 27s still-window drift before Cameron's eyes — Machine A `Dev`
+
+**Commit:** mp4/QC/board/beats commit `a3582b80a4eb`; card/log commit (this entry's).
+
+Row 84 (build-84-no-room-manger) was BUILT 2026-08-07 and sitting in Cameron's Unwatched
+queue. Ran the FULL-CUT GATE (PROMPT-OPUS-RUNNER §6b) before he watched it — extracted one
+frame per beat from the RENDERED mp4 + caption-band crops, viewed all 34 stills + card.
+
+- **PICTURES: all 34 stills + question card CLEAN** — realistic throughout, Mary (blue) /
+  Joseph (brown) locked & consistent, newborn no halo, no second cream robe (no grown Jesus),
+  period oil-lamps, correct night lighting/anatomy, no modern objects, no cartoon/mix, scripture
+  captions blue. **Zero picture rerolls needed.**
+- **DEFECT 1 — captions ≠ spoken audio on n1/n6/n7.** The V1 make_narration script was TIGHTENED
+  after the ElevenLabs voices were cut, so extract_beats fed the caption filter the newer/shorter
+  text while the mp3s speak the older/fuller take (transcription-confirmed, faster-whisper). n1
+  caption read "A command issued in a distant palace…" but the audio speaks "In those days a decree
+  went out from Caesar Augustus, the emperor in far-off Rome…". n6/n7 same class. All 3 were the
+  ONLY mismatched segments (rest verified matching). FIX: `TEXT_OVERRIDES={"n1","n6","n7"}` in
+  beats_v2.py with the genuinely-spoken text (sanctioned assembler mechanism; V1 untouched).
+- **DEFECT 2 — still-windows scaffolded on the stale short timeline.** beats_v2 max window 190.68s
+  vs live card_start 217.408s (~27s) → picture track ran ahead of narration and s34 froze ~33s.
+  AUDIO LOCK PASS never checks video length (row-74 lesson). FIX: remapped all 34 windows onto the
+  live extract_beats per-segment slices (row-42/89 method), last beat → card_start.
+
+**Re-assembled: AUDIO LOCK PASS `af5b5cbc…` — byte-identical to the shipped audio** (no re-voice;
+all segments one ElevenLabs batch, confirmed via audio-eleven.log + mtimes). New mp4 md5
+`4dc426f2…`, 229.63s, no tail truncation. **Re-gated** at sv1/n1/n2/n4/n6/v7/n7/n8/n10/n11/n12 +
+card: every still + caption + spoken word now agree; s34 freeze gone; card clean.
+
+**Cost: 0 rerolls, 0 images, $0** (assembly-only) — far under the $6.10/row / 19%-reroll average;
+this is the cost trend Cameron asked for (a full QC-FIX for $0). RUNNER-LESSONS + publish ledger
+synced. Deployed live + served-bytes verified.
+
+---
+## 2026-08-11 (cont. 10) — Row 66 C-FIX SHIPPED (Malchus Ear, Luke 22) — 3rd RE-OPEN of the 0:00-0:35 arrest continuity FIXED AT THE SOURCE (continuity locked in the beat text, not another blind re-roll) — Machine A `Dev`
+
+**Commit:** media (mp4/assets/beats/QC) `c3fbb9ff92af`; card/board/log this entry's commit.
+
+Cameron's URGENT re-order, row 66 ONLY (his 3rd complaint, `v2_outline.py 66`): *"all
+the pictures up to 0:30 of the army coming to arrest Jesus and his disciples defending
+him are bad ... people keep disappearing quickly and coming back and the army is going
+the wrong way. all just looks dumb."*
+
+**Why it kept coming back (the LEARNING LAW):** the 08-07 and 08-11 fixes both just
+RE-ROLLED the same beat text and reproduced the flicker. The beat text never PINNED a
+count or a direction, so every regeneration let the mob reset distance and the tight
+beats (b02/b06) drop everyone. This pass fixed the CAUSE, not the symptom.
+
+**Fix:** added an `ARREST_CONT` continuity-lock clause to every 0:00-0:35 beat (b01-b07):
+ONE torch-lit column climbing from the LOWER-LEFT toward Jesus (never receding/reversed),
+the SAME three disciples (Peter + two), the mob always present & only-closing, and the
+tight close-ups keep the torch-column in the background so the scene never empties.
+Rewrote b03's "from the side" camera to the same down-slope-toward-Jesus view as b01.
+Regenerated b01-b07; QC caught + fixed a NEW bug the lock exposed (b02 had the sword
+already DRAWN before b06 draws it → tightened to a sheathed hilt + rerolled) and b05
+resetting to a near-copy of b01 (→ mob-close reroll). 1:24 tree/sky (b15) untouched, still clean.
+
+**Verify:** `AUDIO LOCK PASS 91d501ba` byte-identical (nothing re-voiced, 176.5s). FULL-CUT
+GATE on the rendered mp4 (7 changed frames + s15 + q-card): all upright, captions
+bottom-band, Jesus face-locked + cream-only, Peter/Malchus to sheets, true night, realistic,
+restrained violence held, q-card clean. WHISPER ORDER CHECK: onsets align to windows ~0.3s,
+every picture on its words, no drift. Blob verify ls-tree==hash-object (f9089d7e). Deployed
+Firebase + served-bytes md5-matched local. **2 rerolls/6.9% (under 15%), 9 imgs ≈ $1.21**
+(cheaper than the prior full "restart" $4.29 — fix was in the text, not more regen; COST LAW down).
+
+---
+
 ## 2026-08-11 (cont. 9) — Row 74 C-FIX SHIPPED (Woman Washed His Feet, Luke 7) — ROOT-CAUSED "Voice is wrong / bad audio" = HF-MUFFLE, de-muffled with $0 EQ (no re-voice) — Machine A `Dev`
 
 **Commit:** mp4/QC/board `e880c0944f41`; card `ff9995fcf`; lessons/log (this entry's).
