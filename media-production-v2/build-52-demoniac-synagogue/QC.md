@@ -205,3 +205,81 @@ may list them as places — do not promote people-plates).
   Lock a recurring one-off face with an UNAMBIGUOUS descriptor (dark, never grey;
   full beard, never shaven; full hair, never bald) AND 2-3 strongly-agreeing
   image refs, not one loose sentence + conflicting refs.
+
+## 🔧 C-FIX #3 — realistic-v2 (Machine A `Dev`, 2026-08-11) — 3rd RE-OPEN, full-arc redo
+
+### COMPLAINT LEDGER (LEARNING LAW)
+- **RE-OPENED a 3rd time (Cameron, against the C-FIX #2 cut): "The demoniac face
+  kept changing shaved, to not shaved. Beard to no beard to old man and his looks
+  kept flipping. 0:50 the demoniac looks normal but Jesus doesnt. 1:02 no beard
+  again. 1:23 no beard same with 1:29. Just redo every picture every single one is
+  low quality and none match each other."** VERIFIED FIXED on THIS rendered cut,
+  read frame-by-frame off the delivered mp4 at his exact timestamps:
+  - **0:50 (s10)** — Jesus is now the calm master face (dark wavy hair, full dark
+    beard, warm profile), the demoniac a normal dark-haired dark-bearded man. Both
+    read right. His "Jesus doesnt look normal" is gone.
+  - **1:02 (s12)** — the demoniac now carries a FULL DARK beard (was sparse/short).
+  - **1:23 (s15) & 1:29 (s16)** — bearded, dark hair, dark ragged tunic in both.
+  - **"none match each other"** — all 15 FREEDMAN frames are now ONE gaunt man ~45,
+    mid-length dark wavy hair, full dark beard, in every frame (full-arc grid
+    compared side-by-side before assembly).
+- **ROOT CAUSE of the 3-time loop (finally found):** freedman-ref-a (s18) and
+  freedman-ref-c (s11) were WIDE SHOTS in which the man's face is ~30 px — useless
+  as a face lock. C-FIX #2 called them "3 strongly-agreeing refs" but only ref-b
+  (s17) carried real face detail, so every generation got weak/averaged face
+  signal and the beard/hair drifted every time. Two prior C-FIXes rerolled a few
+  frames against these weak refs, so the rerolls never actually matched either.
+- **THE FIX (breaks the loop):**
+  1. Cut ONE razor-sharp TIGHT FACE CROP off s17 → `CAST-REF-V2/freedman-face.jpeg`
+     as the primary anchor; kept the s17 full frame; DROPPED both wide refs.
+     `REFS["FREEDMAN"] = [freedman-face.jpeg, freedman-ref-b.jpeg]` (both from s17,
+     zero conflict, strong face signal).
+  2. Regenerated every drifting FREEDMAN face-frame with `rough_ref` = its own
+     current composition, so identity conforms to the crop WITHOUT changing the
+     (good) blocking — lesson-10 identity-editing at scale, no new scene defects.
+     Gen log confirms `[+2 char ref: FREEDMAN, FREEDMAN] [rough draft]` on all, and
+     `[face lock]` on the Jesus-bearing beats (s09/s10/s12) so Jesus conformed too.
+  - Kept BYTE-IDENTICAL: s05 (tiny), s13 (Jesus close, already good), s14, s17
+    (the anchor), s18, s19, s20-s24, s01-s04 — every frame that already matched.
+
+### FULL-CUT GATE (Cameron, 2026-08-10) — one frame per beat off the RENDERED mp4
+- All 24 rendered beats viewed. FREEDMAN one consistent dark-haired/dark-bearded
+  gaunt man across the whole arc; Jesus calm/cream/consistent in every appearance;
+  captions bottom-band only; end question-card clean parchment, ZERO box glyphs
+  (t=150 read line-by-line); no cartoon/mixed frame, no modern object, no panels,
+  no lens-stare, correct head/limb count, one ground plane.
+- Two regen frames failed the gate and were rerolled ONCE each (caught before
+  ship): **s11** came back a 3-panel triptych (collage) → rerolled to a single
+  coherent frame; **s15** came back a GREY OLD MAN in a pale tunic (the exact
+  "old man" drift) → rerolled to the dark-haired/dark-bearded man in a dark ragged
+  tunic. Both verified against the anchor after reroll.
+
+### Adversary-row CARE re-verification (all PASS)
+- Human anguish only — no monster/creature/smoke/distortion/levitation; s08's cry
+  is within human range. Deliverance s15/s16 = buckles and is CAUGHT/supported,
+  nothing visible leaves him. Freed s17/s18/s19 = calm, clothed, received with
+  dignity. ONLY Jesus wears cream; freedman in a dark ragged tunic throughout.
+
+### Build facts (C-FIX #3)
+- **9 regenerations + 2 rerolls = 11 touches** on a 24-beat row. Over the 15%
+  light-QC reroll budget BY DESIGN: this is a 3rd-re-opened filed complaint whose
+  fix inherently re-anchors the man's face across the whole arc (touch-once — every
+  offending frame batched into ONE re-cut). Every already-matching frame kept
+  byte-identical.
+- Cost this run **$1.48** (9×$0.134 + 2×$0.134 reroll); meter $532.11 → $533.99.
+  $/row for this C-FIX is $1.48 — base cut already paid; still far below the $6.10
+  average.
+- Assemble: **AUDIO LOCK PASS SHA256=1005cde1e6749d4d807ff2f363b02b3410036ef7bdab32d522c5a7e3dc80c8b6**
+  (V1 narration byte-identical — voices/timing untouched), 156.6 s, 19.8 MB,
+  mp4 decodes 0 errors.
+
+### RUNNER-LESSONS candidate (C-FIX #3)
+- A "character reference" that is a WIDE SHOT (face < ~5% of frame) is NOT a face
+  lock — it gives the model almost no identity signal and the face drifts every
+  gen. Before trusting a `char_ref`, OPEN it: if the person's face isn't a large,
+  clear, well-lit region, CROP a tight head shot and use that. A recurring one-off
+  face needs at least one tight face crop as its anchor.
+- To fix identity drift on an OTHERWISE-GOOD frame, don't free-regenerate (it
+  changes the composition and can spawn new scene defects — grey-aging, wrong
+  clothing, even collage panels). Use `rough_ref` = the current frame + a tight
+  face crop: the pipeline keeps the approved blocking and only re-renders identity.
