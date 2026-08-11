@@ -1,3 +1,23 @@
+## 2026-08-11 (cont. 18) — Row 129 Nazareth: Only a Few (Mark 6:1-6) REALISTIC V2 SHIPPED — 14 stills, 1 reroll (7.1%), FULL-CUT GATE PASS; + rows 125/126/127/128 PARKED NEEDS-AUDIO (STALE-V1) — Machine A `Dev`, unattended/headless
+
+**Commit:** ship mp4+QC `914050f7fc665e7c1e439eed635a14e7f1a2e8d4`; parks + board/claim `fc8ad8eaa`; boards+review-card+QUEUE+this log below. Firebase deployed + live-verified.
+
+Ran the AUTHOR-BOARD lowest-first. Batch **$0 audio pre-flight** (the assembler's own `assert_v1_final_is_current` guard, validated against shipped rows 121-124 which land ~0.04s excess) found the four lowest AUTHORED rows all fail the STALE-V1 gate:
+- **125** i-never-knew-you: V1 mp4 +0.893s excess over the mp3 timeline (newer=0) → PARK NEEDS-AUDIO
+- **126** by-their-fruits: +0.969s excess → PARK NEEDS-AUDIO
+- **127** the-strait-gate: +0.889s excess → PARK NEEDS-AUDIO
+- **128** heart-far-from-me: −1.778s, **8 newer mp3s** (un-rendered re-voice / story-replacement) → PARK NEEDS-AUDIO
+
+All four need `AUDIO_FROM_V1_SEGMENTS=True` (rebuild from V1 mp3s) — an audio-lane edit outside runner scope (editing beats_v2.py; audio-immutability). Parked at $0 with board State→NEEDS-AUDIO + QC.md resume notes so no picture lane burns ~$2 each rediscovering the wall. **Row 129 was the lowest BUILDABLE** (excess +0.380, newer=0) → built.
+
+**Row 129 build:** cross-checked vs QUEUE (Nazareth Mark 6 — not swapped). Read the two META-LAWS + all 19 rubric lessons + all of RUNNER-LESSONS. `v2_outline.py 129`: **no open complaint** → COMPLAINT LEDGER "none open." **FORCED NO-PROMOTE** on NAZARETH+SYNAGOGUE (author named b01/b06 as promote anchors but both are Jesus beats — never promote a Jesus-bearing frame, row-51; NAZARETH's only non-Jesus frame b09 is the shut-door state, too specific) → both stay text-locked, place uniformity QC'd by eye.
+
+**Generate:** `v2_gen_api build-129 --ceiling 583.11` — 14/14 clean, meter $555.30→$557.17, **$1.88**. Light QC caught **s04 ROTATED 90°** (row-110/51/82 rotation-garbage) → `--only b04 --redo` landed upright, $0.13. **1 reroll/14 = 7.1%** (budget 15%), row total **$2.01** — well under the $6.10/row + 19%-reroll average (cost-down trend held).
+
+**Assemble:** AUDIO LOCK PASS e444040c (default path, byte-identical V1 narration), 19.4 MB / 85.8s. **FULL-CUT GATE (all 14 rendered beats + 3 caption frames + card): PASS** — all upright, realistic (Law-14 clean, zero cartoon/mix), Jesus ONE locked face + cream-only + no-halo + calm eyes across all 9 Jesus beats, three sick folk consistent (counts law), Mary/siblings never depicted, illness with dignity (no gore), door-rhyme intact, direction law (b01 into Nazareth), captions white/blue-scripture/red-Jesus synced bottom-band, card clean. FIX-WAVE only: s03/s04 distant unlocked cream Jesus at the lectern (small/background), s14 borderline wall lamp.
+
+**RUNNER-LESSONS fed:** the STALE-V1 pre-flight excess>0.75 guard is stricter than the documented "abs(total-d)≤1.0" heuristic — trust the actual assembler guard, and three consecutive rows with ~0.9s excess (newer=0) is a real content difference, not tail-silence noise (validated vs 121-124 @ ~0.04s). Reviewer deployed + live-verified (v129 carries hash 914050f7).
+
 ## 2026-08-11 (cont. 17) — Row 95 QC-VERIFY (FULL-CUT GATE) → QC-BLOCK: thief-on-the-cross has a ~4s AUDIO↔PICTURE DESYNC, pulled from Cameron's Unwatched queue, parked NEEDS-REBUILD — Machine A `Dev`, unattended/headless
 
 **Commit:** QC-BLOCK/park (board State→NEEDS-REBUILD + claim, QC.md RUNNER PARK, review.html de-list, RUNNER-LESSONS, this log) — hash below. $0 Gemini, 0 rerolls (no image gen). Reviewer DEPLOYED + live-verified (v95 no longer in the New/ready queue).
