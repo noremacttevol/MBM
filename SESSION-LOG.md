@@ -1,6 +1,6 @@
 ## 2026-08-11 (cont. 9) — Row 84 QC-VERIFY → QC-FIX (No Room: the Manger, Luke 2:1-7) — FULL-CUT GATE caught a caption/audio mismatch + 27s still-window drift before Cameron's eyes — Machine A `Dev`
 
-**Commit:** mp4/QC/board/beats commit `a3582b80a4eb`; card/log commit (this entry's).
+**Commit:** mp4/QC/board/beats commit `3d6d8bd1ac99`; card/log commit (this entry's).
 
 Row 84 (build-84-no-room-manger) was BUILT 2026-08-07 and sitting in Cameron's Unwatched
 queue. Ran the FULL-CUT GATE (PROMPT-OPUS-RUNNER §6b) before he watched it — extracted one
