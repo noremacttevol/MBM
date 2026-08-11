@@ -35,6 +35,27 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   behind a fallible add in an && chain. GitHub raw edge-cache can lag a few
   minutes after push; poll until the served md5 matches, THEN report shipped.
 
+- **A CONTINUITY complaint that survives 2+ blind re-rolls is a BEAT-TEXT defect,
+  not a generation fluke — fix the TEXT, don't regenerate again (Cameron 2026-08-11,
+  row 66, 3rd RE-OPEN: "people keep disappearing quickly and coming back and the
+  army is going the wrong way").** A multi-figure sequence (an arrest party, a crowd,
+  a procession) whose beats don't PIN a count and a direction lets every regeneration
+  reset the figures' distance/position, and the tight close-ups drop the surrounding
+  cast entirely — so across the intercut people flicker in/out and the group's motion
+  reverses. Two prior fixes each just `--redo`'d the same beat text and reproduced it
+  exactly (that is the trap). ROOT-CAUSE FIX (Cameron's order authorizes editing
+  scene/must_show for a continuity C-FIX): add ONE shared continuity clause to EVERY
+  beat in the block pinning (a) a single approach DIRECTION ("one column climbing from
+  the lower-left toward X, never receding/reversed"), (b) a fixed COUNT/identity of
+  the figures ("the same three men, no more no fewer"), and (c) that even tight
+  close-ups keep the group/column in the background so the scene never empties; also
+  de-conflict any beat whose camera note fights the locked direction (row 66 b03 said
+  "from the side"). THEN regenerate. Verify with the FULL-CUT GATE viewed in
+  PLAY-ORDER (window order, not b-number order) so a distance reset / direction flip
+  is visible as a sequence. Cost: locking the text + regenerating the block (~$1.21,
+  9 frames) is cheaper than another blind full "restart" ($4.29) that repeats the
+  complaint. A continuity complaint re-opened 3× is the LEARNING LAW's exact warning.
+
 - **HF-MUFFLE from ElevenLabs-HISTORY recovery — a "Voice is wrong / bad audio"
   complaint whose voices are ALL CORRECT (Cameron 2026-08-11, row 74, 2nd complaint;
   the 1st park BLOCKED it as "no localizable defect").** The old 5-test $0 battery
