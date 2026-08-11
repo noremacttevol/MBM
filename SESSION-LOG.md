@@ -1,3 +1,41 @@
+## 2026-08-11 (cont. 9) — Row 74 C-FIX SHIPPED (Woman Washed His Feet, Luke 7) — ROOT-CAUSED "Voice is wrong / bad audio" = HF-MUFFLE, de-muffled with $0 EQ (no re-voice) — Machine A `Dev`
+
+**Commit:** mp4/QC/board `e880c0944f41`; card `ff9995fcf`; lessons/log (this entry's).
+
+Cameron's URGENT re-order on row 74 (his 2nd complaint: *"Voice is wrong. Bad audio."*).
+The row had been BLOCKED on 2026-08-09 by a 5-test battery that found "no localizable
+defect." Re-blocking would make him the bug reporter a 3rd time, so I DEEPENED the battery
+and cracked it.
+
+**Root cause (a test the prior battery never ran — spectral tilt):** row-74's delivered
+audio is MUFFLED — nearly identical to approved rows up to 3 kHz then **−6.7 dB @ 6-10 kHz
+and −17.6 dB @ 10-16 kHz** below all three approved cuts (50/51/70), uniform across every
+segment, row-specific. `git log` on the segment mp3s → commit `d3598b3b9` *"recover 77
+reverted builds FREE from ElevenLabs history"*: row 74's audio was recovered from ElevenLabs
+history (a re-encoded, HF-rolled-off copy), not freshly rendered. That dullness is what he heard.
+
+**Proved the voices were NEVER wrong (so a blind re-voice stays forbidden):** F0 voice-ID vs
+approved row-70 — Jesus 85.8 Hz vs Chris 85.6, narrator 101.3 vs Brian 97.1, scripture 113.5
+vs Roger 111.1. All three the correct locked voices. Engine all ElevenLabs, every word correct,
+level gap (+3.3 dB Jesus>narr) systemic AND present in approved rows.
+
+**Fix — de-muffle EQ, NOT a re-voice ($0, deterministic, take-preserving):** HF was attenuated
+not gone, so recoverable. Corrective `highshelf 6k+4/9k+7/13k+8` → −15 LUFS + alimiter 0.95
+(assembler's exact final stage), remuxed with `-c:v copy`. **Video-stream md5 `1c6ebf84…`
+byte-identical old→new** (whole 36-frame picture QC carries over). Words/voices/performances/
+timing all preserved.
+
+**Verified before ship:** brightness restored to approved (6-10 k −6.7→+0.2, 10-16 k −17.6→−4.7);
+whisper ORDER CHECK all 14 anchors on their words; 3 beat frames re-viewed clean (Jesus only-cream
++ locked face, dignified woman, red-letter caption, clean card); no clip regression. Deployed
+live, **SERVED-BYTES md5-matched** (`26ca3eec…`) on first poll; live card carries hash e880c094.
+
+**Cost:** $0 (no image gen, no TTS). 0 rerolls. RUNNER-LESSONS + memory updated with the
+HF-muffle class, the spectral-tilt 6th test, the F0 voice-ID, and the de-muffle EQ technique.
+Caveat logged: source mp3s stay muffled → a future re-assemble must de-muffle them.
+
+---
+
 ## 2026-08-11 (cont. 8) — Row 82 QC-FIX (Anointing at Bethany, Mark 14:3-9) — FULL-CUT GATE caught a rotated still before Cameron's eyes — Machine A `Dev`
 
 **Commit:** mp4/QC/board commit `b1ea7dc57f13`; card/lessons/log commit (this entry's).

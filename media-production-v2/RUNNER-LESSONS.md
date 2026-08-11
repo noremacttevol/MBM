@@ -35,6 +35,42 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   behind a fallible add in an && chain. GitHub raw edge-cache can lag a few
   minutes after push; poll until the served md5 matches, THEN report shipped.
 
+- **HF-MUFFLE from ElevenLabs-HISTORY recovery — a "Voice is wrong / bad audio"
+  complaint whose voices are ALL CORRECT (Cameron 2026-08-11, row 74, 2nd complaint;
+  the 1st park BLOCKED it as "no localizable defect").** The old 5-test $0 battery
+  (engine / transcript / MFCC / uniform-voice / clip%) does NOT measure SPECTRAL TILT,
+  so it missed the real defect and re-blocked. ADD a 6th test and run it on any
+  "bad audio" row: decode the SERVED mp4 and 2-3 APPROVED rows' mp4s, average the
+  voiced-frame power spectrum of each, and compare by band. Row 74 was nearly identical
+  to approved up to 3 kHz then **−6.7 dB @ 6-10 kHz, −17.6 dB @ 10-16 kHz** — uniformly
+  muffled across EVERY segment, row-specific (approved 50/51/70 all crisp). Root cause:
+  `git log` on the segment mp3s showed commit `d3598b3b9` *"recover 77 reverted builds
+  FREE from ElevenLabs history"* — those 77 builds' audio is a re-encoded, HF-rolled-off
+  history copy, not a fresh render. **This is a whole CLASS (77 builds); on ANY "bad
+  audio" complaint, `git log <build>/audio/*.mp3 | grep d3598b3b9` — a hit means suspect
+  HF-muffle, run the spectrum test.**
+  - **Prove the voices are the CORRECT locked models with F0, not MFCC.** Median F0 over
+    voiced frames IS text-independent and speaker-discriminative where the homemade
+    MFCC-cosine (~0.97 for everything) failed: measure the row's per-speaker median F0 and
+    compare to an approved row's — **Chris(Jesus)≈85 Hz, Brian(narr)≈97-101 Hz,
+    Roger(scrip)≈111-115 Hz**. Row 74 matched all three within a few Hz ⇒ voices correct,
+    so the complaint is NOT a wrong voice and a blind re-voice is still forbidden.
+  - **FIX = corrective de-muffle EQ, NOT a re-voice ($0, deterministic, take-preserving).**
+    The HF was attenuated (−60 dB) not gone (noise floor −81 dB), so EQ recovers it. Extract
+    the served audio, apply `highshelf=f=6000:g=4,highshelf=f=9000:g=7,highshelf=f=13000:g=8`
+    (converge by re-measuring bands vs the approved average — target the deficit, cap boosts
+    to avoid noise), re-normalize to −15 LUFS + `alimiter=limit=0.95` (the assembler's exact
+    final stage), then **remux with `-c:v copy`** so the video stream is byte-identical
+    (its md5 must be unchanged old→new — the whole picture QC/gate carries over). VERIFY:
+    re-measure spectrum (6-10 k and 10-16 k now within a couple dB of approved) + whisper
+    ORDER CHECK (words unchanged, EQ preserves duration so no window/caption drift).
+  - **Caveat:** this de-muffles the DELIVERED mp4 only; the SOURCE segment mp3s stay the
+    muffled history copies, so a FUTURE `v2_assemble` reintroduces the muffle — a re-assemble
+    session must de-muffle the 19 source mp3s (same EQ, duration-preserving) or re-render them.
+  - **The lesson under the lesson:** an "all-clean → BLOCK for ear-pass" verdict can be a
+    battery that isn't deep enough, not a truly-clean row. Before re-blocking a REPEAT
+    complaint, add a test the prior battery lacked (here: spectral tilt vs approved rows).
+
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
 - **WRONG-JESUS-VOICE / "speaker changes mid-video" is an AUDIO park, and its
