@@ -57,6 +57,16 @@ fi
 cd "$REPO"
 [ "$DRY" -eq 0 ] && git pull --rebase --autostash origin main -q
 
+# --- auth breaker: an expired Claude CLI login kills every session in ~2 s ---
+# Only Cameron can fix it (run `claude` in a terminal and sign in). Skip
+# spawning until a session survives; self-heals once login works again.
+if find "$LOGDIR" -maxdepth 1 -name '*.log' -mmin -25 -print0 2>/dev/null \
+   | xargs -0 -r grep -l 'OAuth session expired' 2>/dev/null | grep -q .; then
+  MSG="LOGIN NEEDED: the Claude CLI login expired — every session dies at auth. Cameron: open a terminal, run 'claude', sign in when the browser opens. The loop resumes itself after."
+  if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
+  exit 0
+fi
+
 # --- billing state (paid jobs blocked while the Gemini prepayment is dry) ----
 BILLING_DOWN=0
 if find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' -o -name '*-cfix.log' \) \
