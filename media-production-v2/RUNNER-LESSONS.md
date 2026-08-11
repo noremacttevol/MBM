@@ -1059,3 +1059,19 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   `data["card"].get("seg") is not None`; a silent card contributes no audio and the existing
   `apad=whole_dur=total` already pads the track through its on-screen duration. Spoken cards
   (seg='card') are unchanged. Any future silent-card row now rebuilds cleanly.
+
+- **A CARVED EMBLEM on a stone prop (throne/judgment-seat/shield/lintel) can hallucinate
+  a MODERN OBJECT — row 93 baked a literal BICYCLE (two wheels + frame + handlebars) into
+  the judgment-seat backrest** (2026-08-11, QC-VERIFY of the BUILT cut before Cameron saw
+  it). It was in the b01 anchor, so the promoted PAVEMENT plate carried it and it appeared
+  in ALL 7 seat-wides. Two lessons: (1) at CLAIM/plate-QC time, zoom any decorative
+  carving on a prop and read it literally — "what does this emblem actually look like?" —
+  a plain seat back is safer than an invented symbol. (2) When a plate-level defect has
+  already propagated to N frames, DO NOT reroll N times (blows the budget and re-drifts
+  faces): run a **localized `gemini-3-pro-image` edit pass** (attach the finished frame,
+  instruct "preserve everything EXACTLY, change ONLY <the defect>") — it kept every face,
+  pose and the only-Jesus-cream lock intact across 7 frames for $1.07, and the audio stayed
+  byte-identical so no re-voice/approval churn. Re-promote the plate from the FIXED anchor
+  afterward or the warehouse re-propagates the defect. One edit occasionally leaves a faint
+  remnant (s07 here) — re-verify the actual rendered mp4, not just the asset, and retry that
+  one frame.
