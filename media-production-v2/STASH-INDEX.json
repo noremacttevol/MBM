@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 12:52:26",
+ "scanned": "2026-08-11 13:01:14",
  "entries": [
   {
    "row": 1,
@@ -51448,6 +51448,329 @@
    "night": false,
    "n_person": 2,
    "scene": "The sermon's proof runs through the crowd before anyone stands up, the camera looking across the slope from the side, past the seated listeners' shoulders: the golden last light on the grass, the teacher seated easy at t"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b01",
+   "file": "build-123-golden-rule/assets/s01-to-be-seen-when-we.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The first longing is only to be noticed: a woman sunk onto the worn doorstep with her two water jars still yoked, eyes closed against the long day \u2014 and a neighbour who has stopped, crouched down to her level with nothin"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b02",
+   "file": "build-123-golden-rule/assets/s02-of-everything-jesus-taught-on.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The same hillside holds its simplest hour, the camera looking past the seated crowd's backs up the slope: Jesus seated in the warm gold above the blue lake, the fishermen and mothers and farmers settled in the grass \u2014 an"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b03",
+   "file": "build-123-golden-rule/assets/s03-therefore-all-things-whatsoever-ye.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole law crosses the air in one gesture: Jesus with one hand resting at his own chest \u2014 whatsoever ye would for YOU \u2014 and the other opening out toward the crowd \u2014 do even so for THEM \u2014 the two directions of the enti"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b04",
+   "file": "build-123-golden-rule/assets/s04-that-is-the-law-and.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The comparison sits on one shelf: a synagogue niche stacked deep with the law's heavy scrolls \u2014 leather and wood and years of careful ink, a lifetime's reading in rolled thunder \u2014 and laid on the sill before them a singl"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b05",
+   "file": "build-123-golden-rule/assets/s05-however-you-wish-people-would.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The restatement comes in close, over the shoulders of the front row: Jesus leaning toward his nearest listeners with the sentence in its plainest clothes \u2014 however you WISH they would treat you, go treat them exactly tha"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b06",
+   "file": "build-123-golden-rule/assets/s06-and-every-one-of-us.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sermon pauses while everyone checks the answer they already own: along the seated rows the faces go briefly inward \u2014 a fisherman's eyes dropping to his scarred hands, an old woman looking through the lake to somewher"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b07",
+   "file": "build-123-golden-rule/assets/s07-to-be-fed-when-we.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The second longing sits down at a table: a travel-worn man with the dust still on his shoulders, and sliding in front of him a full clay bowl and a round loaf broken open, steam rising in the doorway light \u2014 his two hand"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b08",
+   "file": "build-123-golden-rule/assets/s08-that-longing-is-not-selfish.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the longing is FOR gets shown in a builder's hands: a marked measuring cord pulled taut between two work-worn fists over a course of cut stone, the knots spaced true, the line straight as a sunbeam \u2014 not a thing to "
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b09",
+   "file": "build-123-golden-rule/assets/s09-so-jesus-turns-it-outward.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One motion turns the whole subject inside out: Jesus's hand starts flat at his own chest \u2014 where every longing lives \u2014 and arcs open outward past the crowd toward the villages and roads below the hill, the fingers openin"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b10",
+   "file": "build-123-golden-rule/assets/s10-the-bread-you-wish-someone.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The wish becomes a deed at a wooden door: the householder presses a round loaf, still warm, into the cupped hands of the ragged man who knocked with nothing \u2014 and the giving is done the way the giver would want it done t"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b11",
+   "file": "build-123-golden-rule/assets/s11-the-cool-drink-you-would.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The kindness arrives before the request can: on the pale dusty track a villager stands already holding out a dripping water-skin \u2014 arm extended, offer complete \u2014 while the parched stranger's own hand has not yet even ris"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b12",
+   "file": "build-123-golden-rule/assets/s12-to-be-forgiven-when-we.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The third longing is the hardest to say out loud: a young man stands with his head bowed in the lane, the apology still unfinished in his mouth \u2014 and already, before the sentence can even land, the elder's hand has come "
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b13",
+   "file": "build-123-golden-rule/assets/s13-and-the-mercy-you-would.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The mercy moves before the excuse can form: between them the toppled handcart and two broken oil jars darkening the lane's dust \u2014 the mistake laid bare for the whole street \u2014 and the man whose oil it was is already bendi"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b14",
+   "file": "build-123-golden-rule/assets/s14-when-someone-stumbles-on-the.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The road offers its daily fork: ahead on the track a man is down on his knees in the dust, his shoulder-load burst and scattered \u2014 figs and bundles across the stones \u2014 and behind him a traveller has stopped mid-stride, h"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b15",
+   "file": "build-123-golden-rule/assets/s15-lift-him-the-way-you.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The lift is done the way the lifter would want it: forearm locked to forearm in the honest workman's grip, the traveller hauls the fallen man up out of the dust with his own weight thrown back into it \u2014 no dainty fingert"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b16",
+   "file": "build-123-golden-rule/assets/s16-give-and-it-shall-be.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The verse is paid out in period coin: the receiver holds the front of his robe gathered into the deep lap-fold his grandfathers called the bosom, and into it the giver pours grain in a bright rush \u2014 then presses it down "
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b17",
+   "file": "build-123-golden-rule/assets/s17-the-golden-rule-is-not.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What he laid on them weighs nothing at all: close on Jesus with both hands open and turned palm-up in the warm light \u2014 visibly empty, visibly light, nothing in them to lift and nothing to carry \u2014 the face above the open "
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b18",
+   "file": "build-123-golden-rule/assets/s18-give-he-said-and-it.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The circle comes back around to the man who started it: the householder who handed bread at his door now stands with his OWN robe gathered into a lap-fold while a neighbour's wooden measure tips grain into it \u2014 packed do"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b19",
+   "file": "build-123-golden-rule/assets/s19-that-is-the-quiet-secret.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The mechanism gets confided rather than announced: close on Jesus with the slight warmth of a man leaning into a secret worth keeping and worth telling \u2014 the deep eyes carrying the quiet amusement of somebody who designe"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b20",
+   "file": "build-123-golden-rule/assets/s20-a-life-poured-out-in.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The secret, demonstrated at an ordinary table: a clay pitcher travels down the row of held-out cups, pouring and pouring \u2014 water bright in the doorway light, cup after cup filled and no bottom of the jug in evidence \u2014 th"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b21",
+   "file": "build-123-golden-rule/assets/s21-it-comes-back-around-table.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The rule at full circulation looks like a village at supper, the camera low down the lane taking the doorways from the side: warm lamplight standing in every open door against the blue evening, a woman crossing the lane "
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b22",
+   "file": "build-123-golden-rule/assets/s22-it-is-the-shortest-way.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The shortest way to the whole law is child-sized: up the morning lane a small girl carries a round loaf with both arms, purposeful as a courier, bound for the widow's door at the top \u2014 and her path takes her right past t"
+  },
+  {
+   "row": 123,
+   "build": "build-123-golden-rule",
+   "beat": "v2-r123-b23",
+   "file": "build-123-golden-rule/assets/s23-treat-others-the-way-you.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sentence leaves the hill inside its hearers, the camera looking down the slope from behind Jesus's shoulder: in the golden last light the crowd begins to rise from the grass and turn away downhill \u2014 fishermen toward "
   }
  ]
 }

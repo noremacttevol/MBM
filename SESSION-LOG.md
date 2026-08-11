@@ -1,3 +1,39 @@
+## 2026-08-11 (cont. 16) — Row 123 The Golden Rule (Matt 7:12 + Luke 6:38) REALISTIC V2 SHIPPED — 23 stills, 0 rerolls (0%), FULL-CUT GATE PASS — Machine A `Dev`, unattended/headless
+
+**Commit:** ship (a) mp4+QC+AUTHOR-BOARD+QUEUE `466e34543850522da47f67fb256b7a447c735407`;
+review card + this SESSION-LOG + STASH-INDEX (b) below. Firebase deployed + live-verified.
+
+Claimed AUTHORED row 123 (lowest Ready ✅, empty claim — THE LOW-NUMBER LAW), cross-checked
+against QUEUE (golden rule Matt 7 — NOT swapped). Read the two META-LAWS + all 19 rubric lessons
++ all of RUNNER-LESSONS before spending. `v2_outline.py 123`: **no open complaint** (fresh V2
+build; V1 gallery cut predates the board) → COMPLAINT LEDGER "none open."
+
+**Audio pre-flight $0 gate:** PASS — V1 mp4 148.770s vs timeline 148.755s (diff 0.015s ≤1.0),
+newer_mp3s=0 → assembler stream-copies V1 mp4 audio, byte-identical narration. BUILDABLE.
+
+**Place plates — forced NO-PROMOTE on all four** (row-50/row-51 precedent): every HILLSIDE beat
+carries Jesus in cream (never promote a Jesus-bearing frame — lesson 929); VILLAGE spans day +
+lamplit-evening AND is peopled per-beat; ROAD is peopled; 121/122 not shipped so no shared
+HILLSIDE plate in the stash. Text-lock (byte-identical LOCK strings) → one clean generate pass.
+
+**Generate:** `v2_gen_api build-123-golden-rule --ceiling 580.23` — 23/23 clean, no 429s, $3.08,
+meter $550.61→$553.82. **0 rerolls.**
+
+**Light QC + FULL-CUT GATE (all 23 source stills + one frame/beat from the RENDERED mp4 + captions
++ card): PASS.** Realistic throughout, ZERO cartoon/mixed (Law 14). Jesus (7 beats) one locked
+face, cream-only, no halo, calm eyes, ordinary scale — consistent across all. No 2nd cream figure,
+no modern objects, no collage (s21 evening village wide is one coherent scene), action-logic all
+correct (forearm-lift, merciful lift, grain into the robe lap-fold = "bosom", solid rope, lamp on
+wick). Captions bottom-band, white narrator / RED Jesus-words (s03/s16), synced; card clean.
+Bonus: s04 rendered correct Hebrew of Lev 19:18 ("love thy neighbour as thyself") — the OT root —
+kept as a diegetic improvement (author had asked for indistinct script; not a defect). AUDIO LOCK
+PASS SHA256=4bb457ae, 148.8s / 19.5 MB.
+
+**COST:** $3.08/row, **0 rerolls (0%)** — vs the $6.10/row & 19%-reroll baseline. A clean
+first-attempt with zero reroll spend keeps the COST-LAW trend heading DOWN. Reuse honored
+(no place regen; STASH rescanned → 3439 stills / 115 builds so 123's stills are now reusable plates).
+No new RUNNER-LESSONS defect class surfaced (the Hebrew-scroll was an improvement, not a defect).
+
 ## 2026-08-11 (cont. 15) — Row 122 The Mote and the Beam (Matt 7:1-5) REALISTIC V2 SHIPPED — 27 stills, the beam absurd-never-gruesome gate PASSED — Machine A `Dev`, unattended/headless
 
 **Commit:** ship (a) mp4+QC+boards+QUEUE+spend `10f6bd9afab93f404a13db7f34887748f307e1b8`;
