@@ -1,5 +1,73 @@
 # build-27-leaven — QC
 
+## §RUNNER PARK REVERB 2026-08-11 (Machine A `Dev`, C-FIX cfix lane) — NEEDS-AUDIO — DE-MUFFLE WAS WRONG, RE-VOICE IS THE FIX
+
+> **This section SUPERSEDES the §AUDIO-FIX de-muffle and the older §RUNNER PARK
+> "spectral muffle" recipe below. Do NOT apply EQ to this row again — it is what
+> caused complaint #4.**
+
+**COMPLAINT LEDGER (open):** *"4th time complaining about the sound..Audio is
+messed up on this one still. Its not that bad its just not like the others and i
+cant explain it maybe like too much reverb or something."* — `complaintHash
+c96c5b5d` = the **de-muffle commit itself**, i.e. Cameron filed this AGAINST the
+already-de-muffled cut. The de-muffle did NOT satisfy him and this ledger stays
+OPEN until a re-voiced cut ships with a new hash.
+
+**AUDIO-domain — the cfix runner did NOT re-cut pictures (RUNNER LAW).** Parked to
+NEEDS-AUDIO for the audio lane. Pictures are untouched.
+
+**ROOT CAUSE (measured + spectrogram-viewed, the prior 8+ passes never checked
+this correctly):**
+- Row 27's shipped audio = the V1 **ElevenLabs** source segs
+  (`AUDIO_FROM_V1_SEGMENTS=True`). That render came out genuinely **DULL/WASHY**,
+  unlike the crisp approved rows 50/70/97 (which are ALSO ElevenLabs V1 — so it is
+  NOT an engine/voice difference; it is a bad-render fidelity difference).
+- **Spectrograms** (`ffmpeg showspectrumpic`, n2 narrator span, viewed by the
+  agent): row 27 has a hard **HF cutoff at the top** and a **haze that fills the
+  inter-word gaps** (reverb/room wash); rows 70 & 97 are **crisp, full-band, with
+  clean dark gaps** and articulate vertical consonant strikes.
+- **Numbers:** >12kHz energy relative to full-band (n2, identical content):
+  row 27 de-muffled **−29.9 dB**, row 27 pre-de-muffle **−35.6 dB**, approved
+  row 70 **−24.8 dB** → row 27 stays ~5 dB darker than approved even AFTER the
+  de-muffle. Loudness matches (~−15 LUFS all rows) but LRA = **5.0 LU** (27) vs
+  **~3.2 LU** (approved).
+- **Why the de-muffle made it WORSE (this is complaint #4):** the high-shelf EQ
+  raised broadband >12kHz by **+5.6 dB** overall and **+6 dB in the silent gaps**
+  (gap >10kHz −49.7 → −43.7 dB). With no crisp consonant detail in the source to
+  lift, EQ only amplified the **hiss/room floor** — that added "air/wash" is
+  precisely the **"too much reverb"** Cameron reports. **You cannot EQ detail into
+  a source that never had it.**
+
+**THE FIX (audio lane, NOT more EQ):**
+1. Fresh **ElevenLabs re-voice** of every seg — n1, n2, n3, n4, n5, n6, n7, n8,
+   j1, s33 — via `media-production/build-27-leaven/mbm_eleven.py` `render_segment`
+   (same voices: Brian narrator / Chris Jesus / Roger scripture), key in
+   `media-production/elevenlabs API KEY.txt` (multi-key file — extract with
+   `re.search(r'sk_[A-Za-z0-9]+', raw)` and pass `key=` explicitly, per the
+   ENGINE-PARITY lesson). Use the SAME output format the approved rows used so the
+   source is crisp.
+2. **atempo-lock** each re-voiced seg to its ORIGINAL duration (see
+   `segs/<seg>.timing.json`) so NO still-window moves.
+3. Keep `AUDIO_FROM_V1_SEGMENTS = True`; write the re-voiced mp3s into
+   `media-production/build-27-leaven/audio/` (back up current first).
+4. `v2_assemble.py 27` → **AUDIO LOCK hash WILL change** (expected — audio is
+   genuinely replaced; the old byte-identical assertion does not apply here).
+5. **Verify vs approved:** re-render the row-27 spectrogram and confirm it is
+   crisp/full-band with clean gaps like row 70; >12kHz-relative within ~2 dB of
+   row 70; no gap hiss-wash.
+6. **Ship with a NEW hash** — this moves the card off `c96c5b5d` and BREAKS the
+   autopilot reopen loop (per the query-bump-vs-hash lesson: the content hash must
+   move). Deploy + live-verify. Review card in Cameron's words: *"The audio is
+   re-recorded so it now matches your other videos — no more washy / reverb tone."*
+
+**$0 STOPGAP** if ElevenLabs credits are unavailable: restore
+`audio/.pre-demuffle-backup/*.mp3` over the current de-muffled sources and
+re-assemble — this at least removes the +6 dB hiss-wash the de-muffle added (back
+to the milder original tone, still duller than approved, but not the reverb-y
+version). Not a real fix; re-voice remains the durable one.
+
+---
+
 ## §AUDIO-FIX 2026-08-11 (Machine A `Dev`, live audio lane) — SHIPPED — SPECTRAL MUFFLE CLOSED, $0 / 0 credits
 
 **Cameron's re-complaint (closed by this cut):** *"Audio is messed up on this one
