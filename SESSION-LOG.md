@@ -1,3 +1,23 @@
+## 2026-08-11 — REALISTIC-ONLY PURGE + PUBLIC-VIDEO GATE (Cameron: "still old videos published on my app and the website") — Machine A `Dev`
+
+**Commit:** purge + gate + law = `f9c7ecfe8`; this log = (this commit).
+
+Cameron corrected my earlier call to leave the 43 old-era cuts streaming. Fixed same-session:
+- **43 old-era rows pulled from public**: removed from PRODUCED_VIDEO_IDS (app shows the
+  verse-only "film is being made" card), mp4s+thumbs moved off hosting into
+  media-production-v2/gallery-archive-v1/ (restorable), redeployed — all 43 URLs verified 404.
+  Playable set = EXACTLY the 44 approved realistic rows. OTA `e83c3d1b` shipped the trim.
+- **NEW GATE — scripts/audit_public_videos.py (--live)**: proves ledger == app catalog ==
+  disk == live hosting, sha1-exact vs the approval-time hashes, and every old-era URL dead.
+  PASSED live post-deploy (6/6 checks). Law written into CLAUDE.md realistic-only block:
+  gate must PASS before any video deploy/OTA; approved re-cuts get re-added same-session.
+- Play store screenshots: uploaded via API after Cameron granted the permission (commit
+  retried this session — see log output).
+
+**Cost:** $0 (no Gemini; ffmpeg/ffprobe/firebase/eas only).
+
+---
+
 ## 2026-08-11 (cont.) — Row 10 ROOT CAUSE was the VOICE, not the pace: four pacing fixes each regenerated j2 via make_narration/edge-tts = OLD Jesus voice. Re-voiced with build-local ElevenLabs Chris (engine parity with siblings), word-exact whisper gate, real pause, 2.93s; make_narration now refuses j2; ENGINE PARITY law added to RUNNER-LESSONS; live hash 4bfdd401acf0.
 
 ## 2026-08-11 — Row 10 j2 THIRD take shipped (Cameron: "too slow, robot — undo it and make it right"): one flowing phrase + single 0.55s pause = 5.64s natural delivery, whisper-verified at 3:30 in the final video, deployed + live-verified hash 5c49ababf0f6. Root lesson: pause-chopping a line into per-word chunks reads as ROBOT — weight comes from ONE pause at the reveal, never from fragmenting speech. Row 11 approved by Cameron same night.
