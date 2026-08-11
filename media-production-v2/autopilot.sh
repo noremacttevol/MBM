@@ -76,15 +76,19 @@ if find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' -o
   BILLING_DOWN=1
 fi
 
-# --- refresh Cameron's live complaints (stale file still works if this fails)
-[ "$DRY" -eq 0 ] && (cd "$REPO/admin" && timeout 60 node sync-reviews.mjs >/dev/null 2>&1 || true)
+# --- refresh Cameron's live complaints + approvals (stale files still work)
+if [ "$DRY" -eq 0 ]; then
+  (cd "$REPO/admin" && timeout 60 node sync-reviews.mjs >/dev/null 2>&1 || true)
+  (cd "$REPO/admin" && timeout 60 node dump-approvals.mjs > "$V2/.approvals.json" 2>/dev/null || true)
+fi
 
 # --- THE DISPATCHER ----------------------------------------------------------
 # Emits "JOB ROW". Caps: audio ≤2 lanes, author ≤1 lane (they run during
 # billing-down too — they cost $0 Gemini). cfix/resume/runner are paid.
 AUDIO_LIVE=$(pgrep -fc 'PROMPT-AUDIO-FIX' || true)
 AUTHOR_LIVE=$(pgrep -fc 'PROMPT-FABLE5-AUTHOR' || true)
-PICK="$(BILLING_DOWN=$BILLING_DOWN AUDIO_LIVE=${AUDIO_LIVE:-0} AUTHOR_LIVE=${AUTHOR_LIVE:-0} python3 - <<'PYEOF' 2>/dev/null || echo 'none 0'
+VERIFY_LIVE=$(pgrep -fc 'VERIFY-PASS' || true)
+PICK="$(BILLING_DOWN=$BILLING_DOWN AUDIO_LIVE=${AUDIO_LIVE:-0} AUTHOR_LIVE=${AUTHOR_LIVE:-0} VERIFY_LIVE=${VERIFY_LIVE:-0} python3 - <<'PYEOF' 2>/dev/null || echo 'none 0'
 import json, re, os, time, subprocess
 
 bd = os.environ.get('BILLING_DOWN', '0') == '1'
@@ -163,6 +167,24 @@ for r, b, st, au, cl, rd in rows:
         if not bd:
             emit('resume', r)
 
+# PASS 1.5 — VERIFY (Cameron 2026-08-10: "my quality is going down"): full-cut
+# frame check on BUILT rows he has NOT yet approved and NOT complained about —
+# clean his Unwatched queue BEFORE his eyes reach it. Never touches approved
+# rows (a re-cut voids his approval). One verify lane max.
+verify_live = int(os.environ.get('VERIFY_LIVE', '0') or 0)
+try:
+    A = json.load(open(f'{V2}/.approvals.json'))
+except Exception:
+    A = {}
+if not bd and verify_live < 1:
+    for r, b, st, au, cl, rd in rows:
+        k = str(r)
+        v = A.get(k, {})
+        approved_current = v.get('approved') and v.get('approvedHash') == cur.get(k)
+        if (st == 'BUILT' and not approved_current and k not in openc
+                and 'QC-OK' not in cl and 'QC-FIX' not in cl and not active(b)):
+            emit('verify', r)
+
 # PASS 2 — regular production, lowest row first.
 if not bd:
     for r, b, st, au, cl, rd in rows:
@@ -182,13 +204,16 @@ JOB="${PICK%% *}"; ROW="${PICK##* }"
 
 case "$JOB" in
   cfix)
-    PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md — all its laws bind you. THE COMPLAINT-FIRST + LOW-NUMBER LAWS: Cameron filed a complaint against the CURRENT shipped cut of AUTHOR-BOARD row $ROW and it is the lowest waiting row — fixing it outranks all other work. Run 'python3 media-production-v2/v2_outline.py $ROW' to read his complaint in his own words. Claim first: append 'C-FIX <date> LIVE' to the row's board Claim cell, commit, push (rejected push = taken, exit cleanly). Fix ONLY what he named: picture defects = reroll or identity-edit ONLY the offending frames (--only <beat>, reroll budget applies), everything else stays byte-identical; if the complaint is AUDIO-domain, do NOT re-cut pictures — flip the row to NEEDS-AUDIO with a RUNNER PARK note per RUNNER-LESSONS and exit (the audio lane picks it up NEXT tick because low rows go first). Touch-once: batch every open complaint on this row into ONE re-cut. Re-assemble (AUDIO LOCK PASS), redeploy (step 7c, live-verified), review card answers his complaint in his words. UNATTENDED + HEADLESS: everything FOREGROUND to completion, never background, never wait. Board claim -> 'C-FIX <date> SHIPPED', SESSION-LOG, commit, push."
+    PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md — all its laws bind you, especially the FULL-CUT GATE (6b). THE COMPLAINT-FIRST + LOW-NUMBER LAWS: Cameron filed a complaint against the CURRENT shipped cut of AUTHOR-BOARD row $ROW and it is the lowest waiting row — fixing it outranks all other work. Run 'python3 media-production-v2/v2_outline.py $ROW' to read his complaint in his own words. TRACE each timestamped complaint to the frame that RENDERS at that second (extract from the live mp4 + the beat windows — never guess from beat names). Claim first: append 'C-FIX <date> LIVE' to the row's board Claim cell, commit, push (rejected push = taken, exit cleanly). Fix what he named — AND then run the FULL-CUT GATE on the whole rendered cut: one frame per beat, every frame checked; anything complaint-worthy gets fixed in this SAME touch-once re-cut (row 11 shipped a 'fix' with seven other bad frames in it — never again). If the complaint is AUDIO-domain, do NOT re-cut pictures — flip the row to NEEDS-AUDIO with a RUNNER PARK note and exit. Re-assemble (AUDIO LOCK PASS), redeploy (step 7c, live-verified), review card answers his complaint in his words. UNATTENDED + HEADLESS: everything FOREGROUND to completion, never background, never wait. Board claim -> 'C-FIX <date> SHIPPED', SESSION-LOG, commit, push."
     MODEL_ARGS=(--model opus) ;;
   resume)
     PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md. A previous autopilot run DIED mid-build on AUTHOR-BOARD row $ROW (State RUNNING, Claim A-auto) — RESUME that row, do not start a new one. FIRST run the RUNNER-LESSONS already-shipped check (committed mp4 / live review card) — if it shipped, tick it BUILT and take nothing else. Otherwise read the build's QC.md for where it stopped; v2_gen_api.py resumes automatically (passing frames are never re-pulled — COST LAW). UNATTENDED + HEADLESS: everything FOREGROUND to completion, never background, never wait. Finish through step 7c DEPLOY + live verification, set the board row BUILT, SESSION-LOG, commit, push."
     MODEL_ARGS=(--model opus) ;;
   audio)
     PROMPT="Read media-production-v2/PROMPT-AUDIO-FIX.md and fix AUTHOR-BOARD row $ROW FIRST (THE LOW-NUMBER LAW — it is the lowest waiting complaint row; continue to the next lowest NEEDS-AUDIO rows after). UNATTENDED + HEADLESS: never wait, never ask; everything FOREGROUND to completion. Spend NOTHING on Gemini — audio only. The row's QC.md RUNNER PARK note is the per-row authority. If the row's stills are already generated, re-assemble and ship the full cut through deploy + live verification; the review card answers Cameron's complaint in his own words. Board: NEEDS-AUDIO -> BUILT (shipped) or AUTHORED+Ready (no stills yet). SESSION-LOG, commit, push. Stop cleanly when context runs low."
+    MODEL_ARGS=(--model opus) ;;
+  verify)
+    PROMPT="VERIFY-PASS. Read media-production-v2/PROMPT-OPUS-RUNNER.md — its FULL-CUT GATE (6b) is your entire job. AUTHOR-BOARD row $ROW is BUILT and sitting in Cameron's Unwatched queue; check it BEFORE his eyes reach it (2026-08-10: 'my quality is going down' — row 11 reached him with seven bad frames). Claim: append 'QC-VERIFY <date> LIVE' to the row's board Claim cell, push. Extract one frame per beat from the row's rendered mp4 (beat windows in beats_v2.py) and view EVERY frame against the defect checklist + RUNNER-LESSONS + the row's resolved complaints (a resolved complaint must not have regressed). CLEAN: mark the claim 'QC-OK <date>', commit, push, done — do NOT re-cut a clean row. DEFECTS: fix them ALL in ONE touch-once re-cut (reroll budget applies), re-assemble (AUDIO LOCK PASS), redeploy live-verified, claim 'QC-FIX <date> SHIPPED', card notes what was cleaned. NEVER touch a row Cameron approved. UNATTENDED + HEADLESS: everything FOREGROUND; never background, never wait. SESSION-LOG, commit, push."
     MODEL_ARGS=(--model opus) ;;
   runner)
     PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows, starting with AUTHOR-BOARD row $ROW (lowest first — THE LOW-NUMBER LAW). UNATTENDED + HEADLESS: ending your turn kills the session — run EVERY command in the FOREGROUND to completion; never run_in_background, never wait for notifications. Before generating, cross-check the row against media-production/QUEUE.md — a swapped/replaced story gets PARKED (note in Claim, clear Ready), never built. Set the board row RUNNING with Claim 'A-auto <date>' when you claim, BUILT when shipped. LEARNING LAW (complaint ledger in QC.md), COST LAW (reroll budget), step 7c DEPLOY + live verification all bind. If blocked, park with the resume command in QC.md and take the next row. SESSION-LOG, commit, push when context runs low."

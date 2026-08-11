@@ -98,10 +98,20 @@ stop, object, or write alerts about concurrency; follow these rules instead:
    stop rerolling, FIX-WAVE the rest, and say so in QC.md.**
 6. **Assemble:** `python3 media-production-v2/v2_assemble.py <row>`. It must
    print `AUDIO LOCK PASS` — if it fails the audio hash, STOP the row, log, do
-   not ship. Extract 3 caption frames from the RENDERED mp4
-   (`ffmpeg -ss <t> -i <mp4> -frames:v 1 …` at an early, a middle, and the
-   question-card timestamp), view them once: captions in the bottom band only,
-   question card clean.
+   not ship.
+6b. **FULL-CUT GATE (Cameron, 2026-08-10 — row 11 reached him with SEVEN bad
+   frames in a "fixed" cut: "my quality is going down which means the cost is
+   going up"). The "first-attempt / no obvious garbage" bar is DEAD. Before
+   shipping ANY cut: extract ONE frame per beat from the RENDERED mp4 (mid-
+   window: `ffmpeg -ss <t> -i <mp4> -frames:v 1 …`) and view EVERY one against
+   the defect checklist (identity/locked faces, cream-only-Jesus, anatomy,
+   hands, physics, hull/space coherence, scale, beards, modern objects,
+   empty-scene-that-should-have-people). Anything that would make Cameron
+   type a complaint BLOCKS the ship — reroll it (budget applies) or park with
+   the defect named. Also view the 3 caption frames (captions bottom-band
+   only, question card clean). A defect Cameron finds that this gate should
+   have caught is a worse failure than a slow ship — every one costs a re-cut,
+   a voided approval, and his trust.**
 7. **Ship (two commits, exactly like row 39):**
    a. `git add -f <build>/<final>.mp4`, add QC.md + boards, update the row's
       QUEUE status text (model it on row 39's entry), commit → note the hash.
