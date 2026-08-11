@@ -1,5 +1,45 @@
 # build-27-leaven — QC
 
+## §RE-VOICE SHIPPED 2026-08-11 (Machine A `Dev`, audio lane) — REVERB COMPLAINT #4 CLOSED — DURABLE FIX
+
+> **This SUPERSEDES §RUNNER PARK REVERB below. The re-voice recipe it prescribed
+> was executed exactly. Complaint CLOSED with a NEW audio hash — the reopen loop
+> is broken.**
+
+**COMPLAINT LEDGER:** *"4th time complaining about the sound..Audio is messed up
+on this one still. Its not that bad its just not like the others and i cant explain
+it maybe like too much reverb or something."* — **CLOSED.** Root was the DULL/WASHY
+V1 ElevenLabs source render (HF-cutoff + gap haze), and the prior de-muffle EQ only
+amplified that gap hiss into the "reverb" he heard. **Fix: fresh ElevenLabs re-voice
+of ALL 11 segments** (n1-n8, s33, j1, card) through the build-LOCAL `mbm_eleven.py`
+locked cast — **Brian narrator / Chris Jesus / Roger scripture** (the shared copy's
+stale Alexander Jesus was NOT used; loaded the build-local driver by explicit file
+path). Each seg pitch-preserving **atempo-locked to its ORIGINAL duration** so NO
+still/caption window moves (worst delta −0.026s = one MP3 frame; total runtime
+104.40→104.27s).
+
+**VERIFIED crisp (the check the 8 prior passes never ran):**
+- FFT >12kHz-relative energy (n2, identical content): **NEW −27.3 dB** vs
+  de-muffled −41.8 dB vs approved row 70 −29.8 dB → the re-voice is even slightly
+  BRIGHTER than approved, +14.5 dB above the dull source.
+- **Spectrograms viewed** (`showspectrumpic`, n2): NEW is bright/full-band to
+  ~15.5kHz with sharp consonant strikes and **clean DARK inter-word gaps** — matches
+  approved row 70's signature; the OLD de-muffled had the tell-tale purple gap-haze
+  (= the "reverb").
+- **Words word-exact** (faster-whisper): j1 + n1 transcribe verbatim to the KJV/
+  script; s33 reads "spakey" on BOTH old and new (whisper collapsing the elided
+  "spake he") = transcription artefact, not a render change.
+
+**Audio hash CHANGED (expected):** old audio e2cabe25 → **new REBUILD 366b289f**.
+Pictures UNTOUCHED (audio-domain fix) — prior FULL-CUT GATE 29/29 pass stands;
+render integrity re-spot-checked (j1 crowd frame, two dough frames, card) CLEAN.
+**Cost: $0 Gemini / 0 image credits; ~1,000 chars ElevenLabs (trivial).**
+Reproduce: `cd media-production/build-27-leaven && python3 revoice_all.py`.
+Backup of prior de-muffled sources: `audio/.pre-revoice-backup/`.
+
+---
+
+
 ## §RUNNER PARK REVERB 2026-08-11 (Machine A `Dev`, C-FIX cfix lane) — NEEDS-AUDIO — DE-MUFFLE WAS WRONG, RE-VOICE IS THE FIX
 
 > **This section SUPERSEDES the §AUDIO-FIX de-muffle and the older §RUNNER PARK
