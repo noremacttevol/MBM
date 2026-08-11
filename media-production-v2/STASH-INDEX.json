@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 18:05:17",
+ "scanned": "2026-08-11 18:35:01",
  "entries": [
   {
    "row": 1,
@@ -31983,493 +31983,6 @@
    "scene": "Morning light falls through the open door of the small house onto the low table, where a whole round loaf sits broken open between the two of them \u2014 the little girl kneeling up on her stool, bright-eyed and talking with "
   },
   {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b01",
-   "file": "build-62-ephphatha/assets/s01-the-long-road-back.jpeg",
-   "tokens": [
-    "DECAPOLIS"
-   ],
-   "jesus": true,
-   "wide": true,
-   "night": false,
-   "n_person": 1,
-   "scene": "The camera off the road takes the walk in profile: Jesus walks the high dusty road down into the lake country of the ten cities, a few disciples strung behind him \u2014 ahead, a columned Gentile town stands on its rise in th"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b02",
-   "file": "build-62-ephphatha/assets/s02-one-man-still-telling-it.jpeg",
-   "tokens": [
-    "DECAPOLIS"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 0,
-   "scene": "In a Gentile market lane a tall weathered man with long black hair and a full tangled beard stands telling a story with both arms wide \u2014 and the lane has stopped for it: a potter leaning over his wheel, two women with ja"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b03",
-   "file": "build-62-ephphatha/assets/s03-now-they-come-running.jpeg",
-   "tokens": [
-    "DECAPOLIS"
-   ],
-   "jesus": true,
-   "wide": true,
-   "night": false,
-   "n_person": 1,
-   "scene": "Down every path to the road, the camera behind his shoulder so the streams converge into the frame, they come toward Jesus \u2014 two men jogging with a litter between them, a woman leading her blind father by the wrist, a bo"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b04",
-   "file": "build-62-ephphatha/assets/s04-one-testimony-changed-it.jpeg",
-   "tokens": [
-    "DECAPOLIS"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "At the swelling crowd's edge the tall weathered storyteller stands with one arm thrown out, pointing Jesus out to a knot of newcomers \u2014 that is him, the gesture says \u2014 and their faces turn along his arm one after another"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b05",
-   "file": "build-62-ephphatha/assets/s05-they-brought-him-a-man.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "DECAPOLIS"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "Two friends bring the solid rust-brown-clad man forward through the parting crowd, each with a hand on one of his arms \u2014 and he comes willingly but watchfully, his intelligent dark eyes jumping from his friends' faces to"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b06",
-   "file": "build-62-ephphatha/assets/s06-no-way-in.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "DECAPOLIS"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "A memory in bright market light: the man stands in the middle of a busy lane while commerce roars around him \u2014 a seller's mouth wide mid-cry beside his ear, two friends arguing prices across his shoulder, a woman laughin"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b07",
-   "file": "build-62-ephphatha/assets/s07-outside-the-joke.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "Around a small evening fire a circle of workmates rocks with laughter at the end of somebody's story \u2014 heads thrown back, a knee slapped \u2014 and at the circle's edge the man in rust-brown watches their faces and assembles "
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b08",
-   "file": "build-62-ephphatha/assets/s08-the-warning-he-never-heard.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "DECAPOLIS"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "In the market lane a heavy ox-cart stacked with timber bears down from behind the man \u2014 three bystanders' mouths are torn wide with shouted warnings he cannot hear \u2014 and in the last instant a friend's hand has seized his"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b09",
-   "file": "build-62-ephphatha/assets/s09-surrounded-and-alone.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "Close on the man's face, pin-sharp, while the whole market swirls soft and blurred around him \u2014 shapes of talkers, hagglers, friends at every distance, all of them dissolved into coloured silence \u2014 and in the one sharp f"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b10",
-   "file": "build-62-ephphatha/assets/s10-they-begged-a-touch.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "DECAPOLIS"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "The two friends crowd Jesus with their plea \u2014 one gripping his own ear and pointing at their companion, the other miming a hand laid on a head, both faces urgent \u2014 while Jesus listens with his eyes gone past them entirel"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b11",
-   "file": "build-62-ephphatha/assets/s11-he-took-him-by-the-hand.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "DECAPOLIS",
-    "ASIDE"
-   ],
-   "jesus": true,
-   "wide": true,
-   "night": false,
-   "n_person": 2,
-   "scene": "The camera holds the withdrawal from the side, both figures in profile: Jesus leads the man away by the hand \u2014 a plain firm grip, the man following with his eyes fixed on the back of this stranger who communicates in the"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b12",
-   "file": "build-62-ephphatha/assets/s12-no-audience.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "ASIDE"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "In the grey-green olive shade the two men stand alone face to face, an arm's length apart \u2014 the crowd nothing now but a soft band of colour far beyond the low wall \u2014 and the deaf man waits with his hands loose and his ey"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b13",
-   "file": "build-62-ephphatha/assets/s13-squarely-in-front-of-him.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "ASIDE"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "Jesus has set himself squarely in front of the man at reading distance \u2014 shoulders square to him, face full-on in the olive light, hands lifting slowly into the space between them where they can be watched \u2014 a man delibe"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b14",
-   "file": "build-62-ephphatha/assets/s14-the-only-language.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "Close between the two men: Jesus's hands hang open and deliberate in the air at chest height, mid-gesture, fingers beginning to shape the first sign of the sentence \u2014 and below the frame's top edge the deaf man's intent "
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b15",
-   "file": "build-62-ephphatha/assets/s15-fingers-to-his-ears.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "Jesus's hands are raised to either side of the man's head, fingertips resting gently just at his ears \u2014 and over the touch the two faces hold each other, Jesus's eyes saying the sentence his fingers are spelling, and the"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b16",
-   "file": "build-62-ephphatha/assets/s16-and-this-too.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "The sign continues: Jesus's hand has come down to touch two fingertips gently against the man's lips and chin \u2014 'and this too' \u2014 while his other hand still rests at the man's ear, the whole broken apparatus named touch b"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b17",
-   "file": "build-62-ephphatha/assets/s17-he-looked-up-to-heaven.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "ASIDE"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "Jesus lifts his face full to the sky above the olive branches, holding the man's hand against his own chest as he does it \u2014 and the deaf man's eyes follow the look up, from the stranger's raised face to the bright sky an"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b18",
-   "file": "build-62-ephphatha/assets/s18-the-small-stunning-detail.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "The moment hangs: Jesus's face has come back down level from the sky and stopped, his hand still holding the man's against his chest, everything in the olive shade gone perfectly still \u2014 the signing done, the word not ye"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b19",
-   "file": "build-62-ephphatha/assets/s19-he-sighed.jpeg",
-   "tokens": [],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "Very close on Jesus's face and shoulders against the olive shade: his eyes are lifted to heaven and his whole chest is falling through a long visible sigh \u2014 the breath of a man feeling the full weight of a world broken e"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b20",
-   "file": "build-62-ephphatha/assets/s20-ephphatha.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "Jesus's face has come down level with the man's, close, and the word is on his lips \u2014 mouth caught mid-syllable, deliberate and shaped to be read \u2014 and the deaf man's eyes are on those lips doing what they have done all "
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b21",
-   "file": "build-62-ephphatha/assets/s21-the-sigh-came-first.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "The two faces close in the olive shade, the word just spoken between them: Jesus's face still carries the sigh's gravity \u2014 moved, grieved, resolved \u2014 and the man before him has gone very still, his eyes wide on the stran"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b22",
-   "file": "build-62-ephphatha/assets/s22-be-opened.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "Very close on the man's face at the instant it happens: his eyes fly wide and his head tips a fraction as if struck softly from every direction at once \u2014 the first sound of his life arriving not as one thing but as every"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b23",
-   "file": "build-62-ephphatha/assets/s23-hands-to-his-ears.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "The man's both hands have flown up to cradle his own head, palms over his ears then off again, testing \u2014 on, off, on \u2014 his face between his own hands blazing with disbelieving laughter as the sound cuts in and out under "
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b24",
-   "file": "build-62-ephphatha/assets/s24-sound-rushed-in.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "ASIDE"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "The man turns in the olive shade like a compass needle gone free \u2014 head snapping up toward a small brown bird singing plainly on the olive branch above him, then around toward the low wall where the crowd's murmur rolls "
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b25",
-   "file": "build-62-ephphatha/assets/s25-his-own-name.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "ASIDE"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "At the gap in the low wall one of his two friends has pushed through and stands with a hand cupped at his mouth, calling to him \u2014 mouth wide mid-name \u2014 and the man has wheeled toward the call and stopped dead, one hand r"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b26",
-   "file": "build-62-ephphatha/assets/s26-the-first-plain-words.jpeg",
-   "tokens": [
-    "DEAFMAN"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "The man is speaking \u2014 plainly, loudly, the words tumbling \u2014 with one hand pressed flat to his own throat feeling them buzz out of him for the first time in his life, his face streaming and laughing around the pouring spe"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b27",
-   "file": "build-62-ephphatha/assets/s27-keep-it-quiet.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "DECAPOLIS"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "The two friends have burst through the wall's gap and seized their speaking companion, and Jesus turns to them with one hand raised in a mild quieting gesture \u2014 say nothing \u2014 while both their faces are already ruined for"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b28",
-   "file": "build-62-ephphatha/assets/s28-how-do-you-keep-it-secret.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "DECAPOLIS"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "Back on the road the man stands in the middle of the crowd TALKING \u2014 and the crowd is coming apart around the sound of him: an old neighbour with both hands over her mouth, a workmate gripping his arm and making him say "
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b29",
-   "file": "build-62-ephphatha/assets/s29-the-verdict-forming.jpeg",
-   "tokens": [
-    "DECAPOLIS"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 0,
-   "scene": "A knot of grey town elders and neighbours stands conferring in the golden light \u2014 but gladly: heads nodding, hands turned up, one old man ticking points off on his fingers while the others agree, every few words a glance"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b30",
-   "file": "build-62-ephphatha/assets/s30-done-all-things-well.jpeg",
-   "tokens": [
-    "DECAPOLIS"
-   ],
-   "jesus": true,
-   "wide": true,
-   "night": false,
-   "n_person": 1,
-   "scene": "The crowd's verdict breaks over Jesus like surf, the camera behind the nearest lifted arms \u2014 hands lifted all around him, faces shining, an old woman reaching just to touch his sleeve, the healed man's voice still ringin"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b31",
-   "file": "build-62-ephphatha/assets/s31-his-friends-embrace.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "DECAPOLIS"
-   ],
-   "jesus": false,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "The two friends have the man crushed in a double embrace and he is STILL TALKING through it, words pouring over their shoulders while they laugh and thump his back \u2014 the man who smiled half a beat late at the edge of eve"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b32",
-   "file": "build-62-ephphatha/assets/s32-the-region-that-asked-him-to-leave.jpeg",
-   "tokens": [
-    "DECAPOLIS"
-   ],
-   "jesus": true,
-   "wide": true,
-   "night": false,
-   "n_person": 1,
-   "scene": "A wide golden frame of the eastern shore country, the camera high on the ridge behind the thronged road: the crowd spread thick around Jesus on the road above the blue lake \u2014 the same water his boat was once asked to tak"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b33",
-   "file": "build-62-ephphatha/assets/s33-what-kind-of-healer.jpeg",
-   "tokens": [],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 1,
-   "scene": "Close on Jesus amid the soft-blurred jubilation, the only still thing in the frame: his face quiet and warm and a little tired in the golden light, eyes resting somewhere past the celebration \u2014 the healer who works one m"
-  },
-  {
-   "row": 62,
-   "build": "build-62-ephphatha",
-   "beat": "v2-r062-b34",
-   "file": "build-62-ephphatha/assets/s34-he-gave-him-back-the-world.jpeg",
-   "tokens": [
-    "DEAFMAN",
-    "ASIDE"
-   ],
-   "jesus": true,
-   "wide": false,
-   "night": false,
-   "n_person": 2,
-   "scene": "The olive-shaded hollow in the last long light, one more time: Jesus and the healed man stand face to face where the silence was broken, the man's hand clasped in both of Jesus's, talking \u2014 of course, still talking \u2014 and"
-  },
-  {
    "row": 64,
    "build": "build-64-pool-of-bethesda",
    "beat": "v2-r064-b01",
@@ -52407,6 +51920,147 @@
    "night": false,
    "n_person": 1,
    "scene": "One latch turns, and that is enough: down the evening lane the doors stand shut as they stood all day \u2014 but ONE is open, warm lamplight spilling over its threshold stone, and in the doorway a small family beckons Jesus i"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b01",
+   "file": "build-130-what-manner-of-spirit/assets/s01-as-jesus-traveled-toward-jerusalem.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The day's lodging falls through at the gate, the camera looking past the travellers' dusty backs up the slope: at the village's wooden gate two wary elders stand with a hand turned politely, immovably away \u2014 no room here"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b02",
+   "file": "build-130-what-manner-of-spirit/assets/s02-the-disciples-james-and-john.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The sons of thunder file their motion: James with his arm flung straight up at the clean afternoon sky, John's finger aimed hard back at the village on its slope \u2014 faces hot, jaws set, two young men volunteering to be th"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b03",
+   "file": "build-130-what-manner-of-spirit/assets/s03-the-fire-in-the-disciples.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The only fire on the road is behind two pairs of eyes: close on the brothers' faces side by side \u2014 James's jaw knotted, John's brows down, the hurt of the insult and the thrill of the remedy burning together in the young"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b04",
+   "file": "build-130-what-manner-of-spirit/assets/s04-they-asked-if-they-should.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What they asked for is measured against what stands there: the brothers' arms raised high against the wide clean sky \u2014 calling on it, offering to be its instruments \u2014 and beyond the raised arms the village itself, whole "
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b05",
+   "file": "build-130-what-manner-of-spirit/assets/s05-jesus-turned-and-rebuked-them.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The rebuke goes the direction nobody expected: Jesus turns his back fully on the village that refused him and faces his own two men \u2014 one hand raised in level correction, the grave eyes on James and John and nowhere else"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b06",
+   "file": "build-130-what-manner-of-spirit/assets/s06-for-the-son-of-man.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The mission statement is delivered on the spot: Jesus's open hand moves in one slow arc from the village on its slope \u2014 spared, included, loved \u2014 back to his own chest, where the actual purpose lives: not to destroy men'"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b07",
+   "file": "build-130-what-manner-of-spirit/assets/s07-he-come-to-burn-he.jpeg",
+   "tokens": [
+    "VILLAGE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The only fire that ever touches the village is its own: dusk settles over the terraced slope and the hearth-smoke rises thin and homely from the rooftops, lamplight warming window after window, suppers cooking for people"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b08",
+   "file": "build-130-what-manner-of-spirit/assets/s08-and-then-they-simply-walked.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole answer to the insult is a road being used: the small band walks on down the pale highland way, Jesus at the front with his face set south, the brothers folded quiet into the line behind him \u2014 and back on its sl"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b09",
+   "file": "build-130-what-manner-of-spirit/assets/s09-no-answer-to-the-insult.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The insult's full reply is measured in distance: the travellers small on the long gold road as it curves through the open evening hills, dust rising soft behind their sandals \u2014 and far back along the way, already shrinki"
+  },
+  {
+   "row": 130,
+   "build": "build-130-what-manner-of-spirit",
+   "beat": "v2-r130-b10",
+   "file": "build-130-what-manner-of-spirit/assets/s10-anger-that-wants-to-destroy.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The lesson walks itself into the sunset: Jesus ahead on the golden road with his face set toward Jerusalem, and behind him the two brothers follow changed \u2014 the same young faces that burned at noon now quiet, the zeal st"
   },
   {
    "row": 131,
