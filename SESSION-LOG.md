@@ -1,3 +1,21 @@
+## 2026-08-11 (cont. 19) — Row 95 Thief on the Cross DESYNC FIXED + RE-SHIPPED (author lane) — re-timed all 11 picture windows to the delivered audio, $0, 0 rerolls, FRAME-VERIFIED — Machine A `Dev`, unattended/headless
+
+**Commit:** `96e186bad` (beats_v2 windows + re-assembled mp4 + QC.md + AUTHOR-BOARD + review.html) — pushed; firebase deployed + live-verified. This SESSION-LOG entry committed separately below.
+
+Ran PROMPT-FABLE5-AUTHOR on the NEEDS-REBUILD row 95 (the QC-BLOCK from cont.17 — its park note in QC.md was the spec). Session-chain verified (cont.17 = commit `75db3da4b`).
+
+**The defect (cont.17 QC-BLOCK):** the 2026-08-07 cut ran the whole back half ~4s BEHIND the pictures — Jesus spoke "today shalt thou be with me in paradise" (mp4 52.8–54.4s) while the picture was the thief ALONE (b10). 
+
+**ROOT (confirmed):** audio + captions are driven entirely by `extract_beats(95)` (the V1 timeline); the beats_v2 `window` fields ONLY set when the pictures SWITCH. V1's `n0b.mp3` (7.37s) front-loads the redundant modern paraphrase "if you're really the Christ, save yourself and us" (a duplicate of the KJV taunt s39), and n3 similarly front-loads a "lord remember me" paraphrase (duplicate of s42) — ~3.5s the v2 11-beat picture map never budgeted for. The picture windows had been authored against a paraphrase-free reading, so they drifted behind the audio that actually plays. The AUDIO LOCK only checks TOTAL duration (70.67≈70.70) so the per-segment slip sailed through.
+
+**FIX (touch-once, $0, no re-voice, V1 read-only):** re-set all 11 beats_v2 picture windows from a `faster-whisper` transcription of the DELIVERED audio, so each picture switches ~0.2s before its own spoken line lands (contiguous, no gaps). New starts: b01 0.00 · b02 8.00 · b03 16.10 · b04 20.90 · b05 29.45 · b06 31.90 · b07 39.05 · b08 43.75 · b09 48.05 · b10 56.70 · b11 60.40. Re-assembled with `v2_assemble.py 95` — audio byte-identical (AUDIO REBUILD PASS `e5ba558a`, unchanged), new mp4 sha256 `21c7cd35…`, 70.7s / 19.9 MB.
+
+**PROOF (re-transcribed + frame-verified on the NEW mp4):** frame @53.5s (red-letter "…To day shalt thou be with me in paradise") = Jesus's face turned full to the thief (s09) — THE defect fixed; @58.0s ("Today. Not someday…") = thief receiving (s10); @13.0s ("sneering…") = mocker (s02); @62.0s ("…enough.") = closing two crosses (s11). Every line lands on its picture; captions + pictures agree.
+
+**SHIPPED:** reviewer card repointed (`data-machine-reason` removed, hash→`21c7cd35…`, `?v=21c7cd356892`, flag→QC-VERIFIED, "what changed" tells Cameron the timing was fixed); board NEEDS-REBUILD→BUILT. Public-video gate PASS (A/B/C/D; `--live` HTTP verifier is network-flaky here, non-content). `firebase deploy` → live card carries `21c7cd35…`, served mp4 HTTP 200 + sha256 == local (Cameron watches the QC'd bytes), v95 card confirmed clean of machine-reason → back in his Unwatched queue.
+
+**Cost:** $0, 0 rerolls — a $0 complaint-closer (STANDING ORDER: the machine caught + fixed a broken cut before Cameron's eyes reached it, not tooling-only). NOTE for next author: concurrent autopilot lanes share this tree (one targeted row 95); my commit used explicit paths so it captured only the 5 row-95 files. Next author-actionable row: 44 (AUTHORED, `--check` PASS) — needs a full re-cover/upgrade pass, left clean/unclaimed. The V1 double-paraphrases (taunt s39+n0b, remember-me s42+n3) are pre-existing narration, not the defect, left untouched.
+
 ## 2026-08-11 (cont. 18) — Row 129 Nazareth: Only a Few (Mark 6:1-6) REALISTIC V2 SHIPPED — 14 stills, 1 reroll (7.1%), FULL-CUT GATE PASS; + rows 125/126/127/128 PARKED NEEDS-AUDIO (STALE-V1) — Machine A `Dev`, unattended/headless
 
 **Commit:** ship mp4+QC `914050f7fc665e7c1e439eed635a14e7f1a2e8d4`; parks + board/claim `fc8ad8eaa`; boards+review-card+QUEUE+this log below. Firebase deployed + live-verified.
