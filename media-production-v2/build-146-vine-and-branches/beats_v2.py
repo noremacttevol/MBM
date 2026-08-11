@@ -62,6 +62,17 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX 2026-08-11 (Cameron: "Abideth is pronounced wrong"). Segment j1b was
+# re-voiced through the LOCKED ElevenLabs Jesus voice (Chris iP95p4xoKVk53GoZ742B),
+# respelling "abideth" -> "uh-bide-eth" so it reads /uh-BY-deth/ (long-i, three
+# syllables), atempo-matched pitch-preserving back to the original 8.202449 s window
+# so no still-window moves. The V1 final mp4 still carries the OLD (mispronounced)
+# take baked into its AAC, so the AUDIO LOCK must NOT copy it — rebuild the track
+# from the V1 build's OWN mp3s (which now include the corrected j1b) at the
+# extract_beats offsets. Nothing else re-voiced; every other word/voice/timing
+# identical. See QC.md AUDIO baseline (old hash 910b8468 -> new a4bb0de3).
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r146-b01", "out": "s01-jesus-used-a-picture-his.jpeg", "seg": "n0a + n0b",
