@@ -1,3 +1,12 @@
+## 2026-08-11 (cont. 18b) — Extended $0 audio pre-flight of rows 130-140; parked the STALE ones NEEDS-AUDIO so the next picture lane lands on a buildable row — Machine A `Dev`
+
+**Commit:** board parks + this note below. No gen, $0.
+
+Same batch pre-flight (assembler `assert_v1_final_is_current`) over rows 130-140:
+- **BUILDABLE now:** 131 (scribe-near-the-kingdom, −0.543), 132 (forbid-him-not, −0.556), 137 (one-as-we-are-one, +0.039), 140 (naaman-washes, +0.012). **Next picture lane: build 131 (lowest buildable).**
+- **PARKED NEEDS-AUDIO** (set `AUDIO_FROM_V1_SEGMENTS=True` + re-assemble, audio lane): 130 (+1.215 excess), 135 (19 newer/+42.3s), 136 (8 newer/+13.3s), 138 (8 newer/+16.3s), 139 (8 newer/+10.4s). Combined with 125/126/127/128 from cont.18, the audio lane now has a clear batch.
+- **extract FAIL** (needs investigation, NOT a runner fix): 133 (what-jesus-called-hell), 134 (today-in-paradise) — `extract_beats.extract` errors, likely a missing/renamed V1 build dir or beats issue; flag for author/infra.
+
 ## 2026-08-11 (cont. 19) — Row 95 Thief on the Cross DESYNC FIXED + RE-SHIPPED (author lane) — re-timed all 11 picture windows to the delivered audio, $0, 0 rerolls, FRAME-VERIFIED — Machine A `Dev`, unattended/headless
 
 **Commit:** `96e186bad` (beats_v2 windows + re-assembled mp4 + QC.md + AUTHOR-BOARD + review.html) — pushed; firebase deployed + live-verified. This SESSION-LOG entry committed separately below.

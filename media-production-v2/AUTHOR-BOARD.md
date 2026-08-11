@@ -141,16 +141,16 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 127 | build-127-the-strait-gate | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-11 STALE-V1 (V1 mp4 +0.889s excess, newer=0) — set AUDIO_FROM_V1_SEGMENTS=True + re-assemble (audio lane). $0. | ✅ |
 | 128 | build-128-heart-far-from-me | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-11 STALE-V1 (V1 mp4 −1.778s, 8 newer mp3s — un-rendered re-voice / story-replacement) — set AUDIO_FROM_V1_SEGMENTS=True + re-assemble (audio lane). $0. | ✅ |
 | 129 | build-129-nazareth-only-a-few | BUILT | 14 | OK | A-auto 2026-08-11 SHIPPED realistic-v2 — 14 stills (V1 had 7), 85.8s, 1 reroll/14 (7.1%) ~$2.01, AUDIO LOCK PASS e444040c (byte-identical narration). Nazareth rejection (Mark 6:1-6): 9 Jesus HILLSIDE/synagogue/lane beats (locked face, cream-only, no halo, calm eyes) + townsfolk-as-a-quiet-wall (folded arms). Mary/siblings NEVER depicted (spoken only). Three sick folk consistent b10-b13, illness with dignity. Door-rhyme b09 shut→b14 open+lamplit. s04 rotated→rerolled upright. FULL-CUT GATE PASS (no cartoon/mix, no 2nd cream lead, captions white/blue/red synced, card clean). Deployed + live-verified. | ✅ |
-| 130 | build-130-what-manner-of-spirit | AUTHORED | 0 | OK |  | ✅ |
+| 130 | build-130-what-manner-of-spirit | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-11 STALE-V1 (V1 mp4 +1.215s excess, newer=0) — set AUDIO_FROM_V1_SEGMENTS=True + re-assemble (audio lane). $0 pre-flight, no gen. | ✅ |
 | 131 | build-131-scribe-near-the-kingdom | AUTHORED | 0 | OK |  | ✅ |
 | 132 | build-132-forbid-him-not | AUTHORED | 0 | OK |  | ✅ |
 | 133 | build-133-what-jesus-called-hell | AUTHORED | 0 | OK |  | ✅ |
 | 134 | build-134-today-in-paradise | AUTHORED | 0 | OK |  | ✅ |
-| 135 | build-135-rainbow-covenant | AUTHORED | 0 | OK |  | ✅ |
-| 136 | build-136-healed-in-two-touches | AUTHORED | 0 | OK |  | ✅ |
+| 135 | build-135-rainbow-covenant | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-11 STALE-V1 (19 newer mp3s, +42.3s — un-rendered re-voice) — set AUDIO_FROM_V1_SEGMENTS=True + re-assemble (audio lane). $0. | ✅ |
+| 136 | build-136-healed-in-two-touches | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-11 STALE-V1 (8 newer mp3s, +13.3s) — set AUDIO_FROM_V1_SEGMENTS=True + re-assemble (audio lane). $0. | ✅ |
 | 137 | build-137-one-as-we-are-one | AUTHORED | 0 | OK |  | ✅ |
-| 138 | build-138-his-offspring | AUTHORED | 0 | OK |  | ✅ |
-| 139 | build-139-lamp-on-a-stand | AUTHORED | 0 | OK |  | ✅ |
+| 138 | build-138-his-offspring | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-11 STALE-V1 (8 newer mp3s, +16.3s) — set AUDIO_FROM_V1_SEGMENTS=True + re-assemble (audio lane). $0. | ✅ |
+| 139 | build-139-lamp-on-a-stand | NEEDS-AUDIO | 0 | CHECK | A-auto 2026-08-11 STALE-V1 (8 newer mp3s, +10.4s) — set AUDIO_FROM_V1_SEGMENTS=True + re-assemble (audio lane). $0. | ✅ |
 | 140 | build-140-naaman-washes | AUTHORED | 0 | OK |  | ✅ |
 | 141 | build-141-bread-of-life | AUTHORED | 0 | OK |  | ✅ |
 | 142 | build-142-light-of-the-world | AUTHORED | 0 | OK |  | ✅ |
