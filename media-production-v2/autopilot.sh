@@ -60,7 +60,12 @@ cd "$REPO"
 # --- auth breaker: an expired Claude CLI login kills every session in ~2 s ---
 # Only Cameron can fix it (run `claude` in a terminal and sign in). Skip
 # spawning until a session survives; self-heals once login works again.
-if find "$LOGDIR" -maxdepth 1 -name '*.log' -mmin -25 -print0 2>/dev/null \
+# A fail log only counts if it is NEWER than the last credential refresh — the
+# moment Cameron logs in, .credentials.json is rewritten, so every prior
+# OAuth-fail log is stale and the breaker clears on the very next tick instead
+# of holding the full 25-min window (Cameron, 2026-08-11: "im tired of this time shit").
+CRED="$HOME/.claude/.credentials.json"
+if find "$LOGDIR" -maxdepth 1 -name '*.log' -mmin -25 -newer "$CRED" -print0 2>/dev/null \
    | xargs -0 -r grep -l 'OAuth session expired' 2>/dev/null | grep -q .; then
   MSG="LOGIN NEEDED: the Claude CLI login expired — every session dies at auth. Cameron: open a terminal, run 'claude', sign in when the browser opens. The loop resumes itself after."
   if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
@@ -230,6 +235,20 @@ case "$JOB" in
     if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
     exit 0 ;;
 esac
+
+# ROW-OWNERSHIP GUARD (2026-08-11): a lane owns its target row via a pid-marked
+# file, so two ticks can never launch sessions at the SAME row (the 10:34/10:44
+# row-17 pile-on — sessions read briefs for ~10 min before touching the build,
+# so the mtime-based active() guard can't see them yet).
+TARGET="$LOCKDIR/target-row-$ROW.pid"
+if [ -e "$TARGET" ] && kill -0 "$(cat "$TARGET" 2>/dev/null)" 2>/dev/null; then
+  [ "$DRY" -eq 1 ] && echo "(dry) row $ROW already owned by a live lane"
+  exit 0
+fi
+if [ "$DRY" -eq 0 ]; then
+  echo $$ > "$TARGET"
+  trap 'rm -f "$SLOT" "$TARGET"' EXIT
+fi
 
 if [ "$BILLING_DOWN" -eq 1 ] && [ "$DRY" -eq 0 ]; then
   log "billing breaker active: Gemini paid jobs blocked; running free $JOB work meanwhile. Top up at https://ai.studio/projects to resume picture builds."
