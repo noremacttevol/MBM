@@ -1,1 +1,14 @@
-{}
+{
+ "CAMP": {
+  "manual": true,
+  "src_beat": "s02-john-came-to-jesus-with",
+  "src_build": "build-132-forbid-him-not",
+  "src_file": "build-132-forbid-him-not/assets/s02-john-came-to-jesus-with.jpeg"
+ },
+ "STREET": {
+  "manual": true,
+  "src_beat": "s03-seen-someone-driving-out-demons",
+  "src_build": "build-132-forbid-him-not",
+  "src_file": "build-132-forbid-him-not/assets/s03-seen-someone-driving-out-demons.jpeg"
+ }
+}
