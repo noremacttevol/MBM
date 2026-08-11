@@ -115,6 +115,8 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
+- **A SHIP must NEVER tick the QUEUE `Appr` column — that is Cameron's alone (2026-08-11, row 94 QC-VERIFY).** The realistic-v2 ship commit `29ed2667b` flipped row 94's QUEUE cells from `Prep✅ Built✅ Appr⬜ Post✅` to `…Appr✅…`, falsely marking it Cameron-approved when he had never seen it (its same-day siblings 92/93/95 correctly stayed `Appr⬜`). The harm is silent: `Appr=✅` DROPS the row from Cameron's review list ("review list = Built✅ AND Appr⬜"), so a cut that should be sitting in his queue disappears from it. When you ship a row, set `Built✅` only — leave `Appr`/`Post` exactly as they were. When QC-verifying, if you find an `Appr=✅` with no matching "NN good"/approval commit in `git log`, it is this bug: correct it back to `⬜` and note it (Cameron re-ticks if he really approved). A build session touching `Appr` is a hard-rail miss.
+
 - **WRONG-JESUS-VOICE / "speaker changes mid-video" is an AUDIO park, and its
   usual cause is a PRIOR fix that re-voiced one segment through edge-tts on an
   ElevenLabs build (2026-08-07, row 22 CAMERON complaint "2:46 Jesus speaker is
@@ -987,3 +989,14 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   it only on ZOOM of the faces. LESSON: on any intense-emotion crowd close-up, ZOOM the nearest faces
   and check for stray red = blood/wounds before shipping; one `--only <beat> --redo` clears it
   (prompt text is fine, don't edit it). Applies to every "shouting/weeping/fervent crowd" beat.
+
+- **A metaphor/illustration beat can render WITHOUT the absurd prop the narration
+  explicitly names (row 122 b15 — "with an entire wooden beam sticking straight
+  out of his own head" rendered with NO beam, just the fixer pointing at the
+  brother's speck).** QC every illustration beat against the narration's named
+  object, not just the locks — if the narration names the beam/lamp/coin and the
+  frame omits it, the picture contradicts the words. Reroll (it usually returns
+  with the prop on the first retry). Separate failure mode from the collage one:
+  b04's single-figure ACTION beat ("he cannot even see straight") collaged TWICE
+  before landing a coherent single frame — budget for a 2nd/3rd attempt on a
+  single-figure action beat, per the known collage lesson.

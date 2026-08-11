@@ -1,3 +1,22 @@
+## 2026-08-11 (cont. 14) — Row 94 QC-VERIFY (FULL-CUT GATE) → QC-OK: "Father, forgive them" is CLEAN, no re-cut + a runner Appr-flip bug caught and corrected — Machine A `Dev`, unattended/headless
+
+**Commit:** board + QUEUE + RUNNER-LESSONS + this SESSION-LOG in the QC-OK commit below. $0 spent, 0 rerolls (no image gen). No mp4 bytes changed — the live 2026-08-07 cut IS the verified cut (nothing to redeploy).
+
+Row 94 (build-94-father-forgive-them, Luke 23:34) was BUILT (A-auto 2026-08-07, 12 stills 73.8s, 0 open complaint) and sitting in Cameron's Unwatched reviewer queue. Per the standing order + PROMPT-OPUS-RUNNER §6b FULL-CUT GATE, verified it BEFORE his eyes reached it (2026-08-10 "my quality is going down"; row 11 shipped with 7 bad frames; row 88 last week caught joy-beat blood).
+
+**Method:** extracted ONE frame per beat at its mid-window (from beats_v2.py windows) out of the RENDERED mp4 — 12 content frames + the closing card — and viewed EVERY one against the defect checklist + RUNNER-LESSONS + the row's complaint state (none open).
+
+**Result — 12/12 + card CLEAN, no gate-blocking defect:**
+- Jesus face-locked / cream-only / tan / dark shoulder hair / full dark beard / no-halo in EVERY appearance (b02/b06/b08/b09/b10/b11/b12); no Jesus double, no 2nd cream figure. Eyes are the systemic baked hazel V2 ref — un-rerollable, not chased.
+- **MERCIFUL DISTANCE / crucifixion restraint held (the row's thesis):** crosses at distance in the wides, no nails driving, NO gore/blood anywhere (unlike row 88's joy-crowd wounds). 3-cross geometry, Jesus centre; scale/anatomy clean; period-correct soldiers/props; realistic photography throughout (Law-14 clean, no cartoon/mixed).
+- Captions bottom-band only, 3-colour convention correct: blue scripture (s33 b01, s34b b05), white narrator, RED Jesus-words (j1 b09 "Father, forgive them; for they know not what they do"). Closing card renders clean (no glyph squares).
+
+**TWO FIX-WAVE imperfections, correctly NOT re-cut** (background / below Cameron's glance-read bar, un-targeted, not garbage): (1) b06 titulus (INRI sign) is illegible pseudo-Latin — tiny, top-of-cross, NOT modern; (2) robed-vs-stripped variance — Jesus stripped-to-loincloth in the literal wides b06/b09 vs fully robed on the cross in b10 (+ robed close-ups b02/b08); each frame is individually reverent and the variance leans MORE modest, a soft continuity nuance in the row-96 crown-of-thorns family (harmonize in a deliberate pass, never blind-reroll a clean row). Re-cutting a clean row only voids Cameron's pending review and costs money for no fixable gain (touch-once / cost law).
+
+**RUNNER BUG CAUGHT + CORRECTED (new RUNNER-LESSONS line):** the realistic-v2 ship commit `29ed2667b` erroneously flipped this row's QUEUE `Appr ⬜→✅`, falsely marking it Cameron-approved when he had never watched it — proven because its same-day siblings 92/93/95 shipped `Appr⬜` and no "94 good" approval commit exists in git log. A false `Appr=✅` silently DROPS the row from Cameron's review list ("Built✅ AND Appr⬜"), so the very cut that should be waiting for him vanishes from it. Corrected back to `⬜` (Cameron re-ticks if he truly approved), and wrote the "a ship must never tick Appr" rule into RUNNER-LESSONS so no future ship repeats it. Cross-checked: row 94 is NOT in the public PRODUCED_VIDEO_IDS list, so the false approval never leaked a cut to the app/website (Law 14 intact).
+
+**Cost:** $0 this session, 0 rerolls — a clean verify-pass is the cheapest possible touch, trend DOWN vs the $6.10/row average. NEVER re-cut and NEVER "un-did" real work: row 94 was never Cameron-approved (the ✅ was a mechanical error), so correcting it is protective, not a touch of approved work.
+
 ## 2026-08-11 (cont. 13) — Row 89 QC-VERIFY (FULL-CUT GATE) → QC-OK: Last Supper is CLEAN, no re-cut — verified before Cameron's eyes — Machine A `Dev`, unattended/headless
 
 **Commit:** board + RUNNER-LESSONS + this SESSION-LOG in the QC-OK commit below. $0 spent, 0 rerolls (no image gen). No bytes changed — the live 2026-08-07 cut IS the verified cut (nothing to redeploy).
