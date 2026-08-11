@@ -1,6 +1,67 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
-## ✅ REALISTIC-V2 SHIPPED — A-auto 2026-08-07 (Opus runner, Machine A `Dev`, unattended)
+## 🛑 QC-BLOCK → RUNNER PARK — NEEDS-REBUILD (FULL-CUT GATE, 2026-08-11, Machine A `Dev`, unattended/headless)
+
+**The 2026-08-07 shipped cut has a whole-video AUDIO↔PICTURE DESYNC of ~4s and must
+NOT reach Cameron. Pulled from his Unwatched queue (reviewer card given
+`data-machine-reason` → "machine is fixing" bucket). State flipped BUILT→NEEDS-REBUILD
+so the author lane owns it — this is a structural beat-timeline fix, NOT a re-voice, so
+the audio lane's `AUDIO_FROM_V1_SEGMENTS` rebuild would only REPRODUCE the bug.**
+
+### The defect (what Cameron would have typed)
+The narration runs ~4 seconds BEHIND the pictures for the whole back half. The worst
+moment: Jesus SPEAKS his climactic promise "…today shalt thou be with me in paradise"
+at mp4 **52.8–54.4s**, but the picture on screen then is **b10 = the thief ALONE**
+(Jesus already left frame at the b09→b10 cut). Earlier the narrator says "That was one
+of them, sneering at him" (12.5s, about the MOCKER) while the picture is already the
+**b03 wide REBUKE** (the penitent thief). Every back-half beat shows its picture ~4s
+before its words are spoken.
+
+### Root cause (proven, not guessed)
+- `AUDIO_FROM_V1_SEGMENTS = True` → the assembler builds the audio track from
+  `extract_beats.extract(95)`, which returns the **V1 10-beat timeline**. Its **beat 3
+  is the modern paraphrase "If you're really the Christ, save yourself — and us"** and it
+  has **no `n0b`**.
+- `beats_v2.py`'s **11-beat PICTURE map** has **`n0b` "That was one of them, sneering"**
+  in that slot and **no paraphrase** (matches `beats.json` and the 11 `audio/*.mp3`).
+- So the delivered audio carries a **stray ~3.4s segment** (the paraphrase) that the
+  picture windows never budget for → all audio after 8s slides ~4s late vs the pictures.
+- **The AUDIO LOCK only compares TOTAL duration** (audio 70.67s ≈ video 70.70s), so a
+  per-segment structural mismatch sails straight through the gate. A duration match is
+  NOT a sync check.
+
+### Evidence
+- `python3 -c "import extract_beats; extract_beats.extract(95)"` → 10 beats, beat 3 =
+  "If you're really the Christ, save yourself — and us."
+- faster-whisper word timestamps of the delivered mp4: paraphrase spoken 8.12–11.56s;
+  "Verily I say" 50.70s; "today…in paradise" 52.82–54.36s; "Today, not someday" 56.90s
+  — every content onset ~3.5–4.3s later than the `beats_v2.py` window for that line.
+- Frame at 54.25s (audio = "in paradise", Jesus's own words) → picture is the thief alone.
+- Pictures themselves are CLEAN (three-crosses geometry, face-locks, rope-not-gore,
+  cream-only-Jesus, realistic) — the ONLY defect is timing.
+
+### FIX SPEC for the author lane (touch-once, then re-assemble + re-verify)
+Reconcile the audio timeline to the v2 11-beat PICTURE structure. Preferred:
+1. **Drop the redundant modern paraphrase** from row 95's audio timeline (the KJV taunt
+   `s39` "If thou be Christ, save thyself and us" already carries the mockery; `beats.json`
+   and `beats_v2.py` both omit the paraphrase by design). Make the audio the 11 v2
+   segments (`audio/*.mp3`: n0a, s39, n0b, s40, n1, n2, s42, n3, j1, n4 + card) laid at the
+   `beats_v2.py` windows — this makes audio == pictures (~60s + card).
+   *(If `extract_beats`' hardcoded V1 timeline is the only audio path, correct row 95's
+   entry there to the 11-beat v2 structure — this is why it's an AUTHOR fix, not audio.)*
+   Alternative (costs a still): keep the paraphrase and ADD a 12th picture beat for it,
+   re-timing every v2 window to the extract offsets.
+2. Re-assemble (AUDIO LOCK PASS on total) **AND re-transcribe the new mp4** to PROVE
+   Jesus's "…today shalt thou be with me in paradise" lands on a Jesus picture and every
+   line sits under its own picture. Do NOT ship on the duration check alone.
+3. Ship (deploy + live-verify), review card answers the fix in Cameron's terms, restore
+   the reviewer card to the ready wave (remove `data-machine-reason`, set new `data-hash`).
+
+**No Gemini spend needed if option 1 (audio-only re-map); the 11 stills are already good.**
+
+---
+
+## ✅ REALISTIC-V2 SHIPPED — A-auto 2026-08-07 (Opus runner, Machine A `Dev`, unattended) — SUPERSEDED BY THE QC-BLOCK ABOVE (desync found 2026-08-11)
 
 **COMPLAINT LEDGER: none open** (`v2_outline.py 95` shows only the beat map, no
 Cameron complaint). Nothing to answer; this is a first realistic-V2 cut on the

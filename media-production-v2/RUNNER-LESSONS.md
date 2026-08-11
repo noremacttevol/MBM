@@ -1000,3 +1000,22 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   b04's single-figure ACTION beat ("he cannot even see straight") collaged TWICE
   before landing a coherent single frame — budget for a 2nd/3rd attempt on a
   single-figure action beat, per the known collage lesson.
+
+- **AUDIO_FROM_V1_SEGMENTS silently DESYNCS the cut when the V1 beat structure
+  differs from the v2 picture map — and the AUDIO LOCK will NOT catch it (row 95,
+  QC-VERIFY 2026-08-11).** The AUDIO LOCK only compares the audio track's TOTAL
+  duration to the video's (row 95: 70.67s ≈ 70.70s → PASS), so a per-segment
+  structural mismatch sails through. Row 95's audio is built from
+  `extract_beats.extract(95)` = the V1 **10-beat** timeline whose beat-3 is a modern
+  paraphrase ("If you're really the Christ, save yourself and us"); the v2
+  `beats_v2.py` **11-beat** PICTURE map has `n0b` ("That was one of them, sneering")
+  there and no paraphrase. That stray ~3.4s segment pushed all back-half audio ~4s
+  behind the pictures — Jesus SPEAKS "today shalt thou be with me in paradise"
+  (52.8–54.4s) while the picture is the thief ALONE. **VERIFY RULE for the FULL-CUT
+  GATE: when a row sets `AUDIO_FROM_V1_SEGMENTS = True`, do NOT trust the duration
+  match — TRANSCRIBE the delivered mp4 (faster-whisper word timestamps) and confirm a
+  known line (esp. the Jesus red-letter line) is spoken while ITS picture is on
+  screen. A ≥1-frame drift that grows across the video = structural desync = BLOCK
+  → NEEDS-REBUILD (author lane; the audio lane's AUDIO_FROM_V1 rebuild only
+  reproduces it). Compare `extract_beats.extract(row)`'s beat list against
+  `beats_v2.py` BEATS one-to-one; any count/content mismatch is the smoking gun.**
