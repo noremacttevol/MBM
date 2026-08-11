@@ -1,3 +1,21 @@
+## 2026-08-11 (cont. 27) — Row 132 Forbid Him Not (Mark 9:38-41) REALISTIC V2 SHIPPED from scratch — 14 stills 84.4s, NO-DEMONS gate held, 2 rerolls (14.3%) $2.26, FULL-CUT GATE PASS, deployed+live-verified — Machine A `Dev`, Opus runner, unattended/headless
+
+**Commit:** ship mp4+QC+boards+QUEUE `5bd6d463100f903a40d1550f49d0677ee0b43573`; review-card + this log below. Firebase deployed + live-verified. Session-chain verified at start (cont.22 = `1b52a3031` in history; parallel lanes advanced the log to cont.26 `048fc7024` while I built — expected under PARALLEL-LANES LAW).
+
+Ran PROMPT-OPUS-RUNNER on AUTHOR-BOARD's lowest Ready row with empty claim (LOW-NUMBER LAW): **132**. Cross-checked QUEUE.md — "Forbid him not" Mark 9:38 matches the board slug, NOT swapped → build. Claimed board RUNNING→A-auto, pushed (`14ea8292f`). Read both META-LAWS + all 19 rubric lessons + RUNNER-LESSONS + `v2_outline.py 132` (**no open complaint** → COMPLAINT LEDGER: none open) before the first credit (LEARNING LAW).
+
+**Places (rubric lesson 11):** author's promote plan was CAMP-from-b01 / STREET-from-b03, but **b01 is a Jesus beat** — never promote a Jesus-bearing frame to auto-wiring — so promoted CAMP from **b02** (non-Jesus John close) and STREET from **b03** (non-Jesus stranger). Both plates wired, 12 remaining beats copied them.
+
+**Generate:** 1 portrait (STRANGER; JOHN/JESUS were already locked cast) + 14 stills, all under ceiling $591.83.
+
+**Light QC / rerolls — 2/14 = 14.3% (under 15% budget):** b05 JOHN drifted younger/fairer (JOHN is text-locked only, no image REF) + cool midday light → `--redo` matched the other beats' JOHN in gold camp light. b10 first read as a stray cream figure but the SCENE TEXT authors BOTH groups ("the little band of disciples walks the road… no fence between them") — author-intended; rerolled once, reroll matches "steadies the old woman onto her feet" better, kept.
+
+**Assemble:** AUDIO LOCK PASS `492d2731`, 20.4 MB / 84.4s (narration byte-identical to delivered V1).
+
+**FULL-CUT GATE (rendered-mp4 frame per beat + 3 caption frames + card): PASS.** **NO DEMONS anywhere** (row's #1 gate — deliverance shown only as aftermath: healed man rising whole). Jesus ONE locked master face on all 6 Jesus beats, cream-only, no halo (golden-hour hair backlight is natural, on every figure), calm eyes, ordinary scale; JOHN + STRANGER locks consistent; gesture gates all read right (b07 hand lowers, b08 arm sweeps open, b05 withheld nod, b06 hand to John's chest, b10 no fence, b11/b13 cup + bright water); captions bottom-band, two-voice colors correct (narrator white / Jesus red-letter / disciples' report scripture-blue); realistic throughout, ZERO cartoon/mix; card clean. FIX-WAVE (non-blocking): s10 background Jesus text-only/unlocked (acceptable at mid-distance); s09 neck cord reads as a plain bead not a cross.
+
+**Cost:** portrait $0.13 + 2 anchors $0.26 + 12-beat gen $1.61 + 2 rerolls $0.26 = **$2.26/row, 14.3% rerolls** — well under the $6.10/row + 19%-reroll running average; cost-down trend held (a fresh 14-beat row on new places built for a third of average). Next Ready row: continue AUTHOR-BOARD lowest-first (133 next if audio-buildable).
+
 ## 2026-08-11 (cont. 26) — Row 96 "It Is Finished" QC-VERIFY (FULL-CUT GATE 6b) on Cameron's Unwatched queue — CLEAN, no re-cut — $0, 0 generation — Machine A `Dev`, unattended/headless
 
 **Commit:** `048fc7024` (AUTHOR-BOARD QC-OK + build-96 QC.md QC-OK block + this SESSION-LOG). Session-chain verified (cont.25 = `7b3ff3632`, in history). **$0 / 0 image generation / 0 rerolls** — a pure verify pass on a BUILT row before Cameron's eyes reached it (the row-11 "quality going down" mandate).
