@@ -1,3 +1,35 @@
+## 2026-08-11 (cont. 8) — Row 82 QC-FIX (Anointing at Bethany, Mark 14:3-9) — FULL-CUT GATE caught a rotated still before Cameron's eyes — Machine A `Dev`
+
+**Commit:** mp4/QC/board commit `b1ea7dc57f13`; card/lessons/log commit (this entry's).
+
+Row 82 (build-82-anointing-at-bethany) was BUILT 2026-08-07 and sitting in Cameron's
+Unwatched queue. Per PROMPT-OPUS-RUNNER §6b (row 11 reached him with 7 bad frames: "my
+quality is going down"), ran the FULL-CUT GATE before he watched it — extracted ONE
+frame per beat from the RENDERED mp4 (per-segment midpoints) and viewed all 25 stills +
+question card against the defect checklist + THREE-WOMEN/anointing laws + RUNNER-LESSONS.
+
+- **ONE hard defect:** s12 (beat `v2-r082-b12` `j1b`, "For ye have the poor with you
+  always") was a **90°-ROTATED composition** — a 7-figure supper WIDE lying on its side,
+  caption upright. A one-off Gemini glitch (beat prompt clean). It slipped the original
+  2026-08-07 ship because that light-QC viewed CONTACT SHEETS, where a rotated tile still
+  shows the right people; only the per-beat full-cut gate catches orientation. BLOCKED.
+- **ONE touch-once re-cut (1 reroll / 25 = 4.0%, well under 15% budget):**
+  `--only v2-r082-b12 --redo` → upright (Jesus alone in cream down the table, disciples
+  rust/brown/grey, locked face, no halo, lamplit interior, correct anatomy). Re-assembled
+  **AUDIO REBUILD PASS SHA256 `de0b21ab…` — byte-identical to the original ship; narration/
+  voices/timing untouched.** Re-gated the rendered mp4 at s12 + neighbors s13/s14 → fixed,
+  intact. New mp4 md5 `abf2d236…`.
+- **Other 24 stills + card PASSED:** woman olive-green & silent throughout, HEAD-anointing
+  (not Luke-7 feet), broken-neck flask (shards s17/s21/s23/s24), only-Jesus-cream, SPEAKER-
+  LAW colors correct (scripture blue / red-letter / narrator white), realistic photography
+  throughout, question card clean. No open complaint to regress.
+
+**Cost:** 1 reroll ≈ **$0.13**, audio $0 — far under the $6.10/row average (verify+one-fix).
+RUNNER-LESSONS updated: rotation hits MULTI-FIGURE WIDES too, and contact-sheet QC is blind
+to it — screen every beat for orientation. Deployed live + served-bytes verified.
+
+---
+
 ## 2026-08-11 (cont. 7) — Row 119 BUILT realistic-v2 (The Fourth Man in the Fire, Daniel 3) — resumed stranded RUNNING row, full-cut gate, LIVE — Machine A `Dev`
 
 **Commit:** card commit c3fcf2b5b (mp4 commit a70642e3b); lessons a69c12bf6; publish 94aad3264.

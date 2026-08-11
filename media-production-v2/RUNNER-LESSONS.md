@@ -655,6 +655,15 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   built row specifically for orientation before trusting the ship — the first
   frames are what Cameron sees first and rotation there sinks the whole cut. One
   `--redo` each landed both upright; audio byte-identical (same SHA), ~$0.27.
+  **CONFIRMED AGAIN row 82 QC-VERIFY full-cut gate (2026-08-11): a MULTI-FIGURE WIDE
+  hit this, not a lone-figure beat — s12 "for ye have the poor" (a "speaks it soberly
+  down the length of the table" supper wide) came back rotated a quarter-turn, the
+  whole 7-figure table lying on its side. It sailed through the original 2026-08-07
+  ship because that build's light-QC viewed contact sheets, where a rotated tile still
+  shows the right people. Only the §6b full-cut gate (one frame per beat, straight
+  from the rendered mp4, judged for ORIENTATION) caught it before Cameron. One `--redo`
+  landed it upright; audio SHA de0b21ab unchanged; $0.13. Rotation is NOT limited to
+  lifted-hands/lone-figure beats — screen EVERY beat for orientation, wides included.**
 - **QC a promote-first plate for UNWANTED PEOPLE before promoting — a crowded
   anchor bleeds a crowd onto later beats of that place (row 114 abraham-sodom
   HEIGHT plate s05).** The HEIGHT anchor b05 ("for those cities had grown dark")
