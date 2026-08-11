@@ -644,7 +644,7 @@ BEATS = [
         "locks": ["BOAT", "SEA-CALM-NIGHT"],
         "narration": ("The sea fell flat — glass flat — with stars where the storm had "
                       "been, and the only sound left was water dripping off the ropes."),
-        "must_show": "DEAD FLAT BLACK WATER under a sky full of stars, the boat motionless, and water still dripping off the slack rigging.",
+        "must_show": "DEAD FLAT BLACK WATER under a sky full of stars, the boat motionless with THE EIGHT MEN VISIBLY ABOARD (Jesus in cream among the stunned crew — the boat is NEVER empty), and water still dripping off the slack rigging.",
         "must_not_show": "NO sunrise, NO dawn band, NO warm colour on the horizon — the narration says STARS, and this is the frame most likely to drift. Do not put Jesus in it.",
         "scene": (
             "A wide view across water gone absolutely flat and still, black and "
