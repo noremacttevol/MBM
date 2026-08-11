@@ -1,3 +1,30 @@
+## 🅿️ RUNNER PARK → NEEDS-AUDIO (2026-08-11, Machine A `Dev`, Opus runner)
+
+**All 16 V2 realistic stills are DONE + FULL-CUT-clean on disk — do NOT regen
+(row-118/141 template).** Blocked at the AUDIO LOCK: the V1 final mp4
+(`genesis-45_joseph-forgives.mp4`, rendered 2026-07-24) predates the re-recorded
+narration — **11 of 11 V1 mp3s are NEWER (2026-07-28)** than the mp4, so copying
+its audio would ship stale voices. (Duration matched to 0.015s — this was caught by
+the newer-mp3 tripwire, NOT the duration guard; see lesson.)
+
+**AUDIO LANE — RESUME (row-118/200 template, expected $0/no re-voice):**
+1. Voice-ID the segments (confirm the 2026-07-28 re-record is the chosen ElevenLabs
+   cast; Joseph's two KJV lines Gen 45:5 / 50:20 are in the SCRIPTURE voice per the
+   build-161 precedent).
+2. Set `AUDIO_FROM_V1_SEGMENTS = True` in `build-147-joseph-forgives/beats_v2.py`.
+3. `python3 media-production-v2/v2_assemble.py 147` → **AUDIO REBUILD PASS** (~96.6s).
+4. Hand back to the picture runner: FULL-CUT GATE §6b (transcribe + caption↔timing.json
+   diff per row-131) → ship + deploy + live-verify. The 16 stills are already gated.
+
+**The 16 stills, FULL-CUT-QC'd 2026-08-11 (0 rerolls, ~$2.27):** all realistic
+biblical Egypt, HALL plate consistent (b02-b07,b10), JOSEPH face consistent across
+all his frames + correct aging (grey at temples b12/b14), no Jesus in this OT story
+(cream rule N/A), correct hands/anatomy incl. the b16 group embrace, period props only
+(granary sacks, clay jars, spears, scrolls, baskets, grain), leprosy/gore N/A, natural
+scale throughout. Nothing to reroll.
+
+---
+
 # QC / RUNNER HANDOFF — build-147-joseph-forgives (Gen 45; Gen 50)
 
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero

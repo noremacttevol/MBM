@@ -466,9 +466,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # HALL --take from build-22 REJECTED (the parable king's hall — accepted
-    # only for row 43; declined for Herod 86 and the council 63; an EGYPTIAN
-    # painted-column hall is its own place). Promote-first from b02.
+    "HALL": "PLACE-REF/hall.jpeg",  # build-147-joseph-forgives s02-now-he-was-second-only (manual)
 }
 # === end PLACE-PLATES ===
 
