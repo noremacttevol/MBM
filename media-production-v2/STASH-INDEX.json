@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 09:57:31",
+ "scanned": "2026-08-11 10:22:21",
  "entries": [
   {
    "row": 1,
@@ -49496,6 +49496,520 @@
    "night": false,
    "n_person": 0,
    "scene": "The closing frame gives the last word to the light: the spared city whole and shining on its morning plain \u2014 walls intact, gates streaming, a hundred thousand ordinary days beginning inside the mercy that argued for them"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b01",
+   "file": "build-119-fourth-man-in-fire/assets/s01-a-king-built-a-golden.jpeg",
+   "tokens": [
+    "PLAIN",
+    "KING"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The rule stands, the camera looking past the massed officials' backs, ninety feet tall in the hard sun: the golden image blazing on its stone base above the vast plain, so huge the officials at its feet read as ants \u2014 an"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b02",
+   "file": "build-119-fourth-man-in-fire/assets/s02-and-everyone-did-a-whole.jpeg",
+   "tokens": [
+    "PLAIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The music plays, the camera high above the plain, and the plain goes down: thousands upon thousands face-first into the dust in one rolling wave \u2014 satraps and soldiers, scribes and servants, an empire's whole administrat"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b03",
+   "file": "build-119-fourth-man-in-fire/assets/s03-everyone-except-three.jpeg",
+   "tokens": [
+    "PLAIN",
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "In the sea \u2014 the camera skimming low across it \u2014 of flattened backs, three verticals: Shadrach, Meshach and Abednego upright in their deep blue court robes amid the endless prostrate plain \u2014 not posturing, not shouting, "
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b04",
+   "file": "build-119-fourth-man-in-fire/assets/s04-so-they-were-dragged-before.jpeg",
+   "tokens": [
+    "KING",
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Before the throne platform \u2014 the camera following behind the guards \u2014 the three are marched in under guard: soldiers at their elbows, the deep blue robes still unbowed in their lines, and above them the king with fury ba"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b05",
+   "file": "build-119-fourth-man-in-fire/assets/s05-shadrach-meshach-and-abednego-would.jpeg",
+   "tokens": [
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the three faces the empire cannot bend: young, beardless-court-smooth no longer, fear honest in their eyes \u2014 they know exactly what furnaces are \u2014 and over the fear, ruling it like a hand on a rein, the settled "
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b06",
+   "file": "build-119-fourth-man-in-fire/assets/s06-but-if-ye-worship-not.jpeg",
+   "tokens": [
+    "KING",
+    "THREE",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The threat gets pointed at \u2014 the camera past the three men's backs toward the pointing king: the king's ringed arm flung out toward the great kiln across the ground, its arched mouth roaring orange even in the hard sun \u2014"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b07",
+   "file": "build-119-fourth-man-in-fire/assets/s07-bow-or-burn.jpeg",
+   "tokens": [
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Three words, one doorway: the furnace mouth close up \u2014 the wide brick arch packed with roaring orange, heat-shimmer bending the air above the stone ramp, the breath of it pushing out across the ground like a wall you can"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b08",
+   "file": "build-119-fourth-man-in-fire/assets/s08-and-who-is-this-god.jpeg",
+   "tokens": [
+    "KING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the proudest question in Babylon: the king's face confident to the last pore, the oiled beard tilted, both ringed hands spread at the obvious \u2014 MY hands, which hold the plain, the army, the furnace, the hour of "
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b09",
+   "file": "build-119-fourth-man-in-fire/assets/s09-the-king-is-going-to.jpeg",
+   "tokens": [
+    "KING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The frame sets up the chapter's long irony: the king's confident profile in the foreground, crown bright in the sun \u2014 and beyond him, small and roaring across the ground, the furnace whose light will shortly turn him int"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b10",
+   "file": "build-119-fourth-man-in-fire/assets/s10-our-god-whom-we-serve.jpeg",
+   "tokens": [
+    "THREE",
+    "KING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The answer comes back courteous and unbending: the middle of the three speaking for all with his chin level and his voice even \u2014 OUR GOD WHOM WE SERVE IS ABLE \u2014 the words laid before the throne like a shield set down cal"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b11",
+   "file": "build-119-fourth-man-in-fire/assets/s11-but-if-not-be-it.jpeg",
+   "tokens": [
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "And then the three bravest words in the book: BUT IF NOT \u2014 the three faces steady as the sentence crosses its hinge, every guarantee laid down on the far side of it \u2014 if the fire wins, if the rescue never comes, if the G"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b12",
+   "file": "build-119-fourth-man-in-fire/assets/s12-our-god-can-save-us.jpeg",
+   "tokens": [
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the half of faith everyone forgets they had: real hope \u2014 the three faces genuinely bright with expectation, eyes carrying the actual belief that the God of their fathers will reach into Babylon's fire for them t"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b13",
+   "file": "build-119-fourth-man-in-fire/assets/s13-but-if-not-if-he.jpeg",
+   "tokens": [
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "And behind the hope, the bedrock: the three faces crossing visibly from expectation into the deeper country \u2014 IF HE DOES NOT \u2014 the rescue released from its role as condition, the jaws settling, the eyes going from bright"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b14",
+   "file": "build-119-fourth-man-in-fire/assets/s14-they-did-not-obey-because.jpeg",
+   "tokens": [
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the terms of their obedience: three pairs of hands hanging open and empty at three blue-robed sides \u2014 no contract clutched in any of them, no rescue-receipt, no signed guarantee of walking out \u2014 the empty-handed"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b15",
+   "file": "build-119-fourth-man-in-fire/assets/s15-they-obeyed-because-he-is.jpeg",
+   "tokens": [
+    "THREE",
+    "PLAIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The wide frame \u2014 the camera far behind the three small figures \u2014 lays out the whole board: the golden image blazing at one side, the furnace roaring at the other, and between the two empires of threat, three small uprigh"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b16",
+   "file": "build-119-fourth-man-in-fire/assets/s16-so-the-king-had-the.jpeg",
+   "tokens": [
+    "KING",
+    "THREE",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The furnace is fed, the camera at the ramp's foot behind the stokers, until the bricks themselves shine: stokers heaving fuel until the arched mouth roars white-orange and the ramp stones smoke \u2014 seven times its fiercest"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b17",
+   "file": "build-119-fourth-man-in-fire/assets/s17-and-that-is-exactly-when.jpeg",
+   "tokens": [
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The mouth of the fire shows what fire cannot contain: deep in the white-orange blaze where nothing living should outlast one breath \u2014 shapes: upright, moving, unmistakably shapes \u2014 the flame bending around them like curr"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b18",
+   "file": "build-119-fourth-man-in-fire/assets/s18-the-ropes-burned-away-but.jpeg",
+   "tokens": [
+    "THREE",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Inside the blaze the fire is permitted exactly one meal: the ropes \u2014 charring off the three pairs of wrists and ankles in curls of ash and rising sparks, the bonds dropping away like shed husks \u2014 while the wrists themsel"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b19",
+   "file": "build-119-fourth-man-in-fire/assets/s19-they-stood-up-inside-the.jpeg",
+   "tokens": [
+    "THREE",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "And then they simply stand up in it: three men rising easy inside a roaring room of flame, the deep blue of their court robes vivid and unscorched against the white-orange walls of fire, faces turning to each other in da"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b20",
+   "file": "build-119-fourth-man-in-fire/assets/s20-then-the-king-leapt-up.jpeg",
+   "tokens": [
+    "KING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The throne cannot hold him: Nebuchadnezzar surging up off his seat with the crown knocked askew, the oiled beard dropping open, both ringed hands gripping the platform rail as he stares into the blaze \u2014 the man who has w"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b21",
+   "file": "build-119-fourth-man-in-fire/assets/s21-and-this-is-what-he.jpeg",
+   "tokens": [
+    "KING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The report bursts out of him in front of everyone: the king wheeled around to his frozen court \u2014 counsellors, captains, the officials who drafted the decree \u2014 his arm flung back at the roaring mouth, his voice cracking i"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b22",
+   "file": "build-119-fourth-man-in-fire/assets/s22-lo-i-see-four-men.jpeg",
+   "tokens": [
+    "THREE",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "And there, in the midst of the fire, the count stands corrected: the three in their vivid blue, walking loose and easy through the roar \u2014 and WITH them, matching their pace, a fourth \u2014 taller, robes reading pale through "
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b23",
+   "file": "build-119-fourth-man-in-fire/assets/s23-and-the-fourth-one-the.jpeg",
+   "tokens": [
+    "KING",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the naming, and the mouth it comes from: the king's face firelit and awed, the pride burned off it entirely, eyes fixed into the blaze at what walks there \u2014 and crossing the proud pagan lips, unbriefed by any pr"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b24",
+   "file": "build-119-fourth-man-in-fire/assets/s24-the-man-who-gave-the.jpeg",
+   "tokens": [
+    "KING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The prosecution becomes the star witness: the king mid-description before his court, hands shaping the impossible in the air \u2014 four, he insists, FOUR, loose, walking, unhurt \u2014 his eyes going back to the fire between phra"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b25",
+   "file": "build-119-fourth-man-in-fire/assets/s25-they-were-not-alone-in.jpeg",
+   "tokens": [
+    "THREE",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The theology of the furnace, painted: four figures walking together through the heart of the roar \u2014 and around their little moving company, visible as a shape in the fire itself, the flames standing OFF: bending back fro"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b26",
+   "file": "build-119-fourth-man-in-fire/assets/s26-god-had-not-kept-them.jpeg",
+   "tokens": [
+    "THREE",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the faces the fire was supposed to end: the three inside the blaze with an expression no martyr's chronicle prepared anyone for \u2014 peace, and past peace, WONDER \u2014 eyes turned toward the pale presence at the frame"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b27",
+   "file": "build-119-fourth-man-in-fire/assets/s27-shadrach-meshach-and-abednego-ye.jpeg",
+   "tokens": [
+    "KING",
+    "THREE",
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The king himself, the camera behind his royal shoulder at the roaring mouth, comes down to do the calling: as near the roaring mouth as flesh can stand, hands cupped, shouting the three names into the blaze with a title "
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b28",
+   "file": "build-119-fourth-man-in-fire/assets/s28-hold-on-to-that-question.jpeg",
+   "tokens": [
+    "FURNACE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The narration pockets the king's question for later, and the frame holds where the answer will come from: the furnace across the ground under the hard sky, its orange mouth breathing, patient as an unopened letter \u2014 WHO "
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b29",
+   "file": "build-119-fourth-man-in-fire/assets/s29-the-man-who-demanded-they.jpeg",
+   "tokens": [
+    "KING"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The frame catches the great demotion: the king face-forward and humbled in the fire's light \u2014 and behind him, back over his shoulder, his own ninety feet of gold standing suddenly irrelevant against the sky, a very large"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b30",
+   "file": "build-119-fourth-man-in-fire/assets/s30-and-they-walked-from-the.jpeg",
+   "tokens": [
+    "THREE",
+    "FURNACE",
+    "PLAIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "Down the smoking ramp \u2014 the camera past the front rank's staring backs \u2014 and onto solid ground they come, in front of everybody: the three walking whole out of the furnace's roar before the same massed thousands who watc"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b31",
+   "file": "build-119-fourth-man-in-fire/assets/s31-the-officials-crowded-around-and.jpeg",
+   "tokens": [
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The empire audits the miracle at close range: officials crowding the three in a disbelieving ring \u2014 fingers pinching blue sleeves that should be ash, palms testing hair for singe, one counsellor actually leaning in to SM"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b32",
+   "file": "build-119-fourth-man-in-fire/assets/s32-the-fire-had-done-nothing.jpeg",
+   "tokens": [
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the flame's complete report card: one deep blue sleeve-cuff in the plain afternoon light \u2014 the weave unmarked, the dye unfaded, the hand below it steady and whole to the fingernails \u2014 held up in the ordinary sun"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b33",
+   "file": "build-119-fourth-man-in-fire/assets/s33-blessed-be-the-god-of.jpeg",
+   "tokens": [
+    "KING",
+    "THREE",
+    "PLAIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The proudest voice, the camera taking the massed plain from the side, in the world blesses somebody else's God: the king before the massed plain with his arm out at the three unburned men \u2014 BLESSED BE THE GOD OF SHADRACH"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b34",
+   "file": "build-119-fourth-man-in-fire/assets/s34-that-is-one-of-the.jpeg",
+   "tokens": [
+    "THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame holds still a beat to let the sentence weigh: the three quiet faces just after BUT IF NOT has left them \u2014 no trumpets marking it, no chorus, just three men standing inside the words they cannot take back and wo"
+  },
+  {
+   "row": 119,
+   "build": "build-119-fourth-man-in-fire",
+   "beat": "v2-r119-b35",
+   "file": "build-119-fourth-man-in-fire/assets/s35-that-is-the-same-man.jpeg",
+   "tokens": [
+    "KING",
+    "THREE",
+    "FURNACE",
+    "PLAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The closing frame surveys the day the dare came home: the furnace cooling its empty roar behind them, the three standing whole and unsinged in the long late light, the king humbled and alive with new theology \u2014 and behin"
   },
   {
    "row": 121,
