@@ -180,7 +180,9 @@ async def main():
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
         if name == "j2":
-            await build_j2("audio/j2.mp3")
+            print("  ! j2 SKIPPED: ElevenLabs-only (Chris voice) — edge-tts is the WRONG")
+            print("    voice for this row (Cameron 2026-08-11). Re-voice via build-local")
+            print("    mbm_eleven.render_segment; see RUNNER-LESSONS 'engine parity'.")
             continue
         st = spoken_text(text, SPOKEN, speaker)
         if name in PHRASE_SPOKEN:
