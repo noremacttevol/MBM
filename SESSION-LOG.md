@@ -1,3 +1,25 @@
+## 2026-08-10 — Row 11 "is fucked" FIXED HANDS-ON by the main session (headless lanes login-dead) — Machine A `Dev`
+
+Cameron: "11 is fucked" + a 7-timestamp complaint (1:25 deformed boat, 2:12 not
+Jesus, 2:15 weird wave, 2:16 empty boat, 2:39 white hands, 2:46 extra boat,
+2:50 not Jesus). CLI OAuth expired so every autopilot lane died at auth (100
+dead logs; auth-breaker added, `c27c05bc9`) — this session did the fix ITSELF:
+extracted the frame rendering at each timestamp from the LIVE cut (roof-lesson
+discipline, never guess from beat names), confirmed all 7 defects, regenerated
+the 7 beats ($0.94), pinned b23's must_show to "EIGHT MEN VISIBLY ABOARD — the
+boat is NEVER empty", QC'd every take, assembled (AUDIO LOCK PASS 631b100c),
+re-verified ALL SEVEN timestamps in the FINAL video, deployed + live-verified
+(hash `8c06b9e671e6`, mp4 HTTP 200, 20.9MB). Review card answers each
+timestamp. Gotcha for the record: this build renders from `assets-realistic/`,
+NOT `assets/` — QC the directory the assembler reads.
+
+Also this session: 10-30 block audit (only 27 broken: audio + floating basket
+— fix queued but blocked on login), live-page hash verification for the whole
+block, auth-breaker so ticks announce LOGIN NEEDED instead of spawning dead
+sessions. **Cameron's one action: run `claude` in a terminal and sign in — the
+loop (row 27 fix first, then row 120+) resumes itself.**
+- Commit: (this commit)
+
 ## 2026-08-09 — ROW 117 (Hosea Buys Her Back / Hosea 1–3) REALISTIC-V2 SHIPPED — resumed a died autopilot lane, assembled + deployed + live-verified — Opus runner, Machine A `Dev` (UNATTENDED/HEADLESS, $0 Gemini, 0 rerolls)
 
 **Commits:** `f3ec47543` (ship: mp4 + beats_v2 flag + QC.md + PLACE-WIRING + AUTHOR-BOARD + QUEUE) + THIS COMMIT (review.html card + SESSION-LOG + PUBLISH sync). **Session-chain verified at start:** prior-top SESSION-LOG commit `2f0a7d32f` (row 119 claim) present in `git log`; hostname `Dev` = Machine A. Firebase `firebase deploy --only hosting` run; live `review.html` verified carrying hash `f3ec4754`, mp4 URL HTTP 200.
