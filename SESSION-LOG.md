@@ -1,3 +1,21 @@
+## 2026-08-11 (cont. 9) — Row 113 C-FIX SHIPPED (Where Art Thou, Genesis 3) — God-the-Father embodiment consistency + rags root cause CLOSED — Machine A `Dev`
+
+**Commit:** media/QC commit `49e01006bf319acb9fb4224f4e8f0b34253cf776`; card/boards/log commit (this entry's).
+
+Cameron URGENT direct order, row 113 ONLY: "God has a body… create a character for him so his look doesn't change, like Jesus." Fix EVERY frame the Father appears. This row was NEEDS-REBUILD with a stale 2026-08-07 author claim; prior lanes had authored the embodiment + hardened the rags beat-text but the ship never completed (17 assets sat modified/uncommitted) and the rags never landed on 5 tight beats. Claimed C-FIX LIVE (claim-by-push accepted), touch-once batch.
+
+**Father (primary order) — already embodied in the stranded working tree, VERIFIED not shipped:** face-boarded all 9 God beats (s02/s07/s08/s10/s11/s17/s20/s23/s26) from the rendered mp4 — one embodied white-haired/bearded elder in a brilliant white robe (he alone; only Jesus cream), no halo, no light/void/disembodiment anywhere. Consistent with god.jpeg. Left byte-identical (no regression risk).
+
+**Rags root cause CLOSED (what stranded the row):** the CLOTHED identity anchors (eve.jpeg burlap hood+tunic, adam.jpeg wool tunic) reprinted wool on tight crops — unbeatable by pipeline reroll (3 prior passes failed). Fixed with COMPOSITION-PRESERVING identity-edits (gemini-3-pro-image, image-in→image-out) of the 5 stubborn frames: s05 (nothing, shadow+hair, pre-fall), s06 (fig leaves), s15/s16 (hood gone → hair+fig-leaf, faces preserved & Eve-consistent), s19 (wool robes → fig-leaf garments). Zero woven cloth before the coats; coats third (s21/s23/s24) kept — Cameron approved. Female-nudity phrasing tripped Gemini safety (eve-portrait + b19 first try) → clothed-positive fig-leaf phrasing passed. Portrait-anchor regen abandoned (safety-blocked & unnecessary given direct frame-edits); left as a non-blocking author follow-up in QC.md.
+
+**Gates:** AUDIO REBUILD PASS SHA256 `4cdc391c…` — byte-identical to the already-reviewed cut, narration/voices/timing UNTOUCHED (only 5 image files swapped, identical 1536×2752, zero timeline change). FULL-CUT GATE: 26 beats + card from the rendered mp4 all PASS (captions bottom-band, speaker colors correct, realistic throughout). ORDER CHECK: faster-whisper small.en beam5 transcript matches script, every anchor lands on its picture incl. all 5 fixed frames — no drift.
+
+**Ship (served-bytes law):** mp4 `git add -f` in its own command; `git ls-tree HEAD == git hash-object` blob `49cc340a…` MATCH; card data-hash→`49e01006…`, ?v=49e01006bf31, flag answers BOTH complaints in Cameron's words; firebase deploy --only hosting; live card carries new hash; served mp4 downloaded via card URL, md5 == local `678f87af…`. AUTHOR-BOARD 113 → BUILT+SHIPPED, QUEUE notes → SHIPPED.
+
+**Cost:** ~7 Gemini image calls (5 edits + 2 portrait probes) ≈ **$0.94**, audio $0 — well under the $6.10/row average; touch-once, no timeline churn.
+
+---
+
 ## 2026-08-11 (cont. 9) — Row 84 QC-VERIFY → QC-FIX (No Room: the Manger, Luke 2:1-7) — FULL-CUT GATE caught a caption/audio mismatch + 27s still-window drift before Cameron's eyes — Machine A `Dev`
 
 **Commit:** mp4/QC/board/beats commit `3d6d8bd1ac99`; card/log commit (this entry's).
