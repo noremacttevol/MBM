@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T18:05:26_
+_Last sync: 2026-08-11T18:35:02_
 
 ## Summary
 
 - **APPROVED — not published** — 33 row(s)
-- **BUILDING** — 79 row(s)
+- **BUILDING** — 78 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 44 row(s)
+- **ON REVIEWER — awaiting Cameron** — 45 row(s)
 
 ## The rows
 
@@ -150,7 +150,7 @@ _Last sync: 2026-08-11T18:05:26_
 | 127 | The Strait Gate | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 128 | Heart Far From Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 129 | Nazareth Only a Few | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 130 | What Manner of Spirit | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 130 | What Manner of Spirit | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 131 | Scribe Near the Kingdom | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 132 | Forbid Him Not | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 133 | What Jesus called hell | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
