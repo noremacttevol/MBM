@@ -53,3 +53,15 @@ dusk on the fold frames only; orchard frames bright day. File order
   121-125.
 - b16 market test: the fine-robed seller is not a cartoon; the
   buyer's gaze on the short measure IS the picture.
+
+---
+
+## ⛔ RUNNER PARK — NEEDS-AUDIO (Opus runner, Machine A `Dev`, 2026-08-11, $0)
+
+Audio pre-flight (batch with row 125) FAILS the STALE-V1 guard — generated nothing.
+The V1 mp4 carries audio not in the current mp3 timeline (row 126 excess/newer flagged
+STALE by `assert_v1_final_is_current`), so `v2_assemble` refuses the AUDIO LOCK.
+FIX is audio-lane only: set `AUDIO_FROM_V1_SEGMENTS = True` in this build's beats_v2.py,
+then `python3 media-production-v2/v2_assemble.py 126` must print AUDIO REBUILD PASS; the
+row is then buildable for a picture runner. See build-125-i-never-knew-you/QC.md for the
+full batch diagnosis (125/126/127 excess-tail ~0.9s; 128 has 8 newer mp3s).

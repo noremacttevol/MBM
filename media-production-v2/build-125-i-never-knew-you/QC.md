@@ -53,3 +53,40 @@ order = story order except b04/b05 vignette inserts.
   121-124.
 - b04 street vignette: the declaimer is SINCERE, the doer unnoticed
   — no cartoon contrast.
+
+---
+
+## ⛔ RUNNER PARK — NEEDS-AUDIO (Opus runner, Machine A `Dev`, 2026-08-11, $0)
+
+**Audio pre-flight FAILS the STALE-V1 guard — generated nothing.** `v2_assemble`'s
+`assert_v1_final_is_current` refuses the AUDIO LOCK: the V1 mp4
+(`matthew-7_i-never-knew-you.mp4`) runs **92.717s** but the timeline summed from the
+current mp3s on disk is **91.824s** → **excess +0.893s > the guard's 0.75 threshold**
+(newer_mp3s=0). An excess means the V1 mp4 carries ~0.9s of audio (a trimmed/deleted
+segment or a longer take) that the current narration mp3s no longer contain, so copying
+its AAC stream would ship stale audio. This is NOT trailing-silence noise: the shipped
+sibling rows land ~0.04s excess (121 +0.038, 122 +0.047, 123 +0.015, 124 +0.073); only
+125/126/127 carry ~0.9s.
+
+**Runner cannot fix this** — the documented fix is `AUDIO_FROM_V1_SEGMENTS = True` in
+`beats_v2.py`, which is an author/audio-lane edit (editing beats_v2.py is outside runner
+writes; audio-immutability law). Rebuilding from the V1 mp3s at the extract_beats offsets
+re-voices nothing and drops the stray ~0.9s tail.
+
+**Audio-lane resume:**
+```
+# set AUDIO_FROM_V1_SEGMENTS = True in build-125-i-never-knew-you/beats_v2.py, then:
+python3 media-production-v2/v2_assemble.py 125   # must print AUDIO REBUILD PASS
+```
+After AUDIO REBUILD PASS the row is buildable — a picture runner then generates the 15
+stills (DOOR promote-first from b02, ROAD promote-first from b11, HILLSIDE plate shared
+with 121-124) and ships per the normal loop.
+
+**BATCH FINDING (same excess-tail defect):** rows **126** (+0.969), **127** (+0.889) share
+the identical >0.75 excess (newer=0) and **128** (−1.778, **8 newer mp3s** — a genuine
+un-rendered re-voice / the story-replacement) ALL need the same `AUDIO_FROM_V1_SEGMENTS=True`
+audio-lane fix. All four parked NEEDS-AUDIO this session so no picture lane burns credits
+rediscovering the wall. Row **129** was BUILDABLE (excess +0.380, newer=0) and is being
+built this session.
+
+COMPLAINT LEDGER: none open (v2_outline.py 125 shows no complaint block).
