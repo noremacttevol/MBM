@@ -110,3 +110,41 @@ python3 media-production-v2/v2_story_cast.py build-88-triumphal-entry --ceiling 
 python3 media-production-v2/v2_gen_api.py build-88-triumphal-entry --ceiling <c>
 python3 media-production-v2/v2_assemble.py 88
 ```
+
+## 🔎 QC-VERIFY (FULL-CUT GATE) 2026-08-11 — Machine A `Dev`, unattended/headless — ONE defect found + fixed in ONE touch-once re-cut
+
+Per PROMPT-OPUS-RUNNER.md §6b: extracted ONE frame per beat (mid-window) from the RENDERED
+mp4 and viewed all 20 content frames + closing card against the defect checklist +
+RUNNER-LESSONS. Row 88 had NO open Cameron complaint (verify pass on a BUILT row sitting in
+the Unwatched queue before his eyes).
+
+**19 of 20 frames + card: CLEAN.** Jesus face-locked/cream-only/tan/dark-hair/full-beard/
+no-halo in every appearance; TWO disciples (green+blue) and TWO donkeys (grey mother + darker
+colt, colt ridden / mother alongside) held the count law; gazes converge on Jesus in every wide;
+cloaks+cut-branches carpet the road; crowds joyful not mob-like; procession toward the in-frame
+gate; captions bottom-band only (white narrator / red Jesus-words / blue KJV-scripture, a
+consistent 3-colour convention); closing reflection card clean. Realistic photography throughout —
+no cartoon/mixed frame (Law 14 clean). Zoom-checked the other crowd close-ups (s11/s13/s17) for
+the same artifact — all clean skin, correct joy.
+
+**DEFECT — s14 (beat v2-r088-b14, "Hosanna means save us now"): BLOOD/WOUNDS on a crowd member
+in a JOY beat.** Zoomed on the shouting old man center: a bleeding gash on his forehead, a red
+cut/wound under his eye, and raw reddish abrasions across his chest/neck; the weeping woman beside
+him carried a red streak reading as a bloody tear. This is a triumphal Hosanna celebration — a
+bloodied/wounded figure reads as injury/violence at a glance and is exactly a Cameron complaint
+(glance-read + no-gore). The prompt text is clean (no wounds); the model over-rendered the beat's
+"taxed / tired / occupied / the word's real cargo" framing into visible injuries. The picture
+runner's light-QC (2026-08-07) logged only "one faint fair-haired woman" for s14 and MISSED this —
+the exact miss §6b's FULL-CUT GATE exists to catch.
+
+**FIX (touch-once, $0.13, 1 reroll = 5% of 20 beats, well under the 15% COST-LAW budget):**
+`v2_gen_api.py --only v2-r088-b14 --redo --ceiling 572`. New s14: old man clean skin (no gash, no
+cut, no abrasions), weeping woman clean (tears, no blood), whole crowd joyful/fervent waving
+palms+olive, only Jesus in cream at the right edge, every figure two-arms/one-head, realistic, no
+halo. Verified in the RENDERED mp4 at t=75.82 with the correct white narrator caption.
+
+**AUDIO: untouched.** Re-assembled via AUDIO_FROM_V1_SEGMENTS=True → AUDIO REBUILD PASS
+SHA256=dda84afd… (rebuilt byte-identical from the same 15 V1 segment mp3s; 118.138s unchanged →
+no window/caption drift). Only the s14 picture changed.
+
+RUNNER-LESSONS fed: new one-line defect class (joy-beat blood/wound over-render).
