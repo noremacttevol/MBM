@@ -1,3 +1,5 @@
+## 2026-08-11 (cont.) — Row 10 ROOT CAUSE was the VOICE, not the pace: four pacing fixes each regenerated j2 via make_narration/edge-tts = OLD Jesus voice. Re-voiced with build-local ElevenLabs Chris (engine parity with siblings), word-exact whisper gate, real pause, 2.93s; make_narration now refuses j2; ENGINE PARITY law added to RUNNER-LESSONS; live hash 4bfdd401acf0.
+
 ## 2026-08-11 — Row 10 j2 THIRD take shipped (Cameron: "too slow, robot — undo it and make it right"): one flowing phrase + single 0.55s pause = 5.64s natural delivery, whisper-verified at 3:30 in the final video, deployed + live-verified hash 5c49ababf0f6. Root lesson: pause-chopping a line into per-word chunks reads as ROBOT — weight comes from ONE pause at the reveal, never from fragmenting speech. Row 11 approved by Cameron same night.
 
 ## 2026-08-10 — Row 11 "is fucked" FIXED HANDS-ON by the main session (headless lanes login-dead) — Machine A `Dev`

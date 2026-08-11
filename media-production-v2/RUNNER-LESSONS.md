@@ -10,6 +10,17 @@ you rerolled successfully — ADD it as one line before your session ends and
 commit it. This file is how one session's $0.13 mistake stops being every
 session's $0.13 mistake. Keep entries deduped and one line each.
 
+- **ENGINE PARITY (Cameron 2026-08-11, row 10 j2 — "you changed to the old Jesus
+  voice and kept messing it up... you keep making the same mistake"): a segment
+  re-voice MUST use the ENGINE + VOICE that rendered its siblings.** Rows migrated
+  to ElevenLabs must be re-voiced via the BUILD-LOCAL `mbm_eleven.render_segment`
+  (Jesus = Chris `iP95p4xoKVk53GoZ742B`); `make_narration.py` is the OLD edge-tts
+  engine — regenerating any segment with it swaps in the WRONG voice even when the
+  pacing is right. FOUR pacing fixes in a row repeated this. Check provenance
+  BEFORE re-voicing (memory: eleven-bypasses-say-map). Gate every re-voiced
+  segment with word-exact whisper transcription (small.en, beam 5) — all words
+  heard separately, no fusions ("Amhi") — before assembly.
+
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
 - **WRONG-JESUS-VOICE / "speaker changes mid-video" is an AUDIO park, and its
