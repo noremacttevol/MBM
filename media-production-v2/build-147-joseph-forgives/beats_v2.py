@@ -79,6 +79,17 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX 2026-08-11 (A `Dev` audio lane): STALE-V1. The V1 final mp4 (2026-07-24)
+# predates this row's re-recorded narration — all 11 V1 segment mp3s are NEWER
+# (2026-07-28) and are the correct ElevenLabs new-voice takes (44100/128k), but the
+# durations matched within 0.015s so the newer-mp3 tripwire (not the duration guard)
+# blocked the AUDIO LOCK. Rebuild the track from the V1 build's OWN mp3s at the
+# extract_beats offsets instead of copying the stale mp4 AAC. Verified in isolation:
+# rebuild_audio_from_segments -> AUDIO REBUILT 96.591 s, guard |total-track| = 0.0
+# (PASS). No re-voice ($0), no still regen (16 realistic stills already FULL-CUT-clean);
+# next assemble+ship completes it.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r147-b01", "out": "s01-years-before-own-brothers-had.jpeg", "seg": "n0a",

@@ -1,4 +1,25 @@
-## 🅿️ RUNNER PARK → NEEDS-AUDIO (2026-08-11, Machine A `Dev`, Opus runner)
+## ✅ AUDIO-FIX UNBLOCKED — STALE-V1 resolved — 2026-08-11, Machine A `Dev`, audio lane
+
+**`AUDIO_FROM_V1_SEGMENTS = True` set in `beats_v2.py`.** Root cause: the V1 final
+mp4 (2026-07-24) predates the re-recorded narration — all 11 V1 segment mp3s are
+NEWER (2026-07-28) and are the correct ElevenLabs new-voice takes (verified
+44100 Hz / 128 kbps), but the runtimes matched within 0.015 s so the *newer-mp3*
+tripwire (not the duration guard) refused to copy the stale mp4 AAC. Fix rebuilds
+the track from the V1 build's OWN mp3s at the extract_beats offsets — **no re-voice
+($0), no still regen** (16 realistic stills already FULL-CUT-clean).
+
+- Verified in isolation: `rebuild_audio_from_segments` → **AUDIO REBUILT 96.591 s,
+  guard |total−track| = 0.0 (PASS)**.
+- **Not shipped this turn on purpose:** a live *local* autopilot assemble lane was
+  churning this row (partial `segs/video_silent.mp4` @ 17:34) in the shared working
+  tree; running a parallel `v2_assemble` + deploy would corrupt its `segs/`. With the
+  flag now set, the next audio/runner tick assembles → **AUDIO REBUILD PASS** →
+  FULL-CUT GATE → ships (deploy + live-verify) in ONE touch. Pure mechanical STALE-V1
+  fix (row-118/200/143/144/145 template).
+
+---
+
+## 🅿️ RUNNER PARK → NEEDS-AUDIO (2026-08-11, Machine A `Dev`, Opus runner)  *(resolved above)*
 
 **All 16 V2 realistic stills are DONE + FULL-CUT-clean on disk — do NOT regen
 (row-118/141 template).** Blocked at the AUDIO LOCK: the V1 final mp4
