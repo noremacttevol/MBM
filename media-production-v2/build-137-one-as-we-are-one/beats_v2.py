@@ -374,5 +374,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "GROVE": "PLACE-REF/grove.jpeg",  # build-137-one-as-we-are-one s01-the-night-before-he-died (manual)
 }
 # === end PLACE-PLATES ===

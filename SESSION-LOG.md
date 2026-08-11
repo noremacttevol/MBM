@@ -12,6 +12,20 @@ Row 117 (the prompt's named row) was already QC-VERIFY complete + live at sessio
 
 ---
 
+## 2026-08-11 (cont. 35) — Row 137 "One As We Are One" (John 17:20–23) V2 REALISTIC BUILD SHIPPED first-attempt + Rows 133/134 RUNNER-PARKED (not audio-wired) — 13 stills/82.5s, FULL-CUT GATE 13/13 clean, 0 rerolls / ~$1.74 — Machine A `Dev`, unattended/headless
+
+**Commit:** row-137 mp4 + QC.md + AUTHOR-BOARD (BUILT) + QUEUE + PLACE-WIRING all in `0434cfa666244948c256f5dfb119c104550f4915` (a concurrent autopilot lane's commit absorbed my staged index — RUNNER-LESSONS row-76 class — verified on origin/main, board at HEAD reads row 137 BUILT); review.html card v137 + this SESSION-LOG pushed below; Firebase deployed + live-verified. Parks committed `dd4377aa5`; claim `4cfc8e625`. Session-chain verified at start: cont.34 = `f36b447eb` (in `git log`). **~$1.74 / 13 image gens / 0 rerolls (0%) / audio byte-identical (AUDIO LOCK PASS 0bf9d0a2). Meter $566.95 → $568.70.**
+
+Ran the Opus runner. Told to start at AUTHOR-BOARD row 133 (LOW-NUMBER LAW); cross-checked QUEUE (133 = the REPLACED Gehenna story, correctly authored, NOT the archived many-mansions dupe — buildable in principle).
+
+- **Rows 133 + 134 PARKED, $0, NO stills:** both are from-scratch rows whose audio was never wired for assembly — the V1 dir has NO final mp4, `audio/` holds only `.timing.json` (0 `.mp3`), and `beats_v2.py` has no `AUDIO_FROM_V1_SEGMENTS` flag (every buildable sibling — rows 100/105/108 — has all three). So neither `v2_assemble` audio path can run and `extract_beats.extract()` crashes on the missing mp3 durations. The narration exists only as V2-dir mp3s (Aug 5) + V1 `segs/audio_mix.m4a`. Restoring V1 audio / setting the flag is AUTHOR/audio-lane work (hard-protection #1 + audio-immutability), so I parked with a precise resume in each build's QC.md 🅿️ + on the board (State NOT-READY, Ready cleared) so no session burns ~$6 of unassemblable stills. Took the next Ready row.
+- **Lowest buildable empty-claim Ready row = 137** (audio-lock $0 pre-flight: total 82.46s vs V1 mp4 82.50s, newer_mp3s=0 → BUILDABLE; 141/142/143 fail the pre-flight = stale-V1 parks for the author). Claimed RUNNING (A-auto), built 13 beats, GROVE promote-first from this row's own b01 (per author; NOT a borrowed Gethsemane plate).
+- **FULL-CUT GATE (§6b) — every rendered frame + card viewed. 13/13 CLEAN.** Doctrine gates BOTH pass: NO-FUSION (b07 millions-of-believers crowd + b08 family = every face crisply individual, no merge/blend/composite) and FATHER-NOT-EMBODIED (b12 "the Father and the Son are one" = Jesus's upturned face + night sky, no figure in the sky). Unity vignettes correct (b09 two different oxen/one yoke; b11 old father + grown son/one net, solid rope). Confident prayer posture (standing, arms open, lifted face — never Gethsemane-collapse). Distinct window-lights (b03/b13). Jesus locked/cream-only/no-halo/calm-eyes/ordinary-scale; disciples distinct. Captions bottom-band, red-letter Jesus KJV on b04/b10, card clean. **0 rerolls.** FIX-WAVE notes (subtle, non-blocking): b05 cool-moonlight hair sheen; b12 faint ambiguous distant ridge structure; b01/b06/b10/b13 share the GROVE plate wide.
+- **COST LAW:** ~$1.74/row, 0% rerolls — well under the $6.10 average and 15% reroll budget; trend DOWN holds. Reused all cast portraits ($0).
+- **Next:** row 137 sits BUILT in Cameron's Unwatched queue (Appr ⬜ — his alone). Lower empty-claim Ready rows 133/134 now correctly NOT-READY (author/audio lane). Continue lowest Ready buildable row.
+
+---
+
 ## 2026-08-11 (cont. 34) — Row 117 "Hosea Buys Her Back" (Hosea 2–3) QC-VERIFY (FULL-CUT GATE 6b) on the BUILT cut in Cameron's Unwatched queue — 38/38 beats + card ALL CLEAN, NO re-cut — $0 / 0 gens / 0 rerolls / audio untouched — Machine A `Dev`, unattended/headless
 
 **Commit:** board claim QC-OK + this SESSION-LOG (pushed below). No production files touched — clean row, gate law forbids re-cutting a clean cut. Session-chain verified at start: cont.33 = `eaabd5f4a` (in `git log`, plus its follow-up `a92d23fb7`). **$0 / 0 image gens / 0 rerolls / 0 pictures touched / audio byte-identical (nothing changed).**
