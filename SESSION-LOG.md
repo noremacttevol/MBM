@@ -1,3 +1,19 @@
+## 2026-08-11 (cont. 3) — Row 52 demoniac face-flip C-FIX #3 (Cameron's 3rd re-file: "redo every picture ... none match each other") — Machine A `Dev`
+
+**Complaint (3rd re-open against the C-FIX #2 cut):** "The demoniac face kept changing shaved, to not shaved. Beard to no beard to old man and his looks kept flipping. 0:50 the demoniac looks normal but Jesus doesnt. 1:02 no beard again. 1:23 no beard same with 1:29. Just redo every picture every single one is low quality and none match each other."
+
+**ROOT CAUSE the first two C-FIXes missed:** the FREEDMAN's face was "locked" with THREE char refs — but two of them (freedman-ref-a=s18, ref-c=s11) were WIDE ROOM SHOTS where his face is ~30 px. Only ref-b (s17) carried real face detail, so every generation got weak/averaged signal and re-invented his beard/hair. Both prior C-FIXes rerolled a handful of frames against those same useless refs, so the rerolls never matched either — hence 3 re-opens.
+
+**Fix (touch-once, full-arc):** cut ONE tight face crop off s17 → `CAST-REF-V2/freedman-face.jpeg`, made it the primary anchor, DROPPED both wide refs. Regenerated every drifting FREEDMAN frame with `rough_ref` = its own composition (lesson-10 identity-edit at scale) so identity conforms to the crop WITHOUT changing the good blocking; Jesus-bearing beats carried the face lock too (fixes 0:50). 9 regens + 2 rerolls — the FULL-CUT GATE caught two bad regens before ship (s11 came back a 3-panel triptych, s15 a grey-old-man in a pale tunic) and both were re-cut. Every already-matching frame kept byte-identical. All four named timestamps verified fixed straight off the rendered mp4.
+
+**Ship:** AUDIO LOCK PASS (SHA256=1005cde1…, voices/timing byte-identical), commit A `9ade9e88f4fc` (art+QC+code), commit B card+board, `firebase deploy --only hosting` → live-verified: review.html carries data-hash 9ade9e88f4fc AND the SERVED mp4 md5 (44e3dc4f98d6…) == local, HTTP 200, 19.8 MB. publish_ledger sync (no new publish — row 52 unapproved, stays off gallery/website). Reviewer card answers his 3rd re-file in his words.
+
+**Cost:** $1.48 (9×$0.134 + 2 rerolls); meter $532.11→$533.99. Base cut already paid; $/row for this C-FIX $1.48, well under the $6.10 avg. RUNNER-LESSONS + QC COMPLAINT LEDGER updated (wide-shot-ref = not a face lock).
+
+**Commit:** this log = (final commit this session).
+
+---
+
 ## 2026-08-11 (cont. 2) — Row 17 FULL 3:26-end sweep (Cameron: "you ignored all the problems... all the pictures past 3:26"): ALL 23 tail beats re-prompted with the only-this-moment law + phase-locked tomb states, regenerated ($3.62, 4 rerolls incl. b45 x2 tomb-free reframe, b51 white graveclothes, b40 anti-panel), EVERY frame individually reviewed, assembled, shipped with SERVED-BYTES md5 proof + live card 34ab620030a7 after prune_hosting_versions cleared a Firebase 429. Also: restored 7 proven sealed-tomb takes from git when my own sweep regressed them — lesson: never strip a proven guard when tightening.
 
 ## 2026-08-11 (cont.) — Rows 13+17 C-FIX SHIPPED hands-on (Cameron: "just 13 and 17 to get the first 30 done"): 13 = 1:51 wide-open room (beat widened + HOUSE plate; was reading as a grave). 17 = story-order law enforced 3:26-end: tomb SEALED in all six pre-command frames, invented crowd-moment replaced, stone SLIDES aside in groove (b46), anti-panel hardened after a 4-panel collage take; ~$2.20 total, every fixed second re-verified in the final videos; live hashes a653f820a25d / 4943e95242a9. FIRST-30 STATUS: every row 1-30 now approved, fixed-awaiting-rewatch, or (27) queued first for the loop.

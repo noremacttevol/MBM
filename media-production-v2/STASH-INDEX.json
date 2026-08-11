@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-09 15:13:43",
+ "scanned": "2026-08-11 09:57:31",
  "entries": [
   {
    "row": 1,
@@ -4909,13 +4909,14 @@
    "tokens": [
     "PARALYTIC",
     "FRIENDS",
-    "MAT"
+    "MAT",
+    "HOUSE"
    ],
    "jesus": false,
-   "wide": false,
+   "wide": true,
    "night": false,
    "n_person": 2,
-   "scene": "Close on the young man lying on the reed mat in the shaft of daylight, seen from just above. His mouth is closed and he has said nothing. His dark eyes are moving \u2014 up toward the four faces at the hole, then across towar"
+   "scene": "A WIDE OPEN interior of a large crowded Capernaum room, seen from room level. The young man on his reed mat rests in the middle of the open floor in a broad shaft of daylight, the four ropes still slack beside the mat. H"
   },
   {
    "row": 13,
@@ -48830,6 +48831,1090 @@
    "night": false,
    "n_person": 2,
    "scene": "The closing frame holds the whole gospel of Hosea at dusk: the small house warm with lamplight and the two of them inside it at their table \u2014 and outside the open blue door, running gold from the threshold out to the dar"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b01",
+   "file": "build-118-jonah-god-who-relents/assets/s01-god-had-a-hard-errand.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The book opens on an ordinary man at an ordinary lamp: Jonah at his table in the night quiet, stocky and settled, bread half-eaten, the stubborn mouth at rest \u2014 a prophet between errands, expecting nothing harder tonight"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b02",
+   "file": "build-118-jonah-god-who-relents/assets/s02-he-was-to-go-to.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The errand's address fills the horizon: Nineveh on its plain \u2014 walls tiered and endless, wide enough on top for chariots to race, the great gates flanked by stone winged bulls five men high, ziggurats standing in the hea"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b03",
+   "file": "build-118-jonah-god-who-relents/assets/s03-and-this-is-how-the.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Mid-bite, the word finds him: Jonah's head coming up sharp from the lamplit bread, the honest angry eyes going wide and fixed on nothing the room contains \u2014 the whole sturdy frame stilled into listening the way prophets "
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b04",
+   "file": "build-118-jonah-god-who-relents/assets/s04-arise-go-to-nineveh-that.jpeg",
+   "tokens": [
+    "JONAH",
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The command stands him up and points him east: Jonah at his open door in the night, facing the far dark horizon beyond which the great city sprawls \u2014 ARISE, GO TO NINEVEH \u2014 the words laying the road out over the black hi"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b05",
+   "file": "build-118-jonah-god-who-relents/assets/s05-go-to-that-great-city.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a prophet doing unprophetic math: the command still ringing, and across the grizzled face the responses crossing in order \u2014 distaste first, at the very name of the place; then fear, honest and reasonable; and th"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b06",
+   "file": "build-118-jonah-god-who-relents/assets/s06-notice-what-that-actually-is.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Look again at what just happened: the great feared city on its plain \u2014 and over it now, framed differently, the fact the narration is pointing at: heaven has NOTICED Nineveh \u2014 not written it off, not crossed it out, not "
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b07",
+   "file": "build-118-jonah-god-who-relents/assets/s07-but-jonah-did-not-want.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the book's real engine: not cowardice \u2014 the sturdy frame has never run from danger \u2014 but this, hardening the honest face like frost: PEOPLE LIKE THAT \u2014 the empire's butchers, his people's dread \u2014 and mercy, God'"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b08",
+   "file": "build-118-jonah-god-who-relents/assets/s08-he-found-a-ship-going.jpeg",
+   "tokens": [
+    "JONAH",
+    "SHIP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At Joppa the refusal buys its ticket: Jonah up the gangplank of the broad merchant ship with his fare paid and his face set hard to the west \u2014 the great square sail filling for Tarshish, the farthest port a map could off"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b09",
+   "file": "build-118-jonah-god-who-relents/assets/s09-god-would-far-rather-warn.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The city resolves, the camera low in the gate's shadow taking the homeward stream from the side, into its true contents at evening: through the winged-bull gates the crowds stream home \u2014 porters and mothers, soldiers off"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b10",
+   "file": "build-118-jonah-god-who-relents/assets/s10-a-great-storm-caught-the.jpeg",
+   "tokens": [
+    "SHIP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The sea stands up, the camera braced at the stern behind the sailors' backs, against the runaway's road: green-black walls of water bursting over the high prow, the great sail shredding at its edges, sailors hauling doub"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b11",
+   "file": "build-118-jonah-god-who-relents/assets/s11-he-knew-it-already.jpeg",
+   "tokens": [
+    "JONAH",
+    "SHIP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the middle of the screaming chaos, one calm face: Jonah braced at the mast with spray sheeting past him, and in the honest eyes none of the crew's wild guessing \u2014 only the settled, heavy certainty of a man who has kno"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b12",
+   "file": "build-118-jonah-god-who-relents/assets/s12-his-prayer-ends-in-four.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the deep enclosing dark the long prayer narrows to its point: Jonah's face upturned in the faint blue sea-light of the strangest sanctuary ever prayed in, the resentment prayed down to sediment, the running prayed out"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b13",
+   "file": "build-118-jonah-god-who-relents/assets/s13-take-me-up-and-cast.jpeg",
+   "tokens": [
+    "JONAH",
+    "SHIP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Over the storm's roar, the camera looking past the ringed sailors' backs, the passenger sentences himself: Jonah with his arms open to the stunned ring of sailors \u2014 TAKE ME UP, AND CAST ME FORTH \u2014 one hand at his own che"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b14",
+   "file": "build-118-jonah-god-who-relents/assets/s14-throw-me-in-he-said.jpeg",
+   "tokens": [
+    "JONAH",
+    "SHIP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on responsibility picking up its own load: Jonah's storm-lit face steady among the anguished crew, making the case against himself without one tremor of theater \u2014 ON ME, NOT ON YOU \u2014 the stubborn mouth that ran fro"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b15",
+   "file": "build-118-jonah-god-who-relents/assets/s15-he-would-rather-drown-than.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the most complicated face in the minor prophets: still stubborn to the bone \u2014 drowning genuinely preferable, even now, to preaching mercy at Nineveh \u2014 and beside the grudge, unerasable, the other thing: a boatfu"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b16",
+   "file": "build-118-jonah-god-who-relents/assets/s16-so-at-last-they-did.jpeg",
+   "tokens": [
+    "JONAH",
+    "SHIP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "They do it the way you do a thing you hate: four sailors easing Jonah over the heaving rail with gripped forearms and locked hands, lowering him toward the green-black roar while the rest turn their faces away \u2014 grief in"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b17",
+   "file": "build-118-jonah-god-who-relents/assets/s17-and-here-is-the-first.jpeg",
+   "tokens": [
+    "SHIP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The instant he is taken \u2014 the camera behind the spared crew at the rail \u2014 the argument ends: the green-black fury flattening around the ship like a fist unclenching \u2014 waves dying mid-rise, the wind walking away across th"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b18",
+   "file": "build-118-jonah-god-who-relents/assets/s18-instead-god-sent-a-great.jpeg",
+   "tokens": [
+    "FISH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Beneath the flattening silver ceiling the rescue rises: the great fish \u2014 whale-vast, dark-backed, barnacle-flecked, its one huge eye calm as deep water itself \u2014 climbing deliberate through the blue toward the small sea-g"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b19",
+   "file": "build-118-jonah-god-who-relents/assets/s19-the-judgment-never-fell.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The fortieth day arrives and brings only morning: Nineveh whole on its plain under a sky washed bright and clean \u2014 the tiered walls intact to their last course, the winged-bull gates busy with ordinary traffic, washing s"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b20",
+   "file": "build-118-jonah-god-who-relents/assets/s20-for-three-days-and-three.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The running ends where no road goes: Jonah seated small in the enclosing dark, knees drawn up, the faint blue of deep-sea light breathing dimly through the strange curved gloom around him \u2014 no door to try, no ship to boo"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b21",
+   "file": "build-118-jonah-god-who-relents/assets/s21-from-the-belly-of-the.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the blue-black quiet the hard heart begins its thaw: the clenched fisherman's fists opening slowly into something like prayer, the stubborn downturned mouth moving over words it has not used in years \u2014 resentment melt"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b22",
+   "file": "build-118-jonah-god-who-relents/assets/s22-salvation-is-of-the-lord.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Four words, said from the bottom of everything: Jonah's face upturned in the faint blue dark, emptied of the grudge's last sediment, saying the whole theology of his strange book at last \u2014 SALVATION IS OF THE LORD \u2014 not "
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b23",
+   "file": "build-118-jonah-god-who-relents/assets/s23-that-is-the-whole-lesson.jpeg",
+   "tokens": [
+    "FISH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The classroom swims: the great dark fish moving vast and unhurried through the blue fathoms, the one calm eye reading the water, the far pale smudge of coastline standing in the light ahead \u2014 a vessel on assignment, carr"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b24",
+   "file": "build-118-jonah-god-who-relents/assets/s24-it-is-a-warning.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on what the errand actually is: the great gate of the feared city in plain daylight \u2014 carved bulls, iron-bound doors, traffic passing through \u2014 a door, in other words: knockable, warnable, still standing wide \u2014 bec"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b25",
+   "file": "build-118-jonah-god-who-relents/assets/s25-arise-go-unto-nineveh-that.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the clean dawn beach the same words find him again: Jonah on his knees in the wet sand, salt-crusted, wrung out, and entirely alive \u2014 and arriving through the morning air, word for patient word, the identical errand: "
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b26",
+   "file": "build-118-jonah-god-who-relents/assets/s26-so-he-ran.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Two words, one direction: Jonah striding hard down the coast road with his bundle over his shoulder and the sunrise squarely at his back \u2014 the errand's east shrinking behind him with every stubborn step, the sea's west o"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b27",
+   "file": "build-118-jonah-god-who-relents/assets/s27-the-fish-set-him-safe.jpeg",
+   "tokens": [
+    "JONAH",
+    "FISH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The strange ferry makes its landing: in the dawn shallows Jonah wades the last thigh-deep steps toward the pale beach, sea-green robe streaming, while behind him in the deeper light the great dark back of his carrier sta"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b28",
+   "file": "build-118-jonah-god-who-relents/assets/s28-this-time-jonah-went-he.jpeg",
+   "tokens": [
+    "JONAH",
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "This time the feet obey, the camera high behind him as he walks in: one stocky sea-green figure walking in under the five-man-high carved bulls of the great gate, swallowed instantly by streets wide as rivers and crowds "
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b29",
+   "file": "build-118-jonah-god-who-relents/assets/s29-yet-forty-days-and-nineveh.jpeg",
+   "tokens": [
+    "JONAH",
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The entire sermon takes eight words: Jonah planted in the great street with his head back, crying it over the market's roar \u2014 YET FORTY DAYS, AND NINEVEH SHALL BE OVERTHROWN \u2014 no second verse, no altar call, no comfort c"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b30",
+   "file": "build-118-jonah-god-who-relents/assets/s30-forty-more-days-and-this.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the barest sermon ever preached and the divided man preaching it: the grizzled face at full cry, doing the duty to its letter \u2014 every word delivered, nothing softened, nothing added \u2014 and behind the honest eyes,"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b31",
+   "file": "build-118-jonah-god-who-relents/assets/s31-no-comfort-in-it-anywhere.jpeg",
+   "tokens": [
+    "JONAH",
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The eight words, the camera down the great street taking the passing crowd from the side, outrun their preacher: down the great streets the sermon travels mouth to mouth \u2014 a fishwife repeating it to a customer, a soldier"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b32",
+   "file": "build-118-jonah-god-who-relents/assets/s32-and-the-second-surprise-is.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on the miracle nobody predicted: foreign faces \u2014 the empire's faces, the feared faces \u2014 stricken open by eight words: a big merchant's bravado gone off him like a dropped cloak, a scarred soldier staring at his own"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b33",
+   "file": "build-118-jonah-god-who-relents/assets/s33-from-the-king-on-his.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The whole empire's capital \u2014 the camera high past a thousand kneeling backs \u2014 kneels in rough cloth: the great square at dusk filled edge to edge \u2014 and at its center the king himself, down off his gilded litter, crown se"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b34",
+   "file": "build-118-jonah-god-who-relents/assets/s34-they-cast-lots-to-find.jpeg",
+   "tokens": [
+    "SHIP",
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the pitching deck the old sea-court convenes: the crew huddled from the spray around the cast lots, the marked shard lying face-up in the lantern light \u2014 and every salt-streaked face rising slowly from the marker to t"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b35",
+   "file": "build-118-jonah-god-who-relents/assets/s35-and-god-who-had-been.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "Over the kneeling city \u2014 the camera higher than the walls, the crowd all bowed backs below \u2014 the verdict changes in the sky: the heavy waiting grey that hung the countdown breaking open along its whole width \u2014 clean even"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b36",
+   "file": "build-118-jonah-god-who-relents/assets/s36-he-did-not-destroy-the.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Forgiveness looks like this at street level: a lane in the new gold evening where a family sheds its sackcloth on the doorstep and goes in to a first supper in days \u2014 lamps lighting window by window down the lane, a chil"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b37",
+   "file": "build-118-jonah-god-who-relents/assets/s37-and-jonah-watching-from-a.jpeg",
+   "tokens": [
+    "HILL",
+    "JONAH",
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the dry hill east of the walls sits the only unhappy man in the region: Jonah under his bare tree with his arms crossed hard and his stubborn mouth clamped, glaring down at a city gone golden with reprieve \u2014 the lamps"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b38",
+   "file": "build-118-jonah-god-who-relents/assets/s38-i-knew-that-thou-art.jpeg",
+   "tokens": [
+    "JONAH",
+    "HILL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the strangest prayer in scripture: Jonah's face upturned and furious, hurling at heaven \u2014 as accusation \u2014 the most beautiful creed in his whole Bible: I KNEW IT \u2014 gracious, merciful, SLOW TO ANGER, of GREAT KIND"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b39",
+   "file": "build-118-jonah-god-who-relents/assets/s39-i-knew-it-he-says.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the grudge at its bare root: I KNEW YOU WOULD FORGIVE THEM \u2014 the words grinding out of the stubborn mouth with years behind them \u2014 not I feared, not I suspected: I KNEW \u2014 the prophet's whole flight, the ship, th"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b40",
+   "file": "build-118-jonah-god-who-relents/assets/s40-that-is-the-confession-at.jpeg",
+   "tokens": [
+    "HILL",
+    "JONAH",
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole book sits in one wide evening frame: the small furious figure cross-armed on his dry hill, and below him, vast and lamplit gold in the dusk, the city he was certain would be forgiven \u2014 a hundred thousand supper"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b41",
+   "file": "build-118-jonah-god-who-relents/assets/s41-he-ran-because-he-was.jpeg",
+   "tokens": [
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on an accusation discovering it is a compliment: TOO GOOD \u2014 the charge hanging in the warm evening air, and on the grizzled furious face, despite everything, the smallest crack in the sulk \u2014 because there is no way"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b42",
+   "file": "build-118-jonah-god-who-relents/assets/s42-and-should-not-i-spare.jpeg",
+   "tokens": [
+    "HILL",
+    "JONAH",
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The book's last voice asks its question over the whole morning: the spared city shining on its plain, the sulking prophet on his hill \u2014 SHOULD NOT I SPARE NINEVEH \u2014 the words moving over the walls and the small far figur"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b43",
+   "file": "build-118-jonah-god-who-relents/assets/s43-and-what-he-told-them.jpeg",
+   "tokens": [
+    "JONAH",
+    "SHIP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the lantern-lit chaos the runaway squares up to his first decent act: facing the ring of terrified sailors with the lot lying against him, drawing the long breath of a man about to stop hiding \u2014 the confession assembl"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b44",
+   "file": "build-118-jonah-god-who-relents/assets/s44-a-hundred-and-twenty-thousand.jpeg",
+   "tokens": [
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The question's whole constituency \u2014 the camera low in the lane taking the games from the side \u2014 fills a morning lane: children thick underfoot at their games \u2014 the exact ones who cannot tell right hand from left \u2014 an old"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b45",
+   "file": "build-118-jonah-god-who-relents/assets/s45-that-is-how-the-book.jpeg",
+   "tokens": [
+    "HILL",
+    "JONAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The book ends with a man mid-think: Jonah on his hill in the clean morning light, the great question still hanging on the air around him \u2014 SHOULD NOT I SPARE \u2014 and his answer nowhere: the crossed arms loosened but not op"
+  },
+  {
+   "row": 118,
+   "build": "build-118-jonah-god-who-relents",
+   "beat": "v2-r118-b46",
+   "file": "build-118-jonah-god-who-relents/assets/s46-not-with-jonah-answering-but.jpeg",
+   "tokens": [
+    "HILL",
+    "NINEVEH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The closing frame gives the last word to the light: the spared city whole and shining on its morning plain \u2014 walls intact, gates streaming, a hundred thousand ordinary days beginning inside the mercy that argued for them"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b01",
+   "file": "build-121-salt-and-light/assets/s01-jesus-sat-on-a-green.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon has the best seat in Galilee, the camera looking past the seated crowd's backs up the slope: Jesus seated on the green hillside with the grass and wildflowers around him, the blue lake and far hills spread bel"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b02",
+   "file": "build-121-salt-and-light/assets/s02-live-openly-good-kind-honest.jpeg",
+   "tokens": [
+    "LANE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The charge looks like this in a real street: in the evening lane a woman leans from her doorway to press warm bread into an old neighbour's hands \u2014 out in the open, in front of the water-carriers and the children and any"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b03",
+   "file": "build-121-salt-and-light/assets/s03-and-to-these-plain-unremarkable.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The faces about to be astonished are gloriously unremarkable: close along the front of the crowd \u2014 a fisherman whose hands are more rope-scar than skin, a mother rocking a drowsy child with her eyes fixed uphill, a farme"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b04",
+   "file": "build-121-salt-and-light/assets/s04-ye-are-the-salt-of.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The astonishing sentence is handed over: Jesus seated in the warm gold light, one open hand extended toward the crowd the way a man hands something valuable across a table \u2014 YE are the salt of the earth \u2014 and on the near"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b05",
+   "file": "build-121-salt-and-light/assets/s05-it-is-thenceforth-good-for.jpeg",
+   "tokens": [
+    "LANE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The verse's warning lies underfoot: a scatter of pale spent salt strewn across the packed earth of the lane where it was thrown out, and passing over it without so much as a downward glance the worn sandaled feet of the "
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b06",
+   "file": "build-121-salt-and-light/assets/s06-he-began-with-salt.jpeg",
+   "tokens": [
+    "MARKET"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The first sermon illustration sits in a clay bowl: coarse grey-white salt heaped small and precious on the market stall's worn boards, catching the bright day like crushed frost \u2014 and a work-worn hand taking a careful pi"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b07",
+   "file": "build-121-salt-and-light/assets/s07-in-that-world-salt-was.jpeg",
+   "tokens": [
+    "MARKET"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Its price is written on the watching faces: at the stall the merchant tips coarse salt into one pan of the small brass balance, weight against weight, while two buyers lean in close enough to fog the metal \u2014 eyes followi"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b08",
+   "file": "build-121-salt-and-light/assets/s08-that-he-told-them-is.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The identity is conferred like a commission: Jesus leaning slightly forward from his seat with both hands open toward the crowd \u2014 that is what YOU are \u2014 the warm gold light on his earnest face, no smile of flattery and n"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b09",
+   "file": "build-121-salt-and-light/assets/s09-you-matter-that-much.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sentence finds its mark quietly: close on the front row as the words settle \u2014 the old fisherman's guarded squint easing open by a degree, the tired mother's chin coming up off her child's hair, a young farmer glancin"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b10",
+   "file": "build-121-salt-and-light/assets/s10-but-salt-has-one-job.jpeg",
+   "tokens": [
+    "KITCHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What happens to flavourless salt happens in every kitchen: at the bright doorway a woman works her rush broom in short practical strokes, sweeping a sad pale drift of spent salt over the threshold and out onto the path \u2014"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b11",
+   "file": "build-121-salt-and-light/assets/s11-he-was-not-threatening-them.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The tone of the warning is the whole theology of it: close on Jesus's face in the warm light, and there is no thunder anywhere in it \u2014 the brows earnest, the eyes on his people with the particular urgency of someone who "
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b12",
+   "file": "build-121-salt-and-light/assets/s12-stay-yourselves-ye-are-the.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The second name is bigger than the first: Jesus's open hand rises from the crowd toward the wide bright sky over the lake \u2014 ye are the LIGHT of the world \u2014 and the listening faces lift with the gesture, fishermen and mot"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b13",
+   "file": "build-121-salt-and-light/assets/s13-a-city-that-is-set.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD",
+    "HILLTOWN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The next illustration is already built and waiting: Jesus's arm extends past the crowd toward the far ridge across the lake where the pale stone town sits stacked on its hill \u2014 and every head on the slope turns with the "
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b14",
+   "file": "build-121-salt-and-light/assets/s14-a-town-built-up-on.jpeg",
+   "tokens": [
+    "HILLTOWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The illustration performs itself every evening: dusk settles blue over the lake country and the hilltop town answers it window by window \u2014 warm lamplight pricking on in the stacked stone houses until the whole ridge wear"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b15",
+   "file": "build-121-salt-and-light/assets/s15-that-he-said-is-you.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The comparison completes its arc: Jesus's open hand swings back from the far ridge to the people on the grass \u2014 from THAT to YOU \u2014 and the crowd receives the trajectory, a few heads still half-turned toward the town whil"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b16",
+   "file": "build-121-salt-and-light/assets/s16-it-kept-food-from-spoiling.jpeg",
+   "tokens": [
+    "KITCHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Both of salt's jobs share one kitchen: on the table a clay crock where silver fish are being laid down in white layers of salt, packed against the spoiling months \u2014 and at the clay oven beside it a woman lifts a wooden s"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b17",
+   "file": "build-121-salt-and-light/assets/s17-neither-do-men-light-a.jpeg",
+   "tokens": [
+    "LAMPHOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The verse is staged in every home each evening: a hand sets the small lit clay lamp up on the wooden lampstand, and the one-room house fills \u2014 warm flame-light finding the low table, the sleeping mats, the faces of the f"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b18",
+   "file": "build-121-salt-and-light/assets/s18-nobody-lights-a-lamp-and.jpeg",
+   "tokens": [
+    "LAMPHOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The absurdity is demonstrated so nobody forgets it: a man lowers the woven bushel basket down over the lit lamp on its stand \u2014 the room's warm light collapsing around the act, shadows climbing the mudbrick walls, the fam"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b19",
+   "file": "build-121-salt-and-light/assets/s19-that-would-be-pointless-smothering.jpeg",
+   "tokens": [
+    "LAMPHOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The result argues against itself: the basket sits seated over the lamp and the house sits in gloom \u2014 the family's faces gone to shadow around the low table, the corners lost, the whole room poorer by one hidden flame \u2014 w"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b20",
+   "file": "build-121-salt-and-light/assets/s20-you-set-it-up-high.jpeg",
+   "tokens": [
+    "LAMPHOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The room gets its light back the way it was always meant to: the basket swung away to the wall and the small lamp lifted high onto its wooden stand, the warm flame-light rolling back out to the corners \u2014 the low table fo"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b21",
+   "file": "build-121-salt-and-light/assets/s21-your-goodness-was-never-meant.jpeg",
+   "tokens": [
+    "LANE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the lamp teaches, the doorway preaches: an open door at nightfall spills its warm lamplight clear across the packed earth of the lane, a long bright lane-crossing carpet of it \u2014 and a neighbour passing in the dark w"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b22",
+   "file": "build-121-salt-and-light/assets/s22-let-your-light-so-shine.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The commission is given with both hands: Jesus with his arms open over the seated crowd, the late gold lying equally on his cream robe and their browns and russets, speaking the charge that turns listeners into lamps \u2014 l"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b23",
+   "file": "build-121-salt-and-light/assets/s23-stay-salty.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sermon's smallest sentence gets its smile: close on a young fisherman in the second row as the words land \u2014 the sunburnt face cracking into a quick involuntary grin, the kind a man wears when a teacher says something"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b24",
+   "file": "build-121-salt-and-light/assets/s24-but-notice-the-reason-not.jpeg",
+   "tokens": [
+    "LANE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The reason is guarded in the doer's own eyes: in the lane a man kneels to steady an old beggar and press bread into the shaking hands \u2014 and though two passers-by have stopped to watch, his face never once turns toward th"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b25",
+   "file": "build-121-salt-and-light/assets/s25-so-that-when-they-see.jpeg",
+   "tokens": [
+    "LANE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Where the credit goes is written in one upward look: the old beggar, bread held to his chest, lifts his face right past the shoulder of the man who helped him \u2014 up beyond the rooflines to the deepening evening sky, lips "
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b26",
+   "file": "build-121-salt-and-light/assets/s26-your-light-is-not-about.jpeg",
+   "tokens": [
+    "HILLTOWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The picture points the same direction as the doctrine: the hilltop town wears its warm lamplit windows under a sky where the first stars have come out \u2014 the little human lights and the great high ones stacked in one vert"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b27",
+   "file": "build-121-salt-and-light/assets/s27-that-is-the-whole-charge.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole charge fits in one gentle face: close on Jesus in the last warm light, one hand resting easy at his own chest, the deep brown eyes moving over his people with unhurried affection \u2014 no demand anywhere in the fea"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b28",
+   "file": "build-121-salt-and-light/assets/s28-you-already-are-salt-you.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The same faces from the sermon's start wear its ending differently: the rope-scarred fisherman, the tired mother, the dusty farmer \u2014 golden last light on the same ordinary features, and something new in the way they hold"
+  },
+  {
+   "row": 121,
+   "build": "build-121-salt-and-light",
+   "beat": "v2-r121-b29",
+   "file": "build-121-salt-and-light/assets/s29-go-out-stay-bright-and.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon ends by scattering, the camera set behind Jesus's shoulder at the crest: down the green slope the crowd breaks apart along the worn paths, fishermen toward the shore, farmers toward the far fields, mothers wit"
   }
  ]
 }
