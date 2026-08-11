@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 12:18:10",
+ "scanned": "2026-08-11 12:52:26",
  "entries": [
   {
    "row": 1,
@@ -51043,6 +51043,411 @@
    "night": false,
    "n_person": 2,
    "scene": "The sermon ends by scattering, the camera set behind Jesus's shoulder at the crest: down the green slope the crowd breaks apart along the worn paths, fishermen toward the shore, farmers toward the far fields, mothers wit"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b01",
+   "file": "build-122-mote-and-beam/assets/s01-of-all-the-things-jesus.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The same hillside, the same congregation, the camera looking past the seated crowd's backs up the green slope: Jesus seated in the warm gold with the lake spread blue below, fishermen and mothers and farmers settled in t"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b02",
+   "file": "build-122-mote-and-beam/assets/s02-judge-not-that-ye-be.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Three words drop the hillside to silence: Jesus seated forward, one hand lowered palm-down in the quiet stilling gesture of a man settling water \u2014 judge not \u2014 the deep brown eyes moving along the front rows without singl"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b03",
+   "file": "build-122-mote-and-beam/assets/s03-for-with-what-judgment-ye.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The law of the verse works like market arithmetic: close on work-worn hands drawing a straight-edge across a wooden grain measure, striking it exactly level \u2014 not a kernel over \u2014 while beside the first sack a second stan"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b04",
+   "file": "build-122-mote-and-beam/assets/s04-he-cannot-even-see-straight.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Basic navigation has become a performance: the fixer cranes and tilts his head, trying to line up his one unblocked eye with the world, while the long wooden beam riding over his brow swings wide and clips the doorframe "
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b05",
+   "file": "build-122-mote-and-beam/assets/s05-set-yourself-up-as-the.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The gesture teaches the boomerang in it: Jesus's open hands move out toward the crowd and then turn back toward his own chest \u2014 whatever you hold up for them comes back held up to YOU \u2014 the arc of it drawn slow and visib"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b06",
+   "file": "build-122-mote-and-beam/assets/s06-and-we-are-experts-at.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sermon catches its audience doing the thing: in the second row a listener's eyes slide sideways to a neighbour with one eyebrow lifted a knowing half-inch \u2014 the tiny silent verdict every human face knows how to pass "
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b07",
+   "file": "build-122-mote-and-beam/assets/s07-a-tiny-speck-a-mote.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The offense, at actual size: in the bright shaft through the workshop door the sawdust hangs drifting, and somewhere in that golden traffic one speck has found the brother's eye \u2014 he blinks at it, mildly inconvenienced \u2014"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b08",
+   "file": "build-122-mote-and-beam/assets/s08-so-he-asked-a-question.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The best question in the sermon gathers on his face first: close on Jesus in the warm light, one brow lifting, a glint arriving in the deep brown eyes and the faintest forward lean of a teacher about to hand a crowd a pi"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b09",
+   "file": "build-122-mote-and-beam/assets/s09-and-why-beholdest-thou-the.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The question paints itself in one impossible frame: the fixer leans across the bench, his one free eye narrowed in deep diagnostic focus on the speck in his brother's blinking eye \u2014 while over his OWN brow rides an entir"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b10",
+   "file": "build-122-mote-and-beam/assets/s10-why-do-you-stare-at.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The stare is a marvel of selective vision: close on the fixer's one visible eye, narrowed and intent as a jeweler's, locked on the dust-grain in his brother's lashes \u2014 while filling the whole other half of his face, inch"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b11",
+   "file": "build-122-mote-and-beam/assets/s11-then-he-drew-the-picture.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon gets its laugh on purpose: Jesus's hands spread wide apart in the gold air, sketching the ridiculous length of the beam while his own mouth gives up its slight smile \u2014 and the hillside breaks: fishermen barkin"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b12",
+   "file": "build-122-mote-and-beam/assets/s12-and-then-if-we-are.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The joke goes quiet in a basin of still water: the fixer stoops to rinse his hands and stops \u2014 the water's surface holding, steady and undeniable, a man with a full wooden beam riding over his eye \u2014 his reflection meetin"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b13",
+   "file": "build-122-mote-and-beam/assets/s13-or-how-wilt-thou-say.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The offer is made in perfect sincerity: the fixer leans in with two careful fingers poised toward his brother's eye, lips shaped around hold still, let me get that \u2014 while the far end of his own beam, travelling with his"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b14",
+   "file": "build-122-mote-and-beam/assets/s14-picture-it.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Two words hand the crowd a paintbrush: Jesus's open hand extends toward them, palm up, offering the image the way you offer a gift you know is going to be enjoyed \u2014 picture it \u2014 and the slope leans in as one, fishermen e"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b15",
+   "file": "build-122-mote-and-beam/assets/s15-a-man-leaning-in-saying.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole absurd machine, assembled: in the sun-shafted shop the fixer leans solicitously in \u2014 fingers delicately out, face all tender helpfulness \u2014 while the enormous beam riding over his brow runs straight out ahead of"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b16",
+   "file": "build-122-mote-and-beam/assets/s16-the-beam-is-in-the.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Everything the man attempts, the timber attempts first: one ordinary turn toward the bench and the beam's far end sweeps a plane and two chisels clattering to the floor, sets the hanging saw swinging on its peg, and plou"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b17",
+   "file": "build-122-mote-and-beam/assets/s17-and-yet-he-is-completely.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "His confidence has survived everything, including the evidence: the fixer stands in helpful authority, finger raised, face earnest and certain under the timber-shadow crossing it \u2014 absolutely sure that of the two men in "
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b18",
+   "file": "build-122-mote-and-beam/assets/s18-not-his.jpeg",
+   "tokens": [
+    "SHOP",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Seen honestly, the brother's fault is almost nothing: close on the mild patient face, and there in the lashes the speck \u2014 a single grain of sawdust, the kind every eye in every workshop collects by noon and weeps out by "
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b19",
+   "file": "build-122-mote-and-beam/assets/s19-ours-the-one-we-had.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The hands finally find the right piece of wood: the fixer's two broad palms close around his own beam \u2014 the first time in the whole story he has touched it \u2014 and his head bows against the grain, eyes closed, the eager fi"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b20",
+   "file": "build-122-mote-and-beam/assets/s20-thou-hypocrite-first-cast-out.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The order of operations is performed at last: with both arms and an honest heave the fixer hauls the beam up and away from his own brow \u2014 the timber swinging clear, the shadow leaving his face \u2014 and for the first time in"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b21",
+   "file": "build-122-mote-and-beam/assets/s21-notice-he-does-not-say.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The clarification arrives before anyone can misuse the joke: close on Jesus with one finger gently raised \u2014 not warning, adjusting \u2014 his head tilted the small careful degree of a teacher closing a loophole: notice what w"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b22",
+   "file": "build-122-mote-and-beam/assets/s22-he-says-deal-with-your.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The same help, run in the right order, has changed species: the beam lies retired on the floor among the shavings, and the fixer \u2014 both eyes clear, hands suddenly patient \u2014 steadies his brother's chin with one palm and b"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b23",
+   "file": "build-122-mote-and-beam/assets/s23-the-goal-was-never-to.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "What survives the sermon is the caring itself: the speck dealt with, the two brothers stand in the door's warm shaft with hands clasped to each other's shoulders \u2014 the fixer's grip grateful, the brother's easy \u2014 two work"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b24",
+   "file": "build-122-mote-and-beam/assets/s24-it-was-to-come-to.jpeg",
+   "tokens": [
+    "SHOP",
+    "FIXER",
+    "BROTHER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The new arrangement seats them at the same height: side by side on the workshop bench among the curled shavings, passing a water-skin between them, the retired beam serving under their feet as a footrest \u2014 no judge's sea"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b25",
+   "file": "build-122-mote-and-beam/assets/s25-the-measure-you-use-is.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The same measure from the sermon's start comes back changed: the wooden grain measure again in the work-worn hands \u2014 but heaped now, pressed down and running over, grain spilling in a bright hiss past the rim into anothe"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b26",
+   "file": "build-122-mote-and-beam/assets/s26-so-jesus-offers-a-better.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The better measure is offered on an open palm: close on Jesus with one hand extended palm-up toward the crowd, empty and open \u2014 the oldest gift-gesture there is \u2014 mercy, held out in the warm gold light not as a demand or"
+  },
+  {
+   "row": 122,
+   "build": "build-122-mote-and-beam",
+   "beat": "v2-r122-b27",
+   "file": "build-122-mote-and-beam/assets/s27-deal-honestly-with-yourself-and.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon's proof runs through the crowd before anyone stands up, the camera looking across the slope from the side, past the seated listeners' shoulders: the golden last light on the grass, the teacher seated easy at t"
   }
  ]
 }
