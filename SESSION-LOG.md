@@ -1,3 +1,42 @@
+## 2026-08-11 (cont. 12) — Row 88 QC-VERIFY (FULL-CUT GATE) → QC-FIX SHIPPED: s14 joy-beat blood/wounds removed before Cameron's eyes (triumphal-entry) — Machine A `Dev`, unattended/headless
+
+**Commit:** mp4/s14/QC/RUNNER-LESSONS/api-spend/board commit `06de56f70566a9c31fe335bfabf2bd4e5b6b9115`
+(tracked mp4 blob == local `2622e4b8f544…`); review.html card + board + this SESSION-LOG in the ship commit below. Firebase deployed + live-verified.
+
+Row 88 was BUILT (A-auto 2026-08-07, 20 stills, 0 rerolls) and sitting in Cameron's Unwatched
+queue with NO open complaint. Per the standing order + PROMPT-OPUS-RUNNER §6b FULL-CUT GATE, I
+verified it BEFORE his eyes reached it (2026-08-10: "my quality is going down" after row 11 shipped
+with seven bad frames).
+
+**Method:** extracted ONE frame per beat (clip-midpoints from segs/) from the RENDERED mp4 — 20
+content frames + closing card — and viewed EVERY one against the defect checklist + RUNNER-LESSONS.
+19/20 + card CLEAN: Jesus face-locked/cream-only/tan/dark-hair/full-beard/no-halo in every
+appearance; TWO disciples + TWO donkeys (mother led, colt ridden) held the count law; gazes converge
+on Jesus in every wide; cloaks+cut-branches carpet the road; crowds joyful not mob-like; captions
+bottom-band only (white narrator / red Jesus-words / blue KJV — consistent 3-colour convention);
+realistic photography throughout (Law 14 clean).
+
+**ONE defect, gate-caught, light-QC-missed:** s14 (v2-r088-b14, "Hosanna means save us now") — the
+shouting old man in the JOY crowd was rendered with a bleeding forehead gash, an under-eye cut, and
+raw chest abrasions (+ a bloody-tear streak on a woman). Only visible on ZOOM of the faces; the
+2026-08-07 light-QC logged only "one faint fair-haired woman" and missed it. Blood/wounds in a
+triumphal-entry celebration = a Cameron-grade glance-read/gore defect. Prompt text is clean — the
+model over-rendered the beat's "taxed/tired/occupied/the word's real cargo" framing into literal
+injuries.
+
+**FIX (touch-once, $0.13, 1 reroll = 5% of 20 beats, under the 15% COST-LAW budget):**
+`v2_gen_api.py --only v2-r088-b14 --redo`. New s14: clean-skinned old man, weeping woman with tears
+not blood, whole crowd joyful/fervent waving palms+olive, only Jesus in cream at the right edge,
+two-arms/one-head, realistic, no halo — verified in the RENDERED mp4 at t=75.82 with the correct
+white caption. AUDIO UNTOUCHED: re-assembled via AUDIO_FROM_V1_SEGMENTS=True → AUDIO REBUILD PASS
+SHA256=dda84afd, 118.138s unchanged (no window/caption drift), byte-identical narration.
+
+**Cost:** $0.13 this session (1 reroll), meter $546.32 → $546.45. Well under $6.10/row avg — a
+verify-pass fix is the cheapest possible touch. RUNNER-LESSONS fed a new defect class (joy-beat
+blood/wound over-render: zoom nearest faces on any intense-emotion crowd close-up). Did NOT re-cut
+the 19 clean frames (touch-once). NEVER touched a Cameron-approved row (88 was unapproved, prior V1
+approval void under REDO-ALL).
+
 ## 2026-08-11 (cont. 11) — Row 27 Leaven C-FIX SHIPPED (floating basket + "audio messed up") — cracked the 8-pass audio block by finding the analysis used the WRONG ENGINE — Machine A `Dev`
 
 **Commit:** mp4/audio/assets/beats/QC/api-spend commit `6c7a63def0ad268bf24a039e63beb6343ef5b555`
