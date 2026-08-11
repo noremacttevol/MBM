@@ -1,5 +1,43 @@
 # QC / RUNNER HANDOFF — build-61-syrophoenician-woman (Mark 7:24-30)
 
+## ✅ QC-FIX SHIPPED — FULL-CUT GATE 6b (2026-08-11, Machine A `Dev`, Opus runner)
+
+**COMPLAINT LEDGER (row 61) — Cameron: "jesus's eyes in 0:52 are crazy looking."**
+- **CONFIRMED NOT REGRESSED.** Extracted one frame per beat from the RENDERED mp4
+  (31 beats + card) and viewed every one. The 0:52 frame (s11, beat `v2-r061-b11`)
+  shows Jesus's gaze calm/warm/softly-open, steady on the kneeling woman — no
+  wide/wild/bulging/manic stare. The 2026-08-07 calm-eyes fix HOLDS (audio + s11
+  byte-identical, window unchanged). Verified at both 0:50 (mid-window) and the exact
+  0:52 frame.
+
+**FULL-CUT GATE — TWO blocking defects found + fixed in ONE touch-once re-cut:**
+- **s09-she-found-the-house (`v2-r061-b09`, "She found the house" 0:40):** the interior
+  wall lamp rendered as a **modern glass-chimney kerosene hurricane lamp** (anachronism,
+  row-72/82 modern-lamp class). Rerolled → now a period **clay oil lamp** in the niche
+  (+ clay pot); woman identity + realism held. 1 reroll, first try.
+- **s25-across-the-distance (`v2-r061-b25`, "He did not walk to her house" 2:16):** the
+  frame rendered as a **stylized painterly digital-illustration** (breaks photographic
+  realism — Law 14 mix) AND the woman's face **drifted** to a lighter/more-European
+  person. Rerolled with WOMAN char-ref + face lock → now **photographic realism**, the
+  woman's face matches her established identity (b16/b18/b23/b26), Jesus cream-only
+  back-view, period Tyre night. 1 reroll, first try.
+- **2 rerolls / 31 beats = 6.5%** (well under the 15% budget). ~$0.27 image spend,
+  meter $578.08 → $578.34.
+- **AUDIO byte-identical:** re-assembled — `AUDIO REBUILD PASS SHA256=274d1bbd…`,
+  **same hash as the prior ship** (narration/words/timing untouched, only s09+s25
+  swapped, other 29 stills byte-identical). New mp4 md5 `4c95a280…`, 185.2s, 21.3 MB.
+- **FIX-WAVE (non-blocking, NOT re-cut — systemic, consistent across the row):** Jesus
+  close-ups render warm hazel/green eyes + occasional caramel hair-highlight under side
+  light (the baked JESUS-V2-REF cast, same as rows 60/89/94 QC-OK; pending audit-level
+  "green-eyed Jesus" question, not a new defect — touch-once + don't-chase-subtle-drift
+  govern).
+- Everything else CLEAN: Jesus one locked face + cream-only every appearance, WOMAN one
+  consistent Middle-Eastern face across all her frames, realistic-only (no cartoon/mix
+  after the s25 fix), hands/scale/anatomy correct, period props only (clay oil lamps,
+  clay jars, wooden doors, purple Tyre dye-cloth, fishing nets), captions bottom-band
+  3-voice (white narrator / RED Jesus j1+jv / pink woman's spoken line), closing card
+  renders clean. Deployed + live-verified (below).
+
 ## ✅ C-FIX SHIPPED — crazy-eyes @0:52 CLOSED (2026-08-07, Machine A `Dev`, Opus runner)
 
 **COMPLAINT LEDGER (row 61) — Cameron: "jesus's eyes in 0:52 are crazy looking."**
