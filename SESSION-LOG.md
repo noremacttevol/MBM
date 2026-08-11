@@ -1,3 +1,32 @@
+## 2026-08-11 (cont.) — Row 66 C-FIX SHIPPED: COMPLETE RESTART (2nd re-open, Malchus's ear) — Machine A `Dev`
+
+**Commit:** ship = `d7ee7fb540ed`; card/board/log = (this entry's commit).
+
+Cameron re-opened row 66 with a complete-restart complaint: *"all the pictures for
+this one are bad its very low grade i need a complete restart."* The 08-07 pass had
+only touched 5 frames. This pass **regenerated all 29 stills fresh at native 2K**:
+- Old low-grade defects gone — b07 giant floating forearm → Peter's whole body
+  mid-swing; five near-identical Malchus hand-to-ear close-ups → five distinct
+  moments; platform-staged arithmetic wide (b10) → proper terrace clearing.
+- Both older complaints fixed inside the same restart — 0-30s reads as ONE mob
+  only ever closing in (no flicker, no wrong-way torch column); 1:24 (b15) frames
+  the stars organically through the canopy (no hard tree/sky seam).
+- GARDEN plate re-anchored from a fresh b01 (moonlit Gethsemane terrace) and
+  re-promoted to its 22 GARDEN beats so the whole video shares one garden.
+- **FULL-CUT GATE** on all 29 rendered frames caught + fixed 2 NEW defects in the
+  same touch-once re-cut: b12 anachronistic lantern → torches only; b21 rope-bound
+  wrists → held-by-arms/hands-free (so the b22 healing reads).
+- Identity locked (Jesus/Peter/Malchus), cream-only-Jesus, true night + period
+  torches, no halo, restrained violence held, captions bottom-band, card clean.
+- AUDIO LOCK PASS SHA256 `91d501ba…` — byte-identical to both prior ships, 176.5s.
+
+**Cost:** full-rebuild (Cameron-mandated) = 29 fresh + 1 anchor + 2 gate rerolls =
+2 rerolls / 6.9% (under 15%), ≈ **$4.29**; meter $533.99 → ~$538.14. Deployed
+(`firebase deploy --only hosting`) and live-verified: review.html carries hash
+`d7ee7fb540ed`, mp4 URL HTTP 200.
+
+---
+
 ## 2026-08-11 (cont. 5) — Row 78 QC-VERIFY (who is my mother, Mark 3) — FULL-CUT GATE before Cameron's eyes — Machine A `Dev`
 
 **Commit:** (this entry's commit).
