@@ -1,1 +1,14 @@
-{}
+{
+ "ROAD": {
+  "manual": true,
+  "src_beat": "s08-and-then-they-simply-walked",
+  "src_build": "build-130-what-manner-of-spirit",
+  "src_file": "build-130-what-manner-of-spirit/assets/s08-and-then-they-simply-walked.jpeg"
+ },
+ "VILLAGE": {
+  "manual": true,
+  "src_beat": "s01-as-jesus-traveled-toward-jerusalem",
+  "src_build": "build-130-what-manner-of-spirit",
+  "src_file": "build-130-what-manner-of-spirit/assets/s01-as-jesus-traveled-toward-jerusalem.jpeg"
+ }
+}

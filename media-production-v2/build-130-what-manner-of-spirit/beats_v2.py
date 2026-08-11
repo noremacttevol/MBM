@@ -311,9 +311,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # ROAD: build-38 b39 auto-match REJECTED (road-through-a-doorway frame)
-    # — third rejection of this same frame. Promote-first from b08.
-    # VILLAGE: build-38 b46 auto-match REJECTED (single doorway corner, not
-    # a village on a slope with a gate). Promote-first from b01.
+    "ROAD": "PLACE-REF/road.jpeg",  # build-130-what-manner-of-spirit s08-and-then-they-simply-walked (manual)
+    "VILLAGE": "PLACE-REF/village.jpeg",  # build-130-what-manner-of-spirit s01-as-jesus-traveled-toward-jerusalem (manual)
 }
 # === end PLACE-PLATES ===
