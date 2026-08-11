@@ -1,3 +1,18 @@
+## 2026-08-11 (cont. 20) — AUDIO-FIX lane cleared EVERY NEEDS-AUDIO row (0 remaining): 118 built+shipped+live, 125/126/127/128/130/135/136/138/139 authored→Ready, silent-card tooling fix — Machine A `Dev`, unattended/headless, $0
+
+**Commit:** batch pushed across `10282aa9c` (118 mp4), `82949c4d5` (118 card/board), `41c662f84` (7-row flag batch), `a66905ec0` (128 + tooling fix + RUNNER-LESSON); this note committed below. Session-chain verified (cont.19 = `96e186bad`, in history). **$0 — audio only, no Gemini, ZERO ElevenLabs segments re-voiced** (every fix was a STALE-V1 rebuild from mp3s already on disk).
+
+Ran PROMPT-AUDIO-FIX starting at the lowest waiting NEEDS-AUDIO row and cleared the whole board.
+
+- **Row 125 (i-never-knew-you) → AUTHORED/Audio OK/Ready ✅.** STALE-V1 +0.893s excess. Set `AUDIO_FROM_V1_SEGMENTS=True`; rebuild validated 91.824s, delta 0.000, stray tail dropped. 0 stills → handed to picture runner.
+- **Row 118 (jonah-god-who-relents) → BUILT + SHIPPED + LIVE-VERIFIED.** Rescued a STRANDED 08-09 audio-fix lane (flag set but uncommitted; 46 valid stills already on disk; the lane died before assembling). `v2_assemble.py 118` → AUDIO REBUILD PASS `172b62c7`, 278.2s from 22 V1 ElevenLabs segs (all 44100/128k, narrator Brian + eleven cast). **FULL-CUT GATE:** both contact sheets viewed end-to-end — consistent Jonah, realistic photography throughout, captions bottom-band, clean question card, no defect. mp4 `10282aa9c`, review card repointed 0a4a951→`10282aa9` (realistic-v2), board BUILT, `firebase deploy` → live card carries `10282aa9…`, served mp4 HTTP 200 (21.4 MB).
+- **Rows 126/127/130/135/136/138/139 → AUTHORED/Audio OK/Ready ✅.** Same STALE-V1 flag fix (126 +0.969, 127 +0.889, 130 +1.215 excess; 135 19-newer/+42.3s, 136/138/139 8-newer re-records). All 7 rebuilds validated delta 0.000. 0 stills → handed to picture runner.
+- **Row 128 (heart-far-from-me) → AUTHORED/Audio OK/Ready ✅ + TOOLING FIX.** STALE-V1 (8 newer mp3s, story re-recorded, −1.778s). Its closing question card is SILENT (`beats.json "silent": true`, seg=null), which crashed `rebuild_audio_from_segments` on `None.mp3` — a real gap blocking the sanctioned fix for any silent-card row. Patched v2_assemble.py to skip a null-seg card (apad already pads the tail); rebuild then validated 97.445s, delta 0.000. Logged in RUNNER-LESSONS.md so no lane rediscovers it.
+
+**Board state:** 0 NEEDS-AUDIO rows remain. The 9 authored rows are now picture-runner-buildable on fixed audio; row 118 is on Cameron's reviewer awaiting his watch. **Cost law:** $0/row this session (no meter touched), well under the $6.10 average.
+
+---
+
 ## 2026-08-11 (cont. 18b) — Extended $0 audio pre-flight of rows 130-140; parked the STALE ones NEEDS-AUDIO so the next picture lane lands on a buildable row — Machine A `Dev`
 
 **Commit:** board parks + this note below. No gen, $0.
