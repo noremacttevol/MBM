@@ -1,3 +1,34 @@
+## 🅿️ RUNNER PARK → NEEDS-AUDIO (pronunciation complaint) — 2026-08-11, Machine A `Dev`, Opus runner
+
+**OPEN COMPLAINT (Cameron, `v2_outline.py 146`): "Abideth is pronounced wrong."**
+This is an AUDIO / pronunciation defect, not a picture defect — a picture rebuild
+would ship the SAME mispronounced audio and REPEAT the complaint (worst failure).
+Per COMPLAINT-FIRST + touch-once, the pronunciation must be fixed BEFORE any picture
+ship, and pronunciation/re-voice is audio-lane work (off the runner's write-list).
+
+COMPLAINT LEDGER (what must fix it): the word "abideth" is in segment **`j1b`**
+(John 15:5, JESUS red-letter, 8.173s: *"He that abideth in me, and I in him, the same
+bringeth forth much fruit: for without me ye can do nothing."*), rendered on beat
+**b10** (`s10-he-that-abideth-in-me`). Note: this row's AUDIO LOCK is otherwise
+CLEAN (timeline 84.900s vs V1 mp4 84.915s, gap 0.015s) — so `j1b` is likely the
+CURRENT shipped audio Cameron heard, i.e. the mispronunciation is live, not stale.
+
+**AUDIO LANE — RESUME (row-22/18 respell pattern):**
+1. Listen/verify `audio/j1b.mp3`: confirm "abideth" is mispronounced (expected KJV
+   /uh-BY-deth/, three syllables, long-i — NOT "abbi-deth" / "a-BID-eth").
+2. Re-voice ONLY `j1b` through the LOCKED ElevenLabs Jesus voice ("Chris",
+   iP95p4xoKVk53GoZ742B — edge-tts BANNED for Jesus per SPEAKER-LAW) with "abideth"
+   respelled so it says /uh-BY-deth/; keep every other word identical. Pitch-preserving
+   atempo-match back to **8.173s** so beat b10's window does not move.
+3. Re-assemble → AUDIO LOCK/REBUILD PASS, then hand to the picture runner to build the
+   14 realistic V2 stills over the corrected audio and ship in ONE touch (deploy +
+   live-verify). The review card must tell Cameron his "abideth" pronunciation is fixed.
+
+Runner did NOT build stills ($0, meter untouched) — building before the audio fix
+would waste the touch (windows/audio must be final first).
+
+---
+
 # QC / RUNNER HANDOFF — build-146-vine-and-branches (John 15:1-5)
 
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero
