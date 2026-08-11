@@ -196,7 +196,7 @@ AUDIO_FROM_V1_SEGMENTS = True
 BEATS = [
     {
         "id": "v2-r017-b01", "out": "s01-in-a-village-called-bethany.jpeg", "seg": "n0",
-        "window": "0.28-9.01", "wide": True, "jesus": False, "ref": False,
+        "window": "0.28-8.01", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "LAZARUS", "BETHANY-HOUSE"],
         "narration": (
             "In a village called Bethany, close enough to Jerusalem to walk, "
@@ -222,7 +222,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b02", "out": "s02-jesus-loved-this-family.jpeg", "seg": "n0",
-        "window": "9.01-11.27", "wide": False, "jesus": True, "ref": REF,
+        "window": "8.01-10.01", "wide": False, "jesus": True, "ref": REF,
         "locks": ["LAZARUS", "BETHANY-HOUSE"],
         "narration": "Jesus loved this family.",
         "must_show": "the friendship — a close two-shot: Jesus and Lazarus mid-laugh, forearms clasped in greeting at the gate.",
@@ -239,7 +239,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b03", "out": "s03-their-home-was-the-one.jpeg", "seg": "n0",
-        "window": "11.27-18.61", "wide": False, "jesus": True, "ref": REF,
+        "window": "10.01-16.51", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "LAZARUS", "BETHANY-HOUSE"],
         "narration": (
             "Their home was the one place on the whole road where he could stop "
@@ -263,7 +263,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b04", "out": "s04-and-now-their-brother-was.jpeg", "seg": "n0",
-        "window": "18.61-20.64", "wide": False, "jesus": False, "ref": False,
+        "window": "16.51-18.61", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "LAZARUS", "BETHANY-HOUSE"],
         "narration": "And now their brother was dying.",
         "must_show": "the turn — close on Lazarus fevered on his sleeping mat, eyes shut, sweat-sheened; Martha's hand pressing a damp cloth to his brow.",
@@ -282,7 +282,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b05", "out": "s05-so-the-sisters-sent-word.jpeg", "seg": "n0",
-        "window": "20.99-26.98", "wide": False, "jesus": False, "ref": False,
+        "window": "18.61-24.39", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "MESSENGER", "BETHANY-HOUSE"],
         "narration": (
             "So the sisters sent word to Jesus — not a demand, just a few "
@@ -304,7 +304,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b06", "out": "s06-lord-behold-he-whom-thou.jpeg", "seg": "w3",
-        "window": "27.52-30.36", "wide": False, "jesus": False, "ref": False,
+        "window": "24.39-28.67", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "BETHANY-HOUSE"],
         "narration": "Lord, behold, he whom thou lovest is sick.",
         "must_show": "SCRIPTURE-EXACT: the words themselves — a close two-shot of the sisters as the message is spoken: Martha's mouth forming the words, Mary's hand on her sister's arm.",
@@ -322,7 +322,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b07", "out": "s07-you-would-expect-him-to.jpeg", "seg": "n1",
-        "window": "31.81-35.47", "wide": False, "jesus": True, "ref": REF,
+        "window": "28.67-32.20", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MESSENGER", "JORDAN-CAMP"],
         "narration": (
             "You would expect him to drop everything and run. He did the "
@@ -345,7 +345,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b08", "out": "s08-he-stayed-where-he-was.jpeg", "seg": "n1",
-        "window": "35.47-39.28", "wide": False, "jesus": True, "ref": REF,
+        "window": "32.20-36.27", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JORDAN-CAMP"],
         "narration": "When the news reached him, he stayed where he was two more days.",
         "must_show": "the staying — Jesus deliberately remaining: seated by the small cook-fire at the river's edge in a different light, unhurried, while the water slides past.",
@@ -363,7 +363,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b09", "out": "s09-but-listen-to-what-he.jpeg", "seg": "n1",
-        "window": "39.70-41.71", "wide": False, "jesus": True, "ref": REF,
+        "window": "36.27-38.72", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JORDAN-CAMP"],
         "narration": "But listen to what he said about it:",
         "must_show": "the explanation coming — close on Jesus turning his head to speak, the reason already in his eyes.",
@@ -380,7 +380,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b10", "out": "s10-this-sickness-is-not-unto.jpeg", "seg": "j1",
-        "window": "42.24-49.48", "wide": False, "jesus": True, "ref": REF,
+        "window": "38.72-46.26", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JORDAN-CAMP"],
         "narration": (
             "This sickness is not unto death, but for the glory of God, that "
@@ -402,7 +402,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b11", "out": "s11-he-was-not-being-careless.jpeg", "seg": "n1b",
-        "window": "50.97-53.46", "wide": False, "jesus": True, "ref": REF,
+        "window": "46.26-48.57", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JORDAN-CAMP"],
         "narration": "He was not being careless with the people he loved.",
         "must_show": "the cost visible — close on Jesus's face: love and resolve held together; the waiting is costing him too.",
@@ -419,7 +419,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b12", "out": "s12-he-was-reaching-for-something.jpeg", "seg": "n1b",
-        "window": "53.46-60.55", "wide": False, "jesus": True, "ref": REF,
+        "window": "48.57-55.15", "wide": False, "jesus": True, "ref": REF,
         "locks": ["JORDAN-CAMP"],
         "narration": (
             "He was reaching for something deeper than a quick rescue — "
@@ -441,7 +441,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b13", "out": "s13-and-it-would-cost-those.jpeg", "seg": "n1b",
-        "window": "60.55-65.32", "wide": False, "jesus": False, "ref": False,
+        "window": "55.15-60.05", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "BETHANY-HOUSE"],
         "narration": (
             "And it would cost those two sisters four days of grief to see it."
@@ -461,7 +461,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b14", "out": "s14-by-the-time-jesus-started.jpeg", "seg": "n2",
-        "window": "65.84-71.70", "wide": False, "jesus": True, "ref": REF,
+        "window": "60.05-65.41", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BETHANY-ROAD", "ANCIENT-ROAD"],
         "narration": (
             "By the time Jesus started for Bethany, the message had changed. "
@@ -482,7 +482,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b15", "out": "s15-lazarus-was-dead-and-had.jpeg", "seg": "n2",
-        "window": "71.70-75.67", "wide": True, "jesus": False, "ref": False,
+        "window": "65.41-69.03", "wide": True, "jesus": False, "ref": False,
         "locks": ["TOMB", "MOURNERS"],
         "narration": (
             "Lazarus was dead, and had been sealed in the tomb four days."
@@ -505,7 +505,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b16", "out": "s16-that-number-is-in-the.jpeg", "seg": "n2",
-        "window": "75.67-83.13", "wide": False, "jesus": False, "ref": False,
+        "window": "69.03-75.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB"],
         "narration": (
             "That number is in the story on purpose. People of that time held "
@@ -526,7 +526,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b17", "out": "s17-four-days-meant-the-door.jpeg", "seg": "n2",
-        "window": "83.13-89.63", "wide": False, "jesus": False, "ref": False,
+        "window": "75.85-81.80", "wide": False, "jesus": False, "ref": False,
         "locks": ["BETHANY-HOUSE"],
         "narration": (
             "Four days meant the door was shut — no lingering, no hope, no "
@@ -548,7 +548,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b18", "out": "s18-everyone-in-bethany-knew-exactly.jpeg", "seg": "n2",
-        "window": "89.63-93.94", "wide": False, "jesus": False, "ref": False,
+        "window": "81.80-86.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "MOURNERS", "BETHANY-HOUSE", "BACKGROUND-CAST"],
         "narration": "Everyone in Bethany knew exactly how final four days was.",
         "must_show": "the mourning house — through the doorway: the sisters seated low among dark-clad mourners in the main room, heads bowed, the village keeping grief with them.",
@@ -569,7 +569,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b19", "out": "s19-lord-if-thou-hadst-been.jpeg", "seg": "w21",
-        "window": "94.50-98.02", "wide": False, "jesus": True, "ref": REF,
+        "window": "86.25-89.64", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD", "ANCIENT-ROAD"],
         "narration": "Lord, if thou hadst been here, my brother had not died.",
         "must_show": "SCRIPTURE-EXACT: Martha's grief spoken to his face — over Jesus's shoulder onto Martha, tear-streaked, the words half accusation and half collapse.",
@@ -587,7 +587,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b20", "out": "s20-but-i-know-that-even.jpeg", "seg": "w21",
-        "window": "98.02-104.11", "wide": False, "jesus": False, "ref": False,
+        "window": "89.64-96.94", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": (
             "But I know, that even now, whatsoever thou wilt ask of God, God "
@@ -608,7 +608,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b21", "out": "s21-martha-heard-he-was-finally.jpeg", "seg": "n3",
-        "window": "105.61-111.43", "wide": True, "jesus": True, "ref": REF,
+        "window": "96.94-102.22", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD", "ANCIENT-ROAD"],
         "narration": (
             "Martha heard he was finally near and ran out to meet him on the "
@@ -631,7 +631,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b22", "out": "s22-what-she-said-was-grief.jpeg", "seg": "n3",
-        "window": "111.90-116.43", "wide": False, "jesus": True, "ref": REF,
+        "window": "102.22-106.43", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": (
             "What she said was grief and faith tangled together in one breath:"
@@ -651,7 +651,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b23", "out": "s23-jesus-told-her-your-brother.jpeg", "seg": "n4",
-        "window": "116.91-119.81", "wide": False, "jesus": True, "ref": REF,
+        "window": "106.43-108.98", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": "Jesus told her, your brother will rise again.",
         "must_show": "the promise given gently — a two-shot: Jesus speaking it plainly to Martha, his steadiness against her exhaustion.",
@@ -669,7 +669,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b24", "out": "s24-martha-nodded-the-way-we.jpeg", "seg": "n4",
-        "window": "119.81-128.17", "wide": False, "jesus": False, "ref": False,
+        "window": "108.98-116.83", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": (
             "Martha nodded the way we nod at things we believe but cannot feel "
@@ -690,7 +690,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b25", "out": "s25-and-jesus-took-the-whole.jpeg", "seg": "n4",
-        "window": "128.72-136.22", "wide": False, "jesus": True, "ref": REF,
+        "window": "116.83-123.93", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": (
             "And Jesus took the whole promise out of the far-off future and set "
@@ -711,7 +711,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b26", "out": "s26-i-am-the-resurrection-and.jpeg", "seg": "j2",
-        "window": "136.78-143.60", "wide": False, "jesus": True, "ref": REF,
+        "window": "123.93-129.83", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": (
             "I am the resurrection, and the life: he that believeth in me, "
@@ -732,7 +732,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b27", "out": "s27-and-whosoever-liveth-and-believeth.jpeg", "seg": "j2",
-        "window": "143.60-148.13", "wide": False, "jesus": True, "ref": REF,
+        "window": "129.83-133.75", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": (
             "And whosoever liveth and believeth in me shall never die."
@@ -753,7 +753,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b28", "out": "s28-believest-thou-this.jpeg", "seg": "j2",
-        "window": "148.13-150.34", "wide": False, "jesus": True, "ref": REF,
+        "window": "133.75-136.96", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": "Believest thou this?",
         "must_show": "the question — close on Jesus: the direct, personal ask; nowhere for her to hide from it.",
@@ -771,7 +771,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b29", "out": "s29-yea-lord-i-believe-that.jpeg", "seg": "w27",
-        "window": "151.83-157.87", "wide": False, "jesus": False, "ref": False,
+        "window": "136.96-144.61", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": (
             "Yea, Lord: I believe that thou art the Christ, the Son of God, "
@@ -792,7 +792,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b30", "out": "s30-he-did-not-offer-her.jpeg", "seg": "n5",
-        "window": "159.43-166.68", "wide": False, "jesus": True, "ref": REF,
+        "window": "144.61-152.35", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "BETHANY-ROAD"],
         "narration": (
             "He did not offer her a doctrine to file away until the last day. "
@@ -813,7 +813,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b31", "out": "s31-then-mary-came-and-fell.jpeg", "seg": "n5",
-        "window": "166.68-172.20", "wide": False, "jesus": True, "ref": REF,
+        "window": "152.35-158.25", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARY", "BETHANY-ROAD"],
         "narration": (
             "Then Mary came — the quieter sister — and she fell at his feet and "
@@ -835,7 +835,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b32", "out": "s32-and-every-mourner-who-had.jpeg", "seg": "n5",
-        "window": "172.20-175.68", "wide": False, "jesus": False, "ref": False,
+        "window": "158.25-161.97", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARY", "MOURNERS", "BETHANY-ROAD", "BACKGROUND-CAST"],
         "narration": "and every mourner who had followed her out wept too.",
         "must_show": "the grief spreading — behind kneeling Mary: the dark-clad mourners arriving from the village and breaking into weeping around her.",
@@ -853,7 +853,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b33", "out": "s33-the-whole-road-dissolved-into.jpeg", "seg": "n5",
-        "window": "175.68-178.42", "wide": True, "jesus": True, "ref": REF,
+        "window": "161.97-165.50", "wide": True, "jesus": True, "ref": REF,
         "locks": ["MARY", "MOURNERS", "BETHANY-ROAD", "ANCIENT-ROAD", "BACKGROUND-CAST"],
         "narration": "The whole road dissolved into grief.",
         "must_show": "the whole road grieving — a wide from behind Jesus: Mary at his feet, the weeping crowd filling the road beyond, the village edge behind them.",
@@ -873,7 +873,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b34", "out": "s34-lord-if-thou-hadst-been-mary.jpeg", "seg": "w32",
-        "window": "178.99-182.66", "wide": False, "jesus": False, "ref": False,
+        "window": "165.50-170.43", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARY", "BETHANY-ROAD"],
         "narration": "Lord, if thou hadst been here, my brother had not died.",
         "must_show": "SCRIPTURE-EXACT: the same words again — close on Mary's upturned tear-flooded face from low at his feet, the echo of her sister's sentence.",
@@ -891,7 +891,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b35", "out": "s35-jesus-wept.jpeg", "seg": "n6",
-        "window": "184.19-190.44", "wide": False, "jesus": True, "ref": REF,
+        "window": "170.43-176.61", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BETHANY-ROAD"],
         "narration": (
             "And then comes the shortest verse in the whole Bible, and one of "
@@ -911,7 +911,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b36", "out": "s36-sit-with-that.jpeg", "seg": "n6",
-        "window": "190.44-191.75", "wide": False, "jesus": True, "ref": REF,
+        "window": "176.61-177.91", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BETHANY-ROAD"],
         "narration": "Sit with that.",
         "must_show": "the hold — an extreme close: one tear tracking down into his beard, his eyes closing.",
@@ -927,7 +927,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b37", "out": "s37-the-one-man-there-who.jpeg", "seg": "n6",
-        "window": "191.75-200.90", "wide": False, "jesus": True, "ref": REF,
+        "window": "177.91-186.96", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "TOMB"],
         "narration": (
             "The one man there who knew — knew — that in a few minutes Lazarus "
@@ -950,7 +950,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b38", "out": "s38-not-because-he-had-run.jpeg", "seg": "n6",
-        "window": "200.90-203.40", "wide": False, "jesus": True, "ref": REF,
+        "window": "186.96-189.43", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": "Not because he had run out of options.",
         "must_show": "grief without despair — close on his wet face: the jaw setting THROUGH the tears; sorrow with power intact underneath it.",
@@ -968,7 +968,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b39", "out": "s39-he-cried-because-the-people.jpeg", "seg": "n6",
-        "window": "203.40-211.22", "wide": False, "jesus": True, "ref": REF,
+        "window": "189.43-197.17", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "MARY", "TOMB"],
         "narration": (
             "He cried because the people he loved were broken, and death is a "
@@ -989,7 +989,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b40", "out": "s40-he-did-not-skip-the.jpeg", "seg": "n6",
-        "window": "211.22-216.10", "wide": False, "jesus": True, "ref": REF,
+        "window": "197.17-202.57", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOURNERS", "TOMB", "BACKGROUND-CAST"],
         "narration": (
             "He did not skip the grief. He walked all the way into it with "
@@ -1011,7 +1011,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b41", "out": "s41-the-tomb-was-a-cave.jpeg", "seg": "n7",
-        "window": "216.68-220.48", "wide": False, "jesus": False, "ref": False,
+        "window": "202.57-207.91", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB"],
         "narration": (
             "The tomb was a cave with a heavy stone rolled across its mouth."
@@ -1031,7 +1031,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b42", "out": "s42-jesus-said-take-away-the.jpeg", "seg": "n7",
-        "window": "220.48-223.51", "wide": False, "jesus": True, "ref": REF,
+        "window": "207.91-212.83", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": "Jesus said, take away the stone.",
         "must_show": "TOMB STATE: SEALED - the one round stone sits flush IN the doorway groove, no opening visible. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: the command — Jesus in profile, arm fully extended, pointing at the stone; the order given plainly.",
@@ -1048,7 +1048,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b43", "out": "s43-practical-careful-martha-panicked.jpeg", "seg": "n7",
-        "window": "223.98-227.50", "wide": False, "jesus": False, "ref": False,
+        "window": "212.83-218.56", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "TOMB"],
         "narration": "Practical, careful Martha panicked:",
         "must_show": "TOMB STATE: SEALED - the one round stone sits flush IN the doorway groove, no opening visible. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the panic — close on Martha: one hand flying up in protest, alarm breaking through the grief; the practical woman hitting the practical horror.",
@@ -1065,7 +1065,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b44", "out": "s44-lord-by-this-time-he.jpeg", "seg": "w39",
-        "window": "228.06-232.24", "wide": False, "jesus": True, "ref": REF,
+        "window": "218.56-224.48", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "TOMB"],
         "narration": (
             "Lord, by this time he stinketh: for he hath been dead four days."
@@ -1086,7 +1086,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b45", "out": "s45-said-i-not-unto-thee.jpeg", "seg": "j3",
-        "window": "234.07-239.78", "wide": False, "jesus": True, "ref": REF,
+        "window": "224.48-230.41", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARTHA", "TOMB"],
         "narration": (
             "Said I not unto thee, that, if thou wouldest believe, thou "
@@ -1107,7 +1107,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b46", "out": "s46-so-they-leaned-into-the.jpeg", "seg": "n7b",
-        "window": "241.30-245.20", "wide": False, "jesus": False, "ref": False,
+        "window": "230.41-234.13", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOURNERS", "TOMB"],
         "narration": (
             "So they leaned into the great stone and rolled it back,"
@@ -1128,7 +1128,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b47", "out": "s47-and-the-dark-mouth-of.jpeg", "seg": "n7b",
-        "window": "245.20-247.66", "wide": False, "jesus": False, "ref": False,
+        "window": "234.13-236.95", "wide": False, "jesus": False, "ref": False,
         "locks": ["MOURNERS", "TOMB"],
         "narration": (
             "and the dark mouth of the grave stood open to the daylight."
@@ -1149,7 +1149,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b48", "out": "s48-he-lifted-his-eyes-and.jpeg", "seg": "n8",
-        "window": "248.16-256.73", "wide": False, "jesus": True, "ref": REF,
+        "window": "236.95-246.30", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MOURNERS", "TOMB", "BACKGROUND-CAST"],
         "narration": (
             "He lifted his eyes and prayed out loud — not because heaven was "
@@ -1173,7 +1173,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b49", "out": "s49-and-then-he-called-into.jpeg", "seg": "n8",
-        "window": "257.21-261.58", "wide": False, "jesus": True, "ref": REF,
+        "window": "246.30-251.41", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": (
             "And then he called into the dark, in a voice they said was loud "
@@ -1194,7 +1194,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b50", "out": "s50-lazarus-come-forth.jpeg", "seg": "j4",
-        "window": "262.16-263.88", "wide": False, "jesus": True, "ref": REF,
+        "window": "251.41-254.19", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": "Lazarus, come forth.",
         "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: THE SHOUT — tight close on Jesus mid-command: mouth open, cords of the neck standing, absolute authority aimed into the tomb.",
@@ -1212,7 +1212,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b51", "out": "s51-and-the-dead-man-came.jpeg", "seg": "n9",
-        "window": "265.37-266.77", "wide": False, "jesus": False, "ref": False,
+        "window": "254.19-255.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB"],
         "narration": "And the dead man came out.",
         "must_show": "LAZARUS IS WRAPPED IN WHITE LINEN GRAVECLOTHES head to foot (never brown robes, never ordinary clothing) - white burial strips, face bound, emerging from the dark doorway into the light. TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: first sight — deep inside the black doorway, a linen-bound upright form at the far edge of the light, barely resolved, coming forward.",
@@ -1231,7 +1231,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b52", "out": "s52-bound-hand-and-foot-in.jpeg", "seg": "n9",
-        "window": "266.77-271.50", "wide": False, "jesus": False, "ref": False,
+        "window": "255.50-259.92", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB"],
         "narration": (
             "Bound hand and foot in strips of grave-linen, his face still "
@@ -1253,7 +1253,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b53", "out": "s53-lazarus-stood-in-the-mouth.jpeg", "seg": "n9",
-        "window": "271.50-275.22", "wide": False, "jesus": False, "ref": False,
+        "window": "259.92-263.39", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB"],
         "narration": (
             "Lazarus stood in the mouth of his own tomb — alive."
@@ -1274,7 +1274,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b54", "out": "s54-four-days-gone-and-standing.jpeg", "seg": "n9",
-        "window": "275.22-278.53", "wide": False, "jesus": False, "ref": False,
+        "window": "263.39-266.48", "wide": False, "jesus": False, "ref": False,
         "locks": ["TOMB"],
         "narration": "Four days gone, and standing in the light.",
         "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the close hold — the wrapped head and shoulders in full sun: the napkin over the face, linen bright, absolutely still.",
@@ -1292,7 +1292,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b55", "out": "s55-nobody-moved-nobody-breathed.jpeg", "seg": "n9",
-        "window": "278.53-282.09", "wide": True, "jesus": False, "ref": False,
+        "window": "266.48-270.28", "wide": True, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "MOURNERS", "TOMB", "BACKGROUND-CAST"],
         "narration": "Nobody moved. Nobody breathed.",
         "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. the frozen crowd — a wide of the mourners rooted on the slope, hands over mouths, every gaze locked on the tomb mouth; the sisters gripping each other at the front.",
@@ -1313,7 +1313,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b56", "out": "s56-loose-him-and-let-him.jpeg", "seg": "j5",
-        "window": "282.60-284.23", "wide": False, "jesus": True, "ref": REF,
+        "window": "270.28-273.15", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": "Loose him, and let him go.",
         "must_show": "TOMB STATE: OPEN - the stone rests beside the doorway where the men slid it; ONE stone, ONE dark doorway. SHOW ONLY THIS MOMENT: nothing in frame that the narration does not name - no side conversations, no invented interactions, no background people doing other things, no second tomb or extra stone, no props beyond the scene. ONE SINGLE CONTINUOUS PHOTOGRAPH - never panels or stacked frames. SCRIPTURE-EXACT: the release — a two-shot: Jesus's open hand extended toward the bound standing figure, the command bridging the space between them.",
@@ -1332,7 +1332,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b57", "out": "s57-unwrap-him-take-the-grave.jpeg", "seg": "n10",
-        "window": "285.76-291.11", "wide": False, "jesus": False, "ref": False,
+        "window": "273.15-278.14", "wide": False, "jesus": False, "ref": False,
         "locks": ["LAZARUS", "MOURNERS", "TOMB"],
         "narration": (
             "Unwrap him. Take the grave-linen off a living man and let him "
@@ -1355,7 +1355,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b58", "out": "s58-this-was-the-last-great.jpeg", "seg": "n10",
-        "window": "291.11-298.50", "wide": False, "jesus": False, "ref": False,
+        "window": "278.14-285.05", "wide": False, "jesus": False, "ref": False,
         "locks": ["MARTHA", "MARY", "LAZARUS", "MOURNERS", "TOMB", "BACKGROUND-CAST"],
         "narration": (
             "This was the last great sign before Jesus turned toward his own "
@@ -1381,7 +1381,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b59", "out": "s59-so-that-no-one-could.jpeg", "seg": "n10",
-        "window": "298.50-303.98", "wide": False, "jesus": True, "ref": REF,
+        "window": "285.05-290.17", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": (
             "so that no one could ever call it a trick of the light."
@@ -1402,7 +1402,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b60", "out": "s60-looked-death-full-in-the.jpeg", "seg": "n10",
-        "window": "303.98-311.24", "wide": False, "jesus": True, "ref": REF,
+        "window": "290.17-296.95", "wide": False, "jesus": True, "ref": REF,
         "locks": ["LAZARUS", "TOMB"],
         "narration": (
             "The one who stands over every grave you have ever wept beside "
@@ -1425,7 +1425,7 @@ BEATS = [
     },
     {
         "id": "v2-r017-b61", "out": "s61-he-is-the-resurrection.jpeg", "seg": "n10",
-        "window": "311.24-316.27", "wide": False, "jesus": True, "ref": REF,
+        "window": "296.95-302.11", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB"],
         "narration": (
             "He does not merely explain the resurrection. He is the "
