@@ -135,7 +135,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 121 | build-121-salt-and-light | BUILT | 0 | OK | SHIPPED 2026-08-09 (Opus runner Machine A `Dev`, died-lane resume, V2 realistic rebuild, AUDIO LOCK 642b6930…, 1 reroll/29) | ✅ |
 | 122 | build-122-mote-and-beam | BUILT | 27 | OK | A-auto 2026-08-11 SHIPPED | ✅ |
 | 123 | build-123-golden-rule | BUILT | 23 | OK | A-auto 2026-08-11 SHIPPED realistic-v2 — 23 realistic stills (V1 had 10), 148.8s, **0 rerolls (0%)** ~$3.08, AUDIO LOCK PASS 4bb457ae (byte-identical narration). Golden rule (Matt 7:12 + Luke 6:38) told as the illustration: 7 Jesus HILLSIDE beats (locked face, cream-only, no halo, calm eyes) + 16 day-life vignettes (VILLAGE/ROAD) — doorstep-seeing, bread/water/mercy given, the fallen lifted forearm-to-forearm, grain poured into the robe lap-fold ("good measure into your bosom"), a lamplit-evening village carrying one another. s04 bonus: correct Hebrew of Lev 19:18 on the scroll strip. FULL-CUT GATE PASS (no cartoon/mix, no 2nd cream, no modern objects, no collage, captions white/red synced, card clean). Deployed + live-verified. | ✅ |
-| 124 | build-124-love-your-enemies | AUTHORED | 0 | OK |  | ✅ |
+| 124 | build-124-love-your-enemies | RUNNING | 0 | OK | A-auto 2026-08-11 LIVE (Opus runner Machine A `Dev`) — realistic-v2 build in progress; FARMER+NEIGHBOUR portraits made + REFS wired, audio preflight PASS (dur 0.073s, newer=0). | ✅ |
 | 125 | build-125-i-never-knew-you | AUTHORED | 0 | OK |  | ✅ |
 | 126 | build-126-by-their-fruits | AUTHORED | 0 | OK |  | ✅ |
 | 127 | build-127-the-strait-gate | AUTHORED | 0 | OK |  | ✅ |
