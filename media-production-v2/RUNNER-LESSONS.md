@@ -1050,3 +1050,12 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   audio lane to set `AUDIO_FROM_V1_SEGMENTS=True` (rebuild from V1 mp3s, nothing re-voiced),
   which then makes them buildable. Batch pre-flighting the whole authored block this way ($0)
   tells you which rows to build vs park before touching the meter.
+
+- **AUDIO_FROM_V1_SEGMENTS crashed on a SILENT question card (2026-08-11, row 128, audio
+  lane).** `rebuild_audio_from_segments` unconditionally appended the card's mp3, so a row
+  whose closing question card is silent (`beats.json "silent": true` → `card seg=None,
+  audio_start=None`) died with `missing V1 segment audio audio/None.mp3` — blocking the
+  sanctioned STALE-V1 fix. FIX (shipped in v2_assemble.py): only place the card when
+  `data["card"].get("seg") is not None`; a silent card contributes no audio and the existing
+  `apad=whole_dur=total` already pads the track through its on-screen duration. Spoken cards
+  (seg='card') are unchanged. Any future silent-card row now rebuilds cleanly.

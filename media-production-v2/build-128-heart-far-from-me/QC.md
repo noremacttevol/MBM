@@ -66,3 +66,27 @@ FIX is audio-lane only: set `AUDIO_FROM_V1_SEGMENTS = True` in this build's beat
 then `python3 media-production-v2/v2_assemble.py 128` must print AUDIO REBUILD PASS; the
 row is then buildable for a picture runner. See build-125-i-never-knew-you/QC.md for the
 full batch diagnosis (125/126/127 excess-tail ~0.9s; 128 has 8 newer mp3s).
+
+---
+
+## ✅ AUDIO-LANE FIX APPLIED — Opus audio-fix lane, Machine A `Dev`, 2026-08-11, $0
+
+**STALE-V1 resolved (8 newer mp3s, −1.778s — the story was re-recorded but never
+re-rendered into a new V1 mp4).** Added `AUDIO_FROM_V1_SEGMENTS = True` to
+`beats_v2.py` so the track is rebuilt from the 8 CURRENT V1 segment mp3s
+(n1,n2,j1,n3,j2,n4,j3,n5 — all present) at the extract_beats offsets. The stale V1
+mp4's AAC (which failed `assert_v1_final_is_current`) is no longer used.
+
+**Tooling fix required first:** this row's closing question card is SILENT
+(`beats.json: "silent": true, seg=null, audio_start=null`), so
+`rebuild_audio_from_segments` was crashing trying to load `audio/None.mp3`.
+Patched it to skip a null-seg card (a silent card contributes no audio; `apad`
+already pads the track through its 6.78s on-screen duration). Safe for every other
+row — spoken cards have seg='card', unchanged.
+
+**Validated ($0, no TTS, no Gemini):** rebuilt track = 97.445s, delta 0.000s vs the
+mp3 timeline total. No re-voice — same voices, wording, timing.
+
+**Row is buildable.** 0 stills → board flipped to **AUTHORED / Audio OK / Ready ✅**;
+a picture runner builds the stills then runs `v2_assemble.py 128` → AUDIO REBUILD
+PASS and ships the full cut.

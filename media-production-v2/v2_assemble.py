@@ -173,8 +173,12 @@ def rebuild_audio_from_segments(v1dir, segs, data):
     total = data["total"]
     places = [(os.path.join(v1dir, "audio", f"{b['seg']}.mp3"), b["audio_start"])
               for b in data["beats"] if b["speaker"] != "silence"]
-    places.append((os.path.join(v1dir, "audio", f"{data['card']['seg']}.mp3"),
-                   data["card"]["audio_start"]))
+    # A SILENT question card (beats.json "silent": true → seg=None, audio_start=None,
+    # e.g. row 128) has no spoken mp3; it contributes no audio and the apad below
+    # pads the track through its on-screen duration. Only place a card that has one.
+    if data["card"].get("seg") is not None:
+        places.append((os.path.join(v1dir, "audio", f"{data['card']['seg']}.mp3"),
+                       data["card"]["audio_start"]))
     inputs, filters, labels = [], [], []
     for i, (path, start) in enumerate(places):
         if not os.path.isfile(path):

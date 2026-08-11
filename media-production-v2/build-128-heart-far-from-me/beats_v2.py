@@ -82,6 +82,13 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1 fix (audio lane, 2026-08-11): the story was re-recorded (8 newer mp3s,
+# −1.778s vs the old V1 mp4) but never re-rendered. Rebuild the track from the
+# current V1 segment mp3s at the extract_beats offsets instead of copying the stale
+# V1 mp4's AAC. Re-voices nothing ($0). The closing question card is SILENT (no
+# card.mp3) — v2_assemble skips it and pads the tail. See QC.md.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r128-b01", "out": "s01-some-of-the-religious-leaders.jpeg", "seg": "n1",
