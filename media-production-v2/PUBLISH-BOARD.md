@@ -7,12 +7,12 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T18:35:02_
+_Last sync: 2026-08-11T18:55:43_
 
 ## Summary
 
-- **APPROVED — not published** — 33 row(s)
-- **BUILDING** — 78 row(s)
+- **APPROVED — not published** — 34 row(s)
+- **BUILDING** — 77 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
 - **ON REVIEWER — awaiting Cameron** — 45 row(s)
@@ -86,7 +86,7 @@ _Last sync: 2026-08-11T18:35:02_
 | 63 | The Man Born Blind | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 64 | The Pool of Bethesda | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 65 | Help Mine Unbelief | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 66 | Malchus Ear | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 66 | Malchus Ear | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 67 | The Transfiguration | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 69 | Baptism of Jesus | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
@@ -171,7 +171,7 @@ _Last sync: 2026-08-11T18:35:02_
 | 148 | Ruth and the Redeemer | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 149 | Hannah Is Heard | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 150 | The Shepherd Psalm | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 151 | If Any of You Lack Wisdom | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 151 | If Any of You Lack Wisdom | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 152 | He Revealeth His Secret to the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 153 | The Restitution of All Things | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 154 | The Angel with the Everlasting Gospel | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
