@@ -40,3 +40,19 @@ nearness pair). File order ≠ story order (b08 at 42s before b09's
 - Plates: none auto-matched (clean). ATHENS promote-first from b01,
   ALTAR from b02.
 - b05 agora life: varied faces, no clones (rows 90/107).
+
+
+---
+
+## ✅ AUDIO-LANE FIX APPLIED — Opus audio-fix lane, Machine A `Dev`, 2026-08-11, $0
+
+**STALE-V1 resolved (8 newer mp3s / +16.3s).** Added `AUDIO_FROM_V1_SEGMENTS = True` to `beats_v2.py`
+(after `REF = True`). The authoritative track is now rebuilt from the V1 narration mp3s
+at the extract_beats offsets instead of copying the stale V1 mp4's AAC stream that failed
+`assert_v1_final_is_current`. **Validated ($0, no TTS, no Gemini):** rebuilt track = 54.138s,
+delta 0.000s vs the mp3 timeline total (guard needs <0.5s). No re-voice — same voices,
+wording, timing.
+
+**Row is buildable.** 0 stills, so per the audio-fix protocol the board is flipped to
+**AUTHORED / Audio OK / Ready ✅**; a picture runner generates the stills then runs
+`v2_assemble.py 138` → AUDIO REBUILD PASS and ships the full cut on this fixed audio.

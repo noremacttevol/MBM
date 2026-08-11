@@ -53,3 +53,19 @@ FIX is audio-lane only: set `AUDIO_FROM_V1_SEGMENTS = True` in this build's beat
 then `python3 media-production-v2/v2_assemble.py 127` must print AUDIO REBUILD PASS; the
 row is then buildable for a picture runner. See build-125-i-never-knew-you/QC.md for the
 full batch diagnosis (125/126/127 excess-tail ~0.9s; 128 has 8 newer mp3s).
+
+
+---
+
+## ✅ AUDIO-LANE FIX APPLIED — Opus audio-fix lane, Machine A `Dev`, 2026-08-11, $0
+
+**STALE-V1 resolved (+0.889).** Added `AUDIO_FROM_V1_SEGMENTS = True` to `beats_v2.py`
+(after `REF = True`). The authoritative track is now rebuilt from the V1 narration mp3s
+at the extract_beats offsets instead of copying the stale V1 mp4's AAC stream that failed
+`assert_v1_final_is_current`. **Validated ($0, no TTS, no Gemini):** rebuilt track = 66.711s,
+delta 0.000s vs the mp3 timeline total (guard needs <0.5s). No re-voice — same voices,
+wording, timing.
+
+**Row is buildable.** 0 stills, so per the audio-fix protocol the board is flipped to
+**AUTHORED / Audio OK / Ready ✅**; a picture runner generates the stills then runs
+`v2_assemble.py 127` → AUDIO REBUILD PASS and ships the full cut on this fixed audio.

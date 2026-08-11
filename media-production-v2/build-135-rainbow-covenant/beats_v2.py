@@ -87,6 +87,11 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1 fix (audio lane, 2026-08-11): rebuild the audio track from the V1
+# segment mp3s at the extract_beats offsets instead of copying the stale V1
+# mp4's AAC (which fails assert_v1_final_is_current). Re-voices nothing ($0).
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r135-b01", "out": "s01-the-rain-had-stopped.jpeg", "seg": "n1",
