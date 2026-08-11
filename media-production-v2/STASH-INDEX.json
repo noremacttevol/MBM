@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 14:26:50",
+ "scanned": "2026-08-11 14:53:58",
  "entries": [
   {
    "row": 1,
@@ -42951,22 +42951,6 @@
   {
    "row": 95,
    "build": "build-95-thief-on-the-cross",
-   "beat": "v2-r095-b01",
-   "file": "build-95-thief-on-the-cross/assets/s01-two-criminals-were-crucified-with.jpeg",
-   "tokens": [
-    "HILL",
-    "MOCKER",
-    "THIEF"
-   ],
-   "jesus": true,
-   "wide": true,
-   "night": false,
-   "n_person": 3,
-   "scene": "The grey morning holds, the camera down the slope behind the scattered watchers, the three of them against its cold sky: the centre cross and its two companions, one either side exactly as the sentence orders \u2014 and from "
-  },
-  {
-   "row": 95,
-   "build": "build-95-thief-on-the-cross",
    "beat": "v2-r095-b02",
    "file": "build-95-thief-on-the-cross/assets/s02-that-was-one-of-them.jpeg",
    "tokens": [
@@ -51773,6 +51757,454 @@
    "scene": "The sentence leaves the hill inside its hearers, the camera looking down the slope from behind Jesus's shoulder: in the golden last light the crowd begins to rise from the grass and turn away downhill \u2014 fishermen toward "
   },
   {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b01",
+   "file": "build-124-love-your-enemies/assets/s01-on-a-green-hillside-above.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole countryside is still arriving, the camera looking past the seated crowd's backs up the green slope: Jesus seated at the crest in the warm gold above the blue lake, the grass already thick with fishermen and fam"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b02",
+   "file": "build-124-love-your-enemies/assets/s02-it-felt-fair.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The old rule polls well on the hillside: along the seated rows the heads nod easily \u2014 a fisherman's slow agreeing tilt, an elder's grunt of assent, a mother pulling her child a half-inch closer at the word enemy \u2014 love y"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b03",
+   "file": "build-124-love-your-enemies/assets/s03-he-was-walking-through-the.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon works down its list in plain sight: Jesus counting the old sayings off on his fingers one at a time \u2014 ye have heard... ye have heard \u2014 each familiar rule raised and turned over like a coin checked for true wei"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b04",
+   "file": "build-124-love-your-enemies/assets/s04-ye-have-heard-that-it.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The received version is read into the record: Jesus with one hand held flat and level, palm down \u2014 the posture of a man quoting, not yet teaching \u2014 the old line laid out exactly as everyone learned it at their father's t"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b05",
+   "file": "build-124-love-your-enemies/assets/s05-everyone-on-that-hillside-knew.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER",
+    "NEIGHBOUR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The old arithmetic has a landscape: two stone farmhouses on facing slopes of one shallow valley, and running between their fields the long dry-stone wall that does their talking for them \u2014 on one side the lean farmer in "
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b06",
+   "file": "build-124-love-your-enemies/assets/s06-it-felt-safe-and-then.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The comfortable nodding runs out of road: Jesus pauses with the breath for the next sentence visibly taken and held, his gaze moving once along the settled rows \u2014 and the hillside's easy motion stills row by row, nods dy"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b07",
+   "file": "build-124-love-your-enemies/assets/s07-not-tolerate-them.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER",
+    "NEIGHBOUR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "What the sentence does NOT mean is already on offer at the well: the two farmers arriving from their own sides for water, exchanging the stiff quarter-nod of men being civil at the minimum legal rate \u2014 eyes sliding past "
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b08",
+   "file": "build-124-love-your-enemies/assets/s08-but-i-say-unto-you.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The audit lands with four verbs and no exemptions: Jesus's arms open wide over the crowd \u2014 LOVE them, BLESS them, DO GOOD to them, PRAY for them \u2014 each verb aimed precisely at the people who have earned the opposite, and"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b09",
+   "file": "build-124-love-your-enemies/assets/s09-not-stay-out-of-their.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER",
+    "NEIGHBOUR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The first verb crosses the well in one raised hand: the farmer, bucket set down, lifts his hand toward the neighbour in an actual greeting \u2014 small, deliberate, unmistakably aimed \u2014 and the heavier man looks up from his r"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b10",
+   "file": "build-124-love-your-enemies/assets/s10-do-good-pray.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Two more verbs land on faces already reeling: close along the front rows as the words sink \u2014 the young farmer's brow knotted over the mathematics of doing GOOD to the man who hates him, an old woman's lips repeating pray"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b11",
+   "file": "build-124-love-your-enemies/assets/s11-every-one-of-those-is.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verbs turn out to have legs: the farmer walks the wall-line with his mattock and a coil of rope over one shoulder, stride set deliberately TOWARD the neighbour's side of the valley \u2014 not drifting, not detouring, frei"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b12",
+   "file": "build-124-love-your-enemies/assets/s12-picture-a-farmer-whose-neighbor.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER",
+    "NEIGHBOUR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole case file fits in one valley frame: there in the wall the old knocked-down gap, mended crooked and never forgiven; there the shared well where the insult was said and has been re-heard every drawing since; and "
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b13",
+   "file": "build-124-love-your-enemies/assets/s13-he-has-every-right-to.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER",
+    "NEIGHBOUR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Nobody could fault the arrangement: at the well the two men take their water in strict turn, backs fully turned, the distance between them measured out to the exact width of the wrong \u2014 every motion correct, every right "
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b14",
+   "file": "build-124-love-your-enemies/assets/s14-that-is-the-old-arithmetic.jpeg",
+   "tokens": [
+    "FARMS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The valley has long since filed the feud under normal: two elders resting at the well give the familiar standoff the mildest of shrugs \u2014 one tilt of a grey head, one puff of breath \u2014 the way men acknowledge weather that "
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b15",
+   "file": "build-124-love-your-enemies/assets/s15-instead-when-his-wall-gives.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER",
+    "NEIGHBOUR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The new arithmetic starts work without an announcement: along the neighbour's stretch the rains have taken the wall down in a tumbled scatter \u2014 and there in the grey after-rain light stands the wronged farmer, sleeves we"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b16",
+   "file": "build-124-love-your-enemies/assets/s16-and-at-night-when-the.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The hardest verb waits for the hour with no witnesses: the valley gone fully dark, both farms asleep under the ridge \u2014 except for one small window in the farmer's stone house holding its steady lamp-warmth against the ni"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b17",
+   "file": "build-124-love-your-enemies/assets/s17-by-the-light-of-his.jpeg",
+   "tokens": [
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The prayer's grammar is visible in the hands: the farmer kneels on the swept floor by his one clay lamp, and his hands are OPEN \u2014 palms up, fingers loose, nothing clenched anywhere in him \u2014 the face above them lifted and"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b18",
+   "file": "build-124-love-your-enemies/assets/s18-for-him-by-name.jpeg",
+   "tokens": [
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The costliest word in the prayer is a name: close on the farmer's lamplit face, eyes closed, lips caught mid-syllable around the one word he has spent years not saying \u2014 the neighbour's own name, spoken gently, on purpos"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b19",
+   "file": "build-124-love-your-enemies/assets/s19-he-was-not-pretending-enemies.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The command comes from a face that knows its price: close on Jesus in the late gold, and there is nothing breezy in him \u2014 the eyes grave with full acquaintance of what enemies cost, what curses weigh, how despiteful use "
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b20",
+   "file": "build-124-love-your-enemies/assets/s20-why-would-jesus-ask-for.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The hillside asks the obvious question with its whole body: brows furrowed down the rows, one man's hands opening in the universal shrug of but-why, neighbours turning to consult each other's equally baffled faces \u2014 no r"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b21",
+   "file": "build-124-love-your-enemies/assets/s21-that-ye-may-be-the.jpeg",
+   "tokens": [
+    "FARMS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The reason rises over the ridge like it does every morning: one sun flooding the shallow valley edge to edge \u2014 the farmer's rows and the neighbour's olives taking the identical gold at the identical instant, the long wal"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b22",
+   "file": "build-124-love-your-enemies/assets/s22-look-at-the-sky-he.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The answer was overhead the whole time: Jesus's arm sweeps up toward the wide bright sky above the lake, and the hillside's faces lift together with the gesture \u2014 fishermen shading their eyes, children tipping all the wa"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b23",
+   "file": "build-124-love-your-enemies/assets/s23-your-sun-came-up-this.jpeg",
+   "tokens": [
+    "FARMS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At field level the evenhandedness is even plainer: the morning lies identical on both slopes \u2014 the same gold on the farmer's young barley and the neighbour's olive rows, the same warmth soaking both stone houses' eastern"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b24",
+   "file": "build-124-love-your-enemies/assets/s24-his-rain-waters-both-loving.jpeg",
+   "tokens": [
+    "FARMS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The rain keeps the same books as the sun: a silver curtain of it drifting the valley's full width, falling without preference on barley and olives, on this roof and that roof, both fields drinking, both cisterns filling,"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b25",
+   "file": "build-124-love-your-enemies/assets/s25-in-this-family-it-is.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The point of the weather turns out to be family: Jesus's hand comes down from the sky in one slow line to rest, open, toward the crowd's own chests \u2014 the sun's habit, the rain's habit, offered to them as the family trait"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b26",
+   "file": "build-124-love-your-enemies/assets/s26-for-if-ye-love-them.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The question comes with a raised eyebrow and no exits: Jesus tilts his head, brows lifted, the faint beginning of a smile at the mouth's corner \u2014 if you only love the ones who love you, what exactly is the achievement? \u2014"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b27",
+   "file": "build-124-love-your-enemies/assets/s27-if-you-only-love-the.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The question finds everyone home: along the rows the faces do the small honest arithmetic and come up short \u2014 a fisherman's rueful half-smile breaking as he catches himself, an elder's long slow exhale, a young mother's "
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b28",
+   "file": "build-124-love-your-enemies/assets/s28-even-the-tax-collectors-manage.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The bar being cleared is set in a courtyard: around a publican's low table the tax collectors dine warmly \u2014 wine passed, laughter easy, hands on shoulders \u2014 every bit of it genuine and every bit of it spent strictly insi"
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b29",
+   "file": "build-124-love-your-enemies/assets/s29-the-love-that-marks-you.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER",
+    "NEIGHBOUR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The family trait crosses the wall in a basket: over the rebuilt stones the farmer passes a woven basket of bread and early figs across to the neighbour \u2014 unasked, unowed, unaccountable under the old arithmetic \u2014 and the "
+  },
+  {
+   "row": 124,
+   "build": "build-124-love-your-enemies",
+   "beat": "v2-r124-b30",
+   "file": "build-124-love-your-enemies/assets/s30-and-sometimes-slowly-it-wins.jpeg",
+   "tokens": [
+    "FARMS",
+    "FARMER",
+    "NEIGHBOUR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The wall gets a new job at golden evening: the two farmers sit ON it, side by side at its low point by the well \u2014 bread broken between them, a water-skin passing, their mattocks leaned together against the stones like ol"
+  },
+  {
    "row": 129,
    "build": "build-129-nazareth-only-a-few",
    "beat": "v2-r129-b01",
@@ -51975,6 +52407,244 @@
    "night": false,
    "n_person": 1,
    "scene": "One latch turns, and that is enough: down the evening lane the doors stand shut as they stood all day \u2014 but ONE is open, warm lamplight spilling over its threshold stone, and in the doorway a small family beckons Jesus i"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b01",
+   "file": "build-131-scribe-near-the-kingdom/assets/s01-a-teacher-of-the-law.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "For once the man walking up means the question, the camera looking past the listening ring's backs into the bright court: the scribe steps out from among the dark-robed questioners toward Jesus \u2014 and everything about him"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b02",
+   "file": "build-131-scribe-near-the-kingdom/assets/s02-which-is-the-first-commandment.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The best question of the whole hostile week is asked quietly: the scribe face to face with Jesus in the morning light, the words leaving him with the plain hunger of a man who has read everything and wants the one thing "
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b03",
+   "file": "build-131-scribe-near-the-kingdom/assets/s03-jesus-answered-from-words-the.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The answer starts on ground the asker has walked all his life: Jesus begins, and the cadence that comes is the oldest one in the scribe's memory \u2014 words he learned at his father's knee, prayed at every dawn, copied in hi"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b04",
+   "file": "build-131-scribe-near-the-kingdom/assets/s04-the-first-of-all-the.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The first commandment stills the whole court to hear itself spoken: Jesus with one hand resting at his heart, giving the Shema its full unhurried weight \u2014 hear, O Israel \u2014 heart, soul, mind, strength, each word set down "
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b05",
+   "file": "build-131-scribe-near-the-kingdom/assets/s05-the-scribe-had-not-merely.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Something better than an echo is being assembled: close on the scribe with one finger lifted slightly off his robe, eyes bright and inward, his own words visibly forming behind them \u2014 not the student's trick of handing t"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b06",
+   "file": "build-131-scribe-near-the-kingdom/assets/s06-and-the-second-is-like.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The second commandment gets pointed at its subject: Jesus's open hand sweeps from his heart out toward the court itself \u2014 the pilgrims at the steps, the old men in the shade of the portico, a child towed by her mother pa"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b07",
+   "file": "build-131-scribe-near-the-kingdom/assets/s07-there-is-none-other-commandment.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole mountain of the law gets its summit marked: Jesus raises two fingers held together in the morning light \u2014 these two, love upward and love outward, one double peak above every other commandment ever counted \u2014 th"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b08",
+   "file": "build-131-scribe-near-the-kingdom/assets/s08-the-answer-was-not-merely.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "LISTENERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The applause dies in the throat and becomes something better: along the listening ring the admiring nods slow and stop \u2014 a scholar's raised brow settling, a pilgrim's smile fading into thought, eyes dropping from the spe"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b09",
+   "file": "build-131-scribe-near-the-kingdom/assets/s09-it-measured-every-other-act.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The new measure hangs over the old devotions: beyond the inner wall the altar's thin smoke climbs its steady grey line into the morning \u2014 the daily offerings ascending as they have for centuries, reverent, costly, correc"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b10",
+   "file": "build-131-scribe-near-the-kingdom/assets/s10-well-master-thou-hast-said.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The scribe answers like a man spending his life's study in one sentence: animated now, warm, his hand sweeping toward the altar's distant smoke line as he sets it on the scale \u2014 all the burnt offerings, all the sacrifice"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b11",
+   "file": "build-131-scribe-near-the-kingdom/assets/s11-jesus-looked-at-him-and.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The look the scribe gets is the one everyone wants: close on Jesus's face turned full toward him, the deep brown eyes doing their complete unhurried seeing \u2014 past the fine robe, past the guild, into the clear-running min"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b12",
+   "file": "build-131-scribe-near-the-kingdom/assets/s12-understanding-had-brought-the-man.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Understanding's road ends at a doorway only feet can finish: the scribe stands at one of the court's great open gates, warm light lying through it across the threshold stone, his weight paused mid-step in the doorway's f"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b13",
+   "file": "build-131-scribe-near-the-kingdom/assets/s13-he-understood-the-weight-of.jpeg",
+   "tokens": [
+    "SCRIBE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What he just said out loud settles onto him with its whole weight: close on the deep-lined face gone grave, the animation of the answer subsiding into stillness \u2014 more than all offerings, he said, and he MEANT it, and me"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b14",
+   "file": "build-131-scribe-near-the-kingdom/assets/s14-thou-art-not-far-from.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The distance gets measured out loud, and it is almost nothing: Jesus says it straight into the scribe's eyes \u2014 not FAR from the kingdom \u2014 and his hand rises to hover a breath from the man's shoulder, the nearness spoken "
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b15",
+   "file": "build-131-scribe-near-the-kingdom/assets/s15-that-was-both-recognition-and.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "SCRIBE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "One sentence does both jobs between two faces: the scribe and Jesus close in profile in the warm court light, the words still in the air between them \u2014 recognition, first: you have thought truly, you have come far, you a"
+  },
+  {
+   "row": 131,
+   "build": "build-131-scribe-near-the-kingdom",
+   "beat": "v2-r131-b16",
+   "file": "build-131-scribe-near-the-kingdom/assets/s16-and-no-one-dared-question.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The questioning season ends without a gavel: along the shaded portico the other questioners drift quietly away in twos and threes \u2014 not routed, not shamed, just finished, their last and best question having been asked by"
   }
  ]
 }
