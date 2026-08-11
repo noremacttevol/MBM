@@ -1,5 +1,21 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
+## ✅ QC-OK 2026-08-11 — FULL-CUT GATE 6b VERIFY-PASS on the re-shipped cut (Machine A `Dev`, unattended/headless, $0, 0 generation, NO re-cut)
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 95` = beat/segment map only). This was a VERIFY-PASS on the BUILT row sitting in Cameron's Unwatched queue (mp4 `9059485916c1…`, cont.25's giant-composite re-ship) BEFORE his eyes reached it — the row-11 "quality is going down" mandate.
+
+**Verdict: CLEAN — QC-OK, NOT re-cut** (the instruction is explicit: do not re-cut a clean row).
+
+- Extracted ONE frame per beat (11) + the closing card from the RENDERED mp4 at each `beats_v2.py` window midpoint and viewed every one against the defect checklist + RUNNER-LESSONS.
+- **b01 giant-composite RESOLVED, did NOT regress:** a true distant establish — three crosses far on the crest in silhouette, watchers small on the slope, city wall low behind, foreground watchers seen from behind at ONE consistent scale; no chest-up giants, no collage / composite / double-perspective, no haze seam.
+- **Three-crosses geometry never swaps** (mocker LEFT / Jesus CENTRE-cream / thief RIGHT) across b01/b03/b05/b09/b11. **MOCKER (b02) + THIEF (b03/b04/b06/b08/b10) face-locked & consistent.** **Jesus face-locked every appearance** (b05/b07/b09/b11): warm Middle-Eastern, dark wavy hair, full beard, warm/green eyes; cream-only, no 2nd cream figure. **Rope-bound, NO nails / NO wounds / NO blood / NO gore anywhere** — merciful distance held.
+- **Captions 3-colour correct:** white narrator, blue scripture (s40 @b03/b04, s42 @b07), RED Jesus (j1 @b09); bottom-band only; closing card renders clean (serif, centred, no squares/giant text).
+- **faster-whisper transcription of the mp4 confirms caption↔audio↔picture SYNC:** every caption's words are actually spoken (NO ghost/stale caption — the row-84/cont.24 class is clean here), and Jesus's paradise line (50.76-54.88s, j1) lands on the Jesus frame b09 — **the desync fix HELD**. (The audio also speaks a redundant modern paraphrase "If you're really the Christ, save yourself and us" at ~8s — pre-existing, documented in beats_v2's DESYNC note, baked into the byte-identical delivered audio `e5ba558a`; the caption matches it, so it is in sync and NOT a picture defect a VERIFY pass re-cuts.)
+- **Live-verified (assurance = gate output, not my word):** served mp4 md5 `6e807e29dd0456f06c7d4f077bd3a207` == local == the exact bytes I QC'd; live card `v95` hash `9059485916c1…`, NO `data-machine-reason` (correctly in Cameron's Unwatched queue). No deploy needed (clean, already live).
+- **FIX-WAVE (logged, NOT blocking, NOT re-cut — same precedent as sibling crucifixion rows 94/96 QC-OK):** soft cross-frame wardrobe variance (Jesus in the full cream robe b05 vs bare-chested/loincloth b07/b09/b11 — John 19:23-24 garments-parted, each frame individually reverent) + warm golden light on the b09/b10 emotional-peak frames vs the row's cold-grey overcast elsewhere. Each frame is individually reverent and scripturally defensible; cross-frame soft-continuity harmonisation is the fix wave's job, not a verify re-cut (touch-once/cost law forbids voiding a pending approval + burning credits chasing subtle drift).
+
+---
+
 ## ✅ GIANT-COMPOSITE RESOLVED + RE-SHIPPED — AUTHOR-FIX 2026-08-11 (Machine A `Dev`, unattended/headless, $0, 0 rerolls, 0 generation)
 
 **The QC-VERIFY park below is CLOSED.** The b01 giant-composite/scale defect is fixed —
