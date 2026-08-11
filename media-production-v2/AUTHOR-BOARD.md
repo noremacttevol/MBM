@@ -143,7 +143,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 129 | build-129-nazareth-only-a-few | BUILT | 14 | OK | A-auto 2026-08-11 SHIPPED realistic-v2 — 14 stills (V1 had 7), 85.8s, 1 reroll/14 (7.1%) ~$2.01, AUDIO LOCK PASS e444040c (byte-identical narration). Nazareth rejection (Mark 6:1-6): 9 Jesus HILLSIDE/synagogue/lane beats (locked face, cream-only, no halo, calm eyes) + townsfolk-as-a-quiet-wall (folded arms). Mary/siblings NEVER depicted (spoken only). Three sick folk consistent b10-b13, illness with dignity. Door-rhyme b09 shut→b14 open+lamplit. s04 rotated→rerolled upright. FULL-CUT GATE PASS (no cartoon/mix, no 2nd cream lead, captions white/blue/red synced, card clean). Deployed + live-verified. | ✅ |
 | 130 | build-130-what-manner-of-spirit | AUTHORED | 0 | OK | AUDIO-OK 2026-08-11 (Machine A `Dev`): STALE-V1 (+1.215) fixed — set AUDIO_FROM_V1_SEGMENTS=True, rebuild validated 65.496s delta 0.000 from V1 segment mp3s ($0, no TTS, no gen). Picture runner builds the stills then ships. | ✅ |
 | 131 | build-131-scribe-near-the-kingdom | RUNNING | 0 | OK | A-auto 2026-08-11 LIVE | ✅ |
-| 132 | build-132-forbid-him-not | AUTHORED | 0 | OK |  | ✅ |
+| 132 | build-132-forbid-him-not | RUNNING | 0 | OK | A-auto 2026-08-11 LIVE | ✅ |
 | 133 | build-133-what-jesus-called-hell | AUTHORED | 0 | OK |  | ✅ |
 | 134 | build-134-today-in-paradise | AUTHORED | 0 | OK |  | ✅ |
 | 135 | build-135-rainbow-covenant | AUTHORED | 0 | OK | AUDIO-OK 2026-08-11 (Machine A `Dev`): STALE-V1 (19 newer mp3s, +42.3s) fixed — set AUDIO_FROM_V1_SEGMENTS=True, rebuild validated 263.338s delta 0.000 from V1 segment mp3s ($0, no TTS, no gen). Picture runner builds the stills then ships. | ✅ |
