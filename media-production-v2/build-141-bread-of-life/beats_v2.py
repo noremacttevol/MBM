@@ -42,6 +42,13 @@ CHANGING CONDITION (kept OUT of the locks): one loaf — whole in the
 early frames, broken open from b08 on.
 """
 
+# STALE-V1 fix (audio lane, 2026-08-11): rebuild the audio track from the V1
+# segment mp3s at the extract_beats offsets instead of copying the stale V1
+# mp4's AAC (the OLD 7-still 1:09 cut fails assert_v1_final_is_current; timeline
+# 61.02s vs mp4 68.70s). Segments verified 44100/128k/mono = ElevenLabs new
+# voice (Brian/Chris), not old edge-tts. Re-voices nothing ($0).
+AUDIO_FROM_V1_SEGMENTS = True
+
 # LOCKS: one entry per recurring person and per setting. Setting locks must
 # NEVER name a character. Only Jesus wears cream; the shared JESUS lock and
 # REF come from v2_prompt.py via the jesus/ref flags.
@@ -296,5 +303,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "SHORE": "PLACE-REF/shore.jpeg",  # build-141-bread-of-life s01-a-crowd-had-followed-jesus (manual)
 }
 # === end PLACE-PLATES ===
