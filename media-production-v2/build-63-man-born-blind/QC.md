@@ -1,6 +1,98 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
-## §AUDIO-FIX SHIP 2026-08-12 (Opus AUDIO LANE, Machine A `Dev`, unattended/headless) — Siloam re-voiced to si-LOH-am, combined cut SHIPPED
+## §C-FIX 2026-08-12 (Opus RUNNER, Machine A `Dev`, unattended/headless) — NEW complaint vs live 610a70352 → PARKED-BILLING (pictures) + audio recipe. **The §AUDIO-FIX SHIP claim below is SUPERSEDED — Cameron re-filed against it.**
+
+**Cameron's OPEN complaint (`v2_outline.py 63`, reportedAgainst=610a70352, 17:26Z):**
+> "1:53 is still wrong its : si-LOH-uhm ... you even got it wrong at 1:34 now too when Jesus says it ... The blind mans face is not the correct look @ 3:39, 3:44, 3:49, 3:56 Fix all these pictures. 4 total ... Jesus shouldnt be standing so close to him like he is trying to kiss him thats what one of those looked like, super weird"
+
+### COMPLAINT LEDGER (what THIS cut will fix once billing tops up)
+- **3:39 blind-man face + "Jesus like trying to kiss him"** → **b40** (s40). See autopsy below — rewrote the nose-to-nose framing + identity. STAGED, NOT yet regenerated (Gemini 429).
+- **3:44 blind-man face** → **b41** (s41). Identity restated. STAGED.
+- **3:49 blind-man face** → **b42** (s42). Identity restated. STAGED.
+- **3:56 blind-man face** → **b43** (s43). Anti-grey/anti-old restated. STAGED.
+- **1:34 (Jesus j2) + 1:53 (narrator n5) "Siloam"** → AUDIO recipe below. NOT yet re-voiced.
+
+### TIMESTAMP→FRAME TRACE (from the LIVE mp4 + seg durations, not beat names)
+Extracted `ffmpeg -ss <t>` from the shipped `john-9_man-born-blind.mp4` and matched by
+on-screen caption:
+- 3:39 f219 = **b40** s40 "The first face this man ever truly studied" — Jesus **nose-to-nose, hand cupped at the man's chin** = the "kiss". Blind man = wild long curly hair (drift).
+- 3:44 f224 = **b41** s41 "And he said:" — man drifts younger, different face.
+- 3:49 f229 = **b42** s42 "…and he worshipped him" — kneeling man drifts young/short-hair.
+- 3:56 f236 = **b43** s43 "The question of whose fault…" — **grey-haired, grey-bearded OLD man** (severe identity break vs the mid-30s black-haired ref).
+
+### PROMPT AUTOPSY (rubric meta-law 3)
+- **b40 (kiss):** verdict **CAUSED + IGNORED**. The scene prose literally said *"The two
+  faces close in the deep gold, in profile"* → the model drew them nose-to-nose, hand at
+  chin = a near-kiss. AND the asset `s40-*.jpeg` is **stale 08-07_04:49 — generated BEFORE
+  `REFS={"BLINDMAN":…}` was wired (08-12)**, so it never carried his face ref → identity
+  drift too. FIX APPLIED (staged): rewrote scene to *"a natural, respectful arm's length …
+  the two men clearly NOT touching"*; added must_not_show *"NOT nose-to-nose, NOT touching,
+  Jesus's hand NOT on the man's face/chin, nothing that reads as a kiss"*; restated identity.
+- **b41:** verdict **IGNORED (stale, no ref)**. `s41-*.jpeg` also stale 08-07 pre-ref → drift.
+  FIX: identity restated in scene + must_not_show; ref now attached (REFS wired).
+- **b42:** verdict **IGNORED (ref attached but weak text)**. `s42-*.jpeg` is 08-12 (had ref)
+  but still drifts young. FIX: explicit "same thirty-five-year-old, unruly BLACK hair, short
+  dark beard, never grey/elderly/younger" in scene + must_not_show.
+- **b43 (grey old man):** verdict **IGNORED-despite-ref** — the hard case (lesson 10 / memory
+  face-lock-needs-tight-crop). `s43-*.jpeg` is 08-12 WITH the ref yet renders a GREY ELDERLY
+  man. Root: the BLINDMAN lock said "about thirty-five, black hair" but NOWHERE forbade
+  grey/elderly, and the scene said "the whole first thirty-five years" (age-adjacent). FIX:
+  strengthened the shared BLINDMAN lock ("SAME man … NEVER grey-haired, NEVER elderly, NEVER
+  a clean-shaven youth") + a CRITICAL anti-grey clause in b43's scene + must_not_show. If it
+  STILL drifts grey after a regen with this text, escalate to the lesson-10 identity-EDIT
+  method (attach the frame + `CAST-REF-V2/blindman.jpeg`, change only the man's hair/face,
+  recheck full frame) — do NOT churn rerolls.
+
+### AUDIO AUTOPSY — Siloam (1:34 j2 / 1:53 n5)
+- **Live cut renders it WRONG:** faster-whisper of the shipped mp4 → n5 = **"Silo **Am**"**
+  (split, a hard stressed **/æm/** ending); Cameron wants **"si-LOH-uhm"** (soft schwa end).
+- **The §AUDIO-FIX SHIP below used `"sih LOW am"`** — it fixed the STRESS (SILO-am→si-LOH-am)
+  but kept the **hard "am"** ending. That is the untried lever: the ENDING vowel, not stress.
+- **make_narration.py's own SPOKEN map ALREADY holds the validated schwa respell**
+  `"Siloam": "sih low um"` (measured 2026-07-22 for THIS complaint #63) — it was **bypassed**
+  by the 610a70352 manual re-render. Reverting to it is the fix.
+- **Proven this session (`/tmp/r63/siltest`, `/tmp/r63/final`):** ElevenLabs renders
+  `"sih low um"` as a single flowing **schwa "Siloam/siloum"** (NOT the split hard "Silo AM"),
+  clean round-trip, no garble. This is the recommended respell.
+- **Headless-validation caveat (honest):** the prior session did a 15-take stress-RMS +
+  formant A/B and STILL shipped a cut Cameron rejected — whisper is deaf here and 16 kHz
+  formants are too noisy to trust. So "sih low um" is **recommended, not ear-verified**;
+  the COMBINED cut is Cameron's single verification point.
+- **VOICE TRAP:** the live j2 was re-voiced with **Jesus = "Chris" (voice id iP95…)**, but the
+  current `mbm_eleven.VOICE_ELEVEN[JESUS]` = **Alexander (UMnEnz…)**. The resume MUST re-voice
+  j2 with the SAME voice as j1/j3/j4 in the live cut (verify first) — do NOT let render_segment
+  silently swap Jesus to Alexander. Narrator = Brian (nPcz…), unchanged.
+
+### ⛔ WHY PARKED — Gemini prepay depleted (429 RESOURCE_EXHAUSTED, meter frozen $617.34)
+`v2_gen_api.py … --only b40 b41 b42 b43 --redo` returned 429 "prepayment credits depleted"
+immediately (same wall as rows 82/95/116/118 — see Brain inbox billing ask, already filed).
+No $0 crop path: every flagged frame has the man's face / the two-figure composition AS its
+subject (can't crop away the subject). Picture edits are COMMITTED & `--check` PASS, waiting
+on ONE top-up. Audio NOT re-voiced (would ship only in the combined cut, which is Gemini-gated).
+
+### ▶ RESUME COMMAND (run when meter moves past $617.34) — ONE combined touch-once cut
+```
+cd media-production-v2
+# 1) pictures (edits already committed in beats_v2.py):
+python3 v2_gen_api.py build-63-man-born-blind --only b40 b41 b42 b43 --redo --ceiling <meter+2>
+#    FULL-CUT GATE every regen: b40 = arm's-length, NOT kissing; b40/b41/b42/b43 = SAME
+#    black-haired mid-30s man (NOT grey, NOT elderly, NOT a younger different face).
+#    b43 still grey after 2 rerolls -> lesson-10 identity-EDIT, don't churn.
+# 2) audio (revert the hard-am regression to the validated schwa):
+#    re-voice j2 (Jesus voice = MATCH j1/j3/j4, verify — likely "Chris"/iP95, NOT Alexander)
+#    + n5 (Brian) with Siloam respell "sih low um"; write correct .timing.json via the
+#    pipeline (save_speaker_narration), atempo-lock to j2=1.802s / n5=14.341s so no window
+#    moves; place in media-production/build-63-man-born-blind/audio/ (AUDIO_FROM_V1_SEGMENTS).
+# 3) assemble + ship:
+python3 v2_assemble.py 63            # must print AUDIO REBUILD/LOCK PASS
+#    then FULL-CUT GATE the rendered mp4, ship (2 commits like row 39), deploy, live-verify,
+#    review card answers Cameron: "the blind man is the same man in every frame, Jesus is at a
+#    natural distance (no kiss), and Siloam now ends soft — si-LOH-uhm."
+```
+
+---
+
+## §AUDIO-FIX SHIP 2026-08-12 (Opus AUDIO LANE, Machine A `Dev`, unattended/headless) — Siloam re-voiced to si-LOH-am, combined cut SHIPPED  ⚠️ SUPERSEDED — Cameron re-filed against this cut (hard "am" ending); see §C-FIX above
 
 **Closes the §PARK below.** The 8 picture fixes (committed last session) + this audio
 re-voice ship together as ONE touch-once combined cut — Cameron gets both fixes in
