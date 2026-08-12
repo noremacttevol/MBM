@@ -92,6 +92,12 @@ LOCKS = {
 
 REF = True
 
+# NOT-AUDIO-WIRED fix (AUTHOR/AUDIO lane, 2026-08-11, Machine A `Dev`, $0): identical
+# to row 133 — the V1 dir had no final mp4 and no segment mp3s. The 10 fresh narration
+# mp3s (n0-n5, j1, j2, s1, card) were copied from this build's V2 audio/ into the V1
+# dir audio/, and this flag rebuilds the mix from those segments.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r134-b01", "out": "s01-you-may-have-been-told.jpeg", "seg": "n0",

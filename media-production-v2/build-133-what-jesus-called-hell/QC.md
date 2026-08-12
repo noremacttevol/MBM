@@ -95,3 +95,14 @@ picture runner builds the 22 beats on that audio (VALLEY promote-first from b02,
 OVERLOOK from b09, PROPHET portrait already made). Until then this row stays
 **NOT-READY** — Ready ✅ cleared on AUTHOR-BOARD so no runner burns $6 of stills
 that cannot assemble.
+
+## ✅ AUDIO-WIRED → BUILDABLE (author/audio lane, Machine A `Dev`, 2026-08-11, $0)
+Executed the RESUME above. Copied all 11 V2-dir mp3s
+(`media-production-v2/build-133-what-jesus-called-hell/audio/{n0..n6,j1..j3,card}.mp3`,
+all 44100 Hz / 128 kbps mono = the new-voice ElevenLabs spec) into
+`media-production/build-133-what-jesus-called-hell/audio/`, and set
+`AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py. Pre-flight now PASSES:
+`extract_beats.extract(133)['total'] = 149.897`, `v2_prompt --check` PASS (22 beats,
+zero WARNs), `audio_audit` flags 0 old-voice segments. Board → Audio OK, Ready ✅.
+Row is now a normal picture build for the Opus runner (VALLEY promote-first b02,
+OVERLOOK b09, PROPHET portrait already made). Content-care laws above still bind.

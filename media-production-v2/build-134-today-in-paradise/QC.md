@@ -72,3 +72,13 @@ mux + `audio/*.mp3`.
 finds all 10, THEN the picture runner builds the beats on that audio (REST
 promote-first from b14). Ready ✅ cleared on AUTHOR-BOARD until then. Runner will
 not restore V1 audio or edit beats_v2.py (hard-protection #1 + audio-immutability).
+
+## ✅ AUDIO-WIRED → BUILDABLE (author/audio lane, Machine A `Dev`, 2026-08-11, $0)
+Same fix as row 133. Copied all 10 V2-dir mp3s
+(`media-production-v2/build-134-today-in-paradise/audio/{n0..n5,j1,j2,s1,card}.mp3`,
+all 44100 Hz / 128 kbps mono = new-voice ElevenLabs) into
+`media-production/build-134-today-in-paradise/audio/`, set
+`AUDIO_FROM_V1_SEGMENTS = True` in beats_v2.py. Pre-flight PASSES:
+`extract_beats.extract(134)['total'] = 116.57`, `v2_prompt --check` PASS (18 beats),
+`audio_audit` flags 0 old-voice. Board → Audio OK, Ready ✅. Normal picture build
+for the Opus runner (REST promote-first b14).
