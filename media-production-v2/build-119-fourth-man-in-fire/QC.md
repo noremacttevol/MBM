@@ -1,5 +1,71 @@
 # QC / RUNNER HANDOFF — build-119-fourth-man-in-fire (Daniel 3)
 
+## ✅ C-FIX SHIPPED — "bow STILL mispronounced" (Opus runner, Machine A `Dev`, 2026-08-11, $0, 0 credits, 0 rerolls)
+
+**Cameron's NEW complaint (`v2_outline.py 119`, filed 2026-08-12T01:45Z against
+live hash a70642e3):** _"Mispronounced bow at 7 seconds its still mispronounced."_
+The 08-11 ship claimed this CLOSED. It was not — Cameron re-heard it after the
+ship and it was WORSE. He is right.
+
+### PROMPT AUTOPSY (rubric meta-law 3) — verdict: **the FIX itself CAUSED the defect**
+The word is n1 "when the music plays, everyone **bows**" — "bows" at 6.62–7.06 s
+in n1 = **video ≈ 6.9 s** (matches "7 seconds"). Correct = /baʊz/ (BOUGH,
+bend-down); wrong = /boʊz/ (BEAU) or /buːz/ (booze).
+
+- The **08-09 audio-lane "fix"** re-voiced n1 through ElevenLabs **Brian** with the
+  text spelled **"boughs"** (believing that forces /baʊz/) and `atempo`-stretched
+  it 1.0204× to the 14.053878 s window. **That is what CAUSED the regression.**
+- **Measured, not guessed** — I extracted the "bows" word from the live mp4 and
+  both takes and ran LPC-formant + ffmpeg spectrograms (`/tmp/bowqc`):
+  - **Original plain-"bows" take (md5 6da0ad05, `.eleven-20260728`)**: one clean
+    vowel, **F1 sweeps up to ~700 Hz** = OPEN /aʊ/ = **correct BOUGH.**
+  - **08-09 "boughs" re-voice (md5 076624e4, shipped in a70642e3)**: mangled into
+    two blobs with a **low ~250 Hz rounded F1 onset** = closed /oʊ~uː/ =
+    **BEAU/"booze" — wrong, and distorted by the atempo stretch.**
+  - Live mp4 @6.9 s correlated **0.919** to the BAD take, **0.091** to the good one
+    → the shipped cut carried the wrong vowel. **The original was already correct;
+    the "fix" broke it.**
+- Why the 08-11 gate missed it: it validated by correlation-to-the-intended-take
+  (0.973 vs the boughs take) and by whisper ("bows") — **neither can hear a vowel.**
+  ElevenLabs Brian reads the respelled "boughs" as /oʊ/, the [[eleven-bypasses-say-map]]
+  class but worse: even a direct phonetic-intent respell yields the wrong vowel.
+
+### THE FIX (no re-voice, no picture re-cut — a $0 revert)
+Restored `media-production/build-119/audio/n1.mp3` from its own backup
+`.OLD-beau-bak` (= the correct 6da0ad05 take; the name is a MISNOMER — acoustically
+it is the BOUGH take, not beau) and re-assembled. Duration identical (14.053878 s)
+→ **zero timeline shift**, no still-window moved. Bad take preserved as
+`n1.mp3.BAD-boughs-revoice-bak` in both dirs.
+
+**PROOF the fix ships:** AUDIO REBUILD SHA returned **66a20ba0 → dc3ae03e** (dc3ae03e
+is the pre-boughs correct-take audio hash the 08-11 note itself recorded moving
+AWAY from). Live-re-rendered mp4 @6.9 s now correlates **0.877** to the good /aʊ/
+take, **0.121** to the bad one (exact inverse of before). New-mp4 spectrogram shows
+the clean open F1~700 Hz /aʊ/. Whisper reads "bows". Pictures byte-identical to the
+08-11 full-cut-gated ship (assets/ unmodified; decode 0 errors).
+
+### FULL-CUT GATE (audio C-FIX — pictures unchanged, spot-verified from rendered mp4)
+n1/bows frame (golden image, crowd bowing, caption bottom-band white) CLEAN;
+fourth-man climax b22 FOUR figures, count correct, scripture caption blue; card
+clean (no tofu). **Known carry-over FIX-WAVE (NOT introduced here, unchanged from
+08-11 gate, out of scope for an audio complaint):** the fourth figure at b22/b25
+still reads with a residual halo/semi-resolved face — the structural-glow tendency
+the prior session documented ("do NOT blind-reroll"; durable fix = an AUTHOR beat-
+text tweak). Left as-is; flagged for a future author pass.
+
+### RUNNER-LESSON (appended to RUNNER-LESSONS.md)
+1. **"bows" (bend-down) already renders correct /aʊ/ in ElevenLabs Brian — never
+   respell it to "boughs"** (Brian reads "boughs" as /oʊ~uː/, the WRONG vowel).
+2. **Never validate a homograph-VOWEL audio fix by whisper or by correlation-to-
+   the-intended-take** — both are deaf to the vowel. Validate by FORMANT/spectrogram
+   (open F1≈700 Hz = /aʊ/; closed F1≈250 Hz = /oʊ/).
+3. An `atempo`-stretched re-voice onto a static window distorts the vowel/prosody.
+
+**COMPLAINT LEDGER:** "Mispronounced bow" — **CLOSED.** Shipped audio is the
+correct /aʊz/ (BOUGH) take, formant- and correlation-proven in the RENDERED mp4.
+
+---
+
 ## 🅿️ RUNNER PARK → NEEDS-AUDIO (Opus runner, Machine A `Dev`, 2026-08-07, $0, 0 credits)
 
 **STALE-V1 — the "mispronounced bow" fix is in the segment mp3s but NOT in the
