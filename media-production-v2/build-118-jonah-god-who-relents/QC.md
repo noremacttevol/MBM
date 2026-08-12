@@ -1,3 +1,44 @@
+## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (13th board-wide) — Opus runner, Machine A `Dev`, $0, 0 credits
+
+Complaint-first + lowest-waiting → row 118 again (Cameron's task: fix his 2:37
+giant-Jonah + 3:08 dead-crowd complaint). This pass:
+
+1. **VIEWED both live frames off the shipped mp4** (`ffmpeg -ss 157` / `-ss 188`).
+   Both complaints REAL and unchanged: 2:37 (b28) Jonah walks the gate as a large
+   foreground figure vs smaller same-depth townsfolk; 3:08 (b33) the ENTIRE
+   repentant crowd renders in a uniform grey-terracotta clay tone — reads as the
+   terracotta army, not living people. b33's corpse tone FILLS the whole frame
+   (hundreds of figures) so no crop excludes it and the frame is already warm →
+   confirmed **no $0 path**; both genuinely need a paid Gemini regen.
+2. **Staged fix intact:** `v2_prompt.py build-118-jonah-god-who-relents --check` =
+   PASS (46 beats, v4). b28 scale-cap (L996 "no single figure looms"), b33
+   living-warm-skin (L1164 "plainly alive, never still" / L1179 "greys or deadens
+   the skin"). Will land touch-once when billing returns.
+3. **Real paid probe** `v2_gen_api.py build-118-jonah-god-who-relents --only
+   v2-r118-b28 v2-r118-b33 --redo --ceiling 645` → `429 RESOURCE_EXHAUSTED —
+   prepayment credits depleted` on BOTH the immediate try and the mandated 60 s
+   retry. Meter frozen **$617.34** (last successful gen board-wide = build-135 @
+   04:11:44 today, then depletion).
+4. **NEW escalation:** wrote the billing ask to Cameron's personal inbox
+   (`Brain/vault/_inbox/inbox.md`) because 12 prior commit-message pleas hadn't
+   moved him to top up 7+ hours after depletion. This is not homework dumped on
+   Cameron — it's the ONE door only he holds the key to (his own Google billing).
+
+mp4 **NOT reshipped** — the live cut still carries both bad frames; shipping it
+would repeat his exact complaint (the worst failure). Row stays **PARKED-BILLING**.
+
+**RESUME the instant billing is funded (ships touch-once):**
+`python3 media-production-v2/v2_gen_api.py build-118-jonah-god-who-relents --redo --ceiling 645`
+→ `python3 media-production-v2/v2_assemble.py 118` (must print AUDIO LOCK PASS)
+→ FULL-CUT GATE on the new mp4 → deploy per PROMPT-OPUS-RUNNER step 7c → review
+card answers "Your 2:37 giant Jonah and 3:08 dead-looking crowd are both fixed."
+
+13th consecutive confirmation of ONE external wall freezing rows 82/95/116/118 and
+the whole image board — **only Cameron topping up https://ai.studio/projects
+clears all four at once.**
+
+---
+
 ## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (11th board-wide) — Opus runner, Machine A `Dev`, $0, 0 credits
 
 Complaint-first + lowest-waiting → row 118 again. Staged fix VERIFIED intact
