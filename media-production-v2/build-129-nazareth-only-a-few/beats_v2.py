@@ -379,8 +379,8 @@ BEATS = [
         "window": "72.85-77.77", "wide": False, "jesus": True, "ref": REF,
         "locks": ["NAZARETH"],
         "narration": "Faith opens the door. Where people believed, even a little, He worked.",
-        "must_show": "the door rhyme resolved — the lane of shut doors at early lamplit evening, and ONE door standing open with warm light, a hopeful family welcoming Jesus in.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the ONE open door against the shut lane unmistakable; the family's welcome eager.",
+        "must_show": "the door rhyme resolved — the lane of shut doors at early lamplit evening, and ONE door standing open with warm light, a hopeful family welcoming Jesus in. Any lamp is a small first-century CLAY oil lamp with an open flame (a shallow clay saucer/pinched-spout lamp) set in a wall niche or held in the hand.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the ONE open door against the shut lane unmistakable; the family's welcome eager. NO modern lamp of ANY kind — no glass chimney, no kerosene/hurricane/oil-globe lamp, no clear-glass font, no metal lantern; period clay oil lamp only.",
         "scene": (
             "One latch turns, and that is enough: down the "
             "evening lane the doors stand shut as they stood "

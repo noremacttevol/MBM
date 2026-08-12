@@ -102,3 +102,46 @@ V2 build; the 2026-07-17 ASSEMBLY-B cut predates the review board).
 - s14: a small background wall-bracket lamp reads slightly modern; the emotional-payoff
   closing frame is otherwise perfect and the foreground clay oil lamp is correct — not
   worth risking the composition on a re-roll.
+
+---
+
+## ✅ QC-VERIFY → QC-FIX (independent FULL-CUT GATE, Machine A `Dev`, 2026-08-12)
+
+Independent §6b FULL-CUT GATE on the BUILT cut sitting in Cameron's Unwatched
+queue (the 2026-08-11 ship self-claimed its gate — never independently verified).
+Extracted ONE frame per beat at its true narration mid-window from the RENDERED
+mp4 (built by WINDOW: b06@4.43s before b02@9.16s) + 2 caption/card frames = 16
+views. Checked every frame vs the defect checklist, RUNNER-LESSONS, SICKFEW/
+TOWNSFOLK/door-rhyme laws, and the row's gates. COMPLAINT LEDGER: none open
+(`v2_outline.py 129` = 0 filed) → nothing to regress; fresh first-attempt cut.
+
+**13/14 beats + plate CLEAN:** b01 Nazareth plate (Jesus from behind, INTO town,
+cream-only); b06 synagogue (locked face, astonished faces Mk 6:2); b02/b03 murmur
+(no Mary/siblings, scripture caption blue); b04 folded-arm wall (the rerolled
+upright s04); b05 close-up (green/hazel V2 eyes, red-letter); b07 offense lane;
+b08 noon lane idle hands; b09 person-free shut-door lane; b10/b12/b13 three sick
+folk consistent w/ dignity, hand-laying anatomy natural; b11 marvel (wonder-not-
+contempt). Cream-only-Jesus, no halo, realistic-throughout, no other modern
+objects, captions bottom-band two-voice, card clean.
+
+**DEFECT FOUND (b14 / s14 — modern object):** the wall-mounted lamp rendered as a
+19th-century KEROSENE/HURRICANE lamp — clear glass chimney over a glass font on a
+bracket (RUNNER-LESSONS "hurricane/kerosene lamps" class). Prominent + lit, would
+draw a complaint → BLOCKED ship. (The family's HANDHELD lamp was a correct
+first-century clay saucer lamp — not the defect.)
+
+**PROMPT AUTOPSY = ALLOWED:** b14 scene asked for generic "warm lamplight" but
+never specified a period lamp nor banned a modern one, so the generator drifted a
+glass-chimney lamp in. FIX (endorsed row-1-gate remedy): added to must_show "any
+lamp is a small first-century CLAY oil lamp… wall niche or hand" + to
+must_not_show "NO modern lamp… no glass chimney, no kerosene/hurricane/oil-globe
+lamp, no clear-glass font, no metal lantern; period clay oil lamp only." ONE
+reroll (`--only b14 --redo`) landed a period clay pinched-spout niche lamp; door-
+rhyme, family welcome, Jesus cream-only/locked/no-halo all preserved. Confirmed in
+the DELIVERED mp4.
+
+**Reroll count now 2/14 = 14.3% (≤15% budget).** Re-assembled: **AUDIO LOCK PASS
+SHA256 e444040c… — byte-identical** to the 2026-08-11 audio (nothing re-voiced).
+85.8s / 19.4 MB. Cost: 1 reroll ~$0.13, $0 audio (meter $614.12→$614.26). Ship +
+deploy + live-verify below. RUNNER-LESSONS unchanged (kerosene-lamp class already
+listed).
