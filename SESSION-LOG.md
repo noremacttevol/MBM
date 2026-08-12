@@ -1,3 +1,17 @@
+## 2026-08-12 (cont. 85) — ROW 63 "The Man Born Blind" AUDIO-FIX SHIP: Cameron's "1:53 … si-LOH-uhm" CLOSED — "Siloam" re-voiced from grain-silo "SILO-am" to middle-stress long-o "si-LOH-am" (respell "sih LOW am"), shipped as ONE combined cut with last session's 8 picture regens — Machine A `Dev` (unattended/headless, AUDIO LANE)
+
+**Commit:** mp4 + re-voiced audio (j2/n5) + QC + AUTHOR-BOARD `610a70352264ce30d8badc6c254febf71e46138e` (commit A, pushed); review card repoint + this log ship in commit B this push. Chain: at session start the top entry was cont. 83 (row 1), commit `fe3ee4394`/`10225889a` present in `git log` — verified. Hostname `Dev` = Machine A. Task: PROMPT-AUDIO-FIX low-number lane — row 63 was the lowest waiting NEEDS-AUDIO row.
+
+**The complaint (`v2_outline.py 63`, re-open):** Cameron — *"1:53 is still wrong its : si-LOH-uhm"* (the picture C-FIX last session fixed his 8 pictures but correctly PARKED this to the audio lane rather than gamble a 4th unverifiable re-voice).
+
+**Defect (verified before touching anything):** shipped V1-dir j2 ("Go, wash in the pool of Siloam") + n5 ("he knelt at the pool of Siloam") said the word **front-stressed** = grain-silo "SILO-am" (j2 old stress-RMS `[0.074, 0.034, 0.014]`). whisper is DEAF to the vowel (transcribes both "Siloam") — validated by stress + vowel formant.
+
+**Fix — respell `"sih LOW am"`** (won a 15-take A/B batch on Chris/Brian; space-separated, NOT hyphenated — hyphens over-segmented to "CLOHM"/"Si-El-O-shum"). Result: 3 syllables, clean round-trip, **middle-syllable stress** (j2 new `[0.038, 0.092, 0.07]`) + long-o nucleus (n5 middle centroid 1186 Hz). Re-voiced ONLY j2 + n5 through ElevenLabs `render_segment` with the SAME locked voices (Jesus=Chris `iP95…`, narrator=Brian `nPcz…` — NOT Alexander/edge-tts, no voice swap), **atempo-locked** to the original durations (j2→1.802s, n5→14.341s exact) so no picture window moves. Written to the V1 dir (`AUDIO_FROM_V1_SEGMENTS=True`).
+
+**Ship:** `v2_assemble.py 63` **AUDIO REBUILD PASS**, audio SHA `09854d47…`→`7e4fa142…` (sanctioned re-voice; only j2/n5 changed), 247.589 s, mp4 22 MB. **Verified in the DELIVERED mp4** (whisper word-timestamps): both occurrences present + un-garbled — j2 @1:31.9, n5 @1:52.1 (= his "1:53"). Combined with last session's 8 BLINDMAN picture regens = ONE touch-once re-cut. Review card repointed to `610a7035` and answers BOTH complaints in his words. **Cost:** ElevenLabs only (~15 short A/B + 2 finals, well under $1); **$0 Gemini**. Deploy + live-verify below.
+
+---
+
 ## 2026-08-12 (cont. 84) — ROW 113 "Where Art Thou?" C-FIX: Cameron complaint (0:45 Adam lost his beard / 1:32 Eve too revealing / 1:51 God wearing the leaves) ALL FIXED — touch-once re-cut of b08/b17/b20 with a full PROMPT AUTOPSY; full-cut gate on all 26; audio byte-identical — Machine A `Dev` (unattended/headless)
 
 **Commit:** mp4 + QC + beats_v2 + segs `a441495bc572aea584cf1259f7c8b5d674d92a55` (commit A); review card + QUEUE + AUTHOR-BOARD + this log ship in commit B this push. Chain: at session start the top entry was cont. 83 (row 1), commit `033adabea` present in `git log` — verified. Hostname `Dev` = Machine A. Task: complaint-first + low-number — row 113 is the lowest waiting complained row on AUTHOR-BOARD.
