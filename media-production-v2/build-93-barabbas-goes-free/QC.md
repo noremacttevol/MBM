@@ -1,5 +1,33 @@
 # QC / RUNNER HANDOFF — build-93-barabbas-goes-free (Matthew 27:15-26)
 
+## 🛠 C-FIX 2026-08-12 — CAMERON COMPLAINT "36 second picture is weird, replace it" (Machine A `Dev`, unattended/headless)
+
+**COMPLAINT LEDGER (row 93, open at start of session):**
+- **"36 second picture is weird, replace it"** (reportedAgainst e5a8e8ba, the live cut).
+  → TRACED: 36.0s falls in still **s07** (beat v2-r093-b07, window 32.23–38.63s),
+  caption "then — and they answered with one word." The old roll rendered Pilate as a
+  **truncated bust floating behind a narrow lectern** — no visible lower body, arms
+  spread and disconnected, reading as an uncanny "talking statue on a pedestal." That
+  is the "weird." Every OTHER seat-wide (s04, s10, s11) drew Pilate as a full standing
+  figure, so s07 was the lone outlier. **FIX:** one reroll of b07 only (`--only
+  v2-r093-b07 --redo`, $0.13). New s07 = Pilate a full coherent figure at the dais
+  step, palms open ("what then?"), the crowd's arms rising for the one-word answer —
+  exactly the beat's must_show. Verified in the RENDERED mp4 at t=36s: clean, caption
+  in the bottom band, no truncation. **This is what fixes his complaint.**
+
+**FULL-CUT GATE (all 15 beats re-viewed this touch, one frame per beat from the mp4):**
+s01–s06, s08–s15 all CLEAN — bicycle already gone (prior QC-FIX), JESUS face lock +
+only-Jesus-cream hold, PILATE/BARABBAS consistency holds, no modern objects, no
+lens-stare, coherent anatomy/physics/scale, substitution thesis (s12/s15) intact. Only
+s07 needed a touch. Re-assembled **AUDIO REBUILD PASS SHA256=6df005ef…** (byte-identical
+audio Cameron already has — no re-voice, timing untouched). New mp4 e6f42d2a…
+
+**Cost:** 1 reroll = **$0.13**, meter $597.64→$597.77, ceiling $623. 1 reroll / 15
+beats = 6.7%, under the 15% budget. Touch-once: the whole cut was gated so this one
+re-cut carries no other latent defect.
+
+---
+
 ## 🛠 QC-FIX 2026-08-11 — ANACHRONISM CAUGHT BY FULL-CUT GATE BEFORE CAMERON'S EYES (Machine A `Dev`, unattended/headless)
 
 **Verify-pass on the BUILT row 93 (sitting in Cameron's Unwatched queue).** Extracted
