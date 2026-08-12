@@ -1,3 +1,17 @@
+## 2026-08-11 (cont. 63) — SHIP row 71 C-FIX "The Great Commission": Cameron's 2 complaints ("alway"→"always" caption + 1:37 white tear on Peter) fixed in ONE touch-once re-cut, audio byte-identical — Machine A `Dev`, Opus runner, unattended/headless
+
+**Commit:** ship `1897b351cd5988704b49e0d2b6a4520e9b09f2f1` (mp4 + QC.md + beats_v2.py + AUTHOR-BOARD); review.html + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.61 (row 98 C-FIX ship `fac7c37c1dde`) present in `git log`.
+
+Cameron's complaint on the LIVE shipped cut (`v2_outline.py 71`): *'Jesus said: "and, lo, I am with you always, even unto the end of the world" not "alway". 1:37 a man has a white tear and that needs to get fixed.'* — BOTH parts PICTURE-domain (no re-voice).
+
+- **Traced against the RENDERED mp4** (not beat names): the "alway" is the RED **jv20** caption (splits across b14 @77.7s + b15 @83.3s "Amen" tail); "1:37" (=97s) is **b18 / s18** where the grey-bearded disciple (Peter) had a bright opaque **white painted tear-streak** down his cheek.
+- **PROMPT AUTOPSY.** (1) alway = **CAUSED**: the caption source (V1 `make_narration.py` SEGMENTS) literally carried the archaic KJV "alway" — but the shipped ElevenLabs **Chris** audio already SAYS "always" (faster-whisper on `audio/jv20.mp3` confirmed). Cameron was reading a caption that didn't match what he hears. FIX = `TEXT_OVERRIDES = {"jv20": "...always..."}` in beats_v2.py (the blessed `v2_assemble._text_overrides` path) → caption now matches the spoken word. **V1 never edited, audio never re-voiced.** (2) tear = **ALLOWED**: b18's prompt asked for Peter's emotional "gratitude" face but had NO tear-ban → model added a white streak. FIX = added explicit tear ban to b18 must_not_show + rerolled s18 once.
+- **FULL-CUT GATE 6b (all 21 beats + card from the RENDERED mp4):** CLEAN. Notable: the green Jesus eyes on b07/b10/b17 are the INTENDED `JESUS_LOCK_V5` "luminous green" standard (v2_prompt.py) — consistent across all close-ups, NOT drift → untouched per COST LAW. Prior C-FIX rerolls (b16/b20/b21) still good; captions 3-colour bottom-band; card clean; cream-only-Jesus, ordinary scale everywhere.
+- **VERIFIED in rendered mp4:** @83s red caption now reads "…I am with you **always**, even unto the end of the world. Amen."; @97s Peter's cheek clean, no tear.
+- **COST:** 1 reroll / 21 beats = **4.8%** (well under 15%) = 1 image ≈ **$0.13**; meter $599.92→$600.05. Touch-once. **AUDIO UNTOUCHED** — AUDIO LOCK PASS SHA256 `c29f8cf…`, byte-identical (131.8s / 19.8 MB). Board Claim → C-FIX SHIPPED; Appr left ⬜ (Cameron's alone). Deploy + live-verify below.
+
+---
+
 ## 2026-08-11 (cont. 62) — VERIFY-PASS row 117 "Hosea Buys Her Back" 8th RE-FIRE — LOCAL+LIVE continuity confirmed, still CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, Opus runner, unattended/headless
 
 **Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.61 (row 98 C-FIX ship `fac7c37c1dde`) present in `git log`, and `1ad72ed9c` (row 71 C-FIX) at HEAD. Chain intact.
