@@ -1,3 +1,56 @@
+## ✅ PICTURE C-FIX SHIPPED 2026-08-12 — "1:36 old picture / make realistic" + "1:38 jesus is in 2 places" — TRACED, AUTOPSIED, fixed touch-once (Machine A `Dev`, Opus runner)
+
+**Cameron's complaint (reportedAgainst the LIVE cut `b2e18861`, filed 2026-08-12 05:06):**
+*"1:36 is an old picture and needs to be made realistic 1:38 jesus is in 2 places, bad picture replace it."*
+
+This is a NEW complaint filed AFTER the 08-11 picture C-FIX — against that very cut. The prior
+fix's reroll of s21 did NOT hold. TRACED from the LIVE mp4 (not beat names): built the exact
+clip→second timeline from `segs/concat_base.txt` — **1:36 (96s) = s19-one-owed-ten-times**,
+**1:38 (98s) = s21-and-he-was-right**. Between them **s20-which-one-will-love** flashes (96.2–97.9s).
+
+**COMPLAINT LEDGER:**
+- **"1:36 old picture / make realistic"** → FIXED. 1:36 renders **s19** (two-debtors parable). The
+  frame was bright/flat and theatrical; the neighbour **s20** (flashes right after at 96.2s) was a
+  BLATANT smooth digital-painting/CGI — a REALISTIC-ONLY + MIX-law violation. BOTH rerolled to
+  photoreal candlelit stone-interior photographs (natural skin texture, true lamplight).
+- **"1:38 jesus is in 2 places"** → FIXED. 1:38 renders **s21** (dinner-wide). The frame had the true
+  Jesus (cream, reclined, feet anointed at bottom-right) PLUS an unlocked guest painted with Jesus's
+  face/hair = TWO Jesus-looking men. Rerolled → **exactly ONE cream Jesus (locked face)**, every other
+  guest a plainly-different older grey-bearded man in earth-tone.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- **s19 — CAUSED + ALLOWED.** The scene named only the two debtors — it never described the lender, so
+  the model invented him and defaulted him to the JESUS ARCHETYPE (dark shoulder-length wavy hair,
+  full beard, cream/tan robe) → CAUSED. `must_not_show` carried no realism anchor and no not-Jesus
+  clause → the flat/painterly, Jesus-looking render was ALLOWED. FIX: scene now names the lender an
+  ORDINARY older greying Judean merchant in a plain BROWN wool tunic; `must_not_show` adds
+  "NO man who resembles Jesus … a REALISTIC PHOTOGRAPH … never a digital painting/illustration/CGI."
+- **s20 — same class.** Same missing-lender + no-realism-anchor → a smooth painterly render. Same fix.
+- **s21 — ALLOWED.** Beat was `jesus:False` with guests carrying no face/wardrobe lock, yet Jesus's own
+  body (anointed feet) is in frame → an unlocked guest defaulted to Jesus's face. The 08-11 reroll only
+  added a no-CREAM clause; a second Jesus-FACE still slipped through. FIX: attached the Jesus REF +
+  `jesus:True` so exactly ONE canonical Jesus exists and the frame comes under `jesus_face_gate`, and
+  `must_not_show` now forbids any second man with Jesus's hair/beard and names guests as
+  explicitly-not-Jesus (older, greying, earth-tone).
+
+**FULL-CUT GATE 6b (all 34 rendered frames viewed, montage-gated + 3 changed frames verified IN the
+final mp4 at 92/96/97/99/106s):** PASS. s19/s20 now photoreal with an ordinary non-Jesus lender; s21
+now single-cream ONE-Jesus with distinct older guests; the other 31 frames are byte-identical unchanged
+stills already gated clean on 08-11 (≤one cream figure, locked Jesus/Simon/Woman, realistic, captions
+3-colour bottom-band, no modern objects, lamplit-night TOD).
+
+**Audio kept BYTE-IDENTICAL (complaint is picture-only).** `AUDIO_FROM_V1_SEGMENTS=True` would rebuild
+from the still-muffled history-recovered source mp3s (reintroducing the de-muffle-reverted muffle), so
+after `v2_assemble` the new VIDEO stream was re-muxed with the SAVED live de-muffled audio track —
+final audio raw md5 **c25390b7** == the live cut Cameron already has. No re-voice, no timing/window move.
+(The audio half remains the open NEEDS-AUDIO item for the audio lane — untouched here.)
+
+**Cost:** 3 regens / 36 = **8.3%** (under 15%), **0 re-rerolls** (all landed first take), ~$0.40 (meter
+$604.21→$604.61). Under the $6.10/row average — cost trending down. RUNNER-LESSON filed
+(jesus:False-but-Jesus-body-in-frame double + unnamed-figure-defaults-to-Jesus + no-cream≠no-Jesus-face).
+
+---
+
 ## ✅ PICTURE C-FIX SHIPPED 2026-08-11 — "2 Jesus figures in one picture" + "bad pictjres" = SECOND-CREAM / JESUS-DOUBLE, fixed across the WHOLE cut (Machine A `Dev`, Opus runner)
 
 **Cameron's complaint (reportedAgainst live de-muffle cut `e880c0944f41`):**

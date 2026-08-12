@@ -502,20 +502,25 @@ BEATS = [
             "One owed ten times what the other did, and neither of them could "
             "pay a penny of it, so the lender wiped out both debts."
         ),
-        "must_show": "the wiping out received — the two debtors' faces at the tearing: the heavy one's disbelieving collapse into joy, the light one's quick relief; forgiveness landing at two depths.",
-        "must_not_show": "no halo, glare or rim-light; the two joys visibly different SIZES — the row's whole doctrine previewed in two faces.",
+        "must_show": "the wiping out received — the two debtors' faces at the tearing: the heavy one's disbelieving collapse into joy, the light one's quiet relief; forgiveness landing at two depths; the lender an ordinary greying Judean merchant.",
+        "must_not_show": "no halo, glare or rim-light; NO man who resembles Jesus — the lender is plainly an ordinary greying, balding merchant, NOT long-dark-haired, NOT wearing a cream or white robe; the two joys visibly different SIZES; a REALISTIC PHOTOGRAPH with natural skin texture, pores and true lamplight — never a smooth digital painting, illustration, cartoon or CGI render.",
         "scene": (
-            "At the lender's table the tearing lands "
-            "at two depths: the grey heavy debtor "
+            "Inside the moneylender's plain stone "
+            "house, lit warm by a low oil lamp, the "
+            "tearing lands at two depths. The lender "
+            "is an ORDINARY older Judean merchant — "
+            "greying and balding, a close-trimmed "
+            "beard, a plain undyed BROWN wool tunic — "
+            "standing over his worktable holding the "
+            "torn debt-note. The grey heavy debtor has "
             "gone to his knees with both hands over "
-            "his face, shoulders heaving — and the "
-            "young light one grinning his quick "
-            "relief, already straightening his coat — "
-            "the same mercy, received by a drowning "
-            "man and a splashed one, in the same "
-            "second, at very different depths. Every "
-            "figure has two arms, two hands and one "
-            "head."
+            "his weeping face, shoulders heaving — the "
+            "younger light one is quietly relieved, a "
+            "hand pressed to his chest — the same "
+            "mercy, received by a drowning man and a "
+            "splashed one, at very different depths. "
+            "Every figure has two arms, two hands and "
+            "one head."
         ),
     },
     {
@@ -523,45 +528,52 @@ BEATS = [
         "window": "96.21-97.962", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": "Which one will love him more?",
-        "must_show": "the answer visible — the heavy debtor gripping the lender's hand in both of his, forehead bowed to it; love already answering the question.",
-        "must_not_show": "no halo, glare or rim-light; gratitude at its full depth — the question answered before anyone speaks.",
+        "must_show": "the answer visible — the heavy debtor gripping the ordinary merchant-lender's hand in both of his, forehead bowed to it; love already answering the question.",
+        "must_not_show": "no halo, glare or rim-light; NO man who resembles Jesus — the lender is plainly an ordinary greying, balding merchant, NOT long-dark-haired, NOT wearing a cream or white robe; gratitude at its full depth; a REALISTIC PHOTOGRAPH with natural skin texture, pores and true lamplight — never a smooth digital painting, illustration, cartoon or CGI render.",
         "scene": (
-            "At the table the answer performs "
-            "itself: the grey debtor gripping the "
-            "lender's hand in both of his own, his "
-            "forehead bowed down onto the knuckles, "
-            "tears falling on the torn halves of his "
-            "five hundred — while the fifty's owner "
-            "waves cheerfully from the door, already "
-            "leaving — the question's whole answer, "
-            "visible from across any room. Every "
-            "figure has two arms, two hands and one "
-            "head."
+            "In the moneylender's plain stone house "
+            "the answer performs itself: the grey "
+            "debtor grips the lender's hand in both "
+            "of his own — the lender an ORDINARY older "
+            "Judean tradesman, greying and balding, a "
+            "close-trimmed beard, a plain undyed BROWN "
+            "wool tunic — the debtor's forehead bowed "
+            "down onto the knuckles, tears falling on "
+            "the torn halves of his note, while the "
+            "younger debtor lifts a hand in cheerful "
+            "farewell at the door, already leaving — "
+            "the question's whole answer, visible from "
+            "across the room. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
         "id": "v2-r074-b21", "out": "s21-and-he-was-right-he.jpeg", "seg": "n4",
-        "window": "97.962-107.777", "wide": False, "jesus": False, "ref": False,
+        "window": "97.962-107.777", "wide": False, "jesus": True, "ref": REF,
         "locks": ["WOMAN", "SIMON", "ROOM"],
         "narration": (
             "And he was right — he just had not noticed he was talking about "
             "the woman on the floor."
         ),
-        "must_show": "the unnoticed connection — Simon's correct answer still on his face, and beyond his shoulder, in his own line of sight, the kneeling woman: the story's answer, in the room.",
-        "must_not_show": "no halo, glare or rim-light; the composition's joke gentle — the answer and its illustration in one glance he hasn't taken.",
+        "must_show": "the unnoticed connection — Simon's correct answer still on his face, and beyond his shoulder, in his own line of sight, the kneeling woman at the ONE cream-robed Jesus's feet: the story's answer, in the room.",
+        "must_not_show": "no halo, glare or rim-light; EXACTLY ONE man is Jesus (the cream-robed man reclining at the couch's foot, his locked face); NO second Jesus — every other guest is plainly a DIFFERENT man (older or greying, varied faces, trimmed or no beard, earth-tone/brown robes), NONE with Jesus's long dark wavy hair and full beard, NONE in cream or white; never two Jesus-looking figures in one frame.",
         "scene": (
             "Simon holds his correct answer like a "
             "man holding a receipt — and past his "
             "own shoulder, exactly in the line his "
-            "eyes refuse, the woman kneels at the "
-            "couch's foot with the empty flask "
-            "beside her and her hair loosed over "
-            "the anointed feet — the five-hundred "
-            "debtor of his own supposing, three "
-            "couches away, demonstrating his answer "
-            "while he looks anywhere else. Every "
-            "figure has two arms, two hands and one "
-            "head."
+            "eyes refuse, JESUS reclines at the "
+            "couch's foot in his cream robe, his "
+            "face the locked face, with the woman "
+            "kneeling at his anointed feet, the "
+            "empty flask beside her and her hair "
+            "loosed over them — the five-hundred "
+            "debtor of Simon's own supposing, "
+            "demonstrating the answer while Simon "
+            "looks anywhere else. The other guests "
+            "along the table are ordinary older "
+            "Judean men in earth-tone robes, plainly "
+            "NOT Jesus. Every figure has two arms, "
+            "two hands and one head."
         ),
     },
     {
