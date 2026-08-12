@@ -292,14 +292,24 @@ BEATS = [
         "window": "46.09-48.87", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILL", "SOLDIERS"],
         "narration": "Father, forgive them; for they know not what they do.",
-        "must_show": "SCRIPTURE-EXACT: the prayer itself — the wide hill under the words: the lifted face high against the grey, the unknowing soldiers at their game below, watchers on the slope; mercy covering the whole frame.",
-        "must_not_show": "ABSOLUTE: no wounds or blood; the composition HOLDS everyone the prayer covers — executioners, gamblers, watchers.",
+        "must_show": "SCRIPTURE-EXACT: the prayer itself — the hill under the words: at the top of the centre cross the lifted face, his eyes open and calm and turned upward to heaven in solemn pain, and FIXED TO THE VERY TOP OF THE UPRIGHT BEAM DIRECTLY ABOVE HIS HEAD a small weathered wooden placard (the written charge over him), its worn lettering indistinct; the unknowing soldiers at their game below, watchers on the slope; mercy covering the whole frame.",
+        "must_not_show": "ABSOLUTE: no wounds or blood; NO SMILE and no bared teeth — the face solemn and sorrowful, never cheerful; his eyes natural and lifted, never rolled back and never showing only the whites; the placard PRESENT above his head, never a bare cross-top; the composition HOLDS everyone the prayer covers — executioners, gamblers, watchers.",
         "scene": (
             "The prayer goes up over "
-            "everyone it covers: the wide "
+            "everyone it covers: the "
             "grey hill with the lifted "
             "face at the top of the "
-            "centre cross — FATHER, "
+            "centre cross, his eyes open "
+            "and calm and turned upward "
+            "to heaven, the expression "
+            "solemn and heavy with pain "
+            "and never smiling — and "
+            "fixed to the very top of the "
+            "upright beam directly above "
+            "his head a small weathered "
+            "wooden placard bearing the "
+            "written charge, its lettering "
+            "worn almost away — FATHER, "
             "FORGIVE THEM — and below "
             "and around it every unknowing "
             "head the words are spent on: "
@@ -324,14 +334,23 @@ BEATS = [
             "Not, forgive them later, if they're sorry. Forgive them now — "
             "while it's still happening."
         ),
-        "must_show": "the NOW — the praying face with the game's motion visible far below at frame's bottom edge: forgiveness and offense simultaneous in one image.",
-        "must_not_show": "ABSOLUTE: no wounds or blood; the simultaneity the point — the prayer DURING, not after.",
+        "must_show": "the NOW — the praying face lifted, solemn and heavy with pain, the lips parted in prayer (NOT a smile), and a small weathered placard fixed to the top of the upright beam directly above his head; the game's motion visible far below at frame's bottom edge: forgiveness and offense simultaneous in one image.",
+        "must_not_show": "ABSOLUTE: no wounds or blood; NO SMILE, no grin, no bared teeth and no cheerful expression — the face solemn and sorrowful; he is stripped to a plain loincloth on the cross and is NOT wearing a full robe; the placard PRESENT above his head; the simultaneity the point — the prayer DURING, not after.",
         "scene": (
             "One frame holds the tense of "
             "the miracle: at its top the "
             "praying face against the "
-            "grey, the words still moving "
-            "on the lips — and at its "
+            "grey, lifted and solemn and "
+            "heavy with pain, the lips "
+            "still moving with the words "
+            "but never smiling — his body "
+            "stripped to a plain loincloth "
+            "on the cross, and directly "
+            "above his head a small "
+            "weathered wooden placard "
+            "fixed to the top of the "
+            "beam, its lettering worn "
+            "away — and at its "
             "bottom edge, small and "
             "in-focus, the dice still "
             "tumbling, the shares still "

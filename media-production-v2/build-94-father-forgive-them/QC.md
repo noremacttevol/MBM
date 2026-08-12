@@ -80,3 +80,38 @@ Runner cannot fix (audio-immutability; needs an author edit to beats_v2.py).
 **Assembly:** AUDIO_FROM_V1_SEGMENTS=True → AUDIO REBUILD PASS SHA256=80ff9897e4aedbc63ffc5dbe619d44ed1d01a026da6e0e61e4361d1386bc4ae3, 73.767s (new voice at source — 11 V1-dir segment mp3s). Stale-window check (row-74/89 trap): video_silent 73.73s ≈ card_start-based total, all 12 stills placed, final 73.77s — no overrun/drop. Caption frames verified: scripture blue + Jesus-voice j1 RED, bottom band only, question card clean.
 
 **Cost:** 4 fresh stills + 2 rerolls = 6 gens ≈ $0.80 this session (prior lane already spent ~$1.07 on s01-s08). Row total ≈ $1.87. Meter $480.93.
+
+---
+## C-FIX 2026-08-11 (Machine A `Dev`, Opus runner) — Cameron's 2 complaints CLOSED, touch-once
+
+**COMPLAINT LEDGER (open at start, now fixed):**
+1. **"In 0:54 he is smiling, i dont think he smiled on the cross its offputting, fix it."**
+   → 0:54 = beat **b10** (window 50.41–56.38s, s10). FIXED: face re-cut to solemn,
+   lifted, heavy with pain — NO smile / no bared teeth. Verified in the RENDERED mp4 at 54s.
+2. **"The picture at 0:48 does not have the plaque over his head and his eyes look weird fix it."**
+   → 0:48 = beat **b09** (window 46.08–50.41s, s09). FIXED: (a) a weathered wooden titulus
+   placard is now fixed to the top of the upright beam directly above his head; (b) eyes re-cut
+   open/calm/lifted to heaven, no longer rolled back / whites-showing. Verified at 48s.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- b09 titulus → **IGNORED**: the original scene never named a titulus, though Luke 23:38 has a
+  superscription and the sibling frame b06 already carried one — presence-inconsistency. FIX =
+  added the placard to must_show + scene (worn/indistinct lettering; not demanding legible text
+  the model botches into gibberish).
+- b09 eyes → **ALLOWED**: scene said "the lifted face high" with no gaze constraint, so at
+  distance the eyes rolled back. FIX = must_show/scene now specify eyes open, calm, upward.
+- b10 smile → **ALLOWED**: scene said "the praying face … words still moving on the lips" with
+  no expression constraint. FIX = must_not_show now forbids smile/grin/bared teeth; scene states
+  solemn, sorrowful, never smiling.
+- b10 wardrobe (batched, touch-once) → **ALLOWED**: b10 locked only HILL, so it drifted to a full
+  cream robe while b06/b09 are stripped — jarring continuity. FIX = stripped to a plain loincloth
+  to match, so the three cross frames are consistent.
+
+**FULL-CUT GATE (6b):** all 12 stills + closing card extracted from the rendered mp4 and viewed.
+Only b09/b10 changed; every other frame byte-identical (unchanged asset). No other complaint-worthy
+defect (row-11 lesson satisfied): b01/b03/b04/b11/b12 distant/merciful, b02/b08 solemn Jesus,
+b05/b07 dice-lots no gore, b06 has titulus. No 2nd cream figure, no giant scale, anatomy clean,
+realistic throughout, captions bottom-band (blue scripture / white narrator / RED Jesus j1).
+
+**Audio:** AUDIO REBUILD PASS SHA256=80ff9897… — byte-identical to the prior ship; nothing re-voiced.
+**Cost:** 2 rerolls (b09/b10) = the two complaint frames, ~$0.27 this run, 0 extra rerolls. Meter 600.72.
