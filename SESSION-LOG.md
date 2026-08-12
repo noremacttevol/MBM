@@ -14,7 +14,9 @@ Row 117 is still **BUILT** (unapproved, Appr ⬜ / Post ⬜, in Cameron's Unwatc
 
 ## 2026-08-11 (cont. 63) — SHIP row 71 C-FIX "The Great Commission": Cameron's 2 complaints ("alway"→"always" caption + 1:37 white tear on Peter) fixed in ONE touch-once re-cut, audio byte-identical — Machine A `Dev`, Opus runner, unattended/headless
 
-**Commit:** ship `1897b351cd5988704b49e0d2b6a4520e9b09f2f1` (mp4 + QC.md + beats_v2.py + AUTHOR-BOARD); review.html + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.61 (row 98 C-FIX ship `fac7c37c1dde`) present in `git log`.
+**Commit:** final ship `5cc43a5f8b9479ed422f1aee9d962fa7a3cb5d0f` (mp4 with brown eyes + QC.md + AUTHOR-BOARD + api-spend); earlier `1897b351cd59` was the first re-cut (complaints only); review.html + this SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.61 (row 98 C-FIX ship `fac7c37c1dde`) present in `git log`.
+
+**FULL-CUT GATE also caught a 3rd defect Cameron did not name and batched it in (touch-once, before he reviews):** the tight Jesus close-ups **b07/b10/b17 had pale GREEN eyes** — the exact "wrong-Jesus" look rows 89 & 98 (both today) rejected → warm-brown iris edit on all three (row-89 `_eye_edit.py` technique, every other pixel kept, verified in re-render). Enforces CLAUDE.md law 8(g) "warm brown eyes" + Law 5/6 one-face-across-all-videos. **ROOT-CAUSE FLAG for Cameron:** `v2_prompt.py` JESUS_LOCK_V5 still literally specifies "luminous GREEN eyes" — a LOCK BUG that makes EVERY v2 row generate green and need this manual fix; the lock should be changed to warm brown at source. Total cost 1 reroll + 3 iris edits ≈ $0.53; audio byte-identical throughout.
 
 Cameron's complaint on the LIVE shipped cut (`v2_outline.py 71`): *'Jesus said: "and, lo, I am with you always, even unto the end of the world" not "alway". 1:37 a man has a white tear and that needs to get fixed.'* — BOTH parts PICTURE-domain (no re-voice).
 
