@@ -7,21 +7,22 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T02:33:36_
+_Last sync: 2026-08-12T03:13:28_
 
 ## Summary
 
 - **APPROVED — not published** — 56 row(s)
 - **BUILDING** — 73 row(s)
-- **LIVE — current** — 27 row(s)
+- **LIVE — current** — 26 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
+- **LIVE — new cut awaits Cameron** — 1 row(s)
 - **ON REVIEWER — awaiting Cameron** — 27 row(s)
 
 ## The rows
 
 | # | Story | Approved | Live | Posted where | State | Next step |
 |---|---|---|---|---|---|---|
-| 1 | Woman Who Touched His Cloak | ✅ 2026-08-07 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ | — |
+| 1 | Woman Who Touched His Cloak | (old appr) | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 — cut changed since approval | Cameron re-reviews the new cut on the board |
 | 2 | The Prodigal Son | ✅ 2026-08-01 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 3 | Zacchaeus | ✅ 2026-08-02 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 4 | Nicodemus at Night | ✅ 2026-08-03 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
