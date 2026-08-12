@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 20:01:46",
+ "scanned": "2026-08-11 20:55:34",
  "entries": [
   {
    "row": 1,
@@ -33516,7 +33516,7 @@
    "wide": false,
    "night": true,
    "n_person": 1,
-   "scene": "Tight on the three disciples from the front, their torch-lit faces all turned up one way \u2014 to Jesus close above them, the question hanging in the orange-lit air between them \u2014 his own face steady and beginning its answer"
+   "scene": "A TIGHT reaction shot, waist-up, filling the frame with THREE STANDING disciples and Jesus \u2014 every one of them ON HIS FEET, wide awake, bodies tense and alarmed, faces snapped up toward Jesus close beside them as the que"
   },
   {
    "row": 66,
@@ -33530,7 +33530,7 @@
    "wide": false,
    "night": true,
    "n_person": 0,
-   "scene": "Close in the torch-orange dark: a short sword clearing its sheath \u2014 the blade half-drawn, catching the flame-light down its length, the drawing hand's knuckles white \u2014 the question asked two seconds ago already abandoned"
+   "scene": "Close in the torch-orange dark on ONE man's hands and a SINGLE ordinary short sword \u2014 a plain, normally proportioned iron blade about forearm-length, half-drawn from its leather scabbard, catching the flame-light cleanly"
   },
   {
    "row": 66,
@@ -33570,14 +33570,15 @@
    "beat": "v2-r066-b09",
    "file": "build-66-malchus-ear/assets/s09-in-one-second-the-whole.jpeg",
    "tokens": [
+    "PETER",
     "MOB",
     "GARDEN"
    ],
    "jesus": false,
    "wide": false,
    "night": true,
-   "n_person": 0,
-   "scene": "The clearing cocks itself in one breath: down the mob's line a dozen short swords come clearing out of sheaths, staves swinging level, torches lofted for the light to kill by \u2014 and opposite them the disciples bracing, th"
+   "n_person": 1,
+   "scene": "The clearing cocks itself in one breath, shot square-on across the narrow gap between two opposed lines. On the far side the mob's front rank: a dozen short swords clearing sheaths, staves swinging level, torches lofted."
   },
   {
    "row": 66,
@@ -33622,7 +33623,7 @@
    "wide": false,
    "night": true,
    "n_person": 2,
-   "scene": "Into the cocked half-second Jesus steps \u2014 between Peter's levelled blade and the mob's drawn line, one palm raised toward each side, cream robe torch-lit in the middle of the iron \u2014 and the whole night stops on his two o"
+   "scene": "Into the cocked half-second Jesus steps \u2014 planting his body between his own men and the mob's drawn line, one open palm turned toward each side, cream robe torch-lit in the middle of the iron. On Jesus's near side Peter "
   },
   {
    "row": 66,
@@ -33665,7 +33666,7 @@
    "wide": false,
    "night": true,
    "n_person": 1,
-   "scene": "Jesus's face lifts briefly to the night above the olive crowns \u2014 the deep sky thick with plain cold stars, empty of everything except its own distance \u2014 and comes back down to the torch-lit circle with the calm of a man "
+   "scene": "A CLOSE, intimate shot \u2014 Jesus from the chest up, his face and throat tipped back to look up into the deep night sky above the olive crowns: the sky thick with plain cold stars, empty of everything except its own distanc"
   },
   {
    "row": 66,
@@ -33776,13 +33777,14 @@
    "beat": "v2-r066-b23",
    "file": "build-66-malchus-ear/assets/s23-the-last-miracle-jesus-performed.jpeg",
    "tokens": [
-    "MALCHUS"
+    "MALCHUS",
+    "GARDEN"
    ],
    "jesus": false,
    "wide": false,
-   "night": false,
+   "night": true,
    "n_person": 1,
-   "scene": "Close on Malchus in the torchlight: his own trembling fingers moving over the right side of his head \u2014 tracing the whole unmarked skin, the whole present ear, again, and again from a different angle \u2014 his careful officia"
+   "scene": "Close on Malchus, still in the moonlit olive garden with the ancient olive trunks and the far city lamps soft behind him: his own trembling fingers moving over the right side of his head \u2014 tracing the whole unmarked skin"
   },
   {
    "row": 66,

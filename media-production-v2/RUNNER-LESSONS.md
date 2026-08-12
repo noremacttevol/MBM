@@ -309,6 +309,18 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   the CAST-CLOSURE + no-cream clauses usually resolve it in one take; the two
   disciples came back in brown + dark-red with ordinary faces). Root cause is
   UNSPECIFIED garment/face on the secondary cast, per v2_prompt.py's own note.
+  - **The Jesus-double ALSO spawns on `jesus:True` FULL-TABLE beats — and the
+    seat it takes is a foreground/mid GUEST, not a background edge (2026-08-11,
+    row 74 "2 Jesus figures in one picture").** Any wide dinner/banquet beat that
+    says "Jesus among his guests/the others" but locks NO wardrobe on those guests
+    will paint one of them (often the one reclining at the head of the U-table) in
+    cream with Jesus's hair+beard = a clean second Jesus. BACKGROUND_CAST_LOCK does
+    NOT catch it (that caps only ~3 *background* people; these are foreground
+    diners). Fix is the same reroll (`--only <beat> --redo`, no lock edit — s26 came
+    back single-cream first take, 0 re-rerolls). **SWEEP EVERY table frame in the
+    cut, not just the seconds Cameron timestamped:** row 74 he flagged 7 seconds but
+    the FULL-CUT GATE found the double in 11 of 36 frames — shipping only the 7 he
+    named would have repeated his complaint on the other 4.
 - **Lens-staring**: any figure looking into the camera fails.
 - **Fair-haired INCIDENTAL children/extras** (row 47 b15 family-in-the-house):
   even non-locked background people default to blond/light hair — a first-century
