@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T00:13:56_
+_Last sync: 2026-08-12T00:59:25_
 
 ## Summary
 
-- **APPROVED — not published** — 42 row(s)
-- **BUILDING** — 75 row(s)
+- **APPROVED — not published** — 49 row(s)
+- **BUILDING** — 73 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 39 row(s)
+- **ON REVIEWER — awaiting Cameron** — 34 row(s)
 
 ## The rows
 
@@ -72,7 +72,7 @@ _Last sync: 2026-08-12T00:13:56_
 | 49 | Water to Wine at Cana | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 50 | The Nobleman's Son | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 51 | The First Catch of Fish | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 52 | The Demoniac in the Synagogue | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 52 | The Demoniac in the Synagogue | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 53 | Peter's Mother-in-Law | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 54 | The Leper Made Clean | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 55 | The Withered Hand | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
@@ -80,19 +80,19 @@ _Last sync: 2026-08-12T00:13:56_
 | 57 | Jairus's Daughter | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 58 | Feeding the Five Thousand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 59 | Feeding the Four Thousand | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 60 | The Gerasene Demoniac | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 60 | The Gerasene Demoniac | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 61 | The Syrophoenician Woman | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 62 | Ephphatha: the Deaf Man | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 63 | The Man Born Blind | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 62 | Ephphatha: the Deaf Man | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 63 | The Man Born Blind | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 64 | The Pool of Bethesda | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 65 | Help Mine Unbelief | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 66 | Malchus Ear | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 67 | The Transfiguration | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 69 | Baptism of Jesus | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 69 | Baptism of Jesus | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 70 | The Temptations | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 71 | The Great Commission | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 72 | Calling Matthew | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 72 | Calling Matthew | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 73 | This Day Fulfilled | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 74 | The Woman Who Washed His Feet | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 75 | The Woman Taken in Adultery | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
@@ -100,7 +100,7 @@ _Last sync: 2026-08-12T00:13:56_
 | 77 | The Widows Mite | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 78 | Who Is My Mother | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 79 | The Seventy Sent | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 80 | Come Unto Me | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 80 | Come Unto Me | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 81 | Render Unto Caesar | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 82 | Anointing At Bethany | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 83 | Weeping Over Jerusalem | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
@@ -143,7 +143,7 @@ _Last sync: 2026-08-12T00:13:56_
 | 120 | Job Answered from the Whirlwind | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 121 | Salt and Light | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 122 | The Mote and the Beam | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 123 | The Golden Rule | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 123 | The Golden Rule | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 124 | Love Your Enemies | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 125 | I Never Knew You | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 126 | By Their Fruits | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
@@ -167,7 +167,7 @@ _Last sync: 2026-08-12T00:13:56_
 | 144 | Resurrection and the Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 145 | Way Truth Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 146 | Vine and Branches | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 147 | Joseph Forgives | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 147 | Joseph Forgives | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 148 | Ruth and the Redeemer | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 149 | Hannah Is Heard | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 150 | The Shepherd Psalm | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
