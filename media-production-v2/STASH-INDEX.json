@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-12 00:04:05",
+ "scanned": "2026-08-12 00:58:43",
  "entries": [
   {
    "row": 1,
@@ -32342,6 +32342,627 @@
    "scene": "Morning light falls through the open door of the small house onto the low table, where a whole round loaf sits broken open between the two of them \u2014 the little girl kneeling up on her stool, bright-eyed and talking with "
   },
   {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b01",
+   "file": "build-63-man-born-blind/assets/s01-in-jerusalem-there-was-a.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the bright morning on the temple approach the man sits in his worn hollow beside the pale wall \u2014 mat folded under him, wooden bowl set at the exact reach of long habit \u2014 his strong face lifted and turning slightly wit"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b02",
+   "file": "build-63-man-born-blind/assets/s02-he-had-never-seen-his.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face turned full into the morning sun: the warmth plainly landing on his skin \u2014 brow eased, head tipped like a man listening to light \u2014 while the milk-pale eyes beneath stay open and empty of every one"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b03",
+   "file": "build-63-man-born-blind/assets/s03-and-as-jesus-and-his.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Along the bright approach street, the camera at the wall's side taking the walk in profile, Jesus walks with four disciples \u2014 and their heads are already turned toward the seated blind man as they come, one leaning to an"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b04",
+   "file": "build-63-man-born-blind/assets/s04-master-who-did-sin-this.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face in the street's brightness as the question floats down to him: the faint, practised stillness of a man hearing his own life debated over his head one more time \u2014 jaw setting slightly, pale eyes st"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b05",
+   "file": "build-63-man-born-blind/assets/s05-notice-they-did-not-ask.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on two disciples' faces in the bright street: earnest, furrowed, genuinely curious \u2014 one hand half-raised in the posture of theological inquiry, both faces wholly unaware that the subject of the seminar sits listen"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b06",
+   "file": "build-63-man-born-blind/assets/s06-it-was-the-standard-theology.jpeg",
+   "tokens": [
+    "SPOT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The street passes its verdicts in the bright light, the camera low at the wall behind the beggar's shoulder so every passer crosses the light: a robed man giving the begging spot a careful wide berth, a woman dropping he"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b07",
+   "file": "build-63-man-born-blind/assets/s07-people-still-run-that-math.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man alone at his spot in the midday light, the street briefly empty: his strong face fallen into its private resting question \u2014 brows drawn faintly, mouth set, the look of a man running a lifetime's audit fo"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b08",
+   "file": "build-63-man-born-blind/assets/s08-jesus-threw-the-whole-equation.jpeg",
+   "tokens": [
+    "SPOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the bright street: the disciples' question still hanging behind him, and his face already turning from it \u2014 the refusal visible in the movement itself \u2014 his warm eyes descending to the seated man at the"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b09",
+   "file": "build-63-man-born-blind/assets/s09-neither-hath-this-man-sinned.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus stands close over the seated man and gives the answer aloud to the street \u2014 and below him the blind man's lifted face is taking it in like rain on dry ground: the practised stillness cracking, lips parting, the fir"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b10",
+   "file": "build-63-man-born-blind/assets/s10-fault-not-a-punishment.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Extreme close on the man's face in the street light: the two short sentences settling through him in real time \u2014 the drawn brows easing a degree, the set mouth loosening, a long-held breath going out through the beard \u2014 "
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b11",
+   "file": "build-63-man-born-blind/assets/s11-jesus-refused-to-explain-the.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus has come down into a crouch before the seated man \u2014 robe hem in the street dust, forearms on his knees, his face level with the pale unseeing eyes for the first time \u2014 closer than charity ever comes, near enough th"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b12",
+   "file": "build-63-man-born-blind/assets/s12-then-he-knelt-down-made.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Kneeling in the street dust Jesus works a little of the ground itself to soft clay in the cup of one palm \u2014 and then, with two fingers and the unhurried gentleness of a potter at fine work, spreads it across the man's cl"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b13",
+   "file": "build-63-man-born-blind/assets/s13-why-clay.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "An extreme close still: a small worked knob of wet clay resting in the hollow of a work-lined palm \u2014 dark street earth kneaded soft, its surface carrying the print of the fingers that made it \u2014 the least promising medici"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b14",
+   "file": "build-63-man-born-blind/assets/s14-bible-students-hear-an-echo.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "In a primal gold morning by a riverbank, strong ancient hands work wet clay on the earth \u2014 a human form half-emerged beneath them, faceless and unfinished, shoulders and arm rising out of the riverbank's own material \u2014 t"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b15",
+   "file": "build-63-man-born-blind/assets/s15-whatever-had-been-left-unfinished.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the man's face with both eyes sealed under their smooth clay \u2014 and Jesus's hand still resting steady along the bearded jaw, his own face bent near in a craftsman's absorbed attention \u2014 the original workshop quie"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b16",
+   "file": "build-63-man-born-blind/assets/s16-then-he-gave-the-man.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus leans in so his words go to the man alone \u2014 mouth near the ear, one hand on the rust-brown shoulder \u2014 and the clay-eyed man's face tips attentively toward the voice, then nods once, slowly: a private instruction pa"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b17",
+   "file": "build-63-man-born-blind/assets/s17-go-wash-in-the-pool.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT",
+    "STREETS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the wall the man rises to his feet \u2014 clay sealing both eyes, one hand finding his staff, the other reading the familiar stones a last time \u2014 and turns himself toward the long descent of the streets with the deliberate"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b18",
+   "file": "build-63-man-born-blind/assets/s18-it-was-the-question-everyone.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close still on a scribe's table in window light: an opened scroll of the Law beside a wax reckoning tablet ruled into neat columns, a stylus laid straight between them \u2014 the era's whole instinct in one desk: somewhere,"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b19",
+   "file": "build-63-man-born-blind/assets/s19-a-blind-man-eyes-packed.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "STREETS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Down the stepped stone lane the clay-eyed man makes his way alone \u2014 staff sweeping its practised arc, free hand trailing the wall's cool stone, each foot finding the hollow of the next worn stair \u2014 market noise parting a"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b20",
+   "file": "build-63-man-born-blind/assets/s20-he-went-that-walk-was.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "STREETS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close at foot level on the descending stair: the man's worn sandal settling onto the next hollow-worn step while the staff-tip taps the one below it, his other foot already lifting \u2014 the small precise machinery of a blin"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b21",
+   "file": "build-63-man-born-blind/assets/s21-he-knelt-at-the-pool.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SILOAM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the lowest broad step of the pool the man kneels at the clear green-tinged water, both hands cupping it up over his sealed eyes \u2014 the clay running from his cheekbones in dark rivulets, dropping and clouding away in th"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b22",
+   "file": "build-63-man-born-blind/assets/s22-and-light-came-pouring-in.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SILOAM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the pool step the man has gone rigid mid-motion \u2014 water still dripping from his beard, and his eyes, clear deep brown for the first time in their existence, stretched wide on his own two hands held trembling before hi"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b23",
+   "file": "build-63-man-born-blind/assets/s23-the-first-things-he-ever.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "STREETS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Up the same stepped lanes the man comes back at a stumbling half-run \u2014 the staff carried crosswise and forgotten in one fist, his head swinging side to side at everything: a red cloth over a doorway, a woman's startled f"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b24",
+   "file": "build-63-man-born-blind/assets/s24-the-neighbors-argued-about-whether.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "SPOT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the old wall, the camera outside the arguing ring so the near backs frame the man, the neighbours have him surrounded and are arguing across him \u2014 one pointing at his clear eyes, another gesturing at the worn begging "
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b25",
+   "file": "build-63-man-born-blind/assets/s25-the-religious-leaders-hauled-him.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "LEADERS",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the stone council room, the camera at the side wall holding accused and examiners in one profile, the man stands alone on the floor before the examiners' bench \u2014 the tall cold senior at its centre, the stocky one squi"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b26",
+   "file": "build-63-man-born-blind/assets/s26-they-pressed-him-to-call.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "LEADERS",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close in the striped hall light: the tall senior examiner leans down from the bench with one long finger extended, the demanded denunciation hanging in the air \u2014 and below him the man's face is doing something else entir"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b27",
+   "file": "build-63-man-born-blind/assets/s27-and-then-the-trouble-started.jpeg",
+   "tokens": [
+    "SPOT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The begging spot stands empty in the afternoon light: the worn dust-hollow holding the shape of thirty years of sitting, the mat folded where he left it, the wooden bowl with its morning's few coins unclaimed by an owner"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b28",
+   "file": "build-63-man-born-blind/assets/s28-whether-he-be-a-sinner.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man in the hall's striped light, mid-answer: his voice's plainness written in his level face, one finger risen to touch lightly beside his own clear brown eye at the words that end the argument \u2014 a man with "
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b29",
+   "file": "build-63-man-born-blind/assets/s29-he-would-not-argue-theology.jpeg",
+   "tokens": [
+    "LEADERS",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Along the examiners' bench the answer has landed and stuck: the tall senior's cold stare gone glassy with the effort of finding a category, the stocky scribe's stylus stopped dead above the tablet, the young zealot's han"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b30",
+   "file": "build-63-man-born-blind/assets/s30-tell-me-so-i-can.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the warm late light: the man's face leaning toward the voice before him, clear new eyes searching the speaker's features, brows lifted around the asking \u2014 the posture of a man holding out both hands for a name h"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b31",
+   "file": "build-63-man-born-blind/assets/s31-they-could-not-shake-him.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "LEADERS",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the hall's heavy street door the sentence executes: the tall senior's arm extended full-length in formal expulsion, the young zealot holding the door wide \u2014 and the man stepping out through it into the street's bright"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b32",
+   "file": "build-63-man-born-blind/assets/s32-healed-and-homeless-in-the.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "STREETS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the warm late gold the man sits alone on a low stone bench at the lane's edge \u2014 cast out, healed, belonging nowhere \u2014 and down the lane toward him Jesus comes walking with unmistakable purpose, not passing through but"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b33",
+   "file": "build-63-man-born-blind/assets/s33-the-man-had-never-actually.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face as the stranger nears: his clear new eyes reading the approaching features with careful unfamiliarity \u2014 and then the first word of greeting landing in his ears, and something older than sight movi"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b34",
+   "file": "build-63-man-born-blind/assets/s34-jesus-asked-him-dost-thou.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "On the low bench in the deep gold the two sit close \u2014 Jesus turned toward him, forearms on knees, his face gentle and utterly direct as the question comes \u2014 and the man's clear eyes fixed on this new face with the comple"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b35",
+   "file": "build-63-man-born-blind/assets/s35-and-the-man-who-wants.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's open face in the warm light, mid-answer: everything in it already consented \u2014 the leaning posture, the parted lips, the eyes searching the stranger's face for the missing piece \u2014 a completed yes circli"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b36",
+   "file": "build-63-man-born-blind/assets/s36-who-is-he-lord-that.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the gold light the man's hand has half-reached toward Jesus's forearm as the question leaves him \u2014 'who is he?' asked at touching distance of its own answer \u2014 and Jesus receives it with a stillness that is almost a sm"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b37",
+   "file": "build-63-man-born-blind/assets/s37-he-is-not-stalling-he.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close between the two seated figures: the man's two hands open and turned up in the space between them \u2014 work-worn beggar's hands that have held bowls and walls and staffs all their life, now emptied and offered forward "
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b38",
+   "file": "build-63-man-born-blind/assets/s38-and-jesus-said-thou-hast.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus's hand comes to rest flat on his own chest as the words arrive \u2014 'it is he' \u2014 his face held open and still toward the man's brand-new eyes, offering itself to be seen the way other men offer their names \u2014 the whole"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b39",
+   "file": "build-63-man-born-blind/assets/s39-you-have-seen-him-and.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on the man's face as the sentence finishes in him: the clear new eyes going wide and then wet, the strong features moving through recognition into wonder into something with no smaller name \u2014 the first face he ever"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b40",
+   "file": "build-63-man-born-blind/assets/s40-the-first-face-this-man.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two faces close in the deep gold, in profile: the man's brand-new eyes moving slowly, deliberately over Jesus's features \u2014 brow, eyes, the lines of the beard \u2014 memorizing the first face of his life with the unashamed"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b41",
+   "file": "build-63-man-born-blind/assets/s41-and-he-said-lord-i.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the man's face in the last warm light as the three words leave him \u2014 tears running free and his voice visibly steady beneath them, the strong jaw firm around the sentence \u2014 the morning's beggar, the afternoon's "
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b42",
+   "file": "build-63-man-born-blind/assets/s42-and-he-worshipped-him-right.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "STREETS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the open lane in the day's last gold the man goes down on both knees before Jesus \u2014 head bowing over his folded hands, the staff laid aside on the stones \u2014 passers-by slowing and turning at the sight \u2014 while Jesus sta"
+  },
+  {
+   "row": 63,
+   "build": "build-63-man-born-blind",
+   "beat": "v2-r063-b43",
+   "file": "build-63-man-born-blind/assets/s43-the-question-of-whose-fault.jpeg",
+   "tokens": [
+    "BLINDMAN",
+    "STREETS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the lane into the warm dusk the two walk away side by side \u2014 the man's head still turning at the world's endless visible surprises, Jesus's hand briefly on his shoulder at something said between them \u2014 and behind th"
+  },
+  {
    "row": 64,
    "build": "build-64-pool-of-bethesda",
    "beat": "v2-r064-b01",
@@ -53178,6 +53799,243 @@
    "night": false,
    "n_person": 2,
    "scene": "The sermon ends held out at arm's length: the broken loaf lies open across Jesus's two extended hands, offered forward to the crowd and the shore and the whole hungry world beyond them \u2014 the crumb warm, the halves parted"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b01",
+   "file": "build-147-joseph-forgives/assets/s01-years-before-own-brothers-had.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The worst day of two families is framed from far enough away to bear: across the harsh noon desert the Midianite caravan files small toward Egypt \u2014 camels, bales, traders, and among them one seventeen-year-old figure wal"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b02",
+   "file": "build-147-joseph-forgives/assets/s02-now-he-was-second-only.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Where the caravan's cargo ended up, the camera looking up the painted hall past the petitioners' backs: Joseph seated on the vizier's chair in fine white linen and the broad gold collar, attendants flanking the dais, the"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b03",
+   "file": "build-147-joseph-forgives/assets/s03-when-the-brothers-came-begging.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The men on the floor have no idea whose floor it is: the ten brothers bow low before the dais \u2014 weathered shepherds in worn wool, hunger-marks on their faces, sacks slack at their sides \u2014 begging grain from an Egyptian l"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b04",
+   "file": "build-147-joseph-forgives/assets/s04-then-he-sent-every-egyptian.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What he is about to say has no room in it for witnesses: Joseph's hand rises in a single command and the hall begins to empty \u2014 attendants and scribes and guards filing out through the great doors without a question, san"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b05",
+   "file": "build-147-joseph-forgives/assets/s05-i-am-joseph-your-brother.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Four words end thirteen years of disguise: Joseph is on his feet with the vizier's composure in pieces around him, tears cutting the kohl as it finally comes out \u2014 I am JOSEPH \u2014 your brother \u2014 whom ye SOLD \u2014 and along th"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b06",
+   "file": "build-147-joseph-forgives/assets/s06-he-soften-it-and-he.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The word SOLD stands in the room and he does not take it back: Joseph steady on his feet, the tears mastered, saying the worst thing they ever did straight into their faces \u2014 sold; me; you \u2014 no cushion under any syllable"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b07",
+   "file": "build-147-joseph-forgives/assets/s07-now-therefore-be-not-grieved.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sword they braced for turns out to be open arms: Joseph's hands spread wide toward the ten \u2014 be NOT grieved \u2014 the impossible direction of the sentence registering on face after braced face \u2014 nor angry with YOURSELVES"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b08",
+   "file": "build-147-joseph-forgives/assets/s08-tear-yourselves-up-over-it.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sentence nobody says to the guilty is being said to them: close on two of the brothers as it lands \u2014 Judah's jaw slackening around disbelief, Simeon's braced shoulders dropping an inch from his ears \u2014 don't tear your"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b09",
+   "file": "build-147-joseph-forgives/assets/s09-be-angry-at-yourselves-that.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "He comes down off the dais to say it at their level: Joseph descends the low steps and closes the distance his office built, stopping among them where a lord never stands \u2014 not angry at yourselves \u2014 the pardon aimed at t"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b10",
+   "file": "build-147-joseph-forgives/assets/s10-god-sent-me-ahead-of.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "HALL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The evidence for the reframe is stacked outside the door: Joseph's hand sweeps toward the hall's great doorway, and beyond it the granary court stands golden with provision \u2014 sacks ranked in their hundreds, grain running"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b11",
+   "file": "build-147-joseph-forgives/assets/s11-he-gave-them-the-one.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The thing no man can hand himself is handed over: one of the ten breaks at last \u2014 a sob tearing up out of a grey-bearded shepherd who has carried the pit inside him for thirteen years \u2014 and Joseph's hand comes warm to th"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b12",
+   "file": "build-147-joseph-forgives/assets/s12-much-later-when-their-father.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Years and a father's funeral later, the old fear comes back wearing mourning clothes: the brothers \u2014 greyer now, faces cut deeper \u2014 bow before Joseph once again in the golden late light, braced once again, certain that w"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b13",
+   "file": "build-147-joseph-forgives/assets/s13-but-as-for-you-ye.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The greatest sentence about providence is spoken with both hands: one turns toward his bowed brothers \u2014 YE thought evil, and he does not unsay it \u2014 and the other opens toward the doorway and the fed golden land beyond \u2014 "
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b14",
+   "file": "build-147-joseph-forgives/assets/s14-you-meant-it-for-evil.jpeg",
+   "tokens": [
+    "JOSEPH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Forgiveness never once required him to lie: close on the older face \u2014 kohl-lined, kind-eyed, absolutely level \u2014 saying the plain half of the sentence without heat and without discount: you MEANT it for evil; I will not c"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b15",
+   "file": "build-147-joseph-forgives/assets/s15-a-whole-lot-of-people.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The good God meant has faces and they are eating: the granary court runs at full provision \u2014 grain hissing from the measuring scoop into a mother's held-open sack, a boy walking off with bread in both fists, porters keep"
+  },
+  {
+   "row": 147,
+   "build": "build-147-joseph-forgives",
+   "beat": "v2-r147-b16",
+   "file": "build-147-joseph-forgives/assets/s16-he-pretend-it-hurt-he.jpeg",
+   "tokens": [
+    "JOSEPH",
+    "BROTHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wound closes with everyone's eyes open: older Joseph steps into his brothers and the embrace takes all of them \u2014 grey heads against his gold collar, ten weathered men and the boy they sold folded into one knot in the"
   },
   {
    "row": 148,
