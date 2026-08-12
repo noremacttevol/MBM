@@ -237,6 +237,32 @@ session's $0.13 mistake. Keep entries deduped and one line each.
     gaps reads as a robot. Fix ONE slow-down at a time and ear-check toward the
     MIDDLE (deliberate, not stretched); don't pile rate-cut + multiple pauses on a
     short line. Still an audio-domain park for the runner — NEEDS-AUDIO, no re-cut.
+- **A SIZE complaint over-corrects into its opposite — and a place PLATE does
+  not stop close-up scale drift (2026-08-12, row 51 RE-OPEN #3).** Row 51's
+  RE-OPEN #2 answered "boats too small / paddle-only" by locking a LARGE ~8m
+  masted-boat plate; the plate is correct and holds fine in wide/medium shots —
+  but the tight fish-hauling CLOSE-UPS (s14/s15/s16) had no scale wording, so
+  the low-angle framing ballooned the same boat into a towering galleon that
+  dwarfed the men → Cameron's next complaint was "boats too BIG." The plate
+  anchors identity/type, NOT apparent scale in a tight crop. For any boat/figure
+  close-up put explicit scale in must_show ("men are the largest thing in frame,
+  gunwale ~waist height, NEVER a towering high-sided hull"). Target the
+  historically-correct size (Galilee boat ~8m), not "bigger" or "smaller" — a
+  size fix aimed at the last complaint direction just triggers the opposite one.
+- **A required prop the LOCK omits vanishes in the one wide beat that needs it
+  (2026-08-12, row 51 s21 "no sail mast").** b16/b17 spelled out the mast in
+  must_show; b21 (same BOATS lock, same plate) did not — and that single wide
+  frame rendered mastless. A shared lock/plate is not enough; every beat that
+  must SHOW a locked feature has to name it in its own must_show, or a wide/loose
+  crop will drop it.
+- **"White tears" is a recurring painted-streak defect — ban it, don't invite it
+  (2026-08-12, row 51; see rows 71/74).** Any scene word like eyes "wet",
+  "tear-tracks", "tear-streaked" on a weeping/repentant close-up makes the model
+  paint bright white streaks down the cheeks that read as artificial. On grief
+  beats say "stricken/broken", put the emotion in the eyes+brow+mouth, and
+  must_not_show "NO tears/tear-tracks/wet or white streaks". FULL-CUT GATE every
+  sibling beat of the same scene — the defect clusters across all the kneeling
+  frames, not just the one Cameron timed.
 - **FIRST check ALREADY-SHIPPED, before you check LIVE (2026-08-06, row-45
   second pile-on, ~$5 wasted).** A row can be fully DONE — mp4 committed, review
   card live — with NO live `v2_gen_api` process, because the lane that built it
