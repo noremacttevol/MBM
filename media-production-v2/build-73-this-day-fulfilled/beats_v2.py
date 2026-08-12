@@ -417,8 +417,8 @@ BEATS = [
         "window": "86.02-89.09", "wide": False, "jesus": True, "ref": REF,
         "locks": ["SYNAGOGUE", "TOWNSFOLK"],
         "narration": "This day is this scripture fulfilled in your ears.",
-        "must_show": "SCRIPTURE-EXACT: THE declaration — Jesus seated, calm, the eight words going out into the fastened silence; the room's stillness at its absolute pitch.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the words at conversational volume — the largest claim in the town's history, made quietly, sitting down.",
+        "must_show": "SCRIPTURE-EXACT: THE declaration — Jesus seated, calm, the eight words going out into the fastened silence; the room's stillness at its absolute pitch. Jesus's hair is natural dark brown, softly wavy, shoulder-length and MEDIUM volume with visible warm highlights, matching his other frames in this cut.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the words at conversational volume — the largest claim in the town's history, made quietly, sitting down. Jesus's hair must NOT read as a solid jet-black cap or an over-thick, over-full, bulky mane — it is natural dark brown with highlights, not black, not oversized.",
         "scene": (
             "Seated on the platform bench in the "
             "plain morning light Jesus gives the "
@@ -443,8 +443,8 @@ BEATS = [
             "freedom, the good news for the poor — he said it was standing "
             "right in front of them."
         ),
-        "must_show": "the standing-right-there — close on Jesus's seated presence in the plain light: the promise embodied, ordinary and present; carpenter's hands at rest on knees.",
-        "must_not_show": "no halo, glare or rim-light; the embodiment carried by plainness — everything promised, sitting on a bench.",
+        "must_show": "the standing-right-there — close on Jesus's seated presence in the plain light: the promise embodied, ordinary and present; carpenter's hands at rest on knees. Both eyes cleanly and naturally rendered — symmetric, warm brown irises, pupils aligned and both looking the same direction, a calm, focused, natural gaze.",
+        "must_not_show": "no halo, glare or rim-light; the embodiment carried by plainness — everything promised, sitting on a bench. NO eye distortion — no asymmetric, misaligned, crossed, glassy, wall-eyed, unfocused or malformed eyes; the eyes are clean, even and correctly focused.",
         "scene": (
             "Close on the seated figure in the window "
             "shaft's plain light: the travel-worn "
@@ -549,8 +549,8 @@ BEATS = [
             "They killed him for it — but on the third day he rose, and the work "
             "he began in that little room did not end at an empty tomb."
         ),
-        "must_show": "the living, present Christ — close on the seated figure in the plain window light, calm and alive; the promise embodied, not ended.",
-        "must_not_show": "no halo, glare or rim-light, no wounds displayed or tomb shown — the resurrection carried by the narrator; the picture holds the living, ordinary-sized Christ present in the room.",
+        "must_show": "the living, present Christ — close on the seated figure in the plain window light, calm and alive; the promise embodied, not ended. Both eyes cleanly and naturally rendered — symmetric, warm brown irises, pupils aligned and both looking the same direction, a calm, focused, natural gaze.",
+        "must_not_show": "no halo, glare or rim-light, no wounds displayed or tomb shown — the resurrection carried by the narrator; the picture holds the living, ordinary-sized Christ present in the room. NO eye distortion — no asymmetric, misaligned, crossed, glassy, wall-eyed, unfocused or malformed eyes; the eyes are clean, even and correctly focused.",
         "scene": (
             "Close on the seated figure in the window "
             "shaft's plain light: the undyed cream "
@@ -569,7 +569,7 @@ BEATS = [
         "window": "126.194-138.890", "wide": False, "jesus": False, "ref": False,
         "locks": ["SYNAGOGUE"],
         "must_show": "NEW STILL — the good news going out into the world 'today': the synagogue's plain plank door standing open onto the sunlit dirt road and low stone houses of Nazareth, warm late-morning light pouring across the threshold from inside the room out into the town.",
-        "must_not_show": "no halo, glare or rim-light; no glass in the door or openings, no modern element, no lettering or signage; not a dark or closed doorway — the light moves OUTWARD into the day.",
+        "must_not_show": "no halo, glare or rim-light; no glass in the door or openings, no lettering or signage; not a dark or closed doorway — the light moves OUTWARD into the day. NO modern element of ANY kind — specifically NO power lines, NO electrical or telephone wires, NO cables strung across the sky, NO utility or power poles, NO antennas or crossarms: the sky over the road is clean, open, empty sky.",
         "scene": (
             "From just inside the small synagogue, the "
             "camera at the threshold: the plain plank "

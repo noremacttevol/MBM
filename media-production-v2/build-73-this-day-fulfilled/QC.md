@@ -1,5 +1,57 @@
 # QC / RUNNER HANDOFF — build-73-this-day-fulfilled (Luke 4:16-21)
 
+## ✅ C-FIX 2026-08-11 (Opus runner, Machine A `Dev`) — Jesus hair/eyes + gate-caught power line
+
+**Cameron's complaint (live cut, verbatim):** "1:26 jesus hair too black and full.
+1:34 / 2:04 Jesuse eyes messed up need to be replaced."
+
+**TRACE (live mp4 → rendered frame, not beat names):**
+- 1:26 (86.0 s) → beat b15 → `s15-this-day-is-this-scripture.jpeg` — hair.
+- 1:34 (94.0 s) → beat b16 → `s16-the-promise-israel-had-waited.jpeg` — eyes.
+- 2:04 (124.0 s) → beat b20 → **REUSES the same `s16`** — one still fixes BOTH eye timestamps.
+
+**COMPLAINT LEDGER (must fix, one line each — what in this cut fixes it):**
+- Hair too black/full @1:26 → `s15` rerolled to natural dark-brown, softly-wavy,
+  MEDIUM-volume hair (Jesus is now seated per the beat, calm); no solid black mass.
+- Eyes messed up @1:34 & @2:04 → `s16` rerolled to clean, symmetric, aligned warm
+  eyes with a calm natural gaze; the single reused still corrects both seconds.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- `s15` hair — verdict **ALLOWED.** The beat carried the JESUS-MASTER-REF + lock but
+  NO hair constraint; the ref itself reads jet-black, so the generator amplified it to
+  a too-black, over-full mane. FIX: added a positive+negative hair constraint to b15
+  (`must_show`/`must_not_show`): natural dark brown with highlights, medium volume,
+  NOT a solid jet-black cap or bulky mane.
+- `s16` eyes — verdict **ALLOWED.** No eye-integrity constraint; a tight close-up is
+  exactly where the generator drops asymmetric/unfocused irises. FIX: added an
+  eye-integrity constraint to b16 AND b20 (symmetric, aligned, warm, focused; no
+  distortion/wall-eye/glassiness). (Hazel tint is the systemic V2-ref trait shared by
+  the rest of this cut and approved rows — consistent, not chased.)
+- `s18` power line — verdict **IGNORED.** b21 ALREADY said "no modern element," but the
+  generator strung a rooftop power line anyway (a rock-solid "village street" prior:
+  ALL THREE fresh gens re-added a wire). FIX: (a) strengthened b21's ban to name the
+  offenders explicitly (no power lines / wires / cables / poles / antennas — clean open
+  sky); (b) since regen would not defeat the prior, the wire was removed by a surgical
+  $0 paint-out of the generated still (pull clean sky from directly above the traced
+  wire; bright-sky both-sides guard so cypress/rooftops/tree untouched). Sky verified
+  clean at up to 3.6× zoom.
+
+**FULL-CUT GATE 6b (every rendered beat viewed from the live mp4):** 18/21 beats + the
+3 caption frames + the question card were CLEAN (identity/cream-only-Jesus/anatomy/
+hands/scale/realistic/captions-bottom-band all pass). The ONLY defects were the two
+Cameron named (s15 hair, s16 eyes at both 1:34 & 2:04) and the gate-caught modern power
+line on s18 (the door frame — the board had this deferred as "faint sky hairline";
+6b now blocks it). All three fixed in this ONE touch-once re-cut; no other beat changed.
+
+**Cost:** rerolls — s15×1, s16×1, s18×3 (all three s18 gens re-drew the wire; final
+resolution was the $0 paint) = 5 gens / 21 beats ≈ **24% (OVER the 15% reroll budget).**
+Explained: the s18 power-line prior is un-promptable — three fresh gens each re-added
+it, so the extra gens bought nothing and the durable fix was mechanical. Total image
+spend ≈ **$0.65** (meter 601.93 → 602.73). Audio UNTOUCHED (byte-identical). Pictures
+s15/s16/s18 only.
+
+---
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 17 beats, ~103 s.
 
