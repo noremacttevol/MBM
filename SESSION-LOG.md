@@ -1,3 +1,17 @@
+## 2026-08-12 (cont. 83) — ROW 1 "Woman Who Touched His Cloak" QC-VERIFY → QC-FIX: FULL-CUT GATE caught the 0:52 touch complaint had REGRESSED on the live cut (hand flat on Jesus's back, not the tassels) — b11 re-cut, fingertips now at the ankle fringe in her locked dust-rose/charcoal wardrobe; 1:10 eyes verified still-clean — Machine A `Dev` (unattended/headless)
+
+**Commit:** mp4 + beats + QC + AUTHOR-BOARD `10225889a18945b1070fcdc9ba937924c5bd1914` (commit A); review card + this log ship in commit B this push. Chain: at session start the top entry was cont. 82 (row 63), commit `3a65d9cfd...` present in `git log` — verified. Hostname `Dev` = Machine A. Task: QC-VERIFY row 1 (BUILT, in Cameron's Unwatched queue) before his eyes reach it.
+
+**FULL-CUT GATE (§6b) on the LIVE realistic-v3 mp4:** extracted one frame per beat (20) + the closing card and viewed every one against the defect checklist + RUNNER-LESSONS + BOTH resolved complaints. **Result: 19/20 beats + card CLEAN** (realistic throughout, cream-only-Jesus, natural faces/hands/anatomy, captions bottom-band, question card clean).
+
+**b15 (1:10 eyes) — CLEAN, NOT regressed:** both eyes open, symmetric, aligned, warm — the 2026-08-01 "weird eyes" complaint stays fixed.
+
+**b11 (0:52 touch) — REGRESSED → RE-CUT (the one defect):** the 2026-08-06 card CLAIMED this was fixed, but the live frame still showed her **full open palm pressed flat on Jesus's lower back/hip**, tasselled fringe far below at his ankles = Cameron's exact original complaint ("the tassels only, not his back/thigh"). PROMPT AUTOPSY: scene text already said "fingertips graze the fringe near his ankles" but `must_not_show` had NO ban on touching his body → generator drift (verdict ALLOWED — missing negative constraint). FIX: added an explicit CAMERON GATE to b11 must_not_show (hand NEVER on back/spine/hip/waist/thigh/buttocks, no flat full-palm press) + reinforced her locked dust-rose head cloth / charcoal mantle in must_show; rerolled. Take 1 fixed the hand but drifted her wardrobe to pale beige (near-cream risk); take 2 nailed BOTH. Verified in the DELIVERED mp4 @0:52: bent low behind him, fingertips at the tasselled fringe at his ankles, dust-rose head cloth.
+
+**AUDIO LOCK PASS** SHA256=63014156… (byte-identical narration/voices/timing). **2 rerolls / 20 = 10%** (≤15% budget). **~$0.27** (meter $608.49→$609.16), well under the $6.10/row C-FIX average — COST LAW trend DOWN. Deployed + live-verified. RUNNER-LESSONS +1: a "resolved" complaint can silently regress/never-land on the live cut — the FULL-CUT GATE must re-verify each resolved complaint in the RENDERED mp4, never trust the card's "fixed" flag.
+
+---
+
 ## 2026-08-12 (cont. 82) — ROW 63 "The Man Born Blind" C-FIX RE-OPEN: blind man's face wrong @ 7 timestamps + 1:41 clay-eyes missing FIXED (root cause: unwired face sheet); 1:53 "si-LOH-uhm" audio parked → NEEDS-AUDIO for a touch-once combined ship — Machine A `Dev` (unattended/headless)
 
 **Commit:** picture work + beats + QC + board + lessons + stash `e50f6cf46b0a56fd18843f4c0d0353eb5edf5aef` (this push). Chain: at session start the top entry was cont. 81 (row 94), commit `3ec8528f697245b5475e4f733c3b55b922382872` present in `git log` — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 63 was the lowest OPEN complaint on the AUTHOR-BOARD.

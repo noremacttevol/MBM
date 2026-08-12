@@ -120,6 +120,23 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   Verdict goes in QC.md; new bad-wording patterns become lessons here. Blind
   rerolls re-run the same evidence and hope — forbidden.**
 
+- **A "resolved" complaint can silently REGRESS or never-land on the LIVE cut — the
+  FULL-CUT GATE must re-verify each resolved complaint in the RENDERED mp4, never trust
+  the card's "fixed" flag (2026-08-12, row 1 QC-VERIFY).** Row 1's 2026-08-06 card said
+  the 0:52 touch complaint ("she touches the edge/tassels only, not his back/thigh") was
+  fixed, but the live realistic-v3 mp4 STILL showed her full open palm flat on Jesus's
+  lower back, fringe far below at his ankles — the earlier fix regressed or never rendered.
+  A QC-VERIFY pass that only reads the card/QC header would have shipped the repeat
+  complaint straight to Cameron. On any row with resolved complaints: extract that beat's
+  frame from the DELIVERED mp4 and confirm the resolved defect is actually absent. Fix
+  here was PROMPT-AUTOPSY ALLOWED: the "reach" beat named the correct target (tasselled
+  fringe at his ankles) but never BANNED touching his back/hip/thigh, so the generator
+  drifted a full-palm press onto his body — add the explicit body-contact ban to
+  must_not_show (a positive target is not enough when the wrong pose is anatomically
+  adjacent), and reinforce the reaching figure's locked wardrobe in must_show (take 1
+  fixed the hand but dropped her dust-rose head cloth to near-cream beige; take 2 nailed
+  both).
+
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
 - **A `while pgrep -f "v2_assemble.py <row>"` wait-loop MATCHES ITS OWN COMMAND LINE — a false "STILL RUNNING" that can mask a dead assemble (2026-08-12, row 63, headless).** The monitoring loop's own bash process contains the literal string `v2_assemble.py 63`, so `pgrep -f "v2_assemble.py 63"` returns that loop's PID even after the real assemble has died — I read "STILL RUNNING" for ~20 min while the actual assemble was gone and the final mp4 was never rewritten (it stayed the PRIOR run's bytes, i.e. the un-fixed cut). MONITOR BY THE REAL PID (`nohup … & echo $!`, then `kill -0 <pid>`) or by an OUTPUT ARTIFACT (final mp4 mtime advancing past your reroll + `grep "AUDIO REBUILD PASS" <log>`), NEVER by `pgrep -f` on a string that also matches your own watcher. And at this concurrency a re-assemble CAN be starved/OOM-killed by a sibling autopilot lane's assemble (row 147 here) after the caption pass but before the final mux — always confirm the final mp4 mtime is NEWER than your last reroll AND re-extract the fixed beat from the delivered mp4 before shipping; a "DONE" earlier in the log is not proof THIS mp4 carries your fix.
