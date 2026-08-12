@@ -1,3 +1,16 @@
+## 2026-08-11 (cont. 55) — VERIFY-PASS row 117 "Hosea Buys Her Back" RE-FIRE — hash-continuity confirm, still CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, Opus, unattended/headless
+
+**Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.54 (this same VERIFY-PASS task, 3rd independent pass) commit `a5e298062` present in `git log` — that entry already frame-by-frame viewed all 38 beats + card CLEAN on rendered mp4 `42d9aafe`.
+
+The VERIFY-PASS instruction for row 117 **re-fired**. Row 117 has now been independently frame-by-frame verified CLEAN **three** separate times today (QC-OK build-gate + 2nd pass + 3rd pass), all on the SAME rendered mp4 `42d9aafe`, and the row is still **BUILT** (unapproved, in Cameron's Unwatched queue), unmodified.
+
+- **What I checked (the meaningful re-fire test — hash continuity, $0):** local mp4 md5 **STILL `42d9aafe`** (size 20843988); live-served mp4 **HTTP 200, content-length 20843988** == those exact bytes; live review card **hash still `f3ec4754`**, wave `realistic-v2`. The bytes have not moved a single byte since the 3rd pass.
+- **Why no 4th frame-by-frame re-view:** byte-identical output cannot render a different frame than the ones already viewed CLEAN three times. Re-extracting the same 38 frames adds zero protection and burns context; the FULL-CUT GATE's value is on NEW/changed bytes. Cameron is provably being served exactly the clean cut that was verified.
+- **Why no re-cut:** the law is explicit — NEVER re-cut a clean row; NEVER touch a row Cameron approved (this one isn't approved yet, but it IS clean and unmodified). A clean row reaching Cameron unmodified is the goal.
+- **Outcome:** appended a 4th board Claim stamp recording the hash-continuity confirmation (`QC-VERIFY … 4th re-fire … CLEAN`). $0, 0 rerolls — trends the running average DOWN. No credits spent, no browser touched, nothing deployed (nothing changed to deploy).
+
+---
+
 ## 2026-08-11 (cont. 54) — VERIFY-PASS row 117 "Hosea Buys Her Back" (Hosea 1-3) — independent 3rd FULL-CUT GATE, all 38 frames viewed, CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, Opus, unattended/headless
 
 **Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.53 Row 74 runner-lesson `40cb030a8` present in `git log` (the cut+QC commit `b2e18861` it references is the chain link).
