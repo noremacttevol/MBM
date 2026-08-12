@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T22:52:47_
+_Last sync: 2026-08-11T23:30:32_
 
 ## Summary
 
-- **APPROVED — not published** — 41 row(s)
+- **APPROVED — not published** — 42 row(s)
 - **BUILDING** — 76 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 39 row(s)
+- **ON REVIEWER — awaiting Cameron** — 38 row(s)
 
 ## The rows
 
@@ -114,7 +114,7 @@ _Last sync: 2026-08-11T22:52:47_
 | 91 | Gethsemane | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 92 | Peters Denial | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 93 | Barabbas Goes Free | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 94 | Father Forgive Them | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 94 | Father Forgive Them | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 95 | Thief on the Cross | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 96 | It Is Finished | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 97 | The Empty Tomb | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
@@ -168,7 +168,7 @@ _Last sync: 2026-08-11T22:52:47_
 | 145 | Way Truth Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 146 | Vine and Branches | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 147 | Joseph Forgives | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 148 | Ruth and the Redeemer | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 148 | Ruth and the Redeemer | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 149 | Hannah Is Heard | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 150 | The Shepherd Psalm | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 151 | If Any of You Lack Wisdom | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
