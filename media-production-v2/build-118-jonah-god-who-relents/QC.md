@@ -1,12 +1,16 @@
-## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (9th board-wide) — Opus runner, Machine A `Dev`, $0, 0 credits
+## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (10th board-wide) — Opus runner, Machine A `Dev`, $0, 0 credits
 
-Complaint-first + lowest-waiting → row 118. `--check` PASS (46 beats, v4). Real
-paid probe `--only b28 b33 --redo --ceiling 645` → `429 prepay depleted` on the
-immediate try AND the retry. Meter frozen **$617.34** (last successful gen board-
+Complaint-first + lowest-waiting → row 118. Staged fix VERIFIED in-file this pass
+(b28 scale-cap L953/996 "no single figure looms", b33 living-warm-skin L1146/1164
+"plainly alive, never still"); `--check` PASS (46 beats, v4). Real paid probe
+`--only b28 b33 --redo --ceiling 645` → `429 prepay depleted` on the immediate try
+AND the mandated 60s retry. Meter frozen **$617.34** (last successful gen board-
 wide = build-135 @04:11 today). No $0 path (b28 = within-frame relative scale,
 b33 = per-figure statue texture; neither croppable). mp4 NOT reshipped. The whole
-image board (rows 82/95/116/118, all complained) is frozen on this ONE depletion.
-RESUME the instant billing is funded: `python3 v2_gen_api.py build-118-jonah-god-who-relents --redo --ceiling 645` → `v2_assemble.py 118` (AUDIO LOCK PASS) → deploy step 7c.
+image board (rows 82/95/116/118, all complained) is frozen on this ONE depletion —
+this is the 10th consecutive confirmation of the identical wall; no agent can
+manufacture Gemini credits. RESUME the instant billing is funded:
+`python3 v2_gen_api.py build-118-jonah-god-who-relents --redo --ceiling 645` → `v2_assemble.py 118` (AUDIO LOCK PASS) → deploy step 7c.
 
 ---
 
