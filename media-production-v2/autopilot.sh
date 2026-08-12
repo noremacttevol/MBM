@@ -115,7 +115,18 @@ fi
 # --- refresh Cameron's live complaints + approvals (stale files still work)
 if [ "$DRY" -eq 0 ]; then
   (cd "$REPO/admin" && timeout 60 node sync-reviews.mjs >/dev/null 2>&1 || true)
-  (cd "$REPO/admin" && timeout 60 node dump-approvals.mjs > "$V2/.approvals.json" 2>/dev/null || true)
+  # FAIL-CLOSED (2026-08-12): the old `dump > file || true` TRUNCATED
+  # .approvals.json whenever the dump died (auth/network blip) — the picker
+  # then read "nobody has approved anything" and the verify sweep re-cut
+  # Cameron-approved rows 1/122/129 at 3 AM. Approval data is the shield for
+  # his approved rows: only replace it with VALIDATED non-empty JSON; on any
+  # failure keep the last good file.
+  if (cd "$REPO/admin" && timeout 60 node dump-approvals.mjs > "$V2/.approvals.json.tmp" 2>/dev/null) \
+     && python3 -c "import json,sys; d=json.load(open('$V2/.approvals.json.tmp')); sys.exit(0 if isinstance(d,dict) and d else 1)" 2>/dev/null; then
+    mv "$V2/.approvals.json.tmp" "$V2/.approvals.json"
+  else
+    rm -f "$V2/.approvals.json.tmp"
+  fi
 fi
 
 # --- THE DISPATCHER ----------------------------------------------------------
@@ -197,6 +208,7 @@ for r, b, st, au, cl, rd in rows:
         if author_live < 1:
             emit('author', r)
     elif (st == 'BUILT' and k in openc
+          and cur.get(k) is not None
           and L[k].get('reportedAgainst') == cur.get(k)):
         # NO stale-claim immunity: a complaint whose hash matches the LIVE cut
         # means the row is broken NOW, even if an older C-FIX shipped — Cameron
@@ -217,7 +229,11 @@ try:
     A = json.load(open(f'{V2}/.approvals.json'))
 except Exception:
     A = {}
-if not bd and verify_live < 1:
+# FAIL CLOSED (2026-08-12, the 3 AM re-cut of approved rows 1/122/129): if the
+# approval map is empty/unreadable, or the live card map failed to parse, we
+# CANNOT know what Cameron approved — so verify must not run at all. An
+# unknown approval state means "touch nothing", never "nothing is approved".
+if not bd and verify_live < 1 and A and cur:
     for r, b, st, au, cl, rd in rows:
         k = str(r)
         v = A.get(k, {})
@@ -264,7 +280,7 @@ case "$JOB" in
     PROMPT="Read media-production-v2/PROMPT-AUDIO-FIX.md and fix AUTHOR-BOARD row $ROW FIRST (THE LOW-NUMBER LAW — it is the lowest waiting complaint row; continue to the next lowest NEEDS-AUDIO rows after). UNATTENDED + HEADLESS: never wait, never ask; everything FOREGROUND to completion. Spend NOTHING on Gemini — audio only. The row's QC.md RUNNER PARK note is the per-row authority. If the row's stills are already generated, re-assemble and ship the full cut through deploy + live verification; the review card answers Cameron's complaint in his own words. Board: NEEDS-AUDIO -> BUILT (shipped) or AUTHORED+Ready (no stills yet). SESSION-LOG, commit, push. Stop cleanly when context runs low."
     MODEL_ARGS=(--model opus) ;;
   verify)
-    PROMPT="VERIFY-PASS. Read media-production-v2/PROMPT-OPUS-RUNNER.md — its FULL-CUT GATE (6b) is your entire job. AUTHOR-BOARD row $ROW is BUILT and sitting in Cameron's Unwatched queue; check it BEFORE his eyes reach it (2026-08-10: 'my quality is going down' — row 11 reached him with seven bad frames). Claim: append 'QC-VERIFY <date> LIVE' to the row's board Claim cell, push. Extract one frame per beat from the row's rendered mp4 (beat windows in beats_v2.py) and view EVERY frame against the defect checklist + RUNNER-LESSONS + the row's resolved complaints (a resolved complaint must not have regressed). CLEAN: mark the claim 'QC-OK <date>', commit, push, done — do NOT re-cut a clean row. DEFECTS: fix them ALL in ONE touch-once re-cut (reroll budget applies), re-assemble (AUDIO LOCK PASS), redeploy live-verified, claim 'QC-FIX <date> SHIPPED', card notes what was cleaned. NEVER touch a row Cameron approved. UNATTENDED + HEADLESS: everything FOREGROUND; never background, never wait. SESSION-LOG, commit, push."
+    PROMPT="VERIFY-PASS. Read media-production-v2/PROMPT-OPUS-RUNNER.md — its FULL-CUT GATE (6b) is your entire job. YOUR FIRST ACTION, before claiming anything: read media-production-v2/.approvals.json yourself and compare row $ROW's approvedHash to the live card's data-hash in site/review.html — if the row is approved AND the hashes match, Cameron's approval is CURRENT and this row is UNTOUCHABLE: exit immediately, claim nothing, change nothing (the 3 AM 2026-08-12 re-cut of approved rows 1/122/129 is the failure this check exists to prevent — an approved row is his release decision, and no defect you find outranks it; log the observation in the build's QC.md ONLY). AUTHOR-BOARD row $ROW is BUILT and sitting in Cameron's Unwatched queue; check it BEFORE his eyes reach it (2026-08-10: 'my quality is going down' — row 11 reached him with seven bad frames). Claim: append 'QC-VERIFY <date> LIVE' to the row's board Claim cell, push. Extract one frame per beat from the row's rendered mp4 (beat windows in beats_v2.py) and view EVERY frame against the defect checklist + RUNNER-LESSONS + the row's resolved complaints (a resolved complaint must not have regressed). CLEAN: mark the claim 'QC-OK <date>', commit, push, done — do NOT re-cut a clean row. DEFECTS: fix them ALL in ONE touch-once re-cut (reroll budget applies), re-assemble (AUDIO LOCK PASS), redeploy live-verified, claim 'QC-FIX <date> SHIPPED', card notes what was cleaned. NEVER touch a row Cameron approved. UNATTENDED + HEADLESS: everything FOREGROUND; never background, never wait. SESSION-LOG, commit, push."
     MODEL_ARGS=(--model opus) ;;
   runner)
     PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md and run the next ready rows, starting with AUTHOR-BOARD row $ROW (lowest first — THE LOW-NUMBER LAW). UNATTENDED + HEADLESS: ending your turn kills the session — run EVERY command in the FOREGROUND to completion; never run_in_background, never wait for notifications. Before generating, cross-check the row against media-production/QUEUE.md — a swapped/replaced story gets PARKED (note in Claim, clear Ready), never built. Set the board row RUNNING with Claim 'A-auto <date>' when you claim, BUILT when shipped. LEARNING LAW (complaint ledger in QC.md), COST LAW (reroll budget), step 7c DEPLOY + live verification all bind. If blocked, park with the resume command in QC.md and take the next row. SESSION-LOG, commit, push when context runs low."

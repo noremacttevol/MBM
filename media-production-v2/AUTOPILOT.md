@@ -86,6 +86,16 @@ the cron line with the stop command above.
   it; bash reads scripts incrementally, so the running copy died with a
   phantom "line 290" syntax error and lost its `tick done`. Every run now
   copies itself to /tmp and execs the copy before doing anything else.
+- **2026-08-12 — APPROVAL DATA FAILS CLOSED, never open.** `dump-approvals
+  > file || true` truncated `.approvals.json` whenever the dump died; the
+  picker then read "nobody has approved anything" and the 3 AM verify sweep
+  re-cut Cameron-approved rows 1/122/129 — the single worst law break the
+  loop can commit (his approval IS the release decision; no machine-found
+  defect outranks it). Now: the dump replaces the file only after validating
+  non-empty JSON; the verify pass runs only when BOTH the approval map and
+  the live card map loaded non-empty; and every verify session independently
+  re-checks approved-current as its first action and exits untouched if so.
+  Unknown approval state always means "touch nothing".
 - **2026-08-11 — COMPLAINT-FIRST inside the build queue too.** The runner
   pass built AUTHORED+Ready rows purely lowest-first, so re-authored
   complaint rows (149, 171, …) waited behind uncomplained fresh builds.
