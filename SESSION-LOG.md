@@ -1,3 +1,21 @@
+## 2026-08-12 (cont. 79) — ROW 74 "Woman Washed His Feet" PICTURE C-FIX: "1:36 old picture / make realistic" + "1:38 jesus is in 2 places" CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
+
+**Commit:** build+beats+QC+lesson+QUEUE `d8fdc8731baa834108388340b8b77d9cfa2d55f3` (commit A); review card + board→SHIPPED + this log ship in commit B this push. Chain: at session start the top entry was cont. 77 (row 109), commit `c7adeadbd`/`76ac0be9f` present in `git log` — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 74 was the lowest OPEN complaint on the AUTHOR-BOARD.
+
+**The complaint (`v2_outline.py 74`, reportedAgainst the LIVE cut `b2e18861`, filed 05:06):** Cameron — *"1:36 is an old picture and needs to be made realistic 1:38 jesus is in 2 places, bad picture replace it."* A NEW complaint filed AGAINST the 08-11 picture C-FIX cut — the prior reroll of s21 did NOT hold.
+
+**TRACE (from the LIVE mp4, not beat names):** built the exact clip→second timeline from `segs/concat_base.txt` — **1:36 (96s) = s19-one-owed-ten-times** (two-debtors parable), **1:38 (98s) = s21-and-he-was-right** (dinner-wide); **s20-which-one-will-love** flashes between (96.2–97.9s).
+
+**PROMPT AUTOPSY (rubric meta-law 3):** s19/s20 — CAUSED+ALLOWED: the scene named only the two debtors and never described the lender, so the model invented him and defaulted him to the JESUS ARCHETYPE (dark wavy hair, full beard, cream/tan robe), and with no realism anchor rendered flat/painterly (s20 a blatant digital painting). s21 — ALLOWED: `jesus:False` with unlocked table-guests but Jesus's own body (anointed feet) in frame → a guest defaulted to Jesus's FACE beside the true Jesus = "two Jesus"; the 08-11 fix added only a no-CREAM clause, which does not stop a second Jesus-FACE.
+
+**The fix (touch-once):** s19/s20 scenes now name the lender an ORDINARY older greying Judean merchant in a plain BROWN tunic + `must_not_show` "NO man who resembles Jesus … a REALISTIC PHOTOGRAPH … never a digital painting/illustration/CGI"; s21 got the Jesus REF + `jesus:True` (exactly ONE canonical Jesus, now under the face gate) + `must_not_show` naming guests as explicitly-not-Jesus. `--check` PASS (36). Regenerated ONLY s19/s20/s21 — all clean FIRST take. **Final mp4 spot-checked at 92/96/97/99/106s:** s19/s20 photoreal with an ordinary non-Jesus lender; s21 single-cream ONE-Jesus with distinct older grey-bearded guests. **FULL-CUT GATE:** the other 31 frames are byte-identical unchanged stills already gated clean on 08-11.
+
+**Audio kept BYTE-IDENTICAL (complaint is picture-only):** `AUDIO_FROM_V1_SEGMENTS=True` would rebuild from the still-muffled source mp3s, so after `v2_assemble` the new VIDEO was re-muxed with the SAVED live de-muffled audio track — final audio raw md5 **c25390b7** == the live cut. No re-voice, no window moved. Audio half remains the open NEEDS-AUDIO item.
+
+**Cost:** 3 regens / 36 = **8.3%** (under 15%), **0 re-rerolls**, ~$0.40 (meter $604.21→$604.61). Under the $6.10/row average (C-FIX). RUNNER-LESSON filed (jesus:False-but-Jesus-body-in-frame double; unnamed-figure defaults to Jesus; no-cream≠no-Jesus-face).
+
+---
+
 ## 2026-08-12 (cont. 78) — ROW 71 "The Great Commission" C-FIX (RE-OPEN #3): audio "alway"→"always" (genuinely re-voiced) + 1:37 white tear on Peter — Cameron's 2-part complaint CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
 
 **Commit:** build+audio+boards `fb156d05a` (commit A, ship hash); review card + this log ship in commit B this push. Chain: prior top entry cont.77 (row 109), commit `76ac0be9f` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 71 was the lowest OPEN complaint on the AUTHOR-BOARD.
