@@ -1,5 +1,53 @@
 # QC / RUNNER HANDOFF — build-120-job-from-whirlwind (Job 1-2, 19, 38-42)
 
+## ✅ C-FIX SHIPPED — SHAVED-HEAD CONSISTENCY (Opus runner, Machine A `Dev`, 2026-08-11)
+
+**COMPLAINT LEDGER (Cameron, `v2_outline.py 120`):**
+- *"In some pictures he has a shaved head and some not fix it"* → **FIXED.**
+  ROOT CAUSE: `beats_v2.py` lines 58-59 DESIGN Job "full-haired in prosperity (b01),
+  SHAVED from b05 on (the beard stays)" — the ancient mourning sign (Job 1:20 "he
+  arose, rent his mantle, shaved his head, and fell down and worshipped"). The
+  generator IGNORED that on ~20 beats, giving Job a full head of hair scattered
+  through the mourning arc while other beats came out correctly shaved → the exact
+  flip-flop Cameron saw (e.g. shaved at the worship 0:34, hair again at 0:42/0:53/
+  ashes/friends/whirlwind, shaved again at 1:40). A blind reroll reproduces it
+  (author text already SAYS shaved), so instead I ran a **targeted head-only edit**
+  on every non-compliant frame: fed each finished still back to gemini-3-pro-image
+  with "shave ONLY the grieving man's scalp to bald, keep his beard/face/robe/pose/
+  EVERY other person/background/lighting identical." This preserved the three
+  friends' hair in the group shots (s02/s12/s13/s14) and every composition — only
+  Job's scalp changed.
+
+**27 stills head-edited to shaved** (the whole mourning arc): s02, s07, s08, s09*,
+s10, s11, s12, s13, s14, s15, s16, s17, s18*, s19, s20, s21, s22, s23, s24, s28,
+s32, s33, s34, s35, s38, s39, s40, s41, s42 (*s09/s18 were already shaved; the
+rest were hair). **HAIR kept (correct — before the shaving):** s01 (prosperity),
+s03/s04/s30 (the news arriving). No-Job cosmic/nature beats untouched (s25/s26/s27/
+s29/s31/s36/s37).
+
+**FULL-CUT GATE 6b (one frame per beat from the RE-RENDERED mp4, all 42 viewed):**
+head-state now fully consistent — HAIR through c000-c003 (prosperity + news), then
+SHAVED c004→c041 (from the worship, Job 1:20) to the end. ONE clean scriptural
+transition, no flip-flop. Friends keep their hair + correct count in every group
+shot; Job one identity throughout; realistic photography only (no cartoon/mixed);
+GOD-NEVER-EMBODIED still held (whirlwind = weather+light); no modern objects; no
+second-cream figure (OT, nobody in cream); captions bottom-band unchanged.
+
+**AUDIO: byte-identical.** Only image assets were edited; `AUDIO_FROM_V1_SEGMENTS`
+rebuilds the narration from the untouched V1 mp3s → the mp4's AAC stream md5 equals
+the locked `audio_v1_final.m4a` (`3c5716a5…`); v2_assemble printed no lock error and
+produced the full 258.6 s cut (AUDIO LOCK PASS). New mp4 md5 `6074c3b1…`,
+audio sha256 `d37e827f…`, 258.6 s, 21.2 MB.
+
+**COST:** 26 head-edits × $0.134 ≈ **$3.49** for this C-FIX (touch-once; every
+non-compliant Job frame batched into ONE re-cut). Above the ~$1.2 C-FIX norm
+because the defect was pervasive (≈half of Job's frames), but far cheaper and
+safer than full regen of 20 stills incl. 4 group shots — the head-only edit voids
+no other content and cannot break the friends' identities/counts. Per-still
+backups kept as `assets/*.prehair.bak`.
+
+---
+
 ## ✅ REALISTIC-V2 BUILT + FULL-CUT-GATED + SHIPPED (Opus runner, Machine A `Dev`, 2026-08-11)
 
 **42 stills built on the NEW-voice audio (`AUDIO_FROM_V1_SEGMENTS=True`).
