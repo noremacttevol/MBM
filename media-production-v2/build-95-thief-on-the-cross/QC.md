@@ -1,5 +1,8 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
+## 🔁 2026-08-12 (2nd Opus runner pass) — BILLING RE-CHECKED, STILL DEPLETED, row stays parked
+Verified the staged fix is intact + committed (`20eb2eaad`) and `v2_prompt.py build-95-thief-on-the-cross --check` = **PASS** (11 beats, v4 checklist PASS). Re-probed billing with a single live anchor-frame gen (`--only v2-r095-b01 --redo`) → **`429 RESOURCE_EXHAUSTED: prepayment credits depleted`** again. Meter unchanged **$617.34**, $0 spent, 0 rerolls. mp4 deliberately NOT reshipped (still carries the wrong clothed/facing-across/no-crown/no-plaque staging — shipping it would repeat Cameron's exact complaint). Nothing to change: the autopsy, the full staging, and the RESUME command below are all correct and waiting on ONE thing — Cameron topping up Google AI Studio billing (https://ai.studio/projects). The instant that's done, the RESUME block ships it touch-once.
+
 ## 🛑 C-FIX 2026-08-12 → PARKED-BILLING (Machine A `Dev`, Opus runner, unattended/headless — fix FULLY STAGED, blocked on Google AI Studio prepay depletion)
 
 **COMPLAINT LEDGER (open — Cameron, against the live cut `9059485916c1…`):**
