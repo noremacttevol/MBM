@@ -1,5 +1,36 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
+## 🛑 C-FIX 2026-08-12 → PARKED-BILLING (Machine A `Dev`, Opus runner, unattended/headless — fix FULLY STAGED, blocked on Google AI Studio prepay depletion)
+
+**COMPLAINT LEDGER (open — Cameron, against the live cut `9059485916c1…`):**
+> "0:08 picture is wrong because he should be stakes to the cross. 0:18 picture is wrong because they are not facing each other and Jesus should be on the cross also. All should have their shirts off. All should be pinned to the cross. All should be in line parrallel not across from one another. This is simple stuff i dont know how you messed up this while video. Remember Jesus has a crown of throns on and they all have plaques above their heads."
+
+**FRAME TRACE (extracted from the live mp4, not guessed):**
+- **0:08 → b02** (`s02-that-was-one-of-them`): the mocker is **fully clothed in a burlap robe**, arms only loosely rope-draped over a beam — reads as a man *leaning against* a cross, NOT crucified. Matches "he should be staked to the cross / shirts off / pinned."
+- **0:18 → b03** (`s03-dost-not-thou-fear-god`): **two men standing on the ground facing each other** in profile, a cross *between* them in the background — neither is ON a cross and Jesus is not on a cross. Matches "they are not facing each other [i.e. wrongly staged across] and Jesus should be on the cross also / in line parallel not across."
+- Whole cut: NO crown of thorns on Jesus anywhere, NO titulus plaques above any head — matches the last two demands.
+
+**PROMPT AUTOPSY (rubric meta-law 3) — VERDICT = CAUSED.** The bad frames were not model drift; the prompt words demanded them. `beats_v2.py`'s "CRUCIFIXION RENDERING LAW" ordered *"all violence OFF-SCREEN … chest-or-face-up in closes"* and every beat's scene text authored the men **clothed, chest-up, rope-bound at merciful distance, turned toward each other** ("camera off the cross-line's side so all three read in one profile", b03; "the two faces turned each other's way"), with **no crown of thorns and no plaques** anywhere. The author's "merciful distance / dignity" cut deliberately avoided the literal crucifixion Cameron wants. Fix = REWRITE the words (done), not a blind reroll.
+
+**FIX STAGED THIS SESSION ($0, `v2_prompt.py 95 --check` = PASS):** rewrote the CRUCIFIXION RENDERING LAW + the HILL/MOCKER/THIEF locks + all 11 beats' must_show/must_not_show/scene to require, in every frame: **three crosses in a straight PARALLEL ROW facing the viewer (never angled across / never two men standing free facing off); all three men STRIPPED to a loincloth (bare torso, shoulders) and AFFIXED to their own cross (wrists bound along the crossbeam, body hanging); a wooden titulus PLAQUE above every head; Jesus on the centre cross wearing a CROWN OF THORNS; speech = only the HEAD turns along the row, the pinned body never pivots.** Reverence kept the right way (no gushing blood/gore/nails-through-flesh close-ups). Narration + caption text + all 11 timing windows UNTOUCHED (the 2026-08-11 desync fix holds; AUDIO LOCK will stay byte-identical).
+
+**WHY NOT SHIPPED — HARD EXTERNAL BLOCKER (billing).** All 11 frames must be regenerated for the new staging; attempted the anchor frame b03 TWICE (immediate + 60s-delayed) → BOTH `429 RESOURCE_EXHAUSTED: prepayment credits depleted`. Same depletion that has frozen the entire image board (row 82 blocked #1–#5 today, meter frozen $617.34). No agent can manufacture credits. $0 spent this session, 0 rerolls, meter unchanged $617.34. **Current mp4 NOT reshipped — it still carries the wrong (clothed / facing-across / no-crown / no-plaque) staging.** Did NOT ship a degraded partial cut.
+
+**RESUME (the moment Cameron tops up Google AI Studio billing — https://ai.studio/projects — one command, then assemble + full-cut-gate + ship, touch-once):**
+```
+cd media-production-v2
+# regen ALL 11 frames on the new staging (resumes/redoes; --redo forces overwrite of the old clothed frames)
+python3 v2_gen_api.py build-95-thief-on-the-cross --redo --ceiling <meter+27>
+# LIGHT QC every frame: shirtless + affixed to a PARALLEL-ROW cross, plaque above each head,
+#   Jesus centre with crown of thorns, heads (not bodies) turn along the row; b03/b02 = the named fixes
+python3 v2_assemble.py 95            # must print AUDIO LOCK PASS / byte-identical (windows untouched)
+# FULL-CUT GATE 6b: one frame per beat from the rendered mp4 vs the checklist, then SHIP:
+#   git add -f the mp4 + QC.md + boards; review.html data-hash + ?v=; firebase deploy --only hosting;
+#   live-verify HTTP 200; board Claim C-FIX ... SHIPPED; publish_ledger sync; SESSION-LOG; push
+```
+
+---
+
 ## ✅ QC-OK 2026-08-11 — FULL-CUT GATE 6b VERIFY-PASS on the re-shipped cut (Machine A `Dev`, unattended/headless, $0, 0 generation, NO re-cut)
 
 **COMPLAINT LEDGER: none open** (`v2_outline.py 95` = beat/segment map only). This was a VERIFY-PASS on the BUILT row sitting in Cameron's Unwatched queue (mp4 `9059485916c1…`, cont.25's giant-composite re-ship) BEFORE his eyes reached it — the row-11 "quality is going down" mandate.
