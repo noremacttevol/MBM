@@ -579,11 +579,19 @@ BEATS = [
         "locks": ["SLOPE"],
         "narration": "Do you have to say it just right?",
         "must_show": "the performance worry — a listener silently rehearsing words, lips moving, fingers counting phrases; prayer as exam, about to be dismissed.",
-        "must_not_show": "no halo; the rehearsing TENDER-comic — a real worry, kindly observed.",
+        "must_not_show": "no halo; the rehearsing TENDER-comic — a real worry, kindly observed. NO oversized foreground figure — the rehearsing listener is the SAME size as the people around him, proportionate on one shared ground plane; no one man bigger than the rest, no giant foreground man dominating the frame.",
         "scene": (
-            "Close on the exam-theory "
-            "of prayer: an earnest "
-            "listener with his lips "
+            "A balanced medium view "
+            "across the seated ring on "
+            "the slope, picking out one "
+            "earnest listener AMONG the "
+            "others at the SAME natural "
+            "scale as everyone around "
+            "him — no tight foreground "
+            "close-up, no figure "
+            "enlarged, no oversized man "
+            "filling the frame. He sits "
+            "with the group, lips "
             "moving silently through a "
             "rehearsal, fingers "
             "counting off phrases "
@@ -597,9 +605,14 @@ BEATS = [
             "carried up the hillside "
             "by a man about to be "
             "gloriously relieved of "
-            "it. Every figure has two "
-            "arms, two hands and one "
-            "head."
+            "it. Every seated figure "
+            "shares one ground plane "
+            "and stands within natural "
+            "human height of the "
+            "others — nobody bigger "
+            "than the rest. Every "
+            "figure has two arms, two "
+            "hands and one head."
         ),
     },
     {

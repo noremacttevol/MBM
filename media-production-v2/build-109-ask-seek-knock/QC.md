@@ -67,6 +67,61 @@ regen landed a clean single-panel seated frame — one arm thrown wide (horizon)
 
 ---
 
+## 🛠 RUNNER C-FIX — 2026-08-12 (Machine A `Dev`, Opus runner) — SHIPPED
+
+**NEW OPEN complaint (`v2_outline.py 109`): "0:04 picture is not good, one guy is
+way bigger than anyone else."** 0:04 renders **b18 / s18-do-you-have-to-say.jpeg**
+(seg n1, window 2.85–4.87, "Do you have to say it just right?").
+
+### PROMPT AUTOPSY (rubric meta-law 3) — verdict: CAUSED + ALLOWED
+- **CAUSED** — the b18 scene opened with **"Close on the exam-theory of prayer: an
+  earnest listener…"** The words *"Close on … a listener"* told the model to make one
+  listener a tight foreground subject; the model rendered him as a giant filling the
+  lower-right frame while Jesus and the whole seated ring shrank into the background.
+  Cameron read exactly that: "one guy is way bigger than anyone else."
+- **ALLOWED** — the prompt carried **NO scale constraint** (the SCALE GATE, rubric
+  lesson 14, was never present). Its only guard was the anti-anatomy line "Every
+  figure has two arms, two hands and one head," which says nothing about proportion.
+  Nothing in the prompt forbade a foreground giant, so nothing stopped it.
+
+### The fix (rewrite the words + add the missing constraint)
+- Reframed the scene off the foreground close-up: **"A balanced medium view across
+  the seated ring … picking out one earnest listener AMONG the others at the SAME
+  natural scale … no tight foreground close-up, no figure enlarged, no oversized man
+  filling the frame,"** and added **"Every seated figure shares one ground plane and
+  stands within natural human height of the others — nobody bigger than the rest."**
+- Added the SCALE GATE to `must_not_show`: **"NO oversized foreground figure — the
+  rehearsing listener is the SAME size as the people around him, proportionate on one
+  shared ground plane; no one man bigger than the rest, no giant foreground man
+  dominating the frame."**
+- `v2_prompt.py --check` **PASS (23 beats)**.
+
+**COMPLAINT LEDGER**
+1. **"0:04 one guy is way bigger than anyone else"** → FIXED. Regenerated ONLY
+   **s18-do-you-have-to-say.jpeg** (b18, t≈3.9s = 0:04) over the reframed +
+   scale-gated prompt. Verified in the RENDERED mp4 @3.9s: the whole ring now sits
+   at one even, natural scale — the rehearsing listener (center, gesturing) is the
+   same size as everyone around him; Jesus (cream robe, right of center) is an
+   ordinary-sized man on the shared ground plane; no foreground giant. Passes rubric
+   lesson 14 (SCALE GATE).
+
+**FULL-CUT GATE (6b): PASS.** Extracted one frame per beat from the rendered mp4
+and checked all 23. Only b18 was complaint-worthy; b01–b17 and b19–b23 all pass the
+scale gate (figures proportionate, shared ground planes), locked faces consistent,
+cream-only-Jesus holds, anatomy/hands clean, no modern objects, bright-morning
+lighting, captions bottom-band only. b17 (prior crazy-eyes fix) still reads calm.
+No other defect batched in — this is a genuine touch-once single-beat re-cut.
+
+**Rerolls: 1 on b18 (1/23 = 4.3%, well under the 15% COST-LAW budget).** First take
+landed the fix clean — no churn.
+
+**Audio: byte-identical.** v2_assemble AUDIO LOCK PASS, SHA256=21d8ace3…
+(same hash as the prior ship). mp4 142.4s, 20.1 MB. Every other still untouched.
+
+**Cost: ~$0.13 (1 reroll × $0.13), meter $603.94 → $604.07.**
+
+---
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 23 beats, ~130 s.
 
