@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-11T20:12:02_
+_Last sync: 2026-08-11T20:55:35_
 
 ## Summary
 
-- **APPROVED — not published** — 36 row(s)
+- **APPROVED — not published** — 41 row(s)
 - **BUILDING** — 76 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 44 row(s)
+- **ON REVIEWER — awaiting Cameron** — 39 row(s)
 
 ## The rows
 
@@ -97,8 +97,8 @@ _Last sync: 2026-08-11T20:12:02_
 | 74 | The Woman Who Washed His Feet | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 75 | The Woman Taken in Adultery | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 76 | Suffer the Little Children | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 77 | The Widows Mite | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 78 | Who Is My Mother | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 77 | The Widows Mite | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 78 | Who Is My Mother | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 79 | The Seventy Sent | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 80 | Come Unto Me | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 81 | Render Unto Caesar | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
@@ -120,11 +120,11 @@ _Last sync: 2026-08-11T20:12:02_
 | 97 | The Empty Tomb | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 98 | Mary her Name | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 99 | Flesh and Bone Thomas | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 100 | The Ascension | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 100 | The Ascension | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 101 | The Still Small Voice | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 102 | Jacob's Ladder | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 103 | Peter's Confession | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 104 | The Boy Samuel | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 104 | The Boy Samuel | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 107 | John the Baptist's Doubt | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
@@ -152,7 +152,7 @@ _Last sync: 2026-08-11T20:12:02_
 | 129 | Nazareth Only a Few | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 130 | What Manner of Spirit | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 131 | Scribe Near the Kingdom | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 132 | Forbid Him Not | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 132 | Forbid Him Not | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 133 | What Jesus called hell | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 134 | "Today shalt thou be with me in paradise" | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 135 | The Rainbow Covenant | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
