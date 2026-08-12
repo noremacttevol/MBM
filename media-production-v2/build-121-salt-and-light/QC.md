@@ -101,3 +101,53 @@ captions bottom-band only, question card clean (no squares).
 budget. Session Gemini spend **$3.35** (2 anchors $0.27 + 23 mass $3.08), 0
 portraits (Jesus on the global sheet), meter 518.58→522.33. Well under the
 $6.10/row average — cost trending DOWN. Touch-once: one assemble, one ship.
+
+---
+
+## QC-VERIFY 2026-08-12 (Opus runner, Machine A `Dev`, FULL-CUT GATE 6b, UNATTENDED/HEADLESS)
+
+**Result: pictures CLEAN (no re-cut) — but the 2026-08-09 "ship" was HALF-DONE
+(served-bytes / row-17 class), so I completed the never-finished delivery. $0, 0
+credits, 0 rerolls, byte-identical pictures + audio.**
+
+**FULL-CUT GATE — every one of the 29 rendered beats extracted from the delivered
+mp4 (mid-window `ffmpeg -ss`), plus the 3 caption frames + the closing question
+card, viewed against the defect checklist + RUNNER-LESSONS + the row's complaints
+(`v2_outline.py 121` = NONE open):**
+- Jesus face-locked & identical every appearance (b01/b04/b08/b11/b12/b13/b15/
+  b22/b27/b29) — warm Middle-Eastern skin, dark wavy shoulder-length hair, full
+  dark beard, calm INTEGRAL eyes (row-73 messed-eyes class CLEAN; zoomed the two
+  tight close-ups b11/b27 — irises symmetric, no distortion, no glow). Green/hazel
+  iris is the systemic V2-ref colour, consistent across all rows, un-rerollable
+  and not chased (row-94 QC-OK precedent).
+- NO halo / rim-light / glow on any person — critical on a LIGHT row; every light
+  is physical (sun, clay-lamp flame, dusk windows). PASS.
+- Cream ONLY on Jesus; b28's central weathered fisherman reads Jesus-like but is
+  correctly NOT in cream (jesus=False beat). No second cream figure anywhere.
+- Lamp continuity chain b17→b18→b19→b20 reads correctly: lit on stand → basket
+  lowered → smothered gloom → uncovered/raised, light restored. Same room/lamp/
+  basket/family.
+- Anatomy/hands checked on close-ups (b27 hand-on-chest, b08 open teaching hands,
+  b01 hand-on-knee) — natural, correct digit counts. Sandaled feet period-correct.
+- Empty-at-distance frames b05 (trodden street)/b14/b26 (dusk hilltowns, no
+  readable figures) are BY DESIGN, not the row-11 empty-scene defect.
+- Realistic photography throughout (Law-14 clean, no cartoon/mixed).
+- Captions bottom-band only; colour correct (WHITE narrator, RED = Jesus's own
+  red-letter KJV words jv13/jv14/jv15/b22). Closing question card renders clean —
+  no squares/garbled glyphs, ends on the question mark.
+
+**DELIVERY DEFECT FOUND & FIXED (the real issue): the LIVE reviewer card `v121`
+still served the OLD 2026-07-28 V1 cut** — `data-hash=cb1b23f6…`, path
+`media-production/…`, NO `data-review-wave="realistic-v2"`, "what changed:
+narration re-recorded (2026-07-23)". The 2026-08-09 session committed the
+realistic-v2 mp4 to the warehouse (`media-production-v2/…`, blob `551bfcc0…`)
+but never executed step 7b/7c — the card was never repointed and the site was
+never redeployed, so Cameron's eyes reach the OLD cartoon/mixed cut, not the
+clean realistic-v2 one. A push is not a delivery. COMPLETED THE SHIP: repointed
+`v121` to the realistic-v2 mp4 (`media-production-v2` raw URL, `realistic-v2`
+wave, new "what changed" flag), deployed Firebase hosting, live-verified the
+served card hash + mp4 HTTP 200 @ 20,125,547 bytes == local. No approval voided
+(Appr was ⬜). No credit spent — pictures and audio byte-identical to the
+2026-08-09 committed cut (AUDIO LOCK SHA256 642b6930… unchanged).
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 121`).
