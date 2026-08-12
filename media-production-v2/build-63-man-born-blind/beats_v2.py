@@ -570,7 +570,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b21", "out": "s21-he-knelt-at-the-pool.jpeg", "seg": "n5",
-        "window": "111.185-114.07", "wide": False, "jesus": False, "ref": False,
+        "window": "111.185-114.385", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SILOAM"],
         "narration": "He knelt at the pool of Siloam and washed the clay away.",
         "must_show": "SCRIPTURE-EXACT: the washing — the man kneeling on the lowest step, both hands bringing pool water up to his clay-sealed eyes, the water running dark with washed clay.",
@@ -590,7 +590,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b22", "out": "s22-and-light-came-pouring-in.jpeg", "seg": "n5",
-        "window": "114.07-121.54", "wide": False, "jesus": False, "ref": False,
+        "window": "114.385-121.505", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "SILOAM"],
         "narration": (
             "And light came pouring in where there had never been light — "
@@ -615,7 +615,7 @@ BEATS = [
     },
     {
         "id": "v2-r063-b23", "out": "s23-the-first-things-he-ever.jpeg", "seg": "n5",
-        "window": "121.54-125.57", "wide": False, "jesus": False, "ref": False,
+        "window": "121.505-125.57", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN", "STREETS"],
         "narration": "The first things he ever saw. He came back seeing.",
         "must_show": "the return — the man climbing BACK up the stepped lanes at a half-run, staff forgotten in his hand, head swinging at everything: doorways, faces, sky; drunk on the visible.",

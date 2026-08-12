@@ -86,7 +86,7 @@ SPOKEN = {
     # "Siloam" (j2, n4, n5) — plain spelling was read as "saloon". "sih low um"
     # round-trips clean to "Siloam" (sih-LOH-um). A/B measured 2026-07-22
     # (complaint #63). Caption keeps the true KJV "Siloam".
-    "Siloam": "sih low um",
+    "Siloam": "sih lo um"  # 2026-08-12: hyphen->spaces fix; see V1 make_narration note,
 }
 
 

@@ -91,15 +91,18 @@ SEGMENTS = [
 
 # Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {
-    # "Siloam" (j2, n5) — Cameron re-complained 2026-08-07: "still wrong its :
-    # si-LOH-uhm". The delivered build is ElevenLabs (Chris=Jesus, Brian=narrator,
-    # 44.1kHz), and plain "Siloam" renders as "Salome" on that voice (verified
-    # faster-whisper base.en+small.en on the delivered j2.mp3). The old respell
-    # "sih low um" rendered as chopped "silo, um". "Siloh-am" round-trips CLEAN to
-    # "Siloam" on BOTH whisper engines for BOTH voices AND on BOTH TTS backends
-    # (ElevenLabs and edge-tts) — sih-LOH-am, Cameron's target. j2 & n5 re-voiced
-    # through ElevenLabs 2026-08-07 (complaint #63, 2nd pass). Caption keeps KJV "Siloam".
-    "Siloam": "Siloh-am",
+    # "Siloam" (j2, n5) — Cameron re-complained 2026-08-12 (3rd pass): the shipped
+    # "Siloh-am" respell fixed the STRESS but the HYPHEN over-segmented the ending
+    # into a hard stressed /am/ ("Silo-AM"), not his target "si-LOH-uhm" (schwa end).
+    # 2026-08-12 fix: respell "sih lo um" (SPACES, not a hyphen). Objectively gated
+    # over many ElevenLabs takes: middle-syllable energy peak (LOH stress), softest
+    # final-syllable energy (schwa "uhm", NOT hard "am"), and faster-whisper round-
+    # trips it to "siloam/siloum" on BOTH voices (Chris=Jesus, Brian=narrator).
+    # NOTE: the shipped j2.mp3/n5.mp3 are HAND-SELECTED gated takes, atempo-locked
+    # to the exact original segment durations (j2 1.802s, n5 14.341s) so they are
+    # byte-timeline drop-ins — the resume must NOT re-render audio, only regen the
+    # billing-blocked pictures. Caption keeps KJV "Siloam".
+    "Siloam": "sih lo um",
 }
 
 

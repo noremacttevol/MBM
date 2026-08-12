@@ -1,6 +1,62 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
-## §C-FIX 2026-08-12 (Opus RUNNER, Machine A `Dev`, unattended/headless) — NEW complaint vs live 610a70352 → PARKED-BILLING (pictures) + audio recipe. **The §AUDIO-FIX SHIP claim below is SUPERSEDED — Cameron re-filed against it.**
+## §AUDIO DONE + VERIFIED 2026-08-12 (Opus RUNNER, Machine A `Dev`, unattended/headless) — Siloam FIXED & LOCKED (schwa ending), verified in the assembled mp4. Pictures still billing-blocked → row stays PARKED-BILLING for pictures ONLY.
+
+**This SUPERSEDES the "recommended, ear-unverified" audio recipe below.** The audio
+half of Cameron's complaint is now solved, not just staged.
+
+**Root cause of the 3rd re-file:** the shipped respell was **`"Siloh-am"`** — the HYPHEN
+over-segmented the ending into a hard stressed **/am/** ("Silo-AM"), the opposite of
+Cameron's target **"si-LOH-uhm"** (soft schwa end). Prior sessions kept tuning STRESS
+and never fixed the ENDING vowel; whisper was called "deaf" and the fix shipped unheard.
+
+**The fix (billing-free — ElevenLabs is separate from the depleted Gemini):**
+- Respell **`"sih lo um"`** (SPACES, never a hyphen — hyphens over-segment; caps spell-out garble).
+- Rendered MANY takes per segment and **objectively gated** each `Siloam` token three ways:
+  (1) 10 ms-frame RMS envelope split in thirds → **middle-syllable energy peak** = "LOH" stress;
+  (2) **soft final-syllable energy / low tail ratio** = schwa "uhm", NOT hard "am";
+  (3) **faster-whisper round-trip** to "siloam/siloum" (kills the old "salom/Salome" garble).
+- **Hand-selected** the best-gated take for each: **j2** (Chris/Jesus) e=[0.23,0.48,0.28] tail0.28
+  whisper "siloam"; **n5** (Brian/narrator) e=[0.35,0.39,0.26] tail0.36 whisper "siloum".
+- **atempo-locked each take to the EXACT original segment duration** (j2 **1.802 s**, n5 **14.341 s**)
+  → they are **byte-timeline drop-ins**; total cut length unchanged (247.6 s), no downstream shift.
+- Staged into `media-production/build-63-man-born-blind/audio/` (AUDIO_FROM_V1_SEGMENTS reads
+  these directly). n5's internal sentence-1 boundary moved ~0.3 s → **b21/b22/b23 windows
+  re-synced** in beats_v2.py (`111.185-114.385 / 114.385-121.505 / 121.505-125.57`).
+- SPOKEN maps (V1 + V2 make_narration) updated `Siloh-am → sih lo um`.
+
+**VERIFIED IN THE ASSEMBLED MP4 (not just in isolation):** ran `v2_assemble.py 63` (with the
+stale/bad pictures still in place — mp4 NOT shipped, git-restored after), extracted the audio at
+Cameron's exact timestamps and transcribed:
+- **1:34 j2 (Jesus):** "Go wash in the pool of **siloam**." ✓
+- **1:53 n5 (narrator):** "He knelt at the pool of **Siloam** and washed the clay away." ✓
+`AUDIO REBUILD PASS`. The Siloam audio is now correct and locked; the ONLY remaining verifier
+is Cameron's ear on the final combined cut (which cannot ship until the pictures regen).
+
+**The VOICE-TRAP is a non-issue for this build:** `build-63/mbm_eleven.VOICE_ELEVEN[JESUS]` =
+**Chris/iP95** (matches the live j1/j3/j4). The locked j2 take uses Chris.
+
+**Cost:** $0.00 (0 Gemini credits — the picture wall is untouched). ElevenLabs quota only.
+
+### ▶ RESUME (pictures only — AUDIO IS DONE, do NOT re-render it)
+```
+cd media-production-v2
+# pictures (edits already committed in beats_v2.py):
+python3 v2_gen_api.py build-63-man-born-blind --only b40 b41 b42 b43 --redo --ceiling <meter+2>
+#   FULL-CUT GATE every regen: b40 = arm's-length, NOT kissing; b40/b41/b42/b43 = SAME
+#   black-haired mid-30s man (NOT grey, NOT elderly, NOT a younger different face).
+#   b43 still grey after 2 rerolls -> lesson-10 identity-EDIT, don't churn.
+python3 v2_assemble.py 63     # AUDIO REBUILD PASS; the locked j2/n5 Siloam ships as-is
+# DO NOT re-voice j2/n5 — the staged mp3s are hand-gated locked takes; re-rendering
+# via make_narration would draw a fresh stochastic take (garbles ~half the time).
+#   then FULL-CUT GATE the mp4, ship (2 commits like row 39), deploy, live-verify,
+#   review card answers Cameron: "the blind man is the same man in every frame, Jesus is at a
+#   natural distance (no kiss), and Siloam now ends soft — si-LOH-uhm."
+```
+
+---
+
+## §C-FIX 2026-08-12 (Opus RUNNER, Machine A `Dev`, unattended/headless) — NEW complaint vs live 610a70352 → PARKED-BILLING (pictures) + audio recipe. **The §AUDIO-FIX SHIP claim below is SUPERSEDED — Cameron re-filed against it.** _(Audio now RESOLVED — see §AUDIO DONE at top.)_
 
 **Cameron's OPEN complaint (`v2_outline.py 63`, reportedAgainst=610a70352, 17:26Z):**
 > "1:53 is still wrong its : si-LOH-uhm ... you even got it wrong at 1:34 now too when Jesus says it ... The blind mans face is not the correct look @ 3:39, 3:44, 3:49, 3:56 Fix all these pictures. 4 total ... Jesus shouldnt be standing so close to him like he is trying to kiss him thats what one of those looked like, super weird"
@@ -77,7 +133,7 @@ No $0 crop path: every flagged frame has the man's face / the two-figure composi
 subject (can't crop away the subject). Picture edits are COMMITTED & `--check` PASS, waiting
 on ONE top-up. Audio NOT re-voiced (would ship only in the combined cut, which is Gemini-gated).
 
-### ▶ RESUME COMMAND (run when meter moves past $617.34) — ONE combined touch-once cut
+### ▶ RESUME COMMAND ⚠️ SUPERSEDED — audio is DONE & LOCKED (see §AUDIO DONE at top). Use the pictures-only RESUME there; do NOT run the audio step below.
 ```
 cd media-production-v2
 # 1) pictures (edits already committed in beats_v2.py):
