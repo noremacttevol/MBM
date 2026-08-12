@@ -1,3 +1,16 @@
+## 2026-08-11 (cont. 54) — VERIFY-PASS row 117 "Hosea Buys Her Back" (Hosea 1-3) — independent 3rd FULL-CUT GATE, all 38 frames viewed, CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, Opus, unattended/headless
+
+**Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.53 Row 74 runner-lesson `40cb030a8` present in `git log` (the cut+QC commit `b2e18861` it references is the chain link).
+
+Ran the PROMPT-OPUS-RUNNER FULL-CUT GATE (6b) VERIFY-PASS on AUTHOR-BOARD **row 117** (BUILT, sitting in Cameron's Unwatched queue). The board already carried a `QC-OK` build-gate stamp AND a `QC-VERIFY (independent 2nd pass)` from cont.51, both CLEAN on the same rendered mp4 (`42d9aafe`) — but the FULL-CUT GATE law is "assurance is the gate's output, never an agent's word," and those are prior agents' stamps. Frame extraction is $0 (no Gemini spend), so I did my OWN independent 3rd pass rather than trust the stamps. $0, 0 rerolls.
+
+- **Method:** local mp4 md5 `42d9aafe` == board's served hash, duration 229.8s, unchanged since both prior passes. Extracted one mid-window frame per beat from the 38 rendered clip segments (window midpoints from `beats_v2.BEATS`) + 3 closing-card frames, viewed EVERY one myself against the defect checklist + RUNNER-LESSONS + the row's resolved identity/direction/content-care traps.
+- **CLEAN — 38/38 beats + question card:** Hosea (dark hair/beard, brown robe + grey mantle) and Gomer (wine-red dress tracked bright→worn→charcoal-mantle→restored, keys-of-household at close) are the SAME people across the whole arc; blue-door HOME visual rhyme consistent (b01/b06/b36/b37/b38); all 4 hand-inserts (covenant b03, silver coins b19, tally-board b24, betrothal clasp b34) clean anatomy (5 fingers); content-care dignity intact (fall told by geography+light, nothing suggestive); fully realistic photography (NO cartoon/mixed frame); captions bottom-band with correct voice colours (narrator white, Gomer pink b05/b07/b30, God green b10/b25/b32/b34, Hosea-scripture blue b19); question card clean serif, no box glyphs; no modern objects, no scale/physics defects. No Jesus in this OT story → cream-only/face-lock N/A, nobody wears cream (correct — Hosea brown, Gomer wine-red).
+- **Live-verified:** served mp4 md5 `42d9aafe` == the local bytes I QC'd (content-length 20843988 == local) — Cameron sees exactly the clean cut. Live card `data-hash=f3ec4754`, wave `realistic-v2`, HTTP 200.
+- **Outcome:** appended board Claim `QC-VERIFY 2026-08-11 LIVE (independent 3rd pass)` → CLEAN, no re-cut (did NOT touch a clean row per the law — a clean row that reaches Cameron unmodified is the goal). Cost $0, 0 rerolls — trends the running average DOWN.
+
+---
+
 ## 2026-08-11 (cont. 53) — Row 74 "Woman Washed His Feet" (Luke 7) PICTURE C-FIX — "2 Jesus figures in one picture" = SECOND-CREAM Jesus-DOUBLE, swept from ALL 11 affected frames & SHIPPED — Machine A `Dev`, Opus, unattended/headless
 
 **Commit:** `b2e18861bb9066d9a7ad035ae957804506d0ed7e` (cut+QC+boards) + card `9baf433df` + runner-lesson `40cb030a8` + publish `60810779e`. Session-chain verified at start: prior top entry cont.52 Row 66 `aa5cbea887b0` present in `git log`.
