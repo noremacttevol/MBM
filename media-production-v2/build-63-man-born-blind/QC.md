@@ -63,6 +63,13 @@ on-screen caption:
   j2 with the SAME voice as j1/j3/j4 in the live cut (verify first) — do NOT let render_segment
   silently swap Jesus to Alexander. Narrator = Brian (nPcz…), unchanged.
 
+### RE-PROBE 2026-08-12 ~18:45Z (Opus, Machine A `Dev`) — wall persists, no re-ship
+Fresh single probe `v2_gen_api.py build-63-man-born-blind --only b40 --redo --ceiling 645`
+→ **429 "prepayment credits depleted"**, meter still **$617.34** (unmoved since 04:11:44,
+build-135). Nothing regenerated, $0 spent. Picture edits + audio recipe below are unchanged
+and turnkey. Per cont.118 STOP marker, NOT re-running the autopsy — the ONLY unblock is a
+Google AI Studio top-up. Next session: do not re-probe before the meter moves past $617.34.
+
 ### ⛔ WHY PARKED — Gemini prepay depleted (429 RESOURCE_EXHAUSTED, meter frozen $617.34)
 `v2_gen_api.py … --only b40 b41 b42 b43 --redo` returned 429 "prepayment credits depleted"
 immediately (same wall as rows 82/95/116/118 — see Brain inbox billing ask, already filed).
