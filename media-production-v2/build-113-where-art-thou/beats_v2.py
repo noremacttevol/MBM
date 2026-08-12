@@ -343,8 +343,8 @@ BEATS = [
             "And this time, they ran and hid themselves among the trees. "
             "Where art thou?"
         ),
-        "must_show": "SCRIPTURE-EXACT: the hiding and the question — the leaf-girdled two pressed behind a great trunk in shadow in the foreground, and beyond them in the clearing the embodied Father (per the GOD lock) standing and calling, the question filling the garden.",
-        "must_not_show": "no halo, glow or rim-light on the Father; the couple wear GREEN FIG-LEAF girdles (they made them last beat) — never rags, cloth or fabric; on solid ground, never on water; the couple's hiding FEARFUL, faces visible around the trunk's edge; modesty held.",
+        "must_show": "SCRIPTURE-EXACT: the hiding and the question — the leaf-girdled two pressed behind a great trunk in shadow in the foreground, and beyond them in the clearing the embodied Father (per the GOD lock) standing and calling, the question filling the garden. The man KEEPS HIS SHORT DARK BEARD (per the ADAM lock) — the same bearded face he has in every other shot, clearly visible around the trunk's edge.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the man is NEVER clean-shaven / beardless / smooth-cheeked — his short dark beard is always present; the couple wear GREEN FIG-LEAF girdles (they made them last beat) — never rags, cloth or fabric; on solid ground, never on water; the couple's hiding FEARFUL, faces visible around the trunk's edge; modesty held.",
         "scene": (
             "For the first time in the "
             "world, someone hides from "
@@ -621,8 +621,8 @@ BEATS = [
         "window": "90.69-95.07", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN", "ADAM", "EVE", "GOD"],
         "narration": "No excuses left — just the truth, spoken out loud at last.",
-        "must_show": "the emptied-out honesty — the two standing plainly before the embodied Father (per the GOD lock) in the clearing, everything told; the strange relief of no more hiding visible in their loosened postures.",
-        "must_not_show": "no halo, glow or rim-light on the Father; the two wear GREEN FIG-LEAF girdles — never rags or cloth; on solid ground, never on water; the relief SUBTLE — spent, honest, lighter.",
+        "must_show": "the emptied-out honesty — the two standing plainly before the embodied Father (per the GOD lock) in the clearing, everything told; the strange relief of no more hiding visible in their loosened postures. The woman is FULLY and modestly covered: broad green fig leaves across her breasts AND her very long dark hair drawn forward over her chest.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the two wear GREEN FIG-LEAF girdles — never rags or cloth; on solid ground, never on water; the relief SUBTLE — spent, honest, lighter; the woman's chest is NEVER bare, side-exposed or partly visible — no exposed breast or nipple on any figure, complete classical biblical modesty held on both the man and the woman.",
         "scene": (
             "When the last excuse is "
             "spent, something almost "
@@ -710,13 +710,13 @@ BEATS = [
     {
         "id": "v2-r113-b20", "out": "s20-and-instead-god-did-something.jpeg", "seg": "n7",
         "window": "108.20-112.24", "wide": False, "jesus": False, "ref": False,
-        "locks": ["GARDEN", "GOD"],
+        "locks": ["GARDEN", "GOD", "ADAM", "EVE"],
         "narration": (
             "And instead, God did something they never expected. He made "
             "them clothes."
         ),
-        "must_show": "SCRIPTURE-EXACT: the mercy — the embodied Father (per the GOD lock) holding out two well-made coats of soft dark leather to the couple, warm evening light on the garments; kindness where a sentence was expected.",
-        "must_not_show": "no halo, glow or rim-light on the Father; the couple still wear their GREEN FIG-LEAF girdles here (they receive the leather coats in the next beats) — never rags or cloth; nothing immodest; the gesture GENTLE — a father clothing his children.",
+        "must_show": "SCRIPTURE-EXACT: the mercy — the embodied Father (per the GOD lock), wearing ONLY his robe of brilliant pure white, holding out two garments of soft dark animal hide to the man and the woman (per the ADAM and EVE locks); the garments are SIMPLE PRIMITIVE HAND-STITCHED HIDE TUNICS (collarless, pull-over, visible seam stitching, exactly like the coats they wear in the following beats), warm evening light on them; kindness where a sentence was expected.",
+        "must_not_show": "no halo, glow or rim-light on the Father; the FATHER wears ONLY his robe of brilliant pure white — he has NO fig leaves, foliage, leaf-girdle, apron or any greenery on his body, waist or robe, EVER (the leaves belong to the couple, never to God); ONLY the man and the woman (never the Father) still wear their GREEN FIG-LEAF girdles here — the couple receive the hide tunics in the next beats — never rags or cloth; the hide garments are NEVER a modern leather jacket, blazer, trench coat, biker jacket, suit coat, collar, lapel, zipper, buttons or any modern tailoring — they are ancient primitive hand-sewn hide tunics only; the woman's chest fully covered by leaves and her long hair; nothing immodest; the gesture GENTLE — a father clothing his children.",
         "scene": (
             "What waits for them is not "
             "the end: the Father himself, "

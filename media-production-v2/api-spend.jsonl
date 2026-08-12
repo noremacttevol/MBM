@@ -4545,3 +4545,5 @@
 {"ts": "2026-08-12 02:53:27", "build": "build-113-where-art-thou", "beat": "v2-r113-b17", "out": "s17-no-excuses-left-just-the.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-12 02:53:53", "build": "build-113-where-art-thou", "beat": "v2-r113-b20", "out": "s20-and-instead-god-did-something.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-08-12 02:54:02", "build": "build-01-cloak", "beat": "v2-r001-b11", "out": "s11-touches-hem.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-12 03:03:30", "build": "build-113-where-art-thou", "beat": "v2-r113-b20", "out": "s20-and-instead-god-did-something.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-08-12 03:05:44", "build": "build-108-my-sheep-hear-my-voice", "beat": "portrait", "out": "shep.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}

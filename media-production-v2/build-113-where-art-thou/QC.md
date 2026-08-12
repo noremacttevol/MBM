@@ -1,5 +1,35 @@
 # QC / RUNNER HANDOFF — build-113-where-art-thou (Genesis 3)
 
+## ✅ SHIPPED — C-FIX 2026-08-12 (Opus, Machine A `Dev`) — Cameron complaint vs live 49e01006: beard / modesty / God-in-leaves. Touch-once re-cut of b08/b17/b20 + full-cut gate. Audio byte-identical.
+
+**Complaint (v2_outline OPEN, Cameron's words):** "1:51 good [God] does not also need to be wearing the leaves change that. 1:32 let's put a little more laves [leaves] on gen [the woman/Eve] that's a little too revealing. 0:45 adam looks different and lost his beard."
+
+### TRACE — timestamp → rendered frame (from the live mp4 + beat windows, not guessed)
+- **0:45** → b08 `s08-and-this-time-they-ran.jpeg` (window 39.89-45.07). Adam clean-shaven — beard gone; he is bearded in every other shot (b12 tight face-board confirms his canon = full dark beard).
+- **1:32** → b17 `s17-no-excuses-left-just-the.jpeg` (window 90.69-95.07). Eve in profile, only a hip fig-leaf girdle, hair fallen to her back → side breast exposed = "too revealing."
+- **1:51** → b20 `s20-and-instead-god-did-something.jpeg` (window 108.20-112.24). The Father (God) wearing a green FIG-LEAF girdle around his waist over the white robe.
+
+### PROMPT AUTOPSY (rubric meta-law 3 — verdict before any reroll)
+- **b08 → ALLOWED.** The ADAM lock carries "short dark beard," but the beat's own must_show/scene never reinforced it, so on this shadowed two-shot the model dropped the beard. FIX = per-beat beard reinforcement added to b08 must_show + must_not_show ("never clean-shaven"). Matches RUNNER-LESSONS beard-drift (lesson 13).
+- **b17 → ALLOWED.** Covering was specified only as a waist "girdle/apron"; the beat leaned on the EVE lock's "hair covering her," which fails on a profile pose. FIX = added an explicit per-beat chest-cover constraint (fig leaves across the breasts AND hair drawn forward; "never a bare / side-exposed breast") to b17.
+- **b20 → CAUSED.** must_not_show literally said *"the couple still wear their GREEN FIG-LEAF girdles here"* while b20's locks were only GARDEN+GOD (no ADAM/EVE) — so the fig-leaf-girdle language bound to the only embodied figure, the Father. FIX = added ADAM+EVE locks so the couple carries the girdles; rewrote the line to state the Father wears ONLY brilliant white with NO leaves/foliage/girdle ever; bound the girdles to "the man and the woman (never the Father)."
+
+### COMPLAINT LEDGER — this cut answers every part (verified from the rendered mp4)
+- **"0:45 adam lost his beard" → FIXED.** b08 regenerated: Adam now carries his full dark beard, identical to b12/b16/b21. God in the background wears plain white (no leaves).
+- **"1:32 too revealing, more leaves on the woman" → FIXED.** b17 regenerated: Eve now wears broad green fig leaves across her breasts (leaf top) plus her long hair forward; complete classical modesty. Adam bearded, God leaf-free.
+- **"1:51 God does not need to be wearing the leaves" → FIXED.** b20 regenerated: the Father wears ONLY his brilliant white robe — zero leaves/girdle/foliage on him.
+- **FULL-CUT-GATE catch (same touch):** the b20 reroll first rendered the held coats as modern collared leather jackets — inconsistent with the primitive hide tunics Cameron approved in b21/b23/b24 and a modern-object risk. Rerolled b20 once with a modern-tailoring ban → the two garments are now simple hand-stitched hide tunics matching the approved coats.
+
+### FULL-CUT GATE — one frame per beat from the live mp4, all 26 checked
+All other 23 beats PASS: Adam bearded throughout, God carries one locked look with no leaves/halo in every God beat (b02/b07/b10/b11/b17/b20/b23/b26), Eve modest (hair/leaf/leather), captions bottom-band only, KJV + question cards clean, no modern objects, anatomy/hands read correctly, people on solid ground. Only b08/b17/b20 needed the re-cut.
+
+### Ship facts
+- Rerolls: 1 quality reroll (b20 coat) of 26 beats = 3.8% (≤15% budget). Complaint-mandated re-cut of 3 beats is not a quality reroll.
+- Cost this session: ~$0.53 (3 complaint re-cuts + 1 coat reroll). Meter 608.49 → 609.30.
+- Audio: AUDIO REBUILD PASS SHA256=**4cdc391c** — byte-identical to the prior ship (audio untouched, narration/voices/timing unchanged).
+
+---
+
 ## ✅ SHIPPED — C-FIX 2026-08-11 (Opus, Machine A `Dev`) — Cameron DIRECT ORDER: God-the-Father embodiment consistency + rags root cause CLOSED. Full-cut gate + order check + served-bytes verified.
 
 **Complaint (v2_outline OPEN):** "God has a body, we've been through this... create a character for him so his look doesn't change much like Jesus... 0:25 they are sitting on water... the first two thirds where they are wearing rags needs to be changed (nothing → fig leaves), last third (God makes them clothes) stay."
