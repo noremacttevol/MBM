@@ -1,5 +1,58 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
+## §AUDIO-FIX SHIP 2026-08-12 (Opus AUDIO LANE, Machine A `Dev`, unattended/headless) — Siloam re-voiced to si-LOH-am, combined cut SHIPPED
+
+**Closes the §PARK below.** The 8 picture fixes (committed last session) + this audio
+re-voice ship together as ONE touch-once combined cut — Cameron gets both fixes in
+one re-cut, no double-approval churn.
+
+**Cameron's OPEN audio complaint (`v2_outline.py 63`):** `"1:53 is still wrong its : si-LOH-uhm"`.
+
+**Defect (verified, `/tmp` A/B before touching anything):** the shipped V1-dir `n5.mp3`
++ `j2.mp3` said Siloam **front-stressed** ("SILO-am", grain-silo) — measured
+stress-RMS front-peaked (j2 old `[0.074, 0.034, 0.014]`, n5 old `[0.074, 0.07, 0.06]`).
+whisper is DEAF to this (transcribes both "Siloam") — validated by **stress + vowel
+formant**, never whisper.
+
+**Respell chosen — `"sih LOW am"`** (space-separated, NOT hyphenated — hyphens made
+ElevenLabs over-segment into "Si-El-O-shum"/"CLOHM"). Won a 15-take A/B batch on Chris
+(Jesus) + Brian (narrator):
+- 3-syllable, clean round-trip to "Siloam" (no garble).
+- Middle-syllable STRESS (the fix for "SILO-am"): j2 new stress-RMS `[0.038, 0.092, 0.07]`
+  = clear MIDDLE peak; n5 new middle centroid **1186 Hz** (long-o /oʊ/, F2 low).
+- Beat every alternative: `sih LOH um`→"CLOHM" (garbled); `sih LOH uhm`→"Silo-ham"
+  (front-stress); `sy LOW um`→"silo, um" (long-i first vowel = grain-silo); `sih LOAM`
+  clean but only 2 syllables.
+
+**Re-voiced ONLY j2 + n5 through ElevenLabs** (`render_segment`, SAME locked voices —
+Jesus=Chris `iP95…`, narrator=Brian `nPcz…` — NOT Alexander/edge-tts; no voice swap).
+Written to `media-production/build-63-man-born-blind/audio/` (V1 dir; `AUDIO_FROM_V1_SEGMENTS=True`).
+**atempo-locked** (pitch-preserving) to the ORIGINAL durations so NO picture window
+moves: j2 → 1.802 s exact, n5 → 14.341 s exact.
+
+**Audio baseline moved (sanctioned re-voice exception):** old picture-only SHA256
+`09854d47…` → **new SHA256 `7e4fa1424875c76b3d6e3ed2fcc5ab1ccac6d201422c6b35397be04476b0956f`**.
+Only j2 + n5 changed; every other segment, all wording, all timing outside those two
+segments is untouched. `v2_assemble.py 63` **AUDIO REBUILD PASS**, 247.589 s, mp4 22 MB.
+
+**Verified in the DELIVERED mp4** (whisper word-timestamps on the rendered file): both
+occurrences present + un-garbled — j2 "Go, wash in the pool of Siloam" at **1:31.9**,
+n5 "he knelt at the pool of Siloam" at **1:52.1** (= Cameron's "1:53"). Pronunciation
+validated on the isolated locked segments (whisper can't hear the vowel).
+
+**COMPLAINT LEDGER (both closed in this one combined cut):**
+1. `"1:53 … si-LOH-uhm"` → **CLOSED** — both Siloam occurrences now say **si-LOH-am**
+   (middle-stress, long-o), no longer the grain-silo "SILO-am". Same voices; caption
+   keeps the KJV "Siloam".
+2. blind man's face @ 0:12/1:29/3:16/3:29/3:35/3:49/3:55 + 1:41 clay eyes → **CLOSED**
+   last session (BLINDMAN face-sheet wired into REFS; 8 frames regenerated) — carried
+   into this same cut.
+
+**Cost:** ElevenLabs only (~15 short A/B takes + 2 final segments, well under $1);
+**$0 Gemini** (no images touched). Reroll budget N/A (audio lane).
+
+---
+
 ## §C-FIX RE-OPEN 2026-08-12 (Opus, Machine A `Dev`, unattended/headless) — PICTURES DONE, held for combined ship; AUDIO parked → NEEDS-AUDIO
 
 **Cameron re-opened the shipped cut `94cf6ff1` (`v2_outline.py 63` / REVIEW-LESSONS row 63):**
