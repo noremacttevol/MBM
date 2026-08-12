@@ -307,5 +307,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "GATES": "PLACE-REF/gates.jpeg",  # build-127-the-strait-gate s03-enter-ye-in-at-the (manual)
 }
 # === end PLACE-PLATES ===

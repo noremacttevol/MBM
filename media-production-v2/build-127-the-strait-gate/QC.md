@@ -69,3 +69,48 @@ wording, timing.
 **Row is buildable.** 0 stills, so per the audio-fix protocol the board is flipped to
 **AUTHORED / Audio OK / Ready ✅**; a picture runner generates the stills then runs
 `v2_assemble.py 127` → AUDIO REBUILD PASS and ships the full cut on this fixed audio.
+
+---
+
+## ✅ RUNNER SHIP — Opus runner, Machine A `Dev`, 2026-08-12 (unattended/headless)
+
+REALISTIC V2 SHIPPED TO REVIEWER. 10 painted stills @ native 2K (V1 ASSEMBLY-B had 7),
+the whole Matthew 7:13-14 arc: Jesus standing on the Galilee hillside describing two roads →
+the WIDE handsome gate + broad road (KJV j1) → "one road looks easy" → the NARROW low gate,
+a traveller STOOPING through it (KJV j2) → "the other road looks harder" (exactly THREE walkers
+on the switchbacks, counts law) → the turn "a decision, not geography" → the narrow gate that
+leads to life → the high living country payoff (spring, olives, birds) → the closing: both gates
+open, one traveller caught mid-step TOWARD the narrow gate.
+
+### COMPLAINT LEDGER (LEARNING LAW)
+- **OPEN complaint: "Not real new voice"** (reportedAgainst `084778f0`, filed 2026-07-24).
+  **FIXED by this ship.** Cameron's complaint was against the OLD 2026-07-17 edge-tts
+  ASSEMBLY-B cut, which is what still sat on the reviewer because row 127 never shipped a
+  V2 cut (0 stills). The audio was RE-VOICED to ElevenLabs on 2026-07-28
+  (`2f547f438 REDO #127: new voice`, confirmed by `audio-eleven.log` = all 9 segments saved
+  through the ElevenLabs pipeline, and by transcribing the DELIVERED mp4 — clean, coherent,
+  naturally-paced English, KJV lines exact). `AUDIO_FROM_V1_SEGMENTS=True` rebuilds the track
+  from those ElevenLabs mp3s (AUDIO REBUILD PASS SHA256=8f8c65be…). So this cut carries the
+  real new voice; the complaint closes the moment the review card points at this mp4.
+
+### Build facts
+- Portraits: 0 (Jesus master-ref; travellers/crowd unlocked). Plate: GATES promoted from b03
+  (both-gates fork geometry); HILLSIDE fresh-gen (one beat, strong lock, neighbour plates
+  already differ). Audio: ElevenLabs, `AUDIO_FROM_V1_SEGMENTS=True`, 66.7s, byte-locked.
+- Rerolls: **1 beat (b10) / 10 = 10%**, within the ≤15% COST LAW budget. b10 first rendered
+  a near-duplicate of the peopled b03 plate (wrong emphasis for the closing "mid-step toward
+  the NARROW gate" beat — lesson 1199 peopled-plate contamination). A plain `--redo` with the
+  plate reproduced the crowd; a `--no-plates --redo` let b10's own text drive it and landed the
+  intended single-figure closing frame. ~$1.60 Gemini this row (meter $612.78→$614.52).
+
+### FIX-WAVE (not shipped-blocking, not rerolled)
+- b08 (the turn): rendered TWO deliberating travellers at the fork instead of the author's
+  "lone undecided chooser, weight on neither foot." Reads correctly for "he was describing a
+  decision"; kept (not garbage, no gate violation). Author can tighten to one figure later.
+
+### FULL-CUT GATE (§6b) — one frame/beat from the RENDERED mp4
+All 10 clean: Jesus cream-only + ordinary scale + no halo (b01); no second cream / no Jesus-double
+on any jesus:False gate beat; no modern objects (period gates, satchels, sandals; the pale road is
+graded dirt, not asphalt); no rotation; anatomy/hands fine. Captions bottom-band only — RED for the
+Jesus KJV lines (j1/j2), WHITE narrator elsewhere, KJV spelling preserved and matching the spoken
+audio (transcribe-diff clean, no row-84/131 mismatch). Closing card clean serif, no tofu, margins ok.

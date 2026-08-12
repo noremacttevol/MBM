@@ -1,1 +1,8 @@
-{}
+{
+ "GATES": {
+  "manual": true,
+  "src_beat": "s03-enter-ye-in-at-the",
+  "src_build": "build-127-the-strait-gate",
+  "src_file": "build-127-the-strait-gate/assets/s03-enter-ye-in-at-the.jpeg"
+ }
+}
