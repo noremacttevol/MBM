@@ -1,3 +1,19 @@
+## 2026-08-12 (cont. 82) — ROW 51 "First Catch of Fish" PICTURE C-FIX RE-OPEN #3: "1:29 white tears remove it. 1:10/1:15/1:20 boats too big. 1:41 no sail mast" CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
+
+**Commit:** build+beats+QC+board `672cc5b027b75d76f1fbb3db6be2005bde551957` (commit A); review card + this log ship in commit B this push. Chain: at session start the top entry was cont. 81 (row 89 re-open #2), commit `7bc6bcddb` present in `git log` — verified. Hostname → Machine A `Dev`. Complaint-first + low-number: row 51 held the lowest OPEN reviewer complaint.
+
+**The complaint (`v2_outline.py 51`, RE-OPEN #3 of the boat saga):** Cameron — *"1:29 picture has white tears remove it. 1:10, 1:15, & 1:20 those boats are too big, fix it. 1:41 doesn't have a sail mast."* (Note: OPPOSITE direction to RE-OPEN #2, which said boats too SMALL — the #2 fix over-corrected the close-ups into giant hulls.)
+
+**TRACE (LIVE mp4 clip timeline, 26 clips 1:1 with 26 beats, c0NN=b(NN+1); local md5==live-served 60c310e7):** 1:29→c018=b19/s19 (white tears); 1:10→c013=b14/s14, 1:15→c014=b15/s15, 1:20→c015=b16/s16 (boats too big); 1:41→c020=b21/s21 (no mast). All 5 confirmed in the rendered mp4 before touching anything.
+
+**PROMPT AUTOPSY (rubric meta-law 3):** WHITE TEARS s19 → **CAUSED** (b19 scene said eyes "wide and **wet**", no tear-ban → painted white streaks, row 71/74 class). BOATS TOO BIG s14/s15/s16 → **ALLOWED** (close-up beats carried the correct ~8m masted BOATS plate but gave NO scale guidance → tight low-angle framing ballooned the hull into a towering galleon). NO MAST s21 → **ALLOWED** (b21 never required a mast, unlike b16/b17). FIX: banned all tears + added "BOAT SCALE READS NATURAL (gunwale ~waist height, never a towering ship)" + added mast requirement — all in this build's beats_v2 (shared locks untouched).
+
+**FULL-CUT GATE 6b caught 3 more (row-11 lesson):** the SAME white-tear defect on s20/s22/s24 (Cameron didn't time them; b22 scene literally said "tear-tracks", b24 "tear-streaked") → batched all 4 tear frames tear-free in ONE re-cut instead of shipping s19-only and re-opening. Re-QC also caught + rerolled a JESUS FACE drift on s20 (off-model→canonical) and a grey-heavyset Simon drift on s15×2 (→lean dark, turned to net). 8 fix regens + 3 identity rerolls = 11.5% of 26, ~$1.47, meter $607.42. **AUDIO byte-identical (AUDIO REBUILD PASS same SHA e82b1aaf).** Deployed+live-verified.
+
+**Cost note vs running avg ($6.10/row):** $1.47 this touch — a complaint re-cut, well under the per-row baseline; 0 audio spend; all rerolls were identity-law fixes, not drift-chasing.
+
+---
+
 ## 2026-08-12 (cont. 81) — ROW 94 "Father Forgive Them" PICTURE C-FIX RE-OPEN: "he needs a crown of thorns … all of these pictures need to be redone … You didnt fix anything" CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
 
 **Commit:** build+beats+QC+lesson+board `3ec8528f697245b5475e4f733c3b55b922382872` (commit A); review card + this log ship in commit B this push. Chain: at session start the top entry was cont. 80 (row 82), commit `a6e48c972`/`4d550da28` present in `git log` — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 94 was the lowest OPEN complaint on the AUTHOR-BOARD.
