@@ -20,8 +20,26 @@ SCRIPTURE FACTS (KJV):
 CRUCIFIXION RENDERING LAW (as rows 94-95, same hill): all violence
 OFF-SCREEN — no nails, blood, wounds or gore anywhere; closes are
 chest-or-face-up with dignity absolute; the death itself is the bowed
-head and stillness, nothing more. On the cross Jesus wears the plain
-undyed cream linen wrap.
+head and stillness, nothing more.
+
+CRUCIFIXION APPEARANCE — CONSISTENT IN EVERY JESUS FRAME (Cameron C-FIX
+2026-08-11: the shipped cut flipped robe/crown/plaque frame to frame —
+"redo the whole thing, all with Jesus need redone... 0:44 has him with
+clothes on AGAIN"). On the cross Jesus is STRIPPED — the soldiers have
+already gambled his garments away (the dice on the rock) — so he wears
+ONLY a plain rough undyed loincloth; bare torso, NEVER the cream robe /
+mantle / tunic / shawl, never fully clothed on the cross. A dark crown
+of woven thorns on his head in EVERY frame. A plain weathered wooden
+TITLE-BOARD (the titulus, John 19:19) fixed to the upright above his
+head, its ancient lettering worn and indistinct (no modern type). His
+eyes warm, living and dark — reverent, lifted to the dark sky or lowered
+in peace; NEVER white, blank, milky or rolled back, NEVER into the lens.
+The cross timber rises directly behind his head so he is unmistakably ON
+the cross (no isolated studio portrait). No small cross shapes floating
+in the sky. Restraint still absolute: no nails, blood, wounds or gore.
+Enforced per-beat via CRUCIFIX_LOOK / CRUCIFIX_REJECT below (this row
+only; the shared JESUS_LOCK_V5 cream-robe identity is untouched for the
+other 199 videos).
 
 TIME OF DAY: the Luke 23:44 DARKNESS — a heavy unnatural gloom over
 the hill, deeper than any storm-dusk, thinning only at the row's end;
@@ -65,6 +83,49 @@ REF = True
 # than the V1 mp4 (recency gate fails) and |Δ|>1.0, so the packet-copy AUDIO LOCK
 # would ship stale voices. Rebuild from this build's own mp3 segments — $0.
 AUDIO_FROM_V1_SEGMENTS = True
+
+# --- Cameron C-FIX 2026-08-11: ONE consistent crucifixion depiction of Jesus.
+# These strings render AFTER the shared JESUS_LOCK_V5 (cream robe) in v2_prompt
+# .assemble(), so they override the robe for THIS row only. `scene` is prefixed
+# with CRUCIFIX_LOOK; `must_not_show` is suffixed with CRUCIFIX_REJECT. Applied to
+# every readable Jesus beat (b01-b06, b08, b11); the distant establishing wide b07
+# leaves Jesus a speck, so it is unaffected and not re-cut (cost law).
+CRUCIFIX_LOOK = (
+    "CRUCIFIXION APPEARANCE — IDENTICAL in every crucifixion frame: on the cross "
+    "Jesus is STRIPPED of the cream robe — the soldiers have already cast lots for "
+    "his garments (their dice lie on the rock below) — so he wears ONLY a plain, "
+    "rough, undyed knee-length cloth loincloth; his torso and arms are bare. He is "
+    "NOT in the cream robe, mantle, tunic or shawl here and is never fully clothed "
+    "on the cross. On his head is a dark CROWN OF WOVEN THORNS pressed into the "
+    "brow. The rough wooden UPRIGHT of the cross rises directly behind his head and "
+    "shoulders, and fixed to it just above his head is a plain weathered wooden "
+    "TITLE-BOARD (the titulus) whose ancient painted lettering is worn and "
+    "indistinct — an aged placard, no modern type. His EYES are warm, living and "
+    "dark — clear and reverent, lifted to the heavy dark sky or lowered in peace; "
+    "NEVER white, blank, milky or rolled back, and NEVER looking into the camera "
+    "lens. His face and identity remain exactly the attached JESUS-V2-REF man. "
+    "Still NO nails, blood, wounds or gore anywhere — dignity absolute. "
+)
+CRUCIFIX_REJECT = (
+    " ALSO REJECT: any cream robe, mantle, tunic or shawl on his body; a fully "
+    "clothed Jesus on the cross; a missing crown of thorns; white, blank or "
+    "rolled-back eyes; his gaze into the camera lens; a bare studio-style portrait "
+    "with no cross behind his head; small cross shapes floating in the sky; MORE "
+    "THAN THREE crosses anywhere in the frame or a SECOND separate group of crosses "
+    "on a background hill or horizon — there are ONLY THREE crosses in the whole "
+    "scene: Jesus's cross and the two thieves' crosses beside it, and no others "
+    "anywhere behind; any legible modern or Latin-alphabet word on the title-board "
+    "(it is an aged placard with worn, indistinct ancient marks, never a readable "
+    "word); any nails, blood, wounds or gore."
+)
+
+
+def _crucify(beat):
+    """Apply the C-FIX crucifixion look to a Jesus beat in place."""
+    beat["scene"] = CRUCIFIX_LOOK + beat["scene"]
+    beat["must_not_show"] = beat.get("must_not_show", "") + CRUCIFIX_REJECT
+    return beat
+
 
 BEATS = [
     {
@@ -435,6 +496,17 @@ BEATS = [
         ),
     },
 ]
+
+# C-FIX 2026-08-11: enforce the ONE crucifixion depiction on every readable Jesus
+# beat (b01-b06, b08, b11). The distant establishing wide b07 keeps Jesus a speck
+# and is left untouched (cost law); the temple beats (b09/b10/b12/b13) have no Jesus.
+_CRUCIFY_IDS = {
+    "v2-r096-b01", "v2-r096-b02", "v2-r096-b03", "v2-r096-b04",
+    "v2-r096-b05", "v2-r096-b06", "v2-r096-b08", "v2-r096-b11",
+}
+for _b in BEATS:
+    if _b["id"] in _CRUCIFY_IDS:
+        _crucify(_b)
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===

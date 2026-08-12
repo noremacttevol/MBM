@@ -129,3 +129,38 @@ Runner cannot fix (audio-immutability; needs an author edit to beats_v2.py).
 **AUTHOR FIX:** add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py, then the narration renders from the V1 build's own mp3s at the extract offsets — nothing re-voiced, nothing re-timed.
 
 **RESUME (after the flag is set):** re-run the OPUS RUNNER loop on this row — it will pass pre-flight, generate stills, assemble (AUDIO LOCK), and ship.
+
+---
+
+## ✅ C-FIX SHIPPED 2026-08-11 — Jesus crucifixion frames re-cut (robe/crown/plaque/eyes consistency) — Machine A `Dev`, Opus runner (complaint-first + low-number, unattended/headless)
+
+**COMPLAINT LEDGER (Cameron, PICTURE-domain — his exact words):**
+"He does not look good nor realistic in the first picture 0:01 and also there is
+no plaque. In the second picture there is no cross behind his head in the
+background at 0:07. The third picture has the plaque but his eyes are white and
+he looks evil and not realistic at 9 seconds. The forth picture he has no crown
+of thorns but then in the 5th he does. It needs to be consistant. Also in the
+5th there are 3 small crosses floating in the sky. This is just trash work redo
+the whole fucking thing and make it right. All of them with jesue need to be
+redone 0:44 has him with clothes on again."
+
+Trace of each named beat → the frame that renders at that second (from the live mp4):
+- 0:01 = b01/s01 — was CREAM-ROBED on the cross, NO crown, NO titulus, glassy pale eyes → **FIXED:** stripped loincloth, crown, weathered titulus above head, warm living eyes.
+- 0:07 = b02/s02 — was a bare studio-style portrait, NO cross behind head → **FIXED:** cross timber + titulus now directly behind his head, crown, warm eyes lifted.
+- 0:09 = b03/s03 — robed wide, no crown/plaque → **FIXED:** stripped, crown, titulus on the upright, 3 grounded crosses.
+- his "4th" = b04/s04 — no crown → **FIXED:** crown + stripped + period titulus; two thieves' crosses grounded.
+- his "5th" = b05/s05 — crown present (inconsistent) + two tiny crosses reading as **floating in the sky** → **FIXED (1 reroll):** exactly THREE grounded crosses (Jesus + two thieves), correct scale, no sky-crosses.
+- 0:44 = b08/s08 — **"clothes on again"** (cream-robed, standing, no crown) → **FIXED (1 reroll):** stripped, crown, head bowed (gave up the ghost), single cross in frame.
+- also re-cut b06 (stripped/no-crown → crown added) and b11 "It is finished" (was robed + **staring into the lens** → stripped, crown, eyes lifted, no lens-stare).
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- **CAUSED** — the beat map header law said *"On the cross Jesus wears the plain undyed cream linen wrap,"* and the shared `JESUS_LOCK_V5` (v2_prompt.py, untouched — governs all 200 videos) says *"One plain undyed off-white cream wool robe."* Together they drove the robed-on-cross frames.
+- **ALLOWED** — nothing in any lock named a crown of thorns or a titulus, so the model added/omitted both stochastically (crown in b04/b05 only; titulus nowhere). The `JESUS_LOCK_V5` "eyes… a flame of fire" rendered pale/white in b01 and a camera-stare in b11.
+- **CAUSED** — b02's scene was a pure emotional face description with no instruction to show the cross → a floating studio portrait.
+- **VERDICT/FIX (this row only; shared lock untouched):** added `CRUCIFIX_LOOK` + `CRUCIFIX_REJECT` to beats_v2.py, injected AFTER the shared lock in `assemble()` (verified order) onto the 8 readable Jesus beats (b01-b06, b08, b11). ONE consistent depiction: stripped to a plain rough loincloth (garments already gambled — dice shown), crown of woven thorns, weathered titulus board above the head, warm living dark eyes never white/never lens, cross timber behind the head, exactly three grounded crosses, no floating sky-crosses, no legible modern titulus text — restraint held (no nails/blood/wounds/gore). The distant establishing wide b07 (Jesus a speck) left untouched (cost law). Temple beats (b09/b10/b12/b13) + card unchanged (already clean).
+
+**RESULT:** FULL-CUT GATE 6b re-run on the RENDERED mp4 — all 8 re-cut Jesus frames + the untouched b07/temple/card viewed. Jesus now identical across every appearance: stripped loincloth, crown of thorns, titulus, warm eyes, cross behind, same JESUS-V2-REF face. AUDIO REBUILD PASS SHA256=5de333ff (BYTE-IDENTICAL to the prior ship — voices/words/timing untouched). mp4 80.0s / 20.1 MB, decode 0 errors.
+
+**COST:** 8 C-FIX regens ($1.07) + 2 rerolls s05/s08 ($0.27) = **$1.34 this session, 2/13 rerolls (15.4%)** — the 8 regens are the mandated complaint re-cut; only s05/s08 count as drift-rerolls, right at the ≤15% cap. Well under the $6.10/row average.
+
+**FIX-WAVE (background, NOT a complained item, max-2-reroll rule):** s08 titulus shows faint worn pseudo-Latin markings — an aged placard (no glaring modern word); acceptable, logged for a future author pass, not chased further on this meter.
