@@ -1,5 +1,53 @@
 # QC / RUNNER HANDOFF — build-89-last-supper (Luke 22:14-20)
 
+## ✅ C-FIX SHIPPED — "0:14 doesn't look like Jesus" + "1:17 too many people & not realistic" (Opus runner, Machine A `Dev`, 2026-08-11, headless/unattended)
+
+**COMPLAINT LEDGER (Cameron, `v2_outline.py 89`):**
+- *"0:14 doesnt look like Jesus"* → **FIXED.** 0:14 renders **s03** (jv15, "With desire
+  I have desired…"), a tight Jesus close-up. TRACE (frame extracted from the LIVE mp4,
+  not guessed): his irises had drifted **pale / glassy / greenish** with a bright
+  reflective catch-light — the wrong-Jesus look (JESUS LOOK STANDARD requires WARM BROWN
+  eyes, "NEVER blue/pale"). The same drift sat on every tight Jesus close-up (s03, s07,
+  s11, s13); the wider group shots read fine. FIX = **targeted iris-recolour edit**
+  (row-120 head-edit technique, gemini-3-pro-image): fed each finished still back with
+  "recolour ONLY the irises to warm medium brown, remove the pale/greenish cast and
+  catch-light, keep every other pixel identical." Edited ALL FOUR close-ups together so
+  the cut stays one identity (a single brown-eyed frame among green ones would be the
+  Law-14 mix defect). Each face/robe/pose/scene/hands/lighting stayed identical; backups
+  kept as `assets/*.preeye.bak`.
+- *"1:17 too many people and doesnt look realistic"* → **FIXED.** 1:17 renders **s15**
+  (n4 p2, "Then he and his friends sang together and walked out into the night"). TRACE:
+  s15 was the ONE **cartoon / 3-D-render** outlier in an otherwise realistic cut (a mix
+  is worse than either — Law 14) AND was over-crowded (~18 figures with a blurry pile-up
+  jammed in the doorway). FIX = **fresh regen** (`v2_gen_api --only b15 --redo`; b15 has
+  no `rough_ref`, so the bad cartoon blocking was NOT reused). New s15 is **realistic**
+  (matches s01-s16), the company reads as **his friends** (~13 = the Twelve + Jesus
+  singing, arms over shoulders) with just 1-2 filing out the door — scene-accurate, no
+  crowd. Jesus cream-only, warm-brown eyes, face-locked, no halo, night lighting. Scene
+  text was NOT edited (hard rail); the realism-lock + fresh gen carried it.
+
+**FULL-CUT GATE 6b — one frame per beat from the RE-RENDERED mp4, all 16 + closing card viewed:**
+- 0:14 (s03) → warm-brown-eyed, gentle, clearly the locked Jesus. 1:17 (s15) → realistic
+  singing company, not a crowd, not cartoon. Both named defects gone on the LIVE render.
+- s07 (40s), s11 (57s), s13 (68s) → all now warm-brown-eyed, consistent with each other,
+  the wider shots, and `JESUS-MASTER-REF/jesus-face.jpeg`. No pale/green drift anywhere.
+- s01/s02/s04/s05/s06/s08/s09/s10/s12/s14/s16 → all realistic, one consistent style, no
+  cartoon outlier, no second cream figure (only Jesus in cream), anatomy/hands clean,
+  night lighting, captions bottom-band (white narrator / red Jesus lines), clean closing card.
+- Consistent background prop across the whole cut (a roast fowl on the table) is period-
+  ambiguous but NOT a mix and NOT complaint-named — left untouched (touch-once).
+
+**AUDIO byte-identical:** only image assets touched; `AUDIO_FROM_V1_SEGMENTS` rebuilds from
+the 14 V1 mp3s → AUDIO REBUILD **PASS** SHA256 `29a5b1d0…` (== the locked audio from the
+prior ship). New mp4 md5 `8b0e8696…`, 20.1 MB, 94.1 s.
+
+**COST:** 5 images × $0.134 = **$0.67** (4 iris edits + 1 s15 regen), **0 picture rerolls**
+(each frame touched exactly once). Under the ~$1.2 C-FIX norm and far under the $6.10/row
+avg — cost trending DOWN per the COST LAW. Touch-once: both complaints batched into ONE
+re-cut. Scratch `_eye_edit.py` removed; `*.preeye.bak` / `*.precartoon.bak` kept locally.
+
+---
+
 ## ✅ AUDIO FIX DONE — STALE-V1-FINAL lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
 
 Class = STALE-V1-FINAL (duration shortfall), no open Cameron complaint (`v2_outline.py 89`).
