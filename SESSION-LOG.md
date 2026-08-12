@@ -12,6 +12,22 @@ Cameron filed a complaint on the shipped row-93 cut (lowest waiting, complaint-f
 - **COST:** 1 reroll = **$0.13**, meter $597.64→$597.77, ceiling $623. 1 reroll / 15 beats = 6.7%, under the 15% budget and far under the $6.10/row average — the cost keeps trending down (COST LAW). Touch-once: whole cut gated so this re-cut carries no other latent defect.
 - **Ship:** commit `693a3f5e`, review.html card (new hash + ?v + flag answering his complaint in his words: "the 36-second picture is weird — replace it → replaced, Pilate now a whole man at the judgment seat"), board + QUEUE Claim → SHIPPED, REVIEW-LESSONS row 93 → resolved. Deploy + live-verify below.
 
+## 2026-08-11 (cont. 58) — Row 89 "The Last Supper" (Luke 22:14-20) C-FIX SHIPPED — Jesus eye-drift + cartoon/crowd frame — Machine A `Dev`, Opus runner, unattended/headless
+
+**Commit:** `a02d94455249fe5bd672a6c87c3d04864b1d1e4f` (cut + QC.md + board) + the review/log push below. Session-chain verified at start: prior top entry cont.57 Row 120 `b3604b8a8`/`79beb23ec` present in `git log`.
+
+Cameron's complaint on the shipped row-89 cut (lowest waiting, complaint-first + low-number): **"1:17 too many people and doesnt look realistic. 0:14 doesnt look like Jesus."** Both PICTURE-domain → re-cut pictures (not audio-park).
+
+- **TRACE (frames extracted from the LIVE mp4, never guessed):** 0:14 → **s03** (jv15 Jesus close-up); 1:17 → **s15** (n4 "then he and his friends sang… walked out into the night").
+- **0:14 "doesn't look like Jesus" → FIXED.** s03's irises had drifted **pale/glassy/greenish** with a bright catch-light (wrong-Jesus look; standard = WARM BROWN, never pale). Same drift on all four tight close-ups (s03/s07/s11/s13); wider shots fine. Fix = **targeted iris-recolour edit** (row-120 head-edit technique, gemini-3-pro-image, `_eye_edit.py` scratch, since removed): "recolour ONLY the irises to warm medium brown, keep every other pixel identical." Edited all four together so the cut stays ONE identity (a lone brown-eyed frame among green = the Law-14 mix). Backups `assets/*.preeye.bak`.
+- **1:17 "too many people & not realistic" → FIXED.** s15 was the cut's ONE **cartoon/3-D-render** outlier (a mix is worse than either — Law 14) AND over-crowded (~18 with a doorway pile-up). Fix = **fresh regen** (`v2_gen_api --only b15 --redo`; b15 has no `rough_ref` so the bad blocking was not reused). New s15 = realistic (matches s01-s16), the company reads as **his friends** (~13 = the Twelve + Jesus singing) with 1-2 filing out the door — scene-accurate, no crowd. Scene text NOT edited (hard rail); the realism-lock + fresh gen carried it.
+- **FULL-CUT GATE 6b (one frame per beat from the RE-RENDERED mp4, all 16 + card):** 0:14 warm-brown-eyed clearly-locked Jesus; 1:17 realistic singing company; s07/s11/s13 all warm-brown-eyed & consistent with the wides + `JESUS-MASTER-REF`; every other beat realistic, one style, cream-only Jesus, anatomy/hands clean, night lighting, captions bottom-band (white narrator / red Jesus). No new defect. (Consistent roast-fowl prop across the whole cut is period-ambiguous but not a mix and not complaint-named — left, touch-once.)
+- **AUDIO byte-identical:** only image assets touched; `AUDIO_FROM_V1_SEGMENTS` → AUDIO REBUILD PASS SHA256 `29a5b1d0…` (== prior ship's locked audio); new mp4 md5 `8b0e8696…`, 20.1 MB, 94.1 s.
+- **COST:** 5 images × $0.134 = **$0.67** (4 iris edits + 1 s15 regen), **0 picture rerolls** (each frame touched once). Under the ~$1.2 C-FIX norm, far under $6.10/row avg — trending DOWN per the COST LAW. Touch-once: both complaints in ONE re-cut.
+- **Ship:** commit `a02d9445`, review.html v89 card (new hash + `?v=a02d94455249` + flag answering BOTH complaints in his words), board Claim → SHIPPED. Deploy + live-verify below.
+
+---
+
 ## 2026-08-11 (cont. 57) — Row 120 "Job Answered from the Whirlwind" (Job 1-2/19/38-42) C-FIX SHIPPED — SHAVED-HEAD CONSISTENCY (root cause) — Machine A `Dev`, Opus runner, unattended/headless
 
 **Commit:** `b3604b8a80caef04ea85326ffd6bf429846170a4` (cut + 27 edited stills + QC.md) + the board/review/log push below. Session-chain verified at start: prior top entry cont.52 Row 66 `aa5cbea88`/`6b1cb4621` present in `git log`.
