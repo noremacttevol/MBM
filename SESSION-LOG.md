@@ -1,3 +1,17 @@
+## 2026-08-11 (cont. 65) — LOOP REPAIR: verify-stuck-on-117 root-caused & fixed (QC stamps in Ready cell, picker read Claim only), self-edit crash guard, COMPLAINT-FIRST in the build queue; killed the live 10th re-fire — Machine A `Dev`, process-engineer session
+
+**Commit:** this push. Session-chain verified at start: prior top entry cont.64 (row 117 9th re-fire + loop-stuck flag) commit `e987b0e1c` present in `git log`; row 71 C-FIX card `d7d6aee1f` at HEAD. Hostname `Dev` = Machine A.
+
+Acted on cont.64's systemic flag instead of adding a 10th stamp. Three dispatcher defects found and fixed in `autopilot.sh` (all $0, no credits, no browser):
+
+1. **Verify-stuck-on-117 ROOT CAUSE (the flagged gap):** verify sessions appended their `QC-OK` stamps into the board's **Ready** cell (7th column) while the picker checked only the **Claim** cell (6th) — so 117 looked forever-unverified and ate every verify tick. FIX: picker now counts `QC-OK`/`QC-FIX` from Claim OR Ready. Also killed the LIVE 10th re-fire session (pid 265826, launched by the last old-picker tick) mid-run, and compressed 117's nine duplicated board stamps to one line (was ~8 KB re-read by every session — COST LAW). True verify backlog measured: 126 BUILT = 85 approved-current + 19 open-complaint + 10 stamped + **12 verify-eligible (118–151)** which the lane now sweeps lowest-first; the "~120 unverified" in cont.64 counted approved/complained rows verify must never touch.
+2. **Phantom "line 290" syntax error (22:24 tick):** a session inside the tick committed a new autopilot.sh while the outer bash was executing it — bash reads incrementally, so the running copy crashed after its claude run and lost its `tick done`. FIX: SELF-EDIT GUARD — every run execs an immutable /tmp copy of itself first; the repo file may change freely mid-tick.
+3. **COMPLAINT-FIRST hole in the build queue:** the runner pass built AUTHORED+Ready rows purely lowest-first, so re-authored complaint rows waited behind uncomplained fresh builds. FIX: complained ready rows emit first (18 of the current ready rows carry open complaints), then the rest, lowest-first in both. Dry-run confirms next pick = runner row 63 (lowest AND complained — correct under both orderings).
+
+All three written as permanent rules in AUTOPILOT.md "Loop lessons" + inline at the enforcement points. `bash -n` clean, `--dry-run` clean. Complaint state at session time: 43 open complaints, EVERY one with reportedAgainst ≠ live hash (fix already shipped, awaiting Cameron's re-review) — no complaint is waiting on work. Cron loop healthy at 10-min ticks. $0 spend, 0 rerolls.
+
+---
+
 ## 2026-08-11 (cont. 64) — VERIFY-PASS row 117 "Hosea Buys Her Back" 9th RE-FIRE — LOCAL+LIVE continuity confirmed, still CLEAN, no re-cut ($0, 0 rerolls); FLAGGED the loop-stuck-on-117 gap for Cameron — Machine A `Dev`, Opus runner, unattended/headless
 
 **Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.63 (row 71 C-FIX ship `1897b351cd59`) present in `git log` at HEAD (`1897b351c`), card commit `d69e33fbf` on top. Chain intact. Hostname `Dev` = Machine A.

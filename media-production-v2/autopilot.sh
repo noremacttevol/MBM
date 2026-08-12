@@ -20,6 +20,18 @@
 set -euo pipefail
 export PATH="$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin"
 
+# SELF-EDIT GUARD (2026-08-11): bash reads scripts incrementally, so when a
+# session INSIDE a tick commits a new autopilot.sh, the RUNNING copy crashes
+# with a phantom syntax error at whatever byte offset moved (the 22:24 tick
+# died at "line 290" this way and silently lost its 'tick done'). Each run
+# execs an immutable /tmp copy of itself; the repo file may then change freely.
+if [ -z "${AUTOPILOT_SELF_COPY:-}" ]; then
+  _copy="$(mktemp /tmp/autopilot-tick-XXXXXX.sh)"
+  cp -- "$0" "$_copy"
+  AUTOPILOT_SELF_COPY="$_copy" exec bash "$_copy" "$@"
+fi
+rm -f -- "$AUTOPILOT_SELF_COPY"
+
 REPO="${MBM_REPO:-$HOME/Desktop/MBM}"
 V2="$REPO/media-production-v2"
 BOARD="$V2/AUTHOR-BOARD.md"
@@ -159,8 +171,13 @@ rows = []
 for line in open(f'{V2}/AUTHOR-BOARD.md'):
     m = re.match(r'\|\s*(\d+)\s*\|\s*(build-\S+)\s*\|\s*([A-Z-]+)\s*\|\s*\d*\s*\|\s*(\S+)\s*\|([^|]*)\|([^|]*)\|', line)
     if m:
+        # rd is the Ready cell's raw TEXT (test '✅' in rd for readiness):
+        # verify sessions have appended QC-OK stamps into Ready instead of
+        # Claim (row 117 got 9 stamps there while the picker only read Claim
+        # → the verify lane re-fired 117 forever, 2026-08-11). QC marks now
+        # count from EITHER cell.
         rows.append((int(m.group(1)), m.group(2), m.group(3), m.group(4),
-                     m.group(5), '✅' in m.group(6)))
+                     m.group(5), m.group(6)))
 
 def emit(job, row):
     print(job, row)
@@ -206,7 +223,8 @@ if not bd and verify_live < 1:
         v = A.get(k, {})
         approved_current = v.get('approved') and v.get('approvedHash') == cur.get(k)
         if (st == 'BUILT' and not approved_current and k not in openc
-                and 'QC-OK' not in cl and 'QC-FIX' not in cl and not active(b)):
+                and 'QC-OK' not in cl + rd and 'QC-FIX' not in cl + rd
+                and not active(b)):
             emit('verify', r)
 
 # PASS 2 — regular production, lowest row first.
@@ -214,8 +232,17 @@ if not bd:
     for r, b, st, au, cl, rd in rows:
         if st == 'RUNNING' and 'A-auto' in cl and not active(b):
             emit('resume', r)
-    for r, b, st, au, cl, rd in rows:
-        if st == 'AUTHORED' and au == 'OK' and cl.strip() == '' and rd and not active(b):
+    # COMPLAINT-FIRST inside the build queue too (rows 149/171 re-authored
+    # after a complaint must not wait behind every uncomplained fresh build):
+    # complained ready rows first, then the rest, lowest row first in both.
+    ready = [(r, b) for r, b, st, au, cl, rd in rows
+             if st == 'AUTHORED' and au == 'OK' and cl.strip() == ''
+             and '✅' in rd]
+    for r, b in ready:
+        if str(r) in openc and not active(b):
+            emit('runner', r)
+    for r, b in ready:
+        if not active(b):
             emit('runner', r)
 if author_live < 1:
     for r, b, st, au, cl, rd in rows:

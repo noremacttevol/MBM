@@ -72,3 +72,21 @@ crontab -l | grep -v 'autopilot.sh' | crontab -
 
 When every row is BUILT the ticks log "ALL ROWS BUILT" and do nothing. Remove
 the cron line with the stop command above.
+
+## Loop lessons (permanent — each was a live failure)
+
+- **2026-08-11 — QC stamps count from EITHER board cell.** Verify sessions
+  appended `QC-OK` stamps into the **Ready** cell while the picker only read
+  the **Claim** cell, so row 117 looked forever-unverified and ate every
+  verify tick (9 re-fires) while 12 genuinely unverified BUILT rows waited.
+  The picker now checks Claim + Ready for `QC-OK`/`QC-FIX`. Never make a
+  session hand-count Markdown columns and a parser read only one of them.
+- **2026-08-11 — the loop execs a /tmp copy of itself.** A session inside a
+  tick committed a new autopilot.sh while the outer bash was still executing
+  it; bash reads scripts incrementally, so the running copy died with a
+  phantom "line 290" syntax error and lost its `tick done`. Every run now
+  copies itself to /tmp and execs the copy before doing anything else.
+- **2026-08-11 — COMPLAINT-FIRST inside the build queue too.** The runner
+  pass built AUTHORED+Ready rows purely lowest-first, so re-authored
+  complaint rows (149, 171, …) waited behind uncomplained fresh builds.
+  Complained ready rows now build first, then the rest, lowest-first in both.
