@@ -110,3 +110,45 @@ closing wide.
   composition; ideal is the fixer ALONE craning, beam clipping the doorframe.
 - s25: grain measure is a wooden scoop; b03 used a round wooden bucket — match
   the exact vessel for a tighter measure-rhyme.
+
+---
+
+## QC-FIX SHIPPED — independent FULL-CUT GATE (Opus verify, Machine A `Dev`, 2026-08-12)
+
+The 2026-08-11 ship was never independently full-cut-gated (it self-claimed the
+gate at build time). This session extracted ONE frame per beat at its true
+narration mid-window from the RENDERED mp4 (file order ≠ story order — built by
+WINDOW, not by s-number) and viewed all 27 + the closing card.
+
+**DEFECT FOUND — b17/s17 FIXER identity drift (face-board failure).** The
+recurring FIXER (leather apron) is locked as a lean, olive-skinned man with
+graying temples and a trimmed salt-and-pepper beard (portrait CAST-REF-V2/
+fixer.jpeg; consistent in b07/b09/b10/b13/b15/b16/b19/b20/b22/b24). In s17 he
+had drifted to a DIFFERENT actor — younger, darker-skinned, full thick black
+beard and full black hair. A recurring main character becoming a different
+person for one 4.7 s frame in the middle of the parable is exactly the
+identity-drift class Cameron rejects (rows 71/89/98/120), so it BLOCKED the ship.
+
+**FIX (one touch-once re-cut, reroll budget respected):** rerolled s17 twice
+(2/27 = 7.4% this touch; total row rerolls now 5/27 = 18.5% lifetime — noted).
+Take 1 restored the canonical fixer but lost the beam; take 2 (kept) restored
+the canonical fixer AND put the parable's beam front-and-centre exactly as the
+b17 scene text asks ("the brother regards the beam's full length") — fixer
+left with earnest raised finger, brother right holding/measuring the full plank,
+matching the b13/b15 blocking. Verified the fixer's cropped face against the
+portrait and b07/b13/b24: canonical identity confirmed. No wound, sincerity
+total, brother patient (must_not_show PASS).
+
+**Everything else CLEAN** on the independent gate: Jesus's locked face + green/
+hazel V2 eyes + cream-only robe on every hillside beat, no halo; beam
+absurd-never-gruesome in every workshop frame (no wound/blood/penetration, cloth
+& fingers stay off the eyeball); reflection beat (b12) reads; captions
+bottom-band only (narrator white, Jesus KJV red), no tofu; closing reflection
+card renders clean. (b04 pale-linen 2nd man and b10 forehead-band left as the
+already-logged FIX-WAVE items — subtle, not Cameron-complaint tier.)
+
+- **AUDIO LOCK PASS SHA256=0df23a0e176e370a36484ab42ca1a847281c28d7bc4ffa66aa0c491fb957f704**
+  — byte-identical to the 2026-08-11 audio, nothing re-voiced. 175.0s / 20.0 MB.
+- **Cost:** 2 rerolls × ~$0.13 = **~$0.26** this fix, $0 audio. Meter $611.98.
+- **COMPLAINT LEDGER: none open** (no filed complaints on the row; this was a
+  gate-caught defect before Cameron's eyes reached it).
