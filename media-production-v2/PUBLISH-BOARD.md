@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T01:43:24_
+_Last sync: 2026-08-12T01:45:19_
 
 ## Summary
 
-- **APPROVED — not published** — 54 row(s)
+- **APPROVED — not published** — 55 row(s)
 - **BUILDING** — 73 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 29 row(s)
+- **ON REVIEWER — awaiting Cameron** — 28 row(s)
 
 ## The rows
 
@@ -139,7 +139,7 @@ _Last sync: 2026-08-12T01:43:24_
 | 116 | Graven on His Palms | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 117 | Hosea Buys Her Back | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 118 | Jonah and the God Who Relents | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 119 | The Fourth Man in the Fire | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 119 | The Fourth Man in the Fire | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 120 | Job Answered from the Whirlwind | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 121 | Salt and Light | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 122 | The Mote and the Beam | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
