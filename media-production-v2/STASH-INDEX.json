@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-12 03:47:43",
+ "scanned": "2026-08-12 03:57:25",
  "entries": [
   {
    "row": 1,
@@ -53039,6 +53039,145 @@
    "night": false,
    "n_person": 2,
    "scene": "The wall gets a new job at golden evening: the two farmers sit ON it, side by side at its low point by the well \u2014 bread broken between them, a water-skin passing, their mattocks leaned together against the stones like ol"
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b01",
+   "file": "build-127-the-strait-gate/assets/s01-jesus-stood-before-the-crowd.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "For the choosing he stands up, the camera looking past the seated crowd's backs up the gold slope: Jesus on his feet before them now, both arms extended in two diverging lines \u2014 this way, and that way \u2014 the whole sermon "
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b02",
+   "file": "build-127-the-strait-gate/assets/s02-a-narrow-gate-that-leads.jpeg",
+   "tokens": [
+    "GATES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The harder gate keeps the better secret: the low narrow stone gate stands open on its climbing footpath, plain as a shepherd's doorway \u2014 and above and beyond it the hills green upward toward high country where trees stan"
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b03",
+   "file": "build-127-the-strait-gate/assets/s03-enter-ye-in-at-the.jpeg",
+   "tokens": [
+    "GATES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The popular gate earns its popularity honestly: the wide stone gateway stands handsome and open, and through it the travellers stream in easy cheerful numbers \u2014 families, traders, friends in conversation \u2014 onto a road th"
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b04",
+   "file": "build-127-the-strait-gate/assets/s04-one-road-looks-easy.jpeg",
+   "tokens": [
+    "GATES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The easy road's argument is its surface: close along the broad way \u2014 smooth-packed earth wide enough for five abreast, level as a threshing floor, worn kind and comfortable by generations of feet, not a stone to stub on "
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b05",
+   "file": "build-127-the-strait-gate/assets/s05-because-strait-is-the-gate.jpeg",
+   "tokens": [
+    "GATES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The other gate asks something at the threshold: close on the low narrow opening as a single traveller stoops to pass \u2014 head bent, staff drawn in, bundle pulled tight against the chest to fit the squeeze of stone \u2014 and be"
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b06",
+   "file": "build-127-the-strait-gate/assets/s06-the-gate-is-wide-the.jpeg",
+   "tokens": [
+    "GATES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The count on the broad way speaks for itself: down the generous road the walkers go in their easy numbers \u2014 knots of friends, a laden donkey, children weaving between the grown-ups, travellers spaced comfortable all the "
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b07",
+   "file": "build-127-the-strait-gate/assets/s07-the-other-road-looks-harder.jpeg",
+   "tokens": [
+    "GATES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The narrow way's census is quickly taken: on the tight path's climbing switchbacks just three figures show \u2014 one high near the rocks' shoulder, one midway leaning into the grade, one only now clearing the low gate \u2014 spac"
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b08",
+   "file": "build-127-the-strait-gate/assets/s08-he-describing-geography-he-was.jpeg",
+   "tokens": [
+    "GATES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The map was always a portrait: at the fork between the two open gates a single traveller stands with his weight on neither foot \u2014 the wide handsome gateway breathing ease on his left, the low narrow gate holding its clim"
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b09",
+   "file": "build-127-the-strait-gate/assets/s09-he-never-said-the-narrow.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The narrow way keeps its one promise at the top: the tight path crests its last rocks and opens without warning into high living country \u2014 an upland meadow deep in green, a spring running bright over stones, trees standi"
+  },
+  {
+   "row": 127,
+   "build": "build-127-the-strait-gate",
+   "beat": "v2-r127-b10",
+   "file": "build-127-the-strait-gate/assets/s10-both-gates-are-standing-open.jpeg",
+   "tokens": [
+    "GATES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last frame holds both doors and one decision: the wide gateway and the narrow gate share the morning in a single composition, both standing open as they always have, neither barred, neither guarded \u2014 and between them"
   },
   {
    "row": 129,
