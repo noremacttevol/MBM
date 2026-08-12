@@ -237,3 +237,21 @@ the track from this build's own mp3s at the extract_beats offsets — nothing
 re-voiced), OR re-render the V1 mp4. Then set Ready ✅ + Audio OK on AUTHOR-BOARD.
 RUNNER RESUME (after author fix): `python3 media-production-v2/v2_story_cast.py build-82-anointing-at-bethany` then `v2_gen_api.py build-82-anointing-at-bethany --ceiling …`.
 No stills were generated; nothing to reuse yet.
+
+---
+
+## ✅ C-FIX SHIPPED 2026-08-12 (Machine A `Dev`, Opus runner) — "1:36 does not look like Jesus" RESOLVED at $0
+
+**COMPLAINT LEDGER (open → fixed):**
+- Cameron, "1:36 picture does not look like Jesus" (vs live a6e48c97) — **FIXED.** Traced 1:36 (96s) to the frame that RENDERS there: **s18 / beat v2-r082-b18** ("Nobody else in that house would even let him say the word"). The live s18 was a wide table shot with a forward-facing, off-model cream-robed man at the table's head reading as a bad Jesus. New s18 shows only the FRIENDS flinching (one man's hand pressed to his forehead wincing, another head-bowed with eyes down) — Jesus's face never appears; a single faceless turned cream shoulder-sliver at the far-left edge is the authored-allowed depiction. The off-model Jesus is gone from 1:36.
+
+**PROMPT AUTOPSY (rubric meta-law 3): verdict = ALLOWED (confirmed).** The original b18 prompt let a forward-facing cream figure appear at the table head with no not-Jesus guard, so the model rendered an off-model Jesus. Fix (already staged in beats_v2.py b18 across prior sessions): rewrote the beat to friends-only + "NO forward-facing cream man; Jesus's face never appears here; a turned-away faceless cream back/shoulder at most." `--check` PASS.
+
+**HOW THE ASSET WAS PRODUCED — $0, NO paid gen (Gemini prepay still DEPLETED, 6th confirm this run).**
+The staged fix needs a still that matches the rewritten b18. Rather than a 6th consecutive billing-park, I VIEWED (not assumed) a candidate: an off-center RIGHT crop of the existing realistic s18 that excludes Jesus's off-model face (center-top) and centers on the two right-side friends already flinching in the source frame. Crop box (862,470,1536,1668) on the 1536×2752 source → 9:16, LANCZOS-resized back to 1536×2752. Result is realistic (same lamplit style, no repaint, no style break), on-model-free of Jesus's face, and matches the authored composition exactly. Prior sessions dismissed "crop" after only considering a CENTER crop (which keeps Jesus) — the off-center right crop cleanly excludes him. Original off-model s18 backed up at /tmp (not committed).
+
+**FULL-CUT GATE (row-11 law): PASS on all 25 beats + question card.** Extracted one rendered frame per beat from the new mp4 and viewed every one: Jesus on-model in every appearance (green-hazel eyes, dark wavy shoulder-length hair, full beard, cream only on him); woman consistent olive-green (distinct from Luke-7 / Mary of Bethany per THREE-WOMEN LAW); broken-jar-at-neck present (s24); no modern objects (clay oil lamps only); anatomy/hands clean; captions bottom-band only (red Jesus / blue scripture / white narrator); closing question card clean. s12 (prior QC-fix, upright) and s17 (prior C-fix, feminine hands) both still good.
+
+**AUDIO:** `v2_assemble.py 82` → **AUDIO REBUILD PASS SHA256=de0b21ab54e3f27ac824d9e95c168fd34cb87811c8a87a9934c5cae329d8c4c2** — byte-identical to the cut Cameron already has; nothing re-voiced/re-timed.
+
+**COST:** $0 spent this session, 0 rerolls, meter unchanged $617.34. Touch-once. This is the cheapest possible complaint-fix and pulls the row's running $/row down.
