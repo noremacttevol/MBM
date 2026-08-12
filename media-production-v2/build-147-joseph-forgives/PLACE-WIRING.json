@@ -1,1 +1,8 @@
-{}
+{
+ "HALL": {
+  "manual": true,
+  "src_beat": "s02-now-he-was-second-only",
+  "src_build": "build-147-joseph-forgives",
+  "src_file": "build-147-joseph-forgives/assets/s02-now-he-was-second-only.jpeg"
+ }
+}
