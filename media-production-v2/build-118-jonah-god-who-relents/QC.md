@@ -139,3 +139,75 @@ assembling. Finished it this session.
 - **Ship:** mp4 committed `10282aa9cd46…`; review card v118 repointed to the V2
   realistic cut (0a4a951→10282aa9, data-review-wave="realistic-v2"); board → BUILT.
   Deployed `firebase deploy --only hosting` + live-verified.
+
+---
+
+## ⛔ C-FIX PARKED-BILLING — Opus runner, Machine A `Dev`, 2026-08-12, $0, 0 credits
+
+**Cameron's complaint (against the live shipped cut, card hash 10282aa9):**
+> "2:37 jonah was 3 times bigger than the people he was walking around, fix it.
+> The people in 3:08 look dead, fix it."
+
+### COMPLAINT LEDGER (both open, both CONFIRMED against the RENDERED mp4)
+Traced each timestamp to the frame that actually renders at that second
+(clip-duration cumulative on `segs/c*.mp4`, NOT beat-name guessing):
+
+- **2:37 (157.0s) → clip c028 → beat b28 `s28-this-time-jonah-went-he.jpeg`**
+  (seg n6, "He walked into the great city and cried out his warning").
+  Extracted the live frame: Jonah in the sea-green robe stands at the very
+  bottom-centre foreground and is ~3× the height of the townsfolk flanking
+  him at the SAME depth plane. Complaint CONFIRMED — figure-scale failure
+  (rubric lesson 14).
+  **PROMPT AUTOPSY = ALLOWED.** The prompt asked for "small Jonah … swallowed
+  by the vastness" but the framing line "camera high **behind him** as he walks
+  in" invited placing him as the nearest, largest foreground hero, and NOTHING
+  capped his size against same-plane people. Missing constraint added.
+  **FIX (committed eff25e6df):** rewrote scene + must_show + must_not_show —
+  camera "high and well back," Jonah a SMALL mid-distance figure walking away,
+  "the ordinary townsfolk nearest the camera are drawn LARGER than he is, and
+  the people standing at his own depth are exactly his height … no single figure
+  looms out of proportion," + must_not_show now hard-rejects "Jonah drawn larger
+  than the people around him / any giant, oversized or hero-scale foreground
+  figure." `--check` PASS.
+
+- **3:08 (188.0s) → clip c033 → beat b33 `s33-from-the-king-on-his.jpeg`**
+  (seg n7, "From the king … the whole city turned — sackcloth, fasting").
+  Extracted the live frame: the front-row kneeling crowd has grey / ashen,
+  corpse-like skin and lifeless statue posture — they read as dead. Complaint
+  CONFIRMED.
+  **PROMPT AUTOPSY = CAUSED.** The scene words "rich and poor alike in rough
+  cloth and **ashes** … haircloth across a hundred thousand backs" under a
+  uniform dusk monochrome, with no living-warmth constraint, directly produced
+  grey ash-skinned corpses.
+  **FIX (committed eff25e6df):** rewrote scene + must_show + must_not_show —
+  "LIVING people: warm human skin tones, faces flushed and tear-streaked, chests
+  breathing … grief that is plainly alive," ash restricted to "cloth and
+  foreheads only; it never greys or deadens the skin," + must_not_show now
+  hard-rejects "grey, ashen or corpse-like skin; people who look dead, lifeless,
+  statue-like or asleep." `--check` PASS.
+
+### Why parked (not shipped)
+The two prompt fixes are committed and pass `--check`, but the paid regen 429'd
+TWICE (`RESOURCE_EXHAUSTED — Your prepayment credits are depleted`) — the same
+Google AI Studio billing depletion currently freezing rows 82 and 95. Retried
+once after 60 s per the 429 rule; still depleted. **The mp4 was NOT re-assembled
+or re-shipped** — it still carries the giant-Jonah b28 and dead-crowd b33 frames.
+Shipping now would repeat Cameron's exact complaint (worst failure), so the row
+stays PARKED, the live reviewer keeps the current cut, and no false "fixed" card
+goes up.
+
+### RESUME COMMAND (run the instant billing is topped up — the prompt fixes are already in place)
+```
+cd media-production-v2
+# 1) regen the two fixed beats (recompute ceiling from the live meter first)
+python3 v2_gen_api.py build-118-jonah-god-who-relents --only b28 b33 --redo --ceiling <meter + 6*0.134*1.5 + 25>
+# 2) view the two new frames: b28 = Jonah same scale as the townsfolk near him,
+#    no foreground giant; b33 = warm living skin, no grey corpses. Reroll (max 2)
+#    if still bad, then run the FULL-CUT GATE on ALL 46 rendered frames.
+# 3) re-assemble (must print AUDIO LOCK PASS — audio is byte-identical):
+python3 v2_assemble.py 118
+# 4) ship: commit mp4+QC+boards, repoint site/review.html v118 data-hash + ?v=,
+#    write the "what this cut changed" flag answering BOTH complaints in his words,
+#    firebase deploy --only hosting, live-verify the new hash + mp4 HTTP 200.
+# 5) board Claim → 'C-FIX 2026-08-12 SHIPPED'; publish_ledger sync; SESSION-LOG.
+```
