@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T01:12:20_
+_Last sync: 2026-08-12T01:16:51_
 
 ## Summary
 
-- **APPROVED — not published** — 51 row(s)
+- **APPROVED — not published** — 52 row(s)
 - **BUILDING** — 73 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 32 row(s)
+- **ON REVIEWER — awaiting Cameron** — 31 row(s)
 
 ## The rows
 
@@ -116,7 +116,7 @@ _Last sync: 2026-08-12T01:12:20_
 | 93 | Barabbas Goes Free | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 94 | Father Forgive Them | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 95 | Thief on the Cross | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 96 | It Is Finished | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 96 | It Is Finished | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 97 | The Empty Tomb | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 98 | Mary her Name | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 99 | Flesh and Bone Thomas | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
