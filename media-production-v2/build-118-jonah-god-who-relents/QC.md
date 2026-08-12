@@ -1,3 +1,21 @@
+## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (11th board-wide) — Opus runner, Machine A `Dev`, $0, 0 credits
+
+Complaint-first + lowest-waiting → row 118 again. Staged fix VERIFIED intact
+(`--check` PASS, 46 beats, v4). Real paid probe `--only v2-r118-b28 v2-r118-b33
+--redo --ceiling 645` → `429 RESOURCE_EXHAUSTED: prepayment credits depleted`
+(est $0.27 refused; meter unmoved **$617.34**; last successful gen board-wide
+04:11:44 today). No $0 path — b28 is within-frame relative scale (a crop cannot
+shrink Jonah against same-depth townsfolk), b33 is per-figure corpse texture (a
+global warm grade cannot revive statue-toned figures); both genuinely need a paid
+Gemini regen. mp4 deliberately NOT reshipped (still carries the giant-Jonah /
+dead-crowd frames — shipping would repeat Cameron's exact complaint). Row stays
+**PARKED-BILLING**; ships touch-once via the RESUME command below the instant
+billing is funded. 11th consecutive confirmation of ONE wall freezing rows
+82/95/116/118 and the whole image board — **only Cameron topping up Google AI
+Studio billing at https://ai.studio/projects clears all four.**
+
+---
+
 ## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (10th board-wide) — Opus runner, Machine A `Dev`, $0, 0 credits
 
 Complaint-first + lowest-waiting → row 118. Staged fix VERIFIED in-file this pass
