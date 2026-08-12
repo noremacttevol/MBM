@@ -7,16 +7,16 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T03:30:02_
+_Last sync: 2026-08-12T03:48:04_
 
 ## Summary
 
 - **APPROVED — not published** — 56 row(s)
-- **BUILDING** — 73 row(s)
+- **BUILDING** — 72 row(s)
 - **LIVE — current** — 26 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
 - **LIVE — new cut awaits Cameron** — 1 row(s)
-- **ON REVIEWER — awaiting Cameron** — 27 row(s)
+- **ON REVIEWER — awaiting Cameron** — 28 row(s)
 
 ## The rows
 
@@ -129,7 +129,7 @@ _Last sync: 2026-08-12T03:30:02_
 | 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 107 | John the Baptist's Doubt | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 108 | My Sheep Hear My Voice | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 108 | My Sheep Hear My Voice | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 109 | Ask, Seek, Knock | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 110 | The Lord's Prayer | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 111 | Lilies and Sparrows | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
