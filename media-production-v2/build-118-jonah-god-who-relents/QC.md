@@ -1,3 +1,9 @@
+## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (cont.) — Opus runner, Machine A `Dev`, $0, 0 credits
+
+Re-verified this pass: staged fix INTACT (`v2_prompt.py build-118-jonah-god-who-relents --check` = PASS, 46 beats, v4 PASS; grep confirms b28 scale-cap L996 "no single figure looms" + b33 warm-skin L1179 "greys or deadens the skin"). Real paid probe `v2_gen_api.py build-118-jonah-god-who-relents --only v2-r118-b28 v2-r118-b33 --redo --ceiling 645` → **`429 RESOURCE_EXHAUSTED — prepay depleted`** on BOTH the immediate try and the mandated 60 s retry. Meter frozen **$617.34**. The ENTIRE image board is frozen on this one depletion — rows **82, 95, 116, 118** are all parked-billing behind it. No $0 path (b28 = within-frame relative scale, b33 = per-figure statue texture — neither croppable). mp4 NOT reshipped. **RESUME (ships touch-once the instant billing is funded):** `python3 media-production-v2/v2_gen_api.py build-118-jonah-god-who-relents --redo --ceiling 645` → `v2_assemble.py 118` (AUDIO LOCK PASS) → deploy per PROMPT-OPUS-RUNNER step 7c. HARD EXTERNAL BLOCK — only Cameron topping up https://ai.studio/projects clears it.
+
+---
+
 ## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (cont. — PROMPT-WORDING VERIFIED) — Opus runner, Machine A `Dev`, $0, 0 credits
 
 This pass went beyond `--check` and independently re-verified the fix will
