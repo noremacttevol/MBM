@@ -1,3 +1,5 @@
+## 2026-08-11 (cont. 3) — Row 51 boat-size complaint FIXED hands-on: the "tear/tare" card was answering an OLD complaint while his LIVE complaint (boats change size) sat unread — always re-pull the live complaint before believing a FIXED badge. BOAT plate wired (b02 canon), 5 dinghy frames rebuilt to the masted pair, $0.67, served-bytes verified, live abf0958ab7af.
+
 ## 2026-08-11 (cont. 49) — Row 60 "The Gerasene Demoniac" (Mark 5) — NEW 2:39 complaint (healed man's hair doesn't match) — C-FIX SHIPPED + DEPLOYED + LIVE-VERIFIED — Machine A `Dev`, unattended/headless — 2 rerolls (5.1%) / $0.27
 
 **Commit:** ship (a) `64a3290763d1` (mp4 blob `64a329` + beats_v2 REFS wiring + QC + AUTHOR-BOARD claim + QUEUE); card+SESSION-LOG (b) in the push below (review.html v60 card new hash + this entry). Session-chain verified at start: prior top entry = cont.48 Row 52 `18386032a3de` — present in `git log`.
