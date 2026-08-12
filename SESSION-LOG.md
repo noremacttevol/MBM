@@ -1,3 +1,19 @@
+## 2026-08-11 (cont. 66) — ROW 119 C-FIX "bow STILL mispronounced": the 08-09 audio fix REGRESSED a correct take — $0 revert, formant-proven — Machine A `Dev`, Opus runner (complaint-first, unattended/headless)
+
+**Commit:** commit A `3ab3fd572607` (mp4 + build files + boards); review.html/REVIEW-LESSONS/SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.65 (loop repair) commit `ca5294aa8` present at HEAD. Hostname `Dev` = Machine A.
+
+Cameron filed a NEW complaint on the lowest waiting row (COMPLAINT-FIRST + LOW-NUMBER): _"Mispronounced bow at 7 seconds its still mispronounced"_ (2026-08-12T01:45Z, against the live 08-11 ship `a70642e3`). AUDIO-domain — did NOT re-cut pictures.
+
+**Root cause (autopsy):** the word is n1 "everyone **bows**" (bend-down = /baʊz/ BOUGH) at video ≈6.9 s. The **08-09 audio-lane "fix"** re-voiced n1 through ElevenLabs Brian spelled **"boughs"** + atempo-stretched it — believing "boughs" forces /baʊz/. It does the opposite: **Brian reads "boughs" as /oʊ~uː/ (BEAU/"booze")**, mangled by the stretch. Proven by extracting the "bows" word from the live mp4 + both takes and running LPC-formant + ffmpeg spectrograms: the ORIGINAL plain-"bows" take (md5 6da0ad05) is a clean open **F1≈700 Hz /aʊ/ = correct**; the shipped "boughs" take (076624e4) has a **low ~250 Hz rounded F1 = wrong**. Live mp4 @6.9 s correlated 0.919 to the BAD take, 0.091 to the good one. **The original was already right; the "fix" broke it.** The 08-11 gate missed it because it validated by whisper ("bows") + correlation-to-the-intended-take (0.973) — both DEAF to the vowel.
+
+**Fix ($0, 0 credits, 0 rerolls):** reverted `n1.mp3` to the original correct take (the mislabeled `.OLD-beau-bak` = 6da0ad05) in both dirs; re-assembled. Duration identical (14.053878 s) → zero timeline shift. **AUDIO REBUILD SHA returned 66a20ba0 → dc3ae03e** (the pre-boughs correct-take hash the 08-11 note recorded moving away from). Live-rendered mp4 @6.9 s corr flipped to **0.877-good / 0.121-bad**; new spectrogram shows the clean open /aʊ/. Pictures byte-identical to the 08-11 full-cut-gated ship (assets/ unmodified, decode 0 errors); spot-verified bows frame + fourth-man count + card. Retired the `make_narration` bows→boughs respell (guard comment) so no future regen re-applies it; appended the RUNNER-LESSON (never respell "bows"→"boughs" for ElevenLabs; validate homograph vowels by formant/spectrogram, never whisper/correlation).
+
+**Known carry-over (NOT this complaint, unchanged from 08-11 gate):** the fourth figure at b22/b25 still reads with a residual halo/semi-resolved face — the structural-glow tendency; durable fix is an AUTHOR beat-text tweak (do NOT blind-reroll). Flagged for a future author pass; out of scope for an audio C-FIX.
+
+Deployed + live-verified below. Cost: $0/row this session (0 Gemini, 0 ElevenLabs). Well under the $6.10 running average.
+
+---
+
 ## 2026-08-11 (cont. 65) — LOOP REPAIR: verify-stuck-on-117 root-caused & fixed (QC stamps in Ready cell, picker read Claim only), self-edit crash guard, COMPLAINT-FIRST in the build queue; killed the live 10th re-fire — Machine A `Dev`, process-engineer session
 
 **Commit:** this push. Session-chain verified at start: prior top entry cont.64 (row 117 9th re-fire + loop-stuck flag) commit `e987b0e1c` present in `git log`; row 71 C-FIX card `d7d6aee1f` at HEAD. Hostname `Dev` = Machine A.

@@ -860,14 +860,19 @@
   },
   "71": {
     "open": true,
-    "latest": "1:26 has a person sideways , 1:51 the scroll the guy is poassing is stiff and open scrolls of paper are not stiff, the last pictre w t1;57 makes no sense and lease people confused.",
-    "reportedAgainst": "66177afadf2007edeb27b58a467b6a16f9ee4472",
+    "latest": "Jesus said :  \"and, lo, I am with you always, even unto the end of the world\" not \"alway\".  1:37 a man has a white tear and that needs to get fixed.",
+    "reportedAgainst": "08de502e1e85540177a9228e7c60adf4fe598600",
     "resolvedBy": null,
     "history": [
       {
         "text": "1:26 has a person sideways , 1:51 the scroll the guy is poassing is stiff and open scrolls of paper are not stiff, the last pictre w t1;57 makes no sense and lease people confused.",
         "hash": "66177afadf2007edeb27b58a467b6a16f9ee4472",
         "createdAt": "2026-08-06T23:23:09.536Z"
+      },
+      {
+        "text": "Jesus said :  \"and, lo, I am with you always, even unto the end of the world\" not \"alway\".  1:37 a man has a white tear and that needs to get fixed.",
+        "hash": "08de502e1e85540177a9228e7c60adf4fe598600",
+        "createdAt": "2026-08-12T02:18:30.329Z"
       }
     ]
   },
@@ -999,15 +1004,28 @@
     ]
   },
   "93": {
-    "open": false,
+    "open": true,
     "latest": "36 second picture is weird, replace it",
     "reportedAgainst": "e5a8e8ba1073c3df8954b67688b6e4324cb10d82",
-    "resolvedBy": "693a3f5e258d84371217324a8cb012b7c8c04f0e",
+    "resolvedBy": null,
     "history": [
       {
         "text": "36 second picture is weird, replace it",
         "hash": "e5a8e8ba1073c3df8954b67688b6e4324cb10d82",
         "createdAt": "2026-08-12T01:31:54.553Z"
+      }
+    ]
+  },
+  "94": {
+    "open": true,
+    "latest": "In 0:54 he is smiling, i dont think he smiled on the cross its offputting, fix it. The picture at 0:48 does not have the plaque over his head and his eyes look weird fix it.",
+    "reportedAgainst": "29ed2667be98ce436095a1e53b9638372d13e8be",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "In 0:54 he is smiling, i dont think he smiled on the cross its offputting, fix it. The picture at 0:48 does not have the plaque over his head and his eyes look weird fix it.",
+        "hash": "29ed2667be98ce436095a1e53b9638372d13e8be",
+        "createdAt": "2026-08-12T03:10:54.902Z"
       }
     ]
   },
@@ -1173,15 +1191,15 @@
     ]
   },
   "119": {
-    "open": true,
-    "latest": "Miss pronounced bow",
-    "reportedAgainst": "e7f980e86582e0d5e77a4e77af8473008a68c3de",
-    "resolvedBy": null,
+    "open": false,
+    "latest": "Mispronounced bow at 7 seconds its still mispronounced",
+    "reportedAgainst": "a70642e3b3cc975199d82a49af0de42bc7919c99",
+    "resolvedBy": "3ab3fd572607e330c7c818d4aab34c50426d19d9",
     "history": [
       {
-        "text": "Miss pronounced bow",
-        "hash": "e7f980e86582e0d5e77a4e77af8473008a68c3de",
-        "createdAt": "2026-07-18T22:48:17.486Z"
+        "text": "Mispronounced bow at 7 seconds its still mispronounced",
+        "hash": "a70642e3b3cc975199d82a49af0de42bc7919c99",
+        "createdAt": "2026-08-12T01:45:54.106Z"
       }
     ]
   },
