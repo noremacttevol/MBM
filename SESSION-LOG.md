@@ -1,3 +1,17 @@
+## 2026-08-12 (cont. 58) — Row 93 "Barabbas Goes Free" (Mark 15) C-FIX SHIPPED — "36 second picture is weird" = s07 Pilate a truncated bust — Machine A `Dev`, Opus runner, unattended/headless
+
+**Commit:** `693a3f5e258d84371217324a8cb012b7c8c04f0e` (cut + new s07 + QC.md + boards) + the review/log push below. Session-chain verified at start: prior top entry cont.56 Row 117 Hosea `5d48b0c20` present in `git log`.
+
+Cameron filed a complaint on the shipped row-93 cut (lowest waiting, complaint-first + low-number): **"36 second picture is weird, replace it"** (reportedAgainst `e5a8e8ba`, the live card hash). COMPLAINT-FIRST + LOW-NUMBER: outranked all other work.
+
+- **TRACE (never guessed from beat names):** computed the per-still windows from the rendered segs (c000–c014). 36.0s falls in still **s07** (beat `v2-r093-b07`, window 32.23–38.63s), caption "then — and they answered with one word." Extracted the live frame at 36s and confirmed.
+- **THE DEFECT:** the old s07 roll drew Pilate as a **truncated bust floating behind a narrow stone lectern** — no visible lower body, both arms spread wide and disconnected — reading as an uncanny "talking statue on a pedestal." Every other seat-wide (s04, s10, s11) drew Pilate as a full standing figure, so s07 was the lone outlier — a bad roll of the beat's intended "Pilate at the rail, palms out asking what-then." Not a place/plate problem (the bicycle was already fixed 2026-08-11); a per-figure roll defect.
+- **FIX — 1 reroll of b07 only** (`v2_gen_api --only v2-r093-b07 --redo --ceiling 623`, $0.13). New s07 = Pilate a full coherent figure at the dais step, palms open, the crowd's arms rising for the one-word answer — matches the beat's must_show. No second reroll needed.
+- **FULL-CUT GATE 6b (one frame per beat from the RE-RENDERED mp4, all 15 viewed):** s01–s06, s08–s15 CLEAN — bicycle gone, JESUS face-lock + only-Jesus-cream hold, PILATE/BARABBAS consistency holds, coherent anatomy/physics/scale, no modern objects, no lens-stare, substitution thesis (s12/s15) intact. Only s07 touched.
+- **AUDIO byte-identical:** re-assembled **AUDIO REBUILD PASS SHA256=6df005ef…** (same audio hash the cut already had — no re-voice, timing untouched). New mp4 `e6f42d2a`, 20.0 MB, 90.3s. Verified clean at t=36s in the rendered cut.
+- **COST:** 1 reroll = **$0.13**, meter $597.64→$597.77, ceiling $623. 1 reroll / 15 beats = 6.7%, under the 15% budget and far under the $6.10/row average — the cost keeps trending down (COST LAW). Touch-once: whole cut gated so this re-cut carries no other latent defect.
+- **Ship:** commit `693a3f5e`, review.html card (new hash + ?v + flag answering his complaint in his words: "the 36-second picture is weird — replace it → replaced, Pilate now a whole man at the judgment seat"), board + QUEUE Claim → SHIPPED, REVIEW-LESSONS row 93 → resolved. Deploy + live-verify below.
+
 ## 2026-08-11 (cont. 57) — Row 120 "Job Answered from the Whirlwind" (Job 1-2/19/38-42) C-FIX SHIPPED — SHAVED-HEAD CONSISTENCY (root cause) — Machine A `Dev`, Opus runner, unattended/headless
 
 **Commit:** `b3604b8a80caef04ea85326ffd6bf429846170a4` (cut + 27 edited stills + QC.md) + the board/review/log push below. Session-chain verified at start: prior top entry cont.52 Row 66 `aa5cbea88`/`6b1cb4621` present in `git log`.
