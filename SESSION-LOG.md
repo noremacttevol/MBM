@@ -1,3 +1,23 @@
+## 2026-08-12 (cont. 95) — ROW 82 "Anointing at Bethany" C-FIX RESUME ATTEMPT #3: Cameron's "1:36 does not look like Jesus" — fix STILL STAGED (b18 friends-only, --check PASS), claimed LIVE and re-attempted the s18 regen TWICE (immediate + after 60s) → BOTH `429 prepayment credits depleted`. Real prepay depletion (3rd confirm today), $0 spent, mp4 NOT reshipped. STILL BLOCKED on Cameron topping up Google AI Studio billing — Machine A `Dev` (unattended/headless, Opus RUNNER, complaint-first + low-number)
+
+**Commit:** AUTHOR-BOARD claim (LIVE → PARKED-BILLING #3) + QC.md #3 park block + this log. Chain: at session start the top entry was cont. 94 (row 82 PARKED #2), commit `612c857cb` present in `git log` — verified; hostname `Dev` = Machine A. Task: PROMPT-OPUS-RUNNER complaint-first + low-number — row 82 is the lowest waiting complained row; Cameron re-triggered the resume.
+
+**What I did this session (all $0):** (1) claimed the row `C-FIX 2026-08-12 LIVE`, committed + pushed (`89a261ea5`). (2) Re-verified the cont. 92 fix is intact — `v2_prompt.py build-82 --check` = PASS, the b18 friends-only guard ("NO forward-facing cream/off-white man; Jesus's face never appears here; a turned-away faceless cream back at most") is present in beats_v2.py. (3) VIEWED the live bad s18 asset directly — confirmed the defect: an OFF-MODEL cream-robed man seated at the table head, soft/generic pale face, NOT the locked green-hazel Jesus = exactly Cameron's "1:36 does not look like Jesus." (4) Ran the staged regen `v2_gen_api.py --only v2-r082-b18 --redo --ceiling 642.55` — `429 RESOURCE_EXHAUSTED prepayment credits depleted`; waited 60s and ran it once more (protocol retry) — same 429. Genuine prepay depletion, not a transient rate-limit.
+
+**Why still no ship — HARD EXTERNAL BLOCKER unchanged:** the one staged still needs a paid Gemini image and there is $0 of prepay credit on the key (`429 prepayment credits are depleted`, both attempts). Re-confirmed NO $0 path: no good s18 backup exists, and no in-build still fits b18's author-designed "friends flinching at the burial word, NO forward-facing Jesus" (s08 is the earlier murmuring-confrontation frame with a profile Jesus + the woman — a repeat + semantic mismatch, and retargeting the beat to it would edit beat content, forbidden by the runner hard rails). I did NOT improvise a substitute and did NOT reship the current mp4 — it still carries the bad s18. Meter unchanged $617.34, $0/0 rerolls this session.
+
+**RESUME (unchanged — the moment Cameron tops up Google AI Studio billing, https://ai.studio/projects; one still, then assemble + ship, touch-once):**
+```
+cd media-production-v2
+python3 v2_gen_api.py build-82-anointing-at-bethany --only v2-r082-b18 --redo --ceiling <meter+25.2>
+# VIEW new s18: friends flinching, NO forward-facing cream Jesus (faceless turned cream back at most)
+python3 v2_assemble.py 82          # must print AUDIO REBUILD PASS SHA256=de0b21ab… (byte-identical)
+# FULL-CUT GATE the rendered s18 window + neighbors, then SHIP (2 commits, review.html data-hash + ?v=,
+#   firebase deploy --only hosting, live-verify HTTP 200); board Claim → C-FIX SHIPPED; publish_ledger sync
+```
+
+---
+
 ## 2026-08-12 (cont. 94) — ROW 82 "Anointing at Bethany" PICTURE C-FIX RESUME: Cameron's "1:36 does not look like Jesus" — the fix is STAGED (b18 reframed onto the flinching friends, forbids any forward-facing cream Jesus, --check PASS) but PARKED-BILLING **for the 2nd time** — Gemini prepay credits are DEPLETED again (429 persists past the 60s retry, both attempts), so the ONE off-model still (s18) STILL cannot be regenerated — Machine A `Dev` (unattended/headless, Opus RUNNER, complaint-first + low-number)
 
 **Commit:** AUTHOR-BOARD claim update (PARKED-BILLING #2) + QC.md park-refresh + this log — one commit this push. Chain: at session start the top entry was cont. 93 (row 89), commit `4f960c442` present in `git log` — verified; hostname `Dev` = Machine A. Task: PROMPT-OPUS-RUNNER complaint-first + low-number — row 82 is the lowest waiting complained row.

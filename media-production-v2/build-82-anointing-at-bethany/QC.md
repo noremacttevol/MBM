@@ -1,6 +1,10 @@
 # QC / RUNNER HANDOFF — build-82-anointing-at-bethany (Mark 14:3-9)
 
-## ⛔ C-FIX PARKED — BLOCKED ON GEMINI BILLING (Machine A `Dev`, 2026-08-12) — autopsy done + fix applied, ONE still to regen
+## ⛔ C-FIX PARKED-BILLING #3 — STILL BLOCKED ON GEMINI BILLING (Machine A `Dev`, 2026-08-12) — autopsy done + fix applied, ONE still to regen
+
+**#3 CONFIRMATION (this session, LIVE claim):** claimed the row `C-FIX 2026-08-12 LIVE`, re-verified the fix is still staged (`v2_prompt.py --check` = PASS, b18 friends-only guard present in beats_v2.py), VIEWED the live bad s18 (confirmed: an OFF-MODEL cream-robed man at the table head, soft/generic pale face — exactly Cameron's "1:36 does not look like Jesus"), and attempted the single staged regen `v2_gen_api.py --only v2-r082-b18 --redo --ceiling 642.55` **TWICE** (immediate + once more after the mandated 60 s wait). BOTH returned `429 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted."` This is genuine prepay depletion (now confirmed across three sessions + multiple lanes today), NOT a transient rate-limit; it can only clear when **Cameron tops up Google AI Studio billing** (https://ai.studio/projects). $0 spent this session, meter still $617.34. Re-confirmed NO $0 path exists: there is no good s18 backup, and no existing in-build still fits b18's author-designed "friends flinching at the burial word, NO forward-facing Jesus" narration (s08 is the earlier murmuring-confrontation frame with a profile Jesus + the woman — a semantic + repeat mismatch, and retargeting the beat to it would edit beat content, which the hard rails forbid). The current mp4 was NOT reshipped — it still carries the bad s18. Board Claim → PARKED-BILLING #3.
+
+
 
 **Cameron re-filed (reportedAgainst `a6e48c97` = the CURRENT shipped cut):** *"1:36 picture does not look like Jesus."*
 The prior 2026-08-12 C-FIX fixed the WRONG frame — it traced "1:35" to **s17** (woman's hands) and its FULL-CUT GATE missed the real culprit.
