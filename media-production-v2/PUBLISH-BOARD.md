@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T01:58:10_
+_Last sync: 2026-08-12T02:13:57_
 
 ## Summary
 
-- **APPROVED — not published** — 55 row(s)
+- **APPROVED — not published** — 56 row(s)
 - **BUILDING** — 73 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 28 row(s)
+- **ON REVIEWER — awaiting Cameron** — 27 row(s)
 
 ## The rows
 
@@ -91,7 +91,7 @@ _Last sync: 2026-08-12T01:58:10_
 | 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 69 | Baptism of Jesus | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 70 | The Temptations | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 71 | The Great Commission | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 71 | The Great Commission | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 72 | Calling Matthew | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 73 | This Day Fulfilled | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 74 | The Woman Who Washed His Feet | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
