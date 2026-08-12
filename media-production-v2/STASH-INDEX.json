@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-12 02:32:58",
+ "scanned": "2026-08-12 02:43:53",
  "entries": [
   {
    "row": 1,
@@ -48320,12 +48320,14 @@
    "file": "build-113-where-art-thou/assets/s20-and-instead-god-did-something.jpeg",
    "tokens": [
     "GARDEN",
-    "GOD"
+    "GOD",
+    "ADAM",
+    "EVE"
    ],
    "jesus": false,
    "wide": false,
    "night": false,
-   "n_person": 1,
+   "n_person": 3,
    "scene": "What waits for them is not the end: the Father himself, white-robed, white-haired and full-bearded, stands in the last warm light and holds out to them two garments \u2014 coats of soft dark leather, well made, man-sized and "
   },
   {

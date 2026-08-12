@@ -1,6 +1,96 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
-## §SHIPPED ✅ REALISTIC-V2 SHIPPED TO REVIEWER (Machine A `Dev`, 2026-08-12, Opus picture runner — unattended/headless)
+## §C-FIX RE-OPEN 2026-08-12 (Opus, Machine A `Dev`, unattended/headless) — PICTURES DONE, held for combined ship; AUDIO parked → NEEDS-AUDIO
+
+**Cameron re-opened the shipped cut `94cf6ff1` (`v2_outline.py 63` / REVIEW-LESSONS row 63):**
+> "1:53 is still wrong its : si-LOH-uhm. The blind mans mans face is not the correct
+> look @ : 0:12, 1:29, 3:16, 3:29, 3:35, 3:49, 3:55 wrong lookijg blind person. 1:41
+> the blind mans eyes were supposed to be pack with clay as hes walking to the pool
+> and they are not. Fix all these pictures. 8 total"
+
+MIXED complaint: **8 PICTURES** (blind man's face/identity + one clay-continuity) + **1 AUDIO** (the word "Siloam" at 1:53). Traced every timestamp to the frame that RENDERS there from the LIVE mp4 (not beat names):
+
+| Cameron | live-mp4 frame | defect | fix |
+|---|---|---|---|
+| 0:12 | b03 s03 | beggar's face off-model + eyes look sighted | ref-locked + milk-pale unseeing eyes added |
+| 1:29 | b16 s16 | drifted to a GREY-haired ELDER (worst outlier) | ref-locked → correct 35yo, clay on eyes |
+| 1:41 | b19 s19 | eyes CLEAN, not clay-packed (his explicit complaint) | ref-locked + must_show/not_show force clay MASK over both eyes |
+| 3:16 | b36 s36 | face drift | ref-locked |
+| 3:29 | b38 s38 | face drift | ref-locked |
+| 3:35 | b39 s39 | face drift (heavier beard) | ref-locked → matches anchor |
+| 3:49 | b42 s42 | face drift | ref-locked |
+| 3:55 | b43 s43 | face drift | ref-locked |
+| **1:53** | b21 (the washing) — AUDIO of the WORD, not the frame | narrator says Siloam as "SILO-am" (grain silo) not si-LOH-uhm | **→ NEEDS-AUDIO (see §PARK below)** |
+
+### PROMPT AUTOPSY (rubric meta-law 3) — verdict IGNORED (identity) + ALLOWED (b03 eyes)
+The BORN-BLIND MAN had a text lock (`LOCKS["BLINDMAN"]`) but **his approved face sheet
+`CAST-REF-V2/blindman.jpeg` was NEVER wired into a `REFS` dict** — so `cast_refs_for()`
+rendered him TEXT-ONLY on all 43 beats. A text description does not pin a recurring face
+(lesson 2/10); only an attached reference IMAGE does. That is the root cause of the
+frame-to-frame drift (black→brown→grey hair, changing age/beard). **Fix = add
+`REFS = {"BLINDMAN": "CAST-REF-V2/blindman.jpeg"}`** (attaches his face lock to every
+BLINDMAN beat, exactly like the Jesus ref). b19 clay = IGNORED (scene said "clay-eyed
+man" twice; generator dropped the subtle detail → strengthened must_show/must_not_show
+to demand a clay MASK over both sealed eyes). b03 eyes = ALLOWED (scene never stated
+milk-pale unseeing eyes → added).
+
+### What this session did
+- Wired the BLINDMAN reference; strengthened b03 (milk-pale eyes) + b19 (clay-packed) text.
+- **Regenerated the 8 flagged beats** (b03/b16/b19/b36/b38/b39/b42/b43) with the ref
+  attached (each run logged `[+1 char ref: BLINDMAN]`). $1.07, meter $607.42→$608.49.
+  **0 rerolls** (all 8 first-take clean). Reroll % = 0 (budget 15%). Under $6.10/row.
+- **FULL-CUT GATE (§6b)** on the RE-RENDERED mp4 (247.7s, AUDIO REBUILD PASS
+  `09854d47` = byte-identical, picture-only): all 8 new frames viewed at full res —
+  identity now matches the anchor, b16 elder→correct man, b19 both eyes packed under
+  clay, b03 pale unseeing eyes + Jesus cream-only. Swept the ~27 RETAINED blind-man
+  frames (b01/b02/b09/b10/b11/b12…): all read as the SAME lean dark-haired short-beard
+  man as the ref (b10 close-up even shows the pale blind eyes) — no identity clash, no
+  extra regen needed (cost law). Captions bottom-band 3-colour (blue scripture / white
+  narrator / red Jesus), closing card clean, no dead tail. Anatomy/scale/second-cream/
+  modern-object all clean.
+
+### COMPLAINT LEDGER
+1. blind man's face wrong @ 0:12/1:29/3:16/3:29/3:35/3:49/3:55 → **CLOSED** — root cause
+   (unwired face sheet) fixed; all 7 frames regenerated locked to `blindman.jpeg`.
+2. 1:41 eyes not clay-packed → **CLOSED** — b19 regenerated with both eyes sealed under
+   a clay mask.
+3. 1:53 "si-LOH-uhm" (Siloam pronunciation) → **NOT YET — parked NEEDS-AUDIO** (§PARK).
+   A picture C-FIX may not gamble a 4th re-voice it cannot ear-verify; the audio lane
+   owns this and will ship it together with these frames in ONE combined cut (touch-once).
+
+### 🅿️ §PARK → NEEDS-AUDIO (audio lane): re-voice "Siloam" to si-LOH-uhm
+**Why held, not shipped:** shipping the picture cut on the current audio would re-ship a
+cut whose 1:53 STILL says the wrong Siloam = the rubric's worst failure (a cut that
+repeats a filed complaint). So the 8 picture fixes are committed to `assets/` + this
+`beats_v2.py`; the AUDIO LANE re-voices n5, reassembles (auto-picks up these new frames),
+and ships ONE combined cut — Cameron gets both fixes in a single touch-once re-cut.
+
+**The audio defect (verified):** the shipped V1-dir `n5.mp3` (14.341s) was re-voiced on
+2026-08-07 with SPOKEN respell `"Siloh-am"` — that reads as **"SILO-am"** (stress on the
+first syllable = the grain-silo sound). Cameron wants **si-LOH-uhm** (stress on the
+MIDDLE syllable, long-o). whisper is DEAF to this vowel (it transcribes both as "siloam")
+— validate by FORMANT/stress, never by whisper.
+
+**Candidate findings (rendered Brian, `/tmp` A/B, centroid of stressed vowel — lower =
+more back-rounded /oʊ/):** `Siloh-am` 1048Hz (current, rejected); `sih-LOH-um` and
+`suh-LOH-um` → ElevenLabs OVER-SEGMENTS the hyphens into "Si-El-O-shum" (garbled, avoid);
+`sih-LOAM` → clean "siloam", **721Hz** (strongest long-o) but only 2 syllables; `sy-LOH-um`
+→ clean 3-syllable "Siloam", 859Hz. Recommend the audio lane render N takes of
+`sih-LOAM` and `sy-LOH-um`, formant-validate (F2<1600 on the stressed vowel) AND ear-check,
+pick the winner. Applies to BOTH occurrences (j2 "Go, wash…" + n5 "he knelt…") — keep them
+consistent; the caption keeps the KJV "Siloam".
+
+**Timeline:** to avoid a full window remap, **atempo-lock the new n5 to 14.341s** (and j2
+to its current 3.006s) before writing them to
+`media-production/build-63-man-born-blind/audio/`. `AUDIO_FROM_V1_SEGMENTS = True` is
+already set, so v2_assemble rebuilds from those mp3s. If a re-voice must change duration,
+remap all 43 windows piecewise-linear on the segment onsets (as the 2026-08-07 fix did).
+Then reassemble (AUDIO REBUILD PASS), deploy, live-verify, and mark complaint #63 resolved
+against the new hash — the review card must answer BOTH "si-LOH-uhm" and the 8 pictures.
+
+---
+
+## §SHIPPED ✅ REALISTIC-V2 SHIPPED TO REVIEWER (Machine A `Dev`, 2026-08-12, Opus picture runner — unattended/headless) [SUPERSEDED — this cut `94cf6ff1` was re-opened; see §C-FIX above]
 
 **Row 63 finished from AUTHORED → BUILT.** The Siloam audio complaint was already
 fixed at the author level (§0-FIXED below); this session did the picture runner's

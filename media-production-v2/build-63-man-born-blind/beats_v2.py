@@ -101,6 +101,19 @@ LOCKS = {
 
 REF = True
 
+# 2026-08-12 C-FIX (complaint #63 re-open): the BORN-BLIND MAN drifted into a
+# different person frame-to-frame (Cameron: "the blind mans face is not the
+# correct look ... wrong lookijg blind person" @ 0:12/1:29/3:16/3:29/3:35/3:49/
+# 3:55). ROOT CAUSE: his approved face sheet CAST-REF-V2/blindman.jpeg existed on
+# disk but was NEVER wired into a REFS dict, so cast_refs_for() rendered him
+# TEXT-ONLY on all 43 beats (lesson 2/10: a text lock is not identity — only an
+# attached reference IMAGE pins a recurring face). Wiring it here attaches his
+# face lock to every beat that carries the BLINDMAN token, exactly like the Jesus
+# ref. His per-beat EYE STATE (milk-pale before Siloam, clay-packed on the walk,
+# clear brown after) is still driven by each beat's must_show — the ref pins the
+# face/hair/beard/build, the text pins the changing eyes.
+REFS = {"BLINDMAN": "CAST-REF-V2/blindman.jpeg"}
+
 # 2026-08-07 (complaint #63, 2nd pass): j2 & n5 re-voiced through ElevenLabs
 # (matching engine — the other 21 segs are ElevenLabs) to fix 'Siloam' reading
 # as 'Salome' (Cameron: 'still wrong its : si-LOH-uhm'). SPOKEN respell
@@ -160,8 +173,8 @@ BEATS = [
         "window": "10.59-15.14", "wide": True, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN", "SPOT"],
         "narration": "And as Jesus and his disciples passed by, the disciples asked him:",
-        "must_show": "SCRIPTURE-EXACT: the passing — Jesus and the disciples coming along the street, the disciples' heads already turning toward the seated beggar as the question forms.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the man IN EARSHOT — the geometry that makes the question cruel.",
+        "must_show": "SCRIPTURE-EXACT: the passing — Jesus and the disciples coming along the street, the disciples' heads already turning toward the seated beggar as the question forms. The seated beggar is BLIND FROM BIRTH: his eyes are milk-pale, clouded and unfocused, not tracking anyone, his face lifted and LISTENING rather than looking — a real blind man's eyes, calm and dignified.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the man IN EARSHOT — the geometry that makes the question cruel; the beggar's eyes are NOT clear, NOT sighted, NOT making eye contact — they are pale and unseeing.",
         "scene": (
             "Along the bright approach street, the camera at the "
             "wall's side taking the walk in profile, Jesus walks "
@@ -515,8 +528,8 @@ BEATS = [
             "Jerusalem, one wall and one step at a time, holding nothing but "
             "the instruction of a man whose face he had never seen."
         ),
-        "must_show": "SCRIPTURE-EXACT: the walk — the clay-eyed man descending the stepped lanes alone: staff sweeping, free hand reading the wall, feet finding each worn stair; the city moving around his concentration.",
-        "must_not_show": "no halo, glare or rim-light; the walk's difficulty honest — but his competence absolute; faith rendered as navigation.",
+        "must_show": "SCRIPTURE-EXACT: the walk — the man descending the stepped lanes alone with BOTH EYES COMPLETELY PACKED AND SEALED SHUT UNDER A THICK MASK OF WET GREY-BROWN CLAY (the clay Jesus spread over his eyes is still on, covering them entirely — no eyeball, no iris, no open eye visible, just smooth drying mud where each eye should be): staff sweeping, free hand reading the wall, feet finding each worn stair; the city moving around his concentration.",
+        "must_not_show": "no halo, glare or rim-light; the walk's difficulty honest — but his competence absolute; faith rendered as navigation. CRITICAL: his eyes are NOT open, NOT clear, NOT clean, NOT visible — do NOT show clean eyes or an eyeball; both eyes are hidden under packed clay/mud the whole time he walks.",
         "scene": (
             "Down the stepped stone lane the clay-eyed "
             "man makes his way alone — staff sweeping "
