@@ -1,3 +1,17 @@
+## 2026-08-12 (cont. 76) — ROW 51 "First Catch of Fish" C-FIX (BOAT RE-OPEN #2): "boats too small / no upright sail mast" — root-caused at the LOCK + wired the actually-empty plate, CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
+
+**Commit:** build+code+boards `d496e51a6` (commit A); review card + this log ship in commit B this push. Chain: prior top entry cont.75 (row 120), commit `c1eccfda6` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 51 was the lowest OPEN complaint on the AUTHOR-BOARD.
+
+**The complaint (3rd time on this row's boats):** Cameron — "make sure its not a small paddle only boat. Make sure they all have a sail mast that is upright and the boat is reasonable sized … Dont have sail mast because the boats are too small. 13, 19, 31, 1:35." Two prior fixes (08-11 ×2) touched only s05 and *claimed* to wire an s02 plate.
+
+**Why it kept coming back (PROMPT AUTOPSY, rubric meta-law 3):** (1) the BOATS lock literally said "a single **stubby** mast" — the model reads "stubby" as short/optional and drops the mast entirely in wide shots → mastless open boats that look like paddle dinghies (CAUSED). (2) `PLACE_REFS` was **`{}`** — the 08-11 "wired the plate" never took effect: the wiring token was `BOAT` but every beat locks on `BOATS`, so the plate attached to ZERO beats and consistency rode entirely on per-beat prose. (3) b03 didn't even carry the `BOATS` lock token, so its background boats got neither lock nor plate.
+
+**The fix (touch-once):** rewrote the lock → "a single TALL UPRIGHT mast … rising well above the men's heads, sail furled to the yard … NEVER a mastless open hull, NEVER a small paddle-only rowboat/dinghy" (rule baked into the lock so it binds every boat beat); added the strong mast+scale must_show/must_not_show to b02 and b03; added `BOATS` to b03's locks; regenerated s02 (the plate), s03, s05 to the canonical large masted boat; then ACTUALLY wired it — promoted the new s02 → `PLACE-REF/boats.jpeg`, `PLACE_REFS={"BOATS":…}`, removed the stale `BOAT` entry that was failing the check gate. **FULL-CUT GATE 26/26 + 3 caption frames + card, all clean** — every boat that is a subject now has a tall upright mast; Jesus one face + cream-only, Simon one face, realistic-only, captions bottom-band 3-voice, card clean. **Audio byte-identical** — AUDIO REBUILD PASS same SHA `e82b1aaf…`.
+
+**Cost:** 3 rerolls / 26 = **11.5%** (under 15%), ~$0.40 (meter $603.54→$603.94). Well under the $6.10/row average (C-FIX). RUNNER-LESSON filed (stubby-mast trap + promote-token-mismatch trap).
+
+---
+
 ## 2026-08-12 (cont. 75) — ROW 120 "Job from the Whirlwind" C-FIX: beard + head + "wast" — Cameron's 3-part complaint CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
 
 **Commit:** ships in the pushes below (build `3ccdac4f362b`, card/board/log this push). Chain: prior top entry cont.73 (audio lane, rows 103/147), commit `c4d5d8a7a` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number order honored: row 120 was the lowest OPEN complaint on the AUTHOR-BOARD.
