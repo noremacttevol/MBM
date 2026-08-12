@@ -1,5 +1,18 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
+## §RE-PROBE 2026-08-12 (Opus RUNNER, Machine A `Dev`, 15th pass) — wall PERSISTS, $0, no re-stage/no churn
+Complaint-first + low-number law sent me to row 63. `--check` PASS (43 v4). Single billing probe
+`v2_gen_api.py … --only b40 --redo --ceiling 622` → **429 prepay-depleted**, meter **unmoved $617.34**
+(last real spend 04:11:44, build-135). **Independently re-verified the "no $0 path" verdict this pass
+instead of inheriting it:** read the b40–b43 scene defs — b40 (reveal), b42 (kneel/worship), b43
+(walk-away) are two-figure Jesus+man compositions; b41 is a specific tearful "Lord, I believe"
+close-up. None can be satisfied by swapping in an existing earlier blind-man frame without a visible
+duplicate or the wrong emotion → every flagged frame's subject IS the identity/composition that only
+the generative model can produce. Audio half DONE+LOCKED+verified-in-mp4 (§below). Pictures COMMITTED
++ `--check` PASS + turnkey RESUME (§below). Inbox top-up ask CURRENT (row 63 pictures + Siloam; batched
+82/95/116/118). Did NOT re-autopsy/re-stage/re-ship (STOP marker; a reship would repeat the complaint).
+**Resume via the §AUDIO DONE pictures-only RESUME the instant the meter moves past $617.34.**
+
 ## §RE-PROBE 2026-08-12 (Opus RUNNER, Machine A `Dev`, 14th pass) — wall PERSISTS, $0, no re-stage
 Complaint-first + low-number law sent me to row 63. State confirmed at $0: `--check` PASS (43 v4);
 one single billing probe `v2_gen_api.py … --only b40 --redo --ceiling 620` → **429 prepayment
