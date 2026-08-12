@@ -1,3 +1,35 @@
+## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (cont.) — Opus runner, Machine A `Dev`, $0, 0 credits
+
+Re-ran the row-118 C-FIX (Cameron: "2:37 jonah was 3 times bigger… fix it. The
+people in 3:08 look dead, fix it."). Staged fix is INTACT and committed
+(`beats_v2.py` clean, no uncommitted diff): `AUDIO_FROM_V1_SEGMENTS = True` (L92),
+b28 `must_not_show` rejects "Jonah drawn larger than the people around him / any
+giant, oversized or hero-scale foreground figure" (L954), b33 `must_not_show`
+rejects "grey, ashen, or corpse-like skin; people who look dead" (L1147).
+`v2_prompt.py build-118-jonah-god-who-relents --check` = **PASS (46 beats, v4
+checklist PASS)**.
+
+Re-probed billing with the paid regen `--only b28 b33 --redo --ceiling 644`:
+**`429 RESOURCE_EXHAUSTED — prepayment credits depleted`** on the immediate try;
+retried once after 60 s per the hard rail → **same 429**. The board-wide Google
+AI Studio prepay is STILL empty (meter frozen **$617.34**; the last successful
+gen in `api-spend.jsonl` was build-135 at 04:11 today, then depletion — the same
+wall that blocked rows 82/95/118). $0 spent, 0 rerolls.
+
+**No $0 path exists for this row** (unlike row 82's off-center crop): b28 is a
+*within-frame relative-scale* defect — a crop cannot shrink Jonah relative to the
+townsfolk standing beside him at the same depth; b33 is a *skin-color* defect — a
+crop cannot add living warmth to ashen faces. Both genuinely require a paid
+Gemini regen. mp4 **NOT re-assembled or re-shipped** — the live cut
+(`data-hash=10282aa9cd46`, shipped 2026-08-11) still carries the giant-Jonah b28
+and dead-crowd b33 frames; shipping it now would repeat Cameron's exact complaint.
+
+Row stays **PARKED-BILLING**. GENUINE EXTERNAL BLOCKER — no agent can manufacture
+credits; only Cameron can top up https://ai.studio/projects. Ships touch-once the
+instant billing is funded, via the RESUME COMMAND block below.
+
+---
+
 ## RUNNER PARK 2026-08-09 (Opus runner, Machine A `Dev`, UNATTENDED/HEADLESS)
 
 **COMPLAINT LEDGER: none open** (`v2_outline.py 118` shows no complaints;
