@@ -1219,3 +1219,37 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   card serves the OLD cut, the pictures can be perfectly clean and the row is
   still NOT delivered — complete the ship ($0, byte-identical, no re-cut): repoint
   the card, deploy, live-verify.
+
+- **A "shave the scalp, keep the beard" head-edit can silently strip the BEARD too
+  (2026-08-12, row 120 s18).** Cameron: "1:39 his beard is shaved." The word
+  "shaved-headed" in a beat's scene — OR a targeted bald-scalp edit — biases the
+  generator to shave the FACE as well, leaving only stubble even though the person
+  lock says "full beard." So: (1) after ANY scalp/bald edit, run the lesson-13
+  BEARD BOARD on that exact frame; (2) restore a lost beard with a targeted
+  identity-edit that adds the beard and attaches a good neighbour frame as the
+  beard anchor (s19 anchored s18 here), never a blind reroll (the scene already
+  says shaved, so a reroll reproduces the stubble). Cheap: one edit, $0.134.
+- **A shave/beard/identity SWEEP must include EVERY frame the person appears in —
+  even a "cosmic/wide/vision" beat where they sit small at the frame foot
+  (2026-08-12, row 120 s27).** Cameron: "2:36 he is not head hair shaved." The
+  2026-08-11 shaved-head C-FIX misfiled s27 (a Pleiades/Orion night-vision with
+  Job tiny at the bottom) as "person-free cosmic — untouched" and skipped it, so
+  Job kept his hair there while every other mourning frame was bald. Before a
+  sweep, list beats by WHO-APPEARS from the rendered frames, not by beat name/role;
+  a person in the lower third of a landscape beat still counts. Belt-and-braces:
+  state the changing-condition (shaved-headed) in that beat's `scene` too, so a
+  future regen can't reallow it (the b27 scene relied on the lock and got hair).
+- **Vowel-pronunciation audio complaints: respell the SPOKEN token only, render
+  N takes, FORMANT-validate, atempo-lock (2026-08-12, row 120 jvA "wast"→"waste").**
+  ElevenLabs read KJV "wast" as /weɪst/ ("waste"; F1=412 F2=2395, a front vowel).
+  Whisper is deaf to this (it prints "was" either way) — validate the vowel by LPC
+  formants: the target back vowel /wʌst/ needs F2 well below ~1600, not ~2400. Fix
+  without touching the caption: feed ElevenLabs the literal respelling `wust`
+  (caption stays KJV "wast" — the two are decoupled), render several takes, keep
+  only the ones whose target-word formant is a back vowel, pick the take whose
+  duration is CLOSEST to the original segment length, then `atempo`-lock to the
+  exact original duration (drift <1 frame) so no caption window moves and the
+  AUDIO_FROM_V1_SEGMENTS rebuild timeline is unchanged. Confirm the re-voiced
+  segment's median F0 still matches the other same-speaker segments (voice
+  identity) and that the DELIVERED mp4's audio carries the fix at that timestamp.
+  Back up the old segment mp3 + timing.json + words.json to `audio-oldvoice-backup/`.

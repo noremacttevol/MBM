@@ -700,7 +700,7 @@ BEATS = [
             "wide with his three-starred belt, the winter powers "
             "hung exactly where they have hung since the first "
             "morning — and far below at the frame's foot, one small "
-            "upturned face taking the starlight, being asked "
+            "shaved-headed, full-bearded upturned face taking the starlight, being asked "
             "kindly whether he can knot or unknot any of it — the "
             "sweet influences going about their vast business "
             "overhead, gloriously out of reach. Every figure has two "

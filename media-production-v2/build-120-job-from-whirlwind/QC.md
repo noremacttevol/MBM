@@ -1,5 +1,75 @@
 # QC / RUNNER HANDOFF — build-120-job-from-whirlwind (Job 1-2, 19, 38-42)
 
+## ✅ C-FIX SHIPPED — BEARD + HEAD + "WAST" PRONUNCIATION (Opus runner, Machine A `Dev`, 2026-08-12)
+
+**COMPLAINT LEDGER (Cameron, `v2_outline.py 120`): "2:36 he is not head hair
+shaved. 1:39 his beard is shaved. And at 1:56 it reads wast like waste and its
+more like was't look up how to speak old english if you dont know" — ALL THREE
+FIXED, verified in the delivered mp4 (full-cut gate 6b, 42/42):**
+
+- **"1:39 his beard is shaved"** (1:39 = 99 s = clip c017 = beat b18 / `s18-that-is-a-man-in.jpeg`)
+  → **FIXED.** Job now carries his full grey-streaked dark beard on his (correct)
+  bald mourning scalp, matching his neighbour frame s19 which was attached as the
+  beard anchor. Old frame: bald head + only wispy stubble.
+- **"2:36 he is not head hair shaved"** (2:36 = 156 s = clip c026 = beat b27 / `s27-it-is-a-memory-and.jpeg`)
+  → **FIXED.** Job's scalp is now shaved bald (Job 1:20 mourning), his full grey
+  beard and the whole Pleiades + Orion night sky preserved. Old frame: full head
+  of dark hair.
+- **"1:56 wast reads like waste"** (1:56 = God's KJV line jvA "Where wast thou…")
+  → **FIXED (audio).** The God voice (ElevenLabs Bill) said `wast` as /weɪst/
+  ("waste"; measured F1=412 F2=2395 = a front vowel). Re-voiced so it now says
+  the archaic /wʌst/ ("was't", rhymes "must"; delivered-mp4 F2≈1330, a back
+  vowel). Caption still reads KJV **"wast"** — only the *spoken* token was
+  respelled `wust` (caption is decoupled from the render text). Same God voice
+  (Bill), same settings; duration atempo-locked to the original 6.765714 s (drift
+  0.0 ms) so NO caption window moved; median F0 131 Hz ≈ jvB 135 / jv387 140 →
+  voice identity consistent across all three God lines.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- *s18 beard* — **verdict IGNORED.** s18 was already shaved-headed in the original
+  gen (QC marks it `s18*`, no `.prehair.bak`); its scene said "shaved-headed" and
+  relied on the JOB LOCK ("a full grey-streaked dark beard") for the beard — the
+  generator dropped the beard, biased by "shaved-headed" next to the face. Fix =
+  targeted identity-edit adding the beard (lesson 10/13), s19 attached as anchor;
+  no prompt reroll (a reroll reproduces it). RUNNER-LESSONS line added.
+- *s27 head* — **verdict ALLOWED + missed.** The b27 scene never said
+  "shaved-headed" (unlike b18), so the generator drew Job with hair; and the
+  2026-08-11 shaved-head C-FIX misfiled s27 as a "person-free cosmic beat" (it is
+  a Pleiades/Orion vision with Job small at the frame foot) and skipped it. Fix =
+  targeted head-only shave edit + `beats_v2.py` b27 scene now states Job is
+  shaved-headed (closes the loophole for any future regen). RUNNER-LESSONS line
+  added.
+
+**FULL-CUT GATE 6b (one frame per beat from the RE-RENDERED mp4, all 42 viewed):**
+head-state fully consistent — dark hair through c000–c003 (prosperity + the news
+arriving, pre-shave), then SHAVED bald c004→c041 with a full grey-streaked beard
+in every Job frame; ONE clean scriptural transition, no flip-flop, no beardless
+frame. GOD-NEVER-EMBODIED held (whirlwind = weather + light, no figure);
+person-free cosmic/nature beats clean (c024/c025 world-dawn, c028 mountains, c034
+sea); Pleiades seven-cluster + Orion belt accurate; four men in the b12 wide;
+losses shown as ruined feast-house at distance + grief (no bodies); realistic
+photography only (no cartoon/mix); no modern objects; no second cream figure (OT,
+no Jesus); captions bottom-band, SPEAKER-LAW colours correct (narrator white /
+Job's KJV blue / God's KJV green); closing question card clean + doctrinally sound.
+
+**AUDIO:** NOT byte-identical this cut — the God line jvA was re-voiced for the
+pronunciation fix (above). `AUDIO_FROM_V1_SEGMENTS=True` rebuilds narration from
+the V1-dir segment mp3s, so v2_assemble picked up the new jvA.mp3 and printed
+**AUDIO REBUILD PASS SHA256=7f64c18e7872592c7d8d5e051914f17d02ab76a431a4c82b015e8ac134532453**,
+258.587 s (unchanged — jvA duration-locked). New mp4 md5 `152118e1…`. Old jvA +
+timing + words.json preserved in `media-production/build-120-*/audio-oldvoice-backup/`.
+
+**COST:** 2 image edits × $0.134 ≈ **$0.27** (0 rerolls — both edits landed first
+try, 0% vs 15% budget) + 7 ElevenLabs God renders (subscription, ~$0 marginal;
+4 test + 3 install takes, all formant-validated as back vowels, best-duration take
+chosen to minimise atempo). Touch-once: pictures + audio batched into ONE re-cut
+so all three complaint items land in a single reviewer delivery. Scripts:
+`cfix_20260812_headbeard.py` (v2 build dir), `revoice_wast_install.py` +
+`revoice_wast_test.py` (V1 build dir). Per-frame backups: `assets/s18*.prebeard.bak`,
+`assets/s27*.prehead.bak`.
+
+---
+
 ## ✅ C-FIX SHIPPED — SHAVED-HEAD CONSISTENCY (Opus runner, Machine A `Dev`, 2026-08-11)
 
 **COMPLAINT LEDGER (Cameron, `v2_outline.py 120`):**
