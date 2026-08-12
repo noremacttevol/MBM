@@ -1,3 +1,23 @@
+## 2026-08-12 (cont. 81) — ROW 94 "Father Forgive Them" PICTURE C-FIX RE-OPEN: "he needs a crown of thorns … all of these pictures need to be redone … You didnt fix anything" CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
+
+**Commit:** build+beats+QC+lesson+board `3ec8528f697245b5475e4f733c3b55b922382872` (commit A); review card + this log ship in commit B this push. Chain: at session start the top entry was cont. 80 (row 82), commit `a6e48c972`/`4d550da28` present in `git log` — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 94 was the lowest OPEN complaint on the AUTHOR-BOARD.
+
+**The complaint (`v2_outline.py 94`, re-open of the 08-11 fix):** Cameron — *"In 0:54 he is smiling … fix it. The picture at 0:48 does not have the plaque over his head and his eyes look weird fix it. Also he needs a crown of thorns when he is on the cross so all of these pictures need to be redone. Also 0:37 picture has the men throwing dice but a random cross falling twords them in the back ground redo it. You didnt fix anything try again same compliants."*
+
+**TRACE (from the LIVE mp4 clip timeline c000-c011, not beat names):** 0:37 = b07/s07 (dice close); 0:48 = b09/s09 (prayer, top of cross); 0:54 = b10/s10 ("forgive them now"). Extracted every beat from the live mp4 and CONFIRMED: every readable Jesus-on-cross frame (s02/s06/s08/s09/s10) was **BARE-HEADED** — no crown of thorns anywhere. THAT is the "you didn't fix anything": the 08-11 fix only touched b09/b10 smile/eyes/plaque and never added the crown Cameron asked for.
+
+**PROMPT AUTOPSY (rubric meta-law 3):** crown of thorns → **IGNORED** (no Jesus-on-cross beat ever named a crown; sibling row 96 was given a mandatory crown on 08-11, row 94 never was). s07 falling cross → **CAUSED/ALLOWED** (scene said "in the shadow of the beam" with no beam-orientation constraint → model rendered an X of tilted overhead beams).
+
+**The fix (touch-once):** ported row 96's proven `CRUCIFIX_LOOK`/`CRUCIFIX_REJECT` (crown of woven thorns + plain loincloth + weathered titulus + open reverent eyes + no smile + cross-behind-head + ONLY-3-crosses) and applied it via a `_CRUCIFY_IDS` loop to every READABLE Jesus frame (b02/b06/b08/b09/b10); distant wides b11/b12 left untouched (Jesus a speck, crown imperceptible — cost law). s07 scene/must_not_show rewritten: one plain VERTICAL upright at the back edge, nothing tilting/falling, and anchored to the row's cold-grey bare-rock hill (first re-cut cleared the falling cross but drifted to a sunny village courtyard → 1 reroll fixed the light/setting). `--check` PASS.
+
+**Regenerated ONLY s02/s06/s07/s08/s09/s10** (6 complaint-driven, no re-pull of the 6 clean frames). **FULL-CUT GATE (§6b):** all 12 stills + closing card extracted from the RENDERED mp4 and viewed — crown of thorns present + not Ken-Burns-cropped on every readable frame, s06 a clean 3-cross (two thieves roped at the sides), s09 plaque + open eyes, s10 solemn no-smile, s07 one steady vertical beam on the grey hill. Captions bottom-band 3-colour (blue scripture / white narrator / RED Jesus j1). Card full/clean. No 2nd cream figure, no giant scale, anatomy clean, merciful distance held (no nails/blood/gore).
+
+**Audio BYTE-IDENTICAL (picture-only):** `v2_assemble` printed **AUDIO REBUILD PASS SHA256 80ff9897…** == the live cut's hash; nothing re-voiced, no window moved. New mp4 20.1 MB, 73.8s.
+
+**Cost:** 6 regens + 1 reroll = 7 gens ≈ **$0.94** (meter 605.01→605.95). Reroll 1/12 = **8.3%** (under 15%), under the $6.10/row C-FIX average. RUNNER-LESSON filed (a passion-block row must show a crown of thorns on every readable cross frame — its absence is a guaranteed re-open, even when smile/eyes/plaque were fixed).
+
+---
+
 ## 2026-08-12 (cont. 81) — ROW 89 "The Last Supper" PICTURE C-FIX RE-OPEN #2: "0:14 picture doesnt look like Jesus Redo it" CLOSED by FRESH REGEN (not another eye-edit) — Machine A `Dev` (unattended/headless)
 
 **Commit:** claim `77964a394`; fix (mp4+QC+beats_v2) `f875a4c6a64c2aeb0a33f84947dad4a29dc0e8a3` (the ship hash); card+board→SHIPPED `873218233`; RUNNER-LESSONS + this log this push. Chain: at session start the top entry was cont. 80 (row 82), commit `a6e48c972` present in `git log` — verified. Hostname = Machine A `Dev`. Complaint-first + low-number: row 89 was the lowest OPEN complaint on the AUTHOR-BOARD.
