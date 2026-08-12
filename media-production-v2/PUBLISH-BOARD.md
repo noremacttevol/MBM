@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T00:04:06_
+_Last sync: 2026-08-12T00:13:56_
 
 ## Summary
 
 - **APPROVED — not published** — 42 row(s)
-- **BUILDING** — 76 row(s)
+- **BUILDING** — 75 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 38 row(s)
+- **ON REVIEWER — awaiting Cameron** — 39 row(s)
 
 ## The rows
 
@@ -141,7 +141,7 @@ _Last sync: 2026-08-12T00:04:06_
 | 118 | Jonah and the God Who Relents | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 119 | The Fourth Man in the Fire | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 120 | Job Answered from the Whirlwind | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 121 | Salt and Light | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 121 | Salt and Light | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 122 | The Mote and the Beam | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 123 | The Golden Rule | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 124 | Love Your Enemies | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
