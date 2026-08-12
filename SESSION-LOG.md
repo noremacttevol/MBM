@@ -1,3 +1,27 @@
+## 2026-08-12 (cont. 81) — ROW 89 "The Last Supper" PICTURE C-FIX RE-OPEN #2: "0:14 picture doesnt look like Jesus Redo it" CLOSED by FRESH REGEN (not another eye-edit) — Machine A `Dev` (unattended/headless)
+
+**Commit:** claim `77964a394`; fix (mp4+QC+beats_v2) `f875a4c6a64c2aeb0a33f84947dad4a29dc0e8a3` (the ship hash); card+board→SHIPPED `873218233`; RUNNER-LESSONS + this log this push. Chain: at session start the top entry was cont. 80 (row 82), commit `a6e48c972` present in `git log` — verified. Hostname = Machine A `Dev`. Complaint-first + low-number: row 89 was the lowest OPEN complaint on the AUTHOR-BOARD.
+
+**The complaint (`v2_outline.py 89` / REVIEW-LESSONS row 89):** Cameron — *"0:14 picture doesnt look like Jesus Redo it"* (reportedAgainst `a02d9445`, the 2026-08-11 brown-iris cut). This is a RE-OPEN: history shows Cameron rejected BOTH the green original (`64293f9b`) AND the brown-iris fix (`a02d9445`).
+
+**TRACE (from the LIVE mp4, not beat names):** 0:14 = beat `v2-r089-b03` / `s03-with-desire-i-have-desired.jpeg` (jv15, window 11.54-16.42, midframe 13.67s) — the tight Jesus close-up "With desire I have desired…". Because Cameron rejected two DIFFERENT eye-states of this same frame, the defect was FACE-IDENTITY drift off the JESUS-V2-REF (rounder/heavier/generic man), NOT eye colour.
+
+**PROMPT AUTOPSY (rubric meta-law 3) — verdict CAUSED:** the b03 scene text literally read *"the wanting open and unashamed in the **warm brown** eyes"* — a positive instruction contradicting JESUS LOCK v5 ("luminous green-and-gold") and the attached ref; a sentence outranking the ref, exactly what CLAUDE.md rubric lesson 20 (2026-08-12) forbids. The 08-11 session then iris-recoloured toward brown, compounding the same lesson-20 violation. **Fix = rewrote the words** ("warm brown eyes" → "luminous green-and-gold eyes") then regenerated s03 FRESH (b03 has no rough_ref → draws purely from ref+ROOM plate). First redo came back a WIDE shot (plate dominated, failed the close-up must_show) → 1 reroll → keeper that matches the ref: long wavy bronze-highlighted hair, lean Semitic face, green-gold eyes, cream robe, disciples flanking.
+
+**LESSON-20 SWEEP (touch-once):** the 08-11 brown-iris edit also sat on s07/s11/s13 (the other tight close-ups). Cameron never flagged those and their green originals were in the cut he accepted at those seconds → REVERTED to `*.preeye.bak` green (ref-correct), **$0**. After revert they are consistent with the new s03; no brown-iris edit remains.
+
+**FULL-CUT GATE (§6b) on the RE-RENDERED mp4 — all 16 stills + closing card VIEWED: PASS.** Jesus ref-matching/cream-only/olive-skin/full-beard/no-halo every appearance; green-gold eyes now systemic across ALL close-ups (no brown outlier, no pale-blue drift); realistic throughout (no cartoon/Law-14 mix); night lighting; anatomy/hands clean; s15 doorway ~11-13 realistic (08-11 "1:17" fix holds); s16 empty table correct; captions bottom-band white-narr/red-Jesus; closing card clean.
+
+**Audio BYTE-IDENTICAL (picture-only):** `v2_assemble 89` printed **AUDIO REBUILD PASS SHA256 29a5b1d0…** == the live cut's hash; nothing re-voiced. New mp4 20.2 MB / 94.1s.
+
+**DEPLOY (§7c) live-verified:** `firebase deploy --only hosting` (npx firebase-tools) → live card `data-hash="f875a4c6a64c…"` confirmed on https://milk-b4-meat.web.app/review.html; mp4 raw URL HTTP 200, content-length 20,246,834.
+
+**Cost:** 2 s03 gens (1 wide reject + 1 keeper) = **1 reroll / 16 = 6.25%** (<15%) + 3 free reverts = **$0.27** (meter $604.74→$605.01). Under the $6.10/row average (C-FIX).
+
+**RUNNER-LESSONS filed (3):** (1) ⛔ SUPERSEDES the brown-iris lessons — never brown-edit Jesus's eyes, the V2 ref IS green/gold (lesson 20); (2) a "doesn't look like Jesus" that survived a prior eye-edit = face drift → regen fresh vs ref, revert wrongly-browned close-ups to green; (3) PROMPT AUTOPSY scans scene text for eye-colour words that outrank the ref.
+
+---
+
 ## 2026-08-12 (cont. 80) — ROW 82 "Anointing At Bethany" PICTURE C-FIX: "1:35 picture does not look like Jesus" CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
 
 **Commit:** build+beats+QC+board+QUEUE `a6e48c972f478b66ccc25e965cfff04fa0486043` (commit A); review card + board→SHIPPED + this log ship in commit B this push. Chain: at session start the top entry was cont. 79 (row 74), commit `2b38132ef` present in `git log` — verified. Hostname = Machine A `Dev`. Complaint-first + low-number: row 82 was the lowest OPEN complaint on the AUTHOR-BOARD.
