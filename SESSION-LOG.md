@@ -1,3 +1,17 @@
+## 2026-08-12 (cont. 77) — ROW 109 "Ask, Seek, Knock" C-FIX: "0:04 one guy way bigger than anyone else" — foreground-giant listener CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
+
+**Commit:** build+asset+prompt+QC+board `c7adeadbda71` (commit A); review card + this log + board→SHIPPED ship in commit B this push. Chain: prior top entry cont.76 (row 51), commit `d496e51a6`/`7c39d6aac` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 109 was the lowest OPEN complaint on the AUTHOR-BOARD.
+
+**The complaint (`v2_outline.py 109`):** Cameron — *"0:04 picture is not good, one guy is way bigger than anyone else."* Traced to the frame that RENDERS at 0:04 in the LIVE mp4: **b18 / s18-do-you-have-to-say.jpeg** (seg n1, window 2.85–4.87, "Do you have to say it just right?"). The rendered frame had a worried listener drawn as a foreground giant, dwarfing Jesus and the whole seated ring.
+
+**PROMPT AUTOPSY (rubric meta-law 3) — CAUSED + ALLOWED:** the scene opened **"Close on … an earnest listener,"** which told the model to make one listener a tight foreground subject (CAUSED the giant); and the prompt carried **no scale constraint** — the SCALE GATE (rubric lesson 14) was never present, only the anti-anatomy "two arms/two hands/one head" line — so nothing forbade a foreground giant (ALLOWED).
+
+**The fix (touch-once):** reframed the scene off the close-up → **"A balanced medium view across the seated ring … one earnest listener AMONG the others at the SAME natural scale … no oversized man filling the frame,"** plus **"Every seated figure shares one ground plane and stands within natural human height of the others — nobody bigger than the rest,"** and added the SCALE GATE to `must_not_show`. `--check` PASS (23). Regenerated ONLY s18. RENDERED mp4 @3.9s now shows the whole ring at one even natural scale — the rehearsing listener the same size as the group, Jesus an ordinary-sized man, no giant. **FULL-CUT GATE ran on all 23 frames** — only b18 was complaint-worthy, no other defect batched (b17 prior crazy-eyes fix still calm; cream-only-Jesus, anatomy, historical, captions bottom-band all clean). **Audio byte-identical** — AUDIO LOCK PASS same SHA `21d8ace3…`, 142.4s.
+
+**Cost:** 1 reroll / 23 = **4.3%** (well under 15%), ~$0.13 (meter $603.94→$604.07). Far under the $6.10/row average (C-FIX). No new RUNNER-LESSON class (scale-gate-missing-from-prompt is rubric lesson 14, already known — the autopsy just applied it).
+
+---
+
 ## 2026-08-12 (cont. 76) — ROW 51 "First Catch of Fish" C-FIX (BOAT RE-OPEN #2): "boats too small / no upright sail mast" — root-caused at the LOCK + wired the actually-empty plate, CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
 
 **Commit:** build+code+boards `d496e51a6` (commit A); review card + this log ship in commit B this push. Chain: prior top entry cont.75 (row 120), commit `c1eccfda6` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 51 was the lowest OPEN complaint on the AUTHOR-BOARD.
