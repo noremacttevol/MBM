@@ -7,16 +7,16 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T03:57:26_
+_Last sync: 2026-08-12T04:02:55_
 
 ## Summary
 
-- **APPROVED — not published** — 57 row(s)
-- **BUILDING** — 72 row(s)
+- **APPROVED — not published** — 59 row(s)
+- **BUILDING** — 71 row(s)
 - **LIVE — current** — 26 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
 - **LIVE — new cut awaits Cameron** — 1 row(s)
-- **ON REVIEWER — awaiting Cameron** — 27 row(s)
+- **ON REVIEWER — awaiting Cameron** — 26 row(s)
 
 ## The rows
 
@@ -130,7 +130,7 @@ _Last sync: 2026-08-12T03:57:26_
 | 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 107 | John the Baptist's Doubt | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 108 | My Sheep Hear My Voice | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 109 | Ask, Seek, Knock | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 109 | Ask, Seek, Knock | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 110 | The Lord's Prayer | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 111 | Lilies and Sparrows | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
 | 112 | The Beatitudes | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
@@ -141,14 +141,14 @@ _Last sync: 2026-08-12T03:57:26_
 | 117 | Hosea Buys Her Back | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 118 | Jonah and the God Who Relents | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 119 | The Fourth Man in the Fire | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 120 | Job Answered from the Whirlwind | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 120 | Job Answered from the Whirlwind | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 121 | Salt and Light | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 122 | The Mote and the Beam | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 123 | The Golden Rule | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 124 | Love Your Enemies | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 125 | I Never Knew You | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 126 | By Their Fruits | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 127 | The Strait Gate | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 127 | The Strait Gate | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 128 | Heart Far From Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 129 | Nazareth Only a Few | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 130 | What Manner of Spirit | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
