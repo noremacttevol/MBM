@@ -1,5 +1,50 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
+## §SHIPPED ✅ REALISTIC-V2 SHIPPED TO REVIEWER (Machine A `Dev`, 2026-08-12, Opus picture runner — unattended/headless)
+
+**Row 63 finished from AUTHORED → BUILT.** The Siloam audio complaint was already
+fixed at the author level (§0-FIXED below); this session did the picture runner's
+remaining steps: generated the last two stills, ran the FULL-CUT GATE, re-cut the
+one defect it caught, and shipped on the byte-identical fixed audio.
+
+### COMPLAINT LEDGER (the review card answers this in Cameron's words)
+1. **"still wrong its : si-LOH-uhm"** (Siloam) → CLOSED. Jesus's line "Go, wash in
+   the pool of Siloam" (j2) and the narrator's "He knelt at the pool of Siloam" (n5)
+   were re-voiced through ElevenLabs to say **si-LOH-am** (round-trip verified on
+   both whisper engines, no longer "Salome"); captions keep the KJV spelling
+   "Siloam". AUDIO REBUILD PASS SHA256=09854d47… is the cryptographic proof the fix
+   is in the shipped audio.
+
+### What this session did
+- **Generated the last 2 stills** b42 (s42 worship) + b43 (s43 closing walk), ~$0.27,
+  meter $602.87→$603.13. Both QC-clean first take: Jesus cream-only + identity-locked
+  (Middle-Eastern, dark wavy hair, full beard, calm eyes, no halo), anatomy/scale/
+  period correct, the abandoned-staff coda present in s43 per the beat.
+- **FULL-CUT GATE (6b):** extracted a mid-window frame per beat from the RENDERED mp4
+  (43 beats) + the 3 caption frames + closing question card, viewed every one against
+  the defect checklist + RUNNER-LESSONS + rubric. Result: CLEAN except ONE frame.
+- **ONE defect caught + fixed — s05 (b05, "notice they did not ask"):** the seated
+  blind beggar rendered in a **cream/off-white tunic** = a second-cream figure + a
+  wardrobe break (he is brown in every other frame). AUTOPSY: b05 is `jesus:False`
+  and does not pin the beggar's brown robe → generator defaulted the unpinned
+  secondary figure to cream (the "unlocked secondary figure" class). Runner cannot
+  edit the beat; ONE reroll (`--only b05 --redo`, $0.13, meter $603.13→$603.27)
+  reframed to the tight two-disciple two-shot the beat's own scene calls for ("close
+  on two disciples' faces… one hand half-raised in inquiry") — cream beggar gone,
+  both disciples earth-tone brown, no second cream figure. Re-verified in the
+  RE-RENDERED mp4 at 23.89s: clean.
+- **Rerolls: 1 / 43 beats = 2.3%** (well under the 15% budget). **Row image spend
+  ≈ $0.40** (2 new stills + 1 reroll) — far under the $6.10/row average; COST LAW
+  trend DOWN (most of the row's stills were already banked from the earlier build).
+- **AUDIO REBUILD PASS** SHA256=09854d47… (byte-identical narration — nothing
+  re-voiced this session), 247.70s, 22.0 MB, card renders clean (no tofu glyphs),
+  no dead tail (audio 247.692s = mp4 247.70s).
+- Green/hazel Jesus eyes LEFT AS-IS per rubric lesson 20 (V2 master ref is green-eyed
+  by design; never edit toward brown).
+
+---
+
+
 ## §0-FIXED ✅ AUDIO FIX DONE — Siloam complaint CLOSED (Machine A `Dev`, 2026-08-07, author lane)
 
 **Cameron's OPEN complaint (`v2_outline.py 63`): `"still wrong its : si-LOH-uhm"`
