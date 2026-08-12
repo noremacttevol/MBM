@@ -1,3 +1,23 @@
+## 2026-08-12 (cont. 97) — ROW 82 "Anointing at Bethany" C-FIX RESUME ATTEMPT #5: Cameron's "1:36 does not look like Jesus" — fix STILL STAGED (b18 friends-only, --check PASS), claimed LIVE #5, re-attempted the s18 regen TWICE (immediate + 60s) → BOTH `429 prepayment credits depleted`. THIS session actively hunted every $0 path and ruled them ALL out; the whole image board is frozen on the same depletion. $0 spent, meter $617.34, mp4 NOT reshipped. STILL BLOCKED on Cameron topping up Google AI Studio billing — Machine A `Dev` (unattended/headless, Opus RUNNER, complaint-first + low-number)
+
+**Commit:** AUTHOR-BOARD claim (LIVE #5 → PARKED-BILLING #5) + QC.md #5 park block + this log. Chain: at session start the top entry was cont. 96 (row 82 PARKED #4), commit `d9a2ebdb4` present in `git log` — verified; hostname = Machine A `Dev`. Task: PROMPT-OPUS-RUNNER complaint-first + low-number — row 82 is the lowest waiting complained row.
+
+**What I did this session (all $0):** (1) claimed `C-FIX 2026-08-12 LIVE #5`, pushed (`e2b72fb93`). (2) Re-verified staged fix — `v2_prompt.py 82 --check` = PASS, b18 friends-only + no-frontal-Jesus guard present. (3) VIEWED the live bad s18 — confirmed off-model forward-facing cream Jesus at table head = "1:36 does not look like Jesus." (4) Ran the staged regen `--only v2-r082-b18 --redo --ceiling 642.55` → `429 prepay depleted`; waited 60s, ran once more → same 429. (5) **Went beyond prior parks: actively hunted a $0 fix, VIEWING the candidate frames, and ruled out every one** — in-build substitution (s08 on-model but a REPEAT + editing the beat's `out` = hard-rail + new-complaint risk); crop-to-friends (Jesus dead-center at the head, no clean 9:16 exclusion without an awkward zoom); alternate/free key (`load_key()` reads a single `GEMINI_API_KEY`, no fallback, no Flow path); local repaint (can't do a realistic face at $0). No clean $0 fix exists.
+
+**Why still no ship — HARD EXTERNAL BLOCKER:** the one staged still needs a paid Gemini image and the prepay account is at $0 (`429 prepayment credits are depleted`, both attempts, no fallback key). No agent can manufacture credits — this is the one thing only the account owner can do. I did NOT improvise a degraded substitute and did NOT reship the current mp4 (it still carries the bad s18). Meter unchanged $617.34, $0/0 rerolls.
+
+**RESUME (unchanged — the moment Cameron tops up Google AI Studio billing, https://ai.studio/projects; one still, then assemble + ship, touch-once):**
+```
+cd media-production-v2
+python3 v2_gen_api.py build-82-anointing-at-bethany --only v2-r082-b18 --redo --ceiling <meter+25.2>
+# VIEW new s18: friends flinching, NO forward-facing cream Jesus (faceless turned cream back at most)
+python3 v2_assemble.py 82          # must print AUDIO REBUILD PASS SHA256=de0b21ab… (byte-identical)
+# FULL-CUT GATE the rendered s18 window + neighbors, then SHIP (2 commits, review.html data-hash + ?v=,
+#   firebase deploy --only hosting, live-verify HTTP 200); board Claim → C-FIX SHIPPED; publish_ledger sync
+```
+
+---
+
 ## 2026-08-12 (cont. 96) — ROW 82 "Anointing at Bethany" C-FIX RESUME ATTEMPT #4: Cameron's "1:36 does not look like Jesus" — fix STILL STAGED (b18 friends-only, --check PASS), claimed LIVE #4 and re-attempted the s18 regen TWICE (immediate + after 60s) → BOTH `429 prepayment credits depleted`. 4th consecutive session on the identical genuine depletion, $0 spent, meter $617.34, mp4 NOT reshipped. STILL BLOCKED on Cameron topping up Google AI Studio billing — Machine A `Dev` (unattended/headless, Opus RUNNER, complaint-first + low-number)
 
 **Commit:** AUTHOR-BOARD claim (LIVE #4 → PARKED-BILLING #4) + QC.md #4 park block + this log. Chain: at session start the top entry was cont. 95 (row 82 PARKED #3), commit `7a301828f` present in `git log` — verified; hostname `Dev` = Machine A. Task: PROMPT-OPUS-RUNNER complaint-first + low-number — row 82 is the lowest waiting complained row; Cameron re-triggered the resume.

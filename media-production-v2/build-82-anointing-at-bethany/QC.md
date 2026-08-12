@@ -1,5 +1,19 @@
 # QC / RUNNER HANDOFF — build-82-anointing-at-bethany (Mark 14:3-9)
 
+## ⛔ C-FIX PARKED-BILLING #5 — STILL BLOCKED ON GEMINI BILLING (Machine A `Dev`, 2026-08-12, Opus runner) — every $0 path exhausted this session
+
+**#5 CONFIRMATION (LIVE #5 claim):** re-pulled, re-verified staged fix (`v2_prompt.py --check` = PASS; b18 friends-only + no-frontal-Jesus guard at beats_v2.py:518). VIEWED the live bad s18 again (forward-facing cream man at table head, soft off-model face = Cameron's "1:36 does not look like Jesus"). Attempted the staged s18 regen `v2_gen_api.py --only v2-r082-b18 --redo --ceiling 642.55` **TWICE** (immediate + after the mandated 60 s wait) → BOTH `429 RESOURCE_EXHAUSTED — prepayment credits depleted`. **$0 spent, meter still $617.34.**
+
+**This session went further than the prior parks — I actively hunted a $0 fix and ruled out ALL of them (viewed the frames, not just trusted the note):**
+- **In-build substitution** (e.g. s08 = on-model profile Jesus + shouting critics): would (a) create a visible REPEAT and (b) edit the beat's `out`/content — hard-rail forbidden and a new-complaint risk. Rejected.
+- **Crop s18 to friends-only:** Jesus sits DEAD-CENTER at the table head; a 9:16 crop cannot exclude his face without an awkward zoomed slice that would itself draw a complaint. Geometry does not allow it. Rejected.
+- **Alternate key / free path:** `v2_gen_api.py:133 load_key()` reads a SINGLE `GEMINI_API_KEY` from the gitignored env file — no fallback key, no free tier, no Flow path in the V2 pipeline. Confirmed there is genuinely no non-paid way to make this one image.
+- **Local face repaint:** cannot realistically repaint a face at $0 (PIL/ffmpeg can't).
+
+**Verdict: the authored fix is 100% staged and correct; the ONLY remaining action is a paid Gemini regen of one still, which is impossible until the prepay account is funded. This is not homework I can hand another agent — no agent can manufacture credits. The whole image board is frozen on this same depletion (build-135 hit it at 04:11 today). Cameron topping up Google AI Studio billing (https://ai.studio/projects) unblocks THIS row and all image production.** The instant he does, run the RESUME block below (one still → assemble → FULL-CUT GATE → ship → deploy → verify); nothing else remains.
+
+---
+
 ## ⛔ C-FIX PARKED-BILLING #4 — STILL BLOCKED ON GEMINI BILLING (Machine A `Dev`, 2026-08-12) — nothing left to do but the paid regen
 
 **#4 CONFIRMATION (this session, LIVE #4 claim):** re-pulled, re-verified the staged fix (`v2_prompt.py --check` = PASS; b18 friends-only + "NO forward-facing cream Jesus / face never appears" guard present at beats_v2.py:518). Freshly **VIEWED the live bad s18** (`assets/s18-nobody-else-in-that-house.jpeg`): a forward-facing cream-robed man at the head of the table, soft/generic paler face — NOT the locked green-hazel Jesus. Confirmed = Cameron's "1:36 does not look like Jesus." Attempted the single staged regen `v2_gen_api.py --only v2-r082-b18 --redo --ceiling 642.55` **TWICE** (immediate + after the mandated 60 s wait) → BOTH `429 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted."` **$0 spent, meter still $617.34.** Re-confirmed NO $0 path: only ONE s18 asset exists (the bad Aug-7 take — no backup), no in-build still fits b18's friends-only/no-frontal-Jesus narration, and retargeting the beat would edit beat content (hard-rail forbidden). Current mp4 NOT reshipped — still carries the bad s18. Board Claim → PARKED-BILLING #4. **This is the 4th consecutive session blocked on the identical genuine prepay depletion — it can ONLY clear when Cameron tops up Google AI Studio billing (https://ai.studio/projects).** The instant he does, run the RESUME block below (one still → assemble → gate → ship → deploy); nothing else remains.
