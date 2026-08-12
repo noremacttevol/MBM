@@ -1,3 +1,57 @@
+## ✅ PICTURE C-FIX SHIPPED 2026-08-11 — "2 Jesus figures in one picture" + "bad pictjres" = SECOND-CREAM / JESUS-DOUBLE, fixed across the WHOLE cut (Machine A `Dev`, Opus runner)
+
+**Cameron's complaint (reportedAgainst live de-muffle cut `e880c0944f41`):**
+*"Voice is wrong.  Bad audio. Still sound is still wrong and off but now i see bad
+pictjres as well at 1:38, 1:50, 1:57, 2:18, 2:41, 2:52, AND 2:05 there are 2 Jesus
+figures in one picture amd needs to be fixed."*
+
+**COMPLAINT LEDGER (picture half — this is the picture lane's job; audio half handed to the audio lane, see bottom):**
+- **"2:05 — 2 Jesus figures in one picture"** → **FIXED.** 2:05 renders **s26** (`look-at-her`).
+  The frame had the true cream Jesus PLUS a second cream-robed, Jesus-featured guest
+  reclining at the head of the U-table = a Jesus-DOUBLE (RUNNER-LESSONS §300-306:
+  unlocked table-guests default to a cream Jesus look). s26 rerolled → now ONLY Jesus in
+  cream, every other guest in earth-tone wool.
+- **"bad pictjres at 1:38 / 1:50 / 1:57 / 2:18 / 2:41 / 2:52"** → **FIXED — SAME defect.**
+  Every one of those seconds lands on a wide dinner-table frame that carried the same
+  second-cream Jesus-double. Traced from the LIVE mp4 (not beat names) and, per the
+  FULL-CUT GATE, swept EVERY beat — the defect was in **11 of 36 frames**, not just the 7
+  he timestamped. All 11 rerolled to single-cream: **s01, s03, s10, s21, s22, s23, s26,
+  s28, s32, s34, s36**.
+- **Root cause:** `PLACE_REFS = {}` (no plate wired) — the second cream came purely from
+  the prompt: wide `jesus:True` table beats describe "Jesus among Simon's guests" but the
+  guests carry no wardrobe lock, so the model paints one of them as a cream Jesus-double.
+  The shared CAST-CLOSURE / no-cream clause resolved it on the reroll (test on s26 came
+  back clean first take; s05 already proved single-cream is achievable).
+
+### FULL-CUT GATE 6b (rendered new mp4, one frame per beat, all 36 viewed)
+PASS. Every frame ≤ ONE cream figure (Jesus only); Jesus face-locked + consistent; WOMAN
+dignified + identity-consistent (wine-dark dress, grey shawl, loosed dark hair); SIMON
+consistent near-black indigo; realistic photography throughout (no cartoon/mix); anatomy
+/hands/scale correct (incl. s34 whisperers, s21 Simon); captions 3-colour bottom-band only
+(white narrator / blue scripture / red Jesus); no modern objects; lamplit-night TOD held.
+
+### Cost / touch-once
+11 targeted regens, **0 re-rerolls (0% waste)**, ~$1.47 total (11 × $0.134) — far under the
+$6.10/row average; cost trended DOWN. Every one landed clean on the first take.
+
+### Audio kept BYTE-IDENTICAL to the live cut
+`AUDIO_FROM_V1_SEGMENTS` rebuild would have REVERTED the 2026-08-11 de-muffle (it EQ'd the
+final mux, not the source segments; a segment-rebuild produced the original muffled hash
+`bc45b285`). So the new video track was re-muxed with the **committed de-muffled audio
+track** — final audio md5 `ea6f1425…` == the live cut Cameron already has. No re-voice, no
+timing change, no window moved.
+
+### ⚠️ AUDIO HALF STILL OPEN → handed to the AUDIO LANE (NEEDS-AUDIO)
+Cameron also wrote *"the sound is STILL wrong and off"* — against the **already-de-muffled**
+cut. The de-muffle EQ did not satisfy him (same class as row 27: EQ can't add detail the
+source lacks). This is audio-domain and out of scope for a picture C-FIX (a re-voice moves
+timing and voids the byte-identical guarantee). AUDIO-LANE JOB: fresh ElevenLabs re-voice
+of the segments at the crisp approved settings (rows 50/70/97), atempo-locked to original
+durations so no picture window moves; re-assemble; ship with a new hash. See row-27 QC
+"RE-VOICE SHIPPED" for the exact recipe.
+
+---
+
 ## ✅ C-FIX SHIPPED 2026-08-11 — ROOT-CAUSED "Voice is wrong. Bad audio" = HF-MUFFLE (Machine A `Dev`, $0, no re-voice)
 
 **Cameron's complaint (reportedAgainst live cut `3ef2b5b65ded`):** *"Voice is wrong.  Bad audio."*
