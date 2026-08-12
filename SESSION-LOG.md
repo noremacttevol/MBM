@@ -1,3 +1,17 @@
+## 2026-08-11 (cont. 64) — VERIFY-PASS row 117 "Hosea Buys Her Back" 9th RE-FIRE — LOCAL+LIVE continuity confirmed, still CLEAN, no re-cut ($0, 0 rerolls); FLAGGED the loop-stuck-on-117 gap for Cameron — Machine A `Dev`, Opus runner, unattended/headless
+
+**Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.63 (row 71 C-FIX ship `1897b351cd59`) present in `git log` at HEAD (`1897b351c`), card commit `d69e33fbf` on top. Chain intact. Hostname `Dev` = Machine A.
+
+Row 117 is still **BUILT** (unapproved, Appr ⬜ / Post ⬜, in Cameron's Unwatched queue), **no open complaints** (`v2_outline.py 117` shows none), unmodified — mp4 md5 STILL `42d9aafe` (20843988 bytes, mtime Aug 9 15:08, not one byte moved since the build).
+
+- **Continuity (the meaningful re-fire test, $0):** (1) local mp4 md5 STILL `42d9aafe`, size 20843988; (2) live-served bytes — followed the github raw redirect to the CDN: **HTTP 200, content-length 20843988 == the exact clean bytes** (guards against a bad deploy swapping live bytes under an untouched local file — it did NOT); (3) deployed reviewer card hash STILL `f3ec4754`, wave `realistic-v2`, data-built 2026-08-09, row still BUILT.
+- **Why no re-extraction:** byte-identical to the mp4 that already has THREE independent full FULL-CUT GATE passes (38/38 beats + card CLEAN) plus two own-eyes 4-frame confirms. Byte-identical output renders byte-identical frames; a 9th extraction is provably zero new information and burns context (COST LAW).
+- **Why no re-cut:** law is explicit — NEVER re-cut a clean row; a clean, unmodified, unapproved row reaching Cameron IS the goal.
+- **Outcome:** appended a 9th board Claim stamp (`QC-OK 2026-08-11 LIVE, 9th re-fire`). $0, 0 rerolls — trends the running average DOWN. No credits, no browser, nothing deployed (nothing changed to deploy).
+- **⚠️ SYSTEMIC FLAG FOR CAMERON (next session / loop-owner should act):** the VERIFY-PASS loop is stuck on row 117 — it has now been re-fired **9 times** on the same byte-identical clean file, while the AUTHOR-BOARD shows **126 BUILT rows and only 6 (27, 51, 60, 71, 98, 117) carry ANY QC-OK/QC-VERIFY frame-check stamp**. ~120 BUILT cuts sit in the Unwatched queue with ZERO independent frame verification — that is exactly where the "quality is going down / row 11 reached me with seven bad frames" risk lives, NOT on 117. The verify effort should be redirected to the lowest-numbered unverified BUILT row that is unapproved, has no open complaint, and no filled/RUNNING claim. Did NOT unilaterally sweep them this session: the tree has concurrent autopilot lanes (PARALLEL-LANES LAW) and old approvals are void under REDO-ALL, so picking targets safely is a loop-config decision, not something to guess mid-lane.
+
+---
+
 ## 2026-08-11 (cont. 63) — SHIP row 71 C-FIX "The Great Commission": Cameron's 2 complaints ("alway"→"always" caption + 1:37 white tear on Peter) fixed in ONE touch-once re-cut, audio byte-identical — Machine A `Dev`, Opus runner, unattended/headless
 
 **Commit:** ship `1897b351cd5988704b49e0d2b6a4520e9b09f2f1` (mp4 + QC.md + beats_v2.py + AUTHOR-BOARD); review.html + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.61 (row 98 C-FIX ship `fac7c37c1dde`) present in `git log`.
