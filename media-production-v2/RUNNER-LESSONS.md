@@ -113,6 +113,13 @@ session's $0.13 mistake. Keep entries deduped and one line each.
     battery that isn't deep enough, not a truly-clean row. Before re-blocking a REPEAT
     complaint, add a test the prior battery lacked (here: spectral tilt vs approved rows).
 
+- **PROMPT AUTOPSY IS THE STANDARD REWORK (Cameron 2026-08-11): before ANY
+  reroll, read the exact prompt that made the bad frame and rule CAUSED (bad
+  wording — rewrite it) / ALLOWED (missing constraint — add it) / IGNORED
+  (generator drift — attach a reference image; words cannot pin appearance).
+  Verdict goes in QC.md; new bad-wording patterns become lessons here. Blind
+  rerolls re-run the same evidence and hope — forbidden.**
+
 ## FLEET / COLLISION — read this at CLAIM time (step 1), before you pick a row
 
 - **A SHIP must NEVER tick the QUEUE `Appr` column — that is Cameron's alone (2026-08-11, row 94 QC-VERIFY).** The realistic-v2 ship commit `29ed2667b` flipped row 94's QUEUE cells from `Prep✅ Built✅ Appr⬜ Post✅` to `…Appr✅…`, falsely marking it Cameron-approved when he had never seen it (its same-day siblings 92/93/95 correctly stayed `Appr⬜`). The harm is silent: `Appr=✅` DROPS the row from Cameron's review list ("review list = Built✅ AND Appr⬜"), so a cut that should be sitting in his queue disappears from it. When you ship a row, set `Built✅` only — leave `Appr`/`Post` exactly as they were. When QC-verifying, if you find an `Appr=✅` with no matching "NN good"/approval commit in `git log`, it is this bug: correct it back to `⬜` and note it (Cameron re-ticks if he really approved). A build session touching `Appr` is a hard-rail miss.

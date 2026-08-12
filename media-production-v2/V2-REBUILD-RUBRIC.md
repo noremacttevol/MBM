@@ -37,6 +37,25 @@ complaints i keep submitting." Therefore:
 - Every session logs $/row and reroll % in its SESSION-LOG entry against the
   running average, and explains any overage. The trend must go DOWN.
 
+
+**THE PROMPT-AUTOPSY LAW (Cameron, 2026-08-11: "you can reverse engineer what
+you said in the prompt that was wrong — make it the standard reworking
+process").** Every saved prompt is evidence. When a picture is bad, the fix
+STARTS by reading the exact original prompt that made it (beats_v2.py +
+ASSEMBLED-PROMPTS.txt) and ruling one of three verdicts:
+1. The prompt CAUSED it — a wording actively asked for the wrong thing
+   (row 15's lock literally ordered "grey and waxy" skin; row 66's beat text
+   staged the chaos he complained about). Fix: rewrite the words.
+2. The prompt ALLOWED it — nothing forbade the defect (row 13's "seen from
+   just above" allowed a grave-shaft; row 23's wide never required the crew).
+   Fix: add the missing constraint to must_show/must_not_show.
+3. The generator IGNORED it — words were right and it drifted anyway (boat
+   sizes, every recurring face). Fix: attach a REFERENCE IMAGE — words never
+   pin appearance; only pictures do.
+The verdict goes in QC.md; a new defect-wording pattern becomes a
+RUNNER-LESSONS line so the same words are never written again. Rerolling
+without an autopsy is forbidden — it re-runs the same evidence and hopes.
+
 ## What is locked
 
 - Do not modify the mobile app during this work.

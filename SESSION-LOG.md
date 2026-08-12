@@ -1,3 +1,5 @@
+## 2026-08-11 (cont. 4) — PROMPT-AUTOPSY made the STANDARD rework process (Cameron: "reverse engineer what you said in the prompt that was wrong"): rubric meta-law 3 (CAUSED/ALLOWED/IGNORED verdicts), wired into the cfix session prompt + RUNNER-LESSONS; blind rerolls forbidden. Process stack memory saved for the next chat (context handoff).
+
 ## 2026-08-12 (cont. 59) — VERIFY-PASS row 117 "Hosea Buys Her Back" 6th RE-FIRE — LOCAL+LIVE continuity confirmed, still CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, Opus, unattended/headless
 
 **Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.58 Row 93 Barabbas `693a3f5e` present in `git log` (top of history as `a2cae5721`… the row-89 spend-record commits sit above it).
