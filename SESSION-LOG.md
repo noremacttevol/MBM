@@ -1,3 +1,28 @@
+## 2026-08-12 (cont. 94) — ROW 82 "Anointing at Bethany" PICTURE C-FIX RESUME: Cameron's "1:36 does not look like Jesus" — the fix is STAGED (b18 reframed onto the flinching friends, forbids any forward-facing cream Jesus, --check PASS) but PARKED-BILLING **for the 2nd time** — Gemini prepay credits are DEPLETED again (429 persists past the 60s retry, both attempts), so the ONE off-model still (s18) STILL cannot be regenerated — Machine A `Dev` (unattended/headless, Opus RUNNER, complaint-first + low-number)
+
+**Commit:** AUTHOR-BOARD claim update (PARKED-BILLING #2) + QC.md park-refresh + this log — one commit this push. Chain: at session start the top entry was cont. 93 (row 89), commit `4f960c442` present in `git log` — verified; hostname `Dev` = Machine A. Task: PROMPT-OPUS-RUNNER complaint-first + low-number — row 82 is the lowest waiting complained row.
+
+**The complaint (`v2_outline.py 82`, OPEN, reportedAgainst live `a6e48c97`):** *"1:36 picture does not look like Jesus."* VERIFIED this session by viewing the live s18 asset directly: a cream-robed figure seated at the table head, facing the camera, reads as Jesus but is OFF-MODEL — soft/generic face, lighter skin, red-brown hair, NOT the locked green-hazel Middle-Eastern Jesus. Exactly his complaint. Trace + autopsy from cont. 92 confirmed correct (1:36 = 96s = s18/b18).
+
+**The fix is already staged (cont. 92, no API needed):** beats_v2.py b18 was rewritten to frame onto the flinching FRIENDS (the narration "Nobody else in that house would even let him say the word" is about the *house*, not Jesus) with an explicit guard — "NO forward-facing cream-robed man; Jesus's face never appears here; a turned-away faceless cream back at most." `v2_prompt.py build-82 --check` = PASS (25 beats, v4 checklist). AUTOPSY verdict = ALLOWED (b18 is jesus:False/ref:False but its old scene said "their teacher," summoning an unlocked off-model Jesus).
+
+**Why it could NOT ship this session — HARD EXTERNAL BLOCKER:** regenerating s18 needs one paid Gemini image, and the API returns `429 RESOURCE_EXHAUSTED — "prepayment credits are depleted"` on both attempts (retried once after 60s per protocol; persists). A build-135 lane got the last dregs at ~04:11 today, then it depleted again — there is currently $0 to spend. Unlike row 89 (which had a proven-good `.preeye.bak` to restore at $0), s18 has NO good backup, and no other in-build frame fits the b18 friends-only narration (s06 shows the woman+jar, wrong moment), so a $0 asset-restore is impossible — this frame REQUIRES a paid regen. I did NOT improvise a substitute (runner hard rail) and did NOT reship the current mp4 (it still carries the bad s18).
+
+**RESUME (the moment Cameron tops up Google AI Studio billing — https://ai.studio/projects — one still, then assemble + ship, touch-once):**
+```
+cd media-production-v2
+python3 v2_gen_api.py build-82-anointing-at-bethany --only v2-r082-b18 --redo --ceiling <meter+25.2>
+# VIEW new s18: friends flinching, NO forward-facing cream Jesus (faceless turned cream back at most)
+python3 v2_assemble.py 82          # must print AUDIO REBUILD PASS SHA256=de0b21ab… (byte-identical)
+# FULL-CUT GATE the rendered s18 window + neighbors, then SHIP (2 commits, review.html data-hash + ?v=,
+#   firebase deploy --only hosting, live-verify HTTP 200); review card answers "1:36 does not look
+#   like Jesus" in his words; board Claim -> C-FIX SHIPPED; publish_ledger.py sync --commit
+```
+
+**Cost:** $0 Gemini (0 successful gens, meter unchanged $617.34), 0 rerolls. **The one action that unblocks his complaint is Cameron topping up Google AI Studio billing** — everything else (trace, autopsy, code fix, --check) is done and waiting.
+
+---
+
 ## 2026-08-12 (cont. 93) — ROW 89 "The Last Supper" PICTURE C-FIX #3: Cameron's 3rd 0:14 "doesnt look like Jesus / redo with the character reference" CLOSED at $0 — the #2 "fresh regen" had drifted to a PALE/EUROPEAN "white Jesus"; restored the olive-brown Middle-Eastern locked-ref face (proven-good preeye.bak) + hardened the b03 prompt so it can't drift pale again — SHIPPED despite depleted billing (no API needed) — Machine A `Dev` (unattended/headless, Opus RUNNER, complaint-first + low-number)
 
 **Commit:** mp4 (force-add) + s03 asset (force-add) + beats_v2.py b03 hardening + QC.md + AUTHOR-BOARD SHIPPED in commit A `adc28f63e6c15d1508afe1d4dbbe40f966cac2e9` (pushed); review.html card repoint (data-hash `adc28f63…`, ?v=`adc28f63e6c1`, flag answering the complaint in his words) + this log in commit B this push. Chain: at session start the top entry was cont. 91 (row 74), commit `ef83f61a3e39…` present in `git log` — verified; hostname `Dev` = Machine A. Task: PROMPT-OPUS-RUNNER complaint-first + low-number — Cameron filed a NEW complaint against the CURRENT live cut of AUTHOR-BOARD row 89 (lowest waiting complained row), outranking all other work.
