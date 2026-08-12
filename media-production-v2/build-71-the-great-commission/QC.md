@@ -38,18 +38,37 @@ each against the RENDERED mp4, not beat names:
   realistic. VERIFIED in rendered mp4 @97s — no tear.
 
 **FULL-CUT GATE 6b (all 21 beats + card, one frame per beat from the RENDERED
-mp4):** CLEAN. Verified: empty-cross off-screen crucifixion (b01), no-wire tomb
-(b12), cream-only-Jesus every appearance, ordinary Jesus scale in every
-multi-figure frame, green eyes consistent across all Jesus close-ups (b07/b10/
-b17 — this is the intended `JESUS_LOCK_V5` "luminous green" standard, NOT drift,
-so untouched per COST LAW), prior-C-FIX rerolls still good (b16 upright group,
-b20 soft leather scripture, b21 ancient dirt-path descent), captions bottom-band
+mp4) — caught + batched a THIRD defect Cameron did not name (before he could):**
+the three tight Jesus close-ups **b07/b10/b17 had pale glassy GREEN irises** with
+a bright catch-light — the exact "wrong-Jesus" look rows 89 and 98 (both today)
+rejected and edited to warm brown. This VIOLATES CLAUDE.md law 8(g) ("warm brown
+eyes… NEVER pale/blue") and the one-locked-face-across-every-video law (Law 5/6):
+leaving row 71 green while 89/98 ship brown = Jesus with different eyes between
+videos. ROOT CAUSE = a LOCK BUG: `v2_prompt.py` JESUS_LOCK_V5 still literally
+specifies "luminous GREEN eyes" (lines ~953/971/992), so EVERY v2 row generates
+green and needs this manual fix — **flagged to Cameron to correct the lock to
+warm brown at source** (else all 200 rows keep needing it). FIX = the row-89/120
+iris edit (`_eye_edit.py`, gemini-3-pro-image): fed each finished still back,
+"recolour ONLY the irises to warm medium brown, remove the pale/greenish cast +
+catch-light, keep every other pixel identical." All THREE edited together (a lone
+brown among green = Law-14 mix). Backups `assets/*.preeye.bak`. Verified in the
+re-rendered mp4: b07/b10/b17 warm brown, consistent with each other + the group
+shots (small/dark eyes) + rows 89/98; robe/hair/hands/wrist-mark/background/pose
+all identical (edit changed only the irises). Group shots (b03/b04/b05/b06/b09/
+b13/b14) left as-is — eyes too small/dark to read colour on screen (per lesson).
+
+**Rest of the FULL-CUT GATE:** CLEAN — empty-cross off-screen crucifixion (b01),
+no-wire tomb (b12), cream-only-Jesus every appearance, ordinary Jesus scale in
+every multi-figure frame, prior-C-FIX rerolls still good (b16 upright group, b20
+soft leather scripture, b21 ancient dirt-path descent), captions bottom-band
 3-colour correct (white narrator / red jv18-jv19-jv20 Jesus), question card
 clean. No modern object, no 2nd cream figure, no anatomy fail, no lens-stare.
 
-**COST:** 1 reroll / 21 beats = **4.8%** (well under the 15% budget) + 0
-portraits = 1 image ≈ **$0.13**; meter $599.92→$600.05. Touch-once: both open
-complaint items batched into ONE re-cut. Trends the running average DOWN.
+**COST:** 1 reroll (b18) + 3 iris edits / 21 beats = 4 paid images ≈ **$0.53**;
+reroll rate 4.8% (well under the 15% budget); meter $599.92→$600.45. Touch-once:
+both named complaints AND the gate-caught eye defect batched into ONE re-cut
+(Cameron reviews the finished cut once). Under the ~$1.2 C-FIX norm; trend DOWN.
+**AUDIO byte-identical throughout — the 3 eye edits + 1 reroll are picture-only.**
 
 ---
 
