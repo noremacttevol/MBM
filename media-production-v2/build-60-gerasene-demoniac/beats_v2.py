@@ -112,6 +112,15 @@ LOCKS = {
 
 REF = True
 
+# C-FIX 2026-08-11 (Cameron: "2:39 that doesnt look like the man Jesus just
+# healed — the whole rest of the video has been showing him with black hair").
+# The MAN lock text was correct (black hair/beard) but rendered TEXT-ONLY, so
+# the prior Jesus-eyes reroll of b28 drifted the healed man to light sandy hair.
+# Wire the accepted black-haired MAN portrait as an IMAGE character lock (the
+# author's intended-but-skipped step, see CAST-REF note above) so his identity
+# is anchored by picture, not prose.
+REFS = {"MAN": "CAST-REF-V2/man.jpeg"}
+
 BEATS = [
     {
         "id": "v2-r060-b01", "out": "s01-the-far-shore-at-first-light.jpeg", "seg": "n0 p1",
@@ -655,6 +664,10 @@ BEATS = [
         "id": "v2-r060-b28", "out": "s28-sitting-at-his-feet.jpeg", "seg": "n7 p2",
         "window": "157.02-164.45", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MAN", "SHORE", "TOWN"],
+        # C-FIX 2026-08-11: reroll 1 kept a rough draft of the old light-haired
+        # frame and the hair drifted grey/brown toward the draft. Dropped the
+        # draft; identity now comes ONLY from the FACE + black-haired MAN
+        # character locks + the scene text, so the healed man renders black.
         "narration": ("And what they found was the man they had chained "
                       "and lost and buried in their memory — sitting "
                       "quietly at the feet of Jesus."),
