@@ -1193,3 +1193,19 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   garbled legible Latin ("KICEIDE", "TVREI-TOM"). Spec "an aged placard, worn indistinct ancient
   marks, no readable modern word" and expect one reroll; do not chase faint pseudo-lettering past
   the 2-reroll cap — FIX-WAVE it (background object, not a Cameron complaint about text).
+
+- **A "SHIPPED" label in QUEUE/QC/AUTHOR-BOARD is NOT proof the reviewer serves
+  that cut — a VERIFY-PASS must curl the LIVE card (2026-08-12, row 121).** The
+  2026-08-09 session committed row 121's realistic-v2 mp4 to the warehouse
+  (`media-production-v2/…`, blob `551bfcc0`) and wrote "REALISTIC V2 SHIPPED TO
+  REVIEWER" in QUEUE + QC, but never executed step 7b/7c — the `v121` card still
+  pointed at the OLD 2026-07-28 V1 cut (`data-hash=cb1b23f6…`, `media-production/`
+  path, no `data-review-wave="realistic-v2"`), and the site was never redeployed.
+  So Cameron's Unwatched queue served the OLD cartoon/mixed cut under a "shipped"
+  label — exactly the row-17 served-bytes trap, but caused by a SKIPPED card
+  repoint rather than a broken `git add`. On ANY QC-VERIFY: `curl` the live card
+  and confirm data-hash + `realistic-v2` wave + vslot PATH all point at the
+  `media-production-v2` mp4, then md5-compare the served bytes to local. If the
+  card serves the OLD cut, the pictures can be perfectly clean and the row is
+  still NOT delivered — complete the ship ($0, byte-identical, no re-cut): repoint
+  the card, deploy, live-verify.
