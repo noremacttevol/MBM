@@ -1,5 +1,32 @@
 # QC / RUNNER HANDOFF — build-51-first-catch-of-fish (Luke 5:1-11)
 
+## 🛠 C-FIX SHIPPED — 2026-08-12 (Machine A `Dev`, UNATTENDED/HEADLESS) — WHITE TEARS + BOAT SIZE + MISSING MAST (RE-OPEN #3)
+
+**COMPLAINT LEDGER (Cameron, vs live cut 60c310e7 == served md5 == card d496e51a):**
+> "1:29 picture has white tears remove it. 1:10, 1:15, & 1:20 those boats are too big, fix it. 1:41 doesn't have a sail mast."
+
+TRACE (from the live mp4 clip timeline, not beat names — 26 clips 1:1 with 26 beats, c0NN=b(NN+1)):
+- **1:29 (89s) → c018 = b19 / s19-not-thank-you** — white tears on Simon → FIXED (dry-eyed).
+- **1:10 (70s) → c013 = b14 / s14-the-net-began-to-tear** — boat too big → FIXED (natural scale).
+- **1:15 (75s) → c014 = b15 / s15-too-many-for-one-boat** — boat too big → FIXED (natural scale).
+- **1:20 (80s) → c015 = b16 / s16-they-waved-for-help** — near boat looming/too big → FIXED (natural scale, no foreground wall).
+- **1:41 (101s) → c020 = b21 / s21-kneeling-in-fish** — no sail mast → FIXED (tall upright mast now visible).
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- WHITE TEARS (s19) — **CAUSED**: b19 scene said Simon's "eyes are wide and **wet**"; no tear-ban → model painted white tear-streaks (row 71/74 defect class). FIX: "wet"→"stricken"; must_not_show now bans ALL tears/tear-tracks/wet-or-white streaks.
+- FULL-CUT GATE caught the SAME white-tear defect Cameron did NOT time on **s20 (1:36)**, **s22 (1:50)**, **s24 (~1:52)** — b22 scene literally said "tear-tracks cutting the salt," b24 said "tear-streaked" (CAUSED); b20 had no ban (ALLOWED). Shipping only s19 would have re-opened → all four rebuilt tear-free in this ONE touch-once re-cut (row-11 lesson).
+- BOATS TOO BIG (s14/s15/s16) — **ALLOWED**: the close-up beats carried the BOATS lock/plate (a correct ~8m masted boat) but gave NO scale guidance, so the tight low-angle framing ballooned the hull into a towering galleon that dwarfed the men. The PLATE is right; the generations over-scaled. FIX: added "BOAT SCALE READS NATURAL — men are the largest thing in frame, gunwale ~waist height, NEVER a towering high-sided ship" to b14/b15; anti-loom clause to b16.
+- NO MAST (s21) — **ALLOWED**: unlike b16/b17, b21's must_show never required a mast, so the wide framing dropped it. FIX: added "AT LEAST ONE boat's TALL UPRIGHT mast visible" to b21.
+
+**RE-QC / RE-ROLLS:** first fix-gen of s20 drifted the JESUS FACE (off-model younger/browner — #1 face law) → rerolled to canonical Jesus (matches s22/s24). s15 twice rendered a grey-bearded heavyset Simon (drift vs the lean dark-haired peter-ref) → added explicit Simon-identity clause + reroll #2 landed Simon turned-to-net (dark hair, lean, no legible mismatch). Net rerolls beyond the 8 named-fix regens: 3 (s20 Jesus, s15 ×2) = 11.5% of 26 beats — inside the 15% budget; all were identity-law fixes, not drift-chasing.
+
+**FULL-CUT GATE 6b:** all 26 beats + 3 caption frames + question card viewed from prior live cut; 8 rebuilt frames re-verified from the RENDERED mp4 — natural boat scale + upright masts, zero tears, Jesus one canonical cream-only face, no 2nd cream figure, anatomy/hands clean, captions bottom-band (white narrator / blue scripture s5,s8,s20), clean question card.
+
+**AUDIO:** BYTE-IDENTICAL — AUDIO REBUILD PASS SHA256 e82b1aaf (same as prior ship); pictures-only re-cut, no window moved.
+**COST:** 8 fix regens + 3 identity rerolls = 11 gens ~$1.47, meter $607.42. 0 audio spend.
+
+---
+
 ## 🛠 C-FIX SHIPPED — 2026-08-12 (Machine A `Dev`, UNATTENDED/HEADLESS) — BOAT MAST/SIZE (RE-OPEN #2)
 
 **COMPLAINT LEDGER (this re-cut's open complaint):**

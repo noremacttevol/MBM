@@ -389,7 +389,7 @@ BEATS = [
         "narration": ("A great shining mass of fish, far more than the ropes "
                       "were made to hold, and the net began to tear under "
                       "the sheer weight of it."),
-        "must_show": "v6 — the net at the surface bulging with silver fish, flax strands visibly parting; the men heaving with everything they have.",
+        "must_show": "v6 — the net at the surface bulging with silver fish, flax strands visibly parting; the men heaving with everything they have. BOAT SCALE READS NATURAL: the two men are clearly the largest thing in frame — the gunwale they bend over sits about waist height, the hull is a modest low-freeboard Galilee fishing boat, NEVER a towering high-sided ship or oversized galleon that dwarfs the men.",
         "must_not_show": "the fish stay IN the water and net at this beat — not heaped in the boat yet.",
         "scene": (
             "Simon and the crewman haul side by side, backs bent double "
@@ -408,7 +408,7 @@ BEATS = [
         "window": "74.20-75.85", "wide": False, "jesus": False, "ref": False,
         "locks": ["SIMON", "CREWMAN", "LAKE", "BOATS"],
         "narration": "There were too many for one boat.",
-        "must_show": "the problem of abundance — fish coming over the gunwale in a silver spill, the boat already listing.",
+        "must_show": "the problem of abundance — fish coming over the gunwale in a silver spill, the boat already listing. The bearded fisherman IS SIMON — the SAME lean dark-haired, dark-bearded man of about 40 as the Simon reference, NOT old, NOT grey-bearded, NOT heavyset. BOAT SCALE READS NATURAL: the men are clearly the largest thing in frame — the gunwale sits about waist height, the hull is a modest low-freeboard Galilee fishing boat, NEVER a towering high-sided ship or oversized galleon that dwarfs the men.",
         "must_not_show": "the boat lists but does not swamp yet.",
         "scene": (
             "The catch comes over the side in a broad silver spill as both "
@@ -427,8 +427,8 @@ BEATS = [
         "locks": ["CREWMAN", "LAKE", "BOATS"],
         "narration": ("They waved to their partners, James and John, in the "
                       "other boat to come and help,"),
-        "must_show": "THE BOATS MATCH THE BOAT REFERENCE EXACTLY: the same two LARGE masted Galilee fishing boats every frame - Peter's boat has a MAST (sail furled), high stem posts, ~8 meters, and the partner boat is the SAME build and SAME size; boat scale stays constant against the men. v7 — the beckoning: arms up signalling across the water; the far boat already pulling toward them.",
-        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless hull for either boat, never a boat smaller or bigger than the BOAT reference. shouting distance is too far — the SIGNAL is the communication.",
+        "must_show": "THE BOATS MATCH THE BOAT REFERENCE EXACTLY: the same two LARGE masted Galilee fishing boats every frame - Peter's boat has a MAST (sail furled), high stem posts, ~8 meters, and the partner boat is the SAME build and SAME size; boat scale stays constant against the men. v7 — the beckoning: arms up signalling across the water; the far boat already pulling toward them. NATURAL SCALE: the near boat must NOT loom as a giant wall filling the frame — hold both boats at true modest ~8m fishing-boat scale with the men clearly in proportion, gunwale about waist height.",
+        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless hull for either boat, never a boat smaller or bigger than the BOAT reference. the near boat must not tower or loom oversized in the foreground. shouting distance is too far — the SIGNAL is the communication.",
         "scene": (
             "The young crewman stands braced on the fish-slicked "
             "deck, the camera off the beam holding both boats in "
@@ -489,12 +489,12 @@ BEATS = [
         "narration": ("He did not feel worthy of any of it, and what came "
                       "out of him was not thank you."),
         "must_show": "close on Simon's stricken upturned face — the wonder curdling into unworthiness.",
-        "must_not_show": "not fear of danger — fear of holiness; there is a difference and it lives in the eyes.",
+        "must_not_show": "not fear of danger — fear of holiness; there is a difference and it lives in the eyes. NO tears, NO tear-tracks, NO wet or white streaks running down his cheeks, no painted tear lines — the fear lives in the wide eyes, the brow and the open mouth, never in tears on the skin.",
         "scene": (
             "A tight shot of Simon's upturned face from just above: the "
             "triumph a fisherman should be wearing on the best morning of "
             "his life is nowhere in it — instead his eyes are wide and "
-            "wet and frightened in a way deep water never frightened him, "
+            "stricken and frightened in a way deep water never frightened him, "
             "his mouth already forming words that are the opposite of "
             "thank you. Bright sun, silver fish blurred beneath him. "
             "Exactly one person is in the frame, with one head."
@@ -506,7 +506,7 @@ BEATS = [
         "locks": ["SIMON"],
         "narration": "Depart from me; for I am a sinful man, O Lord. (Luke 5:8)",
         "must_show": "v8 — the sentence itself: Simon at Jesus's knees begging him to leave, and Jesus not moving an inch.",
-        "must_not_show": "Jesus's face holds no offence and no pity-from-above — level, warm, staying.",
+        "must_not_show": "Jesus's face holds no offence and no pity-from-above — level, warm, staying. On Simon: NO tears, NO tear-tracks, NO wet or white streaks running down his cheeks, no painted tear lines — the brokenness lives in the eyes and the lifted broken face, never in tears on the skin.",
         "scene": (
             "Low in the fish-heaped stern, Simon kneels with his fists "
             "knotted in the cloth at Jesus's knee, face lifted and broken "
@@ -524,7 +524,7 @@ BEATS = [
         "narration": ("Go away from me, Lord. On the best morning of his "
                       "working life, kneeling in fish, the first thing he "
                       "wanted was distance."),
-        "must_show": "the whole strange picture — wealth heaped to the thwarts, and the man who caught it on his knees asking its giver to leave.",
+        "must_show": "the whole strange picture — wealth heaped to the thwarts, and the man who caught it on his knees asking its giver to leave. AT LEAST ONE boat's single TALL UPRIGHT wooden mast is clearly visible rising well above the gunwale with its sail furled — never an entirely mastless frame. NATURAL SCALE: modest ~8m Galilee fishing boats, the men clearly in proportion, no towering oversized hull.",
         "must_not_show": "the other three men frozen where they stand, staring — nobody moves during this.",
         "scene": (
             "A wider frame of the lashed boats riding low: Simon kneels "
@@ -545,10 +545,10 @@ BEATS = [
         "narration": ("The wonder of it had shown him exactly who he was, "
                       "and exactly who this was."),
         "must_show": "the double recognition — Simon's raised eyes seeing Jesus truly for the first time.",
-        "must_not_show": "no halo, no glow, no rim-light on Jesus; the revelation is in Simon's eyes, not the lighting.",
+        "must_not_show": "no halo, no glow, no rim-light on Jesus; the revelation is in Simon's eyes, not the lighting. On Simon: NO tears, NO tear-tracks, NO wet or white streaks running down his cheeks, no painted tear lines — the recognition lives in the eyes, never in tears on the skin.",
         "scene": (
-            "A close two-shot: Simon's face has come up again, tear-tracks "
-            "cutting the salt on his cheeks, and his eyes have changed — "
+            "A close two-shot: Simon's face has come up again, dry-eyed but "
+            "stricken, and his eyes have changed — "
             "the fear still in them, but underneath it the dawning, "
             "unbearable recognition of exactly whose boat he has been "
             "arguing about fish in — while Jesus's calm face holds his "
@@ -585,12 +585,12 @@ BEATS = [
                       "very man he wants, and from this day on he will be "
                       "gathering people, not fish."),
         "must_show": "Simon being raised — Jesus drawing him up from the fish to his feet, face to face, the call replacing the fear.",
-        "must_not_show": "Simon's trembling is not gone — he rises shaking, and comes anyway.",
+        "must_not_show": "Simon's trembling is not gone — he rises shaking, and comes anyway. NO tears, NO tear-tracks, NO wet or white streaks running down his cheeks, no painted tear lines — the fear-and-calling lives in the eyes, never in tears on the skin.",
         "scene": (
             "In the low-riding boat Jesus has risen to his feet on the "
             "deck and grips Simon's forearm, drawing the big man up out "
             "of the heaped silver fish — Simon coming up unsteady, "
-            "knee-deep in the catch, his tear-streaked face a hand's "
+            "knee-deep in the catch, his stricken dry-eyed face a hand's "
             "breadth from Jesus's own, fear and calling fighting it out "
             "in his eyes and the calling winning. Both men fully inside "
             "the hull, the bright lake wide behind them. Exactly two "
