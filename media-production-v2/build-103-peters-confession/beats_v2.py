@@ -168,7 +168,7 @@ BEATS = [
             "others, Jeremias, or one of the prophets."
         ),
         "must_show": "SCRIPTURE-EXACT: the answers offered — the ring animated with the reporting: fingers counting the names, voices overlapping; Jesus listening quietly at the centre.",
-        "must_not_show": "no halo, glare or rim-light; the reports EAGER — a market of borrowed opinions, cheerfully traded.",
+        "must_not_show": "no halo, glare or rim-light; the reports EAGER — a market of borrowed opinions, cheerfully traded. Jesus's EYES clear, healthy and symmetrical — both irises aligned and looking the same calm direction; NEVER crossed, divergent, wall-eyed, milky, or misfocused.",
         "scene": (
             "The answers tumble in from "
             "every side: JOHN THE "

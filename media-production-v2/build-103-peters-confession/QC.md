@@ -180,3 +180,91 @@ not remade with the character ref in this."*
 0 images rerolled beyond the 6 planned regens. **6 regens / 20 beats; 0 extra
 rerolls = 0% reroll budget used.** ~$0.81 this run (meter $499.55 → $500.36).
 Well under the $6.10/row average; touched the row ONCE. COST-LAW trend DOWN.
+
+---
+
+## RUNNER PARK 2026-08-12 → NEEDS-AUDIO  (Opus picture runner, Machine A `Dev`)
+
+Cameron re-filed a **2-part complaint** on the live cut (card hash `1d1f7c43`,
+local md5 `3042a484` == live-served bytes — provenance confirmed). His words
+(`v2_outline.py 103`):
+
+> "This is where peter got his name but it called him simon before. At first you
+> call him simon peter before Jesus even gives him the name peter. It should just
+> be simon then jesus calls him simon barjona and then peter, not simon peter to
+> begin with.  0:28 jesus eyes are messed up redo that picture"
+
+This is a MIXED complaint. The **picture half is DONE this session**; the
+**naming half is AUDIO-domain and is parked here for the audio lane** (exactly
+the row-74 pattern: runner owns the picture, audio lane owns the re-voice).
+
+### COMPLAINT LEDGER
+| # | Complaint | Domain | Status |
+|---|-----------|--------|--------|
+| A | 0:28 "jesus eyes are messed up redo that picture" | PICTURE | ✅ DONE + STAGED this session |
+| B | "simon peter" said before Jesus renames him — should be just "Simon" until the rename | AUDIO (narrator re-voice) | ⏳ PARKED → audio lane |
+
+### A — PICTURE HALF (DONE, do not redo)
+- TRACE: 0:28 → mid-window of **beat v2-r103-b05** (seg s14, window 23.28-30.06,
+  `s05-some-say-that-thou-art.jpeg`). Extracted 0:28 from the LIVE mp4 and
+  confirmed Jesus's eyes were **divergent / misaligned** (two eyes pointing
+  different directions — classic wonky-eye render).
+- PROMPT AUTOPSY (rubric meta-law 3): **ALLOWED.** b05 attaches the Jesus face
+  REF (identity anchor) + an anti-anatomy clause ("two arms, two hands, one
+  head") but had **no eye/gaze constraint**; the REF locks features, not
+  per-render eye alignment, and Jesus is a mid-scene seated figure the model
+  under-resolved. FIX = added the missing constraint to b05 `must_not_show`:
+  *"Jesus's EYES clear, healthy and symmetrical — both irises aligned and
+  looking the same calm direction; NEVER crossed, divergent, wall-eyed, milky,
+  or misfocused."*  `v2_prompt.py --check` PASS after the edit.
+- Regenerated ONLY b05 (`--only b05 --redo`, ~$0.13, meter $602.73→$602.87).
+  New `assets/s05-some-say-that-thou-art.jpeg` **verified**: eyes now aligned
+  (three-quarter profile, both looking the same calm direction), identity locked
+  (Middle-Eastern, dark wavy hair, full beard, warm brown eyes, cream-only), no
+  halo, CLIFF setting held. The fixed still is **STAGED in assets/** — it will
+  bake into the cut on the next full re-assemble.
+- FULL-CUT GATE (6b) run on the CURRENT rendered mp4, all 20 beats + card:
+  every frame CLEAN except b05 (now fixed). No other picture defect to batch —
+  b05 is the only picture change.
+
+### B — AUDIO HALF (audio lane, per-row authority = this note)
+The narrator says "Simon Peter" BEFORE Jesus renames him. Both offending words
+are in the NARRATOR voice (modern paraphrase, NOT verbatim scripture — so they
+may be reworded; the prior QC "no change needed" note is **superseded** by
+Cameron's explicit re-complaint). Fix `make_narration.py` SEGMENTS text +
+re-voice ONLY these two narrator segments:
+
+- **np**: `'And Simon Peter answered him.'` → `'And Simon answered him.'`
+- **n5**: `'Not a prophet. Not a teacher. Peter said out loud the thing the
+  others had only half-dared to hope.'` → `'Not a prophet. Not a teacher. Simon
+  said out loud the thing the others had only half-dared to hope.'`
+
+(Leave every LATER "Peter" alone — jv17 "Simon Barjona" and jv18 "thou art
+Peter" ARE the naming moment Cameron wants; the closing card's "Peter" is after
+the rename, so it stays. The captions come from the same SEGMENTS, so this one
+edit fixes BOTH the spoken word and the on-screen caption.)
+
+ENGINE: delivered narrator segments are **ElevenLabs, 44100 Hz / 128 kbps**
+(the `mbm_speakers` edge voices are the retired fallback). Re-voice np + n5
+through the SAME ElevenLabs narrator (Brian) as the other narrator segments —
+edge-tts is banned here.
+
+WINDOW-PRESERVE: np original dur **1.6718s**, n5 **6.1649s**. Atempo-lock each
+re-voiced segment to its original duration (the rows-22/27 technique) so **NO
+beats_v2 picture window moves** — then no re-timing is needed and the staged
+b05 lands on its existing 23.28-30.06 window. `AUDIO_FROM_V1_SEGMENTS = True`.
+
+ASSEMBLE: run `v2_assemble.py 103` **without `--resume-base`** so base.mp4 is
+rebuilt from assets/ (this is what carries the already-fixed b05 into the cut).
+Expect AUDIO REBUILD PASS with a NEW hash (audio genuinely changed — expected).
+Then FULL-CUT GATE the rendered mp4 (b05 eyes + the two re-voiced captions),
+ship + deploy + live-verify. ONE combined cut closes BOTH halves.
+
+REVIEW CARD (Cameron's words): "Fixed — he's just 'Simon' until Jesus names him
+(Simon Barjona, then Peter), and Jesus's eyes at 0:28 are redone."
+
+WHY NOT SHIP A PICTURE-ONLY CUT NOW: the naming defect is spoken narration; a
+"fixed" cut where he still HEARS "Simon Peter" would repeat a filed complaint
+(the worst failure). The naming re-voice needs a re-assemble anyway, and that
+same re-assemble carries the staged b05 — so ONE audio-lane ship closes both
+(touch-once), and no cut ever ships with his complaint still in it.
