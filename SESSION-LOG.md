@@ -1,3 +1,18 @@
+## 2026-08-11 (cont. 67) — ROW 94 C-FIX "Father, forgive them": Cameron's 2 complaints (0:54 Jesus smiling on the cross + 0:48 no plaque over his head & eyes look weird) CLOSED in ONE touch-once re-cut — Machine A `Dev`, Opus runner (complaint-first + low-number, unattended/headless)
+
+**Commit:** ship commit `849e49724f22e9a7c0e51696002869a2f81a0f4f` (mp4 + beats_v2 + QC.md + boards + api-spend); review.html + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.65 (loop repair) commit `ca5294aa8` present in `git log`; HEAD was `7505e480a` (row 119 claim). Hostname `Dev` = Machine A. Row 94 was the lowest waiting complained row (COMPLAINT-FIRST + LOW-NUMBER).
+
+Cameron's complaint (`v2_outline.py 94`): *"In 0:54 he is smiling, i dont think he smiled on the cross its offputting, fix it. The picture at 0:48 does not have the plaque over his head and his eyes look weird fix it."* Both PICTURE-domain → re-cut, not audio.
+
+- **TRACE (windows from the segs, not beat names):** 0:48 → **b09** (s09, 46.08–50.41s); 0:54 → **b10** (s10, 50.41–56.38s). Extracted both from the LIVE mp4 (local md5 == live served bytes 19877208) and confirmed: b09 had a bare cross-top + eyes rolled up; b10 Jesus visibly smiling with bared teeth (and, bonus, fully robed while b06/b09 were stripped).
+- **PROMPT AUTOPSY:** titulus **IGNORED** (scene never named it though b06 already carried one — presence-inconsistency); smile / weird-eyes / robe-swap all **ALLOWED** (no constraint in the beat text). Rewrote beats_v2 b09/b10: added the weathered titulus placard above his head + open/calm/lifted eyes; forbade smile/grin/bared teeth; stripped b10 to a loincloth to match. `v2_prompt --check` PASS before spend.
+- **FIX:** regen only b09/b10 (`--only b09 b10 --redo --ceiling 626`), ~$0.27, meter 600.72. Both new stills QC'd, then re-extracted from the RENDERED mp4 at 48s/54s — titulus present, solemn faces, no smile, consistent stripped wardrobe, merciful distance/no-gore held, no 2nd cream figure.
+- **FULL-CUT GATE (6b):** all 12 stills + closing card viewed from the rendered mp4; only b09/b10 changed (rest byte-identical), NO other complaint-worthy defect (row-11 lesson satisfied).
+- **Audio:** AUDIO REBUILD PASS SHA256=80ff9897… byte-identical to the prior ship (nothing re-voiced), 73.8s/19.7MB.
+- **Ship:** reviewer card v94 repointed (data-hash 849e4972…, ?v=849e49724f22, "what changed" answers both complaints in his words), deployed, live-verified. Cost trends the running average DOWN (~$0.27 vs $6.10). 2 rerolls = exactly the 2 complaint frames.
+
+---
+
 ## 2026-08-11 (cont. 66) — ROW 119 C-FIX "bow STILL mispronounced": the 08-09 audio fix REGRESSED a correct take — $0 revert, formant-proven — Machine A `Dev`, Opus runner (complaint-first, unattended/headless)
 
 **Commit:** commit A `3ab3fd572607` (mp4 + build files + boards); review.html/REVIEW-LESSONS/SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.65 (loop repair) commit `ca5294aa8` present at HEAD. Hostname `Dev` = Machine A.
