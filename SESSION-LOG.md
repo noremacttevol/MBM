@@ -1,3 +1,16 @@
+## 2026-08-11 (cont. 69) — VERIFY-PASS row 118 "Jonah — God Who Relents": FULL-CUT GATE re-run before Cameron's eyes reached it, CLEAN, no re-cut ($0, 0 credits) — Machine A `Dev`, Opus runner, unattended/headless
+
+**Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry was cont.67 (row 94 C-FIX) commit `849e49724` present in `git log`; a concurrent lane added cont.68 (row 96 C-FIX) while I ran — chain intact, no collision (I only touched row 118's cells). Hostname `Dev` = Machine A.
+
+Row 118 is BUILT (Appr ⬜ / Post ⬜), in Cameron's Unwatched queue, **no open complaints** (`v2_outline.py 118`), empty Claim. Ran the FULL-CUT GATE (6b) because a "fixed"/built cut reaching him with bad frames is the row-11 failure Cameron flagged 2026-08-10.
+
+- **Provenance nailed first ($0):** local mp4 md5 `58e51f91`, 21401684 bytes == GitHub-raw live-served content-length 21401684 == deployed reviewer card `data-hash=10282aa9` (row still BUILT, wave realistic-v2). The bytes I QC'd are the exact bytes Cameron will see.
+- **Frame verify:** extracted ONE frame per beat at each window midpoint from the RENDERED mp4 (46/46 beats, windows from beats_v2.py — timeline is window-ordered, not beat-ordered) + the closing question card. Viewed all 46 via 4 contact sheets + 3 at full native res (b16 casting-overboard, b44 "and the animals too", b18 great fish).
+- **Verdict CLEAN:** Jonah identity locked & consistent every frame (green robe, dark hair/beard, ref-locked — no drift); 100% realistic biblical photography, ZERO cartoon/mixed frames (Law 14); action-logic reads at a glance (sailors cast Jonah OVER the gunwale b16; preaching/shouting in the city; whole city in sackcloth; great fish descends to catch the sinking Jonah b18 — correct scale); no modern objects, no anatomy/hand failures, no glowing eyes (no Jesus in this OT story, so cream-only-Jesus N/A); captions bottom-band with scrim, scripture captions green, question card clean parchment centered text. Cross-checked RUNNER-LESSONS (identity-drift, giant/scale, beards, count/direction, glowing-eyes) — none fire.
+- **Outcome:** marked the board Claim `QC-VERIFY 2026-08-11 LIVE → QC-OK 2026-08-11`. Per the clean-row law, did NOT re-cut — a clean, unmodified, unapproved row reaching Cameron IS the goal. Nothing generated, nothing deployed (nothing changed). $0/row, 0 rerolls — trends the running average DOWN.
+
+---
+
 ## 2026-08-11 (cont. 68) — ROW 96 C-FIX "It Is Finished": Cameron's crucifixion complaint ("trash work, redo the whole thing, all the Jesus pictures") CLOSED — 8 Jesus frames re-cut to ONE consistent depiction in one touch — Machine A `Dev`, Opus runner (complaint-first + low-number, unattended/headless)
 
 **Commit:** commit A `e14f477cffceeead8937f5cffab905a494ce70fc` (mp4 + beats_v2 + QC.md + AUTHOR-BOARD + api-spend); review.html + REVIEW-LESSONS + this SESSION-LOG in commit B below. Session-chain verified at start: prior top entry cont.67 (row 94 C-FIX) commit `f20d7508e`/`3ab3fd572` chain present at HEAD. Hostname `Dev` = Machine A.
