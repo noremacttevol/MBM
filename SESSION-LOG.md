@@ -1,3 +1,21 @@
+## 2026-08-12 (cont. 80) — ROW 82 "Anointing At Bethany" PICTURE C-FIX: "1:35 picture does not look like Jesus" CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
+
+**Commit:** build+beats+QC+board+QUEUE `a6e48c972f478b66ccc25e965cfff04fa0486043` (commit A); review card + board→SHIPPED + this log ship in commit B this push. Chain: at session start the top entry was cont. 79 (row 74), commit `2b38132ef` present in `git log` — verified. Hostname = Machine A `Dev`. Complaint-first + low-number: row 82 was the lowest OPEN complaint on the AUTHOR-BOARD.
+
+**The complaint (`v2_outline.py 82`):** Cameron — *"1:35 picture does not look like Jesus."*
+
+**TRACE (from the LIVE mp4, not beat names):** extracted frames at 92/94/95/96/98s. **1:35 (95s) = beat `v2-r082-b17` / `s17-she-did-what-she-was.jpeg`** (window 90.29-95.37, "She has come ahead of time to prepare my body for burial") — a `jesus:False` close-up of the WOMAN'S hands holding the broken empty flask. It played UNDER Jesus's spoken paraphrase, faceless, with large/weathered/masculine-reading hands in a muted warm sleeve → mis-read as a bad Jesus. (Neighbor frames confirm the real Jesus is well-shown at s13/62s + s16/85s, cream, locked green-hazel face — the arc did not need another Jesus here.)
+
+**PROMPT AUTOPSY (rubric meta-law 3) — verdict ALLOWED (missing constraint):** the b17 prompt locked her garment olive-green and forbade cream-on-anyone-but-Jesus, but left the hands gender-neutral ("composed, unhurried hands") and had NO guard against the faceless close-up reading as Jesus. **Fix:** rewrote `must_show`/`must_not_show`/`scene` — hands must be clearly the WOMAN'S (slender, ~30, softer, **deep-olive-green sleeves visible**) + explicit "THESE ARE THE WOMAN'S HANDS, NOT JESUS'S: no cream in the crop, no man's hands, nothing may read as Jesus." Regenerated s17 only (WOMAN char-ref auto-attached) — new frame: two hands, two olive-green sleeves, two thumbs nicked from snapping the alabaster, flask broken at the neck with shards. Anatomy zoom-verified.
+
+**FULL-CUT GATE (§6b) on the RE-RENDERED mp4 — all 25 stills + question card VIEWED: PASS.** Jesus cream-only every frame, woman olive-green & silent throughout (incl. closing s25 = the woman from behind at the doorway for "telling HER story" — not Jesus), head-anointing not feet, flask broken at neck, s12 still upright (prior QC-FIX intact), s05 critic's counting hand anatomy correct, speaker colors correct, question card clean & full (147.77s, not chopped). No other complaint-worthy frame.
+
+**Audio BYTE-IDENTICAL (picture-only complaint):** `v2_assemble` printed **AUDIO REBUILD PASS SHA256 de0b21ab…** == the live cut's hash; nothing re-voiced, no window moved. New mp4 md5 `efab56972853`, 20.5 MB, 147.8s.
+
+**Cost:** 1 reroll / 25 = **4.0%** (under 15%), 0 re-rerolls, ~$0.13 (meter $604.61→$604.74). Well under the $6.10/row average (C-FIX). RUNNER-LESSON filed (faceless woman's-hands close-up under Jesus's spoken line reads as a bad Jesus unless hands are explicitly feminine + not-Jesus-guarded).
+
+---
+
 ## 2026-08-12 (cont. 79) — ROW 74 "Woman Washed His Feet" PICTURE C-FIX: "1:36 old picture / make realistic" + "1:38 jesus is in 2 places" CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
 
 **Commit:** build+beats+QC+lesson+QUEUE `d8fdc8731baa834108388340b8b77d9cfa2d55f3` (commit A); review card + board→SHIPPED + this log ship in commit B this push. Chain: at session start the top entry was cont. 77 (row 109), commit `c7adeadbd`/`76ac0be9f` present in `git log` — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 74 was the lowest OPEN complaint on the AUTHOR-BOARD.
