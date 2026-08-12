@@ -488,10 +488,14 @@ BEATS = [
             "She did what she was able to do, he said. She has come ahead of "
             "time to prepare my body for burial."
         ),
-        "must_show": "what she could — close on the woman's hands holding the broken empty flask: everything she was able to do, done; nothing withheld, nothing left.",
-        "must_not_show": "no halo, glare or rim-light; the flask EMPTY and neck-broken — capability spent to its floor.",
+        "must_show": "what she could — close on the WOMAN's clearly feminine hands (slender, about thirty, softer smaller hands, deep-olive-green sleeves falling around her wrists) holding the broken empty flask: everything she was able to do, done; nothing withheld, nothing left.",
+        "must_not_show": "no halo, glare or rim-light; the flask EMPTY and neck-broken — capability spent to its floor. THESE ARE THE WOMAN'S HANDS, NOT JESUS'S: no cream or off-white sleeve anywhere in the crop, no large weathered man's hands, no man's forearm — nothing in this close-up may read as Jesus.",
         "scene": (
-            "Close on her hands in the "
+            "Close on HER hands — clearly a "
+            "woman's hands, slender and softer, "
+            "about thirty, her DEEP OLIVE-GREEN "
+            "sleeves falling around her wrists "
+            "(never cream, never off-white) — in the "
             "lamplight, holding what remains: "
             "the pale alabaster body empty to "
             "its last drop, the snapped neck's "

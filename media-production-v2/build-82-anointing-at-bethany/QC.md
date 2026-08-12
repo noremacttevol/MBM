@@ -1,5 +1,25 @@
 # QC / RUNNER HANDOFF — build-82-anointing-at-bethany (Mark 14:3-9)
 
+## 🛠 C-FIX SHIPPED — Cameron "1:35 picture does not look like Jesus", Machine A `Dev`, 2026-08-12 (UNATTENDED/HEADLESS)
+
+**COMPLAINT LEDGER (open → answered):**
+- Cameron (reviewer): *"1:35 picture does not look like Jesus."* → **FIXED by this cut** — traced 1:35 (95s) to beat `v2-r082-b17` / `s17-she-did-what-she-was.jpeg` (window 90.29-95.37: "She has come ahead of time to prepare my body for burial"). The beat is a `jesus:False` close-up of the WOMAN's hands holding the broken empty flask.
+
+**TRACE:** extracted frames from the LIVE shipped mp4 at 92/94/95/96/98s — the 1:35 frame was a lap-level close-up of hands cradling the broken alabaster jar. Because it plays UNDER Jesus's spoken paraphrase, is faceless, and the hands rendered large/weathered/masculine in a muted warm-neutral sleeve, the frame read as a **bad Jesus** — exactly Cameron's "does not look like Jesus." (Neighbor frames confirm the real Jesus is well-shown at s13/62s and s16/85s, cream robe, locked green-hazel-eyed face — the arc did not need another Jesus portrait here; the beat is correctly the woman.)
+
+**PROMPT AUTOPSY (rubric meta-law 3) — verdict: ALLOWED (missing constraint).** The original b17 prompt locked her *garment* olive-green ("WOMAN LOCK … plain DARK OLIVE-GREEN dress") and forbade cream on anyone but Jesus, but described the hands only as gender-neutral "composed, unhurried hands" and put NO guard on the faceless close-up reading as Jesus. The model honored the letter (no cream) but rendered masculine-reading hands in a muted sleeve → mis-read as Jesus.
+- **Rewrite/added constraint (b17 `must_show`, `must_not_show`, `scene`):** hands must be CLEARLY the woman's — slender, ~30, softer/smaller, **deep-olive-green sleeves visible at both wrists**; explicit guard "THESE ARE THE WOMAN'S HANDS, NOT JESUS'S: no cream/off-white sleeve in the crop, no large weathered man's hands — nothing in this close-up may read as Jesus."
+- Regenerated s17 only (`--only v2-r082-b17 --redo`, WOMAN char-ref auto-attached). New frame: two hands, two deep-olive-green sleeves, two thumbs nicked from snapping the alabaster, flask broken AT THE NECK with shards on the table. Anatomy verified by zoom (2 hands, correct). Unmistakably the woman — cannot read as Jesus.
+
+**Cost:** 1 reroll / 25 beats = **4.0%** (under the 15% COST-LAW budget), ≈ **$0.13**, audio $0.
+
+**FULL-CUT GATE (§6b) on the RE-RENDERED mp4 — one frame per beat, all 25 + question card VIEWED:** PASS. Jesus cream-only every frame (green-hazel locked face at s09/s11/s12/s13/s16/s19/s20/s22/s23), woman OLIVE-GREEN & silent throughout (incl. closing s25 = the woman from behind at the doorway for "telling HER story" — correctly not Jesus, no cream), HEAD-anointing not Luke-7 feet (s03), flask broken AT THE NECK (s17/s24), s12 still upright (prior QC-FIX intact), s05 critic's counting hand anatomy correct (5 digits), speaker colors correct (scripture BLUE s05, Jesus RED s09/s12/s16/s20, narrator WHITE), lamplit-evening interior intentional, realistic photography — zero cartoon/mixed frames, no modern objects, question card clean & full (147.77s vs card_start ~140.9s → not chopped). No other complaint-worthy frame.
+
+- Re-assembled: **AUDIO REBUILD PASS SHA256=`de0b21ab54e3…` — byte-identical to the original ship's audio hash. Narration, voices and timing untouched.** New mp4 md5 `efab56972853`, 20.5 MB, 147.8s.
+
+---
+
+
 ## 🛠 QC-FIX SHIPPED — QC-VERIFY full-cut gate before Cameron's eyes, Machine A `Dev`, 2026-08-11
 
 Row 82 was BUILT (2026-08-07) and sitting in Cameron's Unwatched queue. Per
