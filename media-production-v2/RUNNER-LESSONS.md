@@ -1174,3 +1174,22 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   cross frame of the row. A close-up that crops the cross-top above frame needs no plaque (it is
   cropped, not inconsistent) — but two cross frames that disagree on plaque-presence WILL draw a
   complaint.
+
+- **Crucifixion Jesus is a PER-BUILD override, not the shared robe lock (row 96, 2026-08-11).**
+  The shared `JESUS_LOCK_V5` (cream wool robe, "flame-of-fire" eyes) is the identity lock for
+  normal scenes — on the cross it drove a robed, no-crown, no-titulus, pale-eyed Jesus that
+  flipped frame-to-frame (Cameron: "redo the whole thing, all the Jesus pictures... clothes on
+  again"). NEVER edit the shared lock for one crucifixion row. Instead add per-build
+  `CRUCIFIX_LOOK` + `CRUCIFIX_REJECT` strings and inject them via each Jesus beat's `scene` /
+  `must_not_show` — they render AFTER the shared lock in `assemble()` and override it for that
+  row only. Spec ONE depiction and apply it to EVERY readable Jesus beat: stripped rough
+  loincloth (garments gambled — dice), crown of woven thorns, weathered titulus above the head,
+  warm living dark eyes (never white/never lens), cross timber behind the head. Verify the
+  override lands after the lock with a quick `assemble()` string-index check before spending.
+- **Two Nano-Banana crucifixion traps to pre-empt with the reject clause (row 96):** (1) the
+  HILL/place "THREE crosses" lock, in a Jesus-foreground shot, spawns a SECOND trio of crosses
+  on the background hill = 4+ crosses ("floating/duplicate"). Forbid "a second separate group of
+  crosses on a background hill or horizon — only THREE total." (2) a titulus/title-board renders
+  garbled legible Latin ("KICEIDE", "TVREI-TOM"). Spec "an aged placard, worn indistinct ancient
+  marks, no readable modern word" and expect one reroll; do not chase faint pseudo-lettering past
+  the 2-reroll cap — FIX-WAVE it (background object, not a Cameron complaint about text).
