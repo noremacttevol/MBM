@@ -555,18 +555,24 @@ BEATS = [
             "And he was right — he just had not noticed he was talking about "
             "the woman on the floor."
         ),
-        "must_show": "the unnoticed connection — Simon's correct answer still on his face, and beyond his shoulder, in his own line of sight, the kneeling woman at the ONE cream-robed Jesus's feet: the story's answer, in the room.",
-        "must_not_show": "no halo, glare or rim-light; EXACTLY ONE man is Jesus (the cream-robed man reclining at the couch's foot, his locked face); NO second Jesus — every other guest is plainly a DIFFERENT man (older or greying, varied faces, trimmed or no beard, earth-tone/brown robes), NONE with Jesus's long dark wavy hair and full beard, NONE in cream or white; never two Jesus-looking figures in one frame.",
+        "must_show": "the unnoticed connection — Simon's correct answer still on his face, and beyond his shoulder, in his own line of sight, the kneeling woman at the ONE cream-robed Jesus's feet; Jesus's face tender, grave and compassionate, his gaze lowered toward the weeping woman — the story's answer, in the room.",
+        "must_not_show": "no halo, glare or rim-light; EXACTLY ONE man is Jesus (the cream-robed man reclining at the couch's foot, his locked face); NO second Jesus — every other guest is plainly a DIFFERENT man (older or greying, varied faces, trimmed or no beard, earth-tone/brown robes), NONE with Jesus's long dark wavy hair and full beard, NONE in cream or white; never two Jesus-looking figures in one frame. Jesus NEVER smirks, grins, smiles smugly, or looks amused, mocking, sly, smug or self-satisfied — his expression is tender and grave, never pleased-with-himself. Jesus's bare/sandalled feet are NEVER propped, raised, or resting up on the table; his feet stay LOW on the floor toward the kneeling woman, stretched away from the table.",
         "scene": (
             "Simon holds his correct answer like a "
             "man holding a receipt — and past his "
             "own shoulder, exactly in the line his "
             "eyes refuse, JESUS reclines at the "
             "couch's foot in his cream robe, his "
-            "face the locked face, with the woman "
-            "kneeling at his anointed feet, the "
+            "face the locked face — serene, tender "
+            "and grave, his eyes lowered toward the "
+            "weeping woman at his feet, never "
+            "smiling, never smirking, never amused. "
+            "The woman kneels at his anointed feet, the "
             "empty flask beside her and her hair "
-            "loosed over them — the five-hundred "
+            "loosed over them; his feet rest LOW toward "
+            "her on the floor, stretched away from the "
+            "table, never raised or propped up onto "
+            "the table — the five-hundred "
             "debtor of Simon's own supposing, "
             "demonstrating the answer while Simon "
             "looks anywhere else. The other guests "
