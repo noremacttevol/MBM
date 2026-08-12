@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-11 19:32:28",
+ "scanned": "2026-08-11 20:01:46",
  "entries": [
   {
    "row": 1,
@@ -24549,6 +24549,364 @@
    "scene": "From out in the night looking in: the wedding hall's doorway burns warm and open at the top of its worn steps, the steward's held-out gold robe just visible within, the feast's light and noise soft behind it \u2014 and at the"
   },
   {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b01",
+   "file": "build-44-pentecost/assets/s01-gathered-waiting-in-the-upper-room.jpeg",
+   "tokens": [
+    "UPPER-ROOM",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "Shot from the doorway of the room, the camera looking in past the backs of two seated followers toward the gathered company: a dozen and more of Jesus's people together in the pale dawn light of a plain upper room, some "
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b02",
+   "file": "build-44-pentecost/assets/s02-they-waited-and-prayed.jpeg",
+   "tokens": [
+    "UPPER-ROOM",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Closer now, a quiet two-shot: Peter and young John kneeling side by side on the reed mats, heads bowed over open hands, lips moving in prayer, the soft dawn from a high window laying plain light across their faces \u2014 two "
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b03",
+   "file": "build-44-pentecost/assets/s03-a-rushing-mighty-wind.jpeg",
+   "tokens": [
+    "UPPER-ROOM",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera inside the room now, low behind the backs of the near seated company and looking up past them: an unseen wind pours through the upper room from above \u2014 the small oil-lamp flames all bent flat one way, head-clo"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b04",
+   "file": "build-44-pentecost/assets/s04-cloven-tongues-like-as-of-fire.jpeg",
+   "tokens": [
+    "UPPER-ROOM",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera holds on the gathered company from a low three-quarter angle past their shoulders: above each bowed or upturned head, resting in the air a hand's-breadth clear of the hair, a single small calm flame has appear"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b05",
+   "file": "build-44-pentecost/assets/s05-it-sat-upon-each-of-them.jpeg",
+   "tokens": [
+    "UPPER-ROOM",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Peter from just below: his weathered face tilted up, eyes wet and wide with wonder, and a single small calm flame resting in the air a clear hand's-breadth above his head \u2014 steady, gentle, touching nothing, ligh"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b06",
+   "file": "build-44-pentecost/assets/s06-they-spoke-in-other-tongues.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER",
+    "JOHN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The camera stands out in the square behind the backs of the gathering listeners, angled up the broad stone steps and looking past them: the plain Galilean followers have come out from the house into the full morning sun "
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b07",
+   "file": "build-44-pentecost/assets/s07-each-heard-his-own-language.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A tight candid cluster of listeners filling the frame, shot at their level: travellers of clearly different nations pressed together \u2014 a dark-skinned north-African in bright striped cloth, a Parthian in a fur-edged cap, "
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b08",
+   "file": "build-44-pentecost/assets/s08-a-crowd-gathered-amazed.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "A high establishing wide, the camera set back and above behind the outer edge of the crowd so we look across their heads and backs toward the broad stone steps: the whole Jerusalem square filling with a large mixed thron"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b09",
+   "file": "build-44-pentecost/assets/s09-some-mocked-and-said-drunk.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Tight on a knot of scoffers at the crowd's edge, shot across a bystander's shoulder: two or three well-dressed mockers smirking and rolling their eyes, one flicking a dismissive hand toward the apostles, another leaning "
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b10",
+   "file": "build-44-pentecost/assets/s10-peter-stood-up-unafraid.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER",
+    "JOHN",
+    "JAMES-Z"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The camera is down among the crowd looking up past their turned heads to the steps: Peter has risen to his full height above them, one hand lifted open to speak, jaw set, eyes steady and unafraid \u2014 the same man who wept "
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b11",
+   "file": "build-44-pentecost/assets/s11-ye-have-crucified-and-slain.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A strong three-quarter shot up at Peter on the steps, the near foreground soft with the backs of listeners' heads: caught mid-word, one hand flat against his own chest and the other stretched out over the crowd in open a"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b12",
+   "file": "build-44-pentecost/assets/s12-whom-god-hath-raised-up.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Still on Peter, but his whole bearing has turned: chin lifting, one hand opening upward toward the bright clear morning sky, his grave face now steady with certainty as he speaks of God raising the dead man up and loosin"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b13",
+   "file": "build-44-pentecost/assets/s13-not-about-himself.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A quieter medium shot of Peter, the crowd soft behind him: he has turned a hand outward and away from his own chest, head dipped a little, plainly waving the people's attention past himself \u2014 everything in his posture sa"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b14",
+   "file": "build-44-pentecost/assets/s14-the-apostles-all-saw-him.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER",
+    "JOHN",
+    "ANDREW"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The camera pulls to take in Peter and the apostles together on the steps, shot from the crowd's side: Peter half-turned, one hand sweeping back toward John, Andrew and the others ranged beside him \u2014 and each of those pla"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b15",
+   "file": "build-44-pentecost/assets/s15-both-lord-and-christ.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Tight and strong on Peter at the sermon's peak, shot slightly up: his whole face gathered into the weight of it, one hand raised firm and certain, the words landing like a verdict \u2014 that the very man they crucified God h"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b16",
+   "file": "build-44-pentecost/assets/s16-the-words-began-to-land.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Off Peter now and onto the crowd, a band of upturned faces filling the frame at their own level: the smirks are gone, and the first real shock of understanding is moving through them \u2014 a mouth falling open, eyes widening"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b17",
+   "file": "build-44-pentecost/assets/s17-cut-to-the-heart.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Close on two or three faces in the crowd, shot intimately among them: one man has pressed his hand hard flat against his own chest, head dropping; beside him another stands with his eyes squeezed shut; a woman's cheeks a"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b18",
+   "file": "build-44-pentecost/assets/s18-they-asked-the-only-question.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One stricken man near the front has taken half a step out from the crowd, both hands opening toward the steps, his face broken and mouth caught mid-question \u2014 and the people pressed around him lean in with the very same "
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b19",
+   "file": "build-44-pentecost/assets/s19-men-and-brethren-what-shall-we-do.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A tight single on the man calling out, shot from just below his lifted face: chin up toward the apostles on the steps, both hands half-raised and open, his whole face one honest question \u2014 men and brethren, what shall we"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b20",
+   "file": "build-44-pentecost/assets/s20-repent-and-be-baptized.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Peter leans down toward the crowd from the steps, both hands opening wide and outward in plain welcome, his weathered face warm and sure as he gives the answer \u2014 repent, and be baptized, every one of you \u2014 the whole gest"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b21",
+   "file": "build-44-pentecost/assets/s21-receive-the-gift-of-the-holy-ghost.jpeg",
+   "tokens": [
+    "JERUSALEM-COURT",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Peter's open hand turns gently from the people upward, offering rather than commanding, as he promises the gift of the Holy Ghost \u2014 and in the near frame the faces of the listeners are lifting, the first hope breaking ac"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b22",
+   "file": "build-44-pentecost/assets/s22-three-thousand-baptized.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A high establishing wide, the camera set back and above behind the waiting people so we look across their backs to the great stone pool: hundreds upon hundreds of people that same day wading into the clear water and bein"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b23",
+   "file": "build-44-pentecost/assets/s23-the-church-began.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "PETER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close and warm at the water's edge: a knot of the newly baptized, wet-haired and shining, embracing one another and gripping the apostles' hands \u2014 an older man weeping with relief, a young couple holding a child, Peter c"
+  },
+  {
+   "row": 44,
+   "build": "build-44-pentecost",
+   "beat": "v2-r044-b24",
+   "file": "build-44-pentecost/assets/s24-the-invitation-still-open.jpeg",
+   "tokens": [
+    "BAPTISM-WATER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A quiet closing insert, shot low at the water's edge: one strong hand reaching down and closing warm around another person's hand to lift them up the last wet step out of the pool, toward the bright open morning \u2014 the ge"
+  },
+  {
    "row": 45,
    "build": "build-45-wicked-tenants",
    "beat": "v2-r045-b01",
@@ -28419,13 +28777,14 @@
    "beat": "v2-r052-b16",
    "file": "build-52-demoniac-synagogue/assets/s16-it-had-to-go.jpeg",
    "tokens": [
-    "FREEDMAN"
+    "FREEDMAN",
+    "SYNAGOGUE"
    ],
    "jesus": false,
    "wide": false,
    "night": false,
    "n_person": 1,
-   "scene": "Held gently under the arms by the two worshippers, the gaunt man hangs slack and utterly quiet, chest rising and falling in deep slow breaths, sweat-soaked hair against his brow \u2014 and his eyes are just coming open, unfoc"
+   "scene": "Inside the same stone synagogue hall, on its rush mats under the high windows, the SAME two broad-shouldered worshippers in dark russet and olive wool who caught him hold the gaunt man gently under the arms; he hangs sla"
   },
   {
    "row": 52,
