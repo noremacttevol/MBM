@@ -12,7 +12,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 
 | Row | Build | State | Stills | Audio | Claim | Ready |
 |---|---|---|---|---|---|---|
-| 1 | build-01-cloak | BUILT | 20 | OK | C-FIX 2026-08-06 SHIPPED · QC-VERIFY 2026-08-12 LIVE |  |
+| 1 | build-01-cloak | BUILT | 20 | OK | C-FIX 2026-08-06 SHIPPED · QC-FIX 2026-08-12 SHIPPED — FULL-CUT GATE found the 0:52 touch complaint had REGRESSED on the live cut (hand flat on Jesus's back, not the tassels); b11 re-cut so her fingertips reach the tasselled fringe at his ankles in her locked dust-rose/charcoal wardrobe; 1:10 eyes verified still-clean; AUDIO LOCK PASS byte-identical; 2 rerolls/10%/$0.27; deployed+live-verified |  |
 | 2 | build-02-prodigal | BUILT | 48 | OK |  |  |
 | 3 | build-03-zacchaeus | BUILT | 26 | OK |  |  |
 | 4 | build-04-nicodemus | BUILT | 30 | OK |  |  |

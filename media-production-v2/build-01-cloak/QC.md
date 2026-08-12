@@ -1,5 +1,41 @@
 # Story 1 Realistic V3 QC — The Woman Who Touched His Cloak
 
+## QC-FIX 2026-08-12 (Machine A `Dev`) — FULL-CUT GATE 6b, per-rendered-frame pass
+
+FULL-CUT GATE run on the LIVE realistic-v3 mp4 before Cameron's eyes reached it.
+Extracted one frame per beat (20) + the closing card from the rendered mp4 and
+viewed every one against the defect checklist + RUNNER-LESSONS + both resolved
+complaints.
+
+**Result: 19/20 beats + card CLEAN. ONE regressed resolved complaint found and
+re-cut (touch-once).**
+
+- **b15 (1:10 eyes) — CLEAN, NOT regressed.** Jesus's eyes are both open,
+  symmetric, aligned on the same point, warm/natural. The 2026-08-01 "weird
+  eyes" complaint stays fixed.
+- **b11 (0:52 touch) — REGRESSED → RE-CUT.** The 2026-08-06 card claimed this
+  was fixed, but the LIVE frame still showed her **full open palm pressed flat
+  on Jesus's lower back / hip**, tasselled fringe far below at his ankles —
+  exactly Cameron's original complaint ("the tassels only, not his back/thigh").
+  PROMPT AUTOPSY: the scene text already said "fingertips graze the tasselled
+  fringe near his ankles," but `must_not_show` had NO ban on touching his body,
+  so the generator drifted (verdict: ALLOWED — missing negative constraint).
+  FIX: added an explicit CAMERON GATE to b11 must_not_show (hand must NEVER be
+  on his back/spine/hip/waist/thigh/buttocks or a flat full-palm press) +
+  reinforced her locked dust-rose head cloth / charcoal mantle in must_show,
+  then rerolled. Take 1 fixed the hand but drifted her wardrobe to pale beige
+  (near-cream risk); take 2 nailed BOTH — she is bent low behind him in her
+  dust-rose head cloth + charcoal mantle, fingertips at the tasselled fringe at
+  his ankles. Verified in the DELIVERED mp4 @ 0:52.
+- Everything else byte-identical; audio byte-identical (AUDIO LOCK PASS
+  SHA256=63014156f0cf69c1f43c1c1ba9524d79e55a7ea559af8a133ebd9c7eb7c74269).
+- 2 rerolls / 20 beats = 10% (≤15% budget). Spend this pass: ~$0.27 (2 gens).
+- RUNNER-LESSONS updated: a "resolved" complaint can survive on the live cut if
+  its earlier fix silently regressed/never landed — the FULL-CUT GATE must
+  re-verify each resolved complaint in the RENDERED mp4, not trust the card.
+
+---
+
 ## COMPLAINT LEDGER — C-FIX 2026-08-06 (Machine A, complaint-first)
 
 Cameron's open complaint on the shipped v3 cut (his own words):

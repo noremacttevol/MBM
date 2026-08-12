@@ -256,14 +256,30 @@ BEATS = [
         "locks": ["WOMAN", "SETTING"],
         "narration": "and reached out to touch the edge of his cloak.",
         "must_show": ("the hinge of the story: her fingertips just grazing the very "
-                      "bottom hem of his robe, from behind, near his ankles."),
+                      "bottom hem of his robe, from behind, near his ankles. Her "
+                      "reaching hand is DOWN LOW at his ankle/shin level, close to the "
+                      "ground, and the ONLY thing it touches is the tasselled fringe at "
+                      "the very bottom edge of the robe. She wears her faded DUST-ROSE "
+                      "(dusty pink) head cloth and her patched ash-grey-brown tunic under "
+                      "a charcoal-brown mantle — EXACTLY the same worn clothing she has "
+                      "in every other shot of this video."),
         "must_not_show": ("no gripping, clutching, pulling or bunching of the cloth; he "
-                          "has not turned yet; she is behind him."),
+                          "has not turned yet; she is behind him. She is NOT dressed in "
+                          "cream, oatmeal, ivory, sand or any pale near-white cloth (only "
+                          "Jesus wears cream); her head cloth is dusty pink, not beige. "
+                          "has not turned yet; she is behind him. CAMERON GATE (open "
+                          "complaint at 0:52): her hand must NEVER rest on his back, "
+                          "spine, hip, waist, lower back, thigh or buttocks, and never "
+                          "as a flat full-palm press against his body — if the hand is "
+                          "up on his body instead of down at the tasselled hem near his "
+                          "ankles the frame fails."),
         "scene": (
-            "The woman has sunk low behind Jesus and stretches one thin trembling arm "
-            "out to his robe. HOW SHE TOUCHES IT: only the tips of two or three "
+            "The woman has sunk low behind Jesus, down near the ground, and stretches "
+            "one thin trembling arm out and DOWNWARD to the very bottom of his robe. "
+            "HOW SHE TOUCHES IT: only the tips of two or three "
             "outstretched fingers barely graze the tasselled fringe at the very bottom "
-            "hem of his robe, down near his ankles; her hand is open and her fingers are "
+            "hem of his robe, down at his ankles near the ground; her hand stays low and "
+            "never rises to his back, hip or thigh; her fingers are "
             "extended, the lightest and most reverent possible contact, and the cloth "
             "hangs straight and undisturbed. Jesus is a step ahead of her seen from "
             "behind and to the side, still walking, not yet turned toward her. Villagers "
