@@ -59,7 +59,11 @@ LOCKS = {
         "tunic with a rope belt and a worn DARK GREY shoulder cloth "
         "(never cream, never white). His face is shown clearly and "
         "with full dignity in every state — the EYES are per-beat: "
-        "milk-pale before Siloam, clear deep brown after."
+        "milk-pale before Siloam, clear deep brown after. He is the "
+        "SAME man in every single shot, matched to the reference face: "
+        "NEVER grey-haired, NEVER elderly, NEVER a clean-shaven youth, "
+        "NEVER a different older or younger man — always about "
+        "thirty-five with unruly BLACK hair and a short DARK beard."
     ),
     "LEADERS": (
         "INQUISITORS LOCK: the religious examiners are the same three "
@@ -991,19 +995,26 @@ BEATS = [
             "The first face this man ever truly studied was the face of the one "
             "who gave him his eyes."
         ),
-        "must_show": "the study — the two faces close in profile: the man's new eyes moving slowly over Jesus's features, learning the first face of his life, line by line.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the studying slow and unashamed — a first face being memorized.",
+        "must_show": "the study — the healed man standing a natural arm's length from Jesus, his new eyes moving slowly over Jesus's face from that respectful conversational distance, learning the first face of his life, line by line.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the two men are NOT nose-to-nose and NOT touching; Jesus's hand is NOT on the man's face, chin or cheek; nothing that reads as a kiss, an embrace or intimate closeness — a natural arm's-length between them; the healed man is the same thirty-five-year-old with unruly BLACK hair and a short dark beard, never grey, never elderly, never a different face.",
         "scene": (
-            "The two faces close in the deep gold, in "
-            "profile: the man's brand-new eyes moving "
-            "slowly, deliberately over Jesus's features "
-            "— brow, eyes, the lines of the beard — "
+            "In the deep gold the healed man stands a "
+            "natural, respectful arm's length from Jesus "
+            "— a normal conversational gap between them, "
+            "the two men clearly NOT touching — and from "
+            "that distance the man's brand-new eyes move "
+            "slowly, deliberately over Jesus's face, "
+            "brow, eyes, the lines of the beard, "
             "memorizing the first face of his life with "
             "the unashamed thoroughness of a man who "
             "knows exactly what he is looking at and "
-            "exactly who gave him the looking. Every "
-            "figure has two arms, two hands and one "
-            "head."
+            "exactly who gave him the looking. The "
+            "healed man is the SAME man as in every "
+            "other shot — about thirty-five, unruly "
+            "BLACK hair, a short dark beard, lean and "
+            "strong — never grey, never elderly, never "
+            "a different face. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
@@ -1012,7 +1023,7 @@ BEATS = [
         "locks": ["BLINDMAN"],
         "narration": "And he said: Lord, I believe.",
         "must_show": "SCRIPTURE-EXACT: the three words — close on the man's face giving them: the completed yes landing on its name at last; tears free, voice visibly steady.",
-        "must_not_show": "no halo, glare or rim-light; the belief plain-spoken — three words with a whole life behind them.",
+        "must_not_show": "no halo, glare or rim-light; the belief plain-spoken — three words with a whole life behind them; the man is the same thirty-five-year-old with unruly BLACK hair and a short dark beard, never grey, never elderly, never a younger different face.",
         "scene": (
             "Close on the man's face in the last warm "
             "light as the three words leave him — tears "
@@ -1021,7 +1032,10 @@ BEATS = [
             "the sentence — the morning's beggar, the "
             "afternoon's defendant, the evening's "
             "outcast, arriving at the only title he "
-            "will answer to from now on: believer. "
+            "will answer to from now on: believer. He "
+            "is the SAME man as throughout — about "
+            "thirty-five, unruly BLACK hair, a short "
+            "dark beard, never grey, never elderly. "
             "Every figure has two arms, two hands and "
             "one head."
         ),
@@ -1035,11 +1049,15 @@ BEATS = [
             "world had just thrown him out of."
         ),
         "must_show": "SCRIPTURE-EXACT: the worship — the man down on his knees before Jesus in the open lane, passers-by turning; the synagogue's outcast holding church in the street.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; public and unashamed — the street itself the sanctuary; Jesus receiving it with grave gentleness.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; public and unashamed — the street itself the sanctuary; Jesus receiving it with grave gentleness; the kneeling man is the same thirty-five-year-old with unruly BLACK hair and a short dark beard, never grey, never elderly, never a younger clean-shaven different face.",
         "scene": (
             "In the open lane in the day's last gold "
             "the man goes down on both knees before "
-            "Jesus — head bowing over his folded hands, "
+            "Jesus — the same thirty-five-year-old man "
+            "with unruly BLACK hair and a short dark "
+            "beard as in every other shot, never grey, "
+            "never elderly — head bowing over his "
+            "folded hands, "
             "the staff laid aside on the stones — "
             "passers-by slowing and turning at the "
             "sight — while Jesus stands still and "
@@ -1060,14 +1078,18 @@ BEATS = [
             "The man got something better. He got found."
         ),
         "must_show": "the closing image — the two walking away together down the lane into the warm dusk, side by side, the man's staff left leaning against the wall behind them.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the abandoned staff the quiet coda — the old navigation no longer needed; found, and keeping company with the finder.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the abandoned staff the quiet coda — the old navigation no longer needed; found, and keeping company with the finder. CRITICAL: the healed man is EMPHATICALLY NOT grey-haired and NOT elderly — he is the same thirty-five-year-old with unruly BLACK hair and a short DARK beard as in every other shot; not an old man, not a grey beard, not a different face.",
         "scene": (
             "Down the lane into the warm dusk the two "
-            "walk away side by side — the man's head "
-            "still turning at the world's endless "
-            "visible surprises, Jesus's hand briefly on "
-            "his shoulder at something said between "
-            "them — and behind them at the wall, "
+            "walk away side by side — the healed man is "
+            "the SAME thirty-five-year-old with unruly "
+            "BLACK hair and a short DARK beard as "
+            "throughout, emphatically NOT grey and NOT "
+            "elderly — his head still turning at the "
+            "world's endless visible surprises, Jesus's "
+            "hand briefly on his shoulder at something "
+            "said between them — and behind them at the "
+            "wall, "
             "leaning where it was set down and forgot, "
             "the worn staff stays behind with the "
             "begging bowl and the whole first "
