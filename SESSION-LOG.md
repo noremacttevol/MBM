@@ -1,3 +1,25 @@
+## 2026-08-12 (cont. 78) — ROW 71 "The Great Commission" C-FIX (RE-OPEN #3): audio "alway"→"always" (genuinely re-voiced) + 1:37 white tear on Peter — Cameron's 2-part complaint CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
+
+**Commit:** build+audio+boards `fb156d05a` (commit A, ship hash); review card + this log ship in commit B this push. Chain: prior top entry cont.77 (row 109), commit `76ac0be9f` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 71 was the lowest OPEN complaint on the AUTHOR-BOARD.
+
+**The complaint (`v2_outline.py 71`, reportedAgainst `5cc43a5f`, 3rd time on this row):** *"Jesus said … 'I am with you always, even unto the end of the world' not 'alway'. 1:37 a man has a white tear and that needs to get fixed. The voice still is pronouncing [it wrong] the caption is correct but not the audio."* Both halves had a prior "fix" (08-11) that Cameron re-filed against.
+
+**Why it re-opened twice (PROMPT AUTOPSY, meta-law 3):**
+- **AUDIO = the whisper trap.** The 08-11 fix only changed the CAPTION (TEXT_OVERRIDES) and trusted faster-whisper ("confirms 'always' on jv20.mp3") — but whisper NORMALISES "alway"→"always" and is deaf to the missing terminal /z/. V1 make_narration text is "alway", so ElevenLabs was fed "alway" and correctly said "alway". Measured on the shipped V1 jv20: word-final HF(4-8k) = **0.009** vs its own /z/ in "observe" = 0.18, /s/ in "whatsoever" = 0.31 → ends in the /eɪ/ vowel = "alway". Cameron's ears were right; whisper was the wrong tool.
+- **PICTURE = a self-inflicted loophole.** b18 `must_not_show` banned a painted/white streak but PERMITTED "if his eyes shine at all it is only the faintest natural wetness catching the light." The model renders that permitted wet glint on Peter's lower eyelid as a welling tear — the "white tear" across all 3 cuts. CAUSED/ALLOWED by the prompt's own wet-eye permission.
+
+**The fix (touch-once, both halves in ONE re-cut):**
+- **Audio:** re-voiced jv20 with ElevenLabs **Alexander** (JESUS voice, same as jv18/jv19 — identity preserved), fed the literal "always". 4 takes; A/B spectrogram vs the original confirmed a distinct terminal /z/ frication cloud (4-8 kHz) the original lacks. Chosen take: terminal /z/ HF **0.65**, **F0 96 Hz** (orig jv20 97, jv19 95). atempo-locked to the original **11.232653 s** (delivered 11.2588, drift +26 ms, inside the 1.6 s KJV gap; no caption window moves). Old jv20 → `audio-oldvoice-backup/`. Added `AUDIO_FROM_V1_SEGMENTS = True` (a V1 mp3 now post-dates the V1 final) → **AUDIO REBUILD PASS SHA256=6a0f7de9…**, 131.8 s. Caption stays "always" (already correct) and now matches the spoken word.
+- **Picture:** rewrote b18 `must_not_show` — removed the wet-eye permission, forbade ALL eye wetness/shine/gloss/glint (eyes fully dry, emotion via brow + mouth); regen `s18` (1 gen). Peter now dry-eyed in both the source asset and the rendered frame.
+
+**FULL-CUT GATE 6b:** one frame per beat from the RE-RENDERED mp4, all 21 viewed — realistic throughout, Jesus one face + cream-only, natural scales, no modern objects/cartoon, s18 Peter dry-eyed, jv20 caption "always … unto the end of the world. Amen." correct (Jesus red), question card clean. No new complaint-worthy frame; only the two named defects touched.
+
+**Ship:** build committed `fb156d05a`; card repointed (data-hash + `?v=fb156d05ae43`, new flag answers both in Cameron's words AND corrects the prior wrong "byte-identical / voice already says always" claim), `firebase deploy`, live-verified. Board Claim → C-FIX SHIPPED; QUEUE noted.
+
+**Cost:** 1 s18 reroll (~$0.13 Gemini) + 4 ElevenLabs Jesus renders (subscription, ~$0 marginal) = **1 gen / 21 = 4.8% reroll**, well under 15% and under the $6.10/row average — trend DOWN. Touch-once: picture + audio in ONE re-cut = one reviewer delivery. Audio no longer byte-identical (jv20 legitimately re-voiced, c29f8cf → 6a0f7de9). **RUNNER-LESSON:** an "alway/always"-class vowel/consonant complaint is NOT settled by faster-whisper (it normalises and is deaf to a terminal /z/) — measure the word-final HF frication or view an A/B spectrogram; and a "white tear" that survives a reroll is usually a *permitted* wet-eye shine in the prompt, not a painted streak — ban ALL eye shine, don't just ban the streak.
+
+---
+
 ## 2026-08-12 (cont. 77) — ROW 109 "Ask, Seek, Knock" C-FIX: "0:04 one guy way bigger than anyone else" — foreground-giant listener CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
 
 **Commit:** build+asset+prompt+QC+board `c7adeadbda71` (commit A); review card + this log + board→SHIPPED ship in commit B this push. Chain: prior top entry cont.76 (row 51), commit `d496e51a6`/`7c39d6aac` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number: row 109 was the lowest OPEN complaint on the AUTHOR-BOARD.
