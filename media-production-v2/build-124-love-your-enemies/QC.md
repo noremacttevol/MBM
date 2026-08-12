@@ -109,3 +109,46 @@ wall rather than "at the well" (minor motif echo of the s30 close).
 
 **Cost:** $3.08 this row ($2.81 gen + $0.27 rerolls), 6.7% rerolls — well under the
 $6.10/row + 19%-reroll running average. Cost-down trend held.
+
+---
+
+## INDEPENDENT QC-VERIFY — 2026-08-12 (cont. 87, Machine A `Dev`, Opus runner) — QC-OK, NO RE-CUT
+
+The 2026-08-11 ship self-claimed its FULL-CUT GATE at build time; this is the independent
+pass before Cameron's eyes reach the Unwatched queue (Cameron 2026-08-10 "my quality is
+going down" after row 11 reached him with 7 bad frames in a "fixed" cut).
+
+**Method (§6b):** extracted ONE frame per beat at its true narration mid-window from the
+RENDERED mp4 (`ffmpeg -ss <mid>`), built by WINDOW not file order (b02@30.3s, b19/b20
+swapped, etc.), + the closing card. Viewed all 30 frames + card against the defect
+checklist, RUNNER-LESSONS, and this row's row-specific gates.
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 124` shows 0 filed complaints) → nothing
+to regress. This is a fresh first-attempt cut, not a fix.
+
+**Result: 30/30 beats + card CLEAN.**
+- Jesus (9 beats b01/03/04/06/08/19/22/25/26): ONE locked face, green/hazel V2-ref eyes,
+  cream-only robe, NO halo, ordinary scale, gazes converge. No second cream figure.
+- Two-farmer arc (b05/07/09/11/12/13/15/17/18/29/30): FARMER (rust-brown, lean, balding,
+  grey-streaked beard) + NEIGHBOUR (slate-grey/blue, heavier, full dark beard) CONSISTENT
+  across all 11 vignette frames — zero identity drift (the row's hardest face-board).
+  Wall state machine coherent (whole+mended → rain-collapsed b15 → rebuilt b29 → sat-upon
+  b30). Action-logic all reads: b15 stones INTO wall (building), b17 open-palm-up prayer +
+  lit oil lamp, b18 lips forming a name, b29 basket OVER the wall, b30 both seated ON the
+  wall sharing bread. b11 stride aimed toward the neighbour's land.
+- Equality frames b21/23/24: person-free, ONE light/rain lying equally on both farms.
+- Reroll landings re-verified in the delivered mp4: b10 a single coherent reflective crowd
+  (NOT the rerolled-away collage/triptych); b14 the two village elders converse to each
+  other (no lens-stare), beat-faithful.
+- Tax collectors (b28): warm/convivial closed circle, not villains; period lamp/bowls/cups,
+  no forks, no scars.
+- Night beats b16-18 correctly dark (stars + one lamplit window / oil lamp) — time-of-day
+  law holds; hillside sermon beats warm gold.
+- Captions bottom-band only; narrator WHITE, Jesus KJV RED (jv43/jvA/jvB/jv46 all red).
+  Closing reflection card clean — good margins, no tofu/render squares.
+- Realistic throughout, ZERO cartoon/mix (Law-14 clean); no modern objects; anatomy/hands
+  natural on the close beats (b17 open palms, b26 Jesus open hand, b29 basket handoff).
+
+**Verdict: CLEAN — do NOT re-cut a clean row.** Audio untouched. $0 / 0 gens / 0 rerolls
+(cost-down trend held — a clean QC-VERIFY is the cheapest possible outcome). Board Claim
+marked QC-OK 2026-08-12.
