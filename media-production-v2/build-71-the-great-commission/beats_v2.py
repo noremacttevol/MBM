@@ -66,6 +66,21 @@ LOCKS = {
     ),
 }
 
+# CAPTION vs SHIPPED-AUDIO reconciliation (v2_assemble._text_overrides).
+# C-FIX 2026-08-11 (Cameron): the jv20 caption read the archaic KJV spelling
+# "alway" while the shipped ElevenLabs (Chris) audio actually SAYS "always"
+# (faster-whisper confirms "always" on audio/jv20.mp3). Cameron: 'Jesus said
+# "...I am with you always, even unto the end of the world" not "alway".' The
+# caption is corrected to match the word that is genuinely spoken — audio is
+# NEVER touched (byte-identical), V1 make_narration.py is NEVER edited.
+TEXT_OVERRIDES = {
+    "jv20": (
+        "Teaching them to observe all things whatsoever I have commanded "
+        "you: and, lo, I am with you always, even unto the end of the "
+        "world. Amen."
+    ),
+}
+
 REF = True
 
 BEATS = [
@@ -468,7 +483,7 @@ BEATS = [
         "locks": ["ELEVEN", "MOUNT"],
         "narration": "Not until you fail. Always, to the very end.",
         "must_show": "the promise landing on the failer — Jesus's gaze resting particularly on Peter: the man who denied him receiving the ALWAYS first; grace's addressing order.",
-        "must_not_show": "no halo, glare or rim-light; Peter's receiving face the beat — a failed man being promised permanent company.",
+        "must_not_show": "no halo, glare or rim-light; Peter's receiving face the beat — a failed man being promised permanent company. ABSOLUTELY NO painted or white tear, no bright white streak, drip or opaque droplet on Peter's cheek or any face; his emotion is carried by the eyes and the set of the mouth alone — if his eyes shine at all it is only the faintest natural wetness catching the light, NEVER a visible white line or teardrop down the cheek.",
         "scene": (
             "The ALWAYS finds its first address: "
             "Jesus's gaze resting on Peter — the "

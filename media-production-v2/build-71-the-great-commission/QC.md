@@ -1,5 +1,58 @@
 # QC / RUNNER HANDOFF — build-71-the-great-commission
 
+## ✅ C-FIX SHIPPED — Opus runner, Machine A `Dev`, 2026-08-11
+
+**COMPLAINT LEDGER — Cameron's own words (`v2_outline.py 71`):**
+> Jesus said: "and, lo, I am with you always, even unto the end of the world"
+> not "alway". 1:37 a man has a white tear and that needs to get fixed.
+
+Two named defects, both PICTURE-domain (audio NEVER touched — AUDIO LOCK PASS,
+same SHA256 `c29f8cf…`, byte-identical to the cut Cameron already has). Traced
+each against the RENDERED mp4, not beat names:
+
+- **"...always..." not "alway" → the RED jv20 caption (renders at b14 77.7s +
+  b15 83.3s, the "Amen" tail).** PROMPT AUTOPSY = **CAUSED.** The caption source
+  is the V1 `make_narration.py` SEGMENTS, whose jv20 text carried the archaic
+  KJV spelling **"alway"** — the caption engine rendered exactly that word. But
+  the shipped ElevenLabs **Chris** audio actually SAYS **"always"**
+  (faster-whisper on `audio/jv20.mp3`: *"...I am with you always, even unto the
+  end of the world. Amen."*). So Cameron was reading a caption that didn't even
+  match what he hears. FIX = declared `TEXT_OVERRIDES = {"jv20": "...always..."}`
+  in beats_v2.py (the sanctioned `v2_assemble._text_overrides` path) so the
+  caption matches the genuinely-spoken word. **V1 make_narration NEVER edited;
+  audio NEVER re-voiced — byte-identical.** VERIFIED in rendered mp4 @83s: red
+  bottom-band caption now reads "…I am with you **always**, even unto the end of
+  the world. Amen."
+- **"1:37 a man has a white tear" → b18 / s18-not-until-you-fail-always.jpeg
+  (window 95.94–99.76, renders at 97s = 1:37).** The grey-bearded disciple
+  (Peter) receiving the ALWAYS had a bright, opaque **white painted tear-streak**
+  down his right cheek — an unnatural artifact (real tears aren't opaque white).
+  PROMPT AUTOPSY = **ALLOWED.** b18's scene asked for Peter's "weathered face
+  taking the word with the particular gratitude…" (an emotional face) but its
+  must_not_show placed **no ban on a tear**; the emotional framing let the model
+  add one and it rendered as a white streak. FIX = added an explicit ban to b18
+  must_not_show ("ABSOLUTELY NO painted or white tear, no bright white streak,
+  drip or opaque droplet on any cheek; emotion carried by eyes and mouth alone")
+  and rerolled s18 once. New frame: Peter's cheek clean, Jesus's gaze on him,
+  cream-only-Jesus, ordinary scale, green eyes (JESUS_LOCK_V5) consistent,
+  realistic. VERIFIED in rendered mp4 @97s — no tear.
+
+**FULL-CUT GATE 6b (all 21 beats + card, one frame per beat from the RENDERED
+mp4):** CLEAN. Verified: empty-cross off-screen crucifixion (b01), no-wire tomb
+(b12), cream-only-Jesus every appearance, ordinary Jesus scale in every
+multi-figure frame, green eyes consistent across all Jesus close-ups (b07/b10/
+b17 — this is the intended `JESUS_LOCK_V5` "luminous green" standard, NOT drift,
+so untouched per COST LAW), prior-C-FIX rerolls still good (b16 upright group,
+b20 soft leather scripture, b21 ancient dirt-path descent), captions bottom-band
+3-colour correct (white narrator / red jv18-jv19-jv20 Jesus), question card
+clean. No modern object, no 2nd cream figure, no anatomy fail, no lens-stare.
+
+**COST:** 1 reroll / 21 beats = **4.8%** (well under the 15% budget) + 0
+portraits = 1 image ≈ **$0.13**; meter $599.92→$600.05. Touch-once: both open
+complaint items batched into ONE re-cut. Trends the running average DOWN.
+
+---
+
 ## ✅ C-FIX SHIPPED — Opus runner, Machine A `Dev`, 2026-08-07
 
 **COMPLAINT LEDGER — Cameron's own words (`v2_outline.py 71`):**
