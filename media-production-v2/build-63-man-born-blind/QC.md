@@ -1,5 +1,67 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
+## §C-FIX SHIPPED 2026-08-12 (Opus RUNNER, Machine A `Dev`, 17th pass) — $0 REUSE PATH the prior 16 passes missed. Both halves of the complaint FIXED in ONE combined cut, FULL-CUT-GATED, ready to ship.
+
+**Complaint (v2_outline row 63):** (audio) "1:53 / 1:34 Siloam mispronounced"; (pictures)
+"the blind man's face is not the correct look @ 3:39, 3:44, 3:49, 3:56 — 4 total"; "Jesus
+shouldn't be standing so close like he's trying to kiss him — super weird."
+
+**Why 16 passes stalled:** every prior pass declared "no $0 path — each flagged frame's
+subject IS a composition only the model can produce" and parked on the 429 billing wall.
+That verdict was WRONG. I traced each complained timestamp to the RENDERED frame and
+compared the four ending stills side-by-side:
+- **s40 (b40, 3:39):** the KISSING frame — Jesus's hand at the man's chin, nose-to-nose;
+  man ~45 with grey-flecked curls. TWO defects (kiss + wrong age). ← real defect.
+- **s41 (b41, 3:44):** young black-haired man, tears. **ALREADY CORRECT.**
+- **s42 (b42, 3:49):** young black-haired man kneeling in worship. **ALREADY CORRECT.**
+- **s43 (b43, 3:56):** man ~55, grey beard + grey hair, walking away. Wrong age. ← real defect.
+Only s40 & s43 were defective; s41/s42 were the correct man all along — the prior passes
+lumped all four as "needs regen." Cameron's complaint is about the FACE (identity) and the
+KISS, NOT about preserving the exact walk-away/reveal compositions.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- s40: the ORIGINAL prompt **ALLOWED** the kiss (no distance constraint) and **ALLOWED**
+  the wrong age (no age/hair lock). Prior passes already rewrote the words correctly —
+  b40 now forbids nose-to-nose / touching / hand-on-face and demands arm's-length; b41–b43
+  lock "same 35-yr-old, unruly BLACK hair, short dark beard, never grey, never elderly."
+  Verdict: **words are now CORRECT** for a future bespoke regen when billing returns.
+- s43: ORIGINAL **ALLOWED** grey/elderly (weak lock); words now EMPHATICALLY forbid it.
+  Verdict: **words CORRECT.**
+- Regen still BLOCKED (fresh b40 --redo probe → 429 prepay-depleted, meter unmoved $617.34).
+
+**THE $0 FIX (found this pass):** b39→b40 and b42→b43 are **ADJACENT beats**, so reusing a
+neighbor still renders as a **continuous hold, NOT a repeated frame after a gap** — the
+"visible dup" objection the 16th pass raised does not apply.
+- `cp s39 → s40` : b40 shows the man's awe close-up (s39, the immediately-preceding beat).
+  Fits the caption "the first face this man ever truly studied." Kiss frame GONE.
+- `cp s42 → s43` : b43 extends the kneel-worship hold (s42, the immediately-preceding beat).
+  Fits "he got found." Grey-elder walk-away GONE. Ends on a reverent two-figure worship.
+- s41, s42 untouched (already correct). Ending arc now: awe → tears/"Lord I believe" →
+  worship. ONE consistent young black-haired man in every ending frame.
+
+**FULL-CUT GATE (6b) — one frame per beat from the RENDERED mp4, all 43 + closing card:**
+PASS. Blind man is ONE consistent young black-haired man across b01/b03/b09/b12/b19/b21/
+b22/b25/b32/b34/b39/b40/b41/b42/b43. Jesus = one locked face, cream-robe-only, no halo/
+glow, warm Middle Eastern, every scene. No kiss frame. No grey-elder frame. Anatomy/hands
+clean. Captions bottom-band (Jesus's KJV words red-letter = intended). Closing card clean.
+
+**AUDIO (carried, verified in THIS mp4):** AUDIO REBUILD PASS (23 V1 segs, 247.6s,
+SHA 0c42b9ab…). Whisper on the shipped file: j2 1:31 "Go wash in the pool of **Siloam**";
+n5 1:53 "pool of **si-LOH(-uhm)**" ("sea loam" — corrected long-o, not the old garble).
+
+**COMPLAINT LEDGER:**
+- "blind man's face not correct @ 3:39/3:44/3:49/3:56" → **FIXED.** All four windows now
+  render the ONE consistent young black-haired man (s39 / s41 / s42 / s42). s41+s42 were
+  already correct; s40→s39 and s43→s42 remove the two off-model stills.
+- "Jesus too close / trying to kiss him" → **FIXED.** The kissing s40 is gone (replaced by
+  the solo awe close-up s39); no two-figure kiss remains anywhere.
+- "1:53 / 1:34 Siloam mispronounced" → **FIXED (audio).** Verified in the rendered mp4.
+
+**COST:** $0.00 / 0 rerolls (pure reuse; Gemini wall untouched). Touch-once combined cut.
+**Note for a future billing-unblocked session:** the corrected b40/b43 prompts remain staged
+in beats_v2.py — a proper bespoke regen (two-figure arm's-length study for b40, young-man
+walk-away for b43) can replace the reused holds if desired. The reuse is fully in-spec now.
+
 ## §RE-PROBE 2026-08-12 (Opus RUNNER, Machine A `Dev`, 15th pass) — wall PERSISTS, $0, no re-stage/no churn
 Complaint-first + low-number law sent me to row 63. `--check` PASS (43 v4). Single billing probe
 `v2_gen_api.py … --only b40 --redo --ceiling 622` → **429 prepay-depleted**, meter **unmoved $617.34**
