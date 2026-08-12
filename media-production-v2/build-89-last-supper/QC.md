@@ -1,5 +1,23 @@
 # QC / RUNNER HANDOFF — build-89-last-supper (Luke 22:14-20)
 
+## ✅ C-FIX RE-OPEN #2 SHIPPED — "0:14 picture doesnt look like Jesus Redo it" (Opus runner, Machine A `Dev`, 2026-08-12, headless/unattended)
+
+**COMPLAINT LEDGER (Cameron, `v2_outline.py 89` / REVIEW-LESSONS row 89):**
+- *"0:14 picture doesnt look like Jesus Redo it"* (reportedAgainst `a02d9445` = the 2026-08-11 brown-iris cut) → **FIXED by fresh regen of s03, NOT another iris edit.** 0:14 renders **s03** (jv15, "With desire I have desired…", window 11.54-16.42, midframe 13.67s). Cameron rejected BOTH prior states of this frame — the green original (history[0], hash `64293f9b`) AND the brown-iris fix (history[1], hash `a02d9445`) — so the defect was FACE IDENTITY drift off the JESUS-V2-REF, not eye colour. The frame now clearly matches the ref: long tousled wavy dark-brown hair with bronze lights below the shoulders, lean weathered Semitic face, luminous green-and-gold eyes, full dark beard, warm olive skin, cream robe, no halo — a tight close-up with disciples flanking (satisfies must_show).
+
+**PROMPT AUTOPSY (rubric meta-law 3) — VERDICT: CAUSED.**
+The original b03 scene text (beats_v2.py) literally read *"the wanting open and unashamed in the **warm brown** eyes."* That is a POSITIVE instruction toward brown eyes that CONTRADICTS both JESUS LOCK v5 ("a LUMINOUS INDETERMINATE COLOUR… green and amber and gold at once") and the attached JESUS-V2-REF image — a sentence outranking the ref, exactly what rubric lesson 20 (2026-08-12) forbids. The word pushed the eyes off-ref; the 2026-08-11 session then iris-recoloured them further toward brown, compounding the same lesson-20 violation. **FIX = rewrote the words:** `"warm brown eyes"` → `"luminous green-and-gold eyes"` (aligned to lock v5 + ref), then regenerated s03 fresh against the ref (b03 carries no rough_ref, so the gen relies purely on JESUS-V2-REF + ROOM plate — no drifted composition inherited). First draw came back a WIDE room shot (ROOM plate dominated, failed the close-up must_show) → 1 reroll → keeper.
+
+**LESSON-20 SWEEP (touch-once):** the 2026-08-11 brown-iris edit also sat on the other three tight Jesus close-ups — s07 (0:40), s11 (0:59), s13 (1:13). Cameron never flagged those individually and their green originals were in the cut he accepted at those timestamps, so they were **reverted to their `.preeye.bak` green (ref-correct) originals — $0.** After revert they are consistent with the new s03 (same hair/face/eyes). No brown-iris edit remains in the cut.
+
+**FULL-CUT GATE (Cameron 2026-08-10) — 16/16 beats + closing card, one midframe per beat extracted from the RENDERED mp4 — CLEAN:** Jesus face-locked/ref-matching/cream-only/olive-skin/full-beard/no-halo in every appearance (s02/s03/s04/s05/s06/s07/s09/s10/s11/s12/s13/s14/s15); no Jesus double, no 2nd cream figure (disciples earth-tone/ecru); green-gold eyes now systemic-ref across ALL close-ups (no brown outlier, no blue/pale drift); realistic throughout (no cartoon frame, Law-14 clean); night lighting correct; anatomy/hands clean; s08 hands-insert reads; s15 doorway ~11-13 realistic (the earlier 1:17 fix holds); s16 empty table correct ("still on the table"); captions bottom-band white-narr/red-Jesus (s03/s07/s11/s13 red); closing card clean cream serif.
+
+**AUDIO:** picture-only fix — `v2_assemble.py 89` printed `AUDIO REBUILD PASS SHA256=29a5b1d0…`, **byte-identical** to the cut Cameron already has. Narration/voices/timing untouched.
+
+**COST:** 2 s03 gens (1 wide reject + 1 keeper) = 1 reroll on a 16-beat row = **6.25%** (≤15% budget) + 3 free reverts = **$0.27 / meter $604.74→$605.01**. Under the $6.10/row running average. `*.preeye.bak` kept locally.
+
+---
+
 ## ✅ C-FIX SHIPPED — "0:14 doesn't look like Jesus" + "1:17 too many people & not realistic" (Opus runner, Machine A `Dev`, 2026-08-11, headless/unattended)
 
 **COMPLAINT LEDGER (Cameron, `v2_outline.py 89`):**
