@@ -1,3 +1,18 @@
+## 2026-08-11 (cont. 52) — Row 66 "Malchus Ear" (Luke 22) C-FIX — 4th RE-OPEN, ROOT CAUSE FOUND & SHIPPED — Machine A `Dev`, Opus, unattended/headless
+
+**Commit:** `aa5cbea887b003a0c40d4a58699cf90ac42394b3` (cut+sources) + the board/log/review push below. Session-chain verified at start: prior top entry cont.51 `4493b4141` present in `git log`.
+
+Cameron filed his **4th complaint** on row 66 (lowest waiting, complaint-first): *"all the pictures for this one are bad ... very low grade ... I need a complete restart."* The prior 3 C-FIXes failed because they blind-rerolled the same beat text. I ran the **FULL-CUT GATE** on the live cut (`c3fbb9ff`), traced every timestamped complaint to the frame that renders there, and found the **real root cause the prior fixes missed: the `GARDEN` place-plate is `s01` — a fully-PEOPLED establishing WIDE** (Jesus over reclining disciples + a downhill torch-line). Every close garden beat inherited that arrangement → the recycled look ("people disappear/come back"), the "asleep" disciples (0:28), and the "army going the wrong way" (downhill torch-line).
+
+- **Beat-text root-cause re-cut (this build's beats_v2.py) + regen of b05,b06,b09,b12,b15,b16,b23:** b05 = tight reaction, three STANDING alarmed disciples + mob arrived close (0:28 asleep FIXED); b06 = ONE ordinary short sword, clean draw (0:32 weird-sword FIXED); b09/b12/b16 = drawn blade points at the MOB or DOWN at Peter's own side, hard must_not "no blade points at the cream-robed man" + PETER image-lock on b09 (0:50 & 1:04 "swinging on Jesus" FIXED); b15 = close upward-glance portrait, soft framing (1:24 tree-crop FIXED); b23 = back in the garden (place-drift off a stone wall FIXED, added GARDEN lock).
+- **b06/b23 rerolled once:** modern bamboo TIKI-TORCH → period wooden torch (row-7 lantern class). Full-cut gate caught it on the FIRST render.
+- **Audio complaint #1 ("weird sound after Lord at 0:30"):** diagnosed — NOT a glitch (no click found); it was the redundant word **"Lord"** — scripture `s49` says *"LORD, shall we smite…"* and `n1b` re-opened *"LORD — should we fight?"* one second later. The audio authority is the V1-folder mp4 (v2_assemble pulls `1:a` from `media-production/build-66.../`), so muted the 0.71 s "Lord —" region THERE (duration byte-identical → no still-window moved) and fixed the caption at its real source (V1 `make_narration` SEGMENTS + `audio/n1b.timing.json`, which is what the render reads — the V2-folder edits alone did nothing). Verified in the shipped mp4: 30 s audio muted, caption reads *"Should we fight?"*. Audio hash **91d501ba → c9ebe4a6** (breaks autopilot's reopen loop).
+- **FULL-CUT GATE on the rendered mp4:** all 29 beats + card viewed; arrest sequence now reads as one advancing scene, Jesus one locked face/cream-only, realistic throughout, no half-figure, captions bottom-band 3-colour, card clean.
+- **Cost:** 9 image gens (7 root-cause + 2 tiki rerolls) ≈ **$1.21** — in line with the C-FIX norm, does not raise the running average. Backups: `*.pre-lorddedup.bak` in both build folders.
+- **Ship:** commit `aa5cbea8`, review.html card (hash + ?v + flag answering each complaint in his words), board Claim → SHIPPED. Deploy + live-verify below.
+
+---
+
 ## 2026-08-11 (cont. 51) — VERIFY-PASS row 117 "Hosea Buys Her Back" (Hosea 1-3) — independent FULL-CUT GATE 6b, CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, unattended/headless
 
 **Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.50 `71ebafac4` / `710a2b6e9` — both present in `git log`.
