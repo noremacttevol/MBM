@@ -514,22 +514,28 @@ BEATS = [
         "window": "95.37-98.51", "wide": False, "jesus": False, "ref": False,
         "locks": ["ROOM", "CRITICS"],
         "narration": "Nobody else in that house would even let him say the word.",
-        "must_show": "the flinch — around the table, faces turning aside at the burial word: a wince, a shaken head, eyes finding the floor; a room refusing a truth.",
-        "must_not_show": "no halo, glare or rim-light; the refusals SMALL and human — winces and averted eyes, not melodrama.",
+        "must_show": "the flinch — close around the lamplit table on the FRIENDS (men in dark rust-brown, charcoal and slate robes) turning aside at the burial word: a wince, a shaken head, eyes finding the floor; a room refusing a truth. Jesus is NOT the subject of this frame — the friends' averted faces are.",
+        "must_not_show": "no halo, glare or rim-light; the refusals SMALL and human — winces and averted eyes, not melodrama. NO forward-facing cream/off-white-robed man anywhere in the frame: Jesus's face never appears here — if the teacher at the table's head is visible at all he is seen ONLY as a turned-away cream-robed back or shoulder with NO face. Nothing in this frame may be read as an off-model Jesus.",
         "scene": (
-            "The word moves down the table and "
-            "the table flinches from it: one "
-            "man's head shaking a small "
-            "involuntary NO, another's eyes "
-            "dropping to the floorboards, a "
-            "third turning his cup in his "
-            "fingers as if the subject could "
-            "be stirred away — a houseful of "
-            "friends each privately declining "
-            "the sentence their teacher keeps "
-            "trying to hand them. Every figure "
-            "has two arms, two hands and one "
-            "head."
+            "The word moves down the lamplit "
+            "table and the friends flinch from "
+            "it: the camera close on their "
+            "averted faces — one man's head "
+            "shaking a small involuntary NO, "
+            "another's eyes dropping to the "
+            "floorboards, a third turning his "
+            "cup in his fingers as if the "
+            "subject could be stirred away — a "
+            "houseful of men in dark rust and "
+            "charcoal robes each privately "
+            "declining the burial their supper "
+            "will not admit. The teacher who "
+            "spoke the word is out of this "
+            "frame, or shown only as a turned "
+            "cream-robed back at the table's "
+            "head — no face, never facing the "
+            "camera. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {

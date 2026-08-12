@@ -1,5 +1,35 @@
 # QC / RUNNER HANDOFF — build-82-anointing-at-bethany (Mark 14:3-9)
 
+## ⛔ C-FIX PARKED — BLOCKED ON GEMINI BILLING (Machine A `Dev`, 2026-08-12) — autopsy done + fix applied, ONE still to regen
+
+**Cameron re-filed (reportedAgainst `a6e48c97` = the CURRENT shipped cut):** *"1:36 picture does not look like Jesus."*
+The prior 2026-08-12 C-FIX fixed the WRONG frame — it traced "1:35" to **s17** (woman's hands) and its FULL-CUT GATE missed the real culprit.
+
+**TRACE (from the LIVE mp4 `efab5697`, one frame per beat):** 1:36 = 96s = **s18 / beat `v2-r082-b18`** ("Nobody else in that house would even let him say the word"). The frame renders a **cream-robed figure at the head of the table, read as Jesus but OFF-MODEL** — soft/generic/sad face, not the locked green-hazel Jesus of s01/s13/s16. That is Cameron's "does not look like Jesus."
+
+**FULL-CUT GATE (all 25 beats + card VIEWED from the rendered mp4):** ONLY s18 is complaint-worthy. Every other Jesus frame (s01/s03/s08/s09/s10/s11/s12/s13/s15/s16/s19/s20/s23) is on-model; woman olive throughout; HEAD-anointing; flask broken at neck; only-Jesus-cream; speaker colors correct (scripture BLUE s05, Jesus RED s09/s12/s16/s20, narrator WHITE); anatomy correct; realistic; card clean. (Non-blocking subtle drift, COST-LAW leave: a background light-robed man in s06; s11/s16 slightly brighter.)
+
+**PROMPT AUTOPSY (rubric meta-law 3) — verdict: ALLOWED (missing constraint).** b18 is `jesus:False`, `ref:False` (no locked face attached), but its scene said *"a houseful of friends each privately declining the sentence THEIR TEACHER keeps trying to hand them."* "their teacher" invited the model to paint Jesus at the head — and with no REF + no on-model requirement, the Jesus it paints is inevitably off-model. The prompt neither forbade a frontal Jesus nor required the lock.
+- **FIX APPLIED to beats_v2.py b18 (scene/must_show/must_not_show):** reframe onto the flinching FRIENDS (the narration is about the *house*, not Jesus); explicit guard — "NO forward-facing cream/off-white-robed man; Jesus's face never appears here; if the teacher is visible at all he is a turned-away cream back/shoulder with NO face; nothing may read as an off-model Jesus." `v2_prompt.py --check` = PASS (25 beats, v4 checklist PASS).
+
+**BLOCKER — cannot regenerate the one still:** the Gemini API returns `429 RESOURCE_EXHAUSTED — "Your prepayment credits are depleted"` (retried once after 60s per law; persists). This is real credit depletion, not a transient rate-limit — it blocks ALL image generation on EVERY lane until **Cameron tops up Google AI Studio billing** (https://ai.studio/projects). NOTHING was regenerated; $0 spent this session; meter $617.34.
+
+**RESUME (after Cameron tops up — one still, then assemble + ship, touch-once):**
+```
+cd media-production-v2
+# recompute ceiling = current meter + 1*0.134*1.5 + 25
+python3 v2_gen_api.py build-82-anointing-at-bethany --only v2-r082-b18 --redo --ceiling <meter+25.2>
+# VIEW the new s18: friends flinching, NO forward-facing cream Jesus (only a faceless turned cream back at most)
+python3 v2_assemble.py 82          # must print AUDIO REBUILD PASS SHA256=de0b21ab… (byte-identical audio)
+# FULL-CUT GATE the rendered s18 window + neighbors, then SHIP (two commits, review.html data-hash + ?v=, firebase deploy --only hosting, live-verify HTTP 200)
+# review card must answer Cameron in his words: "'1:36 does not look like Jesus' — that frame is now the friends flinching, no off-model Jesus"
+# board Claim -> C-FIX SHIPPED; publish_ledger.py sync --commit
+```
+Do NOT ship the current mp4 — it still carries the off-model s18.
+
+---
+
+
 ## 🛠 C-FIX SHIPPED — Cameron "1:35 picture does not look like Jesus", Machine A `Dev`, 2026-08-12 (UNATTENDED/HEADLESS)
 
 **COMPLAINT LEDGER (open → answered):**
