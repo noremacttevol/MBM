@@ -383,13 +383,20 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **PLATE frames propagate their defects** (b41 lamp was IN the plate): QC the
   plate/anchor frame FIRST and hardest — every later beat of that place
   inherits its mistakes.
-- **DO NOT reroll Jesus's green/hazel eyes** (row 54 b13 "I will" close-up): the
-  locked V2 reference `JESUS-V2-REF/jesus-v2-face.jpeg` is itself green/hazel-eyed,
-  so every Jesus frame echoes it and it is CONSISTENT across all shipped V2 rows
-  (45/46/47/52/53). A reroll cannot change it (it re-echoes the ref) and only
-  burns meter; editing the ref is a hard-rail violation. If Cameron files it, it
-  is a whole-wave reference swap, not a per-row fix — log the observation in QC.md
-  and move on. (Memory: `v2_rebuild_plan` "green-eyed Jesus".)
+- **DO NOT reroll — AND DO NOT IRIS-EDIT — Jesus's green/hazel eyes** (row 54
+  b13; loophole closed 2026-08-12 after rows 71/89/98/120): the locked V2
+  reference `JESUS-V2-REF/jesus-v2-face.jpeg` is itself green/hazel-eyed, so
+  every Jesus frame echoes it and it is CONSISTENT across shipped V2 rows. A
+  reroll cannot change it and only burns meter; editing the ref is a hard-rail
+  violation — **and a targeted iris-recolour edit to brown is the SAME
+  violation through the back door.** In the week of 2026-08-11 three C-FIX
+  sessions brown-edited close-ups citing the V1-era CLAUDE.md 8(g) "warm brown
+  eyes"; that text governs the V1 pipeline (LOCK v3), not V2 — rubric lesson 20
+  reverses those edits. The ref image outranks every prose law line. Cameron
+  has never filed an eye-COLOUR complaint; "weird/crazy eyes" = gaze geometry
+  (rubric lesson 18), reroll for that only. Restore ref-true eyes on rows
+  71/89/98/120 in each row's next touch-once re-cut. (Memory:
+  `v2_rebuild_plan` "green-eyed Jesus".)
 - **"Weird eyes" ≠ eye COLOUR — DO reroll a misaligned/dead-stare gaze** (row 1
   C-FIX, b15, Cameron complaint "1:10 Jesus's eyes looking weird"). The
   no-reroll rule above is about the ref's green/hazel *colour*, which a reroll

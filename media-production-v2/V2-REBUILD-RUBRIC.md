@@ -242,6 +242,22 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
     rope, state the solid-rope requirement in must_show and the ghost-rope ban in
     must_not_show. (Companion to lesson 8 ACTION-LOGIC: a rope that carries no
     visible load, or vanishes mid-span, fails the glance test.)
+20. **EYE COLOUR COMES FROM THE REFERENCE IMAGE — the green→brown edits are
+    REVERSED (process autopsy, 2026-08-12).** The locked V2 master
+    `JESUS-V2-REF/jesus-v2-face.jpeg` is itself **green/hazel-eyed** — that IS
+    the approved face (JESUS_LOCK_V5 matches it on purpose; see the recorded
+    rationale above the lock in `v2_prompt.py`). In the week of 2026-08-11,
+    C-FIX sessions on rows 71, 89, 98, 120 iris-EDITED his green eyes to brown,
+    citing the older CLAUDE.md 8(g) "warm brown eyes" — that text is the
+    **V1-pipeline standard** (JESUS-MASTER-REF / LOCK v3) and does NOT govern
+    V2. Cameron never complained about eye colour. The permanent rule, per his
+    own law ("anything that must look the same twice gets locked to a reference
+    IMAGE, never a description"): **when prose law text and the active
+    reference image disagree, the IMAGE wins — never reroll AND never
+    identity-edit a frame AWAY from the ref.** "Weird eyes" complaints are gaze
+    geometry (lesson 18), never colour. Restore ref-true eyes on rows
+    71/89/98/120 in each row's NEXT touch-once re-cut (never as its own
+    re-cut — their shipped complaint fixes are otherwise correct).
 
 ## Per-story workflow
 

@@ -1,3 +1,16 @@
+## 2026-08-12 (cont. 66) — LAW REPAIR: green→brown eye-edit drift REVERSED at source (ref image outranks prose; rows 71/89/98/120 flagged for ref-true restore on next touch) + credits/stash status for Cameron — Machine A `Dev`, process-engineer session
+
+**Commit:** this push. Chain: cont.65 loop-repair `ca5294aa8` at HEAD.
+
+Cameron (2026-08-12): loaded more Gemini credits; wants all videos fast + cheap through the API and reuse of good approved pictures; worried quality is dropping. Findings + actions ($0 spend):
+
+- **Credits ARE flowing:** overnight after the cont.65 loop fix the cron shipped C-FIXes for rows 119, 94, 96, 73, 103 and verify swept rows 118, 121 (first non-117 verifies ever). No billing breaker since 2026-08-06. The "$0" in cont.65 was the repair session itself, not production.
+- **Reuse already exists and is live** (his 2026-08-04 order → v2_stash.py): STASH-INDEX fresh-scanned 2026-08-12 00:04 with **3,587 approved stills** indexed; --wire/--promote place-plates active in current builds (PLACE-WIRING.json churn), per-story faces via v2_story_cast.py.
+- **QUALITY DRIFT FOUND & KILLED — the week's green→brown Jesus eye edits were WRONG.** The locked V2 master `JESUS-V2-REF/jesus-v2-face.jpeg` is green/hazel-eyed (viewed it myself); JESUS_LOCK_V5 matches it on purpose (recorded rationale in v2_prompt.py). C-FIX sessions on rows 71, 89, 98, 120 iris-edited close-ups to brown citing CLAUDE.md 8(g) "warm brown eyes" — a V1-era (LOCK v3) sentence that never governed V2. Cameron NEVER filed an eye-colour complaint (checked REVIEW-LESSONS: his words were "doesn't look like Jesus"/shaved-head/tear/proximity). RUNNER-LESSONS already banned rerolling the green eyes; sessions dodged it via EDITS. Fixes, all same-session: (1) CLAUDE.md 8(g) corrected — eyes per the ACTIVE pipeline's ref image, V2 = green/hazel, image outranks prose; (2) rubric **lesson 20** (image-over-prose, no reroll AND no iris-edit away from the ref, restore 71/89/98/120 on next touch-once — never a standalone re-cut); (3) RUNNER-LESSONS bullet extended to close the edit loophole. Root cause class: TWO law sources disagreeing + sessions obeying the stale auto-loaded one — the fix puts the reversal in all three places sessions actually read.
+- Restores ride each row's next touch (all four already have open complaints awaiting Cameron's re-watch; their shipped fixes are otherwise correct — a standalone eye re-cut would burn money and re-queue him for nothing).
+
+---
+
 ## 2026-08-12 (cont. 72) — ROW 121 VERIFY-PASS "Salt and Light": FULL-CUT GATE CLEAN, but caught a HALF-DONE ship — live reviewer served the OLD 2026-07-28 V1 cut; completed the never-finished delivery ($0/0 credits) — Machine A `Dev`, Opus runner (unattended/headless)
 
 **Commit:** commit A `8d7434f53edfc662d0d66c066779a1728af3451c` (mp4 + QC.md + AUTHOR-BOARD, already on origin — a concurrent row-103 lane rebased on top as `7f9267311`); review.html card repoint + this SESSION-LOG in commit B below. Session-chain verified at start: prior top entry cont.70 (row 73 C-FIX), commit `9f7514fe2` present in `git log` — chain intact. Hostname `Dev` = Machine A.
