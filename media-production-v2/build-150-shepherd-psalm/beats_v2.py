@@ -311,17 +311,20 @@ BEATS = [
             "I will fear no evil: for thou art with me; thy rod and thy "
             "staff they comfort me."
         ),
-        "must_show": "SCRIPTURE-EXACT: the valley — the shepherd and flock passing THROUGH the deep-shadowed gorge, rod and staff in his hands, the bright far end visible; real dark, no fear imagery beyond it.",
-        "must_not_show": "ABSOLUTE: no death imagery, no bones, no spectres — real deep shadow and the THROUGH; rod and staff both visible.",
+        "must_show": "SCRIPTURE-EXACT: the valley — the YOUNG shepherd (ruddy, seventeen, short DARK RUST tunic) and flock passing THROUGH the deep-shadowed gorge, ROD (a short club) in one hand AND STAFF (a crook) in the other, BOTH clearly visible, the bright far end visible; real dark, no fear imagery beyond it.",
+        "must_not_show": "ABSOLUTE: no death imagery, no bones, no spectres — real deep shadow and the THROUGH; ROD and STAFF BOTH visible; David is the YOUNG shepherd here (~17, rust tunic), NEVER the older king in blue.",
         "scene": (
             "The dark part of the route is on the map and "
             "the shepherd walks it anyway: down the gorge's "
             "shadowed floor the little procession moves — "
             "true deep shade, the rock walls close, the "
             "flock bunched and quiet — and at their centre "
-            "the shepherd with the ROD in one fist for "
-            "whatever the dark holds and the STAFF in the "
-            "other for the flock's own stumbling — while "
+            "the YOUNG shepherd (ruddy, seventeen, in the "
+            "short dark rust tunic) with the ROD (a short "
+            "club) in one fist for whatever the dark holds "
+            "and the STAFF (a crook) in the other for the "
+            "flock's own stumbling, both clearly in view — "
+            "while "
             "far ahead, small and certain, the gorge's "
             "bright doorway of daylight waits: THROUGH, "
             "says the whole picture; this valley is a "
@@ -424,13 +427,16 @@ BEATS = [
         "window": "89.12-92.88", "wide": False, "jesus": False, "ref": False,
         "locks": ["TABLE", "DAVID"],
         "narration": "thou anointest my head with oil; my cup runneth over.",
-        "must_show": "SCRIPTURE-EXACT: the anointing and the overflow — a host's hand pouring oil onto the seated guest's head, AND the cup filled past its brim, running onto the cloth.",
-        "must_not_show": "no halo; the overflow REAL — wine over the brim, pooling; the oil's pour gentle on the head.",
+        "must_show": "SCRIPTURE-EXACT: the anointing and the overflow — a host's hand pouring oil onto the seated guest's head (the guest is YOUNG David, ~17, ruddy, short dark rust tunic — the same young man seated at the table in b15), AND the cup filled past its brim, running onto the cloth.",
+        "must_not_show": "no halo; the overflow REAL — wine over the brim, pooling; the oil's pour gentle on the head; the guest is the YOUNG shepherd (~17), NEVER the older king in blue.",
         "scene": (
             "The host's generosity gets physically out of "
             "hand: from above, a steady hand tips the horn "
-            "and the oil comes down bright onto the guest's "
-            "bowed head — the old extravagant welcome, "
+            "and the oil comes down bright onto the bowed "
+            "head of the guest — YOUNG David, seventeen, "
+            "ruddy, in the short dark rust tunic, the same "
+            "young man from the table in b15 — the old "
+            "extravagant welcome, "
             "running warm at the hairline — while on the "
             "cloth the cup has already passed its brim, "
             "wine trembling over the lip and spreading its "
@@ -534,26 +540,28 @@ BEATS = [
     {
         "id": "v2-r150-b21", "out": "s21-the-song-ends-where-every.jpeg", "seg": "n5b",
         "window": "116.51-121.43", "wide": False, "jesus": False, "ref": False,
-        "locks": ["DAVID"],
+        "locks": [],
         "narration": (
             "The song ends where every sheep longs to be: safely in the "
             "Shepherd's presence."
         ),
-        "must_show": "the double rest — the flock folded asleep in the lamplit fold; and the old king's finished scroll beside the quiet harp, his face at peace; both worlds closed at rest.",
-        "must_not_show": "no halo; the TWO rests in one frame-pair feel — sheep safe, psalmist at peace; script indistinct.",
+        "must_show": "ONE single coherent frame — the rest at nightfall: inside a lamplit stone sheepfold the flock lies folded and asleep, safe within the walls, and on a low stone ledge WITHIN the same fold the finished curled scroll rests beside the quiet harp; a single period clay oil lamp lights the whole scene.",
+        "must_not_show": "ABSOLUTE: NOT a two-panel / split / diptych / collage frame — ONE continuous photographic space, no horizontal or vertical seam dividing two scenes; NO separate palace-desk half; no second location; no figure/person in frame; no halo or glow; no modern kerosene lamp — a clay oil lamp only; script on the scroll indistinct.",
         "scene": (
-            "Both halves of the poet come home in the last "
-            "verse: in the lamplit fold the flock lies "
-            "folded and breathing slow, safe inside the "
-            "Shepherd's kept walls — and at the palace "
-            "table the finished scroll lies curled beside "
-            "the quiet harp, the old king leaned back with "
-            "his eyes closed and his face gone to peace — "
-            "the boy from the pastures and the king from "
-            "the wars, both, at the end of the song, "
-            "exactly where every sheep alive longs to be: "
-            "in the presence, safe, home. Every figure "
-            "has two arms, two hands and one head."
+            "The song comes to rest in one quiet room at "
+            "nightfall: inside a lamplit stone sheepfold "
+            "the flock lies folded and breathing slow, "
+            "safe within the Shepherd's kept walls — and "
+            "on a low stone ledge along that same fold, in "
+            "the same warm lamplight, the finished scroll "
+            "lies curled beside the quiet harp, the day's "
+            "shepherding and the psalm both set down and at "
+            "peace. One single photographic frame, one "
+            "continuous space, one small clay oil lamp — "
+            "the sheep safe and the song finished in the "
+            "very same kept place, exactly where every "
+            "sheep alive longs to be: in the presence, "
+            "safe, home. No people are in the frame."
         ),
     },
 ]

@@ -1,5 +1,34 @@
 # QC / RUNNER HANDOFF — build-150-shepherd-psalm (Psalm 23)
 
+## ✅ AUTHOR FIX DONE → BUILT (Fable-5 author lane, Machine A `Dev`, 2026-08-11, $0)
+The 3 parked beats had their SCENE TEXT fixed at the author level (the only thing the
+runner was barred from doing). `v2_prompt.py --check` PASS, zero WARNs; audio untouched
+(Audio still OK). State flipped **NEEDS-REBUILD → BUILT** so the paid **cfix** lane does
+the targeted re-cut. **The open complaint stays open** until the re-cut ships.
+
+**PAID cfix lane — do exactly this (per QC RESUME block below), nothing else:**
+```
+python3 v2_gen_api.py build-150-shepherd-psalm --only v2-r150-b11 v2-r150-b16 v2-r150-b21 --redo --ceiling <meter+3>
+# full-cut gate the 3 regens; then v2_assemble.py 150 (must print AUDIO LOCK PASS)
+# verify captions per COMPLAINT LEDGER (scripture=blue, narrator=white, plain modern
+# narrator, no old-english in a white caption) by transcribe-diff on the final mp4.
+# ship two commits + firebase deploy + live-verify per PROMPT-OPUS-RUNNER step 7.
+```
+What the author changed (all $0 text):
+- **b11** (valley) — scene + must_show/not_show now name the **YOUNG shepherd (~17, ruddy,
+  short dark rust tunic)** so he matches the adjacent young b13, and the rod/staff clause is
+  hardened to **"ROD (a short club) in one hand AND STAFF (a crook) in the other, BOTH clearly
+  visible"** (fixes the reroll that dropped the rod over the "thy rod and thy staff" line).
+- **b16** (anointing) — the anointed guest is now explicitly **YOUNG David (~17, the same young
+  man seated at the table in b15)**, killing the age-flip against b15.
+- **b21** (closing) — **de-scoped the structural diptych to ONE single-frame scene**: the lamplit
+  stone sheepfold at night, flock folded asleep, and on a low stone ledge WITHIN that same fold
+  the finished curled scroll beside the quiet harp, one clay oil lamp — NO palace-desk second
+  panel, NO seam, NO figure. `locks` emptied (person-free frame) and a hard anti-diptych/anti-seam
+  ban added to must_not_show. This is an author beat-text fix a reroll could never make.
+
+---
+
 ## 🅿️ RUNNER PARK → NEEDS-REBUILD (Opus runner, Machine A `Dev`, 2026-08-11)
 
 **State:** 21 beats generated (native 2K), 18 clean + banked. Audio PRE-FLIGHT
