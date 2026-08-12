@@ -48,7 +48,7 @@ SEGMENTS = [
     ("n1", NARRATOR, "And his friends could not stand it. Luke says they saw what was about to happen, and they asked him first:"),
     # Luke 22:49
     ("s49", SCRIPTURE, "Lord, shall we smite with the sword?"),
-    ("n1b", NARRATOR, "Lord — should we fight? they said. And then they did not wait for the answer. Impulsive, loyal, terrified Peter grabbed a sword and swung — meaning, surely, to defend the man he loved. He caught the servant of the high priest, a man named Malchus, and cut off his ear. In one second, the whole night was about to become a massacre."),
+    ("n1b", NARRATOR, "Should we fight? they said. And then they did not wait for the answer. Impulsive, loyal, terrified Peter grabbed a sword and swung — meaning, surely, to defend the man he loved. He caught the servant of the high priest, a man named Malchus, and cut off his ear. In one second, the whole night was about to become a massacre."),
     ("n2", NARRATOR, "Understand Peter's math. Twelve tired men against an armed mob. He was not being smart — he was being brave and wrong, ready to die swinging for Jesus. And most leaders, in that moment, would have let him. But Jesus stopped everything. First, he stopped Peter:"),
     # Matthew 26:52
     ("j1", JESUS, "Put up again thy sword into his place: for all they that take the sword shall perish with the sword."),

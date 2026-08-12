@@ -129,7 +129,7 @@ BEATS = [
         "id": "v2-r066-b02", "out": "s02-lord-should-we-fight.jpeg", "seg": "n1b",
         "window": "29.62-31.29", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN"],
-        "narration": "Lord — should we fight?",
+        "narration": "Should we fight?",
         "must_show": "the question's face — a disciple's torch-lit face asking it: fear and loyalty at war, a hand already at a sword hilt.",
         "must_not_show": "no halo, glare or rim-light; the hand AT the hilt, not drawn — the question still a question.",
         "scene": (
@@ -209,47 +209,54 @@ BEATS = [
             "Luke says they saw what was about to happen, and they asked him "
             "first: Lord, shall we smite with the sword?"
         ),
-        "must_show": "SCRIPTURE-EXACT: the asking — the disciples' faces turned to Jesus in the torch-glare, the question hanging; his answer not yet come.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the un-answered instant — permission sought and the night not waiting.",
+        "must_show": "SCRIPTURE-EXACT: the asking — the three disciples ON THEIR FEET and ALARMED, turned to Jesus in the torch-glare, the question hanging; his answer not yet come.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; NOBODY seated, reclining, lying down, dozing or asleep — every disciple is standing, wide awake and alarmed; the mob is CLOSE and large, never a distant little torch-line down the hill; the un-answered instant — permission sought and the night not waiting.",
         "scene": (
-            "Tight on the three disciples from the front, "
-            "their torch-lit faces all turned up one way "
-            "— to Jesus close above them, the question "
-            "hanging in the orange-lit air between them — "
-            "his own face steady and beginning its answer "
-            "— while just past their shoulders, only a few "
-            "strides off now and CLOSER than at the "
-            "opening, the mob's front rank has already "
-            "stepped up onto the terrace grass from the "
-            "lower-left, their torches burning LARGE and "
-            "near at the disciples' backs — the arrest "
-            "party arrived, not a distant column, the "
-            "night out of room for questions. This is a "
-            "tight reaction shot on the upturned faces, "
-            "NOT a wide repeat of the establishing view. "
-            "Every figure has two "
-            "arms, two hands and one head."
-        ) + ARREST_CONT,
+            "A TIGHT reaction shot, waist-up, filling the "
+            "frame with THREE STANDING disciples and Jesus "
+            "— every one of them ON HIS FEET, wide awake, "
+            "bodies tense and alarmed, faces snapped up "
+            "toward Jesus close beside them as the question "
+            "leaves them; his own face steady, beginning "
+            "its answer. The arrest mob has ALREADY ARRIVED "
+            "and stands CLOSE right behind and among them — "
+            "big near torch-flames and helmeted faces "
+            "crowding in at arm's length, filling the "
+            "background wall-to-wall — NOT a distant column, "
+            "NOT a thin torch-line snaking away down the "
+            "hill. This is a close, crowded, alarmed moment, "
+            "NOT the wide establishing view of Jesus standing "
+            "over seated men. Absolutely no one is sitting, "
+            "kneeling, reclining or resting on the ground. "
+            "Night, torch-orange and moon-silver only. Every "
+            "figure has two arms, two hands and one head."
+        ),
     },
     {
         "id": "v2-r066-b06", "out": "s06-they-said-and-then-they.jpeg", "seg": "n1b",
         "window": "31.29-34.45", "wide": False, "jesus": False, "ref": False,
         "locks": ["GARDEN"],
         "narration": "they said. And then they did not wait for the answer.",
-        "must_show": "the answer outrun — a sword clearing its sheath in the torchlight, the blade half-drawn; decision jumping the queue.",
-        "must_not_show": "no halo, glare or rim-light; the draw itself — steel catching torch-orange, permission left behind.",
+        "must_show": "the answer outrun — ONE ordinary short sword clearing its sheath in the torchlight, the blade half-drawn; decision jumping the queue.",
+        "must_not_show": "no halo, glare or rim-light; ONE single weapon only — no second sword, dagger or spare hilt in the other hand; the blade is a normal, believable short-sword length, NOT an oversized or grotesquely long blade, NOT bent or mis-shapen; one hand grips the hilt, the other steadies the scabbard — both hands reading correctly; ANY torch in frame is an ancient hand-held wooden torch or pitch brand — NEVER a modern segmented BAMBOO TIKI-TORCH, garden flare, patio/luau torch or metal-canister torch; the draw itself — steel catching torch-orange, permission left behind.",
         "scene": (
-            "Close in the torch-orange dark: a short "
-            "sword clearing its sheath — the blade "
-            "half-drawn, catching the flame-light down "
-            "its length, the drawing hand's knuckles "
-            "white — the question asked two seconds ago "
-            "already abandoned behind the metal, loyalty "
-            "outrunning its own request for permission "
-            "into the worst idea of the night. Every "
-            "figure has two arms, two hands and one "
-            "head."
-        ) + ARREST_CONT,
+            "Close in the torch-orange dark on ONE man's "
+            "hands and a SINGLE ordinary short sword — a "
+            "plain, normally proportioned iron blade about "
+            "forearm-length, half-drawn from its leather "
+            "scabbard, catching the flame-light cleanly "
+            "down its length. One hand grips the hilt, "
+            "knuckles white; the other holds the scabbard "
+            "steady. Just one sword, one clean draw — no "
+            "second weapon, no spare dagger or extra hilt "
+            "anywhere in frame, the blade a plausible real "
+            "length and shape, never giant, never warped. "
+            "The question asked two seconds ago already "
+            "abandoned behind the metal, loyalty outrunning "
+            "its own request for permission into the worst "
+            "idea of the night. Every figure has two arms, "
+            "two hands and one head."
+        ),
     },
     {
         "id": "v2-r066-b07", "out": "s07-impulsive-loyal-terrified-peter-grabbed.jpeg", "seg": "n1b",
@@ -301,21 +308,28 @@ BEATS = [
     {
         "id": "v2-r066-b09", "out": "s09-in-one-second-the-whole.jpeg", "seg": "n1b",
         "window": "47.69-51.53", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MOB", "GARDEN"],
+        "locks": ["PETER", "MOB", "GARDEN"],
         "narration": "In one second, the whole night was about to become a massacre.",
-        "must_show": "the brink — the whole clearing at once: guards' swords clearing sheaths, staves coming up, the disciples bracing; every body in the frame cocked toward catastrophe.",
-        "must_not_show": "no halo, glare or rim-light; the violence PENDING everywhere and delivered nowhere — a frame of pure trajectory.",
+        "must_show": "the brink — TWO OPPOSED LINES: on one side the mob's guards, swords clearing sheaths and staves coming up; FACING THEM, the disciples braced, the big fisherman's blade out and pointed ACROSS the gap AT THE MOB; every body cocked toward the space BETWEEN the two lines.",
+        "must_not_show": "no halo, glare or rim-light; the fisherman is PETER — a big, DARK-HAIRED, DARK-CURLY, dark-bearded man in his prime, NEVER grey-haired, white-haired, bald or elderly; his drawn blade points OUTWARD toward the enemy mob or the empty ground between the lines, its tip NEVER toward Jesus and never toward any friend — no disciple's weapon is aimed at Jesus or at the cream-robed man; if Jesus is visible he stands BEHIND and among his own men, shielded, well clear of every blade's edge; the violence PENDING everywhere and delivered nowhere.",
         "scene": (
-            "The clearing cocks itself in one breath: "
-            "down the mob's line a dozen short swords "
-            "come clearing out of sheaths, staves "
-            "swinging level, torches lofted for the "
-            "light to kill by — and opposite them the "
-            "disciples bracing, the big fisherman's "
-            "blade still out — two lines of frightened "
-            "men one shout from butchery, in a garden "
-            "planted for oil and prayer. Every figure "
-            "has two arms, two hands and one head."
+            "The clearing cocks itself in one breath, shot "
+            "square-on across the narrow gap between two "
+            "opposed lines. On the far side the mob's "
+            "front rank: a dozen short swords clearing "
+            "sheaths, staves swinging level, torches "
+            "lofted. On the near side the disciples brace "
+            "shoulder to shoulder — PETER the big "
+            "dark-curly-haired fisherman foremost, his "
+            "single blade out and levelled ACROSS the gap "
+            "toward the advancing mob, pointed at the "
+            "enemy and the empty ground, NEVER back at his "
+            "own people. Any figure in a cream robe stands "
+            "safely BEHIND the disciples' line, no blade "
+            "anywhere near him. Two lines of frightened men "
+            "one shout from butchery, in a garden planted "
+            "for oil and prayer. Every figure has two arms, "
+            "two hands and one head."
         ),
     },
     {
@@ -371,20 +385,25 @@ BEATS = [
             "And most leaders, in that moment, would have let him. But Jesus "
             "stopped everything. First, he stopped Peter:"
         ),
-        "must_show": "the stopping — Jesus stepping BETWEEN Peter's blade and the mob, one hand raised to each side; the whole night's violence halted on his two palms.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the interposition his — body between the armies, calm against both currents.",
+        "must_show": "the stopping — Jesus stepping BETWEEN Peter and the mob, one open palm toward each side; Peter's sword FALTERING and DROPPING toward the ground; the whole night's violence halted on Jesus's two open hands.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; Peter's blade must be LOWERING, its tip angled DOWN toward the ground or held out to Peter's own side AWAY from Jesus — the sword's point is NEVER aimed at Jesus, never across his body, never level with his chest; Peter (dark-haired, dark-curly, dark-bearded) is stopped and yielding, NOT menacing Jesus; no weapon of any kind points at the cream-robed man; the interposition his — body between the armies, calm against both currents.",
         "scene": (
             "Into the cocked half-second Jesus steps — "
-            "between Peter's levelled blade and the "
-            "mob's drawn line, one palm raised toward "
-            "each side, cream robe torch-lit in the "
-            "middle of the iron — and the whole night "
-            "stops on his two open hands: guards "
-            "checked mid-step, Peter's sword-arm "
-            "faltering, violence hanging unfinished in "
-            "the air on either side of one unarmed man. "
-            "Every figure has two arms, two hands and "
-            "one head."
+            "planting his body between his own men and "
+            "the mob's drawn line, one open palm turned "
+            "toward each side, cream robe torch-lit in "
+            "the middle of the iron. On Jesus's near "
+            "side Peter checks: his sword-arm falters and "
+            "the blade DROPS, its point sinking toward "
+            "the ground at Peter's own side, turned well "
+            "AWAY from Jesus — never leveled at him, "
+            "never crossing his body. On the far side the "
+            "guards are checked mid-step. The whole night "
+            "stops on Jesus's two open hands: violence "
+            "hanging unfinished on either side of one "
+            "unarmed man, and not a single blade pointed "
+            "his way. Every figure has two arms, two "
+            "hands and one head."
         ),
     },
     {
@@ -439,20 +458,27 @@ BEATS = [
             "He said he could call down more than twelve legions of angels this "
             "instant if rescue were the plan — but rescue was not the plan."
         ),
-        "must_show": "the unsummoned help — Jesus's face lifted briefly to the night sky above the olive trees: the stars plain and empty; power declined rendered as an unanswered upward glance.",
-        "must_not_show": "NO angels, NO legions, NO light in the sky — stars only (no-angels law); the declining visible in the gaze's return to earth.",
+        "must_show": "the unsummoned help — a CLOSE portrait of Jesus's face and shoulders tipped up to the night sky, the stars plain and empty above him; power declined rendered as one quiet upward glance.",
+        "must_not_show": "NO angels, NO legions, NO light in the sky — stars only (no-angels law); do NOT repeat the wide establishing view — this is NOT the full-figure shot of Jesus standing over seated disciples, and there is NO thin torch-line snaking away down the hill; the olive branches frame the sky softly and naturally, NOT chopped or cropped into a jarring hard hole; the declining visible in the gaze's return to earth.",
         "scene": (
-            "Jesus's face lifts briefly to the night "
-            "above the olive crowns — the deep sky "
-            "thick with plain cold stars, empty of "
-            "everything except its own distance — and "
-            "comes back down to the torch-lit circle "
-            "with the calm of a man who has just "
-            "declined the largest reinforcement in "
-            "existence by simply not asking — the "
-            "whole unsummoned rescue passing through "
-            "one upward glance. Every figure has two "
-            "arms, two hands and one head."
+            "A CLOSE, intimate shot — Jesus from the "
+            "chest up, his face and throat tipped back "
+            "to look up into the deep night sky above "
+            "the olive crowns: the sky thick with plain "
+            "cold stars, empty of everything except its "
+            "own distance, a soft scatter of olive "
+            "leaves at the edges of the frame catching "
+            "the moonlight naturally. His expression is "
+            "the calm of a man who has just declined the "
+            "largest reinforcement in existence by simply "
+            "not asking. This is a tight upward-glance "
+            "portrait, NOT the wide establishing view, "
+            "NOT a full-figure stand among seated men, "
+            "and there is no long torch-line running off "
+            "down the hillside behind him. Torch-orange "
+            "warms one side of his face, moon-silver the "
+            "other. Every figure has two arms, two hands "
+            "and one head."
         ),
     },
     {
@@ -461,7 +487,7 @@ BEATS = [
         "locks": ["MOB"],
         "narration": "He was not being overpowered in a garden.",
         "must_show": "the power's true direction — Jesus standing unbound amid the ring of armed men, straighter than any of them; captivity visibly voluntary.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; his unbound stillness against their armed tension — who holds whom, inverted.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the guards GRIP their own hilts at their sides — no sword blade is leveled or pointed AT Jesus, no tip aimed at his chest or body; their tension is in their grips, not in any thrust toward him; his unbound stillness against their armed tension — who holds whom, inverted.",
         "scene": (
             "Amid the ring of drawn iron Jesus stands "
             "unbound and unbent — the only unarmed man "
@@ -612,24 +638,27 @@ BEATS = [
     {
         "id": "v2-r066-b23", "out": "s23-the-last-miracle-jesus-performed.jpeg", "seg": "n5",
         "window": "125.47-133.59", "wide": False, "jesus": False, "ref": False,
-        "locks": ["MALCHUS"],
+        "locks": ["MALCHUS", "GARDEN"],
         "narration": (
             "The last miracle Jesus performed as a free man was healing an "
             "injury done by his own defender, to one of the men arresting him."
         ),
         "must_show": "the wholeness found — Malchus's own astonished fingers exploring the healed side of his head: whole skin, whole ear, no mark; disbelief conducting its audit.",
-        "must_not_show": "no halo, glare or rim-light; the audit's result perfect — fingers finding nothing but wholeness; the face doing the arithmetic.",
+        "must_not_show": "no halo, glare or rim-light; this stays IN THE OLIVE GARDEN at night — olive trees, terrace grass and the distant city lamps behind him, NEVER a stone city wall or masonry fortress background; ANY torch in frame is an ancient hand-held wooden torch or pitch brand — NEVER a modern segmented BAMBOO TIKI-TORCH, garden flare, patio/luau torch or metal-canister torch; the audit's result perfect — fingers finding nothing but wholeness; the face doing the arithmetic.",
         "scene": (
-            "Close on Malchus in the torchlight: his "
-            "own trembling fingers moving over the "
-            "right side of his head — tracing the whole "
-            "unmarked skin, the whole present ear, "
-            "again, and again from a different angle — "
-            "his careful official's face abandoned to "
-            "open-mouthed audit, checking a ledger "
-            "whose one catastrophic entry has been "
-            "erased by hand. Every figure has two arms, "
-            "two hands and one head."
+            "Close on Malchus, still in the moonlit olive "
+            "garden with the ancient olive trunks and the "
+            "far city lamps soft behind him: his own "
+            "trembling fingers moving over the right side "
+            "of his head — tracing the whole unmarked "
+            "skin, the whole present ear, again, and again "
+            "from a different angle — his careful "
+            "official's face abandoned to open-mouthed "
+            "audit, checking a ledger whose one "
+            "catastrophic entry has been erased by hand. "
+            "The background is the garden at night, not a "
+            "wall. Every figure has two arms, two hands "
+            "and one head."
         ),
     },
     {

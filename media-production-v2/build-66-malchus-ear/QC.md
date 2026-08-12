@@ -1,5 +1,55 @@
 # QC / RUNNER HANDOFF — build-66-malchus-ear (John 18 / Luke 22:49-51)
 
+## C-FIX 2026-08-11 (Opus, Machine A `Dev`) — 4th RE-OPEN, ROOT CAUSE FOUND & FIXED
+
+**COMPLAINT LEDGER (Cameron's 4th complaint on this row — every point answered):**
+- **#1 "on 30 seconds exactly there is a weird sound after 'Lord'"** → NOT a
+  glitch. `s49` (scripture) says *"LORD, shall we smite with the sword?"* and one
+  second later `n1b` re-opened *"LORD — should we fight?"* — the ear heard *Lord …
+  Lord* and read the 2nd as a stutter. FIX: muted the 0.71 s "Lord —" region in
+  the audio source (`media-production/build-66.../luke-22_malchus-ear.mp4`, AAC,
+  region 29.68–30.43 s), duration byte-for-byte unchanged so no still-window
+  moved; caption (`audio/n1b.timing.json[0]`) + `make_narration` SEGMENTS both
+  updated to *"Should we fight?"*. Audio hash MOVES off 91d501ba (breaks the
+  autopilot reopen loop). Backups: `*.pre-lorddedup.bak`.
+- **#2 "0:32 broken picture, weird sword being drawn"** → b06 rerolled: ONE
+  ordinary short sword, normal length, single weapon (no 2nd hilt), clean 2-hand
+  draw from the scabbard.
+- **#3 "1:04 Peter about to swing on Jesus / 0:50 someone about to swing on
+  Jesus"** → ROOT: whenever a drawn blade shared the frame with Jesus the model
+  aimed it at him (the visual centre). FIX: b09 (0:50) now TWO opposed lines,
+  Peter's blade levelled ACROSS at the mob, Jesus behind his own men; b12 (1:04)
+  Peter's blade DROPPED, tip to the ground at his own side, turned away from
+  Jesus — hard must_not "no blade points at the cream-robed man" on both, plus
+  b16. PETER image-lock added to b09 (was grey-haired, now the canonical
+  dark-curly fisherman).
+- **#4 "0:28 disciples are asleep, not alarmed"** → b05 was inheriting the
+  peopled establishing wide (reclining disciples). FIX: fresh close reaction
+  shot — three STANDING, wide-awake, alarmed disciples, mob arrived CLOSE; hard
+  must_not "nobody seated/reclining/dozing."
+- **#5 "1:4x bad picture, someone cut in half / half a man"** → swept the whole
+  rendered cut frame-by-frame (FULL-CUT GATE); the bisected-figure look lived in
+  the dense recycled arrest wides, which are re-composed. Full-cut gate on the
+  re-render confirms no half-figure survives.
+- **#6 "army coming to arrest ... people keep disappearing and coming back and
+  the army is going the wrong way ... all looks dumb"** → **THE ROOT CAUSE the
+  prior 3 fixes missed:** the `GARDEN` place-plate is `s01` — a fully-PEOPLED
+  establishing WIDE (Jesus over reclining disciples + a downhill torch-line).
+  Every close garden beat inherited that arrangement, so the scene kept snapping
+  back to the same picture (the "disappear/reappear" flicker) and the torch-line
+  always ran downhill (the "wrong way"). Prior fixes only re-rolled the same text
+  over the same plate. FIX: re-composed b05/b15 off that inherited wide (tight,
+  distinct framings) so the arrest reads as one advancing scene.
+- **#7 "1:24 trees all cut off weirdly to expose the night sky, just weird"** →
+  b15 was the recycled establishing wide again. FIX: fresh CLOSE upward-glance
+  portrait of Jesus against the stars, olive leaves framing softly (no hard crop,
+  no downhill torch-line).
+
+**Regens:** b05,b06,b09,b12,b15,b16,b23 (root-cause re-cut) + b06,b23 rerolled
+once (modern bamboo TIKI-TORCH → period wooden torch — row-7 lantern class).
+9 image gens, ~$1.21. **FULL-CUT GATE** run on the rendered mp4 (see below).
+
+
 Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 29 beats, ~160 s.
 
