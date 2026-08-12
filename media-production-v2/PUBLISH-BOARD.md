@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T01:16:51_
+_Last sync: 2026-08-12T01:43:24_
 
 ## Summary
 
-- **APPROVED — not published** — 52 row(s)
+- **APPROVED — not published** — 54 row(s)
 - **BUILDING** — 73 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 31 row(s)
+- **ON REVIEWER — awaiting Cameron** — 29 row(s)
 
 ## The rows
 
@@ -93,7 +93,7 @@ _Last sync: 2026-08-12T01:16:51_
 | 70 | The Temptations | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 71 | The Great Commission | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 72 | Calling Matthew | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 73 | This Day Fulfilled | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 73 | This Day Fulfilled | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 74 | The Woman Who Washed His Feet | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 75 | The Woman Taken in Adultery | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 76 | Suffer the Little Children | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
@@ -118,7 +118,7 @@ _Last sync: 2026-08-12T01:16:51_
 | 95 | Thief on the Cross | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 96 | It Is Finished | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 97 | The Empty Tomb | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 98 | Mary her Name | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 98 | Mary her Name | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 99 | Flesh and Bone Thomas | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 100 | The Ascension | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 101 | The Still Small Voice | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
