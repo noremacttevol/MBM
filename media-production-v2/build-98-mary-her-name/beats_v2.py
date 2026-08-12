@@ -179,24 +179,10 @@ BEATS = [
         "window": "23.48-27.96", "wide": False, "jesus": True, "ref": REF,
         "locks": ["MARY"],
         "narration": "whom seekest thou? Why are you crying?",
-        "must_show": "the questions — close on the two faces: his warm and knowing, hers blind with tears; the asker already the answer.",
-        "must_not_show": "no halo, glare or rim-light; HIS knowing gentle — a game of love, not a test.",
+        "must_show": "the questions — TWO SEPARATE FIGURES a full clear pace apart with open air between them: his warm knowing face at left, hers blind with tears at right; the asker already the answer.",
+        "must_not_show": "no halo, glare or rim-light; HIS knowing gentle — a game of love, not a test. ABSOLUTELY NO CONTACT: Mary and the risen Lord stand a full clear pace apart with a visible gap of open air between their bodies; they never touch — no hand on the other, no clasped or held hands, no arm around her, no embrace, no leaning together, not shoulder-to-shoulder, no foreheads or faces near-touching, nothing romantic or lover-like; Mary keeps her own hands to herself at her own breast; reverent Teacher-and-disciple distance.",
         "scene": (
-            "Close on the tender absurdity "
-            "of the moment: his warm brown "
-            "eyes resting on her with all "
-            "the knowing in the world — "
-            "WHOM SEEKEST THOU — the "
-            "question asked by its own "
-            "answer, love inquiring after "
-            "itself — while her blurred "
-            "eyes search past him down the "
-            "path for a corpse, standing "
-            "one arm's length from "
-            "everything she is looking "
-            "for. Every figure has two "
-            "arms, two hands and one "
-            "head."
+            "Close on the tender absurdity of the moment, the two of them a full pace apart with a clear gap of open ground and air between them: his warm brown eyes resting on her from across that space with all the knowing in the world — WHOM SEEKEST THOU — the question asked by its own answer, love inquiring after itself — while her blurred eyes search past him down the path for a corpse, standing an unbridged distance from everything she is looking for, her own hands gathered at her own breast. They do not touch. Every figure has two arms, two hands and one head."
         ),
     },
     {
@@ -371,25 +357,10 @@ BEATS = [
         "window": "63.73-69.87", "wide": False, "jesus": True, "ref": REF,
         "locks": ["TOMB", "MARY"],
         "narration": "Rabboni. Mary. And she answered him — Rabboni.",
-        "must_show": "SCRIPTURE-EXACT: the recognition — Mary spun fully around, face blazing alive, the answer bursting from her: RABBONI; the whole garden turned to joy.",
-        "must_not_show": "no halo, glare or rim-light; the turn WHOLE-BODY — grief's posture shattered, joy physical.",
+        "must_show": "SCRIPTURE-EXACT: the recognition — Mary spun fully around, face blazing alive, the answer bursting from her: RABBONI; TWO SEPARATE FIGURES a full clear pace apart with open air between them, the whole garden turned to joy.",
+        "must_not_show": "no halo, glare or rim-light; the turn WHOLE-BODY — grief's posture shattered, joy physical. ABSOLUTELY NO CONTACT: Mary and the risen Lord stand a full clear pace apart with a visible gap of open air between their bodies; they never touch — no hand on the other, no clasped or held hands, no arm around her, no embrace, no leaning together, not shoulder-to-shoulder, no foreheads or faces near-touching, nothing romantic or lover-like; Mary keeps her own hands to herself at her own breast; reverent Teacher-and-disciple distance.",
         "scene": (
-            "The name lands and she "
-            "SPINS: the whole grieving "
-            "architecture of her shattering "
-            "in one turn, the shawl "
-            "slipping, her face blazing "
-            "alive through the half-dried "
-            "tears — RABBONI — the answer "
-            "bursting out of her like "
-            "water from a struck rock, "
-            "her feet already closing the "
-            "distance — one word each, "
-            "traded across a garden path, "
-            "and death's whole kingdom "
-            "bankrupted between them. "
-            "Every figure has two arms, "
-            "two hands and one head."
+            "The name lands and she SPINS: the whole grieving architecture of her shattering in one turn, the shawl slipping, her face blazing alive through the half-dried tears — RABBONI — the answer bursting out of her like water from a struck rock. She stops a full pace short of him, holding her ground with a clear gap of open air between them, her own hands flying to her own breast — one word each, traded across the garden path, and death's whole kingdom bankrupted in the space between them. They do not touch. Every figure has two arms, two hands and one head."
         ),
     },
     {
@@ -400,25 +371,10 @@ BEATS = [
             "It means Master, in her own language, the word she had always "
             "called him."
         ),
-        "must_show": "the old word — the two faces close in the gold light: her RABBONI still on her lips, his receiving it; the familiar title restored to its owner.",
-        "must_not_show": "no halo, glare or rim-light; the intimacy of HABIT — a word worn smooth by daily use, home again.",
+        "must_show": "the old word — the two faces a full clear pace apart in the gold light, open air between them: her RABBONI still on her lips, his receiving it; the familiar title restored to its owner.",
+        "must_not_show": "no halo, glare or rim-light; the familiarity of HABIT — a word worn smooth by daily use, home again. ABSOLUTELY NO CONTACT and NO near-touching faces: Mary and the risen Lord stand a full clear pace apart with a visible gap of open air between their bodies; their faces and foreheads are NOT close or almost-touching, they are NOT cheek to cheek, nothing romantic or lover-like; they never touch; Mary keeps her own hands at her own breast; reverent Teacher-and-disciple distance.",
         "scene": (
-            "Close on the old word coming "
-            "home: RABBONI still shaping "
-            "her lips — the everyday "
-            "title of a thousand ordinary "
-            "mornings, the word for "
-            "handing him bread and asking "
-            "him questions on the road — "
-            "restored in one breath to "
-            "its living owner, and his "
-            "face receiving it the way a "
-            "man receives his own name at "
-            "his own door after a long "
-            "journey: gladly, and as of "
-            "right. Every figure has two "
-            "arms, two hands and one "
-            "head."
+            "The old word coming home across the open air of the garden path: RABBONI still shaping her lips — the everyday title of a thousand ordinary mornings, the word for handing him bread and asking him questions on the road — restored in one breath to its living owner, and his face, a full clear pace away from hers with the morning between them, receiving it the way a man receives his own name at his own door after a long journey: gladly, and as of right. Their faces are not close; they do not touch. Every figure has two arms, two hands and one head."
         ),
     },
     {
@@ -430,15 +386,19 @@ BEATS = [
             "heartbeat — he was alive, and he had come looking for HER, by "
             "name."
         ),
-        "must_show": "the flip — the garden wide and golden: Mary rushing toward him, arms out, face transfigured by joy; the risen man warm and real receiving her rush.",
-        "must_not_show": "no halo, glare or rim-light; the joy TOTAL — the same garden that held her weeping now holding her running.",
+        "must_show": "the flip — the garden wide and golden: Mary hurrying a few steps toward him but STOPPING a full clear pace short, her arms lifting in joy across the open air but NOT reaching him; the risen man warm and real a clear distance away.",
+        "must_not_show": "no halo, glare or rim-light; the joy TOTAL — the same garden that held her weeping now holding her running. ABSOLUTELY NO CONTACT: Mary stops a full clear pace short of the risen Lord with a visible gap of open air between them; she does NOT reach him, they never touch — no hand on the other, no clasped hands, no arm around her, no embrace, no leaning together, no faces near-touching, nothing romantic or lover-like; reverent Teacher-and-disciple distance.",
         "scene": (
             "The same garden that held her weeping, the camera "
             "behind her rushing shoulder toward him, "
             "now holds her "
-            "running: Mary flying the few "
-            "steps between them with her "
-            "arms out and her face "
+            "hurrying then HALTING a full "
+            "clear pace short of him with "
+            "open air between them, her "
+            "arms lifting in joy across "
+            "the gap but never reaching "
+            "him, her hands stopping at "
+            "her own breast, her face "
             "transfigured, the morning "
             "gold everywhere at once — "
             "alive, ALIVE, and not only "
@@ -487,16 +447,20 @@ BEATS = [
             "my brethren, and say unto them, I ascend unto my Father, and "
             "your Father; and to my God, and your God."
         ),
-        "must_show": "SCRIPTURE-EXACT: the gentle hold and the sending — his raised hand soft between them, the commission passing; her rush stilled into listening, mission arriving.",
-        "must_not_show": "no halo, glare or rim-light; the touch-me-not TENDER — no recoil, a gentle stay; her face receiving a job, not a rejection.",
+        "must_show": "SCRIPTURE-EXACT: TOUCH ME NOT — his own open hand raised in his OWN space, palm out, a gentle stay across a full clear pace of open air; her reach stilled at a distance into listening, mission arriving; they do NOT touch.",
+        "must_not_show": "no halo, glare or rim-light; the touch-me-not TENDER — no recoil, a gentle stay; her face receiving a job, not a rejection. ABSOLUTELY NO CONTACT — this is the TOUCH-ME-NOT verse: Mary and the risen Lord stand a full clear pace apart with a visible gap of open air between them; his raised hand stays in HIS own space and does NOT land on her, her hands do NOT land on him or his robe; no clasped or held hands, no arm around her, no embrace, no leaning together, no faces near-touching, nothing romantic or lover-like; Mary keeps her own hands at her own breast.",
         "scene": (
-            "His hand rises soft between "
-            "them — not a wall, a stay: "
+            "His own open hand rises in his "
+            "OWN space, palm out — not a "
+            "wall, a gentle stay across a "
+            "full clear pace of open air, "
+            "never landing on her: "
             "TOUCH ME NOT, FOR I AM NOT "
-            "YET ASCENDED — and her rush "
-            "stills into listening as "
-            "something better than an "
-            "embrace is handed over: GO "
+            "YET ASCENDED — and her reach "
+            "stills at that distance into "
+            "listening as "
+            "something better than being "
+            "held is handed over: GO "
             "TO MY BRETHREN — SAY UNTO "
             "THEM — MY FATHER AND YOUR "
             "FATHER — the widest words "
@@ -540,24 +504,30 @@ BEATS = [
             "Don't hold on to me yet, he told her — I haven't gone up to my "
             "Father."
         ),
-        "must_show": "the yet — close on the gentle exchange: his face warm over the soft staying hand; the YET's promise legible — this is pause, not parting.",
-        "must_not_show": "no halo, glare or rim-light; NO hurt on Mary — the yet understood as promise.",
+        "must_show": "the yet — his face warm above his OWN raised open palm held in a gentle stay across the open air; a full clear pace between the two of them; the YET's promise legible — this is pause, not parting; they do NOT touch.",
+        "must_not_show": "no halo, glare or rim-light; NO hurt on Mary — the yet understood as promise. ABSOLUTELY NO CONTACT: Mary and the risen Lord stand a full clear pace apart with a visible gap of open air between them; his raised hand stays in HIS own space and does NOT land on her arm/shoulder/hand, her hands do NOT land on him; no clasped or held hands, no arm around her, no embrace, no leaning together, no faces near-touching, nothing romantic or lover-like; Mary keeps her own hands at her own breast.",
         "scene": (
-            "Close on the gentlest word "
+            "The gentlest word "
             "in the sentence: YET — his "
-            "face warm above the softly "
-            "staying hand, nothing of "
+            "face warm above his OWN "
+            "raised open palm, held in a "
+            "gentle stay across a full "
+            "clear pace of open air and "
+            "never landing on her, "
+            "nothing of "
             "refusal anywhere in it — "
             "not yet, which is a promise "
             "wearing work clothes — and "
-            "Mary's face taking it "
+            "Mary's face, a clear distance "
+            "away with her own hands at "
+            "her own breast, taking it "
             "rightly: no wound, no "
             "stepping back of the heart, "
             "just the joyful obedient "
             "recalibration of a woman "
             "who has him back and can "
-            "afford to wait for the "
-            "embrace. Every figure has "
+            "afford to wait. They do not "
+            "touch. Every figure has "
             "two arms, two hands and one "
             "head."
         ),
@@ -570,18 +540,23 @@ BEATS = [
             "Go to my brothers and tell them I'm going to my Father and your "
             "Father, to my God and your God."
         ),
-        "must_show": "the commission — his arm extended toward the city beyond the garden, Mary turning along the line of it; the message and the direction both given.",
-        "must_not_show": "no halo, glare or rim-light; the sending JOYFUL — her body already leaning into the errand.",
+        "must_show": "the commission — his arm sweeping OUTWARD and AWAY toward the city beyond the garden (never around Mary), Mary a full clear pace apart turning along the line of it; the message and the direction both given.",
+        "must_not_show": "no halo, glare or rim-light; the sending JOYFUL — her body already leaning into the errand. ABSOLUTELY NO CONTACT: his arm sweeps OUTWARD toward the distant city and is NEVER around Mary's shoulders or back; Mary stands a full clear pace apart with a visible gap of open air between them; they never touch — no arm around her, no hand on the other, no embrace, no leaning together, no shoulder-to-shoulder, nothing romantic or lover-like.",
         "scene": (
             "The commission gets its "
             "compass: his arm sweeping "
-            "out past the olive trees "
+            "OUTWARD and AWAY past the "
+            "olive trees "
             "toward the waking city where "
             "ten heartbroken men are "
             "hiding behind a locked door "
-            "— GO TO MY BROTHERS — and "
-            "Mary turning along the line "
-            "of his arm with her whole "
+            "— GO TO MY BROTHERS — his "
+            "arm never touching or circling "
+            "her — and "
+            "Mary, a full clear pace apart "
+            "with open air between them, "
+            "turning along the line "
+            "of his arm, her whole "
             "body leaning into the "
             "errand, the message already "
             "arranging itself behind her "

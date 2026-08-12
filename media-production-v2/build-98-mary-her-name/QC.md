@@ -1,5 +1,52 @@
 # QC / RUNNER HANDOFF — build-98-mary-her-name (John 20:11-18)
 
+## 🛠 C-FIX SHIPPED 2026-08-11 (Machine A `Dev`, Opus runner) — "touching / standing like lovers, she did not touch him"
+
+**COMPLAINT LEDGER (Cameron, `v2_outline.py 98`):**
+- **"1:48, 1:32, 1:09, 1:26, 1:12, 0:25, 1:41. All need to be replaced. They are
+  not supposed to be touching or standing with no distance between them like they
+  are lovers. She did not touch him. Stop making it weird."** → PICTURE complaint
+  (proximity/blocking), NOT audio. Traced each timestamp to the frame that renders
+  there in the live mp4 (windows, not beat names):
+  - 0:25 → **b05** (was: Mary clutching his chest at arm's length)
+  - 1:09 → **b12** (was: Mary's hand reaching to his chest)
+  - 1:12 → **b13** (was: foreheads/faces almost touching — the worst, lover-like)
+  - 1:26 & 1:32 → **b16** (the *"Touch me not"* verse — Mary's hands pressed on his)
+  - 1:41 → **b18** (was: his hand gripping her hands/arm)
+  - 1:48 → **b19** (was: his arm around her back, pulled to his side, both smiling)
+  ROOT CAUSE: the beat scene text itself pulled them together ("closing the
+  distance," "two faces close," "something better than an embrace," "can afford to
+  wait for the embrace," "arm extended" → rendered as arm-around). FIX = rewrote
+  the blocking of every named beat: a full clear pace of open air between them,
+  Mary's hands to her OWN breast, Jesus's stay-hand kept in HIS own space (never
+  landing on her), his commission arm sweeping OUTWARD toward the city (never
+  around her), no near-touching faces — added an explicit "ABSOLUTELY NO CONTACT"
+  ban to must_not_show of all six, then rerolled. **Verified in the RENDERED mp4 at
+  every one of the seven timestamps: clear distance, no contact, John 20:17 read
+  correct.** Originals kept as `assets/*.preproximity.bak`.
+
+**FULL-CUT GATE 6b (one frame per beat from the rendered mp4, all 21 + 2 caption
+frames + card):** also caught and FIXED in this SAME touch-once re-cut, so Cameron
+never has to file them:
+- **b14 (1:14, not timestamped)** was a full embrace — Mary's hands on his chest,
+  his arms out to receive her. Rerolled: she now halts a pace short with arms
+  raised in joyful praise, big gap, no contact.
+- **Green/hazel Jesus eyes** (systemic in the baked V2 face-ref — same defect the
+  row-89 C-FIX fixed) read wrong on the forward-facing close-ups **b11 (hero
+  close-up), s18, s19** (JESUS LOOK STANDARD = warm brown, "NEVER green"). Targeted
+  iris-recolour edit (row-89/row-120 head-edit technique, gemini-3-pro-image, edit
+  ONLY the irises, every other pixel kept) → all three now warm brown, matching the
+  profile frames so the cut is ONE identity. Originals kept as `assets/*.preeye.bak`.
+- Everything else (b01–b10, b15, b17, b20, b21) CLEAN: realistic, cream-only-Jesus,
+  Mary Magdalene madder-red held, anatomy/hands/scale fine, captions bottom-band,
+  question card clean.
+
+**COST:** 8 rerolls (b05/b12/b13/b14 + b16/b18/b19; b14 twice) + 3 iris edits =
+11 images × $0.134 ≈ **$1.47**. Meter $598.44 → ~$599.9. Touch-once: every known
+fix batched into one re-cut. **AUDIO UNTOUCHED** — AUDIO REBUILD PASS
+SHA256=3261c510… byte-identical to the cut Cameron already has (126.7 s, 20.7 MB).
+Deployed + live-verified.
+
 ## ✅ AUDIO FIX DONE — STALE-V1-FINAL recency lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
 
 Class = STALE-V1-FINAL (recency), no open Cameron complaint (`v2_outline.py 98`). Parked
