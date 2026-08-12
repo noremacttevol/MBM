@@ -1,3 +1,16 @@
+## 2026-08-11 (cont. 62) — VERIFY-PASS row 117 "Hosea Buys Her Back" 8th RE-FIRE — LOCAL+LIVE continuity confirmed, still CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, Opus runner, unattended/headless
+
+**Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.61 (row 98 C-FIX ship `fac7c37c1dde`) present in `git log`, and `1ad72ed9c` (row 71 C-FIX) at HEAD. Chain intact.
+
+Row 117 remains **BUILT** (unapproved, Appr ⬜ / Post ⬜, in Cameron's Unwatched queue), **no open complaints** (`v2_outline.py 117` shows none), unmodified — mp4 md5 STILL `42d9aafe` (20843988 bytes, mtime Aug 9 15:08, not one byte moved since the 3rd–7th passes).
+
+- **Continuity (the meaningful re-fire test, $0):** (1) local mp4 md5 STILL `42d9aafe`, size 20843988; (2) live-served bytes — followed the github raw redirect to the CDN: **HTTP 200, content-length 20843988 == the exact clean bytes** (guards against a bad deploy swapping live bytes under an untouched local file — it did NOT); (3) deployed reviewer card hash STILL `f3ec4754`, wave `realistic-v2`, data-built 2026-08-09, row still BUILT.
+- **Why no re-extraction:** these bytes are byte-identical to the mp4 that already has THREE independent full FULL-CUT GATE passes (38/38 beats + card CLEAN) plus a 4-frame own-eyes re-confirm on the 7th pass. Byte-identical output renders byte-identical frames; a further extraction is provably zero new information and burns context (COST LAW).
+- **Why no re-cut:** law is explicit — NEVER re-cut a clean row; a clean, unmodified, unapproved row reaching Cameron IS the goal.
+- **Outcome:** appended an 8th board Claim stamp (`QC-OK 2026-08-11 LIVE, 8th re-fire`). $0, 0 rerolls — trends the running average DOWN. No credits, no browser, nothing deployed (nothing changed to deploy).
+
+---
+
 ## 2026-08-11 (cont. 61) — SHIP row 98 C-FIX "Mary, Her Name": Cameron's lovers-proximity complaint (7 timestamps) fixed + FULL-CUT GATE catches (embrace b14, green-eyed Jesus) — Machine A `Dev`, Opus runner, unattended/headless
 
 **Commit:** ship `fac7c37c1dde` (mp4 + QC.md + beats_v2.py + AUTHOR-BOARD) already pushed; review.html + SESSION-LOG + STASH-INDEX + RUNNER-LESSONS in the push below. Session-chain verified at start: prior top entry cont.60 row-117 7th re-fire — and the row-93 C-FIX `4aaae0ce2` at HEAD were both present in `git log`.
