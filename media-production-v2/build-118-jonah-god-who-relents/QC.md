@@ -1,3 +1,58 @@
+## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (cont. — PROMPT-WORDING VERIFIED) — Opus runner, Machine A `Dev`, $0, 0 credits
+
+This pass went beyond `--check` and independently re-verified the fix will
+actually LAND touch-once when billing returns:
+
+1. **Re-traced + VIEWED the two complained frames from the LIVE mp4**
+   (`jonah-1_jonah-god-who-relents.mp4`, the shipped cut): `ffmpeg -ss 157`
+   (2:37) and `-ss 188` (3:08). Confirmed with my own eyes — **2:37** the green
+   Jonah walking to the gate is a large foreground figure while the townsfolk
+   flanking him at the same depth are much smaller = the "3× bigger" complaint is
+   real; **3:08** the repentant crowd (esp. the bald grey heads foreground) reads
+   as ashen terracotta statues = the "look dead" complaint is real.
+2. **Read the FULL staged scene-prose for both beats** (not just the
+   `must_not_show` lines) to confirm the words target the defect, since `--check`
+   only proves the beat parses:
+   - **b28** scene now forces *consistent human scale* — camera high and well
+     back, Jonah a SMALL mid-distance figure with his BACK to us, townsfolk
+     nearest the lens drawn LARGER than he is, people at his depth exactly his
+     height, "no single figure looms out of proportion." This directly negates
+     the giant-Jonah frame. Autopsy = **ALLOWED** (original prompt had no scale
+     cap) → cap now present.
+   - **b33** scene now forces *LIVING warm skin* — flushed, tear-streaked,
+     breathing figures, "grief that is plainly alive, never still or frozen,"
+     ash smudged on cloth and brow ONLY, "never greys or deadens the skin." This
+     directly negates the corpse/statue crowd. Autopsy = **CAUSED** (the
+     "ashes" + haircloth monochrome greyed the skin) → warm-living-skin
+     constraint now present.
+3. **Billing re-probed** with the real paid regen
+   `v2_gen_api.py build-118-jonah-god-who-relents --only v2-r118-b28 v2-r118-b33 --redo --ceiling 645`:
+   **`429 RESOURCE_EXHAUSTED — prepayment credits depleted`** on the immediate
+   try AND on the mandated 60 s retry. Meter frozen **$617.34** (last successful
+   gen board-wide was build-135 at 04:11 today, then depletion — same wall as
+   rows 82/95).
+
+**No $0 path** — b28 is a within-frame relative-scale defect (a crop can't shrink
+Jonah vs the people beside him at the same depth) and b33 is a per-figure skin/
+texture defect (a global warm grade can't revive statue-like figures; the frame
+is already warm-toned). Both genuinely need a paid Gemini regen.
+
+mp4 **NOT reshipped** — the live cut still carries both bad frames; shipping it
+would repeat Cameron's exact complaint.
+
+**RESUME (one command the instant Cameron funds https://ai.studio/projects):**
+```
+cd media-production-v2
+python3 v2_gen_api.py build-118-jonah-god-who-relents --only v2-r118-b28 v2-r118-b33 --redo --ceiling 645
+# then FULL-CUT GATE the two regens (view s28 + s33), reassemble, redeploy, verify, ship
+python3 v2_assemble.py 118        # must print AUDIO LOCK PASS
+```
+
+Row stays **PARKED-BILLING**. GENUINE EXTERNAL BLOCKER — only Cameron's billing
+top-up clears it; no agent can manufacture credits.
+
+---
+
 ## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (cont.) — Opus runner, Machine A `Dev`, $0, 0 credits
 
 Re-ran the row-118 C-FIX (Cameron: "2:37 jonah was 3 times bigger… fix it. The
