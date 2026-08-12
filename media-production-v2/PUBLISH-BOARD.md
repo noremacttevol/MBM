@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T00:59:25_
+_Last sync: 2026-08-12T01:10:38_
 
 ## Summary
 
-- **APPROVED — not published** — 49 row(s)
+- **APPROVED — not published** — 51 row(s)
 - **BUILDING** — 73 row(s)
 - **LIVE — current** — 27 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
-- **ON REVIEWER — awaiting Cameron** — 34 row(s)
+- **ON REVIEWER — awaiting Cameron** — 32 row(s)
 
 ## The rows
 
@@ -86,7 +86,7 @@ _Last sync: 2026-08-12T00:59:25_
 | 63 | The Man Born Blind | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 64 | The Pool of Bethesda | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 65 | Help Mine Unbelief | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 66 | Malchus Ear | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 66 | Malchus Ear | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 67 | The Transfiguration | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 69 | Baptism of Jesus | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
@@ -113,7 +113,7 @@ _Last sync: 2026-08-12T00:59:25_
 | 90 | Washing the Disciples Feet | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
 | 91 | Gethsemane | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 92 | Peters Denial | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 93 | Barabbas Goes Free | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 93 | Barabbas Goes Free | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 94 | Father Forgive Them | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 95 | Thief on the Cross | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 96 | It Is Finished | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
