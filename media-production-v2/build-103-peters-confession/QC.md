@@ -1,5 +1,44 @@
 # QC / RUNNER HANDOFF — build-103-peters-confession
 
+## ✅ AUDIO-FIX + COMBINED SHIP DONE — 2026-08-12 (Machine A `Dev`, audio lane)
+
+Closes Cameron's 2-part complaint (card commit `1d1f7c43…`). This is the ONE
+combined cut the RUNNER PARK note called for — it carries BOTH the staged b05
+eye fix (picture half, done last session) AND the naming re-voice (audio half).
+
+**COMPLAINT LEDGER — both halves closed in this cut:**
+| # | Complaint (Cameron's words) | Fix in THIS cut |
+|---|-----------------------------|-----------------|
+| A | "0:28 jesus eyes are messed up redo that picture" | staged s05 (b05, eye-integrity constraint) baked in by the no-`--resume-base` re-assemble — verified at 0:28: eyes aligned, same calm direction, identity + CLIFF held |
+| B | "it called him simon before… should just be simon then jesus calls him simon barjona and then peter, not simon peter to begin with" | np + n5 re-voiced "Simon Peter"/"Peter" → "Simon" (before the rename); captions match |
+
+**Audio baseline change (sanctioned Cameron re-voice — PROMPT-AUDIO-FIX step 4):**
+- Re-voiced ONLY np + n5 via ElevenLabs **Brian** (NARRATOR, 44100/128k — edge banned).
+  - np: `And Simon Peter answered him.` → `And Simon answered him.`
+  - n5: `…Peter said out loud…` → `…Simon said out loud…`
+- Atempo-locked each new take to its ORIGINAL duration (np 1.6718s, n5 6.1649s target;
+  landed 1.6457s / 6.1910s, ±26 ms mp3-frame padding — inside the 0.42–0.57 s gaps to
+  the next segment, and picture windows are driven by fixed `audio_start` constants so
+  **no window moved**). `AUDIO_FROM_V1_SEGMENTS = True`.
+- The re-voiced mp3s + rescaled `.timing.json` were written into the V1 ship-source
+  dir (`media-production/build-103-peters-confession/audio/`), which is where
+  `AUDIO_FROM_V1_SEGMENTS` reads. Every other segment byte-identical.
+- Captions: extract_beats reads them from the read-only V1 `make_narration.py`
+  SEGMENTS, so `TEXT_OVERRIDES = {np, n5}` in `beats_v2.py` overrides the two captions
+  to match the shipped audio (the documented "V1 script disagrees with shipped audio"
+  path). Later "Peter" (jv17 Simon Barjona, jv18 thou art Peter, card) untouched.
+- **Audio hash: old ship AUDIO LOCK `e46b00815c…` → new AUDIO REBUILD `853195ca1302…`**
+  (audio genuinely changed — expected and intended).
+
+**VERIFICATION (this cut, `matthew-16_peters-confession.mp4`):**
+- faster-whisper transcript of the shipped mp4: 0:59 window → "And Simon answered him…",
+  1:08 window → "…Simon said out loud the thing the others had only half-dared to hope."
+- On-screen captions at 60.2s and 70.0s read "And Simon answered him." /
+  "Simon said out loud the thing the others had only half-dared to hope." (no "Peter").
+- 0:28 frame: Jesus's eyes aligned/symmetrical, cream-only, CLIFF glade, realistic.
+- Face gate exit 0. AUDIO REBUILD PASS `853195ca…`.
+- Cost: 2 ElevenLabs narrator segments; **$0 Gemini**.
+
 Complaint-gate addendum, 2026-08-05 (Machine A).
 
 ## OPEN CAMERON COMPLAINT — gates before build

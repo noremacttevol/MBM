@@ -17,8 +17,11 @@ Segment `np` read 'And Simon Peter answered him: Thou art the Christ, the Son of
 the living God.' That is one segment welding Matthew's frame onto Peter's words,
 spoken by the storyteller in white. The whole video is an exchange, and one side
 of it was never heard. Split, both halves on the SAME still:
-  np    stays, trimmed to the frame only: 'And Simon Peter answered him.'
+  np    stays, trimmed to the frame only: 'And Simon answered him.'
         NARRATOR - modern English, the storyteller, so it stays white.
+        NAMING FIX (Cameron 2026-08-12): he is only "Simon" until Jesus renames
+        him (jv17 'Simon Barjona', jv18 'thou art Peter'). np/n5 originally said
+        "Simon Peter"/"Peter" BEFORE the rename; reworded to "Simon".
   sp16  Matthew 16:16  'Thou art the Christ, the Son of the living God.'
         SCRIPTURE, light blue. Peter's own voice, verbatim.
 Peter is an apostle, not Deity, so blue is right - this is exactly the case
@@ -59,9 +62,9 @@ SEGMENTS = [
     ("n3", NARRATOR, 'Some say Elijah come back. Others, Jeremiah, or one of the old prophets. All respectful. All safe. All second-hand — what other people thought.'),
     ("jv15", JESUS, 'But whom say ye that I am?'),
     ("n4", NARRATOR, 'And there it was. Not what have you heard. Not what is the crowd saying. But you — who do you say that I am? The question stopped them cold. This one you cannot borrow from anybody else.'),
-    ("np", NARRATOR, 'And Simon Peter answered him.'),
+    ("np", NARRATOR, 'And Simon answered him.'),
     ("sp16", SCRIPTURE, 'Thou art the Christ, the Son of the living God.'),
-    ("n5", NARRATOR, 'Not a prophet. Not a teacher. Peter said out loud the thing the others had only half-dared to hope.'),
+    ("n5", NARRATOR, 'Not a prophet. Not a teacher. Simon said out loud the thing the others had only half-dared to hope.'),
     ("jv17", JESUS, 'Blessed art thou, Simon Barjona: for flesh and blood hath not revealed it unto thee, but my Father which is in heaven.'),
     ("n6", NARRATOR, 'You did not work this out on your own, Jesus told him. This kind of knowing does not come from clever thinking. It is given, quietly, from God, to a heart ready to receive it.'),
     ("jv18", JESUS, 'And I say also unto thee, That thou art Peter, and upon this rock I will build my church; and the gates of hell shall not prevail against it.'),

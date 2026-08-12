@@ -113,7 +113,7 @@
    "v1_still": "s3-what-men-say.jpeg",
    "zoom": "out",
    "speaker": "narrator",
-   "text": "Some say Elijah come back. Others, Jeremiah, or one of the old prophets. All respectful. All safe. All second-hand \u2014 what other people thought.",
+   "text": "Some say Elijah come back. Others, Jeremiah, or one of the old prophets. All respectful. All safe. All second-hand — what other people thought.",
    "seg_start": 31.216,
    "audio_start": 31.496,
    "spoken_end": 41.789,
@@ -143,7 +143,7 @@
      "end": 7.442
     },
     {
-     "text": "All second-hand \u2014 what other people thought.",
+     "text": "All second-hand — what other people thought.",
      "start": 7.442,
      "end": 10.681
     }
@@ -175,7 +175,7 @@
    "v1_still": "s5-peter-steps-forward.jpeg",
    "zoom": "in",
    "speaker": "narrator",
-   "text": "And there it was. Not what have you heard. Not what is the crowd saying. But you \u2014 who do you say that I am? The question stopped them cold. This one you cannot borrow from anybody else.",
+   "text": "And there it was. Not what have you heard. Not what is the crowd saying. But you — who do you say that I am? The question stopped them cold. This one you cannot borrow from anybody else.",
    "seg_start": 45.77,
    "audio_start": 46.05,
    "spoken_end": 58.607,
@@ -200,7 +200,7 @@
      "end": 4.818
     },
     {
-     "text": "But you \u2014 who do you say that I am?",
+     "text": "But you — who do you say that I am?",
      "start": 4.818,
      "end": 7.744
     },
@@ -221,7 +221,7 @@
    "v1_still": "s6-the-confession.jpeg",
    "zoom": "in",
    "speaker": "narrator",
-   "text": "And Simon Peter answered him.",
+   "text": "And Simon answered him.",
    "seg_start": 59.257,
    "audio_start": 59.537,
    "spoken_end": 60.82,
@@ -263,7 +263,7 @@
    "v1_still": "s6-the-confession.jpeg",
    "zoom": "in",
    "speaker": "narrator",
-   "text": "Not a prophet. Not a teacher. Peter said out loud the thing the others had only half-dared to hope.",
+   "text": "Not a prophet. Not a teacher. Simon said out loud the thing the others had only half-dared to hope.",
    "seg_start": 65.838,
    "audio_start": 66.118,
    "spoken_end": 71.799,
@@ -367,7 +367,7 @@
    "v1_still": "s9-the-rock-stands.jpeg",
    "zoom": "in",
    "speaker": "narrator",
-   "text": "On this \u2014 on knowing who he really is \u2014 he would build something that hell itself could never tear down. Everything else in the gospel is built on top of this one answer.",
+   "text": "On this — on knowing who he really is — he would build something that hell itself could never tear down. Everything else in the gospel is built on top of this one answer.",
    "seg_start": 104.149,
    "audio_start": 104.429,
    "spoken_end": 114.703,
@@ -377,7 +377,7 @@
    "seg_dur": 11.203,
    "timing": [
     {
-     "text": "On this \u2014 on knowing who he really is \u2014 he would build something that hell itself could never tear down.",
+     "text": "On this — on knowing who he really is — he would build something that hell itself could never tear down.",
      "start": 0.0,
      "end": 6.513
     },

@@ -45,6 +45,23 @@ LOCKS = {
 
 REF = True
 
+# NAMING re-voice (Cameron 2026-08-12): np/n5 were re-voiced (ElevenLabs Brian,
+# atempo-locked to their original durations — "Simon Peter"/"Peter" → "Simon"
+# before Jesus renames him). The finished audio must be rebuilt from THIS build's
+# own segment mp3s (which now carry the fix), not copied from the stale V1 mp4.
+AUDIO_FROM_V1_SEGMENTS = True
+
+# The V1 make_narration.py SEGMENTS still read "Simon Peter"/"Peter" (V1 is
+# read-only, hard protection #1). The shipped audio now says "Simon", so the
+# on-screen captions (extract_beats reads them from the V1 SEGMENTS) must be
+# overridden to MATCH the re-voiced audio. This is the exact case TEXT_OVERRIDES
+# exists for: "the V1 script disagrees with the shipped audio."
+TEXT_OVERRIDES = {
+    "np": "And Simon answered him.",
+    "n5": "Not a prophet. Not a teacher. Simon said out loud the thing the "
+          "others had only half-dared to hope.",
+}
+
 BEATS = [
     {
         "id": "v2-r103-b01", "out": "s01-jesus-had-brought-his-disciples.jpeg", "seg": "n1",
@@ -344,7 +361,7 @@ BEATS = [
         "window": "59.54-64.54", "wide": False, "jesus": True, "ref": REF,
         "locks": ["CLIFF", "PETER", "JOHN", "ANDREW"],
         "narration": (
-            "And Simon Peter answered him. Thou art the Christ, the Son of "
+            "And Simon answered him. Thou art the Christ, the Son of "
             "the living God."
         ),
         "must_show": "SCRIPTURE-EXACT: the confession — Peter on his feet, the answer out of him full-voice: THE CHRIST, THE SON OF THE LIVING GOD; the ring stunned around his standing figure.",
@@ -403,7 +420,7 @@ BEATS = [
         "window": "68.23-72.25", "wide": False, "jesus": False, "ref": False,
         "locks": ["CLIFF", "PETER", "JOHN", "ANDREW"],
         "narration": (
-            "Peter said out loud the thing the others had only half-dared "
+            "Simon said out loud the thing the others had only half-dared "
             "to hope."
         ),
         "must_show": "the half-hopes surfacing — the seated faces around standing Peter: recognition dawning that he said THEIR secret; relief and awe mixing.",
