@@ -1,5 +1,15 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
+## §RE-PROBE 2026-08-12 (Opus RUNNER, Machine A `Dev`, 14th pass) — wall PERSISTS, $0, no re-stage
+Complaint-first + low-number law sent me to row 63. State confirmed at $0: `--check` PASS (43 v4);
+one single billing probe `v2_gen_api.py … --only b40 --redo --ceiling 620` → **429 prepayment
+credits depleted**, meter **unmoved at $617.34** (last real spend 04:11:44, build-135). Audio half is
+DONE+LOCKED+verified-in-mp4 (§below). Picture edits are COMMITTED + `--check` PASS. Nothing to build
+at $0 — every flagged frame's subject IS the face/two-figure composition (no crop path). Did NOT
+re-run the autopsy or re-stage (cont.118 STOP marker). Inbox top-up ask is current (row 63 pictures +
+Siloam noted; rows 82/95/116/118 batched). ONE Google AI Studio top-up unblocks all five. **Resume
+via the §AUDIO DONE pictures-only RESUME the instant the meter moves past $617.34.**
+
 ## §AUDIO DONE + VERIFIED 2026-08-12 (Opus RUNNER, Machine A `Dev`, unattended/headless) — Siloam FIXED & LOCKED (schwa ending), verified in the assembled mp4. Pictures still billing-blocked → row stays PARKED-BILLING for pictures ONLY.
 
 **This SUPERSEDES the "recommended, ear-unverified" audio recipe below.** The audio
