@@ -27,6 +27,19 @@ Cameron (2026-08-12): loaded more Gemini credits; wants all videos fast + cheap 
 
 ---
 
+## 2026-08-12 (cont. 74) — ROW 63 SHIP "The Man Born Blind" (John 9): authored row finished → realistic-v2 on the reviewer; FULL-CUT GATE caught+fixed a cream-beggar frame; Siloam complaint CLOSED — Machine A `Dev`, Opus picture runner (AUTHOR-BOARD low-number-first, unattended/headless)
+
+**Commit:** commit A `94cf6ff1c60cdd9264b6c62ff537b58faca0aba7` (mp4 + QC.md + 3 stills + AUTHOR-BOARD + api-spend — on origin/main; a concurrent row-51 lane rebased `3818f1bb2` on top, my mp4 blob `2868e726` is in origin/main); review.html card repoint + this SESSION-LOG in commit B below. Session-chain verified at start: prior top entry cont.72 (row 121), commit `8d7434f53` present in `git log` — chain intact. Hostname `Dev` = Machine A.
+
+**Job:** AUTHOR-BOARD row 63 was AUTHORED / Ready ✅ / empty-claim (the QUEUE "RUNNING" text was a stale 2026-08-06 claim that predated the 2026-08-07 author audio fix which moved the row back to AUTHORED). Cross-checked QUEUE = "The man born blind, John 9" — not swapped. Claimed RUNNING → built → BUILT. Its only open complaint (Siloam pronunciation) was already fixed at the author level (`AUDIO_FROM_V1_SEGMENTS=True`, j2/n5 re-voiced to si-LOH-am); this session did the picture runner's remaining steps.
+
+- **Generated the last 2 stills** b42 (worship) + b43 (closing walk, abandoned-staff coda), ~$0.27. Both clean first take — Jesus cream-only + identity-locked, anatomy/scale/period correct.
+- **FULL-CUT GATE (6b):** mid-window frame per beat from the RENDERED mp4 (43 beats) + 3 caption frames + closing card, viewed against defect checklist + RUNNER-LESSONS + rubric. CLEAN except ONE frame.
+- **Defect caught + fixed — s05 (b05):** the seated blind beggar rendered in a **cream/off-white tunic** = second-cream figure + wardrobe break (brown everywhere else). AUTOPSY: b05 is `jesus:False` and doesn't pin the beggar's brown → unpinned-secondary-figure defaulted to cream. ONE reroll (`--only b05 --redo`, $0.13) reframed to the tight two-disciple two-shot the beat's scene calls for — cream beggar gone, re-verified in the RE-RENDERED mp4 at 23.89s.
+- **Re-assemble note:** the first re-assemble was starved by a concurrent row-147 autopilot lane and died after the caption pass without writing the final mp4; a false "STILL RUNNING" reading came from a stale `while pgrep` wait-loop whose own command line contained "v2_assemble.py 63". Killed the zombie loop, re-ran assemble to a clean finish. RUNNER-LESSON fed.
+- **Rerolls 1/43 = 2.3%** (well under 15% budget). **Row image spend ≈ $0.40** (2 stills + 1 reroll; most stills were already banked) — far under the $6.10/row average, COST LAW trend DOWN. **AUDIO REBUILD PASS SHA256 `09854d47…`** (byte-identical narration, nothing re-voiced this session), 247.70s / 22.0 MB, card renders clean (no tofu glyphs), no dead tail. Green/hazel Jesus eyes left as-is per rubric lesson 20.
+- **Shipped + deployed + LIVE-VERIFIED:** card `v63` repointed to the realistic-v2 mp4 + `realistic-v2` wave + Siloam-answering "what changed" flag (data-hash `94cf6ff1c60c`), `firebase deploy --only hosting`, live curl confirms hash+wave+path and served mp4 md5 == local.
+
 ## 2026-08-12 (cont. 72) — ROW 121 VERIFY-PASS "Salt and Light": FULL-CUT GATE CLEAN, but caught a HALF-DONE ship — live reviewer served the OLD 2026-07-28 V1 cut; completed the never-finished delivery ($0/0 credits) — Machine A `Dev`, Opus runner (unattended/headless)
 
 **Commit:** commit A `8d7434f53edfc662d0d66c066779a1728af3451c` (mp4 + QC.md + AUTHOR-BOARD, already on origin — a concurrent row-103 lane rebased on top as `7f9267311`); review.html card repoint + this SESSION-LOG in commit B below. Session-chain verified at start: prior top entry cont.70 (row 73 C-FIX), commit `9f7514fe2` present in `git log` — chain intact. Hostname `Dev` = Machine A.
