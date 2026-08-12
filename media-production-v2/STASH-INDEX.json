@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-12 03:13:27",
+ "scanned": "2026-08-12 03:30:01",
  "entries": [
   {
    "row": 1,
@@ -46557,6 +46557,344 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame keeps the doubter at rest: John settled in the gold shaft with his eyes closed and his breathing long, the iron lying forgotten on a wrist gone loose, the wild face smoothed into something very near a s"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b01",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s01-in-that-world-a-shepherd.jpeg",
+   "tokens": [
+    "HILLS",
+    "SHEP",
+    "FLOCK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The old arrangement walks across the green morning hill: the shepherd out in FRONT on the worn path, crook swinging easy at his side, his back to the flock \u2014 and behind him, unforced and undriven, the sheep strung along "
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b02",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s02-he-walked-out-in-front.jpeg",
+   "tokens": [
+    "HILLS",
+    "SHEP",
+    "FLOCK"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The invisible leash shows itself, the camera beside the path taking man and strung flock in one profile: the shepherd calling back over his shoulder as he walks \u2014 a low easy singsong worn smooth by years \u2014 and along the "
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b03",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s03-several-flocks-might-share-one.jpeg",
+   "tokens": [
+    "FOLD",
+    "FLOCK"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "At dusk, the camera on the slope behind the arriving flocks' woolly backs, the stone circle takes in everyone's wool: two flocks, three, filing through the single gap-gate and mingling inside the dry-stone walls into one"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b04",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s04-they-could-tell-his-voice.jpeg",
+   "tokens": [
+    "FOLD",
+    "FLOCK",
+    "SHEP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close at the gate, the morning's quiet miracle of discrimination: two men calling across each other \u2014 a stranger's perfectly good voice going out over the wool and landing on nothing, not one ear turning \u2014 while at the o"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b05",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s05-he-knows-them-one-at.jpeg",
+   "tokens": [
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The picture finds its true shepherd: Jesus down on one knee with a single ewe's face cupped in his hand \u2014 eye to eye with this one, the torn ear known, the old limp remembered, the particular stubbornness smiled at \u2014 one"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b06",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s06-not-a-nameless-herd-each.jpeg",
+   "tokens": [
+    "HILLS",
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The herd dissolves into names, the camera at the hillside's flank so caller and trotting called read in profile: names on the green hill: Jesus calling low and one at a time \u2014 and one at a time they answer: a brown ewe a"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b07",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s07-the-sheep-hear-his-voice.jpeg",
+   "tokens": [
+    "FOLD",
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verse happens at the gap in the stones: Jesus standing in the morning light at the fold's one gate, calling \u2014 and out of the mixed grey-brown sea inside, his own come: threading between strangers' flanks, funnelling "
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b08",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s08-my-sheep-hear-my-voice.jpeg",
+   "tokens": [
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the possessive that sounds like love: Jesus's warm face above the wool pressing in around his knees \u2014 MY sheep \u2014 the word carrying no deed-of-purchase hardness at all, only the way a mother says my in the dark \u2014"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b09",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s09-he-leads-them-to-green.jpeg",
+   "tokens": [
+    "HILLS",
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The old psalm gets its picture: the hollow deep green in the day's soft light, the pool lying mirror-still under its quiet stream, the flock spread wide and easy \u2014 some grazing belly-deep in the good grass, some drinking"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b10",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s10-and-when-one-is-small.jpeg",
+   "tokens": [
+    "HILLS",
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The one that couldn't make the hill rides home: a spent lamb draped limp and easy across Jesus's shoulders, his two hands steadying the small legs against his chest as he climbs the path \u2014 no scolding spent on it, no les"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b11",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s11-led-not-driven.jpeg",
+   "tokens": [
+    "HILLS",
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole teaching walks in one evening line: the shepherd out ahead on the gold-lit ridge path, and the flock strung willing and easy behind him \u2014 nothing at their heels but their own choosing, nothing pulling but the v"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b12",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s12-i-am-the-good-shepherd.jpeg",
+   "tokens": [
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the price being named in a green field: I AM THE GOOD SHEPHERD \u2014 the warm face steady over the grazing wool \u2014 THE GOOD SHEPHERD GIVETH HIS LIFE \u2014 and for one beat the eyes carry the whole cost of the job descrip"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b13",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s13-that-is-what-he-was.jpeg",
+   "tokens": [
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sentence turns and finds its address: Jesus's gaze lifting from the wool under his hand, straight out of the frame to whoever is watching \u2014 the warm brown eyes carrying the arithmetic personally now: that price, will"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b14",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s14-and-here-is-the-turn.jpeg",
+   "tokens": [
+    "HILLS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The parable takes off its wool: the same green slope, the same easy gathered arrangement \u2014 but people now: a tired laborer sitting where the brown ewe grazed, a mother and her children resting by the still water, an old "
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b15",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s15-tired-wandering-easily-lost-people.jpeg",
+   "tokens": [
+    "HILLS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "He tends them, the camera behind the gathered people's shoulders, exactly as he tended wool: crossing the slope to crouch at the tired laborer's side with a hand on his shoulder, calling gently up the hill to the restles"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b16",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s16-and-i-give-unto-them.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the safest place in the universe: one strong sun-browned hand held open and steady in the warm light \u2014 calloused from work, scarred from living, calm as bedrock \u2014 not clenched around its keeping but open beneath"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b17",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s17-but-in-the-morning-when.jpeg",
+   "tokens": [
+    "FOLD",
+    "FLOCK",
+    "SHEP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Dawn solves what the dark mixed up: at the gap-gate the shepherd's morning call goes out over the crowded wool \u2014 and the fold divides itself by hearing: here and there through the mixed sea, particular heads come UP and "
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b18",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s18-once-you-are-in-his.jpeg",
+   "tokens": [
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on what the end of fear looks like: a lamb settled into the crook of his arm with its whole weight surrendered \u2014 legs folded any way they fell, eyes half-lidded, the little ribs rising slow \u2014 not one fibre of it ke"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b19",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s19-not-by-your-failures-not.jpeg",
+   "tokens": [
+    "HILLS",
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The direction of the grip settles everything: on the high ridge with the wind up and dark weather standing off beyond the hills, Jesus carries the lamb fast against his chest \u2014 and the lamb holds nothing: no grip in the "
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b20",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s20-he-leads-them-home-in.jpeg",
+   "tokens": [
+    "FOLD",
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The day ends the way good days do, counted: golden dusk at the stone circle, the flock filing one by one through the gap-gate \u2014 and at the gate the shepherd's hand touching every back as it passes: this one, this one, th"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b21",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s21-that-is-the-shepherd-he.jpeg",
+   "tokens": [
+    "FOLD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Close at the gate on the whole job description in one posture: Jesus settled against the fold's stone gap with the crook loose in his hand, the flock safe and murmuring at his back, his face turned easy toward the coming"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b22",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s22-known-not-counted-held-and.jpeg",
+   "tokens": [
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the dusk on the two clauses at once: Jesus's face bent down beside one particular woolly head held against his chest \u2014 the knowing in his eyes personal as a name, the arm around the warm body gentle as evening a"
+  },
+  {
+   "row": 108,
+   "build": "build-108-my-sheep-hear-my-voice",
+   "beat": "v2-r108-b23",
+   "file": "build-108-my-sheep-hear-my-voice/assets/s23-and-even-now-he-is.jpeg",
+   "tokens": [
+    "FOLD",
+    "HILLS",
+    "FLOCK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The closing frame faces the dark with an open gate: the fold warm and full behind him, safe wool murmuring inside the stones \u2014 and Jesus turned the other way at the gap, out toward the night hills where somebody is alway"
   },
   {
    "row": 109,
