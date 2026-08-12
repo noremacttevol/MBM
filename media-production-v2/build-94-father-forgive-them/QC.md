@@ -115,3 +115,29 @@ realistic throughout, captions bottom-band (blue scripture / white narrator / RE
 
 **Audio:** AUDIO REBUILD PASS SHA256=80ff9897… — byte-identical to the prior ship; nothing re-voiced.
 **Cost:** 2 rerolls (b09/b10) = the two complaint frames, ~$0.27 this run, 0 extra rerolls. Meter 600.72.
+
+---
+## C-FIX 2026-08-12 (Machine A `Dev`, Opus runner) — RE-OPEN of the 08-11 fix CLOSED, touch-once
+
+**COMPLAINT LEDGER (open at start, now fixed) — Cameron:** *"In 0:54 he is smiling, i dont think he smiled on the cross its offputting, fix it. The picture at 0:48 does not have the plaque over his head and his eyes look weird fix it. Also he needs a crown of thorns when he is on the cross so all of these pictures need to be redone. Also 0:37 picture has the men throwing dice but a random cross falling twords them in the back ground redo it. You didnt fix anything try again same compliants"*
+
+**TRACE (from the LIVE mp4 clip timeline, not beat names):** c000-c011 cumulative →
+0:37 = c006 = **b07/s07** (dice close); 0:48 = c008 = **b09/s09** (the prayer, top of cross);
+0:54 = c009 = **b10/s10** ("forgive them now").
+
+1. **"crown of thorns … all of these pictures need to be redone"** → ROOT of "you didn't fix anything." Every readable Jesus-on-cross frame (s02/s06/s08/s09/s10) showed a BARE head — no crown anywhere. FIXED: a dark crown of woven thorns now on his head in every readable cross frame, verified in the rendered mp4.
+2. **"0:54 he is smiling"** → b10/s10. Held from 08-11 (solemn) AND now crowned. Verified: solemn, no smile, no bared teeth.
+3. **"0:48 no plaque + eyes weird"** → b09/s09. The 08-11 fix (titulus present, eyes open) HELD; now also crowned. Verified: worn wooden titulus above his head, eyes open/calm/lifted, crown present.
+4. **"0:37 dice + a random cross falling towards them"** → b07/s07. FIXED: the confusing X of overhead cross-beams tilting toward the players is gone; now one plain steady VERTICAL upright at the back edge, no tilt/fall.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- Crown of thorns → **IGNORED**: no Jesus-on-cross beat ever named a crown of thorns (Matt 27:29 / John 19:2-5 — he wore it on the cross), while sibling row 96 was given a mandatory crown on 08-11. The 08-11 row-94 fix only touched b09/b10 smile/eyes/plaque → the crown was never added, so to Cameron nothing was fixed. FIX = ported row 96's proven CRUCIFIX_LOOK / CRUCIFIX_REJECT and applied it via `_CRUCIFY_IDS` to every readable Jesus frame (b02/b06/b08/b09/b10); distant wides b11/b12 leave Jesus a speck (crown imperceptible) → untouched (cost law).
+- s07 falling cross → **CAUSED/ALLOWED**: b07's scene put the game "in the shadow of the beam" with no constraint on the cross timber, so the model rendered an X of beams tilting overhead. FIX = must_not_show now forbids any cross/beam leaning/tilting/falling toward the men and any X-crossing overhead beams; scene names one plain vertical upright at the back edge.
+- s07 setting drift (1 reroll) → the first re-cut cleared the falling cross but drifted to a bright sunny village courtyard, breaking the row's cold-grey bare-hill continuity. FIX = added a cold-grey-overcast + bare-rock, no-village cue; reroll landed grey overcast, single vertical beam (faint distant water = soft insert backdrop, same accepted class as this row's s05).
+
+**FULL-CUT GATE (§6b):** all 12 stills + closing card extracted from the RENDERED mp4 and viewed. Changed s02/s06/s07/s08/s09/s10 verified (crown present + not cropped by Ken Burns, no smile, titulus, open eyes, loincloth, cold grey; s06 clean 3-cross — the two thieves roped at the sides, no 4th cross); unchanged s01/s03/s04/s05/s11/s12 byte-identical clean; card full/clean. Captions bottom-band, 3-colour (blue scripture, white narrator, RED Jesus j1). No 2nd cream figure, no giant scale, anatomy clean, realistic throughout, merciful distance held (no nails driving / no blood / no gore).
+FIX-WAVE (logged, NOT blocking): a faint foot-shadow on the suppedaneum in s09/s10 (no blood, no gore, reads as shadow at scale); s07 cobbled ground + faint distant water (tight insert backdrop, s05 precedent).
+
+**Audio:** AUDIO REBUILD PASS SHA256=80ff9897e4aedbc63ffc5dbe619d44ed1d01a026da6e0e61e4361d1386bc4ae3 — BYTE-IDENTICAL to the prior ship; picture-only fix, nothing re-voiced or re-timed. New mp4 73.8s, 20.1 MB.
+
+**Cost:** 6 complaint-driven regens + 1 reroll (s07 setting) = 7 gens ≈ **$0.94** this run (meter 605.01→605.95). Reroll 1/12 beats = 8.3% (under 15%). Well under the $6.10/row C-FIX average.

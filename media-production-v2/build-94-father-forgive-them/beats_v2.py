@@ -56,6 +56,60 @@ REF = True
 # stale voices. Rebuild from this build's own mp3 segments — $0.
 AUDIO_FROM_V1_SEGMENTS = True
 
+# === C-FIX 2026-08-12 (Machine A `Dev`, Opus runner) — Cameron re-opened the
+# 08-11 fix: "he needs a crown of thorns when he is on the cross so all of these
+# pictures need to be redone … You didnt fix anything try again same compliants."
+# AUTOPSY: no Jesus-on-cross beat ever named a crown of thorns (IGNORED) — every
+# readable cross frame showed a BARE head, while sibling row 96 was given a
+# mandatory crown on 08-11. The prior 08-11 fix only touched b09/b10 smile/eyes/
+# plaque, so the crown was never added → "same complaints." FIX = port row 96's
+# proven CRUCIFIX_LOOK / CRUCIFIX_REJECT and apply it to every readable Jesus
+# frame (b02/b06/b08/b09/b10). Distant wides b11/b12 keep Jesus a speck (crown
+# imperceptible) → left untouched (cost law). These strings render AFTER the
+# shared JESUS lock in v2_prompt.assemble(), so they override the robe for THIS
+# row only. `scene` is prefixed with CRUCIFIX_LOOK; `must_not_show` suffixed with
+# CRUCIFIX_REJECT. The prior 08-11 gains (titulus present, eyes open, no smile,
+# loincloth) are RE-ASSERTED here so they stay locked while the crown is added.
+CRUCIFIX_LOOK = (
+    "CRUCIFIXION APPEARANCE — IDENTICAL in every crucifixion frame: on the cross "
+    "Jesus is STRIPPED of the cream robe — the soldiers have already cast lots for "
+    "his garments (their dice lie on the rock below) — so he wears ONLY a plain, "
+    "rough, undyed knee-length cloth loincloth; his torso and arms are bare. He is "
+    "NOT in the cream robe, mantle, tunic or shawl here and is never fully clothed "
+    "on the cross. On his head is a dark CROWN OF WOVEN THORNS pressed into the "
+    "brow — present and clearly visible in this frame. The rough wooden UPRIGHT of "
+    "the cross rises directly behind his head and shoulders, and fixed to it just "
+    "above his head is a plain weathered wooden TITLE-BOARD (the titulus, Luke "
+    "23:38) whose ancient painted lettering is worn and indistinct — an aged "
+    "placard, no modern type. His EYES are warm, living and clear — reverent, "
+    "lifted to the cold grey sky or lowered in peace; NEVER white, blank, milky or "
+    "rolled back, and NEVER looking into the camera lens. His expression is solemn "
+    "and heavy with pain, NEVER smiling, grinning or showing bared teeth. His face "
+    "and identity remain exactly the attached Jesus reference man. Still NO nails, "
+    "blood, wounds or gore anywhere — dignity absolute. "
+)
+CRUCIFIX_REJECT = (
+    " ALSO REJECT: any cream robe, mantle, tunic or shawl on his body; a fully "
+    "clothed Jesus on the cross; a MISSING crown of thorns or a bare head; any "
+    "smile, grin, cheerful look or bared teeth; white, blank or rolled-back eyes; "
+    "his gaze into the camera lens; a bare studio-style portrait with no cross "
+    "behind his head; small cross shapes floating in the sky; MORE THAN THREE "
+    "crosses anywhere in the frame or a SECOND separate group of crosses on a "
+    "background hill or horizon — there are ONLY THREE crosses in the whole scene: "
+    "Jesus's cross and the two thieves' crosses beside it, and no others anywhere "
+    "behind; any legible modern or Latin-alphabet word on the title-board (it is an "
+    "aged placard with worn, indistinct ancient marks, never a readable word); any "
+    "nails, blood, wounds or gore."
+)
+
+
+def _crucify(beat):
+    """Apply the C-FIX crucifixion look to a readable Jesus beat in place."""
+    beat["scene"] = CRUCIFIX_LOOK + beat["scene"]
+    beat["must_not_show"] = beat.get("must_not_show", "") + CRUCIFIX_REJECT
+    return beat
+
+
 BEATS = [
     {
         "id": "v2-r094-b01", "out": "s01-and-when-they-were-come.jpeg", "seg": "s33",
@@ -236,9 +290,9 @@ BEATS = [
         "locks": ["SOLDIERS"],
         "narration": "That is what was going on underneath him.",
         "must_show": "the game close — the dice mid-tumble on the rock, the reaching hands, a laugh caught on one face; callousness at its most casual.",
-        "must_not_show": "ABSOLUTE: no blood anywhere; the callousness CASUAL, not cruel-theatrical — men numb to the day, which is worse.",
+        "must_not_show": "ABSOLUTE: no blood anywhere; the callousness CASUAL, not cruel-theatrical — men numb to the day, which is worse. NO cross, cross-beam or timber leaning, tilting, tipping or falling toward the men; NO X-shaped crossing beams above their heads and NO jumble of angled crosses in the frame — the crosses stand UPRIGHT and vertical; at most the plain vertical foot of a single upright rises quietly at the edge or back of the frame, never overhead and never toppling. NO bright sunshine, warm golden daylight or blue sunny sky; NO village, houses, courtyard, stone buildings or town walls close behind the men — the light is the same cold colorless grey overcast as the rest of the hill and the ground is bare pale execution rock.",
         "scene": (
-            "Close on the rock floor "
+            "Close and low on the rock floor "
             "beneath the cross: the "
             "knucklebones mid-tumble "
             "between the kneeling men, one "
@@ -249,9 +303,24 @@ BEATS = [
             "sounds of a game men have "
             "played a thousand slow "
             "afternoons, played this once "
-            "in the shadow of the beam, "
-            "without one face lifting to "
-            "see whose shadow it is. "
+            "at the foot of the cross, out on "
+            "the bare pale rock of the "
+            "execution hill under the same "
+            "cold, colorless grey-overcast "
+            "morning light as every other "
+            "frame — no sunshine, no village, "
+            "no buildings behind them, only "
+            "open grey ground and heavy sky. "
+            "The "
+            "only cross timber in view is "
+            "the plain VERTICAL foot of the "
+            "upright standing quietly at the "
+            "back edge of the frame — nothing "
+            "overhead, nothing tilted, nothing "
+            "leaning or falling toward them; "
+            "the beam is steady and straight. "
+            "Not one face lifts to "
+            "see whose foot it is. "
             "Every figure has two arms, "
             "two hands and one head."
         ),
@@ -425,6 +494,19 @@ BEATS = [
         ),
     },
 ]
+
+
+# C-FIX 2026-08-12: enforce the ONE crucifixion depiction (crown of thorns +
+# loincloth + titulus + open reverent eyes + no smile) on every READABLE Jesus
+# beat. The distant establishing wides b11/b12 keep Jesus a speck, so a crown is
+# imperceptible and they are left untouched (cost law). b01/b03/b04/b05/b07 have
+# no on-cross Jesus face and are unaffected.
+_CRUCIFY_IDS = {
+    "v2-r094-b02", "v2-r094-b06", "v2-r094-b08", "v2-r094-b09", "v2-r094-b10",
+}
+for _b in BEATS:
+    if _b["id"] in _CRUCIFY_IDS:
+        _crucify(_b)
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
