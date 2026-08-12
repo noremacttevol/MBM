@@ -206,8 +206,8 @@ BEATS = [
         "narration": ("He asked him to push out a little way from the shore, "
                       "and then he sat down and taught the people from the "
                       "water."),
-        "must_show": "v3 — Jesus SEATED in the floating boat a little off shore, teaching; the crowd banked along the waterline listening; Simon at the oars.",
-        "must_not_show": "the boat is only a LITTLE way out — voices carry; not the deep yet.",
+        "must_show": "THE BOATS MATCH THE BOAT REFERENCE EXACTLY: the same two LARGE masted Galilee fishing boats every frame - Peter's boat has a MAST (sail furled), high stem posts, ~8 meters, and the partner boat is the SAME build and SAME size; boat scale stays constant against the men. v3 — Jesus SEATED in the floating boat a little off shore, teaching; the crowd banked along the waterline listening; Simon at the oars.",
+        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless hull for either boat, never a boat smaller or bigger than the BOAT reference. the boat is only a LITTLE way out — voices carry; not the deep yet.",
         "scene": (
             "The boat floats a stone's throw off the beach on flat "
             "bright water, the camera on the beach behind the "
@@ -228,8 +228,8 @@ BEATS = [
         "locks": ["SIMON", "LAKE", "BOATS"],
         "narration": ("Launch out into the deep, and let down your nets for a "
                       "draught. (Luke 5:4)"),
-        "must_show": "v4 — Jesus turned to Simon, the quiet instruction; his hand indicating the open deep water.",
-        "must_not_show": "no grand gesture; a working man's word to a working man.",
+        "must_show": "THE BOATS MATCH THE BOAT REFERENCE EXACTLY: the same two LARGE masted Galilee fishing boats every frame - Peter's boat has a MAST (sail furled), high stem posts, ~8 meters, and the partner boat is the SAME build and SAME size; boat scale stays constant against the men. v4 — Jesus turned to Simon, the quiet instruction; his hand indicating the open deep water.",
+        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless hull for either boat, never a boat smaller or bigger than the BOAT reference. no grand gesture; a working man's word to a working man.",
         "scene": (
             "In the floating boat Jesus has turned from the shore to face "
             "Simon at close quarters, his face calm and direct, one hand "
@@ -320,8 +320,8 @@ BEATS = [
         "narration": ("Master, we worked that lake all night and caught "
                       "nothing. But because you say so, I will put the net "
                       "down again."),
-        "must_show": "the boat pulling for the deep — oars in the water, the shore falling behind.",
-        "must_not_show": "the second boat stays at the shore in this frame; only Simon's goes out.",
+        "must_show": "THE BOATS MATCH THE BOAT REFERENCE EXACTLY: the same two LARGE masted Galilee fishing boats every frame - Peter's boat has a MAST (sail furled), high stem posts, ~8 meters, and the partner boat is the SAME build and SAME size; boat scale stays constant against the men. the boat pulling for the deep — oars in the water, the shore falling behind.",
+        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless hull for either boat, never a boat smaller or bigger than the BOAT reference. the second boat stays at the shore in this frame; only Simon's goes out.",
         "scene": (
             "The single boat pulls away across open water toward the deep, "
             "Simon and the young crewman bent to the oars in matched "
@@ -417,8 +417,8 @@ BEATS = [
         "locks": ["CREWMAN", "LAKE", "BOATS"],
         "narration": ("They waved to their partners, James and John, in the "
                       "other boat to come and help,"),
-        "must_show": "v7 — the beckoning: arms up signalling across the water; the far boat already pulling toward them.",
-        "must_not_show": "shouting distance is too far — the SIGNAL is the communication.",
+        "must_show": "THE BOATS MATCH THE BOAT REFERENCE EXACTLY: the same two LARGE masted Galilee fishing boats every frame - Peter's boat has a MAST (sail furled), high stem posts, ~8 meters, and the partner boat is the SAME build and SAME size; boat scale stays constant against the men. v7 — the beckoning: arms up signalling across the water; the far boat already pulling toward them.",
+        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless hull for either boat, never a boat smaller or bigger than the BOAT reference. shouting distance is too far — the SIGNAL is the communication.",
         "scene": (
             "The young crewman stands braced on the fish-slicked "
             "deck, the camera off the beam holding both boats in "
@@ -438,8 +438,8 @@ BEATS = [
         "locks": ["SIMON", "CREWMAN", "JAMESJOHN", "LAKE", "BOATS"],
         "narration": ("and both boats were loaded until they sat low in the "
                       "water and began to sink."),
-        "must_show": "v7 — the two boats side by side heaped with silver, gunwales riding at a hand's breadth from the waterline.",
-        "must_not_show": "low and dangerous, but nobody bailing, nobody in the water — awed, not drowning.",
+        "must_show": "THE BOATS MATCH THE BOAT REFERENCE EXACTLY: the same two LARGE masted Galilee fishing boats every frame - Peter's boat has a MAST (sail furled), high stem posts, ~8 meters, and the partner boat is the SAME build and SAME size; boat scale stays constant against the men. v7 — the two boats side by side heaped with silver, gunwales riding at a hand's breadth from the waterline.",
+        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless hull for either boat, never a boat smaller or bigger than the BOAT reference. low and dangerous, but nobody bailing, nobody in the water — awed, not drowning.",
         "scene": (
             "The two boats lie lashed side by side on the bright "
             "water, the camera low off their beam so both hulls "

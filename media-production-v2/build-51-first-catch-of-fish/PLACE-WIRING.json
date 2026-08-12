@@ -1,0 +1,8 @@
+{
+ "BOAT": {
+  "manual": true,
+  "src_beat": "s02-two-empty-boats",
+  "src_build": "build-51-first-catch-of-fish",
+  "src_file": "build-51-first-catch-of-fish/assets/s02-two-empty-boats.jpeg"
+ }
+}
