@@ -1,3 +1,22 @@
+## 2026-08-11 (cont. 70) — ROW 73 C-FIX "This Day Fulfilled": Cameron's Jesus hair/eyes complaint CLOSED touch-once + gate-caught door power line — Machine A `Dev`, Opus runner (complaint-first + low-number, unattended/headless)
+
+**Commit:** commit A `9f7514fe2d53ede8df3d986b0c53c0ca9be9cd4e` (mp4 + 3 stills + beats_v2 + QC.md + AUTHOR-BOARD + api-spend); review.html + this SESSION-LOG in commit B below. Session-chain verified at start: prior top entry cont.69 (row 118 VERIFY-PASS); cont.67 commit `849e49724` present in `git log` at HEAD — chain intact. Hostname `Dev` = Machine A.
+
+Row 73 was the lowest waiting complained row (COMPLAINT-FIRST + LOW-NUMBER). Cameron's complaint (PICTURE-domain, against live ship `2ee8c138`): _"1:26 jesus hair too black and full. 1:34 / 2:04 Jesuse eyes messed up need to be replaced."_
+
+**Traced each timestamp to the rendered frame (extracted from the LIVE mp4, not guessed from beat names):**
+- 1:26 (86.0s) → beat b15 → `s15-this-day-is-this-scripture.jpeg` (hair). Confirmed: hair a too-black, over-full mass vs the natural dark-brown of every other frame; Jesus was also standing (the beat wants him seated).
+- 1:34 (94.0s) → beat b16 → `s16-the-promise-israel-had-waited.jpeg` (eyes). Confirmed: distorted, asymmetric, unfocused irises in the close-up.
+- 2:04 (124.0s) → beat b20 → **REUSES the same `s16`.** One bad still was hurting him twice; one reroll fixes both seconds.
+
+**PROMPT AUTOPSY (rubric meta-law 3, in QC.md):** s15 hair = **ALLOWED** (beat carried the master-ref + lock but NO hair constraint; the ref itself reads jet-black, so the generator amplified it) → added positive+negative hair constraint to b15. s16 eyes = **ALLOWED** (no eye-integrity constraint; a tight close-up is exactly where irises drop) → added an eye-integrity constraint to b16 AND b20. s18 door power line = **IGNORED** (b21 already said "no modern element," yet ALL THREE fresh gens re-strung a rooftop wire — an un-promptable "village street" prior) → strengthened the ban to name the offenders AND removed the wire with a $0 surgical sky paint (pull clean sky from above the traced wire, bright-sky both-sides guard so cypress/rooftops/tree untouched; verified clean to 3.6× zoom).
+
+**FULL-CUT GATE 6b (every rendered beat viewed from the live mp4):** 18/21 beats + 3 caption frames + the question card CLEAN (identity/cream-only-Jesus/anatomy/hands/scale/realistic/captions-bottom-band all pass). The only defects were the two Cameron named (s15, s16 at both 1:34 & 2:04) and the gate-caught power line on s18 (the board had it deferred as "faint sky hairline"; 6b blocks it). All three fixed in this ONE touch-once re-cut; no other beat changed. Re-verified the three fixes in the RE-RENDERED mp4 (survived Ken Burns crop).
+
+**Cost:** rerolls s15×1, s16×1, s18×3 = 5 gens / 21 beats ≈ **24% (OVER the 15% budget — explained: the s18 wire prior is un-promptable, 3 fresh gens each re-drew it so they bought nothing; the durable fix was mechanical, $0).** Image spend ≈ **$0.65** (meter 601.93 → 602.73), well under the $6.10/row average — this session trends $/row DOWN. **AUDIO REBUILD PASS `6f74796d` — byte-identical to the prior ship (pictures-only; voices/words/timing untouched).** Deployed + live-verified.
+
+---
+
 ## 2026-08-11 (cont. 69) — VERIFY-PASS row 118 "Jonah — God Who Relents": FULL-CUT GATE re-run before Cameron's eyes reached it, CLEAN, no re-cut ($0, 0 credits) — Machine A `Dev`, Opus runner, unattended/headless
 
 **Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry was cont.67 (row 94 C-FIX) commit `849e49724` present in `git log`; a concurrent lane added cont.68 (row 96 C-FIX) while I ran — chain intact, no collision (I only touched row 118's cells). Hostname `Dev` = Machine A.
