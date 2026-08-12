@@ -168,3 +168,55 @@ red (KJV), bottom band only; question card clean.
 **Cost:** 21 stills + 0 portraits (cast sheets reused) + 1 reroll @ ~$0.134
 ≈ **$2.95** — under the $6.10 running average; trend stays DOWN (portraits free,
 one place generated straight, single reroll).
+
+---
+
+## C-FIX 2026-08-12 (Opus runner, Machine A `Dev`) — RE-OPEN #3: audio "alway"→"always" + white tear on Peter — CLOSED in ONE touch-once re-cut
+
+**COMPLAINT LEDGER** (`v2_outline.py 71`, Cameron, reportedAgainst `5cc43a5f`):
+1. *"Jesus said … 'I am with you always … end of the world' not 'alway'. The voice
+   still is pronouncing [it wrong], the caption is correct but not the audio."*
+   → **FIXED (audio).** jv20 re-voiced to say **"always"** with an audible /z/.
+2. *"1:37 a man has a white tear and that needs to get fixed."*
+   → **FIXED (picture).** 1:37 = b18/`s18`; Peter regenerated fully dry-eyed.
+
+**Why it re-opened twice (PROMPT AUTOPSY, rubric meta-law 3):**
+
+- **Audio = the whisper trap.** The 08-11 fix (`1897b351c`) only changed the
+  CAPTION (TEXT_OVERRIDES) and trusted `faster-whisper` ("confirms 'always' on
+  jv20.mp3") to prove the audio was fine. faster-whisper NORMALISES "alway"→
+  "always" and is deaf to the missing terminal /z/. The V1 make_narration text is
+  "alway", so ElevenLabs was fed "alway" and correctly said "alway" — no /z/.
+  Measured on the shipped V1 jv20: word-final HF(4-8k) = **0.009** (vs its own /z/
+  in "observe" = 0.18, /s/ in "whatsoever" = 0.31) → the word ends in the /eɪ/
+  vowel = "alway". Cameron was right. **Verdict: the caption fix ALLOWED the audio
+  defect to survive by mis-diagnosing it.** Fix = re-voice (below), not caption.
+- **Picture = a self-inflicted loophole.** b18's `must_not_show` banned a "painted/
+  white tear/streak/droplet" but then explicitly PERMITTED "if his eyes shine at
+  all it is only the faintest natural wetness catching the light." The model renders
+  that permitted wet glint on Peter's lower eyelid as a welling tear — which reads
+  as the white tear across all three cuts. **Verdict: CAUSED/ALLOWED by the prompt's
+  own wet-eye permission.** Fix = remove the permission; forbid ALL eye wetness/
+  shine/gloss/glint, eyes fully dry, emotion via brow + mouth alone; regen s18.
+
+**Audio re-voice (touch-once with the picture):** ElevenLabs **Alexander** (JESUS
+voice, same as jv18/jv19 — identity preserved), fed the literal "always". Rendered
+4 takes; A/B spectrogram vs the original confirmed a distinct terminal /z/ frication
+cloud (4-8 kHz) the original lacks. Chosen take: terminal /z/ HF **0.65**, **F0 96 Hz**
+(orig jv20 = 97, jv19 = 95). atempo-locked to the original **11.232653 s**
+(delivered 11.2588 s, drift +26 ms — inside the 1.6 s KJV gap, no window moves).
+Old jv20 saved to `audio-oldvoice-backup/`. Because a V1 mp3 now post-dates the V1
+final mp4, `AUDIO_FROM_V1_SEGMENTS = True` was added so narration rebuilds from the
+V1 mp3s (incl. new jv20) — **AUDIO REBUILD PASS SHA256=6a0f7de9…**, 131.8 s. Caption
+stays "always" (TEXT_OVERRIDES, already correct) and now matches the spoken word.
+
+**FULL-CUT GATE 6b:** one frame per beat from the RE-RENDERED mp4, all 21 viewed —
+realistic throughout, Jesus one face + cream-only, natural scales, no modern objects,
+no cartoon, s18 Peter dry-eyed, jv20 caption "always … unto the end of the world.
+Amen." correct (Jesus red), question card clean. No new complaint-worthy frame; only
+the two named defects were touched.
+
+**Cost:** 1 s18 reroll (~$0.13) + 4 ElevenLabs Jesus renders (subscription, ~$0
+marginal Gemini) = **1 gen / 21 beats = 4.8% reroll**, ~$0.13 Gemini. Touch-once:
+picture + audio in ONE re-cut = one reviewer delivery. Audio is NO LONGER
+byte-identical (jv20 was legitimately re-voiced) — SHA c29f8cf → **6a0f7de9**.

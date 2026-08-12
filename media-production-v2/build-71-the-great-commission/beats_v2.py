@@ -83,6 +83,17 @@ TEXT_OVERRIDES = {
 
 REF = True
 
+# C-FIX 2026-08-12: jv20 was re-voiced (ElevenLabs Alexander/Jesus) so the spoken
+# word is now "always" (audible /z/) instead of the archaic "alway" — Cameron's
+# re-opened complaint ("the voice still is pronouncing [it wrong]... not the
+# audio"). The prior 08-11 fix only changed the CAPTION and trusted faster-whisper
+# (which normalises "alway"->"always" and is deaf to the missing /z/); the audio
+# was never touched. Re-voiced take: terminal /z/ frication 0.65, F0 96 Hz (matches
+# jv19=95, jv20-orig=97), atempo-locked to the original 11.232653 s (drift +26 ms,
+# inside the 1.6 s KJV gap). Because a V1 mp3 now post-dates the V1 final mp4, the
+# narration must be rebuilt from the V1 build's own mp3s at extract_beats offsets:
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r071-b01", "out": "s01-he-had-been-crucified.jpeg", "seg": "n1",
@@ -483,7 +494,7 @@ BEATS = [
         "locks": ["ELEVEN", "MOUNT"],
         "narration": "Not until you fail. Always, to the very end.",
         "must_show": "the promise landing on the failer — Jesus's gaze resting particularly on Peter: the man who denied him receiving the ALWAYS first; grace's addressing order.",
-        "must_not_show": "no halo, glare or rim-light; Peter's receiving face the beat — a failed man being promised permanent company. ABSOLUTELY NO painted or white tear, no bright white streak, drip or opaque droplet on Peter's cheek or any face; his emotion is carried by the eyes and the set of the mouth alone — if his eyes shine at all it is only the faintest natural wetness catching the light, NEVER a visible white line or teardrop down the cheek.",
+        "must_not_show": "no halo, glare or rim-light. Peter is the receiving face of the beat — a failed man being promised permanent company — but his emotion is carried by the brow and the set of the mouth ALONE. His eyes are completely DRY, clear and matte: NO tears, NO welling, NO wet or glossy sheen, NO reflective moisture on the eye, and NO bright catchlight, glint, spark or white highlight anywhere on the eyeball, the lower eyelid, the waterline, the tear duct or the cheekbone. ABSOLUTELY NO painted or white tear, streak, line, drip or droplet on Peter's cheek or ANY face. Nobody on the mountain is crying and no eye reads as tearful — this beat has been rejected three times for a white tear on Peter, so err fully dry.",
         "scene": (
             "The ALWAYS finds its first address: "
             "Jesus's gaze resting on Peter — the "
