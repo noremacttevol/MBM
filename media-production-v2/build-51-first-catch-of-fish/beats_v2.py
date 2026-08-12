@@ -103,7 +103,12 @@ LOCKS = {
     "BOATS": (
         "BOATS LOCK: the two fishing boats are the same in every shot — "
         "broad-beamed working boats of dark oiled cedar planking about "
-        "eight paces long, a single stubby mast with the sail furled, oars "
+        "eight paces (~8 meters) long, EACH carrying a single TALL UPRIGHT "
+        "wooden mast stepped amidships that rises well above the men's heads "
+        "with its sail furled to the yard. NEVER a mastless open hull, NEVER "
+        "a small paddle-only rowboat or dinghy, NEVER a boat too small for a "
+        "standing mast — every boat in this story is a full masted Galilee "
+        "fishing boat of the same build and size. Oars "
         "shipped along the gunwales, and heaps of brown knotted flax nets "
         "with small stone sinkers. Everyone aboard stands or kneels plainly "
         "INSIDE the hull, deck under their feet, the gunwale running "
@@ -149,13 +154,16 @@ BEATS = [
         "window": "5.20-9.50", "wide": False, "jesus": False, "ref": False,
         "locks": ["LAKE", "BOATS"],
         "narration": "Two empty boats sat at the water's edge,",
-        "must_show": "v2 — the two boats drawn up and empty, nets draped, the night's failure written in their emptiness.",
-        "must_not_show": "no fish anywhere in either boat — that emptiness is the story's setup.",
+        "must_show": "THE BOATS MATCH THE BOAT REFERENCE EXACTLY: two LARGE broad-beamed Galilee fishing boats, EACH with a single TALL UPRIGHT mast (sail furled) rising well above the gunwale, high stem posts, ~8 meters, the SAME build and SAME size. v2 — the two boats drawn up and empty, nets draped, the night's failure written in their emptiness.",
+        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless open hull for either boat, never a boat too small for its standing mast. no fish anywhere in either boat — that emptiness is the story's setup.",
         "scene": (
             "The two dark cedar fishing boats sit beached side by side at "
             "the shingle's edge in low morning light, empty — oars shipped, "
-            "sails furled, wet brown nets hanging over their gunwales and "
-            "not one fish in either hull. Down the shore beyond them the "
+            "each boat's single TALL UPRIGHT mast standing clear above the "
+            "gunwale with its sail furled to the yard, wet brown nets hanging "
+            "over their gunwales and "
+            "not one fish in either hull. The two boats are the same large "
+            "broad-beamed build and the same size. Down the shore beyond them the "
             "crowd around the distant teacher is a soft blur. Gulls stand "
             "idle on the stones; there is nothing here for them either."
         ),
@@ -163,19 +171,21 @@ BEATS = [
     {
         "id": "v2-r051-b03", "out": "s03-washing-empty-nets.jpeg", "seg": "n1 p2b",
         "window": "9.50-14.52", "wide": False, "jesus": False, "ref": False,
-        "locks": ["SIMON", "CREWMAN", "LAKE"],
+        "locks": ["SIMON", "CREWMAN", "LAKE", "BOATS"],
         "narration": ("and beside them tired fishermen were washing out their "
                       "nets after a long night that had given them nothing."),
-        "must_show": "the exhaustion — men ankle-deep in the shallows rinsing nets that held nothing, faces grey with the night.",
-        "must_not_show": "no anger — just bone-tiredness; the failure is old news by morning.",
+        "must_show": "the exhaustion — men ankle-deep in the shallows rinsing nets that held nothing, faces grey with the night. THE BOATS MATCH THE BOAT REFERENCE EXACTLY: the two boats beached behind them are the SAME LARGE broad-beamed Galilee fishing boats, EACH with a single TALL UPRIGHT mast (sail furled) rising well above the gunwale, ~8 meters, as every other shot.",
+        "must_not_show": "NEVER a small rowboat or dinghy, never a mastless open hull for the boats behind, never a boat too small for its standing mast. no anger — just bone-tiredness; the failure is old news by morning.",
         "scene": (
             "Simon stands ankle-deep in the cold shallows dragging a long "
             "brown net through the water to rinse it, his charcoal-brown "
             "tunic soaked to the thigh, his bearded face slack and grey "
             "with a whole night's wasted work — and beside him the young "
             "crewman in olive-brown crouches on the wet stones picking "
-            "weed from another fold of net, eyes half-shut. The empty "
-            "boats stand behind them. Soft early light. Exactly two people "
+            "weed from another fold of net, eyes half-shut. Behind them, "
+            "beached at the shingle's edge, stand the two large broad-beamed "
+            "fishing boats, each with its single TALL UPRIGHT mast (sail "
+            "furled) standing clear above the gunwale. Soft early light. Exactly two people "
             "are in the frame; each has two arms, two hands, two legs and "
             "one head."
         ),
@@ -644,5 +654,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "BOATS": "PLACE-REF/boats.jpeg",  # build-51-first-catch-of-fish s02-two-empty-boats (masted-boat plate, C-FIX 2026-08-12)
 }
 # === end PLACE-PLATES ===

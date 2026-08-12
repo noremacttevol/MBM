@@ -1,5 +1,25 @@
 # QC / RUNNER HANDOFF — build-51-first-catch-of-fish (Luke 5:1-11)
 
+## 🛠 C-FIX SHIPPED — 2026-08-12 (Machine A `Dev`, UNATTENDED/HEADLESS) — BOAT MAST/SIZE (RE-OPEN #2)
+
+**COMPLAINT LEDGER (this re-cut's open complaint):**
+- **Cameron (RE-OPEN): "The boats need to stay the same size … Still a problem just start by making sure its not a small paddle only boat. Make sure they all have a sail mast that is upright and the boat is reasonable sized for that. Check all the pictures. 13, 19, 31, 1:35, etc. Dont have sail mast because the boats are too small."** → **FIXED.** Traced his named timestamps in the RENDERED mp4: **13s = s03** (two mastless open rowboats behind the net-washers), **19s = s05** (teaching boat, mast faint/ambiguous), **31s = s07** (Simon face close-up — boat is soft background), **1:35 = s20** (depart-from-me close two-shot). The genuine "small paddle-only / no upright mast" offenders — where a boat is a visible SUBJECT — were **s02 (the plate itself), s03, and s05**. All three regenerated to the canonical LARGE broad-beamed cedar boat with a **TALL UPRIGHT mast, sail furled to the yard**. s07/s20 are unchanged character close-ups showing proper broad-beam hulls (not dinghies), left as-is (touch-once, budget, locked-face risk).
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- **BOATS lock — CAUSED.** The lock said "a single **stubby** mast." "Stubby" (short) is exactly what the model drops in wide/establishing shots → mastless open boats reading as paddle dinghies. **Rewrote** to "a single TALL UPRIGHT wooden mast stepped amidships that rises well above the men's heads with its sail furled to the yard. NEVER a mastless open hull, NEVER a small paddle-only rowboat or dinghy…" — baked the rule into the LOCK so it binds every boat beat.
+- **b02 (the plate) — ALLOWED.** must_show only demanded "two boats drawn up and empty, nets draped" — no visible-upright-mast requirement; the near boat rendered mastless. Since it was the wired plate, that mastlessness propagated. **Added** the strong mast+scale must_show/must_not_show + scene line, then regenerated FRESH.
+- **b03 — ALLOWED (two failures).** (1) It didn't even carry the `BOATS` lock token (`locks` were SIMON/CREWMAN/LAKE), so neither the lock text nor any plate applied to the boats behind; (2) must_show was net/exhaustion-only. **Added `BOATS` to its locks** + strong mast text; regenerated.
+- **b05 — ALLOWED (weak).** Already had strong mast text (from the 08-11 fix) but the high-angle composition let the mast render faint. Regenerated WITH the plate attached → clear upright mast.
+- **Deeper root cause found & fixed:** `PLACE_REFS = {}` was **EMPTY** — the 08-11 fix's claim that it "wired s02 as the BOAT plate" never took effect (PLACE-WIRING used token `BOAT`, beats lock on `BOATS`, and PLACE_REFS was never populated). So the plate was fed to NOTHING and consistency rode entirely on per-beat prose. **Actually wired it now:** promoted the new s02 → `PLACE-REF/boats.jpeg`, `PLACE_REFS = {"BOATS": …}`, removed the stale `BOAT` entry that was failing the check gate. The plate now attaches to all 17 boat beats on any future regen — killing the text-only drift the RUNNER-LESSON flagged.
+
+**Touch-once FULL-CUT GATE (one frame per beat from the RENDERED mp4 + all 3 caption frames + card):** every boat that is a subject now shows a tall upright mast and reasonable size (s02/s03/s05 fixed; s04/s06/s10/s11/s14/s15/s16/s17 already canonical). Jesus one locked face + cream-only every appearance, Simon one face, no 2nd cream figure, realistic throughout (no cartoon/mix), hands/scale/anatomy correct, captions 3-voice bottom-band (white narr / blue scripture / red Jesus), question card clean @156s. No other complaint-worthy defect.
+
+**Audio byte-identical:** re-assembled → **AUDIO REBUILD PASS SHA256 `e82b1aaf546bcb613303cc3989a16dbd348b51fded38a1fe6736103be071835a`** — SAME hash as prior ship. Narration/voices/timing untouched.
+
+**Cost:** 3 rerolls / 26 beats = **11.5%** (under 15% budget). ~$0.40 this re-cut (3 image gens). Meter $603.54 → $603.94. Well under the $6.10/row average (C-FIX).
+
+---
+
 ## 🛠 C-FIX SHIPPED — 2026-08-11 (Machine A `Dev`, UNATTENDED/HEADLESS) — BOAT SCALE
 
 **COMPLAINT LEDGER (this re-cut's open complaint):**
