@@ -7,16 +7,16 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T04:39:16_
+_Last sync: 2026-08-12T06:57:09_
 
 ## Summary
 
-- **APPROVED — not published** — 60 row(s)
+- **APPROVED — not published** — 63 row(s)
 - **BUILDING** — 71 row(s)
 - **LIVE — current** — 26 row(s)
 - **LIVE — current (approved cut)** — 17 row(s)
 - **LIVE — new cut awaits Cameron** — 1 row(s)
-- **ON REVIEWER — awaiting Cameron** — 25 row(s)
+- **ON REVIEWER — awaiting Cameron** — 22 row(s)
 
 ## The rows
 
@@ -129,7 +129,7 @@ _Last sync: 2026-08-12T04:39:16_
 | 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 107 | John the Baptist's Doubt | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 108 | My Sheep Hear My Voice | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 108 | My Sheep Hear My Voice | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 109 | Ask, Seek, Knock | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 110 | The Lord's Prayer | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
 | 111 | Lilies and Sparrows | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
@@ -150,9 +150,9 @@ _Last sync: 2026-08-12T04:39:16_
 | 126 | By Their Fruits | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 127 | The Strait Gate | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 128 | Heart Far From Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 129 | Nazareth Only a Few | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 130 | What Manner of Spirit | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 131 | Scribe Near the Kingdom | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 129 | Nazareth Only a Few | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 130 | What Manner of Spirit | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 131 | Scribe Near the Kingdom | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 132 | Forbid Him Not | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
 | 133 | What Jesus called hell | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 134 | "Today shalt thou be with me in paradise" | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
