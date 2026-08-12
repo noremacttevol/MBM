@@ -1,4 +1,15 @@
-## 2026-08-11 (cont. 50) — FABLE-5 AUTHOR lane (Machine A `Dev`, unattended, $0 on generation): 3 rows unblocked — row 150 author-fix, rows 133/134 audio-wired.
+## 2026-08-11 (cont. 51) — VERIFY-PASS row 117 "Hosea Buys Her Back" (Hosea 1-3) — independent FULL-CUT GATE 6b, CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, unattended/headless
+
+**Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.50 `71ebafac4` / `710a2b6e9` — both present in `git log`.
+
+Ran the VERIFY-PASS on AUTHOR-BOARD **row 117** (BUILT, sitting in Cameron's Unwatched queue). Task existed to catch defects BEFORE his eyes reach them (row-11 lesson: 7 bad frames reached him in a "fixed" cut). Board already carried a `QC-OK 2026-08-11` stamp, but the FULL-CUT GATE law is "assurance is the gate's output, never an agent's word" — so I did my OWN independent frame-by-frame pass rather than trust the stamp. $0 (frame extraction only, no Gemini spend).
+
+- **Method:** local mp4 md5 `42d9aafe` == board's served hash, duration 229.8s. Extracted one mid-window frame per beat from the 38 rendered clip segments (`c000`–`c037` cumulative offsets) + 3 closing-card frames, viewed EVERY one against the defect checklist + row's identity/direction/content-care traps in QC.md.
+- **CLEAN — 38/38 beats + question card:** HOSEA (dark hair/beard) and GOMER (wine-red dress tracked bright→worn→under charcoal mantle→restored, + keys-of-the-household at the end) are the SAME people across the whole arc; blue-door HOME visual rhyme consistent (b01/b11/b34/b36/b37); the 4 hand-inserts (covenant, coins, betrothal clasp, tally board) all clean anatomy; content-care dignity intact (fall told by geography+light, nothing suggestive); fully realistic photography (NO cartoon/mixed frame); captions bottom-band with correct voice colours (narrator white, woman/scripture pink, God green, scripture blue); question card clean, no box glyphs; no modern objects, no scale/physics defects. No Jesus in this OT story → cream-only/face-lock N/A, nobody wears cream (correct).
+- **Live-verified:** served mp4 bytes (github raw main) `42d9aafe` == the local bytes I QC'd — Cameron sees exactly the clean cut. Live card wave=`realistic-v2`, hash `f3ec4754`, HTTP OK.
+- **Outcome:** marked board Claim `QC-VERIFY 2026-08-11 (independent 2nd pass)` → CLEAN, no re-cut (did NOT touch a clean row per the law). Cost $0, 0 rerolls — trends the running average DOWN.
+
+
 
 **Commits:** `71ebafac4` (row 150 author-fix), `710a2b6e9` (rows 133/134 audio-wired). Session-chain verified at start: prior top entry cont.3 Row 51 `abf0958ab7af` present in `git log`. Working tree carries 200+ ambient autopilot-lane artifacts (untracked segs/, modified assets) left by other lanes — left untouched; committed ONLY my row packages.
 
