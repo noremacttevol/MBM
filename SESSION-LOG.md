@@ -1,3 +1,19 @@
+## 2026-08-12 (cont. 73) — AUDIO LANE: cleared the LAST two NEEDS-AUDIO rows — 103 naming re-voice + eye-fix (Cameron's 2-part complaint CLOSED), 147 realistic-v2 one-touch ship — Machine A `Dev`, audio lane (unattended/headless, $0 Gemini)
+
+**Commit:** ships in the pushes below. Chain: prior top entry cont.66 (LAW REPAIR eye-edit reversal), commit `c4d5d8a7a` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number order honored: row 103 (the lowest OPEN complaint) first, then row 147 (only remaining NEEDS-AUDIO).
+
+**ROW 103 "Peter's Confession" — Cameron's 2-part complaint CLOSED in ONE combined cut** (his words: *"it called him simon before… should just be simon then jesus calls him simon barjona and then peter, not simon peter to begin with. 0:28 jesus eyes are messed up redo that picture"*):
+- **(A) NAMING re-voice (audio half):** narrator said "Simon Peter"/"Peter" BEFORE the rename. Re-voiced ONLY np + n5 via ElevenLabs **Brian** (NARRATOR, 44100/128k, edge banned) — "And Simon answered him." / "…Simon said out loud…". Atempo-locked each take to its original duration (np 1.6718s, n5 6.1649s; landed ±26 ms mp3-frame padding, inside the 0.42–0.57 s gaps; picture windows ride fixed `audio_start` so **no window moved**). Re-voiced mp3s + rescaled `.timing.json` written into the V1 ship-source dir (where `AUDIO_FROM_V1_SEGMENTS=True` reads). Captions come from the read-only V1 `make_narration.py` via extract_beats → used **`TEXT_OVERRIDES={np,n5}`** in beats_v2.py (the documented "V1 script disagrees with shipped audio" path) so on-screen text matches. Later "Peter" (jv17 Simon Barjona, jv18 thou art Peter, card) untouched — that IS the naming moment.
+- **(B) EYE fix (picture half):** the staged b05 s05 (eye-integrity constraint, regen'd last session) baked in via a no-`--resume-base` re-assemble.
+- **Audio:** old AUDIO LOCK `e46b0081` → new AUDIO REBUILD `853195ca`. **Verified on the shipped mp4:** faster-whisper transcript says "Simon" at 0:59/1:08; captions at 60.2s/70.0s read "Simon" (no "Peter"); 0:28 frame eyes aligned/symmetrical. Face gate exit 0.
+- **Shipped:** commit `1a57fc17`, card repointed (data-hash+?v=), flag answers his complaint in his words, `firebase deploy`, live-verified — served mp4 sha1 `5b61d9c8` == local. Board NEEDS-AUDIO → BUILT. **$0 Gemini, 2 EL segments.**
+
+**ROW 147 "Joseph Forgives" (Genesis 45) — realistic-v2 one-touch assemble+ship:** STALE-V1 already resolved by the 2026-08-11 unblock (AUDIO_FROM_V1_SEGMENTS set, segs verified new-voice ElevenLabs 44100/128k). Left un-shipped that turn to avoid a live-assemble collision; no collision now. Assembled → AUDIO REBUILD `f3cfb249`, 96.6s. 16 realistic stills (already FULL-CUT-clean) spot-verified at 8/45/90s — realistic, distinct faces, captions in sync, no Jesus in-frame (OT). Reviewer card repointed from the OLD 2026-07-24 V1 cut to the realistic-v2 V2 mp4 + `realistic-v2` wave + new flag. Shipped commit `bb86d4a5`, `firebase deploy`, live-verified — served sha1 `e430f79c` == local. Board NEEDS-AUDIO → BUILT. **$0, no re-voice, 0 rerolls.**
+
+**Result: ZERO NEEDS-AUDIO-state rows remain on the board.** Public-video static gate PASS (both cuts are on the reviewer awaiting Cameron, not the public gallery; `--live` variant only errors on this env's network timeout, not a verdict). Cost trends DOWN: both rows $0 Gemini.
+
+---
+
 ## 2026-08-12 (cont. 66) — LAW REPAIR: green→brown eye-edit drift REVERSED at source (ref image outranks prose; rows 71/89/98/120 flagged for ref-true restore on next touch) + credits/stash status for Cameron — Machine A `Dev`, process-engineer session
 
 **Commit:** this push. Chain: cont.65 loop-repair `ca5294aa8` at HEAD.
