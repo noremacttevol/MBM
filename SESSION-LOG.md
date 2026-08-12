@@ -1,3 +1,17 @@
+## 2026-08-12 (cont. 60) — VERIFY-PASS row 117 "Hosea Buys Her Back" 7th RE-FIRE — LOCAL+LIVE continuity + independent 4-frame own-eyes re-confirm, still CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, Opus, unattended/headless
+
+**Commit:** board + SESSION-LOG in the push below. Session-chain verified at start: prior top entry cont.59 Row 117 6th re-fire `24a1de440` present in `git log` (top of history); prior link cont.58 Row 93 Barabbas `693a3f5e` also present.
+
+Row 117 is still **BUILT** (unapproved, Appr ⬜ / Post ⬜, in Cameron's Unwatched queue), **no open complaints**, unmodified — mp4 md5 STILL `42d9aafe` (20843988 bytes, mtime Aug 9 15:08, unmoved since the 3rd/4th/5th/6th passes).
+
+- **Continuity (the meaningful re-fire test, $0):** (1) local mp4 md5 STILL `42d9aafe`, size 20843988; (2) live-served bytes — followed the github raw redirect to the CDN: **HTTP 200, content-length 20843988 == the exact clean bytes** (a bad deploy could swap live bytes with local untouched — it did NOT); (3) deployed reviewer card hash STILL `f3ec4754`, wave `realistic-v2`, data-built 2026-08-09, row still BUILT.
+- **Independent 4-frame own-eyes re-confirm (I had not personally viewed this cut before this session):** extracted & viewed 4 high-signal frames from the local rendered mp4 — b01 open blue-door home (1.2s), Gomer wine-red on the road (41.2s), b20 Hosea searching the crowd (99.7s), b38 couple restored at the candlelit blue-door home (213.0s). Hosea+Gomer identity consistent across the arc; wine-red-dress tracked; blue-door HOME rhyme present & resolved; dignity-law redemption intact (spent woman never depicted; reads as rescue, never a transaction); fully realistic no cartoon/mix; captions bottom-band; no modern-object/anatomy/scale defect; no Jesus (cream-only/face-lock N/A — nobody wears cream). CLEAN.
+- **Why no full 38-frame re-extraction:** these bytes are byte-identical to the mp4 that already has THREE independent full FULL-CUT GATE passes (38/38 beats + card CLEAN). Byte-identical output renders byte-identical frames; a 4th full extraction is provably zero new information and burns context (COST LAW). The 4 own-eyes frames are a fresh independent spot-confirm on top of that continuity proof.
+- **Why no re-cut:** law is explicit — NEVER re-cut a clean row; a clean, unmodified, unapproved row reaching Cameron IS the goal.
+- **Outcome:** appended a 7th board Claim stamp (`QC-OK 2026-08-12`). $0, 0 rerolls — trends the running average DOWN. No credits, no browser, nothing deployed (nothing changed to deploy).
+
+---
+
 ## 2026-08-11 (cont. 4) — PROMPT-AUTOPSY made the STANDARD rework process (Cameron: "reverse engineer what you said in the prompt that was wrong"): rubric meta-law 3 (CAUSED/ALLOWED/IGNORED verdicts), wired into the cfix session prompt + RUNNER-LESSONS; blind rerolls forbidden. Process stack memory saved for the next chat (context handoff).
 
 ## 2026-08-12 (cont. 59) — VERIFY-PASS row 117 "Hosea Buys Her Back" 6th RE-FIRE — LOCAL+LIVE continuity confirmed, still CLEAN, no re-cut ($0, 0 rerolls) — Machine A `Dev`, Opus, unattended/headless
