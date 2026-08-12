@@ -1,3 +1,21 @@
+## 2026-08-12 (cont. 75) — ROW 120 "Job from the Whirlwind" C-FIX: beard + head + "wast" — Cameron's 3-part complaint CLOSED in ONE touch-once re-cut — Machine A `Dev` (unattended/headless)
+
+**Commit:** ships in the pushes below (build `3ccdac4f362b`, card/board/log this push). Chain: prior top entry cont.73 (audio lane, rows 103/147), commit `c4d5d8a7a` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number order honored: row 120 was the lowest OPEN complaint on the AUTHOR-BOARD.
+
+**Cameron's complaint (`v2_outline.py 120`):** *"2:36 he is not head hair shaved. 1:39 his beard is shaved. Fix those images. And at 1:56 it reads wast like waste and its more like was't look up how to speak old english if you dont know."* Traced each timestamp to the frame that RENDERS at that second in the LIVE mp4 (not beat names): 1:39=c017=`s18`, 2:36=c026=`s27`, 1:56=God line jvA.
+
+- **1:39 beard (s18) — FIXED (picture).** Autopsy = IGNORED: s18 was already bald in the original gen (word "shaved-headed" biased the model to shave the beard too, dropping the JOB LOCK "full grey-streaked beard" to stubble). Targeted identity-edit added the beard back, s19 attached as the anchor. 1 edit, 0 rerolls.
+- **2:36 head (s27) — FIXED (picture).** Autopsy = ALLOWED + missed: the b27 scene never said "shaved-headed" (unlike b18) so the gen drew hair, AND the 2026-08-11 shaved-head C-FIX misfiled s27 as a "person-free cosmic beat" and skipped it. Targeted head-only shave edit (kept beard + Pleiades/Orion sky) + added "shaved-headed" to the b27 scene so a future regen can't reallow it. 1 edit, 0 rerolls.
+- **1:56 "wast"→"waste" — FIXED (audio, touch-once with the pictures).** ElevenLabs God voice (Bill) said `wast` as /weɪst/ (measured F1=412 F2=2395 = front vowel). Re-voiced so it now says /wʌst/ ("was't", rhymes "must"; delivered-mp4 F2≈1330 back vowel). Technique: fed ElevenLabs the literal respell `wust` (caption stays KJV **"wast"** — decoupled), rendered 7 takes, formant-validated each as a back vowel, chose the take closest to the original duration, atempo-locked to the exact 6.765714 s (drift 0.0 ms) so NO caption window moved; median F0 131 Hz ≈ jvB 135 / jv387 140 (voice identity held). Old jvA + timing + words.json saved to `audio-oldvoice-backup/`.
+
+**FULL-CUT GATE 6b:** extracted one frame per beat from the RE-RENDERED mp4, viewed all 42 — head/beard now consistent across the whole cut (hair only in prosperity/news c000–c003, then bald + full grey beard c004→c041), God never embodied, cosmic beats person-free, Pleiades/Orion accurate, four men in b12, captions bottom-band + SPEAKER-LAW colours correct, question card clean. No new complaint-worthy frame.
+
+**Assemble:** `AUDIO_FROM_V1_SEGMENTS=True` rebuilt narration from the V1-dir mp3s (incl. new jvA) → **AUDIO REBUILD PASS SHA256=7f64c18e…**, 258.587 s (unchanged), mp4 md5 `152118e1…`. Shipped: build committed `3ccdac4f362b`, card repointed (data-hash + `?v=3ccdac4f362b`, flag answers all 3 in his words + corrects the "byte-identical audio" line since jvA was re-voiced), `firebase deploy`, live-verified. Board Claim → C-FIX SHIPPED.
+
+**Cost:** 2 image edits ≈ **$0.27** (0 rerolls, 0% vs 15% budget) + 7 ElevenLabs God renders (subscription, ~$0 marginal Gemini). Touch-once: pictures + audio in ONE re-cut = one reviewer delivery, all 3 fixed. Cost trend DOWN (well under $6.10/row). 3 new RUNNER-LESSONS added (scalp-edit strips beards; sweeps must include small-in-frame people in cosmic beats; vowel-complaint respell-only + formant-validate + atempo-lock). **Lesson-20 green→brown eye restore is N/A for row 120** — Job is OT, God is never embodied, there is no Jesus/divine face in the cut.
+
+---
+
 ## 2026-08-12 (cont. 73) — AUDIO LANE: cleared the LAST two NEEDS-AUDIO rows — 103 naming re-voice + eye-fix (Cameron's 2-part complaint CLOSED), 147 realistic-v2 one-touch ship — Machine A `Dev`, audio lane (unattended/headless, $0 Gemini)
 
 **Commit:** ships in the pushes below. Chain: prior top entry cont.66 (LAW REPAIR eye-edit reversal), commit `c4d5d8a7a` present in `git log` at session start — verified. Hostname `Dev` = Machine A. Complaint-first + low-number order honored: row 103 (the lowest OPEN complaint) first, then row 147 (only remaining NEEDS-AUDIO).
