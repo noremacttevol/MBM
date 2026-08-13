@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T12:13:23_
+_Last sync: 2026-08-13T12:16:07_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 35 row(s)
+- **BUILDING** — 34 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 40 row(s)
+- **ON REVIEWER — awaiting Cameron** — 41 row(s)
 
 ## The rows
 
@@ -172,7 +172,7 @@ _Last sync: 2026-08-13T12:13:23_
 | 149 | Hannah Is Heard | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 150 | The Shepherd Psalm | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 151 | If Any of You Lack Wisdom | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 152 | He Revealeth His Secret to the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 152 | He Revealeth His Secret to the Prophets | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 153 | The Restitution of All Things | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 154 | The Angel with the Everlasting Gospel | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 155 | A Falling Away First | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
