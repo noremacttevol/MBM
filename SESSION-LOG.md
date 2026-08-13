@@ -1,3 +1,18 @@
+## 2026-08-13 ~19:30 UTC (Opus VERIFY-PASS lane, unattended/headless) — AUTHOR-BOARD row 138 "We are also his offspring" (Acts 17:22-31) **QC-OK — full-cut gate CLEAN, no re-cut** — Machine A `Dev`
+
+Session-chain verified at start: prior top entry was row 138 SHIP, its ship commit A `4782c80d06c1a2661e5245e13754606ea1f92ec2` + card/log commit `d849dca5c` both present in `git log`; HEAD `dd3f17e86` (stash scan) also from that ship. `hostname`=Dev=Machine A. Task = VERIFY-PASS row 138 (BUILT + in Unwatched queue, before Cameron's eyes reach it).
+
+- **APPROVAL CHECK FIRST (the untouchable guard):** read `.approvals.json` row 138 → `approved:false, approvedHash:null`. NOT approved → the 3 AM approved-row re-cut trap does NOT apply; this is a shipped-but-unapproved cut, the exact VERIFY-PASS target. Live card `data-hash=4782c80d06c1…` matches the ship commit; row is genuinely BUILT-unapproved.
+- **Claimed** AUTHOR-BOARD 138 `QC-VERIFY 2026-08-13 LIVE` (push OK), then ran the FULL-CUT GATE.
+- **FULL-CUT GATE 6b — extracted ONE mid-window frame per beat from the RENDERED mp4 (play order b01→b02→b03→b04→b05→b06→b07→b09→b08→b10) + question card (50s/53.5s) and viewed EVERY one. 10/10 + card CLEAN.** PAUL ref-locked & consistent every beat (bald fringe, dark pointed beard, rust-brown robe — never cream); b02 altar zoomed to confirm weathered/illegible glyphs (not legible words); b03/b08 de-inked altars carry no legible text; b05 is the single fixed agora scene (no diptych seam); b09 no cartoon; two-voice captions correct (b07 scripture BLUE, rest narrator WHITE, bottom-band only); card clean serif, no typo-squares, holds to 53.5s (audio 54.138s ≈ video 54.166s → no dead-card/13-extra-seconds bug). No Jesus/cream (correct — Acts, Paul only), no giants, no modern objects, no halo, natural anatomy throughout. **COMPLAINT LEDGER: none open** (`v2_outline 138` clean) — nothing to regress.
+- **LIVE-VERIFIED:** milk-b4-meat.web.app/review.html v138 `data-hash=4782c80d06c1a2661e5245e13754606ea1f92ec2` (== ship commit); mp4 HTTP 200, content-length 19981407 (== local). Deploy from the ship session is intact.
+- **CLEAN → marked AUTHOR-BOARD 138 `QC-OK 2026-08-13`; did NOT re-cut** (never re-cut a clean cut; a clean row touched again would only void the pending decision). QC.md carries the full frame-by-frame verify note. Appr left ⬜ — Cameron's alone.
+- **COST:** $0.00 (0 images, 0 TTS, 0 rerolls) — meter unchanged. Verify-pass is free; $/row this session $0.
+
+Commit: this SESSION-LOG commit below.
+
+---
+
 ## 2026-08-13 ~19:10 UTC (Opus picture-runner RESUME lane, unattended/headless) — AUTHOR-BOARD row 138 "We are also his offspring" (Acts 17:22-31) **SHIPPED realistic-v2** — endpoint RECOVERED after ~6.5h outage — Machine A `Dev`
 
 Session-chain verified at start: prior top entry was row 159 PARK, its commit `4a6fab6ad` was HEAD and present in `git log`; `hostname`=Dev=Machine A. Task = run next Ready rows starting AUTHOR-BOARD row 138 (LOW-NUMBER LAW).
