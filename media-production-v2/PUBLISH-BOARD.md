@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T05:02:14_
+_Last sync: 2026-08-13T05:14:47_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 67 row(s)
+- **BUILDING** — 66 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 8 row(s)
+- **ON REVIEWER — awaiting Cameron** — 9 row(s)
 
 ## The rows
 
@@ -181,7 +181,7 @@ _Last sync: 2026-08-13T05:02:14_
 | 158 | The Stick of Judah and Joseph | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 159 | Other Sheep I Have | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 160 | The Stone Cut Without Hands | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 161 | Called of God, as was Aaron | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 161 | Called of God, as was Aaron | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 162 | The Keys of the Kingdom | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 163 | Built on Apostles and Prophets | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 164 | Till We All Come in the Unity of the Faith | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
