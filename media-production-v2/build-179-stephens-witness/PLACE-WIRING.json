@@ -1,0 +1,14 @@
+{
+ "COUNCIL-CHAMBER": {
+  "manual": true,
+  "src_beat": "s01-before-the-council",
+  "src_build": "build-179-stephens-witness",
+  "src_file": "build-179-stephens-witness/assets/s01-before-the-council.jpeg"
+ },
+ "OUTSIDE-WALLS": {
+  "manual": true,
+  "src_beat": "s09-rushed-him-out",
+  "src_build": "build-179-stephens-witness",
+  "src_file": "build-179-stephens-witness/assets/s09-rushed-him-out.jpeg"
+ }
+}
