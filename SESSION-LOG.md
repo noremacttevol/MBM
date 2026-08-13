@@ -1,3 +1,16 @@
+## 2026-08-13 (Opus VERIFY pass, unattended/headless) — Row 174 HEARTS OF THE FATHERS QC-VERIFY → CLEAN, NOT re-cut: caught nothing bad before Cameron's eyes reached it — Machine A `Dev`, $0
+
+VERIFY-PASS on AUTHOR-BOARD row 174 (Malachi 4:5-6), which was BUILT + sitting in Cameron's Unwatched queue after this session's earlier first-cut ship. First action per the prompt: read `.approvals.json` — row 174 has **no record** (not approved → touchable; the approved-row-untouchable check correctly did not fire, unlike the 3 AM re-cut failure it exists to prevent). Session-chain: prior top entry = row 174 ship, commit `aa94161210a0` present in `git log` (chain valid); reviewer card v174 data-hash matches that ship commit. Claimed the board row `QC-VERIFY 2026-08-13 LIVE`, pushed before any work.
+
+- **FULL-CUT GATE (§6b) re-run on the LIVE rendered mp4:** extracted ONE frame per beat at mid-window (12/12) + the 2 green God-voice caption frames + the question card, and viewed EVERY one against the defect checklist + RUNNER-LESSONS + this row's own hard gates.
+- **CLEAN — every frame passed:** realistic throughout (no cartoon/mix); **GOD NEVER EMBODIED** on all 5 green God-voice beats (b02/b03/b04/b07/b08 — no figure/face/hand/beam in any sky); Elijah mouth CLOSED b02/b03; "smite the earth with a curse" (b08) pictured as a three-generation embrace, no smiting/fire; ELIJAH one identity across his beats, FAMILY-THREE consistent (grandfather white-beard / father dark-beard / child), John distinct (b10); no Jesus/no cream, no halo/glow, ordinary scale, hands/anatomy clean, no modern objects; captions bottom-band (green God-voice / white narrator, no red); question card clean, no typo squares; no trailing dead-air (63.003s, audio == video, card ~5.8s).
+- **Two non-blocking observations logged in QC.md, NOT re-cut** (neither would make Cameron type a complaint): b03 is a fairly frontal contemplative close of Elijah; b09's mender beat reads coherently whether the elder parses as Elijah or the grandfather.
+- **VERDICT: CLEAN → row NOT re-cut** (touch-once / cost law — a clean cut must not be re-cut, and a re-cut would void nothing but waste credits and re-queue it). Board claim → `QC-OK 2026-08-13`. The shipped cut, its audio, and its reviewer hash are all unchanged. **$0, 0 rerolls.** Appr stays ⬜ (Cameron's alone).
+
+Commit: SEE-BELOW (QC-VERIFY)
+
+---
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 174 HEARTS OF THE FATHERS V2 FIRST CUT SHIPPED & LIVE: Malachi 4:5-6, GOD-never-embodied held, 0 rerolls $1.87 — Machine A `Dev`
 
 Second row this session (after parking 173). AUTHOR-BOARD row 174 (Malachi 4:5-6, "Elijah... turn the heart of the fathers to the children"), lowest available Ready ✅. Cross-checked QUEUE.md — same story, realistic-V2 redo of the 2026-07-17 ASSEMBLY-C 7-still cut, NOT a swap. No open complaint (v2_outline clean).

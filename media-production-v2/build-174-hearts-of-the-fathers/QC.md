@@ -84,3 +84,49 @@ picture cut of the Malachi 4:5-6 narration.
   EMBRACE not smiting; Elijah + three generations consistent, John distinct; no
   Jesus/cream, no halo, realistic, ordinary scale; captions bottom-band (GOD green
   / narrator white, no red); card clean. 0 rerolls.
+
+---
+
+## ✅ QC-VERIFY PASS — 2026-08-13 (Opus, Machine A `Dev`, unattended/headless)
+
+Independent FULL-CUT GATE (§6b) re-run on the SHIPPED LIVE cut (commit
+`aa94161210a0`, data-hash matches the reviewer card) BEFORE Cameron's eyes reached
+it — row was BUILT + Unwatched, `.approvals.json` has NO record for 174
+(`approved` absent → not approved → touchable; the approved-row-untouchable check
+correctly did not fire).
+
+Extracted ONE frame per beat from the rendered mp4 at mid-window (12/12) + the 2
+green God-voice caption frames + the question card, and viewed EVERY one against
+the defect checklist + RUNNER-LESSONS + this row's own gates:
+
+- **Realistic throughout** — no cartoon frame, no mix. PASS.
+- **GOD NEVER EMBODIED** on all five green God-voice beats: b02/b03 (Elijah
+  standing/close, receiving), b04 (empty road), b07/b08 (family) — no figure,
+  face, hand, beam or shape in any sky. PASS.
+- **Elijah mouth CLOSED** on the two God-voice beats picturing him (b02/b03) — he
+  reads as the one being sent, never mouthing God's words. PASS.
+- **CONTENT-CARE** — "lest I come and smite the earth with a curse" (b08) pictured
+  as a three-generation embrace, NO smiting/fire/ruin. PASS.
+- **Identity** — ELIJAH one man across b01/b02/b03/b05/b06 (iron-grey hair, grey
+  beard, dark haircloth mantle, leather girdle, staff); FAMILY-THREE consistent
+  across b07/b08/b11/b12 (grandfather white-beard + dark mantle, father dark hair
+  + short dark beard, child ~6); John the Baptist (b10) distinct young dark-haired
+  man. PASS.
+- **No Jesus, no cream anywhere; no halo/glow/rim-light; ordinary scale (child
+  correctly smaller, no giants); hands/anatomy clean; no modern object; nothing
+  written in-frame.** PASS.
+- **Captions** bottom-band only — GREEN on God-voice (b02/b03/b07/b08), WHITE on
+  narrator; no red. Question card clean ("He cares about your family. Let the
+  healing start with your own heart."), no typo squares. PASS.
+- **No trailing dead-air** — duration 63.003s, audio == video, card runs a normal
+  ~5.8s after card_start (57.228s). PASS.
+
+Two non-blocking observations (neither a Cameron-complaint trigger, so NOT
+re-cut): b03 is a fairly frontal close portrait of Elijah (contemplative, gaze
+slightly off-lens — acceptable for a single close); b09 reads as an elder joining
+the father's hand with the child watching — the mender beat lands coherently
+whether the elder parses as Elijah or the grandfather.
+
+**VERDICT: CLEAN. Row NOT re-cut** (touch-once / cost law — a clean cut must not be
+re-cut). Board claim → `QC-OK 2026-08-13`. Audio and card untouched; the shipped
+cut and its reviewer hash are unchanged. Appr stays ⬜ (Cameron's alone).
