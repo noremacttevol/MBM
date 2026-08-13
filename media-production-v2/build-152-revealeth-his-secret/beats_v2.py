@@ -73,6 +73,15 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1 (row-147 class, audio lane 2026-08-13): V1 mp4 and the V2 segment
+# timeline match on duration (131.3s) but all 11 V1-dir mp3s are NEWER than the
+# V1 mp4 = the narration was re-recorded (new-voice ElevenLabs) over the old
+# render, so AUDIO LOCK's newer-mp3 tripwire refuses. Voice-ID'd all 11 mp3s
+# (n1-n8, kv7, kv8, card) = 44100 Hz / 128 k = the chosen ElevenLabs cast.
+# Rebuild the narration from the V1 build's OWN mp3s at the extract_beats
+# offsets. Nothing re-voiced, nothing re-timed, V1 read-only.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r152-b01", "out": "s01-the-man-god-chose-to.jpeg", "seg": "n1",

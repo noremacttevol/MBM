@@ -67,3 +67,59 @@ chose to explain his cross (John 3:14). `--check` PASSES (24 beats, zero WARNs);
 → promote the two places as above → generate 24 stills at native 2K → face/beard
 board → `v2_assemble.py` (AUDIO LOCK from the V1 segment mp3s) → ship. Reroll
 budget ≤15% of 24 beats (≈3). Touch once.
+
+## 🅿️ RUNNER PARK → NEEDS-REBUILD 2026-08-13 (A `Dev`, Opus runner, headless) — 1 AUTHORING BLOCK on b17
+
+**Status: all 24 stills GENERATED and FULL-CUT-QC'd (0 rerolls, ~$3.48, meter
+624.71→632.88). 23/24 pass. ONE frame BLOCKS the ship and the fix is an AUTHOR
+edit the runner is forbidden to make (editing `locks` is a hard rail). Do NOT
+re-generate the 23 good frames — they are banked and correct.**
+
+### THE BLOCK — b17 / s17-lifted-on-a-pole (the hero + promoted SERPENT-POLE plate)
+b17 renders **Moses as a younger brown-bearded man in a fleece mantle**, but the
+canonical Moses (ref-locked in b03/b11/b13/b15, rendered in s03/s11/s12/s13/s14)
+is an **old man with long white hair + a full white beard, brown robe + dark
+mantle, staff**. This is a lesson-2 (locked cast) / lesson-13 (beard board)
+identity break on the single most important frame — exactly Cameron's row-102
+"throws people off the story" class. It BLOCKS under the FULL-CUT GATE.
+
+**PROMPT-AUTOPSY verdict = ALLOWED/IGNORED (lesson 2/10):** b17's `must_show`
+NAMES "Moses steadying its base" in prose, but b17's `locks` =
+`["SERPENT-POLE","WILDERNESS-CAMP"]` — it OMITS the `MOSES` cast token. The char
+ref attaches by `locks` token, not by prose, so `moses.jpeg` never attached
+(gen log for b17 shows only `[+1 place: WILDERNESS-CAMP]`, no `[+1 char ref:
+MOSES]`) and the generator free-invented a non-canonical Moses. Words can't pin a
+face; only the ref can.
+
+### AUTHOR FIX (one token) then a $0.13 runner regen — the whole row then ships
+1. **AUTHOR LANE (only they may edit beats):** add `"MOSES"` to b17's `locks`
+   list in `build-140-bronze-serpent/beats_v2.py` (it already lists SERPENT-POLE
+   + WILDERNESS-CAMP; just add the cast token the prose already names). No other
+   change — do NOT touch scene text.
+2. **RUNNER:** `cd media-production-v2 && python3 v2_gen_api.py
+   build-140-bronze-serpent --only b17 --redo --ceiling <meter + 0.13*1.5 + 25>`.
+   Because b17's `locks` still include SERPENT-POLE, the redo COPIES the promoted
+   pole plate → the pole/bronze-serpent stays byte-consistent with b18-b24, so
+   **b18/b20/b21/b22/b23/b24 do NOT need regen** and the touch-once law holds.
+   The MOSES ref now attaches → old white-bearded Moses on the hero frame.
+3. Eyeball the new b17 (old-Moses face + pole unchanged + no lens-stare), then
+   `v2_stash.py --promote build-140-bronze-serpent SERPENT-POLE s17-lifted-on-a-pole.jpeg`
+   ONLY IF the pole visibly shifted (it should not). Then `v2_assemble.py 140`
+   (AUDIO LOCK from the V1 segment mp3s in media-production/build-140-.../audio/)
+   → FULL-CUT GATE → ship (steps 7a/b/c) → publish_ledger sync.
+
+### FIX-WAVE (minor, do NOT block; fold into the b17 re-cut if trivial)
+- s21 (only-had-to-lift-his-eyes): the lifted-eyes incidental has notably
+  pale/blue eyes — borderline; dark-haired so not a hard fail. Optional reroll.
+- s24 (whosoever-believeth): a faint semi-transparent "vision" crowd is
+  double-exposed in the upper sky — stylistic, reads as a memory overlay; leave
+  unless Cameron flags.
+- s06 (bread-called-worthless): a tiny bluish speck sits on the ground by the far
+  tents — ambiguous (shadow vs object), background, non-subject. Glance on reroll.
+
+### Board state set this session
+QUEUE row 140 claim left in place with PARK note; AUTHOR-BOARD row 140 State →
+NEEDS-REBUILD, Ready cleared (author lane picks it up), Claim carries this park.
+
+COMPLAINT LEDGER unchanged (the Naaman-dupe complaint is still correctly answered
+by this story — the block is an identity bug, not a story/complaint regression).
