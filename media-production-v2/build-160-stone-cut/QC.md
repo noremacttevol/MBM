@@ -118,3 +118,34 @@ the newer-mp3 tripwire. Copying the V1 mp4 audio would ship stale voices.
    **COMPLAINT LEDGER: none open** (`.approvals.json` "160" absent). This park was
    a self-caught pre-flight guard, not a Cameron complaint — so there is no review
    card to answer; the fix simply unblocks the row for the picture runner.
+
+---
+
+## 🅿️ RUNNER PARK — TRANSIENT gemini-3-pro-image OUTAGE (Opus picture runner, Machine A `Dev`, 2026-08-13, $0/0 gen)
+
+**Parked before any frame — board-wide endpoint outage, NOT a billing wall.**
+Claimed row 160 (lowest empty-claim Ready row; 155/156/157 have filled audio-fix
+claims → left to their pickup lane per PARALLEL-LANES rule #1). Pre-flight all
+green: `AUDIO_FROM_V1_SEGMENTS=True` present, `v2_prompt.py --check` PASS (21
+beats v4), COMPLAINT LEDGER none open (`.approvals.json` "160" absent).
+
+**Blocker:** the `gemini-3-pro-image` endpoint is hanging every gen call
+indefinitely (no read-timeout, RUNNER-LESSONS 1378). Evidence, measured:
+- `api-spend.jsonl` last board-wide frame = **2026-08-13 12:22:14** (row 159 b01);
+  now 13:29 → **67+ minutes, ZERO frames from ANY lane** = board-wide, not local.
+- Two full `v2_story_cast build-160` runs + one 90 s `timeout` probe (DANIEL) all
+  hung producing 0 frames, 0 spend (exit 124). Key HEALTHY / billing FINE — no
+  429, no "prepayment credits depleted"; this is the SAME transient outage that
+  parked row 159 at 12:22 (its QC: "board-wide 16min+ zero frames, NOT prepay").
+- Nothing banked for 160 (0 stills, 0 portraits) → clean hand-back, no strand.
+
+**Board:** State RUNNING → **AUTHORED**, Claim **BLANK**, Ready **✅** (unchanged)
+so the next picture-runner session (or autopilot) re-picks it fresh the moment the
+endpoint recovers. No inbox escalation (transient endpoint, self-recovers — row
+159 precedent; no top-up needed).
+
+**RESUME (picture runner, once gemini-3-pro-image is answering):**
+1. `python3 media-production-v2/v2_story_cast.py build-160-stone-cut --ceiling <meter + 4.7 + 25>` (2 portraits DANIEL/KING → writes REFS).
+2. Promote-first the 4 NEW plates: COURT (b01), DREAM-PLAIN (b03), STATUE (b03), STONE (b06). STATUE & STONE are PROP tokens — reject any auto-place suggestion.
+3. `python3 media-production-v2/v2_gen_api.py build-160-stone-cut --ceiling <…>` (21 beats).
+4. Light QC + FULL-CUT GATE (watch: WITHOUT-HANDS = no hand/tool/figure at the stone EVER; statue metal order gold→silver→bronze→iron→iron+clay; b02 metals-list = collage/panel/diptych magnet; person-free b07 socket = floating-figure risk; no embodied-Jesus/God drift on closing kingdom frame; OT = no cream). Assemble (AUDIO REBUILD PASS), ship, deploy, live-verify.
