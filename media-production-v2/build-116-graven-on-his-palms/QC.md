@@ -153,3 +153,44 @@ realistic-V2 redo, NOT a swapped/replaced story. Built to spec, no complaint to 
   variant. Flag for the later fix-wave if he ever wants Hebrew-only graven text.
 - **Cost:** ~$2.94 this session (20 beats + 2 rerolls), 9.5% rerolls — both well under the
   $6.10/row & 15% COST-LAW ceilings; downward trend holds.
+
+---
+
+## QC-VERIFY — 2026-08-13 (Opus runner, Machine A `Dev`, headless) — FULL-CUT GATE, CLEAN, NOT re-cut
+
+Independent full-cut gate (PROMPT-OPUS-RUNNER 6b) of the BUILT/unapproved cut
+sitting in Cameron's Unwatched queue, before his eyes reach it.
+
+**UNTOUCHABLE-CHECK FIRST:** read `.approvals.json` row 116 myself — `approved:false`,
+`approvedHash:null`. Row is NOT approved → QC-VERIFY is in-scope (not an untouchable
+release decision; the 2026-07-18 approvedAt is a void pre-redo timestamp).
+
+**Live-verified Cameron is being served THIS cut (not assumed):**
+- review.html card `data-hash` = `3bb9a5df17f9947cd391325b33ef7e890d5bbca6`; live
+  Firebase page (milk-b4-meat.web.app) serves the same hash.
+- Ship commit `3bb9a5df1`; the mp4 in that commit blob = local = **19,313,597 bytes**.
+- Served raw mp4 HTTP 200, content-length **19,313,597** == local.
+
+**FULL-CUT GATE:** extracted one mid-window frame per beat (21 beats, play order
+b01–b21) + the question card from the RENDERED mp4; viewed EVERY frame against the
+defect checklist + CONTENT-CARE (the PALMS law) + speaker law.
+
+- **CLEAN 21/21 + card.** No re-cut. $0 / 0 rerolls.
+- God NEVER embodied — the "graven" image is an ENGRAVER cutting a NAME into metal
+  (b12 JERUSALEM brass, b14 Hebrew bronze, b19 macro, b21 Greek IHΣOYΣ closing echo);
+  never nail-wounds. Content-care (PALMS law) held exactly.
+- Speaker law verified in-frame: white narrator; **blue** Zion-scripture (b03 "But Zion
+  said, The LORD hath forsaken me…"); **green** God-voice (b09 "…the son of her womb?",
+  b10 "yea, they may forget, yet will I not forget thee").
+- Cast consistency: WOMAN (older, blue-gray robe/shawl, gray-streaked dark hair) held
+  across b01/02/03/05/06/08/10/13/17/18; MOTHER (young, braided, red robe) b07/09/11;
+  ENGRAVER (grey-bearded, leather apron) b12/14/21. No drift.
+- Time-of-day arc intentional & correct: blue dusk (loneliness) → warm lamplight
+  (mother/engraver) → morning gold (the promise). No modern objects, no glow/halo/
+  rim-light, anatomy/hands clean on every checked frame, no giant-scale, no white-tears,
+  no eyes-turned-to-light.
+- Captions bottom-band only; question card clean (no code-squares/typos, text fits).
+- COMPLAINT LEDGER: none open (v2_outline.py 116 — no complaints; `.approvals.json`
+  complaint=null). Nothing to regress.
+
+Left BUILT/Ready for Cameron; claim marked QC-OK.
