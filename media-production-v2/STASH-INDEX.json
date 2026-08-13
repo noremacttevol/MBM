@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 05:43:33",
+ "scanned": "2026-08-13 06:24:48",
  "entries": [
   {
    "row": 1,
@@ -56530,6 +56530,362 @@
    "scene": "The last frame is addressed to whoever is watching: close on the empty kneeling-place in the clearing's warm morning light \u2014 the soft pressed ground, the quiet, the ready light through the young leaves \u2014 everything prepa"
   },
   {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b01",
+   "file": "build-153-restitution/assets/s01-after-a-lame-man-was.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "LAMEMAN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The court's foot traffic reverses all at once, the camera looking across the flagstones past the runners' backs: at the Beautiful gate the man who has begged there for forty years is STANDING \u2014 upright on strong new legs"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b02",
+   "file": "build-153-restitution/assets/s02-and-peter-a-fisherman-turned.jpeg",
+   "tokens": [
+    "PETER",
+    "TEMPLE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The explanation stands up wearing a fisherman's shoulders: Peter rises on the porch steps above the pressing crowd \u2014 the broad net-hauling frame of the mid-thirties fisherman the cast sheet fixes, thick dark curly hair a"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b03",
+   "file": "build-153-restitution/assets/s03-silver-and-gold-have-i.jpeg",
+   "tokens": [
+    "PETER",
+    "TEMPLE",
+    "LAMEMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The transaction opens with a disclosure of poverty: Peter's two hands turn out empty before the seated beggar \u2014 no coin anywhere in them, nothing to drop in the held-out bowl \u2014 silver and gold have I NONE \u2014 and the begga"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b04",
+   "file": "build-153-restitution/assets/s04-i-have-no-money-peter.jpeg",
+   "tokens": [
+    "PETER",
+    "LAMEMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The offer's opening inventory, at close range: Peter's two palms open in the morning light \u2014 rope-scarred, salt-cracked, and completely empty \u2014 not one coin between them, not a purse at the belt they extend from \u2014 the pl"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b05",
+   "file": "build-153-restitution/assets/s05-and-in-the-name-of.jpeg",
+   "tokens": [
+    "PETER",
+    "TEMPLE",
+    "LAMEMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The command comes with a grip attached: Peter's hand locks around the beggar's RIGHT hand and PULLS \u2014 the lift already mid-motion, the man rising off his mat with his eyes blown wide, the thin unused legs coming under hi"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b06",
+   "file": "build-153-restitution/assets/s06-he-had-nothing-in-his.jpeg",
+   "tokens": [
+    "PETER",
+    "TEMPLE",
+    "LAMEMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What the empty-pocketed man gave away is currently learning to walk: the healed beggar takes his first steps ever across the flagstones \u2014 feet planting wide and wondering, ankles holding, each stride an experiment that k"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b07",
+   "file": "build-153-restitution/assets/s07-turn-back-to-god-he.jpeg",
+   "tokens": [
+    "PETER",
+    "TEMPLE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The whole sermon fits in one drawn arc: Peter's arm sweeps a slow half-circle before the crowd \u2014 from the direction they have been walking, around, to face the other way \u2014 TURN BACK \u2014 repentance rendered in the oldest ge"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b08",
+   "file": "build-153-restitution/assets/s08-change-your-direction-let-your.jpeg",
+   "tokens": [
+    "TEMPLE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The offer does its work on the faces while he speaks: down the listening rows the easing runs \u2014 a trader's clenched shoulders coming down from his ears, an old woman's held breath leaving in one long release, a young man"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b09",
+   "file": "build-153-restitution/assets/s09-picture-that-word-refreshing.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The word arrives the way it always arrives \u2014 one dark coin at a time: the parched ground lies cracked and pale under the heat, and onto it the first fat raindrops begin to strike \u2014 dark spreading spots on the dust, one, "
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b10",
+   "file": "build-153-restitution/assets/s10-like-cool-rain-on-cracked.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Both of the sermon's pictures happen at once: the rain comes down full now, the cracked ground drinking it in darkening sheets, runnels finding the old seams \u2014 and at the road's edge a travel-worn figure has stopped and "
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b11",
+   "file": "build-153-restitution/assets/s11-that-is-what-god-longs.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Watch what the people in the fields do with the rain, and learn the theology: nobody runs \u2014 across the wide land the silver curtains sweep in and the field-workers stop, straighten, and lift their FACES to it \u2014 arms easi"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b12",
+   "file": "build-153-restitution/assets/s12-repent-ye-therefore-and-be.jpeg",
+   "tokens": [
+    "PETER",
+    "TEMPLE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The fisherman reaches full sail on the temple steps: Peter's arms spread wide over the crowd, the words rolling out with a deck-voice built for storms \u2014 REPENT ye therefore \u2014 and be CONVERTED \u2014 that your sins may be BLOT"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b13",
+   "file": "build-153-restitution/assets/s13-but-peter-pointed-to-something.jpeg",
+   "tokens": [
+    "PETER",
+    "TEMPLE",
+    "LAMEMAN",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The healed man turns out to be a free sample: Peter's arm lifts from the leaping newly-walking beggar \u2014 one man, one morning, one gate \u2014 and sweeps up and out across the whole court, over the colonnades, toward the city "
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b14",
+   "file": "build-153-restitution/assets/s14-he-spoke-of-a-day.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The promised day has a landscape and it is mid-repair: one continuous terrace runs across the frame \u2014 entering as ruin: tumbled walls, dead grey orchard stumps, cracked cistern \u2014 and emerging, along the same unbroken slo"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b15",
+   "file": "build-153-restitution/assets/s15-his-message-was-not-complicated.jpeg",
+   "tokens": [
+    "PETER",
+    "TEMPLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sermon's vocabulary comes off a fishing boat: close on Peter's face mid-sentence \u2014 direct, weathered, utterly without ornament \u2014 no scholar's hedges in the eyes, no rhetorical machinery anywhere in the honest jaw \u2014 t"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b16",
+   "file": "build-153-restitution/assets/s16-until-that-day-he-said.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Every family knows the shelf where the best gift waits: in the warm lamplight the wrapped bundle sits high on its board \u2014 corded neat, kept clear of the daily reaching, positioned where the household's eyes can find it a"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b17",
+   "file": "build-153-restitution/assets/s17-it-is-coming-but-at.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The schedule is cut in stone and the shadow keeps it: on the worn threshold-stone the old sun-line creeps toward the deep-cut mark \u2014 a finger's width away now, moving at the sky's own unhurried pace, ignoring every impat"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b18",
+   "file": "build-153-restitution/assets/s18-and-this-was-not-some.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The idea has paperwork older than every kingdom in earshot: the scrolls lie stacked in their worn age \u2014 rollers polished dark by centuries of hands, edges soft, cords replaced and re-replaced \u2014 the promise's long paper t"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b19",
+   "file": "build-153-restitution/assets/s19-every-true-prophet-all-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The promise travelled by relay and the relay was never broken: along the dusk ridge-line a spaced procession of robed figures stands against the sky \u2014 old and young, staff and mantle, each one different and none of them "
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b20",
+   "file": "build-153-restitution/assets/s20-whom-the-heaven-must-receive.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The verse's subject is currently held in the largest keeping there is: over the temple's honey courts the sky stands enormous and deep \u2014 high clean blue climbing to its zenith, a waiting quality in the very scale of it \u2014"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b21",
+   "file": "build-153-restitution/assets/s21-so-the-only-question-is.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The row's last question wears its answer already: a single upturned face in the freshening light \u2014 eyes bright, the first cool rain-smell arriving on the moving air, the corners of the mouth already lifting \u2014 expectancy "
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b22",
+   "file": "build-153-restitution/assets/s22-restitution-means-giving-back-what.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The word has a doorstep demonstration: at the old shepherd's gate a finder sets the lost ewe back into the arms that raised her \u2014 the young man's grip releasing as the old man's closes, the animal pressing home into the "
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b23",
+   "file": "build-153-restitution/assets/s23-not-patched-up-not-almost.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The standard is set at the potter's bench: on the stilled wheel the finished vessel stands gleaming \u2014 new clay, true curve, not a seam or mend-line anywhere on it \u2014 while beside the bench the old cracked shards sit retir"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b24",
+   "file": "build-153-restitution/assets/s24-so-this-verse-is-a.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Test the promise the way you test a bridge rail: the traveller leans his FULL weight onto the stone parapet \u2014 both forearms down, chest committed, feet easy off their guard \u2014 and the old stone holds the way it has held e"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b25",
+   "file": "build-153-restitution/assets/s25-the-world-is-not-just.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Stand at the right vantage and the road's reputation is wrong: in the near ground it does what everyone says \u2014 drops away toward dusk, losing light with every yard \u2014 but follow it with your eye and the road BENDS: curvin"
+  },
+  {
+   "row": 153,
+   "build": "build-153-restitution",
+   "beat": "v2-r153-b26",
+   "file": "build-153-restitution/assets/s26-will-you-turn-and-be.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last frame is a body answering the question: on the road a figure stands FULLY turned \u2014 feet, shoulders, face, all of them swung round and committed toward the far bright valley where the first silver rain is already"
+  },
+  {
    "row": 161,
    "build": "build-161-called-of-god",
    "beat": "v2-r161-b01",
@@ -57288,6 +57644,186 @@
    "scene": "A close on one risen person's face lifted into the warm dawn light, a breath drawn and the eyes open, calm and fully alive \u2014 an ordinary weathered face restored, the whole promise resting on this one living look. The dew"
   },
   {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b01",
+   "file": "build-174-hearts-of-the-fathers/assets/s01-a-messenger-sent-ahead.jpeg",
+   "tokens": [
+    "WILDERNESS-ROAD",
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera stands to the side and a little behind Elijah and looks down a dry wilderness road: the aged grey prophet in his rough haircloth mantle and leather girdle walks it alone, staff in hand, bare hills rolling back"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b02",
+   "file": "build-174-hearts-of-the-fathers/assets/s02-i-will-send-elijah.jpeg",
+   "tokens": [
+    "WILDERNESS-ROAD",
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Elijah stands still on the wilderness road beneath a wide, high, open sky, his staff planted and his weathered face lifted and quiet, receiving an errand rather than speaking it \u2014 his lips closed. Bare brown hills and pa"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b03",
+   "file": "build-174-hearts-of-the-fathers/assets/s03-the-prophet-receives.jpeg",
+   "tokens": [
+    "WILDERNESS-ROAD",
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Elijah's weathered, sun-darkened face beneath the open sky, iron-grey hair and full beard, his eyes grave and steady as he takes in the weight of the great day that is coming \u2014 quiet, resolute, his lips closed"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b04",
+   "file": "build-174-hearts-of-the-fathers/assets/s04-god-himself-promising.jpeg",
+   "tokens": [
+    "WILDERNESS-ROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A quiet, still view of the empty wilderness road winding away between bare brown hills under a great, high, open sky \u2014 the whole land held in the hush of a promise being spoken over it. The sky is only clear natural dayl"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b05",
+   "file": "build-174-hearts-of-the-fathers/assets/s05-sending-elijah-back.jpeg",
+   "tokens": [
+    "WILDERNESS-ROAD",
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Elijah walks forward along the wilderness road, his rough mantle moving, staff in hand, his weathered face set and purposeful as he comes back toward his people. Bare hills and pale ground run back under the open sky. An"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b06",
+   "file": "build-174-hearts-of-the-fathers/assets/s06-not-an-army.jpeg",
+   "tokens": [
+    "WILDERNESS-ROAD",
+    "ELIJAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Elijah on the road, his hands open and empty but for the plain wooden staff, his weathered face gentle and unhurried \u2014 a messenger who carries no weapon and threatens no one. Bare hills and open sky sit soft b"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b07",
+   "file": "build-174-hearts-of-the-fathers/assets/s07-hearts-of-the-fathers.jpeg",
+   "tokens": [
+    "FAMILY-HOME",
+    "FAMILY-THREE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the plain courtyard of a modest household the camera stands behind and past the shoulder of the aged white-bearded grandfather and looks toward the father \u2014 a grown man of about thirty-five \u2014 who has knelt down to tur"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b08",
+   "file": "build-174-hearts-of-the-fathers/assets/s08-children-to-their-fathers.jpeg",
+   "tokens": [
+    "FAMILY-HOME",
+    "FAMILY-THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the warm courtyard light: the grown father turns to fold the aged white-bearded grandfather into a quiet embrace, the young child reaching a small hand to join them \u2014 three generations drawn back together, the c"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b09",
+   "file": "build-174-hearts-of-the-fathers/assets/s09-not-to-thunder-but-to-mend.jpeg",
+   "tokens": [
+    "FAMILY-HOME",
+    "ELIJAH",
+    "FAMILY-THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the household courtyard Elijah, the aged grey prophet in his rough mantle, stands with the family and gently guides the grown father's hand toward the old grandfather's, his weathered face calm and kind \u2014 the work of "
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b10",
+   "file": "build-174-hearts-of-the-fathers/assets/s10-the-same-spirit-on-john.jpeg",
+   "tokens": [
+    "WILDERNESS-ROAD",
+    "JOHN-BAPTIST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the same wilderness road John the Baptist \u2014 a lean, sun-browned young man in a rough camel-hair garment and leather girdle, dark hair to the shoulder \u2014 stands and points an open hand away down the road, his face earne"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b11",
+   "file": "build-174-hearts-of-the-fathers/assets/s11-families-would-be-ready.jpeg",
+   "tokens": [
+    "FAMILY-HOME",
+    "FAMILY-THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "At the low doorway of the household the three generations stand together \u2014 the aged grandfather, the grown father, the young child \u2014 looking out down the road in quiet, hopeful expectation, the warm day beyond the thresh"
+  },
+  {
+   "row": 174,
+   "build": "build-174-hearts-of-the-fathers",
+   "beat": "v2-r174-b12",
+   "file": "build-174-hearts-of-the-fathers/assets/s12-not-divided-but-whole.jpeg",
+   "tokens": [
+    "FAMILY-HOME",
+    "FAMILY-THREE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A warm close on the three generations of the family drawn close in the courtyard light \u2014 the young child held between the grown father and the aged grandfather, all three faces easy and at peace, one family whole and und"
+  },
+  {
    "row": 177,
    "build": "build-177-make-me-a-sanctuary",
    "beat": "v2-r177-b01",
@@ -57570,6 +58106,246 @@
    "night": false,
    "n_person": 1,
    "scene": "The camera looks across the whole camp at dawn from a low rise in a high three-quarter view, past the backs of a few early risers below: the central tabernacle tent pitched right beside the people's dwelling tents, a sof"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b01",
+   "file": "build-184-third-heaven/assets/s01-paul-wrote-of-a-man.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A wide of the humble writing room seen from behind and to the side of Paul, his back three-quarters to the camera as he sits at the low table, reed pen paused over a blank parchment and his lined face lifted in quiet won"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b02",
+   "file": "build-184-third-heaven/assets/s02-i-knew-a-man-in-christ.jpeg",
+   "tokens": [
+    "HEAVENLY-ASCENT",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A vast establishing wide of the man caught up, seen from below and behind so his back is three-quarters to the camera as he is borne upward away from the ordinary earth that falls far below, into the first radiant height"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b03",
+   "file": "build-184-third-heaven/assets/s03-in-body-or-out.jpeg",
+   "tokens": [
+    "HEAVENLY-ASCENT",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A closer view of the man borne higher through veils of warm radiant light, weightless and dreamlike, his robe and hair drifting as if gravity has loosed him \u2014 so caught up that whether he is in the body or out of it cann"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b04",
+   "file": "build-184-third-heaven/assets/s04-third-heaven.jpeg",
+   "tokens": [
+    "HEAVENLY-ASCENT",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A soaring view of the man carried far up into the great radiant heights, small against layer upon layer of surpassing warm brightness rising into the boundless luminous heaven high above the fallen-away earth. Immense, r"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b05",
+   "file": "build-184-third-heaven/assets/s05-could-not-say.jpeg",
+   "tokens": [
+    "HEAVENLY-ASCENT",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Paul suspended in the warm radiant heights, eyes wide and lips parted in speechless awe, so lost in wonder that he cannot say whether he is in the body or out of it. The surpassing light is all around him. Ord"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b06",
+   "file": "build-184-third-heaven/assets/s06-carried-further-still.jpeg",
+   "tokens": [
+    "HEAVENLY-ASCENT",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Paul is drawn further still from that great height, borne onward and deeper into an even more surpassing warmth of radiant light, the brightness swelling around him as he is carried beyond where he already was. Ever upwa"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b07",
+   "file": "build-184-third-heaven/assets/s07-into-paradise.jpeg",
+   "tokens": [
+    "HEAVENLY-ASCENT",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Paul is drawn to the very threshold of paradise \u2014 before him a boundary of surpassing radiant light so bright it hides all that lies within, its contents unseen inside the pure brilliance. He is caught up to its edge, sm"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b08",
+   "file": "build-184-third-heaven/assets/s08-unspeakable-words.jpeg",
+   "tokens": [
+    "HEAVENLY-ASCENT",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Paul's listening face in the surpassing radiant light, eyes closed or half-closed and one hand near his heart, utterly overcome as he hears words no man is permitted to utter. What he hears is never shown \u2014 on"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b09",
+   "file": "build-184-third-heaven/assets/s09-not-allowed-to-repeat.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Back in the humble writing room in plain daylight, Paul sits quiet at his table, one hand resting over his heart, his face thoughtful and reverent \u2014 keeping the silence, holding within him the things he heard and is not "
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b10",
+   "file": "build-184-third-heaven/assets/s10-he-had-the-credentials.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Paul at his table beside the tokens of his standing \u2014 a small stack of his rolled letters and a worn traveller's cloak \u2014 the credentials he could easily have boasted of. He looks at them steadily and without p"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b11",
+   "file": "build-184-third-heaven/assets/s11-pointed-to-his-weakness.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Paul turns away from the rolled letters and the cloak with open, empty hands and a humbled, softened face \u2014 laying his credentials aside and pointing instead to his own weakness, moved by what the Lord had told him. Quie"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b12",
+   "file": "build-184-third-heaven/assets/s12-my-grace-is-sufficient.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The risen Lord Jesus stands warmly with Paul in the humble room, turned to him and speaking gently and kindly, his hand open toward Paul in reassurance \u2014 only he wears the plain cream robe. Paul is turned toward him, hum"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b13",
+   "file": "build-184-third-heaven/assets/s13-strength-in-weakness.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A closer two-shot of the Lord Jesus and Paul in the room, Jesus warm and steady as he finishes the promise \u2014 that his strength is made perfect in weakness \u2014 only he in the plain cream robe, his gaze kind and sure. Paul r"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b14",
+   "file": "build-184-third-heaven/assets/s14-what-i-give-is-enough.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Paul alone in the warm plain daylight of his room, his face eased into peace and gratitude, one hand at his chest as he holds the Lord's assurance close \u2014 that what the Lord gives is enough. The Lord's presence is felt a"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b15",
+   "file": "build-184-third-heaven/assets/s15-strength-in-weak-places.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Paul sits humble and steady in the warm room, a new quiet strength settling on his face in the very place he had felt weakest \u2014 the Lord's strength doing its best work in his weakness. Calm, resolved, unproud. Ordinary-s"
+  },
+  {
+   "row": 184,
+   "build": "build-184-third-heaven",
+   "beat": "v2-r184-b16",
+   "file": "build-184-third-heaven/assets/s16-still-pointed-to-grace.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Paul is back at his low writing table in the warm daylight, his reed pen in hand and one open hand resting on the parchment \u2014 having been shown more than words can carry, he sets it all aside and points once more to grac"
   }
  ]
 }
