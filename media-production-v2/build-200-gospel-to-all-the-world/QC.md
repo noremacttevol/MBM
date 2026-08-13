@@ -155,3 +155,58 @@ voices end to end.
 **COMPLAINT LEDGER update:** *"Still the wrong audio"* → **AUDIO VERIFIED CORRECT** (chosen
 ElevenLabs cast already rendered); root cause was the stale pre-migration V1 mp4. Handed to
 the picture runner with `AUDIO_FROM_V1_SEGMENTS=True` so the new cut ships the right voice.
+
+---
+
+## 🚢 RUNNER SHIP 2026-08-13 (Opus runner, Machine A `Dev`, UNATTENDED/HEADLESS) — ★ THE FINAL VIDEO OF THE 200 SHIPPED & LIVE ★
+
+**Row 200 · Matthew 24:14 · the Great-Commission promise — the last of the 200.**
+12 realistic V2 stills @ native 2K (V1 had 8), ~3.35 s/pic. 50.1 s / 18.0 MB.
+`matthew-24_gospel-to-all-the-world.mp4`.
+
+### COMPLAINT LEDGER (Learning Law) — the one open complaint is FIXED & PROVEN in this cut
+- **"Still the wrong audio. Im pissed"** (reportedAgainst the stale Jul-29 V1 mp4, old voice)
+  → **FIXED.** This cut sets `AUDIO_FROM_V1_SEGMENTS = True`, so `v2_assemble` did NOT
+  stream-copy the rejected stale mp4 — it **REBUILT** the track from the 9 authoritative
+  ElevenLabs segment mp3s (`n0a n0b n1a n1b n2a n2b n3 j1 card`, all 44100/128k = the chosen
+  cast Narrator "Brian" / Jesus "Chris", never edge-tts). **AUDIO REBUILD PASS
+  SHA256=de073a5c13fd30115ebefc002cf7f752fc72e5b4b35a488f9cf07c5d98644aba**, 50.118 s. The
+  new cut therefore carries the real chosen voices end to end; the old rejected audio is gone.
+  Review card tells Cameron this in his own terms.
+
+### FULL-CUT GATE on the RENDERED mp4 — 12/12 beats + card + speaker-law PASS
+- **12/12 asset frames viewed + 5 rendered frames (b01/b05 white, b09/b10 red, card).**
+- JESUS: one consistent locked V2 master face across all 6 mount beats (b01-04, b09/b10);
+  cream robe **only Jesus** in every Jesus frame; calm **ref-true green/hazel eyes** (rubric
+  lesson 20 — never brown-edited, never rerolled off-ref); ordinary-sized (SCALE gate), gazes
+  converge on him in b01, no halo/glow/rim-light anywhere.
+- **GOD/THE FATHER NEVER EMBODIED** — the gospel-going-out beats (b05-08, b11, b12) are carried
+  by REAL PEOPLE of every nation; no divine figure/dove/beam/hand/ring/symbol anywhere.
+- CONTENT-CARE held: **b03 "wars, rumors, hardship" = only a faint distant smoke smudge on the
+  far horizon, NO battle/blood/dead**; **b10 "and then shall the end come" = Jesus's calm
+  certain face, NO destruction/apocalypse/fire/ruin**.
+- Realistic photography throughout (Law 14 — NO cartoon/mixed frame); disciples & nations
+  in earth-tones (never cream); distinct faces (no twins), child-sized children; beards
+  consistent; no modern object/flag/sign; nothing legibly written.
+- SPEAKER LAW PIXEL-VERIFIED in the render: **j1 (b09/b10) = JESUS RED; every narrator beat
+  + card = WHITE; NO green anywhere** (correct — no God-voice in this row). Captions bottom-band
+  only, split with the narration, never over the art. Closing card clean, good margins, no tofu.
+- DROP-CHECK: concat_base = **12 clips (c000-c011) == 12 BEATS**; b12 window ends 40.190 =
+  card_start (no dropped last beat, row-173 lesson). No dead air.
+
+### Places (2 NEW, promoted BY HAND per author QC)
+- **OLIVET** promoted from b01 (a JESUS frame — promoted by hand AFTER the Jesus face gate,
+  never auto-wired) → reused on b02/03/04/09/10.
+- **NATIONS-WORLD** promoted from b05 (NON-Jesus) → reused on b06/07/08/11/12.
+
+### Cost — COST LAW downward trend holds
+- **0 rerolls / 12 beats (0%)** vs the 15% budget; ~**$1.87** total (2 face-board portraits
+  $0.27 + 14 gens $1.60), meter $669.46→~$673.48. Well under the $6.10/row & 19%-reroll
+  running average.
+
+### Judgment logged (not a defect)
+- b07/b12 wides: a few nations-believers wear muted **undyed oatmeal/tan wool** (natural
+  first-century wool), never the distinct bright cream Jesus wears; **no Jesus is present in
+  either frame**, so there is zero Jesus-identity confusion. Considered and PASSED — a crowd-wide
+  reroll would risk twins/anatomy (worse) for no real gain; the cream-only-Jesus intent
+  (prevent Jesus confusion) is fully satisfied.

@@ -1,0 +1,14 @@
+{
+ "NATIONS-WORLD": {
+  "manual": true,
+  "src_beat": "s05-to-every-corner",
+  "src_build": "build-200-gospel-to-all-the-world",
+  "src_file": "build-200-gospel-to-all-the-world/assets/s05-to-every-corner.jpeg"
+ },
+ "OLIVET": {
+  "manual": true,
+  "src_beat": "s01-on-the-mount-of-olives",
+  "src_build": "build-200-gospel-to-all-the-world",
+  "src_file": "build-200-gospel-to-all-the-world/assets/s01-on-the-mount-of-olives.jpeg"
+ }
+}
