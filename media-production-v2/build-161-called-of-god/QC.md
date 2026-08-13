@@ -58,3 +58,43 @@ to the lone priest). File order = story order; windows contiguous
   `python3 media-production-v2/v2_stash.py --promote build-161-called-of-god QUIET-HILL <frame>` (from b18)
   PEOPLE is a crowd token — if the stash suggests a place-frame for
   it, judge it as background-cast, not architecture.
+
+---
+
+## COMPLAINT LEDGER (Opus runner build, 2026-08-13, Machine A `Dev`, headless)
+
+**OPEN complaint (Cameron):** "At 1:30 aaron went grey and the anointing
+oil was poured over his hat and that is all wrong this picture needs to be
+redone."
+
+- **1:30 = beat b16 / s16** (window 86.03–92.37, the anointing). FIXED in
+  this cut: s16 shows Aaron with **jet-BLACK hair and BLACK beard, BARE head
+  (no mitre/cap/hat of any kind)**, and the holy oil pouring from the horn
+  **directly onto his bare black hair**, running into the black beard. Moses
+  (correctly grey-white) is the anointer. Verified frame-by-frame from the
+  rendered assets.
+- **Grey gate swept across the WHOLE Aaron sequence** (b10–b17 / s10–s17):
+  Aaron is black-haired, black-bearded, bare-headed in EVERY frame — no grey
+  hair anywhere. The three greybeards are kept separate and correct: MOSES
+  = grey-white (rows 67/105 canon), the epistle PRIEST = iron-grey (a THIRD
+  man, b01–b09), Aaron = BLACK.
+
+**FULL-CUT GATE (6b): PASS — 0 rerolls / 24 beats (0%, ≤15% COST LAW).**
+Every beat viewed against the defect checklist + RUNNER-LESSONS:
+- Jesus (b18–b21) on-model (tan skin, dark wavy hair, full beard, cream
+  robe, green/hazel eyes per V2 lock); receiving posture, NO priestly
+  costume, NO crown, NO wounds on the b21 hands, NO halo/rim-light.
+- Father NEVER embodied (b19): strengthening dawn light + lifted listening
+  face only — no figure, no dove, no beam.
+- Cream-only-Jesus holds: Aaron in grey/oatmeal wool, PRIEST in blue +
+  breastplate, Moses in maroon — no second cream figure.
+- b08 vestments hung untouched (no reaching hand); b09/b21 open empty
+  palms rhyme; TABERNACLE + QUIET-HILL plates consistent; no modern
+  objects; anatomy clean throughout.
+- Minor note (NOT rerolled): b14 wide shows one of Moses's hands clearly on
+  the head; the b15 close-up shows BOTH hands flat in contact — the
+  laying-on reads across the pair.
+
+Row spend this session ≈ $7.9 (portraits + 24 beats, 0 rerolls), meter
+$636.77→$644.67. Under the $6.10 baseline+headroom; 0% rerolls beats the
+19% baseline (COST LAW trending down).
