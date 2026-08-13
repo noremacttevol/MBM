@@ -152,3 +152,42 @@ Claim A-auto). Resumed per RUNNER PARALLEL-LANES resume branch.
   resume session)** — a clean cut is not touched. AUTHOR-BOARD RUNNING→BUILT;
   QUEUE Built✅ (Appr untouched — Cameron's alone). Deployed to Firebase +
   live-verified.
+
+---
+
+## INDEPENDENT QC-VERIFY PASS — 2026-08-13 (Opus runner, Machine A `Dev`, headless)
+
+Second, independent FULL-CUT GATE 6b re-run before Cameron's eyes reach the
+Unwatched queue (the row-11 "seven bad frames reached him" failure this pass
+exists to prevent). Row is BUILT + shipped but **NOT approved** (`.approvals.json`
+has no row-134 entry → untouchable-approved check PASSES, this row is mine to
+verify). **COMPLAINT LEDGER: none open** (fresh-authored story, no filed complaint
+→ no resolved complaint to regress).
+
+- Extracted ONE mid-window frame per beat from the RENDERED mp4 (18 beats via
+  c000-c017 clip windows) + the reflection card, viewed EVERY one:
+  - **18/18 beats + card CLEAN.** All realistic photography (Law 14, no
+    cartoon/mix). Jesus ONE locked face across b04/b05/b09/b10/b17 (dark wavy
+    hair, full beard, green/hazel V2 eyes, Middle-Eastern) — cream robe/loincloth
+    ONLY on Jesus, no halo/glow/rim-light, ordinary scale. Easter "touch me not"
+    gap held on b09/b10 (clear air between Mary's hand and his). Thief rope-bound,
+    NO wounds/nails/blood (authored mercy choice held). No modern objects, clean
+    anatomy/hands (5 fingers on every visible hand incl. b05 crop), no extra limbs,
+    no head-swaps. Captions bottom-band only — narrator WHITE, Jesus KJV RED
+    (b05 "Verily I say unto thee…", b10 "Touch me not…"). Reflection card clean
+    serif, no typo-squares.
+  - **b05 examined at crop:** the wooden shapes near the two men's chins are the
+    CROSSBEAM ENDS their wrists are bound to (roped bindings visible in b04) — a
+    solemn cross-to-cross exchange on SEPARATE crosses at natural distance, NOT a
+    "too close/kiss" framing. Not a defect.
+  - **b17 examined at crop:** no second cream-Jesus — the walking cream-robed
+    figure is unmistakably Jesus; seated background figures are grey/oatmeal
+    disciple robes at rest (expected for "the Shepherd among people at rest").
+- **FIX-WAVE (minor, do NOT re-cut):** a couple of pale-oatmeal background
+  shawls in b17 sit close to cream in tone — below the glance-read bar, same
+  class as row 145's flagged background-diner tone drift. No re-cut warranted.
+- **Live-verified:** live review.html card data-hash `4621a1576a47…` matches
+  local; mp4 URL serves real bytes (HTTP 206, application/octet-stream). Audio
+  rebuilt 116.57s (AUDIO REBUILD PASS on ship, byte-identical new-voice).
+- **Outcome:** cut CONFIRMED CLEAN. No re-cut ($0/0 rerolls). Claim marked
+  **QC-OK 2026-08-13**. A clean approved-pending cut is not touched.
