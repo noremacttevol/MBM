@@ -80,6 +80,13 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX 2026-08-13 (Machine A `Dev`, audio lane, $0): STALE-V1 (row-147 class).
+# All 11 V1-dir mp3s voice-ID'd as ElevenLabs new-voice (44100 Hz / 128 k;
+# audio-eleven.log confirms all 11 cast) but they were newer than the V1 mp4
+# (old-voice render) so v2_assemble's AUDIO LOCK refused. Rebuild the track
+# from the newer new-voice mp3s — no re-voice, no still regen.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r155-b01", "out": "s01-the-young-believers-in-thessalonica.jpeg", "seg": "n1",
