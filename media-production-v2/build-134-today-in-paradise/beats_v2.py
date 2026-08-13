@@ -524,11 +524,23 @@ BEATS = [
 # `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
+# === CAST FACE REFS (runner-wired 2026-08-13, Opus runner) ===
+# THIEF face-locked BYTE-IDENTICAL to build-95 (same penitent thief across
+# videos, Law 6 + rubric lesson 2); MARY face cropped from build-98's approved
+# Mary (same Magdalene as build-98). Text-only locks would flip across the
+# THIEF's 4 legible-face beats (RUNNER-LESSONS rows 52/55/63/153/177).
+REFS = {
+    "THIEF": "CAST-REF-V2/thief.jpeg",
+    "MARY": "CAST-REF-V2/mary.jpeg",
+}
 PLACE_REFS = {
     # HILL: build-38 auto-match REJECTED (village doorway frame is not
     # Calvary). Anchor instead on build-95's approved HILL frames.
+    "HILL": "PLACE-REF/hill.jpeg",
     # TOMB: build-37 auto-match REJECTED per build-95's authored law —
     # build-37 is the PARABLE tomb (arid, no garden); this is JESUS'S garden
-    # tomb (rows 71/96/97/98 family). Take 97/98's approved garden frame.
+    # tomb (rows 71/96/97/98 family). build-98's approved garden tomb.
+    "TOMB": "PLACE-REF/tomb.jpeg",
+    # REST: NEW place — promote-first from b14 per QC.md (no prior plate).
 }
 # === end PLACE-PLATES ===

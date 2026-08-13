@@ -1,1 +1,12 @@
-{}
+{
+ "HILL": {
+  "manual": true,
+  "src_build": "build-95-thief-on-the-cross",
+  "src_file": "build-95-thief-on-the-cross/PLACE-REF/hill.jpeg"
+ },
+ "TOMB": {
+  "manual": true,
+  "src_build": "build-98-mary-her-name",
+  "src_file": "build-98-mary-her-name/PLACE-REF/tomb.jpeg"
+ }
+}
