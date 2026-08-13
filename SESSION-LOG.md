@@ -1,3 +1,17 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 173 DEAD-SHALL-HEAR V2: 14 imgs generated + FULL-CUT-clean ($1.88, 0 rerolls), PARKED NEEDS-REBUILD — assembly drops b13 (card audio > card window) — Machine A `Dev`
+
+Ran AUTHOR-BOARD row 173 (John 5:25-29, "the dead shall hear the voice of the Son of God"), the row the operator pointed me to (lowest available; 168-172 sibling-owned/parked). Cross-checked QUEUE.md FIRST — same story (John 5:25), a legitimate realistic-V2 redo of the 2026-07-17 ASSEMBLY-C 7-still cut, NOT a swap. Read RUNNER-LESSONS top lessons + QC.md COMPLAINT LEDGER (LEARNING LAW). Complaint on this row: "Mispronounced live at the end" — verified fixed at source (SPOKEN {"live":"liv"}, V1 segment mp3s re-rendered 2026-07-29 after the fix).
+
+- **Places:** TEMPLE-COURT reused the author's committed build-39 plate; RESURRECTION-GROUND promoted from the v2_story_cast portrait (content-care-clean establishing wide). **Caught + fixed a plate-poisoning trap:** `v2_stash.py --wire` re-pointed TEMPLE-COURT to a build-96 *crucifixion* frame AND overwrote the committed `PLACE-REF/temple-court.jpeg` (308952→363924 bytes). Restored from git, pinned wiring `manual:true`. (New RUNNER-LESSON.)
+- **Generated all 13 beats + 1 portrait ($1.88, 0 rerolls, meter →$654.19).** Jesus face gate exit 0. **FULL-CUT GATE per-rendered-frame:** 8 temple-court discourse beats = one consistent V2 Jesus (green/hazel, cream-only, no halo, correct scale/anatomy, gazes converge, red-letter captions on the KJV lines); 4 RESURRECTION-GROUND beats content-care-clean (whole, clothed, LIVING people, warm dawn, ZERO corpses/bones/zombies/ghosts/gore); captions bottom-band; card clean.
+- **BLOCKER (the FULL-CUT GATE earned its keep):** assembly drops beat b13 (s13 "to hear him is to live"). The closing card narration is 6.863s but the authored card window is only 2.744s (58.851→61.595), so `extract_beats` sets card_start=54.732 = BEFORE b13's window (55.65→58.851) → negative dur → skipped (concat_base has 12 clips, not 13; s13 never appears). The QC.md premise "windows line up with the V1 mp4" is false — beats_v2 timeline is 61.595s but the shipped V1 mp4 is a stale 59.396s. AUDIO is fine: set `AUDIO_FROM_V1_SEGMENTS=True` (V1 segment mp3s 2026-07-29 carry the "live" fix), AUDIO REBUILD PASS 22299b65, coherent, no overlap. Only the VIDEO timeline needs author reconciliation (editing beat windows is out of runner scope).
+- **PARKED NEEDS-REBUILD** (author lane): board State=NEEDS-REBUILD, Ready ✅ cleared so no runner re-picks. QC.md 🅿️ RUNNER PARK carries the measured diagnosis + 3 author-fix options + the $0 re-assemble resume (stills stashed/committed). Two new RUNNER-LESSONS added (card-audio>card-window drops last beat; --wire clobbers committed plates).
+- **Cost:** $1.88/row this row, 0 rerolls (0% vs 15% budget) — under the $6.10 average even though parked; no waste (stills reused on rebuild).
+
+Commit: de2694211 (park + stills + lessons)
+
+---
+
 ## 2026-08-13 (Opus runner, low-number lane, unattended/headless) — Row 171 BAPTIZED FOR THE DEAD V2 FIRST CUT SHIPPED & LIVE: rolling-scroll first-picture complaint FIXED, 0 rerolls ~$2.40 — Machine A `Dev`
 
 Ran AUTHOR-BOARD row 171 (lowest Ready ✅, THE LOW-NUMBER LAW). Cross-checked QUEUE.md FIRST — same story (1 Cor 15:29, baptized-for-the-dead), a legitimate realistic-V2 rebuild of the void 2026-07-17 ASSEMBLY-C cut, NOT a swap. Read all 22 rubric lessons + RUNNER-LESSONS before the first credit (LEARNING LAW).
