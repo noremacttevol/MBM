@@ -9,7 +9,7 @@ VERIFY-PASS per PROMPT-OPUS-RUNNER.md 6b (independent FULL-CUT GATE of a BUILT/u
 - **Cost: ~$0.13 / 1 reroll (5.9% this pass)** — under the 15% COST-LAW budget; meter $695.46→$695.59. Board claim marked `QC-FIX 2026-08-13 SHIPPED`.
 - **FIX-WAVE remaining (non-blocking):** ambiguous grey sackcloth on the dry-stone wall bottom-right of b07/b11 (period-plausible, mostly behind caption band / cropped) — below the complaint bar, left for the deep pass.
 
-Commit: 2c80cd4c55cd2e54dbccd7dca5499af9a263fac5 (SESSION-LOG + reviewer half of the QC-FIX package; mp4/s12/QC.md/board in commit b28631286ce6; STASH+RUNNER-LESSONS in c6673e971; deployed live b28631286ce6 verified on milk-b4-meat.web.app)
+Commit: 1729df2eb (SESSION-LOG + reviewer half of the QC-FIX package; mp4/s12/QC.md/board in commit b28631286ce6; STASH+RUNNER-LESSONS in c6673e971; deployed live b28631286ce6 verified on milk-b4-meat.web.app. NOTE: a concurrent autopilot lane's rebase reordered hashes mid-session — 2c80cd4c5 is that lane's row-142 claim, not this package.)
 
 ---
 
