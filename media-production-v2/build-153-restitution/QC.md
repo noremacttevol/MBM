@@ -75,3 +75,10 @@ After the flag is set, the picture runner builds all 26 stills fresh and full-cu
 
 **COMPLAINT LEDGER (carried forward for the eventual picture build):**
 - OPEN: "1:12 is weird picture — needs Peter" → the author already fixed this in the beat map: **b13** (window 69.58–73.66s, covers 1:12/72s) now shows **Peter's arm sweeping from the healed leaping man out across the whole court/city/sky** (must_show: "Peter's arm lifting FROM the healed man TO the whole court"). Peter is present and the subject — no longer a Peter-less "be blotted out" still. The picture runner MUST verify b13 renders Peter at ~1:12 in the FULL-CUT GATE before shipping.
+
+## ✅ AUDIO-FIX DONE — 2026-08-13 (Machine A `Dev`, audio lane, headless)
+STALE-V1 resolved, $0, 0 re-voice:
+1. Voice-ID'd all 13 V1-dir mp3s (n1,n1b,n2-n8,kv19,kv21,s6,card) = **44100 Hz / 128 k = the chosen ElevenLabs new-voice cast** (no old edge-tts segment).
+2. Set `AUDIO_FROM_V1_SEGMENTS = True` in `beats_v2.py` (rebuild from the newer mp3s; nothing re-voiced/re-timed; V1 read-only). The stale 204.4s V1 mp4 is now irrelevant — the segment timeline (161.6s) is authoritative.
+3. Pre-flight PASS: `extract_beats 153` = 161.6s / 12 beats; `--check` v4 PASS (26 beats); `audio_audit --rows 153` = **0 old-voice segments**.
+4. Handed to the PICTURE RUNNER: board State NEEDS-AUDIO → AUTHORED, Ready ✅, Claim cleared. Runner builds the 26 beats on the now-valid audio and MUST verify b13 shows Peter at ~1:12 in the FULL-CUT GATE (see COMPLAINT LEDGER above) before shipping. $0 / 0 Gemini / 0 re-voice.
