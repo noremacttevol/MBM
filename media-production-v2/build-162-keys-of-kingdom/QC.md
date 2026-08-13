@@ -1,5 +1,44 @@
 # QC / RUNNER HANDOFF — build-162-keys-of-kingdom (Matthew 16:13-19)
 
+## 🅿️ RUNNER PARK #1 — 2026-08-13 ~18:10 UTC (Opus picture-runner RESUME, Machine A `Dev`, headless): board-wide `gemini-3-pro-image` outage — $0/0 gen, re-pickable when endpoint recovers
+A prior autopilot run left this row State RUNNING / Claim `A-auto` with **0 frames
+banked** (portrait dir empty, `assets/` empty). RESUME attempted this session:
+- **Already-shipped check FIRST:** no committed V2 mp4 in this build; review card
+  `id="v162"` is still the OLD V1 (`data-built 2026-07-28`, hash `236abfcf…`, no
+  `data-review-wave="realistic-v2"`) → row 162 is NOT shipped. Correct to resume.
+- **Pre-flight PASS:** `v2_prompt.py … --check` = 24 beats, v4 checklist PASS.
+  COMPLAINT LEDGER: **none open** (`v2_outline.py 162` shows no prior review).
+- **BLOCKER — sustained board-wide endpoint outage (NOT a billing wall).**
+  `gemini-3-pro-image` returns flat **HTTP 503 UNAVAILABLE** ("high demand …
+  usually temporary"), sub-second, on 6/6 direct curl probes AND on a real
+  `v2_story_cast build-162 --ceiling 741` run (all 4 retries 503, crashed on the
+  DISCIPLES portrait, banked 0). Last board-wide frame in `api-spend.jsonl` =
+  **12:22:14** (row 159 b01) → **~5.5 h, zero frames from ANY lane**. No 429, no
+  "prepayment depleted"; key HEALTHY, billing FINE — same self-healing Google-side
+  image-endpoint outage that parked rows 159/160 four times earlier today.
+- **Parked clean:** 0 frames banked → board State RUNNING → **AUTHORED**, Claim
+  **BLANK**, Ready ✅ so the next runner/autopilot re-picks it fresh the instant
+  the endpoint answers. No inbox escalation (transient endpoint self-recovers —
+  rows 159/160 precedent). **Meter unchanged $711.00. $/row this session $0,
+  rerolls 0%.**
+
+### RESUME COMMAND (run when a fresh `api-spend.jsonl` frame appears from any lane)
+```
+# 1) portrait (1 to make: DISCIPLES)
+python3 media-production-v2/v2_story_cast.py build-162-keys-of-kingdom --ceiling 741
+# 2) NEW place CAESAREA-ROCK — gen b01 FIRST, eyeball, promote as the plate:
+python3 media-production-v2/v2_gen_api.py build-162-keys-of-kingdom --only v2-r162-b01 --ceiling 741
+python3 media-production-v2/v2_stash.py --promote build-162-keys-of-kingdom CAESAREA-ROCK s01-at-caesarea-philippi.jpeg
+python3 media-production-v2/v2_prompt.py media-production-v2/build-162-keys-of-kingdom --check   # now enforces plate on disk
+# 3) remaining 23 beats:
+python3 media-production-v2/v2_gen_api.py build-162-keys-of-kingdom --ceiling 741
+# 4) FULL-CUT GATE (Peter beard/face board, keys=exactly 2 iron keys, Father never embodied, scale gate) → assemble → gate → ship (steps below)
+```
+(Recompute `--ceiling` from the live meter at resume time: `meter + (remaining
+beats + portraits) × 0.134 × 1.5 + 25`.)
+
+---
+
 **AUTHORED 2026-08-07 (Machine A `Dev`, Fable-5 author lane, $0).**
 `beats_v2.py` written from scratch: 24 pictures over 144.78 s (6.0 s/pic,
 matches row 161's library density). `v2_prompt.py --check` PASS. Windows
