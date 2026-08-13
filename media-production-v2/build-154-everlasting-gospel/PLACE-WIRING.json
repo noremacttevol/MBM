@@ -1,1 +1,14 @@
-{}
+{
+ "ANGEL": {
+  "manual": true,
+  "src_beat": "s04-not-an-army-not-a",
+  "src_build": "build-154-everlasting-gospel",
+  "src_file": "build-154-everlasting-gospel/assets/s04-not-an-army-not-a.jpeg"
+ },
+ "PATMOS": {
+  "manual": true,
+  "src_beat": "s03-and-then-in-a-vision",
+  "src_build": "build-154-everlasting-gospel",
+  "src_file": "build-154-everlasting-gospel/assets/s03-and-then-in-a-vision.jpeg"
+ }
+}
