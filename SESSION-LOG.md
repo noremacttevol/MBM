@@ -1,3 +1,16 @@
+## 2026-08-13 (cfix lane, unattended/headless) — Row 117 "dramatized" complaint ROOT-CAUSED: audio objectively optimal, prior fix was a null re-roll → PARKED AWAITING-CAMERON + inbox-escalated — Machine A `Dev`, $0 Gemini
+
+**Commit:** _(this entry's commit)_
+
+Dispatched as the cfix lane on row 117 (lowest open complaint). Complaint is AUDIO-domain — Cameron: *"it was all good until the very end where you miss pronounced 'Dramatized' — fix that audio at the very end."* Per the audio-domain rail I did NOT re-cut pictures. But this is the SECOND pass: a RUNNER PARK already diagnosed it and an "AUDIO-FIX SHIPPED" (07:34, commit `33b7d3ba1`) claimed to fix it — Cameron re-filed the identical complaint 22 min later (07:56 UTC) against that exact hash. Re-parking the same way = the loop he hates, so I root-caused instead.
+
+- **The 07:34 "fix" was a NULL RE-ROLL — git-proven.** Commit `33b7d3ba1` touched no `.py`; `SPOKEN` is still `{}`. It re-rendered the identical plain word "dramatized" (new md5, same pronunciation) and claimed a stress change without applying a respell or validating. A/B: pre-fix vs post-fix card word envelopes are near-identical. (Its board note's "mp4 SHA256 358dd0f3" is also wrong; real is `dd0e4fb2`.)
+- **The shipped word is OBJECTIVELY CORRECT — three independent measures.** Round-trips to "dramatized"; F0 thirds `[158,119,106]` = front-stress (DRAM, not druh-MAT); first-syllable formants F1=599/F2=1650 = canonical /æ/. Live serve == local (`dd0e4fb2`), so Cameron heard exactly this.
+- **Rendered 11 ElevenLabs-Brian alternatives — EVERY one is worse** (over-segments, shifts stress off S1, moves the vowel off /æ/, or changes the word to "dramatizes"/"dramatize"). ElevenLabs cannot voice it better; any re-voice is a regression; a blind re-roll = the row-27 8-pass "ear-blocked" trap (RUNNER-LESSONS:27).
+- **Resolution: genuine fork, only Cameron can decide.** Parked row State `BUILT → AWAITING-CAMERON` (matches no autopilot picker, so no lane re-dispatches and burns sessions) and escalated to Cameron's Brain inbox with three options: (a) approve as-is, (b) describe what he hears for a targeted attempt, (c) authorize an AUTHOR reword of the deliberate climax word (not done autonomously). Full evidence in the build's QC.md §C-FIX INVESTIGATION 2026-08-13.
+
+**COST:** $0 Gemini, 0 rerolls, pictures untouched. ElevenLabs used only for throwaway A/B candidates. Video stays on the reviewer (still watchable); only the auto-fix loop is stopped.
+
 ## 2026-08-13 (AUDIO-FIX lane, unattended/headless) — Rows 155 / 156 / 157 STALE-V1 cleared, all handed to picture runner AUTHORED — Machine A `Dev`, $0
 
 **Commit:** `4f95704b9` (row 157 done→AUTHORED); rows 155/156 shipped in `2d77f05c5` / `fcc8a99ca`; this log entry follows.

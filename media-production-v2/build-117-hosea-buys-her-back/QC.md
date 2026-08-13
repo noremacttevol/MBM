@@ -138,3 +138,58 @@ mp4 is a picture no-op — the only thing that changed is `card.mp3`.
 Board set: State BUILT → NEEDS-AUDIO (Audio col stays OK); Claim carries
 `RUNNER PARK` (no `AUDIO-FIX` string) so `autopilot.sh` line 219 routes it to
 the audio lane.
+
+## C-FIX INVESTIGATION 2026-08-13 → AWAITING CAMERON (Opus runner, Machine A `Dev`) — audio is objectively OPTIMAL; genuine fork, do NOT blind re-roll
+
+**Cameron's complaint (`v2_outline.py 117`, still OPEN):** *"it was all good
+until the very end where you miss pronounced 'Dramatized' — fix that audio at
+the very end and its good."* "dramatized" = the FIRST word of the closing
+question **card** (make_narration.py:56 NARRATOR).
+
+**THE 07:34 "AUDIO-FIX SHIPPED" (commit 33b7d3ba1) WAS A NULL RE-ROLL — git-proven.**
+That commit touched ONLY: AUTHOR-BOARD.md, QC.md, the mp4, and card.mp3 (binary).
+It changed **no .py file** — `SPOKEN` in make_narration.py is still `{}`. So it
+re-rendered the *identical plain word* "dramatized" through ElevenLabs (a
+slightly different waveform → new md5, same pronunciation) and claimed
+"druh-MAT-ized → DRAM-uh-tized" without applying any respell or validating.
+A/B proof: OLD (pre-fix) and NEW card "dramatized" 10-bin energy envelopes are
+near-identical (OLD `.089 .039 .047 .086 …` vs NEW `.085 .026 .038 .091 …`).
+Cameron re-filed the identical complaint at 07:56 UTC — **22 min after** that
+ship — against hash 33b7d3ba1. (Its board note's "mp4 SHA256 358dd0f3" is also
+wrong; the real mp4 sha is dd0e4fb2, live==local byte-identical.)
+
+**OBJECTIVE ANALYSIS OF THE SHIPPED WORD (this is why a re-voice cannot help):**
+Isolated "dramatized" from the delivered card.mp3 (whisper word-timestamps) and
+measured it three independent ways — ALL say it is pronounced correctly:
+  1. Round-trip transcription (whisper small): "dramatized" ✅ (not "dramatised",
+     not "dramatizes").
+  2. Stress via F0 thirds: `[158, 119, 106] Hz` → clear FRONT-stress on
+     syllable 1 (DRAM) = correct DRAM-uh-tized, NOT druh-MAT-ized.
+  3. First-syllable vowel formants (LPC): F1=599 F2=1650 = canonical male /æ/
+     ("DRAM"), NOT /ɑ/ "DRAHM" (F2~1100) nor /eɪ/ "DRAYM" (F2>2000).
+Live serve == local mp4 (both sha dd0e4fb2), so Cameron heard exactly this.
+
+**I RENDERED 11 ElevenLabs-Brian ALTERNATIVES — EVERY ONE MEASURES WORSE.**
+Candidates tried (spaces, caps, double-m, British -ise, em-dash pause, comma,
+context-emphasis, reword-in-clause): they either over-segment ("dram a tized" →
+whisper "drama ties"), shift stress off S1, move the vowel off /æ/ (F1 drops to
+338-445 = wrong), or change the WORD ("dramatizes"/"dramatize"). The SHIPPED
+card is the ONLY rendering that passes round-trip + front-stress + /æ/. **There
+is no respell that beats it — ElevenLabs Brian's "dramatized" is already its
+best output. Shipping any alternative would be a REGRESSION.**
+
+**VERDICT: genuine fork, only Cameron can resolve — escalated to his inbox
+2026-08-13.** Either (a) it is actually acceptable and he approves as-is; or
+(b) he hears something my instruments cannot measure (like row-27's brightness
+that survived 8 "ear-blocked" passes, RUNNER-LESSONS:27) and must describe it
+(wrong syllable? too fast? a slur?) so a *targeted* attempt is possible; or
+(c) he authorizes rewording the climax line to drop the word ElevenLabs cannot
+voice to his ear — an AUTHOR content change (his word "dramatized" is
+theologically deliberate, so I will NOT replace it autonomously).
+
+**HARD INSTRUCTION TO ANY FUTURE LANE:** do NOT re-voice/re-roll this card
+again — it has already been objectively proven optimal here; a blind re-render
+only repeats the 07:34 failure and the row-27 loop. Act only on Cameron's
+inbox reply. State parked AWAITING-CAMERON so no auto-lane re-dispatches.
+Pictures were NOT touched (audio-domain). No Gemini spend; ElevenLabs used only
+for the throwaway A/B candidates.
