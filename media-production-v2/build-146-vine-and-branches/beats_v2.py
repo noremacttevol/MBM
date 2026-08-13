@@ -147,8 +147,8 @@ BEATS = [
         "window": "39.26-40.65", "wide": False, "jesus": True, "ref": REF,
         "locks": ["VINEYARD", "DISCIPLES"],
         "narration": "You are the branches.",
-        "must_show": "the naming — Jesus's hand moving from the trained branches to the listening disciples' faces; the identification direct.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the gesture's ARC readable — branches to men.",
+        "must_show": "the naming — Jesus's hand moving from the trained branches to the listening disciples' faces; the identification direct; every disciple's face warm living olive/tan Middle-Eastern skin, naturally lit even under the moon.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the gesture's ARC readable — branches to men; NO grey, ashen, pale, white, bluish, desaturated or corpse-like faces on any disciple — moonlight cools the scene but every face keeps warm living skin tone.",
         "scene": (
             "The metaphor gets its casting call: Jesus's "
             "hand traces from the moonlit trained branches "
@@ -159,6 +159,9 @@ BEATS = [
             "the living system on the spot, every one of "
             "them now part of a plant whose trunk is "
             "standing beside them wearing sandals. Every "
+            "disciple's face carries warm living olive and "
+            "tan Middle-Eastern skin, softly moonlit — never "
+            "grey, ashen, pale or drained of color. Every "
             "figure has two arms, two hands and one head."
         ),
     },
@@ -254,20 +257,23 @@ BEATS = [
         "window": "43.17-46.63", "wide": False, "jesus": False, "ref": False,
         "locks": ["VINEYARD", "DISCIPLES"],
         "narration": "Branches — part of the same living thing.",
-        "must_show": "the belonging — disciples' hands resting on the trained branches among the moonlit rows, men and vine one continuous composition; membership in a living thing.",
-        "must_not_show": "no halo; the hands GENTLE on the wood — belonging, not grasping.",
+        "must_show": "the belonging — a TIGHT waist-up view of two or three disciples' hands resting gently on one trained branch among the moonlit rows; each hand and forearm clearly readable, palms and fingers whole; men and vine one continuous composition; membership in a living thing.",
+        "must_not_show": "no halo; the hands GENTLE on the wood — belonging, not grasping; NOT workers walking away with tools; NO pruning hooks, hoes or harvest baskets; NO extra, third, duplicated, floating or disembodied arm or hand — every visible person has exactly two arms both joined at the shoulders and every hand accounted for; night, NOT golden day.",
         "scene": (
-            "The new membership is taken up by hand: along "
-            "the moonlit row the disciples' hands come to "
-            "rest on the trained branches — a fisherman's "
-            "scarred palm on the smooth young wood, an old "
-            "tax-man's fingers under a leaf — men touching "
-            "the thing they have just been named into, one "
-            "continuous line of trunk and branch and hand "
-            "and man down the silver row — not an audience "
-            "around a plant: parts, of the same living "
-            "thing. Every figure has two arms, two hands "
-            "and one head."
+            "The new membership is taken up by hand, shot "
+            "close: along the moonlit row two or three of the "
+            "disciples lay their hands to rest on one trained "
+            "branch — a fisherman's scarred palm flat on the "
+            "smooth young wood, an old tax-man's fingers "
+            "curled under a leaf beside it — hands and "
+            "forearms filling the frame, each one whole and "
+            "clearly its own, the wood running unbroken "
+            "between them: not an audience around a plant, "
+            "parts of the same living thing, held in soft "
+            "moonlight. Each man shows exactly two arms and "
+            "two hands, no arm belonging to no one, no spare "
+            "limb — every figure has two arms, two hands and "
+            "one head."
         ),
     },
     {
@@ -364,20 +370,24 @@ BEATS = [
         "window": "73.68-78.39", "wide": False, "jesus": True, "ref": REF,
         "locks": ["VINEYARD", "DISCIPLES"],
         "narration": "He wasn't asking for effort. He was offering connection.",
-        "must_show": "the closing offer — night again: Jesus's hand clasping a disciple's hand gently against the old vine's trunk; connection offered skin to bark to skin.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the clasp GENTLE — an offer taken, not a demand; the moon on the old vine.",
+        "must_show": "the closing offer — night, but clearly VISIBLE in soft moonlight: Jesus's hand clasping a disciple's hand gently against the old vine's trunk; BOTH of Jesus's hands fully in view, five fingers each; connection offered skin to bark to skin.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; the clasp GENTLE — an offer taken, not a demand; the moon on the old vine; NOT a near-black or unreadable frame — the two faces and the clasped hands are plainly lit; NO merged, hidden, fingerless, stump or missing hand — Jesus has two complete hands and the disciple one visible hand; not sunset or sunrise light.",
         "scene": (
-            "The last frame is a handclasp against old "
-            "wood: back in the moonlight Jesus takes a "
-            "disciple's hand and lays it with his own "
-            "against the great vine's gnarled trunk — skin "
-            "on bark on skin, the three of them joined in "
-            "one quiet stack — nothing demanded in the "
-            "gesture, nothing to achieve, no effort "
-            "requested anywhere in it: only the offer the "
-            "whole night walk was about — stay connected, "
-            "and let the life do what life does. Every "
-            "figure has two arms, two hands and one head."
+            "The last frame is a simple, clearly lit "
+            "handclasp against old wood: in soft moonlight — "
+            "bright enough to read every face and finger — "
+            "Jesus lays one of his own hands over the "
+            "disciple's hand where it rests on the great "
+            "vine's gnarled trunk, his other hand resting "
+            "open at the disciple's forearm — skin on bark "
+            "on skin, plainly joined, nothing hidden — "
+            "nothing demanded in the gesture, nothing to "
+            "achieve, no effort requested anywhere in it: "
+            "only the offer the whole night walk was about — "
+            "stay connected, and let the life do what life "
+            "does. Both of Jesus's hands are complete and "
+            "visible, five fingers on each; every figure has "
+            "two arms, two hands and one head."
         ),
     },
 ]

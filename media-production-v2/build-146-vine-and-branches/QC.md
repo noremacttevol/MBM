@@ -1,3 +1,66 @@
+## 🛠 C-FIX SHIPPED — Cameron's 3 picture complaints (0:40 white faces / 0:47 multiple arms / 1:19 Jesus missing a hand) — 2026-08-13, Machine A `Dev`, Opus runner (unattended/headless)
+
+**Cameron's complaint (against the live cut, complaintHash a62787cfb):**
+"0:47 man has multiple arms replace the picture, 0:40 picture some bystanders have
+white faces, fix it replace it. 1:19 picture has Jesus missing a hand, fix it."
+
+### TRACE (each timestamp → the frame that RENDERS at that second in the live mp4)
+- **0:40** → beat **b04** `s04-you-are-the-branches` (window 39.26–40.65). Several
+  bystanders in the moonlit crowd rendered with cold grey/ashen/white faces.
+- **0:47** → beat **b09** `s09-branches-part-of-the-same` (window 43.17–46.63, held
+  through the 46.63–48.11 gap). The foreground brown-tunic figure read as having a
+  THIRD arm (hoe over shoulder + reaching arm + a billhook hand tangled into him).
+  NOTE: the adjacent b08 (`s08`, ~0:41) is a *different* frame — its arms are hidden
+  behind foliage and on-brief (hired hands leaving, golden dusk); left untouched.
+- **1:19** → beat **b14** `s14-he-asking-for-effort-he` (window 73.68–78.39; 1:19
+  rounds to this last picture before the card). Jesus's clasp merged/hid a hand
+  ("missing a hand") AND the frame rendered near-black / unreadable.
+
+### PROMPT AUTOPSY (rubric meta-law 3) — verdict per frame
+- **b04 = ALLOWED.** The moonlit-night register + ZERO skin-tone constraint let the
+  generator drain several disciple faces to grey/ashen. Fix = add the missing
+  constraint: `must_show`/`scene`/`must_not_show` now require every disciple's face
+  to keep warm living olive/tan Middle-Eastern skin, softly moonlit — never grey,
+  ashen, pale, white, bluish or drained.
+- **b09 = ALLOWED (+ off-brief + wrong time-of-day).** The count line "two arms, two
+  hands and one head" was present but insufficient: a from-behind figure shouldering
+  a tool while also reaching invited a spare-limb read, and the frame rendered
+  golden-day walking-workers when the brief was moonlit hands-on-branches. Fix =
+  recompose to the ACTUAL brief (TIGHT waist-up of 2–3 disciples' hands resting on
+  ONE trained branch, night), and forbid tools/baskets/walking-away and any extra,
+  third, duplicated, floating or disembodied arm/hand — which also de-duplicates
+  from s08.
+- **b14 = ALLOWED.** The complex "three of them joined in one quiet stack" hand
+  composition merged a hand (reads as missing), and "moonlight" with no readability
+  floor rendered near-black. Fix = simple readable clasp with BOTH of Jesus's hands
+  fully visible (five fingers each), and an explicit brightness floor ("clearly
+  VISIBLE in soft moonlight — not a near-black or unreadable frame," still night, not
+  sunset/sunrise).
+
+### FIX + FULL-CUT GATE (6b) — the whole rendered cut re-checked, one frame per beat
+- **3 rerolls** (b04, b09, b14 = **3/14 = 21%**, ~**$0.40**). These are mandatory
+  complaint-fixes, exempt from the discretionary ≤15% reroll budget; the rest of the
+  cut was reused untouched (no re-pull). Meter $633.95 → $634.36.
+- **Verified in the RENDERED mp4:** 0:40 crowd now all warm olive faces; 0:47 now a
+  clean close-up of three distinct men each with one whole hand on one branch, at
+  night; 1:14–1:18 Jesus clasps the disciple with BOTH hands (five fingers each),
+  frame clearly lit. The other 11 beats were extracted at true mid-window and viewed
+  — all clean (Jesus locked face + cream-only + no halo on b01/b02/b07/b10/b14;
+  green-cut vs withered pair correct; grapes read as much fruit; captions bottom-band
+  only; closing card clean). **14/14 PASS.**
+- **AUDIO LOCK: byte-identical.** AUDIO REBUILD PASS SHA256 `ae063a39…` — same hash as
+  the prior ship; nothing re-voiced. 84.8s / 20.5 MB.
+
+### COST LAW / LEARNING LAW
+- Cost this touch ~**$0.40, 0 audio $** — far under the $6.10/row average → trend DOWN.
+- New RUNNER-LESSONS + rubric lesson: (a) any moonlit/night crowd needs an explicit
+  warm-skin constraint or faces drain grey ("white faces"); (b) the count line alone
+  won't stop a spare limb on a from-behind tool-carrying figure — a close hands frame
+  with a "no disembodied/third arm" clause is the durable fix; (c) a "moonlight" beat
+  needs a readability floor or it renders near-black.
+
+---
+
 ## 🚢 PICTURE RUNNER SHIP — realistic-V2, 14 stills over the audio-fixed track — 2026-08-13, Machine A `Dev`, Opus runner (unattended/headless)
 
 Built the 14 realistic-V2 stills over the already-audio-fixed track (the audio lane's
