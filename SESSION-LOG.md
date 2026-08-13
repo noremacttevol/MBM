@@ -1,3 +1,19 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 139 THE LAMP ON A STAND (Matthew 5:14-16) QC-VERIFY PASS (FULL-CUT GATE 6b): shipped cut verified CLEAN before Cameron's eyes reach it, 10/10 beats + card, NO re-cut ($0/0 gens) — Machine A `Dev`
+
+Session-chain verified at start: prior top entry row 136 healed-in-two-touches CARD+LOG, ship commit `fad1dba080ed` present in `git log`; `hostname`=Dev=Machine A. VERIFY-PASS target = AUTHOR-BOARD row 139 (BUILT, sitting in Cameron's Unwatched queue, shipped by the prior Opus runner session at $1.34/0 rerolls).
+
+- **Approval-guard FIRST (the untouchable check):** read `.approvals.json` myself — row 139 `approved:false`, `approvedHash:null`, `complaint:null`. NOT a current approval → eligible for verify; the 3 AM 2026-08-12 approved-row re-cut failure (rows 1/122/129) does not apply here. Live card `data-hash=5d3e7c1856a29c5614543cd504c05c96ac9a51dd` == the ship hash == what `milk-b4-meat.web.app/review.html` serves. Claimed the board Claim cell (`QC-VERIFY … LIVE`, pushed) BEFORE viewing any frame.
+- **FULL-CUT GATE 6b:** extracted ONE frame per beat from the rendered mp4 (mid-window, file order ≠ story order — b06 at 2.73s) + the card, viewed EVERY one. **10/10 beats + card CLEAN.**
+  - Jesus ONE locked face b01/b02/b06/b09 (warm Middle-Eastern, dark wavy hair, full beard, ref-true green/hazel eyes, cream ONLY on Jesus, no halo/glow/rim-light, ordinary scale incl. standing b09 — SCALE GATE pass).
+  - LIGHT LAW (doubly binding, light row) held: every light PHYSICAL (sun / clay-lamp flame / dusk windows); no light effect ON any person; b09 backhaze = atmosphere not a head-rim. Anti-vanity pair correct (b07 eyes-on-task/nobody watching, b08 gaze up past helper to empty sky).
+  - Anatomy/hands clean on every frame incl. the b10 lamp-placing close; no modern objects; realistic photography only (Law 14, no cartoon/mix); facing-away crowd backs (b01/b09) correct not owl-necked. Captions narrator-WHITE / Jesus-KJV-RED (b02=5:14, b05=5:15, b09=5:16) bottom-band only, no green; card clean cream serif, no tofu.
+  - **No open complaint on this row → nothing to regress.** Prior FIX-WAVE soft notes (b04/b05 children's lighter hair; b05 lamp on a low stool) are historical-coherence variance, not a defect-checklist failure or filed complaint class — do NOT warrant a re-cut on a 0-complaint clean cut.
+- **Outcome:** clean row verified, **NO re-cut** ($0/0 gens — a clean row is not touched). Board Claim → **QC-OK 2026-08-13**; build QC.md carries the verify note. Cut stands as shipped; Appr stays ⬜ (Cameron's alone).
+
+Commit: below (board QC-OK + build QC.md verify note + SESSION-LOG; no mp4/art change)
+
+---
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 136 HEALED IN TWO TOUCHES (Mark 8:22-26) V2 REALISTIC FIRST CUT SHIPPED & LIVE: 10 stills 49.1s, AUDIO REBUILD PASS 8b50d33a byte-identical, BLINDMAN image-locked (pre-empts rows-179/142 blind→seeing text-lock drift), dropped-last-beat RE-WINDOW fix recovered the closing Jesus sending, FULL-CUT GATE 10/10+card from rendered mp4 PASS, $1.88/3 reroll-pulls (mandatory hard defects) — Machine A `Dev`
 
 AUTHOR-BOARD row 136 (lowest Ready ✅ with empty claim, LOW-NUMBER LAW). Session-chain verified at start: prior top entry row 134 today-in-paradise CLAIM, commit `6693ef7b4` present in `git log`; `hostname`=Dev=Machine A. Cross-checked QUEUE.md row 136 = "Healed in two touches" Mark 8 (matches slug, no 🔁 REPLACED flag) → genuine build, not a swap. LEARNING LAW satisfied (read both META-LAWS + all 22 rubric lessons + the newest ~25 RUNNER-LESSONS entries + grep-swept the rest for this row's patterns + `v2_outline.py 136` + FIXNOTES/QC-STATUS = **no open complaint**; COMPLAINT LEDGER: none open, in QC.md). Claimed AUTHOR-BOARD RUNNING + QUEUE + pushed (`000ecded9`) before generating.

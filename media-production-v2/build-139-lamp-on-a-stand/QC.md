@@ -115,3 +115,42 @@ SHA256=27deb09af4c3fcd4ecf0c60df5f21c9c01866a2ec3510b04fe624b06985078b2**,
 
 **Cost: $1.34/row, 0% rerolls** — well under the $6.10 / 19% running average
 (COST LAW downward trend holds; 10/10 clean first-pass, no portraits, no plates).
+
+---
+
+## ✅ QC-VERIFY PASS (FULL-CUT GATE 6b) — Opus runner, Machine A `Dev`, 2026-08-13 (unattended/headless)
+
+Independent verify pass on the shipped cut BEFORE Cameron's eyes reach it
+(Unwatched queue). Approval state checked FIRST: `.approvals.json` row 139
+`approved:false`, `complaint:null` — NOT a current approval, so eligible for
+verify (the 3 AM approved-row re-cut failure does not apply). Live card
+`data-hash=5d3e7c1856a29c5614543cd504c05c96ac9a51dd` == ship hash == on
+milk-b4-meat.web.app. Claimed on the board before viewing.
+
+**One frame per beat extracted from the RENDERED mp4 (mid-window) + card, viewed
+against the defect checklist + RUNNER-LESSONS + this row's laws:**
+
+- **10/10 beats + card CLEAN.** No reroll needed. NO re-cut ($0/0 gens).
+- Jesus ONE locked face b01/b02/b06/b09 — warm Middle-Eastern, dark wavy hair,
+  full beard, ref-true green/hazel calm eyes (NOT brown-edited), cream robe ONLY
+  on Jesus, no halo/glow/rim-light, ordinary scale among the seated crowd
+  (SCALE GATE pass, incl. standing b09).
+- LIGHT LAW (doubly binding) held: every light PHYSICAL — sun (b01/b02/b06/b09),
+  clay-lamp flame (b04/b05/b07/b08/b10), dusk windows (b03). No light effect ON
+  a person; b09 golden backhaze verified atmosphere, not a head-rim.
+- Anti-vanity pair correct: b07 giver's eyes on the task, nobody watching; b08
+  widow's gaze UP PAST the departing helper to an empty evening sky.
+- Anatomy/hands clean on EVERY frame, including the b10 hand-placing-lamp close
+  (fingers/thumb natural). No modern objects; period props (clay lamps, wicker
+  bushel idle in b04/b05, rolled mats). Realistic photography only (Law 14) —
+  no cartoon/mix. Facing-away crowd backs (b01/b09) correct, not owl-necked.
+- CAPTIONS: narrator WHITE (b01/b04/b07/b08/b10), Jesus KJV RED (b02=Matt 5:14,
+  b05=5:15, b09=5:16), bottom-band only, no green. Card clean cream serif
+  ("You were made to be seen for good. Let it shine.") — no tofu/code-fault.
+- **No open complaint on this row -> nothing to regress.** The prior FIX-WAVE
+  soft notes (b04/b05 children's lighter hair; b05 lamp on a low stool) are
+  historical-coherence variance, not a defect-checklist failure or a filed
+  complaint class -- they do NOT warrant a re-cut on a 0-complaint clean cut.
+
+Board Claim -> **QC-OK 2026-08-13**. Cut stands as shipped; Appr stays [ ]
+(Cameron's alone).
