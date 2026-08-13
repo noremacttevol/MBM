@@ -59,6 +59,61 @@ Hannah walks AWAY down the morning road, back straight, steps even,
 tears allowed; Samuel at the door under Eli's hand, both watching
 her go. Broken AND at peace — both must read.
 
+---
+
+## ✅ RUNNER — SHIPPED 2026-08-13 (Machine A `Dev`, Opus runner, headless)
+
+**COMPLAINT LEDGER (LEARNING LAW):**
+- **OPEN complaint "Wrong caption at 2:06" — FIXED and byte-verified in the
+  rendered mp4.** Root cause was the frozen/dead-tail class (V1's picture caption
+  froze during the trailing seconds). This fresh V2 cut fixes it: extracted the
+  rendered frames at 125.5s / 127.5s (= 2:05–2:07) and the caption is the CORRECT,
+  synced narrator line ("She kept her word… she brought him to the house of the
+  LORD and left him there to serve.") over the correct picture (s22, Hannah walking
+  away) — NOT a frozen/wrong caption. Then a clean, narrated closing card
+  (131.6s→139.2s, "Hannah prayed the prayer no one else could hear, and God
+  answered. Your quiet prayers are heard too."), ending ~1.6s after the last word.
+  Transcription proof: audio is fully narrated to ~138s (no 13s dead tail); final
+  video 139.17s vs audio 139.62s (video ends on/before audio; no trailing dead-air).
+  AUDIO LOCK PASS (SHA256 eb5cb45e…) — audio byte-identical to the V1 mp4, nothing
+  re-voiced. Review card answers Cameron in his words.
+
+**BUILD:** 22 realistic-V2 stills, first-attempt, **2 rerolls / 22 = 9.1%**
+(under the 15% COST-LAW budget), 3 reused-forever portraits (HANNAH/ELI/SAMUEL,
+the SAMUEL sheet is a deliberate newborn→toddler→boy age panel). ~**$3.62**, meter
+$630.7→$634.4 — under the $6.10/row average (cost trend DOWN).
+- Reroll 1 — **b03** (s03-one-year-at-shiloh): first take was a 3-panel COLLAGE
+  triptych (RUNNER-LESSONS collage class) → rerolled to one coherent frame (Hannah
+  kneeling at the tabernacle door, period clay saucer lamp).
+- Reroll 2 — **b20** (s20-forget-me): first take rendered a MODERN glass-chimney
+  hurricane/kerosene lamp on the post (modern-object class) → rerolled to a period
+  clay oil lamp.
+
+**FULL-CUT GATE (6b) — PASS on the RENDERED mp4** (every beat's source AND rendered
+frame viewed, + 3 caption-type frames + card + the 2:06 boundary):
+- Identity ONE actor each: Hannah (dark hair, blue-grey dress + rust shawl),
+  Eli (aged white-bearded priest), Samuel (newborn→toddler→boy ~4, the age-order
+  gate held: b17 has NO child/sign, faith's receipt only ✓). Scale gate PASS.
+- Realistic-only (no cartoon/mix/collage after rerolls); period props throughout
+  (clay saucer lamps every scene, wooden benches/chairs, wattle laundry draped not
+  pegged); no modern object after b20 reroll; no anatomy/hand faults; OT story so
+  no Jesus/cream-robe surface (jesus_face_gate N/A).
+- Captions: 3-voice colour scheme correct — NARRATOR white, HANNAH/woman-KJV pink,
+  SCRIPTURE (Eli's "Go in peace… grant thee thy petition") light-blue; all
+  bottom-band only, never over the art, synced to audio; closing card clean
+  (cream, centred, no squares/margin faults).
+- The vow gesture-language set (b05 in / b06 turn-out / b09 both / b10 posture)
+  reads; Hannah's dignity held (silent-prayer centre, unwiped tears b15, no
+  wailing); Eli's five registers read; the leaving (b22) direction-law exact
+  (walks AWAY, looks back, Samuel at door under Eli's hand).
+
+**FIX-WAVE (minor, non-blocking, logged not rerolled — COST LAW):** one background
+incidental toddler reads light-haired in the crowd wides (s01/s19); Eli's soft cap
+appears/absent across frames (his full white beard is consistent — beard-board
+PASS). Neither is a Cameron-complaint-level defect; not worth a reroll.
+
+**No new RUNNER-LESSONS defect class** (collage + modern-lamp already catalogued).
+
 ## Other gates
 
 - The other wife: ONE frame (b02), a smug glance — not cartoon
