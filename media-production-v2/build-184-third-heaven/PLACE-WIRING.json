@@ -1,0 +1,14 @@
+{
+ "HEAVENLY-ASCENT": {
+  "manual": true,
+  "src_beat": "s02-i-knew-a-man-in-christ",
+  "src_build": "build-184-third-heaven",
+  "src_file": "build-184-third-heaven/assets/s02-i-knew-a-man-in-christ.jpeg"
+ },
+ "PAUL-ROOM": {
+  "manual": true,
+  "src_beat": "s01-paul-wrote-of-a-man",
+  "src_build": "build-184-third-heaven",
+  "src_file": "build-184-third-heaven/assets/s01-paul-wrote-of-a-man.jpeg"
+ }
+}

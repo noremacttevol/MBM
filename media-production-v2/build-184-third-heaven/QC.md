@@ -29,6 +29,40 @@ scripture colour."*
 
 ---
 
+## ✅ RUNNER SHIP NOTE — REALISTIC-V2 FIRST CUT (2026-08-13, Opus runner headless, Machine A `Dev`)
+
+**BUILT & SHIPPED.** 16 realistic painted stills @ native 2K, AUDIO LOCK PASS
+SHA256=`6ede9fa385994cee9953a7967d4df63bd032c6185f1b509a34589c48801b6718`, 74.9s
+(= V1 mp4 duration, byte-identical narration — nothing re-voiced), 20.3 MB.
+**0 rerolls (0% vs 15% budget), ~$2.28 (16 beats + 1 PAUL portrait × $0.134).**
+
+**COMPLAINT LEDGER — verified in the RENDERED mp4 (§6b FULL-CUT GATE):**
+- OPEN complaint *"only Jesus's words in red"* → **FIXED & VERIFIED.** Extracted
+  one frame per beat from the delivered mp4: the ONLY red caption is **j1**
+  ("My grace is sufficient for thee: for my strength is made perfect in
+  weakness") on b12/b13, the risen Lord speaking to Paul. **s1** (b02/b03/b04,
+  "I knew a man in Christ…") and **s2** (b07/b08, "caught up into paradise…
+  unspeakable words") render **LIGHT-BLUE scripture, NOT red**. Every narrator
+  line (n0-n3, b01/b05/b06/b09-b11/b14-b16, card) renders **WHITE**.
+
+**FULL-CUT GATE 16/16 beats + question card PASS** (rendered-mp4 frames, not just
+assets): HARD GATE — the vision (b02-b08) shows ONLY Paul borne up in radiant
+light; NO God/Father, NO throne/divine figure, NO paradise interior, NO rendered
+words ("into paradise" = brilliant light hiding all it holds; "unspeakable words"
+= Paul keeping silence, hand on heart). Jesus embodied ONLY on b12/b13 — exactly
+ONE cream-robed Jesus, locked V2 face consistent across both, calm eyes, no
+halo/glow/rim-light, ordinary scale; Paul in brown (cream-only-Jesus holds). PAUL
+one consistent balding dark-bearded ~50 man on all 14 of his beats (face-board +
+beard-board pass); PAUL text-lock only (no image REFS — author's deliberate
+cross-video byte-identical choice, matching builds 138/155/166/171; held clean
+across 14 beats). PAUL-ROOM plate promoted from b01 (NON-Jesus), HEAVENLY-ASCENT
+from b02. Captions bottom-band only; question card clean (no box glyphs).
+Realistic photography throughout (Law 14), no modern objects, anatomy/hands/scale
+clean, no owl-neck. Drop-check: concat_base 16 clips == 16 beats, card_start
+66.599 > b16 window 61.400 (no dropped beat).
+
+---
+
 ## 🅿️ RUNNER — do this (picture-only build on the locked audio)
 
 1. **Audio:** default AUDIO LOCK stream-copy (board Audio = OK). No re-voice, no flag.
