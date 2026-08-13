@@ -1,4 +1,17 @@
-## 2026-08-13 (cfix lane, unattended/headless) — Row 117 "dramatized" complaint ROOT-CAUSED: audio objectively optimal, prior fix was a null re-roll → PARKED AWAITING-CAMERON + inbox-escalated — Machine A `Dev`, $0 Gemini
+## 2026-08-13 (Opus runner, unattended/headless) — Row 140 THE BRONZE SERPENT V2 FIRST CUT SHIPPED: b17 MOSES-lock cleared, Naaman-dupe complaint RESOLVED by story replacement — Machine A `Dev`, ~$0.26 Gemini
+
+Ran AUTHOR-BOARD row 140 (lowest Ready ✅, complaint-first). Cross-checked QUEUE.md FIRST: the row was legitimately REPLACED by Cameron (Naaman → Bronze Serpent, approved 2026-08-13, old build archived) — building it IS the resolution to his story-dupe complaint, not an unauthorized swap. Resumed the author's park: the author had built 24 stills (23 PASS) and cleared the b17 identity block by adding `"MOSES"` to b17 `locks`.
+
+- **b17 regen ($0.13):** `--only b17 --redo` → gen log `[+1 char ref: MOSES]` now attaches → hero frame renders the OLD white-bearded canonical Moses (matches every other beat). Pole stayed byte-consistent via the SERPENT-POLE plate; young-Moses did NOT bleed through, so no plate re-promote.
+- **Assembly gap the author left, fixed by runner:** new-story row has no rendered V1 mp4, so `v2_assemble` needs `AUDIO_FROM_V1_SEGMENTS = True` (its own FIX message says so) + `OUTPUT_VIDEO_NAME`. Set both (module-level assembly config, established production-lane action — cf. rows 44/155/156). Also `git mv` the archived `build-140-naaman-washes/beats_v2.py` → `.RETIRED.py` (untracked locally) so the row resolver finds exactly one build. Audio REBUILT from 15 V1 segment mp3s, 139.4s, hash `90d6b582`.
+- **1 reroll (b21, 4.2% ≤15% budget):** the ~7.6s dying-man close-up had vivid blue eyes → rerolled to a muted grey-hazel man reaching toward the distant pole (reads "a dying man" better). ~$0.26 total; 23 banked frames untouched (touch-once/COST LAW).
+- **FULL-CUT GATE 24/24 + card PASS** (per-rendered-frame): Moses identity consistent, no Jesus/cream (OT era), realistic-only, snakes-no-gore, dignified death shroud, period blacksmith, hands/scale/anatomy correct, captions bottom-band 4-voice, question card clean. FIX-WAVE (non-blocking): s06 bg speck, s24 faint vision-crowd overlay.
+- **Reviewer cleanup:** row 140 had TWO stale duplicate `id="v140"` cards (Naaman + Road-Runs-Both-Ways, both Prodigal-Son dupes — the exact complaint). Converted one to The Bronze Serpent (hash `f5ce6766`, `data-review-wave="realistic-v2"`, flag answers the complaint in Cameron's words) and DELETED the duplicate so the reviewer serves exactly one, correct card.
+- **Ship:** commit `f5ce6766` (mp4 force-added, QC.md, beats_v2, s17/s21, boards, QUEUE). Deploying + live-verifying next. Appr stays ⬜ (Cameron's alone).
+
+Commit: (this entry's commit — see below)
+
+
 
 **Commit:** `dd088a574`
 
