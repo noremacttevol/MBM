@@ -61,3 +61,30 @@ generate the rest of that place with the plate attached.
 4. Assemble with `v2_assemble.py` (AUDIO LOCK stream-copy, byte-identical — do NOT
    re-voice). Verify final ≈ 58.7s, tail/card intact.
 5. Ship with a review card that plainly states the realistic-V2 build (no open complaint).
+
+---
+
+## ✅ PICTURE RUNNER SHIPPED — 2026-08-13 (Machine A `Dev`, Opus runner headless)
+
+**12 stills + 1 BELIEVER portrait (text-lock, REFS={}), 0 rerolls (0%), ~$1.74 Gemini.**
+
+### COMPLAINT LEDGER (LEARNING LAW)
+- `v2_outline 186`: **none open.** No prior complaint on this row.
+
+### Plates / places
+- PAUL-ROOM: `--take` build-184-third-heaven:b01 (cross-video same writing room; non-Jesus).
+- INHERITANCE-HOME (NEW): promoted from b02 (non-Jesus wide) → b03/04/05/06/08/09/11.
+- DAWN-ROAD (NEW): promoted from b10 (non-Jesus wide) → b07/12. Jesus injected via ref on b06/b07/b12 over the non-Jesus plates (no 2nd cream figure).
+
+### Audio
+- `AUDIO_FROM_V1_SEGMENTS = True` added: the delivered V1 mp4 is a stale 73.212s assembly that does NOT match this V2 beat map. All 9 segment mp3s are the correct new-voice ElevenLabs narration (44100/128k); --check windows resolve to 58.240s. Rebuild from segments = sanctioned mechanism (rows 69/77/177/185/188/191), no re-voice. AUDIO REBUILD PASS SHA256 c4480b28, 58.2s.
+
+### FULL-CUT GATE (6b) — 12/12 rendered beat frames + card viewed
+- SPEAKER LAW (Paul epistle): s1 (b02) + s2 (b05/b06/b07) captions LIGHT-BLUE scripture; all narrator WHITE; **NO red-letter anywhere** even though Jesus is PICTURED on b06/b07/b12 (jesus drives the picture, seg drives the caption). Verified in rendered mp4.
+- GOD/FATHER never embodied — "children of God"/"what the Father has" carried by the human household + the dawn, no figure/throne/beam/dove.
+- Jesus (b06/b07/b12): one locked face, green/hazel ref-true eyes, calm gaze, cream-only (BELIEVER brown/grey), no halo, ordinary scale, clean hands.
+- CONTENT-CARE "suffer with him" (b07/b12) = walking the hard uphill road together toward the dawn — NO wounds/blood/cross.
+- Realistic throughout (no cartoon/mix), no modern objects, clean anatomy, no owl-neck, no grey faces. concat clips = 12 = BEATS.
+- WATCH-ITEM (not blocking): BELIEVER wardrobe reads brown in HOME beats vs grey/charcoal traveling-cloak on DAWN-ROAD; face consistent, register-justified. Flag for the fix wave if Cameron reads it as drift.
+
+Ship: `romans-8_heirs-of-god.mp4` 20.7 MB · 58.2s.
