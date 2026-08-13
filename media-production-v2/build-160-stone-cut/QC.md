@@ -91,3 +91,30 @@ the newer-mp3 tripwire. Copying the V1 mp4 audio would ship stale voices.
    hand to picture runner). Then the picture runner generates the 21 stills +
    promotes the 4 NEW plates (COURT/DREAM-PLAIN/STATUE/STONE — STATUE & STONE
    are PROP tokens, reject any auto-place suggestion) and ships.
+
+---
+
+## ✅ AUDIO FIXED → AUTHORED (AUDIO-FIX lane, Machine A `Dev`, 2026-08-13, $0/0 gen)
+
+**Resolved the STALE-V1 park. No Gemini, no ElevenLabs — pure config + verify.**
+
+1. **Voice-ID:** all 11 V1-dir mp3s
+   (`media-production/build-160-stone-cut/audio/{n1-n8,kv44,kv45,card}.mp3`)
+   ffprobe **44100 Hz / 128 k** = ElevenLabs new-voice (matches rows 155/156/157).
+   No old edge-tts (24000/48k) segment anywhere → no mid-video voice swap risk.
+2. **Set `AUDIO_FROM_V1_SEGMENTS = True`** in `beats_v2.py` (after the docstring)
+   so the final track is rebuilt from these current mp3s instead of packet-copied
+   from the stale 2026-07-24 V1 mp4. $0.
+3. **$0 audio pre-flight PASS** (before any credit, no assembly):
+   - `v2_prompt.py build-160-stone-cut --check` = PASS (21 beats, v4).
+   - All 11 referenced segs (n1,n2,n3,kv45,n4,n5,n6,kv44,n7,n8,card) map to
+     existing mp3s — 0 missing.
+   - Timeline contiguous, **no overlaps**; card audio_start 146.135 + 15.282
+     dur = 161.417 end ≤ total 162.519 → **last beat/card will NOT drop** at
+     assembly (guarded against the dropped-last-beat trap).
+4. **Board:** NEEDS-AUDIO → **AUTHORED**, Ready ✅, Claim BLANK. 0 stills exist,
+   so nothing visual ships from the audio lane — the picture runner now generates
+   the 21 stills on this corrected audio + promotes the 4 NEW plates and ships.
+   **COMPLAINT LEDGER: none open** (`.approvals.json` "160" absent). This park was
+   a self-caught pre-flight guard, not a Cameron complaint — so there is no review
+   card to answer; the fix simply unblocks the row for the picture runner.

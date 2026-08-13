@@ -61,6 +61,13 @@ dust; the plain — still, then wind-swept, then green at the
 mountain's spread.
 """
 
+# STALE-V1-FINAL fix (AUDIO-FIX 2026-08-13, Machine A `Dev`): the authoritative
+# V1 mp4 (2026-07-24) is OLDER than all 11 narration mp3s (2026-07-28), so the
+# packet-copy AUDIO LOCK would ship stale voices. The V1-dir mp3s are the current
+# ElevenLabs new-voice takes (44100/128k). Rebuild the final audio from this
+# build's own mp3 segments — $0, no Gemini.
+AUDIO_FROM_V1_SEGMENTS = True
+
 # LOCKS: one entry per recurring person and per setting. Setting locks must
 # NEVER name a character. Only Jesus wears cream (not in this row).
 LOCKS = {
