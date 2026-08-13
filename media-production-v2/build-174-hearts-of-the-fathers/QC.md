@@ -63,3 +63,24 @@ it (lesson 11):
 ## Coverage / windows (authored, verified)
 12 beats, windows contiguous 0.400 → 57.228 (= card_start), monotonic, each
 segment's speech onset inside its window. ~4.75 s/picture. `--check` v4 PASS.
+
+## ✅ RUNNER SHIPPED — 2026-08-13, Opus runner, Machine A `Dev` ($1.87, 0 rerolls)
+**COMPLAINT LEDGER: none open** (v2_outline 174 clean). First-time realistic-V2
+picture cut of the Malachi 4:5-6 narration.
+- **Audio:** V1 mp4 is the stale 2026-07-17 ASSEMBLY-C render (60.813s) vs this
+  12-beat V2 timeline (63.003s), so set `AUDIO_FROM_V1_SEGMENTS = True` — rebuilt
+  from the 9 V1 segment mp3s at the authored onsets, NOTHING re-voiced. AUDIO
+  REBUILD PASS SHA256 `03b85e71`. concat_base = 12 clips = 12 beats (no dropped
+  beat; the row-173 card-window bug does NOT occur here — card_start 57.211 aligns
+  with the last beat window end 57.228).
+- **Cast:** ELIJAH portrait (v2_story_cast) wired into REFS → one identity across
+  b01-b06/b09. JOHN-BAPTIST left on its GLOBAL_CAST path (single beat b10, distinct
+  young man). FAMILY-THREE kept TEXT-ONLY (a single-face portrait must not collapse
+  three generations). Places: WILDERNESS-ROAD promoted from b01, FAMILY-HOME from
+  b07 (both build-local NEW).
+- **FULL-CUT GATE (per-rendered-frame) 12/12 + card PASS:** GOD never embodied
+  (green GOD lines b02/b03/b07/b08 land on Elijah/land/family — no figure/beam/
+  hand); Elijah mouth CLOSED on b02/b03; "smite with a curse" (b08) pictured as an
+  EMBRACE not smiting; Elijah + three generations consistent, John distinct; no
+  Jesus/cream, no halo, realistic, ordinary scale; captions bottom-band (GOD green
+  / narrator white, no red); card clean. 0 rerolls.

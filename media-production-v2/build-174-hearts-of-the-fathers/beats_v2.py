@@ -308,10 +308,24 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "FAMILY-HOME": "PLACE-REF/family-home.jpeg",  # build-174-hearts-of-the-fathers s07-hearts-of-the-fathers (manual)
+    "WILDERNESS-ROAD": "PLACE-REF/wilderness-road.jpeg",  # build-174-hearts-of-the-fathers s01-a-messenger-sent-ahead (manual)
 }
 # === end PLACE-PLATES ===
 
-# No image REFS: every person is carried by a byte-identical text lock (no face
-# sheets exist for these figures). NO Jesus in this row.
+# RUNNER (2026-08-13, Opus): v2_story_cast generated a clean single-face ELIJAH
+# portrait — wire it so ELIJAH holds one identity across his 7 beats (b01-b06,b09)
+# instead of drifting text-only (FACE-BOARD LAW). JOHN-BAPTIST uses its canonical
+# GLOBAL_CAST sheet (leave unwired). FAMILY-THREE stays TEXT-ONLY on purpose — its
+# portrait is one face and a group lock of three GENERATIONS must not collapse the
+# grandfather/child into the father's face. NO Jesus in this row.
 REFS = {
+    "ELIJAH": "CAST-REF-V2/elijah.jpeg",
 }
+
+# RUNNER (2026-08-13, Opus): the shipped V1 mp4 is the stale 2026-07-17 ASSEMBLY-C
+# render (60.813s) while this 12-beat V2 timeline is 63.003s, so assembling on the
+# V1 mp4 trips AUDIO LOCK. Rebuild the track from the V1 build's own 9 segment
+# mp3s at the authored window onsets (row-140/155/156/173 pattern) — same voices,
+# nothing re-voiced or re-timed; narration is byte-identical to the V1 segments.
+AUDIO_FROM_V1_SEGMENTS = True

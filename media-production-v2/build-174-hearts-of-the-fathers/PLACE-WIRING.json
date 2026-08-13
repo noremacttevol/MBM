@@ -1,0 +1,14 @@
+{
+ "FAMILY-HOME": {
+  "manual": true,
+  "src_beat": "s07-hearts-of-the-fathers",
+  "src_build": "build-174-hearts-of-the-fathers",
+  "src_file": "build-174-hearts-of-the-fathers/assets/s07-hearts-of-the-fathers.jpeg"
+ },
+ "WILDERNESS-ROAD": {
+  "manual": true,
+  "src_beat": "s01-a-messenger-sent-ahead",
+  "src_build": "build-174-hearts-of-the-fathers",
+  "src_file": "build-174-hearts-of-the-fathers/assets/s01-a-messenger-sent-ahead.jpeg"
+ }
+}
