@@ -88,3 +88,9 @@ generate the rest of that place with the plate attached.
 - WATCH-ITEM (not blocking): BELIEVER wardrobe reads brown in HOME beats vs grey/charcoal traveling-cloak on DAWN-ROAD; face consistent, register-justified. Flag for the fix wave if Cameron reads it as drift.
 
 Ship: `romans-8_heirs-of-god.mp4` 20.7 MB · 58.2s.
+
+### QC-VERIFY PASS 2026-08-13 (Opus runner, Machine A `Dev`, headless — pre-Cameron full-cut re-check)
+Row was BUILT and sitting in Cameron's Unwatched queue but NOT yet approved (`.approvals.json` 186 = approved:false). Per the VERIFY-PASS mandate, re-ran the full-cut gate on the LIVE rendered mp4 before his eyes reach it: extracted one frame per beat (12/12) at mid-window + the question card + two caption-onset frames (b02 s1, b06 s2), viewed every one.
+- CLEAN on all defect classes: identity (Paul rust-brown / Believer olive-short-beard / Jesus on-model cream+green-eyes on b06/b07/b12), cream-only-Jesus, anatomy/hands (multi-figure b04/b09/b11 checked), scale (children child-sized b09, no giants), no modern objects, no God/Father embodied, no halo/rim-light, suffer=hard-road-not-wounds, captions bottom-band with s1/s2 LIGHT-BLUE scripture + narrator WHITE + NO red-letter, card clean (no code squares).
+- The single WATCH-ITEM above (Believer home-brown vs road-grey travel mantle) was re-examined: face/beard/build consistent across all 12 frames, within the BELIEVER lock's stated "brown-grey", and the two-register warm-home/cold-road design is deliberate. Judged NOT a Cameron-complaint-grade defect → NOT re-cut (clean row, touch-once law; a needless re-cut would void his pending decision and re-queue the row).
+- No regression of a resolved complaint (row had NONE open). Verdict: **QC-OK, ship stands as-is.**
