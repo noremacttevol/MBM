@@ -9,7 +9,7 @@ RESUMED AUTHOR-BOARD row 179 (Acts 7, State RUNNING / Claim A-auto) — a prior 
 - **Actions ($0):** QC.md RUNNER PARK note with the minimal touch-once author fix (regen ONLY s09-13 to the young/oatmeal canonical Stephen, kill cream, keep mantle + restraint); AUTHOR-BOARD row 179 State RUNNING → NEEDS-REBUILD, claim cleared for the author lane; appended a new RUNNER-LESSONS defect class (text-lock-only spine char drifts across location change). Review card UNTOUCHED (old cut stays; the redo is not ready). NO deploy (nothing new to serve).
 - **Cost:** $0, 0 rerolls — catching the drift before ship saved a voided approval + a re-cut (COST LAW: a defect Cameron finds is far more expensive than a park).
 
-Commit: PARK-COMMIT-BELOW
+Commit: 2cb2ae1660 (park — row 179 → NEEDS-REBUILD, QC.md fix steps, RUNNER-LESSONS defect class)
 
 ---
 
