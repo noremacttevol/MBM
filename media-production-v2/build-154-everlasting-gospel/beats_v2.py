@@ -302,7 +302,7 @@ BEATS = [
         "locks": [],
         "narration": "This good news was never really invented, or improved, by anyone.",
         "must_show": "the unchanged line — two page-fragments side by side, one ancient and one older still, the SAME indistinct line traced identical on both; sameness across ages.",
-        "must_not_show": "no halo; NO readable text — the identical line-shapes carry the sameness.",
+        "must_not_show": "no halo; NO readable text AND no letterforms of any kind — no alphabet, no cursive script, no runic/Elvish/fantasy glyphs, nothing that reads as writing; the identical mark on both pages is a single worn, faded ink stroke or stain (a shape, not letters) — the matching stain-shapes carry the sameness.",
         "scene": (
             "Compare the editions and find no edits: two "
             "page-fragments lie side by side in the clean "
