@@ -199,8 +199,8 @@ BEATS = [
             "it is thenceforth good for nothing, but to be cast out, and to "
             "be trodden under foot of men."
         ),
-        "must_show": "SCRIPTURE-EXACT: the fate of flat salt — pale spent salt scattered on the packed-earth path, sandaled feet walking over it without a glance.",
-        "must_not_show": "no halo; no faces needed — the FEET and the trodden salt carry the verse.",
+        "must_show": "SCRIPTURE-EXACT: the fate of flat salt — pale spent salt scattered on the packed-earth path, sandaled feet walking over it without a glance. ONE single continuous ground-level photograph.",
+        "must_not_show": "no halo; no faces needed — the FEET and the trodden salt carry the verse. This is ONE single unbroken photograph — NOT a split-screen, NOT a stacked or two-panel or diptych image, NO horizontal seam or divider band across the frame, NO separate wide-street picture placed above the feet; a single continuous ground-level shot only.",
         "scene": (
             "The verse's warning lies underfoot: a scatter of pale "
             "spent salt strewn across the packed earth of the lane "
@@ -209,8 +209,14 @@ BEATS = [
             "the village going about its day — the once-precious "
             "crystals pressed flat into the dirt, indistinguishable "
             "from the dust in one more footfall — good for nothing, "
-            "exactly as promised, and trodden exactly so. Every "
-            "figure has two arms, two hands and one head."
+            "exactly as promised, and trodden exactly so. A single "
+            "continuous ground-level photograph looking down along "
+            "the lane: the scattered salt and the passing sandaled "
+            "feet fill the frame, and the mud-brick lane walls "
+            "recede softly and out of focus in the background of "
+            "that SAME one frame — one unbroken image, never two "
+            "pictures stacked one above the other. Every figure has "
+            "two arms, two hands and one head."
         ),
     },
     {
@@ -718,20 +724,28 @@ BEATS = [
         "window": "162.52-166.92", "wide": True, "jesus": True, "ref": REF,
         "locks": ["HILLSIDE", "CROWD"],
         "narration": "Go out, stay bright, and be exactly what the world needs.",
-        "must_show": "the sending — the crowd dispersing down the hillside paths toward their villages in golden evening, Jesus watching from the slope; the charge walking out into the world.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; DIRECTION LAW — the crowd moves DOWNHILL AWAY toward the villages, backs to the camera.",
+        "must_show": "the sending — the crowd dispersing down the hillside paths toward their villages in golden evening, Jesus a normal-sized man standing GROUNDED on the slope watching them go, seen from behind; the charge walking out into the world.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; DIRECTION LAW — the crowd moves DOWNHILL AWAY toward the villages, backs to the camera. Jesus is NOT a giant, NOT floating, NOT a huge disembodied head or bust hovering over the hillside or against the sky, NOT a pasted-in cutout, NOT larger than the hill or the crowd; he does not fill half the frame; his sandaled feet are on the ground and his whole standing figure is grounded on the slope; a single normal-scale human figure seen from behind at the crest.",
         "scene": (
-            "The sermon ends by scattering, the camera set behind "
-            "Jesus's shoulder at the crest: down the green slope "
-            "the crowd breaks apart along the worn paths, "
-            "fishermen toward the shore, farmers toward the far "
-            "fields, mothers with children on hips toward the "
-            "village — all of them walking away downhill into the "
-            "golden evening with their backs to the height, "
+            "The sermon ends by scattering, the camera set directly "
+            "BEHIND Jesus at the crest so we see him from behind and "
+            "slightly to one side — the back and side of his dark "
+            "wavy shoulder-length hair and his cream robe, standing "
+            "squarely on the grass of the hilltop with the ground "
+            "plainly under his sandaled feet. Below and ahead of him "
+            "down the green slope the crowd breaks apart along the "
+            "worn paths, fishermen toward the shore, farmers toward "
+            "the far fields, mothers with children on hips toward "
+            "the village — all of them walking away downhill into "
+            "the golden evening with their backs to the height, "
             "carrying salt and light out to every house below — "
-            "while the teacher stands watching his commission "
-            "disperse exactly as intended: outward. Every figure "
-            "has two arms, two hands and one head."
+            "while the teacher watches his commission disperse "
+            "outward. Jesus is an ordinary-sized man standing on "
+            "the slope in natural human proportion, no larger than "
+            "the people near him allowing for perspective, his whole "
+            "body grounded on the hill — never a giant and never "
+            "floating. Every figure has two arms, two hands and "
+            "one head."
         ),
     },
 ]

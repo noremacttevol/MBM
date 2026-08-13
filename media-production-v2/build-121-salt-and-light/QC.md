@@ -151,3 +151,21 @@ served card hash + mp4 HTTP 200 @ 20,125,547 bytes == local. No approval voided
 2026-08-09 committed cut (AUDIO LOCK SHA256 642b6930… unchanged).
 
 **COMPLAINT LEDGER: none open** (`v2_outline.py 121`).
+
+---
+
+## C-FIX 2026-08-13 SHIPPED (Opus runner, Machine A `Dev`, UNATTENDED/HEADLESS) — Cameron's two picture complaints FIXED, FULL-CUT GATE 29/29
+
+**COMPLAINT LEDGER (Cameron, filed against the live realistic-v2 cut):**
+1. *"0:31 has a double picture and needs to be replaced."* → **b05 / s05** was a genuine DIPTYCH — Gemini stacked two scenes (dusk lane on top, trodden-salt feet on bottom) with a hard horizontal seam. **FIXED:** rerolled b05 into ONE continuous ground-level photograph (salt + sandaled feet in the foreground, the mud-brick lane receding softly in the background of the SAME frame). Verified in the rendered mp4 at 0:31 — no seam, no stacked panels.
+2. *"2:45 is corny looking with a big Jesus floating in the sky it needs to be replaced."* → **b29 / s29** rendered Jesus as a huge front-facing bust floating against the sky with no ground contact. **FIXED:** rerolled b29 as the intended over-the-shoulder dispersal — Jesus seen FROM BEHIND, standing GROUNDED on the crest (sandaled feet on the grass), natural human scale, no larger than the people near him; the crowd descends the slope ahead toward the lake/villages. Verified in the rendered mp4 at 2:45 — grounded, normal scale, not floating, not a giant.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- **b05 verdict = ALLOWED.** The `scene` described one coherent low-angle shot, but nothing forbade a split/stacked composition, and the LANE place-lock (a WIDE dusk-street image) attached to a tight feet-level shot created a reference/scene mismatch that Gemini resolved by stacking the two references. **Remedy:** rewrote the words + added the missing constraint — `must_not_show` now bans split-screen / stacked / two-panel / diptych / horizontal-seam, and the `scene` now specifies one unbroken ground-level frame with the lane integrated as soft out-of-focus background (LANE lock kept; the anti-diptych language governs it).
+- **b29 verdict = ALLOWED + IGNORED.** The authored "camera behind Jesus's shoulder at the crest / backs to the height" direction was IGNORED (Gemini rendered his 3/4 FRONT face) and nothing bounded his SCALE or required him GROUNDED, so he came out a giant floating bust. **Remedy:** rewrote the `scene` to a true from-behind, grounded, natural-scale figure, and `must_not_show` now explicitly bans giant / floating / disembodied-head / bust / cutout / half-the-frame and requires feet on the ground (HILLSIDE + CROWD locks kept).
+
+**FULL-CUT GATE (6b) — every one of the 29 rendered beats extracted from the NEW mp4 mid-window + 3 caption frames + question card, viewed against the defect checklist + the row's complaints:** the two complained beats FIXED as above; **all 27 other beats CLEAN** — Jesus one locked face & natural scale in all 9 face beats (b01/b04/b08/b11/b12/b13/b15/b22/b27; green/hazel systemic V2-ref eyes, not chased — rubric lesson 20), cream ONLY on Jesus (b25/b28 central figures read Jesus-like but are in brown/blue-grey, jesus=False crowd beats — cream-only holds), NO halo/rim-light on any person (critical on a LIGHT row; all light physical), lamp continuity chain b17→b18→b19→b20 reads lit→smothered→restored, anatomy/hands clean on close-ups, realistic photography throughout (no cartoon/mixed), captions bottom-band only (WHITE narrator / RED Jesus KJV), question card renders clean and ends on the "?". The prior 2026-08-12 QC-VERIFY that called 29/29 "CLEAN" MISSED these two — the row-11 failure this gate exists to prevent; caught and fixed this touch.
+
+**Assemble:** AUDIO LOCK PASS SHA256=642b6930…f48a87c (audio BYTE-IDENTICAL — nothing re-voiced/re-timed). mp4 content hash MOVED (complaint closes): 20.1 MB / 180.4 s, new md5 `02ff91fceec72baf3552a847b0da0065`.
+
+**Cost / COST LAW:** 2 rerolls / 29 beats = **6.9%**, under the 15% budget. Session Gemini spend **$0.27** (2 stills @ 2K), meter $630.47→$631.27. Far under the $6.10/row average — a C-FIX of exactly the two named frames, touch-once (both fixes batched into one re-cut). Cost trend DOWN.
