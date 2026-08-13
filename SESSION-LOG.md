@@ -8,7 +8,7 @@ Lowest available Ready ✅ row on AUTHOR-BOARD (186/187 AUTHORED but not marked 
 - **Ship:** commit `53a4a263` (mp4 force-added, QC.md ship note, assets, boards, QUEUE). Reviewer card v188 repointed to the media-production-v2 mp4, data-hash `53a4a263…`, ?v=53a4a2635946, realistic-v2 wave, flag answers the maketh complaint + 7→16 pictures in Cameron's terms. **Deployed to Firebase + LIVE-VERIFIED.** Appr ⬜ (Cameron's alone).
 - **Cost:** $2.14/row, 0% rerolls — under the $6.10 average (COST LAW downward trend holds). AUDIO REBUILD PASS SHA256 5cdc30bd, 79.4s, 20.5MB.
 
-Commit: 739d4d86080b52f1dfaaf639bb6f779485a5640d (ship-card + SESSION-LOG) · ship mp4 commit 53a4a263594694ff95b3a8cfe1ac38278f151e8d
+Commit (chain anchor, in history): 53a4a263594694ff95b3a8cfe1ac38278f151e8d (ship: mp4 + QC.md + boards + QUEUE) · ship-card+SESSION-LOG followed in the next commit
 
 ---
 

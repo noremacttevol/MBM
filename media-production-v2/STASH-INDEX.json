@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 06:38:42",
+ "scanned": "2026-08-13 06:48:12",
  "entries": [
   {
    "row": 1,
@@ -59034,6 +59034,236 @@
    "night": false,
    "n_person": 1,
    "scene": "A warm close on Jesus, in his cream robe, standing at the threshold of the Father's house with an open welcoming hand reaching back toward those he loves \u2014 ready to come again and carry them home himself \u2014 the radiant ho"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b01",
+   "file": "build-188-be-ye-therefore-perfect/assets/s01-taught-on-the-hillside.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "An establishing wide of the teaching hillside, camera set behind and to the side of the seated crowd so their backs are three-quarters to the lens and they look up the slope toward Jesus, who sits teaching above them \u2014 o"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b02",
+   "file": "build-188-be-ye-therefore-perfect/assets/s02-not-just-friends.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close among the seated crowd on the slope: two or three ordinary distinct listeners \u2014 a fisherman, a mother, an elder \u2014 their faces turning surprised and uneasy at the hard idea being taught, a love owed not only to fr"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b03",
+   "file": "build-188-be-ye-therefore-perfect/assets/s03-love-your-enemies.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Jesus seated on the slope in the warm late-afternoon light, his hands open in earnest appeal as he teaches \u2014 only he wears the plain cream robe. His face is warm and firm, giving a hard new command. Ordinary-s"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b04",
+   "file": "build-188-be-ye-therefore-perfect/assets/s04-bless-and-do-good.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Jesus on the slope, one hand extended outward and open, palm turned to give \u2014 pressing the teaching that blessing and good must go OUT even to those who curse and hate; only he wears the plain cream robe. Warm"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b05",
+   "file": "build-188-be-ye-therefore-perfect/assets/s05-pray-for-them.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A two-shot over Jesus's shoulder to the sobered faces of the nearest crowd as he teaches the hardest turn \u2014 to pray even for those who mistreat and persecute them; only he wears the plain cream robe. The listeners are st"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b06",
+   "file": "build-188-be-ye-therefore-perfect/assets/s06-do-good-and-pray.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on an ordinary man seated in the crowd on the slope, his weathered hands opening on his knees as he lets the hard teaching settle \u2014 to do good to those who hate him and pray for those who use him badly. Warm late"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b07",
+   "file": "build-188-be-ye-therefore-perfect/assets/s07-love-them-and-mean-it.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Jesus on the slope, leaning in with an earnest, warm face and a hand pressed sincerely toward his own heart \u2014 pressing home that this is not mere tolerating or avoiding but real love, and meaning it; only he w"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b08",
+   "file": "build-188-be-ye-therefore-perfect/assets/s08-children-of-your-father.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Jesus on the slope lifting an open hand toward the warm, boundless late-afternoon sky as he names the goal \u2014 that they may be the children of their Father in heaven; only he wears the plain cream robe. The sky"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b09",
+   "file": "build-188-be-ye-therefore-perfect/assets/s09-sun-on-evil-and-good.jpeg",
+   "tokens": [
+    "VALLEY-FIELDS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "An establishing wide of the farmed valley below the mount at sunrise, camera set on the higher slope looking down and across so the workers' backs are three-quarters to the lens as they face the rising sun \u2014 one bright m"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b10",
+   "file": "build-188-be-ye-therefore-perfect/assets/s10-rain-on-just-and-unjust.jpeg",
+   "tokens": [
+    "VALLEY-FIELDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A shot of the same valley under a soft even silver rain that falls equally over every plot \u2014 two neighbouring workers, one open and honest and one grasping and hard, both caught in the same rain with no field drier or we"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b11",
+   "file": "build-188-be-ye-therefore-perfect/assets/s11-kindness-falls-on-everyone.jpeg",
+   "tokens": [
+    "VALLEY-FIELDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A shot across the valley as the rain clears and warm light returns, several ordinary folk of every sort standing among their plots receiving the same warmth and wet \u2014 the kindness falling plainly on everyone alike. No fi"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b12",
+   "file": "build-188-be-ye-therefore-perfect/assets/s12-grateful-and-cruel-alike.jpeg",
+   "tokens": [
+    "VALLEY-FIELDS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A tight two-shot in the valley field: a grateful, open-faced worker and a hard, cruel-faced worker stand near one another in the very same warm light, each receiving the same gift though their hearts plainly differ. Neit"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b13",
+   "file": "build-188-be-ye-therefore-perfect/assets/s13-set-the-bar.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A shot on the slope of Jesus raising an open hand high as he sets the standard \u2014 a bar no one could reach alone \u2014 the nearest crowd leaning in, drawn and stirred to run toward it; only he wears the plain cream robe. Warm"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b14",
+   "file": "build-188-be-ye-therefore-perfect/assets/s14-be-ye-perfect.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A strong warm close on Jesus on the slope, an open hand lifted toward the boundless late-afternoon sky as he gives the whole aim of the teaching \u2014 to be perfect, even as their Father in heaven is perfect; only he wears t"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b15",
+   "file": "build-188-be-ye-therefore-perfect/assets/s15-not-by-comparison.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on two ordinary crowd members seated side by side on the slope, no longer casting the sideways measuring glance at one another but both turned the same way up toward the teacher \u2014 perfection not by comparison bet"
+  },
+  {
+   "row": 188,
+   "build": "build-188-be-ye-therefore-perfect",
+   "beat": "v2-r188-b16",
+   "file": "build-188-be-ye-therefore-perfect/assets/s16-a-love-with-no-limit.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A closing shot of Jesus on the slope with both arms opening wide beneath the vast warm open late-afternoon sky, giving the measure of a Father's love that has no edge, no favour and no limit \u2014 the boundlessness carried b"
   }
  ]
 }
