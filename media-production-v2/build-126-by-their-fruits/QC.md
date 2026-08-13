@@ -97,3 +97,49 @@ wording, timing.
 - **Cost:** ~$2.67 this row ($0.13 farmer portrait + $0.27 anchors + $2.01 body + $0.26 two b04 rerolls), 11.8% rerolls — under the $6.10 / 19% running average (COST LAW downward trend holds).
 
 Resume (if ever needed): row is BUILT + shipped; nothing pending except the FIX-WAVE items above (deep pass, not a re-cut).
+
+---
+
+## ✅ QC-VERIFY → QC-FIX (Opus runner, Machine A `Dev`, headless, 2026-08-13)
+
+Independent FULL-CUT GATE of the BUILT/unapproved cut before Cameron's eyes reached
+it (row 126 sat in Unwatched; NOT in `.approvals.json` → unapproved → verifiable).
+Extracted one frame per beat (17) from the RENDERED mp4 + 3 caption frames + card,
+viewed EVERY one against the defect checklist, RUNNER-LESSONS, and the row's care laws.
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 126` shows no filed complaint).
+
+**16/17 CLEAN, card CLEAN.** Realistic photography throughout (Law 14, no cartoon/mix).
+Jesus ONE locked face b01/b03/b17 (cream-only, green/hazel ref-true eyes, no halo,
+ordinary scale). Wolf b02 = unease not violence (fleece draped, sheep unharmed, no
+blood/lunge), RED Jesus caption. Human false-shepherd b04 realistic/period. Fire b14
+= distant orchard branch-fire, daylight, axe on the barren trunk only (no hellfire).
+Two trees consistent via ORCHARD plate; b11 absoluteness held. Thorn scratches b08
+light (no gore). Market test b16 = buyer's gaze on the short measure. SPEAKER LAW
+pixel-verified: Jesus KJV segs (j1a/j2/jv18 → b02/b06/b07/b11/b14) captions RED, all
+narrator segs WHITE, NO green. Captions bottom-band; card clean (no tofu). b15 @82.4s
+has no caption = the j3→n3 narration gap (81.67–83.24), correct not a drop.
+
+**b12 FIXED (the one defect the auto-runner deferred to FIX-WAVE).** The FARMER
+reference (CAST-REF-V2/farmer.jpeg) is an older man with short thinning grey hair +
+short grey beard; b05/b06/b09/b14/b15 all match it, but b12 rendered him with
+markedly FULLER, DARKER hair + beard (reads as a different, younger man) — on the
+doctrinal hero close-up (good-fig-vs-bad-fig). Within-story identity drift against a
+reference lock is Cameron's single most-repeated complaint class (rows 32/55/60/69/
+90/91/147); the FULL-CUT GATE says anything Cameron would complain about BLOCKS, so
+this was NOT shippable as-is. Fixed in ONE touch-once redo: `v2_gen_api.py 126 --only
+b12 --redo --ceiling 721` (fresh gen against the FARMER ref + ORCHARD plate; the
+two-fig composition is fully specified in the scene text so it reproduced cleanly —
+per row-52 lesson `rough_ref` can't reliably REDUCE over-full hair, a fresh redo
+against the corrected anchor is the reliable path). New s12 = on-model older grey
+balding farmer, composition preserved (ripe fig one palm / shriveled dark fig other,
+arms apart), hands normal, no halo, no new defect. Verified in the RENDERED mp4 @65.8s.
+1 reroll / 17 = 5.9% (this pass), well under the 15% COST-LAW budget. ~$0.13.
+
+**AUDIO LOCK: byte-identical.** Re-assemble printed AUDIO REBUILD PASS
+SHA256=07846dc0…, 106.098s, 19.9 MB — same hash as the shipped cut; nothing
+re-voiced/re-timed (only the one still changed).
+
+**FIX-WAVE remaining (non-blocking, deep pass):** the ambiguous grey cloth/mesh on the
+dry-stone wall bottom-right of b07/b11 — reads as a period sackcloth, mostly behind the
+caption band / Ken-Burns-cropped; below the complaint bar, left for the deep pass.
