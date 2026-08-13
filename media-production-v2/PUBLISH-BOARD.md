@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T07:04:14_
+_Last sync: 2026-08-13T07:18:15_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 54 row(s)
+- **BUILDING** — 53 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 21 row(s)
+- **ON REVIEWER — awaiting Cameron** — 22 row(s)
 
 ## The rows
 
@@ -206,7 +206,7 @@ _Last sync: 2026-08-13T07:04:14_
 | 183 | Sun Moon and Stars | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 184 | Caught Up to the Third Heaven | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 185 | In My Fathers House | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 186 | Heirs of God | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 186 | Heirs of God | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 187 | Ye Are Gods | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 188 | Be Ye Therefore Perfect | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 189 | To Him That Overcometh | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
