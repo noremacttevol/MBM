@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 12:29:18",
+ "scanned": "2026-08-13 15:17:42",
  "entries": [
   {
    "row": 1,
@@ -57233,6 +57233,158 @@
    "night": true,
    "n_person": 2,
    "scene": "The prayer's last arc gathers everybody it can reach: Jesus's open hand sweeps from the Eleven drowsing warm by the fire, out across the dark valley where the window-lights burn one by one to the horizon \u2014 the same motio"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b01",
+   "file": "build-138-his-offspring/assets/s01-paul-stood-in-the-middle.jpeg",
+   "tokens": [
+    "ATHENS",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "One warm body stands in a forest of cold ones, the camera looking past the statues' marble backs into the square: Paul at the agora's centre, compact and travel-worn, turning slowly on his heel \u2014 and in every direction t"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b02",
+   "file": "build-138-his-offspring/assets/s02-and-one-altar-that-simply.jpeg",
+   "tokens": [
+    "ALTAR",
+    "ATHENS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The most honest monument in Athens is the humblest: tucked in the shadow between two ornate plinths stands a small plain altar of weathered stone \u2014 no gilding, no sculpture, its short inscription worn down to faint illeg"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b03",
+   "file": "build-138-his-offspring/assets/s03-he-told-them-they-were.jpeg",
+   "tokens": [
+    "ATHENS",
+    "PAUL",
+    "ATHENIANS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sermon starts by agreeing with them: Paul's open hand extends toward the little weathered altar while his face turns warm to the gathering Athenians \u2014 closer than you KNOW, the gesture says: your own hands carved the"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b04",
+   "file": "build-138-his-offspring/assets/s04-the-god-left-unnamed-made.jpeg",
+   "tokens": [
+    "ATHENS",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The r\u00e9sum\u00e9 of the unnamed God is hanging over the city: Paul's arm sweeps up past the colonnades, past the Acropolis crown, to the whole enormous sky and the sea-line beyond the hills \u2014 THIS is his workmanship, the arc s"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b05",
+   "file": "build-138-his-offspring/assets/s05-in-him-paul-said-we.jpeg",
+   "tokens": [
+    "ATHENS",
+    "ATHENIANS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The proof-text is the morning itself: the agora runs at full ordinary tilt \u2014 a trader's arms wide over his olives, two children chasing between the plinths, a woman balancing her water-jar through the crowd, old men laug"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b06",
+   "file": "build-138-his-offspring/assets/s06-he-even-quoted-their-own.jpeg",
+   "tokens": [
+    "ATHENS",
+    "PAUL",
+    "ATHENIANS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The preacher reaches into their own library: Paul's hand opens toward a grey philosopher at the ring's edge \u2014 YOUR poets, he says, your own \u2014 and gives the man's own hexameters back to him with the meaning lit: we are hi"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b07",
+   "file": "build-138-his-offspring/assets/s07-for-in-him-we-live.jpeg",
+   "tokens": [
+    "ATHENS",
+    "PAUL",
+    "ATHENIANS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Mars Hill gets the sermon it will be named for: Paul on the bare rock outcrop with his arms spread wide, the rust-brown robe taking the wind, the words rolling down over the ringed listeners on the steps below \u2014 in him w"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b08",
+   "file": "build-138-his-offspring/assets/s08-the-unknown-god-was-never.jpeg",
+   "tokens": [
+    "ALTAR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The little altar gets the day's best light: the same plain weathered stone that stood in shadow all morning now takes the warm gold of late afternoon full on its face \u2014 the eroded traces soft in the raking light, the hum"
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b09",
+   "file": "build-138-his-offspring/assets/s09-god-overlooked-the-times-of.jpeg",
+   "tokens": [
+    "ATHENS",
+    "PAUL",
+    "ATHENIANS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The comfortable lecture turns into a summons: Paul's finger rises gently and the gravity arrives \u2014 the winking at ignorance is OVER; now, all men, everywhere: repent \u2014 and the ring divides where every such ring divides: "
+  },
+  {
+   "row": 138,
+   "build": "build-138-his-offspring",
+   "beat": "v2-r138-b10",
+   "file": "build-138-his-offspring/assets/s10-he-had-been-near-the.jpeg",
+   "tokens": [
+    "ATHENS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The sermon's last word is written in the light over the city: golden evening lies close on everything \u2014 on the colonnades and the statue-crowded square, on the little plain altar, on the far small figures crossing for ho"
   },
   {
    "row": 139,
