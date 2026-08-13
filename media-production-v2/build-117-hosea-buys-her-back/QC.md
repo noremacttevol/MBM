@@ -67,3 +67,56 @@ hands-insert b32, the two-shots b36/b38.
   MARKET from b15, WILD from b25.
 - Clone-crowd check on b15/b18/b23 market crowds (rows 90/107 class);
   counts law: exactly TWO at the vow door, family behind the wall.
+
+## RUNNER PARK 2026-08-13 → NEEDS-AUDIO (Opus runner, Machine A `Dev`) — AUDIO-DOMAIN complaint, pictures untouched
+
+**Cameron's complaint (his words, `v2_outline.py 117`):** *"it was all good
+until the very end where you miss pronounced 'Dramatized' — fix that audio at
+the very end and its good."*
+
+**Domain verdict: AUDIO, not picture.** Grep-confirmed the word "dramatized"
+appears in exactly ONE place in the whole cut — the closing question **card**:
+`make_narration.py:56` NARRATOR line *"God **dramatized** his own love with a
+marriage: however far she wandered, he went and bought her back and brought her
+home. You are not too far gone to be wanted. What would it mean to be loved home
+like that?"* No still is wrong; the runner did NOT re-cut pictures (per
+complaint-first / touch-once law — a picture re-cut here would burn credits and
+change nothing Cameron flagged). All 38 stills stay as shipped.
+
+**Exact fix for the audio lane (this note is your per-row authority):**
+1. **File to re-voice:** the CARD audio only. Shipped audio uses
+   `AUDIO_FROM_V1_SEGMENTS=True` (see board), so the delivered card comes from
+   the **V1 dir**: `media-production/build-117-hosea-buys-her-back/audio/card.mp3`
+   (write the corrected mp3 THERE; V2-dir `audio/card.mp3` is the same text).
+   Nothing else in the narration is touched.
+2. **The defect:** "dramatized" is mispronounced. Target reading is
+   DRAM-uh-tized — /ˈdræm.ə.taɪzd/, primary stress on the FIRST syllable, hard
+   final "-ized" (NOT "druh-MAT-ized" like "dramatic", NOT "-teezd").
+3. **Engine first (memory [[eleven-bypasses-say-map]]):** transcribe the
+   delivered `card.mp3` before diagnosing. Card is 44100 Hz / 128 kbps =
+   ElevenLabs profile, and NARRATOR is edge `AndrewNeural` in `VOICE` — so the
+   V1 card was very likely ElevenLabs-voiced and a `mbm_pronounce.SAY` respell
+   will be IGNORED. If ElevenLabs: re-render the card line directly with the
+   correct pronunciation (A/B + round-trip-transcribe per
+   [[eleven-vowel-fix-literal-respell]] / [[eleven-stress-defect-space-respell]];
+   "dramatized" is a STRESS defect → validate front-peak stress, respell with
+   SPACES not hyphens if needed). If it is edge, add a measured SAY winner.
+   Keep the **caption** spelling "dramatized" unchanged (pronounce map only
+   changes what is spoken).
+4. Re-assemble (`v2_assemble.py 117` → AUDIO LOCK PASS — note the card is the
+   +3s trailing segment the STALE-V1 flag already handles), ship, deploy
+   (step 7c, live-verify the served mp4 hash), and make the review card answer
+   Cameron in his words: "Your complaint — the mispronounced 'dramatized' at the
+   very end — is re-voiced; the rest of the audio is unchanged."
+
+**PROMPT AUTOPSY (rubric meta-law 3) — N/A for pictures.** No image prompt
+caused this; it is a TTS pronunciation defect on the card line. No frame reroll.
+
+**FULL-CUT GATE note for the audio lane's re-ship:** the 38 stills already
+passed 3 independent FULL-CUT GATE passes (board QC cell, 2026-08-11) and are
+NOT changed by this audio-only fix, so re-running the gate on the re-assembled
+mp4 is a picture no-op — the only thing that changed is `card.mp3`.
+
+Board set: State BUILT → NEEDS-AUDIO (Audio col stays OK); Claim carries
+`RUNNER PARK` (no `AUDIO-FIX` string) so `autopilot.sh` line 219 routes it to
+the audio lane.

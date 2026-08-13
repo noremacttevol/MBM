@@ -1,3 +1,12 @@
+## 2026-08-13 (cont. 100) — ROW 117 hosea-buys-her-back: AUDIO-domain complaint ROUTED to the audio lane (NEEDS-AUDIO), pictures untouched — Machine A `Dev`, Opus runner (unattended/headless)
+
+**Complaint-first + low-number dispatch to AUTHOR-BOARD row 117** (lowest waiting row with an OPEN complaint). Read PROMPT-OPUS-RUNNER laws + `v2_outline.py 117` first (LEARNING LAW).
+
+- **Cameron's complaint (his words):** *"it was all good until the very end where you miss pronounced 'Dramatized' — fix that audio at the very end and its good."*
+- **Domain verdict: AUDIO, not picture.** Grep-confirmed "dramatized" appears in EXACTLY ONE place in the whole cut — the closing question **card** narrator line (`make_narration.py:56`: *"God dramatized his own love with a marriage…"*). No still renders wrong. Per runner law 6b (audio-domain complaint) + touch-once/complaint-first: the picture runner does NOT re-cut pictures for a pronunciation defect — that would burn credits and change nothing Cameron flagged. All 38 stills stay as shipped.
+- **Routed to the audio lane, not stranded.** Set State column BUILT → **NEEDS-AUDIO** (Audio col stays OK; Claim carries `RUNNER PARK`, no `AUDIO-FIX` string) so `autopilot.sh` line 219 (`st == 'NEEDS-AUDIO' and 'AUDIO-FIX' not in cl`) routes it to PROMPT-AUDIO-FIX. Wrote the full per-row authority into QC.md "RUNNER PARK 2026-08-13": re-voice ONLY the card so "dramatized" = DRAM-uh-tized (first-syllable stress); shipped card comes from the V1 dir (AUDIO_FROM_V1_SEGMENTS=True) so re-render `media-production/build-117.../audio/card.mp3`; transcribe first (44100/128k = likely ElevenLabs → SAY-map bypassed, re-render directly + A/B round-trip; if edge, add a measured SAY winner). Caption spelling stays "dramatized". Then re-assemble (AUDIO LOCK PASS), deploy, live-verify, review card answers his complaint in his words.
+- **$0, 0 credits, 0 rerolls** — no image generation touched; picture-runner correctly hands the pronunciation fix to the audio toolchain.
+
 ## 2026-08-13 (cont. 99) — ROW 147 C-FIX #2 SHIPPED: "Joseph Forgives · Genesis 45" — Cameron's "same character / same face definition, match the story of Joseph" complaint FIXED with a REAL re-cut (content hash MOVED), FULL-CUT GATE 16/16 PASS, $0/0 rerolls — Machine A `Dev`, Opus runner (unattended/headless)
 
 **Complaint-first + low-number dispatch to AUTHOR-BOARD row 147** (lowest waiting row with an OPEN complaint). Read PROMPT-OPUS-RUNNER laws, the two META-LAWS + all rubric lessons, RUNNER-LESSONS, and `v2_outline.py 147` first (LEARNING LAW).
