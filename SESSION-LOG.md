@@ -1,3 +1,21 @@
+## 2026-08-12 (cont. 95) — ROW 95 C-FIX VERIFY: wall re-confirmed up + fixed STALE billing messages reaching Cameron (inbox row 89, card v95 row 63) — HARD EXTERNAL BLOCK holds, no board re-park churn — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
+
+**Commit:** this log + `site/review.html` card v95 accuracy fix (`<this push>`). Deployed to Firebase + live-verified. Inbox correction is Obsidian-sync only (vault repo, not committed per inbox-sync skill). Chain verified on entry: top was cont.94, commit `bf390fb99` present in `git log` (HEAD `bf390fb99`); hostname = Machine A `Dev`.
+
+**Complaint (`v2_outline.py 95`, his words):** "0:08 he should be stakes to the cross. 0:18 they are not facing each other and Jesus should be on the cross also. All shirts off, all pinned to the cross, all in line parallel not across from one another … Jesus has a crown of thorns and they all have plaques above their heads." Lowest waiting complained AUTHOR-BOARD row.
+
+**Row 95 state (verified, not assumed):** crucifixion-staging fix FULLY STAGED — 11 beats + HILL/MOCKER/THIEF locks rewritten to three crosses in a PARALLEL forward-facing row, all men shirtless & affixed, Jesus centre with crown of thorns, a titulus plaque above every head. `v2_prompt.py build-95-thief-on-the-cross --check` = **PASS (11 beats, v4)**.
+
+**Billing wall — ONE real probe (billing-wall lesson: probe once, don't loop):** `v2_gen_api.py build-95-thief-on-the-cross --only b03 --redo --ceiling 645` → **429 prepay depleted**, meter unchanged **$617.34**, **$0 / 0 rerolls**. (Note: api-spend.jsonl shows other-lane spends at 04:11 already counted in $617.34 — not a sign the wall lifted; the live probe is the truth, and it's still 429.) Crucifixion staging isn't croppable from a clothed free-standing frame → no $0 path; mp4 NOT reshipped (would repeat the complaint).
+
+**ACCURACY SWEEP of the two channels Cameron actually sees (cont.94 principle — everything reaching him must be current):** found two STALE billing messages and fixed both.
+- **Inbox** (`vault/_inbox/inbox.md`) still listed **Row 89 (Last Supper)** as billing-blocked "just needs credits" — but row 89 SHIPPED at $0 in cont.93 (adjacent-frame crop, live card hash `f8598af96873…` matches board). Moved 89 into the good-news/shipped paragraph beside row 63; blocked count corrected FIVE → **FOUR** (82, 95, 116, 118); footer timestamp updated to 21:25 + wall-still-up note.
+- **Card v95** `data-machine-reason` said the top-up "unblocks … rows 63, 82, 116, 118" — but **Row 63 (man born blind)** also SHIPPED at $0 (live card hash `0e1878c5a1a0…` matches board). Removed 63 → now "rows 82, 116, 118." mp4 src/hash UNTOUCHED (no complaint-repeat).
+
+**NO 18th re-park board entry** — the cont.123/17th-pass STOP marker holds; an identical "still walled" park would only churn commits and never reach Cameron. This session added zero board park entries; it ONLY corrected stale outbound info. Ships touch-once the instant billing is funded (runner resumes automatically). Blocked-by-billing set is now accurately: **rows 82, 95, 116, 118**. **COST: $0 / 0 rerolls / 0 credits.**
+
+---
+
 ## 2026-08-12 (cont. 94) — ROW 95 (thief on the cross) C-FIX VERIFY: fix STAGED + wall CONFIRMED still up — HARD EXTERNAL BLOCK, no board churn — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
 
 **Commit:** this log only (`<this push>`). Chain verified on entry: top was cont.93, commit `f8598af96873` present in `git log` (HEAD `f8598af96`); hostname = Machine A `Dev`.
