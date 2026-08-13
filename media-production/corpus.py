@@ -40,7 +40,7 @@ CANONICAL_BUILD_SLUGS: dict[int, str] = {
     133: "what-jesus-called-hell",
     134: "today-in-paradise",
     137: "one-as-we-are-one",
-    140: "naaman-washes",
+    140: "bronze-serpent",
 }
 
 
