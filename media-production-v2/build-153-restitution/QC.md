@@ -140,3 +140,15 @@ python3 media-production-v2/v2_gen_api.py build-153-restitution --only v2-r153-b
 
 ### OPEN complaint still open (do NOT close until the fixed cut is approved)
 "1:12 is weird picture — needs Peter" → b13 compositionally puts Peter's arm sweeping from the healed leaping man across the court; identity is now fixable via the PETER lock. Stays OPEN until the regenerated cut ships and Cameron approves.
+
+---
+
+## ⚠️ HANDOFF CORRECTION — 2026-08-13 (same author session): State → AUTHORED + Ready ✅ (RUNNER lane), NOT BUILT/cfix
+
+My "AUTHOR-FIX DONE" section above first flipped State→BUILT for the cfix lane. **That would STRAND this row.** I re-checked `autopilot.sh`: the cfix picker (PASS 1, lines 248-250) fires only when `cur.get(row) is not None` — i.e. the row has a **LIVE PUBLISHED cut** and the complaint's `reportedAgainst` matches that live hash. **Row 153 was never published in V2** (fresh rebuild, no review card, `cur['153']` is None), so cfix would never fire and the complaint would sit forever (the "cfix hash-gate strands rebuilds" class; cf. row-140 precedent — an unpublished rebuild is built by the RUNNER, not cfix).
+
+**Correct route (done):** State **AUTHORED** + Audio **OK** + Claim **empty** + Ready **✅** → the RUNNER lane (autopilot PASS 2, lines 292-297) picks it up, **complaint-first** (row 153 is in `openc`), lowest-number-first.
+
+Because the runner **skips existing stills >50 KB** (`v2_gen_api.build_todo`, line 321), I **DELETED the 9 off-model Peter stills** (s02,s03,s04,s05,s06,s07,s12,s13,s15) so the runner regenerates exactly those 9 with the now-attached PETER sheet+lock. The 16 good frames + b18 (scrolls) are kept byte-identical (touch-once; the parked $3.48 mostly carries; ~$1.2 to regen 9). Asset count on the board is now 17 (will return to 26 after regen).
+
+**RUNNER must, before shipping:** face-board Peter across the regenerated 9 vs `CAST-V2-REF/peter-front.jpeg` (mid-30s, dark curly hair, full dark beard, BLUE-GREY tunic — NOT grey/old, NOT charcoal/brown robe); confirm gen log prints `[+1 char ref: PETER]` per frame; **VERIFY b13 renders Peter at ~1:12** sweeping FROM the healed man TO the court (closes the OPEN "1:12 needs Peter" complaint); assemble (AUDIO LOCK PASS), ship + deploy + live-verify; card answers the complaint in Cameron's words.
