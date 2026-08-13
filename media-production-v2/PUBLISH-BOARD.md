@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T05:43:39_
+_Last sync: 2026-08-13T05:54:52_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 63 row(s)
+- **BUILDING** — 62 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 12 row(s)
+- **ON REVIEWER — awaiting Cameron** — 13 row(s)
 
 ## The rows
 
@@ -194,7 +194,7 @@ _Last sync: 2026-08-13T05:43:39_
 | 171 | Baptized For the Dead | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 172 | Gospel Preached to the Dead | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 173 | Dead Shall Hear | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 174 | Hearts of the Fathers | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 174 | Hearts of the Fathers | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 175 | Mountain of the Lords House | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 176 | Who Shall Ascend | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 177 | Make Me a Sanctuary | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
