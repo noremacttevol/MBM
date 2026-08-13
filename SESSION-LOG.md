@@ -1,4 +1,19 @@
-## 2026-08-13 (Opus runner, unattended/headless) — Row 147 JOSEPH FORGIVES C-FIX: "0:01 double picture / brothers all santa-white-same / Joseph grey though black before" — Machine A `Dev`, $0.54 Gemini
+## 2026-08-13 (Opus runner, complaint-first, unattended/headless) — Row 161 CALLED OF GOD (Heb 5): full realistic V2 build FIXING open complaint "1:30 Aaron grey + oil over his hat" — Machine A `Dev`, ~$7.9 Gemini, 0 rerolls
+
+**Commit:** `3803506a4136` (build: mp4 + 24 assets + 3 portraits + QC + beats_v2 REFS + AUTHOR-BOARD + QUEUE + api-spend); review.html + this log follow.
+
+Autopilot dispatched this session to AUTHOR-BOARD row 161 (its complaint-first + low-number picker put row 161 — the lowest waiting COMPLAINED ready row — ahead of the uncomplained 159/160; I own it via `target-row-161.pid`). Cameron's OPEN complaint (v2_outline): **"At 1:30 aaron went grey and the anointing oil was poured over his hat and that is all wrong this picture needs to be redone."** QUEUE cross-check: Heb 5:4 Aaron = build-161-called-of-god, not a swapped story.
+
+- **Complaint FIXED at the beat that renders at 1:30 (b16/s16, window 86–92s):** Aaron anointed with **BLACK hair + BLACK beard, BARE head, oil pouring straight onto the bare hair** — no mitre/cap/hat. Grey swept across the WHOLE ordination (b10–b17): Aaron black-haired + bare-headed in every frame. The two greybeards are kept as separate, correct men — MOSES (grey-white, the anointer, rows 67/105 canon) and the epistle high **PRIEST** (iron-grey, a THIRD man, b01–b09) — never Aaron. Three portraits (aaron BLACK / moses grey-white / priest iron-grey) face-boarded distinct before generating.
+- **Build:** fresh 24-beat realistic cut (V1 was 8 Flow stills). Promote-first plates: TABERNACLE from b01 (establishing wide), QUIET-HILL from b18 (Jesus). Jesus beats (b18–b21) on-model, Father NEVER embodied (b19 = dawn light only, no figure/dove/beam), b21 hands NO wounds, no crown/halo. Cream-only-Jesus holds (Aaron grey/oatmeal, priest blue, Moses maroon).
+- **FULL-CUT GATE 6b PASS** — every one of 24 beats viewed + complaint frame re-verified in the RENDERED mp4 (s16 @89s shows the fix), captions bottom-band-only, question card clean. **0 rerolls / 24 (0%)** — well under the ≤15% COST LAW and the 19% baseline.
+- **AUDIO LOCK PASS** `85614e13…` — audio sourced from the new-voice V1 mp4 (ElevenLabs, in the `6830b0115 SHIP new-voice videos` list; 159.17s matches the 159.3s timeline), byte-identical; narration/voices/timing untouched. Final mp4 19.9 MB / 159.3s.
+- **COST:** ~$7.9 this row (3 portraits + 24 beats, 0 rerolls), meter $636.77→$644.67. 0% rerolls beats the 19% baseline (COST LAW trending down); slightly above the $6.10 single-row average because this was a full 24-beat build with 3 new portraits + 2 new places, not a single-beat C-FIX.
+- **Ops note (RUNNER-LESSON reinforced):** the paid `v2_gen_api` socket-hung mid-b16 (0% CPU, sleeping, no read-timeout) — killed and resumed under `timeout`; b16 landed clean on retry. Ran the whole gen under `timeout 300–590` batches, monitoring by REAL pid + asset count (never `pgrep -f` on the build string, which matches the watcher itself).
+
+Deployed to Firebase + live-verified below; card v161 → realistic-v2 wave, data-hash + ?v = ship commit, "what changed" answers his complaint in his own words (black not grey, oil on bare head not a hat, and which greybeards are Moses/priest not Aaron).
+
+
 
 Complaint-first + low-number: row 147 held the lowest-numbered OPEN complaint (baaeac4f, 2026-08-13, filed against the realistic-V2 cut — NOT the two same-day ships, which answered a different "same-face" complaint). Cameron: *"0:01 is a double picture… one picture per frame only, replace it. 1:00 picture is bad because all of the brothers are made to look the same all looking like santa white hair and beard and now Joseph's hair is grey even though it has been black before, same thing happens at 1:27. also 0:58 picture looks weird because again all the brothers are made to look the exact same. change all 4 of those."*
 
