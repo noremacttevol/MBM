@@ -616,3 +616,16 @@ BEATS = [
 PLACE_REFS = {
 }
 # === end PLACE-PLATES ===
+
+# === CHARACTER FACE-LOCK (runner-wired 2026-08-13, Opus runner, Machine A `Dev`) ===
+# Ezekiel is the story's spine — legible in 14 of 22 beats (b01,03,04,05,07,08,09,
+# 10,13,14,15,16,20). The author committed CAST-REF-V2/ezekiel.jpeg (v2_story_cast)
+# but left it UNWIRED (no REFS dict), which renders him TEXT-ONLY and flips his face
+# shot-to-shot (RUNNER-LESSONS rows 52/55/60/63/153/177 + rubric lessons 2/10/13).
+# Wiring a committed portrait is a runner-legal FACE-LOCK (NOT a beat-content / lock
+# edit) done BEFORE the first credit, so the whole build renders identity-locked on
+# the first attempt (row-177 pattern; avoids the row-179 post-gen park trap where the
+# same orphaned-ref was only caught after generation finished text-only).
+REFS = {
+    "EZEKIEL": "CAST-REF-V2/ezekiel.jpeg",
+}
