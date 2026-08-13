@@ -81,6 +81,35 @@ check(not drift, "C: every approved mp4 byte-matches its ledger sha1", f"drifted
 no_thumb = [r for r in sorted(approved) if not os.path.exists(os.path.join(GALLERY, "thumbs", f"{r}.jpg"))]
 check(not no_thumb, "D: every approved id has a thumbnail", f"missing: {no_thumb}")
 
+# F. website hygiene — the site may hold NO video file outside the approved
+#    gallery, and public marketing pages may reference only approved ids.
+SITE = os.path.join(ROOT, "site")
+stray = []
+for dirpath, dirnames, filenames in os.walk(SITE):
+    for fn in filenames:
+        if fn.lower().endswith(".mp4"):
+            rel = os.path.relpath(os.path.join(dirpath, fn), SITE)
+            ok = (os.path.dirname(rel) == "story-videos"
+                  and fn[:-4].isdigit() and int(fn[:-4]) in approved)
+            if not ok:
+                stray.append(rel)
+check(not stray, "F1: no mp4 on the site outside the approved gallery", f"stray: {stray}")
+
+PUBLIC_PAGES = ["index.html", "stories.html", "roadmap.html", "support.html", "privacy.html"]
+bad_refs = []
+for page in PUBLIC_PAGES:
+    path = os.path.join(SITE, page)
+    if not os.path.exists(path):
+        continue
+    html = open(path, encoding="utf-8", errors="replace").read()
+    for rid in set(int(x) for x in re.findall(r"/story-videos/(?:thumbs/)?(\d+)\.(?:mp4|jpg)", html)):
+        if rid not in approved:
+            bad_refs.append(f"{page}→{rid}")
+    for pat in ("fixed/", "Explainer.mp4", "img/walk/"):
+        if pat in html:
+            bad_refs.append(f"{page}→{pat}")
+check(not bad_refs, "F2: public pages reference only approved stories", f"bad: {bad_refs}")
+
 # E. live
 if "--live" in sys.argv:
     def head(url):

@@ -87,10 +87,10 @@
   .pillar .mk{font-family:Arial,Helvetica,sans-serif; font-size:12px; letter-spacing:.16em;
     text-transform:uppercase; color:var(--gold); margin:0 0 12px}
 
-  /* VIDEO */
-  .video-wrap{margin-top:30px; border-radius:16px; overflow:hidden;
-    border:1px solid var(--line); box-shadow:0 22px 60px rgba(0,0,0,.5)}
-  .video-wrap video{display:block; width:100%; height:auto; background:#000}
+  /* FEATURED STORY (portrait film) */
+  .feature-wrap{max-width:400px; margin:30px auto 0; border-radius:18px; overflow:hidden;
+    border:2px solid var(--line); box-shadow:0 22px 60px rgba(0,0,0,.5); background:#000}
+  .feature-wrap video{display:block; width:100%; height:auto; aspect-ratio:9/16; background:#000}
 
   /* WHAT IT IS */
   .what{display:grid; grid-template-columns:1.2fr 1fr; gap:46px; align-items:center}
@@ -175,12 +175,12 @@
     <p class="kicker">milkb4meat.org</p>
     <h1>Milk Before Meat</h1>
     <p class="tag">A quiet place to breathe — and to be seen.</p>
-    <p class="lead">An app that meets you exactly where you are, tells you a story worth
-      hearing, and gently points you toward the goodness of Jesus Christ. No noise. No
-      pressure. Nothing sold.</p>
+    <p class="lead">The stories of Jesus, told as short, beautiful films — His words straight
+      from the King James Bible — inside an app that meets you exactly where you are. No
+      noise. No pressure. Nothing sold.</p>
     <div class="btns">
       <a class="btn primary" href="#get">Get the app</a>
-      <a class="btn ghost" href="#watch">Watch how it works</a>
+      <a class="btn ghost" href="/stories.html">Watch the stories</a>
     </div>
   </div>
 </header>
@@ -219,7 +219,7 @@
         <figcaption>Gethsemane</figcaption>
       </figure>
     </div>
-    <p class="strip-note">44 of 200 stories finished — more added every week.</p>
+    <p class="strip-note">116 of 200 stories finished — more added every week.</p>
     <div class="strip-cta">
       <a class="btn primary" href="/stories.html">Watch the stories</a>
     </div>
@@ -277,17 +277,22 @@
   </div>
 </section>
 
-<!-- ============ VIDEO ============ -->
+<!-- ============ WATCH ONE NOW ============ -->
 <section id="watch">
   <div class="wrap">
-    <p class="kicker">A short look</p>
-    <h2>See what it feels like</h2>
-    <div class="video-wrap">
-      <video controls preload="metadata" poster="img/walk/01-welcome-sanctuary.png">
-        <source src="Milk-Before-Meat-Explainer.mp4" type="video/mp4">
-        Your browser can't play this video. You can download it
-        <a href="Milk-Before-Meat-Explainer.mp4">here</a>.
+    <p class="kicker">Watch one now</p>
+    <h2>The Woman Who Touched His Cloak</h2>
+    <p class="sub">Three minutes. Her story, His words — exactly as the King James Bible
+      tells it. This is what every story in the app feels like.</p>
+    <div class="feature-wrap">
+      <video controls preload="none" playsinline poster="/story-videos/thumbs/1.jpg">
+        <source src="/story-videos/1.mp4" type="video/mp4">
+        Your browser can't play this video. You can watch it
+        <a href="/story-videos/1.mp4">here</a>.
       </video>
+    </div>
+    <div class="strip-cta">
+      <a class="btn ghost" href="/stories.html">See all 116 finished stories</a>
     </div>
   </div>
 </section>
@@ -311,7 +316,9 @@
           already walking with Christ and want a quieter place than the endless scroll.</p>
       </div>
       <div class="phone-shot">
-        <img src="img/walk/02-story.png" alt="A story screen from Milk Before Meat">
+        <a href="/stories.html" aria-label="Watch Nicodemus at Night">
+          <img src="/story-videos/thumbs/4.jpg" alt="Nicodemus at Night — a scene from the story library" loading="lazy">
+        </a>
       </div>
     </div>
   </div>
@@ -320,18 +327,19 @@
 <!-- ============ GLIMPSE ============ -->
 <section>
   <div class="wrap">
-    <p class="kicker">A glimpse inside</p>
-    <h2>How it actually responds</h2>
-    <p class="sub">Real moments from the app — gentle, honest, and always pointing onward.</p>
+    <p class="kicker">Scenes from the stories</p>
+    <h2>Every frame painted like this</h2>
+    <p class="sub">Real scenes from the finished films — realistic, reverent, and faithful
+      to the text. Tap any of them to watch.</p>
     <div class="shots">
-      <figure><img src="img/walk/03-story-question.png" alt="An honest question">
-        <figcaption>An honest question after each story</figcaption></figure>
-      <figure><img src="img/walk/07-feed-top.png" alt="The feed">
-        <figcaption>A feed that meets you where you are</figcaption></figure>
-      <figure><img src="img/walk/15-chat-ai-reply.png" alt="A companion to talk to">
-        <figcaption>A companion that listens, any hour</figcaption></figure>
-      <figure><img src="img/walk/17-chat-connect.png" alt="A real person">
-        <figcaption>A real person, always one tap away</figcaption></figure>
+      <figure><a href="/stories.html"><img src="/story-videos/thumbs/12.jpg" alt="Blind Bartimaeus" loading="lazy"></a>
+        <figcaption>Blind Bartimaeus — &ldquo;Thy faith hath made thee whole&rdquo;</figcaption></figure>
+      <figure><a href="/stories.html"><img src="/story-videos/thumbs/58.jpg" alt="Feeding the Five Thousand" loading="lazy"></a>
+        <figcaption>Feeding the Five Thousand</figcaption></figure>
+      <figure><a href="/stories.html"><img src="/story-videos/thumbs/85.jpg" alt="Shepherds and Angels" loading="lazy"></a>
+        <figcaption>Shepherds and Angels, the night He was born</figcaption></figure>
+      <figure><a href="/stories.html"><img src="/story-videos/thumbs/75.jpg" alt="The Woman Taken in Adultery" loading="lazy"></a>
+        <figcaption>&ldquo;Neither do I condemn thee&rdquo;</figcaption></figure>
     </div>
   </div>
 </section>
@@ -354,9 +362,9 @@
           taught: there is milk, and there is meat, and each person is given what they can receive.</p>
       </div>
       <div class="shots3">
-        <img src="img/walk/24-discipleship-intro.png" alt="Discipleship invitation">
-        <img src="img/walk/26-discipleship-fruit.png" alt="Discipleship content">
-        <img src="img/walk/23-chat-member-reply.png" alt="A deeper conversation">
+        <img src="/story-videos/thumbs/101.jpg" alt="The Still Small Voice" loading="lazy">
+        <img src="/story-videos/thumbs/114.jpg" alt="Abraham Pleads for Sodom" loading="lazy">
+        <img src="/story-videos/thumbs/26.jpg" alt="The Mustard Seed" loading="lazy">
       </div>
     </div>
   </div>
