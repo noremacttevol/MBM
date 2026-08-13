@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 08:37:00",
+ "scanned": "2026-08-13 09:02:29",
  "entries": [
   {
    "row": 1,
@@ -56359,6 +56359,306 @@
    "night": false,
    "n_person": 1,
    "scene": "The lesson has a view at dusk, the camera set behind the seated circle's backs: the little band around the low fire with Jesus among them, John's young face quieted into wonder across the flames \u2014 and beyond the camp, fa"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b01",
+   "file": "build-133-what-jesus-called-hell/assets/s01-many-of-the-pictures-people.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The pictures most people carry were painted long after: a dim stone gallery where old canvases hang in heavy frames, their varnish-dark scenes gone muddy and indistinct with centuries \u2014 vague dark masses, muted smoulders"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b02",
+   "file": "build-133-what-jesus-called-hell/assets/s02-but-to-hear-one-of.jpeg",
+   "tokens": [
+    "VALLEY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The word has an address, and this is it: the Valley of Hinnom opening below Jerusalem's high southern wall in the grey morning light \u2014 a dry rocky ravine of terraced ledges and old ash heaps, ordinary thorn scrub on its "
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b03",
+   "file": "build-133-what-jesus-called-hell/assets/s03-gehenna-is-the-greek-form.jpeg",
+   "tokens": [
+    "VALLEY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The geography lesson costs one long look: the ravine runs its whole dry length along the southern wall \u2014 the city stacked pale and alive above the rim, washing on rooflines, smoke from cooking fires \u2014 and below the wall "
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b04",
+   "file": "build-133-what-jesus-called-hell/assets/s04-long-before-jesus-that-name.jpeg",
+   "tokens": [
+    "VALLEY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the name remembers is told by ruins alone: on a ledge of the valley an old high-place lies broken \u2014 weathered altar stones toppled and scattered, blackened ancient soot deep in their grain, thorn scrub growing up th"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b05",
+   "file": "build-133-what-jesus-called-hell/assets/s05-the-prophets-condemned-a-place.jpeg",
+   "tokens": [
+    "VALLEY",
+    "PROPHET"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The crime is present only in the old man's face: the prophet stands against the broken altar stones with his arm raised in denunciation, wild grey hair whipping in the valley wind \u2014 and the moral fire in his eyes is bank"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b06",
+   "file": "build-133-what-jesus-called-hell/assets/s06-jeremiah-said-it-would-be.jpeg",
+   "tokens": [
+    "VALLEY",
+    "PROPHET"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The valley gets its terrible new name from a hilltop: the prophet's arm sweeps the ravine's whole length under a sky gone storm-dark over the wall \u2014 the Valley of SLAUGHTER, the sentence runs, for what was done here and "
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b07",
+   "file": "build-133-what-jesus-called-hell/assets/s07-the-name-carried-shame-ruin.jpeg",
+   "tokens": [
+    "VALLEY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the name carried is what the valley became: the ravine floor spread with the city's refuse heaps \u2014 broken pottery, spoiled goods, the discards of ten thousand households \u2014 thin smolder lines wandering through the pi"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b08",
+   "file": "build-133-what-jesus-called-hell/assets/s08-jesus-did-give-severe-warnings.jpeg",
+   "tokens": [
+    "OVERLOOK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Nothing in this story softens him: close on Jesus's face in the clear hard daylight, and the gravity in it is absolute \u2014 the deep eyes level, the mouth set, a man about to say the severest sentences of his ministry and m"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b09",
+   "file": "build-133-what-jesus-called-hell/assets/s09-jesus-used-it-along-with.jpeg",
+   "tokens": [
+    "OVERLOOK",
+    "LISTENERS",
+    "VALLEY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon points at something you can walk to: Jesus on the walled ledge with his listeners gathered close, his arm extended DOWN toward the ravine below the southern wall \u2014 THAT place, the gesture says; you have all sm"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b10",
+   "file": "build-133-what-jesus-called-hell/assets/s10-and-if-thy-hand-offend.jpeg",
+   "tokens": [
+    "OVERLOOK",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The severest sentence is preached on an open hand: Jesus holds his own hand up before them \u2014 turning it once in the hard light, a carpenter's hand, scarred and skilled and irreplaceable \u2014 as the terrible arithmetic leave"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b11",
+   "file": "build-133-what-jesus-called-hell/assets/s11-by-the-time-mark-recorded.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The word crosses into ink at a small table: the evangelist bent over his scroll in the lamp's warm ring, reed pen moving careful and steady, the day's memories becoming lines \u2014 and among them the place-name with seven ce"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b12",
+   "file": "build-133-what-jesus-called-hell/assets/s12-and-if-thine-eye-offend.jpeg",
+   "tokens": [
+    "OVERLOOK",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The second sentence is spoken eye to eye: close on Jesus's face as the words come, his own clear steady eyes holding his listeners' \u2014 better to enter the kingdom half-blind than march into ruin with perfect vision \u2014 the "
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b13",
+   "file": "build-133-what-jesus-called-hell/assets/s13-where-their-worm-dieth-not.jpeg",
+   "tokens": [
+    "VALLEY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The verse's picture is the valley at the day's end: dusk settles over the ravine and the refuse heaps keep their low red banked embers breathing under the ash \u2014 thin smoke standing in grey threads against the darkening w"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b14",
+   "file": "build-133-what-jesus-called-hell/assets/s14-the-images-are-deliberately-severe.jpeg",
+   "tokens": [
+    "OVERLOOK",
+    "LISTENERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The severity arrives exactly as designed: along the listening faces on the ledge the words do their deliberate work \u2014 a young man's jaw tight, an older woman's hand pressed at her collar, a fisherman staring down at his "
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b15",
+   "file": "build-133-what-jesus-called-hell/assets/s15-hand-and-eye-name-things.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the images are denominated in, at full value: a craftsman's hand at fine work in the warm light of a workshop window \u2014 guiding a carving blade through olive wood in curls, every practiced tendon doing its irreplacea"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b16",
+   "file": "build-133-what-jesus-called-hell/assets/s16-love-does-not-make-the.jpeg",
+   "tokens": [
+    "OVERLOOK"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Both things are true on the one face: close on Jesus in the late light, and the warmth in the deep eyes is total \u2014 and so is the gravity, neither one thinning the other by a single degree \u2014 the face of a physician who lo"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b17",
+   "file": "build-133-what-jesus-called-hell/assets/s17-later-art-supplied-pitchforks-elaborate.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Where the extra furniture came from is a studio, not a scripture: the dim gallery again, its dark old canvases holding their muddy indistinct crowds of shapes \u2014 and beside them, telling the whole story, a painter's easel"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b18",
+   "file": "build-133-what-jesus-called-hell/assets/s18-scripture-itself-uses-several-warning.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Scripture's own picture-vocabulary fits on one table of things: a clay lamp guttering down to its last blue-edged flame, a heavy wooden door shut fast in shadow, a handful of dry chaff beside a small low fire pit, a jar "
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b19",
+   "file": "build-133-what-jesus-called-hell/assets/s19-the-images-are-meant-to.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the images are FOR is happening on this road: a traveller has stopped in the darkening lane and turned \u2014 fully turned, feet and shoulders and face \u2014 back toward the far warm windows of home warm-lit down the valley,"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b20",
+   "file": "build-133-what-jesus-called-hell/assets/s20-love-tells-the-truth-about.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Every parent already preaches this sermon: at the village well a father's arm comes across his small child's chest, firm as a gate and gentle as a blessing, easing her back from the low stone rim she was toddling toward "
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b21",
+   "file": "build-133-what-jesus-called-hell/assets/s21-read-the-warning-beside-the.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The man who gave the warning looks like this the rest of the week: Jesus walking the golden evening slope with a found lamb draped calm across his shoulders, one hand steadying its forelegs, his stride bent for home \u2014 th"
+  },
+  {
+   "row": 133,
+   "build": "build-133-what-jesus-called-hell",
+   "beat": "v2-r133-b22",
+   "file": "build-133-what-jesus-called-hell/assets/s22-he-warns-because-sin-destroys.jpeg",
+   "tokens": [
+    "OVERLOOK",
+    "VALLEY"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The last frame is a map with a man on it, the camera set behind the listeners' backs at the ledge: Jesus stands on the overlook between the two geographies \u2014 below on one side the grey desolate ravine with its thin dying"
   },
   {
    "row": 137,
