@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T09:27:04_
+_Last sync: 2026-08-13T11:46:05_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 39 row(s)
+- **BUILDING** — 38 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 36 row(s)
+- **ON REVIEWER — awaiting Cameron** — 37 row(s)
 
 ## The rows
 
@@ -154,7 +154,7 @@ _Last sync: 2026-08-13T09:27:04_
 | 131 | Scribe Near the Kingdom | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 132 | Forbid Him Not | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 133 | What Jesus Called Hell | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 134 | "Today shalt thou be with me in paradise" | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 134 | Today Shalt Thou Be With Me in Paradise | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 135 | The Rainbow Covenant | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 136 | Healed in Two Touches | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 137 | One As We Are One | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
