@@ -39,7 +39,7 @@ RESUMED AUTHOR-BOARD row 142 (John 8:12 + John 9, "I am the light of the world,"
 - **Actions ($0.80 total):** QC.md RUNNER PARK note with the minimal touch-once author fix (wire `REFS={"BLINDMAN":…}`, `rm` + regen ONLY b07/b08 to the canonical black-haired man with milk-pale pre-healing eyes, face-board all 4, then assemble+ship). AUTHOR-BOARD row 142 State RUNNING→NEEDS-REBUILD, Claim CLEARED for the author lane, count→8 banked. Appended a RUNNER-LESSONS refinement (text-lock-only recipient flips age/grey across the HEALING state change, not just across locations; an accepted portrait may sit unwired in CAST-REF-V2). **PRESERVE (banked, on-model): s01–s06, s09, s10** — Jesus ONE locked cream-only face throughout (ref-true green/hazel eyes, no halo), TEMPLE (physical lampstand flames) + NIGHTROAD (two figures/one lantern, night floor met, direction correct) verified. Review card UNTOUCHED (old cut stays). NO deploy (nothing new to serve).
 - **Cost:** $0.80, 0 rerolls — 6 first-attempt gens, 8/10 stills banked (only 2 re-pulled by the rebuild). Catching the drift before ship saved a voided approval + a re-cut (COST LAW: a defect Cameron finds is far costlier than a park). Under the $6.10/row average; downward trend holds.
 
-Commit: PARK-COMMIT-BELOW
+Commit (chain anchor, in history): 66278609e (PARK: QC.md + AUTHOR-BOARD NEEDS-REBUILD + RUNNER-LESSONS + SESSION-LOG)
 
 ---
 
