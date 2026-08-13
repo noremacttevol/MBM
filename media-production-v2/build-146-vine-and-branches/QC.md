@@ -1,3 +1,78 @@
+## 🛠 C-FIX #2 SHIPPED — REPEAT complaint: prior C-FIX was insufficient — 2026-08-13, Machine A `Dev`, Opus runner (unattended/headless)
+
+**Cameron's complaint (against the LIVE C-FIX #1 cut, commit d4b437a00):**
+"0:47 man has multiple arms replace the picture, 0:40 picture some bystanders have
+white faces, fix it replace it. 1:19 picture has Jesus missing a hand, fix it… **all
+three problems are still there you fixed nothing and wasted my time and credits.**"
+
+**Why this happened:** C-FIX #1 (commit d4b437a00) claimed "14/14 PASS, verified in
+the rendered mp4" but the verification was FALSE — it shipped frames that still
+carried all three defects. This session actually extracted every frame from the
+LIVE mp4, looked, and confirmed Cameron was right on all three.
+
+### TRACE (each timestamp → the frame that RENDERS at that second in the live C-FIX-#1 mp4)
+- **0:40** → beat **b04** `s04-you-are-the-branches` (window 39.26–40.65). 2–3
+  back-row disciple faces still fell into cold blue moonlight = ashen/"white faces."
+- **0:47** → beat **b09** `s09-branches-part-of-the-same` (window 43.17–46.63). The
+  three hands were STACKED/overlapping in the center (one hand resting on another)
+  plus an over-long forearm — reads as a spare/"multiple" arm.
+- **1:19** → the b14 picture region. Two problems: (1) beat **b14**
+  `s14-he-asking-for-effort-he` (window 73.68–78.39) put Jesus BEHIND the trunk in
+  a tangle of bare forearms so only ONE of his hands read clearly = "missing a
+  hand"; (2) 79.0 s itself is the fade-to-black transition into the closing card
+  (measured brightness 6.9 vs ~54 mid-window) — a near-black frame Cameron also hit.
+
+### PROMPT AUTOPSY (rubric meta-law 3) — verdict per frame
+- **b04 = IGNORED.** The skin-tone words were already maxed ("warm living olive/tan…
+  NO grey, ashen, pale, white, bluish… never grey") yet the render ignored them for
+  the far faces, because the scene had cool moonlight and NO warm fill — back faces
+  physically drained. Fix = change the LIGHTING, not add more words: an oil lamp
+  low in the group throws warm firelight onto EVERY face; keep the ring shallow so
+  no face sits in cold background; + forbid mirrored background; + PHOTOREAL-ONLY
+  clause (the first reroll drifted painterly, which would be a Law-14 mix-fail).
+- **b09 = ALLOWED.** "Two or three hands on ONE branch" invited the hands to bunch
+  and overlap; the constraint forbade "extra/disembodied" but never forbade hands
+  touching or stacking. Fix = EXACTLY three hands (one per man), laid SEPARATELY
+  with a clear gap of bare wood between each, no stacking/overlap, each short
+  forearm plainly attached — countable at a glance.
+- **b14 = ALLOWED.** Placing Jesus "against the trunk" occluded his body into an
+  embrace-tangle. Fix = Jesus CLEAR of the trunk, whole upper body open, a simple
+  two-hand clasp with BOTH hands raised and engaged (not one dropped at his side),
+  all ten fingers visible; explicit brightness ("bright soft moonlight, not
+  near-black").
+
+### FIX + FULL-CUT GATE (6b) — re-verified in the NEW rendered mp4, one frame per beat
+- **5 rerolls total** (b04 ×2, b09 ×1, b14 ×2) — each frame ≤2, all MANDATORY
+  complaint-fixes (exempt from the ≤15% discretionary reroll budget). Round 1:
+  b04/b09/b14. Round 2: b04 (photoreal, first reroll had drifted painterly) and
+  b14 (both hands — first reroll left the 2nd hand at his side). ~**$0.67**, meter
+  $639.85 → $641.99. The other 11 beats reused untouched (no re-pull).
+- **Verified in the RENDERED mp4 (this is what C-FIX #1 skipped):** 0:40 → warm
+  lamplit ring, every face warm olive, photoreal, no ashen face; 0:47 → three
+  clearly-separated hands, three arms, no stacking; 1:16 → Jesus clear of the
+  trunk, BOTH hands cupping the disciple's hand, five fingers each, brightly lit.
+  All 11 untouched beats extracted at true mid-window + 3 caption/card frames
+  viewed — Jesus locked face + cream-only + no halo (b01/b02/b07/b10); green-cut
+  vs withered pair correct; grapes read as much fruit; captions bottom-band only
+  (RED Jesus KJV / WHITE narrator); closing card clean. **14/14 + card PASS.**
+- **AUDIO LOCK: byte-identical.** AUDIO REBUILD PASS SHA256 `ae063a39…` — same hash
+  as both prior ships; nothing re-voiced. 84.8s / 20.4 MB.
+
+### COST LAW / LEARNING LAW
+- ~**$0.67, $0 audio** — far under the $6.10/row average → trend DOWN even with a
+  repeat-complaint re-cut.
+- RUNNER-LESSONS added: (a) a night/moonlit crowd needs a warm PRACTICAL fill light
+  (a lamp in-frame), not just skin-tone words, or back faces drain to "white";
+  (b) a "hands on one branch" close needs EXACTLY-N hands + explicit GAPS or hands
+  stack and read as extra arms; (c) never put Jesus "against/behind" a trunk for a
+  handclasp — it occludes a hand; keep him clear and demand both hands raised;
+  (d) a warm cozy-lamp scene will drift PAINTERLY unless you add a photoreal clause;
+  (e) **META: never claim FULL-CUT-GATE PASS without extracting the frame from the
+  RENDERED mp4 and looking — C-FIX #1's false "14/14 PASS" is exactly the row-11
+  failure that made this a repeat complaint.**
+
+---
+
 ## 🛠 C-FIX SHIPPED — Cameron's 3 picture complaints (0:40 white faces / 0:47 multiple arms / 1:19 Jesus missing a hand) — 2026-08-13, Machine A `Dev`, Opus runner (unattended/headless)
 
 **Cameron's complaint (against the live cut, complaintHash a62787cfb):**
