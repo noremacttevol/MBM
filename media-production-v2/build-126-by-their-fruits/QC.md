@@ -81,3 +81,19 @@ wording, timing.
 **Row is buildable.** 0 stills, so per the audio-fix protocol the board is flipped to
 **AUTHORED / Audio OK / Ready ✅**; a picture runner generates the stills then runs
 `v2_assemble.py 126` → AUDIO REBUILD PASS and ships the full cut on this fixed audio.
+
+---
+
+## ✅ SHIPPED — realistic-V2 first cut (Opus runner, Machine A `Dev`, headless, 2026-08-13)
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 126` shows no filed complaint on this row). This is the first realistic-V2 cut of the 2026-07-17 ASSEMBLY-D verse-card placeholder.
+
+- **Build:** 17 painted stills @ native 2K, Matt 7:15-20. FARMER portrait auto-wired via `v2_story_cast` (REFS["FARMER"]=CAST-REF-V2/farmer.jpeg) — kills the text-lock-only farmer drift risk. Jesus beats (b01/b03/b17) auto-attach the V2 master face (green/hazel ref-true eyes — lesson 20, NOT brown-edited).
+- **Plates:** ORCHARD promoted from b07 (two doctrinal trees — laden fig + blighted barren — locked by IMAGE across 11 beats; PLACE_REFS["ORCHARD"]). FOLD deliberately NOT promoted: b02 contains the fleece-wolf and promoting it would inject the wolf into b04 (which must be a *human* false-shepherd) — the exact person-in-a-place-plate trap the author flagged for build-21; FOLD's 2 beats carried by its lock text instead. HILLSIDE text-only (the only sibling plates, 121/122, contain Jesus — cannot wire a Jesus-bearing plate to a place).
+- **Rerolls: 2/17 = 11.8%** (under 15% COST-LAW budget). Both on **b04**: take 1 rendered a MODERN British hill-farm (galvanized wire fence + buttoned wool overcoat/trousers/boots — historical-coherence fail); take 2 rendered LETTERBOXED (16:9 padded into portrait = grey bars); take 3 clean (full-frame period dry-stone fold at dusk, robed false-shepherd w/ staff+sandals, sheep edged behind). PROMPT-AUTOPSY b04 = **ALLOWED / generator-drift** (b02 rendered period-correct with the same FOLD lock → per-frame drift, not a text defect → --redo, not a text edit).
+- **FULL-CUT GATE (one frame per beat from the RENDERED mp4 + 3 caption frames + card): 17/17 + card PASS.** Realistic photography throughout (Law 14, no cartoon/mix). Jesus ONE locked face b01/b03/b17 (cream-only, green/hazel ref-true eyes, calm gaze, no halo, ordinary scale). Wolf frame = unease not violence (fleece draped, sheep unharmed, no blood/lunge). Fire (b14) = orchard branch-fire at distance, axe on the barren trunk only. Two trees consistent via ORCHARD plate. Scratched hand (b08) light, no gore. Market test (b16) = buyer's gaze on the short measure. **SPEAKER LAW pixel-verified:** Jesus KJV segs (j1a/j2/jv18) captions RED, all narrator segs WHITE, NO green (no God-voice) — correct. Captions bottom-band; card clean (no tofu). DROP-CHECK: concat_base = 17 clips == 17 beats (row-173 last-beat-drop risk cleared); mp4 106.1s == audio.
+- **FIX-WAVE (non-blocking, for the deep pass):** (1) b12 farmer's hair/beard render fuller & darker than the balding-grey farmer in b05/b06/b09/b14/b15 (5-of-6 consistent; b12 outlier) — harmonize via lesson-10 identity-edit, NOT a blind reroll (preserves the excellent green-fig-vs-black-fig composition). (2) b07/b11 a small grey cloth/mesh on the dry-stone-wall bottom-right corner (ambiguous sackcloth vs netting; mostly behind the caption band / Ken-Burns-cropped) — verify or edit at the deep pass.
+- **Audio:** AUDIO_FROM_V1_SEGMENTS=True (audio-lane STALE-V1 fix already applied) → track rebuilt byte-consistent from the 11 V1 segment mp3s, nothing re-voiced/re-timed. **AUDIO REBUILD PASS SHA256 07846dc0…, 106.098s, 19.9 MB.**
+- **Cost:** ~$2.67 this row ($0.13 farmer portrait + $0.27 anchors + $2.01 body + $0.26 two b04 rerolls), 11.8% rerolls — under the $6.10 / 19% running average (COST LAW downward trend holds).
+
+Resume (if ever needed): row is BUILT + shipped; nothing pending except the FIX-WAVE items above (deep pass, not a re-cut).

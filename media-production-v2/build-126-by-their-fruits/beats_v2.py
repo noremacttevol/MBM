@@ -483,11 +483,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # FOLD: build-21 b09 auto-match REJECTED — the fold itself matches, but
-    # the frame contains build-21's SHEPHERD standing in the flock; b02 needs
-    # no man (wolf) and b04 a different stranger. Promote-first from b02.
-    # ORCHARD --take from build-32 also REJECTED (blue-grey dusk estate frame,
-    # not the bright-day two-tree orchard) — promote-first from b07.
+    "ORCHARD": "PLACE-REF/orchard.jpeg",  # build-126-by-their-fruits s07-even-so-every-good-tree (manual)
 }
 # === end PLACE-PLATES ===
 

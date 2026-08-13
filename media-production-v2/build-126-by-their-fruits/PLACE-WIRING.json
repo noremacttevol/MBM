@@ -1,1 +1,8 @@
-{}
+{
+ "ORCHARD": {
+  "manual": true,
+  "src_beat": "s07-even-so-every-good-tree",
+  "src_build": "build-126-by-their-fruits",
+  "src_file": "build-126-by-their-fruits/assets/s07-even-so-every-good-tree.jpeg"
+ }
+}
