@@ -1,3 +1,15 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 143 "I AM THE DOOR" (John 10:1-9) INDEPENDENT QC-VERIFY: 10/10 beats + card CLEAN, NO re-cut ($0/0) — Machine A `Dev`
+
+Session-chain verified at start: prior top entry row 134 today-in-paradise QC-OK, commit `ab2d68995` present in `git log`; `hostname`=Dev=Machine A. Task = VERIFY-PASS on AUTHOR-BOARD row 143 (BUILT 2026-08-13, sitting in Cameron's Unwatched queue — check before his eyes reach it, per the row-11 seven-bad-frames failure).
+
+- **UNTOUCHABLE-APPROVED CHECK FIRST (before claiming anything):** read `.approvals.json` myself — **row 143 `approved:false`, `approvedHash:null`** → never approved (an old 2026-07-20 timestamp only, V1 era). Not an approved row, so the untouchable-guard's precondition fails → safe to verify (this is the check that prevents the 3 AM re-cut of approved rows 1/122/129). Live card data-hash `41a4da252beee0dc6b5ea01ac1802a285a7ee2ea` matches the shipped mp4.
+- **COMPLAINT LEDGER: none open** (`.approvals.json` 143 complaint:null; row is a first-attempt realistic-v2 cut resumed from a died-mid-build RUNNING row, no filed complaint to regress).
+- **Claim:** appended `QC-VERIFY 2026-08-13 LIVE` to the board Claim cell, pushed before viewing.
+- **FULL-CUT GATE 6b re-run MYSELF:** extracted ONE mid-window frame per beat from the RENDERED mp4 (10 beats via beats_v2.py windows) + the question card, viewed EVERY one → **10/10 beats + card CLEAN.** All realistic photography (Law 14, no cartoon/mix). Jesus ONE locked cream face b03/b07 (dark wavy hair, full beard, Middle-Eastern; cream ONLY on Jesus; no halo/glow/rim-light; ordinary scale — not a giant); KJV John 10:7 (b03) + 10:9 (b07) word-exact, red-letter captions for his words. Parable shepherd b01/02/05/06/08/09/10 = same man every frame (dark brown tunic, black hair+beard, ~35, olivewood staff), never aged/greyed/shaved, no cream on him. Clean anatomy/hands everywhere (two arms/two hands/one head). Doctrine held: open gap, NO gate or bars in any frame; wall-climber b04 non-violent unease only; direction law (in at dusk b06 / out at bright morning b08); intentional night→day→night time-of-day arc consistent. No modern objects. Captions bottom-band only (narrator WHITE, Jesus KJV RED); question card clean serif, no typo-squares, art uncovered.
+- **Outcome:** cut CONFIRMED CLEAN. **NO re-cut ($0/0 rerolls)** — a clean cut is not touched. Claim marked **QC-OK 2026-08-13**; QC.md carries the verify note. Appr untouched (Cameron's alone).
+
+Commit: (this SESSION-LOG + AUTHOR-BOARD QC-OK + QC.md verify note — hash below)
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 134 TODAY SHALT THOU BE WITH ME IN PARADISE (Luke 23:39-43; John 20:17) INDEPENDENT QC-VERIFY: 18/18 beats + card CLEAN, NO re-cut ($0/0) — Machine A `Dev`
 
 Session-chain verified at start: prior top entry row 145 way-truth-life SHIPPED, commit `38cbea08cfabb444e836edbe6838921311bb4e6f` present in `git log`; `hostname`=Dev=Machine A. Task = VERIFY-PASS on AUTHOR-BOARD row 134 (BUILT, sitting in Cameron's Unwatched queue — check it before his eyes reach it, per the row-11 seven-bad-frames failure).

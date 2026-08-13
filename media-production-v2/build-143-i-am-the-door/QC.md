@@ -105,3 +105,26 @@ File order = story order.
 - Plates: FOLD accepted (build-21 b12 — see identity note above).
   HILLSIDE promote-first from b03.
 - b09: the nuzzle close — nothing transactional in frame.
+
+## QC-VERIFY 2026-08-13 — independent FULL-CUT re-verify (Opus runner, Machine A `Dev`, headless)
+
+Row not approved (approvals.json 143 approved:false) — verify-guard N/A;
+independent full-cut check before Cameron's Unwatched queue. Extracted one
+frame per beat (mid-window) + the 3 caption/card frames from the RENDERED
+mp4 (john-10_i-am-the-door.mp4, live hash 41a4da25…) and viewed all 11
+against the 6b defect checklist + RUNNER-LESSONS.
+
+VERDICT: 10/10 beats + card CLEAN. NO re-cut ($0/0 rerolls).
+- Jesus b03/b07: locked cream-only face, no halo/glow/rim-light, normal
+  scale, KJV John 10:7 + 10:9 word-exact, red-letter captions (his words).
+- Shepherd b01/02/05/06/08/09/10: same man every frame (dark brown tunic,
+  black hair+beard, ~35), never aged/greyed/shaved, no cream on him.
+- Anatomy: every figure two arms/two hands/one head; no extra limbs or
+  mangled hands anywhere.
+- Doctrine/scene: open gap, NO gate or bars in any frame; wall-climber b04
+  non-violent unease only; direction law holds (in at dusk b06 / out at
+  bright morning b08); time-of-day arc intentional + consistent.
+- Realistic-only: no cartoon/stylised frame; no modern objects.
+- Captions bottom-band only; question card clean (no code-squares, art
+  uncovered).
+COMPLAINT LEDGER: none open on row 143.
