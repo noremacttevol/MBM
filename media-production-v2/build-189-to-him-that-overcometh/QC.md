@@ -1,5 +1,43 @@
 # QC / RUNNER HANDOFF — build-189-to-him-that-overcometh
 
+## ✅ SHIPPED 2026-08-13 (Opus runner, unattended/headless, Machine A `Dev`)
+
+First V2 cut on the audio-fixed track. **12 stills + 1 OVERCOMER portrait, 1 reroll
+(b07, 8.3% ≤ 15% budget), ~$1.87.** Meter $657.00 → ~$660.6 (shared with concurrent lanes).
+
+**COMPLAINT LEDGER — Cameron (v2_outline 189): "Pronounce overcometh as OH-vur-kuh-muhth
+0:38." — FIXED & VERIFIED IN THE RENDERED MP4.** The audio lane's re-voiced j2 (overcummeth
+respell → chosen Jesus voice "Chris") is baked in via `AUDIO_FROM_V1_SEGMENTS=True`. Whisper
+round-trip of the j2 region (29-40s) off the DELIVERED mp4: "...to him that **overcometh** will
+I grant to sit with me in my throne, even as I also overcame..." — ONE clean word, no
+"Over Kometh" seam. F0 of the same region = **120.3 Hz** = the Chris/chosen family (not the
+stale ~90 Hz). Both halves of the latent complaint (pronunciation + stale voice) closed.
+
+**FULL-CUT GATE (§6b) on the RENDERED mp4 — 12/12 beats + question card PASS.** Extracted one
+frame per beat (mid-window) + the card and viewed EVERY one:
+- Jesus locked V2 face consistent across b02/b03/b05/b06/b08/b09/b10/b12 (olive skin, dark
+  wavy hair, full beard, calm ref-true green/hazel eyes, NO halo/glow/rim-light, ordinary
+  scale); OVERCOMER one identity across b04/b05/b07/b11/b12. **Only Jesus wears cream** —
+  overcomer always brown/grey.
+- **HARD GATE GOD/THE FATHER NEVER EMBODIED (b10):** "set down with my Father in his throne"
+  lands on a SECOND throne of pure radiant light with NO figure/face/beam, no dove/triangle/
+  symbol — verified in the rendered frame; reads as an empty throne of light, not a UFO/disc.
+- **SCALE gate (b12):** Jesus + overcomer seated side by side, same ordinary scale.
+- Realistic throughout (Law 14, no cartoon/mix); no modern objects; anatomy/hands (five each)/
+  beards clean; oil lamps lit at the pinch SPOUT; drift-word/one-cream checks pass.
+- Captions bottom-band: RED-letter only on Jesus's own lines — j1 Rev 3:20 (b03/b04/b05) and
+  j2 Rev 3:21 (b09/b10); narrator WHITE (n0/n1/n2/n3 + card). Question card clean, no typo
+  squares. No trailing dead-air (video 52.03s ≈ audio 52.018s, card ~6.2s).
+- **b07 rerolled once:** first take was a three-panel COLLAGE (Law-7 panels violation); redo
+  landed a clean single frame of the hand lifting the wooden latch. No other defect surfaced.
+
+**Drop-check (row-173 lesson):** `concat_base.txt` = 12 clips = 12 beats; `extract_beats`
+card_start 45.805 > b12 window start 43.300 → no beat dropped. AUDIO REBUILD PASS
+SHA256 `ec759534fbba…`, 52.0s, 20.1 MB.
+
+---
+
+
 **Row 189 · Revelation 3:20-21 · "Behold, I stand at the door, and knock" + "To him that
 overcometh."** State: **AUTHORED / Audio OK / Ready ✅** — picture map authored & `--check`
 PASS; the "overcometh" pronunciation complaint was CLOSED by the AUDIO lane 2026-08-07

@@ -1,0 +1,20 @@
+{
+ "DOOR-NIGHT": {
+  "manual": true,
+  "src_beat": "s01-the-drowsy-house",
+  "src_build": "build-189-to-him-that-overcometh",
+  "src_file": "build-189-to-him-that-overcometh/assets/s01-the-drowsy-house.jpeg"
+ },
+ "LAMPLIT-ROOM": {
+  "manual": true,
+  "src_beat": "s04-any-man-hear-his-voice",
+  "src_build": "build-189-to-him-that-overcometh",
+  "src_file": "build-189-to-him-that-overcometh/assets/s04-any-man-hear-his-voice.jpeg"
+ },
+ "THRONE-GLORY": {
+  "manual": true,
+  "src_beat": "s11-not-by-being-flawless",
+  "src_build": "build-189-to-him-that-overcometh",
+  "src_file": "build-189-to-him-that-overcometh/assets/s11-not-by-being-flawless.jpeg"
+ }
+}
