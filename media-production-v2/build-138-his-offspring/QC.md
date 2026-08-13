@@ -136,3 +136,58 @@ python3 media-production-v2/v2_assemble.py 138            # must print AUDIO LOC
 # FULL-CUT GATE 6b: extract 1 frame/beat + 3 caption frames, view every one
 # ship (2 commits) → firebase deploy --only hosting → live-verify v138 hash → BUILT
 ```
+
+---
+
+## ✅ SHIP — Opus picture runner, Machine A `Dev`, 2026-08-13 (headless, endpoint RECOVERED)
+
+**RESUME → SHIP.** The ~6.5 h board-wide `gemini-3-pro-image` HTTP 503 outage that
+parked this row (PARK #1) has RECOVERED. Probed the live image endpoint at session
+start: `models?list` HTTP 200 (key healthy) AND a real `gemini-3-pro-image:generateContent`
+POST returned **HTTP 200, 20.9 s, 5.1 MB real JPEG** (inlineData image/jpeg) — endpoint
+answering board-wide (other lanes' frames resumed too). Resumed the 4 banked hard-law
+rejects; the 6 PASS frames were reused byte-identical (COST LAW — never re-pulled).
+
+### COMPLAINT LEDGER
+COMPLAINT LEDGER: none open (`v2_outline.py 138` shows no filed complaint on this row).
+Cross-check PASS: QUEUE 138 "We are also his offspring" (Acts 17) == build-138 (Acts
+17:22-31) — not a swapped/replaced story.
+
+### The 4 rerolls (all hard-law reject classes, viewed in source AND rendered mp4)
+- **s03 (b03)** legible carved Greek on the altar → PROMPT-AUTOPSY verdict 2/3 (b03 lacks
+  an explicit no-text clause; global no-readable-text applies). Reroll #1 = 2-line gibberish
+  (still legible); reroll #2 = clean real "ΑΓΝΩΣΤΩ ΘΕΩ" (correct but the author's traces-only
+  design for this altar, b02/b08 `must_not_show` ABSOLUTE-no-legible-text, + continuity with
+  b02/b08 require traces). At 2-reroll cap → **$0 mechanical de-ink** (cv2 threshold→INPAINT_TELEA
+  + faint ghost + feathered composite) to weathered traces. Backup `.pre-deink.bak`.
+- **s05 (b05)** two-panel stacked diptych (market over philosophers) → one `--redo` landed a
+  single coherent agora wide (traders/children/donkey-cart/stalls). PASS.
+- **s08 (b08)** legible carved gibberish; b08 `must_not_show` ABSOLUTE no-legible-text →
+  reroll #1 still 3-line gibberish; at cap → **$0 mechanical de-ink** (two passes to catch the
+  right-edge column), clean weathered stone in warm gold ("the change is the LIGHT"). Backup kept.
+- **s09 (b09)** neoclassical oil-painting (Law-14 realistic-only, Cameron's #1) → one `--redo`
+  landed photoreal division (some lean in, two turn in polite conversation). PASS.
+
+### FULL-CUT GATE 6b (viewed EVERY beat + card extracted from the RENDERED mp4, play-order)
+10/10 beats + card CLEAN. Photoreal throughout; PAUL identity consistent every beat (bald
+fringe, dark pointed beard, rust-brown robe, ref-locked); s02 keeps intended faint illegible
+traces; s03/s08 altars now clean (no legible text); s05 single scene (no seam); s09 photoreal
+(no cartoon); two-voice captions correct (s07 scripture BLUE, rest narrator WHITE, bottom-band
+only); question card clean serif, no typo-squares, good margins. No Jesus/cream, no giants,
+no modern objects, no owl-neck, natural anatomy/hands. concat_base = 10 clips == 10 BEATS
+(no dropped-beat bug). Audio: ElevenLabs (all 8 segs 44100/128000), REDO-ALL satisfied.
+
+### AUDIO LOCK
+AUDIO REBUILD PASS SHA256 `fb021eb12ab33287a96d9fc13eb895c8a194d44b659af8e79081edbae265c031`,
+54.138 s, rebuilt from 8 V1 segment mp3s (AUDIO_FROM_V1_SEGMENTS=True), pictures-only change.
+
+### COST (overage explained — DEFECT-RATE, not churn)
+6 paid rerolls / 10 beats = 60% (over the 15% budget) + 2 $0 mechanical de-inks. This is
+driven by the dead-run's first-attempt defect rate (4 hard-law rejects: 2 legible-text, 1
+diptych, 1 cartoon), NOT reroll-churn — no frame pulled more than twice (COST LAW max-2 honored),
+and the altar's "unknown God" carved-text prior forced the 2nd pull + $0 de-ink finish instead
+of burning more credits. Shipping any reject repeats a Cameron complaint class (cartoon = his
+#1 law). Image spend THIS session $0.81 (6×0.134); TTS $0; de-ink $0. **Row TOTAL across all
+sessions = 16 images (10 banked + 6 rerolls) × 0.134 = ~$2.14 — well UNDER the $6.10/row
+average** (small 10-beat row + 6 reused frames). Meter at ship ~$712.6 (other lanes advancing
+it too), never over my 738 ceiling.
