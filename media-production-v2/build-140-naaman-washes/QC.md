@@ -1,47 +1,68 @@
 # QC / RUNNER HANDOFF — build-140-naaman-washes (2 Kings 5:1-14)
 
-## 🅿️ PARKED-STORY — RUNNER WILL NOT BUILD (2026-08-11, Machine A `Dev`, Opus runner, $0/0 stills)
+## ✅ AUTHOR-REFRAMED — Option B taken (2026-08-13, Machine A `Dev`, Fable-5 author lane, $0 stills)
 
-**Row 140 is BLOCKED by an OPEN reviewer complaint that rejects the STORY, not
-the pictures — so a picture build cannot fix it and would ship the exact
-rejected cut (the worst failure this pipeline can produce). Ready ✅ CLEARED →
-this row is AUTHOR-LANE work + a Cameron story decision.**
+The story-rejection complaint has been fixed at the AUTHOR level and the row is
+Ready ✅ for the runner to build its 16 stills. The park is CLEARED.
 
-Cameron's own words (`v2_outline.py 140`, tagged OPEN — MUST BE FIXED):
+Cameron's complaint (`v2_outline.py 140`, was OPEN):
 > "What the f*** is this? Did we just run out of stories that were good about
 > Jesus to tell? And now you are using somebody else's gospel to redo the same
 > exact story we told earlier of the prodigal son… you shouldn't use 2 different
 > people telling the same story about Jesus… did we seriously run out of Jesus
 > stories…"
 
-**Why a rebuild does NOT fix it (root cause):** the complaint is about STORY
-SELECTION + MORAL DUPLICATION, not any frame. The authored narration still
-carries the prodigal "coming home" moral grafted onto an Old-Testament figure —
-`n5`: *"The instruction wasn't beneath him. It was the way back… If you've been
-away, the way back may look almost too simple — pray again, read again, come
-back again. Do the simple thing."* That IS the Prodigal-Son lesson Cameron
-already has (row 2). Generating 15 realistic Naaman stills over this same moral
-= re-shipping the story he rejected. There is no COMPLAINT LEDGER line the
-runner can honestly write ("what in this cut fixes it") because nothing in a
-picture build changes the moral he objected to.
+**Root cause (confirmed):** the story is NOT the problem — 2 Kings 5 (Naaman) is
+a genuinely distinct Bible account. The problem was that the authored `n5` MORAL
+had been grafted onto the prodigal "coming home" lesson Cameron already has at
+row 2 — *"It was the way back… if you've been away… come back again."* That
+duplication is exactly what he rejected.
 
-**Why the runner cannot fix it here:** hard-rail #1 forbids editing scene text,
-locks, or any beat's moral. The fix is a STORY DECISION above runner scope:
-  - **Option A — CUT Naaman from the 200** (Cameron: "find some other way to get
-    into things that would be good for people"). Purge the row like the prior
-    prodigal dupe it replaced.
-  - **Option B — AUTHOR-REFRAME** the moral away from the prodigal "way back /
-    come back again" framing to a distinct lesson (e.g. *the pride that almost
-    forfeits a free healing* / *God's power reaching a foreigner outside
-    Israel*), so it no longer duplicates row 2. Then re-set Ready ✅.
-Either way it goes back to the FABLE-5 AUTHOR lane, not the runner.
+**The reframe (Option B — keep the story, change the moral to Naaman's OWN
+lesson):**
+- **n5 re-authored** from the prodigal "way back / come back again" framing to
+  Naaman's actual lesson — humble obedience, and the pride that almost forfeits a
+  FREE gift:
+  *"The instruction wasn't beneath him. His pride nearly cost him everything.
+  God's mercy isn't impressed by rank or gold — it asks only that we humble
+  ourselves and obey. Whatever simple thing He is asking of you, don't be too
+  proud to do it."* (Both V1 `media-production/build-140/make_narration.py` and
+  the V2 copy carry the new text; captions flow from V1 SEGMENTS via extract_beats.)
+- **n5 re-voiced** in ElevenLabs **Brian** (narrator, engine-parity with n0–n4),
+  written to `media-production/build-140-naaman-washes/audio/n5.mp3` (15.60 s).
+  `AUDIO_FROM_V1_SEGMENTS = True` set in beats_v2.py so the V2 cut rebuilds its
+  track from the re-voiced V1 mp3s (the stale V1 mp4 is NOT stream-copied).
+- **beats.json rebuilt** (`extract_beats 140`) → new n5 timing + shifted card +
+  total 99.34 s. All 16 beat **windows re-derived** to the new timeline.
+- **b15 image reframed** ("the way back" → *what pride nearly cost*: Naaman clean
+  in the shallows looking back at his heaped, abandoned armor + chests of gold).
+- **b16 image reframed** (a modern person "kneeling again… come back again" → the
+  mighty captain HIMSELF kneeling humbled in the Jordan; locked to NAAMAN + JORDAN,
+  in-world, no modern room). This kills the prodigal "return" motif in the picture
+  as well as the words.
+- The closing **card** ("He almost rode away from his healing because it sounded
+  too simple. Do the simple thing.") was already Naaman-specific — pride nearly
+  forfeiting a free healing — and is KEPT unchanged (byte-identical audio).
 
-**THE ONE QUESTION FOR CAMERON:** cut Naaman entirely, or keep it with a
-non-prodigal moral? (This is a which-story-to-cut / doctrine fork — yours alone.)
+`v2_prompt.py --check` PASS (16 beats). `audio_audit --rows 140` clean (0
+old-voice, new ElevenLabs n5 recognized). Cost: $0 image spend; one short
+ElevenLabs segment re-voice.
 
-**Resume (only after the author reframes AND re-sets Ready ✅):**
-`python3 media-production-v2/v2_prompt.py build-140-naaman-washes --check` then
-the normal runner loop. Until Ready ✅ returns, no session builds this row.
+### COMPLAINT LEDGER (runner: copy the review-card line, verify before ship)
+- **OPEN — "using somebody else's gospel to redo the same exact prodigal-son
+  story / did we run out of Jesus stories":** FIXED by re-authoring the n5 moral
+  from the prodigal "way back / come back again" lesson (a duplicate of row 2) to
+  Naaman's own distinct lesson — humble obedience and the pride that nearly
+  forfeits a free healing — in both the narration (re-voiced) AND the closing
+  images (b15 abandoned pride, b16 the great man kneeling humbled). The story is
+  kept; only the duplicated moral is gone.
+- **Review-card flag for Cameron:** *"Reframed Naaman off the prodigal 'coming
+  home' moral you flagged — it now teaches humble obedience (pride nearly cost him
+  a free healing), which no other story tells. Same account, its own lesson."*
+
+**Resume (runner):** `python3 media-production-v2/v2_prompt.py
+build-140-naaman-washes --check` then the normal runner loop — build the 16
+stills, assemble (AUDIO_FROM_V1_SEGMENTS rebuild), ship.
 
 ---
 
@@ -95,3 +116,26 @@ modern objects (row-7). File order = story order.
 - Plates: HOUSE --take from build-16 REJECTED (the Bethany dusk
   lane again — 11+ prior declines; Elisha's house is its own
   place). HOUSE promote-first from b05, JORDAN from b12.
+
+
+## 🔁 NEW STORY SPEC (2026-08-13) — this row is no longer Naaman
+
+Cameron rejected the Naaman story itself (duplicate of #2 Prodigal Son's come-home moral).
+Row 140 is now **THE BRONZE SERPENT — Numbers 21:4-9 + John 3:14-15**, chosen via an
+external-AI gap review of the full 200 lineup and handed back by Cameron 2026-08-13.
+
+- **Moral (plain words):** look in faith to God's provision and live — simple, desperate
+  looking that saves. This is the event Jesus HIMSELF used to explain his cross:
+  "as Moses lifted up the serpent in the wilderness, even so must the Son of man be
+  lifted up" (John 3:14, KJV — close the video on this verse card).
+- **Not a dupe:** #4 Nicodemus at Night is the John 3 *conversation*; this is the
+  historical *type* it points to. Verified: no serpent/Numbers-21 story exists anywhere
+  in the 200.
+- **Era:** Old Testament — NO Jesus in frame, nobody wears cream; Moses per CAST rules.
+- **CARE:** real venomous snakes in a real wilderness camp — dread, not horror-gore;
+  the bronze serpent lifted on the pole is the visual anchor (cross foreshadow),
+  people across the camp turning their faces toward it to live.
+- **Author fresh in `build-140-bronze-serpent/`** (this folder is the archived Naaman
+  package — do not delete, do not reuse its beats).
+- Alternates (future gap-fills only, do not build): Passover Lamb (Ex 12:1-13),
+  David Spares Saul (1 Sam 24).
