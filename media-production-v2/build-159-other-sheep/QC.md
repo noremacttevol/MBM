@@ -115,6 +115,20 @@ Blocker diagnosis (definitive, so nobody re-diagnoses on the meter):
   from Cameron (row 159/160 precedent). Board handed back AUTHORED + blank claim
   so autopilot/next runner re-picks it the instant the endpoint answers.
 
+## RUNNER PARK #3 — 2026-08-13 18:15 (Opus runner, Machine A `Dev`, headless)
+**Task = RESUME row 159 (lowest Ready). Endpoint STILL down → re-parked clean, $0/0.**
+- Same self-healing Google-side image-endpoint outage, now **~6 h board-wide** (last
+  frame in api-spend.jsonl = **12:22:14**, my own s01; now 18:15). Probes this
+  session: **4/4 image-model = HTTP 503 UNAVAILABLE ("high demand"), sub-second**;
+  a `models?list` probe = **instant HTTP 200** → key HEALTHY, authenticated, billing
+  FINE, **NOT a prepay wall / NO top-up / NO inbox escalation** (rows 159/160/162/164
+  precedent — all four sit AUTHORED empty-claim, re-pickable). Board-wide → NO row
+  is buildable, so this is a genuine truly-blocked stop, not a per-row skip.
+- Did NOT re-burn a full `v2_gen_api` run: the 4/4 flat sub-second 503 + the 13:54
+  real 9.5-min foreground resume (0 frames / $0) already prove the endpoint, not the
+  row. Banked work still valid, do NOT regen: `CAST-REF-V2/shepherd.jpeg` + s01.
+- Meter unchanged **$711.00**. $0/0 gen, 0% rerolls.
+
 RESUME (once the image endpoint responds again — a text/image probe returns 200,
 or a sibling lane's frame lands in api-spend.jsonl):
 ```
