@@ -321,8 +321,11 @@ esac
 # escalate that row to the default model (Fable) so one smart pass ends the
 # loop instead of a 3rd/4th/16th cheap failure.
 if [ ${#MODEL_ARGS[@]} -gt 0 ]; then
+  # NOTE the || true inside the pipeline: with pipefail, a no-match grep exits
+  # nonzero and would kill the whole tick under set -e (caught 2026-08-13
+  # before it bit a live tick — billing-down had masked it all night).
   TRIES=$(find "$LOGDIR" -maxdepth 1 -name "2*-$JOB.log" -mmin -1440 -print0 2>/dev/null \
-    | xargs -0 -r grep -l "AUTHOR-BOARD row $ROW\b" 2>/dev/null | wc -l)
+    | { xargs -0 -r grep -l "AUTHOR-BOARD row $ROW\b" 2>/dev/null || true; } | wc -l)
   if [ "${TRIES:-0}" -ge 2 ]; then
     log "row $ROW has $TRIES prior $JOB sessions in 24h — escalating this run from Opus to the default (Fable) model"
     MODEL_ARGS=()
