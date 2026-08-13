@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T11:51:38_
+_Last sync: 2026-08-13T12:13:23_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 36 row(s)
+- **BUILDING** — 35 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 39 row(s)
+- **ON REVIEWER — awaiting Cameron** — 40 row(s)
 
 ## The rows
 
@@ -164,7 +164,7 @@ _Last sync: 2026-08-13T11:51:38_
 | 141 | I Am the Bread of Life | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 142 | I Am the Light of the World | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 143 | I Am the Door | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 144 | Resurrection and the Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 144 | Resurrection and the Life | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 145 | Way Truth Life | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 146 | Vine and Branches | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 147 | Joseph Forgives | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
