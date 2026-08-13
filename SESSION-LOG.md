@@ -1,3 +1,21 @@
+## 2026-08-12 (cont. 93) — ROW 89 C-FIX #5 SHIPPED ($0, 0 credits): "0:14 doesn't look like Jesus" (his 5th re-open) FINALLY CLOSED via ADJACENT-ROOM crop reuse — the $0 path cont.91 missed — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
+
+**Commit:** this log + reviewer card + RUNNER-LESSON (`<will be this push>`) + `f8598af96873` (mp4 + crop asset + QC autopsy + board claim/ship). Deployed to Firebase (`milk-b4-meat`) + live-verified. Chain verified on entry: top was cont.92, commit `f77f90ebbc14` present in `git log` (HEAD `37a437ec7`); hostname = Machine A `Dev`.
+
+**Complaint (`v2_outline.py 89`, his words):** "0:14 picture doesnt look like Jesus Redo it with the character refrence sane problem 4 times in a row." Row 89 was the lowest waiting complained AUTHOR-BOARD row (complaint-first + low-number).
+
+**TRACE (LIVE mp4, not guessed):** 0:14 = b03/s03 (jv15 "With desire I have desired…", window 10.895–16.455, mid 13.67s). Extracted frame side-by-side vs `JESUS-V2-REF/jesus-v2-face.jpeg` = a DIFFERENT man: shorter near-black tousled hair (no caramel highlights), heavier brow, denser scruffier beard, ruddier skin, tense open mouth. Whole-face identity drift — cont.91's (#4) diagnosis, confirmed.
+
+**AUTOPSY (meta-law 3) = CAUSED by prose; prose ALREADY word-fixed cont.91.** The live-bad s03 came from OLD b03 prose over-describing the face ("lean weathered … dark brown hair"), pulling toward the wrong/harder man (rubric lesson 20 — the ref image IS his face, prose must not re-invent). cont.91 rewrote b03 to DEFER to the reference photo (mirrors b07's minimal must_show which MATCHES the ref); `--check` PASS; staged for a paid regen.
+
+**Billing STILL walled:** own live probe `v2_gen_api.py build-89-last-supper --only v2-r089-b03 --redo --ceiling 645` → **429 prepay depleted, meter $617.34 unmoved, $0/0** (same wall on 82/95/116/118). No paid regen possible.
+
+**THE $0 BREAKTHROUGH cont.91 MISSED:** cont.91 (#4) parked because the only reuse it considered — s07 — is a stone-wall/broken-bread close-up (wrong room + wrong action for "before I suffer"). It overlooked that the IMMEDIATELY ADJACENT beat **b04** ("I have wanted this meal…") holds the ref-CORRECT Jesus IN THE SAME WINDOW ROOM, bread NOT yet broken. Fix: a **tight punch-in CROP of s04** (crop 204,421,1204,2213 → 1000×1792 → LANCZOS 1536×2752, ~1.54×, sharp) installed as s03 → b03 is now a DISTINCT close-up of the correct face, same room/night/meal-state, no continuity break, not a visible dup of the wider b04. New RUNNER-LESSON logged (adjacent-but-wrong-framing → CROP-the-adjacent-still; extends row-63/94 reuse law).
+
+**FULL-CUT GATE (6b) on the RE-RENDERED mp4 — all 16 beats + closing card viewed:** b03 FIXED (ref man, close-up, window room, bread un-broken); every other beat clean and ref-consistent (Jesus cream-only/olive/no-halo, realistic Law-14, night lighting, anatomy/hands clean, captions bottom-band white-narr/red-Jesus). b13 upward-gaze eyes catch lamplight but read hazel/ref — below bar, not complaint-named, untouched (touch-once). Recurring roast-fowl prop period-ambiguous but consistent, not complaint-named, untouched. **AUDIO REBUILD PASS `29a5b1d0…` BYTE-IDENTICAL** (picture-only). **COST: $0.00 / 0 rerolls / 0 credits** — drives the running average DOWN. Reviewer card v89: data-hash `f8598af96873` + `?v=` bump, billing-park machine-reason removed, flag rewritten to a "🛠 FIXED" that answers his complaint in his own words (took the correct 0:19 face into the 0:14 shot). Row 89 complaint CLOSED, back in Cameron's Unwatched queue.
+
+---
+
 ## 2026-08-12 (cont. 92) — ROW 94 C-FIX SHIPPED ($0, 0 Gemini credits): NEW eye/identity complaint CLOSED touch-once despite the billing wall — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
 
 **Commit:** this log + `f77f90ebbc14` (mp4 + QC autopsy + beats_v2 word-fix + assets + board) + `74ba6d96c` (reviewer card v94) + `b031c6610` (publish-loop board refresh). Deployed to Firebase (`milk-b4-meat`) + live-verified. Chain verified on entry: top was cont.91, commit `5dd916622` present in `git log`; hostname = Machine A `Dev`.
