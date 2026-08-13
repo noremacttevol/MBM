@@ -110,19 +110,19 @@
 </header>
 <div class="wrap">
   <h2 id="fh">🔁 Fixed — check your complaint</h2>
-  <p class="secnote">Replacement cuts answering a complaint you filed — longest-waiting first. Open a row, read your complaint, watch the cut, and Approve if it is fixed.</p>
+  <p class="secnote">Replacement cuts answering a complaint you filed — lowest number first. Open a row, read your complaint, watch the cut, and Approve if it is fixed.</p>
   <div id="fixwait"></div>
   <p id="fixwait-empty" class="secnote" hidden>None right now — no replacement is waiting on your check.</p>
 
-  <h2 id="rh">🟡 New — not yet reviewed</h2>
-  <p class="secnote">Fresh realistic rebuilds, newest first.</p>
-  <div id="review"></div>
-  <p id="review-empty" class="secnote" hidden>Nothing new is waiting.</p>
-
   <h2 id="mh">🚩 Complained — machine is fixing</h2>
-  <p class="secnote">You reported these; the build loop rebuilds them automatically — nothing for you to do here. Each row shows how long it has been waiting. When a fix ships it moves up to "Fixed — check your complaint."</p>
+  <p class="secnote">You reported these; the build loop rebuilds them automatically — nothing for you to do here, lowest number first. When a fix ships it moves up to "Fixed — check your complaint."</p>
   <div id="rework"></div>
   <p id="rework-empty" class="secnote" hidden>No open complaints.</p>
+
+  <h2 id="rh">🟡 New — not yet reviewed</h2>
+  <p class="secnote">Fresh realistic rebuilds, lowest number first.</p>
+  <div id="review"></div>
+  <p id="review-empty" class="secnote" hidden>Nothing new is waiting.</p>
 
   <details id="oldwrap" hidden><summary id="oh">🎨 Old style — NOT ready to review</summary>
   <p class="note">These still have the old cartoon-style pictures and are queued for the realistic rebuild — don't judge or approve them. Listed only so nothing is hidden from you.</p>
@@ -1917,7 +1917,10 @@ function place(){
   var dest={fix:byId('fixwait'), fresh:byId('review'), wait:byId('rework'),
             appr:byId('approved'), old:byId('review-old')};
   ['fix','fresh','wait','appr','old'].forEach(function(b){
-    bins[b].sort(function(a,z){ return a.key-z.key || a.num-z.num; });
+    /* CAMERON'S LAW (2026-08-13): the lower the number, ALWAYS first — in
+       every section. Row numbers are his viewing order; wait-time/built-date
+       ordering is demoted to a tiebreaker that can never apply. */
+    bins[b].sort(function(a,z){ return a.num-z.num; });
     bins[b].forEach(function(r){ dest[b].appendChild(r.card); });
   });
   byId('fh').textContent='\ud83d\udd01 Fixed \u2014 check your complaint ('+bins.fix.length+')';
