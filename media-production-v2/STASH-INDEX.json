@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 06:28:17",
+ "scanned": "2026-08-13 06:38:42",
  "entries": [
   {
    "row": 1,
@@ -58833,6 +58833,207 @@
    "night": false,
    "n_person": 1,
    "scene": "Paul is back at his low writing table in the warm daylight, his reed pen in hand and one open hand resting on the parchment \u2014 having been shown more than words can carry, he sets it all aside and points once more to grac"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b01",
+   "file": "build-185-many-mansions-member/assets/s01-the-last-night-together.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "A wide of the lamplit upper room at night seen from behind and to the side of the disciples, their backs three-quarters to the camera as they recline on the cushions around the low U-shaped table, facing Jesus. Jesus, in"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b02",
+   "file": "build-185-many-mansions-member/assets/s02-let-not-your-heart-be-troubled.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A warm close on Jesus in the lamplit room, his cream robe soft in the warm lamplight, his face gentle and steady as he tells the disciples not to let their hearts be troubled. Kind, unhurried, comforting. Ordinary-sized,"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b03",
+   "file": "build-185-many-mansions-member/assets/s03-believe-also-in-me.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A close on Jesus in the lamplit room, one open hand resting toward his own chest as he tells them that as they believe in God, so they may believe also in him. His face is warm and certain, inviting their trust. Ordinary"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b04",
+   "file": "build-185-many-mansions-member/assets/s04-not-to-leave-them-behind.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "A warm two-shot in the lamplit room: Jesus, in his cream robe, lays a steadying hand toward a disciple beside him, his face promising that though he must go away he will not leave them behind. The disciple's worry begins"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b05",
+   "file": "build-185-many-mansions-member/assets/s05-going-to-get-a-place-ready.jpeg",
+   "tokens": [
+    "FATHERS-HOUSE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "A vast establishing wide looking down the length of the Father's house, the camera moving inward away from the entrance through chamber beyond chamber of warm radiant golden light, many open doorways and prepared rooms o"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b06",
+   "file": "build-185-many-mansions-member/assets/s06-many-mansions.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A close on Jesus in the lamplit room, one hand lifted open in gentle assurance as he tells the disciples that in his Father's house are many dwellings, and that if it were not so he would have told them. His face is warm"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b07",
+   "file": "build-185-many-mansions-member/assets/s07-prepare-a-place-for-you.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A tender close on Jesus in the lamplit room, one hand at his heart, promising the disciples that he goes to prepare a place for them. His face is warm and sure, full of quiet love. Ordinary-sized, one head, gaze to his d"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b08",
+   "file": "build-185-many-mansions-member/assets/s08-room-for-everyone.jpeg",
+   "tokens": [
+    "FATHERS-HOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A warm view into the Father's house showing many prepared chambers and open doorways opening one beyond another in soft radiant golden light \u2014 plainly a home with room for everyone, generous and waiting. Peaceful, spacio"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b09",
+   "file": "build-185-many-mansions-member/assets/s09-he-said-it-plainly.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "A warm two-shot in the lamplit room of Jesus speaking plainly and openly to a disciple across the table, his honest face saying the thing simply \u2014 that if it were not true he would have told them. The disciple looks to h"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b10",
+   "file": "build-185-many-mansions-member/assets/s10-if-i-go-and-prepare.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A close on Jesus in the lamplit room continuing his promise \u2014 that if he goes and prepares a place for them \u2014 his face warm and steady, one hand open in tender assurance. Ordinary-sized, one head, gaze to his disciples a"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b11",
+   "file": "build-185-many-mansions-member/assets/s11-i-will-come-again.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A close on Jesus in the lamplit room, both hands opening warmly toward the disciples as if to gather them in, promising that he will come again and receive them unto himself. His face is sure and full of love. Ordinary-s"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b12",
+   "file": "build-185-many-mansions-member/assets/s12-where-i-am-ye-may-be.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "A close on Jesus in the lamplit room, his gaze moving warmly around the table over all his disciples as he finishes the promise \u2014 that where he is, there they may be also. Deep love and certainty on his face; the discipl"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b13",
+   "file": "build-185-many-mansions-member/assets/s13-not-a-far-off-maybe.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "A warm two-shot in the lamplit room: the disciples' faces have settled into peace as Jesus sits near and certain among them \u2014 this is no far-off maybe but a present, sure promise. Quiet and comforted. Ordinary-sized men,"
+  },
+  {
+   "row": 185,
+   "build": "build-185-many-mansions-member",
+   "beat": "v2-r185-b14",
+   "file": "build-185-many-mansions-member/assets/s14-carry-them-home.jpeg",
+   "tokens": [
+    "FATHERS-HOUSE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A warm close on Jesus, in his cream robe, standing at the threshold of the Father's house with an open welcoming hand reaching back toward those he loves \u2014 ready to come again and carry them home himself \u2014 the radiant ho"
   }
  ]
 }

@@ -8,7 +8,7 @@ Lowest available Ready ✅ row on AUTHOR-BOARD (180/182/183 not picked this sess
 - **Ship:** commit `d34c1bfd02bd` (mp4 force-added, QC.md ship note, beats_v2 plate wiring, boards, QUEUE). Reviewer card v185 repointed to the media-production-v2 mp4, data-hash `d34c1bfd02bd…`, ?v=d34c1bfd02bd, realistic-v2 wave, flag answers the voice complaint in Cameron's terms. **Deployed to Firebase + LIVE-VERIFIED.** Appr ⬜ (Cameron's alone).
 - **Cost:** $2.14/row, 7.1% rerolls — under the $6.10 average (COST LAW downward trend holds). AUDIO REBUILD PASS SHA256 9087d057, 59.8s, 20.0MB.
 
-Commit: SHIP-CARD-COMMIT-BELOW
+Commit: 9c066b6350d31d3e56a5904ff30122d32a58e0df (ship-card + SESSION-LOG) · ship mp4 commit d34c1bfd02bdf5ef7fae62cf944270e9b8cc14b5
 
 ---
 
