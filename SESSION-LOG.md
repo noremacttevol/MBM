@@ -1,3 +1,21 @@
+## 2026-08-12 (cont. 92) — ROW 94 C-FIX SHIPPED ($0, 0 Gemini credits): NEW eye/identity complaint CLOSED touch-once despite the billing wall — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
+
+**Commit:** this log + `f77f90ebbc14` (mp4 + QC autopsy + beats_v2 word-fix + assets + board) + `74ba6d96c` (reviewer card v94) + `b031c6610` (publish-loop board refresh). Deployed to Firebase (`milk-b4-meat`) + live-verified. Chain verified on entry: top was cont.91, commit `5dd916622` present in `git log`; hostname = Machine A `Dev`.
+
+Cameron's complaint (`v2_outline.py 94`): *"In 0:46 his eyes are Lake white and looks evil, fix it. The picture at 0:22 he has brown eyes and shirt[short] hair and looks way different."* Row 94 was the lowest waiting complained row (complaint-first + low-number).
+
+**TRACE (rendered mp4 + beat windows):** 0:22 = beat b02/s02 (window 21.45-24.22) — glassy **amber/orange** eyes, gaunt off-model face, hair pulled tight under the crown (reads short). 0:46 = beat b09/s09 (46.09-48.87, red-letter j1) — eyes **rolled fully to the whites**, no iris. Both CONFIRMED from the live frames.
+
+**PROMPT AUTOPSY (meta-law 3):** s02 = **CAUSED** — the beat scene literally wrote *"in the warm brown eyes, searched from corner to corner"*, overriding the locked green/hazel V2 ref (rubric L20). s09 = **CAUSED** — the beat forbade white/rolled eyes but also commanded *"eyes turned upward to heaven"*; in a low-angle wide that over-rotated the eyes into the sclera. Both prompts fixed in beats_v2 (green-hazel + shoulder-hair lock on b02; "iris clearly visible, never rolled up" on b09; also staged the same on b10's latent pale eyes) — `--check` PASS. These stay staged for any future paid bespoke regen.
+
+**Billing walled:** one real paid probe `v2_gen_api.py 94 --only v2-r094-b02 --redo --ceiling 650` → `429 prepayment credits depleted`, meter unmoved **$617.34**, $0 spent (same wall freezing 82/95/116/118).
+
+**THE $0 FIX (row-63 law: "don't park on billing when the complaint is FACE not composition"):** the correct green-eyed locked Jesus already lives in this cut at **s08** (0:42). Applied to both defects — s09 ← `cp s08` (ADJACENT b08→b09, 0.6s gap = continuous hold across the red-letter prayer, white eyes gone); s02 ← a **tighter punch-in CROP of s08** (crop 85,440,1315,2640 → 1536×2752 LANCZOS, ~1.25×, sharp) so it's a DISTINCT framing not a dup, curing "looks way different." New RUNNER-LESSON logged: re-crop a correct in-cut still to fix a NON-adjacent defect (extends row-63 past adjacency).
+
+**FULL-CUT GATE (6b) on the RE-CUT mp4 — all 12 beats + card viewed:** s02✓FIXED, s09✓FIXED (green eyes both), rest clean; s04 laughing/oblivious soldiers + s10 pale eyes logged FIX-WAVE (below the complaint bar, s10 asset unchanged). Captions 3-colour correct. **AUDIO REBUILD PASS `80ff9897…` BYTE-IDENTICAL** (picture-only). Public-video audit structural checks A–D PASS (row 94 is reviewer-only, not a gallery id; only the live-CDN HEAD loop hit a transient net timeout). **COST: $0.00 / 0 rerolls / 0 credits — drives the running average DOWN.** Live-verified: card hash `f77f90ebbc14…`, mp4 HTTP/2 200 (19,998,001 B). Row 94 complaint CLOSED, back in Cameron's Unwatched queue.
+
+---
+
 ## 2026-08-12 (cont. 91) — ROW 89 C-FIX #4 (0:14 "doesn't look like Jesus", his 4th re-open): CAUSE FINALLY FOUND — whole-face identity drift, NOT eye colour; autopsy = CAUSED by prose; word-fix staged; billing-gated so no reship; honest reviewer card deployed+live-verified — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
 
 **Commit:** `5dd916622` (beats_v2 word-fix + QC.md autopsy + AUTHOR-BOARD park + review.html honest card) + this log. Deployed to Firebase (`milk-b4-meat`) + live-verified. Chain verified on entry: top was cont.90, commit `107934610` present in `git log`; hostname = Machine A `Dev`.
