@@ -259,6 +259,31 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
     71/89/98/120 in each row's NEXT touch-once re-cut (never as its own
     re-cut — their shipped complaint fixes are otherwise correct).
 
+21. **NO HEAD TURNED AROUND BACKWARDS — the owl-neck / head-on-backwards
+    (Cameron, 2026-08-13 — row 122: "The man's head is turned around backwards
+    0:33. same problem for the 5th time"; his 5th filing of this class).** Any
+    beat that stages a "glance," a "sideways look," an "over-the-shoulder"
+    verdict, or a figure seated with their back to the camera can make the
+    generator wrench a face a full ~180° back to the lens over a torso that
+    faces away — an anatomically impossible neck. The generic anti-glitch line
+    "two arms, two hands and one head" does NOT stop it: "one head" says nothing
+    about which way the head faces. PROMPT-AUTOPSY verdict for this class is
+    almost always ALLOWED (verdict 2) — the fix is a missing constraint, not a
+    reference image. Every such beat's `must_show` puts the glancer in
+    three-quarter view with head AND shoulders turned the SAME way (a natural
+    glance under ~45°); its `must_not_show` forbids "any head rotated impossibly
+    on the neck; owl-neck; a seated figure with back or shoulders to the camera
+    while the face is wrenched a full half-turn back to the lens"; and the
+    anti-glitch tail becomes "every head sits forward on the neck facing the
+    same way as its own shoulders — no one twisted so their face looks back
+    over a body that faces away." GATE (belongs in every FULL-CUT pass): on any
+    crowd or two-shot with a back-to-camera figure, confirm you see the BACK of
+    that head. A figure legitimately facing away (row 122 b01/b02 show the back
+    of the same man's head) is CORRECT and must never be "corrected" — the
+    defect is only the impossible turn, not the facing-away. Rows of record:
+    122 (b06). Extends lesson 4 (anatomy/natural joints) with the specific
+    neck-rotation clause that kept slipping through.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.

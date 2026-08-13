@@ -206,19 +206,24 @@ BEATS = [
         "window": "30.05-34.53", "wide": False, "jesus": False, "ref": False,
         "locks": ["HILLSIDE", "CROWD"],
         "narration": "And we are experts at spotting the small faults in someone else.",
-        "must_show": "the habit caught live — in the crowd, one listener's knowing sideways glance toward a neighbour, an eyebrow raised at somebody else's flaw mid-sermon.",
-        "must_not_show": "no halo; gentle comedy, not malice — the glance small, human, instantly recognizable.",
+        "must_show": "the habit caught live — in the crowd, one listener shown in three-quarter view, head and shoulders turned the SAME way toward a neighbour, giving a small knowing sideways glance with one eyebrow raised at somebody else's flaw mid-sermon.",
+        "must_not_show": "no halo; gentle comedy, not malice — the glance small, human, instantly recognizable. NO figure's head rotated impossibly on the neck: every head faces the same direction as that person's own shoulders (a natural glance under forty-five degrees). NEVER a seated figure with their back or shoulders turned away from the camera while their face is wrenched a full half-turn back toward the lens — no owl-neck, no head-on-backwards, no over-the-shoulder stare that the torso cannot support.",
         "scene": (
             "The sermon catches its audience doing the thing: in "
-            "the second row a listener's eyes slide sideways to a "
-            "neighbour with one eyebrow lifted a knowing "
-            "half-inch — the tiny silent verdict every human face "
-            "knows how to pass — while the neighbour, oblivious, "
+            "the second row a listener, seen in natural three-quarter "
+            "profile with his shoulders and face both turned the same "
+            "way toward the man beside him, lets his eyes slide "
+            "sideways to that neighbour with one eyebrow lifted a "
+            "knowing half-inch — the tiny silent verdict every human "
+            "face knows how to pass — while the neighbour, oblivious, "
             "listens on — expertise on display, effortless and "
             "instant, the fault in someone else spotted from a "
             "seated position without missing a word of the sermon "
             "about not doing exactly that. Every figure has two "
-            "arms, two hands and one head."
+            "arms, two hands and one head, and every head sits "
+            "forward on the neck facing the same way as its own "
+            "shoulders — no one is twisted so their face looks back "
+            "over a body that faces away."
         ),
     },
     {

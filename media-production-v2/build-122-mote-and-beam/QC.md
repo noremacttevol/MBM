@@ -152,3 +152,46 @@ already-logged FIX-WAVE items — subtle, not Cameron-complaint tier.)
 - **Cost:** 2 rerolls × ~$0.13 = **~$0.26** this fix, $0 audio. Meter $611.98.
 - **COMPLAINT LEDGER: none open** (no filed complaints on the row; this was a
   gate-caught defect before Cameron's eyes reached it).
+
+---
+
+## C-FIX SHIPPED — Cameron 0:33 backwards head (Opus runner, Machine A `Dev`, 2026-08-13, unattended/headless)
+
+**COMPLAINT LEDGER (open at start of this touch):**
+- **"The man's head is turned around backwards 0:33. same problem for the 5th
+  time."** → FIXED. 0:33 renders beat **v2-r122-b06** (`s06-and-we-are-experts-at.jpeg`,
+  window 30.05–34.53). In the shipped cut the foreground bottom-centre listener
+  sat with his BACK to camera (back-patch of his tunic toward the lens) while his
+  face was wrenched a full ~180° back to the lens — the "head on backwards"
+  owl-neck. Re-cut: the same man now faces away with the back of his head
+  visible (natural), the mid-left listener reads as a natural three-quarter.
+  Verified in the RENDERED mp4 at 33 s, not just the still.
+
+**PROMPT AUTOPSY (rubric meta-law 3) — verdict: ALLOWED.** b06's scene asked for
+a legitimate "listener's eyes slide sideways to a neighbour," and its anti-glitch
+line only constrained COUNT ("Every figure has two arms, two hands and one head")
+— nothing forbade an impossible neck rotation. Trying to show a glancing FACE on
+a figure seated back-to-camera, the generator screwed the head around backwards.
+Fix = add the missing constraint (meta-law verdict 2): must_show now requires the
+glancer in three-quarter view with head and shoulders turned the SAME way;
+must_not_show + scene now forbid any head rotated impossibly on the neck / an
+owl-neck / a back-facing torso with the face wrenched back to the lens, and
+require every head to sit forward facing the same way as its own shoulders.
+
+**FULL-CUT GATE (all 27 beats extracted from the RENDERED mp4 at true mid-window,
+viewed one per beat):** b06 was the ONLY backwards-head in the cut. b01/b02 use
+the SAME foreground man but correctly show the BACK of his head (facing away) —
+verified by zoom, natural. Everything else CLEAN: Jesus's locked face + green/hazel
+V2 eyes + cream-only robe + no halo on all 9 hillside beats (b01/02/05/08/11/14/21/26/27);
+beam absurd-never-gruesome in every workshop frame (no wound/blood/penetration,
+cloth & fingers off the eyeball); reflection beat b12 reads; b17 canonical
+salt-and-pepper fixer (prior QC-FIX) intact; captions bottom-band only (narrator
+white, Jesus KJV red), no tofu; closing reflection card clean. (b04 pale-linen 2nd
+man + b10 forehead-band remain the already-logged subtle FIX-WAVE items.)
+
+- **AUDIO LOCK PASS SHA256=0df23a0e176e370a36484ab42ca1a847281c28d7bc4ffa66aa0c491fb957f704**
+  — byte-identical to every prior cut, nothing re-voiced. 175.0 s / 20.1 MB.
+- **Rerolls this touch: 1 of 27 = 3.7%** (well under the 15% budget). **Cost: 1
+  still × ~$0.13, $0 audio.** Trend DOWN vs the $6.10/row average.
+- New defect class written to RUNNER-LESSONS.md + numbered rubric lesson 21
+  (his exact words) so the same words are never written again.
