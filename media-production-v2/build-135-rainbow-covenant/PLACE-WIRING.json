@@ -1,1 +1,20 @@
-{}
+{
+ "ALTAR": {
+  "manual": true,
+  "src_beat": "s10-not-a-house-not-a",
+  "src_build": "build-135-rainbow-covenant",
+  "src_file": "build-135-rainbow-covenant/assets/s10-not-a-house-not-a.jpeg"
+ },
+ "ARK": {
+  "manual": true,
+  "src_beat": "s03-then-one-morning-the-ark",
+  "src_build": "build-135-rainbow-covenant",
+  "src_file": "build-135-rainbow-covenant/assets/s03-then-one-morning-the-ark.jpeg"
+ },
+ "MOUNTAIN": {
+  "manual": true,
+  "src_beat": "s01-the-rain-had-stopped",
+  "src_build": "build-135-rainbow-covenant",
+  "src_file": "build-135-rainbow-covenant/assets/s01-the-rain-had-stopped.jpeg"
+ }
+}

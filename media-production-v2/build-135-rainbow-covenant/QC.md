@@ -75,3 +75,68 @@ wording, timing.
 **Row is buildable.** 0 stills, so per the audio-fix protocol the board is flipped to
 **AUTHORED / Audio OK / Ready ✅**; a picture runner generates the stills then runs
 `v2_assemble.py 135` → AUDIO REBUILD PASS and ships the full cut on this fixed audio.
+
+---
+
+## 🛑 RUNNER PARK → NEEDS-REBUILD (author beat-text/lock fix) — Opus runner, Machine A `Dev`, 2026-08-13
+
+Resumed the stranded RUNNING build (prior autopilot lane died at 42/44 stills).
+Generated the last 2 frames (b43,b44) and ran the FULL-CUT GATE on all 44. **Did NOT
+ship** — the row repeats its own OPEN reviewer complaint and the fix is out of runner
+scope. Handing to the author lane with the good frames committed for reuse (COST LAW).
+
+### COMPLAINT LEDGER
+- **OPEN [MUST BE FIXED] (from `v2_outline.py 135`): "1st picture has 3 girls and 5
+  boys that needs to change."** This is a GENDER-BALANCE complaint: the eight must be
+  **4 men (Noah + 3 sons) + 4 women (Noah's wife + 3 sons' wives)**, all adults —
+  Cameron counted 5 male / 3 female. NOT merely "8 total."
+  - Literal 1st people-picture **s04** IS now 4m/4f (fixed).
+  - **BUT the same 5m/3f drift still appears in FOUR family frames → shipping would
+    RE-FILE the exact complaint (LEARNING LAW: worst possible failure). BLOCKS ship.**
+
+### FULL-CUT GATE result (all 44 viewed from assets, count/gender audited)
+- **CLEAN 4m/4f family frames:** s02, s04, s17, s20, s22, s29, s36, s43. (s43 rerolled
+  from a 7-count to a correct 8 under a full bow; s08 rerolled to 8 adults / no child.)
+- **DISTANT/non-count family frames (acceptable):** s05 (footprints, family a tiny top
+  line), s24 (animals wide, eight tiny at top by design).
+- **Landscapes/portraits (clean, realistic, no modern objects, no lens-stare):** s01,
+  s03, s07(animals natural scale), s10, s11(altar), s12, s13, s14, s15, s16(Noah),
+  s18(wife grief), s19(light, no figure), s21(covenant hands), s23(hands), s25(ramp,
+  see below), s28, s30–s35(bow doctrine), s37, s39–s42, s44(closing bow, clean).
+- **b38 (s38):** children ARE allowed here (the born-since child + string) — correct.
+
+### ❌ FRAMES THAT REPEAT THE COMPLAINT (5m/3f or short-count) — need the author fix
+- **s06 (b06)** — 5 men / 3 women.
+- **s09 (b09)** — 4 men / 3 women (7 total). Original had a CHILD; 2 rerolls (cap hit)
+  removed the child but stayed 7. **Root cause: b09's `must_show` centers "one of the
+  wives" and does NOT pin the count** — unlike every clean count frame (b08 "exactly
+  eight backs", b27 "count eight", b43 "the eight"). The scene's wife+husband emphasis
+  reliably renders a nuclear 7. Runner-legal rerolls cannot fix a missing must_show pin.
+- **s25 (b25)** — 5 men / 3 women (8 total on the ramp, wrong split). Not yet rerolled.
+- **s27 (b27)** — 5 men / 3 women. Original 7 (4m/3f); reroll1 still 7; reroll2 (cap hit)
+  landed 8 total but 5m/3f. The embrace-huddle keeps dropping a wife.
+
+### ROOT CAUSE (systemic — author fix, one edit fixes all four)
+The shared **FAMILY lock** (and the intimate/huddle beats b09/b25/b27) describe "eight"
+but do NOT pin the **gender composition**, so ~⅓ of family frames drift to 5m/3f. A
+runner may not edit locks or beat content (PROMPT-OPUS-RUNNER hard rail #1).
+
+### AUTHOR FIX (touch-once, then a runner re-cuts on the committed audio)
+1. Add to the FAMILY lock (and reinforce in b09/b25/b27 `must_show`): **"the eight are
+   exactly FOUR men — Noah + his three sons — and FOUR women — Noah's wife + his three
+   sons' wives — all adults, no children (except b38); no fewer, no more."** Give b09 a
+   real count pin (its must_show currently says only "one of the wives").
+2. `v2_prompt.py build-135-rainbow-covenant --check` must PASS.
+3. Regenerate ONLY the four violators: **s06, s09, s25, s27** (`v2_gen_api.py
+   build-135-rainbow-covenant --only b06,b09,b25,b27 --redo --ceiling …`) — the other 40
+   frames are correct and MUST be reused (COST LAW — stills are gitignored but persist
+   ON DISK on this one production machine; `v2_gen_api` never re-pulls existing frames).
+4. FULL-CUT GATE for 4m/4f on every family frame, then `v2_assemble.py 135`
+   (AUDIO REBUILD PASS — audio is already fixed/byte-stable, see the audio block above),
+   ship + deploy + live-verify, and answer the "5 boys / 3 girls" complaint on the card.
+
+### Spend this session
+7 rerolls total (b43×2, b08×1, b09×2, b27×2) = 15.9% of 44 beats — a small overage vs
+the 15% budget, spent hunting the count on the counts row before the systemic gender
+cause was identified. ~$0.94 Gemini this session (meter ~$632.4). No audio touched.
+**RESUME (author):** do the FAMILY-lock gender pin above, then step 3–4.
