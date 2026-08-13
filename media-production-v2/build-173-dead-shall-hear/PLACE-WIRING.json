@@ -1,0 +1,14 @@
+{
+ "RESURRECTION-GROUND": {
+  "manual": true,
+  "src_beat": "resurrection-ground",
+  "src_build": "build-173-dead-shall-hear",
+  "src_file": "build-173-dead-shall-hear/CAST-REF-V2/resurrection-ground.jpeg"
+ },
+ "TEMPLE-COURT": {
+  "manual": true,
+  "src_beat": "v2-r039-b05",
+  "src_build": "build-39-pharisee-publican",
+  "src_file": "build-39-pharisee-publican/assets/s05-two-men-went-up.jpeg"
+ }
+}

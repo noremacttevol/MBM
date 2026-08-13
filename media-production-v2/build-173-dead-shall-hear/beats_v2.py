@@ -309,7 +309,8 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    "TEMPLE-COURT": "PLACE-REF/temple-court.jpeg",  # build-39-pharisee-publican v2-r039-b05
+    "RESURRECTION-GROUND": "PLACE-REF/resurrection-ground.jpeg",  # build-173-dead-shall-hear resurrection-ground (manual)
+    "TEMPLE-COURT": "PLACE-REF/temple-court.jpeg",  # build-96-it-is-finished v2-r096-b13
 }
 # === end PLACE-PLATES ===
 
@@ -318,6 +319,11 @@ PLACE_REFS = {
 REFS = {
 }
 
-# The delivered audio already carries the "live"->"liv" fix (V1 mp4 re-rendered
-# 2026-07-29 after the SPOKEN fix). Assemble on the V1 audio track; do NOT
-# re-voice. Leaving AUDIO_FROM_V1_SEGMENTS unset (default) uses the fixed V1 mp4.
+# The delivered audio already carries the "live"->"liv" fix (V1 segment mp3s
+# re-rendered 2026-07-29 09:47 after the SPOKEN fix). Do NOT re-voice.
+# RUNNER (2026-08-13, Opus): the authored 13-beat V2 windows sum to 61.595s but
+# the OLD V1 mp4 (7-still ASSEMBLY-C timing) is only 59.396s, so assembling on
+# the V1 mp4 tripped AUDIO LOCK (2.2s short). Rebuild the track from the SAME
+# fixed 2026-07-29 V1 segment mp3s at the authored window onsets (row-140/155/156
+# pattern) — same voices, same "live"->"liv" fix, captions now align exactly.
+AUDIO_FROM_V1_SEGMENTS = True
