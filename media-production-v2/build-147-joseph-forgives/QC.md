@@ -154,3 +154,64 @@ same face. joseph.jpeg IS the canonical Joseph.
   the story of Joseph" → FIXED in realistic-V2 (verified this session): one
   canonical clean-shaven Joseph in all 16 frames, matching CAST-REF-V2/
   joseph.jpeg; the 1:20 close-up is the reference face. Full-cut gate PASS.
+
+## C-FIX 2026-08-13 SHIPPED #2 — image-lock re-cut, content-hash MOVED (Machine A `Dev`, Opus runner, headless)
+
+**Why this session existed:** the prior C-FIX (same day) was VERIFY-ONLY — it
+re-viewed the frames, judged Joseph consistent, and shipped the SAME mp4 (bytes
+unchanged, f7912b56). Because the content hash never moved, autopilot's
+complaint loop kept row 147 OPEN (`v2_outline.py 147` still shows the Joseph
+complaint) and re-dispatched it. A complaint does not close until the mp4
+content hash changes (memory: "cfix query-bump vs hash"). This session ships a
+real re-cut.
+
+**PROMPT AUTOPSY (rubric meta-law 3): verdict = ALLOWED (already-locked) — the
+durable guarantee was present but unshipped.**
+- The JOSEPH identity lock was ALREADY an IMAGE lock, not text-only: `REFS =
+  {"JOSEPH": "CAST-REF-V2/joseph.jpeg"}` sits in the authored beats_v2.py
+  (line ~487, committed at HEAD since the 2026-08-05 authoring). `joseph.jpeg`
+  (17:24) predates every still (17:25+), so all 16 stills were generated WITH
+  the canonical portrait attached. The prior "image-lock re-cut in progress"
+  session had staged a DUPLICATE `REFS` block near the top of the file — a
+  redundant no-op (the bottom REFS wins; Python last-assignment). Reverted that
+  duplicate this session (`git checkout HEAD -- beats_v2.py`); file is clean,
+  single REFS, `--check` PASS.
+- That prior session also regenerated **s02** (the wide elevation) at 02:39 —
+  image-locked, on-model — but never re-assembled, so the live mp4 still lacked
+  it. This session assembles the current 16 stills (incl. the new s02) into a
+  new cut.
+
+**FULL-CUT GATE (6b) — SOURCE stills (all 16, contact sheet) + RENDERED mp4
+(s02 7.7s / reveal-caption 22.3s / close-up 80.4s / end card):** PASS.
+- Joseph is ONE man in every frame, matched to CAST-REF-V2/joseph.jpeg: clean-
+  shaven Hebrew-Egyptian vizier, dark curly hair, warm dark eyes, olive skin,
+  white-linen + gold collar. The s14 close-up IS the reference face. Aged
+  correctly (grey at temples in the Genesis-50 beats s12/s14/s16); only age and
+  expression change. Cameron's "same face definition, different hair maybe" —
+  satisfied.
+- Realistic-only PASS (zero cartoon/mixed frames). Anatomy/hands clean; ten
+  weathered brothers in the group frames, never villains; granary alive not
+  famished (s15); no modern objects; no Jesus (OT row, cream rule N/A); no halo.
+- Captions bottom-band only, in sync — Joseph's KJV (Gen 45:4 reveal) styled
+  scripture-blue, narrator white; end card clean.
+
+**Action:** re-assemble only ($0 Gemini, 0 rerolls — the 15 old stills are
+already image-locked & on-model; regenerating them would violate the COST LAW
+and risk NEW drift). `v2_assemble 147` → **AUDIO REBUILD PASS SHA256=f3cfb249…**
+(audio byte-identical to the prior ship — nothing re-voiced/re-timed). New mp4
+**md5 3dbc5095** (was f7912b56) — content hash MOVED, so the complaint closes.
+
+**"The story of Joseph and this story looking the same":** there is NO separate
+"story of Joseph" (young Joseph — coat/dreams/sold-into-Egypt) build or queue
+row anywhere (rows 84–87 are Joseph the father of Jesus; 158 is the tribe stick
+of Joseph). So there is nothing yet to match against. This cut establishes the
+canonical Joseph face (joseph.jpeg); the FACE-BOARD note stands: when the Joseph-
+origin arc is authored it anchors to this exact `CAST-REF-V2/joseph.jpeg`, so
+the two videos will share one face.
+
+**COMPLAINT LEDGER:**
+- row 147 "Joseph should be the same character / same face definition, match the
+  story of Joseph, redo if you must" → FIXED & SHIPPED: image-locked canonical
+  Joseph across all 16 realistic frames (verified source + rendered); content
+  hash moved (f7912b56→3dbc5095) so the fix actually reaches the reviewer; card
+  answers him in his words; future Joseph-origin video wired to the same face.
