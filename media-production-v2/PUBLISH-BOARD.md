@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T06:48:13_
+_Last sync: 2026-08-13T06:56:06_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 57 row(s)
+- **BUILDING** — 56 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 18 row(s)
+- **ON REVIEWER — awaiting Cameron** — 19 row(s)
 
 ## The rows
 
@@ -209,7 +209,7 @@ _Last sync: 2026-08-13T06:48:13_
 | 186 | Heirs of God | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 187 | Ye Are Gods | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 188 | Be Ye Therefore Perfect | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 189 | To Him That Overcometh | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 189 | To Him That Overcometh | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 190 | Faith Without Works | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 191 | Windows of Heaven | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 192 | The Fast God Has Chosen | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
