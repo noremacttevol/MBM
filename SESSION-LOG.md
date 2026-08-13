@@ -1,3 +1,25 @@
+## 2026-08-13 (Fable 5, main session, pt.3) — 6 MORE APPROVED PUBLISHED (89, 94, 129, 137, 141, 151): 122 live, gate PASS all eight, stale v137 duplicate card removed — Machine A `Dev`
+
+**Commit:** (this commit)
+
+The quota wall broke via autopilot's refreshed mirror (01:35). refresh-postable
+→ **122 postable** (+6: 89, 94, 129, 137, 141, 151); only row 170 still
+excluded (cut genuinely changed since approval — awaits Cameron). **Root-caused
+Cameron's "117th":** row 137 was approved at 00:16 but review.html carried TWO
+v137 cards — the approved realistic one AND a stale old-Stephen-era duplicate
+(built 07-22) that shadowed it in every parser (last-card-wins) and
+false-excluded the row. Stale card removed (commit `e7bf15b21`), tag balance
+verified, deployed. Slot 137's captions confirmed authored for the SWAPPED
+story (One As We Are One · John 17), not Stephen.
+
+Published the 6 exactly like the 116: exports copied (backups kept),
+PRODUCED_VIDEO_IDS = exactly the 122, gallery + branded thumbs, deploy,
+**live sha1-verified all 6**, ledger v2.1 events, **audit gate PASS all eight
+checks** (now includes F1/F2 website-hygiene), OTA EAS group
+`aa46cf51-06b7-4a82-8696-531565f2a0f5`. QUEUE ticked 122; tracker App chips
+seeded 122. POST-QUEUE +6 entries; sheet/post-kit/per-video regenerated —
+**122 APPROVED / 78 DRAFT, all 200 per-video files current.**
+
 ## 2026-08-13 (cont. 98) — ROW 140 AUTHORED FRESH: The Bronze Serpent replaces prodigal-dupe Naaman — full from-scratch story authored, gated, Ready for the runner — Machine A `Dev`, Fable-5 author lane (unattended, $0 image spend)
 
 Author-lane session on AUTHOR-BOARD row 140 (LOW-NUMBER law). Row 140's story was replaced mid-flight by a concurrent lane (commit `644a89180`, Cameron's decision) while I was working — I caught it via `git log`/board, reverted my dead work, and pivoted.

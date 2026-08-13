@@ -1121,6 +1121,19 @@
       "cover": "social/covers/row-088.jpg"
     },
     {
+      "row": 89,
+      "title": "The Last Supper",
+      "scripture": "Luke 22",
+      "duration": "1:34",
+      "approvedHash": "f8598af96873555c3f70fafda3355696fc226e8b",
+      "hashScheme": "commit",
+      "servedBlob": "2231122404ae697d5d79d7b602ca23ff94b63493",
+      "approvedAt": "2026-08-13T05:04:38.353Z",
+      "repoPath": "media-production-v2/build-89-last-supper/luke-22_the-last-supper.mp4",
+      "exportPath": "social/exports/row-089-the-last-supper.mp4",
+      "cover": "social/covers/row-089.jpg"
+    },
+    {
       "row": 90,
       "title": "Washing the Disciples Feet",
       "scripture": "John 13",
@@ -1171,6 +1184,19 @@
       "repoPath": "media-production-v2/build-93-barabbas-goes-free/mark-15_barabbas-goes-free.mp4",
       "exportPath": "social/exports/row-093-barabbas-goes-free.mp4",
       "cover": "social/covers/row-093.jpg"
+    },
+    {
+      "row": 94,
+      "title": "Father Forgive Them",
+      "scripture": "Luke 23",
+      "duration": "1:15",
+      "approvedHash": "f77f90ebbc14c8e0a78d9bde9effd69d7c15150e",
+      "hashScheme": "commit",
+      "servedBlob": "0d4250ca7f9027afd58190941ce5d80803cf4d99",
+      "approvedAt": "2026-08-13T05:02:14.322Z",
+      "repoPath": "media-production-v2/build-94-father-forgive-them/luke-23_father-forgive-them.mp4",
+      "exportPath": "social/exports/row-094-father-forgive-them.mp4",
+      "cover": "social/covers/row-094.jpg"
     },
     {
       "row": 96,
@@ -1459,6 +1485,19 @@
       "cover": "social/covers/row-127.jpg"
     },
     {
+      "row": 129,
+      "title": "Nazareth Only a Few",
+      "scripture": "Mark 6",
+      "duration": "1:26",
+      "approvedHash": "914050f7fc665e7c1e439eed635a14e7f1a2e8d4",
+      "hashScheme": "commit",
+      "servedBlob": "2629223403d024c68febaf2d28abe3f7ca146114",
+      "approvedAt": "2026-08-13T05:07:38.485Z",
+      "repoPath": "media-production-v2/build-129-nazareth-only-a-few/mark-6_nazareth-only-a-few.mp4",
+      "exportPath": "social/exports/row-129-nazareth-only-a-few.mp4",
+      "cover": "social/covers/row-129.jpg"
+    },
+    {
       "row": 130,
       "title": "What Manner of Spirit",
       "scripture": "Luke 9",
@@ -1498,6 +1537,32 @@
       "cover": "social/covers/row-132.jpg"
     },
     {
+      "row": 137,
+      "title": "One As We Are One",
+      "scripture": "John 17",
+      "duration": "1:23",
+      "approvedHash": "0434cfa666244948c256f5dfb119c104550f4915",
+      "hashScheme": "commit",
+      "servedBlob": "5c24af294dbdc179edbe15b54c0881b22f661cd4",
+      "approvedAt": "2026-08-13T00:16:01.008Z",
+      "repoPath": "media-production-v2/build-137-one-as-we-are-one/john-17_one-as-we-are-one.mp4",
+      "exportPath": "social/exports/row-137-one-as-we-are-one.mp4",
+      "cover": "social/covers/row-137.jpg"
+    },
+    {
+      "row": 141,
+      "title": "I Am the Bread of Life",
+      "scripture": "John 6",
+      "duration": "1:01",
+      "approvedHash": "7560875c245b69ac63f011319197eb83f9ccbc2a",
+      "hashScheme": "commit",
+      "servedBlob": "56c41990b6370d8626a4e9e681c111c0ee946e64",
+      "approvedAt": "2026-08-13T05:08:50.773Z",
+      "repoPath": "media-production-v2/build-141-bread-of-life/john-6_i-am-the-bread-of-life.mp4",
+      "exportPath": "social/exports/row-141-i-am-the-bread-of-life.mp4",
+      "cover": "social/covers/row-141.jpg"
+    },
+    {
       "row": 148,
       "title": "Ruth and the Redeemer",
       "scripture": "Ruth 1",
@@ -1509,25 +1574,22 @@
       "repoPath": "media-production-v2/build-148-ruth-and-the-redeemer/ruth-1_ruth-and-the-redeemer.mp4",
       "exportPath": "social/exports/row-148-ruth-and-the-redeemer.mp4",
       "cover": "social/covers/row-148.jpg"
-    }
-  ],
-  "excluded": [
-    {
-      "row": 121,
-      "reason": "cut changed since approval (served 8d7434f53e, approved f443ed4726) \u2014 new cut awaits Cameron's review"
-    },
-    {
-      "row": 129,
-      "reason": "cut changed since approval (served 914050f7fc, approved 7c48b22ee9) \u2014 new cut awaits Cameron's review"
-    },
-    {
-      "row": 137,
-      "reason": "cut changed since approval (served 76255c3e32, approved 0434cfa666) \u2014 new cut awaits Cameron's review"
     },
     {
       "row": 151,
-      "reason": "cut changed since approval (served 4191d464ad, approved 9e8c1ef3c5) \u2014 new cut awaits Cameron's review"
-    },
+      "title": "If Any of You Lack Wisdom",
+      "scripture": "James 1",
+      "duration": "2:25",
+      "approvedHash": "4191d464ad5d1b611c0ceab15814d056196f81cd",
+      "hashScheme": "commit",
+      "servedBlob": "3826b5d6c3195b66a63cb0df32fea4ac4e1ceb35",
+      "approvedAt": "2026-08-13T05:11:35.038Z",
+      "repoPath": "media-production-v2/build-151-ask-of-god/james-1_ask-of-god.mp4",
+      "exportPath": "social/exports/row-151-if-any-of-you-lack-wisdom.mp4",
+      "cover": "social/covers/row-151.jpg"
+    }
+  ],
+  "excluded": [
     {
       "row": 170,
       "reason": "cut changed since approval (served 3b47b3a9c5, approved 0bcd73c39d) \u2014 new cut awaits Cameron's review"

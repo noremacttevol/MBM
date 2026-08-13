@@ -748,7 +748,21 @@
       "open_fix": null,
       "slug": "build-129-nazareth-only-a-few",
       "title": "Nazareth Only a Few",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "914050f7fc665e7c1e439eed635a14e7f1a2e8d4",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "0d6beddf02ef4ffaf5f1d5c67aa7059e655b977d",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/129.mp4"
+            }
+          ]
+        }
+      ]
     },
     "13": {
       "open_fix": null,
@@ -870,8 +884,22 @@
     "137": {
       "open_fix": null,
       "slug": "build-137-one-as-we-are-one",
-      "title": "Stephen Sees Him Standing",
-      "versions": []
+      "title": "One As We Are One",
+      "versions": [
+        {
+          "card_hash": "0434cfa666244948c256f5dfb119c104550f4915",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "f7b47aca7c5a6d2c186bbc05cd92185c050d10cf",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/137.mp4"
+            }
+          ]
+        }
+      ]
     },
     "138": {
       "open_fix": null,
@@ -959,6 +987,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "397491df29e4a6914c5cda81188db1ee75f5851d",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/141.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "7560875c245b69ac63f011319197eb83f9ccbc2a",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "ccd0f612772f0ae162d528e618cd53ceb542e409",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1124,7 +1165,21 @@
       "open_fix": null,
       "slug": "build-151-ask-of-god",
       "title": "If Any of You Lack Wisdom",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "4191d464ad5d1b611c0ceab15814d056196f81cd",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "dec4a9f2678dedd956e6fd9da5b2b32484c1266d",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/151.mp4"
+            }
+          ]
+        }
+      ]
     },
     "152": {
       "open_fix": null,
@@ -3593,7 +3648,21 @@
       "open_fix": null,
       "slug": "build-89-last-supper",
       "title": "The Last Supper",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "f8598af96873555c3f70fafda3355696fc226e8b",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "8f839c260ac45f0baa0d800fdc95f96de4d8feed",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/89.mp4"
+            }
+          ]
+        }
+      ]
     },
     "9": {
       "open_fix": null,
@@ -3739,7 +3808,21 @@
       "open_fix": null,
       "slug": "build-94-father-forgive-them",
       "title": "Father Forgive Them",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "f77f90ebbc14c8e0a78d9bde9effd69d7c15150e",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "16a6e06240dfaa911f1edd63dc9ff86c4e0ba754",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/94.mp4"
+            }
+          ]
+        }
+      ]
     },
     "95": {
       "open_fix": null,
@@ -3840,5 +3923,5 @@
       ]
     }
   },
-  "updated": "2026-08-13T02:09:26"
+  "updated": "2026-08-13T02:25:02"
 }

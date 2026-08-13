@@ -1560,3 +1560,81 @@ Ruth 1:1–4:22, from the KJV. Download the free Milk Before Meat app for every 
 **Story tags:** `#Ruth #KinsmanRedeemer`
 **Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Ruth #KinsmanRedeemer`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Ruth #KinsmanRedeemer`
+
+### Row 89 — The Last Supper
+**Luke 22:14–30 (KJV) · 1:34 · fits all four**
+File `exports/row-089-the-last-supper.mp4` · Cover `covers/row-089.jpg` · Cut `f8598af96873`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-089.jpg` · **TikTok/IG cover** `thumbs/vertical/row-089.jpg`
+**YouTube title:** The Last Supper — this do in remembrance of me (Luke 22, KJV)
+**Caption:**
+On the night he was betrayed, Jesus sat down with the twelve and said, With desire I have desired to eat this passover with you before I suffer. He took bread, and gave thanks, and brake it: This is my body which is given for you — this do in remembrance of me. And when they fell to arguing about which of them should be greatest, he said, I am among you as he that serveth.
+He asked to be remembered with something as ordinary as bread. What helps you remember what matters?
+Luke 22:14–30, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#LastSupper #Luke22`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #LastSupper #Luke22`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #LastSupper #Luke22`
+
+### Row 94 — Father Forgive Them
+**Luke 23:32–38 (KJV) · 1:15 · fits all four**
+File `exports/row-094-father-forgive-them.mp4` · Cover `covers/row-094.jpg` · Cut `f77f90ebbc14`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-094.jpg` · **TikTok/IG cover** `thumbs/vertical/row-094.jpg`
+**YouTube title:** Father, Forgive Them — a prayer from the cross (Luke 23, KJV)
+**Caption:**
+They crucified him at the place called Calvary, between two malefactors, and parted his raiment, and cast lots. While the rulers derided and the soldiers mocked, Jesus said, Father, forgive them; for they know not what they do. He prayed for the very men who nailed him there.
+Who would be hardest for you to say those words about?
+Luke 23:32–38, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Forgiveness #Luke23`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Forgiveness #Luke23`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Forgiveness #Luke23`
+
+### Row 129 — Nazareth Only a Few
+**Mark 6:1–6 (KJV) · 1:26 · fits all four**
+File `exports/row-129-nazareth-only-a-few.mp4` · Cover `covers/row-129.jpg` · Cut `914050f7fc66`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-129.jpg` · **TikTok/IG cover** `thumbs/vertical/row-129.jpg`
+**YouTube title:** Nazareth: Only a Few — is not this the carpenter? (Mark 6, KJV)
+**Caption:**
+In his own country they asked, Is not this the carpenter, the son of Mary? And they were offended at him. He could there do no mighty work, save that he laid his hands upon a few sick folk and healed them — and he marvelled because of their unbelief.
+Has familiarity ever made you miss what was right in front of you?
+Mark 6:1–6, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Nazareth #Unbelief`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Nazareth #Unbelief`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Nazareth #Unbelief`
+
+### Row 137 — One As We Are One
+**John 17:20–23 (KJV) · 1:23 · fits all four**
+File `exports/row-137-one-as-we-are-one.mp4` · Cover `covers/row-137.jpg` · Cut `0434cfa66624`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-137.jpg` · **TikTok/IG cover** `thumbs/vertical/row-137.jpg`
+**YouTube title:** One, As We Are One — the prayer for them which shall believe (John 17, KJV)
+**Caption:**
+On his last night, Jesus prayed — and not for his disciples alone, but for them also which shall believe on me through their word. That they all may be one, he asked, as thou, Father, art in me, and I in thee — that the world may believe that thou hast sent me.
+Did you know he prayed for you before you were born?
+John 17:20–23, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#ThatTheyMayBeOne #John17`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ThatTheyMayBeOne #John17`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ThatTheyMayBeOne #John17`
+
+### Row 141 — I Am the Bread of Life
+**John 6:26–35 (KJV) · 1:01 · fits all four**
+File `exports/row-141-i-am-the-bread-of-life.mp4` · Cover `covers/row-141.jpg` · Cut `7560875c245b`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-141.jpg` · **TikTok/IG cover** `thumbs/vertical/row-141.jpg`
+**YouTube title:** I Am the Bread of Life — he that cometh shall never hunger (John 6, KJV)
+**Caption:**
+The crowd crossed the sea looking for him because he had fed them, and he said so plainly: Ye seek me because ye did eat of the loaves, and were filled. Then he offered what bread cannot: I am the bread of life — he that cometh to me shall never hunger, and he that believeth on me shall never thirst.
+What do you keep going back for that never quite fills you?
+John 6:26–35, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#BreadOfLife #John6`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #BreadOfLife #John6`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #BreadOfLife #John6`
+
+### Row 151 — If Any of You Lack Wisdom
+**James 1:5 (KJV) · 2:25 · fits all four**
+File `exports/row-151-if-any-of-you-lack-wisdom.mp4` · Cover `covers/row-151.jpg` · Cut `4191d464ad5d`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-151.jpg` · **TikTok/IG cover** `thumbs/vertical/row-151.jpg`
+**YouTube title:** If Any of You Lack Wisdom — ask of God, who upbraideth not (James 1, KJV)
+**Caption:**
+If any of you lack wisdom, James wrote, let him ask of God, that giveth to all men liberally, and upbraideth not — and it shall be given him. One sentence, and no scolding in it for not knowing. The promise is not for the ones who already know; it is for the ones who lack.
+What question have you never thought to take directly to God?
+James 1:5, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#James1 #AskOfGod`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #James1 #AskOfGod`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #James1 #AskOfGod`
