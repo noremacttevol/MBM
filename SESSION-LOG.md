@@ -1,6 +1,6 @@
 ## 2026-08-13 (cfix lane, unattended/headless) — Row 117 "dramatized" complaint ROOT-CAUSED: audio objectively optimal, prior fix was a null re-roll → PARKED AWAITING-CAMERON + inbox-escalated — Machine A `Dev`, $0 Gemini
 
-**Commit:** _(this entry's commit)_
+**Commit:** `dd088a574`
 
 Dispatched as the cfix lane on row 117 (lowest open complaint). Complaint is AUDIO-domain — Cameron: *"it was all good until the very end where you miss pronounced 'Dramatized' — fix that audio at the very end."* Per the audio-domain rail I did NOT re-cut pictures. But this is the SECOND pass: a RUNNER PARK already diagnosed it and an "AUDIO-FIX SHIPPED" (07:34, commit `33b7d3ba1`) claimed to fix it — Cameron re-filed the identical complaint 22 min later (07:56 UTC) against that exact hash. Re-parking the same way = the loop he hates, so I root-caused instead.
 
