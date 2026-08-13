@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T06:56:06_
+_Last sync: 2026-08-13T07:02:11_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 56 row(s)
+- **BUILDING** — 54 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 19 row(s)
+- **ON REVIEWER — awaiting Cameron** — 21 row(s)
 
 ## The rows
 
@@ -201,7 +201,7 @@ _Last sync: 2026-08-13T06:56:06_
 | 178 | In Our Image | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 179 | Stephens Witness | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 180 | Before I Formed Thee | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 181 | Morning Stars Sang | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 181 | Morning Stars Sang | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 182 | The Spirit Returns to God | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 183 | Sun Moon and Stars | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 184 | Caught Up to the Third Heaven | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
@@ -211,7 +211,7 @@ _Last sync: 2026-08-13T06:56:06_
 | 188 | Be Ye Therefore Perfect | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 189 | To Him That Overcometh | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 190 | Faith Without Works | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 191 | Windows of Heaven | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 191 | Windows of Heaven | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 192 | The Fast God Has Chosen | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 193 | The Comforter | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 194 | Fruit of the Spirit | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
