@@ -103,3 +103,53 @@ Drop-check (lessons 173/89): concat_base = 32 clips == 32 beats; video 191.3s �
 191.27s; AUDIO LOCK PASS SHA256 3ec248cbc1213e41a020588f847035de6a8081c424bc5a4b289cac875b68f718.
 Meter at ship ≈ $681.1; this row ≈ $2.41 (16 stills + 2 rerolls this session; portraits
 + 16 stills were spent in the 2026-08-06 park). Under the $6.10 avg — COST LAW trend holds.
+
+## QC-VERIFY — 2026-08-13 (Opus runner, Machine A `Dev`, headless) — CLEAN 32/32 + card, NOT re-cut
+
+Independent FULL-CUT GATE (6b) re-check of the BUILT/unapproved cut before
+Cameron's eyes reach it. `.approvals.json` row 115 = `approved:false` (the
+`2026-07-18` approvedAt is a void pre-redo timestamp; approved flag governs) →
+QC-VERIFY is in-scope, NOT an untouchable release decision. Live-verified the
+shipped cut IS what Cameron sees: review.html card data-hash `4453e8aa` == ship
+commit; served mp4 HTTP 200 = 20,233,750 bytes == local.
+
+Extracted one frame per beat (mid-window, from the per-beat play-order clips
+c000–c031) + 3 caption frames + 2 God-voice caption frames + the question card;
+viewed EVERY one against the defect checklist + CONTENT-CARE + RUNNER-LESSONS.
+
+**VERDICT CLEAN 32/32 + card:**
+- **CONTENT-CARE fully held** (the hardest law on this story): the knife appears
+  ONLY at rest — mid-air/falling toward the ground at the stay of the hand (b18)
+  and lying beside the altar at night (b29); NEVER raised, NEVER near the boy.
+  No bound child on the altar in any frame. Abraham stands alone at the wood-laid
+  altar (b16) — Isaac is never placed on it. Boy safe + unbound + upright in
+  every appearance. The ram is a real animal caught by its horns in the thicket
+  (b20) / grazing (b21/b23); the altar shows smoke = the RAM's offering, never a
+  burning child (b25).
+- **GOD / the angel of the LORD NEVER embodied:** the heavenly-call beats are
+  carried by light breaking through cloud (b14) and Abraham reacting (b15–b17) —
+  no divine figure, no hand-from-sky, no beam-as-God.
+- **Identity consistent:** Abraham one elderly man, full white beard, dark cap /
+  dark headscarf, rust-brown robe every frame (cap↔scarf both dark, same face —
+  not a beard/identity flip). Isaac one boy, dark curly hair, olive-green tunic.
+  No cream/white robe on anyone (correct — OT, no Jesus in this story; jesus_face
+  gate N/A).
+- Realistic biblical photography throughout (Law 14, no cartoon/mix); clean
+  hands/anatomy/feet, no extra limbs, no owl-neck; ordinary human scale
+  (Abraham never a giant beside Isaac); first-century materials; no modern
+  objects; no halo/glow/rim-light/lens-stare. Time-of-day arc holds: grey dawn →
+  white noon → gold sunset → starlit night.
+- **Captions:** narrator WHITE, God-voice GREEN (b18 "Lay not thine hand upon the
+  lad…"; b26 "and in multiplying I will multiply thy seed as the stars of the
+  heaven" both pixel-verified green) — SPEAKER LAW honored; bottom-band only,
+  clean splits synced to narration, no tofu. Question card clean (cream card,
+  dark serif, centered, no code-fault squares).
+- **Watch-items (non-blocking, NOT the flagged defect class):** b27 Abraham has
+  a faint natural wet tear catching starlight (reads as a real tear, NOT the
+  solid painted "white tear" defect Cameron flagged on rows 51/71); b24 embrace
+  has a natural kneeling foot at the frame edge (not an extra limb). Neither
+  warrants spending a re-cut on a clean, unapproved cut.
+
+**NOT re-cut** — touch-once holds; a re-cut would void nothing-here + re-queue
+for no reason. Claim stamped `QC-OK 2026-08-13`. Appr stays ⬜ (Cameron's alone).
+**$0 / 0 rerolls / 0 Gemini** (view-only verify).
