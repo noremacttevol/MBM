@@ -105,3 +105,51 @@ python3 v2_gen_api.py build-116-graven-on-his-palms --ceiling <meter+21*0.134*1.
 # b04 already present + CITY wired; QC all frames, assemble (audio CLEAN,
 # |Δ|=0.024s — will pass AUDIO LOCK), ship per PROMPT-OPUS-RUNNER.md step 7.
 ```
+
+---
+
+## ✅ SHIPPED — REALISTIC-V2 FIRST CUT (Opus runner, Machine A `Dev`, headless) 2026-08-13
+
+Billing restored overnight (row 118 shipped this morning cleared the depletion wall).
+Resumed the two 2026-08-06 billing parks: WOMAN portrait + CITY plate (b04) were
+already done & committed — reused, NOT regenerated. Generated the 20 remaining beats
+in ONE pass, 0 429s.
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 116` shows no filed complaint on
+this row. Cross-checked QUEUE.md row 116 = "Graven on his palms, Isa 49" — a
+realistic-V2 redo, NOT a swapped/replaced story. Built to spec, no complaint to answer.
+
+- **Build:** 21 realistic stills @ native 2K. Reused: WOMAN portrait (CAST-REF-V2/woman.jpeg),
+  CITY plate (assets/s04, PLACE-WIRING manual). NEW gen: b01-b03,b05-b21. ENGRAVER + MOTHER
+  are text-lock-only cast tokens (no portraits) — QC'd hardest for drift; each read consistent
+  within its few frames (MOTHER b07/b09/b11 warm nursing content-care; ENGRAVER b12/b14/b15/b21
+  one grey craftsman).
+- **Rerolls: 2 (9.5%, under the 15% budget), both on b21.** AUTOPSY = ALLOWED (nothing in the
+  beat banned eyewear): the closing engraver twice rendered wearing modern wire-rim EYEGLASSES
+  (anachronism / modern object) + a lens-stare — the generator associates "old man examining
+  fine engraving" with reading glasses. Reroll #2 cleared both (glasses-free, eyes on the tablet,
+  three-quarter). Hit the 2-reroll cap; did NOT drift-chase further.
+- **FULL-CUT GATE on the RENDERED mp4 — 21/21 beats + card PASS** (one frame per beat extracted
+  from the mp4 and viewed in PLAY order, + caption/speaker pixel check): realistic photography
+  throughout (no cartoon/mix, Law 14). **GOD NEVER EMBODIED (default OT gate — no complaint asks
+  to depict him)** — no divine figure/hand-from-sky/beam/light-disc; the God-voice beats (jv15
+  b09/b10, jv16 b14/b16) are carried by the forgotten woman, the nursing mother, and the ENGRAVER
+  carving a NAME into enduring bronze. **THE PALMS handled per author law: "graven" = a name cut
+  deep into metal (b14/b15 Hebrew, b19 insert), the gospel echo IMPLIED only — NEVER depicted as
+  nail-wounds** (passion imagery stays at rows 94-96's distance). WOMAN one consistent olive
+  middle-aged face in dark-blue veil across all her beats; MOTHER warm/modest; ENGRAVER consistent.
+  Distinct faces, ordinary scale, clean hands/anatomy, no owl-neck, no modern object (glasses gone),
+  first-century materials, warm living skin. Light arc holds: dusk-alone → first gold → full morning
+  (b18 the woman steps into full morning light — the promise's payoff). Captions bottom-band only;
+  **SPEAKER LAW pixel-verified: narrator WHITE, Zion's lament "The LORD hath forsaken me" BLUE
+  (scripture), God-voice jv15/jv16 GREEN, NO RED anywhere** (correct — OT, no embodied/Jesus voice).
+  Clean question card, good margins, no tofu. DROP-CHECK: concat_base = 21 clips == 21 BEATS
+  (no dropped beat); mp4 133.67s; AUDIO LOCK PASS SHA256 e5bb3a2e.
+- **Judgment logged (not a defect):** b21's closing bronze plate carries a legible engraved
+  Greek name reading "IHΣOYΣ" (Jesus). This is a graven NAME — the literal subject of the row
+  ("Behold, I have graven thee") — and b15/b19 likewise show engraved Hebrew letters BY DESIGN;
+  it reads as the intended gospel echo, is not a watermark/caption/modern-object defect, and is
+  not any Cameron-complaint class. Kept rather than exceed the 2-reroll cap chasing a Hebrew
+  variant. Flag for the later fix-wave if he ever wants Hebrew-only graven text.
+- **Cost:** ~$2.94 this session (20 beats + 2 rerolls), 9.5% rerolls — both well under the
+  $6.10/row & 15% COST-LAW ceilings; downward trend holds.
