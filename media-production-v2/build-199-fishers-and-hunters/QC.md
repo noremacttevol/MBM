@@ -9,8 +9,16 @@ open complaint). Fable-5 author lane, Machine A `Dev`, 2026-08-07, $0.
 ---
 
 ## COMPLAINT LEDGER
-- **No open Cameron complaint** on row 199 (`v2_outline.py 199` shows none). Fresh
-  NEEDS-BEATS → AUTHORED build. Board Audio = OK; default AUDIO LOCK stream-copy, no re-voice.
+- **OPEN COMPLAINT (filed AFTER this file was authored): "Not real new voice"**
+  (`v2_outline.py 199` surfaced it 2026-08-13 — the author lane on 2026-08-07 saw
+  none, so the LEARNING-LAW re-check caught it). **FIXED IN THIS CUT:** the delivered
+  V1 mp4 (69.13s, audio 44100/94k) stream-copied a STALE track 1.0s off the segment
+  timeline (68.124s). This cut sets `AUDIO_FROM_V1_SEGMENTS=True`, so `v2_assemble`
+  REBUILT the track from the 7 authoritative V1-dir segment mp3s — all verified
+  **44100/128k = the CHOSEN ElevenLabs cast** (edge-tts is 24000/48000), incl. the
+  s1 GOD-voice. **AUDIO REBUILD PASS SHA256 beaf60df…, 68.1s/20.2MB.** Card tells
+  Cameron in plain words the voice is the real new one. Same fix class as rows
+  191/181/189.
 
 ---
 
@@ -95,3 +103,28 @@ searchers comb every mountain and rock-cleft with open hands (no weapons) to FIN
 bring them home. The Fisher of men searches still — not to condemn, but to bring home whoever
 will be found. God is never pictured, and the search is rescue, never a hunt-to-harm. No open
 complaint on this row.
+
+---
+
+## ✅ SHIPPED — Opus runner, Machine A `Dev`, 2026-08-13 (headless, first V2 cut)
+
+**Row 199 · Jeremiah 16:16 · fishers-and-hunters · 14 stills @ 2K · 68.1s / 20.2MB · 0 rerolls · ~$2.01**
+
+- **COMPLAINT "Not real new voice" FIXED & VERIFIED** — see COMPLAINT LEDGER above.
+  `AUDIO_FROM_V1_SEGMENTS=True`; **AUDIO REBUILD PASS SHA256 beaf60dfd766…** from 7
+  new-voice ElevenLabs segments (all 44100/128k). Drop-check: concat_base = 14 clips
+  == 14 BEATS; card_start 60.883 > b14 window start 56.700 (no dropped beat).
+- **Places (4 NEW, all promoted+committed):** JEREMIAH-EDGE←b01, FISHING-WATERS←b03,
+  SEARCH-HILLS←b05, HOME-VALLEY←b14. Anchors QC'd hardest/first.
+- **FULL-CUT GATE per-rendered-frame 14/14 + card PASS:** realistic photography
+  throughout (no cartoon/mix, Law 14); **MERCY-NOT-PREDATION held — no weapons in any
+  frame (staffs/open hands only), nets gather gently, every found person relieved &
+  welcomed, none bound/dragged/wounded/fleeing**; **GOD NEVER EMBODIED** (no figure/
+  hand-from-sky/beam; b13 "Fisher of men" = a plain fisherman, NOT Christ); NO cream/
+  white on anyone (OT, Jesus absent); JEREMIAH one young slight prophet across s01/s02;
+  distinct fisher/searcher/scattered faces; ordinary scale, clean anatomy/hands/beards;
+  no modern object/rendered writing; warm daylight throughout (search reads as rescue).
+  **SPEAKER LAW pixel-verified:** GREEN only on the s1 GOD-voice (b03–b07), WHITE
+  narrator everywhere else, NO RED anywhere (OT). Captions bottom-band only; card clean.
+- **Cost:** ~$2.01/row (1 portrait + 14 stills), 0 rerolls (0%) — far under the
+  $6.10/row & 15% reroll COST-LAW ceilings; downward trend holds.

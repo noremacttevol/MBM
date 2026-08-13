@@ -1,0 +1,26 @@
+{
+ "FISHING-WATERS": {
+  "manual": true,
+  "src_beat": "s03-i-will-send-fishers",
+  "src_build": "build-199-fishers-and-hunters",
+  "src_file": "build-199-fishers-and-hunters/assets/s03-i-will-send-fishers.jpeg"
+ },
+ "HOME-VALLEY": {
+  "manual": true,
+  "src_beat": "s14-bring-home",
+  "src_build": "build-199-fishers-and-hunters",
+  "src_file": "build-199-fishers-and-hunters/assets/s14-bring-home.jpeg"
+ },
+ "JEREMIAH-EDGE": {
+  "manual": true,
+  "src_beat": "s01-jeremiahs-hard-word",
+  "src_build": "build-199-fishers-and-hunters",
+  "src_file": "build-199-fishers-and-hunters/assets/s01-jeremiahs-hard-word.jpeg"
+ },
+ "SEARCH-HILLS": {
+  "manual": true,
+  "src_beat": "s05-i-will-send-hunters",
+  "src_build": "build-199-fishers-and-hunters",
+  "src_file": "build-199-fishers-and-hunters/assets/s05-i-will-send-hunters.jpeg"
+ }
+}
