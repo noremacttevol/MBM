@@ -65,3 +65,10 @@ STALE-V1: row-147 class: durations match (~141.3s) but 11/11 V1-dir mp3s NEWER t
 3. 0 stills exist → hand back to the picture runner: board State NEEDS-AUDIO → AUTHORED, keep Ready ✅, Claim BLANK.
 
 **RESUME (audio lane):** `python3 media-production-v2/v2_assemble.py 154` (refuses until the flag is set).
+
+## ✅ AUDIO-FIX DONE — 2026-08-13 (Machine A `Dev`, audio lane, headless)
+STALE-V1 resolved, $0, 0 re-voice:
+1. Voice-ID'd all 11 V1-dir mp3s (n1-n8, kv6, kv7, card) = **44100 Hz / 128 k = the chosen ElevenLabs new-voice cast** (no old edge-tts segment).
+2. Set `AUDIO_FROM_V1_SEGMENTS = True` in `beats_v2.py` (rebuild from newer mp3s; nothing re-voiced/re-timed; V1 read-only).
+3. Pre-flight PASS: `extract_beats 154` = 141.4s / 10 beats; `--check` v4 PASS (23 beats); `audio_audit --rows 154` = **0 old-voice segments**.
+4. Handed to the PICTURE RUNNER: board State NEEDS-AUDIO → AUTHORED, Ready ✅, Claim cleared. $0 / 0 Gemini / 0 re-voice.
