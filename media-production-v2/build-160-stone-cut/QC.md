@@ -63,3 +63,31 @@ drift-word FAIL ('glow') caught and fixed pre-ship.
   STATUE and STONE are effectively PROP tokens — if the stash ever
   auto-suggests a place-frame for them from another build, REJECT
   (the row-157 person/prop wiring lesson).
+
+---
+
+## 🅿️ RUNNER PARK → NEEDS-AUDIO (Opus runner, Machine A `Dev`, 2026-08-13, $0/0 gen)
+
+**STALE-V1 — parked before ANY credit (the $0 audio pre-flight caught it).**
+`v2_assemble.assert_v1_final_is_current(160,…)` FAILS: the authoritative V1 mp4
+`media-production/build-160-stone-cut/daniel-2_stone-cut-without-hands.mp4` was
+rendered **2026-07-24 10:15:29**, but **11 of the 11** narration mp3s it would
+lock to are NEWER (n1/n2/n3/kv45/n4/n5 … all **2026-07-28 15:56:26**) — the
+whole OT-block re-voice-over-old-mp4 pattern (row 141/147 class). Duration diff
+is only −0.086 s, so the loose ≤1.0 s heuristic passes; the real guard trips on
+the newer-mp3 tripwire. Copying the V1 mp4 audio would ship stale voices.
+
+- `v2_prompt.py build-160-stone-cut --check` = PASS (21 beats, v4).
+- `.approvals.json` "160" NOT PRESENT → not approved, not complained.
+  **COMPLAINT LEDGER: none open.**
+- 0 stills generated (parked at pre-flight — no meter touched).
+
+**RESUME (audio lane, PROMPT-AUDIO-FIX, $0, no Gemini):**
+1. Voice-ID the 11 V1-dir mp3s (`media-production/build-160-stone-cut/audio/*.mp3`)
+   — confirm ElevenLabs new-voice (44100/128k) as on rows 155/156/157.
+2. Add `AUDIO_FROM_V1_SEGMENTS = True` to
+   `media-production-v2/build-160-stone-cut/beats_v2.py`.
+3. Board State NEEDS-AUDIO → AUTHORED, Ready ✅, Claim BLANK (no stills yet →
+   hand to picture runner). Then the picture runner generates the 21 stills +
+   promotes the 4 NEW plates (COURT/DREAM-PLAIN/STATUE/STONE — STATUE & STONE
+   are PROP tokens, reject any auto-place suggestion) and ships.
