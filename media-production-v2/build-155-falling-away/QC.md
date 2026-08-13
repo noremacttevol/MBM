@@ -49,3 +49,18 @@ order (b07 at 55s, b16 at 2.68s) — build by WINDOW.
 - Plates: HALL --take from build-22 REJECTED (parable king's hall ≠
   modest house-courtyard). HALL promote-first from b01, ROOM from
   b02.
+
+---
+
+## 🅿️ RUNNER PARK → NEEDS-AUDIO — 2026-08-13 (Machine A `Dev`, Opus runner, headless)
+
+**$0 spent. NO stills generated. Parked at the two-part audio PRE-FLIGHT before touching the meter.**
+
+STALE-V1: row-147 class: durations match (~136.9s) but 11/11 V1-dir mp3s NEWER than the V1 mp4 (new-voice re-record) — so `v2_assemble`'s AUDIO LOCK refuses (the picture runner copies the V1 mp4's audio; `AUDIO_FROM_V1_SEGMENTS` is unset).
+
+**FIX (audio lane, NOT runner — beats_v2.py is off the runner write-list):**
+1. Voice-ID the V1-dir `audio/*.mp3` — confirm new-voice ElevenLabs cast.
+2. Set `AUDIO_FROM_V1_SEGMENTS = True` in `beats_v2.py` (rebuild audio from the newer mp3s, $0, no re-voice).
+3. 0 stills exist → hand back to the picture runner: board State NEEDS-AUDIO → AUTHORED, keep Ready ✅, Claim BLANK.
+
+**RESUME (audio lane):** `python3 media-production-v2/v2_assemble.py 155` (refuses until the flag is set).

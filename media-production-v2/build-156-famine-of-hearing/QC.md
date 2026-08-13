@@ -42,3 +42,18 @@ the side). No Jesus beats. File order HEAVILY scrambled (b05 at
 
 - Plates: none auto-matched. GATE shared with 152; SEEKERS varied
   (rows 90/107 clone law).
+
+---
+
+## 🅿️ RUNNER PARK → NEEDS-AUDIO — 2026-08-13 (Machine A `Dev`, Opus runner, headless)
+
+**$0 spent. NO stills generated. Parked at the two-part audio PRE-FLIGHT before touching the meter.**
+
+STALE-V1: row-147 class: durations match (~137.0s) but 11/11 V1-dir mp3s NEWER than the V1 mp4 (new-voice re-record) — so `v2_assemble`'s AUDIO LOCK refuses (the picture runner copies the V1 mp4's audio; `AUDIO_FROM_V1_SEGMENTS` is unset).
+
+**FIX (audio lane, NOT runner — beats_v2.py is off the runner write-list):**
+1. Voice-ID the V1-dir `audio/*.mp3` — confirm new-voice ElevenLabs cast.
+2. Set `AUDIO_FROM_V1_SEGMENTS = True` in `beats_v2.py` (rebuild audio from the newer mp3s, $0, no re-voice).
+3. 0 stills exist → hand back to the picture runner: board State NEEDS-AUDIO → AUTHORED, keep Ready ✅, Claim BLANK.
+
+**RESUME (audio lane):** `python3 media-production-v2/v2_assemble.py 156` (refuses until the flag is set).
