@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 07:18:14",
+ "scanned": "2026-08-13 07:29:45",
  "entries": [
   {
    "row": 1,
@@ -60032,6 +60032,402 @@
    "night": false,
    "n_person": 1,
    "scene": "A closing shot of the storehouse in warm daylight, its bins and the people's baskets brimming and spilling over with heaped grain and ripe fruit \u2014 more than there is room to hold \u2014 the farmer and townspeople gathering th"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b01",
+   "file": "build-198-ensign-for-the-nations/assets/s01-isaiah-points-ahead.jpeg",
+   "tokens": [
+    "ISAIAH-HEIGHT",
+    "ISAIAH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "An establishing wide on the windswept height in warm daylight, camera set behind and to the side of Isaiah so his back is three-quarters to the lens and his arm and gaze reach far out toward the horizon, never to the cam"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b02",
+   "file": "build-198-ensign-for-the-nations/assets/s02-the-root-of-jesse.jpeg",
+   "tokens": [
+    "ISAIAH-HEIGHT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A tight insert on the summit in warm daylight: a fresh, vivid GREEN SHOOT with tender new leaves rises straight up out of the grey, weathered, cut-down tree-stump \u2014 new life springing from the old stem of Jesse, Isaiah's"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b03",
+   "file": "build-198-ensign-for-the-nations/assets/s03-stand-as-a-banner.jpeg",
+   "tokens": [
+    "ISAIAH-HEIGHT",
+    "ISAIAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A shot on the height in warm daylight: a plain, undecorated cloth banner is run up the tall wooden pole and catches the wind, lifted high as a signal; Isaiah (not cream) stands at the foot of the pole, a hand on the rais"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b04",
+   "file": "build-198-ensign-for-the-nations/assets/s04-so-nations-find-the-way.jpeg",
+   "tokens": [
+    "ISAIAH-HEIGHT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A wide low-angle on the height in warm daylight, camera set low at the foot of the banner-pole looking up along it to the broad open sky so the pole and banner lead the eye up and away and no person is in frame facing th"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b05",
+   "file": "build-198-ensign-for-the-nations/assets/s05-the-second-time.jpeg",
+   "tokens": [
+    "GATHERING-ROADS",
+    "GATHERED-EXILES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A shot on a worn road winding out of distant hills in warm daylight: a scattered group of exiles (worn travelling wool, not cream, bundles and staffs) lift their heads and set out along the track toward the far height wh"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b06",
+   "file": "build-198-ensign-for-the-nations/assets/s06-recover-the-remnant.jpeg",
+   "tokens": [
+    "GATHERING-ROADS",
+    "GATHERED-EXILES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A closer shot on the gathering road in warm daylight: a remnant of the people \u2014 a family with a child and a few other travellers (worn wool, not cream) \u2014 draw together as they journey, faces set with hope toward the bann"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b07",
+   "file": "build-198-ensign-for-the-nations/assets/s07-ensign-for-the-nations.jpeg",
+   "tokens": [
+    "ISAIAH-HEIGHT",
+    "GATHERED-EXILES"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A high wide from the height in warm daylight, camera set on the summit just behind the banner-pole looking down over the land so the pole is in the near foreground and the peoples below have their backs and travel turned"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b08",
+   "file": "build-198-ensign-for-the-nations/assets/s08-assemble-the-outcasts.jpeg",
+   "tokens": [
+    "GATHERING-ROADS",
+    "GATHERED-EXILES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A shot on the gathering road in warm daylight: a lone, weary outcast (worn wool, not cream) is met and drawn in among the other travellers, welcoming hands on his shoulders, no longer cast out \u2014 the outcasts of Israel as"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b09",
+   "file": "build-198-ensign-for-the-nations/assets/s09-from-the-four-corners.jpeg",
+   "tokens": [
+    "GATHERING-ROADS",
+    "GATHERED-EXILES"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A high wide over the land in warm daylight, camera raised high and looking down so every road runs away into the distance and the travellers have their backs turned away toward the far banner, never toward the lens: stre"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b10",
+   "file": "build-198-ensign-for-the-nations/assets/s10-brought-home.jpeg",
+   "tokens": [
+    "GATHERING-ROADS",
+    "GATHERED-EXILES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A shot along a fuller stretch of the gathering road in warm daylight: returning people of many nations (varied travelling dress, none cream) walk together, faces lifting with relief as the green home country begins to sh"
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b11",
+   "file": "build-198-ensign-for-the-nations/assets/s11-the-invitation.jpeg",
+   "tokens": [
+    "GATHERING-ROADS",
+    "GATHERED-EXILES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A shot on the last road up toward the height in warm daylight: travellers (worn wool, not cream) climb the final stretch, looking up to the plain banner raised above them on the summit \u2014 the ensign that called them, the "
+  },
+  {
+   "row": 198,
+   "build": "build-198-ensign-for-the-nations",
+   "beat": "v2-r198-b12",
+   "file": "build-198-ensign-for-the-nations/assets/s12-come-home.jpeg",
+   "tokens": [
+    "HOMELAND",
+    "GATHERED-EXILES"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A closing wide in the green home valley in warm daylight, camera at eye level a little behind the arriving travellers so their backs are three-quarters to the lens and their gazes go out into the welcoming valley, never "
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b01",
+   "file": "build-199-fishers-and-hunters/assets/s01-jeremiahs-hard-word.jpeg",
+   "tokens": [
+    "JEREMIAH-EDGE",
+    "JEREMIAH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "An establishing wide at the town's edge in warm daylight, camera set behind Jeremiah's shoulder so his back is three-quarters to the lens and his gaze goes out to the townsfolk and the land, never to the camera: young Je"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b02",
+   "file": "build-199-fishers-and-hunters/assets/s02-he-would-send-searchers.jpeg",
+   "tokens": [
+    "JEREMIAH-EDGE",
+    "JEREMIAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A closer three-quarter shot of Jeremiah (not cream) at the gate in warm daylight, one hand opened out over the wide land of hills and water beyond the wall, his young face grave and sorrowful as he tells that the LORD wi"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b03",
+   "file": "build-199-fishers-and-hunters/assets/s03-i-will-send-fishers.jpeg",
+   "tokens": [
+    "FISHING-WATERS",
+    "FISHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A shot on the bright shore of the calm waters in warm daylight: ordinary fishermen (belted earth-toned tunics, not cream) swing a wide net out over the still water in a broad arc, sent to gather \u2014 plain human men at hone"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b04",
+   "file": "build-199-fishers-and-hunters/assets/s04-they-shall-fish-them.jpeg",
+   "tokens": [
+    "FISHING-WATERS",
+    "FISHERS",
+    "THE-SCATTERED"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A shot at the water's edge in warm daylight: the fishers (not cream) draw the net gently in to the shore and reach down to help weary scattered people (worn wool, not cream) step up out of the shallows onto dry land \u2014 a "
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b05",
+   "file": "build-199-fishers-and-hunters/assets/s05-i-will-send-hunters.jpeg",
+   "tokens": [
+    "SEARCH-HILLS",
+    "SEARCHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A shot at the foot of the rocky hills in warm daylight: a group of searchers (earth-toned travelling wool, not cream), each with a plain staff or an open reaching hand and NO weapon of any kind, set out up the goat-track"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b06",
+   "file": "build-199-fishers-and-hunters/assets/s06-every-mountain-and-hill.jpeg",
+   "tokens": [
+    "SEARCH-HILLS",
+    "SEARCHERS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "A wide over the range in warm daylight, camera raised high behind the nearest searchers so their backs are to the lens and every gaze searches away across the hills, never to the camera: searchers (not cream, no weapons)"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b07",
+   "file": "build-199-fishers-and-hunters/assets/s07-out-of-the-rocks.jpeg",
+   "tokens": [
+    "SEARCH-HILLS",
+    "SEARCHERS",
+    "THE-SCATTERED"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close among the rock-clefts in warm daylight: a searcher (not cream, no weapon) crouches at a hole in the rocks where a weary, hiding person (worn wool, not cream) has taken shelter, and reaches a gentle open hand down"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b08",
+   "file": "build-199-fishers-and-hunters/assets/s08-find-everyone.jpeg",
+   "tokens": [
+    "SEARCH-HILLS",
+    "SEARCHERS",
+    "FISHERS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "A high wide in warm daylight, camera raised on the hillside behind the nearest searchers so their backs are to the lens and their gaze sweeps down over the land, never to the camera: searchers move all through the hills "
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b09",
+   "file": "build-199-fishers-and-hunters/assets/s09-the-mercy-underneath.jpeg",
+   "tokens": [
+    "SEARCH-HILLS",
+    "SEARCHERS",
+    "THE-SCATTERED"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close two-shot on the hillside in warm daylight: a searcher (not cream) steadies a found, exhausted person (worn wool, not cream) with a hand under the arm and a tender, reassuring face \u2014 the search revealed as love, n"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b10",
+   "file": "build-199-fishers-and-hunters/assets/s10-wants-them-found.jpeg",
+   "tokens": [
+    "SEARCH-HILLS",
+    "SEARCHERS",
+    "THE-SCATTERED"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A shot on the hillside in warm daylight: a searcher (not cream) walks ahead of a found family (worn wool, not cream, a child among them), leading them gently down off the rocks toward safety, unhurried and caring \u2014 they "
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b11",
+   "file": "build-199-fishers-and-hunters/assets/s11-never-the-catching.jpeg",
+   "tokens": [
+    "SEARCH-HILLS",
+    "SEARCHERS",
+    "THE-SCATTERED"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close on a searcher (not cream) who has found a hesitant person on the hill: instead of seizing them he simply opens both hands in welcome and waits, leaving them free to come \u2014 the point was never the catching. The fo"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b12",
+   "file": "build-199-fishers-and-hunters/assets/s12-not-slip-away-unnamed.jpeg",
+   "tokens": [
+    "SEARCH-HILLS",
+    "SEARCHERS",
+    "THE-SCATTERED"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A tight two-shot on the hill in warm daylight: a searcher (not cream) looks one found person (worn wool, not cream) full in the face, holding their eyes with recognition \u2014 this one is known and named, not a nameless catc"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b13",
+   "file": "build-199-fishers-and-hunters/assets/s13-the-fisher-searches-still.jpeg",
+   "tokens": [
+    "FISHING-WATERS",
+    "FISHERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A shot on the bright shore in warm daylight: a fisher (not cream) casts his wide net out over the calm water once more, hopeful and unhurried \u2014 the search still going on for whoever will be found, hope rather than condem"
+  },
+  {
+   "row": 199,
+   "build": "build-199-fishers-and-hunters",
+   "beat": "v2-r199-b14",
+   "file": "build-199-fishers-and-hunters/assets/s14-bring-home.jpeg",
+   "tokens": [
+    "HOME-VALLEY",
+    "SEARCHERS",
+    "THE-SCATTERED"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "A closing wide in the green home valley in warm daylight, camera at eye level a little behind the arriving group so their backs are three-quarters to the lens and their gazes go out into the welcoming valley, never to th"
   }
  ]
 }
