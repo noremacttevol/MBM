@@ -106,3 +106,60 @@ all 44100 Hz / 128 kbps mono = the new-voice ElevenLabs spec) into
 zero WARNs), `audio_audit` flags 0 old-voice segments. Board → Audio OK, Ready ✅.
 Row is now a normal picture build for the Opus runner (VALLEY promote-first b02,
 OVERLOOK b09, PROPHET portrait already made). Content-care laws above still bind.
+
+## ✅ V2 FIRST CUT SHIPPED (Opus runner, Machine A `Dev`, headless, 2026-08-13)
+
+REPLACED-story reconciliation VERIFIED before build (swap guardrail): the audio
+transcribes as the Gehenna/Mark-9 script (n0 "Many of the pictures people carry of
+hell…", n1 "Gehenna is the Greek form of the name Valley of Hinnom…", j1/j3 KJV Mark
+9:43-48), new-voice ElevenLabs (44100/128k), CONTENT distinct from live #185
+many-mansions (John 14:2); old dupe preserved in build-133-many-mansions. Buildable.
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 133` shows no filed Cameron complaint —
+this is a first cut of a Cameron-requested story). Built to the STRICTEST content-care
+spec in this file.
+
+- **22 realistic stills @ native 2K, 149.9s / 20.6MB.** VALLEY promote-first from the
+  person-free b02 (clean period Valley of Hinnom: Herodian southern wall, ash heaps,
+  thin smolder — the real burning-ground). OVERLOOK left on its text lock (forced
+  no-promote: QC named b09 but b09 is a Jesus frame — promoting a Jesus-bearing frame
+  is banned, lesson 1046; the only non-Jesus OVERLOOK beat b14 is a tight peopled
+  faces-shot unsuitable as a location plate; b09/b22 also lock VALLEY so the valley
+  stays anchored there).
+- **CONTENT-CARE held (no horror, ever):** no torture/demons/pitchforks/maiming.
+  Topheth b05/b06 = the prophet denouncing over ruined stones + ash only, NO children,
+  NO fire enacted. Hand/eye verses NEVER literal — b10 = Jesus's own WHOLE raised hand
+  (5 fingers, no cut), b12 = his own clear steady eyes; b15 craftsman hand whole &
+  working. b13 worm/fire = empty ground, banked embers, thin smoke, NO figures, no
+  leaping flame. Later-tradition art b01/b17 = muddy indistinct canvases + easel/pigments,
+  nothing lurid resolves. b18 = scripture's own warning OBJECTS (lamp, chaff, broken
+  vessel, hearth, shut door). b20 child SAFE, held back from the well's edge.
+- **7 Jesus beats** (b08/09/10/12/16/21/22): ONE locked ref face, cream-only every
+  appearance, ref-true GREEN/hazel eyes (NO brown iris-edit — rubric lesson 20), no
+  halo/glow/rim-light, calm eyes, ordinary scale. Good Shepherd b21, closing "map" b22
+  (Jesus between the smoking valley and the warm home-lit city, listeners' backs).
+- **Rerolls: 3 paid (13.6% of 22, under the 15% COST-LAW budget) + 1 $0 crop-reuse.**
+  b03 + b04 both drifted the wide Valley-of-Hinnom establishing frame to a PRESENT-DAY
+  photo (modern apartment blocks, satellite dishes, red-tile roofs, roof water-tanks,
+  hanging laundry, plastic trash in the ravine) — a modern-object/Law-6 drift while the
+  plate-siblings b02/b07/b13 rendered clean. b04 cleared on 1 `--redo`. b03 stayed
+  modern across BOTH rerolls (structural present-day-Hinnom prior for the wide-city
+  framing) → hit the 2-reroll cap → fixed at $0 by a tighter PUNCH-IN CROP of the clean
+  adjacent b02 (reads as a natural push-in, lesson 1354/1355; `s03.modern-reroll.bak`
+  kept).
+- **FULL-CUT GATE caught + FIXED a CAPTION↔AUDIO MISMATCH (would-be Cameron complaint).**
+  This build's `make_narration.py` SEGMENTS hold an OLD "torture chamber / burning garbage
+  dump" narrator draft, but the shipped audio speaks the Gehenna/valley script (verified
+  vs every `audio/<seg>.timing.json`). Captions come from SEGMENTS, so every narrator
+  caption + the card printed words the voice never says. Fixed with `TEXT_OVERRIDES`
+  (n0-n6 + card) = the SPOKEN text; j1/j2/j3 already matched (KJV). Re-assembled → captions
+  now match audio (verified in the rendered mp4), AUDIO byte-identical.
+- **Assembly:** REPLACED new-story row has no V1 mp4 → set `OUTPUT_VIDEO_NAME` +
+  `AUDIO_FROM_V1_SEGMENTS=True` (module-level config, row-140 lesson). No glob collision
+  (archived build-133-many-mansions has no beats_v2.py). AUDIO REBUILD PASS
+  SHA256=be761e925ecb63f74… Drop-check: concat_base = 22 clips == 22 BEATS (no dropped
+  beat); video 149.900s ≈ audio 149.897s.
+- FIX-WAVE (non-blocking): b14 background Jesus is authored `jesus:False`/no-ref so he
+  isn't ref-locked; he reads plausibly on-model + cream-only and the scene contextually
+  intends him (the teacher whose words the listeners react to, lesson 1209) — leave for a
+  future author touch (set jesus:True + REF), not a runner coin-flip reroll.

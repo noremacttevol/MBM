@@ -93,6 +93,28 @@ REF = True
 # V2 audio/ into the V1 dir audio/, and this flag rebuilds the mix from those segments.
 AUDIO_FROM_V1_SEGMENTS = True
 
+# REPLACED new-story row (Mark 9:43-48) has no rendered V1 mp4, so v2_assemble
+# cannot infer the output name from a locked V1 file — set it explicitly
+# (module-level assembly config, cf. row-140 bronze-serpent lesson).
+OUTPUT_VIDEO_NAME = "mark-9_what-jesus-called-hell.mp4"
+
+# CAPTION↔AUDIO FIX (Opus runner FULL-CUT GATE, 2026-08-13): this build's
+# make_narration.py SEGMENTS hold an OLD "torture chamber" narrator draft, but the
+# shipped audio mp3s speak the Gehenna/valley script (verified vs each
+# audio/<seg>.timing.json). Captions come from SEGMENTS, so without these overrides
+# every narrator caption + the card printed words the voice never says. Override to
+# the SPOKEN text (timing.json). j1/j2/j3 already match (KJV). Audio byte-identical.
+TEXT_OVERRIDES = {
+    "n0": "Many of the pictures people carry of hell came through centuries of art and tradition. Jesus did give severe warnings. But to hear one of his most famous warnings clearly, start with the history inside the word Gehenna.",
+    "n1": "Gehenna is the Greek form of the name Valley of Hinnom, a real ravine along the southern side of Jerusalem. Long before Jesus, that name had become a memory of one of Judah's darkest apostasies.",
+    "n2": "The prophets condemned a place there called Topheth, where children had been passed through fire. Jeremiah said it would be called the Valley of Slaughter. The name carried shame, ruin, and judgment.",
+    "n3": "By the time Mark recorded Jesus' warning, Gehenna was a place-name charged with that biblical history. Jesus used it, along with the closing image from Isaiah of fire and the worm, to make the danger of sin impossible to ignore:",
+    "n4": "The images are deliberately severe. Hand and eye name things as precious as parts of your own body, yet no cherished sin is worth surrendering life in God's kingdom. Love does not make the warning smaller. Love tells the truth about what destroys us.",
+    "n5": "Later art supplied pitchforks, elaborate torture chambers, and maps of the underworld. Scripture itself uses several warning images: death, destruction, darkness, exclusion, and fire. The images are meant to call you back, not satisfy curiosity about every detail beyond death.",
+    "n6": "Read the warning beside the whole life of the speaker: the shepherd who searches for the lost, the father who runs down the road, the Savior who enters death to bring people home. He warns because sin destroys and because he came to save.",
+    "card": "The warning is real. So is the rescue. What would you leave behind if you trusted that the one warning you is also the one searching for you?",
+}
+
 BEATS = [
     {
         "id": "v2-r133-b01", "out": "s01-many-of-the-pictures-people.jpeg", "seg": "n0",
@@ -610,6 +632,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "VALLEY": "PLACE-REF/valley.jpeg",  # build-133-what-jesus-called-hell s02-but-to-hear-one-of (manual)
 }
 # === end PLACE-PLATES ===
 
