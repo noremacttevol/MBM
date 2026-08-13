@@ -1,3 +1,16 @@
+## 2026-08-13 (Opus VERIFY pass, unattended/headless) — Row 105 FACE TO FACE QC-VERIFY-FIX: caught b24 shining-face demon-eyes before Cameron saw it — Machine A `Dev`, ~$0.27 Gemini
+
+VERIFY-PASS on AUTHOR-BOARD row 105 (BUILT + Unwatched, NOT approved — `.approvals.json` 105 `approved:false`, so touchable; the approved-row untouchable check correctly did not fire). Session-chain: prior top entry row 177 sanctuary, commit `97f2afbd7721` present in git log. Claimed the board row `QC-VERIFY 2026-08-13 LIVE`, pushed before any spend.
+
+- **FULL-CUT GATE (§6b) on the RENDERED mp4:** extracted one frame per beat (26) at mid-window + 2 caption frames + question card and viewed EVERY one against the defect checklist + RUNNER-LESSONS + the row's laws.
+- **ONE defect, fixed in ONE touch-once re-cut:** **b24 (shining face, `s24`)** shipped with a hot WHITE LIGHT-BURST concentrated ON MOSES'S EYES — reads as glowing white demon-eyes, the exact thing Cameron has filed 3× (rows 67/94/96) and the beat's own `must_not_show` forbids ("no halo/rays — the SKIN of the face bright"). Rerolled ×2 (`--only v2-r105-b24 --redo`): draw #1 only moved the blob eyes→forehead (still a hot-spot); draw #2 landed it — soft backlight bloom behind/around the head, NATURAL downcast eyes, three onlookers shielding their eyes (Ex 34:30-apt), Moses unaware. **Verified in the rendered mp4 at t=134.0s**, not just the asset (row-146 META lesson).
+- **All other 25 beats + both card frames were CLEAN and NOT touched** — realistic, MOSES consistent, God never embodied (pillar/light/cleft-shadow), captions bottom-band, anatomy/hands/scale clean, no cream robe, no modern objects.
+- **COST:** 2 rerolls / 26 beats = 3.8% (≤15%), ~$0.27 Gemini, meter $654.19→$654.46. Touch-once. **AUDIO UNCHANGED** — re-assemble printed the same SHA256 `8f3417de…` (164.3s); the card's "audio byte-identical" claim stays true, only the s24 picture changed.
+- **RUNNER-LESSONS:** sharpened the existing row-105 b24 shining-face line — the dangerous failure is the shine ON THE EYES (demon-eyes = certain complaint), it took TWO rerolls not one, and any glorified/shining face (incl. row 67 transfiguration) must be eye-inspected at full res first.
+- **Ship:** commit `033f83d758d9` (mp4 force-added + s24 + QC.md verify-fix note + RUNNER-LESSONS + QUEUE). Reviewer card v105 repointed (data-hash `033f83d758d9`, ?v=033f83d758d9, flag tells Cameron the shining-face eye-glow was caught + fixed before he saw it, only that one picture changed). Deployed to Firebase + live-verified. Board claim → `QC-FIX 2026-08-13 SHIPPED`. Appr stays ⬜ (Cameron's alone).
+
+Commit: 033f83d758d9f998e2120274fed60bba55a99461 (fix) · SHIP-CARD-COMMIT-BELOW
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 177 MAKE ME A SANCTUARY V2 FIRST CUT SHIPPED: 19 realistic beats, 0 rerolls, "Not real new voice" fixed at source — Machine A `Dev`, ~$2.81 Gemini
 
 Ran AUTHOR-BOARD row 177 (lowest Ready ✅, THE LOW-NUMBER LAW). Cross-checked QUEUE.md first: row 177 = "Make me a sanctuary" (Ex 25:8), NOT a swapped/replaced story — legit build. Session-chain verified: prior top entry row 147 joseph-forgives C-FIX, commit `64f67520a449` present in git log.
