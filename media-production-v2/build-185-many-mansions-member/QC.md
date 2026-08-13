@@ -113,3 +113,44 @@ in me" → going but not leaving them → the Father's house being made ready �
 mansions / I go to prepare a place" → a house with room for everyone → he said it
 plainly → "I will come again and receive you unto myself / where I am ye may be also" →
 no far-off maybe → he'll come back and carry them home himself.
+
+---
+
+## ✅ REALISTIC-V2 SHIPPED 2026-08-13 (Opus runner headless, Machine A `Dev`)
+
+14 realistic painted stills at native 2K (V1 was an 8-still ASSEMBLY-D), John 14:1-3,
+~3.8 s/picture. Last Supper night, lamplit upper room + the Father's-house vision.
+
+**COMPLAINT LEDGER (LEARNING LAW):**
+- OPEN complaint (v2_outline 185): *"Old.  That's not the chosen Jesus voice."* →
+  **FIXED at the audio source (author/audio lane) and shipped in THIS cut.** The three
+  Jesus red-letter segments jv1/j1/j2 carry the CHOSEN ElevenLabs Jesus "Chris" (rows
+  50/51/70). `AUDIO_FROM_V1_SEGMENTS=True`, so `v2_assemble` rebuilt the track from the
+  corrected segment mp3s, not the stale old-voice V1 mp4. Verified this session by F0:
+  jv1≈100 Hz, j1≈109 Hz, j2≈103 Hz (narrator≈105 Hz) — the chosen-voice family; the OLD
+  wrong voice read 87-92 Hz. The review card tells Cameron the chosen Jesus voice is
+  restored so he can verify his own fix.
+
+**FULL-CUT GATE (§6b) on the RENDERED mp4 — 14/14 beats + card PASS:**
+- Extracted one mid-window frame per beat from `john-14_in-my-fathers-house.mp4` + the
+  question card and viewed every one.
+- Jesus: ONE locked face across all 12 of his beats, cream-only (disciples all
+  earth-tone, none in cream), NO halo/glow/rim-light, ref-true green/hazel eyes
+  (rubric lesson 20 — not edited to brown), calm gaze, ordinary scale, clean hands
+  (b11's open palms are lamplight shadow, NOT nail-wounds — correct for the pre-
+  crucifixion Last Supper).
+- Father's-house vision (b05/b08/b14): plate-consistent warm home of many dwellings,
+  NO God/Father figure, NO throne, NO divine being; a HOME, not a judgment court.
+- Realistic/photoreal throughout (Law 14) — no cartoon/mix, no modern object, nothing
+  written. Night interior lit; captions bottom-band only.
+- SPEAKER LAW: RED captions ONLY on Jesus's words (jv1 b02/b03, j1 b06/b07, j2
+  b10/b11/b12); WHITE narrator elsewhere. Red-letter stays on Jesus's face — the
+  Father's-house imagery lives on the narrator beats (b05/b08).
+
+**PLACES:** FATHERS-HOUSE promoted from this row's own b05 (NON-Jesus wide) → wired to
+b05/b08/b14. ROOM kept text-lock (row-89 pattern; never promoted a Jesus-bearing frame).
+
+**COST:** 1 reroll (b14, gaze-into-lens → into-house glance) / 14 beats = 7.1% (≤15%);
++ 1 disciples portrait (unused, text-lock kept). ≈ $2.14 Gemini. 0 dropped beats
+(concat_base = 14 clips = 14 BEATS; row-173 check passed). AUDIO REBUILD PASS SHA256
+9087d0579b88…, 59.8 s, 20.0 MB. Deployed to Firebase + live-verified. Appr ⬜ (Cameron's).
