@@ -1,3 +1,37 @@
+## 2026-08-13 (Opus runner) — Row 135 rainbow-covenant: resumed stranded build, FULL-CUT GATE caught the OPEN gender-balance complaint → PARKED NEEDS-REBUILD (author fix) — Machine A `Dev`
+
+**Commit:** `fd27de444` (QC + board + RUNNER-LESSONS + plates + api-spend)
+
+**Task:** resume the AUTHOR-BOARD row-135 build that a prior autopilot lane died on
+mid-way (State RUNNING, Claim A-auto, 42/44 stills). Verified I was the target-row-135
+lane (no other live gen owned it); already-shipped check = NOT shipped (no committed mp4,
+no live card).
+
+**What I did:** generated the last 2 frames (b43,b44 MOUNTAIN landscape/family), then ran
+the FULL-CUT GATE on all 44 (this row was never gated — the dead lane never reached its
+own gate). Read `v2_outline.py 135` (the LEARNING-LAW step the resume skipped) and found
+the real OPEN complaint: **"1st picture has 3 girls and 5 boys that needs to change"** — a
+GENDER-BALANCE rule: the eight = 4 men (Noah+3 sons) + 4 women (wife+3 wives), all adults.
+
+**Why NOT shipped:** "8 total" is not enough — a 5m/3f frame REPEATS the complaint. Audited
+every family frame for the sex split: **s06, s09, s25, s27 still render 5m/3f** (s09 also a
+7-count). Rerolled the clear garbage that a runner CAN fix — b43 (7→correct 8 under a full
+bow, 2 takes), b08 (child among the eight → 8 adults) — but s09 and s27 hit the 2-reroll cap
+and stayed 5m/3f: the shared FAMILY lock + the intimate/huddle beats (b09 centers "one wife",
+b25/b27) don't pin the 4m/4f split, so ~1/3 of family frames drift. That is a beat-text/lock
+fix (author lane) — runner hard-rail forbids editing locks/beat content. Shipping would
+re-file the exact complaint = the LEARNING LAW's worst failure. So PARKED, with the 40 good
+frames on disk for reuse and a one-edit author fix documented (pin "4 men + 4 women, all
+adults" in the FAMILY lock + give b09 a count pin → regen ONLY s06/s09/s25/s27 → assemble on
+the already-fixed byte-stable audio → ship).
+
+**Cost:** 7 rerolls (b43×2, b08×1, b09×2, b27×2) = 15.9% of 44 beats — a small logged overage
+vs the 15% budget, spent chasing the count on the counts row before the systemic gender cause
+was isolated. ~$0.94 Gemini (meter ~$632.4). No audio touched. Filed the "count complaint is
+really a gender-balance complaint — audit 4m/4f not just 8 total" pattern into RUNNER-LESSONS.
+
+---
+
 ## 2026-08-13 (audio lane) — Row 117 hosea-buys-her-back: closing-card "dramatized" re-voiced & SHIPPED — DEPLOYED — Machine A `Dev`
 
 **Commit:** `bd4b029c3` (review.html + SESSION-LOG); mp4/QC/board commit `33b7d3ba1`
