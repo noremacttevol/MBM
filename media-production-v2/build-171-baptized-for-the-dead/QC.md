@@ -75,3 +75,49 @@ b09-b13).
 7. **Reroll budget ≤15% of 15 = ~2 beats.** Two failed rerolls → FIX-WAVE, keep
    best, move on. Log $/row + reroll % vs the $6.10 average. Expected cost ~15 ×
    $0.20 ≈ $3.0 (all-new build, short row).
+
+---
+
+## RUNNER BUILD — SHIPPED 2026-08-13 (A-auto `Dev`, Opus runner, headless)
+
+**COMPLAINT LEDGER (LEARNING LAW) — 1 open complaint, VERIFIED FIXED in the rendered mp4:**
+- OPEN: *"First picture is weird there are no scripture that roll like that on 2 edges."*
+  → **FIXED + gate-verified.** The frame that plays FIRST (0:00, b01 `s01-pauls-question.jpeg`,
+  extracted from the delivered mp4) is PEOPLE — Paul debating skeptical Corinthians in a
+  harbour portico. NO scroll, NO parchment/writing, NO curling/rolling edge, NO panel or
+  border anywhere. Every one of the 15 beats bans rendered text; captions live only in the
+  bottom band. The complaint cannot recur.
+
+**Build:** all-new 15-beat build. 3 portraits (PAUL/PROXY/MOURNER, text-lock design — not
+wired, matching rows 138/155/166) + 15 stills. **0 rerolls (0% vs 15% budget).** Promote-first:
+CORINTH-PORTICO←b01, BAPTISM-WATER←b03, RISEN-DAWN←b10 (empty tomb, NOT a Jesus frame).
+
+**Cost:** ~$2.40 Gemini total (3 portraits ~$0.40 + 18 image pulls) — **well under the
+$6.10/row baseline; 0% rerolls beats the 19% average** (COST LAW trend DOWN).
+
+**Assembly (runner timing-metadata, no re-voice/reroll):**
+- Set `AUDIO_FROM_V1_SEGMENTS = True` + `OUTPUT_VIDEO_NAME` — the V1 mp4 (82.6s, old
+  ASSEMBLY-C spacing) does not match `extract_beats` (live 74.45s), so the track is rebuilt
+  from the 12 V1-dir segment mp3s at the current-pipeline offsets (proper LEAD/GAP spacing).
+  Segment mp3s are byte-identical content — audio is the same ElevenLabs narration.
+- **Window remap (row-42/89 fix):** the authored beats_v2 windows ran to 73.427 (a stale,
+  inflated scaffold) while live card_start = 66.672. That dropped the final still (s15) and
+  drifted every still vs its caption. Remapped all 15 windows piecewise onto the live
+  segment slices (split multi-beat segments by authored width ratio; last beat → card_start).
+  Result: 15/15 stills placed, video 74.47s ≈ audio 74.45s, stills synced to captions.
+- `AUDIO REBUILD PASS` SHA256 `95ac6e5e…`; final mp4 `1-corinthians-15_baptized-for-the-dead.mp4`.
+
+**FULL-CUT GATE (per-beat frames from the RENDERED mp4 + 3 caption frames + card): PASS.**
+- b01 first-frame: complaint fixed (verified above). Upright, no rotation on any sampled frame.
+- Jesus b09/b11: locked V2 face consistent, cream-only, ordinary scale, ref-true green eyes
+  (NOT brown-edited — lesson 20), calm gaze, no halo/rim-light, no wound-gore.
+- Content-care (the DEAD → restraint): living proxy in the water (never a body), empty tomb +
+  dawn (never rising corpses / opened graves / zombies), "across the veil" = soft light (no
+  ghost), mourners dignified (no tears/white-streaks / no gore).
+- Distinct faces (no twins / no Jesus-double), child dark-haired, no modern objects, all-realistic
+  (no cartoon/mix), no lens-stare.
+- Captions bottom-band only: narrator WHITE; s1/s20/s22 SCRIPTURE LIGHT-BLUE (verified all
+  three in the rendered mp4); no red, no God-voice. Question card clean, centered, well-margined.
+
+**RESUME (if ever needed):** all art in `assets/`, plates promoted, windows remapped, mp4 built.
+Re-assemble = `python3 media-production-v2/v2_assemble.py 171` (must print AUDIO REBUILD PASS).

@@ -46,6 +46,16 @@ NEW places (runner promotes each from its first good NON-Jesus frame, lesson 11)
 Steps in QC.md.
 """
 
+# --- Assembly config (runner, module-level; NOT a beat/lock edit) --------------
+# New-map row: the V2 beat windows were scaffolded on the segment onsets, so the
+# extracted timeline (74.45s) does not match the V1 mp4's paced length (82.6s) and
+# v2_assemble cannot stream-copy the V1 mp4 audio. Per the assembler's own FIX
+# message + the row-140/155/156/157 precedent, rebuild the track from the V1-dir
+# segment mp3s. Output name matches the V1 mp4 (it still exists here). Set by the
+# runner (A-auto 2026-08-13), the same established production-lane action as row 140.
+AUDIO_FROM_V1_SEGMENTS = True
+OUTPUT_VIDEO_NAME = "1-corinthians-15_baptized-for-the-dead.mp4"
+
 # LOCKS: PAUL is BYTE-IDENTICAL to rows 138/155/166 (cross-video same man; his
 # face is carried by this text lock — no face sheet exists yet, same as those
 # rows). Setting/person locks NEVER conflict; only Jesus wears cream.
@@ -103,7 +113,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r171-b01", "out": "s01-pauls-question.jpeg", "seg": "n0",
-        "window": "0.400-3.940", "wide": True, "jesus": False, "ref": False,
+        "window": "0.000-2.765", "wide": True, "jesus": False, "ref": False,
         "locks": ["CORINTH-PORTICO", "PAUL", "BACKGROUND-CAST"],
         "narration": "Some in Corinth were arguing as though resurrection might not be real.",
         "must_show": "the ONE establishing wide — the camera behind the listeners' shoulders in a Corinth portico: Paul standing among a knot of skeptical Corinthians mid-debate, some doubting, arms folded; a real argument between real people.",
@@ -123,7 +133,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b02", "out": "s02-pressed-the-contradiction.jpeg", "seg": "n0",
-        "window": "3.940-10.325", "wide": False, "jesus": False, "ref": False,
+        "window": "2.765-7.753", "wide": False, "jesus": False, "ref": False,
         "locks": ["CORINTH-PORTICO", "PAUL"],
         "narration": "Paul pointed to a practice already familiar to them and pressed the contradiction.",
         "must_show": "closer on Paul — an open-handed pressing gesture toward the listeners as he names a practice they already know; the contradiction driven home, earnest not angry.",
@@ -140,7 +150,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b03", "out": "s03-baptized-for-the-dead.jpeg", "seg": "s1",
-        "window": "10.325-14.610", "wide": True, "jesus": False, "ref": False,
+        "window": "7.753-11.584", "wide": True, "jesus": False, "ref": False,
         "locks": ["BAPTISM-WATER", "PROXY", "MOURNER", "BACKGROUND-CAST"],
         "narration": "Else what shall they do which are baptized for the dead, if the dead rise not at all?",
         "must_show": "SCRIPTURE-EXACT (light-blue) — the establishing wide of the practice: the camera from the bank behind the family, a living believer being baptized in the stream while a mourning family stands at the water's edge, watching in love; the ordinance done FOR the dead.",
@@ -159,7 +169,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b04", "out": "s04-why-baptized-for-them.jpeg", "seg": "s1",
-        "window": "14.610-19.862", "wide": False, "jesus": False, "ref": False,
+        "window": "11.584-16.280", "wide": False, "jesus": False, "ref": False,
         "locks": ["BAPTISM-WATER", "MOURNER"],
         "narration": "why are they then baptized for the dead?",
         "must_show": "SCRIPTURE-EXACT — close on the mourning family member at the water's edge, watching the proxy baptism with quiet love; the question made human on her face.",
@@ -177,7 +187,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b05", "out": "s05-the-dead-not-gone-forever.jpeg", "seg": "n1",
-        "window": "19.862-25.937", "wide": False, "jesus": False, "ref": False,
+        "window": "16.280-22.836", "wide": False, "jesus": False, "ref": False,
         "locks": ["BAPTISM-WATER", "MOURNER"],
         "narration": "The only reason to do such a thing is the quiet hope that the dead are not gone forever.",
         "must_show": "the quiet hope — the mourner's face lifting a little, a fragile hope breaking through the grief as she watches; the dead not gone forever.",
@@ -194,7 +204,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b06", "out": "s06-new-life-a-beginning.jpeg", "seg": "n2",
-        "window": "25.937-31.180", "wide": False, "jesus": False, "ref": False,
+        "window": "22.836-28.223", "wide": False, "jesus": False, "ref": False,
         "locks": ["BAPTISM-WATER", "PROXY"],
         "narration": "Baptism stands for new life — a beginning, not an end.",
         "must_show": "the rising — the living proxy coming up out of the stream streaming, face lifted and breath drawn, made new; baptism as a beginning.",
@@ -212,7 +222,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b07", "out": "s07-work-for-those-who-passed.jpeg", "seg": "n3",
-        "window": "31.180-35.200", "wide": False, "jesus": False, "ref": False,
+        "window": "28.223-32.157", "wide": False, "jesus": False, "ref": False,
         "locks": ["BAPTISM-WATER", "PROXY", "MOURNER"],
         "narration": "So the work done for those who've passed",
         "must_show": "the ordinance in love — the proxy and the mourning family together at the water afterward, the work done on behalf of a departed one; love made an act.",
@@ -230,7 +240,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b08", "out": "s08-death-not-the-last-word.jpeg", "seg": "n3",
-        "window": "35.200-38.370", "wide": False, "jesus": False, "ref": False,
+        "window": "32.157-35.260", "wide": False, "jesus": False, "ref": False,
         "locks": ["BAPTISM-WATER", "MOURNER"],
         "narration": "is built on one promise: that death is not the last word.",
         "must_show": "the promise held — the mourner's face lifted toward the bright open sky over the water, hope firming into conviction; death is not the last word.",
@@ -248,7 +258,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b09", "out": "s09-christ-risen-firstfruits.jpeg", "seg": "s20",
-        "window": "38.370-45.845", "wide": False, "jesus": True, "ref": True,
+        "window": "35.260-41.547", "wide": False, "jesus": True, "ref": True,
         "locks": ["RISEN-DAWN"],
         "narration": "But now is Christ risen from the dead, and become the firstfruits of them that slept.",
         "must_show": "SCRIPTURE-EXACT (light-blue) — the resurrection anchor made concrete: the risen Christ standing alive and real at the mouth of the empty tomb in the dawn light, the great stone rolled back behind him; the firstfruits, risen first.",
@@ -266,7 +276,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b10", "out": "s10-not-a-metaphor.jpeg", "seg": "n4a",
-        "window": "45.845-51.163", "wide": False, "jesus": False, "ref": False,
+        "window": "41.547-44.141", "wide": False, "jesus": False, "ref": False,
         "locks": ["RISEN-DAWN"],
         "narration": "That is Paul's foundation — not a metaphor or a wish.",
         "must_show": "the concrete fact — a close on the empty tomb itself: the rolled-back stone and the low dark doorway with the folded grave-clothes within; a real, solid foundation, not a metaphor.",
@@ -284,7 +294,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b11", "out": "s11-the-grave-loses-its-grip.jpeg", "seg": "n4b",
-        "window": "51.163-55.000", "wide": False, "jesus": True, "ref": True,
+        "window": "44.141-48.197", "wide": False, "jesus": True, "ref": True,
         "locks": ["RISEN-DAWN"],
         "narration": "And because He rose, the grave loses its grip —",
         "must_show": "the risen Lord in the full dawn — the risen Christ stepping out from the tomb into the morning light, alive and unbound; the grave's grip broken, shown as light and life, not opened graves.",
@@ -301,7 +311,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b12", "out": "s12-for-all-who-belong.jpeg", "seg": "n4b",
-        "window": "55.000-59.124", "wide": False, "jesus": False, "ref": False,
+        "window": "48.197-52.556", "wide": False, "jesus": False, "ref": False,
         "locks": ["RISEN-DAWN"],
         "narration": "for Him first, and then for all who belong to Him.",
         "must_show": "the hope spreading to His people — the warm dawn light reaching across the garden toward a small group of ordinary people standing in it, faces lifting in hope; His rising becoming theirs.",
@@ -319,7 +329,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b13", "out": "s13-in-christ-made-alive.jpeg", "seg": "s22",
-        "window": "59.124-65.489", "wide": False, "jesus": False, "ref": False,
+        "window": "52.556-58.569", "wide": False, "jesus": False, "ref": False,
         "locks": ["RISEN-DAWN", "MOURNER"],
         "narration": "For as in Adam all die, even so in Christ shall all be made alive.",
         "must_show": "SCRIPTURE-EXACT (light-blue) — the turn from death to life: the mourner now standing in the risen dawn light among the hopeful people, her grief transfigured into life; all made alive in Christ.",
@@ -337,7 +347,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b14", "out": "s14-reaches-across-the-veil.jpeg", "seg": "n5a",
-        "window": "65.489-69.972", "wide": False, "jesus": False, "ref": False,
+        "window": "58.569-62.912", "wide": False, "jesus": False, "ref": False,
         "locks": ["BAPTISM-WATER", "PROXY", "MOURNER"],
         "narration": "The ordinance done in love reaches across the veil.",
         "must_show": "back at the water — the proxy and the mourner together, a soft warm light reaching beyond them as if across a distance; love made an ordinance reaching toward the departed.",
@@ -355,7 +365,7 @@ BEATS = [
     },
     {
         "id": "v2-r171-b15", "out": "s15-every-soul-the-chance.jpeg", "seg": "n5b",
-        "window": "69.972-73.427", "wide": False, "jesus": False, "ref": False,
+        "window": "62.912-66.672", "wide": False, "jesus": False, "ref": False,
         "locks": ["BAPTISM-WATER", "BACKGROUND-CAST"],
         "narration": "Offering every soul the chance to choose.",
         "must_show": "the invitation to all — several ordinary, distinct faces of different ages turned toward the soft light over the water, each offered the chance to choose; the door held open for every soul.",
@@ -375,13 +385,14 @@ BEATS = [
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
-# EMPTY BY DESIGN. All three recurring places are NEW; the runner PROMOTES each
-# from this build's first good NON-Jesus frame (lesson 11 — never a Jesus frame):
-#   CORINTH-PORTICO  promote b01
-#   BAPTISM-WATER    promote b03
-#   RISEN-DAWN       promote b10 (the empty tomb — NOT b09/b11, Jesus frames)
-# Full steps in QC.md.
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "BAPTISM-WATER": "PLACE-REF/baptism-water.jpeg",  # build-171-baptized-for-the-dead s03-baptized-for-the-dead (manual)
+    "CORINTH-PORTICO": "PLACE-REF/corinth-portico.jpeg",  # build-171-baptized-for-the-dead s01-pauls-question (manual)
+    "RISEN-DAWN": "PLACE-REF/risen-dawn.jpeg",  # build-171-baptized-for-the-dead s10-not-a-metaphor (manual)
 }
 # === end PLACE-PLATES ===
 

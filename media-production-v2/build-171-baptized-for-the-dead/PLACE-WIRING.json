@@ -1,0 +1,20 @@
+{
+ "BAPTISM-WATER": {
+  "manual": true,
+  "src_beat": "s03-baptized-for-the-dead",
+  "src_build": "build-171-baptized-for-the-dead",
+  "src_file": "build-171-baptized-for-the-dead/assets/s03-baptized-for-the-dead.jpeg"
+ },
+ "CORINTH-PORTICO": {
+  "manual": true,
+  "src_beat": "s01-pauls-question",
+  "src_build": "build-171-baptized-for-the-dead",
+  "src_file": "build-171-baptized-for-the-dead/assets/s01-pauls-question.jpeg"
+ },
+ "RISEN-DAWN": {
+  "manual": true,
+  "src_beat": "s10-not-a-metaphor",
+  "src_build": "build-171-baptized-for-the-dead",
+  "src_file": "build-171-baptized-for-the-dead/assets/s10-not-a-metaphor.jpeg"
+ }
+}
