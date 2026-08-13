@@ -177,3 +177,18 @@ recovers (first fresh `api-spend.jsonl` frame from any lane = recovered).
 `python3 media-production-v2/v2_story_cast.py build-160-stone-cut --ceiling <meter+ (21+2)*0.134*1.5+25>`
 then `v2_gen_api.py build-160-stone-cut --ceiling …`, promote COURT (b01) /
 DREAM-PLAIN (b03) / STATUE (b03, PROP) / STONE (b06, PROP), FULL-CUT GATE, ship.
+
+---
+
+**PARK #2 (2026-08-13 ~18:31 UTC, Opus picture-runner, Machine A `Dev`, headless):**
+Outage STILL ongoing — now **~6 h board-wide** (last frame any lane still
+`12:22:14`; `date -u` = 18:31). Probed the real image endpoint this session:
+**6/6 `gemini-3-pro-image:generateContent` = flat HTTP 503 UNAVAILABLE**
+("This model is currently experiencing high demand… try again later"),
+sub-second, incl. an initial full JSON-body probe; a `models?list` probe =
+**HTTP 200** → key HEALTHY/authenticated/billing FINE → same self-healing
+Google-side outage that parked rows 138/159/162/163 today, **NOT** the
+prepay-depleted wall (no top-up, no inbox escalation — precedent). Every Ready
+row draws the same dead endpoint, so there is no unblocked "next row." $0/0 gen,
+meter unchanged **$711.00**. Board left AUTHORED / Ready ✅ / Claim BLANK.
+RESUME COMMAND unchanged (above).
