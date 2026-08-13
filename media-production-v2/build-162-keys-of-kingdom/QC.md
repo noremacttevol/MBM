@@ -117,3 +117,51 @@ $0 this session (author lane — no Gemini, no ElevenLabs, 0 pictures generated)
 Runner budget: 24 beats, reroll budget ≤15% = ~3 rerolls. b01 is the single
 riskiest frame (NEW cliff place + establishing wide); spend the plate-promote
 care there so the other 23 copy a good rock and do not each re-invent it.
+
+---
+
+## PARK 2026-08-13 ~18:36 UTC (Opus picture runner, Machine A `Dev`, headless) — board-wide gemini-3-pro-image HTTP 503 outage
+
+Requested first under THE LOW-NUMBER LAW. Cross-check vs QUEUE.md row 162 =
+"The keys of the kingdom" (Matt 16:18-19, Peter) = build-162 (Matthew 16:13-19)
+— **PASS, not a swapped/replaced story.** `v2_outline.py 162` → **no open
+complaint → COMPLAINT LEDGER: none open.** State AUTHORED, Claim BLANK, Ready ✅,
+0 stills banked.
+
+**BLOCKER — same self-healing Google-side image-endpoint outage, NOT a billing
+wall.** Last board-wide frame in `api-spend.jsonl` = **12:22:14** (row 159 b01);
+now ~18:36 → **~6 h 14 m, ZERO frames from ANY lane** = board-wide. Probed the
+REAL image endpoint this session: **4/4 `gemini-3-pro-image:generateContent` =
+flat HTTP 503 UNAVAILABLE** ("experiencing high demand… try again later"),
+sub-second to ~1.6 s, across THREE different prompts (grey stone / clay water
+jar / clay jar) = endpoint-wide, not prompt-specific. A `models?list` probe =
+**HTTP 200** → key HEALTHY, authenticated, billing FINE → **NOT the
+prepay-depleted wall, NO top-up, NO inbox escalation** (rows 138/159/160/163
+precedent today). Cross-checked that today's build-161/199 ships landed
+04:32–05:01, BEFORE the outage — they do not prove recovery.
+
+Did NOT set row 162 RUNNING or burn any `v2_story_cast`/`v2_gen_api` run: the
+4/4 flat sub-second 503 already proves the endpoint, not the row; setting
+RUNNING with 0 banked frames would falsely strand it from the resume lane.
+Board left AUTHORED / Claim BLANK / Ready ✅ so any picture lane re-picks it
+fresh the instant the endpoint answers (first fresh `api-spend.jsonl` frame from
+any lane = recovered).
+
+**RESUME COMMAND (when the endpoint answers — first fresh api-spend frame):**
+```
+git pull --rebase origin main
+python3 media-production-v2/v2_prompt.py build-162-keys-of-kingdom --check   # must PASS
+# 1) portraits
+python3 media-production-v2/v2_story_cast.py build-162-keys-of-kingdom --ceiling <meter + (24+portraits)*0.134*1.5 + 25>
+# 2) NEW place CAESAREA-ROCK — gen the establishing wide b01 FIRST, eyeball, promote as the plate
+python3 media-production-v2/v2_gen_api.py build-162-keys-of-kingdom --only v2-r162-b01 --ceiling <...>
+python3 media-production-v2/v2_stash.py --promote build-162-keys-of-kingdom CAESAREA-ROCK <b01 file>
+# 3) generate the other 23 (auto-resumes)
+python3 media-production-v2/v2_gen_api.py build-162-keys-of-kingdom --ceiling <...>
+# 4) light QC (PETER face+beard board; KEYS = exactly TWO iron keys; Father/heaven NEVER embodied; scale gate; realistic-only)
+# 5) assemble + FULL-CUT GATE 6b (view every beat frame of the rendered mp4) + ship (2 commits) + firebase deploy + live-verify
+```
+Reroll budget ≤15% of 24 beats = ~3. b01 is the single riskiest frame (new
+cliff place + establishing wide) — spend the plate-promote care there.
+
+**COST this session: $0.00** (0 images, 0 TTS). Meter unchanged. 0% rerolls.
