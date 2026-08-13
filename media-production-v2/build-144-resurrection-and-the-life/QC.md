@@ -1,3 +1,46 @@
+## ✅ QC-VERIFY PASS — independent FULL-CUT GATE re-check before Cameron's eyes (2026-08-13, Machine A `Dev`, Opus QC-VERIFY lane, headless)
+
+Independent re-verification of the already-shipped realistic-v2 cut (did NOT trust the
+ship-lane's own ledger; re-extracted one mid-window frame per beat from the RENDERED
+mp4 + 2 KJV caption frames + 2 card frames and viewed every one fresh).
+
+**Approval guard FIRST:** `.approvals.json["144"]` = `approved:false` / `approvedHash:null`
+/ `complaint:null` → NOT a Cameron-approved row, so the untouchable-approved-row rule
+did not apply; verify was live. No open complaint → no resolved-complaint regression to
+re-check. COMPLAINT LEDGER: none open.
+
+**FULL-CUT GATE 6b — 10/10 beats + card CLEAN:**
+- Jesus: ONE locked cream face across b02→b10 (dark wavy hair, full beard, warm
+  olive skin, calm eyes — no crazy-eye/lens-stare); only he wears cream; no
+  halo/glow/rim-light; ordinary scale in every multi-figure frame.
+- b01/b06 tomb wides: wheel-stone CLOSED (pre-reveal correct), grey-bright mourning
+  light, no people, nothing macabre. b10: stone ROLLED OPEN, Lazarus walks OUT
+  upright/alive in clean loosening white linen (warm whole face, NOT macabre/decayed),
+  broken sun arriving exactly at the reveal, Martha's joy, Jesus cream at the ramp.
+- Anatomy: b07 Jesus's hanging hand crop-verified NORMAL (olive-tan, complete, five
+  fingers — the "dark hand" look at video res was shadow only, NOT the row-39
+  black-hand defect); b08 both figures' hands natural; b04/b09 seated Jesus's
+  sandaled feet LOW on the floor (not propped — row-74 smirk/prop check clean);
+  every figure two arms/two hands/one head.
+- b04 interior lamp is a period clay OIL lamp (no modern/glass lamp, row-7 class).
+- b05/b09 Jesus↔Martha are CLOSE-comfort of a grieving woman (tears visible, clear
+  body gap / seated-counsel posture) — reads as compassion, NOT the "lovers/kiss"
+  composition Cameron rejected on rows 63/98; judged acceptable, logged for the record.
+- Captions bottom-band ONLY; Jesus's KJV words RED (b05, b08), narrator WHITE; closing
+  card "Death is not the end of the story. He is the life." clean serif, no typo-squares.
+  Realistic photography throughout — no cartoon/mixed frame (Law 14).
+- Audio: last speech ends 48.62s, then a 4.6s silent closing-card hold to 53.2s — a
+  normal card hold, NOT the 11–13s dead-air complaint class (rows 83/86).
+
+**Live-verified:** review.html `v144` data-hash `b044ab93…` matches local + wave
+`realistic-v2`; mp4 URL returns HTTP 200, content-length 19,448,387 (matches local).
+Cut is on Cameron's reviewer and plays start to finish.
+
+**Verdict: CLEAN — NO re-cut ($0 / 0 gen / 0 rerolls).** Board Claim → `QC-OK 2026-08-13`.
+Approval remains Cameron's alone (Appr ⬜ untouched).
+
+---
+
 ## ✅ REALISTIC-V2 FIRST CUT SHIPPED — RESUME of a died-mid-build RUNNING lane (2026-08-13, Machine A `Dev`, Opus runner, headless)
 
 Resumed AUTHOR-BOARD row 144 (State RUNNING, Claim A-auto) after a prior autopilot
