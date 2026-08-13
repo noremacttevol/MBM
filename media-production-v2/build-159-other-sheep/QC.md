@@ -129,6 +129,26 @@ Blocker diagnosis (definitive, so nobody re-diagnoses on the meter):
   row. Banked work still valid, do NOT regen: `CAST-REF-V2/shepherd.jpeg` + s01.
 - Meter unchanged **$711.00**. $0/0 gen, 0% rerolls.
 
+## RUNNER PARK #4 — 2026-08-13 18:45 (Opus runner, Machine A `Dev`, headless)
+**Task = RESUME row 159 (lowest Ready, LOW-NUMBER LAW). Endpoint STILL down → re-parked clean, $0/0.**
+- Same self-healing Google-side image-endpoint outage, now **~6 h 23 m board-wide**
+  (last frame in api-spend.jsonl = **12:22:14**, my own s01; now 18:45). Probes this
+  session: **11/11 image-model = HTTP 503 UNAVAILABLE ("high demand") / one HTTP 000**,
+  sub-second — 1 initial single-probe + a 6-attempt loop (18:41→18:43) + a 4-attempt
+  loop (18:43→18:45), full JSON body confirmed the 503 UNAVAILABLE error; a
+  `models?list` probe = **instant HTTP 200** → key HEALTHY, authenticated, billing
+  FINE, **NOT a prepay wall / NO top-up / NO inbox escalation** (rows 159/160/162/163/164
+  precedent — all sit AUTHORED empty-claim, re-pickable). Board-wide → NO Ready row
+  is buildable, so this is a genuine truly-blocked stop, not a per-row skip.
+- Did NOT set row 159 RUNNING or re-burn a full `v2_gen_api` run: 11/11 flat sub-second
+  503 across ~4 min + the 13:54 real 9.5-min foreground resume (0 frames / $0) already
+  prove the endpoint, not the row; setting RUNNING with only 1 banked frame would
+  falsely strand it from the resume lane. Banked work still valid, do NOT regen:
+  `CAST-REF-V2/shepherd.jpeg` + s01.
+- Meter unchanged **$711.00**. $0/0 gen, 0% rerolls. (Note: api-spend.jsonl carries 1
+  pre-existing malformed line from a concurrent-write race — left untouched, another
+  lane's shared file; meter math skips it.)
+
 RESUME (once the image endpoint responds again — a text/image probe returns 200,
 or a sibling lane's frame lands in api-spend.jsonl):
 ```
