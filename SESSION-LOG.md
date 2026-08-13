@@ -13,7 +13,7 @@ Session-chain verified at start: prior top entry row 133 what-jesus-called-hell 
 - **Cost:** this resume session spent **$0 / 0 rerolls** — a clean cut is shipped, never re-touched (COST LAW). The prior build lane's gen cost (~$3.35 / 25 gens, 7 rerolls driven by the doctrinally-critical b11) is recorded in the build QC.md ship note; that spend is on the shared meter already, under the $6.10/row average.
 - **Ship:** commit A `4621a1576a47` (mp4 force-added + QC.md + beats_v2 + PLACE-WIRING + AUTHOR-BOARD BUILT + QUEUE Built✅); commit B = review.html new `id="v134"` card (data-hash=commit A) + this SESSION-LOG. Board Built✅ only; **Appr left ⬜ (Cameron's alone).** Deployed to Firebase + live-verified.
 
-Commit: (commit B hash recorded at end of session)
+Commit: `4621a1576a47` (ship: mp4 + QC + boards + QUEUE) + `e12d00da3` (SESSION-LOG + review card v134); deployed + live-verified (card serves data-hash 4621a1576a47, mp4 URL HTTP 200, content-length 19,427,267 == local).
 
 ---
 

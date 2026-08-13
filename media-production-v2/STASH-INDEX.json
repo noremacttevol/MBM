@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 09:27:04",
+ "scanned": "2026-08-13 11:46:04",
  "entries": [
   {
    "row": 1,
@@ -57988,6 +57988,299 @@
    "night": false,
    "n_person": 2,
    "scene": "The last frame is the man's first sunrise: down the eastern road the two walk together \u2014 Jesus and the man who had never seen a face until today, his new eyes drinking the horizon where the sun comes up gold over the hil"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b01",
+   "file": "build-143-i-am-the-door/assets/s01-jesus-used-a-picture-the.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": true,
+   "n_person": 1,
+   "scene": "The picture everyone in the crowd grew up inside, the camera set low on the slope taking the fold from the side: the dry-stone ring stands on the night hillside with its single opening \u2014 a gap the width of a man, no gate"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b02",
+   "file": "build-143-i-am-the-door/assets/s02-the-opening-is-where-danger.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The gap does two jobs and his two hands show them: the shepherd stands in the opening with his staff planted firm against whatever the dark hillside might send \u2014 that is the first job \u2014 while his free hand rests on the h"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b03",
+   "file": "build-143-i-am-the-door/assets/s03-verily-verily-i-say-unto.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The double verily clears the air for the claim: Jesus on the warm day slope with his listeners settled on the rocks, the little stone fold visible on the hill beyond his shoulder \u2014 and the formula that always precedes hi"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b04",
+   "file": "build-143-i-am-the-door/assets/s04-someone-who-sneaks-over-the.jpeg",
+   "tokens": [
+    "FOLD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The wrong way in tells you everything about the visitor: at the fold's far dark side a figure eases himself over the stones \u2014 hooded, careful, choosing the wall precisely because the opening is lit and manned \u2014 and below"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b05",
+   "file": "build-143-i-am-the-door/assets/s05-but-the-door-is-not.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Look how untrapped the way in is: the opening stands warm in the fire's small light, the shepherd seated easy against the gap's stone shoulder with his staff across his knees \u2014 no gate to fumble, no latch to know, no tol"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b06",
+   "file": "build-143-i-am-the-door/assets/s06-it-is-the-guarded-way.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Safety files in one fleece at a time: at violet dusk the flock comes home through the single opening \u2014 a woolly procession pressing through the gap while the shepherd stands over them, his hand touching each passing back"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b07",
+   "file": "build-143-i-am-the-door/assets/s07-i-am-the-door-by.jpeg",
+   "tokens": [
+    "FOLD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "For one frame the parable and its meaning trade places: Jesus himself stands framed in the fold's single opening \u2014 the gap the shepherd kept all night now filled by the one the picture was always about \u2014 his arms open in"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b08",
+   "file": "build-143-i-am-the-door/assets/s08-through-him-you-come-in.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The door works in both directions, which is the point: bright morning pours over the hillside and the flock pours out to meet it \u2014 streaming unhurried through the single opening past the shepherd's easy hand, fanning ont"
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b09",
+   "file": "build-143-i-am-the-door/assets/s09-notice-that-the-door-is.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The entrance requirement, photographed up close: at the opening a ewe pushes her blunt head into the shepherd's open hand and he bends over her, thumb working the wool behind her ear, his weathered face gone soft \u2014 this "
+  },
+  {
+   "row": 143,
+   "build": "build-143-i-am-the-door",
+   "beat": "v2-r143-b10",
+   "file": "build-143-i-am-the-door/assets/s10-safety-and-pasture-begin-with.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The last frame is the doctrine sleeping in the doorway: under a whole sky of stars the shepherd lies stretched across the fold's single opening \u2014 mantle drawn to his chin, staff loose in reach, his body spanning the gap "
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b01",
+   "file": "build-145-way-truth-life/assets/s01-in-the-upper-room-the.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "The hardest night begins with a promise about rooms, the camera looking up the lamplit table past the reclining disciples' backs: Jesus at the U-shaped table's head with the clay flames warm on his face, telling his trou"
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b02",
+   "file": "build-145-way-truth-life/assets/s02-not-one-way-among-many.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The article in the sentence is doing enormous work: close on Jesus in the lamplight with one finger gently raised \u2014 THE way, not A way \u2014 the singular held up with the warmth of a rescuer naming the one rope that reaches,"
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b03",
+   "file": "build-145-way-truth-life/assets/s03-thomas-spoke-up-lord-we.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Somebody has to say what all of them are thinking, and it is Thomas: he leans in from his place at the low table with his hands open and his brow knotted honestly \u2014 Lord, we do not even know WHERE you are going; how can "
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b04",
+   "file": "build-145-way-truth-life/assets/s04-i-am-the-way-the.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The answer to where-is-the-map is a person touching his own chest: Jesus's hand lies flat over his heart, his eyes steady on Thomas across the lamps \u2014 I AM the way \u2014 and the truth \u2014 and the life \u2014 three enormous nouns ar"
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b05",
+   "file": "build-145-way-truth-life/assets/s05-the-truth-itself.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "What truth looks like when it has a face: close on Jesus's eyes in the warm lamplight \u2014 steady, clear all the way down, nothing performed and nothing hidden in them anywhere \u2014 the kind of gaze that has never once needed "
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b06",
+   "file": "build-145-way-truth-life/assets/s06-no-man-cometh-unto-the.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The route to the Father gets drawn in the air, and it passes through the speaker: Jesus's open hand moves from the circle of his listening men inward to his own chest \u2014 no man comes to the Father but BY ME \u2014 the preposit"
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b07",
+   "file": "build-145-way-truth-life/assets/s07-the-way-itself.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "What a way looks like when it can walk: Jesus half-turned in the lamplight as one about to lead somewhere, his hand lifted in the small gentle beckon that started everything by the lake three years ago \u2014 follow \u2014 not a r"
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b08",
+   "file": "build-145-way-truth-life/assets/s08-the-life-itself-standing-right.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The largest fact in existence is standing on a rug: Jesus on his feet among the seated Eleven, close enough for any of them to touch his sleeve, the clay lamps throwing his ordinary warm shadow on the plastered wall \u2014 th"
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b09",
+   "file": "build-145-way-truth-life/assets/s09-the-door-to-the-father.jpeg",
+   "tokens": [
+    "ROOM"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The tool everyone reaches for gets set down unopened: a rolled route-scroll lies on the table where a hand has just laid it aside, cords still tied, its distances and turnings unconsulted in the lamplight \u2014 the instinct "
+  },
+  {
+   "row": 145,
+   "build": "build-145-way-truth-life",
+   "beat": "v2-r145-b10",
+   "file": "build-145-way-truth-life/assets/s10-a-person-to-follow.jpeg",
+   "tokens": [
+    "ROOM",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The answer ends the way it began three years ago \u2014 with following: Jesus moves toward the room's door with his hand trailing the gentle beckon behind him, and around the low table the Eleven begin to rise \u2014 cushions push"
   },
   {
    "row": 146,
