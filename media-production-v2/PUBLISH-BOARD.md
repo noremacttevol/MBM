@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T07:45:49_
+_Last sync: 2026-08-13T07:58:58_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 49 row(s)
+- **BUILDING** — 47 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 26 row(s)
+- **ON REVIEWER — awaiting Cameron** — 28 row(s)
 
 ## The rows
 
@@ -126,7 +126,7 @@ _Last sync: 2026-08-13T07:45:49_
 | 103 | Peter's Confession | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 104 | The Boy Samuel | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 107 | John the Baptist's Doubt | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 108 | My Sheep Hear My Voice | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 109 | Ask, Seek, Knock | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
@@ -178,7 +178,7 @@ _Last sync: 2026-08-13T07:45:49_
 | 155 | A Falling Away First | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 156 | A Famine of Hearing the Word | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 157 | A Marvellous Work and a Wonder | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 158 | The Stick of Judah and Joseph | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 158 | The Stick of Judah and Joseph | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 159 | Other Sheep I Have | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 160 | The Stone Cut Without Hands | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 161 | Called of God, as was Aaron | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
