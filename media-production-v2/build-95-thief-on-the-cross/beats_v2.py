@@ -436,8 +436,8 @@ BEATS = [
         "window": "60.40-64.65", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILL", "THIEF"],
         "narration": "Today. The last-minute faith of a criminal was enough.",
-        "must_show": "the closing image — the centre and right crosses side by side in the parallel row against the grey, both men affixed and shirtless in their loincloths with plaques above their heads, Jesus in his crown of thorns: the two faces at peace, the promise standing between them; enough, made visible.",
-        "must_not_show": "ABSOLUTE: NO man on the ground, NO crosses angled toward each other, NO robed torsos, NO empty cross, NO halo or glow; no gushing blood or gore; BOTH faces at rest — the covenant of the hill's two neighbours complete.",
+        "must_show": "the closing image — the centre and right crosses standing as PARALLEL UPRIGHTS seen from the FRONT, side by side in the row against the grey, both men affixed and shirtless in their loincloths with plaques above their heads, Jesus in his crown of thorns; both pinned bodies squared to the viewer, each face lifted and at rest looking outward (at most a gentle head-tilt), the promise standing between them — NEVER the two faces turned toward each other across the gap; enough, made visible.",
+        "must_not_show": "ABSOLUTE: NO man on the ground, NO crosses angled toward each other, NO two faces turned toward each other in a mutual profile gaze, NO figures body-to-body across a gap, NO robed torsos, NO empty cross, NO halo or glow; no gushing blood or gore; NO modern fence / railing / guardrail / handrail / metal bars, NO modern metal bolts or hardware on the crosses — the hill is ancient bare-rock ground with only the distant stone city wall behind; both crosses are straight parallel uprights seen from the FRONT, both bodies facing the viewer — the covenant of the hill's two neighbours complete.",
         "scene": (
             "The closing frame keeps the "
             "two neighbours in the parallel "
@@ -448,9 +448,14 @@ BEATS = [
             "stripped to their loincloths, a "
             "plaque above each head, the "
             "crown of thorns on the centre "
-            "brow — the two faces turned "
-            "each other's way along the row "
-            "and both, now, at rest — "
+            "brow — both crosses standing as "
+            "straight parallel uprights seen "
+            "from the front, both pinned "
+            "bodies squared to the viewer, "
+            "each face lifted and, now, at "
+            "rest looking outward, never the "
+            "two faces turned toward each "
+            "other across the gap — "
             "between them nothing but a few "
             "feet of morning air and a "
             "finished promise — the "

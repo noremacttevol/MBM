@@ -1,5 +1,21 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
+## ✅ C-FIX 2026-08-13 SHIPPED — s11 "facing each other" RE-STAGED to parallel-forward (Machine A `Dev`, Opus runner, unattended/headless)
+
+**COMPLAINT LEDGER (Cameron, NEW, against the reshipped cut `6e807e29…`) — FIXED:**
+> "1:03 they are facing each other again and that is wrong replace it."
+
+- **FRAME TRACE (from the RENDERED mp4, not guessed):** the clip time-map (c000–c010) puts **1:03 (63.0s) on c010 = s11** (`s11-today-the-faith-of-a.jpeg`, window 60.47–64.70). Extracted the live frame: Jesus's cross and the penitent thief's cross were **angled inward toward each other**, both men in **profile facing each other** — the exact "facing each other" defect.
+- **PROMPT AUTOPSY (rubric meta-law 3) — VERDICT = CAUSED.** b11's `must_not_show` already forbade "NO crosses angled toward each other," but the positive `scene` prose commanded **"the two faces turned each other's way along the row"** — a symmetric mutual gaze for BOTH figures. To make that eye-line work the model angled both crosses inward. The negative constraint lost to the positive instruction. (The working beats b05/b07 say "seen from the FRONT / pinned body faces forward, only the HEAD turns"; b11 alone commanded a mutual stare.)
+- **FIX (rewrote the words, $0.26, 1 reroll = 9%):** b11 `scene` + `must_show` rewritten to "both crosses standing as straight PARALLEL UPRIGHTS seen from the FRONT, both pinned bodies squared to the viewer, each face lifted and at rest looking outward, NEVER the two faces turned toward each other." `must_not_show` hardened (no mutual profile gaze / no body-to-body-across-a-gap). Regen b11 → parallel-forward achieved but the HILL/overlook look spawned a **modern metal guardrail + bolt** in the mid-ground (would draw a fresh complaint) → added "NO modern fence/railing/guardrail/metal bolts — ancient bare-rock ground + distant stone wall only" to b11 must_not_show and **rerolled once** → clean: natural rocky hillside, distant city wall, small watchers, no modern object.
+- **FULL-CUT GATE 6b (one frame per beat from the RENDERED mp4 + captions + card) — PASS:** s01 distant establish; s02 mocker shirtless/affixed; s03 THREE parallel crosses watchers-behind; s04 thief gesturing (narration-justified); s05 parallel row; s06 thief turns HEAD toward Jesus (narration "turned his head toward Jesus", Jesus forward — head-turn, not facing-across); s07 parallel row; s08/s10 penitent alone; s09 Jesus alone paradise-line (RED caption lands on his locked face, desync held); **s11 NOW parallel-forward, both bodies to viewer, not facing each other, crown+plaques, face-locked, no modern object;** card clean serif/centred/cream. Captions 3-colour, bottom-band only.
+- **AUDIO REBUILD PASS SHA256 `e5ba558a…` — byte-identical; narration/voices/timing untouched.** New mp4 md5 `6f372e7e…`.
+- **NETWORK NOTE (not a defect):** the first b11 reroll HTTP call hung ~9 min (socket sleeping, 0% CPU, no read-timeout in v2_gen_api) with billing healthy (row 146 spending concurrently). Killed it (nothing written), retried under `timeout 240` → succeeded. Logged to RUNNER-LESSONS.
+
+**COST:** $0.26 Gemini (2 gens on b11: fix + 1 reroll), 0 ElevenLabs, meter $634.36→$634.62. Reroll rate 1/11 = 9% (≤15%). Under the $6.10 baseline (touch-once single-beat C-FIX).
+
+---
+
 ## ✅ C-FIX 2026-08-13 SHIPPED — crucifixion re-staging BUILT + FULL-CUT GATE + reshipped (Machine A `Dev`, Opus runner, unattended/headless)
 
 **COMPLAINT LEDGER (Cameron, against the old cut `9059485916c1…`) — ALL FIVE DEMANDS FIXED:**
