@@ -64,3 +64,27 @@ STALE-V1: row-147 class: durations match (~136.9s) but 11/11 V1-dir mp3s NEWER t
 3. 0 stills exist → hand back to the picture runner: board State NEEDS-AUDIO → AUTHORED, keep Ready ✅, Claim BLANK.
 
 **RESUME (audio lane):** `python3 media-production-v2/v2_assemble.py 155` (refuses until the flag is set).
+
+---
+
+## ✅ AUDIO-FIX DONE → AUTHORED — 2026-08-13 (Machine A `Dev`, audio lane, $0, 0 stills)
+
+STALE-V1 cleared. **Voice-ID:** all 11 placed V1-dir mp3s
+(`media-production/build-155-falling-away/audio/*.mp3`) ffprobe as
+**44100 Hz / 128 k = ElevenLabs new-voice**, and `audio-eleven.log` records all
+11 segments (n1-n8, kv2, kv3, card) cast through the ElevenLabs pipeline — no
+edge-tts, no old voice anywhere. They were newer than the V1 mp4 (old-voice
+render), which is exactly why the AUDIO LOCK's STALE-V1-FINAL guard refused the
+packet-copy.
+
+**Fix:** set `AUDIO_FROM_V1_SEGMENTS = True` in `beats_v2.py`. The track is now
+rebuilt from these new-voice mp3s at the extract_beats offsets — no re-voice, no
+re-time, V1 stays read-only, **$0 (no Gemini, no ElevenLabs)**. Verified: the
+extract_beats timeline reads all 25 phrases cleanly (123.1 s); `v2_assemble 155`
+no longer refuses on the audio lock, it now stops only at the missing stills
+("row not fully generated") — the picture runner's job.
+
+**Handed to the picture runner:** board State NEEDS-AUDIO → AUTHORED, Ready ✅,
+Claim cleared. When the runner generates the 22 stills, `v2_assemble` rebuilds
+the new-voice track via the flag and ships. Nothing else touched — same voices,
+same wording, same timing.
