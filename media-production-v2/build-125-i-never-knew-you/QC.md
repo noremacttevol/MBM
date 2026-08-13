@@ -112,3 +112,71 @@ to **AUTHORED / Audio OK / Ready ✅**, claim cleared. A picture runner generate
 the 15 stills (DOOR promote-first from b02, ROAD promote-first from b11, HILLSIDE
 plate shared with 121-124) then runs `v2_assemble.py 125` → AUDIO REBUILD PASS and
 ships the full cut on this fixed audio.
+
+---
+
+## ✅ SHIPPED — realistic-V2 first cut (Opus runner, Machine A `Dev`, headless, 2026-08-13)
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 125` shows no complaint block; QUEUE row 125 = "I never knew you," Matt 7:21-23, cross-checked = genuine build, not a swap).
+
+**15 realistic stills @ 2K on the STALE-V1-rebuilt audio** (V1 had 7). Audio path
+= `AUDIO_FROM_V1_SEGMENTS=True` (set by the audio lane 2026-08-11); v2_assemble
+rebuilt the track from the 8 V1-dir segment mp3s (n0 j1 n1 j2 n2 j3 n3 + card) at
+the extract_beats offsets — **nothing re-voiced**, stray ~0.9s tail dropped.
+**AUDIO REBUILD PASS SHA256 7ad2f52775f45b78…**, 91.8s / 20.8MB.
+
+**FULL-CUT GATE (every beat from the RENDERED mp4 + 3 caption frames + card) — 15/15 PASS:**
+- Jesus locked face consistent across b01/b03/b11/b12/b14/b15 (warm Middle-Eastern,
+  dark wavy hair, full beard, ref-true calm eyes), **cream robe ONLY on Jesus**,
+  no halo/glow/rim-light, ordinary scale, gazes converge (b01).
+- **CONTENT-CARE held (the row's governing law):** "that day" = a great door +
+  warm light, NO fire/darkness/wrath/falling figures anywhere; **b12 "I never knew
+  you" is GRIEF not fury** — sorrowful Jesus at the closed door, pleaders departing
+  with their bundles into plain dusk; **b15 finale = door WIDE OPEN, warm country
+  beyond, Jesus's hand extended in welcome** (grief gone → invitation).
+- Pleaders EARNEST/sympathetic (b09 "somebody's beloved teacher"), scroll-script
+  INDISTINCT (no readable text); **full-arms doctrine b10** (arms stacked to the
+  chin, no hand free); **empty balance + clasped hands b13**; **walking-WITH b11/b14**
+  (companion's hands free/empty).
+- Realistic photography throughout (Law 14, no cartoon/mix), no modern objects,
+  clean anatomy/hands, distinct faces.
+- Captions bottom-band only: **narrator WHITE, Jesus KJV lines (j1/j2/j3 = Matt
+  7:21/22/23) RED** (two-voice/speaker law; no blue/green — no scripture-voice or
+  God-voice in this row). Card clean cream serif, good margins, no tofu, invitational.
+- **Caption↔audio SYNC verified by faster-whisper transcription of the delivered
+  mp4** — every caption's words are actually spoken, card matches (lesson 84/131).
+- DROP-CHECK: concat_base = 15 clips == 15 BEATS; card_start 85.319 > b15 window
+  79.33 (no dropped beat); video==audio==91.833s.
+
+**Rerolls: 3 / 15 beats (20%, over the 15% target — ALL mandatory-class, explained
+per COST LAW):**
+- **b06 ×2** — first two takes rendered a PAINTERLY ILLUSTRATION among photoreal
+  frames (Law-14 realism/MIX = hard fail); take #2 also baked readable Hebrew into
+  the scrolls. Take #3 landed photoreal (paneled door matching siblings, indistinct
+  scrolls). Autopsy = generator style-drift on the "warm strange light / no visible
+  sun" wording (b07/b08/b09 = same scene rendered photoreal, so seed-luck, not
+  purely text). [→ RUNNER-LESSONS: ethereal-light pleader/day beat can drift painterly.]
+- **b15 ×1** — first take had a MODERN LEVER handle; reroll still carried a metal
+  lockset/escutcheon. Resolved with a targeted **gemini-3-pro-image EDIT** (not a
+  reroll): removed the modern hardware, left a period iron RING pull, every other
+  pixel (locked Jesus face, cream robe, welcome hand, open door, country beyond)
+  preserved (`.predooredit.bak`). Autopsy = ALLOWED (nothing banned hardware; runner
+  can't edit beat text, so a surgical edit beats a reroll that would redraw the face).
+
+**FIX-WAVE (soft, non-blocking, kept the take):**
+- b14 — Jesus wears a brown over-cloak vs the cream mantle in b11 on the same walk
+  (soft wardrobe variance; cream robe clearly present, only-Jesus-cream held, identity
+  intact — row-95 precedent).
+- DOOR wood-tone/construction varies across the 7 door beats (b02 rustic plank, b08
+  weathered-grey vs b06/b07/b12/b15 paneled-honey) — text-lock place drift; DOOR was
+  deliberately NOT plated (changing open→closed condition + b15 is a Jesus beat, so a
+  closed-door plate would fight the open-door climax; ROAD likewise unplated — both its
+  beats are Jesus-bearing, can't promote a plate from them).
+- b04 — declaimer's oatmeal STRIPED tallit reads borderline-cream (no Jesus in frame,
+  patterned not plain).
+
+**Cost: $2.55 / 19 gens (15 base + 3 rerolls + 1 edit).** $/row far under the $6.10
+running average (COST LAW downward trend holds). Reroll % 20% > 15% target, but every
+reroll killed a mandatory Law-14/modern-object defect (not subtle drift), same
+precedent as row 198's justified overage; the $/row is what the trend measures and it
+is well under.
