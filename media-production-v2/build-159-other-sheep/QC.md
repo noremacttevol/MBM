@@ -60,3 +60,52 @@ beyond frame-left). File order = story order; windows contiguous
   promote-first from b11's:
   `python3 media-production-v2/v2_stash.py --promote build-159-other-sheep HILLSIDE <frame>`
   `python3 media-production-v2/v2_stash.py --promote build-159-other-sheep FAR-COUNTRY <frame>`
+
+---
+
+## COMPLAINT LEDGER (LEARNING LAW)
+- `.approvals.json["159"]` = NO ENTRY → never approved, never complained.
+  `v2_outline.py 159` shows no open complaint. **COMPLAINT LEDGER: none open.**
+- QUEUE.md cross-check: row 159 = "Other sheep I have" (John 10:16), all-columns
+  ✅ — NOT a swapped/replaced story. The dupe that was purged was row **134**
+  (its old build WAS other-sheep, archived, replaced with today-in-paradise);
+  #159 is the canonical keeper. Safe to build.
+
+## RUNNER PARK — 2026-08-13 12:44 (Opus runner, Machine A `Dev`, headless)
+**Status: RUNNING/claimed, generation blocked by a TRANSIENT GOOGLE-SIDE IMAGE-ENDPOINT OUTAGE (NOT billing, NO Cameron action needed).**
+
+Work banked this session (valid, do NOT regen):
+- `CAST-REF-V2/shepherd.jpeg` — SHEPHERD story portrait generated + wired into
+  `beats_v2.py REFS` (defuses the #1 RUNNER-LESSON cross-location-drift block:
+  SHEPHERD spans 9 beats across HILLSIDE/FAR/FOLD; QC'd on-lock — Middle-Eastern
+  ~35, black hair+beard no grey, deep-brown skin, dark-brown rough wool tunic
+  (NOT cream), olivewood staff, clean anatomy).
+- `assets/s01-on-a-hillside-surrounded-by.jpeg` — b01 establishing wide.
+
+Blocker diagnosis (definitive, so nobody re-diagnoses on the meter):
+- Last successful gen board-wide = my s01 @ 12:22. As of 12:44, **16+ min of ZERO
+  frames on EVERY lane** (build-154 sibling frozen at 12:16 too).
+- `gemini-3-pro-image:generateContent` **HANGS** — 3 direct curl probes each
+  `HTTP 000 / time_total 45–90s` (no response body, no 429, no error).
+- **Key is HEALTHY / billing is FINE**: a text-model probe returned an *instant*
+  404 ("model no longer available") — proves the key reaches Google and is NOT
+  billing/permission-blocked. This is an IMAGE-ENDPOINT infrastructure outage on
+  Google's side, self-healing — it is NOT the prepay-depleted wall and needs NO
+  top-up / NO inbox escalation.
+
+RESUME (once the image endpoint responds again — a text/image probe returns 200,
+or a sibling lane's frame lands in api-spend.jsonl):
+```
+cd /home/noremacttevol/Desktop/MBM/media-production-v2
+# resumes automatically, re-pulls ONLY s02–s20 (s01 + portrait are kept)
+M=$(python3 -c "import json;print(round(sum(json.loads(l).get('est_cost',0) for l in open('api-spend.jsonl') if l.strip()),2))")
+python3 v2_gen_api.py build-159-other-sheep --ceiling $(python3 -c "print(round($M+19*0.201+30,2))")
+```
+Then: Light-QC each frame (SHEPHERD identity board across b02-06/b14/b17-20;
+NO gate/bars in FOLD b14/b20; direction law home-LEFT/far-RIGHT; scan jesus=False
+beats for a stray cream/Jesus-double; scale/anatomy/modern-object/letterbox/
+rotation). **Plates:** FOLD plate is committed — do NOT `--wire` (it overwrites);
+HILLSIDE (all-Jesus beats) + FAR-COUNTRY (2 beats) stay TEXT-LOCK, do NOT promote
+from a Jesus/subject frame (row-152/row-1050 precedent). Then `v2_assemble.py 159`
+(AUDIO LOCK PASS) → FULL-CUT GATE 20/20+card from the RENDERED mp4 → ship (two
+commits) → deploy + live-verify → stash --scan → publish_ledger sync.
