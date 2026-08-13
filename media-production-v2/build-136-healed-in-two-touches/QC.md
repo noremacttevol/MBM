@@ -121,3 +121,42 @@ no halo/glow/rim-light, calm master-face eyes, anatomy/hands clean, first-centur
 setting (no modern objects), realistic photography only (NO cartoon/mix — Law 14),
 trees-walking blur INTENTIONAL (b04) vs full clarity (b07), no lens-stares,
 captions bottom-band, Jesus red-letter ONLY on j1/b10, card clean margins. PASS.
+
+---
+
+## ✅ QC-VERIFY (FULL-CUT GATE 6b) — Opus runner, Machine A `Dev`, headless, 2026-08-13
+
+Independent verify pass on the LIVE cut (row 136 is UNAPPROVED — `.approvals.json`
+`"136": approved:false, approvedHash:null` — so it is verifiable, not untouchable).
+Live review.html carries `data-hash=fad1dba080ed8a1986bcce9aeaf3783f86844835`
+(= the row-136 SHIP commit); working-tree mp4 blob `a76dbd37` matches that commit;
+mp4 URL HTTP 200, 18,731,522 B. Extracted one mid-window frame per beat + 2 card
+frames from the RENDERED mp4 and viewed EVERY one.
+
+**Result: 10/10 beats + card CLEAN. NO re-cut. $0 / 0 gens.**
+
+- Jesus (b01/b02/b03/b05/b06/b08/b10): one locked face, cream-only, NO
+  halo/glow/rim-light, warm ref eyes, ordinary scale every frame.
+- BLINDMAN: teal-blue tunic + brown belt and one face across the whole
+  blind→seeing arc (clouded b01-b03 → half-clear b04 → clear b07-b10); beard
+  is slightly fuller in b01 than the rest but it is the SAME man — no
+  shave/grow flip (the row-52/row-91 defect class does NOT appear here).
+- b03 first touch: hand cradles the cheek/jaw (the authored FIX-WAVE
+  compromise, logged above) — tender, NO fluid rendered, reads as a healing
+  touch, faces clearly apart (not a kiss). Acceptable, not blocked.
+- b04 trees-walking: background figures deliberately soft-blurred (the painted
+  half-vision), near world crisp — INTENTIONAL, not a phantom-people defect.
+- b07: man looks DOWN at the fig leaf (no lens-stare — the prior 2 rerolls
+  held); background villagers now CRISP (the intended contrast with b04).
+- b08: Jesus present, clear mutual eye-contact profile two-shot (the prior
+  Jesus-dropped reroll held).
+- Direction gates: b02 leads OUT through the gate away from town; b10 sends
+  the man HOME by the away-road with a staff. Both correct.
+- Anatomy/hands clean every frame; realistic photography only (NO cartoon/mix,
+  Law 14); first-century setting, no modern objects.
+- Captions bottom-band only, narrator white / Jesus KJV red-letter on b10 (j1)
+  only; reflection card clean serif, good margins, no typo-squares; normal
+  outro fade, no dead tail (audio 49.061s ≈ video 49.066s).
+- `v2_outline.py 136` shows no open reviewer complaint → nothing to regress.
+
+PASS. Claim marked QC-OK on AUTHOR-BOARD.
