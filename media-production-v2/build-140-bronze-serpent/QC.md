@@ -1,5 +1,49 @@
 # QC / RUNNER HANDOFF — build-140-bronze-serpent (Numbers 21:4-9 + John 3:14-15)
 
+## ✅ SHIPPED — 2026-08-13 (A `Dev`, Opus runner, headless) — FIRST V2 CUT, b17 BLOCK CLEARED
+
+`numbers-21_the-bronze-serpent.mp4` · 24 realistic stills · 139.4s · AUDIO REBUILD
+PASS `90d6b582…` (built from the 15 V1 segment mp3s, AUDIO_FROM_V1_SEGMENTS=True,
+OUTPUT_VIDEO_NAME set by runner — new-story row has no V1 mp4). 1 true reroll
+(b21) = **4.2%** (budget 15%); b17 regen was the authoring-block fix, not a reroll.
+Spend this session ≈ **$0.26** (b17 $0.13 + b21 $0.13); the 23 banked-good frames
+were NOT re-pulled (touch-once / COST LAW). Meter 634.62 → 636.23.
+
+**COMPLAINT LEDGER**
+- **OPEN complaint (2026-08-11, story-level):** *"Did we just run out of stories…
+  you are using somebody else's gospel to redo the same exact story we told
+  earlier of the prodigal son… you shouldn't use 2 different people telling the
+  same story."* → **RESOLVED by the story replacement itself.** The Naaman build
+  (whose "way back / come home" moral duplicated #2 Prodigal Son) is ARCHIVED in
+  `build-140-naaman-washes` and REPLACED by **The Bronze Serpent** — a DISTINCT
+  wilderness event (Numbers 21:4-9) that is NOT a repeat of any earlier moral:
+  its lesson is *look in faith to God's lifted-up provision and live*. It is the
+  event **Jesus himself** chose to explain his own cross (John 3:14-15 —
+  "as Moses lifted up the serpent… even so must the Son of man be lifted up"),
+  so it is unique in the library and it earns its place. No other cut tells it.
+  The review card answers Cameron in his own terms.
+
+**FULL-CUT GATE (6b) — per-rendered-frame pass on all 24 beats + card:**
+- b17 hero frame: Moses is now the OLD white-haired / full-white-bearded canonical
+  man (matches s03/s11/s12/s13/s14) steadying the serpent-pole — the identity
+  BLOCK is FIXED (MOSES ref attached: gen log `[+1 char ref: MOSES]`). Pole stayed
+  byte-consistent with b18-b24 via the SERPENT-POLE plate; no plate re-promote
+  needed (young-Moses did NOT bleed through).
+- Identity: Moses consistent across all his beats; NO Jesus in-frame (OT era, correct);
+  no cream robes anywhere. Realistic photography throughout (no cartoon/mix).
+- Snakes are real venomous snakes, no horror-gore; the death beat (s10) is a
+  dignified shroud; blacksmith (s16) is period tools; anatomy/hands correct; scale
+  correct; captions bottom-band only, 4-voice coloring (scripture blue / God green /
+  Jesus red / narrator white); question card clean.
+- b21 (s21, the ~7.6s dying-man close-up) rerolled once: first take had vivid blue
+  eyes on a prominent hold → rerolled to a muted grey-hazel dying man reaching
+  toward the distant pole (reads "a dying man" better, hand anatomically correct).
+- **FIX-WAVE (non-blocking, logged):** s06 a tiny ambiguous bluish speck by the far
+  tents (background, non-subject); s24 a faint semi-transparent "vision" crowd in
+  the upper sky (stylistic memory-overlay on the final redemptive frame). Neither
+  reaches the "would make Cameron type a complaint" bar; left for the fix wave.
+
+
 ## ✅ AUTHOR-FIX DONE — 2026-08-13 (A `Dev`, Fable-5 author lane, $0 image spend) — b17 BLOCK CLEARED, back on the RUNNER
 
 The 🅿️ RUNNER PARK below (b17 identity block) is **RESOLVED at the author level**:

@@ -61,6 +61,12 @@ when struck, whole after he looks); the camp's mood (weary -> angry -> terrified
 -> broken -> looking up).
 """
 
+# New-story row (no rendered V1 mp4): assemble the audio track from the V1
+# segment mp3s in media-production/build-140-bronze-serpent/audio/ (per the
+# assembler's own FIX message and the QC.md ship recipe). Set by the runner.
+AUDIO_FROM_V1_SEGMENTS = True
+OUTPUT_VIDEO_NAME = "numbers-21_the-bronze-serpent.mp4"
+
 # LOCKS: one entry per recurring person / setting / prop. Setting locks must
 # NEVER name a character. Only Jesus wears cream (he is not shown in this row).
 LOCKS = {
