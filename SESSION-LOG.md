@@ -1,3 +1,17 @@
+## 2026-08-13 (Opus picture-runner lane, unattended/headless) — Row 160 "The stone cut without hands" (Dan 2:44) claimed then **PARKED: transient board-wide `gemini-3-pro-image` endpoint outage ($0/0 gen)** — Machine A `Dev`
+
+Session-chain verified at start: prior top entry row 144 QC-OK, commit `033d16a7b` present in `git log --oneline -5`; `hostname`=Dev=Machine A. Task = PROMPT-OPUS-RUNNER, build next Ready rows starting at 163 (lowest first).
+
+- **Row selection (LOW-NUMBER LAW):** the task named 163, but the board showed **160** AUTHORED + Ready ✅ + **empty claim** (audio-fix resolved today, commit `c24a1e867`), which is lower and truly buildable. Rows 155/156/157 are Ready but carry FILLED audio-fix handoff claims → left to their pickup lane per PARALLEL-LANES rule #1 (empty-claim only); 159/162 are RUNNING → skipped. So the correct lowest buildable row was **160**, not 163. Claimed it (board RUNNING + `A-auto 2026-08-13`, pushed `e9d177cbc`).
+- **Learning law done before any credit:** read both META-LAWS + all 22 rubric lessons + RUNNER-LESSONS (top in full, every headline scanned) + `v2_outline.py 160`. **COMPLAINT LEDGER: none open** (`.approvals.json` "160" absent). Cross-checked QUEUE.md — row 160 = stone-cut, no swap. Pre-flight PASS: `AUDIO_FROM_V1_SEGMENTS=True`, `v2_prompt.py --check` PASS (21 beats v4).
+- **BLOCKER — board-wide endpoint outage (NOT a billing wall):** every `gemini-3-pro-image` gen call hangs indefinitely / returns nothing (no read-timeout, RUNNER-LESSONS 1378). Measured: `api-spend.jsonl` last board-wide frame = **12:22:14** (row 159 b01); across 13:18–13:34 my two full `v2_story_cast build-160` runs + three `timeout` probes (DANIEL portrait) all produced **0 frames / 0 spend** → **70+ min, zero frames from ANY lane** = board-wide. No 429, no "prepayment credits depleted"; key HEALTHY / billing FINE — the SAME transient outage that parked row 159 an hour earlier. A board-wide outage blocks 163 identically → genuine truly-blocked stop, not a per-row skip.
+- **Parked clean:** 0 frames banked → board State RUNNING → **AUTHORED**, Claim **BLANK**, Ready ✅ so the next picture-runner/autopilot session re-picks it fresh the instant the endpoint answers. Full resume command in `build-160-stone-cut/QC.md` (portraits → 4 NEW plates COURT/DREAM-PLAIN/STATUE/STONE → 21 beats → gate → ship). No inbox escalation (transient endpoint self-recovers — row 159 precedent). Park commit `09683ff9d`.
+- **COST:** $0.00 (0 images, 0 TTS) — meter unchanged at $711.00. No reroll budget touched.
+
+Commit: `09683ff9d` (row 160 park) + this SESSION-LOG commit below
+
+---
+
 ## 2026-08-13 (Opus QC-VERIFY lane, unattended/headless) — Row 144 "I AM THE RESURRECTION AND THE LIFE" (John 11) independent FULL-CUT GATE re-verify → **QC-OK, CLEAN, no re-cut ($0/0 gen)** — Machine A `Dev`
 
 Session-chain verified at start: prior top entry row 160 stone-cut AUTHORED, commit `c24a1e867` present in `git log --oneline -5`; `hostname`=Dev=Machine A. Task = PROMPT-OPUS-RUNNER FULL-CUT GATE (6b) as a QC-VERIFY pass on row 144, BUILT and sitting in Cameron's Unwatched queue.
