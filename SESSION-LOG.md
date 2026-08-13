@@ -7,7 +7,7 @@ VERIFY-PASS on AUTHOR-BOARD row 174 (Malachi 4:5-6), which was BUILT + sitting i
 - **Two non-blocking observations logged in QC.md, NOT re-cut** (neither would make Cameron type a complaint): b03 is a fairly frontal contemplative close of Elijah; b09's mender beat reads coherently whether the elder parses as Elijah or the grandfather.
 - **VERDICT: CLEAN → row NOT re-cut** (touch-once / cost law — a clean cut must not be re-cut, and a re-cut would void nothing but waste credits and re-queue it). Board claim → `QC-OK 2026-08-13`. The shipped cut, its audio, and its reviewer hash are all unchanged. **$0, 0 rerolls.** Appr stays ⬜ (Cameron's alone).
 
-Commit: SEE-BELOW (QC-VERIFY)
+Commit: 3fe0af535195281e4258ae4b0cd5327c0802dc7f (QC-VERIFY, board QC-OK)
 
 ---
 
