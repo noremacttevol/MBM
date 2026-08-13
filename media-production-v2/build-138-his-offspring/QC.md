@@ -191,3 +191,42 @@ of burning more credits. Shipping any reject repeats a Cameron complaint class (
 sessions = 16 images (10 banked + 6 rerolls) × 0.134 = ~$2.14 — well UNDER the $6.10/row
 average** (small 10-beat row + 6 reused frames). Meter at ship ~$712.6 (other lanes advancing
 it too), never over my 738 ceiling.
+
+---
+
+## ✅ QC-VERIFY PASS — 2026-08-13 (Opus verify-pass, Machine A `Dev`, headless)
+
+FULL-CUT GATE 6b re-run on the SHIPPED-but-UNAPPROVED cut (approvals row
+138 = approved:false → NOT untouchable; caught before Cameron's eyes per
+the row-11 seven-bad-frames rule). Approval check done FIRST: row 138
+approvedHash=null, so the untouchable-approved guard does not apply.
+
+Extracted ONE mid-window frame per beat from the RENDERED mp4 (play order
+b01→b02→b03→b04→b05→b06→b07→b09→b08→b10) + question card (50s & 53.5s) and
+viewed EVERY one:
+- b01 statues/PAUL — CLEAN (Paul ref-locked: bald fringe, dark pointed
+  beard, rust-brown robe; varied classical statues; realistic).
+- b02 altar traces — CLEAN (zoomed the inscription: weathered broken
+  glyphs, NOT legible words — intended faint-traces design held).
+- b03 open-hand-to-altar — CLEAN (de-inked altar top, no legible text;
+  respectful crowd; natural hands).
+- b04 arm-past-Parthenon — CLEAN (no figure in sky; natural anatomy).
+- b05 agora-in-motion — CLEAN (single coherent scene, the fixed diptych;
+  varied faces, no clones).
+- b06 PAUL+philosopher — CLEAN (respectful surprise; natural hands).
+- b07 Areopagus oration — CLEAN + scripture caption correctly BLUE.
+- b09 finger/repent — CLEAN (honest division; white narrator caption).
+- b08 altar in gold — CLEAN (de-inked, no legible text; light is the
+  change).
+- b10 golden city — CLEAN (no figure; light as presence).
+- question card — CLEAN serif "You were made to be His. Reach out — He is
+  not far.", no typo-squares; holds to 53.5s (audio 54.138s ≈ video
+  54.166s → no dead-card / no 13-extra-seconds bug).
+No Jesus/cream anywhere (correct — Acts, Paul only), no giants, no modern
+objects, no halo, natural anatomy throughout. Two-voice captions correct.
+COMPLAINT LEDGER: none open (v2_outline 138 clean) — nothing to regress.
+
+LIVE-VERIFIED: milk-b4-meat.web.app/review.html v138 data-hash =
+4782c80d06c1a2661e5245e13754606ea1f92ec2 (== ship commit); mp4 HTTP 200,
+content-length 19981407 (== local). CLEAN → marked QC-OK, NO re-cut
+(never re-cut a clean cut). $0.00, 0 rerolls.
