@@ -1,3 +1,20 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 133 WHAT JESUS CALLED HELL (Mark 9:43-48 / Gehenna) QC-VERIFY PASS (FULL-CUT GATE 6b): shipped cut verified CLEAN before Cameron's eyes reach it, 22/22 beats + card, NO re-cut ($0/0 gens) — Machine A `Dev`
+
+Session-chain verified at start: prior top entry row 142 light-of-the-world QC-VERIFY, commit `04acda104` present in `git log`; `hostname`=Dev=Machine A. VERIFY-PASS target = AUTHOR-BOARD row 133 (BUILT, sitting in Cameron's Unwatched queue, first cut shipped earlier this same day by the Opus runner at ~$2.81/3 rerolls (13.6%) + 1 $0 crop-reuse — the STRICTEST content-care row in the library).
+
+- **Completed a STRANDED QC-VERIFY claim.** A prior session committed the claim `2eb9c7fde ... claim before viewing` but never landed the verdict — the log shows it moved straight on to rows 139/136/142/145 without a QC-OK/QC-FIX for 133. Same task, same machine (Machine A `Dev`), claim already in place → I finished it rather than re-claiming.
+- **Approval-guard FIRST (the untouchable check):** read `.approvals.json` myself — row 133 is MISSING entirely (never approved, never complained). NOT a current approval → eligible for verify; the 3 AM 2026-08-12 approved-row re-cut failure (rows 1/122/129) does not apply. Live card `data-hash=134c98705776d0300051ba38686485fd296cec43` == a real commit whose row-133 mp4 blob `12afc6dd` == the working-tree mp4; `milk-b4-meat.web.app/review.html` serves that hash; mp4 URL 302→raw HTTP 200. Claim was `QC-VERIFY 2026-08-13 LIVE` before any frame was viewed.
+- **FULL-CUT GATE 6b:** extracted ONE mid-window frame per beat from the RENDERED mp4 (22 per-beat clips c000–c021) + 2 card frames, viewed EVERY one. **22/22 beats + card CLEAN.**
+  - 7 Jesus beats (b01/b09/b11/b12/b16/b21/b22): ONE locked cream face, ref-green/hazel eyes, no halo/glow/rim-light, ordinary scale every frame. b14 background teacher on-model + cream (authored no-ref, non-blocking FIX-WAVE — not complaint-level).
+  - CONTENT-CARE (strictest row) held: NO horror. Topheth b05/b06 = prophet denouncing over ruined stones + ash, no children/no fire enacted. Hand-verse b10 = Jesus's own WHOLE 5-finger hand; eye-verse b12 = his own clear eyes; craftsman b15 whole working hand. Worm/fire b13 = empty ground + banked embers, no figures, no leaping flame. Later-art b01/b17 = muddy indistinct canvases. b18 = scripture's own warning objects (lamp/chaff/broken vessel/hearth/shut door). b20 child SAFE, back from the well. b22 closing map = Jesus between the smoking valley and the warm home-lit city, listeners' backs, hand pointing home.
+  - Realistic-only (Law 14, no cartoon/mix); no modern objects; anatomy/hands clean every frame. Captions narrator-WHITE / Jesus-KJV-RED (b10/b11/b12/b13), bottom-band only. Reflection card clean serif, no typo-squares. Audio 149.897s ≈ video 149.900s, no dead tail.
+  - **No open complaint on this row → nothing to regress.**
+- **Outcome:** clean row verified, **NO re-cut** ($0/0 gens — a clean row is not touched). Board Claim → **QC-OK 2026-08-13**; build QC.md carries the verify note. Cut stands as shipped; Appr stays ⬜ (Cameron's alone).
+
+Commit: `PENDING` (board QC-OK + build QC.md verify note + this SESSION-LOG; no mp4/art change)
+
+---
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 142 THE LIGHT OF THE WORLD (John 8:12; John 9) QC-VERIFY PASS (FULL-CUT GATE 6b): shipped cut verified CLEAN before Cameron's eyes reach it, 10/10 beats + card, NO re-cut ($0/0 gens) — Machine A `Dev`
 
 Session-chain verified at start: prior top entry row 136 healed-in-two-touches QC-VERIFY, commit `ef7366714` present in `git log`; `hostname`=Dev=Machine A. VERIFY-PASS target = AUTHOR-BOARD row 142 (BUILT, sitting in Cameron's Unwatched queue, shipped earlier this same day by the Opus runner at $0.40/1 reroll after the author lane's face-board fix).

@@ -163,3 +163,41 @@ spec in this file.
   isn't ref-locked; he reads plausibly on-model + cream-only and the scene contextually
   intends him (the teacher whose words the listeners react to, lesson 1209) — leave for a
   future author touch (set jesus:True + REF), not a runner coin-flip reroll.
+
+## ✅ QC-VERIFY PASS — FULL-CUT GATE 6b (Opus runner, Machine A `Dev`, headless, 2026-08-13)
+
+Completed the stranded QC-VERIFY claim (prior session committed the claim
+`2eb9c7fde ... claim before viewing` but never landed the verdict — it moved on to
+rows 139/136/142/145). Approval-guard FIRST: row 133 is MISSING from
+`.approvals.json` (never approved, never complained) → eligible for verify, NOT the
+approved-row-untouchable case (the 3 AM 2026-08-12 re-cut of approved 1/122/129 is
+what that guard prevents; does not apply here). Live card `data-hash` =
+`134c98705776d0300051ba38686485fd296cec43` is a real commit whose row-133 mp4 blob
+`12afc6dd` == the working-tree mp4; `milk-b4-meat.web.app/review.html` serves that
+hash; mp4 URL 302→raw HTTP 200. Claim already `QC-VERIFY 2026-08-13 LIVE` before any
+frame was viewed.
+
+**FULL-CUT GATE:** extracted ONE mid-window frame per beat from the RENDERED mp4
+(22 per-beat clips c000–c021) + 2 card frames, viewed EVERY one. **22/22 beats + card
+CLEAN.**
+- 7 Jesus beats (b01/b09/b11/b12/b16/b21/b22): ONE locked face, cream-only, ref-green/
+  hazel eyes (no brown iris-edit), no halo/glow/rim-light, ordinary scale every frame.
+  b14 background teacher reads on-model + cream (authored no-ref, non-blocking FIX-WAVE
+  as noted above — not a Cameron-complaint-level defect).
+- CONTENT-CARE (strictest row) held everywhere: NO horror. Topheth b05/b06 = prophet
+  denouncing over ruined stones + ash, NO children, NO fire enacted. Hand-verse b10 =
+  Jesus's own WHOLE 5-finger raised hand; eye-verse b12 = his own clear steady eyes;
+  craftsman b15 whole working hand. Worm/fire b13 = empty ground, banked red embers,
+  thin smoke, NO figures, no leaping flame. Later-tradition art b01/b17 = muddy
+  indistinct canvases + easel/pigments, nothing lurid resolves. b18 = scripture's own
+  warning objects (lamp, chaff, broken vessel, hearth, shut door). b20 child SAFE, held
+  back from the well's edge. b22 closing "map" = Jesus between the smoking valley and
+  the warm home-lit city, listeners' backs, hand pointing home.
+- Realistic-only (Law 14, no cartoon/mix); no modern objects; anatomy/hands clean every
+  frame. Captions narrator-WHITE / Jesus-KJV-RED (b10/b11/b12/b13), bottom-band only.
+  Reflection card clean serif, no typo-squares. Audio 149.897s ≈ video 149.900s, no
+  ≥1.2s dead tail.
+- No open complaint on this row → nothing to regress.
+
+**Outcome:** clean row verified, **NO re-cut** ($0/0 gens — a clean row is not touched).
+Board Claim → **QC-OK 2026-08-13**. Cut stands as shipped; Appr stays ⬜ (Cameron's alone).
