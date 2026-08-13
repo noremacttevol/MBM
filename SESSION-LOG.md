@@ -26,6 +26,43 @@ handoff, never a re-voice or a picture build.
 
 **Cost:** $0 Gemini, $0 ElevenLabs, 0 rerolls across all three (no TTS, no image gen).
 
+## 2026-08-13 (Opus runner, unattended/headless) — Row 140 The Bronze Serpent: 24 realistic stills BUILT + FULL-CUT-QC'd (0 rerolls ~$3.48), PARKED → NEEDS-REBUILD on ONE authoring block (b17 locks omit MOSES token) — Machine A `Dev`
+
+**Commit:** `cb082d581` (park: 24 assets + 2 plates + 2 portraits + PLACE-WIRING + QC.md + AUTHOR-BOARD + QUEUE + RUNNER-LESSONS).
+
+Claimed AUTHOR-BOARD row 140 (lowest Ready, complaint-first: the Bronze Serpent
+is Cameron's approved replacement for the Naaman/prodigal-dupe he rejected).
+Cross-checked QUEUE — story matches, legitimate build. Read the two META-LAWS +
+all 20 rubric lessons + all of RUNNER-LESSONS before spending (Learning Law).
+`--check` PASS (24 beats). Portraits (MOSES, BITTEN-MAN) $0.27. Promote-first per
+QC: b01 → WILDERNESS-CAMP plate (great camp wide, camera-behind-backs), b17 →
+SERPENT-POLE plate. Generated all 24 at 2K under ceiling (meter 624.71→632.88,
+**$3.48/row, 0 rerolls = 0%** — well under the $6.10/19% baseline; not a full
+shipped-row cost since parked).
+
+**FULL-CUT GATE: 23/24 PASS.** Canonical Moses (old, long white hair, full white
+beard, brown robe+dark mantle, staff) is consistent across s03/s11/s12/s13/s14
+(all MOSES-ref-locked); BITTEN-MAN consistent s09/s18/s19; snakes natural/no-gore;
+dead shrouded with dignity/no-gore; no divine figure anywhere; cross-form
+serpent-pole payoff clean; no modern objects; no lens-stares; row-14 behind-backs
+geometry held on the wides. **ONE BLOCK: b17/s17 (hero + promoted SERPENT-POLE
+plate)** rendered Moses as a younger brown-bearded man — a lesson-2/13 identity
+break on the payoff frame. PROMPT-AUTOPSY = ALLOWED/IGNORED: b17's must_show NAMES
+"Moses steadying its base" but its `locks` omit the `MOSES` cast token, so the
+char ref attaches by token not prose → moses.jpeg never attached → free-invented
+face. Runner CANNOT fix (editing `locks` is a hard rail; a blind --redo won't
+attach the ref, so it can't restore the SAME face — lesson 10). Parked
+**NEEDS-REBUILD** for the author lane with a one-token resume: add `"MOSES"` to
+b17 locks → runner `--only b17 --redo` (SERPENT-POLE plate keeps the pole
+byte-consistent, so b18-b24 need NO regen) → assemble (AUDIO LOCK from V1 segment
+mp3s) → ship → publish. All 24 frames banked ($0 to reuse). New RUNNER-LESSONS
+entry added (locked-cast named in prose MUST be in `locks`). FIX-WAVE minor:
+s21 pale-eyed incidental, s24 faint sky "vision" overlay, s06 tiny bluish speck
+by far tents — none blocking. Board: 140 State→NEEDS-REBUILD, Ready cleared,
+QUEUE claim carries the park. 142 was RUNNING (sibling lane) — untouched.
+
+---
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 122 mote-and-beam: C-FIX SHIPPED — Cameron's 0:33 "head turned around backwards" (his 5th filing of this class) — Machine A `Dev`
 
 **Commit:** `ac4eeba64` (ship: mp4 + QC + beats_v2 + RUNNER-LESSONS + rubric lesson 21); card/board/log follow.
