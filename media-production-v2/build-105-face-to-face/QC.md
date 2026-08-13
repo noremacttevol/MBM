@@ -62,3 +62,25 @@ rows 74/78/80 for the same fix.
 - **3 rerolls / 26 = 11.5%** (≤15%): b06 (was stacked triptych + steam → single-frame pillar of cloud), b10 (was ambiguous over-shoulder partner → solo warm Moses), b24 (was full halo-burst on shining face → localized facial shine, people shielding eyes, per author's "bright skin, no halo" law). ~$3.89 Gemini (29 gens × $0.134), under the $6.10 baseline.
 - **AUDIO REBUILD PASS** SHA256 `8f3417de…` (AUDIO_FROM_V1_SEGMENTS=True, 18 V1-dir new-voice mp3s, 164.3s — nothing re-voiced/re-timed).
 - **FULL-CUT GATE** on all 26 rendered beats + caption frames + question card: captions bottom-band only (white narration / green scripture), question card clean margins, no modern objects, anatomy/hands clean, no cream robe, no lens-stare.
+
+## 🔎 QC-VERIFY-FIX — 2026-08-13 (Machine A `Dev`, Opus verify pass, headless)
+
+Full-cut gate re-run on the shipped cut BEFORE Cameron's eyes reached it (row was
+BUILT + Unwatched, NOT approved — approvals.json 105 approved:false). Extracted one
+frame per beat from the RENDERED mp4 and viewed all 26 + both card frames.
+
+**ONE defect found → fixed in ONE touch-once re-cut (2 rerolls of b24 only, 1/26 = 3.8%, ≤15%; ~$0.27 Gemini):**
+- **b24 (shining face, `s24`)** shipped with a harsh WHITE LIGHT-BURST concentrated
+  ON THE EYES — read as glowing/white demon-eyes, the exact defect the beat's own
+  `must_not_show` forbids ("no halo or ring of light — the SKIN of the face itself
+  bright") and that Cameron has filed as a complaint THREE times on other rows
+  (67 "eyes turned into light... looks like a demon", 94 "eyes are Lake white and
+  looks evil", 96). Rerolled ×2 → radiance now sits as a soft backlight bloom
+  behind/around the head with NATURAL downcast eyes; three onlookers shield their
+  eyes; Moses unaware. Verified in the rendered mp4 at t=134.0s.
+- All other 25 beats + both question-card frames were CLEAN and were NOT touched.
+
+**AUDIO UNCHANGED** — re-assemble printed the same SHA256 `8f3417de…` (AUDIO_FROM_V1_SEGMENTS,
+164.3s). The review card's "audio byte-identical" claim stays true. Only the s24
+picture changed. Redeployed + live-verified. COMPLAINT LEDGER: none open (this was
+a pre-emptive quality catch, not a filed complaint).
