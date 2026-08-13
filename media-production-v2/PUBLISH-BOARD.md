@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T08:00:46_
+_Last sync: 2026-08-13T08:02:48_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 47 row(s)
+- **BUILDING** — 46 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 28 row(s)
+- **ON REVIEWER — awaiting Cameron** — 29 row(s)
 
 ## The rows
 
@@ -135,7 +135,7 @@ _Last sync: 2026-08-13T08:00:46_
 | 112 | The Beatitudes | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 113 | Where Art Thou? | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 114 | Abraham Pleads for Sodom | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 115 | The Ram in the Thicket | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 115 | The Ram in the Thicket | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 116 | Graven on His Palms | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 117 | Hosea Buys Her Back | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 118 | Jonah and the God Who Relents | ✅ 2026-08-13 | v1.1 | app-gallery | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
