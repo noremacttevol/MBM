@@ -143,3 +143,25 @@ Face-board (viewed the ref + s07/s08/s09/s10): the born-blind man drifted becaus
 1. `v2_gen_api build-142-light-of-the-world` regenerates ONLY s07/s08 — the man must match the ref: ~35, unruly black hair, short dark beard, **milk-pale blind eyes** (pre-Siloam), rust-brown tunic + grey shoulder cloth (never cream). Jesus stays the one locked cream face.
 2. FULL-CUT GATE all 10 beats against the ref as the face-board anchor — the born-blind man is the SAME ~35 dark-haired man across s07→s10 (milk-pale before the healing, clear brown after), Jesus one consistent face, realistic throughout.
 3. Assemble (AUDIO LOCK), deploy, live-verify. No open Cameron complaint — this was a pre-ship face-board block; the review card presents the finished consistent cut.
+
+---
+
+## ✅ QC-VERIFY PASS — FULL-CUT GATE 6b (2026-08-13, Opus runner, Machine A `Dev`, headless) — NO re-cut ($0/0 gens)
+
+**Approval-guard FIRST:** read `.approvals.json` myself — row 142 `approved:false`, `approvedHash:null`. NOT a current approval → eligible for verify (the 3 AM 2026-08-12 approved-row re-cut failure on rows 1/122/129 does not apply). Live card `data-hash=9daf77128c7e83ae55563859fb5e32f01f871a72` is a real commit; working-tree mp4 blob `37b3153e` == that commit's blob; `milk-b4-meat.web.app/review.html` serves the same hash; mp4 URL HTTP 200, content-length 20,142,005 B. Claimed the board Claim cell (`QC-VERIFY 2026-08-13 LIVE`, commit `5d59e90ba`) BEFORE viewing any frame. No open complaint (`v2_outline.py 142` / `.approvals.json` complaint:null) → nothing to regress.
+
+**FULL-CUT GATE:** extracted ONE mid-window frame per beat from the rendered mp4 + 2 card frames; viewed EVERY one. **10/10 beats + card CLEAN.**
+- b01 temple treasury: cream ONLY on Jesus, great festival lampstands = PHYSICAL flame (no halo/glow/rim-light), varied busy crowd, Jesus ordinary scale, warm Middle-Eastern locked face.
+- b02 close hand-at-chest: green/hazel V2 ref eyes (LOCK v5 correct), physical lamps behind, hand anatomy clean, no halo.
+- b03 menorah declaration (the prior Law-14 CARTOON reroll → REALISTIC held): real menorah flames, RED Jesus-KJV caption bottom-band, Jesus normal scale vs crowd, both hands/feet anatomically fine.
+- b04 guttering clay lamp still-life: physical light (smoke wisp), realistic, object beat intentional.
+- b05/b06 night-road vignettes: TRUE-NIGHT dark real beyond the lantern, PHYSICAL clay lanterns, no cream figure (Jesus not depicted), anatomy/sandals clean, no modern objects.
+- b07 Jesus meets the born-blind man: blind man matches the BLINDMAN ref (~35, unruly black hair, short dark beard, patched rust-brown tunic + grey shoulder cloth).
+- b08 clay-anointing DISCREET: earth-dust fingertips at closed lids, healing touch (NOT a kiss), Jesus cream, hand anatomy clean.
+- b09 casting-out: healed man SEEING (clear eyes), leaders turned-backs dismissal, Jesus stays hand-on-shoulder; identity consistent.
+- b10 sunrise close: walking onward, intended sunrise (not a time-of-day violation — night was b05/b06 by design), identity consistent, Jesus cream-only.
+- **Blind-man FACE-BOARD FIX HELD across b07→b10** — the exact prior-session defect (s07 ~50yo grey flip): now ONE ~35 dark-haired man, milk/closed eyes before → clear brown after. No age/grey/beard flip.
+- Reflection card: clean serif on cream, centred, NO typo-squares / code-faults. Captions narrator-WHITE / Jesus-KJV-RED, bottom-band only.
+- AUDIO LOCK / dead-tail: video 59.433s ≈ audio 59.409s (aligned within 0.024s); silencedetect found NO ≥1.2s trailing silence — not the "13 extra dead seconds" class.
+
+**Outcome:** clean row verified BEFORE Cameron's eyes reach it. **NO re-cut** — a clean row is not touched ($0/0 gens). Board Claim → **QC-OK 2026-08-13**. Cut stands as shipped; `Appr` stays ⬜ (Cameron's alone).
