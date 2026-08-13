@@ -1,3 +1,16 @@
+## 2026-08-13 (Opus runner, low-number lane, unattended/headless) — Row 153 restitution PARKED NEEDS-REBUILD (Peter off-model) + Row 105 face-to-face V2 realistic BUILT & SHIPPED — Machine A `Dev`
+
+**Commit:** row 105 build `ba661aa17` (mp4+assets+QC+boards); review.html + this log follow. Row 153 park `f07efa22c`.
+
+THE LOW-NUMBER LAW ran the ready AUTHOR-BOARD rows lowest-first.
+
+- **Row 153 restitution (Acts 3) → PARKED NEEDS-REBUILD, $3.48, NOT shipped.** Cross-checked QUEUE (legit story, not swapped), audio fixed (STALE-V1 resolved). Built 26 stills but **Peter — the protagonist — rendered as an older grey-haired man**, a different actor from his canonical mid-30s dark-haired/dark-bearded sheet (verified against shipped build-103). PROMPT-AUTOPSY: the 10 Peter beats attach **no Peter reference** and **PETER is in no beat's `locks`** (all `ref:False`), so neither the canonical PETER lock text nor his image reaches the model — words alone can't pin identity (lesson 2). Not fixable in runner scope (editing beats' locks/ref is author-lane). Parked with a precise author fix (add PETER lock+ref to b02-b07/b12/b13/b15/b18 + soften b02 "weathered face remade" prose; runner then regenerates only those 10, touch-once). LAMEMAN plate promoted from s03. Complaint "1:12 needs Peter" stays OPEN. See build QC.md.
+- **Row 105 face-to-face (Ex 33) → BUILT + SHIPPED, ~$3.89, 3 rerolls/11.5%.** Unlike 153, Moses's fleet pattern (proven on shipped row 140) is local MOSES lock + `ref:False` + promote-first — build-105 follows it correctly. Promoted MOSES (s05), CAMP/TENT (s01), CLEFT (s21) plates → Moses perfectly consistent (~80yo grey-white beard, madder-red over charcoal) across all 25 appearances. **GOD NEVER EMBODIED** (row's strictest law): pillar of cloud, glory-as-light, cleft sheltering-shadow — no figure/face/hand. FULL-CUT GATE caught + rerolled b06 (stacked triptych→single-frame pillar), b10 (ambiguous over-shoulder partner→solo Moses), b24 (halo-burst on shining face→localized facial shine per author's "bright skin, no halo"). AUDIO REBUILD PASS `8f3417de` (AUDIO_FROM_V1_SEGMENTS, 164.3s, byte-identical). Captions bottom-band, question card clean. Deployed to Firebase + live-verified; card v105 → realistic-v2, data-hash + ?v = ship commit.
+
+**COST:** row 105 $3.89 (<$6.10 baseline), 11.5% rerolls (<15%). Row 153 $3.48 spent, carries forward (only 10 Peter beats regenerate on rebuild). Ops: long background gens get SIGTERM'd (143) at an interval under concurrency — resume is idempotent and completes; block on the task with TaskOutput to keep the headless turn alive.
+
+---
+
 ## 2026-08-13 (Opus runner, complaint-first, unattended/headless) — Row 161 CALLED OF GOD (Heb 5): full realistic V2 build FIXING open complaint "1:30 Aaron grey + oil over his hat" — Machine A `Dev`, ~$7.9 Gemini, 0 rerolls
 
 **Commit:** `3803506a4136` (build: mp4 + 24 assets + 3 portraits + QC + beats_v2 REFS + AUTHOR-BOARD + QUEUE + api-spend); review.html + this log follow.
