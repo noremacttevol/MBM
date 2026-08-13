@@ -29,6 +29,20 @@ Commit: cf303cd5dcde378976d8908f7c73f3188436dd45 (ship) · CARD+STASH+PLATES+LOG
 
 ---
 
+## 2026-08-13 (Opus runner resume, unattended/headless) — Row 142 LIGHT OF THE WORLD V2 PARKED → NEEDS-REBUILD (NOT shipped): FACE-BOARD caught a blind-man age/grey flip across the healing before Cameron's eyes; 8/10 stills banked — Machine A `Dev`, $0.80/0 rerolls
+
+RESUMED AUTHOR-BOARD row 142 (John 8:12 + John 9, "I am the light of the world," State RUNNING / Claim A-auto) — a prior autopilot session DIED after generating s01–s04. Session-chain verified at start: prior top entry row 179 stephens-witness; row 188 ship commit `53a4a263` present in `git log`. RUNNER-LESSONS already-shipped check FIRST: no committed V2 mp4, live review card v142 still the OLD 2026-07-29 cut (`data-hash 6f8abbf9`, no realistic-v2 wave) → genuine resume, not shipped.
+
+- **LEARNING LAW:** read both META-LAWS + all 22 V2-REBUILD-RUBRIC lessons + the full RUNNER-LESSONS before the first credit. `v2_outline 142` → **no open reviewer complaint** (first V2 cut). COMPLAINT LEDGER: none open. Generated the 6 pending beats b05–b10 ($0.80, **0 rerolls**, meter →$662.50); `--check` PASS (10 beats); jesus_face_gate exit 0.
+- **THE BLOCK (FACE-BOARD LAW — one face-board failure blocks reviewer publication).** The born-blind man (the story's spine across b07–b10) is not the same man before vs after the healing: **s07/s08 (pre-healing)** render a ~48–50yo GREY-flecked-bearded man (and s07's eyes are open/dark, not the required MILK-PALE), while **s09/s10 (post-healing)** render a ~32–35yo solid-BLACK-haired man with deep-brown eyes. An age + hair-colour flip at the s08→s09 healing = the exact "that's not the same man" Cameron files.
+- **Root cause = the row-179 class: `BLINDMAN` is TEXT-LOCK-ONLY (`REFS={}`).** The committed `CAST-REF-V2/blindman.jpeg` (canonical build-63 man — lean ~40, black curly hair, dark beard, milk-pale eyes) was never wired to any beat, so prose alone couldn't hold him. Not runner-fixable: wiring the ref is an author-lane `REFS`/beats_v2 edit, regenning s07+s08 = 20% > the 15% COST-LAW reroll budget, and a blind `--redo` re-drifts (row-179 continuity lesson).
+- **Actions ($0.80 total):** QC.md RUNNER PARK note with the minimal touch-once author fix (wire `REFS={"BLINDMAN":…}`, `rm` + regen ONLY b07/b08 to the canonical black-haired man with milk-pale pre-healing eyes, face-board all 4, then assemble+ship). AUTHOR-BOARD row 142 State RUNNING→NEEDS-REBUILD, Claim CLEARED for the author lane, count→8 banked. Appended a RUNNER-LESSONS refinement (text-lock-only recipient flips age/grey across the HEALING state change, not just across locations; an accepted portrait may sit unwired in CAST-REF-V2). **PRESERVE (banked, on-model): s01–s06, s09, s10** — Jesus ONE locked cream-only face throughout (ref-true green/hazel eyes, no halo), TEMPLE (physical lampstand flames) + NIGHTROAD (two figures/one lantern, night floor met, direction correct) verified. Review card UNTOUCHED (old cut stays). NO deploy (nothing new to serve).
+- **Cost:** $0.80, 0 rerolls — 6 first-attempt gens, 8/10 stills banked (only 2 re-pulled by the rebuild). Catching the drift before ship saved a voided approval + a re-cut (COST LAW: a defect Cameron finds is far costlier than a park). Under the $6.10/row average; downward trend holds.
+
+Commit: PARK-COMMIT-BELOW
+
+---
+
 ## 2026-08-13 (Opus runner resume, unattended/headless) — Row 179 STEPHEN'S WITNESS V2 PARKED → NEEDS-REBUILD (NOT shipped): FULL-CUT GATE caught a two-Stephens identity drift before Cameron's eyes; vision fix preserved — Machine A `Dev`, $0/0 rerolls
 
 RESUMED AUTHOR-BOARD row 179 (Acts 7, State RUNNING / Claim A-auto) — a prior autopilot session DIED after finishing generation but before assemble/ship. Session-chain verified at start: prior top entry row 185 many-mansions, ship commit `9c066b665` present in `git log`. Did the RUNNER-LESSONS already-shipped check FIRST: no committed V2 mp4, live review card v179 still the OLD 2026-07-24 cut (`data-hash e3156507`, no realistic-v2 wave) → genuine resume, not shipped.

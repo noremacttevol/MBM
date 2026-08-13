@@ -1,3 +1,34 @@
+## 🅿️ RUNNER RESUME → PARK NEEDS-REBUILD (2026-08-13, Machine A `Dev`, Opus runner, headless) — FACE-BOARD BLOCK: the blind man flips age/grey across the healing; text-lock-only (REFS={}) drift, not runner-fixable
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 142` shows no open reviewer complaint; this is a first V2 cut of the John 8:12 / John 9 story). The block below is an internal FACE-BOARD failure caught BEFORE Cameron — not a re-opened complaint.
+
+RESUMED AUTHOR-BOARD row 142 (State RUNNING / Claim A-auto) — a prior autopilot run DIED after generating s01–s04. Already-shipped check FIRST: **no committed V2 mp4**, live review card v142 still the OLD 2026-07-29 cut (`data-hash 6f8abbf9`, no realistic-v2 wave) → genuine resume, not shipped. Generated the 6 pending beats b05–b10 ($0.80, **0 rerolls**, meter →$662.50); `--check` PASS; jesus_face_gate exit 0.
+
+- **THE BLOCK (FACE-BOARD LAW — one face-board failure blocks reviewer publication).** The born-blind man is the story's spine across b07–b10 and he is **not the same man before vs after the healing**:
+  - **s07 / s08 (pre-healing):** ~48–50yo, **grizzled GREY-flecked beard**, weathered/lined face, greying hair. s07 also renders his eyes **open and dark/seeing** — NOT the milk-pale pre-healing eyes the author QC requires (a brown/seeing eye before b09 is an explicit reject in the light-law note below).
+  - **s09 / s10 (post-healing):** ~32–35yo, **solid BLACK hair + beard**, smooth younger face, deep-brown eyes (correct post-healing colour).
+  - Age + hair-colour flip at the s08→s09 healing = the exact "that's not the same man" Cameron files.
+- **Root cause = the row-179 class: `BLINDMAN` is TEXT-LOCK-ONLY (`REFS = {}`).** The committed `CAST-REF-V2/blindman.jpeg` (the canonical build-63 man — lean ~40, **black curly hair, dark beard, MILK-PALE eyes**, rust patched tunic + grey shoulder cloth) was **never wired as a ref to any beat**, so the prose lock alone could not hold him and he drifted grey/old in the first cluster and young/black in the second. Confirmed on disk: `grep -n "REFS = {}" beats_v2.py`.
+- **Why NOT runner-fixable:** the durable fix is to pin `blindman.jpeg` as a ref on every BLINDMAN beat and regen the off-model cluster — an author-lane `REFS`/beats_v2 edit the runner may not make. It also exceeds the COST-LAW reroll budget (regen s07+s08 = 2/10 = 20% > 15%), and a blind `--redo` of the same text just re-drifts (row-179 continuity lesson). → **PARK NEEDS-REBUILD**, do not blow the budget, do not ship over a face-board failure.
+
+**PRESERVE (do NOT regen — banked, on-model, verified this session):**
+- **All Jesus frames** (s01 temple wide, s02 he-offered-himself, s07/s08/s09/s10): ONE locked V2 face throughout — dark wavy hair, full dark beard, cream-only (crowd browns/greys), ref-true green/hazel eyes (lesson 20, do NOT brown-edit), no halo/glow, ordinary scale, clean hands.
+- **TEMPLE** honored (limestone courts, columned porticoes, golden festival lampstands with real physical flames; light physical, none on Jesus).
+- **NIGHTROAD** s05/s06: two figures / one low lantern / dark real beyond the ring, faces warm and readable (lesson-22 night floor met), physical flame, no halo; s06 direction correct (bearer AHEAD, follower stepping into the lit footprints).
+- **Blind man s09/s10** (young black-haired, deep-brown post-healing eyes): on the young end of the canonical ref and internally consistent with each other; the casting-out is COLD not violent (turned backs, dismissing hands, Jesus arriving at his shoulder), and the b10 sunrise walk is correct (real dawn ahead, no light effects).
+
+**AUTHOR MINIMAL TOUCH-ONCE FIX (regen 2 beats only, then re-gate the full cut):**
+1. Wire the ref: `REFS = {"BLINDMAN": "CAST-REF-V2/blindman.jpeg"}` in `beats_v2.py` (the portrait already exists on disk).
+2. Delete the off-model cluster: `rm assets/s07-later-as-he-met-a.jpeg assets/s08-he-did-not-leave-the.jpeg`.
+3. Regen ONLY those two against the wired ref:
+   `cd media-production-v2 && python3 v2_gen_api.py build-142-light-of-the-world --only v2-r142-b07 v2-r142-b08 --ceiling <meter + 2*0.134*1.5 + 25>` — the gen log must print `[+1 char ref: BLINDMAN]` on each. Target ~40yo **black curly hair / dark beard**, and **MILK-PALE eyes** on b07/b08 (pre-healing); keep the discreet fingertip anointing in b08 (earth-dust posture only, nothing clinical/fluid).
+4. Face-board all four blindman beats (b07–b10) side-by-side against `blindman.jpeg` — one man, dark-haired throughout; verify the eye-state flip (pale b07/b08 → deep-brown b09/b10). s09/s10 are close to canonical; nudge them only if the four still don't read as one man.
+5. Then the normal RUNNER path: `v2_assemble.py 142` (must print AUDIO REBUILD PASS; `AUDIO_FROM_V1_SEGMENTS=True` is already set), FULL-CUT GATE per-rendered-frame 10/10 + card, ship + deploy + live-verify.
+
+**Cost this session:** $0.80, 0 rerolls (6 first-attempt gens; 8/10 stills banked, only 2 re-pulled by the rebuild). Catching the drift before ship saved a voided approval + a re-cut (COST LAW: a defect Cameron finds is far costlier than a park). Review card UNTOUCHED (old cut stays; the redo is not ready). NO deploy (nothing new to serve).
+
+---
+
 ## ✅ AUDIO-FIX DONE → AUTHORED / Audio OK / Ready (2026-08-11, Machine A `Dev`, audio lane)
 
 STALE-V1 class, resolved at **$0, zero Gemini, zero re-voice** — audio only; no
