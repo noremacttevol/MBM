@@ -1,3 +1,38 @@
+## 2026-08-13 (Fable 5, main session, pt.2) — 72 NEWLY APPROVED ROWS PUBLISHED: 116 approved cuts live in app, gate PASS, every paste surface regenerated — Machine A `Dev`
+
+**Commit:** (this commit)
+
+Cameron: "a lot more approved... they should be put on the app as well" (later:
+117 — see wall note). Live dump QUOTA-WALLED (Firestore RESOURCE_EXHAUSTED), so
+both refresh-postable.py and publish_ledger.py gained an AGE-GATED fallback to
+autopilot's validated mirror `media-production-v2/.approvals.json` (<6h old or
+refuse — approvals still fail closed). Mirror (23-55 min old, approvedAt up to
+2026-08-13): 121 approved → **116 byte-verified postable** (5 excluded: cut
+changed since approval — 121/129/137/151/170 await Cameron's re-review).
+Also fixed the NEW reviewer src shape (`raw.githubusercontent.com/…/MBM/main/…`)
+in refresh-postable + publish_ledger card parsers — it had crashed the refresh
+and misclassified row 62 as old-era v1.1 (event dropped + re-synced → v2.1).
+
+**Published the 72 new rows** (backups kept): batch deploy 8-per with quota
+prunes; live sha1-verify vs exports — 3 early "mismatches" (71/72/76) were
+stale CDN edge cache, MATCH with cache-buster; origin exact on all 116.
+PRODUCED_VIDEO_IDS rebuilt = exactly the 116 (72 restored post-purge). 72
+gallery thumbs generated (ffmpeg poster frames). **scripts/audit_public_videos
+--live: PASS, all six checks** (gate hardened: HEAD retries on 5xx/timeout,
+60s; verification unchanged). OTA EAS group `d78ac3dd-0d06-4e6a-906c-6669b2b41528`
+runtime 1.1.0. Ledger: 72 v2.1 events (v1.1 history preserved). QUEUE ticked
+116; tracker App chips seeded 116.
+
+**Paste surfaces regenerated for all:** POST-QUEUE +72 entries (authored
+captions), YOUTUBE-UPLOAD-SHEET 116, post-kit.html 116 cards, per-video NNN.md
+now 116 APPROVED / 84 DRAFT (all 200 exist), 144 branded thumbs built. "word
+for word" sweep: clean (only the law text quotes it).
+
+**Cameron's 117th approval sits BEHIND THE QUOTA WALL** (mirror predates it;
+likely a re-approval of an excluded row). Retry dump after the ~3 AM quota
+reset, then rerun the loop: refresh-postable → copy export → deploy → gate →
+OTA if ids change → regenerate surfaces.
+
 ## 2026-08-12 (Fable 5, main session) — PER-VIDEO PUBLISH FILES for ALL 200: social/per-video/001-200.md, one numbered file per video, every platform's paste text — Machine A `Dev`
 
 **Commit:** (this commit)

@@ -64,6 +64,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/10.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "4bfdd401acf030fd8af6207250af6db954cfca8b",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "184cdceebe4bf270f761060cb520f44aea330c08",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/10.mp4"
+            }
+          ]
         }
       ]
     },
@@ -77,6 +90,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "fa5a73f6da715579b061b1852664f074d44109b3",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/100.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "eaabd5f4a8f307e93317c5dd15ad232f44790d57",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "c38b43246f7cd0d5fe2ead62e62ccebfee74672b",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -134,6 +160,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/102.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "05be89c7126d5e89b3866f5fdd9391b3262fc216",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "14c85c24328c30077b8e112de9e92b8ac97a2af1",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/102.mp4"
+            }
+          ]
         }
       ]
     },
@@ -153,6 +192,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/103.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "1a57fc171ab446d020a60b47d17760b000b52de7",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "5b61d9c8437bf374ad51593fc7781d3eae289c6e",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/103.mp4"
+            }
+          ]
         }
       ]
     },
@@ -166,6 +218,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "dbec407c5a0db18f85e18df75702cb87e6b74c8c",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/104.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "1e9b53ac22d16a34a75ee855ad8e7419c7d83561",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "99fd52790043740e9b727b3d97b2d97d607114b3",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -217,19 +282,61 @@
       "open_fix": null,
       "slug": "build-107-john-baptist-doubt",
       "title": "John the Baptist's Doubt",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "45161adfeda61cd6fe175698b79edc0854f61bc8",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "60829838f802cf0af2ca7cb5057c6cb2dda3ea55",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/107.mp4"
+            }
+          ]
+        }
+      ]
     },
     "108": {
       "open_fix": null,
       "slug": "build-108-my-sheep-hear-my-voice",
       "title": "My Sheep Hear My Voice",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "2047e975880a66af70c3e68094576107ec02b062",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "2630cdc88016f984e9090ccebcb1f2d9d271e5fb",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/108.mp4"
+            }
+          ]
+        }
+      ]
     },
     "109": {
       "open_fix": null,
       "slug": "build-109-ask-seek-knock",
       "title": "Ask, Seek, Knock",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "c7adeadbda7191b2f496518a4f82eaabdac3087e",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "5d23676bc7ce6da8d7edfad898fe67f221df1d13",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/109.mp4"
+            }
+          ]
+        }
+      ]
     },
     "11": {
       "open_fix": null,
@@ -241,6 +348,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "7329ff2c1eb9fb687e37b40e04f0c2d7c5d021d0",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/11.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "8c06b9e671e631e625207d627223560c0c91e78b",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "23ff4c8c11ce2f8616aa41197fd0090ea50862de",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -266,6 +386,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/110.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "97d01e4f6395a28a1d58899e11bb842f322385ef",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "9a40a903cbd45c97cada7833ecb9226b2233cc7f",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/110.mp4"
+            }
+          ]
         }
       ]
     },
@@ -273,19 +406,61 @@
       "open_fix": null,
       "slug": "build-111-lilies-and-sparrows",
       "title": "Lilies and Sparrows",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "a6d65d967074eb8732ed2fb2f6f9828004b24bad",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "d46ee61db1024d366c7b59aff56bda469104095f",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/111.mp4"
+            }
+          ]
+        }
+      ]
     },
     "112": {
       "open_fix": null,
       "slug": "build-112-beatitudes",
       "title": "The Beatitudes",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "134359ad8c3a751694b93ae073ff81bb5d8957b2",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "6cc3923662f587638afc816a728eb6636d6627df",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/112.mp4"
+            }
+          ]
+        }
+      ]
     },
     "113": {
       "open_fix": null,
       "slug": "build-113-where-art-thou",
       "title": "Where Art Thou?",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "a441495bc572aea584cf1259f7c8b5d674d92a55",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "1932a5b2fc4fffe0f60a1fb7057a3c722ac7c30b",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/113.mp4"
+            }
+          ]
+        }
+      ]
     },
     "114": {
       "open_fix": null,
@@ -399,7 +574,21 @@
       "open_fix": null,
       "slug": "build-119-fourth-man-in-fire",
       "title": "The Fourth Man in the Fire",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "3ab3fd572607e330c7c818d4aab34c50426d19d9",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "c867848b0877915d2cd3e600cab6adb91d419999",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/119.mp4"
+            }
+          ]
+        }
+      ]
     },
     "12": {
       "open_fix": null,
@@ -449,6 +638,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/120.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "3ccdac4f362bf3c9ebd9b045bffb75e1e3b5ead2",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "a0f343d6f45211efe35a59b91ce29a09c389827c",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/120.mp4"
+            }
+          ]
         }
       ]
     },
@@ -468,13 +670,41 @@
       "open_fix": null,
       "slug": "build-123-golden-rule",
       "title": "The Golden Rule",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "466e34543850522da47f67fb256b7a447c735407",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "f1017c49cfede75130f861842c6d3db6fd80553e",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/123.mp4"
+            }
+          ]
+        }
+      ]
     },
     "124": {
       "open_fix": null,
       "slug": "build-124-love-your-enemies",
       "title": "Love Your Enemies",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "1b52a3031f52b49a9725e57f80cd17c13723d88e",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "29fb8de44dd9f770979a8bcaaa43851a545a2a3e",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/124.mp4"
+            }
+          ]
+        }
+      ]
     },
     "125": {
       "open_fix": null,
@@ -492,7 +722,21 @@
       "open_fix": null,
       "slug": "build-127-the-strait-gate",
       "title": "The Strait Gate",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "a85a2b59213973289d07cf708ee3731f5618dcd2",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "189086cbb20bc1b3f70217994fcf51fb819c0f1c",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/127.mp4"
+            }
+          ]
+        }
+      ]
     },
     "128": {
       "open_fix": null,
@@ -510,25 +754,81 @@
       "open_fix": null,
       "slug": "build-13-roof",
       "title": "The Man Through the Roof",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "a653f820a25dc0bf2ceca69090a6fb4c356f0e37",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "b6bd350892a9fb1d8b3d5deaf3bdb0b6b8fd39ad",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/13.mp4"
+            }
+          ]
+        }
+      ]
     },
     "130": {
       "open_fix": null,
       "slug": "build-130-what-manner-of-spirit",
       "title": "What Manner of Spirit",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "782337172ab95a551a955ce4469ab234adc57d52",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "0976982d5b04f5893dfc6eb8202c8ce4faa59ad0",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/130.mp4"
+            }
+          ]
+        }
+      ]
     },
     "131": {
       "open_fix": null,
       "slug": "build-131-scribe-near-the-kingdom",
       "title": "Scribe Near the Kingdom",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "af82be715c4b4e04f00ba3441219698dc3f7c62b",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "745a3ff9d40fc7a622701b0657946f2e0bbf69fc",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/131.mp4"
+            }
+          ]
+        }
+      ]
     },
     "132": {
       "open_fix": null,
       "slug": "build-132-forbid-him-not",
       "title": "Forbid Him Not",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "5bd6d463100f903a40d1550f49d0677ee0b43573",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "f4a5e5f5db2f40588ee083f3f79a8be7b8759dd8",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/132.mp4"
+            }
+          ]
+        }
+      ]
     },
     "133": {
       "open_fix": null,
@@ -760,7 +1060,21 @@
       "open_fix": null,
       "slug": "build-148-ruth-and-the-redeemer",
       "title": "Ruth and the Redeemer",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "18948010b68ee106d7ddcd0562b4b0652b143994",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "6dfc7f93a9dd4477fe556682023041bac53b4f27",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/148.mp4"
+            }
+          ]
+        }
+      ]
     },
     "149": {
       "open_fix": null,
@@ -778,6 +1092,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "5569f0217370da6dfb3e2ce6a33a78136722a862",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/15.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "d6602059691797cc688a417e1db6e5cec4111252",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "6520e86eac2ddc7f42f902808e01c405d28c8b5e",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -915,6 +1242,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/16.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "063c19ef372db8cbc701b2695af303c167f8ab5a",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "2d18e9b135cce005f91834122600ff1bc4018cff",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/16.mp4"
+            }
+          ]
         }
       ]
     },
@@ -982,7 +1322,21 @@
       "open_fix": null,
       "slug": "build-17-lazarus",
       "title": "Lazarus",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "10bcc291203a2dcf62724b404151115ad56b977b",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "c4f86b4b05169db8cef3e5f6875d6a8b10cd8ab8",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/17.mp4"
+            }
+          ]
+        }
+      ]
     },
     "170": {
       "open_fix": null,
@@ -1060,6 +1414,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/18.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "53938e77c8cb868cdfc2ee02bc810da29cf1f74c",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "1a9c6df7e5b290e3c4759e25f90463be7e9c8b95",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/18.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1127,7 +1494,21 @@
       "open_fix": null,
       "slug": "build-19-shore",
       "title": "Breakfast on the Shore",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "cdaaaf4c13a30c404284f47742939e65d8dcd01c",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "4ed4f679dfb4e4c3e3b75f18a99752050b6bac02",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/19.mp4"
+            }
+          ]
+        }
+      ]
     },
     "190": {
       "open_fix": null,
@@ -1324,6 +1705,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/22.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "f25cbd023b49649308d07de9f51d85597586593f",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "cc516f41aac48695eff836b367e5e5d622efd954",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/22.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1465,6 +1859,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "13cfa31d7633549bcdb69baf177c6faee4f25f21",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/27.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "efa7eede90a3c2c3fcabf3bd88b7956f458adeff",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "d2c95afa27010f144ff75c94306a48b1b9e2fe41",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1622,6 +2029,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/31.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "b6be9e209550224604219ec8f5b5c811680f6752",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "1ef84723a2f6297999ff7d9da567e162a6ad3bcb",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/31.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1655,6 +2075,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "0becf741b8e722ac59e746016307e310f400c5bc",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/33.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "7beb89329fa84ecfc6a7c58fa1c80032ddd8a075",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "e24b0d8eb06798ee0c6fe46b5ecc5d4de40a879a",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1840,6 +2273,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/39.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "20593af33fb8113166dbbb90e70256453f903a95",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "3deb9d2b160540ab2fdb77d256a5fcb494009496",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/39.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1907,6 +2353,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/40.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "debc5211296535651f797bc1119359b5aa201766",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "41f9fbd3db6d40bfa663392a8868346e8f7954b3",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/40.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1940,6 +2399,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "151dfc3dd827c1f9acf2fed0cf437167ce52663a",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/42.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "fae898d9907629005b6c9b65407992cdb1b7a4f5",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "16ebbf46214b69044640070423b9b8375919404f",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -2016,6 +2488,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/45.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "e8ef51c9c53a1e59b72f127dcf8cefcc2580179d",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "f33cd515d002621e75949aff5ec9590fadefbe62",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/45.mp4"
+            }
+          ]
         }
       ]
     },
@@ -2075,7 +2560,21 @@
       "open_fix": null,
       "slug": "build-48-new-wine-old-bottles",
       "title": "New Wine, Old Bottles",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "e5abfd1003c2e5f659d55159a5284e392cf35ba6",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "f7a391d7f624287913a05bb7b1d530150acc1438",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/48.mp4"
+            }
+          ]
+        }
+      ]
     },
     "49": {
       "open_fix": null,
@@ -2087,6 +2586,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "8261ad310b45d694e2ca0affb624f756e091db83",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/49.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "c283a9ebeed349637b9670b27e2e0ee6f91655ba",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "f5784e523b1a9cb5d80130cc8f20a432b03dc80c",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -2148,19 +2660,61 @@
       "open_fix": null,
       "slug": "build-50-noblemans-son",
       "title": "The Nobleman's Son",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "b1c9ec8946365965b9091053639be395b4c46e52",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "0934af02e07877718cee21443f6788909d581c02",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/50.mp4"
+            }
+          ]
+        }
+      ]
     },
     "51": {
       "open_fix": null,
       "slug": "build-51-first-catch-of-fish",
       "title": "The First Catch of Fish",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "672cc5b027b75d76f1fbb3db6be2005bde551957",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "fc9576dc59647d582e3b3672fd51f520df869f4d",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/51.mp4"
+            }
+          ]
+        }
+      ]
     },
     "52": {
       "open_fix": null,
       "slug": "build-52-demoniac-synagogue",
       "title": "The Demoniac in the Synagogue",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "18386032a3de2e194a6eb4fa2c2b85951907ddd0",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "87866f895a05df86a4910320a12a80151560dc0e",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/52.mp4"
+            }
+          ]
+        }
+      ]
     },
     "53": {
       "open_fix": null,
@@ -2198,13 +2752,41 @@
       "open_fix": null,
       "slug": "build-54-the-leper",
       "title": "The Leper Made Clean",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "02377254558e0dec518903df36f9b9c81ed68c4d",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "b10920c298a9684de5cc161bd1da2b1c941d55d6",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/54.mp4"
+            }
+          ]
+        }
+      ]
     },
     "55": {
       "open_fix": null,
       "slug": "build-55-withered-hand",
       "title": "The Withered Hand",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "a69becfab73b75fcebf7b8ec9a5a60937be70638",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "4718eb0d749976769709a2a5ac2d845d96b296e9",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/55.mp4"
+            }
+          ]
+        }
+      ]
     },
     "56": {
       "open_fix": null,
@@ -2294,6 +2876,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/59.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "a3f82c4971b0658e50814968316c88a7ab040fb1",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "2063be05d89aeb8ec7a8d88790f6cbd1430662cc",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/59.mp4"
+            }
+          ]
         }
       ]
     },
@@ -2349,19 +2944,60 @@
       "open_fix": null,
       "slug": "build-60-gerasene-demoniac",
       "title": "The Gerasene Demoniac",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "64a3290763d1992b3050cd2f89f55965fcf267c8",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "56fee63908649cb5c467361d042ebde584811560",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/60.mp4"
+            }
+          ]
+        }
+      ]
     },
     "61": {
       "open_fix": null,
       "slug": "build-61-syrophoenician-woman",
       "title": "The Syrophoenician Woman",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "fdb4e58e5f8bd9968ab2fd781c7cfcb67ca3c1c3",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "7edb3502dc8f634727addd9dd35bd9be88fb7cfe",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/61.mp4"
+            }
+          ]
+        }
+      ]
     },
     "62": {
       "open_fix": null,
       "slug": "build-62-ephphatha",
       "title": "Ephphatha: the Deaf Man",
-      "versions": []
+      "versions": [
+        {
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "63dd0601bec9b38c85cdb1f1b54a3bef6bdd6187",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/62.mp4"
+            }
+          ]
+        }
+      ]
     },
     "63": {
       "open_fix": null,
@@ -2393,19 +3029,61 @@
       "open_fix": null,
       "slug": "build-65-help-mine-unbelief",
       "title": "Help Mine Unbelief",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "37cb3be0e984d63f259e81762d39e86ca73c6696",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "4f361c1925f337f269f00bd4c1837d4db97a17fb",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/65.mp4"
+            }
+          ]
+        }
+      ]
     },
     "66": {
       "open_fix": null,
       "slug": "build-66-malchus-ear",
       "title": "Malchus Ear",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "aa5cbea887b003a0c40d4a58699cf90ac42394b3",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "0e6ae5b5ae49eeb22e83d98aaabe9110cc2836b4",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/66.mp4"
+            }
+          ]
+        }
+      ]
     },
     "67": {
       "open_fix": null,
       "slug": "build-67-the-transfiguration",
       "title": "The Transfiguration",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "51c269513740a21ef2fc13c939f0ad1727e916c4",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "8525d0edb397bd48cb5a091292b7e50a08ff09e6",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/67.mp4"
+            }
+          ]
+        }
+      ]
     },
     "68": {
       "open_fix": null,
@@ -2431,7 +3109,21 @@
       "open_fix": null,
       "slug": "build-69-baptism",
       "title": "Baptism of Jesus",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "7a6616e22fde4a05cdfb6c6d0b74efe36d8cddc8",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "5f92fcc83c64fb44118b92aa04035ea2692910df",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/69.mp4"
+            }
+          ]
+        }
+      ]
     },
     "7": {
       "open_fix": null,
@@ -2473,31 +3165,101 @@
       "open_fix": null,
       "slug": "build-70-temptations",
       "title": "The Temptations",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "4414d1d1a960b801cf72346f865f7a05e7579347",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "e2f3bf4295dd3a975bb58f1612ce5a502d166fbc",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/70.mp4"
+            }
+          ]
+        }
+      ]
     },
     "71": {
       "open_fix": null,
       "slug": "build-71-the-great-commission",
       "title": "The Great Commission",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "fb156d05ae434f489fc5ac327c4779b9ce4127bc",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "549ac3dd07226c929264ded85c1dc62052fb99d3",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/71.mp4"
+            }
+          ]
+        }
+      ]
     },
     "72": {
       "open_fix": null,
       "slug": "build-72-calling-matthew",
       "title": "Calling Matthew",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "0b6a38acf8ac05da808012c4fcf3e22879b67c2b",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "c2770cda2cb237f486358d71ee662729a6fec07b",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/72.mp4"
+            }
+          ]
+        }
+      ]
     },
     "73": {
       "open_fix": null,
       "slug": "build-73-this-day-fulfilled",
       "title": "This Day Fulfilled",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "9f7514fe2d53ede8df3d986b0c53c0ca9be9cd4e",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "84f019cdf32fca43dc6b6aee946b95057efad66d",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/73.mp4"
+            }
+          ]
+        }
+      ]
     },
     "74": {
       "open_fix": null,
       "slug": "build-74-woman-washed-his-feet",
       "title": "The Woman Who Washed His Feet",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "ef83f61a3e39be62c13a45fe7bc9634ae647db45",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "badd1e88704a396400a2a5fb48a11754d2d05658",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/74.mp4"
+            }
+          ]
+        }
+      ]
     },
     "75": {
       "open_fix": null,
@@ -2543,13 +3305,41 @@
       "open_fix": null,
       "slug": "build-77-widows-mite",
       "title": "The Widows Mite",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "998a0d53f513cf785730f014601dff726fc49414",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "c31557313dafabc3e831c720e32cd534fcd97d40",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/77.mp4"
+            }
+          ]
+        }
+      ]
     },
     "78": {
       "open_fix": null,
       "slug": "build-78-who-is-my-mother",
       "title": "Who Is My Mother",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "573fb16a24453240485d2eff664dd279602beda9",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "0e0829f57dc69c8f88c0ff9873bf203df9398cb3",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/78.mp4"
+            }
+          ]
+        }
+      ]
     },
     "79": {
       "open_fix": null,
@@ -2623,7 +3413,21 @@
       "open_fix": null,
       "slug": "build-80-come-unto-me",
       "title": "Come Unto Me",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "90028b507040de1cbf0cfa1fe127b57178d05d8e",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "d0cba1dbb8f4b443950f81acde1dc0aeac69d35a",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/80.mp4"
+            }
+          ]
+        }
+      ]
     },
     "81": {
       "open_fix": null,
@@ -2649,19 +3453,61 @@
       "open_fix": null,
       "slug": "build-82-anointing-at-bethany",
       "title": "Anointing At Bethany",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "2c7105082e54328ba97b7ed2993d76a6b8a249f5",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "4031fca10953f3c053861d1bb2d3e773c3a2b7f1",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/82.mp4"
+            }
+          ]
+        }
+      ]
     },
     "83": {
       "open_fix": null,
       "slug": "build-83-weeping-over-jerusalem",
       "title": "Weeping Over Jerusalem",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "8f193f19bcd3eb6786c7dc06fcf5def4f2da224e",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "ee8944305fe03681a905bc9a81f491fbf5ecb0ee",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/83.mp4"
+            }
+          ]
+        }
+      ]
     },
     "84": {
       "open_fix": null,
       "slug": "build-84-no-room-manger",
       "title": "No Room: the Manger",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "3d6d8bd1ac99b6f3560a172f0950127a87cb579c",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "3c049323aa0b2162a1ea2b0f11ca465a1b6d468f",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/84.mp4"
+            }
+          ]
+        }
+      ]
     },
     "85": {
       "open_fix": null,
@@ -2687,19 +3533,61 @@
       "open_fix": null,
       "slug": "build-86-the-wise-men",
       "title": "The Wise Men",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "2eb7959ad8f2ae3ee32c3371d3132c9a4f606c64",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "48fe5016a44b27f7873f0a1f9a3d91213d86f05c",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/86.mp4"
+            }
+          ]
+        }
+      ]
     },
     "87": {
       "open_fix": null,
       "slug": "build-87-boy-in-the-temple",
       "title": "Boy in the Temple",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "88c25ce819808599efebff73ddd14b9db6263884",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "573cf95082a3deb464ffb185be13c1783372c929",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/87.mp4"
+            }
+          ]
+        }
+      ]
     },
     "88": {
       "open_fix": null,
       "slug": "build-88-triumphal-entry",
       "title": "Triumphal Entry",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "06de56f70566a9c31fe335bfabf2bd4e5b6b9115",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "3b72e8464cbada2f48d27bdb86e6716843b65979",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/88.mp4"
+            }
+          ]
+        }
+      ]
     },
     "89": {
       "open_fix": null,
@@ -2759,7 +3647,21 @@
       "open_fix": null,
       "slug": "build-90-washing-feet",
       "title": "Washing the Disciples Feet",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "5674e1e692a217588d109a5b893dd76046968664",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "e9d9eb61541ca0b3d2eda9759acf0aec09093e32",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/90.mp4"
+            }
+          ]
+        }
+      ]
     },
     "91": {
       "open_fix": null,
@@ -2797,6 +3699,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/92.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "6089aa8cc1557ac7e1d04ee636da3a239ab6bfb7",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "3526ff409549b4da008a88756eb53dc96323c876",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/92.mp4"
+            }
+          ]
         }
       ]
     },
@@ -2804,7 +3719,21 @@
       "open_fix": null,
       "slug": "build-93-barabbas-goes-free",
       "title": "Barabbas Goes Free",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "693a3f5e258d84371217324a8cb012b7c8c04f0e",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "b7e198763b8ebd75e3bed55301f21db4b850383e",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/93.mp4"
+            }
+          ]
+        }
+      ]
     },
     "94": {
       "open_fix": null,
@@ -2822,19 +3751,61 @@
       "open_fix": null,
       "slug": "build-96-it-is-finished",
       "title": "It Is Finished",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "e14f477cffceeead8937f5cffab905a494ce70fc",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "c0bbbee7e8272b6a3bd1d5747f55d38254c09075",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/96.mp4"
+            }
+          ]
+        }
+      ]
     },
     "97": {
       "open_fix": null,
       "slug": "build-97-the-empty-tomb",
       "title": "The Empty Tomb",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "55e991d177ae804f087ed248db81382985f1f97d",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "135213fa63baea92583d83c7fcb77bdf012f380f",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/97.mp4"
+            }
+          ]
+        }
+      ]
     },
     "98": {
       "open_fix": null,
       "slug": "build-98-mary-her-name",
       "title": "Mary her Name",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "fac7c37c1ddef1f023a4f0c434a2de97c51c1fd7",
+          "date": "2026-08-13",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "27c2b7200e681126c8c9ab7b8e51e18fafd4333f",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/98.mp4"
+            }
+          ]
+        }
+      ]
     },
     "99": {
       "open_fix": null,
@@ -2852,9 +3823,22 @@
               "url": "https://milk-b4-meat.web.app/story-videos/99.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "589168bca0f708fa18dad5885614fea7f9fc2609",
+          "date": "2026-08-13",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "5812fd9bfc39d3a2c0e2fccabe62ea7b8b8f421a",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/99.mp4"
+            }
+          ]
         }
       ]
     }
   },
-  "updated": "2026-08-12T20:35:57"
+  "updated": "2026-08-13T01:10:09"
 }

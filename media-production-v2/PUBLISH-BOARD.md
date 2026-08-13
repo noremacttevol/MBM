@@ -7,21 +7,20 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-12T20:35:57_
+_Last sync: 2026-08-13T01:10:09_
 
 ## Summary
 
-- **APPROVED — not published** — 72 row(s)
 - **BUILDING** — 71 row(s)
-- **LIVE — current** — 27 row(s)
-- **LIVE — current (approved cut)** — 17 row(s)
+- **LIVE — current** — 2 row(s)
+- **LIVE — current (approved cut)** — 114 row(s)
 - **ON REVIEWER — awaiting Cameron** — 13 row(s)
 
 ## The rows
 
 | # | Story | Approved | Live | Posted where | State | Next step |
 |---|---|---|---|---|---|---|
-| 1 | Woman Who Touched His Cloak | ✅ 2026-08-13 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ | — |
+| 1 | Woman Who Touched His Cloak | ✅ 2026-08-13 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 2 | The Prodigal Son | ✅ 2026-08-01 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 3 | Zacchaeus | ✅ 2026-08-02 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 4 | Nicodemus at Night | ✅ 2026-08-03 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
@@ -29,130 +28,130 @@ _Last sync: 2026-08-12T20:35:57_
 | 6 | The Two Sons | ✅ 2026-08-02 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 7 | Peter Walks on Water | ✅ 2026-08-02 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 8 | The Lost Coin | ✅ 2026-08-02 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 9 | The Rich Young Ruler | ✅ 2026-08-07 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ | — |
-| 10 | The Woman at the Well | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 11 | Calming the Storm | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
+| 9 | The Rich Young Ruler | ✅ 2026-08-07 | v2.1 | app-gallery, youtube, facebook, tiktok, instagram, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 10 | The Woman at the Well | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 11 | Calming the Storm | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 12 | Blind Bartimaeus | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 13 | The Man Through the Roof | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
+| 13 | The Man Through the Roof | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 14 | The Ten Lepers | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 15 | The Centurion's Servant | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 16 | Mary and Martha | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 17 | Lazarus | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 18 | The Road to Emmaus | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 19 | Breakfast on the Shore | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
+| 15 | The Centurion's Servant | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 16 | Mary and Martha | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 17 | Lazarus | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 18 | The Road to Emmaus | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 19 | Breakfast on the Shore | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 20 | The Good Samaritan | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 21 | The Lost Sheep | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 22 | The Unmerciful Servant | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
+| 22 | The Unmerciful Servant | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 23 | The Workers in the Vineyard | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 24 | The Sower | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 25 | The Wheat and the Tares | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 26 | The Mustard Seed | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 27 | The Leaven | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 28 | The Hidden Treasure | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 29 | The Pearl of Great Price | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 30 | The Net | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 31 | The Ten Virgins | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
+| 25 | The Wheat and the Tares | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 26 | The Mustard Seed | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 27 | The Leaven | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 28 | The Hidden Treasure | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 29 | The Pearl of Great Price | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 30 | The Net | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 31 | The Ten Virgins | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 32 | The Talents | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 33 | The Sheep and the Goats | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
+| 33 | The Sheep and the Goats | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 34 | The Rich Fool | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
 | 35 | The Great Banquet | ✅ 2026-08-05 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 36 | The Shrewd Steward | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 37 | The Rich Man and Lazarus | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 38 | The Persistent Widow | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 39 | The Pharisee and the Publican | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 40 | The Friend at Midnight | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 41 | Counting the Cost | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 42 | The Barren Fig Tree Spared | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 43 | The Wedding Garment | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
+| 39 | The Pharisee and the Publican | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 40 | The Friend at Midnight | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 41 | Counting the Cost | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 42 | The Barren Fig Tree Spared | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 43 | The Wedding Garment | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 44 | Pentecost | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 45 | The Wicked Tenants | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 46 | The Seed Growing Secretly | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 47 | Houses on Rock and Sand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 48 | New Wine, Old Bottles | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 49 | Water to Wine at Cana | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 50 | The Nobleman's Son | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 51 | The First Catch of Fish | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 52 | The Demoniac in the Synagogue | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 53 | Peter's Mother-in-Law | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 54 | The Leper Made Clean | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 55 | The Withered Hand | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 56 | The Widow of Nain's Son | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 57 | Jairus's Daughter | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 58 | Feeding the Five Thousand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 59 | Feeding the Four Thousand | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 60 | The Gerasene Demoniac | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 61 | The Syrophoenician Woman | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 62 | Ephphatha: the Deaf Man | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 45 | The Wicked Tenants | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 46 | The Seed Growing Secretly | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 47 | Houses on Rock and Sand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 48 | New Wine, Old Bottles | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 49 | Water to Wine at Cana | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 50 | The Nobleman's Son | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 51 | The First Catch of Fish | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 52 | The Demoniac in the Synagogue | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 53 | Peter's Mother-in-Law | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 54 | The Leper Made Clean | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 55 | The Withered Hand | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 56 | The Widow of Nain's Son | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 57 | Jairus's Daughter | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 58 | Feeding the Five Thousand | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 59 | Feeding the Four Thousand | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 60 | The Gerasene Demoniac | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 61 | The Syrophoenician Woman | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 62 | Ephphatha: the Deaf Man | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 63 | The Man Born Blind | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 64 | The Pool of Bethesda | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 65 | Help Mine Unbelief | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 66 | Malchus Ear | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 67 | The Transfiguration | ✅ 2026-08-11 | — | — | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 69 | Baptism of Jesus | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 70 | The Temptations | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 71 | The Great Commission | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 72 | Calling Matthew | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 73 | This Day Fulfilled | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 74 | The Woman Who Washed His Feet | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 75 | The Woman Taken in Adultery | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 76 | Suffer the Little Children | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 77 | The Widows Mite | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 78 | Who Is My Mother | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 79 | The Seventy Sent | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 80 | Come Unto Me | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 81 | Render Unto Caesar | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 82 | Anointing At Bethany | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 83 | Weeping Over Jerusalem | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 84 | No Room: the Manger | ✅ 2026-08-13 | — | — | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
-| 85 | Shepherds and Angels | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 86 | The Wise Men | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 87 | Boy in the Temple | ✅ 2026-08-13 | — | — | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
-| 88 | Triumphal Entry | ✅ 2026-08-13 | — | — | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
+| 64 | The Pool of Bethesda | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 65 | Help Mine Unbelief | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 66 | Malchus Ear | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 67 | The Transfiguration | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 68 | Multitudes Mountain | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 69 | Baptism of Jesus | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 70 | The Temptations | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 71 | The Great Commission | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 72 | Calling Matthew | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 73 | This Day Fulfilled | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 74 | The Woman Who Washed His Feet | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 75 | The Woman Taken in Adultery | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 76 | Suffer the Little Children | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 77 | The Widows Mite | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 78 | Who Is My Mother | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 79 | The Seventy Sent | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 80 | Come Unto Me | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 81 | Render Unto Caesar | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 82 | Anointing At Bethany | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 83 | Weeping Over Jerusalem | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 84 | No Room: the Manger | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 85 | Shepherds and Angels | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 86 | The Wise Men | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 87 | Boy in the Temple | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 88 | Triumphal Entry | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 89 | The Last Supper | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 90 | Washing the Disciples Feet | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 91 | Gethsemane | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 92 | Peters Denial | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 93 | Barabbas Goes Free | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 90 | Washing the Disciples Feet | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 91 | Gethsemane | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 92 | Peters Denial | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 93 | Barabbas Goes Free | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 94 | Father Forgive Them | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 95 | Thief on the Cross | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 96 | It Is Finished | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 97 | The Empty Tomb | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 98 | Mary her Name | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 99 | Flesh and Bone Thomas | ✅ 2026-08-07 | v1.1 | app-gallery | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 100 | The Ascension | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 101 | The Still Small Voice | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
-| 102 | Jacob's Ladder | ✅ 2026-08-08 | v1.1 | app-gallery | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 103 | Peter's Confession | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 104 | The Boy Samuel | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 96 | It Is Finished | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 97 | The Empty Tomb | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 98 | Mary her Name | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 99 | Flesh and Bone Thomas | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 100 | The Ascension | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 101 | The Still Small Voice | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 102 | Jacob's Ladder | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 103 | Peter's Confession | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 104 | The Boy Samuel | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
-| 107 | John the Baptist's Doubt | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 108 | My Sheep Hear My Voice | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 109 | Ask, Seek, Knock | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 110 | The Lord's Prayer | ✅ 2026-08-11 | v1.1 | app-gallery | APPROVED 2026-08-11 — not published | publish to app-gallery (becomes v2.1) |
-| 111 | Lilies and Sparrows | ✅ 2026-08-08 | — | — | APPROVED 2026-08-08 — not published | publish to app-gallery (becomes v2.1) |
-| 112 | The Beatitudes | ✅ 2026-08-07 | — | — | APPROVED 2026-08-07 — not published | publish to app-gallery (becomes v2.1) |
-| 113 | Where Art Thou? | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 114 | Abraham Pleads for Sodom | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ | — |
+| 107 | John the Baptist's Doubt | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 108 | My Sheep Hear My Voice | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 109 | Ask, Seek, Knock | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 110 | The Lord's Prayer | ✅ 2026-08-11 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 111 | Lilies and Sparrows | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 112 | The Beatitudes | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 113 | Where Art Thou? | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 114 | Abraham Pleads for Sodom | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 115 | The Ram in the Thicket | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 116 | Graven on His Palms | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 117 | Hosea Buys Her Back | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 118 | Jonah and the God Who Relents | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 119 | The Fourth Man in the Fire | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 120 | Job Answered from the Whirlwind | ✅ 2026-08-12 | v1.1 | app-gallery | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 119 | The Fourth Man in the Fire | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 120 | Job Answered from the Whirlwind | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 121 | Salt and Light | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 122 | The Mote and the Beam | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 123 | The Golden Rule | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 124 | Love Your Enemies | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 123 | The Golden Rule | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 124 | Love Your Enemies | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 125 | I Never Knew You | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 126 | By Their Fruits | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 127 | The Strait Gate | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 127 | The Strait Gate | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 128 | Heart Far From Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 129 | Nazareth Only a Few | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 130 | What Manner of Spirit | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 131 | Scribe Near the Kingdom | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
-| 132 | Forbid Him Not | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 130 | What Manner of Spirit | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 131 | Scribe Near the Kingdom | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
+| 132 | Forbid Him Not | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 133 | What Jesus called hell | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 134 | "Today shalt thou be with me in paradise" | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 135 | The Rainbow Covenant | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
@@ -168,7 +167,7 @@ _Last sync: 2026-08-12T20:35:57_
 | 145 | Way Truth Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 146 | Vine and Branches | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 147 | Joseph Forgives | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 148 | Ruth and the Redeemer | ✅ 2026-08-12 | — | — | APPROVED 2026-08-12 — not published | publish to app-gallery (becomes v2.1) |
+| 148 | Ruth and the Redeemer | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 149 | Hannah Is Heard | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 150 | The Shepherd Psalm | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 151 | If Any of You Lack Wisdom | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |

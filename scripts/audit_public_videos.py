@@ -85,11 +85,18 @@ check(not no_thumb, "D: every approved id has a thumbnail", f"missing: {no_thumb
 if "--live" in sys.argv:
     def head(url):
         req = urllib.request.Request(url, method="HEAD")
-        try:
-            with urllib.request.urlopen(req, timeout=20) as r:
-                return r.status, int(r.headers.get("Content-Length") or -1)
-        except urllib.error.HTTPError as e:
-            return e.code, -1
+        for attempt in (1, 2, 3):
+            try:
+                with urllib.request.urlopen(req, timeout=60) as r:
+                    return r.status, int(r.headers.get("Content-Length") or -1)
+            except urllib.error.HTTPError as e:
+                if e.code >= 500 and attempt < 3:
+                    continue  # transient CDN/hosting wobble — retry
+                return e.code, -1
+            except (TimeoutError, OSError):
+                if attempt == 3:
+                    return -1, -1  # network dead ≠ file wrong, but still fails the check honestly
+        return -1, -1
     bad_live, still_up = [], []
     for rid in sorted(approved):
         st, ln = head(f"{HOST}/{rid}.mp4")

@@ -43,8 +43,19 @@ def run(*args, binary=False):
 def main():
     rc, raw = run('node', 'admin/dump-approvals.mjs')
     if rc:
-        print('FATAL: admin/dump-approvals.mjs failed', file=sys.stderr)
-        return 1
+        # Firestore down/quota-walled: fall back to autopilot's validated
+        # mirror, but ONLY if it is fresh (<6h) — approvals fail closed.
+        mirror = 'media-production-v2/.approvals.json'
+        import time
+        if os.path.exists(mirror) and time.time() - os.path.getmtime(mirror) < 6*3600:
+            age_min = int((time.time() - os.path.getmtime(mirror)) / 60)
+            print(f'WARNING: live dump failed - using fresh mirror {mirror} '
+                  f'({age_min} min old)', file=sys.stderr)
+            raw = open(mirror).read()
+        else:
+            print('FATAL: dump failed and no fresh (<6h) mirror - refusing '
+                  'to guess approvals', file=sys.stderr)
+            return 1
     appr = json.loads(raw)
 
     html = open('site/review.html').read()
@@ -86,7 +97,14 @@ def main():
         if not card['src']:
             excluded.append((n, 'no data-src on card'))
             continue
-        path = card['src'].split('raw/main/')[1].split('?')[0]
+        src = card['src']
+        if 'raw/main/' in src:
+            path = src.split('raw/main/')[1].split('?')[0]
+        elif '/MBM/main/' in src:
+            path = src.split('/MBM/main/')[1].split('?')[0]
+        else:
+            excluded.append((n, f"unrecognized data-src shape: {src[:60]}"))
+            continue
         rc, served_blob = run('git', 'rev-parse', f'origin/main:{path}')
         if rc:
             excluded.append((n, f'path not on origin/main: {path}'))

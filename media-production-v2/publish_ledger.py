@@ -132,7 +132,10 @@ def parse_review():
         built_m = re.search(r'data-built="([^"]*)"', chunk)
         title_m = re.search(r'<p class="title">\d+\s*[—-]\s*([^<]+)', chunk)
         src_m   = re.search(r'src="[^"]*/([^/"?]+\.mp4)', chunk)
-        path_m  = re.search(r'src="[^"]*raw/main/([^"?]+\.mp4)', chunk)
+        # Two served-URL shapes exist: github.com/.../raw/main/<path> and
+        # raw.githubusercontent.com/.../MBM/main/<path>
+        path_m  = (re.search(r'src="[^"]*raw/main/([^"?]+\.mp4)', chunk)
+                   or re.search(r'src="[^"]*/MBM/main/([^"?]+\.mp4)', chunk))
         cards[num] = {
             "card_hash": hash_m.group(1) if hash_m else None,
             "wave":      wave_m.group(1) if wave_m else None,
@@ -179,11 +182,30 @@ def parse_approvals():
                     "date": (v.get("approvedAt") or "")[:10]}
                 for k, v in raw.items() if v.get("approved")
             }
-        sys.stderr.write("WARNING: dump-approvals.mjs failed (rc=%d) — "
-                         "falling back to STALE approvals.json\n" % r.returncode)
+        sys.stderr.write("WARNING: dump-approvals.mjs failed (rc=%d)\n"
+                         % r.returncode)
     except (OSError, ValueError, subprocess.TimeoutExpired) as e:
-        sys.stderr.write("WARNING: live approval dump unavailable (%s) — "
-                         "falling back to STALE approvals.json\n" % e)
+        sys.stderr.write("WARNING: live approval dump unavailable (%s)\n" % e)
+    # Second choice: autopilot's validated mirror, if fresh (<6h). Approvals
+    # fail closed — a stale mirror is worse than no mirror.
+    mirror = os.path.join(HERE, ".approvals.json")
+    try:
+        import time
+        if time.time() - os.path.getmtime(mirror) < 6 * 3600:
+            raw = json.load(open(mirror))
+            sys.stderr.write("WARNING: using fresh .approvals.json mirror "
+                             "(%d min old)\n"
+                             % ((time.time() - os.path.getmtime(mirror)) / 60))
+            return {
+                k: {"hash": v.get("approvedHash"),
+                    "date": (v.get("approvedAt") or "")[:10]}
+                for k, v in raw.items()
+                if isinstance(v, dict) and v.get("approved")
+            }
+    except (OSError, ValueError):
+        pass
+    sys.stderr.write("WARNING: no fresh mirror either — falling back to "
+                     "STALE approvals.json (last resort)\n")
     try:
         with open(APPROVALS_JSON) as f:
             return json.load(f)
