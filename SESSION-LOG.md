@@ -1,3 +1,20 @@
+## 2026-08-13 (Opus AUDIO-FIX lane, unattended/headless) — Row 160 "STONE CUT WITHOUT HANDS" (Daniel 2:31-45) STALE-V1 AUDIO PARK RESOLVED → AUTHORED, $0/0 gen; NEEDS-AUDIO queue now EMPTY (0 rows) — Machine A `Dev`
+
+Session-chain verified at start: prior top entry row 159 other-sheep PARKED, commit `295ebc17b` present in `git log --oneline -5`; `hostname`=Dev=Machine A. Task = PROMPT-AUDIO-FIX, lowest waiting NEEDS-AUDIO row first (LOW-NUMBER LAW).
+
+- **Row 160 was the ONLY NEEDS-AUDIO row on the board** (the earlier "28+ parked" backlog is fully worked through — post-fix State-column tally: 166 BUILT, 28 AUTHORED, 4 RUNNING, 1 AWAITING-CAMERON, 1 PARKED-REPLACED-VERIFY, **0 NEEDS-AUDIO**). All other "NEEDS-AUDIO" grep hits are historical text inside Claim cells, not the State column.
+- **Class = STALE-V1** (park by prior runner, commit `1659f337d`): the authoritative V1 mp4 (`media-production/build-160-stone-cut/…without-hands.mp4`, rendered 2026-07-24) is OLDER than all 11 narration mp3s (2026-07-28), so the packet-copy AUDIO LOCK would ship stale voices. `.approvals.json["160"]` absent → **COMPLAINT LEDGER: none open** (self-caught pre-flight guard, not a Cameron complaint — no review card to answer).
+- **Fix ($0, no Gemini, no ElevenLabs — config + verify only):**
+  1. **Voice-ID** all 11 V1-dir mp3s (n1-n8, kv44, kv45, card): ffprobe **44100 Hz / 128 k** = ElevenLabs new-voice (matches rows 155/156/157). No 24000/48k edge-tts anywhere → no mid-video voice-swap risk.
+  2. Set **`AUDIO_FROM_V1_SEGMENTS = True`** in `build-160-stone-cut/beats_v2.py` (rebuilds the final track from the current mp3s instead of the stale mp4).
+  3. **$0 audio pre-flight PASS:** `v2_prompt --check` PASS (21 beats, v4); all 11 referenced segs map to existing mp3s (0 missing); timeline contiguous, **no overlaps**; card audio_start 146.135 + 15.282 dur = 161.417 ≤ total 162.519 → last beat/card will NOT drop at assembly (dropped-last-beat trap guarded).
+- **Board:** NEEDS-AUDIO → **AUTHORED**, Ready ✅, Claim BLANK. 0 stills exist → nothing visual ships from the audio lane; the picture runner now generates the 21 stills on this corrected audio + promotes the 4 NEW plates (COURT/DREAM-PLAIN/STATUE/STONE — STATUE & STONE are PROP tokens, reject any auto-place suggestion) and ships. QC.md carries the full resolution block.
+- **COST:** $0.00 (no image, no TTS). Row unblocked for the picture runner. Fix commit `0155fe227`, pushed.
+
+Commit: `0155fe227` (row 160 audio fix) + this SESSION-LOG commit below
+
+---
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 159 "OTHER SHEEP I HAVE" (John 10:16) PARKED mid-build on a TRANSIENT gemini-3-pro-image ENDPOINT OUTAGE: SHEPHERD portrait wired + s01 banked; NOT billing, NO Cameron action — Machine A `Dev`
 
 Session-chain verified at start: prior top entry row 152 revealeth-his-secret SHIPPED, ship commit `4889fc716` + card/log commit `7995f5cac` both present in `git log`; `hostname`=Dev=Machine A.
