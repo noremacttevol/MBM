@@ -102,3 +102,31 @@ These existed in the V1 cut Cameron reviewed; he complained only about the visio
 14 beats, ~4.0 s/pic. Contiguous window starts: b01 0.400 · b02 5.261 · b03 10.304 ·
 b04 12.266 · b05 15.734 · b06 20.262 · b07 22.854 · b08 28.918 · b09 34.096 ·
 b10 37.334 · b11 42.059 · b12 48.912 · b13 52.842 · b14 54.711 · (hold to card 56.831).
+
+---
+
+## 🅿️ RUNNER PARK → NEEDS-REBUILD (2026-08-13, Opus runner resume, Machine A `Dev`) — STEPHEN IDENTITY/WARDROBE DRIFT across the interior→exterior change. $0, 0 rerolls.
+
+**Already-shipped check FIRST (RUNNER-LESSONS):** no committed V2 mp4; live review card v179 still carries the OLD 2026-07-24 cut (`data-hash e3156507`, no `realistic-v2` wave). Genuine resume, not shipped.
+
+**State at resume:** the dead session had FINISHED generation — all 14 stills (~3 MB each), 3 story_cast portraits (glorified-father / glorified-son / stephen), and both place plates (COUNCIL-CHAMBER, OUTSIDE-WALLS) present + wired. `v2_gen_api --dry-run` = 0 shots pending. It died before assemble/gate/ship.
+
+**FULL-CUT GATE (per-source-frame, all 14) — BLOCKED on identity, NOT shipped.** Two visibly different Stephens across the video (Stephen is the human spine, so this reads immediately):
+- **On-lock-ish YOUNG cluster (council interior):** s01, s02, s03, s04, s05(kneeling), s06, s08, s14 — ~20 yo, short/patchy LIGHT beard, plain oatmeal one-piece tunic, no clear mantle.
+- **OFF-LOCK OLDER cluster (outdoor martyrdom):** s09, s10, s11, s12, s13 — ~30 yo, FULL dark beard, **CREAM tunic + brown mantle**. The cream tunic directly violates the STEPHEN LOCK ("oatmeal-and-brown … NEVER cream") and the per-beat `must_not_show: no cream robe`.
+- Net: age (~20 vs ~30), beard (light-patchy vs full-dark), and wardrobe (oatmeal one-piece vs cream+brown-mantle) all flip at the s08→s09 location change, and the CLOSING shot s14 flips back to the young look — a face-board failure Cameron would flag ("that's not the same man"). FACE-BOARD LAW = blocks reviewer publication.
+
+**Root cause:** `REFS = {}` — Stephen is TEXT-LOCK ONLY (no image ref wired to any beat). The committed `CAST-REF-V2/stephen.jpeg` was made by `v2_story_cast` but never attached, and the portrait itself is ~30 in a CREAM tunic (also off the "young/never-cream" lock). With no image anchor, the model rendered a young oatmeal Stephen indoors and an older cream+mantle Stephen outdoors. Blind `--redo` of the same beat text would re-drift (RUNNER-LESSONS continuity lesson) — this is a BEAT/LOCK fix, not a generation fluke, and pinning a ref is an author-lane edit the runner may not make. Consistent regen = 5–8 frames, far over the 15% COST-LAW reroll budget.
+
+**WHAT IS GOOD — DO NOT TOUCH ON REBUILD (preserve, save credits):**
+- **The vision (s05, s07) NAILS Cameron's open complaint** — TWO plainly separate glorified personages: God the Father (white hair/beard, radiant white robe) on the left, the Son (canonical V2 Jesus face: dark wavy hair, full dark beard, warm olive skin, radiant white robe) STANDING at his side; NO merge, NO Jesus-only, NO Father-only, NO dove/triangle/symbol; radiant light in the sky (no head-halo); reverent LDS gospel-art feel. Keep both frames exactly.
+- s01–s06, s08 (council) + s14 (fell asleep) are the YOUNG cluster and are internally consistent + on the wardrobe color — treat the young look as canonical.
+- Restraint held on martyrdom (s09–s13): stones in hand / raised fists at a distance, NO stone striking, NO wound, NO blood, NO gore.
+- Realistic/photoreal throughout, no modern objects, elders distinct (no twins), no lens-stare, scale ordinary.
+
+**AUTHOR-LANE FIX (minimal-cost, touch-once):**
+1. Generate ONE on-lock STEPHEN reference — ~30, warm olive-tan, short dark brown hair + SHORT dark beard, undyed **oatmeal-and-brown** rough-wool tunic AND mantle, **NEVER cream** — and wire it into `REFS` for every STEPHEN beat (or add a committed CAST sheet so the token auto-attaches). Reconcile the lock's "young" vs "about thirty" wording so the ref is unambiguous.
+2. Delete ONLY the off-model outdoor stills **s09, s10, s11, s12, s13** (bring them to the young/oatmeal canonical Stephen: age down to match the council, kill the CREAM tunic → oatmeal, keep the brown mantle, keep restraint). Keep s01–s08, s14 and BOTH vision frames.
+3. Re-run the plain runner (skips the kept frames), FULL-CUT GATE the regens against the council Stephen as the face-board anchor, then assemble + ship.
+
+**Audio untouched** (default stream-copy from the 2026-07-29 V1 mp4). **Board:** State RUNNING → NEEDS-REBUILD, claim cleared for the author lane. No card change (old cut stays where it is; the redo is not ready).
