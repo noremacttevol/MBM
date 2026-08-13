@@ -1,6 +1,6 @@
 ## 2026-08-13 (audio lane) — Row 117 hosea-buys-her-back: closing-card "dramatized" re-voiced & SHIPPED — DEPLOYED — Machine A `Dev`
 
-**Commit:** `<this session's ship commit — see review.html commit below>`
+**Commit:** `bd4b029c3` (review.html + SESSION-LOG); mp4/QC/board commit `33b7d3ba1`
 
 **Cameron's complaint (`v2_outline.py 117`):** *"it was all good until the very end
 where you miss pronounced 'Dramatized' — fix that audio at the very end and its good."*
