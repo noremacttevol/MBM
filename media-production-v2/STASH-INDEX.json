@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 03:06:06",
+ "scanned": "2026-08-13 03:50:48",
  "entries": [
   {
    "row": 1,
@@ -51876,7 +51876,7 @@
    "wide": true,
    "night": false,
    "n_person": 2,
-   "scene": "The sermon ends by scattering, the camera set behind Jesus's shoulder at the crest: down the green slope the crowd breaks apart along the worn paths, fishermen toward the shore, farmers toward the far fields, mothers wit"
+   "scene": "The sermon ends by scattering, the camera set directly BEHIND Jesus at the crest so we see him from behind and slightly to one side \u2014 the back and side of his dark wavy shoulder-length hair and his cream robe, standing s"
   },
   {
    "row": 122,
@@ -51963,7 +51963,7 @@
    "wide": false,
    "night": false,
    "n_person": 1,
-   "scene": "The sermon catches its audience doing the thing: in the second row a listener's eyes slide sideways to a neighbour with one eyebrow lifted a knowing half-inch \u2014 the tiny silent verdict every human face knows how to pass "
+   "scene": "The sermon catches its audience doing the thing: in the second row a listener, seen in natural three-quarter profile with his shoulders and face both turned the same way toward the man beside him, lets his eyes slide sid"
   },
   {
    "row": 122,
@@ -54422,7 +54422,7 @@
    "wide": false,
    "night": true,
    "n_person": 1,
-   "scene": "The new membership is taken up by hand: along the moonlit row the disciples' hands come to rest on the trained branches \u2014 a fisherman's scarred palm on the smooth young wood, an old tax-man's fingers under a leaf \u2014 men t"
+   "scene": "The new membership is taken up by hand, shot close: along the moonlit row two or three of the disciples lay their hands to rest on one trained branch \u2014 a fisherman's scarred palm flat on the smooth young wood, an old tax"
   },
   {
    "row": 146,
@@ -54493,7 +54493,7 @@
    "wide": false,
    "night": true,
    "n_person": 2,
-   "scene": "The last frame is a handclasp against old wood: back in the moonlight Jesus takes a disciple's hand and lays it with his own against the great vine's gnarled trunk \u2014 skin on bark on skin, the three of them joined in one "
+   "scene": "The last frame is a simple, clearly lit handclasp against old wood: in soft moonlight \u2014 bright enough to read every face and finger \u2014 Jesus lays one of his own hands over the disciple's hand where it rests on the great v"
   },
   {
    "row": 147,
@@ -55153,6 +55153,337 @@
    "night": false,
    "n_person": 0,
    "scene": "The story tips its hand with three quiet objects: the child Obed asleep in the warm gold, a shepherd's staff leaned by the cradle where a visitor left it, and through the small window the hill of Bethlehem holding the la"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b01",
+   "file": "build-149-hannah-is-heard/assets/s01-year-after-year-hannah-went.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The festival is a yearly inventory of what she does not have, the camera looking across the court past the milling families' backs: Shiloh's steps alive with pilgrims \u2014 babies riding hips, toddlers towed by their wrists,"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b02",
+   "file": "build-149-hannah-is-heard/assets/s02-the-other-wife-mocked-her.jpeg",
+   "tokens": [
+    "HANNAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The wound is administered with one satisfied look: across the feast cloth the other wife presides over her arranged abundance \u2014 a baby at her shoulder, children flanking her like credentials \u2014 and lets her glance travel "
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b03",
+   "file": "build-149-hannah-is-heard/assets/s03-one-year-at-shiloh-hannah.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The most important prayer in Israel that year makes no sound at all: Hannah alone at the tabernacle doorpost in the dusk, the post-lamps warm on her wet face, her lips moving through words that never reach the air \u2014 the "
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b04",
+   "file": "build-149-hannah-is-heard/assets/s04-this-is-what-she-said.jpeg",
+   "tokens": [
+    "HANNAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Lean close enough and the silence has words in it: extreme close on Hannah's face in the lamp warmth \u2014 the lips shaping their soundless syllables one by one, the lashes heavy and bright, a tear finding the line of her ch"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b05",
+   "file": "build-149-hannah-is-heard/assets/s05-o-lord-of-hosts-if.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The plea leads with her own smallness: Hannah's face tips up into the dark above the doorposts \u2014 O LORD of HOSTS, commander of everything \u2014 and both her hands press in against her chest, gathering herself into the smalle"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b06",
+   "file": "build-149-hannah-is-heard/assets/s06-but-wilt-give-unto-thine.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The ask turns into an offering before it finishes leaving her: as the vow's second half comes \u2014 give me a son \u2014 Hannah's pressed-in hands turn slowly OUTWARD, palms opening toward the dark sanctuary door \u2014 and I will GIV"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b07",
+   "file": "build-149-hannah-is-heard/assets/s07-just-look-at-me-she.jpeg",
+   "tokens": [
+    "HANNAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Under all the vow's architecture the request is tiny: extreme close on the upturned eyes \u2014 wet, steady, aimed past the lintel into the dark where the LORD of hosts keeps his listening \u2014 and everything in them saying only"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b08",
+   "file": "build-149-hannah-is-heard/assets/s08-remember-me.jpeg",
+   "tokens": [
+    "HANNAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Two words, one hand: Hannah's palm comes to rest flat over her own heart in the lamp warmth \u2014 remember ME \u2014 the place she keeps the whole unanswered decade pressed gently under her own fingers, held up for heaven's atten"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b09",
+   "file": "build-149-hannah-is-heard/assets/s09-she-asked-for-the-one.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Her two hands are doing opposite things and both are telling the truth: the left drawn in hard against her chest, holding the want of her whole life \u2014 and the right open outward toward the sanctuary dark, already giving "
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b10",
+   "file": "build-149-hannah-is-heard/assets/s10-give-me-a-son-and.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The trade is stated in full and she means every word of both halves: Hannah at the doorway with her tear-streaked face gone resolute \u2014 GIVE me a son \u2014 the hunger of ten festivals in the first clause \u2014 and I will give him"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b11",
+   "file": "build-149-hannah-is-heard/assets/s11-eli-the-priest-watched-her.jpeg",
+   "tokens": [
+    "HANNAH",
+    "ELI",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The professional on duty misreads the best prayer of his career: from his worn seat by the doorpost old Eli squints down at the swaying shawled figure \u2014 lips going, no sound, at this hour, at a festival \u2014 and his heavy f"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b12",
+   "file": "build-149-hannah-is-heard/assets/s12-no-my-lord-i-am.jpeg",
+   "tokens": [
+    "HANNAH",
+    "ELI",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "She corrects the priest of Israel the way she prays \u2014 with complete quiet dignity: Hannah stands straight under his accusation, the tear-tracks still bright, and gives the gentle level answer \u2014 no, my lord \u2014 not wine: SO"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b13",
+   "file": "build-149-hannah-is-heard/assets/s13-no-my-lord-she-told.jpeg",
+   "tokens": [
+    "HANNAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Four words, perfectly weighted: close on Hannah's face as she says them \u2014 no, my lord \u2014 the deep gentle eyes level on the old priest's, respect intact in the address and self-possession intact in the no \u2014 a woman sorrow-"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b14",
+   "file": "build-149-hannah-is-heard/assets/s14-i-been-drinking-a-woman.jpeg",
+   "tokens": [
+    "HANNAH",
+    "ELI"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The old man's face makes the journey from verdict to compassion in one listening: as her plain truth reaches him \u2014 a heavy heart; a soul poured out \u2014 the weary judgment dissolves off Eli's heavy features layer by layer, "
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b15",
+   "file": "build-149-hannah-is-heard/assets/s15-she-was-not-ashamed-of.jpeg",
+   "tokens": [
+    "HANNAH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "She does not tidy her face for the explanation: the tear-tracks stay where the prayer put them, bright and unwiped in the lamplight, and she stands inside her own sorrow with the door of it open \u2014 nothing hidden, nothing"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b16",
+   "file": "build-149-hannah-is-heard/assets/s16-go-in-peace-and-the.jpeg",
+   "tokens": [
+    "HANNAH",
+    "ELI",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The office recovers itself magnificently: Eli's old hand rises over the bowed shawled head \u2014 go in PEACE \u2014 the priestly blessing descending through the lamp warmth with the full weight of Shiloh behind it \u2014 and the God o"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b17",
+   "file": "build-149-hannah-is-heard/assets/s17-she-went-away-and-her.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Nothing has changed and everything has: Hannah walks back through the soft evening court with her shawl loose and her face \u2014 the same face that carried ten years of festivals \u2014 visibly EASED, the grief-weight set down so"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b18",
+   "file": "build-149-hannah-is-heard/assets/s18-the-lord-remembered-her-because.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The empty lap from every festival finally has its answer in it: Hannah sits in the warm gold with the newborn gathered exactly where the ache lived all those years \u2014 the small dark-curled head in the crook of her arm, he"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b19",
+   "file": "build-149-hannah-is-heard/assets/s19-every-time-anyone-said-that.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SAMUEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The testimony gets repeated every time lunch is ready: across the sunny courtyard Hannah calls the name \u2014 Samuel! \u2014 and the dark-curled toddler turns from his game and comes at his small run, arms up \u2014 asked-of-the-LORD,"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b20",
+   "file": "build-149-hannah-is-heard/assets/s20-forget-me.jpeg",
+   "tokens": [
+    "HANNAH",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The prayer ends with her forehead on the doorframe of heaven: Hannah's brow comes to rest against the worn lamplit post, one hand flat on the old wood beside her face \u2014 don't forget me \u2014 the last three words pressed dire"
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b21",
+   "file": "build-149-hannah-is-heard/assets/s21-therefore-also-i-have-lent.jpeg",
+   "tokens": [
+    "HANNAH",
+    "ELI",
+    "SAMUEL",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The vow comes due and she pays it standing up: at the same doorway where she prayed him into being, Hannah's hands rest steady on small Samuel's shoulders, presenting him to old Eli \u2014 LENT to the LORD, she says over the "
+  },
+  {
+   "row": 149,
+   "build": "build-149-hannah-is-heard",
+   "beat": "v2-r149-b22",
+   "file": "build-149-hannah-is-heard/assets/s22-she-kept-her-word-when.jpeg",
+   "tokens": [
+    "HANNAH",
+    "ELI",
+    "SAMUEL",
+    "SHILOH"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "Keeping her word looks like the hardest walk of her life, taken steadily: down the clear morning road from Shiloh Hannah goes alone, back straight, steps even, the tears allowed and the pace unbroken \u2014 while behind her a"
   },
   {
    "row": 151,
