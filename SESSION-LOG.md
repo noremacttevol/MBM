@@ -1,3 +1,29 @@
+## 2026-08-12 (Fable 5, main session) — PER-VIDEO PUBLISH FILES for ALL 200: social/per-video/001-200.md, one numbered file per video, every platform's paste text — Machine A `Dev`
+
+**Commit:** (this commit)
+
+Cameron: working toward all 200 posted; "make it a file for the 200 and the
+number as the file title only... info for each video... for each of the 4
+social medias." Built `social/make-per-video.py` → `social/per-video/001.md`
+through `200.md`. Each file: status line (APPROVED = exact published text +
+byte-verified export name / DRAFT = ready text, regenerate on approval since a
+story swap voids it), then fenced paste blocks: YouTube title / description /
+tags, Facebook whole post, TikTok whole caption, Instagram whole caption —
+hashtags assembled per platform, milkb4meat.org the only link, platform rules
+restated in every header (Short vs regular, IG any-length note, FB=Reel).
+
+**The 44 approved rows reuse the exact first-9-era text** (POST-QUEUE +
+YOUTUBE-UPLOAD-SHEET parsers). **The 156 not-yet-approved rows were authored
+fresh this session** (4 parallel writer agents, same voice: 2-3 truthful KJV
+sentences + one mirror question + ref line; judgment calls documented in the
+agents' notes — e.g. rows 69/169 same-scripture distinct angles, row 66 name
+only in title since Luke doesn't name Malchus, row 158 stick-of-Joseph kept
+strictly to Ezekiel's text). Validation: 156/156 rows, ZERO "word for word",
+zero exclamations/emoji, every question ends in ?, every file carries the
+link; merged to `social/captions-authored.json` (committed source of truth).
+Cameron tracks posting via the reviewer chips; approved-state refresh =
+refresh-postable.py → make-per-video.py.
+
 ## 2026-08-12 (cont. 97) — Row 118 C-FIX VERIFY (Jonah): wall STILL up, fixed a STALE-GREEN reviewer card that was bragging the exact frames Cameron flagged — Machine A `Dev`, Opus runner
 
 **Commit:** this push.
