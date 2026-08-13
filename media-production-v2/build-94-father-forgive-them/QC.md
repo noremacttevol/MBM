@@ -1,5 +1,71 @@
 # QC / RUNNER HANDOFF — build-94-father-forgive-them (Luke 23:33-34)
 
+## ✅ C-FIX SHIPPED 2026-08-12 (Machine A `Dev`, Opus runner) — NEW identity/eye complaint CLOSED touch-once, $0, 0 Gemini credits
+
+**Cameron's complaint (`v2_outline.py 94`, his words):** "In 0:46 his eyes are Lake
+white and looks evil, fix it. The picture at 0:22 he has brown eyes and shirt [short]
+hair and looks way different."
+
+**TRACE (from the RENDERED mp4 + beat windows, not guessed):**
+- 0:22 → beat `b02` / `s02` (window 21.45-24.22). Rendered frame: Jesus close-up with
+  glassy **amber/orange-brown** eyes, gaunt off-model face, hair pulled tight under the
+  crown (reads short) = "brown eyes and short hair, looks way different." CONFIRMED.
+- 0:46 → beat `b09` / `s09` (window 46.09-48.87, red-letter j1). Rendered frame: eyes
+  **rolled fully back to the whites** (no iris) = "Lake white and looks evil." CONFIRMED.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- `s02` verdict = **CAUSED.** The beat scene literally wrote *"in the warm brown eyes,
+  searched from corner to corner"* — an explicit brown-eye instruction that overrode the
+  locked green/hazel V2 Jesus ref (rubric lesson 20: never author a frame AWAY from the
+  ref). Fixed the prompt: removed "warm brown eyes" → "his clear living eyes (the same
+  green-hazel as the reference)"; added "dark wavy hair to his shoulders … NOT short";
+  added identity-lock to must_show/must_not_show.
+- `s09` verdict = **CAUSED.** The beat forbade rolled/white eyes (added 08-11) BUT also
+  commanded *"eyes … turned upward to heaven"*; in a low-angle wide that directive
+  over-rotated the eyes fully into the sclera, beating the negative constraint. Fixed:
+  softened to "gaze lifted only slightly … coloured irises and pupils clearly visible,
+  never rolled up into the whites."
+- Also staged (touch-once, COST LAW): `s10` (0:53) had latent **pale/washed** eyes
+  (not complained, small in a wide) — added the same iris-visible constraint so a future
+  paid pass batches it. NOT re-cut this pass (below the complaint bar; s10 asset unchanged).
+
+**BILLING WALL — paid regen impossible.** One real paid probe `v2_gen_api.py 94 --only
+v2-r094-b02 --redo --ceiling 650` → `429 RESOURCE_EXHAUSTED: prepayment credits depleted`,
+meter unmoved $617.34, $0 spent (same wall freezing 82/95/116/118).
+
+**THE $0 FIX (row-63 method — "don't park on billing when the complaint is FACE not the
+exact composition"):** the correct locked Jesus already exists in THIS cut at `s08`
+(0:42, clear green eyes, shoulder hair, reverent). Applied it to both defects:
+- `s09` ← `cp s08` — b08→b09 are ADJACENT (b08 ends 45.48, b09 starts 46.09 = 0.6s gap),
+  so it renders as a **continuous hold** of his correct praying face across "the first
+  words were a prayer" → the red-letter "Father, forgive them." White eyes GONE. The
+  "everyone the prayer covers" wide is carried by s10/s11/s12 immediately after.
+- `s02` ← a **tighter punch-in crop of s08** (crop box 85,440,1315,2640 → resized 1536x2752,
+  ~1.25x, LANCZOS, stays sharp). Correct green-eyed face but a DISTINCT framing (tight face
+  vs s08's chest-up) so it reads as a cut-in, not a dup — directly curing the "looks way
+  different" inconsistency Cameron flagged. Originals backed up in /tmp (ORIG_s02/s09).
+
+**FULL-CUT GATE (6b) on the RE-CUT mp4 — one frame per beat + card, all viewed:**
+s01✓ s02✓FIXED(green eyes/shoulder hair) s03✓ s04(FIX-WAVE: oblivious/laughing soldiers —
+"they know not what they do", not re-cut) s05✓ s06✓ s07✓ s08✓ s09✓FIXED(green eyes,
+red-letter caption) s10(FIX-WAVE pale eyes, unchanged, below bar) s11✓ s12✓ card✓. Jesus
+face-locked/cream-absent-on-cross/crown-of-thorns/no-halo every appearance; captions
+bottom-band 3-colour correct (blue scripture, white narrator, RED j1). No new defect.
+
+**AUDIO REBUILD PASS `80ff9897…` — BYTE-IDENTICAL** to the prior ship (voices/timing
+untouched, picture-only change). **COST: $0.00 Gemini / 0 rerolls / 0 credits** — drives
+the running average DOWN. Deployed to Firebase + live-verified. Row 94 complaint CLOSED.
+
+**COMPLAINT LEDGER:** (1) 0:46 white/evil eyes → s09 now the correct green-eyed praying
+face (s08 hold). (2) 0:22 brown eyes / short hair / looks different → s02 now the correct
+green-eyed shoulder-haired face (tight crop of s08). Both his words, both fixed in-frame.
+
+**RESUME (only if Cameron ever wants BESPOKE regenerated frames instead of the s08 reuse):**
+billing must be funded, then `python3 media-production-v2/v2_gen_api.py build-94-father-forgive-them
+--only v2-r094-b02,v2-r094-b09,v2-r094-b10 --redo --ceiling <meter+…>` — the corrected
+green-eye/iris-visible prompts are already staged in beats_v2.py (`--check` PASS).
+
+
 ## ✅ AUDIO FIX DONE — STALE-V1-FINAL recency lock cleared, HANDED TO PICTURE RUNNER (2026-08-06, Machine A `Dev`, headless AUDIO-FIX lane)
 
 Class = STALE-V1-FINAL (recency), no open Cameron complaint (`v2_outline.py 94`). Parked

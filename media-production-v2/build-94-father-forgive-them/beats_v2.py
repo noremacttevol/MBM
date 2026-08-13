@@ -147,8 +147,8 @@ BEATS = [
         "window": "21.45-24.22", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILL"],
         "narration": "Every right to call down judgment.",
-        "must_show": "the withheld right — close on Jesus's face on the cross, chest-up, grey sky behind: pain endured with dignity, and NO anger anywhere in the features.",
-        "must_not_show": "ABSOLUTE: no blood or wounds in frame — face and shoulders only; the suffering in the drawn features, never the anatomy.",
+        "must_show": "the withheld right — close on Jesus's face on the cross, chest-up, grey sky behind: pain endured with dignity, and NO anger anywhere in the features. His long dark wavy hair falls to his shoulders on either side of his face beneath the crown of thorns — NOT short or cropped. His eyes are EXACTLY the green-hazel of the attached reference face, irises and pupils clearly visible, living and clear — never brown, never amber, never a different man.",
+        "must_not_show": "ABSOLUTE: no blood or wounds in frame — face and shoulders only; the suffering in the drawn features, never the anatomy. REJECT any change of identity from the reference face; brown or amber eyes; short, shorn or hidden hair; a gaunter or older-looking stranger.",
         "scene": (
             "Close on the face that holds "
             "every right in the universe "
@@ -156,11 +156,16 @@ BEATS = [
             "against the cold grey sky, "
             "the features drawn deep with "
             "what the body is bearing, "
-            "breath coming hard — and in "
-            "the warm brown eyes, searched "
-            "from corner to corner, not "
-            "one spark of the judgment he "
-            "could call down with a word "
+            "breath coming hard — the face "
+            "and identity EXACTLY the "
+            "attached reference man, his "
+            "dark wavy hair to his shoulders "
+            "beneath the thorns — and in "
+            "his clear living eyes (the same "
+            "green-hazel as the reference), "
+            "searched from corner to corner, "
+            "not one spark of the judgment "
+            "he could call down with a word "
             "— power held perfectly still "
             "at the exact moment it has "
             "the most reason to move. "
@@ -361,16 +366,20 @@ BEATS = [
         "window": "46.09-48.87", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILL", "SOLDIERS"],
         "narration": "Father, forgive them; for they know not what they do.",
-        "must_show": "SCRIPTURE-EXACT: the prayer itself — the hill under the words: at the top of the centre cross the lifted face, his eyes open and calm and turned upward to heaven in solemn pain, and FIXED TO THE VERY TOP OF THE UPRIGHT BEAM DIRECTLY ABOVE HIS HEAD a small weathered wooden placard (the written charge over him), its worn lettering indistinct; the unknowing soldiers at their game below, watchers on the slope; mercy covering the whole frame.",
-        "must_not_show": "ABSOLUTE: no wounds or blood; NO SMILE and no bared teeth — the face solemn and sorrowful, never cheerful; his eyes natural and lifted, never rolled back and never showing only the whites; the placard PRESENT above his head, never a bare cross-top; the composition HOLDS everyone the prayer covers — executioners, gamblers, watchers.",
+        "must_show": "SCRIPTURE-EXACT: the prayer itself — the hill under the words: at the top of the centre cross the lifted face, his eyes open and calm with the coloured irises and pupils clearly visible, the gaze lifted only slightly toward heaven in solemn pain (NOT rolled up), and FIXED TO THE VERY TOP OF THE UPRIGHT BEAM DIRECTLY ABOVE HIS HEAD a small weathered wooden placard (the written charge over him), its worn lettering indistinct; the unknowing soldiers at their game below, watchers on the slope; mercy covering the whole frame.",
+        "must_not_show": "ABSOLUTE: no wounds or blood; NO SMILE and no bared teeth — the face solemn and sorrowful, never cheerful; his eyes open and natural with the irises clearly visible, NEVER rolled back and NEVER showing only the whites of the eyes; the placard PRESENT above his head, never a bare cross-top; the composition HOLDS everyone the prayer covers — executioners, gamblers, watchers.",
         "scene": (
             "The prayer goes up over "
             "everyone it covers: the "
             "grey hill with the lifted "
             "face at the top of the "
             "centre cross, his eyes open "
-            "and calm and turned upward "
-            "to heaven, the expression "
+            "and calm, the coloured irises "
+            "and pupils clearly visible and "
+            "the gaze lifted only slightly "
+            "toward heaven — never rolled "
+            "up into the whites — the "
+            "expression "
             "solemn and heavy with pain "
             "and never smiling — and "
             "fixed to the very top of the "
@@ -403,8 +412,8 @@ BEATS = [
             "Not, forgive them later, if they're sorry. Forgive them now — "
             "while it's still happening."
         ),
-        "must_show": "the NOW — the praying face lifted, solemn and heavy with pain, the lips parted in prayer (NOT a smile), and a small weathered placard fixed to the top of the upright beam directly above his head; the game's motion visible far below at frame's bottom edge: forgiveness and offense simultaneous in one image.",
-        "must_not_show": "ABSOLUTE: no wounds or blood; NO SMILE, no grin, no bared teeth and no cheerful expression — the face solemn and sorrowful; he is stripped to a plain loincloth on the cross and is NOT wearing a full robe; the placard PRESENT above his head; the simultaneity the point — the prayer DURING, not after.",
+        "must_show": "the NOW — the praying face lifted, solemn and heavy with pain, the lips parted in prayer (NOT a smile), his eyes open and natural with the coloured irises (the green-hazel of the reference) clearly visible, and a small weathered placard fixed to the top of the upright beam directly above his head; the game's motion visible far below at frame's bottom edge: forgiveness and offense simultaneous in one image.",
+        "must_not_show": "ABSOLUTE: no wounds or blood; NO SMILE, no grin, no bared teeth and no cheerful expression — the face solemn and sorrowful; his eyes open and natural with the irises clearly visible, NEVER pale, washed-out, milky, blank or white and never rolled back; he is stripped to a plain loincloth on the cross and is NOT wearing a full robe; the placard PRESENT above his head; the simultaneity the point — the prayer DURING, not after.",
         "scene": (
             "One frame holds the tense of "
             "the miracle: at its top the "
