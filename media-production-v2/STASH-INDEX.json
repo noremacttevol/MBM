@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 07:29:45",
+ "scanned": "2026-08-13 07:35:18",
  "entries": [
   {
    "row": 1,
@@ -60428,6 +60428,186 @@
    "night": false,
    "n_person": 0,
    "scene": "A closing wide in the green home valley in warm daylight, camera at eye level a little behind the arriving group so their backs are three-quarters to the lens and their gazes go out into the welcoming valley, never to th"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b01",
+   "file": "build-200-gospel-to-all-the-world/assets/s01-on-the-mount-of-olives.jpeg",
+   "tokens": [
+    "OLIVET",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "An establishing wide on the olive slope of the Mount of Olives in warm daylight, camera set among the disciples looking slightly up toward Jesus so the disciples' backs and three-quarter faces turn toward him and every g"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b02",
+   "file": "build-200-gospel-to-all-the-world/assets/s02-the-road-ahead.jpeg",
+   "tokens": [
+    "OLIVET",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "An over-shoulder two-shot on the mount in warm daylight, camera behind a disciple's shoulder looking to Jesus so the disciple's back is to the lens and his gaze goes to Jesus, never to the camera: Jesus (locked master fa"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b03",
+   "file": "build-200-gospel-to-all-the-world/assets/s03-wars-and-hardship.jpeg",
+   "tokens": [
+    "OLIVET",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close on Jesus (locked master face, cream) on the mount in warm daylight, his face grave and tender as he foretells wars, rumours and hardship and the need for patience under strain; beside him a disciple's sober, weig"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b04",
+   "file": "build-200-gospel-to-all-the-world/assets/s04-the-one-thing.jpeg",
+   "tokens": [
+    "OLIVET",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close on Jesus (locked master face, cream) on the mount in warm daylight, his grave face lifting into steady, sure hope as he turns from the hard road to the one thing that would outlast all of it; a disciple leans in,"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b05",
+   "file": "build-200-gospel-to-all-the-world/assets/s05-to-every-corner.jpeg",
+   "tokens": [
+    "NATIONS-WORLD",
+    "NATIONS-BELIEVERS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "An establishing wide of the broad ancient world in warm daylight, camera raised and set behind travellers whose backs are to the lens so their travel goes out into the far land, never to the camera: messengers (earth-ton"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b06",
+   "file": "build-200-gospel-to-all-the-world/assets/s06-not-a-secret.jpeg",
+   "tokens": [
+    "NATIONS-WORLD",
+    "NATIONS-BELIEVERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A shot in a sunlit market square of an ancient town in warm daylight: a believer (earth-toned wool, not cream) speaks the good news openly, hands wide, to a gathered handful of ordinary townsfolk who lean in to hear \u2014 ou"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b07",
+   "file": "build-200-gospel-to-all-the-world/assets/s07-witness-to-all-nations.jpeg",
+   "tokens": [
+    "NATIONS-WORLD",
+    "NATIONS-BELIEVERS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "A wide in warm daylight, camera behind a foreground hearer whose back is to the lens: peoples of many different lands and skin-tones (varied earth-toned dress, none cream) are gathered together receiving the good news, g"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b08",
+   "file": "build-200-gospel-to-all-the-world/assets/s08-until-the-end.jpeg",
+   "tokens": [
+    "NATIONS-WORLD",
+    "NATIONS-BELIEVERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A shot on a road at the edge of a town in warm daylight: one messenger (earth-toned travelling wool, not cream) clasps the shoulder of another and sends him on to carry the good news further down the road \u2014 the word pass"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b09",
+   "file": "build-200-gospel-to-all-the-world/assets/s09-preached-in-all-the-world.jpeg",
+   "tokens": [
+    "OLIVET",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close two-shot on the mount in warm daylight: Jesus (locked master face, cream) speaks the promise directly and surely \u2014 that this gospel of the kingdom shall be preached in all the world for a witness unto all nations"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b10",
+   "file": "build-200-gospel-to-all-the-world/assets/s10-then-the-end-come.jpeg",
+   "tokens": [
+    "OLIVET",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A close on Jesus (locked master face, cream) on the mount in warm daylight, his face calm and certain as he says that then shall the end come \u2014 the sureness carried entirely by his steady face, with NO scene of destructi"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b11",
+   "file": "build-200-gospel-to-all-the-world/assets/s11-the-task-we-carry.jpeg",
+   "tokens": [
+    "NATIONS-WORLD",
+    "NATIONS-BELIEVERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A shot in a sunlit town in warm daylight: believers of different nations (varied earth-toned dress, none cream) carry the task on \u2014 one telling the good news to a listener, another lifting and serving a poor neighbour, a"
+  },
+  {
+   "row": 200,
+   "build": "build-200-gospel-to-all-the-world",
+   "beat": "v2-r200-b12",
+   "file": "build-200-gospel-to-all-the-world/assets/s12-for-all-nations.jpeg",
+   "tokens": [
+    "NATIONS-WORLD",
+    "NATIONS-BELIEVERS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "A closing wide in warm daylight, camera raised a little behind the near edge of a great mixed gathering so their backs and three-quarter faces fill the foreground and their gazes spread out across the scene, never to the"
   }
  ]
 }
