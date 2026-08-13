@@ -67,3 +67,39 @@ python3 v2_gen_api.py build-115-ram-in-the-thicket --ceiling <recompute: meter +
 # then ship per steps 7a-c (DEPLOY firebase + live-verify), stash --scan, tick BUILT.
 ```
 COMPLAINT LEDGER: none open (v2_outline.py 115 shows no reviewer complaint on this row).
+
+## RUNNER SHIP — 2026-08-13 (A-auto Machine A `Dev`, headless) — BILLING CLEARED, ROW SHIPPED
+
+Resumed the 2026-08-06 billing park. Gemini prepayment credits had reloaded (memory
+`gemini-prepay-auto-reload`); dry-run + generation ran with no 429. Generated the
+remaining **16 frames b17–b32** (~$2.14) against the banked 16 (b01–b16) + wired
+ABRAHAM/ISAAC refs + MORIAH plate.
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 115` shows no reviewer complaint; the
+review card flag states the realistic-V2 change set (14 pics → 32 pics, native 2K).
+
+**Light QC → 2 rerolls (b25, b32), 6.25% of 32 beats (COST LAW ≤15% ✅).** Both were
+an ABRAHAM beard-board + head-covering drift (PROMPT-AUTOPSY verdict 3 — generator
+ignored the attached ref): they rendered a shorter/fuller beard + draped hood instead
+of the ref's long white beard. Rerolls restored the long-white-beard on-model face on
+both. (The cap↔mantle-hood head covering alternates uniformly across the whole cut
+incl. the banked b01–b16 half — a consistent stylistic variance, face+beard hold; not
+an identity break, so not chased further.)
+
+**CONTENT-CARE re-verified in the RENDERED mp4 (§6b FULL-CUT GATE, 32/32 + card):**
+THE BINDING IS NEVER SHOWN — the knife only FALLS from Abraham's opened hand (s18),
+lies alone/unused (s19/s29); the boy is free-standing, unbound, untouched and SAFE in
+every frame; the ram is ALIVE, caught by its horns in the thicket (s21); the altar
+smoke (s24) is the RAM burnt offering (Gen 22:13), never the child. No bound child on
+an altar anywhere. GOD/THE ANGEL NEVER EMBODIED — heaven = light (s14), the divine
+call is caption-only (no figure/beam/disc/halo). Speaker law: God-voice GREEN
+(s18 "Lay not thine hand", s26 "in multiplying I will multiply thy seed"), scripture
+BLUE (s09 "God will provide himself a lamb"), narrator WHITE, NO red-letter (OT, Jesus
+absent). Realistic throughout (no cartoon/mix, Law 14); one Abraham, one Isaac;
+ordinary scale; clean anatomy/hands; no modern objects/rotation/collage; captions
+bottom-band; card clean. Grey-dawn → day-climb → gold-release → starlit-dusk holds.
+
+Drop-check (lessons 173/89): concat_base = 32 clips == 32 beats; video 191.3s ≈ final
+191.27s; AUDIO LOCK PASS SHA256 3ec248cbc1213e41a020588f847035de6a8081c424bc5a4b289cac875b68f718.
+Meter at ship ≈ $681.1; this row ≈ $2.41 (16 stills + 2 rerolls this session; portraits
++ 16 stills were spent in the 2026-08-06 park). Under the $6.10 avg — COST LAW trend holds.
