@@ -7,14 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T01:10:09_
+_Last sync: 2026-08-13T01:50:33_
 
 ## Summary
 
+- **APPROVED — not published** — 5 row(s)
 - **BUILDING** — 71 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 114 row(s)
-- **ON REVIEWER — awaiting Cameron** — 13 row(s)
+- **ON REVIEWER — awaiting Cameron** — 8 row(s)
 
 ## The rows
 
@@ -108,12 +109,12 @@ _Last sync: 2026-08-13T01:10:09_
 | 86 | The Wise Men | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 87 | Boy in the Temple | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 88 | Triumphal Entry | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 89 | The Last Supper | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 89 | The Last Supper | ✅ 2026-08-13 | — | — | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
 | 90 | Washing the Disciples Feet | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 91 | Gethsemane | ✅ 2026-08-06 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 92 | Peters Denial | ✅ 2026-08-07 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 93 | Barabbas Goes Free | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 94 | Father Forgive Them | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 94 | Father Forgive Them | ✅ 2026-08-13 | — | — | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
 | 95 | Thief on the Cross | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 96 | It Is Finished | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 97 | The Empty Tomb | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
@@ -140,7 +141,7 @@ _Last sync: 2026-08-13T01:10:09_
 | 118 | Jonah and the God Who Relents | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 119 | The Fourth Man in the Fire | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 120 | Job Answered from the Whirlwind | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 121 | Salt and Light | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 121 | Salt and Light | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 122 | The Mote and the Beam | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 123 | The Golden Rule | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 124 | Love Your Enemies | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
@@ -148,7 +149,7 @@ _Last sync: 2026-08-13T01:10:09_
 | 126 | By Their Fruits | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 127 | The Strait Gate | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 128 | Heart Far From Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 129 | Nazareth Only a Few | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 129 | Nazareth Only a Few | ✅ 2026-08-13 | — | — | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
 | 130 | What Manner of Spirit | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 131 | Scribe Near the Kingdom | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 132 | Forbid Him Not | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
@@ -160,7 +161,7 @@ _Last sync: 2026-08-13T01:10:09_
 | 138 | We Are his Offspring | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 139 | Lamp on a Stand | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 140 | Road Runs Both Ways | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 141 | I Am the Bread of Life | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 141 | I Am the Bread of Life | ✅ 2026-08-13 | v1.1 | app-gallery | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
 | 142 | I Am the Light of the World | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 143 | I Am the Door | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 144 | Resurrection and the Life | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
@@ -170,7 +171,7 @@ _Last sync: 2026-08-13T01:10:09_
 | 148 | Ruth and the Redeemer | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 149 | Hannah Is Heard | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 150 | The Shepherd Psalm | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 151 | If Any of You Lack Wisdom | (old appr) | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 151 | If Any of You Lack Wisdom | ✅ 2026-08-13 | — | — | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
 | 152 | He Revealeth His Secret to the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 153 | The Restitution of All Things | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 154 | The Angel with the Everlasting Gospel | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
