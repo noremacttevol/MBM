@@ -95,3 +95,62 @@ climbing.
 - Plates: HALL --take from build-22 REJECTED (parable king's hall ≠
   Egyptian painted-column hall; the 86/63 decline precedent). HALL
   promote-first from b02.
+
+## C-FIX 2026-08-13 (Machine A `Dev`, Opus runner) — Joseph character-consistency complaint
+
+**Cameron's complaint (COMPLAINTS.md row 147, status "newer cut shipped — VERIFY fixed"):**
+> "Joseph should be the same character and same look as before, different hair
+> maybe but same face definition. We should have the story of Joseph and this
+> story looking the same. Match the characters and redo this one if you must."
+
+**Domain:** PICTURE (character identity/consistency). No timestamp given — a
+global identity complaint, so it traces to every Joseph appearance, not one
+frame.
+
+**PROMPT AUTOPSY (rubric meta-law 3): verdict = ALLOWED-then-FIXED.**
+The complaint was filed against the OLD cartoon `ASSEMBLY-C` cut (7 reused
+W1 stills, 2026-07-17), where Joseph's face drifted frame-to-frame (cartoon
+era, mismatched stills). Root cause: cartoon assembly reused non-matching
+stills with no single locked face → Joseph read as different men. The
+realistic-V2 rebuild (16 native-2K stills, JOSEPH text-lock, 2026-08-11/12)
+already replaced that with ONE canonical Joseph. This C-FIX VERIFIES the
+current live cut per the COMPLAINTS.md rule ("newer cut shipped — VERIFY the
+complaint is truly fixed in the CURRENT cut").
+
+**FULL-CUT GATE (6b) — all 16 beats, viewed from BOTH the source stills AND
+the RENDERED mp4 (ffmpeg mid-window extracts 7.7 / 22.3 / 48.6 / 71.8 / 80.4
+/ 87.7 s + the 4x4 contact sheet):** PASS.
+- Joseph is one consistent man in every frame: clean-shaven Hebrew-Egyptian
+  vizier, dark curly hair, warm dark eyes, olive skin, white-linen + gold
+  collar. The 1:20 portrait (s14 / b14) is essentially the CAST-REF-V2
+  joseph.jpeg itself. Seated dais (s02/s03), standing reveal (s05), reaching
+  (s09/s10), doorway (s13), embrace (s16) all match the reference — only age
+  and expression change, never the face. Cameron's "different hair maybe but
+  same face definition" is satisfied.
+- The ten brothers: consistent weathered first-century faces across group
+  frames; guilt-worn, never villains.
+- Realistic-only (Law 14) PASS — zero cartoon/mixed frames. Anatomy/hands
+  clean (s08 hand-on-chest 5 fingers; s09 reach OK). No modern objects
+  (granary s15 = period sacks/bread/baskets, alive not "dead crowd"). No
+  Jesus in this OT row. Captions bottom-band, scripture (Joseph's KJV
+  Gen 45:4 / 50:20) styled cream/blue, narrator white — in sync.
+
+**Action taken:** VERIFY-ONLY, $0, 0 Gemini rerolls. The pictures are already
+on-model against the cast-ref; regenerating on-model frames would violate the
+COST LAW / "don't chase subtle drift" rule and risk NEW drift. The realistic
+V2 already answers the complaint. Reviewer card updated to tell Cameron his
+complaint was addressed (in his words) so he can re-review and approve. mp4 is
+unchanged (already the fixed cut, live-served bytes == local, 20,294,602 B).
+
+**FACE-BOARD note for any future touch:** Joseph's beats currently anchor
+identity by TEXT lock (ref:False). The results are consistent, but if this row
+is ever regenerated — or when the future "story of Joseph" (the coat/dreams/
+sold-into-Egypt arc) is built — attach `CAST-REF-V2/joseph.jpeg` to every
+Joseph beat as the image anchor (FACE-BOARD LAW) so both videos share the exact
+same face. joseph.jpeg IS the canonical Joseph.
+
+**COMPLAINT LEDGER:**
+- row 147 "Joseph should be the same character / same face definition, match
+  the story of Joseph" → FIXED in realistic-V2 (verified this session): one
+  canonical clean-shaven Joseph in all 16 frames, matching CAST-REF-V2/
+  joseph.jpeg; the 1:20 close-up is the reference face. Full-cut gate PASS.
