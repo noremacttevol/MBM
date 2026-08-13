@@ -152,3 +152,41 @@ b10 37.334 · b11 42.059 · b12 48.912 · b13 52.842 · b14 54.711 · (hold to c
 1. `v2_gen_api build-179-stephens-witness` regenerates the 7 deleted frames ONLY — the STEPHEN ref auto-attaches (`[+char ref: STEPHEN:...]` in the log). Reroll any regen that still drifts off the ref face/wardrobe or breaks RESTRAINT (b09-b13 martyrdom: no stone striking, no wound, no blood).
 2. **FULL-CUT GATE** the whole cut against the pinned ref as the face-board anchor — all 14 Stephen frames must read as the SAME olive-tan short-dark-bearded man in oatmeal-and-brown (never cream), the vision two-personages preserved, the two SCRIPTURE captions (s1 b07, s60 b12) light-blue not red.
 3. Assemble (AUDIO LOCK), deploy, live-verify. **Review card MUST tell Cameron:** *"The vision now shows the Father and the Son as two separate glorified beings, the Son standing at the Father's right hand — done in the reverent Latter-day Saint gospel-art style you asked for."* (Stephen is now one consistent man across the whole video.)
+
+---
+
+## ✅ RUNNER DONE — SHIPPED (2026-08-13, Opus runner, Machine A `Dev`, headless) — $0.94 / 0 rerolls
+
+**Face-board rebuild executed exactly per the author package.** Regenerated the 7
+deleted off-model stills (s02/s04/s06/s09/s11/s12/s13) against the pinned
+`REFS["STEPHEN"]` (front+quarter) — the ref auto-attached (`[+2 char ref: STEPHEN]`)
+to every one. **FULL-CUT GATE (all 14 source frames + rendered-mp4 caption/card
+frames) PASS:**
+- **STEPHEN now ONE consistent man** across all 14 frames — warm olive-tan, dark
+  hair, short dark beard, oatmeal-and-brown tunic/mantle. **The cream violation is
+  GONE** — s09/s11/s12/s13 (the old cream+mantle cluster) are all oatmeal+brown, no
+  cream anywhere. s10/ref is the canonical anchor; the young→pale→cream three-way
+  drift the author face-boarded is resolved.
+- **COMPLAINT FIXED (verified in rendered mp4):** the vision (s05/s07/b05/b07) shows
+  TWO plainly separate glorified personages — God the Father (white hair/beard,
+  radiant white robe) and the Son (canonical V2 Jesus face, dark hair/beard, radiant
+  white robe) STANDING at the Father's right. No merge, no Jesus-only, no
+  Father-only, NO dove/triangle/symbol; radiant light in the sky (no head-halo);
+  reverent LDS gospel-art feel. Both frames preserved untouched.
+- **RESTRAINT held** on martyrdom (b09-b13): stones in hands / raised fists at a
+  distance, NO stone striking, NO wound, NO blood, NO gore; s14 "fell asleep" =
+  peaceful, no gore.
+- **Captions (rendered mp4):** s1 b07 "Behold, I see the heavens opened" + s60 b12
+  "Lord, lay not this sin to their charge." both render LIGHT-BLUE scripture (NOT
+  red — no red-letter in this row, Jesus never speaks); narrator white; card clean.
+- Sanhedrin distinct (not twins), scale ordinary, anatomy/hands clean, no modern
+  objects, realistic throughout (no cartoon/mix).
+
+**Audio:** delivered V1 mp4 was a STALE assembly (64.133s) vs the on-disk segment
+timeline (63.149s). Set `AUDIO_FROM_V1_SEGMENTS=True` — v2_assemble REBUILT the track
+from the 10 V1 segment mp3s (all 44100/128k ElevenLabs new-voice, ffprobe-verified).
+Nothing re-voiced or re-timed. **AUDIO REBUILD PASS SHA256 6628f735…, 63.1s, 20.3MB.**
+
+**Cost:** $0.94 / 0 rerolls (well under the $6.10 / 19% running average — COST LAW
+downward trend holds; the face-board fix landed clean on the first pass thanks to the
+pinned ref).

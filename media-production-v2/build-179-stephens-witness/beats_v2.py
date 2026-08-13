@@ -431,6 +431,13 @@ PLACE_REFS = {
 # name STEPHEN, so every regenerated Stephen frame converges on this one face.
 # (The glorified vision figures b05/b07 stay text-lock-only — those frames are
 # GOOD and are not regenerated.)
+# The delivered V1 mp4 is a STALE assembly (64.133s) whose track no longer matches
+# this build's on-disk segment timeline (63.149s, ~0.984s of orphaned audio). All 10
+# V1 segment mp3s are the correct new-voice ElevenLabs narration (44100/128k,
+# ffprobe-verified). v2_assemble instructs rebuilding the track from those segments;
+# nothing is re-voiced or re-timed (sanctioned rebuild, rows 69/77/177/185/186/188/191).
+AUDIO_FROM_V1_SEGMENTS = True
+
 REFS = {
     "STEPHEN": ["STEPHEN-REF/stephen-front.jpeg", "STEPHEN-REF/stephen-quarter.jpeg"],
 }
