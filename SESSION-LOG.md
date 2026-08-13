@@ -1,3 +1,30 @@
+## 2026-08-13 — WEBSITE OLD-ERA PURGE + STORY-FIRST REBUILD: 2.8GB of old cuts off hosting, homepage leads with the films, stories page 44→116, gate extended to the site — Machine A `Dev`
+
+Cameron: "the website... has a bunch of the old videos on it and just isnt giving the app
+its justice." He was right, three ways:
+- **site/fixed/ = 152 OLD-ERA mp4s (2.8 GB) publicly hosted** at guessable URLs — and
+  fully ORPHANED (zero pages referenced it). Archived to
+  media-production-v2/site-media-archive/, now 404 live.
+- **Homepage fronted the old app era**: June explainer video + 37 old walkthrough
+  screenshots + a loose old peter-walks-on-water cut in the site root. All archived; the
+  homepage now leads with the REAL films — featured tap-to-play Cloak player (#watch),
+  realistic scene sections replacing every old screenshot, hero copy leads with the films.
+- **stories.html showed 44 while 116 are approved** (the FULL-THROTTLE publisher landed 72
+  more between builds). Regenerated from PUBLISH-LEDGER.json → 116 cards, counts synced.
+  NEW scripts/regen_stories_page.py — publisher sessions run it whenever an approval
+  lands so the site never undersells again.
+- Internal tool pages (review, post-kit, how-i-see-it, characters) noindexed; review.html
+  backups off hosting.
+- **Gate extended** (scripts/audit_public_videos.py): F1 = no mp4 anywhere on the site
+  outside the approved gallery; F2 = public pages reference only approved ids/no retired
+  paths. **10/10 checks PASS against the LIVE site** (116 byte-exact vs approval sha1s,
+  20 old-era rows 404, fixed//explainer/walk all 404). DOM-verified: featured player
+  present, 0 broken images, 116 cards, zero old-media references.
+
+**Cost:** $0 media. Deploys: 2× firebase hosting.
+
+---
+
 ## 2026-08-13 (cont. 94) — Row 118 C-FIX SHIPPED: fixed Cameron's 2:37 giant-Jonah + 3:08 dead-crowd complaint (billing restored) — Machine A `Dev`, Opus runner
 
 Complaint-first + lowest-waiting → row 118 (open since 2026-08-12, billing-parked 13×).
