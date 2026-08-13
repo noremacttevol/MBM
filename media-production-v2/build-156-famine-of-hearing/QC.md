@@ -57,3 +57,26 @@ STALE-V1: row-147 class: durations match (~137.0s) but 11/11 V1-dir mp3s NEWER t
 3. 0 stills exist → hand back to the picture runner: board State NEEDS-AUDIO → AUTHORED, keep Ready ✅, Claim BLANK.
 
 **RESUME (audio lane):** `python3 media-production-v2/v2_assemble.py 156` (refuses until the flag is set).
+
+---
+
+## ✅ AUDIO-FIX DONE → AUTHORED — 2026-08-13 (Machine A `Dev`, audio lane, $0, 0 stills)
+
+STALE-V1 cleared. **Voice-ID:** all 11 placed V1-dir mp3s
+(`media-production/build-156-famine-of-hearing/audio/*.mp3`) ffprobe as
+**44100 Hz / 128 k = ElevenLabs new-voice**, and `audio-eleven.log` records all
+11 (n1-n8, kv11/kv12 [god], card) cast through the ElevenLabs pipeline — no
+edge-tts, no old voice. (The log's "undecided homograph 'does'" notes on n6/n8
+are pre-existing render notes, not a Cameron complaint — no PRON fix asked for;
+left untouched.) They were newer than the V1 mp4 (old-voice render), which is
+why the AUDIO LOCK's STALE-V1-FINAL guard refused the packet-copy.
+
+**Fix:** set `AUDIO_FROM_V1_SEGMENTS = True` in `beats_v2.py`. Track now rebuilt
+from the new-voice mp3s at extract_beats offsets — no re-voice, no re-time, V1
+read-only, **$0 (no Gemini, no ElevenLabs)**. Verified: extract_beats timeline
+reads all 22 phrases cleanly (122.6 s); `v2_assemble 156` no longer refuses on
+the audio lock, it stops only at the missing stills — the picture runner's job.
+
+**Handed to the picture runner:** board State NEEDS-AUDIO → AUTHORED, Ready ✅,
+Claim cleared. When the runner generates the stills, `v2_assemble` rebuilds the
+new-voice track via the flag and ships. Nothing else touched.
