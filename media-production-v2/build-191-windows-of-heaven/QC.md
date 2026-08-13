@@ -1,5 +1,44 @@
 # QC / RUNNER HANDOFF — build-191-windows-of-heaven
 
+## ✅ SHIPPED — Opus runner (Machine A `Dev`, unattended/headless), 2026-08-13
+
+**COMPLAINT LEDGER — "Not real new voice" → FIXED & VERIFIED IN THE SHIPPED CUT.**
+The delivered V1 mp4 had stream-copied a STALE track. This cut sets
+`AUDIO_FROM_V1_SEGMENTS=True`, so `v2_assemble` REBUILT the shipped audio from the
+8 authoritative segment mp3s in `media-production/build-191-windows-of-heaven/audio/`.
+Runner-verified those authoritative segments (not just the v2-dir copies): all 8 —
+n0, n1, n2, n2b, n3a, n3b, **s1 (the GOD-voice Malachi 3:10 declaration)**, card —
+are `44100 / 128000` = ElevenLabs new-voice (edge-tts is `24000 / 48000`). So this
+cut genuinely carries the real new voice, narrator AND the God voice. **AUDIO REBUILD
+PASS SHA256 `6c33fe965f68…`**, 57.4 s, 20.5 MB. The review card tells Cameron in
+plain words the voice is the real new one so he can verify in one listen.
+
+**BUILD:** 14 realistic stills @ native 2K (V1 ASSEMBLY-D had ~7). Portraits MALACHI+
+FARMER ($0.27, used as face-board anchors — REFS left empty per author's text-only
+design). Places promoted: STOREHOUSE from b01, HARVEST-LAND from b08 (both NON-Jesus).
+Generated 14 beats. **1 reroll (b10, 7.1% — under the 15% budget): the first take
+rendered PAINTERLY/Gospel-art among photoreal frames (Law-14 mix-fail, RUNNER-LESSONS
+146d); the reroll landed photoreal.** ~$2.27 total, well under the $6.10 average.
+
+**FULL-CUT GATE on the RENDERED mp4 — 14/14 beats + card PASS** (one frame per beat
+extracted mid-window + viewed): photoreal throughout (no cartoon/mix, Law 14);
+**GOD/THE LORD NEVER EMBODIED** on all five GOD-voice beats (b05/b06/b07/b08/b09 — no
+figure/face/hand/beam/UFO-disc/ring in any sky, the "windows of heaven" b08 is radiant
+sky+rain only); NO Jesus, NO ONE in cream/white (OT); MALACHI/FARMER/LEVITE face-board
+consistent; anatomy/hands/scale/beards clean, children child-sized; no modern object,
+nothing legibly written (the b04/b12 basket weave-mark is decorative, not text);
+captions bottom-band — **GOD-voice s1 verse = GREEN (b05-b09), narrator = WHITE, NO RED
+anywhere** (correct: OT, no red-letter); card clean (no typo-squares), frames "prove me"
+as an OFFER not a threat (content-care — no fear/judgment/flood-disaster). DROP-CHECK:
+`concat_base` = 14 clips == 14 BEATS (no dropped beat). No trailing dead-air.
+
+Ship commit A hash noted in SESSION-LOG. Reviewer card v191 repointed to the
+media-production-v2 mp4, deployed to Firebase + live-verified. `Appr` stays ⬜
+(Cameron's alone). Complaint stays OPEN until he approves the fixed cut.
+
+---
+
+
 **Row 191 · Malachi 3:10 · "prove me now... if I will not open you the windows of heaven."**
 State: **AUTHORED / Ready ✅** (picture map authored, `--check` PASS, open complaint CLOSED
 at $0). Fable-5 author lane, Machine A `Dev`, 2026-08-07, $0.

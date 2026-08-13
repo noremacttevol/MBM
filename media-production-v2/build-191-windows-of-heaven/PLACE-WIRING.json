@@ -1,0 +1,14 @@
+{
+ "HARVEST-LAND": {
+  "manual": true,
+  "src_beat": "s08-windows-of-heaven",
+  "src_build": "build-191-windows-of-heaven",
+  "src_file": "build-191-windows-of-heaven/assets/s08-windows-of-heaven.jpeg"
+ },
+ "STOREHOUSE": {
+  "manual": true,
+  "src_beat": "s01-storehouse-at-dawn",
+  "src_build": "build-191-windows-of-heaven",
+  "src_file": "build-191-windows-of-heaven/assets/s01-storehouse-at-dawn.jpeg"
+ }
+}
