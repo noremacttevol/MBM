@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 05:22:35",
+ "scanned": "2026-08-13 05:32:52",
  "entries": [
   {
    "row": 1,
@@ -57101,6 +57101,191 @@
    "night": false,
    "n_person": 1,
    "scene": "Along the reedy bank several ordinary people of different ages stand turned toward the soft warm light lying over the water \u2014 a young man, an old woman, a worker, a child \u2014 each distinct face open and considering, every "
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b01",
+   "file": "build-173-dead-shall-hear/assets/s01-the-hour-is-coming.jpeg",
+   "tokens": [
+    "TEMPLE-COURT",
+    "BACKGROUND-CAST"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In a bright stone temple court the camera stands back past the shoulders and backs of a gathered crowd \u2014 men and women of Jerusalem seated and standing on the worn paving \u2014 and looks toward Jesus, a warm Middle Eastern m"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b02",
+   "file": "build-173-dead-shall-hear/assets/s02-the-crowd-listens.jpeg",
+   "tokens": [
+    "TEMPLE-COURT",
+    "BACKGROUND-CAST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close among the crowd in the temple-court light: two or three ordinary Jerusalem faces of different ages turn toward the speaker, arrested and half-disbelieving, leaning in to be sure of what they have heard. Worn paving"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b03",
+   "file": "build-173-dead-shall-hear/assets/s03-his-voice.jpeg",
+   "tokens": [
+    "TEMPLE-COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A quiet close on Jesus in the temple-court light \u2014 a warm Middle Eastern man in a plain cream robe, dark wavy shoulder-length hair and a full dark beard, warm brown eyes steady as he speaks, calm authority in his face. P"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b04",
+   "file": "build-173-dead-shall-hear/assets/s04-verily-verily.jpeg",
+   "tokens": [
+    "TEMPLE-COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus in the temple court, one hand lifting a little from his side with solemn weight as he speaks \u2014 the warm cream robe, the dark beard, the steady brown eyes \u2014 declaring a thing already beginning. Worn paving "
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b05",
+   "file": "build-173-dead-shall-hear/assets/s05-voice-of-the-son-of-god.jpeg",
+   "tokens": [
+    "TEMPLE-COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus, his face lifted a little in quiet certainty as he names the voice the dead will hear as his own \u2014 the plain cream robe, the dark wavy hair and full beard, warm brown eyes calm and sure. The bright temple "
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b06",
+   "file": "build-173-dead-shall-hear/assets/s06-they-shall-live.jpeg",
+   "tokens": [
+    "TEMPLE-COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus in the temple-court light extends an open hand toward the gathered people, his face warm and sure as he promises life to those who hear \u2014 the cream robe, the dark beard, a gesture that gives rather than commands. P"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b07",
+   "file": "build-173-dead-shall-hear/assets/s07-made-life-calls-it-back.jpeg",
+   "tokens": [
+    "TEMPLE-COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Jesus in the temple court, calm and full of quiet power, his warm brown eyes steady and his hand resting open at his side \u2014 the one who made life speaking of calling it back, the promise settling over the crow"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b08",
+   "file": "build-173-dead-shall-hear/assets/s08-marvel-not.jpeg",
+   "tokens": [
+    "TEMPLE-COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on Jesus, an open steadying hand raised gently as if to calm the crowd's astonishment, his face patient and sure \u2014 the cream robe, the dark beard, the warm brown eyes \u2014 telling them not to marvel, for the hour is c"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b09",
+   "file": "build-173-dead-shall-hear/assets/s09-shall-come-forth.jpeg",
+   "tokens": [
+    "TEMPLE-COURT"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Jesus in the temple-court light opens an arm outward toward the far distance as he speaks of every grave hearing his voice and coming forth \u2014 the cream robe, the dark wavy hair, warm brown eyes wide with the sweep of the"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b10",
+   "file": "build-173-dead-shall-hear/assets/s10-all-of-them.jpeg",
+   "tokens": [
+    "RESURRECTION-GROUND",
+    "BACKGROUND-CAST"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The camera looks across a low grassy burial hillside in the first warm light of morning, past the backs of a few nearest figures: all across the slope, whole and healthy people of every age in ordinary earth-toned wool a"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b11",
+   "file": "build-173-dead-shall-hear/assets/s11-every-grave-shall-open.jpeg",
+   "tokens": [
+    "RESURRECTION-GROUND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Closer on the hillside: one plain rock tomb stands open to the warm dawn, and from its low doorway a whole, living person in ordinary earth-toned wool steps out upright and steady, restored and alive, the morning light o"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b12",
+   "file": "build-173-dead-shall-hear/assets/s12-none-left-in-the-ground.jpeg",
+   "tokens": [
+    "RESURRECTION-GROUND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "On the dawn hillside a risen person already on their feet reaches an open hand down to another and helps them up from the grassy ground, both whole and clothed in earth-toned wool, both alive \u2014 the strong and simple pict"
+  },
+  {
+   "row": 173,
+   "build": "build-173-dead-shall-hear",
+   "beat": "v2-r173-b13",
+   "file": "build-173-dead-shall-hear/assets/s13-to-hear-him-is-to-live.jpeg",
+   "tokens": [
+    "RESURRECTION-GROUND"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on one risen person's face lifted into the warm dawn light, a breath drawn and the eyes open, calm and fully alive \u2014 an ordinary weathered face restored, the whole promise resting on this one living look. The dew"
   }
  ]
 }
