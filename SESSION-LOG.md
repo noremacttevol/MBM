@@ -11,7 +11,7 @@ Session-chain verified at start: prior top entry row 142 light-of-the-world QC-V
   - **No open complaint on this row → nothing to regress.**
 - **Outcome:** clean row verified, **NO re-cut** ($0/0 gens — a clean row is not touched). Board Claim → **QC-OK 2026-08-13**; build QC.md carries the verify note. Cut stands as shipped; Appr stays ⬜ (Cameron's alone).
 
-Commit: `PENDING` (board QC-OK + build QC.md verify note + this SESSION-LOG; no mp4/art change)
+Commit: `1df64abc3` (board QC-OK + build QC.md verify note + this SESSION-LOG; no mp4/art change)
 
 ---
 
