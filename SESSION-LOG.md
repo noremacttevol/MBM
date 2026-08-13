@@ -1,3 +1,22 @@
+## 2026-08-13 ~13:58 (Opus picture-runner lane, unattended/headless) — Row 164 "The unity of the faith" (Eph 4:11-14) requested, **BOARD-WIDE `gemini-3-pro-image` OUTAGE STILL ONGOING — NO ROW BUILDABLE, $0/0 gen** — Machine A `Dev`
+
+Session-chain verified: prior top entry row 160 STILL-PARK, commit `59d70ff69` present in `git log --oneline -5`; `hostname`=Dev=Machine A. Task = PROMPT-OPUS-RUNNER, run next Ready rows starting at AUTHOR-BOARD row 164 (lowest first, THE LOW-NUMBER LAW).
+
+**Isolated the endpoint FIRST, before any ceremony/claim (every row draws the same endpoint, so an outage blocks all of them identically — no point claiming a row that can't bank a frame).** Two-part probe, decisive:
+- **`GET /v1beta/models` (auth/billing probe):** HTTP **200 in 0.33s**, `models/gemini-3-pro-image` present in the list → key **HEALTHY, authenticated, reaches Google, NOT a prepay/billing wall** (no 429, no "prepayment credits depleted"). No top-up needed; no inbox escalation.
+- **`POST …gemini-3-pro-image:generateContent` (the actual image endpoint):** hung with **NO response** — probe #1 killed at 120s, probe #2 returned **HTTP 000 after a full 60s** (pure connection hang, not an HTTP error). The generation endpoint is serving zero images board-wide.
+- **Corroboration:** `api-spend.jsonl` last board-wide frame = **12:22:14** (row 159 b01); at ~13:58 that is **~96 min, ZERO frames from ANY lane** = board-wide, not local. Same self-healing Google-side image-endpoint outage that parked rows 159 & 160 repeatedly today.
+
+**Row selection note (LOW-NUMBER LAW):** the task named 164, but the true lowest buildable Ready row is **159** (AUTHORED, Ready ✅, empty claim, 1 still banked) — 155/156/157 have FILLED audio-fix handoff claims (skip per PARALLEL-LANES rule 1), 160/163 also lower + empty-claim, 162 is RUNNING. Moot this session: **every one of them draws the dead endpoint**, so the correct action is the same — none can be built.
+
+**Parked clean, no board mutation.** Did NOT flip any row RUNNING or claim in QUEUE.md — nothing banks, and flipping RUNNING would falsely strand a row (prior sessions' precedent: leave AUTHORED / Ready ✅ / Claim BLANK so autopilot or the next runner re-picks fresh the instant a new `api-spend.jsonl` frame appears from any lane). Resume commands already sit in rows 159/160 QC.md; rows 163/164 build from AUTHORED via the standard runner loop (portraits → promote NEW plates → gen beats → FULL-CUT GATE → assemble → ship) once the endpoint answers. No inbox escalation (transient, self-recovers — row 159/160 precedent; key/billing proven fine above).
+
+**COST:** $0.00 (0 images, 0 TTS) — meter unchanged at **$711.00**. No reroll budget touched. **$/row this session $0, rerolls 0% — no overage.**
+
+Commit: this SESSION-LOG commit below (row 164 requested — board-wide outage still-down confirmation)
+
+---
+
 ## 2026-08-13 ~13:50 (Opus picture-runner lane, unattended/headless) — Row 160 "The stone cut without hands" (Dan 2:44) re-attempted, **STILL PARKED: `gemini-3-pro-image` board-wide outage ongoing ($0/0 gen)** — Machine A `Dev`
 
 Session-chain verified: prior top entry row 160 PARK, commit `3320f4be9` present in `git log --oneline -5`; `hostname`=Dev=Machine A. Task = PROMPT-OPUS-RUNNER, resume row 160 (lowest Ready first, THE LOW-NUMBER LAW). Cross-checked QUEUE.md row 160 = "The stone cut without hands" Dan 2:44 = build-160-stone-cut (Daniel 2) — NOT swapped/replaced, legit to build. Pre-flight all green: `AUDIO_FROM_V1_SEGMENTS=True` present, `v2_prompt.py --check` PASS (21 beats v4), `.approvals.json` "160" absent → **COMPLAINT LEDGER none open**.
