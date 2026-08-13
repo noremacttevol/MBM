@@ -1,0 +1,26 @@
+{
+ "CAMP": {
+  "manual": true,
+  "src_beat": "s01-moses-pitched-a-tent-a",
+  "src_build": "build-105-face-to-face",
+  "src_file": "build-105-face-to-face/assets/s01-moses-pitched-a-tent-a.jpeg"
+ },
+ "CLEFT": {
+  "manual": true,
+  "src_beat": "s21-so-god-did-the-gentlest",
+  "src_build": "build-105-face-to-face",
+  "src_file": "build-105-face-to-face/assets/s21-so-god-did-the-gentlest.jpeg"
+ },
+ "MOSES": {
+  "manual": true,
+  "src_beat": "s05-not-his-power",
+  "src_build": "build-105-face-to-face",
+  "src_file": "build-105-face-to-face/assets/s05-not-his-power.jpeg"
+ },
+ "TENT": {
+  "manual": true,
+  "src_beat": "s01-moses-pitched-a-tent-a",
+  "src_build": "build-105-face-to-face",
+  "src_file": "build-105-face-to-face/assets/s01-moses-pitched-a-tent-a.jpeg"
+ }
+}

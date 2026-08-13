@@ -52,3 +52,13 @@ RESUME (author): add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py
 (renders narration from the V1 build's own mp3s at extract_beats offsets,
 nothing re-voiced), then this row is BUILDABLE. See the row-92-100 batch and
 rows 74/78/80 for the same fix.
+
+## ✅ RUNNER BUILT + SHIPPED — 2026-08-13 (Machine A `Dev`, Opus runner, headless)
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 105` shows no OPEN reviewer complaint). First V2 realistic build of this row.
+
+- **26/26 realistic stills**, Moses locked by promote-first plate (MOSES from s05) → consistent ~80yo grey-white-bearded man in madder-red-over-charcoal across all 25 appearances; CAMP/TENT from s01, CLEFT from s21 also promoted. Face/beard-board PASS.
+- **GOD NEVER EMBODIED** (build's own strictest law): pillar of cloud is cloud (b06/b11), face-to-face intimacy carried by warm tent light (b07/b09/b13/b15), the cleft glory is brilliant light passing (b21/b22/b23), covering = sheltering shadow. No figure/face/hand/silhouette anywhere. b26 person-free closing tent.
+- **3 rerolls / 26 = 11.5%** (≤15%): b06 (was stacked triptych + steam → single-frame pillar of cloud), b10 (was ambiguous over-shoulder partner → solo warm Moses), b24 (was full halo-burst on shining face → localized facial shine, people shielding eyes, per author's "bright skin, no halo" law). ~$3.89 Gemini (29 gens × $0.134), under the $6.10 baseline.
+- **AUDIO REBUILD PASS** SHA256 `8f3417de…` (AUDIO_FROM_V1_SEGMENTS=True, 18 V1-dir new-voice mp3s, 164.3s — nothing re-voiced/re-timed).
+- **FULL-CUT GATE** on all 26 rendered beats + caption frames + question card: captions bottom-band only (white narration / green scripture), question card clean margins, no modern objects, anatomy/hands clean, no cream robe, no lens-stare.
