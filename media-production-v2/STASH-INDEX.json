@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 05:32:52",
+ "scanned": "2026-08-13 05:43:33",
  "entries": [
   {
    "row": 1,
@@ -57286,6 +57286,290 @@
    "night": false,
    "n_person": 1,
    "scene": "A close on one risen person's face lifted into the warm dawn light, a breath drawn and the eyes open, calm and fully alive \u2014 an ordinary weathered face restored, the whole promise resting on this one living look. The dew"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b01",
+   "file": "build-177-make-me-a-sanctuary/assets/s01-the-camp-in-the-wilderness.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera looks down from a low rise in a high three-quarter view across the wilderness camp at dusk: dozens of low tents of dark goats'-hair cloth spread over the stony desert basin ringed by bare tan hills, cook-fires"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b02",
+   "file": "build-177-make-me-a-sanctuary/assets/s02-moses-on-the-mount.jpeg",
+   "tokens": [
+    "SINAI-MOUNT",
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera stands a little below and behind Moses and looks up past his back as he stands alone high on the bare stone mountain, head bowed and still, listening, the heavy cloud wrapping the slopes above him and the tiny"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b03",
+   "file": "build-177-make-me-a-sanctuary/assets/s03-let-them-make-me-a-sanctuary.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A nearer view across the camp toward the central tabernacle tent \u2014 a plain rectangular tent of dark goats'-hair curtains standing raised among the circled dwelling tents \u2014 with a soft low cloud of presence resting quietl"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b04",
+   "file": "build-177-make-me-a-sanctuary/assets/s04-a-place-among-you.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP",
+    "MOSES",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "In the camp Moses stands with a small knot of the people at the cleared centre-ground and gestures to the open space where the tabernacle tent will stand, the dwelling tents close on every side \u2014 a place for God to live "
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b05",
+   "file": "build-177-make-me-a-sanctuary/assets/s05-not-a-far-off-palace.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on the plain tabernacle tent itself among the camp \u2014 dark goats'-hair curtains, plain wooden frame, dust and cook-smoke around it, ordinary and humble in the low light. It is deliberately a modest near tent and n"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b06",
+   "file": "build-177-make-me-a-sanctuary/assets/s06-tents-circled-around.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera looks down from high above in a near-overhead three-quarter view over the whole camp: the single plain tabernacle tent stands in the middle and the people's dark tents are pitched in a wide ring circling aroun"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b07",
+   "file": "build-177-make-me-a-sanctuary/assets/s07-the-ark-the-table-the-lampstand.jpeg",
+   "tokens": [
+    "TABERNACLE-HOLY",
+    "THE-ARK",
+    "MOSES",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The camera looks across the warm lamplit tabernacle interior from behind the working craftsmen: the three gold-worked sacred pieces stand together on woven mats \u2014 the ark of acacia and gold with its two carved gold cheru"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b08",
+   "file": "build-177-make-me-a-sanctuary/assets/s08-there-i-will-meet-with-thee.jpeg",
+   "tokens": [
+    "TABERNACLE-HOLY",
+    "THE-ARK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A reverent close on the ark in the lamplit holy place: the gold acacia chest and its solid-gold lid, the two carved gold cherubim facing each other with wings arched over toward the middle, and the quiet open air directl"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b09",
+   "file": "build-177-make-me-a-sanctuary/assets/s09-between-the-two-cherubims.jpeg",
+   "tokens": [
+    "TABERNACLE-HOLY",
+    "THE-ARK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A tight insert looking along the gold lid between the two carved gold cherubim: their inward-facing figures and arched wings frame the quiet open space above the mercy seat, warm lamp light catching the worked gold. The "
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b10",
+   "file": "build-177-make-me-a-sanctuary/assets/s10-what-the-measurements-were-for.jpeg",
+   "tokens": [
+    "TABERNACLE-HOLY",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on an artisan's work-worn hands stretching a knotted cord and a plain wooden straightedge along the edge of the gold-worked ark, measuring and marking a point with care in the lamp light \u2014 the exact and careful c"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b11",
+   "file": "build-177-make-me-a-sanctuary/assets/s11-right-there-above-the-lid.jpeg",
+   "tokens": [
+    "TABERNACLE-HOLY",
+    "THE-ARK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A steady, quiet close framing the solid-gold mercy-seat lid and the still air directly above it, held between the two carved gold cherubim whose arched wings reach in from either side \u2014 the exact place named: right there"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b12",
+   "file": "build-177-make-me-a-sanctuary/assets/s12-he-gave-them-an-address.jpeg",
+   "tokens": [
+    "TABERNACLE-HOLY",
+    "THE-ARK",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the lamplit holy place, two robed bearers lower the finished gold ark by its two gold carrying-poles and set it down in its appointed spot on the woven mat, the carved gold cherubim catching the lamp light \u2014 a fixed, "
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b13",
+   "file": "build-177-make-me-a-sanctuary/assets/s13-i-am-near.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close, low view of the central tabernacle tent seen from within the ring of the people's dwelling tents, the ordinary homes pressed right up close around it, cook-fires and everyday life just steps away in the warm eve"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b14",
+   "file": "build-177-make-me-a-sanctuary/assets/s14-for-theirs.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on two or three ordinary faces of the camp \u2014 a weary father, a mother with a child \u2014 resting near the tabernacle tent in the evening light, their expressions quiet and comforted to have God settled among them. Th"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b15",
+   "file": "build-177-make-me-a-sanctuary/assets/s15-in-the-middle-of-ordinary-days.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Everyday life of the camp goes on close beside the central tabernacle tent in the warm daylight \u2014 a woman kneeling to grind grain, a child at play in the dust, a man mending a strap in a tent doorway \u2014 plain ordinary day"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b16",
+   "file": "build-177-make-me-a-sanctuary/assets/s16-a-people-on-the-move.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera looks across the desert from behind the moving column as the people strike camp and set out \u2014 tents rolled and shouldered, the covered sacred furniture borne along on its poles by robed bearers among the walki"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b17",
+   "file": "build-177-make-me-a-sanctuary/assets/s17-the-promise-was-fixed.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP",
+    "THE-ARK",
+    "ISRAELITES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Within the moving procession the covered ark rides steady and central on its gold poles, borne on the shoulders of robed bearers with the people walking close around it across the desert \u2014 everything else shifting and tr"
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b18",
+   "file": "build-177-make-me-a-sanctuary/assets/s18-a-tent-in-the-desert.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The tabernacle tent stands quiet in the camp under a clear, brightening dawn sky, the desert hills pale gold with first light and the dwelling tents still around it \u2014 a hopeful, forward-looking hush over the place where "
+  },
+  {
+   "row": 177,
+   "build": "build-177-make-me-a-sanctuary",
+   "beat": "v2-r177-b19",
+   "file": "build-177-make-me-a-sanctuary/assets/s19-god-pitching-his-tent.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera looks across the whole camp at dawn from a low rise in a high three-quarter view, past the backs of a few early risers below: the central tabernacle tent pitched right beside the people's dwelling tents, a sof"
   }
  ]
 }
