@@ -117,7 +117,7 @@ BEATS = [
     {
         "id": "v2-r153-b02", "out": "s02-and-peter-a-fisherman-turned.jpeg", "seg": "n1",
         "window": "4.73-10.62", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE", "CROWD"],
+        "locks": ["PETER", "TEMPLE", "CROWD"],
         "narration": (
             "And Peter, a fisherman turned preacher, stood up among them to "
             "explain what they had really just seen."
@@ -128,8 +128,11 @@ BEATS = [
             "The explanation stands up wearing a fisherman's "
             "shoulders: Peter rises on the porch steps above "
             "the pressing crowd — the broad net-hauling "
-            "frame, the weathered face that three years of "
-            "following and one terrible weekend remade — "
+            "frame of the mid-thirties fisherman the cast "
+            "sheet fixes, thick dark curly hair and full "
+            "dark beard, sea-tanned but unmistakably young, "
+            "his face set with three years of following and "
+            "one terrible weekend now behind him — "
             "and the amazed voices fall away toward him "
             "row by row, a congregation assembling itself "
             "around a man who was mending nets the year "
@@ -141,7 +144,7 @@ BEATS = [
     {
         "id": "v2-r153-b03", "out": "s03-silver-and-gold-have-i.jpeg", "seg": "s6",
         "window": "11.19-18.37", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE", "LAMEMAN"],
+        "locks": ["PETER", "TEMPLE", "LAMEMAN"],
         "narration": (
             "Silver and gold have I none; but such as I have give I thee: "
             "In the name of Jesus Christ of Nazareth rise up and walk."
@@ -165,7 +168,7 @@ BEATS = [
     {
         "id": "v2-r153-b04", "out": "s04-i-have-no-money-peter.jpeg", "seg": "n1b",
         "window": "19.85-21.60", "wide": False, "jesus": False, "ref": False,
-        "locks": ["LAMEMAN"],
+        "locks": ["PETER", "LAMEMAN"],
         "narration": "I have no money, Peter told him.",
         "must_show": "the empty hands close — Peter's open worn palms filling the frame, nothing in them; poverty stated plainly.",
         "must_not_show": "no halo; the EMPTINESS exact — two worn palms, no coin.",
@@ -185,7 +188,7 @@ BEATS = [
     {
         "id": "v2-r153-b05", "out": "s05-and-in-the-name-of.jpeg", "seg": "n1b",
         "window": "21.60-26.64", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE", "LAMEMAN"],
+        "locks": ["PETER", "TEMPLE", "LAMEMAN"],
         "narration": (
             "And in the name of Jesus Christ of Nazareth, he told a man who "
             "had never walked to stand up."
@@ -208,7 +211,7 @@ BEATS = [
     {
         "id": "v2-r153-b06", "out": "s06-he-had-nothing-in-his.jpeg", "seg": "n1b",
         "window": "26.64-31.78", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE", "LAMEMAN"],
+        "locks": ["PETER", "TEMPLE", "LAMEMAN"],
         "narration": (
             "He had nothing in his pockets, and he gave away the only thing "
             "he had that was worth anything."
@@ -233,7 +236,7 @@ BEATS = [
     {
         "id": "v2-r153-b07", "out": "s07-turn-back-to-god-he.jpeg", "seg": "n2",
         "window": "34.60-36.45", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE", "CROWD"],
+        "locks": ["PETER", "TEMPLE", "CROWD"],
         "narration": "Turn back to God, he said.",
         "must_show": "the sermon's core — Peter's arm sweeping a full turning ARC before the crowd; repentance drawn as a change of direction.",
         "must_not_show": "no halo; the arc READABLE — a turn, not a wag; the crowd tracking it.",
@@ -350,7 +353,7 @@ BEATS = [
     {
         "id": "v2-r153-b12", "out": "s12-repent-ye-therefore-and-be.jpeg", "seg": "kv19",
         "window": "60.43-68.08", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE", "CROWD"],
+        "locks": ["PETER", "TEMPLE", "CROWD"],
         "narration": (
             "Repent ye therefore, and be converted, that your sins may be "
             "blotted out, when the times of refreshing shall come from the "
@@ -376,7 +379,7 @@ BEATS = [
     {
         "id": "v2-r153-b13", "out": "s13-but-peter-pointed-to-something.jpeg", "seg": "n4",
         "window": "69.58-73.66", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE", "LAMEMAN", "CROWD"],
+        "locks": ["PETER", "TEMPLE", "LAMEMAN", "CROWD"],
         "narration": "But Peter pointed to something even larger than one person's fresh start.",
         "must_show": "the widening — Peter's arm lifting FROM the healed leaping man TO the whole court, city and sky beyond; one healing as sample of all.",
         "must_not_show": "no halo; the arc FROM the man TO everything — the scale-jump readable.",
@@ -423,7 +426,7 @@ BEATS = [
     {
         "id": "v2-r153-b15", "out": "s15-his-message-was-not-complicated.jpeg", "seg": "n2",
         "window": "32.31-34.60", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE"],
+        "locks": ["PETER", "TEMPLE"],
         "narration": "His message was not complicated.",
         "must_show": "the plainness — close on Peter's plain direct face mid-sermon: a fisherman's simplicity carrying heaven's content.",
         "must_not_show": "no halo; NOTHING ornate — the plain face and plain words.",
@@ -701,6 +704,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "LAMEMAN": "PLACE-REF/lameman.jpeg",  # build-153-restitution s03-silver-and-gold-have-i (manual)
     "TEMPLE": "PLACE-REF/temple.jpeg",  # build-06-two-sons v2-r006-b21
 }
 # === end PLACE-PLATES ===

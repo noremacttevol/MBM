@@ -107,3 +107,36 @@ The 16 non-Peter frames (refreshing b09/b10/b11, kv b12 is Peter... actually b12
 python3 media-production-v2/v2_gen_api.py build-153-restitution --only v2-r153-b02 v2-r153-b03 v2-r153-b04 v2-r153-b05 v2-r153-b06 v2-r153-b07 v2-r153-b12 v2-r153-b13 v2-r153-b15 v2-r153-b18 --redo --ceiling <meter+~4>
 # then FULL-CUT GATE (face-board Peter against character_refs peter), v2_assemble 153 (AUDIO LOCK must pass), ship+deploy+verify.
 ```
+
+---
+
+## ✅ AUTHOR-FIX DONE — 2026-08-13 (Machine A `Dev`, Fable-5 author lane, headless) — Peter identity root-caused & fixed, State→BUILT for paid cfix regen
+
+**$0. No stills generated. Author-lane edits only (beats_v2.py locks + prose). The park's "add ref:True" instruction was WRONG and is corrected here.**
+
+### The mechanism (verified in code, not guessed)
+- `v2_gen_api.py` `GLOBAL_CAST` maps `"PETER" → "peter"`; `CAST-V2-REF/peter-front.jpeg` + `peter-quarter.jpeg` both exist (3.2 MB each, ≫50 KB). So **putting `"PETER"` in a beat's `locks` auto-attaches the peter reference SHEET *and* injects the canonical PETER lock TEXT** (`v2_prompt.py` `CAST_LOCKS['PETER']`: mid-thirties, thick dark curly hair, full dark beard, weathered olive skin, BLUE-GREY tunic — never cream — + dun-brown mantle).
+- The `ref` flag is **the Jesus face lock ONLY** — `face_b64 = b64_file(JESUS_REF)` (v2_gen_api.py:367), attached only when `beat.get("ref")` is truthy (line 422); `check()` ties `ref` to `jesus:True`. **Setting `ref:True` on a Peter-only beat would inject JESUS's face into an Acts scene that has no Jesus — a defect, not a fix.** The park note conflated the two. Left `ref:False` everywhere (correct; matches peer build-103 b04/b06, which render Peter correctly with `PETER` in locks + `ref:False, jesus:False`).
+- TRUE root cause was therefore SINGLE, not double: **PETER absent from every beat's `locks`** → no sheet, no lock text, prose-only → the model invented an older grey man and drifted the robe (charcoal/brown vs locked blue-grey).
+
+### The fix (author lane)
+1. Added `"PETER"` to `locks` on the **9 REAL Peter beats**: b02, b03, b04, b05, b06, b07, b12, b13, b15. `ref` stays False (no Jesus in this row).
+2. **b18 EXCLUDED (park note was wrong to list it).** b18 is scrolls-only — its `must_show`/`must_not_show`/scene all say "No people are needed in this frame." It renders no Peter figure; adding PETER would force a person into a no-people frame. `locks` stays `[]`.
+3. Softened b02's aging prose: dropped "the weathered face that three years of following and one terrible weekend **remade**" (which nudged an aged Peter) → "the broad net-hauling frame of the **mid-thirties fisherman the cast sheet fixes, thick dark curly hair and full dark beard, sea-tanned but unmistakably young**…". Verified: assembled b02 now contains `PETER LOCK` + `mid-thirties` + `BLUE-GREY`, and no longer contains `remade`.
+4. `python3 v2_prompt.py build-153-restitution --check` → **v4 checklist PASS** (26 beats).
+5. LAMEMAN plate (PLACE-REF/lameman.jpeg, promoted from s03 last session) + temple.jpeg force-added to the repo (PLACE-REF is gitignored). PLACE-WIRING.json already tracked.
+
+### Handoff — State NEEDS-REBUILD → **BUILT** (paid cfix/runner lane owns the targeted re-cut)
+Only a PAID targeted regen remains (this session is $0-image by law), so per PROMPT-FABLE5-AUTHOR "When your author work on a NEEDS-REBUILD row is DONE" the board State is flipped to **BUILT** (complaint stays OPEN, no literal `C-FIX <date>` in Claim). The 16 non-Peter frames are byte-identical carryover; only the 9 Peter beats regenerate (~$1.2, spend mostly carries from the parked $3.48).
+
+**RESUME (paid lane) — regenerate ONLY the 9 Peter beats:**
+```
+python3 media-production-v2/v2_gen_api.py build-153-restitution --only v2-r153-b02 v2-r153-b03 v2-r153-b04 v2-r153-b05 v2-r153-b06 v2-r153-b07 v2-r153-b12 v2-r153-b13 v2-r153-b15 --redo --ceiling <meter+~2>
+# gen log must show "[+1 char ref: PETER]" on each. Then FULL-CUT GATE:
+#   - face-board Peter across all 9 vs CAST-V2-REF/peter-front.jpeg (mid-30s, dark curly hair, dark beard, blue-grey tunic — NOT grey/old, NOT charcoal/brown robe)
+#   - VERIFY b13 renders Peter at ~1:12 sweeping FROM the healed man TO the court (closes the OPEN "1:12 needs Peter" complaint)
+# then v2_assemble.py 153 (AUDIO_FROM_V1_SEGMENTS already True; AUDIO LOCK must pass), ship + deploy + live-verify.
+```
+
+### OPEN complaint still open (do NOT close until the fixed cut is approved)
+"1:12 is weird picture — needs Peter" → b13 compositionally puts Peter's arm sweeping from the healed leaping man across the court; identity is now fixable via the PETER lock. Stays OPEN until the regenerated cut ships and Cameron approves.
