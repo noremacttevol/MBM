@@ -1,3 +1,48 @@
+## ✅ C-FIX SHIPPED 2026-08-13 — Opus runner, Machine A `Dev`, ~$0.27, 2 rerolls (4.3% of 46 beats)
+
+**Billing wall CLEARED overnight** (row-95 paid gens 01:34/01:36 today, meter live).
+After 13 billing-parked passes, landed the touch-once fix Cameron asked for.
+
+**COMPLAINT LEDGER (both open complaints — CLOSED this cut):**
+1. "2:37 jonah was 3 times bigger than the people he was walking around, fix it."
+   → beat **v2-r118-b28** (s28, window 153.56–158.63) regenerated. New frame:
+   camera high/back over the gate plaza, Jonah a SMALL mid-distance sea-green
+   figure walking away toward the winged-bull gate; foreground townsfolk drawn
+   LARGER than him, people at his depth exactly his height. VERIFIED off the
+   rendered mp4 @157s — no giant/hero-scale figure; consistent human scale.
+2. "The people in 3:08 look dead, fix it."
+   → beat **v2-r118-b33** (s33, window 181.76–193.28) regenerated. New frame:
+   the repentant crowd is now LIVING — warm natural skin, faces flushed and
+   weeping, hands raised in prayer, children pressed to mothers, king kneeling
+   in sackcloth at center; ash on cloth/brow only, never on skin. VERIFIED off
+   the rendered mp4 @188s — no grey/ashen/statue/terracotta tone.
+
+**AUTOPSY (rubric meta-law 3) — verdicts (already staged in beats_v2.py, --check PASS v4):**
+- b28: ALLOWED. Old scene put Jonah as a large foreground figure; nothing capped
+  relative scale. FIX = added same-scale constraint (L953 must_show "no larger
+  than any townsperson," L996 "no single figure looms out of proportion,"
+  camera high/back so nearest-lens townsfolk are drawn larger than he is).
+- b33: CAUSED. "ashes"+haircloth monochrome pushed the model to grey clay skin.
+  FIX = living-warm-skin constraint (L1146 must_show "LIVING people with warm
+  natural skin," L1147 must_not_show "grey/ashen/corpse-like skin... statue-like,"
+  L1178 "ash on cloth/brow only; never greys or deadens the skin").
+
+**FULL-CUT GATE (6b):** extracted one mid-window frame per beat from the NEW mp4
+(46/46) + 3 caption frames. ALL CLEAN — Jonah identity + scale consistent every
+frame, 100% realistic (no cartoon/mix), action-logic reads, no modern objects,
+no anatomy/glowing-eye fails, captions bottom-band, scripture green, clean
+question card. Only b28+b33 touched; the 44 other frames unchanged from the
+2026-08-11 clean gate.
+
+**Assemble:** AUDIO REBUILD PASS, SHA256=172b62c7… (byte-identical to the approved
+audio; AUDIO_FROM_V1_SEGMENTS=True). 278.2s, 21.4 MB.
+
+Rerolls 2/46 = 4.3% (≤15% budget). Cost ~$0.27, far below the $6.10/row avg —
+the COST LAW trend holds (touch-once, reused the 44 passing stills, regen only
+the 2 flagged beats). Ships two-commit + deploy + live-verify per RUNNER step 7.
+
+---
+
 ## ⛔ C-FIX BILLING RE-CHECK 2026-08-12 (13th board-wide) — Opus runner, Machine A `Dev`, $0, 0 credits
 
 Complaint-first + lowest-waiting → row 118 again (Cameron's task: fix his 2:37
