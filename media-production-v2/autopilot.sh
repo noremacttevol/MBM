@@ -313,6 +313,22 @@ case "$JOB" in
     exit 0 ;;
 esac
 
+# MODEL ESCALATION (Cameron, 2026-08-12: "is opus actually better?" — no; Fable
+# is the higher tier, Opus is ~half the per-token weight against the weekly
+# allowance). Routine one-pass jobs stay on Opus (cheaper); a row that has
+# ALREADY burned 2+ sessions of the SAME job type in 24h is where cheap passes
+# get expensive (row 63 ate 16 Opus cfix sessions; row 117 nine verifies) —
+# escalate that row to the default model (Fable) so one smart pass ends the
+# loop instead of a 3rd/4th/16th cheap failure.
+if [ ${#MODEL_ARGS[@]} -gt 0 ]; then
+  TRIES=$(find "$LOGDIR" -maxdepth 1 -name "2*-$JOB.log" -mmin -1440 -print0 2>/dev/null \
+    | xargs -0 -r grep -l "AUTHOR-BOARD row $ROW\b" 2>/dev/null | wc -l)
+  if [ "${TRIES:-0}" -ge 2 ]; then
+    log "row $ROW has $TRIES prior $JOB sessions in 24h — escalating this run from Opus to the default (Fable) model"
+    MODEL_ARGS=()
+  fi
+fi
+
 # ROW-OWNERSHIP GUARD (2026-08-11): a lane owns its target row via a pid-marked
 # file, so two ticks can never launch sessions at the SAME row (the 10:34/10:44
 # row-17 pile-on — sessions read briefs for ~10 min before touching the build,
