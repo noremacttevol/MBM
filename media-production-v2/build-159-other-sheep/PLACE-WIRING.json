@@ -1,8 +1,20 @@
 {
+ "FAR-COUNTRY": {
+  "manual": true,
+  "src_beat": "s11-people-they-had-never-met",
+  "src_build": "build-159-other-sheep",
+  "src_file": "build-159-other-sheep/assets/s11-people-they-had-never-met.jpeg"
+ },
  "FOLD": {
   "manual": false,
   "src_beat": "v2-r021-b12",
   "src_build": "build-21-lost-sheep",
   "src_file": "build-21-lost-sheep/assets/s12-the-ninety-nine-behind.jpeg"
+ },
+ "HILLSIDE": {
+  "manual": true,
+  "src_beat": "s01-on-a-hillside-surrounded-by",
+  "src_build": "build-159-other-sheep",
+  "src_file": "build-159-other-sheep/assets/s01-on-a-hillside-surrounded-by.jpeg"
  }
 }

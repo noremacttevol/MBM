@@ -165,3 +165,65 @@ HILLSIDE (all-Jesus beats) + FAR-COUNTRY (2 beats) stay TEXT-LOCK, do NOT promot
 from a Jesus/subject frame (row-152/row-1050 precedent). Then `v2_assemble.py 159`
 (AUDIO LOCK PASS) → FULL-CUT GATE 20/20+card from the RENDERED mp4 → ship (two
 commits) → deploy + live-verify → stash --scan → publish_ledger sync.
+
+---
+
+## RUNNER BUILD + SHIP — 2026-08-13 (Opus picture runner, Machine A `Dev`, headless)
+
+**Endpoint RECOVERED** (other lanes gen'ing frames ~1 min before claim; api-spend
+last frame in EDT clock). Claimed row 159 RUNNING (`A-auto 2026-08-13`), built the
+19 remaining beats on the banked SHEPHERD portrait + s01, shipped.
+
+### COMPLAINT LEDGER (LEARNING LAW)
+- `.approvals.json["159"]` = NO ENTRY, `v2_outline.py 159` shows no open complaint,
+  QUEUE cross-check PASS (John 10:16 "Other sheep I have" = build-159-other-sheep,
+  NOT the purged row-134 dupe). **COMPLAINT LEDGER: none open.**
+
+### Plates
+- HILLSIDE promoted from banked s01 (manual) → wired to the 5 Jesus beats
+  (b01/b07/b09/b10/b15). FAR-COUNTRY promoted from b11 (after reroll) → wired to
+  b11/b12. FOLD kept as the committed build-21 plate (did NOT `--wire`, per lesson).
+
+### Light QC — every source frame viewed (20/20)
+- SHEPHERD identity consistent across b02/04/06/14/17/18/19/20 (Middle-Eastern ~35,
+  black hair+beard, brown wool NOT cream, olivewood staff). Jesus consistent +
+  cream-only across b01/07/09/10/15; hand-flat-at-chest on kv14 (I-AM signature).
+- Direction law held: home-world/fold frame-LEFT, far-country frame-RIGHT; b10
+  Jesus points RIGHT, b16 outsider sheep gazes LEFT, b17/19 shepherd travels L→R,
+  b20 far sheep mid-stride to the gateless opening. Two flocks EQUAL (b13). FOLD =
+  open stone enclosure, NO gate/bars (b14/b20). Realistic photography, no cartoon/mix.
+
+### Rerolls (COST LAW: budget 15% of 20 = 3; used 2 = 10% ✓)
+- **b11 FAR-COUNTRY (reroll 1):** first take put the far-country children in bright
+  RED tracksuit + GREEN modern jersey = historical-coherence fail (lesson 6). Autopsy
+  = ALLOWED (FAR-COUNTRY lock is "unnamed/universal", never pinned first-century garb).
+  Reroll landed period earth-toned hooded cloaks, warm dusk, no map/doctrine props.
+- **b10 (reroll 2):** first take rendered a DUPLICATE JESUS (second long-haired
+  bearded cream-robed figure in the far country, in a glowing mist) = second-cream +
+  duplicated sacred figure + glow. Autopsy = ALLOWED (nothing forbade a background
+  figure across the water). Reroll: single Jesus, back to camera, pointing RIGHT to
+  the far country, no double, clean anatomy.
+
+### FULL-CUT GATE (6b) — from the RENDERED mp4
+- concat_base.txt = 20 files = BEATS (no dropped-beat; card_start check OK). AUDIO
+  LOCK PASS SHA256=8bcd7cab6b2d13748ac22f3161c544ac3bf6369d59f24b2eb0f7717378198c5d,
+  142.4s / 19.3 MB.
+- Caption law verified on rendered frames: narrator WHITE (n7), Jesus red-letter RED
+  (kv14 "I am the good shepherd…", kv16 "And other sheep I have…" — both speaker=jesus,
+  correct red-letter, NOT blue), all in the bottom band, two-line synced, never over
+  the art. Closing card clean serif on cream, no typo-squares, correct margins,
+  question "When you hear his voice, will you follow?"
+
+### FIX-WAVE (non-blocking, logged; not rerolled — COST/recurrence)
+- Small yellow plastic livestock EAR-TAGS appear on some sheep across several frames
+  (b02/04/05/06/13/14/16/20) — a modern object (lesson 6). Tiny at Ken-Burns/phone
+  scale, background only, never a foreground/named-complaint subject; rerolling won't
+  reliably remove them (model's sheep carry them) and would blow the 15% budget.
+  Durable fix is an AUTHOR-lane `must_not_show` "no ear tags / no plastic livestock
+  tags" clause on every sheep beat. Logged to RUNNER-LESSONS.
+
+### COST
+- This session: **2 rerolls / 20 beats = 10%** (≤15% ✓, under the 19% baseline).
+  ~24 paid images this session (s01 was pre-banked; b11 ×2, b10 ×2, +18 batch) ≈
+  **~$2.68**. Meter moved $713.42 → ~$718.91 (shared with concurrent lanes). $/row
+  well under the $6.10 average — cost trending DOWN per COST LAW.
