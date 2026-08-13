@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T05:14:47_
+_Last sync: 2026-08-13T05:22:58_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 66 row(s)
+- **BUILDING** — 65 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 9 row(s)
+- **ON REVIEWER — awaiting Cameron** — 10 row(s)
 
 ## The rows
 
@@ -125,7 +125,7 @@ _Last sync: 2026-08-13T05:14:47_
 | 102 | Jacob's Ladder | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 103 | Peter's Confession | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 104 | The Boy Samuel | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 105 | Face to Face, as a Friend | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 106 | God Spake by the Prophets | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
 | 107 | John the Baptist's Doubt | ✅ 2026-08-08 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 108 | My Sheep Hear My Voice | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
