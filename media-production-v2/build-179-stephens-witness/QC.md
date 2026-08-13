@@ -130,3 +130,25 @@ b10 37.334 · b11 42.059 · b12 48.912 · b13 52.842 · b14 54.711 · (hold to c
 3. Re-run the plain runner (skips the kept frames), FULL-CUT GATE the regens against the council Stephen as the face-board anchor, then assemble + ship.
 
 **Audio untouched** (default stream-copy from the 2026-07-29 V1 mp4). **Board:** State RUNNING → NEEDS-REBUILD, claim cleared for the author lane. No card change (old cut stays where it is; the redo is not ready).
+
+---
+
+## ✅ AUTHOR-LANE FIX DONE (2026-08-13, Fable-5 author lane resume, Machine A `Dev`, $0) → row set AUTHORED + Ready ✅ for the picture runner
+
+**Full FACE-BOARD (viewed every Stephen frame) — the drift was WORSE than the park logged: at least THREE Stephens.**
+- **On-lock (warm olive-tan, dark hair/eyes, short dark beard, oatmeal — canonical):** s03, s10, s14 (and the small-in-frame wides s01/s08). KEPT.
+- **Pale drift (light/European skin, light or blue eyes, minimal beard — violates "warm olive-tan, NEVER fair"):** s02, s04, s06.
+- **Cream-wardrobe violation (cream robe + brown mantle, some also pale or older):** s09, s11, s12, s13.
+- **Vision (s05/s07):** GOOD — the two separate glorified personages that answer Cameron's complaint. KEPT untouched.
+
+**Author fix applied ($0, no generation):**
+1. **Pinned an on-lock STEPHEN image ref** — root cause was `REFS = {}`. Cropped two head-and-shoulders portraits from the delivered on-model frames — `STEPHEN-REF/stephen-front.jpeg` (from s10, frontal) + `STEPHEN-REF/stephen-quarter.jpeg` (from s03, three-quarter): warm olive-tan skin, dark hair, dark eyes, short dark beard, oatmeal-and-brown tunic. Wired into `REFS["STEPHEN"]` (a list = two angles). `cast_refs_for()` now attaches this face to every beat whose `locks` name STEPHEN, so every regen converges on ONE man. Committed (force-added; `assets/` + `CAST-REF-V2/` are gitignored).
+2. **Tightened the STEPHEN lock** — reconciled the age to "about thirty," added hard bans the drift needed: NEVER pale/fair/European complexion, NEVER blue/grey/green/light eyes, NEVER cream/white/bleached cloth; "the reference portrait IS his face and outranks these words."
+3. **Deleted ONLY the 7 off-model stills** for regen — s02, s04, s06, s09, s11, s12, s13. Kept the 7 on-lock frames (s01, s03, s05, s07, s08, s10, s14) + both place plates + the vision.
+
+**`v2_prompt.py --check` = PASS (14 beats).** `v2_gen_api --dry-run` = exactly **7 shots pending, est ~$0.94** (kept frames skipped, COST LAW). Audio still default stream-copy (untouched).
+
+### 🅿️ RUNNER — remaining work (fresh runner lane, complaint-first)
+1. `v2_gen_api build-179-stephens-witness` regenerates the 7 deleted frames ONLY — the STEPHEN ref auto-attaches (`[+char ref: STEPHEN:...]` in the log). Reroll any regen that still drifts off the ref face/wardrobe or breaks RESTRAINT (b09-b13 martyrdom: no stone striking, no wound, no blood).
+2. **FULL-CUT GATE** the whole cut against the pinned ref as the face-board anchor — all 14 Stephen frames must read as the SAME olive-tan short-dark-bearded man in oatmeal-and-brown (never cream), the vision two-personages preserved, the two SCRIPTURE captions (s1 b07, s60 b12) light-blue not red.
+3. Assemble (AUDIO LOCK), deploy, live-verify. **Review card MUST tell Cameron:** *"The vision now shows the Father and the Son as two separate glorified beings, the Son standing at the Father's right hand — done in the reverent Latter-day Saint gospel-art style you asked for."* (Stephen is now one consistent man across the whole video.)

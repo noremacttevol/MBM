@@ -107,14 +107,19 @@ LOCKS = {
         "throughout."
     ),
     "STEPHEN": (
-        "STEPHEN LOCK: the same young man in every shot — a Hellenist Jewish "
-        "believer of about thirty, warm olive-tan Middle-Eastern skin, short dark "
-        "brown hair and a short dark beard, calm steady dark eyes, an open honest "
-        "face full of peace. He wears a simple undyed oatmeal-and-brown rough wool "
-        "tunic and mantle (NEVER cream, never white, never fine cloth). The SAME "
-        "man throughout — never twinned, never a cloned face, ordinary-sized, two "
-        "hands, one head. His mark is serenity: even accused and dying his face is "
-        "unafraid, luminous with peace, 'the face of an angel.'"
+        "STEPHEN LOCK: the SAME man in every shot, identical to the attached "
+        "reference portrait (that image IS his face and outranks these words) — a "
+        "Hellenist Jewish believer of about thirty with WARM OLIVE-TAN / brown "
+        "Middle-Eastern skin (NEVER pale, NEVER fair, NEVER a light or European "
+        "complexion), short dark brown-black hair, a SHORT dark beard, and calm "
+        "steady DARK BROWN eyes (NEVER blue, grey, green or otherwise light eyes). "
+        "An open, honest face full of peace. He wears a simple undyed "
+        "OATMEAL-AND-BROWN rough-wool tunic and mantle — earth-toned only, NEVER "
+        "cream, never white, never bleached, never fine cloth. The SAME man "
+        "throughout — same age, same colouring, same beard — never twinned, never "
+        "a cloned face, ordinary-sized, two hands, one head. His mark is serenity: "
+        "even accused and dying his face is unafraid, luminous with peace, 'the "
+        "face of an angel.'"
     ),
     "SANHEDRIN": (
         "SANHEDRIN LOCK: the council are older Jewish men of the ruling court — "
@@ -413,9 +418,17 @@ PLACE_REFS = {
 }
 # === end PLACE-PLATES ===
 
-# No image REFS: every person is carried by a byte-identical text lock (no face
-# sheets exist for these figures). NO mortal Jesus and NO cream in this row; the
-# glorified vision figures (b05/b07) are carried by the GLORIFIED-FATHER /
-# GLORIFIED-SON text locks above.
+# STEPHEN image ref (2026-08-13, author lane — the fix for the two-Stephens
+# face-board failure): the text lock alone let Stephen drift across the video —
+# olive/dark in some council frames, pale/light-eyed in others (s02/s04/s06), and
+# an older cream-robed man outdoors (s09/s11/s12/s13). Root cause was REFS={} (no
+# image anchor). Two on-lock head-and-shoulders portraits are now pinned — both
+# cropped from the delivered on-model frames (front from s10, quarter from s03):
+# warm olive-tan skin, dark hair, dark eyes, short dark beard, oatmeal-and-brown
+# tunic, never cream. cast_refs_for() attaches them to every beat whose `locks`
+# name STEPHEN, so every regenerated Stephen frame converges on this one face.
+# (The glorified vision figures b05/b07 stay text-lock-only — those frames are
+# GOOD and are not regenerated.)
 REFS = {
+    "STEPHEN": ["STEPHEN-REF/stephen-front.jpeg", "STEPHEN-REF/stephen-quarter.jpeg"],
 }
