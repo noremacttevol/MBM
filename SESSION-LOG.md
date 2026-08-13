@@ -1,3 +1,21 @@
+## 2026-08-13 (cont. 94) — Row 118 C-FIX SHIPPED: fixed Cameron's 2:37 giant-Jonah + 3:08 dead-crowd complaint (billing restored) — Machine A `Dev`, Opus runner
+
+Complaint-first + lowest-waiting → row 118 (open since 2026-08-12, billing-parked 13×).
+Billing wall CLEARED overnight (row-95 paid gens 01:34/01:36 today). Landed the
+touch-once fix:
+- Confirmed BOTH complaints off the live mp4 (ffmpeg -ss 157 / -ss 188): 2:37 Jonah
+  larger than same-depth townsfolk; 3:08 crowd grey/terracotta = "look dead".
+- Regenerated only the 2 flagged beats (staged fix already --check PASS v4):
+  b28 (2:37) → high/back camera, Jonah SMALL mid-distance, consistent scale;
+  b33 (3:08) → LIVING warm-skinned praying crowd, ash on cloth/brow only.
+- FULL-CUT GATE (6b): one mid-window frame per beat off the NEW mp4, 46/46 clean +
+  3 caption frames; only b28/b33 changed, 44 others match the 08-11 clean gate.
+- AUDIO REBUILD PASS byte-identical (SHA 172b62c7, AUDIO_FROM_V1_SEGMENTS=True).
+- Rerolls 2/46 = 4.3% (≤15%); cost ~$0.27 (far below $6.10/row avg — COST LAW trend holds).
+- Shipped: commit 924f1c51, review card v118 rewritten (both complaints answered in
+  Cameron's words, billing-parked note removed), deployed + live-verified.
+
+Commit: b0127ce3a880e5df8ba0adb93e71e52faaf973d6
 ## 2026-08-13 (cont. 93) — FULL THROTTLE for Cameron's "all 200 tonight": API confirmed OPEN (auto-reload landed), 12 stranded ready rows FREED, row 140 rerouted to author lane, cron 10min->5min + 4->6 lanes, escalation-crash hotfix — Machine A `Dev`, process-engineer session
 
 Cameron: "there is money now do like we have discussed. also i want all 200 made into new versions tonight."
