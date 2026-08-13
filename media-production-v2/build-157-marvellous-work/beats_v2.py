@@ -85,6 +85,14 @@ LOCKS = {
 
 REF = True
 
+# AUDIO-FIX 2026-08-13 (Machine A `Dev`, audio lane, $0): STALE-V1 (row-141 class,
+# both tripwires). The V1 mp4 is genuinely stale (209.8s vs 173.9s current
+# timeline) AND all 13 V1-dir mp3s voice-ID'd as ElevenLabs new-voice (44100 Hz /
+# 128 k; audio-eleven.log confirms all 13 cast) are newer than it. Rebuild the
+# track from the new-voice mp3s at extract_beats offsets — no re-voice, no still
+# regen; the stale longer mp4 stream is never touched.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r157-b01", "out": "s01-the-prophet-isaiah-painted-a.jpeg", "seg": "n1",
