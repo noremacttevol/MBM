@@ -1,3 +1,17 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 146 VINE & BRANCHES C-FIX#2: REPEAT complaint, prior fix's "14/14 PASS" was FALSE — Machine A `Dev`, ~$0.67 Gemini
+
+Complaint-first + low-number: row 146 was the lowest waiting row with an OPEN complaint. Cameron, against the LIVE C-FIX#1 cut (commit d4b437a00): *"0:47 man has multiple arms / 0:40 some bystanders have white faces / 1:19 Jesus missing a hand… all three problems are still there you fixed nothing and wasted my time and credits."* He was right — I extracted every frame from the live mp4 and confirmed all three defects survived; C-FIX#1's "14/14 PASS, verified in the rendered mp4" was never actually checked against the render (the row-11 failure class).
+
+- **TRACE (live mp4, not beat names):** 0:40 → b04 (back-row faces still cool/ashen in moonlight); 0:47 → b09 (three hands STACKED + over-long forearm = "extra arm"); 1:19 → b14 (Jesus behind the trunk, forearm-tangle hid a hand) and the 79.0s fade-to-black (brightness 6.9) into the card.
+- **AUTOPSY:** b04 = **IGNORED** (skin-tone words maxed but no warm fill → back faces drained) → added in-frame oil-lamp warm fill + shallow ring + PHOTOREAL clause. b09 = **ALLOWED** ("2–3 hands on one branch" invited stacking) → EXACTLY 3 hands, one per man, clear GAPS, no overlap. b14 = **ALLOWED** ("against the trunk" occluded a hand) → Jesus CLEAR of trunk, both hands cupping the disciple's hand, five fingers each, bright.
+- **5 rerolls** (b04×2 — first drifted painterly; b09×1; b14×2 — first left 2nd hand at side), all mandatory complaint-fixes, ≤2/frame, ~**$0.67**, meter $639.85→$641.99. 11 beats reused untouched. **Audio byte-identical** — AUDIO REBUILD PASS SHA256 `ae063a39`, nothing re-voiced.
+- **FULL-CUT GATE — re-verified in the NEW rendered mp4 (what C-FIX#1 skipped):** 14/14 beats extracted at mid-window + 3 caption/card frames viewed. 0:40 warm lamplit ring, no white faces, photoreal; 0:47 three separated hands; 1:16 Jesus clear of trunk, both hands, lit. Jesus locked face + cream-only + no halo (b01/b02/b07/b10), green-cut vs withered pair, captions bottom-band (RED Jesus KJV/WHITE narrator), card clean. **14/14 + card PASS.**
+- **Ship:** commit `38f237b16787` (mp4 force-added, QC.md #2 entry, beats_v2 hardened prompts, s04/s09/s14, AUTHOR-BOARD SHIPPED, QUEUE). Reviewer card repointed (data-hash `38f237b16787…`, ?v=38f237b16787, flag admits the prior false-pass and answers each complaint in Cameron's words) + SESSION-LOG. **Deployed to Firebase + LIVE-VERIFIED.** Appr stays ⬜ (Cameron's alone). RUNNER-LESSONS: warm crowds need a practical fill light; hands-on-one-branch need explicit N + gaps; never put Jesus behind a trunk for a clasp; cozy-lamp scenes drift painterly without a photoreal clause; **META — never claim FULL-CUT PASS without looking at the RENDERED frame.**
+
+Commit: 38f237b1678723f530afaa343f251d4451c976f4 (ship) / d81838bd7 (card+log)
+
+---
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 140 THE BRONZE SERPENT V2 FIRST CUT SHIPPED: b17 MOSES-lock cleared, Naaman-dupe complaint RESOLVED by story replacement — Machine A `Dev`, ~$0.26 Gemini
 
 Ran AUTHOR-BOARD row 140 (lowest Ready ✅, complaint-first). Cross-checked QUEUE.md FIRST: the row was legitimately REPLACED by Cameron (Naaman → Bronze Serpent, approved 2026-08-13, old build archived) — building it IS the resolution to his story-dupe complaint, not an unauthorized swap. Resumed the author's park: the author had built 24 stills (23 PASS) and cleared the b17 identity block by adding `"MOSES"` to b17 `locks`.
