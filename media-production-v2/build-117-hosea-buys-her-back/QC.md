@@ -4,9 +4,27 @@ Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 38 beats, ~215 s.
 
 ## COMPLAINT LEDGER
-COMPLAINT LEDGER: none open. `v2_outline.py 117` shows no filed Cameron
-complaint on this row (V1 was a Flow build; no reviewer complaint recorded).
-This is a first-attempt realistic-v2 cut.
+- **CLOSED 2026-08-13 (AUDIO):** Cameron — *"it was all good until the very
+  end where you miss pronounced 'Dramatized' — fix that audio at the very end
+  and its good."* → FIXED: the closing question card's first word "dramatized"
+  was mispronounced (Brian's natural read rose into the 2nd syllable =
+  "druh-MAT-ized"). Re-voiced the card ONLY through ElevenLabs Brian with the
+  spoken respell "DRAMatized" (caption spelling unchanged), picked the best of
+  6 takes by front-stress energy+pitch (falling contour 124→108 Hz vs the
+  original's rising 112→121 Hz), atempo-locked to the original card duration so
+  NO downstream still-window moved. Verified on the SHIPPED mp4 at ~3:35 (215.4s):
+  now reads "God DRAM-uh-tized …", front-stressed (e_front 0.192 > e_back 0.157).
+  Nothing else in the audio changed.
+
+## AUDIO-FIX SHIPPED (2026-08-13, Machine A `Dev`, audio lane)
+- File re-voiced: `media-production/build-117-hosea-buys-her-back/audio/card.mp3`
+  (V1 dir — AUDIO_FROM_V1_SEGMENTS=True ships from here; V2-dir copy updated too).
+- Audio baseline: **card.mp3 md5 03f3d9e4 → 9e9cc0d6**; full mp4
+  **SHA256 358dd0f3…** (AUDIO REBUILD PASS, 229.746s, 20.8 MB). ElevenLabs Brian,
+  44100 Hz / 128 k — same voice, same wording, same timing outside the card.
+- Cost: $0 Gemini, ~10 short ElevenLabs card takes (candidate + robustness +
+  6-take batch), 0 image reroll. 38 stills UNCHANGED (no picture re-cut —
+  complaint-first / touch-once).
 
 ## RUNNER RESUME (2026-08-09, Machine A `Dev`, Opus runner)
 Previous autopilot lane DIED after generating all 38 frames, before assembly.
