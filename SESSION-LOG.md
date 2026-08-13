@@ -1,3 +1,21 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 143 I AM THE DOOR (John 10:1-9) REALISTIC-V2 FIRST CUT SHIPPED (RESUME of a died-mid-build RUNNING lane): 10/10 beats + card CLEAN, gen 3 beats $0.40/0 rerolls (0%) — Machine A `Dev`
+
+Session-chain verified at start: prior top entry row 133 what-jesus-called-hell QC-VERIFY, commit `1df64abc3` present in `git log`; `hostname`=Dev=Machine A. Target = AUTHOR-BOARD row 143 (State RUNNING, Claim A-auto) — a prior autopilot lane DIED mid-build.
+
+- **RUNNER-LESSONS already-shipped check FIRST:** no committed mp4, no `segs/`, review card carried the OLD V1 hash `d3b94ba6…` (data-built 2026-07-29, NO `realistic-v2` wave) → genuinely UNbuilt, not shipped → resumed rather than ticking BUILT. 7 stills (s01–s07) existed from the crashed session; portraits/plate already committed (SHEPHERD ref + FOLD plate present).
+- **LEARNING LAW / guards:** `v2_prompt --check` PASS (10 beats), `.approvals.json` row 143 `approved:false`/`complaint:null`, `v2_outline.py 143` shows NO open complaints. **COMPLAINT LEDGER: none open.** Audio already fixed (`AUDIO_FROM_V1_SEGMENTS=True`, STALE-V1 resolved 2026-08-11) → AUDIO REBUILD PASS.
+- **Generated only the 3 remaining beats** b08/b09/b10 at **$0.40**, ceiling $729 (= meter $703.37 + 3×0.134×1.5 + 25), meter → $704.04. Passing frames s01–s07 never re-pulled (COST LAW). **0 rerolls (0% of 10 beats — well under the 15% budget; cheapest possible resume).**
+- **FULL-CUT GATE 6b:** extracted one mid-window frame per beat from the RENDERED mp4 (10 beats) + 2 card frames, viewed EVERY one → **10/10 beats + card CLEAN.**
+  - Jesus b03/b07: cream ONLY on Jesus, ONE locked face, no halo/glow/rim-light, ordinary scale; RED KJV captions exact (John 10:7 b03 "Verily, verily… I am the door of the sheep"; John 10:9 b07 "by me if any man enter in, he shall be saved, and shall go in and out").
+  - SHEPHERD consistent (brown robe, dark beard, ~mid-30s Middle Eastern) across every fold beat. **Gap law held:** open gap, NO gate/bars in every frame; b07 Jesus stands in the opening; b10 shepherd lies across the opening under stars. Wall-climber b04 non-violent over the FAR wall; directions correct (IN at dusk b06, OUT at bright morning b08).
+  - Realistic-only (Law 14, no cartoon/mix), no modern objects, anatomy/hands clean. Captions bottom-band only (narrator WHITE / Jesus KJV RED); reflection card clean serif, no typo-squares. Audio 63.156s ≈ video 63.167s, no dead tail; concat_base = 10 clips = 10 beats (no dropped beat).
+- **Shipped** `john-10_i-am-the-door.mp4` 19.0 MB / 63.2s. Two commits (mp4+QC+boards, then review.html card + this log). Board State → **BUILT**; Appr stays ⬜ (Cameron's alone). Deployed to Firebase + live-verified.
+- **COST:** $0.40 this row vs running average $6.10/row — the cheapest kind of row (a resume that reused 7/10 banked stills at 0% rerolls); pushes the average DOWN per the COST LAW.
+
+Commit: `41a4da252` (mp4 + QC.md + AUTHOR-BOARD + QUEUE) + review.html card + this SESSION-LOG below.
+
+---
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 134 TODAY SHALT THOU BE WITH ME IN PARADISE (Luke 23:43 + John 20:17) REALISTIC-V2 FIRST CUT SHIPPED (RESUME of a dead lane): 18/18 beats + captions + card CLEAN, NO re-cut ($0/0 gens) — Machine A `Dev`
 
 Session-chain verified at start: prior top entry row 133 what-jesus-called-hell QC-VERIFY, commit `ad04eebe1` (SESSION-LOG) + `1df64abc3` (ship) present in `git log`; `hostname`=Dev=Machine A.
