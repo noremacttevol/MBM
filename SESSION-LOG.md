@@ -1,3 +1,21 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 136 HEALED IN TWO TOUCHES (Mark 8:22-26) QC-VERIFY PASS (FULL-CUT GATE 6b): shipped cut verified CLEAN before Cameron's eyes reach it, 10/10 beats + card, NO re-cut ($0/0 gens) — Machine A `Dev`
+
+Session-chain verified at start: prior top entry row 139 lamp-on-a-stand QC-VERIFY, commit `bec414597` present in `git log`; `hostname`=Dev=Machine A. VERIFY-PASS target = AUTHOR-BOARD row 136 (BUILT, sitting in Cameron's Unwatched queue, shipped earlier this same day by the prior Opus runner at $1.88/3 mandatory reroll-pulls).
+
+- **Approval-guard FIRST (the untouchable check):** read `.approvals.json` myself — row 136 `approved:false`, `approvedHash:null`. NOT a current approval → eligible for verify; the 3 AM 2026-08-12 approved-row re-cut failure (rows 1/122/129) does not apply. Live card `data-hash=fad1dba080ed8a1986bcce9aeaf3783f86844835` == the row-136 SHIP commit == what `milk-b4-meat.web.app/review.html` serves; working-tree mp4 blob `a76dbd37` matches that commit; mp4 URL HTTP 200, 18,731,522 B. Claimed the board Claim cell (`QC-VERIFY … LIVE`, pushed `fe6fa57df`) BEFORE viewing any frame.
+- **FULL-CUT GATE 6b:** extracted ONE mid-window frame per beat from the rendered mp4 + 2 card frames, viewed EVERY one. **10/10 beats + card CLEAN.**
+  - Jesus ONE locked face b01/b02/b03/b05/b06/b08/b10 (cream ONLY on Jesus, no halo/glow/rim-light, warm ref eyes, ordinary scale every frame).
+  - BLINDMAN teal-blue tunic + one face across the blind→seeing arc (clouded→half-clear→clear); beard slightly fuller in b01 than the rest but SAME man — no shave/grow flip (the row-52/91 defect class is absent).
+  - b04 trees-walking blur INTENTIONAL (painted half-vision, near world crisp) vs b07 full clarity (villagers crisp); b07 man looks DOWN at the leaf — no lens-stare (prior 2 rerolls held); b08 Jesus present, clear mutual eye-contact (prior Jesus-dropped reroll held).
+  - b03 first touch = hand cradling cheek/jaw (the authored FIX-WAVE compromise) — tender, NO fluid, faces apart (not a kiss), reads as a healing touch. Acceptable, not blocked.
+  - Direction gates OK: b02 leads OUT through the gate away from town; b10 sends the man HOME by the away-road with a staff. Anatomy/hands clean every frame; realistic-only (no cartoon/mix, Law 14); no modern objects. Captions narrator-WHITE / Jesus-KJV-RED on b10 (j1) bottom-band only; reflection card clean serif, no typo-squares; normal outro fade, no dead tail (audio 49.061s ≈ video 49.066s).
+  - **No open complaint on this row (`v2_outline.py 136`) → nothing to regress.**
+- **Outcome:** clean row verified, **NO re-cut** ($0/0 gens — a clean row is not touched). Board Claim → **QC-OK 2026-08-13**; build QC.md carries the verify note. Cut stands as shipped; Appr stays ⬜ (Cameron's alone).
+
+Commit: `259be1e5d` (board QC-OK + build QC.md verify note; no mp4/art change) + SESSION-LOG below
+
+---
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 139 THE LAMP ON A STAND (Matthew 5:14-16) QC-VERIFY PASS (FULL-CUT GATE 6b): shipped cut verified CLEAN before Cameron's eyes reach it, 10/10 beats + card, NO re-cut ($0/0 gens) — Machine A `Dev`
 
 Session-chain verified at start: prior top entry row 136 healed-in-two-touches CARD+LOG, ship commit `fad1dba080ed` present in `git log`; `hostname`=Dev=Machine A. VERIFY-PASS target = AUTHOR-BOARD row 139 (BUILT, sitting in Cameron's Unwatched queue, shipped by the prior Opus runner session at $1.34/0 rerolls).
