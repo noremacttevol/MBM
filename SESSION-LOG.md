@@ -8,7 +8,7 @@ VERIFY-PASS per PROMPT-OPUS-RUNNER.md 6b (independent FULL-CUT GATE of a BUILT/u
 - **Live delivery verified:** card `data-hash=0399188f` live on milk-b4-meat.web.app, mp4 serves (HTTP 206), video==audio==91.833s (no dropped beat, no drift).
 - **Cost: $0 / 0 rerolls.** mp4 byte-identical, card hash unchanged, nothing deployed (cut unchanged). Board claim marked `QC-OK 2026-08-13`. Row awaits ONLY Cameron's Approve.
 
-Commit: PENDING (QC-VERIFY package: AUTHOR-BOARD claim→QC-OK, QC.md verify section, this SESSION-LOG entry; verify-hash stamp below)
+Commit: 258921a4e91ecb9b3730bce495e8c42e51041404 (QC-VERIFY package: AUTHOR-BOARD claim→QC-OK, QC.md verify section, this SESSION-LOG entry; verify-hash stamp below)
 
 ---
 
