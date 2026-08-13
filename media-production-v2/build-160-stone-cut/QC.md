@@ -149,3 +149,31 @@ endpoint recovers. No inbox escalation (transient endpoint, self-recovers — ro
 2. Promote-first the 4 NEW plates: COURT (b01), DREAM-PLAIN (b03), STATUE (b03), STONE (b06). STATUE & STONE are PROP tokens — reject any auto-place suggestion.
 3. `python3 media-production-v2/v2_gen_api.py build-160-stone-cut --ceiling <…>` (21 beats).
 4. Light QC + FULL-CUT GATE (watch: WITHOUT-HANDS = no hand/tool/figure at the stone EVER; statue metal order gold→silver→bronze→iron→iron+clay; b02 metals-list = collage/panel/diptych magnet; person-free b07 socket = floating-figure risk; no embodied-Jesus/God drift on closing kingdom frame; OT = no cream). Assemble (AUDIO REBUILD PASS), ship, deploy, live-verify.
+
+---
+
+## 🅿️ RUNNER PARK — gemini-3-pro-image OUTAGE STILL ONGOING (Opus picture runner, Machine A `Dev`, 2026-08-13 ~13:50, $0/0 gen)
+
+**Third confirmation of the board-wide endpoint outage. Parked before any frame.**
+Pre-flight all green: `AUDIO_FROM_V1_SEGMENTS=True` present, `v2_prompt.py
+build-160-stone-cut --check` PASS (21 beats, v4), `.approvals.json` "160" absent.
+**COMPLAINT LEDGER: none open.**
+
+**Blocker (measured this session):** `gemini-3-pro-image` still hangs every gen
+call indefinitely (RUNNER-LESSONS 1378 — no read-timeout).
+- `api-spend.jsonl` last board-wide frame = **2026-08-13 12:22:14** (row 159 b01);
+  now ~13:50 → **~95 minutes, ZERO frames from ANY lane** = board-wide, not local.
+- Two `v2_story_cast build-160 --ceiling 741` probes (120 s and 300 s foreground)
+  both hung → **0 portraits, 0 frames, 0 spend** (exit 124/143). Meter unchanged
+  **$711.00**. Key HEALTHY — no 429, no "prepayment credits depleted"; pure hang.
+- 0 stills / 0 portraits banked → clean hand-back, no strand. Board left
+  **AUTHORED / Ready ✅ / Claim BLANK** (never flipped RUNNING — nothing banked).
+
+Taking "the next Ready row" is futile while the outage is board-wide (every row
+draws the same endpoint). Re-pickable by any picture lane the instant the endpoint
+recovers (first fresh `api-spend.jsonl` frame from any lane = recovered).
+
+**RESUME (picture runner, once endpoint recovers):**
+`python3 media-production-v2/v2_story_cast.py build-160-stone-cut --ceiling <meter+ (21+2)*0.134*1.5+25>`
+then `v2_gen_api.py build-160-stone-cut --ceiling …`, promote COURT (b01) /
+DREAM-PLAIN (b03) / STATUE (b03, PROP) / STONE (b06, PROP), FULL-CUT GATE, ship.
