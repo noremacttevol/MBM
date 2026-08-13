@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 05:14:46",
+ "scanned": "2026-08-13 05:22:35",
  "entries": [
   {
    "row": 1,
@@ -46228,6 +46228,394 @@
    "scene": "The closing frame keeps the listening post: the thin mat with its dented blanket in the morning's first grey-gold, the seven-branched lamp burned low beside it, the great curtain still and quiet beyond \u2014 the exact patch "
   },
   {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b01",
+   "file": "build-105-face-to-face/assets/s01-moses-pitched-a-tent-a.jpeg",
+   "tokens": [
+    "MOSES",
+    "CAMP",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "On open ground a good walk from everyone, Moses drives the last stake: one plain dark goat-hair tent standing alone on the dusty plain, its guy-lines humming in the wind \u2014 and behind it, far enough to be a journey, the w"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b02",
+   "file": "build-105-face-to-face/assets/s02-it-was-the-place-he.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The tent keeps its one purpose in the silence: Moses standing at the door flap with his staff grounded and his weathered hand on the rough cloth, the plain's wind moving past, the camp's noise a distant murmur behind him"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b03",
+   "file": "build-105-face-to-face/assets/s03-whenever-moses-walked-out-to.jpeg",
+   "tokens": [
+    "MOSES",
+    "CAMP",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The walk begins and the whole camp feels it: Moses striding out alone across the open ground toward the far dark tent, staff swinging with the old strong rhythm \u2014 and behind him, row by row down the tent streets, work st"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b04",
+   "file": "build-105-face-to-face/assets/s04-all-the-people-would-rise.jpeg",
+   "tokens": [
+    "MOSES",
+    "CAMP",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "A nation stands up at its doors, the camera down a tent-row behind the standing watchers' backs: doors: down every visible row of the great camp, figures rising at their own tent flaps \u2014 fathers with children lifted to s"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b05",
+   "file": "build-105-face-to-face/assets/s05-not-his-power.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the listening face in the tent's soft light, and on what is NOT arriving in it: no bracing against force, no squint against majesty, no flinch of a man before a throne \u2014 the deep-lined features open and at ease,"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b06",
+   "file": "build-105-face-to-face/assets/s06-as-moses-reached-the-tent.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "As his hand reaches, the camera far back behind the watching camp so pillar and tent read from the side, the flap, the sky keeps the appointment: a great column of cloud coming down out of the clear blue \u2014 unhurried, del"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b07",
+   "file": "build-105-face-to-face/assets/s07-and-the-lord-spake-unto.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Inside the dark tent the impossible intimacy: Moses seated close and easy on the woven mat, staff laid aside, leaning slightly forward the way a man leans at a friend's table \u2014 his lined face lit warm by a nearness of li"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b08",
+   "file": "build-105-face-to-face/assets/s08-not-a-master-barking-at.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The posture tells the whole theology: nothing in the old man's body of the servant braced for orders \u2014 no cringe in the shoulders, no bowed-neck flinch, no waiting-for-the-bark stillness \u2014 Moses sits level-headed and eas"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b09",
+   "file": "build-105-face-to-face/assets/s09-not-a-king-across-a.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The architecture preaches against every throne room ever built: goat-hair walls a spear-length apart, a woven mat, a man \u2014 and the warm shapeless light near enough to touch, filling the little space to its seams \u2014 no hun"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b10",
+   "file": "build-105-face-to-face/assets/s10-not-just-his-obedience-his.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the face of a man who is wanted: the deep-lined features mid-conversation, listening with the beginning of a smile in the white beard, an eyebrow raised at something said \u2014 fully himself, holding nothing in rese"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b11",
+   "file": "build-105-face-to-face/assets/s11-my-presence-shall-go-with.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT",
+    "CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The promise takes its picture at the door: Moses standing in the opened flap looking out at everything still ahead \u2014 the camp, the wilderness, the unmarked years \u2014 and beside him at the threshold, close as a companion's "
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b12",
+   "file": "build-105-face-to-face/assets/s12-not-watch-from-somewhere-far.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close on trust turning into daring: Moses's face as he turns back into the warm light with something assembling behind the old eyes \u2014 the request no one has ever made, weighing itself on his tongue \u2014 not impudence, nothi"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b13",
+   "file": "build-105-face-to-face/assets/s13-he-asked-for-the-one.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "And he asks it: down on his knees in the warm shapeless light with his arms half-lifted and his white head back \u2014 I BESEECH THEE \u2014 the words that no patriarch, no prophet, no angel-wrestler ever dared \u2014 SHEW ME THY GLORY"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b14",
+   "file": "build-105-face-to-face/assets/s14-i-will-make-all-my.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The answer comes back larger and gentler than the ask: across the kneeling face wonder breaks like slow water \u2014 granted, GRANTED \u2014 and with it the strange word the light has chosen for itself: not my majesty, not my powe"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b15",
+   "file": "build-105-face-to-face/assets/s15-show-me-your-glory-moses.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The frame holds the ask like a held breath: the old man's kneeling shape dark against the tent's filled warmth, arms open at his sides, white beard lifted \u2014 one human being and one request suspended together in the small"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b16",
+   "file": "build-105-face-to-face/assets/s16-and-god-answered-i-will.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on what a yes that size does to a man: the strong old frame bending slowly forward under it, the white head bowing not in fear but in the particular gravity of gratitude, one weathered hand coming to rest flat over"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b17",
+   "file": "build-105-face-to-face/assets/s17-not-his-greatness-his-goodness.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The tent rests inside the choice that was made: the old man quiet on the mat, the shapeless warmth filling the little room with something that can only be called kindness at scale \u2014 of all the self-portraits omnipotence "
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b18",
+   "file": "build-105-face-to-face/assets/s18-thou-canst-not-see-my.jpeg",
+   "tokens": [
+    "MOSES",
+    "TENT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The one boundary of the friendship is drawn, and drawn gently: THOU CANST NOT SEE MY FACE \u2014 and on the old listening features no wound appears, no door-slammed flinch \u2014 solemnity, rather: the stillness of a man being tol"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b19",
+   "file": "build-105-face-to-face/assets/s19-that-was-not-a-refusal.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on a no received rightly: the weathered face steady and unhurt, the deep eyes holding the cannot up to the light and finding it made of the same care as every yes before it \u2014 no disappointment settling in the old l"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b20",
+   "file": "build-105-face-to-face/assets/s20-it-was-care-the-way.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the strongest hands in Israel, open in an old man's lap: palms that shattered stone tablets and split a sea's worth of arguments, scarred and massive in the tent's warm light \u2014 and still, for one particular weig"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b21",
+   "file": "build-105-face-to-face/assets/s21-so-god-did-the-gentlest.jpeg",
+   "tokens": [
+    "MOSES",
+    "CLEFT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "High on the raw mountain the gentlest arrangement is prepared: Moses climbing the last granite shelf to the man-sized split in the sheer face \u2014 a slot of shadow exactly deep enough to hold one human being \u2014 while behind "
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b22",
+   "file": "build-105-face-to-face/assets/s22-he-tucked-moses-into-a.jpeg",
+   "tokens": [
+    "MOSES",
+    "CLEFT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "And then the passing: the whole mountain face flooding with a brilliance that turns granite to molten outline \u2014 and over the one man-sized cleft, exactly there and nowhere else, a deep sheltering shadow folded down like "
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b23",
+   "file": "build-105-face-to-face/assets/s23-he-protected-his-friend-even.jpeg",
+   "tokens": [
+    "MOSES",
+    "CLEFT"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close inside the kept darkness: Moses pressed to the cold granite with his eyes shut tight and his beard trembling in the shuddering air, the brilliance beyond the shadow's edge turning the rock rims white-hot with light"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b24",
+   "file": "build-105-face-to-face/assets/s24-and-when-moses-came-back.jpeg",
+   "tokens": [
+    "MOSES",
+    "CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Down the ordinary afternoon trail comes the extraordinary face: Moses picking his way toward camp with his mind on his footing \u2014 and the skin of his face bright as sunlit snow, bright past explaining, so that far below p"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b25",
+   "file": "build-105-face-to-face/assets/s25-that-is-what-happens-to.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on what proximity leaves behind: the old face in plain afternoon light, and in the skin of it a soft brightness that no sun accounts for \u2014 caught the way linen catches the smell of cedar, the way a stone keeps noon"
+  },
+  {
+   "row": 105,
+   "build": "build-105-face-to-face",
+   "beat": "v2-r105-b26",
+   "file": "build-105-face-to-face/assets/s26-it-began-with-a-friendship.jpeg",
+   "tokens": [
+    "TENT",
+    "CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The closing frame keeps the unlikely address: one plain goat-hair tent alone on the evening plain, its guy-lines humming, a well-trodden path worn bare between it and the distant firelit camp \u2014 no marble anywhere, no gol"
+  },
+  {
    "row": 107,
    "build": "build-107-john-baptist-doubt",
    "beat": "v2-r107-b01",
@@ -56487,6 +56875,232 @@
    "night": false,
    "n_person": 0,
    "scene": "The last frame keeps a place ready: a low wooden stool stands empty in a plain quiet room, and through the open doorway the morning light comes in and lies across it \u2014 across the seat where a person would sit, where a he"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b01",
+   "file": "build-171-baptized-for-the-dead/assets/s01-pauls-question.jpeg",
+   "tokens": [
+    "CORINTH-PORTICO",
+    "PAUL",
+    "BACKGROUND-CAST"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "In a pale colonnaded Corinth portico the camera stands back behind the shoulders of a small knot of listeners and looks toward Paul, a compact wiry balding man in a dark rust-brown robe, speaking with earnest fire among "
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b02",
+   "file": "build-171-baptized-for-the-dead/assets/s02-pressed-the-contradiction.jpeg",
+   "tokens": [
+    "CORINTH-PORTICO",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Closer in the portico light: Paul turns an open, pressing hand toward the doubters, his keen deep-set eyes steady and his pointed dark beard set, driving home a contradiction they cannot dodge \u2014 earnest fire without ange"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b03",
+   "file": "build-171-baptized-for-the-dead/assets/s03-baptized-for-the-dead.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "PROXY",
+    "MOURNER",
+    "BACKGROUND-CAST"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 3,
+   "scene": "The camera stands on the reedy bank behind a small mourning family and looks across the slow clear stream: a living believer in a plain earth-toned tunic stands waist-deep with a reverent older baptizer's hands ready at "
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b04",
+   "file": "build-171-baptized-for-the-dead/assets/s04-why-baptized-for-them.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "MOURNER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close on the mourner at the edge of the stream: an ordinary middle-aged woman in a plain head-cloth and sober deep-toned robes, her lined gentle face watching the baptism in the water with a love that reaches past it \u2014 g"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b05",
+   "file": "build-171-baptized-for-the-dead/assets/s05-the-dead-not-gone-forever.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "MOURNER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Close in the soft daylight by the stream: the mourner's face lifts a little, the grief easing as a fragile, quiet hope breaks through \u2014 the look of someone daring to believe that the one she has lost is not gone forever."
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b06",
+   "file": "build-171-baptized-for-the-dead/assets/s06-new-life-a-beginning.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "PROXY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The living believer rises straight up out of the clear stream, water streaming from face and hair and shoulders, eyes opening and a breath drawn, the baptizer's steadying hands still at the arm \u2014 baptism as new life, a b"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b07",
+   "file": "build-171-baptized-for-the-dead/assets/s07-work-for-those-who-passed.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "PROXY",
+    "MOURNER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "At the edge of the stream the newly-baptized proxy, still wet, turns to the mourning woman with a quiet steadiness, the two of them close in the soft daylight \u2014 the work just done carried out in love on behalf of one who"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b08",
+   "file": "build-171-baptized-for-the-dead/assets/s08-death-not-the-last-word.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "MOURNER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The mourner lifts her face to the bright open sky above the stream, the fragile hope of a moment ago firming into quiet conviction \u2014 the look of someone resting her weight on a single promise, that death is not the last "
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b09",
+   "file": "build-171-baptized-for-the-dead/assets/s09-christ-risen-firstfruits.jpeg",
+   "tokens": [
+    "RISEN-DAWN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the first warm light of morning the risen Christ stands alive and real at the mouth of the rock-cut tomb, the great round stone rolled back from the low dark doorway behind him, dew bright on the garden grass \u2014 a warm"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b10",
+   "file": "build-171-baptized-for-the-dead/assets/s10-not-a-metaphor.jpeg",
+   "tokens": [
+    "RISEN-DAWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A close in the dawn light on the empty tomb: the great round stone rolled aside from the low dark doorway, and within, on the stone shelf, the plain linen grave-clothes lying folded and empty \u2014 a real, solid, ordinary fa"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b11",
+   "file": "build-171-baptized-for-the-dead/assets/s11-the-grave-loses-its-grip.jpeg",
+   "tokens": [
+    "RISEN-DAWN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The risen Christ steps clear of the tomb's mouth into the full warm dawn, alive and unbound, the rolled-back stone behind him and the garden brightening around \u2014 the grip of the grave broken, shown entirely as light and "
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b12",
+   "file": "build-171-baptized-for-the-dead/assets/s12-for-all-who-belong.jpeg",
+   "tokens": [
+    "RISEN-DAWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The warm dawn light spreads across the garden from the opened tomb toward a small group of ordinary people standing in the morning \u2014 distinct faces of different ages lifting into the light, hope waking in them, His risin"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b13",
+   "file": "build-171-baptized-for-the-dead/assets/s13-in-christ-made-alive.jpeg",
+   "tokens": [
+    "RISEN-DAWN",
+    "MOURNER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "In the risen dawn light the mourning woman stands among the hopeful people at the garden, her sober robes warm now in the morning, her lined face lifted and alive \u2014 the same grief that began at the water turned toward li"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b14",
+   "file": "build-171-baptized-for-the-dead/assets/s14-reaches-across-the-veil.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "PROXY",
+    "MOURNER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "By the stream again the newly-baptized proxy and the mourning woman stand quietly together, and a soft warm light lies out across the water beyond them into a gentle distance \u2014 the ordinance done in love reaching outward"
+  },
+  {
+   "row": 171,
+   "build": "build-171-baptized-for-the-dead",
+   "beat": "v2-r171-b15",
+   "file": "build-171-baptized-for-the-dead/assets/s15-every-soul-the-chance.jpeg",
+   "tokens": [
+    "BAPTISM-WATER",
+    "BACKGROUND-CAST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Along the reedy bank several ordinary people of different ages stand turned toward the soft warm light lying over the water \u2014 a young man, an old woman, a worker, a child \u2014 each distinct face open and considering, every "
   }
  ]
 }
