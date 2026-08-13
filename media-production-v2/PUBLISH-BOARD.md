@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T07:38:46_
+_Last sync: 2026-08-13T07:45:49_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 50 row(s)
+- **BUILDING** — 49 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 25 row(s)
+- **ON REVIEWER — awaiting Cameron** — 26 row(s)
 
 ## The rows
 
@@ -199,7 +199,7 @@ _Last sync: 2026-08-13T07:38:46_
 | 176 | Who Shall Ascend | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 177 | Make Me a Sanctuary | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 178 | In Our Image | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 179 | Stephens Witness | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 179 | Stephens Witness | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 180 | Before I Formed Thee | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 181 | Morning Stars Sang | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 182 | The Spirit Returns to God | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
