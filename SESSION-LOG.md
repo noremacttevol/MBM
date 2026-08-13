@@ -1,3 +1,17 @@
+## 2026-08-12 (cont. 94) — ROW 95 (thief on the cross) C-FIX VERIFY: fix STAGED + wall CONFIRMED still up — HARD EXTERNAL BLOCK, no board churn — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
+
+**Commit:** this log only (`<this push>`). Chain verified on entry: top was cont.93, commit `f8598af96873` present in `git log` (HEAD `f8598af96`); hostname = Machine A `Dev`.
+
+**Complaint (`v2_outline.py 95`, his words):** "0:08 he should be stakes to the cross. 0:18 they are not facing each other and Jesus should be on the cross also. All should have their shirts off. All should be pinned to the cross. All should be in line parallel not across from one another … Jesus has a crown of thorns on and they all have plaques above their heads." Lowest waiting complained AUTHOR-BOARD row.
+
+**State (verified this pass, not assumed):** the crucifixion-staging fix is FULLY STAGED — all 11 beats + HILL/MOCKER/THIEF locks rewritten to three crosses in a PARALLEL forward-facing row, all men shirtless & affixed to their own cross, Jesus centre with a crown of thorns, a titulus plaque above every head. `v2_prompt.py build-95-thief-on-the-cross --check` = **PASS (11 beats, v4)**.
+
+**Billing wall — one diligent real probe (billing-wall lesson: probe ONCE, don't loop):** `v2_gen_api.py build-95-thief-on-the-cross --only b03 --redo --ceiling 645` → **429 prepay depleted**, meter unchanged **$617.34**, **$0 spent / 0 rerolls**. Identical wall on 82/116/118 (+89). No $0 path — crucifixion staging isn't croppable from a clothed free-standing frame.
+
+**Everything that reaches Cameron is current & accurate:** reviewer card v95 carries a plain-words `data-machine-reason` (fix written & checked — parallel row / stripped & pinned / plaque each head / crown of thorns; blocked only on the Google AI Studio top-up); Brain `_inbox` top-up ask names row 95 among the frozen rows. **NO 18th re-park board entry** — the cont.123/17th-pass STOP marker holds; identical re-parks only churn QC/commits and never reach him. Ships touch-once the instant billing is funded (runner resumes automatically). mp4 NOT reshipped (would repeat the complaint).
+
+---
+
 ## 2026-08-12 (cont. 93) — ROW 89 C-FIX #5 SHIPPED ($0, 0 credits): "0:14 doesn't look like Jesus" (his 5th re-open) FINALLY CLOSED via ADJACENT-ROOM crop reuse — the $0 path cont.91 missed — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
 
 **Commit:** this log + reviewer card + RUNNER-LESSON (`<will be this push>`) + `f8598af96873` (mp4 + crop asset + QC autopsy + board claim/ship). Deployed to Firebase (`milk-b4-meat`) + live-verified. Chain verified on entry: top was cont.92, commit `f77f90ebbc14` present in `git log` (HEAD `37a437ec7`); hostname = Machine A `Dev`.
