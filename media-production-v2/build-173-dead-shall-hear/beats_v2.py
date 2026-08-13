@@ -3,9 +3,19 @@
 shall hear the voice of the Son of God... and they that hear shall live... all
 that are in the graves shall hear his voice, and shall come forth").
 
-COVERAGE: 13 pictures over 58.85 s (card_start) = ~4.5 s/picture (lesson 12
+COVERAGE: 13 pictures over 54.73 s (card_start) = ~4.2 s/picture (lesson 12
 movie-coverage). ONE establishing wide per place (b01 the discourse, b10 the
 resurrection ground); every other beat is a single, a close or a two-shot.
+
+WINDOWS RE-AUTHORED 2026-08-13 (author lane, Machine A `Dev`) to the REAL V1
+audio timeline (extract_beats), closing the RUNNER PARK that dropped b13. The
+original windows summed to 58.851 s assuming a 2.744 s card, but the delivered
+card narration is 6.863 s, so the real picture-space ends at card_start = 54.732
+(= n2b seg_end). Every window is now pinned to its audio segment's boundary and
+shared segments are split on their own sentences: n1 → b02/b03, j2 → b08/b09,
+n2c → b10/b11/b12. b13 now ends exactly at card_start so all 13 render (was: the
+last beat fell entirely AFTER card_start and got a negative duration → dropped).
+NO re-voice, NO re-gen — audio + stills unchanged; only the video windows moved.
 
 OPEN CAMERON COMPLAINT (audio) — ALREADY FIXED AT SOURCE, verified: `v2_outline.py
 173` shows [OPEN — MUST BE FIXED]: "Mispronounced live at the end." The homograph
@@ -76,7 +86,7 @@ REF = True
 BEATS = [
     {
         "id": "v2-r173-b01", "out": "s01-the-hour-is-coming.jpeg", "seg": "n0",
-        "window": "0.400-8.134", "wide": True, "jesus": True, "ref": True,
+        "window": "0.400-8.003", "wide": True, "jesus": True, "ref": True,
         "locks": ["TEMPLE-COURT", "BACKGROUND-CAST"],
         "narration": "Jesus said a time was coming — and had already begun — when something impossible would happen.",
         "must_show": "the ONE establishing wide of the discourse — the camera stands back past the shoulders of a seated, standing crowd in a Jerusalem temple court, looking toward Jesus mid-teaching among them; the moment he begins to say the impossible.",
@@ -95,7 +105,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b02", "out": "s02-the-crowd-listens.jpeg", "seg": "n1",
-        "window": "8.134-11.620", "wide": False, "jesus": False, "ref": False,
+        "window": "8.003-11.600", "wide": False, "jesus": False, "ref": False,
         "locks": ["TEMPLE-COURT", "BACKGROUND-CAST"],
         "narration": "The dead would hear a voice. Not a rumor of a voice.",
         "must_show": "close on the listeners — two or three distinct faces in the crowd turning toward Jesus, caught by a claim they can hardly believe; not a rumor but a promise being spoken to them.",
@@ -112,7 +122,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b03", "out": "s03-his-voice.jpeg", "seg": "n1",
-        "window": "11.620-14.138", "wide": False, "jesus": True, "ref": True,
+        "window": "11.600-13.718", "wide": False, "jesus": True, "ref": True,
         "locks": ["TEMPLE-COURT"],
         "narration": "His voice.",
         "must_show": "close on Jesus — a quiet, steady close on his face as he speaks; the voice the dead would hear is HIS.",
@@ -129,7 +139,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b04", "out": "s04-verily-verily.jpeg", "seg": "j1a",
-        "window": "14.138-20.354", "wide": False, "jesus": True, "ref": True,
+        "window": "13.718-19.460", "wide": False, "jesus": True, "ref": True,
         "locks": ["TEMPLE-COURT"],
         "narration": "Verily, verily, I say unto you, The hour is coming, and now is,",
         "must_show": "RED-LETTER (Jesus) — Jesus speaking with solemn weight, an open hand lifting slightly as he says the hour is coming and now is; his own words on his own face.",
@@ -146,7 +156,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b05", "out": "s05-voice-of-the-son-of-god.jpeg", "seg": "j1b",
-        "window": "20.354-24.906", "wide": False, "jesus": True, "ref": True,
+        "window": "19.460-23.808", "wide": False, "jesus": True, "ref": True,
         "locks": ["TEMPLE-COURT"],
         "narration": "when the dead shall hear the voice of the Son of God:",
         "must_show": "RED-LETTER (Jesus) — Jesus naming himself the Son of God whose voice the dead will hear; quiet certainty, not spectacle.",
@@ -162,7 +172,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b06", "out": "s06-they-shall-live.jpeg", "seg": "j1c",
-        "window": "24.906-28.608", "wide": False, "jesus": True, "ref": True,
+        "window": "23.808-27.024", "wide": False, "jesus": True, "ref": True,
         "locks": ["TEMPLE-COURT"],
         "narration": "and they that hear shall live.",
         "must_show": "RED-LETTER (Jesus) — Jesus with an open, calling hand extended toward the crowd as he promises that those who hear shall live; a hand that gives life, not commands.",
@@ -179,7 +189,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b07", "out": "s07-made-life-calls-it-back.jpeg", "seg": "n2a",
-        "window": "28.608-33.222", "wide": False, "jesus": True, "ref": True,
+        "window": "27.024-31.659", "wide": False, "jesus": True, "ref": True,
         "locks": ["TEMPLE-COURT"],
         "narration": "The One who made life is the One who calls it back.",
         "must_show": "close on Jesus, calm and full of quiet power — the maker of life who calls it back; the same steady face, the promise settling.",
@@ -196,7 +206,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b08", "out": "s08-marvel-not.jpeg", "seg": "j2",
-        "window": "33.222-38.000", "wide": False, "jesus": True, "ref": True,
+        "window": "31.659-37.000", "wide": False, "jesus": True, "ref": True,
         "locks": ["TEMPLE-COURT"],
         "narration": "Marvel not at this: for the hour is coming,",
         "must_show": "RED-LETTER (Jesus) — Jesus quieting the crowd's wonder, a steadying open hand, telling them not to marvel; the hour is coming.",
@@ -213,7 +223,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b09", "out": "s09-shall-come-forth.jpeg", "seg": "j2",
-        "window": "38.000-43.335", "wide": False, "jesus": True, "ref": True,
+        "window": "37.000-40.287", "wide": False, "jesus": True, "ref": True,
         "locks": ["TEMPLE-COURT"],
         "narration": "in the which all that are in the graves shall hear his voice, and shall come forth.",
         "must_show": "RED-LETTER (Jesus) — Jesus with an arm opening outward toward the far distance as he tells that all in the graves will hear and come forth; the full sweep of the promise in his gesture.",
@@ -230,7 +240,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b10", "out": "s10-all-of-them.jpeg", "seg": "n2c",
-        "window": "43.335-46.500", "wide": True, "jesus": False, "ref": False,
+        "window": "40.287-44.200", "wide": True, "jesus": False, "ref": False,
         "locks": ["RESURRECTION-GROUND", "BACKGROUND-CAST"],
         "narration": "Not some of the dead. All of them.",
         "must_show": "the ONE establishing wide of the resurrection ground — the camera looks across a burial hillside at first light where whole, living people of every age are rising and standing in the dawn among the open tombs; not some, but all.",
@@ -249,7 +259,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b11", "out": "s11-every-grave-shall-open.jpeg", "seg": "n2c",
-        "window": "46.500-50.500", "wide": False, "jesus": False, "ref": False,
+        "window": "44.200-48.100", "wide": False, "jesus": False, "ref": False,
         "locks": ["RESURRECTION-GROUND"],
         "narration": "He said every grave will hear that same voice — and open.",
         "must_show": "closer — one plain rock tomb standing open to the warm dawn light and a whole, living person stepping out of it upright and clothed, restored to life; the grave heard and opened.",
@@ -267,7 +277,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b12", "out": "s12-none-left-in-the-ground.jpeg", "seg": "n2c",
-        "window": "50.500-55.650", "wide": False, "jesus": False, "ref": False,
+        "window": "48.100-51.356", "wide": False, "jesus": False, "ref": False,
         "locks": ["RESURRECTION-GROUND"],
         "narration": "Nobody is too far gone, and nobody gets left in the ground.",
         "must_show": "one risen person reaching down an open hand to help another up onto their feet in the dawn light; nobody too far gone, nobody left in the ground.",
@@ -285,7 +295,7 @@ BEATS = [
     },
     {
         "id": "v2-r173-b13", "out": "s13-to-hear-him-is-to-live.jpeg", "seg": "n2b",
-        "window": "55.650-58.851", "wide": False, "jesus": False, "ref": False,
+        "window": "51.356-54.732", "wide": False, "jesus": False, "ref": False,
         "locks": ["RESURRECTION-GROUND"],
         "narration": "To hear him is to live.",
         "must_show": "a close on one risen, living face lifted into the warm dawn light, breath drawn and eyes open and alive; to hear him is to live.",

@@ -1,5 +1,35 @@
 # QC / RUNNER HANDOFF — build-173-dead-shall-hear
 
+## ✅ SHIPPED 2026-08-13 (author lane, Machine A `Dev`, $0/0 rerolls) — PARK CLOSED, all 13 beats render, b13 restored
+
+The RUNNER PARK below is CLOSED. Root of the assembly block was authored windows
+summing to 58.851 s while the delivered card narration is 6.863 s, so the real
+picture-space ends at `card_start = 54.732` (= n2b seg_end from extract_beats).
+The last beat (b13 "To hear him is to live") fell entirely AFTER card_start →
+negative duration → dropped (concat_base had only 12 clips).
+
+**Author fix (option 3 — re-window to the real audio timeline, NO re-voice, NO
+re-gen):** re-anchored all 13 windows to their audio segment boundaries and split
+shared segments on their own sentences (n1→b02/b03, j2→b08/b09, n2c→b10/b11/b12);
+b13 now ends exactly at card_start (51.356→54.732). `v2_prompt --check` PASS.
+`v2_assemble 173` → **13 clips** (concat_base c000-c012), base 54.732 s + card
+6.863 s = 61.595 s. AUDIO REBUILD PASS SHA256 22299b65 (identical to the park's
+rebuild — audio untouched; only the video windows moved).
+
+**FULL-CUT GATE (§6b) on the RENDERED mp4 — one frame per beat 13/13 + card:**
+Jesus one consistent V2 face (dark wavy hair / full dark beard / cream-only /
+warm hazel eyes) across b01/b03/b04/b05/b06/b07/b08/b09, red-letter on his own
+words (j1a/j1b/j1c/j2) and white narrator on the n-beats; realistic throughout
+(no cartoon/mix); resurrection beats b10-b13 content-care CLEAN — whole,
+fully-clothed, LIVING people rising in warm dawn light among plain rock tombs,
+ZERO corpses/skeletons/bones/zombies/gore/ghosts; **b13 now RENDERS** (was the
+dropped beat) — close on one risen living face lifted into the dawn; card clean
+(no typo squares), no trailing dead-air (61.6 s, A=V). The "live"→/liv/ ending
+pronunciation fix is carried in the delivered V1 segment mp3s (re-rendered
+2026-07-29). Cameron's OPEN complaint "Mispronounced live at the end" is answered
+by this cut and now, for the first time, the corrected-audio cut can actually be
+assembled and shipped.
+
 Row 173 · John 5:25-29 ("the dead shall hear the voice of the Son of God...
 and they that hear shall live... all that are in the graves shall hear his
 voice, and shall come forth"). RESTORATION shelf. Authored fresh 2026-08-07
