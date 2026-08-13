@@ -103,13 +103,28 @@ if [ "$DRY" -eq 0 ] && [ -e "$BANNER_MARK" ]; then
   (cd "$REPO" && firebase deploy --only hosting >/dev/null 2>&1) && rm -f "$BANNER_MARK"
 fi
 
-# --- billing state (paid jobs blocked while the Gemini prepayment is dry) ----
+# --- billing state: LIVE probe, retried — never judged from stale logs -------
+# CAMERON'S RULE (2026-08-12): "its never empty you just have to try it again
+# it loads more cash automatically." So every tick PROBES the API for real
+# (3 tries, 10 s apart, $0 text call); the depleted 429 only defers PAID work
+# to the next tick's probe — the loop itself is the retry engine and resumes
+# the instant Google's auto-reload lands. Paid sessions also retry the
+# depleted 429 patiently in-run (v2_gen_api). Free work continues regardless.
 BILLING_DOWN=0
-if find "$LOGDIR" -maxdepth 1 \( -name '*-runner.log' -o -name '*-resume.log' -o -name '*-cfix.log' \) \
-     -mmin -25 -print0 2>/dev/null \
-   | xargs -0 -r grep -lE 'prepayment credits are depleted|RESOURCE_EXHAUSTED' 2>/dev/null \
-   | grep -q .; then
+GKEY="$(grep -m1 '^GEMINI_API_KEY' "$REPO/.env.mbm-media" 2>/dev/null | cut -d= -f2- | tr -d '\"'"'"' ')"
+if [ -n "$GKEY" ] && [ "$DRY" -eq 0 ]; then
   BILLING_DOWN=1
+  for _try in 1 2 3; do
+    PROBE=$(curl -s -m 30 -H 'Content-Type: application/json' \
+      -d '{"contents":[{"parts":[{"text":"ok"}]}]}' \
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=$GKEY" 2>/dev/null)
+    if ! echo "$PROBE" | grep -q 'RESOURCE_EXHAUSTED\|prepayment'; then
+      BILLING_DOWN=0
+      break
+    fi
+    sleep 10
+  done
+  [ "$BILLING_DOWN" -eq 1 ] && log "prepay 429 on live probe (3 tries) — auto-reload not landed yet; paid work retries next tick, free work continues"
 fi
 
 # --- refresh Cameron's live complaints + approvals (stale files still work)
@@ -290,7 +305,7 @@ case "$JOB" in
     MODEL_ARGS=() ;;
   *)
     if [ "$BILLING_DOWN" -eq 1 ]; then
-      MSG="billing breaker: Gemini prepayment depleted and no free (audio/author) work is open — idle. Top up at https://ai.studio/projects and the loop resumes itself."
+      MSG="prepay 429 still live and no free (audio/author) work open — idling ONE tick; the next tick re-probes (Cameron's rule: it auto-reloads, keep trying — never declare out of money)."
     else
       MSG="ALL ROWS BUILT or claimed — nothing to do. If the board is fully BUILT, remove the cron line (see AUTOPILOT.md)."
     fi

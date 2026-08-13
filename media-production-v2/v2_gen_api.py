@@ -220,10 +220,20 @@ def generate(key, prompt, face_b64=None, char_b64=None, place_b64=None,
         except urllib.error.HTTPError as e:
             detail = e.read().decode(errors="replace")[:300]
             if "RESOURCE_EXHAUSTED" in detail or "prepayment" in detail.lower():
-                raise SystemExit(
-                    f"OUT OF MONEY at the API: {detail}\n"
-                    "Cameron tops up in Google AI Studio billing; then re-run — "
-                    "the runner resumes exactly where it stopped.")
+                # CAMERON'S RULE (2026-08-12): "its never empty you just have to
+                # try it again it loads more cash automatically." The depleted
+                # 429 is a transient while auto-reload catches up — retry
+                # patiently, never declare OUT OF MONEY and never stop the row.
+                depleted_waits = [30, 60, 120, 240, 300]
+                w = depleted_waits[min(attempt - 1, len(depleted_waits) - 1)]
+                if attempt < retries:
+                    print(f"      prepay 429 (auto-reload pending), retry {attempt}/{retries} in {w}s")
+                    time.sleep(w)
+                    continue
+                raise RuntimeError(
+                    "prepay auto-reload has not fired yet after patient retries — "
+                    "the autopilot tick retries again in ~10 min; nothing is lost, "
+                    "the run resumes exactly where it stopped.") from None
             if e.code in (429, 500, 502, 503, 504) and attempt < retries:
                 print(f"      HTTP {e.code}, retry {attempt}/{retries} in {delay}s")
                 time.sleep(delay)
