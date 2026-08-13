@@ -110,3 +110,39 @@ high on the height so the nations can find their way, and the SECOND-TIME gather
 outcasts of Israel and the dispersed of Judah brought home from the four corners of the earth.
 God and the Messiah are never pictured — the ensign is a real banner, the gathering is real
 people coming home. No open complaint on this row.
+
+---
+
+## ✅ RUNNER SHIP — 2026-08-13 (Opus runner, unattended/headless, Machine A `Dev`)
+
+First-attempt realistic-V2 cut SHIPPED. 12 stills @ 2K, `--check` PASS, AUDIO REBUILD PASS
+(SHA256 2e8473d7…), 20.4 MB / 58.6 s. Meter $664.64 → ~$666.5.
+
+### COMPLAINT LEDGER — OPEN complaint "Not new audio" → FIXED & VERIFIED in the shipped cut
+- **`v2_outline.py 198` OPEN: "Not new audio."** The delivered V1 mp4 (2026-07-23) stream-copied
+  a STALE old-voice track. This cut sets `AUDIO_FROM_V1_SEGMENTS=True`, so `v2_assemble` REBUILT
+  the shipped audio from the 7 AUTHORITATIVE ElevenLabs new-voice segment mp3s in
+  `media-production/build-198-.../audio/` (runner-verified 44100 Hz / 128k mono, dated 2026-07-29,
+  `.audio-eleven-done` present — edge-tts is 24000/48000). Assemble printed **AUDIO REBUILD PASS
+  SHA256 2e8473d7…**. Review card tells Cameron in plain words the voice is the real new voice.
+
+### FULL-CUT GATE (§6b) — per-rendered-frame + card, PASS
+Extracted frames from the RENDERED mp4 (b01/b03/b05/b07/b09/b12/card) + full-res source QC on all
+12 beats. Realistic photography throughout (Law 14 — no cartoon, no mix). **GOD & THE MESSIAH
+NEVER EMBODIED** on every beat (root of Jesse = a green shoot from an old cut stump, b02, no
+person; "Him"/invitation carried by the plain no-writing ENSIGN banner; gathering = real exiles).
+NO Jesus / NO cream / NO white on any person; no halo/glow/rim-light. Captions bottom-band only —
+**narrator WHITE (n0/n1/n2/n3), scripture BLUE (s1 Isa 11:11, s2 Isa 11:12), NO RED anywhere**
+(correct: OT prophecy, Jesus absent). ISAIAH one consistent grey-bearded man in brown+ochre wool
+(b01/b03). Children child-sized; distinct faces (no clones); banner never carries writing; no
+modern object. Card clean, invitational. DROP-CHECK (row-173 lesson): concat_base = 12 clips = 12
+beats; extract card_start 52.46 > b12 window start 47.570 (no dropped beat); mp4 58.67 s.
+
+### Rerolls (3 total = 25%, over the 15% COST-LAW target — ALL mandatory-garbage, per-frame ≤2)
+- **b12 ×2:** first take rendered a central long-haired bearded teacher in a light/cream tunic
+  that the crowd faced = an embodied-Messiah read (HARD-GATE fail); reroll #1 still had a
+  Jesus-adjacent central figure; reroll #2 landed a clean homecoming embrace with no Christ-
+  adjacent focal figure. **b09 ×1:** first take BAKED the literal word "SCRIPTURE" in blue into
+  the frame (generated-text artifact from must_show "BLUE caption (SCRIPTURE)"); reroll cleared it.
+- None were drift-chasing; each killed a defect that would 100% have drawn a complaint (embodied
+  Messiah on the closing frame; on-screen rendered text). Overage explained in SESSION-LOG.

@@ -1,0 +1,20 @@
+{
+ "GATHERING-ROADS": {
+  "manual": true,
+  "src_beat": "s05-the-second-time",
+  "src_build": "build-198-ensign-for-the-nations",
+  "src_file": "build-198-ensign-for-the-nations/assets/s05-the-second-time.jpeg"
+ },
+ "HOMELAND": {
+  "manual": true,
+  "src_beat": "s12-come-home",
+  "src_build": "build-198-ensign-for-the-nations",
+  "src_file": "build-198-ensign-for-the-nations/assets/s12-come-home.jpeg"
+ },
+ "ISAIAH-HEIGHT": {
+  "manual": true,
+  "src_beat": "s01-isaiah-points-ahead",
+  "src_build": "build-198-ensign-for-the-nations",
+  "src_file": "build-198-ensign-for-the-nations/assets/s01-isaiah-points-ahead.jpeg"
+ }
+}
