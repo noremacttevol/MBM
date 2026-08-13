@@ -112,3 +112,21 @@ order = story order.
 - Plates: TEMPLE accepted (the build-06 b21 family anchor, same as
   43/75/131 — architecture only; identity-edit the frame's
   foreground trio if they leak). NIGHTROAD promote-first from b05.
+
+---
+
+## ✅ AUTHOR-LANE FIX DONE (2026-08-13, Fable-5 author lane, Machine A `Dev`, $0) → row set AUTHORED + Ready ✅ for the runner
+
+Face-board (viewed the ref + s07/s08/s09/s10): the born-blind man drifted because `BLINDMAN` was **text-lock-only** (`REFS` had only TEMPLE). s07 rendered an older ~50yo grey-haired/grey-beard man with eyes not clearly milk-pale; s08 was borderline; s09/s10 were the on-lock ~35 dark-haired healed man. The committed `CAST-REF-V2/blindman.jpeg` (about-35, unruly black hair, short dark beard, MILK-PALE blind eyes) was never wired.
+
+**Author fix ($0, no generation):**
+- Wired `REFS["BLINDMAN"] = "CAST-REF-V2/blindman.jpeg"` (kept TEMPLE). `cast_refs_for()` now attaches this face to b07/b08 (both also keep the locked Jesus face via `jesus:True`+`ref`). The BLINDMAN text lock already reads correctly (age 35, black hair, rust-brown tunic + grey cloth never cream, milk-pale-before / clear-after eyes) — no lock rewrite needed.
+- Deleted ONLY the two off-model pre-healing stills `s07`, `s08` for regen; kept the 8 banked on-lock frames (s01–s06, s09, s10 — Jesus one locked cream face, TEMPLE/NIGHTROAD good, the healed man consistent).
+- Force-added `blindman.jpeg` (CAST-REF-V2 is gitignored) so the ref is reproducible.
+
+`v2_prompt.py --check` = PASS (10 beats). `v2_gen_api --dry-run` = exactly **2 shots (b07/b08), est ~$0.27**, `[face]` (Jesus) + BLINDMAN ref attached. Audio untouched.
+
+### 🅿️ RUNNER — remaining work
+1. `v2_gen_api build-142-light-of-the-world` regenerates ONLY s07/s08 — the man must match the ref: ~35, unruly black hair, short dark beard, **milk-pale blind eyes** (pre-Siloam), rust-brown tunic + grey shoulder cloth (never cream). Jesus stays the one locked cream face.
+2. FULL-CUT GATE all 10 beats against the ref as the face-board anchor — the born-blind man is the SAME ~35 dark-haired man across s07→s10 (milk-pale before the healing, clear brown after), Jesus one consistent face, realistic throughout.
+3. Assemble (AUDIO LOCK), deploy, live-verify. No open Cameron complaint — this was a pre-ship face-board block; the review card presents the finished consistent cut.

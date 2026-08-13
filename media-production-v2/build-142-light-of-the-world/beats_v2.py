@@ -323,5 +323,12 @@ BEATS = [
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
     "TEMPLE": "PLACE-REF/temple.jpeg",  # build-06-two-sons v2-r006-b21
+    # 2026-08-13 author fix (face-board block): BLINDMAN was TEXT-LOCK-ONLY, so he
+    # drifted — s07 rendered ~50yo grey-haired/greybeard (not milk-pale eyes) while
+    # s09/s10 were the ~35 dark-haired healed man. Wire the committed on-lock
+    # portrait (about-35, unruly black hair, short dark beard, MILK-PALE blind eyes)
+    # so every BLINDMAN beat converges on one face. Attaches to b07/b08 (b09/b10 are
+    # banked on-lock and kept).
+    "BLINDMAN": "CAST-REF-V2/blindman.jpeg",
 }
 # === end PLACE-PLATES ===
