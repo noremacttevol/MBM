@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 07:36:54",
+ "scanned": "2026-08-13 07:45:42",
  "entries": [
   {
    "row": 1,
@@ -58593,6 +58593,222 @@
    "night": false,
    "n_person": 1,
    "scene": "The camera looks across the whole camp at dawn from a low rise in a high three-quarter view, past the backs of a few early risers below: the central tabernacle tent pitched right beside the people's dwelling tents, a sof"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b01",
+   "file": "build-179-stephens-witness/assets/s01-before-the-council.jpeg",
+   "tokens": [
+    "COUNCIL-CHAMBER",
+    "STEPHEN",
+    "SANHEDRIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The camera looks across the austere stone council chamber from the back of the floor, past the shoulders and backs of the nearest seated elders, toward Stephen standing alone at the centre of the semicircle of tiered ben"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b02",
+   "file": "build-179-stephens-witness/assets/s02-they-boiled-with-rage.jpeg",
+   "tokens": [
+    "COUNCIL-CHAMBER",
+    "STEPHEN",
+    "SANHEDRIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A tighter two-shot in the chamber: Stephen in the foreground turned three-quarter, mouth open in earnest testimony, one hand lifted a little as he speaks; just beyond him two or three of the seated elders lean forward, b"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b03",
+   "file": "build-179-stephens-witness/assets/s03-not-his-accusers.jpeg",
+   "tokens": [
+    "COUNCIL-CHAMBER",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Stephen's face and shoulders in the chamber, the blurred shapes of the angry elders soft around the edges of the frame. He does not look at them; his gaze is steady and unafraid, beginning to turn away and upw"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b04",
+   "file": "build-179-stephens-witness/assets/s04-he-looked-up.jpeg",
+   "tokens": [
+    "COUNCIL-CHAMBER",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A low close on Stephen from below and the side, his face lifted toward heaven, eyes opening wide with wonder as a brilliant radiance begins to break across his upturned features and the stone above him. The council falls"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b05",
+   "file": "build-179-stephens-witness/assets/s05-the-glory-of-god.jpeg",
+   "tokens": [
+    "GLORIFIED-FATHER",
+    "GLORIFIED-SON",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The heavens open above the chamber into brilliant, warm heavenly radiance, and within it stand TWO distinct glorified men, upright and separate, clothed in radiant white robes of light. On the left, God the Father \u2014 an o"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b06",
+   "file": "build-179-stephens-witness/assets/s06-he-said-so-out-loud.jpeg",
+   "tokens": [
+    "COUNCIL-CHAMBER",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Stephen in the chamber, his upturned face washed in warm heavenly radiance from above, eyes bright with what he sees, his lips parting as he begins to declare it aloud. The stone chamber and the dim shapes of "
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b07",
+   "file": "build-179-stephens-witness/assets/s07-the-son-of-man-standing.jpeg",
+   "tokens": [
+    "GLORIFIED-FATHER",
+    "GLORIFIED-SON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A closer view up into the opened heavens filled with brilliant warm radiance: God the Father stands on the left, majestic and kindly with long white hair and beard in a radiant white robe; at his RIGHT hand, clearly on h"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b08",
+   "file": "build-179-stephens-witness/assets/s08-they-would-not-hear.jpeg",
+   "tokens": [
+    "COUNCIL-CHAMBER",
+    "SANHEDRIN",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Inside the chamber the council erupts: three or four elders are up off their benches, hands pressed hard over their ears, mouths open in a furious shout, robes swinging as they surge toward Stephen to silence him. Stephe"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b09",
+   "file": "build-179-stephens-witness/assets/s09-rushed-him-out.jpeg",
+   "tokens": [
+    "OUTSIDE-WALLS",
+    "STEPHEN",
+    "THE-MOB"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera looks from outside the city, past the backs of the hurrying crowd, as they drive Stephen out through the great stone gate onto the bare dusty ground beyond the wall \u2014 the whole press of people moving away from"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b10",
+   "file": "build-179-stephens-witness/assets/s10-face-of-an-angel.jpeg",
+   "tokens": [
+    "OUTSIDE-WALLS",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Stephen's face outside the walls, the blurred angry crowd soft behind him, warm daylight on his features. His face is calm, open and luminous with peace, eyes clear and unafraid, the very picture of someone he"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b11",
+   "file": "build-179-stephens-witness/assets/s11-he-knelt-down.jpeg",
+   "tokens": [
+    "OUTSIDE-WALLS",
+    "STEPHEN",
+    "THE-MOB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Stephen has knelt on the bare dusty ground outside the wall, seen from the side and a little below, his hands open and lifted, his face raised to heaven in earnest prayer for the very men against him. The mob stands well"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b12",
+   "file": "build-179-stephens-witness/assets/s12-lay-not-this-sin.jpeg",
+   "tokens": [
+    "OUTSIDE-WALLS",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on the kneeling Stephen outside the walls, face lifted to heaven, eyes closing, lips parted in the words of his dying prayer \u2014 a look of complete peace and mercy, no bitterness in it. The crowd is only a soft blu"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b13",
+   "file": "build-179-stephens-witness/assets/s13-dont-hold-this.jpeg",
+   "tokens": [
+    "OUTSIDE-WALLS",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on Stephen's face and open hands as he finishes his prayer, kneeling on the ground, features soft and forgiving, wholly given over to mercy for his killers. Gentle daylight, the crowd lost to blur behind. No hurt"
+  },
+  {
+   "row": 179,
+   "build": "build-179-stephens-witness",
+   "beat": "v2-r179-b14",
+   "file": "build-179-stephens-witness/assets/s14-he-fell-asleep.jpeg",
+   "tokens": [
+    "OUTSIDE-WALLS",
+    "STEPHEN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Stephen sinks gently down onto the ground and comes to rest, seen from above and the side, his eyes closed and his face perfectly at peace, as though he has only fallen asleep. A soft warm light from above rests on his c"
   },
   {
    "row": 181,
