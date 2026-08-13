@@ -1,3 +1,41 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 122 mote-and-beam: C-FIX SHIPPED — Cameron's 0:33 "head turned around backwards" (his 5th filing of this class) — Machine A `Dev`
+
+**Commit:** `ac4eeba64` (ship: mp4 + QC + beats_v2 + RUNNER-LESSONS + rubric lesson 21); card/board/log follow.
+
+**Cameron's complaint (against the current shipped cut, complaintHash 10f6bd9a):**
+"The man's head is turned around backwards 0:33. same problem for the 5th time."
+
+**Trace:** 0:33 renders beat **v2-r122-b06** (`s06-and-we-are-experts-at.jpeg`,
+window 30.05–34.53). The foreground bottom-centre listener sat with his BACK to
+camera (the back-patch of his tunic toward the lens) while his face was wrenched
+a full ~180° back to the lens — the owl-neck / head-on-backwards.
+
+**PROMPT AUTOPSY = ALLOWED.** b06's scene asked for a legitimate "listener's eyes
+slide sideways to a neighbour"; its anti-glitch line bounded COUNT only ("two
+arms, two hands and one head") — nothing forbade an impossible neck rotation, so
+the generator, needing a FACE glancing on a back-facing figure, screwed the head
+around. Fix (verdict 2 — add the missing constraint): b06 `must_show` now puts the
+glancer in three-quarter view with head AND shoulders turned the same way;
+`must_not_show` + `scene` forbid the owl-neck / back-to-camera-face-wrenched-back,
+and require every head to sit forward facing the same way as its own shoulders.
+
+**Fix + FULL-CUT GATE:** 1 reroll of b06 (**1/27 = 3.7%**, ~$0.13) — foreground man
+now faces away with the back of his head visible (natural), verified in the
+RENDERED mp4 at 33 s. All 27 beats extracted at true mid-window and viewed: b06
+was the ONLY owl-neck; b01/b02 use the same man but correctly show the BACK of his
+head (facing away — verified by zoom, correct, NOT touched). Jesus locked +
+green/hazel V2 eyes + cream-only + no halo on all 9 hillside beats; beam
+absurd-never-gruesome throughout; b17 canonical fixer (prior QC-FIX) intact;
+captions bottom-band only; closing card clean.
+
+**AUDIO LOCK PASS SHA256=0df23a0e…** — byte-identical, nothing re-voiced. 175.0s /
+20.1 MB. **Cost this touch ~$0.13, 0 audio $** — trend DOWN vs the $6.10/row avg.
+
+**Learning law:** new RUNNER-LESSONS line (owl-neck class) + numbered rubric
+**lesson 21** with Cameron's exact words + rows of record (122 b06), so the same
+prose is never written again. Card flag answers his complaint in his words.
+Deployed to Firebase + live-verified.
+
 ## 2026-08-13 (Opus runner) — Row 135 rainbow-covenant: resumed stranded build, FULL-CUT GATE caught the OPEN gender-balance complaint → PARKED NEEDS-REBUILD (author fix) — Machine A `Dev`
 
 **Commit:** `fd27de444` (QC + board + RUNNER-LESSONS + plates + api-spend)
