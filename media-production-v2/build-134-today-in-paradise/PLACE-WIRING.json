@@ -4,6 +4,12 @@
   "src_build": "build-95-thief-on-the-cross",
   "src_file": "build-95-thief-on-the-cross/PLACE-REF/hill.jpeg"
  },
+ "REST": {
+  "manual": true,
+  "src_beat": "s14-which-means-the-paradise-he",
+  "src_build": "build-134-today-in-paradise",
+  "src_file": "build-134-today-in-paradise/assets/s14-which-means-the-paradise-he.jpeg"
+ },
  "TOMB": {
   "manual": true,
   "src_build": "build-98-mary-her-name",

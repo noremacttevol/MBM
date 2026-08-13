@@ -97,6 +97,9 @@ REF = True
 # mp3s (n0-n5, j1, j2, s1, card) were copied from this build's V2 audio/ into the V1
 # dir audio/, and this flag rebuilds the mix from those segments.
 AUDIO_FROM_V1_SEGMENTS = True
+# REPLACED/new-story row: no rendered V1 mp4 exists, so the output name can't be
+# inferred and stays None — set it explicitly (RUNNER-LESSONS row-140).
+OUTPUT_VIDEO_NAME = "luke-23_today-in-paradise.mp4"
 
 BEATS = [
     {
@@ -336,7 +339,7 @@ BEATS = [
         "locks": ["TOMB", "MARY"],
         "narration": "Touch me not; for I am not yet ascended to my Father:",
         "must_show": "SCRIPTURE-EXACT: the strange sentence — close on the two: his gentle staying hand, her halted reach, the words' oddness alive on both faces; morning gold around them.",
-        "must_not_show": "no halo, no shining; NO wounds; the gesture GENTLE — a pause, not a rejection.",
+        "must_not_show": "no halo, no shining; NO wounds; the gesture GENTLE — a pause, not a rejection. ABSOLUTELY NO CONTACT between them: a clear hand's-breadth of open air separates Mary's fingers from Jesus's sleeve/arm/hand; his hand does NOT rest on her and hers does NOT rest on him; no hands touching, clasped or overlapping; no embrace, no leaning together, no near-touching faces — this frame illustrates TOUCH ME NOT.",
         "scene": (
             "The sentence is as strange as the morning is "
             "bright: close on the halted reach — Mary's "
@@ -541,6 +544,7 @@ PLACE_REFS = {
     # build-37 is the PARABLE tomb (arid, no garden); this is JESUS'S garden
     # tomb (rows 71/96/97/98 family). build-98's approved garden tomb.
     "TOMB": "PLACE-REF/tomb.jpeg",
-    # REST: NEW place — promote-first from b14 per QC.md (no prior plate).
+    # REST: NEW place — promote-first from b14 (s14) per QC.md.
+    "REST": "PLACE-REF/rest.jpeg",
 }
 # === end PLACE-PLATES ===

@@ -82,3 +82,73 @@ all 44100 Hz / 128 kbps mono = new-voice ElevenLabs) into
 `extract_beats.extract(134)['total'] = 116.57`, `v2_prompt --check` PASS (18 beats),
 `audio_audit` flags 0 old-voice. Board → Audio OK, Ready ✅. Normal picture build
 for the Opus runner (REST promote-first b14).
+
+---
+
+## SHIP NOTE — realistic-v2 FIRST CUT (Opus runner, Machine A `Dev`, headless, 2026-08-13)
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 134` shows no filed Cameron complaint). Built to spec.
+
+**REPLACED-story reconciliation VERIFIED ($0) before spending:** wired audio transcribes as today-in-paradise (Luke 23:43 thief "Lord remember me" / "today shalt thou be with me in paradise" + John 20:17 "touch me not"), NOT the stale other-sheep story it replaced; distinct from the dupe (#159 other-sheep). All 10 V1-dir mp3s 44100/128k = new-voice ElevenLabs. `AUDIO_FROM_V1_SEGMENTS=True` already set by the 08-11 audio lane.
+
+**Wiring the runner added (runner-legal reuse, not scene/lock/beat content):**
+- REFS: THIEF ← build-95 `CAST-REF-V2/thief.jpeg` (byte-identical, same penitent thief as #95); MARY ← crop of build-98's approved Mary (s10) → `CAST-REF-V2/mary.jpeg`. The build shipped with REFS absent → THIEF (4 legible beats) would have flipped (RUNNER-LESSONS rows 52/55/63/153/177).
+- PLACE_REFS: HILL ← build-95 `PLACE-REF/hill.jpeg`; TOMB ← build-98 `PLACE-REF/tomb.jpeg`; REST ← promote-first from b14 (s14) per QC.md.
+- OUTPUT_VIDEO_NAME set (REPLACED row has no V1 mp4 → name can't be inferred, RUNNER-LESSONS row-140).
+
+**FULL-CUT GATE on the RENDERED mp4 — 18/18 beats + card PASS.** Realistic photography throughout (Law 14, no cartoon/mix). CONTENT-CARE held: crucifixion (b03/b05) rope-bound, chest-up/distant, NO wounds/nails/blood ever; risen Jesus (b10/b11/b18) natural — cream, warm, no wounds, no shining/halo; paradise (b14/b15/b17/b18) names NOTHING — modest garden-country, no gates/thrones/glory. Jesus canonical (green/hazel ref-true eyes, NOT brown-edited — rubric lesson 20) across all his frames; THIEF one grey-bearded man (build-95); MARY one dark-haired woman (build-98). Two-doors (b01 shut / b02 open), scroll-pair (b09/b12/b13 lamp on spout, finger first→second). SPEAKER LAW pixel-verified: narrator WHITE, thief's plea "Lord remember me" BLUE (scripture), Jesus "today shalt thou be with me in paradise" (j1) + "Touch me not" (j2) RED — both land on Jesus frames. Card clean, bottom-band captions. Transcript matches narration exactly; drop-check concat_base 18 == 18 BEATS; AUDIO REBUILD PASS SHA256 a192ad42.
+
+**Rerolls: 7 (b03 ×1, b04 ×1, b11 ×5) = 39% — OVER the 15% COST-LAW budget.** Honest overage, ALL mandatory defect-driven (none drift-chasing):
+- b03: stacked double-exposure (row-95 crucifixion-hill double magnet) → 1 redo landed a clean single.
+- b04: lens-stare on the thief → 1 redo landed him chest-up on the cross, gaze lifted.
+- b11 "touch me not": the row-98 prose-driven contact trap — 4 blind rerolls oscillated (touching↔drifted-face). Hardened `must_not_show` with an explicit no-contact ban (enforcing the scene's OWN "hand's-breadth from his sleeve / a pause, not a rejection" intent + the caption), then 2 more redos landed a canonical Jesus face AND a clear no-contact gap — the doctrinally-correct "touch me not."
+Absolute row gen cost ≈ $3.35 (25 gens) — UNDER the $6.10/row average (COST-LAW absolute trend holds DOWN), but reroll RATIO over ceiling, driven entirely by the doctrinally-critical b11.
+
+**LESSON for the memory:** on a Jesus↔woman "reach / touch-me-not" beat, HARDEN `must_not_show` with a no-contact ban FIRST (row-98), do not blind-reroll — blind rerolls oscillate touch↔face-drift and burn budget.
+
+---
+
+## RESUME-SHIP (Opus runner, Machine A `Dev`, unattended/headless, 2026-08-13)
+
+The prior autopilot lane DIED after building + gating the whole cut but BEFORE
+shipping (no committed mp4, no review card, no deploy; AUTHOR-BOARD still RUNNING,
+Claim A-auto). Resumed per RUNNER PARALLEL-LANES resume branch.
+
+- **Already-shipped check FIRST:** no committed mp4 in build-134 (`git ls-tree`),
+  no `id="v134"` on the local page OR the live reviewer → NOT shipped. So resume
+  the ship, do not tick BUILT-and-walk.
+- **Staleness check (RUNNER-LESSONS row-63):** `beats_v2.py`/`QC.md` mtime 11:15 is
+  AFTER the mp4 (09:25) — but the 11:15 diff is ONLY generation-side wiring
+  (`OUTPUT_VIDEO_NAME`, b11 `must_not_show` no-contact hardening, `PLACE_REFS["REST"]`);
+  none touch assembly/captions/windows. Asset s11 (the b11 redo) landed 09:19; all
+  c-clips 09:23–24; mp4 09:25 — the mp4 POSTDATES every asset incl. the b11 fix, so
+  it is fresh, not stale. Assembly-correct for the current beats_v2.py.
+- **Re-ran the mechanical gate ($0):** `v2_prompt --check` PASS (18 beats, v4
+  checklist); audio lock 116.60s mp4 / 116.57s audio, 44100/128k ElevenLabs;
+  `concat_base` 18 == 18 BEATS (no dropped-beat, RUNNER-LESSONS row-173).
+- **Re-ran the FULL-CUT GATE 6b MYSELF on the RENDERED mp4** (I am the shipping
+  session — never trust a prior note's claimed pass, RUNNER-LESSONS row-146):
+  extracted one mid-window frame per beat from the 18 c-clips + card + 6 caption
+  frames from the final mp4, viewed EVERY one. **18/18 beats + captions + card CLEAN.**
+  - Crucifixion (b03/b05/b06/b08) rope-bound (no nails), chest-up/distant, NO
+    wounds/blood; b11 "touch me not" shows a clear air-gap between Mary's fingers
+    and Jesus's raised hand (no contact — the doctrinally-critical frame is
+    correct). Risen Jesus (b10/b11/b18) natural cream, no halo/shining/wounds;
+    green/hazel ref eyes, ordinary scale, canonical locked face every Jesus beat.
+    THIEF one grey-bearded man (build-95) across b04–b08; MARY one dark-haired
+    woman (build-98) b10/b11. Paradise (b14/b15/b17/b18) names NOTHING — modest
+    garden-country, no gates/thrones/glory. Two-doors b01 shut / b02 opened onto
+    morning country. Realistic photography throughout (Law 14, no cartoon/mix); no
+    modern objects; anatomy/hands clean.
+  - Captions bottom-band only: narrator WHITE (b01), scripture BLUE (thief's plea
+    "Lord, remember me…", b06), Jesus RED (j1 "Verily…in paradise", b06; j2 "Touch
+    me not…", b11). Reflection card clean serif, no typo-squares.
+  - Subtle-only (fix-wave, NON-blocking, not runner scope): mild crucifixion-attire
+    variance (b06 clothed vs b05 loincloth) and scroll-reader tunic-tone drift
+    (b12/b13). Neither is obvious garbage nor repeats any complaint.
+- **COMPLAINT LEDGER: none open** (`v2_outline.py 134` shows no filed complaint;
+  `.approvals.json` has no row-134 entry — never approved, never complained).
+- **Outcome:** cut verified CLEAN and shipped AS-IS, **NO re-cut ($0/0 rerolls this
+  resume session)** — a clean cut is not touched. AUTHOR-BOARD RUNNING→BUILT;
+  QUEUE Built✅ (Appr untouched — Cameron's alone). Deployed to Firebase +
+  live-verified.
