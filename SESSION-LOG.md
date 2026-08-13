@@ -1,3 +1,19 @@
+## 2026-08-12 (cont. 96) — ROW 95 C-FIX: wall re-confirmed up + fixed a STALE reviewer flag that contradicted his complaint — HARD EXTERNAL BLOCK holds — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
+
+**Commit:** `57ccf5e46` (`site/review.html` card v95 green-flag rewrite, deployed to Firebase + live-verified) + this log/QC/board push (`<this push>`). Chain verified on entry: top was cont.95, commit `68a73e449` present in `git log` (HEAD `68a73e449`); hostname = Machine A `Dev`.
+
+**Complaint (`v2_outline.py 95`, his words):** "0:08 he should be stakes to the cross. 0:18 they are not facing each other and Jesus should be on the cross also. All shirts off, all pinned to the cross, all in line parallel not across from one another … Jesus has a crown of thorns and they all have plaques above their heads." Lowest waiting complained AUTHOR-BOARD row.
+
+**Row 95 state (verified, not assumed):** crucifixion-staging fix FULLY STAGED — 11 beats + HILL/MOCKER/THIEF locks rewritten to three crosses in a PARALLEL forward-facing row, every man shirtless & affixed, Jesus centre with crown of thorns, a titulus plaque above every head. `v2_prompt.py build-95-thief-on-the-cross --check` = **PASS (11 beats, v4)**.
+
+**Billing wall — ONE real probe (billing-wall lesson: probe once, don't loop):** `v2_gen_api.py build-95-thief-on-the-cross --only b03 --redo --ceiling 645` → **429 prepay depleted**, meter unchanged **$617.34**, **$0 / 0 rerolls**. Crucifixion staging isn't croppable from a clothed free-standing frame → no $0 path; mp4 NOT reshipped (would repeat the complaint).
+
+**NEW ACTION — the one stale outbound message left (cont.94/95 principle: everything reaching Cameron must be current):** the reviewer card v95 green "🛠 What this cut changed" flag still bragged that the CURRENT (complained-about) cut was good — *"the three crosses read with one geometry … held at a merciful distance, bound with rope, no nails."* That contradicts his complaint (shirts off / pinned / parallel / crown / plaques) AND the accurate amber `data-machine-reason` banner above it. Rewrote the green flag to honestly state the on-page video is the OLD flagged cut and the fix is written+machine-checked, waiting ONLY on the Google AI Studio top-up (https://ai.studio/projects). Committed `57ccf5e46`, deployed, **live-verified**: honest flag served, old-brag string count = 0, card hash unchanged (`9059485916c1…`, mp4 deliberately untouched). This is NOT identical re-park churn (the 16-pass loop cont.95 stopped) — it corrected a genuinely stale message.
+
+**NO redundant re-park:** the cont.123/17th-pass STOP marker holds; board got one factual clause recording this new action, not another "still walled" duplicate. Blocked-by-billing set unchanged & accurate: **rows 82, 95, 116, 118**. Ships touch-once the instant billing is funded (runner resumes automatically). **COST: $0 / 0 rerolls / 0 credits.**
+
+---
+
 ## 2026-08-12 (cont. 95) — ROW 95 C-FIX VERIFY: wall re-confirmed up + fixed STALE billing messages reaching Cameron (inbox row 89, card v95 row 63) — HARD EXTERNAL BLOCK holds, no board re-park churn — Machine A `Dev`, Opus RUNNER, complaint-first + low-number
 
 **Commit:** this log + `site/review.html` card v95 accuracy fix (`<this push>`). Deployed to Firebase + live-verified. Inbox correction is Obsidian-sync only (vault repo, not committed per inbox-sync skill). Chain verified on entry: top was cont.94, commit `bf390fb99` present in `git log` (HEAD `bf390fb99`); hostname = Machine A `Dev`.
