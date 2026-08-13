@@ -77,7 +77,7 @@ AUDIO_FROM_V1_SEGMENTS = True
 BEATS = [
     {
         "id": "v2-r136-b01", "out": "s01-friends-brought-a-blind-man.jpeg", "seg": "n0",
-        "window": "0.28-5.30", "wide": True, "jesus": True, "ref": REF,
+        "window": "0.28-5.686", "wide": True, "jesus": True, "ref": REF,
         "locks": ["VILLAGE", "BLINDMAN", "FRIENDS"],
         "narration": (
             "Friends brought a blind man to Jesus in Bethsaida and begged "
@@ -101,7 +101,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b02", "out": "s02-jesus-took-the-man-by.jpeg", "seg": "n1a",
-        "window": "5.92-9.18", "wide": False, "jesus": True, "ref": REF,
+        "window": "5.686-9.292", "wide": False, "jesus": True, "ref": REF,
         "locks": ["VILLAGE", "BLINDMAN"],
         "narration": "Jesus took the man by the hand and walked him outside the village.",
         "must_show": "SCRIPTURE-EXACT: the hand-in-hand walk — Jesus leading the blind man by the hand OUT through the low gate onto the open path; the personal, unhurried leading.",
@@ -122,7 +122,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b03", "out": "s03-he-spit-on-the-eyes.jpeg", "seg": "n1b",
-        "window": "9.85-15.05", "wide": False, "jesus": True, "ref": REF,
+        "window": "9.292-14.745", "wide": False, "jesus": True, "ref": REF,
         "locks": ["VILLAGE", "BLINDMAN"],
         "narration": (
             "He spit on the man's eyes and laid His hands on him, then asked "
@@ -146,7 +146,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b04", "out": "s04-the-man-looked-up-and.jpeg", "seg": "n2",
-        "window": "15.63-22.76", "wide": False, "jesus": False, "ref": False,
+        "window": "14.745-19.0", "wide": False, "jesus": False, "ref": False,
         "locks": ["VILLAGE", "BLINDMAN"],
         "narration": (
             "The man looked up and said the strangest thing — he could see, "
@@ -170,7 +170,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b05", "out": "s05-his-first-glimpse-was-real.jpeg", "seg": "n2",
-        "window": "22.76-28.40", "wide": False, "jesus": True, "ref": REF,
+        "window": "19.0-22.191", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN"],
         "narration": (
             "His first glimpse was real, but unfinished. Jesus did not scold "
@@ -194,7 +194,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b06", "out": "s06-so-jesus-put-his-hands.jpeg", "seg": "n3",
-        "window": "29.09-33.82", "wide": False, "jesus": True, "ref": REF,
+        "window": "22.191-27.506", "wide": False, "jesus": True, "ref": REF,
         "locks": ["VILLAGE", "BLINDMAN"],
         "narration": (
             "So Jesus put His hands on the man's eyes a second time and told "
@@ -218,7 +218,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b07", "out": "s07-and-this-time-he-saw.jpeg", "seg": "n4",
-        "window": "34.45-39.22", "wide": False, "jesus": False, "ref": False,
+        "window": "27.506-29.8", "wide": False, "jesus": False, "ref": False,
         "locks": ["VILLAGE", "BLINDMAN"],
         "narration": "And this time he saw everything clearly — every face, every leaf.",
         "must_show": "the clear sight — the man's face blazing with detail-joy: a fig leaf held close in his fingers, every vein sharp; beyond it the path's figures now CRISP; the world in focus.",
@@ -239,7 +239,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b08", "out": "s08-the-second-touch-finished-what.jpeg", "seg": "n4",
-        "window": "39.22-42.54", "wide": False, "jesus": True, "ref": REF,
+        "window": "29.8-31.5", "wide": False, "jesus": True, "ref": REF,
         "locks": ["BLINDMAN"],
         "narration": "The second touch finished what the first had started.",
         "must_show": "the finishing — Jesus's hands lowering from the healed face, both men's eyes meeting CLEARLY for the first time; quiet completion, shared warmth.",
@@ -260,7 +260,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b09", "out": "s09-the-story-never-explains-why.jpeg", "seg": "n4",
-        "window": "42.54-51.17", "wide": False, "jesus": False, "ref": False,
+        "window": "31.5-36.321", "wide": False, "jesus": False, "ref": False,
         "locks": ["VILLAGE", "BLINDMAN"],
         "narration": (
             "The story never explains why healing came in stages. It simply "
@@ -284,7 +284,7 @@ BEATS = [
     },
     {
         "id": "v2-r136-b10", "out": "s10-neither-go-into-the-town.jpeg", "seg": "j1",
-        "window": "51.74-55.04", "wide": False, "jesus": True, "ref": REF,
+        "window": "36.321-40.369", "wide": False, "jesus": True, "ref": REF,
         "locks": ["VILLAGE", "BLINDMAN"],
         "narration": "Neither go into the town, nor tell it to any in the town.",
         "must_show": "SCRIPTURE-EXACT: the quiet sending — Jesus's gentle directing hand pointing the man to the HOME-ward path away from the village gate; the man setting off that way; secrecy as kindness.",
@@ -318,3 +318,10 @@ PLACE_REFS = {
     # different characters). Promote-first VILLAGE from b01.
 }
 # === end PLACE-PLATES ===
+
+# Per-story face sheets, generated by v2_story_cast.py. Identity is
+# carried by IMAGE, not by wording — text locks let the elder son come
+# back as three different men in row 2 (Cameron, 2026-07-30).
+REFS = {
+    "BLINDMAN": "CAST-REF-V2/blindman.jpeg",
+}
