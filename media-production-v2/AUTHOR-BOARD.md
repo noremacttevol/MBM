@@ -164,7 +164,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 150 | build-150-shepherd-psalm | BUILT | 21 | OK | AUTHOR-FIXED 2026-08-11 (A `Dev`, $0 Fable-5 lane): the 3 parked beats had their SCENE TEXT fixed (the runner was barred from it) — **b21 diptych de-scoped to ONE single-frame lamplit fold** (scroll+harp on a ledge in the same fold, no palace-desk panel, no seam, no figure; anti-diptych ban added, locks emptied); **b11** now the YOUNG shepherd (~17, rust tunic) with ROD+STAFF both hardened as must_show; **b16** anointed guest = YOUNG David (matches b15). `--check` PASS, audio untouched. State→BUILT for the paid **cfix** lane: regen ONLY v2-r150-b11/b16/b21 (`--only ... --redo`), full-cut gate, assemble (AUDIO LOCK), verify caption colours per COMPLAINT LEDGER, ship. Open complaint stays open until re-cut ships. See QC.md ✅. |  |
 | 151 | build-151-ask-of-god | BUILT | 23 | OK | A-auto 2026-08-11 SHIPPED realistic-v2: 23 stills, 0 rerolls ~$3.35, AUDIO LOCK PASS c029dba5, FULL-CUT GATE 23/23 clean (NO-vision gate held, light-growth engine, 2-voice captions blue-scripture) | ✅ |
 | 152 | build-152-revealeth-his-secret | AUTHORED | 0 | OK |  | ✅ |
-| 153 | build-153-restitution | AUTHORED | 0 | OK |  | ✅ |
+| 153 | build-153-restitution | RUNNING | 0 | OK | A-auto 2026-08-13 (Opus runner, Machine A `Dev`, headless) — claimed; complaint "1:12 weird / needs Peter" = b13 now Peter's arm sweeping from healed man to whole court | ✅ |
 | 154 | build-154-everlasting-gospel | AUTHORED | 0 | OK |  | ✅ |
 | 155 | build-155-falling-away | AUTHORED | 0 | OK |  | ✅ |
 | 156 | build-156-famine-of-hearing | AUTHORED | 0 | OK |  | ✅ |
