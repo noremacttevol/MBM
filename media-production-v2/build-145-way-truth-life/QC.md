@@ -85,3 +85,33 @@ before b04's 14.9s neighbors) — build by WINDOW.
 
 - Plates: none auto-matched. ROOM shared with build-89 when
   promoted.
+
+## ✅ QC-VERIFY — independent full-cut re-verify (2026-08-13, Opus runner, Machine A `Dev`, headless)
+
+Row 145 was sitting BUILT in Cameron's Unwatched queue. Ran the mandated
+approval-guard FIRST: `.approvals.json["145"]` = `approved:false`,
+`approvedHash:null` — NOT approved, so the row is verifiable (not the
+untouchable-approved case that the 3 AM row-1/122/129 re-cut failure exists to
+prevent).
+
+**COMPLAINT LEDGER: none open** (`v2_outline.py 145` shows no reviewer complaint;
+`.approvals.json` complaint=null). No resolved complaint to check for regression.
+
+**FULL-CUT GATE (independent) — extracted one frame per beat at its mid-window
+from the DELIVERED mp4 `john-14_way-truth-life.mp4` (47.6s) and viewed EVERY one:**
+- b01 (3.8s) CLEAN — lamplit upper room wide, Jesus cream (only cream figure), locked face, physical clay lamps, night window, white caption bottom-band.
+- b03 (11.1s) CLEAN — Thomas honest question, hands open, no doubt-villainy; anatomy correct.
+- b04 (16.3s) CLEAN — I AM hand-flat-at-chest, RED Jesus caption, no halo.
+- b06 (21.0s) CLEAN — by-me route gesture, RED Jesus caption.
+- b02 (25.2s) CLEAN — close Jesus, green/hazel V2-ref eyes (correct, un-edited), one finger, white caption; the wall-niche lamp above his head is a physical lamp, NOT a halo/rim-light.
+- b07 (28.2s) CLEAN — Jesus rising to lead, gentle beckon; the two reclining diners are period-correct banquet reclining (not broken anatomy / not a dead-crowd defect).
+- b05 (29.5s) CLEAN — truth-as-a-face close-up, green/hazel V2-ref eyes, steady/clear (not white/evil), photoreal.
+- b08 (32.5s) CLEAN — Jesus standing among the seated Eleven, both hands open, correct scale (not a giant), warm ordinary shadow intentional per beat.
+- b09 (37.4s) CLEAN — rolled route-scroll set down, cords tied, no readable text; laying hand anatomy correct.
+- b10 (40.8s) CLEAN — Jesus at the open door, Eleven rising to follow, correct scale, white caption.
+- Reflection card (44.5s) CLEAN — cream serif "Stop looking for the road. Walk with Him.", no typo-squares/code faults; captions live in the bottom band only, never over the art.
+
+**VERDICT: 10/10 beats + card CLEAN. No defect that would draw a complaint.
+Realistic (photoreal) throughout — no cartoon/mixed frame. No re-cut (touch-once
+law: a clean row is not re-cut; audio untouched, byte-identical). Board claim
+marked QC-OK. $0 / 0 rerolls.**
