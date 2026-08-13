@@ -1,3 +1,60 @@
+## 🛠 C-FIX — 2026-08-13, Machine A `Dev`, Opus runner (headless) — complaint baaeac4f
+
+**Cameron (2026-08-13, vs the realistic-V2 cut baaeac4f):** "0:01 is a double picture
+and those are not good, one picture per frame only, replace it. 1:00 picture is bad
+because all of the brothers are made to look the same all looking like santa white
+hair and beard and now Joseph's hair is grey even though it has been black before,
+same thing happens at 1:27. also 0:58 picture looks weird because again all the
+brothers are made to look the exact same. change all 4 of those."
+
+**Tracing (from the live mp4 04900e69←3dbc5095, extracted per second — not guessed):**
+- 0:01 → **b01** (s01, n0a 0.40-4.82) — the caravan/aftermath establish.
+- 0:58 → **b11** (s11, n1c 53.0-58.71) — the permission embrace.
+- 1:00 → **b12** (s12, n2 60.19-66.06) — "much later… their father died" (Genesis 50).
+- 1:27 → **b16** (s16, n3 85.19-90.25) — the closing granary embrace.
+
+**COMPLAINT LEDGER (this cut):**
+- *"0:01 double picture / one picture per frame"* → **b01 regenerated** as ONE
+  continuous desert: brothers a foreground knot on a low rise, the caravan receding
+  into the SAME plane beyond them — no horizontal haze/dust seam, no stacked scenes.
+- *"0:58 / 1:00 brothers all look the exact same, santa white hair+beard"* →
+  **b11 + b12 regenerated** with a hardened BROTHERS lock: ten *distinctly different*
+  men, varied hair/beard COLOUR and cut, only the eldest one or two grey, no two alike
+  — never a uniform crowd of white beards.
+- *"Joseph's hair is grey though it has been black before" (1:00 & 1:27)* →
+  **JOSEPH lock rewritten** so his hair is the SAME dark near-black in EVERY shot
+  (matches CAST-REF-V2/joseph.jpeg / the b14 portrait); age shows only in face lines,
+  never grey hair. **b12 + b16 regenerated** — Joseph now dark-haired in both, matching
+  the reveal frames.
+
+**PROMPT AUTOPSY (rubric meta-law 3):**
+- **b01 = ALLOWED.** The beat's own `must_show` composition (caravan low + brothers on
+  a high ridge *behind*) is the documented stacked-diptych magnet (RUNNER-LESSONS
+  2026-08-07, row-95 thief-on-cross): two subjects at two distances → the model splits
+  them with an atmospheric seam, defeating the global anti-grid lock. FIX = rewrote
+  must_show/scene to a single continuous depth plane + added a must_not_show forbidding
+  any horizontal band / two stacked pictures.
+- **b12 / b16 = CAUSED.** The text explicitly greyed everyone — must_show "older
+  Joseph", scene "greyer now" / "grey heads", and the JOSEPH lock literally said
+  "older (~55) in Genesis 50". Cameron rejects the grey. FIX = removed all grey-hair
+  cues; Joseph locked dark in every shot, aged via face only.
+- **b11 = ALLOWED.** No distinctness pin → the background brothers collapsed to
+  similar. FIX = pinned "each a clearly different man… no two alike".
+
+**Only the 4 complaint beats were regenerated** (touch-once, COST LAW): the other 12
+were already FULL-CUT-clean (dark-haired Joseph in b02/b04/b05/b06/b07/b09/b10/b13/b14,
+b15 granary bread-line, b03 bowing audience) and were NOT re-pulled. Spend: 4 stills ×
+2K, 1 HTTP-503 retry, **$0.54 this run**, 0 quality rerolls (4/16 = 25% of beats are
+C-FIX regens for the 4 named complaints, not reroll-budget churn). Meter $643.60.
+
+**FULL-CUT GATE (§6b) on the rendered mp4 04900e69:** all 16 beats + 3 caption frames
++ question card viewed. b01 single continuous desert ✅; b11/b12/b16 dark-haired Joseph
++ distinctly varied brothers, no santa-white row ✅; captions bottom-band only, art
+never covered ✅; question card clean verse-only ✅. AUDIO REBUILD PASS
+SHA256=f3cfb249… (byte-identical to the prior cut — no re-voice, no re-time).
+
+---
+
 ## ✅ AUDIO-FIX UNBLOCKED — STALE-V1 resolved — 2026-08-11, Machine A `Dev`, audio lane
 
 **`AUDIO_FROM_V1_SEGMENTS = True` set in `beats_v2.py`.** Root cause: the V1 final

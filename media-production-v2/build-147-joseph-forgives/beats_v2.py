@@ -58,16 +58,31 @@ LOCKS = {
         "broad GOLD COLLAR and dark kohl (the linen is Egyptian "
         "costume, permitted; he is the one exception to the "
         "no-pale-cloth rule, by office); warmth always visible "
-        "under the authority. Aged appropriately per beat: young "
-        "at distance in b01, vizier-age (~40) through Genesis 45, "
-        "older (~55) in Genesis 50."
+        "under the authority. His HAIR is the SAME dark, "
+        "near-black short curly Egyptian-cut hair in EVERY single "
+        "shot — it never turns grey and never changes length "
+        "(match the CAST-REF-V2/joseph.jpeg face exactly). He is "
+        "the same recognisable man young at distance in b01, as "
+        "vizier through Genesis 45, and in Genesis 50 — the "
+        "passage of years shows ONLY in slightly deeper lines "
+        "around the eyes and a graver expression, NEVER in grey "
+        "hair; his dark hair is how the viewer knows it is still "
+        "Joseph."
     ),
     "BROTHERS": (
-        "BROTHERS LOCK: the ten brothers — TEN men in every group "
-        "shot (counts law): weathered Canaanite shepherds from "
-        "grey-bearded Reuben down to young Benjamin's elder set, "
-        "in worn earth-toned robes of brown, rust and olive (no "
-        "cream); varied faces, guilt-worn, never villains."
+        "BROTHERS LOCK: the ten brothers — TEN distinctly "
+        "different men in every group shot (counts law), NOT a "
+        "row of matching old men: weathered Canaanite shepherds "
+        "spanning a real range of ages and looks. Their hair and "
+        "beards are VARIED in colour and cut — most are "
+        "dark-brown or black-bearded men in their thirties and "
+        "forties, two or three are middle-aged with salt-and-"
+        "pepper, and only the eldest one or two (Reuben) are "
+        "truly grey; NEVER a uniform crowd of white 'Santa' "
+        "beards, and no two brothers share the same face, hair "
+        "colour or beard. They wear worn earth-toned robes of "
+        "brown, rust and olive (no cream); guilt-worn, never "
+        "villains."
     ),
     "HALL": (
         "HALL LOCK: Joseph's audience hall — a cool Egyptian "
@@ -99,22 +114,24 @@ BEATS = [
             "Years before, Joseph's own brothers had sold him into slavery "
             "out of jealousy."
         ),
-        "must_show": "the worst day at DISTANCE — the far Midianite caravan crossing the harsh noon desert with young Joseph small among the traders, the brothers a knot of tiny figures on the ridge behind; aftermath framing, no violence.",
-        "must_not_show": "ABSOLUTE: no pit, no struggle, no violence — distance carries everything; harsh noon light.",
+        "must_show": "the worst day at DISTANCE, as ONE continuous landscape: in the near foreground the knot of brothers stands small and dark on a low sandy rise, watching; and running back from their feet into the SAME desert without any break, the far Midianite caravan files away toward Egypt with young Joseph small among the traders; aftermath framing, no violence.",
+        "must_not_show": "ABSOLUTE: no pit, no struggle, no violence — distance carries everything; harsh noon light. ABSOLUTELY NO horizontal band of dust, haze or colour splitting the frame into an upper and a lower scene, and NOT two stacked pictures — one single continuous desert photographed edge to edge, the foreground rise reading unbroken back to the distant caravan.",
         "scene": (
             "The worst day of two families is framed from far "
-            "enough away to bear: across the harsh noon desert "
-            "the Midianite caravan files small toward Egypt — "
-            "camels, bales, traders, and among them one "
-            "seventeen-year-old figure walking where he is "
-            "led — while on the ridge behind, tiny against "
-            "the glare, the knot of his brothers stands "
-            "watching the distance take him — jealousy's "
-            "whole transaction complete, twenty silver "
-            "pieces heavy in a shepherd's bag, and thirteen "
-            "years of God's strange arithmetic just begun. "
-            "Every figure has two arms, two hands and one "
-            "head."
+            "enough away to bear, and as ONE unbroken desert: "
+            "in the near foreground the knot of his brothers "
+            "stands on a low sandy rise, small and dark against "
+            "the glare, watching; and running back from their "
+            "feet into the same continuous distance — no seam, "
+            "no dividing haze band, one photograph edge to "
+            "edge — the Midianite caravan files small toward "
+            "Egypt, camels, bales and traders, and among them "
+            "one seventeen-year-old figure walking where he is "
+            "led. Jealousy's whole transaction is complete, "
+            "twenty silver pieces heavy in a shepherd's bag, "
+            "and thirteen years of God's strange arithmetic "
+            "just begun. Every figure has two arms, two hands "
+            "and one head."
         ),
     },
     {
@@ -330,8 +347,8 @@ BEATS = [
             "He gave them the one thing they could not give themselves: "
             "permission to stop hating themselves."
         ),
-        "must_show": "the permission received — a brother's sob finally breaking, Joseph's hand warm on the back of his neck; the release physical at last.",
-        "must_not_show": "no halo; the sob HONEST — relief, not grovelling; Joseph's hand a brother's, not a lord's.",
+        "must_show": "the permission received — a brother's sob finally breaking, Joseph's hand warm on the back of his neck; the release physical at last; the other brothers around them each a clearly DIFFERENT man — varied ages, hair colours and beards, no two alike.",
+        "must_not_show": "no halo; the sob HONEST — relief, not grovelling; Joseph's hand a brother's, not a lord's; NOT a row of identical white-bearded old men — the brothers are visibly different individuals.",
         "scene": (
             "The thing no man can hand himself is handed "
             "over: one of the ten breaks at last — a sob "
@@ -354,16 +371,18 @@ BEATS = [
             "Much later, when their father died and the brothers feared "
             "revenge, Joseph spoke the line that closes the wound."
         ),
-        "must_show": "the later fear — the brothers OLDER, bowed again before older Joseph in golden late light, mourning-worn, braced for the revenge they still fear; his grief that they still fear him.",
-        "must_not_show": "no halo; all aged consistently; Joseph's face GRIEVED at their fear, never stern.",
+        "must_show": "the later fear — the brothers a few years older, bowed again before Joseph (the SAME dark-haired man, no grey) in golden late light, mourning-worn, braced for the revenge they still fear; his grief that they still fear him; the brothers each a DIFFERENT man, varied hair and beards, no two alike.",
+        "must_not_show": "no halo; Joseph's HAIR still dark near-black (NEVER grey) — the years show only in his face; the brothers NOT a uniform crowd of matching grey/white 'Santa' beards; Joseph's face GRIEVED at their fear, never stern.",
         "scene": (
             "Years and a father's funeral later, the old "
             "fear comes back wearing mourning clothes: the "
-            "brothers — greyer now, faces cut deeper — bow "
+            "brothers — a mix of dark-haired and greying "
+            "men, faces cut deeper, no two alike — bow "
             "before Joseph once again in the golden late "
             "light, braced once again, certain that with "
             "Jacob buried the ledger reopens — and on "
-            "Joseph's older face, before any word, the "
+            "Joseph's face, unchanged and still dark-haired "
+            "so they cannot mistake him, before any word, the "
             "grief of a man discovering that the people he "
             "forgave have carried the fear all these "
             "years anyway — and readying, once more, the "
@@ -450,16 +469,18 @@ BEATS = [
             "He didn't pretend it hadn't hurt. He saw God's hand turning "
             "their evil into rescue."
         ),
-        "must_show": "the closing embrace — older Joseph embracing his brothers in the warm gold, tears on the old faces, the storehouses golden beyond; wound closed with the truth intact.",
-        "must_not_show": "no halo; COUNT ten in the embrace-knot; the tears on BOTH sides; the granaries visible beyond.",
+        "must_show": "the closing embrace — Joseph (the SAME dark-haired man, no grey) embracing his brothers in the warm gold, tears on the weathered faces, the storehouses golden beyond; wound closed with the truth intact; the brothers each a DIFFERENT man, varied hair and beards, no two alike.",
+        "must_not_show": "no halo; COUNT ten in the embrace-knot; Joseph's HAIR still dark near-black (NEVER grey); the brothers NOT a uniform crowd of matching grey/white 'Santa' beards; the tears on BOTH sides; the granaries visible beyond.",
         "scene": (
             "The wound closes with everyone's eyes open: "
-            "older Joseph steps into his brothers and the "
-            "embrace takes all of them — grey heads against "
-            "his gold collar, ten weathered men and the boy "
-            "they sold folded into one knot in the warm "
-            "late light, tears running free on both sides "
-            "of the old crime — and beyond the doorway the "
+            "Joseph steps into his brothers and the "
+            "embrace takes all of them — ten weathered but "
+            "distinctly different men, dark and greying "
+            "heads mixed, against his gold collar, and the "
+            "boy they sold — still dark-haired, unmistakably "
+            "the same Joseph — folded into one knot in the "
+            "warm late light, tears running free on both "
+            "sides of the old crime — and beyond the doorway the "
             "storehouses stand golden with the rescue their "
             "evil was bent into — nothing pretended, "
             "nothing unfelt, everything forgiven: God's "
