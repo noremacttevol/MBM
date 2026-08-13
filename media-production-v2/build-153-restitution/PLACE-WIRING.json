@@ -1,4 +1,10 @@
 {
+ "LAMEMAN": {
+  "manual": true,
+  "src_beat": "s03-silver-and-gold-have-i",
+  "src_build": "build-153-restitution",
+  "src_file": "build-153-restitution/assets/s03-silver-and-gold-have-i.jpeg"
+ },
  "TEMPLE": {
   "manual": false,
   "src_beat": "v2-r006-b21",
