@@ -1,3 +1,42 @@
+## 2026-08-13 (author lane, unattended/headless) — ROW 140 bronze-serpent AUTHOR-FIX: b17 Moses identity BLOCK cleared, handed back to the runner (complaint-first), $0 — Machine A `Dev`, Fable-5 author lane
+
+**Commit:** `ae6560b98` (row 140: beats_v2.py + QC.md + ASSEMBLED-PROMPTS.txt + AUTHOR-BOARD + bad-s17 delete).
+
+Dispatched to AUTHOR-BOARD row 140 (The Bronze Serpent — Cameron's approved
+replacement that CUTS the Naaman prodigal-dupe he rejected; open complaint keyed
+to 140). State was NEEDS-REBUILD with a RUNNER PARK note: all 24 stills built
+(0 rerolls ~$3.48) but ONE authoring BLOCK — b17/s17-lifted-on-a-pole rendered a
+young non-canonical Moses because b17's `locks` OMITTED the `MOSES` token, so the
+char ref (`moses.jpeg`) never attached (it attaches by lock token, not prose).
+
+**Author fix (the park note's spec):**
+- Added `"MOSES"` to b17's `locks` in `beats_v2.py` (now
+  `["MOSES","SERPENT-POLE","WILDERNESS-CAMP"]`) — symmetric with the working Moses
+  beats b03/b11/b13/b15. Verified: `--check` PASS (24 beats); the "MOSES LOCK:"
+  text now appears in b17's ASSEMBLED prompt (`--dump`). moses.jpeg present.
+- **Deleted the one bad `assets/s17-lifted-on-a-pole.jpeg` (git rm)** so the runner's
+  `v2_gen_api` resume regenerates ONLY b17 (missing-frame → COST LAW skips the 23
+  banked-good frames; touch-once holds). Had to re-delete once — a concurrent lane's
+  git op restored it before I committed; committed atomically the second time.
+
+**Routing decision (why AUTHORED+Ready ✅, NOT BUILT):** row 140 was NEVER shipped,
+so there is no live card hash. The documented "flip NEEDS-REBUILD→BUILT for the
+cfix lane" path (PROMPT lines 93-108) only works for SHIPPED rows with a live
+complaint hash — here cfix's `cur.get('140') is not None` guard is False and verify
+skips rows in openc, so BUILT would STRAND it. Correct lane for a never-shipped
+row with 23/24 stills is the RUNNER: set State NEEDS-REBUILD→AUTHORED, Ready ✅,
+Claim cleared. Verified against the live picker: row 140 parses runner-eligible AND
+(being in openc) is picked COMPLAINT-FIRST (picker line 272). QC.md handoff written
+with exact runner steps + the caveat that the SERPENT-POLE plate was promoted from
+the OLD bad s17 (if its young-Moses bleeds through the regen, reroll s17 + re-promote
+the plate). Runner will regen b17 → assemble (AUDIO LOCK from V1 segment mp3s) → ship
+→ resolve the Naaman-dupe complaint.
+
+**Cost:** $0 (no Gemini, no ElevenLabs — one token edit + one frame delete). Author
+queue is otherwise drained (0 NEEDS-BEATS, 0 NEEDS-REBUILD, 0 unfinished AUTHORED;
+62 AUTHORED-Ready wait on the paid runner; 3 NEEDS-AUDIO 155/156/157 route to the
+audio lane, not author — left for it).
+
 ## 2026-08-13 (cont. 102) — ROW 146 vine-and-branches C-FIX SHIPPED: Cameron's "0:40 white faces / 0:47 multiple arms / 1:19 Jesus missing a hand" ALL THREE FIXED, FULL-CUT GATE 14/14, $0.40/3 rerolls, audio byte-identical — Machine A `Dev`, Opus runner (unattended/headless)
 
 **Commit:** ship `d4b437a004b0` (mp4 + QC autopsy + 3 rerolled stills + boards + api-spend); card repoint + complaint-resolve + lessons this session's commit B. Complaint-first + low-number dispatch to AUTHOR-BOARD row 146 (lowest waiting row with an OPEN picture complaint, reportedAgainst the live cut a62787cfb). Read PROMPT-OPUS-RUNNER laws + all rubric lessons + `v2_outline.py 146` first (LEARNING LAW).
