@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 11:51:32",
+ "scanned": "2026-08-13 12:13:19",
  "entries": [
   {
    "row": 1,
@@ -58137,6 +58137,148 @@
    "scene": "The last frame is the doctrine sleeping in the doorway: under a whole sky of stars the shepherd lies stretched across the fold's single opening \u2014 mantle drawn to his chin, staff loose in reach, his body spanning the gap "
   },
   {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b01",
+   "file": "build-144-resurrection-and-the-life/assets/s01-lazarus-had-been-in-the.jpeg",
+   "tokens": [
+    "TOMB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Four days is long enough for hope to file its papers: the great wheel-stone stands rolled shut in its channel across the cave's dark mouth, dry grass leaning on the terraced slope, a mourner's torn ribbon caught on the t"
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b02",
+   "file": "build-144-resurrection-and-the-life/assets/s02-his-sister-martha-came-to.jpeg",
+   "tokens": [
+    "MARTHA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "She comes to him the way she does everything \u2014 directly: Martha up the Bethany road with her grief carried like a full jar, shoulders square under the weight of four days, the strong red-knuckled hands twisting her apron"
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b03",
+   "file": "build-144-resurrection-and-the-life/assets/s03-she-said-she-believed-her.jpeg",
+   "tokens": [
+    "MARTHA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Her theology is sound and her hope is far away: Martha speaks it steadily to him \u2014 I KNOW he shall rise again, at the resurrection, at the last day \u2014 her strong hand moving out toward the grey horizon as she says it, pla"
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b04",
+   "file": "build-144-resurrection-and-the-life/assets/s04-jesus-answered-with-a-promise.jpeg",
+   "tokens": [
+    "MARTHA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The correction he is about to make is one of distance, not doctrine: Jesus's face gathers over Martha's far-off hope with the particular gravity he keeps for grief \u2014 nothing of the lecture in it, everything of the tide \u2014"
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b05",
+   "file": "build-144-resurrection-and-the-life/assets/s05-i-am-the-resurrection-and.jpeg",
+   "tokens": [
+    "MARTHA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The biggest I AM of them all is said to an audience of one grieving woman: Jesus close before Martha on the grey road, his eyes holding her direct ones \u2014 I AM the resurrection \u2014 not at the last day: standing here \u2014 AND t"
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b06",
+   "file": "build-144-resurrection-and-the-life/assets/s06-not-a-theory-about-life.jpeg",
+   "tokens": [
+    "TOMB"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the claim is up against is not an idea: the wheel-stone sits shut in its channel, tonnage and limestone, blunt as arithmetic \u2014 no theory ever rolled one of these, no doctrine ever needed to \u2014 four days of silence be"
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b07",
+   "file": "build-144-resurrection-and-the-life/assets/s07-he-said-he-himself-is.jpeg",
+   "tokens": [
+    "MARTHA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The claim keeps its address at his own chest: Jesus's hand lies flat over his heart as he says it \u2014 HE HIMSELF, not a process, not a someday \u2014 the life, standing in the road, catching her eyes and holding them \u2014 and on M"
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b08",
+   "file": "build-144-resurrection-and-the-life/assets/s08-and-whosoever-liveth-and-believeth.jpeg",
+   "tokens": [
+    "MARTHA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The promise widens until it covers everyone who will ever grieve: whosoever liveth \u2014 the words gentle and enormous over the grey road \u2014 and believeth in me, shall NEVER die \u2014 and around the two of them the overcast eases"
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b09",
+   "file": "build-144-resurrection-and-the-life/assets/s09-believest-thou-this-martha-said.jpeg",
+   "tokens": [
+    "MARTHA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The question comes to her by name and she does not flinch it: believest thou THIS? \u2014 the asking face close and kind and inescapable \u2014 and Martha answers the way Martha does everything: directly \u2014 yes \u2014 the word breaking "
+  },
+  {
+   "row": 144,
+   "build": "build-144-resurrection-and-the-life",
+   "beat": "v2-r144-b10",
+   "file": "build-144-resurrection-and-the-life/assets/s10-and-moments-later-her-brother.jpeg",
+   "tokens": [
+    "TOMB",
+    "LAZARUS",
+    "MARTHA"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 3,
+   "scene": "The doorway goes back to being a doorway: the great wheel-stone stands rolled open in its channel and out of the dark, upright and walking, comes Lazarus \u2014 clean linen graveclothes loosening at his arms, the open-faced s"
+  },
+  {
    "row": 145,
    "build": "build-145-way-truth-life",
    "beat": "v2-r145-b01",
@@ -59792,6 +59934,292 @@
    "scene": "The last frame is addressed to whoever is watching: close on the empty kneeling-place in the clearing's warm morning light \u2014 the soft pressed ground, the quiet, the ready light through the young leaves \u2014 everything prepa"
   },
   {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b01",
+   "file": "build-152-revealeth-his-secret/assets/s01-the-man-god-chose-to.jpeg",
+   "tokens": [
+    "AMOS",
+    "HILLS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "God's chosen mouthpiece is currently counting goats, the camera set low on the ridge taking the flock-line from the side: Amos moves among his mixed animals on the dry Tekoa hills \u2014 thick-wristed, sun-blackened, a fig-dr"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b02",
+   "file": "build-152-revealeth-his-secret/assets/s02-god-has-always-loved-to.jpeg",
+   "tokens": [
+    "AMOS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Look at the hands the message is about to be handed to: close on Amos's broad working fingers around the smooth-worn staff \u2014 callus-ridged, fig-sap-stained, a shepherd's nicks healed white across the knuckles \u2014 the pruni"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b03",
+   "file": "build-152-revealeth-his-secret/assets/s03-and-one-day-the-word.jpeg",
+   "tokens": [
+    "AMOS",
+    "HILLS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The day divides into before and after between two steps: Amos stops mid-stride on the ridge \u2014 staff planted, head lifting, the flock forgotten \u2014 as the wind comes moving visibly through the dry grass toward him in a long"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b04",
+   "file": "build-152-revealeth-his-secret/assets/s04-not-his-own-idea-not.jpeg",
+   "tokens": [
+    "AMOS",
+    "HILLS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Nobody composes a face like this over his own idea: close on Amos in the wind's press \u2014 mantle flattened along his arm, beard streaming, the wide eyes fixed on nothing the ridge contains \u2014 RECEIVING, unmistakably: words "
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b05",
+   "file": "build-152-revealeth-his-secret/assets/s05-here-is-something-steadying-about.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The pattern has always had a silhouette: on the town wall at first light the watchman turns from the far horizon \u2014 where he alone has seen what is coming \u2014 and cups his hands to call down into the waking streets below \u2014 "
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b06",
+   "file": "build-152-revealeth-his-secret/assets/s06-he-does-not-move-against.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Watch how a considerate hand enters a dark room: the lamp goes FIRST \u2014 held out ahead at arm's length through the doorway, its warm ring sliding across the floor and up the far wall before a single footstep follows \u2014 the"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b07",
+   "file": "build-152-revealeth-his-secret/assets/s07-he-opens-his-plans-to.jpeg",
+   "tokens": [
+    "AMOS",
+    "HILLS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The plan changes hands without a courier visible: Amos sits on a ridge stone with a scroll braced on his knee, writing in the careful unpracticed hand of a man more used to shears than pens \u2014 pausing, head tipped in the "
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b08",
+   "file": "build-152-revealeth-his-secret/assets/s08-surely-the-lord-god-will.jpeg",
+   "tokens": [
+    "AMOS",
+    "HILLS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The biggest claim in the book stands on a goat-ridge to say itself: Amos at his full plain height under the whole wide sky, flock drifting unbothered around his knees \u2014 SURELY the Lord GOD will do NOTHING \u2014 the heavens e"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b09",
+   "file": "build-152-revealeth-his-secret/assets/s09-the-god-who-holds-everything.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Letting someone in on a plan looks like this at any table: two friends lean head to head in the lamp's ring, one tracing tomorrow's intentions on the boards with a finger while the other listens with the stillness of the"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b10",
+   "file": "build-152-revealeth-his-secret/assets/s10-he-trusts-his-real-plan.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A good father's weather report empties the pasture in time: at the farmhouse door he points his family's eyes at the far horizon where the storm stands building \u2014 still distant, still quiet \u2014 and around him the household"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b11",
+   "file": "build-152-revealeth-his-secret/assets/s11-so-the-prophet-does-not.jpeg",
+   "tokens": [
+    "AMOS",
+    "HILLS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What was given to him starts travelling the same day: Amos comes down off his ridge with the staff striking its steady rhythm and the scroll tied at his scrip \u2014 the flock folded behind him in good order, the far town pal"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b12",
+   "file": "build-152-revealeth-his-secret/assets/s12-he-goes-down-to-where.jpeg",
+   "tokens": [
+    "AMOS",
+    "GATE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The message is delivered where the foot traffic is: Amos plants himself at the stone gate with the market din around him \u2014 stalls shouting prices, elders on the benches, fine robes and work robes shouldering past \u2014 and s"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b13",
+   "file": "build-152-revealeth-his-secret/assets/s13-and-this-is-a-mercy.jpeg",
+   "tokens": [
+    "GATE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Some of the ears the warning finds turn out to be doors: near the gate a stall-keeper has gone still over his scales, the sharp practice in his hands suddenly heavy; a young man's easy smirk has drained into thought; an "
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b14",
+   "file": "build-152-revealeth-his-secret/assets/s14-they-can-get-ready-mend.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Warned people get to spend the warning well: in the late gold a man sets fallen stones back into his boundary wall \u2014 mending what the years broke while there is light to mend by \u2014 and down the road beyond him another fig"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b15",
+   "file": "build-152-revealeth-his-secret/assets/s15-the-lion-hath-roared-who.jpeg",
+   "tokens": [
+    "HILLS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One sound reorganizes the whole dusk: on the far ridge the lion stands mid-roar \u2014 head low, mane dark against the last light, the sound rolling down across the grazing land \u2014 and below, everything answers at once: the fl"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b16",
+   "file": "build-152-revealeth-his-secret/assets/s16-the-lord-god-hath-spoken.jpeg",
+   "tokens": [
+    "AMOS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The parallel lands on the one man who has heard both sounds: close on Amos's weathered face \u2014 and in it the same involuntary response the roar pulls from a hillside: the impossibility of pretending it did not happen \u2014 th"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b17",
+   "file": "build-152-revealeth-his-secret/assets/s17-when-god-has-truly-spoken.jpeg",
+   "tokens": [
+    "HILLS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Try ignoring it and watch the hillside try with you: at the roar every head on the dusk slope has turned as one \u2014 the flock's ears all aimed at the far ridge, the shepherd's whole body swung round, a scatter of birds lif"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b18",
+   "file": "build-152-revealeth-his-secret/assets/s18-the-message-is-not-his.jpeg",
+   "tokens": [
+    "AMOS",
+    "GATE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The courier's one duty is not to improve the letter: Amos stands at the gate with his hand open and the words going out exactly as they were given \u2014 un-softened, un-shortened, at the level carrying volume of a man saying"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b19",
+   "file": "build-152-revealeth-his-secret/assets/s19-and-that-is-the-quiet.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The comfort has a hearth and always has: in the lamplit evening a household gathers close while the eldest reads aloud from the worn page \u2014 children cross-legged at the floor's edge, the mother's mending stilled in her l"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b20",
+   "file": "build-152-revealeth-his-secret/assets/s20-he-still-opens-his-plans.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The post never went out of service: at dawn a new watchman climbs the worn wall-stairs \u2014 a different man than the old silhouette, younger, his own face \u2014 and takes up the same post at the same parapet, eyes going far the"
+  },
+  {
+   "row": 152,
+   "build": "build-152-revealeth-his-secret",
+   "beat": "v2-r152-b21",
+   "file": "build-152-revealeth-his-secret/assets/s21-so-the-only-question-is.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The row ends on the posture it hopes to teach: a single figure stands in the dawn light with head tipped in the old listening angle \u2014 the same tilt Amos's head took on the ridge \u2014 face open toward the brightening horizon"
+  },
+  {
    "row": 153,
    "build": "build-153-restitution",
    "beat": "v2-r153-b01",
@@ -60146,6 +60574,300 @@
    "night": false,
    "n_person": 0,
    "scene": "The last frame is a body answering the question: on the road a figure stands FULLY turned \u2014 feet, shoulders, face, all of them swung round and committed toward the far bright valley where the first silver rain is already"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b01",
+   "file": "build-154-everlasting-gospel/assets/s01-for-long-stretches-of-history.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "For centuries the map of the good news looked like this at night: a wide dark country under starless overcast, settlements scattered sparse across the black \u2014 and burning in all that distance only a few small lamps, far "
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b02",
+   "file": "build-154-everlasting-gospel/assets/s02-men-reached-for-heaven-in.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The reaching never stopped even when the finding did: on the dim ridge a scatter of figures stands with hands lifted toward the sealed overcast \u2014 an old man's arms spread wide, a mother holding her child up as if height "
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b03",
+   "file": "build-154-everlasting-gospel/assets/s03-and-then-in-a-vision.jpeg",
+   "tokens": [
+    "JOHN",
+    "PATMOS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The sealed sky finally gets a seam: on the rocky Patmos shore at sea-dawn the old exile's face comes up \u2014 white hair whipping in the salt wind \u2014 as the grey overcast PARTS along a long bright line, cloud rolling back fro"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b04",
+   "file": "build-154-everlasting-gospel/assets/s04-not-an-army-not-a.jpeg",
+   "tokens": [
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What comes through the opened height is one messenger with a book: high in the parted heavens the angel hangs small and real \u2014 a dignified robed figure in layered silver-grey, WINGLESS, mantle streaming in the height's w"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b05",
+   "file": "build-154-everlasting-gospel/assets/s05-it-is-older-than-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The book in the angel's hands is no new edition: close on the open pages \u2014 worn soft at their edges, creased by ages of carrying, the indistinct old script deep in the grain of them \u2014 and over all that age the light lies"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b06",
+   "file": "build-154-everlasting-gospel/assets/s06-the-angel-flew-across-the.jpeg",
+   "tokens": [
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The delivery route crosses the whole ceiling of the world, the camera set low on the dark lands taking the height from the side: the silver-grey figure moves aloft across the opened heaven \u2014 mantle streaming with the cro"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b07",
+   "file": "build-154-everlasting-gospel/assets/s07-so-here-is-the-quiet.jpeg",
+   "tokens": [
+    "JOHN",
+    "PATMOS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The oldest living apostle takes the vision personally: close on John's weathered face in the sea-wind \u2014 the deep undimmed eyes bright with tears that the gusts keep taking, the white beard whipped sideways, and underneat"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b08",
+   "file": "build-154-everlasting-gospel/assets/s08-and-i-saw-another-angel.jpeg",
+   "tokens": [
+    "ANGEL",
+    "JOHN",
+    "PATMOS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verse happens in one vertical frame: at its foot the old exile stands small on the wet Patmos rock, face craned upward \u2014 and high above him, in the exact midst of the opened heaven, the silver-grey messenger holds hi"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b09",
+   "file": "build-154-everlasting-gospel/assets/s09-notice-the-word-everlasting.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One word in the verse out-ages everything around it: the open book rides steady in the height's streaming wind \u2014 pages that should flutter lying calm, the worn old leaves holding their place while mantle and cloud and li"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b10",
+   "file": "build-154-everlasting-gospel/assets/s10-this-good-news-was-never.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Compare the editions and find no edits: two page-fragments lie side by side in the clean light \u2014 one ancient, one older still, different hands and different centuries \u2014 and across both, traced identical, the SAME line of"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b11",
+   "file": "build-154-everlasting-gospel/assets/s11-and-notice-who-it-is.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Read the delivery addresses from the courier's height: below the opened heaven the world lies wide \u2014 terraced valleys, fishing coasts, walled towns, tent camps at the desert's edge \u2014 and across all of it, small and scatt"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b12",
+   "file": "build-154-everlasting-gospel/assets/s12-not-one-favoured-people-not.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The list has no asterisks anywhere on it: across the frame the lands and their peoples stand varied and distinct \u2014 mountain herders in felted wool, river farmers in wrapped cotton, coast folk with nets, desert families a"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b13",
+   "file": "build-154-everlasting-gospel/assets/s13-no-one-is-too-far.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Check the farthest address on the map and find it served: at the very edge of a vast empty land \u2014 past the last road, past the last neighbour, where the maps go quiet \u2014 one small hut stands alone with its thread of smoke"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b14",
+   "file": "build-154-everlasting-gospel/assets/s14-the-call-is-simple-and.jpeg",
+   "tokens": [
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The summons has no fine print: the messenger nearer now in the clean height-light \u2014 the calm strong face of a courier who believes his letter, the silver-grey layers stilled \u2014 and one hand extended open in the simplest g"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b15",
+   "file": "build-154-everlasting-gospel/assets/s15-honour-god-give-him-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The worship-summons attaches its evidence in one panorama: the last stars still strewn high in the paling heavens, the green earth rolling down to a sea going bright at the horizon \u2014 and in the near ground, rising quiet "
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b16",
+   "file": "build-154-everlasting-gospel/assets/s16-turn-your-face-back-toward.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The whole summons can be obeyed with the neck: a single figure who has walked eyes-down through the frame's bottom edge stops \u2014 and the face comes UP: off the ground, past the horizon, into the opened light falling from "
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b17",
+   "file": "build-154-everlasting-gospel/assets/s17-saying-with-a-loud-voice.jpeg",
+   "tokens": [
+    "ANGEL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The proclamation goes out at the volume of heaven: the angel's arms spread wide in the midst of the height, the open book braced against one forearm, and the call rolls DOWN over the listening lands \u2014 FEAR GOD, give GLOR"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b18",
+   "file": "build-154-everlasting-gospel/assets/s18-so-the-only-question-is.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "After the height and the nations, the row comes down to one lamplit face: a listener at evening with the small flame warm on their features \u2014 quiet, open, genuinely considering \u2014 the everlasting gospel's whole planetary "
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b19",
+   "file": "build-154-everlasting-gospel/assets/s19-it-is-a-call-to.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The call's destination is a lit doorway inside creation: down the night road a figure walks steadily HOME \u2014 toward the one warm window burning at the land's fold \u2014 while overhead the stars stand set in their deep places "
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b20",
+   "file": "build-154-everlasting-gospel/assets/s20-not-a-distant-idea-but.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The theology gets as near as the ground: close on bare feet planted in the warm real earth \u2014 dust in the toe-creases, grass at the ankles \u2014 and a hand coming down to press flat against the soil, palm to the planet \u2014 the "
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b21",
+   "file": "build-154-everlasting-gospel/assets/s21-the-good-news-was-never.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The proof is one wick catching: in the deep evening a carried flame tips against the cold lamp that guttered out an age ago \u2014 and the wick CATCHES, light climbing back into the old clay cup, the corner it once served war"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b22",
+   "file": "build-154-everlasting-gospel/assets/s22-heaven-sent-it-out-again.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Watch the re-sending travel a single street: down the dark lane the light goes lamp to lamp \u2014 a hand carrying flame to a neighbour's wick, that lamp lighting the next doorway's, windows warming one by one into the distan"
+  },
+  {
+   "row": 154,
+   "build": "build-154-everlasting-gospel",
+   "beat": "v2-r154-b23",
+   "file": "build-154-everlasting-gospel/assets/s23-will-you-receive-it.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last frame holds the lamp out and waits: one steady hand extends the small lit lamp toward the frame's near edge \u2014 the flame calm, the clay warm, the offer complete \u2014 and the space where a receiving hand would close "
   },
   {
    "row": 158,
