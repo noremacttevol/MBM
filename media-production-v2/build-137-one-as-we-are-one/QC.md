@@ -95,3 +95,25 @@ good frames):**
 
 **Plate:** GROVE promoted from this row's own b01 (manual, per author — NOT
 borrowed from build-40/Gethsemane per the 0f3796895 GROVE/GARDEN split).
+
+---
+
+## VERIFY-PASS 2026-08-13 — ABORTED: ROW IS APPROVED, HASH CURRENT (touched nothing)
+
+A VERIFY-PASS session was dispatched to full-cut-gate this row before Cameron's
+eyes reached it. FIRST ACTION per the runner guardrail: read `.approvals.json`
+row 137 and compare its `approvedHash` to the live card `data-hash` in
+`site/review.html`.
+
+- `.approvals.json` row 137: `approved: true`, `approvedHash:
+  0434cfa666244948c256f5dfb119c104550f4915`, approvedAt 2026-08-13T00:16:01Z,
+  no open complaint.
+- live card `id="v137"` (realistic-v2, "One As We Are One · John 17"):
+  `data-hash="0434cfa666244948c256f5dfb119c104550f4915"`.
+
+**Hashes MATCH and the row is approved → Cameron's approval is CURRENT → the
+row is UNTOUCHABLE.** Session exited immediately: claimed nothing, extracted no
+frames, changed no art, re-cut nothing. An approved row is Cameron's release
+decision and no defect outranks it (this check exists to prevent the 3 AM
+2026-08-12 re-cut of approved rows 1/122/129). The FIX-WAVE notes above remain
+non-blocking and are NOT to be acted on while this approval stands.
