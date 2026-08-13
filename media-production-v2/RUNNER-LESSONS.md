@@ -409,6 +409,20 @@ session's $0.13 mistake. Keep entries deduped and one line each.
   legs at full resolution, especially in crowds.
 - **Beards appear/disappear/recolor between frames** (rubric lesson 13 — rows
   9/62/91/102): run the beard-only pass per person.
+- **A wired IMAGE-ref character can STILL drift beard LENGTH + head-covering on
+  scattered beats — separate the two: the beard-length change is the Cameron-flag
+  class (reroll it), the cap↔hood alternation is usually uniform stylistic variance
+  (leave it) (2026-08-13, row 115 ram-in-the-thicket, b25/b32).** ABRAHAM carried a
+  real `REFS` portrait (tight grey knit cap + LONG white beard), yet ~2 of 32 beats
+  rendered a SHORTER/fuller beard + a draped mantle-hood instead of the cap
+  (PROMPT-AUTOPSY verdict 3 — generator ignored the attached ref; a fresh `--redo`
+  re-anchored the beard on both, no lock/text edit). The KEY nuance for the reroll
+  decision: the cap↔draped-hood head covering alternated across the WHOLE cut
+  (incl. the already-banked half) — because it is uniform and the FACE holds, it is
+  NOT an identity break and chasing it burns budget; the BEARD LENGTH flipping
+  short↔long is the rubric-13 defect Cameron flags, so reroll only for that (and for
+  a clearly-wrong FACE), not for a hood. Verify the reroll landed in the RENDERED
+  mp4, not just the source asset.
 - **Giant/shrunken figures** (rubric lesson 14 — rows 56/69/107/112): height-
   check every multi-figure frame against a shared reference; Jesus is
   ordinary-sized, children stay child-sized.
