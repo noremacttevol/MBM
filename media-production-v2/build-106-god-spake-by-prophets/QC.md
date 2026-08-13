@@ -104,3 +104,41 @@ viewed + 3 caption frames + question card):** 24/24 CLEAN.
   crags) — Sinai/Horeb "mountain of God" is defensible; kept.
 - b15/b16: a plain gold band ring on the scribe's hand — period-plausible (gold
   rings existed, cf. James 2:2), not a modern cut/gemstone; kept.
+
+---
+
+## QC-VERIFY — 2026-08-13 (Opus runner, Machine A `Dev`, headless)
+
+Independent FULL-CUT GATE re-check of the BUILT/unapproved cut before Cameron's
+eyes reach it (row 106 sat in the Unwatched queue; `.approvals.json` row 106
+`approved:false` — the 3dbfa84c approvedHash is a void 2026-08-06 V1 stamp, so
+the row was NOT untouchable and this verify is in-scope). One frame per beat
+extracted mid-window from the RENDERED mp4 (`hebrews-1_god-spake-by-prophets.mp4`,
+md5 fd140713, 152.07s) + question card viewed.
+
+**VERDICT: CLEAN 24/24 + card. NOT re-cut (clean row left untouched, touch-once).**
+
+- ONE cream Jesus per frame everywhere — incl. the row's authored risk beat b23
+  (single Jesus, kneeling to the girl / hand on the grandfather's shoulder /
+  grandmother laughing behind); the old triple-Jesus stays fixed.
+- Cream-only-Jesus: no second cream robe on any prophet (b03 threshing-floor
+  figure dark-robed), companion (b19 brown), potter (b11 brown), or table guest
+  (b23 earth-tone). No cream on the OT prophet vignettes.
+- Jesus identity ref-true across all 10 appearances (b11/12/14/16/17/18/19/20/
+  22/23/24): green/hazel eyes — NOT brown-edited (rubric lesson 20); no
+  halo/glow/rim-light; ordinary scale; consistent man. b22/b24 frontal close-ups
+  are the intended "a face you could actually look at" express-image beats.
+- God NEVER embodied: burning bush b05 wraps the thornbush unconsumed with NO
+  face in the flames; b13 angel-sky vast + empty + person-free; Father-voice
+  beats b14/b16 (GREEN captions) show the Son listening, no figure of God.
+- Realistic photography throughout (Law 14) — no cartoon frame, no mix; anatomy/
+  hands/feet clean on every beat incl. the crowd wide b07 and 3-figure b19/b23;
+  no modern objects.
+- Captions bottom-band only; speaker colors correct (narrator WHITE, scripture
+  BLUE b03/b12/b13/b20, God-voice GREEN b14/b16); question card clean, no tofu.
+- FIX-WAVE items (b03 borderline path, b05 dramatized Sinai crags, gold band
+  ring) re-confirmed subtle + non-blocking — nothing that reads as a complaint.
+
+**Live-verified:** review.html card `data-hash` 54add2ef == the shipped cut;
+served mp4 HTTP 200, 20,214,932 bytes == local file size. Cameron's Unwatched
+queue is serving this clean cut. No credits spent (view-only), 0 Gemini.
