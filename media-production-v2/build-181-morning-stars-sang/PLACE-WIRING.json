@@ -1,0 +1,14 @@
+{
+ "CREATION-DAWN": {
+  "manual": true,
+  "src_beat": "s03-before-there-were-people",
+  "src_build": "build-181-morning-stars-sang",
+  "src_file": "build-181-morning-stars-sang/assets/s03-before-there-were-people.jpeg"
+ },
+ "JOB-WHIRLWIND": {
+  "manual": true,
+  "src_beat": "s02-god-answered-from-the-storm",
+  "src_build": "build-181-morning-stars-sang",
+  "src_file": "build-181-morning-stars-sang/assets/s02-god-answered-from-the-storm.jpeg"
+ }
+}

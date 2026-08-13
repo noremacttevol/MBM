@@ -69,6 +69,14 @@ NEW places (runner promotes each from its first good frame, lesson 11):
 Steps in QC.md. No stash plate exists for either yet.
 """
 
+# AUDIO: the V1 final mp4 (67.433s) is 0.821s longer than the current segment
+# timeline (66.612s) — a stale trailing take the STALE-V1 guard rejects for a
+# stream-copy. Per the assembler's prescribed fix, rebuild the track from THIS
+# build's own ElevenLabs mp3s (audio/*.mp3 = 44100/128000, byte-identical voices
+# to the V1 final) at the extract_beats offsets. Nothing re-voiced, nothing
+# re-timed; V1 stays read-only.
+AUDIO_FROM_V1_SEGMENTS = True
+
 # LOCKS: all build-local. No Jesus / no cream (OT). State clothing colours
 # POSITIVELY and dark; only Jesus wears cream and he is not in this row.
 LOCKS = {
