@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 02:08:12",
+ "scanned": "2026-08-13 02:36:52",
  "entries": [
   {
    "row": 1,
@@ -54293,6 +54293,207 @@
    "night": false,
    "n_person": 2,
    "scene": "The sermon ends held out at arm's length: the broken loaf lies open across Jesus's two extended hands, offered forward to the crowd and the shore and the whole hungry world beyond them \u2014 the crumb warm, the halves parted"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b01",
+   "file": "build-146-vine-and-branches/assets/s01-jesus-used-a-picture-his.jpeg",
+   "tokens": [
+    "VINEYARD",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": true,
+   "n_person": 2,
+   "scene": "The lesson is growing beside the road they are walking, the camera set behind the disciples' cloaked backs at the wall: the moonlit vineyard steps away in silver rows, and at the head of them the great old vine stands gn"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b02",
+   "file": "build-146-vine-and-branches/assets/s02-abide-in-me-and-i.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The word is spoken with his palm on the evidence: Jesus's hand rests flat against the old vine's gnarled moonlit trunk \u2014 abide in ME, and I in YOU \u2014 the doubled indwelling laid out in six words while the living wood unde"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b03",
+   "file": "build-146-vine-and-branches/assets/s03-as-the-branch-cannot-bear.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The whole verse is visible at one joint: close on the place where a healthy branch flows out of the old trunk \u2014 bark grown into bark, one wood without a seam \u2014 and along the branch's reach the young clusters forming gree"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b04",
+   "file": "build-146-vine-and-branches/assets/s04-you-are-the-branches.jpeg",
+   "tokens": [
+    "VINEYARD",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The metaphor gets its casting call: Jesus's hand traces from the moonlit trained branches across to the eleven faces at the wall \u2014 YOU \u2014 the arc of the gesture joining wood to men mid-air \u2014 are the branches \u2014 fishermen a"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b05",
+   "file": "build-146-vine-and-branches/assets/s05-stay-in-me-he-said.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Consider how hard the branch is working: the laden branch lies easy along its trellis wire in the golden afternoon, heavy clusters hanging ripe beneath it, leaves turned unhurried to the sun \u2014 and nowhere in the whole fr"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b06",
+   "file": "build-146-vine-and-branches/assets/s06-all-it-does-is-stay.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The branch's complete job description, photographed: extreme close on the joint where branch meets trunk \u2014 bark grown seamlessly into bark, grain running unbroken from the old wood into the young, sap-line invisible and "
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b07",
+   "file": "build-146-vine-and-branches/assets/s07-i-am-the-vine-ye.jpeg",
+   "tokens": [
+    "VINEYARD",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The sentence is staged on the living plant: Jesus stands at the great old trunk with one arm laid along a trained branch, and the branch's line runs on past his hand to where the disciples stand among the moonlit rows \u2014 "
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b08",
+   "file": "build-146-vine-and-branches/assets/s08-not-visitors-not-hired-hands.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "At quitting time the difference walks out the gate: the hired hands shoulder their pruning hooks and baskets in the golden dusk and file out through the vineyard gate toward the village \u2014 honest workers, done for the day"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b09",
+   "file": "build-146-vine-and-branches/assets/s09-branches-part-of-the-same.jpeg",
+   "tokens": [
+    "VINEYARD",
+    "DISCIPLES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The new membership is taken up by hand: along the moonlit row the disciples' hands come to rest on the trained branches \u2014 a fisherman's scarred palm on the smooth young wood, an old tax-man's fingers under a leaf \u2014 men t"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b10",
+   "file": "build-146-vine-and-branches/assets/s10-he-that-abideth-in-me.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The promise gets weighed in his open hand: Jesus lifts a heavy ripe cluster from the laden branch and lets its full weight rest in his palm \u2014 dark grapes crowding the stem, dusted and dense, more in one bunch than a stra"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b11",
+   "file": "build-146-vine-and-branches/assets/s11-a-branch-cut-off-from.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The branch on the ground looks perfectly fine: it lies across the terrace stones in the flat bright light, freshly separate, leaves still green and firm, young fruit still set along it \u2014 nothing weak anywhere in its grai"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b12",
+   "file": "build-146-vine-and-branches/assets/s12-it-dries-up-because-disconnected.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Time files its report on the same stones: the branch lies where it lay \u2014 but grey-brown now, leaves curled to paper, the set fruit shrunk to hard beads \u2014 dried out not by weakness, not by weather, not by any flaw in its "
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b13",
+   "file": "build-146-vine-and-branches/assets/s13-stay-joined-to-him-and.jpeg",
+   "tokens": [
+    "VINEYARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Both endings share one frame at the head row: above, the joined branch hangs heavy off the old trunk, clusters ripe and crowding \u2014 the life flowing visibly into weight \u2014 and on the stones below it the withered branch lie"
+  },
+  {
+   "row": 146,
+   "build": "build-146-vine-and-branches",
+   "beat": "v2-r146-b14",
+   "file": "build-146-vine-and-branches/assets/s14-he-asking-for-effort-he.jpeg",
+   "tokens": [
+    "VINEYARD",
+    "DISCIPLES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 2,
+   "scene": "The last frame is a handclasp against old wood: back in the moonlight Jesus takes a disciple's hand and lays it with his own against the great vine's gnarled trunk \u2014 skin on bark on skin, the three of them joined in one "
   },
   {
    "row": 147,
