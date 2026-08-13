@@ -1,3 +1,34 @@
+## 2026-08-13 (audio lane) — Row 117 hosea-buys-her-back: closing-card "dramatized" re-voiced & SHIPPED — DEPLOYED — Machine A `Dev`
+
+**Commit:** `<this session's ship commit — see review.html commit below>`
+
+**Cameron's complaint (`v2_outline.py 117`):** *"it was all good until the very end
+where you miss pronounced 'Dramatized' — fix that audio at the very end and its good."*
+
+**Domain:** AUDIO, not picture. "dramatized" occurs in exactly one place — the closing
+question card (`make_narration.py:56`). No still was wrong; 38 stills untouched
+(complaint-first / touch-once). Row was parked NEEDS-AUDIO; picked lowest waiting
+complaint per the LOW-NUMBER LAW.
+
+**Diagnosis + fix:** ElevenLabs narrator Brian naturally read the word with the pitch
+rising into the 2nd syllable (112→121 Hz) = the "druh-MAT-ized" sound Cameron heard.
+Re-voiced the CARD ONLY through `mbm_eleven.render_segment` (Brian, 44100/128k — the
+same engine the row already ships) with the spoken respell "DRAMatized" (caption stays
+"dramatized"). Rendered a 6-take batch, scored each by front-stress energy + pitch;
+chose the take with a falling contour (124→108 Hz) and front-loaded energy, then
+pitch-preserving atempo-locked it to the original card duration (13.375s) so no
+downstream still-window moved. Verified on the SHIPPED mp4 at ~3:35: now "God
+DRAM-uh-tized …", front-stressed (e_front 0.192 > e_back 0.157).
+
+**Ship:** card md5 03f3d9e4→9e9cc0d6; mp4 SHA256 358dd0f3 (AUDIO REBUILD PASS, 229.746s,
+20.8 MB). Board 117 NEEDS-AUDIO → BUILT. review.html card v117 data-hash + ?v= + 🛠 flag
+rewritten to answer Cameron in his words (old flag falsely claimed byte-identical audio).
+Deployed `firebase deploy --only hosting` + live-verified.
+
+**Cost:** $0 Gemini, 0 image rerolls. ~10 short ElevenLabs card takes (candidates +
+robustness + 6-take pick). Only the card segment changed; all other voices/wording/timing
+untouched.
+
 ## 2026-08-06 (interactive) — Posting tracker: all 200 rows, ✓ approved check, live WEB chip — DEPLOYED — Machine A `Dev`
 
 **Commit:** `4a84e097e`
