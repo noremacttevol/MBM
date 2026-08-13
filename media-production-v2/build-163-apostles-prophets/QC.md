@@ -21,6 +21,59 @@ instant the endpoint answers. **RESUME COMMAND (from repo root):**
 `python3 media-production-v2/v2_gen_api.py build-163-apostles-prophets --ceiling <recompute>` (18 beats, promote the 6 place plates first per §STRUCTURE) →
 full-cut gate → assemble → ship (two commits) → deploy → live-verify.
 
+## RUNNER BUILD + SHIP — 2026-08-13 (Opus runner, Machine A `Dev`, headless)
+Endpoint RECOVERED (rows 138/160 lanes generating frames ~15:00). Built the row
+end-to-end. `v2_prompt.py --check` PASS. Meter at claim ~$712.
+
+**Plates (2 promoted first, the two 8-beat dominant places):**
+- HOUSEHOLD ← b03 (door easing open, people-free — anchors the bookend doorway
+  arc b04/b16/b18) `--promote`.
+- BUILD-SITE ← b07 (establishing wide, incidental mason back — anchors the whole
+  construction half) `--promote`.
+- FAMILY/OUTSIDERS/BUILDERS/WITNESSES left on lock text (2–5 beats each, per the
+  "2–3-beat place is fine on lock text" lesson) — they held.
+
+**QC / rerolls (2 of 18 = 11%, under the ≤15% COST-LAW budget):**
+- **b11 cornerstone-set — REROLLED.** Take 1 rendered a small incised CROSS/plus
+  mark on the corner stone's face. PROMPT-AUTOPSY = the beat's own `must_not_show`
+  ("no invented mark on the stone") was IGNORED (generator drift, verdict 3) — a
+  plain `--redo` landed a clean stone (masons aligning with plumb line + mallet,
+  no mark). Kept take 2.
+- **b16 not-a-stranger (bookend) — reroll ATTEMPTED, REVERTED to take 1.** The
+  bookend traveller is text-lock-only (`REFS={}`, no ref), so his face is not
+  pinned across b02/b06/b16 (the row-179/142 text-lock-drift class). Take 1 is a
+  clearly non-Jesus household man, rested, dark hair/short beard — a reasonable
+  "same weary man now at home" match to the b02/b06 anchor (same age bracket,
+  colouring, face type; b02↔b06 hold well). The blind `--redo` re-DRIFTED toward
+  a longer-haired, fuller-bearded, downcast, pale-mantled figure = a **Jesus-double
+  risk** on a `jesus:False` beat (the exact re-drift lesson 13 warns about), so
+  reverted to take 1. Minor generic-consistency note only — NOT a Cameron-flag
+  identity break (no ethnicity/beard-appears-disappears change); a perfect lock
+  would need an author ref pin, not worth stranding the row.
+- Everything else passed first take. Jesus b12/b13: cream-only, on-model (green/
+  hazel ref eyes, calm gaze — NOT rerolled/edited), hand on the stone, ordinary-
+  sized (SCALE GATE pass), no halo, not a literal stone. Witnesses b10/b13 generic
+  & distinct (not the named Twelve, no clones). Father never depicted. Realistic
+  only (Law 14) — no cartoon/mixed frame. Solid ropes/plumb lines (no ghost ropes).
+  No modern tools/tread-prints/utility-wires. No second cream figure anywhere.
+
+**AUDIO:** the V1 final mp4 (2026-07-24) PREDATES this row's narration mp3s
+(2026-07-28), so the assembler's staleness guard refused to stream-copy it. Set
+`AUDIO_FROM_V1_SEGMENTS = True` (tool-prescribed) → narration rebuilt from the V1
+build's OWN 11 segment mp3s at extract_beats offsets; nothing re-voiced, nothing
+re-timed, V1 read-only. `AUDIO REBUILD PASS` SHA256=ecf571129df242ea…, 131.006s.
+Drop-check (row-173 lesson): `concat_base.txt` = 18 clips == 18 BEATS; last beat
+NOT dropped; mp4 = 131.006s == audio. No open pronunciation complaint (board
+Audio = OK), so the V1 narration is authoritative.
+
+**FULL-CUT GATE:** extracted one frame per beat from the RENDERED mp4 + the card
+and viewed EVERY one — all 18 pass, captions bottom-band only (white narration /
+light-blue scripture), question card clean (no tofu), no letterbox on any frame.
+
+**COST:** 20 frames (18 beats + 2 rerolls) × $0.134 ≈ **$2.68**, 0 portraits,
+0 TTS. Well under the $6.10/row average; 11% rerolls under the 19% baseline.
+Endpoint-recovery build, no overage.
+
 ## COMPLAINT LEDGER
 - **No open Cameron complaint on this row** (`v2_outline.py 163` shows no prior
   review). First V2 authoring, not a complaint fix.

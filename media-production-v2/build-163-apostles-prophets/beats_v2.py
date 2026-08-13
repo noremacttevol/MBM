@@ -112,6 +112,13 @@ LOCKS = {
 
 REF = True
 
+# The V1 final mp4 (2026-07-24) predates this row's narration mp3s (2026-07-28),
+# so the assembler's staleness guard refuses to stream-copy it. Render narration
+# from the V1 build's OWN segment mp3s at the extract_beats offsets instead —
+# nothing is re-voiced or re-timed, V1 stays read-only. (Tool-prescribed fix;
+# board Audio = OK, no open pronunciation complaint on this row.)
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r163-b01", "out": "s01-once-strangers.jpeg", "seg": "n1",
@@ -458,5 +465,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "BUILD-SITE": "PLACE-REF/build-site.jpeg",  # build-163-apostles-prophets s07-a-house-must-be-built (manual)
+    "HOUSEHOLD": "PLACE-REF/household.jpeg",  # build-163-apostles-prophets s03-something-changed (manual)
 }
 # === end PLACE-PLATES ===

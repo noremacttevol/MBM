@@ -1,0 +1,14 @@
+{
+ "BUILD-SITE": {
+  "manual": true,
+  "src_beat": "s07-a-house-must-be-built",
+  "src_build": "build-163-apostles-prophets",
+  "src_file": "build-163-apostles-prophets/assets/s07-a-house-must-be-built.jpeg"
+ },
+ "HOUSEHOLD": {
+  "manual": true,
+  "src_beat": "s03-something-changed",
+  "src_build": "build-163-apostles-prophets",
+  "src_file": "build-163-apostles-prophets/assets/s03-something-changed.jpeg"
+ }
+}

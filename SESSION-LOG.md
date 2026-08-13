@@ -1,3 +1,21 @@
+## 2026-08-13 ~19:45 UTC (Opus picture-runner lane, unattended/headless) — AUTHOR-BOARD row 159 "Other sheep I have" (John 10:16) **SHIPPED realistic-v2 — endpoint recovered, 20 stills, 2 rerolls/10%** — Machine A `Dev`
+
+Session-chain verified at start: prior top entry was row 159 PARK #4 (endpoint outage), its commit `4a6fab6ad` present in `git log`; three NEWER commits (`54dd9d484` row 138, `ed8ecc807` row 160, `bf1a71566` row 163 CLAIMs) proved the `gemini-3-pro-image` endpoint **RECOVERED** (real 200/20.9s JPEG after the ~6.5h 503 outage) and other lanes were live. `hostname`=Dev=Machine A. Task = run next Ready rows starting AUTHOR-BOARD row 162 — but under THE LOW-NUMBER LAW the true next Ready+empty-claim row was **159** (lower than 162; 160/163 were RUNNING under other lanes, hands-off).
+
+- **Endpoint live-confirmed:** api-spend `ts` is EDT (UTC-4); last board-wide frame was ~1 min before claim (build-160/163 lanes actively generating). NOT an outage — built for real.
+- **Cross-check PASS:** QUEUE row 159 = "Other sheep I have" (John 10:16) = build-159-other-sheep — NOT the purged row-134 dupe. `v2_outline.py 159` + `.approvals.json` → no open complaint → **COMPLAINT LEDGER none open.** `--check` v4 PASS (20 beats).
+- **Built:** resumed from banked SHEPHERD portrait + s01. Promoted HILLSIDE (from s01, the 5 Jesus beats) + FAR-COUNTRY (from b11) plates; kept committed build-21 FOLD plate (no `--wire`). Generated the 19 remaining beats.
+- **Light QC (20/20 source frames viewed):** SHEPHERD consistent (build-21/143 cross-video lock via wired portrait, brown wool not cream) across 8 beats; Jesus consistent + cream-only across 5 beats (I-AM hand on kv14); direction law held (home-left/far-right, travel L→R, b10 points right, b16 sheep gazes left); two flocks EQUAL (b13); FOLD gateless (b14/b20); realistic photography, no cartoon/mix.
+- **2 rerolls / 20 = 10% (≤15% ✓, under 19% baseline):** b11 far-country children in modern red/green tracksuits → period cloaks (autopsy: FAR-COUNTRY lock never pinned first-century garb); b10 a DUPLICATE cream-robed Jesus across the water → single Jesus pointing right (autopsy: nothing forbade a background figure). Both = ALLOWED verdicts.
+- **FULL-CUT GATE (rendered mp4):** concat=20=beats (no dropped beat), AUDIO LOCK PASS SHA256 `8bcd7cab…` byte-identical, 142.4s/19.3MB. Captions bottom-band: narrator WHITE, Jesus red-letter RED (kv14/kv16, both speaker=jesus — correct, not blue); card clean serif on cream, no typo-squares, question "will you follow?".
+- **FIX-WAVE (non-blocking):** small modern plastic ear-tags on some sheep (tiny at video scale, background only, model artifact) → logged RUNNER-LESSON, durable fix is an author `must_not_show` no-ear-tag clause; not rerolled (COST/recurrence).
+- **Shipped:** commit A `3040f634471585b3154af198410db7dc2c7b7275`; review.html card v159 → `data-review-wave="realistic-v2"`, data-hash + `?v=3040f6344715`, video src → media-production-v2 path, flag answers the cartoon→realistic change in Cameron's terms. AUTHOR-BOARD→BUILT, QUEUE note SHIPPED. Firebase deployed + live-verified below.
+- **COST:** ~24 paid images ≈ **~$2.68** (s01 pre-banked); meter $713.42 → ~$718.91 (shared with concurrent lanes). 10% rerolls. $/row well under the $6.10 average — trending DOWN per COST LAW. Appr ⬜ (Cameron's yes).
+
+Commit: this SESSION-LOG commit below (row 159 ship, commit B)
+
+---
+
 ## 2026-08-13 ~19:30 UTC (Opus VERIFY-PASS lane, unattended/headless) — AUTHOR-BOARD row 138 "We are also his offspring" (Acts 17:22-31) **QC-OK — full-cut gate CLEAN, no re-cut** — Machine A `Dev`
 
 Session-chain verified at start: prior top entry was row 138 SHIP, its ship commit A `4782c80d06c1a2661e5245e13754606ea1f92ec2` + card/log commit `d849dca5c` both present in `git log`; HEAD `dd3f17e86` (stash scan) also from that ship. `hostname`=Dev=Machine A. Task = VERIFY-PASS row 138 (BUILT + in Unwatched queue, before Cameron's eyes reach it).
