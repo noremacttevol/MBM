@@ -1,3 +1,34 @@
+## ✅ SHIPPED — REALISTIC V2 (2026-08-13, Machine A `Dev`, Opus runner, unattended/headless)
+
+**RESUMED a died-mid-build RUNNING row** (State RUNNING, Claim A-auto): 7 stills (s01–s07)
+already existed from the crashed session; portraits/plates already committed (SHEPHERD ref +
+FOLD plate present). Ran RUNNER-LESSONS already-shipped check FIRST — no committed mp4, no
+segs, card was the old V1 2026-07-29 hash with NO `realistic-v2` wave → genuinely unbuilt →
+resumed. `v2_prompt --check` PASS, approvals `approved:false`/`complaint:null`, `v2_outline 143`
+shows NO open complaints.
+
+- **COMPLAINT LEDGER: none open.** (`v2_outline.py 143` shows no complaints; `.approvals.json`
+  complaint:null.) Nothing to regress.
+- **Generated the 3 remaining beats** (b08/b09/b10) at $0.40, ceiling $729, meter $703.37→$704.04.
+  Passing frames s01–s07 never re-pulled (COST LAW). **0 rerolls (0% of 10 beats).**
+- **Light QC (source):** 10/10 clean. **FULL-CUT GATE 6b (rendered mp4):** extracted one
+  mid-window frame per beat + 2 card frames, viewed EVERY one → **10/10 beats + card CLEAN.**
+  - Jesus b03/b07: cream ONLY on Jesus, locked face, no halo/glow/rim-light, ordinary scale;
+    RED KJV captions exact (John 10:7 b03 "Verily, verily… I am the door of the sheep";
+    John 10:9 b07 "by me if any man enter in, he shall be saved, and shall go in and out").
+  - SHEPHERD consistent (brown robe, dark beard, ~mid-30s Middle Eastern) across every fold beat.
+  - **Gap law held:** open gap in every fold frame, NO gate/bars; b07 Jesus stands framed in the
+    opening (the claim embodied); b10 shepherd lies across the opening under stars.
+  - Wall-climber b04 non-violent over the FAR wall (no attack/struggle, lit opening avoided).
+    Directions correct: flock IN at dusk (b06), OUT at bright morning to green pasture (b08).
+  - Realistic-only (Law 14, no cartoon/mix), no modern objects, anatomy/hands clean. Captions
+    bottom-band only (narrator WHITE / Jesus KJV RED); reflection card clean serif, no typo-squares.
+  - Audio 63.156s ≈ video 63.167s, no ≥1.2s dead tail. concat_base = 10 clips = 10 beats (no
+    dropped beat). AUDIO REBUILD PASS (rebuilt from 7 V1 segment mp3s, `AUDIO_FROM_V1_SEGMENTS=True`).
+- **Outcome:** shipped `john-10_i-am-the-door.mp4` 19.0 MB / 63.2s. Board → BUILT. Appr stays ⬜.
+
+---
+
 ## ✅ AUDIO-FIX DONE → AUTHORED / Audio OK / Ready (2026-08-11, Machine A `Dev`, audio lane)
 
 STALE-V1 class, resolved at **$0, zero Gemini, zero re-voice** — no stills exist
