@@ -1,3 +1,17 @@
+## 2026-08-13 ~18:30 UTC (Opus picture-runner RESUME lane, unattended/headless) — AUTHOR-BOARD row 138 "We are also his offspring" (Acts 17:22-31) RESUME, **PARKED: board-wide `gemini-3-pro-image` HTTP 503 outage (~6 h zero frames, $0/0 gen)** — Machine A `Dev`
+
+Session-chain verified at start: prior top entry was row 159 PARK, its commit `57eb3d788` is HEAD and present in `git log`; `hostname`=Dev=Machine A. Task = RESUME AUTHOR-BOARD row 138 (State RUNNING, Claim `A-auto`) that a dead autopilot run left mid-build — do NOT start a new row.
+
+- **Already-shipped check FIRST (RUNNER-LESSONS):** no committed V2 mp4 in `build-138-his-offspring/`; review card `id="v138"` is still OLD V1 (`data-built 2026-07-24`, hash `590124…`, no `data-review-wave="realistic-v2"`) → NOT shipped → correct to resume, not tick BUILT.
+- **State at resume:** dead run banked all 10 source stills + PAUL portrait (`CAST-REF-V2/paul.jpeg`); `--check` PASS (10 beats). `v2_outline.py 138` → no open complaint → COMPLAINT LEDGER none open. The dead run's own light-QC flagged 4 hard-law rejects: **s03/s08** legible carved Greek text (no-readable-text law), **s05** two-panel diptych (rubric lesson 7, banned), **s09** flat neoclassical oil-painting (violates Cameron's #1 REALISTIC-ONLY law). Independently **VIEWED s05 + s09** this session — both confirmed exactly as described (real diptych seam; real painting, not photoreal). 6 stills PASS.
+- **BLOCKER — the 4 rerolls REQUIRE the image endpoint, which is down board-wide.** Probed 4/4 this session: `gemini-3-pro-image:generateContent` = flat **HTTP 503 UNAVAILABLE** ("high demand"), sub-second to ~10s; `models?list` = **HTTP 200** → key HEALTHY, authenticated, billing FINE → same self-healing Google-side outage that parked rows 159/160/162/163/164 today, **NOT** the prepay-depleted wall (no top-up, no inbox escalation — precedent). Last board-wide frame in `api-spend.jsonl` = 12:22:14; now ~18:30 → ~6 h ZERO frames from ANY lane = board-wide. Cannot reroll → FULL-CUT GATE would block the ship (s09 cartoon alone fails his #1 law) → genuine truly-blocked stop, not a per-row skip.
+- **Parked clean:** 10 banked stills preserved (COST LAW — never re-pulled). Board State RUNNING → **AUTHORED**, Claim **BLANK**, Ready ✅ so the next runner/autopilot re-picks it fresh the instant the endpoint answers. Full RESUME-PARK #1 note + exact RESUME COMMAND (reroll s03/s05/s08/s09 → assemble → FULL-CUT GATE → ship) in `build-138-his-offspring/QC.md`.
+- **COST:** $0.00 (0 images, 0 TTS) — meter unchanged at **$711.00**. 0% rerolls, no overage. $/row this session $0.
+
+Commit: this SESSION-LOG commit below (row 138 resume-park)
+
+---
+
 ## 2026-08-13 ~18:25 UTC (Opus picture-runner lane, unattended/headless) — Row 163 "Built on apostles and prophets" (Eph 2:19-20) requested, **PARKED: board-wide `gemini-3-pro-image` outage STILL ongoing (~6 h zero frames, $0/0 gen)** — Machine A `Dev`
 
 Session-chain verified at start: prior top entry was row 159 PARK, its commit `57eb3d788` is HEAD and present in `git log`; `hostname`=Dev=Machine A. Task = run next ready rows starting AUTHOR-BOARD row 163.
