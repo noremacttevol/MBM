@@ -1,3 +1,18 @@
+## 2026-08-13 (Opus runner, unattended/headless) — Row 174 HEARTS OF THE FATHERS V2 FIRST CUT SHIPPED & LIVE: Malachi 4:5-6, GOD-never-embodied held, 0 rerolls $1.87 — Machine A `Dev`
+
+Second row this session (after parking 173). AUTHOR-BOARD row 174 (Malachi 4:5-6, "Elijah... turn the heart of the fathers to the children"), lowest available Ready ✅. Cross-checked QUEUE.md — same story, realistic-V2 redo of the 2026-07-17 ASSEMBLY-C 7-still cut, NOT a swap. No open complaint (v2_outline clean).
+
+- **Pre-flight (new row-173 lesson applied):** ran the drop-check BEFORE spending — extract_beats card_start (57.211) aligns with the last beat window end (57.228), so NO dropped beat (unlike 173). But beats_v2 total 63.003 vs stale V1 mp4 60.813 → set `AUDIO_FROM_V1_SEGMENTS=True` (V1 seg mp3s, nothing re-voiced).
+- **Cast:** v2_story_cast made 3 portraits ($0.40). Wired ONLY ELIJAH into REFS (one man, 7 beats → consistency); left JOHN-BAPTIST on its GLOBAL_CAST path (single beat, distinct); kept FAMILY-THREE TEXT-ONLY (a single-face portrait must not collapse three generations into the father's face). Places WILDERNESS-ROAD (b01) + FAMILY-HOME (b07) promoted — both build-local NEW, so no committed-plate clobber (the row-173 --wire trap).
+- **Generated 12 beats + 3 portraits = $1.87, 0 rerolls (0% vs 15% budget), meter →$658.48.** No jesus_face_gate (no Jesus in row).
+- **FULL-CUT GATE per-rendered-frame 12/12 + card PASS** (concat_base = 12 clips, verified no drop): GOD NEVER EMBODIED (green GOD lines b02/b03/b07/b08 land on Elijah/land/family — no figure/beam/hand); Elijah mouth CLOSED on the God-voice beats; "smite the earth with a curse" (b08) pictured as an EMBRACE not smiting/fire; Elijah one identity + three generations distinct + John distinct; no Jesus/cream, no halo, realistic-only, ordinary scale; captions bottom-band (GOD green / narrator white, no red); card clean. AUDIO REBUILD PASS SHA256 03b85e71.
+- **Ship:** commit `aa94161210a0` (mp4 force-added, QC.md ship note, beats_v2 audio flag + ELIJAH REF, boards, QUEUE). Reviewer card v174 repointed to media-production-v2 mp4, data-hash `aa94161210a0…`, ?v=aa9416121000, realistic-v2 wave, flag in Cameron's terms. **Deployed to Firebase + LIVE-VERIFIED.** Appr ⬜ (Cameron's alone).
+- **Cost:** $1.87/row, 0 rerolls — WAY under the $6.10 average (the COST LAW's downward trend holds).
+
+Commit: aa94161210a00687552f80a90c2cf365a10bd06d (ship)
+
+---
+
 ## 2026-08-13 (Opus VERIFY pass, unattended/headless) — Row 105 FACE TO FACE QC-VERIFY-FIX: caught b24 shining-face demon-eyes before Cameron saw it — Machine A `Dev`, ~$0.27 Gemini
 
 VERIFY-PASS on AUTHOR-BOARD row 105 (BUILT + Unwatched, NOT approved — `.approvals.json` 105 `approved:false`, so touchable; the approved-row untouchable check correctly did not fire). Session-chain: prior top entry row 177 sanctuary, commit `97f2afbd7721` present in git log. Claimed the board row `QC-VERIFY 2026-08-13 LIVE`, pushed before any spend.
