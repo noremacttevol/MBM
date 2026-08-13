@@ -93,6 +93,28 @@ Blocker diagnosis (definitive, so nobody re-diagnoses on the meter):
   Google's side, self-healing — it is NOT the prepay-depleted wall and needs NO
   top-up / NO inbox escalation.
 
+## RUNNER PARK #2 — 2026-08-13 13:54 (Opus runner, Machine A `Dev`, headless)
+**Task = RESUME row 159. Did the diligent resume; endpoint STILL down → re-parked clean, $0/0.**
+- Ran the RUNNER-LESSONS already-shipped check FIRST: no committed V2 mp4, review
+  card `id="v159"` is the OLD V1 (data-built 2026-07-28, no `data-review-wave`),
+  so row 159 is NOT shipped — correct to resume, not tick BUILT.
+- Endpoint verified STILL walled ~91 min after the 12:44 park: last board-wide
+  frame in api-spend.jsonl = **12:22:14** (my own s01); now 13:54. Probes this
+  session: image-model returned **503 UNAVAILABLE ("high demand")** ×3 then
+  **HTTP 000 (30s hang)** — oscillating, still not serving images. A text-model
+  probe returned an **instant 404** ("model no longer available") → key reaches
+  Google, authenticated, **NOT a billing/prepay wall, NO top-up needed** (same
+  self-healing Google-side image-endpoint outage as the 12:44 park + row 160).
+- **Real resume attempt made (not just probes):** ran
+  `v2_gen_api.py build-159-other-sheep --ceiling 739.82` in the FOREGROUND for a
+  full 9.5 min. It resumed correctly (kept s01 + shepherd portrait, tried s02–s20)
+  and produced **0 new frames / $0** — every beat hit the 503/000 wall and was
+  skipped per-beat. Confirms the outage, not a per-row problem.
+- Banked work still valid, do NOT regen: `CAST-REF-V2/shepherd.jpeg` + s01.
+- No inbox escalation: transient endpoint outage self-recovers, needs nothing
+  from Cameron (row 159/160 precedent). Board handed back AUTHORED + blank claim
+  so autopilot/next runner re-picks it the instant the endpoint answers.
+
 RESUME (once the image endpoint responds again — a text/image probe returns 200,
 or a sibling lane's frame lands in api-spend.jsonl):
 ```
