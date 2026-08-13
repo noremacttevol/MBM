@@ -8,7 +8,7 @@ Complaint-first + low-number: row 146 was the lowest waiting row with an OPEN co
 - **FULL-CUT GATE — re-verified in the NEW rendered mp4 (what C-FIX#1 skipped):** 14/14 beats extracted at mid-window + 3 caption/card frames viewed. 0:40 warm lamplit ring, no white faces, photoreal; 0:47 three separated hands; 1:16 Jesus clear of trunk, both hands, lit. Jesus locked face + cream-only + no halo (b01/b02/b07/b10), green-cut vs withered pair, captions bottom-band (RED Jesus KJV/WHITE narrator), card clean. **14/14 + card PASS.**
 - **Ship:** commit `38f237b16787` (mp4 force-added, QC.md #2 entry, beats_v2 hardened prompts, s04/s09/s14, AUTHOR-BOARD SHIPPED, QUEUE). Reviewer card repointed (data-hash `38f237b16787…`, ?v=38f237b16787, flag admits the prior false-pass and answers each complaint in Cameron's words) + SESSION-LOG. **Deployed to Firebase + LIVE-VERIFIED.** Appr stays ⬜ (Cameron's alone). RUNNER-LESSONS: warm crowds need a practical fill light; hands-on-one-branch need explicit N + gaps; never put Jesus behind a trunk for a clasp; cozy-lamp scenes drift painterly without a photoreal clause; **META — never claim FULL-CUT PASS without looking at the RENDERED frame.**
 
-Commit: 38f237b1678723f530afaa343f251d4451c976f4 (ship) / d81838bd7 (card+log)
+Commit: 38f237b1678723f530afaa343f251d4451c976f4 (ship) / 19189bb1b (card+log)
 
 ---
 
