@@ -10,52 +10,17 @@ touching anything else. Do NOT edit by hand.
 
 | # | Status | What Cameron said |
 |---|---|---|
-| 10 | newer cut shipped — VERIFY fixed | The only.thing wrong with this one is how fast and meaningles Jesus pronounced the words while telling her he was the messiah. It is a very important text and the speaker says it too fast.. this is what i asked before and now you messed it up now its too slow and sounds horrible like a robot. whatever you did undo it and make it right |
-| 11 | newer cut shipped — VERIFY fixed | The picture of jesus is bad it has white evil looking eyes @ 0:23.. the boat needs to be bigger in all pictures 0:30 - 0:52 i know its talkign about 4 fisherman but that doesnt mean you fit the boat to a 4 person boat and dont include anyone else in it. every picture needs top have Jesus in the boat and lets make it always have 6 disciples |
-| 13 | newer cut shipped — VERIFY fixed | 1:40 picture is missing the man in it again, that was fixed previously but broght back now for some reason, it should have been deleted. picture at 1:49 still has ghost ropes and a weird room they are dropping him into. its a bad picture remove it. |
-| 15 | newer cut shipped — VERIFY fixed | the servant shouldnt look sick in the last picture at 3:58 redo that one... same problme its not fixed at all |
-| 16 | newer cut shipped — VERIFY fixed | the picture at 1:31 - !;32 of jesus standing and looking mean needs to be removed all the other ones are good enough that one for a breif second isnt needed |
-| 17 | newer cut shipped — VERIFY fixed | At 12 seconds the picture has shoes removed but still showing toes inside and lamps that burn from the middle.. still not fixed |
-| 19 | newer cut shipped — VERIFY fixed | 1:05 picture he is swimming the wrong way. JESUS talks too fast and ignores commas when asking peter if he loves him |
-| 22 | newer cut shipped — VERIFY fixed | 2:46 Jesus speaker is wrong one and it changes to the right one later in the video. if you would write the rules removing the option to use the old Jesus speaker then this wouldnt be a problem. |
-| 27 | UNFIXED | Audio is messed up on this one |
-| 33 | newer cut shipped — VERIFY fixed | At 1:10 why is the prisioner nails painted black thats weird. And then at 1:16 it has Jesus speaking something that wasent spoken by Jesus and makes no sense to be narrirated by him. |
-| 39 | newer cut shipped — VERIFY fixed | There is some pictures with random black spots on their hands and fingers @ 0:53, 3:13, 2:05, etc. Another one on his lips @ 2:40  and then another picture with 2 hands of the same side looking like 2 people standing in line with their hands out bit i think it was sussposed to be something different  @ 3:14 |
-| 40 | newer cut shipped — VERIFY fixed | 2:23 has 1 guy with 3 hands.  3:21 has a floating lamp. |
-| 42 | newer cut shipped — VERIFY fixed | the captions are messed up multiple times match them up to the words, the correct wordage |
-| 45 | newer cut shipped — VERIFY fixed | 0:50, 1:04 pictures are trash and just look stupid |
-| 48 | newer cut shipped — VERIFY fixed | 2:34  is bad the spout is comming out of the side of the bag and looks weird |
-| 49 | newer cut shipped — VERIFY fixed | 2:42 the water turning into wine does not need a cadle flame in it. That is weird. And mother mary standing so close to Jesus in those couple of pics is weird @ 0:50 & 0:57 |
-| 51 | newer cut shipped — VERIFY fixed | first 2 pictures are sideways and bad replace them |
-| 52 | newer cut shipped — VERIFY fixed | The demoniac fave kept changing. Beard to no bear to old man and his looks kept flipping. |
-| 54 | newer cut shipped — VERIFY fixed | 1:01 looks like Jesus had lepracy on his hand. That is wrong |
-| 55 | newer cut shipped — VERIFY fixed | 1:34 *mutalated double right arm),  0:12 ( doesn't match the person in the first ). Alot more of these pictures have the person week if the withered hand not looking the same.  I talked about this and it needs to get fixed.  If your going to make a video about someone they need to look the same in every picture in that story |
-| 59 | newer cut shipped — VERIFY fixed | if we tell this story as the second time he did this and dont give any biblical scholarship on the fact that it was true that he did it twice and it was different times becasue it was recorded that he did comment on that then we are doing a huge disservice to telling the story . this is not how he wanted his gospel to be told. we need refrences in this one and comparisons that give the act a better light not just telling the story the same way twice |
-| 60 | newer cut shipped — VERIFY fixed | 2:39 Jesus eyes do not look good |
-| 61 | newer cut shipped — VERIFY fixed | jesus's eyes in 0:52 are crazy looking |
-| 62 | newer cut shipped — VERIFY fixed | 0:18 picture is bad it has someones eyes messed up |
-| 63 | newer cut shipped — VERIFY fixed | still wrong its : si-LOH-uhm |
-| 65 | newer cut shipped — VERIFY fixed | 0:06 picture has 2 jesus'. |
-| 66 | newer cut shipped — VERIFY fixed | all the pictures up to 0:30 of the army coming to arrest Jesus and his desiples defending him are bad and all need to be reedone, people keep dissapearing quickl and coming back and the army is going the wrong way. all jsut looks dumb.  1:24 is bad, the trees are all cut oof weirdly to expose the night sky , just weird. |
-| 67 | newer cut shipped — VERIFY fixed | 0:37 seconds that picture is bad becasue jesus's eyes turned into light and that is horrible looking it likes like a demon |
-| 69 | newer cut shipped — VERIFY fixed | Johns hair changed to oragne and its not keeping his character to the refrence we have in multiple pictures please check all and redo ones trhat he doesnt look like what the refrence laid out for him to look like |
-| 71 | newer cut shipped — VERIFY fixed | 1:26 has a person sideways , 1:51 the scroll the guy is poassing is stiff and open scrolls of paper are not stiff, the last pictre w t1;57 makes no sense and lease people confused. |
-| 72 | newer cut shipped — VERIFY fixed | 1:41 floating cups and lamps lit from the fill hole. and scars on people, for no reason |
-| 73 | newer cut shipped — VERIFY fixed | the first 2 pictures make Jesus look one way and then another.  the entire messge from this sint giving the fullnes of his message. it should teach people how He meant what he said and not jsut " he stillreads it the same" it he has risen and continues the plan. we need to start looking at this how the prophets of then and the restored church today the Church f Jesus Christ of Latter Day Saints would share these messages. obviously without telling it that its that church that is makingit so but just teaching how we know Jesus would want us to. |
-| 102 | newer cut shipped — VERIFY fixed | 0:24 looks like a UFO no God comming to him in a dream |
-| 103 | newer cut shipped — VERIFY fixed | This is where peter got his name but it called him simon before and the pictures are all bad they keep changing and are not remade with the character ref in this |
-| 104 | newer cut shipped — VERIFY fixed | 0:35 pic he samuel is running the wrong way , same thing with 0:53, |
-| 107 | newer cut shipped — VERIFY fixed | 0:30 picture has his head going through metal bars, weird. |
-| 108 | newer cut shipped — VERIFY fixed | Calleth still wrong again. Same problem |
-| 109 | newer cut shipped — VERIFY fixed | picture at 1:34 has Jesus with crazy eyes |
-| 110 | FIXED (cache-delivery, C-FIX 2026-08-07) — cut verified realistic frame-by-frame, byte-identical; forced fresh reload via new cache-buster so browser can't serve the pre-fix cached copy; live-verified | this is old pictures version i dont know why im seing it here as fixed |
-| 111 | newer cut shipped — VERIFY fixed | 0:09 picture everything is out o scale and weird. |
-| 113 | UNFIXED | God has a body, weve bren through this and hopwfully you have created a character for him as well so his look doesnt change much like Jesus and other famous characters that will be ilustrated multiple times. 0:25 they are sitting on water. bad photo delete it and redo it a better way.  every picture is bad, except for the last ones where  he made them clothes those are good but the first two thirds  where they are wearing rags needs to be changed, first they are wearing nothign and you can work the pictures to only show their face or upper torso with eve's brests covered by eves long hair , or random foliage that they arent wearing yet or somethign els, you will have to get creative and not dumb but then when they eat of the tree and feel naked have them wearing the leaves of trees or what not, and then have they last thrid stay the same where God makes them clothes. |
-| 119 | newer cut shipped — VERIFY fixed | Miss pronounced bow |
-| 127 | newer cut shipped — VERIFY fixed | Not real new voice |
+| 44 | UNFIXED | 1:38 picture needs to be redone there are buildings in the sky. Same problem again. Replace that picture |
+| 63 | newer cut shipped — VERIFY fixed | 1:53 is still wrong its : si-LOH-uhm but even i spell it out you get it wrong please researchwhat the word sounds you even got it wrong at 1:34 now too when Jesus says it its a place siloam its not whatever you are trying to pronounce that is making it wrong . The blind mans mans face is not the correct look @ 3:39, 3:44, 3:49, 3:56 Fix all these pictures. 4 total please remember Jesus shouldnt be standing so close to him like he is trying to kiss him thats what one of those looked like, super weird |
+| 95 | newer cut shipped — VERIFY fixed | 0:08 picture is wrong because he should be stakes to the crosss. 0:18 picture is wrong because they are not facing each other and Jesus should be on the cross also.  All should have their shirts off. All should be pinned to the cross. All should be in line parrallel not across from one another. This is simple stuff i dont know how you messed up this while video. Remember Jesus has a crown of throns on and they all have plaques above their heads |
+| 117 | UNFIXED | it was all good until the very end where you miss pronounced "Dramatized"  fix that audio at the very end and its good |
+| 118 | newer cut shipped — VERIFY fixed | 2:37 jonah was 3 times bigger than the people he was walking around, fix it. The people in 3:08 look dead, fix it. |
+| 121 | UNFIXED | 0:31 has a double picture and needs to be replaced . 2:45 is corny looking with a big Jesus floating in the sky it needs to be replaced. |
+| 122 | UNFIXED | The man's head is turned around backwards 0:33. same problem for the 5th time |
 | 135 | newer cut shipped — VERIFY fixed | 1st picture has 3 girls and 5 boys that needs to change |
 | 140 | newer cut shipped — VERIFY fixed | What the f*** is this? Did we just run out of stories that were good about Jesus to tell? And now you are using somebody else's gospel to redo the same exact story we told earlier of the prodigal son that story, the prodigal son should have been summarized from this as well. You shouldn't use 2 different people telling the same story about Jesus.  As reasons to have the same story told twice, this is retarded.This is, I just can't.I can't believe you did this, and I like, did we seriously run out of Jesus stories like they're not that many, if there aren't 200, then we need to find some other way to get into things that would would be good for people to digest.But this is not good |
 | 146 | newer cut shipped — VERIFY fixed | Abideth is pronounced wrong |
+| 147 | RESOLVED — C-FIX #2 shipped baaeac4f (real re-cut, hash moved) | Joespeh should be the same character  and same look as before, different hair maybe but same face definition. We should have the story of Joseph and this story looking the same. Match the characters and redo this one if you must. |
 | 149 | UNFIXED | Wrong caption at 2:06 |
 | 150 | newer cut shipped — VERIFY fixed | Bad old , english and captions in white that are scripture |
 | 153 | newer cut shipped — VERIFY fixed | 1:12 is weird picture |
