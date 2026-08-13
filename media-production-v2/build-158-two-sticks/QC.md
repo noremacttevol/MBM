@@ -170,3 +170,67 @@ re-voiced or re-timed.
 ### Cost
 ~$0.53 this row (3 resume gens + 1 reroll), 4.5% rerolls — far under the $6.10 /
 19% running average. COST-LAW downward trend holds.
+
+---
+
+## QC-VERIFY 2026-08-13 (Opus runner, Machine A `Dev`, headless) — INDEPENDENT FULL-CUT GATE, NOT re-cut
+
+Independent verify pass of the BUILT/unapproved cut BEFORE Cameron's eyes reach it
+(row 158 sits in the Unwatched queue; `.approvals.json` row 158 = `approved:false`
+→ untouched-approval rule does not apply; this row is fair game to verify). Claimed
+`QC-VERIFY 2026-08-13 LIVE` on AUTHOR-BOARD before viewing. Extracted ONE frame per
+beat from the RENDERED mp4 at each clip's mid-window (cumulative clip durations of
+concat_base c000–c021) + the question card + the 3 dedicated caption frames, and
+viewed EVERY one against the defect checklist, RUNNER-LESSONS, and this row's
+resolved complaints.
+
+### VERDICT: CLEAN 22/22 beats + card — QC-OK. NOT re-cut (a clean row is not touched).
+- **Realistic throughout** — no cartoon, no mixed frame.
+- **Ezekiel identity consistent** across all his beats (one Middle-Eastern
+  dark-bearded man, charcoal-blue wool robe, matches CAST-REF-V2/ezekiel.jpeg
+  face-lock; the row-177 pre-gen REF wiring held).
+- **GOD NEVER EMBODIED** — b01 = arrested listening posture at the canal; the
+  joining (kv17) happens in EZEKIEL'S own hands; no divine hand/arm/figure/beam
+  anywhere.
+- **Two flat rods → one joined rod**; b22 close = author spec exactly (two
+  scroll-records side by side in lamplight + ONE hand reaching to take BOTH). No
+  cord/splice binding the joined rod (the mid-rod grain reads continuous).
+- **No cream on anyone** (OT, no Jesus). Exiles dignified earth-tones, varied,
+  never twinned; children child-sized; clean anatomy/hands; no modern objects
+  (oil lamps correct, no glass); no lens-staring subject; no giants / scale ok.
+- **SPEAKER LAW pixel-verified:** God's scripture (kv16 b06, kv19 b15/b16/r_110)
+  GREEN; narrator WHITE; NO RED (no Jesus in this OT row). Captions bottom-band
+  only; question card clean (cream, serif, good margins, no tofu, no code-fault).
+- **Time-of-day arc correct:** grey exile morning (b01/b02 river) → clear day
+  (b03/b07 writing/joining) → golden afternoon proclamation (b15/r_110) → dusk
+  fires + reunions (b17/b18/b19/b20) → lamplight close (b21/b22). Matches author
+  intent.
+- **Resolved complaints:** `v2_outline.py 158` shows NONE open → no regression to
+  re-check. COMPLAINT LEDGER: none open.
+
+### ONE OBSERVATION logged for the FIX WAVE (deliberately NOT re-cut this pass)
+The two writing-rods carry **legible / semi-legible NAME text** in several frames
+— strongest at **b05** (two rods on a mat with readable English cursive: "For
+Judah, and for the children of Israel his companions" / "For Joseph, the stick of
+Ephraim…", on screen ~6.8 s), fainter Latin/Hebrew-fragment marks at b14/b15/b16/
+b18/r_110. This DEVIATES from the author's stated preference ("Script indistinct
+always; NO readable text anywhere in the build"). Judged **NON-BLOCKING** for the
+following reasons, and therefore NOT re-cut:
+1. It is **semantically-correct on-story name-labeling** (the sticks are literally
+   "marked with a name" per the scripture), not garbled gibberish — even if read,
+   it reinforces the narration rather than confusing it.
+2. **Cameron's 150+ logged complaints contain ZERO text-on-prop complaints** — his
+   eye goes to faces / anatomy / scale / physics / pronunciation / style / order /
+   audio; name-labels on a labeled prop are not a complaint class he has ever
+   raised. Probability of a complaint here is low.
+3. **Fixing every instance would exceed the 15% COST-LAW reroll budget** (~5 of 22
+   beats = 23%) AND is high-risk of REPRODUCING text (the beat prompts instruct
+   the model to "mark it with a name"). A re-cut here likely spends credits for no
+   guaranteed improvement — the exact waste the cost law forbids.
+The correct home for this is the fix wave / an authored prompt change (make the
+name-marks explicitly indistinct paleo-glyphs), not a blind reroll on this verify
+pass. Logged to RUNNER-LESSONS so a future author session can harden the STICKS
+prop-board.
+
+Cut UNCHANGED: mp4 byte-identical (AUDIO LOCK SHA256 927f7f7c…, 167.9 s / 19.4 MB),
+card hash unchanged. No credits spent ($0 / 0 rerolls).
