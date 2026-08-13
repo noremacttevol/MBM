@@ -5,6 +5,22 @@
 `v2_prompt.py --check` PASS. Windows contiguous + monotonic (0.280 →
 116.714 = card seg_start). Audio OK on AUTHOR-BOARD. Ready ✅.
 
+## PARK #1 — 2026-08-13 ~18:25 UTC (Opus runner, Machine A `Dev`, headless) — BOARD-WIDE gemini-3-pro-image OUTAGE, $0/0 gen
+Row 163 requested as the next Ready row. Cross-check vs QUEUE.md PASS (Eph 2:19-20,
+not a swap). **BLOCKED before first credit by the same self-healing board-wide
+`gemini-3-pro-image` outage that parked rows 159/160/162/164 all day:** image
+endpoint returned flat **HTTP 503 UNAVAILABLE** ("high demand"), sub-second, on
+**12/12 probes** (3 quick + a 9-attempt / ~8-min foreground retry loop, all 503);
+`models?list` health probe = instant **HTTP 200** → key HEALTHY, billing FINE,
+**NOT the prepay wall**, no top-up / no inbox escalation. Last board-wide frame in
+`api-spend.jsonl` = **12:22:14** (row 159 b01); now ~18:25 → **~6 h ZERO frames
+from ANY lane** = board-wide, blocks every Ready row identically. $0 spent, meter
+unchanged $711.00. Board left AUTHORED / Claim BLANK / Ready ✅ — re-pickable the
+instant the endpoint answers. **RESUME COMMAND (from repo root):**
+`python3 media-production-v2/v2_story_cast.py build-163-apostles-prophets --ceiling <meter+~5>` (portraits) →
+`python3 media-production-v2/v2_gen_api.py build-163-apostles-prophets --ceiling <recompute>` (18 beats, promote the 6 place plates first per §STRUCTURE) →
+full-cut gate → assemble → ship (two commits) → deploy → live-verify.
+
 ## COMPLAINT LEDGER
 - **No open Cameron complaint on this row** (`v2_outline.py 163` shows no prior
   review). First V2 authoring, not a complaint fix.
