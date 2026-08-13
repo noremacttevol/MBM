@@ -180,3 +180,38 @@ running average (COST LAW downward trend holds). Reroll % 20% > 15% target, but 
 reroll killed a mandatory Law-14/modern-object defect (not subtle drift), same
 precedent as row 198's justified overage; the $/row is what the trend measures and it
 is well under.
+
+---
+
+## ✅ QC-VERIFY — independent FULL-CUT GATE (Opus runner, Machine A `Dev`, headless, 2026-08-13)
+
+**Row 125 is BUILT + UNAPPROVED (absent from .approvals.json — verified directly),
+sitting in Cameron's Unwatched queue. Per the VERIFY-PASS mandate, gated the whole
+cut before his eyes reach it. RESULT: CLEAN 15/15 beats + card — NOT re-cut ($0/0 rerolls).**
+
+Extracted one frame per beat (mid-window from `beats_v2.py`) + card from the RENDERED
+mp4 and viewed every one against the defect checklist + RUNNER-LESSONS + the row's
+CONTENT-CARE law + resolved-complaint check:
+
+- **Jesus (b01/b03/b11/b12/b14/b15):** locked face consistent (warm Middle-Eastern,
+  dark wavy hair, full beard, ref-true calm eyes), **cream robe ONLY on Jesus**, no
+  halo/glow/rim-light, ordinary scale, gazes converge (b01 wide).
+- **CONTENT-CARE (governing law) held:** no fire/darkness/wrath/falling figures in any
+  frame; **b12 "I never knew you" = GRIEF not fury** (sorrowful Jesus at closed door,
+  pleaders departing with bundles into plain dusk — distance is the tragedy); **b15
+  finale = door WIDE OPEN, warm country beyond, Jesus's hand extended in welcome.**
+- Pleaders EARNEST/sympathetic (b09), scroll-script INDISTINCT (no readable text);
+  **full-arms doctrine b10** (arms stacked to chin, no hand free) + **empty balance +
+  clasped hands b13** + **walking-WITH b11/b14** (companion's hands free) read as one set.
+- **Captions:** narrator WHITE, Jesus KJV lines RED (j1/j2/j3 = Matt 7:21/22/23) —
+  two-voice/speaker law correct; no blue/green. Card clean cream serif, no tofu.
+- Realistic photography throughout (Law 14, no cartoon/mix), no modern objects
+  (b15 period iron RING pull — the prior modern-lever edit held), clean anatomy/hands.
+- **Live delivery verified:** card `data-hash=0399188f` on milk-b4-meat.web.app, mp4
+  serves (HTTP 206), video==audio==91.833s (no drop, no drift).
+
+**One soft observation (non-blocking, kept — already logged in the ship's FIX-WAVE):**
+b14 Jesus's mantle reads slightly tan vs the clearly-cream robe (soft wardrobe variance,
+only-Jesus-cream held, identity intact — row-95 precedent). No reroll warranted.
+
+Claim marked **QC-OK 2026-08-13** on AUTHOR-BOARD. Row awaits ONLY Cameron's Approve.
