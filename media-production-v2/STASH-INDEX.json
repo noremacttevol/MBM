@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 09:02:29",
+ "scanned": "2026-08-13 09:12:46",
  "entries": [
   {
    "row": 1,
@@ -56661,6 +56661,155 @@
    "scene": "The last frame is a map with a man on it, the camera set behind the listeners' backs at the ledge: Jesus stands on the overlook between the two geographies \u2014 below on one side the grey desolate ravine with its thin dying"
   },
   {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b01",
+   "file": "build-136-healed-in-two-touches/assets/s01-friends-brought-a-blind-man.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "BLINDMAN",
+    "FRIENDS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "Friendship does the seeing for him, the camera looking down the lane past the little group's backs: the two neighbours guide the blind man between them through Bethsaida's last lane \u2014 one steadying each arm, his feet tru"
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b02",
+   "file": "build-136-healed-in-two-touches/assets/s02-jesus-took-the-man-by.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The healer takes the patient's hand like a friend leaving a party: Jesus leads the blind man out through the low village gate onto the open path \u2014 fingers wrapped warm around the reaching hand, pace set to the shuffling "
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b03",
+   "file": "build-136-healed-in-two-touches/assets/s03-he-spit-on-the-eyes.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The first touch is closer than medicine ever gets: Jesus's head bent near, his thumbs resting with feather care on the man's closed eyelids, the strong carpenter's hands cradling the trusting face between them \u2014 the old "
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b04",
+   "file": "build-136-healed-in-two-touches/assets/s04-the-man-looked-up-and.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What half a miracle looks like from the inside: the man's newly opened eyes squint down the path, wonder and confusion sharing his face \u2014 and there in the middle distance the figures of passing villagers stand deliberate"
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b05",
+   "file": "build-136-healed-in-two-touches/assets/s05-his-first-glimpse-was-real.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The honest report gets the warmest reception of the morning: Jesus listens to trees-walking with his whole unhurried attention, and nothing in the deep brown eyes flickers toward disappointment \u2014 no wince at the incomple"
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b06",
+   "file": "build-136-healed-in-two-touches/assets/s06-so-jesus-put-his-hands.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The same touch comes back to finish its sentence: Jesus's hands return to the man's eyes in exactly the first gesture \u2014 thumbs at the lids, palms warm along the temples \u2014 and this time the instruction tilts the trusting "
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b07",
+   "file": "build-136-healed-in-two-touches/assets/s07-and-this-time-he-saw.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The world arrives in full resolution all at once: the man holds a fig leaf up close in his trembling fingers and reads it like scripture \u2014 every vein, every serration, the green of it almost too much \u2014 while past the lea"
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b08",
+   "file": "build-136-healed-in-two-touches/assets/s08-the-second-touch-finished-what.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The first thing the finished eyes focus on is their craftsman: Jesus's hands lower slowly from the healed face, and the man's clear new eyes find his \u2014 the first true eye-contact of the whole story, patient and healer re"
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b09",
+   "file": "build-136-healed-in-two-touches/assets/s09-the-story-never-explains-why.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "BLINDMAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The moral stands on the path looking as far as light goes: the man upright and unguided, hands free at his sides for the first time in years, his clear eyes running the whole open road to its horizon \u2014 hills sharp, sky d"
+  },
+  {
+   "row": 136,
+   "build": "build-136-healed-in-two-touches",
+   "beat": "v2-r136-b10",
+   "file": "build-136-healed-in-two-touches/assets/s10-neither-go-into-the-town.jpeg",
+   "tokens": [
+    "VILLAGE",
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The healing ends with a quiet map: Jesus's hand directs gently PAST the village gate toward the farther path that runs home through the fig trees \u2014 not into the town, not to the telling \u2014 and the man sets off the way he "
+  },
+  {
    "row": 137,
    "build": "build-137-one-as-we-are-one",
    "beat": "v2-r137-b01",
@@ -57315,6 +57464,144 @@
    "night": false,
    "n_person": 2,
    "scene": "The sermon ends held out at arm's length: the broken loaf lies open across Jesus's two extended hands, offered forward to the crowd and the shore and the whole hungry world beyond them \u2014 the crumb warm, the halves parted"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b01",
+   "file": "build-142-light-of-the-world/assets/s01-jesus-stood-among-the-temple.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "One still voice sets up in the loudest court, the camera looking past the moving crowd's backs into the treasury: pilgrims streaming, money changing, voices ringing off the honey stone \u2014 and amid the din Jesus stands sti"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b02",
+   "file": "build-142-light-of-the-world/assets/s02-he-offered-himself.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The offer on the table is the speaker: close on Jesus with his hand laid flat at his own chest, the great lamps' warm flames standing behind him in the court \u2014 not a method, not a map, not a membership: HIMSELF, extended"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b03",
+   "file": "build-142-light-of-the-world/assets/s03-i-am-the-light-of.jpeg",
+   "tokens": [
+    "TEMPLE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "He makes the claim standing next to the runner-up: beside the treasury's great golden lampstands \u2014 the festival's pride, flames crowning their branches \u2014 Jesus opens his arms and takes the title past them: I am the light"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b04",
+   "file": "build-142-light-of-the-world/assets/s04-not-a-lamp-that-burns.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Every other light has this in its future: a clay lamp on a shelf guttering down to the end of its oil \u2014 the flame shrunk to a blue-edged flicker, the wick beginning its thin line of smoke, the room's corners already retu"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b05",
+   "file": "build-142-light-of-the-world/assets/s05-a-light-that-walks-with.jpeg",
+   "tokens": [
+    "NIGHTROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The better kind of light has legs: on the deep blue night road two figures walk inside one lantern's warm ring \u2014 the bearer holding it low and steady, the traveller matching his stride, their shadows swinging together on"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b06",
+   "file": "build-142-light-of-the-world/assets/s06-it-gives-you-someone-to.jpeg",
+   "tokens": [
+    "NIGHTROAD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "Through the worst stretches the light goes first: the bearer moves a few steps ahead on the night road now, lantern swung low so its ring falls where the next feet must land \u2014 and the follower comes on behind, stepping e"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b07",
+   "file": "build-142-light-of-the-world/assets/s07-later-as-he-met-a.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The claim finds its ultimate test case sitting by the road: Jesus stops before the born-blind man \u2014 lean, alert, the strong intelligent face tilted to read the approaching voice, the eyes milk-pale that have never once h"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b08",
+   "file": "build-142-light-of-the-world/assets/s08-he-did-not-leave-the.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sentence gets hands within the minute: Jesus kneels to the seated man, and his fingertips \u2014 dusted with the road's earth \u2014 come gently to rest on the closed lids, his head bent close, the whole act quiet as a blessin"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b09",
+   "file": "build-142-light-of-the-world/assets/s09-he-opened-the-eyes-then.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The miracle cost him his congregation and gained him its maker: the healed man stands in the street with his new deep-brown eyes wide, the cold backs of his dismissers already turned and receding behind him \u2014 cast out of"
+  },
+  {
+   "row": 142,
+   "build": "build-142-light-of-the-world",
+   "beat": "v2-r142-b10",
+   "file": "build-142-light-of-the-world/assets/s10-the-sign-became-an-invitation.jpeg",
+   "tokens": [
+    "BLINDMAN"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The last frame is the man's first sunrise: down the eastern road the two walk together \u2014 Jesus and the man who had never seen a face until today, his new eyes drinking the horizon where the sun comes up gold over the hil"
   },
   {
    "row": 146,
