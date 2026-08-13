@@ -1,5 +1,26 @@
 # QC / RUNNER HANDOFF — build-95-thief-on-the-cross (Luke 23:39-43)
 
+## ✅ C-FIX 2026-08-13 SHIPPED — crucifixion re-staging BUILT + FULL-CUT GATE + reshipped (Machine A `Dev`, Opus runner, unattended/headless)
+
+**COMPLAINT LEDGER (Cameron, against the old cut `9059485916c1…`) — ALL FIVE DEMANDS FIXED:**
+> "0:08 picture is wrong because he should be stakes to the cross. 0:18 picture is wrong because they are not facing each other and Jesus should be on the cross also. All should have their shirts off. All should be pinned to the cross. All should be in line parrallel not across from one another. Remember Jesus has a crown of throns on and they all have plaques above their heads."
+
+- **0:08 (b02):** was a clothed man loosely rope-draped → NOW the mocker is **shirtless in a loincloth, wrists rope-bound along the crossbeam of his OWN cross, titulus plaque above his head**. FIXED.
+- **0:18 (b03):** was two clothed men standing on the ground facing each other, cross between them → NOW **three crosses in a straight PARALLEL forward-facing row, all three men shirtless & affixed to their own cross, Jesus centre wearing a CROWN OF THORNS, a titulus plaque above every head, watchers seen from behind**. FIXED.
+- **All shirts off / all pinned / all parallel not across / crown of thorns / plaques above every head:** verified true on EVERY one of the 11 frames (full-cut gate below). FIXED.
+
+**HOW SHIPPED (touch-once, cost-controlled):** billing wall cleared today; a prior session regen'd s01-s07 on the staged crucifixion prompt (01:36-01:39) then died mid-build (s08-s11 still old clothed frames). This session regen'd ONLY the 4 stale frames (b08-b11, $0.54) — the 7 fresh frames were reused, not re-pulled (COST LAW). **Rerolls = 1/11 (9%, within ≤15%):** b10's titulus plaque legibly read "…allah… is pone" (a distracting/inappropriate word on a crucifixion titulus close-up) → one reroll gave neutral gibberish, no problematic word. Run cost ≈ **$0.67** (4 frames $0.54 + 1 reroll $0.13), meter $621.49→$622.16.
+
+**FULL-CUT GATE 6b (one frame per beat from the RENDERED mp4 + 3 caption frames + card) — PASS:**
+- All 11 frames: shirtless + affixed to a PARALLEL-ROW cross, loincloth, titulus plaque above every head; Jesus centre with crown of thorns on b03/b05/b07/b09/b11, face-locked (olive skin, dark wavy hair, full beard, green/hazel V2 eyes); geometry mocker-lean / Jesus-centre / thief-heavier never swaps; no modern objects; anatomy sound; reverent (rope-bound, only faint blood, no gore/nails-through-flesh).
+- Captions 3-colour correct (white narrator, blue scripture b03 "Dost not thou fear God…", RED Jesus @52.5s "Verily I say unto thee, To day shalt thou be with me in paradise." landing on the Jesus face — desync fix HELD), bottom-band only; closing card clean (serif, centred, cream).
+- **AUDIO REBUILD PASS SHA256 `e5ba558a…` — byte-identical, narration/voices/timing untouched.**
+- **FIX-WAVE (logged, NOT blocking, precedent rows 94/96 QC-OK):** warm golden light on the thief's emotional-peak closes b08/b10 vs the row's cold-grey overcast; soft cross-frame wardrobe variance. Cross-frame light harmonisation is the fix wave's job, not a verify re-cut (touch-once/cost law).
+
+Deployed + live-verified; card `v95` data-machine-reason removed (back in Unwatched), hash + ?v = the ship commit, "what changed" answers Cameron's complaint in his terms.
+
+---
+
 ## 🔁 2026-08-12 (cont.96, 18th pass) — WALL STILL UP + fixed a STALE outbound flag Cameron sees
 Complaint-first + low-number dispatched me to row 95. Staged fix intact: `v2_prompt.py build-95-thief-on-the-cross --check` = **PASS** (11 beats, v4). One real paid anchor probe `v2_gen_api.py build-95-thief-on-the-cross --only b03 --redo --ceiling 645` → `429 RESOURCE_EXHAUSTED: prepayment credits depleted`, meter frozen **$617.34**, **$0 / 0 rerolls**. No $0 crop path (crucifixion staging isn't croppable from a clothed free-standing frame); mp4 NOT reshipped (would repeat complaint).
 **NEW ACTION (not identical re-park churn):** audited the reviewer card v95 and found its green "🛠 What this cut changed" flag was STALE — it bragged the CURRENT (complained-about) cut was good: *"the three crosses read with one geometry… held at a merciful distance, bound with rope, no nails."* That directly contradicts Cameron's complaint (all shirts off, all pinned/affixed to their own cross, parallel row not facing, crown of thorns, plaque each head) AND the accurate amber `data-machine-reason` banner above it. Rewrote the green flag to honestly state the video on the page is the OLD flagged cut and the parallel-crosses / stripped-pinned / crown / plaque fix is written+machine-checked, waiting ONLY on the Google AI Studio top-up (https://ai.studio/projects). Committed `57ccf5e46`, deployed to Firebase, **live-verified**: honest flag served, old brag string count = 0, card hash unchanged (`9059485916c1…`, mp4 deliberately untouched). NO board re-park churn beyond one factual clause. **COST $0 / 0 rerolls / 0 credits.** Ships touch-once the instant billing is funded (RESUME block below).
