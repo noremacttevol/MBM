@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 08:04:39",
+ "scanned": "2026-08-13 08:27:13",
  "entries": [
   {
    "row": 1,
@@ -54982,6 +54982,461 @@
    "night": false,
    "n_person": 2,
    "scene": "The wall gets a new job at golden evening: the two farmers sit ON it, side by side at its low point by the well \u2014 bread broken between them, a water-skin passing, their mattocks leaned together against the stones like ol"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b01",
+   "file": "build-125-i-never-knew-you/assets/s01-jesus-warned-that-saying-the.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sermon arrives at its weightiest ground, the camera looking past the seated crowd's backs up the gold slope: Jesus seated above the blue lake as he has been all afternoon \u2014 but the hillside has gone quiet in a new wa"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b02",
+   "file": "build-125-i-never-knew-you/assets/s02-the-door-is-not-opened.jpeg",
+   "tokens": [
+    "DOOR"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The image the whole warning lives in stands closed on a quiet plain: a great double door of heavy honey-brown wood set in pale stone, warm morning light breathing at its seams from whatever country lies beyond \u2014 and befo"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b03",
+   "file": "build-125-i-never-knew-you/assets/s03-not-every-one-that-saith.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The two things are separated with surgical gentleness: Jesus's left hand moves in a small setting-aside \u2014 not every one that SAITH \u2014 and his right comes forward open and firm \u2014 but he that DOETH \u2014 the whole eternal sorti"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b04",
+   "file": "build-125-i-never-knew-you/assets/s04-not-everyone-who-calls-me.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The difference is on display in one ordinary street: on the synagogue steps a robed man declaims with his arms lifted, the holy words loud and correct and admired by the small ring around him \u2014 while far up the lane behi"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b05",
+   "file": "build-125-i-never-knew-you/assets/s05-words-are-cheap-a-life.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The exchange rate is printed on a pair of hands: close on the plain man's work-worn fingers as they set the widow's jars gently down inside her door \u2014 knuckles rope-scarred, nails split from other people's mended fences "
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b06",
+   "file": "build-125-i-never-knew-you/assets/s06-and-then-he-described-a.jpeg",
+   "tokens": [
+    "DOOR",
+    "PLEADERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The day he described assembles in warm strange light: before the great closed door the many have gathered \u2014 men and women in fine deep-toned robes, respectable, accomplished, every pair of arms laden with rolled lists an"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b07",
+   "file": "build-125-i-never-knew-you/assets/s07-many-will-say-to-me.jpeg",
+   "tokens": [
+    "DOOR",
+    "PLEADERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The pleading opens with the strongest credentials first: the foremost of the crowd step toward the great door with their arms extended, faces lifted in earnest confidence \u2014 Lord, Lord \u2014 the words correct, the record real"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b08",
+   "file": "build-125-i-never-knew-you/assets/s08-and-in-thy-name-have.jpeg",
+   "tokens": [
+    "DOOR",
+    "PLEADERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The case grows taller by the sentence: bundled scroll-lists lift higher toward the door, arms raising tokens of works that were, by every account, wonderful \u2014 devils truly driven out, mighty things truly done, all of it "
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b09",
+   "file": "build-125-i-never-knew-you/assets/s09-lord-they-will-say-we.jpeg",
+   "tokens": [
+    "DOOR",
+    "PLEADERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One face carries the whole crowd's case: close on a single pleader \u2014 a good face, an earnest face, the face of somebody's beloved teacher or faithful elder \u2014 arms cradling a life's worth of rolled works, eyes on the door"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b10",
+   "file": "build-125-i-never-knew-you/assets/s10-we-do-all-kinds-of.jpeg",
+   "tokens": [
+    "PLEADERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What is missing is visible in what is full: close on a pleader's arms stacked to the chin with rolled works \u2014 prophecies, rescues, wonders, the whole magnificent inventory clutched tight \u2014 both hands entirely occupied wi"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b11",
+   "file": "build-125-i-never-knew-you/assets/s11-every-single-sentence-is-about.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What the list never mentions looks like this: the pale road at golden hour, and on it Jesus walking WITH a plain companion \u2014 matched stride, heads inclined toward each other in easy unhurried conversation, the companion'"
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b12",
+   "file": "build-125-i-never-knew-you/assets/s12-and-then-will-i-profess.jpeg",
+   "tokens": [
+    "DOOR"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The saddest sentence in the sermon is spoken in grief: Jesus stands at the great door and his face as he says it is not fury but loss \u2014 the sorrow of a man naming an acquaintance that never happened \u2014 I never KNEW you \u2014 "
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b13",
+   "file": "build-125-i-never-knew-you/assets/s13-he-is-not-weighing-the.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The instrument everyone expected is off duty: a merchant's brass balance leans against the pale wall, pans empty, beam idle \u2014 no list weighed on it today, no works counted, the whole measuring trade retired \u2014 and beside "
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b14",
+   "file": "build-125-i-never-knew-you/assets/s14-he-is-asking-whether-we.jpeg",
+   "tokens": [
+    "ROAD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The real question has a picture, and it is this one: further down the golden road the two walkers go on together \u2014 Jesus and his companion small now against the long warm light, the road unspooling easy ahead of them, a "
+  },
+  {
+   "row": 125,
+   "build": "build-125-i-never-knew-you",
+   "beat": "v2-r125-b15",
+   "file": "build-125-i-never-knew-you/assets/s15-it-is-an-invitation-to.jpeg",
+   "tokens": [
+    "DOOR"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The last frame turns the whole warning inside out: the great honey-wood door stands wide OPEN, and the warm morning country beyond it lies visible at last \u2014 green and lit and unhurried \u2014 while beside the open timber Jesu"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b01",
+   "file": "build-126-by-their-fruits/assets/s01-jesus-taught-how-to-tell.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The test he is about to give grows on the next terrace, the camera looking past the seated crowd's backs up the gold slope: Jesus seated above the blue lake with one arm swept out toward the terraced orchards stepping do"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b02",
+   "file": "build-126-by-their-fruits/assets/s02-beware-of-false-prophets-which.jpeg",
+   "tokens": [
+    "FOLD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The verse's picture stands at the fold gate in the violet dusk: among the cream-wool backs of the grazing flock, one shape wears its fleece wrong \u2014 draped, not grown \u2014 and under the borrowed wool the long grey frame of a"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b03",
+   "file": "build-126-by-their-fruits/assets/s03-watch-out-he-said.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The warning is given the way a shepherd gives it: close on Jesus in the warm light with his face gone watchful \u2014 not alarmed, GUARDING \u2014 the deep eyes steady on his people with the particular alertness of a man who knows"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b04",
+   "file": "build-126-by-their-fruits/assets/s04-some-of-them-will-come.jpeg",
+   "tokens": [
+    "FOLD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The human edition is harder to spot: at the fold gate stands a man dressed exactly like a shepherd \u2014 staff, mantle, easy smile \u2014 and almost everything about him is right except what the sheep already know: the nearest ew"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b05",
+   "file": "build-126-by-their-fruits/assets/s05-a-tree-shows-what-it.jpeg",
+   "tokens": [
+    "ORCHARD",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The farmer demonstrates where the truth of a tree keeps its office: one broad hand resting flat on the trunk's bark \u2014 which tells him nothing and he knows it \u2014 while his eyes are all the way UP in the branches, reading t"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b06",
+   "file": "build-126-by-their-fruits/assets/s06-ye-shall-know-them-by.jpeg",
+   "tokens": [
+    "ORCHARD",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The rhetorical question is staged at the terrace edge: the farmer's arm reaches carefully into a thorn bush the way you would reach for grapes \u2014 and finds what thorn bushes have always kept in stock \u2014 while at his feet t"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b07",
+   "file": "build-126-by-their-fruits/assets/s07-even-so-every-good-tree.jpeg",
+   "tokens": [
+    "ORCHARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The doctrine grows a few paces apart in the same soil: on the left the laden fig tree, deep green and bowed with ripe fruit, bees busy at the windfalls \u2014 on the right the blighted tree, gaunt and grey-leaved, its sparse "
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b08",
+   "file": "build-126-by-their-fruits/assets/s08-nobody-picks-grapes-off-a.jpeg",
+   "tokens": [
+    "ORCHARD",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The experiment returns its result at skin level: close on the farmer's hand withdrawn from the thorn bush \u2014 lightly scratched across the knuckles, fingers open, holding exactly nothing \u2014 the thorn's whole harvest display"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b09",
+   "file": "build-126-by-their-fruits/assets/s09-nobody-gathers-figs-off-a.jpeg",
+   "tokens": [
+    "ORCHARD",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Where the knowledge everyone already has does its shopping: the farmer stands under the laden fig tree with the same harvest basket now heaped full \u2014 ripe figs stacked purple-brown to the rim \u2014 one hand easing yet anothe"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b10",
+   "file": "build-126-by-their-fruits/assets/s10-cannot.jpeg",
+   "tokens": [
+    "ORCHARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One word gets one twig: extreme close on the blighted tree's branch \u2014 grey bark split and dry, two shriveled dark fruits hanging where sweetness was supposed to be \u2014 no bee visiting, no bird interested \u2014 a branch doing e"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b11",
+   "file": "build-126-by-their-fruits/assets/s11-a-good-tree-cannot-bring.jpeg",
+   "tokens": [
+    "ORCHARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The law admits no exceptions and the frame shows none: the two trees stand in their few paces of shared terrace, and every single fruit is filed under its own nature \u2014 the green boughs carrying nothing but bright ripe fi"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b12",
+   "file": "build-126-by-their-fruits/assets/s12-not-will-not-cannot-the.jpeg",
+   "tokens": [
+    "ORCHARD",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole doctrine fits in two open palms: the farmer holds a bright ripe fig in one hand and the blighted tree's shriveled dark fruit in the other, arms a little apart, weighing nothing \u2014 there is nothing to weigh \u2014 jus"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b13",
+   "file": "build-126-by-their-fruits/assets/s13-what-is-inside-comes-out.jpeg",
+   "tokens": [
+    "ORCHARD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Time runs the only audit that never misses: on the blighted trunk the bark has split along a hand's-length seam, and through the gap the inside has surfaced \u2014 grey punky heartwood where sound grain should be, the tree's "
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b14",
+   "file": "build-126-by-their-fruits/assets/s14-every-tree-that-bringeth-not.jpeg",
+   "tokens": [
+    "ORCHARD",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The orchard keeps itself the way orchards always have: the farmer's axe swings mid-arc into the barren trunk \u2014 chips bright at the cut, the gaunt grey canopy shivering overhead \u2014 while farther down the terrace an ordinar"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b15",
+   "file": "build-126-by-their-fruits/assets/s15-wherefore-by-their-fruits-ye.jpeg",
+   "tokens": [
+    "ORCHARD",
+    "FARMER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The terrace reads plainly the morning after: a fresh pale stump where the blighted tree stood, its wood stacked neat and useful against the terrace wall \u2014 and beside the cleared ground, unbothered and magnificent, the la"
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b16",
+   "file": "build-126-by-their-fruits/assets/s16-so-watch-the-fruit-not.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The orchard's method transfers to the market without modification: at the awning stall a finely-robed seller talks with easy confidence, rings on the gesturing hand \u2014 and the buyer before him is not watching the robe or "
+  },
+  {
+   "row": 126,
+   "build": "build-126-by-their-fruits",
+   "beat": "v2-r126-b17",
+   "file": "build-126-by-their-fruits/assets/s17-that-is-the-whole-test.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The entire examination fits between a thumb and two fingers: Jesus holds up a single ripe fig in the golden last light, turning it once so the whole hillside can see the completeness of the test \u2014 no scrolls required, no"
   },
   {
    "row": 127,
