@@ -68,3 +68,41 @@ frame (Jesus not in this row), so all are safe to auto-wire once promoted.
 5. Publish the candidate to the reviewer with a card telling Cameron the voice is
    the real new voice now (closes his open complaint). Reroll budget ≤15% of 19
    (~3). Touch the row once.
+
+---
+
+## RUNNER SHIP — 2026-08-13 (Opus runner, unattended/headless, Machine A `Dev`)
+
+**FIRST V2 CUT SHIPPED — 19 realistic beats, 0 rerolls (0%), ~$2.81 Gemini, meter $651.24→$654.19.**
+
+### COMPLAINT LEDGER (v2_outline.py 177)
+- **OPEN — "Not real new voice." → FIXED AT SOURCE + PROVEN.** All 13 segment mp3s in
+  `audio/` are ElevenLabs 44100 Hz/128 k (ffprobe-confirmed), and `AUDIO_FROM_V1_SEGMENTS
+  = True`, so `v2_assemble` rebuilt the shipped track FROM those new-voice segments — not a
+  stale stream-copy. **AUDIO REBUILD PASS SHA256 `23fba3a1…`, 96.0 s, decode-clean
+  (`ffmpeg -v error -f null -` empty).** The review card tells Cameron, in plain words, the
+  voice is the real new voice now. No other complaint open.
+
+### Build notes (LEARNING + COST laws)
+- **MOSES face-lock wired by the runner.** `v2_story_cast.py` generated MOSES + TABERNACLE-HOLY
+  portraits but did NOT write REFS (the author's empty `REFS = {}` block tripped the tool's
+  `"\nREFS = {" not in src` guard). MOSES appears across b02/b04/b07 (>=3 legible-face beats) and
+  QC.md requires a MOSES face-board — a text-only face WILL flip (RUNNER-LESSONS rows 52/55). So
+  the runner wired `REFS = {"MOSES": "CAST-REF-V2/moses.jpeg"}` (aged grey prophet, period wool,
+  never cream). Gen log confirmed `[+1 char ref: MOSES]` on b02/b07; face held across b02/b04.
+  TABERNACLE-HOLY was left a PLACE (promoted from b07), never wired as a character (place-as-person
+  is forbidden); its orphaned portrait is unused.
+- **Places promoted (lesson 11):** WILDERNESS-CAMP <- s01 (12 beats), TABERNACLE-HOLY <- s07 (6 beats).
+  SINAI-MOUNT is single-beat (b02), not promoted.
+- **0 rerolls** — every one of the 19 first-attempt frames passed Light QC. Well under the 15%
+  reroll budget and far under the $6.10/row average — the COST LAW trend holds down.
+
+### FULL-CUT GATE (section 6b) — verified in the RENDERED mp4, one frame per beat
+19/19 beats + 3 caption frames + question card PASS. **HARD GATE GOD-NEVER-EMBODIED:** b03 (s1)
+= formless cloud over the tent, no figure; b08/b09/b11 (g22 + meeting place) = ark with two CARVED
+GOLD cherubim statues + soft light in the EMPTY charged space above the mercy seat, no figure;
+b12 ark carried, no figure. **Cherubim = gold statues** throughout (never living). **b18 "would
+take a face"** = tent-only, NO Jesus/NO face of God. MOSES consistent (b02/b04). No cream anyone,
+no modern objects, realistic-only, anatomy/scale/hands clean, all frames upright (no rotation).
+Captions bottom-band only — GREEN on s1+g22 (GOD voice), WHITE on narrator; question card clean
+verse-only ("He wanted to live among his people then. He wants to live among you now.").

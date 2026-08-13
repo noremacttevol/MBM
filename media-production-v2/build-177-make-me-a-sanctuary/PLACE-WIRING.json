@@ -1,0 +1,14 @@
+{
+ "TABERNACLE-HOLY": {
+  "manual": true,
+  "src_beat": "s07-the-ark-the-table-the-lampstand",
+  "src_build": "build-177-make-me-a-sanctuary",
+  "src_file": "build-177-make-me-a-sanctuary/assets/s07-the-ark-the-table-the-lampstand.jpeg"
+ },
+ "WILDERNESS-CAMP": {
+  "manual": true,
+  "src_beat": "s01-the-camp-in-the-wilderness",
+  "src_build": "build-177-make-me-a-sanctuary",
+  "src_file": "build-177-make-me-a-sanctuary/assets/s01-the-camp-in-the-wilderness.jpeg"
+ }
+}
