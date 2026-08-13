@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T12:30:04_
+_Last sync: 2026-08-13T15:17:51_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 33 row(s)
+- **BUILDING** — 32 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 42 row(s)
+- **ON REVIEWER — awaiting Cameron** — 43 row(s)
 
 ## The rows
 
@@ -158,7 +158,7 @@ _Last sync: 2026-08-13T12:30:04_
 | 135 | The Rainbow Covenant | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 136 | Healed in Two Touches | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 137 | One As We Are One | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 138 | We Are his Offspring | ⬜ | v1.1 | app-gallery | BUILDING / not on reviewer | runner ships to reviewer |
+| 138 | We Are his Offspring | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 139 | Lamp on a Stand | ⬜ | v1.1 | app-gallery | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 140 | The Bronze Serpent | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 141 | I Am the Bread of Life | ✅ 2026-08-13 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
