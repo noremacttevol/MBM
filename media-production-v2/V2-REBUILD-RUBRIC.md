@@ -284,6 +284,31 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
     122 (b06). Extends lesson 4 (anatomy/natural joints) with the specific
     neck-rotation clause that kept slipping through.
 
+22. **MOONLIGHT DRAINS FACES GREY, HIDES HANDS, AND RENDERS NEAR-BLACK — a
+    night beat needs three explicit floors or it fails three ways (Cameron,
+    2026-08-13 — row 146: "0:40 some bystanders have white faces… 0:47 man has
+    multiple arms… 1:19 picture has Jesus missing a hand").** Three distinct
+    complaints on one night cut, all PROMPT-AUTOPSY = ALLOWED (missing
+    constraints, not bad refs): (a) **grey/white faces** — a moonlit crowd with
+    no skin-tone floor washes several faces to ashen/grey/white ("corpse" look);
+    FIX: `must_show`/`scene` require every face to keep "warm living olive/tan
+    Middle-Eastern skin, softly moonlit," and `must_not_show` bans "grey, ashen,
+    pale, white, bluish, desaturated or drained faces." (b) **spare/third arm** —
+    the generic "two arms, two hands and one head" line does NOT stop a spare
+    limb on a from-behind figure who shoulders a tool while also reaching; when a
+    hands/arms beat drifts, recompose to the ACTUAL brief (a TIGHT close of the
+    hands doing the one thing) and add "NO extra, third, duplicated, floating or
+    disembodied arm or hand — every visible person has exactly two arms both
+    joined at the shoulders." (c) **near-black frame** — "moonlight" with no
+    readability floor renders unviewable; every night beat needs "clearly VISIBLE
+    in soft moonlight — not a near-black or unreadable frame; every face and
+    hand plainly lit," still night, not sunset/sunrise. Also here: a beat whose
+    prose named "moonlit" rendered golden-day walking-workers instead of the
+    briefed close hands-on-branch — recomposing to the brief fixed the arms, the
+    time-of-day, AND de-duplicated it from the adjacent frame in one reroll.
+    Rows of record: 146 (b04 faces, b09 arms/time, b14 hand/darkness). Extends
+    lesson 4 (anatomy) and the time-of-day law with the night-readability floor.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.

@@ -1,3 +1,19 @@
+## 2026-08-13 (cont. 102) — ROW 146 vine-and-branches C-FIX SHIPPED: Cameron's "0:40 white faces / 0:47 multiple arms / 1:19 Jesus missing a hand" ALL THREE FIXED, FULL-CUT GATE 14/14, $0.40/3 rerolls, audio byte-identical — Machine A `Dev`, Opus runner (unattended/headless)
+
+**Commit:** ship `d4b437a004b0` (mp4 + QC autopsy + 3 rerolled stills + boards + api-spend); card repoint + complaint-resolve + lessons this session's commit B. Complaint-first + low-number dispatch to AUTHOR-BOARD row 146 (lowest waiting row with an OPEN picture complaint, reportedAgainst the live cut a62787cfb). Read PROMPT-OPUS-RUNNER laws + all rubric lessons + `v2_outline.py 146` first (LEARNING LAW).
+
+**Cameron's complaint (complaintHash a62787cfb, against the live cut):** "0:47 man has multiple arms replace the picture, 0:40 picture some bystanders have white faces, fix it replace it. 1:19 picture has Jesus missing a hand, fix it."
+
+**TRACE → RENDERED frames (from the live mp4 + beat windows, not beat names):** 0:40 = b04 `s04` (window 39.26–40.65, moonlit crowd faces drained grey/white); 0:47 = b09 `s09` (43.17–46.63 held through gap; foreground man read as a 3rd arm — traced past the *adjacent* s08 which is a different, on-brief golden-dusk frame, left untouched); 1:19 = b14 `s14` (73.68–78.39; Jesus's clasp merged a hand AND rendered near-black).
+
+**PROMPT AUTOPSY = ALLOWED ×3 (rubric meta-law 3):** all three were missing constraints, not bad refs. Hardened the three beats' prose: b04 → warm-olive-skin floor + ban grey/ashen/white faces; b09 → recompose to the ACTUAL brief (TIGHT moonlit hands-on-one-branch) + ban tools/walking-away + ban any third/floating/disembodied arm (which also de-duplicated it from s08 and fixed its wrong golden-day time-of-day); b14 → BOTH Jesus hands visible five-fingers each + explicit night-readability floor (not near-black). Rerolling without the autopsy is forbidden — verdicts recorded in QC.md.
+
+**FIX + FULL-CUT GATE (6b):** 3 rerolls (b04/b09/b14 = 3/14 = 21%, ~$0.40; mandatory complaint-fixes, exempt from the discretionary ≤15% budget; rest of cut reused untouched). Verified in the RENDERED mp4: 0:40 all warm faces; 0:47 clean three-distinct-men one-hand-each at night; 1:14–1:18 Jesus clasps with both hands, five fingers, clearly lit (the dark 79s frame is only the fade to card). Other 11 beats extracted at mid-window and viewed — all clean. **14/14 PASS.** AUDIO LOCK byte-identical: AUDIO REBUILD PASS SHA256 `ae063a39…` (same as prior ship, nothing re-voiced), 84.8s / 20.5 MB.
+
+**COST/LEARNING LAW:** ~$0.40 this touch, $0 audio — far under $6.10/row avg → trend DOWN. New RUNNER-LESSONS line + rubric **lesson 22** (night beats need three floors: warm-skin, no-spare-arm, readability) with Cameron's exact words. REVIEW-LESSONS 146 → open:false, resolvedBy d4b437a0. Card flag answers all three complaints in his words. Deploy + live-verify below.
+
+---
+
 ## 2026-08-13 (cont. 101) — ROW 121 salt-and-light C-FIX SHIPPED: Cameron's "0:31 double picture" + "2:45 corny big Jesus floating in the sky" BOTH FIXED, FULL-CUT GATE 29/29, $0.27/2 rerolls, live-verified served==local — Machine A `Dev`, Opus runner (unattended/headless)
 
 **Commit:** ship `f19b00152` (card repoint in `acbd1e367`; memory/complaint-resolve this commit). Complaint-first + low-number dispatch to AUTHOR-BOARD row 121 (lowest waiting row with an OPEN complaint). Read PROMPT-OPUS-RUNNER laws + `v2_outline.py 121` first (LEARNING LAW).
