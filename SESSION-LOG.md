@@ -1,3 +1,11 @@
+## 2026-08-13 (cont. 97) — ROW 137 VERIFY-PASS ABORTED (correctly): row is APPROVED with a CURRENT hash → UNTOUCHABLE — nothing claimed, nothing re-cut, $0 — Machine A `Dev`, Opus VERIFY-PASS (unattended/headless)
+
+A VERIFY-PASS was dispatched to full-cut-gate row 137 ("One As We Are One · John 17") before Cameron's eyes reached it. FIRST ACTION per the guardrail: read `.approvals.json` myself and compare row 137's `approvedHash` to the live card `data-hash` in `site/review.html` — BEFORE claiming anything.
+
+- **Result: hashes MATCH → approval is CURRENT → UNTOUCHABLE.** `.approvals.json` row 137: `approved: true`, `approvedHash 0434cfa666244948c256f5dfb119c104550f4915`, approvedAt 2026-08-13T00:16:01Z, no open complaint. Live card `id="v137"` (realistic-v2): `data-hash="0434cfa666244948c256f5dfb119c104550f4915"`. Identical.
+- **Exited immediately: claimed nothing, extracted no frames, changed no art, re-cut nothing.** An approved row is Cameron's release decision and no defect outranks it — this check exists to prevent the 3 AM 2026-08-12 re-cut of approved rows 1/122/129. The only write was a log-only note appended to `build-137-one-as-we-are-one/QC.md` documenting the abort. Existing FIX-WAVE notes (b05 cool-light hair sheen, b12 distant ambiguous dome) stay non-blocking and are NOT to be acted on while this approval stands.
+- Commit `ea387d572`. $0, meter unmoved.
+
 ## 2026-08-13 (cont. 96) — ROW 147 C-FIX SHIPPED: "Joseph Forgives" character-consistency complaint VERIFIED fixed in realistic-V2 — FULL-CUT GATE 16/16 PASS, $0/0 rerolls, reviewer card answers Cameron — Machine A `Dev`, Opus runner (unattended/headless)
 
 Complaint-first + low-number dispatched me to AUTHOR-BOARD row 147 (lowest waiting complained row). Cameron's complaint (COMPLAINTS.md, status "newer cut shipped — VERIFY fixed"): *"Joseph should be the same character and same look as before, different hair maybe but same face definition. We should have the story of Joseph and this story looking the same. Match the characters and redo this one if you must."* No timestamp → a global identity complaint tracing to every Joseph appearance.
