@@ -1,3 +1,31 @@
+## 2026-08-13 (audio lane, unattended/headless) — Rows 152/153/154: STALE-V1 AUDIO-FIX DONE, handed to picture runner — Machine A `Dev`
+
+**Commit:** `d5fad6891` (154; 153 `aff2f515a`; 152 `758dd44e8`)
+
+**Continuation of the same audio-lane session that shipped row 117** (below). After 117
+I worked the next-lowest NEEDS-AUDIO rows per the LOW-NUMBER LAW. 152/153/154 are all the
+same **STALE-V1 (row-147 class)** park: the V1-dir narration mp3s were re-recorded in the
+new-voice ElevenLabs cast AFTER the old V1 mp4 render, so `v2_assemble`'s AUDIO LOCK
+newer-mp3 tripwire refuses. All three have **0 stills** — so the fix is a $0 flag-set +
+handoff, never a re-voice or a picture build.
+
+**Per row (identical procedure):**
+- Voice-ID'd every V1-dir mp3 = **44100 Hz / 128 k = chosen ElevenLabs new-voice** (152: 11
+  mp3s; 153: 13; 154: 11 — zero old edge-tts segments).
+- Set `AUDIO_FROM_V1_SEGMENTS = True` in that build's `beats_v2.py` (off the runner
+  write-list; rebuilds audio from the newer mp3s at extract_beats offsets — nothing
+  re-voiced, nothing re-timed, V1 read-only).
+- Pre-flight PASS on all three: `extract_beats` (152=131.3s/10, 153=161.6s/12,
+  154=141.4s/10), `v2_prompt <build> --check` v4 PASS (152=21, 153=26, 154=23 beats),
+  `audio_audit --rows N` = **0 old-voice segments**.
+- Board State NEEDS-AUDIO → AUTHORED, Ready ✅, Claim cleared (archived note in Ready col)
+  so the PICTURE RUNNER builds the stills on the now-valid audio and ships. QC.md ✅ note
+  written per row. **Row 153 carries an OPEN complaint for the runner:** "1:12 needs
+  Peter" — b13 already re-authored to show Peter's arm at ~1:12; the runner MUST verify it
+  in the FULL-CUT GATE before shipping (carried in 153's QC COMPLAINT LEDGER + board note).
+
+**Cost:** $0 Gemini, $0 ElevenLabs, 0 rerolls across all three (no TTS, no image gen).
+
 ## 2026-08-13 (Opus runner, unattended/headless) — Row 122 mote-and-beam: C-FIX SHIPPED — Cameron's 0:33 "head turned around backwards" (his 5th filing of this class) — Machine A `Dev`
 
 **Commit:** `ac4eeba64` (ship: mp4 + QC + beats_v2 + RUNNER-LESSONS + rubric lesson 21); card/board/log follow.
