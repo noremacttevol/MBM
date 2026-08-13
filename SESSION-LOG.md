@@ -7,9 +7,9 @@ Ran AUTHOR-BOARD row 140 (lowest Ready ✅, complaint-first). Cross-checked QUEU
 - **1 reroll (b21, 4.2% ≤15% budget):** the ~7.6s dying-man close-up had vivid blue eyes → rerolled to a muted grey-hazel man reaching toward the distant pole (reads "a dying man" better). ~$0.26 total; 23 banked frames untouched (touch-once/COST LAW).
 - **FULL-CUT GATE 24/24 + card PASS** (per-rendered-frame): Moses identity consistent, no Jesus/cream (OT era), realistic-only, snakes-no-gore, dignified death shroud, period blacksmith, hands/scale/anatomy correct, captions bottom-band 4-voice, question card clean. FIX-WAVE (non-blocking): s06 bg speck, s24 faint vision-crowd overlay.
 - **Reviewer cleanup:** row 140 had TWO stale duplicate `id="v140"` cards (Naaman + Road-Runs-Both-Ways, both Prodigal-Son dupes — the exact complaint). Converted one to The Bronze Serpent (hash `f5ce6766`, `data-review-wave="realistic-v2"`, flag answers the complaint in Cameron's words) and DELETED the duplicate so the reviewer serves exactly one, correct card.
-- **Ship:** commit `f5ce6766` (mp4 force-added, QC.md, beats_v2, s17/s21, boards, QUEUE). Deploying + live-verifying next. Appr stays ⬜ (Cameron's alone).
+- **Ship:** commit `f5ce6766` (mp4 force-added, QC.md, beats_v2, s17/s21, boards, QUEUE); reviewer card + SESSION-LOG `2784a482c`. **Deployed to Firebase (`milk-b4-meat`) + LIVE-VERIFIED:** live review.html carries `data-hash="f5ce6766a8d7dcc44ff0a989e4d507579f636458"` and the mp4 returns HTTP 200, content-length 21,077,336. RUNNER-LESSONS + STASH-INDEX (3740 stills) fed; publish_ledger synced. Appr stays ⬜ (Cameron's alone).
 
-Commit: (this entry's commit — see below)
+Commit: f5ce6766a8d7dcc44ff0a989e4d507579f636458 (ship) / 2784a482c (card+log)
 
 
 

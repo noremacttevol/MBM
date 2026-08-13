@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 04:16:56",
+ "scanned": "2026-08-13 04:39:12",
  "entries": [
   {
    "row": 1,
@@ -54154,6 +54154,344 @@
    "night": true,
    "n_person": 2,
    "scene": "The prayer's last arc gathers everybody it can reach: Jesus's open hand sweeps from the Eleven drowsing warm by the fire, out across the dark valley where the window-lights burn one by one to the horizon \u2014 the same motio"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b01",
+   "file": "build-140-bronze-serpent/assets/s01-out-of-egypt-on-a-miracle.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The camera looks down from a ridge onto the whole nation on the move: a long dust-hazed column of tens of thousands \u2014 families, laden donkeys, herded goats, rolled goat-hair tents \u2014 winding LEFT-to-RIGHT across a cracked"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b02",
+   "file": "build-140-bronze-serpent/assets/s02-patience-wore-through.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A tight, low travelling shot on one exhausted family in the column: a sun-darkened mother shifting a heavy rolled bundle on her back, a small child clinging to her hip with cracked lips, a grandfather leaning on a staff "
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b03",
+   "file": "build-140-bronze-serpent/assets/s03-they-turned-on-god.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP",
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "An over-shoulder two-shot from behind the accusers: three or four dust-caked men crowd in from the right, faces twisted with grievance, hands thrown out and fingers stabbing toward Moses \u2014 who stands at frame left, an ol"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b04",
+   "file": "build-140-bronze-serpent/assets/s04-wherefore-brought-us-up.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close low shot on one man at the height of the murmuring: bearded, sun-scorched, mouth open in a shout, one arm flung back over his shoulder toward the far horizon they came from, the other sweeping across the waterles"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b05",
+   "file": "build-140-bronze-serpent/assets/s05-loatheth-this-light-bread.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A tight insert on hands and a bowl: a shallow rough clay dish heaped with pale, delicate, coriander-seed-sized manna flakes, and a calloused hand tipping it contemptuously so the little pale grains spill and scatter acro"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b06",
+   "file": "build-140-bronze-serpent/assets/s06-bread-called-worthless.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A low, still ground-level shot at grey dawn: a fine layer of pale manna lying like frost over the cracked earth and the dry scrub, every small round flake beaded with dawn light, stretching untouched to a few dim tents \u2014"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b07",
+   "file": "build-140-bronze-serpent/assets/s07-a-real-danger.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A low, tense shot into the scrub at the camp's edge as the afternoon light goes hard and coppery: a single sand-coloured desert viper threads silently between the stones and dry thornbush, its body a natural muscular cur"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b08",
+   "file": "build-140-bronze-serpent/assets/s08-fiery-serpents-sent.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A wider camp-floor shot in hard copper light: two or three sand-coloured vipers wind across the packed dirt between the goat-hair tents while people recoil in every direction \u2014 a mother snatching a toddler up onto a boul"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b09",
+   "file": "build-140-bronze-serpent/assets/s09-they-bit-the-people.jpeg",
+   "tokens": [
+    "BITTEN-MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close two-shot low to the ground: the young father buckles onto one knee clutching his lower leg where a friend is hurriedly binding a strip of pale cloth, his face draining to a grey sweat as the venom takes him, eyes"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b10",
+   "file": "build-140-bronze-serpent/assets/s10-much-people-died.jpeg",
+   "tokens": [
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A quiet, sorrowful shot along the shaded edge of the tents in failing light: fevered men and women lie on woven mats while kin kneel to press water to their lips, and at the near end a woman is bowed low, face in her han"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b11",
+   "file": "build-140-bronze-serpent/assets/s11-running-to-moses.jpeg",
+   "tokens": [
+    "MOSES",
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A medium shot as dusk comes on: a cluster of stricken people surges toward Moses' tent from the right \u2014 a man half-carrying his fevered brother, a woman with her arms flung out, faces broken open with fear and shame \u2014 re"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b12",
+   "file": "build-140-bronze-serpent/assets/s12-we-have-sinned.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close, quiet two-shot at dusk: a grey-bearded Israelite kneels in the dust before Moses, both hands raised open and trembling in confession, his face tipped down and streaked with dust and tears, saying the words that "
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b13",
+   "file": "build-140-bronze-serpent/assets/s13-moses-prayed.jpeg",
+   "tokens": [
+    "MOSES",
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A reverent wide-ish shot of Moses set apart on a low rise as the last daylight drains from a deep-blue sky: the old man stands with his staff planted and both weathered arms lifted, face turned up into the dusk, praying "
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b14",
+   "file": "build-140-bronze-serpent/assets/s14-make-thee-a-fiery-serpent.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "A close low shot on Moses at night, lit from above by a break of brilliant warm light spilling down out of the dark sky: his lined face is tipped up into it, eyes open and steady, lips parted as he takes in an instructio"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b15",
+   "file": "build-140-bronze-serpent/assets/s15-when-he-looketh-shall-live.jpeg",
+   "tokens": [
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A held close-up on Moses as the warm light dims to a faint wash at the edge of frame: he lowers his face from the sky, eyes distant and wide with the weight of what he has just been given \u2014 that the dying will not have t"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b16",
+   "file": "build-140-bronze-serpent/assets/s16-a-serpent-of-bronze.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "A tight, warm insert on working hands at a small night forge: a coil of bronze burning amber-orange gripped in iron tongs over red-hot coals, a hammer caught mid-strike throwing a spray of sparks, the metal already bent "
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b17",
+   "file": "build-140-bronze-serpent/assets/s17-lifted-on-a-pole.jpeg",
+   "tokens": [
+    "MOSES",
+    "SERPENT-POLE",
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "A low, wide hero shot into a clean pale-gold dawn: the tall bare pole stands planted in the open heart of the camp, the dark bronze serpent fixed and gleaming at its very top on a short crosspiece so the whole thing stan"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b18",
+   "file": "build-140-bronze-serpent/assets/s18-when-he-beheld-he-turned.jpeg",
+   "tokens": [
+    "BITTEN-MAN",
+    "SERPENT-POLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A low over-the-shoulder from beside the bitten father: he is down on the dust, propped on one failing arm, his face grey and sheened with fever and the bound cloth at his leg \u2014 and with the last of his strength he TURNS "
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b19",
+   "file": "build-140-bronze-serpent/assets/s19-when-he-beheld-he-lived.jpeg",
+   "tokens": [
+    "BITTEN-MAN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A rising medium shot on the same father a heartbeat later: the grey has drained out of his face and warm living colour has rushed back into it, his eyes still fixed upward and flooding with astonishment as he pushes up f"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b20",
+   "file": "build-140-bronze-serpent/assets/s20-the-whole-camp-looked-up.jpeg",
+   "tokens": [
+    "SERPENT-POLE",
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A wide low shot back across the waking camp into the gold dawn: the tall pole and its bronze serpent rise as a clear cross-form over the tents, and everywhere below, people are turning their faces up to it \u2014 the strong l"
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b21",
+   "file": "build-140-bronze-serpent/assets/s21-only-had-to-lift-his-eyes.jpeg",
+   "tokens": [
+    "SERPENT-POLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A very tight close-up on a fevered face tipped upward at dawn \u2014 cracked lips, exhausted eyes filling with fragile hope, one weathered hand rising unsteadily toward the sky \u2014 and, thrown soft and bright above and behind, "
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b22",
+   "file": "build-140-bronze-serpent/assets/s22-reached-back-to-the-cross.jpeg",
+   "tokens": [
+    "SERPENT-POLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A still, wide silhouette shot: the tall bare pole with the bronze serpent stands alone against an enormous brightening dawn sky over the empty red wilderness, its vertical line and single crosspiece reading plainly as a "
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b23",
+   "file": "build-140-bronze-serpent/assets/s23-son-of-man-lifted-up.jpeg",
+   "tokens": [
+    "SERPENT-POLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A low, worshipful shot looking straight up the length of the bare pole to the dark bronze serpent fixed at its top, held against a wide radiant morning sky pouring clean warm light down around it \u2014 the lifted-up serpent "
+  },
+  {
+   "row": 140,
+   "build": "build-140-bronze-serpent",
+   "beat": "v2-r140-b24",
+   "file": "build-140-bronze-serpent/assets/s24-whosoever-believeth.jpeg",
+   "tokens": [
+    "SERPENT-POLE",
+    "WILDERNESS-CAMP"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A wide closing shot into a vast luminous morning: the bronze serpent on its tall pole stands as a cross-form on the low rise, washed in clean warm light, and at its foot the healed \u2014 whole and upright now \u2014 stand small w"
   },
   {
    "row": 141,
