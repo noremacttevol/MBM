@@ -119,3 +119,54 @@ Wire REFS (done) → run the plain skip-existing runner for the 21 missing beats
 is skipped) → FULL-CUT GATE per RENDERED frame incl. comparing s01's text-only
 Ezekiel against the ref-locked majority (regen s01 only if it reads as a
 different man) → assemble (standard AUDIO LOCK) → ship + deploy + live-verify.
+
+---
+
+## RUNNER SHIP — 2026-08-13 (Opus runner, Machine A `Dev`, unattended/headless)
+
+Resumed the died lane: assets were at s01–s19 on disk (board note "1/22" was
+stale from the crash). Already-shipped check FIRST: no committed mp4, no mp4 on
+disk, live card v158 still the OLD 2026-07-24 cut (data-hash 356d4dbe, no
+realistic-v2 wave) → genuine resume. No live `v2_gen_api` sibling owns 158
+(siblings were on 116/106). `--check` PASS (22 beats). REFS already wired to
+EZEKIEL (row-177 face-lock); gen log printed `[+1 char ref: EZEKIEL]`.
+
+### COMPLAINT LEDGER
+`v2_outline.py 158` shows **NO open complaint**. COMPLAINT LEDGER: none open.
+
+### Generation
+Ran skip-existing resume → generated the 3 missing beats s20/s21/s22 ($0.40).
+Light-QC contact sheet of all 22: one defect — **s13 (b13 "the people came
+asking") had drifted to a POTTER'S-WHEEL genre scene** (Ezekiel making pottery,
+no sign, background figures not converging — off-beat + ACTION-LOGIC read
+wrong). One `--redo` ($0.13) landed the correct converging-exiles frame (elder
+waving his stick, families+children moving toward the prophet by the tents/river).
+**1 reroll / 22 beats = 4.5%**, under the 15% COST-LAW budget. Investigated but
+PASSED: the pale curl on the s03 rod = wood shaving curling from the blade
+(scene text: "the pale wood curling away from the blade"), not an ornament; the
+carved rod name-lines are indistinct stylized glyphs (author intent: "mark it
+with a name … Script indistinct"), not readable paragraph text; s18's grey-bearded
+brown-robed man is CORRECT (b18 `locks=[]` = an anonymous lamplit exile listener,
+not Ezekiel).
+
+### FULL-CUT GATE (per RENDERED mp4 frame) — 22/22 beats + card PASS
+Realistic throughout (no cartoon/mix). Ezekiel one consistent charcoal-blue
+dark-bearded man across all 14 of his beats. **GOD NEVER EMBODIED** — b01 =
+listening posture at the canal; the joining (b10) is in Ezekiel's own hands; no
+divine hand/figure/beam. Two flat rods → one SEAMLESS joined rod (no splice/cord).
+No cream on anyone (OT, no Jesus); exiles dignified earth-tones, children
+child-sized, distinct faces, clean anatomy/hands, no modern objects, no
+lens-staring subject. **SPEAKER LAW pixel-verified:** God's scripture (kv16/17/19)
+GREEN, narrator WHITE, NO RED (no Jesus). Captions bottom-band only; question
+card clean (good margins, no tofu). DROP-CHECK: concat_base = 22 clips == 22
+beats; b22 ends at card_start (no dropped beat). b22 = author spec exactly (two
+scroll-records + one hand reaching to take both).
+
+### Audio / ship
+Standard AUDIO LOCK path (AUDIO_FROM_V1_SEGMENTS not set): assembler used the V1
+mp4 audio. **AUDIO LOCK PASS SHA256 927f7f7c…**, 167.9 s / 19.4 MB. Nothing
+re-voiced or re-timed.
+
+### Cost
+~$0.53 this row (3 resume gens + 1 reroll), 4.5% rerolls — far under the $6.10 /
+19% running average. COST-LAW downward trend holds.
