@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 09:24:27",
+ "scanned": "2026-08-13 09:27:04",
  "entries": [
   {
    "row": 1,
@@ -56659,6 +56659,252 @@
    "night": false,
    "n_person": 1,
    "scene": "The last frame is a map with a man on it, the camera set behind the listeners' backs at the ledge: Jesus stands on the overlook between the two geographies \u2014 below on one side the grey desolate ravine with its thin dying"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b01",
+   "file": "build-134-today-in-paradise/assets/s01-you-may-have-been-told.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The picture many people were handed has exactly two pieces: a dark stone wall in dim even light, and set into it two stark identical doors \u2014 heavy, shut, final \u2014 nothing written on either, nothing visible past their seam"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b02",
+   "file": "build-134-today-in-paradise/assets/s02-two-sentences-from-jesus-quietly.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Two sentences renovate the whole floor plan: the same dark wall stands in the same dim light \u2014 but opened now, both doors swung ajar and a wide gap of morning showing where the masonry once insisted on only two ways \u2014 be"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b03",
+   "file": "build-134-today-in-paradise/assets/s03-the-first-he-said-while.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The first sentence has the hardest address in scripture: Calvary's bare rounded rise under its cold grey ceiling of cloud, the three raised crosses dark against the overcast, small knots of watchers held back down the sl"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b04",
+   "file": "build-134-today-in-paradise/assets/s04-next-to-him-hung-a.jpeg",
+   "tokens": [
+    "HILL",
+    "THIEF"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The man beside him has no illusions left: chest-up on the right-hand cross, the thief's broad worn face hangs tired against the grey sky \u2014 grey-shot beard, deep-cut lines, the eyes of a man doing honest arithmetic at the"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b05",
+   "file": "build-134-today-in-paradise/assets/s05-and-in-his-last-hour.jpeg",
+   "tokens": [
+    "HILL",
+    "THIEF"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The last thing the thief does with his strength is turn his head: against the cold grey the worn face rotates toward the centre cross \u2014 toward the one dying man on this hill who has spent the morning forgiving people \u2014 a"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b06",
+   "file": "build-134-today-in-paradise/assets/s06-lord-remember-me-when-thou.jpeg",
+   "tokens": [
+    "HILL",
+    "THIEF"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The shortest gospel service on record is held between two crosses: the thief's plea still on his lips, and Jesus's face turned to him through the pain \u2014 spent, grey-lit, and full of an authority no cross has touched \u2014 TO"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b07",
+   "file": "build-134-today-in-paradise/assets/s07-today-not-after-a-lifetime.jpeg",
+   "tokens": [
+    "HILL",
+    "THIEF"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One word does what forty years could not: close on the thief's ruined face as TODAY arrives in it \u2014 the deep tired eyes widening, the honest mouth coming open, disbelief breaking up like grey weather into the first peace"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b08",
+   "file": "build-134-today-in-paradise/assets/s08-mercy-reached-a-dying-thief.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The distance mercy crossed is measurable in cubits: the two crosses stand side by side against the cold overcast, and between them nothing but a few feet of grey afternoon air \u2014 the full extent of the road the thief's sa"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b09",
+   "file": "build-134-today-in-paradise/assets/s09-most-people-know-that-verse.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The row's whole method fits on one plain table: in the lamp's quiet ring a hand sets a second small scroll fragment down beside a first \u2014 two sentences from the same voice, three days apart, laid edge to edge in the ligh"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b10",
+   "file": "build-134-today-in-paradise/assets/s10-three-days-later-on-easter.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Sunday's gold changes everything except her reflex to reach: in the tomb garden's first morning light Mary is already moving toward him \u2014 tear-streaked face blazing with recognition, hands rising toward the Teacher who i"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b11",
+   "file": "build-134-today-in-paradise/assets/s11-touch-me-not-for-i.jpeg",
+   "tokens": [
+    "TOMB",
+    "MARY"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sentence is as strange as the morning is bright: close on the halted reach \u2014 Mary's fingers stopped a hand's-breadth from his sleeve, his palm turned gentle between them, nothing of rejection in it and everything of "
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b12",
+   "file": "build-134-today-in-paradise/assets/s12-read-those-two-slowly-side.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The slow reading begins at Friday: the two fragments lie side by side in the lamp's ring and a careful finger comes to rest on the first \u2014 today, paradise, with me, spoken from a cross to a thief with hours to live \u2014 the"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b13",
+   "file": "build-134-today-in-paradise/assets/s13-on-sunday-he-says-he.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Sunday's fragment gets the same slow finger: the hand moves to the second scroll piece \u2014 not yet ascended, it runs, three days after today-in-paradise was spoken and kept \u2014 and now the two sentences lie in the lamplight "
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b14",
+   "file": "build-134-today-in-paradise/assets/s14-which-means-the-paradise-he.jpeg",
+   "tokens": [
+    "REST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the two sentences make room for looks like this: a quiet garden-country at soft morning \u2014 green meadows sloping to an unhurried stream, olive and cypress standing calm in lifting mist, light lying gentle over everyt"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b15",
+   "file": "build-134-today-in-paradise/assets/s15-it-was-somewhere-in-between.jpeg",
+   "tokens": [
+    "REST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The country's best feature is its road: through the green resting meadows a worn path runs \u2014 past the stream, between the cypresses \u2014 and does not end anywhere in the frame: it climbs on toward far hills that hold a brig"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b16",
+   "file": "build-134-today-in-paradise/assets/s16-that-should-change-how-you.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The deduction arrives where it matters most \u2014 at a graveside: a mourner stands by the simple stone in the morning light, flowers laid, and something in the standing has changed \u2014 the shoulders down from grief's clench, t"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b17",
+   "file": "build-134-today-in-paradise/assets/s17-mercy-has-more-room-than.jpeg",
+   "tokens": [
+    "REST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The two things mercy has more of are both visible from one rise: ROOM \u2014 the resting country running wide and green in every direction, meadow past stream past grove, far more of it than any two-door corridor ever allowed"
+  },
+  {
+   "row": 134,
+   "build": "build-134-today-in-paradise",
+   "beat": "v2-r134-b18",
+   "file": "build-134-today-in-paradise/assets/s18-there-is-a-place-still.jpeg",
+   "tokens": [
+    "REST"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "The last fact is the best one, the camera looking across the meadow from the rise, taking the resting country from the side: through the soft morning a scatter of figures rests easy in the green \u2014 seated by the stream, w"
   },
   {
    "row": 136,
