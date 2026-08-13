@@ -205,7 +205,30 @@ for line in open(f'{V2}/AUTHOR-BOARD.md'):
         rows.append((int(m.group(1)), m.group(2), m.group(3), m.group(4),
                      m.group(5), m.group(6)))
 
+# CHURN COOLDOWN (2026-08-13): a (job,row) pair that finished a session in the
+# last 25 min is skipped — the ship needs CDN + review-sync time to become
+# visible, and re-firing meanwhile burns a whole session on already-done work.
+cooled = set()
+_now = time.time()
+try:
+    for _f in os.listdir(f'{V2}/.autopilot-lanes'):
+        if _f.startswith('cool-'):
+            _p = f'{V2}/.autopilot-lanes/{_f}'
+            try:
+                if _now - os.path.getmtime(_p) < 1500:
+                    _parts = _f.split('-', 2)   # cool-<job>-<row>
+                    if len(_parts) == 3:
+                        cooled.add((_parts[1], _parts[2]))
+                else:
+                    os.remove(_p)
+            except OSError:
+                pass
+except OSError:
+    pass
+
 def emit(job, row):
+    if (job, str(row)) in cooled:
+        return  # cooling down — fall through to the next candidate
     print(job, row)
     raise SystemExit
 
@@ -321,11 +344,10 @@ esac
 # escalate that row to the default model (Fable) so one smart pass ends the
 # loop instead of a 3rd/4th/16th cheap failure.
 if [ ${#MODEL_ARGS[@]} -gt 0 ]; then
-  # NOTE the || true inside the pipeline: with pipefail, a no-match grep exits
-  # nonzero and would kill the whole tick under set -e (caught 2026-08-13
-  # before it bit a live tick — billing-down had masked it all night).
-  TRIES=$(find "$LOGDIR" -maxdepth 1 -name "2*-$JOB.log" -mmin -1440 -print0 2>/dev/null \
-    | { xargs -0 -r grep -l "AUTHOR-BOARD row $ROW\b" 2>/dev/null || true; } | wc -l)
+  # Counts by log FILENAME (2026-08-13 fix): logs hold session output, which
+  # rarely echoes the row number — the old grep-based count was always ~0 and
+  # the escalation silently never fired.
+  TRIES=$(find "$LOGDIR" -maxdepth 1 -name "2*-$JOB-r$ROW.log" -mmin -1440 2>/dev/null | wc -l)
   if [ "${TRIES:-0}" -ge 2 ]; then
     log "row $ROW has $TRIES prior $JOB sessions in 24h — escalating this run from Opus to the default (Fable) model"
     MODEL_ARGS=()
@@ -355,9 +377,16 @@ if [ "$DRY" -eq 1 ]; then
   exit 0
 fi
 
-log "tick: starting $JOB session (row $ROW) → $LOGDIR/$TS-$JOB.log"
+# Row in the log filename (2026-08-13): the escalation counter and the churn
+# cooldown both key on it — session OUTPUT can't be trusted to echo the row.
+log "tick: starting $JOB session (row $ROW) → $LOGDIR/$TS-$JOB-r$ROW.log"
 timeout 7200 claude -p "$PROMPT" \
   --dangerously-skip-permissions \
   "${MODEL_ARGS[@]}" \
-  > "$LOGDIR/$TS-$JOB.log" 2>&1 || log "run $TS-$JOB exited nonzero ($?) — see its log"
-log "tick done: $TS-$JOB"
+  > "$LOGDIR/$TS-$JOB-r$ROW.log" 2>&1 || log "run $TS-$JOB-r$ROW exited nonzero ($?) — see its log"
+# CHURN COOLDOWN (2026-08-13): a shipped fix takes minutes to appear on the
+# CDN + review sync; without this, the next 5-min tick re-fires the SAME row
+# (rows 95/147/135 each burned 3 sessions tonight, zero new complaints filed).
+# The picker skips a (job,row) pair for 25 min after a session completes.
+touch "$LOCKDIR/cool-$JOB-$ROW"
+log "tick done: $TS-$JOB-r$ROW"
