@@ -54,3 +54,64 @@ wording, timing.
 **Row is buildable.** 0 stills, so per the audio-fix protocol the board is flipped to
 **AUTHORED / Audio OK / Ready ✅**; a picture runner generates the stills then runs
 `v2_assemble.py 139` → AUDIO REBUILD PASS and ships the full cut on this fixed audio.
+
+---
+
+## ✅ V2 REALISTIC FIRST CUT SHIPPED — Opus runner, Machine A `Dev`, 2026-08-13 (headless)
+
+**COMPLAINT LEDGER: none open.** `v2_outline.py 139` shows no filed complaint on
+this row — this is a first realistic-v2 cut of a row whose only prior asset was
+the 2026-07-17 ASSEMBLY-B (7 W1 stills). Nothing to answer; nothing to regress.
+
+**Build:** 10 realistic stills @ native 2K (1536×2752). No portraits needed
+(Jesus via the global V2 master ref on b01/b02/b06/b09; CROWD/HILLSIDE/LAMPHOUSE/
+HILLTOWN are group/place text-locks). No place plates promoted — the shared 121
+HILLSIDE/HILLTOWN plates both contain Jesus (never auto-wire a Jesus-bearing
+frame, RUNNER-LESSONS lesson 11/126), and LAMPHOUSE's 3 beats carry fine on lock
+text; PLACE_REFS stayed empty as authored.
+
+**Rerolls: 0/10 = 0%** (COST LAW: far under the 15% budget). Every beat landed
+clean first-pass — no missing subject, no second cream figure, no modern object,
+no letterbox, no giant, no lens-stare, anatomy clean.
+
+**FULL-CUT GATE (one frame per beat from the RENDERED mp4 + card): 10/10 + card PASS.**
+- Jesus ONE locked face b01/b02/b06/b09 — warm Middle-Eastern, dark wavy hair,
+  full beard, ref-true calm eyes (green/hazel, NOT brown-edited — rubric lesson 20),
+  cream robe ONLY on Jesus, no halo/glow/rim-light, ordinary scale among the
+  seated crowd (SCALE GATE pass).
+- LIGHT LAW (doubly binding on a light row) held: every light PHYSICAL — sun
+  (b01/b02/b06/b09), clay-lamp flame (b04/b05/b07/b08/b10), dusk windows (b03).
+  No light effect ON any person; b09's golden-hour backhaze is general
+  atmosphere, NOT a head-rim-light (his head sits against the hillside, not the
+  bright sky).
+- Anti-vanity pair correct: b07 giver's eyes on the task, already turning away,
+  nobody watching; b08 widow's gaze travels UP PAST the departing helper to an
+  EMPTY evening sky (nothing supernatural in it).
+- b03 hilltown = intentional dusk, warm windows pricking on, no people
+  distinguishable. b10 close = a careful hand placing the lit lamp deliberately.
+- Realistic photography throughout (Law 14 — no cartoon/mix). Facing-away crowd
+  figures (b01/b09 foreground backs) are CORRECT, not owl-necked (lesson 21).
+- **CAPTIONS pixel-verified:** narrator WHITE (n0/n1/n2/n3), Jesus KJV lines RED
+  (j1=Matt 5:14, j2=Matt 5:15, j3=Matt 5:16), NO green (no God-voice this row —
+  the Father is only referenced, never speaks). Captions bottom-band only.
+  Question card clean cream serif ("You were made to be seen for good. Let it
+  shine."), no tofu/code-fault.
+- DROP-CHECK: segs/concat_base.txt = 10 clips == 10 BEATS (row-173 last-beat-drop
+  risk cleared); video 55.13s ≈ audio 55.11s.
+
+**FIX-WAVE (non-blocking, deliberately NOT rerolled):** (1) the two household
+children in b04/b05 render lighter/dishwater hair vs Middle-Eastern dark — soft
+historical-coherence variance, not a filed complaint class, not garbage-tier.
+(2) b05 stages the lit lamp on a low stool rather than the tall wooden stand of
+b04 — still elevated and serving the room, bushel visibly idle; minor. (3) b09
+strong golden-hour backhaze (verified NOT a halo). None warrant a reroll on a
+0-complaint first cut.
+
+**Audio:** AUDIO_FROM_V1_SEGMENTS=True (audio-lane STALE-V1 fix, 2026-08-11) —
+track rebuilt byte-consistent from the 8 V1-dir segment mp3s at extract_beats
+offsets, nothing re-voiced/re-timed. **AUDIO REBUILD PASS
+SHA256=27deb09af4c3fcd4ecf0c60df5f21c9c01866a2ec3510b04fe624b06985078b2**,
+55.109s, 19.5 MB.
+
+**Cost: $1.34/row, 0% rerolls** — well under the $6.10 / 19% running average
+(COST LAW downward trend holds; 10/10 clean first-pass, no portraits, no plates).
