@@ -169,7 +169,7 @@ SESSION-LOG 2026-08-05. **Claim** and **Ready** are the only hand-edited columns
 | 155 | build-155-falling-away | NEEDS-AUDIO | 0 | OK | 🅿️ RUNNER PARK 2026-08-13 (A `Dev`, $0 pre-flight, no stills): STALE-V1 (row-147 class) — durations match (~136.9s) but 11/11 V1-dir mp3s NEWER than the mp4 (new-voice re-record) → AUDIO LOCK newer-mp3 tripwire refuses. FIX (audio lane): voice-ID mp3s, set `AUDIO_FROM_V1_SEGMENTS=True`, hand back State→AUTHORED + Ready ✅ (0 stills). | ✅ |
 | 156 | build-156-famine-of-hearing | NEEDS-AUDIO | 0 | OK | 🅿️ RUNNER PARK 2026-08-13 (A `Dev`, $0 pre-flight, no stills): STALE-V1 (row-147 class) — durations match (~137.0s) but 11/11 V1-dir mp3s NEWER than the mp4 (new-voice re-record) → AUDIO LOCK newer-mp3 tripwire refuses. FIX (audio lane): voice-ID mp3s, set `AUDIO_FROM_V1_SEGMENTS=True`, hand back State→AUTHORED + Ready ✅ (0 stills). | ✅ |
 | 157 | build-157-marvellous-work | NEEDS-AUDIO | 0 | OK | 🅿️ RUNNER PARK 2026-08-13 (A `Dev`, $0 pre-flight, no stills): STALE-V1 (row-141 class) — V1 mp4 stale 209.8s vs current timeline 173.9s (+35.8s) AND 13/13 V1-dir mp3s NEWER than the mp4 (both tripwires fire). FIX (audio lane): voice-ID mp3s, set `AUDIO_FROM_V1_SEGMENTS=True`, hand back State→AUTHORED + Ready ✅ (0 stills). | ✅ |
-| 158 | build-158-two-sticks | AUTHORED | 0 | OK |  | ✅ |
+| 158 | build-158-two-sticks | RUNNING | 0 | OK | A-auto 2026-08-13 (Opus runner, Machine A `Dev`, headless) — buildable (audio pre-flight PASS newer=0, diff 0.0), no open complaint; building 22 realistic-v2 stills | ✅ |
 | 159 | build-159-other-sheep | AUTHORED | 0 | OK |  | ✅ |
 | 160 | build-160-stone-cut | AUTHORED | 0 | OK |  | ✅ |
 | 161 | build-161-called-of-god | AUTHORED | 0 | OK |  | ✅ |
