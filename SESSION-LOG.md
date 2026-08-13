@@ -10,7 +10,7 @@ Session-chain verified at start: prior top entry row 136 healed-in-two-touches Q
   - **No open complaint on this row (`v2_outline.py 142` / `.approvals.json` complaint:null) → nothing to regress.**
 - **Outcome:** clean row verified, **NO re-cut** ($0/0 gens — a clean row is not touched). Board Claim → **QC-OK 2026-08-13**; build QC.md carries the verify note. Cut stands as shipped; Appr stays ⬜ (Cameron's alone).
 
-Commit: `261b73285` (board QC-OK + build QC.md verify note; no mp4/art change) + SESSION-LOG below
+Commit: `04acda104` (board QC-OK + build QC.md verify note; no mp4/art change) + SESSION-LOG below
 
 ---
 
