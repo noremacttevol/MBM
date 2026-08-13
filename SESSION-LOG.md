@@ -1,3 +1,32 @@
+## 2026-08-06 (interactive) — Posting tracker: all 200 rows, ✓ approved check, live WEB chip — DEPLOYED — Machine A `Dev`
+
+**Commit:** `(this commit)`
+
+**Cameron's order:** the Posting tracker must show ALL 200 stories (number + name always
+there), a ✓ check that lights when he approves one, and a WEB chip that lights when the
+website has the video and links straight to it, so he can verify everything is on there.
+
+**What changed (site/review.html, tracker section + renderTracker only; Firestore doc
+shapes and toggleSocial untouched):**
+- Tracker now lists every story (200 rows, numeric order) instead of only approved ones.
+- New ✓ chip per row — lit green only when the CURRENT cut carries Cameron's approval
+  (`approved && approvedHash === data-hash`), display-only.
+- New WEB chip — truth-driven, not hand-set: on load the page fetches the live
+  `/stories.html` (same origin, no-store) and lights WEB only for story numbers actually
+  linked there (`data-video="/story-videos/N.mp4"`); a lit WEB is an <a> straight to
+  that video on the website. Fetch failure = dim chips titled "could not check".
+- Bars now read Approved / Website / In the app / YT / IG / TT / FB, all out of 200.
+- Tapping a story name jumps to (and opens) its review card, opening any collapsed
+  section it sits in.
+- Verified LIVE on https://milk-b4-meat.web.app/review.html after
+  `firebase deploy --only hosting`: 200 rows, ✓ lit on 122, WEB lit on 116, name-jump
+  works, no console errors, still zero preloaded <video> elements.
+
+**Found by the new chip — 6 APPROVED videos the website does NOT serve:** rows 89
+(Last Supper), 94 (Father Forgive Them), 129 (Nazareth Only a Few), 137 (One As We Are
+One), 141 (Bread of Life), 151 (If Any Lack Wisdom). App has them; website is behind.
+Spawned a follow-up task chip to publish them through the audit_public_videos gate.
+
 ## 2026-08-13 (cont. 100) — ROW 117 hosea-buys-her-back: AUDIO-domain complaint ROUTED to the audio lane (NEEDS-AUDIO), pictures untouched — Machine A `Dev`, Opus runner (unattended/headless)
 
 **Complaint-first + low-number dispatch to AUTHOR-BOARD row 117** (lowest waiting row with an OPEN complaint). Read PROMPT-OPUS-RUNNER laws + `v2_outline.py 117` first (LEARNING LAW).

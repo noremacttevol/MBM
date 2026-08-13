@@ -83,17 +83,20 @@
   .tbar.tapp .tfill { background: #2b5c7a; }
   .tbar .tnum { width: 62px; text-align: right; color: #8ab; flex: none;
                 font-variant-numeric: tabular-nums; }
-  .trow { display: flex; align-items: center; gap: 6px; padding: 6px 6px;
+  .trow { display: flex; align-items: center; gap: 4px; padding: 6px 4px;
           border-bottom: 1px solid #1e1e24; font-size: 13px; }
   .trow .tname { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis;
-                 white-space: nowrap; color: #cdd; }
-  .chip { flex: none; cursor: pointer; user-select: none; font-size: 12px; font-weight: 700;
-          border-radius: 7px; padding: 6px 8px; background: #1b1b22; color: #667;
-          border: 1px solid #2a2a30; }
+                 white-space: nowrap; color: #cdd; cursor: pointer; }
+  .trow .tname:hover { color: #fff; }
+  .chip { flex: none; cursor: pointer; user-select: none; font-size: 11px; font-weight: 700;
+          border-radius: 7px; padding: 5px 6px; background: #1b1b22; color: #667;
+          border: 1px solid #2a2a30; text-decoration: none; }
   .chip.on { background: #1f5a26; color: #eafce2; border-color: #2e5a24; }
   .chip.app { cursor: default; }
   .chip.app.on { background: #1d3a52; color: #cfe8fa; border-color: #2b5c7a; }
   .chip.dis { cursor: default; color: #383840; border-color: #202026; background: #141419; }
+  .chip.ok { cursor: default; }
+  .chip.web.on { background: #3a2c10; color: #f5d98a; border-color: #6a5a1e; }
 </style>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
@@ -128,13 +131,16 @@
   <details><summary id="ah">✅ Approved</summary><div id="approved"></div></details>
 
   <h2 id="trkh">📣 Posting tracker — live</h2>
-  <p class="secnote">Every approved video and where it is: the <b>App</b>, then
-  <b>YT</b> YouTube, <b>IG</b> Instagram, <b>TT</b> TikTok, <b>FB</b> Facebook.
-  Tap a chip the moment you post a video there — it saves instantly and shows on
-  every device. The App chip is set automatically from the publish records.
-  Instagram takes every length now (Reels allow up to 20 minutes — verified
-  2026-08-07; over-3:00 Reels reach mostly your followers, post them anyway).
-  A video joins this list by itself the moment you approve it.</p>
+  <p class="secnote">All 200 stories, number and name always listed. <b>✓</b> lights
+  the moment you approve a video. <b>WEB</b> lights when the website actually
+  serves it (checked live against the site's stories page) — tap a lit WEB to
+  open that video on the website. <b>App</b> is set automatically from the
+  publish records. <b>YT</b> YouTube, <b>IG</b> Instagram, <b>TT</b> TikTok,
+  <b>FB</b> Facebook — tap a chip the moment you post it there; it saves
+  instantly and shows on every device. Instagram takes every length now (Reels
+  allow up to 20 minutes — verified 2026-08-07; over-3:00 Reels reach mostly
+  your followers, post them anyway). Tap a story's name to jump to its review
+  card above.</p>
   <div id="trkbars"></div>
   <div id="trkrows"></div>
 
@@ -1919,43 +1925,52 @@ function place(){
   renderTracker();
 }
 
-/* ---- posting tracker: live board of every approved video x destination ---- */
+/* ---- posting tracker: live board of ALL stories x destination ---- */
+var WEBSET=null;  /* story numbers the live website actually serves; null until checked */
+function loadWebSet(){
+  fetch('/stories.html', {cache:'no-store'}).then(function(r){
+    if(!r.ok) throw new Error(r.status);
+    return r.text();
+  }).then(function(t){
+    var s=new Set(), re=/data-video="\/story-videos\/(\d+)\.mp4"/g, m;
+    while((m=re.exec(t))) s.add(+m[1]);
+    WEBSET=s; renderTracker();
+  }).catch(function(){ WEBSET=null; renderTracker(); });
+}
 function renderTracker(){
   var rowsEl=byId('trkrows'), barsEl=byId('trkbars');
   if(!rowsEl || !barsEl) return;
   var items=[];
   document.querySelectorAll('.card').forEach(function(card){
     var num=card.dataset.num, hash=card.dataset.hash, d=STATE[num]||{};
-    if(!(d.approved && d.approvedHash===hash && card.dataset.reviewWave==='realistic-v2')) return;
     var t=card.querySelector('.title');
     var name=t && t.childNodes[0] ? t.childNodes[0].textContent : ('#'+num);
-    var meta=t && t.querySelector('.meta') ? t.querySelector('.meta').textContent : '';
-    var m=meta.match(/(\d+):(\d\d)\s*$/);
-    var secs=m ? (+m[1])*60+(+m[2]) : 0;
-    items.push({num:+num, name:name, secs:secs, s:d.social||{}});
+    items.push({num:+num, name:name,
+      approved: !!(d.approved && d.approvedHash===hash),
+      web: !!(WEBSET && WEBSET.has(+num)),
+      s:d.social||{}});
   });
   items.sort(function(a,z){ return a.num-z.num; });
-  if(!items.length){
-    barsEl.innerHTML=''; rowsEl.innerHTML='<p class="secnote">Connecting… (the board fills in once your saved decisions load)</p>';
-    return;
-  }
-  /* IG takes all lengths now (20-min Reels, 2026-08-07) — every video counts */
-  var igTotal=items.length, n={app:0, yt:0, ig:0, tt:0, fb:0};
+  var total=items.length, n={ok:0, web:0, app:0, yt:0, ig:0, tt:0, fb:0};
   items.forEach(function(it){
+    if(it.approved) n.ok++;
+    if(it.web) n.web++;
     ['app','yt','ig','tt','fb'].forEach(function(k){ if(it.s[k]) n[k]++; });
   });
-  function bar(lab, cls, done, total){
+  function bar(lab, cls, done){
     var pct = total ? Math.round(done*100/total) : 0;
     return '<div class="tbar '+cls+'"><span class="tlab">'+lab+'</span>'
       + '<span class="ttrack"><span class="tfill" style="width:'+pct+'%"></span></span>'
       + '<span class="tnum">'+done+' / '+total+'</span></div>';
   }
   barsEl.innerHTML =
-      bar('In the app','tapp', n.app, items.length)
-    + bar('YouTube','', n.yt, items.length)
-    + bar('Instagram','', n.ig, igTotal)
-    + bar('TikTok','', n.tt, items.length)
-    + bar('Facebook','', n.fb, items.length);
+      bar('Approved','', n.ok)
+    + bar('Website','', WEBSET?n.web:0)
+    + bar('In the app','tapp', n.app)
+    + bar('YouTube','', n.yt)
+    + bar('Instagram','', n.ig)
+    + bar('TikTok','', n.tt)
+    + bar('Facebook','', n.fb);
   var h='';
   items.forEach(function(it){
     function chip(k, lab){
@@ -1964,10 +1979,23 @@ function renderTracker(){
         return '<span class="chip app'+(on?' on':'')+'" title="set automatically from the publish records">App</span>';
       return '<span class="chip'+(on?' on':'')+'" onclick="toggleSocial(\''+it.num+'\',\''+k+'\')">'+lab+'</span>';
     }
-    h += '<div class="trow"><span class="tname">'+esc(it.name)+'</span>'
+    var ok = it.approved
+      ? '<span class="chip ok on" title="you approved this cut">✓</span>'
+      : '<span class="chip ok dis" title="not approved yet">✓</span>';
+    var web = it.web
+      ? '<a class="chip web on" href="/story-videos/'+it.num+'.mp4" target="_blank" rel="noopener" title="on the website — tap to open it there">WEB</a>'
+      : '<span class="chip dis" title="'+(WEBSET?'not on the website yet':'could not check the website')+'">WEB</span>';
+    h += '<div class="trow"><span class="tname" onclick="jumpTo('+it.num+')">'+esc(it.name)+'</span>'
+       + ok + web
        + chip('app','App')+chip('yt','YT')+chip('ig','IG')+chip('tt','TT')+chip('fb','FB')+'</div>';
   });
   rowsEl.innerHTML=h;
+}
+function jumpTo(num){
+  var card=byId('v'+num); if(!card) return;
+  var det=card.closest('details'); if(det) det.open=true;
+  if(!card.classList.contains('open')) toggleCard(String(num));
+  card.scrollIntoView({block:'start', behavior:'smooth'});
 }
 function toggleSocial(num, key){
   if(!ready){ alert("Still connecting — give it a second, then tap again."); return; }
@@ -2016,6 +2044,7 @@ function saveComplaint(num){
 }
 
 place();  // show everything immediately, before the cloud loads
+loadWebSet();  // light the WEB chips from what the live site actually serves
 
 try {
   firebase.initializeApp(CFG);
