@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 05:02:14",
+ "scanned": "2026-08-13 05:14:46",
  "entries": [
   {
    "row": 1,
@@ -56140,6 +56140,353 @@
    "night": false,
    "n_person": 0,
    "scene": "The last frame is addressed to whoever is watching: close on the empty kneeling-place in the clearing's warm morning light \u2014 the soft pressed ground, the quiet, the ready light through the young leaves \u2014 everything prepa"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b01",
+   "file": "build-161-called-of-god/assets/s01-in-ancient-israel-one-man.jpeg",
+   "tokens": [
+    "PRIEST",
+    "TABERNACLE",
+    "PEOPLE"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "One man's place in the world, drawn as a map: the camera stands at the court's entry with the people's backs nearest the lens, every gaze travelling away up the frame to where the high priest stands alone on the open san"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b02",
+   "file": "build-161-called-of-god/assets/s02-the-high-priest-carried-their.jpeg",
+   "tokens": [
+    "PRIEST",
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The office is a walk made over and over: the high priest crosses the court's sand toward the bronze altar with the people's offering held in both careful hands \u2014 carrying what is theirs up to God, to carry what is God's "
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b03",
+   "file": "build-161-called-of-god/assets/s03-it-was-the-most-sacred.jpeg",
+   "tokens": [
+    "PRIEST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What the office weighs is written on the chest that bears it: close on the square breastplate riding over the sky-blue robe \u2014 twelve stones in their gold settings, each a tribe, the gold thread dulled by handling and yea"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b04",
+   "file": "build-161-called-of-god/assets/s04-for-every-high-priest-taken.jpeg",
+   "tokens": [
+    "PRIEST",
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verse shows the job being done: at the bronze altar the high priest lifts the people's gift onto the grate, forearms bare to the work, a thin line of smoke leaning into the desert sky above the coals \u2014 gifts and sacr"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b05",
+   "file": "build-161-called-of-god/assets/s05-and-here-is-a-tender.jpeg",
+   "tokens": [
+    "PRIEST"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Under the office, a face: close on the high priest with the jewelled weight of the breastplate falling soft below the frame's attention \u2014 deep-lined skin, an iron-grey beard, and eyes that are tired the way only kind men"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b06",
+   "file": "build-161-called-of-god/assets/s06-he-was-a-weak-man.jpeg",
+   "tokens": [
+    "PRIEST",
+    "PEOPLE",
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Weakness understanding weakness: at the court's edge a man holds out his small offering with his head down, shame folded into his shoulders \u2014 and the high priest receives it with one hand while the other settles on the m"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b07",
+   "file": "build-161-called-of-god/assets/s07-he-was-one-of-the.jpeg",
+   "tokens": [
+    "PRIEST",
+    "PEOPLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Where he stands when the work is done: in among the people at the court's hangings, shoulder to shoulder with herdsmen and grandmothers and a child leaning on its father \u2014 the blue robe and breastplate the only differenc"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b08",
+   "file": "build-161-called-of-god/assets/s08-but-an-office-that-holy.jpeg",
+   "tokens": [
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What cannot be taken is shown untouched: on a plain wooden stand in the open court the office waits \u2014 the sky-blue robe hung straight, the jewelled breastplate resting against it, the gold thread quiet in the morning lig"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b09",
+   "file": "build-161-called-of-god/assets/s09-you-cannot-hand-this-to.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The only posture the office answers to: two empty hands held open, palms up, in the warm morning light \u2014 a working man's hands, creased and ready, holding nothing at all \u2014 not reaching, not closing, just waiting the way "
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b10",
+   "file": "build-161-called-of-god/assets/s10-and-no-man-taketh-this.jpeg",
+   "tokens": [
+    "AARON",
+    "MOSES",
+    "PEOPLE",
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The verse arrives as a pointing arm: Moses stands before the assembly in his madder-red robe with one arm extended, not to the eager or the impressive but into the middle of the crowd \u2014 to Aaron, black-bearded, bare-head"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b11",
+   "file": "build-161-called-of-god/assets/s11-think-of-how-aaron-became.jpeg",
+   "tokens": [
+    "AARON",
+    "PEOPLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The man the call found was not campaigning: Aaron stands where he has always stood, in among his neighbours, hands hanging quiet at his sides, dove-grey wool unremarkable in the crowd's browns and olives \u2014 the faces arou"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b12",
+   "file": "build-161-called-of-god/assets/s12-god-named-him-and-moses.jpeg",
+   "tokens": [
+    "AARON",
+    "MOSES",
+    "PEOPLE",
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Set apart is a short walk in front of everyone: Moses's weathered hand closes gentle and certain around Aaron's forearm and draws him out of the crowd's edge into the open centre of the court \u2014 Aaron coming half a step b"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b13",
+   "file": "build-161-called-of-god/assets/s13-the-honour-came-down-to.jpeg",
+   "tokens": [
+    "AARON"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "How a man stands under an arriving honour: Aaron alone in the frame with his bare black-haired head just beginning to bow, his hands open at his sides with the palms turned slightly forward \u2014 the posture of a man letting"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b14",
+   "file": "build-161-called-of-god/assets/s14-and-notice-how-it-was.jpeg",
+   "tokens": [
+    "AARON",
+    "MOSES",
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The way authority actually moves: Aaron kneels bowed in the open court and Moses stands over him with both weathered hands laid flat on the bare black hair of his head \u2014 not hovering, LAID, the full warm weight of them \u2014"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b15",
+   "file": "build-161-called-of-god/assets/s15-the-authority-passed-by-touch.jpeg",
+   "tokens": [
+    "AARON",
+    "MOSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Close enough to see what passes: Moses's hands, eighty years old and steady, resting with their whole gentle weight on the bowed black hair of a younger man's bare head \u2014 aged skin over dark hair, blessing moving the onl"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b16",
+   "file": "build-161-called-of-god/assets/s16-then-the-holy-oil-was.jpeg",
+   "tokens": [
+    "AARON",
+    "MOSES",
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The oil goes where the call went, onto the man himself: Moses tips the small anointing horn and the holy oil comes down in a thin bright line onto the bare crown of Aaron's bowed head \u2014 onto black hair, nothing between \u2014"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b17",
+   "file": "build-161-called-of-god/assets/s17-everything-about-that-day-says.jpeg",
+   "tokens": [
+    "AARON",
+    "PEOPLE",
+    "TABERNACLE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "What a given man looks like: Aaron stands risen in the court with the oil still darkening his black hair and running its slow lines into his beard, bare-headed under the desert sky, hands open at his sides the way they w"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b18",
+   "file": "build-161-called-of-god/assets/s18-so-also-christ-glorified-not.jpeg",
+   "tokens": [
+    "QUIET-HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The pattern climbs to its highest case: on the bare hilltop in the silver dawn Jesus kneels with his head bowed and his hands open on his knees \u2014 the exact posture the bare-headed Levite held under Moses's hands \u2014 glorif"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b19",
+   "file": "build-161-called-of-god/assets/s19-thou-art-my-son-today.jpeg",
+   "tokens": [
+    "QUIET-HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The voice that gives the office: Jesus's bowed face lifts on the quiet hilltop as the dawn strengthens \u2014 warm morning light arriving over the whole hill at once, on the rock and the thin grass and the lifted listening fa"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b20",
+   "file": "build-161-called-of-god/assets/s20-even-the-lord-himself-did.jpeg",
+   "tokens": [
+    "QUIET-HILL"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The astonishing part stands quietly in the morning: Jesus on his feet now on the hilltop, the dawn full around him, his head still carrying a little of its bow and his hands open at his sides \u2014 the same open-handed stanc"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b21",
+   "file": "build-161-called-of-god/assets/s21-if-the-son-of-god.jpeg",
+   "tokens": [],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The whole argument fits in two open hands: close on Jesus's palms held upward in the strengthening morning light \u2014 workman's hands, open and empty, asking nothing, seizing nothing \u2014 the same waiting openness an ordinary "
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b22",
+   "file": "build-161-called-of-god/assets/s22-and-that-is-the-quiet.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The pattern, timeless: in a plain warm-lit space an older man stands with both hands laid on the bowed bare head of a younger one \u2014 no court now, no crowd, just the shape itself, the one shape this giving has ever taken "
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b23",
+   "file": "build-161-called-of-god/assets/s23-it-is-not-earned-by.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What it does not take: one ordinary bowed head fills the soft-lit frame \u2014 plain rough wool at the shoulders, workaday hair, nothing anywhere on the man that would impress a committee \u2014 and that is the whole point of him:"
+  },
+  {
+   "row": 161,
+   "build": "build-161-called-of-god",
+   "beat": "v2-r161-b24",
+   "file": "build-161-called-of-god/assets/s24-where-might-god-be-calling.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last frame keeps a place ready: a low wooden stool stands empty in a plain quiet room, and through the open doorway the morning light comes in and lies across it \u2014 across the seat where a person would sit, where a he"
   }
  ]
 }
