@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 09:12:46",
+ "scanned": "2026-08-13 09:24:27",
  "entries": [
   {
    "row": 1,
@@ -56987,6 +56987,146 @@
    "night": true,
    "n_person": 2,
    "scene": "The prayer's last arc gathers everybody it can reach: Jesus's open hand sweeps from the Eleven drowsing warm by the fire, out across the dark valley where the window-lights burn one by one to the horizon \u2014 the same motio"
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b01",
+   "file": "build-139-lamp-on-a-stand/assets/s01-jesus-was-teaching-a-crowd.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The same green pulpit above the lake, the camera looking past the seated crowd's backs up the slope: Jesus seated in the warm gold with the fishermen and mothers and farmers settled thick on the grass around him \u2014 the wi"
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b02",
+   "file": "build-139-lamp-on-a-stand/assets/s02-ye-are-the-light-of.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The biggest name anyone ever gave them arrives in five words: Jesus's open hand rises toward the wide bright afternoon sky \u2014 ye are the LIGHT of the world \u2014 and the fishermen and mothers on the grass blink up into plain "
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b03",
+   "file": "build-139-lamp-on-a-stand/assets/s03-a-city-that-is-set.jpeg",
+   "tokens": [
+    "HILLTOWN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The illustration lights itself every evening on the ridge: dusk comes down blue over the lake country and the hilltop town answers window by window \u2014 warm lamplight pricking on up the stacked stone houses until the whole"
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b04",
+   "file": "build-139-lamp-on-a-stand/assets/s04-you-put-it-up-where.jpeg",
+   "tokens": [
+    "LAMPHOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Common sense runs the household liturgy: the small clay lamp goes up onto its wooden stand \u2014 lifted high, settled firm \u2014 and the one-room house fills to its corners with warm working light: the low table found, the sleep"
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b05",
+   "file": "build-139-lamp-on-a-stand/assets/s05-neither-do-men-light-a.jpeg",
+   "tokens": [
+    "LAMPHOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The verse is a photograph of any sensible evening: the lamp burns high on its stand and every person in the house sits inside its reach \u2014 the grandmother's mending lit, the father's bread, the children's game of stones i"
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b06",
+   "file": "build-139-lamp-on-a-stand/assets/s06-he-told-them-who-they.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Notice the order the sermon runs in: Jesus's hands open toward the crowd in the manner of a man conferring something, not assigning it \u2014 who you ARE, first; what to do, after \u2014 the warm gold light on faces being told the"
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b07",
+   "file": "build-139-lamp-on-a-stand/assets/s07-not-to-be-noticed-he.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The shining he meant looks nothing like a stage: in the lamplit lane a woman sets a wrapped loaf quietly on the widow's doorstep \u2014 eyes on the placing, shawl already gathering for the walk home, gone before any door can "
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b08",
+   "file": "build-139-lamp-on-a-stand/assets/s08-the-point-was-that-people.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Where the seeing was always meant to travel: the widow stands at her opened door with the warm loaf found in her hands, and her eyes go up \u2014 past the small departing figure in the lane, past the rooflines, to the deepeni"
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b09",
+   "file": "build-139-lamp-on-a-stand/assets/s09-let-your-light-so-shine.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "CROWD"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The commission goes out with both arms: Jesus open-armed over the seated crowd in the last warm gold, the charge rolling down the slope \u2014 let it SHINE, so the seeing runs past you to your Father \u2014 and along the grass the"
+  },
+  {
+   "row": 139,
+   "build": "build-139-lamp-on-a-stand",
+   "beat": "v2-r139-b10",
+   "file": "build-139-lamp-on-a-stand/assets/s10-you-were-lit-on-purpose.jpeg",
+   "tokens": [
+    "LAMPHOUSE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last frame is the whole sermon in one careful motion: a hand carries the lit clay lamp up to the wooden stand and PLACES it \u2014 unhurried, exact, settling the base true and withdrawing slow so the flame stands steady \u2014"
   },
   {
    "row": 140,
