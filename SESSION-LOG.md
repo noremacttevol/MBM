@@ -9,7 +9,7 @@ AUTHOR-BOARD row 200 (Matthew 24:14, the Great-Commission promise on the Mount o
 - **Ship:** commit A `adad305c66e0` (mp4 force-added, QC.md ship note+COMPLAINT LEDGER, beats_v2 PLACE_REFS, PLACE-WIRING.json, AUTHOR-BOARD→BUILT, QUEUE V2 SHIPPED note). Card commit B (reviewer card v200 → media-production-v2 mp4, data-review-wave=realistic-v2, data-hash `adad305c66e0…`, ?v=adad305c66e0, flag answers the wrong-audio complaint in Cameron's terms + STASH-INDEX rescan 4045 stills). Deployed to Firebase + LIVE-VERIFIED (below). Appr stays ⬜ (Cameron's alone); complaint stays OPEN until he approves.
 - **Cost:** $1.87/row, 0 rerolls (0%) — both well under the $6.10 / 19% running average (COST LAW downward trend holds). **This is the last authored row of the 200 to receive its first realistic-V2 cut.**
 
-Commit: ADAD305C_A (ship) · CARDB_BELOW (card) · LOG COMMIT BELOW
+Commit: adad305c66e0255113509585166ff399f203bb89 (ship row package + mp4) · 89dc410dddb8b9aeda4dd5d0fb3c9de292389515 (reviewer card + SESSION-LOG, live-verified) · c476c19b2 (publish-loop board refresh)
 
 ---
 
