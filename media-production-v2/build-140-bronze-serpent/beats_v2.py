@@ -434,7 +434,7 @@ BEATS = [
     {
         "id": "v2-r140-b17", "out": "s17-lifted-on-a-pole.jpeg", "seg": "n5",
         "window": "88.90-94.25", "wide": True, "jesus": False, "ref": False,
-        "locks": ["SERPENT-POLE", "WILDERNESS-CAMP"],
+        "locks": ["MOSES", "SERPENT-POLE", "WILDERNESS-CAMP"],
         "narration": "and one thing left to do — look.",
         "must_show": "THE ANCHOR: the bronze serpent-pole raised upright in the middle of the camp at first light, Moses steadying its base, the plain straight pole with the bronze serpent at top reading as a clear CROSS-FORM against a clean dawn sky; a few stricken people at its foot beginning to lift their faces.",
         "must_not_show": "no halo, glow or rim-light; the pole is bare and plain so the silhouette reads as a cross; no divine figure; the serpent is bronze, never alive; not cartoon.",

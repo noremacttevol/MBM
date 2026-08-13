@@ -1,5 +1,38 @@
 # QC / RUNNER HANDOFF — build-140-bronze-serpent (Numbers 21:4-9 + John 3:14-15)
 
+## ✅ AUTHOR-FIX DONE — 2026-08-13 (A `Dev`, Fable-5 author lane, $0 image spend) — b17 BLOCK CLEARED, back on the RUNNER
+
+The 🅿️ RUNNER PARK below (b17 identity block) is **RESOLVED at the author level**:
+- **Root cause fixed:** added `"MOSES"` to b17's `locks` in `beats_v2.py` (was
+  `["SERPENT-POLE","WILDERNESS-CAMP"]`, now `["MOSES","SERPENT-POLE","WILDERNESS-CAMP"]`).
+  The char ref attaches by `locks` token — b17 is now symmetric with the working
+  Moses beats (b03/b11/b13/b15), so `moses.jpeg` will attach on the regen. The
+  prose "MOSES LOCK:" now appears in b17's ASSEMBLED prompt. `--check` PASS (24 beats).
+- **`assets/s17-lifted-on-a-pole.jpeg` DELETED (git rm).** This is the ONLY frame
+  removed — so the runner's `v2_gen_api` resume regenerates **exactly b17** (missing
+  frame) and SKIPS the 23 banked-good frames (COST LAW / touch-once). Do NOT
+  regen the 23 good frames.
+
+### RUNNER — do this (row is AUTHORED + Ready ✅, complaint-first):
+1. `python3 media-production-v2/v2_gen_api.py build-140-bronze-serpent` (resume —
+   it fills only the missing s17 with the MOSES ref attached). Budget ≈$0.13, 1 frame.
+2. **WATCH b17 in the FULL-CUT GATE:** Moses on the hero frame must be the OLD
+   white-haired, full-white-bearded canonical man (matches s03/s11/s12/s13/s14),
+   NOT a young brown-bearded man. **Caveat:** the `SERPENT-POLE` plate was
+   `--promote`d from the OLD bad s17, so it carries the young Moses as its
+   rough-draft. If that young Moses bleeds through the regen, reroll s17, then
+   `v2_stash.py --promote build-140-bronze-serpent SERPENT-POLE s17-lifted-on-a-pole.jpeg`
+   from the CORRECTED frame so b18/b20/b22/b23/b24 keep a clean pole (they do NOT
+   need regen — their pole is fine and Moses isn't their subject).
+3. `v2_assemble.py 140` (AUDIO LOCK from the V1 segment mp3s in
+   `media-production/build-140-bronze-serpent/audio/`) → FULL-CUT GATE → ship
+   (7a/b/c) → live-verify → **RESOLVE the Naaman-dupe complaint** (open→false,
+   resolvedBy = ship hash; the Bronze Serpent replaces Naaman — review card carries
+   the COMPLAINT LEDGER framing below). Then publish_ledger sync.
+
+---
+
+
 ## ✅ AUTHORED FRESH — Ready for the runner (2026-08-13, Machine A `Dev`, Fable-5 author lane, $0 image spend)
 
 Row 140's story was REPLACED per Cameron (the archived Naaman package carried a
@@ -68,7 +101,7 @@ chose to explain his cross (John 3:14). `--check` PASSES (24 beats, zero WARNs);
 board → `v2_assemble.py` (AUDIO LOCK from the V1 segment mp3s) → ship. Reroll
 budget ≤15% of 24 beats (≈3). Touch once.
 
-## 🅿️ RUNNER PARK → NEEDS-REBUILD 2026-08-13 (A `Dev`, Opus runner, headless) — 1 AUTHORING BLOCK on b17
+## ✅ RESOLVED 2026-08-13 (author lane) — RUNNER PARK → was NEEDS-REBUILD — 1 AUTHORING BLOCK on b17 (kept for provenance; see AUTHOR-FIX DONE at top)
 
 **Status: all 24 stills GENERATED and FULL-CUT-QC'd (0 rerolls, ~$3.48, meter
 624.71→632.88). 23/24 pass. ONE frame BLOCKS the ship and the fix is an AUTHOR
