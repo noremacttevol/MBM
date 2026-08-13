@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T05:22:58_
+_Last sync: 2026-08-13T05:33:29_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 65 row(s)
+- **BUILDING** — 64 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 10 row(s)
+- **ON REVIEWER — awaiting Cameron** — 11 row(s)
 
 ## The rows
 
@@ -191,7 +191,7 @@ _Last sync: 2026-08-13T05:22:58_
 | 168 | Born of Water and of the Spirit | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 169 | To Fulfil All Righteousness | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 170 | The Sacrament, Worthily | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 171 | Baptized For the Dead | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 171 | Baptized For the Dead | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 172 | Gospel Preached to the Dead | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 173 | Dead Shall Hear | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 174 | Hearts of the Fathers | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
