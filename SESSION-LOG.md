@@ -1,3 +1,17 @@
+## 2026-08-13 (AUDIO-FIX lane, unattended/headless) — Rows 155 / 156 / 157 STALE-V1 cleared, all handed to picture runner AUTHORED — Machine A `Dev`, $0
+
+**Commit:** `4f95704b9` (row 157 done→AUTHORED); rows 155/156 shipped in `2d77f05c5` / `fcc8a99ca`; this log entry follows.
+
+THE LOW-NUMBER LAW ran the audio lane down every remaining NEEDS-AUDIO row, lowest first. All three were the SAME class — STALE-V1: the V1 mp4 (old-voice or stale-longer) predates the build's own re-recorded ElevenLabs mp3s, so `v2_assemble`'s AUDIO LOCK / STALE-V1-FINAL guard refused the packet-copy. None had any V2 stills, so per PROMPT-AUDIO-FIX step 5 the deliverable was a $0 hand-off to the picture runner, not a shipped cut.
+
+- **Row 155 falling-away (row-147 class):** voice-ID'd all 11 V1-dir mp3s = 44100/128k ElevenLabs new-voice (audio-eleven.log confirms all 11 cast). Set `AUDIO_FROM_V1_SEGMENTS = True`. Timeline reads 123.1s clean; assemble now clears the audio lock and stops only at missing stills.
+- **Row 156 famine-of-hearing (row-147 class):** all 11 mp3s ElevenLabs new-voice (incl. kv11/kv12 [god]); flag set; timeline 122.6s clean. The log's "undecided homograph 'does'" notes are pre-existing render notes, NOT a Cameron complaint — left untouched.
+- **Row 157 marvellous-work (row-141 class, BOTH tripwires):** V1 mp4 stale-longer (209.8s vs ~159-174s current timeline = carrying deleted segments) AND all 13 mp3s newer. All 13 ElevenLabs new-voice; flag set so the rebuild uses the mp3s and never touches the stale mp4; timeline 159.3s / 28 phrases clean.
+
+**COST:** $0 total — no Gemini, no ElevenLabs (STALE-V1 is a pure re-point to the build's existing new-voice mp3s; no segment re-voiced). V1 dirs read-only throughout. Each row: board State NEEDS-AUDIO → AUTHORED, Ready ✅, Claim cleared; QC.md carries old→fix note. The picture runner picks all three up (complaint-first/low-number) and builds the stills on the fixed new-voice audio.
+
+---
+
 ## 2026-08-13 (Opus runner, complaint-first, unattended/headless) — Row 95 Thief on the Cross: NEW complaint "1:03 they are facing each other" FIXED + shipped touch-once — Machine A `Dev`
 
 **Commit:** `3b971e9d3` (build: mp4 + s11 + QC + beats_v2 + AUTHOR-BOARD + RUNNER-LESSONS + api-spend); review.html + this log follow.
