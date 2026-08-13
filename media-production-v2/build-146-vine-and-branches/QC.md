@@ -1,3 +1,48 @@
+## 🚢 PICTURE RUNNER SHIP — realistic-V2, 14 stills over the audio-fixed track — 2026-08-13, Machine A `Dev`, Opus runner (unattended/headless)
+
+Built the 14 realistic-V2 stills over the already-audio-fixed track (the audio lane's
+"abideth" re-voice, below) and shipped in ONE touch. `--check` PASS; 14/14 generated
+first-attempt, **0 rerolls (COST LAW budget was 2 = 15% of 14; used 0)**; ~**$1.88**,
+meter $622.16 → $624.17. AUDIO REBUILD PASS SHA256 `ae063a39…`, 84.8s, rebuilt from
+12 V1 segment mp3s (incl. the corrected j1b). 0 portraits (Jesus = global V2 ref;
+DISCIPLES is an earth-tone band, no face lock). VINEYARD plate = build-23 b03 (wired,
+present). Well under the $6.10/row average → COST LAW trend DOWN.
+
+### COMPLAINT LEDGER (LEARNING LAW)
+- **OPEN (`v2_outline.py 146`): "Abideth is pronounced wrong." → FIXED, and verified byte-present in THIS ship.**
+  The audio lane (2026-08-11) re-voiced segment `j1b` (John 15:5b, Jesus red-letter,
+  beat b10 / s10) through the LOCKED ElevenLabs Jesus voice (Chris), respelling
+  "abideth" so it now reads **/uh-BY-deth/** (long-i, three syllables — the KJV
+  pronunciation, not the old "a-BID-eth"). `AUDIO_FROM_V1_SEGMENTS=True` makes the
+  assembler rebuild the track from the V1-dir mp3s, so the corrected take ships.
+  **Proof it shipped:** V1-dir `audio/j1b.mp3` md5 = `a4bb0de3…` (the corrected take,
+  not the old `910b8468…`), and this mp4's audio was rebuilt from it (AUDIO REBUILD
+  PASS). The s10 caption keeps the KJV spelling "abideth" and is in sync with the
+  corrected audio. The reviewer card tells Cameron his complaint is fixed in his terms.
+
+### FULL-CUT GATE (6b) — all 14 beats from the RENDERED mp4 + 3 caption frames + card = PASS
+- Realistic biblical photography throughout (Law 14) — **zero cartoon/mixed** frames.
+- Jesus ONE locked face across s01/s02/s04/s07/s10/s14: olive skin, dark wavy
+  shoulder-length hair, full dark beard, calm warm eyes (ref-true — NOT edited;
+  rubric lesson 20), **cream robe only on Jesus** in every frame; no halo/glow/rim-light.
+- Scale gate PASS (Jesus ordinary-sized, never a giant); night moonlit register on the
+  Jesus teaching beats (moon/stars, physical light), golden-day light on the vineyard
+  vignettes — matches the authored time-of-day arc. b14 close in deep blue twilight.
+- Anatomy/hands natural (incl. s10 both hands cupping the grape cluster, s14 the
+  skin-on-bark-on-skin clasp); period props only — clay oil lamps (s01), viticulture
+  billhooks + grape basket (s08); **no modern objects, no collage, no rotation, no
+  lens-stare, no second cream figure, no ghost ropes**.
+- Grapes read as "much fruit" (s10/s13); green-cut vs withered branch pair correct
+  (s11 fresh-green cut / s12 withered brown).
+- Captions bottom-band only, split/synced, **RED** for Jesus KJV lines (j0/j1a/j1b —
+  incl. the "abideth" line on s10), **WHITE** for narrator; none cover the art.
+  Closing question card clean, well-margined ("Stay connected to the Vine…").
+
+Row Built ✅; Appr/Post untouched (Cameron's alone). Ship = two commits (mp4+boards, then
+card repoint), Firebase deploy + live-verify.
+
+---
+
 ## ✅ AUDIO FIX DONE — "Abideth is pronounced wrong" RESOLVED — 2026-08-11, Machine A `Dev`, audio lane
 
 **Cameron's complaint: "Abideth is pronounced wrong." — FIXED.** The word "abideth"
