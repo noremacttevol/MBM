@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T08:04:46_
+_Last sync: 2026-08-13T08:27:22_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 45 row(s)
+- **BUILDING** — 44 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 30 row(s)
+- **ON REVIEWER — awaiting Cameron** — 31 row(s)
 
 ## The rows
 
@@ -145,7 +145,7 @@ _Last sync: 2026-08-13T08:04:46_
 | 122 | The Mote and the Beam | ✅ 2026-08-13 | — | — | APPROVED 2026-08-13 — not published | publish to app-gallery (becomes v2.1) |
 | 123 | The Golden Rule | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 124 | Love Your Enemies | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
-| 125 | I Never Knew You | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 125 | I Never Knew You | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 126 | By Their Fruits | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 127 | The Strait Gate | ✅ 2026-08-12 | v2.1 | app-gallery, in-app-list | LIVE v2.1 ✓ approved cut | — |
 | 128 | Heart Far From Me | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
