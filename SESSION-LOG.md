@@ -7,7 +7,7 @@ VERIFY-PASS per PROMPT-OPUS-RUNNER.md 6b (independent FULL-CUT GATE of a BUILT/u
 - **ONE fix-wave observation, deliberately NOT re-cut:** the name-marked writing-rods render **legible / semi-legible name text** (strongest b05: readable English "For Judah… / For Joseph…", ~6.8 s; fainter Latin/Hebrew fragments b14/b15/b16/b18) vs the author's "NO readable text" preference. Judged NON-BLOCKING: it is on-story name-labeling (the sticks are literally "marked with a name"), Cameron's 150+ logged complaints contain ZERO text-on-prop entries, and fixing all instances would exceed the 15% reroll budget while risking regenerated text. Logged to QC.md + RUNNER-LESSONS for an AUTHOR prop-lock hardening; not a blind reroll on a verify pass.
 - **Cost: $0 / 0 rerolls.** mp4 byte-identical (AUDIO LOCK SHA256 927f7f7c…, 167.9 s / 19.4 MB), card hash unchanged, nothing deployed (cut unchanged). Board claim marked `QC-OK 2026-08-13`.
 
-Commit: (this entry) — see below
+Commit: cede6addfbcdde00e84afce173f76d364e66c9b4 (QC-VERIFY package: AUTHOR-BOARD claim→QC-OK, QC.md verify section, RUNNER-LESSONS lesson, this SESSION-LOG entry; verify-hash stamp below)
 
 ---
 
