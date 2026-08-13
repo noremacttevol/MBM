@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 07:01:45",
+ "scanned": "2026-08-13 07:18:14",
  "entries": [
   {
    "row": 1,
@@ -59237,6 +59237,186 @@
    "night": false,
    "n_person": 1,
    "scene": "A warm close on Jesus, in his cream robe, standing at the threshold of the Father's house with an open welcoming hand reaching back toward those he loves \u2014 ready to come again and carry them home himself \u2014 the radiant ho"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b01",
+   "file": "build-186-joint-heirs/assets/s01-paul-wrote-to-rome.jpeg",
+   "tokens": [
+    "PAUL-ROOM",
+    "PAUL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "A wide of the humble writing room seen from behind and to the side of Paul, his back three-quarters to the camera as he sits at the low table, reed pen moving over a blank parchment, his lined face earnest and warm in th"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b02",
+   "file": "build-186-joint-heirs/assets/s02-spirit-beareth-witness.jpeg",
+   "tokens": [
+    "INHERITANCE-HOME",
+    "BELIEVER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "An establishing wide of the warm family courtyard seen from behind and to the side of the believer, his back three-quarters to the camera as he stands in the open honey-stone yard before the wide timber doorway, his face"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b03",
+   "file": "build-186-joint-heirs/assets/s03-spirit-tells-your-spirit.jpeg",
+   "tokens": [
+    "INHERITANCE-HOME",
+    "BELIEVER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on the believer in the warm courtyard, one hand coming to rest over his own heart, his eyes softening and his breath caught as the inner truth about himself reaches deep within him. Warm daylight on his face. Ord"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b04",
+   "file": "build-186-joint-heirs/assets/s04-you-are-a-child.jpeg",
+   "tokens": [
+    "INHERITANCE-HOME",
+    "BELIEVER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A warm two- or three-shot at the wide doorway of the home: members of the household \u2014 an older woman and another of the family, distinct ordinary faces \u2014 reach to draw the believer in through the doorway with hands on hi"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b05",
+   "file": "build-186-joint-heirs/assets/s05-then-heirs.jpeg",
+   "tokens": [
+    "INHERITANCE-HOME",
+    "BELIEVER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A two-shot at the inner threshold of the home: a grey-bearded elder of the household stands beside the believer and opens a hand to show him the warm lived-in rooms and stores of the family beyond the doorway \u2014 the inher"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b06",
+   "file": "build-186-joint-heirs/assets/s06-joint-heirs-with-christ.jpeg",
+   "tokens": [
+    "INHERITANCE-HOME",
+    "BELIEVER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "A warm two-shot inside the family home: the risen Lord Jesus stands beside the believer as a brother and fellow heir, his hand resting on the believer's shoulder, turned toward him with steady kindness \u2014 only Jesus wears"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b07",
+   "file": "build-186-joint-heirs/assets/s07-suffer-and-glorified.jpeg",
+   "tokens": [
+    "DAWN-ROAD",
+    "BELIEVER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "Jesus and the believer climb a steep stony road together, shoulder to shoulder, backs three-quarters to the camera as they labour up the cool grey lower stretch toward a crest that opens onto a warm radiant dawn \u2014 only J"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b08",
+   "file": "build-186-joint-heirs/assets/s08-children-first-inheritors.jpeg",
+   "tokens": [
+    "INHERITANCE-HOME",
+    "BELIEVER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The believer sits at ease at the family's low table in the warm home, at home as a child of the house first of all, the ordinary distinct members of the household near him \u2014 his place among them is settled, and because h"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b09",
+   "file": "build-186-joint-heirs/assets/s09-belongs-to-the-family.jpeg",
+   "tokens": [
+    "INHERITANCE-HOME",
+    "BELIEVER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A warm grouped shot of the household together in the family home, the believer plainly one of them with a family member's hand resting on his shoulder, the lived-in stores and rooms of the estate around them all \u2014 what b"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b10",
+   "file": "build-186-joint-heirs/assets/s10-the-honest-terms.jpeg",
+   "tokens": [
+    "DAWN-ROAD",
+    "BELIEVER"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 1,
+   "scene": "An establishing wide of the steep country road seen from behind and below the believer, his back three-quarters to the camera as he stands alone at the foot of the cool grey climb and looks up its hard length toward the "
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b11",
+   "file": "build-186-joint-heirs/assets/s11-received-by-belonging.jpeg",
+   "tokens": [
+    "INHERITANCE-HOME",
+    "BELIEVER"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "A close on the believer at the wide family doorway, his hands open and empty at his sides \u2014 not working or paying his way in but simply received, drawn gently in by a member of the household because he belongs to the fam"
+  },
+  {
+   "row": 186,
+   "build": "build-186-joint-heirs",
+   "beat": "v2-r186-b12",
+   "file": "build-186-joint-heirs/assets/s12-heirs-with-the-son.jpeg",
+   "tokens": [
+    "DAWN-ROAD",
+    "BELIEVER"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The risen Lord Jesus and the believer stand together at the crest of the road in the full warm radiant dawn, side by side and backs three-quarters to the camera as they look out over the bright land spread below \u2014 heirs "
   },
   {
    "row": 188,
