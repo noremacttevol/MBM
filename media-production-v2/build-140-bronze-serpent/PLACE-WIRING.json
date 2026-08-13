@@ -1,0 +1,14 @@
+{
+ "SERPENT-POLE": {
+  "manual": true,
+  "src_beat": "s17-lifted-on-a-pole",
+  "src_build": "build-140-bronze-serpent",
+  "src_file": "build-140-bronze-serpent/assets/s17-lifted-on-a-pole.jpeg"
+ },
+ "WILDERNESS-CAMP": {
+  "manual": true,
+  "src_beat": "s01-out-of-egypt-on-a-miracle",
+  "src_build": "build-140-bronze-serpent",
+  "src_file": "build-140-bronze-serpent/assets/s01-out-of-egypt-on-a-miracle.jpeg"
+ }
+}
