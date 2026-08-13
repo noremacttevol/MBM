@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-12 20:18:38",
+ "scanned": "2026-08-13 01:46:52",
  "entries": [
   {
    "row": 1,
@@ -43443,6 +43443,20 @@
    "night": false,
    "n_person": 1,
    "scene": "The closing frame opens the circle outward: the centre cross high and steady against the vast cold sky, the hill's small figures scattered below it \u2014 and at the picture's near edge, empty ground: bare grey rock in the fo"
+  },
+  {
+   "row": 95,
+   "build": "build-95-thief-on-the-cross",
+   "beat": "v2-r095-b01",
+   "file": "build-95-thief-on-the-cross/assets/s01-two-criminals-were-crucified-with.jpeg",
+   "tokens": [
+    "HILL"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "From far down the slope, the camera behind the scattered watchers' backs, the bare rock crown holds its terrible geometry against the cold grey sky: three raised crosses in one straight parallel row on the hill's crest, "
   },
   {
    "row": 95,
