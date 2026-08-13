@@ -125,16 +125,14 @@ BEATS = [
             "With desire I have desired to eat this passover with you before "
             "I suffer."
         ),
-        "must_show": "SCRIPTURE-EXACT: the longing spoken — close on Jesus, HIS FACE THE ATTACHED REFERENCE FACE EXACTLY: a Middle Eastern Jewish man with warm olive-brown sun-darkened skin (never fair, never pale, never European), a lean weathered face, a prominent aquiline nose, long dark brown wavy hair below the shoulders and a full dark brown beard — saying it to the faces around him: open wanting in his face, the word SUFFER said steadily; love and weight in one sentence.",
-        "must_not_show": "no halo, glare or rim-light; NO morbid imagery — the suffering only a word on a steady mouth. His face is NEVER pale, fair, Caucasian or European; his hair is NEVER light or short; he does not become a rounder, softer, lighter-skinned man than the reference.",
+        "must_show": "SCRIPTURE-EXACT: the longing spoken — close on Jesus, his face and hair EXACTLY the attached reference photograph, the SAME man, not re-invented or restyled (match the reference's own softer face and long wavy dark hair with its natural lighter highlights — do NOT harden him into a different, heavier, near-black-haired man) — saying it to the faces around him: open wanting in his face, the word SUFFER said steadily; love and weight in one sentence.",
+        "must_not_show": "no halo, glare or rim-light; NO morbid imagery — the suffering only a word on a steady mouth. His face is NEVER pale, fair, Caucasian or European AND never a different, darker, heavier-browed, shorter-near-black-haired man than the reference — he is EXACTLY the reference man, no harder and no paler.",
         "scene": (
-            "Close on Jesus — the SAME man as "
-            "the attached reference face, "
-            "warm olive-brown Middle Eastern "
-            "skin, lean weathered features, an "
-            "aquiline nose, long dark wavy "
-            "hair to the shoulders and a full "
-            "dark beard — as he says the "
+            "Close on Jesus — his face and hair "
+            "EXACTLY as the attached reference "
+            "photograph, the same man, not "
+            "restyled and not hardened into a "
+            "different heavier man — as he says the "
             "thing teachers do not usually "
             "admit: WITH DESIRE I HAVE "
             "DESIRED — the wanting open and "

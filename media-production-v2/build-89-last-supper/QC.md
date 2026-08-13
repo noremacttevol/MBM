@@ -177,3 +177,27 @@ python3 media-production-v2/v2_assemble.py 89
 **AUDIO byte-identical:** re-assembled with the restored s03 via `AUDIO_FROM_V1_SEGMENTS` (14 V1 mp3s, nothing re-voiced). **AUDIO REBUILD PASS SHA256 = 29a5b1d0…** (== the live cut). Extracted-track md5 `2435479072f590f04b3916eda9ebd671` before == after. Final mp4 sha256 `194966a6…`, 94.13s / 20.2 MB.
 
 **COST:** $0 Gemini (0 successful gens — billing depleted; the 2 attempted b03 shots 429'd before any image, meter unchanged $617.34), 0 rerolls. Fix delivered by asset-restore + prompt-hardening. COST LAW trend DOWN (well under $6.10/row).
+
+## 🚩 PICTURE C-FIX #4 — 0:14 "doesn't look like Jesus / redo with the reference" — CAUSE FOUND (prose), PARKED ON BILLING (Machine A `Dev`, 2026-08-12, Opus RUNNER, headless)
+
+**COMPLAINT LEDGER (open, `v2_outline.py 89`):**
+- **"0:14 picture doesnt look like Jesus Redo it with the character refrence sane problem 4 times in a row."** — reportedAgainst the LIVE cut (card hash `adc28f63…`, the #3 preeye-restore). NOT yet shipped-fixed: the corrected regen is billing-gated. Prompt is corrected + `--check` PASS, staged for the paid re-render.
+
+**TRACE (from the LIVE mp4, not guessed):** 0:14 = 14.0s → b03 window 10.895–16.455 (mid 13.67s) → `v2-r089-b03` → `s03-with-desire-i-have-desired.jpeg`. On-disk s03 (2784210 B) is byte-identical to `s03…preeye.bak` = the #3 restore. Extracted the live 0:14 frame and compared side-by-side to `JESUS-V2-REF/jesus-v2-face.jpeg`: the 0:14 man is a DIFFERENT person — shorter, near-black hair (no caramel highlights), broader/heavier brow, denser unshaped beard, ruddier skin, more intense open-mouth expression. The reference man is softer-featured, serene, with longer wavy hair carrying lighter highlights. **This is whole-face identity drift, NOT eye colour** — which is why C-FIX #1/#2/#3 (all eye/skin-tone edits or asset-restores) never closed it. The card even over-promised ("matches his reference face exactly") — false, part of why he re-opened a 4th time.
+
+**PROOF the pipeline CAN produce the ref here — $0 reuse considered & rejected:** viewed `s07-this-is-my-body-which.jpeg` (b07, "this is my body"): it MATCHES the reference well — longer wavy hair with the caramel highlights, softer face, hazel eyes, warm-tan (not too-dark) skin. Same ref attached to both b03 and b07. So the divergence is driven by the PROSE, not the ref image. Reusing s07 for b03 is NOT clean: s07 shows the bread already BROKEN (hands up, steam) against a STONE WALL, while b03's line is "with desire I have desired… before I suffer" (bread not yet broken) in the WINDOW room — a straight cp would pre-empt the real bread-breaking beat (b07, ~20s later) and break room continuity = a NEW complaint. Not adjacent, so no continuous-hold trick. No clean $0 path.
+
+**PROMPT AUTOPSY (meta-law 3) — verdict CAUSED (by prose over-description):** b07's `must_show` says only "his steady face above" — minimal, letting the attached ref IMAGE be the lock; result = ref match. b03's `must_show`, after the #3 anti-pale word-fix, OVER-described the face ("a lean weathered face … long dark brown wavy hair … full dark brown beard") — prose that re-invents him toward a harder, darker, near-black-haired man, directly against the top law ("Consistency is enforced by IMAGE, not wording. The reference picture IS his face; prose never re-invents it"). The over-correction to kill the pale drift caused the opposite drift.
+  - **WORD-FIX (committed, staged for the paid regen):** b03 `must_show`/`must_not_show`/`scene` rewritten to DEFER to the attached reference photograph ("his face and hair EXACTLY the attached reference photograph, the SAME man, not re-invented or restyled… do NOT harden him into a different, heavier, near-black-haired man"), keeping ONLY the anti-pale/anti-European negative as a guard. This mirrors b07 (which succeeded). `v2_prompt.py build-89-last-supper --check` = PASS (16 beats, v4). UNTESTED this session — billing depleted, cannot regen to confirm; the ref attachment + minimal-prose approach that produced the correct s07 makes this a near-one-shot when funded.
+
+**BILLING (the one external wall):** own live probe `v2_gen_api.py build-89-last-supper --only v2-r089-b03 --redo --ceiling 645` → **429 RESOURCE_EXHAUSTED: prepayment credits depleted**, meter unmoved **$617.34**, $0 spent / 0 rerolls. Same production-wide wall parking 82/95/116/118. Only Cameron can clear it: top up Google AI Studio → https://ai.studio/projects.
+
+**RESUME when billing is funded (touch-once, ships the whole corrected cut):**
+```
+python3 media-production-v2/v2_gen_api.py build-89-last-supper --only v2-r089-b03 --redo --ceiling <meter+2>
+# FULL-CUT GATE §6b on the new s03 (must match JESUS-V2-REF — same man as s07), then:
+python3 media-production-v2/v2_assemble.py 89     # AUDIO LOCK PASS, audio byte-identical 29a5b1d0
+# ship two commits + firebase deploy + live-verify per PROMPT-OPUS-RUNNER step 7
+```
+
+**COST:** $0 Gemini / 0 rerolls / 0 credits. mp4 NOT reshipped (reshipping the off-ref frame would repeat the complaint). Reviewer card v89 `data-machine-reason` updated with the honest status + the top-up ask (the surface Cameron actually reads); the false "matches exactly" flag replaced with an honest "still fixing." Deployed + live-verified.
