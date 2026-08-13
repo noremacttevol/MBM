@@ -7,15 +7,15 @@
 >
 > Run the loop: `python3 media-production-v2/publish_ledger.py sync --commit --push` (autopilot-safe; detects gallery publishes automatically). Cameron's approval: `approve N`. External post: `publish N --platform youtube --url …`. Complaint on a live video: `fix N --reason "…"`.
 
-_Last sync: 2026-08-13T06:29:55_
+_Last sync: 2026-08-13T06:38:43_
 
 ## Summary
 
 - **APPROVED — not published** — 3 row(s)
-- **BUILDING** — 60 row(s)
+- **BUILDING** — 58 row(s)
 - **LIVE — current** — 2 row(s)
 - **LIVE — current (approved cut)** — 120 row(s)
-- **ON REVIEWER — awaiting Cameron** — 15 row(s)
+- **ON REVIEWER — awaiting Cameron** — 17 row(s)
 
 ## The rows
 
@@ -193,7 +193,7 @@ _Last sync: 2026-08-13T06:29:55_
 | 170 | The Sacrament, Worthily | (old appr) | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 171 | Baptized For the Dead | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 172 | Gospel Preached to the Dead | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 173 | Dead Shall Hear | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 173 | Dead Shall Hear | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 174 | Hearts of the Fathers | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 175 | Mountain of the Lords House | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 176 | Who Shall Ascend | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
@@ -205,7 +205,7 @@ _Last sync: 2026-08-13T06:29:55_
 | 182 | The Spirit Returns to God | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 183 | Sun Moon and Stars | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 184 | Caught Up to the Third Heaven | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
-| 185 | In My Fathers House | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
+| 185 | In My Fathers House | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 186 | Heirs of God | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 187 | Ye Are Gods | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 188 | Be Ye Therefore Perfect | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
