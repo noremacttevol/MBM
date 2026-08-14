@@ -3,6 +3,22 @@
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero
 WARNs. 22 beats, ~126 s.
 
+## ✅ INDEPENDENT COMPLAINT RE-AUDIT 2026-08-13 (Codex, Machine A `Dev`)
+
+Cameron's legacy complaint has no `complaintHash`, so the Reviewer kept this already
+replaced cut in red. I did not trust the green card: extracted 124.5/125.5/126.0/
+126.5/127.5-second frames from the exact MP4 and transcribed 123–131 seconds. At
+exactly **2:06**, the visible caption is **“When he was weaned”** while the audio says
+“She kept her word. When he was weaned, she brought him to the house of the Lord and
+left him there to serve.” They are correct and synchronized; the old frozen-caption
+tail is absent. Closing card at 132.5/138.5 is clean. `verify-mp4.sh`, full decode,
+new exact content receipt, and `admin/qc_gate.py` with Whisper PASS. Current MP4:
+139.620998 s / 20,179,467 B / standard SHA-256
+`5300bc0a73407a851494f510dc8326160ef46fb4bf0048589ce8fce12eda6989`.
+No video/audio/picture bytes changed in this audit. Reviewer card receives the audited
+legacy-replacement marker so this existing replacement can finally move from red to
+**Fixed — check your complaint**, while the complaint text stays visible.
+
 ## 🅿️ COMPLAINT LEDGER — OPEN complaint ROOT-CAUSED to the dead-tail class (2026-08-07, Machine A `Dev`, $0 Fable-5 author lane)
 
 - **OPEN Cameron complaint (`v2_outline.py 149`): "Wrong caption at 2:06."** ROOT CAUSE =

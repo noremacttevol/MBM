@@ -1361,7 +1361,7 @@
 <div class="actions"><button class="approve" id="appbtn148" onclick="toggleApprove(148)">Approve</button><button class="cbtn" onclick="toggleBox(148)">🚩 Report a problem</button></div>
 <div class="cbox" id="cbox148" hidden><textarea id="ctext148" rows="2" placeholder="What is wrong with this video?"></textarea><br><button class="csave" onclick="saveComplaint(148)">Save complaint</button></div>
 <div class="cshow" id="cshow148"></div></div>
-<div class="card" id="v149" data-num="149" data-review-wave="realistic-v2" data-hash="52901ef7ce29cea4fc717ef95580d7728d7ffb33" data-newvoice="1" data-built="2026-08-13"><p class="title">149 — Hannah Is Heard<span class="meta"> · 1-samuel 1 · 2:20</span></p>
+<div class="card" id="v149" data-num="149" data-review-wave="realistic-v2" data-hash="52901ef7ce29cea4fc717ef95580d7728d7ffb33" data-newvoice="1" data-legacy-complaint-replaced="1" data-built="2026-08-13"><p class="title">149 — Hannah Is Heard<span class="meta"> · 1-samuel 1 · 2:20</span></p>
 <div class="flag voice">✅ QC-VERIFIED — real new voice, no scripture echo, plays start to finish</div>
 <div class="flag fixed">🛠 What this cut changed (2026-08-13): now 22 realistic painted pictures (the old cut had ~9), Hannah's story told shot by shot — the empty lap at Shiloh, the silent prayer at the tabernacle door, Eli mistaking her for drunk, the vow, the answer, and leaving little Samuel to serve. Your complaint "Wrong caption at 2:06" is fixed: the picture caption no longer freezes at the end — at 2:06 you now see the correct narration line, and the video closes on a clean reflection card that ends right when the voice does (no dead tail). Every picture is realistic biblical photography (no cartoon). The narration, voices and timing are untouched — the audio is byte-identical to the cut you already have.</div>
 <div class="flags" id="flags149"></div>
@@ -1845,10 +1845,16 @@ function place(){
     var approvedNow = d.approved && d.approvedHash===hash;
     var complaintOpen = typeof d.complaintOpen === 'boolean'
       ? d.complaintOpen : !!(d.complaint && !d.approved);
+    /* Complaints filed before complaintHash existed need one explicit, audited
+       card marker; otherwise every later replacement is misclassified as the
+       original complained cut forever. Never set this marker without checking
+       the encoded complaint timestamp first. */
+    var legacyReplacement = card.dataset.legacyComplaintReplaced === '1';
     var complaintForThisCut = !!(d.complaint && complaintOpen
-      && (!d.complaintHash || d.complaintHash===hash));
+      && !legacyReplacement && (!d.complaintHash || d.complaintHash===hash));
     var replacementForComplaint = !!(d.complaint && complaintOpen
-      && d.complaintHash && d.complaintHash!==hash);
+      && ((d.complaintHash && d.complaintHash!==hash)
+          || (!d.complaintHash && legacyReplacement)));
     var rebuiltAfterAppr = d.approved && d.approvedHash && d.approvedHash!==hash;
     var machineReason = card.dataset.machineReason || "";
     var isNewWave = card.dataset.reviewWave==='realistic-v2';

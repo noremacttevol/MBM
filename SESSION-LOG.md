@@ -1,3 +1,28 @@
+## 2026-08-13 ~23:29 EDT (Codex complaint-fix lane) — Row 149 Hannah Is Heard **LEGACY COMPLAINT FIX INDEPENDENTLY VERIFIED; REVIEWER CLASSIFICATION SHIP PREPARED** — Machine A `Dev`
+
+After row 117 moved to Fixed, row 149 was the lowest red Reviewer card. Its card claimed
+the old “Wrong caption at 2:06” complaint was fixed, but Firestore has no `complaintHash`
+because the complaint predates hash tracking. That made Reviewer classify every replacement
+as the original complained cut forever. I did not clear it on the card's word alone.
+
+- **Exact complaint-frame audit:** extracted 124.5/125.5/126.0/126.5/127.5 seconds
+  from the finished MP4 and transcribed 123–131 seconds. At exactly 2:06 the visible
+  caption is “When he was weaned,” while the encoded audio says the same sentence in
+  order: “She kept her word. When he was weaned, she brought him to the house of the
+  Lord and left him there to serve.” Correct, synchronized, and no frozen-caption tail.
+- **No needless rebuild:** current closing card is clean at 132.5/138.5; all pictures,
+  audio and finished-video bytes remain untouched. `verify-mp4.sh`, full decode, exact
+  content receipt, and `qc_gate.py` with Whisper PASS. 139.620998 s / 20,179,467 B /
+  standard SHA-256 `5300bc0a73407a851494f510dc8326160ef46fb4bf0048589ce8fce12eda6989`.
+- **Reviewer root fix:** added an explicit audited `data-legacy-complaint-replaced` marker
+  and taught classification to treat that marker as a replacement only when an old
+  complaint has no hash. The complaint stays visible, row 149 moves to **Fixed — check
+  your complaint**, and row 171 correctly remains red until its own independent audit.
+
+Commit/deploy/live verification follow in this same session.
+
+---
+
 ## 2026-08-13 ~23:24 EDT (Codex complaint-fix lane) — Row 117 Hosea Buys Her Back **EXACT PRONUNCIATION C-FIX SHIPPED + LIVE** — Machine A `Dev`
 
 The current red Reviewer list after rows 44/63 was checked from the actual card hashes:

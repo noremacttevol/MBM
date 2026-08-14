@@ -33,8 +33,8 @@
 > Next job = lowest row IN YOUR MACHINE'S RANGE where Built is ⬜ and Claim is empty.
 
 > **ACTIVE COMPLAINT CLAIM — row 149, 2026-08-13, Codex on Machine A `Dev`:**
-> verifying the actual finished frame/caption at 2:06 before accepting the existing fix
-> claim. Rows 44, 63, and 117 are shipped; row 95 is already a newer Fixed cut.
+> independent encoded-frame/audio audit passed at exact 2:06; video bytes stay unchanged;
+> audited legacy-complaint classification fix is being shipped to Reviewer.
 
 > 🔇 **HUM PURGE 2026-07-16 (Machine C):** Cameron caught (on headphones) a constant
 > background hum in **every** video — a synthetic sine "music bed" every build.py mixed
