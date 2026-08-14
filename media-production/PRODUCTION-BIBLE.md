@@ -44,6 +44,15 @@ realistic pictures from now on."* One stylised frame fails the entire cut.
 - On the reviewer, cartoon-era cuts belong in "Old style — NOT ready to review",
   never in the Unwatched queue where they read as finished work.
 
+## REVIEWER COMPLAINT ORDER (Cameron, clarified 2026-08-13)
+
+The red **Complained — machine is fixing** list on the live Reviewer is the first
+production queue. Always fix its lowest-numbered row first. A fresh build, an
+Unwatched row, a higher complaint, or a different board's "lowest available" row
+may never pass it. A stale `RUNNING` claim does not hide the row: verify recent
+activity, and if no worker is actually running or committing that fix, take over the
+claim and finish it. As of this clarification, #44 Pentecost is first.
+
 
 ## 0. THE THREE OPERATING LAWS FOR EVERY CLAUDE ON EVERY COMPUTER (Cameron, 2026-07-10 — read before ANY video work)
 
