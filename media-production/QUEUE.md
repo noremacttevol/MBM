@@ -33,9 +33,8 @@
 > Next job = lowest row IN YOUR MACHINE'S RANGE where Built is ⬜ and Claim is empty.
 
 > **ACTIVE COMPLAINT CLAIM — row 63, 2026-08-13, Codex on Machine A `Dev`:**
-> verify the actual served `0e1878c5` replacement against both Siloam timestamps and
-> all four closing-picture complaints; the card's stale `data-machine-reason` marker
-> is incorrectly keeping this shipped replacement in the red machine-fixing bin.
+> built and QC-passed: four distinct reference-locked replacements for 3:39/3:44/
+> 3:49/3:56, no kiss-close contact, exact audio preserved; Reviewer ship pending.
 
 > 🔇 **HUM PURGE 2026-07-16 (Machine C):** Cameron caught (on headphones) a constant
 > background hum in **every** video — a synthetic sine "music bed" every build.py mixed

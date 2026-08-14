@@ -1,6 +1,6 @@
 # QC / RUNNER HANDOFF — build-63-man-born-blind (John 9)
 
-## §C-FIX RE-OPEN 2026-08-13 (Codex, Machine A `Dev`) — prior reuse fix rejected by verification; four honest regens required
+## §C-FIX BUILT 2026-08-13 (Codex, Machine A `Dev`) — prior reuse fix rejected; all four complained pictures honestly replaced
 
 The live red Reviewer list still put row 63 next after row 44. The shipped cut
 `0e1878c5` was downloaded and byte-matched to local (`8a17740f...`, 22,009,329 B),
@@ -10,11 +10,29 @@ of adjacent b39 instead of the requested two-person study, b43 is a copy of b42 
 of the requested walk-away, and b40/b41 still do not match as one exact face. The prior
 top section's "one consistent man" conclusion is therefore superseded.
 
-Fix in progress: regenerate b40/b41/b42/b43 as four distinct story-accurate pictures,
-all against `CAST-REF-V2/blindman.jpeg`; b40 keeps at least three feet between the men,
-b42 removes Jesus's hand-on-head contact and keeps the same distance, and b43 is a real
-walk-away with the healed man's reference-matched face visible. The already-corrected
-Siloam audio is independently re-gated and remains locked unless that gate fails.
+**Completed fix:** b40/b41/b42/b43 are now four distinct native-2K pictures generated
+against `CAST-REF-V2/blindman.jpeg`, not copied holds. b40 is a real two-person study with
+natural conversational space and no contact; b41 is the same man's tearful close-up; b42
+shows him worshipping with empty open hands, clear face, no staff crossing his body and no
+contact from Jesus; b43 is a separate walk-away with the reference-matched face visible and
+the old staff left at the wall. The first b42 put the staff awkwardly through his clasped
+hands; full-resolution QC rejected and rerolled it. Final generation cost: 5 calls for 4
+complaint pictures, 1 QC reroll (2.3% of the 43-picture row), about $0.67; meter
+$721.19→$721.86.
+
+**Encoded-video gate:** all four exact rendered timestamps were inspected at 3:39, 3:44,
+3:49 and 3:56; all are distinct, the same locked man, and the kiss-close frame is gone.
+The other 39 stills are byte-unchanged and the full cut plus closing card was contact-sheet
+checked. `verify-mp4.sh`, full ffmpeg decode, content-hash receipt, and project
+`qc_gate.py` with Whisper all PASS. Final: 247.633333 s, 22,093,318 B, standard MP4 SHA-256
+`7ef5d4cf9c8cd74cbd8ce6b895daa7e4a603c0661dfa871056997447de1bd1aa`.
+
+**Audio/voice locked:** before and after audio-packet SHA-256 are identical,
+`0c42b9ab7274f784ed24289321dc11ec512c66e0ee3ba748e2d1c5818d422f3b` — no word,
+voice, pause or timing changed. Both final-file occurrences transcribe as Siloam; the
+current hand-selected `sih lo um` takes preserve the American `/sɪˈloʊ.əm/` target with
+middle stress and a soft final schwa. `JESUS-VOICE.json` independently reports all four
+Jesus lines match **Alexander**.
 
 ## §C-FIX SHIPPED 2026-08-12 (Opus RUNNER, Machine A `Dev`, 17th pass) — $0 REUSE PATH the prior 16 passes missed. Both halves of the complaint FIXED in ONE combined cut, FULL-CUT-GATED, ready to ship.
 
