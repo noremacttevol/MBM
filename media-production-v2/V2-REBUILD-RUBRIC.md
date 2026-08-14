@@ -309,6 +309,25 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
     Rows of record: 146 (b04 faces, b09 arms/time, b14 hand/darkness). Extends
     lesson 4 (anatomy) and the time-of-day law with the night-readability floor.
 
+23. **NO BUILDINGS FLOATING IN THE SKY / DUPLICATED VERTICAL CITY LAYERS
+    (Cameron, 2026-08-13 — row 44 Pentecost at 1:38: "there are buildings in
+    the sky. Same problem again").** An ancient-city place plate plus a tight
+    crowd close can be recomposed as two incompatible depths: the real ground
+    city behind the people and a second row of rooftops/towers pasted into open
+    sky above it, often separated by a pale mist band. This is a stacked-scene
+    defect even when there is no hard panel seam. It is always a ship blocker.
+    PROMPT-AUTOPSY for row 44 b17 = ALLOWED: the place lock named houses/walls
+    beyond while the emotional close did not constrain how much background or
+    sky was visible. For an intimate reaction beat, remove the risk instead of
+    asking for another city panorama: specify one tight eye-level chest-to-head
+    close, **NO SKY VISIBLE**, and one continuous ground-level wall extending
+    edge to edge behind the people. Ban skyline, rooftops, towers, distant or
+    duplicated buildings, architecture above heads, horizontal fog bands,
+    collage/panels, and a second perspective. For a real city wide, inspect the
+    entire skyline and require every building to meet visible ground in one
+    continuous perspective. Rows of record: 44 b17. Extends the stacked-scene
+    and doubled-skyline lessons in `RUNNER-LESSONS.md`.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.

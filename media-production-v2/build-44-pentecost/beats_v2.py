@@ -408,15 +408,18 @@ BEATS = [
             "The words went straight through them. They had helped condemn him — and "
             "God had lifted him up anyway, and given him a throne over everything."
         ),
-        "must_show": "pricked in the heart: two or three individual faces in the crowd broken open — one man's hand pressed hard to his own chest, another with eyes shut and head bowing, a woman's face wet — grief and conviction, not fear.",
-        "must_not_show": "no halo, glare or rim-light; no cream robes; no throne or vision depicted; no flames; sorrow that is tender, never hysterical.",
+        "must_show": "pricked in the heart, in one tight eye-level close with NO SKY VISIBLE: exactly three separate adults fill the frame from chest to head — one man's hand pressed hard to his own chest, another with eyes shut and head bowing, a woman's face wet — grief and conviction, not fear; behind them is one single continuous softly blurred pale-limestone wall at ground level.",
+        "must_not_show": "ABSOLUTE: no sky anywhere in the frame; no skyline, rooftop, tower, upper city, distant building, duplicated architecture, floating building, building above another building, horizontal fog band, collage, panel, split scene or second perspective. No halo, glare or rim-light; no cream robes; no throne or vision depicted; no flames; sorrow tender, never hysterical; exactly three adults, no merged bodies or extra limbs.",
         "scene": (
-            "Close on two or three faces in the crowd, shot intimately among them: one "
-            "man has pressed his hand hard flat against his own chest, head dropping; "
-            "beside him another stands with his eyes squeezed shut; a woman's cheeks "
-            "are wet — the words have gone straight through them, and it shows as "
-            "grief and conviction, quiet and real. First-century dress. Every figure "
-            "has two arms, two hands and one head."
+            "ONE continuous tight eye-level close at ground level, framed chest-to-head "
+            "on exactly three adults so the camera cannot see the sky or skyline. One "
+            "man has pressed one hand hard flat against his own chest, head dropping; "
+            "beside him another stands with eyes squeezed shut and head bowed; a woman's "
+            "cheeks are wet — quiet real grief and conviction. The ONLY background is one "
+            "single unbroken pale-limestone courtyard wall, softly out of focus, extending "
+            "edge to edge behind their heads. First-century dress. Photorealistic natural "
+            "skin and cloth. Exactly three separate bodies; each has two arms, two hands "
+            "and one head. No open sky and no architecture above their heads."
         ),
     },
     {
