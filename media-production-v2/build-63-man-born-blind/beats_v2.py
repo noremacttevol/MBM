@@ -1048,17 +1048,18 @@ BEATS = [
             "And he worshipped him, right there in the street the religious "
             "world had just thrown him out of."
         ),
-        "must_show": "SCRIPTURE-EXACT: the worship — the man down on both knees in the open lane, at least three feet in front of Jesus, passers-by turning; the synagogue's outcast holding church in the street. Show the man's clear three-quarter face matching the attached BLINDMAN reference exactly.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; NOT a reused adjacent beat; Jesus does NOT touch the man's head, hair, face or body and does NOT lean toward him — his hands stay open at his own sides; preserve at least three feet of visible air; never grey, elderly, clean-shaven or a different person from the BLINDMAN reference.",
+        "must_show": "SCRIPTURE-EXACT: the worship — the man upright on both knees in the open lane, at least three feet in front of Jesus, his empty hands open palms-up near his own chest and his head raised enough for a clear three-quarter face; passers-by turn as the synagogue's outcast holds church in the street. His face matches the attached BLINDMAN reference exactly.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; NOT a reused adjacent beat; NO staff, cane, pole or object in the kneeling man's hands or crossing his body; do not bow his face out of view; Jesus does NOT touch the man's head, hair, face or body and does NOT lean toward him — his hands stay open at his own sides; preserve at least three feet of visible air; never grey, elderly, clean-shaven or a different person from the BLINDMAN reference.",
         "scene": (
             "In the open lane in the day's last gold "
             "the man goes down on both knees before "
             "Jesus — the same thirty-five-year-old man "
             "with unruly BLACK hair and a short dark "
             "beard as in every other shot, never grey, "
-            "never elderly — head bowing over his "
-            "folded hands, "
-            "the staff laid aside on the stones — "
+            "never elderly — head raised enough to show "
+            "his clear three-quarter face above two empty, "
+            "open palms — no staff or object anywhere "
+            "across his body — "
             "passers-by slowing and turning at the "
             "sight — while Jesus stands still and "
             "receives it with grave gentleness from a "
