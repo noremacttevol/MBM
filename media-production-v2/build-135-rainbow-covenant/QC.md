@@ -140,3 +140,28 @@ runner may not edit locks or beat content (PROMPT-OPUS-RUNNER hard rail #1).
 the 15% budget, spent hunting the count on the counts row before the systemic gender
 cause was identified. ~$0.94 Gemini this session (meter ~$632.4). No audio touched.
 **RESUME (author):** do the FAMILY-lock gender pin above, then step 3–4.
+
+---
+
+## CODEX AUTHOR REPAIR — Machine A `Dev`, 2026-08-13
+
+### Prompt autopsy: **ALLOWED**
+
+The rejected outputs did what the old prompt allowed. The shared FAMILY lock fixed the
+headcount at eight but did not explicitly fix the sex composition at four adult men and
+four adult women. The intimate b09/b27 staging also emphasized one couple while leaving
+the remaining six under-specified, so the model could omit a wife or render a fifth man
+without contradicting the literal prompt. Blind rerolls therefore repeated the complaint.
+
+Authoring repair applied before spending another generation credit:
+
+- FAMILY now pins **exactly four adult men** (Noah + three adult sons) and **exactly four
+  adult women** (Noah's wife + the three sons' wives), with no child except b38.
+- b06, b09, b25, and b27 now require all eight adults to remain separate and countable.
+- b09, b25, and b27 use explicit four-couple geometry so a wife cannot disappear inside
+  an ambiguous huddle; b06 uses a loose countable arc.
+- Negative constraints explicitly forbid a fifth man, a missing fourth woman, a child,
+  a ninth person, and merged figures.
+
+Next gate: prompt check, then regenerate only b06/b09/b25/b27, visually count 4m/4f in
+each result, run the full 44-beat cut gate, and assemble on the existing locked audio.

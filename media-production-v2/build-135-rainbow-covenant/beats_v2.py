@@ -64,7 +64,13 @@ LOCKS = {
     ),
     "FAMILY": (
         "FAMILY LOCK: the eight — EXACTLY EIGHT people in every "
-        "family shot, never more, never fewer: NOAH, a vigorous "
+        "family shot, never more, never fewer. They are EXACTLY FOUR "
+        "ADULT MEN — NOAH plus his THREE grown SONS — and EXACTLY "
+        "FOUR ADULT WOMEN — Noah's WIFE plus the THREE sons' WIVES. "
+        "Never five men and three women; never four men and three "
+        "women; no child in a family shot except the explicitly "
+        "child-bearing b38 scene. Keep all eight adults visibly "
+        "separate and countable: NOAH, a vigorous "
         "white-bearded elder in a DEEP UMBER robe; his WIFE, aged "
         "and steady in DARK MOSS-GREEN; THREE grown SONS with dark "
         "beards in rust, slate-blue and brown tunics; THREE WIVES, "
@@ -203,8 +209,8 @@ BEATS = [
         "window": "30.08-33.79", "wide": False, "jesus": False, "ref": False,
         "locks": ["FAMILY", "MOUNTAIN"],
         "narration": "Be fruitful, and multiply, and replenish the earth.",
-        "must_show": "SCRIPTURE-EXACT: the blessing arriving — the eight with faces lifted to the bright opening sky, the words falling on them as light; GOD NEVER EMBODIED.",
-        "must_not_show": "ABSOLUTE: no figure in the sky — the blessing carried by broadening light on lifted faces.",
+        "must_show": "SCRIPTURE-EXACT: the blessing arriving — EXACTLY FOUR ADULT MEN (Noah plus three sons) and EXACTLY FOUR ADULT WOMEN (Noah's wife plus three sons' wives), all eight visibly separate and countable in a loose natural arc, faces lifted to the bright opening sky; GOD NEVER EMBODIED.",
+        "must_not_show": "ABSOLUTE: no fifth man, no missing fourth woman, no child, no ninth person, no figure in the sky — the blessing carried by broadening light on lifted faces.",
         "scene": (
             "The first words of the new world come down as "
             "weather: the eight stand with faces lifted while "
@@ -273,8 +279,8 @@ BEATS = [
             "But one heavy question still hung over it all. Could anyone "
             "trust the sky again?"
         ),
-        "must_show": "the question — one of the wives' wary upward glance at a passing cloud, her hand tightening on her husband's arm; the sky as an open wound.",
-        "must_not_show": "no halo; ONE small cloud only — the fear in the FACES, not the weather.",
+        "must_show": "the question — EXACTLY FOUR MARRIED ADULT COUPLES, each pair one man and one woman: Noah with his wife and each of their three sons beside his own wife, totaling exactly four adult men and four adult women; all eight visibly separate and countable. In the foreground one young wife glances warily at a passing cloud, her hand tightening on her husband's arm; the other three couples remain clearly visible behind them; the sky as an open wound.",
+        "must_not_show": "no fifth man, no missing fourth woman, no child, no extra or merged figure, no halo; ONE small cloud only — the fear in the FACES, not the weather.",
         "scene": (
             "One small cloud crosses the new sky and eight "
             "hearts check it: the youngest wife's face tips "
@@ -636,8 +642,8 @@ BEATS = [
         "window": "15.05-19.05", "wide": False, "jesus": False, "ref": False,
         "locks": ["FAMILY", "ARK", "MOUNTAIN"],
         "narration": "Noah and his family stepped out onto wet grass under an open sky.",
-        "must_show": "the stepping-out — the eight descending the ark's great ramp onto the wet green, first steps onto the new earth; the door open behind them.",
-        "must_not_show": "no halo; COUNT eight on or at the ramp; the grass WET and bright.",
+        "must_show": "the stepping-out — EXACTLY FOUR MARRIED ADULT COUPLES descending in one clear line: Noah with his wife, then each of the three adult sons beside his own wife, totaling exactly four adult men and four adult women, all eight visibly separate and countable on or at the ark's great ramp; first steps onto the wet green; the door open behind them.",
+        "must_not_show": "no fifth man, no missing fourth woman, no child, no extra or merged figure, no halo; COUNT exactly eight on or at the ramp; the grass WET and bright.",
         "scene": (
             "The first walk of the new world is eight people "
             "long: down the ark's great ramp they come — "
@@ -685,8 +691,8 @@ BEATS = [
             "Never again. That is the whole promise, with no conditions "
             "attached and no expiration date."
         ),
-        "must_show": "the two words landing — the eight's faces as never-again reaches them: the first full unbracing, shoulders dropping, a wife's tears breaking free; relief with dignity.",
-        "must_not_show": "no halo; count eight; the relief PHYSICAL — bodies unbracing after a year braced.",
+        "must_show": "the two words landing — EXACTLY FOUR MARRIED ADULT COUPLES arranged as a loose semicircle: Noah with his wife and each of their three sons beside his own wife, totaling exactly four adult men and four adult women; all eight faces and bodies visibly separate and countable as never-again reaches them: shoulders dropping, one wife's tears breaking free; relief with dignity.",
+        "must_not_show": "no fifth man, no missing fourth woman, no child, no ninth person, no merged huddle, no halo; count exactly eight; the relief PHYSICAL — bodies unbracing after a year braced.",
         "scene": (
             "Two words unbrace eight bodies at once: NEVER "
             "AGAIN moves through the little family like "
