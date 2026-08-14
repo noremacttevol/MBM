@@ -1,4 +1,4 @@
-## 2026-08-13 ~23:29 EDT (Codex complaint-fix lane) — Row 149 Hannah Is Heard **LEGACY COMPLAINT FIX INDEPENDENTLY VERIFIED; REVIEWER CLASSIFICATION SHIP PREPARED** — Machine A `Dev`
+## 2026-08-13 ~23:29 EDT (Codex complaint-fix lane) — Row 149 Hannah Is Heard **LEGACY COMPLAINT FIX INDEPENDENTLY VERIFIED + LIVE** — Machine A `Dev`
 
 After row 117 moved to Fixed, row 149 was the lowest red Reviewer card. Its card claimed
 the old “Wrong caption at 2:06” complaint was fixed, but Firestore has no `complaintHash`
@@ -19,7 +19,12 @@ as the original complained cut forever. I did not clear it on the card's word al
   complaint has no hash. The complaint stays visible, row 149 moves to **Fixed — check
   your complaint**, and row 171 correctly remains red until its own independent audit.
 
-Commit/deploy/live verification follow in this same session.
+- **Commit and live proof:** commit `6c0b4ef4a`; Firebase Hosting version
+  `8cb057876fd42cad`. The live Reviewer carries the audited replacement marker and the
+  served MP4 is byte-for-byte identical to the QC master: 20,179,467 B, standard
+  SHA-256 `5300bc0a73407a851494f510dc8326160ef46fb4bf0048589ce8fce12eda6989`.
+  Four old, non-live Firebase Hosting versions were pruned through the project's required
+  quota-recovery script before deployment; the then-live version was retained throughout.
 
 ---
 
