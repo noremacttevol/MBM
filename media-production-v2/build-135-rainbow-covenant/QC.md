@@ -194,3 +194,14 @@ each result, run the full 44-beat cut gate, and assemble on the existing locked 
 
 Ready for full-cut assembly on the locked V1-segment audio. No audio file, wording,
 voice, timing, or story beat was changed by this repair.
+
+### Rendered full-cut gate — card defect caught before ship
+
+The first assembled MP4 passed playable/decode, 44 rendered beats, captions, audio
+source hash, Whisper script truth, and the project QC gate, but frame-by-frame card QC
+caught intermittent enlarged/cropped question-card frames late in the hold. Root cause:
+the shared assembler encoded its static closing card with default H.264 B-frames and
+then stream-concatenated it at the art/card boundary. A controlled all-I test kept every
+non-fade card frame pixel-identical. The shared `v2_assemble.py` card encoder is now
+all-I (`-g 1 -bf 0`); re-cut from the banked motion base, then repeat the rendered card,
+decode, audio-hash, receipt, and QC gates before ship.

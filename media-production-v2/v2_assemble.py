@@ -50,6 +50,13 @@ INK = "0x3B2A1E"
 ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
        "-pix_fmt", "yuv420p", "-r", str(FPS), "-an"]
 
+# Closing cards are static and later stream-copied onto the captioned art track.
+# Default libx264 B-frames can decode as intermittent enlarged/cropped text after
+# that concat boundary (caught on row 135 at the full-cut gate).  An all-I card is
+# tiny in the final re-encode, deterministic, and keeps every held frame identical.
+CARD_ENC = ["-c:v", "libx264", "-preset", "medium", "-crf", "16",
+            "-pix_fmt", "yuv420p", "-r", str(FPS), "-g", "1", "-bf", "0", "-an"]
+
 
 def run(cmd):
     print(">>", " ".join(str(c) for c in cmd)[:160], flush=True)
@@ -358,7 +365,7 @@ def build_card(segs, dur, text):
     out = os.path.join(segs, "card.mp4")
     run([FF, "-y", "-f", "lavfi",
          "-i", f"color=c={CREAM}:s=1080x1920:r={FPS}:d={dur:.3f}",
-         "-vf", vf] + ENC + [out])
+         "-vf", vf] + CARD_ENC + [out])
     return out
 
 
