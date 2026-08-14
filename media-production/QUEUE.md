@@ -32,9 +32,9 @@
 > Full rules + machine assignments live in FACTORY-ORDERS.md — read that first.
 > Next job = lowest row IN YOUR MACHINE'S RANGE where Built is ⬜ and Claim is empty.
 
-> **ACTIVE COMPLAINT CLAIM — row 63, 2026-08-13, Codex on Machine A `Dev`:**
-> built and QC-passed: four distinct reference-locked replacements for 3:39/3:44/
-> 3:49/3:56, no kiss-close contact, exact audio preserved; Reviewer ship pending.
+> **ACTIVE COMPLAINT CLAIM — row 117, 2026-08-13, Codex on Machine A `Dev`:**
+> fixing Cameron's current-cut complaint that the closing-card word “dramatized” is
+> still mispronounced. Rows 44 and 63 are shipped; row 95 is already a newer Fixed cut.
 
 > 🔇 **HUM PURGE 2026-07-16 (Machine C):** Cameron caught (on headphones) a constant
 > background hum in **every** video — a synthetic sine "music bed" every build.py mixed

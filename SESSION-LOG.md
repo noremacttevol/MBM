@@ -1,4 +1,4 @@
-## 2026-08-13 ~23:09 EDT (Codex complaint-fix lane) — Row 63 The Man Born Blind **HONEST FOUR-FRAME C-FIX BUILT; REVIEWER CARD PREPARED** — Machine A `Dev`
+## 2026-08-13 ~23:09 EDT (Codex complaint-fix lane) — Row 63 The Man Born Blind **HONEST FOUR-FRAME C-FIX SHIPPED + LIVE** — Machine A `Dev`
 
 Cameron clarified that the live red Reviewer list controls priority. After row 44 shipped,
 row 63 was next. Its prior replacement was already built, but a stale
@@ -27,11 +27,12 @@ marker was not simply hidden; the complaint was treated as unresolved.
   preserve si-LOH-uhm. `JESUS-VOICE.json` reports all four Jesus lines match Alexander.
 - **Commits:** claim `cf6dc4112`; source/rule fix `d2ca3c827`; worship hardening
   `4d77e88c5`; four source stills `d9e56e2b6`; finished build `be46d259d`. Reviewer card
-  now targets `be46d259d`, removes the stale machine marker, and will classify as
+  targets `be46d259d`, removes the stale machine marker, and classifies as
   **Fixed — check your complaint** because Cameron's complaint hash remains preserved.
-
-Reviewer-card/session commit and Firebase deploy/live byte verification follow below in
-this same session.
+- **Reviewer ship verified:** card/session commit `67bf78682`; Firebase Hosting version
+  `6ed48409602a698e`. The live card has hash `be46d259d`, no machine marker, and the live
+  GitHub MP4 is byte-for-byte identical to the QC master: 22,093,318 B, SHA-256
+  `7ef5d4cf9c8cd74cbd8ce6b895daa7e4a603c0661dfa871056997447de1bd1aa`.
 
 ---
 
