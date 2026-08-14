@@ -995,12 +995,12 @@ BEATS = [
             "The first face this man ever truly studied was the face of the one "
             "who gave him his eyes."
         ),
-        "must_show": "the study — the healed man standing a natural arm's length from Jesus, his new eyes moving slowly over Jesus's face from that respectful conversational distance, learning the first face of his life, line by line.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the two men are NOT nose-to-nose and NOT touching; Jesus's hand is NOT on the man's face, chin or cheek; nothing that reads as a kiss, an embrace or intimate closeness — a natural arm's-length between them; the healed man is the same thirty-five-year-old with unruly BLACK hair and a short dark beard, never grey, never elderly, never a different face.",
+        "must_show": "the study — BOTH men visible in the same medium two-shot, the healed man standing a natural full arm's length (at least three feet) from Jesus, his new eyes moving slowly over Jesus's face from that respectful conversational distance. The healed man's face, hairline, nose, jaw and short beard match the attached BLINDMAN reference exactly.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; NOT a solo close-up and NOT a reused adjacent beat; the two men are NOT nose-to-nose and NOT touching; Jesus's hands remain down and away from the man's face, chin or cheek; no kiss, embrace, hand-on-head or intimate closeness; preserve at least three feet of clearly visible air between their torsos; the healed man is never grey, elderly or a different face.",
         "scene": (
             "In the deep gold the healed man stands a "
-            "natural, respectful arm's length from Jesus "
-            "— a normal conversational gap between them, "
+            "natural, respectful full arm's length from Jesus "
+            "— at least three feet of visible air between them, "
             "the two men clearly NOT touching — and from "
             "that distance the man's brand-new eyes move "
             "slowly, deliberately over Jesus's face, "
@@ -1022,8 +1022,8 @@ BEATS = [
         "window": "223.361-226.271", "wide": False, "jesus": False, "ref": False,
         "locks": ["BLINDMAN"],
         "narration": "And he said: Lord, I believe.",
-        "must_show": "SCRIPTURE-EXACT: the three words — close on the man's face giving them: the completed yes landing on its name at last; tears free, voice visibly steady.",
-        "must_not_show": "no halo, glare or rim-light; the belief plain-spoken — three words with a whole life behind them; the man is the same thirty-five-year-old with unruly BLACK hair and a short dark beard, never grey, never elderly, never a younger different face.",
+        "must_show": "SCRIPTURE-EXACT: the three words — close on the man's face giving them: the completed yes landing on its name at last; tears free, voice visibly steady. His facial geometry, hairline, nose, jaw and short beard match the attached BLINDMAN reference exactly.",
+        "must_not_show": "no halo, glare or rim-light; NOT a reused adjacent beat; the belief plain-spoken — three words with a whole life behind them; never grey, elderly, clean-shaven, broader-faced, shorter-haired or a different person from the BLINDMAN reference.",
         "scene": (
             "Close on the man's face in the last warm "
             "light as the three words leave him — tears "
@@ -1048,8 +1048,8 @@ BEATS = [
             "And he worshipped him, right there in the street the religious "
             "world had just thrown him out of."
         ),
-        "must_show": "SCRIPTURE-EXACT: the worship — the man down on his knees before Jesus in the open lane, passers-by turning; the synagogue's outcast holding church in the street.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; public and unashamed — the street itself the sanctuary; Jesus receiving it with grave gentleness; the kneeling man is the same thirty-five-year-old with unruly BLACK hair and a short dark beard, never grey, never elderly, never a younger clean-shaven different face.",
+        "must_show": "SCRIPTURE-EXACT: the worship — the man down on both knees in the open lane, at least three feet in front of Jesus, passers-by turning; the synagogue's outcast holding church in the street. Show the man's clear three-quarter face matching the attached BLINDMAN reference exactly.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; NOT a reused adjacent beat; Jesus does NOT touch the man's head, hair, face or body and does NOT lean toward him — his hands stay open at his own sides; preserve at least three feet of visible air; never grey, elderly, clean-shaven or a different person from the BLINDMAN reference.",
         "scene": (
             "In the open lane in the day's last gold "
             "the man goes down on both knees before "
@@ -1061,8 +1061,9 @@ BEATS = [
             "the staff laid aside on the stones — "
             "passers-by slowing and turning at the "
             "sight — while Jesus stands still and "
-            "receives it with grave gentleness, one "
-            "hand coming to rest on the bowed head: an "
+            "receives it with grave gentleness from a "
+            "full arm's length away, both hands open at "
+            "his own sides and no physical contact: an "
             "outcast and his healer, holding church on "
             "the pavement between two walls. Every "
             "figure has two arms, two hands and one "
@@ -1077,8 +1078,8 @@ BEATS = [
             "The question of whose fault it was never got an answer that day. "
             "The man got something better. He got found."
         ),
-        "must_show": "the closing image — the two walking away together down the lane into the warm dusk, side by side, the man's staff left leaning against the wall behind them.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the abandoned staff the quiet coda — the old navigation no longer needed; found, and keeping company with the finder. CRITICAL: the healed man is EMPHATICALLY NOT grey-haired and NOT elderly — he is the same thirty-five-year-old with unruly BLACK hair and a short DARK beard as in every other shot; not an old man, not a grey beard, not a different face.",
+        "must_show": "the distinct closing image — a front three-quarter view of the two walking away together down the lane into warm dusk, side by side with a natural gap; the healed man's face remains clearly visible and matches the attached BLINDMAN reference exactly; his staff is left leaning against the wall behind them.",
+        "must_not_show": "no halo, glare or rim-light on Jesus; NOT the kneeling worship image and NOT a reused adjacent beat; no physical contact, no hand on shoulder, no embrace; the two walk with visible space between them. CRITICAL: the healed man is never grey-haired, elderly, clean-shaven or a different face — exact BLINDMAN-reference facial geometry, unruly black hair and short dark beard.",
         "scene": (
             "Down the lane into the warm dusk the two "
             "walk away side by side — the healed man is "
@@ -1086,9 +1087,9 @@ BEATS = [
             "BLACK hair and a short DARK beard as "
             "throughout, emphatically NOT grey and NOT "
             "elderly — his head still turning at the "
-            "world's endless visible surprises, Jesus's "
-            "hand briefly on his shoulder at something "
-            "said between them — and behind them at the "
+            "world's endless visible surprises, with a "
+            "natural gap between him and Jesus and no "
+            "physical contact — and behind them at the "
             "wall, "
             "leaning where it was set down and forgot, "
             "the worn staff stays behind with the "

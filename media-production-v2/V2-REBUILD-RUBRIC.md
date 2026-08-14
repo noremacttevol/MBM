@@ -337,6 +337,9 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
 3. Read the complete narration and scripture passage. Write a beat map that covers
    every physical event, emotional turn, and important spoken line. Do not reuse
    one vague picture for several different events.
+   A complaint naming multiple timestamps is literal: repair and encoded-QC every
+   named picture. An adjacent-frame copy or extended hold is not a repair, and
+   matching only age/hair does not establish recurring-face identity.
 4. Add stable person/setting locks and the right image references. State
    `must_show` and `must_not_show` for every beat.
 5. Run `python3 media-production-v2/v2_story_cast.py <build>` (per-story faces)

@@ -53,6 +53,15 @@ may never pass it. A stale `RUNNING` claim does not hide the row: verify recent
 activity, and if no worker is actually running or committing that fix, take over the
 claim and finish it. As of this clarification, #44 Pentecost is first.
 
+When Cameron names several bad timestamps, **every named picture must receive its
+own honest fix**. Do not copy an adjacent still into a complained slot, extend a
+hold, crop around it, or call a different composition "fixed" merely because the
+worst object disappeared. Reuse is allowed only when Cameron explicitly asks to
+remove that shot or the reused frame actually depicts the same beat and was not
+one of the pictures he rejected. Verify each timestamp in the encoded replacement,
+side by side with the locked character reference; same hair color and age are not
+proof of the same face.
+
 
 ## 0. THE THREE OPERATING LAWS FOR EVERY CLAUDE ON EVERY COMPUTER (Cameron, 2026-07-10 — read before ANY video work)
 
