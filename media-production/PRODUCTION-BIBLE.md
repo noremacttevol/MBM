@@ -62,6 +62,13 @@ one of the pictures he rejected. Verify each timestamp in the encoded replacemen
 side by side with the locked character reference; same hair color and age are not
 proof of the same face.
 
+When Cameron rejects a pronunciation, a different waveform of the same plain TTS
+spelling is **not a fix**. The repaired source must contain persistent pronunciation
+control and the chosen model must actually support it. For ElevenLabs CMU/IPA phoneme
+tags, use a supported model, keep the visible caption spelling unchanged, round-trip
+transcribe the rendered segment, and verify the exact finished MP4 before moving the
+row to Fixed. Acoustic measurements never overrule Cameron hearing the shipped cut.
+
 
 ## 0. THE THREE OPERATING LAWS FOR EVERY CLAUDE ON EVERY COMPUTER (Cameron, 2026-07-10 — read before ANY video work)
 

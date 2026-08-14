@@ -63,6 +63,14 @@ SPOKEN = {}
 async def main():
     os.makedirs("audio", exist_ok=True)
     for name, speaker, text in SEGMENTS:
+        if name == "card":
+            # Cameron rejected plain-spelling rerolls of “dramatized.” This
+            # calls the persistent Flash-v2 CMU phoneme fix and touches only
+            # the closing card. See revoice_card.py for the exact pronunciation.
+            from revoice_card import render_card
+            render_card()
+            print("saved audio/card.mp3  [narrator; forced DRAM-uh-tized]")
+            continue
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")

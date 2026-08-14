@@ -4,6 +4,16 @@ Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 38 beats, ~215 s.
 
 ## COMPLAINT LEDGER
+- **C-FIX #2 IN PROGRESS 2026-08-13 (AUDIO):** Cameron heard the shipped
+  `33b7d3ba10fa…` cut and confirmed “dramatized” was still wrong. The earlier
+  fix had not saved any pronunciation control and its later “objectively optimal”
+  verdict incorrectly overruled Cameron's ears. The new source-level fix keeps
+  Brian but renders only the card through ElevenLabs Flash v2 with the exact
+  CMUdict phonemes `D R AE1 M AH0 T AY2 Z D` (DRAM-uh-tized); Flash v2 is used
+  because the prior Multilingual v2 model ignores phoneme tags. The visible word,
+  all other audio, all 38 pictures, and the segment duration remain unchanged.
+  New card Whisper: `dramatized`, probability 0.978. Finished-MP4 verification
+  and Reviewer ship are pending below.
 - **CLOSED 2026-08-13 (AUDIO):** Cameron — *"it was all good until the very
   end where you miss pronounced 'Dramatized' — fix that audio at the very end
   and its good."* → FIXED: the closing question card's first word "dramatized"
