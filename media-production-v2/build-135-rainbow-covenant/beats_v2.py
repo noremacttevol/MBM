@@ -691,8 +691,8 @@ BEATS = [
             "Never again. That is the whole promise, with no conditions "
             "attached and no expiration date."
         ),
-        "must_show": "the two words landing — EXACTLY FOUR MARRIED ADULT COUPLES arranged as a loose semicircle: Noah with his wife and each of their three sons beside his own wife, totaling exactly four adult men and four adult women; all eight faces and bodies visibly separate and countable as never-again reaches them: shoulders dropping, one wife's tears breaking free; relief with dignity.",
-        "must_not_show": "no fifth man, no missing fourth woman, no child, no ninth person, no merged huddle, no halo; count exactly eight; the relief PHYSICAL — bodies unbracing after a year braced.",
+        "must_show": "the two words landing — a true full-height VERTICAL PHOTOGRAPH, naturally continuous from sky at the top through the people to real ground at the bottom. EXACTLY FOUR MARRIED ADULT COUPLES arranged in two staggered rows that fit the portrait frame: Noah with his wife and each of their three sons beside his own wife, totaling exactly four adult men and four adult women; all eight faces and bodies visibly separate and countable as never-again reaches them: shoulders dropping, one wife's tears breaking free; relief with dignity.",
+        "must_not_show": "no horizontal inset, no letterbox, no blurred bars, no duplicated or artificially extended background, no fifth man, no missing fourth woman, no child, no ninth person, no merged huddle, no halo; count exactly eight; the relief PHYSICAL — bodies unbracing after a year braced.",
         "scene": (
             "Two words unbrace eight bodies at once: NEVER "
             "AGAIN moves through the little family like "

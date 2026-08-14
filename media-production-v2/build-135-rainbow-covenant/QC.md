@@ -165,3 +165,16 @@ Authoring repair applied before spending another generation credit:
 
 Next gate: prompt check, then regenerate only b06/b09/b25/b27, visually count 4m/4f in
 each result, run the full 44-beat cut gate, and assemble on the existing locked audio.
+
+### Generation gate — attempt 1
+
+- b06: PASS — exactly four adult men and four adult women, eight total, natural arc.
+- b09: PASS — exactly four adult men and four adult women, eight total, one cloud.
+- b25: PASS — exactly four adult men and four adult women, eight total, wet grass and
+  open ark door behind them.
+- b27: **REJECTED before assembly** — the people/count passed, but the model composed a
+  landscape group inside a horizontal strip and filled the vertical canvas with blurred
+  bars. Prompt verdict **ALLOWED**: four-couple semicircle implied a wide composition and
+  the beat did not explicitly require continuous full-height portrait geometry. Added
+  that positive geometry and explicit no-letterbox/no-blurred-bars constraints; reroll
+  only b27.
