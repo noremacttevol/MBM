@@ -1,3 +1,38 @@
+## 2026-08-13 ~23:24 EDT (Codex complaint-fix lane) — Row 117 Hosea Buys Her Back **EXACT PRONUNCIATION C-FIX BUILT; REVIEWER SHIP PREPARED** — Machine A `Dev`
+
+The current red Reviewer list after rows 44/63 was checked from the actual card hashes:
+row 95 was already a newer Fixed cut, so row 117 was the lowest genuinely red complaint.
+Cameron heard the current `33b7d3ba10fa…` cut and said its closing “dramatized” was still
+wrong. The old audio-fix claim was invalid: it had generated the same plain spelling and
+saved no pronunciation control, then an investigation incorrectly let acoustic measurements
+overrule Cameron hearing the delivered video.
+
+- **Real source fix:** only the 13-second closing-card audio was regenerated, still with
+  Brian, using ElevenLabs Flash v2 plus CMUdict `D R AE1 M AH0 T AY2 Z D` — exact
+  DRAM-uh-tized, first-syllable stress. Flash is deliberate because the previously used
+  Multilingual v2 model ignores phoneme tags. The forced pronunciation lives in
+  `revoice_card.py` and the authoritative row-117 narration builder calls it, so a future
+  rebuild cannot silently regress to the plain-word reroll.
+- **Nothing else changed:** all other source audio segments, every word, timing, and all
+  38 pictures are unchanged. The new MP4's video packet SHA-256 is exactly the old one's
+  `82a386ea…`; only the audio stream changed (`a1b0fcc7…`). $0 Gemini / zero picture rerolls.
+- **Finished-video QC:** source card Whisper = `dramatized` p=0.978; exact encoded MP4
+  card = `dramatized` p=0.963. `verify-mp4.sh`, full decode, exact content receipt,
+  closing-card visual inspection, and project `qc_gate.py` with Whisper all PASS.
+  229.800 s / 20,836,262 B / standard SHA-256
+  `a2abfbdd1509aa8f317e31704a44e0f1db7474e502bf233dfe1c976dae80328e`.
+- **Durable correction:** `PRODUCTION-BIBLE.md` and `CLAUDE.md` now require a rejected
+  pronunciation to change persistent source control on a model that supports it; a new
+  waveform or F0/formant claim is not allowed to overrule Cameron's ears.
+- **Commits:** claim `e8bc62c8d`; source/audio/rule fix `1b480ecc7`; finished build
+  `deac5034b`. Reviewer card now targets `deac5034b`, preserves the complaint, and removes
+  row 117 from red into **Fixed — check your complaint** once this ship deploys.
+
+Reviewer-card/session commit, Firebase deploy, and live byte verification follow in this
+same session.
+
+---
+
 ## 2026-08-13 ~23:09 EDT (Codex complaint-fix lane) — Row 63 The Man Born Blind **HONEST FOUR-FRAME C-FIX SHIPPED + LIVE** — Machine A `Dev`
 
 Cameron clarified that the live red Reviewer list controls priority. After row 44 shipped,
