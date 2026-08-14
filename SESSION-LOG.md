@@ -1,3 +1,18 @@
+## 2026-08-13 ~22:44 EDT (Codex complaint-fix lane) — Row 44 Pentecost **C-FIX BUILT + REVIEWER CARD PREPARED — lowest live complaint first** — Machine A `Dev`
+
+Cameron clarified that "lowest" means the lowest-numbered card in the live red **Complained — machine is fixing** Reviewer list. I had incorrectly treated the production board's lowest unclaimed row as controlling and built row 135 first. Row 135's finished build was safely pushed (`ef724d41e`) but its Reviewer publication was stopped. The correction is now durable in `PRODUCTION-BIBLE.md` + `CLAUDE.md`: the live Complained list outranks every other board, stale claims are verified/taken over, and #44 was first. Claim/rule commit `771c0fc71`; author-fix commit `6741a8cbf`.
+
+- **Exact complaint:** "1:38 picture needs to be redone there are buildings in the sky. Same problem again. Replace that picture" against hash `102f1cbbd06f…`. Traced 1:38 to b17/s17 (95.17–101.70); the source still itself carried a second vertical layer of Jerusalem buildings floating above the ground city.
+- **Prompt autopsy = ALLOWED.** The old tight crowd beat left its background unbounded while the Jerusalem place lock named houses/walls beyond. Hardened b17 to one chest-to-head ground-level close with NO SKY and one continuous wall; banned skyline/roof/tower/fog seam/floating or duplicated architecture/panels/second perspective. Added permanent rubric lesson 23.
+- **One-frame fix:** generated ONLY b17. Gemini timed out twice, then returned one saved native-2K result; only the saved result logged, **1 paid image ≈ $0.13**. Full-res source PASS: exactly three grieving adults, natural anatomy/hand, period dress, one wall, no sky/buildings. Other 23 stills untouched.
+- **FULL-CUT GATE:** viewed all 24 rendered beats + b17 at 96/98/100s + card at 139/142/145s. Realistic-only, cast/action/anatomy/flame/caption/card gates PASS. `verify-mp4.sh` + full decode PASS. Narration ear-check all 11 segments PASS. Final project `qc_gate.py` PASS with Whisper and exact-byte receipt; 20,937,218 B / 146.300s; MP4 SHA-256 `6216228a2fc8…`.
+- **Audio untouched:** old and new encoded-audio packet SHA-256 both `954a7f75990aedbf47d98313f1ef8c3c487407af38d8f376b17b2ab2a13d5d14` — no voice, word, pause or timing changed.
+- **Ship commit A:** `db056b64baa3f65ede9205bbe1c868b65dac63c1`. Reviewer card now points at that V2 MP4/hash and answers Cameron's complaint in his words; the new hash returns row 44 to Unwatched while Firestore retains the prior complaint.
+
+Commit: this SESSION-LOG + Reviewer-card commit below; deploy/live verification follows in this same session.
+
+---
+
 ## 2026-08-13 ~19:45 UTC (Opus picture-runner lane, unattended/headless) — AUTHOR-BOARD row 159 "Other sheep I have" (John 10:16) **SHIPPED realistic-v2 — endpoint recovered, 20 stills, 2 rerolls/10%** — Machine A `Dev`
 
 Session-chain verified at start: prior top entry was row 159 PARK #4 (endpoint outage), its commit `4a6fab6ad` present in `git log`; three NEWER commits (`54dd9d484` row 138, `ed8ecc807` row 160, `bf1a71566` row 163 CLAIMs) proved the `gemini-3-pro-image` endpoint **RECOVERED** (real 200/20.9s JPEG after the ~6.5h 503 outage) and other lanes were live. `hostname`=Dev=Machine A. Task = run next Ready rows starting AUTHOR-BOARD row 162 — but under THE LOW-NUMBER LAW the true next Ready+empty-claim row was **159** (lower than 162; 160/163 were RUNNING under other lanes, hands-off).
@@ -166,4 +181,3 @@ Commit: this SESSION-LOG commit below (row 162 park)
 Screenshot complaint on review.html: Complained section sat below New and sorted longest-waiting-first. FIX (deployed + live-verified): section order now Fixed -> Complained -> New -> Old -> Approved, and the card sort in EVERY bin is `a.num-z.num` (row number ascending, wait-time ordering removed — his LOW-NUMBER law now governs the PAGE, not just the build queue). Section notes updated to say "lowest number first". $0.
 
 ---
-
