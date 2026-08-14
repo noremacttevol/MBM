@@ -4,7 +4,7 @@ Lesson-12 + complaint-corpus pass done 2026-08-05 (Machine A). `--check`
 PASSES, zero WARNs. 38 beats, ~215 s.
 
 ## COMPLAINT LEDGER
-- **C-FIX #2 IN PROGRESS 2026-08-13 (AUDIO):** Cameron heard the shipped
+- **C-FIX #2 BUILT + QC-PASSED 2026-08-13 (AUDIO):** Cameron heard the shipped
   `33b7d3ba10fa…` cut and confirmed “dramatized” was still wrong. The earlier
   fix had not saved any pronunciation control and its later “objectively optimal”
   verdict incorrectly overruled Cameron's ears. The new source-level fix keeps
@@ -12,8 +12,13 @@ PASSES, zero WARNs. 38 beats, ~215 s.
   CMUdict phonemes `D R AE1 M AH0 T AY2 Z D` (DRAM-uh-tized); Flash v2 is used
   because the prior Multilingual v2 model ignores phoneme tags. The visible word,
   all other audio, all 38 pictures, and the segment duration remain unchanged.
-  New card Whisper: `dramatized`, probability 0.978. Finished-MP4 verification
-  and Reviewer ship are pending below.
+  New card Whisper: `dramatized`, probability 0.978. In the finished MP4 the word
+  round-trips as `dramatized` at probability 0.963. The prior approved video stream
+  is packet-for-packet identical (`82a386ea…`); only the audio stream changed
+  (`a1b0fcc7…`). `verify-mp4.sh`, full decode, content-hash receipt, closing-card
+  visual check and `admin/qc_gate.py` with Whisper all PASS. Final: 229.800 s,
+  20,836,262 B, standard MP4 SHA-256 `a2abfbdd1509aa8f317e31704a44e0f1db7474e502bf233dfe1c976dae80328e`.
+  Reviewer ship remains pending.
 - **CLOSED 2026-08-13 (AUDIO):** Cameron — *"it was all good until the very
   end where you miss pronounced 'Dramatized' — fix that audio at the very end
   and its good."* → FIXED: the closing question card's first word "dramatized"
