@@ -1,4 +1,4 @@
-## 2026-08-13 ~23:34 EDT (Codex complaint-fix lane) — Row 171 Baptized For the Dead **LEGACY COMPLAINT FIX INDEPENDENTLY VERIFIED; REVIEWER SHIP PREPARED** — Machine A `Dev`
+## 2026-08-13 ~23:34 EDT (Codex complaint-fix lane) — Row 171 Baptized For the Dead **LEGACY COMPLAINT FIX INDEPENDENTLY VERIFIED + LIVE** — Machine A `Dev`
 
 After row 149 moved to Fixed, row 171 was the only remaining red Reviewer complaint.
 Its card claimed the old “first picture … scripture that roll like that on 2 edges”
@@ -17,7 +17,14 @@ tracking. I verified the actual encoded replacement before changing its classifi
   remain unchanged. The complaint stays visible; the explicit audited legacy marker moves
   row 171 to **Fixed — check your complaint** instead of falsely leaving it red forever.
 
-Commit/deploy/live verification follow in this same session.
+- **Commit and live proof:** commit `cb3594cd3`; Firebase Hosting version
+  `e1e140b8ff5c9fd4`. The live Reviewer carries the audited replacement marker;
+  the served MP4 is byte-for-byte identical to the QC master at 19,877,733 B and
+  standard SHA-256 `6ac92ea26b34a0e8720ca888e1c33d74183a41653b551ddd87a741ba5ab54e15`.
+- **Complaint queue result:** using the current approval/complaint state against the
+  deployed page, the red **Complained — machine is fixing** list is now empty. All six
+  rows from Cameron's screenshot (44, 63, 95, 117, 149, 171) classify as replacement
+  cuts under **Fixed — check your complaint**, with their complaint text retained.
 
 ---
 
