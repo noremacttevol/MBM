@@ -1,3 +1,26 @@
+## 2026-08-13 ~23:34 EDT (Codex complaint-fix lane) — Row 171 Baptized For the Dead **LEGACY COMPLAINT FIX INDEPENDENTLY VERIFIED; REVIEWER SHIP PREPARED** — Machine A `Dev`
+
+After row 149 moved to Fixed, row 171 was the only remaining red Reviewer complaint.
+Its card claimed the old “first picture … scripture that roll like that on 2 edges”
+complaint was fixed, but Firestore has no `complaintHash` because it predates hash
+tracking. I verified the actual encoded replacement before changing its classification.
+
+- **Exact first-picture audit:** inspected source b01 and encoded frames at 0.1/1/3/5/7
+  seconds. The picture is Paul speaking to people in a Corinthian harbour portico: no
+  scroll, scripture writing, rolled/curling edge, frame, border, or panel.
+- **Full-cut audit:** complete rendered contact sheet every four seconds plus closing card
+  is clean; the rejected scroll/panel never recurs and captions stay in the bottom band.
+- **Technical proof:** V2 prompt check 15/15 PASS, `verify-mp4.sh` PASS, full decode PASS,
+  exact render receipt, and project QC gate with Whisper PASS. 74.466667 s / 19,877,733 B /
+  standard SHA-256 `6ac92ea26b34a0e8720ca888e1c33d74183a41653b551ddd87a741ba5ab54e15`.
+- **No needless rebuild:** all pictures, audio, captions, timing, and finished-video bytes
+  remain unchanged. The complaint stays visible; the explicit audited legacy marker moves
+  row 171 to **Fixed — check your complaint** instead of falsely leaving it red forever.
+
+Commit/deploy/live verification follow in this same session.
+
+---
+
 ## 2026-08-13 ~23:29 EDT (Codex complaint-fix lane) — Row 149 Hannah Is Heard **LEGACY COMPLAINT FIX INDEPENDENTLY VERIFIED + LIVE** — Machine A `Dev`
 
 After row 117 moved to Fixed, row 149 was the lowest red Reviewer card. Its card claimed

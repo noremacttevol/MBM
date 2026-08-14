@@ -121,3 +121,25 @@ $6.10/row baseline; 0% rerolls beats the 19% average** (COST LAW trend DOWN).
 
 **RESUME (if ever needed):** all art in `assets/`, plates promoted, windows remapped, mp4 built.
 Re-assemble = `python3 media-production-v2/v2_assemble.py 171` (must print AUDIO REBUILD PASS).
+
+---
+
+## INDEPENDENT LEGACY-COMPLAINT AUDIT — 2026-08-13, Codex `Dev`
+
+The complaint predates Reviewer hash tracking (`complaintHash: null`), so I did not accept
+the earlier “fixed” note without checking the encoded replacement itself.
+
+- Inspected the source b01 and encoded frames at 0.1, 1, 3, 5, and 7 seconds. The first
+  picture is Paul speaking to real people in a Corinthian harbour portico. It contains
+  **no scroll, scripture writing, curled/rolled edge, border, or picture panel**.
+- Inspected a complete rendered-video contact sheet sampled every four seconds plus the
+  closing card. The rejected scroll/panel does not recur; captions remain in the bottom
+  band and the closing card is clean.
+- `v2_prompt.py --check` PASS (15/15); `verify-mp4.sh` PASS; full ffmpeg decode PASS;
+  exact content-hash render receipt recorded; `admin/qc_gate.py` with Whisper PASS.
+- Final MP4 remains byte-unchanged: 74.466667 s / 19,877,733 B / standard SHA-256
+  `6ac92ea26b34a0e8720ca888e1c33d74183a41653b551ddd87a741ba5ab54e15`.
+
+Verdict: the existing realistic V2 cut genuinely fixes Cameron's complaint. No picture,
+audio, timing, caption, or finished-video bytes were changed. Reviewer classification may
+mark this audited legacy complaint as a replacement while retaining the complaint text.
