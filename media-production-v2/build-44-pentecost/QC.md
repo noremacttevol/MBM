@@ -52,3 +52,28 @@ hash as Unwatched with this complaint retained.
 
 Next gate: assemble against the unchanged existing audio, then inspect the rendered
 replacement at 96/98/100 seconds and the full 24-beat cut.
+
+### Final rendered full-cut gate — PASS
+
+- Reassembled all 24 still beats with the existing 11-segment audio. Old complained
+  cut and new cut have the identical encoded-audio packet SHA-256
+  `954a7f75990aedbf47d98313f1ef8c3c487407af38d8f376b17b2ab2a13d5d14`:
+  no voice, word, pause, or timing changed.
+- Rendered b17 inspected at 96, 98 and 100 seconds. The slow crop remains entirely on
+  the three grieving adults and one continuous wall; no sky or floating architecture
+  enters at any point. Caption is synchronized and inside the bottom band.
+- Extracted and viewed one midpoint frame from every rendered beat, 1–24, in story
+  order. Realistic-only, Peter/cast continuity, flame-not-burning law, anatomy,
+  period setting, actions, captions, and scene logic all PASS. No unrelated still was
+  regenerated.
+- Closing card viewed at 139, 142 and 145 seconds: stable full frame, clean serif text,
+  no crop/jump/typo-square. Question/invitation remains readable.
+- Narration ear/transcript check PASS for all 11 existing source segments (nine at
+  1.00 match, s2 at 0.97, n6 at 0.98). `verify-mp4.sh` PASS and full ffmpeg decode
+  PASS. Final MP4: 1080×1920 H.264/AAC mono, 146.300s video / 146.283s audio,
+  20,937,218 bytes; standard MP4 SHA-256
+  `6216228a2fc822908e4f45a69af780be0b75aa36094b468832a116349dac7a88`.
+
+Exact-byte render receipt recorded for the final 20,937,218-byte MP4. Final
+`admin/qc_gate.py` PASS with Whisper enabled and zero reasons. Ready for Reviewer
+publication as a new Unwatched revision with Cameron's prior complaint retained.
