@@ -205,3 +205,24 @@ then stream-concatenated it at the art/card boundary. A controlled all-I test ke
 non-fade card frame pixel-identical. The shared `v2_assemble.py` card encoder is now
 all-I (`-g 1 -bf 0`); re-cut from the banked motion base, then repeat the rendered card,
 decode, audio-hash, receipt, and QC gates before ship.
+
+### Final rendered full-cut gate — PASS
+
+- Reassembled from the banked motion base with the all-I card encoder. Seven PNG
+  samples spanning 251–262 seconds show one stable, full-frame question card through
+  its fade and hold: no enlargement, crop, jump, strip, or blurred bars.
+- Viewed all 44 rendered beat frames in chronological order. Story order, actions,
+  captions, family counts, and closing question are correct; captions remain inside
+  the bottom band. The four complaint frames each show exactly four adult men and four
+  adult women.
+- Final MP4 is 1080×1920 H.264/AAC mono, 263.3667 seconds of video and 263.3380 seconds
+  of audio. `verify-mp4.sh` and a complete ffmpeg decode both PASS.
+- The final cut's audio packet hash is
+  `3a8e491833182425fd7c4245b8cc6fda34bffd2a4313d2dbb0007b5f79748507`, unchanged
+  across the repair/reassembly. All 19 locked V1 source segments passed the narration
+  ear/transcript check; no audio, wording, timing, or voice was replaced.
+
+Exact-byte render receipt recorded for the 21,539,847-byte MP4. Final
+`admin/qc_gate.py` PASS with Whisper enabled and zero reasons; standard MP4 SHA-256 is
+`7026eb7851e129b5244f3822a06379af986c57491b26f880ab4d34a85278dbfa`.
+Ready to publish as a new Unwatched Reviewer revision with the complaint retained.
