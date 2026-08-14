@@ -36,3 +36,19 @@ Before ship: prompt/face gates, inspect the native source at full resolution,
 assemble, prove the audio packet hash unchanged, view all 24 rendered beats plus
 captions/card, run exact-byte receipt and full project QC, publish a new Reviewer
 hash as Unwatched with this complaint retained.
+
+### Replacement source gate — PASS
+
+- One successful Gemini 2K generation, approximately **$0.13**. The endpoint timed
+  out twice before the successful retry; only the saved result was entered in the
+  spend ledger.
+- Full-resolution source inspected at 1536×2752. Exactly three separate grieving
+  adults fill the frame chest-to-head; the first man's hand is naturally attached
+  with five digits, the other bodies and faces are clean, and first-century clothing
+  is coherent.
+- Background is one continuous softly blurred pale-limestone wall. No visible sky,
+  skyline, roof, tower, floating/duplicated architecture, fog seam, panel, collage,
+  or second perspective. Cameron's 1:38 complaint is visually absent in the source.
+
+Next gate: assemble against the unchanged existing audio, then inspect the rendered
+replacement at 96/98/100 seconds and the full 24-beat cut.
