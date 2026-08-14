@@ -1,4 +1,4 @@
-## 2026-08-13 ~23:24 EDT (Codex complaint-fix lane) — Row 117 Hosea Buys Her Back **EXACT PRONUNCIATION C-FIX BUILT; REVIEWER SHIP PREPARED** — Machine A `Dev`
+## 2026-08-13 ~23:24 EDT (Codex complaint-fix lane) — Row 117 Hosea Buys Her Back **EXACT PRONUNCIATION C-FIX SHIPPED + LIVE** — Machine A `Dev`
 
 The current red Reviewer list after rows 44/63 was checked from the actual card hashes:
 row 95 was already a newer Fixed cut, so row 117 was the lowest genuinely red complaint.
@@ -26,10 +26,11 @@ overrule Cameron hearing the delivered video.
   waveform or F0/formant claim is not allowed to overrule Cameron's ears.
 - **Commits:** claim `e8bc62c8d`; source/audio/rule fix `1b480ecc7`; finished build
   `deac5034b`. Reviewer card now targets `deac5034b`, preserves the complaint, and removes
-  row 117 from red into **Fixed — check your complaint** once this ship deploys.
-
-Reviewer-card/session commit, Firebase deploy, and live byte verification follow in this
-same session.
+  row 117 from red into **Fixed — check your complaint**.
+- **Reviewer ship verified:** card/session commit `94529e848`; Firebase Hosting version
+  `b15d87ae1babbbb2`. Live card hash is `deac5034b`, and the served MP4 is byte-for-byte
+  identical to the QC master: 20,836,262 B, standard SHA-256
+  `a2abfbdd1509aa8f317e31704a44e0f1db7474e502bf233dfe1c976dae80328e`.
 
 ---
 
