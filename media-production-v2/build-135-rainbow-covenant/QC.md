@@ -178,3 +178,19 @@ each result, run the full 44-beat cut gate, and assemble on the existing locked 
   the beat did not explicitly require continuous full-height portrait geometry. Added
   that positive geometry and explicit no-letterbox/no-blurred-bars constraints; reroll
   only b27.
+
+### Generation gate — final replacements
+
+- b27 reroll: PASS — continuous 9:16 portrait, exactly four adult men and four adult
+  women in four readable couples, eight total; physical relief reads clearly; anatomy,
+  garments, ground contact, background, and edge closure clean.
+- Full asset contact-sheet gate: PASS — all 44 stills re-viewed in order; no cartoon
+  frames, panels, modern objects, embodied deity, bodies/wreckage, or new scene-logic
+  defects. Every output is native 1536×2752. The family-count audit remains clean in the
+  previously accepted family frames; b38's explicitly authored child is the one allowed
+  exception.
+- Final paid work by Codex: 5 image generations (the four complaint replacements plus
+  one b27 format correction), about **$0.67**; cross-session meter $721.05.
+
+Ready for full-cut assembly on the locked V1-segment audio. No audio file, wording,
+voice, timing, or story beat was changed by this repair.
