@@ -1,4 +1,4 @@
-## 2026-08-13 ~22:44 EDT (Codex complaint-fix lane) — Row 44 Pentecost **C-FIX BUILT + REVIEWER CARD PREPARED — lowest live complaint first** — Machine A `Dev`
+## 2026-08-13 ~22:44 EDT (Codex complaint-fix lane) — Row 44 Pentecost **C-FIX SHIPPED + LIVE — lowest live complaint first** — Machine A `Dev`
 
 Cameron clarified that "lowest" means the lowest-numbered card in the live red **Complained — machine is fixing** Reviewer list. I had incorrectly treated the production board's lowest unclaimed row as controlling and built row 135 first. Row 135's finished build was safely pushed (`ef724d41e`) but its Reviewer publication was stopped. The correction is now durable in `PRODUCTION-BIBLE.md` + `CLAUDE.md`: the live Complained list outranks every other board, stale claims are verified/taken over, and #44 was first. Claim/rule commit `771c0fc71`; author-fix commit `6741a8cbf`.
 
@@ -8,8 +8,10 @@ Cameron clarified that "lowest" means the lowest-numbered card in the live red *
 - **FULL-CUT GATE:** viewed all 24 rendered beats + b17 at 96/98/100s + card at 139/142/145s. Realistic-only, cast/action/anatomy/flame/caption/card gates PASS. `verify-mp4.sh` + full decode PASS. Narration ear-check all 11 segments PASS. Final project `qc_gate.py` PASS with Whisper and exact-byte receipt; 20,937,218 B / 146.300s; MP4 SHA-256 `6216228a2fc8…`.
 - **Audio untouched:** old and new encoded-audio packet SHA-256 both `954a7f75990aedbf47d98313f1ef8c3c487407af38d8f376b17b2ab2a13d5d14` — no voice, word, pause or timing changed.
 - **Ship commit A:** `db056b64baa3f65ede9205bbe1c868b65dac63c1`. Reviewer card now points at that V2 MP4/hash and answers Cameron's complaint in his words; the new hash returns row 44 to Unwatched while Firestore retains the prior complaint.
+- **Deployed + byte-verified live:** Firebase hosting release succeeded. Live `review.html` carries row-44 hash `db056b64baa3f65ede9205bbe1c868b65dac63c1`; the served GitHub MP4 is HTTP-successful, 20,937,218 bytes, and SHA-256 `6216228a2fc822908e4f45a69af780be0b75aa36094b468832a116349dac7a88`, exactly matching local. The old complaint hash differs, so the front end classifies this as **Fixed — check your complaint** (an unwatched replacement), not **Complained — machine is fixing**. `publish_ledger.py status 44` = ON REVIEWER, awaiting Cameron. Live approval dump hit the known Firestore read-quota limit and fell back stale for ledger display only; no complaint/approval state was written or cleared.
+- **Memory fed:** `v2_stash.py --scan` now indexes all 24 row-44 stills (4,426 total shipped stills / 170 source builds); `publish_ledger.py sync --commit` commit `a7d9a2d5e` refreshed the board with no app-gallery publish, as required before Cameron approves.
 
-Commit: this SESSION-LOG + Reviewer-card commit below; deploy/live verification follows in this same session.
+Commits: Reviewer-card/session commit `5a60154a8`; publish-loop commit `a7d9a2d5e`; final live-verification/stash commit below.
 
 ---
 

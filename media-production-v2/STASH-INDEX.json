@@ -1,5 +1,5 @@
 {
- "scanned": "2026-08-13 15:17:42",
+ "scanned": "2026-08-13 22:45:50",
  "entries": [
   {
    "row": 1,
@@ -24802,7 +24802,7 @@
    "wide": false,
    "night": false,
    "n_person": 0,
-   "scene": "Close on two or three faces in the crowd, shot intimately among them: one man has pressed his hand hard flat against his own chest, head dropping; beside him another stands with his eyes squeezed shut; a woman's cheeks a"
+   "scene": "ONE continuous tight eye-level close at ground level, framed chest-to-head on exactly three adults so the camera cannot see the sky or skyline. One man has pressed one hand hard flat against his own chest, head dropping;"
   },
   {
    "row": 44,
@@ -56907,6 +56907,635 @@
    "scene": "The last fact is the best one, the camera looking across the meadow from the rise, taking the resting country from the side: through the soft morning a scatter of figures rests easy in the green \u2014 seated by the stream, w"
   },
   {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b01",
+   "file": "build-135-rainbow-covenant/assets/s01-the-rain-had-stopped.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The loudest year in history ends in three words of quiet: the silver morning hangs still over washed green slopes, the last raindrops letting go of leaf-tips one by one into the hush, thin mist standing in the valleys li"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b02",
+   "file": "build-135-rainbow-covenant/assets/s02-here-is-the-first-thing.jpeg",
+   "tokens": [
+    "ALTAR",
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The new world's first construction is not a roof: Noah bends on the open slope setting a rough field stone onto the low ring of an altar half-built, his white beard bright in the washed light \u2014 and around him the other s"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b03",
+   "file": "build-135-rainbow-covenant/assets/s03-then-one-morning-the-ark.jpeg",
+   "tokens": [
+    "ARK",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "The morning it all went still, the camera set low on the slope taking the great hull from the side: the ark aground at last on the green mountain shoulder \u2014 vast, weathered, barn-high, tilted gently into the grass like a"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b04",
+   "file": "build-135-rainbow-covenant/assets/s04-there-were-eight-of-them.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The census of mankind takes one glance: eight figures stand on the wet green slope \u2014 Noah white-bearded at their front, his wife at his arm, three sons, three sons' wives, huddled close in the enormous silver quiet \u2014 and"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b05",
+   "file": "build-135-rainbow-covenant/assets/s05-the-whole-human-story-was.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Page one gets its first marks: in the clean unmarked mud of the slope the family's fresh footprints press one after another away from the ark's shadow \u2014 the first human tracks of the second beginning \u2014 and above them the"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b06",
+   "file": "build-135-rainbow-covenant/assets/s06-be-fruitful-and-multiply-and.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The first words of the new world come down as weather: the eight stand with faces lifted while the silver sky opens its first true breadth of warm light over them \u2014 be FRUITFUL, multiply, FILL it \u2014 the blessing arriving "
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b07",
+   "file": "build-135-rainbow-covenant/assets/s07-fill-it-back-up-go.jpeg",
+   "tokens": [
+    "ARK",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The cargo hears the same commission: down the ark's great ramp the animals come in their calm unhurried pairs \u2014 deer stepping high through the wet grass, oxen swaying, birds unspooling into the washed air in ribbons \u2014 th"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b08",
+   "file": "build-135-rainbow-covenant/assets/s08-eight-people-standing-in-the.jpeg",
+   "tokens": [
+    "FAMILY",
+    "ARK",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "What they survey and what surveys them, the camera set behind the eight's backs at the slope's edge: below them the drowned world lies clean in its aftermath \u2014 terraced mud flats drying to soft clay colours, faint waterl"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b09",
+   "file": "build-135-rainbow-covenant/assets/s09-but-one-heavy-question-still.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One small cloud crosses the new sky and eight hearts check it: the youngest wife's face tips up, wary, tracking the white drift overhead the way you track a dog that has bitten \u2014 her hand finding her husband's arm and ti"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b10",
+   "file": "build-135-rainbow-covenant/assets/s10-not-a-house-not-a.jpeg",
+   "tokens": [
+    "ALTAR",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The building list of the new world, in order: on the whole green mountain shoulder there stands exactly one made thing \u2014 the low ring of rough stacked stones, knee-high, empty and ready \u2014 no wall raised against weather, "
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b11",
+   "file": "build-135-rainbow-covenant/assets/s11-he-gathered-stones-and-built.jpeg",
+   "tokens": [
+    "ALTAR",
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The smallest fire on earth gets heaven's full attention: the altar's thin smoke climbs perfectly straight into the still morning \u2014 the whole planet's worship rising from one knee-high ring of stones \u2014 Noah's arms lifted "
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b12",
+   "file": "build-135-rainbow-covenant/assets/s12-for-the-better-part-of.jpeg",
+   "tokens": [
+    "ARK"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The year behind them looked like this for months on end: the great wooden vessel alone on a grey world of water, rain hatching the swells, no horizon anywhere that is not more water \u2014 the ark riding it high-sided and stu"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b13",
+   "file": "build-135-rainbow-covenant/assets/s13-while-the-earth-remaineth-seedtime.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The promise reads like a farmer's calendar carved into one valley: near at hand the wet soil stands pricked with new green shoots \u2014 seedtime \u2014 while a far terrace holds a stand of grain gone heavy and gold \u2014 harvest \u2014 an"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b14",
+   "file": "build-135-rainbow-covenant/assets/s14-planting-time-and-gathering-time.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The family files into the promised rhythm at the planting end: on a cleared terrace two of the sons work the first furrow of the new world \u2014 one leaning the wooden plough through the soft washed soil, the other walking t"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b15",
+   "file": "build-135-rainbow-covenant/assets/s15-the-world-would-keep-its.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 0,
+   "scene": "The machine turns over and catches: the same terrace weeks later stands striped in young green \u2014 the furrows risen into ranks of new grain that lean and recover under the moving wind, cloud-shadows travelling the slope l"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b16",
+   "file": "build-135-rainbow-covenant/assets/s16-but-god-was-not-finished.jpeg",
+   "tokens": [
+    "FAMILY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "One word has changed its meaning forever for exactly eight people: close on Noah's weathered face turned toward the far horizon, where an ordinary bank of afternoon cloud is quietly building \u2014 nothing in it, every farmer"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b17",
+   "file": "build-135-rainbow-covenant/assets/s17-think-about-the-first-time.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The first test of the new sky arrives on an ordinary afternoon: grey rolls in over the western slopes the way grey has always rolled \u2014 and the eight stop as one, tools lowered, work abandoned mid-motion, drawing together"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b18",
+   "file": "build-135-rainbow-covenant/assets/s18-it-was-the-memory-of.jpeg",
+   "tokens": [
+    "FAMILY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What the dark sky holds for her is not weather at all: close on Noah's wife with the grey rolling over \u2014 the old face lifted, rain-fear and grief sharing the deep lines, every drowned neighbour and lost dooryard of the f"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b19",
+   "file": "build-135-rainbow-covenant/assets/s19-he-moved-to-meet-the.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Heaven crosses the room first: through the heavy grey a seam opens \u2014 cloud parting along a long line, and down through the gap one great shaft of warm gold descends to lie across the green slopes like an arm laid over a "
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b20",
+   "file": "build-135-rainbow-covenant/assets/s20-and-i-behold-i-establish.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The words come down the light-shaft like a hand on the head: the eight stand gathered beneath the great warm break in the grey, faces lifted, and the covenant arrives over them \u2014 I, behold I, ESTABLISH \u2014 the doubled pron"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b21",
+   "file": "build-135-rainbow-covenant/assets/s21-a-covenant-is-the-most.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The Bible's most serious word has always had a shape: two hands clasped hard over a boundary stone cut with a single mark \u2014 the old oath-posture of the ancient world, wrist to wrist, witnessed by sky \u2014 a promise with a b"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b22",
+   "file": "build-135-rainbow-covenant/assets/s22-and-notice-who-is-doing.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Look at the eight pairs of hands: every one of them empty \u2014 no offering raised, no oath sworn, no token held up, eight people standing in the warm descending light with their palms open at their sides like people receivi"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b23",
+   "file": "build-135-rainbow-covenant/assets/s23-noah-is-not-asked-to.jpeg",
+   "tokens": [
+    "FAMILY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The terms of the covenant fit in two old open hands: close on Noah's upturned palms \u2014 empty, work-scarred, six hundred years worn \u2014 with the warm break-light lying in them like a weight that can be felt \u2014 nothing demande"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b24",
+   "file": "build-135-rainbow-covenant/assets/s24-to-noah-to-his-children.jpeg",
+   "tokens": [
+    "FAMILY",
+    "ARK",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The covenant's signature page includes every heartbeat on the mountain: the eight stand together on the upper slope, and below them the new world's whole zoology grazes wide across the green \u2014 deer at the thicket line, o"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b25",
+   "file": "build-135-rainbow-covenant/assets/s25-noah-and-his-family-stepped.jpeg",
+   "tokens": [
+    "FAMILY",
+    "ARK",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The first walk of the new world is eight people long: down the ark's great ramp they come \u2014 Noah first with his staff, his wife's hand in his, the sons and their wives behind in a careful descending line \u2014 sandals meetin"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b26",
+   "file": "build-135-rainbow-covenant/assets/s26-and-i-will-establish-my.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The land itself receives the never-again: under the widening warm light the washed valleys run to the horizon, and on the far hills the flood's faint waterlines \u2014 the high-tide marks of the end of the world \u2014 stand visib"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b27",
+   "file": "build-135-rainbow-covenant/assets/s27-never-again-that-is-the.jpeg",
+   "tokens": [
+    "FAMILY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Two words unbrace eight bodies at once: NEVER AGAIN moves through the little family like warmth through cold hands \u2014 Noah's shoulders coming down from their year-long guard, a son's held breath leaving him audibly, the y"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b28",
+   "file": "build-135-rainbow-covenant/assets/s28-and-then-god-does-something.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The air itself gets ready for the gift: sun breaks fully through while the last silver drizzle still falls, and the whole valley fills with that rare charged light \u2014 every raindrop lit falling, the green slopes deepening"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b29",
+   "file": "build-135-rainbow-covenant/assets/s29-he-gives-the-promise-a.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "We see it first in eight faces: the family turns as one toward the eastern sky \u2014 and wonder arrives on them like sunrise, mouths opening, the fear draining visibly out of the same eyes that tracked every cloud for months"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b30",
+   "file": "build-135-rainbow-covenant/assets/s30-i-do-set-my-bow.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The token stands up across the whole eastern sky: one complete rainbow, foot to foot across the washed valley \u2014 rising out of the drying flats, arcing high over the retreating grey, planting its far end on the green shou"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b31",
+   "file": "build-135-rainbow-covenant/assets/s31-the-word-there-is-simply.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The Hebrew word owns exactly one picture, and this is it: a great battle-bow of layered wood and horn lying across its wooden rack in a quiet armoury corner \u2014 the grip worn dark with campaigns, the quiver of arrows leane"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b32",
+   "file": "build-135-rainbow-covenant/assets/s32-god-hangs-a-bow-in.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Read the shape the way the first eight read it: the great arc stands over the valley with its back bent toward heaven and its opening turned down over the land \u2014 a bow hung up by its middle, unstrung, incapable \u2014 and if "
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b33",
+   "file": "build-135-rainbow-covenant/assets/s33-it-is-the-picture-of.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The gesture behind the rainbow is this one: two strong scarred hands lift the great bow \u2014 unstrung, its cord wound loose around the grip \u2014 and set it onto the wall pegs above the hearth, pressing it home into the rest it"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b34",
+   "file": "build-135-rainbow-covenant/assets/s34-the-storm-between-heaven-and.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The armistice takes effect across the whole visible world: the bow stands full over a valley gone entirely to sunlight, the last shred of grey slipping off the frame's far edge like a signature completing \u2014 washed slopes"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b35",
+   "file": "build-135-rainbow-covenant/assets/s35-and-the-bow-shall-be.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "For one frame the row borrows the only vantage that matters: from high above the broken cloud-tops the bow arcs BELOW, its colours laid against the little green earth like a mark on a page \u2014 the world's valleys small bey"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b36",
+   "file": "build-135-rainbow-covenant/assets/s36-and-the-very-first-thing.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "They brace for the scolding that never comes: the eight stand close with heads slightly bowed, shoulders set, survivors awaiting the terms \u2014 whatever a God says to the remnant of a world that earned a flood \u2014 and what ar"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b37",
+   "file": "build-135-rainbow-covenant/assets/s37-did-you-catch-who-the.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Notice where the string got tied: the bow stands at the very top of the sky, high over the small green land \u2014 not carved on a doorpost down here, not hung in any human hall, but set at heaven's own eye level, in the one "
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b38",
+   "file": "build-135-rainbow-covenant/assets/s38-the-rainbow-is-the-string.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The homeliest picture in the row explains the grandest: in the near ground one of the wives ties a little thread around her small son's finger \u2014 the born-since baby of the new world \u2014 so he will not forget his errand; an"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b39",
+   "file": "build-135-rainbow-covenant/assets/s39-and-the-promise-held.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Three words, tested by every storm since: the same valley in another season entirely \u2014 terraces gone gold with a later harvest, trees grown, the rain just passed off eastward \u2014 and up over the wet bright land the bow sta"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b40",
+   "file": "build-135-rainbow-covenant/assets/s40-rain-has-come-and-gone.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Change the valley, keep the sign: a different green country in a different age \u2014 hedged fields, a far small village on a rise, sheep scattered on wet pasture \u2014 the shower walking off east in silver curtains, and up over "
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b41",
+   "file": "build-135-rainbow-covenant/assets/s41-children-point-at-it-nobody.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The covenant's success is measurable in children: on the wet bright grass a scatter of village children has stopped mid-game to point \u2014 arms up, faces thrown open with delight, one small girl bouncing on her toes \u2014 at th"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b42",
+   "file": "build-135-rainbow-covenant/assets/s42-that-is-what-it-feels.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Living inside a kept promise looks wonderfully ordinary: a family stands easy at their own doorway in the after-rain light \u2014 father's arm on the doorframe, mother's hand on a child's shoulder, supper warm behind them \u2014 w"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b43",
+   "file": "build-135-rainbow-covenant/assets/s43-a-god-who-knows-exactly.jpeg",
+   "tokens": [
+    "FAMILY",
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Set the two afternoons side by side in the same eight faces: the family stands beneath the full bow, and every face that tracked the grey with dread now tips up into colour \u2014 the youngest wife who gripped her husband's a"
+  },
+  {
+   "row": 135,
+   "build": "build-135-rainbow-covenant",
+   "beat": "v2-r135-b44",
+   "file": "build-135-rainbow-covenant/assets/s44-a-god-who-binds-himself.jpeg",
+   "tokens": [
+    "MOUNTAIN"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The last word belongs to the sign itself: the full bow stands complete over the green washed world in clean warm light \u2014 foot to foot, colour to colour, exactly as first hung \u2014 no caption in the sky, no figure, nothing a"
+  },
+  {
    "row": 136,
    "build": "build-136-healed-in-two-touches",
    "beat": "v2-r136-b01",
@@ -61346,6 +61975,286 @@
    "scene": "The last frame sets out two records and one choice: side by side in the lamplight the two scrolls lie \u2014 twin rolled records, their indistinct lines waiting, close enough to touch each other \u2014 and into the frame comes one"
   },
   {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b01",
+   "file": "build-159-other-sheep/assets/s01-on-a-hillside-surrounded-by.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": true,
+   "night": false,
+   "n_person": 2,
+   "scene": "The discourse opens where the crowd already lives, the camera set low on the dry grazing slope behind the seated listeners so the frame climbs with the hill: Jesus stands a few steps up the rise in the warm day, mid-teac"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b02",
+   "file": "build-159-other-sheep/assets/s02-he-was-the-shepherd-he.jpeg",
+   "tokens": [
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The picture stands up as he names it: the shepherd out on the open pasture in the clear day, olivewood staff planted easy, cream-wool sheep grazing close around his knees without a flicker of wariness \u2014 not a hired man w"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b03",
+   "file": "build-159-other-sheep/assets/s03-it-is-a-tender-thing.jpeg",
+   "tokens": [
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "One hand carries the whole sentence: close in on the shepherd's sun-darkened fingers resting on the head of a single ewe, her wool pressed up between them, her eyes half-closing under the familiar weight the way an anima"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b04",
+   "file": "build-159-other-sheep/assets/s04-not-counted-as-part-of.jpeg",
+   "tokens": [
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Known one at a time: the shepherd drops to a crouch on the open pasture as a single ewe comes trotting back over the grass toward him \u2014 her particular gait, her particular crooked path home, the one he could name blindfo"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b05",
+   "file": "build-159-other-sheep/assets/s05-and-the-knowing-runs-both.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The other direction of the knowing: tight on a handful of grazing sheep as every head comes up at once \u2014 mid-chew, ears swivelled to the same point beyond the frame's left edge, four gazes agreeing on one arriving step b"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b06",
+   "file": "build-159-other-sheep/assets/s06-his-own-know-him-too.jpeg",
+   "tokens": [
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The proof walks: the shepherd crosses the pasture at his own unhurried pace, staff swinging, and the flock comes after him in a loose ribbon \u2014 not driven, DRAWN, every head up and oriented to the set of his shoulders, la"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b07",
+   "file": "build-159-other-sheep/assets/s07-i-am-the-good-shepherd.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The picture gets its name: Jesus on the warm slope brings one hand flat against his own chest as the words land \u2014 I am the good shepherd \u2014 the nearest listeners' faces going soft around him, because the tender picture th"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b08",
+   "file": "build-159-other-sheep/assets/s08-but-then-jesus-said-something.jpeg",
+   "tokens": [
+    "LISTENERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The slope goes still: tight on two listeners in the crowd \u2014 an older man and a young woman \u2014 caught in the exact instant a sentence lands wrong-footed, his brow just beginning to knit, her lips parted on a breath she has"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b09",
+   "file": "build-159-other-sheep/assets/s09-this-flock-right-here-in.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The sentence turns in his hands: Jesus sweeps one open palm across the families seated below him \u2014 this flock, right here \u2014 but his eyes have already lifted over their heads to the hazy distance beyond the slope, holding"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b10",
+   "file": "build-159-other-sheep/assets/s10-there-are-others-in-other.jpeg",
+   "tokens": [
+    "HILLSIDE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Others, elsewhere: the camera slides behind Jesus's shoulder so the frame looks where he does \u2014 his arm lifted past the slope's edge, hand open toward the far haze at the frame's right, the seated crowd soft and low bene"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b11",
+   "file": "build-159-other-sheep/assets/s11-people-they-had-never-met.jpeg",
+   "tokens": [
+    "FAR-COUNTRY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The camera crosses the horizon the gesture pointed at: a different hill country under soft warm dusk \u2014 ridgelines no one on the teaching slope would recognize, a small settlement of low dwellings with its evening fires j"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b12",
+   "file": "build-159-other-sheep/assets/s12-and-about-them-he-made.jpeg",
+   "tokens": [
+    "FAR-COUNTRY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The promise arrives before the messenger does: in the amber dusk of the far settlement a man straightens from his evening work and a woman turns in her doorway, both heads coming up at once toward the same unseen point p"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b13",
+   "file": "build-159-other-sheep/assets/s13-not-two-rival-flocks-not.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Two streams, one grass: from two facing valleys two flocks come down onto the same broad slope in the last gold of the day \u2014 the same count of cream-wool backs on the left as on the right, the same warm light lying on bo"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b14",
+   "file": "build-159-other-sheep/assets/s14-in-the-end-one-fold.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "Where the whole discourse has been walking: the dry-stone fold at violet dusk with its one open gap and its small fire, and the united flock filing in from the right in an unhurried line \u2014 the shepherd standing at the op"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b15",
+   "file": "build-159-other-sheep/assets/s15-and-other-sheep-i-have.jpeg",
+   "tokens": [
+    "HILLSIDE",
+    "LISTENERS"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 2,
+   "scene": "The verse gathers everything the pictures said: Jesus stands on the warm slope with the little stone fold on the hill beyond his shoulder at the frame's left and the open hazy distance running out to the right, and his o"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b16",
+   "file": "build-159-other-sheep/assets/s16-so-if-you-have-ever.jpeg",
+   "tokens": [],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The frame for everyone who has ever stood outside the story: one sheep alone on a wide darkening slope, no flock in sight, grass to the horizon \u2014 and her head is UP, ears turned hard toward the frame's left edge where so"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b17",
+   "file": "build-159-other-sheep/assets/s17-he-counted-you-in-from.jpeg",
+   "tokens": [
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "He is already walking: the shepherd crosses the open dusk country in long unhurried strides, left to right across the frame, staff swinging with the pace of a man who has known the way from the beginning \u2014 not searching,"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b18",
+   "file": "build-159-other-sheep/assets/s18-that-is-the-wide-patient.jpeg",
+   "tokens": [
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The heart measured in landscape: from behind, the shepherd stands small on a high crest in the last amber light, staff planted, and the country falls away enormous below him \u2014 one flock a pale scatter in the left valley,"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b19",
+   "file": "build-159-other-sheep/assets/s19-he-has-sheep-the-crowd.jpeg",
+   "tokens": [
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "Rest refused: the shepherd's back moves away over a dusk ridge, left to right, staff striking its steady rhythm, the small warm point of the fold's fire far behind him at the frame's left edge and the unwalked dark count"
+  },
+  {
+   "row": 159,
+   "build": "build-159-other-sheep",
+   "beat": "v2-r159-b20",
+   "file": "build-159-other-sheep/assets/s20-when-you-hear-his-voice.jpeg",
+   "tokens": [
+    "FOLD",
+    "SHEPHERD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": true,
+   "n_person": 1,
+   "scene": "The question stands in a doorway of stone: the fold at deep violet dusk, the small fire throwing warm light through the one open gap, the flock a soft crowded dark within \u2014 and the shepherd stands beside the opening with"
+  },
+  {
    "row": 161,
    "build": "build-161-called-of-god",
    "beat": "v2-r161-b01",
@@ -61691,6 +62600,270 @@
    "night": false,
    "n_person": 0,
    "scene": "The last frame keeps a place ready: a low wooden stool stands empty in a plain quiet room, and through the open doorway the morning light comes in and lies across it \u2014 across the seat where a person would sit, where a he"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b01",
+   "file": "build-163-apostles-prophets/assets/s01-once-strangers.jpeg",
+   "tokens": [
+    "OUTSIDERS",
+    "HOUSEHOLD"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "Belonging drawn as distance: the camera stands at dusk a few steps behind a small group of travel-worn outsiders, looking past their backs across open ground to a modest stone household warm with lamplight far off \u2014 a ho"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b02",
+   "file": "build-163-apostles-prophets/assets/s02-no-place-at-the-table.jpeg",
+   "tokens": [
+    "OUTSIDERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The far edge, held on a face: a close on the outsiders, and chiefly on one weary traveller whose eyes carry the whole of it \u2014 no place at any table, no share in any family, only the road and the cold outside the light. D"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b03",
+   "file": "build-163-apostles-prophets/assets/s03-something-changed.jpeg",
+   "tokens": [
+    "HOUSEHOLD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Everything turns on a door that does not stay shut: an insert of the household's heavy timber door easing open from within, a widening band of warm lamplight falling out across the dark stone threshold \u2014 the exact moment"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b04",
+   "file": "build-163-apostles-prophets/assets/s04-brought-near.jpeg",
+   "tokens": [
+    "HOUSEHOLD",
+    "FAMILY",
+    "OUTSIDERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Not tolerated, taken in: at the open doorway a member of the household reaches out with both hands and draws the weary traveller in across the threshold, the warm lamplight of the home spilling around them both \u2014 far-off"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b05",
+   "file": "build-163-apostles-prophets/assets/s05-sons-and-daughters-at-home.jpeg",
+   "tokens": [
+    "HOUSEHOLD",
+    "FAMILY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The picture Paul reached for, made warm: inside the lamplit house the family is gathered close at the low table, bread and fruit between them, and the once-weary traveller sits among them at ease, shoulders down, belongi"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b06",
+   "file": "build-163-apostles-prophets/assets/s06-fellowcitizens.jpeg",
+   "tokens": [
+    "HOUSEHOLD",
+    "FAMILY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The verse landing on a single changed face: a close on the traveller who stood longing in the dark \u2014 the very same face \u2014 now warm in the lamplight of the household, the tiredness eased into rest, no more a stranger or a"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b07",
+   "file": "build-163-apostles-prophets/assets/s07-a-house-must-be-built.jpeg",
+   "tokens": [
+    "BUILD-SITE",
+    "BUILDERS"
+   ],
+   "jesus": false,
+   "wide": true,
+   "night": false,
+   "n_person": 0,
+   "scene": "Paul changes the picture, and so does the camera: the camera stands at the site's edge from the side, behind a working mason's shoulder and back, and we look past them across a deep level foundation course and dressed-st"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b08",
+   "file": "build-163-apostles-prophets/assets/s08-the-dwelling-place.jpeg",
+   "tokens": [
+    "BUILD-SITE",
+    "BUILDERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A dwelling made the slow honest way: two or three masons lift and seat a course of dressed limestone into the rising wall, lime mortar spread, the plumb line hanging true beside them \u2014 the dwelling place of God among his"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b09",
+   "file": "build-163-apostles-prophets/assets/s09-rests-on-a-foundation.jpeg",
+   "tokens": [
+    "BUILD-SITE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "What everything else will rest on: an insert running low along the great foundation course \u2014 massive squared limestone blocks set deep and dead level, joints tight, a plumb line true against them and the rising wall's sh"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b10",
+   "file": "build-163-apostles-prophets/assets/s10-apostles-and-prophets.jpeg",
+   "tokens": [
+    "BUILD-SITE",
+    "WITNESSES"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The foundation given faces: a small line of resolute men stands firm along the great foundation course \u2014 a couple of elder grey-bearded prophets and a few steady middle-aged apostles, plain earth-toned robes, the rising "
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b11",
+   "file": "build-163-apostles-prophets/assets/s11-the-cornerstone-set.jpeg",
+   "tokens": [
+    "BUILD-SITE",
+    "BUILDERS"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The one stone everything else obeys: an insert of the great squared cornerstone seated at the exact angle where two rising walls meet, masons checking it against the plumb line, both courses keyed into it \u2014 the stone tha"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b12",
+   "file": "build-163-apostles-prophets/assets/s12-christ-himself.jpeg",
+   "tokens": [
+    "BUILD-SITE"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The cornerstone with a face: Jesus stands at the angle of the rising house, one hand laid on the great squared corner stone, the two walls and every line of the builders' work running true toward where he stands \u2014 everyt"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b13",
+   "file": "build-163-apostles-prophets/assets/s13-chief-corner-stone.jpeg",
+   "tokens": [
+    "BUILD-SITE",
+    "WITNESSES"
+   ],
+   "jesus": true,
+   "wide": false,
+   "night": false,
+   "n_person": 1,
+   "scene": "The verse assembled into one steady composition: Jesus stands at the chief corner stone with his hand on it, and to one side the small line of apostles and prophets stands firm on the great foundation course, the rising "
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b14",
+   "file": "build-163-apostles-prophets/assets/s14-a-design.jpeg",
+   "tokens": [
+    "BUILD-SITE"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "Not a heap \u2014 a design: a medium of the rising house seen whole, squared dressed-stone walls climbing true from the deep foundation to the keyed cornerstone, every course deliberate and plumb \u2014 the opposite of a loose, sh"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b15",
+   "file": "build-163-apostles-prophets/assets/s15-living-people-fitted.jpeg",
+   "tokens": [
+    "BUILD-SITE",
+    "FAMILY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The stones that breathe: ordinary believers \u2014 the same warm family faces \u2014 step into their places within the sheltering built walls, each fitted in and settling as if the house had been waiting for exactly them, a struct"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b16",
+   "file": "build-163-apostles-prophets/assets/s16-not-a-stranger.jpeg",
+   "tokens": [
+    "HOUSEHOLD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The bookend closes: the traveller who stood longing outside in the dark now stands INSIDE the finished doorway of the home, warm light around them, the road washed off \u2014 not a stranger at the door but a person through it"
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b17",
+   "file": "build-163-apostles-prophets/assets/s17-you-have-a-place.jpeg",
+   "tokens": [
+    "HOUSEHOLD",
+    "FAMILY"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "A place with their name on it: the former outsider sits settled among the household in the warm lamplit home, welcomed hands and easy faces around them \u2014 a place that is theirs, fitted in and belonging, part of what God "
+  },
+  {
+   "row": 163,
+   "build": "build-163-apostles-prophets",
+   "beat": "v2-r163-b18",
+   "file": "build-163-apostles-prophets/assets/s18-will-you-come-inside.jpeg",
+   "tokens": [
+    "HOUSEHOLD"
+   ],
+   "jesus": false,
+   "wide": false,
+   "night": false,
+   "n_person": 0,
+   "scene": "The film holds the door for the person watching: the finished home's heavy timber door stands open, seen from outside on the threshold, warm lamplight spilling out across the stone toward the lens, and a welcoming hand r"
   },
   {
    "row": 171,
