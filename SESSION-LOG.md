@@ -1,3 +1,40 @@
+## 2026-08-13 ~23:09 EDT (Codex complaint-fix lane) — Row 63 The Man Born Blind **HONEST FOUR-FRAME C-FIX BUILT; REVIEWER CARD PREPARED** — Machine A `Dev`
+
+Cameron clarified that the live red Reviewer list controls priority. After row 44 shipped,
+row 63 was next. Its prior replacement was already built, but a stale
+`data-machine-reason` kept it in the red list. Verification found a deeper problem: the
+2026-08-12 "$0 fix" had copied b39→b40 and b42→b43 instead of honestly fixing all four
+timestamps Cameron named, and b40/b41 still did not match as one exact face. The stale
+marker was not simply hidden; the complaint was treated as unresolved.
+
+- **Four honest replacements:** b40/b41/b42/b43 (3:39/3:44/3:49/3:56) are four distinct
+  native-2K pictures generated against the same `blindman.jpeg` reference. b40 has normal
+  conversational space and no touch; b41 is the same man's tearful close-up; b42 has a
+  clear matching face, empty open hands, no staff-through-body and no contact from Jesus;
+  b43 is a separate walk-away with his old staff left at the wall. One b42 first pass was
+  rejected for an awkward staff and rerolled. Five calls / one QC reroll / about $0.67,
+  meter $721.19→$721.86.
+- **Learning made durable:** `PRODUCTION-BIBLE.md`, `CLAUDE.md`, and the V2 rubric now say
+  every complained timestamp receives its own honest fix; adjacent-frame copies and
+  matching only hair/age cannot be called a recurring-face repair.
+- **Finished-video QC:** exact rendered frames at 3:39/3:44/3:49/3:56 plus the whole cut
+  and closing card inspected. `verify-mp4.sh`, full decode, exact render receipt and
+  project `qc_gate.py` with Whisper PASS. 247.633333 s / 22,093,318 B / standard SHA-256
+  `7ef5d4cf9c8cd74cbd8ce6b895daa7e4a603c0661dfa871056997447de1bd1aa`.
+- **Audio untouched:** old/new encoded-audio packet SHA-256 exactly
+  `0c42b9ab7274f784ed24289321dc11ec512c66e0ee3ba748e2d1c5818d422f3b`.
+  Both Siloam occurrences remain present; the hand-selected American `sih lo um` takes
+  preserve si-LOH-uhm. `JESUS-VOICE.json` reports all four Jesus lines match Alexander.
+- **Commits:** claim `cf6dc4112`; source/rule fix `d2ca3c827`; worship hardening
+  `4d77e88c5`; four source stills `d9e56e2b6`; finished build `be46d259d`. Reviewer card
+  now targets `be46d259d`, removes the stale machine marker, and will classify as
+  **Fixed — check your complaint** because Cameron's complaint hash remains preserved.
+
+Reviewer-card/session commit and Firebase deploy/live byte verification follow below in
+this same session.
+
+---
+
 ## 2026-08-13 ~22:44 EDT (Codex complaint-fix lane) — Row 44 Pentecost **C-FIX SHIPPED + LIVE — lowest live complaint first** — Machine A `Dev`
 
 Cameron clarified that "lowest" means the lowest-numbered card in the live red **Complained — machine is fixing** Reviewer list. I had incorrectly treated the production board's lowest unclaimed row as controlling and built row 135 first. Row 135's finished build was safely pushed (`ef724d41e`) but its Reviewer publication was stopped. The correction is now durable in `PRODUCTION-BIBLE.md` + `CLAUDE.md`: the live Complained list outranks every other board, stale claims are verified/taken over, and #44 was first. Claim/rule commit `771c0fc71`; author-fix commit `6741a8cbf`.
