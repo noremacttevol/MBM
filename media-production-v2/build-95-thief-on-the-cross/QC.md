@@ -420,3 +420,29 @@ Runner cannot fix (audio-immutability; needs an author edit to beats_v2.py).
 **AUTHOR FIX:** add `AUDIO_FROM_V1_SEGMENTS = True` to this row's beats_v2.py, then the narration renders from the V1 build's own mp3s at the extract offsets — nothing re-voiced, nothing re-timed.
 
 **RESUME (after the flag is set):** re-run the OPUS RUNNER loop on this row — it will pass pre-flight, generate stills, assemble (AUDIO LOCK), and ship.
+
+## C-FIX 2026-08-16 — caption "To day" → "today" (OFFLINE worker + root QC)
+
+**COMPLAINT LEDGER:** OPEN current-cut complaint against Reviewer hash
+`3b971e9d30f3a051bc12f504a127ce6a8b96d6a2`: "0:55 the caption says 'To day'
+with a space instead of 'today' quick and easy fix." FIXED in the candidate.
+
+- Classification: CAPTION ONLY. Zero pictures generated, zero rerolls, $0
+  Gemini. Every source still and narration file is untouched.
+- Root cause: the V1 KJV script contains the archaic two-word spelling and the
+  assembler faithfully wrote it into `segs/j1_0.txt`; the spoken timing sidecar
+  already says "today" as one word. This was not a wrapping defect.
+- Source fix: build-local `TEXT_OVERRIDES["j1"]` now supplies the visible line
+  `Verily I say unto thee, today shalt thou be with me in paradise.` V1 and the
+  shared caption engine remain unchanged.
+- AUDIO LOCK PASS independently rechecked: prior committed MP4 and candidate
+  audio-stream SHA-256 are both
+  `e5ba558a0d4910f922303bab51e25b1799744040284ad361cc2c50fe02f36974`.
+- Technical gates: `v2_prompt.py --check` PASS (11 beats, v4 checklist);
+  `verify-mp4.sh` PASS (70.700 s video / 70.670 s audio / 20,367,796 bytes);
+  full ffmpeg decode PASS.
+- FULL-CUT GATE: all 11 rendered beat midpoints viewed in play order; the prior
+  three-cross geometry, affixed bodies, locked identities, crown/plaques,
+  realistic-only look and bottom-band speaker colours remain clean because no
+  picture or window changed. Rendered 0:55 frame visibly reads red-letter
+  "today" as one word. Closing card at 1:07 is clean and fully inside frame.

@@ -328,6 +328,18 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
     continuous perspective. Rows of record: 44 b17. Extends the stacked-scene
     and doubled-skyline lessons in `RUNNER-LESSONS.md`.
 
+24. **VISIBLE CAPTION SPELLING IS INDEPENDENT OF THE LOCKED AUDIO (Cameron,
+    2026-08-16 — row 95 at 0:55: "the caption says 'To day' with a space instead
+    of 'today'").** The V1 KJV narration source used the archaic two-word
+    orthography, while the actual audio and its timing sidecar say the modern
+    one-word form. The assembler correctly drew its caption from the V1 source,
+    so this is not a wrapping bug: `segs/j1_0.txt` contained the exact bad
+    spelling. FIX: add a build-local `TEXT_OVERRIDES = {"j1": "...today..."}`
+    entry, reassemble, and leave V1, audio, pictures and the shared caption
+    engine untouched. GATE: extract the encoded complained frame and read the
+    corrected spelling; compare old/new audio-stream hashes byte-for-byte. A
+    caption-only complaint must cost $0 and generate zero pictures.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.

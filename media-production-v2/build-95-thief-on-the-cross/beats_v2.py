@@ -487,3 +487,12 @@ REFS = {
     "MOCKER": "CAST-REF-V2/mocker.jpeg",
     "THIEF": "CAST-REF-V2/thief.jpeg",
 }
+
+# TEXT_OVERRIDES (C-FIX 2026-08-16, caption complaint): V1 narration script has
+# archaic KJV spelling "To day" (two words) for Jesus's Luke 23:43 line, but the
+# audio says "today" (modern one word). Cameron's complaint: caption at 0:55
+# shows "To day" with a space. Fix: override the displayed caption text only,
+# preserving audio byte-for-byte. V1 stays read-only.
+TEXT_OVERRIDES = {
+    "j1": "Verily I say unto thee, today shalt thou be with me in paradise.",
+}

@@ -198,6 +198,14 @@ pictures; new pictures are generated only when the current encoded frame
 proves the complaint is visual. "Offline" means the reasoning worker only —
 Gemini, ElevenLabs, GitHub, Reviewer and Firebase remain online services.
 
+**The Caption-Spelling Layer Law (Cameron, row 95, 2026-08-16):** a visible
+caption correction does not authorize an audio or picture change. When the KJV
+narration source carries archaic orthography such as "To day" but Cameron asks
+for "today" on screen, declare a build-local `TEXT_OVERRIDES` entry, reassemble,
+and preserve the audio stream byte-for-byte. Never change V1 or the shared
+caption wrapper to repair one row. Verify the spelling in the encoded frame at
+the complained timestamp.
+
 **The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
 never British — he was not British. Current voices (edge-tts, placeholders until
 Cameron locks finals): narrator `en-US-AndrewNeural`, Jesus
