@@ -10,32 +10,20 @@ touching anything else. Do NOT edit by hand.
 
 | # | Status | What Cameron said |
 |---|---|---|
-| 44 | UNFIXED | 1:38 picture needs to be redone there are buildings in the sky. Same problem again. Replace that picture |
-| 63 | newer cut shipped — VERIFY fixed | 1:53 is still wrong its : si-LOH-uhm but even i spell it out you get it wrong please researchwhat the word sounds you even got it wrong at 1:34 now too when Jesus says it its a place siloam its not whatever you are trying to pronounce that is making it wrong . The blind mans mans face is not the correct look @ 3:39, 3:44, 3:49, 3:56 Fix all these pictures. 4 total please remember Jesus shouldnt be standing so close to him like he is trying to kiss him thats what one of those looked like, super weird |
-| 95 | UNFIXED | 1:03 they are facing each other again and that is wrong replace it. |
-| 117 | newer cut shipped — VERIFY fixed | it was all good until the very end where you miss pronounced "Dramatized"  fix that audio at the very end and its good |
-| 118 | newer cut shipped — VERIFY fixed | 2:37 jonah was 3 times bigger than the people he was walking around, fix it. The people in 3:08 look dead, fix it. |
-| 121 | FIXED (C-FIX f19b0015, 2026-08-13) | 0:31 has a double picture and needs to be replaced . 2:45 is corny looking with a big Jesus floating in the sky it needs to be replaced. |
-| 122 | newer cut shipped — VERIFY fixed | The man's head is turned around backwards 0:33. same problem for the 5th time |
+| 95 | UNFIXED | 0:55 the caption says "To day" with a space instead of "today" quick and easy fix |
 | 135 | newer cut shipped — VERIFY fixed | 1st picture has 3 girls and 5 boys that needs to change |
-| 140 | newer cut shipped — VERIFY fixed | What the f*** is this? Did we just run out of stories that were good about Jesus to tell? And now you are using somebody else's gospel to redo the same exact story we told earlier of the prodigal son that story, the prodigal son should have been summarized from this as well. You shouldn't use 2 different people telling the same story about Jesus.  As reasons to have the same story told twice, this is retarded.This is, I just can't.I can't believe you did this, and I like, did we seriously run out of Jesus stories like they're not that many, if there aren't 200, then we need to find some other way to get into things that would would be good for people to digest.But this is not good |
-| 146 | newer cut shipped — VERIFY fixed | 0:47 man has multiple arms replace the picture, 0:40 picture some bystanders have white faces, fix it replace it. 1:19 picture has Jesus missing a hand, fix it. |
-| 147 | newer cut shipped — VERIFY fixed | 0:01 is a double picture and those are not good, one picture per frame only, replace it. .1:00 picture is bad becasue all of the brothers are made to look the same all looking like santa white hair and beard and now Josephs hair is grey even though it has been black before, same thing happens at 1:27. also 0:58 picture looks weird becasue again all the brotheres are made to look the exact same.  change all 4 of those |
+| 140 | UNFIXED | 0:11 the boy has his lips messed up just redo that picture and at 2:09 there is a picture floating in the sky, meaning its messed up redo that one too.  ** main problem here is the serpent should not be pictured on a cross it should be on a A long, weathered wooden staff with no crossbeams. Redo every picture with the serpent on the cross and change it to a striaght pole only |
 | 149 | UNFIXED | Wrong caption at 2:06 |
 | 150 | newer cut shipped — VERIFY fixed | Bad old , english and captions in white that are scripture |
-| 153 | newer cut shipped — VERIFY fixed | 1:12 is weird picture |
+| 153 | UNFIXED | 1:52 is double picture in 1 frame thats no good replace it.. |
 | 157 | newer cut shipped — VERIFY fixed | 42 weird giant picture |
-| 161 | newer cut shipped — VERIFY fixed | At 1:30 aaron went grey and the anointing oil was poured over his hat and that is all wrong this picture needs to be redone |
-| 171 | UNFIXED | First picture is weird there are no scripture that roll like that on 2 edges |
-| 173 | newer cut shipped — VERIFY fixed | Mispronounced live at the end |
+| 159 | UNFIXED | 0:59 picture is bad redo it |
+| 161 | UNFIXED | 2:15 bowed is not pronounced like that fix it. Its like bawed the past tense of bowing to something |
+| 171 | UNFIXED | Lives is pronounced wrong at 1:10 |
 | 177 | newer cut shipped — VERIFY fixed | Not real new voice |
 | 179 | newer cut shipped — VERIFY fixed | "Regenerate this video about Stephen in Acts 7 from a Latter-day Saint perspective. The vision scene (Acts 7:55-56) must clearly show two distinct glorified personages in radiant heavenly light: God the Father and His Son Jesus Christ standing at the Father's right hand. Portray them as separate embodied beings, just as Stephen saw them — not as one figure, not as Jesus only, and do not add a dove or Trinitarian symbol. Use a reverent, luminous style like official Latter-day Saint gospel art (similar to the Gospel Art Book depiction of this scene). Keep the story simple, scripturally accurate, and 'milk' level — Christ-centered and uplifting for everyone. Focus on Stephen being full of the Holy Ghost, his bold testimony of Jesus, the vision of the Father and Son, his martyrdom, and his forgiving prayers to the Lord Jesus. Use simple narration that promotes faith in Jesus and the gospel without extra doctrine or heavy emphasis. Follow your established reverent style rules for sacred figures. Make the whole short video feel like it was made by Latter-day Saints — warm, truthful, and focused on the Savior. |
-| 181 | newer cut shipped — VERIFY fixed | the pictures need to be better made i dont think they fit the story well |
+| 181 | newer cut shipped — VERIFY fixed | 0:12 god mispronounced wast and pictures can't be duplicates with just missing pieces.  Make better pictures |
 | 184 | newer cut shipped — VERIFY fixed | only Jesus's words in red. |
-| 185 | newer cut shipped — VERIFY fixed | Old.  That's not the chosen Jesus voice |
 | 188 | newer cut shipped — VERIFY fixed | "Maketh" (the archaic version of the modern word "makes") is pronounced MAY-kith 0:29 |
-| 189 | newer cut shipped — VERIFY fixed | Pronounce overcometh as OH-vur-kuh-muhth 0:38 |
-| 191 | UNFIXED | Not real new voice |
-| 198 | UNFIXED | Not new audio |
-| 199 | newer cut shipped — VERIFY fixed | Not real new voice |
+| 198 | newer cut shipped — VERIFY fixed | Not new audio |
 | 200 | newer cut shipped — VERIFY fixed | Still the wrong audio. Im pissed |
