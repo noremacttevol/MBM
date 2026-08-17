@@ -43,6 +43,10 @@ Final evidence:
   continuity error, and alleged hand defects disproved at full resolution).
   Those advisory claims were not allowed to override the actual pixels. Its
   dedicated full-size 0:42 inspection returned PASS.
+- Reviewer-only publish verified live: candidate `2a6d8240c`, Reviewer wiring
+  `3523eb254`, Firebase `879c10b4e6853fba`. Live HTML names Cameron's complaint
+  and points to this V2 cut; GitHub-raw bytes equal the local MP4 SHA exactly;
+  public `story-videos/157.mp4` remains HTTP 404. Cameron approval remains open.
 
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero
 WARNs. 28 beats, ~159 s. The sealed-book row (BRIDGE, kept in
