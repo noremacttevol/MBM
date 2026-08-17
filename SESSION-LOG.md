@@ -1,3 +1,32 @@
+## 2026-08-17 ~01:28 EDT (Codex complaint-fix lane) — Row 179 Stephen's Witness **COMPLAINT FIX SHIPPED + LIVE** — Machine A `Dev`
+
+Cameron's current Reviewer complaint said the Father and Jesus were on the wrong sides
+and that the ending looked like Stephen fell asleep instead of being killed. I claimed
+the lowest complaint first, rebuilt only the three affected pictures, corrected only the
+necessary modern narration clips, and independently checked the final encoded frames.
+
+- Both vision frames now show Jesus on the viewer's left and the Father on the viewer's
+  right—the correct visible arrangement for Jesus at the Father's right hand. Both faces
+  remain locked and distinct; no merged figure, dove, halo, symbol, or lens stare.
+- The final picture now clearly reads as non-graphic death aftermath: Stephen lies limp
+  with open, unfocused eyes, stones nearby, and the crowd leaving. The narrator says,
+  “Then the stones killed him, but they could not take away his peace.” The old repeated
+  Scripture echo was removed.
+- Three accepted replacement stills took five Gemini calls ($0.67); two first attempts
+  were rejected for lens/satin drift and a sleep-like pose. Full prompt, Jesus-face,
+  image, caption, 44.1 kHz audio, AUDIO REBUILD, decode, render-receipt, Whisper/admin,
+  and exact-frame offline-Qwen gates PASS.
+- **Ship proof:** candidate `b0402df9a`, Reviewer wire `f14ca7b02`, Firebase Hosting
+  `d51b7ab8852eb697`; 59.933333 s / 20,466,917 B / raw SHA-256
+  `e5ae28bca12e04ac0cbf6f4b7ece7ac0d90fca4c22f37c9b0de163d3efc65e09`.
+  Live Reviewer HTML and GitHub-raw MP4 were byte-verified; public story slot 179 is 404.
+- Firebase retains the new live version and immediate rollback `879c10b4e6853fba`.
+  Older finalized version `4715fd65e6d00a5e` was deleted after verification to stay
+  within the free storage quota; that Firebase version is not recoverable, while its
+  site content remains reproducible from Git.
+
+---
+
 ## 2026-08-13 ~23:34 EDT (Codex complaint-fix lane) — Row 171 Baptized For the Dead **LEGACY COMPLAINT FIX INDEPENDENTLY VERIFIED + LIVE** — Machine A `Dev`
 
 After row 149 moved to Fixed, row 171 was the only remaining red Reviewer complaint.

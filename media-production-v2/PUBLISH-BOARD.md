@@ -199,7 +199,7 @@ _Last sync: 2026-08-13T22:46:01_
 | 176 | Who Shall Ascend | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 177 | Make Me a Sanctuary | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 178 | In Our Image | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
-| 179 | Stephens Witness | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
+| 179 | Stephens Witness | ⬜ | — | — | ON REVIEWER — corrected cut live `d51b7ab8852eb697`; awaiting Cameron | Jesus/Father sides flipped and martyr ending fixed; live bytes verified |
 | 180 | Before I Formed Thee | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
 | 181 | Morning Stars Sang | ⬜ | — | — | ON REVIEWER — awaiting Cameron | Cameron reviews on the board |
 | 182 | The Spirit Returns to God | ⬜ | — | — | BUILDING / not on reviewer | runner ships to reviewer |
