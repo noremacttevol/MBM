@@ -64,9 +64,11 @@ LOCKS = {
     "BOOK": (
         "BOOK LOCK: the sealed book — ONE heavy rolled parchment "
         "scroll bound with dark cords and THREE WAX SEALS, resting "
-        "in a worn open leather case; venerable, precious, plainly "
-        "important. The same scroll, cords, seals and case "
-        "throughout; its script always indistinct."
+        "DIRECTLY on a bare ancient wooden table or held in hands; "
+        "venerable, precious, plainly important. The same scroll, "
+        "cords and THREE seals throughout; its script always "
+        "indistinct. NEVER add a leather case, bag, satchel, strap, "
+        "buckle, clasp, box or rectangular carrier."
     ),
     "SCHOLAR": (
         "SCHOLAR LOCK: the learned man is the same in every shot — "
@@ -186,13 +188,13 @@ BEATS = [
         "window": "22.01-25.72", "wide": False, "jesus": False, "ref": False,
         "locks": ["BOOK"],
         "narration": "The words of heaven, sitting sealed in the middle of them.",
-        "must_show": "the centre — the sealed scroll alone at the table's middle, the ring of people around it at a helpless remove; heaven's words present and inaccessible.",
-        "must_not_show": "no halo; the composition CENTRED on the sealed thing — the ring's helplessness readable.",
+        "must_show": "the centre — the sealed scroll DIRECTLY on the bare table's middle, exactly EIGHT varied Middle Eastern Jewish townspeople around it at a helpless remove; heaven's words present and inaccessible. Every person wears dark brown, rust, charcoal or muted blue woven clothing.",
+        "must_not_show": "no halo; no cream, white, off-white or pale clothing; no leather case, bag, satchel, strap, buckle, clasp, box or rectangular carrier; the composition CENTRED on the sealed scroll itself — the ring's helplessness readable.",
         "scene": (
             "The seating chart says everything: the sealed "
             "scroll holds the table's exact centre — the "
             "place of honour, the place of bread — and "
-            "around it the household sits at its helpless "
+            "around it exactly eight people sit at their helpless "
             "remove, hands in laps, eyes on the cords — "
             "the words of heaven physically among them, "
             "at the middle of their table and their town "
@@ -258,8 +260,8 @@ BEATS = [
         "window": "20.40-22.01", "wide": False, "jesus": False, "ref": False,
         "locks": ["BOOK"],
         "narration": "No one can get inside it.",
-        "must_show": "the general helplessness — several varied hands hovering around the sealed scroll, none able to act; the locked-out community in hands alone.",
-        "must_not_show": "no halo; the hands VARIED (old, young, worn, fine) and all equally stopped.",
+        "must_show": "the general helplessness — several varied hands in DARK brown, rust, charcoal and muted-blue sleeves hovering around the sealed scroll, none able to act; the locked-out community in hands alone.",
+        "must_not_show": "no halo; no cream, white, off-white, pale-grey or beige sleeves; no case, bag, strap, buckle, clasp, box or carrier; the hands VARIED (old, young, worn, fine) and all equally stopped.",
         "scene": (
             "Every kind of hand has tried and hovered "
             "back: around the sealed scroll the hands "
@@ -284,8 +286,8 @@ BEATS = [
             "saying, Read this, I pray thee: and he saith, I cannot; for it "
             "is sealed:"
         ),
-        "must_show": "SCRIPTURE-EXACT: the whole verse staged — the deliverers, the learned man, the sealed scroll between them, the I-cannot on his honourable face; the verse in one composition.",
-        "must_not_show": "no halo; every element present — bringers, scholar, sealed scroll; the admission mid-word.",
+        "must_show": "SCRIPTURE-EXACT: the whole verse staged at ORDINARY HUMAN SCALE — two standing deliverers and one seated learned man, all normal-sized adults, with the sealed scroll between them and the I-cannot on his honourable face; all THREE wax seals remain separately countable; the verse in one composition.",
+        "must_not_show": "no halo; NO giant, oversized person, forced-perspective giant or distorted body; NO briefcase, suitcase, bag, satchel, leather wrap, leather strap, belt, buckle, metal fitting, extra case or rectangular container visible anywhere — show ONLY the sealed parchment itself resting directly on the bare wooden table; NO cream, white or off-white garment on any person in this Old Testament scene; every element present — two bringers, scholar, sealed scroll; the admission mid-word.",
         "scene": (
             "The verse stands complete in one study: the "
             "bringers on one side with their hope still "
@@ -297,7 +299,12 @@ BEATS = [
             "answer his integrity permits: I CANNOT — "
             "for it is SEALED — Isaiah's picture, "
             "photographed at the exact moment the best "
-            "human answer runs out. Every figure has "
+            "human answer runs out. The three people "
+            "share ordinary adult human scale and wear "
+            "only dark earth-tone woven garments; the "
+            "sealed parchment rests directly on the bare "
+            "wooden table; its leather travel-wrap is outside "
+            "the frame, so no bag, strap or buckle appears. Every figure has "
             "two arms, two hands and one head."
         ),
     },
@@ -328,8 +335,8 @@ BEATS = [
             "Then they hand it to a plain, unschooled man, hoping simple "
             "honesty might succeed where learning failed."
         ),
-        "must_show": "the second try — the sealed scroll placed hopefully in the plain man's broad working hands; simple honesty given its turn.",
-        "must_not_show": "no halo; the plain man KIND and dignified — never mocked; his hands careful with the precious thing.",
+        "must_show": "the second try — ONLY the sealed scroll placed hopefully in the plain man's broad working hands; simple honesty given its turn.",
+        "must_not_show": "no halo; no leather case, bag, satchel, strap, buckle, clasp, box or rectangular carrier anywhere; the plain man KIND and dignified — never mocked; his hands careful with the precious scroll.",
         "scene": (
             "The town tries the opposite kind of hands: "
             "into the plain man's broad working grip the "
@@ -348,8 +355,8 @@ BEATS = [
         "window": "62.30-65.65", "wide": False, "jesus": False, "ref": False,
         "locks": ["BOOK", "SCHOLAR", "PLAIN"],
         "narration": "Neither the wise nor the simple can open it on their own.",
-        "must_show": "the shared limit — scholar and plain man on either side of the sealed scroll, both honest, both stopped; human capacity's full range, equally short.",
-        "must_not_show": "no halo; NEITHER man diminished — two honest limits, one sealed scroll between.",
+        "must_show": "the shared limit — scholar and plain man on either side of ONE completely CLOSED rolled parchment scroll, tightly bound by dark cords and exactly THREE separately visible wax seals, lying DIRECTLY on the bare ancient wooden table; both men honest, both stopped.",
+        "must_not_show": "no halo; ABSOLUTELY no open, unrolled, partly unrolled or loose parchment page and no visible writing; no leather case, bag, satchel, strap, buckle, clasp, box or rectangular carrier; NEITHER man diminished — two honest limits, one completely sealed scroll between.",
         "scene": (
             "The whole range of human ability flanks the "
             "problem and neither end reaches: the scholar "
@@ -466,16 +473,15 @@ BEATS = [
             "quietly drifted far away, and their worship had shrunk to "
             "habits taught by men."
         ),
-        "must_show": "the shrunken worship — precise ceremonial motions performed by rote (the 128 vessels register): exact hands, absent faces; habit where heart was.",
-        "must_not_show": "no halo; the precision FASTIDIOUS and hollow — beautiful motions, nobody home.",
+        "must_show": "ONE single unified ancient ceremony scene — one dark-robed Middle Eastern man pours a measured stream of water from one small clay pitcher into one shallow clay basin while three other dark-robed worshippers bow with technically exact posture but absent, distracted faces; habit where heart was.",
+        "must_not_show": "no halo; ABSOLUTELY ONE image and ONE room, no panels, collage, split screen, grid, sequence, montage or repeated figures; no cream, white or off-white clothing; the precision FASTIDIOUS and hollow — beautiful motion, nobody home.",
         "scene": (
-            "The ceremony has outlived its cargo: along "
-            "the rite's stations the hands perform their "
-            "inherited exactness — the pour measured to "
-            "the knuckle, the bow timed to the syllable, "
-            "the vessels handled in the taught order "
+            "The ceremony has outlived its cargo: in one "
+            "continuous room, one man pours water from one "
+            "small clay pitcher into one shallow clay basin "
+            "with inherited exactness while three others bow "
             "without one error — and above the flawless "
-            "choreography the faces have gone absent, "
+            "motion the four faces have gone absent, "
             "eyes elsewhere, hearts at their quiet "
             "removed distance — worship shrunk to the "
             "habits men can teach, which are exactly the "
@@ -489,13 +495,13 @@ BEATS = [
         "window": "97.90-101.19", "wide": False, "jesus": False, "ref": False,
         "locks": ["BOOK", "SCHOLAR"],
         "narration": "And no amount of human cleverness was going to fix that.",
-        "must_show": "cleverness spent — the scholar's full toolkit (styluses, lexicon scrolls, scroll-weights, lenses of the era) spread useless around the still-sealed scroll.",
-        "must_not_show": "no halo; the tools PERIOD-TRUE and exhausted-looking in arrangement; the seals unbothered.",
+        "must_show": "cleverness spent — ONLY ancient reed pens, clay scroll-weights, loose parchment scrolls and knotted comparison threads spread useless around the still-sealed scroll lying directly on the bare ancient table.",
+        "must_not_show": "no halo; no glass, lens, magnifier or spectacles; no bound or codex book, printed page or readable text; no leather case, bag, satchel, strap, buckle, clasp, box or carrier; the seals unbothered.",
         "scene": (
             "Every tool the mind owns lies tried around "
             "the problem: the scholar's table spread with "
-            "his full armory — styluses and reed pens, "
-            "the lexicon scrolls unrolled and weighted, "
+            "his full armory — reed pens, clay scroll-weights, "
+            "loose parchment scrolls unrolled and weighted, "
             "comparison texts flagged with threads, every "
             "instrument of a careful life deployed — and "
             "at the centre of all that spent cleverness "
@@ -624,21 +630,21 @@ BEATS = [
     {
         "id": "v2-r157-b24", "out": "s24-not-one-more-lecture-from.jpeg", "seg": "n7",
         "window": "131.78-139.70", "wide": False, "jesus": False, "ref": False,
-        "locks": ["BOOK"],
+        "locks": [],
         "narration": (
             "Not one more lecture from the learned, but an act of God that "
             "would open what men had sealed and reach hearts that had "
             "wandered."
         ),
-        "must_show": "THE OPENING SHOWN AS RESULT — the scroll now OPEN in full morning light, unrolled across the table, its indistinct lines revealed; no hands, no mechanism — simply, marvellously, open.",
-        "must_not_show": "ABSOLUTE: no hands, no figure, no opening mechanics — the OPEN state itself the wonder; script indistinct.",
+        "must_show": "THE OPENING SHOWN AS RESULT — ONE parchment scroll now fully OPEN and unrolled FLAT DIRECTLY on bare ancient wooden tabletop in full morning light; loose dark cords and exactly THREE separate unbroken wax seals lie on the bare wood beside it; no hands, no mechanism — simply, marvellously, open.",
+        "must_not_show": "ABSOLUTE: no sealed or rolled scroll; no hands, figure or opening mechanics; no readable letters, words, Hebrew-like characters or printed text — marks are faded, blurred and indistinct; no object beneath the parchment; no leather or cloth mat, wrap, case, bag, satchel, strap, loop, buckle, clasp, box, tray or carrier anywhere.",
         "scene": (
             "Between one frame and the next, the wonder "
             "has simply happened: the scroll lies OPEN "
             "across the table in the full clean morning — "
             "unrolled wide, the cords lying loose and "
             "unknotted beside their unbroken seals, the "
-            "old indistinct lines bared at last to the "
+            "old faded blurred marks bared at last to the "
             "light that came for them — no hands in the "
             "frame, no instrument, no explanation the "
             "room can offer — opened the way sealed "
@@ -674,16 +680,16 @@ BEATS = [
         "window": "142.80-146.75", "wide": False, "jesus": False, "ref": False,
         "locks": [],
         "narration": "When human wisdom hits its limit, God is only getting started.",
-        "must_show": "the two lights — the scholar's dead candle-stub in near frame, and through the window the SUN fully risen; man's light ended where God's begins.",
-        "must_not_show": "no halo; the contrast exact — spent stub, risen sun, one window between.",
+        "must_show": "the two lights — a SMALL shallow ancient clay oil lamp with a cold spent black wick and no oil on the near sill, and through the window the SUN fully risen; man's light ended where God's begins.",
+        "must_not_show": "no halo; no wax candle, candle stub, candlestick, flame or smoke; the clay lamp is empty and unlit; the contrast exact — spent wick, risen sun, one window between.",
         "scene": (
             "Compare the two light sources and take the "
-            "point: on the near sill the scholar's candle "
-            "stands burned to its dead stub — a finger of "
-            "cold wax, honest and finished — and through "
+            "point: on the near sill a small shallow clay oil "
+            "lamp rests empty, its black wick cold and spent — "
+            "honest and finished — and through "
             "the window beyond it the sun stands fully "
             "risen over the hills, pouring more light "
-            "into the room in one minute than the candle "
+            "into the room in one minute than the little lamp "
             "managed in its whole faithful night — human "
             "wisdom's end and God's beginning, "
             "photographed on one windowsill. No people "
@@ -693,17 +699,17 @@ BEATS = [
     {
         "id": "v2-r157-b27", "out": "s27-he-is-fond-of-marvellous.jpeg", "seg": "n8",
         "window": "146.75-152.80", "wide": False, "jesus": False, "ref": False,
-        "locks": ["BOOK"],
+        "locks": ["SCHOLAR", "PLAIN"],
         "narration": (
             "He is fond of marvellous works and wonders — the very things "
             "the experts said could not happen."
         ),
-        "must_show": "the wonder enjoyed — the OPEN scroll at the table's centre with the whole ring of faces lit in astonishment around it: scholar, plain man, household, all wondering together.",
-        "must_not_show": "no halo; every face ASTONISHED-GLAD — scholar and plain man equally; the open scroll central.",
+        "must_show": "the wonder enjoyed — ONE parchment scroll fully OPEN and unrolled directly on the bare table, with exactly FOUR Middle Eastern Jewish faces lit in astonishment around it: the recurring scholar, the recurring plain man, one older woman and one boy; all in dark charcoal, rust, brown or muted blue woven clothing.",
+        "must_not_show": "no halo; no cream, white, off-white or pale clothing; no spectacles, eyeglasses or modern object; no readable letters, words, Hebrew-like characters or printed text — scroll marks faded and indistinct; no leather case, bag, satchel, strap, buckle, clasp, box or carrier; every face ASTONISHED-GLAD.",
         "scene": (
             "The impossible thing sits open on the table "
             "and the room adjusts: around the unrolled "
-            "scroll the faces ring in lit astonishment — "
+            "scroll exactly four faces ring in lit astonishment — "
             "the scholar's careful composure gone to "
             "open-mouthed wonder, the plain man laughing "
             "under his breath, the grandmother's hands "
@@ -719,10 +725,10 @@ BEATS = [
     {
         "id": "v2-r157-b28", "out": "s28-when-the-wonder-comes-will.jpeg", "seg": "n8",
         "window": "155.22-159.24", "wide": False, "jesus": False, "ref": False,
-        "locks": ["BOOK"],
+        "locks": [],
         "narration": "When the wonder comes, will you be humble enough to receive it?",
-        "must_show": "the closing receiving — kneeling open hands lifted, and the open scroll being lowered gently INTO them; humility's posture completing the row.",
-        "must_not_show": "no halo; the lowering hands above frame-edge anonymous; the kneeling hands OPEN — receiving, not grasping.",
+        "must_show": "the closing receiving — kneeling open hands lifted, and ONE fully OPEN, visibly UNROLLED parchment scroll lowered gently INTO them; loose dark cords and EXACTLY THREE separately visible unbroken wax seals trail beside the open parchment; every visible sleeve is DARK brown, rust or charcoal; humility's posture completing the row.",
+        "must_not_show": "no halo; absolutely no sealed roll or closed scroll; no cream, white, off-white, beige or pale sleeve or garment; no leather case, bag, satchel, strap, buckle, clasp, box or carrier; no readable letters, words or Hebrew-like characters; the lowering hands above frame-edge anonymous; the kneeling hands OPEN — receiving, not grasping.",
         "scene": (
             "The row ends in the posture the wonder "
             "waits for: a pair of open hands lifted from "
@@ -748,7 +754,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # PLAIN: build-38 b46 auto-match REJECTED — PLAIN here is a PERSON token
-    # (the unschooled man), not a place; the doorway frame is doubly wrong.
+    "BOOK": "PLACE-REF/book.jpeg",  # build-157-marvellous-work s03-imagine-a-precious-book-clasped (manual)
 }
 # === end PLACE-PLATES ===

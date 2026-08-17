@@ -1,13 +1,58 @@
 # QC / RUNNER HANDOFF — build-157-marvellous-work (Isaiah 29:11-14)
 
+## ✅ COMPLAINT FIX BUILT — 2026-08-17 (Machine A `Dev`, offline lane)
+
+**Cameron:** “42 weird giant picture.”
+
+The old eight-picture cut was not reused. This is a complete 28-picture
+realistic-V2 rebuild. The complained 0:42 scripture shot is now three
+ordinary-scale adults in one continuous scholar's room: two deliverers, one
+seated scholar, the sealed scroll and a small clay oil lamp. There is no giant,
+forced-perspective giant, oversized body, or cream garment. The exact rendered
+0:42 frame was inspected directly and passed local Qwen vision: all three people
+are realistically scaled; the KJV caption is cyan-blue, legible, fully inside
+the bottom black band, and does not cover the art.
+
+Source QC rejected and rerolled visible failures before assembly: a two-seal
+anchor, the original giant/briefcase complaint frame, a four-panel ceremony,
+modern magnifiers/codices/cases, readable pseudo-text, a wax candle, cream
+clothing, incomplete seal counts, and closed-versus-open scroll-state errors.
+44 total image calls produced the 28 accepted stills (16 required rejection
+rerolls, approximately **$5.90**, meter `$724.00` → `$729.90`, under the hard
+`$730.00` ceiling). The high reroll count records mandatory first-pass gate
+failures rather than optional aesthetic churn.
+
+Final evidence:
+
+- Prompt contract: v4 checklist PASS, 28/28 beats.
+- Jesus face gate: PASS (this Old Testament row has no Jesus shots).
+- Audio: `AUDIO_FROM_V1_SEGMENTS=True`; all 13 source clips are 44.1 kHz
+  ElevenLabs; stale 209.8 s V1 MP4 audio was never reused; AUDIO REBUILD PASS
+  SHA `925136487161f1fde750c18c21b3e7aa386a6fcd6bcfffe05af625da413473e2`.
+- Finished MP4: full decode PASS; `verify-mp4` PASS; deep `qc_gate` PASS with
+  Whisper actually run; no script/audio echo; duration `173.933333` s; size
+  `20,219,608` bytes; raw SHA-256
+  `d7e2d1b2df50163eaf85e2241d19103a6ac06c024f80604e3a7c0420c67a6592`.
+- Full rendered frame-per-beat contact sheet inspected in chronological order:
+  28 distinct realistic stills, captions confined to the bottom band, narrator
+  white / scripture cyan-blue / God green, sealed-scroll state through the human
+  impasse and open-scroll state only after God's promised intervention.
+- Finished-audio Whisper transcript covers the complete authored story and
+  closing card. Local sheet-level Qwen made false positives (called shallow clay
+  oil lamps “wax candles,” called the intentionally opened final-act scroll a
+  continuity error, and alleged hand defects disproved at full resolution).
+  Those advisory claims were not allowed to override the actual pixels. Its
+  dedicated full-size 0:42 inspection returned PASS.
+
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero
 WARNs. 28 beats, ~159 s. The sealed-book row (BRIDGE, kept in
 Isaiah's own frame).
 
 ## The BOOK is one sealed scroll (prop-board it hardest)
 
-Heavy rolled parchment + dark crossed cords + THREE wax seals +
-worn leather case — the SAME object every frame. State per-beat:
+Heavy rolled parchment + dark crossed cords + THREE wax seals — the SAME
+object every frame. In some early sealed-state shots it rests on the same worn
+open leather carrying wrap; it is never a modern briefcase, buckle or box. State per-beat:
 SEALED through b23, OPEN from b24 (cords loose beside UNBROKEN
 seals — opened, not broken). Script indistinct always.
 
@@ -28,7 +73,7 @@ honest limits, equal. Face-board both across their beats.
 
 - b14/b17 = the row-128 lips/heart register (correct mouths, absent
   eyes, fastidious hollow ceremony).
-- b19 = the 151 spent-candle rhyme; b26 = dead stub vs risen sun.
+- b19 = the 151 spent-light rhyme; b26 = spent clay-lamp wick vs risen sun.
 - b16: God never embodied — the listening posture only.
 - b20: the key-ring fluent in the wrong language.
 - b28: kneeling OPEN hands receive the open scroll lowered from

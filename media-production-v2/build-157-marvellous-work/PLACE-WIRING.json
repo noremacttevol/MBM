@@ -1,1 +1,8 @@
-{}
+{
+ "BOOK": {
+  "manual": true,
+  "src_beat": "s03-imagine-a-precious-book-clasped",
+  "src_build": "build-157-marvellous-work",
+  "src_file": "build-157-marvellous-work/assets/s03-imagine-a-precious-book-clasped.jpeg"
+ }
+}
