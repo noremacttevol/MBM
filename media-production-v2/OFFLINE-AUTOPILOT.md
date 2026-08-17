@@ -26,6 +26,12 @@ publishing (Firebase) still use their existing online services.
   by the former Claude worker.
 - Existing unrelated tracked changes and untracked production files are
   preserved.
+- Every extracted complaint frame and full-cut QC sheet is sent to the local
+  vision model through `offline_vision.py`; its literal result is recorded in
+  the row QC. A text-only worker is forbidden to claim that it viewed pixels.
+- Reviewer candidates stay Reviewer-only. The worker may update only the
+  row's existing `site/review.html` card and must never copy an unapproved cut
+  into `site/story-videos/` or the app/gallery.
 - Context-bounded retrieval keeps append-only historical boards from crowding
   the actual row out of a local model's working memory. The worker reads the
   master rules, the current status header, the full rebuild rubric, the exact
