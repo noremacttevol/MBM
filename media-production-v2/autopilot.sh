@@ -366,7 +366,7 @@ case "$JOB" in
 esac
 
 if [ "$AGENT_BACKEND" = "codex-ollama" ]; then
-  PROMPT="LOCAL OFFLINE MBM WORKER. You are operating one production row only through Codex with Ollama model $LOCAL_MODEL on Machine A (Dev). Follow AGENT-RULES.md and every referenced production gate exactly. Preserve every unrelated tracked modification and untracked file in this shared dirty worktree. Never run git clean, git reset, force push, broad checkout/restore, or stash another worker's files. Stage and commit only the exact row and coordination files you changed. Use the shell and local image viewer to inspect evidence yourself; do not merely describe commands. $PROMPT"
+  PROMPT="LOCAL OFFLINE MBM WORKER. You are operating one production row only through Codex with Ollama model $LOCAL_MODEL on Machine A (Dev). Follow AGENT-RULES.md and every referenced production gate exactly. CONTEXT BUDGET IS A SAFETY GATE: read AGENT-RULES.md, then only STATUS.md lines 1-30 (the remainder is a huge historical table), and never print an entire AUTHOR-BOARD/QUEUE row or the entire append-only RUNNER-LESSONS history. Use v2_outline.py for current row state, narrow rg/sed commands, the defect checklist in V2-REBUILD-RUBRIC.md, and keyword searches in RUNNER-LESSONS.md for the complaint and every defect you inspect. The launcher already verified and pre-pushed this exact row's claim. For captions: FIRST extract and VIEW the complained frame, then rg the exact wrong words through the build including segs/*.txt and the V1 source. A wrapper never inserts spaces inside a word; do not blame wrapping while a source/segment contains the exact wrong spelling. Prefer a build-local TEXT_OVERRIDES entry in beats_v2.py when only displayed spelling must differ; do not edit audio, narration generation, or the shared caption engine. Preserve every unrelated tracked modification and untracked file in this shared dirty worktree. Never run git clean, git reset, force push, broad checkout/restore, or stash another worker's files. Stage and commit only the exact row and coordination files you changed. Use the shell and local image viewer to inspect evidence yourself; do not merely describe commands. $PROMPT"
 fi
 
 # MODEL ESCALATION (Cameron, 2026-08-12: "is opus actually better?" — no; Fable
@@ -418,18 +418,23 @@ else
   WORKER_LABEL="backend $AGENT_BACKEND"
 fi
 log "tick: starting $JOB session (row $ROW; $WORKER_LABEL) → $LOGDIR/$TS-$JOB-r$ROW.log"
+RUN_RC=0
 if [ "$AGENT_BACKEND" = "codex-ollama" ]; then
   RUST_LOG=error timeout 7200 "$CODEX_BIN" --oss --local-provider ollama \
     --model "$LOCAL_MODEL" -s danger-full-access -a never -C "$REPO" \
     exec --ignore-user-config --ephemeral "$PROMPT" \
     > "$LOGDIR/$TS-$JOB-r$ROW.log" 2>&1 \
-    || log "run $TS-$JOB-r$ROW exited nonzero ($?) — see its log"
+    || RUN_RC=$?
 else
   timeout 7200 claude -p "$PROMPT" \
     --dangerously-skip-permissions \
     "${MODEL_ARGS[@]}" \
     > "$LOGDIR/$TS-$JOB-r$ROW.log" 2>&1 \
-    || log "run $TS-$JOB-r$ROW exited nonzero ($?) — see its log"
+    || RUN_RC=$?
+fi
+if [ "$RUN_RC" -ne 0 ]; then
+  log "run $TS-$JOB-r$ROW exited nonzero ($RUN_RC) — see its log; no cooldown written, so the same lowest row remains next"
+  exit "$RUN_RC"
 fi
 # CHURN COOLDOWN (2026-08-13): a shipped fix takes minutes to appear on the
 # CDN + review sync; without this, the next 5-min tick re-fires the SAME row

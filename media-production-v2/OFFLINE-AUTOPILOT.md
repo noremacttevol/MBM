@@ -26,6 +26,11 @@ publishing (Firebase) still use their existing online services.
   by the former Claude worker.
 - Existing unrelated tracked changes and untracked production files are
   preserved.
+- Context-bounded retrieval keeps append-only historical boards from crowding
+  the actual row out of a local model's working memory. The worker reads the
+  master rules, the current status header, the full rebuild rubric, the exact
+  row outline and targeted shared lessons; it never dumps whole board-history
+  rows into its context.
 
 ## Commands
 

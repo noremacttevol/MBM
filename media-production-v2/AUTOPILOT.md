@@ -43,6 +43,12 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
   (shared defect memory) before QC and append any new defect class it finds;
   after every ship it re-runs `v2_stash.py --scan` so finished pictures are
   reused by later rows instead of re-bought.
+- **Local context routing:** append-only STATUS/board/lesson history is larger
+  than a local model's useful working context. The offline worker reads the
+  master rules and rebuild rubric, the current STATUS header and exact row
+  outline, then retrieves matching RUNNER-LESSONS patterns with narrow searches.
+  It never prints a full historical board row. This keeps the current complaint
+  and the evidence in context through ship.
 
 ## Check on it
 
