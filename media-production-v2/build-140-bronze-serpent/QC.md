@@ -33,6 +33,14 @@ Redo every picture with the serpent on the cross."*
 (b17, b18, b20, b21, b22, b23, b24). All other passing images and all narration are
 locked. Generation may begin only after `v2_prompt.py --check` passes.
 
+**Anchor gate:** `v2_prompt.py --check` = PASS (24 beats, v4). Regenerated b17
+once with `--no-plates` so the old crossbeam plate could not contaminate the
+replacement. Local vision = **PASS**: one tall bare vertical staff, no
+crossbeam/crosspiece/horizontal bar; bronze serpent coiled around it; canonical
+elderly white-haired/full-white-bearded Moses; one realistic coherent scene.
+Promoted this passing b17 as the new SERPENT-POLE plate for all seven pole
+beats. Cost: one required anchor generation, ~$0.13; meter $721.86→$721.99.
+
 ## ✅ SHIPPED — 2026-08-13 (A `Dev`, Opus runner, headless) — FIRST V2 CUT, b17 BLOCK CLEARED
 
 `numbers-21_the-bronze-serpent.mp4` · 24 realistic stills · 139.4s · AUDIO REBUILD
