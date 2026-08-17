@@ -1,5 +1,46 @@
 # QC / RUNNER HANDOFF — build-159-other-sheep (John 10:14-16)
 
+## C-FIX LIVE — 2026-08-16 (Machine A `Dev`, Codex + local Ollama)
+
+Cameron's current-cut complaint: *"0:59 picture is bad redo it."* Exact
+rendered-frame tracing maps 0:59 / 59s to **b10** (57.40–60.90), not b09 or
+b11. Local `qwen3.5:27b` vision inspected the actual rendered pixels and
+returned **FAIL**: Jesus is shown only from behind, his identity and expression
+are hidden, the prominent raised hand has fused/malformed fingers and an
+oversized thumb, and the background contains an artificial horizontal haze
+band with melted-looking structures.
+
+**PROMPT AUTOPSY = CAUSED.** b10 explicitly required an over-the-shoulder view
+from behind, made the raised hand the dominant foreground action without
+pinning its anatomy, and asked for vague far haze. Fix: replace that staging
+with a clean medium-wide three-quarter side view that keeps Jesus's locked face
+visible and in focus at frame-left, keeps his fully natural five-fingered hand
+small in the frame, preserves the required gesture toward frame-right, and
+uses one continuous dry slope, distant hills and open sky with no haze band or
+premature settlement. Regenerate **only b10**; all other pictures and all audio
+remain locked.
+
+### ✅ C-FIX FINAL GATE — SHIP CANDIDATE
+
+- Generated **only b10**: 1 still, $0.13, meter $723.33 → $723.47. The other
+  19 source stills remain untouched.
+- Replacement source inspection: local `qwen3.5:27b` vision **PASS** — one
+  coherent hillside scene; one correctly locked Jesus with his face visible;
+  one natural right hand with one thumb and four separate fingers; gesture
+  exits frame-right; no duplicate Jesus, haze band, melted structure, halo,
+  modern object, malformed person, or composite defect.
+- Exact rendered 59s complaint frame: independent local vision **PASS** on the
+  final pixels; the caption is readable and wholly inside the bottom band.
+- Full-cut gate: all 20 chronological rendered scene midpoints inspected;
+  Jesus, shepherd, travel direction and fold continuity hold. Closing question
+  card independently vision-checked **PASS** (centered, readable, unclipped).
+- `verify-mp4.sh`: PASS; full FFmpeg decode: PASS. Duration 142.366667s,
+  19,416,706 bytes. MP4 SHA256
+  `6c6fc490c2d7d7f2a82676cdfc011e1373009615a2dc0f99b6239b0962ac54fb`.
+- Audio stream SHA256
+  `8bcd7cab6b2d13748ac22f3161c544ac3bf6369d59f24b2eb0f7717378198c5d`
+  exactly matches the pre-fix approved audio stream. No narration changed.
+
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero
 WARNs. 20 beats, ~127 s. Same John 10 shepherd discourse as row 143
 (i-am-the-door) — this row EXTENDS 143's canon.

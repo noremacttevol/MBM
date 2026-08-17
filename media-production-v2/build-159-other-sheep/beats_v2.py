@@ -317,19 +317,22 @@ BEATS = [
         "window": "57.40-60.90", "wide": False, "jesus": True, "ref": REF,
         "locks": ["HILLSIDE"],
         "narration": "There are others, in other places, not of this fold.",
-        "must_show": "the beyond — over Jesus's shoulder from behind: his lifted hand pointing out past the slope's edge toward the far haze, the gesture EXITING frame-RIGHT; the crowd soft below.",
-        "must_not_show": "no halo, glare or rim-light on Jesus; the pointing arm exits RIGHT (the far-country direction); nothing rendered at the horizon yet — haze only.",
+        "must_show": "the beyond — a medium-wide THREE-QUARTER SIDE VIEW: Jesus stands at frame-left facing right, his locked face clearly visible in profile and in focus, while his right arm extends toward the open horizon at frame-RIGHT; his open hand is small in the frame with one natural palm, one correctly joined thumb, and four separate relaxed fingers; the crowd stays soft and low below.",
+        "must_not_show": "NO rear or back-only view and NO face hidden by hair; NO close-up hand, fused fingers, missing finger, extra finger, swollen thumb or malformed joints; NO duplicate Jesus or second cream-robed figure; NO horizontal fog band, melted building or settlement at the horizon — only one continuous dry slope, distant hills and open sky; no halo, glare or rim-light; the pointing arm exits RIGHT (the far-country direction).",
         "scene": (
-            "Others, elsewhere: the camera slides behind "
-            "Jesus's shoulder so the frame looks where he "
-            "does — his arm lifted past the slope's edge, "
-            "hand open toward the far haze at the frame's "
-            "right, the seated crowd soft and low beneath "
-            "the gesture — pointing at people nobody on "
-            "this hillside has ever met, in places none of "
-            "them have seen, sheep of his that no fold "
-            "here has ever held. Every figure has two "
-            "arms, two hands and one head."
+            "Others, elsewhere: a clean medium-wide side "
+            "angle keeps Jesus's exact locked face visible "
+            "at frame-left as he looks and reaches toward "
+            "frame-right. His right arm makes one simple, "
+            "readable line toward the empty distant hills; "
+            "the anatomically natural open hand remains "
+            "small rather than dominating the photograph. "
+            "The seated crowd is soft and low beneath the "
+            "gesture. Beyond them is one continuous dry "
+            "slope and open sky — no settlement yet — for "
+            "people nobody here has met and places none of "
+            "them has seen. Every figure has two arms, two "
+            "hands and one head."
         ),
     },
     {
