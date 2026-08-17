@@ -1,5 +1,46 @@
 # QC / RUNNER HANDOFF — build-161-called-of-god (Hebrews 5:1-5)
 
+## ✅ C-FIX FINAL — 2026-08-16 (Machine A `Dev`, Codex)
+
+Cameron's current-cut complaint: *"2:15 bowed is not pronounced like that fix
+it. Its like bawed the past tense of bowing to something."* Exact timeline
+tracing maps 2:15 / 135s to narrator segment **n8**, in the sentence *"a real
+call, and hands laid on a bowed head."*
+
+**ROOT CAUSE AND DURABLE FIX.** Plain `bowed` is a heteronym that the narrator
+read as /boʊd/. Only the affected n8 sentence was re-voiced with Cameron's
+locked ElevenLabs **Brian** narrator and an explicit CMU phoneme tag
+`B AW1 D` (/baʊd/, the past tense of bowing). The displayed caption remains
+correctly spelled `bowed`. The new sentence was duration-locked to its original
+7.872s window and spliced into n8; all other approved narration is retained.
+Build-local `SPOKEN={"bowed":"bowed-down"}` is present in both narration
+scripts as a fallback guard for any future full re-render. V2 now declares
+`AUDIO_FROM_V1_SEGMENTS=True` so assembly uses the corrected authoritative
+ElevenLabs segment rather than the stale pre-fix V1 MP4 stream.
+
+### Final audio and cut gates
+
+- **0 pictures generated; $0 image cost.** All 24 source stills are untouched.
+- n8 stayed 44.1 kHz mono / 128 kbps ElevenLabs, 19.696327s (26.1ms from the
+  original—under one 30fps frame). New n8 SHA256
+  `49c7eb0b1e5d5b77811de2c02441442dcec92d85332af3839ba58b558bc3cb3d`.
+- `small.en` transcription of the installed n8 returns the complete target
+  sentence *"A real call and hands laid on a bowed head"* with no omitted,
+  duplicated, or added narration. Explicit CMU `B AW1 D` fixes the complained
+  vowel deterministically. Segment peak -2.6 dB; no clipping.
+- `verify-eleven-audio.sh`: PASS, all 13 clips are 44.1 kHz ElevenLabs.
+  `audio_audit.py --rows 161`: 0 old-voice segments.
+- `AUDIO REBUILD PASS`: final audio SHA256
+  `1d00d5c4d50ebc1295621c337324f9b78cc6f823153a16ab83201880b5a70c45`.
+  The hash changed intentionally and only because of this sanctioned n8
+  pronunciation repair.
+- Full rendered gate: all 24 chronological scene midpoints inspected; exact
+  135s caption remains synced in the bottom band; closing card clean and
+  unclipped. No image or continuity regression.
+- `verify-mp4.sh`: PASS; full FFmpeg decode: PASS. Duration 159.110000s,
+  20,610,956 bytes. MP4 SHA256
+  `817eb1551f158670f047561c25b0378790ded909f8021c86f1bd88cc101f35cc`.
+
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero
 WARNs. 24 beats, ~146 s. The authority-is-given row.
 

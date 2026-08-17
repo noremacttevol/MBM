@@ -115,6 +115,7 @@ LOCKS = {
 }
 
 REF = True
+AUDIO_FROM_V1_SEGMENTS = True  # C-FIX: rebuild from the corrected V1 n8 segment
 
 BEATS = [
     {

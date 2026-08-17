@@ -58,7 +58,7 @@ SEGMENTS = [
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).
-SPOKEN = {}
+SPOKEN = {"bowed": "bowed-down"}  # forces /baʊd/ if this segment is ever re-rendered
 
 
 async def main():
