@@ -41,6 +41,42 @@ elderly white-haired/full-white-bearded Moses; one realistic coherent scene.
 Promoted this passing b17 as the new SERPENT-POLE plate for all seven pole
 beats. Cost: one required anchor generation, ~$0.13; meter $721.86→$721.99.
 
+**Changed-frame gate:** the first contact sheet passed Cameron's three named
+defects (b02 lips clean; all seven serpent shots use the straight staff; b24
+sky is one physical scene), but caught one additional ship-blocker: b21 drew
+an elderly grey-bearded dying man while b18/b19 follow the locked young
+red-brown-tunic father. Autopsy = **ALLOWED**: b21 omitted `BITTEN-MAN` from its
+locks. Added it and targeted b21 for one continuity rerender before assembly.
+That continuity rerender exposed a second b21 blocker: blood-like marks on the
+man's lips. Autopsy = **CAUSED**: b21 itself still asked for "cracked lips,"
+contradicting the character lock's no-wound/no-blood law. Replaced that wording
+with smooth, healthy, completely unbroken lips and added explicit no blood,
+scab, lesion, cracked/marked lips or mouth injury negatives. One final targeted
+b21 rerender is required; no other frame is reopened.
+
+**FINAL C-FIX GATE — PASS:** the final b21 is the same young, dark-haired,
+dark-bearded bitten father, with clean uninjured lips and a coherent raised
+hand. Local `qwen3.5:27b` vision inspected the actual source pixels and returned
+PASS separately for b02, b17, b21 and b24. The complete 24-source-still contact
+gate also passes: cast/actions remain coherent, every serpent-pole image uses a
+single bare straight staff, and b24 has one physical sky with no overlay.
+
+Assembled `numbers-21_the-bronze-serpent.mp4`: 139.400s video / 139.396s audio,
+20,838,830 bytes, SHA-256 `2ae60ecedc80ec218f1b2d2427a38039c45cbc63cb92f3f567a19f91d554dec2`.
+`admin/verify-mp4.sh` PASS; full ffmpeg decode PASS. Audio stream remains
+byte-identical to the approved narration lock, SHA-256
+`90d6b582469c7e87d92adfe96f16df20de4386a3b55fa75c38c69ee526ada425`.
+The rendered-frame gate inspected every beat plus the closing card. Exact
+complaint frames 0:11 and 2:09, rendered b21, and the closing card all received
+an overall and per-frame local-vision **PASS**: clean boy's lips; clean young
+man's lips/hand; no crossbeam or cross shape; no floating sky picture; captions
+contained in the bottom band; closing text legible, centered and unclipped.
+
+Generation accounting: eight complaint-mandated final images (b02 plus all
+seven pole beats) and two b21 blocker corrections = 10 calls, approximately
+$1.34 total, meter $721.86→$723.20. No narration or already-passing unrelated
+image was regenerated.
+
 ## ✅ SHIPPED — 2026-08-13 (A `Dev`, Opus runner, headless) — FIRST V2 CUT, b17 BLOCK CLEARED
 
 `numbers-21_the-bronze-serpent.mp4` · 24 realistic stills · 139.4s · AUDIO REBUILD
@@ -153,13 +189,14 @@ chose to explain his cross (John 3:14). `--check` PASSES (24 beats, zero WARNs);
 - **No divine figure anywhere (OT era).** The LORD (g1/b14-b15) is HEARD, shown
   only as formless brilliant warm light in the sky — never a figure, disc, orb,
   ring, beam or UFO, never a halo/glow/rim-light word. Jesus (j1/b23-b24) is
-  HEARD, never shown — those beats hold on the lifted serpent / cross-form.
+  HEARD, never shown — those beats hold on the lifted serpent and its one bare
+  vertical staff.
 - **Serpents:** real natural desert vipers, never monstrous/lunging/reared at
   camera. **The bitten and dying:** dignity only — fear, weakness, bound cloth,
   wrapped forms, grief. NEVER a wound, blood, gore, or an exposed corpse.
-- **The anchor:** the bronze serpent on a plain straight pole (one short
-  crosspiece) whose silhouette reads as an upright CROSS-FORM — the payoff (b17,
-  b20, b22, b23, b24). Never a wooden cross with a body; never a live snake on it.
+- **The anchor:** the bronze serpent on one plain, long, weathered, straight
+  vertical staff with no crosspiece, crossbeam or horizontal member — the payoff
+  (b17, b20, b22, b23, b24). It must never read as a cross; never a live snake.
 
 ## NEW PLACES — promote-first (lesson 11); no stash plate exists yet
 - **WILDERNESS-CAMP:** promote the first good frame (b01 establishing wide) with

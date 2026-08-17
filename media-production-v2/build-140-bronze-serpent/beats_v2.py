@@ -526,17 +526,18 @@ BEATS = [
     {
         "id": "v2-r140-b21", "out": "s21-only-had-to-lift-his-eyes.jpeg", "seg": "n6",
         "window": "105.92-113.56", "wide": False, "jesus": False, "ref": False,
-        "locks": ["SERPENT-POLE"],
+        "locks": ["BITTEN-MAN", "SERPENT-POLE"],
         "narration": (
             "A dying man didn't have to earn it, or explain it, or even "
             "understand it. He only had to trust it enough to lift his eyes "
             "toward it."
         ),
         "must_show": "the simple act, close — a weak, sweat-beaded face and one trembling upraised hand, eyes lifting toward the bronze serpent (soft-focused above); faith reduced to a single upward look, nothing earned, nothing understood.",
-        "must_not_show": "no halo or glow; no wound; keep it to the one lifted face and hand; not cartoon.",
+        "must_not_show": "no halo or glow; NO wound, NO blood, NO scab, NO lesion, NO cracked or marked lips, NO mouth injury; keep it to the one lifted face and hand; not cartoon.",
         "scene": (
             "A very tight close-up on a fevered face tipped upward at "
-            "dawn — cracked lips, exhausted eyes filling with fragile "
+            "dawn — dry but smooth, healthy, completely unbroken and unmarked "
+            "lips, exhausted eyes filling with fragile "
             "hope, one weathered hand rising unsteadily toward the sky — "
             "and, thrown soft and bright above and behind, the shape of "
             "the bronze serpent on its pole; the whole image is the "
