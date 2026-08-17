@@ -1,5 +1,46 @@
 # QC / RUNNER HANDOFF — build-153-restitution (Acts 3:1-21)
 
+## C-FIX LIVE — 2026-08-16 (Machine A `Dev`, Codex + local Ollama)
+
+Cameron's current-cut complaint: *"1:52 is double picture in 1 frame thats no
+good replace it."* Exact rendered-frame tracing maps 1:52 / 112s to **b20**
+(109.42–118.09), not a transition or neighboring beat. Local `qwen3.5:27b`
+vision inspected the actual 112s pixels and returned **FAIL**: two distinct
+temple scenes stacked vertically, joined by a diffuse semi-transparent band.
+
+**PROMPT AUTOPSY = CAUSED.** b20 demanded an empty sky-only temple view while
+also attaching the `TEMPLE` place plate. That plate visibly contains a crowded
+close temple scene with two foreground women. The generator preserved that
+incompatible reference as the upper picture and invented a separate empty
+temple/sky picture below it. The old prompt also omitted explicit anti-diptych
+language. Fix: remove `TEMPLE` from b20's locks so the crowded plate cannot
+contaminate the empty composition, and require one single-exposure low-angle
+photograph with one unbroken roofline, one uninterrupted sky, no people, and
+explicitly no diptych/collage/split/stack/overlay/ghost/blend/inset/panel or
+montage. Regenerate **only b20**; all other images and all audio remain locked.
+
+### ✅ C-FIX FINAL GATE — SHIP CANDIDATE
+
+- Generated **only b20**: 1 still, $0.13, meter $723.20 → $723.33. The other
+  25 source stills remain byte-identical.
+- Source-still inspection: PASS — one continuous sky and one unbroken temple
+  roofline; no people and no diptych, collage, split, stack, overlay, ghost,
+  blend band, inset, panel, or montage.
+- Exact rendered 112s complaint frame: local `qwen3.5:27b` vision **PASS** —
+  one seamless temple-and-sky shot, no double picture, readable caption wholly
+  inside the bottom band.
+- Exact rendered 72s regression frame: **PASS** — Peter visibly addresses the
+  restored formerly lame man in one coherent temple scene; the prior fix held.
+- Full-cut gate: all 26 chronological rendered scene midpoints inspected;
+  closing question card inspected and independently vision-checked **PASS**
+  (centered, readable, unclipped).
+- `verify-mp4.sh`: PASS; full FFmpeg decode: PASS. Duration 161.566667s,
+  20,442,101 bytes. MP4 SHA256
+  `259753df57eac4180033668ce50d56a99f6e7cabee909075b16672ba1b38ac55`.
+- Audio stream SHA256
+  `25b1a0e3507cf767910bb88df6747d310bf3e1c0be6f5112254de787a8ecfb8e`
+  exactly matches the pre-fix approved audio stream. No narration changed.
+
 AUTHORED FROM SCRATCH, 2026-08-05 (Machine A). `--check` PASSES, zero
 WARNs. 26 beats, ~148 s. The restitution-of-all-things row (BRIDGE
 tone, kept entirely inside Acts' own frame).

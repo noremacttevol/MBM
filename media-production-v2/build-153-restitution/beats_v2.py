@@ -541,26 +541,24 @@ BEATS = [
     {
         "id": "v2-r153-b20", "out": "s20-whom-the-heaven-must-receive.jpeg", "seg": "kv21",
         "window": "109.42-118.09", "wide": False, "jesus": False, "ref": False,
-        "locks": ["TEMPLE"],
+        "locks": [],
         "narration": (
             "Whom the heaven must receive until the times of restitution of "
             "all things, which God hath spoken by the mouth of all his holy "
             "prophets since the world began."
         ),
-        "must_show": "SCRIPTURE-EXACT: heaven holding — the vast waiting sky over the temple courts, deep and expectant; the received One carried by the sky's held vastness ALONE; no figure.",
-        "must_not_show": "ABSOLUTE: no figure, no ascension depicted — the enormous waiting sky over the temple carries the verse.",
+        "must_show": "SCRIPTURE-EXACT: ONE SINGLE SEAMLESS PHOTOGRAPH from one camera — the upper edge of an empty honey-limestone temple court occupies only the bottom quarter while one uninterrupted vast clean blue sky fills the upper three quarters; deep and expectant; no person or figure anywhere.",
+        "must_not_show": "ABSOLUTE: no figure, no people, no ascension; NO diptych, collage, split screen, stacked pictures, second scene, overlay, ghost image, cloudy blend, misty transition, inset, panel or montage — ONE continuous physical camera view only.",
         "scene": (
-            "The verse's subject is currently held in the "
-            "largest keeping there is: over the temple's "
-            "honey courts the sky stands enormous and "
-            "deep — high clean blue climbing to its "
-            "zenith, a waiting quality in the very scale "
-            "of it — WHOM THE HEAVEN MUST RECEIVE, until "
-            "the times of restitution of ALL things — the "
-            "holding not pictured but felt, in a sky "
-            "that seems, this morning, less like weather "
-            "than like custody. No people are "
-            "distinguishable in this frame."
+            "A single low-angle camera stands in one completely empty "
+            "honey-limestone temple court and tilts upward. The continuous "
+            "unbroken roofline and tops of a few pale stone columns stay "
+            "together across the bottom quarter of the photograph; above "
+            "them one natural, uninterrupted clean blue morning sky climbs "
+            "to the zenith and fills the remaining three quarters. It is "
+            "one ordinary physical place photographed in one exposure from "
+            "one lens, with no seam and no symbolic second image. No people "
+            "or figures appear anywhere."
         ),
     },
     {
