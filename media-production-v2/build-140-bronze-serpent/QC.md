@@ -1,5 +1,38 @@
 # QC / RUNNER HANDOFF — build-140-bronze-serpent (Numbers 21:4-9 + John 3:14-15)
 
+## C-FIX LIVE — 2026-08-16 (Machine A `Dev`, Codex + local Ollama)
+
+Cameron's current-cut complaint: *"0:11 the boy has his lips messed up ... at
+2:09 there is a picture floating in the sky ... the serpent should not be
+pictured on a cross ... a long, weathered wooden staff with no crossbeams.
+Redo every picture with the serpent on the cross."*
+
+**Rendered-frame evidence (local `qwen3.5:27b` vision, actual pixels):**
+- 0:11 maps to **b02**, not b01. Vision returned **FAIL**: the foreground
+  child's lower lip has a dark irregular scab/lesion. Caption and the rest of
+  the face are otherwise coherent.
+- 2:09 maps to **b24**. Vision returned **FAIL**: a detached semi-transparent
+  crowd/tent picture floats in the upper sky, and the pole visibly has a
+  horizontal crossbeam.
+
+**PROMPT AUTOPSY:**
+- Serpent-on-cross = **CAUSED**. The SERPENT-POLE lock and b17/b20/b22/b23/b24
+  prose explicitly demanded a crosspiece / cross-form. All are rewritten to
+  one tall bare vertical staff with no horizontal member. The old
+  `PLACE-REF/serpent-pole.jpeg` also visibly contains a crossbeam, so b17 must
+  be regenerated once with `--no-plates`, vision-gated, then promoted as the
+  replacement SERPENT-POLE plate before the remaining pole beats regenerate.
+- Child's lip = **CAUSED**. b02 explicitly asked for "cracked lips," which the
+  image model rendered as a lesion. The beat now requires dry but smooth,
+  healthy, completely unmarked lips.
+- Floating sky image = **ALLOWED**. b24 did not prohibit a memory/vision
+  overlay. It now requires one unified physical scene and explicitly rejects
+  floating, detached, misty or semi-transparent image elements.
+
+**Targeted image work only:** b02 plus every beat carrying SERPENT-POLE
+(b17, b18, b20, b21, b22, b23, b24). All other passing images and all narration are
+locked. Generation may begin only after `v2_prompt.py --check` passes.
+
 ## ✅ SHIPPED — 2026-08-13 (A `Dev`, Opus runner, headless) — FIRST V2 CUT, b17 BLOCK CLEARED
 
 `numbers-21_the-bronze-serpent.mp4` · 24 realistic stills · 139.4s · AUDIO REBUILD

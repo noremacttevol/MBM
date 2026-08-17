@@ -37,11 +37,11 @@ RENDERING LAWS (CONTENT-CARE, strictly):
   - NO DIVINE FIGURE IS EVER SHOWN (OT era). The LORD (g1) is HEARD, not
     seen — where his voice comes, word it as brilliant/luminous warm light
     in the SKY with NO figure and NO ring-around-a-head. Jesus (j1) is
-    HEARD, not seen — his beats hold on the lifted serpent / cross-form,
+    HEARD, not seen — his beats hold on the lifted serpent-pole,
     never on a person. No halo, glow, or rim-light anywhere.
-  - THE BRONZE SERPENT ON THE POLE is the visual anchor and the cross
-    foreshadow — a plain straight pole so its silhouette reads as an
-    upright cross-form against the sky. It is the payoff of the whole film.
+  - THE BRONZE SERPENT ON THE POLE is the visual anchor and the lifted-up
+    foreshadow — one plain vertical staff with no crossbeam, standing straight
+    against the sky. It is the payoff of the whole film.
 
 MOVIE COVERAGE (lesson 12): only the people a moment is about are in frame —
 singles, two-shots, inserts. The camp is established wide AT MOST once (b01);
@@ -98,13 +98,13 @@ LOCKS = {
     ),
     "SERPENT-POLE": (
         "SERPENT-POLE LOCK: the bronze serpent Moses raised — a single "
-        "serpent cast in dark burnished BRONZE, its body wound once and "
-        "its head lifted, fixed upright at the very top of a TALL, BARE, "
-        "STRAIGHT wooden pole planted in the open camp ground; the pole "
-        "plain and vertical with one short crosspiece lashed near the top "
-        "to hold the serpent, so the whole silhouette reads as an upright "
-        "CROSS-FORM against the open sky. The same serpent and pole in "
-        "every shot it appears. Never a live snake, never a person on it."
+        "serpent cast in dark burnished BRONZE, its body wound once around "
+        "a TALL, BARE, STRAIGHT wooden staff planted in the open camp ground; "
+        "the staff has NO crossbeams, NO crosspiece, NO horizontal bar — "
+        "it is a simple vertical POLE ONLY, the serpent coiled up its length. "
+        "This is NOT a cross, NOT a cross-form, NOT cruciform. The same "
+        "serpent and straight staff in every shot. Never a live snake, never "
+        "a person on it."
     ),
 }
 
@@ -144,12 +144,13 @@ BEATS = [
         "locks": ["WILDERNESS-CAMP"],
         "narration": "But the wilderness was long, and their patience wore through.",
         "must_show": "the weariness up close — a single worn Hebrew family trudging the desert road, a mother with a heavy bundle and a sunburnt child, faces drawn with exhaustion and heat; the long road told on their bodies.",
-        "must_not_show": "no halo; no divine figure; no gore; no modern objects; not cartoon; keep it to one small tired family — do not crowd the frame.",
+        "must_not_show": "no halo; no divine figure; no gore; no modern objects; not cartoon; keep it to one small tired family — do not crowd the frame; THE CHILD HAS HEALTHY UNMARKED LIPS AND MOUTH — no scabs, lesions, wounds, sores, marks, or anything abnormal on the child's face, lips, or mouth area; all skin smooth and natural.",
         "scene": (
             "A tight, low travelling shot on one exhausted family in "
             "the column: a sun-darkened mother shifting a heavy "
             "rolled bundle on her back, a small child clinging to her "
-            "hip with cracked lips, a grandfather leaning on a staff a "
+            "hip, the child's lips dry from the road but smooth, healthy "
+            "and completely unmarked; a grandfather leaning on a staff a "
             "step behind — all of them squinting into a wind of "
             "grit, sandals worn thin, the endless red waste blurred "
             "behind them; the kind of tiredness that finally curdles "
@@ -442,14 +443,14 @@ BEATS = [
         "window": "88.90-94.25", "wide": True, "jesus": False, "ref": False,
         "locks": ["MOSES", "SERPENT-POLE", "WILDERNESS-CAMP"],
         "narration": "and one thing left to do — look.",
-        "must_show": "THE ANCHOR: the bronze serpent-pole raised upright in the middle of the camp at first light, Moses steadying its base, the plain straight pole with the bronze serpent at top reading as a clear CROSS-FORM against a clean dawn sky; a few stricken people at its foot beginning to lift their faces.",
-        "must_not_show": "no halo, glow or rim-light; the pole is bare and plain so the silhouette reads as a cross; no divine figure; the serpent is bronze, never alive; not cartoon.",
+        "must_show": "THE ANCHOR: the bronze serpent-pole raised upright in the middle of the camp at first light, Moses steadying its base, the plain STRAIGHT POLE (no crossbeam) with the bronze serpent at top against a clean dawn sky; a few stricken people at its foot beginning to lift their faces.",
+        "must_not_show": "no halo, glow or rim-light; the pole is bare and STRAIGHT with NO crossbeam, NO crosspiece, NOT a cross-form; no divine figure; the serpent is bronze, never alive; not cartoon.",
         "scene": (
             "A low, wide hero shot into a clean pale-gold dawn: the tall "
-            "bare pole stands planted in the open heart of the camp, the "
-            "dark bronze serpent fixed and gleaming at its very top on a "
-            "short crosspiece so the whole thing stands against the "
-            "brightening sky as an unmistakable upright cross-form; Moses "
+            "STRAIGHT pole stands planted in the open heart of the camp, the "
+            "dark bronze serpent coiled around it and gleaming at the top, "
+            "the pole rising straight against the brightening sky — "
+            "no crossbeam, no crosspiece, just the serpent on a staff; Moses "
             "braces its foot in earth-brown, and around the base a few "
             "fevered people, propped by kin, are just beginning to raise "
             "their eyes toward it. The camera looks up past them to the "
@@ -505,12 +506,12 @@ BEATS = [
         "window": "102.40-105.92", "wide": True, "jesus": False, "ref": False,
         "locks": ["SERPENT-POLE", "WILDERNESS-CAMP"],
         "narration": "he lived.",
-        "must_show": "the whole camp looking — a wide of the bronze serpent-pole high in the dawn with people all across the camp turning and lifting their faces up toward it, the sick being propped and turned to see; the cross-form high against the open sky over a people looking up.",
+        "must_show": "the whole camp looking — a wide of the bronze serpent-pole high in the dawn with people all across the camp turning and lifting their faces up toward it, the sick being propped and turned to see; the serpent-pole high against the open sky over a people looking up.",
         "must_not_show": "no halo, glow or rim-light; no divine figure; the pole plain, the serpent bronze; not cartoon.",
         "scene": (
             "A wide low shot back across the waking camp into the gold "
-            "dawn: the tall pole and its bronze serpent rise as a clear "
-            "cross-form over the tents, and everywhere below, people are "
+            "dawn: the tall STRAIGHT pole and its bronze serpent rise "
+            "above the tents, and everywhere below, people are "
             "turning their faces up to it — the strong lifting the "
             "fevered so they can see, mothers tilting children's chins "
             "skyward, a whole stricken multitude doing the one simple "
@@ -552,15 +553,14 @@ BEATS = [
             "Fourteen hundred years later, Jesus reached back and picked this "
             "exact moment to explain his own cross."
         ),
-        "must_show": "the bridge — the bronze serpent-pole in near silhouette against a wide brightening sky, its plain vertical pole and crosspiece read unmistakably as a CROSS on the horizon; empty wilderness around it, the type quietly becoming the foreshadow.",
-        "must_not_show": "no halo, glow or rim-light; NO Jesus figure, NO cross of wood with a body, NO anachronism — only the bronze serpent-pole whose SHAPE is the cross; not cartoon.",
+        "must_show": "the bridge — the bronze serpent-pole in near silhouette against a wide brightening sky, its plain vertical pole rising straight; empty wilderness around it, the type quietly becoming the foreshadow.",
+        "must_not_show": "no halo, glow or rim-light; NO Jesus figure, NO cross of wood with a body, NO anachronism — only the bronze serpent on a straight pole; not cartoon.",
         "scene": (
             "A still, wide silhouette shot: the tall bare pole with the "
             "bronze serpent stands alone against an enormous brightening "
-            "dawn sky over the empty red wilderness, its vertical line and "
-            "single crosspiece reading plainly as a cross on the horizon "
-            "— the same lifted-up thing, fourteen centuries early, holding "
-            "the shape of the cross it was always pointing to. Reverent, "
+            "dawn sky over the empty red wilderness, its vertical line "
+            "rising straight — the same lifted-up sign, fourteen centuries "
+            "early, to which Jesus would later point. Reverent, "
             "spare, luminous. Every figure has two arms, two hands and "
             "one head."
         ),
@@ -573,14 +573,14 @@ BEATS = [
             "And as Moses lifted up the serpent in the wilderness, even so "
             "must the Son of man be lifted up:"
         ),
-        "must_show": "SCRIPTURE-EXACT (Jesus's own words, HEARD not shown): a low reverent shot up the serpent-pole to the bronze serpent lifted high against a radiant morning sky, the cross-form filling the frame; NO person, the lifted-up type standing for the lifted-up Son of man.",
+        "must_show": "SCRIPTURE-EXACT (Jesus's own words, HEARD not shown): a low reverent shot up the serpent-pole to the bronze serpent lifted high against a radiant morning sky, the SERPENT-POLE filling the frame; NO person, the lifted-up type standing for the lifted-up Son of man.",
         "must_not_show": "no halo, glow or rim-light; NO Jesus figure and NO God figure (he is heard, never shown); no wooden cross with a body; only the bronze serpent-pole; not cartoon.",
         "scene": (
             "A low, worshipful shot looking straight up the length of the "
             "bare pole to the dark bronze serpent fixed at its top, held "
             "against a wide radiant morning sky pouring clean warm light "
-            "down around it — the lifted-up serpent alone in frame, its "
-            "cross-form unmistakable, standing in for the One whose words "
+            "down around it — the lifted-up serpent alone in frame, "
+            "standing in for the One whose words "
             "these are. No figure, only the sign lifted up and the light. "
             "Every figure has two arms, two hands and one head."
         ),
@@ -593,11 +593,11 @@ BEATS = [
             "That whosoever believeth in him should not perish, but have "
             "eternal life."
         ),
-        "must_show": "the promise wide — the serpent-pole cross-form on its rise catching the full morning light over the wilderness, healed people small at its foot with faces still lifted; open luminous sky filling most of the frame; hope, life, no perishing.",
-        "must_not_show": "no halo or rim-light around a head; no divine figure; the pole plain; not cartoon; nobody's face large — this is the closing wide.",
+        "must_show": "the promise wide — the serpent on a STRAIGHT POLE (no crossbeam) catching the full morning light over the wilderness, healed people small at its foot with faces still lifted; open luminous sky filling most of the frame; hope, life, no perishing; ONE SINGLE COHERENT SCENE.",
+        "must_not_show": "no halo or rim-light around a head; no divine figure; the pole is STRAIGHT with NO crossbeam, NO crosspiece, NO horizontal bar, NOT a cross-form; not cartoon; nobody's face large — this is the closing wide; NO floating, NO semi-transparent, NO misty, NO detached image elements in the sky or anywhere; ONE SINGLE UNIFIED SCENE ONLY.",
         "scene": (
             "A wide closing shot into a vast luminous morning: the bronze "
-            "serpent on its tall pole stands as a cross-form on the low "
+            "serpent on its tall STRAIGHT POLE (no crossbeam) stands on the low "
             "rise, washed in clean warm light, and at its foot the "
             "healed — whole and upright now — stand small with their "
             "faces still turned up to it; the enormous bright sky opens "
@@ -605,7 +605,7 @@ BEATS = [
             "tipped toward life instead of death. THE CAMERA STANDS "
             "BEHIND the healed and shoots PAST their backs toward the "
             "pole and sky: they are seen from behind, backs to the lens, "
-            "faces lifted away toward the cross-form, no face turned "
+            "faces lifted away toward the serpent-pole, no face turned "
             "toward the camera. Every figure has two "
             "arms, two hands and one head."
         ),
