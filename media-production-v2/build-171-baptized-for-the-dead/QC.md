@@ -1,5 +1,35 @@
 # QC — row 171, build-171-baptized-for-the-dead (1 Corinthians 15:29 + vv.20-22)
 
+## COMPLAINT FIX — SHIP CANDIDATE 2026-08-16, Offline/Codex `Dev`
+
+- Cameron: **“Lives is pronounced wrong at 1:10.”** Exact finished-cut mapping:
+  the second sentence of the closing `card` narration, beginning at about 69.1 s.
+- Fixed only that sentence in the locked Brian narrator voice with ElevenLabs
+  Flash v2. The visible/written word remains `lives`; the TTS request pins the
+  verb to CMU **`L IH1 V Z`** (`/lɪvz/`, as in “He lives”), not `/laɪvz/`.
+  `revoice_lives.py` duration-matches and splices the sentence while preserving
+  the first card sentence and the established timeline. Both narration scripts
+  retain `SPOKEN = {"lives": "livz"}` as the safe whole-track rebuild fallback.
+- The actual rebuilt MP4 slice transcribes: **“Because he lives, there is hope
+  for every name on the other side of the veil.”** Small.en places `lives` at
+  69.760–70.080 s in the full cut (1.760–2.080 s in the 68 s audit slice).
+- Eleven audio gate: **PASS**, all 12 used clips 44.1 kHz; old-voice audit:
+  **0 rows**; no image generation or changes (**0 pictures, $0 image spend**).
+- V1 authoritative card SHA-256:
+  `018f1f37612b145b73ddd60d633db85fefb86d55b37fe3c7aed2b5f4e43f6e8f`.
+  Rebuilt final-audio SHA-256:
+  `3d07397cb12c3965d82a684029d3c9853f147bd2c1d8aac9d602a71c3b58dee9`.
+- **FULL-CUT GATE: PASS.** All 15 rendered beat midpoints plus the closing card
+  inspected. The earlier fake-scroll complaint remains fixed in b01; b09/b11
+  retain one consistent locked Jesus in cream; captions stay in the bottom band;
+  no malformed anatomy, duplicates, corpses, ghosts, modern objects, split
+  pictures, or clipped card text. Local Qwen 3.5 27B pixel inspection independently
+  returned PASS and read the full card exactly, including correctly spelled
+  `Because He lives`.
+- Technical: `v2_prompt.py --check` PASS (15); `verify-mp4.sh` PASS; full ffmpeg
+  decode PASS; 74.500000 s video / 74.476009 s audio / 19,891,142 B. MP4 SHA-256:
+  `7c8e17dbca9c41a18ff7805235a46e1ad9d68de9c3bd4ac88a929bca3eaf4686`.
+
 **Authored 2026-08-07, Machine A `Dev`, Fable-5 author lane, $0** (0 pictures
 generated, 0 audio touched). `v2_prompt.py --check` PASS (15 beats, no warnings).
 Windows contiguous + monotonic 0.400 → 73.427 (card_start), every segment onset
