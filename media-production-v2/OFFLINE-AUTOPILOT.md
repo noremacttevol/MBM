@@ -13,6 +13,9 @@ publishing (Firebase) still use their existing online services.
 ## What the loop guarantees
 
 - One GPU worker at a time.
+- The launcher claims the selected row on both coordination boards and pushes
+  that claim before the model may inspect, generate or edit production work.
+  A rejected claim push stops the tick.
 - Current Reviewer complaints before new production.
 - Lowest numbered actionable complaint first.
 - Current-cut hash matching, so a complaint against an older replaced cut is

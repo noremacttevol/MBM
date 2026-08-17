@@ -405,6 +405,25 @@ if [ "$BILLING_DOWN" -eq 1 ] && [ "$DRY" -eq 0 ]; then
   log "billing breaker active: Gemini paid jobs blocked; running free $JOB work meanwhile. Top up at https://ai.studio/projects to resume picture builds."
 fi
 
+# Local models are good operators only after ownership is made deterministic.
+# Claim BOTH coordination boards and push that tiny commit before the model can
+# inspect, generate, or edit the row. A rejected push stops the tick: another
+# machine may have won the row, so no production work is allowed to begin.
+if [ "$AGENT_BACKEND" = "codex-ollama" ] && [ "$DRY" -eq 0 ]; then
+  if ! python3 "$V2/offline_claim.py" "$JOB" "$ROW"; then
+    log "offline worker stopped: row $ROW could not be claimed"
+    exit 0
+  fi
+  if ! git diff --quiet -- "$BOARD" "$REPO/media-production/QUEUE.md"; then
+    git add -- "$BOARD" "$REPO/media-production/QUEUE.md"
+    git commit -m "CLAIM row $ROW for offline $JOB worker"
+    if ! git push origin main; then
+      log "offline worker stopped: row $ROW claim push was rejected; production did not start"
+      exit 0
+    fi
+  fi
+fi
+
 if [ "$DRY" -eq 1 ]; then
   echo "(dry) next tick would start a $JOB session at row $ROW"
   exit 0
