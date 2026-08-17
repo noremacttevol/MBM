@@ -1,5 +1,38 @@
 # QC / RUNNER HANDOFF — build-150-shepherd-psalm (Psalm 23)
 
+## ✅ COMPLAINT FIX BUILT + FULL-CUT GATED (local Codex/Ollama lane, Machine A `Dev`, 2026-08-17)
+
+Complaint answered: **“Bad old , english and captions in white that are scripture.”**
+
+- Finished the parked realistic-V2 rebuild by generating only missing b11/b16/b21.
+  b11 now carries the same young David and visibly separate rod + crook; b21 is one
+  continuous lamplit fold with scroll and harp, not the rejected split-panel design.
+- Rejected b16 take 1 before assembly because its red wine pool read as blood. Hardened
+  the authored prompt to pale translucent amber-gold liquid with explicit crimson/blood
+  exclusions and regenerated b16. The kept frame shows gold oil at the head and a light
+  amber-gold cup overflow on the cloth.
+- Pixel-checked a chronological contact sheet from the **finished MP4**: narrator captions
+  are white; every Psalm/KJV caption is cyan-blue; every caption remains in the bottom band.
+  The narrator's words are plain modern English, while archaic wording occurs only in the
+  attributed blue scripture lines.
+- Whispered the finished MP4 end to end. The modern narration and Psalm 23 lines are present
+  in story order. The very short opening `s1` line was also transcribed separately from its
+  delivered ElevenLabs clip as “The Lord is my shepherd I shall not want.”
+- `v2_prompt.py --check`: PASS, 21 beats, prompt-contract v4. Legacy face gate: PASS
+  (no Jesus frames). Assembly printed `AUDIO LOCK PASS`, preserving V1 audio SHA-256
+  `76602c245a2a7dde0a9dc3d866c9b8812693241f28966d06b6e7402ca3bafdc5`.
+- `admin/qc_gate.py` deep gate: PASS; `admin/verify-mp4.sh`: PASS; full ffmpeg decode:
+  PASS; `audio_audit.py --rows 150`: PASS; Eleven source audit: all 20 clips at 44.1 kHz.
+- Finished cut: 1080x1920 H.264/AAC, 132.168 s, 19,766,879 bytes; raw file SHA-256
+  `48b2bcf088f2c5e5a2299755a2b2c6f6ccadf2f8bff0251fe1611a2b1e02afb7`.
+- Paid generation this pass: four calls (three kept missing frames plus the rejected b16
+  red-liquid reroll), approximately **$0.53**; API meter $723.47 → $724.00.
+
+The local Qwen contact-sheet pass was retained as advisory only: it returned a false FAIL,
+including “row 8” defects on a seven-row sheet and calling a visible archway a split panel.
+Direct full-resolution inspection of the named source frames and rendered MP4 pixels is the
+controlling visual verdict.
+
 ## ✅ AUTHOR FIX DONE → BUILT (Fable-5 author lane, Machine A `Dev`, 2026-08-11, $0)
 The 3 parked beats had their SCENE TEXT fixed at the author level (the only thing the
 runner was barred from doing). `v2_prompt.py --check` PASS, zero WARNs; audio untouched

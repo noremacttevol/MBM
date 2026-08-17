@@ -428,7 +428,7 @@ BEATS = [
         "locks": ["TABLE", "DAVID"],
         "narration": "thou anointest my head with oil; my cup runneth over.",
         "must_show": "SCRIPTURE-EXACT: the anointing and the overflow — a host's hand pouring oil onto the seated guest's head (the guest is YOUNG David, ~17, ruddy, short dark rust tunic — the same young man seated at the table in b15), AND the cup filled past its brim, running onto the cloth.",
-        "must_not_show": "no halo; the overflow REAL — wine over the brim, pooling; the oil's pour gentle on the head; the guest is the YOUNG shepherd (~17), NEVER the older king in blue.",
+        "must_not_show": "no halo; the overflow REAL — PALE TRANSLUCENT AMBER-GOLD grape wine over the brim, pooling as a light golden wet patch; ABSOLUTELY NO red, crimson, burgundy, dark maroon, blood-like liquid, blood-like stain, wound or gore anywhere; the oil's pour gentle on the head; the guest is the YOUNG shepherd (~17), NEVER the older king in blue.",
         "scene": (
             "The host's generosity gets physically out of "
             "hand: from above, a steady hand tips the horn "
@@ -439,8 +439,10 @@ BEATS = [
             "extravagant welcome, "
             "running warm at the hairline — while on the "
             "cloth the cup has already passed its brim, "
-            "wine trembling over the lip and spreading its "
-            "dark generous ring into the weave — anointed "
+            "pale translucent amber-gold grape wine trembling "
+            "over the lip and spreading a LIGHT GOLDEN wet patch "
+            "into the weave — visibly wine, never red and never "
+            "blood-like — anointed "
             "and overfilled at the same table, by a host "
             "whose measures simply do not stop at full. "
             "Every figure has two arms, two hands and one "
