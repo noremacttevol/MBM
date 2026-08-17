@@ -38,8 +38,16 @@ BOARD="$V2/AUTHOR-BOARD.md"
 LOCK="$V2/.autopilot.lock"
 LOGDIR="$V2/autopilot-logs"
 TS="$(date +%Y%m%d-%H%M%S)"
+AGENT_BACKEND="${MBM_AGENT_BACKEND:-claude}"
+LOCAL_MODEL="${MBM_LOCAL_MODEL:-qwen3.5:27b}"
+CODEX_BIN="${MBM_CODEX_BIN:-}"
 DRY=0
 [ "${1:-}" = "--dry-run" ] && DRY=1
+
+case "$AGENT_BACKEND" in
+  claude|codex-ollama) ;;
+  *) echo "Unsupported MBM_AGENT_BACKEND: $AGENT_BACKEND (use claude or codex-ollama)" >&2; exit 2 ;;
+esac
 
 mkdir -p "$LOGDIR"
 log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOGDIR/autopilot.log"; }
@@ -48,7 +56,11 @@ log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOGDIR/autopilot.log"; }
 LANES="${MBM_LANES:-4}"
 LOCKDIR="$V2/.autopilot-lanes"
 mkdir -p "$LOCKDIR"
-LIVE=$(pgrep -fc '^timeout 7200 claude -p' || true)
+if [ "$AGENT_BACKEND" = "codex-ollama" ]; then
+  LIVE=$(pgrep -fc '^timeout 7200 codex --oss' || true)
+else
+  LIVE=$(pgrep -fc '^timeout 7200 claude -p' || true)
+fi
 LIVE=${LIVE:-0}
 FILES=0
 for f in "$LOCKDIR"/lane-*.pid "$LOCK"; do
@@ -69,6 +81,23 @@ fi
 cd "$REPO"
 [ "$DRY" -eq 0 ] && git pull --rebase --autostash origin main -q
 
+# --- local-worker preflight: fail closed before claiming or changing a row ---
+if [ "$AGENT_BACKEND" = "codex-ollama" ]; then
+  if [ -z "$CODEX_BIN" ]; then
+    CODEX_BIN="$(command -v codex 2>/dev/null || true)"
+  fi
+  if [ -z "$CODEX_BIN" ]; then
+    CODEX_BIN="$(find "$HOME/.vscode/extensions" -path '*/openai.chatgpt-*/bin/linux-x86_64/codex' -type f 2>/dev/null | sort -V | tail -1)"
+  fi
+  [ -n "$CODEX_BIN" ] && [ -x "$CODEX_BIN" ] \
+    || { log "offline worker stopped: codex CLI is not installed"; exit 1; }
+  command -v ollama >/dev/null 2>&1 || { log "offline worker stopped: Ollama is not installed"; exit 1; }
+  if ! ollama list 2>/dev/null | awk 'NR > 1 {print $1}' | grep -Fxq "$LOCAL_MODEL"; then
+    log "offline worker stopped: Ollama model '$LOCAL_MODEL' is unavailable (or Ollama is not running)"
+    exit 1
+  fi
+fi
+
 # --- auth breaker: an expired Claude CLI login kills every session in ~2 s ---
 # Only Cameron can fix it (run `claude` in a terminal and sign in). Skip
 # spawning until a session survives; self-heals once login works again.
@@ -78,7 +107,7 @@ cd "$REPO"
 # of holding the full 25-min window (Cameron, 2026-08-11: "im tired of this time shit").
 CRED="$HOME/.claude/.credentials.json"
 BANNER_MARK="$V2/.login-banner-live"
-if find "$LOGDIR" -maxdepth 1 -name '*.log' -mmin -25 -newer "$CRED" -print0 2>/dev/null \
+if [ "$AGENT_BACKEND" = "claude" ] && find "$LOGDIR" -maxdepth 1 -name '*.log' -mmin -25 -newer "$CRED" -print0 2>/dev/null \
    | xargs -0 -r grep -l 'OAuth session expired' 2>/dev/null | grep -q .; then
   MSG="LOGIN NEEDED: the Claude CLI login expired — every session dies at auth. Cameron: open a terminal, run 'claude', sign in when the browser opens. The loop resumes itself after."
   if [ "$DRY" -eq 1 ]; then echo "(dry) $MSG"; else log "$MSG"; fi
@@ -309,7 +338,7 @@ JOB="${PICK%% *}"; ROW="${PICK##* }"
 
 case "$JOB" in
   cfix)
-    PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md — all its laws bind you, especially the FULL-CUT GATE (6b). THE COMPLAINT-FIRST + LOW-NUMBER LAWS: Cameron filed a complaint against the CURRENT shipped cut of AUTHOR-BOARD row $ROW and it is the lowest waiting row — fixing it outranks all other work. Run 'python3 media-production-v2/v2_outline.py $ROW' to read his complaint in his own words. TRACE each timestamped complaint to the frame that RENDERS at that second (extract from the live mp4 + the beat windows — never guess from beat names). THEN run the PROMPT AUTOPSY (rubric meta-law 3): read the exact original prompt that made the bad frame and rule CAUSED / ALLOWED / IGNORED — rewrite the words, add the missing constraint, or attach a reference image accordingly; record the verdict in QC.md. Rerolling without the autopsy is forbidden. Claim first: append 'C-FIX <date> LIVE' to the row's board Claim cell, commit, push (rejected push = taken, exit cleanly). Fix what he named — AND then run the FULL-CUT GATE on the whole rendered cut: one frame per beat, every frame checked; anything complaint-worthy gets fixed in this SAME touch-once re-cut (row 11 shipped a 'fix' with seven other bad frames in it — never again). If the complaint is AUDIO-domain, do NOT re-cut pictures — flip the row to NEEDS-AUDIO with a RUNNER PARK note and exit. Re-assemble (AUDIO LOCK PASS), redeploy (step 7c, live-verified), review card answers his complaint in his words. UNATTENDED + HEADLESS: everything FOREGROUND to completion, never background, never wait. Board claim -> 'C-FIX <date> SHIPPED', SESSION-LOG, commit, push."
+    PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md — all its laws bind you, especially the FULL-CUT GATE (6b). THE COMPLAINT-FIRST + LOW-NUMBER LAWS: Cameron filed a complaint against the CURRENT shipped cut of AUTHOR-BOARD row $ROW and it is the lowest waiting row — fixing it outranks all other work. Run 'python3 media-production-v2/v2_outline.py $ROW' to read his complaint in his own words. CLASSIFY THE COMPLAINT BEFORE SPENDING: for a caption-only complaint, change only the caption source/override and reassemble, generate ZERO pictures, and preserve the audio stream byte-for-byte; for an audio-only complaint, generate ZERO pictures and park it in NEEDS-AUDIO as directed below; generate new pictures only when the current rendered frame proves the complaint is visual. TRACE each timestamped complaint to the frame that RENDERS at that second (extract from the live mp4 + the beat windows — never guess from beat names). For a visual complaint, run the PROMPT AUTOPSY (rubric meta-law 3): read the exact original prompt that made the bad frame and rule CAUSED / ALLOWED / IGNORED — rewrite the words, add the missing constraint, or attach a reference image accordingly; record the verdict in QC.md. Rerolling a visual without the autopsy is forbidden. Claim first: append 'C-FIX <date> LIVE' to the row's board Claim cell, commit, push (rejected push = taken, exit cleanly). If the row already carries today's 'OFFLINE LIVE' claim, that is this worker's valid pre-pushed claim: do not add or push a duplicate. Fix what he named — AND then run the FULL-CUT GATE on the whole rendered cut: one frame per beat, every frame checked; anything complaint-worthy gets fixed in this SAME touch-once re-cut (row 11 shipped a 'fix' with seven other bad frames in it — never again). If the complaint is AUDIO-domain, do NOT re-cut pictures — flip the row to NEEDS-AUDIO with a RUNNER PARK note and exit. Re-assemble (AUDIO LOCK PASS), redeploy (step 7c, live-verified), review card answers his complaint in his words. UNATTENDED + HEADLESS: everything FOREGROUND to completion, never background, never wait. Board claim -> 'C-FIX <date> SHIPPED', SESSION-LOG, commit, push."
     MODEL_ARGS=(--model opus) ;;
   resume)
     PROMPT="Read media-production-v2/PROMPT-OPUS-RUNNER.md. A previous autopilot run DIED mid-build on AUTHOR-BOARD row $ROW (State RUNNING, Claim A-auto) — RESUME that row, do not start a new one. FIRST run the RUNNER-LESSONS already-shipped check (committed mp4 / live review card) — if it shipped, tick it BUILT and take nothing else. Otherwise read the build's QC.md for where it stopped; v2_gen_api.py resumes automatically (passing frames are never re-pulled — COST LAW). UNATTENDED + HEADLESS: everything FOREGROUND to completion, never background, never wait. Finish through step 7c DEPLOY + live verification, set the board row BUILT, SESSION-LOG, commit, push."
@@ -336,6 +365,10 @@ case "$JOB" in
     exit 0 ;;
 esac
 
+if [ "$AGENT_BACKEND" = "codex-ollama" ]; then
+  PROMPT="LOCAL OFFLINE MBM WORKER. You are operating one production row only through Codex with Ollama model $LOCAL_MODEL on Machine A (Dev). Follow AGENT-RULES.md and every referenced production gate exactly. Preserve every unrelated tracked modification and untracked file in this shared dirty worktree. Never run git clean, git reset, force push, broad checkout/restore, or stash another worker's files. Stage and commit only the exact row and coordination files you changed. Use the shell and local image viewer to inspect evidence yourself; do not merely describe commands. $PROMPT"
+fi
+
 # MODEL ESCALATION (Cameron, 2026-08-12: "is opus actually better?" — no; Fable
 # is the higher tier, Opus is ~half the per-token weight against the weekly
 # allowance). Routine one-pass jobs stay on Opus (cheaper); a row that has
@@ -343,7 +376,7 @@ esac
 # get expensive (row 63 ate 16 Opus cfix sessions; row 117 nine verifies) —
 # escalate that row to the default model (Fable) so one smart pass ends the
 # loop instead of a 3rd/4th/16th cheap failure.
-if [ ${#MODEL_ARGS[@]} -gt 0 ]; then
+if [ "$AGENT_BACKEND" = "claude" ] && [ ${#MODEL_ARGS[@]} -gt 0 ]; then
   # Counts by log FILENAME (2026-08-13 fix): logs hold session output, which
   # rarely echoes the row number — the old grep-based count was always ~0 and
   # the escalation silently never fired.
@@ -379,11 +412,25 @@ fi
 
 # Row in the log filename (2026-08-13): the escalation counter and the churn
 # cooldown both key on it — session OUTPUT can't be trusted to echo the row.
-log "tick: starting $JOB session (row $ROW) → $LOGDIR/$TS-$JOB-r$ROW.log"
-timeout 7200 claude -p "$PROMPT" \
-  --dangerously-skip-permissions \
-  "${MODEL_ARGS[@]}" \
-  > "$LOGDIR/$TS-$JOB-r$ROW.log" 2>&1 || log "run $TS-$JOB-r$ROW exited nonzero ($?) — see its log"
+if [ "$AGENT_BACKEND" = "codex-ollama" ]; then
+  WORKER_LABEL="backend $AGENT_BACKEND; model $LOCAL_MODEL"
+else
+  WORKER_LABEL="backend $AGENT_BACKEND"
+fi
+log "tick: starting $JOB session (row $ROW; $WORKER_LABEL) → $LOGDIR/$TS-$JOB-r$ROW.log"
+if [ "$AGENT_BACKEND" = "codex-ollama" ]; then
+  RUST_LOG=error timeout 7200 "$CODEX_BIN" --oss --local-provider ollama \
+    --model "$LOCAL_MODEL" -s danger-full-access -a never -C "$REPO" \
+    exec --ignore-user-config --ephemeral "$PROMPT" \
+    > "$LOGDIR/$TS-$JOB-r$ROW.log" 2>&1 \
+    || log "run $TS-$JOB-r$ROW exited nonzero ($?) — see its log"
+else
+  timeout 7200 claude -p "$PROMPT" \
+    --dangerously-skip-permissions \
+    "${MODEL_ARGS[@]}" \
+    > "$LOGDIR/$TS-$JOB-r$ROW.log" 2>&1 \
+    || log "run $TS-$JOB-r$ROW exited nonzero ($?) — see its log"
+fi
 # CHURN COOLDOWN (2026-08-13): a shipped fix takes minutes to appear on the
 # CDN + review sync; without this, the next 5-min tick re-fires the SAME row
 # (rows 95/147/135 each burned 3 sessions tonight, zero new complaints filed).

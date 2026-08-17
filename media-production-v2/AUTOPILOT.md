@@ -7,14 +7,14 @@ runs the ENTIRE build unattended: generate → QC → assemble → ship → depl
 
 ## How it works
 
-- A crontab line ticks `media-production-v2/autopilot.sh` every 10 minutes.
+- A crontab line ticks `media-production-v2/offline-autopilot.sh` every 5 minutes.
   Each tick: if all lanes are busy, do nothing; otherwise start ONE new lane —
-  a FRESH headless Claude session on PROMPT-OPUS-RUNNER.md (model: opus,
-  2-hour timeout) on the lowest **Ready ✅ / Audio OK / unclaimed** row. Up to
-  **6 builds run in parallel** (Cameron, 2026-08-06: "it should take less than
-  24 hours" — override with MBM_LANES). Claim-by-push keeps lanes off each
-  other's rows. Fresh session per run = clean context = the "one video per
-  chat" law.
+  a fresh headless Codex session with its reasoning model served locally by
+  Ollama (`qwen3.5:27b`, 2-hour timeout). The wrapper fixes concurrency at
+  **one local lane** so the RTX 3090 is not overcommitted. Claim-by-push keeps
+  the loop and interactive workers off each other's rows. Fresh session per
+  run = clean context = the "one video per chat" law. Claude remains available
+  only as the explicit `MBM_AGENT_BACKEND=claude` fallback.
 - **Five job types, in priority order** (THE COMPLAINT-FIRST LAW, Cameron
   2026-08-06): **COMPLAINT-FIX** (re-cut a shipped row Cameron complained
   about — his complaint outranks everything) → stranded-resume → **AUDIO-FIX**
@@ -65,7 +65,7 @@ crontab -l | grep -v 'autopilot.sh' | crontab -
 ## Turn it (back) on
 
 ```bash
-( crontab -l 2>/dev/null | grep -v 'autopilot.sh'; echo '3,18,33,48 * * * * /home/noremacttevol/Desktop/MBM/media-production-v2/autopilot.sh >> /home/noremacttevol/Desktop/MBM/media-production-v2/autopilot-logs/cron.log 2>&1' ) | crontab -
+( crontab -l 2>/dev/null | grep -v 'autopilot.sh'; echo '*/5 * * * * /home/noremacttevol/Desktop/MBM/media-production-v2/offline-autopilot.sh >> /home/noremacttevol/Desktop/MBM/media-production-v2/autopilot-logs/offline-cron.log 2>&1' ) | crontab -
 ```
 
 ## When it's done

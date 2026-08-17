@@ -187,6 +187,17 @@ face — but still a real, warm, painted human (Middle Eastern hands and hair ma
 never white, never a hooded void). Full detail in §1 "The Standing Laws."
 The BOM law holds: these 200 videos stay MILK.
 
+**The Offline-Operator Law (Cameron, 2026-08-16 — permanent):** Machine A's
+unattended dispatcher runs one local Codex + Ollama `qwen3.5:27b` worker at a
+time. It is bound by the same complaint-first, live-lowest-number,
+claim-by-push, generation, QC, audio-lock, deploy and live-verification laws as
+the former Claude worker; Claude is only an optional fallback. The worker
+classifies each complaint before spending: caption-only fixes reuse every
+picture and preserve audio byte-for-byte; audio-only fixes generate no
+pictures; new pictures are generated only when the current encoded frame
+proves the complaint is visual. "Offline" means the reasoning worker only —
+Gemini, ElevenLabs, GitHub, Reviewer and Firebase remain online services.
+
 **The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
 never British — he was not British. Current voices (edge-tts, placeholders until
 Cameron locks finals): narrator `en-US-AndrewNeural`, Jesus

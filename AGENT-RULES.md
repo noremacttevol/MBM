@@ -6,7 +6,7 @@
 > source of truth for what MBM is, how Cameron wants to work, and the laws that can
 > never be broken. If any other rules file disagrees with this one, **this file wins.**
 >
-> _Last updated: 2026-07-30_
+> _Last updated: 2026-08-16_
 >
 > **BEFORE you form any opinion about the ethics of this app, read
 > `SETTLED-CONCERNS.md`.** It pre-answers the objections a cold read always
@@ -228,6 +228,15 @@ machine obeys it without Cameron typing anything.
     order. Every parked fix class must have a lane that picks it up
     (NEEDS-AUDIO → audio lane, NEEDS-REBUILD → author lane); a park nothing
     picks up is a complaint left waiting, which is the failure.
+11. **THE OFFLINE-OPERATOR LAW (Cameron, 2026-08-16).** The unattended
+    dispatcher on Machine A (`Dev`) defaults to one Codex + Ollama lane using
+    `qwen3.5:27b`; Claude is an optional fallback, not a dependency. The local
+    worker inherits every production, claim, QC, cost, complaint-first and
+    low-number law in this manual. It classifies a complaint before spending:
+    caption fixes preserve pictures and audio, audio fixes preserve pictures,
+    and new images are generated only when the current rendered cut proves a
+    visual complaint. "Offline" describes the reasoning agent; the existing
+    Gemini image, ElevenLabs voice, GitHub and Firebase services remain online.
 
 ## Locked Product Direction (June 2026) — do not regress these
 

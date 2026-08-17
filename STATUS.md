@@ -8,6 +8,19 @@ Repo: `github.com/noremacttevol/MBM`
 
 ---
 
+## LOCAL PRODUCTION OPERATOR — ACTIVE 2026-08-16
+
+The unattended production brain now runs locally through Codex + Ollama on
+Machine A (`Dev`), one lane at a time, using `qwen3.5:27b`. It uses the same
+deterministic complaint-first / lowest-number dispatcher and every existing
+production gate. Claude is retained only as a manual fallback. Current first
+target: row 95, the lowest current complaint; its caption-only repair must
+reuse all pictures and preserve the audio stream byte-for-byte.
+
+See `media-production-v2/OFFLINE-AUTOPILOT.md`.
+
+---
+
 ## 👷 ACTIVE WORKERS RIGHT NOW (2026-08-01 — every agent updates its own row; a row older than a day is stale, reclaim it)
 
 | Worker | On | State |
