@@ -206,6 +206,16 @@ and preserve the audio stream byte-for-byte. Never change V1 or the shared
 caption wrapper to repair one row. Verify the spelling in the encoded frame at
 the complained timestamp.
 
+**The Screen-Side and Literal-Death Law (Cameron, row 179, 2026-08-17):** convert
+relative staging such as "at his right hand" into explicit viewer coordinates before
+generation. In Stephen's vision, when the Father and Son face the viewer, Jesus at
+the Father's right hand is on the **VIEWER'S LEFT** and the Father is on the
+**VIEWER'S RIGHT**; never mistake the viewer's right edge for the Father's right
+hand. When a modern narrator describes a martyrdom, plainly say the person was
+killed if that is what happened. A restrained death aftermath may omit impact,
+blood and wounds, but it must never be staged like a nap merely because scripture
+uses "fell asleep."
+
 **The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
 never British — he was not British. Current voices (edge-tts, placeholders until
 Cameron locks finals): narrator `en-US-AndrewNeural`, Jesus

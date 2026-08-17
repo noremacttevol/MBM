@@ -62,7 +62,13 @@ def main():
     # once by medium.en before it counts. A real TTS error fails both.
     tiebreak = None
     failures = 0
-    for name, voice, rate, pitch, text in SEGMENTS:
+    for item in SEGMENTS:
+        # Speaker-law builds use (name, speaker, text); older builds used
+        # (name, voice, rate, pitch, text). Ear-check both source shapes.
+        if len(item) == 3:
+            name, _speaker, text = item
+        else:
+            name, _voice, _rate, _pitch, text = item
         ratio, a, b = check(model, name, text)
         if ratio < 0.93:
             if tiebreak is None:

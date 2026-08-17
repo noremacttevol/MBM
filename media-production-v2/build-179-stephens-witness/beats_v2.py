@@ -3,10 +3,20 @@
 Holy Ghost, his testimony, the vision of the Father and the Son, his stoning, and
 his forgiving prayers).
 
-COVERAGE: 14 pictures over 56.83 s (card_start) = ~4.0 s/picture (lesson 12
+COVERAGE: 14 pictures over 53.62 s (card_start) = ~3.8 s/picture (lesson 12
 movie-coverage). ONE establishing wide per place (b01 the council chamber, b09 the
 gate/ground outside the walls); everything else is singles, the vision, and inserts
 that follow STEPHEN as the human spine.
+
+CURRENT CAMERON COMPLAINT (2026-08-17 — this pass):
+  "God and Jesus or on the wrong sides of each other flip them and change then
+   ending because he was killed not fell asleep."
+FIX CONTRACT:
+  * b05 and b07 put Jesus on the VIEWER'S LEFT and the Father on the VIEWER'S
+    RIGHT. This is the Father's anatomical right hand when both face the viewer;
+    never confuse "right hand" with the viewer's right edge again.
+  * b14 and n4b plainly say/show that the stones killed Stephen. The final image
+    is a restrained, non-gory death aftermath, never a sleeping or resting pose.
 
 =====================================================================
 OPEN CAMERON COMPLAINT — THIS IS THE WHOLE SPEC (v2_outline.py 179):
@@ -39,10 +49,10 @@ where #179 is the fiery furnace — a DIFFERENT story — so it is intentionally
 untouched; the durable record is rubric lesson 15, which every session must read.)
 =====================================================================
 
-AUDIO: default AUDIO LOCK stream-copy (no flag). All 9 segments + card are
-ElevenLabs new-voice 44100/128k in the v1 dir; V1 mp4 current 2026-07-29, built
-from the SPEAKER-LAW segments below → the shipped track already carries the
-speaker-law voices. Board Audio = OK. Do NOT re-voice (picture-only rebuild).
+AUDIO: the existing new-voice ElevenLabs 44100/128k track stays locked EXCEPT n4b,
+whose narrator wording is the complained ending and therefore must be re-voiced.
+No other segment may change. AUDIO_FROM_V1_SEGMENTS rebuilds the final track from
+the source segments after that one targeted repair.
 
 SPEAKER LAW (see make_narration.py — Acts 7 has NO red-letter and NO God-voice):
   s1   Acts 7:56  "Behold, I see the heavens opened, and the Son of man standing
@@ -54,16 +64,11 @@ line is Stephen's. So there is NO Jesus red-letter caption anywhere, and the two
 scripture segments are Stephen's, light-blue (the row-39 lesson: a quoted line
 sits on the man who says it). Everything else is the NARRATOR (white).
 
-INHERITED CAPTION/AUDIO DESYNCS (from the locked V1 render — do NOT try to fix;
-audio is immutable and Cameron did not complain about them; noted so a runner is
-not surprised at QC):
-  · n3a: the delivered audio OPENS with an extra recap line ("Look, he told them —
-    heaven is open, and the Son of man is standing at God's right hand.") that is
-    not in the v2 caption text; b08 pictures the council refusing that testimony,
-    which reads true against both the audio and the caption.
-  · n3b: the delivered audio speaks ONLY the first sentence ("...the face of an
-    angel — at peace, not afraid."); the caption's second sentence has no audio.
-    b10 pictures the first sentence, which is what is heard.
+AUDIO-ECHO REPAIR: the old n3a began by paraphrasing the KJV line Stephen had just
+spoken, then said "They would not hear it. They rushed him out." The redundant
+vision recap was removed and n3a re-voiced with only those two modern narration
+sentences. n3b ends after the words actually spoken, "not afraid." Captions and
+audio now agree and the KJV line is never echoed.
 
 CONTENT-CARE — R (RESTRAINT, martyrdom/violence): the stoning is NEVER the
 picture. No stone shown striking Stephen, no wound, no blood, no gore, no stone in
@@ -84,10 +89,10 @@ NEW places (runner promotes each from its first good frame, lesson 11):
 Steps in QC.md. No stash plate exists for either yet.
 """
 
-# LOCKS: all build-local. No Jesus flag / no cream anywhere in this row — the only
-# depiction of the Son is the GLORIFIED vision figure (b05/b07), locked below with
-# his canonical features for face-continuity but in radiant glory, NOT the mortal
-# cream robe. State clothing colours POSITIVELY.
+# LOCKS: all build-local. The Son in b05/b07 is still Jesus: those beats carry the
+# live V2 Jesus face reference and byte-identical shared lock. His one plain cream
+# robe remains the same garment; the surrounding heavenly radiance makes the scene
+# bright, but no light comes off his body and there is no halo or rim-light.
 LOCKS = {
     "COUNCIL-CHAMBER": (
         "COUNCIL-CHAMBER LOCK: the same place in every frame — the hall of the "
@@ -146,8 +151,11 @@ LOCKS = {
         "a radiant pure-white robe of light. He is calm, fatherly and full of love, "
         "reverent and luminous in the manner of Latter-day Saint gospel art. He is "
         "a SEPARATE, distinct being from the Son beside him. Two arms, one head, "
-        "human proportions. No dove, no triangle, no eye, no cross, no crown, no "
-        "throne machinery — only the radiant Father and the light around him."
+        "human proportions. IN BOTH VISION FRAMES he occupies the VIEWER'S RIGHT "
+        "side of the picture; his own anatomical right side points toward the "
+        "VIEWER'S LEFT, where the Son stands. No dove, no triangle, no eye, no "
+        "cross, no crown, no throne machinery — only the radiant Father and the "
+        "light around him."
     ),
     "GLORIFIED-SON": (
         "GLORIFIED-SON LOCK (the vision only, b05/b07): Jesus Christ, the Son of "
@@ -155,13 +163,16 @@ LOCKS = {
         "hand within the same brilliant heavenly radiance — the SAME canonical face "
         "as the Lord elsewhere: a Middle-Eastern man of about thirty-three, warm "
         "tan-olive skin (NEVER white, NEVER fair), shoulder-length dark brown wavy "
-        "hair and a full dark beard, warm brown eyes, kind and strong. In the "
-        "vision he is clothed in a radiant white robe of light (glorified, NOT the "
-        "mortal earth-toned robe). He STANDS — upright, on his feet, at the "
-        "Father's right side — distinct and separate from the Father, plainly a "
-        "second person and not a merging of the two. Two arms, one head, human "
-        "proportions, ordinary-sized beside the Father. No dove, no cross, no "
-        "Trinitarian symbol."
+        "hair and a full dark beard, with the same green-amber-gold eyes as the "
+        "attached live V2 face reference, kind and strong. In the vision he wears "
+        "his one plain undyed off-white cream wool robe. He STANDS — upright, on "
+        "his feet, at the Father's anatomical right side — distinct and separate "
+        "from the Father, plainly a second person and not a merging of the two. "
+        "IN BOTH VISION FRAMES Jesus occupies the VIEWER'S LEFT and the Father "
+        "occupies the VIEWER'S RIGHT. Two arms, one head, human proportions, "
+        "ordinary-sized beside the Father. The surrounding heaven is radiant, "
+        "but no light comes off Jesus and there is no halo or rim-light. No dove, "
+        "no cross, no Trinitarian symbol."
     ),
 }
 
@@ -235,21 +246,23 @@ BEATS = [
     },
     {
         "id": "v2-r179-b05", "out": "s05-the-glory-of-god.jpeg", "seg": "n2",
-        "window": "15.734-20.262", "wide": False, "jesus": False, "ref": False,
+        "window": "15.734-20.262", "wide": False, "jesus": True, "ref": True,
         "locks": ["GLORIFIED-FATHER", "GLORIFIED-SON", "STEPHEN"],
         "narration": "He saw the glory of God — and Jesus, standing at the right hand of the Father.",
-        "must_show": "THE VISION (the complaint fix) — the heavens opened, and TWO distinct glorified personages standing in brilliant radiant light: God the Father, and His Son Jesus Christ standing at the Father's RIGHT hand; two separate embodied beings, reverent and luminous like Latter-day Saint gospel art. Stephen, small and awed, gazes up at them from below.",
-        "must_not_show": "NEVER one merged figure, NEVER Jesus only, NEVER the Father only; NEVER a dove, triangle, eye, cross or any Trinitarian symbol; no cream robe; no modern object; no scroll or writing as art; the two must be plainly SEPARATE persons.",
+        "must_show": "THE VISION (the complaint fix) — the heavens opened, and TWO distinct glorified personages standing in brilliant radiant light. SCREEN GEOMETRY IS ABSOLUTE: Jesus Christ stands on the VIEWER'S LEFT; God the Father stands on the VIEWER'S RIGHT. That viewer-left position is the Father's anatomical RIGHT hand. Stephen, small and awed, gazes up at the two separate embodied beings from below.",
+        "must_not_show": "NEVER reverse the screen positions: Jesus must NEVER be on the viewer's right and the Father must NEVER be on the viewer's left. NEVER one merged figure, Jesus only, or Father only; NEVER a dove, triangle, eye, cross or any Trinitarian symbol; no cream robe on anyone except Jesus; no modern object; no scroll or writing as art.",
         "scene": (
             "The heavens open above the chamber into brilliant, warm heavenly "
             "radiance, and within it stand TWO distinct glorified men, upright and "
-            "separate, clothed in radiant white robes of light. On the left, God "
-            "the Father — an older majestic man with long white hair and a full "
-            "white beard, kindly and full of love. At his RIGHT hand, a half-step "
-            "apart, stands his Son Jesus Christ — a Middle-Eastern man of about "
+            "separate. On the VIEWER'S RIGHT stands God the Father — an older "
+            "majestic man with long white hair and a full white beard, kindly and "
+            "full of love, wearing pure white. At his anatomical RIGHT hand, a "
+            "half-step apart on the VIEWER'S LEFT, stands his Son Jesus Christ — "
+            "a Middle-Eastern man of about "
             "thirty-three with warm tan-olive skin, shoulder-length dark brown wavy "
-            "hair and a full dark beard, calm and strong, plainly a second and "
-            "separate person. Far below and small at the bottom of the frame, "
+            "hair and a full dark beard, calm and strong, wearing his plain cream "
+            "wool robe, plainly a second and separate person. Far below and small "
+            "at the bottom of the frame, "
             "Stephen kneels and gazes up in awe, the radiance on his face. The two "
             "personages are unmistakably two beings; the light fills the sky, not a "
             "ring around any head. Ordinary human proportions, one head each."
@@ -273,19 +286,24 @@ BEATS = [
     },
     {
         "id": "v2-r179-b07", "out": "s07-the-son-of-man-standing.jpeg", "seg": "s1",
-        "window": "22.854-28.918", "wide": False, "jesus": False, "ref": False,
+        "window": "22.854-28.918", "wide": False, "jesus": True, "ref": True,
         "locks": ["GLORIFIED-FATHER", "GLORIFIED-SON"],
         "narration": "Behold, I see the heavens opened, and the Son of man standing on the right hand of God.",
-        "must_show": "SCRIPTURE-EXACT (light-blue caption, Stephen's words) — a closer view of the vision: the Son of man, Jesus Christ, STANDING on the right hand of God the Father in the opened heavens, both glorified and radiant, two separate embodied beings — exactly the verse.",
-        "must_not_show": "NEVER one figure, NEVER Jesus only, NEVER the Father only, NEVER the Son SITTING; NEVER a dove or Trinitarian symbol; no cream robe; no modern object; no scroll or writing as art; the two must be plainly SEPARATE persons.",
+        "must_show": "SCRIPTURE-EXACT (light-blue caption, Stephen's words) — a closer view of the vision: Jesus Christ STANDS on the VIEWER'S LEFT and God the Father STANDS on the VIEWER'S RIGHT. Viewer-left is the Father's anatomical RIGHT hand. They are two separate embodied beings in the opened heavens.",
+        "must_not_show": "NEVER reverse the screen positions: Jesus must NEVER be on the viewer's right and the Father must NEVER be on the viewer's left. Neither person looks into the lens; no glossy satin or synthetic-looking robe. NEVER one figure, Jesus only, Father only, or the Son sitting; NEVER a dove or Trinitarian symbol; no cream robe on anyone except Jesus; no modern object; no scroll or writing as art.",
         "scene": (
             "A closer view up into the opened heavens filled with brilliant warm "
-            "radiance: God the Father stands on the left, majestic and kindly with "
-            "long white hair and beard in a radiant white robe; at his RIGHT hand, "
-            "clearly on his own feet and clearly a separate man, stands the Son of "
+            "radiance: God the Father stands on the VIEWER'S RIGHT, majestic and "
+            "kindly with long white hair and beard in a pure-white robe; at his "
+            "anatomical RIGHT hand, on the VIEWER'S LEFT, clearly on his own feet "
+            "and clearly a separate man, stands the Son of "
             "man, Jesus Christ — warm tan-olive Middle-Eastern features, "
             "shoulder-length dark brown wavy hair, full dark beard, in a radiant "
-            "white robe of light, risen and STANDING to receive his witness. The "
+            "plain cream rough-woven matte wool robe, risen and STANDING to receive "
+            "his witness. The Father's pure-white robe is also matte woven cloth, "
+            "never shiny satin. Both turn their heads and direct their eyes clearly "
+            "down toward Stephen at a point BELOW AND TO THE LEFT OF THE CAMERA; "
+            "neither set of pupils points into the lens. The "
             "two are unmistakably two persons side by side, the Son at the Father's "
             "right. Human proportions, one head each; the radiance fills the sky, "
             "not a ring around either head."
@@ -293,9 +311,9 @@ BEATS = [
     },
     {
         "id": "v2-r179-b08", "out": "s08-they-would-not-hear.jpeg", "seg": "n3a",
-        "window": "28.918-34.096", "wide": False, "jesus": False, "ref": False,
+        "window": "28.918-29.986", "wide": False, "jesus": False, "ref": False,
         "locks": ["COUNCIL-CHAMBER", "SANHEDRIN", "STEPHEN"],
-        "narration": "They would not hear it. (audio also recaps: heaven is open, the Son of man standing at God's right hand.)",
+        "narration": "They would not hear it.",
         "must_show": "the council refusing his testimony — several elders on their feet, hands clapped over their ears, faces contorted, shouting him down; they will not hear what he has seen.",
         "must_not_show": "no divine figure in this frame; no blow landing, no violence yet; no cream robe; no modern object; no halo or ring of light; no scroll or writing as art.",
         "scene": (
@@ -309,7 +327,7 @@ BEATS = [
     },
     {
         "id": "v2-r179-b09", "out": "s09-rushed-him-out.jpeg", "seg": "n3a",
-        "window": "34.096-37.334", "wide": True, "jesus": False, "ref": False,
+        "window": "29.986-31.760", "wide": True, "jesus": False, "ref": False,
         "locks": ["OUTSIDE-WALLS", "STEPHEN", "THE-MOB"],
         "narration": "They rushed him out.",
         "must_show": "the establishing wide outside the walls — the crowd drives Stephen out through the city gate onto the bare open ground beyond the wall, the whole travel moving OUTWARD from the gate; the stoning ground.",
@@ -327,7 +345,7 @@ BEATS = [
     },
     {
         "id": "v2-r179-b10", "out": "s10-face-of-an-angel.jpeg", "seg": "n3b",
-        "window": "37.334-42.059", "wide": False, "jesus": False, "ref": False,
+        "window": "31.760-36.485", "wide": False, "jesus": False, "ref": False,
         "locks": ["OUTSIDE-WALLS", "STEPHEN"],
         "narration": "But Stephen's face was the face of an angel — at peace, not afraid.",
         "must_show": "a close on Stephen's serene, luminous face amid the hostile crowd — utterly at peace, unafraid, radiant with calm; the face of an angel.",
@@ -343,7 +361,7 @@ BEATS = [
     },
     {
         "id": "v2-r179-b11", "out": "s11-he-knelt-down.jpeg", "seg": "n4a",
-        "window": "42.059-48.912", "wide": False, "jesus": False, "ref": False,
+        "window": "36.485-43.338", "wide": False, "jesus": False, "ref": False,
         "locks": ["OUTSIDE-WALLS", "STEPHEN", "THE-MOB"],
         "narration": "Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them.",
         "must_show": "Stephen kneeling in prayer for his killers — he has knelt on the open ground, hands open or lifted, face raised in prayer, asking mercy; the mob is a distant threat, never a blow on camera.",
@@ -361,7 +379,7 @@ BEATS = [
     },
     {
         "id": "v2-r179-b12", "out": "s12-lay-not-this-sin.jpeg", "seg": "s60",
-        "window": "48.912-52.842", "wide": False, "jesus": False, "ref": False,
+        "window": "43.338-47.268", "wide": False, "jesus": False, "ref": False,
         "locks": ["OUTSIDE-WALLS", "STEPHEN"],
         "narration": "Lord, lay not this sin to their charge.",
         "must_show": "SCRIPTURE-EXACT (light-blue) — the forgiving prayer: a close on Stephen kneeling, face lifted, lips moving in his dying prayer that his killers not be charged with this sin.",
@@ -377,7 +395,7 @@ BEATS = [
     },
     {
         "id": "v2-r179-b13", "out": "s13-dont-hold-this.jpeg", "seg": "n4b",
-        "window": "52.842-54.711", "wide": False, "jesus": False, "ref": False,
+        "window": "47.268-49.172", "wide": False, "jesus": False, "ref": False,
         "locks": ["OUTSIDE-WALLS", "STEPHEN"],
         "narration": "Don't hold this against them, he prayed.",
         "must_show": "Stephen still in prayer — his open, forgiving face and open hands, praying that this not be held against them; mercy to the end.",
@@ -392,18 +410,24 @@ BEATS = [
     },
     {
         "id": "v2-r179-b14", "out": "s14-he-fell-asleep.jpeg", "seg": "n4b",
-        "window": "54.711-56.831", "wide": False, "jesus": False, "ref": False,
+        "window": "49.172-53.615", "wide": False, "jesus": False, "ref": False,
         "locks": ["OUTSIDE-WALLS", "STEPHEN"],
-        "narration": "And then he fell asleep.",
-        "must_show": "the peaceful passing — Stephen sinking gently down at rest, eyes closed, his face perfectly at peace as if fallen asleep, a soft warmth of heaven's light on him; received into glory.",
-        "must_not_show": "RESTRAINT LAW — no wound, no blood, no gore, no violent death shown; no divine figure fully shown; no cream robe; no modern object; no halo ringing his head; no scroll or writing as art.",
+        "narration": "Then the stones killed him, but they could not take away his peace.",
+        "must_show": "THE DEATH AFTERMATH — the stones have killed Stephen. He lies completely motionless where he collapsed on the bare ground outside the walls, body limp, awkward and extended rather than comfortably reclined, arms fallen asymmetrically, head unsupported, his visible eyes partly open and unfocused in death, with several hand-sized stones scattered nearby and the mob now distant. This must read instantly as a solemn death after stoning, not sleep, while remaining restrained and non-gory.",
+        "must_not_show": "NEVER a sleeping, napping, resting or peacefully reclining pose; no pillow-like stone, bed, blanket or curled sleep posture. RESTRAINT LAW — no impact, no stone in flight, no wound, no blood, no gore; no divine figure fully shown; no cream robe; no modern object; no halo; no scroll or writing as art.",
         "scene": (
-            "Stephen sinks gently down onto the ground and comes to rest, seen from "
-            "above and the side, his eyes closed and his face perfectly at peace, "
-            "as though he has only fallen asleep. A soft warm light from above rests "
-            "on his calm features. No wound or blood is shown, no violence — only "
-            "rest and peace. Ordinary-sized, one head; the light lies softly on him "
-            "and is not a ring around his head; nothing written as art."
+            "The solemn aftermath outside the walls, seen from above and the side. "
+            "Stephen lies completely motionless where the stones killed him on the "
+            "hard bare ground, his body limp, awkward and extended from the collapse "
+            "rather than arranged for comfort, both arms fallen asymmetrically, his "
+            "head unsupported and his face angled visibly toward the camera. His "
+            "eyes are PARTLY OPEN AND UNFOCUSED in death, jaw slack, one open hand "
+            "lying still. Several hand-sized stones "
+            "lie scattered on the ground around him; none touches his body and none "
+            "is in flight. Far in the background the mob has stepped away. This is "
+            "unmistakably a death aftermath, never sleep, yet his face has kept its "
+            "peace. No wound or blood is visible. Ordinary-sized, one head; ordinary "
+            "daylight, no ring around his head; nothing written as art."
         ),
     },
 ]
@@ -429,8 +453,8 @@ PLACE_REFS = {
 # warm olive-tan skin, dark hair, dark eyes, short dark beard, oatmeal-and-brown
 # tunic, never cream. cast_refs_for() attaches them to every beat whose `locks`
 # name STEPHEN, so every regenerated Stephen frame converges on this one face.
-# (The glorified vision figures b05/b07 stay text-lock-only — those frames are
-# GOOD and are not regenerated.)
+# The Father carries a local face anchor; Jesus uses the project-wide live V2
+# master reference through jesus=True/ref=True, as every Jesus frame must.
 # The delivered V1 mp4 is a STALE assembly (64.133s) whose track no longer matches
 # this build's on-disk segment timeline (63.149s, ~0.984s of orphaned audio). All 10
 # V1 segment mp3s are the correct new-voice ElevenLabs narration (44100/128k,
@@ -440,4 +464,5 @@ AUDIO_FROM_V1_SEGMENTS = True
 
 REFS = {
     "STEPHEN": ["STEPHEN-REF/stephen-front.jpeg", "STEPHEN-REF/stephen-quarter.jpeg"],
+    "GLORIFIED-FATHER": ["CAST-REF-V2/glorified-father.jpeg"],
 }

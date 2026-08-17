@@ -15,9 +15,11 @@ One line out of red into light blue.
 LIFTED FROM PARAPHRASE — the dying prayer:
   s60  Acts 7:60  NEW (scripture). n4a said only that 'his last words asked mercy for
        the ones throwing the stones', which is a summary of one of the most famous
-       sentences in Acts. It is now spoken verbatim, on ST9 with n4a, and n4b
-       ('Then he fell asleep') follows on ST8 exactly as it did before — which is
-       itself Luke's own phrase, so the ending is unchanged.
+       sentences in Acts. It is now spoken verbatim, on ST9 with n4a.
+
+CAMERON ENDING CORRECTION (2026-08-17): the narrator must plainly say Stephen was
+killed, not euphemistically say he fell asleep. Only n4b changes; every other
+new-voice segment remains byte-for-byte locked.
 
 This is Stephen's, not Christ's, and that matters: he prayed his Master's prayer from
 the cross back at his own killers. Light blue is what lets a viewer feel the echo
@@ -43,11 +45,11 @@ SEGMENTS = [
     ("n1", NARRATOR, "But Stephen didn't look at his accusers. He looked up, and what he saw changed everything."),
     ("n2", NARRATOR, 'He saw the glory of God — and Jesus, standing at the right hand of the Father. And he said so, out loud:'),
     ("s1", SCRIPTURE, 'Behold, I see the heavens opened, and the Son of man standing on the right hand of God.'),
-    ("n3a", NARRATOR, 'They would not hear it. They rushed him out.'),
-    ("n3b", NARRATOR, "But Stephen's face was the face of an angel — at peace, not afraid. The court could condemn him, but it could not make him face death alone."),
+    ("n3a", NARRATOR, "They would not hear it. They rushed him out."),
+    ("n3b", NARRATOR, "But Stephen's face was the face of an angel — at peace, not afraid."),
     ("n4a", NARRATOR, 'Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them.'),
     ("s60", SCRIPTURE, 'Lord, lay not this sin to their charge.'),
-    ("n4b", NARRATOR, "Don't hold this against them, he prayed. And then he fell asleep."),
+    ("n4b", NARRATOR, "Don't hold this against them, he prayed. Then the stones killed him, but they could not take away his peace."),
     ("card", NARRATOR, 'He saw the Son of man standing to receive him. You can face your end with that same peace.'),
 ]
 

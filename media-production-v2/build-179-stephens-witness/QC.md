@@ -1,5 +1,56 @@
 # build-179-stephens-witness — QC / runner handoff (Acts 7)
 
+## ✅ COMPLAINT RE-CUT SHIPPABLE (2026-08-17, Codex offline-operator lane)
+
+**Current complaint:** *"God and Jesus or on the wrong sides of each other flip
+them and change then ending because he was killed not fell asleep."*
+
+**Complaint fixes proven in the encoded MP4:**
+- **Vision sides corrected in both shots:** at 17.5s (b05) and 24.5s (b07), Jesus
+  is on the **VIEWER'S LEFT** and God the Father is on the **VIEWER'S RIGHT**.
+  This is the Father's anatomical right hand when both face the viewer. They are
+  two distinct standing embodied figures; no merge, dove or symbol, and neither
+  looks into the lens. Both frames now carry the live V2 Jesus face reference and
+  the Father carries his local face anchor.
+- **Ending plainly shows and says death, not sleep:** b14 is a restrained aftermath
+  with Stephen limp and asymmetrically collapsed on bare ground, open unfocused
+  eyes, stones around him, and the crowd walking away. No bed, pillow, sleep pose,
+  impact, wound, blood or gore. The narrator and white bottom-band caption say:
+  **"Then the stones killed him, but they could not take away his peace."**
+- **Old narrator echo removed:** n3a no longer paraphrases Stephen's KJV vision
+  immediately after he says it. It now says only, "They would not hear it. They
+  rushed him out." Captions and speech are synchronized.
+
+**Generation ledger:** 5 paid calls / 3 accepted replacement pictures, meter
+$729.90 → $730.57 (~$0.67). b07 pass 1 was rejected for both figures staring into
+the lens and a synthetic-looking robe; b14 pass 1 was rejected because it could
+still read as sleep. The accepted b05/b07/b14 are realistic stills at native 2K.
+
+**Final encoded-cut proof:**
+- MP4: `acts-7_stephens-witness.mp4` — 59.933333s, 20,466,917 bytes, 1080×1920,
+  30fps H.264 + mono 44.1kHz AAC; raw SHA-256
+  `e5ae28bca12e04ac0cbf6f4b7ece7ac0d90fca4c22f37c9b0de163d3efc65e09`.
+- AUDIO REBUILD PASS SHA-256
+  `2ff27c4151842736da9ec8a8d9739ded5cc4c5b2021b5a358e86832aad857252`.
+- `qc_narration.py`: all 10 segments PASS (n0–n4b exact 1.00; card 0.95).
+  V2 prompt checklist PASS; Jesus face gate PASS; full decode PASS; video/audio
+  reach 59.933/59.930s; no silence over 2.5s; `admin/qc_gate.py` full Whisper gate
+  PASS; content-hash render receipt PASS.
+- Local offline Qwen `qwen3.5:27b` inspected the exact full-size encoded frames at
+  17.5s, 24.5s and 51.0s and returned PASS on both screen positions and the
+  non-sleep death aftermath, including the exact visible ending caption. Manual
+  chronological 16-frame review also PASS: captions stay in the bottom band,
+  scripture captions are light blue, narrator captions white, and the closing
+  question card is clean.
+
+**Review-card wording:** *"Fixed your complaint: Jesus is now on the viewer's left
+at the Father's right hand, with the Father on the viewer's right, in both vision
+shots. The ending now plainly says and shows that the stones killed Stephen—not
+that he fell asleep."*
+
+Everything below is historical handoff context from the earlier 2026-08-07/13
+passes and is superseded by this verified re-cut where it conflicts.
+
 **AUTHORED 2026-08-07, Machine A `Dev` (Fable-5 author lane, $0).** 14-beat V2 map,
 `v2_prompt.py --check` PASS, windows contiguous+monotonic 0.400→56.831 (=card_start),
 onsets in-window, audio OK. Picture-only rebuild — do NOT re-voice.

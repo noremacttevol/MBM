@@ -61,7 +61,14 @@ def _key():
     for _ in range(4):
         f = glob.glob(os.path.join(d, "elevenlabs*KEY*.txt"))
         if f:
-            return open(f[0]).read().strip()
+            raw = open(f[0]).read().strip()
+            # The machine credential file may also carry other labelled service
+            # tokens. Read only the ElevenLabs value; never send the entire file
+            # as an HTTP header.
+            labelled = re.search(
+                r"(?im)^\s*elevenlabs(?:_api)?_key\s*:\s*(\S+)\s*$", raw
+            )
+            return labelled.group(1) if labelled else raw
         d = os.path.dirname(d)
     raise RuntimeError("no ElevenLabs key file found (elevenlabs*KEY*.txt)")
 

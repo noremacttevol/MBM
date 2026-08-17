@@ -17,21 +17,21 @@
    "text": "Stephen, full of the Holy Spirit, was dragged before the council for speaking the truth. He told them the whole story of Israel \u2014 and they boiled with rage.",
    "seg_start": 0.0,
    "audio_start": 0.28,
-   "spoken_end": 9.195,
-   "seg_end": 9.845,
-   "audio_dur": 9.326,
-   "spoken_dur": 8.915,
-   "seg_dur": 9.845,
+   "spoken_end": 9.374,
+   "seg_end": 10.024,
+   "audio_dur": 9.456,
+   "spoken_dur": 9.094,
+   "seg_dur": 10.024,
    "timing": [
     {
      "text": "Stephen, full of the Holy Spirit, was dragged before the council for speaking the truth.",
      "start": 0.0,
-     "end": 4.656
+     "end": 4.981
     },
     {
      "text": "He told them the whole story of Israel \u2014 and they boiled with rage.",
-     "start": 4.656,
-     "end": 9.288
+     "start": 4.981,
+     "end": 9.427
     }
    ]
   },
@@ -41,23 +41,23 @@
    "zoom": "in",
    "speaker": "narrator",
    "text": "But Stephen didn't look at his accusers. He looked up, and what he saw changed everything.",
-   "seg_start": 9.845,
-   "audio_start": 10.125,
-   "spoken_end": 14.929,
-   "seg_end": 15.579,
-   "audio_dur": 5.251,
-   "spoken_dur": 4.804,
-   "seg_dur": 5.734,
+   "seg_start": 10.024,
+   "audio_start": 10.304,
+   "spoken_end": 14.804,
+   "seg_end": 15.454,
+   "audio_dur": 4.911,
+   "spoken_dur": 4.5,
+   "seg_dur": 5.43,
    "timing": [
     {
      "text": "But Stephen didn't look at his accusers.",
      "start": 0.0,
-     "end": 1.904
+     "end": 1.962
     },
     {
      "text": "He looked up, and what he saw changed everything.",
-     "start": 1.904,
-     "end": 5.201
+     "start": 1.962,
+     "end": 4.876
     }
    ]
   },
@@ -67,23 +67,23 @@
    "zoom": "in",
    "speaker": "narrator",
    "text": "He saw the glory of God \u2014 and Jesus, standing at the right hand of the Father. And he said so, out loud:",
-   "seg_start": 15.579,
-   "audio_start": 15.859,
-   "spoken_end": 21.64,
-   "seg_end": 22.29,
-   "audio_dur": 6.165,
-   "spoken_dur": 5.781,
-   "seg_dur": 6.711,
+   "seg_start": 15.454,
+   "audio_start": 15.734,
+   "spoken_end": 21.924,
+   "seg_end": 22.574,
+   "audio_dur": 6.583,
+   "spoken_dur": 6.19,
+   "seg_dur": 7.12,
    "timing": [
     {
      "text": "He saw the glory of God \u2014 and Jesus, standing at the right hand of the Father.",
      "start": 0.0,
-     "end": 3.634
+     "end": 4.458
     },
     {
      "text": "And he said so, out loud:",
-     "start": 4.11,
-     "end": 6.13
+     "start": 4.528,
+     "end": 6.548
     }
    ]
   },
@@ -93,18 +93,18 @@
    "zoom": "in",
    "speaker": "scripture",
    "text": "Behold, I see the heavens opened, and the Son of man standing on the right hand of God.",
-   "seg_start": 22.29,
-   "audio_start": 22.57,
-   "spoken_end": 26.942,
-   "seg_end": 28.542,
-   "audio_dur": 4.728,
-   "spoken_dur": 4.372,
-   "seg_dur": 6.252,
+   "seg_start": 22.574,
+   "audio_start": 22.854,
+   "spoken_end": 27.038,
+   "seg_end": 28.638,
+   "audio_dur": 4.598,
+   "spoken_dur": 4.184,
+   "seg_dur": 6.064,
    "timing": [
     {
      "text": "Behold, I see the heavens opened, and the Son of man standing on the right hand of God.",
      "start": 0.0,
-     "end": 4.69
+     "end": 4.551
     }
    ]
   },
@@ -114,23 +114,23 @@
    "zoom": "in",
    "speaker": "narrator",
    "text": "They would not hear it. They rushed him out.",
-   "seg_start": 28.542,
-   "audio_start": 28.822,
-   "spoken_end": 30.966,
-   "seg_end": 31.616,
-   "audio_dur": 2.586,
-   "spoken_dur": 2.144,
-   "seg_dur": 3.074,
+   "seg_start": 28.638,
+   "audio_start": 28.918,
+   "spoken_end": 30.83,
+   "seg_end": 31.48,
+   "audio_dur": 2.351,
+   "spoken_dur": 1.912,
+   "seg_dur": 2.842,
    "timing": [
     {
      "text": "They would not hear it.",
      "start": 0.0,
-     "end": 1.091
+     "end": 1.068
     },
     {
      "text": "They rushed him out.",
-     "start": 1.091,
-     "end": 2.554
+     "start": 1.068,
+     "end": 2.322
     }
    ]
   },
@@ -139,24 +139,19 @@
    "v1_still": "s7-the-face-of-an-angel.jpeg",
    "zoom": "in",
    "speaker": "narrator",
-   "text": "But Stephen's face was the face of an angel \u2014 at peace, not afraid. The court could condemn him, but it could not make him face death alone.",
-   "seg_start": 31.616,
-   "audio_start": 31.896,
-   "spoken_end": 40.154,
-   "seg_end": 40.804,
-   "audio_dur": 8.673,
-   "spoken_dur": 8.258,
-   "seg_dur": 9.188,
+   "text": "But Stephen's face was the face of an angel \u2014 at peace, not afraid.",
+   "seg_start": 31.48,
+   "audio_start": 31.76,
+   "spoken_end": 35.555,
+   "seg_end": 36.205,
+   "audio_dur": 4.18,
+   "spoken_dur": 3.795,
+   "seg_dur": 4.725,
    "timing": [
     {
      "text": "But Stephen's face was the face of an angel \u2014 at peace, not afraid.",
      "start": 0.0,
-     "end": 4.145
-    },
-    {
-     "text": "The court could condemn him, but it could not make him face death alone.",
-     "start": 4.145,
-     "end": 8.638
+     "end": 4.133
     }
    ]
   },
@@ -166,13 +161,13 @@
    "zoom": "in",
    "speaker": "narrator",
    "text": "Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them.",
-   "seg_start": 40.804,
-   "audio_start": 41.084,
-   "spoken_end": 46.975,
-   "seg_end": 47.625,
+   "seg_start": 36.205,
+   "audio_start": 36.485,
+   "spoken_end": 42.408,
+   "seg_end": 43.058,
    "audio_dur": 6.296,
-   "spoken_dur": 5.891,
-   "seg_dur": 6.821,
+   "spoken_dur": 5.923,
+   "seg_dur": 6.853,
    "timing": [
     {
      "text": "Then he knelt down, with the stones still coming, and his last words asked mercy for the ones throwing them.",
@@ -187,18 +182,18 @@
    "zoom": "out",
    "speaker": "scripture",
    "text": "Lord, lay not this sin to their charge.",
-   "seg_start": 47.625,
-   "audio_start": 47.905,
-   "spoken_end": 50.111,
-   "seg_end": 51.711,
-   "audio_dur": 2.325,
-   "spoken_dur": 2.205,
-   "seg_dur": 4.085,
+   "seg_start": 43.058,
+   "audio_start": 43.338,
+   "spoken_end": 45.388,
+   "seg_end": 46.988,
+   "audio_dur": 2.403,
+   "spoken_dur": 2.05,
+   "seg_dur": 3.93,
    "timing": [
     {
      "text": "Lord, lay not this sin to their charge.",
      "start": 0.0,
-     "end": 2.276
+     "end": 2.368
     }
    ]
   },
@@ -207,24 +202,24 @@
    "v1_still": "s8-received-into-glory.jpeg",
    "zoom": "in",
    "speaker": "narrator",
-   "text": "Don't hold this against them, he prayed. And then he fell asleep.",
-   "seg_start": 51.711,
-   "audio_start": 51.991,
-   "spoken_end": 55.09,
-   "seg_end": 55.74,
-   "audio_dur": 3.579,
-   "spoken_dur": 3.099,
-   "seg_dur": 4.029,
+   "text": "Don't hold this against them, he prayed. Then the stones killed him, but they could not take away his peace.",
+   "seg_start": 46.988,
+   "audio_start": 47.268,
+   "spoken_end": 52.965,
+   "seg_end": 53.615,
+   "audio_dur": 6.087,
+   "spoken_dur": 5.697,
+   "seg_dur": 6.627,
    "timing": [
     {
      "text": "Don't hold this against them, he prayed.",
      "start": 0.0,
-     "end": 1.788
+     "end": 1.904
     },
     {
-     "text": "And then he fell asleep.",
-     "start": 1.788,
-     "end": 3.529
+     "text": "Then the stones killed him, but they could not take away his peace.",
+     "start": 1.904,
+     "end": 6.037
     }
    ]
   }
@@ -232,9 +227,9 @@
  "card": {
   "seg": "card",
   "text": "He saw the Son of man standing to receive him. You can face your end with that same peace.",
-  "seg_start": 55.74,
-  "audio_start": 56.02,
-  "seg_dur": 7.161
+  "seg_start": 53.615,
+  "audio_start": 53.895,
+  "seg_dur": 6.317
  },
- "total": 62.901
+ "total": 59.932
 }
