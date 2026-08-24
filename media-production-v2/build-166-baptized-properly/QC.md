@@ -83,3 +83,25 @@ Runner budget: 24 beats, reroll budget ≤15% = ~3-4 rerolls. Riskiest: b01 (NEW
 place + establishing wide), b18 (tongues must be the men's speech, never flame),
 Paul's face across 12 beats. Batch every known fix into ONE re-cut (COST/
 touch-once law).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: PAUL copied byte-identical from build-138 (md5 b200a21d… both
+sides), EPHESIAN-DISCIPLES portrait + all 24 stills, **0 rerolls, $3.35**.
+EPHESUS-ROOM promoted from b01. No composition clones (asset + encoded
+similarity: no pair >0.92).
+
+**FULL-CUT GATE — 24 beats + card viewed on the ENCODED mp4: PASS.** HARD GATE
+held: Holy Ghost never embodied AND tongues are NOT flames — b18 is the men's
+own praise/prophecy with alight faces, warm light only; b12/b15 keep the air
+empty. SPEAKER LAW: Luke's Acts — s2/s4/kv5/kv6 and the Acts narration all
+LIGHT-BLUE (Paul's words included — not Jesus-red); no red, no green; narrator
+white. NO Jesus in-scene, nobody in cream. Paul one consistent 138-canon man
+(b14's baptizer is a generic disciple — the beat locks EPHESIAN-DISCIPLES only,
+"a baptizer's hands", not Paul). b19 scroll: period Hebrew letterforms,
+unreadable at playback — kept. Card clean.
+
+**AUDIO:** V1 final current — packet-copy, **AUDIO LOCK PASS
+SHA256=c9469658d0…**, 136.0s, 19.3 MB. Cost $3.35 / 0 rerolls — under average.
