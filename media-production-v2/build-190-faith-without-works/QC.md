@@ -55,3 +55,41 @@ violence/blood — reverent obedience only) and the sacred-figure gate (no God f
 anywhere); realistic-only Law 14 (no cartoon/mixed); NO ONE in cream/white; drift-word
 checks. Then `v2_assemble` (AUDIO LOCK stream-copy, byte-identical — do NOT re-voice),
 re-audit, ship. COMPLAINT LEDGER: none open.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: 5 portraits + all 12 stills. **ZERO plate clones** — rubric lesson
+26 applied before the first roll (8 beats given distinct cameras; the
+6-beat TOWN-DOORWAY lane family was the risk and came back fully varied).
+**2 rerolls / 12 = 16.7%. Cost $2.55 (19 gens: 12 stills + 5 portraits + 2 rerolls).**
+
+**Reroll ledger (both on b02, and the second one is my own process error):**
+- `v2_story_cast` generated all five portraits but the map had been authored
+  with `REFS = {}` ("No image REFS — carried by text locks"), and the cast
+  script did NOT wire them. So the whole first pass generated UNANCHORED and the
+  BELIEVER drifted in b02 into a different, older grey-bearded man (rubric
+  lesson 2 — a text lock alone is not enough). Fixed by wiring all five REFS.
+- The first b02 reroll was WASTED ($0.13): my wiring edit asserted and failed,
+  but I fired the reroll in the same command, so it regenerated still
+  unanchored. **Verify the edit landed before spending** — the same trap logged
+  on row 156. The second reroll ran with `[+1 char ref: BELIEVER]` and matches
+  the canonical portrait.
+
+**FULL-CUT GATE — 12 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s1 (b05) + s26 (b10) LIGHT-BLUE; narrator white; no red, no green; **no
+Jesus, nobody in cream/white**. GOD NEVER EMBODIED. CONTENT-CARE held: Abraham
+and Isaac is reverent obedience — Isaac calm and unharmed, **no blade, no blood,
+no terror**; Rahab is concealment and rescue by the scarlet cord, no violence.
+The believer's arc reads (idle → gives bread → carries blanket → stands with
+them). Card clean.
+
+**AUDIO — diagnosed, not assumed:** stream-copy refused on a 16-second gap
+(V1 68.767s vs extract 52.662s), too large for spacing. Verified by full
+transcription that the V1 mp4 contains EXACTLY the 9 segment texts and nothing
+more, and that all 9 mp3s are ElevenLabs new-voice (44100/128k) written 57
+seconds AFTER the mp4 — i.e. the mp4 carries the OLD slower voice. Rebuilding
+from the segments therefore loses no content and ships the NEW voice.
+**AUDIO REBUILD PASS SHA256=3e61318544…**, 52.7s, 19.7 MB; the encoded cut was
+re-transcribed and carries every line through the closing card.

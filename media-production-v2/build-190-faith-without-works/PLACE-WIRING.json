@@ -1,0 +1,26 @@
+{
+ "JAMES-ROOM": {
+  "manual": true,
+  "src_beat": "s01-james-writes",
+  "src_build": "build-190-faith-without-works",
+  "src_file": "build-190-faith-without-works/assets/s01-james-writes.jpeg"
+ },
+ "JERICHO-WINDOW": {
+  "manual": true,
+  "src_beat": "s08-rahab-hides-the-spies",
+  "src_build": "build-190-faith-without-works",
+  "src_file": "build-190-faith-without-works/assets/s08-rahab-hides-the-spies.jpeg"
+ },
+ "MORIAH-ALTAR": {
+  "manual": true,
+  "src_beat": "s06-abraham-obeys",
+  "src_build": "build-190-faith-without-works",
+  "src_file": "build-190-faith-without-works/assets/s06-abraham-obeys.jpeg"
+ },
+ "TOWN-DOORWAY": {
+  "manual": true,
+  "src_beat": "s03-no-clothes-no-food",
+  "src_build": "build-190-faith-without-works",
+  "src_file": "build-190-faith-without-works/assets/s03-no-clothes-no-food.jpeg"
+ }
+}
