@@ -91,3 +91,27 @@ across both baptism videos:
    FIX-WAVE, keep the best, move on. Log $/row + reroll % in SESSION-LOG vs the
    $6.10 average. Expected cost ~28 × $0.20 ≈ $5.6 (all-new build, no banked
    stills to reuse for this row).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: all 28 stills, **0 rerolls, $3.75**. JORDAN pre-plated + BAPTIST
+canonical anchor (row-69 C-FIX face) used as committed; same event as row 69
+with byte-identical locks.
+
+**FULL-CUT GATE — 28 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW pixel-verified: s14 BLUE on JOHN (his protest), kv15 attribution BLUE,
+kv15b RED on Jesus ("Suffer it to be so now…"), kv17 BLUE, **gv17 GREEN — the
+Father's voice — landing on the upturned faces and the beloved Son, the Father
+NEVER embodied** (opened heaven = natural bright cloud-break, no figure/beam).
+THE DOVE IS SCRIPTURAL HERE: shown as a real white bird descending (b15) and at
+rest (b16/b18/b21/b22), opposite of the Holy-Ghost gate on 165/166/168. Three
+Persons kept DISTINCT — no merge, triangle, or rays. SCALE GATE held (John an
+ordinary-sized man — the row-69 giant-John complaint class checked on every
+John frame). Proper immersion (b11 lowered under, b12/b14 rising). Jesus V2
+face on-model throughout, cream only him. Encoded similarity: no pair >0.92.
+Card clean.
+
+**AUDIO:** V1 final current — packet-copy, **AUDIO LOCK PASS
+SHA256=7a31624c55…**, 145.5s, 19.7 MB. Cost $3.75 / 0 rerolls — under average.
