@@ -165,3 +165,26 @@ Reroll budget ≤15% of 24 beats = ~3. b01 is the single riskiest frame (new
 cliff place + establishing wide) — spend the plate-promote care there.
 
 **COST this session: $0.00** (0 images, 0 TTS). Meter unchanged. 0% rerolls.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Resume of the outage-parked row: DISCIPLES portrait + all 24 stills generated
+this session, **0 rerolls, $3.35** (25 gens). CAESAREA-ROCK promoted from b01
+(real limestone cliff, cave-mouth + spring, Hermon behind) and held across all
+17 plate beats without composition cloning — every beat its own camera.
+
+**FULL-CUT GATE — 24 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER LAW
+pixel-verified: RED only on Jesus's exact KJV words (kv13b b03 on his face, kv18
+b09, kv18b b10, kv19a b18, kv19b b19 on Peter receiving — as authored); Peter's
+confession s16 LIGHT-BLUE on PETER (b04); narrator white; no green. Jesus V2 face
+on-model in every appearance (green/hazel eyes b03 close-up), cream ONLY him, no
+halo/glow. Peter one consistent man; the keys ONE object — the same two iron
+ward-keys in s17/s19/s21-s24, single authored key-in-lock insert s20. Father
+NEVER embodied (heaven carried by light + the handed-down keys). Encoded
+similarity matrix: no pair >0.92. Card clean.
+
+**AUDIO:** V1 final is current — packet-copy, **AUDIO LOCK PASS
+SHA256=0d17b1e76d…**, 159.3s, 19.7 MB. Cost $3.35 / 0 rerolls — under average,
+COST LAW holds.
