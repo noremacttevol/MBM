@@ -1,1 +1,14 @@
-{}
+{
+ "HALL": {
+  "manual": true,
+  "src_beat": "s01-the-young-believers-in-thessalonica",
+  "src_build": "build-155-falling-away",
+  "src_file": "build-155-falling-away/assets/s01-the-young-believers-in-thessalonica.jpeg"
+ },
+ "ROOM": {
+  "manual": true,
+  "src_beat": "s02-so-paul-sat-down-to",
+  "src_build": "build-155-falling-away",
+  "src_file": "build-155-falling-away/assets/s02-so-paul-sat-down-to.jpeg"
+ }
+}

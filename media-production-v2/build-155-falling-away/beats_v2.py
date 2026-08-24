@@ -302,7 +302,7 @@ BEATS = [
             "happened first — and it was sobering."
         ),
         "must_show": "the sequence — a long road with TWO waymark stones: a near one and a far one; the near marker unmistakably FIRST on the way; order as geography.",
-        "must_not_show": "no halo; the two markers' ORDER readable — near first, far after; the road one road.",
+        "must_not_show": "no halo; the two markers' ORDER readable — near first, far after; the road one road; the stones BARE weathered rock — absolutely NO carved letters, writing, inscription, glyphs or symbols on either stone (no Hebrew, no any script).",
         "scene": (
             "The schedule is laid out in roadside stone: "
             "the long road runs toward the horizon "
@@ -535,7 +535,7 @@ BEATS = [
         "locks": ["PAUL", "ROOM"],
         "narration": "So this hard little verse is really a quiet promise.",
         "must_show": "the promise in plain ink — Paul's finished letter held gently in his hands, the lamp warm on it; hard words, kind purpose.",
-        "must_not_show": "no halo; script indistinct; the HOLDING gentle — a letter written in love.",
+        "must_not_show": "no halo; the page's writing SOFT-FOCUS and unreadable — faint blurred ink only, NO distinct letterforms, NO legible or pseudo-legible script; the HOLDING gentle — a letter written in love.",
         "scene": (
             "The hard verse cools into what it always was: "
             "Paul holds the finished letter gently in both "
@@ -609,8 +609,7 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # HALL --take from build-22 REJECTED (the parable king's hall — a modest
-    # Thessalonian house-courtyard with its lampstand is its own place).
-    # Promote-first from b01.
+    "HALL": "PLACE-REF/hall.jpeg",  # build-155-falling-away s01-the-young-believers-in-thessalonica (manual)
+    "ROOM": "PLACE-REF/room.jpeg",  # build-155-falling-away s02-so-paul-sat-down-to (manual)
 }
 # === end PLACE-PLATES ===

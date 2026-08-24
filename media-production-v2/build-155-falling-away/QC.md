@@ -88,3 +88,36 @@ no longer refuses on the audio lock, it now stops only at the missing stills
 Claim cleared. When the runner generates the 22 stills, `v2_assemble` rebuilds
 the new-voice track via the flag and ships. Nothing else touched — same voices,
 same wording, same timing.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build off the AUDIO-FIX handoff: all 22 stills generated this session.
+PAUL copied byte-identical from build-138 (md5 b200a21d… both sides — face-board
+law); HALL promoted from b01, ROOM from b02 (promote-first per the authored plan,
+build-22 --take stayed rejected).
+
+**Rerolls: 3/22 = 13.6% (≤15% budget), autopsy verdicts recorded:**
+- b03: ROOM plate CLONED b02's composition (corr 1.0 — law 12m) → rerolled
+  `--no-plates` as the authored CLOSE face shot; now genuinely distinct.
+- b10: prompt ALLOWED an inscription — near waymark rendered crisp modern-font
+  Hebrew ("יום הכנה") → must_not_show now bans any script on the stones;
+  reroll is two BARE weathered stones, near-first order readable.
+- b20: "script indistinct" IGNORED — letter text too legible → constraint
+  strengthened (soft-focus, no letterforms); reroll faint.
+
+**FULL-CUT GATE — 22 beats + card viewed on the ENCODED mp4: PASS.** Man of sin
+never depicted; drifters sorrowful not sneering; lampstand ladder reads
+full-lit (b01/b08) → freshly-snuffed smoke threads + one last flame (b07) →
+dead-dark blue (b11) → one flame re-caught, held up (b19) → relighting down the
+arms (b21) → lamp TAKEN, fingers closing (b22). b05 anchored-vs-tossed, b18
+paling east, b14 household register all land. Paul one consistent 138-canon man.
+Captions: only kv2 (b08) + kv3 (b17) light-blue KJV; narrator white; no red, no
+green (epistle, no Jesus). Similarity matrix on encoded frames: no pair >0.92
+(max 0.858 b02/b13, visibly different geometry). Card clean.
+
+**AUDIO:** rebuilt from the 11 new-voice ElevenLabs V1 mp3s via
+`AUDIO_FROM_V1_SEGMENTS` — **AUDIO REBUILD PASS SHA256=0585968009f5…**, 136.850s,
+19.8 MB. **Cost this session: $3.22 / 3 rerolls (13.6%)** — under the $6.10
+average; COST LAW downward trend holds.
