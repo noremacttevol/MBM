@@ -1,0 +1,14 @@
+{
+ "GATHERING": {
+  "manual": true,
+  "src_beat": "s10-that-same-bread-and-cup",
+  "src_build": "build-170-sacrament-worthily",
+  "src_file": "build-170-sacrament-worthily/assets/s10-that-same-bread-and-cup.jpeg"
+ },
+ "ROOM": {
+  "manual": true,
+  "src_beat": "s01-the-upper-room",
+  "src_build": "build-170-sacrament-worthily",
+  "src_file": "build-170-sacrament-worthily/assets/s01-the-upper-room.jpeg"
+ }
+}

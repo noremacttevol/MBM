@@ -67,3 +67,31 @@ ordinary-sized among the reclining friends (no giant Master).
 6. **Reroll budget ≤15% of 24 = ~3-4 beats.** Two failed rerolls → FIX-WAVE,
    keep best, move on. Log $/row + reroll % vs the $6.10 average. Expected cost
    ~24 × $0.20 ≈ $4.8 (all-new build).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: all 24 stills, **5 rerolls = 20.8% — OVER the 15% budget; honest
+ledger:** ROOM plate cloned b01's through-doorway wide onto b07/b08 (0.957/0.932)
+and GATHERING plate returned s10 VERBATIM on b20/b24 (0.999/1.0) — four law-12m
+clones re-authored to distinct cameras (over-shoulder cup handoff, table-level
+profile, table insert, first-person offering) and rerolled plateless; then b20's
+first reroll literalized "week after week" into a stacked TRIPTYCH (anti-panel
+class) — repetition wording moved out of the visual instruction, single-frame
+ban added, clean on the next roll. One --check drift-word FAIL ('halo' in my own
+scene text) caught and fixed before ship. Cost $3.89 total — still under the
+$6.10 average.
+
+**FULL-CUT GATE — 24 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW pixel-verified: kv24/kv25/s26/s28 all LIGHT-BLUE (Paul recounting the
+institution — deliberately NOT red; pictures still show Jesus, captions stay
+blue); NO red, NO green anywhere. Two registers held: lamplit NIGHT institution
+(b01-b09, ROOM byte-locked to row 89's lock text) vs plain daylight GATHERING
+(b10-b24, jesus=False, no cream). CONTENT-CARE: "a sacrifice already made" is a
+remembering face, never a cross/wound/blood; "in my blood" shows only the cup.
+Jesus V2 face on-model, cream only him, no halo. Encoded similarity: no pair
+>0.92. Card clean.
+
+**AUDIO:** V1 final current — packet-copy, **AUDIO LOCK PASS
+SHA256=a3f1e4a307…**, 133.9s, 19.2 MB.

@@ -198,13 +198,12 @@ BEATS = [
         "must_show": "the cup offered — Jesus extending the clay cup toward a friend across the table, the friend leaning in to take it; a promise handed over freely.",
         "must_not_show": "no halo, glare or rim-light; only Jesus in cream; distinct friends' faces; whole hands; no modern object; no face posed to the lens; no panel or text.",
         "scene": (
-            "Across the low table Jesus extends the two-handled clay cup toward a "
-            "friend who leans in to take it, both their hands on the vessel for "
-            "the moment of the pass, the dark wine catching the lamplight — a "
-            "promise offered freely and received. Other friends beside them "
-            "watch, distinct men in deep earth-toned wool. Jesus in cream is warm "
-            "and unhurried, ordinary-sized; all hands whole and natural, eyes on "
-            "the cup and each other, not the camera; no light rings any head."
+            "A CLOSE over-the-shoulder shot past the receiving friend's dark "
+            "shoulder at frame left: Jesus's hand and the clay cup fill the "
+            "middle of the frame as he extends it across the lamplit table, his "
+            "warm face soft behind it, the friend's hand rising to take it. "
+            "Jesus in cream, ordinary-sized, his crown falling to shadow. NOT the "
+            "through-doorway wide — camera close at table height."
         ),
     },
     {
@@ -215,13 +214,12 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT (Paul recounting — light-blue) — Jesus holding the clay cup after the meal, drawing breath to speak the words over it; the moment before the saying.",
         "must_not_show": "no halo, glare or rim-light; only Jesus in cream; caption scripture light-blue, NOT red; whole hands; no modern object; no panel or text.",
         "scene": (
-            "The supper mostly done, Jesus holds the two-handled clay cup steady "
-            "before him in the lamplight, his face lifting and steadying as he "
-            "draws breath to speak the words over it. The emptied dishes and the "
-            "broken bread lie along the low table. His hands are whole on the "
-            "handles, the warm lamp on the wine and the front of his cream robe, "
-            "his gaze toward the friends, not the camera; the top of his head is "
-            "soft in the dark and no light rings it."
+            "A tight PROFILE at table level: Jesus in side profile at frame "
+            "right, holding the clay cup in both hands just above the table, "
+            "drawing breath to speak the words over it, lamplight warm on the "
+            "cup and the front of his face, the room falling to soft darkness "
+            "behind. Jesus in cream, ordinary-sized, his crown falling to "
+            "shadow. NOT the through-doorway wide — a close profile insert."
         ),
     },
     {
@@ -415,13 +413,13 @@ BEATS = [
         "must_show": "the repetition — the low table set once more with the fresh loaf and the filled cup, believers gathering to it again; done week after week, never just once.",
         "must_not_show": "no Jesus and no cream; no halo, glare or rim-light; nothing modern; no face posed to the lens; no panel or text.",
         "scene": (
-            "The low table set again in the quiet lamplight: a fresh flat loaf "
-            "and the two-handled clay cup filled anew, and believers settling to "
-            "the cushions around it once more — the ordinance taken up again as "
-            "it is taken up week after week, never a single closed event. "
-            "Ordinary earth-toned people, distinct and unhurried, whole hands, "
-            "eyes on the table and each other, not the camera; nothing modern, no "
-            "light rings any head."
+            "ONE single continuous photograph from ONE camera — never a grid, "
+            "collage, or repeated panel: a low close angle on the low table, "
+            "freshly set — the new-baked loaf still whole, the clay cup newly "
+            "filled, two small lamps lit, cushions pushed in ready. The hands "
+            "of one believer smooth a cloth at the far edge, their face out of "
+            "frame. Warm daylight from the one window. A quiet, ready table "
+            "filling the frame once."
         ),
     },
     {
@@ -482,26 +480,25 @@ BEATS = [
         "must_show": "the invitation handed over — from behind the viewer's stand-in, the bread and cup offered forward across the table toward them; the open cushion waiting, the question left open and warm.",
         "must_not_show": "no Jesus and no cream; no halo, glare or rim-light; not posed to the lens; nothing modern; no panel or text.",
         "scene": (
-            "The camera sits just behind the shoulder of an ordinary person at "
-            "the edge of the low table, seen from behind, as a seated believer "
-            "across the table holds out the broken bread and the two-handled clay "
-            "cup toward them — the elements offered forward, the open cushion "
-            "plain beside, the choice handed gently across. The plain room is "
-            "warm around them, one window soft with light. Ordinary earth-toned "
-            "people, whole hands, the near one's gaze on the offered bread and "
-            "cup, not the camera; nothing modern, no light rings any head."
+            "From directly BEHIND the viewer's stand-in — the back of a head "
+            "and shoulders soft and large in the near foreground at frame "
+            "bottom: across the table, a believer's two hands offer the broken "
+            "bread and the clay cup FORWARD toward the camera, the open cushion "
+            "waiting at the table's near edge, warm faces beyond slightly out "
+            "of focus. The invitation handed straight to the viewer. NOT the "
+            "circled-group wide used earlier — a first-person offering shot."
         ),
     },
 ]
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
-# EMPTY BY DESIGN. Both recurring places are NEW; the runner PROMOTES each from
-# this build's first good frame (lesson 11):
-#   ROOM       promote b01 (upper room, night), wire the register-A beats
-#   GATHERING  promote b10 (believers' room),   wire the register-B beats
-# ELEMENTS is a small-object lock carried by text (loaf + clay cup) — no plate.
-# Full steps in QC.md.
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "GATHERING": "PLACE-REF/gathering.jpeg",  # build-170-sacrament-worthily s10-that-same-bread-and-cup (manual)
+    "ROOM": "PLACE-REF/room.jpeg",  # build-170-sacrament-worthily s01-the-upper-room (manual)
 }
 # === end PLACE-PLATES ===
