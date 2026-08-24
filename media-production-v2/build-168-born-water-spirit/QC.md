@@ -109,3 +109,35 @@ $0 image, $0 audio (author lane). Reroll budget ≤15% of 28 beats = ≤4 reroll
 watch the halo/scale risk on the LAMPLIT dialogue faces (crown must stay dark —
 flame low and in front) and the light-from-above beats b18/b19/b26 (no dove,
 flame or figure, no ring around the head).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: NEW-BELIEVER/BAPTIZER portraits + all 28 stills, **4 rerolls =
+14.3% (in budget), $4.29**. Four plates promoted per the authored plan
+(NIGHT-STREET b01, NIGHT-ROOM s10, RIVER b15 after reroll, GATE b25).
+
+**Reroll autopsy:**
+- b15: first roll rendered an old-man portrait instead of the authored daytime
+  river baptism (model latched onto the "born when he is old" register) →
+  straight reroll delivered the lowering-into-water frame.
+- b20: NIGHT-ROOM plate returned s10 verbatim (0.999) AND dropped the required
+  Jesus → plate off + authored two-shot past Nicodemus's shoulder; Jesus now
+  central, on-model, corr −0.235.
+- b24: same-family clone (0.927 vs s13) → lamp-level profile insert, corr −0.009.
+- b27: GATE plate returned s25 verbatim (0.999) → low threshold view with the
+  light-path, corr 0.122.
+
+**FULL-CUT GATE — 28 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW pixel-verified: kv3/kv5 attributions LIGHT-BLUE; kv3b (b08/b09) + kv5b
+(b21/b22) RED on Jesus's face; s4 (b10/b11) BLUE on NICODEMUS; narrator white.
+HARD GATE held: Holy Ghost NEVER embodied — b17-b19 carry the Spirit-birth by
+warm light and the man's own lifted face, no dove/flame/figure. Two intentional
+time registers (lamplit night dialogue / daytime river + dawn gate). Jesus V2
+face on-model in every appearance, cream only him, crowns dark (no halo).
+Encoded similarity: no pair >0.92. Card clean.
+
+**AUDIO:** V1 final current — packet-copy, **AUDIO LOCK PASS
+SHA256=3ff6bf6e3f…**, 141.8s, 19.3 MB. Cost $4.29 / 14.3% rerolls — under the
+$6.10 average.

@@ -1,0 +1,26 @@
+{
+ "GATE": {
+  "manual": true,
+  "src_beat": "s25-even-a-learned-ruler",
+  "src_build": "build-168-born-water-spirit",
+  "src_file": "build-168-born-water-spirit/assets/s25-even-a-learned-ruler.jpeg"
+ },
+ "NIGHT-ROOM": {
+  "manual": true,
+  "src_beat": "s10-how-can-a-man-be-born",
+  "src_build": "build-168-born-water-spirit",
+  "src_file": "build-168-born-water-spirit/assets/s10-how-can-a-man-be-born.jpeg"
+ },
+ "NIGHT-STREET": {
+  "manual": true,
+  "src_beat": "s01-nicodemus-by-night",
+  "src_build": "build-168-born-water-spirit",
+  "src_file": "build-168-born-water-spirit/assets/s01-nicodemus-by-night.jpeg"
+ },
+ "RIVER": {
+  "manual": true,
+  "src_beat": "s15-down-into-the-water",
+  "src_build": "build-168-born-water-spirit",
+  "src_file": "build-168-born-water-spirit/assets/s15-down-into-the-water.jpeg"
+ }
+}

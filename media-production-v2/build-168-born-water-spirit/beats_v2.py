@@ -475,13 +475,14 @@ BEATS = [
         "must_show": "SCRIPTURE-ATTRIBUTION — back in the night room, Jesus turning again to Nicodemus and drawing breath to answer; both lit low by the lamp.",
         "must_not_show": "no halo — lamp low and in front, crowns dark; ordinary-sized; only Jesus in cream; no face posed to the lens; no panel or text.",
         "scene": (
-            "Back to the lamplight for the answer: Jesus turns once more toward "
-            "Nicodemus and lifts his face to speak, one hand beginning to open, "
-            "the small low flame lighting the fronts of both faces and leaving "
-            "their crowns dark in the night room. Jesus in cream, Nicodemus "
-            "attentive in deep indigo, eyes meeting across the lamp, not the "
-            "lens. Both ordinary-sized men, two hands and one head, no ring of "
-            "light on either head."
+            "A TWO-SHOT from just past Nicodemus's indigo shoulder, which sits "
+            "soft in the near left foreground: JESUS IS THE SUBJECT, facing us "
+            "across the small low flame, in cream, lifting his face to speak, "
+            "one hand beginning to open. The lamp lights the front of Jesus's "
+            "face and leaves his crown dark in the night room; Nicodemus is "
+            "only the attentive dark shoulder and jaw at frame edge. Both "
+            "ordinary-sized men, two hands and one head, no ring of light on "
+            "either head. Jesus MUST be visible and central."
         ),
     },
     {
@@ -545,14 +546,16 @@ BEATS = [
         "must_show": "Nicodemus, the learned upright ruler, quietly humbled in the lamplight — realizing the one gate is the same for him too, no exception for rank or learning.",
         "must_not_show": "no Jesus subject here and no cream on Nicodemus; no halo — lamp low and in front, crown dark; no face posed to the lens; no panel or text.",
         "scene": (
-            "The ruler measured by the same gate: Nicodemus sits quiet and "
-            "humbled in the lamplight, his high learned face softened as he takes "
-            "in that the one gate is the same for everyone, himself included, "
-            "with no exception for his rank or his learning. The low flame lights "
-            "the front of his lined face and grey-streaked beard and leaves the "
-            "top of his head dark. He is in his fringed deep-toned mantle, an "
-            "ordinary-sized man, two hands and one head, eyes down in thought, "
-            "not the camera; no light rings his head."
+            "A tight PROFILE close-up, camera at the lamp's own level on the "
+            "stone bench so the small flame sits large and warm in the near "
+            "foreground: Nicodemus's lined face in true side profile behind it, "
+            "quiet and humbled, eyes down in thought as he takes in that the "
+            "one gate is the same for everyone, himself included, no exception "
+            "for rank or learning. The flame lights the front of his face and "
+            "grey-streaked beard; the top of his head and the room fall to "
+            "darkness. Fringed deep-toned mantle, an ordinary-sized man, two "
+            "hands and one head; no light rings his head. NOT the seated "
+            "mid-shot used earlier — this is the lamp-level profile insert."
         ),
     },
     {
@@ -599,13 +602,16 @@ BEATS = [
         "must_show": "the open doorway plainly welcoming — full, clear, unbarred, warm light straight through, nothing hiding it and nothing forbidding; simply the way in.",
         "must_not_show": "no Jesus and no cream; nothing barring or crowding the opening; no metal gate, bar or lock; no sign or lettering; no halo — natural dawn; no panel or text.",
         "scene": (
-            "The door as pure welcome: the open stone doorway fills the frame "
-            "square and clear, the warm dawn light coming straight through it "
-            "onto the threshold, nothing hiding it and nothing set across it to "
-            "forbid the way — plainly and simply the way in. The low walls sit "
-            "quiet on either side, bare earth before. No person, nothing modern, "
-            "no metal fitting, no light that becomes a shape — only the open way "
-            "and the light beyond."
+            "The door as pure welcome, from a NEW camera: low at the threshold "
+            "itself and angled slightly aside, the worn stone doorsill running "
+            "large across the near foreground, the doorway rising close above "
+            "and the warm dawn light flooding through it toward the lens, "
+            "laying a long bright path of light across the ground at our feet — "
+            "nothing hiding it and nothing set across it to forbid the way; "
+            "plainly and simply the way in. No person, nothing modern, no metal "
+            "fitting, no light that becomes a shape — only the open way and the "
+            "light beyond. NOT the straight-on centered doorway framing used "
+            "earlier — this is the low threshold view with the light-path."
         ),
     },
     {
@@ -634,15 +640,17 @@ BEATS = [
 # `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
-#
-# EMPTY BY DESIGN. All four recurring places are NEW. The runner PROMOTES each
-# from this build's first good NON-Jesus frame (never a Jesus frame — lesson 11):
-#   NIGHT-STREET  promote b01, wire b02
-#   NIGHT-ROOM    promote the first NON-Jesus room frame b10, wire b11/b12/b13/b24
-#                 (b04-b09, b14, b20-b23 are Jesus frames — prose place text)
-#   RIVER         promote b15, wire b16/b17/b18/b19
-#   GATE          promote b25, wire b26/b27/b28
-# Full steps in QC.md.
 PLACE_REFS = {
+    "GATE": "PLACE-REF/gate.jpeg",  # build-168-born-water-spirit s25-even-a-learned-ruler (manual)
+    "NIGHT-ROOM": "PLACE-REF/night-room.jpeg",  # build-168-born-water-spirit s10-how-can-a-man-be-born (manual)
+    "NIGHT-STREET": "PLACE-REF/night-street.jpeg",  # build-168-born-water-spirit s01-nicodemus-by-night (manual)
+    "RIVER": "PLACE-REF/river.jpeg",  # build-168-born-water-spirit s15-down-into-the-water (manual)
 }
 # === end PLACE-PLATES ===
+
+# Per-story face sheets, generated by v2_story_cast.py. Identity is
+# carried by IMAGE, not by wording — text locks let the elder son come
+# back as three different men in row 2 (Cameron, 2026-07-30).
+REFS = {
+    "BAPTIZER": "CAST-REF-V2/baptizer.jpeg",
+}
