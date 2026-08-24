@@ -68,3 +68,34 @@ attached. Neither is a Jesus frame — safe to auto-wire once promoted.
 3. Caption QC: g26 GREEN; s1/s2/s3 LIGHT-BLUE; narrator white; bottom band only.
 4. Publish candidate to the reviewer (no open complaint — fresh V2 build). Reroll
    budget ≤15% of 21 (~3). Touch the row once.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: FIRST-MAN/FIRST-WOMAN portraits + all 21 stills, **6 rerolls =
+28.6% — OVER the 15% budget; honest ledger (all law-class ship-blockers):**
+- b02/b03/b08: COSMOS-DEEP plate collapsed four sea beats into near-identical
+  frames (0.985-0.998, law 12m) → re-authored to distinct light-states and
+  cameras (aerial swirl with gathering light / surface-skim with horizon band /
+  the READIED green world from above) — b08's subject was also wrong (still a
+  storm sea when the world should be finished).
+- b14: "formed of the dust" rendered as a FOUR-PANEL strip (anti-panel class) →
+  single close clay-forearm frame, one arm, one frame.
+- b18/b21: EDEN-GARDEN plate + figures inserted (0.976/0.943 = "pieces added",
+  law 12m) → close steward-and-deer shot and golden shoulders-up two-shot.
+- One 'glow' drift word in my own rewritten scene caught by --check and fixed.
+Cost $3.62 total — still under the $6.10 average.
+
+**FULL-CUT GATE — 21 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: g26 GOD-voice GREEN (b04-b06, dominion words); s1/s2/s3 LIGHT-BLUE
+(b10/b11, b15-b17); narrator white; no red (no Jesus). **GODHEAD NEVER
+EMBODIED** — the counsel carried by narration + creative light only, never two
+or three divine figures; breath from unseen presence. **MODESTY GATE held** —
+first man chest-up in mist (b09 verified at full size), fig-leaves (b11),
+behind/hair (b12/b13), clothed close (b21); equal image-bearers. Peaceable Eden
+(no predation). Encoded similarity: no pair >0.92. Card clean.
+
+**AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 113.700s vs extract 114.783s,
+gap placement; 13 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=9c90ee6dd2…**,
+114.8s, 20.4 MB.

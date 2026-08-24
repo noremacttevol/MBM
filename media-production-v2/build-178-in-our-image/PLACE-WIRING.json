@@ -1,0 +1,14 @@
+{
+ "COSMOS-DEEP": {
+  "manual": true,
+  "src_beat": "s01-the-formless-deep",
+  "src_build": "build-178-in-our-image",
+  "src_file": "build-178-in-our-image/assets/s01-the-formless-deep.jpeg"
+ },
+ "EDEN-GARDEN": {
+  "manual": true,
+  "src_beat": "s10-the-whole-living-world",
+  "src_build": "build-178-in-our-image",
+  "src_file": "build-178-in-our-image/assets/s10-the-whole-living-world.jpeg"
+ }
+}

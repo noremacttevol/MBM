@@ -110,6 +110,11 @@ LOCKS = {
 
 REF = True
 
+# AUDIO guard fix (2026-08-24): V1 final 113.700s vs extract 114.783s (gap
+# placement only; all mp3s ElevenLabs new-voice). Guard-prescribed rebuild
+# from V1 mp3s at extract offsets; no re-voice.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r178-b01", "out": "s01-the-formless-deep.jpeg", "seg": "n0",
@@ -137,11 +142,12 @@ BEATS = [
         "must_show": "the purposeful creative moment — the soft creative light over the deep gathering and strengthening, deliberate and about to act; a counsel in the Godhead, its members UNSEEN, carried only by the light and the narration.",
         "must_not_show": "GOD IS NEVER SHOWN and the Godhead is NEVER pictured — no God figure, no two or three divine persons in council, no faces, hands, thrones or beam-beings in the light; no Jesus and no cream; no halo or ring of light; no scroll, writing or panel.",
         "scene": (
-            "Over the dark deep the soft creative light gathers and strengthens "
-            "across the mist, steady and purposeful, as if a decision is being "
-            "made — but the light holds no shape, face or figure of any kind, and "
-            "no persons appear in it. Only water, cloud and the deepening light. "
-            "Nothing is written anywhere and no ring of light rings anything."
+            "A HIGH aerial photograph looking steeply DOWN at the dark "
+            "circling deep: far below, the black water turns in one slow vast "
+            "swirl, and at its centre a first soft warm light has begun to "
+            "gather under the surface of the darkness — deliberate, quiet, "
+            "about to act. No horizon in frame, no figure, no shape in the "
+            "light; only the deep from above and the gathering intent."
         ),
     },
     {
@@ -152,11 +158,13 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT (light-blue) — the word about to go out: the creative light moving over the face of the waters, poised on the edge of speech; And God said — the speaker unseen.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, face, hand or beam-being; no divine mouth; no Jesus and no cream; no halo or ring of light; no scroll, writing or panel.",
         "scene": (
-            "The creative light moves low over the face of the primordial waters, "
-            "mist stirring beneath it, the whole deep hushed and poised on the "
-            "edge of the first word — the moment just before God speaks, the "
-            "speaker Himself unseen. Only water, cloud and moving light; nothing "
-            "is written anywhere and no ring of light rings anything."
+            "A LOW shot skimming the very surface of the dark water, the "
+            "lens almost touching it: the near swells run soft and huge past "
+            "the camera, and along the far horizon line a clean band of "
+            "strengthening light stands poised like a held breath, the water "
+            "beneath it beginning to still. No figure, no shape in the light; "
+            "the word about to go out. NOT the mid-height sea wide used "
+            "earlier."
         ),
     },
     {
@@ -229,11 +237,12 @@ BEATS = [
         "must_show": "the shared counsel, unseen — the strong creative light over the readied world, plainly purposeful and shared, yet EMPTY of any figure; the 'us' is heard, never pictured.",
         "must_not_show": "GOD IS NEVER SHOWN and the Godhead is NEVER pictured — no God figure, no two or three divine persons, no faces, hands or beam-beings in the light; no Jesus and no cream; no halo or ring of light; no scroll, writing or panel.",
         "scene": (
-            "The strong creative light lies over the newly formed world and its "
-            "waters, steady and deliberate — the sense of a shared purpose at work "
-            "— but the light holds no shape, face or figure, and no persons appear "
-            "in it. The 'us' is carried by the words, not by the picture. Nothing "
-            "is written anywhere and no ring of light rings anything."
+            "The READIED world from a high dawn vantage: a finished green "
+            "coastline seen from above — new forests rolling down to a bright "
+            "calm sea, rivers threading silver to the shore, birds small over "
+            "the water, the whole young world lit and waiting under strong "
+            "warm creative light. Plainly purposeful, and EMPTY of any figure "
+            "— the counsel is heard, never seen. NOT a dark storm-sea frame."
         ),
     },
     {
@@ -331,12 +340,13 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT (light-blue) — the forming from earth: a close on the first man's form of the warm dust and clay of the ground, being shaped, still lifeless (framed modestly); formed of the dust of the ground.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, sculpting hands of God or beam-being; NUDITY GATE — no exposed genitals, buttocks or nude torso; no Jesus and no cream; no halo or ring of light; no scroll, writing or panel.",
         "scene": (
-            "A close on the first man taking form of the warm earth of the "
-            "garden — shoulder, jaw and brow of dust-toned clay just resolving "
-            "into a human shape on the ground, still lifeless, grass and soil "
-            "around and a fall of shadow keeping the body modestly framed. The "
-            "hands that shape him are not shown. Ordinary-sized, one head; nothing "
-            "is written anywhere and no ring of light rings anything."
+            "ONE single continuous photograph — never a grid, strip, or "
+            "repeated panel: a tight CLOSE-UP on the first man's forearm and "
+            "hand, half-emerged from the warm red-brown clay of the ground, "
+            "the fingers already fully human and at rest while the wrist still "
+            "carries the raw texture of wet earth; morning mist low over the "
+            "soil. Framed at the arm only — modest, still, unbreathing, the "
+            "shaping mid-way. One frame, one arm, nothing repeated."
         ),
     },
     {
@@ -396,14 +406,13 @@ BEATS = [
         "must_show": "dominion as stewardship — the first man among the peaceable animals of the garden, a gentle hand resting on or tending a calm beast; caring for the living world, a steward and not an owner (framed modestly).",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no whip, yoke, cage, weapon or mastery by force; no predation or fear among the animals; NUDITY GATE — no exposed genitals, buttocks or nude torso; no Jesus and no cream; no halo or ring of light; no scroll, writing or panel.",
         "scene": (
-            "The first man stands among the gentle animals of the garden in the "
-            "morning light, a calm grazing beast beside him and birds nearby, one "
-            "hand resting softly on the animal's neck as he looks over the living "
-            "world in his care — tending it, a steward and not an owner, nothing "
-            "held over the creatures by force. Seen from behind and the side with "
-            "foliage and light keeping the body modestly framed. Ordinary-sized, "
-            "one head, not in cream; natural animals at ease; nothing is written "
-            "anywhere and no ring of light rings anything."
+            "A CLOSE three-quarter shot at the man's side: the first man "
+            "kneels by the pool's edge and rests one gentle open hand on the "
+            "neck of a calm young deer that has come to drink, his face turned "
+            "to it with quiet care; a lamb waits just beyond, soft in the "
+            "background blur. He is framed chest-up, clothed in the simple "
+            "woven wrap of the garden scenes. NOT the wide pool landscape used "
+            "earlier — near, warm, and personal."
         ),
     },
     {
@@ -446,23 +455,26 @@ BEATS = [
         "must_show": "the closing — the first man and woman together in the garden at full first light, dignified and at peace, the source of every person since; made in the image, loved into being.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; NUDITY GATE — no exposed genitals, breasts or buttocks; no modern people or dress; no Jesus and no cream; no halo or ring of light; no scroll, writing or panel; no posed line facing the lens.",
         "scene": (
-            "A closing wide of the first man and first woman standing together in "
-            "the lush garden at full first light, seen from behind and the side "
-            "from the shoulders up with hair, foliage and light keeping both "
-            "framed modestly, the living world opening bright beyond them — the "
-            "two from whom every person since would come, made in the image and "
-            "loved into being. Ordinary-sized, distinct, one head each, not in "
-            "cream, gazing out over the garden and not the camera; nothing is "
-            "written anywhere and no ring of light rings either head."
+            "A CLOSE golden-hour two-shot from just behind and beside the "
+            "first man and woman's shoulders as they stand together looking "
+            "into the risen light, her long dark hair and his steady profile "
+            "rimmed warm, both dignified and at peace — the source of every "
+            "person since, made in the image of the God who loved them into "
+            "being. Framed shoulders-up, modest, faces in soft profile. NOT "
+            "the wide garden landscape used earlier."
         ),
     },
 ]
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
-# Both places are NEW (no stash plate yet); the runner promotes each from its own
-# first good frame (b01 COSMOS-DEEP / b10 EDEN-GARDEN), so PLACE_REFS stays empty.
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "COSMOS-DEEP": "PLACE-REF/cosmos-deep.jpeg",  # build-178-in-our-image s01-the-formless-deep (manual)
+    "EDEN-GARDEN": "PLACE-REF/eden-garden.jpeg",  # build-178-in-our-image s10-the-whole-living-world (manual)
 }
 # === end PLACE-PLATES ===
 
