@@ -237,27 +237,28 @@ BEATS = [
     {
         "id": "v2-r156-b08", "out": "s08-behold-the-days-come-saith.jpeg", "seg": "kv11",
         "window": "35.76-49.18", "wide": False, "jesus": False, "ref": False,
-        "locks": ["AMOS", "GATE"],
+        "locks": ["AMOS"],
         "narration": (
             "Behold, the days come, saith the Lord GOD, that I will send a "
             "famine in the land, not a famine of bread, nor a thirst for "
             "water, but of hearing the words of the LORD:"
         ),
-        "must_show": "SCRIPTURE-EXACT: the full verse — Amos proclaiming at the gate, one hand toward the heaped stalls (not bread), the other toward the empty distance (the hearing); the two-hands contrast.",
-        "must_not_show": "no halo; the TWO directions readable — plenty dismissed, absence named.",
+        "must_show": "SCRIPTURE-EXACT: the full verse — a CLOSE side-on shot of Amos, one hand low over heaped stall baskets in the near foreground (not bread), the other rising empty toward open sky (the hearing); the two-hands contrast filling the frame.",
+        "must_not_show": "no halo; NOT the through-the-gate-arch wide (that geometry belongs to b01 alone) — camera CLOSE and side-on at stall height, no arch overhead; the TWO directions readable — plenty dismissed, absence named; realistic photograph, never painted or illustrated.",
         "scene": (
-            "The verse is delivered with both hands "
-            "working: one sweeps the heaped market stalls "
-            "and the brimming well — NOT of bread, NOT of "
-            "water, the plenty dismissed with a turn of "
-            "the wrist — and the other rises empty toward "
-            "the wide quiet sky — but of HEARING — the "
-            "words of the LORD — Amos at the gate naming "
-            "the one shortage no caravan can remedy, "
-            "while the crowd looks from his full hand to "
-            "his empty one and begins, slowly, to "
-            "understand. Every figure has two arms, two "
-            "hands and one head."
+            "A CLOSE side-on photograph at stall height, "
+            "the city wall a soft blur behind: Amos in "
+            "profile fills the left of the frame, one "
+            "hand sweeping low across heaped baskets of "
+            "grain and fruit in the near foreground — NOT "
+            "of bread, NOT of water, the plenty dismissed "
+            "with a turn of the wrist — while his other "
+            "hand rises open and empty toward the wide "
+            "quiet sky on the right — but of HEARING — "
+            "the words of the LORD. Two or three "
+            "listeners' faces behind the stall follow his "
+            "empty hand upward. Every figure has two "
+            "arms, two hands and one head."
         ),
     },
     {
@@ -310,20 +311,21 @@ BEATS = [
             "They search high and low, near and far, hoping to stumble on "
             "the thing that will finally fill them."
         ),
-        "must_show": "high and low — seekers checking a ridge shrine above and a valley well below in one frame; the search thorough and empty-handed.",
-        "must_not_show": "no halo; both checks EMPTY — the shrine bare, the well only water; dignity in the searching.",
+        "must_show": "the high check — two seekers at a bare ridge shrine in the foreground, and far below them, tiny with true distance in the same unbroken valley view, another small party at a well; ONE continuous landscape, one horizon.",
+        "must_not_show": "no halo; ONE single continuous photograph from ONE camera — NO split frame, NO stacked or side-by-side panels, NO collage, NO second vignette at foreground scale; both checks EMPTY — the shrine bare, the well only water; dignity in the searching.",
         "scene": (
-            "They check the high places and the low ones "
-            "in the same long afternoon: on the ridge a "
-            "pair of seekers stoop into a wayside shrine "
-            "and find its niche bare — while below in the "
-            "valley others lean over the well's lip as if "
-            "the word might live where the water does, "
-            "and draw up only water — high and low, near "
-            "and far, thorough as hunger makes people — "
-            "and everywhere the same polite emptiness "
-            "where the filling thing should be. Every "
-            "figure has two arms, two hands and one head."
+            "ONE photograph from a single camera standing "
+            "on the ridge just behind two seekers as they "
+            "stoop into a wayside shrine and find its "
+            "stone niche bare. Past their shoulders the "
+            "land falls away in one unbroken sweep to the "
+            "valley floor, where a second party — TINY "
+            "with honest distance, ant-small — leans at a "
+            "far-off well. One horizon, one golden "
+            "afternoon light, the low check just a small "
+            "distant detail inside the same deep view. "
+            "Every figure has two arms, two hands and one "
+            "head."
         ),
     },
     {
@@ -593,7 +595,6 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # GATE: share row 152's promoted GATE frame when it exists (byte-identical
-    # lock, same place). Promote-first from b01 otherwise.
+    "GATE": "PLACE-REF/gate.jpeg",  # build-156-famine-of-hearing s01-the-prophet-amos-gave-his (manual)
 }
 # === end PLACE-PLATES ===

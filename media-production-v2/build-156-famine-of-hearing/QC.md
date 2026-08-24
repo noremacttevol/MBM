@@ -80,3 +80,41 @@ the audio lock, it stops only at the missing stills — the picture runner's job
 **Handed to the picture runner:** board State NEEDS-AUDIO → AUTHORED, Ready ✅,
 Claim cleared. When the runner generates the stills, `v2_assemble` rebuilds the
 new-voice track via the flag and ships. Nothing else touched.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build off the AUDIO-FIX handoff: all 22 stills this session. AMOS copied
+byte-identical from build-152 (md5 461726d2… both sides). GATE promoted from b01
+(152 had no promoted plate).
+
+**Rerolls: 6/22 = 27% — OVER the 15% budget; honest ledger:**
+- b08 ×3: (1) GATE plate CLONED b01's composition (corr 0.985, law 12m);
+  (2) plateless reroll came back PAINTED (law 14 ship-blocker); (3) plate-on
+  reroll cloned again (0.988). Fix that worked: GATE lock removed from the beat +
+  authored geometry moved to a CLOSE side-on two-hands shot → corr 0.166, photo-real.
+- b11 ×3: the AUTHORED prompt itself demanded "ridge shrine above and valley well
+  below in one frame" — the model obeyed with a stacked two-panel composite
+  (Cameron's row-153 complaint class) three times. Two of those rolls were wasted
+  by THIS session's own botched prompt edits (unsaved file writes, $0.27 burned —
+  recorded so the next session checks its edits landed before rolling). Fix that
+  worked: must_show/scene rewritten to ONE camera behind the seekers, valley party
+  tiny with true distance → clean single landscape.
+- Root lessons: a plate on a second wide of the same place WILL clone the first
+  wide — give later same-place beats different authored geometry or drop the
+  plate lock; and an authored "X above and Y below in one frame" is a panel
+  instruction, not a composition.
+
+**FULL-CUT GATE — 22 beats + card viewed on the ENCODED mp4: PASS.** Famine never
+physical (granary heaped, tables full, wells brim; hunger lives in eyes and the
+bare niches b03/b14/b19); seekers dignified; b13 map-scale ridge wander; b15 hand
+closes on air; b16 shore-as-limit; harvest turn b19-b22 lands with the open book
++ one empty stool. GOD-VOICE captions GREEN only on kv11 (b08) + kv12 (b16) —
+Amos 8:11-12, the LORD's exact words; narrator white; no red, no blue (no Jesus,
+no quoted-epistle). Encoded similarity matrix: no pair >0.92. Card clean.
+
+**AUDIO:** rebuilt from the 11 new-voice ElevenLabs V1 mp3s
+(`AUDIO_FROM_V1_SEGMENTS`) — **AUDIO REBUILD PASS SHA256=b752940116…**, 137.0s,
+19.9 MB. **Cost: $3.76 total (22 gens + 6 rerolls)** — still under the $6.10
+average despite the overage.

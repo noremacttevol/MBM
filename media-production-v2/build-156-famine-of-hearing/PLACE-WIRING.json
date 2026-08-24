@@ -1,1 +1,8 @@
-{}
+{
+ "GATE": {
+  "manual": true,
+  "src_beat": "s01-the-prophet-amos-gave-his",
+  "src_build": "build-156-famine-of-hearing",
+  "src_file": "build-156-famine-of-hearing/assets/s01-the-prophet-amos-gave-his.jpeg"
+ }
+}
