@@ -1,0 +1,20 @@
+{
+ "DAYBREAK": {
+  "manual": true,
+  "src_beat": "s13-light-break-as-morning",
+  "src_build": "build-192-the-fast-god-has-chosen",
+  "src_file": "build-192-the-fast-god-has-chosen/assets/s13-light-break-as-morning.jpeg"
+ },
+ "HOME": {
+  "manual": true,
+  "src_beat": "s06-bread-to-the-hungry",
+  "src_build": "build-192-the-fast-god-has-chosen",
+  "src_file": "build-192-the-fast-god-has-chosen/assets/s06-bread-to-the-hungry.jpeg"
+ },
+ "TOWN": {
+  "manual": true,
+  "src_beat": "s01-isaiah-declares",
+  "src_build": "build-192-the-fast-god-has-chosen",
+  "src_file": "build-192-the-fast-god-has-chosen/assets/s01-isaiah-declares.jpeg"
+ }
+}

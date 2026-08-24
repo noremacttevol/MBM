@@ -97,3 +97,33 @@ light-QC per the gates above, then ship.
 ## 🛠 REVIEW CARD (for Cameron)
 Isaiah's true fast (Isaiah 58) — realistic V2. The LORD's own words (green) are carried by
 Isaiah and by the acts of mercy; God is never pictured. No open complaint on this row.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: 4 portraits + all 16 stills. **ZERO plate clones** on three
+same-place families (HOME ×7, TOWN ×5, DAYBREAK ×4) — rubric lesson 26 applied
+before the first roll, 13 beats given explicit distinct cameras.
+**1 reroll / 16 = 6.3%. Cost $2.81 (21 gens: 16 stills + 4 portraits + 1 reroll).**
+- The reroll (b10) was MY authoring error, not a model failure: my camera note
+  said "night-cool blue shade", contradicting the row's warm-daylight HOME lock,
+  and the frame came back blue and diorama-like. Re-worded to sunlit street at
+  the threshold + explicit "no blue or cold cast, no miniature/diorama look".
+  **Camera contrast must not contradict the place lock's time of day.**
+- First row to benefit from the `v2_story_cast` fix: it FILLED the empty REFS
+  block automatically, all four portraits attached, and REFS survived the three
+  `--promote` calls (verified 4 refs / 3 plates before generating).
+
+**FULL-CUT GATE — 16 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s1/g7/s2 GOD-voice GREEN (b03-b08, b13/b14); narrator white; no red, no
+blue; **NO Jesus, NO cream, NO white** (OT). **GOD/THE LORD NEVER EMBODIED** —
+"light break forth as the morning" and "thine health" are a real sunrise over
+the town (b13/b14), no figure, face or beam in the sky. CONTENT-CARE: the bonds
+and yoke come off as RELIEF — no violence, no blood, no captor struck; the
+empty show-fast (b02) is reverent, not mocking; the naked are covered with
+dignity (b11 is hands and cloth only). No rendered writing. Card clean.
+
+**AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 74.200s vs extract 71.951s,
+gap placement; 9 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=84e240b28a…**,
+72.0s, 20.3 MB.

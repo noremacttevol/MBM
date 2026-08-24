@@ -65,6 +65,10 @@ card_start = 65.139 s. Picture-only — do NOT re-voice.
 # All three places + the people are declared as build-local text LOCKS here; PLACE_REFS
 # stays empty and the runner promotes each place from its first NON-Jesus frame (see QC.md).
 # No one wears cream/white (this is OT; Jesus is absent).
+# AUDIO guard fix (2026-08-24): V1 final 74.200s vs extract 71.951s (gap
+# placement only; all mp3s ElevenLabs new-voice). Guard-prescribed rebuild.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     "TOWN": (
         "TOWN LOCK: the same place in every frame — an Old Testament Israelite town: a "
@@ -167,6 +171,7 @@ BEATS = [
             "wool and sackcloth (none cream). Ordinary-sized people, one head each, gazes "
             "downcast and inward, not to the camera; warm daylight on them, not around any "
             "head; nothing is written anywhere; no divine figure."
+            "CAMERA: a TIGHT two-face close, the townsfolk's hollow-eyed fasting faces filling the frame, the square only soft blur. NOT the establishing square wide of b01."
         ),
     },
     {
@@ -184,6 +189,7 @@ BEATS = [
             "wool (not cream). Ordinary-sized people, one head each, gazes on Isaiah and "
             "not to the camera; warm daylight, no ring of light around any head; nothing is "
             "written anywhere."
+            "CAMERA: a LOW angle from the foot of the steps looking UP at Isaiah against the bright sky, listeners' heads dark along the bottom edge. NOT an eye-level or wide framing."
         ),
     },
     {
@@ -201,6 +207,7 @@ BEATS = [
             "away, no cutting or striking. Ordinary-sized men, one head each, gazes on the "
             "freeing hands between them, not to the camera; warm daylight on them, not "
             "around any head; nothing is written anywhere; no divine figure."
+            "CAMERA: a CLOSE side two-shot at hand height, the loosening cords and both pairs of hands large in the frame, faces above. NOT a full-figure street shot."
         ),
     },
     {
@@ -218,6 +225,7 @@ BEATS = [
             "each, gazes on the lifted yoke and each other, not to the camera; warm "
             "daylight, no ring around any head; nothing is written anywhere; no divine "
             "figure."
+            "CAMERA: a LOW three-quarter from behind and below as the yoke comes up and off, the timber crossing high through the frame against the sky. NOT a flat side view."
         ),
     },
     {
@@ -254,6 +262,7 @@ BEATS = [
             "people, one head each, gazes on one another and into the home, not to the "
             "camera; warm daylight and the hearth-light within, not around any head; "
             "nothing is written anywhere; no divine figure."
+            "CAMERA: from INSIDE the dim house looking OUT past the doorframe, the doer and the poor family silhouetted against the bright street beyond. NOT the outside-in doorway framing of b06."
         ),
     },
     {
@@ -271,6 +280,7 @@ BEATS = [
             "exposed. Ordinary-sized people, one head each, gazes on the wrapping hands and "
             "each other, not to the camera; warm hearth-light, not around any head; nothing "
             "is written anywhere; no divine figure."
+            "CAMERA: a CLOSE overhead-ish angle down on the wife's hands laying bread and a bowl on the low table, her face partly above the frame edge. NOT a room-wide shot."
         ),
     },
     {
@@ -287,6 +297,7 @@ BEATS = [
             "bread shared, no one apart. Ordinary-sized people, one head each, gazes on the "
             "shared bread and one another, not to the camera; warm light on the meal, not "
             "around any head; nothing is written anywhere; no divine figure."
+            "CAMERA: a LOW table-level shot across the meal, the shared loaf large in the near foreground and the seated faces beyond it. NOT a standing view of the room."
         ),
     },
     {
@@ -304,6 +315,7 @@ BEATS = [
             "sized people, one head each, gazes into the doorway and on one another, not to "
             "the camera; warm daylight outside and warm hearth-light within, not around any head; "
             "nothing is written anywhere; no divine figure."
+            "CAMERA: from OUTSIDE in the sunlit street, low and close to the worn threshold stone, looking through the wide-open timber door into the warm interior beyond; the same WARM DAYLIGHT as every other frame of this house — no blue or cold cast, no miniature or diorama look, a real full-size doorway photographed on location. NOT an interior shot, and NOT the b06 outside-in medium."
         ),
     },
     {
@@ -320,6 +332,7 @@ BEATS = [
             "the one who had none, gently and with dignity. Natural hands, ordinary scale; "
             "warm light rests on the cloak, not around any head; nothing is written "
             "anywhere; no divine figure."
+            "CAMERA: an extreme TIGHT INSERT — only the doer's weathered hands and the folded cloak filling the frame, no faces at all. NOT any shot showing a whole person."
         ),
     },
     {
@@ -336,6 +349,7 @@ BEATS = [
             "family. Ordinary-sized men, one head each, gazes meeting between them, not to "
             "the camera; warm daylight on them, not around any head; nothing is written "
             "anywhere; no divine figure."
+            "CAMERA: a CLOSE profile two-shot, the two faces near and level facing each other at the threshold, shoulders framing the bottom. NOT a doorway wide."
         ),
     },
     {
@@ -370,6 +384,7 @@ BEATS = [
             "sized people, one head each, gazes out into the new morning, not to the "
             "camera; warm sunrise light on them, not around any head; nothing is written "
             "anywhere; no divine figure."
+            "CAMERA: a CLOSE portrait of the once-bound man's freed face and wrists lifted in the gold morning light, the town soft behind. NOT the town-and-hills wide of b13."
         ),
     },
     {
@@ -387,6 +402,7 @@ BEATS = [
             "beam in the sky. Ordinary-sized, one head, gaze up into the light and not to "
             "the camera; the sunrise light is in the sky and on the stone, never a ring "
             "around his head; nothing is written anywhere; no divine figure."
+            "CAMERA: from BEHIND and beside the doer on his rooftop, his back three-quarters to the lens, looking out over the waking town toward the sunrise. NOT a frontal or close shot."
         ),
     },
     {
@@ -405,21 +421,33 @@ BEATS = [
             "out into the bright morning, not to the camera; the noonday light fills the "
             "square and rests on the stone, never a ring around any head; nothing is "
             "written anywhere; no divine figure."
+            "CAMERA: a WIDE of the square in full light with the small group gathered together mid-frame, long morning shadows across the paving. NOT a close or two-shot."
         ),
     },
 ]
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
-# TOWN, HOME and DAYBREAK are NEW places — no committed plate yet. The runner promotes each
-# from its first NON-Jesus frame (all frames here are NON-Jesus): TOWN from b01, HOME from
-# b06, DAYBREAK from b13. Steps in QC.md.
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "DAYBREAK": "PLACE-REF/daybreak.jpeg",  # build-192-the-fast-god-has-chosen s13-light-break-as-morning (manual)
+    "HOME": "PLACE-REF/home.jpeg",  # build-192-the-fast-god-has-chosen s06-bread-to-the-hungry (manual)
+    "TOWN": "PLACE-REF/town.jpeg",  # build-192-the-fast-god-has-chosen s01-isaiah-declares (manual)
 }
 # === end PLACE-PLATES ===
 
 # No image REFS: all three places and every person are carried by the build-local text
 # locks above. Jesus does not appear in this row (every beat jesus=False); no one wears
 # cream or white; God/the LORD is never embodied.
+# Per-story face sheets, generated by v2_story_cast.py. Identity is
+# carried by IMAGE, not by wording — text locks let the elder son come
+# back as three different men in row 2 (Cameron, 2026-07-30).
 REFS = {
+    "ISAIAH": "CAST-REF-V2/isaiah.jpeg",
+    "DOER": "CAST-REF-V2/doer.jpeg",
+    "WIFE": "CAST-REF-V2/wife.jpeg",
+    "THE-NEEDY": "CAST-REF-V2/the-needy.jpeg",
 }
