@@ -1433,3 +1433,17 @@ session's $0.13 mistake. Keep entries deduped and one line each.
 - **A caption-only archaic spelling complaint is a `TEXT_OVERRIDES` job, never an audio/image/wrapping-engine job (2026-08-16, row 95 "To day"→"today").** Search the exact rejected words through the build and its rendered `segs/*.txt` before diagnosing: a wrapper does not insert a space inside a word, and row 95's `segs/j1_0.txt` proved the V1 KJV source supplied the two-word spelling while `audio/j1.timing.json` proved the voice says one word. Add only `TEXT_OVERRIDES={"j1":"...today..."}` to `beats_v2.py`, reassemble, verify the complained encoded frame reads "today," and hash-compare the old/new audio streams. Preserve V1, every picture and the shared caption engine; $0 Gemini, zero rerolls.
 
 - **A PLACE PLATE can clone CAMERA GEOMETRY across sibling beats, producing "duplicates with just missing pieces" even though every API result is a new file (2026-08-17, row 181 morning-stars-sang).** The rejected cut repeated the same seated-Job/whirlwind base in b01/b02/b07/b08 and the same creation shoreline/starfield base in b03/b05/b09/b10/b11; later frames merely removed Job or changed a light patch. Root cause: feeding the first establishing plate back into every sibling under an overly broad continuity instruction. Continuity means identity, material, terrain, weather, and time of day—never identical camera coordinates, horizon, pose, or background layout. FULL-CUT GATE the complete contact sheet plus a source-similarity matrix; verify every suspicious pair at full size because a sheet-level vision model may false-positive. If the plate is cloning composition, disable it for that row, keep only character refs, and regenerate the duplicate family with explicitly different shot size, viewpoint, subject placement, foreground, and horizon. A crop/zoom/mirror/relight/mask/add/remove variant never fixes this complaint.
+
+## 2026-08-24 — plate clones are the default; contrast + matrix before assembly (Machine A, Claude)
+Twelve fresh rows built in one session. Clones caused ~70% of all rerolls: once a
+place plate is attached, every later beat of that place inherits its camera unless
+the beat text explicitly forbids it (corr 0.93-1.00; rows 170 and 178 lost four
+frames each). Cheap procedure now in V2-REBUILD-RUBRIC lesson 26 — (a) author the
+contrasting camera + "NOT the <earlier> framing used earlier" into every same-place
+beat BEFORE the first paid roll, (b) run the asset similarity matrix before
+assembling, (c) fix with `--no-plates` PLUS re-authored geometry (plate-off alone
+does not work), (d) keep a shared-background pair only if the subject genuinely
+changes the meaning, and say so in QC.md.
+Also: a lamplit ancient interior renders as a PAINTING (law 14 ship-blocker) even
+when the scene text demands a photograph — the demand has to live in the PLACE LOCK
+(rubric lesson 27, row 182).

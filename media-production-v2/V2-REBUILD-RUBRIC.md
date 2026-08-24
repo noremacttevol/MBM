@@ -359,6 +359,58 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
     sheet-level AI similarity warning is a lead, not a verdict: verify the exact
     source pair before rejecting or accepting it.
 
+26. **THE PLATE CLONE IS THE DEFAULT, NOT THE EXCEPTION — CONTRAST EVERY
+    SAME-PLACE BEAT IN THE PROMPT, AND MATRIX BEFORE YOU ASSEMBLE (Machine A,
+    2026-08-24, measured across 12 fresh rows).** Lesson 25 says what to do
+    once a plate has cloned. This is how to stop paying for it. Every row built
+    this night that promoted a place plate produced at least one clone, and
+    clones were ~70% of all rerolls spent (rows 155, 156, 164, 168, 170, 172,
+    175, 176, 178, 180, 182 — 170 and 178 lost four frames each). The pattern
+    is mechanical: **once a plate is attached, the SECOND and later beats of
+    that place inherit its camera coordinates unless the beat text explicitly
+    forbids them.** A beat that merely describes a different subject in the same
+    place ("the same road again", "the believer drawn in", "set once more") will
+    come back as the plate frame with a figure added or removed — correlation
+    0.93-1.00.
+    THE PROCEDURE, in this order, costs almost nothing:
+    (a) **Author the contrast into the prompt before the first paid roll.** Each
+        same-place beat after the plate names its own camera in concrete terms —
+        height, distance, angle, what is in the near foreground — and ends with
+        an explicit negative naming the earlier framing: "NOT the
+        through-doorway wide / walking-away-from-lens / circled-group framing
+        used earlier". Wording that worked repeatedly: low side-on at ground
+        level with dust at lens height; over-the-shoulder past a named person;
+        tight profile at lamp/table level; high vantage looking down and along;
+        first-person offering toward the camera; abstract close with no horizon.
+    (b) **Run the 64x36 grayscale similarity matrix on the ASSETS before
+        assembling**, not just on the encoded cut. Any pair >0.92 is a clone
+        until proven otherwise at full size; a whole family (three or four sky,
+        room, or road beats) can collapse together, so check every pair, not
+        just neighbours.
+    (c) **Fix with `--no-plates` plus the re-authored geometry.** The plate off
+        by itself is not enough — the model needs the new camera named. Keep the
+        character reference. Post-fix correlations land 0.0-0.7.
+    (d) A pair that shares a background but genuinely changes the subject and
+        meaning (a lone figure inserted into a landscape whose story point IS
+        his aloneness) may be kept — verify at full size and say so in QC.md.
+
+27. **A LAMPLIT ANCIENT INTERIOR PULLS PAINTED "GALLERY RELIGIOUS ART" — PUT
+    THE PHOTOGRAPH DEMAND IN THE PLACE LOCK, NOT THE SCENE (Machine A,
+    2026-08-24, row 182).** Row 182's Solomon-at-his-writing-table wide came
+    back as an oil painting twice, including once after "Shot as a REAL
+    PHOTOGRAPH..." was appended to that beat's scene text. Robed elders, oil
+    lamps, scrolls and carved chambers are overwhelmingly represented in
+    painted religious art, and per-beat wording loses to the place description
+    around it. The fix that worked on the first try afterwards: move the demand
+    into the **PLACE LOCK**, where every beat of that place inherits it —
+    "RENDERED AS A REAL PHOTOGRAPH taken on location with a fast prime lens:
+    true photographic skin pores and stubble, real woven fabric fibres, honest
+    lamp falloff and sensor grain, shallow natural depth of field — never a
+    painting, never an illustration, never a smooth digital render, never
+    gallery religious art." Law 14 (realistic only) makes a painted frame a
+    ship-blocker, so treat any interior-with-lamp place as needing this line in
+    its lock from the start.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.
