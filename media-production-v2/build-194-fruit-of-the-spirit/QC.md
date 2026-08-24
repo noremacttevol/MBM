@@ -83,3 +83,41 @@ light-QC per the gates above, then ship.
 Paul's fruit of the Spirit (Galatians 5) — realistic V2. The list (blue scripture) is made
 real: one villager living out love, patience and self-control among his neighbours, framed
 by a real fruit harvest. The Spirit itself is never pictured. No open complaint on this row.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: BELIEVER portrait + all 12 stills. **ZERO plate clones** on the
+8-beat VILLAGE family — rubric lesson 26 applied first (7 beats given distinct
+cameras: low wide from behind on the open road / tight over-shoulder two-shot /
+ring of faces from above and behind / close profile / steadying-hand insert /
+extreme eyes-and-jaw close / high wide of the square).
+**1 reroll / 12 = 8.3%. Cost $1.88 (14 gens).**
+- The reroll (b03) came back as a FOUR-PANEL COLLAGE — Cameron's row-153
+  complaint class and an automatic ship-blocker. Explicit single-frame ban added
+  (no grid/collage/stacked panels/vignettes/dividing lines); clean on the retry.
+- **CAST WARNING RECORDED: there are TWO different Paul face sheets in the
+  project.** build-138's `paul.jpeg` (md5 b200a21d…) is the one used by rows
+  138/155/166/171/183 — including three shipped tonight — while build-184/186
+  carry a DIFFERENT sheet (md5 12d06f7b…). This row's authored note said to
+  reuse 184's; I used the **138 canonical** instead so Paul matches the rows
+  actually in the library. The 184/186 divergence needs a decision before
+  either of those rows is touched again (one man, one anchor — lesson 2).
+- Plates reused rather than generated: PAUL-ROOM `--take`n from build-184,
+  VILLAGE auto-wired from build-123 (golden-rule) — cross-video continuity at $0.
+
+**FULL-CUT GATE — 12 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s1 LIGHT-BLUE across b03-b05; narrator white; no red, no green; **NO Jesus,
+NO cream, NO white**. **GOD/THE SPIRIT NEVER EMBODIED** — no dove, figure or
+beam; the fruit is ordinary ripe grapes and figs, never shining or haloed; every
+virtue is an ordinary human act among neighbours. Believer one consistent man
+throughout. Card clean.
+
+**AUDIO — diagnosed, not assumed:** stream-copy refused on a 12-second gap
+(V1 62.467s vs extract 50.572s). Verified the V1 mp4 was rendered 2026-07-21
+while all 8 mp3s are ElevenLabs new-voice written 2026-07-29, and a full
+transcription of the V1 shows exactly the segment texts including the card line
+— so the mp4 carries the OLD slower voice and rebuilding loses nothing.
+**AUDIO REBUILD PASS SHA256=665716da98…**, 50.6s, 19.5 MB; encoded tail
+re-transcribed and carries the closing card line.

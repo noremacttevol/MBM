@@ -1,0 +1,20 @@
+{
+ "ORCHARD": {
+  "manual": true,
+  "src_beat": "s02-a-harvest-of-character",
+  "src_build": "build-194-fruit-of-the-spirit",
+  "src_file": "build-194-fruit-of-the-spirit/assets/s02-a-harvest-of-character.jpeg"
+ },
+ "PAUL-ROOM": {
+  "manual": true,
+  "src_beat": "v2-r184-b01",
+  "src_build": "build-184-third-heaven",
+  "src_file": "build-184-third-heaven/assets/s01-paul-wrote-of-a-man.jpeg"
+ },
+ "VILLAGE": {
+  "manual": false,
+  "src_beat": "v2-r123-b21",
+  "src_build": "build-123-golden-rule",
+  "src_file": "build-123-golden-rule/assets/s21-it-comes-back-around-table.jpeg"
+ }
+}
