@@ -1,0 +1,26 @@
+{
+ "HARVEST-FIELD": {
+  "manual": true,
+  "src_beat": "s12-the-measure-is-fruit",
+  "src_build": "build-167-chosen-ordained",
+  "src_file": "build-167-chosen-ordained/assets/s12-the-measure-is-fruit.jpeg"
+ },
+ "LAKESHORE": {
+  "manual": true,
+  "src_beat": "s01-ordinary-work-by-the-water",
+  "src_build": "build-167-chosen-ordained",
+  "src_file": "build-167-chosen-ordained/assets/s01-ordinary-work-by-the-water.jpeg"
+ },
+ "TEACHING-HILL": {
+  "manual": true,
+  "src_beat": "s09-never-just-a-title",
+  "src_build": "build-167-chosen-ordained",
+  "src_file": "build-167-chosen-ordained/assets/s09-never-just-a-title.jpeg"
+ },
+ "VILLAGE-ROAD": {
+  "manual": true,
+  "src_beat": "s11-out-to-the-villages",
+  "src_build": "build-167-chosen-ordained",
+  "src_file": "build-167-chosen-ordained/assets/s11-out-to-the-villages.jpeg"
+ }
+}

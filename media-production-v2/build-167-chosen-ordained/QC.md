@@ -110,3 +110,25 @@ $0 image, $0 audio (author lane — 0 pictures generated, 0 re-voices). Handed t
 the runner fully gated with a clean promote plan (reroll budget ≤15% of 24 beats
 = ≤3 rerolls; the ordination two-shots b05/b08/b22 and the light-from-above
 beats b06/b16/b18/b19 are the likeliest reroll risks — watch halo/scale there).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: DISCIPLES portrait + all 24 stills, **0 rerolls, $3.35**. Four NEW
+plates promoted from NON-Jesus frames exactly per the authored plan (LAKESHORE
+b01, TEACHING-HILL s09, VILLAGE-ROAD b11, HARVEST-FIELD b12 — never a Jesus
+frame). No composition clones (asset + encoded similarity: no pair >0.92).
+
+**FULL-CUT GATE — 24 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: RED only on Jesus's exact John 15:16 words (kv16a b04/b05, kv16b b15/b16),
+each on a frame with Jesus present; narrator white; no green/blue. Jesus
+embodied in b04-b08/b15/b16/b21/b22 — V2 face on-model, cream ONLY him, no
+halo (b06's sunburst sits at the horizon's top edge, not around his head —
+authored heaven-light). Father NEVER embodied. Ordination covered as the
+authored sequence: choose → lay hands → heaven-down → call by name → set apart
+→ rise and go. Day-register thematic (matches V1 stills). s20 scroll: period
+letterforms, unreadable at playback — kept. Card clean.
+
+**AUDIO:** V1 final current — packet-copy, **AUDIO LOCK PASS
+SHA256=9955e3f070…**, 130.1s, 20.4 MB. Cost $3.35 / 0 rerolls — under average.
