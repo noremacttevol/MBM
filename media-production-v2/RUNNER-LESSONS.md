@@ -1447,3 +1447,12 @@ changes the meaning, and say so in QC.md.
 Also: a lamplit ancient interior renders as a PAINTING (law 14 ship-blocker) even
 when the scene text demands a photograph — the demand has to live in the PLACE LOCK
 (rubric lesson 27, row 182).
+
+## 2026-08-24 — empty `REFS = {}` silently unattached every face sheet (Machine A, Claude)
+`v2_story_cast.py` only wrote REFS when the build had NO REFS block, so maps authored
+with an explicit empty one ("carried by text locks") generated their portraits and
+never used them. Nine rows were in this state; row 190's believer visibly drifted and
+row 183's Paul generated unanchored. Script patched to fill an empty block in place,
+and all ten affected builds re-wired and verified. Rubric lesson 28. Verify REFS by
+LOADING beats_v2 and by seeing `[+1 char ref: NAME]` in the generator output — and
+wire REFS AFTER promoting plates, since `--promote` rewrites the file's tail block.

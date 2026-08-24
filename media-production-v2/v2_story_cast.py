@@ -204,9 +204,22 @@ def main():
             print(f"=== {os.path.basename(d.rstrip(os.sep))} :: {n} ===", flush=True)
             generate_one(portrait_prompt(mod.LOCKS[n]), dest, refs=[])
         block = refs_block(names)
-        src = open(os.path.join(d, "beats_v2.py")).read()
-        if "\nREFS = {" not in src:
-            open(os.path.join(d, "beats_v2.py"), "a").write(block)
+        beats_path = os.path.join(d, "beats_v2.py")
+        src = open(beats_path).read()
+        # An EMPTY `REFS = {}` must still be filled (2026-08-24). Author maps are
+        # often written before the portraits exist and declare "no image REFS —
+        # carried by text locks"; the old `if "\nREFS = {" not in src` skipped
+        # those, so the portraits were generated and then never attached and the
+        # cast drifted (rows 155/156/172/175/176/178/180/182/183/190 all shipped
+        # or nearly shipped this way). Fill an empty block in place; only append
+        # when the build has no REFS block at all.
+        empty = re.search(r"\nREFS = \{\s*\}\n?", src)
+        if empty and not re.search(r'\nREFS = \{[^}]*"', src):
+            new = src[:empty.start()] + "\n" + block.lstrip("\n") + src[empty.end():]
+            open(beats_path, "w").write(new)
+            print(f"  REFS filled in {os.path.basename(d.rstrip(os.sep))}/beats_v2.py")
+        elif "\nREFS = {" not in src:
+            open(beats_path, "a").write(block)
             print(f"  REFS written into {os.path.basename(d.rstrip(os.sep))}/beats_v2.py")
 
 

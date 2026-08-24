@@ -411,6 +411,26 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
     ship-blocker, so treat any interior-with-lamp place as needing this line in
     its lock from the start.
 
+28. **AN EMPTY `REFS = {}` MEANS THE PORTRAITS ARE NOT ATTACHED — CHECK IT
+    BEFORE THE FIRST PAID ROLL (Machine A, 2026-08-24, found on rows 183 and
+    190, present on nine rows).** `v2_story_cast.py` generates each story's face
+    sheets, but its old wiring test was `if "\nREFS = {" not in src` — so any
+    map an author wrote with an explicit empty block ("No image REFS: people are
+    carried by the build-local text locks") was SKIPPED. The portraits landed in
+    `CAST-REF-V2/` and were never referenced, the whole row generated
+    text-locked only, and the cast drifted (row 190's believer came back as a
+    different, older, grey-bearded man; row 183's Paul generated unanchored).
+    A text lock alone is not identity (lesson 2) — the image is.
+    - The script now FILLS an empty block in place; only a build with no REFS
+      block at all gets one appended.
+    - **Still verify by loading it**, because tooling can silently lose it:
+      `python3 -c "import beats_v2; print(beats_v2.REFS)"` from the build dir,
+      and confirm the generator prints `[+1 char ref: NAME]` on the beats that
+      depict that person.
+    - **Order matters: promote place plates FIRST, then wire/verify REFS**, and
+      re-verify after any `v2_stash.py --promote`, which rewrites the plate block
+      at the end of the file.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.
