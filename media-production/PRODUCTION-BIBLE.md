@@ -216,6 +216,16 @@ killed if that is what happened. A restrained death aftermath may omit impact,
 blood and wounds, but it must never be staged like a nap merely because scripture
 uses "fell asleep."
 
+**The Place-Continuity Is Not Picture-Reuse Law (Cameron, row 181,
+2026-08-17):** a place plate may hold identity, material, terrain, weather and
+time of day, but it must never hold the same camera coordinates across sibling
+beats. Pictures cannot be duplicates with a person, object, cloud, or light
+merely added or removed; a crop, zoom, mirror, relight, mask, or add/remove edit
+is not a new picture. Give every beat distinct camera geometry, inspect the
+complete contact sheet and a similarity matrix, and compare suspicious pairs at
+full size. If a place plate keeps cloning its composition, disable it for that
+row, retain the character references, and regenerate the duplicate family.
+
 **The Voice Law (Cameron, 2026-07-07 — permanent):** The Jesus voice is AMERICAN,
 never British — he was not British. Current voices (edge-tts, placeholders until
 Cameron locks finals): narrator `en-US-AndrewNeural`, Jesus

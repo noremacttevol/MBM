@@ -340,6 +340,25 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
     corrected spelling; compare old/new audio-stream hashes byte-for-byte. A
     caption-only complaint must cost $0 and generate zero pictures.
 
+25. **A PLACE PLATE MAY LOCK THE WORLD, NEVER THE CAMERA (Cameron,
+    2026-08-17 — row 181: "pictures can't be duplicates with just missing
+    pieces. Make better pictures").** Row 181 fed the same Job/whirlwind and
+    creation-shore plates into several sibling beats. The model preserved the
+    plate's camera coordinates and returned near-copies with a person, cloud,
+    or patch of light merely added or removed. That is not continuity; it is a
+    repeated picture and fails even when each file is technically new.
+    PROMPT AUTOPSY = CAUSED. A continuity reference may preserve identity,
+    materials, weather, terrain, and time of day, but every beat must name a
+    genuinely different camera geometry and visual subject. Never satisfy a new
+    beat with a crop, zoom, mirror, relight, mask, add/remove edit, or the same
+    horizon/pose/background layout. Before assembly, inspect the complete
+    contact sheet and run a similarity check across every source; any suspicious
+    pair must then be compared at full size. If a place plate keeps cloning its
+    composition, disable it for the affected row, retain only the character
+    reference, and regenerate the duplicate family with distinct angles. A
+    sheet-level AI similarity warning is a lead, not a verdict: verify the exact
+    source pair before rejecting or accepting it.
+
 ## Per-story workflow
 
 1. Run `node admin/sync-reviews.mjs` so `REVIEW-LESSONS.json` is current.

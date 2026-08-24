@@ -62,7 +62,10 @@ def main():
     # once by medium.en before it counts. A real TTS error fails both.
     tiebreak = None
     failures = 0
-    for name, voice, rate, pitch, text in SEGMENTS:
+    # Older builds use five-field tuples; current V2-backed builds use
+    # (name, speaker, text). The transcript gate needs only name + text.
+    for entry in SEGMENTS:
+        name, text = entry[0], entry[-1]
         ratio, a, b = check(model, name, text)
         if ratio < 0.93:
             if tiebreak is None:

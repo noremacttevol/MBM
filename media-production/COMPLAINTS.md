@@ -10,20 +10,15 @@ touching anything else. Do NOT edit by hand.
 
 | # | Status | What Cameron said |
 |---|---|---|
-| 95 | UNFIXED | 0:55 the caption says "To day" with a space instead of "today" quick and easy fix |
 | 135 | newer cut shipped — VERIFY fixed | 1st picture has 3 girls and 5 boys that needs to change |
-| 140 | UNFIXED | 0:11 the boy has his lips messed up just redo that picture and at 2:09 there is a picture floating in the sky, meaning its messed up redo that one too.  ** main problem here is the serpent should not be pictured on a cross it should be on a A long, weathered wooden staff with no crossbeams. Redo every picture with the serpent on the cross and change it to a striaght pole only |
-| 149 | UNFIXED | Wrong caption at 2:06 |
 | 150 | newer cut shipped — VERIFY fixed | Bad old , english and captions in white that are scripture |
-| 153 | UNFIXED | 1:52 is double picture in 1 frame thats no good replace it.. |
+| 153 | newer cut shipped — VERIFY fixed | 1:52 is double picture in 1 frame thats no good replace it.. |
 | 157 | newer cut shipped — VERIFY fixed | 42 weird giant picture |
-| 159 | UNFIXED | 0:59 picture is bad redo it |
-| 161 | UNFIXED | 2:15 bowed is not pronounced like that fix it. Its like bawed the past tense of bowing to something |
-| 171 | UNFIXED | Lives is pronounced wrong at 1:10 |
-| 177 | newer cut shipped — VERIFY fixed | Not real new voice |
-| 179 | newer cut shipped — VERIFY fixed | "Regenerate this video about Stephen in Acts 7 from a Latter-day Saint perspective. The vision scene (Acts 7:55-56) must clearly show two distinct glorified personages in radiant heavenly light: God the Father and His Son Jesus Christ standing at the Father's right hand. Portray them as separate embodied beings, just as Stephen saw them — not as one figure, not as Jesus only, and do not add a dove or Trinitarian symbol. Use a reverent, luminous style like official Latter-day Saint gospel art (similar to the Gospel Art Book depiction of this scene). Keep the story simple, scripturally accurate, and 'milk' level — Christ-centered and uplifting for everyone. Focus on Stephen being full of the Holy Ghost, his bold testimony of Jesus, the vision of the Father and Son, his martyrdom, and his forgiving prayers to the Lord Jesus. Use simple narration that promotes faith in Jesus and the gospel without extra doctrine or heavy emphasis. Follow your established reverent style rules for sacred figures. Make the whole short video feel like it was made by Latter-day Saints — warm, truthful, and focused on the Savior. |
+| 159 | newer cut shipped — VERIFY fixed | 0:59 picture is bad redo it |
+| 161 | newer cut shipped — VERIFY fixed | 2:15 bowed is not pronounced like that fix it. Its like bawed the past tense of bowing to something |
+| 171 | newer cut shipped — VERIFY fixed | Lives is pronounced wrong at 1:10 |
+| 179 | newer cut shipped — VERIFY fixed | God and Jesus or on the wrong sides of each other flip them and change then ending because he was killed not fell asleep. |
 | 181 | newer cut shipped — VERIFY fixed | 0:12 god mispronounced wast and pictures can't be duplicates with just missing pieces.  Make better pictures |
-| 184 | newer cut shipped — VERIFY fixed | only Jesus's words in red. |
 | 188 | newer cut shipped — VERIFY fixed | "Maketh" (the archaic version of the modern word "makes") is pronounced MAY-kith 0:29 |
 | 198 | newer cut shipped — VERIFY fixed | Not new audio |
 | 200 | newer cut shipped — VERIFY fixed | Still the wrong audio. Im pissed |

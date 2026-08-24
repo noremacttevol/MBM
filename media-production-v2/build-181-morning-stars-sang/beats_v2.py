@@ -10,19 +10,22 @@ CREATION vision God takes him back to. One establishing wide per place (b02 Job 
 the whirlwind, b03 the forming earth).
 
 =====================================================================
-OPEN CAMERON COMPLAINT (v2_outline.py 181): "the pictures need to be better made i
-dont think they fit the story well."
-FIX: this is a fresh, tightly-fitted map where EVERY beat depicts the exact narrated
-moment — Job weary and questioning on the ash-heap, the wind rising, the earth's
-foundations being laid, Job's eyes lifted off his wreckage, the star-filled heavens
-breaking into song, the heavenly host rejoicing, and the comfort brought home to
-Job. No vague generic "Bible sky" stand-ins: Job is a clear suffering man, the
-creation is a clear first-morning cosmos, and the two never blur together. Review
-card should tell Cameron the pictures were rebuilt to fit each moment of the story.
+CURRENT CAMERON COMPLAINT (reported against 53514a78d): "0:12 god mispronounced
+wast and pictures can't be duplicates with just missing pieces. Make better pictures."
+PROMPT AUTOPSY: CAUSED. The first V2 generation promoted b02 and b03 as place plates,
+then fed those exact compositions back into every sibling beat under the rough-draft
+continuity instruction. The resulting contact sheet visibly repeats the same seated
+Job/whirlwind frame across b01/b02/b07/b08 and the same shore/starfield across
+b03/b05/b09/b10/b11, sometimes with only Job or a patch of light removed. This fix
+generates all fourteen pictures without either place plate, keeps only Job's face
+reference, and gives every beat a different named camera geometry. No copy, crop,
+extended hold, removal-only edit, or plate-derived variant can satisfy this complaint.
+God's g4 source receives persistent Flash-v2 CMU W AO1 S T (American stressed
+/wɔst/, rhyming with "lost"), while the visible KJV spelling remains "wast."
 =====================================================================
 
-AUDIO: default AUDIO LOCK stream-copy (no flag). Board Audio = OK. Picture-only
-rebuild — do NOT re-voice.
+AUDIO: AUDIO_FROM_V1_SEGMENTS remains required. Re-voice ONLY g4 through the
+persistent build-local revoice_wast.py; all other source segments remain untouched.
 
 SPEAKER LAW (see make_narration.py):
   g4  Job 38:4  "Where wast thou when I laid the foundations of the earth? declare,
@@ -80,6 +83,16 @@ AUDIO_FROM_V1_SEGMENTS = True
 # LOCKS: all build-local. No Jesus / no cream (OT). State clothing colours
 # POSITIVELY and dark; only Jesus wears cream and he is not in this row.
 LOCKS = {
+    "SHOT-DIVERSITY": (
+        "SHOT-DIVERSITY COMPLAINT LOCK: this must be a genuinely new cinematic "
+        "composition made for this one narrated beat. Continuity means the same "
+        "Job identity, materials, weather and story world — NEVER the same camera "
+        "coordinates. Do not copy, crop, zoom, mirror, relight, mask, add to, or "
+        "remove pieces from another frame. Never repeat another beat's horizon, "
+        "shoreline, ground layout, seated pose, whirlwind placement or star pattern. "
+        "The named camera height, direction, foreground and focal subject below are "
+        "mandatory and visibly different from every adjacent picture."
+    ),
     "JOB-WHIRLWIND": (
         "JOB-WHIRLWIND LOCK: the same place in every frame — a desolate patch of "
         "bare, ash-strewn ground on the edge of an ancient ruined homestead in the "
@@ -127,226 +140,234 @@ BEATS = [
     {
         "id": "v2-r181-b01", "out": "s01-job-asked-hard-questions.jpeg", "seg": "n0",
         "window": "0.400-2.242", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JOB-WHIRLWIND", "JOB"],
+        "locks": ["SHOT-DIVERSITY", "JOB-WHIRLWIND", "JOB"],
         "narration": "Job had asked God hard questions.",
-        "must_show": "a close on weary Job on the ash-heap — an older grieving man, worn down, having flung hard questions up at heaven; his face searching and spent.",
+        "must_show": "a TIGHT chest-and-face shot from Job's FRONT-LEFT — his searching face fills the upper half, one raised empty hand at lower right, only a thin blurred strip of ash behind him; a unique question-shot, not the seated whirlwind wide.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, face or beam-being; no open sores or wounds in close-up; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A close on Job, an older grief-worn man, sitting on the low heap of "
-            "ashes in the bleak grey light, his lined face turned up and searching, "
-            "spent from flinging hard questions at heaven. Broken pottery and ash "
-            "around him, the wind stirring his grey-streaked hair. Ordinary-sized, "
-            "one head, gaze up and not to the camera; his suffering reads as "
-            "weariness only; nothing is written anywhere."
+            "TIGHT chest-and-face photograph from Job's FRONT-LEFT at eye height. "
+            "His lined searching face fills the upper half as he looks far above "
+            "the camera, and one empty weathered hand is lifted palm-up at lower "
+            "right as the last hard question leaves him. The ash heap is only a "
+            "thin soft-focus strip behind his shoulder; no visible horizon and no "
+            "full seated body. Wind moves his grey-streaked hair. This exact "
+            "face-and-hand geometry belongs only to b01; nothing is written."
         ),
     },
     {
         "id": "v2-r181-b02", "out": "s02-god-answered-from-the-storm.jpeg", "seg": "n0",
         "window": "2.242-8.641", "wide": True, "jesus": False, "ref": False,
-        "locks": ["JOB-WHIRLWIND", "JOB"],
+        "locks": ["SHOT-DIVERSITY", "JOB-WHIRLWIND", "JOB"],
         "narration": "And God answered — not with explanations, but by taking Job back to the very first morning.",
-        "must_show": "the ONE establishing wide of the whirlwind — Job small on the ash-heap beneath a vast grey sky with a great whirlwind turning on the horizon, the answer coming out of the storm; he lifts his head toward it.",
+        "must_show": "an EXTREME WIDE from far behind — Job is a tiny full-body figure in the LOWER-LEFT fifth while a tall whirlwind occupies the RIGHT half and the storm sky fills most of the frame; unmistakably unlike b01.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, face or beam-being in the storm; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art; not a posed line facing the lens.",
         "scene": (
-            "A wide from behind and to the side of Job as he sits small on the "
-            "ash-heap, his back half to the camera, beneath an immense grey "
-            "storm-dawn sky where a great whirlwind of dust and cloud turns on the "
-            "horizon. He lifts his head toward the storm as the answer begins to "
-            "come — not in words of explanation but as a summons back to the "
-            "beginning. The land is desolate and windswept around him. Camera "
-            "behind and beside him, his back to the lens; ordinary-sized on one "
-            "ground plane; no figure in the storm; nothing is written anywhere."
+            "EXTREME WIDE from far behind Job across a long sweep of ash-strewn "
+            "ground. Job is a tiny complete figure in the LOWER-LEFT fifth, back "
+            "to the lens and head lifted. A single tall column of dust and cloud "
+            "turns on the far RIGHT and the layered storm sky fills the upper two "
+            "thirds. His stones and body do not resemble the b01 close. No figure "
+            "in the storm, no copied seated portrait, nothing written."
         ),
     },
     {
         "id": "v2-r181-b03", "out": "s03-before-there-were-people.jpeg", "seg": "n1a",
         "window": "8.641-12.082", "wide": True, "jesus": False, "ref": False,
-        "locks": ["CREATION-DAWN"],
+        "locks": ["SHOT-DIVERSITY", "CREATION-DAWN"],
         "narration": "Before there were people to suffer or to doubt,",
-        "must_show": "the ONE establishing wide of the creation vision — the young unpeopled earth of raw land and bright new water taking shape under a vast heaven at the first light, wholly empty of people; before anyone was there to suffer or doubt.",
+        "must_show": "a LOW SHORELINE establishing shot — three jagged black foreground rocks form a diagonal from LOWER-LEFT toward a new silver-blue inlet on the RIGHT, with the first pale light on the horizon; completely unpeopled.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; NO person anywhere; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art; not a posed line facing the lens.",
         "scene": (
-            "A vast establishing wide of the first morning of the world: raw dark "
-            "new-made land and bright unspoiled water taking shape under an immense "
-            "heaven, the first radiant break of dawn light across the deep and the "
-            "last great stars still burning above. The camera looks out low across "
-            "the forming earth away from the deep toward the far horizon (the world "
-            "is utterly empty of people, so no one's back or face is toward the "
-            "lens), new and unpeopled. No figure of any kind; nothing is written "
-            "anywhere and no ring of light rings anything."
+            "LOW SHORELINE establishing photograph only inches above raw stone. "
+            "Three jagged black foreground rocks make a strong diagonal from the "
+            "LOWER-LEFT toward a newly formed silver-blue inlet occupying the "
+            "RIGHT half. A pale first-light horizon lies low in the frame and "
+            "countless stars remain above. The world is empty of people. This "
+            "specific low diagonal shoreline appears nowhere else; no figure or "
+            "writing and no ring of light."
         ),
     },
     {
         "id": "v2-r181-b04", "out": "s04-foundations-of-the-earth.jpeg", "seg": "g4",
         "window": "12.082-15.402", "wide": False, "jesus": False, "ref": False,
-        "locks": ["CREATION-DAWN"],
+        "locks": ["SHOT-DIVERSITY", "CREATION-DAWN"],
         "narration": "Where wast thou when I laid the foundations of the earth?",
-        "must_show": "GOD-VOICE, GREEN caption — the foundations being laid: great new land, mountains and bedrock rising and settling out of the deep in the first light, the earth's foundations being set; the Maker unseen.",
+        "must_show": "GOD-VOICE, GREEN caption — a WATER-LEVEL UPWARD view at the base of one immense wet basalt cliff rising on the LEFT while surf explodes against newly exposed bedrock below; the earth's foundation visibly solid, Maker unseen.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, hand or beam-being laying the earth; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A grand view of the earth's foundations being laid: massive new land, "
-            "ridgelines and dark bedrock rising and settling out of the bright "
-            "primordial water in the first radiant dawn, mist and light pouring "
-            "over the raw young world. No hand or figure appears; the forming is "
-            "shown by the land and the light alone. Nothing is written anywhere and "
-            "no ring of light rings anything."
+            "WATER-LEVEL camera looking steeply UP from churning primordial surf "
+            "at the base of one immense wet basalt cliff that rises along the LEFT "
+            "edge and disappears into first-dawn mist. Fresh black bedrock fills "
+            "the lower half; white spray bursts against it from the RIGHT. No "
+            "shoreline panorama, starfield template, hand or figure. The solid "
+            "foundation itself is the subject; nothing is written."
         ),
     },
     {
         "id": "v2-r181-b05", "out": "s05-if-thou-hast-understanding.jpeg", "seg": "g4",
         "window": "15.402-20.439", "wide": False, "jesus": False, "ref": False,
-        "locks": ["CREATION-DAWN"],
+        "locks": ["SHOT-DIVERSITY", "CREATION-DAWN"],
         "narration": "declare, if thou hast understanding.",
-        "must_show": "GOD-VOICE, GREEN caption — the scale of it: the immense forming world stretching away beyond comprehension, so vast that no one could declare or understand it; the greatness of what was made before Job.",
+        "must_show": "GOD-VOICE, GREEN caption — a HIGH BIRD'S-EYE view down over braided new rivers, multiple mountain chains and distant seas, no repeated shoreline or horizon; the world extends beyond comprehension, Maker unseen.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no person; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "The forming world stretches away in overwhelming scale — range beyond "
-            "range of new land, vast bright waters and towering cloud under a "
-            "boundless first-light heaven — a greatness far past any human "
-            "understanding or telling. Empty of people, immense and still becoming. "
-            "Nothing is written anywhere and no ring of light rings anything."
+            "HIGH BIRD'S-EYE photograph looking diagonally DOWN across a continent-"
+            "sized sweep of braided silver rivers, several parallel young mountain "
+            "chains and distant dark seas. Clouds cast huge moving shadows across "
+            "the land, with almost no sky visible. The scale is beyond one person's "
+            "understanding. No copied inlet, no foreground shore, no person, no "
+            "figure of God, and nothing written."
         ),
     },
     {
         "id": "v2-r181-b06", "out": "s06-job-humbled.jpeg", "seg": "n1r",
         "window": "20.439-24.177", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JOB-WHIRLWIND", "JOB"],
+        "locks": ["SHOT-DIVERSITY", "JOB-WHIRLWIND", "JOB"],
         "narration": "Where were you, God asked him, when I laid the foundations of the earth?",
-        "must_show": "Job humbled under the question — back on the ash-heap, Job lowers his eyes, struck small and silent by being asked where he was when the earth was founded.",
-        "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no open wounds; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
+        "must_show": "a STEEP OVERHEAD view from behind Job's right shoulder — his bowed head and both open hands on his knees form a triangle inside a visible ring of ash and broken potsherds; no horizon and no duplicated seated landscape.",
+        "must_not_show": "ONE SINGLE UNBROKEN PHOTOGRAPH ONLY — no stacked frames, repeated strips, split-screen, triptych, diptych, collage, panel, border or duplicated copy of Job; GOD IS NEVER SHOWN — no God figure or beam-being; no open wounds; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A close on Job back on the ash-heap in the grey storm light, his eyes "
-            "lowering and his shoulders bowing as the question lands on him — struck "
-            "small and silent by being asked where he was when the earth was "
-            "founded. The wind pulls at his hair and torn robe. Ordinary-sized, one "
-            "head, gaze lowered and not to the camera; nothing is written anywhere."
+            "ONE SINGLE UNBROKEN STEEP OVERHEAD photograph from behind Job's "
+            "RIGHT shoulder, looking "
+            "down onto his bowed grey-streaked head and BOTH open empty hands "
+            "resting separately on his knees. A ring of ash and several broken "
+            "potsherds surrounds him as the question humbles him. No face toward "
+            "the lens, no horizon, no whirlwind column, no duplicated side-on "
+            "seated landscape. The one camera view fills the entire canvas with no "
+            "repeated strips, panels or borders; nothing is written."
         ),
     },
     {
         "id": "v2-r181-b07", "out": "s07-tell-me-if-you-know.jpeg", "seg": "n1r",
         "window": "24.177-25.547", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JOB-WHIRLWIND", "JOB"],
+        "locks": ["SHOT-DIVERSITY", "JOB-WHIRLWIND", "JOB"],
         "narration": "Tell me, if you know.",
-        "must_show": "Job silent, no answer — a held insert on Job with no reply on his lips, humbled to silence before the question.",
+        "must_show": "an EXTREME RIGHT-SIDE PROFILE insert from temple to collarbone — Job's lips closed, jaw slack and gaze lowered out the LEFT edge; background is featureless windblown grey, not another full ash-heap pose.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A held close on Job in the grey light, lips parted but no answer "
-            "coming, his weathered face gone quiet and humble — he has nothing to "
-            "say before such a question. Ash and wind around him. Ordinary-sized, "
-            "one head, gaze down and inward, not to the camera; nothing is written "
-            "anywhere."
+            "EXTREME RIGHT-SIDE PROFILE insert cropped from Job's temple to his "
+            "collarbone. His mouth is now closed, jaw slack, and eyes lower out "
+            "through the LEFT edge: no answer. Wind moves individual beard hairs "
+            "against a featureless soft grey background. No hands, seated body, "
+            "horizon, rocks or whirlwind are visible, so this cannot be a piece-"
+            "removed version of b01/b02/b06. Nothing is written."
         ),
     },
     {
         "id": "v2-r181-b08", "out": "s08-his-eyes-lifted.jpeg", "seg": "n1r",
         "window": "25.547-36.113", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JOB-WHIRLWIND", "JOB"],
+        "locks": ["SHOT-DIVERSITY", "JOB-WHIRLWIND", "JOB"],
         "narration": "It sounds severe until you notice what it really does — it lifts Job's eyes off his own wreckage and sets them on something older and steadier than his pain.",
-        "must_show": "the turn — Job slowly lifting his eyes UP off the ash and ruin around him toward the vast sky, his gaze pulled from his own wreckage onto something older and steadier than his pain.",
+        "must_show": "a LOW GROUND-LEVEL medium shot from Job's FRONT-RIGHT — sharp potsherds dominate the LOWER-LEFT foreground while Job, from waist up on the RIGHT, turns his eyes diagonally to an opening in the upper-left sky.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "Job slowly lifts his lined face up off the broken pottery and ash "
-            "around him toward the vast opening sky, seen from a low side angle, his "
-            "eyes drawn away from his own ruin onto something far older and steadier "
-            "than his pain. The first faint break of light shows at the edge of the "
-            "grey storm. Ordinary-sized, one head, gaze lifting upward and not to "
-            "the camera; nothing is written anywhere and no ring of light rings his "
-            "head."
+            "LOW GROUND-LEVEL medium photograph from Job's FRONT-RIGHT. Large "
+            "sharp potsherds and grey ash dominate the LOWER-LEFT foreground; Job "
+            "appears waist-up on the RIGHT, turning his lined face and eyes "
+            "diagonally toward a natural break in the UPPER-LEFT clouds. The "
+            "wreckage and the destination of his gaze share one depth. No full "
+            "seated silhouette, no repeated whirlwind placement, no lens gaze, "
+            "nothing written and no light ring around his head."
         ),
     },
     {
         "id": "v2-r181-b09", "out": "s09-astonishing-in-the-sky.jpeg", "seg": "n2",
         "window": "36.113-40.428", "wide": False, "jesus": False, "ref": False,
-        "locks": ["CREATION-DAWN"],
+        "locks": ["SHOT-DIVERSITY", "CREATION-DAWN"],
         "narration": "And when that happened, something astonishing broke out in the sky.",
-        "must_show": "the heavens beginning to blaze — the first-morning sky breaking into an astonishing brilliance of light and countless stars, something wonderful about to happen above the young world.",
+        "must_show": "a STRAIGHT-UP sky view through dark torn clouds — one brilliant diagonal river of stars opens from LOWER-RIGHT to UPPER-LEFT, with only a tiny black ridge at the bottom; no copied shoreline, inlet or familiar horizon.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no person; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "The first-morning heaven breaks into astonishing brilliance over the "
-            "young earth — the vast sky suddenly ablaze with countless brilliant "
-            "stars and pouring radiant light, something wonderful breaking loose "
-            "above the new-made world. Empty of people; the wonder is in the sky "
-            "itself. Nothing is written anywhere and no ring of light rings "
-            "anything."
+            "STRAIGHT-UP camera aimed through dark torn first-morning clouds. A "
+            "single brilliant diagonal river of countless stars opens from the "
+            "LOWER-RIGHT to the UPPER-LEFT, as if the heavens have just broken "
+            "wide. Only a tiny black ridge touches the bottom edge; no water, "
+            "shoreline, inlet, person or figure. The sky event is one continuous "
+            "photograph, not a portal or ring; nothing is written."
         ),
     },
     {
         "id": "v2-r181-b10", "out": "s10-the-morning-stars-sang.jpeg", "seg": "s1",
         "window": "40.428-43.500", "wide": False, "jesus": False, "ref": False,
-        "locks": ["CREATION-DAWN"],
+        "locks": ["SHOT-DIVERSITY", "CREATION-DAWN"],
         "narration": "When the morning stars sang together,",
-        "must_show": "GOD-VOICE, GREEN caption — the singing stars: the great morning stars blazing together across the heavens as if in song, a heaven full of brilliant living light.",
+        "must_show": "GOD-VOICE, GREEN caption — an EARTH-ABSENT overhead sky composition: seven dominant morning stars sweep in a broad S-curve through a dense deep-blue starfield, visibly distinct from b09's cloud opening and every shoreline view.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no faces in the stars; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A soaring view up into the blazing morning heaven where the great "
-            "stars burn together in radiant brilliance, their light seeming to ring "
-            "and pulse as if in song across the whole sky over the young earth — a "
-            "heaven full of living light. No figure or face anywhere in it. Nothing "
-            "is written anywhere and no ring of light rings anything."
+            "EARTH-ABSENT overhead photograph containing sky edge to edge: seven "
+            "dominant morning stars sweep in a broad S-curve from lower left to "
+            "upper right through a dense deep-blue field of smaller stars. Their "
+            "ordinary starlight varies like voices in one song, but there are no "
+            "drawn sound waves, rings, faces, clouds, land, water, figures or "
+            "writing. This is not b09's diagonal opening."
         ),
     },
     {
         "id": "v2-r181-b11", "out": "s11-sons-of-god-shouted.jpeg", "seg": "s1",
         "window": "43.500-47.487", "wide": False, "jesus": False, "ref": False,
-        "locks": ["CREATION-DAWN", "HEAVENLY-HOST"],
+        "locks": ["SHOT-DIVERSITY", "CREATION-DAWN", "HEAVENLY-HOST"],
         "narration": "and all the sons of God shouted for joy?",
-        "must_show": "GOD-VOICE, GREEN caption — the heavenly host rejoicing: a distant joyful multitude of radiant beings high in the blazing starry heavens, shouting for joy over the new-made world.",
-        "must_not_show": "GOD IS NEVER SHOWN and the Father is NEVER among them — no God figure or beam-being; no winged-cherub or haloed-cartoon-angel kitsch, no detailed faces; no Jesus, no cream; no ring of light around any head; no modern object; no scroll or writing as art.",
+        "must_show": "GOD-VOICE, GREEN caption — from a LOW NEW-MOUNTAIN vantage, a wide crescent of many small distant radiant beings crosses only the UPPER third above a newborn valley; visibly humanlike host silhouettes, Father absent.",
+        "must_not_show": "GOD IS NEVER SHOWN and the Father is NEVER among them — no God figure or beam-being; no glowing stick figures, cutouts, repeated identical silhouettes, evenly copied figures, circular ring or decorative arch; no winged-cherub or haloed-cartoon-angel kitsch, no detailed faces; no Jesus, no cream; no ring of light around any head; no modern object; no scroll or writing as art.",
         "scene": (
-            "High in the blazing star-filled heaven a distant multitude of radiant "
-            "beings — far-off forms and points of brilliant light spread across the "
-            "sky — rejoice together over the new-made world, their gladness plain "
-            "even at a distance. They are small, distant and reverent, with no "
-            "detailed faces and no cartoon wings or rings; simply a joyful shining "
-            "host. No figure of God is among them. Nothing is written anywhere."
+            "LOW camera from the floor of a newborn dark valley looking upward "
+            "between two steep mountain walls. Across only the UPPER third, a "
+            "loose gathering of many SMALL DISTANT, naturally proportioned "
+            "humanlike host silhouettes raise DIFFERENT natural arm poses in "
+            "visible joy. Starlight illuminates ordinary pale robes and bodies; "
+            "the people do not emit light and are irregularly spaced at several "
+            "depths, never copied into a ring or arch. They remain far away with "
+            "no faces, wings or rings; the Father is not among them. The lower valley makes "
+            "this unlike every star-only or shoreline frame. Nothing is written."
         ),
     },
     {
         "id": "v2-r181-b12", "out": "s12-stars-broke-into-song.jpeg", "seg": "n3",
         "window": "47.487-49.542", "wide": False, "jesus": False, "ref": False,
-        "locks": ["CREATION-DAWN"],
+        "locks": ["SHOT-DIVERSITY", "CREATION-DAWN"],
         "narration": "The stars themselves broke into song.",
-        "must_show": "the whole singing cosmos — the entire heaven of stars alight and jubilant over the young world, the very stars breaking into song.",
+        "must_show": "a WATER-REFLECTION insert — rippled black new sea fills most of the frame, reflecting many bright stars as broken dancing lines, while only a narrow band of real sky remains at the top; no copied sky panorama.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no faces in the stars; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "The whole heaven of brilliant stars is alight and jubilant over the "
-            "young earth, wave upon wave of radiant light rolling across the sky as "
-            "though the very stars have broken into song. Immense, joyful, "
-            "unpeopled. Nothing is written anywhere and no ring of light rings "
-            "anything."
+            "WATER-REFLECTION insert at the surface of a rippled black newborn sea. "
+            "The water fills the lower four-fifths and reflects hundreds of bright "
+            "stars as separate broken dancing lines; only a narrow band of the real "
+            "starry sky remains at the very top. No shoreline panorama, host, face, "
+            "figure, symbolic music marks or writing. The reflection itself makes "
+            "the stars read as song."
         ),
     },
     {
         "id": "v2-r181-b13", "out": "s13-creation-a-celebration.jpeg", "seg": "n3",
         "window": "49.542-54.638", "wide": False, "jesus": False, "ref": False,
-        "locks": ["CREATION-DAWN"],
+        "locks": ["SHOT-DIVERSITY", "CREATION-DAWN"],
         "narration": "Creation was not a cold accident — it was a celebration.",
-        "must_show": "creation as celebration — the new world and its blazing joyful heaven together, warm and glad, plainly a celebration and not a cold accident.",
+        "must_show": "a GROUND-LEVEL celebration shot — warm first sunlight strikes a newborn waterfall spilling through black rock into a bright pool, spray filling the air under a star-fading sky; no repeated inlet or empty starfield.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no person; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A warm, glad view of the whole new world under its blazing jubilant "
-            "heaven at the first dawn — bright water and young land beneath a sky "
-            "full of singing radiant stars, the whole scene alive with joy, plainly "
-            "a celebration and not a cold and empty accident. Unpeopled, warm, "
-            "rejoicing. Nothing is written anywhere and no ring of light rings "
-            "anything."
+            "GROUND-LEVEL photograph beside a newborn waterfall pouring through "
+            "fresh black rock into a clear bright pool. Warm first sunlight catches "
+            "every airborne drop while the last stars fade in a narrow upper strip "
+            "of sky. Water, spray and warm stone make creation feel physically "
+            "celebratory. No copied inlet, starfield panorama, person, divine figure "
+            "or writing; one coherent natural frame."
         ),
     },
     {
         "id": "v2-r181-b14", "out": "s14-listening-to-you-now.jpeg", "seg": "n4",
         "window": "54.638-59.869", "wide": False, "jesus": False, "ref": False,
-        "locks": ["JOB-WHIRLWIND", "JOB"],
+        "locks": ["SHOT-DIVERSITY", "JOB-WHIRLWIND", "JOB"],
         "narration": "The God who sang the world into being is the same one listening to your questions today.",
-        "must_show": "the comfort brought home to Job — a close on Job, the wonder now on his face, comforted and quieted, warm first-light on him; the God who sang the world is the one listening to him now.",
+        "must_show": "a MEDIUM THREE-QUARTER profile from several paces to Job's LEFT — both relaxed hands are visible open on his knees, his softened face turns toward calm dawn at frame RIGHT, and the spent whirlwind dissolves far behind at LEFT.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no open wounds; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A close on Job back on the ash-heap, but changed — the grief eased into "
-            "wonder and quiet comfort, his lined face lifted and softened as the "
-            "first warm dawn light finally reaches him and the storm calms. The "
-            "same God who sang the world into being is listening to him now. "
-            "Ordinary-sized, one head, gaze lifted and peaceful, not to the camera; "
-            "nothing is written anywhere and the warm light rests on him, not "
-            "around his head."
+            "MEDIUM THREE-QUARTER profile photographed from several paces to Job's "
+            "LEFT. Both relaxed hands are fully visible and open on his knees; his "
+            "softened face turns toward calm warm dawn at frame RIGHT. Far behind "
+            "him at LEFT, the spent whirlwind dissolves into ordinary cloud. The "
+            "camera shows his full seated triangle but no foreground boulders and "
+            "does not copy b01/b02/b06/b08. No lens gaze, figure of God, writing or "
+            "light around his head."
         ),
     },
 ]
@@ -361,7 +382,9 @@ PLACE_REFS = {
 }
 # === end PLACE-PLATES ===
 
-# No image REFS: JOB is carried by a byte-identical text lock (no face sheet exists).
-# NO Jesus and NO cream in this row.
+# Job's accepted face board is the ONLY attached image. The old place plates are
+# deliberately disabled because their composition cloning caused Cameron's current
+# complaint. NO Jesus and NO cream in this row.
 REFS = {
+    "JOB": "CAST-REF-V2/job.jpeg",
 }

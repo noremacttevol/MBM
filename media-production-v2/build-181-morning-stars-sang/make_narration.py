@@ -70,6 +70,13 @@ SPOKEN = {}
 async def main():
     os.makedirs("audio", exist_ok=True)
     for name, speaker, text in SEGMENTS:
+        if name == "g4":
+            # Cameron rejected the plain-TTS reading of “wast.” Keep the KJV
+            # spelling visible but force American /wɔst/ in supported Flash v2.
+            from revoice_wast import render_g4
+            render_g4()
+            print("saved audio/g4.mp3  [god; wast=/wɔst/]")
+            continue
         flagged = [w for w in audit(text) if w not in SPOKEN]
         if flagged:
             print(f"  ! {name}: undecided homograph(s) {flagged}")
