@@ -62,6 +62,10 @@ do NOT re-voice. card_start = 64.415 s; total with card = 70.793 s.
 # LOCKS: TEMPLE-COURT and BACKGROUND-CAST resolve from the shared recipe in
 # v2_prompt.py. LEADERS is build-local. Setting locks never name a character. Only
 # Jesus wears cream; Jesus is injected on jesus=True beats.
+# AUDIO guard fix (2026-08-24): V1 final 72.733s vs extract 70.318s (gap
+# placement only; all mp3s ElevenLabs new-voice). Guard-prescribed rebuild.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     "LEADERS": (
         "LEADERS LOCK: the same group of hostile first-century religious rulers in "
@@ -110,6 +114,7 @@ BEATS = [
             "robe. Ordinary-sized, one head, gaze level toward the leaders and not to "
             "the camera; warm light on his face, not around his head; nothing is written "
             "anywhere."
+            "CAMERA: a frontal MEDIUM-CLOSE at eye level, Jesus centred, the colonnade falling away symmetrically behind him. This exact framing belongs only to b02."
         ),
     },
     {
@@ -143,6 +148,7 @@ BEATS = [
             "no figure stands in for God. Ordinary-sized men on one floor, gaze on the "
             "scroll and the leaders and not to the camera; warm daylight, no ring of "
             "light around any head."
+            "CAMERA: a SIDE-ON medium two-shot from the left, Jesus and the leaders both in profile facing each other across the frame, the open scroll between them. NOT a frontal single."
         ),
     },
     {
@@ -160,6 +166,7 @@ BEATS = [
             "carries nothing legible. Ordinary-sized men on one floor, one head each, "
             "gaze between Jesus and the leaders, not to the camera; warm daylight, no "
             "ring of light around any head."
+            "CAMERA: a tighter OVER-THE-SHOULDER past a leader's dark shoulder in the near foreground, Jesus beyond opening his hand. NOT the side-on two-shot of b04."
         ),
     },
     {
@@ -176,6 +183,7 @@ BEATS = [
             "plain cream robe. The scroll carries nothing legible. Ordinary-sized, one "
             "head, gaze toward the leaders and not to the camera; warm light on his face, "
             "not around his head."
+            "CAMERA: a tight PROFILE close from Jesus's left, the scroll's edge large and soft in the near foreground. NOT a frontal framing."
         ),
     },
     {
@@ -192,6 +200,7 @@ BEATS = [
             "the edge of frame, wears the plain cream robe. No figure stands in for the "
             "Father. Ordinary-sized men on one floor, one head each, gazes wavering and "
             "not to the camera; warm daylight, no ring of light around any head."
+            "CAMERA: reverse angle — past Jesus's shoulder into the LEADERS' faces, which fill the frame as they falter; Jesus only a dark edge at frame left. NOT a shot favouring Jesus."
         ),
     },
     {
@@ -208,6 +217,7 @@ BEATS = [
             "figure stands in for the Father. Ordinary-sized, one head, gaze steady "
             "toward the leaders and not to the camera; warm light on his face, not around "
             "his head; nothing is written anywhere."
+            "CAMERA: a LOW angle from below waist height looking up at Jesus's face and the hand laid to his breast, bright sky above the colonnade behind him. NOT an eye-level framing."
         ),
     },
     {
@@ -224,6 +234,7 @@ BEATS = [
             "Ordinary-sized men on one floor, one head each, the leader's gaze on Jesus "
             "and Jesus's level, not to the camera; warm daylight, no ring of light around "
             "any head."
+            "CAMERA: a tight INSERT — the accusing hand thrust large into the near foreground at frame right, Jesus unmoved and softly focused behind it. NOT a conventional two-shot."
         ),
     },
     {
@@ -239,6 +250,7 @@ BEATS = [
             "unashamed. Only he wears the plain cream robe. Ordinary-sized, one head, "
             "gaze steady and open toward the leaders and not to the camera; warm light "
             "on his face, not around his head; nothing is written anywhere."
+            "CAMERA: a strong LOW three-quarter as he declares, the columns rising steeply behind and the court floor at the bottom edge. NOT the frontal medium-close of b02."
         ),
     },
     {
@@ -253,6 +265,7 @@ BEATS = [
             "the answer plainly given and his face settled at rest. Only he wears the "
             "plain cream robe. Ordinary-sized, one head, gaze calm and not to the camera; "
             "warm light on his face, not around his head."
+            "CAMERA: from BEHIND and beside Jesus's shoulder, his back three-quarters to the lens, the sunlit court and distant figures beyond him. NOT a frontal or profile close."
         ),
     },
     {
@@ -269,6 +282,7 @@ BEATS = [
             "figure stands in for the Father, and the light is ordinary daylight, not a "
             "beam. Ordinary-sized, one head, gaze forward and not to the camera; the "
             "light rests on him, not around his head; nothing is written anywhere."
+            "CAMERA: a WIDER single — Jesus's full standing figure small in a shaft of daylight falling between two great columns, the court stone wide around him. NOT a close-up."
         ),
     },
     {
@@ -285,6 +299,7 @@ BEATS = [
             "before them; only he wears the plain cream robe. Ordinary-sized men on one "
             "floor, one head each, the leaders' gazes turned aside and Jesus's level, "
             "not to the camera; warm daylight, no ring of light around any head."
+            "CAMERA: a group shot of the LEADERS ALONE, four or five silent faces filling the frame in the daylight; Jesus not in this frame at all. NOT a two-shot with Jesus."
         ),
     },
     {
@@ -300,6 +315,7 @@ BEATS = [
             "God, but standing as the sent Son. Only he wears the plain cream robe. "
             "Ordinary-sized, one head, gaze humble and not to the camera; warm light on "
             "his face, not around his head; nothing is written anywhere."
+            "CAMERA: a HIGH angle looking slightly DOWN on Jesus, the patterned court paving visible around his feet, his posture open. NOT a low or eye-level framing."
         ),
     },
     {
@@ -317,17 +333,20 @@ BEATS = [
             "scroll carries no legible or rendered writing. Ordinary-sized men on one "
             "floor, one head each, gazes on the scroll and not to the camera; warm "
             "daylight, no ring of light around any head."
+            "CAMERA: a closing INSERT on the open scroll held between them, both figures' hands and robes framing it at the edges, faces out of frame or softly beyond. NOT a face-to-face two-shot."
+            "The parchment is turned at a shallow angle and thrown SOFT and OUT OF FOCUS so that any ink reads only as faint indistinct grey marks — absolutely no formed letters, no words, no readable characters of any script anywhere in frame."
         ),
     },
 ]
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
-# TEMPLE-COURT is a SHARED place with a reusable plate in the stash (build-39/173).
-# The runner runs `v2_stash.py --wire build-187-ye-are-gods`, which SUGGESTS the
-# temple-court plate to --take; it copies into PLACE-REF/ and records it here. No NEW
-# place in this row. Steps in QC.md.
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "TEMPLE-COURT": "PLACE-REF/temple-court.jpeg",  # build-96-it-is-finished v2-r096-b13
 }
 # === end PLACE-PLATES ===
 

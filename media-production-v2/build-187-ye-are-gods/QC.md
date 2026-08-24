@@ -55,3 +55,36 @@ Psalm.
 4. Assemble with `v2_assemble.py` (AUDIO LOCK stream-copy, byte-identical — do NOT
    re-voice). Verify final ≈ 70.8s, tail/card intact.
 5. Ship with a review card stating the realistic-V2 build (no open complaint).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+**Highest clone-risk row of the night — all 15 beats in ONE place (TEMPLE-COURT)
+with seven near-identical authored "close on Jesus" scenes — and it produced
+ZERO clones.** Rubric lesson 26 applied before the first paid roll: 13 beats
+each given an explicit distinct camera (frontal medium-close / side-on two-shot
+/ over-shoulder / profile with scroll foreground / reverse onto the leaders /
+low from below / accusing-hand insert / low three-quarter / from behind his
+shoulder / wide single in a shaft of light / leaders-alone group / high angle /
+closing scroll insert), each naming the framing it must NOT repeat.
+**1 reroll / 15 stills = 6.7%, $2.14** — the cheapest picture row of the night.
+- The single reroll was b15: the scroll rendered LEGIBLE Hebrew letterforms
+  against its own "no legible or rendered writing" rule → parchment thrown soft
+  and angled, ink now indistinct marks. Verified at full crop.
+- TEMPLE-COURT wired from the stash (build-96 b13), not newly promoted.
+
+**FULL-CUT GATE — 15 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW pixel-verified: **GREEN on j1 (b04/b05) — the Psalm 82:6 words God spoke,
+read aloud by Jesus, with GOD NEVER SHOWN (the beats picture Jesus and the
+scroll, exactly the row-169 pattern)**; RED on j2, Jesus's own words (b08/b09/
+b10); narrator white. Jesus V2 face on-model in every appearance (green/hazel
+eyes verified at full crop), cream ONLY him, no halo/glare/rim-light. Father
+never embodied — every "Father" line carried by Jesus and the scroll. CONTENT-
+CARE: a dispute over scripture, NOT a lynching — no raised stones, no violence,
+no blood; Jesus calm throughout; leaders are distinct dignified men, never
+twinned. Card clean.
+
+**AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 72.733s vs extract 70.318s,
+gap placement; 9 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=16985c50e8…**,
+70.3s, 20.8 MB.
