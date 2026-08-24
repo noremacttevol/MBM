@@ -192,3 +192,29 @@ prepay-depleted wall (no top-up, no inbox escalation — precedent). Every Ready
 row draws the same dead endpoint, so there is no unblocked "next row." $0/0 gen,
 meter unchanged **$711.00**. Board left AUTHORED / Ready ✅ / Claim BLANK.
 RESUME COMMAND unchanged (above).
+
+---
+
+## ✅ RESUME SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Strand-rescue of the A-auto 2026-08-13 claim: all 21 stills + DANIEL/KING cast
+sheets + 4 place plates were already banked (generated 2026-08-13 15:06-15:37
+after the 503 outage cleared) — the lane died before assembly. This session:
+already-shipped check (card v160 still carried the old V1 hash c4308b32 — NOT
+shipped), `--check` v4 PASS (21 beats), assembled with the STALE-V1 guard's
+prescribed fix already in place (`AUDIO_FROM_V1_SEGMENTS = True` — track rebuilt
+from the 11 re-voiced V1 mp3s, **AUDIO REBUILD PASS SHA256=5929f29da53b…**,
+162.519s, 19.4 MB).
+
+**FULL-CUT GATE — 21 beats + card viewed (contact sheet + court frames at full
+size): PASS.** WITHOUT-HANDS law holds in every stone frame (b06-b12/b17-b20: no
+hand, tool, workman, army, or divine hand at the stone; b07 socket tool-markless,
+slope empty). Metals in scripture order (gold head / silver chest / bronze belly /
+iron legs / iron+clay feet); b09 strike at the FEET (KJV caption light-blue);
+b10 collapse harms nobody (empty plain); by b20 no metal glint (green-valley dawn).
+Two worlds never mixed — court b01/b02/b13/b16 lamplit night (empty floor before
+the dais), dream beats amber plain. Daniel one consistent slate-grey man, king
+one consistent purple-robed crowned man, SOBERED in b16, never humiliated; NO
+cream anywhere (no Jesus in row). Stone the same rough grey rock at every scale.
+Captions bottom-band; card clean. **Cost this session: $0 / 0 rerolls** (all
+frames banked; resume = assembly + gate + ship only — COST LAW holds).

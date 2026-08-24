@@ -1,1 +1,26 @@
-{}
+{
+ "COURT": {
+  "manual": true,
+  "src_beat": "s01-the-king-of-babylon-had",
+  "src_build": "build-160-stone-cut",
+  "src_file": "build-160-stone-cut/assets/s01-the-king-of-babylon-had.jpeg"
+ },
+ "DREAM-PLAIN": {
+  "manual": true,
+  "src_beat": "s05-and-then-in-the-dream",
+  "src_build": "build-160-stone-cut",
+  "src_file": "build-160-stone-cut/assets/s05-and-then-in-the-dream.jpeg"
+ },
+ "STATUE": {
+  "manual": true,
+  "src_beat": "s03-in-the-dream-the-king",
+  "src_build": "build-160-stone-cut",
+  "src_file": "build-160-stone-cut/assets/s03-in-the-dream-the-king.jpeg"
+ },
+ "STONE": {
+  "manual": true,
+  "src_beat": "s06-a-single-stone-cut-out",
+  "src_build": "build-160-stone-cut",
+  "src_file": "build-160-stone-cut/assets/s06-a-single-stone-cut-out.jpeg"
+ }
+}
