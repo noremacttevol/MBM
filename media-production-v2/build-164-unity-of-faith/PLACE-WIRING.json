@@ -1,0 +1,14 @@
+{
+ "GATHERING-HILL": {
+  "manual": true,
+  "src_beat": "s13-unity-of-the-faith",
+  "src_build": "build-164-unity-of-faith",
+  "src_file": "build-164-unity-of-faith/assets/s13-unity-of-the-faith.jpeg"
+ },
+ "JOURNEY-ROAD": {
+  "manual": true,
+  "src_beat": "s10-destination-in-view",
+  "src_build": "build-164-unity-of-faith",
+  "src_file": "build-164-unity-of-faith/assets/s10-destination-in-view.jpeg"
+ }
+}

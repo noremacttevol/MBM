@@ -101,3 +101,37 @@ b13/b10 (the two NEW places — spend the plate-promote care there so the rest
 copy a good hill/road and do not each re-invent it), and b16/b19 (deceivers must
 stay visibly distinct from the true ministers). Batch every known fix into ONE
 re-cut per the COST/touch-once law.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: BELIEVERS portrait + all 25 stills this session. GATHERING-HILL
+promoted from NON-Jesus b13, JOURNEY-ROAD from b10 (never a Jesus frame —
+lesson 11). STALE-V1 audio guard tripped exactly as the assembler predicted →
+its prescribed `AUDIO_FROM_V1_SEGMENTS = True` applied after voice-ID (all 11
+V1 mp3s 44100/128k ElevenLabs new-voice, audio-eleven.log complete).
+
+**Rerolls: 3/25 = 12% (in budget), autopsy verdicts:**
+- b21: JOURNEY-ROAD plate returned b10 VERBATIM (corr 1.0, law 12m) → plate off,
+  authored geometry moved to a low side-on profile pass → corr 0.306.
+- b24: GATHERING-HILL plate returned b13 verbatim (0.999) and the welcome never
+  rendered → plate off, close over-shoulder welcome (two hands visibly on his
+  shoulders) → corr 0.44.
+- b18: wind-tossed beat rendered SIDEWAYS (rotated 90°, people walking on a
+  vertical wall) → LEVEL-UPRIGHT camera constraint added → clean staggered-wind
+  frame, verified upright in the encoded mp4.
+- b23 (0.951 vs b13) inspected at full size and KEPT: the lone stand-in believer
+  visibly changes the picture's meaning; shared background is the plate doing
+  its job. s20's scroll inspected: period-correct Greek letterforms (not fantasy
+  script), unreadable at playback scale — kept.
+
+**FULL-CUT GATE — 25 beats + card viewed on the ENCODED mp4: PASS.** No red
+anywhere (Ephesians epistle): kv11/kv13/s14 all LIGHT-BLUE on the people and
+leaders, never on Jesus's face; narrator white. Jesus only b01-b03 + b25, cream
+only him, on-model, no halo; Son-of-God-as-goal never embodied (b11/b13/b14
+carried by dawn light + the far town). Deceivers finer-robed, never monstrous.
+Card clean.
+
+**AUDIO REBUILD PASS SHA256=f47dd1f35b…**, 138.0s, 20.5 MB.
+**Cost: $3.89 (26 gens + 3 rerolls), 12% rerolls** — under the $6.10 average.

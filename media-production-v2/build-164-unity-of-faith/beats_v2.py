@@ -118,6 +118,11 @@ LOCKS = {
 
 REF = True
 
+# STALE-V1 guard fix (2026-08-24): all 11 V1 mp3s are newer-than-mp4
+# ElevenLabs new-voice (44100/128k, audio-eleven.log complete) — rebuild the
+# track from them at extract_beats offsets; V1 stays read-only.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r164-b01", "out": "s01-not-left-leaderless.jpeg", "seg": "n1",
@@ -450,15 +455,17 @@ BEATS = [
             "every new wind of teaching,"
         ),
         "must_show": "several believers pulled in DIFFERENT directions in the same driving wind — some leaning and drifting one way, others the other, no two going the same way — pushed back and forth, carried off by every new wind.",
-        "must_not_show": "not one figure — a few, pulled apart; real wind on real ground; no invented symbols; distinct faces; no cream; no panel.",
+        "must_not_show": "the CAMERA LEVEL AND UPRIGHT — the horizon horizontal across the frame, the ground at the BOTTOM and the sky at the TOP, absolutely NO rotated, tilted, dutch-angle or sideways image; not one figure — a few, pulled apart; real wind on real ground; no invented symbols; distinct faces; no cream; no panel.",
         "scene": (
-            "Drift shown as disagreement of motion: several believers are "
+            "A LEVEL, upright photograph — horizon flat across the frame, "
+            "ground at the bottom, grey sky at the top: several believers are "
             "scattered across the slope in the same hard wind, but each is "
             "leaning and stumbling a different way — one dragged left, one "
             "pulled right, one bent back — no two carried the same direction, "
-            "all of them pushed back and forth by competing gusts. Cloaks snap "
-            "in different directions. Distinct earth-toned figures of ordinary "
-            "height, two hands and one head each, real wind, nothing invented."
+            "all of them pushed back and forth by competing gusts, feet still "
+            "on the ground. Cloaks snap in different directions. Distinct "
+            "earth-toned figures of ordinary height, two hands and one head "
+            "each, real wind, nothing invented."
         ),
     },
     {
@@ -504,16 +511,19 @@ BEATS = [
             "the church has plainly not arrived yet, then the gifts were never "
             "meant to be temporary."
         ),
-        "must_show": "the same road again — the believers still walking, backs to the lens, the far town on its high place still well ahead and clearly NOT yet reached; the journey to unity plainly unfinished, so the leading is still needed.",
-        "must_not_show": "NOT arrived — the town unmistakably still distant ahead, not entered; no crowd; travel away from the lens; no cream; no modern road or building; no panel.",
+        "must_show": "the same road but a NEW camera — a low side-on shot from the roadside grass as the believers pass from left to right in profile, dust at their feet, the far town on its high place small in the right distance and clearly NOT yet reached; the journey to unity plainly unfinished, so the leading is still needed.",
+        "must_not_show": "NOT the walking-away-from-the-lens framing (that geometry belongs to b10 alone) — camera LOW and SIDE-ON at the road's edge, figures in profile; NOT arrived — the town unmistakably still distant, not entered; no crowd; no cream; no modern road or building; no panel.",
         "scene": (
-            "The argument carried by distance: the small band is still on the "
-            "worn road with their backs to the camera, and the pale town on its "
-            "high place still stands well ahead of them, not yet reached — the "
-            "road plainly unfinished, the people still short of the unity they "
-            "are walking toward. Because the arriving is not done, the leading "
-            "that carries them is not done either. Ordinary-height figures in "
-            "earth-toned wool, two hands and one head each, warm light ahead."
+            "A LOW side-on photograph from the dry grass at the road's edge: the "
+            "small band passes in profile from left to right, sandalled feet "
+            "kicking soft dust at the lens's eye level, olive branches leaning "
+            "into the top of the frame — and far off to the right, small with "
+            "real distance, the pale town on its high place still stands "
+            "unreached. The road plainly unfinished, the people still short of "
+            "the unity they are walking toward; because the arriving is not "
+            "done, the leading that carries them is not done either. "
+            "Ordinary-height figures in earth-toned wool, two hands and one "
+            "head each, warm light ahead of them."
         ),
     },
     {
@@ -564,16 +574,18 @@ BEATS = [
             "or to be blown about by whatever is newest. You are meant to grow "
             "up in this, together, into one settled faith."
         ),
-        "must_show": "the once-apart believer drawn IN — welcomed shoulder to shoulder into the gathered band on the hill, hands on his shoulders bringing him among them, all settled and unified together in calm light — growing up together into one settled faith.",
-        "must_not_show": "not a large crowd — a small close band; distinct faces, never twinned; no cream; nobody a giant; the wind gone, the light calm and still; no panel or text.",
+        "must_show": "a CLOSE shot from just behind the once-apart believer's shoulder as he is drawn IN — two welcoming hands visibly on his shoulders, the band's smiling faces close and turning to receive him, shoulder to shoulder — the welcome itself filling the frame.",
+        "must_not_show": "NOT the wide hillside band framing (that geometry belongs to b13 alone) — camera CLOSE, over the welcomed man's shoulder, faces near; not a large crowd — a small close band; distinct faces, never twinned; no cream; nobody a giant; the wind gone, the light calm and still; no panel or text.",
         "scene": (
-            "The invitation begun: the believer who stood apart is being drawn "
-            "into the gathered band on the hillside now, a couple of welcoming "
-            "hands on his shoulders bringing him in among them shoulder to "
-            "shoulder, faces turning to receive him — the storm-wind gone, the "
-            "light calm and warm, the whole small band settled and grown up "
-            "together into one faith. Distinct earth-toned people of ordinary "
-            "height, whole hands, one head each."
+            "A CLOSE photograph from just behind and beside the once-apart "
+            "believer's shoulder as he steps in among them: two welcoming hands "
+            "rest visibly on his shoulders, and the near faces of the small band "
+            "— warm, distinct, smiling — turn to receive him shoulder to "
+            "shoulder, filling the frame with the welcome itself. The hilltop "
+            "grass and one olive trunk blur softly behind; the storm-wind gone, "
+            "the light calm and warm, one settled faith closing around him. "
+            "Distinct earth-toned people of ordinary height, whole hands, one "
+            "head each."
         ),
     },
     {
@@ -604,13 +616,15 @@ BEATS = [
 # `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
-#
-# EMPTY BY DESIGN. GATHERING-HILL and JOURNEY-ROAD are NEW recurring places with
-# no stash match, so there is no plate to wire at author time. The runner
-# promotes them from this build's first good NON-Jesus frame (never a Jesus
-# frame — lesson 11): promote b13 for GATHERING-HILL then wire b09/b23/b24
-# (b01/b25 carry their own Jesus lock over the same place); promote b10 for
-# JOURNEY-ROAD then wire b21. Full steps in QC.md.
 PLACE_REFS = {
+    "GATHERING-HILL": "PLACE-REF/gathering-hill.jpeg",  # build-164-unity-of-faith s13-unity-of-the-faith (manual)
+    "JOURNEY-ROAD": "PLACE-REF/journey-road.jpeg",  # build-164-unity-of-faith s10-destination-in-view (manual)
 }
 # === end PLACE-PLATES ===
+
+# Per-story face sheets, generated by v2_story_cast.py. Identity is
+# carried by IMAGE, not by wording — text locks let the elder son come
+# back as three different men in row 2 (Cameron, 2026-07-30).
+REFS = {
+    "BELIEVERS": "CAST-REF-V2/believers.jpeg",
+}
