@@ -82,6 +82,11 @@ LOCKS = {
 
 REF = True
 
+# AUDIO guard fix (2026-08-24): V1 final 76.231s vs extract 78.414s (gap
+# placement only; all 9 mp3s ElevenLabs new-voice, same mtime as mp4). Guard-
+# prescribed rebuild from V1 mp3s at extract offsets; no re-voice.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r175-b01", "out": "s01-the-mountain-at-dawn.jpeg", "seg": "n0",
@@ -211,14 +216,15 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT (light-blue) — the invitation among the people: on the road, one pilgrim turning to beckon others onward and upward with an open, glad gesture; come, let us go up.",
         "must_not_show": "no God figure or beam; no modern dress, flag or sign; no Jesus and no cream; no halo, glare or rim-light; no scroll, writing or panel; no modern object; no face posed to the lens.",
         "scene": (
-            "Close on the climbing road: one ordinary pilgrim turns back toward "
-            "companions behind and beckons them onward and up with an open, glad "
-            "hand, his face eager, others answering the call — people inviting one "
-            "another up to the house of the Lord. The road climbs on toward the "
-            "far summit beyond. Ordinary-sized, distinct people with two hands and "
-            "one head each, none in cream, their eyes on one another and the road, "
-            "not the camera; nothing is written anywhere and no light rings any "
-            "head."
+            "A LOW TELEPHOTO shot from the side of the climbing road, camera "
+            "down among the roadside stones: the stream of pilgrims passes "
+            "ACROSS the frame left-to-right in warm side light — near figures "
+            "large and slightly soft, far figures small up the winding switchback "
+            "behind them, the line of people compressing into the distance. "
+            "Diverse ancient peoples, families and elders with staffs and "
+            "bundles, unhurried and glad. The temple is NOT in this frame — "
+            "only the climbing road and the people flowing to it. NOT the "
+            "from-behind path wide used earlier."
         ),
     },
     {
@@ -353,6 +359,8 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "MOUNTAIN-PATH": "PLACE-REF/mountain-path.jpeg",  # build-175-mountain-of-the-lords-house s05-all-nations-flow (manual)
+    "MOUNTAIN-TEMPLE": "PLACE-REF/mountain-temple.jpeg",  # build-175-mountain-of-the-lords-house s01-the-mountain-at-dawn (manual)
 }
 # === end PLACE-PLATES ===
 

@@ -60,3 +60,27 @@ soldiers/weapons/chains. No rendered writing anywhere.
 ## Coverage / windows (authored, verified)
 15 beats, windows contiguous 0.400 → 73.306 (= card_start), monotonic, each
 segment's speech onset inside its window. ~4.9 s/picture. `--check` v4 PASS.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: ISAIAH portrait + all 15 stills, **1 reroll = 6.7%, $2.14**.
+MOUNTAIN-TEMPLE promoted from b01, MOUNTAIN-PATH from b05 (NATIONS-PILGRIMS
+--wire suggestion ignored per the authored plan). b08 rerolled once (plate
+returned b05 verbatim, 0.99 — law 12m) → side-on beckoning-pilgrim shot,
+corr 0.491, the "come, let us go up" gesture clearly readable.
+
+**AUDIO:** guard tripped (V1 final 76.231s vs extract 78.414s — gap placement
+only; all 9 mp3s ElevenLabs new-voice, same mtime as the mp4). Applied the
+prescribed `AUDIO_FROM_V1_SEGMENTS = True`; encoded tail re-transcribed —
+closing lines all present. **AUDIO REBUILD PASS SHA256=13801c95c9…**, 78.4s,
+20.5 MB.
+
+**FULL-CUT GATE — 15 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s1/s2a/s2b LIGHT-BLUE (Isaiah's written words); b06 explicitly frames
+"Isaiah writing, not God speaking"; NO red, NO green, GOD NEVER EMBODIED —
+teaching goes out via the temple-court teacher and the people (b09/b14), no
+figure or beam. House of the Lord = grand ANCIENT temple (never modern);
+nations = diverse ancient peoples, no modern dress, no soldiers/weapons; no
+rendered writing. Card clean. Cost $2.14 / 6.7% — well under average.

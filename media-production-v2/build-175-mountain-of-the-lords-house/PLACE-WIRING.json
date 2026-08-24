@@ -1,0 +1,14 @@
+{
+ "MOUNTAIN-PATH": {
+  "manual": true,
+  "src_beat": "s05-all-nations-flow",
+  "src_build": "build-175-mountain-of-the-lords-house",
+  "src_file": "build-175-mountain-of-the-lords-house/assets/s05-all-nations-flow.jpeg"
+ },
+ "MOUNTAIN-TEMPLE": {
+  "manual": true,
+  "src_beat": "s01-the-mountain-at-dawn",
+  "src_build": "build-175-mountain-of-the-lords-house",
+  "src_file": "build-175-mountain-of-the-lords-house/assets/s01-the-mountain-at-dawn.jpeg"
+ }
+}
