@@ -110,6 +110,11 @@ LOCKS = {
 
 REF = True
 
+# AUDIO guard fix (2026-08-24): V1 final (60.0s) carries the same words as the
+# segment mp3s but with looser gaps than the extract timeline (56.089s); the
+# guard prescribes rebuilding from the V1 mp3s at extract offsets. No re-voice.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r172-b01", "out": "s01-a-believer-had-died.jpeg", "seg": "n0",
@@ -299,14 +304,14 @@ BEATS = [
         "must_show": "the warm light now full on the faces of the waiting dead — the departed man and those near him lit and lifted, receiving the message that has reached them; the message crossed over.",
         "must_not_show": "REAL solid people, never ghosts, mist or translucent; no bar, chain, fire, corpse, skull or bone; no chasm or gulf; no scroll, writing or panel; no Jesus required here and no cream on the people; no halo, glare or rim-light; no modern object; no posed line to the lens.",
         "scene": (
-            "The warm shaft of morning light now lies full across the near part of "
-            "the waiting place, and the departed man stands in it with several "
-            "others of different ages — distinct, solid faces lit and lifting, "
-            "hope waking in them as the message that crossed over reaches them at "
-            "last. The dim expanse eases back soft beyond the light. Ordinary-"
-            "sized, distinct people with two hands and one head each, none in "
-            "cream, their faces lifted into the light and not to the camera; "
-            "nothing is written anywhere and no light rings any head."
+            "A CLOSE group shot, camera at chest height right among them: the "
+            "departed man's lit face fills the left third in three-quarter "
+            "view, and beside and behind him three or four others of different "
+            "ages — distinct, solid faces — catch the same warm morning light, "
+            "hope waking in their eyes as the message reaches them at last. "
+            "The dim expanse is only a soft dark blur behind their shoulders. "
+            "NOT the wide standing-crowd view used earlier — faces near and "
+            "large, the light doing the storytelling."
         ),
     },
 ]
@@ -318,6 +323,8 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "GRAVESIDE-MORNING": "PLACE-REF/graveside-morning.jpeg",  # build-172-gospel-preached-to-the-dead s01-a-believer-had-died (manual)
+    "SPIRIT-PRISON": "PLACE-REF/spirit-prison.jpeg",  # build-172-gospel-preached-to-the-dead s02-preached-to-the-dead (manual)
 }
 # === end PLACE-PLATES ===
 

@@ -1,0 +1,14 @@
+{
+ "GRAVESIDE-MORNING": {
+  "manual": true,
+  "src_beat": "s01-a-believer-had-died",
+  "src_build": "build-172-gospel-preached-to-the-dead",
+  "src_file": "build-172-gospel-preached-to-the-dead/assets/s01-a-believer-had-died.jpeg"
+ },
+ "SPIRIT-PRISON": {
+  "manual": true,
+  "src_beat": "s02-preached-to-the-dead",
+  "src_build": "build-172-gospel-preached-to-the-dead",
+  "src_file": "build-172-gospel-preached-to-the-dead/assets/s02-preached-to-the-dead.jpeg"
+ }
+}

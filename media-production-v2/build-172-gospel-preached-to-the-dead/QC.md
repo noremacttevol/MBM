@@ -71,3 +71,30 @@ that share it (lesson 11):
 ## Coverage / windows (authored, verified)
 11 beats, windows contiguous 0.400 → 49.641 (= card_start), monotonic, each
 segment's speech onset inside its window. ~4.5 s/picture. `--check` v4 PASS.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: DEPARTED-MAN portrait + all 11 stills, **1 reroll = 9%, $1.75**.
+GRAVESIDE-MORNING promoted from b01, SPIRIT-PRISON from b02. b11 rerolled once
+(SPIRIT-PRISON plate returned b02 verbatim, 0.999 — law 12m) → close light-on-
+faces group, corr −0.295.
+
+**AUDIO diagnosis (no re-voice):** stream-copy refused — V1 final runs 60.0s vs
+the 56.089s extract timeline. Root cause verified by transcription + RMS: the V1
+final carries the SAME words as the segment mp3s (card line "The gospel reaches
+beyond the grave. No one is outside the reach of his mercy." confirmed in both)
+with looser gaps + 1.8s trailing silence. Applied the guard's prescribed
+`AUDIO_FROM_V1_SEGMENTS = True`; the encoded cut was then re-transcribed —
+every word present through the closing line, no dropped beat (11 clips).
+**AUDIO REBUILD PASS SHA256=b72cc9ba85…**, 56.1s, 19.4 MB.
+
+**FULL-CUT GATE — 11 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: Peter's epistle — s1/s19 LIGHT-BLUE everywhere including the Jesus-embodied
+beats (b06-b09: he in cream, caption stays blue, no red); narrator white; no
+green. CONTENT-CARE held: grave plain+closed, no corpse; the waiting dead are
+REAL SOLID CLOTHED people (no ghosts/mist); the waiting place a dim expanse with
+real daylight breaking in — no bars, chains, fire, torment, and no heaven-kitsch.
+Human spine reads: believer dies → widow mourns → same man reached by Christ.
+Card clean. Cost $1.75 / 9% — well under average.
