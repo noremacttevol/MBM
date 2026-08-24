@@ -1,0 +1,14 @@
+{
+ "JERUSALEM-ROOM": {
+  "manual": true,
+  "src_beat": "s04-not-a-letter",
+  "src_build": "build-165-laying-on-hands",
+  "src_file": "build-165-laying-on-hands/assets/s04-not-a-letter.jpeg"
+ },
+ "SAMARIA-HILL": {
+  "manual": true,
+  "src_beat": "s01-samaria-believes",
+  "src_build": "build-165-laying-on-hands",
+  "src_file": "build-165-laying-on-hands/assets/s01-samaria-believes.jpeg"
+ }
+}

@@ -86,3 +86,25 @@ Runner budget: 25 beats, reroll budget ≤15% = ~3-4 rerolls. Riskiest frames:
 b01/b04 (the two NEW places — spend the plate-promote care there); b18/b19/b24
 (the gift-coming light must stay a plain shaft from above, never a dove/flame).
 Batch every known fix into ONE re-cut (COST/touch-once law).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: BELIEVERS portrait + all 25 stills, **0 rerolls, $3.48**.
+SAMARIA-HILL promoted from b01, JERUSALEM-ROOM from b04 (no Jesus in row — any
+frame safe). No composition clones (asset + encoded similarity matrices: no pair
+>0.92).
+
+**FULL-CUT GATE — 25 beats + card viewed on the ENCODED mp4: PASS.** HARD GATE
+held: the Holy Ghost NEVER embodied — no dove, flame, or figure anywhere; the
+gift carried by warm light from above (b18/b21/b23) and the people's faces;
+b08-b11 keep the air empty ("fallen upon none yet"). SPEAKER LAW: Luke's Acts —
+kv14 (b06), kv16 (b12), kv17 (b19) LIGHT-BLUE; no red, no green; narrator white.
+NO Jesus, NO cream (palest robes grey/tan). Laying-on-of-hands covered as the
+authored 4-beat sequence (b16-b19). b20's scroll close-up: period-appropriate
+Hebrew letterforms, unreadable at playback scale — kept (fantasy-script gate not
+tripped). Peter & John one consistent pair throughout. Card clean.
+
+**AUDIO:** V1 final current — packet-copy, **AUDIO LOCK PASS
+SHA256=8fc1242272…**, 132.0s, 19.8 MB. Cost $3.48 / 0 rerolls — under average.
