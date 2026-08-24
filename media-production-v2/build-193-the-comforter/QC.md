@@ -87,3 +87,38 @@ light-QC per the gates above, then ship.
 Jesus's promise of the Comforter (John 14) — realistic V2. His own words (red) rest on his
 face; the Holy Ghost and the Father are never pictured — the Spirit's comfort is carried by
 the disciples' faces in the lamplit upper room. No open complaint on this row.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: DISCIPLES portrait + all 13 stills. **ZERO plate clones** although
+ALL 13 beats share one place and eight were authored as "a shot of Jesus in the
+lamplit room" — rubric lesson 26 applied first, 12 beats given distinct cameras
+(over-shoulder / hand-forward medium / tight face with lamp at edge /
+disciples-only two-shot / low from table height / along the row of faces /
+extreme eye insert / profile through the lamp / open-hand insert / from behind
+his shoulder / opposite-side close / high angle on the table).
+**1 reroll / 13 = 7.7%. Cost $2.01 (15 gens).**
+- The reroll (b07) was MY wording: "a wide LEVEL sweep" produced a LETTERBOXED
+  frame with brown bars top and bottom instead of filling the 9:16 picture.
+  Re-worded with an explicit no-bars/no-widescreen-strip ban. **Never say "wide
+  sweep/cinematic wide" in a vertical row — it invites letterboxing.**
+- **CROSS-VIDEO CONTINUITY:** UPPER-ROOM was `--take`n from build-170's own b01
+  plate (built earlier this same session), so the Sacrament video and this one
+  show the SAME upper room — rather than promoting a fresh room or accepting the
+  stash's build-44 Pentecost suggestion, which is a different event and room.
+
+**FULL-CUT GATE — 13 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: RED only on Jesus's exact John 14:18/14:26 words (b03, b09, b10, b11);
+narrator white; no green, no blue. Jesus V2 face on-model throughout, **cream
+ONLY him**, no halo. **HARD GATE held — the FATHER and the HOLY GHOST are NEVER
+embodied**: no Spirit figure, no dove, no beam or rays; the Comforter's teaching
+and remembrance are carried by Jesus's promise and the disciples' faces (b08 is
+one man's remembering face). CONTENT-CARE: comfort, not fear — no cross, no
+wounds, no agony; the whole row stays in the quiet lamplit upper room at night.
+Card clean.
+
+**AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 65.900s vs extract 63.671s,
+gap placement; 10 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=6d22f4be68…**,
+63.7s, 19.4 MB.

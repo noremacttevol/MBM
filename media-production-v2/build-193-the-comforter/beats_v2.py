@@ -56,6 +56,10 @@ card_start = 57.038 s. Picture-only — do NOT re-voice.
 # UPPER-ROOM + DISCIPLES are declared as build-local text LOCKS; PLACE_REFS stays empty and
 # the runner promotes the room from b01. Jesus is injected by the assembler on every
 # jesus=True/ref=True beat (only he wears cream); no image REFS needed.
+# AUDIO guard fix (2026-08-24): V1 final 65.900s vs extract 63.671s (gap
+# placement only; all mp3s ElevenLabs new-voice). Guard-prescribed rebuild.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     "UPPER-ROOM": (
         "UPPER-ROOM LOCK: the same place in every frame — the upper room on the night "
@@ -111,6 +115,7 @@ BEATS = [
             "sized, one head each, gazes meeting between them and not to the camera; warm "
             "lamplight on their faces, not around any head; nothing is written anywhere; no "
             "divine figure and no Spirit-figure."
+            "CAMERA: an OVER-THE-SHOULDER past John's near shoulder at frame left, Jesus beyond leaning in. NOT the establishing room wide of b01."
         ),
     },
     {
@@ -127,6 +132,7 @@ BEATS = [
             "steadied. Ordinary-sized people, one head each, gazes on Jesus's face and "
             "hand, not to the camera; warm lamplight on them, not around any head; nothing "
             "is written anywhere; no divine figure and no Spirit-figure."
+            "CAMERA: a frontal MEDIUM with his open hand large in the near foreground and his face beyond it, the room symmetrical behind. NOT an over-shoulder or profile."
         ),
     },
     {
@@ -143,6 +149,7 @@ BEATS = [
             "head, gaze warm toward his disciples and not to the camera; lamplight on his "
             "face, not around his head; nothing is written anywhere; no divine figure and "
             "no Spirit-figure. No cross, wound or agony anywhere."
+            "CAMERA: a TIGHT face close, the small lamp flame burning at the very edge of frame, the room fallen to darkness. NOT a medium or two-shot."
         ),
     },
     {
@@ -159,6 +166,7 @@ BEATS = [
             "wool. Ordinary-sized, one head each, gazes between them and to Jesus, not to "
             "the camera; warm lamplight on their faces, not around any head; nothing is "
             "written anywhere; no divine figure and no Spirit-figure."
+            "CAMERA: a two-shot of PETER AND JOHN ALONE, their troubled faces filling the frame; Jesus is not in this frame at all. NOT a shot that includes him."
         ),
     },
     {
@@ -176,6 +184,7 @@ BEATS = [
             "the Father, and no dove or beam appears. Only Jesus wears cream. "
             "Ordinary-sized people, one head each, gazes on Jesus, not to the camera; warm "
             "lamplight on them, not around any head; nothing is written anywhere."
+            "CAMERA: a LOW angle from table height looking UP at Jesus, the beams of the ceiling dark above him. NOT an eye-level framing."
         ),
     },
     {
@@ -193,6 +202,7 @@ BEATS = [
             "disciples in muted wool. Ordinary-sized, one head each, gazes on Jesus and "
             "inward in thought, not to the camera; lamplight on their faces, not around any "
             "head; nothing is written anywhere; no Spirit-figure."
+            "CAMERA: a LEVEL shot along the row of listening disciple faces, Jesus only a soft cream edge at the extreme frame right. The picture FILLS THE WHOLE TALL FRAME edge to edge — absolutely no letterbox bars, no black or brown bands top or bottom, no widescreen strip inset, no border of any kind. NOT a shot favouring Jesus."
         ),
     },
     {
@@ -210,6 +220,7 @@ BEATS = [
             "one head, gaze inward and down in thought, not to the camera; lamplight on his "
             "face, not around his head; nothing is written anywhere; no divine figure and "
             "no Spirit-figure."
+            "CAMERA: an extreme TIGHT INSERT on one disciple's eyes and cheek only, everything else dark. NOT any shot showing more than one face."
         ),
     },
     {
@@ -226,6 +237,7 @@ BEATS = [
             "Father, and no dove or beam appears. Only he wears cream. Ordinary-"
             "sized people, one head each, gazes on Jesus, not to the camera; warm lamplight "
             "on them, not around any head; nothing is written anywhere."
+            "CAMERA: a PROFILE from Jesus's left with the lamp between him and the lens, its flame flaring soft in the foreground. NOT a frontal framing."
         ),
     },
     {
@@ -242,6 +254,7 @@ BEATS = [
             "Ordinary-sized, one head each, gazes on Jesus, not to the camera; lamplight on "
             "their faces, not around any head; nothing is written anywhere; no divine "
             "figure."
+            "CAMERA: a CLOSE INSERT on his open hand and forearm resting on the table, his face soft and out of focus above the frame. NOT a face-led shot."
         ),
     },
     {
@@ -258,6 +271,7 @@ BEATS = [
             "dove or beam. Ordinary-sized people, one head each, gazes on Jesus, not "
             "to the camera; warm lamplight on them, not around any head; nothing is written "
             "anywhere; no divine figure."
+            "CAMERA: from BEHIND Jesus's shoulder, his back three-quarters to the lens, looking past him into the disciples' faces receiving the promise. NOT a shot from in front of him."
         ),
     },
     {
@@ -273,6 +287,7 @@ BEATS = [
             "head, gaze warm and level, not to the camera; lamplight on his face, not "
             "around his head; nothing is written anywhere; no divine figure and no "
             "Spirit-figure."
+            "CAMERA: a tight close from slightly BELOW and to his right, a different side of his face than b04, the lamplight raking across it. NOT the b04 angle."
         ),
     },
     {
@@ -290,17 +305,19 @@ BEATS = [
             "(none cream). Ordinary-sized men, one head each, gazes inward and lifted in "
             "quiet reception, not to the camera; lamplight on their faces, not around any "
             "head; nothing is written anywhere; no divine figure and no Spirit-figure."
+            "CAMERA: a HIGH angle looking down on the disciples around the low table with the lamp small and bright at the centre. NOT an eye-level group shot."
         ),
     },
 ]
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
-# UPPER-ROOM is a NEW place — no committed plate yet. The runner promotes it from b01 (the
-# establishing wide; Jesus is in that frame but the plate carries the ROOM, and Jesus is
-# separately injected by the assembler). Alternatively, if v2_stash.py --wire SUGGESTS the
-# build-74 lamplit `room` plate and the runner judges it a true match, it may --take it.
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "UPPER-ROOM": "PLACE-REF/upper-room.jpeg",  # build-170-sacrament-worthily v2-r170-b01 (manual)
 }
 # === end PLACE-PLATES ===
 
@@ -308,5 +325,9 @@ PLACE_REFS = {
 # above; PETER and JOHN attach by token from the global cast; Jesus is injected by the
 # assembler on every jesus=True/ref=True beat. Only Jesus wears cream. The Father and the
 # Holy Ghost are never embodied.
+# Per-story face sheets, generated by v2_story_cast.py. Identity is
+# carried by IMAGE, not by wording — text locks let the elder son come
+# back as three different men in row 2 (Cameron, 2026-07-30).
 REFS = {
+    "DISCIPLES": "CAST-REF-V2/disciples.jpeg",
 }
