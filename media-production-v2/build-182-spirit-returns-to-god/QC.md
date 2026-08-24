@@ -72,3 +72,40 @@ youth → the joyless evil days → remember while young / don't wait → he poi
 the breath goes → dust returns to the earth → the spirit returns to God (rising warm
 light) → body to the ground / spirit home to Him → death is not the end / the quiet
 return → the Giver receives it → with mercy, not anger (peace on the elder's face).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: YOUTH + ELDER portraits + all 16 stills, **6 rerolls = 37.5% —
+WELL OVER the 15% budget; honest ledger (all law-class ship-blockers):**
+- b01 ×2: rendered as a PAINTING twice (law 14 — realistic-only). Scene-level
+  "shot as a real photograph" wording was not enough; the fix that worked was
+  moving the photographic demand into the **SOLOMON-CHAMBER LOCK** so every
+  frame of that place inherits it (real skin pores, woven fibres, lamp falloff,
+  sensor grain, shallow DOF; never painting/illustration/gallery religious art).
+  **Lesson for the next session: a lamplit-ancient-king interior pulls classical
+  illustration style — put the photo demand in the PLACE LOCK, not the scene.**
+- b04: ELDER-EVENING plate cloned b02's seated-in-doorway wide (0.941, law 12m)
+  → close eye-level portrait, corr 0.085.
+- b12/b14/b15: the RETURN-LIGHT plate collapsed FOUR sky beats into one picture
+  (0.928-0.982) → re-authored to four genuinely different treatments (horizon
+  cloud-break kept on b10, steep vertical light-column b12, abstract close of
+  light-meeting-light b14, high-key opening heaven b15). Encoded max now 0.814.
+- One unterminated-string syntax error from my own edit caught immediately by
+  `--check` (0 wasted gens) and fixed.
+Cost $3.22 total — still under the $6.10 average despite the reroll count.
+
+**FULL-CUT GATE — 16 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s0/s1 LIGHT-BLUE (Solomon's WRITTEN words — b03/b04, b09/b10); narrator
+white; NO red, NO green (no Jesus, no God-voice), no cream anywhere. **GOD NEVER
+EMBODIED** — every RETURN-LIGHT beat is light alone, no figure/face/hand/throne,
+source unseen. CONTENT-CARE held: the old man's passing is peaceful covered
+sleep in warm light — no corpse pallor, grey, wounds or gore; the spirit is warm
+rising LIGHT, never a ghost or translucent person. Three time registers read at
+a glance (Solomon/elder gold evening, youth clear morning, return radiant
+heaven). Photographic throughout after the b01 fix. Card clean.
+
+**AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 73.967s vs extract 71.728s,
+gap placement; 10 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=b7fe5553df…**,
+71.7s, 20.1 MB.

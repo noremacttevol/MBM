@@ -69,6 +69,10 @@ NEW-place promote plan (runner):
 
 # LOCKS: all build-local. No Jesus / no cream (OT). State clothing colours POSITIVELY
 # and never cream/white-fine; only Jesus wears cream and he is not in this row.
+# AUDIO guard fix (2026-08-24): V1 final 73.967s vs extract 71.728s (gap
+# placement only; all mp3s ElevenLabs new-voice). Guard-prescribed rebuild.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     "SOLOMON-CHAMBER": (
         "SOLOMON-CHAMBER LOCK: the same place in every frame — the private evening "
@@ -78,7 +82,12 @@ LOCKS = {
         "carved lattice opening onto a deep-blue dusk sky. The long warm gold light of "
         "evening fills the room from a single lamp and the fading window. Quiet, "
         "reflective, ancient; no modern object anywhere; any parchment is blank with "
-        "no legible or rendered writing. The same chamber and evening light throughout."
+        "no legible or rendered writing. The same chamber and evening light throughout. "
+        "RENDERED AS A REAL PHOTOGRAPH taken on location with a fast prime lens: true "
+        "photographic skin pores and stubble, real woven fabric fibres, honest lamp "
+        "falloff and sensor grain, shallow natural depth of field — never a painting, "
+        "never an illustration, never a smooth digital render, never gallery religious "
+        "art."
     ),
     "ELDER-EVENING": (
         "ELDER-EVENING LOCK: the same place in every frame — a humble ancient Judean "
@@ -151,7 +160,10 @@ BEATS = [
             "grave and honest, an old man writing plainly about the end of life. The "
             "single lamp and the fading lattice window light the room. Camera set behind "
             "and beside him looking past him to the table; ordinary-sized, one head; "
-            "nothing legible is written on the parchment."
+            "nothing legible is written on the parchment. "
+            "Shot as a REAL PHOTOGRAPH — true photographic skin texture, real "
+            "fabric weave, natural lamplight falloff, shallow depth of field; "
+            "never painted, illustrated, airbrushed or stylised."
         ),
     },
     {
@@ -197,12 +209,13 @@ BEATS = [
         "must_show": "SCRIPTURE, light-blue caption — the hard years arriving: a close on the same kind of life grown very old, the old man sitting spent in the dim evening, the joy gone out of his days, weary of years that hold no more pleasure for him.",
         "must_not_show": "no wound, sore, grey death-pallor, decay or gore; no God figure; no Jesus, no cream; no halo, ring or rim-light; no modern object; nothing written; not a cartoon.",
         "scene": (
-            "A close on the very old man in the dim amber evening light of his home, "
-            "sitting spent and heavy, his lined face turned toward the fading window "
-            "with the pleasure gone out of it — the hard years have come and there is "
-            "no more delight left in them for him. Quiet, weary, dignified; his age is "
-            "only tiredness, no distress or hurt. Ordinary-sized, one head, gaze off to "
-            "the fading light and not to the camera; nothing written anywhere."
+            "A CLOSE portrait at the old man's own eye level inside the dim "
+            "room, the bright doorway only a soft blur far behind his "
+            "shoulder: his deeply lined face and white beard fill the frame, "
+            "spent and weary in the last of the golden evening, his knotted "
+            "hands resting still in his lap at the bottom edge. The hard years "
+            "have come. NOT the wide seated-in-the-doorway framing used "
+            "earlier — near, intimate, the face carrying the whole beat."
         ),
     },
     {
@@ -330,12 +343,13 @@ BEATS = [
         "must_show": "the rising warm light continuing upward, a soft luminous ascent climbing higher through the opening heaven toward the radiant welcoming brilliance above — the part that is from God going home to Him.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, face, hand or beam-being; the rising spirit is warm light only, NEVER a ghost, translucent person, mist-figure or floating body; no Jesus, no cream; no halo, ring or rim-light around anything; no modern object; nothing written; not a cartoon.",
         "scene": (
-            "The gentle rising veil of warm luminous light climbs higher up through the "
-            "deep opening heaven, drawing toward the warm radiant welcoming brilliance "
-            "high above — the part of a person that is from God going home to Him. Soft, "
-            "peaceful, ascending; no figure of any kind anywhere and the source of the "
-            "light never shown. Nothing written anywhere and no ring of light rings "
-            "anything."
+            "A STEEP LOW ANGLE looking almost straight UP a tall column of "
+            "warm luminous light that climbs from the dim edge of the frame "
+            "bottom into the deep evening sky, the shafts narrowing with "
+            "height and the radiance at the very top of the frame drawing it "
+            "on. Dark hill-edge silhouettes ring the very bottom corners. "
+            "Vertical, rising, immense — NOT the horizon-level cloud-break "
+            "used earlier. No figure, no building, the source never shown."
         ),
     },
     {
@@ -362,11 +376,13 @@ BEATS = [
         "must_show": "the quiet return completed — the rising warm light drawing softly and peacefully into the radiant welcoming brilliance of the heaven, a gentle homecoming; the spirit's quiet return to the One who lent it, the One never shown.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, face, hand or beam-being; no ghost or translucent person; no Jesus, no cream; no halo, ring or rim-light around anything; no modern object; nothing written; not a cartoon.",
         "scene": (
-            "The gentle rising light draws softly and quietly up into the warm radiant "
-            "welcoming brilliance high in the heaven, a peaceful homecoming — the "
-            "spirit's quiet return to the One who first lent it. Tender, calm, "
-            "unhurried; no figure of any kind anywhere and the source of the light "
-            "never shown. Nothing written anywhere and no ring of light rings anything."
+            "A tight CLOSE study filling the whole frame with the meeting of "
+            "the rising warm light and the welcoming radiance — soft luminous "
+            "veils folding gently into brilliance, textures of warm cloud edge "
+            "and light alone, no horizon in frame at all, no ground, no "
+            "silhouettes. Quiet, complete, peaceful. NOT a landscape sky wide "
+            "— an abstract close of light receiving light. No figure ever, the "
+            "source never shown."
         ),
     },
     {
@@ -377,12 +393,14 @@ BEATS = [
         "must_show": "the welcoming radiance receiving — the warm radiant brilliance of the heaven opening a little wider and warmer to receive the returning light, the same warm Giver who first breathed life into a person now receiving the spirit back; the Giver Himself never shown.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, face, hand, throne or beam-being; no ghost or translucent person; no Jesus, no cream; no halo, ring or rim-light around anything; no modern object; nothing written; not a cartoon.",
         "scene": (
-            "The warm radiant welcoming brilliance high in the heaven opens a little "
-            "wider and warmer as the gentle rising light is received into it — the same "
-            "warm Giver who first breathed life into a person now quietly receiving the "
-            "spirit back home. Warm, welcoming, tender; no figure of any kind anywhere "
-            "and the Giver Himself never shown. Nothing written anywhere and no ring of "
-            "light rings anything."
+            "A vast HIGH-KEY heaven filling the frame from a level far above "
+            "the earth: warm brilliance spreading wide and open from the "
+            "upper-left, layered luminous cloud terraces receding into the "
+            "distance at the right, the light widening and warming as if "
+            "opening further to receive what returns. No horizon line, no "
+            "hills, no shafts stabbing downward — a broad, opening warmth. "
+            "NOT the earlier shaft-through-cloud-break composition. No figure "
+            "of any kind, the source never shown."
         ),
     },
     {
@@ -410,6 +428,10 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "ELDER-EVENING": "PLACE-REF/elder-evening.jpeg",  # build-182-spirit-returns-to-god s02-the-body-grows-old (manual)
+    "RETURN-LIGHT": "PLACE-REF/return-light.jpeg",  # build-182-spirit-returns-to-god s10-the-spirit-returns-to-god (manual)
+    "SOLOMON-CHAMBER": "PLACE-REF/solomon-chamber.jpeg",  # build-182-spirit-returns-to-god s01-solomon-wrote-of-lifes-end (manual)
+    "YOUTH-MORNING": "PLACE-REF/youth-morning.jpeg",  # build-182-spirit-returns-to-god s03-remember-in-thy-youth (manual)
 }
 # === end PLACE-PLATES ===
 

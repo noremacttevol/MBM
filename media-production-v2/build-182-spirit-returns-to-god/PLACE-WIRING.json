@@ -1,0 +1,26 @@
+{
+ "ELDER-EVENING": {
+  "manual": true,
+  "src_beat": "s02-the-body-grows-old",
+  "src_build": "build-182-spirit-returns-to-god",
+  "src_file": "build-182-spirit-returns-to-god/assets/s02-the-body-grows-old.jpeg"
+ },
+ "RETURN-LIGHT": {
+  "manual": true,
+  "src_beat": "s10-the-spirit-returns-to-god",
+  "src_build": "build-182-spirit-returns-to-god",
+  "src_file": "build-182-spirit-returns-to-god/assets/s10-the-spirit-returns-to-god.jpeg"
+ },
+ "SOLOMON-CHAMBER": {
+  "manual": true,
+  "src_beat": "s01-solomon-wrote-of-lifes-end",
+  "src_build": "build-182-spirit-returns-to-god",
+  "src_file": "build-182-spirit-returns-to-god/assets/s01-solomon-wrote-of-lifes-end.jpeg"
+ },
+ "YOUTH-MORNING": {
+  "manual": true,
+  "src_beat": "s03-remember-in-thy-youth",
+  "src_build": "build-182-spirit-returns-to-god",
+  "src_file": "build-182-spirit-returns-to-god/assets/s03-remember-in-thy-youth.jpeg"
+ }
+}
