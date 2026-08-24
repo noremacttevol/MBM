@@ -1,0 +1,20 @@
+{
+ "ANCIENT-GATES": {
+  "manual": true,
+  "src_beat": "s04-stand-in-his-holy-place",
+  "src_build": "build-176-who-shall-ascend",
+  "src_file": "build-176-who-shall-ascend/assets/s04-stand-in-his-holy-place.jpeg"
+ },
+ "HILL-OF-THE-LORD": {
+  "manual": true,
+  "src_beat": "s01-the-hill-at-dawn",
+  "src_build": "build-176-who-shall-ascend",
+  "src_file": "build-176-who-shall-ascend/assets/s01-the-hill-at-dawn.jpeg"
+ },
+ "TEMPLE-COURT": {
+  "manual": true,
+  "src_beat": "s14-receive-the-blessing",
+  "src_build": "build-176-who-shall-ascend",
+  "src_file": "build-176-who-shall-ascend/assets/s14-receive-the-blessing.jpeg"
+ }
+}

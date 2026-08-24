@@ -64,3 +64,25 @@ row), so all are safe to auto-wire once promoted.
    QC (all scripture light-blue, narrator white), then publish the candidate to
    the reviewer with a card noting there was no open complaint — fresh V2 build.
 4. Reroll budget ≤15% of 17 beats (~2). Touch the row once.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: WORSHIPPER portrait + all 17 stills, **1 reroll = 5.9%, $2.41**.
+Three plates promoted per plan (HILL-OF-THE-LORD b01, ANCIENT-GATES b04,
+TEMPLE-COURT b14). b03 rerolled once (plate returned b01 + one figure added —
+the exact law-12m "duplicate with pieces added") → low close mid-climb shot,
+corr 0.014.
+
+**FULL-CUT GATE — 17 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: Psalm = David at the pen — s1-s5 ALL LIGHT-BLUE, no red, no green. **HARD
+GATE held: the King of glory NEVER embodied** — the everlasting doors fling
+wide on pure empty light (b09-b13), no figure in any gate; "mighty in battle" =
+awe on faces only, no army or weapons. The one humble worshipper is the same
+man throughout (portrait-locked); gates sequence beats each a genuinely
+different composition (crowd/kneeling/close-face variations, none >0.92).
+Card clean.
+
+**AUDIO:** V1 final current — packet-copy, **AUDIO LOCK PASS
+SHA256=621ef6574d…**, 72.0s, 20.4 MB. Cost $2.41 / 5.9% — well under average.
