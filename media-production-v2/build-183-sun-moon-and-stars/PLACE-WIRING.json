@@ -1,0 +1,14 @@
+{
+ "PAUL-COURT": {
+  "manual": true,
+  "src_beat": "s01-what-body-would-rise",
+  "src_build": "build-183-sun-moon-and-stars",
+  "src_file": "build-183-sun-moon-and-stars/assets/s01-what-body-would-rise.jpeg"
+ },
+ "RESURRECTION-DAWN": {
+  "manual": true,
+  "src_beat": "s11-resurrection-of-the-dead",
+  "src_build": "build-183-sun-moon-and-stars",
+  "src_file": "build-183-sun-moon-and-stars/assets/s11-resurrection-of-the-dead.jpeg"
+ }
+}

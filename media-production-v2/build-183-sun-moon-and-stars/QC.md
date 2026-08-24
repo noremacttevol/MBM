@@ -70,3 +70,36 @@ lights → sun's glory / moon's glory / stars differ → the astonishing point �
 is the resurrection of the dead" → sown/raised (seed→shoot) → what rising is like →
 what goes in breaks down / what returns never will → not one flat outcome → glories
 plural, each a gift of light → the God who hung them is preparing a brightness for you.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+**FIRST ROW BUILT UNDER RUBRIC LESSON 26 (clone prevention) — and it worked.**
+Before the first paid roll, every same-place beat in the three big families
+(HEAVENS-NIGHT ×7, RESURRECTION-DAWN ×5, PAUL-COURT ×3) was given an explicit
+contrasting camera plus a "NOT the <earlier> framing" negative. Result: **2
+rerolls / 17 stills = 11.8%, $2.55** — against 28-38% on the rows built earlier
+tonight without the pre-authoring. The night sky came back genuinely varied
+(moon+stars wide, telephoto cluster, low large moon over a ridge, diagonal milky
+way, close colour starfield, ground-level silhouette, panoramic arc).
+- The ONE clone (s05/s08, 0.968) was in HEAVENS-DAY — the only family I did NOT
+  pre-contrast. Fixed by contrasting b08 to a low raking horizon sun over a lit
+  landscape → 0.674. That is a clean natural experiment confirming lesson 26.
+- b01 rerolled once: `v2_story_cast` reported "no REFS" and left `REFS = {}`
+  even though paul.jpeg was copied in from build-138, so Paul generated
+  unanchored. **Wire REFS by hand whenever the cast sheet is copied rather than
+  generated** — verified against the canon sheet after the fix.
+
+**FULL-CUT GATE — 17 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s1/s2 LIGHT-BLUE (Paul's epistle, quoted); narrator white; no red, no
+green; no Jesus, no cream. GOD NEVER EMBODIED (b17). CONTENT-CARE: the risen are
+WHOLE living clothed people walking into dawn — never corpse, skeleton, zombie
+or ghost; "sown/raised" uses Paul's own seed metaphor (split seed → green
+shoot), no rotting body. PAUL byte-identical to 138/155/166 (md5 b200a21d).
+Intentional day/night/dawn registers preserved (sky deliberately not
+plate-locked). Encoded similarity: no pair >0.92. Card clean.
+
+**AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 72.701s vs extract 71.738s —
+0.963s stale trailing take; 8 ElevenLabs mp3s) — **AUDIO REBUILD PASS
+SHA256=f28ba0db4f…**, 71.7s, 20.0 MB.

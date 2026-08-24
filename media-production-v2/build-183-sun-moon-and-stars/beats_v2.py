@@ -67,6 +67,10 @@ a plate for them (the sky varies day/night by design).**
 
 # LOCKS: all build-local except PAUL (byte-identical global cast). No Jesus / no cream
 # (NT epistle). State clothing colours POSITIVELY and never cream/white-fine.
+# AUDIO guard fix (2026-08-24): V1 final 72.701s vs extract 71.738s (0.963s
+# stale trailing take; all mp3s ElevenLabs new-voice). Guard-prescribed rebuild.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     "PAUL": (
         "PAUL LOCK: Paul is the same man in every shot — compact and wiry, about "
@@ -181,6 +185,7 @@ BEATS = [
             "apart in its own kind of light — clearly different kinds of lights and "
             "different kinds of glory in one sky. No figure of any kind; nothing "
             "written anywhere and no ring of light rings anything."
+            "CAMERA: a TIGHT TELEPHOTO framing of one dense cluster only, the stars large and grainy-real, the moon just clipping the very edge of frame. NOT the straight-up establishing wide of b03."
         ),
     },
     {
@@ -211,6 +216,7 @@ BEATS = [
             "quite different from the sun's, its own gentler kind of brightness. No "
             "figure of any kind; nothing written anywhere and no ring of light rings "
             "anything."
+            "CAMERA: the moon LOW and LARGE over a dark silhouetted ridge along the bottom of the frame, most of the picture given to the moon itself. NOT a straight-up zenith view, and not a full starfield."
         ),
     },
     {
@@ -226,6 +232,7 @@ BEATS = [
             "ones, a whole heaven of lights each burning with its own kind of "
             "brightness. No figure of any kind; nothing written anywhere and no ring of "
             "light rings anything."
+            "CAMERA: the dense band of the milky way running DIAGONALLY from one corner to the other, deep and three-dimensional, no moon anywhere in frame. NOT a flat overhead sky."
         ),
     },
     {
@@ -240,6 +247,7 @@ BEATS = [
             "the deep clear blue day sky, warm light pouring across the heaven — "
             "unmistakably its own kind of light. No figure of any kind; nothing written "
             "anywhere and no ring of light rings anything."
+            "CAMERA: the sun LOW and huge near the horizon in the last hour of light, its warmth raking golden across a wide dry landscape that fills the bottom half of the frame — the sun's own brightness felt on the land it lights. NOT the high overhead sun in an empty blue sky used earlier."
         ),
     },
     {
@@ -254,6 +262,7 @@ BEATS = [
             "warm and cool tones, larger and smaller, brighter and fainter — no two "
             "quite alike, a heaven of individual lights. No figure of any kind; nothing "
             "written anywhere and no ring of light rings anything."
+            "CAMERA: an extreme CLOSE into the starfield so the individual stars fill the frame as warm-amber, cool-blue and white points of different sizes, no moon, no horizon, no band. NOT a wide sky view."
         ),
     },
     {
@@ -269,6 +278,7 @@ BEATS = [
             "the edge of saying the astonishing thing the whole picture of the heavens "
             "was leading to. Ordinary-sized, one head, gaze toward his hearers and not "
             "to the camera; nothing written anywhere."
+            "CAMERA: from BEHIND and above Paul's shoulder, looking past him into the listeners' upturned faces. NOT the frontal close on Paul used earlier."
         ),
     },
     {
@@ -318,6 +328,7 @@ BEATS = [
             "rising is like. Ordinary-sized, one head, gaze lifted into the morning and "
             "not to the camera; the warm light rests on them, not around their head; "
             "nothing written anywhere."
+            "CAMERA: a true FACE CLOSE-UP, the risen person's head and shoulders filling the frame, the dawn field only a soft blur behind. NOT the wide of the rising people."
         ),
     },
     {
@@ -335,6 +346,7 @@ BEATS = [
             "down again). Hopeful, warm; no decaying flesh anywhere. Ordinary-sized on "
             "one ground plane; nothing written anywhere and no ring of light rings "
             "anything."
+            "CAMERA: LOW at ground level with the spent husk large in the near foreground and the risen figures small and far behind it, strong front-to-back depth. NOT a mid-height field view."
         ),
     },
     {
@@ -350,6 +362,7 @@ BEATS = [
             "flat sameness but many different glories, the very picture of a "
             "resurrection that is not one flat outcome. No figure of any kind; nothing "
             "written anywhere and no ring of light rings anything."
+            "CAMERA: from GROUND LEVEL with a dark landscape silhouette — low hills and a few trees — running along the bottom quarter of the frame beneath the sky. NOT a sky-only frame."
         ),
     },
     {
@@ -365,6 +378,7 @@ BEATS = [
             "glories in one heaven, and every single light plainly a gift of light "
             "given. Immense, generous, glad. No figure of any kind; nothing written "
             "anywhere and no ring of light rings anything."
+            "CAMERA: a sweeping PANORAMIC arc with the horizon curving low across the bottom, the moon at one side and the star-fields sweeping across the whole width. NOT a narrow or zenith view."
         ),
     },
     {
@@ -383,6 +397,7 @@ BEATS = [
             "them; the Giver Himself is never shown. Ordinary-sized, one head, gaze "
             "lifted to the sky and not to the camera; nothing written anywhere and no "
             "ring of light rings anything."
+            "CAMERA: a tight OVER-THE-SHOULDER from close behind one person's head and shoulder, looking past them into the rising sun, their edge rimmed with light. NOT the wide of the rising people."
         ),
     },
 ]
@@ -394,6 +409,8 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "PAUL-COURT": "PLACE-REF/paul-court.jpeg",  # build-183-sun-moon-and-stars s01-what-body-would-rise (manual)
+    "RESURRECTION-DAWN": "PLACE-REF/resurrection-dawn.jpeg",  # build-183-sun-moon-and-stars s11-resurrection-of-the-dead (manual)
 }
 # === end PLACE-PLATES ===
 
