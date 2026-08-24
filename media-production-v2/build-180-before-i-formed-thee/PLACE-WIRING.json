@@ -1,0 +1,14 @@
+{
+ "JEREMIAH-HOME": {
+  "manual": true,
+  "src_beat": "s02-called-to-the-nations",
+  "src_build": "build-180-before-i-formed-thee",
+  "src_file": "build-180-before-i-formed-thee/assets/s02-called-to-the-nations.jpeg"
+ },
+ "OPEN-ROAD": {
+  "manual": true,
+  "src_beat": "s14-say-not-i-am-a-child",
+  "src_build": "build-180-before-i-formed-thee",
+  "src_file": "build-180-before-i-formed-thee/assets/s14-say-not-i-am-a-child.jpeg"
+ }
+}

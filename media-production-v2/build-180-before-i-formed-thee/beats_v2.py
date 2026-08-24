@@ -86,6 +86,10 @@ LOCKS = {
 
 REF = False
 
+# AUDIO guard fix (2026-08-24): V1 final 100.400s vs extract 99.384s (gap
+# placement only; all mp3s ElevenLabs new-voice). Guard-prescribed rebuild.
+AUDIO_FROM_V1_SEGMENTS = True
+
 BEATS = [
     {
         "id": "v2-r180-b01", "out": "s01-too-small-for-the-job.jpeg", "seg": "n0",
@@ -144,13 +148,13 @@ BEATS = [
         "must_show": "a quiet reflective beat on the reach back before his life — Jeremiah's young face in warm light, the sense that a plan for him was set long before he ever drew breath.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, face or beam-being; nothing depicting a womb or an unborn child literally; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A close on Jeremiah, his young face turned toward a soft warm shaft of "
-            "morning light in his home, calm and wondering, as the thought settles "
-            "that a plan for his life was already set long before he was ever born. "
-            "The light rests gently on him and gives the sense of something older "
-            "and larger than himself. Ordinary-sized, one head, gaze into the light "
-            "and not to the camera; nothing is written anywhere and no ring of "
-            "light rings his head."
+            "A tight window-light close-up, camera at his shoulder INSIDE the "
+            "dim room: Jeremiah's young face in profile against the bright "
+            "small window, warm morning light on his brow and cheek, his eyes "
+            "far away — the sense that a plan for him was set long before he "
+            "ever drew breath. The SAME slight, curly-dark-haired twenty-year-"
+            "old as every other frame. NOT the terrace-overlook framing used "
+            "earlier — a close interior profile."
         ),
     },
     {
@@ -321,13 +325,13 @@ BEATS = [
         "must_show": "GOD-VOICE, GREEN caption — Jeremiah steadied to speak: he stands now at the head of the open road, straightening, his young face setting with new steadiness — ready to say whatever he is commanded.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure, hand on him or beam-being; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "Jeremiah stands at the head of the open road out of the village, seen "
-            "from the side and a little below, straightening to his full slight "
-            "height, his young face firming with a new steadiness as he faces the "
-            "way ahead — ready to speak whatever he is commanded. Bright morning "
-            "light across the road. No hand or figure touches him. Ordinary-sized, "
-            "one head, gaze down the road and not to the camera; nothing is written "
-            "anywhere and no ring of light rings his head."
+            "A steady three-quarter shot at chest height: THE SAME slight "
+            "curly-dark-haired twenty-year-old Jeremiah from every other frame "
+            "stands at the head of the open dirt road, straightening, his "
+            "young face setting with new steadiness as the morning light "
+            "catches him — ready now to speak whatever he is commanded. Same "
+            "boyish face, same dark curls, same simple brown wool as the "
+            "portrait; no other man."
         ),
     },
     {
@@ -354,14 +358,13 @@ BEATS = [
         "must_show": "GOD-VOICE, GREEN caption — Jeremiah unafraid: he pauses on the road and looks out toward the distant nations without fear, steadied by the promise that God is with him to deliver him.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no crowd of hostile faces shown; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "Jeremiah pauses on the open road and looks steadily out toward the far "
-            "distant lands he is being sent to, his young face calm and unafraid "
-            "now, chin level, no fear in him — held by the promise that God is with "
-            "him to deliver him. Bright morning light over the wide country. No "
-            "figure beside him; the distant nations are only faint shapes far off, "
-            "no hostile faces near. Ordinary-sized, one head, gaze to the horizon "
-            "and not to the camera; nothing is written anywhere and no ring of "
-            "light rings his head."
+            "A calm waist-up shot on the road: Jeremiah — his face, his full "
+            "head of thick dark curly hair, his age and his build EXACTLY as "
+            "the attached reference portrait shows them, the same man in every "
+            "detail — pauses and looks out past the camera toward the distant "
+            "nations without fear, steadied by the promise that God is with "
+            "him. Simple brown wool, morning light, the road running on "
+            "behind him."
         ),
     },
     {
@@ -372,13 +375,13 @@ BEATS = [
         "must_show": "the going-forth wide — Jeremiah walking on down the open road toward the far country, small against the wide land, going with the God who knew him before he was born.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure walking beside him or beam-being; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art; not a posed line facing the lens.",
         "scene": (
-            "A wide from behind and above as Jeremiah walks on down the open road "
-            "toward the far country, a small slight figure with his back to us, the "
-            "dry hills and distant lands spread bright before him under the morning "
-            "sky — going forward with the God who knew him before he was born, "
-            "though no figure walks visibly at his side. Camera behind and above, "
-            "his back to the lens; ordinary-sized on one ground plane; nothing is "
-            "written anywhere and no ring of light rings anything."
+            "The going-forth from a HIGH vantage on the hillside above: the "
+            "dirt road curves away below through terraced olive slopes toward "
+            "the far hazy country, and small on it — seen from behind and "
+            "above — the slight curly-haired young man walks steadily out, "
+            "his shadow long in the morning light. The land wide, the figure "
+            "small but resolute. NOT the eye-level empty-road framing used "
+            "earlier — high, looking down and along his way."
         ),
     },
     {
@@ -389,12 +392,12 @@ BEATS = [
         "must_show": "the closing — a close on Jeremiah's young face on the road, resolved and at peace, the fear gone; the calling and the courage both given to him, the child who became a prophet.",
         "must_not_show": "GOD IS NEVER SHOWN — no God figure or beam-being; no Jesus, no cream; no halo or ring of light; no modern object; no scroll or writing as art.",
         "scene": (
-            "A close on Jeremiah's young face on the open road, turned a little "
-            "toward the bright distance, calm and resolved, the fear wholly gone — "
-            "the boy who is becoming a prophet, the calling and the courage both "
-            "given to him. Warm morning light on his features. Ordinary-sized, one "
-            "head, gaze to the distance and not to the camera; nothing is written "
-            "anywhere and no ring of light rings his head."
+            "ONE single continuous photograph — never a strip, grid, or "
+            "repeated panel, and absolutely NO hand of any kind reaching into "
+            "frame: a close warm portrait of the SAME slight curly-dark-haired "
+            "young Jeremiah on the road, face resolved and at peace, the fear "
+            "gone, hopeful morning light full on him and the way open behind "
+            "his shoulder. One face, one frame, nothing else."
         ),
     },
 ]
@@ -406,6 +409,8 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "JEREMIAH-HOME": "PLACE-REF/jeremiah-home.jpeg",  # build-180-before-i-formed-thee s02-called-to-the-nations (manual)
+    "OPEN-ROAD": "PLACE-REF/open-road.jpeg",  # build-180-before-i-formed-thee s14-say-not-i-am-a-child (manual)
 }
 # === end PLACE-PLATES ===
 

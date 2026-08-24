@@ -49,3 +49,34 @@ b18 84.968 · b19 89.008 · (hold to card 93.009).
 Arc: interior worry → warm knowing light (the call) → protest ("I am a child") →
 commissioning → the open road → going forth unafraid. Time-of-day brightens with his
 resolve (no dead sunset — hopeful morning throughout).
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: JEREMIAH portrait + all 19 stills, **6 rerolls = 31.6% — OVER the
+15% budget; honest ledger (all law-class):**
+- b04: JEREMIAH-HOME plate + face turned = clone (0.98, law 12m) → interior
+  window profile, corr 0.007.
+- b15: a DIFFERENT man rendered on the road (face-board violation) → identity
+  reroll, canon curls restored.
+- b17 ×2: first roll drifted identity, my first fix over-specified ("tight
+  curls" → short crop); ref-anchored wording matched the portrait on roll 2.
+- b18: OPEN-ROAD plate + small figure = "pieces added" (0.954) → high-vantage
+  going-forth, corr 0.738.
+- b19: rendered as a THREE-PANEL stack WITH a divine hand touching his mouth —
+  double ship-blocker (anti-panel + GOD NEVER EMBODIED) → single close portrait,
+  no hand, verified.
+Cost $3.62 total — still under the $6.10 average.
+
+**FULL-CUT GATE — 19 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: GOD-voice GREEN (s1 b06/b07, g7 b14/b15, s2 b17); Jeremiah's protest s1b
+LIGHT-BLUE (b11/b12); narrator white; no red (no Jesus, OT). GOD NEVER EMBODIED
+— the call carried by warm light and the opening road only. JEREMIAH one
+consistent slight curly-haired ~20-year-old in every frame (portrait-boarded,
+b17 verified side-by-side against the canon sheet). Hopeful morning arc lands.
+Card clean.
+
+**AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 100.400s vs extract 99.384s,
+gap placement; 12 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=1ee9c287c6…**,
+99.4s, 20.2 MB.
