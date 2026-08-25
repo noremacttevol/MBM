@@ -101,3 +101,34 @@ good" (blue scripture) made real: a man in the marketplace weighing what he's of
 the true coin, listening to and weighing a prophet's words rather than despising them, and
 turning from the shadowed doorway — "abstain from all appearance of evil." A faith that checks,
 then commits. No open complaint on this row.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: 3 portraits + all 14 stills. **ZERO plate clones** across the
+11-beat MARKET family — rubric lesson 26 applied before the first roll (10 beats
+given distinct cameras). **1 reroll / 14 = 7.1%. Cost $2.28 (17 gens).**
+- The reroll (b12) rendered the word "SCRIPTURE" in large blue letters across the
+  sky — rendered text as art, banned. Explicit no-text-anywhere ban added
+  (no words, letters, captions, signage, labels or writing on any surface);
+  clean on retry.
+- PAUL uses the **138 canonical sheet** (md5 b200a21d), matching 155/166/183/194.
+- PAUL-ROOM / MARKET / GATHERING plates reused from the stash at $0.
+
+**FULL-CUT GATE — 14 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s1 (b03) + s2 (b12) LIGHT-BLUE; narrator white; no red, no green; **NO
+Jesus, NO cream, NO white**. **GOD / THE HOLY SPIRIT / the voice of God NEVER
+EMBODIED** — the prophesying in b07/b08 is a real grey-bearded man speaking to a
+seated gathering, no divine light, dove or beam; b06's "light" is plain daylight
+through cloth. CONTENT-CARE: the alley doorway (b11/b12) stays dark and
+unspecified, nothing lurid; the believer weighs and listens, never mocks. The
+proving reads concretely (coin on the balance, cloth to the light, jar checked,
+grain sifted). Card clean.
+
+**AUDIO — diagnosed, not assumed:** stream-copy refused on a 13-second gap
+(V1 67.082s vs extract 54.038s). The V1 mp4 was rendered 2026-07-23 while all 9
+mp3s are ElevenLabs new-voice written 2026-07-29, and a full transcription of
+the V1 matches the segment texts — the mp4 carries the OLD slower voice, so
+rebuilding loses nothing. **AUDIO REBUILD PASS SHA256=35faec4f53…**, 54.0s,
+19.6 MB.

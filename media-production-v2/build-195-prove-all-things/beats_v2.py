@@ -64,6 +64,13 @@ card_start = 48.190 s. Picture-only — do NOT re-voice.
 # and GATHERING are NEW build-local places the runner promotes. Jesus is absent (every beat
 # jesus=False); no image REFS; only text locks. No one wears cream/white; God / the Holy Spirit
 # / the voice of God is never embodied.
+# AUDIO guard fix (2026-08-24) — verified STALE-V1: the V1 mp4 was rendered
+# 2026-07-23 and carries the OLD slower voice; all 9 mp3s are ElevenLabs
+# new-voice (44100/128k) written 2026-07-29. Full transcription of the V1 mp4
+# matches the segment texts, so rebuilding at 54.038s loses nothing and ships
+# the NEW voice.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     "PAUL-ROOM": (
         "PAUL-ROOM LOCK: the same place in every frame — a humble first-century room "
@@ -197,6 +204,7 @@ BEATS = [
             "keep — holding fast that which is good. His gaze is down on his own closed "
             "hand, settled and sure, not to the camera; warm daylight on his hand and "
             "face, not around his head; nothing is written anywhere; no divine figure."
+            "CAMERA: a CLOSE three-quarter on his satisfied face with the weighed coin small and sharp in his fingers at the lower frame. NOT the table-top insert of b03, NOT the market wide."
         ),
     },
     {
@@ -213,6 +221,7 @@ BEATS = [
             "it whole. The trader beside him ordinary-sized, one head each, their gazes on "
             "the cloth between them, not to the camera; warm daylight on them, not around "
             "any head; nothing is written anywhere; no divine figure."
+            "CAMERA: a MEDIUM two-shot side-on, the trader at frame left and the believer at frame right with the bolt of cloth between them. NOT a single or an insert."
         ),
     },
     {
@@ -229,6 +238,7 @@ BEATS = [
             "The light is plain daylight from the sky, never a supernatural beam and never "
             "a ring around his head; his eyes are on the cloth against the sky, not to the "
             "camera; nothing is written anywhere; no divine figure."
+            "CAMERA: a LOW angle looking UP as he holds the cloth against the bright sky, the weave backlit and translucent filling the upper frame. NOT an eye-level shot."
         ),
     },
     {
@@ -265,6 +275,7 @@ BEATS = [
             "how he shuts it out. His gaze is toward the unseen speaker off-frame, not to "
             "the camera; warm ordinary daylight on his face, not around his head; nothing "
             "is written anywhere; no divine figure."
+            "CAMERA: a TIGHT close on the believer's listening face among the seated hearers, the speaker only a blurred edge. NOT the room wide of b07."
         ),
     },
     {
@@ -281,6 +292,7 @@ BEATS = [
             "it. Ordinary-sized, one head, gaze on the good thing before him, not to the "
             "camera; warm daylight on him, not around his head; nothing is written "
             "anywhere; no divine figure."
+            "CAMERA: a WIDE from behind the believer's shoulder looking down the crowded row of stalls, many wares spread ahead of him. NOT a close or a two-shot."
         ),
     },
     {
@@ -296,6 +308,7 @@ BEATS = [
             "away — keeping what he has proved good. His gaze is down over what he holds, "
             "settled and resolved, not to the camera; warm daylight on his hands and face, "
             "not around his head; nothing is written anywhere; no divine figure."
+            "CAMERA: a TIGHT INSERT on his hands drawing the good thing in against his chest, his face soft and out of focus above. NOT a face-led shot."
         ),
     },
     {
@@ -313,6 +326,7 @@ BEATS = [
             "one head, gaze toward the shadowed doorway, not to the camera; bright daylight "
             "on him against the shadow, not around his head; nothing is written anywhere; "
             "no divine figure."
+            "CAMERA: a CLOSE profile at the alley mouth, his cheek and eye at frame right and the dark unlit doorway beyond his shoulder. NOT a full-figure or wide shot."
         ),
     },
     {
@@ -330,6 +344,8 @@ BEATS = [
             "unspecified behind him. Ordinary-sized, one head, gaze forward into the "
             "sunlit square, not to the camera; bright daylight ahead of him, not around "
             "his head; nothing is written anywhere; no divine figure."
+            "CAMERA: from BEHIND him at waist height as he turns away, his back filling frame left and the shadowed alley receding at frame right. NOT a frontal shot."
+            "ABSOLUTELY NO TEXT ANYWHERE IN THE PICTURE: no words, letters, captions, signage, titles, labels, banners or writing of any kind on the sky, walls, cloth, awnings, goods or anywhere else in frame. A plain photograph of the street only."
         ),
     },
     {
@@ -346,6 +362,7 @@ BEATS = [
             "Ordinary-sized, one head, gaze down on the balance, not to the camera; warm "
             "daylight on him, not around his head; nothing is written anywhere; no divine "
             "figure."
+            "CAMERA: a LOW eye-level shot from across the trader's table, the believer standing beyond it steady and clear-eyed. NOT a close-up."
         ),
     },
     {
@@ -362,6 +379,7 @@ BEATS = [
             "Ordinary-sized people on one ground plane, one head each, their gazes on the "
             "trade and the way ahead, not to the camera; warm daylight over the square, "
             "not around any head; nothing is written anywhere; no divine figure."
+            "CAMERA: a HIGH WIDE of the sunlit square, the believer walking away small and central with his proved goods, long shadows across the paving. NOT a close or two-shot."
         ),
     },
 ]
@@ -373,12 +391,9 @@ BEATS = [
 # is the committed record — `v2_stash.py --wire <this build>` rebuilds the
 # plates on any machine that has the source builds' stills.
 PLACE_REFS = {
-    # MARKET is intentionally NOT auto-wired to build-60's frame: that "market" is the
-    # gerasene town where the healed man testifies and carries NO money-changer's balance and
-    # NO shadowed alley doorway — both of which beats b03 (weigh a coin) and b11/b12 (turn from
-    # the doorway) depend on. Runner promotes MARKET from b02 (which establishes the balance
-    # table + the alley doorway); GATHERING from b07; PAUL-ROOM from b01 (no Paul row is built
-    # yet, so no committed PAUL-ROOM plate exists — the first built Paul row seeds it).
+    "GATHERING": "PLACE-REF/gathering.jpeg",  # build-195-prove-all-things s07-despise-not-prophesyings (manual)
+    "MARKET": "PLACE-REF/market.jpeg",  # build-195-prove-all-things s02-the-market (manual)
+    "PAUL-ROOM": "PLACE-REF/paul-room.jpeg",  # build-195-prove-all-things s01-paul-writes (manual)
 }
 # === end PLACE-PLATES ===
 
@@ -386,5 +401,11 @@ PLACE_REFS = {
 # and PAUL-ROOM byte-identical to build-184/186/194). Jesus does not appear in this row (every
 # beat jesus=False); no one wears cream or white; God / the Holy Spirit / the voice of God is
 # never embodied.
+# Per-story face sheets, generated by v2_story_cast.py. Identity is
+# carried by IMAGE, not by wording — text locks let the elder son come
+# back as three different men in row 2 (Cameron, 2026-07-30).
 REFS = {
+    "PAUL": "CAST-REF-V2/paul.jpeg",
+    "BELIEVER": "CAST-REF-V2/believer.jpeg",
+    "PROPHET": "CAST-REF-V2/prophet.jpeg",
 }

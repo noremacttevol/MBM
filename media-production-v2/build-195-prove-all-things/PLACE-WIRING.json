@@ -1,0 +1,20 @@
+{
+ "GATHERING": {
+  "manual": true,
+  "src_beat": "s07-despise-not-prophesyings",
+  "src_build": "build-195-prove-all-things",
+  "src_file": "build-195-prove-all-things/assets/s07-despise-not-prophesyings.jpeg"
+ },
+ "MARKET": {
+  "manual": true,
+  "src_beat": "s02-the-market",
+  "src_build": "build-195-prove-all-things",
+  "src_file": "build-195-prove-all-things/assets/s02-the-market.jpeg"
+ },
+ "PAUL-ROOM": {
+  "manual": true,
+  "src_beat": "s01-paul-writes",
+  "src_build": "build-195-prove-all-things",
+  "src_file": "build-195-prove-all-things/assets/s01-paul-writes.jpeg"
+ }
+}
