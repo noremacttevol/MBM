@@ -1,3 +1,74 @@
+## 2026-08-24/25 (Claude, Machine A `Dev`) — **28 VIDEO ROWS SHIPPED + FIREBASE OUTAGE SOLVED FREE + AUTHORED QUEUE EMPTIED**
+
+### Video production — 28 rows
+Stranded rescues: **181** (wast /wɔst/ fixed at the source via CMU phoneme +
+persistent revoice script; 14 distinct shots, law 12m) and **160** (all 21 stills
+were banked, assembly + gate + ship only, $0). Fresh realistic-V2 builds:
+**155, 156, 162, 164–170, 172, 175, 176, 178, 180, 182, 183, 187, 190, 192–197**.
+Every row: full-cut gate on the ENCODED mp4, similarity matrix, QC ledger,
+Reviewer card + Pages mirror, board BUILT, mp4 live-verified on GitHub raw.
+**The AUTHORED queue is now EMPTY — 198 rows BUILT** (128 parked, 117 awaiting
+Cameron).
+
+### Two root-cause fixes that cut cost, written into the rubric
+1. **Lesson 26 — plate clones are the DEFAULT, not the exception.** Once a place
+   plate is attached, later beats of that place inherit its camera unless the beat
+   text forbids it. Clones were ~70% of all rerolls early in the session.
+   The fix (author a contrasting camera + an explicit "NOT the <earlier> framing"
+   into every same-place beat BEFORE the first paid roll, matrix the assets before
+   assembling, fix with `--no-plates` PLUS re-authored geometry) is measurable:
+   rows built before it needed **28–38%** of pictures redone; rows built after
+   needed **0–12%**. Row 196 shipped **0 rerolls with all 16 beats in one place**.
+2. **Lesson 28 + tool fix — an empty `REFS = {}` silently unattached every face
+   sheet.** `v2_story_cast.py` only wrote REFS when the build had NO REFS block,
+   so any map authored with an explicit empty one generated its portraits and
+   never used them — the cast drifted (row 190's believer came back as a different
+   man). Nine builds were in this state; script patched to fill an empty block,
+   and all ten affected builds re-wired and verified.
+
+### Firebase bandwidth outage — diagnosed and solved without billing
+milk-b4-meat.web.app returned HTTP 509 on everything. **Root cause: the free tier
+allows 10 GB egress/month and the clips average 20.6 MB — about 486 video views a
+MONTH for all users combined.** Serving a video library there was never viable and
+would have failed every month.
+- **App:** videos + thumbnails moved to the `videos-v1` GitHub release (flat
+  namespace, so thumbs are `thumb-<id>.jpg`), 122 approved clips verified
+  byte-exact, shipped via EAS OTA `be0bfcd7-a6c2-4014-b880-31939d29953e`.
+  **This is a BRIDGE, not the architecture** — GitHub's terms don't allow release
+  assets as an app CDN; Cloudflare R2 (free tier, zero egress) is the standing
+  recommendation and the wrangler login is the only blocked step.
+- **Reviewer + site mirrored to GitHub Pages** (`docs/review.html`,
+  `docs/www/`). The Reviewer mirror MUST be refreshed (`cp site/review.html
+  docs/review.html`) whenever a card changes — it is now part of every ship.
+- **Public-video gate** re-pointed at the new host and PASSES all eight checks.
+  Row 95 was an unapproved stray in the gallery folder, pulled from the release
+  and archived to `media-production-v2/gallery-archive-v1/95.mp4`.
+
+### milkb4meat.org — ready, waiting on ONE DNS change by Cameron
+The domain is DNS-hosted at **Squarespace** and still points at Firebase
+(199.36.158.100), which is why it errors. New repo **`noremacttevol/milkb4meat-site`**
+holds the public site with a `CNAME` for milkb4meat.org, Pages enabled, and the
+homepage verified serving from GitHub's Pages IP via a Host-header fetch.
+**Cameron must change at Squarespace:** delete the A record to 199.36.158.100; add
+A records 185.199.108.153 / .109.153 / .110.153 / .111.153 on `@`; change the `www`
+CNAME to `noremacttevol.github.io`. Then enable HTTPS on the repo's Pages settings.
+
+### Corrections I owe the record
+- I first told Cameron a re-encode would roughly halve the library. **Wrong** — my
+  CRF setting made 35 files BIGGER (CRF wanted more bits than the already-efficient
+  originals). Corrected to an explicit average-bitrate target with a never-grow
+  guard; running at ~24% at time of writing. Delivery copies live in
+  `site/story-videos-delivery/`; **the approved masters are untouched** so no
+  approval is silently voided.
+- I offered Cameron a menu of hosting choices instead of researching and
+  recommending. He called it out. The professional answer (R2, with reasoning and
+  real numbers) came only after he pushed.
+
+**Cost:** ~$62 Gemini across 28 rows (~$2.2/row) — well under the $6.10 running
+average, driven down by lesson 26.
+
+---
+
 ## 2026-08-17 ~01:28 EDT (Codex complaint-fix lane) — Row 179 Stephen's Witness **COMPLAINT FIX SHIPPED + LIVE** — Machine A `Dev`
 
 Cameron's current Reviewer complaint said the Father and Jesus were on the wrong sides
