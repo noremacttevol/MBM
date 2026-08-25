@@ -25,7 +25,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LEDGER = os.path.join(ROOT, "media-production-v2", "PUBLISH-LEDGER.json")
 VIDEOS_TS = os.path.join(ROOT, "mobile", "src", "data", "videos.ts")
 GALLERY = os.path.join(ROOT, "site", "story-videos")
-HOST = "https://milk-b4-meat.web.app/story-videos"
+# VIDEO HOSTING MOVED OFF FIREBASE (2026-08-24): Firebase Hosting's free tier
+# allows 10 GB egress/month, which at ~20.6 MB per clip is only ~486 views a
+# month for ALL users combined; the quota was exhausted and every video began
+# returning HTTP 509. The app now streams from GitHub release assets, which
+# are CDN-served with unmetered bandwidth. Release assets are a FLAT
+# namespace, so thumbnails are `thumb-<id>.jpg`, not `thumbs/<id>.jpg`.
+HOST = "https://github.com/noremacttevol/MBM/releases/download/videos-v1"
 
 fails, warns = [], []
 

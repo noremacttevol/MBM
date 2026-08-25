@@ -25,9 +25,15 @@
  *   No fabricated stories: only real ones are listed.
  */
 
-// Firebase Hosting project is `milk-b4-meat`; hosting serves the `site/` dir, so
-// produced clips live at site/story-videos/<id>.mp4 → this public URL.
-const VIDEO_HOST = 'https://milk-b4-meat.web.app/story-videos';
+// VIDEO HOSTING MOVED OFF FIREBASE (2026-08-24). Firebase Hosting's free tier
+// gives 10 GB of egress a month; at ~20.6 MB per clip that is only ~486 video
+// views a MONTH for all users combined, so the quota was exhausted and every
+// video 404'd. GitHub release assets serve the same files from a CDN with no
+// metered bandwidth and no git-history bloat, which removes the ceiling instead
+// of raising it. Assets live on the `videos-v1` release, one <id>.mp4 per
+// produced story, byte-identical to site/story-videos/.
+const VIDEO_HOST =
+  'https://github.com/noremacttevol/MBM/releases/download/videos-v1';
 
 export interface VideoStory {
   /** Matches the THE-200 master catalog number. */
@@ -77,7 +83,9 @@ export function videoStreamUrl(id: number): string {
 }
 
 export function videoThumbUrl(id: number): string {
-  return `${VIDEO_HOST}/thumbs/${id}.jpg`;
+  // Release assets are a flat namespace (no sub-paths), so thumbnails are
+  // published as `thumb-<id>.jpg` rather than `thumbs/<id>.jpg`.
+  return `${VIDEO_HOST}/thumb-${id}.jpg`;
 }
 
 // Ids of clips that are actually produced and live on Firebase Hosting. Adding an
