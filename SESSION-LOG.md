@@ -54,12 +54,17 @@ A records 185.199.108.153 / .109.153 / .110.153 / .111.153 on `@`; change the `w
 CNAME to `noremacttevol.github.io`. Then enable HTTPS on the repo's Pages settings.
 
 ### Corrections I owe the record
-- I first told Cameron a re-encode would roughly halve the library. **Wrong** — my
-  CRF setting made 35 files BIGGER (CRF wanted more bits than the already-efficient
-  originals). Corrected to an explicit average-bitrate target with a never-grow
-  guard; running at ~24% at time of writing. Delivery copies live in
-  `site/story-videos-delivery/`; **the approved masters are untouched** so no
-  approval is silently voided.
+- I first told Cameron a re-encode would roughly halve the library (~45%), from a
+  single-file test. **Wrong at library scale** — my CRF setting made 35 files
+  BIGGER, because CRF wanted more bits than the already-efficient originals had.
+  Corrected to an explicit average-bitrate target (700k) with a never-grow guard.
+  **FINAL VERIFIED: 2.51 GB -> 1.81 GB, 28% smaller, median 31%, 0 files grew.**
+  Quality spot-checked at the worst case (file 92, 72% smaller: 18.5 -> 5.1 MB) —
+  full-pixel face crop is visually equivalent to the master. Delivery copies live
+  in `site/story-videos-delivery/` (gitignored build artifacts, staged for R2);
+  **the approved masters are untouched** so no approval is silently voided.
+  Lesson for next time: never quote a library-wide saving from one file, and always
+  cap with a never-grow guard rather than trusting CRF.
 - I offered Cameron a menu of hosting choices instead of researching and
   recommending. He called it out. The professional answer (R2, with reasoning and
   real numbers) came only after he pushed.
