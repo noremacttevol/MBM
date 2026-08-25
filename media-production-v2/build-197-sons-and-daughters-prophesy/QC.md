@@ -94,3 +94,29 @@ daughters prophesying, old men dreaming, young men seeing visions, even servants
 had come. The promise was never locked in one building or one office; it was poured out freely,
 widely, for all. God and the Spirit are never pictured, and Pentecost is shown through the
 people, not fire. No open complaint on this row.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: JOEL + ALL-FLESH portraits + all 13 stills. Rubric lesson 26 applied
+before the first roll (10 beats given distinct cameras). **1 reroll / 13 = 7.7%.**
+- The reroll (b11) came back as the b10 square wide with the crowd rearranged
+  (0.966, law 12m). Re-authored to a tight in-crowd close where no square, no
+  buildings and no sky are visible → 0.438.
+- Three plates promoted from this build's own frames (JOEL-HEIGHT b01,
+  PEOPLE-STREET b03, JERUSALEM-PENTECOST b10).
+
+**FULL-CUT GATE — 13 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s1/s2 GOD-voice GREEN across b03-b08 (Joel 2:28-29, the LORD's own words);
+narrator white; no red, no blue; **NO Jesus, NO cream, NO white**. **HARD GATE
+HELD — GOD AND THE SPIRIT NEVER EMBODIED AND PENTECOST WITHOUT FIRE**: no
+figure, dove, beam, flame or tongue-of-fire anywhere; b05's dream and b06's
+vision are carried by the men's own alight faces with nothing floating above
+them; b10/b11 show Peter preaching and the crowd's changed faces, deliberately
+no fire (consistent with the 165/166/196 gate — Acts-2 flame is not imported
+unless Cameron asks). The "all flesh" spread reads across age, sex and status
+(old man, young man, bondservant, maidservant, child). Card clean.
+
+**AUDIO:** V1 final current — packet-copy, **AUDIO LOCK PASS
+SHA256=a4c50587ad…**, 65.4s, 19.5 MB.

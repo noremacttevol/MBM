@@ -1,0 +1,20 @@
+{
+ "JERUSALEM-PENTECOST": {
+  "manual": true,
+  "src_beat": "s10-peter-stands",
+  "src_build": "build-197-sons-and-daughters-prophesy",
+  "src_file": "build-197-sons-and-daughters-prophesy/assets/s10-peter-stands.jpeg"
+ },
+ "JOEL-HEIGHT": {
+  "manual": true,
+  "src_beat": "s01-joel-names-the-future",
+  "src_build": "build-197-sons-and-daughters-prophesy",
+  "src_file": "build-197-sons-and-daughters-prophesy/assets/s01-joel-names-the-future.jpeg"
+ },
+ "PEOPLE-STREET": {
+  "manual": true,
+  "src_beat": "s03-pour-out-on-all-flesh",
+  "src_build": "build-197-sons-and-daughters-prophesy",
+  "src_file": "build-197-sons-and-daughters-prophesy/assets/s03-pour-out-on-all-flesh.jpeg"
+ }
+}
