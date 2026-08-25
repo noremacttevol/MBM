@@ -66,6 +66,10 @@ card_start = 60.100 s. Picture-only — do NOT re-voice.
 # place/cast). SEVENTY-ELDERS, ELDAD-MEDAD, JOSHUA and CAMP-RUNNER are build-local. Jesus is
 # absent (every beat jesus=False); no image REFS; only text locks. No one wears cream/white;
 # God and the Spirit are never embodied.
+# AUDIO guard fix (2026-08-24): V1 final 69.233s vs extract 68.229s (gap
+# placement only; all mp3s ElevenLabs new-voice). Guard-prescribed rebuild.
+AUDIO_FROM_V1_SEGMENTS = True
+
 LOCKS = {
     "WILDERNESS-CAMP": (
         "WILDERNESS-CAMP LOCK: the same place in every frame — the camp of Israel "
@@ -162,6 +166,7 @@ BEATS = [
             "His gaze is up and away, not to the camera; warm daylight on his face and the "
             "dark tent curtains, not around his head; nothing is written anywhere; no divine "
             "figure."
+            "CAMERA: a frontal MEDIUM at the tent opening, Moses centred with the dark doorway behind him. NOT the establishing camp wide of b01."
         ),
     },
     {
@@ -178,6 +183,7 @@ BEATS = [
             "Ordinary-sized men on one ground plane, one head each, their gazes toward Moses "
             "and the tent, not to the camera; warm daylight on them, not around any head; "
             "nothing is written anywhere; no divine figure."
+            "CAMERA: a LOW angle from below waist height looking UP at Moses against the open sky. NOT an eye-level medium."
         ),
     },
     {
@@ -195,6 +201,7 @@ BEATS = [
             "between them, no substance, no beam. Ordinary-sized men, one head each, gazes "
             "inward and down in reverence, not to the camera; warm daylight on the group, not "
             "around any head; nothing is written anywhere; no divine figure or spirit-form."
+            "CAMERA: a TIGHT cluster of three or four elder faces filling the frame, Moses only a shoulder edge at frame left. NOT a shot favouring Moses."
         ),
     },
     {
@@ -211,6 +218,7 @@ BEATS = [
             "the load with him. Ordinary-sized men on one ground plane, one head each, gazes "
             "out toward the camp, not to the camera; warm daylight on them, not around any "
             "head; nothing is written anywhere; no divine figure."
+            "CAMERA: from BEHIND Moses's shoulder looking out at the ring of elders' faces receiving the charge. NOT a frontal shot of him."
         ),
     },
     {
@@ -228,6 +236,7 @@ BEATS = [
             "Joyful and earnest, not a frenzy. Ordinary-sized men, one head each, gazes "
             "upward and outward in conviction, not to the camera; warm daylight on their "
             "faces, not around any head; nothing is written anywhere; no divine figure."
+            "CAMERA: a LEVEL line of the elders' alight faces, no Moses in frame at all. NOT a two-shot."
         ),
     },
     {
@@ -245,6 +254,7 @@ BEATS = [
             "in the camp. Ordinary-sized, one head each, gazes between them and toward the "
             "camp, not to the camera; warm daylight on them, not around any head; nothing is "
             "written anywhere; no divine figure."
+            "CAMERA: framed BETWEEN two taut tent ropes in the near foreground, the two men beyond them among the goats'-hair tents. NOT an open unobstructed view."
         ),
     },
     {
@@ -263,6 +273,7 @@ BEATS = [
             "Ordinary-sized people, one head each, gazes upward and outward, not to the "
             "camera; warm daylight on them, not around any head; nothing is written anywhere; "
             "no divine figure."
+            "CAMERA: a TIGHT two-face close, both men's alight faces near and level, tents a soft blur. NOT a full-figure shot."
         ),
     },
     {
@@ -279,6 +290,7 @@ BEATS = [
             "the news to Moses. His travel goes forward into frame toward the distant tent, "
             "his gaze ahead, not to the camera; warm daylight on the lane, not around his "
             "head; nothing is written anywhere; no divine figure."
+            "CAMERA: a LOW shot from the front as the young man runs TOWARD the lens down the lane, dust at his heels. NOT a side or following view."
         ),
     },
     {
@@ -296,6 +308,7 @@ BEATS = [
             "gazes between each other and back toward the camp, not to the camera; warm "
             "daylight on them, not around any head; nothing is written anywhere; no divine "
             "figure."
+            "CAMERA: a SIDE-ON two-shot, Joshua and Moses in profile facing each other across the frame. NOT a frontal single."
         ),
     },
     {
@@ -311,6 +324,7 @@ BEATS = [
             "men left down in the camp; earnest, protective concern. His gaze is off toward "
             "the tents, not to the camera; warm daylight on his face, not around his head; "
             "nothing is written anywhere; no divine figure."
+            "CAMERA: a TIGHT close on Joshua's furrowed face alone, Moses not in frame. NOT a two-shot."
         ),
     },
     {
@@ -327,6 +341,7 @@ BEATS = [
             "Ordinary-sized, one head each, Joshua's gaze on Moses, Moses's gaze steady on "
             "Joshua, not to the camera; warm daylight on them, not around any head; nothing "
             "is written anywhere; no divine figure."
+            "CAMERA: OVER Joshua's shoulder from behind him, Moses beyond listening. NOT the side-on two-shot of b10."
         ),
     },
     {
@@ -342,6 +357,7 @@ BEATS = [
             "thou me for my sake?' A generous, kindly old face, never rebuking. His gaze is "
             "on Joshua at frame edge, not to the camera; warm daylight on his face, not "
             "around his head; nothing is written anywhere; no divine figure."
+            "CAMERA: a close on Moses from his LEFT, warm and turning, the tent bright behind. NOT the b15 angle."
         ),
     },
     {
@@ -360,6 +376,7 @@ BEATS = [
             "beam, no light-form; only the old man and the tents in daylight. Ordinary-sized "
             "people on one ground plane; warm daylight over the camp, not around any head; "
             "nothing is written anywhere; no divine figure."
+            "CAMERA: a WIDE from BEHIND Moses's shoulder at the camp's edge, the tents spread small below him. NOT a close."
         ),
     },
     {
@@ -375,6 +392,7 @@ BEATS = [
             "gift spread wide. His gaze is out over the camp, not to the camera; warm "
             "daylight on his face, not around his head; nothing is written anywhere; no "
             "divine figure."
+            "CAMERA: a close three-quarter from Moses's RIGHT, the opposite side to b13, his face open and glad. NOT the b13 angle."
         ),
     },
     {
@@ -393,17 +411,19 @@ BEATS = [
             "camp turning toward him. Nothing hangs over the camp — no spirit, no beam, no "
             "light-form. Ordinary-sized people on one ground plane; warm daylight over the "
             "camp, not around any head; nothing is written anywhere; no divine figure."
+            "CAMERA: a HIGH closing wide looking down over the camp with Moses small and central. NOT an eye-level wide."
         ),
     },
 ]
 
 
 # === PLACE-PLATES (generated by v2_stash.py; edit via the tool, not by hand) ===
-# WILDERNESS-CAMP is reused byte-identical to build-177 (same Sinai encampment). build-177 is
-# not built yet, so no committed plate exists; the runner promotes WILDERNESS-CAMP from b01 —
-# or --wire build-177's plate once that row is built, IF the daylight matches (177 is dusk;
-# this row is late-afternoon daylight). All frames are NON-Jesus. Steps in QC.md.
+# Each token's plate is attached as a PLACE LOCK image to every beat whose
+# `locks` name it. Plates live in PLACE-REF/ (gitignored art); PLACE-WIRING.json
+# is the committed record — `v2_stash.py --wire <this build>` rebuilds the
+# plates on any machine that has the source builds' stills.
 PLACE_REFS = {
+    "WILDERNESS-CAMP": "PLACE-REF/wilderness-camp.jpeg",  # build-196-would-god-all-were-prophets s01-the-weight (manual)
 }
 # === end PLACE-PLATES ===
 
@@ -411,5 +431,10 @@ PLACE_REFS = {
 # (WILDERNESS-CAMP, MOSES and ISRAELITES byte-identical to build-177). Jesus does not appear in
 # this row (every beat jesus=False); no one wears cream or white; God and the Spirit are never
 # embodied.
+# Per-story face sheets, generated by v2_story_cast.py. Identity is
+# carried by IMAGE, not by wording — text locks let the elder son come
+# back as three different men in row 2 (Cameron, 2026-07-30).
 REFS = {
+    "MOSES": "CAST-REF-V2/moses.jpeg",
+    "JOSHUA": "CAST-REF-V2/joshua.jpeg",
 }

@@ -98,3 +98,36 @@ camp and Joshua says "forbid them," Moses answers with one of the most generous 
 scripture (blue): "would God that all the LORD's people were prophets." He did not guard the
 gift — he wished it wider, over every tent. God and the Spirit are never pictured. No open
 complaint on this row.
+
+---
+
+## ✅ RUNNER SHIPPED (2026-08-24, Machine A `Dev`, Claude session)
+
+Fresh build: JOSHUA portrait + all 16 stills. **ZERO plate clones and ZERO
+rerolls** — every one of the 16 beats shares the single WILDERNESS-CAMP place,
+and rubric lesson 26 was applied before the first roll (15 beats given distinct
+cameras: frontal medium at the tent / low from below / tight elder-faces cluster
+/ from behind Moses's shoulder / level line of faces / framed between tent ropes
+/ tight two-face / runner toward the lens / side-on two-shot / Joshua alone /
+over-Joshua's-shoulder / Moses from his left / wide from behind him / three-
+quarter from his right / high closing wide). **0 rerolls / 16 = 0%, $2.28.**
+Best result of the session and direct evidence for lesson 26.
+
+MOSES copied byte-identical from build-177 (md5 6ad69432…) — same Sinai camp,
+same man across both rows.
+
+**FULL-CUT GATE — 16 beats + card viewed on the ENCODED mp4: PASS.** SPEAKER
+LAW: s0 (b12, Joshua's words) and s1 (b13/b14, Moses's words) LIGHT-BLUE;
+narrator white; **no red, no green** — correct, because the narrator reports
+God rather than quoting him, so there is no God-voice segment in this row. NO
+Jesus, NO cream, NO white. **HARD GATE HELD — GOD AND THE SPIRIT NEVER
+EMBODIED, AND NO FIRE**: Numbers 11 has no flame, and none was imported from
+Pentecost — no tongue-of-fire, dove, figure or beam anywhere. The sharing (b04)
+shows nothing passing between people; the prophesying (b06/b08) is carried by
+the men's own alight faces and voices; b14/b16 have nothing hanging over the
+camp. Moses one consistent white-bearded man; Joshua one consistent younger
+dark-haired man; Eldad and Medad distinct. Card clean.
+
+**AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 69.233s vs extract 68.229s,
+gap placement; 10 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=cae594479b…**,
+68.2s, 20.1 MB.
