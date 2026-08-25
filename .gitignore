@@ -138,3 +138,4 @@ media-production/elevenlabs*KEY*.txt
 # archive/dupe-dirs holds superseded duplicate build folders kept only as local
 # reference — their audio was never tracked and should not clutter git status.
 archive/dupe-dirs/**/*.mp3
+story-videos-delivery/
