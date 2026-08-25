@@ -1,5 +1,31 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
+**2026-08-24 — VIDEO HOSTING MOVED OFF FIREBASE (read this before touching video URLs).**
+Firebase Hosting's free tier allows **10 GB egress/month**. At ~20.6 MB per clip that is
+only **~486 video views per month across ALL users combined**, so the quota was exhausted:
+every video and page on milk-b4-meat.web.app began returning HTTP 509 "Bandwidth Quota
+Exceeded". The free tier structurally cannot host a video app — this would recur monthly.
+
+FIXED WITHOUT BILLING (no Blaze upgrade needed):
+- **App videos + thumbnails now stream from a GitHub release** (`videos-v1` tag):
+  `https://github.com/noremacttevol/MBM/releases/download/videos-v1/<id>.mp4` and
+  `.../thumb-<id>.jpg`. GitHub does not meter or bill release-asset downloads, so the
+  ceiling is gone rather than raised. Release assets are a FLAT namespace — thumbnails are
+  `thumb-<id>.jpg`, NOT `thumbs/<id>.jpg`. 122 approved clips + 122 thumbs uploaded and
+  verified byte-exact against `site/story-videos/`. Changed in `mobile/src/data/videos.ts`
+  (VIDEO_HOST + videoThumbUrl); shipped via EAS OTA group
+  `be0bfcd7-a6c2-4014-b880-31939d29953e` (runtime 1.1.0, iOS+Android).
+- **Reviewer mirrored to GitHub Pages:** https://noremacttevol.github.io/MBM/review.html
+  (`docs/review.html`, copied from `site/review.html`). Approve / Report-a-problem still
+  work because they write to Firestore, a SEPARATE service that was never out of quota.
+  Keep the mirror in step with site/review.html whenever cards change.
+- **`scripts/audit_public_videos.py` now checks the GitHub host** and PASSES all eight
+  checks. Row 95 was an unapproved stray in the gallery folder — pulled from the release
+  and archived to `media-production-v2/gallery-archive-v1/95.mp4`.
+- **Still on Firebase and still dark until the monthly reset (~Sep 1) or a Blaze upgrade:**
+  the milkb4meat.org marketing site and stories.html. Only the app and reviewer moved.
+  Firestore, GitHub, ElevenLabs and Gemini were never affected.
+
 **Last verified true: 2026-08-07 — traffic-readiness sweep (Machine A). Everything
 re-verified first-hand via iTunes lookup, ASC API, Play Developer API, EAS, and live curl:**
 
