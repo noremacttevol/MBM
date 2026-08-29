@@ -1,3 +1,21 @@
+## 2026-08-29 (Claude, Machine A `Dev`) — **STATUS SWEEP: APP + REVIEWER HEALTHY; GATE FAIL FIXED (staging mp4s moved out of site/)**
+
+Cameron asked how the app and website look after the Firebase outage. Live-verified:
+- **App: WORKING.** Videos + thumbs stream from the `videos-v1` GitHub release
+  (sample mp4 fetch 206, byte-range OK). Firestore (approve/report) unaffected.
+- **Reviewer mirror: UP** — noremacttevol.github.io/MBM/review.html returns 200.
+- **milkb4meat.org + milk-b4-meat.web.app: still HTTP 509** (Firebase egress quota;
+  resets ~Sep 1). DNS still points at Firebase 199.36.158.100 — the Squarespace DNS
+  change to GitHub Pages (documented 2026-08-24, repo `milkb4meat-site`) is still
+  pending on Cameron; Pages verified serving the domain via Host-header fetch (200).
+- **Public-video gate was FAILING (F1):** last session's 1.7 GB of re-encoded delivery
+  copies sat in `site/story-videos-delivery/`, inside Firebase Hosting's public dir —
+  the next deploy would have published 122 unverified mp4s. **Fixed: moved to
+  `media-production-v2/story-videos-delivery/`** (gitignore pattern is unanchored, so
+  git unaffected; no script referenced the old path). Gate re-run: **PASS, all 8 checks.**
+
+---
+
 ## 2026-08-24/25 (Claude, Machine A `Dev`) — **28 VIDEO ROWS SHIPPED + FIREBASE OUTAGE SOLVED FREE + AUTHORED QUEUE EMPTIED**
 
 ### Video production — 28 rows
