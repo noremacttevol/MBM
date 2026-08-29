@@ -1,5 +1,16 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
+**2026-08-29 — milkb4meat.org IS LIVE ON GITHUB PAGES WITH HTTPS (Firebase hosting fully
+retired for the public site).** Cameron changed the Squarespace DNS himself (A → the four
+GitHub Pages IPs, www CNAME → noremacttevol.github.io); cert issued + https_enforced=true
+on repo `noremacttevol/milkb4meat-site`; https://milkb4meat.org → 200. The monthly 509
+bandwidth outage can NEVER recur. Squarespace login is **admin@milkb4meat.org** (NOT
+noremacttevol@gmail.com). ALSO: **iOS 1.1.0 is READY_FOR_SALE — it auto-released** (ASC
+API verified 2026-08-29; releaseType was AFTER_APPROVAL, so the "Cameron must tap Release"
+step below is OBSOLETE). Public iPhone users get current OTAs and all 44 videos. Remaining
+launch gap is ANDROID: closed-test rollout + 12 testers/14 days + **Google developer
+verification HARD DEADLINE Sep 30, 2026**.
+
 **2026-08-24 — VIDEO HOSTING MOVED OFF FIREBASE (read this before touching video URLs).**
 Firebase Hosting's free tier allows **10 GB egress/month**. At ~20.6 MB per clip that is
 only **~486 video views per month across ALL users combined**, so the quota was exhausted:

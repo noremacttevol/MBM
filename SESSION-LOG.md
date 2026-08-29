@@ -1,3 +1,25 @@
+## 2026-08-29 pt.2 (Claude, Machine A `Dev`) — **milkb4meat.org OFF FIREBASE FOR GOOD — LIVE ON GITHUB PAGES WITH HTTPS; iOS 1.1.0 CONFIRMED PUBLIC**
+
+- Cameron made the Squarespace DNS change himself (walked click-by-click): old A
+  199.36.158.100 deleted, four GitHub Pages A records on `@`, `www` CNAME →
+  noremacttevol.github.io. Verified propagated via 8.8.8.8.
+- Cert stalled 2h; fixed by removing + re-adding the custom domain on the
+  `milkb4meat-site` repo (re-triggers issuance) + fresh Pages build. Cert landed
+  5 min later; **https_enforced=true set via API; https://milkb4meat.org → 200.**
+  The monthly Firebase 509 outage can never recur — zero-egress-cost host.
+- **iOS 1.1.0 is READY_FOR_SALE (checked live via ASC API)** — it auto-released
+  (releaseType AFTER_APPROVAL, not MANUAL as START-HERE said). Public iPhone
+  users are un-frozen and receive current OTAs/videos. START-HERE's "Cameron must
+  tap Release" step is OBSOLETE.
+- Squarespace login = noremacttevol@gmail.com... WRONG — Cameron corrected: he
+  logs in via admin@milkb4meat.org. Recorded so nobody re-derives the wrong answer.
+- Next for outreach (Cameron's ask "get the good news out the Jesus way"):
+  personal invites (ward/family = the 12 Android testers), check
+  admin@milkb4meat.org inbox, Play Console closed-test rollout;
+  **Google dev verification HARD DEADLINE Sep 30.**
+
+---
+
 ## 2026-08-29 (Claude, Machine A `Dev`) — **STATUS SWEEP: APP + REVIEWER HEALTHY; GATE FAIL FIXED (staging mp4s moved out of site/)**
 
 Cameron asked how the app and website look after the Firebase outage. Live-verified:
