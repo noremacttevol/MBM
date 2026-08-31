@@ -133,12 +133,14 @@ PICTURES = [
         "crying theatrics, mockery, faces to camera",
         )),
     ("p04", ("n3", 0.5), _p(
-        "What baptism was: in a green river at full morning, a "
-        "believer mid-BURIAL — the baptizer's braced arms lowering a "
-        "grown man fully backward, the water closing over his chest, "
-        "witnesses waist-deep and on the banks — the whole-body "
-        "covenant the font forgot. Seen from beside the action at "
-        "water level.",
+        "What baptism was — UPRIGHT VERTICAL FRAME, horizon level and "
+        "LOW across the frame's lower third: the composition is "
+        "anchored on the BAPTIZER STANDING FULL-HEIGHT mid-river, "
+        "filling the frame's vertical, his braced arms angling DOWN "
+        "toward the frame's bottom corner where the believer arcs "
+        "backward into the closing water — green banks and standing "
+        "witnesses rising behind the baptizer's shoulders into the "
+        "frame's top. The whole-body covenant the font forgot.",
         "a grown believer being fully lowered backward into river "
         "water by braced arms, witnesses around",
         "faces to camera, crowds modern, doves",
