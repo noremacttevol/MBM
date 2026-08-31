@@ -37,14 +37,44 @@ queue in `media-production-v2/`:
 - **The Father and the Son are two distinct embodied persons** — that IS the
   doctrine and the film shows it (council, Grove). No abstraction, no light
   blob standing in for a person.
-- **Lucifer before the fall is glorious**, a son of the morning — not a red
-  cartoon. After the fall he is darkness, shadow, absence; he never gets a
-  cool monster design. The film never makes the devil attractive or funny.
-  His menace is in what he takes.
+- **THE DEVIL LAW (Cameron, 2026-08-31): the devil has NO body — he is a
+  spirit and a voice that sounds evil. He is NEVER rendered as a figure,
+  character, monster, or man in ANY scene, including the premortal council.**
+  On screen he is darkness gathering, shadow spreading, cold absence, a
+  veil — the camera never finds him. His presence is carried by his VOICE
+  (a produced voice cast to sound evil, locked once and reused in every
+  episode) and by what the darkness does. Scripture's personified images
+  (the serpent in Eden, the great chain of Moses 7:26) are rendered as the
+  image scripture names — a serpent, a chain of darkness — never as a
+  humanoid devil. This also kills the face-consistency problem: there is no
+  devil face to keep locked. The film never makes him attractive or funny;
+  his menace is in his voice and in what he takes.
 - No halo/glow/rim-light outlining faces (same law as the main queue).
 - Reverence outranks spectacle in every frame. "Fun and exciting battle"
   means the STAKES stay thrilling — never that sacred beings get action-movie
   treatment.
+
+## Voice cast (Cameron, 2026-08-31: produced narrator, not Cameron's voice)
+
+- **Narrator:** produced voice. Default = the SAME narrator voice as the
+  first 200 videos (ElevenLabs Brian) so every MBM property sounds like one
+  storyteller — Cameron can veto for a new dedicated voice.
+- **Jesus:** speaks only exact KJV words, in the same locked Jesus voice as
+  the main queue (Chris). Same voice + same locked face = one Jesus across
+  everything MBM makes.
+- **The devil:** his own locked voice that sounds evil — cast by rendering
+  his Episode 1 council speech (Moses 4:1 KJV) in 2–3 candidate voices for
+  Cameron to hear and pick ONE, which is then locked for all 33 episodes.
+- **The Father:** speaks rarely and only exact scripture ("This is My
+  Beloved Son. Hear Him!"). Voice cast the same audition way, with maximum
+  reverence, before Episode 1 ships.
+
+## Format & distribution (Cameron, 2026-08-31)
+
+- **1080×1920 vertical (9:16), phone-scroll first** — identical to the 200-
+  queue delivery spec. Every still is generated and framed for vertical.
+- Distribution = the same three surfaces as the first 200 videos: social
+  media + the app gallery + the website (milkb4meat.org).
 
 ---
 
@@ -54,8 +84,8 @@ You are not generating a 3-minute movie in one prompt. Each episode is
 **8–12 shots of 4–6 seconds**, cut under a voiceover recorded first.
 
 1. **Lock the spoken words** (the script is the product; everything serves it)
-2. **Record the VO** (Cameron's own voice if possible — it testifies harder
-   than a rented one)
+2. **Render the VO** (produced voices per the Voice cast section — narrator,
+   Jesus, the devil, the Father — never Cameron's own voice)
 3. **Still images with locked faces** (Grok Imagine or the Gemini pipeline)
 4. **Animate each still** (image-to-video)
 5. **Edit picture to the voice** (CapCut or DaVinci)
