@@ -1,0 +1,175 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Thirty-two episodes ago, two speeches collided in a council before the world. This is how the collision ends \u2014 and where you come in for the final scene.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.3,
+   "seg_dur": 9.02
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "The Son is coming back. Not as a baby this time \u2014 as the King. The plan's last public event is already on every calendar in heaven, and every eye will see it.",
+   "seg_start": 9.02,
+   "audio_start": 9.3,
+   "spoken_end": 18.496,
+   "seg_dur": 10.196
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "That at the name of Jesus every knee should bow, of things in heaven, and things in earth, and things under the earth; and that every tongue should confess that Jesus Christ is Lord, to the glory of God the Father.",
+   "seg_start": 19.216,
+   "audio_start": 19.496,
+   "spoken_end": 31.768,
+   "seg_dur": 13.702
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Every knee. Including the ones that mocked. Including the one that rebelled first. And then, the sentence this whole war has been waiting for:",
+   "seg_start": 32.918,
+   "audio_start": 33.198,
+   "spoken_end": 42.697,
+   "seg_dur": 10.499
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "And I saw an angel come down from heaven, having the key of the bottomless pit and a great chain in his hand. And he laid hold on the dragon, that old serpent, which is the Devil, and Satan, and bound him a thousand years.",
+   "seg_start": 43.417,
+   "audio_start": 43.697,
+   "spoken_end": 57.281,
+   "seg_dur": 15.015
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "Bound. Not negotiated with. Not rehabilitated. Bound \u2014 and notice the instrument: a great chain. The chain he flaunted over Enoch's world comes back around. And the earth gets a thousand years of what Zion tasted \u2014 children growing up without his voice anywhere in the air.",
+   "seg_start": 58.431,
+   "audio_start": 58.711,
+   "spoken_end": 77.034,
+   "seg_dur": 19.323
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "But why not today? If the King can end it, why the wait? He answered that himself \u2014 in a parable this series has already shown you:",
+   "seg_start": 77.754,
+   "audio_start": 78.034,
+   "spoken_end": 85.91,
+   "seg_dur": 8.875
+  },
+  {
+   "seg": "j1",
+   "speaker": "jesus",
+   "text": "Nay; lest while ye gather up the tares, ye root up also the wheat with them. Let both grow together until the harvest.",
+   "seg_start": 86.63,
+   "audio_start": 86.91,
+   "spoken_end": 93.852,
+   "seg_dur": 8.373
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Pull the tares early, and you tear up wheat. Every day the end delays, somebody is still deciding. And Peter says the delay itself is the mercy:",
+   "seg_start": 95.002,
+   "audio_start": 95.282,
+   "spoken_end": 103.441,
+   "seg_dur": 9.159
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward, not willing that any should perish, but that all should come to repentance.",
+   "seg_start": 104.161,
+   "audio_start": 104.441,
+   "spoken_end": 115.466,
+   "seg_dur": 12.455
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Not willing that ANY should perish. The clock runs slow on purpose \u2014 and the purpose is every last name still on the fence.",
+   "seg_start": 116.616,
+   "audio_start": 116.896,
+   "spoken_end": 123.955,
+   "seg_dur": 8.059
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "And when it is finished \u2014 what was it all FOR? John answers with the family secret of the entire plan:",
+   "seg_start": 124.675,
+   "audio_start": 124.955,
+   "spoken_end": 131.49,
+   "seg_dur": 7.535
+  },
+  {
+   "seg": "s4",
+   "speaker": "scripture",
+   "text": "Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is.",
+   "seg_start": 132.21,
+   "audio_start": 132.49,
+   "spoken_end": 142.168,
+   "seg_dur": 11.108
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Like him. That was the point in the council. The point of bodies, and the fall, and the cross, and the keys \u2014 children, growing up into what their Father is. The devil called that blasphemy. The Father calls it parenthood. Paul signs it:",
+   "seg_start": 143.318,
+   "audio_start": 143.598,
+   "spoken_end": 160.038,
+   "seg_dur": 17.44
+  },
+  {
+   "seg": "s5",
+   "speaker": "scripture",
+   "text": "The Spirit itself beareth witness with our spirit, that we are the children of God: and if children, then heirs; heirs of God, and joint-heirs with Christ.",
+   "seg_start": 160.758,
+   "audio_start": 161.038,
+   "spoken_end": 170.242,
+   "seg_dur": 10.634
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Then the last scene of the old world \u2014 God's oldest gesture, and the answer, at last, to the God who wept with Enoch:",
+   "seg_start": 171.392,
+   "audio_start": 171.672,
+   "spoken_end": 178.162,
+   "seg_dur": 7.49
+  },
+  {
+   "seg": "s6",
+   "speaker": "scripture",
+   "text": "And God shall wipe away all tears from their eyes; and there shall be no more death, neither sorrow, nor crying, neither shall there be any more pain: for the former things are passed away.",
+   "seg_start": 178.882,
+   "audio_start": 179.162,
+   "spoken_end": 190.241,
+   "seg_dur": 12.509
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "Back to the room where it started. He told us this would work \u2014 bodies, agency, a Savior, everything recoverable except the will to refuse. It worked. The first speech wins: thy will be done, and the glory be thine forever. And the glory, it turns out \u2014 is us. Home. So, one thing left, because this cannot stay a story you watched: ask Him if it is true. He answered a farm boy in the woods. He has answered millions since. The invitation from episode twenty-six has your name on it. Ask.",
+   "seg_start": 191.391,
+   "audio_start": 191.671,
+   "spoken_end": 226.001,
+   "seg_dur": 35.33
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "He told us it would work. It worked. Now ask Him yourself \u2014 the invitation has your name on it.",
+  "seg_start": 226.721,
+  "audio_start": 227.001,
+  "seg_dur": 7.396
+ },
+ "total": 234.117
+}
