@@ -147,9 +147,56 @@ FATHER_LOCK = (
     "from his body; the light in the scene is environmental."
 )
 
+COURT_LOCK = (
+    "COUNCIL-COURT LOCK: the setting is always the same premortal council "
+    "court — wide terraces of luminous white and gold-veined stone descending "
+    "like broad steps toward a distant raised dais that stands in the "
+    "brightest natural light, under an open endless sky of deep dawn colours "
+    "(indigo overhead melting to warm gold at the horizon). No earth, no "
+    "moon, no vegetation — polished stone, light and sky only. The light on "
+    "the court is environmental daylight from the sky and the bright distance "
+    "around the dais, never rays or beams radiating from any person."
+)
+
+HOSTS_LOCK = (
+    "HOSTS LOCK: the assembled spirits are countless real, solid men and "
+    "women of every ancestry — Middle Eastern, African, East Asian, South "
+    "Asian, European, Pacific — young-adult in bearing, each in a simple "
+    "radiant WHITE robe of real woven cloth (bright pure white, never cream "
+    "— only the Son wears cream). Every robe is a ONE-PIECE, LONG-SLEEVED, "
+    "ankle-length tailored garment, the same cut on everyone — never a "
+    "wrapped sheet, toga, shawl, towel, sash-wrap or any draping that "
+    "leaves a shoulder or chest bare. They are photographed people with "
+    "weight and shadow: never translucent, never glowing, never winged, "
+    "never floating."
+)
+
 # "FATHER" as a lock token carries BOTH the prose (here) and the reference
 # sheet (gp_engine attaches CAST-GP-REF/father-*.jpeg for the same token).
-_GP_LOCAL_LOCKS = {"FATHER": FATHER_LOCK, "FATHER-TEXT": FATHER_LOCK}
+# COURT/HOSTS are shared across every heaven episode (2-6 and beyond); an
+# episode's own LOCKS entry with the same name overrides (ep01 predates this).
+ADAM_LOCK = (
+    "ADAM LOCK: the same man as the attached reference in every picture — "
+    "in his strong mid-thirties, warm olive-brown sun-weathered skin, thick "
+    "shoulder-length near-black hair and a full dark beard, broad workman's "
+    "build. Kind, intelligent, weathered. No halo, no glow.")
+
+EVE_LOCK = (
+    "EVE LOCK: the same woman as the attached reference in every picture — "
+    "mid-thirties, warm olive-brown skin, very long dark wavy hair, strong "
+    "gentle intelligent features. Wise, warm, fearless. No halo, no glow.")
+
+JOSEPH_LOCK = (
+    "JOSEPH LOCK: the same boy as the attached reference in every picture — "
+    "Joseph Smith at fourteen: a sturdy American farm boy, tall for his age, "
+    "thick sandy light-brown hair, a fair sun-tanned open face, strong brow, "
+    "light-coloured thoughtful eyes, plain 1820 homespun. Earnest, strong, "
+    "unpolished. No halo, no glow.")
+
+_GP_LOCAL_LOCKS = {"FATHER": FATHER_LOCK, "FATHER-TEXT": FATHER_LOCK,
+                   "COURT": COURT_LOCK, "HOSTS": HOSTS_LOCK,
+                   "ADAM": ADAM_LOCK, "EVE": EVE_LOCK,
+                   "JOSEPH-SMITH": JOSEPH_LOCK}
 
 
 def style_of(era):

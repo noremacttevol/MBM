@@ -1,0 +1,139 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "The first war in history was not fought over land, or gold, or borders. It was fought in heaven \u2014 over whether God's children would be free.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.629,
+   "seg_dur": 9.349
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "And there was war in heaven: Michael and his angels fought against the dragon; and the dragon fought and his angels, and prevailed not; neither was their place found any more in heaven.",
+   "seg_start": 9.349,
+   "audio_start": 9.629,
+   "spoken_end": 20.122,
+   "seg_dur": 11.923
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "No swords. No blood. What do spirits fight with? Listen to how the winners won:",
+   "seg_start": 21.272,
+   "audio_start": 21.552,
+   "spoken_end": 26.472,
+   "seg_dur": 5.92
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "And they overcame him by the blood of the Lamb, and by the word of their testimony; and they loved not their lives unto the death.",
+   "seg_start": 27.192,
+   "audio_start": 27.472,
+   "spoken_end": 34.161,
+   "seg_dur": 8.118
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "The blood of the Lamb \u2014 trust in the Redeemer who had already been chosen. And the word of their testimony \u2014 they stood up and said what they knew. That is the whole arsenal of heaven. It still is.",
+   "seg_start": 35.311,
+   "audio_start": 35.591,
+   "spoken_end": 47.401,
+   "seg_dur": 12.81
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "And understand what made this war so strange. Every soldier on both sides could see God. Nobody doubted He existed. This was never a war about whether God is real. It was a war about whether He should be trusted.",
+   "seg_start": 48.121,
+   "audio_start": 48.401,
+   "spoken_end": 61.549,
+   "seg_dur": 14.148
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "The dragon's recruiting pitch was safety. Follow me and you cannot fail. Cannot fall. Cannot be lost. Hand over your freedom, and I will guarantee your outcome.",
+   "seg_start": 62.269,
+   "audio_start": 62.549,
+   "spoken_end": 72.544,
+   "seg_dur": 10.995
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "And a third of our family \u2014 brothers and sisters we knew \u2014 took the deal. Standing in the light of heaven itself, they chose the guarantee over the freedom.",
+   "seg_start": 73.264,
+   "audio_start": 73.544,
+   "spoken_end": 82.357,
+   "seg_dur": 9.813
+  },
+  {
+   "seg": "g1",
+   "speaker": "father",
+   "text": "A third part of the hosts of heaven turned he away from me because of their agency; and they were thrust down, and thus came the devil and his angels.",
+   "seg_start": 83.077,
+   "audio_start": 83.357,
+   "spoken_end": 94.215,
+   "seg_dur": 12.288
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Because of their agency. Even the ones who marched against freedom were free to do it. God would not force them to stay. The whole war was about never forcing anyone \u2014 and He did not make an exception even to win it.",
+   "seg_start": 95.365,
+   "audio_start": 95.645,
+   "spoken_end": 108.673,
+   "seg_dur": 14.028
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "Think about what that cost Him. He is a Father. He watched a third of His children walk out \u2014 and the door He refused to lock behind them was the same open door that made the rest of the plan possible.",
+   "seg_start": 109.393,
+   "audio_start": 109.673,
+   "spoken_end": 121.705,
+   "seg_dur": 13.032
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Michael and the faithful drove the rebellion out \u2014 with testimony, not terror. And the accuser was cast down to the earth. The same earth we were all about to be born on.",
+   "seg_start": 122.425,
+   "audio_start": 122.705,
+   "spoken_end": 133.15,
+   "seg_dur": 11.445
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "That was not an accident. The war did not end that day. It moved. Same two speeches. Same recruiter. Same weapon that beats him \u2014 carried down to a world where the soldiers cannot see the General, and have to fight from memory.",
+   "seg_start": 133.87,
+   "audio_start": 134.15,
+   "spoken_end": 147.562,
+   "seg_dur": 14.412
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "You were in that first fight. And you know which side you held, because you are here, wearing a body. You have beaten him before. The word of your testimony did it once. It will do it again.",
+   "seg_start": 148.282,
+   "audio_start": 148.562,
+   "spoken_end": 159.408,
+   "seg_dur": 11.846
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "You have beaten him before. Testimony is how. It still works.",
+  "seg_start": 160.128,
+  "audio_start": 160.408,
+  "seg_dur": 5.62
+ },
+ "total": 165.748
+}

@@ -131,12 +131,15 @@ PICTURES = [
         "a newborn's hand gripping one adult finger, close and warm",
         "faces, text, jewellery, modern objects")),
     ("p03", "n2", _p(
-        "Adam and Eve walk away from Eden: seen full-length from behind as "
-        "they cross a rocky threshold out of towering green abundance into "
-        "open wild grassland under a great morning sky. The camera stands "
-        "behind them and shoots past their backs toward the wide unknown "
-        "land ahead; neither face is visible. Eden's edge rises behind and "
-        "beside the frame as a wall of deep living green.",
+        "Adam and Eve walk away from Eden, and the camera watches them GO: "
+        "both figures seen full-length from DIRECTLY BEHIND, their backs "
+        "and the backs of their heads filling the middle frame as they "
+        "walk AWAY from the lens across a rocky threshold into open wild "
+        "grassland under a great morning sky. Not one degree of either "
+        "face or profile is visible — hair, shoulders and heels only, "
+        "mid-stride away. Eden's towering wall of deep living green rises "
+        "at the frame's near edges beside the camera, already behind "
+        "them.",
         "the first couple from directly behind, leaving a wall of garden "
         "green and stepping into open wild country",
         "faces visible, anyone turned to camera, angels, swords, glow",
@@ -318,13 +321,15 @@ PICTURES = [
         "graphic detail, faces to camera, modern objects, glow",
         )),
     ("p20", "n10", _p(
-        "The old lie leaves the room: morning light floods through a "
-        "small deep-set window into a stone nursery corner where a "
-        "carved wooden cradle stands — and the last of a cold grey "
-        "shadow-stain slides off the cradle and down the wall away from "
-        "the light, formless, like night draining out of the room. The "
-        "cradle and swaddled child in it lie fully in the warm light; "
-        "the retreating dimness is empty of any shape.",
+        "The old lie leaves the room — BOTH halves in one frame: morning "
+        "light floods through a small deep-set window onto a carved "
+        "wooden cradle with its swaddled sleeping child, the cradle "
+        "fully in the warm gold — while the LEFT THIRD of the frame "
+        "still holds the retreating cold grey-blue dimness, a soft "
+        "formless gradient of night visibly sliding off the wall and "
+        "floor toward the left edge, its smooth boundary halfway out of "
+        "the room. Warm light winning on the right, empty formless dark "
+        "leaving on the left, the cradle safely in the bright half.",
         "warm window light flooding a cradle while a formless cold "
         "shadow-stain drains off it and away down the wall",
         "ANY figure, face, eyes or shape in the shadow, smoke, horns, "
