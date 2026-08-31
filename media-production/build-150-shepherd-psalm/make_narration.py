@@ -32,25 +32,25 @@ from mbm_speakers import NARRATOR, SCRIPTURE
 # (id, speaker, caption_text). The caption always shows this exact text; only the
 # string handed to the TTS is respelled.
 SEGMENTS = [
-    ("n0", NARRATOR, "Three thousand years ago a shepherd-king wrote a song about being shepherded himself. It starts like this:"),
+    ("n0", NARRATOR, "Before he was a king, David had many jobs. Court musician. Soldier. Ruler of a nation. But when he reached for a way to describe God, he went back to his first job, the one he had as a boy watching his father's sheep. His song starts like this:"),
     # Psalm 23:1
     ("s1", SCRIPTURE, "The LORD is my shepherd; I shall not want."),
     ("n0b", NARRATOR, "The Lord takes care of me. There is nothing I need that I won't have. That is the whole psalm in one line — everything after it is David showing his work."),
     # Psalm 23:2
     ("s2", SCRIPTURE, "He maketh me to lie down in green pastures: he leadeth me beside the still waters."),
-    ("n1a", NARRATOR, "He leads me to quiet water and green places to rest."),
+    ("n1a", NARRATOR, "He leads me to quiet water and green places to rest. And the still water is on purpose. A sheep will not drink from rushing water. It is afraid of it. So the shepherd goes ahead and finds the quiet pools, because he knows what his sheep cannot say."),
     # Psalm 23:3
     ("s3a", SCRIPTURE, "He restoreth my soul:"),
-    ("n1b", NARRATOR, "He puts my life back together."),
+    ("n1b", NARRATOR, "He puts my life back together. Shepherds have a word for a sheep stuck on its back, legs in the air, unable to rise. Cast. A cast sheep will die where it lies unless someone comes. So the shepherd restores it. He lifts it upright and holds it tight against himself until the blood runs back into its legs and it can stand. That is the word David chose. Held until you can stand."),
     # Psalm 23:3
     ("s3b", SCRIPTURE, "he leadeth me in the paths of righteousness for his name's sake."),
-    ("n2", NARRATOR, "He guides me down the right paths, for His name's sake — not because I earned the guiding, but because of who He is."),
+    ("n2", NARRATOR, "He guides me down the right paths, for His name's sake. Sheep will only follow a voice they know. A stranger's call scatters them. And in David's day the shepherd lived with his sheep — he slept beside them under the open sky and walked out ahead of them each morning. The guiding voice was the most familiar voice in their world."),
     # Psalm 23:4
     ("s4", SCRIPTURE, "Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me; thy rod and thy staff they comfort me."),
     ("n3", NARRATOR, "Even in the darkest valley, I'm not afraid. And notice what changes right there: up to now David has been saying He. In the valley he starts saying You. He gets closer to the Shepherd in the dark, not further away."),
     # Psalm 23:5
     ("s5a", SCRIPTURE, "Thou preparest a table before me in the presence of mine enemies:"),
-    ("n4a", NARRATOR, "You set a table for me right in front of my enemies."),
+    ("n4a", NARRATOR, "Lord, you set a table for me right in front of my enemies."),
     # Psalm 23:5
     ("s5b", SCRIPTURE, "thou anointest my head with oil; my cup runneth over."),
     ("n4b", NARRATOR, "You honor me;"),

@@ -193,3 +193,50 @@ WINDOW.
   b14 (person-free, clean). GORGE NOT promoted — b11 carries David
   (lesson 944: don't promote a figure-bearing frame; only 2 gorge
   beats, identity held by the DAVID ref).
+
+---
+
+## ✅ NARRATIVE REBUILD SHIPPED (2026-08-30/31, Machine A `Dev`, Claude session)
+
+**COMPLAINT (Cameron):** open with David's many jobs and that he described God by
+his FIRST job as a boy; captions were off and not correct; teach the CAST sheep
+(restored by the shepherd holding it tight until blood returns to its legs);
+teach that sheep will not drink from rushing water; that sheep know the
+shepherd's voice; that shepherds lived with their sheep — more personal than
+today.
+
+**WHAT SHIPPED — every point, verified in the encoded cut by transcription:**
+1. NEW opening (n0 re-written + re-voiced): "Before he was a king, David had
+   many jobs… he went back to his first job, the one he had as a boy watching
+   his father's sheep." + two new pictures (king-with-harp from behind; the boy
+   on the Bethlehem hills).
+2. **"Captions were off" ROOT-CAUSED:** five narrator mp3s on disk (n0b, n4a,
+   n4b, n5a, n5b) had been voiced from an OLDER draft than the SEGMENTS caption
+   text — the captions never matched the voice. All five re-voiced from the
+   caption text; full per-segment round-trip now matches everywhere (only
+   whisper's known deafness to "restoreth" flags, KJV audio untouched).
+3. CAST-SHEEP teaching (n1b re-written + re-voiced) with a 3-picture sequence:
+   the ewe cast on her back → held upright tight against the boy → standing
+   again, his hand on her back.
+4. RUSHING-WATER teaching (n1a) with 2 new pictures: the ewe refusing at the
+   white-water's edge (all four feet on dry land) + the glass-still pool the
+   shepherd found, flock drinking.
+5. VOICE + LIVED-WITH teaching (n2) with 2 new pictures: the boy leading FROM
+   THE FRONT, every sheep behind him; asleep IN AMONG the bedded flock by
+   ember-light.
+
+**n4a pronoun drift (law 12i):** ElevenLabs kept normalizing "You set a table"
+to "He set" (proven by deterministic repeats; formant tests inconclusive because
+/j/ and /iː/ share high F2 — measure the trajectory or don't bother). Durable
+fix at the SOURCE: the line is now "Lord, you set a table…" in BOTH caption and
+audio — the vocative makes the pronoun undriftable; round-trip confirms.
+
+**Timeline:** all 28 windows re-authored to the fresh extract boundaries after
+the re-voice (the "Lord," addition shifted downstream segs ~0.3s; caption bands
+spot-checked at 160/168/171.5/191s — correct at every boundary). b24 replaced
+with a cup-runneth-over insert (old b21/b24 reused pair measured 0.945 — law
+12m); new corr 0.25.
+
+**Cost:** 14 gens (9 new teaching stills + 4 fix rerolls + 1 insert), ~$1.88 +
+ElevenLabs cents. 19 of 28 pictures reused at $0. AUDIO REBUILD PASS
+SHA256=24880a30ff…, 203.1s, 20.9 MB.
