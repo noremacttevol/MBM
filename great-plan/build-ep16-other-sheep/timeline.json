@@ -1,0 +1,139 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Six hundred years before Bethlehem, God did something nobody in Jerusalem knew about. It is the reason a second book of scripture exists.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.828,
+   "seg_dur": 8.548
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Jerusalem, six hundred years before Christ. Prophets warning of destruction; a city refusing to hear. One of those prophets was a wealthy man named Lehi \u2014 and the city planned to kill him.",
+   "seg_start": 8.548,
+   "audio_start": 8.828,
+   "spoken_end": 20.739,
+   "seg_dur": 12.911
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "So God moved him. Family, tents, seeds, everything \u2014 out of the city, into the wilderness, and at last across the ocean to a new promised land on the far side of the world.",
+   "seg_start": 21.459,
+   "audio_start": 21.739,
+   "spoken_end": 31.999,
+   "seg_dur": 11.26
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "Now think about what God was actually doing. The devil's long game was corrupting the RECORD \u2014 bending scripture through hostile centuries until the plain things went missing. So God quietly planted a second witness where the corrupters would never find it.",
+   "seg_start": 32.719,
+   "audio_start": 32.999,
+   "spoken_end": 48.174,
+   "seg_dur": 16.175
+  },
+  {
+   "seg": "j1",
+   "speaker": "jesus",
+   "text": "Know ye not that the testimony of two nations is a witness unto you that I am God, that I remember one nation like unto another?",
+   "seg_start": 48.894,
+   "audio_start": 49.174,
+   "spoken_end": 55.567,
+   "seg_dur": 7.823
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "The testimony of two nations. Two records, two hemispheres, one God. While the old world's record passed through hostile hands, this one would pass prophet to prophet \u2014 and then be buried, whole, for the exact century it would be needed.",
+   "seg_start": 56.717,
+   "audio_start": 56.997,
+   "spoken_end": 73.086,
+   "seg_dur": 17.089
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Lehi's family grew into nations, and their thousand-year story became the Book of Mormon. And the constant thread through all of it: they knew Christ by name, centuries before the manger.",
+   "seg_start": 73.806,
+   "audio_start": 74.086,
+   "spoken_end": 85.665,
+   "seg_dur": 12.579
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "And we talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ, and we write according to our prophecies, that our children may know to what source they may look for a remission of their sins.",
+   "seg_start": 86.385,
+   "audio_start": 86.665,
+   "spoken_end": 98.26,
+   "seg_dur": 13.026
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Written six hundred years before Bethlehem, on the other side of the planet. That is not luck. That is a Father making certain no hemisphere and no century would be left without the testimony of His Son.",
+   "seg_start": 99.41,
+   "audio_start": 99.69,
+   "spoken_end": 110.918,
+   "seg_dur": 12.228
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "And Jesus himself told the Jews about them \u2014 in one sentence they did not understand:",
+   "seg_start": 111.638,
+   "audio_start": 111.918,
+   "spoken_end": 116.787,
+   "seg_dur": 5.869
+  },
+  {
+   "seg": "j2",
+   "speaker": "jesus",
+   "text": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
+   "seg_start": 117.507,
+   "audio_start": 117.787,
+   "spoken_end": 126.005,
+   "seg_dur": 9.648
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Other sheep. That was never a metaphor. It was an address. And after his resurrection, he kept that promise in person \u2014 but that is episode twenty.",
+   "seg_start": 127.155,
+   "audio_start": 127.435,
+   "spoken_end": 135.744,
+   "seg_dur": 9.309
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Here is what the other sheep mean for you. God remembers nations nobody else remembers. He writes to children nobody else writes to. If you have ever felt like a forgotten branch of the family \u2014 off the main road, outside the famous story \u2014 you are exactly the kind of people He plants witnesses for.",
+   "seg_start": 136.464,
+   "audio_start": 136.744,
+   "spoken_end": 154.988,
+   "seg_dur": 19.244
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "The devil corrupts records. God plants spares. And one of His spares was buried in a hillside \u2014 with your century's name on it.",
+   "seg_start": 155.708,
+   "audio_start": 155.988,
+   "spoken_end": 163.266,
+   "seg_dur": 8.279
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "God remembers the sheep nobody else counts. He wrote a second witness to prove it.",
+  "seg_start": 163.986,
+  "audio_start": 164.266,
+  "seg_dur": 6.404
+ },
+ "total": 170.39
+}
