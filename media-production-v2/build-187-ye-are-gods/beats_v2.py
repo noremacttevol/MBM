@@ -159,14 +159,13 @@ BEATS = [
         "must_show": "GREEN caption (God-voice from the Psalm) — Jesus finishing the read line, an open hand extended toward the leaders as the scroll names even them 'children of the most High'; the leaders uneasy at hearing their own book turned on them.",
         "must_not_show": "GOD IS NOT SHOWN — no God or Father figure, throne, hand, beam or rays; no legible or rendered writing; no halo, glare or rim-light; only Jesus in cream; no modern object; not a cartoon.",
         "scene": (
-            "A closer two-shot: Jesus finishes the line from the scroll and opens a hand "
-            "toward the leaders as their own psalm names even them children of the most "
-            "High — only he wears the plain cream robe. The leaders' faces turn uneasy at "
-            "their own book turned back on them. No figure stands in for God; the scroll "
-            "carries nothing legible. Ordinary-sized men on one floor, one head each, "
-            "gaze between Jesus and the leaders, not to the camera; warm daylight, no "
-            "ring of light around any head."
-            "CAMERA: a tighter OVER-THE-SHOULDER past a leader's dark shoulder in the near foreground, Jesus beyond opening his hand. NOT the side-on two-shot of b04."
+            "A tighter shot past a leader's dark shoulder: Jesus with EXACTLY "
+            "TWO HANDS in strict accounting — his RIGHT hand alone carries the "
+            "scroll, closed around both rollers together and lowered to his "
+            "side at hip height, while his LEFT hand opens palm-up toward the "
+            "leaders as he finishes the line. Two hands total, one on the "
+            "lowered scroll, one gesturing; no third hand, no extra arm, no "
+            "second grip anywhere on the scroll. His V2 face calm and sure."
         ),
     },
     {

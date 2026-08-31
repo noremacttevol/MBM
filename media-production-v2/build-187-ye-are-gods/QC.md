@@ -88,3 +88,19 @@ twinned. Card clean.
 **AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 72.733s vs extract 70.318s,
 gap placement; 9 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=16985c50e8…**,
 70.3s, 20.8 MB.
+
+---
+
+## ✅ C-FIX SHIPPED (2026-08-31, Machine A `Dev`, Claude session)
+
+**COMPLAINT (Cameron):** "0:23 Jesus has a double hand holding the scripture
+scroll and gesturing." Verified in the live frame: three hands (open gesture +
+a fist on the left roller + right hand on the right roller).
+
+**AUTOPSY: CAUSED** — the b05 scene asked Jesus to hold the OPEN scroll AND
+open a hand toward the leaders in one pose; the model resolved it with an
+extra hand. Rewritten with strict two-hand accounting: the RIGHT hand alone
+carries the scroll closed and lowered to hip height, the LEFT opens palm-up;
+"no third hand, no extra arm, no second grip". 1 gen, $0.13. Verified in the
+ENCODED replacement at 0:23 — exactly two hands, V2 face on-model, cream only
+him, no halo. AUDIO REBUILD PASS (narration untouched).
