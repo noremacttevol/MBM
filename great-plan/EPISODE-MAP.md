@@ -56,10 +56,17 @@ the Father, his place, his future — and the one thing he can never get back:
 he will never have a body. The children he wanted to rule will all receive
 the very thing he forfeited. So his motive from this day forward is written
 plainly in scripture: he seeks that all men might be miserable like unto
-himself.
-**The war:** the devil's entire strategy for the rest of history is born
-here — he cannot win anything anymore, so he plays only to make us lose.
-**Anchors:** Isaiah 14:12–15; Luke 10:18; 2 Nephi 2:17–18, 27; Revelation 12:12.
+himself. Then the episode answers the question every honest viewer is
+already asking: why would God allow a devil at all? Because God accepted
+every spirit who chose freedom — and real freedom means "no" has to be
+genuinely possible. Scripture says it straight: "it must needs be that the
+devil should tempt the children of men, or they could not be agents unto
+themselves." God did not create evil. He refused to counterfeit freedom —
+knowing what freedom would cost, with the payment already arranged.
+**The war:** the devil thinks his existence proves God failed. It proves
+the opposite — agency was real enough to produce him, which is exactly what
+makes our growth real enough to matter.
+**Anchors:** Isaiah 14:12–15; Luke 10:18; 2 Nephi 2:11, 15–18, 27; D&C 29:39; Revelation 12:12.
 
 ### Episode 5 — The Proving Ground
 "We will go down... and we will make an earth whereon these may dwell; and we
@@ -67,7 +74,11 @@ will prove them herewith." Creation, shown as what it actually was: not an
 accident and not a whim — a deliberate, loving construction project. The Son,
 under the Father's direction, organizes a world as the school of the second
 estate: a place where His children can walk by faith, choose in the dark, and
-grow into what their Father is.
+grow into what their Father is. Two honest notes the script says out loud:
+the proving is for OUR becoming, not His information — He already knows His
+children; the test is a gym, not a quiz. And on the how of creation — the
+process, the timeline — God hasn't told us everything, and we say so. What
+He revealed is who did it and why. That's the part that changes your life.
 **The war:** the devil calls the earth his kingdom. He's wrong. Every sunrise
 is the Father's architecture — a classroom built by Someone who intended His
 children to graduate.
@@ -75,15 +86,18 @@ children to graduate.
 
 ### Episode 6 — The Guarantee
 The terms of mortality are brutal on paper: a veil of forgetting, real
-danger, real death, real sin. Why would a loving Father allow that? Because
-the plan never had an unfunded risk — before the first breath was drawn, a
-Savior was already chosen, "the Lamb slain from the foundation of the world."
-We didn't go down uninsured. The Father let us fall only because the Son had
-already promised to catch us.
-**The war:** the devil bets that pain will prove God doesn't love us. But the
-rescue was signed before the danger started — the pain was never a sign of
-abandonment.
-**Anchors:** Revelation 13:8; 1 Peter 1:19–20; Abraham 3:25–26; Alma 34:9.
+danger, real death, real sin. Why the veil — why would God hide from His own
+children? Because the point is to see what we love when we can't see Him. A
+God standing visibly in the room doesn't get chosen — He gets complied with,
+and compliance was Lucifer's plan. Faith is the only condition where
+becoming is possible. And the plan never had an unfunded risk — before the
+first breath was drawn, a Savior was already chosen, "the Lamb slain from
+the foundation of the world." We didn't go down uninsured. The Father let us
+fall only because the Son had already promised to catch us.
+**The war:** the devil bets that pain and silence will prove God doesn't
+love us. But the rescue was signed before the danger started — the pain was
+never abandonment, and the silence was never absence.
+**Anchors:** Revelation 13:8; 1 Peter 1:19–20; Abraham 3:25–26; Alma 34:9; Ether 12:6; 2 Corinthians 5:7.
 
 ---
 
@@ -253,12 +267,15 @@ one Person who never owed any of it. "Not my will, but thine, be done" — the
 same sentence He said before the world, now costing everything. Then
 betrayal, the mock trial, the cross — "this is your hour, and the power of
 darkness" — and the devil throws everything he has at getting Him to quit.
-He doesn't. It is finished.
+He doesn't. It is finished. And the episode answers the question underneath
+it all: why couldn't God just forgive — why a cross? Because justice is
+real and mercy cannot rob it. So mercy paid it. Forgiveness was never God
+waiving the debt. It was God eating it.
 **The war:** Lucifer's plan would have saved our bodies by erasing our souls.
 The Father's plan saves the whole person — and here is the bill, and the Son
 pays it. This is what "God so loved the world" costs, and He paid it for
 people who were busy killing Him.
-**Anchors:** Luke 22:39–44, 53; Matthew 26–27; D&C 19:16–19; Mosiah 3:7; John 19:30.
+**Anchors:** Luke 22:39–44, 53; Matthew 26–27; D&C 19:16–19; Mosiah 3:7; Alma 42:13–25; Alma 34:9–16; John 19:30.
 
 ### Episode 20 — All Power
 The tomb breaks. Death — the devil's oldest, surest weapon — is now a
@@ -473,11 +490,14 @@ the earth receives its paradisiacal glory. And then the point of everything:
 "When he shall appear, we shall be like him." Bodies glorified. Families
 sealed. Agency intact the entire way — He never forced anyone, and He never
 gave up on anyone. The Father wanted children who would become like Him,
-and He was willing to pay what it cost. Back to the room where it started:
-He told us this would work. He was right.
+and He was willing to pay what it cost. And to the last question — if He
+wins in the end, why the wait? — His own parable: the wheat and the tares
+grow together until the harvest, because ripping out tares early tears up
+wheat. Every day the end delays is mercy for someone still deciding. Back
+to the room where it started: He told us this would work. He was right.
 **The war:** ends. The first speech wins — "Father, thy will be done, and
 the glory be thine forever" — and the glory is: us, home.
-**Anchors:** Revelation 20:1–3; Philippians 2:10–11; Articles of Faith 10; 1 John 3:2; Moroni 7:48; Revelation 21:3–4; Romans 8:16–17.
+**Anchors:** Revelation 20:1–3; Philippians 2:10–11; Articles of Faith 10; Matthew 13:24–30; 2 Peter 3:9; 1 John 3:2; Moroni 7:48; Revelation 21:3–4; Romans 8:16–17.
 
 ---
 

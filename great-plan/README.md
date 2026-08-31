@@ -11,6 +11,7 @@ and a testimony of the restored gospel.
 |---|---|
 | [MASTER-STORY.md](./MASTER-STORY.md) | The canonical six-movement story. Scripts are written FROM it. |
 | [EPISODE-MAP.md](./EPISODE-MAP.md) | **Part A** — all 33 episodes with loglines + scripture anchors. Cameron approves this before Part B. |
+| [QUESTION-LEDGER.md](./QUESTION-LEDGER.md) | Every question a regular person could ask of the plan, mapped to the episode + story that answers it. Ship gate: an episode's assigned questions must be answered in its cut. |
 | `episodes/` | **Part B** — finished episode packets (VO script + shot list), four at a time, only after Part A approval. |
 
 ---
@@ -73,8 +74,17 @@ queue in `media-production-v2/`:
 
 - **1080×1920 vertical (9:16), phone-scroll first** — identical to the 200-
   queue delivery spec. Every still is generated and framed for vertical.
-- Distribution = the same three surfaces as the first 200 videos: social
-  media + the app gallery + the website (milkb4meat.org).
+- **Social media: free to the world.** Episodes post publicly — they ARE the
+  enticement, pulling people to download the app to see all of it,
+  organized and in order.
+- **In the app: NOT shown to everyone.** The Great Plan unlocks only for
+  users who by SELF-PROCLAMATION are investigating — open enough that their
+  signals reach the BRIDGE step. It appears as a **watch folder on the
+  PROFILE page** (one organized place, episodes in order, progress
+  tracked). It is never waved at MILK-stage seekers — the app's
+  invisible-routing law governs here like everywhere else. (App feature
+  spec lives here until the app work begins; the film is built first.)
+- **Website (milkb4meat.org):** same treatment as the 200 videos.
 
 ---
 

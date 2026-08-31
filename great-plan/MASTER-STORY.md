@@ -77,7 +77,7 @@ Son will finish what He started.
 
 ---
 
-## The two doctrines that must never be compressed
+## The doctrines that must never be compressed
 
 **Not damned for Adam.**
 Article of Faith 2 is not a footnote. It is a turning point in Movement II.
@@ -92,6 +92,35 @@ to stop the authorized church that applies it. That is why keys, ordinances,
 living apostles, and the true nature of God are the things that go missing —
 and the things heaven has to bring back by sending the last men who held
 them.
+
+**The necessity of the devil (Cameron, 2026-08-31).**
+The film must show HOW WE KNOW the devil is necessary — not as God's
+partner, but as the price of real freedom. God accepted every spirit who
+chose His plan; real agency means "no" must be genuinely possible, so He
+knew rebellion would come, and He folded it into the plan rather than fake
+the freedom. "It must needs be that the devil should tempt the children of
+men, or they could not be agents unto themselves" (D&C 29:39); "it must
+needs be, that there is an opposition in all things" (2 Nephi 2:11).
+Opposition is the condition that makes truly growing like Jesus possible.
+God did not create evil — He refused to counterfeit freedom.
+
+---
+
+## The Humility Law (Cameron, 2026-08-31)
+
+The film answers every question a regular person has about whether God's
+plan makes sense and shows He is good — inside the stories, entertainingly —
+but it says plainly what we KNOW and what we DON'T KNOW. Where revelation is
+silent (the how of creation, the full why behind hard Old Testament
+passages, the origins of God), the narrator says so, humbly, and testifies
+only of what has been revealed. Confidence about the revealed, honesty about
+the unrevealed — that mix is what makes the testimony credible.
+
+The complete question list, and which episode answers each, lives in
+[QUESTION-LEDGER.md](./QUESTION-LEDGER.md). **Gate: no episode ships unless
+the questions assigned to it are actually answered in the cut. New questions
+get added to the ledger and assigned to an episode in the same session they
+surface.**
 
 ---
 
