@@ -1,0 +1,157 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "While the old world drifted into its long twilight, the other hemisphere fell off a cliff. This is the loneliest chapter in scripture \u2014 and one of the bravest.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.675,
+   "seg_dur": 10.395
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Remember what the Nephites had. The risen Christ had walked their streets. And after he left came two hundred years of actual Zion \u2014 no poor, no classes, no war, all things common among them.",
+   "seg_start": 10.395,
+   "audio_start": 10.675,
+   "spoken_end": 23.678,
+   "seg_dur": 14.002
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "And surely there could not be a happier people among all the people who had been created by the hand of God.",
+   "seg_start": 24.398,
+   "audio_start": 24.678,
+   "spoken_end": 29.786,
+   "seg_dur": 6.539
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Two centuries of the happiest people God ever made. And then pride crept back. Fine clothes. Classes. Old grudges, renamed. And out of the dark, within living memory of paradise, the secret combinations came back.",
+   "seg_start": 30.936,
+   "audio_start": 31.216,
+   "spoken_end": 45.935,
+   "seg_dur": 15.719
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "It ended at a hill called Cumorah \u2014 the last battle of a thousand-year civilization. Hundreds of thousands fell, and the prophet-general Mormon fell with them. When the smoke cleared, one covenant keeper was left standing on the continent.",
+   "seg_start": 46.655,
+   "audio_start": 46.935,
+   "spoken_end": 62.319,
+   "seg_dur": 16.383
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "And my father also was killed by them, and I even remain alone to write the sad tale of the destruction of my people.",
+   "seg_start": 63.039,
+   "audio_start": 63.319,
+   "spoken_end": 69.556,
+   "seg_dur": 7.667
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "I have not friends nor whither to go; and how long the Lord will suffer that I may live I know not.",
+   "seg_start": 70.706,
+   "audio_start": 70.986,
+   "spoken_end": 76.196,
+   "seg_dur": 6.64
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Moroni. Son of Mormon. The last believer of a dead nation \u2014 hunted, homeless, and carrying the thousand-year record of God's dealings with his people.",
+   "seg_start": 77.346,
+   "audio_start": 77.626,
+   "spoken_end": 87.372,
+   "seg_dur": 10.746
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "And what does the loneliest man in history do with the record of the people who broke his heart? He does not burn it. He finishes it. Alone, for years, he abridges, copies in his father's letters, and writes his farewell.",
+   "seg_start": 88.092,
+   "audio_start": 88.372,
+   "spoken_end": 101.124,
+   "seg_dur": 13.753
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "And in that farewell he does something astonishing. He writes to US \u2014 and explains how he can:",
+   "seg_start": 101.844,
+   "audio_start": 102.124,
+   "spoken_end": 108.02,
+   "seg_dur": 6.896
+  },
+  {
+   "seg": "s4",
+   "speaker": "scripture",
+   "text": "Behold, I speak unto you as if ye were present, and yet ye are not. But behold, Jesus Christ hath shown you unto me, and I know your doing.",
+   "seg_start": 108.74,
+   "audio_start": 109.02,
+   "spoken_end": 116.274,
+   "seg_dur": 8.683
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "He saw us. The last man of a dead nation, writing by firelight to people seventeen centuries unborn \u2014 and heaven let him see exactly who he was writing to. You. He knew your doing.",
+   "seg_start": 117.424,
+   "audio_start": 117.704,
+   "spoken_end": 130.047,
+   "seg_dur": 13.344
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Then he sealed the record, carried the plates to a hill the Lord showed him, and buried them in a stone box. The second witness \u2014 planted like a seed with a timer, addressed to a world that would one day need proof the heavens were never closed.",
+   "seg_start": 130.767,
+   "audio_start": 131.047,
+   "spoken_end": 145.098,
+   "seg_dur": 15.051
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "The devil, watching, believed he now held both hemispheres. Keys gone in the east. A dead church, a dead nation, and a book in the ground in the west. Say his miscalculation with me one more time: a buried record is not a corpse. It is a seed.",
+   "seg_start": 145.818,
+   "audio_start": 146.098,
+   "spoken_end": 162.998,
+   "seg_dur": 17.9
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "And Moroni's last written words to you, before the dirt closed over the box, were an appointment:",
+   "seg_start": 163.718,
+   "audio_start": 163.998,
+   "spoken_end": 169.485,
+   "seg_dur": 6.487
+  },
+  {
+   "seg": "s5",
+   "speaker": "scripture",
+   "text": "Ye shall see me at the bar of God; and the Lord God will say unto you: Did I not declare my words unto you, which were written by this man?",
+   "seg_start": 170.205,
+   "audio_start": 170.485,
+   "spoken_end": 178.589,
+   "seg_dur": 9.533
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "The last man of a dead nation wrote to you by firelight \u2014 and buried the letter where you would find it.",
+  "seg_start": 179.739,
+  "audio_start": 180.019,
+  "seg_dur": 7.527
+ },
+ "total": 187.266
+}
