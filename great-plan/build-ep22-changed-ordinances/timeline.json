@@ -1,0 +1,130 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Nobody voted to end the church of Jesus Christ. It drifted \u2014 one sincere renovation at a time. This is how you lose a church without anyone noticing.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.329,
+   "seg_dur": 10.049
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "With the apostles gone, the local shepherds did their best. But their best now had no revelation behind it \u2014 and the culture around them had opinions.",
+   "seg_start": 10.049,
+   "audio_start": 10.329,
+   "spoken_end": 19.393,
+   "seg_dur": 10.064
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Baptism changed first. Immersion \u2014 the burial and rebirth Jesus himself walked into the Jordan for \u2014 shrank to a sprinkle. And infants replaced believers at the font, chased there by a new doctrine of inherited guilt. You already know, from episode eight, what God thinks of that doctrine.",
+   "seg_start": 20.113,
+   "audio_start": 20.393,
+   "spoken_end": 38.351,
+   "seg_dur": 18.959
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "Authority changed next. Offices Christ had filled by revelation began to be filled by election, by purchase, by politics. Men assumed the titles. But nobody left on earth could confer the keys.",
+   "seg_start": 39.071,
+   "audio_start": 39.351,
+   "spoken_end": 52.983,
+   "seg_dur": 14.632
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "And then the very nature of God went to committee. Councils met \u2014 good men, many of them, doing philosophy under an emperor's impatience \u2014 and voted the Father and the Son into a formless abstraction no child could recognize as the Persons Stephen saw.",
+   "seg_start": 53.703,
+   "audio_start": 53.983,
+   "spoken_end": 69.699,
+   "seg_dur": 16.716
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "The earth also is defiled under the inhabitants thereof; because they have transgressed the laws, changed the ordinance, broken the everlasting covenant.",
+   "seg_start": 70.419,
+   "audio_start": 70.699,
+   "spoken_end": 79.363,
+   "seg_dur": 10.094
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Isaiah called every beat of it, seven centuries in advance. Laws transgressed. The ordinance \u2014 changed. The everlasting covenant \u2014 broken.",
+   "seg_start": 80.513,
+   "audio_start": 80.793,
+   "spoken_end": 90.098,
+   "seg_dur": 10.304
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "And Paul named the mechanism:",
+   "seg_start": 90.818,
+   "audio_start": 91.098,
+   "spoken_end": 92.438,
+   "seg_dur": 2.34
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "Having a form of godliness, but denying the power thereof: from such turn away.",
+   "seg_start": 93.158,
+   "audio_start": 93.438,
+   "spoken_end": 98.361,
+   "seg_dur": 6.353
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "A form of godliness. The shape stayed \u2014 buildings, vestments, vocabulary. The power \u2014 priesthood, revelation, the gifts \u2014 is what drained out. Understand the devil's masterpiece here: it was never persecution. Persecution grew the church. His masterpiece was renovation.",
+   "seg_start": 99.511,
+   "audio_start": 99.791,
+   "spoken_end": 121.08,
+   "seg_dur": 22.289
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Now be careful how you hold this. The people inside that drift were not villains. They were mostly believers, doing their best in the dark \u2014 and God loves every one of them. The tragedy is not that men were evil. It is that the keys were gone, and sincerity cannot replace them.",
+   "seg_start": 121.8,
+   "audio_start": 122.08,
+   "spoken_end": 139.848,
+   "seg_dur": 18.768
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "By the time the drift settled, the church OF Jesus Christ \u2014 apostles, revelation, ordinances as he gave them \u2014 had become churches ABOUT Jesus Christ. Good ones, many of them. But the organization heaven built was gone from the earth.",
+   "seg_start": 140.568,
+   "audio_start": 140.848,
+   "spoken_end": 155.201,
+   "seg_dur": 15.353
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "So hold the difference that decides everything ahead: reformation repairs what men broke. Only restoration returns what heaven took back. That difference is why episode twenty-six happens in a grove \u2014 and not in a seminary.",
+   "seg_start": 155.921,
+   "audio_start": 156.201,
+   "spoken_end": 171.033,
+   "seg_dur": 15.832
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "The shape stayed. The power left. That is how you lose a church without noticing.",
+  "seg_start": 171.753,
+  "audio_start": 172.033,
+  "seg_dur": 6.796
+ },
+ "total": 178.548
+}

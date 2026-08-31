@@ -265,8 +265,10 @@ PICTURES = [
         "dark sky — the thorn crown, the upturned last-breath "
         "stillness, the work complete in the features: not "
         "defeat, COMPLETION, the face of a man setting down "
-        "something he carried all the way. No wounds in frame; "
-        "the sky behind holds its darkest grey.",
+        "something he carried all the way. No wounds in frame. "
+        "The sky behind is pure heavy unbroken grey-black cloud "
+        "— absolutely NO lightning, no bolt, no flash, no break "
+        "of light anywhere in it.",
         "his thorn-crowned profile upturned in last-breath "
         "completion against darkest grey",
         "blood, the cross beams dominant, mockers, lightning",
