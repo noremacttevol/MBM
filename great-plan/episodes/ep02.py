@@ -188,7 +188,11 @@ PICTURES = [
     ("p09", "s1", _p(
         "What Abraham was shown: ranks upon ranks of white-robed "
         "spirits standing in ordered assembly, receding row after row "
-        "into brilliant distance until individuals dissolve into light "
+        "into brilliant distance — and EVERY VISIBLE PERSON IS A "
+        "DIFFERENT INDIVIDUAL: different faces, heights, builds and "
+        "ancestries in every row, no repeated face, no mirrored or "
+        "duplicated rows, no tiling pattern — a real crowd, not a "
+        "pattern, dissolving into light "
         "— seen from a raised angle along the front rank's profile so "
         "the endless organization of them is the subject. Among the "
         "nearest rows, a scattering of faces carry unmistakable "
@@ -277,12 +281,15 @@ PICTURES = [
         "marks",
         era="modern")),
     ("p17", "n9", _p(
-        "The lies at work: a young man alone in a dark modern room lit "
-        "only by the cold blue-white spill of an unseen screen below "
-        "the frame, his face hollowed by the light, shoulders sunk — "
-        "and the darkness around him pressing close and FORMLESS at "
-        "every edge of the frame, empty of any shape. His gaze is "
-        "down at the light; the room has no other warmth.",
+        "A young man sits on the FLOOR of a dark modern bedroom, his "
+        "back against the side of his bed, knees drawn up — seen "
+        "FULL-LENGTH from the front-side at floor level, the whole "
+        "VERTICAL of the dark room above him filling the top half "
+        "of the frame. The only light is a cold blue-white spill "
+        "rising from an unseen screen at his knees, hollowing his "
+        "down-turned face. The darkness above and around him is "
+        "FORMLESS — bare dim wall and ceiling shadow, empty of any "
+        "shape. His gaze is down at the light.",
         "a young face hollowed by cold screen-light in pressing "
         "formless dark, gaze down, shoulders sunk",
         "ANY shape or figure in the darkness, a readable screen, his "
@@ -301,10 +308,13 @@ PICTURES = [
         era="modern")),
     ("p19", "n11", _p(
         "The choice, remembered: back in the premortal court — one "
-        "young spirit seen from directly behind, stepping forward out "
-        "of the front rank toward the immense warm light, robe "
-        "catching the gold, face never visible. The same step every "
-        "person on earth once took.",
+        "young spirit with SHORT dark hair, seen from directly "
+        "behind, stepping forward out of the front rank toward a "
+        "broad even warm brightness that fills the whole horizon "
+        "ahead — never a circle, burst or disc of light, and nothing "
+        "bright centred behind his head. His robe is the hosts' "
+        "bright pure WHITE, unmistakably not cream. Face never "
+        "visible. The same step every person on earth once took.",
         "one spirit from directly behind mid-step toward immense warm "
         "light, face never visible",
         "his face or profile, anyone else near the lens, beams",
