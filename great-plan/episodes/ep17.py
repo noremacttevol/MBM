@@ -216,7 +216,7 @@ PICTURES = [
         "As light as mid-day: on a flat rooftop in the bright "
         "night, a Nephite family stands amazed — the father's arm "
         "around the mother, and their small daughter pointing "
-        "straight up at the glowing sunless sky, her mouth open — "
+        "straight up at the blazing sunless sky, her mouth open — "
         "every face upturned and washed in the impossible light.",
         "a rooftop family in the bright sunless night, small "
         "daughter pointing straight up, faces washed in light",

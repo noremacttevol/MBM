@@ -1,0 +1,148 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "The King of the universe is about to enter His own world. Watch HOW He chooses to arrive \u2014 because the method is the message.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.318,
+   "seg_dur": 8.038
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Not a palace. Not a legion. A teenage girl in a hill town, engaged to a carpenter, says yes to heaven:",
+   "seg_start": 8.038,
+   "audio_start": 8.318,
+   "spoken_end": 14.966,
+   "seg_dur": 7.648
+  },
+  {
+   "seg": "w1",
+   "speaker": "woman",
+   "text": "Behold the handmaid of the Lord; be it unto me according to thy word.",
+   "seg_start": 15.686,
+   "audio_start": 15.966,
+   "spoken_end": 20.078,
+   "seg_dur": 5.542
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Nine months later, in a stable behind a full inn, the Creator of galaxies drew His first breath in a feed trough \u2014 announced not to kings, but to night-shift shepherds:",
+   "seg_start": 21.228,
+   "audio_start": 21.508,
+   "spoken_end": 31.027,
+   "seg_dur": 10.518
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day in the city of David a Saviour, which is Christ the Lord.",
+   "seg_start": 31.747,
+   "audio_start": 32.027,
+   "spoken_end": 42.008,
+   "seg_dur": 11.411
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "To ALL people \u2014 and heaven meant all. On the far side of the world, the other sheep received their own announcement, exactly as their prophets had promised:",
+   "seg_start": 43.158,
+   "audio_start": 43.438,
+   "spoken_end": 52.522,
+   "seg_dur": 10.084
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "And it came to pass that there was no darkness in all that night, but it was as light as though it was mid-day.",
+   "seg_start": 53.242,
+   "audio_start": 53.522,
+   "spoken_end": 59.399,
+   "seg_dur": 7.307
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "One birth. Two hemispheres. Both notified. Nobody's children get left off God's announcement list.",
+   "seg_start": 60.549,
+   "audio_start": 60.829,
+   "spoken_end": 66.41,
+   "seg_dur": 6.581
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Now watch the enemy answer a baby. In Judea he moved a king to slaughter Bethlehem's infant sons. In America he flooded the land with a rumor \u2014 the signs meant nothing, believing was foolish. Swords on one side of the world, mockery on the other. Anything to smother the cradle.",
+   "seg_start": 67.13,
+   "audio_start": 67.41,
+   "spoken_end": 85.507,
+   "seg_dur": 19.097
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "It did not work. It never works. Joseph was warned in a dream and carried the child to Egypt. The believers held through the bright night. The cradle outlived both attacks.",
+   "seg_start": 86.227,
+   "audio_start": 86.507,
+   "spoken_end": 97.1,
+   "seg_dur": 11.593
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "There is a word for what God did in Bethlehem: condescension \u2014 the willing descent. Nephi was shown it centuries early, and an angel asked him the question of the ages:",
+   "seg_start": 97.82,
+   "audio_start": 98.1,
+   "spoken_end": 108.294,
+   "seg_dur": 11.194
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "Knowest thou the condescension of God? And I said unto him: I know that he loveth his children; nevertheless, I do not know the meaning of all things.",
+   "seg_start": 109.014,
+   "audio_start": 109.294,
+   "spoken_end": 118.262,
+   "seg_dur": 10.398
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "I know that He loves His children \u2014 I do not know the meaning of all things. That answer is still the finest theology ever spoken. And the condescension means this: God did not send a representative. He came. Small enough to be held. Poor enough to be overlooked. Vulnerable enough to be hunted.",
+   "seg_start": 119.412,
+   "audio_start": 119.692,
+   "spoken_end": 138.119,
+   "seg_dur": 19.427
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "The devil offers power that crushes. God arrived as weakness that saves. And a King who begins in a feed trough can meet you anywhere \u2014 there is no floor of your life lower than where He started.",
+   "seg_start": 138.839,
+   "audio_start": 139.119,
+   "spoken_end": 150.655,
+   "seg_dur": 12.536
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "So when life makes you small, remember how He chose to enter. The manger is not quaint. It is the whole strategy \u2014 love that walks in the door unarmed.",
+   "seg_start": 151.375,
+   "audio_start": 151.655,
+   "spoken_end": 160.616,
+   "seg_dur": 9.961
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "He did not send a representative. He came \u2014 small enough to be held.",
+  "seg_start": 161.336,
+  "audio_start": 161.616,
+  "seg_dur": 5.724
+ },
+ "total": 167.06
+}
