@@ -235,13 +235,14 @@ PICTURES = [
         "chains, locks engaged, any figure, text",
         era="ancient")),
     ("p12", "n8", _p(
-        "Chosen before the fall: Jesus standing in the court's full "
-        "dawn light in his cream robe, calm and resolute, his gaze "
-        "levelled far out toward the dark horizon-line where the "
-        "light fell — seen from beside him at a reverent distance, "
-        "his profile steady, the whole posture of someone who has "
-        "already accepted a price. The court stretches bright behind "
-        "him.",
+        "Chosen before the fall: Jesus standing COMPLETELY ALONE in the "
+        "court's full dawn light in his cream robe — not one other "
+        "person anywhere in the frame, the bright terraces empty to "
+        "their far edges — calm and resolute, his gaze levelled far "
+        "out toward the dark horizon-line where the light fell, seen "
+        "from beside him at a reverent distance, his profile steady, "
+        "the whole posture of someone who has already accepted a "
+        "price.",
         "Jesus in profile in full court light, calm resolve aimed at "
         "the far dark horizon",
         "his eyes on the lens, halo, grief overdone, any figure on "
