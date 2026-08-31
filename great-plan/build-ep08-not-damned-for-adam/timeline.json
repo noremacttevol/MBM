@@ -1,0 +1,157 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "If you have ever been told that you were born guilty \u2014 that a baby arrives in this world already condemned for something a man did in a garden \u2014 this one is for you.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.87,
+   "seg_dur": 10.59
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Adam and Eve took the fruit, and everything changed. The gate closed behind them. Death entered the world. And heaven watched it happen \u2014 without panic.",
+   "seg_start": 10.59,
+   "audio_start": 10.87,
+   "spoken_end": 19.524,
+   "seg_dur": 9.654
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Because the Fall was not the plan breaking. It was the plan beginning.",
+   "seg_start": 20.244,
+   "audio_start": 20.524,
+   "spoken_end": 24.07,
+   "seg_dur": 4.546
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "Outside Eden the ground fought them. Thorns. Sweat. Loss. And also \u2014 for the first time \u2014 children. Morning laughter. Work worth doing. Choices that actually meant something.",
+   "seg_start": 24.79,
+   "audio_start": 25.07,
+   "spoken_end": 37.67,
+   "seg_dur": 13.6
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "Blessed be the name of God: for because of my transgression my eyes are opened, and in this life I shall have joy.",
+   "seg_start": 38.39,
+   "audio_start": 38.67,
+   "spoken_end": 44.654,
+   "seg_dur": 7.414
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "That is Adam \u2014 the man the whole mess gets blamed on \u2014 praising God for what the Fall opened up. And Eve saw it first, and saw it whole:",
+   "seg_start": 45.804,
+   "audio_start": 46.084,
+   "spoken_end": 54.731,
+   "seg_dur": 9.646
+  },
+  {
+   "seg": "w1",
+   "speaker": "woman",
+   "text": "Were it not for our transgression we never should have had seed, and never should have known good and evil, and the joy of our redemption.",
+   "seg_start": 55.451,
+   "audio_start": 55.731,
+   "spoken_end": 63.139,
+   "seg_dur": 8.839
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Seed. Knowledge. Redemption. No children without the Fall. No growth without a real dark to choose against. And no need for a Savior \u2014 no Savior given.",
+   "seg_start": 64.289,
+   "audio_start": 64.569,
+   "spoken_end": 76.84,
+   "seg_dur": 13.271
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "Adam fell that men might be; and men are, that they might have joy.",
+   "seg_start": 77.56,
+   "audio_start": 77.84,
+   "spoken_end": 81.372,
+   "seg_dur": 4.962
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "So what about the guilt? Who pays for Eden? Here is what God actually says about that.",
+   "seg_start": 82.522,
+   "audio_start": 82.802,
+   "spoken_end": 87.119,
+   "seg_dur": 5.317
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "We believe that men will be punished for their own sins, and not for Adam's transgression.",
+   "seg_start": 87.839,
+   "audio_start": 88.119,
+   "spoken_end": 92.67,
+   "seg_dur": 5.981
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "Not for Adam's transgression. You will answer for what you choose. You will never answer for what Adam chose. There is no inherited guilt. There is no baby born condemned.",
+   "seg_start": 93.82,
+   "audio_start": 94.1,
+   "spoken_end": 104.142,
+   "seg_dur": 11.042
+  },
+  {
+   "seg": "j1",
+   "speaker": "jesus",
+   "text": "Little children are whole, for they are not capable of committing sin; wherefore the curse of Adam is taken from them in me.",
+   "seg_start": 104.862,
+   "audio_start": 105.142,
+   "spoken_end": 111.422,
+   "seg_dur": 7.71
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "The curse of Adam is taken from them in me. Every baby ever born arrives clean \u2014 already covered, already paid for, before their first breath.",
+   "seg_start": 112.572,
+   "audio_start": 112.852,
+   "spoken_end": 122.422,
+   "seg_dur": 10.57
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "The devil has spent centuries teaching the world to fear God over Eden \u2014 a God who condemns infants, a guilt you carry for another man's choice. Now you know. That was never your Father.",
+   "seg_start": 123.142,
+   "audio_start": 123.422,
+   "spoken_end": 134.307,
+   "seg_dur": 11.885
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "The Fall brought death \u2014 and Christ answers death, for everyone, free. The Fall brought sin \u2014 and you answer only for yours, with a Redeemer standing by. Adam fell that men might be. And men are, that they might have joy.",
+   "seg_start": 135.027,
+   "audio_start": 135.307,
+   "spoken_end": 150.471,
+   "seg_dur": 16.164
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "You were not born guilty. You were born wanted \u2014 into a plan built to bring you joy.",
+  "seg_start": 151.191,
+  "audio_start": 151.471,
+  "seg_dur": 6.743
+ },
+ "total": 157.934
+}

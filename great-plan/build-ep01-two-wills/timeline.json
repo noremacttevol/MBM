@@ -1,0 +1,148 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Before this world had a sunrise \u2014 before there was an ocean, or a mountain, or a single beating heart \u2014 you were alive.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.71,
+   "seg_dur": 8.43
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "You stood in a council of glory, a spirit child of God, among more brothers and sisters than any man can number. And your Father stood before you all.",
+   "seg_start": 8.43,
+   "audio_start": 8.71,
+   "spoken_end": 17.388,
+   "seg_dur": 9.678
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "He laid out a plan. His children would receive bodies of flesh and bone. They would walk a world where they could truly choose. They would fall. They would feel. And they could become like Him.",
+   "seg_start": 18.108,
+   "audio_start": 18.388,
+   "spoken_end": 29.686,
+   "seg_dur": 12.298
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "But real freedom meant real danger. All of us would stumble. Some would wander far. Someone would have to pay the price to bring us home.",
+   "seg_start": 30.406,
+   "audio_start": 30.686,
+   "spoken_end": 38.798,
+   "seg_dur": 9.112
+  },
+  {
+   "seg": "g1",
+   "speaker": "father",
+   "text": "And the Lord said: Whom shall I send?",
+   "seg_start": 39.518,
+   "audio_start": 39.798,
+   "spoken_end": 42.027,
+   "seg_dur": 3.659
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Two voices answered. All of eternity hangs on the difference between them.",
+   "seg_start": 43.177,
+   "audio_start": 43.457,
+   "spoken_end": 47.495,
+   "seg_dur": 5.039
+  },
+  {
+   "seg": "j1",
+   "speaker": "jesus",
+   "text": "Father, thy will be done, and the glory be thine forever.",
+   "seg_start": 48.215,
+   "audio_start": 48.495,
+   "spoken_end": 50.799,
+   "seg_dur": 3.734
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "That was the first voice \u2014 the Beloved Son. No conditions. No demands. The rescue would cost Him everything, and He asked to keep nothing.",
+   "seg_start": 51.949,
+   "audio_start": 52.229,
+   "spoken_end": 62.619,
+   "seg_dur": 11.389
+  },
+  {
+   "seg": "d1",
+   "speaker": "devil",
+   "text": "Behold, here am I, send me, I will be thy son, and I will redeem all mankind, that one soul shall not be lost, and surely I will do it; wherefore give me thine honor.",
+   "seg_start": 63.339,
+   "audio_start": 63.619,
+   "spoken_end": 75.26,
+   "seg_dur": 13.071
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Listen to that second voice carefully. Not one soul lost \u2014 it sounds like mercy. But no soul can be lost only where no soul is free. He was not offering to save you. He was offering to own you.",
+   "seg_start": 76.41,
+   "audio_start": 76.69,
+   "spoken_end": 91.434,
+   "seg_dur": 15.744
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "And there is the price tag, at the end: give me thine honor. He did not want to rescue the family. He wanted the throne.",
+   "seg_start": 92.154,
+   "audio_start": 92.434,
+   "spoken_end": 98.92,
+   "seg_dur": 7.486
+  },
+  {
+   "seg": "g2",
+   "speaker": "father",
+   "text": "Wherefore, because that Satan rebelled against me, and sought to destroy the agency of man, which I, the Lord God, had given him, and also, that I should give unto him mine own power; by the power of mine Only Begotten, I caused that he should be cast down.",
+   "seg_start": 99.64,
+   "audio_start": 99.92,
+   "spoken_end": 119.491,
+   "seg_dur": 21.001
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Hold on to this. Your Father would not trade your freedom for your safety. Not then. Not now. Not ever. He chose the plan that would cost His Son everything \u2014 because it was the only plan where you could become anything.",
+   "seg_start": 120.641,
+   "audio_start": 120.921,
+   "spoken_end": 135.516,
+   "seg_dur": 15.595
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Every battle in this story \u2014 the garden, the flood, the cross, the long centuries of silence, the fight going on inside you today \u2014 is these two speeches, still colliding.",
+   "seg_start": 136.236,
+   "audio_start": 136.516,
+   "spoken_end": 148.37,
+   "seg_dur": 12.855
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "And you already know which side you took. You are here. You have a body. Once, before the world, you looked at both of them \u2014 and you chose Him.",
+   "seg_start": 149.09,
+   "audio_start": 149.37,
+   "spoken_end": 158.335,
+   "seg_dur": 9.965
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "He has been asking ever since. And He will never force you. That is how you know which voice is His.",
+  "seg_start": 159.055,
+  "audio_start": 159.335,
+  "seg_dur": 7.449
+ },
+ "total": 166.504
+}

@@ -1,0 +1,130 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Seven hundred years before Christ, the prophet Amos saw our chapter of the story coming \u2014 and he called it a famine.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.134,
+   "seg_dur": 7.854
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "Behold, the days come, saith the Lord God, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the Lord: And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek the word of the Lord, and shall not find it.",
+   "seg_start": 7.854,
+   "audio_start": 8.134,
+   "spoken_end": 26.526,
+   "seg_dur": 19.823
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Not a famine of bread. A famine of hearing. This is what the world looks like after the last apostle dies.",
+   "seg_start": 27.676,
+   "audio_start": 27.956,
+   "spoken_end": 34.627,
+   "seg_dur": 7.671
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "The men who held the keys were hunted down, one by one. And when the last of them was gone, no one on earth had the authority to ordain what came next.",
+   "seg_start": 35.347,
+   "audio_start": 35.627,
+   "spoken_end": 43.667,
+   "seg_dur": 9.04
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "So the drift began. Slow. Sincere. Fatal. Baptism changed shape. Authority was assumed instead of conferred. Councils met and voted on what God is \u2014 until the Father and the Son became a formless mystery no child could recognize as anyone's Father.",
+   "seg_start": 44.387,
+   "audio_start": 44.667,
+   "spoken_end": 61.128,
+   "seg_dur": 17.46
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Then the doors were declared shut. Revelation \u2014 finished. The heavens \u2014 closed. As if the God who had spoken in every generation since Adam had simply run out of things to say.",
+   "seg_start": 61.848,
+   "audio_start": 62.128,
+   "spoken_end": 74.031,
+   "seg_dur": 12.903
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "And the book that remained \u2014 true, and precious, and carried through the centuries by brave and faithful hands \u2014 did not come through whole.",
+   "seg_start": 74.751,
+   "audio_start": 75.031,
+   "spoken_end": 82.686,
+   "seg_dur": 8.654
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "They have taken away from the gospel of the Lamb many parts which are plain and most precious; and also many covenants of the Lord have they taken away.",
+   "seg_start": 83.406,
+   "audio_start": 83.686,
+   "spoken_end": 91.694,
+   "seg_dur": 9.439
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Without the plain parts, whole doctrines collapsed in the dark. Infants were pronounced guilty. Grace and works went to war. And asking God a direct question began to sound like madness.",
+   "seg_start": 92.844,
+   "audio_start": 93.124,
+   "spoken_end": 103.979,
+   "seg_dur": 11.855
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "Now hear what the famine was not. It was not God abandoning His children. Men with agency killed the messengers. Men with power changed the ordinances. God honored their freedom \u2014 the same freedom He defended in heaven \u2014 and He never once stopped preparing the way back.",
+   "seg_start": 104.699,
+   "audio_start": 104.979,
+   "spoken_end": 120.746,
+   "seg_dur": 16.766
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "For seventeen hundred years, honest people prayed real prayers and loved God with everything they had \u2014 with no prophet to find. Grandmothers. Monks in cold chapels. Mothers at bedsides. God heard every single one of them. And He was counting the days.",
+   "seg_start": 121.466,
+   "audio_start": 121.746,
+   "spoken_end": 137.947,
+   "seg_dur": 17.201
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Because a famine is not forever. Amos said the word would go missing \u2014 he never said it was destroyed. On a wooded hill in another hemisphere, a buried book was waiting. And heaven was watching a calendar.",
+   "seg_start": 138.667,
+   "audio_start": 138.947,
+   "spoken_end": 152.786,
+   "seg_dur": 14.839
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "So the next time someone tells you the heavens are closed, remember what that idea really is. It is not a comfort. It is a famine. And famines end when God sends bread.",
+   "seg_start": 153.506,
+   "audio_start": 153.786,
+   "spoken_end": 163.958,
+   "seg_dur": 11.172
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "Seventeen hundred years of searching, from sea to sea. The famine ends in a grove of trees.",
+  "seg_start": 164.678,
+  "audio_start": 164.958,
+  "seg_dur": 7.161
+ },
+ "total": 171.839
+}

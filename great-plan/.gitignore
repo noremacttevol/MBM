@@ -1,0 +1,12 @@
+# Build scratch — never committed. Finals, assets, audio and timelines ARE
+# committed (the reviewer serves the mp4s from raw.githubusercontent).
+build-*/segs/
+build-*/qc_*.jpg
+build-*/qc-frames.jpg
+build-*/contact-sheet.jpg
+build-*/face-board.jpg
+build-*/devil-check.jpg
+build-*/reroll*.jpg
+sheets-check.jpg
+__pycache__/
+*.pyc

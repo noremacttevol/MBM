@@ -1,0 +1,157 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Spring, eighteen twenty. Palmyra, New York. A fourteen-year-old farm boy is about to walk into the woods with one question \u2014 and end a seventeen-hundred-year famine.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 10.813,
+   "seg_dur": 11.533
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "His town was at war over religion. Camp meetings, rival preachers, every church claiming to be right. Joseph Smith wanted his sins forgiven and wanted to know where to go. And nobody's answer settled anything.",
+   "seg_start": 11.533,
+   "audio_start": 11.813,
+   "spoken_end": 23.801,
+   "seg_dur": 12.988
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him.",
+   "seg_start": 24.521,
+   "audio_start": 24.801,
+   "spoken_end": 31.931,
+   "seg_dur": 8.56
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "One verse in the book of James went through him like fire. Ask God. Not a preacher. Not a council. Ask the God who gives to everyone, generously \u2014 and never scolds you for asking.",
+   "seg_start": 33.081,
+   "audio_start": 33.361,
+   "spoken_end": 44.49,
+   "seg_dur": 12.129
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "So on the morning of a beautiful clear spring day, he walked into the grove of trees on his family's farm, found the place he had picked out, knelt down \u2014 and for the first time in his life, prayed out loud.",
+   "seg_start": 45.21,
+   "audio_start": 45.49,
+   "spoken_end": 57.67,
+   "seg_dur": 13.18
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "And the darkness came for him first. Remember whose kingdom that prayer threatened. A power seized him. It bound his tongue so he could not speak, and thick darkness gathered around him, until he thought he was finished.",
+   "seg_start": 58.39,
+   "audio_start": 58.67,
+   "spoken_end": 71.415,
+   "seg_dur": 13.745
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "I saw a pillar of light exactly over my head, above the brightness of the sun; which descended gradually until it fell upon me.",
+   "seg_start": 72.135,
+   "audio_start": 72.415,
+   "spoken_end": 79.963,
+   "seg_dur": 8.978
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "When the light rested upon me I saw two Personages, whose brightness and glory defy all description, standing above me in the air.",
+   "seg_start": 81.113,
+   "audio_start": 81.393,
+   "spoken_end": 89.042,
+   "seg_dur": 9.08
+  },
+  {
+   "seg": "g1",
+   "speaker": "father",
+   "text": "This is My Beloved Son. Hear Him!",
+   "seg_start": 90.192,
+   "audio_start": 90.472,
+   "spoken_end": 92.686,
+   "seg_dur": 3.644
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "The Father \u2014 a real, glorified Person \u2014 calling a boy by name and pointing to His Son. The Son \u2014 the living, risen Jesus Christ \u2014 standing beside Him in the air. Every question the famine had starved for centuries: answered in ten seconds.",
+   "seg_start": 93.836,
+   "audio_start": 94.116,
+   "spoken_end": 113.794,
+   "seg_dur": 20.678
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "God is not a formless mystery. The heavens are not sealed shut. The Father and the Son are two distinct beings. And they know a farm boy by his first name \u2014 because the first word of the vision was Joseph.",
+   "seg_start": 114.514,
+   "audio_start": 114.794,
+   "spoken_end": 126.889,
+   "seg_dur": 13.095
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "The boy asked his question, and got his answer: join none of them. The authority had left the earth centuries ago \u2014 and heaven was about to bring it back.",
+   "seg_start": 127.609,
+   "audio_start": 127.889,
+   "spoken_end": 136.726,
+   "seg_dur": 9.837
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "He walked out of those trees into a world that would hate him for it. Preachers mocked. Neighbors turned. He was fourteen years old, and he never took one word of it back. Here is how he said it himself, years later:",
+   "seg_start": 137.446,
+   "audio_start": 137.726,
+   "spoken_end": 149.297,
+   "seg_dur": 12.571
+  },
+  {
+   "seg": "s4",
+   "speaker": "scripture",
+   "text": "I had actually seen a light, and in the midst of that light I saw two Personages, and they did in reality speak to me; and though I was hated and persecuted for saying that I had seen a vision, yet it was true. For I had seen a vision; I knew it, and I knew that God knew it, and I could not deny it.",
+   "seg_start": 150.017,
+   "audio_start": 150.297,
+   "spoken_end": 169.414,
+   "seg_dur": 20.547
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "The famine of the word ended that spring morning \u2014 broken by a teenager who took one Bible verse completely at its word.",
+   "seg_start": 170.564,
+   "audio_start": 170.844,
+   "spoken_end": 177.922,
+   "seg_dur": 8.079
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "And the invitation he used was never his alone. It is still in the book. If any of you lack wisdom \u2014 ask. He answered a farm boy. He answers you.",
+   "seg_start": 178.642,
+   "audio_start": 178.922,
+   "spoken_end": 188.594,
+   "seg_dur": 10.672
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "God answered a fourteen-year-old in the woods. The heavens are open. Ask.",
+  "seg_start": 189.314,
+  "audio_start": 189.594,
+  "seg_dur": 6.508
+ },
+ "total": 195.822
+}
