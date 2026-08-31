@@ -1,3 +1,59 @@
+## 2026-08-31 overnight (Claude, Machine A `Dev`) — **THE GREAT PLAN: 19 EPISODES BUILT + LIVE on the Reviewer's new folder in one night**
+
+Cameron said "do it all, i need it to be done when i wake up in 12 hours. make
+another folder on the reviewer page." Delivered by morning:
+
+### 19 finished episodes on the Reviewer (🎬 THE GREAT PLAN folder, ids 301-333)
+Proof-four first per his instruction file (**1, 8, 23, 26**), then straight
+down the viewing order: **eps 1-17 complete + 23 + 26**. Every episode:
+~3 min, 1080×1920, 18-23 stills, six-voice cast (Brian narrator / Chris
+Jesus red / Bill FATHER green / **Clyde DEVIL ash-violet** / Roger scripture
+/ Matilda women), ElevenLabs + timing sidecars, shared caption engine,
+KJV-verbatim sacred voices, cream closing card. Full-cut QC on every one:
+contact sheet + face-boards + targeted zooms; ~30 rerolls total across 420
+images (7%), every one for a named law (devil-shape, backs, panel, rotation,
+screen-side, wardrobe-leak, two-trees count).
+
+### The engine (new, self-contained — 200-queue untouched)
+`great-plan/gp/`: gp_engine.py (audio→check→gen→assemble; V1 timeline math,
+v2 Ken Burns/caption/card formulas, ElevenLabs mix + LUFS), gp_prompt.py
+(era-aware STYLE blocks: heaven/eden/ancient/old-world/first-century/
+america-1820/modern + byte-identical v2 defect locks + DEVIL_PRESENCE +
+FATHER_LOCK + drift gate incl. devil-figure words). Episodes are data files
+in `great-plan/episodes/epNN.py`.
+
+### Laws enforced in pictures (Cameron's, all of them)
+- **DEVIL LAW**: never a figure — formless smooth-arc darkness, streak of
+  dying light, serpent/chain only as scripture names them. Caught+killed a
+  winged shadow, a head-bump silhouette, a hooded figure under the storm tree.
+- **SCREEN-SIDE LAW (12l)**: Grove p11/p12/p14 rerolled until the Son in
+  cream stands on the VIEWER'S LEFT at the Father's right hand, in the air.
+- **LITERAL-DEATH**: Abel and the fallen prophet plainly dead, zero gore;
+  Herod's ORDER only; no drowning ever shown; Stephen frozen at the before.
+- Cast sheets locked: FATHER, ADAM (=Michael, in white per D&C 27:11), EVE,
+  JOSEPH-SMITH (14 + young-man), ENOCH, NOAH in `great-plan/CAST-GP-REF/`.
+  Jesus = JESUS-V2-REF everywhere, cream in every era incl. premortal.
+
+### Cost (COST LAW)
+$56.82 Gemini for 19 episodes + 12 ref sheets ≈ **$3.0/episode** (vs $6.10
+200-queue avg). ElevenLabs: ~330 segments across 21 scripted episodes.
+
+### Ready for the next session (authored + voiced + gated, just needs gen)
+eps **18, 19, 20, 21** are complete scripts with audio rendered and gates
+PASS — `python3 great-plan/gp/gp_engine.py gen epNN --ceiling N` then
+assemble+ship. (ep18 gen was still running at session close — check
+`build-ep18-same-old-trade/assets/`.) Unwritten scripts: 22, 24, 25, 27-33.
+GP complaints (Firestore ids 301+) are NOT picked up by the 200-autopilot —
+sessions handle them by hand.
+
+### Also this session (before the overnight build)
+Master story + Part A map + QUESTION-LEDGER (33 questions→episodes) + laws
+(devil-necessity D&C 29:39, Humility Law, app BRIDGE-gate + social-funnel
+distribution) — all in `great-plan/*.md`. Cameron approved by ordering the
+build.
+
+---
+
 ## 2026-08-31 (Claude, Machine A `Dev`) — **THE GREAT PLAN launched: master story locked + Part A (33-episode map) written, awaiting Cameron's approval**
 
 Cameron started a NEW production lane attached to MBM: "The Great Plan" — a
