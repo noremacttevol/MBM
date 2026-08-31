@@ -1,0 +1,45 @@
+# Deploy docs/ to GitHub Pages via Actions with a SPARSE checkout.
+#
+# WHY (2026-08-31): the legacy Jekyll-Pages builder clones the ENTIRE repo,
+# and this repo carries many GB of committed video (the 200-queue finals +
+# THE GREAT PLAN episodes are all served through raw.githubusercontent).
+# Every few hundred MB of new video pushes the legacy clone past its limits
+# and Pages starts returning "Page build failed" for HOURS — which freezes
+# Cameron's Reviewer and the site. A past session already hit this wall
+# (see docs/.nojekyll). This workflow checks out ONLY docs/ (a few MB),
+# uploads it as the Pages artifact, and deploys — repo size can never
+# break the site again.
+name: Deploy Pages (docs only)
+
+on:
+  push:
+    branches: [main]
+    paths: ["docs/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: docs
+          sparse-checkout-cone-mode: true
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
