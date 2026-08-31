@@ -118,8 +118,10 @@ PICTURES = [
         wide=True, devil=True, locks=["COURT", "HOSTS"])),
     ("p02", "s1", _p(
         "Michael at the front: a strong-built spirit commander — the "
-        "same man as the attached reference — stands at the head of "
-        "deep ranks of white-robed hosts, his arm raised straight out, "
+        "same FACE as the attached reference, but clothed like every "
+        "spirit in heaven in the hosts' bright pure-white one-piece "
+        "long-sleeved robe (never brown, never a mortal work tunic) — "
+        "stands at the head of deep ranks of white-robed hosts, his arm raised straight out, "
         "palm open toward the cold dim end of the court in the "
         "unmistakable gesture of HALT — no weapon anywhere, his face in "
         "fierce calm profile. Behind him the ranks hold their line. The "
@@ -187,12 +189,14 @@ PICTURES = [
         "anyone shielding eyes theatrically",
         devil=True, locks=["COURT", "HOSTS"])),
     ("p08", "n5", _p(
-        "The pitch: a knot of listeners at the boundary line, heads "
-        "tilted toward the empty dimness as if toward a voice — faces "
-        "soothed, shoulders loosening, the warm light behind them and "
-        "the cold ahead — one woman's face caught half-lit at the "
-        "exact seam, wanting to believe the guarantee. Nobody faces "
-        "the lens; the dim they listen to is empty.",
+        "The pitch: a loose STANDING cluster of eight spirits at the "
+        "boundary line — every figure upright on their feet, nobody "
+        "kneeling or bowing — heads tilted a few degrees toward the "
+        "empty dimness as if catching a voice on the air, faces "
+        "soothed, shoulders loosening, the warm light behind them "
+        "and the cold ahead — one woman's face caught half-lit at "
+        "the exact seam, wanting to believe the guarantee. Nobody "
+        "faces the lens; the dim they listen to is empty.",
         "listeners leaning toward empty dimness as toward a voice, "
         "soothed loosening faces half-lit at the seam",
         "any figure or mouth-shape in the dim, sneering, anyone "
@@ -272,7 +276,7 @@ PICTURES = [
         "His eyes on the lens, tears streaming, halo, hardness",
         locks=["FATHER"])),
     ("p15", "n9", _p(
-        "Standing down: Michael at the front of the ranks lowers his "
+        "Standing down: Michael — the same face as the attached reference, in the hosts' bright pure-white long-sleeved robe, never brown — at the front of the ranks lowers his "
         "outstretched arm — caught mid-descent at chest height, palm "
         "still open — his face in three-quarter carrying victory "
         "with no joy in it, the ranks behind him easing from their "

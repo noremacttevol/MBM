@@ -1,0 +1,148 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "The first murder on this earth was not a crime of passion. It was a ceremony. And once you see that, you will read every dark headline since differently.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.826,
+   "seg_dur": 9.546
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Cain and Abel \u2014 sons of Adam, both raised on the first gospel. Abel offered the firstlings of his flock, as taught: a lamb, pointing to the Lamb. Cain brought an offering on his own terms \u2014 and scripture says he brought it at the devil's suggestion.",
+   "seg_start": 9.546,
+   "audio_start": 9.826,
+   "spoken_end": 26.049,
+   "seg_dur": 17.223
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "But unto Cain, and to his offering, he had not respect. Now Satan knew this, and it pleased him.",
+   "seg_start": 26.769,
+   "audio_start": 27.049,
+   "spoken_end": 33.172,
+   "seg_dur": 7.554
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Why was Cain's offering refused? Not because God dislikes the work of a farmer's hands. Because the offering was the SIGN \u2014 the lamb pointed to Christ. Cain redesigned the ordinance, and then raged when heaven would not bless the redesign.",
+   "seg_start": 34.322,
+   "audio_start": 34.602,
+   "spoken_end": 49.462,
+   "seg_dur": 15.86
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "And in that rage, Cain did something no one on earth had ever done. He made a deal.",
+   "seg_start": 50.182,
+   "audio_start": 50.462,
+   "spoken_end": 54.655,
+   "seg_dur": 5.192
+  },
+  {
+   "seg": "d1",
+   "speaker": "devil",
+   "text": "Swear unto me by thy throat, and if thou tell it thou shalt die; and swear thy brethren by their heads, and by the living God, that they tell it not... and this day I will deliver thy brother Abel into thine hands.",
+   "seg_start": 55.375,
+   "audio_start": 55.655,
+   "spoken_end": 70.714,
+   "seg_dur": 16.489
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Secrecy, sworn on his own throat. Loyalty ranked above conscience. Murder, traded for advantage. And then the title \u2014 because Cain, God help him, was proud of the deal:",
+   "seg_start": 71.864,
+   "audio_start": 72.144,
+   "spoken_end": 84.775,
+   "seg_dur": 13.631
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "And Cain said: Truly I am Mahan, the master of this great secret, that I may murder and get gain.",
+   "seg_start": 85.495,
+   "audio_start": 85.775,
+   "spoken_end": 92.401,
+   "seg_dur": 8.056
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Master Mahan. Murder, to get gain. The devil finally had the thing he had wanted since the council \u2014 not just a tempted man, but an organized one. A covenant structure. A dark mirror of God's own order: oaths, secrets, hierarchy \u2014 aimed at gain instead of grace.",
+   "seg_start": 93.551,
+   "audio_start": 93.831,
+   "spoken_end": 113.07,
+   "seg_dur": 20.24
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Abel died in a field, at his brother's hand. Scripture does not flinch, and neither will we: the first family buried a murdered son. And his blood cried to God from the ground.",
+   "seg_start": 113.79,
+   "audio_start": 114.07,
+   "spoken_end": 125.213,
+   "seg_dur": 12.143
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "The combination Cain founded did not die with him. Scripture tracks it down the centuries \u2014 and names exactly what keeps it alive:",
+   "seg_start": 125.933,
+   "audio_start": 126.213,
+   "spoken_end": 133.708,
+   "seg_dur": 8.495
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "And behold, it is he who is the author of all sin. And behold, he doth carry on his works of darkness and secret murder, and doth hand down their plots, and their oaths, and their covenants, and their plans of awful wickedness, from generation to generation.",
+   "seg_start": 134.428,
+   "audio_start": 134.708,
+   "spoken_end": 150.463,
+   "seg_dur": 17.185
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Handed down, generation to generation. Every syndicate oath, every cartel, every conspiracy that trades blood for power \u2014 that is not random human badness. It is a franchise. The oldest one on earth.",
+   "seg_start": 151.613,
+   "audio_start": 151.893,
+   "spoken_end": 167.18,
+   "seg_dur": 16.287
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Why show you something this dark? Because the war has structure on both sides. God builds covenants that exalt. The devil builds covenants that devour. And you can tell them apart with one question: does this bond ask me to hide \u2014 or does it let me stand in the light?",
+   "seg_start": 167.9,
+   "audio_start": 168.18,
+   "spoken_end": 184.671,
+   "seg_dur": 17.491
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "The family of Adam survived its darkest day, and kept the altar burning. So can yours. And every oath of darkness ever sworn is outranked by one drop of the blood the lamb was pointing to all along.",
+   "seg_start": 185.391,
+   "audio_start": 185.671,
+   "spoken_end": 197.188,
+   "seg_dur": 12.517
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "Covenants of light exalt. Covenants of darkness devour. Know them apart by what they ask you to hide.",
+  "seg_start": 197.908,
+  "audio_start": 198.188,
+  "seg_dur": 8.363
+ },
+ "total": 206.271
+}

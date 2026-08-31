@@ -1,0 +1,148 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "What happens to a family cut off from Eden? Watch what God does in the very first chapter after the gate closes \u2014 because it destroys the picture of an abandoning God forever.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.168,
+   "seg_dur": 11.888
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Adam and Eve built a life in the fallen world. And they prayed. And heaven answered. The veil kept them from His presence \u2014 but He never once went silent.",
+   "seg_start": 11.888,
+   "audio_start": 12.168,
+   "spoken_end": 21.235,
+   "seg_dur": 10.066
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "And after many days an angel of the Lord appeared unto Adam, saying: Why dost thou offer sacrifices unto the Lord? And Adam said unto him: I know not, save the Lord commanded me.",
+   "seg_start": 21.955,
+   "audio_start": 22.235,
+   "spoken_end": 33.04,
+   "seg_dur": 12.235
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Stop on that answer. I know not, save the Lord commanded me. Adam had been offering the firstlings of his flock for years without knowing why. Pure trust, ahead of understanding. And because he obeyed first, the explanation came:",
+   "seg_start": 34.19,
+   "audio_start": 34.47,
+   "spoken_end": 47.367,
+   "seg_dur": 13.897
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "This thing is a similitude of the sacrifice of the Only Begotten of the Father, which is full of grace and truth.",
+   "seg_start": 48.087,
+   "audio_start": 48.367,
+   "spoken_end": 54.617,
+   "seg_dur": 7.68
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "A similitude. Every lamb on every altar was a picture \u2014 pointing four thousand years forward, to the Lamb. Adam and Eve knew about Jesus Christ. The first family on earth had His gospel: faith, repentance, baptism, the Holy Ghost.",
+   "seg_start": 55.767,
+   "audio_start": 56.047,
+   "spoken_end": 71.827,
+   "seg_dur": 16.78
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "Adam cried unto the Lord, and he was caught away by the Spirit of the Lord, and was carried down into the water, and was laid under the water, and was brought forth out of the water.",
+   "seg_start": 72.547,
+   "audio_start": 72.827,
+   "spoken_end": 81.538,
+   "seg_dur": 10.141
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Baptized. The first man on this earth was baptized \u2014 same ordinance, same gospel, same Christ that saves anybody today. The gospel is not an invention of the meridian of time. It is older than the world.",
+   "seg_start": 82.688,
+   "audio_start": 82.968,
+   "spoken_end": 96.511,
+   "seg_dur": 14.543
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "And now watch the enemy's response, because it defines his playbook for the rest of history.",
+   "seg_start": 97.231,
+   "audio_start": 97.511,
+   "spoken_end": 102.019,
+   "seg_dur": 5.507
+  },
+  {
+   "seg": "d1",
+   "speaker": "devil",
+   "text": "I am also a son of God. Believe it not.",
+   "seg_start": 102.739,
+   "audio_start": 103.019,
+   "spoken_end": 105.448,
+   "seg_dur": 3.859
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "That is his first recorded sermon on earth. Notice what he did not say. He did not say there is no God. He said I am ALSO a son of God \u2014 a counterfeit claim to authority \u2014 and then: believe it not. Doubt, preached as doctrine. He has never fought religion. He manufactures his own.",
+   "seg_start": 106.598,
+   "audio_start": 106.878,
+   "spoken_end": 127.766,
+   "seg_dur": 21.888
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "So from day one there have been two churches on this earth. The one God plants, with ordinances that point to Christ. And the imitation \u2014 wearing religious language, teaching men to believe nothing, and to love pleasure more than God.",
+   "seg_start": 128.486,
+   "audio_start": 128.766,
+   "spoken_end": 142.77,
+   "seg_dur": 15.005
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Some of Adam's children listened to the angel. Some loved the counterfeit. And that split, right down the middle of the first family, is the war \u2014 running through every family since.",
+   "seg_start": 143.49,
+   "audio_start": 143.77,
+   "spoken_end": 154.11,
+   "seg_dur": 11.339
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "But keep the headline. God did not wait one generation to preach Christ. The gospel came to Adam whole, immediate, and free. Nobody in the history of this world was ever born too early for Jesus.",
+   "seg_start": 154.83,
+   "audio_start": 155.11,
+   "spoken_end": 167.865,
+   "seg_dur": 13.756
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "So when someone tells you the gospel started two thousand years ago \u2014 or that God leaves His children in the dark \u2014 tell them about the first altar. He taught the first family. He will certainly teach yours.",
+   "seg_start": 168.585,
+   "audio_start": 168.865,
+   "spoken_end": 180.567,
+   "seg_dur": 12.701
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "The gospel is older than the world. And nobody was born too early for Christ.",
+  "seg_start": 181.287,
+  "audio_start": 181.567,
+  "seg_dur": 6.639
+ },
+ "total": 187.925
+}
