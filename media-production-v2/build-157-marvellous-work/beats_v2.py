@@ -79,9 +79,11 @@ LOCKS = {
     ),
     "PLAIN": (
         "PLAIN LOCK: the unschooled man is the same in every shot — "
-        "about forty, a broad kind working face, in a rough DARK "
-        "RUST tunic (never cream, never white); simple honesty, "
-        "gentle; never mocked."
+        "about forty, a broad kind working face with a FULL SHORT "
+        "DARK BEARD (never clean-shaven, never mere stubble), thick "
+        "dark hair, in a rough DARK RUST tunic (never cream, never "
+        "white); his face, beard and build EXACTLY as the attached "
+        "reference image; simple honesty, gentle; never mocked."
     ),
 }
 
@@ -757,3 +759,7 @@ PLACE_REFS = {
     "BOOK": "PLACE-REF/book.jpeg",  # build-157-marvellous-work s03-imagine-a-precious-book-clasped (manual)
 }
 # === end PLACE-PLATES ===
+
+REFS = {
+    "PLAIN": "CAST-REF-V2/plain.jpeg",
+}

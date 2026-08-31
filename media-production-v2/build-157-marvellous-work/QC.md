@@ -135,3 +135,26 @@ missing stills — the picture runner's job.
 **Handed to the picture runner:** board State NEEDS-AUDIO → AUTHORED, Ready ✅,
 Claim cleared. When the runner generates the stills, `v2_assemble` rebuilds the
 new-voice track via the flag and ships. Nothing else touched.
+
+---
+
+## ✅ C-FIX SHIPPED (2026-08-31, Machine A `Dev`, Claude session)
+
+**COMPLAINT (Cameron):** "0:58 no beard, 1:00 beard, and 1:03 no beard again."
+
+**ROOT CAUSE:** the PLAIN (unschooled) man had a TEXT-ONLY lock with no beard
+stated and no face reference — three different actors rendered the one character
+(stubble b11 / full beard b13 / clean-shaven b12; b27 drifted too). Rubric
+lesson 2/28: a text lock alone is not identity.
+
+**FIX:** canonized b13's fully-bearded man as the anchor (tight face crop that
+clearly SHOWS the beard → `CAST-REF-V2/plain.jpeg`), wired `REFS["PLAIN"]`,
+added "FULL SHORT DARK BEARD (never clean-shaven, never mere stubble) …
+EXACTLY as the attached reference" to the lock, and regenerated b11, b12, b27
+with the ref attached (3 gens, $0.40; b13 untouched as the anchor). Face-board
+of anchor vs all three regens: one man everywhere. Scroll script in the new b27
+checked at full crop — dense period squiggle, indistinct, no legible letters.
+
+**Verified in the ENCODED replacement at 0:58 / 1:01 / 1:03** — the same
+bearded man in every frame. AUDIO REBUILD PASS SHA256=9251364871…, 173.9s,
+20.1 MB — narration untouched.
