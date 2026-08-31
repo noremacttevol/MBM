@@ -1,3 +1,56 @@
+## 2026-08-30/31 (Claude, Machine A `Dev`) — **ALL 5 COMPLAINTS FIXED + 14 APPROVED ROWS PUBLISHED + DOMAIN BACK ON milkb4meat.org**
+
+### Domain restored on Cameron's own name
+Cameron made the Squarespace DNS change; verified milkb4meat.org + www resolve to
+GitHub Pages, HTTPS cert approved and enforced, homepage serving. The printed
+domain on every video works again — hosted where bandwidth cannot run out.
+
+### Complaint fixes (all 5, lowest-first, every timestamp verified in the ENCODED cut)
+- **134** robes on both crucified men + crosses angled to face each other at
+  0:18/0:23/0:29 (prompts had never specified clothing or cross orientation).
+  67ef9f1b8.
+- **150 NARRATIVE REBUILD** — all five of Cameron's shepherd teachings written
+  into the narration, re-voiced (ElevenLabs Brian), and pictured with 9 new
+  stills: David's many-jobs→first-job open (king w/ harp; boy on the hills);
+  ewe refusing rushing water + the glass-still pool; the CAST sheep → held
+  tight until blood returns → standing again; leading from the front; asleep
+  among the flock. **"Captions were off" ROOT-CAUSED: five narrator mp3s were
+  from an older draft than the caption text** — re-voiced from caption text,
+  full per-segment round-trip now matches (only whisper's "restoreth" deafness
+  flags). ElevenLabs kept normalizing "You set a table" to "He set" — durable
+  fix: the line is now "Lord, you set a table…" in BOTH caption and audio
+  (vocative makes the pronoun undriftable). All 28 windows re-authored to the
+  fresh timeline; caption bands spot-checked at 4 boundaries. b21/b24 reused
+  pair measured 0.945 → b24 replaced with a cup-runneth-over insert. $1.74.
+  f3c761dac.
+- **157** beard flicker 0:58/1:00/1:03 = three different men playing the PLAIN
+  character (text-only lock, no face ref). Canonized the bearded 1:00 man as
+  the anchor (tight crop showing the beard), wired REFS, locked "FULL SHORT
+  DARK BEARD", regenerated b11/b12/b27; face-boarded — one man everywhere.
+- **187** three hands at 0:23 (prompt asked him to hold the open scroll AND
+  gesture) → strict two-hand accounting, scroll lowered in the right hand,
+  left palm open. 9e16ca612.
+- **192** 0:05 had **Ash-Wednesday cross marks on foreheads** (modern ritual,
+  anachronistic) → ash dusted in hair/cloth only, drawn-mark ban; 0:08 was a
+  floating-buildings-over-white-void composite (lesson 23) → one continuous
+  square. a49edd8c6.
+
+### 14 newly-approved rows PUBLISHED (159,165,171,175,179,180,181,186,190,193,194,195,198,200)
+Each approved cut byte-extracted from its exact approval commit into the
+gallery, thumbnails generated, mp4+thumb uploaded to the videos-v1 release CDN,
+ids added to PRODUCED_VIDEO_IDS (now 136), publish ledger synced (14 events).
+**PUBLIC-VIDEO GATE: PASS all 8 checks live** (136 byte-exact, 18 old-era rows
+404). Shipped via EAS OTA group `33b52db2-f7f4-43b4-a656-94adf3da62bd`
+(iOS+Android, runtime 1.1.0).
+
+Reviewer + Pages mirror updated with every fix (cards answer Cameron in his
+words); every fixed mp4 live-verified byte-exact on GitHub raw.
+**Session cost: ~$4.7 Gemini + ElevenLabs cents for 5 complaint fixes and a
+full narrative rebuild.** Remaining open on the board: rows 128
+(PARKED-REPLACED-VERIFY) and 117 (AWAITING-CAMERON, genuine fork).
+
+---
+
 ## 2026-08-29 pt.2 (Claude, Machine A `Dev`) — **milkb4meat.org OFF FIREBASE FOR GOOD — LIVE ON GITHUB PAGES WITH HTTPS; iOS 1.1.0 CONFIRMED PUBLIC**
 
 - Cameron made the Squarespace DNS change himself (walked click-by-click): old A
