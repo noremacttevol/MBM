@@ -1,0 +1,148 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Between the war and your birth, something enormous had to be built. A world. This one. And who built it \u2014 and what for \u2014 changes how it feels to live in it.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.808,
+   "seg_dur": 10.528
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "And there stood one among them that was like unto God, and he said unto those who were with him: We will go down, for there is space there, and we will take of these materials, and we will make an earth whereon these may dwell.",
+   "seg_start": 10.528,
+   "audio_start": 10.808,
+   "spoken_end": 22.939,
+   "seg_dur": 13.561
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "One like unto God. That is Jehovah \u2014 the premortal Jesus. Under the Father's direction, the Son led the building of this world. John says it flat out:",
+   "seg_start": 24.089,
+   "audio_start": 24.369,
+   "spoken_end": 33.8,
+   "seg_dur": 10.431
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "All things were made by him; and without him was not any thing made that was made.",
+   "seg_start": 34.52,
+   "audio_start": 34.8,
+   "spoken_end": 38.663,
+   "seg_dur": 5.293
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "And notice the wording Abraham heard. Not conjure. Not wish. We will take of these materials. Eternal stuff, organized with intent \u2014 a Builder with a blueprint, and a family moving in.",
+   "seg_start": 39.813,
+   "audio_start": 40.093,
+   "spoken_end": 51.999,
+   "seg_dur": 12.906
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "And what was the building for? The very next sentence of the blueprint:",
+   "seg_start": 52.719,
+   "audio_start": 52.999,
+   "spoken_end": 56.671,
+   "seg_dur": 4.671
+  },
+  {
+   "seg": "g1",
+   "speaker": "father",
+   "text": "And we will prove them herewith, to see if they will do all things whatsoever the Lord their God shall command them.",
+   "seg_start": 57.391,
+   "audio_start": 57.671,
+   "spoken_end": 64.055,
+   "seg_dur": 7.814
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "We will prove them. This world is a proving ground. But be careful with that word \u2014 it does not mean what fear tells you it means.",
+   "seg_start": 65.205,
+   "audio_start": 65.485,
+   "spoken_end": 72.66,
+   "seg_dur": 8.175
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "God is not grading you to find out if you're good enough. He knew you before the womb \u2014 He already knows His children perfectly. The proving was never for His information. It is for your becoming.",
+   "seg_start": 73.38,
+   "audio_start": 73.66,
+   "spoken_end": 84.874,
+   "seg_dur": 12.215
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "A test can be a trap, or it can be training. A quiz measures what you were. Training builds what you will be. Mountains. Hunger. Distance. Gravity. Resistance everywhere you look \u2014 because resistance is how children of God grow.",
+   "seg_start": 85.594,
+   "audio_start": 85.874,
+   "spoken_end": 102.721,
+   "seg_dur": 17.847
+  },
+  {
+   "seg": "g2",
+   "speaker": "father",
+   "text": "And they who keep their first estate shall be added upon; and they who keep their second estate shall have glory added upon their heads for ever and ever.",
+   "seg_start": 103.441,
+   "audio_start": 103.721,
+   "spoken_end": 114.409,
+   "seg_dur": 12.118
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "Added upon. That is the family word for what this planet is for. You kept your first estate \u2014 you are here, and that is the proof. The second estate runs the same play at heavier weight: keep choosing Him, and glory gets added. Forever.",
+   "seg_start": 115.559,
+   "audio_start": 115.839,
+   "spoken_end": 132.575,
+   "seg_dur": 17.736
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Now the honest part. How long did creation take? What processes did He use? How does the science fit in? God has not told us everything \u2014 and we will not pretend He has. What He revealed is who built it, and why. And that is the part that changes your Monday.",
+   "seg_start": 133.295,
+   "audio_start": 133.575,
+   "spoken_end": 150.063,
+   "seg_dur": 17.488
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Because if this world is an accident, so are you, and nothing means anything. But if every sunrise is architecture \u2014 if the whole planet is a classroom built by Someone who intends His children to graduate \u2014 then your hardest day here is not chaos. It is curriculum.",
+   "seg_start": 150.783,
+   "audio_start": 151.063,
+   "spoken_end": 166.99,
+   "seg_dur": 16.927
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "The devil calls this earth his kingdom. Do not believe him. He never built anything. You are standing in your Father's school, on your Brother's handiwork \u2014 and they put you here to grow.",
+   "seg_start": 167.71,
+   "audio_start": 167.99,
+   "spoken_end": 179.218,
+   "seg_dur": 12.228
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "This world is not an accident. It is a classroom \u2014 and you were meant to graduate.",
+  "seg_start": 179.938,
+  "audio_start": 180.218,
+  "seg_dur": 6.613
+ },
+ "total": 186.55
+}

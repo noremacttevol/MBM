@@ -1,0 +1,166 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "So the rebel fell. This is the story of what he lost, what he kept \u2014 and the question everyone asks sooner or later: why does God allow a devil at all?",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 9.906,
+   "seg_dur": 10.626
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "How art thou fallen from heaven, O Lucifer, son of the morning! how art thou cut down to the ground, which didst weaken the nations!",
+   "seg_start": 10.626,
+   "audio_start": 10.906,
+   "spoken_end": 17.836,
+   "seg_dur": 8.36
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Lucifer. The name means light-bearer. Son of the morning. This was not some monster crawling out of a pit \u2014 this was one of the family. Brilliant. Trusted. Standing in authority. Until he wanted the throne more than the family.",
+   "seg_start": 18.986,
+   "audio_start": 19.266,
+   "spoken_end": 34.974,
+   "seg_dur": 16.708
+  },
+  {
+   "seg": "j1",
+   "speaker": "jesus",
+   "text": "I beheld Satan as lightning fall from heaven.",
+   "seg_start": 35.694,
+   "audio_start": 35.974,
+   "spoken_end": 37.871,
+   "seg_dur": 3.327
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Jesus said that as an eyewitness. He watched it happen. And notice what the fall cost: not existence \u2014 position. He lost the presence of the Father. He lost his glory. And he lost one thing forever that every single one of us has. He will never have a body.",
+   "seg_start": 39.021,
+   "audio_start": 39.301,
+   "spoken_end": 56.19,
+   "seg_dur": 17.89
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "Every baby ever born receives the thing he forfeited. Remember that the next time he whispers that your body is shameful, or worthless, or a prison. He would trade anything for one.",
+   "seg_start": 56.91,
+   "audio_start": 57.19,
+   "spoken_end": 67.625,
+   "seg_dur": 11.434
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "For he seeketh that all men might be miserable like unto himself.",
+   "seg_start": 68.345,
+   "audio_start": 68.625,
+   "spoken_end": 71.971,
+   "seg_dur": 4.776
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "That is his entire business model, in one line. He cannot win anything anymore. No body. No future. No throne. So he plays for one outcome only \u2014 making your loss as total as his.",
+   "seg_start": 73.121,
+   "audio_start": 73.401,
+   "spoken_end": 87.314,
+   "seg_dur": 14.913
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Now the hard question. If God is all-powerful, and all-good \u2014 why keep a devil around? Why not just turn him off? God answered that question directly. Listen:",
+   "seg_start": 88.034,
+   "audio_start": 88.314,
+   "spoken_end": 98.547,
+   "seg_dur": 11.233
+  },
+  {
+   "seg": "g1",
+   "speaker": "father",
+   "text": "And it must needs be that the devil should tempt the children of men, or they could not be agents unto themselves; for if they never should have bitter they could not know the sweet.",
+   "seg_start": 99.267,
+   "audio_start": 99.547,
+   "spoken_end": 109.692,
+   "seg_dur": 11.574
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Or they could not be agents unto themselves. There it is, from God's own mouth. Freedom is not real if no is impossible. A world with no tempter is a world with no choice \u2014 and a world with no choice was the devil's plan. God refused to defeat him by becoming him.",
+   "seg_start": 110.842,
+   "audio_start": 111.122,
+   "spoken_end": 128.973,
+   "seg_dur": 18.851
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "So hold this straight: God did not create evil. He created freedom \u2014 real freedom \u2014 knowing it could say no, knowing one of His brightest would say it first, and knowing exactly what the repair would cost. The Lamb was chosen before the devil ever fell.",
+   "seg_start": 129.693,
+   "audio_start": 129.973,
+   "spoken_end": 145.865,
+   "seg_dur": 16.892
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "For it must needs be, that there is an opposition in all things.",
+   "seg_start": 146.585,
+   "audio_start": 146.865,
+   "spoken_end": 149.795,
+   "seg_dur": 4.36
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "No opposition, no growth. No resistance, no strength. The road where you become like Jesus runs uphill on purpose \u2014 and the devil, without ever meaning to, is part of the incline. Every time you tell him no, you become more of what God sent you here to become.",
+   "seg_start": 150.945,
+   "audio_start": 151.225,
+   "spoken_end": 168.168,
+   "seg_dur": 17.944
+  },
+  {
+   "seg": "s4",
+   "speaker": "scripture",
+   "text": "Woe to the inhabiters of the earth and of the sea! for the devil is come down unto you, having great wrath, because he knoweth that he hath but a short time.",
+   "seg_start": 168.888,
+   "audio_start": 169.168,
+   "spoken_end": 177.717,
+   "seg_dur": 9.978
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Having great wrath \u2014 because he knows he has but a short time. He is not winning. He has already lost twice, the war and the tomb, and he can hear the clock.",
+   "seg_start": 178.867,
+   "audio_start": 179.147,
+   "spoken_end": 188.4,
+   "seg_dur": 10.254
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "So when temptation comes for you today, remember what is actually behind it. Not a rival god. A beaten, bodiless, desperate former brother whose only remaining power is a voice. And you have beaten his voice before.",
+   "seg_start": 189.12,
+   "audio_start": 189.4,
+   "spoken_end": 202.993,
+   "seg_dur": 14.593
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "He has no body, no future, and no power over you but a voice. And you have beaten his voice before.",
+  "seg_start": 203.713,
+  "audio_start": 203.993,
+  "seg_dur": 8.702
+ },
+ "total": 212.416
+}

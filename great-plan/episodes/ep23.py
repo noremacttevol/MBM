@@ -116,11 +116,14 @@ PICTURES = [
         era="ancient")),
     ("p02", "s1", _p(
         "The wandering begins: a ragged family — father, mother, two "
-        "grown sons with travel staffs — walks a grey endless sea-shore "
-        "away from the camera, which stands low behind them shooting past "
-        "their backs down the long empty strand, cold surf on one side, "
-        "dunes on the other, their cloaks pressed by wind. Nothing ahead "
-        "but distance.",
+        "grown sons with travel staffs — seen ENTIRELY FROM BEHIND, four "
+        "backs and the backs of four heads, walking AWAY from the camera "
+        "down a grey endless sea-shore, their figures receding toward the "
+        "far haze. The camera stands low on the sand directly behind "
+        "them; not one face, cheek or profile is visible — cloaks, "
+        "shoulders, heels only, cold surf on one side, dunes on the "
+        "other, wind pressing their cloaks forward. Nothing ahead but "
+        "distance.",
         "a family with staffs from behind on an endless grey shore, "
         "walking away into distance",
         "any face turned back, buildings, boats, anyone facing the lens",
@@ -157,12 +160,15 @@ PICTURES = [
         "any person, skeleton, cobweb excess, broken windows",
         era="first-century")),
     ("p06", "n3", _p(
-        "After the last apostle: in a lamplit house-church room, an empty "
-        "teacher's stool with a folded travelling cloak laid across it, "
-        "and around the walls a scattering of mourners with heads deeply "
-        "bowed or faces in hands, every figure turned toward the empty "
-        "stool, the camera watching from the doorway past a mourner's "
-        "shoulder. Two low flames gutter.",
+        "After the last apostle: in a lamplit house-church room the "
+        "camera looks from the doorway PAST the dark shoulder and back "
+        "of a near mourner toward the room's centre, where an empty "
+        "teacher's stool holds a folded travelling cloak — the brightest "
+        "lit thing in the room. Around the walls a scattering of "
+        "mourners sit and stand with heads DEEPLY BOWED or faces buried "
+        "in hands, every body angled toward the stool, every face "
+        "hidden by bowing or hands or turned fully away — NOT ONE face "
+        "toward the camera. Two low flames gutter.",
         "an empty stool with folded cloak as the room's focus, bowed "
         "mourners around the walls, doorway camera past a shoulder",
         "a body, a coffin, anyone facing the lens, bright light",
@@ -233,15 +239,19 @@ PICTURES = [
         )),
     ("p13", "s2", _p(
         "What the centuries took: an ancient codex lies open under "
-        "raking candlelight, and across its aged pages entire passages "
-        "are simply GONE — faded to ghost-blankness, edges water-stained, "
-        "one corner torn away — the surviving strokes blurred and "
-        "unreadable. A reader's empty hands rest either side of the "
-        "book, palms open, holding nothing.",
-        "an open ancient codex with faded blank gaps and a torn corner, "
-        "open empty hands resting beside it",
-        "readable words, ink still wet, scissors, deliberate vandalism "
-        "in progress",
+        "raking candlelight, and across its aged pages several wide "
+        "HORIZONTAL BANDS of the text block are simply GONE — faded to "
+        "ghost-blank parchment in irregular rectangular runs the shape "
+        "of missing PARAGRAPHS, edges water-stained, one lower corner "
+        "torn away — the surviving strokes between the gaps blurred and "
+        "unreadable. The blank regions are plain rectangles of empty "
+        "page: no shape, symbol, cross, figure or pattern is formed by "
+        "any gap. A reader's empty hands rest either side of the book, "
+        "palms open, holding nothing.",
+        "an open ancient codex with rectangular paragraph-shaped blank "
+        "gaps and a torn corner, open empty hands resting beside it",
+        "any cross, symbol or figure formed by the gaps; readable "
+        "words; ink still wet; scissors",
         )),
     ("p14", "n7", _p(
         "The cost in the nursery: night in a cold stone side-chapel, "
