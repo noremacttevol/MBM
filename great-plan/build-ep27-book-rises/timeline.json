@@ -1,0 +1,139 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Three years after the grove, the seed in the hill got its wake-up call. This is the night the buried book rose.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.083,
+   "seg_dur": 6.803
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "September, eighteen twenty-three. Joseph \u2014 seventeen now \u2014 praying late at night for forgiveness and direction. And light grew in his little room until it outshone noon \u2014 and a person stood in the air above the floor.",
+   "seg_start": 6.803,
+   "audio_start": 7.083,
+   "spoken_end": 19.472,
+   "seg_dur": 13.389
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "He called me by name, and said unto me that he was a messenger sent from the presence of God to me, and that his name was Moroni.",
+   "seg_start": 20.192,
+   "audio_start": 20.472,
+   "spoken_end": 27.913,
+   "seg_dur": 8.871
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Moroni. The same man who buried the plates fourteen centuries earlier \u2014 sent back for them. Heaven does not lose track of its librarians. The last man of the fallen nation became the first messenger of the Restoration.",
+   "seg_start": 29.063,
+   "audio_start": 29.343,
+   "spoken_end": 43.716,
+   "seg_dur": 15.372
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "He said there was a book deposited, written upon gold plates, giving an account of the former inhabitants of this continent, and the source from whence they sprang. He also said that the fulness of the everlasting Gospel was contained in it, as delivered by the Savior to the ancient inhabitants.",
+   "seg_start": 44.436,
+   "audio_start": 44.716,
+   "spoken_end": 62.444,
+   "seg_dur": 19.158
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Four years of schooling followed \u2014 Moroni returning each September, the boy maturing into a man \u2014 until eighteen twenty-seven, when the plates were finally placed in Joseph's hands, with a charge to guard them with his life.",
+   "seg_start": 63.594,
+   "audio_start": 63.874,
+   "spoken_end": 77.358,
+   "seg_dur": 14.484
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Then, translation \u2014 by the gift and power of God. An unschooled farmhand, dictating hour after hour: five hundred and thirty-one printed pages in roughly sixty-five working days. Scholars still cannot explain the pace \u2014 and the manuscript shows almost no revision.",
+   "seg_start": 78.078,
+   "audio_start": 78.358,
+   "spoken_end": 94.991,
+   "seg_dur": 17.633
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "And what came off those plates answers the famine point by point. The plain and precious things \u2014 back. The covenants \u2014 back. Its own title page states the whole mission:",
+   "seg_start": 95.711,
+   "audio_start": 95.991,
+   "spoken_end": 106.974,
+   "seg_dur": 11.983
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "To the convincing of the Jew and Gentile that Jesus is the Christ, the Eternal God, manifesting himself unto all nations.",
+   "seg_start": 107.694,
+   "audio_start": 107.974,
+   "spoken_end": 114.984,
+   "seg_dur": 8.439
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "Some said then \u2014 and some still say \u2014 we already have a Bible; we need no more. God had answered that objection twenty-four centuries before anyone raised it:",
+   "seg_start": 116.134,
+   "audio_start": 116.414,
+   "spoken_end": 125.959,
+   "seg_dur": 10.545
+  },
+  {
+   "seg": "j1",
+   "speaker": "jesus",
+   "text": "Wherefore, because that ye have a Bible ye need not suppose that it contains all my words; neither need ye suppose that I have not caused more to be written.",
+   "seg_start": 126.679,
+   "audio_start": 126.959,
+   "spoken_end": 134.745,
+   "seg_dur": 9.216
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Two witnesses. One God. The Book of Mormon does not replace the Bible \u2014 it stands beside it, and each testifies of the other. And eleven men beyond Joseph handled the plates, hefted them, turned their leaves \u2014 and signed their names to it for the rest of their lives. Several of them kept that testimony even after falling out with Joseph himself.",
+   "seg_start": 135.895,
+   "audio_start": 136.175,
+   "spoken_end": 157.114,
+   "seg_dur": 21.939
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "The book went to press in Palmyra in eighteen thirty. Five thousand copies \u2014 a believing farmer's farm mortgaged to pay for them. The famine's answer, stacked and drying in a print shop.",
+   "seg_start": 157.834,
+   "audio_start": 158.114,
+   "spoken_end": 169.238,
+   "seg_dur": 12.124
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "And the invitation printed in its final chapter is still the engine of everything: read it, remember how merciful the Lord has been \u2014 and ask God, in the name of Christ, if it is true. Millions have. You can. Moroni buried it for you. The least you can do is open it.",
+   "seg_start": 169.958,
+   "audio_start": 170.238,
+   "spoken_end": 188.794,
+   "seg_dur": 19.556
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "Buried by the last survivor. Delivered back by the same man. Addressed to you.",
+  "seg_start": 189.514,
+  "audio_start": 189.794,
+  "seg_dur": 6.456
+ },
+ "total": 195.97
+}

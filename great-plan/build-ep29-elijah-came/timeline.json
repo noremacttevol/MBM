@@ -1,0 +1,139 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Keys restore a church. More keys turn it into a kingdom death cannot break up. This episode is about the visitors who brought the rest.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 7.844,
+   "seg_dur": 8.564
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "April sixth, eighteen thirty. In a log farmhouse in Fayette, New York, the Church of Christ was formally organized on the earth again \u2014 same name, same offices, same authority as Galilee. Six members on the paperwork. A whole gathering on the calendar.",
+   "seg_start": 8.564,
+   "audio_start": 8.844,
+   "spoken_end": 25.892,
+   "seg_dur": 18.048
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Six years later, the young church finished its first temple, at Kirtland, Ohio \u2014 built at crushing sacrifice by people who mostly lived in cabins. The women even crushed their china into the plaster so the walls would catch the light. They wanted a house fit for visitors.",
+   "seg_start": 26.612,
+   "audio_start": 26.892,
+   "spoken_end": 42.878,
+   "seg_dur": 16.986
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "They got them. April third, eighteen thirty-six \u2014 Easter week. After the sacrament, Joseph and Oliver bowed behind the pulpit veils in solemn prayer... and the veil of the visions opened. First came the Lord himself:",
+   "seg_start": 43.598,
+   "audio_start": 43.878,
+   "spoken_end": 57.46,
+   "seg_dur": 14.582
+  },
+  {
+   "seg": "j1",
+   "speaker": "jesus",
+   "text": "For behold, I have accepted this house, and my name shall be here; and I will manifest myself to my people in mercy in this house.",
+   "seg_start": 58.18,
+   "audio_start": 58.46,
+   "spoken_end": 65.136,
+   "seg_dur": 8.106
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Their written description reads like Ezekiel and John shaking hands:",
+   "seg_start": 66.286,
+   "audio_start": 66.566,
+   "spoken_end": 69.623,
+   "seg_dur": 4.057
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "His eyes were as a flame of fire; the hair of his head was white like the pure snow; his countenance shone above the brightness of the sun; and his voice was as the sound of the rushing of great waters, even the voice of Jehovah.",
+   "seg_start": 70.343,
+   "audio_start": 70.623,
+   "spoken_end": 83.774,
+   "seg_dur": 14.581
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Then, one after another, the department heads returned with their portfolios. Moses \u2014 the same Moses \u2014 committed the keys of the gathering of Israel: authority to bring the family home from the ends of the earth.",
+   "seg_start": 84.924,
+   "audio_start": 85.204,
+   "spoken_end": 97.142,
+   "seg_dur": 12.938
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Then Elias, committing the dispensation of the gospel of Abraham \u2014 the covenant of the tent, folded whole into the restored church.",
+   "seg_start": 97.862,
+   "audio_start": 98.142,
+   "spoken_end": 105.871,
+   "seg_dur": 8.729
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "And last, the visitor Malachi had promised in the closing words of the Old Testament \u2014 the last prophecy most Bibles print:",
+   "seg_start": 106.591,
+   "audio_start": 106.871,
+   "spoken_end": 113.372,
+   "seg_dur": 7.501
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord: and he shall turn the heart of the fathers to the children, and the heart of the children to their fathers, lest I come and smite the earth with a curse.",
+   "seg_start": 114.092,
+   "audio_start": 114.372,
+   "spoken_end": 126.947,
+   "seg_dur": 14.005
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Elijah \u2014 the Carmel prophet, the fire-caller \u2014 stood in the Kirtland temple and handed over the sealing power: authority to bind on earth and have it bound in heaven. Marriages that outlast death. Families welded past the grave. The dead \u2014 reachable.",
+   "seg_start": 128.097,
+   "audio_start": 128.377,
+   "spoken_end": 146.305,
+   "seg_dur": 18.928
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Feel what that last one means. The devil's version of death rips every family apart forever \u2014 every till-death-do-you-part is his fine print. Elijah's keys tear the fine print up. And the hearts of the children turning to their fathers? Look around: the whole world caught family-history fever within a few generations of that afternoon. The pull is real. It started somewhere.",
+   "seg_start": 147.025,
+   "audio_start": 147.305,
+   "spoken_end": 171.372,
+   "seg_dur": 25.066
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "So: the church came back on April sixth. But after April third, eighteen thirty-six, it was more than a church \u2014 a kingdom with gathering orders, Abraham's covenant, and death-proof glue. The devil spent seventeen centuries taking things off the earth. Heaven had just spent six years putting every one of them back.",
+   "seg_start": 172.092,
+   "audio_start": 172.372,
+   "spoken_end": 192.669,
+   "seg_dur": 21.298
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "Till death do you part was the devil's fine print. Elijah tore it up.",
+  "seg_start": 193.389,
+  "audio_start": 193.669,
+  "seg_dur": 5.986
+ },
+ "total": 199.375
+}

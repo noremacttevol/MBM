@@ -193,7 +193,21 @@ JOSEPH_LOCK = (
     "light-coloured thoughtful eyes, plain 1820 homespun. Earnest, strong, "
     "unpolished. No halo, no glow.")
 
+MOSES_LOCK = (
+    "MOSES LOCK: the same man in every picture — the great lawgiver in "
+    "vigorous old age: deep bronze sun-scorched skin, LONG loose white hair "
+    "to mid-back, a massive white beard, heavy dark brows, broad-shouldered, "
+    "in a robe of rust-red and grey desert stripes with a rope belt, a tall "
+    "staff in hand. Thunder and meekness in one face. No halo, no glow.")
+
+OLIVER_LOCK = (
+    "OLIVER LOCK: the same man in every picture — Oliver Cowdery at "
+    "twenty-two: slight scholarly build, dark neat hair, clean-shaven "
+    "narrow earnest face, schoolteacher's dark coat over homespun. "
+    "Quick-eyed, devoted. No halo, no glow.")
+
 _GP_LOCAL_LOCKS = {"FATHER": FATHER_LOCK, "FATHER-TEXT": FATHER_LOCK,
+                   "MOSES-GP": MOSES_LOCK, "OLIVER-C": OLIVER_LOCK,
                    "COURT": COURT_LOCK, "HOSTS": HOSTS_LOCK,
                    "ADAM": ADAM_LOCK, "EVE": EVE_LOCK,
                    "JOSEPH-SMITH": JOSEPH_LOCK}
