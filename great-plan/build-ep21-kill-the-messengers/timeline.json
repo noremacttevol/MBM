@@ -1,0 +1,139 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "The tomb is empty. Death is broken. So how do you fight a risen King? You cannot. But you can hunt down every man He authorized \u2014 and that is exactly what happened next.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.434,
+   "seg_dur": 12.154
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "The apostles turned the world upside down. Thousands baptized. Congregations from Jerusalem to Rome. And the enemy's answer came fast.",
+   "seg_start": 12.154,
+   "audio_start": 12.434,
+   "spoken_end": 20.863,
+   "seg_dur": 9.429
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Stephen was first \u2014 dragged before the council for preaching Christ. And as they raged, he looked up, and told them exactly what he saw:",
+   "seg_start": 21.583,
+   "audio_start": 21.863,
+   "spoken_end": 29.835,
+   "seg_dur": 8.972
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "Behold, I see the heavens opened, and the Son of man standing on the right hand of God.",
+   "seg_start": 30.555,
+   "audio_start": 30.835,
+   "spoken_end": 34.944,
+   "seg_dur": 5.539
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "Two Persons \u2014 the Son, standing at the Father's right hand \u2014 seen by a dying man and declared with his last breaths. They stoned him for saying it. Stephen was killed praying for his killers \u2014 while a young man named Saul stood watching the coats.",
+   "seg_start": 36.094,
+   "audio_start": 36.374,
+   "spoken_end": 52.442,
+   "seg_dur": 17.068
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Then James, by the sword. Then the hunt went empire-wide. Peter \u2014 crucified. Paul, the coat-watcher turned apostle \u2014 beheaded in Rome. John \u2014 exiled to a prison island. One by one, the men holding the keys were killed.",
+   "seg_start": 53.162,
+   "audio_start": 53.442,
+   "spoken_end": 68.447,
+   "seg_dur": 16.005
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "And the apostles saw it coming. They said so, in writing. Paul, to the elders of Ephesus, through tears:",
+   "seg_start": 69.167,
+   "audio_start": 69.447,
+   "spoken_end": 75.844,
+   "seg_dur": 7.397
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "For I know this, that after my departing shall grievous wolves enter in among you, not sparing the flock. Also of your own selves shall men arise, speaking perverse things, to draw away disciples after them.",
+   "seg_start": 76.564,
+   "audio_start": 76.844,
+   "spoken_end": 88.625,
+   "seg_dur": 13.211
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Wolves from outside \u2014 and of your own selves, from inside. And to the saints waiting eagerly for Christ's return, Paul wrote a sentence the whole world should have underlined:",
+   "seg_start": 89.775,
+   "audio_start": 90.055,
+   "spoken_end": 100.467,
+   "seg_dur": 11.412
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "Let no man deceive you by any means: for that day shall not come, except there come a falling away first.",
+   "seg_start": 101.187,
+   "audio_start": 101.467,
+   "spoken_end": 107.673,
+   "seg_dur": 7.636
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "A falling away \u2014 FIRST. Before the Lord returns: a departure. An apostasy. That is not a Latter-day Saint invention. That is Paul, in your own Bible, on the record.",
+   "seg_start": 108.823,
+   "audio_start": 109.103,
+   "spoken_end": 119.713,
+   "seg_dur": 11.61
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Now count with me, because this arithmetic is the whole tragedy. Ordaining an apostle takes an apostle. Kill them faster than they can ordain \u2014 and one day, somewhere in the empire, the last man holding the keys dies. No meeting. No headline. Just... gone.",
+   "seg_start": 120.433,
+   "audio_start": 120.713,
+   "spoken_end": 137.502,
+   "seg_dur": 17.79
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "The believers stayed. The buildings stayed. Most of the scriptures stayed. But the authority \u2014 the priesthood keys Christ placed on living men \u2014 left the earth with the last of them. The devil could not kill the risen Christ. So he took the church instead.",
+   "seg_start": 138.222,
+   "audio_start": 138.502,
+   "spoken_end": 153.31,
+   "seg_dur": 15.807
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "Which means: if heaven ever wanted that authority back on the earth, dead men would have to return to bring it. Hold that thought. For about seventeen hundred years.",
+   "seg_start": 154.03,
+   "audio_start": 154.31,
+   "spoken_end": 163.289,
+   "seg_dur": 9.979
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "He could not kill the King. So he killed the men with the keys \u2014 and settled in to wait.",
+  "seg_start": 164.009,
+  "audio_start": 164.289,
+  "seg_dur": 7.24
+ },
+ "total": 171.249
+}

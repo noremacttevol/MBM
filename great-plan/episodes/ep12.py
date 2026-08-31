@@ -129,13 +129,15 @@ PICTURES = [
         "ships, land, figures, lightning bolts",
         wide=True)),
     ("p02", "s1", _p(
-        "A world filled with violence, shown by its cost: at dusk a "
-        "family flees toward the camera's side of a ridge — a father "
-        "carrying a child, a mother pulling another by the hand, all "
-        "in profile at a hard run — while far below and behind them "
-        "their village burns, torch-points moving between the "
-        "houses. No violence shown; the running and the burning say "
-        "it.",
+        "UPRIGHT VERTICAL 9:16 FRAME, horizon LEVEL and horizontal, one "
+        "single continuous scene: a dusk trail climbs from the frame's "
+        "bottom edge up into the middle distance, and along it a "
+        "family flees AWAY from the camera in three-quarter-from-"
+        "behind — father carrying a child, mother pulling another by "
+        "the hand, all mid-run up the trail — while small in the "
+        "frame's upper third their village burns in the valley "
+        "behind-below the trail's shoulder, torch-points moving "
+        "between the houses under a level dusk sky at the top.",
         "a family running in profile along a ridge at dusk, their "
         "burning village and moving torch-points far below",
         "weapons in frame, wounds, attackers close, faces to "
@@ -311,10 +313,12 @@ PICTURES = [
         "her eyes on the lens, tears, adults in frame",
         )),
     ("p19", ("n11", 0.7), _p(
-        "Peace, signed: a dead-calm sea at dawn under a clean "
-        "sky — long gold light on gentle water, the storm's "
-        "last clouds burning out pink at the horizon, one line "
-        "of birds crossing far off. The world, promised.",
+        "Peace, signed: a dead-calm COMPLETELY EMPTY sea at dawn "
+        "under a clean sky — long gold light on gentle water, the "
+        "storm's last clouds burning out pink at the horizon, one "
+        "line of birds crossing far off. NO vessel of any kind — "
+        "no ship, boat, sail or ark — anywhere on the water. The "
+        "world, promised.",
         "a dead-calm dawn sea, storm remnants burning out pink, "
         "far birds",
         "ships, figures, rainbows, text",
