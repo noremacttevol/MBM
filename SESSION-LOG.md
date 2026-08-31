@@ -1,3 +1,29 @@
+## 2026-08-31 (Claude, Machine A `Dev`) — **THE GREAT PLAN launched: master story locked + Part A (33-episode map) written, awaiting Cameron's approval**
+
+Cameron started a NEW production lane attached to MBM: "The Great Plan" — a
+~33-episode (~3 min each) God-vs-the-devil film telling the entire restored-
+gospel account from the council in heaven to now, as a testimony (NOT a
+seeker-softened cut). New folder `great-plan/`:
+
+- **`great-plan/MASTER-STORY.md`** — the canonical six-movement story (Two
+  Wills spine; "Not Damned for Adam" and the Great Apostasy never compressed).
+- **`great-plan/README.md`** — production law: this lane is Cameron's explicit
+  EXCEPTION to stills-only (image-to-video motion allowed); locked-order
+  workflow (words → VO → stills w/ locked faces → animate → cut → music);
+  8–12 shots of 4–6s per episode; Jesus uses the same locked face as the main
+  queue; proof-of-method build order = Eps 1, 8, 23, 26.
+- **`great-plan/EPISODE-MAP.md`** — **PART A COMPLETE: all 33 episodes with
+  loglines, war-beat, and scripture anchors.** Status ⬜ AWAITING CAMERON'S
+  APPROVAL — per his explicit order ("Do Part A completely first. Stop.")
+  no Part B scripts until he approves the map. Part B = 4 episode packets at
+  a time, never all 33 in one pass.
+
+Next session: if Cameron approved the map (or gave edits), apply edits then
+write Part B packet 1 (Episodes 1, 8, 23, 26 — locked VO scripts + shot
+lists). Main 200-queue work continues per standing order regardless.
+
+---
+
 ## 2026-08-30/31 (Claude, Machine A `Dev`) — **ALL 5 COMPLAINTS FIXED + 14 APPROVED ROWS PUBLISHED + DOMAIN BACK ON milkb4meat.org**
 
 ### Domain restored on Cameron's own name
