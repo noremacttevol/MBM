@@ -1279,7 +1279,21 @@
       "open_fix": null,
       "slug": "build-159-other-sheep",
       "title": "Other Sheep I Have",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "8b56e61af8f89deeb112ddabe6db4a6a72e6b493",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "951b29a25fcecc2b4bc666a81c20aa501cdcf6b2",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/159.mp4"
+            }
+          ]
+        }
+      ]
     },
     "16": {
       "open_fix": null,
@@ -1347,7 +1361,21 @@
       "open_fix": null,
       "slug": "build-165-laying-on-hands",
       "title": "Laying On of Hands for the Holy Ghost",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "076f8b6872c1c6f6f83cb93a3405fec6de27c8d3",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "8c1496026d41948c81fadbb518f7949fc9e00a55",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/165.mp4"
+            }
+          ]
+        }
+      ]
     },
     "166": {
       "open_fix": null,
@@ -1403,7 +1431,21 @@
       "open_fix": null,
       "slug": "build-171-baptized-for-the-dead",
       "title": "Baptized For the Dead",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "3ea3210c45e07497e3fd31a796e4668f882a3e01",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "fd3166e1a8261eb9dc5f7623251d11de9d744669",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/171.mp4"
+            }
+          ]
+        }
+      ]
     },
     "172": {
       "open_fix": null,
@@ -1427,7 +1469,21 @@
       "open_fix": null,
       "slug": "build-175-mountain-of-the-lords-house",
       "title": "Mountain of the Lords House",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "1e521844120a1400a9f334edc04b2a0476fee5a1",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "3833f467f65657ce36d8d547d1e098f2b7d6abea",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/175.mp4"
+            }
+          ]
+        }
+      ]
     },
     "176": {
       "open_fix": null,
@@ -1451,7 +1507,21 @@
       "open_fix": null,
       "slug": "build-179-stephens-witness",
       "title": "Stephens Witness",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "b0402df9af335bf13b78ed9e94e0b321a7055054",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "24e2e1bca15481fc83b022bee96cbb40416ee19f",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/179.mp4"
+            }
+          ]
+        }
+      ]
     },
     "18": {
       "open_fix": null,
@@ -1489,13 +1559,41 @@
       "open_fix": null,
       "slug": "build-180-before-i-formed-thee",
       "title": "Before I Formed Thee",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "c3cfea1eded9989922ecb107df3d63e55bd55c2a",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "0ba84b2d5171da8bbb88d0e8cfc7e1e7ef0cd517",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/180.mp4"
+            }
+          ]
+        }
+      ]
     },
     "181": {
       "open_fix": null,
       "slug": "build-181-morning-stars-sang",
       "title": "Morning Stars Sang",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "8a700a28f79a7bb9a383876a2e6d0828b44ca6b8",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "18d55a1940051ea3965cc05ddb18713b96c3a360",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/181.mp4"
+            }
+          ]
+        }
+      ]
     },
     "182": {
       "open_fix": null,
@@ -1525,7 +1623,21 @@
       "open_fix": null,
       "slug": "build-186-joint-heirs",
       "title": "Heirs of God",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "8d43ccad3d175b6da89b907075c4eae8c27800d5",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "e1074318742b57dd1e93b941524d509f9ea87afd",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/186.mp4"
+            }
+          ]
+        }
+      ]
     },
     "187": {
       "open_fix": null,
@@ -1569,7 +1681,21 @@
       "open_fix": null,
       "slug": "build-190-faith-without-works",
       "title": "Faith Without Works",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "6dbaf7fd9e90ea6226cee1f903d4d7d21a4383f7",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "d23397aa081611c53c0c9590f5bd88662c0c25a2",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/190.mp4"
+            }
+          ]
+        }
+      ]
     },
     "191": {
       "open_fix": null,
@@ -1587,19 +1713,61 @@
       "open_fix": null,
       "slug": "build-193-the-comforter",
       "title": "The Comforter",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "482726a5d95d4502963acb24135db8be7896dd3f",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "0e59a9f2506b8dc25b7b3751a5863775fe3e19e7",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/193.mp4"
+            }
+          ]
+        }
+      ]
     },
     "194": {
       "open_fix": null,
       "slug": "build-194-fruit-of-the-spirit",
       "title": "Fruit of the Spirit",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "08c6e5d4b50cd56b6779538fccdfa5e95fcdcb93",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "77c6a345f4192fdedf4b66b7827afd747f9f1cb0",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/194.mp4"
+            }
+          ]
+        }
+      ]
     },
     "195": {
       "open_fix": null,
       "slug": "build-195-prove-all-things",
       "title": "Prove All Things",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "61fde442234a93a73330ca32a38e2fc2b89aecd9",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "1438f1109bc997f24224b7358c881d65699cdf7d",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/195.mp4"
+            }
+          ]
+        }
+      ]
     },
     "196": {
       "open_fix": null,
@@ -1617,7 +1785,21 @@
       "open_fix": null,
       "slug": "build-198-ensign-for-the-nations",
       "title": "Ensign For the Nations",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "2e95d4fa54cc1b3f5850cb7c613cdddc69cf38de",
+          "date": "2026-08-31",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "78d6099724e0530866b83e5f1d82c26725584911",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/198.mp4"
+            }
+          ]
+        }
+      ]
     },
     "199": {
       "open_fix": null,
@@ -1703,6 +1885,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "b44252a11d74fdeeb6710210f77fccd89ce48501",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/200.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "adad305c66e0255113509585166ff399f203bb89",
+          "date": "2026-08-31",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "61ed07b882f0e223734e4bcd2dec8bcb6f8823d5",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -3923,5 +4118,5 @@
       ]
     }
   },
-  "updated": "2026-08-13T22:46:00"
+  "updated": "2026-08-31T00:47:04"
 }
