@@ -180,17 +180,15 @@ BEATS = [
         "must_show": "the thief — chest-up on the right-of-centre cross: the broad worn face, grey-shot beard, deep tired eyes; honesty about his own guilt visible; NO wounds.",
         "must_not_show": "ABSOLUTE: no wounds, no gore — chest-up framing; his pain carried by the face alone, dignity intact.",
         "scene": (
-            "The man beside him has no illusions left: chest-"
-            "up on the right-hand cross, the thief's broad "
-            "worn face hangs tired against the grey sky — "
-            "grey-shot beard, deep-cut lines, the eyes of a "
-            "man doing honest arithmetic at the end of a "
-            "dishonest life and finding his own column "
-            "correct: earned, all of it, and he knows it — "
-            "no self-pity anywhere in the ruined face, just "
-            "the terrible clean honesty that sometimes "
-            "arrives at last hours. Every figure has two "
-            "arms, two hands and one head."
+            "Chest-up on the right-hand cross, the thief's broad worn face "
+            "tired against the grey sky — grey-shot beard, deep-cut lines, the "
+            "eyes of a man doing honest arithmetic at the end of a dishonest "
+            "life. HIS CROSS IS TURNED three-quarters toward frame LEFT, "
+            "toward the centre cross whose dark upright and arm are visible at "
+            "the left edge — the two crosses clearly angled toward one another, "
+            "close enough to speak. He is CLOTHED in a plain worn earth-brown "
+            "knee-length tunic covering his chest and shoulders; ropes at his "
+            "wrists; no wounds, no blood, no bare torso."
         ),
     },
     {
@@ -204,17 +202,16 @@ BEATS = [
         "must_show": "the turn — the thief's head turned toward Jesus on the centre cross, the ask forming on his face; two faces angled toward each other against the grey; chest-up, no wounds.",
         "must_not_show": "ABSOLUTE: no wounds; the TURN is the picture — his face toward Jesus, hope's last unlikely direction.",
         "scene": (
-            "The last thing the thief does with his strength "
-            "is turn his head: against the cold grey the worn "
-            "face rotates toward the centre cross — toward "
-            "the one dying man on this hill who has spent the "
-            "morning forgiving people — and the ask gathers "
-            "on his features with nothing left to lose: "
-            "remember me — a lifetime's first prayer, aimed "
-            "sideways between two crosses, at the only "
-            "neighbour who ever hung close enough to hear "
-            "it. Every figure has two arms, two hands and "
-            "one head."
+            "The last thing the thief does with his strength is turn his "
+            "head: a two-shot of the two crosses ANGLED TOWARD EACH OTHER, "
+            "close enough that the men's eyes can meet — Jesus on the centre "
+            "cross at frame left in his plain cream wool robe COVERING his "
+            "chest and shoulders, the thief on the right-hand cross in a worn "
+            "earth-brown tunic likewise fully clothed — the worn face rotating "
+            "toward the one dying man on this hill who has spent the morning "
+            "forgiving people, the ask gathering on his features. Ropes at the "
+            "wrists; grey cold light; NO bare torsos, NO loincloth-only "
+            "figures, no wounds, no blood."
         ),
     },
     {
@@ -228,17 +225,15 @@ BEATS = [
         "must_show": "SCRIPTURE-EXACT: the exchange — the two faces toward each other, chest-up, the promise passing between the crosses; Jesus's face full of spent tender authority; NO wounds.",
         "must_not_show": "ABSOLUTE: no wounds, no gore — faces and words only; the tenderness at full cost.",
         "scene": (
-            "The shortest gospel service on record is held "
-            "between two crosses: the thief's plea still on "
-            "his lips, and Jesus's face turned to him through "
-            "the pain — spent, grey-lit, and full of an "
-            "authority no cross has touched — TODAY, the "
-            "promise crosses the gap, with ME, in PARADISE — "
-            "salvation transacted in one breath each, no "
-            "altar, no ritual, no time left for anything but "
-            "the mercy itself, which turns out to be the only "
-            "part that was ever required. Every figure has "
-            "two arms, two hands and one head."
+            "The shortest gospel service on record, held between two crosses "
+            "ANGLED TOWARD EACH OTHER: a tight close two-shot across the gap — "
+            "the thief's plea still on his lips at frame right, Jesus's face "
+            "turned fully to him at frame left through the pain, spent, "
+            "grey-lit, and full of an authority no cross has touched. Both men "
+            "CLOTHED — Jesus in his plain cream wool robe, the thief in his "
+            "worn earth-brown tunic — the angled wooden arms of both crosses "
+            "readable behind their shoulders, close enough to speak. No bare "
+            "torsos, no wounds, no blood; only the promise crossing the gap."
         ),
     },
     {

@@ -191,3 +191,31 @@ verify). **COMPLAINT LEDGER: none open** (fresh-authored story, no filed complai
   rebuilt 116.57s (AUDIO REBUILD PASS on ship, byte-identical new-voice).
 - **Outcome:** cut CONFIRMED CLEAN. No re-cut ($0/0 rerolls). Claim marked
   **QC-OK 2026-08-13**. A clean approved-pending cut is not touched.
+
+---
+
+## ✅ C-FIX SHIPPED (2026-08-30, Machine A `Dev`, Claude session)
+
+**COMPLAINT (Cameron, via Reviewer):** "0:18, 0:23, 0:29 need to be redone
+becasue the crosses werent faceing each other and there were no robes worn on
+them."
+
+**PROMPT AUTOPSY: ALLOWED.** None of the three scene texts specified clothing on
+the crucified men or the relative angle of the two crosses, so b05 rendered both
+men bare in loincloths and b04's cross faced the camera instead of Jesus.
+
+**FIX — all three beats re-authored and regenerated (3 gens, 0 rerolls, $0.40):**
+- b04 (0:18): thief CLOTHED in worn earth-brown tunic; his cross turned
+  three-quarters toward the centre cross, whose upright and arm are visible at
+  the left edge — the two clearly angled to speak.
+- b05 (0:23): full two-shot, crosses ANGLED TOWARD EACH OTHER, faces able to
+  meet; Jesus in his cream robe covering chest and shoulders, thief in brown
+  tunic — no bare torsos.
+- b06 (0:29): tight close across the gap, both robed, both cross arms readable
+  behind their shoulders.
+Restraint held throughout: ropes not nails in frame, no wounds, no blood.
+Jesus's V2 face on-model in b05/b06 (ref attached).
+
+**Verified in the ENCODED replacement at the exact complained timestamps**
+(frames extracted at 18s/23s/29s and inspected). AUDIO REBUILD PASS
+SHA256=a192ad42e9…, 116.6s, 19.5 MB — narration untouched.
