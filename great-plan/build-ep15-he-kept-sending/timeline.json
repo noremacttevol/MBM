@@ -1,0 +1,148 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "If somebody ignored your calls a thousand times, how long before you stopped calling? Hold that answer. Now meet the God who never stopped.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 8.778,
+   "seg_dur": 9.498
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "After Moses, Israel settled the promised land \u2014 and started a cycle. Forget God. Fall apart. Cry out. Be rescued. And forget again. For centuries.",
+   "seg_start": 9.498,
+   "audio_start": 9.778,
+   "spoken_end": 20.646,
+   "seg_dur": 11.868
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "And here is the verse that shows you God's side of that millennium:",
+   "seg_start": 21.366,
+   "audio_start": 21.646,
+   "spoken_end": 24.585,
+   "seg_dur": 3.938
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "And the Lord God of their fathers sent to them by his messengers, rising up betimes, and sending; because he had compassion on his people, and on his dwelling place.",
+   "seg_start": 25.305,
+   "audio_start": 25.585,
+   "spoken_end": 34.953,
+   "seg_dur": 10.798
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "Rising up betimes \u2014 that means early in the morning. Picture it: a God up at dawn, sending the next messenger. And the reason is right there in the verse. Not policy. Compassion.",
+   "seg_start": 36.103,
+   "audio_start": 36.383,
+   "spoken_end": 47.553,
+   "seg_dur": 12.17
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "That is what a prophet is \u2014 God's early-morning messenger. And heaven is committed to the system:",
+   "seg_start": 48.273,
+   "audio_start": 48.553,
+   "spoken_end": 54.162,
+   "seg_dur": 6.609
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "Surely the Lord God will do nothing, but he revealeth his secret unto his servants the prophets.",
+   "seg_start": 54.882,
+   "audio_start": 55.162,
+   "spoken_end": 59.835,
+   "seg_dur": 6.103
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "Nothing without prophets. That is standing policy. So when you hear the word prophet, do not picture a fortune-teller. Picture a relay runner \u2014 carrying one unchanging message through a forgetful thousand years.",
+   "seg_start": 60.985,
+   "audio_start": 61.265,
+   "spoken_end": 75.009,
+   "seg_dur": 14.744
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Sometimes the relay got loud. Mount Carmel: one prophet, Elijah, against four hundred and fifty priests of Baal. All day their god said nothing. Then Elijah drowned his own altar in water \u2014 and called.",
+   "seg_start": 75.729,
+   "audio_start": 76.009,
+   "spoken_end": 89.577,
+   "seg_dur": 14.568
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "Then the fire of the Lord fell, and consumed the burnt sacrifice, and the wood, and the stones, and the dust, and licked up the water that was in the trench. And when all the people saw it, they fell on their faces: and they said, The Lord, he is the God; the Lord, he is the God.",
+   "seg_start": 90.297,
+   "audio_start": 90.577,
+   "spoken_end": 106.659,
+   "seg_dur": 17.512
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "The Lord, He is the God. One demonstration, and a generation turned. But fire fades from memory faster than you would think \u2014 and the cycle rolled again. So God kept sending.",
+   "seg_start": 107.809,
+   "audio_start": 108.089,
+   "spoken_end": 119.078,
+   "seg_dur": 11.989
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "And the messengers began carrying something new. Isaiah, seven hundred years early, described a Servant \u2014 despised, rejected, and wounded. The relay was no longer just carrying a message. It was carrying a portrait.",
+   "seg_start": 119.798,
+   "audio_start": 120.078,
+   "spoken_end": 133.835,
+   "seg_dur": 14.757
+  },
+  {
+   "seg": "s4",
+   "speaker": "scripture",
+   "text": "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.",
+   "seg_start": 134.555,
+   "audio_start": 134.835,
+   "spoken_end": 143.914,
+   "seg_dur": 10.509
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Every prophet, whatever else he carried, carried Him. The whole relay was running toward one Person. And some of the runners were killed for the message \u2014 and the next one came anyway. That is what compassion does.",
+   "seg_start": 145.064,
+   "audio_start": 145.344,
+   "spoken_end": 158.566,
+   "seg_dur": 14.222
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "So if you have ever wondered whether God gets tired of reaching for someone who keeps forgetting Him \u2014 you now hold a thousand years of receipts. He rises early. He keeps sending. And He has not stopped.",
+   "seg_start": 159.286,
+   "audio_start": 159.566,
+   "spoken_end": 172.005,
+   "seg_dur": 13.439
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "A thousand years of forgetting. A thousand years of sending anyway. He has never stopped.",
+  "seg_start": 172.725,
+  "audio_start": 173.005,
+  "seg_dur": 7.396
+ },
+ "total": 180.122
+}

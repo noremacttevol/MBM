@@ -171,7 +171,7 @@ PICTURES = [
         wide=True)),
     ("p06", "n6", _p(
         "The seeker: Abraham stands at the edge of the firelight "
-        "outside Ur's distant glow, his back to the city, face "
+        "outside Ur's distant shine, his back to the city, face "
         "lifted to the night — the look of a man who has already "
         "chosen against the idols behind him and doesn't yet know "
         "what he has chosen toward. Seen in three-quarter from "
@@ -196,7 +196,7 @@ PICTURES = [
         "burning from horizon to horizon — seen from directly "
         "behind, his arms lifted slightly from his sides, palms "
         "forward, head back: a man being SHOWN his seed in the "
-        "stars. His tent glows small and warm at the frame's "
+        "stars. His tent burns small and warm at the frame's "
         "bottom edge.",
         "Abraham from directly behind under the full milky way "
         "arch, arms slightly lifted, tent-glow small below",
@@ -289,7 +289,7 @@ PICTURES = [
         "Two unities, one frame: far across the dusk plain, the "
         "broken tower-stump stands abandoned against the last "
         "grey light — while in the near foreground Abraham's "
-        "lamplit tent glows warm with figures gathering toward "
+        "lamplit tent stands warm with figures gathering toward "
         "its open flap, travellers' silhouettes converging out of "
         "the dark toward the light. The thesis of the episode in "
         "a single look.",

@@ -135,7 +135,7 @@ PICTURES = [
         locks=["MOSES-GP"])),
     ("p03", ("n2", 0.5), _p(
         "The sea on end: the dry seabed corridor at night lit by a "
-        "pillar of fire's warm glow off-frame — two towering walls of "
+        "pillar of fire's warm firelight off-frame — two towering walls of "
         "dark green water standing sheer on either side, fish shadows "
         "moving inside them — and the freed multitude streaming away "
         "from the camera down the corridor, families, herds, laden "

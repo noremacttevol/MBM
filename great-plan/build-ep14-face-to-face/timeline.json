@@ -1,0 +1,157 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Fifteen hundred years before Christ, God pulled a shepherd off a mountainside and showed him who He is. What Moses learned up there is everything the famine would later starve out of the world.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 11.582,
+   "seg_dur": 12.302
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "You know the story's shape. A bush that burned and was not consumed. Ten plagues. A sea standing on end, and a slave nation walking out of Egypt on dry ground.",
+   "seg_start": 12.302,
+   "audio_start": 12.582,
+   "spoken_end": 22.463,
+   "seg_dur": 10.882
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "And the Lord spake unto Moses face to face, as a man speaketh unto his friend.",
+   "seg_start": 23.183,
+   "audio_start": 23.463,
+   "spoken_end": 28.166,
+   "seg_dur": 6.133
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Face to face. As a man speaks to his friend. Not a force. Not an abstraction. A Person \u2014 knowable, present, and shockingly personal.",
+   "seg_start": 29.316,
+   "audio_start": 29.596,
+   "spoken_end": 39.391,
+   "seg_dur": 10.795
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "And in vision, God told Moses what all of it is FOR. One sentence. The mission statement of everything:",
+   "seg_start": 40.111,
+   "audio_start": 40.391,
+   "spoken_end": 46.175,
+   "seg_dur": 6.784
+  },
+  {
+   "seg": "g1",
+   "speaker": "father",
+   "text": "For behold, this is my work and my glory \u2014 to bring to pass the immortality and eternal life of man.",
+   "seg_start": 46.895,
+   "audio_start": 47.175,
+   "spoken_end": 55.102,
+   "seg_dur": 9.357
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "His work and His glory \u2014 is your life. Not His ego. Not His applause. When someone asks why God wants worship, there is the answer: His glory is His children rising. Worship is scaffolding for us. It was never applause for Him.",
+   "seg_start": 56.252,
+   "audio_start": 56.532,
+   "spoken_end": 71.639,
+   "seg_dur": 16.107
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "And Moses learned one more thing on that mountain. Because after the glory withdrew, another voice showed up.",
+   "seg_start": 72.359,
+   "audio_start": 72.639,
+   "spoken_end": 78.412,
+   "seg_dur": 6.773
+  },
+  {
+   "seg": "d1",
+   "speaker": "devil",
+   "text": "Moses, son of man, worship me.",
+   "seg_start": 79.132,
+   "audio_start": 79.412,
+   "spoken_end": 82.18,
+   "seg_dur": 4.198
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Son of man. Hear the insult \u2014 God had just called him My Son. The devil's first move is always to shrink your title. Now watch what a man who knows who he is does with that:",
+   "seg_start": 83.33,
+   "audio_start": 83.61,
+   "spoken_end": 94.25,
+   "seg_dur": 11.64
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "Who art thou? For behold, I am a son of God, in the similitude of his Only Begotten; and where is thy glory, that I should worship thee?",
+   "seg_start": 94.97,
+   "audio_start": 95.25,
+   "spoken_end": 103.736,
+   "seg_dur": 9.917
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "Who art thou \u2014 for I am a son of God. That is the whole exchange. A man who has seen God's face and knows his own name cannot be bluffed. The voice raged and the ground shook \u2014 and Moses ended it with one sentence:",
+   "seg_start": 104.886,
+   "audio_start": 105.166,
+   "spoken_end": 118.751,
+   "seg_dur": 14.584
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "Depart from me, Satan, for this one God only will I worship, which is the God of glory.",
+   "seg_start": 119.471,
+   "audio_start": 119.751,
+   "spoken_end": 124.247,
+   "seg_dur": 5.927
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "And he departed. He always does, eventually, before a child of God standing on their identity. That is not a Moses-only trick. That is the family defense.",
+   "seg_start": 125.397,
+   "audio_start": 125.677,
+   "spoken_end": 134.39,
+   "seg_dur": 9.713
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Israel walked out of Egypt with that God \u2014 fire by night, bread from the sky, water from rock \u2014 and still forgot Him within weeks, dancing around a golden calf. And God's answer, for the next thousand years? He kept sending. But that is the next episode.",
+   "seg_start": 135.11,
+   "audio_start": 135.39,
+   "spoken_end": 151.61,
+   "seg_dur": 17.22
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "For now, keep Moses' two treasures. God has a face. And you have a title: child of God. His whole work and glory is raising you \u2014 and nothing that calls you smaller than that speaks for heaven.",
+   "seg_start": 152.33,
+   "audio_start": 152.61,
+   "spoken_end": 163.753,
+   "seg_dur": 12.143
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "God has a face. You have a title \u2014 child of God. Never let anyone shrink either one.",
+  "seg_start": 164.473,
+  "audio_start": 164.753,
+  "seg_dur": 7.997
+ },
+ "total": 172.47
+}

@@ -153,15 +153,20 @@ PICTURES = [
         "insects, decay, hands, text",
         )),
     ("p05", "n4", _p(
-        "The two trees: on a gentle rise at the garden's heart, TWO "
-        "great trees stand a stone's throw apart, balanced in one "
-        "frame — the left one silver-barked and full of pale luminous "
-        "fruit, the right one darker-leaved with deep amber fruit — "
-        "equals in size and majesty, morning mist drifting between "
-        "them. The choice, planted. No people, no serpent yet.",
-        "two majestic trees balanced in one frame on a rise — pale "
-        "luminous fruit on one, deep amber fruit on the other",
-        "signs, fences, figures, snakes, one tree dominant",
+        "The two trees: EXACTLY TWO separate, complete, free-standing "
+        "trees on a gentle grassy rise, one on the frame's left and "
+        "one on the frame's right, a clear gap of open grass and "
+        "drifting mist between their two distinct trunks — the LEFT "
+        "tree silver-barked with pale gold fruit, the RIGHT tree "
+        "darker-barked and darker-leaved with deep amber fruit — the "
+        "same height, the same majesty, two equal choices facing "
+        "each other across the gap. Count the trunks: two. No "
+        "people, no serpent yet.",
+        "TWO separate complete trees with a clear grass gap between "
+        "their trunks — silver/pale-gold left, darker/amber right, "
+        "equal size",
+        "one single tree, merged canopies, a third tree prominent, "
+        "signs, figures, snakes",
         wide=True)),
     ("p06", "g1", _p(
         "The commandment: Adam and Eve kneel side by side in a glade "
