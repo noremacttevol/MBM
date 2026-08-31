@@ -1,0 +1,148 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "Before you were born, you agreed to terms that should scare you. Forget everything. Walk blind. Risk sin, and pain, and death. Why would anyone sign that \u2014 and why would a loving Father offer it?",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 13.641,
+   "seg_dur": 14.361
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Start with the forgetting. A veil was drawn across your memory \u2014 heaven, the council, His face. Not as a punishment. As the whole point.",
+   "seg_start": 14.361,
+   "audio_start": 14.641,
+   "spoken_end": 23.973,
+   "seg_dur": 10.331
+  },
+  {
+   "seg": "n3",
+   "speaker": "narrator",
+   "text": "Because the test could never work in plain sight. A God standing visibly in the room does not get chosen \u2014 He gets complied with. And compliance was Lucifer's plan.",
+   "seg_start": 24.693,
+   "audio_start": 24.973,
+   "spoken_end": 34.186,
+   "seg_dur": 10.213
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "The veil is what makes your choices mean something. Down here you cannot lean on the memory of His face. You have to decide what you love \u2014 when love is all you have to go on.",
+   "seg_start": 34.906,
+   "audio_start": 35.186,
+   "spoken_end": 44.891,
+   "seg_dur": 10.705
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "For we walk by faith, not by sight.",
+   "seg_start": 45.611,
+   "audio_start": 45.891,
+   "spoken_end": 47.859,
+   "seg_dur": 3.398
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "Faith is things which are hoped for and not seen; wherefore, dispute not because ye see not, for ye receive no witness until after the trial of your faith.",
+   "seg_start": 49.009,
+   "audio_start": 49.289,
+   "spoken_end": 57.74,
+   "seg_dur": 9.881
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "So the silence you sometimes feel is not absence. It is the exam room being kept honest. He is closer than the veil feels. And the veil is thinner than you think.",
+   "seg_start": 58.89,
+   "audio_start": 59.17,
+   "spoken_end": 68.783,
+   "seg_dur": 10.613
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "But forgetting was the smaller risk. Here is the bigger one: down here, everyone sins. Everyone dies. If the story ended there, mortality would be a trap, not a school.",
+   "seg_start": 69.503,
+   "audio_start": 69.783,
+   "spoken_end": 80.528,
+   "seg_dur": 11.745
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "So before the first breath was ever drawn \u2014 before Adam, before Eden, before the earth itself \u2014 the rescue was already signed.",
+   "seg_start": 81.248,
+   "audio_start": 81.528,
+   "spoken_end": 90.22,
+   "seg_dur": 9.692
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "The Lamb slain from the foundation of the world.",
+   "seg_start": 90.94,
+   "audio_start": 91.22,
+   "spoken_end": 93.539,
+   "seg_dur": 3.749
+  },
+  {
+   "seg": "s4",
+   "speaker": "scripture",
+   "text": "The precious blood of Christ, as of a lamb without blemish and without spot: who verily was foreordained before the foundation of the world, but was manifest in these last times for you.",
+   "seg_start": 94.689,
+   "audio_start": 94.969,
+   "spoken_end": 105.643,
+   "seg_dur": 12.104
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "Foreordained before the foundation of the world. The Savior was never God's backup plan after Eden went wrong. He was the load-bearing beam of the original blueprint. The plan was never hope they don't fall. It was: they will fall \u2014 and I will catch every single one who lets me.",
+   "seg_start": 106.793,
+   "audio_start": 107.073,
+   "spoken_end": 123.595,
+   "seg_dur": 17.522
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "That is why heaven let you take the risk at all. You did not go down uninsured. Your Father let you fall only because your Brother had already promised to catch you.",
+   "seg_start": 124.315,
+   "audio_start": 124.595,
+   "spoken_end": 133.122,
+   "seg_dur": 9.527
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "So read the terms again. Forget \u2014 so your love can be real. Fall \u2014 with the rescue pre-paid. Walk blind \u2014 with a hand you cannot see holding the rail beside you the whole way down.",
+   "seg_start": 133.842,
+   "audio_start": 134.122,
+   "spoken_end": 146.283,
+   "seg_dur": 13.161
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "You signed those terms once, with a shout of joy. Somewhere behind the veil, you knew exactly what you were doing.",
+   "seg_start": 147.003,
+   "audio_start": 147.283,
+   "spoken_end": 152.951,
+   "seg_dur": 6.668
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "You did not come here uninsured. The rescue was signed before the risk began.",
+  "seg_start": 153.671,
+  "audio_start": 153.951,
+  "seg_dur": 6.273
+ },
+ "total": 159.944
+}

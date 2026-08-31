@@ -234,35 +234,55 @@ PICTURES = [
         "lens flare streaks",
         devil=True, locks=["JOSEPH-SMITH"])),
     ("p11", "s3", _p(
-        "The vision: the clearing filled with light like standing "
-        "inside morning itself — and above the kneeling boy, TWO "
-        "glorified Personages stand in the air, a few feet above the "
-        "ground and fully real: the Father in a radiant pure-white "
-        "robe, and at his right hand the Son in his familiar cream — "
-        "two distinct men, calm and majestic, looking down at the boy "
-        "with warmth. The camera stays low behind and beside the "
-        "kneeling Joseph at the clearing's edge and shoots past his "
-        "shoulder up at the two standing above the frame's centre; "
-        "their feet do not touch the ground and Joseph's face is not "
-        "seen from this angle.",
-        "two distinct glorified men standing in the air above the "
-        "kneeling boy — white robe and cream robe — light everywhere, "
-        "warmth in their faces",
-        "wings, halos, drawn rays, identical faces, transparent "
-        "bodies, either face toward the lens",
+        "The vision: the spring clearing filled with light like standing "
+        "inside morning itself — the young green leaves washed almost "
+        "white by it — and above the kneeling boy, TWO glorified "
+        "Personages stand IN THE AIR, their sandaled feet plainly "
+        "several feet OFF the forest floor with open air beneath them: "
+        "the Father in a radiant pure-white robe, and at his right hand "
+        "the Son in his familiar cream — two distinct grown men, calm "
+        "and majestic, looking down at the boy with warmth. SCREEN-SIDE "
+        "LAW: because the Son stands at the Father's RIGHT hand and they "
+        "face the camera, the Son in cream occupies the VIEWER'S LEFT "
+        "half of the frame and the Father in white occupies the VIEWER'S "
+        "RIGHT half — never the other way around. The clearing is deep "
+        "woods on every side — no fence, rail or farm object anywhere. "
+        "The brilliance fills the AIR of the whole clearing EVENLY — no "
+        "outline, no aura, no edge of light around their bodies. In the "
+        "near foreground the kneeling boy is FOURTEEN — tall, teenage, "
+        "broad-shouldered for his age — seen from low behind his "
+        "shoulder, his face not visible from this angle.",
+        "two distinct glorified men standing plainly in the air with "
+        "open space under their feet, above a kneeling TEENAGE boy "
+        "seen from behind, spring leaves washed in even brilliance",
+        "the boy child-sized or younger than fourteen, wings, halos, "
+        "aura outlines around their bodies, drawn rays, identical "
+        "faces, transparent bodies, either face toward the lens, "
+        "autumn colours",
         jesus=True, ref=True, wide=True,
         locks=["FATHER", "JOSEPH-SMITH"])),
     ("p12", "g1", _p(
-        "The presentation: closer on the two Personages in the filled "
-        "light — the Father's right hand extended open toward the Son "
-        "beside him in the unmistakable gesture of introduction, His "
-        "face turned down toward the unseen boy below the frame; the "
-        "Son's eyes already resting on the same place with complete "
-        "warmth. Two faces, two persons, one purpose. Neither looks at "
+        "The presentation: closer on the two Personages in the air of "
+        "the brilliant clearing, FRAMED FROM MID-THIGH UP so that NO "
+        "ground, path, floor or forest floor appears anywhere in the "
+        "frame — only the two figures against soft spring-green canopy "
+        "and washed bright air, their robes hanging still — SCREEN-SIDE LAW: the Son in cream stands on "
+        "the VIEWER'S LEFT and the Father in white on the VIEWER'S "
+        "RIGHT (the Son at the Father's right hand), never reversed — "
+        "the Father's right hand extended open toward the Son beside "
+        "him on the viewer's left in the unmistakable gesture of "
+        "introduction, His face angled DOWN toward the unseen boy "
+        "below the frame's bottom edge; the Son's eyes already resting "
+        "on the same low place with complete warmth. Two faces, two "
+        "persons, one purpose. The light is even through the whole "
+        "air; no outline or aura edges their bodies. Neither looks at "
         "the camera.",
-        "the Father's open hand presenting the Son beside him, both "
-        "faces turned down toward the unseen boy",
-        "identical faces, halos, wings, either gaze at the lens",
+        "both Personages in the air with open space below their hems, "
+        "the Father's presenting hand toward the Son, both faces "
+        "angled down toward the unseen boy",
+        "feet on the ground, fences or farm objects, identical faces, "
+        "halos, aura outlines, autumn colours, either gaze at the "
+        "lens",
         jesus=True, ref=True, locks=["FATHER"])),
     ("p13", "n6", _p(
         "The boy in the light: Joseph's upturned face close, bathed in "
@@ -276,16 +296,24 @@ PICTURES = [
         "his eyes on the lens, glow off his skin, darkness remaining",
         locks=["JOSEPH-SMITH"])),
     ("p14", "n7", _p(
-        "Two, plainly: the Personages framed together at mid-distance "
-        "in the luminous clearing air — standing side by side with "
-        "clear space between them, the Father's silver-white head and "
-        "white robe, the Son's dark hair and cream robe, each "
-        "unmistakably his own person, both regarding the space below "
-        "the frame with majesty and kindness. The spring leaves behind "
-        "them are washed almost to gold by the light.",
-        "two distinct Personages side by side with visible space "
-        "between them, white robe and cream robe, gold-washed leaves",
-        "faces merging or matching, halos, wings, gazes at the lens",
+        "Two, plainly: the Personages framed together at mid-distance, "
+        "standing IN THE AIR side by side with clear open space "
+        "between them and open air visibly beneath their feet — "
+        "SCREEN-SIDE LAW: the Son in cream on the VIEWER'S LEFT, the "
+        "Father in white on the VIEWER'S RIGHT (the Son at the "
+        "Father's right hand), never reversed — the Father's "
+        "silver-white head and radiant white robe, the Son's dark "
+        "hair and cream robe, each unmistakably his own person — "
+        "both faces angled DOWNWARD toward the unseen boy below the "
+        "frame's lower edge, majesty and kindness together, neither "
+        "face aimed anywhere near the camera. The young SPRING-green "
+        "leaves behind them are washed pale by the even brilliance of "
+        "the air; no aura or outline edges their bodies.",
+        "two distinct Personages side by side IN THE AIR with space "
+        "between them and beneath them, both faces angled down toward "
+        "the unseen boy, spring leaves washed pale",
+        "feet on the ground, gazes toward the camera, faces merging "
+        "or matching, halos, aura outlines, wings, autumn colours",
         jesus=True, ref=True, locks=["FATHER"])),
     ("p15", ("n7", 0.62), _p(
         "His name: extreme close on Joseph's face at the instant of "
