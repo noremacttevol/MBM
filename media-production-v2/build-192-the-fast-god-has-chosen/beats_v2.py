@@ -165,13 +165,14 @@ BEATS = [
         "must_show": "a close on the empty show-fast — townsfolk bowed in sackcloth with a little ash, going hungry to be seen as holy, hollow and performing; the point is that this is not the fast the LORD wants.",
         "must_not_show": "no Jesus and no one in cream or white; no God figure; no mockery or grotesque faces (reverent, not cruel); no halo, glare or rim-light; no modern object; nothing written; not a cartoon.",
         "scene": (
-            "A close on two or three townsfolk in the town in warm daylight keeping the "
-            "hollow fast — bowed heads, plain sackcloth, a little grey ash on the brow, "
-            "faces drawn and performing their hunger to be seen as holy. Plain earth-toned "
-            "wool and sackcloth (none cream). Ordinary-sized people, one head each, gazes "
-            "downcast and inward, not to the camera; warm daylight on them, not around any "
-            "head; nothing is written anywhere; no divine figure."
-            "CAMERA: a TIGHT two-face close, the townsfolk's hollow-eyed fasting faces filling the frame, the square only soft blur. NOT the establishing square wide of b01."
+            "A TIGHT two-face close of two townsfolk keeping the hollow show-"
+            "fast in warm daylight: heads bowed to be seen, faces made long "
+            "and performatively mournful, a light dusting of grey ash over "
+            "their HAIR and headscarves only — the period sign of mourning. "
+            "ABSOLUTELY NO mark, cross, smudge-shape or symbol drawn on any "
+            "forehead or skin — ash sits in the hair and on cloth, never as a "
+            "drawn sign. Worn earth-toned wool, the square soft behind them. "
+            "Reverent, not mocked."
         ),
     },
     {
@@ -182,14 +183,15 @@ BEATS = [
         "must_show": "GREEN caption (GOD-voice, spoken through the prophet) — Isaiah before the people, hand open, asking the LORD's question: is not THIS the fast I have chosen? God is NOT shown.",
         "must_not_show": "GOD IS NOT SHOWN — no LORD figure, face, hand-from-sky, throne or beam; no Jesus and no one in cream or white; no halo, glare or rim-light; no modern object; nothing written; not a cartoon.",
         "scene": (
-            "A shot of Isaiah on the steps in the town square in warm daylight, one hand "
-            "open toward the people as he speaks the LORD's question — is not this the fast "
-            "I have chosen? The townsfolk look up to him, caught by the words. Only the "
-            "prophet carries the words; no figure stands in for the LORD. Brown-and-ochre "
-            "wool (not cream). Ordinary-sized people, one head each, gazes on Isaiah and "
-            "not to the camera; warm daylight, no ring of light around any head; nothing is "
-            "written anywhere."
-            "CAMERA: a LOW angle from the foot of the steps looking UP at Isaiah against the bright sky, listeners' heads dark along the bottom edge. NOT an eye-level or wide framing."
+            "ONE single continuous photograph, one coherent space from ONE "
+            "camera: the prophet ISAIAH stands on the top steps of the town "
+            "square, one hand lifted as he declares the fast God has chosen, "
+            "the gathered townsfolk on the steps below him with their backs "
+            "and upturned faces to the camera — and the mud-brick town rises "
+            "CONTINUOUSLY behind him, walls meeting the ground, no gap. NO "
+            "white band, NO fog layer, NO floating buildings, NO horizontal "
+            "seam, NO collage — the steps, the man, the crowd and the town "
+            "joined in one honest perspective. Warm plain daylight."
         ),
     },
     {

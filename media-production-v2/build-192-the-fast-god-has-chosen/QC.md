@@ -127,3 +127,22 @@ dignity (b11 is hands and cloth only). No rendered writing. Card clean.
 **AUDIO:** guard fix `AUDIO_FROM_V1_SEGMENTS` (V1 74.200s vs extract 71.951s,
 gap placement; 9 ElevenLabs mp3s) — **AUDIO REBUILD PASS SHA256=84e240b28a…**,
 72.0s, 20.3 MB.
+
+---
+
+## ✅ C-FIX SHIPPED (2026-08-31, Machine A `Dev`, Claude session)
+
+**COMPLAINT (Cameron):** "redo picture at 0:05 and 0:08."
+
+**What was actually wrong (autopsy):**
+- 0:05 (b02): the two show-fasters wore **Ash Wednesday cross marks on their
+  foreheads** — a modern ritual sign, anachronistic in Isaiah and doctrinally
+  out of place. Scene now dusts ash in the HAIR and on cloth only, with an
+  explicit ban on any drawn mark/cross/symbol on skin.
+- 0:08 (b03): the frame was a broken layered composite — preacher and crowd on
+  a white void band with buildings floating above (rubric lesson 23 class).
+  Re-authored as ONE continuous space: Isaiah on the square steps, crowd below,
+  town meeting the ground behind, explicit no-seam/no-fog-band/no-collage ban.
+
+2 gens, $0.27. Verified in the ENCODED replacement at 0:05 and 0:08. AUDIO
+REBUILD PASS (narration untouched).
