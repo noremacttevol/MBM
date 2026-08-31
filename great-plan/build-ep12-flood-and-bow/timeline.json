@@ -1,0 +1,148 @@
+{
+ "beats": [
+  {
+   "seg": "n1",
+   "speaker": "narrator",
+   "text": "This is the hardest story people throw at God. So we will not soften it. We will stand inside it until it makes sense.",
+   "seg_start": 0.0,
+   "audio_start": 0.28,
+   "spoken_end": 6.489,
+   "seg_dur": 7.209
+  },
+  {
+   "seg": "n2",
+   "speaker": "narrator",
+   "text": "Ten generations after Adam, the earth was drowning before a single drop of rain fell. Here is scripture's diagnosis:",
+   "seg_start": 7.209,
+   "audio_start": 7.489,
+   "spoken_end": 13.753,
+   "seg_dur": 7.264
+  },
+  {
+   "seg": "s1",
+   "speaker": "scripture",
+   "text": "The earth also was corrupt before God, and the earth was filled with violence.",
+   "seg_start": 14.473,
+   "audio_start": 14.753,
+   "spoken_end": 18.756,
+   "seg_dur": 5.433
+  },
+  {
+   "seg": "s2",
+   "speaker": "scripture",
+   "text": "And God saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of his heart was only evil continually.",
+   "seg_start": 19.906,
+   "audio_start": 20.186,
+   "spoken_end": 28.161,
+   "seg_dur": 9.405
+  },
+  {
+   "seg": "n4",
+   "speaker": "narrator",
+   "text": "Understand what that means for the plan. This world exists so children can be raised free to choose God. A world with no good option left \u2014 where every child is born into violence and trained to violence \u2014 is not a school anymore. The plan itself was bleeding out.",
+   "seg_start": 29.311,
+   "audio_start": 29.591,
+   "spoken_end": 46.506,
+   "seg_dur": 17.914
+  },
+  {
+   "seg": "s3",
+   "speaker": "scripture",
+   "text": "And it repented the Lord that he had made man on the earth, and it grieved him at his heart.",
+   "seg_start": 47.226,
+   "audio_start": 47.506,
+   "spoken_end": 51.811,
+   "seg_dur": 5.735
+  },
+  {
+   "seg": "n5",
+   "speaker": "narrator",
+   "text": "Grieved him at his heart. Not rage. Grief. The same God who wept with Enoch, looking at the same darkness \u2014 one generation further gone.",
+   "seg_start": 52.961,
+   "audio_start": 53.241,
+   "spoken_end": 60.991,
+   "seg_dur": 8.75
+  },
+  {
+   "seg": "n6",
+   "speaker": "narrator",
+   "text": "So He preserved what could still live. Noah \u2014 a preacher of righteousness who spent a hundred and twenty years warning, pleading, and building the way out in plain sight. An ark is an invitation with a door on it. It stood open to anyone who would turn around.",
+   "seg_start": 61.711,
+   "audio_start": 61.991,
+   "spoken_end": 77.479,
+   "seg_dur": 16.489
+  },
+  {
+   "seg": "n7",
+   "speaker": "narrator",
+   "text": "Nobody turned. A century of preaching \u2014 and eight souls walked up the ramp.",
+   "seg_start": 78.199,
+   "audio_start": 78.479,
+   "spoken_end": 83.203,
+   "seg_dur": 5.724
+  },
+  {
+   "seg": "n8",
+   "speaker": "narrator",
+   "text": "Then the flood came. And here is the truth that softens nothing but changes everything: death did not end a single story. Every person the water took woke on the other side of the veil \u2014 and Peter says what happened there:",
+   "seg_start": 83.923,
+   "audio_start": 84.203,
+   "spoken_end": 97.358,
+   "seg_dur": 14.155
+  },
+  {
+   "seg": "s4",
+   "speaker": "scripture",
+   "text": "For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.",
+   "seg_start": 98.078,
+   "audio_start": 98.358,
+   "spoken_end": 107.022,
+   "seg_dur": 10.094
+  },
+  {
+   "seg": "n9",
+   "speaker": "narrator",
+   "text": "Hold both truths at once. The flood was terrible. And the flood was a Father stopping a machine that was grinding up His children's freedom \u2014 while refusing to let death end anyone's chances. We do not claim to know everything about those days. But we know Him. And that is enough to trust the parts we cannot see.",
+   "seg_start": 108.172,
+   "audio_start": 108.452,
+   "spoken_end": 128.574,
+   "seg_dur": 21.122
+  },
+  {
+   "seg": "n10",
+   "speaker": "narrator",
+   "text": "Then the water went down \u2014 and God did something brand new. He took the shape of a weapon of war, a battle bow \u2014 and hung it in the sky, unstrung, pointed at nothing.",
+   "seg_start": 129.294,
+   "audio_start": 129.574,
+   "spoken_end": 140.243,
+   "seg_dur": 11.669
+  },
+  {
+   "seg": "s5",
+   "speaker": "scripture",
+   "text": "I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.",
+   "seg_start": 140.963,
+   "audio_start": 141.243,
+   "spoken_end": 145.986,
+   "seg_dur": 6.173
+  },
+  {
+   "seg": "n11",
+   "speaker": "narrator",
+   "text": "Every rainbow since is that same sentence, repeated: never again this way. The next time the world is saved, it will not be by water. It will be by blood \u2014 one Lamb's worth \u2014 and by a boat with room for every soul alive. You have seen God's bow your whole life. You have never once seen it aimed at you.",
+   "seg_start": 147.136,
+   "audio_start": 147.416,
+   "spoken_end": 167.179,
+   "seg_dur": 20.763
+  }
+ ],
+ "card": {
+  "seg": "card",
+  "speaker": "narrator",
+  "text": "The rainbow is a weapon hung up forever. His bow is never aimed at you.",
+  "seg_start": 167.899,
+  "audio_start": 168.179,
+  "seg_dur": 6.038
+ },
+ "total": 173.937
+}

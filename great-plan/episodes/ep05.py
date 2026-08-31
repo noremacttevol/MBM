@@ -106,11 +106,13 @@ def _p(scene, must_show, must_not_show, **kw):
 
 PICTURES = [
     ("p01", "n1", _p(
-        "The unfinished world from high above: a half-made planet of "
-        "dark new ocean and raw stone continents under slow spirals of "
-        "white cloud, morning light flooding across its curve out of "
-        "black space — construction at planetary scale, beautiful and "
-        "in progress. No figures.",
+        "The unfinished world from high above: a half-made planet — its "
+        "landmasses RAW BARE STONE in greys and rust-browns with NO "
+        "green anywhere, no familiar continent shapes, seams of dark "
+        "new ocean between them, slow spirals of young cloud — morning "
+        "light flooding across the curve from off-frame (the sun "
+        "itself NEVER in frame, no starburst, no flare). Construction "
+        "at planetary scale. No figures.",
         "a half-built world of new ocean and raw stone under morning "
         "light from space",
         "any figure, modern continent shapes, text, satellites",
@@ -262,11 +264,14 @@ PICTURES = [
         "Curriculum: a lone wind-bent tree on an exposed ridge in "
         "the full lash of a rainstorm — trunk leaning hard, every "
         "branch streaming one direction, roots gripping split "
-        "rock — and holding. Grey driving weather, one unbroken "
-        "living thing.",
-        "a wind-lashed lone tree holding its ridge in driving "
-        "rain",
-        "lightning striking it, broken limbs falling, people",
+        "rock — and holding. Grey driving weather. The ridge is "
+        "COMPLETELY EMPTY apart from the tree: no person, no "
+        "animal, no shape, no shadow-figure anywhere near or "
+        "under it.",
+        "a wind-lashed lone tree holding an otherwise completely "
+        "empty ridge in driving rain",
+        "ANY person, figure, silhouette or shape under or near "
+        "the tree; lightning striking it; broken limbs falling",
         )),
     ("p17", ("n10", 0.55), _p(
         "After the lesson: the same ridge in clean washed morning "
