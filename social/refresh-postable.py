@@ -161,7 +161,9 @@ def main():
             continue
 
         parts = [p.strip() for p in card['meta'].split('·')]
-        duration = parts[1] if len(parts) > 1 else ''
+        # duration is the LAST mm:ss part — GP cards carry TWO scripture refs
+        # before it, so a fixed parts[1] missed every GP cover (2026-09-01)
+        duration = next((p for p in reversed(parts) if re.match(r'^\d+:\d+$', p)), '')
         cover = f'social/covers/row-{n:03d}.jpg'
         if not os.path.exists(cover) and re.match(r'^\d+:\d+$', duration):
             mm, ss = duration.split(':')
@@ -176,6 +178,19 @@ def main():
             approvedHash=ah, hashScheme=scheme, servedBlob=served_blob,
             approvedAt=a.get('approvedAt'), repoPath=path,
             exportPath=export, cover=cover))
+
+    # PRUNE (2026-09-01, Cameron: "i need all posting needs made for each one
+    # when i approve" — and the inverse: a row that is no longer postable must
+    # not linger on the posting surface). Remove export files for rows that are
+    # not currently postable (a re-cut voided the approval) or whose slug
+    # changed. -yt variants follow their base file.
+    import glob as _glob
+    keep = {e['exportPath'] for e in postable}
+    for _f in sorted(_glob.glob('social/exports/row-*.mp4')):
+        base = _f[:-7] + '.mp4' if _f.endswith('-yt.mp4') else _f
+        if base not in keep:
+            os.remove(_f)
+            print(f'  pruned {_f} (row no longer postable at this cut)')
 
     json.dump(dict(
         generated=subprocess.run(['date', '+%Y-%m-%d'], capture_output=True,

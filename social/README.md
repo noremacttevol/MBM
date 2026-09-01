@@ -27,6 +27,7 @@ byte-exact from git objects into `exports/` and verifies the hash. Post ONLY fro
 
 | File | What it is |
 |---|---|
+| `refresh-all.sh` | **THE one command after any approval:** `bash social/refresh-all.sh` — exports + covers + branded thumbnails + YouTube sheet + per-video pages + post-kit, in the right order. Gate check G fails any deploy while a kit is incomplete. |
 | `refresh-postable.py` | Run `python3 social/refresh-postable.py` from the repo root. Re-pulls approvals, re-verifies every row, re-exports approved cuts to `exports/`, re-extracts covers. Run it whenever Cameron approves more videos. |
 | `postable.json` | The machine-readable verified list: row, title, scripture, duration, hash, export path, cover path, plus the excluded rows and why. |
 | `POST-QUEUE.md` | The human posting queue — one entry per approved video: title, caption, hashtags, cover, scripture reference, per-platform checkboxes. **This is the working file; tick boxes as you post.** |

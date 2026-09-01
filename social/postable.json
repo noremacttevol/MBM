@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13",
+  "generated": "2026-09-01",
   "rule": "POSTABLE = approved:true AND approvedHash == data-hash on site/review.html AND file bytes verified against the approved cut. Exports come from git objects, never the working tree (the autopilot rewrites working-tree mp4s).",
   "postable": [
     {
@@ -562,6 +562,19 @@
       "cover": "social/covers/row-043.jpg"
     },
     {
+      "row": 44,
+      "title": "Pentecost",
+      "scripture": "Acts 2",
+      "duration": "2:26",
+      "approvedHash": "db056b64baa3f65ede9205bbe1c868b65dac63c1",
+      "hashScheme": "commit",
+      "servedBlob": "caba33b7fdd88027814b2a83b0ecef01f12939f4",
+      "approvedAt": "2026-08-14T02:57:41.870Z",
+      "repoPath": "media-production-v2/build-44-pentecost/acts-2_pentecost.mp4",
+      "exportPath": "social/exports/row-044-pentecost.mp4",
+      "cover": "social/covers/row-044.jpg"
+    },
+    {
       "row": 45,
       "title": "The Wicked Tenants",
       "scripture": "Mark 12",
@@ -794,6 +807,19 @@
       "repoPath": "media-production-v2/build-62-ephphatha/mark-7_ephphatha.mp4",
       "exportPath": "social/exports/row-062-ephphatha-the-deaf-man.mp4",
       "cover": "social/covers/row-062.jpg"
+    },
+    {
+      "row": 63,
+      "title": "The Man Born Blind",
+      "scripture": "John 9",
+      "duration": "4:10",
+      "approvedHash": "be46d259de57ad26b2b140fa5e4f57fa8cc009c9",
+      "hashScheme": "commit",
+      "servedBlob": "603b58ba485571a659e452fe35f9eed16e0f3e32",
+      "approvedAt": "2026-08-17T01:26:16.417Z",
+      "repoPath": "media-production-v2/build-63-man-born-blind/john-9_man-born-blind.mp4",
+      "exportPath": "social/exports/row-063-the-man-born-blind.mp4",
+      "cover": "social/covers/row-063.jpg"
     },
     {
       "row": 64,
@@ -1199,6 +1225,19 @@
       "cover": "social/covers/row-094.jpg"
     },
     {
+      "row": 95,
+      "title": "Thief on the Cross",
+      "scripture": "Luke 23",
+      "duration": "1:10",
+      "approvedHash": "cc41fc12cf065e81bcd46a6cc23442d50f9d9c92",
+      "hashScheme": "commit",
+      "servedBlob": "6a15d8e2801b1cdd6cc1baff87e95198195d37b0",
+      "approvedAt": "2026-08-17T03:15:45.266Z",
+      "repoPath": "media-production-v2/build-95-thief-on-the-cross/luke-23_thief-on-the-cross.mp4",
+      "exportPath": "social/exports/row-095-thief-on-the-cross.mp4",
+      "cover": "social/covers/row-095.jpg"
+    },
+    {
       "row": 96,
       "title": "It Is Finished",
       "scripture": "John 19",
@@ -1316,6 +1355,32 @@
       "cover": "social/covers/row-104.jpg"
     },
     {
+      "row": 105,
+      "title": "Face to Face, as a Friend",
+      "scripture": "Exodus 33",
+      "duration": "2:44",
+      "approvedHash": "033f83d758d9f998e2120274fed60bba55a99461",
+      "hashScheme": "commit",
+      "servedBlob": "241567ef951f95c9483cd452166523a26431b3ef",
+      "approvedAt": "2026-09-01T05:46:07.879Z",
+      "repoPath": "media-production-v2/build-105-face-to-face/exodus-33_face-to-face.mp4",
+      "exportPath": "social/exports/row-105-face-to-face-as-a-friend.mp4",
+      "cover": "social/covers/row-105.jpg"
+    },
+    {
+      "row": 106,
+      "title": "God Spake by the Prophets",
+      "scripture": "Hebrews 1",
+      "duration": "2:26",
+      "approvedHash": "54add2ef0075400e419222abce41ae2132377e6b",
+      "hashScheme": "commit",
+      "servedBlob": "1cc3b39693dd18301574a04c564657e37507043b",
+      "approvedAt": "2026-09-01T05:48:53.978Z",
+      "repoPath": "media-production-v2/build-106-god-spake-by-prophets/hebrews-1_god-spake-by-prophets.mp4",
+      "exportPath": "social/exports/row-106-god-spake-by-the-prophets.mp4",
+      "cover": "social/covers/row-106.jpg"
+    },
+    {
       "row": 107,
       "title": "John the Baptist's Doubt",
       "scripture": "Matthew 11",
@@ -1420,6 +1485,58 @@
       "cover": "social/covers/row-114.jpg"
     },
     {
+      "row": 115,
+      "title": "The Ram in the Thicket",
+      "scripture": "Genesis 22",
+      "duration": "3:11",
+      "approvedHash": "4453e8aa58a33d7c401a45eb1d8b34b5aae3144f",
+      "hashScheme": "commit",
+      "servedBlob": "c92ff2f590e4f5e4d80e54cf15305a023b289d96",
+      "approvedAt": "2026-09-01T05:54:39.580Z",
+      "repoPath": "media-production-v2/build-115-ram-in-the-thicket/genesis-22_the-ram-in-the-thicket.mp4",
+      "exportPath": "social/exports/row-115-the-ram-in-the-thicket.mp4",
+      "cover": "social/covers/row-115.jpg"
+    },
+    {
+      "row": 116,
+      "title": "Graven on His Palms",
+      "scripture": "Isaiah 49",
+      "duration": "2:14",
+      "approvedHash": "3bb9a5df17f9947cd391325b33ef7e890d5bbca6",
+      "hashScheme": "commit",
+      "servedBlob": "0cef105c9d07e00a25983f203ad1856d68636628",
+      "approvedAt": "2026-09-01T05:57:23.859Z",
+      "repoPath": "media-production-v2/build-116-graven-on-his-palms/isaiah-49_graven-on-his-palms.mp4",
+      "exportPath": "social/exports/row-116-graven-on-his-palms.mp4",
+      "cover": "social/covers/row-116.jpg"
+    },
+    {
+      "row": 117,
+      "title": "Hosea Buys Her Back",
+      "scripture": "Hosea 1",
+      "duration": "3:50",
+      "approvedHash": "deac5034b",
+      "hashScheme": "commit",
+      "servedBlob": "6f4bc90378dc6b3b0023f4761e501bb47b07e8f8",
+      "approvedAt": "2026-08-17T01:26:41.127Z",
+      "repoPath": "media-production-v2/build-117-hosea-buys-her-back/hosea-1_hosea-buys-her-back.mp4",
+      "exportPath": "social/exports/row-117-hosea-buys-her-back.mp4",
+      "cover": "social/covers/row-117.jpg"
+    },
+    {
+      "row": 118,
+      "title": "Jonah and the God Who Relents",
+      "scripture": "Jonah 1",
+      "duration": "4:38",
+      "approvedHash": "924f1c51a3670daee94be6b47b5abfcc328cb758",
+      "hashScheme": "commit",
+      "servedBlob": "cfc149d3a26c27976e6076ed2c4440acbcbc6836",
+      "approvedAt": "2026-08-13T07:54:48.546Z",
+      "repoPath": "media-production-v2/build-118-jonah-god-who-relents/jonah-1_jonah-god-who-relents.mp4",
+      "exportPath": "social/exports/row-118-jonah-and-the-god-who-relents.mp4",
+      "cover": "social/covers/row-118.jpg"
+    },
+    {
       "row": 119,
       "title": "The Fourth Man in the Fire",
       "scripture": "Daniel 3",
@@ -1446,6 +1563,32 @@
       "cover": "social/covers/row-120.jpg"
     },
     {
+      "row": 121,
+      "title": "Salt and Light",
+      "scripture": "Matthew 5",
+      "duration": "3:00",
+      "approvedHash": "f19b00152e7c3b1c38b06d62a496a5dde3a3e3de",
+      "hashScheme": "commit",
+      "servedBlob": "f6fc9cfe16a386cf562e644b1902cb5eb73e5dec",
+      "approvedAt": "2026-08-13T07:58:03.500Z",
+      "repoPath": "media-production-v2/build-121-salt-and-light/matthew-5_salt-and-light.mp4",
+      "exportPath": "social/exports/row-121-salt-and-light.mp4",
+      "cover": "social/covers/row-121.jpg"
+    },
+    {
+      "row": 122,
+      "title": "The Mote and the Beam",
+      "scripture": "Matthew 7",
+      "duration": "2:55",
+      "approvedHash": "ac4eeba647e77bfbb181b4885e0279828ed64bfc",
+      "hashScheme": "commit",
+      "servedBlob": "0e2f2a203d469ded5722d55579e57e5ae7914224",
+      "approvedAt": "2026-08-13T07:58:49.260Z",
+      "repoPath": "media-production-v2/build-122-mote-and-beam/matthew-7_mote-and-beam.mp4",
+      "exportPath": "social/exports/row-122-the-mote-and-the-beam.mp4",
+      "cover": "social/covers/row-122.jpg"
+    },
+    {
       "row": 123,
       "title": "The Golden Rule",
       "scripture": "Matthew 7",
@@ -1470,6 +1613,19 @@
       "repoPath": "media-production-v2/build-124-love-your-enemies/matthew-5_love-your-enemies.mp4",
       "exportPath": "social/exports/row-124-love-your-enemies.mp4",
       "cover": "social/covers/row-124.jpg"
+    },
+    {
+      "row": 125,
+      "title": "I Never Knew You",
+      "scripture": "Matthew 7",
+      "duration": "1:32",
+      "approvedHash": "0399188fc531bea42afa68ded644b15d0f27d49f",
+      "hashScheme": "commit",
+      "servedBlob": "9b8908930e1664dd5c11a845dfc16c9a5c22c0e9",
+      "approvedAt": "2026-08-16T00:55:12.355Z",
+      "repoPath": "media-production-v2/build-125-i-never-knew-you/matthew-7_i-never-knew-you.mp4",
+      "exportPath": "social/exports/row-125-i-never-knew-you.mp4",
+      "cover": "social/covers/row-125.jpg"
     },
     {
       "row": 127,
@@ -1550,6 +1706,19 @@
       "cover": "social/covers/row-137.jpg"
     },
     {
+      "row": 140,
+      "title": "The Bronze Serpent",
+      "scripture": "Numbers 21",
+      "duration": "2:19",
+      "approvedHash": "0b5c76c1c2a6408fc8a1bbd3212b751afd7bd5e7",
+      "hashScheme": "commit",
+      "servedBlob": "2844cebcaa3025075d3ba274cefd9d8ae34f4d8c",
+      "approvedAt": "2026-08-17T03:26:09.776Z",
+      "repoPath": "media-production-v2/build-140-bronze-serpent/numbers-21_the-bronze-serpent.mp4",
+      "exportPath": "social/exports/row-140-the-bronze-serpent.mp4",
+      "cover": "social/covers/row-140.jpg"
+    },
+    {
       "row": 141,
       "title": "I Am the Bread of Life",
       "scripture": "John 6",
@@ -1561,6 +1730,45 @@
       "repoPath": "media-production-v2/build-141-bread-of-life/john-6_i-am-the-bread-of-life.mp4",
       "exportPath": "social/exports/row-141-i-am-the-bread-of-life.mp4",
       "cover": "social/covers/row-141.jpg"
+    },
+    {
+      "row": 145,
+      "title": "Way Truth Life",
+      "scripture": "John 14",
+      "duration": "0:48",
+      "approvedHash": "38cbea08cfabb444e836edbe6838921311bb4e6f",
+      "hashScheme": "commit",
+      "servedBlob": "e6d931f84a549a292082f43c5fc66287f2219107",
+      "approvedAt": "2026-08-16T01:06:02.572Z",
+      "repoPath": "media-production-v2/build-145-way-truth-life/john-14_way-truth-life.mp4",
+      "exportPath": "social/exports/row-145-way-truth-life.mp4",
+      "cover": "social/covers/row-145.jpg"
+    },
+    {
+      "row": 146,
+      "title": "Vine and Branches",
+      "scripture": "John 15",
+      "duration": "1:25",
+      "approvedHash": "38f237b1678723f530afaa343f251d4451c976f4",
+      "hashScheme": "commit",
+      "servedBlob": "8acebc1a8bdedc58a7cd63e6e06995ffbe4c43e0",
+      "approvedAt": "2026-08-14T02:30:34.614Z",
+      "repoPath": "media-production-v2/build-146-vine-and-branches/john-15_vine-and-branches.mp4",
+      "exportPath": "social/exports/row-146-vine-and-branches.mp4",
+      "cover": "social/covers/row-146.jpg"
+    },
+    {
+      "row": 147,
+      "title": "Joseph Forgives",
+      "scripture": "Genesis 45",
+      "duration": "1:37",
+      "approvedHash": "64f67520a449ca284882c0adda343cff1a161b9e",
+      "hashScheme": "commit",
+      "servedBlob": "1aa7d3d9caadc17b65ce2ebd550e1bb2cc37cc6d",
+      "approvedAt": "2026-08-14T02:32:40.484Z",
+      "repoPath": "media-production-v2/build-147-joseph-forgives/genesis-45_joseph-forgives.mp4",
+      "exportPath": "social/exports/row-147-joseph-forgives.mp4",
+      "cover": "social/covers/row-147.jpg"
     },
     {
       "row": 148,
@@ -1576,6 +1784,32 @@
       "cover": "social/covers/row-148.jpg"
     },
     {
+      "row": 149,
+      "title": "Hannah Is Heard",
+      "scripture": "1-samuel 1",
+      "duration": "2:20",
+      "approvedHash": "52901ef7ce29cea4fc717ef95580d7728d7ffb33",
+      "hashScheme": "commit",
+      "servedBlob": "a8b2ca96209d94a69f9f6f0e322d637640dd2a03",
+      "approvedAt": "2026-08-17T01:29:18.487Z",
+      "repoPath": "media-production-v2/build-149-hannah-is-heard/1-samuel-1_hannah-is-heard.mp4",
+      "exportPath": "social/exports/row-149-hannah-is-heard.mp4",
+      "cover": "social/covers/row-149.jpg"
+    },
+    {
+      "row": 150,
+      "title": "The Shepherd Psalm",
+      "scripture": "Psalm 23",
+      "duration": "2:12",
+      "approvedHash": "f3c761dac4d89010595d31bdf70d7225d78172c2",
+      "hashScheme": "commit",
+      "servedBlob": "cb3bf7d1e9fd5609ece87202384f96627d079df8",
+      "approvedAt": "2026-09-01T03:22:26.008Z",
+      "repoPath": "media-production-v2/build-150-shepherd-psalm/psalm-23_the-shepherd-psalm.mp4",
+      "exportPath": "social/exports/row-150-the-shepherd-psalm.mp4",
+      "cover": "social/covers/row-150.jpg"
+    },
+    {
       "row": 151,
       "title": "If Any of You Lack Wisdom",
       "scripture": "James 1",
@@ -1587,12 +1821,384 @@
       "repoPath": "media-production-v2/build-151-ask-of-god/james-1_ask-of-god.mp4",
       "exportPath": "social/exports/row-151-if-any-of-you-lack-wisdom.mp4",
       "cover": "social/covers/row-151.jpg"
+    },
+    {
+      "row": 153,
+      "title": "The Restitution of All Things",
+      "scripture": "Acts 3",
+      "duration": "2:42",
+      "approvedHash": "bf350190aa5f636f76428e057dade2939b2d0c3a",
+      "hashScheme": "commit",
+      "servedBlob": "c6eeccb96d62e0db33597245ced24cabe068b157",
+      "approvedAt": "2026-09-01T05:00:44.863Z",
+      "repoPath": "media-production-v2/build-153-restitution/acts-3_restitution-of-all-things.mp4",
+      "exportPath": "social/exports/row-153-the-restitution-of-all-things.mp4",
+      "cover": "social/covers/row-153.jpg"
+    },
+    {
+      "row": 159,
+      "title": "Other Sheep I Have",
+      "scripture": "John 10",
+      "duration": "2:22",
+      "approvedHash": "8b56e61af8f89deeb112ddabe6db4a6a72e6b493",
+      "hashScheme": "commit",
+      "servedBlob": "c70679d1466aa574121f44fd7f70cfaf6987fff7",
+      "approvedAt": "2026-08-25T08:54:41.558Z",
+      "repoPath": "media-production-v2/build-159-other-sheep/john-10_other-sheep.mp4",
+      "exportPath": "social/exports/row-159-other-sheep-i-have.mp4",
+      "cover": "social/covers/row-159.jpg"
+    },
+    {
+      "row": 161,
+      "title": "Called of God, as was Aaron",
+      "scripture": "Hebrews 5",
+      "duration": "2:39",
+      "approvedHash": "b48795bee6c05099bc0df4b62937eee29bc16105",
+      "hashScheme": "commit",
+      "servedBlob": "40420464e5380ae8e6c287beb331f8c593a38e3f",
+      "approvedAt": "2026-09-01T05:17:05.157Z",
+      "repoPath": "media-production-v2/build-161-called-of-god/hebrews-5_called-of-god.mp4",
+      "exportPath": "social/exports/row-161-called-of-god-as-was-aaron.mp4",
+      "cover": "social/covers/row-161.jpg"
+    },
+    {
+      "row": 165,
+      "title": "Laying On of Hands for the Holy Ghost",
+      "scripture": "Acts 8",
+      "duration": "2:12",
+      "approvedHash": "076f8b6872c1c6f6f83cb93a3405fec6de27c8d3",
+      "hashScheme": "commit",
+      "servedBlob": "b6036ccefdf79eee0ea01cabe4e13a567e444808",
+      "approvedAt": "2026-08-25T07:31:26.016Z",
+      "repoPath": "media-production-v2/build-165-laying-on-hands/acts-8_laying-on-of-hands.mp4",
+      "exportPath": "social/exports/row-165-laying-on-of-hands-for-the-holy-ghost.mp4",
+      "cover": "social/covers/row-165.jpg"
+    },
+    {
+      "row": 170,
+      "title": "The Sacrament, Worthily",
+      "scripture": "1 Corinthians 11",
+      "duration": "2:14",
+      "approvedHash": "b94618d57cfe2afaf5069f784e74e95b562dae21",
+      "hashScheme": "commit",
+      "servedBlob": "15a2ee493424da2d98d58dc2f921531a77349ddd",
+      "approvedAt": "2026-09-01T05:51:14.757Z",
+      "repoPath": "media-production-v2/build-170-sacrament-worthily/1corinthians-11_the-sacrament-worthily.mp4",
+      "exportPath": "social/exports/row-170-the-sacrament-worthily.mp4",
+      "cover": "social/covers/row-170.jpg"
+    },
+    {
+      "row": 171,
+      "title": "Baptized For the Dead",
+      "scripture": "1-corinthians 15",
+      "duration": "1:14",
+      "approvedHash": "3ea3210c45e07497e3fd31a796e4668f882a3e01",
+      "hashScheme": "commit",
+      "servedBlob": "4fd6f5c253c8b80efdbc6104e63a1c35d58bdaf8",
+      "approvedAt": "2026-08-25T09:12:21.985Z",
+      "repoPath": "media-production-v2/build-171-baptized-for-the-dead/1-corinthians-15_baptized-for-the-dead.mp4",
+      "exportPath": "social/exports/row-171-baptized-for-the-dead.mp4",
+      "cover": "social/covers/row-171.jpg"
+    },
+    {
+      "row": 173,
+      "title": "Dead Shall Hear",
+      "scripture": "John 5",
+      "duration": "1:02",
+      "approvedHash": "e4080f02ee52fff6acb374781cbde832430e4b76",
+      "hashScheme": "commit",
+      "servedBlob": "82c8715e106b0ff973748f50941ae048b113ad09",
+      "approvedAt": "2026-08-16T01:01:05.679Z",
+      "repoPath": "media-production-v2/build-173-dead-shall-hear/john-5_dead-shall-hear.mp4",
+      "exportPath": "social/exports/row-173-dead-shall-hear.mp4",
+      "cover": "social/covers/row-173.jpg"
+    },
+    {
+      "row": 175,
+      "title": "Mountain of the Lords House",
+      "scripture": "Isaiah 2",
+      "duration": "1:16",
+      "approvedHash": "1e521844120a1400a9f334edc04b2a0476fee5a1",
+      "hashScheme": "commit",
+      "servedBlob": "414327c2fa0bd46816c1842b86755e5c0d751d41",
+      "approvedAt": "2026-08-25T08:00:07.311Z",
+      "repoPath": "media-production-v2/build-175-mountain-of-the-lords-house/isaiah-2_mountain-of-the-lords-house.mp4",
+      "exportPath": "social/exports/row-175-mountain-of-the-lords-house.mp4",
+      "cover": "social/covers/row-175.jpg"
+    },
+    {
+      "row": 177,
+      "title": "Make Me a Sanctuary",
+      "scripture": "Exodus 25",
+      "duration": "1:36",
+      "approvedHash": "97f2afbd7721da27d7f24884d6987c2653d06a45",
+      "hashScheme": "commit",
+      "servedBlob": "fe1e6916e89f88ad5c3dfbbe39dd61e282414e96",
+      "approvedAt": "2026-08-17T01:31:02.932Z",
+      "repoPath": "media-production-v2/build-177-make-me-a-sanctuary/exodus-25_make-me-a-sanctuary.mp4",
+      "exportPath": "social/exports/row-177-make-me-a-sanctuary.mp4",
+      "cover": "social/covers/row-177.jpg"
+    },
+    {
+      "row": 179,
+      "title": "Stephens Witness",
+      "scripture": "Acts 7",
+      "duration": "1:00",
+      "approvedHash": "b0402df9af335bf13b78ed9e94e0b321a7055054",
+      "hashScheme": "commit",
+      "servedBlob": "acd4b0ac4360a09d7c8b49d76578e298cda4207a",
+      "approvedAt": "2026-08-27T08:56:18.831Z",
+      "repoPath": "media-production-v2/build-179-stephens-witness/acts-7_stephens-witness.mp4",
+      "exportPath": "social/exports/row-179-stephens-witness.mp4",
+      "cover": "social/covers/row-179.jpg"
+    },
+    {
+      "row": 180,
+      "title": "Before I Formed Thee",
+      "scripture": "Jeremiah 1",
+      "duration": "1:40",
+      "approvedHash": "c3cfea1eded9989922ecb107df3d63e55bd55c2a",
+      "hashScheme": "commit",
+      "servedBlob": "7c05520d84c8e5e027ec32891e4bed5dc71e5314",
+      "approvedAt": "2026-08-25T07:34:51.883Z",
+      "repoPath": "media-production-v2/build-180-before-i-formed-thee/jeremiah-1_before-i-formed-thee.mp4",
+      "exportPath": "social/exports/row-180-before-i-formed-thee.mp4",
+      "cover": "social/covers/row-180.jpg"
+    },
+    {
+      "row": 181,
+      "title": "Morning Stars Sang",
+      "scripture": "Job 38",
+      "duration": "1:07",
+      "approvedHash": "8a700a28f79a7bb9a383876a2e6d0828b44ca6b8",
+      "hashScheme": "commit",
+      "servedBlob": "a89f9a3c9acb175f42e2a25a98a783c4a413feaf",
+      "approvedAt": "2026-08-25T08:07:32.967Z",
+      "repoPath": "media-production-v2/build-181-morning-stars-sang/job-38_morning-stars-sang.mp4",
+      "exportPath": "social/exports/row-181-morning-stars-sang.mp4",
+      "cover": "social/covers/row-181.jpg"
+    },
+    {
+      "row": 184,
+      "title": "Caught Up to the Third Heaven",
+      "scripture": "2 Corinthians 12",
+      "duration": "1:15",
+      "approvedHash": "90dfa3f3e0547f3d1ba32760672983a2f23f9e38",
+      "hashScheme": "commit",
+      "servedBlob": "da778163cce3fcf3a89a0de8e904e938b5b065f5",
+      "approvedAt": "2026-08-17T03:27:58.813Z",
+      "repoPath": "media-production-v2/build-184-third-heaven/2corinthians-12_caught-up-to-the-third-heaven.mp4",
+      "exportPath": "social/exports/row-184-caught-up-to-the-third-heaven.mp4",
+      "cover": "social/covers/row-184.jpg"
+    },
+    {
+      "row": 185,
+      "title": "In My Fathers House",
+      "scripture": "John 14",
+      "duration": "1:00",
+      "approvedHash": "d34c1bfd02bdf5ef7fae62cf944270e9b8cc14b5",
+      "hashScheme": "commit",
+      "servedBlob": "1960f4a4a1e19cc371ef35962271f7ac099b9ef3",
+      "approvedAt": "2026-08-16T00:59:56.153Z",
+      "repoPath": "media-production-v2/build-185-many-mansions-member/john-14_in-my-fathers-house.mp4",
+      "exportPath": "social/exports/row-185-in-my-fathers-house.mp4",
+      "cover": "social/covers/row-185.jpg"
+    },
+    {
+      "row": 186,
+      "title": "Heirs of God",
+      "scripture": "Romans 8",
+      "duration": "0:58",
+      "approvedHash": "8d43ccad3d175b6da89b907075c4eae8c27800d5",
+      "hashScheme": "commit",
+      "servedBlob": "20a4e337a1c4b6ced2c195053e226014204e3af9",
+      "approvedAt": "2026-08-25T07:34:46.135Z",
+      "repoPath": "media-production-v2/build-186-joint-heirs/romans-8_heirs-of-god.mp4",
+      "exportPath": "social/exports/row-186-heirs-of-god.mp4",
+      "cover": "social/covers/row-186.jpg"
+    },
+    {
+      "row": 188,
+      "title": "Be Ye Therefore Perfect",
+      "scripture": "Matthew 5",
+      "duration": "1:19",
+      "approvedHash": "53a4a263594694ff95b3a8cfe1ac38278f151e8d",
+      "hashScheme": "commit",
+      "servedBlob": "add9587ac83f2b0b9b9209de148699e866274a83",
+      "approvedAt": "2026-09-01T05:20:15.595Z",
+      "repoPath": "media-production-v2/build-188-be-ye-therefore-perfect/matthew-5_be-ye-therefore-perfect.mp4",
+      "exportPath": "social/exports/row-188-be-ye-therefore-perfect.mp4",
+      "cover": "social/covers/row-188.jpg"
+    },
+    {
+      "row": 189,
+      "title": "To Him That Overcometh",
+      "scripture": "Revelation 3",
+      "duration": "0:52",
+      "approvedHash": "cf303cd5dcde378976d8908f7c73f3188436dd45",
+      "hashScheme": "commit",
+      "servedBlob": "c993b940bc22efde780eff14bca3793d4e142c5c",
+      "approvedAt": "2026-08-16T01:05:06.101Z",
+      "repoPath": "media-production-v2/build-189-to-him-that-overcometh/revelation-3_to-him-that-overcometh.mp4",
+      "exportPath": "social/exports/row-189-to-him-that-overcometh.mp4",
+      "cover": "social/covers/row-189.jpg"
+    },
+    {
+      "row": 190,
+      "title": "Faith Without Works",
+      "scripture": "James 2",
+      "duration": "1:09",
+      "approvedHash": "6dbaf7fd9e90ea6226cee1f903d4d7d21a4383f7",
+      "hashScheme": "commit",
+      "servedBlob": "a2920d6b0b57806a9adb79d52273f436a02440ac",
+      "approvedAt": "2026-08-25T08:05:35.083Z",
+      "repoPath": "media-production-v2/build-190-faith-without-works/james-2_faith-without-works.mp4",
+      "exportPath": "social/exports/row-190-faith-without-works.mp4",
+      "cover": "social/covers/row-190.jpg"
+    },
+    {
+      "row": 191,
+      "title": "Windows of Heaven",
+      "scripture": "Malachi 3",
+      "duration": "0:57",
+      "approvedHash": "3bedc1b8aa6b38ef706074196ee192ee32b78919",
+      "hashScheme": "commit",
+      "servedBlob": "c2401d69f0500964da5445da8b4397b209dcc945",
+      "approvedAt": "2026-08-16T01:52:26.033Z",
+      "repoPath": "media-production-v2/build-191-windows-of-heaven/malachi-3_windows-of-heaven.mp4",
+      "exportPath": "social/exports/row-191-windows-of-heaven.mp4",
+      "cover": "social/covers/row-191.jpg"
+    },
+    {
+      "row": 192,
+      "title": "The Fast God Has Chosen",
+      "scripture": "Isaiah 58",
+      "duration": "1:14",
+      "approvedHash": "a49edd8c6b379f9dbd267bc0c0b46b2fd692f3e0",
+      "hashScheme": "commit",
+      "servedBlob": "fc0cca668f3b116a6aef882061f3ec74bed91585",
+      "approvedAt": "2026-09-01T05:43:06.076Z",
+      "repoPath": "media-production-v2/build-192-the-fast-god-has-chosen/isaiah-58_the-fast-god-has-chosen.mp4",
+      "exportPath": "social/exports/row-192-the-fast-god-has-chosen.mp4",
+      "cover": "social/covers/row-192.jpg"
+    },
+    {
+      "row": 193,
+      "title": "The Comforter",
+      "scripture": "John 14",
+      "duration": "1:06",
+      "approvedHash": "482726a5d95d4502963acb24135db8be7896dd3f",
+      "hashScheme": "commit",
+      "servedBlob": "5909d86cee35a8695670ae30224b743cc5df068f",
+      "approvedAt": "2026-08-25T07:57:37.850Z",
+      "repoPath": "media-production-v2/build-193-the-comforter/john-14_the-comforter.mp4",
+      "exportPath": "social/exports/row-193-the-comforter.mp4",
+      "cover": "social/covers/row-193.jpg"
+    },
+    {
+      "row": 194,
+      "title": "Fruit of the Spirit",
+      "scripture": "Galatians 5",
+      "duration": "1:02",
+      "approvedHash": "08c6e5d4b50cd56b6779538fccdfa5e95fcdcb93",
+      "hashScheme": "commit",
+      "servedBlob": "41d0c1bdb2588f61807115dd52d7e26cca6972bb",
+      "approvedAt": "2026-08-25T07:32:25.400Z",
+      "repoPath": "media-production-v2/build-194-fruit-of-the-spirit/galatians-5_fruit-of-the-spirit.mp4",
+      "exportPath": "social/exports/row-194-fruit-of-the-spirit.mp4",
+      "cover": "social/covers/row-194.jpg"
+    },
+    {
+      "row": 195,
+      "title": "Prove All Things",
+      "scripture": "1 Thessalonians 5",
+      "duration": "1:07",
+      "approvedHash": "61fde442234a93a73330ca32a38e2fc2b89aecd9",
+      "hashScheme": "commit",
+      "servedBlob": "b3c33c8f5307eceab3c841d60749834972e19558",
+      "approvedAt": "2026-08-25T07:33:39.065Z",
+      "repoPath": "media-production-v2/build-195-prove-all-things/1thessalonians-5_prove-all-things.mp4",
+      "exportPath": "social/exports/row-195-prove-all-things.mp4",
+      "cover": "social/covers/row-195.jpg"
+    },
+    {
+      "row": 198,
+      "title": "Ensign For the Nations",
+      "scripture": "Isaiah 11",
+      "duration": "1:11",
+      "approvedHash": "2e95d4fa54cc1b3f5850cb7c613cdddc69cf38de",
+      "hashScheme": "commit",
+      "servedBlob": "064fc0daf259f9a10d44ce848071568e8c221c5d",
+      "approvedAt": "2026-08-27T08:59:00.207Z",
+      "repoPath": "media-production-v2/build-198-ensign-for-the-nations/isaiah-11_ensign-for-the-nations.mp4",
+      "exportPath": "social/exports/row-198-ensign-for-the-nations.mp4",
+      "cover": "social/covers/row-198.jpg"
+    },
+    {
+      "row": 199,
+      "title": "Fishers and Hunters",
+      "scripture": "Jeremiah 16",
+      "duration": "1:08",
+      "approvedHash": "ebd58974bf027ef4a2917c9c94ff9245daeb07ca",
+      "hashScheme": "commit",
+      "servedBlob": "b385dd2bf26443f41e7434e50ab39be8bd00ee85",
+      "approvedAt": "2026-08-16T00:53:31.973Z",
+      "repoPath": "media-production-v2/build-199-fishers-and-hunters/jeremiah-16_fishers-and-hunters.mp4",
+      "exportPath": "social/exports/row-199-fishers-and-hunters.mp4",
+      "cover": "social/covers/row-199.jpg"
+    },
+    {
+      "row": 200,
+      "title": "Gospel to All the World",
+      "scripture": "Matthew 24",
+      "duration": "0:50",
+      "approvedHash": "adad305c66e0255113509585166ff399f203bb89",
+      "hashScheme": "commit",
+      "servedBlob": "848cb81a3bbb94e83d9c9fa2303c5af519a7ff3f",
+      "approvedAt": "2026-08-25T07:28:56.760Z",
+      "repoPath": "media-production-v2/build-200-gospel-to-all-the-world/matthew-24_gospel-to-all-the-world.mp4",
+      "exportPath": "social/exports/row-200-gospel-to-all-the-world.mp4",
+      "cover": "social/covers/row-200.jpg"
+    },
+    {
+      "row": 301,
+      "title": "GP-01 \u2014 The Two Wills",
+      "scripture": "Moses 4",
+      "duration": "2:46",
+      "approvedHash": "7501d724d",
+      "hashScheme": "commit",
+      "servedBlob": "10fb7022a11de227c65d5968ebf851216e730f32",
+      "approvedAt": "2026-08-31T23:59:11.670Z",
+      "repoPath": "great-plan/build-ep01-two-wills/the-great-plan-ep01_two-wills.mp4",
+      "exportPath": "social/exports/row-301-gp-01-the-two-wills.mp4",
+      "cover": "social/covers/row-301.jpg"
+    },
+    {
+      "row": 303,
+      "title": "GP-03 \u2014 War in Heaven",
+      "scripture": "Revelation 12",
+      "duration": "2:46",
+      "approvedHash": "668b7573b",
+      "hashScheme": "commit",
+      "servedBlob": "ceeeead701b840aafe91363a5cc69a62265dedce",
+      "approvedAt": "2026-09-01T00:10:20.324Z",
+      "repoPath": "great-plan/build-ep03-war-in-heaven/the-great-plan-ep03_war-in-heaven.mp4",
+      "exportPath": "social/exports/row-303-gp-03-war-in-heaven.mp4",
+      "cover": "social/covers/row-303.jpg"
     }
   ],
   "excluded": [
     {
-      "row": 170,
-      "reason": "cut changed since approval (served 3b47b3a9c5, approved 0bcd73c39d) \u2014 new cut awaits Cameron's review"
+      "row": 302,
+      "reason": "cut changed since approval (served 4b9e4ed6e, approved 556649442) \u2014 new cut awaits Cameron's review"
+    },
+    {
+      "row": 304,
+      "reason": "cut changed since approval (served 4b9e4ed6e, approved fc3b36cc8) \u2014 new cut awaits Cameron's review"
+    },
+    {
+      "row": 305,
+      "reason": "cut changed since approval (served 4b9e4ed6e, approved 43617acdd) \u2014 new cut awaits Cameron's review"
     }
   ]
 }

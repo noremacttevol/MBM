@@ -60,6 +60,12 @@ def main():
 > bottom). New approvals get their own entry, thumbnails included, automatically.
 """]
     for row in sorted(pj):
+        if row not in entries:
+            # never crash the whole sheet on one missing entry (2026-09-01:
+            # KeyError 44 killed the sheet for every row) — warn and skip
+            print(f'  !! row {row}: postable but no POST-QUEUE entry — '
+                  f'append one (same voice), then rerun')
+            continue
         p, e = pj[row], entries[row]
         mm, ss = p['duration'].split(':')
         is_short = (int(mm) * 60 + int(ss)) <= 180

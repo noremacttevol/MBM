@@ -104,16 +104,27 @@ for _f in _glob.glob("social/exports/row-*.mp4"):
     if _m and not _f.endswith("-yt.mp4"):
         _exp[int(_m.group(1))] = _f
 _exp_missing = [r for r in sorted(approved) if r not in _exp]
+# full posting kit (2026-09-01: "i need all posting needs made for each one
+# when i approve the videos") — cover + both branded thumbs + per-video page.
+# Fix on FAIL: bash social/refresh-all.sh
+_kit_missing = []
+for _r in sorted(approved):
+    for _p in (f"social/covers/row-{_r:03d}.jpg",
+               f"social/thumbs/yt/row-{_r:03d}.jpg",
+               f"social/thumbs/vertical/row-{_r:03d}.jpg",
+               f"social/per-video/{_r:03d}.md"):
+        if not os.path.exists(_p):
+            _kit_missing.append(f"{_r}:{_p.split('/')[-2]}")
 _exp_drift = []
 for _r in sorted(approved):
     if _r in _exp and _r in ledger_sha:
         _h = hashlib.sha1(open(_exp[_r], "rb").read()).hexdigest()
         if _h != ledger_sha[_r]:
             _exp_drift.append(_r)
-check(not _exp_missing and not _exp_drift,
-      "G: every approved row is byte-verified in social/exports/",
-      f"missing: {_exp_missing} drifted: {_exp_drift}"
-      + ("  ->  run: python3 social/refresh-postable.py" if (_exp_missing or _exp_drift) else ""))
+check(not _exp_missing and not _exp_drift and not _kit_missing,
+      "G: every approved row has its FULL posting kit (export + cover + thumbs + per-video)",
+      f"missing: {_exp_missing} drifted: {_exp_drift} kit: {_kit_missing[:12]}"
+      + ("  ->  run: bash social/refresh-all.sh" if (_exp_missing or _exp_drift or _kit_missing) else ""))
 
 # F. website hygiene — the site may hold NO video file outside the approved
 #    gallery, and public marketing pages may reference only approved ids.

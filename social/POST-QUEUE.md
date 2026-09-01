@@ -1638,3 +1638,606 @@ James 1:5, from the KJV. Download the free Milk Before Meat app for every story 
 **Story tags:** `#James1 #AskOfGod`
 **Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #James1 #AskOfGod`
 **TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #James1 #AskOfGod`
+
+
+---
+
+<!-- Appended 2026-09-01: every newly approved row, generated from captions-authored.json in the same voice/laws (auto-appended by the refresh chain). -->
+
+### Row 44 — Pentecost
+**Acts 2:1–41 (KJV) · 2:26 · fits all four**
+File `exports/row-044-pentecost.mp4` · Cover `covers/row-044.jpg` · Cut `caba33b7fdd8`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-044.jpg` · **TikTok/IG cover** `thumbs/vertical/row-044.jpg`
+**YouTube title:** Pentecost — the Spirit poured out (Acts 2, KJV)
+**Caption:**
+They were all with one accord in one place when a sound came from heaven as of a rushing mighty wind. Devout men out of every nation heard them speak, every man in his own tongue — and when Peter stood and preached, the crowd was pricked in their heart and asked, Men and brethren, what shall we do? That day about three thousand souls were added.
+Has anything ever cut you deep enough to ask, what shall I do?
+Acts 2:1–41, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Pentecost #Acts2`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Pentecost #Acts2`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Pentecost #Acts2`
+
+### Row 63 — The Man Born Blind
+**John 9:1–41 (KJV) · 4:10 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
+File `exports/row-063-the-man-born-blind.mp4` · Cover `covers/row-063.jpg` · Cut `603b58ba4855`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-063.jpg` · **TikTok/IG cover** `thumbs/vertical/row-063.jpg`
+**YouTube title:** The Man Born Blind — I was blind, now I see (John 9, KJV)
+**Caption:**
+His neighbors argued about whether it was really him, the Pharisees put him on trial, and his own parents were afraid to answer for him. All the man born blind would say was, One thing I know, that, whereas I was blind, now I see. When they cast him out, Jesus heard of it and went and found him.
+What's the one thing you know, even when you can't answer every question?
+John 9:1–41, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#ManBornBlind #John9`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ManBornBlind #John9`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ManBornBlind #John9`
+
+### Row 95 — Thief on the Cross
+**Luke 23:39–43 (KJV) · 1:10 · fits all four**
+File `exports/row-095-thief-on-the-cross.mp4` · Cover `covers/row-095.jpg` · Cut `6a15d8e2801b`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-095.jpg` · **TikTok/IG cover** `thumbs/vertical/row-095.jpg`
+**YouTube title:** The Thief on the Cross — to day shalt thou be with me (Luke 23, KJV)
+**Caption:**
+One thief railed on him; the other admitted he was receiving the due reward of his deeds, and asked only, Lord, remember me when thou comest into thy kingdom. And Jesus, dying beside him, answered, Verily I say unto thee, To day shalt thou be with me in paradise.
+Do you believe it's ever too late to ask?
+Luke 23:39–43, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#ThiefOnTheCross #Paradise`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ThiefOnTheCross #Paradise`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ThiefOnTheCross #Paradise`
+
+### Row 105 — Face to Face, as a Friend
+**Ex 33:7–11 (KJV) · 2:44 · fits all four**
+File `exports/row-105-face-to-face-as-a-friend.mp4` · Cover `covers/row-105.jpg` · Cut `241567ef951f`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-105.jpg` · **TikTok/IG cover** `thumbs/vertical/row-105.jpg`
+**YouTube title:** Face to Face, As a Friend — how the LORD spake with Moses (Ex 33, KJV)
+**Caption:**
+Moses pitched a tabernacle outside the camp, and when he went in, the cloudy pillar descended and stood at the door while the LORD talked with Moses. And the LORD spake unto Moses face to face, as a man speaketh unto his friend. Not thunder from a mountain — a conversation.
+What would you say to God if you could talk with him like a friend?
+Ex 33:7–11, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Moses #Exodus33`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Moses #Exodus33`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Moses #Exodus33`
+
+### Row 106 — God Spake by the Prophets
+**Hebrews 1:1–3 (KJV) · 2:26 · fits all four**
+File `exports/row-106-god-spake-by-the-prophets.mp4` · Cover `covers/row-106.jpg` · Cut `1cc3b39693dd`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-106.jpg` · **TikTok/IG cover** `thumbs/vertical/row-106.jpg`
+**YouTube title:** God Spake by the Prophets — and in these last days, by his Son (Heb 1, KJV)
+**Caption:**
+God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets, hath in these last days spoken unto us by his Son. From the beginning, the pattern is a God who speaks — and a Son who is the brightness of his glory, and the express image of his person.
+If God always spoke through prophets, when do you think he stopped — and why?
+Hebrews 1:1–3, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Hebrews1 #Prophets`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Hebrews1 #Prophets`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Hebrews1 #Prophets`
+
+### Row 115 — The Ram in the Thicket
+**Genesis 22:1–14 (KJV) · 3:11 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
+File `exports/row-115-the-ram-in-the-thicket.mp4` · Cover `covers/row-115.jpg` · Cut `c92ff2f590e4`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-115.jpg` · **TikTok/IG cover** `thumbs/vertical/row-115.jpg`
+**YouTube title:** The Ram in the Thicket — God will provide himself a lamb (Gen 22, KJV)
+**Caption:**
+Abraham climbed the mountain with the wood, the fire, and his son — telling Isaac only that God will provide himself a lamb. At the last moment the angel of the LORD called out of heaven, and Abraham lifted up his eyes, and behold, behind him a ram caught in a thicket by his horns. He called the name of that place Jehovah-jireh: in the mount of the LORD it shall be seen.
+Have you ever had to climb all the way to the hardest moment before the provision appeared?
+Genesis 22:1–14, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#RamInTheThicket #AbrahamAndIsaac`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #RamInTheThicket #AbrahamAndIsaac`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #RamInTheThicket #AbrahamAndIsaac`
+
+### Row 116 — Graven on His Palms
+**Isaiah 49:14–16 (KJV) · 2:14 · fits all four**
+File `exports/row-116-graven-on-his-palms.mp4` · Cover `covers/row-116.jpg` · Cut `0cef105c9d07`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-116.jpg` · **TikTok/IG cover** `thumbs/vertical/row-116.jpg`
+**YouTube title:** Graven on His Palms — yet will I not forget thee (Isaiah 49, KJV)
+**Caption:**
+Zion said, The LORD hath forsaken me, and my Lord hath forgotten me. God answered with the strongest bond he could name: Can a woman forget her sucking child? Yea, they may forget, yet will I not forget thee — behold, I have graven thee upon the palms of my hands.
+Have you ever felt forgotten by God?
+Isaiah 49:14–16, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Isaiah49 #NotForgotten`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Isaiah49 #NotForgotten`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Isaiah49 #NotForgotten`
+
+### Row 117 — Hosea Buys Her Back
+**Hosea 3:1–5 (KJV) · 3:50 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
+File `exports/row-117-hosea-buys-her-back.mp4` · Cover `covers/row-117.jpg` · Cut `6f4bc90378dc`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-117.jpg` · **TikTok/IG cover** `thumbs/vertical/row-117.jpg`
+**YouTube title:** Hosea Buys Her Back — according to the love of the LORD (Hosea 3, KJV)
+**Caption:**
+God told his prophet to marry a woman who would be unfaithful, so Israel could watch what faithful love does. When she was gone, the word came again: Go yet, love a woman beloved of her friend, yet an adulteress — and Hosea bought his own wife back for fifteen pieces of silver and a measure of barley, according to the love of the LORD toward the children of Israel.
+What would it mean to be loved by someone who already knows the worst?
+Hosea 3:1–5, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Hosea #RedeemingLove`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Hosea #RedeemingLove`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Hosea #RedeemingLove`
+
+### Row 118 — Jonah and the God Who Relents
+**Jonah 1–4 (KJV) · 4:38 · all four — YouTube regular upload; on IG reaches mostly followers (over 3:00)**
+File `exports/row-118-jonah-and-the-god-who-relents.mp4` · Cover `covers/row-118.jpg` · Cut `cfc149d3a26c`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-118.jpg` · **TikTok/IG cover** `thumbs/vertical/row-118.jpg`
+**YouTube title:** Jonah and the God Who Relents — the prophet who ran from mercy (Jonah 1–4, KJV)
+**Caption:**
+Jonah fled the opposite way from Nineveh because he knew how it would end — a gracious God, and merciful, slow to anger, and of great kindness. After the storm and the fish he preached, and the whole city repented in sackcloth, from the greatest of them even to the least. And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them.
+Is there anyone you would rather see judged than forgiven?
+Jonah 1–4, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Jonah #Nineveh`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Jonah #Nineveh`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Jonah #Nineveh`
+
+### Row 121 — Salt and Light
+**Matthew 5:13–16 (KJV) · 3:00 · fits all four**
+File `exports/row-121-salt-and-light.mp4` · Cover `covers/row-121.jpg` · Cut `f6fc9cfe16a3`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-121.jpg` · **TikTok/IG cover** `thumbs/vertical/row-121.jpg`
+**YouTube title:** Salt and Light — a city set on an hill cannot be hid (Matthew 5, KJV)
+**Caption:**
+Ye are the salt of the earth, he told them — and salt that has lost his savour is thenceforth good for nothing. Ye are the light of the world: a city that is set on an hill cannot be hid, and no man lights a candle to put it under a bushel.
+What would change if you believed those words were said about you?
+Matthew 5:13–16, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#SaltAndLight #SermonOnTheMount`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #SaltAndLight #SermonOnTheMount`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #SaltAndLight #SermonOnTheMount`
+
+### Row 122 — The Mote and the Beam
+**Matt 7:1–5 (KJV) · 2:55 · fits all four**
+File `exports/row-122-the-mote-and-the-beam.mp4` · Cover `covers/row-122.jpg` · Cut `0e2f2a203d46`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-122.jpg` · **TikTok/IG cover** `thumbs/vertical/row-122.jpg`
+**YouTube title:** The Mote and the Beam — first cast out the beam (Matt 7, KJV)
+**Caption:**
+Jesus asked why we behold the mote in a brother's eye, but consider not the beam in our own. He never said the mote was not there. First cast out the beam out of thine own eye, he said, and then shalt thou see clearly to cast out the mote out of thy brother's eye.
+Whose faults do you see more clearly than your own?
+Matt 7:1–5, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#JudgeNot #SermonOnTheMount`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #JudgeNot #SermonOnTheMount`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #JudgeNot #SermonOnTheMount`
+
+### Row 125 — I Never Knew You
+**Matthew 7:21–23 (KJV) · 1:32 · fits all four**
+File `exports/row-125-i-never-knew-you.mp4` · Cover `covers/row-125.jpg` · Cut `9b8908930e16`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-125.jpg` · **TikTok/IG cover** `thumbs/vertical/row-125.jpg`
+**YouTube title:** I Never Knew You — Lord, Lord, have we not prophesied? (Matthew 7, KJV)
+**Caption:**
+Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven, he warned, but he that doeth the will of my Father. Many will point to prophecies in his name, devils cast out, many wonderful works — and hear the words, I never knew you.
+If it isn't the works and it isn't the words, what does it mean to be known by him?
+Matthew 7:21–23, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#INeverKnewYou #SermonOnTheMount`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #INeverKnewYou #SermonOnTheMount`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #INeverKnewYou #SermonOnTheMount`
+
+### Row 140 — The Bronze Serpent
+**2 Kings 5:1–14 (KJV) · 2:19 · fits all four**
+File `exports/row-140-the-bronze-serpent.mp4` · Cover `covers/row-140.jpg` · Cut `2844cebcaa30`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-140.jpg` · **TikTok/IG cover** `thumbs/vertical/row-140.jpg`
+**YouTube title:** Naaman Washes — wash, and be clean (2 Kings 5, KJV)
+**Caption:**
+Naaman was a mighty captain of Syria, honourable and great — and a leper. The prophet never came out to meet him, just sent word: Go and wash in Jordan seven times, and Naaman went away in a rage at the smallness of it. His servants asked, If the prophet had bid thee do some great thing, wouldest thou not have done it? — so he washed, and his flesh came again like unto the flesh of a little child.
+Would you rather do some great thing than the simple one you've been given?
+2 Kings 5:1–14, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Naaman #2Kings5`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Naaman #2Kings5`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Naaman #2Kings5`
+
+### Row 145 — Way Truth Life
+**John 14:1–6 (KJV) · 0:48 · fits all four**
+File `exports/row-145-way-truth-life.mp4` · Cover `covers/row-145.jpg` · Cut `e6d931f84a54`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-145.jpg` · **TikTok/IG cover** `thumbs/vertical/row-145.jpg`
+**YouTube title:** I Am the Way, the Truth, and the Life — how can we know the way? (John 14, KJV)
+**Caption:**
+Let not your heart be troubled, he told them, on the night everything was about to fall apart. When Thomas admitted, Lord, we know not whither thou goest, and how can we know the way — Jesus answered, I am the way, the truth, and the life.
+When you don't know the way, where do you turn first?
+John 14:1–6, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#TheWayTheTruthTheLife #John14`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #TheWayTheTruthTheLife #John14`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #TheWayTheTruthTheLife #John14`
+
+### Row 146 — Vine and Branches
+**John 15:1–8 (KJV) · 1:25 · fits all four**
+File `exports/row-146-vine-and-branches.mp4` · Cover `covers/row-146.jpg` · Cut `8acebc1a8bde`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-146.jpg` · **TikTok/IG cover** `thumbs/vertical/row-146.jpg`
+**YouTube title:** The Vine and the Branches — without me ye can do nothing (John 15, KJV)
+**Caption:**
+The night before he died, Jesus said, I am the true vine, and my Father is the husbandman. Abide in me, and I in you: as the branch cannot bear fruit of itself, except it abide in the vine, no more can ye, except ye abide in me. Then the sentence that levels everyone: without me ye can do nothing.
+What are you still trying to grow on your own?
+John 15:1–8, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#TrueVine #John15`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #TrueVine #John15`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #TrueVine #John15`
+
+### Row 147 — Joseph Forgives
+**Genesis 45:1–15; 50:15–21 (KJV) · 1:37 · fits all four**
+File `exports/row-147-joseph-forgives.mp4` · Cover `covers/row-147.jpg` · Cut `1aa7d3d9caad`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-147.jpg` · **TikTok/IG cover** `thumbs/vertical/row-147.jpg`
+**YouTube title:** Joseph Forgives His Brothers — ye thought evil, but God meant it unto good (Gen 45, KJV)
+**Caption:**
+The brothers who sold Joseph into Egypt stood before him, and knew him not. I am Joseph your brother, whom ye sold into Egypt, he said — be not grieved, for God did send me before you to preserve life. Years later, when they feared him again, he answered: ye thought evil against me, but God meant it unto good.
+Is there something in your past that God could still mean unto good?
+Genesis 45:1–15; 50:15–21, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#JosephForgives #Genesis45`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #JosephForgives #Genesis45`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #JosephForgives #Genesis45`
+
+### Row 149 — Hannah Is Heard
+**1 Samuel 1:9–20 (KJV) · 2:20 · fits all four**
+File `exports/row-149-hannah-is-heard.mp4` · Cover `covers/row-149.jpg` · Cut `a8b2ca96209d`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-149.jpg` · **TikTok/IG cover** `thumbs/vertical/row-149.jpg`
+**YouTube title:** Hannah Is Heard — I have poured out my soul (1 Samuel 1, KJV)
+**Caption:**
+In bitterness of soul, Hannah prayed unto the LORD and wept sore — her lips moved, but her voice was not heard, and the old priest accused her of being drunk. No, my lord, she said, I have poured out my soul before the LORD. And the LORD remembered her.
+What have you carried so long you've stopped saying it out loud?
+1 Samuel 1:9–20, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Hannah #AnsweredPrayer`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Hannah #AnsweredPrayer`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Hannah #AnsweredPrayer`
+
+### Row 150 — The Shepherd Psalm
+**Ps 23:1–6 (KJV) · 2:12 · fits all four**
+File `exports/row-150-the-shepherd-psalm.mp4` · Cover `covers/row-150.jpg` · Cut `cb3bf7d1e9fd`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-150.jpg` · **TikTok/IG cover** `thumbs/vertical/row-150.jpg`
+**YouTube title:** The Shepherd Psalm — the LORD is my shepherd (Ps 23, KJV)
+**Caption:**
+David kept sheep before he wore a crown, and he wrote this psalm from the sheep's side of it: The LORD is my shepherd; I shall not want. Green pastures, still waters, and the valley of the shadow of death — and one line holding it all together: thou art with me.
+Which part are you walking through right now — the green pastures, or the valley?
+Ps 23:1–6, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Psalm23 #Shepherd`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Psalm23 #Shepherd`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Psalm23 #Shepherd`
+
+### Row 153 — The Restitution of All Things
+**Acts 3:19–21 (KJV) · 2:42 · fits all four**
+File `exports/row-153-the-restitution-of-all-things.mp4` · Cover `covers/row-153.jpg` · Cut `c6eeccb96d62`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-153.jpg` · **TikTok/IG cover** `thumbs/vertical/row-153.jpg`
+**YouTube title:** The Times of Restitution of All Things — spoken by all the holy prophets (Acts 3, KJV)
+**Caption:**
+After healing a lame man at the temple gate, Peter preached that heaven must receive Jesus until the times of restitution of all things — which God hath spoken by the mouth of all his holy prophets since the world began. Every prophet, since the world began, pointing to a day when what was lost comes back.
+If God promised to restore all things, what do you think has been lost?
+Acts 3:19–21, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#RestitutionOfAllThings #Restoration`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #RestitutionOfAllThings #Restoration`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #RestitutionOfAllThings #Restoration`
+
+### Row 159 — Other Sheep I Have
+**John 10:16 (KJV) · 2:22 · fits all four**
+File `exports/row-159-other-sheep-i-have.mp4` · Cover `covers/row-159.jpg` · Cut `c70679d1466a`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-159.jpg` · **TikTok/IG cover** `thumbs/vertical/row-159.jpg`
+**YouTube title:** Other Sheep I Have — not of this fold (John 10, KJV)
+**Caption:**
+Other sheep I have, Jesus said, which are not of this fold — them also I must bring, and they shall hear my voice. Not lost, not forgotten: sheep he already called his, somewhere beyond the fold in front of him. And there shall be one fold, and one shepherd.
+Who do you think the other sheep were?
+John 10:16, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#OtherSheep #John10`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #OtherSheep #John10`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #OtherSheep #John10`
+
+### Row 161 — Called of God, as was Aaron
+**Hebrews 5:4 (KJV) · 2:39 · fits all four**
+File `exports/row-161-called-of-god-as-was-aaron.mp4` · Cover `covers/row-161.jpg` · Cut `40420464e538`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-161.jpg` · **TikTok/IG cover** `thumbs/vertical/row-161.jpg`
+**YouTube title:** No Man Taketh This Honour — called of God, as was Aaron (Hebrews 5, KJV)
+**Caption:**
+Every high priest is taken from among men and ordained, the scripture says — and no man taketh this honour unto himself, but he that is called of God, as was Aaron. Even Christ glorified not himself to be made an high priest; he was called.
+Where would you look today for someone called the way Aaron was?
+Hebrews 5:4, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#CalledOfGod #Priesthood`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #CalledOfGod #Priesthood`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #CalledOfGod #Priesthood`
+
+### Row 165 — Laying On of Hands for the Holy Ghost
+**Acts 8:14–17 (KJV) · 2:12 · fits all four**
+File `exports/row-165-laying-on-of-hands-for-the-holy-ghost.mp4` · Cover `covers/row-165.jpg` · Cut `b6036ccefdf7`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-165.jpg` · **TikTok/IG cover** `thumbs/vertical/row-165.jpg`
+**YouTube title:** Laying On of Hands for the Holy Ghost — then laid they their hands on them (Acts 8, KJV)
+**Caption:**
+Samaria had received the word of God and been baptized, but something was still missing — as yet the Holy Ghost was fallen upon none of them. So the apostles sent Peter and John, who prayed for them, then laid their hands on them, and they received the Holy Ghost.
+Have you ever received something that could only be given, not taken?
+Acts 8:14–17, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#LayingOnOfHands #HolyGhost`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #LayingOnOfHands #HolyGhost`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #LayingOnOfHands #HolyGhost`
+
+### Row 170 — The Sacrament, Worthily
+**1 Cor 11:23–29 (KJV) · 2:14 · fits all four**
+File `exports/row-170-the-sacrament-worthily.mp4` · Cover `covers/row-170.jpg` · Cut `15a2ee493424`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-170.jpg` · **TikTok/IG cover** `thumbs/vertical/row-170.jpg`
+**YouTube title:** The Sacrament, Worthily — this do in remembrance of me (1 Cor 11, KJV)
+**Caption:**
+Paul reminded Corinth what he had received of the Lord: the same night in which he was betrayed, Jesus took bread, and when he had given thanks, he brake it — this do in remembrance of me. The cup carried the same charge, as often as ye drink it. But let a man examine himself, Paul wrote, and so let him eat of that bread, and drink of that cup.
+What do you actually remember, when you remember him?
+1 Cor 11:23–29, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Sacrament #1Corinthians11`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Sacrament #1Corinthians11`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Sacrament #1Corinthians11`
+
+### Row 171 — Baptized For the Dead
+**1 Corinthians 15:29 (KJV) · 1:14 · fits all four**
+File `exports/row-171-baptized-for-the-dead.mp4` · Cover `covers/row-171.jpg` · Cut `4fd6f5c253c8`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-171.jpg` · **TikTok/IG cover** `thumbs/vertical/row-171.jpg`
+**YouTube title:** Baptized for the Dead — Paul's question, if the dead rise not (1 Cor 15, KJV)
+**Caption:**
+In his great chapter on the resurrection, Paul pointed to something the saints were doing: else what shall they do which are baptized for the dead, if the dead rise not at all? He did not rebuke the practice — he reasoned from it. Why are they then baptized for the dead, if the dead rise not?
+What do you think the early saints understood about their dead?
+1 Corinthians 15:29, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#BaptizedForTheDead #1Corinthians15`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #BaptizedForTheDead #1Corinthians15`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #BaptizedForTheDead #1Corinthians15`
+
+### Row 173 — Dead Shall Hear
+**John 5:25 (KJV) · 1:02 · fits all four**
+File `exports/row-173-dead-shall-hear.mp4` · Cover `covers/row-173.jpg` · Cut `82c8715e106b`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-173.jpg` · **TikTok/IG cover** `thumbs/vertical/row-173.jpg`
+**YouTube title:** The Dead Shall Hear the Voice of the Son of God — and they that hear shall live (John 5, KJV)
+**Caption:**
+Verily, verily, Jesus said: the hour is coming, and now is, when the dead shall hear the voice of the Son of God — and they that hear shall live. He didn't say the dead were beyond reach. He said they would hear.
+What do you hope is true for the people you've lost?
+John 5:25, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#TheDeadShallHear #HopeForTheDead`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #TheDeadShallHear #HopeForTheDead`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #TheDeadShallHear #HopeForTheDead`
+
+### Row 175 — Mountain of the Lords House
+**Isaiah 2:2–3 (KJV) · 1:16 · fits all four**
+File `exports/row-175-mountain-of-the-lords-house.mp4` · Cover `covers/row-175.jpg` · Cut `414327c2fa0b`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-175.jpg` · **TikTok/IG cover** `thumbs/vertical/row-175.jpg`
+**YouTube title:** The Mountain of the LORD's House — all nations shall flow unto it (Isa 2, KJV)
+**Caption:**
+Isaiah saw the last days: the mountain of the LORD's house shall be established in the top of the mountains, and all nations shall flow unto it. Many people shall go and say, Come ye, and let us go up to the mountain of the LORD — he will teach us of his ways, and we will walk in his paths. Not a memory; a prophecy pointed forward.
+If that house were being established in our day, would you want to know?
+Isaiah 2:2–3, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#MountainOfTheLord #Isaiah2`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #MountainOfTheLord #Isaiah2`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #MountainOfTheLord #Isaiah2`
+
+### Row 177 — Make Me a Sanctuary
+**Exodus 25:8 (KJV) · 1:36 · fits all four**
+File `exports/row-177-make-me-a-sanctuary.mp4` · Cover `covers/row-177.jpg` · Cut `fe1e6916e89f`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-177.jpg` · **TikTok/IG cover** `thumbs/vertical/row-177.jpg`
+**YouTube title:** Make Me a Sanctuary — that I may dwell among them (Exodus 25, KJV)
+**Caption:**
+One sentence in the wilderness: And let them make me a sanctuary, that I may dwell among them. God didn't ask Israel for a monument — he asked for a place to dwell, in the middle of his people.
+What would change if you believed God still wants to dwell that close?
+Exodus 25:8, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Sanctuary #Tabernacle`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Sanctuary #Tabernacle`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Sanctuary #Tabernacle`
+
+### Row 179 — Stephens Witness
+**Acts 7:55–56 (KJV) · 1:00 · fits all four**
+File `exports/row-179-stephens-witness.mp4` · Cover `covers/row-179.jpg` · Cut `acd4b0ac4360`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-179.jpg` · **TikTok/IG cover** `thumbs/vertical/row-179.jpg`
+**YouTube title:** Stephen's Witness — the Son of man on the right hand of God (Acts 7, KJV)
+**Caption:**
+Stephen, full of the Holy Ghost, looked up stedfastly into heaven, and saw the glory of God, and Jesus standing on the right hand of God. Behold, he told them, I see the heavens opened, and the Son of man standing on the right hand of God. He saw the Father's glory and the Son beside it — and said so out loud with his life on the line.
+What do you make of what Stephen saw — the Son standing beside the Father?
+Acts 7:55–56, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#StephensWitness #Acts7`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #StephensWitness #Acts7`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #StephensWitness #Acts7`
+
+### Row 180 — Before I Formed Thee
+**Jeremiah 1:4–8 (KJV) · 1:40 · fits all four**
+File `exports/row-180-before-i-formed-thee.mp4` · Cover `covers/row-180.jpg` · Cut `7c05520d84c8`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-180.jpg` · **TikTok/IG cover** `thumbs/vertical/row-180.jpg`
+**YouTube title:** Before I Formed Thee in the Belly I Knew Thee — known before birth (Jeremiah 1, KJV)
+**Caption:**
+When the word of the LORD came to Jeremiah, it started before his birth: Before I formed thee in the belly I knew thee; and before thou camest forth out of the womb I sanctified thee. Jeremiah protested that he was only a child who could not speak. The LORD answered, Say not, I am a child — be not afraid of their faces: for I am with thee.
+What would change if you believed you were known before you were born?
+Jeremiah 1:4–8, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Jeremiah1 #KnownBeforeBirth`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Jeremiah1 #KnownBeforeBirth`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Jeremiah1 #KnownBeforeBirth`
+
+### Row 181 — Morning Stars Sang
+**Job 38:4–7 (KJV) · 1:07 · fits all four**
+File `exports/row-181-morning-stars-sang.mp4` · Cover `covers/row-181.jpg` · Cut `a89f9a3c9acb`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-181.jpg` · **TikTok/IG cover** `thumbs/vertical/row-181.jpg`
+**YouTube title:** When the Morning Stars Sang Together — the sons of God shouted for joy (Job 38, KJV)
+**Caption:**
+Out of the whirlwind, God asked Job, Where wast thou when I laid the foundations of the earth — when the morning stars sang together, and all the sons of God shouted for joy? Before there was an earth to stand on, someone was already singing.
+Why do you think the sons of God were shouting for joy?
+Job 38:4–7, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#MorningStars #Job38`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #MorningStars #Job38`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #MorningStars #Job38`
+
+### Row 184 — Caught Up to the Third Heaven
+**2 Corinthians 12:2–4 (KJV) · 1:15 · fits all four**
+File `exports/row-184-caught-up-to-the-third-heaven.mp4` · Cover `covers/row-184.jpg` · Cut `da778163cce3`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-184.jpg` · **TikTok/IG cover** `thumbs/vertical/row-184.jpg`
+**YouTube title:** Caught Up to the Third Heaven — words not lawful to utter (2 Corinthians 12, KJV)
+**Caption:**
+Paul told of a man in Christ — above fourteen years before — caught up to the third heaven, whether in the body or out of the body he could not tell. Caught up into paradise, he heard unspeakable words, which it is not lawful for a man to utter. Paul knew more of heaven than he was allowed to say.
+What do you make of a Bible that speaks of a third heaven?
+2 Corinthians 12:2–4, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#ThirdHeaven #2Corinthians12`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ThirdHeaven #2Corinthians12`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ThirdHeaven #2Corinthians12`
+
+### Row 185 — In My Fathers House
+**John 14:2 (KJV) · 1:00 · fits all four**
+File `exports/row-185-in-my-fathers-house.mp4` · Cover `covers/row-185.jpg` · Cut `1960f4a4a1e1`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-185.jpg` · **TikTok/IG cover** `thumbs/vertical/row-185.jpg`
+**YouTube title:** In My Father's House Are Many Mansions — I go to prepare a place for you (John 14, KJV)
+**Caption:**
+On the night before he died, Jesus said, Let not your heart be troubled: in my Father's house are many mansions — if it were not so, I would have told you. And then a promise: I go to prepare a place for you.
+What do you imagine the place prepared for you looks like?
+John 14:2, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#ManyMansions #John14`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ManyMansions #John14`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ManyMansions #John14`
+
+### Row 186 — Heirs of God
+**Rom 8:16–17 (KJV) · 0:58 · fits all four**
+File `exports/row-186-heirs-of-god.mp4` · Cover `covers/row-186.jpg` · Cut `20a4e337a1c4`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-186.jpg` · **TikTok/IG cover** `thumbs/vertical/row-186.jpg`
+**YouTube title:** Heirs of God, Joint-Heirs with Christ — the Spirit beareth witness (Rom 8, KJV)
+**Caption:**
+The Spirit itself beareth witness with our spirit, that we are the children of God. And if children, then heirs; heirs of God, and joint-heirs with Christ — if so be that we suffer with him, that we may be also glorified together. Children, then heirs — Paul keeps raising the claim, all the way to joint-heirs with Christ.
+What would you carry differently if you believed you were an heir of God?
+Rom 8:16–17, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Romans8 #ChildrenOfGod`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Romans8 #ChildrenOfGod`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Romans8 #ChildrenOfGod`
+
+### Row 188 — Be Ye Therefore Perfect
+**Matthew 5:43–48 (KJV) · 1:19 · fits all four**
+File `exports/row-188-be-ye-therefore-perfect.mp4` · Cover `covers/row-188.jpg` · Cut `add9587ac83f`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-188.jpg` · **TikTok/IG cover** `thumbs/vertical/row-188.jpg`
+**YouTube title:** Be Ye Therefore Perfect — the highest bar ever set (Matthew 5, KJV)
+**Caption:**
+Jesus closed his teaching on loving your enemies with the highest sentence he ever spoke: Be ye therefore perfect, even as your Father which is in heaven is perfect. Not better than your neighbour — like your Father. And he said it to an ordinary multitude on a mountainside.
+What do you hear in that — an impossible demand, or an invitation?
+Matthew 5:43–48, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#BeYePerfect #Matthew5`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #BeYePerfect #Matthew5`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #BeYePerfect #Matthew5`
+
+### Row 189 — To Him That Overcometh
+**Revelation 3:21 (KJV) · 0:52 · fits all four**
+File `exports/row-189-to-him-that-overcometh.mp4` · Cover `covers/row-189.jpg` · Cut `c993b940bc22`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-189.jpg` · **TikTok/IG cover** `thumbs/vertical/row-189.jpg`
+**YouTube title:** To Sit with Me in My Throne — the promise to him that overcometh (Revelation 3, KJV)
+**Caption:**
+To the church at Laodicea, the risen Jesus made a promise almost too large to say out loud: To him that overcometh will I grant to sit with me in my throne, even as I also overcame, and am set down with my Father in his throne. Not near the throne — in it, with him.
+Is that a bigger future than you've been taught to hope for?
+Revelation 3:21, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#HimThatOvercometh #Revelation3`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #HimThatOvercometh #Revelation3`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #HimThatOvercometh #Revelation3`
+
+### Row 190 — Faith Without Works
+**James 2:17–26 (KJV) · 1:09 · fits all four**
+File `exports/row-190-faith-without-works.mp4` · Cover `covers/row-190.jpg` · Cut `a2920d6b0b57`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-190.jpg` · **TikTok/IG cover** `thumbs/vertical/row-190.jpg`
+**YouTube title:** Faith Without Works Is Dead — the devils also believe (James 2, KJV)
+**Caption:**
+James asks what it profits a man to say he hath faith, and have not works — can faith save him? Thou believest that there is one God; thou doest well: the devils also believe, and tremble. Faith wrought with Abraham's works when he offered Isaac, and by works was faith made perfect: for as the body without the spirit is dead, so faith without works is dead also.
+If your faith left evidence, what would it be?
+James 2:17–26, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#James2 #FaithAndWorks`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #James2 #FaithAndWorks`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #James2 #FaithAndWorks`
+
+### Row 191 — Windows of Heaven
+**Malachi 3:8–10 (KJV) · 0:57 · fits all four**
+File `exports/row-191-windows-of-heaven.mp4` · Cover `covers/row-191.jpg` · Cut `c2401d69f050`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-191.jpg` · **TikTok/IG cover** `thumbs/vertical/row-191.jpg`
+**YouTube title:** The Windows of Heaven — prove me now herewith (Mal 3, KJV)
+**Caption:**
+Will a man rob God, the LORD asked through Malachi — yet ye have robbed me, in tithes and offerings. Then God did something rare: he invited a test. Prove me now herewith, saith the LORD of hosts, if I will not open you the windows of heaven, and pour you out a blessing, that there shall not be room enough to receive it.
+Have you ever taken God up on a promise, just to see?
+Malachi 3:8–10, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#WindowsOfHeaven #Tithing`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #WindowsOfHeaven #Tithing`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #WindowsOfHeaven #Tithing`
+
+### Row 192 — The Fast God Has Chosen
+**Isaiah 58:6–11 (KJV) · 1:14 · fits all four**
+File `exports/row-192-the-fast-god-has-chosen.mp4` · Cover `covers/row-192.jpg` · Cut `fc0cca668f3b`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-192.jpg` · **TikTok/IG cover** `thumbs/vertical/row-192.jpg`
+**YouTube title:** The Fast God Has Chosen — deal thy bread to the hungry (Isaiah 58, KJV)
+**Caption:**
+Isaiah carried God's answer to a people whose religion had gone hollow: Is not this the fast that I have chosen — to loose the bands of wickedness, to deal thy bread to the hungry, and that thou bring the poor that are cast out to thy house? Then shall thy light break forth as the morning, and thou shalt be like a watered garden, like a spring of water whose waters fail not.
+Who around you is hungry for something you could actually give?
+Isaiah 58:6–11, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Isaiah58 #Fasting`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Isaiah58 #Fasting`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Isaiah58 #Fasting`
+
+### Row 193 — The Comforter
+**John 14:26 (KJV) · 1:06 · fits all four**
+File `exports/row-193-the-comforter.mp4` · Cover `covers/row-193.jpg` · Cut `5909d86cee35`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-193.jpg` · **TikTok/IG cover** `thumbs/vertical/row-193.jpg`
+**YouTube title:** The Comforter Shall Teach You All Things — and bring all things to your remembrance (John 14, KJV)
+**Caption:**
+Jesus knew he was leaving, and he told his friends how they would manage without him: the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance. They would not be left to figure it out alone.
+Has a truth ever come back to you at exactly the moment you needed it?
+John 14:26, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#TheComforter #HolyGhost`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #TheComforter #HolyGhost`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #TheComforter #HolyGhost`
+
+### Row 194 — Fruit of the Spirit
+**Gal 5:22–23 (KJV) · 1:02 · fits all four**
+File `exports/row-194-fruit-of-the-spirit.mp4` · Cover `covers/row-194.jpg` · Cut `41d0c1bdb258`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-194.jpg` · **TikTok/IG cover** `thumbs/vertical/row-194.jpg`
+**YouTube title:** The Fruit of the Spirit — against such there is no law (Gal 5, KJV)
+**Caption:**
+But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, temperance: against such there is no law. Paul sets the list right against the works of the flesh — two harvests, from two different roots. Fruit is not manufactured; it grows.
+Which of those nine do you need most right now?
+Gal 5:22–23, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#FruitOfTheSpirit #Galatians5`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #FruitOfTheSpirit #Galatians5`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #FruitOfTheSpirit #Galatians5`
+
+### Row 195 — Prove All Things
+**1 Thessalonians 5:21 (KJV) · 1:07 · fits all four**
+File `exports/row-195-prove-all-things.mp4` · Cover `covers/row-195.jpg` · Cut `b3c33c8f5307`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-195.jpg` · **TikTok/IG cover** `thumbs/vertical/row-195.jpg`
+**YouTube title:** Prove All Things — hold fast that which is good (1 Thes 5, KJV)
+**Caption:**
+Paul did not tell the saints to swallow everything, and he did not tell them to scorn everything: prove all things, he wrote, hold fast that which is good. Faith, as he taught it, is not afraid of testing. Try it — and keep what proves true.
+When was the last time you actually put a belief to the test?
+1 Thessalonians 5:21, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#ProveAllThings #1Thessalonians5`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #ProveAllThings #1Thessalonians5`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #ProveAllThings #1Thessalonians5`
+
+### Row 198 — Ensign For the Nations
+**Isa 11:11–12 (KJV) · 1:11 · fits all four**
+File `exports/row-198-ensign-for-the-nations.mp4` · Cover `covers/row-198.jpg` · Cut `064fc0daf259`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-198.jpg` · **TikTok/IG cover** `thumbs/vertical/row-198.jpg`
+**YouTube title:** An Ensign for the Nations — the second time (Isa 11, KJV)
+**Caption:**
+Isaiah saw a day when the Lord shall set his hand again the second time to recover the remnant of his people. He shall set up an ensign for the nations, and shall assemble the outcasts of Israel, and gather together the dispersed of Judah from the four corners of the earth. A second time — which means the first gathering was never the end of the story.
+Do you think God is finished gathering his family?
+Isa 11:11–12, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Isaiah11 #Gathering`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Isaiah11 #Gathering`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Isaiah11 #Gathering`
+
+### Row 199 — Fishers and Hunters
+**Jeremiah 16:14–16 (KJV) · 1:08 · fits all four**
+File `exports/row-199-fishers-and-hunters.mp4` · Cover `covers/row-199.jpg` · Cut `b385dd2bf264`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-199.jpg` · **TikTok/IG cover** `thumbs/vertical/row-199.jpg`
+**YouTube title:** Fishers and Hunters — I will send for many fishers (Jer 16, KJV)
+**Caption:**
+Jeremiah saw days coming when the LORD would gather his people from all the lands whither he had driven them — a gathering spoken of as greater than the coming up out of Egypt. Behold, I will send for many fishers, saith the LORD, and they shall fish them; and after will I send for many hunters, and they shall hunt them from every mountain, and from every hill. God does not lose track of his scattered.
+What would it mean if someone was sent to find you?
+Jeremiah 16:14–16, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#FishersAndHunters #Jeremiah16`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #FishersAndHunters #Jeremiah16`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #FishersAndHunters #Jeremiah16`
+
+### Row 200 — Gospel to All the World
+**Matthew 24:3–14 (KJV) · 0:50 · fits all four**
+File `exports/row-200-gospel-to-all-the-world.mp4` · Cover `covers/row-200.jpg` · Cut `848cb81a3bbb`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-200.jpg` · **TikTok/IG cover** `thumbs/vertical/row-200.jpg`
+**YouTube title:** This Gospel Shall Be Preached in All the World — then shall the end come (Matthew 24, KJV)
+**Caption:**
+On the mount of Olives the disciples asked him privately, What shall be the sign of thy coming, and of the end of the world? Among wars and rumours of wars, Jesus gave one sign that isn't a catastrophe: this gospel of the kingdom shall be preached in all the world for a witness unto all nations; and then shall the end come. The end waits on the telling.
+Do you think that promise is being fulfilled right now?
+Matthew 24:3–14, from the KJV. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#Matthew24 #GospelToAllNations`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #Matthew24 #GospelToAllNations`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #Matthew24 #GospelToAllNations`
+
+### Row 301 — GP-01 — The Two Wills
+**Moses 4:1–4; Abraham 3:24–28 · 2:46 · fits all four**
+File `exports/row-301-gp-01-the-two-wills.mp4` · Cover `covers/row-301.jpg` · Cut `10fb7022a11d`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-301.jpg` · **TikTok/IG cover** `thumbs/vertical/row-301.jpg`
+**YouTube title:** The Two Wills — before the world began, two plans (Moses 4)
+**Caption:**
+Before the world was, the Father asked whom he should send. One stood and said, send me — and I will redeem all mankind, that one soul shall not be lost; and he demanded the Father's own honor, and would have destroyed the agency of man. And another said, Father, thy will be done, and the glory be thine for ever.
+If keeping your freedom to choose cost heaven a war, what is your choice worth today?
+Moses 4:1–4 and Abraham 3:24–28. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#GreatPlan #PlanOfSalvation`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #GreatPlan #PlanOfSalvation`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #GreatPlan #PlanOfSalvation`
+
+### Row 303 — GP-03 — War in Heaven
+**Revelation 12:7–11; D&C 29:36–38 · 2:46 · fits all four**
+File `exports/row-303-gp-03-war-in-heaven.mp4` · Cover `covers/row-303.jpg` · Cut `ceeeead701b8`
+Upload with it → **YouTube thumbnail** `thumbs/yt/row-303.jpg` · **TikTok/IG cover** `thumbs/vertical/row-303.jpg`
+**YouTube title:** War in Heaven — the war that moved here (Revelation 12)
+**Caption:**
+There was war in heaven. Michael and his angels fought against the dragon, and the dragon fought and prevailed not; neither was their place found any more in heaven. He was cast out into the earth, and his angels with him — and a third part of the stars went with him. The war did not end that day. It changed its address.
+Have you ever sensed the fight over what is good didn't start with us?
+Revelation 12:7–11 and Doctrine and Covenants 29:36–38. Download the free Milk Before Meat app for every story and more — link in bio.
+**Story tags:** `#WarInHeaven #Revelation12`
+**Instagram hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #Christian #Bible #WarInHeaven #Revelation12`
+**TikTok hashtags:** `#Jesus #BibleStories #Scripture #KJV #Faith #ChristianTikTok #Bible #WarInHeaven #Revelation12`
