@@ -1445,16 +1445,34 @@
       }
     ]
   },
-  "135": {
+  "134": {
     "open": true,
-    "latest": "1st picture has 3 girls and 5 boys that needs to change",
-    "reportedAgainst": "241e1ea5d6e205f771199c182207ead885acfc9e",
+    "latest": "0:18, 0:23,  0:29, need to be redone becasue the crosses werent faceing each other and there were no robes worn on them. that is the biblical depiction and ou keep making them clothed and facing each other which is wrong",
+    "reportedAgainst": "67ef9f1b81b43f51bf210453c79d4820aa619525",
     "resolvedBy": null,
     "history": [
       {
-        "text": "1st picture has 3 girls and 5 boys that needs to change",
-        "hash": "241e1ea5d6e205f771199c182207ead885acfc9e",
-        "createdAt": "2026-07-19T00:51:07.433Z"
+        "text": "0:18, 0:23,  0:29, need to be redone becasue the crosses werent faceing each other and there were no robes worn on them",
+        "hash": "4621a1576a47aeff521402a9c68fb6f4ac80c9b3",
+        "createdAt": "2026-08-25T09:08:43.142Z"
+      },
+      {
+        "text": "0:18, 0:23,  0:29, need to be redone becasue the crosses werent faceing each other and there were no robes worn on them. that is the biblical depiction and ou keep making them clothed and facing each other which is wrong",
+        "hash": "67ef9f1b81b43f51bf210453c79d4820aa619525",
+        "createdAt": "2026-09-01T03:06:49.865Z"
+      }
+    ]
+  },
+  "135": {
+    "open": true,
+    "latest": "2:52 bow is pronounced wrong. the picture at 2:12 needs to be replaced",
+    "reportedAgainst": "ef724d41eb8a43d9b2803d84e5a9b369663a0073",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "2:52 bow is pronounced wrong. the picture at 2:12 needs to be replaced",
+        "hash": "ef724d41eb8a43d9b2803d84e5a9b369663a0073",
+        "createdAt": "2026-09-01T03:12:45.453Z"
       }
     ]
   },
@@ -1521,23 +1539,23 @@
     ]
   },
   "150": {
-    "open": true,
-    "latest": "Bad old , english and captions in white that are scripture",
-    "reportedAgainst": "4813ee79c1f8c25b53a9543be1581ca6e62e040e",
-    "resolvedBy": null,
+    "open": false,
+    "latest": "start off with pointing out that David had many jobs and decided to describe god as his first one when he was a boy. also the captions were off and not correct. also point out that a sheep casted gets restored by the shepherd holding them tigh and letting the blood get to thier legs. also pointout how a sheep will not go to rushing waters and a sheep knows the voice of the shepherd. also point out htat shepherds used to live with the sheep and be more personal then they are today",
+    "reportedAgainst": "923211c7e8bcc7d87a076de40d01ed9ecf5b615d",
+    "resolvedBy": "f3c761dac4d89010595d31bdf70d7225d78172c2",
     "history": [
       {
-        "text": "Bad old , english and captions in white that are scripture",
-        "hash": "4813ee79c1f8c25b53a9543be1581ca6e62e040e",
-        "createdAt": "2026-07-18T23:02:12.113Z"
+        "text": "start off with pointing out that David had many jobs and decided to describe god as his first one when he was a boy. also the captions were off and not correct. also point out that a sheep casted gets restored by the shepherd holding them tigh and letting the blood get to thier legs. also pointout how a sheep will not go to rushing waters and a sheep knows the voice of the shepherd. also point out htat shepherds used to live with the sheep and be more personal then they are today",
+        "hash": "923211c7e8bcc7d87a076de40d01ed9ecf5b615d",
+        "createdAt": "2026-08-25T09:22:55.444Z"
       }
     ]
   },
   "153": {
-    "open": true,
+    "open": false,
     "latest": "1:52 is double picture in 1 frame thats no good replace it..",
     "reportedAgainst": "3d758d3123cf2e4b1d0538a32d72538ec7fd07a9",
-    "resolvedBy": null,
+    "resolvedBy": "bf350190aa5f636f76428e057dade2939b2d0c3a",
     "history": [
       {
         "text": "1:52 is double picture in 1 frame thats no good replace it..",
@@ -1548,22 +1566,27 @@
   },
   "157": {
     "open": true,
-    "latest": "42 weird giant picture",
-    "reportedAgainst": "2509ec5c658d3bcc8a70341c4c9013c88d49868c",
+    "latest": "fix it how we discussed the recut to make it more undersatandable",
+    "reportedAgainst": "a2ad976e2f47d8a32655315722997522cc6992ea",
     "resolvedBy": null,
     "history": [
       {
-        "text": "42 weird giant picture",
-        "hash": "2509ec5c658d3bcc8a70341c4c9013c88d49868c",
-        "createdAt": "2026-07-19T03:25:05.210Z"
+        "text": "0:58 no beard, 1:00 beard, and 1:03 no beard again",
+        "hash": "2a6d8240cbceb8e4fb432beb1e1c60571d9224aa",
+        "createdAt": "2026-08-25T09:17:45.700Z"
+      },
+      {
+        "text": "fix it how we discussed the recut to make it more undersatandable",
+        "hash": "a2ad976e2f47d8a32655315722997522cc6992ea",
+        "createdAt": "2026-09-01T05:11:39.720Z"
       }
     ]
   },
   "159": {
-    "open": true,
+    "open": false,
     "latest": "0:59 picture is bad redo it",
     "reportedAgainst": "3040f634471585b3154af198410db7dc2c7b7275",
-    "resolvedBy": null,
+    "resolvedBy": "8b56e61af8f89deeb112ddabe6db4a6a72e6b493",
     "history": [
       {
         "text": "0:59 picture is bad redo it",
@@ -1586,10 +1609,10 @@
     ]
   },
   "171": {
-    "open": true,
+    "open": false,
     "latest": "Lives is pronounced wrong at 1:10",
     "reportedAgainst": "03bb1e07737b5bd3ce270d932ec4935bdecd32ad",
-    "resolvedBy": null,
+    "resolvedBy": "3ea3210c45e07497e3fd31a796e4668f882a3e01",
     "history": [
       {
         "text": "Lives is pronounced wrong at 1:10",
@@ -1625,10 +1648,10 @@
     ]
   },
   "179": {
-    "open": true,
+    "open": false,
     "latest": "God and Jesus or on the wrong sides of each other flip them and change then ending because he was killed not fell asleep.",
     "reportedAgainst": "9c2b5da4c57a071ae0e7037d3dbaeef61c4d1e1f",
-    "resolvedBy": null,
+    "resolvedBy": "b0402df9af335bf13b78ed9e94e0b321a7055054",
     "history": [
       {
         "text": "God and Jesus or on the wrong sides of each other flip them and change then ending because he was killed not fell asleep.",
@@ -1638,10 +1661,10 @@
     ]
   },
   "181": {
-    "open": true,
+    "open": false,
     "latest": "0:12 god mispronounced wast and pictures can't be duplicates with just missing pieces.  Make better pictures",
     "reportedAgainst": "53514a78d71f5dbaf7ef595785acd18bcbbb81eb",
-    "resolvedBy": null,
+    "resolvedBy": "8a700a28f79a7bb9a383876a2e6d0828b44ca6b8",
     "history": [
       {
         "text": "0:12 god mispronounced wast",
@@ -1678,6 +1701,19 @@
         "text": "Old.  That's not the chosen Jesus voice",
         "hash": "4f26f5e663f4a21c8999fdb1dc0d3ac777ad8920",
         "createdAt": "2026-07-25T08:32:21.558Z"
+      }
+    ]
+  },
+  "187": {
+    "open": true,
+    "latest": "0;23 Jesus has a double hand holding the scripture scroll and geusturing",
+    "reportedAgainst": "fe07caa9ea07f43c42f329bc4949a89a81a92d5b",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "0;23 Jesus has a double hand holding the scripture scroll and geusturing",
+        "hash": "fe07caa9ea07f43c42f329bc4949a89a81a92d5b",
+        "createdAt": "2026-08-25T09:10:45.267Z"
       }
     ]
   },
@@ -1720,11 +1756,24 @@
       }
     ]
   },
-  "198": {
+  "192": {
     "open": true,
+    "latest": "redo picture at 0:05 and 0:08",
+    "reportedAgainst": "f4ddba6d47487fa120196a3d8eb683a76f525e24",
+    "resolvedBy": null,
+    "history": [
+      {
+        "text": "redo picture at 0:05 and 0:08",
+        "hash": "f4ddba6d47487fa120196a3d8eb683a76f525e24",
+        "createdAt": "2026-08-25T08:03:33.288Z"
+      }
+    ]
+  },
+  "198": {
+    "open": false,
     "latest": "Not new audio",
     "reportedAgainst": "85d69fa50d2adcaa60f51a2dbb289b80e3387e2d",
-    "resolvedBy": null,
+    "resolvedBy": "2e95d4fa54cc1b3f5850cb7c613cdddc69cf38de",
     "history": [
       {
         "text": "Not new audio",
@@ -1747,10 +1796,10 @@
     ]
   },
   "200": {
-    "open": true,
+    "open": false,
     "latest": "Still the wrong audio. Im pissed",
     "reportedAgainst": "bc1bf06b41e5bddb769bfc8973b11e1def3c772c",
-    "resolvedBy": null,
+    "resolvedBy": "adad305c66e0255113509585166ff399f203bb89",
     "history": [
       {
         "text": "Still the wrong audio. Im pissed",
