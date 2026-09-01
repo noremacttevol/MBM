@@ -178,3 +178,15 @@ discussed the recut to make it more undersatandable"
   (kv18/n7b/kv24) because the V2 timeline iterates it. New segs voiced through
   mbm_eleven.render_segment (never save_speaker_narration — edge-tts trap),
   round-tripped clean through whisper-small.
+
+### SHIP VERIFICATION 2026-09-01 (the recut, encoded-mp4 proof)
+- 33 beats + card, 209.0s. AUDIO REBUILD PASS 26916be36976. Encoded tail
+  round-trips every new line (kv18/n7b/kv24/n8/card; whisper's dropped
+  final-/d/ on "murmured" verified present at render with whisper-small).
+- FULL-CUT GATE: 34/34 frames viewed. New ending verified in the encoded cut:
+  seals SNAPPED at "does not stay sealed", PLAIN man face-boarded ✓ (ref vs s11
+  vs s33 — same locked face), reverse-angle kv24, no rays in s37, card text new.
+- Rerolls: s32/s35 (still read sealed -> forced flat-open + snapped halves),
+  logged 2/10 = 20% on the new beats (meaning-critical, complaint IS confusion).
+- 3 same-motif sealed-scroll pairs (b03/b21/b23) are the prior shipped design,
+  verified distinct at full size.

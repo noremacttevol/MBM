@@ -746,11 +746,14 @@ BEATS = [
             "earlier shots."
         ),
         "scene": (
-            "The row's whole argument in one square inch: a tight macro "
-            "on the scroll's edge where the three thumb-worn wax seals "
-            "hang BROKEN from their loosed cords, swaying a little, spent "
-            "— and past them, out of focus, the warm expanse of opened "
-            "parchment they can no longer keep shut. The hardware of "
+            "The row's whole argument in one square inch: the parchment "
+            "lies FLAT AND OPEN, filling the lower frame edge to edge — "
+            "NO rolled scroll anywhere in this picture. At its near edge "
+            "the three wax seals hang VISIBLY SNAPPED — each broken in "
+            "half, dangling by slack loosed dark cords OFF the open "
+            "parchment's edge, wax crumbs scattered on the old wood "
+            "beneath. Warm lamplight on the broken wax, the written lines "
+            "running soft-focus into the distance. The hardware of "
             "impossibility, retired. A tight macro framing, deliberately "
             "unlike every earlier wide of the table. ONE single "
             "continuous photograph from one camera — never a collage, "
@@ -841,13 +844,16 @@ BEATS = [
         ),
         "scene": (
             "Morning finds the table: shot low along the wood's grain, "
-            "the opened scroll stretches away in raking first-gold light "
-            "from the window, every letter-row catching shadow, the three "
-            "broken seals lying quiet in the brightness — the night of "
-            "lamps over, the sealed years over, the promise kept sitting "
-            "plainly in the sun. ONE single continuous photograph from "
-            "one camera — never a collage, never panels, never a split "
-            "frame. Every figure has two arms, two hands and one head."
+            "the scroll lies fully UNROLLED end to end — NO rolled "
+            "portion anywhere — its open written face stretching away in "
+            "raking first-gold window light, every letter-row catching "
+            "shadow. Beside it on the sunlit wood the three BROKEN SEAL "
+            "HALVES lie detached and spent, cords slack. The lamps are "
+            "out, the window bright, the sealed years over — the promise "
+            "kept sitting plainly in the sun. ONE single continuous "
+            "photograph from one camera — never a collage, never panels, "
+            "never a split frame. Every figure has two arms, two hands "
+            "and one head."
         ),
     },
     {
