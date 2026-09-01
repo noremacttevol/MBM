@@ -10,15 +10,7 @@ touching anything else. Do NOT edit by hand.
 
 | # | Status | What Cameron said |
 |---|---|---|
-| 135 | newer cut shipped — VERIFY fixed | 1st picture has 3 girls and 5 boys that needs to change |
-| 150 | newer cut shipped — VERIFY fixed | Bad old , english and captions in white that are scripture |
-| 153 | newer cut shipped — VERIFY fixed | 1:52 is double picture in 1 frame thats no good replace it.. |
-| 157 | newer cut shipped — VERIFY fixed | 42 weird giant picture |
-| 159 | newer cut shipped — VERIFY fixed | 0:59 picture is bad redo it |
-| 161 | newer cut shipped — VERIFY fixed | 2:15 bowed is not pronounced like that fix it. Its like bawed the past tense of bowing to something |
-| 171 | newer cut shipped — VERIFY fixed | Lives is pronounced wrong at 1:10 |
-| 179 | newer cut shipped — VERIFY fixed | God and Jesus or on the wrong sides of each other flip them and change then ending because he was killed not fell asleep. |
-| 181 | newer cut shipped — VERIFY fixed | 0:12 god mispronounced wast and pictures can't be duplicates with just missing pieces.  Make better pictures |
-| 188 | newer cut shipped — VERIFY fixed | "Maketh" (the archaic version of the modern word "makes") is pronounced MAY-kith 0:29 |
-| 198 | newer cut shipped — VERIFY fixed | Not new audio |
-| 200 | newer cut shipped — VERIFY fixed | Still the wrong audio. Im pissed |
+| 134 | UNFIXED | 0:18, 0:23,  0:29, need to be redone becasue the crosses werent faceing each other and there were no robes worn on them. that is the biblical depiction and ou keep making them clothed and facing each other which is wrong |
+| 135 | UNFIXED | 2:52 bow is pronounced wrong. the picture at 2:12 needs to be replaced |
+| 157 | UNFIXED | fix it how we discussed the recut to make it more undersatandable |
+| 187 | UNFIXED | 0;12 Jesus has a double hand holding the scripture scroll and reading it.  0:20 and 0:25 the scroll is floating and not acting like cloth/paper it is made out of. |

@@ -16,6 +16,7 @@ ADDED — Isaiah 29:13, lifted out of narrator paraphrase (n5 was already retell
   kv13b  god        'Forasmuch as this people draw near me with their mouth...' — the LORD in first person
 Both halves sit on S5, consecutive beats over one image, so no new artwork and the edit the viewer sees is unchanged. n5 stays exactly where it is and now reads as the retelling that follows.
 
+RE-CUT 2026-09-01 (Cameron complaint: "super confusing... just to show people we may never understand?"): the back half now lands Isaiah's OWN resolution — 29:18 (the deaf hear THE WORDS OF THE BOOK) and 29:24 (they that erred COME TO UNDERSTANDING). The book gets opened; understanding arrives; God does it. New segs kv18/n7b/kv24 + replaced n8/card, voiced via mbm_eleven.render_segment (NEVER save_speaker_narration — that routes to edge-tts and ships the old voice).
 WHY-LAW: when human wisdom hits its limit, God is only getting started. The sealed book is opened by an act of God, not by an expert. Nothing on screen argues the point — a viewer who later learns what the marvellous work was will find the video was quietly right all along.
 """
 import asyncio
@@ -43,8 +44,15 @@ SEGMENTS = [
     # Isaiah 29:14
     ("kv14", GOD, "Therefore, behold, I will proceed to do a marvellous work among this people, even a marvellous work and a wonder: for the wisdom of their wise men shall perish, and the understanding of their prudent men shall be hid."),
     ("n7", NARRATOR, "So God promised to step in himself and do something marvellous — a genuine wonder. Not one more lecture from the learned, but an act of God that would open what men had sealed and reach hearts that had wandered."),
-    ("n8", NARRATOR, "That is the beautiful turn in this verse. When human wisdom hits its limit, God is only getting started. He is fond of marvellous works and wonders — the very things the experts said could not happen. So the only question is a hopeful one. When the wonder comes, will you be humble enough to receive it?"),
-    ("card", NARRATOR, "When human wisdom runs dry and the book is sealed, God promises a marvellous work and a wonder — opening what men could not, and reaching hearts that had wandered. When the wonder comes, will you receive it?"),
+    # Isaiah 29:18 — THE RESOLUTION (added 2026-09-01, Cameron: the cut ended
+    # feeling like "we may never understand"; Isaiah himself finishes the
+    # thought — the book is OPENED and understanding ARRIVES, because God acts).
+    ("kv18", SCRIPTURE, "And in that day shall the deaf hear the words of the book, and the eyes of the blind shall see out of obscurity, and out of darkness."),
+    ("n7b", NARRATOR, "Hear what he promised. The same book nobody could read — the deaf hear its very words. The blind see. The sealed book does not stay sealed. When God does the opening, the people everyone had given up on are the first to understand."),
+    # Isaiah 29:24
+    ("kv24", SCRIPTURE, "They also that erred in spirit shall come to understanding, and they that murmured shall learn doctrine."),
+    ("n8", NARRATOR, "So this was never a story about a book staying shut. It is a promise with a date on it. God said he would do a marvellous work — open what the experts could not, and hand understanding to the very people who had wandered. Understanding does not come from the wise. It comes from him. So the only question left is the hopeful one: when God offers to open the book, will you let him?"),
+    ("card", NARRATOR, "Man's wisdom could not open the sealed book — so God promised to open it himself, and give understanding to all who had erred. When he offers to open it for you, will you let him?"),
 ]
 
 # Homographs this build decides for itself (never auto-replaced globally).

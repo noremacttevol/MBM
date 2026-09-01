@@ -1596,10 +1596,10 @@
     ]
   },
   "161": {
-    "open": true,
+    "open": false,
     "latest": "2:15 bowed is not pronounced like that fix it. Its like bawed the past tense of bowing to something",
     "reportedAgainst": "3803506a41369bf5cd4460e0b96eaf6346148ed3",
-    "resolvedBy": null,
+    "resolvedBy": "b48795bee6c05099bc0df4b62937eee29bc16105",
     "history": [
       {
         "text": "2:15 bowed is not pronounced like that fix it. Its like bawed the past tense of bowing to something",
@@ -1706,22 +1706,27 @@
   },
   "187": {
     "open": true,
-    "latest": "0;23 Jesus has a double hand holding the scripture scroll and geusturing",
-    "reportedAgainst": "fe07caa9ea07f43c42f329bc4949a89a81a92d5b",
+    "latest": "0;12 Jesus has a double hand holding the scripture scroll and reading it.  0:20 and 0:25 the scroll is floating and not acting like cloth/paper it is made out of.",
+    "reportedAgainst": "9e16ca612076e072c065de814a6c3fd94e4ebde6",
     "resolvedBy": null,
     "history": [
       {
         "text": "0;23 Jesus has a double hand holding the scripture scroll and geusturing",
         "hash": "fe07caa9ea07f43c42f329bc4949a89a81a92d5b",
         "createdAt": "2026-08-25T09:10:45.267Z"
+      },
+      {
+        "text": "0;12 Jesus has a double hand holding the scripture scroll and reading it.  0:20 and 0:25 the scroll is floating and not acting like cloth/paper it is made out of.",
+        "hash": "9e16ca612076e072c065de814a6c3fd94e4ebde6",
+        "createdAt": "2026-09-01T05:20:04.936Z"
       }
     ]
   },
   "188": {
-    "open": true,
+    "open": false,
     "latest": "\"Maketh\" (the archaic version of the modern word \"makes\") is pronounced MAY-kith 0:29",
     "reportedAgainst": "b6ba18fa1bb5fc6dfcf569a994eec686bee9a501",
-    "resolvedBy": null,
+    "resolvedBy": "53a4a263594694ff95b3a8cfe1ac38278f151e8d",
     "history": [
       {
         "text": "\"Maketh\" (the archaic version of the modern word \"makes\") is pronounced MAY-kith 0:29",
@@ -1757,10 +1762,10 @@
     ]
   },
   "192": {
-    "open": true,
+    "open": false,
     "latest": "redo picture at 0:05 and 0:08",
     "reportedAgainst": "f4ddba6d47487fa120196a3d8eb683a76f525e24",
-    "resolvedBy": null,
+    "resolvedBy": "a49edd8c6b379f9dbd267bc0c0b46b2fd692f3e0",
     "history": [
       {
         "text": "redo picture at 0:05 and 0:08",

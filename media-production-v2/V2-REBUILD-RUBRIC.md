@@ -463,3 +463,42 @@ without an autopsy is forbidden — it re-runs the same evidence and hopes.
 11. Publish only the candidate to `site/review.html`. Do not replace the app video.
 12. Cameron's exact-version approval is the only release decision. A complaint
     remains attached through every replacement cut until he approves the fixed one.
+
+## Lesson 29 — A complaint that names a state then says "that is the biblical depiction" is giving you the ANSWER KEY, not the defect list (row 134, 2026-09-01)
+Cameron's row-134 complaint read "the crosses werent faceing each other and there
+were no robes worn on them. that is the biblical depiction and you keep making
+them clothed and facing each other which is wrong." The 2026-08-25 fix read the
+first clause as the DEFECT and shipped the exact opposite of what he wanted
+(added robes, angled the crosses toward each other) — a second complaint on the
+same beats. Two rules: (1) the clause "that is the biblical depiction" marks the
+STANDARD — whatever it points at is what the picture must SHOW; (2) before
+re-staging any scene class, grep the NEIGHBORING APPROVED CANON first
+(build-95 already carried "straight PARALLEL ROW... stripped to a loincloth...
+NO crosses angled toward each other, NO clothed/robed torsos" — the answer key
+was one folder away). Also scripture itself settles clothing: the soldiers
+parted his garments — crucified men wear a loincloth, never a robe.
+
+## Lesson 30 — Rigid attribute-order regexes have now bitten TWICE; every card-tag parse must be order-independent (2026-09-01)
+sync-reviews.mjs required data-num -> data-hash -> data-review-wave IN ORDER.
+Cards wired 2026-08-13+ emit data-review-wave BEFORE data-hash, so 37 real,
+current approvals (145/146/147/149/150/173/185/191 among them) silently never
+version-locked: the publisher saw them as unapproved and Cameron's approved
+videos never reached the app. autopilot.sh had the identical bug fixed
+2026-08-07. Rule: match the TAG first, then extract each attribute with its own
+small regex. Grep for other rigid chains before writing a new one.
+
+## Lesson 31 — ElevenLabs homograph law: the migration bypassed per-build SPOKEN maps; phoneme tags DROP the word; validate vowels with template-set MFCC-DTW (rows 135/119/161, 2026-09-01)
+The Jul-29 ElevenLabs migration rendered from caption text, so every per-build
+SPOKEN respell measured for Azure was silently skipped — row 135 shipped "bow"
+(rainbow context, must be BOH) as BAU even though the build declared
+'bow'->'boh'. Diagnosis law: transcribe/measure the DELIVERED audio first; on
+any migrated row assume the respell never reached the engine. Fix law: re-render
+the seg via mbm_eleven.render_segment with the respell applied ('boe' measured
+/boU/ reliably for Brian), atempo-lock to the original duration, regenerate the
+timing sidecar from the char alignment (canonical caption spelling restored in
+its text fields). NEVER use <phoneme> tags on eleven_multilingual_v2 — the word
+is deleted from the audio entirely. Measurement law: single-template formant or
+MFCC checks mislead (whisper token edges are sloppy); build 3-4 unambiguous
+calibration sentences PER vowel class in the SAME voice (rainbow/bow-tie/
+crossbow vs bow-down/take-a-bow/ship's-bow), leave-one-out sanity-check the
+template sets, then classify each token by nearest-set DTW distance.

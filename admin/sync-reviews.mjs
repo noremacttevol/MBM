@@ -43,9 +43,17 @@ execSync('git ls-tree -r HEAD -- media-production',
 // replacing the app's current media. Those cards are the source of truth for
 // this review wave, so their version-lock hashes override the app-media hashes.
 const reviewHtml = readFileSync(join(REPO, 'site', 'review.html'), 'utf8');
-const reviewCard = /<div class="card"[^>]*data-num="(\d+)"[^>]*data-hash="([0-9a-f]+)"[^>]*data-review-wave="realistic-v2"[^>]*>/g;
-for (const match of reviewHtml.matchAll(reviewCard)) {
-  hashes[+match[1]] = match[2];
+// ORDER-INDEPENDENT (2026-09-01): the old rigid num->hash->wave regex silently
+// dropped every card whose attributes were emitted in a different order (rows
+// 145/146/147/149/150/173/185/191 wired 2026-08-13+ put data-review-wave
+// BEFORE data-hash), so their real, current approvals never version-locked and
+// the publisher treated them as unapproved. Same bug class autopilot fixed
+// 2026-08-07. Scan each card tag, then read the attributes independently.
+const cardTag = /<div class="card"[^>]*data-review-wave="realistic-v2"[^>]*>/g;
+for (const tag of reviewHtml.match(cardTag) || []) {
+  const num = tag.match(/data-num="(\d+)"/);
+  const h = tag.match(/data-hash="([0-9a-f]+)"/);
+  if (num && h) hashes[+num[1]] = h[1];
 }
 
 const snap = await db.collection('reviews').get();

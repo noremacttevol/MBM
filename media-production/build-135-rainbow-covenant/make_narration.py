@@ -71,7 +71,7 @@ SEGMENTS = [
 
 # Homographs this build decides for itself (never auto-replaced globally).
 SPOKEN = {
-    "bow": "boh",
+    "bow": "boe",  # 2026-09-01: ElevenLabs Brian read the plain caption text (the Jul-29 migration bypassed this map) as BAU (bow-down) — Cameron complaint at 2:52. "boe" measured /boU/ on all 3 n8 tokens via MFCC-DTW vs 8 calibrated bow-tie/crossbow/rainbow vs bow-down/take-a-bow templates; phoneme tags are DROPPED by eleven_multilingual_v2 (word vanishes) — never use them.
 }
 
 

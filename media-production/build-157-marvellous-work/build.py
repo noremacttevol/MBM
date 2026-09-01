@@ -94,6 +94,12 @@ BEATS = [
     ("n6", S6, "in"),
     ("kv14", S7, "in"),
     ("n7", S7, "out"),
+    # RE-CUT 2026-09-01 (Cameron): Isaiah's own resolution added — the book
+    # OPENED (29:18) and understanding arriving (29:24). V2 renders its own
+    # stills for these; the S8 reference here is timeline metadata only.
+    ("kv18", S8, "in"),
+    ("n7b", S8, "out"),
+    ("kv24", S8, "in"),
     ("n8", S8, "in"),
 ]
 

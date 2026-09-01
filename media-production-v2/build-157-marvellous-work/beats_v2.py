@@ -584,27 +584,6 @@ BEATS = [
         ),
     },
     {
-        "id": "v2-r157-b22", "out": "s22-so-the-only-question-is.jpeg", "seg": "n8",
-        "window": "152.80-155.22", "wide": False, "jesus": False, "ref": False,
-        "locks": [],
-        "narration": "So the only question is a hopeful one.",
-        "must_show": "the hopeful pivot — a listening face brightening in morning light; the question's warmth arriving.",
-        "must_not_show": "no halo; the brightening subtle and real.",
-        "scene": (
-            "The question arrives wearing morning: a "
-            "listening face in the clean early light, "
-            "and across it the slow warming — the "
-            "guarded lines easing, the eyes lifting "
-            "with something between memory and "
-            "appetite — a person who has heard the whole "
-            "sealed-book story and caught, at its turn, "
-            "the scent of the hopeful part: that the "
-            "wonder is God's to do, and he has said he "
-            "will. Every figure has two arms, two hands "
-            "and one head."
-        ),
-    },
-    {
         "id": "v2-r157-b23", "out": "s23-so-god-promised-to-step.jpeg", "seg": "n7",
         "window": "126.72-131.78", "wide": False, "jesus": False, "ref": False,
         "locks": ["BOOK"],
@@ -656,95 +635,317 @@ BEATS = [
         ),
     },
     {
-        "id": "v2-r157-b25", "out": "s25-that-is-the-beautiful-turn.jpeg", "seg": "n8",
-        "window": "140.19-142.80", "wide": False, "jesus": False, "ref": False,
-        "locks": ["ISAIAH"],
-        "narration": "That is the beautiful turn in this verse.",
-        "must_show": "the turn on the seer — Isaiah's face turning from its grief to wonder, the old eyes lit; the prophecy's beauty reaching its own prophet.",
-        "must_not_show": "no halo; the turn READABLE — grief to wonder across the noble old face.",
-        "scene": (
-            "The sad picture's painter gets to see the "
-            "turn: on Isaiah's deep-lined face the grief "
-            "that opened the row gives way — the silver "
-            "brows lifting, the far-seeing eyes going "
-            "bright, something like a young man's wonder "
-            "arriving in the old features — because the "
-            "vision ran past the sealing to the OPENING, "
-            "past the drifted hearts to the wonder that "
-            "reaches them — and the prophet of the "
-            "sealed book turns out to be the prophet of "
-            "its marvellous unsealing. Every figure has "
-            "two arms, two hands and one head."
-        ),
-    },
-    {
-        "id": "v2-r157-b26", "out": "s26-when-human-wisdom-hits-its.jpeg", "seg": "n8",
-        "window": "142.80-146.75", "wide": False, "jesus": False, "ref": False,
-        "locks": [],
-        "narration": "When human wisdom hits its limit, God is only getting started.",
-        "must_show": "the two lights — a SMALL shallow ancient clay oil lamp with a cold spent black wick and no oil on the near sill, and through the window the SUN fully risen; man's light ended where God's begins.",
-        "must_not_show": "no halo; no wax candle, candle stub, candlestick, flame or smoke; the clay lamp is empty and unlit; the contrast exact — spent wick, risen sun, one window between.",
-        "scene": (
-            "Compare the two light sources and take the "
-            "point: on the near sill a small shallow clay oil "
-            "lamp rests empty, its black wick cold and spent — "
-            "honest and finished — and through "
-            "the window beyond it the sun stands fully "
-            "risen over the hills, pouring more light "
-            "into the room in one minute than the little lamp "
-            "managed in its whole faithful night — human "
-            "wisdom's end and God's beginning, "
-            "photographed on one windowsill. No people "
-            "are in this frame."
-        ),
-    },
-    {
-        "id": "v2-r157-b27", "out": "s27-he-is-fond-of-marvellous.jpeg", "seg": "n8",
-        "window": "146.75-152.80", "wide": False, "jesus": False, "ref": False,
-        "locks": ["SCHOLAR", "PLAIN"],
+        "id": "v2-r157-b29", "out": "s29-the-book-is-opened.jpeg", "seg": "kv18",
+        "window": "140.19-144.50", "wide": False, "jesus": False, "ref": False,
+        "locks": ['BOOK'],
         "narration": (
-            "He is fond of marvellous works and wonders — the very things "
-            "the experts said could not happen."
+            "And in that day shall the deaf hear the words of the book, "
+            "and the eyes of the blind shall see out of obscurity, and "
+            "out of darkness."
         ),
-        "must_show": "the wonder enjoyed — ONE parchment scroll fully OPEN and unrolled directly on the bare table, with exactly FOUR Middle Eastern Jewish faces lit in astonishment around it: the recurring scholar, the recurring plain man, one older woman and one boy; all in dark charcoal, rust, brown or muted blue woven clothing.",
-        "must_not_show": "no halo; no cream, white, off-white or pale clothing; no spectacles, eyeglasses or modern object; no readable letters, words, Hebrew-like characters or printed text — scroll marks faded and indistinct; no leather case, bag, satchel, strap, buckle, clasp, box or carrier; every face ASTONISHED-GLAD.",
+        "must_show": (
+            "SCRIPTURE-EXACT: the sealed scroll OPENED — the same scroll, "
+            "dark cords LOOSED, the three wax seals hanging BROKEN from "
+            "their cords, parchment unrolled across the bare ancient "
+            "table, weathered plain hands spreading it flat in warm "
+            "lamplight."
+        ),
+        "must_not_show": (
+            "no rays, no shining; the seals are BROKEN AND HANGING, never "
+            "intact; no modern book or codex — it is the same rolled "
+            "parchment scroll; no faces needed in frame."
+        ),
         "scene": (
-            "The impossible thing sits open on the table "
-            "and the room adjusts: around the unrolled "
-            "scroll exactly four faces ring in lit astonishment — "
-            "the scholar's careful composure gone to "
-            "open-mouthed wonder, the plain man laughing "
-            "under his breath, the grandmother's hands "
-            "pressed together, the boy up on his toes — "
-            "every expert opinion in the room happily "
-            "overturned at once — because the God of the "
-            "sealed book is FOND of this: marvellous "
-            "works, wonders, the exact items the wise "
-            "had crossed off the list. Every figure has "
+            "The promise lands on the object itself: seen from just above "
+            "the table's edge, the great scroll lies OPEN at last — the "
+            "dark cords fallen slack, the three worn wax seals hanging "
+            "broken at its edge, the parchment spread wide under warm "
+            "lamplight while two weathered working hands smooth it flat. "
+            "The same venerable scroll from before, transformed by one "
+            "fact: it is open. ONE single continuous photograph from one "
+            "camera — never a collage, never panels, never a split frame. "
+            "Every figure has two arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r157-b30", "out": "s30-the-deaf-hear.jpeg", "seg": "kv18",
+        "window": "144.50-148.85", "wide": False, "jesus": False, "ref": False,
+        "locks": [],
+        "narration": (
+            "…the deaf hear the words of the book, and the eyes of the "
+            "blind see out of obscurity…"
+        ),
+        "must_show": (
+            "an aged listener leaning INTO the reading — the cupped hand "
+            "falling away from his ear, eyes coming up from darkness "
+            "toward the lit page, wonder breaking across the old face."
+        ),
+        "must_not_show": (
+            "no rays or shining; not a healing scene with any healer "
+            "present — the wonder is HEARING and SEEING the words; "
+            "dignity total."
+        ),
+        "scene": (
+            "Close on the far end of the promise: an aged listener at the "
+            "table's edge, the hand that has cupped his ear a lifetime "
+            "falling slowly away, his head tipping INTO the sound of the "
+            "words being read — eyes lifting out of long obscurity toward "
+            "the warm light on the parchment, wonder arriving in deep-cut "
+            "features like morning into a valley. ONE single continuous "
+            "photograph from one camera — never a collage, never panels, "
+            "never a split frame. Every figure has two arms, two hands "
+            "and one head."
+        ),
+    },
+    {
+        "id": "v2-r157-b31", "out": "s31-the-reading-circle.jpeg", "seg": "n7b",
+        "window": "149.13-154.43", "wide": False, "jesus": False, "ref": False,
+        "locks": ['BOOK'],
+        "narration": (
+            "Hear what he promised. The same book nobody could read — the "
+            "deaf hear its very words."
+        ),
+        "must_show": (
+            "the reading circle at eye level ACROSS the table: the open "
+            "scroll centre, a reader's finger moving under the line, "
+            "plain listeners bent close around it, lamplit."
+        ),
+        "must_not_show": (
+            "no rays; the scroll OPEN with broken seals visible; nobody "
+            "shrugging or defeated — every face engaged; camera at eye "
+            "level across the table, NOT overhead."
+        ),
+        "scene": (
+            "Eye-level across the old table: the opened scroll holds the "
+            "middle like bread at a meal, a reader's finger travelling "
+            "slow beneath the line, and around it a circle of plain "
+            "lamplit faces bent close — labourers' faces, mothers' faces "
+            "— people hearing, at last, the very words that outlasted "
+            "every expert who could not reach them. Camera level with the "
+            "listeners, NOT the overhead framing of the opening shot. ONE "
+            "single continuous photograph from one camera — never a "
+            "collage, never panels, never a split frame. Every figure has "
             "two arms, two hands and one head."
         ),
     },
     {
-        "id": "v2-r157-b28", "out": "s28-when-the-wonder-comes-will.jpeg", "seg": "n8",
-        "window": "155.22-159.24", "wide": False, "jesus": False, "ref": False,
-        "locks": [],
-        "narration": "When the wonder comes, will you be humble enough to receive it?",
-        "must_show": "the closing receiving — kneeling open hands lifted, and ONE fully OPEN, visibly UNROLLED parchment scroll lowered gently INTO them; loose dark cords and EXACTLY THREE separately visible unbroken wax seals trail beside the open parchment; every visible sleeve is DARK brown, rust or charcoal; humility's posture completing the row.",
-        "must_not_show": "no halo; absolutely no sealed roll or closed scroll; no cream, white, off-white, beige or pale sleeve or garment; no leather case, bag, satchel, strap, buckle, clasp, box or carrier; no readable letters, words or Hebrew-like characters; the lowering hands above frame-edge anonymous; the kneeling hands OPEN — receiving, not grasping.",
+        "id": "v2-r157-b32", "out": "s32-the-seals-hang-broken.jpeg", "seg": "n7b",
+        "window": "154.43-158.34", "wide": False, "jesus": False, "ref": False,
+        "locks": ['BOOK'],
+        "narration": (
+            "The blind see. The sealed book does not stay sealed."
+        ),
+        "must_show": (
+            "MACRO close on the scroll's edge: the three wax seals "
+            "dangling BROKEN on their loosed dark cords, the parchment's "
+            "edge curling open beyond them, lamplight warm on the wax."
+        ),
+        "must_not_show": (
+            "no rays; seals BROKEN and hanging, never whole; no hands in "
+            "this frame; a tight macro, NOT the wide table framing of the "
+            "earlier shots."
+        ),
         "scene": (
-            "The row ends in the posture the wonder "
-            "waits for: a pair of open hands lifted from "
-            "kneeling height, palms up and empty — and "
-            "into them, lowered gently from above the "
-            "frame's edge, comes the open scroll: the "
-            "unsealed words settling onto humility the "
-            "way bread settles into the hands at a "
-            "table — not grasped, not argued into, "
-            "RECEIVED — which was, from the first seal "
-            "to the last wonder, the only opening "
-            "anybody was ever asked to perform. Every "
-            "figure has two arms, two hands and one "
+            "The row's whole argument in one square inch: a tight macro "
+            "on the scroll's edge where the three thumb-worn wax seals "
+            "hang BROKEN from their loosed cords, swaying a little, spent "
+            "— and past them, out of focus, the warm expanse of opened "
+            "parchment they can no longer keep shut. The hardware of "
+            "impossibility, retired. A tight macro framing, deliberately "
+            "unlike every earlier wide of the table. ONE single "
+            "continuous photograph from one camera — never a collage, "
+            "never panels, never a split frame. Every figure has two "
+            "arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r157-b33", "out": "s33-the-plain-man-reads.jpeg", "seg": "n7b",
+        "window": "158.34-164.10", "wide": False, "jesus": False, "ref": False,
+        "locks": ['BOOK', 'PLAIN'],
+        "narration": (
+            "When God does the opening, the people everyone had given up "
+            "on are the first to understand."
+        ),
+        "must_show": (
+            "the SAME unschooled man from earlier — the locked PLAIN "
+            "face, full short dark beard, dark rust tunic — now bent over "
+            "the OPEN scroll, reading aloud, astonished joy breaking on "
+            "the broad kind face."
+        ),
+        "must_not_show": (
+            "no rays; he is READING and understanding, never shaking his "
+            "head now; the same man as the earlier beats — never a "
+            "different actor; scroll open with broken seals."
+        ),
+        "scene": (
+            "The callback the whole video was built for: the plain "
+            "unschooled man who once shook his head kindly now stands "
+            "bent over the OPENED scroll, one broad hand flat on the "
+            "parchment, his lips mid-word — reading aloud — while "
+            "astonished joy climbs the honest face that once had to say "
+            "it could not. Three-quarter view from across the table's "
+            "corner, lamplight on the moving lips. ONE single continuous "
+            "photograph from one camera — never a collage, never panels, "
+            "never a split frame. Every figure has two arms, two hands "
+            "and one head."
+        ),
+    },
+    {
+        "id": "v2-r157-b34", "out": "s34-the-erred-come-to-understanding.jpeg", "seg": "kv24",
+        "window": "164.38-172.23", "wide": False, "jesus": False, "ref": False,
+        "locks": [],
+        "narration": (
+            "They also that erred in spirit shall come to understanding, "
+            "and they that murmured shall learn doctrine."
+        ),
+        "must_show": (
+            "SCRIPTURE-EXACT: listeners whose faces are CHANGING — "
+            "furrowed, guarded faces at the reading easing into "
+            "comprehension, heads beginning slow nods; reverse angle "
+            "looking FROM the scroll toward the listeners."
+        ),
+        "must_not_show": (
+            "no rays; no scowling caricatures — honest faces mid-thaw; "
+            "reverse angle from behind the open scroll, NOT the eye-level "
+            "circle framing."
+        ),
+        "scene": (
+            "Reverse angle, shot from just behind the opened scroll "
+            "looking outward: a bench of listeners whose faces arrived "
+            "furrowed — the murmurers, the ones who wandered — caught "
+            "mid-change, the guarded lines easing, one grey head "
+            "beginning a slow nod, a younger man's eyes going still and "
+            "clear. Understanding arriving not as argument won but as "
+            "weather changing. ONE single continuous photograph from one "
+            "camera — never a collage, never panels, never a split frame. "
+            "Every figure has two arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r157-b35", "out": "s35-a-promise-with-a-date.jpeg", "seg": "n8",
+        "window": "172.51-177.47", "wide": False, "jesus": False, "ref": False,
+        "locks": ['BOOK'],
+        "narration": (
+            "So this was never a story about a book staying shut. It is a "
+            "promise with a date on it."
+        ),
+        "must_show": (
+            "the opened scroll on the bare table at MORNING — low raking "
+            "gold light across the parchment, the broken seals resting in "
+            "the light; the lamps out, the window bright."
+        ),
+        "must_not_show": (
+            "no rays or beams; morning light natural through a window, "
+            "lamps extinguished; low angle along the table, NOT overhead "
+            "and NOT the macro."
+        ),
+        "scene": (
+            "Morning finds the table: shot low along the wood's grain, "
+            "the opened scroll stretches away in raking first-gold light "
+            "from the window, every letter-row catching shadow, the three "
+            "broken seals lying quiet in the brightness — the night of "
+            "lamps over, the sealed years over, the promise kept sitting "
+            "plainly in the sun. ONE single continuous photograph from "
+            "one camera — never a collage, never panels, never a split "
+            "frame. Every figure has two arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r157-b36", "out": "s36-light-reaches-the-room.jpeg", "seg": "n8",
+        "window": "177.47-185.33", "wide": True, "jesus": False, "ref": False,
+        "locks": ['BOOK', 'PLAIN'],
+        "narration": (
+            "God said he would do a marvellous work — open what the "
+            "experts could not, and hand understanding to the very people "
+            "who had wandered."
+        ),
+        "must_show": (
+            "WIDE from the doorway: morning light entering the plain "
+            "room, the table and opened scroll at centre, the plain man "
+            "and a handful of listeners gathered in the brightness, faces "
+            "lit and living."
+        ),
+        "must_not_show": (
+            "no rays or visible beams — just a bright morning-lit room; "
+            "the PLAIN man is the same locked face; nobody kneeling to "
+            "the scroll — they read it, not worship it."
+        ),
+        "scene": (
+            "Wide from the doorway, the morning walking in ahead of us: "
+            "the plain room filled with clean early light, the old table "
+            "at its centre carrying the opened scroll, and around it the "
+            "small congregation of the given-up-on — the plain man with "
+            "his hand on the parchment, an elder, a mother with her child "
+            "leaned against her — every face lit the ordinary way a "
+            "window lights a face, the whole room reading. The camera "
+            "stands in the open doorway with no figure between it and "
+            "the table — everyone in profile or three-quarter view, no "
+            "figure's back fills the foreground. ONE single "
+            "continuous photograph from one camera — never a collage, "
+            "never panels, never a split frame. Every figure has two "
+            "arms, two hands and one head."
+        ),
+    },
+    {
+        "id": "v2-r157-b37", "out": "s37-it-comes-from-him.jpeg", "seg": "n8",
+        "window": "185.33-189.03", "wide": False, "jesus": False, "ref": False,
+        "locks": [],
+        "narration": (
+            "Understanding does not come from the wise. It comes from "
+            "him."
+        ),
+        "must_show": (
+            "one face lifted FROM the page TOWARD the bright window — "
+            "plain warm window light on the features, gratitude and "
+            "comprehension together; nothing supernatural in the frame."
+        ),
+        "must_not_show": (
+            "ABSOLUTE: no rays, no beams, no shining, nothing descending "
+            "— ONLY a bright ordinary window and a lit face; not the "
+            "plain man — an ordinary listener, so the truth lands on "
+            "everyman."
+        ),
+        "scene": (
+            "Close on an ordinary listener — a weathered everyman face — "
+            "at the moment his eyes leave the parchment and lift toward "
+            "the bright window, the plain daylight full on his features, "
+            "and written in them the sentence the narrator is saying: "
+            "this did not come from the scholars. Gratitude aimed past "
+            "the glass, at the Giver. ONE single continuous photograph "
+            "from one camera — never a collage, never panels, never a "
+            "split frame. Every figure has two arms, two hands and one "
             "head."
+        ),
+    },
+    {
+        "id": "v2-r157-b38", "out": "s38-will-you-let-him.jpeg", "seg": "n8",
+        "window": "189.03-195.58", "wide": False, "jesus": False, "ref": False,
+        "locks": ['BOOK'],
+        "narration": (
+            "So the only question left is the hopeful one: when God "
+            "offers to open the book, will you let him?"
+        ),
+        "must_show": (
+            "the opened scroll turned TOWARD THE VIEWER across the near "
+            "edge of the table, morning light, the broken seals nearest "
+            "the camera — an offered, waiting invitation; no people in "
+            "frame."
+        ),
+        "must_not_show": (
+            "no rays; no hands and no people — the offer itself; frontal "
+            "framing toward the viewer, NOT the low raking angle and NOT "
+            "the macro."
+        ),
+        "scene": (
+            "The last shot faces the audience: the opened scroll lies "
+            "turned toward the viewer across the table's near edge, its "
+            "unrolled parchment reaching toward the bottom of frame like "
+            "an offered hand, broken seals nearest the camera, the "
+            "morning light even and kind across the letters — the whole "
+            "image one quiet question waiting for whoever is watching to "
+            "answer it. ONE single continuous photograph from one camera "
+            "— never a collage, never panels, never a split frame. Every "
+            "figure has two arms, two hands and one head."
         ),
     },
 ]

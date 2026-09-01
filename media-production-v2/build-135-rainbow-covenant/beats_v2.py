@@ -621,20 +621,24 @@ BEATS = [
             "To Noah, to his children, and to every living creature that "
             "walked off that boat."
         ),
-        "must_show": "the covenant's full roster — the eight on the slope AND the animals grazing wide below them, birds over; the promise's roll call in one frame.",
-        "must_not_show": "no halo; count eight; the animals dispersed natural down the slopes.",
+        "must_show": "the covenant's full roster — all EIGHT family members countable on the upper slope in three-quarter view, faces visible; the VAST ark whole and rigid on the crest behind them; the animals grazing wide below at one consistent perspective scale; birds over.",
+        "must_not_show": "no halo; count eight — never fewer; NO warped, bent, buckled or collapsing hull — the ark is ONE continuous rigid vessel, vast as a warehouse, never a small barn or shed; NO backs-only family; NO scale confusion — nearer animals render larger than farther ones, no miniature deer in the near foreground.",
         "scene": (
-            "The covenant's signature page includes every "
-            "heartbeat on the mountain: the eight stand "
-            "together on the upper slope, and below them the "
-            "new world's whole zoology grazes wide across "
-            "the green — deer at the thicket line, oxen deep "
-            "in the wet grass, goats picking along the rocks, "
-            "birds writing slow loops over the valleys — "
-            "every living creature that walked off the boat, "
-            "named into the same promise as the family, no "
-            "sparrow left off the roster. Every figure has "
-            "two arms, two hands and one head."
+            "The covenant's signature page includes every heartbeat on "
+            "the mountain: the EIGHT stand together on the upper slope, "
+            "turned three-quarters toward the wide valley so their faces "
+            "stay visible and countable, and behind them on the crest "
+            "rests the ark — one VAST continuous gopher-wood hull, "
+            "straight rigid lines the length of a warehouse, whole and "
+            "unbroken even at its gentle grounded tilt, dwarfing the "
+            "family below it. Down the green slopes the new world's whole "
+            "zoology grazes at honest perspective scale — oxen deep in "
+            "the wet grass nearest, goats along the rocks, deer smaller "
+            "at the far thicket line, birds writing slow loops over the "
+            "valleys — every living creature that walked off the boat, "
+            "named into the same promise as the family, no sparrow left "
+            "off the roster. Every figure has two arms, two hands and one "
+            "head."
         ),
     },
     {

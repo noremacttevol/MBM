@@ -177,18 +177,21 @@ BEATS = [
             "Next to him hung a criminal, a man who had earned his cross and "
             "knew it."
         ),
-        "must_show": "the thief — chest-up on the right-of-centre cross: the broad worn face, grey-shot beard, deep tired eyes; honesty about his own guilt visible; NO wounds.",
-        "must_not_show": "ABSOLUTE: no wounds, no gore — chest-up framing; his pain carried by the face alone, dignity intact.",
+        "must_show": "the thief — chest-up, AFFIXED to the right-of-centre cross of the straight parallel row, stripped to a plain loincloth with bare torso and bare shoulders, body and cross facing forward like every cross on this hill; the broad worn face, grey-shot beard, deep tired eyes; honesty about his own guilt visible; NO wounds.",
+        "must_not_show": "ABSOLUTE: no wounds, no gore; NO robe, tunic or any clothing on his torso — loincloth only, bare torso and shoulders; NO cross angled or turned toward another cross; chest-up framing, his pain carried by the face alone, dignity intact.",
         "scene": (
-            "Chest-up on the right-hand cross, the thief's broad worn face "
-            "tired against the grey sky — grey-shot beard, deep-cut lines, the "
-            "eyes of a man doing honest arithmetic at the end of a dishonest "
-            "life. HIS CROSS IS TURNED three-quarters toward frame LEFT, "
-            "toward the centre cross whose dark upright and arm are visible at "
-            "the left edge — the two crosses clearly angled toward one another, "
-            "close enough to speak. He is CLOTHED in a plain worn earth-brown "
-            "knee-length tunic covering his chest and shoulders; ropes at his "
-            "wrists; no wounds, no blood, no bare torso."
+            "Chest-up on the right-hand cross, the thief's broad worn "
+            "face tired against the grey sky — grey-shot beard, deep-cut "
+            "lines, the eyes of a man doing honest arithmetic at the end "
+            "of a dishonest life. He is AFFIXED to his own upright cross "
+            "in the straight parallel row, body and cross FACING THE "
+            "VIEWER like every cross on this hill — stripped to a plain "
+            "rough undyed loincloth, bare torso and bare shoulders, "
+            "wrists bound along the crossbeam, body sagging from it. The "
+            "dark upright of the centre cross stands parallel at the left "
+            "edge, never turned toward his. No robe or tunic anywhere on "
+            "him; no wounds, no blood — the pain carried by the face "
+            "alone, dignity intact."
         ),
     },
     {
@@ -199,19 +202,23 @@ BEATS = [
             "And in his last hour, that man turned his head and asked Jesus "
             "to remember him."
         ),
-        "must_show": "the turn — the thief's head turned toward Jesus on the centre cross, the ask forming on his face; two faces angled toward each other against the grey; chest-up, no wounds.",
-        "must_not_show": "ABSOLUTE: no wounds; the TURN is the picture — his face toward Jesus, hope's last unlikely direction.",
+        "must_show": "the turn — the two crosses PARALLEL in the same straight row, both facing the viewer; both men stripped to plain loincloths, bare torsos; the thief's HEAD turned sideways toward Jesus on the centre cross while his pinned body still faces forward, the ask forming on his face; chest-up, no wounds.",
+        "must_not_show": "ABSOLUTE: no wounds; NO robe, tunic or clothing on either torso — loincloths only; NO crosses angled or rotated toward each other — bodies pinned facing forward, only the HEADS turn.",
         "scene": (
             "The last thing the thief does with his strength is turn his "
-            "head: a two-shot of the two crosses ANGLED TOWARD EACH OTHER, "
-            "close enough that the men's eyes can meet — Jesus on the centre "
-            "cross at frame left in his plain cream wool robe COVERING his "
-            "chest and shoulders, the thief on the right-hand cross in a worn "
-            "earth-brown tunic likewise fully clothed — the worn face rotating "
-            "toward the one dying man on this hill who has spent the morning "
-            "forgiving people, the ask gathering on his features. Ropes at the "
-            "wrists; grey cold light; NO bare torsos, NO loincloth-only "
-            "figures, no wounds, no blood."
+            "head: a two-shot across the gap between two crosses of the "
+            "same straight PARALLEL row, both crosses and both pinned "
+            "bodies FACING THE VIEWER, close enough to speak — Jesus on "
+            "the centre cross at frame left, STRIPPED of the cream robe "
+            "the soldiers have already cast lots for, wearing only a "
+            "plain rough undyed loincloth, bare torso and arms, the crown "
+            "of thorns on his brow; the thief on the right-hand cross "
+            "likewise stripped to a plain loincloth, bare torso and bare "
+            "shoulders. The thief's worn FACE TURNS SIDEWAYS toward the "
+            "one dying man on this hill who has spent the morning "
+            "forgiving people, the ask gathering on his features, while "
+            "his body stays pinned forward. Wrists bound along the "
+            "crossbeams; grey cold light; no wounds, no blood, no gore."
         ),
     },
     {
@@ -222,18 +229,21 @@ BEATS = [
             "Lord, remember me when thou comest into thy kingdom. Verily I "
             "say unto thee, today shalt thou be with me in paradise."
         ),
-        "must_show": "SCRIPTURE-EXACT: the exchange — the two faces toward each other, chest-up, the promise passing between the crosses; Jesus's face full of spent tender authority; NO wounds.",
-        "must_not_show": "ABSOLUTE: no wounds, no gore — faces and words only; the tenderness at full cost.",
+        "must_show": "SCRIPTURE-EXACT: the exchange — two parallel crosses facing the viewer, both men stripped to loincloths, bare torsos, only their HEADS turned toward one another across the gap; the promise passing between the crosses; Jesus's face full of spent tender authority; NO wounds.",
+        "must_not_show": "ABSOLUTE: no wounds, no gore; NO robe or clothing on either torso — loincloths only; NO crosses angled toward each other — the crossbeams stay parallel, only the faces turn; faces and words only, the tenderness at full cost.",
         "scene": (
-            "The shortest gospel service on record, held between two crosses "
-            "ANGLED TOWARD EACH OTHER: a tight close two-shot across the gap — "
-            "the thief's plea still on his lips at frame right, Jesus's face "
-            "turned fully to him at frame left through the pain, spent, "
-            "grey-lit, and full of an authority no cross has touched. Both men "
-            "CLOTHED — Jesus in his plain cream wool robe, the thief in his "
-            "worn earth-brown tunic — the angled wooden arms of both crosses "
-            "readable behind their shoulders, close enough to speak. No bare "
-            "torsos, no wounds, no blood; only the promise crossing the gap."
+            "The shortest gospel service on record, held between two "
+            "crosses of the same straight parallel row: a tight close "
+            "two-shot across the gap — the thief's plea still on his lips "
+            "at frame right, Jesus's face turned sideways to him at frame "
+            "left through the pain, spent, grey-lit, and full of an "
+            "authority no cross has touched, the crown of thorns on his "
+            "brow. Both men are AFFIXED to crosses that FACE THE VIEWER, "
+            "each stripped to a plain rough undyed loincloth — bare "
+            "torsos, bare shoulders, wrists bound along the parallel "
+            "crossbeams readable behind their shoulders; only their heads "
+            "are turned toward one another. No robe or tunic on either "
+            "man, no wounds, no blood; only the promise crossing the gap."
         ),
     },
     {
@@ -245,19 +255,19 @@ BEATS = [
             "religion had its say — today."
         ),
         "must_show": "the TODAY landing — close on the thief's face as the word reaches him: disbelief breaking into the first peace his face has ever worn; chest-up, no wounds.",
-        "must_not_show": "ABSOLUTE: no wounds; the transformation in the FACE — a lifetime's fear standing down.",
+        "must_not_show": "ABSOLUTE: no wounds; NO robe, tunic or clothing on his shoulders — he is stripped to a loincloth like every man on this hill; the transformation in the FACE — a lifetime's fear standing down.",
         "scene": (
-            "One word does what forty years could not: close "
-            "on the thief's ruined face as TODAY arrives in "
-            "it — the deep tired eyes widening, the honest "
-            "mouth coming open, disbelief breaking up like "
-            "grey weather into the first peace the face has "
-            "ever worn — no probation in the word, no "
-            "waiting period, no religion left to satisfy — "
-            "today, said the neighbour, and the dying man "
-            "believes him, and the belief looks like rest "
-            "arriving early. Every figure has two arms, two "
-            "hands and one head."
+            "One word does what forty years could not: close on the "
+            "thief's ruined face as TODAY arrives in it — the deep tired "
+            "eyes widening, the honest mouth coming open, disbelief "
+            "breaking up like grey weather into the first peace the face "
+            "has ever worn — no probation in the word, no waiting period, "
+            "no religion left to satisfy — today, said the neighbour, and "
+            "the dying man believes him, and the belief looks like rest "
+            "arriving early. His bare shoulders show against the wood of "
+            "the cross — stripped to a plain loincloth, no robe or tunic "
+            "anywhere on him. Every figure has two arms, two hands and "
+            "one head."
         ),
     },
     {

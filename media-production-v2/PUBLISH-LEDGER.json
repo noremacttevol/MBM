@@ -548,6 +548,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/117.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "deac5034b",
+          "date": "2026-09-01",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "fa2e80ab128529e2987aae04b02916abce3cfd99",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/117.mp4"
+            }
+          ]
         }
       ]
     },
@@ -561,6 +574,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "4deca42a35418c02d0cad89f33d4de06c450ebe2",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/118.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "924f1c51a3670daee94be6b47b5abfcc328cb758",
+          "date": "2026-09-01",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "0fe5406e76cccbb00a0c11bc18265fea43f0a330",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -658,13 +684,41 @@
       "open_fix": null,
       "slug": "build-121-salt-and-light",
       "title": "Salt and Light",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "f19b00152e7c3b1c38b06d62a496a5dde3a3e3de",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "22e6cdcef1b44c641ae4102c3e8d4953fa9d2c48",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/121.mp4"
+            }
+          ]
+        }
+      ]
     },
     "122": {
       "open_fix": null,
       "slug": "build-122-mote-and-beam",
       "title": "The Mote and the Beam",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "ac4eeba647e77bfbb181b4885e0279828ed64bfc",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "a5bb4336be5d538067016a849c7955243e591594",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/122.mp4"
+            }
+          ]
+        }
+      ]
     },
     "123": {
       "open_fix": null,
@@ -710,7 +764,21 @@
       "open_fix": null,
       "slug": "build-125-i-never-knew-you",
       "title": "I Never Knew You",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "0399188fc531bea42afa68ded644b15d0f27d49f",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "bc079a04f842e54a757d06b5a6a399fdaa843530",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/125.mp4"
+            }
+          ]
+        }
+      ]
     },
     "126": {
       "open_fix": null,
@@ -975,7 +1043,20 @@
       "open_fix": null,
       "slug": "build-140-naaman-washes",
       "title": "The Bronze Serpent",
-      "versions": []
+      "versions": [
+        {
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "9f5c15e7a5351b1cffe97f65e995e528f6273292",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/140.mp4"
+            }
+          ]
+        }
+      ]
     },
     "141": {
       "open_fix": null,
@@ -1082,6 +1163,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/145.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "38cbea08cfabb444e836edbe6838921311bb4e6f",
+          "date": "2026-09-01",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "5fc8e23818c52744e988fa8995a5c0e6a5a82a35",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/145.mp4"
+            }
+          ]
         }
       ]
     },
@@ -1089,13 +1183,41 @@
       "open_fix": null,
       "slug": "build-146-vine-and-branches",
       "title": "Vine and Branches",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "38f237b1678723f530afaa343f251d4451c976f4",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "28f275f9d65c30c6f3d3672bcd75f1a10e53e815",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/146.mp4"
+            }
+          ]
+        }
+      ]
     },
     "147": {
       "open_fix": null,
       "slug": "build-147-joseph-forgives",
       "title": "Joseph Forgives",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "64f67520a449ca284882c0adda343cff1a161b9e",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "9dc0be0c2829161bcdebda3975106946209d69d9",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/147.mp4"
+            }
+          ]
+        }
+      ]
     },
     "148": {
       "open_fix": null,
@@ -1121,7 +1243,21 @@
       "open_fix": null,
       "slug": "build-149-hannah-is-heard",
       "title": "Hannah Is Heard",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "52901ef7ce29cea4fc717ef95580d7728d7ffb33",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "b47e1152be41c0873cac4dfcb06ad6dfc94a1d76",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/149.mp4"
+            }
+          ]
+        }
+      ]
     },
     "15": {
       "open_fix": null,
@@ -1159,7 +1295,21 @@
       "open_fix": null,
       "slug": "build-150-shepherd-psalm",
       "title": "The Shepherd Psalm",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "f3c761dac4d89010595d31bdf70d7225d78172c2",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "1ff008e034ac608c4d47b39027c3b353eb10685a",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/150.mp4"
+            }
+          ]
+        }
+      ]
     },
     "151": {
       "open_fix": null,
@@ -1204,7 +1354,21 @@
       "open_fix": null,
       "slug": "build-153-restitution",
       "title": "The Restitution of All Things",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "bf350190aa5f636f76428e057dade2939b2d0c3a",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "266a2e05f8d9aebdb4b534879afb96bc9535c037",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/153.mp4"
+            }
+          ]
+        }
+      ]
     },
     "154": {
       "open_fix": null,
@@ -1337,7 +1501,21 @@
       "open_fix": null,
       "slug": "build-161-called-of-god",
       "title": "Called of God, as was Aaron",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "b48795bee6c05099bc0df4b62937eee29bc16105",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "d4b034d43e6e5b5996611cea9fa2f5f5793ab247",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/161.mp4"
+            }
+          ]
+        }
+      ]
     },
     "162": {
       "open_fix": null,
@@ -1457,7 +1635,21 @@
       "open_fix": null,
       "slug": "build-173-dead-shall-hear",
       "title": "Dead Shall Hear",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "e4080f02ee52fff6acb374781cbde832430e4b76",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "034d8474f31d6c5814c2459c40b1a4603745a0e9",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/173.mp4"
+            }
+          ]
+        }
+      ]
     },
     "174": {
       "open_fix": null,
@@ -1495,7 +1687,21 @@
       "open_fix": null,
       "slug": "build-177-make-me-a-sanctuary",
       "title": "Make Me a Sanctuary",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "97f2afbd7721da27d7f24884d6987c2653d06a45",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "aeae42ecf72140b739632e92026063f0c67851c0",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/177.mp4"
+            }
+          ]
+        }
+      ]
     },
     "178": {
       "open_fix": null,
@@ -1611,13 +1817,41 @@
       "open_fix": null,
       "slug": "build-184-third-heaven",
       "title": "Caught Up to the Third Heaven",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "90dfa3f3e0547f3d1ba32760672983a2f23f9e38",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "930fa772547a373ce3ae611ede2f7341ffd11059",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/184.mp4"
+            }
+          ]
+        }
+      ]
     },
     "185": {
       "open_fix": null,
       "slug": "build-185-many-mansions-member",
       "title": "In My Fathers House",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "d34c1bfd02bdf5ef7fae62cf944270e9b8cc14b5",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "dfc27b69f28d7bbb443a7946987300a7985b9afb",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/185.mp4"
+            }
+          ]
+        }
+      ]
     },
     "186": {
       "open_fix": null,
@@ -1649,13 +1883,41 @@
       "open_fix": null,
       "slug": "build-188-be-ye-therefore-perfect",
       "title": "Be Ye Therefore Perfect",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "53a4a263594694ff95b3a8cfe1ac38278f151e8d",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "8d1a35ceda0f9819093c792aa2cce0a90525b09b",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/188.mp4"
+            }
+          ]
+        }
+      ]
     },
     "189": {
       "open_fix": null,
       "slug": "build-189-to-him-that-overcometh",
       "title": "To Him That Overcometh",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "cf303cd5dcde378976d8908f7c73f3188436dd45",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "e6fde203533c4bc8899a8083933b1b97b14bdc70",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/189.mp4"
+            }
+          ]
+        }
+      ]
     },
     "19": {
       "open_fix": null,
@@ -1701,13 +1963,41 @@
       "open_fix": null,
       "slug": "build-191-windows-of-heaven",
       "title": "Windows of Heaven",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "3bedc1b8aa6b38ef706074196ee192ee32b78919",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "4b24452beeae8c21e8bac142681267255fa32913",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/191.mp4"
+            }
+          ]
+        }
+      ]
     },
     "192": {
       "open_fix": null,
       "slug": "build-192-the-fast-god-has-chosen",
       "title": "The Fast God Has Chosen",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "a49edd8c6b379f9dbd267bc0c0b46b2fd692f3e0",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "26354a1901dc41f5247a8874f5febbc9dc81692a",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/192.mp4"
+            }
+          ]
+        }
+      ]
     },
     "193": {
       "open_fix": null,
@@ -1805,7 +2095,21 @@
       "open_fix": null,
       "slug": "build-199-fishers-and-hunters",
       "title": "Fishers and Hunters",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "ebd58974bf027ef4a2917c9c94ff9245daeb07ca",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "fe5cb873ca63a516fa9052b99ec72068226cb339",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/199.mp4"
+            }
+          ]
+        }
+      ]
     },
     "2": {
       "open_fix": null,
@@ -2263,6 +2567,60 @@
         }
       ]
     },
+    "301": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 301",
+      "versions": []
+    },
+    "302": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 302",
+      "versions": []
+    },
+    "303": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 303",
+      "versions": []
+    },
+    "304": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 304",
+      "versions": []
+    },
+    "305": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 305",
+      "versions": []
+    },
+    "306": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 306",
+      "versions": []
+    },
+    "307": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 307",
+      "versions": []
+    },
+    "308": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 308",
+      "versions": []
+    },
+    "309": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 309",
+      "versions": []
+    },
     "31": {
       "open_fix": null,
       "slug": "build-31-ten-virgins",
@@ -2295,6 +2653,66 @@
         }
       ]
     },
+    "310": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 310",
+      "versions": []
+    },
+    "311": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 311",
+      "versions": []
+    },
+    "312": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 312",
+      "versions": []
+    },
+    "313": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 313",
+      "versions": []
+    },
+    "314": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 314",
+      "versions": []
+    },
+    "315": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 315",
+      "versions": []
+    },
+    "316": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 316",
+      "versions": []
+    },
+    "317": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 317",
+      "versions": []
+    },
+    "318": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 318",
+      "versions": []
+    },
+    "319": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 319",
+      "versions": []
+    },
     "32": {
       "open_fix": null,
       "slug": "build-32-talents",
@@ -2314,6 +2732,66 @@
           ]
         }
       ]
+    },
+    "320": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 320",
+      "versions": []
+    },
+    "321": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 321",
+      "versions": []
+    },
+    "322": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 322",
+      "versions": []
+    },
+    "323": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 323",
+      "versions": []
+    },
+    "324": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 324",
+      "versions": []
+    },
+    "325": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 325",
+      "versions": []
+    },
+    "326": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 326",
+      "versions": []
+    },
+    "327": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 327",
+      "versions": []
+    },
+    "328": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 328",
+      "versions": []
+    },
+    "329": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 329",
+      "versions": []
     },
     "33": {
       "open_fix": null,
@@ -2346,6 +2824,12 @@
           ]
         }
       ]
+    },
+    "330": {
+      "open_fix": null,
+      "slug": null,
+      "title": "row 330",
+      "versions": []
     },
     "34": {
       "open_fix": null,
@@ -2713,6 +3197,18 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "986d58bde9ada712a4cc580a0be3033f84391751",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/44.mp4"
+            }
+          ]
+        },
+        {
+          "date": "2026-09-01",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "789dec1f3fb8a56a4d1aefb48fe1977c06a48817",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -3253,7 +3749,21 @@
       "open_fix": null,
       "slug": "build-63-man-born-blind",
       "title": "The Man Born Blind",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "be46d259de57ad26b2b140fa5e4f57fa8cc009c9",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "f64d42584247713b04dcdda47317a7407e71b1d0",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/63.mp4"
+            }
+          ]
+        }
+      ]
     },
     "64": {
       "open_fix": null,
@@ -4023,7 +4533,21 @@
       "open_fix": null,
       "slug": "build-95-thief-on-the-cross",
       "title": "Thief on the Cross",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "cc41fc12cf065e81bcd46a6cc23442d50f9d9c92",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "5c74bcade3c2a55aff8bc881d02b93f9ee776c32",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/95.mp4"
+            }
+          ]
+        }
+      ]
     },
     "96": {
       "open_fix": null,
@@ -4118,5 +4642,5 @@
       ]
     }
   },
-  "updated": "2026-08-31T00:47:04"
+  "updated": "2026-09-01T01:45:51"
 }
