@@ -1,3 +1,36 @@
+## 2026-09-01 — THE <3:00 LAW + SERIES COMPLETE: all 33 Great Plan episodes live under three minutes
+**Machine:** A (Dev) · **Commit:** 26cedf0ec
+
+Cameron (overnight): approved GP-01..05, then ordered **"lets make all of them less
+than 3 minutes"** — and answered the three open advisor questions: (1) wants simpler
+Pages-workflow install steps (one-command paste given); (2) social launch = ALL 33 at
+once, ASAP, same accounts as the 200, platform playlists/folders; (3) app folder
+visible to BRIDGE **and** members/meat, hidden only from MILK stage (unlock vibe:
+"interested in extra words from God"); milk folks still see everything on web/social.
+Both decisions written into great-plan/README.md.
+
+**The re-cut:** 22 episodes ran 3:00-3:54. Trimmed narration only — deleted lines
+that restated a just-quoted scripture, tightened wordy lines (re-voiced ~30 segs),
+re-anchored every orphaned picture to a surviving line that matches it. Zero pictures
+regenerated for the 19 built eps ($0 Gemini); ElevenLabs only for changed lines.
+KEY LESSON: re-voiced replacement lines pace ~20-40% SLOWER than the original read —
+estimate cuts 1.5x deeper than the arithmetic says, and expect a second trim pass
+(ep04 181.7→171.5, ep29 190.2→174.5, ep31 186.8→168.6, ep32 194.6→173.8,
+ep33 191.0→174.7 each needed one).
+
+**Finale trio built:** ep31 (2:49), ep32 (2:54), ep33 (2:55) — ~28 images after the
+prepay wall cleared. QC rerolls: ep32 p03 (messenger rendered in CREAM = Jesus-look;
+respec'd white-robed not-the-Lord) + ep32 p08 (Jesus in a modern study; respec'd pure
+glory-light) — 2 rerolls total. ep33 devil-binding kept formless (black smoke plume,
+no shape). Cards v331-333 wired; 19 re-cut cards re-hashed with "tightened" note.
+
+**State:** 33/33 BUILT + LIVE on the reviewer's Great Plan folder, every cut <3:00
+(longest 2:59 ep22). Approvals: 01/03 current; 02/04/05 voided by re-cut (by design —
+Cameron's later order outranks them), re-queued with explanatory card note.
+**Next:** Cameron re-watches; complaints via Firestore 301-333 (sessions handle, not
+the 200-autopilot). His one open task: paste the Pages-workflow install command.
+Then: bulk social launch kit + app Profile watch folder (BRIDGE+meat gate) on his go.
+
 ## 2026-09-01 (Claude Fable, Machine A `Dev`) — WEBSITE VIDEO 404s FIXED (Cameron's report); gate now watches the live site (E3)
 
 **Cameron: "my website is still not showing the videos and looks bad."** Root
