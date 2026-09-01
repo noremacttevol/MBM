@@ -98,16 +98,28 @@ def main():
             excluded.append((n, 'no data-src on card'))
             continue
         src = card['src']
+        pinned = None
         if 'raw/main/' in src:
             path = src.split('raw/main/')[1].split('?')[0]
         elif '/MBM/main/' in src:
             path = src.split('/MBM/main/')[1].split('?')[0]
         else:
-            excluded.append((n, f"unrecognized data-src shape: {src[:60]}"))
-            continue
-        rc, served_blob = run('git', 'rev-parse', f'origin/main:{path}')
+            # commit-pinned raw URL (cards wired 2026-08-16+):
+            # raw.githubusercontent.com/noremacttevol/MBM/<sha>/<path> serves the
+            # blob at <sha>:<path> — verify against THAT, not origin/main
+            # (2026-09-01: this shape excluded 12 cards, 10 of them approved;
+            # Cameron: "i cant find 44 in exports... this shouldnt happen to
+            # any of them").
+            mm = re.search(r'/MBM/([0-9a-f]{7,40})/([^?"]+\.mp4)', src)
+            if mm:
+                pinned, path = mm.group(1), mm.group(2)
+            else:
+                excluded.append((n, f"unrecognized data-src shape: {src[:60]}"))
+                continue
+        ref = pinned or 'origin/main'
+        rc, served_blob = run('git', 'rev-parse', f'{ref}:{path}')
         if rc:
-            excluded.append((n, f'path not on origin/main: {path}'))
+            excluded.append((n, f'path not at {ref[:12]}: {path}'))
             continue
 
         rc, typ = run('git', 'cat-file', '-t', ah)

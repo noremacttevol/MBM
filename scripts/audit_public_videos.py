@@ -93,6 +93,28 @@ check(not drift, "C: every approved mp4 byte-matches its ledger sha1", f"drifted
 no_thumb = [r for r in sorted(approved) if not os.path.exists(os.path.join(GALLERY, "thumbs", f"{r}.jpg"))]
 check(not no_thumb, "D: every approved id has a thumbnail", f"missing: {no_thumb}")
 
+# G. social exports — every approved row must sit byte-verified in
+#    social/exports/ (Cameron posts ONLY from there; 2026-09-01: "i cant find
+#    44 in exports but its approved in the reviewer this shouldnt happen to
+#    any of them"). Fix on FAIL: python3 social/refresh-postable.py
+import glob as _glob
+_exp = {}
+for _f in _glob.glob("social/exports/row-*.mp4"):
+    _m = re.match(r"row-(\d+)-.+?\.mp4$", os.path.basename(_f))
+    if _m and not _f.endswith("-yt.mp4"):
+        _exp[int(_m.group(1))] = _f
+_exp_missing = [r for r in sorted(approved) if r not in _exp]
+_exp_drift = []
+for _r in sorted(approved):
+    if _r in _exp and _r in ledger_sha:
+        _h = hashlib.sha1(open(_exp[_r], "rb").read()).hexdigest()
+        if _h != ledger_sha[_r]:
+            _exp_drift.append(_r)
+check(not _exp_missing and not _exp_drift,
+      "G: every approved row is byte-verified in social/exports/",
+      f"missing: {_exp_missing} drifted: {_exp_drift}"
+      + ("  ->  run: python3 social/refresh-postable.py" if (_exp_missing or _exp_drift) else ""))
+
 # F. website hygiene — the site may hold NO video file outside the approved
 #    gallery, and public marketing pages may reference only approved ids.
 SITE = os.path.join(ROOT, "site")

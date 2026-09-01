@@ -256,6 +256,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/105.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "033f83d758d9f998e2120274fed60bba55a99461",
+          "date": "2026-09-01",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "261a993ea849b67199cf1d201e7817807542c659",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/105.mp4"
+            }
+          ]
         }
       ]
     },
@@ -269,6 +282,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "d60a0202b4e1fd6f667f5f177355911a17c2f116",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/106.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "54add2ef0075400e419222abce41ae2132377e6b",
+          "date": "2026-09-01",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "25a4b212eb87940903ed898b060492a2c294c2c1",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -510,6 +536,19 @@
               "url": "https://milk-b4-meat.web.app/story-videos/115.mp4"
             }
           ]
+        },
+        {
+          "card_hash": "4453e8aa58a33d7c401a45eb1d8b34b5aae3144f",
+          "date": "2026-09-01",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "eab6e172987f0f07c4fc213953fed3b57aec7d3c",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/115.mp4"
+            }
+          ]
         }
       ]
     },
@@ -523,6 +562,19 @@
           "note": "seeded from live gallery file (date = file mtime); legacy cut \u2014 REDO-ALL pending",
           "sha1": "5b86feb1457cf2ff317412c0af24d58b3242c7e8",
           "version": "1.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/116.mp4"
+            }
+          ]
+        },
+        {
+          "card_hash": "3bb9a5df17f9947cd391325b33ef7e890d5bbca6",
+          "date": "2026-09-01",
+          "note": "auto-detected: gallery file changed",
+          "sha1": "b8d9c6bfa7223f3827bbc5839d651c5d5fa9dbb2",
+          "version": "2.1",
           "where": [
             {
               "platform": "app-gallery",
@@ -1603,7 +1655,21 @@
       "open_fix": null,
       "slug": "build-170-sacrament-worthily",
       "title": "The Sacrament, Worthily",
-      "versions": []
+      "versions": [
+        {
+          "card_hash": "b94618d57cfe2afaf5069f784e74e95b562dae21",
+          "date": "2026-09-01",
+          "note": "seeded from live gallery file (date = file mtime); realistic-v2 cut",
+          "sha1": "bb076b5ef2a309c237d37837ba15b02afe07981c",
+          "version": "2.1",
+          "where": [
+            {
+              "platform": "app-gallery",
+              "url": "https://milk-b4-meat.web.app/story-videos/170.mp4"
+            }
+          ]
+        }
+      ]
     },
     "171": {
       "open_fix": null,
@@ -4642,5 +4708,5 @@
       ]
     }
   },
-  "updated": "2026-09-01T01:45:51"
+  "updated": "2026-09-01T02:36:14"
 }

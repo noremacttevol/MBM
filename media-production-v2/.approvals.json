@@ -728,16 +728,16 @@
     "complaintHash": "6184347fa3f4ed5c70ccbaf927b6d9e7aef43a65"
   },
   "105": {
-    "approved": false,
-    "approvedHash": "25d2c78cf2d52e291a6fc37b3c809f386b8ddda7",
-    "approvedAt": "2026-08-06T05:24:32.364Z",
+    "approved": true,
+    "approvedHash": "033f83d758d9f998e2120274fed60bba55a99461",
+    "approvedAt": "2026-09-01T05:46:07.879Z",
     "complaint": null,
     "complaintHash": null
   },
   "106": {
-    "approved": false,
-    "approvedHash": "3dbfa84c81d4a25966f66d069327f7d167f65549",
-    "approvedAt": "2026-08-06T05:24:26.068Z",
+    "approved": true,
+    "approvedHash": "54add2ef0075400e419222abce41ae2132377e6b",
+    "approvedAt": "2026-09-01T05:48:53.978Z",
     "complaint": null,
     "complaintHash": null
   },
@@ -798,16 +798,16 @@
     "complaintHash": null
   },
   "115": {
-    "approved": false,
-    "approvedHash": null,
-    "approvedAt": "2026-07-18T21:57:01.504Z",
+    "approved": true,
+    "approvedHash": "4453e8aa58a33d7c401a45eb1d8b34b5aae3144f",
+    "approvedAt": "2026-09-01T05:54:39.580Z",
     "complaint": null,
     "complaintHash": null
   },
   "116": {
-    "approved": false,
-    "approvedHash": null,
-    "approvedAt": "2026-07-18T21:59:50.120Z",
+    "approved": true,
+    "approvedHash": "3bb9a5df17f9947cd391325b33ef7e890d5bbca6",
+    "approvedAt": "2026-09-01T05:57:23.859Z",
     "complaint": null,
     "complaintHash": null
   },
@@ -1092,9 +1092,9 @@
     "complaintHash": "3040f634471585b3154af198410db7dc2c7b7275"
   },
   "161": {
-    "approved": false,
-    "approvedHash": null,
-    "approvedAt": null,
+    "approved": true,
+    "approvedHash": "b48795bee6c05099bc0df4b62937eee29bc16105",
+    "approvedAt": "2026-09-01T05:17:05.157Z",
     "complaint": "2:15 bowed is not pronounced like that fix it. Its like bawed the past tense of bowing to something",
     "complaintHash": "3803506a41369bf5cd4460e0b96eaf6346148ed3"
   },
@@ -1107,8 +1107,8 @@
   },
   "170": {
     "approved": true,
-    "approvedHash": "0bcd73c39d42e5b67d15cfa6905868a0977ba8ea",
-    "approvedAt": "2026-07-24T07:32:16.939Z",
+    "approvedHash": "b94618d57cfe2afaf5069f784e74e95b562dae21",
+    "approvedAt": "2026-09-01T05:51:14.757Z",
     "complaint": null,
     "complaintHash": null
   },
@@ -1207,13 +1207,13 @@
     "approved": false,
     "approvedHash": null,
     "approvedAt": "2026-07-18T03:31:26.404Z",
-    "complaint": "0;23 Jesus has a double hand holding the scripture scroll and geusturing",
-    "complaintHash": "fe07caa9ea07f43c42f329bc4949a89a81a92d5b"
+    "complaint": "0;12 Jesus has a double hand holding the scripture scroll and reading it.  0:20 and 0:25 the scroll is floating and not acting like cloth/paper it is made out of.",
+    "complaintHash": "9e16ca612076e072c065de814a6c3fd94e4ebde6"
   },
   "188": {
-    "approved": false,
-    "approvedHash": null,
-    "approvedAt": "2026-07-18T07:28:33.583Z",
+    "approved": true,
+    "approvedHash": "53a4a263594694ff95b3a8cfe1ac38278f151e8d",
+    "approvedAt": "2026-09-01T05:20:15.595Z",
     "complaint": "\"Maketh\" (the archaic version of the modern word \"makes\") is pronounced MAY-kith 0:29",
     "complaintHash": "b6ba18fa1bb5fc6dfcf569a994eec686bee9a501"
   },
@@ -1239,9 +1239,9 @@
     "complaintHash": "2dd3461a43c13756d722ac9d9db0fb68aca9f0b0"
   },
   "192": {
-    "approved": false,
-    "approvedHash": null,
-    "approvedAt": "2026-07-18T03:21:40.841Z",
+    "approved": true,
+    "approvedHash": "a49edd8c6b379f9dbd267bc0c0b46b2fd692f3e0",
+    "approvedAt": "2026-09-01T05:43:06.076Z",
     "complaint": "redo picture at 0:05 and 0:08",
     "complaintHash": "f4ddba6d47487fa120196a3d8eb683a76f525e24"
   },
