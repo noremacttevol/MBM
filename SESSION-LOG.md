@@ -1,3 +1,39 @@
+## 2026-09-01 overnight (Claude Fable, Machine A `Dev`) — 25 APPROVED ROWS PUBLISHED (161 live, gate PASS); sync-reviews bug hid 37 approvals; C-FIX 134/135/157 in flight
+
+**PUBLISH (done, verified):** Cameron approved a big wave this week. Found
+`sync-reviews.mjs` had a rigid attribute-order regex (same class autopilot fixed
+2026-08-07) that silently failed to version-lock every card wired 2026-08-13+
+(data-review-wave before data-hash) — 37 real approvals invisible to the
+publisher, 8 of them never published. Patched order-independent; locked list
+124→161. Published all 25 outstanding approved rows byte-exact from their
+approvedHash commits (44, 63, 95, 117, 118, 121, 122, 125, 140, 145, 146, 147,
+149, 150, 153, 161, 173, 177, 184, 185, 188, 189, 191, 192, 199): gallery +
+thumbs + videos-v1 release (322 assets, spot byte-verified), PRODUCED_VIDEO_IDS
+136→161, ledger synced, **public-video gate PASS all 8 checks**, EAS OTA group
+660a80e4-7861-4bf3-84bf-5bb62abd2828 (iOS+Android), stories/index pushed to
+milkb4meat-site (domain live at 161). Row 170 is the ONE approved-but-superseded
+row (approved 07-24, cut re-shipped since) — needs Cameron's re-review, not
+publishable. Row 117's AWAITING-CAMERON park cleared: he approved the dramatized
+cut; published.
+
+**COMPLAINT QUEUE (4 active):** 134/135/157 fixes authored this session, images
+billing-walled (prepay 429, auto-reload pending; scratchpad/gen-retry.sh grinds
+until it lands, then assembly+gate+ship). 134 = my 08-25 fix read his complaint
+BACKWARDS (robes/facing-crosses reversal; build-95 canon restored — lesson 29).
+135 = migration bypassed SPOKEN map, 'bow' said as BAU; re-voiced n8 with 'boe'
+(MFCC-DTW template-set validated), atempo-locked; b24 warped-ark prompt fixed
+(lesson 31). 157 = the recut Cameron asked for in chat: Isaiah 29:18+29:24
+verbatim added, scroll OPENED, PLAIN man reads, 10 new beats (b29-b38), V1
+BEATS extended (extract_beats iterates build.py BEATS — new segs must be listed
+there). 187 complaint frame re-verified clean on live cut (two hands) —
+awaiting his eyes only.
+
+**Pages:** legacy Jekyll builds recovered (8/31 breakage healed) — reviewer
+deploys work again; 231 cards live. GP: 30/33 built+live, eps 31-33 wait on the
+same billing reload; Cameron approved GP 301-305.
+
+Commit: f520ee8f8 (+ this entry).
+
 ## 2026-08-31 overnight+morning (Claude, Machine A `Dev`) — **THE GREAT PLAN: 22 EPISODES BUILT+LIVE, ALL 33 SCRIPTS COMPLETE**
 
 **FINAL COUNTS (updating the entry below, written mid-run):** 22 episodes

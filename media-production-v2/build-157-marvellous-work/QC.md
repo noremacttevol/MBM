@@ -158,3 +158,23 @@ checked at full crop — dense period squiggle, indistinct, no legible letters.
 **Verified in the ENCODED replacement at 0:58 / 1:01 / 1:03** — the same
 bearded man in every frame. AUDIO REBUILD PASS SHA256=9251364871…, 173.9s,
 20.1 MB — narration untouched.
+
+
+## RE-CUT 2026-09-01 — COMPLAINT LEDGER (the understandable ending)
+Cameron (chat, then filed): "i dont understand the point... its super confusing
+just to show people we may never understand something?" -> "fix it how we
+discussed the recut to make it more undersatandable"
+- ROOT CAUSE: the cut spent four beats on "nobody can open the book" and ended
+  on an abstract promise — it never showed Isaiah's OWN resolution, so the
+  takeaway read as "we may never understand" (the opposite of the point).
+- FIX (the recut we discussed): Isaiah 29:18 and 29:24 added VERBATIM (Roger,
+  scripture voice), a new narrator bridge and a new landing + card (Brian):
+  the scroll is OPENED (three wax seals hanging broken), the deaf hear ITS
+  words, the PLAIN man who once shook his head now READS it (same locked face),
+  the erred come to understanding, and the closing question becomes "when God
+  offers to open the book, will you let him?" 10 new beats (b29-b38) authored
+  from the fresh extract_beats timeline with distinct camera geometry per
+  lesson 26; old ending beats b22/b25-b28 retired. V1 build.py BEATS extended
+  (kv18/n7b/kv24) because the V2 timeline iterates it. New segs voiced through
+  mbm_eleven.render_segment (never save_speaker_narration — edge-tts trap),
+  round-tripped clean through whisper-small.

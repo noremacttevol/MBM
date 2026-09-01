@@ -219,3 +219,21 @@ Jesus's V2 face on-model in b05/b06 (ref attached).
 **Verified in the ENCODED replacement at the exact complained timestamps**
 (frames extracted at 18s/23s/29s and inspected). AUDIO REBUILD PASS
 SHA256=a192ad42e9…, 116.6s, 19.5 MB — narration untouched.
+
+
+## C-FIX 2026-09-01 — COMPLAINT LEDGER (crosses/robes REVERSAL)
+Cameron (against 67ef9f1b8, the 2026-08-25 fix): "0:18, 0:23, 0:29 need to be
+redone becasue the crosses werent faceing each other and there were no robes worn
+on them. that is the biblical depiction and ou keep making them clothed and
+facing each other which is wrong"
+- ROOT CAUSE (autopsy verdict: CAUSED): the 08-25 fix read his first complaint
+  BACKWARDS — it added robes and angled the crosses toward each other, when his
+  sentence was naming the biblical STANDARD (no robes, crosses NOT facing).
+  Build-95, already approved, carried the exact canon one folder away:
+  "straight PARALLEL ROW... all facing the viewer... stripped to a loincloth...
+  NO crosses angled toward each other, NO clothed/robed torsos." (Rubric lesson 29.)
+- FIX: b04/b05/b06 rewritten to the build-95 canon — both men stripped to plain
+  loincloths, bare torsos, crosses parallel in the row FACING THE VIEWER, only
+  the HEADS turn to speak; b07 given a bare-shoulders clause so the close-up
+  cannot re-grow a tunic. All four stills regenerated; every other frame passed
+  the full-cut gate unchanged. No wounds/blood shown anywhere (unchanged law).

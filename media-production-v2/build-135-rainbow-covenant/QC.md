@@ -226,3 +226,25 @@ Exact-byte render receipt recorded for the 21,539,847-byte MP4. Final
 `admin/qc_gate.py` PASS with Whisper enabled and zero reasons; standard MP4 SHA-256 is
 `7026eb7851e129b5244f3822a06379af986c57491b26f880ab4d34a85278dbfa`.
 Ready to publish as a new Unwatched Reviewer revision with the complaint retained.
+
+
+## C-FIX 2026-09-01 — COMPLAINT LEDGER (bow vowel + ark picture)
+Cameron (against ef724d41e): "2:52 bow is pronounced wrong. the picture at 2:12
+needs to be replaced"
+- 2:52 AUDIO — ROOT CAUSE: the Jul-29 ElevenLabs migration re-voiced n8 from
+  caption text, bypassing this build's SPOKEN map ('bow'->'boh'), so Brian read
+  the homograph as BAU (bow-down). Formants of the delivered token: onset
+  F1~800/F2~1450 gliding down = textbook /aU/. FIX (law 12i, source control
+  changed): SPOKEN now 'bow'->'boe'; n8 re-voiced via mbm_eleven.render_segment,
+  winning take chosen by template-set MFCC-DTW (all 3 bow tokens /oU/ against
+  6-sentence calibration sets, leave-one-out sanity 8/8), atempo-locked to the
+  original 18.704s so every downstream window holds, timing sidecar rebuilt from
+  the char alignment with canonical caption spelling. jv13/jv16 (GOD voice)
+  measured acceptable and were complained about by nobody — left untouched.
+  Phoneme tags tested and REJECTED: eleven_multilingual_v2 deletes the word.
+- 2:12 PICTURE (b24) — ROOT CAUSE (autopsy verdict: ALLOWED): the ARK lock's own
+  word "barn-like" plus no scale discipline let the render collapse the ark into
+  a small warped shed and put miniature deer nearer than large cattle. FIX: b24
+  scene/must rewritten — ONE continuous rigid vast hull, warehouse scale, eight
+  countable family members in three-quarter view, honest perspective scale;
+  regenerated.
