@@ -237,3 +237,19 @@ facing each other which is wrong"
   the HEADS turn to speak; b07 given a bare-shoulders clause so the close-up
   cannot re-grow a tunic. All four stills regenerated; every other frame passed
   the full-cut gate unchanged. No wounds/blood shown anywhere (unchanged law).
+
+### SHIP VERIFICATION 2026-09-01 (encoded-mp4 proof)
+- 0:18 / 0:23 / 0:29 re-extracted from the ENCODED cut: both men stripped to
+  plain loincloths, bare torsos, crosses in a straight PARALLEL row FACING THE
+  VIEWER, only the HEADS turned to speak — the build-95 canon Cameron already
+  approved, restored (the 08-25 fix had inverted his complaint; lesson 29).
+- b06 restaged after 3 failed tight-two-shot attempts: the approved 95 geometry
+  is a FULL-HEIGHT three-cross wide — tight two-shots collapse into body-to-body
+  standing (logged for the rubric). Plaque on the centre cross kept (row-96
+  precedent: Cameron complained when it was MISSING; chest-up frames never show
+  that zone, so no intra-row contradiction).
+- Touch-once extra: b14/b15 paradise stills measured 0.99 correlation (place-
+  plate clone, law 12m) — b15 re-authored to a traveler's-eye footpath, now
+  0.695. FULL-CUT GATE: 19/19 frames + card viewed clean. 116.6s.
+- Rerolls this fix: s04 x1 (empty-cross edge), s06 x3 (geometry), b15 x1 = 5 on
+  a 4-beat complaint + 1 gate catch; each for a named law.

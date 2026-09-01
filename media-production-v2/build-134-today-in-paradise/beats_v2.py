@@ -187,9 +187,10 @@ BEATS = [
             "in the straight parallel row, body and cross FACING THE "
             "VIEWER like every cross on this hill — stripped to a plain "
             "rough undyed loincloth, bare torso and bare shoulders, "
-            "wrists bound along the crossbeam, body sagging from it. The "
-            "dark upright of the centre cross stands parallel at the left "
-            "edge, never turned toward his. No robe or tunic anywhere on "
+            "wrists bound along the crossbeam, body sagging from it. His "
+            "cross alone fills this tight frame — NO other cross, upright "
+            "or crossbeam visible anywhere, never an empty cross. No robe "
+            "or tunic anywhere on "
             "him; no wounds, no blood — the pain carried by the face "
             "alone, dignity intact."
         ),
@@ -223,27 +224,32 @@ BEATS = [
     },
     {
         "id": "v2-r134-b06", "out": "s06-lord-remember-me-when-thou.jpeg", "seg": "s1 + j1",
-        "window": "27.94-35.81", "wide": False, "jesus": True, "ref": REF,
+        "window": "27.94-35.81", "wide": True, "jesus": True, "ref": REF,
         "locks": ["HILL", "THIEF"],
         "narration": (
             "Lord, remember me when thou comest into thy kingdom. Verily I "
             "say unto thee, today shalt thou be with me in paradise."
         ),
-        "must_show": "SCRIPTURE-EXACT: the exchange — two parallel crosses facing the viewer, both men stripped to loincloths, bare torsos, only their HEADS turned toward one another across the gap; the promise passing between the crosses; Jesus's face full of spent tender authority; NO wounds.",
-        "must_not_show": "ABSOLUTE: no wounds, no gore; NO robe or clothing on either torso — loincloths only; NO crosses angled toward each other — the crossbeams stay parallel, only the faces turn; faces and words only, the tenderness at full cost.",
+        "must_show": "SCRIPTURE-EXACT: the exchange seen at FULL HEIGHT — the three crosses of the parallel row all FACING THE VIEWER, each man AFFIXED to his own cross, feet on the small foot-block, stripped to a plain loincloth; Jesus on the CENTRE cross in his crown of thorns with his head turned toward the right-hand cross, the penitent thief on the RIGHT cross with his head turned toward Jesus; watchers held back far below; NO wounds.",
+        "must_not_show": "ABSOLUTE: NO two figures facing body-to-body, NO man standing on the ground, NO cross angled toward another — bodies pinned facing forward, ONLY the two heads turn; NO wooden plaques above the heads (this row has none); NO robe on any crucified torso; no wounds, no gore.",
         "scene": (
-            "The shortest gospel service on record, held between two "
-            "crosses of the same straight parallel row: a tight close "
-            "two-shot across the gap — the thief's plea still on his lips "
-            "at frame right, Jesus's face turned sideways to him at frame "
-            "left through the pain, spent, grey-lit, and full of an "
-            "authority no cross has touched, the crown of thorns on his "
-            "brow. Both men are AFFIXED to crosses that FACE THE VIEWER, "
-            "each stripped to a plain rough undyed loincloth — bare "
-            "torsos, bare shoulders, wrists bound along the parallel "
-            "crossbeams readable behind their shoulders; only their heads "
-            "are turned toward one another. No robe or tunic on either "
-            "man, no wounds, no blood; only the promise crossing the gap."
+            "The whole hill holds its breath for the shortest gospel "
+            "service on record: the three crosses at full height in their "
+            "straight parallel row, every cross and every pinned body "
+            "facing the viewer, each man affixed with his feet on the "
+            "small block, bare and spent in his plain loincloth — and "
+            "along the row, two heads turned toward each other: the thief "
+            "on the right-hand cross with his plea just spoken, and Jesus "
+            "on the centre cross, crown of thorns dark against the grey "
+            "sky, his face turned toward the asker with an authority no "
+            "cross has touched. The third man on the left cross hangs "
+            "facing forward, spent. Small knots of watchers held far back "
+            "down the rocky slope, the city wall low in the distance; "
+            "cold grey light. The camera stands in front of the row on "
+            "the downhill side — the watchers behind the crosses face the "
+            "camera. ONE single continuous photograph from one camera — "
+            "never a collage, never panels, never a split frame. Every "
+            "figure has two arms, two hands and one head."
         ),
     },
     {
@@ -439,17 +445,18 @@ BEATS = [
         "must_show": "the in-between made visible — the waiting country with a path running THROUGH it and onward toward far brighter hills; rest now, road continuing.",
         "must_not_show": "ABSOLUTE: no spectacle at the path's end — the far hills simply brighter, undetailed; the continuing the point.",
         "scene": (
-            "The country's best feature is its road: through "
-            "the green resting meadows a worn path runs — "
-            "past the stream, between the cypresses — and "
-            "does not end anywhere in the frame: it climbs "
-            "on toward far hills that hold a brighter, "
-            "undetailed light at the horizon's edge — a land "
-            "built for staying in AND for going on from, "
-            "rest with a road through it — somewhere in "
-            "between, exactly as deduced, with the end of "
-            "the road mercifully out of frame. No people "
-            "are in this frame."
+            "A different eye on the same waiting country: the camera sits "
+            "LOW ON THE FOOTPATH itself, looking straight down its packed "
+            "earth as it curves away between the olive trunks toward soft "
+            "mist-veiled hills — dew bright on the near grass blades, the "
+            "morning light coming from the LEFT through the trees, no "
+            "stream anywhere in this frame. Deliberately NOT the previous "
+            "wide view across the stream — a traveler's-eye framing from "
+            "inside the garden, walking-height, the road that is real and "
+            "good and not the end of it. No people, no gates, no thrones, "
+            "no clouds of glory. ONE single continuous photograph from "
+            "one camera. Every figure has two arms, two hands and one "
+            "head."
         ),
     },
     {
