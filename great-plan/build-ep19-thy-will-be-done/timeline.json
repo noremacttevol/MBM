@@ -91,66 +91,57 @@
    "seg_dur": 10.146
   },
   {
-   "seg": "n6",
-   "speaker": "narrator",
-   "text": "God, the greatest of all \u2014 trembling. For you. So that if you repent, that pain never has to become yours.",
-   "seg_start": 87.356,
-   "audio_start": 87.636,
-   "spoken_end": 94.58,
-   "seg_dur": 7.943
-  },
-  {
    "seg": "n7",
    "speaker": "narrator",
-   "text": "Then betrayal, with a kiss. A rigged midnight trial. And Rome's worst. Through all of it he said almost nothing \u2014 this is your hour, he told them, and the power of darkness. The devil threw everything at getting him to quit. Or to call the twelve legions of angels he actually had.",
-   "seg_start": 95.3,
-   "audio_start": 95.58,
-   "spoken_end": 114.258,
-   "seg_dur": 19.679
+   "text": "Then betrayal, with a kiss. A rigged midnight trial. And Rome's worst. The devil threw everything at getting him to quit \u2014 or to call the twelve legions of angels he actually had.",
+   "seg_start": 87.356,
+   "audio_start": 87.636,
+   "spoken_end": 98.354,
+   "seg_dur": 11.717
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "He did not call them. Heaven held its armies parked behind the stars \u2014 because he asked it to. He was held to that cross by no nail. He was held there by the same will that spoke in the council. And when the debt was paid to the last breath:",
-   "seg_start": 114.978,
-   "audio_start": 115.258,
-   "spoken_end": 129.928,
+   "seg_start": 99.074,
+   "audio_start": 99.354,
+   "spoken_end": 114.023,
    "seg_dur": 15.669
   },
   {
    "seg": "j5",
    "speaker": "jesus",
    "text": "It is finished.",
-   "seg_start": 130.648,
-   "audio_start": 130.928,
-   "spoken_end": 131.645,
+   "seg_start": 114.743,
+   "audio_start": 115.023,
+   "spoken_end": 115.741,
    "seg_dur": 2.147
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Finished. Not I am finished \u2014 IT is finished. The debt. The ransom. The distance between you and home. Lucifer's plan would have saved your body by erasing your soul. The Father's plan saved the whole person \u2014 and this hill is where the bill was paid.",
-   "seg_start": 132.795,
-   "audio_start": 133.075,
-   "spoken_end": 150.184,
+   "seg_start": 116.891,
+   "audio_start": 117.171,
+   "spoken_end": 134.28,
    "seg_dur": 18.109
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "But why couldn't God just forgive \u2014 wave it off, skip the cross? Because justice is real, and mercy cannot rob it. So mercy paid it. Forgiveness was never God waiving the debt. It was God eating it.",
-   "seg_start": 150.904,
-   "audio_start": 151.184,
-   "spoken_end": 164.962,
+   "seg_start": 135.0,
+   "audio_start": 135.28,
+   "spoken_end": 149.058,
    "seg_dur": 14.778
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "He was laid in a borrowed tomb before sundown, and a great stone sealed the door. And for about forty hours, the devil believed he had finally won. Remember that feeling of his. It is about to become the biggest miscalculation in history.",
-   "seg_start": 165.682,
-   "audio_start": 165.962,
-   "spoken_end": 180.275,
+   "seg_start": 149.778,
+   "audio_start": 150.058,
+   "spoken_end": 164.37,
    "seg_dur": 15.312
   }
  ],
@@ -158,9 +149,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "Thy will be done was easy in the council. In the garden it bled. He said it anyway \u2014 for you.",
-  "seg_start": 180.995,
-  "audio_start": 181.275,
+  "seg_start": 165.09,
+  "audio_start": 165.37,
   "seg_dur": 8.415
  },
- "total": 189.41
+ "total": 173.505
 }

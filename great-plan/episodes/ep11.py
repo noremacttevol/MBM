@@ -37,11 +37,6 @@ SEGMENTS = [
      "And the Lord called his people Zion, because they were of one "
      "heart and one mind, and dwelt in righteousness; and there was no "
      "poor among them."),
-    ("n4", NARRATOR,
-     "One heart. One mind. No poor among them. That is the whole recipe, "
-     "stated once, plainly. Zion is not a place on a map. It is what "
-     "happens when people love God and each other harder than they love "
-     "getting ahead."),
     ("n5", NARRATOR,
      "And that city grew so aligned that God did the astonishing thing. "
      "He took it. The whole city."),

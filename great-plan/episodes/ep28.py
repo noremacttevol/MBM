@@ -21,8 +21,6 @@ SEGMENTS = [
      "A book can carry testimony. It cannot carry keys. For those, "
      "heaven had to send hands — and this episode is about whose hands "
      "they sent."),
-    ("n2", NARRATOR,
-     "Remember the rule, older than the apostasy itself:"),
     ("s1", SCRIPTURE,
      "And no man taketh this honour unto himself, but he that is called "
      "of God, as was Aaron."),
@@ -62,11 +60,6 @@ SEGMENTS = [
      "Presidency of the ancient church — sent back, to lay their hands "
      "on two young men's heads and return what the empire thought it "
      "had buried with them."),
-    ("n9", NARRATOR,
-     "This is the apostasy running in reverse. The devil's whole long "
-     "theft assumed one thing: that dead men stay gone. But he plays "
-     "against a God who raises the dead — and you cannot permanently "
-     "steal keys from a Kingdom whose keyholders can be sent back."),
     ("n10", NARRATOR,
      "Understand what this claim means, and how easy it would be to "
      "check from heaven's side: either John the Baptist stood in those "
@@ -130,7 +123,7 @@ PICTURES = [
         "dark and waiting, morning light",
         "a key present, readable title, hands",
         )),
-    ("p02", "s1", _p(
+    ("p02", ("s1", 0.35), _p(
         "As was Aaron: ancient flashback — Moses' hands pressed on "
         "kneeling Aaron's head before the tabernacle hangings, oil "
         "vessel beside them, Aaron's eyes closed under the weight of "
@@ -242,7 +235,7 @@ PICTURES = [
         "knuckles foremost, homespun washed gold",
         "faces of the kneeling men, beams, halo",
         )),
-    ("p12", "n9", _p(
+    ("p12", "n11", _p(
         "The theft, reversed: the severed rope from before — now "
         "SPLICED: the two frayed ends woven back through each "
         "other in a tight, seamanlike long-splice, the join "
@@ -264,7 +257,7 @@ PICTURES = [
         "holding its question",
         "monuments, plaques, figures, text",
         )),
-    ("p14", "n11", _p(
+    ("p14", ("n11", 0.5), _p(
         "Spliced in order: the two young men walk back out of "
         "the woods toward the cabin in full morning — soaked "
         "hems, springing steps, Oliver's hand on Joseph's "

@@ -35,11 +35,6 @@ SEGMENTS = [
      "fulness of times, that a whole and complete and perfect union, "
      "and welding together of dispensations, and keys, and powers, and "
      "glories should take place."),
-    ("n3", NARRATOR,
-     "A welding together of dispensations, keys, powers, and glories. "
-     "Adam's gospel. Enoch's Zion. Abraham's covenant. Moses' "
-     "gathering. The apostles' keys. Elijah's sealing. All of it — one "
-     "kingdom, one last time, never to be lost again."),
     ("n4", NARRATOR,
      "Daniel saw this exact thing from inside Babylon: a stone cut out "
      "of the mountain without hands — no army behind it, no empire — "
@@ -49,10 +44,6 @@ SEGMENTS = [
      "kingdom, which shall never be destroyed: and the kingdom shall "
      "not be left to other people, but it shall break in pieces and "
      "consume all these kingdoms, and it shall stand for ever."),
-    ("n5", NARRATOR,
-     "Never destroyed. Never left to other people. The old pattern — "
-     "given, stolen, wait — is over. That is the whole point of the "
-     "fulness of times. Last means last."),
     ("n6", NARRATOR,
      "And watch the stone roll. Six members in a farmhouse, eighteen "
      "thirty. Missionaries crossing oceans within the decade. Today — "
@@ -78,16 +69,11 @@ SEGMENTS = [
      "in history that runs backward. The devil's oldest victories — "
      "the drowned, the famine-born, the never-reached — are being "
      "un-won. Retroactively. On purpose. On a schedule."),
-    ("n10", NARRATOR,
-     "He has never faced anything like it. In every previous age, his "
-     "losses stayed lost and his wins stayed won. Now nothing he ever "
-     "won stays won. The stone is not just rolling forward. It is "
-     "rolling back over everything he thought was settled."),
     ("n11", NARRATOR,
      "And you live inside that dispensation — the gathering of "
-     "everything, forward and backward, into one. Whatever else your "
-     "era gets wrong, know what it is FOR. The family is being welded "
-     "whole. And a weld means forever."),
+     "everything, forward and backward, into one. Know what your era "
+     "is FOR: the family is being welded whole. And a weld means "
+     "forever."),
 ]
 
 CARD_SEG = ("card", NARRATOR,
@@ -134,7 +120,7 @@ PICTURES = [
         "tightened cord at harvest",
         "machinery, faces, storm",
         era="first-century")),
-    ("p03", "n3", _p(
+    ("p03", ("s2", 0.5), _p(
         "Every link, spliced: the great rope coiled on plain boards in "
         "raking light — and down its length, SIX distinct long-splices "
         "visible, each old break woven back stronger, the line "
@@ -237,7 +223,7 @@ PICTURES = [
         "the dark end, three flames travelling",
         "hands, wax mess, text",
         )),
-    ("p13", "n10", _p(
+    ("p13", ("n9", 0.33), _p(
         "Nothing stays won: the cold dead fire-ring from the "
         "ancient camp — RELIT: a young flame standing up from new "
         "kindling inside the old blackened stones, night around "
@@ -247,7 +233,7 @@ PICTURES = [
         "night, sparks rising",
         "figures, ruins, storm",
         era="ancient")),
-    ("p14", ("n10", 0.6), _p(
+    ("p14", ("n9", 0.66), _p(
         "The weld, cooled and proven: tongs hold the finished "
         "chain up to the light — the two links now ONE continuous "
         "joined link at the centre, the weld-seam smooth and "

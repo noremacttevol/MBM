@@ -56,15 +56,10 @@ SEGMENTS = [
      "Which suffering caused myself, even God, the greatest of all, to "
      "tremble because of pain, and to bleed at every pore, and to "
      "suffer both body and spirit."),
-    ("n6", NARRATOR,
-     "God, the greatest of all — trembling. For you. So that if you "
-     "repent, that pain never has to become yours."),
     ("n7", NARRATOR,
      "Then betrayal, with a kiss. A rigged midnight trial. And Rome's "
-     "worst. Through all of it he said almost nothing — this is your "
-     "hour, he told them, and the power of darkness. The devil threw "
-     "everything at getting him to quit. Or to call the twelve legions "
-     "of angels he actually had."),
+     "worst. The devil threw everything at getting him to quit — or to "
+     "call the twelve legions of angels he actually had."),
     ("n8", NARRATOR,
      "He did not call them. Heaven held its armies parked behind the "
      "stars — because he asked it to. He was held to that cross by no "

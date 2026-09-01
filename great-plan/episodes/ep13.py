@@ -28,11 +28,6 @@ SEGMENTS = [
      "Go to, let us build us a city and a tower, whose top may reach "
      "unto heaven; and let us make us a name, lest we be scattered "
      "abroad upon the face of the whole earth."),
-    ("n3", NARRATOR,
-     "Listen to the motive. Let us make US a name. Reach heaven by our "
-     "own stack of bricks. It was unity, all right — unity aimed at "
-     "glory without God. One language, one project, one tower of "
-     "pride."),
     ("n4", NARRATOR,
      "God scattered it. Not because heaven fears tall buildings — "
      "because He had already seen where forced unity goes. One heart "
@@ -137,7 +132,7 @@ PICTURES = [
         "backs, overseer's arm at the top",
         "whips, faces to camera, cruelty shown",
         )),
-    ("p03", "n3", _p(
+    ("p03", ("s1", 0.55), _p(
         "Make us a name: the tower's unfinished summit wrapped in "
         "cloud-haze — and being hauled up its final ramp, a great "
         "GILDED CREST, a sun-disc of beaten gold meant to crown the "

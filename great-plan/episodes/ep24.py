@@ -64,10 +64,6 @@ SEGMENTS = [
      "Behold, I speak unto you as if ye were present, and yet ye are "
      "not. But behold, Jesus Christ hath shown you unto me, and I know "
      "your doing."),
-    ("n8", NARRATOR,
-     "He saw us. The last man of a dead nation, writing by firelight to "
-     "people seventeen centuries unborn — and heaven let him see "
-     "exactly who he was writing to. You. He knew your doing."),
     ("n9", NARRATOR,
      "Then he sealed the record, carried the plates to a hill the Lord "
      "showed him, and buried them in a stone box. The second witness — "
@@ -262,7 +258,7 @@ PICTURES = [
         "in profile",
         "anyone facing the lens, readable signs, brand marks",
         era="modern", wide=True)),
-    ("p14", "n8", _p(
+    ("p14", ("n7", 0.5), _p(
         "Writing to you: extreme close on the stylus point moving "
         "across the metal — and one bright tear striking the "
         "plate's engraved surface beside the working hand, "

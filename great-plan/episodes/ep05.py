@@ -50,11 +50,6 @@ SEGMENTS = [
      "God is not grading you to find out if you're good enough. He knew "
      "you before the womb — He already knows His children perfectly. The "
      "proving was never for His information. It is for your becoming."),
-    ("n7", NARRATOR,
-     "A test can be a trap, or it can be training. A quiz measures what "
-     "you were. Training builds what you will be. Mountains. Hunger. "
-     "Distance. Gravity. Resistance everywhere you look — because "
-     "resistance is how children of God grow."),
     ("g2", FATHER,
      "And they who keep their first estate shall be added upon; and they "
      "who keep their second estate shall have glory added upon their heads "
@@ -200,7 +195,7 @@ PICTURES = [
         "small bright new world below",
         "His eyes on the lens, halo, tears, wings",
         era="heaven", locks=["FATHER", "COURT"])),
-    ("p10", "n7", _p(
+    ("p10", ("n6", 0.45), _p(
         "Resistance as design: a wild ibex mid-leap on a near-"
         "vertical cliff face, hooves finding an impossible ledge, "
         "the void yawning below — gravity and mastery in one "
@@ -208,7 +203,7 @@ PICTURES = [
         "an ibex mid-leap on a near-vertical cliff over deep air",
         "falling, blood, people, text",
         )),
-    ("p11", ("n7", 0.55), _p(
+    ("p11", ("n6", 0.75), _p(
         "Human resistance: an ancient farmer building a terrace "
         "wall on a steep hillside — mid-lift with a heavy stone at "
         "his waist, forearms corded, completed courses of wall "

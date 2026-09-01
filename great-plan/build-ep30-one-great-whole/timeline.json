@@ -37,112 +37,85 @@
    "seg_dur": 14.08
   },
   {
-   "seg": "n3",
-   "speaker": "narrator",
-   "text": "A welding together of dispensations, keys, powers, and glories. Adam's gospel. Enoch's Zion. Abraham's covenant. Moses' gathering. The apostles' keys. Elijah's sealing. All of it \u2014 one kingdom, one last time, never to be lost again.",
-   "seg_start": 50.13,
-   "audio_start": 50.41,
-   "spoken_end": 69.17,
-   "seg_dur": 19.759
-  },
-  {
    "seg": "n4",
    "speaker": "narrator",
    "text": "Daniel saw this exact thing from inside Babylon: a stone cut out of the mountain without hands \u2014 no army behind it, no empire \u2014 rolling until it fills the whole earth.",
-   "seg_start": 69.89,
-   "audio_start": 70.17,
-   "spoken_end": 79.901,
+   "seg_start": 50.13,
+   "audio_start": 50.41,
+   "spoken_end": 60.141,
    "seg_dur": 10.731
   },
   {
    "seg": "s3",
    "speaker": "scripture",
    "text": "And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed: and the kingdom shall not be left to other people, but it shall break in pieces and consume all these kingdoms, and it shall stand for ever.",
-   "seg_start": 80.621,
-   "audio_start": 80.901,
-   "spoken_end": 93.857,
+   "seg_start": 60.861,
+   "audio_start": 61.141,
+   "spoken_end": 74.098,
    "seg_dur": 14.387
-  },
-  {
-   "seg": "n5",
-   "speaker": "narrator",
-   "text": "Never destroyed. Never left to other people. The old pattern \u2014 given, stolen, wait \u2014 is over. That is the whole point of the fulness of times. Last means last.",
-   "seg_start": 95.007,
-   "audio_start": 95.287,
-   "spoken_end": 106.353,
-   "seg_dur": 12.066
   },
   {
    "seg": "n6",
    "speaker": "narrator",
    "text": "And watch the stone roll. Six members in a farmhouse, eighteen thirty. Missionaries crossing oceans within the decade. Today \u2014 congregations across the nations, scripture in over a hundred languages, and temples: from one sparkling house in Kirtland to hundreds, on every inhabited continent.",
-   "seg_start": 107.073,
-   "audio_start": 107.353,
-   "spoken_end": 126.867,
+   "seg_start": 75.248,
+   "audio_start": 75.528,
+   "spoken_end": 95.041,
    "seg_dur": 20.513
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "And the temples are the part the devil never saw coming. Because they do not only serve the living. You have heard this verse twice in this series. Hear where it lands:",
-   "seg_start": 127.587,
-   "audio_start": 127.867,
-   "spoken_end": 137.022,
+   "seg_start": 95.761,
+   "audio_start": 96.041,
+   "spoken_end": 105.197,
    "seg_dur": 10.156
   },
   {
    "seg": "s4",
    "speaker": "scripture",
    "text": "For for this cause was the gospel preached also to them that are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.",
-   "seg_start": 137.742,
-   "audio_start": 138.022,
-   "spoken_end": 147.195,
+   "seg_start": 105.917,
+   "audio_start": 106.197,
+   "spoken_end": 115.37,
    "seg_dur": 10.603
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "In those houses, the living stand in for the dead \u2014 baptism, sealing, every ordinance \u2014 name, by name, by name. The famine's stolen centuries are being ministered to, person by person. Great-grandmothers who never heard a prophet's voice are hearing one now.",
-   "seg_start": 148.345,
-   "audio_start": 148.625,
-   "spoken_end": 168.004,
+   "seg_start": 116.52,
+   "audio_start": 116.8,
+   "spoken_end": 136.179,
    "seg_dur": 20.379
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Understand what that makes this work: the first rescue operation in history that runs backward. The devil's oldest victories \u2014 the drowned, the famine-born, the never-reached \u2014 are being un-won. Retroactively. On purpose. On a schedule.",
-   "seg_start": 168.724,
-   "audio_start": 169.004,
-   "spoken_end": 186.465,
+   "seg_start": 136.899,
+   "audio_start": 137.179,
+   "spoken_end": 154.64,
    "seg_dur": 18.461
-  },
-  {
-   "seg": "n10",
-   "speaker": "narrator",
-   "text": "He has never faced anything like it. In every previous age, his losses stayed lost and his wins stayed won. Now nothing he ever won stays won. The stone is not just rolling forward. It is rolling back over everything he thought was settled.",
-   "seg_start": 187.185,
-   "audio_start": 187.465,
-   "spoken_end": 202.313,
-   "seg_dur": 15.848
   },
   {
    "seg": "n11",
    "speaker": "narrator",
-   "text": "And you live inside that dispensation \u2014 the gathering of everything, forward and backward, into one. Whatever else your era gets wrong, know what it is FOR. The family is being welded whole. And a weld means forever.",
-   "seg_start": 203.033,
-   "audio_start": 203.313,
-   "spoken_end": 217.237,
-   "seg_dur": 14.924
+   "text": "And you live inside that dispensation \u2014 the gathering of everything, forward and backward, into one. Know what your era is FOR: the family is being welded whole. And a weld means forever.",
+   "seg_start": 155.36,
+   "audio_start": 155.64,
+   "spoken_end": 167.77,
+   "seg_dur": 13.13
   }
  ],
  "card": {
   "seg": "card",
   "speaker": "narrator",
   "text": "The first rescue in history that runs backward. Nothing he ever won stays won.",
-  "seg_start": 217.957,
-  "audio_start": 218.237,
+  "seg_start": 168.49,
+  "audio_start": 168.77,
   "seg_dur": 6.796
  },
- "total": 224.752
+ "total": 175.285
 }

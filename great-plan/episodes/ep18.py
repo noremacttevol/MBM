@@ -21,10 +21,6 @@ SEGMENTS = [
      "Before His ministry began, Jesus walked into the wilderness to "
      "fast for forty days. And someone was waiting for Him out there. "
      "Round two, of a very old fight."),
-    ("n2", NARRATOR,
-     "Weak with hunger. Alone. Exactly when the recruiter likes to "
-     "arrive. Three offers — each one a doorway out of Gethsemane. "
-     "Listen for the echo."),
     ("d1", DEVIL,
      "If thou be the Son of God, command that these stones be made "
      "bread."),
@@ -74,8 +70,7 @@ SEGMENTS = [
      "Then Jesus beholding him loved him. And he was sad at that "
      "saying, and went away grieved: for he had great possessions."),
     ("n10", NARRATOR,
-     "Watch the whole pattern. The devil's power grabs. God's power "
-     "gives. The devil demands worship. Jesus kneels and washes feet. "
+     "Watch the pattern. The devil's power grabs. God's power gives. "
      "One voice still sells the shortcut. The other still says follow "
      "me — and lets you walk away if you must."),
     ("n11", NARRATOR,
@@ -120,7 +115,7 @@ PICTURES = [
         "vast dawn badlands with one empty goat-track winding in",
         "vegetation lush, buildings, figures, drawn rays",
         wide=True)),
-    ("p02", "n2", _p(
+    ("p02", ("n1", 0.55), _p(
         "Forty days in: Jesus sits on a flat rock in the wilderness "
         "shade, gaunt and wind-burned, forearms on his knees, cream "
         "robe dusty at the hem — his face in three-quarter carrying "

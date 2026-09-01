@@ -32,9 +32,9 @@ SEGMENTS = [
      "risen."),
     ("n3", NARRATOR,
      "Risen. Not resuscitated. Not remembered. Risen — body and spirit "
-     "reunited forever, death running backward. Mary Magdalene met him "
-     "in the garden and heard her own name. Thomas touched the marks. "
-     "For forty days, hundreds watched him eat, and walk, and teach."),
+     "reunited forever, death running backward. Thomas touched the "
+     "marks. For forty days, hundreds watched him eat, and walk, and "
+     "teach."),
     ("n4", NARRATOR,
      "Understand what broke that morning. Death — the devil's oldest, "
      "surest, hundred-percent weapon — became a temporary condition for "
@@ -43,10 +43,6 @@ SEGMENTS = [
     ("s2", SCRIPTURE,
      "For as in Adam all die, even so in Christ shall all be made "
      "alive."),
-    ("n5", NARRATOR,
-     "All. The word is all. Your resurrection is already purchased, "
-     "whatever you do with the rest of the gospel. That is how "
-     "thoroughly he disarmed the grave."),
     ("n6", NARRATOR,
      "Then he kept an appointment six hundred years in the making. In "
      "the land of the other sheep, twenty-five hundred people stood "
@@ -64,19 +60,13 @@ SEGMENTS = [
      "into the world."),
     ("n8", NARRATOR,
      "And he did not just preach to them. He invited every single "
-     "person there — twenty-five hundred of them — to come, one at a "
-     "time, and feel the prints in his hands and his side. Not the "
-     "leaders. Everyone. It took hours. He stayed."),
+     "person there to come, one at a time, and feel the prints in his "
+     "hands and his side. It took hours. He stayed."),
     ("s3", SCRIPTURE,
      "And the multitude went forth, and thrust their hands into his "
      "side, and did feel the prints of the nails in his hands and in "
      "his feet; and this they did do, going forth one by one until "
      "they had all gone forth."),
-    ("n9", NARRATOR,
-     "One by one. The risen King of the universe stood in a courtyard "
-     "for hours, so that nobody would have to take his resurrection on "
-     "rumor. That is what other sheep hearing his voice looks like — a "
-     "promise kept, in person."),
     ("n10", NARRATOR,
      "And in both hemispheres, before he left, he did the same thing: "
      "he organized his church, and he handed men the keys — apostles, "
@@ -280,7 +270,7 @@ PICTURES = [
         "bending to her reach, the father's shining eyes",
         "crying children, crush, halo, faces to camera",
         era="ancient", jesus=True, ref=True)),
-    ("p16", "n9", _p(
+    ("p16", ("n8", 0.6), _p(
         "He stayed: the courtyard in late gold light now — "
         "shadows long across the stones, and the line STILL "
         "moving, still curving to him at its centre, unhurried "

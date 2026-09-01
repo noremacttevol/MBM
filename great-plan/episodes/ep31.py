@@ -26,14 +26,13 @@ SEGMENTS = [
     ("n2", NARRATOR,
      "Refresh the originals. One voice: Father, thy will be done, and "
      "the glory be thine forever. The other: I will save them all — "
-     "force them all — wherefore give me thine honor. Keep both in your "
-     "ear, and listen to your day."),
+     "force them all — wherefore give me thine honor. Now listen to "
+     "your day."),
     ("n3", NARRATOR,
      "The devil's speech today almost never says worship me. It says: "
-     "you deserve this. Skip the cost. Everyone does it. It hurts "
-     "nobody. And its masterpiece line — there is no devil; that idea "
-     "is medieval. Nephi transcribed that exact pitch twenty-five "
-     "centuries early:"),
+     "you deserve this. Skip the cost. Everyone does it. And its "
+     "masterpiece — there is no devil. Nephi transcribed that exact "
+     "pitch twenty-five centuries early:"),
     ("s1", SCRIPTURE,
      "And behold, others he flattereth away, and telleth them there is "
      "no hell; and he saith unto them: I am no devil, for there is none "
@@ -51,8 +50,8 @@ SEGMENTS = [
      "souls, and leadeth them away carefully down to hell."),
     ("n6", NARRATOR,
      "Carefully. Not dramatically — carefully. No horns. No contracts "
-     "at midnight crossroads. Just comfort, a closed curtain, and one "
-     "degree of drift a day."),
+     "at midnight. Just comfort, a closed curtain, and one degree of "
+     "drift a day."),
     ("n7", NARRATOR,
      "Now the Father's speech in modern clothes. His style guide is "
      "actually written down — how power from heaven is allowed to "
@@ -63,26 +62,18 @@ SEGMENTS = [
      "gentleness and meekness, and by love unfeigned."),
     ("n8", NARRATOR,
      "Persuasion. Long-suffering. Gentleness. Love unfeigned. That is "
-     "not just a rule for priesthood holders — it is the signature of "
-     "heaven. So when any voice pushes, panics, shames, or forces you "
-     "— check the return address."),
+     "the signature of heaven. So when any voice pushes, panics, "
+     "shames, or forces you — check the return address."),
     ("n9", NARRATOR,
      "Here is the whole field guide in one test, from Mormon. Does a "
      "thing invite you to do good, to love God, to serve? Or does it "
      "entice you to hurt, to despair, to quit? Every voice in your day "
-     "sorts into those two bins — every ad, every impulse, every "
-     "three-a.m. thought:"),
+     "sorts into those two bins:"),
     ("s4", SCRIPTURE,
      "That which is of God inviteth and enticeth to do good "
      "continually; wherefore, every thing which inviteth and enticeth "
      "to do good, and to love God, and to serve him, is inspired of "
      "God."),
-    ("n10", NARRATOR,
-     "And the council replays daily, in small. Every time you choose "
-     "the harder right with your freedom intact, you re-cast your vote "
-     "from before the world. And every time something tries to control "
-     "you for your own good — a manipulator, an addiction, an "
-     "algorithm — that is the other speech, still hunting a throne."),
     ("n11", NARRATOR,
      "You are not watching this war on a screen. You are in the cast. "
      "And your Father's side still fights exactly the way it fought in "
@@ -236,7 +227,7 @@ PICTURES = [
         "apple held mid-judgment",
         "her face prominent, rot graphic, text",
         )),
-    ("p12", "n10", _p(
+    ("p12", "n11", _p(
         "The harder right, made physical: five a.m. — a runner "
         "sliding their phone into a dresser drawer and pushing it "
         "SHUT with a knuckle, running shoes already laced in the "
@@ -246,28 +237,7 @@ PICTURES = [
         "running shoes waiting, face unseen",
         "readable screen, brand marks, faces",
         )),
-    ("p13", ("n10", 0.5), _p(
-        "The other speech, hunting: a bank of slot machines' "
-        "carnival light washing over one slack motionless face — "
-        "eyes reflecting the spin, hand resting on the button out "
-        "of habit rather than hope, the rest of the room falling "
-        "to black around the machine's embrace. No brands, no "
-        "readable reels. A throne, being sat on.",
-        "slot-light washing a slack motionless face, habitual "
-        "hand on the button, room falling to black",
-        "readable machines, other patrons, mockery",
-        devil=True)),
-    ("p14", ("n10", 0.8), _p(
-        "The vote as a doorbell: a casserole dish balanced on one "
-        "arm while the other hand presses a neighbor's doorbell — "
-        "evening porch light warming the foil and the knuckle, a "
-        "welcome mat below, the door a breath from opening. "
-        "Service: the oldest ballot there is.",
-        "a casserole balanced on one arm while a finger presses a "
-        "porch doorbell at evening",
-        "faces, house numbers, brand marks",
-        )),
-    ("p15", "n11", _p(
+    ("p15", ("n11", 0.35), _p(
         "In the cast: the hallway mirror from episode two — but now "
         "the person stands square to it and the reflection is "
         "CLEAR: an ordinary face meeting its own eyes calmly, chin "
@@ -279,7 +249,7 @@ PICTURES = [
         "the reflection looking at the camera instead, bathroom "
         "clutter, brand marks",
         )),
-    ("p16", ("n11", 0.55), _p(
+    ("p16", ("n11", 0.65), _p(
         "Heaven's way, working: in a warm living room, two men "
         "stand behind a seated young woman with their hands "
         "resting gently together on her head in blessing — her "
@@ -291,7 +261,7 @@ PICTURES = [
         "in blessing, family close, eyes closed",
         "vestments, faces to camera, theatrics",
         )),
-    ("p17", ("n11", 0.85), _p(
+    ("p17", ("n11", 0.88), _p(
         "The daily truce: a city skyline at first light — the "
         "night's window-lights going out block by block as the "
         "sunrise takes over the job, the sky clean, the streets "

@@ -28,111 +28,93 @@
    "seg_dur": 10.748
   },
   {
-   "seg": "n3",
-   "speaker": "narrator",
-   "text": "No joy \u2014 because no misery. No good \u2014 because no sin. Frozen. Eden was beautiful the way a photograph is beautiful. Perfect, and going nowhere.",
-   "seg_start": 32.881,
-   "audio_start": 33.161,
-   "spoken_end": 44.709,
-   "seg_dur": 12.548
-  },
-  {
    "seg": "n4",
    "speaker": "narrator",
    "text": "So God did something the critics never notice. He put two trees in the middle \u2014 the tree of life, and the tree of knowledge \u2014 and gave the one commandment that made choosing real. Listen to how He actually said it:",
-   "seg_start": 45.429,
-   "audio_start": 45.709,
-   "spoken_end": 58.233,
+   "seg_start": 32.881,
+   "audio_start": 33.161,
+   "spoken_end": 45.685,
    "seg_dur": 13.524
   },
   {
    "seg": "g1",
    "speaker": "father",
    "text": "Of every tree of the garden thou mayest freely eat, but of the tree of the knowledge of good and evil, thou shalt not eat of it. Nevertheless, thou mayest choose for thyself, for it is given unto thee; but, remember that I forbid it.",
-   "seg_start": 58.953,
-   "audio_start": 59.233,
-   "spoken_end": 76.119,
+   "seg_start": 46.405,
+   "audio_start": 46.685,
+   "spoken_end": 63.571,
    "seg_dur": 18.317
   },
   {
    "seg": "n5",
    "speaker": "narrator",
    "text": "Thou mayest choose for thyself. Did you catch that? The forbidden tree came with a permission slip. God fenced it with a warning \u2014 and left the gate unlocked on purpose. Because a choice with only one option is not a choice.",
-   "seg_start": 77.269,
-   "audio_start": 77.549,
-   "spoken_end": 91.818,
+   "seg_start": 64.721,
+   "audio_start": 65.001,
+   "spoken_end": 79.27,
    "seg_dur": 15.269
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "Wherefore, the Lord God gave unto man that he should act for himself. Wherefore, man could not act for himself save it should be that he was enticed by the one or the other.",
-   "seg_start": 92.538,
-   "audio_start": 92.818,
-   "spoken_end": 102.216,
+   "seg_start": 79.99,
+   "audio_start": 80.27,
+   "spoken_end": 89.668,
    "seg_dur": 10.827
-  },
-  {
-   "seg": "n6",
-   "speaker": "narrator",
-   "text": "Enticed by the one or the other. Opposition is not sabotage of the plan \u2014 it is equipment. And right on schedule, the other enticement slid into the garden.",
-   "seg_start": 103.366,
-   "audio_start": 103.646,
-   "spoken_end": 113.529,
-   "seg_dur": 10.883
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "The serpent came carrying the first lie ever told on this earth. Listen closely. You have heard this voice before.",
-   "seg_start": 114.249,
-   "audio_start": 114.529,
-   "spoken_end": 120.998,
+   "seg_start": 90.818,
+   "audio_start": 91.098,
+   "spoken_end": 97.566,
    "seg_dur": 7.469
   },
   {
    "seg": "d1",
    "speaker": "devil",
    "text": "Ye shall not surely die; for God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
-   "seg_start": 121.718,
-   "audio_start": 121.998,
-   "spoken_end": 131.759,
+   "seg_start": 98.286,
+   "audio_start": 98.566,
+   "spoken_end": 108.327,
    "seg_dur": 11.191
   },
   {
    "seg": "n8",
    "speaker": "narrator",
-   "text": "Half-truths stitched with poison \u2014 his signature ever since. Their eyes would open; that part was true. But underneath it was the council pitch all over again: trust me instead of Him. He wanted the fall to happen his way. Under his flag.",
-   "seg_start": 132.909,
-   "audio_start": 133.189,
-   "spoken_end": 149.694,
-   "seg_dur": 17.505
+   "text": "Half-truths stitched with poison \u2014 his signature ever since. But underneath it was the council pitch all over again: trust me instead of Him. He wanted the fall his way. Under his flag.",
+   "seg_start": 109.477,
+   "audio_start": 109.757,
+   "spoken_end": 122.433,
+   "seg_dur": 13.675
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "And here is what he has never once understood. He thought he was wrecking God's plan. He was springing it. The fall was always the doorway \u2014 the only question was whose hand would open the door.",
-   "seg_start": 150.414,
-   "audio_start": 150.694,
-   "spoken_end": 162.723,
+   "seg_start": 123.153,
+   "audio_start": 123.433,
+   "spoken_end": 135.461,
    "seg_dur": 13.029
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "Eve weighed it. Scripture says she saw the tree was to be desired to make one wise. This was not a fooled woman blundering. It was the bravest decision ever made in innocence. She chose growth. Adam chose to stay with her. And the door opened.",
-   "seg_start": 163.443,
-   "audio_start": 163.723,
-   "spoken_end": 178.053,
+   "seg_start": 136.181,
+   "audio_start": 136.461,
+   "spoken_end": 150.792,
    "seg_dur": 15.331
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "So the next time someone tells you Eden was the day everything went wrong, remember the two trees. God planted both. He named the price, honored the choice, and had the rescue already signed. That is not a God who lost control. That is a Father who refused to keep His children in a photograph.",
-   "seg_start": 178.773,
-   "audio_start": 179.053,
-   "spoken_end": 196.271,
+   "seg_start": 151.512,
+   "audio_start": 151.792,
+   "spoken_end": 169.009,
    "seg_dur": 18.218
   }
  ],
@@ -140,9 +122,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "Eden was not the day it all went wrong. It was the day it all began.",
-  "seg_start": 196.991,
-  "audio_start": 197.271,
+  "seg_start": 169.729,
+  "audio_start": 170.009,
   "seg_dur": 6.325
  },
- "total": 203.316
+ "total": 176.055
 }

@@ -62,11 +62,6 @@ SEGMENTS = [
      "— a counterfeit claim to authority — and then: believe it not. "
      "Doubt, preached as doctrine. He has never fought religion. He "
      "manufactures his own."),
-    ("n8", NARRATOR,
-     "So from day one there have been two churches on this earth. The "
-     "one God plants, with ordinances that point to Christ. And the "
-     "imitation — wearing religious language, teaching men to believe "
-     "nothing, and to love pleasure more than God."),
     ("n9", NARRATOR,
      "Some of Adam's children listened to the angel. Some loved the "
      "counterfeit. And that split, right down the middle of the first "
@@ -257,7 +252,7 @@ PICTURES = [
         "sneering, his eyes on the lens, weapons, darkness on "
         "him",
         )),
-    ("p15", "n8", _p(
+    ("p15", "n9", _p(
         "The imitation church: a big night feast-fire down in the "
         "valley — figures laughing too loudly around it, wine "
         "skins lifted, a whole roast dripping, someone dancing "
@@ -271,7 +266,7 @@ PICTURES = [
         "nudity, violence, anyone facing the lens, modern "
         "objects",
         )),
-    ("p16", "n9", _p(
+    ("p16", ("n9", 0.55), _p(
         "The split: at a fork in the camp trail at dusk, two "
         "grown brothers part — one walking up-trail toward the "
         "altar hill's evening light, one walking down toward the "

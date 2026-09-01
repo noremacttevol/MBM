@@ -55,93 +55,84 @@
    "seg_dur": 12.232
   },
   {
-   "seg": "n5",
-   "speaker": "narrator",
-   "text": "Abraham was shown even further back. He saw the spirits that existed before the world \u2014 organized, real, eternal. His own account:",
-   "seg_start": 61.322,
-   "audio_start": 61.602,
-   "spoken_end": 70.59,
-   "seg_dur": 9.988
-  },
-  {
    "seg": "s1",
    "speaker": "scripture",
    "text": "Now the Lord had shown unto me, Abraham, the intelligences that were organized before the world was; and among all these there were many of the noble and great ones.",
-   "seg_start": 71.31,
-   "audio_start": 71.59,
-   "spoken_end": 80.056,
+   "seg_start": 61.322,
+   "audio_start": 61.602,
+   "spoken_end": 70.068,
    "seg_dur": 9.896
   },
   {
    "seg": "g3",
    "speaker": "father",
    "text": "Abraham, thou art one of them; thou wast chosen before thou wast born.",
-   "seg_start": 81.206,
-   "audio_start": 81.486,
-   "spoken_end": 88.012,
+   "seg_start": 71.218,
+   "audio_start": 71.498,
+   "spoken_end": 78.024,
    "seg_dur": 7.956
   },
   {
    "seg": "n6",
    "speaker": "narrator",
    "text": "Chosen before you were born. And that is not poetry reserved for Abraham \u2014 it is the family truth. Paul stood in the middle of Athens and said it to strangers:",
-   "seg_start": 89.162,
-   "audio_start": 89.442,
-   "spoken_end": 99.312,
+   "seg_start": 79.174,
+   "audio_start": 79.454,
+   "spoken_end": 89.324,
    "seg_dur": 10.87
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "For in him we live, and move, and have our being; as certain also of your own poets have said, For we are also his offspring.",
-   "seg_start": 100.032,
-   "audio_start": 100.312,
-   "spoken_end": 107.716,
+   "seg_start": 90.044,
+   "audio_start": 90.324,
+   "spoken_end": 97.727,
    "seg_dur": 8.833
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "Offspring. Not inventions. Not accidents of chemistry. Children \u2014 of glorified Parents \u2014 with eternity behind us, and their kind of life ahead of us, if we want it.",
-   "seg_start": 108.866,
-   "audio_start": 109.146,
-   "spoken_end": 121.2,
+   "seg_start": 98.877,
+   "audio_start": 99.157,
+   "spoken_end": 111.212,
    "seg_dur": 13.054
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "Which means the stranger you pass in traffic is older than the earth. The child asleep in your arms watched the foundations of the world. And the face in your mirror belongs to someone who stood in that council \u2014 and shouted for joy.",
-   "seg_start": 121.92,
-   "audio_start": 122.2,
-   "spoken_end": 134.589,
+   "seg_start": 111.932,
+   "audio_start": 112.212,
+   "spoken_end": 124.601,
    "seg_dur": 13.389
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "The devil needs you to forget every word of this. You're worthless. You're an animal. You're alone. You're an accident. Every one of those lies is aimed at a single target: your memory of who you are.",
-   "seg_start": 135.309,
-   "audio_start": 135.589,
-   "spoken_end": 148.221,
+   "seg_start": 125.321,
+   "audio_start": 125.601,
+   "spoken_end": 138.233,
    "seg_dur": 13.632
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "And God's first move, in every age, is the opposite. He tells His children who they are. Because a person who knows they are a child of God \u2014 chosen before birth \u2014 is very, very hard to enslave.",
-   "seg_start": 148.941,
-   "audio_start": 149.221,
-   "spoken_end": 160.14,
+   "seg_start": 138.953,
+   "audio_start": 139.233,
+   "spoken_end": 150.152,
    "seg_dur": 11.919
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "You are not a body that happens to have a soul. You are an eternal being who wanted this life so much you shouted when it was announced. Live like someone who chose to be here. Because you did.",
-   "seg_start": 160.86,
-   "audio_start": 161.14,
-   "spoken_end": 173.529,
+   "seg_start": 150.872,
+   "audio_start": 151.152,
+   "spoken_end": 163.54,
    "seg_dur": 13.388
   }
  ],
@@ -149,9 +140,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "You are older than the earth. You are a child of God. And you chose to be here.",
-  "seg_start": 174.249,
-  "audio_start": 174.529,
+  "seg_start": 164.26,
+  "audio_start": 164.54,
   "seg_dur": 6.691
  },
- "total": 180.94
+ "total": 170.951
 }

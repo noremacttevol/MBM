@@ -30,10 +30,6 @@ SEGMENTS = [
      "beheld the Spirit of God, that it came down and wrought upon the "
      "man; and he went forth upon the many waters, even unto the seed of "
      "my brethren, who were in the promised land."),
-    ("n3", NARRATOR,
-     "And behind that man, Nephi saw ships full of families — humble "
-     "people crossing the same waters to worship free. The gathering to "
-     "the promised land had a schedule, and heaven was keeping it."),
     ("n4", NARRATOR,
      "Meanwhile, God pried the book back open. Translators like Wycliffe "
      "and Tyndale put scripture into the language of plow-boys — and "
@@ -70,10 +66,6 @@ SEGMENTS = [
      "farmhouse table. Freedom of conscience — written into law. And a "
      "buried record waiting in a hillside, a few miles from a farm one "
      "particular family would settle on, as if by chance."),
-    ("n10", NARRATOR,
-     "Seventeen hundred years of famine — and every spark of light in "
-     "them was God, staging the ground. The reformers lit candles in "
-     "the dark. Heaven was preparing to turn on the sun."),
     ("n11", NARRATOR,
      "So honor the sparks. We owe them everything. And understand "
      "exactly why they were not enough: the famine was never a shortage "
@@ -126,7 +118,7 @@ PICTURES = [
         "windless-seeming immense sea, straight bright wake",
         "fleets, storms, land, flags readable",
         wide=True)),
-    ("p03", ("s1", 0.6), _p(
+    ("p03", ("s1", 0.45), _p(
         "Wrought upon: the navigator alone at the night rail — "
         "weathered face lifted to the stars, cloak stirring, one hand "
         "on the rigging and the other holding his cap to his chest — "
@@ -136,7 +128,7 @@ PICTURES = [
         "stars, cap held to his chest, compelled",
         "maps readable, crew, his eyes on the lens",
         )),
-    ("p04", "n3", _p(
+    ("p04", ("s1", 0.75), _p(
         "The families behind him: emigrant families huddled on a "
         "ship's open deck in cold dawn light — bundles and rope-tied "
         "chests, a mother's arm around two children under one "
@@ -268,7 +260,7 @@ PICTURES = [
         "the dusk farmhouse, lantern lifting",
         "faces, the hill in this frame, neighbors",
         era="america-1820", wide=True)),
-    ("p16", "n10", _p(
+    ("p16", "n11", _p(
         "Candles and the coming sun: inside a dark chapel, a "
         "rack of small candles burns faithful in the gloom — and "
         "through the window above them, the first GREY of dawn "
@@ -278,7 +270,7 @@ PICTURES = [
         "dawn grey arriving in the window above",
         "people, drawn rays, electric light",
         )),
-    ("p17", "n11", _p(
+    ("p17", ("n11", 0.55), _p(
         "Keys come from above: the pre-dawn sky over a dark "
         "hardwood treeline — the stars thinning, the east "
         "banded with the first watercolor of morning, the grove "

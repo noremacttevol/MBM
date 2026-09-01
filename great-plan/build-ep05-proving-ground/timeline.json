@@ -82,57 +82,48 @@
    "seg_dur": 12.215
   },
   {
-   "seg": "n7",
-   "speaker": "narrator",
-   "text": "A test can be a trap, or it can be training. A quiz measures what you were. Training builds what you will be. Mountains. Hunger. Distance. Gravity. Resistance everywhere you look \u2014 because resistance is how children of God grow.",
-   "seg_start": 85.594,
-   "audio_start": 85.874,
-   "spoken_end": 102.721,
-   "seg_dur": 17.847
-  },
-  {
    "seg": "g2",
    "speaker": "father",
    "text": "And they who keep their first estate shall be added upon; and they who keep their second estate shall have glory added upon their heads for ever and ever.",
-   "seg_start": 103.441,
-   "audio_start": 103.721,
-   "spoken_end": 114.409,
+   "seg_start": 85.594,
+   "audio_start": 85.874,
+   "spoken_end": 96.562,
    "seg_dur": 12.118
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "Added upon. That is the family word for what this planet is for. You kept your first estate \u2014 you are here, and that is the proof. The second estate runs the same play at heavier weight: keep choosing Him, and glory gets added. Forever.",
-   "seg_start": 115.559,
-   "audio_start": 115.839,
-   "spoken_end": 132.575,
+   "seg_start": 97.712,
+   "audio_start": 97.992,
+   "spoken_end": 114.728,
    "seg_dur": 17.736
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Now the honest part. How long did creation take? What processes did He use? How does the science fit in? God has not told us everything \u2014 and we will not pretend He has. What He revealed is who built it, and why. And that is the part that changes your Monday.",
-   "seg_start": 133.295,
-   "audio_start": 133.575,
-   "spoken_end": 150.063,
+   "seg_start": 115.448,
+   "audio_start": 115.728,
+   "spoken_end": 132.215,
    "seg_dur": 17.488
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "Because if this world is an accident, so are you, and nothing means anything. But if every sunrise is architecture \u2014 if the whole planet is a classroom built by Someone who intends His children to graduate \u2014 then your hardest day here is not chaos. It is curriculum.",
-   "seg_start": 150.783,
-   "audio_start": 151.063,
-   "spoken_end": 166.99,
+   "seg_start": 132.935,
+   "audio_start": 133.215,
+   "spoken_end": 149.143,
    "seg_dur": 16.927
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "The devil calls this earth his kingdom. Do not believe him. He never built anything. You are standing in your Father's school, on your Brother's handiwork \u2014 and they put you here to grow.",
-   "seg_start": 167.71,
-   "audio_start": 167.99,
-   "spoken_end": 179.218,
+   "seg_start": 149.863,
+   "audio_start": 150.143,
+   "spoken_end": 161.371,
    "seg_dur": 12.228
   }
  ],
@@ -140,9 +131,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "This world is not an accident. It is a classroom \u2014 and you were meant to graduate.",
-  "seg_start": 179.938,
-  "audio_start": 180.218,
+  "seg_start": 162.091,
+  "audio_start": 162.371,
   "seg_dur": 6.613
  },
- "total": 186.55
+ "total": 168.703
 }

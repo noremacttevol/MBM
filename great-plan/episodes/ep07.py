@@ -33,10 +33,6 @@ SEGMENTS = [
      "And they would have had no children; wherefore they would have "
      "remained in a state of innocence, having no joy, for they knew no "
      "misery; doing no good, for they knew no sin."),
-    ("n3", NARRATOR,
-     "No joy — because no misery. No good — because no sin. Frozen. Eden "
-     "was beautiful the way a photograph is beautiful. Perfect, and going "
-     "nowhere."),
     ("n4", NARRATOR,
      "So God did something the critics never notice. He put two trees in "
      "the middle — the tree of life, and the tree of knowledge — and gave "
@@ -56,10 +52,6 @@ SEGMENTS = [
      "Wherefore, the Lord God gave unto man that he should act for "
      "himself. Wherefore, man could not act for himself save it should be "
      "that he was enticed by the one or the other."),
-    ("n6", NARRATOR,
-     "Enticed by the one or the other. Opposition is not sabotage of the "
-     "plan — it is equipment. And right on schedule, the other enticement "
-     "slid into the garden."),
     ("n7", NARRATOR,
      "The serpent came carrying the first lie ever told on this earth. "
      "Listen closely. You have heard this voice before."),
@@ -68,10 +60,9 @@ SEGMENTS = [
      "thereof, then your eyes shall be opened, and ye shall be as gods, "
      "knowing good and evil."),
     ("n8", NARRATOR,
-     "Half-truths stitched with poison — his signature ever since. Their "
-     "eyes would open; that part was true. But underneath it was the "
-     "council pitch all over again: trust me instead of Him. He wanted "
-     "the fall to happen his way. Under his flag."),
+     "Half-truths stitched with poison — his signature ever since. But "
+     "underneath it was the council pitch all over again: trust me "
+     "instead of Him. He wanted the fall his way. Under his flag."),
     ("n9", NARRATOR,
      "And here is what he has never once understood. He thought he was "
      "wrecking God's plan. He was springing it. The fall was always the "
@@ -143,7 +134,7 @@ PICTURES = [
         "pool, nothing moving",
         "smiles, motion blur, animals, faces to camera",
         locks=["ADAM", "EVE"])),
-    ("p04", "n3", _p(
+    ("p04", ("s1", 0.55), _p(
         "Going nowhere: a single perfect fruit hanging heavy on its "
         "bough, skin flawless, dew beaded and holding, the light "
         "unchanging — extreme close, absolutely still, almost too "
@@ -203,7 +194,7 @@ PICTURES = [
         "her eyes on the lens, the serpent visible, reaching yet, "
         "distress",
         locks=["EVE"])),
-    ("p09", "n6", _p(
+    ("p09", ("s2", 0.6), _p(
         "The other enticement arrives: a great serpent glides along a "
         "moss-covered branch into the frame — iridescent, muscular, "
         "unhurried, its head leading toward the frame's right where "

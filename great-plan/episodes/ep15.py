@@ -36,9 +36,6 @@ SEGMENTS = [
      "Rising up betimes — that means early in the morning. Picture it: "
      "a God up at dawn, sending the next messenger. And the reason is "
      "right there in the verse. Not policy. Compassion."),
-    ("n5", NARRATOR,
-     "That is what a prophet is — God's early-morning messenger. And "
-     "heaven is committed to the system:"),
     ("s2", SCRIPTURE,
      "Surely the Lord God will do nothing, but he revealeth his secret "
      "unto his servants the prophets."),

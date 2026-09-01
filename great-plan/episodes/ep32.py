@@ -20,10 +20,9 @@ META = "D&C 76 · 137 · 138"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "Last big question of the war: how does it end — for everyone? The "
-     "billions who never heard. The babies. The honest souls born in "
-     "famine centuries. If God is who this film says He is, the ending "
-     "has to be worthy of Him. It is."),
+     "Last question of the war: how does it end — for everyone? The "
+     "billions who never heard. The babies. If God is who this film "
+     "says He is, the ending has to be worthy of Him. It is."),
     ("n2", NARRATOR,
      "Start with where everyone goes first. Not heaven-or-hell — the "
      "spirit world, where the dead are TAUGHT. You have heard Peter say "
@@ -34,10 +33,6 @@ SEGMENTS = [
      "messengers, clothed with power and authority, and commissioned "
      "them to go forth and carry the light of the gospel to them that "
      "were in darkness, even unto all the spirits of men."),
-    ("n3", NARRATOR,
-     "Organized missionaries — on the other side of death. Nobody's "
-     "chance dies with them. That is the machinery behind every temple "
-     "font you saw in episode thirty."),
     ("n4", NARRATOR,
      "The children? You know the answer from episode eight. But hear "
      "the revelation that settled it forever:"),
@@ -46,9 +41,8 @@ SEGMENTS = [
      "the years of accountability are saved in the celestial kingdom of "
      "heaven."),
     ("n5", NARRATOR,
-     "All children. Highest heaven. No exceptions, no rites required, "
-     "no asterisks. If you have lost a little one — that is where they "
-     "are. And that is who God is."),
+     "All children. Highest heaven. No exceptions. If you have lost a "
+     "little one — that is where they are. And that is who God is."),
     ("n6", NARRATOR,
      "Then the judgment itself. In eighteen thirty-two, the vision of "
      "the end was opened to Joseph Smith and Sidney Rigdon — and the "
@@ -61,40 +55,33 @@ SEGMENTS = [
      "the Father."),
     ("n7", NARRATOR,
      "He lives — we saw him. And then the vision opened the ending: "
-     "not heaven-or-incinerator. Kingdoms. Plural. Glory fitted to "
-     "what every soul can receive. Paul had already told the "
-     "Corinthians:"),
+     "kingdoms. Plural. Glory fitted to what every soul can receive. "
+     "Paul had already told the Corinthians:"),
     ("s4", SCRIPTURE,
      "There is one glory of the sun, and another glory of the moon, and "
      "another glory of the stars: for one star differeth from another "
      "star in glory."),
     ("n8", NARRATOR,
-     "Celestial. Terrestrial. Telestial. Sun, moon, and stars. And the "
-     "revelation adds that even the least kingdom is a glory that "
-     "surpasses all understanding. The Father does not run an "
-     "incinerator. He runs a homecoming — and every placement in it is "
-     "shaped by mercy."),
+     "Celestial. Terrestrial. Telestial. Sun, moon, and stars — and "
+     "even the least is a glory that surpasses all understanding. The "
+     "Father does not run an incinerator. He runs a homecoming."),
     ("n9", NARRATOR,
-     "Is hell real? Yes — as the anguish of the unrepentant before "
-     "judgment. And outer darkness waits only for the rare few who "
-     "gain full knowledge and choose full rebellion anyway — Lucifer's "
-     "original choice, made with Lucifer's original clarity. For every "
-     "other darkness there is a door out, and Christ holds it open to "
-     "the last possible instant."),
+     "Is hell real? Yes — as anguish before judgment. Outer darkness "
+     "waits only for the rare few who gain full knowledge and choose "
+     "full rebellion anyway. For every other darkness there is a door "
+     "out — and Christ holds it open to the last instant."),
     ("n10", NARRATOR,
-     "So add up the ending. Every child, safe. Every never-reached "
-     "soul, reached. Resurrection, free, for all. Kingdoms, instead of "
-     "a furnace. The family of Adam losing as close to nobody as "
-     "agency allows. Now say the article of faith with me:"),
+     "Add up the ending. Every child, safe. Every never-reached soul, "
+     "reached. Resurrection, free, for all. Kingdoms, not a furnace. "
+     "Now say the article of faith with me:"),
     ("s5", SCRIPTURE,
      "We believe that through the Atonement of Christ, all mankind may "
      "be saved, by obedience to the laws and ordinances of the "
      "Gospel."),
     ("n11", NARRATOR,
      "All mankind may be saved. That is the most generous account of "
-     "God's justice ever revealed — and it is the only ending that "
-     "matches the Father you have watched for thirty-one episodes. The "
-     "one who wept with Enoch. Who rose early with the messengers. Who "
+     "God's justice ever revealed — and the only ending that matches "
+     "the Father you have watched: the one who wept with Enoch, and "
      "paid the whole bill in a garden. Vengeance was never the plan. "
      "Family was."),
 ]
@@ -144,7 +131,7 @@ PICTURES = [
         "teaching messengers, light pooling at each",
         "wings, halos, gloom, faces to camera",
         era="heaven", wide=True)),
-    ("p03", ("s1", 0.6), _p(
+    ("p03", ("s1", 0.5), _p(
         "One at a time, there too: a bright-clothed messenger grips "
         "the shoulder of a rough-dressed listening man whose face is "
         "breaking — disbelief becoming hope in real time — the two "
@@ -154,7 +141,7 @@ PICTURES = [
         "face breaking from disbelief into hope, profiles",
         "wings, tears streaming, faces to camera",
         era="heaven")),
-    ("p04", "n3", _p(
+    ("p04", ("s1", 0.78), _p(
         "The machinery, this side: the temple font's bright water "
         "from just above its surface — one ring of ripples widening "
         "from a center the frame does not show, the twelve oxen's "
@@ -292,7 +279,7 @@ PICTURES = [
         "beginning smile deep in the beard",
         "His eyes on the lens, tears now, halo",
         era="heaven", locks=["FATHER"])),
-    ("p17", ("n11", 0.8), _p(
+    ("p17", ("n11", 0.6), _p(
         "First arrivals: the long dawn table again — and now, far "
         "down the orchard row, the first family walking in toward "
         "it from behind, a child skipping ahead of the parents "

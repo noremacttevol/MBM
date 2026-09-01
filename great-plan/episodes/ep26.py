@@ -60,29 +60,20 @@ SEGMENTS = [
      "pointing to His Son. The Son — the living, risen Jesus Christ — "
      "standing beside Him in the air. Every question the famine had "
      "starved for centuries: answered in ten seconds."),
-    ("n7", NARRATOR,
-     "God is not a formless mystery. The heavens are not sealed shut. The "
-     "Father and the Son are two distinct beings. And they know a farm boy "
-     "by his first name — because the first word of the vision was "
-     "Joseph."),
     ("n8", NARRATOR,
      "The boy asked his question, and got his answer: join none of them. "
      "The authority had left the earth centuries ago — and heaven was "
      "about to bring it back."),
     ("n9", NARRATOR,
-     "He walked out of those trees into a world that would hate him for "
-     "it. Preachers mocked. Neighbors turned. He was fourteen years old, "
-     "and he never took one word of it back. Here is how he said it "
-     "himself, years later:"),
+     "He walked out of those trees into a world that would hate him "
+     "for it. He was fourteen — and he never took one word of it back. "
+     "Years later, he wrote:"),
     ("s4", SCRIPTURE,
      "I had actually seen a light, and in the midst of that light I saw "
      "two Personages, and they did in reality speak to me; and though I "
      "was hated and persecuted for saying that I had seen a vision, yet it "
      "was true. For I had seen a vision; I knew it, and I knew that God "
      "knew it, and I could not deny it."),
-    ("n10", NARRATOR,
-     "The famine of the word ended that spring morning — broken by a "
-     "teenager who took one Bible verse completely at its word."),
     ("n11", NARRATOR,
      "And the invitation he used was never his alone. It is still in the "
      "book. If any of you lack wisdom — ask. He answered a farm boy. He "
@@ -295,7 +286,7 @@ PICTURES = [
         "replacing fear, gaze up past the frame",
         "his eyes on the lens, glow off his skin, darkness remaining",
         locks=["JOSEPH-SMITH"])),
-    ("p14", "n7", _p(
+    ("p14", ("n6", 0.35), _p(
         "Two, plainly: the Personages framed together at mid-distance, "
         "standing IN THE AIR side by side with clear open space "
         "between them and open air visibly beneath their feet — "
@@ -315,7 +306,7 @@ PICTURES = [
         "feet on the ground, gazes toward the camera, faces merging "
         "or matching, halos, aura outlines, wings, autumn colours",
         jesus=True, ref=True, locks=["FATHER"])),
-    ("p15", ("n7", 0.62), _p(
+    ("p15", ("n6", 0.68), _p(
         "His name: extreme close on Joseph's face at the instant of "
         "being known — eyes wide, brows lifted, the small involuntary "
         "flinch of a boy who has just heard his own first name spoken "
@@ -378,7 +369,7 @@ PICTURES = [
         "three-quarter gaze past the lens, unreadable page",
         "his eyes on the lens, grey hair, halo, readable writing",
         locks=["JOSEPH-SMITH"])),
-    ("p20", "n10", _p(
+    ("p20", "n11", _p(
         "The grove after: the small clearing empty in full mid-morning "
         "light — leaf-mould pressed where a boy knelt, green leaves "
         "luminous, long soft light between the trunks, absolute peace. "
@@ -387,7 +378,7 @@ PICTURES = [
         "leaf-mould where he knelt, no people",
         "any figure, light column remaining, mist, drawn rays",
         )),
-    ("p21", "n11", _p(
+    ("p21", ("n11", 0.55), _p(
         "The invitation now: in a present-day room at dawn, a person "
         "sits by a window with an open book in their lap — seen "
         "entirely from behind in silhouette-soft morning light, "

@@ -30,127 +30,109 @@
   {
    "seg": "n3",
    "speaker": "narrator",
-   "text": "Risen. Not resuscitated. Not remembered. Risen \u2014 body and spirit reunited forever, death running backward. Mary Magdalene met him in the garden and heard her own name. Thomas touched the marks. For forty days, hundreds watched him eat, and walk, and teach.",
+   "text": "Risen. Not resuscitated. Not remembered. Risen \u2014 body and spirit reunited forever, death running backward. Thomas touched the marks. For forty days, hundreds watched him eat, and walk, and teach.",
    "seg_start": 24.782,
    "audio_start": 25.062,
-   "spoken_end": 44.135,
-   "seg_dur": 20.073
+   "spoken_end": 38.663,
+   "seg_dur": 14.601
   },
   {
    "seg": "n4",
    "speaker": "narrator",
    "text": "Understand what broke that morning. Death \u2014 the devil's oldest, surest, hundred-percent weapon \u2014 became a temporary condition for every human being who ever lived. No faith required. No fee. A free gift to all, because one man walked out of a grave.",
-   "seg_start": 44.855,
-   "audio_start": 45.135,
-   "spoken_end": 61.822,
+   "seg_start": 39.383,
+   "audio_start": 39.663,
+   "spoken_end": 56.35,
    "seg_dur": 17.687
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "For as in Adam all die, even so in Christ shall all be made alive.",
-   "seg_start": 62.542,
-   "audio_start": 62.822,
-   "spoken_end": 66.559,
+   "seg_start": 57.07,
+   "audio_start": 57.35,
+   "spoken_end": 61.087,
    "seg_dur": 5.167
-  },
-  {
-   "seg": "n5",
-   "speaker": "narrator",
-   "text": "All. The word is all. Your resurrection is already purchased, whatever you do with the rest of the gospel. That is how thoroughly he disarmed the grave.",
-   "seg_start": 67.709,
-   "audio_start": 67.989,
-   "spoken_end": 76.715,
-   "seg_dur": 9.726
   },
   {
    "seg": "n6",
    "speaker": "narrator",
    "text": "Then he kept an appointment six hundred years in the making. In the land of the other sheep, twenty-five hundred people stood gathered at a temple in the land Bountiful \u2014 and heard a voice out of heaven:",
-   "seg_start": 77.435,
-   "audio_start": 77.715,
-   "spoken_end": 87.664,
+   "seg_start": 62.237,
+   "audio_start": 62.517,
+   "spoken_end": 72.466,
    "seg_dur": 10.949
   },
   {
    "seg": "g1",
    "speaker": "father",
    "text": "Behold my Beloved Son, in whom I am well pleased, in whom I have glorified my name \u2014 hear ye him.",
-   "seg_start": 88.384,
-   "audio_start": 88.664,
-   "spoken_end": 98.216,
+   "seg_start": 73.186,
+   "audio_start": 73.466,
+   "spoken_end": 83.018,
    "seg_dur": 10.981
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "Remember that introduction. The Father will give it once more, in a grove of trees, eighteen centuries later. And then \u2014 he came down.",
-   "seg_start": 99.366,
-   "audio_start": 99.646,
-   "spoken_end": 108.349,
+   "seg_start": 84.168,
+   "audio_start": 84.448,
+   "spoken_end": 93.151,
    "seg_dur": 9.704
   },
   {
    "seg": "j1",
    "speaker": "jesus",
    "text": "Behold, I am Jesus Christ, whom the prophets testified shall come into the world.",
-   "seg_start": 109.069,
-   "audio_start": 109.349,
-   "spoken_end": 113.161,
+   "seg_start": 93.871,
+   "audio_start": 94.151,
+   "spoken_end": 97.963,
    "seg_dur": 5.242
   },
   {
    "seg": "n8",
    "speaker": "narrator",
-   "text": "And he did not just preach to them. He invited every single person there \u2014 twenty-five hundred of them \u2014 to come, one at a time, and feel the prints in his hands and his side. Not the leaders. Everyone. It took hours. He stayed.",
-   "seg_start": 114.311,
-   "audio_start": 114.591,
-   "spoken_end": 130.701,
-   "seg_dur": 17.11
+   "text": "And he did not just preach to them. He invited every single person there to come, one at a time, and feel the prints in his hands and his side. It took hours. He stayed.",
+   "seg_start": 99.113,
+   "audio_start": 99.393,
+   "spoken_end": 109.486,
+   "seg_dur": 11.093
   },
   {
    "seg": "s3",
    "speaker": "scripture",
    "text": "And the multitude went forth, and thrust their hands into his side, and did feel the prints of the nails in his hands and in his feet; and this they did do, going forth one by one until they had all gone forth.",
-   "seg_start": 131.421,
-   "audio_start": 131.701,
-   "spoken_end": 144.007,
+   "seg_start": 110.206,
+   "audio_start": 110.486,
+   "spoken_end": 122.792,
    "seg_dur": 13.736
-  },
-  {
-   "seg": "n9",
-   "speaker": "narrator",
-   "text": "One by one. The risen King of the universe stood in a courtyard for hours, so that nobody would have to take his resurrection on rumor. That is what other sheep hearing his voice looks like \u2014 a promise kept, in person.",
-   "seg_start": 145.157,
-   "audio_start": 145.437,
-   "spoken_end": 158.487,
-   "seg_dur": 14.05
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "And in both hemispheres, before he left, he did the same thing: he organized his church, and he handed men the keys \u2014 apostles, prophets, the authority to baptize and to bind. The kingdom now had stewards. Hear the commission:",
-   "seg_start": 159.207,
-   "audio_start": 159.487,
-   "spoken_end": 174.788,
+   "seg_start": 123.942,
+   "audio_start": 124.222,
+   "spoken_end": 139.523,
    "seg_dur": 16.301
   },
   {
    "seg": "j2",
    "speaker": "jesus",
    "text": "All power is given unto me in heaven and in earth. Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost.",
-   "seg_start": 175.508,
-   "audio_start": 175.788,
-   "spoken_end": 185.305,
+   "seg_start": 140.243,
+   "audio_start": 140.523,
+   "spoken_end": 150.04,
    "seg_dur": 10.947
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "So read the scoreboard. The tomb is empty. Death is temporary. Both hemispheres hold apostles with keys. The devil's checkmate piece is off the board forever \u2014 so watch him closely now. He is about to change strategies. Next: the long theft.",
-   "seg_start": 186.455,
-   "audio_start": 186.735,
-   "spoken_end": 202.936,
+   "seg_start": 151.19,
+   "audio_start": 151.47,
+   "spoken_end": 167.671,
    "seg_dur": 17.201
   }
  ],
@@ -158,9 +140,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "The grave has been temporary for two thousand years. He made it free.",
-  "seg_start": 203.656,
-  "audio_start": 203.936,
+  "seg_start": 168.391,
+  "audio_start": 168.671,
   "seg_dur": 5.803
  },
- "total": 209.458
+ "total": 174.193
 }

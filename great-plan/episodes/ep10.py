@@ -52,12 +52,6 @@ SEGMENTS = [
     ("s2", SCRIPTURE,
      "And Cain said: Truly I am Mahan, the master of this great secret, "
      "that I may murder and get gain."),
-    ("n6", NARRATOR,
-     "Master Mahan. Murder, to get gain. The devil finally had the thing "
-     "he had wanted since the council — not just a tempted man, but an "
-     "organized one. A covenant structure. A dark mirror of God's own "
-     "order: oaths, secrets, hierarchy — aimed at gain instead of "
-     "grace."),
     ("n7", NARRATOR,
      "Abel died in a field, at his brother's hand. Scripture does not "
      "flinch, and neither will we: the first family buried a murdered "
@@ -71,11 +65,6 @@ SEGMENTS = [
      "doth carry on his works of darkness and secret murder, and doth "
      "hand down their plots, and their oaths, and their covenants, and "
      "their plans of awful wickedness, from generation to generation."),
-    ("n9", NARRATOR,
-     "Handed down, generation to generation. Every syndicate oath, every "
-     "cartel, every conspiracy that trades blood for power — that is not "
-     "random human badness. It is a franchise. The oldest one on "
-     "earth."),
     ("n10", NARRATOR,
      "Why show you something this dark? Because the war has structure on "
      "both sides. God builds covenants that exalt. The devil builds "
@@ -206,7 +195,7 @@ PICTURES = [
         "two initiates, camera outside the circle",
         "faces to camera, knives visible, documents",
         locks=["CAIN"])),
-    ("p09", "n6", _p(
+    ("p09", ("s2", 0.55), _p(
         "The dark mirror: in a night hollow below the bluffs, nine "
         "men kneel in a silent ring around one low red fire, heads "
         "bowed in wrong-sacred order, their shadows spoking outward "
@@ -274,7 +263,7 @@ PICTURES = [
         "faces clearly visible, banners, readable symbols, any "
         "non-human shape",
         wide=True)),
-    ("p15", "n9", _p(
+    ("p15", ("s3", 0.6), _p(
         "The same franchise, today: a dark modern back room — neat "
         "banded stacks of unmarked cash on a steel table beside a "
         "matte-black handgun and a burner phone, one hard task-lamp "

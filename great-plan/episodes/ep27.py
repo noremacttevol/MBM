@@ -72,14 +72,8 @@ SEGMENTS = [
     ("n9", NARRATOR,
      "Two witnesses. One God. The Book of Mormon does not replace the "
      "Bible — it stands beside it, and each testifies of the other. And "
-     "eleven men beyond Joseph handled the plates, hefted them, turned "
-     "their leaves — and signed their names to it for the rest of their "
-     "lives. Several of them kept that testimony even after falling out "
-     "with Joseph himself."),
-    ("n10", NARRATOR,
-     "The book went to press in Palmyra in eighteen thirty. Five "
-     "thousand copies — a believing farmer's farm mortgaged to pay for "
-     "them. The famine's answer, stacked and drying in a print shop."),
+     "eleven men beyond Joseph handled the plates — and signed their "
+     "names to it for the rest of their lives."),
     ("n11", NARRATOR,
      "And the invitation printed in its final chapter is still the "
      "engine of everything: read it, remember how merciful the Lord has "
@@ -304,7 +298,7 @@ PICTURES = [
         "lifting a leaf, hefting the weight, tracing engraving",
         "angels in frame, readable characters, faces to lens",
         wide=True)),
-    ("p17", "n10", _p(
+    ("p17", "n11", _p(
         "Palmyra, 1830: the Grandin press-room in work-lamp "
         "warmth — the iron press mid-pull, and everywhere the "
         "BOOK: printed sheets drying on lines overhead, folded "
@@ -316,7 +310,7 @@ PICTURES = [
         "drying overhead and gatherings stacked waist-high",
         "readable pages, modern machinery, faces to lens",
         wide=True)),
-    ("p18", "n11", _p(
+    ("p18", ("n11", 0.5), _p(
         "Addressed to you: in the present day, two hands open "
         "the same thick book at a morning window — the spine "
         "cracking softly, pages fanning past the thumbs, warm "

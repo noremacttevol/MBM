@@ -102,28 +102,19 @@
   {
    "seg": "n9",
    "speaker": "narrator",
-   "text": "Two witnesses. One God. The Book of Mormon does not replace the Bible \u2014 it stands beside it, and each testifies of the other. And eleven men beyond Joseph handled the plates, hefted them, turned their leaves \u2014 and signed their names to it for the rest of their lives. Several of them kept that testimony even after falling out with Joseph himself.",
+   "text": "Two witnesses. One God. The Book of Mormon does not replace the Bible \u2014 it stands beside it, and each testifies of the other. And eleven men beyond Joseph handled the plates \u2014 and signed their names to it for the rest of their lives.",
    "seg_start": 135.895,
    "audio_start": 136.175,
-   "spoken_end": 157.114,
-   "seg_dur": 21.939
-  },
-  {
-   "seg": "n10",
-   "speaker": "narrator",
-   "text": "The book went to press in Palmyra in eighteen thirty. Five thousand copies \u2014 a believing farmer's farm mortgaged to pay for them. The famine's answer, stacked and drying in a print shop.",
-   "seg_start": 157.834,
-   "audio_start": 158.114,
-   "spoken_end": 169.238,
-   "seg_dur": 12.124
+   "spoken_end": 150.365,
+   "seg_dur": 15.19
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "And the invitation printed in its final chapter is still the engine of everything: read it, remember how merciful the Lord has been \u2014 and ask God, in the name of Christ, if it is true. Millions have. You can. Moroni buried it for you. The least you can do is open it.",
-   "seg_start": 169.958,
-   "audio_start": 170.238,
-   "spoken_end": 188.794,
+   "seg_start": 151.085,
+   "audio_start": 151.365,
+   "spoken_end": 169.921,
    "seg_dur": 19.556
   }
  ],
@@ -131,9 +122,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "Buried by the last survivor. Delivered back by the same man. Addressed to you.",
-  "seg_start": 189.514,
-  "audio_start": 189.794,
+  "seg_start": 170.641,
+  "audio_start": 170.921,
   "seg_dur": 6.456
  },
- "total": 195.97
+ "total": 177.097
 }

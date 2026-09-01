@@ -28,14 +28,12 @@ SEGMENTS = [
     ("n2", NARRATOR,
      "April sixth, eighteen thirty. In a log farmhouse in Fayette, New "
      "York, the Church of Christ was formally organized on the earth "
-     "again — same name, same offices, same authority as Galilee. Six "
-     "members on the paperwork. A whole gathering on the calendar."),
+     "again — same name, same offices, same authority as Galilee."),
     ("n3", NARRATOR,
-     "Six years later, the young church finished its first temple, at "
-     "Kirtland, Ohio — built at crushing sacrifice by people who mostly "
-     "lived in cabins. The women even crushed their china into the "
-     "plaster so the walls would catch the light. They wanted a house "
-     "fit for visitors."),
+     "Six years later, the young church finished its first temple at "
+     "Kirtland, Ohio — built at crushing sacrifice. The women crushed "
+     "their own china into the plaster so the walls would catch the "
+     "light. They wanted a house fit for visitors."),
     ("n4", NARRATOR,
      "They got them. April third, eighteen thirty-six — Easter week. "
      "After the sacrament, Joseph and Oliver bowed behind the pulpit "
@@ -45,19 +43,15 @@ SEGMENTS = [
      "For behold, I have accepted this house, and my name shall be "
      "here; and I will manifest myself to my people in mercy in this "
      "house."),
-    ("n5", NARRATOR,
-     "Their written description reads like Ezekiel and John shaking "
-     "hands:"),
     ("s1", SCRIPTURE,
      "His eyes were as a flame of fire; the hair of his head was white "
      "like the pure snow; his countenance shone above the brightness of "
      "the sun; and his voice was as the sound of the rushing of great "
      "waters, even the voice of Jehovah."),
     ("n6", NARRATOR,
-     "Then, one after another, the department heads returned with their "
-     "portfolios. Moses — the same Moses — committed the keys of the "
-     "gathering of Israel: authority to bring the family home from the "
-     "ends of the earth."),
+     "Then, one after another, the department heads returned with "
+     "their portfolios. Moses — the same Moses — committed the keys of "
+     "the gathering of Israel."),
     ("n7", NARRATOR,
      "Then Elias, committing the dispensation of the gospel of Abraham "
      "— the covenant of the tent, folded whole into the restored "
@@ -74,21 +68,20 @@ SEGMENTS = [
     ("n9", NARRATOR,
      "Elijah — the Carmel prophet, the fire-caller — stood in the "
      "Kirtland temple and handed over the sealing power: authority to "
-     "bind on earth and have it bound in heaven. Marriages that outlast "
-     "death. Families welded past the grave. The dead — reachable."),
+     "bind on earth and have it bound in heaven. Families welded past "
+     "the grave. The dead — reachable."),
     ("n10", NARRATOR,
      "Feel what that last one means. The devil's version of death rips "
      "every family apart forever — every till-death-do-you-part is his "
-     "fine print. Elijah's keys tear the fine print up. And the hearts "
-     "of the children turning to their fathers? Look around: the whole "
-     "world caught family-history fever within a few generations of "
-     "that afternoon. The pull is real. It started somewhere."),
+     "fine print. Elijah's keys tear the fine print up. And look "
+     "around: the whole world caught family-history fever within a few "
+     "generations of that afternoon. The pull is real."),
     ("n11", NARRATOR,
      "So: the church came back on April sixth. But after April third, "
      "eighteen thirty-six, it was more than a church — a kingdom with "
      "gathering orders, Abraham's covenant, and death-proof glue. The "
      "devil spent seventeen centuries taking things off the earth. "
-     "Heaven had just spent six years putting every one of them back."),
+     "Heaven put every one of them back in six years."),
 ]
 
 CARD_SEG = ("card", NARRATOR,

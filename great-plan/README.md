@@ -76,14 +76,24 @@ queue in `media-production-v2/`:
   queue delivery spec. Every still is generated and framed for vertical.
 - **Social media: free to the world.** Episodes post publicly — they ARE the
   enticement, pulling people to download the app to see all of it,
-  organized and in order.
-- **In the app: NOT shown to everyone.** The Great Plan unlocks only for
-  users who by SELF-PROCLAMATION are investigating — open enough that their
-  signals reach the BRIDGE step. It appears as a **watch folder on the
-  PROFILE page** (one organized place, episodes in order, progress
-  tracked). It is never waved at MILK-stage seekers — the app's
-  invisible-routing law governs here like everywhere else. (App feature
-  spec lives here until the app work begins; the film is built first.)
+  organized and in order. **Launch shape (Cameron, 2026-09-01): ALL 33 at
+  once, ASAP, on the SAME accounts as the 200 videos — organized into the
+  platform's series container (YouTube playlist, TikTok playlist,
+  Instagram pinned/series) so the binge order is obvious.**
+- **In the app: NOT shown to everyone (Cameron, 2026-09-01 — final).** The
+  Great Plan folder is visible to **BRIDGE-stage users AND members/meat
+  (MAINTENANCE)** alike. It is hidden from **MILK-stage** users only. The
+  unlock signal is soft and low: the person has at least expressed
+  interest in "extra words from God" — openness to continuing revelation
+  (the same signal family as the BOM law). Cameron's reasoning, verbatim
+  spirit: the film doesn't truly align with people who wish to stay in
+  the milk phase, and that's OK — they can still see all of it on the
+  website or social media; hiding it in-app is not a wall, it's a
+  motivation. It appears as a **watch folder on the PROFILE page** (one
+  organized place, episodes in order, progress tracked). Never waved at
+  MILK-stage seekers — the app's invisible-routing law governs here like
+  everywhere else. (App feature spec lives here until the app work
+  begins; the film is built first.)
 - **Website (milkb4meat.org):** same treatment as the 200 videos.
 
 ---

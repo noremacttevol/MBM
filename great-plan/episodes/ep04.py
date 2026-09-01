@@ -26,27 +26,22 @@ SEGMENTS = [
      "How art thou fallen from heaven, O Lucifer, son of the morning! how "
      "art thou cut down to the ground, which didst weaken the nations!"),
     ("n2", NARRATOR,
-     "Lucifer. The name means light-bearer. Son of the morning. This was "
-     "not some monster crawling out of a pit — this was one of the family. "
-     "Brilliant. Trusted. Standing in authority. Until he wanted the "
-     "throne more than the family."),
+     "Lucifer. The name means light-bearer. Son of the morning. Not a "
+     "monster from a pit — one of the family. Brilliant. Trusted. Until "
+     "he wanted the throne more than the family."),
     ("j1", JESUS,
      "I beheld Satan as lightning fall from heaven."),
     ("n3", NARRATOR,
      "Jesus said that as an eyewitness. He watched it happen. And notice "
-     "what the fall cost: not existence — position. He lost the presence "
-     "of the Father. He lost his glory. And he lost one thing forever "
-     "that every single one of us has. He will never have a body."),
+     "what the fall cost: not existence — position. The presence of the "
+     "Father. His glory. And one thing more, forever: he will never "
+     "have a body."),
     ("n4", NARRATOR,
      "Every baby ever born receives the thing he forfeited. Remember that "
      "the next time he whispers that your body is shameful, or worthless, "
      "or a prison. He would trade anything for one."),
     ("s2", SCRIPTURE,
      "For he seeketh that all men might be miserable like unto himself."),
-    ("n5", NARRATOR,
-     "That is his entire business model, in one line. He cannot win "
-     "anything anymore. No body. No future. No throne. So he plays for "
-     "one outcome only — making your loss as total as his."),
     ("n6", NARRATOR,
      "Now the hard question. If God is all-powerful, and all-good — why "
      "keep a devil around? Why not just turn him off? God answered that "
@@ -58,29 +53,24 @@ SEGMENTS = [
     ("n7", NARRATOR,
      "Or they could not be agents unto themselves. There it is, from "
      "God's own mouth. Freedom is not real if no is impossible. A world "
-     "with no tempter is a world with no choice — and a world with no "
-     "choice was the devil's plan. God refused to defeat him by becoming "
-     "him."),
+     "with no tempter is a world with no choice — and that was the "
+     "devil's plan. God refused to defeat him by becoming him."),
     ("n8", NARRATOR,
      "So hold this straight: God did not create evil. He created freedom "
-     "— real freedom — knowing it could say no, knowing one of His "
-     "brightest would say it first, and knowing exactly what the repair "
-     "would cost. The Lamb was chosen before the devil ever fell."),
+     "— knowing it could say no, knowing His brightest would say it "
+     "first, and knowing what the repair would cost. The Lamb was chosen "
+     "before the devil ever fell."),
     ("s3", SCRIPTURE,
      "For it must needs be, that there is an opposition in all things."),
     ("n9", NARRATOR,
      "No opposition, no growth. No resistance, no strength. The road "
-     "where you become like Jesus runs uphill on purpose — and the devil, "
-     "without ever meaning to, is part of the incline. Every time you "
-     "tell him no, you become more of what God sent you here to become."),
+     "where you become like Jesus runs uphill on purpose — and every "
+     "time you tell the devil no, you become more of what God sent you "
+     "here to become."),
     ("s4", SCRIPTURE,
      "Woe to the inhabiters of the earth and of the sea! for the devil is "
      "come down unto you, having great wrath, because he knoweth that he "
      "hath but a short time."),
-    ("n10", NARRATOR,
-     "Having great wrath — because he knows he has but a short time. He "
-     "is not winning. He has already lost twice, the war and the tomb, "
-     "and he can hear the clock."),
     ("n11", NARRATOR,
      "So when temptation comes for you today, remember what is actually "
      "behind it. Not a rival god. A beaten, bodiless, desperate former "
@@ -191,7 +181,7 @@ PICTURES = [
         "ANY figure, eyes, shape or silhouette in the dark; graffiti "
         "words; rats swarming",
         era="modern", devil=True)),
-    ("p08", "n5", _p(
+    ("p08", ("n4", 0.55), _p(
         "Total loss made visible: a great stone hearth long cold — "
         "deep grey ash where a fire lived, one charred beam-end, a "
         "fine drift of ash-dust across the hearthstone in the pale "
@@ -294,7 +284,7 @@ PICTURES = [
         "ANY face, figure, claw or reaching shape in the clouds; "
         "tornadoes; buildings",
         era="ancient", devil=True, wide=True)),
-    ("p17", "n10", _p(
+    ("p17", "n11", _p(
         "Already lost twice: the great round stone of a garden tomb "
         "stands rolled ASIDE in its channel, and low dawn light "
         "pours through the open doorway into the empty chamber, "
@@ -305,7 +295,7 @@ PICTURES = [
         "hewn chamber",
         "guards, angels, grave clothes prominent, any figure",
         era="first-century")),
-    ("p18", "n11", _p(
+    ("p18", ("n11", 0.38), _p(
         "Beating the voice today: a young man crosses a city street "
         "out of the shadowed side into the full sunlit side — caught "
         "mid-stride from behind at the moment the light takes his "
@@ -315,7 +305,7 @@ PICTURES = [
         "into full morning sun",
         "his face, readable signs, brand marks, traffic danger",
         era="modern")),
-    ("p19", ("n11", 0.65), _p(
+    ("p19", ("n11", 0.7), _p(
         "Free: close on a face in full sunlight — eyes closed, "
         "breathing out, the peace of somebody who just said no and "
         "meant it — warm light across ordinary features, in the "

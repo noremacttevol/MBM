@@ -100,39 +100,30 @@
    "seg_dur": 21.888
   },
   {
-   "seg": "n8",
-   "speaker": "narrator",
-   "text": "So from day one there have been two churches on this earth. The one God plants, with ordinances that point to Christ. And the imitation \u2014 wearing religious language, teaching men to believe nothing, and to love pleasure more than God.",
-   "seg_start": 128.486,
-   "audio_start": 128.766,
-   "spoken_end": 142.77,
-   "seg_dur": 15.005
-  },
-  {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Some of Adam's children listened to the angel. Some loved the counterfeit. And that split, right down the middle of the first family, is the war \u2014 running through every family since.",
-   "seg_start": 143.49,
-   "audio_start": 143.77,
-   "spoken_end": 154.11,
+   "seg_start": 128.486,
+   "audio_start": 128.766,
+   "spoken_end": 139.105,
    "seg_dur": 11.339
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "But keep the headline. God did not wait one generation to preach Christ. The gospel came to Adam whole, immediate, and free. Nobody in the history of this world was ever born too early for Jesus.",
-   "seg_start": 154.83,
-   "audio_start": 155.11,
-   "spoken_end": 167.865,
+   "seg_start": 139.825,
+   "audio_start": 140.105,
+   "spoken_end": 152.861,
    "seg_dur": 13.756
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "So when someone tells you the gospel started two thousand years ago \u2014 or that God leaves His children in the dark \u2014 tell them about the first altar. He taught the first family. He will certainly teach yours.",
-   "seg_start": 168.585,
-   "audio_start": 168.865,
-   "spoken_end": 180.567,
+   "seg_start": 153.581,
+   "audio_start": 153.861,
+   "spoken_end": 165.562,
    "seg_dur": 12.701
   }
  ],
@@ -140,9 +131,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "The gospel is older than the world. And nobody was born too early for Christ.",
-  "seg_start": 181.287,
-  "audio_start": 181.567,
+  "seg_start": 166.282,
+  "audio_start": 166.562,
   "seg_dur": 6.639
  },
- "total": 187.925
+ "total": 172.921
 }

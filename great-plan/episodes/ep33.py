@@ -23,32 +23,28 @@ META = "Revelation 20-21 · 1 John 3"
 SEGMENTS = [
     ("n1", NARRATOR,
      "Thirty-two episodes ago, two speeches collided in a council "
-     "before the world. This is how the collision ends — and where you "
-     "come in for the final scene."),
+     "before the world. This is how it ends — and where you come in."),
     ("n2", NARRATOR,
      "The Son is coming back. Not as a baby this time — as the King. "
-     "The plan's last public event is already on every calendar in "
-     "heaven, and every eye will see it."),
+     "And every eye will see it."),
     ("s1", SCRIPTURE,
      "That at the name of Jesus every knee should bow, of things in "
      "heaven, and things in earth, and things under the earth; and "
      "that every tongue should confess that Jesus Christ is Lord, to "
      "the glory of God the Father."),
     ("n3", NARRATOR,
-     "Every knee. Including the ones that mocked. Including the one "
-     "that rebelled first. And then, the sentence this whole war has "
-     "been waiting for:"),
+     "Every knee — including the one that rebelled first. And then, "
+     "the sentence this whole war has been waiting for:"),
     ("s2", SCRIPTURE,
      "And I saw an angel come down from heaven, having the key of the "
      "bottomless pit and a great chain in his hand. And he laid hold on "
      "the dragon, that old serpent, which is the Devil, and Satan, and "
      "bound him a thousand years."),
     ("n4", NARRATOR,
-     "Bound. Not negotiated with. Not rehabilitated. Bound — and "
-     "notice the instrument: a great chain. The chain he flaunted over "
-     "Enoch's world comes back around. And the earth gets a thousand "
-     "years of what Zion tasted — children growing up without his "
-     "voice anywhere in the air."),
+     "Bound. Not negotiated with. Bound — with a great chain. The "
+     "chain he flaunted over Enoch's world comes back around. And the "
+     "earth gets a thousand years without his voice anywhere in the "
+     "air."),
     ("n5", NARRATOR,
      "But why not today? If the King can end it, why the wait? He "
      "answered that himself — in a parable this series has already "
@@ -64,10 +60,6 @@ SEGMENTS = [
      "The Lord is not slack concerning his promise, as some men count "
      "slackness; but is longsuffering to us-ward, not willing that any "
      "should perish, but that all should come to repentance."),
-    ("n7", NARRATOR,
-     "Not willing that ANY should perish. The clock runs slow on "
-     "purpose — and the purpose is every last name still on the "
-     "fence."),
     ("n8", NARRATOR,
      "And when it is finished — what was it all FOR? John answers with "
      "the family secret of the entire plan:"),
@@ -76,14 +68,10 @@ SEGMENTS = [
      "what we shall be: but we know that, when he shall appear, we "
      "shall be like him; for we shall see him as he is."),
     ("n9", NARRATOR,
-     "Like him. That was the point in the council. The point of "
-     "bodies, and the fall, and the cross, and the keys — children, "
+     "Like him. That was the point in the council — the point of "
+     "bodies, and the fall, and the cross, and the keys: children, "
      "growing up into what their Father is. The devil called that "
-     "blasphemy. The Father calls it parenthood. Paul signs it:"),
-    ("s5", SCRIPTURE,
-     "The Spirit itself beareth witness with our spirit, that we are "
-     "the children of God: and if children, then heirs; heirs of God, "
-     "and joint-heirs with Christ."),
+     "blasphemy. The Father calls it parenthood."),
     ("n10", NARRATOR,
      "Then the last scene of the old world — God's oldest gesture, and "
      "the answer, at last, to the God who wept with Enoch:"),
@@ -95,12 +83,10 @@ SEGMENTS = [
     ("n11", NARRATOR,
      "Back to the room where it started. He told us this would work — "
      "bodies, agency, a Savior, everything recoverable except the "
-     "will to refuse. It worked. The first speech wins: thy will be "
-     "done, and the glory be thine forever. And the glory, it turns "
-     "out — is us. Home. So, one thing left, because this cannot stay "
-     "a story you watched: ask Him if it is true. He answered a farm "
-     "boy in the woods. He has answered millions since. The "
-     "invitation from episode twenty-six has your name on it. Ask."),
+     "will to refuse. It worked. Thy will be done, and the glory be "
+     "thine forever — and the glory, it turns out, is us. Home. So, "
+     "one thing left: ask Him if it is true. He answered a farm boy "
+     "in the woods. The invitation has your name on it. Ask."),
 ]
 
 CARD_SEG = ("card", NARRATOR,
@@ -215,7 +201,7 @@ PICTURES = [
         "road, grass worn where he stands",
         "his face close, tears, the returner visible",
         era="ancient")),
-    ("p09", "n7", _p(
+    ("p09", ("s3", 0.55), _p(
         "Still deciding: a lone figure stands at a quiet modern "
         "crossroads at the exact turn of dawn — night's streetlamps "
         "still burning down one road, the other road running "
@@ -237,7 +223,7 @@ PICTURES = [
         "footprints across wet sand",
         "faces, crowds, text",
         )),
-    ("p11", "s5", _p(
+    ("p11", ("n9", 0.5), _p(
         "Heirs: at a weathered farm gate, an old hand presses a "
         "worn ring of keys into a grown child's open palm — both "
         "hands work-shaped from the same fields, the farm rolling "
@@ -283,7 +269,7 @@ PICTURES = [
         "beyond",
         "either face to the lens, halos, identical faces",
         era="heaven", jesus=True, ref=True, locks=["FATHER", "COURT"])),
-    ("p15", ("n11", 0.35), _p(
+    ("p15", ("n11", 0.3), _p(
         "The glory is us: the council court FULL again — but not "
         "with ranks now: with REUNIONS. Resurrected families "
         "streaming up the terraces into the arms of waiting "
@@ -296,7 +282,7 @@ PICTURES = [
         "kingdom scale, every face toward someone",
         "ranks, formality, faces to camera",
         era="heaven", wide=True, locks=["COURT", "HOSTS"])),
-    ("p16", ("n11", 0.65), _p(
+    ("p16", ("n11", 0.58), _p(
         "Your grove: in the present day, an ordinary person kneels "
         "down in an ordinary patch of trees at first light — city "
         "park or back woodlot, dew soaking through at the knees, "
@@ -308,7 +294,7 @@ PICTURES = [
         "at first light, head bowing",
         "their face, others, drawn rays, church buildings",
         )),
-    ("p17", ("n11", 0.88), _p(
+    ("p17", ("n11", 0.82), _p(
         "The last frame: the drumlin hill at full sunrise — and "
         "for the first time in the whole series, a single person "
         "is walking UP it, small against the gold, unhurried, "

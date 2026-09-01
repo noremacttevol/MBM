@@ -73,66 +73,48 @@
    "seg_dur": 8.056
   },
   {
-   "seg": "n6",
-   "speaker": "narrator",
-   "text": "Master Mahan. Murder, to get gain. The devil finally had the thing he had wanted since the council \u2014 not just a tempted man, but an organized one. A covenant structure. A dark mirror of God's own order: oaths, secrets, hierarchy \u2014 aimed at gain instead of grace.",
-   "seg_start": 93.551,
-   "audio_start": 93.831,
-   "spoken_end": 113.07,
-   "seg_dur": 20.24
-  },
-  {
    "seg": "n7",
    "speaker": "narrator",
    "text": "Abel died in a field, at his brother's hand. Scripture does not flinch, and neither will we: the first family buried a murdered son. And his blood cried to God from the ground.",
-   "seg_start": 113.79,
-   "audio_start": 114.07,
-   "spoken_end": 125.213,
+   "seg_start": 93.551,
+   "audio_start": 93.831,
+   "spoken_end": 104.973,
    "seg_dur": 12.143
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "The combination Cain founded did not die with him. Scripture tracks it down the centuries \u2014 and names exactly what keeps it alive:",
-   "seg_start": 125.933,
-   "audio_start": 126.213,
-   "spoken_end": 133.708,
+   "seg_start": 105.693,
+   "audio_start": 105.973,
+   "spoken_end": 113.469,
    "seg_dur": 8.495
   },
   {
    "seg": "s3",
    "speaker": "scripture",
    "text": "And behold, it is he who is the author of all sin. And behold, he doth carry on his works of darkness and secret murder, and doth hand down their plots, and their oaths, and their covenants, and their plans of awful wickedness, from generation to generation.",
-   "seg_start": 134.428,
-   "audio_start": 134.708,
-   "spoken_end": 150.463,
+   "seg_start": 114.189,
+   "audio_start": 114.469,
+   "spoken_end": 130.223,
    "seg_dur": 17.185
-  },
-  {
-   "seg": "n9",
-   "speaker": "narrator",
-   "text": "Handed down, generation to generation. Every syndicate oath, every cartel, every conspiracy that trades blood for power \u2014 that is not random human badness. It is a franchise. The oldest one on earth.",
-   "seg_start": 151.613,
-   "audio_start": 151.893,
-   "spoken_end": 167.18,
-   "seg_dur": 16.287
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "Why show you something this dark? Because the war has structure on both sides. God builds covenants that exalt. The devil builds covenants that devour. And you can tell them apart with one question: does this bond ask me to hide \u2014 or does it let me stand in the light?",
-   "seg_start": 167.9,
-   "audio_start": 168.18,
-   "spoken_end": 184.671,
+   "seg_start": 131.373,
+   "audio_start": 131.653,
+   "spoken_end": 148.144,
    "seg_dur": 17.491
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "The family of Adam survived its darkest day, and kept the altar burning. So can yours. And every oath of darkness ever sworn is outranked by one drop of the blood the lamb was pointing to all along.",
-   "seg_start": 185.391,
-   "audio_start": 185.671,
-   "spoken_end": 197.188,
+   "seg_start": 148.864,
+   "audio_start": 149.144,
+   "spoken_end": 160.661,
    "seg_dur": 12.517
   }
  ],
@@ -140,9 +122,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "Covenants of light exalt. Covenants of darkness devour. Know them apart by what they ask you to hide.",
-  "seg_start": 197.908,
-  "audio_start": 198.188,
+  "seg_start": 161.381,
+  "audio_start": 161.661,
   "seg_dur": 8.363
  },
- "total": 206.271
+ "total": 169.744
 }

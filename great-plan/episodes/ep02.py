@@ -38,10 +38,6 @@ SEGMENTS = [
      "All the sons of God, shouting for joy, while the earth was being "
      "built. That shout was ours. We watched the foundations poured — and "
      "we cheered, because that world was being built for us."),
-    ("n5", NARRATOR,
-     "Abraham was shown even further back. He saw the spirits that "
-     "existed before the world — organized, real, eternal. His own "
-     "account:"),
     ("s1", SCRIPTURE,
      "Now the Lord had shown unto me, Abraham, the intelligences that "
      "were organized before the world was; and among all these there were "
@@ -175,7 +171,7 @@ PICTURES = [
         "the camera",
         "anyone facing the lens, wings, glowing skin, cream robes",
         locks=["HOSTS"])),
-    ("p08", "n5", _p(
+    ("p08", "s1", _p(
         "Abraham under the desert stars: the aged patriarch stands "
         "outside his tent at full night, head back, face washed in "
         "starlight as the whole sweep of the heavens burns above the "
