@@ -3,155 +3,128 @@
   {
    "seg": "n1",
    "speaker": "narrator",
-   "text": "Last big question of the war: how does it end \u2014 for everyone? The billions who never heard. The babies. The honest souls born in famine centuries. If God is who this film says He is, the ending has to be worthy of Him. It is.",
+   "text": "Last question of the war: how does it end \u2014 for everyone? The billions who never heard. The babies. If God is who this film says He is, the ending has to be worthy of Him. It is.",
    "seg_start": 0.0,
    "audio_start": 0.28,
-   "spoken_end": 17.746,
-   "seg_dur": 18.466
+   "spoken_end": 12.718,
+   "seg_dur": 13.438
   },
   {
    "seg": "n2",
    "speaker": "narrator",
    "text": "Start with where everyone goes first. Not heaven-or-hell \u2014 the spirit world, where the dead are TAUGHT. You have heard Peter say it twice in this series. In nineteen eighteen, a prophet was shown the machinery:",
-   "seg_start": 18.466,
-   "audio_start": 18.746,
-   "spoken_end": 32.071,
+   "seg_start": 13.438,
+   "audio_start": 13.718,
+   "spoken_end": 27.042,
    "seg_dur": 14.324
   },
   {
    "seg": "s1",
    "speaker": "scripture",
    "text": "From among the righteous, he organized his forces and appointed messengers, clothed with power and authority, and commissioned them to go forth and carry the light of the gospel to them that were in darkness, even unto all the spirits of men.",
-   "seg_start": 32.791,
-   "audio_start": 33.071,
-   "spoken_end": 46.536,
+   "seg_start": 27.762,
+   "audio_start": 28.042,
+   "spoken_end": 41.508,
    "seg_dur": 14.896
-  },
-  {
-   "seg": "n3",
-   "speaker": "narrator",
-   "text": "Organized missionaries \u2014 on the other side of death. Nobody's chance dies with them. That is the machinery behind every temple font you saw in episode thirty.",
-   "seg_start": 47.686,
-   "audio_start": 47.966,
-   "spoken_end": 57.012,
-   "seg_dur": 10.046
-  },
-  {
-   "seg": "n4",
-   "speaker": "narrator",
-   "text": "The children? You know the answer from episode eight. But hear the revelation that settled it forever:",
-   "seg_start": 57.732,
-   "audio_start": 58.012,
-   "spoken_end": 63.48,
-   "seg_dur": 6.468
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "And I also beheld that all children who die before they arrive at the years of accountability are saved in the celestial kingdom of heaven.",
-   "seg_start": 64.2,
-   "audio_start": 64.48,
-   "spoken_end": 71.368,
+   "seg_start": 42.658,
+   "audio_start": 42.938,
+   "spoken_end": 49.826,
    "seg_dur": 8.318
   },
   {
    "seg": "n5",
    "speaker": "narrator",
-   "text": "All children. Highest heaven. No exceptions, no rites required, no asterisks. If you have lost a little one \u2014 that is where they are. And that is who God is.",
-   "seg_start": 72.518,
-   "audio_start": 72.798,
-   "spoken_end": 83.218,
-   "seg_dur": 11.42
+   "text": "All children. Highest heaven. No exceptions. If you have lost a little one \u2014 that is where they are. And that is who God is.",
+   "seg_start": 50.976,
+   "audio_start": 51.256,
+   "spoken_end": 58.828,
+   "seg_dur": 8.573
   },
   {
    "seg": "n6",
    "speaker": "narrator",
    "text": "Then the judgment itself. In eighteen thirty-two, the vision of the end was opened to Joseph Smith and Sidney Rigdon \u2014 and the first thing they wrote down was not thrones. It was Him:",
-   "seg_start": 83.938,
-   "audio_start": 84.218,
-   "spoken_end": 95.815,
+   "seg_start": 59.548,
+   "audio_start": 59.828,
+   "spoken_end": 71.425,
    "seg_dur": 12.597
   },
   {
    "seg": "s3",
    "speaker": "scripture",
    "text": "And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives! For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father.",
-   "seg_start": 96.535,
-   "audio_start": 96.815,
-   "spoken_end": 112.037,
+   "seg_start": 72.145,
+   "audio_start": 72.425,
+   "spoken_end": 87.647,
    "seg_dur": 16.652
-  },
-  {
-   "seg": "n7",
-   "speaker": "narrator",
-   "text": "He lives \u2014 we saw him. And then the vision opened the ending: not heaven-or-incinerator. Kingdoms. Plural. Glory fitted to what every soul can receive. Paul had already told the Corinthians:",
-   "seg_start": 113.187,
-   "audio_start": 113.467,
-   "spoken_end": 126.64,
-   "seg_dur": 14.174
   },
   {
    "seg": "s4",
    "speaker": "scripture",
    "text": "There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory.",
-   "seg_start": 127.36,
-   "audio_start": 127.64,
-   "spoken_end": 136.379,
+   "seg_start": 88.797,
+   "audio_start": 89.077,
+   "spoken_end": 97.815,
    "seg_dur": 10.169
   },
   {
    "seg": "n8",
    "speaker": "narrator",
-   "text": "Celestial. Terrestrial. Telestial. Sun, moon, and stars. And the revelation adds that even the least kingdom is a glory that surpasses all understanding. The Father does not run an incinerator. He runs a homecoming \u2014 and every placement in it is shaped by mercy.",
-   "seg_start": 137.529,
-   "audio_start": 137.809,
-   "spoken_end": 156.81,
-   "seg_dur": 20.002
+   "text": "Celestial. Terrestrial. Telestial. Sun, moon, and stars \u2014 and even the least is a glory that surpasses all understanding. The Father does not run an incinerator. He runs a homecoming.",
+   "seg_start": 98.965,
+   "audio_start": 99.245,
+   "spoken_end": 111.305,
+   "seg_dur": 13.06
   },
   {
    "seg": "n9",
    "speaker": "narrator",
-   "text": "Is hell real? Yes \u2014 as the anguish of the unrepentant before judgment. And outer darkness waits only for the rare few who gain full knowledge and choose full rebellion anyway \u2014 Lucifer's original choice, made with Lucifer's original clarity. For every other darkness there is a door out, and Christ holds it open to the last possible instant.",
-   "seg_start": 157.53,
-   "audio_start": 157.81,
-   "spoken_end": 180.908,
-   "seg_dur": 24.098
+   "text": "Is hell real? Yes \u2014 as anguish before judgment. Outer darkness waits only for the few who gain full knowledge and choose full rebellion. For every other darkness there is a door out \u2014 and Christ holds it open.",
+   "seg_start": 112.025,
+   "audio_start": 112.305,
+   "spoken_end": 126.653,
+   "seg_dur": 15.348
   },
   {
    "seg": "n10",
    "speaker": "narrator",
-   "text": "So add up the ending. Every child, safe. Every never-reached soul, reached. Resurrection, free, for all. Kingdoms, instead of a furnace. The family of Adam losing as close to nobody as agency allows. Now say the article of faith with me:",
-   "seg_start": 181.628,
-   "audio_start": 181.908,
-   "spoken_end": 196.82,
-   "seg_dur": 15.912
+   "text": "Add up the ending. Every child, safe. Every never-reached soul, reached. Resurrection, free, for all. Kingdoms, not a furnace. Now say the article of faith with me:",
+   "seg_start": 127.373,
+   "audio_start": 127.653,
+   "spoken_end": 141.212,
+   "seg_dur": 14.56
   },
   {
    "seg": "s5",
    "speaker": "scripture",
    "text": "We believe that through the Atonement of Christ, all mankind may be saved, by obedience to the laws and ordinances of the Gospel.",
-   "seg_start": 197.54,
-   "audio_start": 197.82,
-   "spoken_end": 204.554,
+   "seg_start": 141.932,
+   "audio_start": 142.212,
+   "spoken_end": 148.946,
    "seg_dur": 8.164
   },
   {
    "seg": "n11",
    "speaker": "narrator",
-   "text": "All mankind may be saved. That is the most generous account of God's justice ever revealed \u2014 and it is the only ending that matches the Father you have watched for thirty-one episodes. The one who wept with Enoch. Who rose early with the messengers. Who paid the whole bill in a garden. Vengeance was never the plan. Family was.",
-   "seg_start": 205.704,
-   "audio_start": 205.984,
-   "spoken_end": 225.821,
-   "seg_dur": 20.837
+   "text": "All mankind may be saved. That is the most generous account of God's justice ever revealed \u2014 and the only ending that matches the Father you have watched: the one who wept with Enoch, and paid the whole bill in a garden. Vengeance was never the plan. Family was.",
+   "seg_start": 150.096,
+   "audio_start": 150.376,
+   "spoken_end": 165.838,
+   "seg_dur": 16.462
   }
  ],
  "card": {
   "seg": "card",
   "speaker": "narrator",
   "text": "Heaven is not a gated community. It is a Father losing as close to nobody as agency allows.",
-  "seg_start": 226.541,
-  "audio_start": 226.821,
+  "seg_start": 166.558,
+  "audio_start": 166.838,
   "seg_dur": 7.24
  },
- "total": 233.78
+ "total": 173.797
 }

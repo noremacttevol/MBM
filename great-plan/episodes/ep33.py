@@ -41,10 +41,9 @@ SEGMENTS = [
      "the dragon, that old serpent, which is the Devil, and Satan, and "
      "bound him a thousand years."),
     ("n4", NARRATOR,
-     "Bound. Not negotiated with. Bound — with a great chain. The "
-     "chain he flaunted over Enoch's world comes back around. And the "
-     "earth gets a thousand years without his voice anywhere in the "
-     "air."),
+     "Bound — with a great chain. The chain he flaunted over Enoch's "
+     "world comes back around. And the earth gets a thousand years "
+     "without his voice in the air."),
     ("n5", NARRATOR,
      "But why not today? If the King can end it, why the wait? He "
      "answered that himself — in a parable this series has already "
@@ -52,10 +51,6 @@ SEGMENTS = [
     ("j1", JESUS,
      "Nay; lest while ye gather up the tares, ye root up also the "
      "wheat with them. Let both grow together until the harvest."),
-    ("n6", NARRATOR,
-     "Pull the tares early, and you tear up wheat. Every day the end "
-     "delays, somebody is still deciding. And Peter says the delay "
-     "itself is the mercy:"),
     ("s3", SCRIPTURE,
      "The Lord is not slack concerning his promise, as some men count "
      "slackness; but is longsuffering to us-ward, not willing that any "
@@ -68,10 +63,9 @@ SEGMENTS = [
      "what we shall be: but we know that, when he shall appear, we "
      "shall be like him; for we shall see him as he is."),
     ("n9", NARRATOR,
-     "Like him. That was the point in the council — the point of "
-     "bodies, and the fall, and the cross, and the keys: children, "
-     "growing up into what their Father is. The devil called that "
-     "blasphemy. The Father calls it parenthood."),
+     "Like him. That was the point in the council — children, growing "
+     "up into what their Father is. The devil called that blasphemy. "
+     "The Father calls it parenthood."),
     ("n10", NARRATOR,
      "Then the last scene of the old world — God's oldest gesture, and "
      "the answer, at last, to the God who wept with Enoch:"),

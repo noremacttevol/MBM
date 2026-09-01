@@ -12,127 +12,100 @@
   {
    "seg": "n2",
    "speaker": "narrator",
-   "text": "Refresh the originals. One voice: Father, thy will be done, and the glory be thine forever. The other: I will save them all \u2014 force them all \u2014 wherefore give me thine honor. Keep both in your ear, and listen to your day.",
+   "text": "Refresh the originals. One voice: Father, thy will be done, and the glory be thine forever. The other: I will save them all \u2014 force them all \u2014 wherefore give me thine honor. Now listen to your day.",
    "seg_start": 14.671,
    "audio_start": 14.951,
-   "spoken_end": 31.667,
-   "seg_dur": 17.716
+   "spoken_end": 29.098,
+   "seg_dur": 15.146
   },
   {
    "seg": "n3",
    "speaker": "narrator",
-   "text": "The devil's speech today almost never says worship me. It says: you deserve this. Skip the cost. Everyone does it. It hurts nobody. And its masterpiece line \u2014 there is no devil; that idea is medieval. Nephi transcribed that exact pitch twenty-five centuries early:",
-   "seg_start": 32.387,
-   "audio_start": 32.667,
-   "spoken_end": 51.57,
-   "seg_dur": 19.902
+   "text": "The devil's speech today almost never says worship me. It says: you deserve this. Skip the cost. Everyone does it. And its masterpiece \u2014 there is no devil. Nephi transcribed that exact pitch twenty-five centuries early:",
+   "seg_start": 29.818,
+   "audio_start": 30.098,
+   "spoken_end": 44.525,
+   "seg_dur": 15.427
   },
   {
    "seg": "s1",
    "speaker": "scripture",
    "text": "And behold, others he flattereth away, and telleth them there is no hell; and he saith unto them: I am no devil, for there is none \u2014 and thus he whispereth in their ears, until he grasps them with his awful chains, from whence there is no deliverance.",
-   "seg_start": 52.29,
-   "audio_start": 52.57,
-   "spoken_end": 67.272,
+   "seg_start": 45.245,
+   "audio_start": 45.525,
+   "spoken_end": 60.227,
    "seg_dur": 16.132
-  },
-  {
-   "seg": "n4",
-   "speaker": "narrator",
-   "text": "I am no devil, for there is none. His best trick was never possession. It is public relations.",
-   "seg_start": 68.422,
-   "audio_start": 68.702,
-   "spoken_end": 74.598,
-   "seg_dur": 6.896
   },
   {
    "seg": "n5",
    "speaker": "narrator",
    "text": "And there is a second track, for the comfortable:",
-   "seg_start": 75.318,
-   "audio_start": 75.598,
-   "spoken_end": 77.815,
+   "seg_start": 61.377,
+   "audio_start": 61.657,
+   "spoken_end": 63.874,
    "seg_dur": 3.218
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "And others will he pacify, and lull them away into carnal security, that they will say: All is well in Zion; yea, Zion prospereth, all is well \u2014 and thus the devil cheateth their souls, and leadeth them away carefully down to hell.",
-   "seg_start": 78.535,
-   "audio_start": 78.815,
-   "spoken_end": 93.252,
+   "seg_start": 64.594,
+   "audio_start": 64.874,
+   "spoken_end": 79.311,
    "seg_dur": 15.867
-  },
-  {
-   "seg": "n6",
-   "speaker": "narrator",
-   "text": "Carefully. Not dramatically \u2014 carefully. No horns. No contracts at midnight crossroads. Just comfort, a closed curtain, and one degree of drift a day.",
-   "seg_start": 94.402,
-   "audio_start": 94.682,
-   "spoken_end": 105.666,
-   "seg_dur": 11.984
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "Now the Father's speech in modern clothes. His style guide is actually written down \u2014 how power from heaven is allowed to operate, and the only way:",
-   "seg_start": 106.386,
-   "audio_start": 106.666,
-   "spoken_end": 115.468,
+   "seg_start": 80.461,
+   "audio_start": 80.741,
+   "spoken_end": 89.542,
    "seg_dur": 9.801
   },
   {
    "seg": "s3",
    "speaker": "scripture",
    "text": "No power or influence can or ought to be maintained by virtue of the priesthood, only by persuasion, by long-suffering, by gentleness and meekness, and by love unfeigned.",
-   "seg_start": 116.188,
-   "audio_start": 116.468,
-   "spoken_end": 126.821,
+   "seg_start": 90.262,
+   "audio_start": 90.542,
+   "spoken_end": 100.895,
    "seg_dur": 11.783
   },
   {
    "seg": "n8",
    "speaker": "narrator",
-   "text": "Persuasion. Long-suffering. Gentleness. Love unfeigned. That is not just a rule for priesthood holders \u2014 it is the signature of heaven. So when any voice pushes, panics, shames, or forces you \u2014 check the return address.",
-   "seg_start": 127.971,
-   "audio_start": 128.251,
-   "spoken_end": 145.216,
-   "seg_dur": 17.966
+   "text": "Persuasion. Long-suffering. Gentleness. Love unfeigned. That is the signature of heaven. So when any voice pushes, panics, shames, or forces you \u2014 check the return address.",
+   "seg_start": 102.045,
+   "audio_start": 102.325,
+   "spoken_end": 114.754,
+   "seg_dur": 13.428
   },
   {
    "seg": "n9",
    "speaker": "narrator",
-   "text": "Here is the whole field guide in one test, from Mormon. Does a thing invite you to do good, to love God, to serve? Or does it entice you to hurt, to despair, to quit? Every voice in your day sorts into those two bins \u2014 every ad, every impulse, every three-a.m. thought:",
-   "seg_start": 145.936,
-   "audio_start": 146.216,
-   "spoken_end": 164.11,
-   "seg_dur": 18.894
+   "text": "Here is the whole field guide in one test, from Mormon. Does a thing invite you to do good, to love God, to serve? Or does it entice you to hurt, to despair, to quit? Every voice in your day sorts into those two bins:",
+   "seg_start": 115.474,
+   "audio_start": 115.754,
+   "spoken_end": 129.654,
+   "seg_dur": 14.9
   },
   {
    "seg": "s4",
    "speaker": "scripture",
    "text": "That which is of God inviteth and enticeth to do good continually; wherefore, every thing which inviteth and enticeth to do good, and to love God, and to serve him, is inspired of God.",
-   "seg_start": 164.83,
-   "audio_start": 165.11,
-   "spoken_end": 176.164,
+   "seg_start": 130.374,
+   "audio_start": 130.654,
+   "spoken_end": 141.708,
    "seg_dur": 12.484
-  },
-  {
-   "seg": "n10",
-   "speaker": "narrator",
-   "text": "And the council replays daily, in small. Every time you choose the harder right with your freedom intact, you re-cast your vote from before the world. And every time something tries to control you for your own good \u2014 a manipulator, an addiction, an algorithm \u2014 that is the other speech, still hunting a throne.",
-   "seg_start": 177.314,
-   "audio_start": 177.594,
-   "spoken_end": 196.825,
-   "seg_dur": 20.231
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "You are not watching this war on a screen. You are in the cast. And your Father's side still fights exactly the way it fought in heaven \u2014 testimony, patience, love, and never, ever force. Choose like you chose. You have done this before.",
-   "seg_start": 197.545,
-   "audio_start": 197.825,
-   "spoken_end": 213.484,
+   "seg_start": 142.858,
+   "audio_start": 143.138,
+   "spoken_end": 158.797,
    "seg_dur": 16.659
   }
  ],
@@ -140,9 +113,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "Every ad, impulse, and three-a.m. thought sorts into two speeches. You have voted before. Vote again.",
-  "seg_start": 214.204,
-  "audio_start": 214.484,
+  "seg_start": 159.517,
+  "audio_start": 159.797,
   "seg_dur": 9.068
  },
- "total": 223.272
+ "total": 168.585
 }

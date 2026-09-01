@@ -1,0 +1,187 @@
+[
+ {
+  "era": "modern",
+  "scene": "The war's current address: a crowded evening subway car, every face washed in the cold blue undersides of held devices \u2014 except ONE passenger mid-car who has looked UP, face turned to the window where the last daylight is running along the tunnel's mouth, lit warm and different. No screen contents visible anywhere; no face toward the lens.",
+  "must_show": "a device-lit subway car with one upturned face caught in warm window light",
+  "must_not_show": "readable screens, brand marks, faces to camera, caricature",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 14.671
+ },
+ {
+  "era": "heaven",
+  "scene": "The originals: the premortal court reprised \u2014 the warm bright dais-side at the frame's left with the white-robed hosts gathered, and the frame's right third gone cold and dim and EMPTY, its boundary one smooth formless fade. The two speeches, staged the way episode one staged them. Camera high behind the crowd; no face back.",
+  "must_show": "the split court reprise \u2014 warm gathered left, cold empty dim right, smooth formless boundary",
+  "must_not_show": "any shape in the dim, faces to camera, weapons",
+  "devil": true,
+  "wide": true,
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 14.671,
+  "end": 32.387
+ },
+ {
+  "era": "modern",
+  "scene": "You deserve this: a night-lit luxury storefront window of watches and leather without one readable brand \u2014 and hovering in the glass, the transparent reflection of a longing face gazing in, ghost-faint over the goods, streetlight rain-sheen on the pavement. The whisper, in retail.",
+  "must_show": "an anonymous luxury window with a ghost-faint longing reflection hovering over the goods",
+  "must_not_show": "readable brands or prices, the person solid, faces to lens",
+  "devil": true,
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 32.387,
+  "end": 52.29
+ },
+ {
+  "era": "modern",
+  "scene": "The PR campaign: a huge street-corner billboard at dusk that is simply BLACK \u2014 a clean unmarked void over the busy sidewalk, no message, no image, nothing \u2014 while the crowd streams beneath it unbothered, nobody looking up. The best trick, rendered: a presence with no face, advertising its own absence.",
+  "must_show": "a clean unmarked black billboard over an unbothered streaming crowd at dusk",
+  "must_not_show": "any text or logo on the board, any figure in its black, faces to lens",
+  "devil": true,
+  "wide": true,
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 52.29,
+  "end": 61.969
+ },
+ {
+  "era": "modern",
+  "scene": "The awful chains, house edition: a nightstand at three a.m. \u2014 a phone face-down still leaking cold light at its edges, and its charging cord coiled around itself in tight loops across the wood like a small white chain \u2014 a glass of water untouched, the sleeper's blurred shape beyond. Domestic. Quiet. Holding.",
+  "must_show": "a face-down leaking phone with its cord coiled chain-like on a 3 a.m. nightstand, sleeper blurred beyond",
+  "must_not_show": "readable screen, brand marks, horror styling",
+  "devil": true,
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 61.969,
+  "end": 78.535
+ },
+ {
+  "era": "modern",
+  "scene": "All is well: a beautiful comfortable living room at NOON \u2014 deep sofa, feet in wool socks up on the ottoman, steam off a mug, soft lamplight \u2014 and every curtain DRAWN SHUT, the blazing midday edging the fabric in thin gold lines the room has chosen not to receive. Prosperity, with the light shut out.",
+  "must_show": "a cozy noon living room with feet up and every curtain shut, daylight edging the fabric",
+  "must_not_show": "squalor, screens readable, people's faces, gloom styling",
+  "devil": true,
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 78.535,
+  "end": 94.402
+ },
+ {
+  "era": "modern",
+  "scene": "Carefully down: a gleaming mall escalator descending \u2014 one relaxed man riding it down, coffee in hand, jacket open, perfectly at ease, the polished chrome and warm retail light carrying him smoothly lower \u2014 seen from the floor below at the escalator's foot. Nothing sinister in frame; that is the point.",
+  "must_show": "one at-ease coffee-holding man descending a gleaming escalator, seen from below",
+  "must_not_show": "readable storefronts, crowds, his face to the lens, darkness",
+  "devil": true,
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 94.402,
+  "end": 116.188
+ },
+ {
+  "era": "modern",
+  "scene": "Heaven's style guide: a grandmother's floured hands guide a child's small hands INTO bread dough on a wooden table \u2014 teaching by covering, not gripping, her patience visible in the lightness of the touch, morning kitchen light, flour in the air like weather. Persuasion, gentleness, love unfeigned \u2014 in one lesson.",
+  "must_show": "a grandmother's light floured hands guiding a child's hands into dough, morning kitchen light",
+  "must_not_show": "faces to camera, mess played for chaos, brand marks",
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 116.188,
+  "end": 123.258
+ },
+ {
+  "era": "modern",
+  "scene": "Long-suffering, live: a father KNEELS to toddler height in a hallway before his mid-tantrum child \u2014 his arms open and resting on his knees, not grabbing, not looming, his face calm and level with the small red furious one \u2014 waiting out the storm at eye level with the storm. Power, declining to be used.",
+  "must_show": "a father kneeling eye-level to a tantruming toddler, arms open and ungrabbing, calm",
+  "must_not_show": "anger in the father, spanking, faces to camera",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 123.258,
+  "end": 127.971
+ },
+ {
+  "era": "modern",
+  "scene": "Check the return address: two envelopes side by side on a doormat \u2014 one printed in shouting red blocks and urgent stamps, all of it unreadable; one plain cream paper with a few lines of soft unreadable handwriting \u2014 morning light across both. Same mat. Different senders. You can tell before you open them.",
+  "must_show": "a shouting red unreadable envelope beside a plain handwritten one on a doormat",
+  "must_not_show": "readable words, addresses, hands",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 127.971,
+  "end": 164.83
+ },
+ {
+  "era": "modern",
+  "scene": "Mormon's sorter: at a farm table by warm lamplight, a woman's practiced hands sort a heap of apples into two baskets \u2014 the sound one going right, a bruised one going left, one apple held mid-judgment in her palm \u2014 the evening's harvest becoming two clean bins. Every voice in your day, in fruit.",
+  "must_show": "hands sorting apples into two baskets by lamplight, one apple held mid-judgment",
+  "must_not_show": "her face prominent, rot graphic, text",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 164.83,
+  "end": 177.314
+ },
+ {
+  "era": "modern",
+  "scene": "The harder right, made physical: five a.m. \u2014 a runner sliding their phone into a dresser drawer and pushing it SHUT with a knuckle, running shoes already laced in the lamplight, the window behind still night-black. The vote, re-cast before sunrise. Face unseen.",
+  "must_show": "a hand pushing a phone into a drawer at 5 a.m., laced running shoes waiting, face unseen",
+  "must_not_show": "readable screen, brand marks, faces",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 177.314,
+  "end": 187.429
+ },
+ {
+  "era": "modern",
+  "scene": "The other speech, hunting: a bank of slot machines' carnival light washing over one slack motionless face \u2014 eyes reflecting the spin, hand resting on the button out of habit rather than hope, the rest of the room falling to black around the machine's embrace. No brands, no readable reels. A throne, being sat on.",
+  "must_show": "slot-light washing a slack motionless face, habitual hand on the button, room falling to black",
+  "must_not_show": "readable machines, other patrons, mockery",
+  "devil": true,
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 187.429,
+  "end": 193.499
+ },
+ {
+  "era": "modern",
+  "scene": "The vote as a doorbell: a casserole dish balanced on one arm while the other hand presses a neighbor's doorbell \u2014 evening porch light warming the foil and the knuckle, a welcome mat below, the door a breath from opening. Service: the oldest ballot there is.",
+  "must_show": "a casserole balanced on one arm while a finger presses a porch doorbell at evening",
+  "must_not_show": "faces, house numbers, brand marks",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 193.499,
+  "end": 197.545
+ },
+ {
+  "era": "modern",
+  "scene": "In the cast: the hallway mirror from episode two \u2014 but now the person stands square to it and the reflection is CLEAR: an ordinary face meeting its own eyes calmly, chin level, morning light even across the glass. The veil-washed stranger of episode two, replaced by somebody who knows their name.",
+  "must_show": "a person square to the hallway mirror with a CLEAR calm reflection meeting their own eyes",
+  "must_not_show": "the reflection looking at the camera instead, bathroom clutter, brand marks",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 197.545,
+  "end": 206.707
+ },
+ {
+  "era": "modern",
+  "scene": "Heaven's way, working: in a warm living room, two men stand behind a seated young woman with their hands resting gently together on her head in blessing \u2014 her eyes closed, her mother's hand in hers, a grandfather watching with wet eyes from the sofa arm \u2014 priesthood operating exactly per the style guide. Reverent, plain, quiet.",
+  "must_show": "two men's gentle hands together on a seated woman's head in blessing, family close, eyes closed",
+  "must_not_show": "vestments, faces to camera, theatrics",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 206.707,
+  "end": 211.705
+ },
+ {
+  "era": "modern",
+  "scene": "The daily truce: a city skyline at first light \u2014 the night's window-lights going out block by block as the sunrise takes over the job, the sky clean, the streets still. The war pauses for no one; the light still wins the morning, every morning. No people.",
+  "must_show": "city window-lights going out block by block as sunrise takes over, clean sky",
+  "must_not_show": "billboards readable, traffic, drawn rays",
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 211.705,
+  "end": 214.204
+ }
+]

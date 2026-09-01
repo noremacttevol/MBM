@@ -1,0 +1,186 @@
+[
+ {
+  "era": "modern",
+  "scene": "The question, at scale: an old churchyard at first light \u2014 generations of leaning headstones running away down the slope into morning mist, every inscription weathered past reading, dew silvering the grass between them. Everyone who ever wondered how it ends. No people.",
+  "must_show": "generations of unreadable leaning headstones running into morning mist",
+  "must_not_show": "readable names or dates, mourners, gloom styling",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 32.791
+ },
+ {
+  "era": "heaven",
+  "scene": "The mission field beyond: the vast calm grey-white assembly from the flood episode \u2014 but ORGANIZED now: among the numberless listeners, many bright-clothed messengers move and teach, one at the center of each gathered cluster, light pooling wherever they stand \u2014 a mission, at the scale of the dead. Seen from high behind the crowds.",
+  "must_show": "the vast spirit assembly now clustered around many bright teaching messengers, light pooling at each",
+  "must_not_show": "wings, halos, gloom, faces to camera",
+  "wide": true,
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 32.791,
+  "end": 41.729
+ },
+ {
+  "era": "heaven",
+  "scene": "One at a time, there too: a bright-clothed messenger grips the shoulder of a rough-dressed listening man whose face is breaking \u2014 disbelief becoming hope in real time \u2014 the two of them in profile, the crowd soft beyond. The gospel doing on that side exactly what it does on this one.",
+  "must_show": "a messenger's hand on a rough-dressed man's shoulder, his face breaking from disbelief into hope, profiles",
+  "must_not_show": "wings, tears streaming, faces to camera",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 41.729,
+  "end": 47.686
+ },
+ {
+  "era": "modern",
+  "scene": "The machinery, this side: the temple font's bright water from just above its surface \u2014 one ring of ripples widening from a center the frame does not show, the twelve oxen's backs soft beneath, white light everywhere. One name, just served. No people in frame.",
+  "must_show": "one widening ripple-ring on bright font water over soft oxen backs",
+  "must_not_show": "swimmers, splashing, faces",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 47.686,
+  "end": 64.2
+ },
+ {
+  "era": "modern",
+  "scene": "All children: a bright orchard in full morning \u2014 a dozen small children mid-game among the blossoming trees, running, swinging on a low bough, two crouched over something wonderful in the grass \u2014 laughter readable in every small body, light warm and endless. Safe is a place, and it looks like this.",
+  "must_show": "a dozen small children mid-play in a blossoming bright orchard, laughter readable in the bodies",
+  "must_not_show": "adults, wings, halos, faces to camera",
+  "wide": true,
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 64.2,
+  "end": 72.518
+ },
+ {
+  "era": "modern",
+  "scene": "For the ones who lost one: a young mother kneels at a small grave at dawn \u2014 and her face, lifted into the arriving light, is caught exactly at the turn: grief still wet on it, and hope physically entering, like warmth into cold hands. The smallest headstone stays unreadable; the light does the speaking.",
+  "must_show": "a young mother's lifted face at a small grave, grief turning to hope in arriving dawn light",
+  "must_not_show": "readable stone, despair alone, others",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 72.518,
+  "end": 83.938
+ },
+ {
+  "era": "america-1820",
+  "scene": "The vision of the end: in a plain upper room, Joseph and another man sit struck motionless mid-vision \u2014 both faces lifted and lit by something the room's windows cannot explain, eyes open and fixed on the unseen, while around the walls a dozen witnesses watch the watchers in awe. Eighteen thirty-two, mid-revelation.",
+  "must_show": "two seated seers lit and struck mid-vision, a dozen witnesses watching the watchers",
+  "must_not_show": "the vision rendered in frame, halos, faces to camera",
+  "locks": [
+   "JOSEPH-SMITH"
+  ],
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 83.938,
+  "end": 96.535
+ },
+ {
+  "era": "modern",
+  "scene": "The testimony, last of all: the risen Jesus close \u2014 alive, warm, sovereign \u2014 his locked face in glory-light with the gladness of the Kirtland appearance, gaze angled past the camera's shoulder toward every witness who ever said THAT HE LIVES. The whole revelation's first fact, in one face.",
+  "must_show": "the risen Jesus's close warm sovereign face, gaze past the lens",
+  "must_not_show": "his eyes on the lens, halo, white hair, wounds",
+  "jesus": true,
+  "ref": true,
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 96.535,
+  "end": 127.36
+ },
+ {
+  "era": "modern",
+  "scene": "Sun, moon and stars in one sky: dusk over open country \u2014 the setting sun still burning gold on the western horizon, the full moon already risen pale in the deepening east, and between them, high in the violet, the first three stars \u2014 all three glories sharing one honest sky. No people.",
+  "must_show": "setting sun, risen full moon and first stars sharing one dusk sky over open country",
+  "must_not_show": "planets labeled-looking, drawn rays, figures",
+  "wide": true,
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 127.36,
+  "end": 133.461
+ },
+ {
+  "era": "modern",
+  "scene": "Reading the sky: a family stretched on a blanket on a hillside beneath that same dusk \u2014 parents and three kids in a row on their backs, one small arm pointing up, all faces to the heavens and away from the camera at the blanket's foot. The doctrine, stargazed.",
+  "must_show": "a family on their backs on a hillside blanket, one small arm pointing up at the dusk sky",
+  "must_not_show": "faces to camera, telescopes, city glow",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 133.461,
+  "end": 137.529
+ },
+ {
+  "era": "modern",
+  "scene": "Even the least is glory: an utterly ordinary roadside meadow at golden hour rendered breathtaking \u2014 seed-heads blazing, insects drifting like sparks, one crooked fence post crowned in backlit grass \u2014 the 'least' of landscapes, surpassing understanding anyway. No people.",
+  "must_show": "an ordinary meadow at golden hour made breathtaking \u2014 blazing seed-heads, drifting spark-like insects",
+  "must_not_show": "figures, buildings, drawn rays",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 137.529,
+  "end": 149.53
+ },
+ {
+  "era": "ancient",
+  "scene": "Placement, mercy-shaped: at dusk a shepherd sorts his flock through gates into two hurdle-folds \u2014 and he does it CARRYING the lame ewe against his chest while his free hand guides the others through, every animal handled toward shelter, none driven. Judgment, the way this Father does it.",
+  "must_show": "a shepherd sorting sheep into folds at dusk while carrying the lame ewe against his chest",
+  "must_not_show": "whips, dogs snarling, culling implications",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 149.53,
+  "end": 157.53
+ },
+ {
+  "era": "modern",
+  "scene": "Held open to the last: full night on an empty moor \u2014 and one doorway of warm light standing open in a dark farmhouse wall, the lamp inside throwing a long gold path across the grass toward the frame's dark edge, the threshold empty, the door wedged wide. Nobody is made to walk in. Nobody is locked out.",
+  "must_show": "one warm open doorway throwing a long gold path across night grass, threshold empty, door wedged wide",
+  "must_not_show": "figures, storm, bolts or chains",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 157.53,
+  "end": 181.628
+ },
+ {
+  "era": "modern",
+  "scene": "The ending, set: a single immensely LONG farm table at dawn light stretching away down an orchard row \u2014 dozens of mismatched chairs, places laid, lamps still burning down its length, steam rising from somewhere near \u2014 seats for absolutely everyone who will come. Not one chair leaned against the table's edge.",
+  "must_show": "one immensely long laid table with mismatched chairs stretching down a dawn orchard row",
+  "must_not_show": "guests seated yet, name cards readable, gates",
+  "wide": true,
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 181.628,
+  "end": 197.54
+ },
+ {
+  "era": "modern",
+  "scene": "The family creed: a child's small hand and a grandfather's spotted one hold OPEN the same small thick book between them \u2014 two generations, one page, morning window light across the unreadable print and the four thumbs. All mankind, may be saved.",
+  "must_show": "a child's hand and a grandfather's holding one small open book together in window light",
+  "must_not_show": "readable text, faces, jewellery",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 197.54,
+  "end": 205.704
+ },
+ {
+  "era": "heaven",
+  "scene": "The Father the ending matches: His close face once more \u2014 the tears of the Enoch episode long dried, the sorrow kept but transfigured, the beginnings of a smile deep in the silver beard, warm light full on the features that wept over the chain. A Father at the end of a very long plan, watching it come home.",
+  "must_show": "the Father's close warm face, old sorrow transfigured, a beginning smile deep in the beard",
+  "must_not_show": "His eyes on the lens, tears now, halo",
+  "locks": [
+   "FATHER"
+  ],
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 205.704,
+  "end": 222.374
+ },
+ {
+  "era": "modern",
+  "scene": "First arrivals: the long dawn table again \u2014 and now, far down the orchard row, the first family walking in toward it from behind, a child skipping ahead of the parents toward the lamps and the steam and the endless laid places. The homecoming, beginning. ",
+  "must_show": "the first family from behind approaching the long laid dawn table, child skipping ahead",
+  "must_not_show": "faces, crowds yet, gates",
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 222.374,
+  "end": 226.541
+ }
+]

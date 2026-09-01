@@ -33,9 +33,6 @@ SEGMENTS = [
      "messengers, clothed with power and authority, and commissioned "
      "them to go forth and carry the light of the gospel to them that "
      "were in darkness, even unto all the spirits of men."),
-    ("n4", NARRATOR,
-     "The children? You know the answer from episode eight. But hear "
-     "the revelation that settled it forever:"),
     ("s2", SCRIPTURE,
      "And I also beheld that all children who die before they arrive at "
      "the years of accountability are saved in the celestial kingdom of "
@@ -53,10 +50,6 @@ SEGMENTS = [
      "lives! For we saw him, even on the right hand of God; and we "
      "heard the voice bearing record that he is the Only Begotten of "
      "the Father."),
-    ("n7", NARRATOR,
-     "He lives — we saw him. And then the vision opened the ending: "
-     "kingdoms. Plural. Glory fitted to what every soul can receive. "
-     "Paul had already told the Corinthians:"),
     ("s4", SCRIPTURE,
      "There is one glory of the sun, and another glory of the moon, and "
      "another glory of the stars: for one star differeth from another "
@@ -67,9 +60,9 @@ SEGMENTS = [
      "Father does not run an incinerator. He runs a homecoming."),
     ("n9", NARRATOR,
      "Is hell real? Yes — as anguish before judgment. Outer darkness "
-     "waits only for the rare few who gain full knowledge and choose "
-     "full rebellion anyway. For every other darkness there is a door "
-     "out — and Christ holds it open to the last instant."),
+     "waits only for the few who gain full knowledge and choose full "
+     "rebellion. For every other darkness there is a door out — and "
+     "Christ holds it open."),
     ("n10", NARRATOR,
      "Add up the ending. Every child, safe. Every never-reached soul, "
      "reached. Resurrection, free, for all. Kingdoms, not a furnace. "
@@ -132,14 +125,19 @@ PICTURES = [
         "wings, halos, gloom, faces to camera",
         era="heaven", wide=True)),
     ("p03", ("s1", 0.5), _p(
-        "One at a time, there too: a bright-clothed messenger grips "
-        "the shoulder of a rough-dressed listening man whose face is "
-        "breaking — disbelief becoming hope in real time — the two "
-        "of them in profile, the crowd soft beyond. The gospel doing "
-        "on that side exactly what it does on this one.",
-        "a messenger's hand on a rough-dressed man's shoulder, his "
-        "face breaking from disbelief into hope, profiles",
-        "wings, tears streaming, faces to camera",
+        "One at a time, there too: a messenger in the hosts' bright "
+        "pure-WHITE long-sleeved one-piece robe — an ordinary "
+        "faithful man's face, short grey-flecked hair, clearly NOT "
+        "the Lord — grips the shoulder of a rough-dressed listening "
+        "man whose face is breaking — disbelief becoming hope in "
+        "real time — the two of them in profile, the crowd soft "
+        "beyond. The gospel doing on that side exactly what it does "
+        "on this one.",
+        "a white-robed messenger's hand on a rough-dressed man's "
+        "shoulder, his face breaking from disbelief into hope, "
+        "profiles",
+        "cream robe, the Lord's face, wings, tears streaming, faces "
+        "to camera",
         era="heaven")),
     ("p04", ("s1", 0.78), _p(
         "The machinery, this side: the temple font's bright water "
@@ -186,13 +184,16 @@ PICTURES = [
         era="america-1820", locks=["JOSEPH-SMITH"])),
     ("p08", "s3", _p(
         "The testimony, last of all: the risen Jesus close — alive, "
-        "warm, sovereign — his locked face in glory-light with the "
-        "gladness of the Kirtland appearance, gaze angled past the "
-        "camera's shoulder toward every witness who ever said THAT "
-        "HE LIVES. The whole revelation's first fact, in one face.",
-        "the risen Jesus's close warm sovereign face, gaze past "
-        "the lens",
-        "his eyes on the lens, halo, white hair, wounds",
+        "warm, sovereign — his locked face with the gladness of the "
+        "Kirtland appearance, gaze angled past the camera's shoulder "
+        "toward every witness who ever said THAT HE LIVES. He stands "
+        "in pure abstract warm GLORY-LIGHT — depth of soft radiant "
+        "brightness only, NO room, NO furniture, NO objects, NO "
+        "landscape. The whole revelation's first fact, in one face.",
+        "the risen Jesus's close warm sovereign face in pure "
+        "abstract glory-light, gaze past the lens",
+        "rooms, furniture, shelves, modern objects, his eyes on the "
+        "lens, halo, white hair, wounds",
         jesus=True, ref=True)),
     ("p09", "s4", _p(
         "Sun, moon and stars in one sky: dusk over open country — "

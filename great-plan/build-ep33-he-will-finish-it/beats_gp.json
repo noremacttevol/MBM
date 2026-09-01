@@ -1,0 +1,193 @@
+[
+ {
+  "era": "heaven",
+  "scene": "Bookend: the pre-creation expanse from the very first frame of the series \u2014 deep indigo above, the eternal dawn's first gold along the infinite horizon \u2014 the exact image episode one opened on, holding the whole story between itself and now. No figures, no world.",
+  "must_show": "the deep indigo pre-creation expanse with first gold rising along an infinite horizon",
+  "must_not_show": "any planet, figure, drawn rays, text",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 9.02
+ },
+ {
+  "era": "modern",
+  "scene": "The last public event begins: an ordinary modern street at midday \u2014 and the whole EASTERN sky is opening: a brilliance beyond weather building above the rooftops, while below every pedestrian has stopped mid-stride, every face turned up, keys and bags frozen in hands. Seen along the street past stopped shoulders; the light's centre stays above the frame.",
+  "must_show": "a stopped modern street with every face turned up at an opening eastern brilliance above the rooftops",
+  "must_not_show": "any figure in the sky yet, panic, readable signs, faces to lens",
+  "wide": true,
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 9.02,
+  "end": 19.216
+ },
+ {
+  "era": "modern",
+  "scene": "Every knee: down the same street, the crowd is KNEELING \u2014 a wave of it, some slowly, some already down, a workman's hand over his heart, a woman lowering her stroller-grip to the pavement, every body angled east toward the light \u2014 seen from behind the kneeling wave. Nobody was forced; every spine says so.",
+  "must_show": "a street crowd kneeling in an eastward wave, unforced, seen from behind",
+  "must_not_show": "soldiers, coercion, faces to camera",
+  "wide": true,
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 19.216,
+  "end": 27.437
+ },
+ {
+  "era": "modern",
+  "scene": "The King, seen: Jesus descending through parting brilliance \u2014 upright in the air, arms opening, the cream robe and the locked face now in the glory of the Bountiful descent magnified \u2014 clouds of light rolling back from him like doors. The camera looks up with the world; his feet stand on nothing; no aura outlines him \u2014 the whole sky is the light.",
+  "must_show": "Jesus upright in opening sky-brilliance, arms opening, clouds rolling back like doors, feet on nothing",
+  "must_not_show": "wings, halo, aura outline, armies, drawn rays",
+  "jesus": true,
+  "ref": true,
+  "wide": true,
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 27.437,
+  "end": 43.417
+ },
+ {
+  "era": "modern",
+  "scene": "The binding: a mighty angel \u2014 a glorified man, no wings \u2014 hauls a GREAT IRON CHAIN closed around a writhing MASS OF FORMLESS DARKNESS at the lip of a bottomless shaft \u2014 the darkness pure shapeless black, no face, no limbs, no eyes, compressing under the links like smoke under a net \u2014 the angel's stance all leverage and finality, the key huge at his belt. The chain, come back around.",
+  "must_show": "a wingless mighty angel chaining a purely formless black mass at a shaft's lip, great key at his belt",
+  "must_not_show": "ANY face, eyes, limbs, horns or figure in the darkness; wings; flames",
+  "devil": true,
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 43.417,
+  "end": 58.431
+ },
+ {
+  "era": "modern",
+  "scene": "A thousand years of quiet: broad daylight in deep meadow grass \u2014 a small child asleep on its back, arms flung wide in total safety, while a WOLF lies curled at rest an arm's length away and a lamb grazes between them \u2014 Isaiah's picture, photographed. Nothing in the frame knows how to be afraid anymore.",
+  "must_show": "a child asleep in meadow grass with a resting wolf and grazing lamb an arm's length away",
+  "must_not_show": "parents hovering, fear, fantasy styling",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 58.431,
+  "end": 86.63
+ },
+ {
+  "era": "first-century",
+  "scene": "The why of the wait: extreme close in a ripening wheat field \u2014 wheat stalks and darnel tares growing INTERTWINED, their roots visibly wound together at the soil line where the frame dips, one golden head and one false head side by side in the same light. Pull one now, tear both.",
+  "must_show": "wheat and tares intertwined at the visible root line, golden head and false head side by side",
+  "must_not_show": "harvesters, scythes, storm",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 86.63,
+  "end": 104.161
+ },
+ {
+  "era": "ancient",
+  "scene": "Longsuffering, at the gate: an old father stands at his farm gate in the last light, one hand on the post, looking down the long empty road \u2014 the posture held so many evenings the grass is worn where he stands \u2014 dinner light warm in the house behind him. Not slack. Waiting.",
+  "must_show": "an old father at his gate at dusk watching a long empty road, grass worn where he stands",
+  "must_not_show": "his face close, tears, the returner visible",
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 104.161,
+  "end": 116.616
+ },
+ {
+  "era": "modern",
+  "scene": "Still deciding: a lone figure stands at a quiet modern crossroads at the exact turn of dawn \u2014 night's streetlamps still burning down one road, the other road running straight into the sunrise \u2014 hands in pockets, weight shifting, the choice legible in the stance. Seen from behind. The clock, running slow for exactly this person.",
+  "must_show": "a lone figure from behind at a dawn crossroads between a lamplit road and a sunrise road",
+  "must_not_show": "signs readable, traffic, their face",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 116.616,
+  "end": 132.21
+ },
+ {
+  "era": "modern",
+  "scene": "Like him: a father walks ahead across firm wet sand at morning, and behind him his small child stretches each stride to land EXACTLY in the father's footprints \u2014 arms out for balance, tongue of concentration, three prints conquered and the fourth mid-air \u2014 both from behind, the sea bright beyond. The doctrine, at toddler scale.",
+  "must_show": "a child from behind stretching to walk in a father's footprints across wet sand",
+  "must_not_show": "faces, crowds, text",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 132.21,
+  "end": 160.758
+ },
+ {
+  "era": "modern",
+  "scene": "Heirs: at a weathered farm gate, an old hand presses a worn ring of keys into a grown child's open palm \u2014 both hands work-shaped from the same fields, the farm rolling away gold behind them, the transfer caught at the moment both hold the keys together. Everything the Father has.",
+  "must_show": "old hands pressing a worn key-ring into grown hands at a farm gate, both holding at the transfer",
+  "must_not_show": "faces, documents, jewellery",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 160.758,
+  "end": 178.882
+ },
+ {
+  "era": "heaven",
+  "scene": "The wiping: the Father's great hand cups a weeping woman's face \u2014 His thumb mid-stroke across her cheek, taking the tear \u2014 her eyes closing under the touch, her own hand rising to hold His wrist; His face above hers soft-focused and bent close. The gesture Enoch saw reversed at last: the God who wept, drying the tears. The series' most tender frame.",
+  "must_show": "the Father's thumb mid-wipe across a weeping woman's cheek, her hand holding His wrist, His bent face soft above",
+  "must_not_show": "faces to camera, halo, theatrical light",
+  "locks": [
+   "FATHER"
+  ],
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 178.882,
+  "end": 186.387
+ },
+ {
+  "era": "modern",
+  "scene": "Former things, passed away: a hospital room emptied of its purpose \u2014 the bed made and vacant, machines dark and unplugged, and the window thrown fully OPEN with morning pouring in, the curtain breathing in the warm air. Death, out of business. No people.",
+  "must_show": "an emptied made hospital bed with dark machines and a thrown-open window breathing morning",
+  "must_not_show": "patients, staff, grief objects",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 186.387,
+  "end": 191.391
+ },
+ {
+  "era": "heaven",
+  "scene": "The room where it started: the Father and the Son at the dais edge \u2014 the exact composition of episode one's embrace, the hand on the shoulder \u2014 but now both faces are OPEN WITH JOY: the work behind them, the court beyond beginning to fill, the Father's smile deep in the silver beard, the Son's gladness the same as Kirtland. He told us it would work.",
+  "must_show": "the Father's hand on the Son's shoulder as in episode one, both faces open with finished joy, court filling beyond",
+  "must_not_show": "either face to the lens, halos, identical faces",
+  "jesus": true,
+  "ref": true,
+  "locks": [
+   "FATHER",
+   "COURT"
+  ],
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 191.391,
+  "end": 203.756
+ },
+ {
+  "era": "heaven",
+  "scene": "The glory is us: the council court FULL again \u2014 but not with ranks now: with REUNIONS. Resurrected families streaming up the terraces into the arms of waiting hosts, children lifted and spun, old friends colliding mid-laugh, white and every-colored best clothes mingled \u2014 the homecoming at kingdom scale, seen wide from above the joy. No face toward the lens; every face toward someone.",
+  "must_show": "the court filled with streaming embracing reunions at kingdom scale, every face toward someone",
+  "must_not_show": "ranks, formality, faces to camera",
+  "wide": true,
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 203.756,
+  "end": 214.356
+ },
+ {
+  "era": "modern",
+  "scene": "Your grove: in the present day, an ordinary person kneels down in an ordinary patch of trees at first light \u2014 city park or back woodlot, dew soaking through at the knees, head bowing as the morning reaches through the leaves \u2014 seen from behind at a respectful distance. Episode twenty-six's invitation, being accepted by anyone. By you.",
+  "must_show": "an ordinary person from behind kneeling in ordinary trees at first light, head bowing",
+  "must_not_show": "their face, others, drawn rays, church buildings",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 214.356,
+  "end": 222.481
+ },
+ {
+  "era": "america-1820",
+  "scene": "The last frame: the drumlin hill at full sunrise \u2014 and for the first time in the whole series, a single person is walking UP it, small against the gold, unhurried, going to ask. The story, handed off. Roll to the card.",
+  "must_show": "one small figure walking up the sunlit drumlin hill at sunrise, unhurried",
+  "must_not_show": "their face, crowds, monuments, text",
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 222.481,
+  "end": 226.721
+ }
+]

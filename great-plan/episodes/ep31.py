@@ -38,9 +38,6 @@ SEGMENTS = [
      "no hell; and he saith unto them: I am no devil, for there is none "
      "— and thus he whispereth in their ears, until he grasps them with "
      "his awful chains, from whence there is no deliverance."),
-    ("n4", NARRATOR,
-     "I am no devil, for there is none. His best trick was never "
-     "possession. It is public relations."),
     ("n5", NARRATOR,
      "And there is a second track, for the comfortable:"),
     ("s2", SCRIPTURE,
@@ -48,10 +45,6 @@ SEGMENTS = [
      "security, that they will say: All is well in Zion; yea, Zion "
      "prospereth, all is well — and thus the devil cheateth their "
      "souls, and leadeth them away carefully down to hell."),
-    ("n6", NARRATOR,
-     "Carefully. Not dramatically — carefully. No horns. No contracts "
-     "at midnight. Just comfort, a closed curtain, and one degree of "
-     "drift a day."),
     ("n7", NARRATOR,
      "Now the Father's speech in modern clothes. His style guide is "
      "actually written down — how power from heaven is allowed to "
@@ -171,7 +164,7 @@ PICTURES = [
         "shut, daylight edging the fabric",
         "squalor, screens readable, people's faces, gloom styling",
         devil=True)),
-    ("p07", "n6", _p(
+    ("p07", ("s2", 0.55), _p(
         "Carefully down: a gleaming mall escalator descending — one "
         "relaxed man riding it down, coffee in hand, jacket open, "
         "perfectly at ease, the polished chrome and warm retail light "
