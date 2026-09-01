@@ -248,3 +248,13 @@ needs to be replaced"
   scene/must rewritten — ONE continuous rigid vast hull, warehouse scale, eight
   countable family members in three-quarter view, honest perspective scale;
   regenerated.
+
+### SHIP VERIFICATION 2026-09-01 (encoded-mp4 proof)
+- bow tokens in ENCODED cut @2:52.0/2:55.8/2:59.3 — all classify /oU/ (MFCC-DTW
+  vs 4+4 calibrated templates, margins 5.06/6.54, 4.80/5.40, 3.94/4.76). The
+  complained 2:52 token fixed at the source (SPOKEN 'bow'->'boe', law 12i).
+- 2:12 frame in ENCODED cut = new s24: one vast rigid hull, EIGHT countable,
+  honest perspective scale. AUDIO REBUILD PASS b0fd639d5e67, 263.3s.
+- FULL-CUT GATE: 45/45 frames viewed on 4 sheets + card. Similarity pairs
+  (b01/b26/b28/b43/b44 valley-weather motif; b03/b07 ark-door callback) verified
+  INTENTIONAL shipped design at full size — no accidental clones, no new defects.
