@@ -16,6 +16,12 @@ Checks:
   D. every approved id has a thumb jpg on disk
   E. (--live) every approved URL serves 200 with disk's byte size,
      and every retired old-era URL returns 404/410 (not still cached-alive)
+  E3. (--live) the LIVE WEBSITE milkb4meat.org: stories.html's card set ==
+     approved set, every card points at the release host, and every
+     thumbnail referenced by stories.html + the homepage serves 200.
+     (Added 2026-09-01 after Cameron found every card 404ing — the site
+     moved to GitHub Pages 2026-08-29 without story-videos/, and this gate
+     "PASSED all 8" because it never once looked at what the site served.)
 
 Usage: python3 scripts/audit_public_videos.py [--live]
 """
@@ -108,7 +114,9 @@ for page in PUBLIC_PAGES:
     if not os.path.exists(path):
         continue
     html = open(path, encoding="utf-8", errors="replace").read()
-    for rid in set(int(x) for x in re.findall(r"/story-videos/(?:thumbs/)?(\d+)\.(?:mp4|jpg)", html)):
+    page_ids = set(int(x) for x in re.findall(r"/story-videos/(?:thumbs/)?(\d+)\.(?:mp4|jpg)", html))
+    page_ids |= set(int(x) for x in re.findall(r"releases/download/videos-v1/(\d+)\.mp4", html))
+    for rid in page_ids:
         if rid not in approved:
             bad_refs.append(f"{page}→{rid}")
     for pat in ("fixed/", "Explainer.mp4", "img/walk/"):
@@ -143,6 +151,53 @@ if "--live" in sys.argv:
         if st == 200:
             still_up.append(rid)
     check(not still_up, "E2: every old-era row is GONE from hosting (404)", f"still up: {still_up}")
+
+    # E3: the LIVE WEBSITE. The site is GitHub Pages (repo milkb4meat-site);
+    # cards stream from the release host, thumbs are same-origin files.
+    def get(url):
+        for attempt in (1, 2, 3):
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url), timeout=60) as r:
+                    return r.status, r.read()
+            except urllib.error.HTTPError as e:
+                if e.code >= 500 and attempt < 3:
+                    continue
+                return e.code, b""
+            except (TimeoutError, OSError):
+                if attempt == 3:
+                    return -1, b""
+        return -1, b""
+    SITE_URL = "https://milkb4meat.org"
+    web_bad = []
+    st, body = get(f"{SITE_URL}/stories.html")
+    if st != 200:
+        web_bad.append(f"stories.html HTTP {st}")
+    else:
+        live_html = body.decode("utf-8", "replace")
+        live_vids = re.findall(r'data-video="([^"]+?/(\d+)\.mp4)"', live_html)
+        live_ids = set(int(i) for _, i in live_vids)
+        if live_ids != approved:
+            web_bad.append(f"live card set != approved (extra {sorted(live_ids - approved)}, "
+                           f"missing {sorted(approved - live_ids)})")
+        off_host = [u for u, _ in live_vids if not u.startswith(HOST + "/")]
+        if off_host:
+            web_bad.append(f"{len(off_host)} cards not on the release host, e.g. {off_host[:3]}")
+        thumb_paths = set(re.findall(r'(?:src|poster)="(/story-videos/thumbs/\d+\.jpg)"', live_html))
+        st2, body2 = get(f"{SITE_URL}/")
+        if st2 != 200:
+            web_bad.append(f"homepage HTTP {st2}")
+        else:
+            thumb_paths |= set(re.findall(r'(?:src|poster)="(/story-videos/thumbs/\d+\.jpg)"',
+                                          body2.decode("utf-8", "replace")))
+        dead = []
+        for t in sorted(thumb_paths):
+            s, _ln = head(SITE_URL + t)
+            if s != 200:
+                dead.append(f"{t}:{s}")
+        if dead:
+            web_bad.append(f"{len(dead)} thumbnails dead on the site, e.g. {dead[:5]}")
+    check(not web_bad, "E3: milkb4meat.org serves the approved set (cards + thumbs live)",
+          "; ".join(web_bad))
 
 for w in warns:
     print("  warn:", w)

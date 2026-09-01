@@ -2165,11 +2165,13 @@ function place(){
 /* ---- posting tracker: live board of ALL stories x destination ---- */
 var WEBSET=null;  /* story numbers the live website actually serves; null until checked */
 function loadWebSet(){
-  fetch('/stories.html', {cache:'no-store'}).then(function(r){
+  /* the live public site (GitHub Pages sends CORS *; works from any reviewer host).
+     Regex tolerates any video host — cards now point at the videos-v1 release. */
+  fetch('https://milkb4meat.org/stories.html', {cache:'no-store'}).then(function(r){
     if(!r.ok) throw new Error(r.status);
     return r.text();
   }).then(function(t){
-    var s=new Set(), re=/data-video="\/story-videos\/(\d+)\.mp4"/g, m;
+    var s=new Set(), re=/data-video="[^"]*?\/(\d+)\.mp4"/g, m;
     while((m=re.exec(t))) s.add(+m[1]);
     WEBSET=s; renderTracker();
   }).catch(function(){ WEBSET=null; renderTracker(); });
@@ -2221,7 +2223,7 @@ function renderTracker(){
       ? '<span class="chip ok on" title="you approved this cut">✓</span>'
       : '<span class="chip ok dis" title="not approved yet">✓</span>';
     var web = it.web
-      ? '<a class="chip web on" href="/story-videos/'+it.num+'.mp4" target="_blank" rel="noopener" title="on the website — tap to open it there">WEB</a>'
+      ? '<a class="chip web on" href="https://milkb4meat.org/stories.html" target="_blank" rel="noopener" title="on the website — tap to open the stories page">WEB</a>'
       : '<span class="chip dis" title="'+(WEBSET?'not on the website yet':'could not check the website')+'">WEB</span>';
     h += '<div class="trow"><span class="tname" onclick="jumpTo('+it.num+')">'+esc(it.name)+'</span>'
        + ok + web

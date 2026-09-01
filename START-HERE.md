@@ -1,5 +1,15 @@
 # START HERE — MBM Current State (the ONLY file that is allowed to say "now")
 
+**2026-09-01 — WEBSITE VIDEOS FIXED: the Pages move had left every thumbnail and video
+404ing (story-videos/ never made the Firebase→Pages jump; Cameron reported it).** Now:
+all 161 thumbnails are committed same-origin in the milkb4meat-site repo, every card +
+the homepage player streams from the videos-v1 GitHub release (same unmetered host as
+the app), and the public-video gate has a new E3 check that fetches the LIVE
+milkb4meat.org and fails if the card set drifts from the ledger or any thumb dies —
+verified PASS (9 checks) + real in-browser playback. When a new row is published:
+`regen_stories_page.py`, then push stories.html + index.html + the new thumb(s) to
+noremacttevol/milkb4meat-site (there is no Firebase deploy anymore).
+
 **2026-08-29 — milkb4meat.org IS LIVE ON GITHUB PAGES WITH HTTPS (Firebase hosting fully
 retired for the public site).** Cameron changed the Squarespace DNS himself (A → the four
 GitHub Pages IPs, www CNAME → noremacttevol.github.io); cert issued + https_enforced=true

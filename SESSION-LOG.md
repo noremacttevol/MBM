@@ -1,3 +1,26 @@
+## 2026-09-01 (Claude Fable, Machine A `Dev`) — WEBSITE VIDEO 404s FIXED (Cameron's report); gate now watches the live site (E3)
+
+**Cameron: "my website is still not showing the videos and looks bad."** Root
+cause: the 2026-08-29 Firebase→GitHub-Pages move shipped the HTML but never
+story-videos/ — every one of the 161 thumbs and videos on stories.html + the
+homepage strip/player was a relative `/story-videos/...` URL returning 404
+(the "looks bad" = a wall of broken-image icons; the design itself was fine
+and unchanged). Fix, live-verified: (1) all 161 thumbnails committed
+same-origin into milkb4meat-site (11MB; proper MIME, no per-image 302s);
+(2) every card + the homepage feature player now streams from the videos-v1
+GitHub release — the same unmetered host the app uses (in-browser playback
+PROVEN via the live page: 6s played, readyState 4, 1080x1920, no errors);
+(3) regen_stories_page.py emits the release URLs permanently (VIDEO_HOST) and
+its docstring carries the new publish step — push new thumbs to
+milkb4meat-site, Firebase deploy is dead; (4) site/review.html +docs mirror
+WEB-chip scraper now fetches https://milkb4meat.org/stories.html absolutely
+(was a relative fetch that 404'd on the docs mirror) with a host-tolerant
+regex; (5) **GATE GAP CLOSED: audit_public_videos.py "PASSED all 8" while the
+site 404'd everything because it never fetched the live site — new E3 check
+pulls milkb4meat.org/stories.html + homepage live, requires card set ==
+ledger set, release-host URLs, and every referenced thumb 200.** Gate PASS
+all 9. milkb4meat-site commit b651469. Cameron owes nothing; site is watchable now.
+
 ## 2026-09-01 overnight (Claude Fable, Machine A `Dev`) — 25 APPROVED ROWS PUBLISHED (161 live, gate PASS); sync-reviews bug hid 37 approvals; C-FIX 134/135/157 in flight
 
 **PUBLISH (done, verified):** Cameron approved a big wave this week. Found
