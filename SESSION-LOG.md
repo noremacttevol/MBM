@@ -1,3 +1,40 @@
+## 2026-09-01 早 addendum (same session) — ALL 3 COMPLAINT FIXES SHIPPED + POSTING-KIT LAW + 5 MORE PUBLISHED (166)
+
+**Complaint queue CLEARED (fixes live on the reviewer, awaiting Cameron):**
+- 134 (890880c91): crucifixion canon RESTORED — my 08-25 fix had read his
+  complaint BACKWARDS (lesson 29); loincloths + parallel viewer-facing crosses,
+  heads-only turn, staged per approved build-95; b06 took 3 rerolls until the
+  full-height row wide (lesson 32); bonus b14/b15 0.99 clone caught by the gate
+  and re-authored (0.695). Verified at 0:18/0:23/0:29 in the encoded file.
+- 135 (18959b62f): 'bow' re-voiced /boU/ via SPOKEN 'boe' + mbm_eleven (the
+  Jul-29 migration bypassed SPOKEN maps — lesson 31); all 3 encoded tokens
+  MFCC-verified vs 8 calibrated templates; 2:12 ark remade (vast rigid hull,
+  8 countable). Gate 45/45.
+- 157 (417de35e8): the recut Cameron asked for — Isaiah 29:18 + 29:24 verbatim,
+  scroll OPENED (seals snapped), PLAIN man reads (face-boarded), 10 new beats,
+  V1 build.py BEATS extended, new card; 3:29. Gate 34/34, tail round-tripped.
+- 187 re-verified clean at 0:23 (two hands) — awaiting his eyes only.
+
+**POSTING-KIT LAW (Cameron: "i need all posting needs made for each one when i
+approve"):** social/refresh-all.sh = ONE command (exports -> covers -> branded
+thumbnails -> YouTube sheet -> per-video pages -> post-kit, in that order — the
+sheet must run BEFORE per-video or approvals undercount). 46 POST-QUEUE entries
+appended (incl 44 + GP 301/303 hand-authored), thumbs 122->168 rows, per-video
+166 approved, exports self-prune non-postable rows, GP-meta duration parse
+fixed, sheet KeyError guarded. GATE CHECK G now verifies the FULL KIT per
+approved row — a stale kit blocks any deploy.
+
+**+5 published mid-session as Cameron approved live** (105/106/115/116 + 170
+re-approved @b94618d57): gate PASS (11 checks incl new G + other-session's E3),
+OTA 59327ad0, site at 166. Watcher live on his reviewer (approvals+complaints).
+Other workers tonight: WEBSITE-FIX session (thumbs same-origin + E3), Cameron's
+own pages.yml commit preserved on branch backup-pages-workflow (needs HIS push
+— bot tokens lack workflow scope). GP rebuild lane active re-shipping eps
+302/304/305 (their approvals correctly reverted to awaiting-re-review).
+
+Cost this session: ~$2.4 images total for 3 complaint fixes (134: $1.2 with
+geometry rerolls; 135: $0.27; 157: $1.6 incl 2 meaning rerolls).
+
 ## 2026-09-01 — THE <3:00 LAW + SERIES COMPLETE: all 33 Great Plan episodes live under three minutes
 **Machine:** A (Dev) · **Commit:** 26cedf0ec
 

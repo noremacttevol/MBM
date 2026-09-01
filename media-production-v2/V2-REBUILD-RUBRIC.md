@@ -502,3 +502,16 @@ MFCC checks mislead (whisper token edges are sloppy); build 3-4 unambiguous
 calibration sentences PER vowel class in the SAME voice (rainbow/bow-tie/
 crossbow vs bow-down/take-a-bow/ship's-bow), leave-one-out sanity-check the
 template sets, then classify each token by nearest-set DTW distance.
+
+## Lesson 32 — Two crucified men talking = a FULL-HEIGHT ROW WIDE, never a tight two-shot (row 134, 2026-09-01)
+Three consecutive generations of a "tight close two-shot across the gap" between
+Jesus and the penitent thief collapsed into the same failure: bodies rotated
+face-to-face, men standing free on the ground — no matter how loudly the prompt
+demanded "torsos pinned square, only the heads turn." The generator cannot hold
+two frontally-pinned bodies with mutually turned heads in a close crop. The
+approved build-95 canon shot (Cameron's yes) is the answer: ALL crosses at FULL
+HEIGHT in the parallel row, feet on the blocks, camera front-on from the
+downhill side, and the exchange carried by two turned heads along the row.
+Reuse that staging for every conversation-on-crosses beat. Corollary: when a
+beat class keeps failing, go LOOK at the nearest approved render of the same
+moment and copy its actual geometry — the canon is visual, not verbal.
