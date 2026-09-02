@@ -1,3 +1,34 @@
+## 2026-09-01 (round 2) — GP re-complaints: row 312 rebuilt (4 frames), 318 handed to peer
+**Machine:** A (Dev) · **Commit:** df5edd71d
+
+Cameron: "fix the ones that are complained about again." Fresh sync: 21/25 GP rows
+approved. Two LIVE re-complaints: 312 (against MY fixed cut — 4 pictures + "very
+low grade work") and 318 (against the PEER's cut — rich man STILL toward Jesus).
+314/319/323 approved (stale complaint rows); 324/325 stale-held awaiting re-watch.
+
+**Row 312 round 2 (mine):** p02 restaged as ONE continuous scene (close fleeing
+family, single distant burning village — the old two-fire-zone frame read as a
+collage); p03 fire banned from frame entirely (spec's own "firelight flickering on
+the child's cheek" had CAUSED literal flame on his face); p14 replaced gloomy
+fjord+dove with warm retreating-floodwater (frame now matches "the water went
+down"); p18 rainbow made big and unmistakably in-frame (his "put a rainbow in the
+picture at 2:40"). LESSON REPEATED THE HARD WAY: my rewritten scene text used
+"glows"/"no fire-glow" — drift-word gate FAILed AND a piped `| tail` swallowed the
+exit code so assemble ran on a failed gate; caught it, reworded, re-gated exit-0.
+NEVER pipe the gate — check `$?` bare. Cut 172.7s, gate PASS, card v312 answers
+each named frame.
+
+**Row 318 (peer mbm-93):** its re-complaint, its ship. We double-rendered p16 once
+(collision — split messages crossed mid-flight); final on-disk render eye-verified
+clean by me (over-shoulder restage: ruler small/distant, back fully to camera —
+wording alone had failed TWICE; geometry change was the fix). Peer re-assembling
+and wiring v318. Peer also reorganizing social/ (posted-1-100 archive) — refresh-
+all.sh frozen until its ping.
+
+**Next:** Cameron re-watches 312 (+318 when peer ships); 324/325 sit fixed in his
+queue. Then: social bulk-launch kit + app watch folder; Pages workflow install
+still on his desk.
+
 ## 2026-09-01 (later) — GP COMPLAINT SWEEP: all 7 broken episodes fixed, names locked engine-wide
 **Machine:** A (Dev) · **Commit:** b9ccb55d0 · **Split with peer session mbm-93**
 
