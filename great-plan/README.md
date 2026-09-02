@@ -5,6 +5,34 @@ done for His children — told as one continuous war between the Father's will
 and Lucifer's will, from the council in heaven to today. A realization piece
 and a testimony of the restored gospel.
 
+
+## ⚖️ CAMERON'S GP LAWS — 2026-09-02 (from complaints on rows 327/328; bind every episode)
+
+**1. THE CHARACTER-LOCK LAW (row 327):** *"if you need to make a character to
+keep him looking the same please do... the same with Joeseph smith. and any
+other important characters."* Every recurring GP figure — Moroni (mortal AND as
+the angel), Joseph Smith, Oliver, Emma, and anyone who appears twice — gets a
+locked reference (sheet + lock text) exactly like the 200-queue's CAST-BIBLE,
+attached to every shot they appear in, face-boarded before assembly. One face
+per person across all 33 episodes. Age must match the scene's year (row 328:
+"you are mixing up the ages of them").
+
+**2. THE AGENCY-WAR FRAMING LAW (row 328, vision-level):** *"I wanted this to be
+only focusing on the things that god allowed and promoted for the blessing of
+free agency to always continue here on earth... spoken from a narrator's pov to
+show how God did this and the devil did this back and forth to always make
+sense — not just tell our story about how we think we should have to believe
+without the back story of what God is doing and why, how he is swinging the rod
+and protecting our free agency against the devil. Something that would just
+make sense, not tell us some dogma with no sensical positioning from God's
+battle with the devil in the background."*
+Every episode's narration must carry the MASTER-STORY's war thread explicitly:
+each event framed as a MOVE in the battle over human agency — what the devil
+was doing, what God did to protect agency, why it mattered. An episode that
+recounts church history or doctrine WITHOUT the God-move/devil-counter-move
+framing fails this law even if accurate. Ep28 is the named offender — its
+re-author answers to this law first.
+
 **Read [MASTER-STORY.md](./MASTER-STORY.md) first — every script answers to it.**
 
 | File | What it is |
