@@ -93,8 +93,7 @@ CARD_TEXT = ("He saw you.\n"
              "THE GREAT PLAN\n"
              "Episode Twenty-Four — Moroni Alone")
 
-SPOKEN = {"Moroni": "moh ROH nigh", "Cumorah": "kuh MORE uh",
-          "Nephites": "NEE fights"}
+SPOKEN = {"US": "us"}
 
 MORONI = (
     "MORONI LOCK: the same man as the attached reference in every "

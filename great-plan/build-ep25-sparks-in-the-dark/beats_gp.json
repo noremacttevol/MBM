@@ -1,0 +1,188 @@
+[
+ {
+  "era": "old-world",
+  "scene": "A spark in deep dark: one lit candle leans its flame to the wick of a second, unlit candle \u2014 the pass caught at the instant the new wick catches, twin flames joined by a thread of fire, absolute blackness around the small event. Nothing else in frame.",
+  "must_show": "one candle lighting a second at the instant the wick catches, blackness around",
+  "must_not_show": "hands, faces, candelabra, text",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 18.605
+ },
+ {
+  "era": "old-world",
+  "scene": "The vision on the waters: a lone high-castled sailing ship runs on an immense open ocean, seen from high and behind \u2014 its sails full-bellied with a wind that ruffles nothing else on the sea, its wake a straight bright scar across the endless blue toward the west. Carried, more than sailing.",
+  "must_show": "one high-castled ship from high-behind, sails full on a windless-seeming immense sea, straight bright wake",
+  "must_not_show": "fleets, storms, land, flags readable",
+  "wide": true,
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 18.605,
+  "end": 26.687
+ },
+ {
+  "era": "old-world",
+  "scene": "Wrought upon: the navigator alone at the night rail \u2014 weathered face lifted to the stars, cloak stirring, one hand on the rigging and the other holding his cap to his chest \u2014 the look of a man obeying a pull he could not defend at any court. Lantern-warmth from the deck below.",
+  "must_show": "a weathered navigator at the night rail, face to the stars, cap held to his chest, compelled",
+  "must_not_show": "maps readable, crew, his eyes on the lens",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 26.687,
+  "end": 32.075
+ },
+ {
+  "era": "old-world",
+  "scene": "The families behind him: emigrant families huddled on a ship's open deck in cold dawn light \u2014 bundles and rope-tied chests, a mother's arm around two children under one blanket, a grey-bearded man reading to them from a small thick book \u2014 hope and salt-wind in every fold of cloth. No faces to the lens.",
+  "must_show": "huddled emigrant families on a cold dawn deck, one elder reading from a small thick book",
+  "must_not_show": "readable text, crew working, storms",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 32.075,
+  "end": 36.565
+ },
+ {
+  "era": "old-world",
+  "scene": "The translator: in a shuttered attic room by rushlight, a hunted scholar works between stacks of tongues \u2014 worn volumes propped open on either side, his pen flying on the English page, one ear plainly listening to the street below \u2014 urgency and scholarship in the same candle-ring. All writing soft and unreadable.",
+  "must_show": "a hunted scholar translating between propped volumes by rushlight, listening while he writes",
+  "must_not_show": "readable words, soldiers, windows open",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 36.565,
+  "end": 44.321
+ },
+ {
+  "era": "old-world",
+  "scene": "What it cost: in a grey town square, soldiers feed an armload of books to a bonfire \u2014 pages curling to black moths above the flames, a silent crowd held back at the square's edge, one woman's hand over her mouth \u2014 the war on the word, fought with fire. No person is harmed in frame; the books are the martyrs shown.",
+  "must_show": "soldiers burning an armload of books, page-ash rising, a held-back silent crowd",
+  "must_not_show": "people burned, violence to people, faces to camera",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 44.321,
+  "end": 50.138
+ },
+ {
+  "era": "old-world",
+  "scene": "The machine that ended the burning: Gutenberg's press mid-PULL \u2014 the printer hauling the great screw-bar, an apprentice peeling a fresh printed sheet off the platen with both hands, wet pages hung drying on lines above, type-cases open \u2014 the exact moment scarcity died. The printed text stays soft and unreadable.",
+  "must_show": "a press mid-pull with a fresh sheet being peeled off and pages drying on lines, unreadable print",
+  "must_not_show": "readable words, modern machinery, crowds",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 50.138,
+  "end": 55.955
+ },
+ {
+  "era": "old-world",
+  "scene": "The protest nailed: at a great church door in cold morning, a robed monk drives a nail through the corner of a broad paper \u2014 hammer at the top of its second swing, the sheet lifting in the wind under his steadying hand, two students stopped mid-step behind him \u2014 defiance as carpentry. The theses' text soft and unreadable.",
+  "must_show": "a monk mid-hammer-swing nailing a broad unreadable paper to a church door, students stopped behind",
+  "must_not_show": "readable words, crowds, guards, his eyes on lens",
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 55.955,
+  "end": 65.585
+ },
+ {
+  "era": "america-1820",
+  "scene": "Fields become chapels: an open-air preacher on a farm wagon at golden evening, arm raised mid-sermon over a big crowd of laborers and families spread across the stubble field \u2014 shawls, pitchforks laid down, children on shoulders \u2014 the church walls gone and the hunger plainly not. Camera deep in the crowd, shooting past heads.",
+  "must_show": "a wagon-top field preacher over a spread laborer crowd at golden evening, seen past heads",
+  "must_not_show": "church buildings, faces to camera, banners",
+  "wide": true,
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 65.585,
+  "end": 73.465
+ },
+ {
+  "era": "old-world",
+  "scene": "What none of them claimed: a reformer's two work-worn hands held open, palms up and EMPTY, over an open Bible on a plain table \u2014 the honest gesture of a man offering everything he has and holding no keys to offer \u2014 window light across the empty palms and the unreadable page.",
+  "must_show": "two open empty palms held over an open unreadable Bible in window light",
+  "must_not_show": "keys anywhere, rings, vestments, faces",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 73.465,
+  "end": 93.477
+ },
+ {
+  "era": "america-1820",
+  "scene": "The delivery address: a wild American coastline from the sea at dawn \u2014 unbroken hardwood forest rolling back from white surf into blue-folded hills, no mast, no roof, no smoke from horizon to horizon \u2014 one safe square of earth, still wrapped. No people.",
+  "must_show": "unbroken forested American coast from the sea at dawn, no structures anywhere",
+  "must_not_show": "ships, settlements, natives, flags",
+  "wide": true,
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 93.477,
+  "end": 105.392
+ },
+ {
+  "era": "america-1820",
+  "scene": "Wise men raised up: close on a candlelit signing table \u2014 one aged hand steadying the great parchment while another dips a quill, more hands and lace cuffs waiting around the paper's edge, sealing-wax and sand-caster ready \u2014 the document's script aged and completely unreadable. A founding, seen at the distance of reverence.",
+  "must_show": "hands and quills around a great unreadable parchment by candlelight, wax and sand-caster ready",
+  "must_not_show": "readable words, faces, flags, maps",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 105.392,
+  "end": 116.758
+ },
+ {
+  "era": "america-1820",
+  "scene": "Conscience, legalized: along a rutted valley road at morning, THREE small differing chapels stand within a mile of each other \u2014 white clapboard steeple, plain stone meetinghouse, log chapel \u2014 each with its own trickle of wagon-and-foot families arriving, nobody stopping anybody. Choice, written into a landscape.",
+  "must_show": "three differing small chapels along one road, each with its own arriving families, peaceable",
+  "must_not_show": "signage readable, conflict, cities",
+  "wide": true,
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 116.758,
+  "end": 131.491
+ },
+ {
+  "era": "america-1820",
+  "scene": "The convergence: inside a farmhouse at dusk \u2014 a thick family Bible open on the table by the window candle, and THROUGH the window glass, perfectly framed, the wooded drumlin hill standing dark against the last light. The book and the buried book, one windowpane apart. No people.",
+  "must_show": "an open family Bible by a farmhouse window with the drumlin hill framed in the glass beyond",
+  "must_not_show": "readable text, people, lamps electric",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 131.491,
+  "end": 141.629
+ },
+ {
+  "era": "america-1820",
+  "scene": "As if by chance: a heaped farm wagon halts at that farmhouse in the dusk \u2014 a large family climbing down, father steadying the team, boys hauling a trunk, a mother lifting a lantern toward the dark doorway \u2014 all seen from behind at the gate. A family, arriving at an address heaven picked.",
+  "must_show": "a large family from behind unloading a heaped wagon at the dusk farmhouse, lantern lifting",
+  "must_not_show": "faces, the hill in this frame, neighbors",
+  "wide": true,
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 141.629,
+  "end": 148.387
+ },
+ {
+  "era": "old-world",
+  "scene": "Candles and the coming sun: inside a dark chapel, a rack of small candles burns faithful in the gloom \u2014 and through the window above them, the first GREY of dawn has begun, not yet stronger than the flames, but arriving. Both lights true; only one is a sunrise.",
+  "must_show": "a rack of faithful candles in chapel gloom with first dawn grey arriving in the window above",
+  "must_not_show": "people, drawn rays, electric light",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 148.387,
+  "end": 156.931
+ },
+ {
+  "era": "america-1820",
+  "scene": "Keys come from above: the pre-dawn sky over a dark hardwood treeline \u2014 the stars thinning, the east banded with the first watercolor of morning, the grove itself still a black fringe below holding tomorrow inside it. Minutes, now. No people.",
+  "must_show": "pre-dawn sky banding with first light over a black grove treeline",
+  "must_not_show": "figures, the sun risen, drawn rays",
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 156.931,
+  "end": 159.261
+ },
+ {
+  "era": "old-world",
+  "scene": "The payoff: the single candle from the opening frame \u2014 still burning, but now drowned in FULL SUNRISE flooding past it through a window, its little flame gone almost invisible inside the greater light it waited for. Nothing else in frame.",
+  "must_show": "the lone candle's flame nearly invisible inside flooding sunrise light",
+  "must_not_show": "hands, smoke, text",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 159.261,
+  "end": 163.92
+ }
+]

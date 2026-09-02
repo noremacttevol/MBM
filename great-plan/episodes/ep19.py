@@ -47,8 +47,9 @@ SEGMENTS = [
      "And being in an agony he prayed more earnestly: and his sweat was "
      "as it were great drops of blood falling down to the ground."),
     ("n5", NARRATOR,
-     "Centuries later, the risen Lord described that night himself — "
-     "the only firsthand account of an atonement ever given:"),
+     "In modern revelation, the risen Lord described that night "
+     "himself — the only firsthand account of an atonement ever "
+     "given:"),
     ("j3", JESUS,
      "For behold, I, God, have suffered these things for all, that they "
      "might not suffer if they would repent."),
@@ -94,7 +95,7 @@ CARD_TEXT = ("He said it anyway.\n"
              "THE GREAT PLAN\n"
              "Episode Nineteen — Thy Will Be Done")
 
-SPOKEN = {"Gethsemane": "geth SEM uh nee"}
+SPOKEN = {}
 
 LOCKS = {}
 REFS = {}
@@ -269,16 +270,18 @@ PICTURES = [
         "blood, the cross beams dominant, mockers, lightning",
         jesus=True, ref=True)),
     ("p15", "n9", _p(
-        "The veil tears: inside the temple's holy place, the "
-        "great woven veil — floor to ceiling, blue and purple "
-        "and scarlet — RIPS from its top downward, the tear "
-        "running like lightning through the cloth, two priests "
-        "recoiling with lamps in hand as the forbidden inner "
-        "dark opens before them. Access, thrown open from "
-        "God's side.",
-        "the great temple veil tearing from the TOP downward, "
-        "recoiling lamp-lit priests, the inner dark opening",
-        "hands tearing it, fire, collapse, faces to camera",
+        "The veil tears: inside the temple's holy place, "
+        "COMPLETELY EMPTY of people — the great woven veil, floor "
+        "to ceiling, blue and purple and scarlet, TORN from its "
+        "top all the way down, the rent running like a lightning "
+        "path through the cloth, the two halves sagging apart and "
+        "the forbidden inner dark standing open between them; "
+        "lamplight from out of frame, dust still drifting in the "
+        "air from the moment of tearing. No hand did this. "
+        "Access, thrown open from God's side.",
+        "the great temple veil alone, torn top to bottom, halves "
+        "parted on the inner dark, drifting dust, no people",
+        "any person, priests, hands, fire, collapse",
         )),
     ("p16", ("n9", 0.6), _p(
         "Beneath the cross: at the rise's foot, Mary and the "

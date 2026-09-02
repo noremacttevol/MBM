@@ -63,10 +63,30 @@ def _key():
     raise RuntimeError("no ElevenLabs key file found (elevenlabs*KEY*.txt)")
 
 
+# ElevenLabs-tested global respells (A/B'd 2026-09-01 against Brian via
+# render + Gemini ear: carrier renders transcribed and stress-checked).
+# Cameron's row-324/325 complaints: the old spaced/ALL-CAPS per-episode forms
+# ("NEE fights", "Moh ROH nigh", "Kuh MORE uh") rendered as two words, stray
+# "uh" grunts, or garbage ("Malachnai"). One fused lowercase word wins.
+# Plain spelling WON for Gethsemane/Wycliffe/Gutenberg/Tyndale — do not add
+# entries for those. Per-episode SPOKEN still overrides this map (homographs
+# like "bow"/"US" stay per-episode by law).
+ELEVEN_SAY = {
+    "Nephi": "neefigh",     # "neefye" failed in-sentence (knee-fee); -igh holds /ai/
+    "Nephites": "neefites",
+    "Moroni": "moronye",
+    "Cumorah": "kuhmorah",  # "kumorah" failed in-sentence (coo-mo-roh)
+}
+
+
 def eleven_spoken_text(text, overrides=None):
     from mbm_pronounce import PHRASES
     for pat, rep in PHRASES:
         text = pat.sub(rep, text)
+    merged = dict(ELEVEN_SAY)
+    if overrides:
+        merged.update(overrides)
+    overrides = merged
     if overrides:
         low = {k.lower(): v for k, v in overrides.items()}
         def repl(m):

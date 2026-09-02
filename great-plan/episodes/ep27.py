@@ -91,7 +91,7 @@ CARD_TEXT = ("The seed came up.\n"
              "THE GREAT PLAN\n"
              "Episode Twenty-Seven — The Book Rises")
 
-SPOKEN = {"Moroni": "moh ROH nigh", "Palmyra": "pal MY ruh"}
+SPOKEN = {"Palmyra": "pal MY ruh"}
 
 MORONI_GLORIFIED = (
     "MORONI GLORIFIED LOCK: the SAME face as the attached reference — "

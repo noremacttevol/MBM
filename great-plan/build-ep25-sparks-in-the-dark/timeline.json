@@ -15,88 +15,88 @@
    "text": "Nephi saw it all in vision, two thousand years early. A man among the nations, moved upon by the Spirit, crossing the many waters:",
    "seg_start": 9.227,
    "audio_start": 9.507,
-   "spoken_end": 17.885,
-   "seg_dur": 9.378
+   "spoken_end": 17.07,
+   "seg_dur": 8.563
   },
   {
    "seg": "s1",
    "speaker": "scripture",
    "text": "And I looked and beheld a man among the Gentiles, who was separated from the seed of my brethren by the many waters; and I beheld the Spirit of God, that it came down and wrought upon the man; and he went forth upon the many waters, even unto the seed of my brethren, who were in the promised land.",
-   "seg_start": 18.605,
-   "audio_start": 18.885,
-   "spoken_end": 35.415,
+   "seg_start": 17.79,
+   "audio_start": 18.07,
+   "spoken_end": 34.6,
    "seg_dur": 17.96
   },
   {
    "seg": "n4",
    "speaker": "narrator",
    "text": "Meanwhile, God pried the book back open. Translators like Wycliffe and Tyndale put scripture into the language of plow-boys \u2014 and some of them died for it. Then a goldsmith named Gutenberg built a machine that made burning books pointless. The press. The word was out \u2014 forever.",
-   "seg_start": 36.565,
-   "audio_start": 36.845,
-   "spoken_end": 55.235,
-   "seg_dur": 19.39
+   "seg_start": 35.75,
+   "audio_start": 36.03,
+   "spoken_end": 52.907,
+   "seg_dur": 17.876
   },
   {
    "seg": "n5",
    "speaker": "narrator",
    "text": "Reformers rose. Luther, nailing his protest to a church door. Calvin. Wesley, preaching in open fields. Good men. Brave men. They saw that something was deeply wrong, and they fought it with everything they had.",
-   "seg_start": 55.955,
-   "audio_start": 56.235,
-   "spoken_end": 72.745,
+   "seg_start": 53.627,
+   "audio_start": 53.907,
+   "spoken_end": 70.417,
    "seg_dur": 17.51
   },
   {
    "seg": "n6",
    "speaker": "narrator",
    "text": "And notice what not one of them ever claimed: God sent me with the keys. They claimed the church had drifted \u2014 true. They fixed what they could reach \u2014 nobly. But reformation repairs. It cannot restore. You cannot fix your way back to something heaven has to hand back.",
-   "seg_start": 73.465,
-   "audio_start": 73.745,
-   "spoken_end": 92.757,
+   "seg_start": 71.137,
+   "audio_start": 71.417,
+   "spoken_end": 90.429,
    "seg_dur": 20.012
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "So God prepared a delivery address. A land with no state church and no king over conscience \u2014 where a farm boy could ask God a question without being burned for the answer. And He signed His name to it:",
-   "seg_start": 93.477,
-   "audio_start": 93.757,
-   "spoken_end": 104.672,
+   "seg_start": 91.149,
+   "audio_start": 91.429,
+   "spoken_end": 102.343,
    "seg_dur": 11.915
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "And for this purpose have I established the Constitution of this land, by the hands of wise men whom I raised up unto this very purpose, and redeemed the land by the shedding of blood.",
-   "seg_start": 105.392,
-   "audio_start": 105.672,
-   "spoken_end": 115.608,
+   "seg_start": 103.063,
+   "audio_start": 103.343,
+   "spoken_end": 113.279,
    "seg_dur": 11.366
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "God claims the founding of America \u2014 by His own mouth. Not because the nation is perfect, but because the restoration needed one safe square of earth. Religious freedom went into law fourteen years before the boy who would need it was born.",
-   "seg_start": 116.758,
-   "audio_start": 117.038,
-   "spoken_end": 130.771,
+   "seg_start": 114.429,
+   "audio_start": 114.709,
+   "spoken_end": 128.442,
    "seg_dur": 14.733
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Now add it up. The book \u2014 translated, printed, and open on every farmhouse table. Freedom of conscience \u2014 written into law. And a buried record waiting in a hillside, a few miles from a farm one particular family would settle on, as if by chance.",
-   "seg_start": 131.491,
-   "audio_start": 131.771,
-   "spoken_end": 147.667,
+   "seg_start": 129.162,
+   "audio_start": 129.442,
+   "spoken_end": 145.338,
    "seg_dur": 16.896
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "So honor the sparks. We owe them everything. And understand exactly why they were not enough: the famine was never a shortage of good men. It was a shortage of keys. And keys do not come from below. Next \u2014 a grove of trees.",
-   "seg_start": 148.387,
-   "audio_start": 148.667,
-   "spoken_end": 163.2,
+   "seg_start": 146.058,
+   "audio_start": 146.338,
+   "spoken_end": 160.872,
    "seg_dur": 15.534
   }
  ],
@@ -104,9 +104,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "The reformers lit candles in the dark. Heaven was preparing the sunrise.",
-  "seg_start": 163.92,
-  "audio_start": 164.2,
+  "seg_start": 161.592,
+  "audio_start": 161.872,
   "seg_dur": 6.038
  },
- "total": 169.958
+ "total": 167.63
 }

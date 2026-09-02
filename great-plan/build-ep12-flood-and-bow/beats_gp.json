@@ -1,0 +1,220 @@
+[
+ {
+  "era": "ancient",
+  "scene": "A hard opening: black-green storm ocean to the horizon under a sky of iron, the swells huge and slow, spray tearing off their crests, one break of cold light far off where the clouds thin. No land, no ship, no figures \u2014 the weight of the subject itself.",
+  "must_show": "mountainous dark ocean under iron sky with one far cold light-break",
+  "must_not_show": "ships, land, figures, lightning bolts",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 14.473
+ },
+ {
+  "era": "ancient",
+  "scene": "UPRIGHT VERTICAL 9:16 FRAME, horizon LEVEL and horizontal, one single continuous scene: a dusk trail climbs from the frame's bottom edge up into the middle distance, and along it a family flees AWAY from the camera in three-quarter-from-behind \u2014 father carrying a child, mother pulling another by the hand, all mid-run up the trail \u2014 while small in the frame's upper third their village burns in the valley behind-below the trail's shoulder, torch-points moving between the houses under a level dusk sky at the top.",
+  "must_show": "a family running in profile along a ridge at dusk, their burning village and moving torch-points far below",
+  "must_not_show": "weapons in frame, wounds, attackers close, faces to camera",
+  "wide": true,
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 14.473,
+  "end": 17.733
+ },
+ {
+  "era": "ancient",
+  "scene": "The cost, close: a small child's face pressed sideways against a father's shoulder mid-flight \u2014 eyes wide and wet, small fist gripping the rough cloth, firelight from the lost home flickering faint on the child's cheek. Nothing else in focus.",
+  "must_show": "a frightened child's face against a fleeing father's shoulder, distant fire-flicker on the cheek",
+  "must_not_show": "blood, wounds, the burning village sharp, faces to camera",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 17.733,
+  "end": 19.906
+ },
+ {
+  "era": "ancient",
+  "scene": "Only evil continually: a raiders' night camp \u2014 stacked spears against a cart of plundered goods, men crouched over dice and loot in cruel firelight, one dragging a struggling goat by the horns, laughter with no warmth in it \u2014 seen from beyond the firelight's edge, every face toward the game or the goods.",
+  "must_show": "a raiders' camp of stacked spears, dice, plunder and cruel firelight, seen from the dark edge",
+  "must_not_show": "captives shown, violence in progress, faces to camera",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 19.906,
+  "end": 47.226
+ },
+ {
+  "era": "ancient",
+  "scene": "Grief before judgment: the first heavy raindrops striking dry cracked earth \u2014 dark coins of wet blooming on the dust, one drop caught mid-fall, the light low and grey \u2014 heaven beginning to weep before it begins to work. Extreme close on the cracked ground.",
+  "must_show": "first heavy raindrops blooming dark on cracked dry earth, extreme close",
+  "must_not_show": "floods, figures, lightning, text",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 47.226,
+  "end": 61.711
+ },
+ {
+  "era": "ancient",
+  "scene": "The invitation, built in plain sight: Noah stands high on the ark's timber scaffold, one arm flung wide in mid-plea toward the crowd gathered below \u2014 some jeering with cupped hands, some laughing, one man turned to walk away \u2014 the great pitch-black hull towering behind the prophet like a wooden cliff. Camera among the crowd's shoulders, shooting up past their heads.",
+  "must_show": "Noah pleading from the ark's scaffold over a jeering dispersing crowd, the huge hull behind him",
+  "must_not_show": "faces to camera, thrown objects, rain yet",
+  "wide": true,
+  "locks": [
+   "NOAH-GP"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 61.711,
+  "end": 69.956
+ },
+ {
+  "era": "ancient",
+  "scene": "The door: the ark's great side-door standing OPEN at the head of its earthen ramp \u2014 warm lamplight spilling from the timber dark inside onto the boards, the grey day cold around it \u2014 an open mouth of refuge with nobody on the ramp. The frame waits.",
+  "must_show": "the ark's open door spilling warm lamplight down an empty ramp into a cold grey day",
+  "must_not_show": "crowds, animals yet, rain, guards",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 69.956,
+  "end": 78.199
+ },
+ {
+  "era": "ancient",
+  "scene": "Eight souls: the small family climbs the ramp toward the lit doorway \u2014 Noah last, his hand on the rail, all eight seen from behind at the ramp's foot \u2014 while in the near foreground the market crowd flows past the camera UNBOTHERED, backs and shoulders blurred, not one head turned toward the ark. Indifference as tragedy.",
+  "must_show": "eight figures from behind climbing to the lit door while a blurred foreground crowd flows past unbothered",
+  "must_not_show": "jeering now, faces to camera, rain",
+  "wide": true,
+  "locks": [
+   "NOAH-GP"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 78.199,
+  "end": 81.633
+ },
+ {
+  "era": "ancient",
+  "scene": "The closing: the massive timber door swings toward its frame \u2014 caught half-shut, the warm interior light narrowing to a blade across the ramp boards, the grey world reflected dull on the wet pitch of the hull. No figures visible; the narrowing light is the whole story.",
+  "must_show": "the great door half-shut, interior light narrowed to a blade on the ramp",
+  "must_not_show": "hands, figures, rain, darkness total yet",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 81.633,
+  "end": 83.923
+ },
+ {
+  "era": "ancient",
+  "scene": "The flood, at the limit of what we show: the ark utterly alone on mountainous grey-black seas, rain in driven sheets, the hull climbing a swell twice its height with spray bursting from its bow \u2014 no land, no other thing alive in frame, the world reduced to water and one wooden promise.",
+  "must_show": "the lone ark climbing a huge grey swell in driven rain",
+  "must_not_show": "people in the water, drowning, lightning striking, wreckage",
+  "wide": true,
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 83.923,
+  "end": 91.001
+ },
+ {
+  "era": "ancient",
+  "scene": "Hope kept burning: close on the ark's single small porthole in the streaming pitch-black planking \u2014 one warm lamp burning steady behind the thick glass while rain sheets across the timber \u2014 a coal of light the storm cannot reach.",
+  "must_show": "one warm lamplit porthole in streaming black planking, close",
+  "must_not_show": "faces at the glass, cracks, water inside",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 91.001,
+  "end": 98.078
+ },
+ {
+  "era": "heaven",
+  "scene": "The other side of the veil: a vast quiet assembly of men and women of every age and ancestry in soft grey-white light, seen from high behind their heads \u2014 all facing a single distant BRIGHT messenger whose arm is raised mid-declaration, the space itself calm, dimensionless, neither night nor day. The gospel reaching the drowned.",
+  "must_show": "a vast calm assembly from high behind, all faced toward one distant bright declaring messenger",
+  "must_not_show": "wings, halos, clouds, faces to camera, gloom",
+  "wide": true,
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 98.078,
+  "end": 108.172
+ },
+ {
+  "era": "ancient",
+  "scene": "Both truths in one face: Noah at the ark's rail in the easing rain \u2014 his grief and his trust in the same upturned features, water running off his white beard, one heavy hand gripping the rail, his eyes lifted into the grey. A man who obeyed and still feels the weight.",
+  "must_show": "Noah's upturned rain-washed face at the rail carrying grief and trust together",
+  "must_not_show": "his eyes on the lens, despair alone, sunshine yet",
+  "locks": [
+   "NOAH-GP"
+  ],
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 108.172,
+  "end": 129.294
+ },
+ {
+  "era": "ancient",
+  "scene": "The turn: the rain ended \u2014 mountaintops emerging as dark islands from a bright calming sea, mist smoking off the water, and one white dove crossing the frame low over its own reflection toward the light. The world coming back.",
+  "must_show": "mountaintop islands in a calming bright sea, one low dove over its reflection",
+  "must_not_show": "the ark in this frame, rainbows yet, figures",
+  "wide": true,
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 129.294,
+  "end": 135.712
+ },
+ {
+  "era": "ancient",
+  "scene": "Landfall: the family leads animals down the ramp onto green-muddy new ground \u2014 goats skittering, a pair of oxen ponderous, children running ahead \u2014 sun breaking through fast-moving clouds, everyone's face toward the land and the light, none toward the lens.",
+  "must_show": "family and animals descending the ramp onto muddy green ground under breaking sun",
+  "must_not_show": "faces to camera, crowds, rainbows yet",
+  "wide": true,
+  "locks": [
+   "NOAH-GP"
+  ],
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 135.712,
+  "end": 140.963
+ },
+ {
+  "era": "ancient",
+  "scene": "THE BOW: a full unbroken double rainbow standing over the washed green world \u2014 the ark small and beached on its ridge, the family tiny in the meadow below with arms lifted toward the arc, everything rain-bright and new. The covenant, painted at planetary scale.",
+  "must_show": "a full double rainbow over the new green world, tiny family with lifted arms, beached ark on its ridge",
+  "must_not_show": "faces readable, drawn rays, text",
+  "wide": true,
+  "locks": [
+   "NOAH-GP"
+  ],
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 140.963,
+  "end": 144.667
+ },
+ {
+  "era": "ancient",
+  "scene": "Thanks: the family kneels around a new stone altar, its first smoke rising straight into the washed sky, the rainbow's foot still faint on the far hills \u2014 all seen from behind the kneeling half-circle. The oldest response to grace: an altar and a straight column of smoke.",
+  "must_show": "the family kneeling from behind at a smoking altar under a faint far rainbow-foot",
+  "must_not_show": "faces to camera, sacrifice visible, drawn rays",
+  "locks": [
+   "NOAH-GP"
+  ],
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 144.667,
+  "end": 147.136
+ },
+ {
+  "era": "ancient",
+  "scene": "Never aimed at you: a child of the new world \u2014 a small girl with rain-washed cheeks \u2014 looks up past the camera at the bow's light, which lies in soft colour across her upturned face; her mouth is open in plain wonder. Close, warm, and completely unafraid.",
+  "must_show": "a small girl's upturned wonder-struck face with soft rainbow colour lying across it",
+  "must_not_show": "her eyes on the lens, tears, adults in frame",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 147.136,
+  "end": 161.67
+ },
+ {
+  "era": "ancient",
+  "scene": "Peace, signed: a dead-calm COMPLETELY EMPTY sea at dawn under a clean sky \u2014 long gold light on gentle water, the storm's last clouds burning out pink at the horizon, one line of birds crossing far off. NO vessel of any kind \u2014 no ship, boat, sail or ark \u2014 anywhere on the water. The world, promised.",
+  "must_show": "a dead-calm dawn sea, storm remnants burning out pink, far birds",
+  "must_not_show": "ships, figures, rainbows, text",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 161.67,
+  "end": 167.899
+ }
+]

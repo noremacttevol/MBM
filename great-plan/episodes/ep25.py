@@ -83,8 +83,7 @@ CARD_TEXT = ("Candles in the dark.\n"
              "THE GREAT PLAN\n"
              "Episode Twenty-Five — Sparks in the Dark")
 
-SPOKEN = {"Wycliffe": "WICK liff", "Tyndale": "TIN dull",
-          "Gutenberg": "GOO ten berg"}
+SPOKEN = {}
 
 LOCKS = {}
 REFS = {}
@@ -140,15 +139,18 @@ PICTURES = [
         "readable text, crew working, storms",
         )),
     ("p05", "n4", _p(
-        "The translator: in a shuttered attic room by rushlight, a "
-        "hunted scholar works between stacks of tongues — worn "
-        "volumes propped open on either side, his pen flying on the "
-        "English page, one ear plainly listening to the street below "
-        "— urgency and scholarship in the same candle-ring. All "
-        "writing soft and unreadable.",
-        "a hunted scholar translating between propped volumes by "
-        "rushlight, listening while he writes",
-        "readable words, soldiers, windows open",
+        "The translator: an UPRIGHT vertical composition — a hunted "
+        "scholar STANDING full height at a tall slanted writing desk "
+        "in a shuttered attic, rushlight above the page, worn "
+        "volumes propped open around the desk and shelves rising "
+        "into shadow above him, his pen flying on the English page, "
+        "one ear plainly listening to the street below. His standing "
+        "figure anchors the frame's full height. All writing soft "
+        "and unreadable.",
+        "a scholar standing full-height at a tall desk by rushlight, "
+        "shelves rising above, pen mid-stroke",
+        "readable words, sideways or rotated composition, soldiers, "
+        "windows open",
         )),
     ("p06", ("n4", 0.4), _p(
         "What it cost: in a grey town square, soldiers feed an "

@@ -1,0 +1,224 @@
+[
+ {
+  "era": "ancient",
+  "scene": "The other hemisphere darkens: a storm front swallowing the jungle-green hills behind a stepped stone temple city at dusk \u2014 the first rain-curtains dragging across the far pyramids, the plaza lamps guttering below, the light failing from the east inward. The same skyline the risen Christ once filled, going dark. No close figures.",
+  "must_show": "a storm front swallowing a stepped temple city's hills at dusk, plaza lamps guttering",
+  "must_not_show": "lightning bolts, battle, crowds close, ruins yet",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 10.395
+ },
+ {
+  "era": "ancient",
+  "scene": "Zion, two centuries of it: the temple plaza at golden evening filled with LONG COMMON TABLES \u2014 families of every age sharing heaped food, children weaving between benches, an old man laughing with a toddler on his knee, baskets passing hand to hand down the boards \u2014 abundance with no head seat anywhere. Camera at table height past shoulders.",
+  "must_show": "long common tables of shared abundance in a golden temple plaza, all ages mingled, baskets passing",
+  "must_not_show": "beggars, guards, coins, faces to camera",
+  "wide": true,
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 10.395,
+  "end": 24.398
+ },
+ {
+  "era": "ancient",
+  "scene": "The happiest people: at dusk in the plaza, children dance in a ring around a fire while the old people clap the rhythm from benches \u2014 bare feet mid-skip, braids flying, wide toothless grins among the clappers, firelight warm on every joined generation. Joy with no asterisk.",
+  "must_show": "children mid-dance around a fire ringed by clapping elders at dusk, joy unqualified",
+  "must_not_show": "performers, idols, wine, faces to camera",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 24.398,
+  "end": 30.936
+ },
+ {
+  "era": "ancient",
+  "scene": "Pride creeps back: a market lane split down its middle \u2014 on one side, a group in embroidered robes and feathered ornaments walking with chins lifted, eyes forward; on the other, patched-tunic families drawing aside with lowered heads to let them pass. The first daylight between neighbors in two hundred years, visible as body language alone.",
+  "must_show": "fine-robed chins-up group passing patched families who draw aside with lowered heads, a lane dividing",
+  "must_not_show": "violence, coins, sneering theatrics, faces to camera",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 30.936,
+  "end": 40.367
+ },
+ {
+  "era": "ancient",
+  "scene": "The franchise returns: in a night hollow below the city walls, men kneel again in a silent ring around one low red fire \u2014 the same wrong-sacred order from the days of Cain, shadows spoking up the hollow's sides, heads bowed, no face visible. Seen from the hollow's rim. The oldest business, reopening.",
+  "must_show": "a kneeling night ring around one low red fire in a hollow, shadows spoking, seen from the rim",
+  "must_not_show": "faces visible, torches, masks, any non-human shape",
+  "wide": true,
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 40.367,
+  "end": 46.655
+ },
+ {
+  "era": "ancient",
+  "scene": "Cumorah, after: the great hill at dusk under a smoke-hazed sky \u2014 and scattered small across its darkening slopes, the END of a civilization told in objects: fallen banners leaning, broken round shields face-down, a war-drum on its side \u2014 no bodies visible at this reverent distance, carrion birds turning high and far. Stillness where a nation stood.",
+  "must_show": "the dusk hill scattered with fallen banners, face-down shields and a tipped war-drum, high distant birds \u2014 no bodies",
+  "must_not_show": "corpses, blood, weapons in hands, fire",
+  "wide": true,
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 46.655,
+  "end": 56.485
+ },
+ {
+  "era": "ancient",
+  "scene": "The general falls: Moroni kneels beside a form covered completely by a commander's mantle \u2014 his father, plainly beyond waking beneath the cloth \u2014 the son's head bowed onto one fist, his other hand resting on the covered shoulder, his battered armor dark in the failing light. No wound, no face, no doubt.",
+  "must_show": "Moroni kneeling head-on-fist beside a fully mantle-covered form, hand on the covered shoulder",
+  "must_not_show": "any visible body part, blood, weapons drawn, his face clear",
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 56.485,
+  "end": 63.039
+ },
+ {
+  "era": "ancient",
+  "scene": "I even remain alone: Moroni stands on the emptied slope at grey dawn, seen full-length from behind \u2014 the field of fallen banners running away below him into the mist, his cloak pulling in the wind, the last upright figure of a thousand-year story. Nothing else moves.",
+  "must_show": "Moroni from behind, the lone upright figure over a misted slope of fallen banners at grey dawn",
+  "must_not_show": "bodies, birds close, his face, fires",
+  "wide": true,
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 63.039,
+  "end": 70.706
+ },
+ {
+  "era": "ancient",
+  "scene": "Nor whither to go: high wilderness \u2014 Moroni walks a bare ridge line small against enormous peaks, the wrapped bundle of plates roped high on his back, walking away from the camera into country with no roads and no one left to meet. Grand, cold, and utterly alone.",
+  "must_show": "tiny Moroni from behind on a bare ridge with the wrapped bundle high on his back, enormous empty peaks",
+  "must_not_show": "trails, smoke, animals, any other figure",
+  "wide": true,
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 70.706,
+  "end": 88.092
+ },
+ {
+  "era": "ancient",
+  "scene": "He finishes it: deep in a dry cave by firelight, Moroni bends over the plates on a flat stone \u2014 stylus mid-stroke, his armor stacked neatly against the wall behind him, his beard longer and greyer than the battle left it \u2014 a son keeping his father's table through the years alone. The strokes on the metal stay unreadable.",
+  "must_show": "Moroni mid-engraving by cave firelight, armor stacked behind, visibly aged, unreadable strokes",
+  "must_not_show": "readable characters, his eyes on the lens, treasure",
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 88.092,
+  "end": 94.969
+ },
+ {
+  "era": "ancient",
+  "scene": "The years pass: the same cave mouth from outside in deep winter \u2014 snow banked on the ledge, bare trees cracking under frost, and from the dark opening one faint warm breath of firelight. Time, doing its slow work around a man who will not stop writing. No figure visible.",
+  "must_show": "the snow-banked cave mouth in winter with one faint warm fire-breath from the dark",
+  "must_not_show": "footprints fresh, smoke column, figures",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 94.969,
+  "end": 105.292
+ },
+ {
+  "era": "ancient",
+  "scene": "Writing to you: extreme close on the stylus point moving across the metal \u2014 and one bright tear striking the plate's engraved surface beside the working hand, catching the firelight as it lands among the unreadable characters. A letter, salted the way real ones are.",
+  "must_show": "a stylus mid-stroke and one tear landing bright on the engraved plate, extreme close",
+  "must_not_show": "readable characters, blood, faces",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 105.292,
+  "end": 108.74
+ },
+ {
+  "era": "ancient",
+  "scene": "He sees us: Moroni's face lifts from the plates in the firelight \u2014 eyes gone wide and bright, looking clean through the cave wall and seventeen centuries, the stylus forgotten in his hand \u2014 the expression of a man being shown the faces of the people he is writing to. Gaze past the camera's shoulder, never at it.",
+  "must_show": "Moroni's lifted firelit face seeing through time, stylus forgotten, gaze past the lens",
+  "must_not_show": "his eyes on the lens, visions in frame, tears yet",
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 108.74,
+  "end": 113.95
+ },
+ {
+  "era": "modern",
+  "scene": "What he was shown: a present-day crosswalk in long golden light \u2014 the stream of ordinary people mid-stride, faces away and in profile, bags and jackets and hurry \u2014 the exact people a dying nation's last man was allowed to see. Us, from his side of the fire.",
+  "must_show": "an ordinary golden-hour crosswalk stream, faces away and in profile",
+  "must_not_show": "anyone facing the lens, readable signs, brand marks",
+  "wide": true,
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 113.95,
+  "end": 117.424
+ },
+ {
+  "era": "ancient",
+  "scene": "The seed, planted: the fitted stone lid SLIDES closed over the ring-bound plates in their buried box \u2014 caught at the last hand-width of gleam before the dark takes them, Moroni's two hands guiding the stone, tree roots at the cut earth's edge. The same box, the same hill, the timer set.",
+  "must_show": "a stone lid at the last hand-width of closing over the gleaming plates, two guiding hands, rooted earth",
+  "must_not_show": "faces, treasure, angels, light from the box",
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 117.424,
+  "end": 126.455
+ },
+ {
+  "era": "ancient",
+  "scene": "The ground closes: Moroni's hands press the last of the dark soil over the spot and lay wild leaf-litter across it \u2014 the hillside made seamless again under his careful palms, indistinguishable from every other yard of forest floor. Hidden in plain earth for exactly as long as it takes.",
+  "must_show": "hands pressing soil and laying leaf-litter over the hidden spot, seamless forest floor",
+  "must_not_show": "markers, mounds, tools, faces",
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 126.455,
+  "end": 132.475
+ },
+ {
+  "era": "ancient",
+  "scene": "The miscalculation: on that same forest floor, seasons later \u2014 a single green SHOOT stands up through the leaf-litter exactly where the palms pressed, morning light finding it through the canopy, dew on its two small leaves. A seed, doing what seeds do. No people.",
+  "must_show": "one green shoot through leaf-litter in found morning light, dew on two leaves",
+  "must_not_show": "the box visible, markers, figures, drawn rays",
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 132.475,
+  "end": 156.862
+ },
+ {
+  "era": "ancient",
+  "scene": "The appointment: Moroni aged and at peace stands at the cave mouth in first light \u2014 hands empty now, the bundle gone from his back, his face lifted into the morning with the settled look of a man whose work is delivered and whose appointment is made. The wilderness beyond him is just wilderness again.",
+  "must_show": "aged Moroni empty-handed at the cave mouth, face lifted and at peace in first light",
+  "must_not_show": "plates, sword drawn, his eyes on the lens, angels",
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 156.862,
+  "end": 163.535
+ },
+ {
+  "era": "america-1820",
+  "scene": "The hill keeps the appointment: the wooded drumlin hill under a vast night of stars once more \u2014 the seed below, the timer running, the same patient sky that has watched every era of this story lean toward morning. No people, no marks.",
+  "must_show": "the drumlin hill under a vast star field, patient and unmarked",
+  "must_not_show": "figures, lights, meteors, text",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 163.535,
+  "end": 166.395
+ }
+]

@@ -282,14 +282,24 @@ PICTURES = [
         "faces to camera, crowds, rainbows yet",
         wide=True, locks=["NOAH-GP"])),
     ("p16", "s5", _p(
-        "THE BOW: a full unbroken double rainbow standing over "
-        "the washed green world — the ark small and beached on "
-        "its ridge, the family tiny in the meadow below with "
-        "arms lifted toward the arc, everything rain-bright and "
-        "new. The covenant, painted at planetary scale.",
-        "a full double rainbow over the new green world, tiny "
-        "family with lifted arms, beached ark on its ridge",
-        "faces readable, drawn rays, text",
+        "THE BOW: exactly ONE rainbow band in the whole sky — a "
+        "lone real PRIMARY ARC as an actual photograph catches it, "
+        "red outer edge fading to violet inside, softly "
+        "translucent against washed blue-grey rain-light, one end "
+        "grounding in the far hills — standing over the washed "
+        "green world; the ark small and beached on its ridge, the "
+        "family tiny in the meadow below with arms lifted toward "
+        "the arc, everything rain-bright and new. The sky above "
+        "and around the single arc is PLAIN washed grey-blue "
+        "cloud only — count the coloured bands' arcs: exactly "
+        "ONE; there is NO fainter second bow anywhere above or "
+        "beside it, no reflection bow, no concentric double.",
+        "ONE single physically real rainbow arc over the new "
+        "green world, tiny family with lifted arms, beached ark",
+        "two or more rainbows, crossing or intersecting arcs, "
+        "rainbow fragments at odd angles, ribbon streaks, "
+        "oversaturated candy colours, faces readable, drawn "
+        "rays, text",
         wide=True, locks=["NOAH-GP"])),
     ("p17", ("s5", 0.6), _p(
         "Thanks: the family kneels around a new stone altar, its "
@@ -303,14 +313,19 @@ PICTURES = [
         "faces to camera, sacrifice visible, drawn rays",
         locks=["NOAH-GP"])),
     ("p18", "n11", _p(
-        "Never aimed at you: a child of the new world — a small "
-        "girl with rain-washed cheeks — looks up past the camera "
-        "at the bow's light, which lies in soft colour across "
-        "her upturned face; her mouth is open in plain wonder. "
-        "Close, warm, and completely unafraid.",
-        "a small girl's upturned wonder-struck face with soft "
-        "rainbow colour lying across it",
-        "her eyes on the lens, tears, adults in frame",
+        "Never aimed at you: from behind and beside a small girl "
+        "of the new world in the washed green meadow — her "
+        "upturned profile at the frame's lower third, and filling "
+        "the sky she looks into, ONE realistic rainbow arcing "
+        "high and distant, soft and translucent exactly as a real "
+        "photograph catches one; ordinary warm daylight, her "
+        "mouth open in plain wonder. The rainbow lives in the "
+        "SKY, far beyond her.",
+        "over-shoulder view of a small girl's upturned profile "
+        "under ONE real distant rainbow in the sky",
+        "rainbow colours, prism bands or coloured light on her "
+        "face, skin or clothes; more than one rainbow; her eyes "
+        "on the lens, tears, adults in frame",
         )),
     ("p19", ("n11", 0.7), _p(
         "Peace, signed: a dead-calm COMPLETELY EMPTY sea at dawn "

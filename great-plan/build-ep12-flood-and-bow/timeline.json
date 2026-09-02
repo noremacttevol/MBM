@@ -132,17 +132,17 @@
    "text": "Every rainbow since is that same sentence, repeated: never again this way. The next time the world is saved, it will not be by water. It will be by blood \u2014 one Lamb's worth \u2014 and by a boat with room for every soul alive. You have seen God's bow your whole life. You have never once seen it aimed at you.",
    "seg_start": 147.136,
    "audio_start": 147.416,
-   "spoken_end": 167.179,
-   "seg_dur": 20.763
+   "spoken_end": 165.895,
+   "seg_dur": 19.48
   }
  ],
  "card": {
   "seg": "card",
   "speaker": "narrator",
   "text": "The rainbow is a weapon hung up forever. His bow is never aimed at you.",
-  "seg_start": 167.899,
-  "audio_start": 168.179,
+  "seg_start": 166.615,
+  "audio_start": 166.895,
   "seg_dur": 6.038
  },
- "total": 173.937
+ "total": 172.653
 }
