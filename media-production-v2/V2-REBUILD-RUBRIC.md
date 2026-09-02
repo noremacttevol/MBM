@@ -515,3 +515,14 @@ downhill side, and the exchange carried by two turned heads along the row.
 Reuse that staging for every conversation-on-crosses beat. Corollary: when a
 beat class keeps failing, go LOOK at the nearest approved render of the same
 moment and copy its actual geometry — the canon is visual, not verbal.
+
+## Lesson 33 — Pronunciation verification needs a STRONG ear + forced decoys; flash-tier passes bad audio (mbm-00, GP row 324, 2026-09-02)
+A flash-tier Gemini ear PASSED "Moroni's" that actually rendered muh-ROH-neez —
+the false-PASS survived until the check was re-run with a stronger model AND
+forced-choice decoys (make the ear pick between muh-ROH-neez / moh-ROH-nye-z /
+etc., never yes/no). Law: a yes/no "does this sound right?" to a small model is
+not verification; use decoy options and escalate the ear model for any
+pronunciation ship-check. Companion fix pattern: possessives of respelled names
+collapse fused respells — the working form is a PHRASE rule (his-genitive:
+"Moroni's" -> "moh ronye, his" in gp/mbm_pronounce.py) plus a sentence-initial
+variant, captions untouched, validated on delivered segs with take-rolling.
