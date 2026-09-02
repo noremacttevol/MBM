@@ -76,6 +76,7 @@ ELEVEN_SAY = {
     "Nephites": "neefites",
     "Moroni": "moronye",
     "Cumorah": "kuhmorah",  # "kumorah" failed in-sentence (coo-mo-roh)
+    "Elias": "eelighus",  # renders ih-LYE-us (natural); "eelyeus" mangled in-flow
 }
 
 

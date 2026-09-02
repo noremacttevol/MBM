@@ -90,7 +90,7 @@ CARD_TEXT = ("The heavens are open.\n"
              "THE GREAT PLAN\n"
              "Episode Twenty-Six — The Grove")
 
-SPOKEN = {"Palmyra": "pal MY ruh"}
+SPOKEN = {}
 
 JOSEPH = (
     "JOSEPH LOCK: the same boy as the attached reference in every picture — "
@@ -136,14 +136,17 @@ PICTURES = [
         "worshippers",
         wide=True)),
     ("p03", ("n2", 0.55), _p(
-        "Joseph at the meeting's edge: fourteen, in homespun, standing "
-        "just outside the torchlight where the dark begins, arms folded "
-        "tight, his face in warm-lit three-quarter turned toward the "
-        "unseen preacher off the left frame edge — troubled, weighing, "
-        "too honest to pretend certainty he does not feel.",
-        "the boy in three-quarter at the crowd's torchlit edge, arms "
-        "folded, troubled attention aimed off-frame left",
-        "his eyes on the lens, tears, anyone else in focus near him",
+        "Joseph at the meeting's edge: a FOURTEEN-year-old BOY — "
+        "smooth-faced, boy-slim, a child's soft jawline, clearly a "
+        "young teenager and visibly younger than every adult near him "
+        "— in homespun at the torchlight's edge where the dark begins, "
+        "arms folded tight, his warm-lit three-quarter face turned "
+        "toward the unseen preacher off the left frame edge — "
+        "troubled, weighing, too honest to pretend certainty.",
+        "a smooth-faced fourteen-year-old boy in three-quarter at the "
+        "torchlit edge, arms folded, troubled",
+        "stubble or beard shadow, a youth of sixteen or older, broad "
+        "man's shoulders, his eyes on the lens, tears",
         locks=["JOSEPH-SMITH"])),
     ("p04", "n3", _p(
         "By the hearth at night: Joseph on a low stool with the heavy "

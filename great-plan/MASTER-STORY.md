@@ -147,6 +147,32 @@ God did not create evil — He refused to counterfeit freedom.
 
 ---
 
+## THE JOSEPH AGE LEDGER (Cameron, 2026-09-01 — after wrong-age renders in eps 27-29)
+
+Joseph Smith's age is stated IN THE PROMPT of every beat that depicts him, and
+the depicted body must read that age at a glance:
+
+| Event | Year | Age | Depiction rule |
+|---|---|---|---|
+| First Vision (grove) | 1820 | **14** | smooth-faced farm BOY, boy-slim — sheet face fits |
+| Moroni's visit | 1823 | **17** | long-boned older teen — never a small child |
+| Plates received | 1827 | **21** | young man |
+| Translation / Aaronic priesthood / baptism | 1829 | **23** | TALL grown man, six feet — NEVER a boy (use a text age-lock, NOT the 14-year-old sheet) |
+| Church organized | 1830 | **24** | grown man |
+| Kirtland temple / D&C 110 | 1836 | **30** | mature man, dark frock coat |
+
+The 14-year-old CAST-GP-REF sheet attaches ONLY to 1820-1823 beats. Adult beats
+use episode-local text locks (JOSEPH-ADULT / JOSEPH-1836). Attaching the boy
+sheet to adult scenes is what caused the wrong-age renders — never again.
+
+**HANDS LAW (same session):** in any laying-on-of-hands beat, the prompt states
+the exact hand count and owner ("BOTH the messenger's hands on ONE head; no
+hand touches anyone else; every hand joined to a visible arm"), and must_not
+bans floating/disembodied hands and hand-piles. Never ASK for detached hands
+("six glorified hands") — that prompt is what painted the floating-hands frame.
+
+---
+
 ## The Humility Law (Cameron, 2026-08-31)
 
 The film answers every question a regular person has about whether God's

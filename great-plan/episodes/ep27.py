@@ -91,7 +91,7 @@ CARD_TEXT = ("The seed came up.\n"
              "THE GREAT PLAN\n"
              "Episode Twenty-Seven — The Book Rises")
 
-SPOKEN = {"Palmyra": "pal MY ruh"}
+SPOKEN = {}
 
 MORONI_GLORIFIED = (
     "MORONI GLORIFIED LOCK: the SAME face as the attached reference — "
@@ -157,11 +157,12 @@ PICTURES = [
         "THE AIR of the small room, bare feet plainly above the "
         "plank floor — the SAME bronze face from the cave and the "
         "hill, grief transfigured to blazing peace, his exquisite "
-        "white robe still in the brilliance — and below him Joseph "
-        "looks up from beside the bed, lit and unafraid. Fourteen "
-        "centuries, closing in one frame.",
-        "the glorified messenger with Moroni's exact face standing "
-        "in the air of the bedroom, Joseph looking up unafraid",
+        "white robe still in the brilliance — and below him Joseph — "
+        "SEVENTEEN, a long-boned young man, not a child — looks up "
+        "from beside the bed, lit and unafraid. Fourteen centuries, "
+        "closing in one frame.",
+        "the glorified messenger with Moroni's exact face in the air, "
+        "a seventeen-year-old young man looking up unafraid",
         "wings, halo, aura outline, feet on the floor, either "
         "face to the lens",
         locks=["MORONI-GP", "JOSEPH-SMITH"])),

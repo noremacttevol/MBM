@@ -89,7 +89,7 @@ CARD_TEXT = ("Vengeance was never the plan.\n"
              "THE GREAT PLAN\n"
              "Episode Thirty-Two — Kingdoms of Glory")
 
-SPOKEN = {"Rigdon": "RIG dun", "Telestial": "tuh LESS chul"}
+SPOKEN = {}
 
 LOCKS = {}
 REFS = {}

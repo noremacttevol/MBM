@@ -33,70 +33,70 @@
    "text": "May fifteenth, eighteen twenty-nine. Joseph and his scribe Oliver, translating the book, hit a question about baptism \u2014 so they walked into the woods by the Susquehanna river and asked.",
    "seg_start": 33.136,
    "audio_start": 33.416,
-   "spoken_end": 44.814,
-   "seg_dur": 12.398
+   "spoken_end": 43.968,
+   "seg_dur": 11.552
   },
   {
    "seg": "n5",
    "speaker": "narrator",
    "text": "And a messenger descended in light. He said his name was John \u2014 the same John who baptized Jesus in the Jordan. Herod's men had beheaded him eighteen centuries earlier. Death, it turns out, does not disqualify God's couriers. He laid his hands on their heads:",
-   "seg_start": 45.534,
-   "audio_start": 45.814,
-   "spoken_end": 62.074,
+   "seg_start": 44.688,
+   "audio_start": 44.968,
+   "spoken_end": 61.228,
    "seg_dur": 17.26
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "Upon you my fellow servants, in the name of Messiah, I confer the Priesthood of Aaron, which holds the keys of the ministering of angels, and of the gospel of repentance, and of baptism by immersion for the remission of sins.",
-   "seg_start": 62.794,
-   "audio_start": 63.074,
-   "spoken_end": 75.456,
+   "seg_start": 61.948,
+   "audio_start": 62.228,
+   "spoken_end": 74.61,
    "seg_dur": 13.812
   },
   {
    "seg": "n6",
    "speaker": "narrator",
    "text": "The Priesthood of Aaron \u2014 back on earth, from the hands of its last mortal holder. And the first use was immediate: Joseph and Oliver walked into the river and baptized each other \u2014 the ordinance restored to its full, buried-and-raised form.",
-   "seg_start": 76.606,
-   "audio_start": 76.886,
-   "spoken_end": 91.265,
+   "seg_start": 75.76,
+   "audio_start": 76.04,
+   "spoken_end": 90.419,
    "seg_dur": 15.378
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "But Aaron's priesthood is the lesser of two. The higher \u2014 the Melchizedek Priesthood, the authority of the apostleship itself \u2014 required the men who held its keys last. And weeks later, they came: Peter. James. And John.",
-   "seg_start": 91.985,
-   "audio_start": 92.265,
-   "spoken_end": 107.393,
-   "seg_dur": 16.128
+   "seg_start": 91.139,
+   "audio_start": 91.419,
+   "spoken_end": 105.563,
+   "seg_dur": 15.145
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "Let that land. The fisherman crucified in Rome. The apostle Herod put to the sword. The beloved disciple. The First Presidency of the ancient church \u2014 sent back, to lay their hands on two young men's heads and return what the empire thought it had buried with them.",
-   "seg_start": 108.113,
-   "audio_start": 108.393,
-   "spoken_end": 124.491,
+   "seg_start": 106.283,
+   "audio_start": 106.563,
+   "spoken_end": 122.662,
    "seg_dur": 17.098
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "Understand what this claim means, and how easy it would be to check from heaven's side: either John the Baptist stood in those woods, or he did not. Either Peter, James and John returned, or they did not. The Restoration never asks you to admire it as a metaphor. It states events \u2014 and invites you to ask the God who was there.",
-   "seg_start": 125.211,
-   "audio_start": 125.491,
-   "spoken_end": 144.762,
+   "seg_start": 123.382,
+   "audio_start": 123.662,
+   "spoken_end": 142.933,
    "seg_dur": 20.272
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "Sixteen centuries earlier, a boy watched the last apostle die and the keys leave the world. On a May morning by an American river, the line was spliced whole again \u2014 hand to head, exactly the way it was cut. The famine did not just end. It ended in order.",
-   "seg_start": 145.482,
-   "audio_start": 145.762,
-   "spoken_end": 163.202,
+   "seg_start": 143.653,
+   "audio_start": 143.933,
+   "spoken_end": 161.373,
    "seg_dur": 18.44
   }
  ],
@@ -104,9 +104,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "You cannot steal keys from a Kingdom whose keyholders come back. Hand to head, the line was spliced whole.",
-  "seg_start": 163.922,
-  "audio_start": 164.202,
+  "seg_start": 162.093,
+  "audio_start": 162.373,
   "seg_dur": 8.781
  },
- "total": 172.703
+ "total": 170.874
 }

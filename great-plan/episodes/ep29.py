@@ -94,7 +94,7 @@ CARD_TEXT = ("Families, welded\n"
              "THE GREAT PLAN\n"
              "Episode Twenty-Nine — Elijah Came")
 
-SPOKEN = {"Kirtland": "KURT lund", "Fayette": "fay ETT"}
+SPOKEN = {}
 
 ELIJAH_GLORIFIED = (
     "ELIJAH GLORIFIED LOCK: the same man as Carmel — wiry and weather-"
@@ -104,7 +104,14 @@ ELIJAH_GLORIFIED = (
     "fierceness become blazing joy, feet bare in the air where the scene "
     "says so. No wings, no halo, no aura outline.")
 
-LOCKS = {"ELIJAH": ELIJAH_GLORIFIED}
+JOSEPH_1836 = (
+    "JOSEPH 1836 LOCK: Joseph Smith at THIRTY in every picture — a TALL, "
+    "broad-shouldered grown man, filled out with mature strength; "
+    "light-brown hair, blue eyes, prominent straight nose, clean-shaven; "
+    "dark 1836 frock coat. Clearly a man of thirty — NEVER a teenager. "
+    "No halo, no glow.")
+
+LOCKS = {"ELIJAH": ELIJAH_GLORIFIED, "JOSEPH-1836": JOSEPH_1836}
 REFS = {}
 
 
@@ -127,7 +134,7 @@ PICTURES = [
         "a packed farmhouse room with Joseph at a front table, book "
         "and paper before him, seen past shoulders",
         "readable documents, vestments, faces to camera",
-        locks=["JOSEPH-SMITH"])),
+        locks=["JOSEPH-1836"])),
     ("p02", ("n2", 0.55), _p(
         "Sustained: every hand in the crowded room RAISED at once — a "
         "forest of work-rough right hands up in the window light, "
@@ -172,20 +179,20 @@ PICTURES = [
         "two bowed praying shapes behind lowered pulpit veils in a "
         "light-flooded empty assembly room",
         "congregation, faces, the vision yet",
-        locks=["JOSEPH-SMITH", "OLIVER-C"])),
+        locks=["JOSEPH-1836", "OLIVER-C"])),
     ("p06", "j1", _p(
-        "The Lord accepts His house: Jesus stands IN THE AIR above "
-        "the pulpit's breastwork — feet plainly off the woodwork, "
-        "the cream robe still, his familiar face blazing with a "
-        "gladness the frame can barely hold — while below him the "
-        "two men have fallen back from their knees in awe, the "
-        "veils stirred by no wind of earth. The house, worth every "
-        "teacup.",
-        "Jesus in the air above the pulpit breastwork, face blazing "
-        "glad, two men fallen back in awe below",
-        "wings, halo, aura outline, white hair, feet on the "
-        "woodwork",
-        jesus=True, ref=True, locks=["JOSEPH-SMITH", "OLIVER-C"])),
+        "The Lord accepts His house: Jesus stands UPON the "
+        "breastwork of the pulpit — exactly as the record says — "
+        "the cream robe still, his familiar face glad beyond what "
+        "the frame can hold — while below him the two men, both "
+        "clearly GROWN MEN of thirty in dark 1836 coats, have "
+        "fallen back from their knees in awe, the veils stirred by "
+        "no wind of earth. The house, worth every teacup.",
+        "Jesus standing upon the pulpit breastwork, two grown men "
+        "of thirty fallen back in awe below",
+        "boys or teenagers kneeling, wings, halo, aura outline, "
+        "white hair",
+        jesus=True, ref=True, locks=["JOSEPH-1836", "OLIVER-C"])),
     ("p07", "s1", _p(
         "The rushing of great waters: Jesus's face close in the "
         "vision's brilliance — the locked features alight with "
@@ -233,15 +240,16 @@ PICTURES = [
         "wings, halo, aura outline, fire, faces to lens",
         locks=["ELIJAH"])),
     ("p11", "n9", _p(
-        "The sealing power, pictured: over a simple altar, FOUR "
-        "generations of hands rest stacked — a child's small hand, "
-        "a father's, a grandmother's spotted knuckles, a great-"
-        "grandfather's paper-skinned fingers beneath — one warm "
-        "column of family flesh in window light. Bound on earth; "
-        "the frame implies the rest.",
-        "four generations of hands stacked in one column over a "
-        "simple altar in window light",
-        "rings prominent, faces, documents",
+        "The sealing power, pictured: over a simple altar rail in "
+        "window light, exactly TWO hands — a child's small smooth "
+        "hand laid gently on top of a grandfather's aged spotted "
+        "hand — each hand clearly joined to its own visible "
+        "wrist and sleeve, nothing else touching them. Two "
+        "generations, one promise; the frame implies the rest.",
+        "exactly two hands — a child's on a grandfather's — over "
+        "an altar rail, each on its own visible wrist",
+        "a third hand anywhere, stacked piles of hands, rings "
+        "prominent, faces, documents",
         )),
     ("p12", "n10", _p(
         "The fine print, torn up: an elderly couple's clasped "

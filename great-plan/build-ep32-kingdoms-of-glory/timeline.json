@@ -51,70 +51,70 @@
    "text": "Then the judgment itself. In eighteen thirty-two, the vision of the end was opened to Joseph Smith and Sidney Rigdon \u2014 and the first thing they wrote down was not thrones. It was Him:",
    "seg_start": 59.548,
    "audio_start": 59.828,
-   "spoken_end": 71.425,
-   "seg_dur": 12.597
+   "spoken_end": 71.315,
+   "seg_dur": 12.487
   },
   {
    "seg": "s3",
    "speaker": "scripture",
    "text": "And now, after the many testimonies which have been given of him, this is the testimony, last of all, which we give of him: That he lives! For we saw him, even on the right hand of God; and we heard the voice bearing record that he is the Only Begotten of the Father.",
-   "seg_start": 72.145,
-   "audio_start": 72.425,
-   "spoken_end": 87.647,
+   "seg_start": 72.035,
+   "audio_start": 72.315,
+   "spoken_end": 87.536,
    "seg_dur": 16.652
   },
   {
    "seg": "s4",
    "speaker": "scripture",
    "text": "There is one glory of the sun, and another glory of the moon, and another glory of the stars: for one star differeth from another star in glory.",
-   "seg_start": 88.797,
-   "audio_start": 89.077,
-   "spoken_end": 97.815,
+   "seg_start": 88.686,
+   "audio_start": 88.966,
+   "spoken_end": 97.705,
    "seg_dur": 10.169
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "Celestial. Terrestrial. Telestial. Sun, moon, and stars \u2014 and even the least is a glory that surpasses all understanding. The Father does not run an incinerator. He runs a homecoming.",
-   "seg_start": 98.965,
-   "audio_start": 99.245,
-   "spoken_end": 111.305,
-   "seg_dur": 13.06
+   "seg_start": 98.855,
+   "audio_start": 99.135,
+   "spoken_end": 112.79,
+   "seg_dur": 14.655
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Is hell real? Yes \u2014 as anguish before judgment. Outer darkness waits only for the few who gain full knowledge and choose full rebellion. For every other darkness there is a door out \u2014 and Christ holds it open.",
-   "seg_start": 112.025,
-   "audio_start": 112.305,
-   "spoken_end": 126.653,
+   "seg_start": 113.51,
+   "audio_start": 113.79,
+   "spoken_end": 128.138,
    "seg_dur": 15.348
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "Add up the ending. Every child, safe. Every never-reached soul, reached. Resurrection, free, for all. Kingdoms, not a furnace. Now say the article of faith with me:",
-   "seg_start": 127.373,
-   "audio_start": 127.653,
-   "spoken_end": 141.212,
+   "seg_start": 128.858,
+   "audio_start": 129.138,
+   "spoken_end": 142.698,
    "seg_dur": 14.56
   },
   {
    "seg": "s5",
    "speaker": "scripture",
    "text": "We believe that through the Atonement of Christ, all mankind may be saved, by obedience to the laws and ordinances of the Gospel.",
-   "seg_start": 141.932,
-   "audio_start": 142.212,
-   "spoken_end": 148.946,
+   "seg_start": 143.418,
+   "audio_start": 143.698,
+   "spoken_end": 150.431,
    "seg_dur": 8.164
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "All mankind may be saved. That is the most generous account of God's justice ever revealed \u2014 and the only ending that matches the Father you have watched: the one who wept with Enoch, and paid the whole bill in a garden. Vengeance was never the plan. Family was.",
-   "seg_start": 150.096,
-   "audio_start": 150.376,
-   "spoken_end": 165.838,
+   "seg_start": 151.581,
+   "audio_start": 151.861,
+   "spoken_end": 167.323,
    "seg_dur": 16.462
   }
  ],
@@ -122,9 +122,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "Heaven is not a gated community. It is a Father losing as close to nobody as agency allows.",
-  "seg_start": 166.558,
-  "audio_start": 166.838,
+  "seg_start": 168.043,
+  "audio_start": 168.323,
   "seg_dur": 7.24
  },
- "total": 173.797
+ "total": 175.283
 }

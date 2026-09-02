@@ -24,88 +24,88 @@
    "text": "The devil's speech today almost never says worship me. It says: you deserve this. Skip the cost. Everyone does it. And its masterpiece \u2014 there is no devil. Nephi transcribed that exact pitch twenty-five centuries early:",
    "seg_start": 29.818,
    "audio_start": 30.098,
-   "spoken_end": 44.525,
-   "seg_dur": 15.427
+   "spoken_end": 44.018,
+   "seg_dur": 14.921
   },
   {
    "seg": "s1",
    "speaker": "scripture",
    "text": "And behold, others he flattereth away, and telleth them there is no hell; and he saith unto them: I am no devil, for there is none \u2014 and thus he whispereth in their ears, until he grasps them with his awful chains, from whence there is no deliverance.",
-   "seg_start": 45.245,
-   "audio_start": 45.525,
-   "spoken_end": 60.227,
+   "seg_start": 44.738,
+   "audio_start": 45.018,
+   "spoken_end": 59.72,
    "seg_dur": 16.132
   },
   {
    "seg": "n5",
    "speaker": "narrator",
    "text": "And there is a second track, for the comfortable:",
-   "seg_start": 61.377,
-   "audio_start": 61.657,
-   "spoken_end": 63.874,
+   "seg_start": 60.87,
+   "audio_start": 61.15,
+   "spoken_end": 63.368,
    "seg_dur": 3.218
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "And others will he pacify, and lull them away into carnal security, that they will say: All is well in Zion; yea, Zion prospereth, all is well \u2014 and thus the devil cheateth their souls, and leadeth them away carefully down to hell.",
-   "seg_start": 64.594,
-   "audio_start": 64.874,
-   "spoken_end": 79.311,
+   "seg_start": 64.088,
+   "audio_start": 64.368,
+   "spoken_end": 78.804,
    "seg_dur": 15.867
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "Now the Father's speech in modern clothes. His style guide is actually written down \u2014 how power from heaven is allowed to operate, and the only way:",
-   "seg_start": 80.461,
-   "audio_start": 80.741,
-   "spoken_end": 89.542,
+   "seg_start": 79.954,
+   "audio_start": 80.234,
+   "spoken_end": 89.036,
    "seg_dur": 9.801
   },
   {
    "seg": "s3",
    "speaker": "scripture",
    "text": "No power or influence can or ought to be maintained by virtue of the priesthood, only by persuasion, by long-suffering, by gentleness and meekness, and by love unfeigned.",
-   "seg_start": 90.262,
-   "audio_start": 90.542,
-   "spoken_end": 100.895,
+   "seg_start": 89.756,
+   "audio_start": 90.036,
+   "spoken_end": 100.389,
    "seg_dur": 11.783
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "Persuasion. Long-suffering. Gentleness. Love unfeigned. That is the signature of heaven. So when any voice pushes, panics, shames, or forces you \u2014 check the return address.",
-   "seg_start": 102.045,
-   "audio_start": 102.325,
-   "spoken_end": 114.754,
+   "seg_start": 101.539,
+   "audio_start": 101.819,
+   "spoken_end": 114.247,
    "seg_dur": 13.428
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Here is the whole field guide in one test, from Mormon. Does a thing invite you to do good, to love God, to serve? Or does it entice you to hurt, to despair, to quit? Every voice in your day sorts into those two bins:",
-   "seg_start": 115.474,
-   "audio_start": 115.754,
-   "spoken_end": 129.654,
+   "seg_start": 114.967,
+   "audio_start": 115.247,
+   "spoken_end": 129.147,
    "seg_dur": 14.9
   },
   {
    "seg": "s4",
    "speaker": "scripture",
    "text": "That which is of God inviteth and enticeth to do good continually; wherefore, every thing which inviteth and enticeth to do good, and to love God, and to serve him, is inspired of God.",
-   "seg_start": 130.374,
-   "audio_start": 130.654,
-   "spoken_end": 141.708,
+   "seg_start": 129.867,
+   "audio_start": 130.147,
+   "spoken_end": 141.202,
    "seg_dur": 12.484
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "You are not watching this war on a screen. You are in the cast. And your Father's side still fights exactly the way it fought in heaven \u2014 testimony, patience, love, and never, ever force. Choose like you chose. You have done this before.",
-   "seg_start": 142.858,
-   "audio_start": 143.138,
-   "spoken_end": 158.797,
+   "seg_start": 142.352,
+   "audio_start": 142.632,
+   "spoken_end": 158.29,
    "seg_dur": 16.659
   }
  ],
@@ -113,9 +113,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "Every ad, impulse, and three-a.m. thought sorts into two speeches. You have voted before. Vote again.",
-  "seg_start": 159.517,
-  "audio_start": 159.797,
+  "seg_start": 159.01,
+  "audio_start": 159.29,
   "seg_dur": 9.068
  },
- "total": 168.585
+ "total": 168.079
 }
