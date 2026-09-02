@@ -1,3 +1,28 @@
+## 2026-09-01 (course correction) — THE SENSE-MAKING LAW + ep27 demo of the new voice
+**Machine:** A (Dev) · **Commit:** 980ac8aac
+
+Cameron, on the whole GP mission: it drifted into "dogma with no sensical
+positioning" — he wanted every beat to be GOD'S BATTLE WITH THE DEVIL OVER FREE
+AGENCY, narrated as back-and-forth moves that MAKE SENSE ("God did this, the devil
+did this... how he is swinging the rod and protecting our free agency"), never
+"our story about how we think we should have to believe."
+
+Wrote THE SENSE-MAKING LAW into MASTER-STORY.md (4 mechanical rules: every beat a
+move in the agency war; narrator explains WHY causally; doctrine only as the
+explanation of a move; agency infrastructure said out loud). Audit: his approvals
+stopped exactly where the drift starts — the restoration stretch (326-333, all
+unacted) is church-history narration with the war engine silent.
+
+Rebuilt ep27 as the DEMO of the corrected voice (unacted row, safe): devil's move
+= truth monopoly (you can't freely choose what you can't check); God's counters =
+second witness beyond the empires' reach, evidence given hands (11 witnesses =
+persuasion never force), a question instead of a law. All scriptures verbatim, all
+19 pictures reused, $0 images. Slow-pacing trap hit twice (draft 203s -> 181 ->
+176.0 final); card v327 marked NEW COURSE DEMO — his approval on it green-lights
+rewriting the rest the same way.
+**Next:** Cameron watches v327; his verdict decides scope (unacted 8 only vs
+whole series re-author).
+
 ## 2026-09-02 ~01:2x (mbm-93) — ROWS 1-100 POSTED EVERYWHERE: kit archived; clean 101-200 workspace; 318 round-2; gate PASS
 
 Cameron posted all 100 to every platform. Per his order: posting kit split into
