@@ -1,3 +1,38 @@
+## 2026-09-01 (later) — GP COMPLAINT SWEEP: all 7 broken episodes fixed, names locked engine-wide
+**Machine:** A (Dev) · **Commit:** b9ccb55d0 · **Split with peer session mbm-93**
+
+Cameron: "work on the ones broken figure out how to get the names right." 7 GP
+complaints (18 GP rows approved). Split with live peer mbm-93: it took 314/318/323
+(+row 187), I took 312/319/324/325.
+
+**THE NAMES (root cause found):** the per-episode SPOKEN respells in the old spaced
+ALL-CAPS style ("NEE fights", "Moh ROH nigh", "Kuh MORE uh") were never A/B'd on
+ElevenLabs and CAUSED the defects — rendered as two words ("knee fights"), stray
+grunts ("Cumorah. Uh"), or garbage ("Malachnai"). Built a Gemini-ear A/B loop
+(render candidate on the REAL engine -> forced-choice rhyme/stress questions on the
+audio). Winners now in gp/mbm_eleven.py ELEVEN_SAY (global, under per-episode
+overrides): Nephi=neefigh, Nephites=neefites, Moroni=moronye, Cumorah=kuhmorah.
+PLAIN spelling WON for Gethsemane/Wycliffe/Gutenberg/Tyndale (entries removed).
+KEY LESSON: carrier-sentence wins LIE — "neefye"/"kumorah" passed carriers then
+failed in the real sentences (knee-fee / coo-mo-roh). A/B ON THE EXACT SENTENCE,
+then re-verify the delivered seg. Caps "US" read as you-ay -> per-seg {"US":"us"}.
+"bow" measured /oU/-correct in all 3 candidates AND the shipped cut (the 2:45
+complaint was a garbled "rainbow since is" — fresh render verified word-clean).
+ep27's Moroni landmine defused file-only (approved row untouched).
+
+**Pictures (autopsy verdicts):** ep12 quad-rainbow (IGNORED "one arc" -> counted
+arcs + plain-sky language; double-bow reroll needed once more), rainbow-on-face
+(restaged over-shoulder so the bow lives in the SKY), ep19 veil (people ALLOWED to
+read as tearers -> empty room, torn halves), ep25 sideways scribe (restaged
+standing full-height). Peer fixed ep14 moons (spec word "spheres" CAUSED), ep18
+two-Jesus (POV-feet framing CAUSED) + rich-man direction, ep23 sideways.
+
+**Verification:** every re-voiced name ear-verified in the delivered seg; every
+fixed frame extracted from the ENCODED mp4 at its beat. Durations: 172.7/175.2/
+171.5/167.6 — all <3:00. ep19 "centuries later" -> "In modern revelation".
+**Next:** Cameron re-watches 7 re-queued rows + the 8 never-watched; then bulk
+social launch kit + app watch folder. Pages workflow install still on his desk.
+
 ## 2026-09-02 ~00:45 (Claude mbm-93, Machine A `Dev`) — 187 scroll physics + GP rows 314/318/323 SHIPPED; queue split with live peer mbm-00
 
 Cameron: "work on the ones broken." 11 active complaints: 134/135/157 already
