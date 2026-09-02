@@ -1,3 +1,36 @@
+## 2026-09-02 ~00:45 (Claude mbm-93, Machine A `Dev`) — 187 scroll physics + GP rows 314/318/323 SHIPPED; queue split with live peer mbm-00
+
+Cameron: "work on the ones broken." 11 active complaints: 134/135/157 already
+fixed awaiting re-watch; NEW 187 complaint (0:12 double hand, 0:20/0:25
+floating plank-scroll) + 7 Great Plan rows (312/314/318/319/323/324/325).
+
+**187 (b87d84013):** three beats restaged with visible-grip grammar ("if the
+grip cannot be seen, the scroll cannot be there"), draping-vellum physics; one
+reroll caught red thread-spatters on the pavement in zoom. 0:12/0:20/0:25
+verified in the encoded cut; gate 16/16.
+
+**PEER COLLISION -> SPLIT:** a second live session (mbm-00, Remote Control —
+Cameron driving) started the same GP queue mid-flight (engine ELEVEN_SAY
+respell map for Nephi/Nephites/Moroni/Cumorah, ep19 "centuries"->"In modern
+revelation" + veil-by-spirit, audio segs deleted for re-voice, and it
+regenerated MY rows' stills before the split settled). Split negotiated by
+SendMessage: mbm-00 keeps ep12/ep19/ep24/ep25 (audio-heavy); mbm-93 took
+ep14/ep18/ep23 + 187. Told it ep12 SPOKEN still needs {"bow":"boe"} (its
+Gemini ear disputes my MFCC read on the shipped token — it will A/B and ship
+the measured winner; per-episode homograph either way).
+
+**GP ships (9ca4b7492, prompts respec'd by mbm-00, gated+assembled+shipped by
+me):** ep14 0:53 moonless starfield summit; ep18 0:45 ONE full-figure Jesus at
+the parapet + 2:15 rich man walking AWAY past Jesus's back; ep23 0:19 upright
+vertical snow wander. Full-cut gates 16/18/13 beats, similarity clean (ep14
+d1/n7 0.972 = one p09 file legally held across segs). Cards v314/v318/v323
+wired with his words answered; docs/ + Desktop reviewer copies refreshed; all
+three raw URLs byte-verified 200.
+
+Lesson filed en route (rubric 32 addendum candidate): v2 stills generate into
+assets/ — never write an exists-check against the build root (gen-retry loop
+nearly re-bought 134's frames).
+
 ## 2026-09-01 早 addendum (same session) — ALL 3 COMPLAINT FIXES SHIPPED + POSTING-KIT LAW + 5 MORE PUBLISHED (166)
 
 **Complaint queue CLEARED (fixes live on the reviewer, awaiting Cameron):**
