@@ -1,3 +1,30 @@
+## 2026-09-02 — GP complaint round: rows 324/326/327/328 shipped (possessive fix, character locks, ep28 war re-author)
+**Machine:** A (Dev) · **Commit:** 5f18cf2d1 · peer mbm-93 relayed + wrote the laws (9a10e9686)
+
+**324 "Moroni's has a hard I":** flash-ear had false-PASSed it; gemini-3-flash-preview
++ forced decoys on the ENCODED cut heard muh-ROH-neez — Cameron right, my earlier
+verify too lenient. Every fused possessive respell collapsed; winner = his-genitive
+PHRASE rule (\bMoroni's -> "moh ronye, his") — caption unchanged, audio 'Moroni,
+his last written words', verified. Standalone sentence-initial "Moroni." also
+collapses -> phrase rule to Moronigh. + take-rolling (render N, ear each, keep
+first PASS — take 1 won). LESSONS: (a) escalate the ear model + decoys before
+trusting PASS; (b) carrier wins lie AND production-sentence wins can still vary
+per render — verify the DELIVERED seg, roll takes when the form is proven.
+**326:** hooded modern reader ("demoniac") -> bare-headed sweater (hood was
+model-invented; now banned in-spec). Palmyra was already fixed+verified.
+**327:** ep27 s1 scripture Moroni was the OLD chopped render (moh. roh. nigh) —
+re-voiced+verified; face-board caught Moroni drift in p04/p06 (regen on-sheet,
+wording pinned to reference) + Joseph dark-hair drift in ep28 p07; CHARACTER-LOCK
+LAW infra: joseph-adult-front/quarter sheets cropped from the new ep28 renders,
+registered in GP_CAST (JOSEPH-ADULT + JOSEPH-1836 -> same face).
+**328:** re-authored to the AGENCY-WAR FRAMING LAW: apostasy = devil's theft of
+AUTHORITY enforced by death; God's counter = sending back the dead key-holders;
+checkable-claim = persuasion vs force. 186->175.2s after trim pass.
+
+All 4 rows assembled <3:00 (171.4/170.5/175.2/175.2), gates exit-0, cards answer
+his words. **Next:** Cameron re-watches; remaining vision work = applying the
+war framing to the other episodes as his verdicts direct (ep27+ep28 now carry it).
+
 ## 2026-09-01 (age/hands/names sweep) — eps 26-32 rebuilt against Cameron's three defect classes
 **Machine:** A (Dev) · **Commit:** e95f52830
 
