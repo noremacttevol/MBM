@@ -275,19 +275,22 @@ PICTURES = [
         "anger, contempt, coins shown, faces to camera",
         jesus=True, ref=True)),
     ("p16", "s1", _p(
-        "He let him go: the camera looks down the long evening "
-        "street PAST Jesus — Jesus near mid-ground at frame left "
-        "seen from BEHIND, hands still at his sides — and beyond "
-        "him, farther down the street, the young ruler in his fine "
-        "cloak walking AWAY INTO THE DISTANCE, his back to Jesus "
-        "and to the camera, shoulders heavy, already small. Both "
-        "figures face up the street away from the lens; the gap "
-        "between them is widening. No pursuit. The most expensive "
-        "freedom in the frame is the young man's own.",
-        "Jesus from behind at left watching the ruler's receding "
-        "back walk away into the street's depth",
-        "the ruler's face, the ruler facing or walking toward "
-        "Jesus or the camera, Jesus's face, reaching, crowds",
+        "He let him go — OVER-THE-SHOULDER SHOT: the camera sits "
+        "close behind Jesus's right shoulder, so his cream-robed "
+        "shoulder and the back of his dark hair fill the frame's "
+        "near left third, softly OUT OF FOCUS — and the empty "
+        "evening street runs straight away from the lens, where "
+        "the young ruler is ALREADY FAR DOWN it: a SMALL receding "
+        "figure, back fully to the camera, mid-stride onward, "
+        "fine cloak swaying, one more step from being gone. He is "
+        "DISTANT — no larger than a fifth of the frame's height — "
+        "so his face could not be seen even if he turned, and he "
+        "does not turn. The widening gap is the subject.",
+        "over Jesus's out-of-focus near shoulder: the ruler's "
+        "small distant back receding down the empty street",
+        "the ruler near or large in frame, the ruler's face or "
+        "profile or chest visible, anyone walking toward the "
+        "camera, Jesus's face, reaching, crowds",
         jesus=True, ref=True, wide=True)),
     ("p17", "n10", _p(
         "The King kneels: Jesus on his knees with a disciple's "

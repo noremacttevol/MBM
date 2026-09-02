@@ -129,30 +129,32 @@ PICTURES = [
         "ships, land, figures, lightning bolts",
         wide=True)),
     ("p02", "s1", _p(
-        "UPRIGHT VERTICAL 9:16 FRAME, horizon LEVEL and horizontal, one "
-        "single continuous scene: a dusk trail climbs from the frame's "
-        "bottom edge up into the middle distance, and along it a "
-        "family flees AWAY from the camera in three-quarter-from-"
-        "behind — father carrying a child, mother pulling another by "
-        "the hand, all mid-run up the trail — while small in the "
-        "frame's upper third their village burns in the valley "
-        "behind-below the trail's shoulder, torch-points moving "
-        "between the houses under a level dusk sky at the top.",
-        "a family running in profile along a ridge at dusk, their "
-        "burning village and moving torch-points far below",
-        "weapons in frame, wounds, attackers close, faces to "
-        "camera",
+        "One single photographic scene, one light source logic: a "
+        "fleeing family fills the frame's lower two-thirds, close — "
+        "father mid-stride carrying a child, mother pulling another "
+        "by the hand, all in three-quarter-from-behind climbing a "
+        "dusk trail — and beyond and BELOW them, far off and small "
+        "and soft-focus, ONE burning village burns orange in the "
+        "valley they left, its smoke rising into a single level "
+        "dusk sky. Depth reads continuously from their heels to the "
+        "far fire; nothing pasted, no second fire anywhere.",
+        "a close fleeing family climbing away up a dusk trail, one "
+        "distant soft burning village below behind them",
+        "two separate fire zones, collage or panel feel, weapons, "
+        "wounds, attackers, faces to camera",
         wide=True)),
     ("p03", ("s1", 0.6), _p(
         "The cost, close: a small child's face pressed sideways "
         "against a father's shoulder mid-flight — eyes wide and "
-        "wet, small fist gripping the rough cloth, firelight from "
-        "the lost home flickering faint on the child's cheek. "
-        "Nothing else in focus.",
+        "wet, small fist gripping the rough cloth, lit only by "
+        "plain fading dusk light. NO fire anywhere in this frame: "
+        "no flames, no embers, no orange light, no bokeh points — "
+        "just the child, the shoulder, and soft dusk. Nothing "
+        "else in focus.",
         "a frightened child's face against a fleeing father's "
-        "shoulder, distant fire-flicker on the cheek",
-        "blood, wounds, the burning village sharp, faces to "
-        "camera",
+        "shoulder in plain dusk light, nothing burning in frame",
+        "any flame, ember, fire-glow or orange bokeh anywhere, "
+        "blood, wounds, faces to camera",
         )),
     ("p04", "s2", _p(
         "Only evil continually: a raiders' night camp — stacked "
@@ -262,14 +264,17 @@ PICTURES = [
         "his eyes on the lens, despair alone, sunshine yet",
         locks=["NOAH-GP"])),
     ("p14", "n10", _p(
-        "The turn: the rain ended — mountaintops emerging as dark "
-        "islands from a bright calming sea, mist smoking off the "
-        "water, and one white dove crossing the frame low over "
-        "its own reflection toward the light. The world coming "
-        "back.",
-        "mountaintop islands in a calming bright sea, one low "
-        "dove over its reflection",
-        "the ark in this frame, rainbows yet, figures",
+        "The water went down: a bright washed morning — green "
+        "hilltops standing fresh out of the last broad shining "
+        "sheets of retreating water, sunlight breaking through "
+        "clearing clouds onto wet new grass, streams silvering "
+        "down every slope back toward the shrinking flood. The "
+        "world handed back, clean and warm. Hopeful golden light, "
+        "not gloom.",
+        "green hilltops fresh out of retreating shining water "
+        "under breaking warm sunlight",
+        "gloom, grey murk, fog banks, the ark, rainbows yet, "
+        "figures, doves",
         wide=True)),
     ("p15", ("n10", 0.55), _p(
         "Landfall: the family leads animals down the ramp onto "
@@ -315,14 +320,16 @@ PICTURES = [
     ("p18", "n11", _p(
         "Never aimed at you: from behind and beside a small girl "
         "of the new world in the washed green meadow — her "
-        "upturned profile at the frame's lower third, and filling "
-        "the sky she looks into, ONE realistic rainbow arcing "
-        "high and distant, soft and translucent exactly as a real "
-        "photograph catches one; ordinary warm daylight, her "
-        "mouth open in plain wonder. The rainbow lives in the "
-        "SKY, far beyond her.",
-        "over-shoulder view of a small girl's upturned profile "
-        "under ONE real distant rainbow in the sky",
+        "upturned profile at the frame's LOWER LEFT corner, kept "
+        "small, and the sky she looks into filling the frame's "
+        "whole upper two-thirds, where ONE realistic rainbow "
+        "stands COMPLETE and unmistakable — its full arc entirely "
+        "INSIDE the frame, both ends visible reaching the far "
+        "green hills, soft and translucent as a real photograph "
+        "catches one; ordinary warm daylight, her mouth open in "
+        "plain wonder.",
+        "a small girl low in the corner under ONE complete "
+        "rainbow arc fully inside the frame, both ends visible",
         "rainbow colours, prism bands or coloured light on her "
         "face, skin or clothes; more than one rainbow; her eyes "
         "on the lens, tears, adults in frame",
