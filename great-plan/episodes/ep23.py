@@ -129,15 +129,18 @@ PICTURES = [
         "any face turned back, buildings, boats, anyone facing the lens",
         wide=True, era="ancient")),
     ("p03", ("s1", 0.38), _p(
-        "From the north: travellers bent double into driving snow on a "
-        "high mountain pass, seen from the side at a distance — five "
-        "cowled travellers in a staggered line against white-grey murk, "
-        "leaning on staffs, cloaks streaming, the camera shooting across "
-        "their path so all are in profile moving right to left. Cold, "
-        "vast, pitiless.",
-        "five travellers in profile struggling through driving snow on a "
-        "pass, right to left",
-        "faces to camera, wolves, torches, any warm light",
+        "From the north: an UPRIGHT vertical mountain scene — five "
+        "cowled travellers in single file climbing AWAY from the "
+        "camera, up a snowbound pass that rises into white-grey murk "
+        "at the top of the frame, the nearest full-height at the "
+        "frame's base, the line receding smaller and higher, bent "
+        "into the driving snow, leaning on staffs, cloaks streaming "
+        "back. A level horizon buried in murk; the climb fills the "
+        "frame's height. Cold, vast, pitiless.",
+        "five cowled travellers in single file climbing away and "
+        "upward through driving snow, nearest full-height at the base",
+        "faces to camera, sideways or rotated composition, wolves, "
+        "torches, any warm light",
         wide=True, era="old-world")),
     ("p04", ("s1", 0.72), _p(
         "To and fro: a crowded ancient crossroads market where a knot of "

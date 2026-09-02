@@ -1,0 +1,227 @@
+[
+ {
+  "era": "ancient",
+  "scene": "Sinai wilderness at dawn: red granite ramparts climbing out of grey scree into a sky of cold fire, one high summit still holding a torn banner of cloud, the valleys black and silent below. Immense, severe, waiting. No people.",
+  "must_show": "red granite Sinai ramparts at cold-fire dawn, one cloud-torn summit",
+  "must_not_show": "figures, camps, drawn rays, text",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 12.302
+ },
+ {
+  "era": "ancient",
+  "scene": "The bush that burns and is not consumed: on the rocky slope a desert thorn-bush stands wrapped in living flame \u2014 every leaf green and whole inside the fire \u2014 and Moses approaches from the frame's near side, seen from behind, caught mid-motion pulling the sandal from his second foot, staff laid on the ground. The flame lights the rocks; nothing chars.",
+  "must_show": "a green unburnt bush wrapped in flame and Moses from behind removing his second sandal, staff laid down",
+  "must_not_show": "smoke, charring, any figure in the flame, his face",
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 12.302,
+  "end": 17.743
+ },
+ {
+  "era": "ancient",
+  "scene": "The sea on end: the dry seabed corridor at night lit by a pillar of fire's warm firelight off-frame \u2014 two towering walls of dark green water standing sheer on either side, fish shadows moving inside them \u2014 and the freed multitude streaming away from the camera down the corridor, families, herds, laden shoulders, all seen from behind at the corridor's mouth.",
+  "must_show": "a walking multitude from behind crossing dry seabed between two standing water walls",
+  "must_not_show": "faces to camera, chariots yet, lightning, drawn rays",
+  "wide": true,
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 17.743,
+  "end": 23.183
+ },
+ {
+  "era": "ancient",
+  "scene": "Face to face: at the door of the meeting tent on the mountain, Moses STANDS \u2014 not prostrate, not cowering \u2014 before a column of brilliant white-gold light that fills the tent door and the frame's left half, his posture easy and open like a man in a doorway with an old friend, his face lit full by the brilliance he faces. No figure is visible inside the light.",
+  "must_show": "Moses standing at ease in a tent doorway facing a brilliant columned light, friend's posture, face fully lit",
+  "must_not_show": "any figure inside the light, cowering, drawn rays, his eyes on the lens",
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 23.183,
+  "end": 29.316
+ },
+ {
+  "era": "ancient",
+  "scene": "The friend's face: Moses close in three-quarter, washed in the warm brilliance from off-frame left \u2014 and his expression is the whole doctrine: calm, familiar awe, the beginnings of a smile inside the white beard, the eyes of a man TALKING WITH someone, not surviving something.",
+  "must_show": "Moses' close three-quarter face in warm light with familiar awe and a beginning smile",
+  "must_not_show": "terror, tears, his eyes on the lens, halo",
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 29.316,
+  "end": 46.895
+ },
+ {
+  "era": "ancient",
+  "scene": "The mission statement's vantage: Moses stands small on a summit shelf, seen from behind, and before him the vision opens \u2014 a depth of sky holding worlds: near hills falling away into cloud, and above, through the deep blue, faint further spheres and fields of stars in daylight, creation shown to one man. His staff and hair stream in the vision's wind.",
+  "must_show": "Moses small from behind on a summit before a daylight sky holding faint worlds and star-fields",
+  "must_not_show": "his face, sci-fi planets with rings prominent, drawn rays",
+  "wide": true,
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 46.895,
+  "end": 56.252
+ },
+ {
+  "era": "ancient",
+  "scene": "His glory is children rising: dawn in the Israelite camp \u2014 three fathers in the near frame lifting small children high onto shoulders against the sunrise, mothers laughing beside, tents and morning smoke behind \u2014 every face toward a child or the light, none toward the lens. Joy as doctrine.",
+  "must_show": "fathers swinging children onto shoulders at sunrise in a tent camp, mothers laughing, faces on children and light",
+  "must_not_show": "faces to camera, golden calf, misery",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 56.252,
+  "end": 72.359
+ },
+ {
+  "era": "ancient",
+  "scene": "The glory withdraws: the summit gone grey and ordinary \u2014 cloud dragging past bare rock, wind flattening the scrub \u2014 and Moses sagged against a boulder, one hand braced on it, head hanging, a man emptied by glory and left mortal-weak. Seen from the side at a distance; small, drained, human.",
+  "must_show": "Moses sagged weak against a boulder on a grey wind-dragged summit",
+  "must_not_show": "his face close, tears, any dark presence yet",
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 72.359,
+  "end": 79.132
+ },
+ {
+  "era": "ancient",
+  "scene": "The other voice: Moses stands square on the slope facing a WALL of formless darkness that has swallowed the downhill half of the frame \u2014 a cold black absence with no shape, no eyes, no edges that mean anything \u2014 his staff planted, his weakness gone rigid with attention. Seen from his side: man on the right in grey light, empty dark filling the left.",
+  "must_show": "Moses square and planted facing a formless wall of dark filling half the frame",
+  "must_not_show": "ANY figure, face, eyes or shape in the dark; lightning; his eyes on the lens",
+  "devil": true,
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 79.132,
+  "end": 94.97
+ },
+ {
+  "era": "ancient",
+  "scene": "WHO ART THOU: Moses' face close, mid-declaration into the cold off-frame dark \u2014 brows like storm-fronts, eyes blazing certainty, the words visibly leaving him with the force of a thrown spear \u2014 and warm light beginning to win back the edge of his face as he speaks.",
+  "must_show": "Moses' close face mid-declaration, storm brows, certainty blazing, warmth returning at the edge",
+  "must_not_show": "fear, his eyes on the lens, spittle, caricature rage",
+  "devil": true,
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 94.97,
+  "end": 100.92
+ },
+ {
+  "era": "ancient",
+  "scene": "A son of God, standing: Moses full-length, feet planted wide on the rock, staff grounded like a boundary-stake, free hand open at his side \u2014 and the darkness before him RECOILED to the frame's edge, thinned, its smooth boundary pushed back from his planted staff. The claim, held.",
+  "must_show": "Moses planted full-length with grounded staff, the formless dark recoiled thin at the frame's edge",
+  "must_not_show": "any shape in the dark, wind drama, his face to camera",
+  "devil": true,
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 100.92,
+  "end": 119.471
+ },
+ {
+  "era": "ancient",
+  "scene": "DEPART: the darkness TEARS off the mountainside \u2014 draining down-slope over the scree like a ripped-away tide, its last formless mass sliding below the frame's bottom edge \u2014 while grey daylight floods back across the rocks from above, and Moses stands small and unmoved at the frame's top with his staff still planted.",
+  "must_show": "formless darkness draining down-slope off the mountain while daylight floods back, Moses small and unmoved above",
+  "must_not_show": "any figure or wings in the dark, lightning, fire",
+  "wide": true,
+  "devil": true,
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 119.471,
+  "end": 125.397
+ },
+ {
+  "era": "ancient",
+  "scene": "After: the summit quiet in returned light, and Moses sitting on the boulder now \u2014 shoulders down, face lifted, eyes closed, breathing like a man after deep water \u2014 the wind gone gentle in his white hair. Survived, and more than survived.",
+  "must_show": "Moses seated and breathing, face lifted with closed eyes in gentle returned light",
+  "must_not_show": "his eyes on the lens, wounds, any dark remnant",
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 125.397,
+  "end": 135.11
+ },
+ {
+  "era": "ancient",
+  "scene": "The forgetting: from high on the mountain's shoulder, the camp far below \u2014 a ring of thousands circling something small that GLINTS gold at the centre, threads of smoke, the faint chaos of revelry readable in the swirl of the crowd even at this distance. Seen past a near rock edge; grief built into the vantage itself.",
+  "must_show": "a distant camp circling a small gold glint, revel-swirl readable from the mountain's high vantage",
+  "must_not_show": "the calf detailed, nudity, faces, fire large",
+  "wide": true,
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 135.11,
+  "end": 143.72
+ },
+ {
+  "era": "ancient",
+  "scene": "The weight coming down: Moses descending the slope with the two stone tablets held against his chest, caught in profile mid-stride \u2014 his face set between fury and heartbreak, the camp's smoke rising soft in the depth below him. The tablets' surfaces stay turned from the camera, unreadable.",
+  "must_show": "Moses in profile descending with two stone tablets against his chest, fury and heartbreak set together",
+  "must_not_show": "readable writing, his eyes on the lens, the calf",
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 143.72,
+  "end": 152.33
+ },
+ {
+  "era": "modern",
+  "scene": "The title, worn today: a young man stands at the edge of a sunrise field in the present day, seen in profile, chin level, shoulders open, hands easy at his sides \u2014 the plain unbowed posture of somebody who knows what he is called and by Whom. Long gold light across the grass.",
+  "must_show": "a young man's unbowed level-chinned profile at a sunrise field edge",
+  "must_not_show": "his eyes on the lens, phone, brand marks, slouch",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 152.33,
+  "end": 158.401
+ },
+ {
+  "era": "first-century",
+  "scene": "God has a face: Jesus close in warm three-quarter \u2014 the Face the whole third movement is walking toward \u2014 gentle, alive, looking off past the camera's left shoulder with the warmth of someone who knows your name. The bridge to everything that comes next.",
+  "must_show": "Jesus's warm close three-quarter face, gaze past the lens, alive and knowing",
+  "must_not_show": "his eyes on the lens, halo, glow, grimness",
+  "jesus": true,
+  "ref": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 158.401,
+  "end": 162.044
+ },
+ {
+  "era": "ancient",
+  "scene": "Sinai at peace: the granite ramparts at full soft morning \u2014 the severity washed gold, the high summit clear of cloud, a pair of desert larks crossing the immense quiet. The mountain that held the meetings, at rest. No people.",
+  "must_show": "golden peaceful Sinai ramparts, clear summit, two larks crossing",
+  "must_not_show": "figures, camps, drawn rays, text",
+  "wide": true,
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 162.044,
+  "end": 164.473
+ }
+]

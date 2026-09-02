@@ -170,14 +170,17 @@ PICTURES = [
     ("p06", "g1", _p(
         "The mission statement's vantage: Moses stands small on a "
         "summit shelf, seen from behind, and before him the vision "
-        "opens — a depth of sky holding worlds: near hills falling "
-        "away into cloud, and above, through the deep blue, faint "
-        "further spheres and fields of stars in daylight, creation "
-        "shown to one man. His staff and hair stream in the vision's "
-        "wind.",
-        "Moses small from behind on a summit before a daylight sky "
-        "holding faint worlds and star-fields",
-        "his face, sci-fi planets with rings prominent, drawn rays",
+        "opens — near hills falling away into an ocean of cloud, "
+        "and above, the deep blue of high daylight shading toward "
+        "space, faint FIELDS OF STARS beginning in its darkest "
+        "reaches — creation's sheer depth shown to one man. His "
+        "staff and hair stream in the vision's wind. The sky holds "
+        "NO moon and NO planets — only deepening blue and faint "
+        "stars.",
+        "Moses small from behind on a summit before deep daylight "
+        "blue shading to faint star-fields, cloud-ocean below",
+        "any moon, crescent, planet or sphere in the sky, his "
+        "face, drawn rays",
         wide=True, locks=["MOSES-GP"])),
     ("p07", "n5", _p(
         "His glory is children rising: dawn in the Israelite camp — "

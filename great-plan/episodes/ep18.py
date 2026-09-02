@@ -148,15 +148,18 @@ PICTURES = [
         "his eyes on the lens, anger, halo, spittle",
         jesus=True, ref=True)),
     ("p05", "n4", _p(
-        "The pinnacle: from just behind Jesus's shoulder at the "
-        "temple's highest corner — his sandaled feet at the very "
-        "edge of the dressed stone, and far below, the courts and "
-        "colonnades and tiny crowds of the temple mount dropping "
-        "away in dizzying verticality. The drop is the subject; his "
-        "stillness at its lip is the answer coming.",
-        "sandaled feet at a high stone edge over dizzying temple "
-        "courts far below, seen past his shoulder",
-        "his face, angels, falling, crowds looking up",
+        "The pinnacle: exactly ONE figure in the frame — Jesus "
+        "alone, FULL FIGURE seen from BEHIND and slightly above, "
+        "standing still at the very lip of the temple's highest "
+        "parapet corner, cream robe stirred by the height's wind — "
+        "and far below him, the courts and colonnades and tiny "
+        "crowds of the temple mount dropping away in dizzying "
+        "verticality. The drop is the subject; his stillness at "
+        "its lip is the answer coming.",
+        "ONE full-figure Jesus from behind at the parapet lip over "
+        "dizzying temple courts far below",
+        "a second figure of Jesus anywhere, first-person feet, any "
+        "other person on the parapet, his face, angels, falling",
         jesus=True, ref=True, wide=True)),
     ("p06", "j2", _p(
         "The second answer: Jesus in calm three-quarter at the "
@@ -272,16 +275,19 @@ PICTURES = [
         "anger, contempt, coins shown, faces to camera",
         jesus=True, ref=True)),
     ("p16", "s1", _p(
-        "He let him go: the young ruler walks away down the "
-        "street's long shadow, seen from behind, shoulders "
-        "heavy, his fine cloak dragging light — and in the "
-        "mid-ground Jesus stands watching him go, hands still "
-        "at his sides, following with nothing but his eyes. No "
-        "pursuit. No thunderbolt. The most expensive freedom "
-        "in the frame is the young man's own.",
-        "the ruler walking away heavy-shouldered from behind, "
-        "Jesus mid-ground watching without pursuing",
-        "Jesus reaching after him, crowds, faces to camera",
+        "He let him go: the camera looks down the long evening "
+        "street PAST Jesus — Jesus near mid-ground at frame left "
+        "seen from BEHIND, hands still at his sides — and beyond "
+        "him, farther down the street, the young ruler in his fine "
+        "cloak walking AWAY INTO THE DISTANCE, his back to Jesus "
+        "and to the camera, shoulders heavy, already small. Both "
+        "figures face up the street away from the lens; the gap "
+        "between them is widening. No pursuit. The most expensive "
+        "freedom in the frame is the young man's own.",
+        "Jesus from behind at left watching the ruler's receding "
+        "back walk away into the street's depth",
+        "the ruler's face, the ruler facing or walking toward "
+        "Jesus or the camera, Jesus's face, reaching, crowds",
         jesus=True, ref=True, wide=True)),
     ("p17", "n10", _p(
         "The King kneels: Jesus on his knees with a disciple's "

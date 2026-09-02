@@ -1,0 +1,240 @@
+[
+ {
+  "era": "ancient",
+  "scene": "The prophet Amos on a dusk Judean hillside among his flocks: an aged weathered shepherd-prophet standing very still, staff in hand, face lifted toward a darkening eastern sky in three-quarter profile \u2014 the look of a man watching something far beyond the horizon arrive. Wind moves his rough wool mantle; sheep graze dim on the slope below.",
+  "must_show": "an aged shepherd-prophet with staff, three-quarter profile to a darkening sky, flock below",
+  "must_not_show": "his eyes on the lens, scrolls, halo, city skyline",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 7.854
+ },
+ {
+  "era": "ancient",
+  "scene": "The wandering begins: a ragged family \u2014 father, mother, two grown sons with travel staffs \u2014 seen ENTIRELY FROM BEHIND, four backs and the backs of four heads, walking AWAY from the camera down a grey endless sea-shore, their figures receding toward the far haze. The camera stands low on the sand directly behind them; not one face, cheek or profile is visible \u2014 cloaks, shoulders, heels only, cold surf on one side, dunes on the other, wind pressing their cloaks forward. Nothing ahead but distance.",
+  "must_show": "a family with staffs from behind on an endless grey shore, walking away into distance",
+  "must_not_show": "any face turned back, buildings, boats, anyone facing the lens",
+  "wide": true,
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 7.854,
+  "end": 15.387
+ },
+ {
+  "era": "old-world",
+  "scene": "From the north: travellers bent double into driving snow on a high mountain pass, seen from the side at a distance \u2014 five cowled travellers in a staggered line against white-grey murk, leaning on staffs, cloaks streaming, the camera shooting across their path so all are in profile moving right to left. Cold, vast, pitiless.",
+  "must_show": "five travellers in profile struggling through driving snow on a pass, right to left",
+  "must_not_show": "faces to camera, wolves, torches, any warm light",
+  "wide": true,
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 15.387,
+  "end": 22.127
+ },
+ {
+  "era": "ancient",
+  "scene": "To and fro: a crowded ancient crossroads market where a knot of dusty travellers question a white-bearded elder \u2014 the nearest traveller's arms open in pleading, the elder's palms turned up empty in answer, other seekers pressing close, every face turned toward the elder or the ground, none toward the camera which shoots past a near shoulder. The gesture tells it: nothing here.",
+  "must_show": "travellers pleading with an elder whose empty palms turn up, camera past a near shoulder, no face to lens",
+  "must_not_show": "coins, laughter, anyone facing the camera",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 22.127,
+  "end": 27.676
+ },
+ {
+  "era": "first-century",
+  "scene": "An abandoned assembly room of the first saints: benches empty along stone walls, a fallen cloth on the floor, thick dust hanging in two shafts of late window light, one clay lamp cold on its stand. No people at all. The silence is the subject.",
+  "must_show": "an empty first-century assembly room, dust in light shafts, cold lamp, no people",
+  "must_not_show": "any person, skeleton, cobweb excess, broken windows",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 27.676,
+  "end": 35.347
+ },
+ {
+  "era": "first-century",
+  "scene": "After the last apostle: in a lamplit house-church room the camera looks from the doorway PAST the dark shoulder and back of a near mourner toward the room's centre, where an empty teacher's stool holds a folded travelling cloak \u2014 the brightest lit thing in the room. Around the walls a scattering of mourners sit and stand with heads DEEPLY BOWED or faces buried in hands, every body angled toward the stool, every face hidden by bowing or hands or turned fully away \u2014 NOT ONE face toward the camera. Two low flames gutter.",
+  "must_show": "an empty stool with folded cloak as the room's focus, bowed mourners around the walls, doorway camera past a shoulder",
+  "must_not_show": "a body, a coffin, anyone facing the lens, bright light",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 35.347,
+  "end": 44.387
+ },
+ {
+  "era": "old-world",
+  "scene": "Grandeur replacing intimacy: the interior of a vast marble basilica seen down its full length from the high gallery \u2014 gold surfaces, towering columns, hanging lamps, incense haze in the light \u2014 and far below on the patterned floor, a thin scatter of tiny worshippers dwarfed to insignificance by the architecture. Majestic, cold, and very far from a fisherman's room.",
+  "must_show": "a vast gold-and-marble basilica interior from high above with tiny scattered worshippers far below",
+  "must_not_show": "mockery, decay, anyone identifiable, readable inscriptions",
+  "wide": true,
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 44.387,
+  "end": 53.466
+ },
+ {
+  "era": "old-world",
+  "scene": "The council votes on God: rows of robed churchmen in a great stone hall raising their hands in formal vote, seen from behind the last row so the raised arms and cowled heads recede toward a distant dais with unrolled parchments \u2014 the camera shoots past the near backs; not one face is turned toward the lens. Candlelight and stone; solemn, procedural, human.",
+  "must_show": "rows of robed men from behind with hands raised in vote toward a parchment dais",
+  "must_not_show": "faces to camera, shouting, caricature, readable text",
+  "wide": true,
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 53.466,
+  "end": 58.006
+ },
+ {
+  "era": "old-world",
+  "scene": "What the abstraction feels like: a small child stands alone at the centre of a vast dim cathedral floor, tiny beneath columns that vanish upward into cold darkness, looking up and up \u2014 seen from behind at the child's height so the stone immensity overwhelms the frame and the child's face is never visible. Somewhere far above, grey light. Nothing anywhere a child could run to.",
+  "must_show": "a tiny child from behind looking up into cold vanishing stone height",
+  "must_not_show": "the child's face, warmth, any figure of God, statues of faces",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 58.006,
+  "end": 61.848
+ },
+ {
+  "era": "old-world",
+  "scene": "The doors declared shut: two robed men swing the immense bronze doors of a church closed from within, the last blade of daylight narrowing across the stone floor toward the camera as the gap shrinks \u2014 both men seen from behind in full strain, the door's weight visible in their backs and braced feet.",
+  "must_show": "great bronze doors being pulled shut from inside, the daylight blade narrowing on the floor, two straining backs",
+  "must_not_show": "faces to camera, congregation, panic",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 61.848,
+  "end": 68.945
+ },
+ {
+  "era": "old-world",
+  "scene": "A chained book: in a stone library alcove, a massive vellum-bound volume lies on a slanted lectern with a hand-forged iron chain running from its cover to a ring in the wall, one candle beside it, its pages closed. Any lettering on the spine is aged past reading. The chain is the subject.",
+  "must_show": "a great closed book chained by iron to the wall of its alcove, one candle",
+  "must_not_show": "readable words, hands, faces, torn pages",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 68.945,
+  "end": 74.751
+ },
+ {
+  "era": "old-world",
+  "scene": "The faithful copyist: close on an old monk's ink-stained hands guiding a quill across vellum by candlelight, his cowled head bowed just into the frame's top edge, the strokes of his work soft-focus and completely illegible. Care in every knuckle. This man is a hero, and the light says so.",
+  "must_show": "an old monk's hands mid-copy by candlelight, cowled head bowed, warm honoring light, illegible strokes",
+  "must_not_show": "readable letters, his eyes visible, mockery, gloom",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 74.751,
+  "end": 83.406
+ },
+ {
+  "era": "old-world",
+  "scene": "What the centuries took: an ancient codex lies open under raking candlelight, and across its aged pages several wide HORIZONTAL BANDS of the text block are simply GONE \u2014 faded to ghost-blank parchment in irregular rectangular runs the shape of missing PARAGRAPHS, edges water-stained, one lower corner torn away \u2014 the surviving strokes between the gaps blurred and unreadable. The blank regions are plain rectangles of empty page: no shape, symbol, cross, figure or pattern is formed by any gap. A reader's empty hands rest either side of the book, palms open, holding nothing.",
+  "must_show": "an open ancient codex with rectangular paragraph-shaped blank gaps and a torn corner, open empty hands resting beside it",
+  "must_not_show": "any cross, symbol or figure formed by the gaps; readable words; ink still wet; scissors",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 83.406,
+  "end": 92.844
+ },
+ {
+  "era": "old-world",
+  "scene": "The cost in the nursery: night in a cold stone side-chapel, young parents huddled at a carved font clutching their days-old baby toward a tired priest, both parents' faces raw with FEAR \u2014 fear for the child's soul \u2014 lit by two candles, everyone's gaze on the infant, no one toward the camera. The scene is tender and wrong at once: love, urgency, and a doctrine of guilt that was never true.",
+  "must_show": "frightened young parents pressing their newborn toward a priest at a night font, all gazes on the child",
+  "must_not_show": "cruelty from the priest, anyone facing the lens, gargoyles, caricature",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 92.844,
+  "end": 99.957
+ },
+ {
+  "era": "old-world",
+  "scene": "The war of ideas: a scholar alone at midnight among open books and disputation papers, head sunk in his hands, candle guttering in the draught, pages of illegible argument spilling to the floor \u2014 a man drowning in words about God with no way to ask Him anything.",
+  "must_show": "a scholar head-in-hands over spilled illegible pages at midnight, guttering candle",
+  "must_not_show": "readable text, his eyes to the lens, demons, caricature",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 99.957,
+  "end": 104.699
+ },
+ {
+  "era": "old-world",
+  "scene": "What men's choices left behind: rain sweeping a dark moorland at dusk, and on its rise the roofless shell of an old stone chapel \u2014 walls broken, doorway empty \u2014 except that one small arched window still holds its shape whole against the last grey light. Loss and endurance in a single ruin; no people anywhere.",
+  "must_show": "a roofless ruined chapel on a rain-swept moor with ONE intact arched window against the light",
+  "must_not_show": "people, fire, lightning striking, collapse in progress",
+  "wide": true,
+  "devil": true,
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 104.699,
+  "end": 121.466
+ },
+ {
+  "era": "old-world",
+  "scene": "The famine's saints: an old grandmother kneels at a bedside in a poor cottage, rushlight burning, her worn hands knotted together on the blanket, head bowed over them, shawled and small and absolutely sincere \u2014 the camera close at the bedside's foot, her face soft in downturned profile. Heaven hears this woman. The warm light on her hands says so.",
+  "must_show": "an old woman's knotted praying hands on a bedside blanket, bowed shawled head in profile, rushlight warmth",
+  "must_not_show": "her eyes to the lens, squalor played for pity, any mockery",
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 121.466,
+  "end": 128.69
+ },
+ {
+  "era": "old-world",
+  "scene": "A monk alone in a freezing pre-dawn chapel, kneeling upright on bare stone before a plain unadorned altar, his breath visible in the candlelight, cowl back, weathered face lifted with closed eyes \u2014 seen from the side at a respectful distance down the empty aisle. Devotion with no audience.",
+  "must_show": "a lone kneeling monk in profile, visible breath, plain altar, empty cold chapel",
+  "must_not_show": "his eyes on the lens, ornament, other people, sunbeams",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 128.69,
+  "end": 134.195
+ },
+ {
+  "era": "old-world",
+  "scene": "A mother through the night: she sits on the floor beside her sick child's low bed, one hand on the small chest, the other pressed to her own mouth, eyes closed, tears bright on her cheeks in the candlelight \u2014 praying without words, seen from beside the bed so both faces show in profile, the child's flushed and asleep.",
+  "must_show": "a mother's hand on her sick child's chest, her other hand at her mouth, closed wet eyes, both in candlelit profile",
+  "must_not_show": "either face to the lens, death imagery, medicine bottles",
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 134.195,
+  "end": 138.667
+ },
+ {
+  "era": "america-1820",
+  "scene": "Another hemisphere, waiting: golden late-afternoon light over a quiet wooded drumlin hill rising from young-forest country \u2014 unbroken wilderness, maples and oaks in full leaf, birdsong weather, not a person or a building in sight. An ordinary beautiful hill keeping an extraordinary secret.",
+  "must_show": "a serene wooded drumlin hill in golden light, pure wilderness, no people or structures",
+  "must_not_show": "any person, path, fence, monument, glow from the ground",
+  "wide": true,
+  "id": "p20",
+  "out": "p20.jpeg",
+  "start": 138.667,
+  "end": 146.828
+ },
+ {
+  "era": "america-1820",
+  "scene": "Heaven watching a calendar: the same wooded hill at full night under an immense brilliant sky \u2014 the milky way arching over the dark treeline, stars in their thousands, the hill a sleeping silhouette of forest below. Patience made visible.",
+  "must_show": "the dark forested hill under a vast brilliant star field and milky way arch",
+  "must_not_show": "any figure, light from the hill, meteors, text",
+  "wide": true,
+  "id": "p21",
+  "out": "p21.jpeg",
+  "start": 146.828,
+  "end": 153.506
+ },
+ {
+  "era": "old-world",
+  "scene": "The answer begins: first sunrise light strikes the ruined moorland chapel from Episode's earlier frame \u2014 and pours straight through its one whole window, laying a bright window-shaped panel of gold across the wet grass inside the broken walls. The rain has passed; the sky burns clean behind it.",
+  "must_show": "sunrise streaming through the ruin's one intact window onto the grass within, clean burning sky",
+  "must_not_show": "people, rainbows, beams drawn as rays, text",
+  "id": "p22",
+  "out": "p22.jpeg",
+  "start": 153.506,
+  "end": 160.209
+ },
+ {
+  "era": "old-world",
+  "scene": "Bread again, close and warm: strong weathered hands break a round crusted loaf apart in full morning light at a plain wooden table, steam rising from the opened crumb, flour still on the knuckles. Nothing else \u2014 the frame is the promise: famines end when God sends bread.",
+  "must_show": "hands breaking a steaming fresh loaf in morning light on bare wood",
+  "must_not_show": "faces, knives, plates of feast, text",
+  "id": "p23",
+  "out": "p23.jpeg",
+  "start": 160.209,
+  "end": 164.678
+ }
+]
