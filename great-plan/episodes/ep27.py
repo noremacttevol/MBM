@@ -157,7 +157,9 @@ PICTURES = [
         "THE AIR of the small room, bare feet plainly above the "
         "plank floor — the SAME bronze face from the cave and the "
         "hill, grief transfigured to blazing peace, his exquisite "
-        "white robe still in the brilliance — and below him Joseph — "
+        "white robe still in the brilliance — his face matching the "
+        "attached reference EXACTLY: bronze skin, swept-back black-grey "
+        "hair, full dark salt-and-pepper beard — and below him Joseph — "
         "SEVENTEEN, a long-boned young man, not a child — looks up "
         "from beside the bed, lit and unafraid. Fourteen centuries, "
         "closing in one frame.",
@@ -181,7 +183,7 @@ PICTURES = [
     ("p06", "s2", _p(
         "The telling: Moroni's arm extends toward the bedroom's "
         "small window — and Joseph's wide eyes follow the line of "
-        "the pointing hand — the messenger describing gold plates "
+        "the pointing hand — the messenger — his face matching the attached reference EXACTLY: bronze skin, swept-back black-grey hair, full dark beard — describing gold plates "
         "and an everlasting gospel while the night outside the "
         "glass holds the direction of a hill the boy has known "
         "his whole life.",

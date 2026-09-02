@@ -121,6 +121,13 @@ HOMOGRAPHS = {
 # verse stops meaning Jesus will stay at YOUR house. Joining the compound fixes
 # the prosody and the following word survives. The caption keeps the KJV spelling.
 PHRASES = [
+    # GP 2026-09-02: possessive "Moroni's" — fused respells collapse to
+    # muh-ROH-neez; the two-token form uniquely keeps the hard I (A/B'd,
+    # gemini-3 ear, exact ep24 n11 sentence). Runs before the word pass.
+    (re.compile(r"\bMoroni's"), "moh ronye, his"),
+    # GP: standalone sentence-opening "Moroni." reduces to -nee with the fused
+    # base; the -igh form holds the hard I there (A/B'd in ep24 n5 sentence).
+    (re.compile(r"\bMoroni\."), "Moronigh."),
     (re.compile(r"\bto day\b", re.I), "today"),
     (re.compile(r"\bto morrow\b", re.I), "tomorrow"),
     (re.compile(r"\bto night\b", re.I), "tonight"),

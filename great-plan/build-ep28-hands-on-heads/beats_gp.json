@@ -1,0 +1,193 @@
+[
+ {
+  "era": "america-1820",
+  "scene": "What a book cannot carry: the thick new book lies closed on a plain table beside a cast-iron door-lock with NO key in it \u2014 morning light across both objects, the keyhole a small dark waiting mouth. Testimony and the still-missing thing, side by side. No people.",
+  "must_show": "the closed thick book beside a keyless iron lock, keyhole dark and waiting, morning light",
+  "must_not_show": "a key present, readable title, hands",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 14.524
+ },
+ {
+  "era": "ancient",
+  "scene": "As was Aaron: ancient flashback \u2014 Moses' hands pressed on kneeling Aaron's head before the tabernacle hangings, oil vessel beside them, Aaron's eyes closed under the weight of the conferral \u2014 the original pattern, hand to head, in warm lamp-and-daylight. Seen from beside the two men.",
+  "must_show": "Moses' hands on kneeling Aaron's head by the tabernacle hangings, oil vessel near",
+  "must_not_show": "crowds, halo, faces to camera",
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 14.524,
+  "end": 18.637
+ },
+ {
+  "era": "america-1820",
+  "scene": "The line, cut: a heavy ship's rope pulled taut across the frame \u2014 SEVERED in the middle, the two ends frayed a hand-span apart, unable to reach each other, grey light on the parted fibres. The apostasy in one object. No people.",
+  "must_show": "a taut heavy rope severed mid-frame, frayed ends a hand-span apart",
+  "must_not_show": "knives, hands, ships, text",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 18.637,
+  "end": 38.603
+ },
+ {
+  "era": "america-1820",
+  "scene": "The question that walked: Joseph and Oliver walking away from a small cabin into spring woods, Joseph a stride ahead, Oliver still carrying his quill absent-mindedly \u2014 both from behind on the leaf-lit path toward the unseen river, two men taking a translation problem to the only Authority left.",
+  "must_show": "Joseph and Oliver from behind on a spring woods path, quill still in Oliver's hand",
+  "must_not_show": "faces, the river yet, buildings beyond the cabin",
+  "locks": [
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 38.603,
+  "end": 53.315
+ },
+ {
+  "era": "america-1820",
+  "scene": "The herald descends: in a river-bank clearing the two kneeling GROWN MEN lift their faces \u2014 and above them the glorified Baptist stands IN EMPTY AIR, his bare feet PLAINLY OFF the ground with open air visible beneath them, his robe PURE BRILLIANT WHITE (never tan, never beige), wilderness-forged face blazing with a herald's joy, hands already reaching toward their heads. Plain even morning light \u2014 NO visible light beams or rays anywhere. The Jordan's voice, at the Susquehanna.",
+  "must_show": "the glorified Baptist in bright air above two kneeling grown men, hands reaching toward their heads",
+  "must_not_show": "boys or teenagers kneeling, light beams or drawn rays, wings, halo, aura outline, feet on ground, faces to lens",
+  "locks": [
+   "JOHN-B-GP",
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 53.315,
+  "end": 71.144
+ },
+ {
+  "era": "america-1820",
+  "scene": "THE CONFERRAL: close on the moment itself \u2014 BOTH of the messenger's hands rest together on JOSEPH'S bowed head ALONE, and NO hand touches Oliver, who kneels beside with his own hands clasped, awaiting his turn; count the hands: exactly two on one head, each on a visible arm. Joseph's face beneath them wet-eyed and still \u2014 authority flowing the only way it ever has, hand to head.",
+  "must_show": "both glorified hands together on Joseph's head alone, Oliver clasped-handed awaiting beside, no hand on him",
+  "must_not_show": "a hand on each of two heads, any hand on Oliver, more than two hands touching anyone, floating or disembodied hands, light beams, halo, faces to lens",
+  "locks": [
+   "JOHN-B-GP",
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 71.144,
+  "end": 84.956
+ },
+ {
+  "era": "america-1820",
+  "scene": "First use, immediate: in the Susquehanna's bright shallows, Joseph lowers Oliver fully backward beneath the surface \u2014 the water closing over the scholar's chest, Joseph's braced arm and called-of-God grip doing what a font of sprinkled drops never could \u2014 spring current combing around their legs, morning on the water.",
+  "must_show": "Joseph lowering Oliver fully backward beneath the bright river surface, braced grip, spring current",
+  "must_not_show": "crowds, doves, halo, faces to lens",
+  "locks": [
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 84.956,
+  "end": 93.861
+ },
+ {
+  "era": "america-1820",
+  "scene": "Up out of the water: Oliver BURSTS back up mid-gasp, water sheeting off his dark hair, his narrow scholar's face split with disbelieving joy \u2014 Joseph's steadying grip still on his forearm, both men soaked and laughing toward each other in the current. The ordinance, home in its river.",
+  "must_show": "Oliver bursting up soaked and joy-split, Joseph's grip on his forearm, both laughing toward each other",
+  "must_not_show": "faces to lens, crowds, towels, halo",
+  "locks": [
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 93.861,
+  "end": 99.797
+ },
+ {
+  "era": "america-1820",
+  "scene": "The higher keys required higher men: dusk on a wilderness road between Harmony and Colesville \u2014 Joseph and Oliver walking from behind \u2014 and ahead of them on the darkening track, a growing brightness around the bend that neither has seen yet, lighting the underside of the trees. Someone is waiting on the road.",
+  "must_show": "two walkers from behind on a dusk track with unexplained brightness growing around the bend ahead",
+  "must_not_show": "the messengers visible yet, lanterns, faces",
+  "locks": [
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 99.797,
+  "end": 114.628
+ },
+ {
+  "era": "america-1820",
+  "scene": "Peter, James and John: THREE glorified men stand in the bright air of the road's bend \u2014 the broad grey-bearded fisherman at the centre with keys' authority in his bearing, the sword-slain apostle at his right, the beloved disciple at his left \u2014 three faces of blazing calm above the two kneeling young men at the frame's bottom edge. The First Presidency of the ancient church, reporting back to work.",
+  "must_show": "three distinct glorified men in bright air above two kneeling young men \u2014 broad fisherman centred, all calm blazing",
+  "must_not_show": "wings, halos, aura outlines, feet on ground, faces to lens",
+  "locks": [
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 114.628,
+  "end": 124.954
+ },
+ {
+  "era": "america-1820",
+  "scene": "The apostleship returns: on the evening road, THREE glorified men in white stand in a close arc behind the TWO kneeling grown men \u2014 and the foremost apostle, the broad fisherman, lays BOTH his hands on Joseph's bowed head while the other two stand with hands folded at their waists, awaiting their turn in order. Every hand in the frame belongs to a visible arm and person; exactly two hands touch anyone. Warm messenger-light washes the kneelers' homespun gold.",
+  "must_show": "three whole white-robed men in an arc behind two kneeling men, the foremost laying both hands on one bowed head, others' hands folded",
+  "must_not_show": "disembodied or floating hands, hands emerging from darkness, more than two hands touching anyone, a hand on each of two heads, hands covering faces, beams, halo, faces of the kneeling men",
+  "locks": [
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 124.954,
+  "end": 131.838
+ },
+ {
+  "era": "america-1820",
+  "scene": "Checkable, either way: the river-bank clearing today \u2014 spring woods, bright shallows, an utterly ordinary beautiful stretch of the Susquehanna where either something happened or it did not \u2014 no marker in frame, no shrine, just the place and the light and the question. No people.",
+  "must_show": "the ordinary bright river-bank clearing, unmarked, holding its question",
+  "must_not_show": "monuments, plaques, figures, text",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 131.838,
+  "end": 148.014
+ },
+ {
+  "era": "america-1820",
+  "scene": "The theft, reversed: the severed rope from before \u2014 now SPLICED: the two frayed ends woven back through each other in a tight, seamanlike long-splice, the join thicker and stronger than the line around it, morning light on the mended fibres. No people. The episode's object, healed.",
+  "must_show": "the severed rope now long-spliced whole, the join thicker than the line, morning light",
+  "must_not_show": "knives, hands, fray remaining, text",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 148.014,
+  "end": 157.2
+ },
+ {
+  "era": "america-1820",
+  "scene": "Spliced in order: the two young men walk back out of the woods toward the cabin in full morning \u2014 soaked hems, springing steps, Oliver's hand on Joseph's shoulder mid-laugh \u2014 seen from behind, the path bright ahead of them, carrying between them everything the famine lost. The line, walking home whole.",
+  "must_show": "the two from behind walking home soak-hemmed and laughing, hand on shoulder, bright path",
+  "must_not_show": "faces, crowds, the messengers, halo",
+  "locks": [
+   "JOSEPH-ADULT",
+   "OLIVER-C"
+  ],
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 157.2,
+  "end": 159.037
+ },
+ {
+  "era": "america-1820",
+  "scene": "The keyhole, answered: the iron lock from the opening frame \u2014 and now a hand-forged KEY seated home in its keyhole, turned a quarter, the bolt caught mid-throw \u2014 morning light down the shank. Beside it, the thick book still lies closed, its work done. No people.",
+  "must_show": "a forged key seated and quarter-turned in the iron lock, bolt mid-throw, the book beside",
+  "must_not_show": "hands, readable title, chains",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 159.037,
+  "end": 166.387
+ }
+]

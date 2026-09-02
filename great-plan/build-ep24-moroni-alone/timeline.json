@@ -69,70 +69,70 @@
    "text": "Moroni. Son of Mormon. The last believer of a dead nation \u2014 hunted, homeless, and carrying the thousand-year record of God's dealings with his people.",
    "seg_start": 75.491,
    "audio_start": 75.771,
-   "spoken_end": 85.43,
-   "seg_dur": 10.659
+   "spoken_end": 85.147,
+   "seg_dur": 10.376
   },
   {
    "seg": "n6",
    "speaker": "narrator",
    "text": "And what does the loneliest man in history do with the record of the people who broke his heart? He does not burn it. He finishes it. Alone, for years, he abridges, copies in his father's letters, and writes his farewell.",
-   "seg_start": 86.15,
-   "audio_start": 86.43,
-   "spoken_end": 99.183,
+   "seg_start": 85.867,
+   "audio_start": 86.147,
+   "spoken_end": 98.9,
    "seg_dur": 13.753
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "And in that farewell he does something astonishing. He writes to US \u2014 and explains how he can:",
-   "seg_start": 99.903,
-   "audio_start": 100.183,
-   "spoken_end": 105.792,
+   "seg_start": 99.62,
+   "audio_start": 99.9,
+   "spoken_end": 105.509,
    "seg_dur": 6.609
   },
   {
    "seg": "s4",
    "speaker": "scripture",
    "text": "Behold, I speak unto you as if ye were present, and yet ye are not. But behold, Jesus Christ hath shown you unto me, and I know your doing.",
-   "seg_start": 106.512,
-   "audio_start": 106.792,
-   "spoken_end": 114.045,
+   "seg_start": 106.229,
+   "audio_start": 106.509,
+   "spoken_end": 113.762,
    "seg_dur": 8.683
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Then he sealed the record, carried the plates to a hill the Lord showed him, and buried them in a stone box. The second witness \u2014 planted like a seed with a timer, addressed to a world that would one day need proof the heavens were never closed.",
-   "seg_start": 115.195,
-   "audio_start": 115.475,
-   "spoken_end": 129.526,
+   "seg_start": 114.912,
+   "audio_start": 115.192,
+   "spoken_end": 129.243,
    "seg_dur": 15.051
   },
   {
    "seg": "n10",
    "speaker": "narrator",
    "text": "The devil, watching, believed he now held both hemispheres. Keys gone in the east. A dead church, a dead nation, and a book in the ground in the west. Say his miscalculation with me one more time: a buried record is not a corpse. It is a seed.",
-   "seg_start": 130.246,
-   "audio_start": 130.526,
-   "spoken_end": 147.427,
+   "seg_start": 129.963,
+   "audio_start": 130.243,
+   "spoken_end": 147.143,
    "seg_dur": 17.9
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "And Moroni's last written words to you, before the dirt closed over the box, were an appointment:",
-   "seg_start": 148.147,
-   "audio_start": 148.427,
-   "spoken_end": 153.694,
-   "seg_dur": 6.267
+   "seg_start": 147.863,
+   "audio_start": 148.143,
+   "spoken_end": 153.632,
+   "seg_dur": 6.489
   },
   {
    "seg": "s5",
    "speaker": "scripture",
    "text": "Ye shall see me at the bar of God; and the Lord God will say unto you: Did I not declare my words unto you, which were written by this man?",
-   "seg_start": 154.414,
-   "audio_start": 154.694,
-   "spoken_end": 162.797,
+   "seg_start": 154.352,
+   "audio_start": 154.632,
+   "spoken_end": 162.736,
    "seg_dur": 9.533
   }
  ],
@@ -140,9 +140,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "The last man of a dead nation wrote to you by firelight \u2014 and buried the letter where you would find it.",
-  "seg_start": 163.947,
-  "audio_start": 164.227,
+  "seg_start": 163.886,
+  "audio_start": 164.166,
   "seg_dur": 7.527
  },
- "total": 171.474
+ "total": 171.413
 }

@@ -18,60 +18,61 @@ META = "D&C 13 · JS—History 1"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "A book can carry testimony. It cannot carry keys. For those, "
-     "heaven had to send hands — and this episode is about whose hands "
-     "they sent."),
+     "A book can carry testimony. It cannot carry keys. See what the "
+     "devil actually took in the long theft — not belief: AUTHORITY. "
+     "And authority comes back only one way. By hands."),
     ("s1", SCRIPTURE,
      "And no man taketh this honour unto himself, but he that is called "
      "of God, as was Aaron."),
     ("n3", NARRATOR,
-     "Called of God, as was Aaron — and Aaron was called through a "
-     "prophet, by the laying on of hands. Authority is never seized, "
-     "studied into, or voted in. It is CONFERRED — hand to head, in an "
-     "unbroken line. Which was exactly the line the apostasy cut."),
+     "Called of God, as was Aaron — through a prophet, by the laying "
+     "on of hands. Authority is never seized or voted in — it is "
+     "CONFERRED, hand to head, in an unbroken line. That line was "
+     "the devil's target: cut it, and nothing on earth can be sealed "
+     "with the right to seal it."),
     ("n4", NARRATOR,
-     "May fifteenth, eighteen twenty-nine. Joseph and his scribe Oliver, "
-     "translating the book, hit a question about baptism — so they "
-     "walked into the woods by the Susquehanna river and asked."),
+     "May fifteenth, eighteen twenty-nine. Joseph and Oliver, "
+     "translating the book, hit a question about baptism — and "
+     "instead of guessing like the centuries before them, they used "
+     "the channel God had just reopened. They walked to the "
+     "Susquehanna and asked."),
     ("n5", NARRATOR,
-     "And a messenger descended in light. He said his name was John — "
-     "the same John who baptized Jesus in the Jordan. Herod's men had "
-     "beheaded him eighteen centuries earlier. Death, it turns out, "
-     "does not disqualify God's couriers. He laid his hands on their "
-     "heads:"),
+     "And a messenger descended: John — the same John who baptized "
+     "Jesus. Herod had beheaded him. Hear the counter-move: the "
+     "devil's tool is death — kill the men who hold the keys, and "
+     "the keys are gone. But God raises the dead. He laid his hands "
+     "on their heads:"),
     ("s2", SCRIPTURE,
      "Upon you my fellow servants, in the name of Messiah, I confer the "
      "Priesthood of Aaron, which holds the keys of the ministering of "
      "angels, and of the gospel of repentance, and of baptism by "
      "immersion for the remission of sins."),
     ("n6", NARRATOR,
-     "The Priesthood of Aaron — back on earth, from the hands of its "
-     "last mortal holder. And the first use was immediate: Joseph and "
-     "Oliver walked into the river and baptized each other — the "
-     "ordinance restored to its full, buried-and-raised form."),
+     "The Priesthood of Aaron — back, from its last mortal holder. "
+     "First use, immediate: they baptized each other. For the first "
+     "time in centuries, a person's choice of Christ could be sealed "
+     "by someone actually authorized to seal it."),
     ("n7", NARRATOR,
      "But Aaron's priesthood is the lesser of two. The higher — the "
-     "Melchizedek Priesthood, the authority of the apostleship itself — "
-     "required the men who held its keys last. And weeks later, they "
-     "came: Peter. James. And John."),
+     "Melchizedek Priesthood, the apostleship itself — required the "
+     "men who held its keys last. Weeks later, they came: Peter. "
+     "James. And John."),
     ("n8", NARRATOR,
-     "Let that land. The fisherman crucified in Rome. The apostle "
-     "Herod put to the sword. The beloved disciple. The First "
-     "Presidency of the ancient church — sent back, to lay their hands "
-     "on two young men's heads and return what the empire thought it "
-     "had buried with them."),
+     "Let that land. The fisherman Rome crucified. The apostle Herod "
+     "beheaded. The devil spent centuries killing exactly these men "
+     "to get the keys off the earth — and God sent exactly these men "
+     "back to return them. Every murder, undone by resurrection."),
     ("n10", NARRATOR,
-     "Understand what this claim means, and how easy it would be to "
-     "check from heaven's side: either John the Baptist stood in those "
-     "woods, or he did not. Either Peter, James and John returned, or "
-     "they did not. The Restoration never asks you to admire it as a "
-     "metaphor. It states events — and invites you to ask the God who "
-     "was there."),
+     "And notice the Father's style: the claim is checkable. Either "
+     "John stood in those woods, or he did not. The Restoration "
+     "states events and invites you to ask the God who was there. "
+     "Persuasion and evidence — force is the other side's move."),
     ("n11", NARRATOR,
-     "Sixteen centuries earlier, a boy watched the last apostle die and "
-     "the keys leave the world. On a May morning by an American river, "
-     "the line was spliced whole again — hand to head, exactly the way "
-     "it was cut. The famine did not just end. It ended in order."),
+     "Sixteen centuries earlier, a boy watched the last apostle die "
+     "and the line go slack. On a May morning by an American river it "
+     "was spliced whole — hand to head, exactly the way it was cut. "
+     "The devil's theft ran on death. It was always going to lose to "
+     "a God who raises the dead."),
 ]
 
 CARD_SEG = ("card", NARRATOR,

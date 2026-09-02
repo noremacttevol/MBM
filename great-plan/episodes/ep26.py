@@ -383,15 +383,16 @@ PICTURES = [
         )),
     ("p21", ("n11", 0.55), _p(
         "The invitation now: in a present-day room at dawn, a person "
-        "sits by a window with an open book in their lap — seen "
-        "entirely from behind in silhouette-soft morning light, "
-        "identity unknowable, the window's light falling across the "
-        "open pages and the quiet room. It could be anyone. It could "
-        "be the viewer.",
-        "an unidentifiable person from behind at a dawn window with an "
-        "open book, present day, quiet",
-        "their face from any angle, readable text, phone screens "
-        "readable, brand marks",
+        "sits by a window with an open book in their lap — seen from "
+        "behind, BARE-HEADED, ordinary short hair visible, wearing a "
+        "plain crew-neck sweater (NO hood, no hooded garment anywhere "
+        "in the frame), soft morning light across the open pages and "
+        "the quiet room. Warm, ordinary, inviting. It could be "
+        "anyone. It could be the viewer.",
+        "a bare-headed person in a plain sweater from behind at a "
+        "dawn window with an open book, present day, warm",
+        "any hood or hooded clothing, their face from any angle, "
+        "readable text, phone screens readable, brand marks",
         era="modern")),
     ("p22", ("n11", 0.6), _p(
         "Final frame: from the grove floor looking straight up the "

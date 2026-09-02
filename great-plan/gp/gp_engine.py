@@ -60,6 +60,7 @@ GP_CAST = {
     "FATHER": "father",
     "ADAM": "adam", "EVE": "eve", "MOSES-GP": "moses",
     "JOSEPH-SMITH": "joseph-smith", "MORONI-GP": "moroni",
+    "JOSEPH-ADULT": "joseph-adult", "JOSEPH-1836": "joseph-adult",
     "ENOCH-GP": "enoch", "NOAH-GP": "noah", "ABRAHAM-GP": "abraham",
 }
 CAST_DIR = os.path.join(GPROOT, "CAST-GP-REF")

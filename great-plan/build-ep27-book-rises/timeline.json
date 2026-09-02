@@ -24,97 +24,97 @@
    "text": "He called me by name, and said unto me that he was a messenger sent from the presence of God to me, and that his name was Moroni.",
    "seg_start": 24.916,
    "audio_start": 25.196,
-   "spoken_end": 32.637,
-   "seg_dur": 8.871
+   "spoken_end": 31.87,
+   "seg_dur": 8.105
   },
   {
    "seg": "n3",
    "speaker": "narrator",
    "text": "Moroni \u2014 the man who buried the plates, sent back for them. See the counter-move: the apostasy had made truth a monopoly. God's answer was a second witness \u2014 evidence the empires never got to burn or edit.",
-   "seg_start": 33.787,
-   "audio_start": 34.067,
-   "spoken_end": 48.808,
+   "seg_start": 33.02,
+   "audio_start": 33.3,
+   "spoken_end": 48.041,
    "seg_dur": 15.741
   },
   {
    "seg": "s2",
    "speaker": "scripture",
    "text": "He said there was a book deposited, written upon gold plates, giving an account of the former inhabitants of this continent, and the source from whence they sprang. He also said that the fulness of the everlasting Gospel was contained in it, as delivered by the Savior to the ancient inhabitants.",
-   "seg_start": 49.528,
-   "audio_start": 49.808,
-   "spoken_end": 67.536,
+   "seg_start": 48.761,
+   "audio_start": 49.041,
+   "spoken_end": 66.769,
    "seg_dur": 19.158
   },
   {
    "seg": "n5",
    "speaker": "narrator",
    "text": "Four years of schooling followed, until the plates were placed in Joseph's hands. God was not planting a rumor \u2014 He was preparing a witness. A choice is only free when there is something real to weigh.",
-   "seg_start": 68.686,
-   "audio_start": 68.966,
-   "spoken_end": 80.672,
+   "seg_start": 67.919,
+   "audio_start": 68.199,
+   "spoken_end": 79.905,
    "seg_dur": 12.706
   },
   {
    "seg": "n6",
    "speaker": "narrator",
    "text": "Then, translation \u2014 by the gift and power of God: five hundred and thirty-one pages in about sixty-five working days. The enemy's strategy was starving you of the word. Heaven answered at a pace no famine could match.",
-   "seg_start": 81.392,
-   "audio_start": 81.672,
-   "spoken_end": 95.004,
+   "seg_start": 80.625,
+   "audio_start": 80.905,
+   "spoken_end": 94.237,
    "seg_dur": 14.332
   },
   {
    "seg": "n7",
    "speaker": "narrator",
    "text": "And what came off those plates put back what the theft had taken \u2014 the plain and precious things, the covenants. Its own title page aims the mission at your freedom to know:",
-   "seg_start": 95.724,
-   "audio_start": 96.004,
-   "spoken_end": 106.258,
+   "seg_start": 94.957,
+   "audio_start": 95.237,
+   "spoken_end": 105.491,
    "seg_dur": 11.254
   },
   {
    "seg": "s3",
    "speaker": "scripture",
    "text": "To the convincing of the Jew and Gentile that Jesus is the Christ, the Eternal God, manifesting himself unto all nations.",
-   "seg_start": 106.978,
-   "audio_start": 107.258,
-   "spoken_end": 114.267,
+   "seg_start": 106.211,
+   "audio_start": 106.491,
+   "spoken_end": 113.5,
    "seg_dur": 8.439
   },
   {
    "seg": "n8",
    "speaker": "narrator",
    "text": "And hear the counter-attack, then and now: you already have a Bible \u2014 you need no more. Notice whose voice says more light is dangerous. God answered twenty-four centuries early:",
-   "seg_start": 115.417,
-   "audio_start": 115.697,
-   "spoken_end": 126.1,
+   "seg_start": 114.65,
+   "audio_start": 114.93,
+   "spoken_end": 125.333,
    "seg_dur": 11.403
   },
   {
    "seg": "j1",
    "speaker": "jesus",
    "text": "Wherefore, because that ye have a Bible ye need not suppose that it contains all my words; neither need ye suppose that I have not caused more to be written.",
-   "seg_start": 126.82,
-   "audio_start": 127.1,
-   "spoken_end": 134.886,
+   "seg_start": 126.053,
+   "audio_start": 126.333,
+   "spoken_end": 134.119,
    "seg_dur": 9.216
   },
   {
    "seg": "n9",
    "speaker": "narrator",
    "text": "Two witnesses. One God. And because the Father persuades \u2014 he never forces \u2014 eleven ordinary men lifted the plates, turned the leaves, and signed their names for life. The devil forbids you to look. God invites you to handle it.",
-   "seg_start": 136.036,
-   "audio_start": 136.316,
-   "spoken_end": 151.036,
+   "seg_start": 135.269,
+   "audio_start": 135.549,
+   "spoken_end": 150.269,
    "seg_dur": 15.72
   },
   {
    "seg": "n11",
    "speaker": "narrator",
    "text": "That is why the book ends with a question instead of a law: read it, and ask God, in the name of Christ, if it is true. No army. No middleman \u2014 not even us. The war has been over your freedom to choose; this book puts the choice in your hands. Open it.",
-   "seg_start": 151.756,
-   "audio_start": 152.036,
-   "spoken_end": 168.496,
+   "seg_start": 150.989,
+   "audio_start": 151.269,
+   "spoken_end": 167.729,
    "seg_dur": 17.46
   }
  ],
@@ -122,9 +122,9 @@
   "seg": "card",
   "speaker": "narrator",
   "text": "The devil needs you blind. God put the evidence in your hands \u2014 and asked.",
-  "seg_start": 169.216,
-  "audio_start": 169.496,
+  "seg_start": 168.449,
+  "audio_start": 168.729,
   "seg_dur": 6.796
  },
- "total": 176.012
+ "total": 175.245
 }
