@@ -125,11 +125,17 @@ BEATS = [
         "must_show": "Jesus taking up an open scroll of the Psalms from a nearby temple reader — his hands on their own scripture, turning it to the psalm where God calls mere men gods; an insert favouring the hands and the plain scroll.",
         "must_not_show": "no God or Father figure; no legible or rendered writing on the scroll; no halo, glare or rim-light; only Jesus in cream; no modern object; not a cartoon.",
         "scene": (
-            "A tighter shot favouring Jesus's hands as he takes up an open scroll of the "
-            "Psalms in the temple court and turns it toward the leaders — reaching into "
-            "their own scripture to the psalm he means to read. Only he wears the plain "
-            "cream robe. The parchment carries no legible or rendered writing. "
-            "Ordinary-sized, one head, gaze on the scroll and not to the camera; warm "
+            "A tighter shot favouring Jesus's hands as he takes up an "
+            "open scroll of the Psalms in the temple court and turns it "
+            "toward the leaders. STRICT HAND ACCOUNTING — Jesus has "
+            "EXACTLY TWO HANDS: his LEFT hand grips the LEFT wooden "
+            "roller, his RIGHT hand grips the RIGHT wooden roller, and "
+            "the parchment hangs open between them, drooping and gently "
+            "curling under its own weight like real vellum. No third "
+            "hand, no extra fingers, no hand touching the parchment's "
+            "face, no hand of anyone else on the scroll. Only he wears "
+            "the plain cream robe. The parchment carries no legible "
+            "writing. Ordinary-sized, one head, gaze on the scroll; warm "
             "daylight on his hands, not around his head."
         ),
     },
@@ -159,13 +165,18 @@ BEATS = [
         "must_show": "GREEN caption (God-voice from the Psalm) — Jesus finishing the read line, an open hand extended toward the leaders as the scroll names even them 'children of the most High'; the leaders uneasy at hearing their own book turned on them.",
         "must_not_show": "GOD IS NOT SHOWN — no God or Father figure, throne, hand, beam or rays; no legible or rendered writing; no halo, glare or rim-light; only Jesus in cream; no modern object; not a cartoon.",
         "scene": (
-            "A tighter shot past a leader's dark shoulder: Jesus with EXACTLY "
-            "TWO HANDS in strict accounting — his RIGHT hand alone carries the "
-            "scroll, closed around both rollers together and lowered to his "
-            "side at hip height, while his LEFT hand opens palm-up toward the "
-            "leaders as he finishes the line. Two hands total, one on the "
-            "lowered scroll, one gesturing; no third hand, no extra arm, no "
-            "second grip anywhere on the scroll. His V2 face calm and sure."
+            "A tighter shot past a leader's dark shoulder: Jesus with "
+            "EXACTLY TWO HANDS in strict accounting — his RIGHT hand "
+            "holds the closed scroll UP against his chest, the fingers "
+            "VISIBLY WRAPPED around both rollers and the scroll resting "
+            "against his body, clearly supported, while his LEFT hand "
+            "opens palm-up toward the leaders as he finishes the line. "
+            "Two hands total, one gripping the chest-held scroll, one "
+            "gesturing; no third hand, no extra arm, no second grip. THE "
+            "SCROLL IS NEVER AIRBORNE — it touches his hand and his "
+            "chest, held like a real heavy object; if the grip cannot be "
+            "seen, the scroll cannot be there. Only he wears cream. One "
+            "head, warm daylight, no light around his head."
         ),
     },
     {
@@ -176,13 +187,19 @@ BEATS = [
         "must_show": "Jesus reasoning, gesturing from the open scroll outward — making the sharp point that scripture itself called men gods because God's word came to them.",
         "must_not_show": "no God or Father figure; no legible or rendered writing; no halo, glare or rim-light; only Jesus in cream; no modern object; not a cartoon.",
         "scene": (
-            "A close on Jesus in the temple-court daylight, one hand on the open scroll "
-            "and the other opening outward as he makes his sharp point — that scripture "
-            "itself named men gods because God's word had come to them. Only he wears the "
-            "plain cream robe. The scroll carries nothing legible. Ordinary-sized, one "
-            "head, gaze toward the leaders and not to the camera; warm light on his face, "
-            "not around his head."
-            "CAMERA: a tight PROFILE close from Jesus's left, the scroll's edge large and soft in the near foreground. NOT a frontal framing."
+            "A close on Jesus in the temple-court daylight making his "
+            "sharp point: his LEFT hand grips the open scroll's near "
+            "wooden roller FIRMLY, knuckles visible closed around the "
+            "wood, the parchment hanging down from that grip and gently "
+            "curling like heavy cloth — never stiff, never flat as a "
+            "board, NEVER floating free of the hand — while his RIGHT "
+            "hand opens outward toward the leaders. Scripture itself "
+            "named men gods because God's word had come to them. The "
+            "scroll carries nothing legible. Only he wears the plain "
+            "cream robe. Ordinary-sized, one head, gaze toward the "
+            "leaders; warm light on his face, not around his head. "
+            "CAMERA: a tight PROFILE from his left, unlike the frontal "
+            "framings before it."
         ),
     },
     {

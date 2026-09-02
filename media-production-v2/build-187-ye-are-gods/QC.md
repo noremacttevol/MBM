@@ -104,3 +104,21 @@ carries the scroll closed and lowered to hip height, the LEFT opens palm-up;
 "no third hand, no extra arm, no second grip". 1 gen, $0.13. Verified in the
 ENCODED replacement at 0:23 — exactly two hands, V2 face on-model, cream only
 him, no halo. AUDIO REBUILD PASS (narration untouched).
+
+## C-FIX 2026-09-02 — COMPLAINT LEDGER (second complaint: scroll physics)
+Cameron: "0;12 Jesus has a double hand holding the scripture scroll and reading
+it. 0:20 and 0:25 the scroll is floating and not acting like cloth/paper it is
+made out of."
+- b03 (0:12) autopsy ALLOWED: no hand accounting in the prompt -> duplicate
+  hand. Rewritten with strict two-hands roller-grip grammar; regenerated.
+- b05 (0:20) autopsy IGNORED: the two-hands law was present but "lowered to his
+  side" hid the grip and the scroll floated. Restaged chest-held with the
+  fingers VISIBLY wrapped ("if the grip cannot be seen, the scroll cannot be
+  there"); first reroll ALSO had red thread-spatters on the pavement (caught in
+  zoom) — clean-floor reroll shipped. 2 rolls.
+- b06 (0:25) autopsy ALLOWED: "one hand on the scroll" lost to the gesture ->
+  plank-scroll floating. Rewritten: knuckles closed around the roller, parchment
+  hanging and curling like heavy cloth; regenerated clean.
+- SHIP VERIFICATION: 0:12/0:20/0:25 re-extracted from the ENCODED mp4 — every
+  scroll gripped, draping naturally, two hands each. FULL-CUT GATE 16/16 + card,
+  similarity NONE. 70.3s.

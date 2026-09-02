@@ -6768,3 +6768,11 @@
 {"ts": "2026-09-01 03:51:03", "build": "build-134-today-in-paradise", "beat": "v2-r134-b06", "out": "s06-lord-remember-me-when-thou.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-09-01 03:52:29", "build": "build-134-today-in-paradise", "beat": "v2-r134-b06", "out": "s06-lord-remember-me-when-thou.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
 {"ts": "2026-09-01 03:57:00", "build": "build-134-today-in-paradise", "beat": "v2-r134-b15", "out": "s15-it-was-somewhere-in-between.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-09-02 00:13:30", "build": "build-187-ye-are-gods", "beat": "v2-r187-b03", "out": "s03-reaching-for-the-scroll.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-09-02 00:13:59", "build": "build-187-ye-are-gods", "beat": "v2-r187-b05", "out": "s05-children-of-the-most-high.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-09-02 00:14:29", "build": "build-187-ye-are-gods", "beat": "v2-r187-b06", "out": "s06-if-scripture-called-men-gods.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-09-02 00:15:50", "build": "build-187-ye-are-gods", "beat": "v2-r187-b05", "out": "s05-children-of-the-most-high.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-09-02 00:24:39", "build": "gp-ep14", "beat": "p06", "out": "p06.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-09-02 00:25:03", "build": "gp-ep18", "beat": "p05", "out": "p05.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-09-02 00:25:29", "build": "gp-ep18", "beat": "p16", "out": "p16.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
+{"ts": "2026-09-02 00:25:55", "build": "gp-ep23", "beat": "p03", "out": "p03.jpeg", "model": "gemini-3-pro-image", "size": "2K", "est_cost": 0.134}
