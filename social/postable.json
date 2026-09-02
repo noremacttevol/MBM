@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01",
+  "generated": "2026-09-02",
   "rule": "POSTABLE = approved:true AND approvedHash == data-hash on site/review.html AND file bytes verified against the approved cut. Exports come from git objects, never the working tree (the autopilot rewrites working-tree mp4s).",
   "postable": [
     {
@@ -12,8 +12,8 @@
       "servedBlob": "82b71c7cfe72bd73734838ebdec96e0a21b1702b",
       "approvedAt": "2026-08-13T00:21:17.559Z",
       "repoPath": "media-production-v2/build-01-cloak/mark-5_woman-touches-his-cloak-realistic-v3.mp4",
-      "exportPath": "social/exports/row-001-woman-who-touched-his-cloak.mp4",
-      "cover": "social/covers/row-001.jpg"
+      "exportPath": "social/posted-1-100/exports/row-001-woman-who-touched-his-cloak.mp4",
+      "cover": "social/posted-1-100/covers/row-001.jpg"
     },
     {
       "row": 2,
@@ -25,8 +25,8 @@
       "servedBlob": "9a7ae96a2c369e431dc5b6e93622fc558a18ea0a",
       "approvedAt": "2026-08-01T14:57:16.636Z",
       "repoPath": "media-production-v2/build-02-prodigal/luke-15_prodigal-son-realistic-v3.mp4",
-      "exportPath": "social/exports/row-002-the-prodigal-son.mp4",
-      "cover": "social/covers/row-002.jpg"
+      "exportPath": "social/posted-1-100/exports/row-002-the-prodigal-son.mp4",
+      "cover": "social/posted-1-100/covers/row-002.jpg"
     },
     {
       "row": 3,
@@ -38,8 +38,8 @@
       "servedBlob": "39c19f7e284afab4d757a304167e676799a99e0b",
       "approvedAt": "2026-08-02T01:18:38.193Z",
       "repoPath": "media-production-v2/build-03-zacchaeus/luke-19_zacchaeus-realistic-v3.mp4",
-      "exportPath": "social/exports/row-003-zacchaeus.mp4",
-      "cover": "social/covers/row-003.jpg"
+      "exportPath": "social/posted-1-100/exports/row-003-zacchaeus.mp4",
+      "cover": "social/posted-1-100/covers/row-003.jpg"
     },
     {
       "row": 4,
@@ -51,8 +51,8 @@
       "servedBlob": "09e98cefd50e5722b8b76aefe0f2dd9e4ef9d178",
       "approvedAt": "2026-08-03T00:53:21.138Z",
       "repoPath": "media-production-v2/build-04-nicodemus/john-3_nicodemus-realistic-v2.mp4",
-      "exportPath": "social/exports/row-004-nicodemus-at-night.mp4",
-      "cover": "social/covers/row-004.jpg"
+      "exportPath": "social/posted-1-100/exports/row-004-nicodemus-at-night.mp4",
+      "cover": "social/posted-1-100/covers/row-004.jpg"
     },
     {
       "row": 5,
@@ -64,8 +64,8 @@
       "servedBlob": "93738754368d7e7f85dfd1614b970d24b6b486bb",
       "approvedAt": "2026-08-02T15:24:31.675Z",
       "repoPath": "media-production-v2/build-05-bent-woman/luke-13_bent-woman-realistic-v2.mp4",
-      "exportPath": "social/exports/row-005-the-bent-over-woman.mp4",
-      "cover": "social/covers/row-005.jpg"
+      "exportPath": "social/posted-1-100/exports/row-005-the-bent-over-woman.mp4",
+      "cover": "social/posted-1-100/covers/row-005.jpg"
     },
     {
       "row": 6,
@@ -77,8 +77,8 @@
       "servedBlob": "c660e5deeb7e7855ea09783ff78faab90b03e4b8",
       "approvedAt": "2026-08-02T15:24:48.815Z",
       "repoPath": "media-production-v2/build-06-two-sons/matthew-21_two-sons-realistic-v2.mp4",
-      "exportPath": "social/exports/row-006-the-two-sons.mp4",
-      "cover": "social/covers/row-006.jpg"
+      "exportPath": "social/posted-1-100/exports/row-006-the-two-sons.mp4",
+      "cover": "social/posted-1-100/covers/row-006.jpg"
     },
     {
       "row": 7,
@@ -90,8 +90,8 @@
       "servedBlob": "2b807e85b68a4e36199d176f6f0a1ce04b28ddb9",
       "approvedAt": "2026-08-02T15:30:17.094Z",
       "repoPath": "media-production-v2/codex-test-07-peter-water/video-build/peter-walks-on-water-codex-test-v7.mp4",
-      "exportPath": "social/exports/row-007-peter-walks-on-water.mp4",
-      "cover": "social/covers/row-007.jpg"
+      "exportPath": "social/posted-1-100/exports/row-007-peter-walks-on-water.mp4",
+      "cover": "social/posted-1-100/covers/row-007.jpg"
     },
     {
       "row": 8,
@@ -103,8 +103,8 @@
       "servedBlob": "5bcb2b44f69c3b74d4779ba623a74c7f006e6c0f",
       "approvedAt": "2026-08-02T15:49:52.836Z",
       "repoPath": "media-production-v2/build-08-lost-coin/luke-15_lost-coin-realistic-v2.mp4",
-      "exportPath": "social/exports/row-008-the-lost-coin.mp4",
-      "cover": "social/covers/row-008.jpg"
+      "exportPath": "social/posted-1-100/exports/row-008-the-lost-coin.mp4",
+      "cover": "social/posted-1-100/covers/row-008.jpg"
     },
     {
       "row": 9,
@@ -116,8 +116,8 @@
       "servedBlob": "a9f1ba10890d7281021a5591a32e4ce8f52ba597",
       "approvedAt": "2026-08-07T03:54:32.476Z",
       "repoPath": "media-production-v2/build-09-rich-ruler/mark-10_rich-ruler-realistic-v2.mp4",
-      "exportPath": "social/exports/row-009-the-rich-young-ruler.mp4",
-      "cover": "social/covers/row-009.jpg"
+      "exportPath": "social/posted-1-100/exports/row-009-the-rich-young-ruler.mp4",
+      "cover": "social/posted-1-100/covers/row-009.jpg"
     },
     {
       "row": 10,
@@ -129,8 +129,8 @@
       "servedBlob": "b92ab74df4021b0751d9b89e95dd298abe30e581",
       "approvedAt": "2026-08-11T04:38:37.868Z",
       "repoPath": "media-production-v2/build-10-well/john-4_woman-at-the-well-realistic-v2.mp4",
-      "exportPath": "social/exports/row-010-the-woman-at-the-well.mp4",
-      "cover": "social/covers/row-010.jpg"
+      "exportPath": "social/posted-1-100/exports/row-010-the-woman-at-the-well.mp4",
+      "cover": "social/posted-1-100/covers/row-010.jpg"
     },
     {
       "row": 11,
@@ -142,8 +142,8 @@
       "servedBlob": "4bd19b4d41412f1de6d3d9219b8ea3ced0453149",
       "approvedAt": "2026-08-11T03:49:58.137Z",
       "repoPath": "media-production-v2/build-11-storm/mark-4_calming-the-storm-realistic-v4.mp4",
-      "exportPath": "social/exports/row-011-calming-the-storm.mp4",
-      "cover": "social/covers/row-011.jpg"
+      "exportPath": "social/posted-1-100/exports/row-011-calming-the-storm.mp4",
+      "cover": "social/posted-1-100/covers/row-011.jpg"
     },
     {
       "row": 12,
@@ -155,8 +155,8 @@
       "servedBlob": "5931c321fa44377934283eaad51d915844817f1a",
       "approvedAt": "2026-08-05T10:35:24.645Z",
       "repoPath": "media-production-v2/build-12-bartimaeus/mark-10_bartimaeus-realistic-v2.mp4",
-      "exportPath": "social/exports/row-012-blind-bartimaeus.mp4",
-      "cover": "social/covers/row-012.jpg"
+      "exportPath": "social/posted-1-100/exports/row-012-blind-bartimaeus.mp4",
+      "cover": "social/posted-1-100/covers/row-012.jpg"
     },
     {
       "row": 13,
@@ -168,8 +168,8 @@
       "servedBlob": "479b3e319a55774d34e4da3ddb861c5ebeb20cb4",
       "approvedAt": "2026-08-11T12:57:54.721Z",
       "repoPath": "media-production-v2/build-13-roof/mark-2_man-through-the-roof-realistic-v3.mp4",
-      "exportPath": "social/exports/row-013-the-man-through-the-roof.mp4",
-      "cover": "social/covers/row-013.jpg"
+      "exportPath": "social/posted-1-100/exports/row-013-the-man-through-the-roof.mp4",
+      "cover": "social/posted-1-100/covers/row-013.jpg"
     },
     {
       "row": 14,
@@ -181,8 +181,8 @@
       "servedBlob": "cd69c4500b3056011345403f8d19c8b02ede338c",
       "approvedAt": "2026-08-05T10:39:34.140Z",
       "repoPath": "media-production-v2/build-14-ten-lepers/luke-17_ten-lepers-realistic-v2.mp4",
-      "exportPath": "social/exports/row-014-the-ten-lepers.mp4",
-      "cover": "social/covers/row-014.jpg"
+      "exportPath": "social/posted-1-100/exports/row-014-the-ten-lepers.mp4",
+      "cover": "social/posted-1-100/covers/row-014.jpg"
     },
     {
       "row": 15,
@@ -194,8 +194,8 @@
       "servedBlob": "318c130cbed12f8aace434eab8d7568b535c54f5",
       "approvedAt": "2026-08-11T04:16:52.976Z",
       "repoPath": "media-production-v2/build-15-centurion/matthew-8_centurion-realistic-v2.mp4",
-      "exportPath": "social/exports/row-015-the-centurion-s-servant.mp4",
-      "cover": "social/covers/row-015.jpg"
+      "exportPath": "social/posted-1-100/exports/row-015-the-centurion-s-servant.mp4",
+      "cover": "social/posted-1-100/covers/row-015.jpg"
     },
     {
       "row": 16,
@@ -207,8 +207,8 @@
       "servedBlob": "3f28597ebddb8ff7bda2d9b0bd7b06674af76721",
       "approvedAt": "2026-08-11T04:20:49.165Z",
       "repoPath": "media-production-v2/build-16-mary-martha/luke-10_mary-and-martha-realistic-v2.mp4",
-      "exportPath": "social/exports/row-016-mary-and-martha.mp4",
-      "cover": "social/covers/row-016.jpg"
+      "exportPath": "social/posted-1-100/exports/row-016-mary-and-martha.mp4",
+      "cover": "social/posted-1-100/covers/row-016.jpg"
     },
     {
       "row": 17,
@@ -220,8 +220,8 @@
       "servedBlob": "18f5e80ae56b63265edc7a881d94c2b68d845030",
       "approvedAt": "2026-08-11T19:24:46.711Z",
       "repoPath": "media-production-v2/build-17-lazarus/john-11_lazarus.mp4",
-      "exportPath": "social/exports/row-017-lazarus.mp4",
-      "cover": "social/covers/row-017.jpg"
+      "exportPath": "social/posted-1-100/exports/row-017-lazarus.mp4",
+      "cover": "social/posted-1-100/covers/row-017.jpg"
     },
     {
       "row": 18,
@@ -233,8 +233,8 @@
       "servedBlob": "7c23de88a6b59d1885f5cdbdbe6c253ce789a56e",
       "approvedAt": "2026-08-07T21:05:20.889Z",
       "repoPath": "media-production-v2/build-18-emmaus/luke-24_emmaus-realistic-v2.mp4",
-      "exportPath": "social/exports/row-018-the-road-to-emmaus.mp4",
-      "cover": "social/covers/row-018.jpg"
+      "exportPath": "social/posted-1-100/exports/row-018-the-road-to-emmaus.mp4",
+      "cover": "social/posted-1-100/covers/row-018.jpg"
     },
     {
       "row": 19,
@@ -246,8 +246,8 @@
       "servedBlob": "313bb08b235867d8011e9be06e4e2893f57deede",
       "approvedAt": "2026-08-11T04:42:32.978Z",
       "repoPath": "media-production-v2/build-19-shore/john-21_breakfast-on-the-shore-realistic-v2.mp4",
-      "exportPath": "social/exports/row-019-breakfast-on-the-shore.mp4",
-      "cover": "social/covers/row-019.jpg"
+      "exportPath": "social/posted-1-100/exports/row-019-breakfast-on-the-shore.mp4",
+      "cover": "social/posted-1-100/covers/row-019.jpg"
     },
     {
       "row": 20,
@@ -259,8 +259,8 @@
       "servedBlob": "ae1a417e20964a6d6ad1e5669a19f475c6c2cca9",
       "approvedAt": "2026-08-05T22:24:09.523Z",
       "repoPath": "media-production-v2/build-20-samaritan/luke-10_good-samaritan-realistic-v2.mp4",
-      "exportPath": "social/exports/row-020-the-good-samaritan.mp4",
-      "cover": "social/covers/row-020.jpg"
+      "exportPath": "social/posted-1-100/exports/row-020-the-good-samaritan.mp4",
+      "cover": "social/posted-1-100/covers/row-020.jpg"
     },
     {
       "row": 21,
@@ -272,8 +272,8 @@
       "servedBlob": "a57264ac0eac5499c748ee5f810323625ba3d8c9",
       "approvedAt": "2026-08-05T22:26:46.819Z",
       "repoPath": "media-production-v2/build-21-lost-sheep/luke-15_lost-sheep-realistic-v2.mp4",
-      "exportPath": "social/exports/row-021-the-lost-sheep.mp4",
-      "cover": "social/covers/row-021.jpg"
+      "exportPath": "social/posted-1-100/exports/row-021-the-lost-sheep.mp4",
+      "cover": "social/posted-1-100/covers/row-021.jpg"
     },
     {
       "row": 22,
@@ -285,8 +285,8 @@
       "servedBlob": "f25cbd023b49649308d07de9f51d85597586593f",
       "approvedAt": "2026-08-11T04:48:10.244Z",
       "repoPath": "media-production-v2/build-22-unmerciful-servant/matthew-18_unmerciful-servant.mp4",
-      "exportPath": "social/exports/row-022-the-unmerciful-servant.mp4",
-      "cover": "social/covers/row-022.jpg"
+      "exportPath": "social/posted-1-100/exports/row-022-the-unmerciful-servant.mp4",
+      "cover": "social/posted-1-100/covers/row-022.jpg"
     },
     {
       "row": 23,
@@ -298,8 +298,8 @@
       "servedBlob": "35c29eba68297ea27abca2d25886cdc0ea399dff",
       "approvedAt": "2026-08-05T22:36:12.532Z",
       "repoPath": "media-production-v2/build-23-vineyard/matthew-20_vineyard-workers.mp4",
-      "exportPath": "social/exports/row-023-the-workers-in-the-vineyard.mp4",
-      "cover": "social/covers/row-023.jpg"
+      "exportPath": "social/posted-1-100/exports/row-023-the-workers-in-the-vineyard.mp4",
+      "cover": "social/posted-1-100/covers/row-023.jpg"
     },
     {
       "row": 24,
@@ -311,8 +311,8 @@
       "servedBlob": "f3fc5125c19979d1e2b5c4d32b9f679a2f6927c5",
       "approvedAt": "2026-08-05T22:42:19.053Z",
       "repoPath": "media-production-v2/build-24-sower/matthew-13_sower.mp4",
-      "exportPath": "social/exports/row-024-the-sower.mp4",
-      "cover": "social/covers/row-024.jpg"
+      "exportPath": "social/posted-1-100/exports/row-024-the-sower.mp4",
+      "cover": "social/posted-1-100/covers/row-024.jpg"
     },
     {
       "row": 25,
@@ -324,8 +324,8 @@
       "servedBlob": "859b2cb222a6a0941325202cc43283cbb0c2a8a2",
       "approvedAt": "2026-08-05T22:54:23.133Z",
       "repoPath": "media-production-v2/build-25-wheat-and-tares/matthew-13_wheat-and-tares.mp4",
-      "exportPath": "social/exports/row-025-the-wheat-and-the-tares.mp4",
-      "cover": "social/covers/row-025.jpg"
+      "exportPath": "social/posted-1-100/exports/row-025-the-wheat-and-the-tares.mp4",
+      "cover": "social/posted-1-100/covers/row-025.jpg"
     },
     {
       "row": 26,
@@ -337,8 +337,8 @@
       "servedBlob": "2f613904478bdf3638c74366dd61420bbbd2e78f",
       "approvedAt": "2026-08-05T23:00:24.104Z",
       "repoPath": "media-production-v2/build-26-mustard-seed/matthew-13_mustard-seed.mp4",
-      "exportPath": "social/exports/row-026-the-mustard-seed.mp4",
-      "cover": "social/covers/row-026.jpg"
+      "exportPath": "social/posted-1-100/exports/row-026-the-mustard-seed.mp4",
+      "cover": "social/posted-1-100/covers/row-026.jpg"
     },
     {
       "row": 27,
@@ -350,8 +350,8 @@
       "servedBlob": "8a333d439d3e7c1dd76b75e8712a866e197e3bf2",
       "approvedAt": "2026-08-12T00:04:15.631Z",
       "repoPath": "media-production-v2/build-27-leaven/matthew-13_leaven.mp4",
-      "exportPath": "social/exports/row-027-the-leaven.mp4",
-      "cover": "social/covers/row-027.jpg"
+      "exportPath": "social/posted-1-100/exports/row-027-the-leaven.mp4",
+      "cover": "social/posted-1-100/covers/row-027.jpg"
     },
     {
       "row": 28,
@@ -363,8 +363,8 @@
       "servedBlob": "349f3931ea7269960469914ac0d41c651e3295b7",
       "approvedAt": "2026-08-05T23:02:11.920Z",
       "repoPath": "media-production-v2/build-28-hidden-treasure/matthew-13_hidden-treasure.mp4",
-      "exportPath": "social/exports/row-028-the-hidden-treasure.mp4",
-      "cover": "social/covers/row-028.jpg"
+      "exportPath": "social/posted-1-100/exports/row-028-the-hidden-treasure.mp4",
+      "cover": "social/posted-1-100/covers/row-028.jpg"
     },
     {
       "row": 29,
@@ -376,8 +376,8 @@
       "servedBlob": "69b9df7d01492772f243bf61aa5a83fbbb21fcda",
       "approvedAt": "2026-08-05T23:04:51.800Z",
       "repoPath": "media-production-v2/build-29-pearl/matthew-13_pearl-of-great-price.mp4",
-      "exportPath": "social/exports/row-029-the-pearl-of-great-price.mp4",
-      "cover": "social/covers/row-029.jpg"
+      "exportPath": "social/posted-1-100/exports/row-029-the-pearl-of-great-price.mp4",
+      "cover": "social/posted-1-100/covers/row-029.jpg"
     },
     {
       "row": 30,
@@ -389,8 +389,8 @@
       "servedBlob": "dbb1c1db4dcc7389cc986bd86e560207354a528f",
       "approvedAt": "2026-08-05T23:07:30.157Z",
       "repoPath": "media-production-v2/build-30-net/matthew-13_the-net.mp4",
-      "exportPath": "social/exports/row-030-the-net.mp4",
-      "cover": "social/covers/row-030.jpg"
+      "exportPath": "social/posted-1-100/exports/row-030-the-net.mp4",
+      "cover": "social/posted-1-100/covers/row-030.jpg"
     },
     {
       "row": 31,
@@ -402,8 +402,8 @@
       "servedBlob": "92f3c143f2995376f98d1e0996b91ab532d5426c",
       "approvedAt": "2026-08-07T21:21:43.064Z",
       "repoPath": "media-production-v2/build-31-ten-virgins/matthew-25_ten-virgins.mp4",
-      "exportPath": "social/exports/row-031-the-ten-virgins.mp4",
-      "cover": "social/covers/row-031.jpg"
+      "exportPath": "social/posted-1-100/exports/row-031-the-ten-virgins.mp4",
+      "cover": "social/posted-1-100/covers/row-031.jpg"
     },
     {
       "row": 32,
@@ -415,8 +415,8 @@
       "servedBlob": "986c3202b29147a3d232953b804db95f08245ea9",
       "approvedAt": "2026-08-05T23:10:36.236Z",
       "repoPath": "media-production-v2/build-32-talents/matthew-25_talents.mp4",
-      "exportPath": "social/exports/row-032-the-talents.mp4",
-      "cover": "social/covers/row-032.jpg"
+      "exportPath": "social/posted-1-100/exports/row-032-the-talents.mp4",
+      "cover": "social/posted-1-100/covers/row-032.jpg"
     },
     {
       "row": 33,
@@ -428,8 +428,8 @@
       "servedBlob": "28a5f51a5295925bd3f82dd6b14d7c662dd6ea0f",
       "approvedAt": "2026-08-08T20:25:38.282Z",
       "repoPath": "media-production-v2/build-33-sheep-goats/matthew-25_sheep-and-goats.mp4",
-      "exportPath": "social/exports/row-033-the-sheep-and-the-goats.mp4",
-      "cover": "social/covers/row-033.jpg"
+      "exportPath": "social/posted-1-100/exports/row-033-the-sheep-and-the-goats.mp4",
+      "cover": "social/posted-1-100/covers/row-033.jpg"
     },
     {
       "row": 34,
@@ -441,8 +441,8 @@
       "servedBlob": "2cdd39387acf9fdbbc05c44825b5e707b8a38923",
       "approvedAt": "2026-08-05T23:31:21.207Z",
       "repoPath": "media-production-v2/build-34-rich-fool/luke-12_rich-fool.mp4",
-      "exportPath": "social/exports/row-034-the-rich-fool.mp4",
-      "cover": "social/covers/row-034.jpg"
+      "exportPath": "social/posted-1-100/exports/row-034-the-rich-fool.mp4",
+      "cover": "social/posted-1-100/covers/row-034.jpg"
     },
     {
       "row": 35,
@@ -454,8 +454,8 @@
       "servedBlob": "c34f72cc01516b9d5716d6ddd1f6247d62a682eb",
       "approvedAt": "2026-08-05T23:33:48.457Z",
       "repoPath": "media-production-v2/build-35-great-banquet/luke-14_great-banquet.mp4",
-      "exportPath": "social/exports/row-035-the-great-banquet.mp4",
-      "cover": "social/covers/row-035.jpg"
+      "exportPath": "social/posted-1-100/exports/row-035-the-great-banquet.mp4",
+      "cover": "social/posted-1-100/covers/row-035.jpg"
     },
     {
       "row": 36,
@@ -467,8 +467,8 @@
       "servedBlob": "1f9fc6e372046abbb6f3f91cf4e2ae8398ae2398",
       "approvedAt": "2026-08-06T01:48:07.672Z",
       "repoPath": "media-production-v2/build-36-shrewd-steward/luke-16_shrewd-steward.mp4",
-      "exportPath": "social/exports/row-036-the-shrewd-steward.mp4",
-      "cover": "social/covers/row-036.jpg"
+      "exportPath": "social/posted-1-100/exports/row-036-the-shrewd-steward.mp4",
+      "cover": "social/posted-1-100/covers/row-036.jpg"
     },
     {
       "row": 37,
@@ -480,8 +480,8 @@
       "servedBlob": "e8560ad7f7576a8750cb214cfd88a099d0b9a2f3",
       "approvedAt": "2026-08-06T02:09:46.726Z",
       "repoPath": "media-production-v2/build-37-rich-man-lazarus/luke-16_rich-man-lazarus.mp4",
-      "exportPath": "social/exports/row-037-the-rich-man-and-lazarus.mp4",
-      "cover": "social/covers/row-037.jpg"
+      "exportPath": "social/posted-1-100/exports/row-037-the-rich-man-and-lazarus.mp4",
+      "cover": "social/posted-1-100/covers/row-037.jpg"
     },
     {
       "row": 38,
@@ -493,8 +493,8 @@
       "servedBlob": "13edcdc632fa3f93ff954c5647ff397bc681f507",
       "approvedAt": "2026-08-06T02:12:54.431Z",
       "repoPath": "media-production-v2/build-38-persistent-widow/luke-18_persistent-widow.mp4",
-      "exportPath": "social/exports/row-038-the-persistent-widow.mp4",
-      "cover": "social/covers/row-038.jpg"
+      "exportPath": "social/posted-1-100/exports/row-038-the-persistent-widow.mp4",
+      "cover": "social/posted-1-100/covers/row-038.jpg"
     },
     {
       "row": 39,
@@ -506,8 +506,8 @@
       "servedBlob": "827330b1ba5b5fb040c3e2201676b0b5a3e40e35",
       "approvedAt": "2026-08-08T01:55:18.892Z",
       "repoPath": "media-production-v2/build-39-pharisee-publican/luke-18_pharisee-and-publican.mp4",
-      "exportPath": "social/exports/row-039-the-pharisee-and-the-publican.mp4",
-      "cover": "social/covers/row-039.jpg"
+      "exportPath": "social/posted-1-100/exports/row-039-the-pharisee-and-the-publican.mp4",
+      "cover": "social/posted-1-100/covers/row-039.jpg"
     },
     {
       "row": 40,
@@ -519,8 +519,8 @@
       "servedBlob": "65680940394b7808393f4739ddb0443cef388618",
       "approvedAt": "2026-08-08T02:02:58.582Z",
       "repoPath": "media-production-v2/build-40-the-friend-at-midnight/luke-11_friend-at-midnight.mp4",
-      "exportPath": "social/exports/row-040-the-friend-at-midnight.mp4",
-      "cover": "social/covers/row-040.jpg"
+      "exportPath": "social/posted-1-100/exports/row-040-the-friend-at-midnight.mp4",
+      "cover": "social/posted-1-100/covers/row-040.jpg"
     },
     {
       "row": 41,
@@ -532,8 +532,8 @@
       "servedBlob": "8aa290dcda7b00fc24df2c0f3e3ccddf8e10c4d2",
       "approvedAt": "2026-08-06T02:35:18.827Z",
       "repoPath": "media-production-v2/build-41-counting-the-cost/luke-14_counting-the-cost.mp4",
-      "exportPath": "social/exports/row-041-counting-the-cost.mp4",
-      "cover": "social/covers/row-041.jpg"
+      "exportPath": "social/posted-1-100/exports/row-041-counting-the-cost.mp4",
+      "cover": "social/posted-1-100/covers/row-041.jpg"
     },
     {
       "row": 42,
@@ -545,8 +545,8 @@
       "servedBlob": "995152b663e87160374ddce520bac1e6d543ff0f",
       "approvedAt": "2026-08-08T02:06:39.194Z",
       "repoPath": "media-production-v2/build-42-barren-fig-tree/luke-13_barren-fig-tree.mp4",
-      "exportPath": "social/exports/row-042-the-barren-fig-tree-spared.mp4",
-      "cover": "social/covers/row-042.jpg"
+      "exportPath": "social/posted-1-100/exports/row-042-the-barren-fig-tree-spared.mp4",
+      "cover": "social/posted-1-100/covers/row-042.jpg"
     },
     {
       "row": 43,
@@ -558,8 +558,8 @@
       "servedBlob": "763a3df51cb3679ccc4bb5d4fbaee036d770f3bd",
       "approvedAt": "2026-08-06T04:42:19.889Z",
       "repoPath": "media-production-v2/build-43-the-wedding-garment/matthew-22_wedding-garment.mp4",
-      "exportPath": "social/exports/row-043-the-wedding-garment.mp4",
-      "cover": "social/covers/row-043.jpg"
+      "exportPath": "social/posted-1-100/exports/row-043-the-wedding-garment.mp4",
+      "cover": "social/posted-1-100/covers/row-043.jpg"
     },
     {
       "row": 44,
@@ -571,8 +571,8 @@
       "servedBlob": "caba33b7fdd88027814b2a83b0ecef01f12939f4",
       "approvedAt": "2026-08-14T02:57:41.870Z",
       "repoPath": "media-production-v2/build-44-pentecost/acts-2_pentecost.mp4",
-      "exportPath": "social/exports/row-044-pentecost.mp4",
-      "cover": "social/covers/row-044.jpg"
+      "exportPath": "social/posted-1-100/exports/row-044-pentecost.mp4",
+      "cover": "social/posted-1-100/covers/row-044.jpg"
     },
     {
       "row": 45,
@@ -584,8 +584,8 @@
       "servedBlob": "25ce0edd94505ffd3be89abec767ba91120b617b",
       "approvedAt": "2026-08-11T12:45:43.292Z",
       "repoPath": "media-production-v2/build-45-wicked-tenants/mark-12_wicked-tenants.mp4",
-      "exportPath": "social/exports/row-045-the-wicked-tenants.mp4",
-      "cover": "social/covers/row-045.jpg"
+      "exportPath": "social/posted-1-100/exports/row-045-the-wicked-tenants.mp4",
+      "cover": "social/posted-1-100/covers/row-045.jpg"
     },
     {
       "row": 46,
@@ -597,8 +597,8 @@
       "servedBlob": "0d5da9dd6be28082bbdd1cda0653444c11b7a88e",
       "approvedAt": "2026-08-06T05:21:20.955Z",
       "repoPath": "media-production-v2/build-46-seed-growing/mark-4_seed-growing.mp4",
-      "exportPath": "social/exports/row-046-the-seed-growing-secretly.mp4",
-      "cover": "social/covers/row-046.jpg"
+      "exportPath": "social/posted-1-100/exports/row-046-the-seed-growing-secretly.mp4",
+      "cover": "social/posted-1-100/covers/row-046.jpg"
     },
     {
       "row": 47,
@@ -610,8 +610,8 @@
       "servedBlob": "0fbc7695978d7555d65f2ef73b901df449b3e18a",
       "approvedAt": "2026-08-06T05:29:32.620Z",
       "repoPath": "media-production-v2/build-47-houses-on-rock-and-sand/matthew-7_houses-on-rock-and-sand.mp4",
-      "exportPath": "social/exports/row-047-houses-on-rock-and-sand.mp4",
-      "cover": "social/covers/row-047.jpg"
+      "exportPath": "social/posted-1-100/exports/row-047-houses-on-rock-and-sand.mp4",
+      "cover": "social/posted-1-100/covers/row-047.jpg"
     },
     {
       "row": 48,
@@ -623,8 +623,8 @@
       "servedBlob": "4515f73eb5a4fa51c476179320bb3669a929beab",
       "approvedAt": "2026-08-08T02:54:39.259Z",
       "repoPath": "media-production-v2/build-48-new-wine-old-bottles/mark-2_new-wine-old-bottles.mp4",
-      "exportPath": "social/exports/row-048-new-wine-old-bottles.mp4",
-      "cover": "social/covers/row-048.jpg"
+      "exportPath": "social/posted-1-100/exports/row-048-new-wine-old-bottles.mp4",
+      "cover": "social/posted-1-100/covers/row-048.jpg"
     },
     {
       "row": 49,
@@ -636,8 +636,8 @@
       "servedBlob": "70d52762e90910e6ac56140ed744bdbda0df7f10",
       "approvedAt": "2026-08-08T02:15:06.774Z",
       "repoPath": "media-production-v2/build-49-water-to-wine/john-2_water-to-wine.mp4",
-      "exportPath": "social/exports/row-049-water-to-wine-at-cana.mp4",
-      "cover": "social/covers/row-049.jpg"
+      "exportPath": "social/posted-1-100/exports/row-049-water-to-wine-at-cana.mp4",
+      "cover": "social/posted-1-100/covers/row-049.jpg"
     },
     {
       "row": 50,
@@ -649,8 +649,8 @@
       "servedBlob": "eb480f10d7df34d9b78f829b55aa957ad9a50572",
       "approvedAt": "2026-08-07T20:51:02.534Z",
       "repoPath": "media-production-v2/build-50-noblemans-son/john-4_noblemans-son.mp4",
-      "exportPath": "social/exports/row-050-the-nobleman-s-son.mp4",
-      "cover": "social/covers/row-050.jpg"
+      "exportPath": "social/posted-1-100/exports/row-050-the-nobleman-s-son.mp4",
+      "cover": "social/posted-1-100/covers/row-050.jpg"
     },
     {
       "row": 51,
@@ -662,8 +662,8 @@
       "servedBlob": "6bb53fa6a6cfa68dc7285784870005e15e444444",
       "approvedAt": "2026-08-12T23:50:20.704Z",
       "repoPath": "media-production-v2/build-51-first-catch-of-fish/luke-5_first-catch-of-fish.mp4",
-      "exportPath": "social/exports/row-051-the-first-catch-of-fish.mp4",
-      "cover": "social/covers/row-051.jpg"
+      "exportPath": "social/posted-1-100/exports/row-051-the-first-catch-of-fish.mp4",
+      "cover": "social/posted-1-100/covers/row-051.jpg"
     },
     {
       "row": 52,
@@ -675,8 +675,8 @@
       "servedBlob": "28dfc5fa9835dd57fc2dde7eb6e0b16de323dab3",
       "approvedAt": "2026-08-12T04:53:18.255Z",
       "repoPath": "media-production-v2/build-52-demoniac-synagogue/mark-1_demoniac-synagogue.mp4",
-      "exportPath": "social/exports/row-052-the-demoniac-in-the-synagogue.mp4",
-      "cover": "social/covers/row-052.jpg"
+      "exportPath": "social/posted-1-100/exports/row-052-the-demoniac-in-the-synagogue.mp4",
+      "cover": "social/posted-1-100/covers/row-052.jpg"
     },
     {
       "row": 53,
@@ -688,8 +688,8 @@
       "servedBlob": "4a4b119c7dd43bd7b324156b2d883405d93da6a2",
       "approvedAt": "2026-08-06T10:17:38.465Z",
       "repoPath": "media-production-v2/build-53-peters-mother-in-law/mark-1_peters-mother-in-law.mp4",
-      "exportPath": "social/exports/row-053-peter-s-mother-in-law.mp4",
-      "cover": "social/covers/row-053.jpg"
+      "exportPath": "social/posted-1-100/exports/row-053-peter-s-mother-in-law.mp4",
+      "cover": "social/posted-1-100/covers/row-053.jpg"
     },
     {
       "row": 54,
@@ -701,8 +701,8 @@
       "servedBlob": "7aa605751dba8cc0385e511da76b229336f07e99",
       "approvedAt": "2026-08-08T02:19:55.670Z",
       "repoPath": "media-production-v2/build-54-the-leper/mark-1_the-leper.mp4",
-      "exportPath": "social/exports/row-054-the-leper-made-clean.mp4",
-      "cover": "social/covers/row-054.jpg"
+      "exportPath": "social/posted-1-100/exports/row-054-the-leper-made-clean.mp4",
+      "cover": "social/posted-1-100/covers/row-054.jpg"
     },
     {
       "row": 55,
@@ -714,8 +714,8 @@
       "servedBlob": "71d3f7cc41f824adab4d934f57a80b14fd276abd",
       "approvedAt": "2026-08-08T02:23:18.435Z",
       "repoPath": "media-production-v2/build-55-withered-hand/mark-3_withered-hand.mp4",
-      "exportPath": "social/exports/row-055-the-withered-hand.mp4",
-      "cover": "social/covers/row-055.jpg"
+      "exportPath": "social/posted-1-100/exports/row-055-the-withered-hand.mp4",
+      "cover": "social/posted-1-100/covers/row-055.jpg"
     },
     {
       "row": 56,
@@ -727,8 +727,8 @@
       "servedBlob": "d857ea06396e818b0dd99063e5e8fb0e69201edc",
       "approvedAt": "2026-08-06T20:46:27.196Z",
       "repoPath": "media-production-v2/build-56-widow-of-nain/luke-7_widow-of-nain.mp4",
-      "exportPath": "social/exports/row-056-the-widow-of-nain-s-son.mp4",
-      "cover": "social/covers/row-056.jpg"
+      "exportPath": "social/posted-1-100/exports/row-056-the-widow-of-nain-s-son.mp4",
+      "cover": "social/posted-1-100/covers/row-056.jpg"
     },
     {
       "row": 57,
@@ -740,8 +740,8 @@
       "servedBlob": "6de921d6d5d0bb3a1c9a779092e48710bd6e37e5",
       "approvedAt": "2026-08-06T21:58:37.526Z",
       "repoPath": "media-production-v2/build-57-jairus-daughter/mark-5_jairus-daughter.mp4",
-      "exportPath": "social/exports/row-057-jairus-s-daughter.mp4",
-      "cover": "social/covers/row-057.jpg"
+      "exportPath": "social/posted-1-100/exports/row-057-jairus-s-daughter.mp4",
+      "cover": "social/posted-1-100/covers/row-057.jpg"
     },
     {
       "row": 58,
@@ -753,8 +753,8 @@
       "servedBlob": "76fb94cfd5fee4383156d0e316b77c2d826714f9",
       "approvedAt": "2026-08-06T22:01:57.784Z",
       "repoPath": "media-production-v2/build-58-feeding-5000/john-6_feeding-5000.mp4",
-      "exportPath": "social/exports/row-058-feeding-the-five-thousand.mp4",
-      "cover": "social/covers/row-058.jpg"
+      "exportPath": "social/posted-1-100/exports/row-058-feeding-the-five-thousand.mp4",
+      "cover": "social/posted-1-100/covers/row-058.jpg"
     },
     {
       "row": 59,
@@ -766,8 +766,8 @@
       "servedBlob": "b754233398c21df551ca10b5f62944c4ded33be7",
       "approvedAt": "2026-08-08T02:27:18.534Z",
       "repoPath": "media-production-v2/build-59-feeding-4000/mark-8_feeding-4000.mp4",
-      "exportPath": "social/exports/row-059-feeding-the-four-thousand.mp4",
-      "cover": "social/covers/row-059.jpg"
+      "exportPath": "social/posted-1-100/exports/row-059-feeding-the-four-thousand.mp4",
+      "cover": "social/posted-1-100/covers/row-059.jpg"
     },
     {
       "row": 60,
@@ -779,8 +779,8 @@
       "servedBlob": "e56552ce12a85fef2a33d8452c9586e25bb65c3a",
       "approvedAt": "2026-08-12T04:55:21.540Z",
       "repoPath": "media-production-v2/build-60-gerasene-demoniac/mark-5_gerasene-demoniac.mp4",
-      "exportPath": "social/exports/row-060-the-gerasene-demoniac.mp4",
-      "cover": "social/covers/row-060.jpg"
+      "exportPath": "social/posted-1-100/exports/row-060-the-gerasene-demoniac.mp4",
+      "cover": "social/posted-1-100/covers/row-060.jpg"
     },
     {
       "row": 61,
@@ -792,8 +792,8 @@
       "servedBlob": "cb48c55557dd3f8986048a460fbc9337e51b1909",
       "approvedAt": "2026-08-11T23:14:10.668Z",
       "repoPath": "media-production-v2/build-61-syrophoenician-woman/mark-7_syrophoenician-woman.mp4",
-      "exportPath": "social/exports/row-061-the-syrophoenician-woman.mp4",
-      "cover": "social/covers/row-061.jpg"
+      "exportPath": "social/posted-1-100/exports/row-061-the-syrophoenician-woman.mp4",
+      "cover": "social/posted-1-100/covers/row-061.jpg"
     },
     {
       "row": 62,
@@ -805,8 +805,8 @@
       "servedBlob": "ddee097d0313f1030a86adaaa14cc6a3f189968b",
       "approvedAt": "2026-08-12T04:42:26.169Z",
       "repoPath": "media-production-v2/build-62-ephphatha/mark-7_ephphatha.mp4",
-      "exportPath": "social/exports/row-062-ephphatha-the-deaf-man.mp4",
-      "cover": "social/covers/row-062.jpg"
+      "exportPath": "social/posted-1-100/exports/row-062-ephphatha-the-deaf-man.mp4",
+      "cover": "social/posted-1-100/covers/row-062.jpg"
     },
     {
       "row": 63,
@@ -818,8 +818,8 @@
       "servedBlob": "603b58ba485571a659e452fe35f9eed16e0f3e32",
       "approvedAt": "2026-08-17T01:26:16.417Z",
       "repoPath": "media-production-v2/build-63-man-born-blind/john-9_man-born-blind.mp4",
-      "exportPath": "social/exports/row-063-the-man-born-blind.mp4",
-      "cover": "social/covers/row-063.jpg"
+      "exportPath": "social/posted-1-100/exports/row-063-the-man-born-blind.mp4",
+      "cover": "social/posted-1-100/covers/row-063.jpg"
     },
     {
       "row": 64,
@@ -831,8 +831,8 @@
       "servedBlob": "c8824bac879a79241cbffcbe47e15d600bc04ec4",
       "approvedAt": "2026-08-06T22:11:45.882Z",
       "repoPath": "media-production-v2/build-64-pool-of-bethesda/john-5_pool-of-bethesda.mp4",
-      "exportPath": "social/exports/row-064-the-pool-of-bethesda.mp4",
-      "cover": "social/covers/row-064.jpg"
+      "exportPath": "social/posted-1-100/exports/row-064-the-pool-of-bethesda.mp4",
+      "cover": "social/posted-1-100/covers/row-064.jpg"
     },
     {
       "row": 65,
@@ -844,8 +844,8 @@
       "servedBlob": "37cb3be0e984d63f259e81762d39e86ca73c6696",
       "approvedAt": "2026-08-08T02:40:14.568Z",
       "repoPath": "media-production-v2/build-65-help-mine-unbelief/mark-9_help-mine-unbelief.mp4",
-      "exportPath": "social/exports/row-065-help-mine-unbelief.mp4",
-      "cover": "social/covers/row-065.jpg"
+      "exportPath": "social/posted-1-100/exports/row-065-help-mine-unbelief.mp4",
+      "cover": "social/posted-1-100/covers/row-065.jpg"
     },
     {
       "row": 66,
@@ -857,8 +857,8 @@
       "servedBlob": "c8fae025f579655b9aaee81caf383b0c425b4aa6",
       "approvedAt": "2026-08-12T05:00:47.384Z",
       "repoPath": "media-production-v2/build-66-malchus-ear/luke-22_malchus-ear.mp4",
-      "exportPath": "social/exports/row-066-malchus-ear.mp4",
-      "cover": "social/covers/row-066.jpg"
+      "exportPath": "social/posted-1-100/exports/row-066-malchus-ear.mp4",
+      "cover": "social/posted-1-100/covers/row-066.jpg"
     },
     {
       "row": 67,
@@ -870,8 +870,8 @@
       "servedBlob": "aa60afc3a20d504be3deb7124eba7c4132110269",
       "approvedAt": "2026-08-11T23:11:22.937Z",
       "repoPath": "media-production-v2/build-67-the-transfiguration/mark-9_the-transfiguration.mp4",
-      "exportPath": "social/exports/row-067-the-transfiguration.mp4",
-      "cover": "social/covers/row-067.jpg"
+      "exportPath": "social/posted-1-100/exports/row-067-the-transfiguration.mp4",
+      "cover": "social/posted-1-100/covers/row-067.jpg"
     },
     {
       "row": 68,
@@ -883,8 +883,8 @@
       "servedBlob": "87fb086caa19d4676ee033e5459a2b8bf3df3d2f",
       "approvedAt": "2026-08-06T22:40:23.101Z",
       "repoPath": "media-production-v2/build-68-multitudes-mountain/matt-15_multitudes-mountain.mp4",
-      "exportPath": "social/exports/row-068-multitudes-mountain.mp4",
-      "cover": "social/covers/row-068.jpg"
+      "exportPath": "social/posted-1-100/exports/row-068-multitudes-mountain.mp4",
+      "cover": "social/posted-1-100/covers/row-068.jpg"
     },
     {
       "row": 69,
@@ -896,8 +896,8 @@
       "servedBlob": "01b3175de837c0a45da318ae294f51f0ac8959ab",
       "approvedAt": "2026-08-12T04:38:40.113Z",
       "repoPath": "media-production-v2/build-69-baptism/matt-3_baptism-of-jesus.mp4",
-      "exportPath": "social/exports/row-069-baptism-of-jesus.mp4",
-      "cover": "social/covers/row-069.jpg"
+      "exportPath": "social/posted-1-100/exports/row-069-baptism-of-jesus.mp4",
+      "cover": "social/posted-1-100/covers/row-069.jpg"
     },
     {
       "row": 70,
@@ -909,8 +909,8 @@
       "servedBlob": "9a7ae21b743b286ec72b08295cf8f0c374c3f385",
       "approvedAt": "2026-08-07T20:48:00.286Z",
       "repoPath": "media-production-v2/build-70-temptations/matt-4_the-temptations.mp4",
-      "exportPath": "social/exports/row-070-the-temptations.mp4",
-      "cover": "social/covers/row-070.jpg"
+      "exportPath": "social/posted-1-100/exports/row-070-the-temptations.mp4",
+      "cover": "social/posted-1-100/covers/row-070.jpg"
     },
     {
       "row": 71,
@@ -922,8 +922,8 @@
       "servedBlob": "8423868384d7e7ee6c2d75d652cd26e59ace32a6",
       "approvedAt": "2026-08-12T06:06:40.097Z",
       "repoPath": "media-production-v2/build-71-the-great-commission/matthew-28_the-great-commission.mp4",
-      "exportPath": "social/exports/row-071-the-great-commission.mp4",
-      "cover": "social/covers/row-071.jpg"
+      "exportPath": "social/posted-1-100/exports/row-071-the-great-commission.mp4",
+      "cover": "social/posted-1-100/covers/row-071.jpg"
     },
     {
       "row": 72,
@@ -935,8 +935,8 @@
       "servedBlob": "ff8e8ac1951483b6c1109adbc46058764ee0f8c4",
       "approvedAt": "2026-08-12T04:16:07.646Z",
       "repoPath": "media-production-v2/build-72-calling-matthew/matthew-9_calling-matthew.mp4",
-      "exportPath": "social/exports/row-072-calling-matthew.mp4",
-      "cover": "social/covers/row-072.jpg"
+      "exportPath": "social/posted-1-100/exports/row-072-calling-matthew.mp4",
+      "cover": "social/posted-1-100/covers/row-072.jpg"
     },
     {
       "row": 73,
@@ -948,8 +948,8 @@
       "servedBlob": "4fddb31b79861423a0d31114a0755c4d32d32156",
       "approvedAt": "2026-08-12T05:25:20.974Z",
       "repoPath": "media-production-v2/build-73-this-day-fulfilled/luke-4_this-day-fulfilled.mp4",
-      "exportPath": "social/exports/row-073-this-day-fulfilled.mp4",
-      "cover": "social/covers/row-073.jpg"
+      "exportPath": "social/posted-1-100/exports/row-073-this-day-fulfilled.mp4",
+      "cover": "social/posted-1-100/covers/row-073.jpg"
     },
     {
       "row": 74,
@@ -961,8 +961,8 @@
       "servedBlob": "b9537bbed5c07af4e1ceea5fa13bb16df12badf4",
       "approvedAt": "2026-08-12T23:56:18.014Z",
       "repoPath": "media-production-v2/build-74-woman-washed-his-feet/luke-7_woman-washed-his-feet.mp4",
-      "exportPath": "social/exports/row-074-the-woman-who-washed-his-feet.mp4",
-      "cover": "social/covers/row-074.jpg"
+      "exportPath": "social/posted-1-100/exports/row-074-the-woman-who-washed-his-feet.mp4",
+      "cover": "social/posted-1-100/covers/row-074.jpg"
     },
     {
       "row": 75,
@@ -974,8 +974,8 @@
       "servedBlob": "d9973f65fcc9711f1c4f53efa6ef955aa78c3793",
       "approvedAt": "2026-08-07T00:25:54.652Z",
       "repoPath": "media-production-v2/build-75-woman-taken-in-adultery/john-8_woman-taken-in-adultery.mp4",
-      "exportPath": "social/exports/row-075-the-woman-taken-in-adultery.mp4",
-      "cover": "social/covers/row-075.jpg"
+      "exportPath": "social/posted-1-100/exports/row-075-the-woman-taken-in-adultery.mp4",
+      "cover": "social/posted-1-100/covers/row-075.jpg"
     },
     {
       "row": 76,
@@ -987,8 +987,8 @@
       "servedBlob": "eee061f05b5f437c76994f228ebeb01d38b9b2ec",
       "approvedAt": "2026-08-07T00:27:50.164Z",
       "repoPath": "media-production-v2/build-76-suffer-the-little-children/mark-10_suffer-the-little-children.mp4",
-      "exportPath": "social/exports/row-076-suffer-the-little-children.mp4",
-      "cover": "social/covers/row-076.jpg"
+      "exportPath": "social/posted-1-100/exports/row-076-suffer-the-little-children.mp4",
+      "cover": "social/posted-1-100/covers/row-076.jpg"
     },
     {
       "row": 77,
@@ -1000,8 +1000,8 @@
       "servedBlob": "23b15544f32f4e879aebdbd027e9238369af8973",
       "approvedAt": "2026-08-12T00:53:40.973Z",
       "repoPath": "media-production-v2/build-77-widows-mite/mark-12_the-widows-mite.mp4",
-      "exportPath": "social/exports/row-077-the-widows-mite.mp4",
-      "cover": "social/covers/row-077.jpg"
+      "exportPath": "social/posted-1-100/exports/row-077-the-widows-mite.mp4",
+      "cover": "social/posted-1-100/covers/row-077.jpg"
     },
     {
       "row": 78,
@@ -1013,8 +1013,8 @@
       "servedBlob": "4baad32d0d6df1821f7303d1c35805bab498a8bc",
       "approvedAt": "2026-08-12T00:24:44.702Z",
       "repoPath": "media-production-v2/build-78-who-is-my-mother/mark-3_who-is-my-mother.mp4",
-      "exportPath": "social/exports/row-078-who-is-my-mother.mp4",
-      "cover": "social/covers/row-078.jpg"
+      "exportPath": "social/posted-1-100/exports/row-078-who-is-my-mother.mp4",
+      "cover": "social/posted-1-100/covers/row-078.jpg"
     },
     {
       "row": 79,
@@ -1026,8 +1026,8 @@
       "servedBlob": "5398591a319b820daf20324e3b2a56877dc8c588",
       "approvedAt": "2026-08-07T00:29:54.555Z",
       "repoPath": "media-production-v2/build-79-the-seventy-sent/luke-10_the-seventy-sent.mp4",
-      "exportPath": "social/exports/row-079-the-seventy-sent.mp4",
-      "cover": "social/covers/row-079.jpg"
+      "exportPath": "social/posted-1-100/exports/row-079-the-seventy-sent.mp4",
+      "cover": "social/posted-1-100/covers/row-079.jpg"
     },
     {
       "row": 80,
@@ -1039,8 +1039,8 @@
       "servedBlob": "193b722668222686f31bdfb8004560088609e32c",
       "approvedAt": "2026-08-12T04:57:14.312Z",
       "repoPath": "media-production-v2/build-80-come-unto-me/matthew-11_come-unto-me.mp4",
-      "exportPath": "social/exports/row-080-come-unto-me.mp4",
-      "cover": "social/covers/row-080.jpg"
+      "exportPath": "social/posted-1-100/exports/row-080-come-unto-me.mp4",
+      "cover": "social/posted-1-100/covers/row-080.jpg"
     },
     {
       "row": 81,
@@ -1052,8 +1052,8 @@
       "servedBlob": "eff3befb5ae7a289ba3299877a14cd477cc9d9bb",
       "approvedAt": "2026-08-07T00:32:22.942Z",
       "repoPath": "media-production-v2/build-81-render-unto-caesar/mark-12_render-unto-caesar.mp4",
-      "exportPath": "social/exports/row-081-render-unto-caesar.mp4",
-      "cover": "social/covers/row-081.jpg"
+      "exportPath": "social/posted-1-100/exports/row-081-render-unto-caesar.mp4",
+      "cover": "social/posted-1-100/covers/row-081.jpg"
     },
     {
       "row": 82,
@@ -1065,8 +1065,8 @@
       "servedBlob": "2c9621f55be0983585e41c19e6eb186181da4863",
       "approvedAt": "2026-08-12T23:59:33.440Z",
       "repoPath": "media-production-v2/build-82-anointing-at-bethany/mark-14_anointing-at-bethany.mp4",
-      "exportPath": "social/exports/row-082-anointing-at-bethany.mp4",
-      "cover": "social/covers/row-082.jpg"
+      "exportPath": "social/posted-1-100/exports/row-082-anointing-at-bethany.mp4",
+      "cover": "social/posted-1-100/covers/row-082.jpg"
     },
     {
       "row": 83,
@@ -1078,8 +1078,8 @@
       "servedBlob": "c175303d0695abe0b8a0d4949adc1605e42ecbae",
       "approvedAt": "2026-08-07T20:28:54.772Z",
       "repoPath": "media-production-v2/build-83-weeping-over-jerusalem/luke-19_weeping-over-jerusalem.mp4",
-      "exportPath": "social/exports/row-083-weeping-over-jerusalem.mp4",
-      "cover": "social/covers/row-083.jpg"
+      "exportPath": "social/posted-1-100/exports/row-083-weeping-over-jerusalem.mp4",
+      "cover": "social/posted-1-100/covers/row-083.jpg"
     },
     {
       "row": 84,
@@ -1091,8 +1091,8 @@
       "servedBlob": "30df6daecaf1ccb289b7c99b60edd6b65a7daf0e",
       "approvedAt": "2026-08-13T00:11:47.773Z",
       "repoPath": "media-production-v2/build-84-no-room-manger/luke-2_no-room-the-manger.mp4",
-      "exportPath": "social/exports/row-084-no-room-the-manger.mp4",
-      "cover": "social/covers/row-084.jpg"
+      "exportPath": "social/posted-1-100/exports/row-084-no-room-the-manger.mp4",
+      "cover": "social/posted-1-100/covers/row-084.jpg"
     },
     {
       "row": 85,
@@ -1104,8 +1104,8 @@
       "servedBlob": "6a4e090b0cfc2196b4c24e9d8914c17b0a66e849",
       "approvedAt": "2026-08-07T00:38:11.771Z",
       "repoPath": "media-production-v2/build-85-shepherds-and-angels/luke-2_shepherds-and-angels.mp4",
-      "exportPath": "social/exports/row-085-shepherds-and-angels.mp4",
-      "cover": "social/covers/row-085.jpg"
+      "exportPath": "social/posted-1-100/exports/row-085-shepherds-and-angels.mp4",
+      "cover": "social/posted-1-100/covers/row-085.jpg"
     },
     {
       "row": 86,
@@ -1117,8 +1117,8 @@
       "servedBlob": "ad39d78ee565ff6b8dc6d0e27a2793f9a59d29e3",
       "approvedAt": "2026-08-07T20:31:39.472Z",
       "repoPath": "media-production-v2/build-86-the-wise-men/matthew-2_the-wise-men.mp4",
-      "exportPath": "social/exports/row-086-the-wise-men.mp4",
-      "cover": "social/covers/row-086.jpg"
+      "exportPath": "social/posted-1-100/exports/row-086-the-wise-men.mp4",
+      "cover": "social/posted-1-100/covers/row-086.jpg"
     },
     {
       "row": 87,
@@ -1130,8 +1130,8 @@
       "servedBlob": "37cbacde740aec87942a9410c726b1f4031bf04a",
       "approvedAt": "2026-08-13T00:14:18.232Z",
       "repoPath": "media-production-v2/build-87-boy-in-the-temple/luke-2_boy-in-the-temple.mp4",
-      "exportPath": "social/exports/row-087-boy-in-the-temple.mp4",
-      "cover": "social/covers/row-087.jpg"
+      "exportPath": "social/posted-1-100/exports/row-087-boy-in-the-temple.mp4",
+      "cover": "social/posted-1-100/covers/row-087.jpg"
     },
     {
       "row": 88,
@@ -1143,8 +1143,8 @@
       "servedBlob": "2622e4b8f544ebfec698ef4e9a70bd5451107fcf",
       "approvedAt": "2026-08-13T00:18:07.587Z",
       "repoPath": "media-production-v2/build-88-triumphal-entry/matthew-21_triumphal-entry.mp4",
-      "exportPath": "social/exports/row-088-triumphal-entry.mp4",
-      "cover": "social/covers/row-088.jpg"
+      "exportPath": "social/posted-1-100/exports/row-088-triumphal-entry.mp4",
+      "cover": "social/posted-1-100/covers/row-088.jpg"
     },
     {
       "row": 89,
@@ -1156,8 +1156,8 @@
       "servedBlob": "2231122404ae697d5d79d7b602ca23ff94b63493",
       "approvedAt": "2026-08-13T05:04:38.353Z",
       "repoPath": "media-production-v2/build-89-last-supper/luke-22_the-last-supper.mp4",
-      "exportPath": "social/exports/row-089-the-last-supper.mp4",
-      "cover": "social/covers/row-089.jpg"
+      "exportPath": "social/posted-1-100/exports/row-089-the-last-supper.mp4",
+      "cover": "social/posted-1-100/covers/row-089.jpg"
     },
     {
       "row": 90,
@@ -1169,8 +1169,8 @@
       "servedBlob": "0eb2a88a1ffeb64c0d1b496e6838664c7cd18e28",
       "approvedAt": "2026-08-07T20:58:12.329Z",
       "repoPath": "media-production-v2/build-90-washing-feet/john-13_washing-the-disciples-feet.mp4",
-      "exportPath": "social/exports/row-090-washing-the-disciples-feet.mp4",
-      "cover": "social/covers/row-090.jpg"
+      "exportPath": "social/posted-1-100/exports/row-090-washing-the-disciples-feet.mp4",
+      "cover": "social/posted-1-100/covers/row-090.jpg"
     },
     {
       "row": 91,
@@ -1182,8 +1182,8 @@
       "servedBlob": "1f993f0d40010f16fa8ad311abcd149a256cd2b9",
       "approvedAt": "2026-08-06T23:37:17.095Z",
       "repoPath": "media-production-v2/build-91-gethsemane/luke-22_gethsemane.mp4",
-      "exportPath": "social/exports/row-091-gethsemane.mp4",
-      "cover": "social/covers/row-091.jpg"
+      "exportPath": "social/posted-1-100/exports/row-091-gethsemane.mp4",
+      "cover": "social/posted-1-100/covers/row-091.jpg"
     },
     {
       "row": 92,
@@ -1195,8 +1195,8 @@
       "servedBlob": "d0b438863c3f80f2bced001a34e629722b4af82b",
       "approvedAt": "2026-08-07T21:01:03.160Z",
       "repoPath": "media-production-v2/build-92-peters-denial/luke-22_peters-denial.mp4",
-      "exportPath": "social/exports/row-092-peters-denial.mp4",
-      "cover": "social/covers/row-092.jpg"
+      "exportPath": "social/posted-1-100/exports/row-092-peters-denial.mp4",
+      "cover": "social/posted-1-100/covers/row-092.jpg"
     },
     {
       "row": 93,
@@ -1208,8 +1208,8 @@
       "servedBlob": "aac0dcaf7280906434b2f4a0e7eb21fe490dad0a",
       "approvedAt": "2026-08-12T05:08:54.543Z",
       "repoPath": "media-production-v2/build-93-barabbas-goes-free/mark-15_barabbas-goes-free.mp4",
-      "exportPath": "social/exports/row-093-barabbas-goes-free.mp4",
-      "cover": "social/covers/row-093.jpg"
+      "exportPath": "social/posted-1-100/exports/row-093-barabbas-goes-free.mp4",
+      "cover": "social/posted-1-100/covers/row-093.jpg"
     },
     {
       "row": 94,
@@ -1221,8 +1221,8 @@
       "servedBlob": "0d4250ca7f9027afd58190941ce5d80803cf4d99",
       "approvedAt": "2026-08-13T05:02:14.322Z",
       "repoPath": "media-production-v2/build-94-father-forgive-them/luke-23_father-forgive-them.mp4",
-      "exportPath": "social/exports/row-094-father-forgive-them.mp4",
-      "cover": "social/covers/row-094.jpg"
+      "exportPath": "social/posted-1-100/exports/row-094-father-forgive-them.mp4",
+      "cover": "social/posted-1-100/covers/row-094.jpg"
     },
     {
       "row": 95,
@@ -1234,8 +1234,8 @@
       "servedBlob": "6a15d8e2801b1cdd6cc1baff87e95198195d37b0",
       "approvedAt": "2026-08-17T03:15:45.266Z",
       "repoPath": "media-production-v2/build-95-thief-on-the-cross/luke-23_thief-on-the-cross.mp4",
-      "exportPath": "social/exports/row-095-thief-on-the-cross.mp4",
-      "cover": "social/covers/row-095.jpg"
+      "exportPath": "social/posted-1-100/exports/row-095-thief-on-the-cross.mp4",
+      "cover": "social/posted-1-100/covers/row-095.jpg"
     },
     {
       "row": 96,
@@ -1247,8 +1247,8 @@
       "servedBlob": "41b77c4de89772126ea48fee1a7e650ec861a7ec",
       "approvedAt": "2026-08-12T05:12:23.941Z",
       "repoPath": "media-production-v2/build-96-it-is-finished/john-19_it-is-finished.mp4",
-      "exportPath": "social/exports/row-096-it-is-finished.mp4",
-      "cover": "social/covers/row-096.jpg"
+      "exportPath": "social/posted-1-100/exports/row-096-it-is-finished.mp4",
+      "cover": "social/posted-1-100/covers/row-096.jpg"
     },
     {
       "row": 97,
@@ -1260,8 +1260,8 @@
       "servedBlob": "b8a0bf5408feb3a0adb4be3587aa04c5d691ef68",
       "approvedAt": "2026-08-12T23:44:01.210Z",
       "repoPath": "media-production-v2/build-97-the-empty-tomb/luke-24_the-empty-tomb.mp4",
-      "exportPath": "social/exports/row-097-the-empty-tomb.mp4",
-      "cover": "social/covers/row-097.jpg"
+      "exportPath": "social/posted-1-100/exports/row-097-the-empty-tomb.mp4",
+      "cover": "social/posted-1-100/covers/row-097.jpg"
     },
     {
       "row": 98,
@@ -1273,8 +1273,8 @@
       "servedBlob": "50d9d02c69e2a8a5fba55ddb821368a55376fca5",
       "approvedAt": "2026-08-12T05:27:41.365Z",
       "repoPath": "media-production-v2/build-98-mary-her-name/john-20_mary-her-name.mp4",
-      "exportPath": "social/exports/row-098-mary-her-name.mp4",
-      "cover": "social/covers/row-098.jpg"
+      "exportPath": "social/posted-1-100/exports/row-098-mary-her-name.mp4",
+      "cover": "social/posted-1-100/covers/row-098.jpg"
     },
     {
       "row": 99,
@@ -1286,8 +1286,8 @@
       "servedBlob": "095cf07611f6a5f82dc602d9ed0902127a6055e0",
       "approvedAt": "2026-08-07T20:59:52.130Z",
       "repoPath": "media-production-v2/build-99-flesh-and-bone-thomas/john-20_flesh-and-bone-thomas.mp4",
-      "exportPath": "social/exports/row-099-flesh-and-bone-thomas.mp4",
-      "cover": "social/covers/row-099.jpg"
+      "exportPath": "social/posted-1-100/exports/row-099-flesh-and-bone-thomas.mp4",
+      "cover": "social/posted-1-100/covers/row-099.jpg"
     },
     {
       "row": 100,
@@ -1299,8 +1299,8 @@
       "servedBlob": "ae0f8862cf62bcf9fb3269e12dfbf8a29941aed5",
       "approvedAt": "2026-08-12T00:26:28.376Z",
       "repoPath": "media-production-v2/build-100-the-ascension/acts-1_the-ascension.mp4",
-      "exportPath": "social/exports/row-100-the-ascension.mp4",
-      "cover": "social/covers/row-100.jpg"
+      "exportPath": "social/posted-1-100/exports/row-100-the-ascension.mp4",
+      "cover": "social/posted-1-100/covers/row-100.jpg"
     },
     {
       "row": 101,
@@ -2170,8 +2170,21 @@
       "servedBlob": "10fb7022a11de227c65d5968ebf851216e730f32",
       "approvedAt": "2026-08-31T23:59:11.670Z",
       "repoPath": "great-plan/build-ep01-two-wills/the-great-plan-ep01_two-wills.mp4",
-      "exportPath": "social/exports/row-301-gp-01-the-two-wills.mp4",
-      "cover": "social/covers/row-301.jpg"
+      "exportPath": "social/gp-queue/exports/row-301-gp-01-the-two-wills.mp4",
+      "cover": "social/gp-queue/covers/row-301.jpg"
+    },
+    {
+      "row": 302,
+      "title": "GP-02 \u2014 We Were There",
+      "scripture": "Abraham 3",
+      "duration": "3:01",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "849c131a549fb920b96ae133e1c41d9300dc3f75",
+      "approvedAt": "2026-09-02T01:59:37.799Z",
+      "repoPath": "great-plan/build-ep02-we-were-there/the-great-plan-ep02_we-were-there.mp4",
+      "exportPath": "social/gp-queue/exports/row-302-gp-02-we-were-there.mp4",
+      "cover": "social/gp-queue/covers/row-302.jpg"
     },
     {
       "row": 303,
@@ -2183,22 +2196,256 @@
       "servedBlob": "ceeeead701b840aafe91363a5cc69a62265dedce",
       "approvedAt": "2026-09-01T00:10:20.324Z",
       "repoPath": "great-plan/build-ep03-war-in-heaven/the-great-plan-ep03_war-in-heaven.mp4",
-      "exportPath": "social/exports/row-303-gp-03-war-in-heaven.mp4",
-      "cover": "social/covers/row-303.jpg"
-    }
-  ],
-  "excluded": [
-    {
-      "row": 302,
-      "reason": "cut changed since approval (served 4b9e4ed6e, approved 556649442) \u2014 new cut awaits Cameron's review"
+      "exportPath": "social/gp-queue/exports/row-303-gp-03-war-in-heaven.mp4",
+      "cover": "social/gp-queue/covers/row-303.jpg"
     },
     {
       "row": 304,
-      "reason": "cut changed since approval (served 4b9e4ed6e, approved fc3b36cc8) \u2014 new cut awaits Cameron's review"
+      "title": "GP-04 \u2014 Cast Down",
+      "scripture": "Isaiah 14",
+      "duration": "3:32",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "bb42e76a3f6b9bed7128dade909bbcbd98d06813",
+      "approvedAt": "2026-09-02T02:02:46.309Z",
+      "repoPath": "great-plan/build-ep04-cast-down/the-great-plan-ep04_cast-down.mp4",
+      "exportPath": "social/gp-queue/exports/row-304-gp-04-cast-down.mp4",
+      "cover": "social/gp-queue/covers/row-304.jpg"
     },
     {
       "row": 305,
-      "reason": "cut changed since approval (served 4b9e4ed6e, approved 43617acdd) \u2014 new cut awaits Cameron's review"
+      "title": "GP-05 \u2014 The Proving Ground",
+      "scripture": "Abraham 3",
+      "duration": "3:07",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "a7245be770374f21ec82e9e23b20bcb9b11c4e61",
+      "approvedAt": "2026-09-02T02:05:46.509Z",
+      "repoPath": "great-plan/build-ep05-proving-ground/the-great-plan-ep05_proving-ground.mp4",
+      "exportPath": "social/gp-queue/exports/row-305-gp-05-the-proving-ground.mp4",
+      "cover": "social/gp-queue/covers/row-305.jpg"
+    },
+    {
+      "row": 306,
+      "title": "GP-06 \u2014 The Guarantee",
+      "scripture": "Revelation 13",
+      "duration": "2:40",
+      "approvedHash": "25126ef6f",
+      "hashScheme": "commit",
+      "servedBlob": "2313a2eb21b062723950bddd030f981260589cd6",
+      "approvedAt": "2026-09-02T02:08:34.302Z",
+      "repoPath": "great-plan/build-ep06-the-guarantee/the-great-plan-ep06_the-guarantee.mp4",
+      "exportPath": "social/gp-queue/exports/row-306-gp-06-the-guarantee.mp4",
+      "cover": "social/gp-queue/covers/row-306.jpg"
+    },
+    {
+      "row": 307,
+      "title": "GP-07 \u2014 Two Trees",
+      "scripture": "Moses 3-4",
+      "duration": "3:23",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "0cfec68509fba4361d7fff54a7d151aa444139c2",
+      "approvedAt": "2026-09-02T02:11:49.130Z",
+      "repoPath": "great-plan/build-ep07-two-trees/the-great-plan-ep07_two-trees.mp4",
+      "exportPath": "social/gp-queue/exports/row-307-gp-07-two-trees.mp4",
+      "cover": "social/gp-queue/covers/row-307.jpg"
+    },
+    {
+      "row": 308,
+      "title": "GP-08 \u2014 Not Damned for Adam",
+      "scripture": "2 Nephi 2",
+      "duration": "2:38",
+      "approvedHash": "98ad17a73",
+      "hashScheme": "commit",
+      "servedBlob": "ff984267606747f7b0792b765b79272091e58039",
+      "approvedAt": "2026-09-02T02:14:42.811Z",
+      "repoPath": "great-plan/build-ep08-not-damned-for-adam/the-great-plan-ep08_not-damned-for-adam.mp4",
+      "exportPath": "social/gp-queue/exports/row-308-gp-08-not-damned-for-adam.mp4",
+      "cover": "social/gp-queue/covers/row-308.jpg"
+    },
+    {
+      "row": 309,
+      "title": "GP-09 \u2014 The First Gospel",
+      "scripture": "Moses 5-6",
+      "duration": "3:08",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "21cab4873a5e9fff122ed58f7125914aaa312d98",
+      "approvedAt": "2026-09-02T02:17:51.410Z",
+      "repoPath": "great-plan/build-ep09-first-gospel/the-great-plan-ep09_first-gospel.mp4",
+      "exportPath": "social/gp-queue/exports/row-309-gp-09-the-first-gospel.mp4",
+      "cover": "social/gp-queue/covers/row-309.jpg"
+    },
+    {
+      "row": 310,
+      "title": "GP-10 \u2014 Master Mahan",
+      "scripture": "Moses 5",
+      "duration": "3:26",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "4097da4e5af9c58deadf07951b9a7b9bf0004669",
+      "approvedAt": "2026-09-02T02:21:02.902Z",
+      "repoPath": "great-plan/build-ep10-master-mahan/the-great-plan-ep10_master-mahan.mp4",
+      "exportPath": "social/gp-queue/exports/row-310-gp-10-master-mahan.mp4",
+      "cover": "social/gp-queue/covers/row-310.jpg"
+    },
+    {
+      "row": 311,
+      "title": "GP-11 \u2014 The God Who Weeps",
+      "scripture": "Moses 7",
+      "duration": "3:08",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "3f315571b9f4e030af661701b5d3fd469ad91352",
+      "approvedAt": "2026-09-02T02:24:09.529Z",
+      "repoPath": "great-plan/build-ep11-god-who-weeps/the-great-plan-ep11_god-who-weeps.mp4",
+      "exportPath": "social/gp-queue/exports/row-311-gp-11-the-god-who-weeps.mp4",
+      "cover": "social/gp-queue/covers/row-311.jpg"
+    },
+    {
+      "row": 313,
+      "title": "GP-13 \u2014 One Family for All Families",
+      "scripture": "Genesis 11-22",
+      "duration": "3:11",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "5ef4515d4ccedc9f21fc9dcbfbe69d37fd850f0e",
+      "approvedAt": "2026-09-02T02:32:08.997Z",
+      "repoPath": "great-plan/build-ep13-one-family/the-great-plan-ep13_one-family.mp4",
+      "exportPath": "social/gp-queue/exports/row-313-gp-13-one-family-for-all-families.mp4",
+      "cover": "social/gp-queue/covers/row-313.jpg"
+    },
+    {
+      "row": 314,
+      "title": "GP-14 \u2014 Face to Face",
+      "scripture": "Exodus 33",
+      "duration": "2:52",
+      "approvedHash": "9ca4b7492",
+      "hashScheme": "commit",
+      "servedBlob": "446cd8a968a8fa3354b7f4a6e140ae07e3c023e3",
+      "approvedAt": "2026-09-02T07:25:11.751Z",
+      "repoPath": "great-plan/build-ep14-face-to-face/the-great-plan-ep14_face-to-face.mp4",
+      "exportPath": "social/gp-queue/exports/row-314-gp-14-face-to-face.mp4",
+      "cover": "social/gp-queue/covers/row-314.jpg"
+    },
+    {
+      "row": 315,
+      "title": "GP-15 \u2014 He Kept Sending",
+      "scripture": "2 Chronicles 36",
+      "duration": "3:00",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "02246f06ffc6b0c56546e72850bd0fa056225b01",
+      "approvedAt": "2026-09-02T02:38:48.670Z",
+      "repoPath": "great-plan/build-ep15-he-kept-sending/the-great-plan-ep15_he-kept-sending.mp4",
+      "exportPath": "social/gp-queue/exports/row-315-gp-15-he-kept-sending.mp4",
+      "cover": "social/gp-queue/covers/row-315.jpg"
+    },
+    {
+      "row": 316,
+      "title": "GP-16 \u2014 The Other Sheep",
+      "scripture": "1 Nephi 1-2",
+      "duration": "2:50",
+      "approvedHash": "45b2cc127",
+      "hashScheme": "commit",
+      "servedBlob": "7088e3268223e69f66f7251032e823762d0b50e5",
+      "approvedAt": "2026-09-02T02:44:09.824Z",
+      "repoPath": "great-plan/build-ep16-other-sheep/the-great-plan-ep16_other-sheep.mp4",
+      "exportPath": "social/gp-queue/exports/row-316-gp-16-the-other-sheep.mp4",
+      "cover": "social/gp-queue/covers/row-316.jpg"
+    },
+    {
+      "row": 317,
+      "title": "GP-17 \u2014 The Condescension",
+      "scripture": "Luke 1-2",
+      "duration": "2:47",
+      "approvedHash": "a6860c392",
+      "hashScheme": "commit",
+      "servedBlob": "13b3d2330134f0d253e6e40101ccdad486147b13",
+      "approvedAt": "2026-09-02T02:47:07.383Z",
+      "repoPath": "great-plan/build-ep17-condescension/the-great-plan-ep17_condescension.mp4",
+      "exportPath": "social/gp-queue/exports/row-317-gp-17-the-condescension.mp4",
+      "cover": "social/gp-queue/covers/row-317.jpg"
+    },
+    {
+      "row": 319,
+      "title": "GP-19 \u2014 Thy Will Be Done",
+      "scripture": "Luke 22",
+      "duration": "3:09",
+      "approvedHash": "c015f1373",
+      "hashScheme": "commit",
+      "servedBlob": "f2a6aa61a3156a0282e0cbe757134f37cdf74f0d",
+      "approvedAt": "2026-09-02T07:29:23.201Z",
+      "repoPath": "great-plan/build-ep19-thy-will-be-done/the-great-plan-ep19_thy-will-be-done.mp4",
+      "exportPath": "social/gp-queue/exports/row-319-gp-19-thy-will-be-done.mp4",
+      "cover": "social/gp-queue/covers/row-319.jpg"
+    },
+    {
+      "row": 320,
+      "title": "GP-20 \u2014 All Power",
+      "scripture": "Luke 24",
+      "duration": "3:29",
+      "approvedHash": "4b9e4ed6e",
+      "hashScheme": "commit",
+      "servedBlob": "459fb82514002c8c56cfecebc33c4203e056c57e",
+      "approvedAt": "2026-09-02T03:07:04.545Z",
+      "repoPath": "great-plan/build-ep20-all-power/the-great-plan-ep20_all-power.mp4",
+      "exportPath": "social/gp-queue/exports/row-320-gp-20-all-power.mp4",
+      "cover": "social/gp-queue/covers/row-320.jpg"
+    },
+    {
+      "row": 321,
+      "title": "GP-21 \u2014 Kill the Messengers",
+      "scripture": "Acts 7",
+      "duration": "2:51",
+      "approvedHash": "15da1d096",
+      "hashScheme": "commit",
+      "servedBlob": "0f11ed38ce10aad17ba9a08eb7f22c67cf87c81e",
+      "approvedAt": "2026-09-02T03:10:12.482Z",
+      "repoPath": "great-plan/build-ep21-kill-the-messengers/the-great-plan-ep21_kill-the-messengers.mp4",
+      "exportPath": "social/gp-queue/exports/row-321-gp-21-kill-the-messengers.mp4",
+      "cover": "social/gp-queue/covers/row-321.jpg"
+    },
+    {
+      "row": 322,
+      "title": "GP-22 \u2014 The Changed Ordinances",
+      "scripture": "Isaiah 24",
+      "duration": "2:58",
+      "approvedHash": "76e56356e",
+      "hashScheme": "commit",
+      "servedBlob": "6379e21a93b6136e27414005342847cb3012f7fd",
+      "approvedAt": "2026-09-02T03:13:19.512Z",
+      "repoPath": "great-plan/build-ep22-changed-ordinances/the-great-plan-ep22_changed-ordinances.mp4",
+      "exportPath": "social/gp-queue/exports/row-322-gp-22-the-changed-ordinances.mp4",
+      "cover": "social/gp-queue/covers/row-322.jpg"
+    },
+    {
+      "row": 323,
+      "title": "GP-23 \u2014 The Famine of the Word",
+      "scripture": "Amos 8",
+      "duration": "2:52",
+      "approvedHash": "9ca4b7492",
+      "hashScheme": "commit",
+      "servedBlob": "2e913e3447164ca686311f333374673737e77747",
+      "approvedAt": "2026-09-02T07:32:23.685Z",
+      "repoPath": "great-plan/build-ep23-famine-of-the-word/the-great-plan-ep23_famine-of-the-word.mp4",
+      "exportPath": "social/gp-queue/exports/row-323-gp-23-the-famine-of-the-word.mp4",
+      "cover": "social/gp-queue/covers/row-323.jpg"
+    },
+    {
+      "row": 325,
+      "title": "GP-25 \u2014 Sparks in the Dark",
+      "scripture": "1 Nephi 13",
+      "duration": "3:15",
+      "approvedHash": "c015f1373",
+      "hashScheme": "commit",
+      "servedBlob": "c80bb750d6fb8dc4a956736448003883124be582",
+      "approvedAt": "2026-09-02T08:46:13.214Z",
+      "repoPath": "great-plan/build-ep25-sparks-in-the-dark/the-great-plan-ep25_sparks-in-the-dark.mp4",
+      "exportPath": "social/gp-queue/exports/row-325-gp-25-sparks-in-the-dark.mp4",
+      "cover": "social/gp-queue/covers/row-325.jpg"
     }
-  ]
+  ],
+  "excluded": []
 }

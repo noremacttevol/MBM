@@ -77,6 +77,20 @@ def main():
             meta=t.group(2).replace('&middot;', '·').strip(' ·') if t else '?',
             src=s.group(1) if s else None)
 
+    # TIER ROUTING (Cameron 2026-09-02: "move the export and thumbnails and per
+    # video folders to a new folder that is completed... so posting the remaining
+    # 100 doesnt get polluted with the already posted 100"). Rows in
+    # social/POSTED.json are fully posted on every platform: their kit lives in
+    # social/posted-1-100/ and is VERIFIED there, never re-exported to active.
+    # GP rows (>300) stage in social/gp-queue/ until Cameron starts that wave.
+    try:
+        POSTED = set(json.load(open('social/POSTED.json'))['posted_all_socials'])
+    except Exception:
+        POSTED = set()
+    def tier_dir(n):
+        if n in POSTED: return 'social/posted-1-100'
+        if n >= 301: return 'social/gp-queue'
+        return 'social'
     os.makedirs('social/exports', exist_ok=True)
     os.makedirs('social/covers', exist_ok=True)
     postable, excluded = [], []
@@ -151,7 +165,8 @@ def main():
                 continue
 
         slug = re.sub(r'[^a-z0-9]+', '-', card['title'].lower()).strip('-')
-        export = f'social/exports/row-{n:03d}-{slug}.mp4'
+        export = f'{tier_dir(n)}/exports/row-{n:03d}-{slug}.mp4'
+        os.makedirs(os.path.dirname(export), exist_ok=True)
         with open(export, 'wb') as f:
             subprocess.run(['git', 'cat-file', 'blob', served_blob], stdout=f, check=True)
         rc, chk = run('git', 'hash-object', export)
@@ -164,7 +179,8 @@ def main():
         # duration is the LAST mm:ss part — GP cards carry TWO scripture refs
         # before it, so a fixed parts[1] missed every GP cover (2026-09-01)
         duration = next((p for p in reversed(parts) if re.match(r'^\d+:\d+$', p)), '')
-        cover = f'social/covers/row-{n:03d}.jpg'
+        cover = f'{tier_dir(n)}/covers/row-{n:03d}.jpg'
+        os.makedirs(os.path.dirname(cover), exist_ok=True)
         if not os.path.exists(cover) and re.match(r'^\d+:\d+$', duration):
             mm, ss = duration.split(':')
             seek = max(3, int((int(mm) * 60 + int(ss)) * 0.30))
@@ -186,7 +202,7 @@ def main():
     # changed. -yt variants follow their base file.
     import glob as _glob
     keep = {e['exportPath'] for e in postable}
-    for _f in sorted(_glob.glob('social/exports/row-*.mp4')):
+    for _f in sorted(_glob.glob('social/exports/row-*.mp4')):  # active tier only
         base = _f[:-7] + '.mp4' if _f.endswith('-yt.mp4') else _f
         if base not in keep:
             os.remove(_f)

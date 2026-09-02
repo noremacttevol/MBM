@@ -82,6 +82,14 @@ def block(label, where, text, bid):
 
 def main():
     postable = json.load(open(POSTABLE))["postable"]
+    # 2026-09-02: the kit page shows ONLY what remains to post — rows already
+    # posted everywhere are archived (social/posted-1-100/), GP rows (>300)
+    # wait in social/gp-queue/ until Cameron starts the GP posting wave.
+    try:
+        _POSTED = set(json.load(open("social/POSTED.json"))["posted_all_socials"])
+    except Exception:
+        _POSTED = set()
+    postable = [p for p in postable if p["row"] not in _POSTED and p["row"] <= 300]
     queue = parse_queue()
     yts = parse_ytsheet()
 

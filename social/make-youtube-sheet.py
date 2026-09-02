@@ -26,6 +26,13 @@ def tagword(h):
 
 def main():
     pj = {p['row']: p for p in json.load(open('social/postable.json'))['postable']}
+    # 2026-09-02: the sheet lists ONLY what remains to post (posted rows are
+    # archived in social/posted-1-100/, GP rows >300 staged in social/gp-queue/).
+    try:
+        _POSTED = set(json.load(open('social/POSTED.json'))['posted_all_socials'])
+    except Exception:
+        _POSTED = set()
+    pj = {k: v for k, v in pj.items() if k not in _POSTED and k <= 300}
     q = open('social/POST-QUEUE.md').read()
     entries = {}
     for block in re.split(r'(?=^### Row )', q, flags=re.M):

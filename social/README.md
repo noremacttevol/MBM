@@ -23,6 +23,18 @@ live in git history, so `refresh-postable.py` extracts every approved cut
 byte-exact from git objects into `exports/` and verifies the hash. Post ONLY from
 `exports/`.
 
+
+## Folder tiers (Cameron, 2026-09-02 — after posting rows 1-100 everywhere)
+
+| Folder | What lives there |
+|---|---|
+| `social/exports`, `covers`, `thumbs/`, `per-video/` | **THE ACTIVE POSTING WORKSPACE** — only rows not yet posted (now: the approved 101-200 wave). Never polluted by finished work. |
+| `social/posted-1-100/` | **COMPLETED STORAGE** — the full posting kit of rows 1-100, posted to all four platforms in the 2026-09 wave. Frozen: tools never regenerate here; per-video pages are the archived record of what was posted. |
+| `social/gp-queue/` | THE GREAT PLAN staging — approved GP episodes' kits wait here until Cameron starts the GP posting wave (after 101-200). |
+| `social/POSTED.json` | The registry the tools + gate read. When a wave finishes, add its rows here and move its files to a completed folder. |
+
+Gate check G verifies every approved row's kit in whichever tier owns it.
+
 ## Files here
 
 | File | What it is |

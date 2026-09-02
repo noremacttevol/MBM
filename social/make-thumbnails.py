@@ -37,6 +37,18 @@ WHITE = (255, 255, 255)
 
 FORCE = '--force' in sys.argv
 
+# TIER ROUTING (2026-09-02): posted rows' thumbs live in social/posted-1-100,
+# GP rows' in social/gp-queue — never regenerated into the active folders.
+try:
+    POSTED = set(json.load(open('social/POSTED.json'))['posted_all_socials'])
+except Exception:
+    POSTED = set()
+def tier_dir(n):
+    if n in POSTED: return 'social/posted-1-100'
+    if n >= 301: return 'social/gp-queue'
+    return 'social'
+
+
 
 def fit_lines(draw, text, font_path, max_w, start_px, min_px=30, max_lines=2):
     """Largest font size whose wrapped text fits max_w in <= max_lines lines."""
@@ -147,8 +159,11 @@ def main():
         if not os.path.exists(cover):
             print(f'  !! row {n}: cover missing ({cover}) — run refresh-postable.py')
             continue
-        yt = f'social/thumbs/yt/row-{n:03d}.jpg'
-        vt = f'social/thumbs/vertical/row-{n:03d}.jpg'
+        td = tier_dir(n)
+        os.makedirs(f'{td}/thumbs/yt', exist_ok=True)
+        os.makedirs(f'{td}/thumbs/vertical', exist_ok=True)
+        yt = f'{td}/thumbs/yt/row-{n:03d}.jpg'
+        vt = f'{td}/thumbs/vertical/row-{n:03d}.jpg'
         if FORCE or not os.path.exists(yt):
             make_yt(cover, title, yt)
             built += 1

@@ -98,8 +98,18 @@ check(not no_thumb, "D: every approved id has a thumbnail", f"missing: {no_thumb
 #    44 in exports but its approved in the reviewer this shouldnt happen to
 #    any of them"). Fix on FAIL: python3 social/refresh-postable.py
 import glob as _glob
+import json as _json
+try:
+    _POSTED = set(_json.load(open("social/POSTED.json"))["posted_all_socials"])
+except Exception:
+    _POSTED = set()
+def _tier(_n):
+    # posted rows keep their kit in the archive; GP rows stage in gp-queue
+    if _n in _POSTED: return "social/posted-1-100"
+    if _n >= 301: return "social/gp-queue"
+    return "social"
 _exp = {}
-for _f in _glob.glob("social/exports/row-*.mp4"):
+for _f in _glob.glob("social/exports/row-*.mp4") + _glob.glob("social/posted-1-100/exports/row-*.mp4") + _glob.glob("social/gp-queue/exports/row-*.mp4"):
     _m = re.match(r"row-(\d+)-.+?\.mp4$", os.path.basename(_f))
     if _m and not _f.endswith("-yt.mp4"):
         _exp[int(_m.group(1))] = _f
@@ -109,10 +119,12 @@ _exp_missing = [r for r in sorted(approved) if r not in _exp]
 # Fix on FAIL: bash social/refresh-all.sh
 _kit_missing = []
 for _r in sorted(approved):
-    for _p in (f"social/covers/row-{_r:03d}.jpg",
-               f"social/thumbs/yt/row-{_r:03d}.jpg",
-               f"social/thumbs/vertical/row-{_r:03d}.jpg",
-               f"social/per-video/{_r:03d}.md"):
+    _td = _tier(_r)
+    _pv = f"{_td}/per-video/{_r:03d}.md" if _r in _POSTED else f"social/per-video/{_r:03d}.md"
+    for _p in (f"{_td}/covers/row-{_r:03d}.jpg",
+               f"{_td}/thumbs/yt/row-{_r:03d}.jpg",
+               f"{_td}/thumbs/vertical/row-{_r:03d}.jpg",
+               _pv):
         if not os.path.exists(_p):
             _kit_missing.append(f"{_r}:{_p.split('/')[-2]}")
 _exp_drift = []

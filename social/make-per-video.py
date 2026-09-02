@@ -35,6 +35,11 @@ YTSHEET = "social/YOUTUBE-UPLOAD-SHEET.md"
 AUTHORED = "social/captions-authored.json"
 POSTABLE = "social/postable.json"
 OUTDIR = "social/per-video"
+ARCHDIR = "social/posted-1-100/per-video"
+try:
+    POSTED = set(json.load(open("social/POSTED.json"))["posted_all_socials"])
+except Exception:
+    POSTED = set()
 
 BASE = "#Jesus #BibleStories #Scripture #KJV #Faith"
 YT_BASE_TAGS = "Jesus, Bible stories, KJV, scripture, faith, Christian"
@@ -122,8 +127,11 @@ def main():
         postable = {}
 
     os.makedirs(OUTDIR, exist_ok=True)
+    os.makedirs(ARCHDIR, exist_ok=True)
     n_appr = n_draft = n_missing = 0
     for n in sorted(rows):
+        if n in POSTED:
+            continue  # posted rows' pages are FROZEN history in social/posted-1-100/
         meta = rows[n]
         if n in pq and n in yts:
             c = {**pq[n], **yts[n]}

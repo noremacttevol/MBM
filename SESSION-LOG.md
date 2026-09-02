@@ -1,3 +1,21 @@
+## 2026-09-02 ~01:2x (mbm-93) — ROWS 1-100 POSTED EVERYWHERE: kit archived; clean 101-200 workspace; 318 round-2; gate PASS
+
+Cameron posted all 100 to every platform. Per his order: posting kit split into
+TIERS — social/posted-1-100/ (frozen completed storage: 101 exports, 200 thumbs,
+100 covers, 100 per-video pages restored from HEAD with honest POSTED status),
+social/gp-queue/ (GP staging until that wave), active social/* now holds ONLY
+the approved 101-200 wave (66/66/66/66; sheet + post-kit page show exactly 66).
+All 6 tools + gate check G are tier-aware; POSTED.json is the registry; archive
+pages are FROZEN (make-per-video skips posted rows — first run stamped
+contradictory DRAFT text on 92 archived pages, caught + restored from git).
+App/website already carried every approved row (166) — full live gate PASS.
+
+318 round-2 (6d1030e45): Cameron re-filed "same problem 2:15" against my ship —
+he was right: the ruler was POSITIONED past Jesus but RENDERED chest-toward-
+camera. Arrangement is not direction; the eye reads feet/chest. Fixed as pure
+rear views (no face in frame), verified at 2:15 encoded. mbm-00 shipped 312
+round-2 (his four frames) and stood down on 318; 324/325 stale-held.
+
 ## 2026-09-01 (round 2) — GP re-complaints: row 312 rebuilt (4 frames), 318 handed to peer
 **Machine:** A (Dev) · **Commit:** df5edd71d
 
