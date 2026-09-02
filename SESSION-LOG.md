@@ -1,3 +1,34 @@
+## 2026-09-01 (age/hands/names sweep) — eps 26-32 rebuilt against Cameron's three defect classes
+**Machine:** A (Dev) · **Commit:** e95f52830
+
+Cameron: "you also got Joseph Smith's age wrong and some extra hands while laying
+on of hands... a couple of times. also you need to learn how to pronounce all
+these words." Root causes found and lawed:
+
+1. **AGES:** the 14-year-old JOSEPH-SMITH sheet was attached to 1829/1836 beats
+   (ep28 x8, ep29 x3) — every render dragged to boyhood. Fix: episode-local TEXT
+   age-locks (JOSEPH-ADULT 23, JOSEPH-1836 30), sheet only for 1820-23. THE
+   JOSEPH AGE LEDGER + HANDS LAW written into MASTER-STORY. 13 frames regen'd
+   (ep26 p03 boy-14 + p12 Personages-in-air; ep27 p04; ep28 x8; ep29 p06/p11).
+2. **HANDS:** ep28 p11's prompt literally asked for "six glorified hands" —
+   prompt CAUSED the floating-hands frame; redone as three whole apostles, both
+   hands on ONE head, every hand on a visible arm. ep28 p06 one-hand-per-head
+   ordinance fixed (both hands, one head, none on Oliver). ep29 p11 four-hand
+   stack -> exactly two hands. ep29 p06 spec corrected to scripture (Jesus UPON
+   the breastwork per D&C 110 — my "in the air" spec was the error, not the
+   render).
+3. **NAMES:** the unwatched stretch still carried spaced-caps respells. In-
+   sentence A/B on the real engine: plain WINS for Palmyra/Susquehanna/
+   Melchizedek/Fayette/Rigdon/Telestial/Kirtland (deleted all spaced entries);
+   Elias -> "eelighus" (global). 11 re-voiced segs ear-verified on delivered
+   audio. LESSON: don't over-tune the ear bar — natural American reductions
+   (KURT-lund/land, ih-LYE-us) are correct; only true garbles fail.
+
+All 7 rows re-assembled <3:00 (170.5-176.0), gates exit-0 (no piped exits), cards
+v326-v332 answer each class. ep27 demo cut retains the sense-making voice.
+**Next:** Cameron watches the stretch; demo verdict on v327 still decides the
+series-wide narration rewrite.
+
 ## 2026-09-01 (course correction) — THE SENSE-MAKING LAW + ep27 demo of the new voice
 **Machine:** A (Dev) · **Commit:** 980ac8aac
 
