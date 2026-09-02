@@ -21,22 +21,23 @@ META = "JS—History 1 · 2 Nephi 29"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "Three years after the grove, the seed in the hill got its wake-up "
-     "call. This is the night the buried book rose."),
+     "Three years after the grove, the seed in the hill got its "
+     "wake-up call. Watch this next exchange like a chess game — a "
+     "book is about to break the devil's best weapon."),
     ("n2", NARRATOR,
-     "September, eighteen twenty-three. Joseph — seventeen now — praying "
-     "late at night for forgiveness and direction. And light grew in his "
-     "little room until it outshone noon — and a person stood in the air "
-     "above the floor."),
+     "September, eighteen twenty-three. For seventeen centuries the "
+     "enemy had owned the board — when every record runs through his "
+     "editors, your choice is not free. Then, in a farm boy's little "
+     "room, light grew until it outshone noon."),
     ("s1", SCRIPTURE,
      "He called me by name, and said unto me that he was a messenger "
      "sent from the presence of God to me, and that his name was "
      "Moroni."),
     ("n3", NARRATOR,
-     "Moroni. The same man who buried the plates fourteen centuries "
-     "earlier — sent back for them. Heaven does not lose track of its "
-     "librarians. The last man of the fallen nation became the first "
-     "messenger of the Restoration."),
+     "Moroni — the man who buried the plates, sent back for them. "
+     "See the counter-move: the apostasy had made truth a monopoly. "
+     "God's answer was a second witness — evidence the empires never "
+     "got to burn or edit."),
     ("s2", SCRIPTURE,
      "He said there was a book deposited, written upon gold plates, "
      "giving an account of the former inhabitants of this continent, and "
@@ -44,47 +45,46 @@ SEGMENTS = [
      "of the everlasting Gospel was contained in it, as delivered by the "
      "Savior to the ancient inhabitants."),
     ("n5", NARRATOR,
-     "Four years of schooling followed — Moroni returning each "
-     "September, the boy maturing into a man — until eighteen twenty-"
-     "seven, when the plates were finally placed in Joseph's hands, "
-     "with a charge to guard them with his life."),
+     "Four years of schooling followed, until the plates were placed "
+     "in Joseph's hands. God was not planting a rumor — He was "
+     "preparing a witness. A choice is only free when there is "
+     "something real to weigh."),
     ("n6", NARRATOR,
-     "Then, translation — by the gift and power of God. An unschooled "
-     "farmhand, dictating hour after hour: five hundred and thirty-one "
-     "printed pages in roughly sixty-five working days. Scholars still "
-     "cannot explain the pace — and the manuscript shows almost no "
-     "revision."),
+     "Then, translation — by the gift and power of God: five hundred "
+     "and thirty-one pages in about sixty-five working days. The "
+     "enemy's strategy was starving you of the "
+     "word. Heaven answered at a pace no famine could match."),
     ("n7", NARRATOR,
-     "And what came off those plates answers the famine point by point. "
-     "The plain and precious things — back. The covenants — back. Its "
-     "own title page states the whole mission:"),
+     "And what came off those plates put back what the theft had taken "
+     "— the plain and precious things, the covenants. Its own title "
+     "page aims the mission at your freedom to know:"),
     ("s3", SCRIPTURE,
      "To the convincing of the Jew and Gentile that Jesus is the "
      "Christ, the Eternal God, manifesting himself unto all nations."),
     ("n8", NARRATOR,
-     "Some said then — and some still say — we already have a Bible; we "
-     "need no more. God had answered that objection twenty-four "
-     "centuries before anyone raised it:"),
+     "And hear the counter-attack, then and now: you already have a "
+     "Bible — you need no more. Notice whose voice says more light is "
+     "dangerous. God answered twenty-four centuries early:"),
     ("j1", JESUS,
      "Wherefore, because that ye have a Bible ye need not suppose that "
      "it contains all my words; neither need ye suppose that I have not "
      "caused more to be written."),
     ("n9", NARRATOR,
-     "Two witnesses. One God. The Book of Mormon does not replace the "
-     "Bible — it stands beside it, and each testifies of the other. And "
-     "eleven men beyond Joseph handled the plates — and signed their "
-     "names to it for the rest of their lives."),
+     "Two witnesses. One God. And because the Father persuades — he "
+     "never forces — eleven ordinary men lifted the plates, turned "
+     "the leaves, and signed their names for life. The devil forbids "
+     "you to look. God invites you to handle it."),
     ("n11", NARRATOR,
-     "And the invitation printed in its final chapter is still the "
-     "engine of everything: read it, remember how merciful the Lord has "
-     "been — and ask God, in the name of Christ, if it is true. "
-     "Millions have. You can. Moroni buried it for you. The least you "
-     "can do is open it."),
+     "That is why the book ends with a question instead of a law: "
+     "read it, and ask God, in the name of Christ, if it is true. No "
+     "army. No middleman — not even us. The war has been over your "
+     "freedom to choose; this book puts the choice in your hands. "
+     "Open it."),
 ]
 
 CARD_SEG = ("card", NARRATOR,
-            "Buried by the last survivor. Delivered back by the same "
-            "man. Addressed to you.")
+            "The devil needs you blind. God put the evidence in your "
+            "hands — and asked.")
 
 CARD_TEXT = ("The seed came up.\n"
              "\n"

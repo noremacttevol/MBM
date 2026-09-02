@@ -1,0 +1,227 @@
+[
+ {
+  "era": "america-1820",
+  "scene": "The wake-up call: the wooded drumlin hill at first light \u2014 and this dawn is DIFFERENT: the sun's first rays breaking exactly over its crown, the mist on its slopes burning through, the whole hill lit like something switched on. The waiting, ending. No people.",
+  "must_show": "the drumlin hill with sunrise breaking exactly over its crown, mist burning through",
+  "must_not_show": "figures, paths, monuments, drawn rays hard-edged",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 9.937
+ },
+ {
+  "era": "america-1820",
+  "scene": "The praying boy: Joseph at seventeen kneels beside his low rope bed in a small log-walled bedroom at deep night \u2014 homespun shirt, bare feet on plank floor, head bowed over clasped hands, one candle long since out \u2014 earnest, private, and completely unaware of what is coming.",
+  "must_show": "seventeen-year-old Joseph kneeling at his rope bed in a dark log bedroom, candle out, earnest",
+  "must_not_show": "light arriving yet, his eyes on the lens, siblings",
+  "locks": [
+   "JOSEPH-SMITH"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 9.937,
+  "end": 18.175
+ },
+ {
+  "era": "america-1820",
+  "scene": "The light grows: the little bedroom FILLING with brilliance brighter than noon \u2014 every plank and quilt-fold lit shadowless, and Joseph half-risen from his knees, one arm instinctively shielding then LOWERING as awe replaces alarm, his face washed in the impossible light whose source stands just above the frame's top edge.",
+  "must_show": "the log bedroom lit brighter than noon, Joseph half-risen with shielding arm lowering into awe",
+  "must_not_show": "the messenger in this frame, windows blazing, fire",
+  "locks": [
+   "JOSEPH-SMITH"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 18.175,
+  "end": 24.916
+ },
+ {
+  "era": "america-1820",
+  "scene": "The librarian, sent back: the glorified messenger stands IN THE AIR of the small room, bare feet plainly above the plank floor \u2014 the SAME bronze face from the cave and the hill, grief transfigured to blazing peace, his exquisite white robe still in the brilliance \u2014 and below him Joseph looks up from beside the bed, lit and unafraid. Fourteen centuries, closing in one frame.",
+  "must_show": "the glorified messenger with Moroni's exact face standing in the air of the bedroom, Joseph looking up unafraid",
+  "must_not_show": "wings, halo, aura outline, feet on the floor, either face to the lens",
+  "locks": [
+   "MORONI-GP",
+   "JOSEPH-SMITH"
+  ],
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 24.916,
+  "end": 30.239
+ },
+ {
+  "era": "america-1820",
+  "scene": "My name is Moroni: the messenger's face close \u2014 the deep bronze features, the grey-shocked temples, the short beard of the man who once wrote alone by firelight \u2014 now lit from within by expression alone: the calm of finished grief, the warmth of a courier finally delivering. His gaze angles down toward the unseen boy.",
+  "must_show": "the glorified messenger's close face \u2014 the same features as the last Nephite, grief become blazing peace, gaze down toward the unseen boy",
+  "must_not_show": "halo, glow, wings, his eyes on the lens",
+  "locks": [
+   "MORONI-GP"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 30.239,
+  "end": 49.528
+ },
+ {
+  "era": "america-1820",
+  "scene": "The telling: Moroni's arm extends toward the bedroom's small window \u2014 and Joseph's wide eyes follow the line of the pointing hand \u2014 the messenger describing gold plates and an everlasting gospel while the night outside the glass holds the direction of a hill the boy has known his whole life.",
+  "must_show": "Moroni's arm extended toward the small dark window, Joseph's eyes following the line",
+  "must_not_show": "the hill visible yet, plates in frame, faces to lens",
+  "locks": [
+   "MORONI-GP",
+   "JOSEPH-SMITH"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 49.528,
+  "end": 61.023
+ },
+ {
+  "era": "america-1820",
+  "scene": "The direction of the hill: through the small farmhouse window's wavy glass, the drumlin hill stands dark against the star-thick night \u2014 framed exactly by the panes, patient as ever, suddenly the most important geography on earth. No people; the view itself.",
+  "must_show": "the dark drumlin hill framed in wavy window-glass under thick stars",
+  "must_not_show": "light on the hill, figures, curtains fancy",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 61.023,
+  "end": 68.686
+ },
+ {
+  "era": "america-1820",
+  "scene": "Four Septembers: on the hillside in autumn gold, the opened stone box sits between them \u2014 Moroni standing in quiet instruction, Joseph now visibly older kneeling at the box's edge listening hard, the plates' gleam just showing under the lifted lid \u2014 a tutorial with a fourteen-century syllabus. Seen from beside the box.",
+  "must_show": "Moroni instructing over the opened stone box while an older Joseph kneels listening, gleam under the lid",
+  "must_not_show": "wings, halo, plates fully out, faces to lens",
+  "locks": [
+   "MORONI-GP",
+   "JOSEPH-SMITH"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 68.686,
+  "end": 76.31
+ },
+ {
+  "era": "america-1820",
+  "scene": "1827 \u2014 placed in his hands: at dusk on the hill, the wrapped weight passes from the messenger's hands into Joseph's braced arms \u2014 the young man's face grave with the charge landing on him, Moroni's hands still steadying the bundle's underside at the moment of transfer. The handoff of the whole Restoration.",
+  "must_show": "the wrapped plates mid-transfer from Moroni's hands into Joseph's braced arms at dusk, both grave",
+  "must_not_show": "gold visible, wings, halo, faces to lens",
+  "locks": [
+   "MORONI-GP",
+   "JOSEPH-SMITH"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 76.31,
+  "end": 81.392
+ },
+ {
+  "era": "america-1820",
+  "scene": "Guard them with your life: Joseph at a dead RUN through darkening woods, the wrapped bundle clamped under one arm like a stone of great price, his free hand tearing branches aside, coat flying \u2014 hunted already, caught mid-stride from the side, fierce and fast.",
+  "must_show": "Joseph sprinting through dark woods with the wrapped bundle clamped under one arm",
+  "must_not_show": "attackers visible, blood, his face to the lens",
+  "locks": [
+   "JOSEPH-SMITH"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 81.392,
+  "end": 87.125
+ },
+ {
+  "era": "america-1820",
+  "scene": "By gift and power: the translation table by candlelight \u2014 Joseph seated with his face buried toward the instrument cupped in his hat's dark, dictating, while across the plain table a scribe's quill races over paper, pages already stacked at his elbow \u2014 two farm chairs, one candle, and scripture arriving at speed. All writing soft and unreadable.",
+  "must_show": "Joseph dictating face-toward-hat while a scribe's quill races, pages stacked, one candle",
+  "must_not_show": "readable words, the plates open on the table, faces to lens",
+  "locks": [
+   "JOSEPH-SMITH"
+  ],
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 87.125,
+  "end": 92.141
+ },
+ {
+  "era": "america-1820",
+  "scene": "The pace: extreme close on the scribe's quill flying across the page \u2014 ink still wet on the last three lines, a finished stack thick beside the inkwell, candle-warmth raking the paper's weave \u2014 sixty-five days outrunning every explanation. Script soft and unreadable.",
+  "must_show": "a racing quill, wet ink, and a thick finished stack by candlelight, unreadable",
+  "must_not_show": "readable words, blots, printed type",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 92.141,
+  "end": 95.724
+ },
+ {
+  "era": "america-1820",
+  "scene": "The famine's answer, bound: rough work-hands hold the finished manuscript \u2014 a thick block of pages tied with cord \u2014 in morning window light, the paper edges soft with handling, the weight of it plainly real in the gripping fingers. Everything the centuries starved for, in one stack.",
+  "must_show": "work-hands holding a thick cord-tied manuscript block in window light",
+  "must_not_show": "readable text, printing, faces",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 95.724,
+  "end": 106.978
+ },
+ {
+  "era": "america-1820",
+  "scene": "The mission statement: the book's first printed leaf lies fresh on the press-room table \u2014 its type-set lines soft and UNREADABLE in the raking light, but its purpose carried by the caption \u2014 a printer's stained thumb still holding the sheet's corner flat. The point of everything, going to ink.",
+  "must_show": "a fresh printed leaf with soft unreadable type held flat by a printer's stained thumb",
+  "must_not_show": "READABLE words or title, modern type, faces",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 106.978,
+  "end": 126.82
+ },
+ {
+  "era": "america-1820",
+  "scene": "More witnesses, not fewer: two oil lamps burn side by side on one plain table \u2014 twin flames, one light \u2014 against the soft dark of a farmhouse wall. The Bible and the book beside it, told in fire. Nothing else in frame.",
+  "must_show": "two lamps burning side by side as one light on a plain table",
+  "must_not_show": "books in frame, hands, text",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 126.82,
+  "end": 136.036
+ },
+ {
+  "era": "america-1820",
+  "scene": "The witnesses: around a farmhouse table in full daylight, eleven plain-dressed men lean in as the metal plates lie OPEN before them \u2014 one man lifting a leaf between his fingers, another hefting the whole weight with both hands and raised brows, a third tracing engraving with a fingertip \u2014 examination, not ceremony; farmers auditing gold. Faces on the plates, none to the lens.",
+  "must_show": "eleven daylight witnesses examining open metal plates \u2014 lifting a leaf, hefting the weight, tracing engraving",
+  "must_not_show": "angels in frame, readable characters, faces to lens",
+  "wide": true,
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 136.036,
+  "end": 151.756
+ },
+ {
+  "era": "america-1820",
+  "scene": "Palmyra, 1830: the Grandin press-room in work-lamp warmth \u2014 the iron press mid-pull, and everywhere the BOOK: printed sheets drying on lines overhead, folded gatherings stacked waist-high, an apprentice carrying a fresh armload \u2014 five thousand copies of the famine's answer coming into the world. Type and pages unreadable.",
+  "must_show": "an 1830 press-room mid-pull with the book's sheets drying overhead and gatherings stacked waist-high",
+  "must_not_show": "readable pages, modern machinery, faces to lens",
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 151.756,
+  "end": 160.486
+ },
+ {
+  "era": "modern",
+  "scene": "Addressed to you: in the present day, two hands open the same thick book at a morning window \u2014 the spine cracking softly, pages fanning past the thumbs, warm light across the unreadable text \u2014 Moroni's letter, opening seventeen centuries after the firelight it was written by.",
+  "must_show": "modern hands opening the thick book at a bright morning window, pages fanning, print unreadable",
+  "must_not_show": "readable title or text, faces, brand marks",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 160.486,
+  "end": 163.978
+ },
+ {
+  "era": "america-1820",
+  "scene": "The metronome resolves: the drumlin hill in FULL golden morning at last \u2014 every previous era saw it waiting in dusk, night and half-light, and now the whole crown stands lit, the young orchards below bright, the long patience paid. No people, no marks. Just morning, finally.",
+  "must_show": "the drumlin hill fully lit in golden morning, orchards bright below",
+  "must_not_show": "figures, monuments, mist, drawn rays",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 163.978,
+  "end": 169.216
+ }
+]

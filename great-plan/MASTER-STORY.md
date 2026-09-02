@@ -30,6 +30,47 @@ Him — and He would not cheat to get us there.**
 
 ---
 
+## THE SENSE-MAKING LAW (Cameron, 2026-09-01 — the course correction; binds every script)
+
+Cameron, verbatim spirit: *"I wanted this to be only focusing on the things
+that God allowed and promoted for the blessing of free agency to always
+continue here on earth... spoken from a narrator's POV to show how God did
+this and the devil did this, back and forth, to always make sense — not just
+tell our story about how we think we should have to believe without the back
+story of what God is doing and why — how he is swinging the rod and
+protecting our free agency against the devil. Something that would just make
+sense — not tell us some dogma with no sensical positioning from God's
+battle with the devil in the background."*
+
+What this means, mechanically, for every narration line:
+
+1. **Every beat is a MOVE in the war over free agency.** The devil moves to
+   destroy, starve, or counterfeit agency; God counter-moves to protect,
+   restore, or arm it. The narrator names whose move it is and what it does
+   to agency. No beat exists just to state a belief.
+2. **The narrator explains WHY, causally, every time.** Never "this is true,
+   believe it" — always "here is what the devil was doing to your freedom,
+   here is what God did about it, and here is why that move protected your
+   power to choose." The viewer should finish a beat thinking *"of course —
+   that makes sense,"* never *"they're telling me what to believe."*
+3. **Doctrine enters only as the EXPLANATION of a move.** A restored key, a
+   book, an ordinance, a kingdom of glory is presented as what it did in the
+   war (informed choice, broken monopoly, opened channel), not as a claim to
+   accept. Evidence and invitation, never assertion. God persuades; only the
+   devil demands.
+4. **Agency is the through-line said out loud.** "You cannot freely choose
+   what you cannot know / hear / reach" — revelation, scripture, prophets,
+   freedom of conscience are agency infrastructure, and the narrator says so
+   in plain words.
+
+Failure mode this law exists to kill (found in the restoration stretch,
+eps 26–33 draft one): church-history narration that recounts events and
+testifies of them while the war logic goes silent — "dogma with no sensical
+positioning." A script that reads as OUR claims instead of GOD'S
+counter-moves is out of spec, no matter how true it is.
+
+---
+
 ## Six movements
 
 ### I. Before the world
