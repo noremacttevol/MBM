@@ -1,0 +1,236 @@
+[
+ {
+  "era": "eden",
+  "scene": "Eden entire: from a high shoulder of the garden, an impossible green world \u2014 giant ancient trees, clear braided rivers, meadows of flowering grass, waterfalls smoking in morning light, herds moving unafraid in the open \u2014 beauty at a scale no fallen forest reaches. No people in frame yet.",
+  "must_show": "a vast pristine garden world of giant trees, braided rivers and unafraid herds in morning light",
+  "must_not_show": "buildings, paths, fences, people, drawn rays",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 9.996
+ },
+ {
+  "era": "eden",
+  "scene": "The innocents at home: Adam and Eve walk together through an open glade, seen from behind at a distance \u2014 a fallow deer walking calmly at Eve's hip, bright birds crossing low, neither human head turned back \u2014 the two of them utterly unafraid and utterly unhurried. Morning light through the canopy.",
+  "must_show": "the first couple from behind in a glade with a deer walking calmly beside them",
+  "must_not_show": "faces visible, clothing details modern, fear in any animal",
+  "wide": true,
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 9.996,
+  "end": 22.133
+ },
+ {
+  "era": "eden",
+  "scene": "Innocence, frozen: Adam and Eve stand motionless at the edge of a glass-still pool, seen in profile at a distance, their perfect reflections doubled in the water \u2014 two figures and their mirror images, nothing moving, not a ripple \u2014 beautiful and fixed as a painting that cannot change.",
+  "must_show": "the couple motionless in profile doubled by a mirror-still pool, nothing moving",
+  "must_not_show": "smiles, motion blur, animals, faces to camera",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 22.133,
+  "end": 28.044
+ },
+ {
+  "era": "eden",
+  "scene": "Going nowhere: a single perfect fruit hanging heavy on its bough, skin flawless, dew beaded and holding, the light unchanging \u2014 extreme close, absolutely still, almost too perfect. Beauty with no clock running.",
+  "must_show": "one flawless dew-beaded fruit hanging in unchanging light, extreme close",
+  "must_not_show": "insects, decay, hands, text",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 28.044,
+  "end": 32.881
+ },
+ {
+  "era": "eden",
+  "scene": "The two trees: EXACTLY TWO separate, complete, free-standing trees on a gentle grassy rise, one on the frame's left and one on the frame's right, a clear gap of open grass and drifting mist between their two distinct trunks \u2014 the LEFT tree silver-barked with pale gold fruit, the RIGHT tree darker-barked and darker-leaved with deep amber fruit \u2014 the same height, the same majesty, two equal choices facing each other across the gap. Count the trunks: two. No people, no serpent yet.",
+  "must_show": "TWO separate complete trees with a clear grass gap between their trunks \u2014 silver/pale-gold left, darker/amber right, equal size",
+  "must_not_show": "one single tree, merged canopies, a third tree prominent, signs, figures, snakes",
+  "wide": true,
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 32.881,
+  "end": 46.405
+ },
+ {
+  "era": "eden",
+  "scene": "The commandment: Adam and Eve kneel side by side in a glade flooded from ahead by a warm brilliance beyond the trees \u2014 the light of a Presence the frame does not show \u2014 both seen from behind at a reverent distance, heads lifted toward the brightness, the garden luminous around them. The light is environmental, from beyond the treeline, with no figure in it.",
+  "must_show": "the couple kneeling from behind, faces lifted to a warm brilliance beyond the trees, no figure in the light",
+  "must_not_show": "any figure or silhouette in the brightness, faces visible, drawn rays, halo shapes",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 46.405,
+  "end": 64.721
+ },
+ {
+  "era": "eden",
+  "scene": "The unlocked gate: the knowledge tree's lowest bough in close-up \u2014 its deep amber fruit hanging exactly at an adult's easy reach over open ground, no fence, no thorn hedge, no barrier of any kind between the grass and the fruit \u2014 the reachability itself the whole subject.",
+  "must_show": "amber fruit at easy arm's height over open unfenced grass, close",
+  "must_not_show": "fences, thorns, warning of any kind, hands, serpent",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 64.721,
+  "end": 79.99
+ },
+ {
+  "era": "eden",
+  "scene": "Enticed by the one or the other: Eve stands midway between the two trees, seen in full-length profile \u2014 her body still turned toward the silver tree of life behind her, but her face turned the other way, toward the dark-leaved tree ahead \u2014 caught exactly on the pivot of the ages, thinking. Neither tree touched.",
+  "must_show": "Eve in profile midway between the two trees, body toward one, face turned toward the other, thinking",
+  "must_not_show": "her eyes on the lens, the serpent visible, reaching yet, distress",
+  "locks": [
+   "EVE"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 79.99,
+  "end": 86.486
+ },
+ {
+  "era": "eden",
+  "scene": "The other enticement arrives: a great serpent glides along a moss-covered branch into the frame \u2014 iridescent, muscular, unhurried, its head leading toward the frame's right where the amber fruit hangs soft-focus \u2014 a real magnificent animal, nothing cartoonish, its eye NOT aimed at the camera.",
+  "must_show": "a real iridescent serpent gliding along a branch toward soft-focus amber fruit",
+  "must_not_show": "cartoon features, a hooded cobra pose, eyes to the lens, fangs bared",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 86.486,
+  "end": 90.818
+ },
+ {
+  "era": "eden",
+  "scene": "The voice you have heard before: under the knowledge tree's canopy the daylight COOLS \u2014 a soft formless dimming gathering in the leaves behind the serpent's branch, the garden's warmth failing just there and nowhere else \u2014 while beyond the cool pocket the garden stays bright. The serpent lies still on its branch; the dimming has no shape.",
+  "must_show": "a soft shapeless cooling of the light in the canopy around the still serpent's branch, bright garden beyond",
+  "must_not_show": "ANY figure or face in the dimness, smoke, the serpent looking at the lens",
+  "devil": true,
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 90.818,
+  "end": 98.286
+ },
+ {
+  "era": "eden",
+  "scene": "The first lie: the serpent's head in sharp close-up beside the hanging amber fruit, forked tongue mid-flick, scales catching the cooled light \u2014 and beyond it, soft-focus, Eve's listening face turned toward it, attentive and unafraid. Her features stay recognizably hers even in blur.",
+  "must_show": "the serpent's head sharp beside the fruit, tongue mid-flick, Eve's soft-focus listening face beyond",
+  "must_not_show": "the serpent facing the lens, Eve sharp while it is sharp, fear on her face",
+  "locks": [
+   "EVE"
+  ],
+  "devil": true,
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 98.286,
+  "end": 109.477
+ },
+ {
+  "era": "eden",
+  "scene": "The pitch working: Eve's face in strong close-up, thought visibly moving behind her eyes \u2014 not enchantment, ANALYSIS: brows drawn a degree, gaze fixed on the unseen fruit off-frame right, lips parted with an unasked question. The garden light warm on one cheek, the canopy's cool on the other.",
+  "must_show": "Eve's close face mid-analysis, warm light one cheek and cool the other, gaze fixed off-frame right",
+  "must_not_show": "her eyes on the lens, trance, tears, the serpent in frame",
+  "locks": [
+   "EVE"
+  ],
+  "devil": true,
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 109.477,
+  "end": 123.153
+ },
+ {
+  "era": "eden",
+  "scene": "The garden holds its breath: a wide still frame of the two trees' rise from a distance \u2014 every bird silent on its branch, the mist stopped between the trunks, the light angled long and expectant across the grass \u2014 the hinge of history disguised as a quiet morning. No people visible from this distance.",
+  "must_show": "the two trees' rise wide and utterly still, long expectant light, birds perched silent",
+  "must_not_show": "figures readable, the serpent, weather drama, rays",
+  "wide": true,
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 123.153,
+  "end": 136.181
+ },
+ {
+  "era": "eden",
+  "scene": "The bravest decision: Eve's hand closes around the amber fruit \u2014 grip firm, wrist steady, no tremble \u2014 and her face beyond it in three-quarter carries clear-eyed RESOLVE: chin level, eyes open and certain, the expression of a woman choosing growth with the price read. Nothing in the frame says fooled.",
+  "must_show": "Eve's firm hand closing on the fruit and her resolute clear-eyed three-quarter face beyond it",
+  "must_not_show": "trembling, tears, trance, the serpent visible, her eyes on the lens",
+  "locks": [
+   "EVE"
+  ],
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 136.181,
+  "end": 143.08
+ },
+ {
+  "era": "eden",
+  "scene": "Adam chooses her, and the door: Adam's face in close three-quarter as Eve's hand offers the fruit into the frame's lower corner \u2014 his eyes on hers off-frame, the weight of the price fully in his face, and underneath it the settled decision of a man who will not be parted from his wife or the plan. His hand rises to receive.",
+  "must_show": "Adam's grave three-quarter face and rising hand as the fruit is offered into frame, decision settled",
+  "must_not_show": "his eyes on the lens, horror, the serpent, Eve's face in this frame",
+  "locks": [
+   "ADAM"
+  ],
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 143.08,
+  "end": 148.139
+ },
+ {
+  "era": "eden",
+  "scene": "Eyes opened: the two of them side by side, faces close together in three-quarter, both gazes lifted OUT at the garden as if seeing it for the first time \u2014 awe, weight, and the first faint chill of mortality all arriving at once. Behind them the light has turned one degree toward evening.",
+  "must_show": "both faces close in three-quarter, newly opened eyes lifted out at the world, awe and weight together",
+  "must_not_show": "shame theatrics, nakedness emphasized, tears streaming, faces to camera",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 148.139,
+  "end": 151.512
+ },
+ {
+  "era": "eden",
+  "scene": "Leaving with dignity: Adam and Eve walk hand in hand away from the camera down the long glade toward the garden's eastern gap, full-length from directly behind, heads up \u2014 not fleeing, WALKING, together, into what they chose. The camera stays low on the grass behind their heels.",
+  "must_show": "the couple hand in hand from directly behind, heads up, walking away down the glade toward the eastern gap",
+  "must_not_show": "faces or profiles, stooping, an angel, a sword",
+  "wide": true,
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 151.512,
+  "end": 161.532
+ },
+ {
+  "era": "eden",
+  "scene": "The trees behind them: from the threshold looking back \u2014 the two great trees small now at the glade's far end, the silver tree of life just catching a thin vertical line of white flame taking up its guard-post beside it in the far distance \u2014 the past sealing itself gently while the light goes amber.",
+  "must_show": "the two distant trees from the threshold with a thin far flame-line beginning its guard by the silver one",
+  "must_not_show": "an angel figure, a sword shape, faces, darkness",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 161.532,
+  "end": 166.086
+ },
+ {
+  "era": "eden",
+  "scene": "The first morning outside: from just beyond the garden's threshold stones, the wild unmade world ahead under a sunrise immense and clean \u2014 hard ground, far mountains, a bright thread of river \u2014 everything unearned and possible. No people in frame; the door has just opened.",
+  "must_show": "the wild sunrise world waiting beyond the threshold stones, hard and beautiful",
+  "must_not_show": "figures, buildings, paths, drawn rays",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 166.086,
+  "end": 169.729
+ }
+]

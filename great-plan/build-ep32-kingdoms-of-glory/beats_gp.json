@@ -8,7 +8,7 @@
   "id": "p01",
   "out": "p01.jpeg",
   "start": 0.0,
-  "end": 32.791
+  "end": 27.762
  },
  {
   "era": "heaven",
@@ -18,18 +18,18 @@
   "wide": true,
   "id": "p02",
   "out": "p02.jpeg",
-  "start": 32.791,
-  "end": 41.729
+  "start": 27.762,
+  "end": 35.21
  },
  {
   "era": "heaven",
-  "scene": "One at a time, there too: a bright-clothed messenger grips the shoulder of a rough-dressed listening man whose face is breaking \u2014 disbelief becoming hope in real time \u2014 the two of them in profile, the crowd soft beyond. The gospel doing on that side exactly what it does on this one.",
-  "must_show": "a messenger's hand on a rough-dressed man's shoulder, his face breaking from disbelief into hope, profiles",
-  "must_not_show": "wings, tears streaming, faces to camera",
+  "scene": "One at a time, there too: a messenger in the hosts' bright pure-WHITE long-sleeved one-piece robe \u2014 an ordinary faithful man's face, short grey-flecked hair, clearly NOT the Lord \u2014 grips the shoulder of a rough-dressed listening man whose face is breaking \u2014 disbelief becoming hope in real time \u2014 the two of them in profile, the crowd soft beyond. The gospel doing on that side exactly what it does on this one.",
+  "must_show": "a white-robed messenger's hand on a rough-dressed man's shoulder, his face breaking from disbelief into hope, profiles",
+  "must_not_show": "cream robe, the Lord's face, wings, tears streaming, faces to camera",
   "id": "p03",
   "out": "p03.jpeg",
-  "start": 41.729,
-  "end": 47.686
+  "start": 35.21,
+  "end": 39.381
  },
  {
   "era": "modern",
@@ -38,8 +38,8 @@
   "must_not_show": "swimmers, splashing, faces",
   "id": "p04",
   "out": "p04.jpeg",
-  "start": 47.686,
-  "end": 64.2
+  "start": 39.381,
+  "end": 42.658
  },
  {
   "era": "modern",
@@ -49,8 +49,8 @@
   "wide": true,
   "id": "p05",
   "out": "p05.jpeg",
-  "start": 64.2,
-  "end": 72.518
+  "start": 42.658,
+  "end": 50.976
  },
  {
   "era": "modern",
@@ -59,8 +59,8 @@
   "must_not_show": "readable stone, despair alone, others",
   "id": "p06",
   "out": "p06.jpeg",
-  "start": 72.518,
-  "end": 83.938
+  "start": 50.976,
+  "end": 59.548
  },
  {
   "era": "america-1820",
@@ -72,20 +72,20 @@
   ],
   "id": "p07",
   "out": "p07.jpeg",
-  "start": 83.938,
-  "end": 96.535
+  "start": 59.548,
+  "end": 72.035
  },
  {
   "era": "modern",
-  "scene": "The testimony, last of all: the risen Jesus close \u2014 alive, warm, sovereign \u2014 his locked face in glory-light with the gladness of the Kirtland appearance, gaze angled past the camera's shoulder toward every witness who ever said THAT HE LIVES. The whole revelation's first fact, in one face.",
-  "must_show": "the risen Jesus's close warm sovereign face, gaze past the lens",
-  "must_not_show": "his eyes on the lens, halo, white hair, wounds",
+  "scene": "The testimony, last of all: the risen Jesus close \u2014 alive, warm, sovereign \u2014 his locked face with the gladness of the Kirtland appearance, gaze angled past the camera's shoulder toward every witness who ever said THAT HE LIVES. He stands in pure abstract warm GLORY-LIGHT \u2014 depth of soft radiant brightness only, NO room, NO furniture, NO objects, NO landscape. The whole revelation's first fact, in one face.",
+  "must_show": "the risen Jesus's close warm sovereign face in pure abstract glory-light, gaze past the lens",
+  "must_not_show": "rooms, furniture, shelves, modern objects, his eyes on the lens, halo, white hair, wounds",
   "jesus": true,
   "ref": true,
   "id": "p08",
   "out": "p08.jpeg",
-  "start": 96.535,
-  "end": 127.36
+  "start": 72.035,
+  "end": 88.686
  },
  {
   "era": "modern",
@@ -95,8 +95,8 @@
   "wide": true,
   "id": "p09",
   "out": "p09.jpeg",
-  "start": 127.36,
-  "end": 133.461
+  "start": 88.686,
+  "end": 94.787
  },
  {
   "era": "modern",
@@ -105,8 +105,8 @@
   "must_not_show": "faces to camera, telescopes, city glow",
   "id": "p10",
   "out": "p10.jpeg",
-  "start": 133.461,
-  "end": 137.529
+  "start": 94.787,
+  "end": 98.855
  },
  {
   "era": "modern",
@@ -115,8 +115,8 @@
   "must_not_show": "figures, buildings, drawn rays",
   "id": "p11",
   "out": "p11.jpeg",
-  "start": 137.529,
-  "end": 149.53
+  "start": 98.855,
+  "end": 107.648
  },
  {
   "era": "ancient",
@@ -125,8 +125,8 @@
   "must_not_show": "whips, dogs snarling, culling implications",
   "id": "p12",
   "out": "p12.jpeg",
-  "start": 149.53,
-  "end": 157.53
+  "start": 107.648,
+  "end": 113.51
  },
  {
   "era": "modern",
@@ -135,8 +135,8 @@
   "must_not_show": "figures, storm, bolts or chains",
   "id": "p13",
   "out": "p13.jpeg",
-  "start": 157.53,
-  "end": 181.628
+  "start": 113.51,
+  "end": 128.858
  },
  {
   "era": "modern",
@@ -146,8 +146,8 @@
   "wide": true,
   "id": "p14",
   "out": "p14.jpeg",
-  "start": 181.628,
-  "end": 197.54
+  "start": 128.858,
+  "end": 143.418
  },
  {
   "era": "modern",
@@ -156,8 +156,8 @@
   "must_not_show": "readable text, faces, jewellery",
   "id": "p15",
   "out": "p15.jpeg",
-  "start": 197.54,
-  "end": 205.704
+  "start": 143.418,
+  "end": 151.581
  },
  {
   "era": "heaven",
@@ -169,8 +169,8 @@
   ],
   "id": "p16",
   "out": "p16.jpeg",
-  "start": 205.704,
-  "end": 222.374
+  "start": 151.581,
+  "end": 161.458
  },
  {
   "era": "modern",
@@ -180,7 +180,7 @@
   "wide": true,
   "id": "p17",
   "out": "p17.jpeg",
-  "start": 222.374,
-  "end": 226.541
+  "start": 161.458,
+  "end": 168.043
  }
 ]

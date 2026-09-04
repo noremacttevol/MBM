@@ -1,0 +1,263 @@
+[
+ {
+  "era": "ancient",
+  "scene": "A newborn baby asleep in its mother's arms inside a dim ancient dwelling, lamplight warm on the tiny face; the mother's head is bowed over the child so her face shows only in soft downturned profile. The frame is close and tender \u2014 swaddling cloth of rough weave, the baby's small fist curled at its cheek.",
+  "must_show": "a sleeping newborn close in its mother's arms, warm clay-lamp light, rough swaddling cloth",
+  "must_not_show": "the mother looking at the camera, any text, modern cloth, glow",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 5.825
+ },
+ {
+  "era": "ancient",
+  "scene": "Extreme close detail: the newborn's tiny hand wrapped tight around one adult finger, warm light raking across the small knuckles and the parent's work-rough skin. Nothing else in focus.",
+  "must_show": "a newborn's hand gripping one adult finger, close and warm",
+  "must_not_show": "faces, text, jewellery, modern objects",
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 5.825,
+  "end": 10.59
+ },
+ {
+  "era": "eden",
+  "scene": "Adam and Eve walk away from Eden, and the camera watches them GO: both figures seen full-length from DIRECTLY BEHIND, their backs and the backs of their heads filling the middle frame as they walk AWAY from the lens across a rocky threshold into open wild grassland under a great morning sky. Not one degree of either face or profile is visible \u2014 hair, shoulders and heels only, mid-stride away. Eden's towering wall of deep living green rises at the frame's near edges beside the camera, already behind them.",
+  "must_show": "the first couple from directly behind, leaving a wall of garden green and stepping into open wild country",
+  "must_not_show": "faces visible, anyone turned to camera, angels, swords, glow",
+  "wide": true,
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 10.59,
+  "end": 16.189
+ },
+ {
+  "era": "eden",
+  "scene": "Looking back the way they came: far across the rocky ground, the garden stands sealed \u2014 a distant line of impossible green beneath brooding bright cloud, and at its single gap a thin vertical line of white flame turning slowly, small with distance. In the near foreground, out of focus at the frame's edge, Eve's shoulder and dark hair as she looks back; her face is turned away from the camera toward the garden.",
+  "must_show": "the sealed garden far away with one thin turning line of flame at its gap, Eve's out-of-focus shoulder near the lens looking back",
+  "must_not_show": "any angel figure, faces to camera, a sword shape, halo, beams",
+  "locks": [
+   "EVE"
+  ],
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 16.189,
+  "end": 20.244
+ },
+ {
+  "era": "eden",
+  "scene": "Dawn over the fallen world, immense and hopeful: from a high ridge, wild untouched country rolls to the horizon under a sunrise of gold and rose, and far below, two tiny figures walk together into it, side by side \u2014 the camera looks down past them from high behind so only their backs are seen, walking away from the lens. The land is hard and beautiful at once \u2014 stone, scrub, a bright thread of river.",
+  "must_show": "a vast sunrise wilderness with two tiny figures walking into it from high behind, a river thread below",
+  "must_not_show": "faces, ruins, buildings, roads, anyone facing the camera",
+  "wide": true,
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 20.244,
+  "end": 24.79
+ },
+ {
+  "era": "ancient",
+  "scene": "Adam at hard labour: driving a fire-hardened wooden digging stick into stony soil, caught mid-strain from a low three-quarter side angle, sweat lining his face and forearms, thorn-scrub and broken ground around him, harsh midday light. His gaze is down on his work; the effort is real and heavy.",
+  "must_show": "Adam straining a wooden digging stick into stony thorn-scrubbed ground, sweat visible, gaze down on the work",
+  "must_not_show": "metal tools, his eyes on the lens, tidy farmland, glow",
+  "locks": [
+   "ADAM"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 24.79,
+  "end": 31.318
+ },
+ {
+  "era": "ancient",
+  "scene": "Eve outside a shelter of branches and hides, caught mid-laugh as two small children run to her, the nearer child leaping for her opening arms \u2014 all three seen from a three-quarter side angle, faces lit by late-afternoon gold, nobody toward the lens. Motion and joy: her hair swinging, the children's bare feet off the ground mid-stride.",
+  "must_show": "Eve mid-laugh catching a leaping child, a second child running in, branch-and-hide shelter behind, golden light",
+  "must_not_show": "anyone facing the lens, modern clothing, tidy buildings",
+  "locks": [
+   "EVE"
+  ],
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 31.318,
+  "end": 35.398
+ },
+ {
+  "era": "ancient",
+  "scene": "Night, the first family around a wood fire: Adam mid-story with both hands raised in a shape only storytellers make, Eve beside him with the youngest asleep against her, three older children cross-legged and rapt, every face lit only by moving firelight and every gaze on Adam or the flames \u2014 none on the camera, which watches from just outside the circle past a child's shoulder.",
+  "must_show": "a firelit family circle, Adam mid-gesture telling, children rapt, camera outside the circle past a shoulder",
+  "must_not_show": "anyone facing the lens, lanterns, buildings, moonbeams",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 35.398,
+  "end": 38.39
+ },
+ {
+  "era": "ancient",
+  "scene": "Adam's praise at dawn: he stands on high open ground facing the sunrise with his arms spread low and palms open, head lifted, seen in three-quarter from behind his left shoulder so the light falls on the visible edge of his upturned face \u2014 gratitude in the whole posture. Below and beyond, the wild land he now works rolls into morning mist.",
+  "must_show": "Adam from three-quarter behind, arms spread low to a sunrise, upturned profile edge visible, misted wild land below",
+  "must_not_show": "his eyes on the lens, halo, beams of light, any altar yet",
+  "locks": [
+   "ADAM"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 38.39,
+  "end": 45.804
+ },
+ {
+  "era": "ancient",
+  "scene": "Eve steps to Adam's side on the dawn ridge and lays her hand on his arm; he turns his head toward her. Both in three-quarter profile facing each other \u2014 her face lit with a knowing, settled understanding that outruns his wonder. The sunrise builds beyond them.",
+  "must_show": "Eve's hand on Adam's arm on the ridge, two three-quarter profiles facing each other, sunrise beyond",
+  "must_not_show": "either face toward the lens, embrace, halo, tears",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 45.804,
+  "end": 55.451
+ },
+ {
+  "era": "ancient",
+  "scene": "Close on Eve as she speaks the greatest sentence of the early world: her face in strong three-quarter view turned toward Adam off the right frame edge, morning light full on her features \u2014 fierce joy, clear eyes, the look of the first person to understand the plan from inside it. Her long dark hair moves slightly in the dawn wind.",
+  "must_show": "Eve's face close in three-quarter, fierce joyful clarity, gaze off right frame edge",
+  "must_not_show": "her eyes on the lens, tears, halo, softness that reads as weakness",
+  "locks": [
+   "EVE"
+  ],
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 55.451,
+  "end": 64.289
+ },
+ {
+  "era": "ancient",
+  "scene": "The seed of Eve, wide: a busy morning encampment of hide tents and woven windbreaks alive with children of every age \u2014 toddlers stacking stones, girls carrying water jars, boys driving goats, a grandmother grinding grain \u2014 the camera standing behind a near tent line and shooting past it into the camp so every figure is seen from the side or behind, absorbed in living. Smoke threads up into early light.",
+  "must_show": "an encampment full of children and work seen past a near tent line, every figure absorbed, none facing the lens",
+  "must_not_show": "anyone facing the camera, modern objects, stone buildings",
+  "wide": true,
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 64.289,
+  "end": 77.56
+ },
+ {
+  "era": "ancient",
+  "scene": "Pure joy in one frame: a young father tosses his small child high against the bright morning sky and the child's arms fly wide mid-air, both laughing \u2014 seen from the side at a low angle so both faces show in profile against the sky, neither toward the lens. Grass and light; nothing else.",
+  "must_show": "a father mid-toss, child mid-air arms wide, both laughing in profile against bright sky",
+  "must_not_show": "either face toward the lens, danger in the pose, buildings",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 77.56,
+  "end": 82.522
+ },
+ {
+  "era": "ancient",
+  "scene": "The question made visible: night inside a dwelling of stone and timber, a father and mother kneeling over their newborn's sleeping basket, their faces in soft lamplit profile bent toward the child \u2014 love shadowed by a question. The clay lamp's small flame is the only light; the parents' hands rest on the basket edge.",
+  "must_show": "two parents bent over a sleeping newborn's basket by clay-lamp light, love with a question in it",
+  "must_not_show": "faces to camera, tears streaming, any dark presence, glow",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 82.522,
+  "end": 87.839
+ },
+ {
+  "era": "ancient",
+  "scene": "A man kneels alone in an open morning field, back straight, face lifted to the sky with his eyes closed, hands open on his knees \u2014 the posture of someone who answers for himself to God and no one else. Seen from a three-quarter side angle at a respectful distance; dew on the grass, clean early light.",
+  "must_show": "one man kneeling upright in a morning field, face lifted, eyes closed, hands open",
+  "must_not_show": "his eyes on the lens, a crowd, any altar or priest, beams",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 87.839,
+  "end": 93.82
+ },
+ {
+  "era": "ancient",
+  "scene": "An infant asleep on its father's bare chest, the father's one broad hand covering the whole of the baby's back, his bearded chin resting lightly on the small head, eyes closed \u2014 total safety in one close frame, warm low light, rough-woven blanket around them both.",
+  "must_show": "a sleeping infant on a father's chest under one covering hand, warm close safety",
+  "must_not_show": "faces to camera, open eyes on the lens, modern cloth",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 93.82,
+  "end": 104.862
+ },
+ {
+  "era": "first-century",
+  "scene": "Jesus among the mothers and little children: seated on a low stone wall in cream, a baby cradled in the bend of his left arm and his right hand resting gently on the head of a toddler who grips his knee, three mothers and their children gathered close around \u2014 every adult and child face turned toward Jesus or the baby, none toward the lens; the camera stands beside the group at shoulder height and shoots past the nearest mother's shoulder. Soft courtyard morning light.",
+  "must_show": "Jesus seated holding a baby in his left arm, right hand on a toddler's head, mothers gathered, all gazes on him or the baby",
+  "must_not_show": "anyone facing the lens, halo, glow, cream on anyone else, extra unexplained figures",
+  "jesus": true,
+  "ref": true,
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 104.862,
+  "end": 109.102
+ },
+ {
+  "era": "first-century",
+  "scene": "Close: the baby in the bend of Jesus's arm, utterly at peace, one tiny hand resting open against the cream wool of his robe; Jesus's face above in soft three-quarter looking down at the child with complete tenderness. His right hand supports the baby's body; every finger natural and accounted for.",
+  "must_show": "the baby at peace in his arm, tiny open hand on cream wool, his three-quarter face looking down in tenderness",
+  "must_not_show": "his eyes on the lens, halo, glow, malformed hands, a second cream garment",
+  "jesus": true,
+  "ref": true,
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 109.102,
+  "end": 112.572
+ },
+ {
+  "era": "ancient",
+  "scene": "First breath: in a lamplit birth room, a midwife's two strong hands lift a newborn \u2014 glistening, fists clenched, mid-cry \u2014 toward the light of the doorway, the mother's reaching arms soft in the foreground blur. The frame says one thing: this child arrives wanted and clean.",
+  "must_show": "a midwife's hands lifting a crying newborn toward doorway light, mother's arms reaching in soft blur",
+  "must_not_show": "graphic detail, faces to camera, modern objects, glow",
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 112.572,
+  "end": 123.142
+ },
+ {
+  "era": "ancient",
+  "scene": "The old lie leaves the room \u2014 BOTH halves in one frame: morning light floods through a small deep-set window onto a carved wooden cradle with its swaddled sleeping child, the cradle fully in the warm gold \u2014 while the LEFT THIRD of the frame still holds the retreating cold grey-blue dimness, a soft formless gradient of night visibly sliding off the wall and floor toward the left edge, its smooth boundary halfway out of the room. Warm light winning on the right, empty formless dark leaving on the left, the cradle safely in the bright half.",
+  "must_show": "warm window light flooding a cradle while a formless cold shadow-stain drains off it and away down the wall",
+  "must_not_show": "ANY figure, face, eyes or shape in the shadow, smoke, horns, a frightened child",
+  "devil": true,
+  "id": "p20",
+  "out": "p20.jpeg",
+  "start": 123.142,
+  "end": 135.027
+ },
+ {
+  "era": "ancient",
+  "scene": "The family walks into morning: father, mother and three children hand in hand, seen full-length from directly behind, walking away from the camera up a grassy rise into broad sunrise light, the smallest child riding the father's shoulders. The camera stays low behind them; no face turns back.",
+  "must_show": "a family of five from directly behind walking up into sunrise, smallest child on the father's shoulders",
+  "must_not_show": "any face turned back to the lens, buildings, roads, beams",
+  "wide": true,
+  "id": "p21",
+  "out": "p21.jpeg",
+  "start": 135.027,
+  "end": 145.049
+ },
+ {
+  "era": "ancient",
+  "scene": "Bookend: the newborn's tiny hand again, wrapped around its parent's finger \u2014 but now in full golden morning light, the grip strong, the small knuckles bright. Close, warm, final.",
+  "must_show": "a newborn's hand gripping a parent's finger in full golden morning light, close",
+  "must_not_show": "faces, text, jewellery, modern objects",
+  "id": "p22",
+  "out": "p22.jpeg",
+  "start": 145.049,
+  "end": 151.191
+ }
+]

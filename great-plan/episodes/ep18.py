@@ -32,9 +32,9 @@ SEGMENTS = [
      "It is written, Man shall not live by bread alone, but by every "
      "word that proceedeth out of the mouth of God."),
     ("n4", NARRATOR,
-     "Strike one — answered with scripture, not a debate. Then the "
-     "temple's pinnacle: throw yourself down, let angels catch you. "
-     "Prove it with a spectacle."),
+     "Strike one — answered with scripture. Then the temple's "
+     "pinnacle: throw yourself down, let angels catch you. A "
+     "spectacle — dazzled people do not choose."),
     ("j2", JESUS,
      "It is written again, Thou shalt not tempt the Lord thy God."),
     ("n5", NARRATOR,

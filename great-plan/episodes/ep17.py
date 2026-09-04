@@ -19,10 +19,10 @@ META = "Luke 1-2 · 3 Nephi 1 · 1 Nephi 11"
 SEGMENTS = [
     ("n1", NARRATOR,
      "The King of the universe is about to enter His own world. Watch "
-     "HOW He chooses to arrive — because the method is the message."),
+     "HOW He arrives — the one way that leaves you free."),
     ("n2", NARRATOR,
-     "Not a palace. Not a legion. A teenage girl in a hill town, engaged "
-     "to a carpenter, says yes to heaven:"),
+     "Not a palace. Not a legion. Heaven ASKS — a hill-town girl "
+     "engaged to a carpenter, free to refuse, says yes:"),
     ("w1", WOMAN,
      "Behold the handmaid of the Lord; be it unto me according to thy "
      "word."),

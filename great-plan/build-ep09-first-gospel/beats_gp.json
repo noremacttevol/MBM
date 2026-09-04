@@ -1,0 +1,247 @@
+[
+ {
+  "era": "ancient",
+  "scene": "The first altar at dawn: a simple platform of unhewn stacked stones on a bare hilltop above the wild valley, morning mist below, the light just reaching the stones \u2014 empty, waiting, already sacred. No people yet.",
+  "must_show": "a rough unhewn stone altar alone on a dawn hilltop over mist",
+  "must_not_show": "carvings, tools, fire yet, people, drawn rays",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 11.888
+ },
+ {
+  "era": "ancient",
+  "scene": "The family that kept praying: Adam and Eve kneel side by side outside their timber-and-stone dwelling in evening light, heads bowed, his hand over hers on the earth between them \u2014 seen from the side at a respectful distance, smoke from a cook-fire rising thin behind the roofline.",
+  "must_show": "the first couple kneeling side by side at evening, his hand over hers on the ground, side view",
+  "must_not_show": "faces to camera, tears, an altar in this frame",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 11.888,
+  "end": 17.424
+ },
+ {
+  "era": "ancient",
+  "scene": "Heaven answers: both faces lift together \u2014 Adam's and Eve's profiles caught at the instant of hearing, eyes opening toward the evening sky, wonder without fear \u2014 the wind moving her long hair and the fire's smoke sideways in the same gust.",
+  "must_show": "two lifted listening profiles, wind moving hair and smoke the same direction, wonder",
+  "must_not_show": "any figure in the sky, faces to camera, drawn light",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 17.424,
+  "end": 21.955
+ },
+ {
+  "era": "ancient",
+  "scene": "The angel's question: beside the hilltop altar a radiant MESSENGER \u2014 a glorified man in a bright white robe, both feet planted on the ground \u2014 stands facing Adam across the smoking altar stones, mid-question with one open hand toward the offering; Adam faces him in worn work-clothes, straight-backed, honest. Both in profile to the camera, morning light hard and clean on the hilltop.",
+  "must_show": "a wingless white-robed messenger and Adam in facing profiles across a smoking stone altar",
+  "must_not_show": "wings, halo, hovering, Adam kneeling in fear, faces to camera",
+  "locks": [
+   "ADAM"
+  ],
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 21.955,
+  "end": 29.541
+ },
+ {
+  "era": "ancient",
+  "scene": "The honest answer: Adam's face close in three-quarter, mid-sentence \u2014 the plain unashamed look of a man saying I don't know, but He commanded \u2014 weathered features open, no performance, morning light on the honesty itself.",
+  "must_show": "Adam's close three-quarter mid-answer, plain unashamed honesty",
+  "must_not_show": "his eyes on the lens, shame, tears, the angel in frame",
+  "locks": [
+   "ADAM"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 29.541,
+  "end": 48.087
+ },
+ {
+  "era": "ancient",
+  "scene": "The similitude lands: sharp in the foreground, the white firstling lamb lying bound and still upon the altar wood; soft beyond it, Adam's face coming up with widening eyes as the meaning arrives \u2014 the lamb and the understanding in one frame, the smoke rising thin and straight between them.",
+  "must_show": "the bound white lamb sharp on the altar, Adam's soft-focus widening understanding beyond",
+  "must_not_show": "blood, knife, distress in the lamb, faces to camera",
+  "locks": [
+   "ADAM"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 48.087,
+  "end": 55.767
+ },
+ {
+  "era": "ancient",
+  "scene": "The first congregation: the family kneels in a half-circle before the hilltop altar at full morning \u2014 Adam, Eve, and seven children from grown sons to a toddler on a sister's hip \u2014 all seen from behind and beside, every head toward the straight-rising smoke, the wild world enormous beyond the hill.",
+  "must_show": "the whole first family kneeling from behind before the altar's straight smoke, wild world beyond",
+  "must_not_show": "faces to camera, buildings, drawn rays",
+  "wide": true,
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 55.767,
+  "end": 64.996
+ },
+ {
+  "era": "ancient",
+  "scene": "Eve the teacher: firelight inside the dwelling \u2014 Eve mid-story with both hands shaping something in the air, four children cross-legged before her, the nearest boy's mouth open, every young gaze on her hands \u2014 the gospel passing to the second generation in the oldest classroom there is.",
+  "must_show": "Eve mid-story by firelight, hands shaping the air, rapt children before her",
+  "must_not_show": "faces to camera, scrolls, books, sadness",
+  "locks": [
+   "EVE"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 64.996,
+  "end": 72.547
+ },
+ {
+  "era": "ancient",
+  "scene": "The first baptism: Adam BURSTS up out of a clear river pool at dawn \u2014 caught at the exact instant of emerging, water sheeting off his head and beard, arms rising, face heavenward with closed eyes \u2014 alone in the water, carried there by a power the frame does not show. The pool's far bank is stone and young green; the light is first gold.",
+  "must_show": "Adam mid-burst from the river pool, water sheeting, face heavenward, alone in frame",
+  "must_not_show": "an officiator visible, swimmers' strokes, his eyes on the lens, cold colours",
+  "locks": [
+   "ADAM"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 72.547,
+  "end": 78.632
+ },
+ {
+  "era": "ancient",
+  "scene": "New: Adam stands waist-deep and still in the pool, streaming, his face carrying the unmistakable look of a man made new \u2014 and on the near bank Eve stands with both hands pressed over her mouth, joy running over. Both in profile, dawn gold on the water between them.",
+  "must_show": "Adam waist-deep made-new and Eve on the bank with hands over her mouth, joy, dawn water between",
+  "must_not_show": "faces to camera, towels, crowd, tears of grief",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 78.632,
+  "end": 82.688
+ },
+ {
+  "era": "modern",
+  "scene": "The same gospel, today: a river baptism in the present day \u2014 a man in white being lowered back toward the water by a baptizer's braced arms, both figures seen from behind and beside at a distance, a small family group watching from the grassy bank, morning light broad on the river. Faces away or in profile; timeless.",
+  "must_show": "a present-day river baptism from behind-beside, braced arms mid-lowering, small family watching from the bank",
+  "must_not_show": "faces to camera, church buildings, signage, brand marks",
+  "wide": true,
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 82.688,
+  "end": 97.231
+ },
+ {
+  "era": "ancient",
+  "scene": "The turn: the family camp at dusk \u2014 and at its edge, past the last tent, one cold unlit fire-ring of blackened stones where nobody sits, the warm lit fires and moving figures soft in the background. Something has started to pull at the edges \u2014 and the cold ring sits empty.",
+  "must_show": "a cold unlit fire-ring at the camp's dusk edge, warm living fires soft beyond",
+  "must_not_show": "any figure at the cold ring, smoke from it, faces readable",
+  "devil": true,
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 97.231,
+  "end": 102.739
+ },
+ {
+  "era": "ancient",
+  "scene": "The counterfeit sermon: night \u2014 a loose crowd of Adam's younger kin gathered at the camp's edge, every face lit faintly by the distant family fires BEHIND them while they stand turned the other way, listening intently toward the empty darkness beyond the camp \u2014 heads tilted, some nodding slowly, fascination dulling their faces. The darkness they attend to is EMPTY: open night, no speaker, no shape.",
+  "must_show": "a night crowd turned away from the warm fires, listening raptly toward empty open darkness",
+  "must_not_show": "ANY figure, silhouette or shape in the darkness they face; anyone facing the lens; torches among them",
+  "devil": true,
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 102.739,
+  "end": 106.598
+ },
+ {
+  "era": "ancient",
+  "scene": "Doubt as doctrine: one strong young man stands with his back deliberately turned to the distant altar hill \u2014 arms folded hard, jaw set, seen in profile against the morning light that still reaches him from the hill he refuses \u2014 the first posture of a very long tradition.",
+  "must_show": "a young man in profile, arms folded, back turned to the distant lit altar hill",
+  "must_not_show": "sneering, his eyes on the lens, weapons, darkness on him",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 106.598,
+  "end": 128.486
+ },
+ {
+  "era": "ancient",
+  "scene": "The imitation church: a big night feast-fire down in the valley \u2014 figures laughing too loudly around it, wine skins lifted, a whole roast dripping, someone dancing with a thrown-back head \u2014 appetite worshipped, seen from just outside the fire's ring so every face is toward the flames or each other, none toward the lens. Shot kept modest: revelry, not depravity.",
+  "must_show": "a loud firelit feast of appetite \u2014 lifted wine skins, dripping roast, thrown-back laughter \u2014 none facing the lens",
+  "must_not_show": "nudity, violence, anyone facing the lens, modern objects",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 128.486,
+  "end": 134.722
+ },
+ {
+  "era": "ancient",
+  "scene": "The split: at a fork in the camp trail at dusk, two grown brothers part \u2014 one walking up-trail toward the altar hill's evening light, one walking down toward the feast-fire's flicker in the valley \u2014 both seen from directly behind at the fork, their shoulders already a world apart. The camera stays low between the two paths.",
+  "must_show": "two brothers from behind parting at a fork \u2014 one toward the lit hill, one toward the valley fire-flicker",
+  "must_not_show": "faces or profiles, weapons, anyone else in frame",
+  "wide": true,
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 134.722,
+  "end": 139.825
+ },
+ {
+  "era": "ancient",
+  "scene": "The headline restated: the altar hill at full sunrise \u2014 the family gathered close around the burning offering, the smoke rising straight into a sky gone entirely gold, every figure from behind or profile in the half-circle \u2014 the first church on earth, complete and glorious and small against the enormous morning.",
+  "must_show": "the family half-circle around the burning altar under a full-gold sunrise, smoke straight up",
+  "must_not_show": "faces to camera, drawn rays, any darkness",
+  "wide": true,
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 139.825,
+  "end": 147.391
+ },
+ {
+  "era": "ancient",
+  "scene": "The next generation reaches: close \u2014 a baby in Eve's arms at the altar's edge, one tiny arm stretched out toward the bright smoke and morning light, Eve's cheek against the small head, both faces soft in profile.",
+  "must_show": "a baby in Eve's arms reaching one arm toward altar smoke and light, profiles",
+  "must_not_show": "faces to camera, distress, harsh light on the child",
+  "locks": [
+   "EVE"
+  ],
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 147.391,
+  "end": 153.581
+ },
+ {
+  "era": "modern",
+  "scene": "Your family's turn: a present-day family \u2014 parents and two kids \u2014 leans over open scriptures together at a kitchen table in warm evening lamplight, every face turned down toward the pages, a small child's finger on a line \u2014 seen from across the table at seated height. The same gospel, still arriving at tables.",
+  "must_show": "a modern family bent together over open scriptures in lamplight, a child's finger on the page",
+  "must_not_show": "readable text on the page, faces to camera, screens, brand marks",
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 153.581,
+  "end": 162.472
+ },
+ {
+  "era": "ancient",
+  "scene": "Peace over the first altar: the hilltop at early light, empty again \u2014 the stones dark with old fire, a pair of doves lifting off into the brightening sky, mist thinning in the valley below. What began here has never stopped.",
+  "must_show": "the empty ancient altar at early light with two doves lifting into the sky",
+  "must_not_show": "people, fire burning, drawn rays, text",
+  "id": "p20",
+  "out": "p20.jpeg",
+  "start": 162.472,
+  "end": 166.282
+ }
+]

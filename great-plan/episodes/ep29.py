@@ -26,9 +26,9 @@ SEGMENTS = [
      "cannot break up. This episode is about the visitors who brought "
      "the rest."),
     ("n2", NARRATOR,
-     "April sixth, eighteen thirty. In a log farmhouse in Fayette, New "
-     "York, the Church of Christ was formally organized on the earth "
-     "again — same name, same offices, same authority as Galilee."),
+     "April sixth, eighteen thirty. In a Fayette, New York farmhouse, "
+     "the church the devil had taken off the earth stood on it again — "
+     "same name, same offices, same authority as Galilee."),
     ("n3", NARRATOR,
      "Six years later, the young church finished its first temple at "
      "Kirtland, Ohio — built at crushing sacrifice. The women crushed "
@@ -49,13 +49,13 @@ SEGMENTS = [
      "the sun; and his voice was as the sound of the rushing of great "
      "waters, even the voice of Jehovah."),
     ("n6", NARRATOR,
-     "Then, one after another, the department heads returned with "
-     "their portfolios. Moses — the same Moses — committed the keys of "
-     "the gathering of Israel."),
+     "Then, one by one, the last holders brought the keys home. Moses "
+     "— the same Moses — committed the keys of the gathering of "
+     "Israel."),
     ("n7", NARRATOR,
-     "Then Elias, committing the dispensation of the gospel of Abraham "
-     "— the covenant of the tent, folded whole into the restored "
-     "church."),
+     "Then Elias, restoring Abraham's covenant — the promise that "
+     "every family on earth could be blessed, folded whole into the "
+     "church again."),
     ("n8", NARRATOR,
      "And last, the visitor Malachi had promised in the closing words "
      "of the Old Testament — the last prophecy most Bibles print:"),

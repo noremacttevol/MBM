@@ -25,8 +25,8 @@ SEGMENTS = [
      "Thirty-two episodes ago, two speeches collided in a council "
      "before the world. This is how it ends — and where you come in."),
     ("n2", NARRATOR,
-     "The Son is coming back. Not as a baby this time — as the King. "
-     "And every eye will see it."),
+     "The Son returns — the King this time, not the baby. The war ends "
+     "in public. Every eye will see it."),
     ("s1", SCRIPTURE,
      "That at the name of Jesus every knee should bow, of things in "
      "heaven, and things in earth, and things under the earth; and "

@@ -1,0 +1,176 @@
+[
+ {
+  "era": "old-world",
+  "scene": "Drift, made visible: a mason's plumb line hangs dead straight in the foreground \u2014 and behind it, sharp enough to judge, a stone wall leans visibly out of true, its courses wandering from the line's verdict. Close, quiet, damning. No people.",
+  "must_show": "a dead-straight plumb line against a visibly leaning stone wall",
+  "must_not_show": "collapse, ruins, people, text",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 10.049
+ },
+ {
+  "era": "old-world",
+  "scene": "Their best, without keys: a young earnest presbyter teaches a packed plain room of villagers by window light \u2014 his hands open mid-explanation, faces attentive on benches, a child on a mother's knee \u2014 sincerity filling every corner of a room that revelation has quietly left. Warm, honest, human.",
+  "must_show": "an earnest young teacher mid-explanation to attentive villagers in a plain bright room",
+  "must_not_show": "vestments rich, mockery, faces to camera",
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 10.049,
+  "end": 20.113
+ },
+ {
+  "era": "old-world",
+  "scene": "What baptism became: at a small carved stone font, an elderly priest tips a shell of water over a swaddled infant's brow \u2014 three drops catching the window light mid-fall \u2014 the parents close and anxious, everyone's gaze on the tiny face. Tender, sincere, and a world away from a river.",
+  "must_show": "three drops falling from a shell onto a swaddled infant at a stone font, anxious tender parents",
+  "must_not_show": "crying theatrics, mockery, faces to camera",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 20.113,
+  "end": 29.593
+ },
+ {
+  "era": "first-century",
+  "scene": "What baptism was \u2014 UPRIGHT VERTICAL FRAME, horizon level and LOW across the frame's lower third: the composition is anchored on the BAPTIZER STANDING FULL-HEIGHT mid-river, filling the frame's vertical, his braced arms angling DOWN toward the frame's bottom corner where the believer arcs backward into the closing water \u2014 green banks and standing witnesses rising behind the baptizer's shoulders into the frame's top. The whole-body covenant the font forgot.",
+  "must_show": "a grown believer being fully lowered backward into river water by braced arms, witnesses around",
+  "must_not_show": "faces to camera, crowds modern, doves",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 29.593,
+  "end": 39.071
+ },
+ {
+  "era": "old-world",
+  "scene": "Authority, purchased: across a polished table in lamplight, a heavy purse of coins slides from one ringed hand toward another hand that rests beside a bishop's seal and staff of office \u2014 the exchange caught mid-slide, faces out of frame, the transaction the entire subject.",
+  "must_show": "a coin purse mid-slide across a table toward a hand by a bishop's seal and staff, faces out of frame",
+  "must_not_show": "faces, documents readable, church interior grand",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 39.071,
+  "end": 46.387
+ },
+ {
+  "era": "old-world",
+  "scene": "Titles, assumed: a new bishop is seated on a high carved chair by court officials in fine robes \u2014 one adjusts the vestment on his shoulders, another presents the staff \u2014 PLENTY of ceremony and not one kneeling ordination, not one hand laid on his head. Seen from the hall floor below the dais; every face on the pageant.",
+  "must_show": "officials seating and robing a new bishop with pageantry \u2014 no hands laid on his head anywhere",
+  "must_not_show": "an actual ordination, mockery, faces to camera",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 46.387,
+  "end": 53.703
+ },
+ {
+  "era": "old-world",
+  "scene": "God, by committee: a great council hall mid-vote \u2014 rows of robed churchmen with hands raised, clerks counting, and above them in a gilded box an emperor leaning forward impatiently with his chin on his fist \u2014 the divine nature waiting on the tally. Seen from behind the last row of raised arms.",
+  "must_show": "a hall of raised voting hands with clerks counting under an impatient emperor's gilded box",
+  "must_not_show": "faces to camera, violence, readable documents",
+  "wide": true,
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 53.703,
+  "end": 63.733
+ },
+ {
+  "era": "old-world",
+  "scene": "The covering: two workmen on scaffolding spread fresh plaster over an old wall-painting of a shepherd carrying a lamb \u2014 the warm simple fresco half-vanished under their sweeping trowels, only the lamb and the carrying arms still showing \u2014 while below, a geometric gold mosaic pattern waits stacked in trays to replace it. Nobody is angry; that is the horror.",
+  "must_show": "workmen's trowels half-covering a warm shepherd-and-lamb fresco, gold geometric mosaic trays waiting below",
+  "must_not_show": "faces to camera, smashing, torches, mockery",
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 63.733,
+  "end": 70.419
+ },
+ {
+  "era": "ancient",
+  "scene": "Isaiah, seven centuries early: the prophet at his table by lamplight, pen stopped, his face turned toward the dark window as if watching the far future do exactly what he is writing \u2014 grief and certainty in the same lined features, the scroll's words soft and unreadable.",
+  "must_show": "Isaiah's pen stopped, face turned to the dark window in grieving certainty, unreadable scroll",
+  "must_not_show": "readable words, his eyes on the lens, visions shown",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 70.419,
+  "end": 93.158
+ },
+ {
+  "era": "old-world",
+  "scene": "A form of godliness: a magnificent vestment displayed on a wooden stand in a dim sacristy \u2014 gold-threaded cope, jewelled mitre above it, gloves pinned at the sleeves \u2014 lamplight loving every thread, and NOBODY INSIDE IT: the shape of a shepherd, standing empty. Nothing else in frame.",
+  "must_show": "a jewelled empty vestment and mitre on a stand in lamplight, nobody inside it",
+  "must_not_show": "a person wearing it, mockery, decay",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 93.158,
+  "end": 99.511
+ },
+ {
+  "era": "old-world",
+  "scene": "The renovation: inside a church, scaffolding surrounds the chancel where workmen hoist a towering gilded altarpiece into place \u2014 and in the near foreground, carried out feet-first by two laborers, the original: a plain wooden table, small enough for a family meal, its surface worn by decades of simple bread. The trade, in one frame.",
+  "must_show": "a gilded altarpiece being hoisted behind while a plain worn wooden table is carried out feet-first in front",
+  "must_not_show": "faces to camera, destruction, mockery",
+  "wide": true,
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 99.511,
+  "end": 121.8
+ },
+ {
+  "era": "old-world",
+  "scene": "The sincere, honored: a village priest kneels alone at night before his little chapel's plain altar \u2014 patched cassock, work-rough hands clasped, head bowed in completely honest prayer, one candle. God hears this man. The warm light on his clasped hands says so.",
+  "must_show": "a patched-cassock priest kneeling alone in honest candlelit prayer, warm light on his hands",
+  "must_not_show": "his eyes to the lens, wealth, irony of any kind",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 121.8,
+  "end": 131.184
+ },
+ {
+  "era": "old-world",
+  "scene": "God loves them: candlelit faces of ordinary worshippers in the pews \u2014 an old woman's moving lips, a laborer's bowed head, a girl holding her mother's arm \u2014 devotion utterly real in every face, painted warm by the candle each holds. The famine's saints again, one era earlier.",
+  "must_show": "candlelit rows of sincere worshipping faces, each warm over their own flame",
+  "must_not_show": "faces to camera, gloom, caricature",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 131.184,
+  "end": 140.568
+ },
+ {
+  "era": "old-world",
+  "scene": "Churches ABOUT him: a city skyline at dusk crowded with differing spires and bell-towers \u2014 a dozen silhouettes of a dozen architectures against the amber sky, each one sincere, each one different, none of them the organization heaven drew. Beautiful and scattered.",
+  "must_show": "a dusk skyline of many differing sincere spires and towers",
+  "must_not_show": "modern buildings, signage, mockery",
+  "wide": true,
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 140.568,
+  "end": 155.921
+ },
+ {
+  "era": "old-world",
+  "scene": "Reformation's limit: a locksmith's workbench in window light \u2014 a great broken lock, disassembled, its plates polished bright and every part laid out with obvious care and skill \u2014 and NO KEY anywhere on the bench. The workman's honest tools can mend the case. They cannot cut what was never left behind.",
+  "must_show": "a broken lock lovingly disassembled and polished on a bench with NO key anywhere",
+  "must_not_show": "a key present, rust, hands, text",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 155.921,
+  "end": 163.837
+ },
+ {
+  "era": "america-1820",
+  "scene": "Where the answer is buried: the wooded drumlin hill once more \u2014 SPRING now, new green over its slopes at first light, mist in the young orchards below \u2014 the same waiting hill, one era closer to its morning. No people, no marks.",
+  "must_show": "the drumlin hill in new spring green at first light, mist below, unmarked",
+  "must_not_show": "figures, paths, monuments, text",
+  "wide": true,
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 163.837,
+  "end": 168.587
+ },
+ {
+  "era": "old-world",
+  "scene": "The bookend: the plumb line again \u2014 hanging beside a NEW wall this time, whose fresh courses run perfectly true to the string, morning light raking the honest joints. Somebody, somewhere, is going to build it straight again. Close, quiet, promised.",
+  "must_show": "the plumb line against a new perfectly true wall in raking morning light",
+  "must_not_show": "people, trowels, text",
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 168.587,
+  "end": 171.753
+ }
+]

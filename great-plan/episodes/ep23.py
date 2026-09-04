@@ -21,8 +21,8 @@ META = "Amos 8 · 1 Nephi 13"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "Seven hundred years before Christ, the prophet Amos saw our chapter "
-     "of the story coming — and he called it a famine."),
+     "Seven hundred years before Christ, God showed the prophet Amos "
+     "the devil's next move — and Amos called it a famine."),
     ("s1", SCRIPTURE,
      "Behold, the days come, saith the Lord God, that I will send a famine "
      "in the land, not a famine of bread, nor a thirst for water, but of "
@@ -30,33 +30,33 @@ SEGMENTS = [
      "and from the north even to the east, they shall run to and fro to "
      "seek the word of the Lord, and shall not find it."),
     ("n2", NARRATOR,
-     "Not a famine of bread. A famine of hearing. This is what the world "
-     "looks like after the last apostle dies."),
+     "Not a famine of bread. A famine of hearing. That was the devil's "
+     "aim — you cannot choose what you cannot hear."),
     ("n3", NARRATOR,
-     "The men who held the keys were hunted down, one by one. And when the "
-     "last of them was gone, no one on earth had the authority to ordain "
-     "what came next."),
+     "The devil's weapon was death — hunt down the men who held the "
+     "keys, one by one. When the last was gone, no one on earth had "
+     "authority to ordain what came next."),
     ("n4", NARRATOR,
-     "So the drift began. Slow. Sincere. Fatal. Baptism changed shape. "
-     "Authority was assumed instead of conferred. Councils met and voted on "
-     "what God is — until the Father and the Son became a formless mystery "
-     "no child could recognize as anyone's Father."),
+     "So the drift began — slow, sincere, fatal. Baptism changed shape. "
+     "Authority was assumed, not conferred. Councils voted on what God "
+     "is — and the devil got his prize: a Father turned formless "
+     "mystery that no child could run to."),
     ("n5", NARRATOR,
-     "Then the doors were declared shut. Revelation — finished. The heavens "
-     "— closed. As if the God who had spoken in every generation since Adam "
-     "had simply run out of things to say."),
+     "Then the masterstroke: declare the doors shut. Revelation — "
+     "finished. The heavens — closed. Because once no one may ask God "
+     "anything, no one can ever check what got changed."),
     ("n6", NARRATOR,
-     "And the book that remained — true, and precious, and carried through "
-     "the centuries by brave and faithful hands — did not come through "
-     "whole."),
+     "And the book that remained — true, precious, carried by brave "
+     "faithful hands — had passed through enemy-held centuries. It did "
+     "not come through whole."),
     ("s2", SCRIPTURE,
      "They have taken away from the gospel of the Lamb many parts which are "
      "plain and most precious; and also many covenants of the Lord have "
      "they taken away."),
     ("n7", NARRATOR,
-     "Without the plain parts, whole doctrines collapsed in the dark. "
-     "Infants were pronounced guilty. Grace and works went to war. And "
-     "asking God a direct question began to sound like madness."),
+     "That theft had a purpose. Rob the plain parts, and people must "
+     "guess in the dark. Infants pronounced guilty. Grace and works at "
+     "war. Asking God directly now sounded like madness."),
     ("n8", NARRATOR,
      "Now hear what the famine was not. It was not God abandoning His "
      "children. Men with agency killed the messengers. Men with power "
@@ -74,9 +74,9 @@ SEGMENTS = [
      "hemisphere, a buried book was waiting. And heaven was watching a "
      "calendar."),
     ("n11", NARRATOR,
-     "So the next time someone tells you the heavens are closed, remember "
-     "what that idea really is. It is not a comfort. It is a famine. And "
-     "famines end when God sends bread."),
+     "So when someone tells you the heavens are closed, ask whose idea "
+     "that was first. It is not a comfort. It is the famine talking. "
+     "And famines end when God sends bread."),
 ]
 
 CARD_SEG = ("card", NARRATOR,

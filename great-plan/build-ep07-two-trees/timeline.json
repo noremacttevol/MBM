@@ -3,7 +3,7 @@
   {
    "seg": "n1",
    "speaker": "narrator",
-   "text": "A garden. Two trees. And the whole plan balanced between them. Eden was not a paradise for lounging. It was the first classroom \u2014 and the lesson was choice.",
+   "text": "A garden. Two trees. The war over freedom, now on earth. Eden was not a paradise for lounging. It was the first classroom \u2014 and the lesson was choice.",
    "seg_start": 0.0,
    "audio_start": 0.28,
    "spoken_end": 9.276,
@@ -121,7 +121,7 @@
  "card": {
   "seg": "card",
   "speaker": "narrator",
-  "text": "Eden was not the day it all went wrong. It was the day it all began.",
+  "text": "The devil sprang the plan he meant to wreck. Eden was the day it all began.",
   "seg_start": 169.729,
   "audio_start": 170.009,
   "seg_dur": 6.325

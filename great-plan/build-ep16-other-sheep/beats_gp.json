@@ -1,0 +1,205 @@
+[
+ {
+  "era": "ancient",
+  "scene": "Jerusalem at dusk, six centuries before Christ: the walled city on its ridges under a bruised gold sky \u2014 the temple court's lamps beginning to burn, smoke of evening fires, the Kidron valley falling into shadow below the walls. Beautiful, doomed, unaware. No close figures.",
+  "must_show": "walled Jerusalem on its ridges at bruised-gold dusk, temple lamps beginning",
+  "must_not_show": "modern skyline, banners, armies, text",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 8.548
+ },
+ {
+  "era": "ancient",
+  "scene": "The unwanted warning: Lehi stands on the steps inside a city gate, one arm raised mid-warning \u2014 and the market crowd turns on him: fists clenched, faces twisted with anger, one man stooping for a stone, two elders turning their backs \u2014 every hostile face aimed at the prophet, none at the camera, which shoots past the crowd's shoulders.",
+  "must_show": "Lehi mid-warning on the gate steps, a turning hostile crowd \u2014 clenched fists, one man stooping for a stone",
+  "must_not_show": "stones thrown, blood, faces to camera",
+  "wide": true,
+  "locks": [
+   "LEHI"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 8.548,
+  "end": 21.459
+ },
+ {
+  "era": "ancient",
+  "scene": "Everything, left: the family caravan leaves at first light \u2014 laden camels, sons driving pack animals, a wife wrapped against the dawn cold \u2014 all seen from behind as the road bends away from the city walls into the wilderness hills, nobody looking back but one youngest son, whose head is half-turned toward home.",
+  "must_show": "a family caravan from behind leaving city walls into dawn hills, one boy's head half-turned back",
+  "must_not_show": "faces to camera, soldiers pursuing, tears shown",
+  "wide": true,
+  "locks": [
+   "LEHI"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 21.459,
+  "end": 27.089
+ },
+ {
+  "era": "ancient",
+  "scene": "The crossing: a hand-built wooden ship \u2014 curved timbers, single broad sail \u2014 running before the wind on a vast open ocean, spray off the bow, tiny figures working the deck, no land in any direction. Eight years of desert behind them; half a planet of water ahead.",
+  "must_show": "a hand-built single-sail wooden ship running on open ocean, tiny deck figures, no land",
+  "must_not_show": "modern rigging, other ships, storms, faces",
+  "wide": true,
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 27.089,
+  "end": 30.467
+ },
+ {
+  "era": "ancient",
+  "scene": "Landfall: the family kneels on a green new-world shore just above the tide line \u2014 a dozen figures from behind, heads bowed toward the forested hills of the promised land, the beached ship's prow at the frame's edge, morning light running down the water behind them.",
+  "must_show": "a family kneeling from behind on a green new-world shore, ship's prow at the edge, morning light",
+  "must_not_show": "faces to camera, buildings, natives, banners",
+  "wide": true,
+  "locks": [
+   "LEHI"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 30.467,
+  "end": 32.719
+ },
+ {
+  "era": "ancient",
+  "scene": "The spare copy begins: by lamplight, strong young hands engrave characters onto a thin metal plate with a bronze stylus \u2014 the finished plates stacked and bound with rings beside the work, the strokes fine and completely unreadable, the lamp flame steady. A record the corrupters will never touch.",
+  "must_show": "hands engraving an unreadable metal plate by lamplight, ring-bound stack beside",
+  "must_not_show": "readable characters, faces, gold treasure look",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 32.719,
+  "end": 48.894
+ },
+ {
+  "era": "ancient",
+  "scene": "Two witnesses: on a plain wooden table, side by side in raking lamplight \u2014 a worn leather scroll-roll, cracked and beloved, and a stack of thin bound metal plates, gleaming quietly \u2014 two records, two roads through history, one testimony. Nothing else in frame; all writing soft and unreadable.",
+  "must_show": "a worn scroll and a bound metal-plate stack side by side in raking lamplight",
+  "must_not_show": "readable text, hands, jewels, coins",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 48.894,
+  "end": 56.717
+ },
+ {
+  "era": "ancient",
+  "scene": "Prophet to prophet: two pairs of hands in warm light \u2014 an aged spotted pair passing the ring-bound plates DOWN into a younger steadier pair rising to receive them \u2014 the exchange caught at the moment both pairs hold the record together. The relay, in metal.",
+  "must_show": "old hands passing ring-bound plates into young hands, both holding at the exchange moment",
+  "must_not_show": "faces, readable text, ceremony crowds",
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 56.717,
+  "end": 73.806
+ },
+ {
+  "era": "ancient",
+  "scene": "A thousand years in one man: an aged warrior-historian seated at a camp table by night \u2014 battle-scarred armor still on his shoulders, white beard over the breastplate \u2014 engraving steadily onto a plate while watch-fires burn soft in the dark behind him. A general, saving the story while the world falls.",
+  "must_show": "an old armored historian engraving plates by night camp firelight",
+  "must_not_show": "readable text, battle in progress, his eyes on lens",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 73.806,
+  "end": 86.385
+ },
+ {
+  "era": "ancient",
+  "scene": "We talk of Christ, centuries early: a new-world family at evening lamp \u2014 the father's hand lifted mid-teaching toward the small carved wooden likeness of nothing at all \u2014 pointing UPWARD, open-palmed \u2014 the mother with the youngest on her lap, three children rapt, every face on the father or the upward hand. Believers in a Christ still six centuries away.",
+  "must_show": "a lamplit new-world family, father's open hand lifted upward mid-teaching, children rapt",
+  "must_not_show": "idols, readable text, faces to camera",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 86.385,
+  "end": 99.41
+ },
+ {
+  "era": "ancient",
+  "scene": "No hemisphere left out: a new-world temple at dawn \u2014 clean-lined stone terraces rising from jungle-green hills, morning smoke of offerings, white-clad figures small on its stairs \u2014 the same worship, an ocean away from Jerusalem. Distinct architecture: stepped stone, not Judean.",
+  "must_show": "a stepped new-world stone temple at dawn with small white-clad figures and offering smoke",
+  "must_not_show": "Old-world architecture, idols, crowds close, text",
+  "wide": true,
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 99.41,
+  "end": 111.638
+ },
+ {
+  "era": "first-century",
+  "scene": "One sentence they did not understand: Jesus teaching in a Jerusalem courtyard \u2014 seated among listeners on low steps, mid-word, his hand open toward them \u2014 faces puzzled at something just said, an elder frowning, a young man leaning forward \u2014 every face on the teacher, none on the camera.",
+  "must_show": "Jesus teaching on courtyard steps, open hand, puzzled leaning listeners",
+  "must_not_show": "faces to camera, halo, scrolls readable",
+  "jesus": true,
+  "ref": true,
+  "wide": true,
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 111.638,
+  "end": 117.507
+ },
+ {
+  "era": "first-century",
+  "scene": "Other sheep I have: Jesus's face close in three-quarter \u2014 the gaze gone long and warm past the camera's left, over the heads of his hearers, over the sea, to a people no one else in the courtyard can see \u2014 the look of a shepherd counting sheep beyond the horizon.",
+  "must_show": "Jesus's close three-quarter face with a long warm gaze past the lens toward something far beyond",
+  "must_not_show": "his eyes on the lens, halo, sadness, crowd sharp",
+  "jesus": true,
+  "ref": true,
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 117.507,
+  "end": 127.155
+ },
+ {
+  "era": "ancient",
+  "scene": "The promise, waiting: from a new-world headland, the open ocean at dawn \u2014 the water's horizon clean and empty, light building behind far clouds, surf patient on the rocks below. The direction the Shepherd will come from. No figures.",
+  "must_show": "an empty dawn ocean horizon from a green new-world headland, building light",
+  "must_not_show": "ships, figures, birds in flocks, text",
+  "wide": true,
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 127.155,
+  "end": 136.464
+ },
+ {
+  "era": "modern",
+  "scene": "The forgotten branch: in the present day, far out on dark evening plains, one small white chapel with its windows lit \u2014 a single warm point in an immensity of dusk grass and sky, one pickup truck parked outside. Off every main road. Fully remembered.",
+  "must_show": "one small lit chapel alone on vast dusk plains, single truck outside",
+  "must_not_show": "signage readable, crowds, storm, brand marks",
+  "wide": true,
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 136.464,
+  "end": 147.048
+ },
+ {
+  "era": "modern",
+  "scene": "He writes to them: close on weathered working hands holding a small thick well-used book open on a kitchen table \u2014 cover plain and unreadable, pages soft-edged with years, morning light across the hands and paper. A letter from God to people off the main road.",
+  "must_show": "weathered hands holding a small thick worn book open in morning light, all print unreadable",
+  "must_not_show": "readable title or text, faces, jewellery",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 147.048,
+  "end": 155.708
+ },
+ {
+  "era": "ancient",
+  "scene": "The spare, planted: strong hands lower the ring-bound plate stack into a stone box set in dark hillside earth \u2014 the box's fitted lid leaning ready, tree roots at the cut's edge, the metal catching one last gleam of grey daylight before the ground closes over it. Buried mail, addressed four centuries ahead.",
+  "must_show": "hands lowering bound plates into a fitted stone box in hillside earth, lid ready",
+  "must_not_show": "faces, treasure hoard look, readable text",
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 155.708,
+  "end": 161.503
+ },
+ {
+  "era": "america-1820",
+  "scene": "The hill keeps the secret: the wooded drumlin hill at sunset \u2014 the same quiet hill the famine episode ended on \u2014 its canopy gone amber, the young world's evening settling over the buried witness. Patience, again. No people.",
+  "must_show": "the wooded drumlin hill in amber sunset, quiet and unmarked",
+  "must_not_show": "figures, monuments, paths, text",
+  "wide": true,
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 161.503,
+  "end": 163.986
+ }
+]

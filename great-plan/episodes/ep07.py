@@ -22,9 +22,9 @@ META = "Moses 3-4 · 2 Nephi 2"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "A garden. Two trees. And the whole plan balanced between them. Eden "
-     "was not a paradise for lounging. It was the first classroom — and "
-     "the lesson was choice."),
+     "A garden. Two trees. The war over freedom, now on earth. Eden was "
+     "not a paradise for lounging. It was the first classroom — and the "
+     "lesson was choice."),
     ("n2", NARRATOR,
      "God planted the garden eastward in Eden, and put the man and the "
      "woman in it. Innocent. Deathless. Safe. And — read it carefully — "
@@ -81,8 +81,8 @@ SEGMENTS = [
 ]
 
 CARD_SEG = ("card", NARRATOR,
-            "Eden was not the day it all went wrong. It was the day it "
-            "all began.")
+            "The devil sprang the plan he meant to wreck. Eden was the "
+            "day it all began.")
 
 CARD_TEXT = ("The day it all began.\n"
              "\n"

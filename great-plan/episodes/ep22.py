@@ -20,28 +20,29 @@ META = "Isaiah 24 · 2 Timothy 3"
 SEGMENTS = [
     ("n1", NARRATOR,
      "Nobody voted to end the church of Jesus Christ. It drifted — one "
-     "sincere renovation at a time. This is how you lose a church "
-     "without anyone noticing."),
+     "sincere renovation at a time. The devil's quietest move: a "
+     "church lost without anyone noticing."),
     ("n2", NARRATOR,
      "With the apostles gone, the local shepherds did their best. But "
      "their best now had no revelation behind it — and the culture "
      "around them had opinions."),
     ("n3", NARRATOR,
      "Baptism changed first. Immersion — the burial and rebirth Jesus "
-     "himself walked into the Jordan for — shrank to a sprinkle. And "
-     "infants replaced believers at the font, chased there by a new "
-     "doctrine of inherited guilt. You already know, from episode "
-     "eight, what God thinks of that doctrine."),
+     "chose in the Jordan — shrank to a sprinkle. And infants "
+     "replaced believers at the font, driven there by inherited "
+     "guilt — a baptism nobody chooses, for a sin nobody committed. "
+     "Episode eight told you what God thinks of that."),
     ("n4", NARRATOR,
      "Authority changed next. Offices Christ had filled by revelation "
      "began to be filled by election, by purchase, by politics. Men "
      "assumed the titles. But nobody left on earth could confer the "
      "keys."),
     ("n5", NARRATOR,
-     "And then the very nature of God went to committee. Councils met — "
-     "good men, many of them, doing philosophy under an emperor's "
-     "impatience — and voted the Father and the Son into a formless "
-     "abstraction no child could recognize as the Persons Stephen saw."),
+     "Then God's very nature went to committee. Councils of good men, "
+     "doing philosophy under an emperor's impatience, voted the "
+     "Father and Son into an abstraction no child could recognize — "
+     "and you cannot freely choose a Father you cannot know. Stephen "
+     "SAW them."),
     ("s1", SCRIPTURE,
      "The earth also is defiled under the inhabitants thereof; because "
      "they have transgressed the laws, changed the ordinance, broken "

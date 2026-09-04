@@ -1,0 +1,216 @@
+[
+ {
+  "era": "heaven",
+  "scene": "The threshold of forgetting: a lone white-robed spirit stands seen from directly behind before an immense soft WALL OF WHITE MIST that fills the frame's whole far half \u2014 featureless, gently moving, lit from within by warm light, hiding everything beyond it. The luminous court stone runs to the mist's edge. The figure's hands hang open at their sides: about to walk through.",
+  "must_show": "a spirit from directly behind facing an immense soft glowing-from-within wall of white mist across the frame",
+  "must_not_show": "the figure's face, shapes inside the mist, doors, text",
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 14.361
+ },
+ {
+  "era": "heaven",
+  "scene": "The memory closing: an extreme close of a young spirit's face in the warm light, eyes CLOSING \u2014 lashes just meeting \u2014 with perfect trust in the features, like a child agreeing to sleep. Soft white mist begins to cross the frame's edges.",
+  "must_show": "a serene close face with eyes just closing in warm light, mist entering the frame edges",
+  "must_not_show": "fear, tears, eyes open to the lens, halo",
+  "locks": [
+   "HOSTS"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 14.361,
+  "end": 24.693
+ },
+ {
+  "era": "heaven",
+  "scene": "Why He must hide: a man shields his whole face with a raised forearm against a brilliance that fills the frame's left \u2014 seen from behind his right shoulder, his body turned away, unable to stand square to what he plainly cannot disobey. The brilliance is pure white environmental light with no figure in it.",
+  "must_show": "a man from behind-shoulder shielding his face and turning from an overwhelming brilliance filling the left frame",
+  "must_not_show": "any figure inside the light, his face visible, drawn rays",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 24.693,
+  "end": 34.906
+ },
+ {
+  "era": "ancient",
+  "scene": "Choosing in the dark: at full night a traveller stands at a fork in a forest path holding a small clay oil lamp \u2014 its little pool of warm light reaching only a few steps down either way, the trees black beyond \u2014 seen from behind at lamp height, the choice lit exactly as far as faith reaches.",
+  "must_show": "a traveller from behind at a night path fork, a clay lamp's small pool of light on both openings",
+  "must_not_show": "his face, torches blazing, moonbeams, any figure ahead",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 34.906,
+  "end": 45.611
+ },
+ {
+  "era": "ancient",
+  "scene": "Walking by faith, literally: bare weathered feet mid-step on wet stepping stones crossing dark night water, the small warm edge of lamplight from out of frame catching just the next stone and no further \u2014 extreme close at ground level, the far bank invisible.",
+  "must_show": "bare feet mid-step on lamplit stepping stones over dark water, next stone barely lit",
+  "must_not_show": "faces, the far bank visible, moon reflections, text",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 45.611,
+  "end": 49.009
+ },
+ {
+  "era": "ancient",
+  "scene": "The trial before the witness: a climber's chalkless bare hand gripping a cold rock edge in blue pre-dawn dark, forearm taut, breath-fog crossing the frame \u2014 and high above, out of focus at the frame's top, the first faint warm light touching the summit he cannot yet see. Close on the grip.",
+  "must_show": "a bare straining hand gripping dark rock at pre-dawn, faint summit warmth far above out of focus",
+  "must_not_show": "faces, ropes and gear prominent, daylight, text",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 49.009,
+  "end": 58.89
+ },
+ {
+  "era": "ancient",
+  "scene": "The thin veil: an autumn field at early morning under soft fog \u2014 and behind the fog, the sun standing as a gentle white-gold disc, its warmth plainly FELT through the veil that hides its edge \u2014 long grass beaded wet, one row of trees ghosted in the brightness. Presence, through thinness. No people.",
+  "must_show": "a soft fogged field with the sun a warm disc plainly felt behind the veil, beaded grass",
+  "must_not_show": "harsh rays, figures, buildings, text",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 58.89,
+  "end": 69.503
+ },
+ {
+  "era": "ancient",
+  "scene": "The stakes: at dusk on a ridgeline, a small ancient funeral procession crosses in silhouette-soft profile \u2014 six bearers with a wrapped bier on their shoulders, mourners behind, all in dignified dark shapes against the last amber sky, far enough that no face reads. Quiet, universal, true.",
+  "must_show": "a small distant funeral procession in profile on a dusk ridge, bearers and bier against amber sky",
+  "must_not_show": "faces readable, wailing gestures, graves, text",
+  "wide": true,
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 69.503,
+  "end": 81.248
+ },
+ {
+  "era": "heaven",
+  "scene": "Already signed: in the council court's brightest light the Son stands calm with his right hand raised to the square \u2014 the ancient gesture of covenant \u2014 his face in steady three-quarter aimed past the camera's left toward the unseen Father, cream robe still, the hosts a soft warm blur beyond. A promise being made before the world.",
+  "must_show": "Jesus with right hand raised to the square in covenant, steady three-quarter gaze past the lens, hosts blurred beyond",
+  "must_not_show": "his eyes on the lens, halo, documents, anyone else sharp",
+  "jesus": true,
+  "ref": true,
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 81.248,
+  "end": 90.94
+ },
+ {
+  "era": "ancient",
+  "scene": "The Lamb: a shepherd carries a pure white lamb across his shoulders at first light, both hands holding its legs steady at his chest, walking a stony path toward the sunrise \u2014 seen from the side in warm profile, the lamb calm, the man's stride sure. Foreshadowing carried gently.",
+  "must_show": "a shepherd in profile carrying a calm white lamb on his shoulders toward sunrise",
+  "must_not_show": "blood, altars, distress in the lamb, faces to camera",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 90.94,
+  "end": 94.689
+ },
+ {
+  "era": "heaven",
+  "scene": "Foreordained: the Son's face close in the court's warm light \u2014 utterly calm, the resolve of someone volunteering for a price fixed before time, his gaze level past the camera's right shoulder into the depth where the world will be. Peace with iron under it.",
+  "must_show": "Jesus's close calm face, covenant resolve, level gaze past the lens",
+  "must_not_show": "his eyes on the lens, tears, halo, grimness",
+  "jesus": true,
+  "ref": true,
+  "locks": [
+   "COURT"
+  ],
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 94.689,
+  "end": 106.793
+ },
+ {
+  "era": "ancient",
+  "scene": "The load-bearing beam: ancient builders lower a massive carved KEYSTONE into the crown of a stone arch \u2014 two men guiding it by rope from above, one steadying from the scaffold, the stone caught mid-descent a hand's width from its seat \u2014 every eye on the stone, the arch's two halves waiting to become one strength. Golden work-light.",
+  "must_show": "a keystone caught mid-lowering into a waiting arch, ropes taut, every eye on the stone",
+  "must_not_show": "faces to camera, cranes, iron machinery, text",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 106.793,
+  "end": 116.43
+ },
+ {
+  "era": "ancient",
+  "scene": "The blueprint holds: the finished arch standing under full load \u2014 a laden cart passing beneath it, children running through, the keystone tight in its crown \u2014 seen from low and beside so the whole curve reads at once in morning light. What was planned first, carries everything.",
+  "must_show": "a finished stone arch carrying traffic beneath it, keystone visible in the crown, low side view",
+  "must_not_show": "cracks, scaffolding remaining, faces to camera",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 116.43,
+  "end": 124.315
+ },
+ {
+  "era": "ancient",
+  "scene": "The promised catch: a laughing child leaps from a low courtyard wall into a father's already-open arms \u2014 caught at the top of the arc, mid-air, arms out, the father's braced stance and rising hands under him, both faces in profile \u2014 total trust, zero doubt about the landing. Golden late light.",
+  "must_show": "a child mid-air leaping from a wall into a father's waiting braced arms, both profiles, joy",
+  "must_not_show": "fear on either face, faces to camera, hard shadows",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 124.315,
+  "end": 133.842
+ },
+ {
+  "era": "ancient",
+  "scene": "The unseen hand on the rail: narrow stone steps cut down a cliff face at night, a taut rope rail running down them, and a cloaked traveller descending with one hand firm on the rope \u2014 seen from behind and above so the rope's line leads the eye down into the dark where the steps vanish. The rope holds; the bottom is not visible.",
+  "must_show": "a traveller from behind descending night cliff steps, one hand firm on a taut rope rail vanishing into dark",
+  "must_not_show": "his face, torches, the bottom visible, any figure below",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 133.842,
+  "end": 141.081
+ },
+ {
+  "era": "ancient",
+  "scene": "The way down was safe: dawn at the cliff's foot \u2014 the same traveller now small in the frame, stepping off the last stair into a wide valley washed in first light, the rope rail slack behind him, the night above and behind. Arrival, intact.",
+  "must_show": "the traveller small at the stair's foot stepping into a dawn-washed valley, rope rail behind",
+  "must_not_show": "his face, other people, drawn rays",
+  "wide": true,
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 141.081,
+  "end": 147.003
+ },
+ {
+  "era": "heaven",
+  "scene": "The shout, remembered: one young face in the council's warm gold \u2014 mid-shout of pure joy, eyes bright and wet, fists half-raised \u2014 the exact instant of signing on with everything, gaze aimed up past the camera's left at the announcement. The joy of someone who knows the terms.",
+  "must_show": "one close face mid-shout of joy, wet bright eyes aimed up past the lens, fists half-raised",
+  "must_not_show": "eyes on the lens, fear, wings, halo",
+  "locks": [
+   "HOSTS"
+  ],
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 147.003,
+  "end": 150.67
+ },
+ {
+  "era": "ancient",
+  "scene": "Terms begun: an extreme close of a newborn's eye opening for the first time \u2014 the lid lifting on a deep dark iris catching its first warm lamplight, lashes wet, skin new \u2014 the veil complete, the adventure started. Nothing else in frame.",
+  "must_show": "a newborn's eye mid-first-opening, warm light in a new dark iris, extreme close",
+  "must_not_show": "distress, clinical surroundings, adult hands prominent",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 150.67,
+  "end": 152.471
+ },
+ {
+  "era": "ancient",
+  "scene": "The veil, thinning: morning fog parting over a green valley as the sun finally breaks it \u2014 the disc becoming true light, the field's colours arriving, the trees stepping out of the white \u2014 the closing promise that hidden was never gone. No people.",
+  "must_show": "fog parting as the sun breaks through onto a waking green valley",
+  "must_not_show": "figures, buildings, drawn rays, text",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 152.471,
+  "end": 153.671
+ }
+]

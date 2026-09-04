@@ -7,7 +7,7 @@
   "id": "p01",
   "out": "p01.jpeg",
   "start": 0.0,
-  "end": 18.605
+  "end": 17.79
  },
  {
   "era": "old-world",
@@ -17,8 +17,8 @@
   "wide": true,
   "id": "p02",
   "out": "p02.jpeg",
-  "start": 18.605,
-  "end": 26.687
+  "start": 17.79,
+  "end": 25.872
  },
  {
   "era": "old-world",
@@ -27,8 +27,8 @@
   "must_not_show": "maps readable, crew, his eyes on the lens",
   "id": "p03",
   "out": "p03.jpeg",
-  "start": 26.687,
-  "end": 32.075
+  "start": 25.872,
+  "end": 31.26
  },
  {
   "era": "old-world",
@@ -37,18 +37,18 @@
   "must_not_show": "readable text, crew working, storms",
   "id": "p04",
   "out": "p04.jpeg",
-  "start": 32.075,
-  "end": 36.565
+  "start": 31.26,
+  "end": 35.75
  },
  {
   "era": "old-world",
-  "scene": "The translator: in a shuttered attic room by rushlight, a hunted scholar works between stacks of tongues \u2014 worn volumes propped open on either side, his pen flying on the English page, one ear plainly listening to the street below \u2014 urgency and scholarship in the same candle-ring. All writing soft and unreadable.",
-  "must_show": "a hunted scholar translating between propped volumes by rushlight, listening while he writes",
-  "must_not_show": "readable words, soldiers, windows open",
+  "scene": "The translator: an UPRIGHT vertical composition \u2014 a hunted scholar STANDING full height at a tall slanted writing desk in a shuttered attic, rushlight above the page, worn volumes propped open around the desk and shelves rising into shadow above him, his pen flying on the English page, one ear plainly listening to the street below. His standing figure anchors the frame's full height. All writing soft and unreadable.",
+  "must_show": "a scholar standing full-height at a tall desk by rushlight, shelves rising above, pen mid-stroke",
+  "must_not_show": "readable words, sideways or rotated composition, soldiers, windows open",
   "id": "p05",
   "out": "p05.jpeg",
-  "start": 36.565,
-  "end": 44.321
+  "start": 35.75,
+  "end": 42.9
  },
  {
   "era": "old-world",
@@ -57,8 +57,8 @@
   "must_not_show": "people burned, violence to people, faces to camera",
   "id": "p06",
   "out": "p06.jpeg",
-  "start": 44.321,
-  "end": 50.138
+  "start": 42.9,
+  "end": 48.263
  },
  {
   "era": "old-world",
@@ -67,8 +67,8 @@
   "must_not_show": "readable words, modern machinery, crowds",
   "id": "p07",
   "out": "p07.jpeg",
-  "start": 50.138,
-  "end": 55.955
+  "start": 48.263,
+  "end": 53.627
  },
  {
   "era": "old-world",
@@ -77,8 +77,8 @@
   "must_not_show": "readable words, crowds, guards, his eyes on lens",
   "id": "p08",
   "out": "p08.jpeg",
-  "start": 55.955,
-  "end": 65.585
+  "start": 53.627,
+  "end": 63.258
  },
  {
   "era": "america-1820",
@@ -88,8 +88,8 @@
   "wide": true,
   "id": "p09",
   "out": "p09.jpeg",
-  "start": 65.585,
-  "end": 73.465
+  "start": 63.258,
+  "end": 71.137
  },
  {
   "era": "old-world",
@@ -98,8 +98,8 @@
   "must_not_show": "keys anywhere, rings, vestments, faces",
   "id": "p10",
   "out": "p10.jpeg",
-  "start": 73.465,
-  "end": 93.477
+  "start": 71.137,
+  "end": 91.149
  },
  {
   "era": "america-1820",
@@ -109,8 +109,8 @@
   "wide": true,
   "id": "p11",
   "out": "p11.jpeg",
-  "start": 93.477,
-  "end": 105.392
+  "start": 91.149,
+  "end": 103.063
  },
  {
   "era": "america-1820",
@@ -119,8 +119,8 @@
   "must_not_show": "readable words, faces, flags, maps",
   "id": "p12",
   "out": "p12.jpeg",
-  "start": 105.392,
-  "end": 116.758
+  "start": 103.063,
+  "end": 114.429
  },
  {
   "era": "america-1820",
@@ -130,8 +130,8 @@
   "wide": true,
   "id": "p13",
   "out": "p13.jpeg",
-  "start": 116.758,
-  "end": 131.491
+  "start": 114.429,
+  "end": 129.162
  },
  {
   "era": "america-1820",
@@ -140,8 +140,8 @@
   "must_not_show": "readable text, people, lamps electric",
   "id": "p14",
   "out": "p14.jpeg",
-  "start": 131.491,
-  "end": 141.629
+  "start": 129.162,
+  "end": 139.3
  },
  {
   "era": "america-1820",
@@ -151,8 +151,8 @@
   "wide": true,
   "id": "p15",
   "out": "p15.jpeg",
-  "start": 141.629,
-  "end": 148.387
+  "start": 139.3,
+  "end": 146.058
  },
  {
   "era": "old-world",
@@ -161,8 +161,8 @@
   "must_not_show": "people, drawn rays, electric light",
   "id": "p16",
   "out": "p16.jpeg",
-  "start": 148.387,
-  "end": 156.931
+  "start": 146.058,
+  "end": 154.602
  },
  {
   "era": "america-1820",
@@ -172,8 +172,8 @@
   "wide": true,
   "id": "p17",
   "out": "p17.jpeg",
-  "start": 156.931,
-  "end": 159.261
+  "start": 154.602,
+  "end": 156.932
  },
  {
   "era": "old-world",
@@ -182,7 +182,7 @@
   "must_not_show": "hands, smoke, text",
   "id": "p18",
   "out": "p18.jpeg",
-  "start": 159.261,
-  "end": 163.92
+  "start": 156.932,
+  "end": 161.592
  }
 ]

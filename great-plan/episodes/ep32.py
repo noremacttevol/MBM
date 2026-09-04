@@ -24,9 +24,9 @@ SEGMENTS = [
      "billions who never heard. The babies. If God is who this film "
      "says He is, the ending has to be worthy of Him. It is."),
     ("n2", NARRATOR,
-     "Start with where everyone goes first. Not heaven-or-hell — the "
-     "spirit world, where the dead are TAUGHT. You have heard Peter say "
-     "it twice in this series. In nineteen eighteen, a prophet was "
+     "The devil's deadline was death — die unreached, lose forever. "
+     "God refuses that math. Everyone goes first to the spirit world, "
+     "where the dead are TAUGHT. In nineteen eighteen, a prophet was "
      "shown the machinery:"),
     ("s1", SCRIPTURE,
      "From among the righteous, he organized his forces and appointed "
@@ -55,9 +55,10 @@ SEGMENTS = [
      "another glory of the stars: for one star differeth from another "
      "star in glory."),
     ("n8", NARRATOR,
-     "Celestial. Terrestrial. Telestial. Sun, moon, and stars — and "
-     "even the least is a glory that surpasses all understanding. The "
-     "Father does not run an incinerator. He runs a homecoming."),
+     "Celestial. Terrestrial. Telestial. Sun, moon, and stars — even "
+     "the least a glory beyond understanding. The ending agency "
+     "requires: everyone receives what they truly chose. Not an "
+     "incinerator. A homecoming."),
     ("n9", NARRATOR,
      "Is hell real? Yes — as anguish before judgment. Outer darkness "
      "waits only for the few who gain full knowledge and choose full "

@@ -18,17 +18,17 @@ META = "Ephesians 1 · D&C 128 · Daniel 2"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "Every dispensation before ours ended in an ellipsis — keys given, "
-     "keys lost, wait. Ours is different, on purpose. This one is the "
-     "gathering-up of all of them."),
+     "Every era before ours ended the same way — keys given, keys "
+     "stolen, wait. The devil counted on that rhythm. This time, God "
+     "built one he cannot break."),
     ("s1", SCRIPTURE,
      "That in the dispensation of the fulness of times he might gather "
      "together in one all things in Christ, both which are in heaven, "
      "and which are on earth; even in him."),
     ("n2", NARRATOR,
-     "The dispensation of the fulness of times — Paul's own name for our "
-     "chapter. The era when God gathers together in one all things in "
-     "Christ. Not another link in the chain. The welding of every "
+     "The dispensation of the fulness of times — Paul's name for our "
+     "chapter. The era when God gathers in one all things in Christ. "
+     "Not another link for the devil to cut. The welding of every "
      "link."),
     ("s2", SCRIPTURE,
      "It is necessary in the ushering in of the dispensation of the "
@@ -36,9 +36,9 @@ SEGMENTS = [
      "and welding together of dispensations, and keys, and powers, and "
      "glories should take place."),
     ("n4", NARRATOR,
-     "Daniel saw this exact thing from inside Babylon: a stone cut out "
-     "of the mountain without hands — no army behind it, no empire — "
-     "rolling until it fills the whole earth."),
+     "Daniel saw it from inside Babylon: a stone cut from the mountain "
+     "without hands — no army, no empire, no force. God's kingdom "
+     "rolls by invitation until it fills the earth."),
     ("s3", SCRIPTURE,
      "And in the days of these kings shall the God of heaven set up a "
      "kingdom, which shall never be destroyed: and the kingdom shall "
@@ -46,10 +46,10 @@ SEGMENTS = [
      "consume all these kingdoms, and it shall stand for ever."),
     ("n6", NARRATOR,
      "And watch the stone roll. Six members in a farmhouse, eighteen "
-     "thirty. Missionaries crossing oceans within the decade. Today — "
-     "congregations across the nations, scripture in over a hundred "
-     "languages, and temples: from one sparkling house in Kirtland to "
-     "hundreds, on every inhabited continent."),
+     "thirty. Missionaries crossing oceans within the decade. Today "
+     "the word the famine starved sings in over a hundred languages, "
+     "and temples stand on every inhabited continent. The hearing is "
+     "back."),
     ("n7", NARRATOR,
      "And the temples are the part the devil never saw coming. Because "
      "they do not only serve the living. You have heard this verse "

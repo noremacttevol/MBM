@@ -55,9 +55,9 @@ SEGMENTS = [
      "veiled the whole face of the earth with darkness; and he looked up "
      "and laughed, and his angels rejoiced."),
     ("n8", NARRATOR,
-     "Laughing. At human misery. That is who he is when nobody dresses "
-     "him up. Not a gentleman negotiator. Not a misunderstood rebel. A "
-     "jailer — delighted by the chain."),
+     "Laughing. At human misery. There is the plan he offered in "
+     "heaven, finished — every soul chained, no choice. Not a "
+     "misunderstood rebel. A jailer, delighted by the chain."),
     ("n9", NARRATOR,
      "Then Enoch turned, and saw the other face. The God of heaven — the "
      "most powerful Being in existence — looking at the very same earth. "
@@ -76,11 +76,11 @@ SEGMENTS = [
      "of mine hands; wherefore should not the heavens weep, seeing these "
      "shall suffer?"),
     ("n11", NARRATOR,
-     "A God who weeps is a God who feels what your choices cost you — a "
-     "Father whose power never once numbed His heart. The devil laughs, "
-     "because pain is his win condition. God weeps, because pain is His "
-     "children hurting. Hear it and never forget it: you have never "
-     "suffered unnoticed. Not once."),
+     "Why weep, instead of stopping it? Because stopping it takes the "
+     "one thing He will not take — your freedom. So He feels every "
+     "cost of every choice. The devil laughs, because pain is his win "
+     "condition. God weeps, because pain is His children hurting. Hear "
+     "it: you have never suffered unnoticed. Not once."),
 ]
 
 CARD_SEG = ("card", NARRATOR,

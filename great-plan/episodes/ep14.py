@@ -21,7 +21,7 @@ SEGMENTS = [
     ("n1", NARRATOR,
      "Fifteen hundred years before Christ, God pulled a shepherd off a "
      "mountainside and showed him who He is. What Moses learned up there "
-     "is everything the famine would later starve out of the world."),
+     "is everything the devil would later starve out of the world."),
     ("n2", NARRATOR,
      "You know the story's shape. A bush that burned and was not "
      "consumed. Ten plagues. A sea standing on end, and a slave nation "
@@ -30,9 +30,9 @@ SEGMENTS = [
      "And the Lord spake unto Moses face to face, as a man speaketh unto "
      "his friend."),
     ("n3", NARRATOR,
-     "Face to face. As a man speaks to his friend. Not a force. Not an "
-     "abstraction. A Person — knowable, present, and shockingly "
-     "personal."),
+     "Face to face. Not a force. Not an abstraction. A Person — "
+     "knowable on purpose, because you cannot freely choose what you "
+     "cannot know."),
     ("n4", NARRATOR,
      "And in vision, God told Moses what all of it is FOR. One sentence. "
      "The mission statement of everything:"),
@@ -40,10 +40,10 @@ SEGMENTS = [
      "For behold, this is my work and my glory — to bring to pass the "
      "immortality and eternal life of man."),
     ("n5", NARRATOR,
-     "His work and His glory — is your life. Not His ego. Not His "
-     "applause. When someone asks why God wants worship, there is the "
-     "answer: His glory is His children rising. Worship is scaffolding "
-     "for us. It was never applause for Him."),
+     "His work and His glory — is your life. Demanding the honor was "
+     "the devil's plan, remember. When someone asks why God wants "
+     "worship, there is the answer: His glory is His children rising. "
+     "Worship is scaffolding for us — never applause for Him."),
     ("n6", NARRATOR,
      "And Moses learned one more thing on that mountain. Because after "
      "the glory withdrew, another voice showed up."),

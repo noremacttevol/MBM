@@ -12,9 +12,9 @@
  },
  {
   "era": "ancient",
-  "scene": "UPRIGHT VERTICAL 9:16 FRAME, horizon LEVEL and horizontal, one single continuous scene: a dusk trail climbs from the frame's bottom edge up into the middle distance, and along it a family flees AWAY from the camera in three-quarter-from-behind \u2014 father carrying a child, mother pulling another by the hand, all mid-run up the trail \u2014 while small in the frame's upper third their village burns in the valley behind-below the trail's shoulder, torch-points moving between the houses under a level dusk sky at the top.",
-  "must_show": "a family running in profile along a ridge at dusk, their burning village and moving torch-points far below",
-  "must_not_show": "weapons in frame, wounds, attackers close, faces to camera",
+  "scene": "One single photographic scene, one light source logic: a fleeing family fills the frame's lower two-thirds, close \u2014 father mid-stride carrying a child, mother pulling another by the hand, all in three-quarter-from-behind climbing a dusk trail \u2014 and beyond and BELOW them, far off and small and soft-focus, ONE burning village burns orange in the valley they left, its smoke rising into a single level dusk sky. Depth reads continuously from their heels to the far fire; nothing pasted, no second fire anywhere.",
+  "must_show": "a close fleeing family climbing away up a dusk trail, one distant soft burning village below behind them",
+  "must_not_show": "two separate fire zones, collage or panel feel, weapons, wounds, attackers, faces to camera",
   "wide": true,
   "id": "p02",
   "out": "p02.jpeg",
@@ -23,9 +23,9 @@
  },
  {
   "era": "ancient",
-  "scene": "The cost, close: a small child's face pressed sideways against a father's shoulder mid-flight \u2014 eyes wide and wet, small fist gripping the rough cloth, firelight from the lost home flickering faint on the child's cheek. Nothing else in focus.",
-  "must_show": "a frightened child's face against a fleeing father's shoulder, distant fire-flicker on the cheek",
-  "must_not_show": "blood, wounds, the burning village sharp, faces to camera",
+  "scene": "The cost, close: a small child's face pressed sideways against a father's shoulder mid-flight \u2014 eyes wide and wet, small fist gripping the rough cloth, lit only by plain fading dusk light. NO fire anywhere in this frame: no flames, no embers, no orange light, no bokeh points \u2014 just the child, the shoulder, and soft dusk. Nothing else in focus.",
+  "must_show": "a frightened child's face against a fleeing father's shoulder in plain dusk light, nothing burning in frame",
+  "must_not_show": "any flame, ember, fire-glow or orange bokeh anywhere, blood, wounds, faces to camera",
   "id": "p03",
   "out": "p03.jpeg",
   "start": 17.733,
@@ -146,9 +146,9 @@
  },
  {
   "era": "ancient",
-  "scene": "The turn: the rain ended \u2014 mountaintops emerging as dark islands from a bright calming sea, mist smoking off the water, and one white dove crossing the frame low over its own reflection toward the light. The world coming back.",
-  "must_show": "mountaintop islands in a calming bright sea, one low dove over its reflection",
-  "must_not_show": "the ark in this frame, rainbows yet, figures",
+  "scene": "The water went down: a bright washed morning \u2014 green hilltops standing fresh out of the last broad shining sheets of retreating water, sunlight breaking through clearing clouds onto wet new grass, streams silvering down every slope back toward the shrinking flood. The world handed back, clean and warm. Hopeful golden light, not gloom.",
+  "must_show": "green hilltops fresh out of retreating shining water under breaking warm sunlight",
+  "must_not_show": "gloom, grey murk, fog banks, the ark, rainbows yet, figures, doves",
   "wide": true,
   "id": "p14",
   "out": "p14.jpeg",
@@ -171,9 +171,9 @@
  },
  {
   "era": "ancient",
-  "scene": "THE BOW: a full unbroken double rainbow standing over the washed green world \u2014 the ark small and beached on its ridge, the family tiny in the meadow below with arms lifted toward the arc, everything rain-bright and new. The covenant, painted at planetary scale.",
-  "must_show": "a full double rainbow over the new green world, tiny family with lifted arms, beached ark on its ridge",
-  "must_not_show": "faces readable, drawn rays, text",
+  "scene": "THE BOW: exactly ONE rainbow band in the whole sky \u2014 a lone real PRIMARY ARC as an actual photograph catches it, red outer edge fading to violet inside, softly translucent against washed blue-grey rain-light, one end grounding in the far hills \u2014 standing over the washed green world; the ark small and beached on its ridge, the family tiny in the meadow below with arms lifted toward the arc, everything rain-bright and new. The sky above and around the single arc is PLAIN washed grey-blue cloud only \u2014 count the coloured bands' arcs: exactly ONE; there is NO fainter second bow anywhere above or beside it, no reflection bow, no concentric double.",
+  "must_show": "ONE single physically real rainbow arc over the new green world, tiny family with lifted arms, beached ark",
+  "must_not_show": "two or more rainbows, crossing or intersecting arcs, rainbow fragments at odd angles, ribbon streaks, oversaturated candy colours, faces readable, drawn rays, text",
   "wide": true,
   "locks": [
    "NOAH-GP"
@@ -198,13 +198,13 @@
  },
  {
   "era": "ancient",
-  "scene": "Never aimed at you: a child of the new world \u2014 a small girl with rain-washed cheeks \u2014 looks up past the camera at the bow's light, which lies in soft colour across her upturned face; her mouth is open in plain wonder. Close, warm, and completely unafraid.",
-  "must_show": "a small girl's upturned wonder-struck face with soft rainbow colour lying across it",
-  "must_not_show": "her eyes on the lens, tears, adults in frame",
+  "scene": "Never aimed at you: from behind and beside a small girl of the new world in the washed green meadow \u2014 her upturned profile at the frame's LOWER LEFT corner, kept small, and the sky she looks into filling the frame's whole upper two-thirds, where ONE realistic rainbow stands COMPLETE and unmistakable \u2014 its full arc entirely INSIDE the frame, both ends visible reaching the far green hills, soft and translucent as a real photograph catches one; ordinary warm daylight, her mouth open in plain wonder.",
+  "must_show": "a small girl low in the corner under ONE complete rainbow arc fully inside the frame, both ends visible",
+  "must_not_show": "rainbow colours, prism bands or coloured light on her face, skin or clothes; more than one rainbow; her eyes on the lens, tears, adults in frame",
   "id": "p18",
   "out": "p18.jpeg",
   "start": 147.136,
-  "end": 161.67
+  "end": 160.772
  },
  {
   "era": "ancient",
@@ -214,7 +214,7 @@
   "wide": true,
   "id": "p19",
   "out": "p19.jpeg",
-  "start": 161.67,
-  "end": 167.899
+  "start": 160.772,
+  "end": 166.615
  }
 ]

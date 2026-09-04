@@ -21,9 +21,9 @@ META = "Moses 5 · Helaman 6"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "The first murder on this earth was not a crime of passion. It was "
-     "a ceremony. And once you see that, you will read every dark "
-     "headline since differently."),
+     "The first murder on earth was not a crime of passion. It was the "
+     "devil's move — a ceremony. See him build it, and every dark "
+     "headline since reads differently."),
     ("n2", NARRATOR,
      "Cain and Abel — sons of Adam, both raised on the first gospel. "
      "Abel offered the firstlings of his flock, as taught: a lamb, "

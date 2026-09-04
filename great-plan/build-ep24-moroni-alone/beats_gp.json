@@ -19,7 +19,7 @@
   "id": "p02",
   "out": "p02.jpeg",
   "start": 10.395,
-  "end": 24.398
+  "end": 23.651
  },
  {
   "era": "ancient",
@@ -28,8 +28,8 @@
   "must_not_show": "performers, idols, wine, faces to camera",
   "id": "p03",
   "out": "p03.jpeg",
-  "start": 24.398,
-  "end": 30.936
+  "start": 23.651,
+  "end": 30.19
  },
  {
   "era": "ancient",
@@ -38,8 +38,8 @@
   "must_not_show": "violence, coins, sneering theatrics, faces to camera",
   "id": "p04",
   "out": "p04.jpeg",
-  "start": 30.936,
-  "end": 40.367
+  "start": 30.19,
+  "end": 39.621
  },
  {
   "era": "ancient",
@@ -49,8 +49,8 @@
   "wide": true,
   "id": "p05",
   "out": "p05.jpeg",
-  "start": 40.367,
-  "end": 46.655
+  "start": 39.621,
+  "end": 45.909
  },
  {
   "era": "ancient",
@@ -60,8 +60,8 @@
   "wide": true,
   "id": "p06",
   "out": "p06.jpeg",
-  "start": 46.655,
-  "end": 56.485
+  "start": 45.909,
+  "end": 55.075
  },
  {
   "era": "ancient",
@@ -73,8 +73,8 @@
   ],
   "id": "p07",
   "out": "p07.jpeg",
-  "start": 56.485,
-  "end": 63.039
+  "start": 55.075,
+  "end": 61.184
  },
  {
   "era": "ancient",
@@ -87,8 +87,8 @@
   ],
   "id": "p08",
   "out": "p08.jpeg",
-  "start": 63.039,
-  "end": 70.706
+  "start": 61.184,
+  "end": 68.851
  },
  {
   "era": "ancient",
@@ -101,8 +101,8 @@
   ],
   "id": "p09",
   "out": "p09.jpeg",
-  "start": 70.706,
-  "end": 88.092
+  "start": 68.851,
+  "end": 85.867
  },
  {
   "era": "ancient",
@@ -114,8 +114,8 @@
   ],
   "id": "p10",
   "out": "p10.jpeg",
-  "start": 88.092,
-  "end": 94.969
+  "start": 85.867,
+  "end": 92.744
  },
  {
   "era": "ancient",
@@ -124,8 +124,8 @@
   "must_not_show": "footprints fresh, smoke column, figures",
   "id": "p11",
   "out": "p11.jpeg",
-  "start": 94.969,
-  "end": 105.292
+  "start": 92.744,
+  "end": 102.925
  },
  {
   "era": "ancient",
@@ -134,8 +134,8 @@
   "must_not_show": "readable characters, blood, faces",
   "id": "p14",
   "out": "p14.jpeg",
-  "start": 105.292,
-  "end": 108.74
+  "start": 102.925,
+  "end": 106.229
  },
  {
   "era": "ancient",
@@ -147,8 +147,8 @@
   ],
   "id": "p12",
   "out": "p12.jpeg",
-  "start": 108.74,
-  "end": 113.95
+  "start": 106.229,
+  "end": 111.439
  },
  {
   "era": "modern",
@@ -158,8 +158,8 @@
   "wide": true,
   "id": "p13",
   "out": "p13.jpeg",
-  "start": 113.95,
-  "end": 117.424
+  "start": 111.439,
+  "end": 114.912
  },
  {
   "era": "ancient",
@@ -171,8 +171,8 @@
   ],
   "id": "p15",
   "out": "p15.jpeg",
-  "start": 117.424,
-  "end": 126.455
+  "start": 114.912,
+  "end": 123.943
  },
  {
   "era": "ancient",
@@ -184,8 +184,8 @@
   ],
   "id": "p16",
   "out": "p16.jpeg",
-  "start": 126.455,
-  "end": 132.475
+  "start": 123.943,
+  "end": 129.963
  },
  {
   "era": "ancient",
@@ -194,8 +194,8 @@
   "must_not_show": "the box visible, markers, figures, drawn rays",
   "id": "p17",
   "out": "p17.jpeg",
-  "start": 132.475,
-  "end": 156.862
+  "start": 129.963,
+  "end": 154.352
  },
  {
   "era": "ancient",
@@ -207,8 +207,8 @@
   ],
   "id": "p18",
   "out": "p18.jpeg",
-  "start": 156.862,
-  "end": 163.535
+  "start": 154.352,
+  "end": 161.025
  },
  {
   "era": "america-1820",
@@ -218,7 +218,7 @@
   "wide": true,
   "id": "p19",
   "out": "p19.jpeg",
-  "start": 163.535,
-  "end": 166.395
+  "start": 161.025,
+  "end": 163.886
  }
 ]

@@ -1,0 +1,201 @@
+[
+ {
+  "era": "first-century",
+  "scene": "The church exploding: a river at midday crowded with joy \u2014 three baptisms happening at once in the shallows, white-clad converts being lowered and raised, dozens more waiting on the banks with families, singing readable in the open mouths \u2014 seen wide from the far bank. The problem the enemy has to solve.",
+  "must_show": "three simultaneous river baptisms with singing crowds waiting on the banks",
+  "must_not_show": "faces to camera, soldiers, storm, halo",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 12.154
+ },
+ {
+  "era": "first-century",
+  "scene": "Upside down: an apostle preaching from the temple portico steps to a packed and growing crowd \u2014 his arms wide mid-proclamation, listeners pressing in from the colonnades, new arrivals running at the frame's edges \u2014 the camera deep in the crowd shooting past heads and shoulders. Momentum nothing human can stop.",
+  "must_show": "an apostle proclaiming from portico steps over a packed growing crowd, runners arriving at the edges",
+  "must_not_show": "faces to camera, soldiers yet, banners",
+  "wide": true,
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 12.154,
+  "end": 21.583
+ },
+ {
+  "era": "first-century",
+  "scene": "Seized: Stephen gripped by both arms before the shadowed council \u2014 his young face the only lit and PEACEFUL thing in the frame, alight with something none of his captors can see, while robed accusers lean and point around him. His peace is the provocation.",
+  "must_show": "Stephen gripped before leaning pointing accusers, his young face peaceful and alight by expression alone",
+  "must_not_show": "any light effect on his face, wounds, faces to camera",
+  "locks": [
+   "STEPHEN"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 21.583,
+  "end": 30.555
+ },
+ {
+  "era": "first-century",
+  "scene": "What Stephen saw: the heavens OPENED \u2014 a great breach of light above, and standing in it, TWO glorified Persons in the air: the Son in his familiar cream STANDING at the Father's right hand, which places the Son on the VIEWER'S LEFT and the Father in radiant white on the VIEWER'S RIGHT \u2014 never reversed. Both faces turned down with open warmth toward the unseen martyr below the frame. Open air beneath their feet; no outline or aura edges their bodies.",
+  "must_show": "the Son in cream STANDING on the viewer's LEFT at the right hand of the Father in white on the viewer's RIGHT, both in opened heavens looking down with warmth",
+  "must_not_show": "sides reversed, wings, halos, aura outlines, thrones, either gaze at the lens",
+  "jesus": true,
+  "ref": true,
+  "wide": true,
+  "locks": [
+   "FATHER"
+  ],
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 30.555,
+  "end": 33.325
+ },
+ {
+  "era": "first-century",
+  "scene": "The council's answer: the accusers erupt \u2014 elders clapping hands over their ears, faces contorted, robes swirling as the whole room surges forward in a wave of rage \u2014 seen from behind Stephen's calm shoulder so the human storm breaks toward the camera's anchor of peace. Not one face toward the lens.",
+  "must_show": "elders stopping their ears and surging in rage, seen past Stephen's calm near shoulder",
+  "must_not_show": "stones yet, violence, faces to camera",
+  "locks": [
+   "STEPHEN"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 33.325,
+  "end": 36.094
+ },
+ {
+  "era": "first-century",
+  "scene": "While he prayed: outside the walls, Stephen kneels upright in the stony hollow with his face lifted and lips moving in prayer \u2014 serene, fully alight \u2014 while around him the ring of men stands frozen at the edge of violence, arms drawn back, faces hard \u2014 the frame holding the instant BEFORE, forever. No stone flies; no impact is ever shown.",
+  "must_show": "Stephen kneeling upright in serene prayer inside a ring of men frozen at the edge of violence",
+  "must_not_show": "impact, flying stones, blood, wounds, faces to camera",
+  "locks": [
+   "STEPHEN"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 36.094,
+  "end": 46.335
+ },
+ {
+  "era": "first-century",
+  "scene": "The coats: young Saul stands over the heaped cloaks of the throwers, his arms folded, his intelligent face looking down toward the frame's lower corner where the aftermath lies out of view except for one still, open hand at rest on the stones \u2014 plainly beyond sleep. Saul's face carries the first faint crack of what will one day become Damascus.",
+  "must_show": "Saul over the heaped coats, arms folded, gaze down at one still open hand at the frame's corner",
+  "must_not_show": "the body shown, blood, wounds, faces to camera",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 46.335,
+  "end": 53.162
+ },
+ {
+  "era": "first-century",
+  "scene": "The machine: a Roman detachment marches a torch-lit night street in hard formation \u2014 spear-shafts in rhythm, armor throwing back the flame-light, a scatter of believers pressing into doorways as the column passes \u2014 all backs and profiles, the hunt as infrastructure.",
+  "must_show": "a torch-lit Roman column marching in rhythm past believers pressed into doorways",
+  "must_not_show": "arrests shown, violence, faces to camera",
+  "wide": true,
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 53.162,
+  "end": 59.564
+ },
+ {
+  "era": "first-century",
+  "scene": "Peter, led: the old fisherman-apostle walks in chains along a stone quay between guards at grey dawn \u2014 his back straight, his step unhurried, the chains carried like they weigh nothing \u2014 seen from behind and beside, a following gull low over the harbor water. Tradition says he asked for harder than his Lord's death; the frame keeps his dignity and shows nothing more.",
+  "must_show": "chained Peter walking straight-backed between guards along a dawn quay, unhurried",
+  "must_not_show": "crosses, execution site, wounds, faces to camera",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 59.564,
+  "end": 64.365
+ },
+ {
+  "era": "first-century",
+  "scene": "Paul, gone: a Roman cell after \u2014 the door standing open, a folded travel cloak on the plank bed, a stack of finished letters bound with cord on the small table, the stylus laid across the last one, morning light through the high grate. The occupant is not coming back; the letters are already on their way to forever.",
+  "must_show": "an open empty cell with folded cloak, corded letter stack and laid-down stylus in high grate-light",
+  "must_not_show": "blood, chains broken, a body, guards",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 64.365,
+  "end": 76.564
+ },
+ {
+  "era": "first-century",
+  "scene": "Through tears at Miletus: Paul grips the forearms of two weeping elders on the shore \u2014 his own eyes wet and fierce with warning, the other elders crowded close with bowed heads, and the waiting ship's rigging dark against the grey sea behind. A goodbye that knows what is coming.",
+  "must_show": "Paul gripping weeping elders' forearms on the shore, wet fierce warning eyes, waiting ship behind",
+  "must_not_show": "faces to camera, scrolls readable, calm cheer",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 76.564,
+  "end": 101.187
+ },
+ {
+  "era": "first-century",
+  "scene": "On the record: Paul writing by lamp in a rented room \u2014 the reed pen mid-stroke, his scarred face set in resolute grief, the sentence beneath his hand soft and unreadable \u2014 a warning underlined by history, being mailed to the future.",
+  "must_show": "Paul mid-stroke by lamplight, scarred resolute grieving face, unreadable letter",
+  "must_not_show": "readable words, his eyes on the lens, chains",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 101.187,
+  "end": 120.433
+ },
+ {
+  "era": "first-century",
+  "scene": "The arithmetic: an upper room at evening \u2014 TWELVE low stools around the long table, and only TWO of them occupied, by two grey old men bent together over the bread \u2014 the other ten stools empty in the guttering lamplight, each one a account settled by the empire. The count, falling.",
+  "must_show": "twelve stools with only two old men remaining at the lamplit table, ten empty",
+  "must_not_show": "ghosts, name markers, faces to camera",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 120.433,
+  "end": 131.107
+ },
+ {
+  "era": "first-century",
+  "scene": "The last one: one ancient man alone at the same table \u2014 eleven empty stools around him, one lamp, his hand moving steadily across a page he will not finish distributing \u2014 the room's shadows deep and patient around the final holder of the keys. Nothing dramatic left to show; that is the tragedy.",
+  "must_show": "one ancient man writing alone among eleven empty stools by a single lamp",
+  "must_not_show": "angels, light effects, tears, faces to camera",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 131.107,
+  "end": 138.222
+ },
+ {
+  "era": "first-century",
+  "scene": "Just... gone: the same upper room at grey morning, empty \u2014 twelve stools in their places, the lamp cold on the table, dust beginning its long tenancy in the window light \u2014 the exact room the famine episode will find again, centuries deep in silence. No people, ever again.",
+  "must_show": "the empty upper room at grey morning \u2014 twelve vacant stools, cold lamp, first dust in the light",
+  "must_not_show": "figures, cobwebs heavy, decay dramatic",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 138.222,
+  "end": 146.126
+ },
+ {
+  "era": "first-century",
+  "scene": "The believers stayed: a small congregation kneels close together in a candlelit catacomb chamber \u2014 a dozen faces of every age bowed or lifted in earnest prayer around two candles, painted symbols soft and unreadable on the tufa walls \u2014 faith, holding on in the dark with everything except the keys.",
+  "must_show": "a dozen catacomb believers kneeling close around two candles, earnest bowed and lifted faces",
+  "must_not_show": "readable inscriptions, fear theatrics, soldiers, faces to camera",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 146.126,
+  "end": 154.03
+ },
+ {
+  "era": "first-century",
+  "scene": "Hold that thought: the night sky immense over the dark Judean hills \u2014 the stars in their silent thousands, patient as arithmetic, over a world that does not yet know what it lost \u2014 the long wait, beginning. No figures.",
+  "must_show": "an immense patient star-field over dark silent hills",
+  "must_not_show": "meteors, angels, dawn, text",
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 154.03,
+  "end": 161.015
+ },
+ {
+  "era": "first-century",
+  "scene": "Elegy: a fisherman's net folded with terrible neatness on the stones of an empty shore at dusk \u2014 the floats still, the mended places visible in the weave, the grey sea quiet beyond. A trade laid down; a work interrupted; a promise waiting for hands again.",
+  "must_show": "a neatly folded fishing net with visible mends on empty dusk shore stones",
+  "must_not_show": "boats burning, bodies, birds, text",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 161.015,
+  "end": 164.009
+ }
+]

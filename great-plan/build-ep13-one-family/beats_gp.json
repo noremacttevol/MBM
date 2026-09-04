@@ -1,0 +1,222 @@
+[
+ {
+  "era": "ancient",
+  "scene": "The tower rising: on a dusty river plain, a colossal stepped ziggurat under construction climbs into the haze \u2014 ramps crawling with distant workers, brick-smoke drifting, the structure already dwarfing the city knotted around its base. Seen from far across the plain in hard afternoon light.",
+  "must_show": "a colossal half-built stepped tower crawling with distant workers over a knotted city",
+  "must_not_show": "readable banners, cranes, faces, storm sky yet",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 15.515
+ },
+ {
+  "era": "ancient",
+  "scene": "One language, one obsession: a brick-line of workers passing moulded mud bricks hand to hand up a ramp \u2014 dozens of backs and shoulders in rhythm, dust in the low sun, an overseer's raised arm setting the pace at the top \u2014 the camera in the line shooting up the ramp past the workers' backs.",
+  "must_show": "a hand-to-hand brick line up a ramp seen past workers' backs, overseer's arm at the top",
+  "must_not_show": "whips, faces to camera, cruelty shown",
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 15.515,
+  "end": 21.263
+ },
+ {
+  "era": "ancient",
+  "scene": "Make us a name: the tower's unfinished summit wrapped in cloud-haze \u2014 and being hauled up its final ramp, a great GILDED CREST, a sun-disc of beaten gold meant to crown the top, ropes taut, tiny figures straining \u2014 man's glory climbing toward heaven's address. Low camera looking up the ramps.",
+  "must_show": "a gilded sun-crest being hauled up the tower's summit ramp into cloud-haze",
+  "must_not_show": "lightning, gods' statues, readable symbols, faces",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 21.263,
+  "end": 25.965
+ },
+ {
+  "era": "ancient",
+  "scene": "The scattering: the tower stands ABANDONED at half-height under a clearing sky, ramps empty, scaffold poles bare \u2014 and across the whole plain below, long thin lines of people stream AWAY from it in every direction like spokes, herds and carts and dust-trails diverging toward every horizon. Quiet, total, irreversible.",
+  "must_show": "the abandoned half-built tower with thin lines of people streaming away in every direction",
+  "must_not_show": "destruction, fire, lightning, collapse",
+  "wide": true,
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 25.965,
+  "end": 39.728
+ },
+ {
+  "era": "ancient",
+  "scene": "The counter-blueprint: one black goat-hair tent alone on an immense dusk desert, a single warm lamp burning inside its open flap, the sky above going to deep violet with the first stars \u2014 smaller than anything Babel built, and already holding more future. No people visible.",
+  "must_show": "one lamplit desert tent alone under a violet first-star sky",
+  "must_not_show": "cities, towers, camels yet, figures",
+  "wide": true,
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 39.728,
+  "end": 50.395
+ },
+ {
+  "era": "ancient",
+  "scene": "The seeker: Abraham stands at the edge of the firelight outside Ur's distant shine, his back to the city, face lifted to the night \u2014 the look of a man who has already chosen against the idols behind him and doesn't yet know what he has chosen toward. Seen in three-quarter from beside the fire.",
+  "must_show": "Abraham in three-quarter at night, back to a distant city-glow, face lifted seeking",
+  "must_not_show": "idols in frame, his eyes on the lens, halo",
+  "locks": [
+   "ABRAHAM-GP"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 50.395,
+  "end": 59.068
+ },
+ {
+  "era": "ancient",
+  "scene": "Seeking the fathers' blessing: Abraham kneels at a small rough stone altar at grey dawn, both hands flat on its top stone, head bowed between his arms \u2014 the posture of a man asking for a RIGHT, not a favour \u2014 his staff laid on the ground beside him, the desert silent around.",
+  "must_show": "Abraham kneeling with both hands flat on a small altar at grey dawn, head bowed between his arms",
+  "must_not_show": "fire on the altar, sacrifice, his face to camera",
+  "locks": [
+   "ABRAHAM-GP"
+  ],
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 59.068,
+  "end": 65.721
+ },
+ {
+  "era": "ancient",
+  "scene": "The covenant given: Abraham stands beneath the full immensity of the desert night sky \u2014 the milky way's arch burning from horizon to horizon \u2014 seen from directly behind, his arms lifted slightly from his sides, palms forward, head back: a man being SHOWN his seed in the stars. His tent burns small and warm at the frame's bottom edge.",
+  "must_show": "Abraham from directly behind under the full milky way arch, arms slightly lifted, tent-glow small below",
+  "must_not_show": "his face, meteors, drawn light, text",
+  "wide": true,
+  "locks": [
+   "ABRAHAM-GP"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 65.721,
+  "end": 78.195
+ },
+ {
+  "era": "ancient",
+  "scene": "The delivery system moves: Abraham's caravan sets out at dawn \u2014 laden camels in a swaying line, herds flowing alongside, family and servants walking \u2014 all crossing the frame in profile from left to right through low gold light and rising dust, the promise on the road.",
+  "must_show": "a dawn caravan of camels, herds and walking family crossing in profile through gold dust",
+  "must_not_show": "faces to camera, armed guards prominent, cities",
+  "wide": true,
+  "locks": [
+   "ABRAHAM-GP"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 78.195,
+  "end": 86.663
+ },
+ {
+  "era": "ancient",
+  "scene": "Blessing in action: at a foreign village well, Abraham's servants lift full waterskins and round loaves down from a kneeling camel into the arms of village women and children \u2014 both peoples mingled at the well-stones, every face on the exchange, morning light broad on the scene.",
+  "must_show": "servants passing bread and waterskins down to village women and children at a well, faces on the exchange",
+  "must_not_show": "coins, bowing, faces to camera",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 86.663,
+  "end": 95.131
+ },
+ {
+  "era": "ancient",
+  "scene": "The hardest walk: Abraham and young Isaac climb a bare mountain shoulder at grey first light, seen from behind and below \u2014 the boy ahead with the bundle of wood roped across his shoulders, the old man behind carrying the small fire-pot, both leaning into the slope \u2014 nothing else on the mountain but stone and morning.",
+  "must_show": "old man and boy from behind climbing bare stone at grey dawn, wood on the boy's shoulders, fire-pot in the man's hand",
+  "must_not_show": "an altar, a knife, faces, tears yet",
+  "wide": true,
+  "locks": [
+   "ABRAHAM-GP"
+  ],
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 95.131,
+  "end": 106.466
+ },
+ {
+  "era": "ancient",
+  "scene": "The stayed hand: Abraham's face alone, close \u2014 anguish breaking OPEN into shuddering relief, eyes flung up toward a voice above the frame, mouth halfway between a sob and a laugh, tears cutting the dust on his cheeks. No knife, no altar, no boy in frame \u2014 just the exact second mercy lands.",
+  "must_show": "Abraham's close face breaking from anguish into shuddering relief, eyes up at an unseen voice",
+  "must_not_show": "knife, altar, Isaac, his eyes on the lens",
+  "locks": [
+   "ABRAHAM-GP"
+  ],
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 106.466,
+  "end": 112.814
+ },
+ {
+  "era": "ancient",
+  "scene": "The substitute: a strong ram caught fast by both horns in a dense mountain thicket, pulling once against the tangle, morning sun bright on its wool \u2014 provided, waiting, exactly where it needed to be. Close, from the side.",
+  "must_show": "a ram caught by the horns in a thicket in morning sun",
+  "must_not_show": "blood, ropes, people, distress overdone",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 112.814,
+  "end": 126.188
+ },
+ {
+  "era": "first-century",
+  "scene": "The Seed arrives: night over the sleeping hills of Bethlehem \u2014 terraced slopes, a few lamplit windows in the little town, shepherd fires dotted on the dark pasture \u2014 and one star over it all, larger and stiller than the rest. The covenant, twenty generations on, keeping its appointment.",
+  "must_show": "sleeping terraced Bethlehem under one large still star, shepherd fires on the dark pasture",
+  "must_not_show": "angels visible, drawn rays, the stable shown",
+  "wide": true,
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 126.188,
+  "end": 145.846
+ },
+ {
+  "era": "first-century",
+  "scene": "Grafted in: an ancient olive trunk, gnarled and grey \u2014 and bound into a cut in its side with clean wrapping, a young green branch, its new leaves bright against the old bark, the graft-union tight and healing. Paul's own picture of you, in extreme close-up.",
+  "must_show": "a young green branch grafted and bound into an ancient olive trunk, extreme close",
+  "must_not_show": "hands, orchards wide, text",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 145.846,
+  "end": 149.329
+ },
+ {
+  "era": "modern",
+  "scene": "Heirs, now: in the present day, a young family \u2014 father carrying a sleeping toddler, mother beside him \u2014 steps through a warm-lit front door out of the evening dark, seen from behind at the walk's end, the doorway's gold spilling around their silhouettes. Coming in, wanted.",
+  "must_show": "a young modern family from behind entering a warm-lit front door out of evening dark",
+  "must_not_show": "faces, house numbers, brand marks",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 149.329,
+  "end": 151.65
+ },
+ {
+  "era": "ancient",
+  "scene": "Two unities, one frame: far across the dusk plain, the broken tower-stump stands abandoned against the last grey light \u2014 while in the near foreground Abraham's lamplit tent stands warm with figures gathering toward its open flap, travellers' silhouettes converging out of the dark toward the light. The thesis of the episode in a single look.",
+  "must_show": "the distant broken tower-stump and the near lamplit tent with travellers converging toward its open flap",
+  "must_not_show": "faces readable, the tower intact, drawn rays",
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 151.65,
+  "end": 160.583
+ },
+ {
+  "era": "ancient",
+  "scene": "Into the tent: at the tent's open flap Abraham holds the goat-hair curtain wide with one arm and extends the other palm-up toward a dusty traveller seen from behind in the near frame \u2014 the lamp-gold interior, spread carpets and waiting bread visible past the patriarch's welcome. The oldest invitation on earth.",
+  "must_show": "Abraham holding the tent flap wide, palm-up welcome to a traveller seen from behind, gold interior beyond",
+  "must_not_show": "Abraham's eyes on the lens, guards, coins",
+  "locks": [
+   "ABRAHAM-GP"
+  ],
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 160.583,
+  "end": 164.306
+ },
+ {
+  "era": "ancient",
+  "scene": "The promise sky: dawn over the open desert \u2014 the tent small and dark against a horizon going gold, and above it the last stars still burning in the brightening blue, countless, patient, named. No people; the covenant itself, at rest.",
+  "must_show": "the small dark tent under a dawn sky still holding its last countless stars",
+  "must_not_show": "figures, caravans, text, drawn rays",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 164.306,
+  "end": 166.54
+ }
+]

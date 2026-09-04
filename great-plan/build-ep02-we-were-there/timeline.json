@@ -3,7 +3,7 @@
   {
    "seg": "n1",
    "speaker": "narrator",
-   "text": "Last time, you watched two speeches decide the fate of the world. This time, something harder to believe. You were in the room.",
+   "text": "Last time, two speeches fought over your freedom. This time, the fact the devil most wants erased: you were in the room.",
    "seg_start": 0.0,
    "audio_start": 0.28,
    "spoken_end": 6.717,
@@ -48,7 +48,7 @@
   {
    "seg": "n4",
    "speaker": "narrator",
-   "text": "All the sons of God, shouting for joy, while the earth was being built. That shout was ours. We watched the foundations poured \u2014 and we cheered, because that world was being built for us.",
+   "text": "All the sons of God, shouting for joy while the earth was built. That shout was ours \u2014 it proves something: force was the devil's plan. Nobody was drafted here. We chose this world, cheering.",
    "seg_start": 49.09,
    "audio_start": 49.37,
    "spoken_end": 60.602,
@@ -75,7 +75,7 @@
   {
    "seg": "n6",
    "speaker": "narrator",
-   "text": "Chosen before you were born. And that is not poetry reserved for Abraham \u2014 it is the family truth. Paul stood in the middle of Athens and said it to strangers:",
+   "text": "Chosen before you were born. And that truth is not reserved for prophets \u2014 you cannot choose a Father nobody told you about. So Paul stood in Athens telling strangers:",
    "seg_start": 79.174,
    "audio_start": 79.454,
    "spoken_end": 89.324,
@@ -139,7 +139,7 @@
  "card": {
   "seg": "card",
   "speaker": "narrator",
-  "text": "You are older than the earth. You are a child of God. And you chose to be here.",
+  "text": "The devil needs you to forget who you are. You are God's child. You chose to be here.",
   "seg_start": 164.26,
   "audio_start": 164.54,
   "seg_dur": 6.691

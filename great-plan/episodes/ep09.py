@@ -18,9 +18,9 @@ META = "Moses 5-6"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "What happens to a family cut off from Eden? Watch what God does in "
-     "the very first chapter after the gate closes — because it destroys "
-     "the picture of an abandoning God forever."),
+     "A family cut off from Eden — the devil counted on that silence: "
+     "children who never hear of God cannot choose Him. Watch God's "
+     "first move after the gate closes."),
     ("n2", NARRATOR,
      "Adam and Eve built a life in the fallen world. And they prayed. And "
      "heaven answered. The veil kept them from His presence — but He "
@@ -38,19 +38,19 @@ SEGMENTS = [
      "This thing is a similitude of the sacrifice of the Only Begotten "
      "of the Father, which is full of grace and truth."),
     ("n4", NARRATOR,
-     "A similitude. Every lamb on every altar was a picture — pointing "
-     "four thousand years forward, to the Lamb. Adam and Eve knew about "
-     "Jesus Christ. The first family on earth had His gospel: faith, "
-     "repentance, baptism, the Holy Ghost."),
+     "A similitude. Every lamb on every altar pointed to the Lamb. And "
+     "God taught the first family the whole gospel immediately — faith, "
+     "repentance, baptism, the Holy Ghost — because you cannot choose a "
+     "Savior you have never heard of."),
     ("s3", SCRIPTURE,
      "Adam cried unto the Lord, and he was caught away by the Spirit of "
      "the Lord, and was carried down into the water, and was laid under "
      "the water, and was brought forth out of the water."),
     ("n5", NARRATOR,
-     "Baptized. The first man on this earth was baptized — same "
-     "ordinance, same gospel, same Christ that saves anybody today. The "
-     "gospel is not an invention of the meridian of time. It is older "
-     "than the world."),
+     "Baptized. The first man on earth was baptized — same ordinance, "
+     "same Christ that saves anybody today. The gospel is older than "
+     "the world — because from day one, God refused to leave any child "
+     "without the choice."),
     ("n6", NARRATOR,
      "And now watch the enemy's response, because it defines his playbook "
      "for the rest of history."),
@@ -71,10 +71,10 @@ SEGMENTS = [
      "Christ. The gospel came to Adam whole, immediate, and free. Nobody "
      "in the history of this world was ever born too early for Jesus."),
     ("n11", NARRATOR,
-     "So when someone tells you the gospel started two thousand years "
-     "ago — or that God leaves His children in the dark — tell them "
-     "about the first altar. He taught the first family. He will "
-     "certainly teach yours."),
+     "The devil's oldest play is keeping families in the dark — you "
+     "cannot choose a God you never hear from. God's answer began at "
+     "the first altar. He taught the first family. He will certainly "
+     "teach yours."),
 ]
 
 CARD_SEG = ("card", NARRATOR,

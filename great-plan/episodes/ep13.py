@@ -30,9 +30,9 @@ SEGMENTS = [
      "abroad upon the face of the whole earth."),
     ("n4", NARRATOR,
      "God scattered it. Not because heaven fears tall buildings — "
-     "because He had already seen where forced unity goes. One heart "
-     "pointed wrong is Babel. One heart pointed right is Zion. The "
-     "direction is everything."),
+     "because He had seen forced unity before: the devil's plan in "
+     "heaven. One voice, no choice. One heart pointed wrong is Babel; "
+     "pointed right, Zion."),
     ("n5", NARRATOR,
      "So God began His own unity project, and its blueprint was the "
      "exact opposite of a tower. One man. One family. One tent in the "
@@ -49,9 +49,10 @@ SEGMENTS = [
      "thee shall all families of the earth be blessed."),
     ("n7", NARRATOR,
      "Catch the reversal. Babel said: we will make us a name. God said: "
-     "I will make thy name great — so that all families of the earth "
-     "are blessed. That is not favoritism. It is a delivery system — "
-     "one family, carrying priesthood and gospel to everybody."),
+     "I will make thy name great — so all families are blessed. Not "
+     "favoritism. A delivery system — one family carrying priesthood "
+     "and gospel to all, because nobody can choose what never reaches "
+     "them."),
     ("n8", NARRATOR,
      "And to seal it, God asked Abraham for the hardest walk of his "
      "life — up a mountain, with his miracle son. At the last instant, "

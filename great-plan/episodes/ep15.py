@@ -40,15 +40,15 @@ SEGMENTS = [
      "Surely the Lord God will do nothing, but he revealeth his secret "
      "unto his servants the prophets."),
     ("n6", NARRATOR,
-     "Nothing without prophets. That is standing policy. So when you "
-     "hear the word prophet, do not picture a fortune-teller. Picture a "
-     "relay runner — carrying one unchanging message through a "
-     "forgetful thousand years."),
+     "Nothing without prophets — standing policy, because a people who "
+     "never hear cannot choose. Do not picture a fortune-teller. "
+     "Picture a relay runner, carrying one unchanging message through "
+     "a forgetful thousand years."),
     ("n7", NARRATOR,
-     "Sometimes the relay got loud. Mount Carmel: one prophet, Elijah, "
-     "against four hundred and fifty priests of Baal. All day their god "
-     "said nothing. Then Elijah drowned his own altar in water — and "
-     "called."),
+     "Sometimes the relay got loud. Mount Carmel: Elijah against four "
+     "hundred and fifty priests of Baal — a nation stalled between two "
+     "gods. All day the counterfeit said nothing. Elijah drowned his "
+     "altar — and called."),
     ("s3", SCRIPTURE,
      "Then the fire of the Lord fell, and consumed the burnt sacrifice, "
      "and the wood, and the stones, and the dust, and licked up the "
@@ -62,17 +62,17 @@ SEGMENTS = [
     ("n9", NARRATOR,
      "And the messengers began carrying something new. Isaiah, seven "
      "hundred years early, described a Servant — despised, rejected, "
-     "and wounded. The relay was no longer just carrying a message. It "
-     "was carrying a portrait."),
+     "wounded. Not just a message — a portrait, so the world could "
+     "recognize its Redeemer and choose."),
     ("s4", SCRIPTURE,
      "But he was wounded for our transgressions, he was bruised for our "
      "iniquities: the chastisement of our peace was upon him; and with "
      "his stripes we are healed."),
     ("n10", NARRATOR,
-     "Every prophet, whatever else he carried, carried Him. The whole "
-     "relay was running toward one Person. And some of the runners were "
-     "killed for the message — and the next one came anyway. That is "
-     "what compassion does."),
+     "Every prophet, whatever else he carried, carried Him. And the "
+     "devil's counter never changed: kill the runner, starve the people "
+     "of the word. So runners died — and the next one came anyway. "
+     "That is what compassion does."),
     ("n11", NARRATOR,
      "So if you have ever wondered whether God gets tired of reaching "
      "for someone who keeps forgetting Him — you now hold a thousand "

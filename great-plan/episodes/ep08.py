@@ -20,9 +20,9 @@ META = "2 Nephi 2 · Moses 5 · Moroni 8"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "If you have ever been told that you were born guilty — that a baby "
-     "arrives in this world already condemned for something a man did in a "
-     "garden — this one is for you."),
+     "If you have ever been told you were born guilty — a baby condemned "
+     "for what a man did in a garden — this one is for you. That "
+     "teaching has an author."),
     ("n2", NARRATOR,
      "Adam and Eve took the fruit, and everything changed. The gate closed "
      "behind them. Death entered the world. And heaven watched it happen — "
@@ -78,8 +78,8 @@ SEGMENTS = [
 ]
 
 CARD_SEG = ("card", NARRATOR,
-            "You were not born guilty. You were born wanted — into a plan "
-            "built to bring you joy.")
+            "The devil says born guilty. Your Father says born wanted — "
+            "into a plan built for joy.")
 
 CARD_TEXT = ("You were not born guilty.\n"
              "You were born wanted.\n"

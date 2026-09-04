@@ -3,7 +3,7 @@
   {
    "seg": "n1",
    "speaker": "narrator",
-   "text": "Between the war and your birth, something enormous had to be built. A world. This one. And who built it \u2014 and what for \u2014 changes how it feels to live in it.",
+   "text": "Between the war and your birth, something enormous had to be built. A world. This one. The devil will claim it as his \u2014 so watch who actually built it, and why.",
    "seg_start": 0.0,
    "audio_start": 0.28,
    "spoken_end": 9.808,
@@ -21,7 +21,7 @@
   {
    "seg": "n2",
    "speaker": "narrator",
-   "text": "One like unto God. That is Jehovah \u2014 the premortal Jesus. Under the Father's direction, the Son led the building of this world. John says it flat out:",
+   "text": "One like unto God. That is Jehovah \u2014 the premortal Jesus. The Son who yielded to the Father now does the building. John says it flat out:",
    "seg_start": 24.089,
    "audio_start": 24.369,
    "spoken_end": 33.8,
@@ -66,7 +66,7 @@
   {
    "seg": "n5",
    "speaker": "narrator",
-   "text": "We will prove them. This world is a proving ground. But be careful with that word \u2014 it does not mean what fear tells you it means.",
+   "text": "We will prove them. This world is a proving ground. But be careful \u2014 the devil twists that word into a threat. It is not one.",
    "seg_start": 65.205,
    "audio_start": 65.485,
    "spoken_end": 72.66,
@@ -111,7 +111,7 @@
   {
    "seg": "n10",
    "speaker": "narrator",
-   "text": "Because if this world is an accident, so are you, and nothing means anything. But if every sunrise is architecture \u2014 if the whole planet is a classroom built by Someone who intends His children to graduate \u2014 then your hardest day here is not chaos. It is curriculum.",
+   "text": "The devil sells the accident story for a reason: an accident means nothing and chooses nothing. But if every sunrise is architecture \u2014 if this planet is a classroom built by Someone who intends His children to graduate \u2014 then your hardest day is not chaos. It is curriculum.",
    "seg_start": 132.935,
    "audio_start": 133.215,
    "spoken_end": 149.143,
@@ -130,7 +130,7 @@
  "card": {
   "seg": "card",
   "speaker": "narrator",
-  "text": "This world is not an accident. It is a classroom \u2014 and you were meant to graduate.",
+  "text": "The devil built nothing. This world is your Father's classroom \u2014 and you were meant to graduate.",
   "seg_start": 162.091,
   "audio_start": 162.371,
   "seg_dur": 6.613

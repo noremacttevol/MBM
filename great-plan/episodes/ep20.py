@@ -59,19 +59,19 @@ SEGMENTS = [
      "Behold, I am Jesus Christ, whom the prophets testified shall come "
      "into the world."),
     ("n8", NARRATOR,
-     "And he did not just preach to them. He invited every single "
-     "person there to come, one at a time, and feel the prints in his "
-     "hands and his side. It took hours. He stayed."),
+     "He did not just preach. He invited every single person to come, "
+     "one at a time, and feel the prints in his hands and side. It "
+     "took hours. He stayed — God wants witnesses, not subjects."),
     ("s3", SCRIPTURE,
      "And the multitude went forth, and thrust their hands into his "
      "side, and did feel the prints of the nails in his hands and in "
      "his feet; and this they did do, going forth one by one until "
      "they had all gone forth."),
     ("n10", NARRATOR,
-     "And in both hemispheres, before he left, he did the same thing: "
-     "he organized his church, and he handed men the keys — apostles, "
-     "prophets, the authority to baptize and to bind. The kingdom now "
-     "had stewards. Hear the commission:"),
+     "And in both hemispheres, before he left, he organized his church "
+     "and handed living men the keys — apostles, prophets, authority "
+     "to baptize and bind — so what he paid for could reach you "
+     "through authorized hands. Hear the commission:"),
     ("j2", JESUS,
      "All power is given unto me in heaven and in earth. Go ye "
      "therefore, and teach all nations, baptizing them in the name of "

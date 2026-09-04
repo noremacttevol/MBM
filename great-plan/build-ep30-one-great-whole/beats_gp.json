@@ -1,0 +1,166 @@
+[
+ {
+  "era": "ancient",
+  "scene": "The weld: at a forge in warm work-light, a smith holds two red-hot chain links overlapped on the anvil \u2014 his hammer at the top of its arc, sparks around the joint where two links are becoming ONE \u2014 the striking instant of union. The same craft that built strength in episode four, now joining instead of shaping.",
+  "must_show": "two red-hot chain links overlapped on an anvil under a raised hammer, sparks at the joining point",
+  "must_not_show": "modern welding torches, machines, faces to lens",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 12.064
+ },
+ {
+  "era": "first-century",
+  "scene": "Gathered in one: at golden harvest, work-hands bind a dozen cut wheat sheaves into ONE great standing sheaf \u2014 the cord pulled tight around the gathered waists of grain, loose stalks being pressed into the bundle, stubble-field and afternoon sky beyond. Paul's word, in straw.",
+  "must_show": "hands binding many sheaves into one great sheaf with a tightened cord at harvest",
+  "must_not_show": "machinery, faces, storm",
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 12.064,
+  "end": 43.09
+ },
+ {
+  "era": "modern",
+  "scene": "Every link, spliced: the great rope coiled on plain boards in raking light \u2014 and down its length, SIX distinct long-splices visible, each old break woven back stronger, the line continuous from first coil to last. All the dispensations, in one object the series has carried. No people.",
+  "must_show": "a coiled rope with six visible long-splices down its continuous length in raking light",
+  "must_not_show": "frays, knives, hands, text",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 43.09,
+  "end": 50.13
+ },
+ {
+  "era": "ancient",
+  "scene": "Daniel in Babylon: the seer stands at a high palace window at night \u2014 the torch-lit ziggurats and hanging terraces of the empire spread below him \u2014 his back to the room's opulence, his face in profile lifted from the city toward the dark mountains beyond it, where the dream said the stone would come from.",
+  "must_show": "Daniel in profile at a high night window over torch-lit Babylon, gaze on the dark mountains beyond",
+  "must_not_show": "his eyes on the lens, courtiers, readable writing",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 50.13,
+  "end": 60.861
+ },
+ {
+  "era": "ancient",
+  "scene": "Cut without hands: a great rounded stone mid-ROLL down a mountain's scree slope \u2014 dust bursting at each strike, its path visibly begun at a raw notch high on the peak behind it, and NO figure, machine or hand anywhere on the mountain. Momentum with no explanation. The kingdoms' valley waits below.",
+  "must_show": "a great stone mid-roll down a scree slope from a raw notch above, dust bursting, nobody anywhere",
+  "must_not_show": "hands, figures, machinery, cities crushed in frame",
+  "wide": true,
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 60.861,
+  "end": 75.248
+ },
+ {
+  "era": "america-1820",
+  "scene": "The stone is people: two young missionaries walk a dirt road two-by-two at morning \u2014 satchels on shoulders, worn boots, the road running ahead through open 1830s farm country \u2014 seen from behind, mid-stride, unhurried and unstoppable. This is what rolling looks like.",
+  "must_show": "two satchel-bearing missionaries from behind walking a morning dirt road through farm country",
+  "must_not_show": "faces, wagons, name tags readable",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 75.248,
+  "end": 82.978
+ },
+ {
+  "era": "america-1820",
+  "scene": "Crossing oceans within the decade: at a ship's rail in grey-gold dawn, two more stand with their satchels looking toward a coastline just rising from the sea \u2014 the water wide behind them, the new field ahead \u2014 seen from beside and behind at the rail. The stone, learning to swim.",
+  "must_show": "two missionaries at a ship's rail from behind-beside, a coastline rising ahead at dawn",
+  "must_not_show": "faces, steamships modern, flags readable",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 82.978,
+  "end": 88.776
+ },
+ {
+  "era": "modern",
+  "scene": "Today: a bright modern chapel mid-hymn \u2014 a congregation of every ancestry on earth singing from shared hymnbooks, children on laps, an old islander grandmother and a young African father sharing one book's edge \u2014 every face down at the pages or up in song, none at the lens. One church, everywhere at once.",
+  "must_show": "a modern all-ancestries congregation mid-hymn sharing books, children on laps",
+  "must_not_show": "readable hymn text, faces to camera, brand marks",
+  "wide": true,
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 88.776,
+  "end": 92.641
+ },
+ {
+  "era": "modern",
+  "scene": "Temples on every continent: a white temple at dusk among PALMS \u2014 tropical evening sky, warm doors lit, a family in white walking up from behind \u2014 the Kirtland pattern, twelve time zones from Kirtland. The houses, multiplied.",
+  "must_show": "a lit white temple at dusk among palms with a white-dressed family climbing from behind",
+  "must_not_show": "signage, cars, faces to camera",
+  "wide": true,
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 92.641,
+  "end": 104.729
+ },
+ {
+  "era": "modern",
+  "scene": "For the dead: a temple baptistry \u2014 the great font resting on the backs of twelve sculpted oxen, water still and bright under soft light, white-dressed youth waiting at the rail with their backs to the camera \u2014 the verse from the flood episode, landing in its workroom.",
+  "must_show": "a still bright font on twelve sculpted oxen with white-dressed youth from behind at the rail",
+  "must_not_show": "faces, splashing, readable text",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 104.729,
+  "end": 115.332
+ },
+ {
+  "era": "modern",
+  "scene": "Name by name: a young woman's hand carries a single small white card into the font-room's light \u2014 the printed name on it soft and unreadable, her white sleeve bright, the water's reflection moving on the wall beyond. One great-grandmother's turn, arriving.",
+  "must_show": "a hand carrying one small white card with unreadable print into font-room light",
+  "must_not_show": "readable names, faces, stacks of cards",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 115.332,
+  "end": 135.711
+ },
+ {
+  "era": "modern",
+  "scene": "The rescue runs backward: a long line of unlit candles on a dark table \u2014 and the light is moving DOWN the line the wrong way: the candle nearest the window's sunrise is lighting its neighbor BEHIND it, which lights the one behind that, three flames already alive and travelling into the dark end of the line. Time, being repaid.",
+  "must_show": "a candle line lighting BACKWARD from the sunrise end into the dark end, three flames travelling",
+  "must_not_show": "hands, wax mess, text",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 135.711,
+  "end": 141.803
+ },
+ {
+  "era": "ancient",
+  "scene": "Nothing stays won: the cold dead fire-ring from the ancient camp \u2014 RELIT: a young flame standing up from new kindling inside the old blackened stones, night around it, sparks rising. A hearth the enemy counted as his, burning again. No people.",
+  "must_show": "a young flame relit inside an old blackened fire-ring at night, sparks rising",
+  "must_not_show": "figures, ruins, storm",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 141.803,
+  "end": 147.895
+ },
+ {
+  "era": "ancient",
+  "scene": "The weld, cooled and proven: tongs hold the finished chain up to the light \u2014 the two links now ONE continuous joined link at the centre, the weld-seam smooth and thicker than the metal around it, work-light rimming nothing, just steel that will never come apart. Close.",
+  "must_show": "tongs holding a chain to the light with one smooth welded double-link at centre",
+  "must_not_show": "sparks now, hands bare, rust",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 147.895,
+  "end": 154.172
+ },
+ {
+  "era": "modern",
+  "scene": "You live here: a young family walks up wide temple steps into evening light \u2014 father, mother, a daughter holding each hand, all in Sunday white, seen from behind at the foot of the steps as the doors' warmth takes them in \u2014 the dispensation of gathering, at street level, tonight.",
+  "must_show": "a young family in white from behind climbing temple steps into warm door-light",
+  "must_not_show": "faces, signage, crowds",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 154.172,
+  "end": 163.363
+ },
+ {
+  "era": "modern",
+  "scene": "The stone keeps rolling: sunrise over the curve of open rolling farmland \u2014 the light itself rolling down the hills field by field, waking the world westward, no end of it in sight. Where this is all headed. No people.",
+  "must_show": "sunrise light rolling westward down open farmland hills, no end in sight",
+  "must_not_show": "figures, buildings, drawn rays",
+  "wide": true,
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 163.363,
+  "end": 167.302
+ }
+]

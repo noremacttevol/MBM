@@ -27,8 +27,8 @@ SEGMENTS = [
      "King? You cannot. But you can hunt down every man He authorized — "
      "and that is exactly what happened next."),
     ("n2", NARRATOR,
-     "The apostles turned the world upside down. Thousands baptized. "
-     "Congregations from Jerusalem to Rome. And the enemy's answer came "
+     "The apostles turned the world upside down — thousands choosing "
+     "Christ, baptized by men He authorized. The enemy's answer came "
      "fast."),
     ("n3", NARRATOR,
      "Stephen was first — dragged before the council for preaching "
@@ -38,10 +38,11 @@ SEGMENTS = [
      "Behold, I see the heavens opened, and the Son of man standing on "
      "the right hand of God."),
     ("n4", NARRATOR,
-     "Two Persons — the Son, standing at the Father's right hand — seen "
-     "by a dying man and declared with his last breaths. They stoned him "
-     "for saying it. Stephen was killed praying for his killers — while "
-     "a young man named Saul stood watching the coats."),
+     "Two Persons — the Son standing at the Father's right hand — "
+     "seen, and said aloud. That is the knowledge the devil most "
+     "wants buried, so they stoned the witness. Stephen was killed "
+     "praying for his killers — while a young man named Saul watched "
+     "the coats."),
     ("n5", NARRATOR,
      "Then James, by the sword. Then the hunt went empire-wide. Peter — "
      "crucified. Paul, the coat-watcher turned apostle — beheaded in "

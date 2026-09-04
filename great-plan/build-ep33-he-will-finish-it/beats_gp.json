@@ -7,7 +7,7 @@
   "id": "p01",
   "out": "p01.jpeg",
   "start": 0.0,
-  "end": 9.02
+  "end": 8.428
  },
  {
   "era": "modern",
@@ -17,8 +17,8 @@
   "wide": true,
   "id": "p02",
   "out": "p02.jpeg",
-  "start": 9.02,
-  "end": 19.216
+  "start": 8.428,
+  "end": 14.714
  },
  {
   "era": "modern",
@@ -28,8 +28,8 @@
   "wide": true,
   "id": "p03",
   "out": "p03.jpeg",
-  "start": 19.216,
-  "end": 27.437
+  "start": 14.714,
+  "end": 22.935
  },
  {
   "era": "modern",
@@ -41,8 +41,8 @@
   "wide": true,
   "id": "p04",
   "out": "p04.jpeg",
-  "start": 27.437,
-  "end": 43.417
+  "start": 22.935,
+  "end": 35.773
  },
  {
   "era": "modern",
@@ -52,8 +52,8 @@
   "devil": true,
   "id": "p05",
   "out": "p05.jpeg",
-  "start": 43.417,
-  "end": 58.431
+  "start": 35.773,
+  "end": 50.788
  },
  {
   "era": "modern",
@@ -62,8 +62,8 @@
   "must_not_show": "parents hovering, fear, fantasy styling",
   "id": "p06",
   "out": "p06.jpeg",
-  "start": 58.431,
-  "end": 86.63
+  "start": 50.788,
+  "end": 70.06
  },
  {
   "era": "first-century",
@@ -72,8 +72,8 @@
   "must_not_show": "harvesters, scythes, storm",
   "id": "p07",
   "out": "p07.jpeg",
-  "start": 86.63,
-  "end": 104.161
+  "start": 70.06,
+  "end": 78.433
  },
  {
   "era": "ancient",
@@ -82,8 +82,8 @@
   "must_not_show": "his face close, tears, the returner visible",
   "id": "p08",
   "out": "p08.jpeg",
-  "start": 104.161,
-  "end": 116.616
+  "start": 78.433,
+  "end": 85.283
  },
  {
   "era": "modern",
@@ -92,8 +92,8 @@
   "must_not_show": "signs readable, traffic, their face",
   "id": "p09",
   "out": "p09.jpeg",
-  "start": 116.616,
-  "end": 132.21
+  "start": 85.283,
+  "end": 98.423
  },
  {
   "era": "modern",
@@ -102,8 +102,8 @@
   "must_not_show": "faces, crowds, text",
   "id": "p10",
   "out": "p10.jpeg",
-  "start": 132.21,
-  "end": 160.758
+  "start": 98.423,
+  "end": 115.177
  },
  {
   "era": "modern",
@@ -112,8 +112,8 @@
   "must_not_show": "faces, documents, jewellery",
   "id": "p11",
   "out": "p11.jpeg",
-  "start": 160.758,
-  "end": 178.882
+  "start": 115.177,
+  "end": 128.312
  },
  {
   "era": "heaven",
@@ -125,8 +125,8 @@
   ],
   "id": "p12",
   "out": "p12.jpeg",
-  "start": 178.882,
-  "end": 186.387
+  "start": 128.312,
+  "end": 135.817
  },
  {
   "era": "modern",
@@ -135,8 +135,8 @@
   "must_not_show": "patients, staff, grief objects",
   "id": "p13",
   "out": "p13.jpeg",
-  "start": 186.387,
-  "end": 191.391
+  "start": 135.817,
+  "end": 140.82
  },
  {
   "era": "heaven",
@@ -151,8 +151,8 @@
   ],
   "id": "p14",
   "out": "p14.jpeg",
-  "start": 191.391,
-  "end": 203.756
+  "start": 140.82,
+  "end": 148.775
  },
  {
   "era": "heaven",
@@ -166,8 +166,8 @@
   ],
   "id": "p15",
   "out": "p15.jpeg",
-  "start": 203.756,
-  "end": 214.356
+  "start": 148.775,
+  "end": 156.2
  },
  {
   "era": "modern",
@@ -176,8 +176,8 @@
   "must_not_show": "their face, others, drawn rays, church buildings",
   "id": "p16",
   "out": "p16.jpeg",
-  "start": 214.356,
-  "end": 222.481
+  "start": 156.2,
+  "end": 162.564
  },
  {
   "era": "america-1820",
@@ -187,7 +187,7 @@
   "wide": true,
   "id": "p17",
   "out": "p17.jpeg",
-  "start": 222.481,
-  "end": 226.721
+  "start": 162.564,
+  "end": 167.337
  }
 ]

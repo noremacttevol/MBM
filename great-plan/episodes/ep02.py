@@ -17,8 +17,8 @@ META = "Abraham 3 · Job 38 · Jeremiah 1"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "Last time, you watched two speeches decide the fate of the world. "
-     "This time, something harder to believe. You were in the room."),
+     "Last time, two speeches fought over your freedom. This time, the "
+     "fact the devil most wants erased: you were in the room."),
     ("n2", NARRATOR,
      "Scripture is not shy about this. When God needed to steady a "
      "frightened young prophet, He reminded Jeremiah where he came from:"),
@@ -35,9 +35,9 @@ SEGMENTS = [
      "morning stars sang together, and all the sons of God shouted for "
      "joy?"),
     ("n4", NARRATOR,
-     "All the sons of God, shouting for joy, while the earth was being "
-     "built. That shout was ours. We watched the foundations poured — and "
-     "we cheered, because that world was being built for us."),
+     "All the sons of God, shouting for joy while the earth was built. "
+     "That shout was ours — it proves something: force was the devil's "
+     "plan. Nobody was drafted here. We chose this world, cheering."),
     ("s1", SCRIPTURE,
      "Now the Lord had shown unto me, Abraham, the intelligences that "
      "were organized before the world was; and among all these there were "
@@ -46,9 +46,9 @@ SEGMENTS = [
      "Abraham, thou art one of them; thou wast chosen before thou wast "
      "born."),
     ("n6", NARRATOR,
-     "Chosen before you were born. And that is not poetry reserved for "
-     "Abraham — it is the family truth. Paul stood in the middle of "
-     "Athens and said it to strangers:"),
+     "Chosen before you were born. And that truth is not reserved for "
+     "prophets — you cannot choose a Father nobody told you about. So "
+     "Paul stood in Athens telling strangers:"),
     ("s2", SCRIPTURE,
      "For in him we live, and move, and have our being; as certain also "
      "of your own poets have said, For we are also his offspring."),
@@ -78,8 +78,8 @@ SEGMENTS = [
 ]
 
 CARD_SEG = ("card", NARRATOR,
-            "You are older than the earth. You are a child of God. And you "
-            "chose to be here.")
+            "The devil needs you to forget who you are. You are God's "
+            "child. You chose to be here.")
 
 CARD_TEXT = ("You chose to be here.\n"
              "\n"

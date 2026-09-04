@@ -19,17 +19,17 @@ META = "Abraham 3 · John 1"
 SEGMENTS = [
     ("n1", NARRATOR,
      "Between the war and your birth, something enormous had to be built. "
-     "A world. This one. And who built it — and what for — changes how it "
-     "feels to live in it."),
+     "A world. This one. The devil will claim it as his — so watch who "
+     "actually built it, and why."),
     ("s1", SCRIPTURE,
      "And there stood one among them that was like unto God, and he said "
      "unto those who were with him: We will go down, for there is space "
      "there, and we will take of these materials, and we will make an "
      "earth whereon these may dwell."),
     ("n2", NARRATOR,
-     "One like unto God. That is Jehovah — the premortal Jesus. Under the "
-     "Father's direction, the Son led the building of this world. John "
-     "says it flat out:"),
+     "One like unto God. That is Jehovah — the premortal Jesus. The Son "
+     "who yielded to the Father now does the building. John says it flat "
+     "out:"),
     ("s2", SCRIPTURE,
      "All things were made by him; and without him was not any thing made "
      "that was made."),
@@ -45,7 +45,7 @@ SEGMENTS = [
      "whatsoever the Lord their God shall command them."),
     ("n5", NARRATOR,
      "We will prove them. This world is a proving ground. But be careful "
-     "with that word — it does not mean what fear tells you it means."),
+     "— the devil twists that word into a threat. It is not one."),
     ("n6", NARRATOR,
      "God is not grading you to find out if you're good enough. He knew "
      "you before the womb — He already knows His children perfectly. The "
@@ -65,10 +65,10 @@ SEGMENTS = [
      "— and we will not pretend He has. What He revealed is who built it, "
      "and why. And that is the part that changes your Monday."),
     ("n10", NARRATOR,
-     "Because if this world is an accident, so are you, and nothing means "
-     "anything. But if every sunrise is architecture — if the whole planet "
-     "is a classroom built by Someone who intends His children to "
-     "graduate — then your hardest day here is not chaos. It is "
+     "The devil sells the accident story for a reason: an accident means "
+     "nothing and chooses nothing. But if every sunrise is architecture — "
+     "if this planet is a classroom built by Someone who intends His "
+     "children to graduate — then your hardest day is not chaos. It is "
      "curriculum."),
     ("n11", NARRATOR,
      "The devil calls this earth his kingdom. Do not believe him. He "
@@ -77,8 +77,8 @@ SEGMENTS = [
 ]
 
 CARD_SEG = ("card", NARRATOR,
-            "This world is not an accident. It is a classroom — and you "
-            "were meant to graduate.")
+            "The devil built nothing. This world is your Father's "
+            "classroom — and you were meant to graduate.")
 
 CARD_TEXT = ("Every sunrise\n"
              "is architecture.\n"

@@ -26,10 +26,9 @@ SEGMENTS = [
      "boy is about to walk into the woods with one question — and end a "
      "seventeen-hundred-year famine."),
     ("n2", NARRATOR,
-     "His town was at war over religion. Camp meetings, rival preachers, "
-     "every church claiming to be right. Joseph Smith wanted his sins "
-     "forgiven and wanted to know where to go. And nobody's answer settled "
-     "anything."),
+     "His town was at war over religion — rival preachers, every "
+     "church claiming to be right. That noise is the famine: no way to "
+     "tell who is right. Joseph Smith wanted to know where to go."),
     ("s1", SCRIPTURE,
      "If any of you lack wisdom, let him ask of God, that giveth to all men "
      "liberally, and upbraideth not; and it shall be given him."),
@@ -38,10 +37,10 @@ SEGMENTS = [
      "Not a preacher. Not a council. Ask the God who gives to everyone, "
      "generously — and never scolds you for asking."),
     ("n4", NARRATOR,
-     "So on the morning of a beautiful clear spring day, he walked into the "
-     "grove of trees on his family's farm, found the place he had picked "
-     "out, knelt down — and for the first time in his life, prayed out "
-     "loud."),
+     "So on a beautiful clear spring morning, he walked into the grove, "
+     "found the place he had picked, knelt — and for the first time in "
+     "his life, prayed out loud. A boy, testing seventeen centuries of "
+     "shut doors."),
     ("n5", NARRATOR,
      "And the darkness came for him first. Remember whose kingdom that "
      "prayer threatened. A power seized him. It bound his tongue so he "
@@ -65,9 +64,9 @@ SEGMENTS = [
      "The authority had left the earth centuries ago — and heaven was "
      "about to bring it back."),
     ("n9", NARRATOR,
-     "He walked out of those trees into a world that would hate him "
-     "for it. He was fourteen — and he never took one word of it back. "
-     "Years later, he wrote:"),
+     "He walked out a witness the devil had to discredit — the scorn "
+     "began at once. He was fourteen — and never took one word of it "
+     "back. Years later, he wrote:"),
     ("s4", SCRIPTURE,
      "I had actually seen a light, and in the midst of that light I saw "
      "two Personages, and they did in reality speak to me; and though I "

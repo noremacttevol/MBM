@@ -1,0 +1,230 @@
+[
+ {
+  "era": "ancient",
+  "scene": "A grain field before dawn, uneasy: standing barley moving in a low wind under a grey-violet sky, mist lying between the rows, the light not yet decided \u2014 beautiful and wrong at once, like held breath. No people.",
+  "must_show": "a pre-dawn barley field in low wind and lying mist, uneasy stillness",
+  "must_not_show": "figures, birds, buildings, storm drama",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 9.546
+ },
+ {
+  "era": "ancient",
+  "scene": "Two altars, two smokes: on the offering hill, Abel's altar burns clean \u2014 its smoke rising in one straight bright column \u2014 while a stone's throw away Cain's altar of heaped produce smoulders, its smoke crawling low and sideways along the ground. The two smoke behaviours share one frame, morning light hard between them. The brothers stand small, each by his own altar, faces away.",
+  "must_show": "one straight bright smoke column and one low crawling smoke in the same frame, a small figure by each altar",
+  "must_not_show": "faces readable, flames huge, darkness overhead",
+  "wide": true,
+  "locks": [
+   "CAIN"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 9.546,
+  "end": 19.88
+ },
+ {
+  "era": "ancient",
+  "scene": "Jealousy hardening: Cain's face in close three-quarter, lit from the side by his brother's distant bright fire while his own smoke drags grey across the frame's lower edge \u2014 his eyes fixed off-frame on the straight column he did not get, the muscles of his jaw setting like mortar.",
+  "must_show": "Cain's close three-quarter face hardening, lit by a distant brightness he stares at off-frame",
+  "must_not_show": "his eyes on the lens, tears, snarling, any figure behind him",
+  "locks": [
+   "CAIN"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 19.88,
+  "end": 26.769
+ },
+ {
+  "era": "ancient",
+  "scene": "The refusal, felt: Cain kneels before his cold smouldering altar with both fists pressed on his knees, head dropped \u2014 and beyond him, out of focus, Abel's column still climbs bright and untroubled. The frame's far corner holds a faint COLD tinge in the air, formless, pleased. Camera at his side; his face is hidden by the drop of his head.",
+  "must_show": "Cain fist-kneeling before cold smoulder, Abel's bright column soft beyond, a faint formless cold tinge at one corner",
+  "must_not_show": "any shape in the cold tinge, his face visible, lightning",
+  "devil": true,
+  "locks": [
+   "CAIN"
+  ],
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 26.769,
+  "end": 50.182
+ },
+ {
+  "era": "ancient",
+  "scene": "Toward the voice: Cain walks alone into the mouth of a dark ravine at dusk, seen full-length from directly behind, his figure small between rising rock walls that swallow the evening light ahead of him \u2014 the darkness he walks toward empty and total, without any shape in it.",
+  "must_show": "Cain from directly behind entering a dark empty ravine mouth at dusk",
+  "must_not_show": "any figure or eyes in the dark ahead, his face, torches",
+  "devil": true,
+  "locks": [
+   "CAIN"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 50.182,
+  "end": 55.375
+ },
+ {
+  "era": "ancient",
+  "scene": "The oath: deep in the ravine dark, Cain's own right hand is pressed flat against his own throat \u2014 the literal gesture of the words \u2014 his face half-swallowed by shadow, the visible half hollow-eyed and lit only by the last grey light from above, his gaze aimed into the empty blackness before him where no one stands.",
+  "must_show": "Cain's hand flat on his own throat, half-shadowed hollow face aimed into empty blackness",
+  "must_not_show": "any second figure, eyes or shape in the black; underlight from below; his eyes on the lens",
+  "devil": true,
+  "locks": [
+   "CAIN"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 55.375,
+  "end": 71.864
+ },
+ {
+  "era": "ancient",
+  "scene": "Mahan walks out: Cain strides out of the ravine mouth in hard profile, changed \u2014 spine straight, jaw set, eyes forward and cold, the dusk behind him and his shadow thrown long ahead of him across the stones by the risen moon.",
+  "must_show": "Cain in hard profile striding from the ravine, long moon-shadow thrown ahead",
+  "must_not_show": "his eyes on the lens, weapons, any figure behind",
+  "locks": [
+   "CAIN"
+  ],
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 71.864,
+  "end": 85.495
+ },
+ {
+  "era": "ancient",
+  "scene": "The franchise opens: at a small night fire away from the camp, Cain leans in with his right hand raised in a teaching oath-gesture toward two younger kinsmen who lean close, firelight on three conspiring faces, every gaze locked on Cain's raised hand \u2014 the first initiation. Camera outside the huddle; no face toward the lens.",
+  "must_show": "Cain's raised oath-hand over a leaning firelit huddle of two initiates, camera outside the circle",
+  "must_not_show": "faces to camera, knives visible, documents",
+  "locks": [
+   "CAIN"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 85.495,
+  "end": 89.926
+ },
+ {
+  "era": "ancient",
+  "scene": "The dark mirror: in a night hollow below the bluffs, nine men kneel in a silent ring around one low red fire, heads bowed in wrong-sacred order, their shadows spoking outward up the hollow's walls \u2014 organized, reverent, and aimed at nothing holy. Seen from the hollow's rim looking down; every head bowed, no face visible.",
+  "must_show": "nine men kneeling in a ring around one low red fire in a night hollow, shadows spoking outward, seen from the rim",
+  "must_not_show": "faces visible, torches, animal masks, any non-human shape",
+  "wide": true,
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 89.926,
+  "end": 93.551
+ },
+ {
+  "era": "ancient",
+  "scene": "The field, after: wide at dusk \u2014 Abel lies UNMOVING in the trampled barley, one arm outflung, his herdsman's staff fallen a stride away, his face turned from the camera into the stalks; near him a single dropped fieldstone, dark side down. Crows lift from the far rows into a bruised sky. No wound or blood is visible \u2014 and nothing about the stillness reads as sleep: this man is gone.",
+  "must_show": "Abel plainly dead in trampled grain \u2014 outflung arm, fallen staff, dropped stone, lifting crows \u2014 no wounds shown",
+  "must_not_show": "blood, wounds, Cain in frame, a peaceful sleeping pose",
+  "wide": true,
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 93.551,
+  "end": 99.623
+ },
+ {
+  "era": "ancient",
+  "scene": "The first grave: Adam and Eve at a fresh stone-covered mound at sundown \u2014 Eve collapsed sideways into Adam's chest, her fist gripping his tunic, his arms locked around her and his broken face lifted to the sky \u2014 both in profile, the mound small and terrible before them.",
+  "must_show": "Eve collapsed into Adam at a fresh stone mound, his broken face lifted, profiles at sundown",
+  "must_not_show": "faces to camera, the body, wailing crowds",
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 99.623,
+  "end": 103.265
+ },
+ {
+  "era": "ancient",
+  "scene": "Heaven answers the ground: rain begins over the fresh mound in near-darkness \u2014 the first heavy drops striking the stacked stones and the raw earth, bouncing bright in what little light is left, the field blurred grey beyond. The sky itself weeping onto the grave. No people.",
+  "must_show": "first heavy raindrops striking a fresh stone mound in near-dark, sky weeping",
+  "must_not_show": "figures, lightning, flowers, text",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 103.265,
+  "end": 105.693
+ },
+ {
+  "era": "ancient",
+  "scene": "Handed down: by a guttering lamp in a mud-walled room, an old man leans to whisper into a young man's ear \u2014 the elder's hand pressing a small heavy pouch into the young one's palm between them \u2014 both faces in shadowed profile, the young man's eyes wide with the weight of what he is receiving.",
+  "must_show": "an elder whispering into a young man's ear over a pressed pouch, shadowed profiles, guttering lamp",
+  "must_not_show": "faces to camera, knives, readable marks",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 105.693,
+  "end": 114.189
+ },
+ {
+  "era": "ancient",
+  "scene": "The franchise, centuries on: cloaked men stand in a torch-lit slot canyon at night, right hands raised together over a low fire in a sworn ring \u2014 a dozen of them, faces shadowed under drawn cowls or turned to the fire, the canyon walls climbing black above the torchlight. Ancient American robber-band iron and leather; nothing modern.",
+  "must_show": "a torch-lit ring of cloaked men with right hands raised in oath over a low fire in a slot canyon",
+  "must_not_show": "faces clearly visible, banners, readable symbols, any non-human shape",
+  "wide": true,
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 114.189,
+  "end": 124.5
+ },
+ {
+  "era": "modern",
+  "scene": "The same franchise, today: a dark modern back room \u2014 neat banded stacks of unmarked cash on a steel table beside a matte-black handgun and a burner phone, one hard task-lamp throwing them into relief, the rest of the room falling to black. No people; the tools say everything.",
+  "must_show": "banded cash, a handgun and a phone under one hard lamp on a steel table, room falling to black",
+  "must_not_show": "any person, brand marks, readable serials or screens, drugs",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 124.5,
+  "end": 131.373
+ },
+ {
+  "era": "ancient",
+  "scene": "Covenants of light: two work-worn hands clasped over an open family book of scripture at a bright wooden table, morning window light across the pages and the joined hands \u2014 a bond with nothing to hide, close and warm. The page's print stays soft and unreadable.",
+  "must_show": "two clasped hands over open scripture in bright morning window light",
+  "must_not_show": "readable text, faces, jewellery prominent, dimness",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 131.373,
+  "end": 140.993
+ },
+ {
+  "era": "modern",
+  "scene": "Leaving the hidden thing: a man steps out of a dim doorway into full daylight on a present-day street, seen from behind at the threshold \u2014 the room behind him falling to shadow, the street ahead ordinary and bright, his shoulders dropping with the first free breath.",
+  "must_show": "a man from behind stepping from a dim doorway into ordinary bright daylight",
+  "must_not_show": "his face, signage, brand marks, anyone else",
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 140.993,
+  "end": 148.864
+ },
+ {
+  "era": "ancient",
+  "scene": "The altar still burns: the first family gathered at the hilltop altar in morning light again \u2014 fewer, and wounded, and STANDING: Adam's arm around Eve, the children close, the offering smoke rising straight \u2014 seen from behind the family half-circle, the valley bright beyond.",
+  "must_show": "the smaller family standing close at the burning altar, straight smoke, seen from behind",
+  "must_not_show": "faces to camera, graves in frame, darkness",
+  "wide": true,
+  "locks": [
+   "ADAM",
+   "EVE"
+  ],
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 148.864,
+  "end": 156.374
+ },
+ {
+  "era": "ancient",
+  "scene": "What it all pointed to: a living lamb standing calm in morning light beside the altar stones, wool bright, dark eyes gentle \u2014 close, quiet, and completely at peace. The answer to every oath of darkness, breathing.",
+  "must_show": "a calm living lamb close beside altar stones in morning light",
+  "must_not_show": "ropes, blood, distress, people",
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 156.374,
+  "end": 161.381
+ }
+]

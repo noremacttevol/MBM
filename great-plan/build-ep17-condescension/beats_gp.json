@@ -1,0 +1,217 @@
+[
+ {
+  "era": "first-century",
+  "scene": "The arrival vector: the earth from high space, its dawn line burning gold across dark oceans and cloud \u2014 the whole waiting world turning slowly into light, seen the way heaven saw it the week the King went down. No figures, no text.",
+  "must_show": "the earth's gold dawn line from high space, the world turning into light",
+  "must_not_show": "satellites, country outlines prominent, text, figures",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 8.038
+ },
+ {
+  "era": "first-century",
+  "scene": "The unlikely address: Nazareth in morning light \u2014 a small huddle of flat-roofed limestone houses on a Galilean hillside, terraced olives, smoke from cook-fires, washing on a line, a donkey in a lane. Utterly ordinary; about to be the most famous village on earth.",
+  "must_show": "small ordinary hillside Nazareth in morning light \u2014 flat roofs, olives, wash lines",
+  "must_not_show": "crowds, palaces, temples, figures close",
+  "wide": true,
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 8.038,
+  "end": 15.686
+ },
+ {
+  "era": "first-century",
+  "scene": "The yes: young Mary stands in her small stone room flooded from one high window by extraordinary morning brilliance \u2014 her face lifted into the light in three-quarter, one hand flat over her heart, the other open at her side \u2014 the stillness of a girl saying the bravest yes in history. No figure appears in the light.",
+  "must_show": "young Mary's lifted three-quarter face in window brilliance, hand flat on heart, open palm",
+  "must_not_show": "any figure in the light, wings, halo, her eyes on the lens",
+  "locks": [
+   "MARY-N"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 15.686,
+  "end": 21.228
+ },
+ {
+  "era": "first-century",
+  "scene": "The road heavy: Joseph leads the donkey bearing Mary along a stony dusk road toward distant Bethlehem's lamplit terraces \u2014 both seen from behind, his hand tight on the halter, her mantle wrapped close, the last light dying violet over the hills ahead.",
+  "must_show": "Joseph leading the donkey with Mary from behind on a dusk road toward lamplit Bethlehem",
+  "must_not_show": "faces, snow, crowds, drawn star yet",
+  "wide": true,
+  "locks": [
+   "MARY-N",
+   "JOSEPH-C"
+  ],
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 21.228,
+  "end": 26.487
+ },
+ {
+  "era": "first-century",
+  "scene": "No room: an inn's heavy door swings shut from within \u2014 the warm lamplight narrowing to a thread across the worn threshold stone, a innkeeper's arm barely visible on the closing edge \u2014 the oldest closed door in the world's most repeated story. Close on the narrowing light.",
+  "must_show": "an inn door closing, lamplight narrowing to a thread across the threshold",
+  "must_not_show": "faces, argument, the holy family in frame",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 26.487,
+  "end": 29.117
+ },
+ {
+  "era": "first-century",
+  "scene": "The throne: inside the stable's lantern-warmth, Mary cradles the newborn against her cheek, Joseph kneeling close with one protective hand on the manger's edge, the ox and donkey dim shapes of warmth beyond \u2014 every face bent to the child, the child's small face at peace. Reverent, close, golden.",
+  "must_show": "Mary's cheek at the newborn's head, Joseph kneeling with hand on the manger, animals dim beyond, all faces on the child",
+  "must_not_show": "halos, visible breath of God effects, kings yet, faces to camera",
+  "locks": [
+   "MARY-N",
+   "JOSEPH-C"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 29.117,
+  "end": 31.747
+ },
+ {
+  "era": "first-century",
+  "scene": "The announcement: on the night hillside the shepherds are caught mid-recoil \u2014 one thrown back on his elbow, one shielding his eyes, one already on his knees \u2014 as immense brilliance floods down on them from above the frame's top edge, their flock scattering bright at the edges. The light's source stays above the frame; their faces hold terror turning to joy.",
+  "must_show": "shepherds mid-recoil in flooding brilliance from above the frame, terror turning joy, flock scattering",
+  "must_not_show": "any figure in the light, wings, halo, drawn rays",
+  "wide": true,
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 31.747,
+  "end": 38.594
+ },
+ {
+  "era": "first-century",
+  "scene": "The run: the shepherds sprint downhill toward the town's lamplit terraces \u2014 staffs in hand, cloaks streaming, one laughing aloud mid-stride \u2014 seen from the side in the strange bright night, joy at a dead run.",
+  "must_show": "shepherds sprinting downhill toward lamplit terraces, cloaks streaming, joy",
+  "must_not_show": "faces to camera, the light source shown, drawn star",
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 38.594,
+  "end": 43.158
+ },
+ {
+  "era": "ancient",
+  "scene": "The other hemisphere's sign: a new-world stone city at midnight lit exactly like noon \u2014 streets and stepped temple bright as day under a deep-blue star-pricked sky with NO sun anywhere, people standing motionless in the streets staring upward, shadows soft and sourceless. Beautiful and impossible.",
+  "must_show": "a stone city at midnight lit like noon under a sunless star-pricked sky, people staring up",
+  "must_not_show": "a sun or moon in frame, panic, fires, drawn rays",
+  "wide": true,
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 43.158,
+  "end": 53.242
+ },
+ {
+  "era": "ancient",
+  "scene": "As light as mid-day: on a flat rooftop in the bright night, a Nephite family stands amazed \u2014 the father's arm around the mother, and their small daughter pointing straight up at the blazing sunless sky, her mouth open \u2014 every face upturned and washed in the impossible light.",
+  "must_show": "a rooftop family in the bright sunless night, small daughter pointing straight up, faces washed in light",
+  "must_not_show": "a sun, faces to camera, fear",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 53.242,
+  "end": 60.549
+ },
+ {
+  "era": "first-century",
+  "scene": "One sky for both: the new star standing over sleeping Bethlehem \u2014 larger and stiller than every other light in the deep-blue field, the town's terraces silver beneath it, one lamp still burning somewhere low. The same sky that blazed over the other sheep. Quiet as a kept promise.",
+  "must_show": "one large still star over sleeping silver Bethlehem terraces",
+  "must_not_show": "drawn rays off the star, angels, figures",
+  "wide": true,
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 60.549,
+  "end": 67.13
+ },
+ {
+  "era": "first-century",
+  "scene": "The enemy moves a king: torch-lit palace hall \u2014 Herod leaning forward off his throne mid-command, his arm thrust toward the door, face knotted with fear wearing anger \u2014 and a file of soldiers already turning away to obey, spears swinging toward the exit, their faces grim and shadowed. The order is the whole frame; nothing that follows is ever shown.",
+  "must_show": "Herod mid-command off his throne, soldiers turning to leave with grim shadowed faces",
+  "must_not_show": "violence, children, mothers, blood, streets",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 67.13,
+  "end": 76.678
+ },
+ {
+  "era": "ancient",
+  "scene": "The enemy floods a rumor: around a night fire, new-world scoffers laugh too loudly \u2014 one mimicking a stargazer with waggling fingers at the sky, another doubled over, wine cups loose \u2014 mockery as strategy, every face lit cruel-bright by the flames, none toward the camera.",
+  "must_show": "firelit scoffers mid-mockery, one mimicking a stargazer at the sky, cruel bright laughter",
+  "must_not_show": "faces to camera, weapons, believers in frame",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 76.678,
+  "end": 86.227
+ },
+ {
+  "era": "first-century",
+  "scene": "The dream obeyed: under deep stars Joseph leads the donkey away at speed \u2014 Mary's mantled shape curved around the bundled child on its back \u2014 both seen from behind on a desert track running toward Egypt's flat dark horizon, Bethlehem's faint lights already far behind the frame's edge.",
+  "must_show": "Joseph hurrying the donkey with mantled Mary and child from behind under deep stars toward a flat horizon",
+  "must_not_show": "pursuers, faces, city close behind, dawn",
+  "wide": true,
+  "locks": [
+   "MARY-N",
+   "JOSEPH-C"
+  ],
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 86.227,
+  "end": 92.023
+ },
+ {
+  "era": "ancient",
+  "scene": "The believers hold: in the impossible bright night, a circle of new-world believers kneels together in a courtyard \u2014 faces steady and lifted, hands joined or pressed to hearts, the mockers' distant fire a small red point far beyond the wall. Faith, holding its ground in the light.",
+  "must_show": "kneeling believers with steady lifted faces in the bright night, mockers' fire a far red point",
+  "must_not_show": "fear, faces to camera, weapons",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 92.023,
+  "end": 109.014
+ },
+ {
+  "era": "ancient",
+  "scene": "Nephi's answer: young Nephi kneels on a high place in vision-light, face lifted to an unseen questioner above the frame \u2014 his expression the exact mixture the verse holds: certain love, honest unknowing \u2014 strong young features open and unashamed under the question.",
+  "must_show": "young Nephi's lifted face holding certain love and honest unknowing together",
+  "must_not_show": "the angel shown, his eyes on the lens, halo",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 109.014,
+  "end": 119.412
+ },
+ {
+  "era": "first-century",
+  "scene": "He came: the newborn's whole hand wrapped around Mary's finger in the lantern light \u2014 the grip strong, the small knuckles new \u2014 the same image every episode of this series has carried, now holding the finger of his own mother in the world he made. Extreme close.",
+  "must_show": "the newborn's hand gripping Mary's finger in lantern light, extreme close",
+  "must_not_show": "faces, halo, jewellery, text",
+  "locks": [
+   "MARY-N"
+  ],
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 119.412,
+  "end": 138.839
+ },
+ {
+  "era": "first-century",
+  "scene": "No lower floor: the manger itself, close \u2014 rough-adzed wood packed with straw, the sleeping newborn swaddled in plain cloth within it, lantern warmth raking the wood grain and the small still face. The throne the strategy chose. Nothing else in frame.",
+  "must_show": "the swaddled sleeping newborn close in the rough straw-packed manger, lantern warmth",
+  "must_not_show": "halos, gifts, figures, animals close",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 138.839,
+  "end": 156.356
+ },
+ {
+  "era": "first-century",
+  "scene": "The strategy at rest: the star over the sleeping town once more, wider \u2014 the hills silver, the stable's one faint lamp low on the slope, the immense quiet of a world that does not yet know what just arrived. No figures.",
+  "must_show": "the still star over silver hills and the stable's one faint low lamp",
+  "must_not_show": "angels, drawn rays, figures, text",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 156.356,
+  "end": 161.336
+ }
+]

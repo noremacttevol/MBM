@@ -43,9 +43,9 @@ SEGMENTS = [
      "room being kept honest. He is closer than the veil feels. And the "
      "veil is thinner than you think."),
     ("n6", NARRATOR,
-     "But forgetting was the smaller risk. Here is the bigger one: down "
-     "here, everyone sins. Everyone dies. If the story ended there, "
-     "mortality would be a trap, not a school."),
+     "But forgetting was the smaller risk. The bigger one: down here, "
+     "everyone sins. Everyone dies. The devil counted on that — end the "
+     "story there, and the school becomes his trap."),
     ("n7", NARRATOR,
      "So before the first breath was ever drawn — before Adam, before "
      "Eden, before the earth itself — the rescue was already signed."),

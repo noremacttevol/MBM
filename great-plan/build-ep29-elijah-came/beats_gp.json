@@ -1,0 +1,197 @@
+[
+ {
+  "era": "america-1820",
+  "scene": "April sixth: a log farmhouse main room packed shoulder to shoulder \u2014 plain-dressed believers on benches and standing along the walls, Joseph at the front table with the thick new book and a paper before him, spring light through small panes \u2014 a church being organized in a living room, formal as a founding, warm as a family. Camera from the back corner past shoulders.",
+  "must_show": "a packed farmhouse room with Joseph at a front table, book and paper before him, seen past shoulders",
+  "must_not_show": "readable documents, vestments, faces to camera",
+  "locks": [
+   "JOSEPH-1836"
+  ],
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 15.803
+ },
+ {
+  "era": "america-1820",
+  "scene": "Sustained: every hand in the crowded room RAISED at once \u2014 a forest of work-rough right hands up in the window light, faces earnest beneath them, the unanimous arm of common consent \u2014 seen from the front corner across the raised field. No face toward the lens.",
+  "must_show": "a room of simultaneously raised work-rough right hands, earnest faces beneath",
+  "must_not_show": "ballots, applause, faces to camera",
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 15.803,
+  "end": 21.726
+ },
+ {
+  "era": "america-1820",
+  "scene": "Built at sacrifice: on the Kirtland scaffolds at golden evening, men haul dressed stone while below, at a plank table, women CRUSH their own china teacups and plates with wooden mallets into a glittering bowl \u2014 the fragments destined for the plaster \u2014 one woman pausing over a painted cup a heartbeat before breaking it. Devotion, measured in heirlooms.",
+  "must_show": "women mallet-crushing their own china into a glittering bowl below temple scaffolds, one pausing over a painted cup",
+  "must_not_show": "sadness played as misery, faces to camera, modern tools",
+  "wide": true,
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 21.726,
+  "end": 30.57
+ },
+ {
+  "era": "america-1820",
+  "scene": "The house, ready: the finished Kirtland temple at dawn \u2014 the tall gothic-windowed white house on its rise, its china-flecked plaster walls catching the first sun in a fine mineral sparkle, dew on the grass slope, the young settlement's cabins small and humble beyond. A house waiting for its visitors.",
+  "must_show": "the finished white temple at dawn, plaster subtly sparkling, humble cabins beyond",
+  "must_not_show": "crowds, halo effects, modern buildings",
+  "wide": true,
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 30.57,
+  "end": 36.466
+ },
+ {
+  "era": "america-1820",
+  "scene": "Behind the veils: inside, at the west pulpits, the white curtain-veils are lowered around the upper stand \u2014 and through the gauze, the shapes of two men bowed in prayer, heads down, utterly still \u2014 the assembly room's tall windows flooding spring light across the empty curved benches. Solemnity you can hear.",
+  "must_show": "two bowed praying shapes behind lowered pulpit veils in a light-flooded empty assembly room",
+  "must_not_show": "congregation, faces, the vision yet",
+  "locks": [
+   "JOSEPH-1836",
+   "OLIVER-C"
+  ],
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 36.466,
+  "end": 51.048
+ },
+ {
+  "era": "america-1820",
+  "scene": "The Lord accepts His house: Jesus stands UPON the breastwork of the pulpit \u2014 exactly as the record says \u2014 the cream robe still, his familiar face glad beyond what the frame can hold \u2014 while below him the two men, both clearly GROWN MEN of thirty in dark 1836 coats, have fallen back from their knees in awe, the veils stirred by no wind of earth. The house, worth every teacup.",
+  "must_show": "Jesus standing upon the pulpit breastwork, two grown men of thirty fallen back in awe below",
+  "must_not_show": "boys or teenagers kneeling, wings, halo, aura outline, white hair",
+  "jesus": true,
+  "ref": true,
+  "locks": [
+   "JOSEPH-1836",
+   "OLIVER-C"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 51.048,
+  "end": 59.153
+ },
+ {
+  "era": "america-1820",
+  "scene": "The rushing of great waters: Jesus's face close in the vision's brilliance \u2014 the locked features alight with sovereign joy, eyes carrying that flame-of-fire intensity the two men wrote down with shaking hands, gaze angled down toward the unseen witnesses below the frame. Glory, worn by the same face.",
+  "must_show": "Jesus's close alight face, flame-intense eyes angled down toward unseen witnesses",
+  "must_not_show": "his eyes on the lens, halo, white hair, lightning",
+  "jesus": true,
+  "ref": true,
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 59.153,
+  "end": 73.734
+ },
+ {
+  "era": "america-1820",
+  "scene": "Moses returns: the great lawgiver stands glorified in the temple light \u2014 the SAME face from Sinai: long white hair, massive beard, heavy brows \u2014 the striped desert robe become exquisite white, his staff-hand now extended in bestowal over the two bowed heads below the frame's edge. The gathering keys, coming home.",
+  "must_show": "glorified Moses with his exact Sinai face extending a bestowing hand, robe now white",
+  "must_not_show": "wings, halo, aura outline, the staff, faces to lens",
+  "locks": [
+   "MOSES-GP"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 73.734,
+  "end": 82.745
+ },
+ {
+  "era": "america-1820",
+  "scene": "Elias, and the covenant of the tent: a glorified patriarch in the temple light with his hands spread wide in the ancient gesture of covenant-blessing \u2014 dignified, silver-bearded, desert-born \u2014 and faint through the brightness behind him, the suggestion of open tent-cloth folds in the light's own drapery. Abraham's dispensation, folding in.",
+  "must_show": "a glorified silver-bearded patriarch with covenant-blessing hands spread wide in bright drapery-light",
+  "must_not_show": "wings, halo, camels, literal tents, faces to lens",
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 82.745,
+  "end": 91.344
+ },
+ {
+  "era": "america-1820",
+  "scene": "The promised one: ELIJAH stands glorified in the temple light \u2014 the SAME struck-flint eyes and wild grey-streaked hair from Carmel, the ragged fierceness transfigured to blazing joy, the camel-hair mantle become whitest cloth \u2014 the last Old Testament promise, standing in an Ohio temple with his hands already lifting. Malachi's postscript, delivered.",
+  "must_show": "glorified Elijah with his exact Carmel face and struck-flint eyes, fierceness become joy, hands lifting",
+  "must_not_show": "wings, halo, aura outline, fire, faces to lens",
+  "locks": [
+   "ELIJAH"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 91.344,
+  "end": 112.85
+ },
+ {
+  "era": "america-1820",
+  "scene": "The sealing power, pictured: over a simple altar rail in window light, exactly TWO hands \u2014 a child's small smooth hand laid gently on top of a grandfather's aged spotted hand \u2014 each hand clearly joined to its own visible wrist and sleeve, nothing else touching them. Two generations, one promise; the frame implies the rest.",
+  "must_show": "exactly two hands \u2014 a child's on a grandfather's \u2014 over an altar rail, each on its own visible wrist",
+  "must_not_show": "a third hand anywhere, stacked piles of hands, rings prominent, faces, documents",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 112.85,
+  "end": 126.809
+ },
+ {
+  "era": "modern",
+  "scene": "The fine print, torn up: an elderly couple's clasped weathered hands close-up \u2014 her thin ring gone loose with the years, his thumb moving once across her knuckles \u2014 evening lamplight warm on sixty years of hold. A grip with no expiration clause left in it.",
+  "must_show": "an elderly couple's clasped weathered hands, loose thin ring, thumb mid-caress, lamplight",
+  "must_not_show": "faces, hospital context, tears",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 126.809,
+  "end": 137.475
+ },
+ {
+  "era": "modern",
+  "scene": "The fever: a present-day kitchen table drifted deep in the past \u2014 old photographs fanned out, a magnifying glass over one faded face, handwritten letters in unreadable ink, a shoebox of more \u2014 and two hands sorting them with collector's care under the lamp. The pull Elijah started, at one more table.",
+  "must_show": "old photos, unreadable letters and a magnifier being sorted by two careful hands under a lamp",
+  "must_not_show": "readable writing, screens, faces in frame sharp",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 137.475,
+  "end": 143.875
+ },
+ {
+  "era": "modern",
+  "scene": "Hearts turned: a grandfather's finger rests on one face in an old family portrait while a small girl beside him leans in, her own finger rising to the same face, her mouth open mid-question \u2014 two generations meeting a third on paper, warm evening light. The portrait's faces stay soft and unreadable.",
+  "must_show": "grandfather's and granddaughter's fingers meeting on one soft-focus portrait face, her mouth mid-question",
+  "must_not_show": "readable faces in the photo, screens, sadness",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 143.875,
+  "end": 148.141
+ },
+ {
+  "era": "modern",
+  "scene": "The kingdom's houses: a white temple at dusk in the present day \u2014 tall lit spire against a violet sky, warm doors open at the top of the steps, and families in Sunday best walking up toward the light from behind, a father carrying a sleepy child. Elijah's keys, at working hours.",
+  "must_show": "a lit white temple spire at dusk with families from behind climbing toward open warm doors",
+  "must_not_show": "signage readable, cars, faces to camera",
+  "wide": true,
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 148.141,
+  "end": 160.007
+ },
+ {
+  "era": "america-1820",
+  "scene": "Everything back on the table: on plain wood in morning light \u2014 the thick book, the iron lock with its key seated and turned, and the spliced rope coiled beside them: testimony, authority, and the mended line, one still life. The devil's seventeen centuries, undone in six years. No people.",
+  "must_show": "the book, the keyed lock and the spliced rope together in one morning still life",
+  "must_not_show": "readable title, hands, clutter",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 160.007,
+  "end": 164.951
+ },
+ {
+  "era": "america-1820",
+  "scene": "The house that got its visitors: Kirtland at full sunrise \u2014 the white walls sparkling faint with their china, the gothic windows burning gold with morning, the spring sky clean above the spire. A building that kept its appointment. No people.",
+  "must_show": "the Kirtland temple at full sunrise, walls faintly sparkling, windows gold",
+  "must_not_show": "crowds, halo effects, drawn rays",
+  "wide": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 164.951,
+  "end": 167.917
+ }
+]

@@ -22,12 +22,12 @@ META = "1 Nephi 1-2 · John 10"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "Six hundred years before Bethlehem, God did something nobody in "
-     "Jerusalem knew about. It is the reason a second book of scripture "
+     "Six hundred years before Bethlehem, God made a counter-move "
+     "nobody in Jerusalem saw. It is why a second book of scripture "
      "exists."),
     ("n2", NARRATOR,
-     "Jerusalem, six hundred years before Christ. Prophets warning of "
-     "destruction; a city refusing to hear. One of those prophets was a "
+     "Jerusalem, six hundred years before Christ. God sent prophets to "
+     "warn; the devil's answer, as always: silence them. One was a "
      "wealthy man named Lehi — and the city planned to kill him."),
     ("n3", NARRATOR,
      "So God moved him. Family, tents, seeds, everything — out of the "
@@ -48,9 +48,10 @@ SEGMENTS = [
      "this one would pass prophet to prophet — and then be buried, "
      "whole, for the exact century it would be needed."),
     ("n6", NARRATOR,
-     "Lehi's family grew into nations, and their thousand-year story "
-     "became the Book of Mormon. And the constant thread through all of "
-     "it: they knew Christ by name, centuries before the manger."),
+     "Lehi's family grew into nations; their thousand-year story "
+     "became the Book of Mormon — a people who knew Christ by name "
+     "centuries early. You cannot choose a Savior you never heard "
+     "of."),
     ("s1", SCRIPTURE,
      "And we talk of Christ, we rejoice in Christ, we preach of Christ, "
      "we prophesy of Christ, and we write according to our prophecies, "

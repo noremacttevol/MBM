@@ -1,0 +1,229 @@
+[
+ {
+  "era": "ancient",
+  "scene": "The two moods of one world: from a high ridge, a great valley half-covered by the hard shadow of an unseen cloud bank and half in full warm morning light \u2014 the boundary between them a single soft line moving across the fields. No figures; the frame itself is the question of the episode.",
+  "must_show": "one valley split between hard cloud-shadow and warm light by a single soft moving boundary",
+  "must_not_show": "storms, lightning, figures, any shape in the shadow",
+  "wide": true,
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 13.003
+ },
+ {
+  "era": "ancient",
+  "scene": "The call: Enoch stands ankle-deep at a river ford at first light, staff in one hand, his other hand pressed flat over his chest, face lifted in three-quarter toward the brightening sky \u2014 the posture of a man hearing his name and doubting his own tongue. Willows and mist behind him.",
+  "must_show": "Enoch at a misted ford, hand flat on chest, lifted three-quarter face, staff in hand",
+  "must_not_show": "his eyes on the lens, halo, scrolls, crowds",
+  "locks": [
+   "ENOCH-GP"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 13.003,
+  "end": 19.473
+ },
+ {
+  "era": "ancient",
+  "scene": "And they listened: Enoch preaching from a rock shelf above a gathered crowd \u2014 his arm sweeping wide mid-sentence, mantle lifting in the wind \u2014 seen from behind and among the crowd's heads and shoulders so his small commanding figure holds the frame's top, every listening head aimed up at him.",
+  "must_show": "Enoch mid-gesture on a rock shelf seen past the crowd's heads, every head aimed up at him",
+  "must_not_show": "faces to camera, banners, weapons among the crowd",
+  "wide": true,
+  "locks": [
+   "ENOCH-GP"
+  ],
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 19.473,
+  "end": 23.786
+ },
+ {
+  "era": "ancient",
+  "scene": "A city aligning with heaven: a walled hill-city at golden hour with its gates thrown open \u2014 streams of people moving IN together carrying shared harvest baskets, herds funnelling peacefully, cook-smoke rising from a hundred roofs into the gold \u2014 abundance flowing toward each other, not away. Seen from the fields below the gate road.",
+  "must_show": "an open-gated golden hill-city with people streaming in carrying shared harvest",
+  "must_not_show": "guards, weapons, beggars at the gate, faces to camera",
+  "wide": true,
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 23.786,
+  "end": 32.058
+ },
+ {
+  "era": "ancient",
+  "scene": "No poor among them: in the city's market square, a richly-dressed older merchant lays two round loaves and a wrapped cheese into the arms of a young mother whose small daughter grips her skirt \u2014 and BOTH adults are smiling in profile, equals in the exchange, no bow, no shame, morning light across the stalls.",
+  "must_show": "a merchant laying bread into a young mother's arms, both profiles smiling as equals, child at her skirt",
+  "must_not_show": "grovelling, coins, faces to camera, pity theatrics",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 32.058,
+  "end": 37.886
+ },
+ {
+  "era": "ancient",
+  "scene": "One heart, one evening: a lamplit courtyard filled with three generations \u2014 old men and small children on the same benches, mothers with babies, young men \u2014 every face turned to the centre where unseen singing rises, mouths open in the same song, warm light on every different face. Camera at the courtyard's edge past a shoulder.",
+  "must_show": "a lamplit courtyard of all generations singing together, every face into the shared centre",
+  "must_not_show": "instruments prominent, faces to camera, revelry",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 37.886,
+  "end": 47.532
+ },
+ {
+  "era": "ancient",
+  "scene": "Zion received: the whole hill-city stands wrapped in a column of brilliance reaching from its walls up beyond the top of the frame \u2014 the light EVEN and vast, the city's towers and roofs still visible inside it like shapes in bright mist, the fields below rolling with ground-fog away from the hill. Witnessed from the far fields; no figures near the camera.",
+  "must_show": "the entire hill-city standing inside one vast even column of brightness, ground-fog rolling from the hill",
+  "must_not_show": "the city tilting or flying, people visible rising, drawn rays, beams with hard edges",
+  "wide": true,
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 47.532,
+  "end": 62.46
+ },
+ {
+  "era": "ancient",
+  "scene": "Zion is fled: the hilltop the morning after \u2014 empty clean terraces where streets were, doorstone thresholds opening onto nothing, dew bright on the bare foundations, a flight of birds circling the crown of the hill where the temple square stood. Absence shaped exactly like a city. No people.",
+  "must_show": "an empty terraced hilltop of clean thresholds and foundations shaped like a vanished city, circling birds",
+  "must_not_show": "ruins, burn marks, collapse, any figure",
+  "wide": true,
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 62.46,
+  "end": 66.874
+ },
+ {
+  "era": "ancient",
+  "scene": "Enoch shown the world: Enoch stands on a bare mountain summit at the edge of an immense drop, seen from behind, his mantle streaming \u2014 and before him the whole curve of the world lies open under moving cloud and light, kingdoms of distance in one look. The vision's vantage.",
+  "must_show": "Enoch from behind on a summit edge before the open curving world",
+  "must_not_show": "his face, angels, drawn light, text",
+  "wide": true,
+  "locks": [
+   "ENOCH-GP"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 66.874,
+  "end": 74.254
+ },
+ {
+  "era": "ancient",
+  "scene": "The chain: from the summit vantage, the world below being VEILED \u2014 a vast serpentine BAND of darkness winding across the lands like a chain laid over the earth, link-thick and creeping, its darkness formless within, no holder, no hand, no figure anywhere \u2014 only the lit lands ahead of it and the swallowed lands behind it.",
+  "must_show": "a vast chain-like serpentine band of formless darkness winding across the world below",
+  "must_not_show": "ANY hand, arm, figure or face at or in the band; metal links literal; lightning",
+  "wide": true,
+  "devil": true,
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 74.254,
+  "end": 80.864
+ },
+ {
+  "era": "ancient",
+  "scene": "Hearing the laugh: Enoch's face close in three-quarter, lit cold from the darkened world below the frame \u2014 horror and grief fighting in his features, his knuckles white on the staff, eyes fixed down on what the frame does not show.",
+  "must_show": "Enoch's close three-quarter face in cold uplight of grief and horror, white-knuckled on his staff",
+  "must_not_show": "his eyes on the lens, tears yet, any dark shape in frame",
+  "devil": true,
+  "locks": [
+   "ENOCH-GP"
+  ],
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 80.864,
+  "end": 85.27
+ },
+ {
+  "era": "ancient",
+  "scene": "The jailer's delight: closer on the world below \u2014 the dark band tightening around one small lamplit village in a valley, its warm windows the last bright thing as the formless dark closes the ring \u2014 no figure in the darkness, only the shrinking warmth and the creeping cold.",
+  "must_show": "a ring of formless darkness tightening around one lamplit village's last warm windows",
+  "must_not_show": "any figure, eyes or mouth in the dark; flames; screaming people",
+  "devil": true,
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 85.27,
+  "end": 97.596
+ },
+ {
+  "era": "ancient",
+  "scene": "The turn: Enoch turns from the dark vista toward a warmth flooding from the frame's other side \u2014 caught mid-turn in profile, the cold light dying on one side of his face as the warm takes the other, his eyes widening at what waits in the brightness the camera does not yet show.",
+  "must_show": "Enoch mid-turn in profile between cold light and arriving warmth, eyes widening",
+  "must_not_show": "his eyes on the lens, any figure visible yet, halo",
+  "locks": [
+   "ENOCH-GP"
+  ],
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 97.596,
+  "end": 108.05
+ },
+ {
+  "era": "heaven",
+  "scene": "God weeps: the Father's face, close and majestic, gazing down past the frame's lower edge at the veiled world \u2014 and TEARS on His cheeks: two bright unhidden lines running into the silver beard, His features holding all their sovereign steadiness while the tears fall anyway. Silent. Immense. The frame of the whole episode.",
+  "must_show": "the Father's close majestic face with unhidden tear-lines running into the silver beard, gaze down past frame",
+  "must_not_show": "His eyes on the lens, sobbing distortion, halo, red eyes overdone",
+  "locks": [
+   "FATHER"
+  ],
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 108.05,
+  "end": 115.562
+ },
+ {
+  "era": "ancient",
+  "scene": "The heavens weep: grey rain falling in slow silver sheets across dark shouldered mountains, soft light moving inside the fall of it, valleys hushed below \u2014 the scripture's own image, filling the frame. No figures.",
+  "must_show": "silver sheeted rain over dark mountains with soft light moving inside it",
+  "must_not_show": "lightning, floods, figures, text",
+  "wide": true,
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 115.562,
+  "end": 120.57
+ },
+ {
+  "era": "ancient",
+  "scene": "You? Weep?: Enoch's stunned upturned face \u2014 the anger and horror gone, replaced by an astonishment close to breaking, his own eyes brimming as he looks up past the camera at the weeping he cannot fathom, lips parted around the question.",
+  "must_show": "Enoch's stunned brimming upturned face, lips parted in question, gaze past the lens",
+  "must_not_show": "his eyes on the lens, full weeping yet, any figure",
+  "locks": [
+   "ENOCH-GP"
+  ],
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 120.57,
+  "end": 128.978
+ },
+ {
+  "era": "heaven",
+  "scene": "The answer: the Father and Enoch in one profile frame \u2014 the Father's arm extended out over the vista below, open palm down in sorrowing indication of the darkened world, Enoch beside and slightly below Him listening with his head bowed \u2014 the two of them lit warm against the grey rain-light beyond.",
+  "must_show": "the Father's sorrowing open-palm indication over the world with bowed listening Enoch beside him, both in profile",
+  "must_not_show": "faces to camera, halo, the dark band in this frame",
+  "locks": [
+   "FATHER",
+   "ENOCH-GP"
+  ],
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 128.978,
+  "end": 147.044
+ },
+ {
+  "era": "modern",
+  "scene": "Never unnoticed: the present day \u2014 a young woman sits curled on the floor beside her bed at night, head down on her folded arms, and across her and the floorboards lies one long warm panel of light from the window, resting on her like a hand \u2014 seen from across the dim room, her face hidden in her arms.",
+  "must_show": "a grieving young woman curled by her bed with one warm window-light panel resting across her, face hidden",
+  "must_not_show": "her face visible, phone, brand marks, anyone else",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 147.044,
+  "end": 159.025
+ },
+ {
+  "era": "ancient",
+  "scene": "After the weeping: the same mountains as the rain passes \u2014 the sheets thinning to bright threads, sun breaking behind them, the wet slopes beginning to shine, mist rising like released breath from the valleys. Grief that ends in light. No figures.",
+  "must_show": "rain thinning to bright threads over shining wet mountains, mist rising, sun breaking",
+  "must_not_show": "rainbows, figures, drawn rays, text",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 159.025,
+  "end": 166.369
+ }
+]

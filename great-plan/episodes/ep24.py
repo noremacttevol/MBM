@@ -22,26 +22,26 @@ META = "4 Nephi · Mormon 8 · Moroni 10"
 
 SEGMENTS = [
     ("n1", NARRATOR,
-     "While the old world drifted into its long twilight, the other "
-     "hemisphere fell off a cliff. This is the loneliest chapter in "
-     "scripture — and one of the bravest."),
+     "While the devil starved the old world slowly, he took the other "
+     "hemisphere by storm. The loneliest chapter in the whole war — "
+     "and one of the bravest."),
     ("n2", NARRATOR,
      "Remember what the Nephites had. The risen Christ had walked their "
-     "streets. And after he left came two hundred years of actual Zion — "
-     "no poor, no classes, no war, all things common among them."),
+     "streets. Watch what free people who choose him build: two hundred "
+     "years of Zion — no poor, no classes, no war, all things common."),
     ("s1", SCRIPTURE,
      "And surely there could not be a happier people among all the "
      "people who had been created by the hand of God."),
     ("n3", NARRATOR,
-     "Two centuries of the happiest people God ever made. And then pride "
-     "crept back. Fine clothes. Classes. Old grudges, renamed. And out "
-     "of the dark, within living memory of paradise, the secret "
-     "combinations came back."),
+     "Two centuries of the happiest people God ever made. The devil "
+     "cannot force — so he sold them pride. Fine clothes. Classes. "
+     "Grudges, renamed. And within living memory of paradise, his "
+     "oldest franchise reopened: secret combinations."),
     ("n4", NARRATOR,
-     "It ended at a hill called Cumorah — the last battle of a "
-     "thousand-year civilization. Hundreds of thousands fell, and the "
-     "prophet-general Mormon fell with them. When the smoke cleared, "
-     "one covenant keeper was left standing on the continent."),
+     "This is where the devil's road always goes. It ended at a hill "
+     "called Cumorah — hundreds of thousands fell, the prophet-general "
+     "Mormon with them. When the smoke cleared, one covenant keeper "
+     "was left standing on the continent."),
     ("s2", SCRIPTURE,
      "And my father also was killed by them, and I even remain alone to "
      "write the sad tale of the destruction of my people."),
@@ -50,13 +50,13 @@ SEGMENTS = [
      "suffer that I may live I know not."),
     ("n5", NARRATOR,
      "Moroni. Son of Mormon. The last believer of a dead nation — "
-     "hunted, homeless, and carrying the thousand-year record of God's "
-     "dealings with his people."),
+     "hunted, homeless, carrying the one record the devil's editors "
+     "never touched."),
     ("n6", NARRATOR,
      "And what does the loneliest man in history do with the record of "
      "the people who broke his heart? He does not burn it. He finishes "
-     "it. Alone, for years, he abridges, copies in his father's "
-     "letters, and writes his farewell."),
+     "it — alone, for years — because your freedom to choose would one "
+     "day hang on it."),
     ("n7", NARRATOR,
      "And in that farewell he does something astonishing. He writes to "
      "US — and explains how he can:"),

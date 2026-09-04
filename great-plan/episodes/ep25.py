@@ -22,8 +22,9 @@ SEGMENTS = [
      "was doing with the wait — because the dark centuries are covered "
      "with His fingerprints."),
     ("n2", NARRATOR,
-     "Nephi saw it all in vision, two thousand years early. A man among "
-     "the nations, moved upon by the Spirit, crossing the many waters:"),
+     "Nephi watched God's counter-moves in vision, two thousand years "
+     "early. A man among the nations, moved upon by the Spirit, "
+     "crossing the many waters:"),
     ("s1", SCRIPTURE,
      "And I looked and beheld a man among the Gentiles, who was "
      "separated from the seed of my brethren by the many waters; and I "
@@ -37,10 +38,10 @@ SEGMENTS = [
      "machine that made burning books pointless. The press. The word "
      "was out — forever."),
     ("n5", NARRATOR,
-     "Reformers rose. Luther, nailing his protest to a church door. "
-     "Calvin. Wesley, preaching in open fields. Good men. Brave men. "
-     "They saw that something was deeply wrong, and they fought it with "
-     "everything they had."),
+     "God kept raising fighters. Luther, nailing his protest to a "
+     "church door. Calvin. Wesley, preaching in open fields. Good men. "
+     "Brave men. They saw the famine, and fought it with everything "
+     "they had."),
     ("n6", NARRATOR,
      "And notice what not one of them ever claimed: God sent me with "
      "the keys. They claimed the church had drifted — true. They fixed "

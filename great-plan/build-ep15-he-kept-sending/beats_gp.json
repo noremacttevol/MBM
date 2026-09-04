@@ -1,0 +1,197 @@
+[
+ {
+  "era": "ancient",
+  "scene": "The unanswered call: a lone watchman stands on a city wall at coldest pre-dawn, wrapped in his cloak, looking out over dark silent country where no answer comes \u2014 seen from behind on the parapet walk, one small horn-lamp burning at his feet. The posture of waiting that has lasted years.",
+  "must_show": "a cloaked watchman from behind on a pre-dawn wall over dark silent country, one small lamp at his feet",
+  "must_not_show": "his face, armies, dawn yet, torches on the wall",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 9.498
+ },
+ {
+  "era": "ancient",
+  "scene": "The forgetting: at the edge of a harvest-fat village, a little roadside shrine crowded with small carved idols \u2014 fresh offerings of grapes, oil and coins heaped before them, a garland still green \u2014 while in the soft background the village feasts under lamplight. Prosperity, mid-drift.",
+  "must_show": "a tended roadside idol-shrine heaped with fresh offerings, feasting village soft behind",
+  "must_not_show": "worshippers close, faces, grotesque idols, darkness",
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 9.498,
+  "end": 16.619
+ },
+ {
+  "era": "ancient",
+  "scene": "The falling apart: the same country under a smoke-smudged sky \u2014 a farm family hurrying up a ridge-path away from the camera with bundles on their backs, the youngest looking back from a father's arms toward a distant column of black smoke rising off their valley. History's oldest bill, come due.",
+  "must_show": "a burdened family from behind hurrying up a ridge under a distant smoke column, small child looking back over a shoulder",
+  "must_not_show": "raiders visible, flames close, wounds, faces to camera",
+  "wide": true,
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 16.619,
+  "end": 25.305
+ },
+ {
+  "era": "ancient",
+  "scene": "Rising up betimes: an old prophet steps out of his stone doorway at the exact crack of dawn \u2014 staff in hand, worn satchel across his chest, the door still swinging behind him \u2014 seen from behind as he takes the long pale road that runs from his threshold to the horizon. The first light is barely up. He is already out in it.",
+  "must_show": "an old prophet from behind leaving his door at first light onto a long pale road, staff and satchel",
+  "must_not_show": "his face, companions, cities, darkness",
+  "wide": true,
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 25.305,
+  "end": 36.103
+ },
+ {
+  "era": "ancient",
+  "scene": "Compassion, weathered: the prophet's face in close profile against the dawn \u2014 deep-lined, wind-burned, and utterly tender in the set of the mouth, the eyes fixed on the road ahead with the softness of a man carrying someone else's rescue in his satchel.",
+  "must_show": "an old messenger's close profile, deep-lined and tender, eyes on the unseen road",
+  "must_not_show": "his eyes on the lens, tears, harshness, halo",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 36.103,
+  "end": 48.273
+ },
+ {
+  "era": "ancient",
+  "scene": "The secret revealed: a prophet on a flat rooftop at deep night, kneeling upright among the sleeping town's rooflines, face lifted to a sky crowded with stars, both hands open on his thighs \u2014 the receiving posture, held in complete stillness. One window burns dim in the town below.",
+  "must_show": "a prophet kneeling upright on a night rooftop, face lifted to dense stars, open hands, one dim window below",
+  "must_not_show": "his face close, angels, light descending, text",
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 48.273,
+  "end": 54.376
+ },
+ {
+  "era": "ancient",
+  "scene": "The relay: in warm darkness, one burning clay oil lamp passes between two pairs of hands \u2014 an old spotted hand releasing it, a young calloused hand receiving underneath \u2014 the flame steady through the exchange, nothing else in frame but the hands, the lamp, and the dark it holds off.",
+  "must_show": "a burning oil lamp mid-pass between an old hand and a young hand in warm darkness",
+  "must_not_show": "faces, sleeves modern, wind on the flame, text",
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 54.376,
+  "end": 69.12
+ },
+ {
+  "era": "ancient",
+  "scene": "Carmel, drenched: Elijah upends the last water-jar over an altar of stacked stones and cut wood \u2014 the water sheeting off the sacrifice, the trench around the base brimming and spilling \u2014 while behind him on the summit's far side the exhausted priests of Baal sprawl among their silent altar's smoke-less stones. Grey afternoon; one man, soaked confidence.",
+  "must_show": "Elijah pouring the last jar over a drenched altar with a brimming trench, exhausted rival priests sprawled far behind",
+  "must_not_show": "fire yet, blood, self-cutting shown, faces to camera",
+  "wide": true,
+  "locks": [
+   "ELIJAH"
+  ],
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 69.12,
+  "end": 83.688
+ },
+ {
+  "era": "ancient",
+  "scene": "THE FIRE FALLS: a blinding column of white fire strikes down from the low cloud straight onto the drenched altar \u2014 stones and water flashing to steam at its foot, the light of it hurled across the whole summit, the nearest onlookers flung back with arms across their faces \u2014 the column vertical, singular, and absolute. Elijah stands unmoved at its edge, small against the blaze.",
+  "must_show": "one vertical column of white fire striking the altar, steam-flash, onlookers flung back shielding, Elijah small and unmoved",
+  "must_not_show": "lightning bolts branching, faces to camera, the fire spreading",
+  "wide": true,
+  "locks": [
+   "ELIJAH"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 83.688,
+  "end": 94.195
+ },
+ {
+  "era": "ancient",
+  "scene": "The verdict: the whole multitude prostrate down the summit's slope \u2014 hundreds of backs and pressed-down faces flat to the stony ground in every direction \u2014 and one figure still standing among them: Elijah, mantle scorched with light, facing the smoking altar-scar against the torn sky. Seen from low within the prostrate crowd.",
+  "must_show": "a prostrate multitude flat to the ground with Elijah alone standing against the smoking altar-scar",
+  "must_not_show": "faces visible, cheering, the fire still falling",
+  "wide": true,
+  "locks": [
+   "ELIJAH"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 94.195,
+  "end": 101.2
+ },
+ {
+  "era": "ancient",
+  "scene": "Fire fades: the same summit a generation later \u2014 the altar's stones scattered and half-buried, thorn and yellow weed grown through the old trench-line, wind moving the grass under a plain grey sky. Nobody remembers. Nothing marks it.",
+  "must_show": "the scattered overgrown altar stones and weed-filled trench under plain grey sky",
+  "must_not_show": "people, monuments, drama, text",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 101.2,
+  "end": 113.189
+ },
+ {
+  "era": "ancient",
+  "scene": "The portrait begins: Isaiah at his writing-table by lamp, reed pen stopped mid-stroke on the scroll, his other hand pressed over his mouth and his eyes bright with tears at what he is being shown \u2014 the words beneath his pen soft and unreadable. The Servant, arriving in ink.",
+  "must_show": "Isaiah stopped mid-stroke, hand over mouth, wet bright eyes, unreadable scroll beneath the lamp",
+  "must_not_show": "readable words, his eyes on the lens, visions shown",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 113.189,
+  "end": 127.946
+ },
+ {
+  "era": "ancient",
+  "scene": "With his stripes: a shepherd sits on a stone holding a hurt lamb wrapped in a strip of his own torn mantle against his chest \u2014 the lamb's head resting under his chin, his eyes closed, one big hand covering the small bandaged flank. Isaiah's portrait, in the only language the centuries had. Close and still.",
+  "must_show": "a shepherd cradling a cloth-wrapped hurt lamb under his chin, eyes closed, hand over the bandaged flank",
+  "must_not_show": "blood visible, distress in the lamb, faces to camera",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 127.946,
+  "end": 138.454
+ },
+ {
+  "era": "ancient",
+  "scene": "The cost of carrying it: a prophet's dropped staff and spilled scroll-satchel lying on a stony road at dusk \u2014 the scrolls fanned loose in the dust, one sandal on its side a stride away, the road empty in both directions. The frame states it plainly: the runner did not drop these on purpose. No body is shown; nothing about it reads as rest.",
+  "must_show": "a dropped staff, spilled scrolls and one overturned sandal on an empty dusk road",
+  "must_not_show": "a body, blood, attackers, peaceful arrangement",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 138.454,
+  "end": 146.276
+ },
+ {
+  "era": "ancient",
+  "scene": "The next one came anyway: the same stony road at the next dawn \u2014 and a NEW messenger walking through the frame past the fallen satchel, caught mid-stride from the side, his jaw set, his own satchel on his chest, not stopping, eyes on the horizon ahead. The relay, refusing to end.",
+  "must_show": "a new messenger mid-stride past the fallen satchel at dawn, jaw set, eyes ahead",
+  "must_not_show": "his eyes on the lens, mourning pause, crowds",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 146.276,
+  "end": 152.677
+ },
+ {
+  "era": "ancient",
+  "scene": "A thousand years of receipts: a stone wall-niche stacked deep with worn scroll-cases and rolled parchments \u2014 leather ties frayed, edges gone velvet with handling, one lamp lighting the hoard of messages \u2014 every word soft and unreadable, every scroll a morning God rose early. Close.",
+  "must_show": "a lamplit niche stacked deep with worn unreadable scrolls and cases",
+  "must_not_show": "readable text, faces, dust of neglect",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 152.677,
+  "end": 159.397
+ },
+ {
+  "era": "modern",
+  "scene": "He still does: sunrise through a present-day kitchen window falling across an open well-worn book of scripture and a steaming mug on the table \u2014 the light laying a bright path across the unreadable pages, chairs empty, the house just waking. The morning message, still delivered daily.",
+  "must_show": "sunrise across an open worn scripture book and steaming mug on a kitchen table",
+  "must_not_show": "readable text, people, phone, brand marks",
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 159.397,
+  "end": 163.428
+ },
+ {
+  "era": "ancient",
+  "scene": "The road, forever: a pale dawn road running dead straight to the horizon between dew-grey fields \u2014 and far down it, one small figure with a staff walking away into the light, unhurried, constant. The last frame of a messenger who has never once stopped.",
+  "must_show": "one small staff-bearing figure far down a straight dawn road walking into the light",
+  "must_not_show": "his face, vehicles, wires, text",
+  "wide": true,
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 163.428,
+  "end": 166.116
+ }
+]

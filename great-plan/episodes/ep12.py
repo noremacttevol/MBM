@@ -35,9 +35,9 @@ SEGMENTS = [
      "continually."),
     ("n4", NARRATOR,
      "Understand what that means for the plan. This world exists so "
-     "children can be raised free to choose God. A world with no good "
-     "option left — where every child is born into violence and trained "
-     "to violence — is not a school anymore. The plan itself was "
+     "children can be raised free to choose God. The devil had built a "
+     "world with no good option left — every child born into violence, "
+     "trained to violence. Not a school anymore. The plan itself was "
      "bleeding out."),
     ("s3", SCRIPTURE,
      "And it repented the Lord that he had made man on the earth, and it "

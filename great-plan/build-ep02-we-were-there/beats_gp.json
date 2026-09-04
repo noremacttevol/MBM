@@ -1,0 +1,243 @@
+[
+ {
+  "era": "heaven",
+  "scene": "The premortal council court again, re-established from a new high angle: the ocean of white-robed men and women of every ancestry filling the descending luminous terraces, all facing the distant bright dais, the camera high behind the rear ranks shooting down past their heads and shoulders. Dawn-gold light over everything; not one face toward the lens.",
+  "must_show": "the vast white-robed council seen from high behind toward the distant bright dais",
+  "must_not_show": "any face to camera, wings, cream robes in the crowd, beams",
+  "wide": true,
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 7.437
+ },
+ {
+  "era": "ancient",
+  "scene": "Young Jeremiah alone at night: a thin young man in rough prophet's wool sits against a mud-brick wall by a single clay lamp, knees drawn up, face lifted from his hands as if a voice just said his name \u2014 three-quarter profile, lamplight warm on a face too young for the call it is receiving.",
+  "must_show": "a very young man by lamplight against mud-brick, face lifting in three-quarter, startled awe",
+  "must_not_show": "his eyes on the lens, scrolls with readable text, halo",
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 7.437,
+  "end": 15.347
+ },
+ {
+  "era": "ancient",
+  "scene": "Known before the womb: a close, reverent frame of an ancient mother's hands resting on her heavily pregnant belly, warm lamplight raking the woven earth-tone cloth of her dress, one thumb moving in a slow caress. No face in frame \u2014 just the hands, the curve, and the light.",
+  "must_show": "two hands resting warm on a pregnant belly in lamplight, close",
+  "must_not_show": "faces, jewellery, modern fabric, text",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 15.347,
+  "end": 27.757
+ },
+ {
+  "era": "ancient",
+  "scene": "Job on the ash heap: a ruined man kneeling in grey dust outside a broken wall at dusk, garments torn, and his head RISING \u2014 caught in the exact moment his downcast face begins to lift toward the sky, seen in profile from beside him. The last light catches the tear tracks and the first flicker of remembering.",
+  "must_show": "a devastated kneeling man in profile, head caught mid-lift toward the sky at dusk",
+  "must_not_show": "his eyes on the lens, boils overdone, comforters present",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 27.757,
+  "end": 37.576
+ },
+ {
+  "era": "heaven",
+  "scene": "The foundations of the earth, watched from heaven: far below an immense vantage, a world half-made \u2014 dark ocean sheets and seams of new stone spreading under slow veils of cloud, morning light flooding across the curve of it \u2014 vast, silent, mid-creation. No figures anywhere; pure scale and birth.",
+  "must_show": "a half-formed world of new ocean and stone seen from far above, morning light crossing it",
+  "must_not_show": "any figure, modern continents recognizable, text, rays",
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 37.576,
+  "end": 44.254
+ },
+ {
+  "era": "heaven",
+  "scene": "The shout at the foundations: along the court's outer balustrade, a great rank of white-robed spirits with arms flung high, caught mid-cheer \u2014 seen from behind and beside so the joy sweeps away from the camera and out toward the bright deep beyond the rail where the new world is being built below. Not one face turns back; the jubilation is aimed outward.",
+  "must_show": "a rank of spirits from behind with arms flung high toward the bright deep beyond the balustrade",
+  "must_not_show": "faces to camera, wings, the earth visible in detail, beams",
+  "wide": true,
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 44.254,
+  "end": 49.09
+ },
+ {
+  "era": "heaven",
+  "scene": "The joy up close: five or six young faces of different ancestries mid-cheer \u2014 laughing, tears bright, arms half-raised, every gaze aimed up and left past the camera toward the unseen new world. Real teeth, real tears, real joy; nobody looks at the lens.",
+  "must_show": "five or six cheering tearful joyful faces aimed up-left past the camera",
+  "must_not_show": "anyone facing the lens, wings, glowing skin, cream robes",
+  "locks": [
+   "HOSTS"
+  ],
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 49.09,
+  "end": 61.322
+ },
+ {
+  "era": "ancient",
+  "scene": "Abraham under the desert stars: the aged patriarch stands outside his tent at full night, head back, face washed in starlight as the whole sweep of the heavens burns above the black horizon \u2014 seen from behind and beside, his silver beard and mantle edge-lit by a low fire out of frame.",
+  "must_show": "an aged patriarch from behind-beside, head back under an immense starry sky, tent and fire-warmth at the edge",
+  "must_not_show": "his eyes on the lens, telescope, city light, beams",
+  "wide": true,
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 61.322,
+  "end": 61.322
+ },
+ {
+  "era": "heaven",
+  "scene": "What Abraham was shown: ranks upon ranks of white-robed spirits standing in ordered assembly, receding row after row into brilliant distance \u2014 and EVERY VISIBLE PERSON IS A DIFFERENT INDIVIDUAL: different faces, heights, builds and ancestries in every row, no repeated face, no mirrored or duplicated rows, no tiling pattern \u2014 a real crowd, not a pattern, dissolving into light \u2014 seen from a raised angle along the front rank's profile so the endless organization of them is the subject. Among the nearest rows, a scattering of faces carry unmistakable gravity and command \u2014 the noble and great ones \u2014 every gaze aimed forward, none at the lens.",
+  "must_show": "ordered ranks of spirits receding into brilliant distance, nearest rows carrying visible gravity, seen along the profile",
+  "must_not_show": "faces to camera, wings, military uniforms, banners",
+  "wide": true,
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 61.322,
+  "end": 71.218
+ },
+ {
+  "era": "heaven",
+  "scene": "Chosen before birth: the Father stands before a small group of a dozen spirits at the court's edge, His hand extended palm-up toward ONE young man at the group's front \u2014 a commission, not a summons \u2014 seen from beside the group in three-quarter so the Father's warm profile and the young man's awed profile face each other across the open hand. The others watch the exchange; nobody faces the lens.",
+  "must_show": "the Father's open palm-up hand extended to one awed young spirit before a small watching group, profiles facing across the gesture",
+  "must_not_show": "either face to the lens, kneeling, crowns, wings, halos",
+  "locks": [
+   "FATHER",
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 71.218,
+  "end": 79.174
+ },
+ {
+  "era": "first-century",
+  "scene": "Paul in Athens: the apostle mid-stride on the stone of Mars Hill, one arm sweeping toward the marble city and its temples below, his weathered bearded face in profile fired with conviction \u2014 the camera behind his listeners' shoulders so the gesture carries out over Athens. Bright Mediterranean light.",
+  "must_show": "a bearded apostle mid-gesture over marble Athens from behind his listeners' shoulders",
+  "must_not_show": "faces to camera, readable inscriptions, togas in cream",
+  "wide": true,
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 79.174,
+  "end": 90.044
+ },
+ {
+  "era": "first-century",
+  "scene": "The listeners on Mars Hill: a tight group of Athenian faces \u2014 an old philosopher, a young sceptic, a woman at the edge \u2014 caught at the moment the words land: offspring of God. Furrowed brows loosening, eyes fixed left past the camera on the unseen speaker. Marble and bright sky soft behind.",
+  "must_show": "struck Athenian faces aimed left past the camera, scepticism loosening into wonder",
+  "must_not_show": "anyone facing the lens, laughter, scrolls with readable text",
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 90.044,
+  "end": 98.877
+ },
+ {
+  "era": "modern",
+  "scene": "The family truth, now: three generations on a porch at golden hour \u2014 a grandmother mid-laugh, parents leaning on the rail, kids sprawled on the steps \u2014 every face turned into the conversation or the sunset, none toward the camera, which watches from the yard past a porch post. Warm, ordinary, eternal.",
+  "must_show": "a three-generation family on a golden-hour porch, all faces into the conversation or the light",
+  "must_not_show": "anyone facing the lens, phones, brand logos, readable text",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 98.877,
+  "end": 111.932
+ },
+ {
+  "era": "modern",
+  "scene": "Traffic, re-seen: a city crosswalk at golden hour, a stream of ordinary people mid-stride crossing away from and across the camera \u2014 a nurse, a workman, an old man with a cane, a student \u2014 long warm light throwing their shadows, every face in profile or turned away. Older than the earth, all of them.",
+  "must_show": "ordinary crosswalk crowd mid-stride in long golden light, faces away or in profile",
+  "must_not_show": "anyone facing the lens, readable signs or screens, brand logos",
+  "wide": true,
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 111.932,
+  "end": 117.288
+ },
+ {
+  "era": "modern",
+  "scene": "A child asleep in a parent's arms in a dim modern living room, evening lamp warm behind them \u2014 the parent's cheek resting on the small head, both faces soft, eyes closed, close frame. The one in the arms watched the foundations of the world.",
+  "must_show": "a sleeping child against a parent's shoulder, both eyes closed, warm lamp light, close",
+  "must_not_show": "open eyes to the lens, screens, brand marks",
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 117.288,
+  "end": 121.572
+ },
+ {
+  "era": "modern",
+  "scene": "The mirror: a person stands in a morning hallway facing a wall mirror, seen from behind their shoulder \u2014 and the reflected face is dissolved in the window light flooding across the glass, a bright soft shape no one could identify. It could be anyone. It is the viewer.",
+  "must_show": "a person from behind facing a mirror whose reflection is washed unidentifiable by window light",
+  "must_not_show": "an identifiable reflected face, bathroom clutter, brand marks",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 121.572,
+  "end": 125.321
+ },
+ {
+  "era": "modern",
+  "scene": "A young man sits on the FLOOR of a dark modern bedroom, his back against the side of his bed, knees drawn up \u2014 seen FULL-LENGTH from the front-side at floor level, the whole VERTICAL of the dark room above him filling the top half of the frame. The only light is a cold blue-white spill rising from an unseen screen at his knees, hollowing his down-turned face. The darkness above and around him is FORMLESS \u2014 bare dim wall and ceiling shadow, empty of any shape. His gaze is down at the light.",
+  "must_show": "a young face hollowed by cold screen-light in pressing formless dark, gaze down, shoulders sunk",
+  "must_not_show": "ANY shape or figure in the darkness, a readable screen, his eyes on the lens",
+  "devil": true,
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 125.321,
+  "end": 138.953
+ },
+ {
+  "era": "modern",
+  "scene": "The counter-move: a different young woman throws open heavy curtains and morning light floods over her \u2014 caught from beside the window so the light crosses the frame onto her lifted face and the room wakes up behind her: plants, books, colour. Her eyes are closed into the warmth; the darkness is simply gone.",
+  "must_show": "a young woman opening curtains, morning light flooding her closed-eyed lifted face and waking the room",
+  "must_not_show": "her eyes on the lens, halo effects, brand marks, screens",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 138.953,
+  "end": 150.872
+ },
+ {
+  "era": "heaven",
+  "scene": "The choice, remembered: back in the premortal court \u2014 one young spirit with SHORT dark hair, seen from directly behind, stepping forward out of the front rank toward a broad even warm brightness that fills the whole horizon ahead \u2014 never a circle, burst or disc of light, and nothing bright centred behind his head. His robe is the hosts' bright pure WHITE, unmistakably not cream. Face never visible. The same step every person on earth once took.",
+  "must_show": "one spirit from directly behind mid-step toward immense warm light, face never visible",
+  "must_not_show": "his face or profile, anyone else near the lens, beams",
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 150.872,
+  "end": 158.235
+ },
+ {
+  "era": "modern",
+  "scene": "The choice, arriving: a newborn lifted wet and crying into warm lamplight by its father's two careful hands in a dim home birth room, the mother's exhausted radiant face soft in the background blur \u2014 first breath of the life that was chosen before the world.",
+  "must_show": "a father's two hands lifting a crying newborn into warm light, mother's soft radiant blur beyond",
+  "must_not_show": "clinical equipment, graphic detail, anyone facing the lens",
+  "id": "p20",
+  "out": "p20.jpeg",
+  "start": 158.235,
+  "end": 161.85
+ },
+ {
+  "era": "modern",
+  "scene": "Living like you chose it: a man steps out his front door into full morning sun, jacket over one shoulder, seen from behind at the threshold as the light takes him \u2014 the door frame dark around the camera, the world ahead bright and wide open.",
+  "must_show": "a man from behind stepping through his front door into wide bright morning",
+  "must_not_show": "his face, house numbers or readable mail, brand marks",
+  "id": "p21",
+  "out": "p21.jpeg",
+  "start": 161.85,
+  "end": 164.26
+ }
+]

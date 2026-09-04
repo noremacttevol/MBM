@@ -1,0 +1,221 @@
+[
+ {
+  "era": "heaven",
+  "scene": "The unfinished world from high above: a half-made planet \u2014 its landmasses RAW BARE STONE in greys and rust-browns with NO green anywhere, no familiar continent shapes, seams of dark new ocean between them, slow spirals of young cloud \u2014 morning light flooding across the curve from off-frame (the sun itself NEVER in frame, no starburst, no flare). Construction at planetary scale. No figures.",
+  "must_show": "a half-built world of new ocean and raw stone under morning light from space",
+  "must_not_show": "any figure, modern continent shapes, text, satellites",
+  "id": "p01",
+  "out": "p01.jpeg",
+  "start": 0.0,
+  "end": 10.528
+ },
+ {
+  "era": "heaven",
+  "scene": "We will go down: at the court's balustrade the Son stands in his cream robe with a small council of a dozen noble spirits around him, his arm extended out over the rail toward the deep where the unmade world waits \u2014 every face turned to follow the line of his arm, none toward the camera, which stands behind the group's shoulders shooting past them into the bright depth.",
+  "must_show": "the Son's extended arm aiming a small council's gazes out over the balustrade into bright depth, seen from behind the group",
+  "must_not_show": "faces to camera, halo, wings, blueprints or scrolls",
+  "jesus": true,
+  "ref": true,
+  "wide": true,
+  "locks": [
+   "COURT",
+   "HOSTS"
+  ],
+  "id": "p02",
+  "out": "p02.jpeg",
+  "start": 10.528,
+  "end": 24.089
+ },
+ {
+  "era": "ancient",
+  "scene": "The Builder's coastline: from very high, a young rugged coast where a dark ocean carves white surf against new mountains \u2014 long shadows of early morning, mist in the valleys, the land raw and unworn. Order arriving out of material. No figures, no life yet.",
+  "must_show": "a raw new coastline of surf, stone and valley mist from high above",
+  "must_not_show": "trees, animals, boats, buildings, figures",
+  "id": "p03",
+  "out": "p03.jpeg",
+  "start": 24.089,
+  "end": 34.52
+ },
+ {
+  "era": "ancient",
+  "scene": "Light over the deep: a dark primal sea from near the water, and across the whole horizon the first full dawn breaking \u2014 gold light running toward the camera down the swells, cloud banks burning slow above. The oldest morning. No land, no figures.",
+  "must_show": "first dawn light running down dark ocean swells toward the camera",
+  "must_not_show": "land, ships, birds, figures, drawn rays",
+  "id": "p04",
+  "out": "p04.jpeg",
+  "start": 34.52,
+  "end": 39.813
+ },
+ {
+  "era": "ancient",
+  "scene": "Organized material: the sheer face of a great canyon wall in evening light \u2014 hundreds of rock strata stacked level and true like coursed masonry, a river threading the gorge floor far below. Stone that reads as MASONRY at a planetary scale. No people.",
+  "must_show": "level stacked strata in a vast canyon wall like coursed masonry, river far below",
+  "must_not_show": "climbers, rails, text, buildings",
+  "wide": true,
+  "id": "p05",
+  "out": "p05.jpeg",
+  "start": 39.813,
+  "end": 52.719
+ },
+ {
+  "era": "ancient",
+  "scene": "The finished classroom: a pristine green valley from a high shoulder \u2014 river loops, meadow, herds of deer grazing unafraid, morning mist burning off \u2014 a world set like a table before anyone arrives to sit down. No people.",
+  "must_show": "a pristine green valley with grazing herds and burning-off mist, no people",
+  "must_not_show": "fences, fields, smoke, buildings, people",
+  "wide": true,
+  "id": "p06",
+  "out": "p06.jpeg",
+  "start": 52.719,
+  "end": 57.391
+ },
+ {
+  "era": "ancient",
+  "scene": "The course, laid out: a bare footpath switchbacking up a great mountain shoulder into high light \u2014 worn into the stone as if waiting for its first walker, climbing out of green into granite into sky. Empty. The test visible as terrain.",
+  "must_show": "an empty switchback path climbing a mountain from green to granite to sky",
+  "must_not_show": "signs, people, ropes, buildings",
+  "wide": true,
+  "id": "p07",
+  "out": "p07.jpeg",
+  "start": 57.391,
+  "end": 65.205
+ },
+ {
+  "era": "ancient",
+  "scene": "Weather over the range: rain curtains dragging across distant peaks while near slopes stand in sun \u2014 the proving-ground climate, hard and bright in the same frame, an eagle riding the wind between. Dramatic without menace.",
+  "must_show": "sun and dragging rain sharing one mountain range, an eagle riding between",
+  "must_not_show": "lightning striking, tornado, darkness dominating, figures",
+  "wide": true,
+  "id": "p08",
+  "out": "p08.jpeg",
+  "start": 65.205,
+  "end": 73.38
+ },
+ {
+  "era": "heaven",
+  "scene": "Known perfectly: the Father at the court's rail, seen in tender near-profile, looking down toward the small bright new world far below in the deep \u2014 the expression of a parent watching a nursery being finished. Warm light on His face; the world a soft blue-white brightness beyond the rail.",
+  "must_show": "the Father's tender near-profile at the rail over the small bright new world below",
+  "must_not_show": "His eyes on the lens, halo, tears, wings",
+  "locks": [
+   "FATHER",
+   "COURT"
+  ],
+  "id": "p09",
+  "out": "p09.jpeg",
+  "start": 73.38,
+  "end": 78.877
+ },
+ {
+  "era": "ancient",
+  "scene": "Resistance as design: a wild ibex mid-leap on a near-vertical cliff face, hooves finding an impossible ledge, the void yawning below \u2014 gravity and mastery in one frame, morning light raking the rock. The gym, in use.",
+  "must_show": "an ibex mid-leap on a near-vertical cliff over deep air",
+  "must_not_show": "falling, blood, people, text",
+  "id": "p10",
+  "out": "p10.jpeg",
+  "start": 78.877,
+  "end": 82.541
+ },
+ {
+  "era": "ancient",
+  "scene": "Human resistance: an ancient farmer building a terrace wall on a steep hillside \u2014 mid-lift with a heavy stone at his waist, forearms corded, completed courses of wall stepping down the slope behind him, terraced green already growing where he has finished. Seen from the side; his gaze is on the wall.",
+  "must_show": "a farmer mid-lift setting a heavy stone on a steep hillside terrace, finished courses behind",
+  "must_not_show": "his eyes on the lens, machinery, metal scaffolding",
+  "id": "p11",
+  "out": "p11.jpeg",
+  "start": 82.541,
+  "end": 85.594
+ },
+ {
+  "era": "ancient",
+  "scene": "Added upon: a lone shepherd cresting a high ridge line at sunrise, staff in hand, seen full-length from directly behind at the exact moment the rising light breaks over the ridge onto him \u2014 the climb behind him falling away into shadowed valley, the light ahead taking his shoulders. The camera stays low on the trail behind him.",
+  "must_show": "a shepherd from directly behind cresting a sunrise ridge, light breaking onto him, valley shadow below",
+  "must_not_show": "his face, drawn rays, halo, other people",
+  "wide": true,
+  "id": "p12",
+  "out": "p12.jpeg",
+  "start": 85.594,
+  "end": 97.712
+ },
+ {
+  "era": "modern",
+  "scene": "The same play at heavier weight, today: on a steep modern mountain trail, one hiker leans back to grip the forearm of another and pull them up a rock step \u2014 both seen from the side, faces turned to the rock and each other, daypacks and worn boots, valley air behind. Effort and help in one motion.",
+  "must_show": "one hiker pulling another up a rock step by the forearm, side view, faces on the rock and each other",
+  "must_not_show": "faces to camera, brand logos, readable gear text",
+  "id": "p13",
+  "out": "p13.jpeg",
+  "start": 97.712,
+  "end": 115.448
+ },
+ {
+  "era": "ancient",
+  "scene": "The unanswered how: a spiral ammonite fossil the size of a wheel embedded in a cliff face, evening light raking its ridges \u2014 deep time written in stone, beautiful and unexplained, a fingertip's distance from the camera. No people, no text.",
+  "must_show": "a great spiral fossil embedded in raking evening light, extreme close",
+  "must_not_show": "museum settings, labels, hands, text",
+  "id": "p14",
+  "out": "p14.jpeg",
+  "start": 115.448,
+  "end": 125.066
+ },
+ {
+  "era": "ancient",
+  "scene": "Deep time at dusk: banded canyon strata burning amber and rose in the last light, each layer a page nobody has fully read, the river's sound implied far below in the purple shadow. Reverent, unhurried. No people.",
+  "must_show": "banded canyon walls in amber dusk light over purple shadow",
+  "must_not_show": "climbers, rails, text, drawn rays",
+  "wide": true,
+  "id": "p15",
+  "out": "p15.jpeg",
+  "start": 125.066,
+  "end": 132.935
+ },
+ {
+  "era": "ancient",
+  "scene": "Curriculum: a lone wind-bent tree on an exposed ridge in the full lash of a rainstorm \u2014 trunk leaning hard, every branch streaming one direction, roots gripping split rock \u2014 and holding. Grey driving weather. The ridge is COMPLETELY EMPTY apart from the tree: no person, no animal, no shape, no shadow-figure anywhere near or under it.",
+  "must_show": "a wind-lashed lone tree holding an otherwise completely empty ridge in driving rain",
+  "must_not_show": "ANY person, figure, silhouette or shape under or near the tree; lightning striking it; broken limbs falling",
+  "id": "p16",
+  "out": "p16.jpeg",
+  "start": 132.935,
+  "end": 142.245
+ },
+ {
+  "era": "ancient",
+  "scene": "After the lesson: the same ridge in clean washed morning light \u2014 the tree upright and green, rain steaming off its bark and the split rock, the storm's last clouds bright and breaking up behind it. Stronger where it bent.",
+  "must_show": "the same lone tree green and steaming in washed morning light, storm breaking up behind",
+  "must_not_show": "damage, people, rainbows, text",
+  "id": "p17",
+  "out": "p17.jpeg",
+  "start": 142.245,
+  "end": 149.863
+ },
+ {
+  "era": "ancient",
+  "scene": "Not his: the whole earth, blue and white and immense, hanging in black space with its day side in full brilliance \u2014 oceans burning turquoise at the sun-line, cloud systems wheeling slow \u2014 unowned by any thief, signed by its Builder. No figures, no text.",
+  "must_show": "the whole brilliant blue-white earth in black space, day side full",
+  "must_not_show": "figures, satellites, text, country outlines",
+  "id": "p18",
+  "out": "p18.jpeg",
+  "start": 149.863,
+  "end": 155.977
+ },
+ {
+  "era": "ancient",
+  "scene": "Your Father's school: a golden wheat-field path in low evening light, and far down it a family \u2014 father, mother, three children \u2014 walking away from the camera toward the bright end of the path, the smallest child's hand up in the father's. The camera stays low at the path's mouth behind them.",
+  "must_show": "a family of five from behind walking down a golden field path into low light",
+  "must_not_show": "faces turned back, buildings, wires, modern clothing details",
+  "wide": true,
+  "id": "p19",
+  "out": "p19.jpeg",
+  "start": 155.977,
+  "end": 159.645
+ },
+ {
+  "era": "ancient",
+  "scene": "Architecture, signed: sunrise breaking over a great mountain rampart \u2014 the first light hitting the summit towers and pouring down the faces in gold while the valleys hold their blue \u2014 vast, deliberate, and beautiful. The closer's frame. No people.",
+  "must_show": "sunrise hitting mountain summit towers and pouring gold down their faces over blue valleys",
+  "must_not_show": "drawn rays, halo shapes, people, text",
+  "wide": true,
+  "id": "p20",
+  "out": "p20.jpeg",
+  "start": 159.645,
+  "end": 162.091
+ }
+]
