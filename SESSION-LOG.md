@@ -1,3 +1,30 @@
+## 2026-09-03 — THE WAR RE-AUTHOR SHIPPED: whole series now speaks the agency-war voice
+**Machine:** A (Dev) · **Commit:** a006c4041
+
+Cameron: "can you fix it fast." Applied the SENSE-MAKING LAW across the entire
+series in one session. Method: 4 parallel drafting subagents (each briefed with
+the law + ep27/ep28 as voice models + hard rules: narrator lines only, scriptures
+verbatim, seg ids fixed, word count <= original, picture-subject fit), every
+drafted line REVIEWED by the main session before applying; 2 of 4 agent reports
+truncated mid-output -> resend-request pattern recovered all blocks. 66 narrator
+lines rewritten across 26 episodes; eps 1/3/4/19/31 verified war-native and left
+untouched (approvals intact); 27/28 already carried the voice.
+
+Conveyor: 4 serialized waves (rm changed segs -> audio -> gate exit-0 -> wire
+duration guard >178.5 -> assemble), monitor on results. 26/26 DONE, zero FAIL,
+zero OVER — every cut 157.9-178.5s. $0 images (same pictures), ElevenLabs only.
+All 26 cards re-wired (hash a006c4041 wave) with the re-author note; approvals on
+touched rows void by design (REDO-ALL precedent — his course correction outranks
+them). Signature lines now in the film: "Why weep, instead of stopping it?
+Because stopping it takes the one thing He will not take — your freedom" (ep11);
+"once no one may ask God anything, no one can ever check what got changed"
+(ep23); "the one record the devil's editors never touched" (ep24); "Heaven ASKS —
+free to refuse, says yes" (ep17); "dazzled people do not choose" (ep18).
+
+**State: all 33 live in the corrected voice, all <3:00, board clean.**
+**Next:** Cameron re-watches the series; then bulk social launch kit + app watch
+folder on his go. Pages workflow install still his one open task.
+
 ## 2026-09-02 — GP complaint round: rows 324/326/327/328 shipped (possessive fix, character locks, ep28 war re-author)
 **Machine:** A (Dev) · **Commit:** 5f18cf2d1 · peer mbm-93 relayed + wrote the laws (9a10e9686)
 
