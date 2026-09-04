@@ -1,3 +1,34 @@
+## 2026-09-04 (Claude, Machine A `Dev`) — **OMARCHY MIGRATION: BACKUP SHIPPED + VERIFIED, MACHINE CLEARED FOR WIPE**
+
+This is (likely) the LAST session on the Ubuntu install. Cameron is wiping Dev and
+installing Omarchy himself today.
+
+**What shipped:**
+- **Fast-lane backup VERIFIED on the Seagate** (`backup-2026-09-04/home-recent.tar`,
+  417,245,214,720 bytes, sha256 readback-matched `4818cd58…463a61`): all named
+  important dirs (content farm, AI-Content-Machine, FPA, .hermes, .claude memory,
+  .config, .ssh/.gnupg, .local, snap, Documents/Downloads/Archive/Screenshots/
+  PLC/DSDT/ROS, open-webui) + EVERY home file touched ≤35 days (incl. recent MBM
+  media). Cameron chose fast-lane over full: caches/Docker VM/Ollama models dropped
+  (re-downloadable). `RESTORE-README.txt` sits beside the tar.
+- **Install stick:** Omarchy 4.0.2 dd'd + sha-verified (stick's old 2,376 files
+  archived to the Seagate first). Triple identity check (by-id/model/size) before dd.
+- **Three NEW private repos** pushed (Cameron: "should never rely so heavily on one
+  operating system"): `content-farm`, `ai-content-machine`, `fpa-project`
+  (.env/secrets excluded from git — they're in the tar). All 8 repos synced.
+- **Runbook** (`Brain/ai-tools/Omarchy-Migration-Runbook.md`) updated with
+  WHAT-ACTUALLY-SHIPPED banner; simple install steps in Cameron's Google Drive
+  ("START HERE — Omarchy Install (simple)").
+
+**Hard lessons (for any future bulk copy):** the Seagate BUP chokes below 1MB/s on
+millions of small files (rsync burned 7h for 18GB; SMR-class behavior) but streams
+60+MB/s — tar-stream to it, never file-by-file rsync. ntfs3 kernel driver previously
+wedged unkillable (8/28); always remount ntfs-3g before writes.
+
+**Next session (on Omarchy):** follow RESTORE-README.txt on the Seagate; re-clone
+repos; reinstate crontab; re-pull Ollama models. Machine identity table may need
+the new hostname added.
+
 ## 2026-09-03 — THE WAR RE-AUTHOR SHIPPED: whole series now speaks the agency-war voice
 **Machine:** A (Dev) · **Commit:** a006c4041
 
